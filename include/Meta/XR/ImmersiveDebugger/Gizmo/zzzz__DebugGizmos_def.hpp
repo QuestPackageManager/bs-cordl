@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/DebugGizmos.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\DebugGizmos.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,10 +67,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x5a6a774, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5a6ec30, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x5a680e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a6c5a4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
   /// @brief Convert to "::System::IDisposable"
@@ -84,7 +84,7 @@ public:
   constexpr DebugGizmos_ColorScope(::UnityEngine::Color _savedColor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18474 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -150,57 +150,57 @@ public:
   /// @brief Field _root, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__root, put = setStaticF__root)) ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos> _root;
 
-  /// @brief Method AddSegment, addr 0x5a67430, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method AddSegment, addr 0x5a6b8ec, size 0x278, virtual false, abstract: false, final false
   inline void AddSegment(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, float_t width, ::UnityEngine::Color color0, ::UnityEngine::Color color1);
 
-  /// @brief Method ClearSegments, addr 0x5a67104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearSegments, addr 0x5a6b5c0, size 0x8, virtual false, abstract: false, final false
   inline void ClearSegments();
 
-  /// @brief Method DrawAxis, addr 0x5a68178, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method DrawAxis, addr 0x5a6c634, size 0xa8, virtual false, abstract: false, final false
   static inline void DrawAxis(::UnityEngine::Pose pose, float_t size);
 
-  /// @brief Method DrawAxis, addr 0x5a67e04, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method DrawAxis, addr 0x5a6c2c0, size 0x2e4, virtual false, abstract: false, final false
   static inline void DrawAxis(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t size);
 
-  /// @brief Method DrawAxis, addr 0x5a68220, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DrawAxis, addr 0x5a6c6dc, size 0xd8, virtual false, abstract: false, final false
   static inline void DrawAxis(::UnityEngine::Transform* t, float_t size);
 
-  /// @brief Method DrawBox, addr 0x5a692a0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method DrawBox, addr 0x5a6d75c, size 0xf0, virtual false, abstract: false, final false
   static inline void DrawBox(::UnityEngine::Pose pose, float_t width, float_t height, float_t depth, bool isPivotTopSurface);
 
-  /// @brief Method DrawBox, addr 0x5a68a28, size 0x878, virtual false, abstract: false, final false
+  /// @brief Method DrawBox, addr 0x5a6cee4, size 0x878, virtual false, abstract: false, final false
   static inline void DrawBox(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t width, float_t height, float_t depth, bool isPivotTopSurface);
 
-  /// @brief Method DrawLine, addr 0x5a67938, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DrawLine, addr 0x5a6bdf4, size 0x160, virtual false, abstract: false, final false
   static inline void DrawLine(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Transform* t);
 
-  /// @brief Method DrawPlane, addr 0x5a68954, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method DrawPlane, addr 0x5a6ce10, size 0xd4, virtual false, abstract: false, final false
   static inline void DrawPlane(::UnityEngine::Pose pose, float_t width, float_t height);
 
-  /// @brief Method DrawPlane, addr 0x5a682f8, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method DrawPlane, addr 0x5a6c7b4, size 0x65c, virtual false, abstract: false, final false
   static inline void DrawPlane(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t width, float_t height);
 
-  /// @brief Method DrawPoint, addr 0x5a67810, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method DrawPoint, addr 0x5a6bccc, size 0x128, virtual false, abstract: false, final false
   static inline void DrawPoint(::UnityEngine::Vector3 p0, ::UnityEngine::Transform* t);
 
-  /// @brief Method DrawWireCube, addr 0x5a67a98, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method DrawWireCube, addr 0x5a6bf54, size 0x36c, virtual false, abstract: false, final false
   static inline void DrawWireCube(::UnityEngine::Vector3 center, float_t size, ::UnityEngine::Transform* t);
 
-  /// @brief Method Init, addr 0x5a66644, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5a6ab00, size 0x88, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method LateUpdate, addr 0x5a673ac, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5a6b868, size 0x84, virtual true, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5a66f90, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a6b44c, size 0x80, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5a6697c, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5a6ae38, size 0x114, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RenderSegments, addr 0x5a6710c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method RenderSegments, addr 0x5a6b5c8, size 0x34, virtual false, abstract: false, final false
   inline void RenderSegments();
 
   constexpr bool const& __cordl_internal_get__addedSegmentSinceLastUpdate() const;
@@ -233,7 +233,7 @@ public:
 
   constexpr void __cordl_internal_set__polylineRenderer(::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* value);
 
-  /// @brief Method .ctor, addr 0x5a69390, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a6d84c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* getStaticF_CUBE_POINTS();
@@ -252,13 +252,13 @@ public:
 
   static inline ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos> getStaticF__root();
 
-  /// @brief Method get_RenderSinglePass, addr 0x5a676a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_RenderSinglePass, addr 0x5a6bb64, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_RenderSinglePass();
 
-  /// @brief Method get_Renderer, addr 0x5a66a90, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_Renderer, addr 0x5a6af4c, size 0xa0, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* get_Renderer();
 
-  /// @brief Method get_Root, addr 0x5a666cc, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method get_Root, addr 0x5a6ab88, size 0x2b0, virtual false, abstract: false, final false
   static inline ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos> get_Root();
 
   static inline void setStaticF_CUBE_POINTS(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* value);
@@ -277,7 +277,7 @@ public:
 
   static inline void setStaticF__root(::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos> value);
 
-  /// @brief Method set_RenderSinglePass, addr 0x5a67704, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method set_RenderSinglePass, addr 0x5a6bbc0, size 0x10c, virtual false, abstract: false, final false
   static inline void set_RenderSinglePass(bool value);
 
 protected:
@@ -295,7 +295,7 @@ public:
   DebugGizmos(DebugGizmos const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18475 };
 
   /// @brief Field _points, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* ____points;

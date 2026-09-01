@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BufferDesc.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BufferDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 struct CORDL_TYPE BufferDesc {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x67dcc68, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67e46e4, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x67dcc40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e46bc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t count, int32_t stride);
 
-  /// @brief Method .ctor, addr 0x67dcc58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e46d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t count, int32_t stride, ::UnityEngine::GraphicsBuffer_Target target);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr BufferDesc(int32_t count, int32_t stride, ::StringW name, ::UnityEngine::GraphicsBuffer_Target target, ::UnityEngine::GraphicsBuffer_UsageFlags usageFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12440 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

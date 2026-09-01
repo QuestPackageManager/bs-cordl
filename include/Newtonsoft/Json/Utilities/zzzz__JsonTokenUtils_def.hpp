@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/JsonTokenUtils.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\JsonTokenUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +22,13 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE JsonTokenUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsEndToken, addr 0x5d15554, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEndToken, addr 0x5d19a10, size 0x10, virtual false, abstract: false, final false
   static inline bool IsEndToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method IsPrimitiveToken, addr 0x5d28f38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitiveToken, addr 0x5d2d3f4, size 0x18, virtual false, abstract: false, final false
   static inline bool IsPrimitiveToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method IsStartToken, addr 0x5d28f28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsStartToken, addr 0x5d2d3e4, size 0x10, virtual false, abstract: false, final false
   static inline bool IsStartToken(::Newtonsoft::Json::JsonToken token);
 
 protected:
@@ -46,7 +46,7 @@ public:
   JsonTokenUtils(JsonTokenUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

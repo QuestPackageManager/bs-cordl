@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/TaaHistory.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\TaaHistory.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraHistoryItem_impl.hpp"
 #include "UnityEngine/zzzz__Hash128_impl.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TaaHistory::*)(::UnityEngine::Rendering::BufferedRTHandleSystem*, uint32_t)>(
     &::UnityEngine::Rendering::Universal::TaaHistory::OnCreate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68713a0;
+  constexpr static std::size_t addrs = 0x6878e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TaaHistory::*)()>(&::UnityEngine::Rendering::Universal::TaaHistory::Reset)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x68713ec;
+  constexpr static std::size_t addrs = 0x6878e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::TaaHistory::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::TaaHistory::GetAccumulationTexture)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6871498;
+  constexpr static std::size_t addrs = 0x6878f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::TaaHistory::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::TaaHistory::GetAccumulationVersion)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68714cc;
+  constexpr static std::size_t addrs = 0x6878f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TaaHistory::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::TaaHistory::SetAccumulationVersion)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68714fc;
+  constexpr static std::size_t addrs = 0x6878f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TaaHistory*>(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::TaaHistory::*)()>(&::UnityEngine::Rendering::Universal::TaaHistory::IsValid)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x687152c;
+  constexpr static std::size_t addrs = 0x6878fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TaaHistory*>(), { "IsValid", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::TaaHistory::*)(::by_ref<::UnityEngine::RenderTextureDescriptor>)>(
     &::UnityEngine::Rendering::Universal::TaaHistory::IsDirty)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6871548;
+  constexpr static std::size_t addrs = 0x6878fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TaaHistory*>(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TaaHistory::*)(::by_ref<::UnityEngine::RenderTextureDescriptor>, bool)>(
     &::UnityEngine::Rendering::Universal::TaaHistory::Alloc)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x68715b4;
+  constexpr static std::size_t addrs = 0x6879030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::TaaHistory::*)(::by_ref<::UnityEngine::RenderTextureDescriptor>, bool)>(
     &::UnityEngine::Rendering::Universal::TaaHistory::Update)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x687170c;
+  constexpr static std::size_t addrs = 0x6879188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TaaHistory::*)()>(&::UnityEngine::Rendering::Universal::TaaHistory::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6871818;
+  constexpr static std::size_t addrs = 0x6879294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::TaaHistory*>(), { ".ctor", {}, {} })));

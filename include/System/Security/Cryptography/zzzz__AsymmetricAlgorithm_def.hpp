@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/AsymmetricAlgorithm.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\AsymmetricAlgorithm.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,21 +37,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clear, addr 0x5af4b44, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5af9000, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x5af4b40, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5af8ffc, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x5af4bb4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5af9070, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FromXmlString, addr 0x5af4cc0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x5af917c, size 0x38, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
   static inline ::System::Security::Cryptography::AsymmetricAlgorithm* New_ctor();
 
-  /// @brief Method ToXmlString, addr 0x5af4cf8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x5af91b4, size 0x38, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
   constexpr int32_t const& __cordl_internal_get_KeySizeValue() const;
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*> value);
 
-  /// @brief Method .ctor, addr 0x5af4b3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af8ff8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_KeySize, addr 0x5af4bb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x5af9074, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_KeySize, addr 0x5af4bc0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x5af907c, size 0xdc, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
 protected:

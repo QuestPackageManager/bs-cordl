@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsSettingsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardsSettingsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__maxNumberOfScoresInLeaderboard(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3755ac8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375b79c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxNumberOfScoresInLeaderboard, addr 0x3755ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxNumberOfScoresInLeaderboard, addr 0x375b78c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxNumberOfScoresInLeaderboard();
 
-  /// @brief Method set_maxNumberOfScoresInLeaderboard, addr 0x3755ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxNumberOfScoresInLeaderboard, addr 0x375b794, size 0x8, virtual false, abstract: false, final false
   inline void set_maxNumberOfScoresInLeaderboard(int32_t value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   LocalLeaderboardsSettingsSO(LocalLeaderboardsSettingsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15297 };
 
   /// @brief Field _maxNumberOfScoresInLeaderboard, offset: 0x18, size: 0x4, def value: None
   int32_t ____maxNumberOfScoresInLeaderboard;

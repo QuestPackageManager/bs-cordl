@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleValueHandle.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleValueHandle.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueHandle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueType_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleValueType (::UnityEngine::UIElements::StyleValueHandle::*)()>(
     &::UnityEngine::UIElements::StyleValueHandle::get_valueType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c94d74;
+  constexpr static std::size_t addrs = 0x6c9c8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleValueHandle>(), { "get_valueType", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleValueHandle::*)(::UnityEngine::UIElements::StyleValueType)>(
     &::UnityEngine::UIElements::StyleValueHandle::set_valueType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9589c;
+  constexpr static std::size_t addrs = 0x6c9d420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

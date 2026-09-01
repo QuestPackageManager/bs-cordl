@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalCameraDataExtension.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalCameraDataExtension.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalCameraDataExtension_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalCameraData_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*, int32_t)>(
     &::UnityEngine::Rendering::Universal::UniversalCameraDataExtension::GetGPUProjectionMatrixRenderGraph)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x68353dc;
+  constexpr static std::size_t addrs = 0x683ce58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

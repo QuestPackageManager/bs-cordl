@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXVelocityBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXVelocityBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,18 +48,18 @@ public:
   /// @brief Field m_Property, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Property, put = __cordl_internal_set_m_Property)) ::UnityEngine::VFX::Utility::ExposedProperty* m_Property;
 
-  /// @brief Method IsValid, addr 0x69e1248, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69e8cc4, size 0xac, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXVelocityBinder* New_ctor();
 
-  /// @brief Method Reset, addr 0x69e12f4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x69e8d70, size 0x64, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ToString, addr 0x69e1524, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69e8fa0, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69e1358, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69e8dd4, size 0x1cc, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_Target() const;
@@ -86,17 +86,17 @@ public:
 
   constexpr void __cordl_internal_set_m_Property(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69e1620, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e909c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF_invalidPreviousTime();
 
-  /// @brief Method get_Property, addr 0x69e1210, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Property, addr 0x69e8c8c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Property();
 
   static inline void setStaticF_invalidPreviousTime(float_t value);
 
-  /// @brief Method set_Property, addr 0x69e1228, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_Property, addr 0x69e8ca4, size 0x20, virtual false, abstract: false, final false
   inline void set_Property(::StringW value);
 
 protected:
@@ -114,7 +114,7 @@ public:
   VFXVelocityBinder(VFXVelocityBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20013 };
 
   /// @brief Field m_Property, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;

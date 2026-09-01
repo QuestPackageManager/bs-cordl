@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/InterfaceMapping.hpp"
+// IWYU pragma private; include "System\Reflection\InterfaceMapping.hpp"
 #include "System/Reflection/zzzz__MethodInfo_impl.hpp"
 #include "System/Reflection/zzzz__InterfaceMapping_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PseudoHDREncoding.hpp"
+// IWYU pragma private; include "GlobalNamespace\PseudoHDREncoding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PseudoHDREncoding_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x58e105c;
+  constexpr static std::size_t addrs = 0x58e4670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

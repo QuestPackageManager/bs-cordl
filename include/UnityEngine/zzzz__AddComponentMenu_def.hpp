@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AddComponentMenu.hpp"
+// IWYU pragma private; include "UnityEngine\AddComponentMenu.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Ordering(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6ad3098, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adaab0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName);
 
-  /// @brief Method .ctor, addr 0x6ad30a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adaabc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName, int32_t order);
 
 protected:
@@ -64,7 +64,7 @@ public:
   AddComponentMenu(AddComponentMenu const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10304 };
 
   /// @brief Field m_AddComponentMenu, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_AddComponentMenu;

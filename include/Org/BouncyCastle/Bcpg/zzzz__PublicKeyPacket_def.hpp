@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/PublicKeyPacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\PublicKeyPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,13 +60,13 @@ public:
   /// @brief Field version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  /// @brief Method Encode, addr 0x369b498, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x369f258, size 0x38, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncodedContents, addr 0x369b330, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method GetEncodedContents, addr 0x369f0f0, size 0x168, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncodedContents();
 
-  /// @brief Method GetTime, addr 0x369b2c4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetTime, addr 0x369f084, size 0x64, virtual true, abstract: false, final false
   inline ::System::DateTime GetTime();
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
@@ -103,22 +103,22 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x369b200, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369efc0, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method .ctor, addr 0x36976c4, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369b484, size 0x298, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Algorithm, addr 0x369b2b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x369f074, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method get_Key, addr 0x369b328, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x369f0e8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::IBcpgKey* get_Key();
 
-  /// @brief Method get_ValidDays, addr 0x369b2bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidDays, addr 0x369f07c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ValidDays();
 
-  /// @brief Method get_Version, addr 0x369b2ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0x369f06c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/HighlightState.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\HighlightState.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Offset_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__HighlightState_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::HighlightState::*)(::UnityEngine::Color32, ::UnityEngine::TextCore::Text::Offset)>(
     &::UnityEngine::TextCore::Text::HighlightState::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bfffd4;
+  constexpr static std::size_t addrs = 0x6c07b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextCore::Text::HighlightState, ::UnityEngine::TextCore::Text::HighlightState)>(
     &::UnityEngine::TextCore::Text::HighlightState::op_Equality)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6bfffe4;
+  constexpr static std::size_t addrs = 0x6c07b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextCore::Text::HighlightState, ::UnityEngine::TextCore::Text::HighlightState)>(
     &::UnityEngine::TextCore::Text::HighlightState::op_Inequality)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6c000e0;
+  constexpr static std::size_t addrs = 0x6c07c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::Text::HighlightState::*)()>(&::UnityEngine::TextCore::Text::HighlightState::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c00128;
+  constexpr static std::size_t addrs = 0x6c07cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::Text::HighlightState::*)(::System::Object*)>(&::UnityEngine::TextCore::Text::HighlightState::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c00194;
+  constexpr static std::size_t addrs = 0x6c07d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

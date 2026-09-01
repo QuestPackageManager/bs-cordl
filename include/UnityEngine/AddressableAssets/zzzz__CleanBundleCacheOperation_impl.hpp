@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AddressableAssets/CleanBundleCacheOperation.hpp"
+// IWYU pragma private; include "UnityEngine\AddressableAssets\CleanBundleCacheOperation.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__CleanBundleCacheOperation_def.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(::UnityEngine::AddressableAssets::AddressablesImpl*, bool)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x64573a4;
+  constexpr static std::size_t addrs = 0x645ee20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceMa
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::Start)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6457468;
+  constexpr static std::size_t addrs = 0x645eee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(bool, bool, ::StringW)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::CompleteInternal)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6459cc0;
+  constexpr static std::size_t addrs = 0x646173c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)()>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::InvokeWaitForCompletion)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6459d68;
+  constexpr static std::size_t addrs = 0x64617e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::CleanBundleCacheOperation*>(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)()>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::Destroy)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6459f98;
+  constexpr static std::size_t addrs = 0x6461a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::CleanBundleCacheOperation*>(),
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Addr
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::GetDependencies)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x645a018;
+  constexpr static std::size_t addrs = 0x6461a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::CleanBundleCacheOperation*>(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)()>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::Execute)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x645a0fc;
+  constexpr static std::size_t addrs = 0x6461b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::CleanBundleCacheOperation*>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(float_t)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::UnityEngine_ResourceManagement_IUpdateReceiver_Update)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x645b01c;
+  constexpr static std::size_t addrs = 0x6462a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::CleanBundleCacheOperation*>(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)()>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::RemoveCacheEntries)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6459e48;
+  constexpr static std::size_t addrs = 0x64618c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(::System::Object*)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::DetermineCacheDirsNotInUse)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x645b05c;
+  constexpr static std::size_t addrs = 0x6462ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::CleanBundleCacheOperation*>(),
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(::System::Collections::Generic::HashSet_1<::StringW>*)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::DetermineCacheDirsNotInUse)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x645ac2c;
+  constexpr static std::size_t addrs = 0x64626a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::AddressableAssets::CleanBundleCacheOperation::*)(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(
     &::UnityEngine::AddressableAssets::CleanBundleCacheOperation::GetCacheDirsInUse)> {
   constexpr static std::size_t size = 0x920;
-  constexpr static std::size_t addrs = 0x645a30c;
+  constexpr static std::size_t addrs = 0x6461d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

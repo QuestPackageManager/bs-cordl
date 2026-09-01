@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GraphAPIClient.hpp"
+// IWYU pragma private; include "GlobalNamespace\GraphAPIClient.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GraphAPIClient::*)(::StringW, ::StringW)>(&::GlobalNamespace::GraphAPIClient::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x332eaf4;
+  constexpr static std::size_t addrs = 0x33328b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::GlobalNamespace::GraphAPIClient_PostOptions)>(&::GlobalNamespace::GraphAPIClient::CalculateDelayMsBeforeRetry)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x332eb64;
+  constexpr static std::size_t addrs = 0x3332924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

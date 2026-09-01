@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithPushNotificationResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithPushNotificationResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithPushNotificationResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PushNotificationResult_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithPushNotificationResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithPushNotificationResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd399c;
+  constexpr static std::size_t addrs = 0x5dd7e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::PushNotificationResult* (::Oculus::Platform::MessageWithPushNotificationResult::*)()>(
     &::Oculus::Platform::MessageWithPushNotificationResult::GetPushNotificationResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd86d0;
+  constexpr static std::size_t addrs = 0x5ddcb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithPushNotificationResult*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::PushNotificationResult* (::Oculus::Platform::MessageWithPushNotificationResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithPushNotificationResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd8714;
+  constexpr static std::size_t addrs = 0x5ddcbd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithPushNotificationResult*>(),

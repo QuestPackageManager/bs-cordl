@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/ReasonsMask.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\ReasonsMask.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__ReasonsMask_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__ReasonFlags_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::ReasonsMask::*)(int32_t)>(&::Org::BouncyCastle::Pkix::ReasonsMask::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e24e0;
+  constexpr static std::size_t addrs = 0x35e62a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::ReasonsMask::*)()>(&::Org::BouncyCastle::Pkix::ReasonsMask::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e24e8;
+  constexpr static std::size_t addrs = 0x35e62a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::ReasonsMask*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::ReasonsMask::*)(::Org::BouncyCastle::Pkix::ReasonsMask*)>(
     &::Org::BouncyCastle::Pkix::ReasonsMask::AddReasons)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x35e24f0;
+  constexpr static std::size_t addrs = 0x35e62b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::ReasonsMask::*)()>(&::Org::BouncyCastle::Pkix::ReasonsMask::get_IsAllReasons)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x35e259c;
+  constexpr static std::size_t addrs = 0x35e635c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::ReasonsMask*>(), { "get_IsAllReasons", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Pkix::ReasonsMask* (::Org::BouncyCastle::Pkix::ReasonsMask::*)(::Org::BouncyCastle::Pkix::ReasonsMask*)>(
     &::Org::BouncyCastle::Pkix::ReasonsMask::Intersect)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x35e2614;
+  constexpr static std::size_t addrs = 0x35e63d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::ReasonsMask::*)(::Org::BouncyCastle::Pkix::ReasonsMask*)>(
     &::Org::BouncyCastle::Pkix::ReasonsMask::HasNewReasons)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x35e26c4;
+  constexpr static std::size_t addrs = 0x35e6484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::ReasonFlags* (::Org::BouncyCastle::Pkix::ReasonsMask::*)()>(
     &::Org::BouncyCastle::Pkix::ReasonsMask::get_Reasons)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x35e2538;
+  constexpr static std::size_t addrs = 0x35e62f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::ReasonsMask*>(), { "get_Reasons", {}, {} })));

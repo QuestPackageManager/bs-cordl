@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ClickButtonWithCommandArgument.hpp"
+// IWYU pragma private; include "GlobalNamespace\ClickButtonWithCommandArgument.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ClickButtonWithCommandArgument_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)(int32_t)>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5856014;
+  constexpr static std::size_t addrs = 0x585511c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5856020;
+  constexpr static std::size_t addrs = 0x5855128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::MoveNext)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5856024;
+  constexpr static std::size_t addrs = 0x585512c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2*>(), { "MoveNext", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58560e4;
+  constexpr static std::size_t addrs = 0x58551ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58560ec;
+  constexpr static std::size_t addrs = 0x58551f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5856124;
+  constexpr static std::size_t addrs = 0x585522c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ClickButtonWithCommandArgument::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5855fc0;
+  constexpr static std::size_t addrs = 0x58550c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ClickButtonWithCommandArgument*>(), { "Start", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ClickButtonWithCommandArgument::*)()>(&::GlobalNamespace::ClickButtonWithCommandArgument::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585601c;
+  constexpr static std::size_t addrs = 0x5855124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ClickButtonWithCommandArgument*>(), { ".ctor", {}, {} })));

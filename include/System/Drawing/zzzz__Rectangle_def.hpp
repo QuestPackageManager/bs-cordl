@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Drawing/Rectangle.hpp"
+// IWYU pragma private; include "System\Drawing\Rectangle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,34 +38,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::Rectangle>"
   constexpr operator ::System::IEquatable_1<::System::Drawing::Rectangle>*();
 
-  /// @brief Method Equals, addr 0x60cdcdc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60d5758, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x60cdd7c, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x60d57f8, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::System::Drawing::Rectangle other);
 
-  /// @brief Method GetHashCode, addr 0x60cddd8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60d5854, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x60cde58, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60d58d4, size 0x1c8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Height, addr 0x60cdcd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Height, addr 0x60d5750, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Height();
 
-  /// @brief Method get_Width, addr 0x60cdccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Width, addr 0x60d5748, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Width();
 
-  /// @brief Method get_X, addr 0x60cdcbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x60d5738, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_X();
 
-  /// @brief Method get_Y, addr 0x60cdcc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x60d5740, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Y();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Drawing::Rectangle>"
   constexpr ::System::IEquatable_1<::System::Drawing::Rectangle>* i___System__IEquatable_1___System__Drawing__Rectangle_();
 
-  /// @brief Method op_Equality, addr 0x60cddb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x60d582c, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Drawing::Rectangle left, ::System::Drawing::Rectangle right);
 
   // Ctor Parameters []
@@ -77,7 +77,7 @@ public:
   constexpr Rectangle(int32_t x, int32_t y, int32_t width, int32_t height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21621 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

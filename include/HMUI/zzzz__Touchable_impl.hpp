@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/Touchable.hpp"
+// IWYU pragma private; include "HMUI\Touchable.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_impl.hpp"
 #include "HMUI/zzzz__Touchable_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::Touchable::*)()>(&::HMUI::Touchable::get_skew)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588171c;
+  constexpr static std::size_t addrs = 0x5881064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Touchable*>(), { "get_skew", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Touchable::*)(::UnityEngine::UI::VertexHelper*)>(&::HMUI::Touchable::OnPopulateMesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5881724;
+  constexpr static std::size_t addrs = 0x588106c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Touchable*>(), { ::i2c::class_of<::HMUI::Touchable*>(), 44 }));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Touchable::*)()>(&::HMUI::Touchable::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x588128c;
+  constexpr static std::size_t addrs = 0x5880bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Touchable*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/X509Pal.hpp"
+// IWYU pragma private; include "Mono\X509Pal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace Mono {
 class CORDL_TYPE X509Pal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_Instance, addr 0x5fc8930, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x5fd03ac, size 0x64, virtual false, abstract: false, final false
   static inline ::Mono::X509PalImpl* get_Instance();
 
 protected:
@@ -40,7 +40,7 @@ public:
   X509Pal(X509Pal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

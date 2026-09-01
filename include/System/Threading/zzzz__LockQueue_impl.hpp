@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/LockQueue.hpp"
+// IWYU pragma private; include "System\Threading\LockQueue.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__LockQueue_def.hpp"
 #include "System/Threading/zzzz__ReaderWriterLock_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::LockQueue::*)(::System::Threading::ReaderWriterLock*)>(&::System::Threading::LockQueue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb405c;
+  constexpr static std::size_t addrs = 0x5cb8518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::LockQueue::*)(int32_t)>(&::System::Threading::LockQueue::Wait)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5cb4064;
+  constexpr static std::size_t addrs = 0x5cb8520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::LockQueue*>(), { "Wait", {}, { ::i2c::type_of<int32_t>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::LockQueue::*)()>(&::System::Threading::LockQueue::get_IsEmpty)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5cb41e8;
+  constexpr static std::size_t addrs = 0x5cb86a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::LockQueue*>(), { "get_IsEmpty", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::LockQueue::*)()>(&::System::Threading::LockQueue::Pulse)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5cb42a4;
+  constexpr static std::size_t addrs = 0x5cb8760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::LockQueue*>(), { "Pulse", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Internal/DefaultValueAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Internal\DefaultValueAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Internal/zzzz__DefaultValueAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Internal::DefaultValueAttribute::*)(::StringW)>(&::UnityEngine::Internal::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afbfac;
+  constexpr static std::size_t addrs = 0x6b039c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Internal::DefaultValueAttribute::*)()>(&::UnityEngine::Internal::DefaultValueAttribute::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afbfb4;
+  constexpr static std::size_t addrs = 0x6b039cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Internal::DefaultValueAttribute*>(), { "get_Value", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Internal::DefaultValueAttribute::*)(::System::Object*)>(&::UnityEngine::Internal::DefaultValueAttribute::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6afbfbc;
+  constexpr static std::size_t addrs = 0x6b039d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Internal::DefaultValueAttribute::*)()>(&::UnityEngine::Internal::DefaultValueAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6afc070;
+  constexpr static std::size_t addrs = 0x6b03a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

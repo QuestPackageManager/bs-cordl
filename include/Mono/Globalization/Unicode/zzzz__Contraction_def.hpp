@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Globalization/Unicode/Contraction.hpp"
+// IWYU pragma private; include "Mono\Globalization\Unicode\Contraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_Source(::ArrayW<char16_t> value);
 
-  /// @brief Method .ctor, addr 0x5aac2d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab0794, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::ArrayW<char16_t> source, ::StringW replacement, ::ArrayW<uint8_t> sortkey);
 
 protected:

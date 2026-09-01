@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TemplateContainer.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TemplateContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,13 +60,13 @@ public:
 
   static inline ::UnityEngine::UIElements::TemplateContainer_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c97514, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9f098, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_uxmlName, addr 0x6c97458, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlName, addr 0x6c9efdc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName, addr 0x6c9749c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x6c9f020, size 0x78, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
 protected:
@@ -102,7 +102,7 @@ public:
   /// @brief Field m_Template, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Template, put = __cordl_internal_set_m_Template)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Template;
 
-  /// @brief Method Init, addr 0x6c9757c, size 0x4b4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6c9f100, size 0x4b4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::TemplateContainer_UxmlTraits* New_ctor();
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Template(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6c97a30, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9f5b4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -182,7 +182,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TemplateContainer* New_ctor(::StringW templateId, ::UnityEngine::UIElements::VisualTreeAsset* templateSource);
 
-  /// @brief Method SetContentContainer, addr 0x6c972c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContentContainer, addr 0x6c9ee48, size 0x8, virtual false, abstract: false, final false
   inline void SetContentContainer(::UnityEngine::UIElements::VisualElement* content);
 
   constexpr ::StringW const& __cordl_internal_get__templateId_k__BackingField() const;
@@ -203,36 +203,36 @@ public:
 
   constexpr void __cordl_internal_set_m_TemplateSource(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  /// @brief Method .ctor, addr 0x6c97234, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9edb8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6c97258, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9eddc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW templateId);
 
-  /// @brief Method .ctor, addr 0x6c97288, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9ee0c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW templateId, ::UnityEngine::UIElements::VisualTreeAsset* templateSource);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_templateIdProperty();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_templateSourceProperty();
 
-  /// @brief Method get_contentContainer, addr 0x6c972bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x6c9ee40, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_templateId, addr 0x6c97214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_templateId, addr 0x6c9ed98, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_templateId();
 
-  /// @brief Method get_templateSource, addr 0x6c97224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_templateSource, addr 0x6c9eda8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_templateSource();
 
   static inline void setStaticF_templateIdProperty(::UnityEngine::UIElements::BindingId value);
 
   static inline void setStaticF_templateSourceProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_templateId, addr 0x6c9721c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_templateId, addr 0x6c9eda0, size 0x8, virtual false, abstract: false, final false
   inline void set_templateId(::StringW value);
 
-  /// @brief Method set_templateSource, addr 0x6c9722c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_templateSource, addr 0x6c9edb0, size 0x8, virtual false, abstract: false, final false
   inline void set_templateSource(::UnityEngine::UIElements::VisualTreeAsset* value);
 
 protected:

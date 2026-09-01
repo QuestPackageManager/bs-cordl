@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_Compatibility.hpp"
+// IWYU pragma private; include "TMPro\TMP_Compatibility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_Compatibility_def.hpp"
 #include "TMPro/zzzz__TMP_Compatibility_def.hpp"
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TextAlignmentOptions (*)(::TMPro::TextAlignmentOptions)>(&::TMPro::TMP_Compatibility::ConvertTextAlignmentEnumValues)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6942e18;
+  constexpr static std::size_t addrs = 0x694a894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

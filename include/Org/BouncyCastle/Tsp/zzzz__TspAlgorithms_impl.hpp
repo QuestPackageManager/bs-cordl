@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Tsp/TspAlgorithms.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Tsp\TspAlgorithms.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TspAlgorithms_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::TspAlgorithms::*)()>(&::Org::BouncyCastle::Tsp::TspAlgorithms::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36207a4;
+  constexpr static std::size_t addrs = 0x3624564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TspAlgorithms*>(), { ".ctor", {}, {} })));

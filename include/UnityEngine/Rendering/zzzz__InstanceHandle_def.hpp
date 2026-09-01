@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/InstanceHandle.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\InstanceHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,33 +46,33 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::InstanceHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::InstanceHandle>*();
 
-  /// @brief Method CompareTo, addr 0x681b600, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x682307c, size 0x70, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::Rendering::InstanceHandle other);
 
-  /// @brief Method Create, addr 0x6818fd0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6820a4c, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::InstanceHandle Create(int32_t instanceIndex, ::UnityEngine::Rendering::InstanceType instanceType);
 
-  /// @brief Method Equals, addr 0x681b594, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6823010, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::InstanceHandle other);
 
-  /// @brief Method FromInt, addr 0x6814998, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromInt, addr 0x681c414, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::InstanceHandle FromInt(int32_t value);
 
-  /// @brief Method GetHashCode, addr 0x681b670, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x68230ec, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::InstanceHandle getStaticF_Invalid();
 
-  /// @brief Method get_index, addr 0x681b584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x6823000, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_instanceIndex, addr 0x6818da4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_instanceIndex, addr 0x6820820, size 0x5c, virtual false, abstract: false, final false
   inline int32_t get_instanceIndex();
 
-  /// @brief Method get_type, addr 0x6818d48, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x68207c4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceType get_type();
 
-  /// @brief Method get_valid, addr 0x6818ce8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6820764, size 0x60, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::Rendering::InstanceHandle>"
@@ -83,7 +83,7 @@ public:
 
   static inline void setStaticF_Invalid(::UnityEngine::Rendering::InstanceHandle value);
 
-  /// @brief Method set_index, addr 0x681b58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_index, addr 0x6823008, size 0x8, virtual false, abstract: false, final false
   inline void set_index(int32_t value);
 
   // Ctor Parameters []
@@ -94,7 +94,7 @@ public:
   constexpr InstanceHandle(int32_t _index_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17689 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BindingId.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BindingId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,22 +37,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BindingId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::BindingId>*();
 
-  /// @brief Method Equals, addr 0x6cc2658, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6cca1dc, size 0xc4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6cc2608, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6cca18c, size 0x50, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::BindingId other);
 
-  /// @brief Method GetHashCode, addr 0x6cc271c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6cca2a0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6cc2600, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6cca184, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6cc2448, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc9fcc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
-  /// @brief Method .ctor, addr 0x6cc24d4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cca058, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Properties::PropertyPath> path);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_Invalid();
@@ -60,22 +60,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BindingId>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BindingId>* i___System__IEquatable_1___UnityEngine__UIElements__BindingId_();
 
-  /// @brief Method op_Equality, addr 0x6cc2724, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6cca2a8, size 0x50, virtual false, abstract: false, final false
   static inline bool op_Equality(::by_ref<::UnityEngine::UIElements::BindingId> lhs, ::by_ref<::UnityEngine::UIElements::BindingId> rhs);
 
-  /// @brief Method op_Implicit, addr 0x6cc2518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6cca09c, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW op_Implicit___StringW(::by_ref<::UnityEngine::UIElements::BindingId> vep);
 
-  /// @brief Method op_Implicit, addr 0x6cc2520, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6cca0a4, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(::StringW name);
 
-  /// @brief Method op_Implicit, addr 0x6cc25a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6cca12c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingId op_Implicit___UnityEngine__UIElements__BindingId(::by_ref<::Unity::Properties::PropertyPath> path);
 
-  /// @brief Method op_Implicit, addr 0x6cc2508, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6cca08c, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Properties::PropertyPath op_Implicit___Unity__Properties__PropertyPath(::by_ref<::UnityEngine::UIElements::BindingId> vep);
 
-  /// @brief Method op_Inequality, addr 0x6cc2774, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6cca2f8, size 0x9c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::by_ref<::UnityEngine::UIElements::BindingId> lhs, ::by_ref<::UnityEngine::UIElements::BindingId> rhs);
 
   static inline void setStaticF_Invalid(::UnityEngine::UIElements::BindingId value);

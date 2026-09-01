@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatFxGroupEffectCollectionTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatFxGroupEffectCollectionTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectCollectionTarget_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatFxGroupEffectCollectionTarget.SetValue
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxGroupEffectCollectionTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatFxGroupEffectCollectionTarget::SetValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x598b380;
+  constexpr static std::size_t addrs = 0x5995340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxGroupEffectCollectionTarget*>(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxGroupEffectCollectionTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatFxGroupEffectCollectionTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x598b400;
+  constexpr static std::size_t addrs = 0x59953c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxGroupEffectCollectionTarget*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxGroupEffectCollectionTarget::*)()>(&::GlobalNamespace::FloatFxGroupEffectCollectionTarget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x598b480;
+  constexpr static std::size_t addrs = 0x5995440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxGroupEffectCollectionTarget*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessPasses.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessPasses.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PostProcessPasses_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__ColorGradingLutPass_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass* (::UnityEngine::Rendering::Universal::PostProcessPasses::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPasses::get_colorGradingLutPass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a3668;
+  constexpr static std::size_t addrs = 0x68ab0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::PostProcessPass* (::UnityEngine::Rendering::Universal::PostProcessPasses::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPasses::get_postProcessPass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a3670;
+  constexpr static std::size_t addrs = 0x68ab0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::PostProcessPass* (::UnityEngine::Rendering::Universal::PostProcessPasses::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPasses::get_finalPostProcessPass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a3678;
+  constexpr static std::size_t addrs = 0x68ab0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::PostProcessPasses::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPasses::get_afterPostProcessColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a3680;
+  constexpr static std::size_t addrs = 0x68ab0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::PostProcessPasses::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPasses::get_colorGradingLut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a3688;
+  constexpr static std::size_t addrs = 0x68ab104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::PostProcessPasses::*)()>(&::UnityEngine::Rendering::Universal::PostProcessPasses::get_isCreated)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68a3690;
+  constexpr static std::size_t addrs = 0x68ab10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPasses>(), { "get_isCreated", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPasses::*)(
     ::UnityEngine::Rendering::Universal::PostProcessData*, ::by_ref<::UnityEngine::Rendering::Universal::PostProcessParams>)>(&::UnityEngine::Rendering::Universal::PostProcessPasses::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68a36f4;
+  constexpr static std::size_t addrs = 0x68ab170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPasses::*)(
     ::UnityEngine::Rendering::Universal::PostProcessData*, ::by_ref<::UnityEngine::Rendering::Universal::PostProcessParams>)>(&::UnityEngine::Rendering::Universal::PostProcessPasses::Recreate)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x68a370c;
+  constexpr static std::size_t addrs = 0x68ab188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPasses::*)()>(&::UnityEngine::Rendering::Universal::PostProcessPasses::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68a38d4;
+  constexpr static std::size_t addrs = 0x68ab350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessPasses>(), { "Dispose", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PostProcessPasses::*)()>(
     &::UnityEngine::Rendering::Universal::PostProcessPasses::ReleaseRenderTargets)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68a3938;
+  constexpr static std::size_t addrs = 0x68ab3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

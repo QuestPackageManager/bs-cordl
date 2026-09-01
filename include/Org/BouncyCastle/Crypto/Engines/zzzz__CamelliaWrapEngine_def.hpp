@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/CamelliaWrapEngine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\CamelliaWrapEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Engines::CamelliaWrapEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x339f37c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a313c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

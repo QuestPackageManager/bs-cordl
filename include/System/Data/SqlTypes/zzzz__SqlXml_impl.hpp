@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/SqlTypes/SqlXml.hpp"
+// IWYU pragma private; include "System\Data\SqlTypes\SqlXml.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlXml_def.hpp"
 #include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlXml::*)()>(&::System::Data::SqlTypes::SqlXml::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6093f24;
+  constexpr static std::size_t addrs = 0x609b9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlXml*>(), { ".ctor", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlReader* (::System::Data::SqlTypes::SqlXml::*)()>(&::System::Data::SqlTypes::SqlXml::CreateReader)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6093f4c;
+  constexpr static std::size_t addrs = 0x609b9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlXml*>(), { "CreateReader", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlReader* (*)(::System::IO::Stream*, bool, bool)>(&::System::Data::SqlTypes::SqlXml::CreateSqlXmlReader)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6094224;
+  constexpr static std::size_t addrs = 0x609bca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_4<::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlParserContext*, ::System::Xml::XmlReader*>* (*)()>(
     &::System::Data::SqlTypes::SqlXml::CreateSqlReaderDelegate)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x60943dc;
+  constexpr static std::size_t addrs = 0x609be58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlXml*>(), { "CreateSqlReaderDelegate", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Data::SqlTypes::SqlXml::get_CreateSqlReaderMethodInfo)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6094114;
+  constexpr static std::size_t addrs = 0x609bb90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlXml*>(), { "get_CreateSqlReaderMethodInfo", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::SqlTypes::SqlXml::*)()>(&::System::Data::SqlTypes::SqlXml::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x609409c;
+  constexpr static std::size_t addrs = 0x609bb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlXml*>(), { "get_IsNull", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlXml::*)()>(&::System::Data::SqlTypes::SqlXml::SetNull)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6093f38;
+  constexpr static std::size_t addrs = 0x609b9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlXml*>(), { "SetNull", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Data::SqlTypes::SqlXml::*)()>(
     &::System::Data::SqlTypes::SqlXml::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60944d0;
+  constexpr static std::size_t addrs = 0x609bf4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlXml::*)(::System::Xml::XmlReader*)>(
     &::System::Data::SqlTypes::SqlXml::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x60944d8;
+  constexpr static std::size_t addrs = 0x609bf54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlXml::*)(::System::Xml::XmlWriter*)>(
     &::System::Data::SqlTypes::SqlXml::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x60946bc;
+  constexpr static std::size_t addrs = 0x609c138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Xml::Schema::XmlSchemaSet*)>(&::System::Data::SqlTypes::SqlXml::GetXsdType)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6094854;
+  constexpr static std::size_t addrs = 0x609c2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextCoreSettings.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextCoreSettings.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TextCoreSettings_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::TextCoreSettings::*)(::System::Object*)>(&::UnityEngine::UIElements::UIR::TextCoreSettings::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6cea5d4;
+  constexpr static std::size_t addrs = 0x6cf2158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::TextCoreSettings::*)(::UnityEngine::UIElements::UIR::TextCoreSettings)>(
     &::UnityEngine::UIElements::UIR::TextCoreSettings::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6cea668;
+  constexpr static std::size_t addrs = 0x6cf21ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TextCoreSettings>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIR::TextCoreSettings::*)()>(&::UnityEngine::UIElements::UIR::TextCoreSettings::GetHashCode)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6cea75c;
+  constexpr static std::size_t addrs = 0x6cf22e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UI/Shadow.hpp"
+// IWYU pragma private; include "UnityEngine\UI\Shadow.hpp"
 #include "UnityEngine/UI/zzzz__BaseMeshEffect_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Shadow::*)()>(&::UnityEngine::UI::Shadow::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6e0c3e4;
+  constexpr static std::size_t addrs = 0x6e13f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Shadow*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UI::Shadow::*)()>(&::UnityEngine::UI::Shadow::get_effectColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e0c408;
+  constexpr static std::size_t addrs = 0x6e13f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Shadow*>(), { "get_effectColor", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Shadow::*)(::UnityEngine::Color)>(&::UnityEngine::UI::Shadow::set_effectColor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6e0c414;
+  constexpr static std::size_t addrs = 0x6e13f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UI::Shadow::*)()>(&::UnityEngine::UI::Shadow::get_effectDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e0c4ec;
+  constexpr static std::size_t addrs = 0x6e14070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Shadow*>(), { "get_effectDistance", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Shadow::*)(::UnityEngine::Vector2)>(&::UnityEngine::UI::Shadow::set_effectDistance)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6e0c4f4;
+  constexpr static std::size_t addrs = 0x6e14078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Shadow::*)()>(&::UnityEngine::UI::Shadow::get_useGraphicAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e0c5f8;
+  constexpr static std::size_t addrs = 0x6e1417c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Shadow*>(), { "get_useGraphicAlpha", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Shadow::*)(bool)>(&::UnityEngine::UI::Shadow::set_useGraphicAlpha)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6e0c600;
+  constexpr static std::size_t addrs = 0x6e14184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Shadow*>(), { "set_useGraphicAlpha", {}, { ::i2c::type_of<bool>() } })));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Shadow::*)(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*, ::UnityEngine::Color32, int32_t, int32_t,
                                                                                            float_t, float_t)>(&::UnityEngine::UI::Shadow::ApplyShadowZeroAlloc)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x6e0c6bc;
+  constexpr static std::size_t addrs = 0x6e14240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Shadow::*)(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*, ::UnityEngine::Color32, int32_t, int32_t,
                                                                                            float_t, float_t)>(&::UnityEngine::UI::Shadow::ApplyShadow)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e0c9b0;
+  constexpr static std::size_t addrs = 0x6e14534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Shadow::*)(::UnityEngine::UI::VertexHelper*)>(&::UnityEngine::UI::Shadow::ModifyMesh)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6e0c9b8;
+  constexpr static std::size_t addrs = 0x6e1453c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Shadow*>(), { ::i2c::class_of<::UnityEngine::UI::Shadow*>(), 20 }));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/Tracing/EventSourceAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\Tracing\EventSourceAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSourceAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::Tracing::EventSourceAttribute.set_Guid
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Tracing::EventSourceAttribute::*)(::StringW)>(&::System::Diagnostics::Tracing::EventSourceAttribute::set_Guid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdeb04;
+  constexpr static std::size_t addrs = 0x5be2fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Tracing::EventSourceAttribute::*)(::StringW)>(&::System::Diagnostics::Tracing::EventSourceAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdeb0c;
+  constexpr static std::size_t addrs = 0x5be2fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Tracing::EventSourceAttribute::*)()>(&::System::Diagnostics::Tracing::EventSourceAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bdeb14;
+  constexpr static std::size_t addrs = 0x5be2fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Tracing::EventSourceAttribute*>(), { ".ctor", {}, {} })));

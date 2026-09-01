@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/NativeRingQueueDispose.hpp"
+// IWYU pragma private; include "Unity\Collections\NativeRingQueueDispose.hpp"
 #include "Unity/Collections/zzzz__NativeRingQueueDispose_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeRingQueue_1_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::NativeRingQueueDispose.Dispose
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeRingQueueDispose::*)()>(&::Unity::Collections::NativeRingQueueDispose::Dispose)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64bb810;
+  constexpr static std::size_t addrs = 0x64c328c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeRingQueueDispose>(), { "Dispose", {}, {} })));

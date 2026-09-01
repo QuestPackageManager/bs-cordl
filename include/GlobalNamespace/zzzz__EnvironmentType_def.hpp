@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnvironmentType.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnvironmentType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   static ::GlobalNamespace::EnvironmentType const Tutorial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14852 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

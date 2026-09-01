@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/BufferedRumble.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\BufferedRumble.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__HapticCapabilities_impl.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__BufferedRumble_def.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__HapticCapabilities_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities (::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::get_capabilities)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65844dc;
+  constexpr static std::size_t addrs = 0x658bf58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::*)(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities)>(
     &::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::set_capabilities)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65844f0;
+  constexpr static std::size_t addrs = 0x658bf6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::get_device)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6584504;
+  constexpr static std::size_t addrs = 0x658bf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::Haptics::BufferedRumble>(), { "get_device", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::set_device)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658450c;
+  constexpr static std::size_t addrs = 0x658bf88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::Haptics::BufferedRumble>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6584514;
+  constexpr static std::size_t addrs = 0x658bf90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::*)(::ArrayW<uint8_t>)>(
     &::UnityEngine::InputSystem::XR::Haptics::BufferedRumble::EnqueueRumble)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6584678;
+  constexpr static std::size_t addrs = 0x658c0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

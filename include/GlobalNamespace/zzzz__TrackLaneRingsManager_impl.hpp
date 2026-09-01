@@ -1,5 +1,6 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TrackLaneRingsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\TrackLaneRingsManager.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentContext_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRing_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsManager_def.hpp"
@@ -12,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::get_ringPositionStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a060c;
+  constexpr static std::size_t addrs = 0x59a8540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "get_ringPositionStep", {}, {} })));
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>> (::GlobalNamespace::TrackLaneRingsManager::*)()>(
     &::GlobalNamespace::TrackLaneRingsManager::get_Rings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a0614;
+  constexpr static std::size_t addrs = 0x59a8548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "get_Rings", {}, {} })));
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::Start)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x59a061c;
+  constexpr static std::size_t addrs = 0x59a8550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "Start", {}, {} })));
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::FixedUpdate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x59a08e0;
+  constexpr static std::size_t addrs = 0x59a8814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "FixedUpdate", {}, {} })));
@@ -60,8 +61,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::LateUpdate)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x59a0948;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x59a887c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "LateUpdate", {}, {} })));
@@ -73,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::OnDrawGizmosSelected)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x59a09c4;
+  constexpr static std::size_t addrs = 0x59a8904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { "OnDrawGizmosSelected", {}, {} })));
@@ -85,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59a0c40;
+  constexpr static std::size_t addrs = 0x59a8b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsManager*>(), { ".ctor", {}, {} })));
@@ -163,6 +164,18 @@ constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& GlobalNamespace::TrackL
 constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeHelper = value;
+}
+constexpr ::GlobalNamespace::EnvironmentContext& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__environmentContext() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentContext;
+}
+constexpr ::GlobalNamespace::EnvironmentContext const& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__environmentContext() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentContext;
+}
+constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__environmentContext(::GlobalNamespace::EnvironmentContext value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____environmentContext = value;
 }
 constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__audioTimeSyncController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

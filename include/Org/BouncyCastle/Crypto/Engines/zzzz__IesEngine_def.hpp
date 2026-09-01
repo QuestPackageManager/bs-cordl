@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/IesEngine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\IesEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,16 +69,16 @@ public:
   /// @brief Field pubParam, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_pubParam, put = __cordl_internal_set_pubParam)) ::Org::BouncyCastle::Crypto::ICipherParameters* pubParam;
 
-  /// @brief Method DecryptBlock, addr 0x33b06fc, size 0x6b4, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x33b44bc, size 0x6b4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> DecryptBlock(::ArrayW<uint8_t> in_enc, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t> z);
 
-  /// @brief Method EncryptBlock, addr 0x33b0f10, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x33b4cd0, size 0x5e8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> EncryptBlock(::ArrayW<uint8_t> input, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t> z);
 
-  /// @brief Method GenerateKdfBytes, addr 0x33b0db0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GenerateKdfBytes, addr 0x33b4b70, size 0x160, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GenerateKdfBytes(::Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int32_t length);
 
-  /// @brief Method Init, addr 0x33b0628, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x33b43e8, size 0xd4, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* privParameters, ::Org::BouncyCastle::Crypto::ICipherParameters* pubParameters,
                    ::Org::BouncyCastle::Crypto::ICipherParameters* iesParameters);
 
@@ -88,7 +88,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Engines::IesEngine* New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
                                                                           ::Org::BouncyCastle::Crypto::IMac* mac, ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher);
 
-  /// @brief Method ProcessBlock, addr 0x33b14f8, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x33b52b8, size 0x274, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int32_t inOff, int32_t inLen);
 
   constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* const& __cordl_internal_get_agree() const;
@@ -145,10 +145,10 @@ public:
 
   constexpr void __cordl_internal_set_pubParam(::Org::BouncyCastle::Crypto::ICipherParameters* value);
 
-  /// @brief Method .ctor, addr 0x33b0434, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b41f4, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method .ctor, addr 0x33b052c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b42ec, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac,
                     ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher);
 

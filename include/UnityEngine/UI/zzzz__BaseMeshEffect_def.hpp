@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UI/BaseMeshEffect.hpp"
+// IWYU pragma private; include "UnityEngine\UI\BaseMeshEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::IMeshModifier"
   constexpr operator ::UnityEngine::UI::IMeshModifier*() noexcept;
 
-  /// @brief Method ModifyMesh, addr 0x6e0bf10, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x6e13a94, size 0x174, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::Mesh* mesh);
 
   /// @brief Method ModifyMesh, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -47,13 +47,13 @@ public:
 
   static inline ::UnityEngine::UI::BaseMeshEffect* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x6e0be70, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x6e139f4, size 0xa0, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x6e0bdd0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6e13954, size 0xa0, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6e0bd30, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6e138b4, size 0xa0, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_Graphic() const;
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Graphic(::UnityW<::UnityEngine::UI::Graphic> value);
 
-  /// @brief Method .ctor, addr 0x6e0c084, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e13c08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_graphic, addr 0x6e0bc94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_graphic, addr 0x6e13818, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
   /// @brief Convert to "::UnityEngine::UI::IMeshModifier"
@@ -86,7 +86,7 @@ public:
   BaseMeshEffect(BaseMeshEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17513 };
 
   /// @brief Field m_Graphic, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ___m_Graphic;

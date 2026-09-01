@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/MemoryProfiler/MetadataInjector.hpp"
+// IWYU pragma private; include "Unity\MemoryProfiler\MetadataInjector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +32,10 @@ public:
   /// @brief Field DefaultCollectorInjected, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_DefaultCollectorInjected, put = setStaticF_DefaultCollectorInjected)) uint8_t DefaultCollectorInjected;
 
-  /// @brief Method InitializeMetadataCollection, addr 0x668a1f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InitializeMetadataCollection, addr 0x6691c74, size 0x74, virtual false, abstract: false, final false
   static inline void InitializeMetadataCollection();
 
-  /// @brief Method PlayerInitMetadata, addr 0x668a050, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method PlayerInitMetadata, addr 0x6691acc, size 0x98, virtual false, abstract: false, final false
   static inline void PlayerInitMetadata();
 
   static inline int64_t getStaticF_CollectorCount();
@@ -65,7 +65,7 @@ public:
   MetadataInjector(MetadataInjector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23670 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

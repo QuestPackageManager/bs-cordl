@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BatchCullingContext.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BatchCullingContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE BatchCullingContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6b22d94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b2a918, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> inCullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CullingSplit> inCullingSplits,
                     ::UnityEngine::Rendering::LODParameters inLodParameters, ::UnityEngine::Matrix4x4 inLocalToWorldMatrix, ::UnityEngine::Rendering::BatchCullingViewType inViewType,
                     ::UnityEngine::Rendering::BatchCullingProjectionType inProjectionType, ::UnityEngine::Rendering::BatchCullingFlags inBatchCullingFlags, uint64_t inViewID,
@@ -85,7 +85,7 @@ public:
                                 int32_t receiverPlaneOffset, int32_t receiverPlaneCount, ::System::IntPtr occlusionBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10866 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb8 };

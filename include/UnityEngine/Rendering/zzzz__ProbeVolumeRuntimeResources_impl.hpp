@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeRuntimeResources.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeRuntimeResources.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeRuntimeResources_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeRuntimeResources::*)()>(&::UnityEngine::Rendering::ProbeVolumeRuntimeResources::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x678ee84;
+  constexpr static std::size_t addrs = 0x6796900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeRuntimeResources*>(), { "get_version", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeRuntimeResources::*)()>(&::UnityEngine::Rendering::ProbeVolumeRuntimeResources::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x678ee8c;
+  constexpr static std::size_t addrs = 0x6796908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeRuntimeResources*>(), { ".ctor", {}, {} })));

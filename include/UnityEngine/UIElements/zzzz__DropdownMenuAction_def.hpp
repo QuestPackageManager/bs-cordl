@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DropdownMenuAction.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DropdownMenuAction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -141,17 +141,17 @@ public:
 
   __declspec(property(put = set_userData)) ::System::Object* userData;
 
-  /// @brief Method AlwaysDisabled, addr 0x6d8c2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AlwaysDisabled, addr 0x6d93e80, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DropdownMenuAction_Status AlwaysDisabled(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method AlwaysEnabled, addr 0x6d8c2f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AlwaysEnabled, addr 0x6d93e78, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DropdownMenuAction_Status AlwaysEnabled(::UnityEngine::UIElements::DropdownMenuAction* a);
 
   static inline ::UnityEngine::UIElements::DropdownMenuAction*
   New_ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback,
            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method UpdateActionStatus, addr 0x6d8c314, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateActionStatus, addr 0x6d93e98, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateActionStatus(::UnityEngine::UIElements::DropdownMenuEventInfo* eventInfo);
 
   constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo* const& __cordl_internal_get__eventInfo_k__BackingField() const;
@@ -190,20 +190,20 @@ public:
 
   constexpr void __cordl_internal_set_actionStatusCallback(::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>* value);
 
-  /// @brief Method .ctor, addr 0x6d8c304, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d93e88, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback,
                     ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method get_name, addr 0x6d8c2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6d93e58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_eventInfo, addr 0x6d8c2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventInfo, addr 0x6d93e68, size 0x8, virtual false, abstract: false, final false
   inline void set_eventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
 
-  /// @brief Method set_status, addr 0x6d8c2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_status, addr 0x6d93e60, size 0x8, virtual false, abstract: false, final false
   inline void set_status(::UnityEngine::UIElements::DropdownMenuAction_Status value);
 
-  /// @brief Method set_userData, addr 0x6d8c2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userData, addr 0x6d93e70, size 0x8, virtual false, abstract: false, final false
   inline void set_userData(::System::Object* value);
 
 protected:

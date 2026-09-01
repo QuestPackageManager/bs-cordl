@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FxBaseData.hpp"
+// IWYU pragma private; include "GlobalNamespace\FxBaseData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FxBaseData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FxBaseData._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FxBaseData::*)(float_t, bool)>(&::GlobalNamespace::FxBaseData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3713608;
+  constexpr static std::size_t addrs = 0x371948c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

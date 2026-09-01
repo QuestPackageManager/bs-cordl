@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DebugSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\DebugSettingsViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__DebugSettingsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool, bool, bool)>(&::GlobalNamespace::DebugSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x5a17ea0;
+  constexpr static std::size_t addrs = 0x5a1ff9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool, bool)>(&::GlobalNamespace::DebugSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5a1821c;
+  constexpr static std::size_t addrs = 0x5a20318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(&::GlobalNamespace::DebugSettingsViewController::HandleFpsCounterChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a182b8;
+  constexpr static std::size_t addrs = 0x5a203b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(&::GlobalNamespace::DebugSettingsViewController::HandleFpsRecorderChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a182d4;
+  constexpr static std::size_t addrs = 0x5a203d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(&::GlobalNamespace::DebugSettingsViewController::HandleMemoryTrackerChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a182f0;
+  constexpr static std::size_t addrs = 0x5a203ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleShowBeatmapLevelVersionsChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a1830c;
+  constexpr static std::size_t addrs = 0x5a20408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleDisableVRTrackingInAutoplayChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a18328;
+  constexpr static std::size_t addrs = 0x5a20424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)()>(&::GlobalNamespace::DebugSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a18344;
+  constexpr static std::size_t addrs = 0x5a20440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DebugSettingsViewController*>(), { ".ctor", {}, {} })));

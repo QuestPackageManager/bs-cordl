@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/TraceInternal.hpp"
+// IWYU pragma private; include "System\Diagnostics\TraceInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
   /// @brief Field useGlobalLock, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_useGlobalLock, put = setStaticF_useGlobalLock)) bool useGlobalLock;
 
-  /// @brief Method InitializeSettings, addr 0x6390dfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeSettings, addr 0x6398878, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeSettings();
 
   static inline ::StringW getStaticF_appName();
@@ -65,19 +65,19 @@ public:
 
   static inline bool getStaticF_useGlobalLock();
 
-  /// @brief Method get_AutoFlush, addr 0x6390624, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x63980a0, size 0x60, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_IndentLevel, addr 0x6391100, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_IndentLevel, addr 0x6398b7c, size 0x80, virtual false, abstract: false, final false
   static inline int32_t get_IndentLevel();
 
-  /// @brief Method get_IndentSize, addr 0x6391180, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IndentSize, addr 0x6398bfc, size 0x60, virtual false, abstract: false, final false
   static inline int32_t get_IndentSize();
 
-  /// @brief Method get_Listeners, addr 0x6390334, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x6397db0, size 0x2a0, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
-  /// @brief Method get_UseGlobalLock, addr 0x63910a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_UseGlobalLock, addr 0x6398b1c, size 0x60, virtual false, abstract: false, final false
   static inline bool get_UseGlobalLock();
 
   static inline void setStaticF_appName(::StringW value);
@@ -109,7 +109,7 @@ public:
   TraceInternal(TraceInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderTargetBinding.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderTargetBinding.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferLoadAction_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderBufferStoreAction_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetFlags_impl.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> (::UnityEngine::Rendering::RenderTargetBinding::*)()>(
     &::UnityEngine::Rendering::RenderTargetBinding::get_colorRenderTargets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b022c8;
+  constexpr static std::size_t addrs = 0x6b09ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTargetBinding>(), { "get_colorRenderTargets", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (::UnityEngine::Rendering::RenderTargetBinding::*)()>(
     &::UnityEngine::Rendering::RenderTargetBinding::get_depthRenderTarget)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b022d0;
+  constexpr static std::size_t addrs = 0x6b09ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTargetBinding>(), { "get_depthRenderTarget", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::RenderBufferLoadAction> (::UnityEngine::Rendering::RenderTargetBinding::*)()>(
     &::UnityEngine::Rendering::RenderTargetBinding::get_colorLoadActions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b022e8;
+  constexpr static std::size_t addrs = 0x6b09d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTargetBinding>(), { "get_colorLoadActions", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> (::UnityEngine::Rendering::RenderTargetBinding::*)()>(
     &::UnityEngine::Rendering::RenderTargetBinding::get_colorStoreActions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b022f0;
+  constexpr static std::size_t addrs = 0x6b09d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTargetBinding>(), { "get_colorStoreActions", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderBufferLoadAction (::UnityEngine::Rendering::RenderTargetBinding::*)()>(
     &::UnityEngine::Rendering::RenderTargetBinding::get_depthLoadAction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b022f8;
+  constexpr static std::size_t addrs = 0x6b09d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTargetBinding>(), { "get_depthLoadAction", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderBufferStoreAction (::UnityEngine::Rendering::RenderTargetBinding::*)()>(
     &::UnityEngine::Rendering::RenderTargetBinding::get_depthStoreAction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b02300;
+  constexpr static std::size_t addrs = 0x6b09d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTargetBinding>(), { "get_depthStoreAction", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderTargetFlags (::UnityEngine::Rendering::RenderTargetBinding::*)()>(
     &::UnityEngine::Rendering::RenderTargetBinding::get_flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b02308;
+  constexpr static std::size_t addrs = 0x6b09d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderTargetBinding>(), { "get_flags", {}, {} })));

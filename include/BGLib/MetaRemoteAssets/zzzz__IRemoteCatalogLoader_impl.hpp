@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/MetaRemoteAssets/IRemoteCatalogLoader.hpp"
+// IWYU pragma private; include "BGLib\MetaRemoteAssets\IRemoteCatalogLoader.hpp"
 #include "BGLib/MetaRemoteAssets/zzzz__IRemoteCatalogLoader_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"

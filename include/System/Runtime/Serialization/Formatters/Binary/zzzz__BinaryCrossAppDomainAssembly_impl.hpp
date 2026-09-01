@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryCrossAppDomainAssembly.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\BinaryCrossAppDomainAssembly.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryCrossAppDomainAssembly_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b54070;
+  constexpr static std::size_t addrs = 0x5b5852c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::Read)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5b54074;
+  constexpr static std::size_t addrs = 0x5b58530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::Dump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b540d4;
+  constexpr static std::size_t addrs = 0x5b58590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

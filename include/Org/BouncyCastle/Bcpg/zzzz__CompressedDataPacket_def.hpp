@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/CompressedDataPacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\CompressedDataPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag value);
 
-  /// @brief Method .ctor, addr 0x3697960, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369b720, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Algorithm, addr 0x3699264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x369d024, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm();
 
 protected:

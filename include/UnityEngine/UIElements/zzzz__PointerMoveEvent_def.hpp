@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PointerMoveEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PointerMoveEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9cb24, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6da46a8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerMoveEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9cb20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da46a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent___c* getStaticF___9();
@@ -87,18 +87,18 @@ public:
 
   __declspec(property(get = get_isPointerUp)) bool isPointerUp;
 
-  /// @brief Method Init, addr 0x6d9c62c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6da41b0, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d9c680, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6da4204, size 0xb0, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x6d9c9c4, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6da4548, size 0x108, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method PreDispatch, addr 0x6d9c784, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6da4308, size 0x240, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   constexpr bool const& __cordl_internal_get__isHandledByDraggable_k__BackingField() const;
@@ -107,19 +107,19 @@ public:
 
   constexpr void __cordl_internal_set__isHandledByDraggable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6d9c730, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da42b4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isHandledByDraggable, addr 0x6d9c538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isHandledByDraggable, addr 0x6da40bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isHandledByDraggable();
 
-  /// @brief Method get_isPointerDown, addr 0x6d9c548, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_isPointerDown, addr 0x6da40cc, size 0x70, virtual false, abstract: false, final false
   inline bool get_isPointerDown();
 
-  /// @brief Method get_isPointerUp, addr 0x6d9c5b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_isPointerUp, addr 0x6da413c, size 0x74, virtual false, abstract: false, final false
   inline bool get_isPointerUp();
 
-  /// @brief Method set_isHandledByDraggable, addr 0x6d9c540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isHandledByDraggable, addr 0x6da40c4, size 0x8, virtual false, abstract: false, final false
   inline void set_isHandledByDraggable(bool value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/CollectionExtensions.hpp"
+// IWYU pragma private; include "Unity\Collections\CollectionExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
   CollectionExtensions___c__DisplayClass3_0_1(CollectionExtensions___c__DisplayClass3_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9982 };
 
   /// @brief Field serializeElement, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<T, ::StringW>* ___serializeElement;
@@ -104,7 +104,7 @@ public:
   CollectionExtensions(CollectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9983 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

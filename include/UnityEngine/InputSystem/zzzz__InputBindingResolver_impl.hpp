@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/InputBindingResolver.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\InputBindingResolver.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionMap_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionState_impl.hpp"
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputBindingResolver::*)()>(&::UnityEngine::InputSystem::InputBindingResolver::get_totalMapCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6505c00;
+  constexpr static std::size_t addrs = 0x650d67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingResolver>(), { "get_totalMapCount", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputBindingResolver::*)()>(&::UnityEngine::InputSystem::InputBindingResolver::get_totalActionCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6505c08;
+  constexpr static std::size_t addrs = 0x650d684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingResolver>(), { "get_totalActionCount", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputBindingResolver::*)()>(&::UnityEngine::InputSystem::InputBindingResolver::get_totalBindingCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6505c10;
+  constexpr static std::size_t addrs = 0x650d68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingResolver>(), { "get_totalBindingCount", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputBindingResolver::*)()>(&::UnityEngine::InputSystem::InputBindingResolver::get_totalControlCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6505c18;
+  constexpr static std::size_t addrs = 0x650d694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingResolver>(), { "get_totalControlCount", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputBindingResolver::*)()>(&::UnityEngine::InputSystem::InputBindingResolver::Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6505c20;
+  constexpr static std::size_t addrs = 0x650d69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingResolver>(), { "Dispose", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputBindingResolver::*)(::UnityEngine::InputSystem::InputActionState*, bool)>(
     &::UnityEngine::InputSystem::InputBindingResolver::StartWithPreviousResolve)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6505c2c;
+  constexpr static std::size_t addrs = 0x650d6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputBindingResolver::*)(::UnityEngine::InputSystem::InputActionMap*)>(
     &::UnityEngine::InputSystem::InputBindingResolver::AddActionMap)> {
   constexpr static std::size_t size = 0x17f8;
-  constexpr static std::size_t addrs = 0x6505d10;
+  constexpr static std::size_t addrs = 0x650d78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputBindingResolver>(),
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::InputBindingComposite* (*)(::by_ref<::UnityEngine::InputSystem::InputBinding>, ::UnityEngine::InputSystem::InputActionMap*)>(
         &::UnityEngine::InputSystem::InputBindingResolver::InstantiateBindingComposite)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x650751c;
+  constexpr static std::size_t addrs = 0x650ef98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::I
                                                                 ::UnityEngine::InputSystem::InputActionMap*, ::by_ref<::UnityEngine::InputSystem::InputBinding>, ::StringW, ::StringW)>(
     &::UnityEngine::InputSystem::InputBindingResolver::ApplyParameters)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x6507930;
+  constexpr static std::size_t addrs = 0x650f3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Object*, ::StringW, ::by_ref<int32_t>)>(&::UnityEngine::InputSystem::InputBindingResolver::AssignCompositePartIndex)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x650776c;
+  constexpr static std::size_t addrs = 0x650f1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

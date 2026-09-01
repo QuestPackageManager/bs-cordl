@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/RepeatButton.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\RepeatButton.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::RepeatButton_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d5f578, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d670fc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   /// @brief Field m_Interval, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Interval, put = __cordl_internal_set_m_Interval)) ::UnityEngine::UIElements::UxmlLongAttributeDescription* m_Interval;
 
-  /// @brief Method Init, addr 0x6d5f5e0, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d67164, size 0x164, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::RepeatButton_UxmlTraits* New_ctor();
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Interval(::UnityEngine::UIElements::UxmlLongAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d5f744, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d672c8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,14 +172,14 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method AddAction, addr 0x6d5f4f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddAction, addr 0x6d6707c, size 0x18, virtual false, abstract: false, final false
   inline void AddAction(::System::Action* clickEvent);
 
   static inline ::UnityEngine::UIElements::RepeatButton* New_ctor();
 
   static inline ::UnityEngine::UIElements::RepeatButton* New_ctor(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
-  /// @brief Method SetAction, addr 0x6d5f45c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetAction, addr 0x6d66fe0, size 0x9c, virtual false, abstract: false, final false
   inline void SetAction(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
   constexpr bool const& __cordl_internal_get_m_AcceptClicksIfDisabled() const;
@@ -194,17 +194,17 @@ public:
 
   constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method .ctor, addr 0x6d5f380, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d66f04, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d5f41c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d66fa0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
   static inline ::StringW getStaticF_ussClassName();
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_acceptClicksIfDisabled, addr 0x6d5f350, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_acceptClicksIfDisabled, addr 0x6d66ed4, size 0x30, virtual false, abstract: false, final false
   inline void set_acceptClicksIfDisabled(bool value);
 
 protected:

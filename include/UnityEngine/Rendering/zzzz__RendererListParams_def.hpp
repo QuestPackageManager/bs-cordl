@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RendererListParams.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RendererListParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,30 +58,30 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>*();
 
-  /// @brief Method Equals, addr 0x6b1da4c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b255d0, size 0x100, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b1d7a8, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b2532c, size 0x298, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RendererListParams other);
 
-  /// @brief Method GetHashCode, addr 0x6b1db4c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b256d0, size 0x10c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Validate, addr 0x6b1d3c8, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x6b24f4c, size 0x3e0, virtual false, abstract: false, final false
   inline void Validate();
 
-  /// @brief Method .ctor, addr 0x6b1d1c4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b24d48, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CullingResults cullingResults, ::UnityEngine::Rendering::DrawingSettings drawSettings, ::UnityEngine::Rendering::FilteringSettings filteringSettings);
 
   static inline ::UnityEngine::Rendering::RendererListParams getStaticF_Invalid();
 
-  /// @brief Method get_numStateBlocks, addr 0x6b1d268, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_numStateBlocks, addr 0x6b24dec, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_numStateBlocks();
 
-  /// @brief Method get_stateBlocksPtr, addr 0x6b1d2d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_stateBlocksPtr, addr 0x6b24e54, size 0x7c, virtual false, abstract: false, final false
   inline ::System::IntPtr get_stateBlocksPtr();
 
-  /// @brief Method get_tagsValuePtr, addr 0x6b1d34c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_tagsValuePtr, addr 0x6b24ed0, size 0x7c, virtual false, abstract: false, final false
   inline ::System::IntPtr get_tagsValuePtr();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RendererListParams>"
@@ -104,7 +104,7 @@ public:
                                ::System::Nullable_1<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::RenderStateBlock>> stateBlocks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10828 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x130 };

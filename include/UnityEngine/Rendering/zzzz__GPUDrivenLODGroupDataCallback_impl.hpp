@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenLODGroupDataCallback.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenLODGroupDataCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenLODGroupDataCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b23be0;
+  constexpr static std::size_t addrs = 0x6b2b764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>)>(
     &::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b23c5c;
+  constexpr static std::size_t addrs = 0x6b2b7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback*>(),

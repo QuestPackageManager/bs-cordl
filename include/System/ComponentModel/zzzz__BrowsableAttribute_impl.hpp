@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/BrowsableAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\BrowsableAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__BrowsableAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::BrowsableAttribute::*)(bool)>(&::System::ComponentModel::BrowsableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63abf10;
+  constexpr static std::size_t addrs = 0x63b398c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)()>(&::System::ComponentModel::BrowsableAttribute::get_Browsable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63abf18;
+  constexpr static std::size_t addrs = 0x63b3994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::BrowsableAttribute*>(), { "get_Browsable", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)(::System::Object*)>(&::System::ComponentModel::BrowsableAttribute::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x63abf20;
+  constexpr static std::size_t addrs = 0x63b399c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::BrowsableAttribute::*)()>(&::System::ComponentModel::BrowsableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x63ac000;
+  constexpr static std::size_t addrs = 0x63b3a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)()>(&::System::ComponentModel::BrowsableAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63ac02c;
+  constexpr static std::size_t addrs = 0x63b3aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

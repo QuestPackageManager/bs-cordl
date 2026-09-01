@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/HID/HIDSupport.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\HID\HIDSupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HID_impl.hpp"
 #include "UnityEngine/InputSystem/HID/zzzz__HIDSupport_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::*)(::UnityEngine::InputSystem::HID::HID_UsagePage, int32_t)>(
     &::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x659de04;
+  constexpr static std::size_t addrs = 0x65a5880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::*)(::UnityEngine::InputSystem::HID::HID_GenericDesktop)>(
     &::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x659df6c;
+  constexpr static std::size_t addrs = 0x65a59e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> (*)()>(
     &::UnityEngine::InputSystem::HID::HIDSupport::get_supportedHIDUsages)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x659db50;
+  constexpr static std::size_t addrs = 0x65a55cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport*>(), { "get_supportedHIDUsages", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>)>(
     &::UnityEngine::InputSystem::HID::HIDSupport::set_supportedHIDUsages)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x659dbb8;
+  constexpr static std::size_t addrs = 0x65a5634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::HID::HIDSupport::Initialize)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x659de0c;
+  constexpr static std::size_t addrs = 0x65a5888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HID::HIDSupport*>(), { "Initialize", {}, {} })));

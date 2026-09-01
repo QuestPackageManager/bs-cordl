@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnvironmentBrandingManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnvironmentBrandingManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  /// @brief Method .ctor, addr 0x58c0134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bfadc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool hideBranding);
 
 protected:
@@ -93,7 +93,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentBrandingManager* New_ctor();
 
-  /// @brief Method Start, addr 0x58c0078, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58bfa20, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>> const& __cordl_internal_get__brandingObjects() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__replacementBrandingObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>> value);
 
-  /// @brief Method .ctor, addr 0x58c0130, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bfad8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

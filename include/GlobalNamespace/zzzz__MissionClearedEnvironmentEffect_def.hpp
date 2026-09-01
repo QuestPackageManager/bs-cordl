@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionClearedEnvironmentEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionClearedEnvironmentEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,15 +34,15 @@ public:
                       put = __cordl_internal_set__missionObjectiveCheckersManager)) ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>
       _missionObjectiveCheckersManager;
 
-  /// @brief Method Awake, addr 0x59133d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5916d80, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x5913648, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x5916ea0, size 0x7c, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
 
   static inline ::GlobalNamespace::MissionClearedEnvironmentEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5913510, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5916e10, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
 
-  /// @brief Method .ctor, addr 0x59136c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5916f1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   MissionClearedEnvironmentEffect(MissionClearedEnvironmentEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6775 };
 
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;

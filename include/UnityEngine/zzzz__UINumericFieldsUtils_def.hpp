@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UINumericFieldsUtils.hpp"
+// IWYU pragma private; include "UnityEngine\UINumericFieldsUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,31 +40,31 @@ public:
   /// @brief Field k_IntFieldFormatString, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_IntFieldFormatString, put = setStaticF_k_IntFieldFormatString)) ::StringW k_IntFieldFormatString;
 
-  /// @brief Method TryConvertStringToDouble, addr 0x6aeb760, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToDouble, addr 0x6af3178, size 0x10c, virtual false, abstract: false, final false
   static inline bool TryConvertStringToDouble(::StringW str, ::StringW initialValueAsString, ::by_ref<double_t> value);
 
-  /// @brief Method TryConvertStringToDouble, addr 0x6aeb5c8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToDouble, addr 0x6af2fe0, size 0x198, virtual false, abstract: false, final false
   static inline bool TryConvertStringToDouble(::StringW str, ::by_ref<double_t> value, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*> expr);
 
-  /// @brief Method TryConvertStringToFloat, addr 0x6aeb86c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToFloat, addr 0x6af3284, size 0xf4, virtual false, abstract: false, final false
   static inline bool TryConvertStringToFloat(::StringW str, ::StringW initialValueAsString, ::by_ref<float_t> value);
 
-  /// @brief Method TryConvertStringToInt, addr 0x6aebc90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToInt, addr 0x6af36a8, size 0xa4, virtual false, abstract: false, final false
   static inline bool TryConvertStringToInt(::StringW str, ::StringW initialValueAsString, ::by_ref<int32_t> value);
 
-  /// @brief Method TryConvertStringToLong, addr 0x6aeb9ec, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToLong, addr 0x6af3404, size 0x10c, virtual false, abstract: false, final false
   static inline bool TryConvertStringToLong(::StringW str, ::StringW initialValueAsString, ::by_ref<int64_t> value);
 
-  /// @brief Method TryConvertStringToLong, addr 0x6aeb960, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToLong, addr 0x6af3378, size 0x8c, virtual false, abstract: false, final false
   static inline bool TryConvertStringToLong(::StringW str, ::by_ref<int64_t> value, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*> expr);
 
-  /// @brief Method TryConvertStringToUInt, addr 0x6aebd34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToUInt, addr 0x6af374c, size 0xa0, virtual false, abstract: false, final false
   static inline bool TryConvertStringToUInt(::StringW str, ::StringW initialValueAsString, ::by_ref<uint32_t> value);
 
-  /// @brief Method TryConvertStringToULong, addr 0x6aebb84, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToULong, addr 0x6af359c, size 0x10c, virtual false, abstract: false, final false
   static inline bool TryConvertStringToULong(::StringW str, ::StringW initialValueAsString, ::by_ref<uint64_t> value);
 
-  /// @brief Method TryConvertStringToULong, addr 0x6aebaf8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToULong, addr 0x6af3510, size 0x8c, virtual false, abstract: false, final false
   static inline bool TryConvertStringToULong(::StringW str, ::by_ref<uint64_t> value, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*> expr);
 
   static inline ::StringW getStaticF_k_AllowedCharactersForFloat();
@@ -102,7 +102,7 @@ public:
   UINumericFieldsUtils(UINumericFieldsUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AnimationEvent.hpp"
+// IWYU pragma private; include "UnityEngine\AnimationEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Time(float_t value);
 
-  /// @brief Method .ctor, addr 0x6a31ed0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a3994c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,7 +150,7 @@ public:
   AnimationEvent(AnimationEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20211 };
 
   /// @brief Field m_Time, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Time;

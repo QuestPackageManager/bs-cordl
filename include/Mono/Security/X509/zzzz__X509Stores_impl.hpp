@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/X509/X509Stores.hpp"
+// IWYU pragma private; include "Mono\Security\X509\X509Stores.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/X509/zzzz__X509Stores_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Store_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::X509Stores::*)(::StringW, bool)>(&::Mono::Security::X509::X509Stores::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a95174;
+  constexpr static std::size_t addrs = 0x5a99630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509Store* (::Mono::Security::X509::X509Stores::*)()>(&::Mono::Security::X509::X509Stores::get_TrustedRoot)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5a95210;
+  constexpr static std::size_t addrs = 0x5a996cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509Stores*>(), { "get_TrustedRoot", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509Store* (::Mono::Security::X509::X509Stores::*)(::StringW, bool)>(&::Mono::Security::X509::X509Stores::Open)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5a952d8;
+  constexpr static std::size_t addrs = 0x5a99794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

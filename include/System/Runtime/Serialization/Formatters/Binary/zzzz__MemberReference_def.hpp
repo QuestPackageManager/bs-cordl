@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/MemberReference.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\MemberReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,18 +29,18 @@ public:
   /// @brief Field idRef, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_idRef, put = __cordl_internal_set_idRef)) int32_t idRef;
 
-  /// @brief Method Dump, addr 0x5b556c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5b59b7c, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberReference* New_ctor();
 
-  /// @brief Method Read, addr 0x5b5568c, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5b59b48, size 0x34, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x5b55630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5b59aec, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t idRef);
 
-  /// @brief Method Write, addr 0x5b55638, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x5b59af4, size 0x54, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_idRef() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_idRef(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b5562c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b59ae8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

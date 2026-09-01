@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineGlobalSettings_2.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineGlobalSettings_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineGlobalSettings_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineGlobalSettings_2_def.hpp"

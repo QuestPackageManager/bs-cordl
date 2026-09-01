@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/OculusQuestSupport/OculusQuestFeature.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\OculusQuestSupport\OculusQuestFeature.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/OculusQuestSupport/zzzz__OculusQuestFeature_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a06b24;
+  constexpr static std::size_t addrs = 0x6a0e5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

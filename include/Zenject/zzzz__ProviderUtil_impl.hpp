@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ProviderUtil.hpp"
+// IWYU pragma private; include "Zenject\ProviderUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ProviderUtil_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*)>(&::Zenject::ProviderUtil::GetTypeToInstantiate)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6e81658;
+  constexpr static std::size_t addrs = 0x6e891dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

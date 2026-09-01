@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/SdkAccountList.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\SdkAccountList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__SdkAccountList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__SdkAccount_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::SdkAccountList::*)(::System::IntPtr)>(&::Oculus::Platform::Models::SdkAccountList::_ctor)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5dedfd8;
+  constexpr static std::size_t addrs = 0x5df2494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

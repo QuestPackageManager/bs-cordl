@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/TimeControlPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\TimeControlPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,22 +40,22 @@ public:
   /// @brief Field m_timeControl, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_timeControl, put = __cordl_internal_set_m_timeControl)) ::UnityEngine::Timeline::ITimeControl* m_timeControl;
 
-  /// @brief Method Create, addr 0x69c2644, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x69ca0c0, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
                                                                                                                  ::UnityEngine::Timeline::ITimeControl* timeControl);
 
-  /// @brief Method Initialize, addr 0x69c274c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x69ca1c8, size 0x8, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Timeline::ITimeControl* timeControl);
 
   static inline ::UnityEngine::Timeline::TimeControlPlayable* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x69c2908, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x69ca384, size 0xb4, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x69c2850, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x69ca2cc, size 0xb8, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method PrepareFrame, addr 0x69c2754, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x69ca1d0, size 0xfc, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
   constexpr bool const& __cordl_internal_get_m_started() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_m_timeControl(::UnityEngine::Timeline::ITimeControl* value);
 
-  /// @brief Method .ctor, addr 0x69c29bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ca438, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   TimeControlPlayable(TimeControlPlayable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19233 };
 
   /// @brief Field m_timeControl, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Timeline::ITimeControl* ___m_timeControl;

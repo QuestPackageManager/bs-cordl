@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapCallbacksUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapCallbacksUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,15 +36,15 @@ public:
   /// @brief Field _prevSongTime, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__prevSongTime, put = __cordl_internal_set__prevSongTime)) float_t _prevSongTime;
 
-  /// @brief Method LateUpdate, addr 0x58c452c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x58c3edc, size 0x1fc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BeatmapCallbacksUpdater* New_ctor();
 
-  /// @brief Method Pause, addr 0x58c4728, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x58c40d8, size 0xc, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x58c4734, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x58c40e4, size 0xc, virtual false, abstract: false, final false
   inline void Resume();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__prevSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x58c4740, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c40f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

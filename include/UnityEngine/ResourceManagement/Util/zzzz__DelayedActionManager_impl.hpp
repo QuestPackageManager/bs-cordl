@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/DelayedActionManager.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\DelayedActionManager.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_impl.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::*)(::System::Delegate*, float_t, ::ArrayW<::System::Object*>)>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x690e290;
+  constexpr static std::size_t addrs = 0x6915d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::get_InvocationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x690ed3c;
+  constexpr static std::size_t addrs = 0x69167b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::*)(float_t)>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::set_InvocationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x690ed44;
+  constexpr static std::size_t addrs = 0x69167c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::ToString)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x690ed4c;
+  constexpr static std::size_t addrs = 0x69167c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo::Invoke)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x690e950;
+  constexpr static std::size_t addrs = 0x69163cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(::by_ref<::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo>)>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::GetNode)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x690ddf4;
+  constexpr static std::size_t addrs = 0x6915870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::ResourceManagement::Util::DelayedActionManager::Clear)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x690def0;
+  constexpr static std::size_t addrs = 0x691596c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::DelayedActionManager*>(), { "Clear", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::DestroyWhenComplete)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x690df6c;
+  constexpr static std::size_t addrs = 0x69159e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Delegate*, float_t, ::ArrayW<::System::Object*>)>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::AddAction)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x690df78;
+  constexpr static std::size_t addrs = 0x69159f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(::System::Delegate*, float_t, ::ArrayW<::System::Object*>)>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::AddActionInternal)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x690dff0;
+  constexpr static std::size_t addrs = 0x6915a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::ResourceManagement::Util::DelayedActionManager::get_IsActive)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x690e310;
+  constexpr static std::size_t addrs = 0x6915d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t)>(&::UnityEngine::ResourceManagement::Util::DelayedActionManager::Wait)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x690e43c;
+  constexpr static std::size_t addrs = 0x6915eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::LateUpdate)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x690e910;
+  constexpr static std::size_t addrs = 0x691638c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(float_t)>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::InternalLateUpdate)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x690e5dc;
+  constexpr static std::size_t addrs = 0x6916058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::OnApplicationQuit)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x690eabc;
+  constexpr static std::size_t addrs = 0x6916538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::_ctor)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x690eb7c;
+  constexpr static std::size_t addrs = 0x69165f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::DelayedActionManager*>(), { ".ctor", {}, {} })));

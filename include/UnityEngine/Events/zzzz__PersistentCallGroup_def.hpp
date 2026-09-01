@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Events/PersistentCallGroup.hpp"
+// IWYU pragma private; include "UnityEngine\Events\PersistentCallGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   /// @brief Field m_Calls, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Calls, put = __cordl_internal_set_m_Calls)) ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* m_Calls;
 
-  /// @brief Method Initialize, addr 0x6af6100, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6afdb18, size 0x14c, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
 
   static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* value);
 
-  /// @brief Method .ctor, addr 0x6af608c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afdaa4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   PersistentCallGroup(PersistentCallGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10451 };
 
   /// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* ___m_Calls;

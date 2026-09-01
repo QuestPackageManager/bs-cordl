@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderQueueType.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderQueueType.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderQueueType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::RenderQueueType::RenderQueueType(int32_t value__) noexcept {

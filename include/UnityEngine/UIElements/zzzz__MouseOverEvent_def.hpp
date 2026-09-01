@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MouseOverEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MouseOverEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseOverEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d98644, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6da01c8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseOverEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d98640, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da01c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseOverEvent___c* getStaticF___9();
@@ -81,15 +81,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseOverEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6d98514, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6da0098, size 0x4, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   static inline ::UnityEngine::UIElements::MouseOverEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x6d98518, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6da009c, size 0x88, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6d985a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da0124, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

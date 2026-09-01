@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIRUtility.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIRUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,34 +44,34 @@ public:
   /// @brief Field s_ThreadIndex, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ThreadIndex, put = setStaticF_s_ThreadIndex)) ::System::Nullable_1<int32_t> s_ThreadIndex;
 
-  /// @brief Method ComputeTransformMatrix, addr 0x6dd130c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ComputeTransformMatrix, addr 0x6dd8e90, size 0x12c, virtual false, abstract: false, final false
   static inline void ComputeTransformMatrix(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElement* ancestor, ::by_ref<::UnityEngine::Matrix4x4> result);
 
-  /// @brief Method Destroy, addr 0x6dd16cc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6dd9250, size 0xf8, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method GetNextPow2, addr 0x6dd17fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2, addr 0x6dd9380, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2(int32_t n);
 
-  /// @brief Method GetNextPow2Exp, addr 0x6dd1818, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2Exp, addr 0x6dd939c, size 0x30, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2Exp(int32_t n);
 
-  /// @brief Method GetPrevPow2, addr 0x6dd17c4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetPrevPow2, addr 0x6dd9348, size 0x38, virtual false, abstract: false, final false
   static inline int32_t GetPrevPow2(int32_t n);
 
-  /// @brief Method GetThreadIndex, addr 0x6dd1848, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetThreadIndex, addr 0x6dd93cc, size 0x144, virtual false, abstract: false, final false
   static inline int32_t GetThreadIndex();
 
-  /// @brief Method GetVerticesTransformInfo, addr 0x6dd1180, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetVerticesTransformInfo, addr 0x6dd8d04, size 0x18c, virtual false, abstract: false, final false
   static inline void GetVerticesTransformInfo(::UnityEngine::UIElements::VisualElement* ve, ::by_ref<::UnityEngine::Matrix4x4> transform);
 
-  /// @brief Method IsRoundRect, addr 0x6dd1438, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method IsRoundRect, addr 0x6dd8fbc, size 0x208, virtual false, abstract: false, final false
   static inline bool IsRoundRect(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsVectorImageBackground, addr 0x6dd1640, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsVectorImageBackground, addr 0x6dd91c4, size 0x84, virtual false, abstract: false, final false
   static inline bool IsVectorImageBackground(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ShapeWindingIsClockwise, addr 0x6dd1100, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ShapeWindingIsClockwise, addr 0x6dd8c84, size 0x80, virtual false, abstract: false, final false
   static inline bool ShapeWindingIsClockwise(int32_t maskDepth, int32_t stencilRef);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_ComputeTransformMatrixMarker();

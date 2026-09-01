@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crmf/PkiArchiveControlBuilder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crmf\PkiArchiveControlBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__PkiArchiveControlBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::*)(
     ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::_ctor)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x36d7aa0;
+  constexpr static std::size_t addrs = 0x36db860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* (
     ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::*)(::Org::BouncyCastle::Cms::RecipientInfoGenerator*)>(&::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::AddRecipientGenerator)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x36d7c6c;
+  constexpr static std::size_t addrs = 0x36dba2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder*>(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::PkiArchiveControl* (
     ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::*)(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*)>(&::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::Build)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x36d7c94;
+  constexpr static std::size_t addrs = 0x36dba54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder*>(),

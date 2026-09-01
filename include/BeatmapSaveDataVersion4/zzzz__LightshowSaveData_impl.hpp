@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4/LightshowSaveData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4\LightshowSaveData.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BasicEvent_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BeatIndex_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BeatmapBeatIndex_impl.hpp"
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion4::LightshowSaveData::*)()>(&::BeatmapSaveDataVersion4::LightshowSaveData::_ctor)> {
   constexpr static std::size_t size = 0x7e0;
-  constexpr static std::size_t addrs = 0x3758254;
+  constexpr static std::size_t addrs = 0x375dec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion4::LightshowSaveData*>(), { ".ctor", {}, {} })));

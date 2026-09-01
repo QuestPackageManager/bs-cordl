@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Ocsp/BasicOcspRespGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Ocsp\BasicOcspRespGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,7 +101,7 @@ public:
                                                                                            ::System::DateTime thisUpdate, ::System::DateTime nextUpdate,
                                                                                            ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method ToResponse, addr 0x3570974, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToResponse, addr 0x3574734, size 0x80, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* ToResponse();
 
   constexpr ::Org::BouncyCastle::Ocsp::CertificateID* const& __cordl_internal_get_certId() const;
@@ -134,15 +134,15 @@ public:
 
   constexpr void __cordl_internal_set_thisUpdate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0x3570df0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3574bb0, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate,
                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method .ctor, addr 0x356f864, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3573624, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime thisUpdate,
                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method .ctor, addr 0x356fb70, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3573930, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime thisUpdate, ::System::DateTime nextUpdate,
                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
@@ -214,35 +214,35 @@ public:
   /// @brief Field responseExtensions, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_responseExtensions, put = __cordl_internal_set_responseExtensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions;
 
-  /// @brief Method AddResponse, addr 0x356f738, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddResponse, addr 0x35734f8, size 0x12c, virtual false, abstract: false, final false
   inline void AddResponse(::Org::BouncyCastle::Ocsp::CertificateID* certID, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus);
 
-  /// @brief Method AddResponse, addr 0x356fa30, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AddResponse, addr 0x35737f0, size 0x140, virtual false, abstract: false, final false
   inline void AddResponse(::Org::BouncyCastle::Ocsp::CertificateID* certID, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime nextUpdate,
                           ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleExtensions);
 
-  /// @brief Method AddResponse, addr 0x356f8f8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method AddResponse, addr 0x35736b8, size 0x138, virtual false, abstract: false, final false
   inline void AddResponse(::Org::BouncyCastle::Ocsp::CertificateID* certID, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
                           ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleExtensions);
 
-  /// @brief Method AddResponse, addr 0x356fc28, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddResponse, addr 0x35739e8, size 0x114, virtual false, abstract: false, final false
   inline void AddResponse(::Org::BouncyCastle::Ocsp::CertificateID* certID, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime thisUpdate, ::System::DateTime nextUpdate,
                           ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleExtensions);
 
-  /// @brief Method Generate, addr 0x3570c38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x35749f8, size 0x54, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::BasicOcspResp* Generate(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculatorFactory, ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*> chain,
                                                             ::System::DateTime producedAt);
 
-  /// @brief Method Generate, addr 0x3570b4c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x357490c, size 0xec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::BasicOcspResp* Generate(::StringW signingAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                             ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*> chain, ::System::DateTime producedAt,
                                                             ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Generate, addr 0x3570b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x3574904, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::BasicOcspResp* Generate(::StringW signingAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                             ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*> chain, ::System::DateTime thisUpdate);
 
-  /// @brief Method GenerateResponse, addr 0x356fd44, size 0xc30, virtual false, abstract: false, final false
+  /// @brief Method GenerateResponse, addr 0x3573b04, size 0xc30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::BasicOcspResp* GenerateResponse(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculator, ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*> chain,
                                                                     ::System::DateTime producedAt);
 
@@ -250,7 +250,7 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator* New_ctor(::Org::BouncyCastle::Ocsp::RespID* responderID);
 
-  /// @brief Method SetResponseExtensions, addr 0x356fd3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetResponseExtensions, addr 0x3573afc, size 0x8, virtual false, abstract: false, final false
   inline void SetResponseExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions);
 
   constexpr ::System::Collections::IList* const& __cordl_internal_get_list() const;
@@ -271,13 +271,13 @@ public:
 
   constexpr void __cordl_internal_set_responseExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method .ctor, addr 0x356f49c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357325c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method .ctor, addr 0x356f42c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35731ec, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Ocsp::RespID* responderID);
 
-  /// @brief Method get_SignatureAlgNames, addr 0x3570c8c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x3574a4c, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
 protected:

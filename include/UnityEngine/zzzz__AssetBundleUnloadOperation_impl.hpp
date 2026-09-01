@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AssetBundleUnloadOperation.hpp"
+// IWYU pragma private; include "UnityEngine\AssetBundleUnloadOperation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_impl.hpp"
 #include "UnityEngine/zzzz__AssetBundleUnloadOperation_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AssetBundleUnloadOperation* (*)(::System::IntPtr)>(
     &::UnityEngine::AssetBundleUnloadOperation_BindingsMarshaller::ConvertToManaged)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6a4412c;
+  constexpr static std::size_t addrs = 0x6a4bba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::AssetBundleUnloadOperation*)>(
     &::UnityEngine::AssetBundleUnloadOperation_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a449a4;
+  constexpr static std::size_t addrs = 0x6a4c420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AssetBundleUnloadOperation_BindingsMarshaller*>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AssetBundleUnloadOperation::*)()>(&::UnityEngine::AssetBundleUnloadOperation::WaitForCompletion)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6a448cc;
+  constexpr static std::size_t addrs = 0x6a4c348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AssetBundleUnloadOperation*>(), { "WaitForCompletion", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AssetBundleUnloadOperation::*)(::System::IntPtr)>(&::UnityEngine::AssetBundleUnloadOperation::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6a44958;
+  constexpr static std::size_t addrs = 0x6a4c3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AssetBundleUnloadOperation::WaitForCompletion_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a4491c;
+  constexpr static std::size_t addrs = 0x6a4c398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

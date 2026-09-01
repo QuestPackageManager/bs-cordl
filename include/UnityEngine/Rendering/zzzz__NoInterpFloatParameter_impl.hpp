@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/NoInterpFloatParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\NoInterpFloatParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpFloatParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::NoInterpFloatParameter._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpFloatParameter::*)(float_t, bool)>(&::UnityEngine::Rendering::NoInterpFloatParameter::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x67c520c;
+  constexpr static std::size_t addrs = 0x67ccc88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TextureIntSwitchEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\TextureIntSwitchEventEffect.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextureIntSwitchEventEffect_def.hpp"
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureIntSwitchEventEffect::*)(::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::TextureIntSwitchEventEffect::Initialize)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x599a6f8;
+  constexpr static std::size_t addrs = 0x59a261c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureIntSwitchEventEffect*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureIntSwitchEventEffect::*)()>(&::GlobalNamespace::TextureIntSwitchEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x599a9d0;
+  constexpr static std::size_t addrs = 0x59a28f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureIntSwitchEventEffect*>(), { "OnDestroy", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureIntSwitchEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::TextureIntSwitchEventEffect::HandleBasicBeatmapEventData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x599a9ec;
+  constexpr static std::size_t addrs = 0x59a2910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureIntSwitchEventEffect*>(),
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureIntSwitchEventEffect::*)(int32_t)>(&::GlobalNamespace::TextureIntSwitchEventEffect::SetTextureByIndex)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x599a900;
+  constexpr static std::size_t addrs = 0x59a2824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureIntSwitchEventEffect::*)()>(&::GlobalNamespace::TextureIntSwitchEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x599aa00;
+  constexpr static std::size_t addrs = 0x59a2924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureIntSwitchEventEffect*>(), { ".ctor", {}, {} })));

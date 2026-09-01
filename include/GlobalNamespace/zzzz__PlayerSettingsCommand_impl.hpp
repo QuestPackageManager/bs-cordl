@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerSettingsCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerSettingsCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsCommand__ExecuteAsync_d__8::*)()>(
     &::GlobalNamespace::PlayerSettingsCommand__ExecuteAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x32de68c;
+  constexpr static std::size_t addrs = 0x32e2488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsCommand__ExecuteAsync_d__8>(), { "MoveNext", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsCommand__ExecuteAsync_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PlayerSettingsCommand__ExecuteAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32deb08;
+  constexpr static std::size_t addrs = 0x32e2904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsCommand__ExecuteAsync_d__8>(),
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlayerSettingsCommand::*)()>(&::GlobalNamespace::PlayerSettingsCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32dc280;
+  constexpr static std::size_t addrs = 0x32e007c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlayerSettingsCommand::*)()>(&::GlobalNamespace::PlayerSettingsCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32dc2c4;
+  constexpr static std::size_t addrs = 0x32e00c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::PlayerSettingsCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::PlayerSettingsCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x32dc308;
+  constexpr static std::size_t addrs = 0x32e0104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSettingsCommand::*)(::StringW, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
     &::GlobalNamespace::PlayerSettingsCommand::SetPlayerSetting)> {
   constexpr static std::size_t size = 0x10e0;
-  constexpr static std::size_t addrs = 0x32dc3f8;
+  constexpr static std::size_t addrs = 0x32e01f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsCommand::*)(::StringW, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
     &::GlobalNamespace::PlayerSettingsCommand::PrintCurrentPlayerSettings)> {
   constexpr static std::size_t size = 0xca0;
-  constexpr static std::size_t addrs = 0x32dd4d8;
+  constexpr static std::size_t addrs = 0x32e12d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSettingsCommand::*)()>(&::GlobalNamespace::PlayerSettingsCommand::_ctor)> {
   constexpr static std::size_t size = 0x514;
-  constexpr static std::size_t addrs = 0x32de178;
+  constexpr static std::size_t addrs = 0x32e1f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSettingsCommand*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/ICustomIntegrationConfig.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\ICustomIntegrationConfig.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__ICustomIntegrationConfig_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 //  Writing Method size for method: ::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig.GetCamera

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixNameConstraintValidatorException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixNameConstraintValidatorException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x35da604, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35de3c4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
 protected:

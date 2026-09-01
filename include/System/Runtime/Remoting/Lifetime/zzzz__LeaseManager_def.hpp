@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Lifetime/LeaseManager.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Lifetime\LeaseManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,21 +40,21 @@ public:
   /// @brief Field _timer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer)) ::System::Threading::Timer* _timer;
 
-  /// @brief Method ManageLeases, addr 0x5b317e0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ManageLeases, addr 0x5b35c9c, size 0x25c, virtual false, abstract: false, final false
   inline void ManageLeases(::System::Object* state);
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* New_ctor();
 
-  /// @brief Method SetPollTime, addr 0x5b3142c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetPollTime, addr 0x5b358e8, size 0xe8, virtual false, abstract: false, final false
   inline void SetPollTime(::System::TimeSpan timeSpan);
 
-  /// @brief Method StartManager, addr 0x5b31640, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method StartManager, addr 0x5b35afc, size 0x184, virtual false, abstract: false, final false
   inline void StartManager();
 
-  /// @brief Method StopManager, addr 0x5b317c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method StopManager, addr 0x5b35c80, size 0x1c, virtual false, abstract: false, final false
   inline void StopManager();
 
-  /// @brief Method TrackLifetime, addr 0x5b31514, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method TrackLifetime, addr 0x5b359d0, size 0x12c, virtual false, abstract: false, final false
   inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__objects() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__timer(::System::Threading::Timer* value);
 
-  /// @brief Method .ctor, addr 0x5b31a3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b35ef8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

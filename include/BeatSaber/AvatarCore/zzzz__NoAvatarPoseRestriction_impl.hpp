@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/NoAvatarPoseRestriction.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\NoAvatarPoseRestriction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__NoAvatarPoseRestriction_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Avatar
     ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
     ::by_ref<::UnityEngine::Vector3>)>(&::BeatSaber::AvatarCore::NoAvatarPoseRestriction::RestrictPose)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x326c870;
+  constexpr static std::size_t addrs = 0x327047c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::NoAvatarPoseRestriction::*)()>(&::BeatSaber::AvatarCore::NoAvatarPoseRestriction::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x326c8a0;
+  constexpr static std::size_t addrs = 0x32704ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::NoAvatarPoseRestriction*>(), { ".ctor", {}, {} })));

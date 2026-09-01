@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Assertions/AssertionException.hpp"
+// IWYU pragma private; include "UnityEngine\Assertions\AssertionException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_m_UserMessage(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6aff33c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b06d54, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW userMessage);
 
-  /// @brief Method get_Message, addr 0x6affd2c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x6b07744, size 0x78, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -54,7 +54,7 @@ public:
   AssertionException(AssertionException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10691 };
 
   /// @brief Field m_UserMessage, offset: 0x90, size: 0x8, def value: None
   ::StringW ___m_UserMessage;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/UTF8Encoding_UTF8EncodingSealed.hpp"
+// IWYU pragma private; include "System\Text\UTF8Encoding_UTF8EncodingSealed.hpp"
 #include "System/Text/zzzz__UTF8Encoding_impl.hpp"
 #include "System/Text/zzzz__UTF8Encoding_UTF8EncodingSealed_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed::*)(bool)>(&::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5adf2a4;
+  constexpr static std::size_t addrs = 0x5ae3760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<uint8_t> (::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed::*)()>(
     &::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed::get_Preamble)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5adf330;
+  constexpr static std::size_t addrs = 0x5ae37ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

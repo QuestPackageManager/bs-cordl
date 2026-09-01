@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/ColocationDebuggingOptions.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\ColocationDebuggingOptions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__ColocationDebuggingOptions_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Shared::ColocationDebuggingOptions._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationDebuggingOptions::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::ColocationDebuggingOptions::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a6cc8c;
+  constexpr static std::size_t addrs = 0x5a71148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ObjectHolderListEnumerator.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ObjectHolderListEnumerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
   /// @brief Field m_startingVersion, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_startingVersion, put = __cordl_internal_set_m_startingVersion)) int32_t m_startingVersion;
 
-  /// @brief Method MoveNext, addr 0x5b4e9b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x5b52e74, size 0xb0, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Runtime::Serialization::ObjectHolderListEnumerator* New_ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_m_startingVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b4fa38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b53ef4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
 
-  /// @brief Method get_Current, addr 0x5b4e964, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x5b52e20, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectHolder* get_Current();
 
 protected:

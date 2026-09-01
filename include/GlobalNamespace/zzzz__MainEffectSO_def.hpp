@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainEffectSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainEffectSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,27 +44,27 @@ public:
   // Declarations
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method BindAndFetchTempTextureHandles, addr 0x5f40914, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BindAndFetchTempTextureHandles, addr 0x5f45a10, size 0xa0, virtual true, abstract: false, final false
   inline void BindAndFetchTempTextureHandles(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* builder, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                              ::UnityEngine::RenderTextureDescriptor destDesc, ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> textureHandles);
 
   static inline ::GlobalNamespace::MainEffectSO* New_ctor();
 
-  /// @brief Method PostRender, addr 0x5f409f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x5f45aec, size 0x4, virtual true, abstract: false, final false
   inline void PostRender(::UnityEngine::Rendering::RasterCommandBuffer* cmd, float_t fade);
 
-  /// @brief Method PreRender, addr 0x5f409b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x5f45ab0, size 0x4, virtual true, abstract: false, final false
   inline void PreRender(::UnityEngine::Rendering::IBaseCommandBuffer* cmd);
 
-  /// @brief Method Render, addr 0x5f409b8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x5f45ab4, size 0x38, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle src,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle bloomTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dest,
                      ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tempTextures, float_t fade);
 
-  /// @brief Method .ctor, addr 0x5f409fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f45af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x5f409f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x5f45af0, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
 protected:
@@ -82,7 +82,7 @@ public:
   MainEffectSO(MainEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20646 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

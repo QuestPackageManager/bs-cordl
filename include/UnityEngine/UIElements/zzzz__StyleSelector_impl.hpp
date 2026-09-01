@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSelector.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSelector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelectorPart_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelectorRelationship_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSelector___c::*)()>(&::UnityEngine::UIElements::StyleSelector___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c94070;
+  constexpr static std::size_t addrs = 0x6c9bbf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelector___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleSelector___c::*)(::UnityEngine::UIElements::StyleSelectorPart)>(
     &::UnityEngine::UIElements::StyleSelector___c::_ToString_b__10_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c94074;
+  constexpr static std::size_t addrs = 0x6c9bbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelector___c*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::StyleSelectorPart> (::UnityEngine::UIElements::StyleSelector::*)()>(
     &::UnityEngine::UIElements::StyleSelector::get_parts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9361c;
+  constexpr static std::size_t addrs = 0x6c9b1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelector*>(), { "get_parts", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSelector::*)(::ArrayW<::UnityEngine::UIElements::StyleSelectorPart>)>(
     &::UnityEngine::UIElements::StyleSelector::set_parts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c93ea8;
+  constexpr static std::size_t addrs = 0x6c9ba2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelector*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleSelectorRelationship (::UnityEngine::UIElements::StyleSelector::*)()>(
     &::UnityEngine::UIElements::StyleSelector::get_previousRelationship)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c93eb0;
+  constexpr static std::size_t addrs = 0x6c9ba34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelector*>(), { "get_previousRelationship", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSelector::*)(::UnityEngine::UIElements::StyleSelectorRelationship)>(
     &::UnityEngine::UIElements::StyleSelector::set_previousRelationship)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c93eb8;
+  constexpr static std::size_t addrs = 0x6c9ba3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleSelector::*)()>(&::UnityEngine::UIElements::StyleSelector::ToString)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6c93ec0;
+  constexpr static std::size_t addrs = 0x6c9ba44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSelector::*)()>(&::UnityEngine::UIElements::StyleSelector::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c94010;
+  constexpr static std::size_t addrs = 0x6c9bb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSelector*>(), { ".ctor", {}, {} })));

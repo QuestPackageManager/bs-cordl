@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/Field/FiniteFields.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\Field\FiniteFields.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,15 +36,15 @@ public:
   /// @brief Field GF_3, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_GF_3, put = setStaticF_GF_3)) ::Org::BouncyCastle::Math::Field::IFiniteField* GF_3;
 
-  /// @brief Method GetBinaryExtensionField, addr 0x352eabc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetBinaryExtensionField, addr 0x353287c, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::ArrayW<int32_t> exponents);
 
-  /// @brief Method GetPrimeField, addr 0x352ecac, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetPrimeField, addr 0x3532a6c, size 0x174, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
   static inline ::Org::BouncyCastle::Math::Field::FiniteFields* New_ctor();
 
-  /// @brief Method .ctor, addr 0x352ef00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3532cc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* getStaticF_GF_2();

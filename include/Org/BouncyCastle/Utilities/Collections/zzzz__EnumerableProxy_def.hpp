@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/EnumerableProxy.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Collections\EnumerableProxy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x3623ce4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3627aa4, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::EnumerableProxy* New_ctor(::System::Collections::IEnumerable* inner);
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_inner(::System::Collections::IEnumerable* value);
 
-  /// @brief Method .ctor, addr 0x3623c8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3627a4c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* inner);
 
   /// @brief Convert to "::System::Collections::IEnumerable"

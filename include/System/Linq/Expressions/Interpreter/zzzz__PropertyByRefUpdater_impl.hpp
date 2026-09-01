@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/PropertyByRefUpdater.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\PropertyByRefUpdater.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__ByRefUpdater_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LocalDefinition_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
     ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>, ::System::Reflection::PropertyInfo*, int32_t)>(
     &::System::Linq::Expressions::Interpreter::PropertyByRefUpdater::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fa7168;
+  constexpr static std::size_t addrs = 0x5faebe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::PropertyByRefUpdater*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::PropertyByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Object*)>(&::System::Linq::Expressions::Interpreter::PropertyByRefUpdater::Update)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5fa7180;
+  constexpr static std::size_t addrs = 0x5faebfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::PropertyByRefUpdater*>(),
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
                                                                                                                                 ::System::Linq::Expressions::Interpreter::LocalVariables*)>(
     &::System::Linq::Expressions::Interpreter::PropertyByRefUpdater::UndefineTemps)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5fa72d8;
+  constexpr static std::size_t addrs = 0x5faed54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::PropertyByRefUpdater*>(),

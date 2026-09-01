@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlAsyncCheckReaderWithLineInfoNSSchema.hpp"
+// IWYU pragma private; include "System\Xml\XmlAsyncCheckReaderWithLineInfoNSSchema.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,25 +62,25 @@ public:
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema* New_ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_IsDefault, addr 0x61ad674, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_IsDefault, addr 0x61b50f0, size 0xa8, virtual true, abstract: false, final true
   inline bool System_Xml_Schema_IXmlSchemaInfo_get_IsDefault();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_IsNil, addr 0x61ad71c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_IsNil, addr 0x61b5198, size 0xa8, virtual true, abstract: false, final true
   inline bool System_Xml_Schema_IXmlSchemaInfo_get_IsNil();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_MemberType, addr 0x61ad7c4, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_MemberType, addr 0x61b5240, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaSimpleType* System_Xml_Schema_IXmlSchemaInfo_get_MemberType();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute, addr 0x61ad9bc, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute, addr 0x61b5438, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaAttribute* System_Xml_Schema_IXmlSchemaInfo_get_SchemaAttribute();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement, addr 0x61ad914, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement, addr 0x61b5390, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaElement* System_Xml_Schema_IXmlSchemaInfo_get_SchemaElement();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaType, addr 0x61ad86c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaType, addr 0x61b52e8, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaType* System_Xml_Schema_IXmlSchemaInfo_get_SchemaType();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_Validity, addr 0x61ad5d0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_Validity, addr 0x61b504c, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaValidity System_Xml_Schema_IXmlSchemaInfo_get_Validity();
 
   constexpr ::System::Xml::Schema::IXmlSchemaInfo* const& __cordl_internal_get_readerAsIXmlSchemaInfo() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_readerAsIXmlSchemaInfo(::System::Xml::Schema::IXmlSchemaInfo* value);
 
-  /// @brief Method .ctor, addr 0x61abe84, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b3900, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
   /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
@@ -110,7 +110,7 @@ public:
   XmlAsyncCheckReaderWithLineInfoNSSchema(XmlAsyncCheckReaderWithLineInfoNSSchema const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9306 };
 
   /// @brief Field readerAsIXmlSchemaInfo, offset: 0x30, size: 0x8, def value: None
   ::System::Xml::Schema::IXmlSchemaInfo* ___readerAsIXmlSchemaInfo;

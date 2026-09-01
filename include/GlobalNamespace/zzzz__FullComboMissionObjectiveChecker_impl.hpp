@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FullComboMissionObjectiveChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace\FullComboMissionObjectiveChecker.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveChecker_impl.hpp"
 #include "GlobalNamespace/zzzz__FullComboMissionObjectiveChecker_def.hpp"
 #include "GlobalNamespace/zzzz__ComboController_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(&::GlobalNamespace::FullComboMissionObjectiveChecker::Init)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5916978;
+  constexpr static std::size_t addrs = 0x5919c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FullComboMissionObjectiveChecker*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(&::GlobalNamespace::FullComboMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5916ae0;
+  constexpr static std::size_t addrs = 0x5919d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FullComboMissionObjectiveChecker*>(), { "OnDestroy", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::FullComboMissionObjectiveChecker::HandleComboBreakingEventHappened)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5916bf0;
+  constexpr static std::size_t addrs = 0x5919e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(&::GlobalNamespace::FullComboMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5916c2c;
+  constexpr static std::size_t addrs = 0x5919ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FullComboMissionObjectiveChecker*>(), { ".ctor", {}, {} })));

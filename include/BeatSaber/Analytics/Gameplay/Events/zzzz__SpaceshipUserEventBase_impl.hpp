@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipUserEventBase.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipUserEventBase.hpp"
 #include "OSCE/Analytics/zzzz__BaseAnalyticsEvent_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipUserEventBase_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IDType (::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase::GetIDType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3262840;
+  constexpr static std::size_t addrs = 0x3265bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase::ApplyBasicFields)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3262130;
+  constexpr static std::size_t addrs = 0x3265114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase::ReturnEventToPool)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3262848;
+  constexpr static std::size_t addrs = 0x3265be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3261de0;
+  constexpr static std::size_t addrs = 0x32650f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase*>(), { ".ctor", {}, {} })));

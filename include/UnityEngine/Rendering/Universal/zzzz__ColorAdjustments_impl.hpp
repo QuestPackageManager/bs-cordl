@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ColorAdjustments.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ColorAdjustments.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ColorAdjustments_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ClampedFloatParameter_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ColorAdjustments::*)()>(&::UnityEngine::Rendering::Universal::ColorAdjustments::IsActive)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68762c0;
+  constexpr static std::size_t addrs = 0x687dd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorAdjustments*>(), { "IsActive", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ColorAdjustments::*)()>(&::UnityEngine::Rendering::Universal::ColorAdjustments::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68763b0;
+  constexpr static std::size_t addrs = 0x687de2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorAdjustments*>(), { "IsTileCompatible", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ColorAdjustments::*)()>(&::UnityEngine::Rendering::Universal::ColorAdjustments::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x68763b8;
+  constexpr static std::size_t addrs = 0x687de34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorAdjustments*>(), { ".ctor", {}, {} })));

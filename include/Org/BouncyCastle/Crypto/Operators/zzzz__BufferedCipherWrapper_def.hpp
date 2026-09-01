@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/BufferedCipherWrapper.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Operators\BufferedCipherWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,10 +43,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipher"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipher*() noexcept;
 
-  /// @brief Method GetMaxOutputSize, addr 0x3401e38, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method GetMaxOutputSize, addr 0x3405bf8, size 0xb8, virtual true, abstract: false, final true
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
-  /// @brief Method GetUpdateOutputSize, addr 0x3401ef0, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method GetUpdateOutputSize, addr 0x3405cb0, size 0xb8, virtual true, abstract: false, final true
   inline int32_t GetUpdateOutputSize(int32_t inputLen);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper* New_ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_stream(::Org::BouncyCastle::Crypto::IO::CipherStream* value);
 
-  /// @brief Method .ctor, addr 0x3401db4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3405b74, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
 
-  /// @brief Method get_Stream, addr 0x3401fa8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0x3405d68, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipher"

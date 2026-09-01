@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DistanceObjectiveValueFormatterSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\DistanceObjectiveValueFormatterSO.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveValueFormatterSO_impl.hpp"
 #include "GlobalNamespace/zzzz__DistanceObjectiveValueFormatterSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DistanceObjectiveValueFormatterSO.FormatValue
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DistanceObjectiveValueFormatterSO::*)(int32_t)>(
     &::GlobalNamespace::DistanceObjectiveValueFormatterSO::FormatValue)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3750594;
+  constexpr static std::size_t addrs = 0x37561b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DistanceObjectiveValueFormatterSO::*)()>(&::GlobalNamespace::DistanceObjectiveValueFormatterSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3750628;
+  constexpr static std::size_t addrs = 0x375624c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>(), { ".ctor", {}, {} })));

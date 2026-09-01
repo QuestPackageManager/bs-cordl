@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/XSalsa20Engine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\XSalsa20Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,16 +28,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::XSalsa20Engine* New_ctor();
 
-  /// @brief Method SetKey, addr 0x33cf3e0, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x33d31a0, size 0x264, virtual true, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
 
-  /// @brief Method .ctor, addr 0x33cf644, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d3404, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x33cf394, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x33d3154, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_NonceSize, addr 0x33cf3d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NonceSize, addr 0x33d3198, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NonceSize();
 
 protected:

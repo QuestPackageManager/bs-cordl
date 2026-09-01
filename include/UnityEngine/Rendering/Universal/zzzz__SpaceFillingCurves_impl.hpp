@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/SpaceFillingCurves.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\SpaceFillingCurves.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__SpaceFillingCurves_def.hpp"
 #include "Unity/Mathematics/zzzz__uint2_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::SpaceFillingCurves::Part1By1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68b68c0;
+  constexpr static std::size_t addrs = 0x68be33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::SpaceFillingCurves::Compact1By1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68b68e4;
+  constexpr static std::size_t addrs = 0x68be360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::Unity::Mathematics::uint2)>(&::UnityEngine::Rendering::Universal::SpaceFillingCurves::EncodeMorton2D)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68b690c;
+  constexpr static std::size_t addrs = 0x68be388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint2 (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::SpaceFillingCurves::DecodeMorton2D)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x68b6980;
+  constexpr static std::size_t addrs = 0x68be3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

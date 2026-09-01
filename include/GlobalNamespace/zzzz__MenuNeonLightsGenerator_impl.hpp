@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MenuNeonLightsGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace\MenuNeonLightsGenerator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuNeonLightsGenerator_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuNeonLightsGenerator::*)()>(&::GlobalNamespace::MenuNeonLightsGenerator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58c02e8;
+  constexpr static std::size_t addrs = 0x58bfc90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuNeonLightsGenerator*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/AndroidPlatform.hpp"
+// IWYU pragma private; include "Oculus\Platform\AndroidPlatform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE AndroidPlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsyncInitialize, addr 0x5db0280, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x5db473c, size 0xf0, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
-  /// @brief Method Initialize, addr 0x5db0138, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5db45f4, size 0xac, virtual false, abstract: false, final false
   inline bool Initialize(::StringW appId);
 
   static inline ::Oculus::Platform::AndroidPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5db0408, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db48c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   AndroidPlatform(AndroidPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

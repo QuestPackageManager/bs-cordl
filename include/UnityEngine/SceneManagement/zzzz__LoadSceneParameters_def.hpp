@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SceneManagement/LoadSceneParameters.hpp"
+// IWYU pragma private; include "UnityEngine\SceneManagement\LoadSceneParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ namespace UnityEngine::SceneManagement {
 struct CORDL_TYPE LoadSceneParameters {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6af92fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b00d14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::SceneManagement::LoadSceneMode mode);
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr LoadSceneParameters(::UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode, ::UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10491 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

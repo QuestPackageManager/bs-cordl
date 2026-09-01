@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/RuntimeMarshal.hpp"
+// IWYU pragma private; include "Mono\RuntimeMarshal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,22 +31,22 @@ namespace Mono {
 class CORDL_TYPE RuntimeMarshal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsciHexDigitValue, addr 0x5aa9c14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AsciHexDigitValue, addr 0x5aae0d0, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t AsciHexDigitValue(int32_t c);
 
-  /// @brief Method DecodeBlobArray, addr 0x5aa9b58, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlobArray, addr 0x5aae014, size 0xbc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> DecodeBlobArray(::System::IntPtr ptr);
 
-  /// @brief Method DecodeBlobSize, addr 0x5aa9afc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlobSize, addr 0x5aadfb8, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t DecodeBlobSize(::System::IntPtr in_ptr, ::by_ref<::System::IntPtr> out_ptr);
 
-  /// @brief Method FreeAssemblyName, addr 0x5aa9c40, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FreeAssemblyName, addr 0x5aae0fc, size 0x50, virtual false, abstract: false, final false
   static inline void FreeAssemblyName(::by_ref<::Mono::MonoAssemblyName> name, bool freeStruct);
 
-  /// @brief Method MarshalString, addr 0x5aa9aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MarshalString, addr 0x5aadfa8, size 0x8, virtual false, abstract: false, final false
   static inline ::Mono::SafeStringMarshal MarshalString(::StringW str);
 
-  /// @brief Method PtrToUtf8String, addr 0x5aa9a80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PtrToUtf8String, addr 0x5aadf3c, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW PtrToUtf8String(::System::IntPtr ptr);
 
 protected:

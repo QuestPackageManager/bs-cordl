@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/BoundingSphere.hpp"
+// IWYU pragma private; include "UnityEngine\BoundingSphere.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__BoundingSphere_def.hpp"
 // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "radius", ty: "float_t", modifiers: "", def_value: Some("{}") }]

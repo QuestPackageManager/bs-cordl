@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ExitGUIException.hpp"
+// IWYU pragma private; include "UnityEngine\ExitGUIException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +24,10 @@ public:
 
   static inline ::UnityEngine::ExitGUIException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x6b456e4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b4d268, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6b3f3dc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b46f60, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -45,7 +45,7 @@ public:
   ExitGUIException(ExitGUIException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19893 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

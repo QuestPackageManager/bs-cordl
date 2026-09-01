@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/AndroidNavigationHidden.hpp"
+// IWYU pragma private; include "UnityEngine\Android\AndroidNavigationHidden.hpp"
 #include "UnityEngine/Android/zzzz__AndroidNavigationHidden_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Android::AndroidNavigationHidden::AndroidNavigationHidden(int32_t value__) noexcept {

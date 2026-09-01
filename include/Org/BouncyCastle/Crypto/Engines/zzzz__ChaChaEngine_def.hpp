@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/ChaChaEngine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\ChaChaEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,32 +24,32 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-  /// @brief Method AdvanceCounter, addr 0x33a63fc, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method AdvanceCounter, addr 0x33aa1bc, size 0x4c, virtual true, abstract: false, final false
   inline void AdvanceCounter();
 
-  /// @brief Method ChachaCore, addr 0x33a5f84, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ChachaCore, addr 0x33a9d44, size 0x344, virtual false, abstract: false, final false
   static inline void ChachaCore(int32_t rounds, ::ArrayW<uint32_t> input, ::ArrayW<uint32_t> x);
 
-  /// @brief Method GenerateKeyStream, addr 0x33a6578, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyStream, addr 0x33aa338, size 0x3c, virtual true, abstract: false, final false
   inline void GenerateKeyStream(::ArrayW<uint8_t> output);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::ChaChaEngine* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::ChaChaEngine* New_ctor(int32_t rounds);
 
-  /// @brief Method ResetCounter, addr 0x33a6448, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ResetCounter, addr 0x33aa208, size 0x2c, virtual true, abstract: false, final false
   inline void ResetCounter();
 
-  /// @brief Method SetKey, addr 0x33a6474, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x33aa234, size 0x104, virtual true, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
 
-  /// @brief Method .ctor, addr 0x33a62c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33aa088, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x33a6320, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33aa0e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t rounds);
 
-  /// @brief Method get_AlgorithmName, addr 0x33a6388, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x33aa148, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

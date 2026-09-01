@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/NetConnectAcceptPacket.hpp"
+// IWYU pragma private; include "LiteNetLib\NetConnectAcceptPacket.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetConnectAcceptPacket_def.hpp"
 #include "LiteNetLib/zzzz__NetPacket_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetConnectAcceptPacket::*)(int64_t, uint8_t, bool)>(&::LiteNetLib::NetConnectAcceptPacket::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58a4c3c;
+  constexpr static std::size_t addrs = 0x58a4604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetConnectAcceptPacket* (*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetConnectAcceptPacket::FromData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x58a1c04;
+  constexpr static std::size_t addrs = 0x58a15cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetPacket* (*)(int64_t, uint8_t, bool)>(&::LiteNetLib::NetConnectAcceptPacket::Make)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58a4c4c;
+  constexpr static std::size_t addrs = 0x58a4614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

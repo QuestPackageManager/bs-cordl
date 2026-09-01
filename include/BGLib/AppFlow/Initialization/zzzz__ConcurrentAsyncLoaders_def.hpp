@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/ConcurrentAsyncLoaders.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\ConcurrentAsyncLoaders.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__asyncLoaders(::System::Collections::Generic::List_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>>* value);
 
-  /// @brief Method .ctor, addr 0x3306078, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3309e74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_asyncLoaders, addr 0x3306070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asyncLoaders, addr 0x3309e6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>>* get_asyncLoaders();
 
 protected:
@@ -63,7 +63,7 @@ public:
   ConcurrentAsyncLoaders(ConcurrentAsyncLoaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21561 };
 
   /// @brief Field _asyncLoaders, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>>* ____asyncLoaders;

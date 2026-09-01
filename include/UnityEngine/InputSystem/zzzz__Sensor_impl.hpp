@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Sensor.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Sensor.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Sensor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Sensor.get_samplingFrequency
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Sensor::*)()>(&::UnityEngine::InputSystem::Sensor::get_samplingFrequency)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x655ddbc;
+  constexpr static std::size_t addrs = 0x6565838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Sensor*>(), { "get_samplingFrequency", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Sensor::*)(float_t)>(&::UnityEngine::InputSystem::Sensor::set_samplingFrequency)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x655dec4;
+  constexpr static std::size_t addrs = 0x6565940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Sensor::*)()>(&::UnityEngine::InputSystem::Sensor::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x655df68;
+  constexpr static std::size_t addrs = 0x65659e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Sensor*>(), { ".ctor", {}, {} })));

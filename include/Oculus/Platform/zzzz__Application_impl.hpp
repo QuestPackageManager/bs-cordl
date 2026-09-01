@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Application.hpp"
+// IWYU pragma private; include "Oculus\Platform\Application.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Application_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AppDownloadProgressResult_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* (*)()>(&::Oculus::Platform::Application::CancelAppDownload)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de08fc;
+  constexpr static std::size_t addrs = 0x5de4db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Application*>(), { "CancelAppDownload", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadProgressResult*>* (*)()>(
     &::Oculus::Platform::Application::CheckAppDownloadProgress)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de0a54;
+  constexpr static std::size_t addrs = 0x5de4f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Application*>(), { "CheckAppDownloadProgress", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationVersion*>* (*)()>(&::Oculus::Platform::Application::GetVersion)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de0bac;
+  constexpr static std::size_t addrs = 0x5de5068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Application*>(), { "GetVersion", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* (*)(::Oculus::Platform::ApplicationOptions*)>(
     &::Oculus::Platform::Application::InstallAppUpdateAndRelaunch)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5de0d04;
+  constexpr static std::size_t addrs = 0x5de51c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::StringW>* (*)(uint64_t, ::Oculus::Platform::ApplicationOptions*)>(
     &::Oculus::Platform::Application::LaunchOtherApp)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5de0e74;
+  constexpr static std::size_t addrs = 0x5de5330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* (*)()>(&::Oculus::Platform::Application::StartAppDownload)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de0fec;
+  constexpr static std::size_t addrs = 0x5de54a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Application*>(), { "StartAppDownload", {}, {} })));

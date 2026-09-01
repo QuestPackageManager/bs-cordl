@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MetaXRSpaceWarp.hpp"
+// IWYU pragma private; include "Meta\XR\MetaXRSpaceWarp.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "Meta/XR/zzzz__MetaXRSpaceWarp_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MetaXRSpaceWarp.SetSpaceWarp
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Meta::XR::MetaXRSpaceWarp::SetSpaceWarp)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4c1d8;
+  constexpr static std::size_t addrs = 0x5e50694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRSpaceWarp*>(), { "SetSpaceWarp", {}, { ::i2c::type_of<bool>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, float_t)>(&::Meta::XR::MetaXRSpaceWarp::SetAppSpacePosition)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4c258;
+  constexpr static std::size_t addrs = 0x5e50714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, float_t, float_t)>(&::Meta::XR::MetaXRSpaceWarp::SetAppSpaceRotation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4c2ec;
+  constexpr static std::size_t addrs = 0x5e507a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Meta::XR::MetaXRSpaceWarp::MetaSetSpaceWarp)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e4c1dc;
+  constexpr static std::size_t addrs = 0x5e50698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRSpaceWarp*>(), { "MetaSetSpaceWarp", {}, { ::i2c::type_of<bool>() } })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, float_t)>(&::Meta::XR::MetaXRSpaceWarp::MetaSetAppSpacePosition)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e4c25c;
+  constexpr static std::size_t addrs = 0x5e50718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, float_t, float_t)>(&::Meta::XR::MetaXRSpaceWarp::MetaSetAppSpaceRotation)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5e4c2f0;
+  constexpr static std::size_t addrs = 0x5e507ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRSpaceWarp::*)()>(&::Meta::XR::MetaXRSpaceWarp::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c388;
+  constexpr static std::size_t addrs = 0x5e50844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRSpaceWarp*>(), { ".ctor", {}, {} })));

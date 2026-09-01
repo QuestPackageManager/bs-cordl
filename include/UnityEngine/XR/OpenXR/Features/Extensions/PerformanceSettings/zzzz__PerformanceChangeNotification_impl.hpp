@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Extensions/PerformanceSettings/PerformanceChangeNotification.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Extensions\PerformanceSettings\PerformanceChangeNotification.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Extensions/PerformanceSettings/zzzz__PerformanceDomain_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Extensions/PerformanceSettings/zzzz__PerformanceNotificationLevel_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/Extensions/PerformanceSettings/zzzz__PerformanceSubDomain_impl.hpp"

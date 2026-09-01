@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/ThrowHelper.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\ThrowHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__ThrowHelper_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::StringW)>(&::UnityEngine::Bindings::ThrowHelper::ThrowArgumentNullException)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6af28cc;
+  constexpr static std::size_t addrs = 0x6afa2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::UnityEngine::Bindings::ThrowHelper::ThrowNullReferenceException)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6aeca50;
+  constexpr static std::size_t addrs = 0x6af4468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

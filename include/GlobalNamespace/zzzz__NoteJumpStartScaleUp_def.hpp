@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteJumpStartScaleUp.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteJumpStartScaleUp.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,21 +50,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x58d7e38, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58d77e8, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x58d8278, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x58d7c28, size 0x10c, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x58d8274, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x58d7c24, size 0x4, virtual false, abstract: false, final false
   inline void HandleNoteJumpDidUpdateProgress(float_t progress);
 
   static inline ::GlobalNamespace::NoteJumpStartScaleUp* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58d80a8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58d7a58, size 0x1cc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale, addr 0x58d7f00, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateScale, addr 0x58d78b0, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
   constexpr float_t const& __cordl_internal_get__fullScaleJumpPart() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x58d8384, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d7d34, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"

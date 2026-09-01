@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/HttpMethod.hpp"
+// IWYU pragma private; include "System\Net\Http\HttpMethod.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,18 +56,18 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
   constexpr operator ::System::IEquatable_1<::System::Net::Http::HttpMethod*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x60d750c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60def88, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x60d74ec, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x60def68, size 0x20, virtual true, abstract: false, final true
   inline bool Equals(::System::Net::Http::HttpMethod* other);
 
-  /// @brief Method GetHashCode, addr 0x60d75b0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60df02c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::HttpMethod* New_ctor(::StringW method);
 
-  /// @brief Method ToString, addr 0x60d75cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60df048, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_method() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_method(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60d7290, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ded0c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW method);
 
   static inline ::System::Net::Http::HttpMethod* getStaticF_delete_method();
@@ -93,19 +93,19 @@ public:
 
   static inline ::System::Net::Http::HttpMethod* getStaticF_trace_method();
 
-  /// @brief Method get_Get, addr 0x60d7404, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Get, addr 0x60dee80, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Net::Http::HttpMethod* get_Get();
 
-  /// @brief Method get_Method, addr 0x60d7460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x60deedc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method get_Post, addr 0x60d7468, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Post, addr 0x60deee4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Net::Http::HttpMethod* get_Post();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
   constexpr ::System::IEquatable_1<::System::Net::Http::HttpMethod*>* i___System__IEquatable_1___System__Net__Http__HttpMethod__() noexcept;
 
-  /// @brief Method op_Equality, addr 0x60d74c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x60def40, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Net::Http::HttpMethod* left, ::System::Net::Http::HttpMethod* right);
 
   static inline void setStaticF_delete_method(::System::Net::Http::HttpMethod* value);
@@ -137,7 +137,7 @@ public:
   HttpMethod(HttpMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20284 };
 
   /// @brief Field method, offset: 0x10, size: 0x8, def value: None
   ::StringW ___method;

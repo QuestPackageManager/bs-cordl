@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainEffectCore.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainEffectCore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   static inline ::GlobalNamespace::MainEffectCore* New_ctor();
 
-  /// @brief Method SetGlobalShaderValues, addr 0x5f3ed90, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderValues, addr 0x5f431fc, size 0x168, virtual false, abstract: false, final false
   static inline void SetGlobalShaderValues(::UnityEngine::Rendering::IBaseCommandBuffer* cmd, float_t baseColorBoost, float_t baseColorBoostThreshold);
 
-  /// @brief Method UpdateKeyword, addr 0x5f3ec64, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method UpdateKeyword, addr 0x5f430d0, size 0x12c, virtual false, abstract: false, final false
   static inline void UpdateKeyword(::UnityEngine::Rendering::IBaseCommandBuffer* cmd, bool enabled);
 
-  /// @brief Method .ctor, addr 0x5f3eef8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f43364, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__baseColorBoostID();
@@ -65,7 +65,7 @@ public:
   MainEffectCore(MainEffectCore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20634 };
 
   /// @brief Field kMainEffectEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kMainEffectEnabledKeyword{ u"MAIN_EFFECT_ENABLED" };

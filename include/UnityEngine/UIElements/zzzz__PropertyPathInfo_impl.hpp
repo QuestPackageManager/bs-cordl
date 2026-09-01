@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PropertyPathInfo.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PropertyPathInfo.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PropertyPathInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyPathInfo::*)(::by_ref<::Unity::Properties::PropertyPath>, ::System::Type*)>(
     &::UnityEngine::UIElements::PropertyPathInfo::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c3d238;
+  constexpr static std::size_t addrs = 0x6c44dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

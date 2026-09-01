@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/EventSystems/BaseInputModule.hpp"
+// IWYU pragma private; include "UnityEngine\EventSystems\BaseInputModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,60 +81,60 @@ public:
 
   __declspec(property(get = get_sendPointerHoverToParent, put = set_sendPointerHoverToParent)) bool sendPointerHoverToParent;
 
-  /// @brief Method ActivateModule, addr 0x6e16d98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ActivateModule, addr 0x6e1e91c, size 0x4, virtual true, abstract: false, final false
   inline void ActivateModule();
 
-  /// @brief Method ConvertPointerEventScrollDeltaToTicks, addr 0x6e16e38, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ConvertPointerEventScrollDeltaToTicks, addr 0x6e1e9bc, size 0x44, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 ConvertPointerEventScrollDeltaToTicks(::UnityEngine::Vector2 scrollDelta);
 
-  /// @brief Method ConvertUIToolkitPointerId, addr 0x6e16da8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ConvertUIToolkitPointerId, addr 0x6e1e92c, size 0x90, virtual true, abstract: false, final false
   inline int32_t ConvertUIToolkitPointerId(::UnityEngine::EventSystems::PointerEventData* sourcePointerData);
 
-  /// @brief Method DeactivateModule, addr 0x6e16d94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DeactivateModule, addr 0x6e1e918, size 0x4, virtual true, abstract: false, final false
   inline void DeactivateModule();
 
-  /// @brief Method DetermineMoveDirection, addr 0x6e15ec4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DetermineMoveDirection, addr 0x6e1da48, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::MoveDirection DetermineMoveDirection(float_t x, float_t y);
 
-  /// @brief Method DetermineMoveDirection, addr 0x6e15f18, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DetermineMoveDirection, addr 0x6e1da9c, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::MoveDirection DetermineMoveDirection(float_t x, float_t y, float_t deadZone);
 
-  /// @brief Method FindCommonRoot, addr 0x6e15f68, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method FindCommonRoot, addr 0x6e1daec, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> FindCommonRoot(::UnityEngine::GameObject* g1, ::UnityEngine::GameObject* g2);
 
-  /// @brief Method FindFirstRaycast, addr 0x6e15da0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FindFirstRaycast, addr 0x6e1d924, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::RaycastResult FindFirstRaycast(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* candidates);
 
-  /// @brief Method GetAxisEventData, addr 0x6e16bdc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetAxisEventData, addr 0x6e1e760, size 0x100, virtual true, abstract: false, final false
   inline ::UnityEngine::EventSystems::AxisEventData* GetAxisEventData(float_t x, float_t y, float_t moveDeadZone);
 
-  /// @brief Method GetBaseEventData, addr 0x6e16cdc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetBaseEventData, addr 0x6e1e860, size 0x70, virtual true, abstract: false, final false
   inline ::UnityEngine::EventSystems::BaseEventData* GetBaseEventData();
 
-  /// @brief Method HandlePointerExitAndEnter, addr 0x6e160d8, size 0xb04, virtual false, abstract: false, final false
+  /// @brief Method HandlePointerExitAndEnter, addr 0x6e1dc5c, size 0xb04, virtual false, abstract: false, final false
   inline void HandlePointerExitAndEnter(::UnityEngine::EventSystems::PointerEventData* currentPointerData, ::UnityEngine::GameObject* newEnterTarget);
 
-  /// @brief Method IsModuleSupported, addr 0x6e16da0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsModuleSupported, addr 0x6e1e924, size 0x8, virtual true, abstract: false, final false
   inline bool IsModuleSupported();
 
-  /// @brief Method IsPointerOverGameObject, addr 0x6e16d4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsPointerOverGameObject, addr 0x6e1e8d0, size 0x8, virtual true, abstract: false, final false
   inline bool IsPointerOverGameObject(int32_t pointerId);
 
   static inline ::UnityEngine::EventSystems::BaseInputModule* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6e15d8c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6e1d910, size 0x14, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6e15d30, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6e1d8b4, size 0x5c, virtual true, abstract: false, final false
   inline void OnEnable();
 
   /// @brief Method Process, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Process();
 
-  /// @brief Method ShouldActivateModule, addr 0x6e16d54, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ShouldActivateModule, addr 0x6e1e8d8, size 0x40, virtual true, abstract: false, final false
   inline bool ShouldActivateModule();
 
-  /// @brief Method UpdateModule, addr 0x6e16d9c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateModule, addr 0x6e1e920, size 0x4, virtual true, abstract: false, final false
   inline void UpdateModule();
 
   constexpr ::UnityEngine::EventSystems::AxisEventData* const& __cordl_internal_get_m_AxisEventData() const;
@@ -179,25 +179,25 @@ public:
 
   constexpr void __cordl_internal_set_m_SendPointerHoverToParent(bool value);
 
-  /// @brief Method .ctor, addr 0x6e16e7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e1ea00, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventSystem, addr 0x6e15d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventSystem, addr 0x6e1d8ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::EventSystem> get_eventSystem();
 
-  /// @brief Method get_input, addr 0x6e15b0c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method get_input, addr 0x6e1d690, size 0x20c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInput> get_input();
 
-  /// @brief Method get_inputOverride, addr 0x6e15d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inputOverride, addr 0x6e1d89c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInput> get_inputOverride();
 
-  /// @brief Method get_sendPointerHoverToParent, addr 0x6e15afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sendPointerHoverToParent, addr 0x6e1d680, size 0x8, virtual false, abstract: false, final false
   inline bool get_sendPointerHoverToParent();
 
-  /// @brief Method set_inputOverride, addr 0x6e15d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inputOverride, addr 0x6e1d8a4, size 0x8, virtual false, abstract: false, final false
   inline void set_inputOverride(::UnityEngine::EventSystems::BaseInput* value);
 
-  /// @brief Method set_sendPointerHoverToParent, addr 0x6e15b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sendPointerHoverToParent, addr 0x6e1d688, size 0x8, virtual false, abstract: false, final false
   inline void set_sendPointerHoverToParent(bool value);
 
 protected:
@@ -215,7 +215,7 @@ public:
   BaseInputModule(BaseInputModule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17568 };
 
   /// @brief Field m_RaycastResultCache, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* ___m_RaycastResultCache;

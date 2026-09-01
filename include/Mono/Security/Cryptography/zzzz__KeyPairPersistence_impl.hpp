@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Cryptography/KeyPairPersistence.hpp"
+// IWYU pragma private; include "Mono\Security\Cryptography\KeyPairPersistence.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__KeyPairPersistence_def.hpp"
 #include "System/Security/Cryptography/zzzz__CspParameters_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)(::System::Security::Cryptography::CspParameters*)>(
     &::Mono::Security::Cryptography::KeyPairPersistence::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ab5c54;
+  constexpr static std::size_t addrs = 0x5aba110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)(::System::Security::Cryptography::CspParameters*, ::StringW)>(
     &::Mono::Security::Cryptography::KeyPairPersistence::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ab5c5c;
+  constexpr static std::size_t addrs = 0x5aba118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::get_Filename)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5ab5d64;
+  constexpr static std::size_t addrs = 0x5aba220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(), { "get_Filename", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::get_KeyValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ab6b24;
+  constexpr static std::size_t addrs = 0x5abafe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(), { "get_KeyValue", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::set_KeyValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ab6b2c;
+  constexpr static std::size_t addrs = 0x5abafe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::Load)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5ab6b50;
+  constexpr static std::size_t addrs = 0x5abb00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(), { "Load", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::Save)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x5ab6dd4;
+  constexpr static std::size_t addrs = 0x5abb290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(), { "Save", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::Remove)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ab73d0;
+  constexpr static std::size_t addrs = 0x5abb88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(), { "Remove", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::get_UserPath)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x5ab65ac;
+  constexpr static std::size_t addrs = 0x5abaa68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(), { "get_UserPath", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::get_MachinePath)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x5ab6034;
+  constexpr static std::size_t addrs = 0x5aba4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(), { "get_MachinePath", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*)>(&::Mono::Security::Cryptography::KeyPairPersistence::_CanSecure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ab74cc;
+  constexpr static std::size_t addrs = 0x5abb988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*)>(&::Mono::Security::Cryptography::KeyPairPersistence::_ProtectUser)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ab74d4;
+  constexpr static std::size_t addrs = 0x5abb990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*)>(&::Mono::Security::Cryptography::KeyPairPersistence::_ProtectMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ab74dc;
+  constexpr static std::size_t addrs = 0x5abb998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*)>(&::Mono::Security::Cryptography::KeyPairPersistence::_IsUserProtected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ab74e4;
+  constexpr static std::size_t addrs = 0x5abb9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*)>(&::Mono::Security::Cryptography::KeyPairPersistence::_IsMachineProtected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ab74ec;
+  constexpr static std::size_t addrs = 0x5abb9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::CanSecure)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ab74f4;
+  constexpr static std::size_t addrs = 0x5abb9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::ProtectUser)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ab735c;
+  constexpr static std::size_t addrs = 0x5abb818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::ProtectMachine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ab72e8;
+  constexpr static std::size_t addrs = 0x5abb7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::IsUserProtected)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ab73e4;
+  constexpr static std::size_t addrs = 0x5abb8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::IsMachineProtected)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ab7458;
+  constexpr static std::size_t addrs = 0x5abb914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::get_CanChange)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ab6b40;
+  constexpr static std::size_t addrs = 0x5abaffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(), { "get_CanChange", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::get_UseDefaultKeyContainer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ab7578;
+  constexpr static std::size_t addrs = 0x5abba34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::get_UseMachineKeyStore)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ab6018;
+  constexpr static std::size_t addrs = 0x5aba4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::get_ContainerName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5ab5f18;
+  constexpr static std::size_t addrs = 0x5aba3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(), { "get_ContainerName", {}, {} })));
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::CspParameters* (
     ::Mono::Security::Cryptography::KeyPairPersistence::*)(::System::Security::Cryptography::CspParameters*)>(&::Mono::Security::Cryptography::KeyPairPersistence::Copy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ab5ccc;
+  constexpr static std::size_t addrs = 0x5aba188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(),
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::FromXml)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5ab6cb0;
+  constexpr static std::size_t addrs = 0x5abb16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::ToXml)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x5ab6ff4;
+  constexpr static std::size_t addrs = 0x5abb4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::KeyPairPersistence*>(), { "ToXml", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ECGost3410Parameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ECGost3410Parameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,21 +71,21 @@ public:
 
   constexpr void __cordl_internal_set__publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x340c57c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x341033c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* dp, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-  /// @brief Method .ctor, addr 0x340c4fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34102bc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* dp, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-  /// @brief Method get_DigestParamSet, addr 0x340c4ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestParamSet, addr 0x34102ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
 
-  /// @brief Method get_EncryptionParamSet, addr 0x340c4f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionParamSet, addr 0x34102b4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
 
-  /// @brief Method get_PublicKeyParamSet, addr 0x340c4e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0x34102a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
 protected:

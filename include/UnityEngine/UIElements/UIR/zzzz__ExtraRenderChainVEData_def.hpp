@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/ExtraRenderChainVEData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\ExtraRenderChainVEData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ExtraRenderChainVEData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6ce4930, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6cec4b4, size 0x64, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::UIR::BasicNode_1<::UnityEngine::UIElements::UIR::MeshHandle*>* const& __cordl_internal_get_extraMesh() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_extraMesh(::UnityEngine::UIElements::UIR::BasicNode_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
 
-  /// @brief Method .ctor, addr 0x6ce48e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cec464, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

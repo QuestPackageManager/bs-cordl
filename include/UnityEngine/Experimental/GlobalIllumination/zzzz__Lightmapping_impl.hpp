@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/Lightmapping.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\Lightmapping.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__Lightmapping_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b2882c;
+  constexpr static std::size_t addrs = 0x6b303b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate*>(),
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Expe
     ::ArrayW<::UnityEngine::Light*>, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>)>(
     &::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b288ac;
+  constexpr static std::size_t addrs = 0x6b30430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c::*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b28914;
+  constexpr static std::size_t addrs = 0x6b30498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Expe
     ::ArrayW<::UnityEngine::Light*>, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>)>(
     &::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c::__cctor_b__7_0)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x6b28918;
+  constexpr static std::size_t addrs = 0x6b3049c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate*)>(
     &::UnityEngine::Experimental::GlobalIllumination::Lightmapping::SetDelegate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b28574;
+  constexpr static std::size_t addrs = 0x6b300f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* (*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::Lightmapping::GetDelegate)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6b285f0;
+  constexpr static std::size_t addrs = 0x6b30174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Experimental::GlobalIllumination::Lightmapping::ResetDelegate)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6b2864c;
+  constexpr static std::size_t addrs = 0x6b301d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::Light*>, ::System::IntPtr, int32_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLights)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6b286ac;
+  constexpr static std::size_t addrs = 0x6b30230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

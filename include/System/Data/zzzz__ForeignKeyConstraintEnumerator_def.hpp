@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/ForeignKeyConstraintEnumerator.hpp"
+// IWYU pragma private; include "System\Data\ForeignKeyConstraintEnumerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,15 +28,15 @@ namespace System::Data {
 class CORDL_TYPE ForeignKeyConstraintEnumerator : public ::System::Data::ConstraintEnumerator {
 public:
   // Declarations
-  /// @brief Method GetForeignKeyConstraint, addr 0x6018980, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetForeignKeyConstraint, addr 0x60203fc, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Data::ForeignKeyConstraint* GetForeignKeyConstraint();
 
-  /// @brief Method IsValidCandidate, addr 0x6018904, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method IsValidCandidate, addr 0x6020380, size 0x7c, virtual true, abstract: false, final false
   inline bool IsValidCandidate(::System::Data::Constraint* constraint);
 
   static inline ::System::Data::ForeignKeyConstraintEnumerator* New_ctor(::System::Data::DataSet* dataSet);
 
-  /// @brief Method .ctor, addr 0x6018900, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x602037c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet);
 
 protected:
@@ -54,7 +54,7 @@ public:
   ForeignKeyConstraintEnumerator(ForeignKeyConstraintEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

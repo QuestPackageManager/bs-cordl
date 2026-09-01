@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/InvocationExpression4.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\InvocationExpression4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,14 +47,14 @@ public:
   /// @brief Field _arg3, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__arg3, put = __cordl_internal_set__arg3)) ::System::Linq::Expressions::Expression* _arg3;
 
-  /// @brief Method GetArgument, addr 0x5f7e928, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x5f863a4, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression4* New_ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0,
                                                                              ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                              ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Rewrite, addr 0x5f7ea18, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x5f86494, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda, ::ArrayW<::System::Linq::Expressions::Expression*> arguments);
 
   constexpr ::System::Object* const& __cordl_internal_get__arg0() const;
@@ -81,11 +81,11 @@ public:
 
   constexpr void __cordl_internal_set__arg3(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x5f7e8ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f86368, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                     ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method get_ArgumentCount, addr 0x5f7ea10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x5f8648c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
 protected:
@@ -103,7 +103,7 @@ public:
   InvocationExpression4(InvocationExpression4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16179 };
 
   /// @brief Field _arg0, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____arg0;

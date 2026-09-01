@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/FixupHolderList.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\FixupHolderList.hpp"
 #include "System/Runtime/Serialization/zzzz__FixupHolder_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__FixupHolderList_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::FixupHolderList::*)()>(&::System::Runtime::Serialization::FixupHolderList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b4f534;
+  constexpr static std::size_t addrs = 0x5b539f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::FixupHolderList*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::FixupHolderList::*)(int32_t)>(&::System::Runtime::Serialization::FixupHolderList::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b4f640;
+  constexpr static std::size_t addrs = 0x5b53afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::FixupHolderList::*)(::System::Runtime::Serialization::FixupHolder*)>(
     &::System::Runtime::Serialization::FixupHolderList::Add)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5b4f6a4;
+  constexpr static std::size_t addrs = 0x5b53b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::FixupHolderList::*)()>(&::System::Runtime::Serialization::FixupHolderList::EnlargeArray)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5b4f74c;
+  constexpr static std::size_t addrs = 0x5b53c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::FixupHolderList*>(), { "EnlargeArray", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaChoice.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaChoice.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaChoice* New_ctor();
 
-  /// @brief Method SetItems, addr 0x62258e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetItems, addr 0x622d364, size 0x8, virtual true, abstract: false, final false
   inline void SetItems(::System::Xml::Schema::XmlSchemaObjectCollection* newItems);
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& __cordl_internal_get_items() const;
@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set_items(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method .ctor, addr 0x62258f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x622d36c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsEmpty, addr 0x62258e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x622d35c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Items, addr 0x62258d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Items, addr 0x622d354, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
 protected:
@@ -64,7 +64,7 @@ public:
   XmlSchemaChoice(XmlSchemaChoice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9749 };
 
   /// @brief Field items, offset: 0x78, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaObjectCollection* ___items;

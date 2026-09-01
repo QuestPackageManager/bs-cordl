@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/IO/SignerSink.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\IO\SignerSink.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__SignerSink_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerSink::*)(::Org::BouncyCastle::Crypto::ISigner*)>(
     &::Org::BouncyCastle::Crypto::IO::SignerSink::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x33e30fc;
+  constexpr static std::size_t addrs = 0x33e6ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ISigner* (::Org::BouncyCastle::Crypto::IO::SignerSink::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerSink::get_Signer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33e3124;
+  constexpr static std::size_t addrs = 0x33e6ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerSink::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::IO::SignerSink::WriteByte)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x33e312c;
+  constexpr static std::size_t addrs = 0x33e6eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerSink::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::IO::SignerSink::Write)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x33e31e4;
+  constexpr static std::size_t addrs = 0x33e6fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

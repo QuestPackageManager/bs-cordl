@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SliderMeshConstructorCrossedStrips.hpp"
+// IWYU pragma private; include "GlobalNamespace\SliderMeshConstructorCrossedStrips.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ public:
   /// @brief Field _triangleMap, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__triangleMap, put = __cordl_internal_set__triangleMap)) ::ArrayW<int32_t> _triangleMap;
 
-  /// @brief Method CreateSliderMeshInternal, addr 0x59784a0, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method CreateSliderMeshInternal, addr 0x597be34, size 0x430, virtual true, abstract: false, final false
   inline void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path, float_t zDistanceBetweenNotes, ::by_ref<::UnityEngine::Bounds> bounds);
 
-  /// @brief Method GetTrianglesCount, addr 0x59788e8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetTrianglesCount, addr 0x597c27c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetTrianglesCount(::GlobalNamespace::VertexPath* path);
 
-  /// @brief Method GetVertexCount, addr 0x59788d0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetVertexCount, addr 0x597c264, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetVertexCount(::GlobalNamespace::VertexPath* path);
 
   static inline ::GlobalNamespace::SliderMeshConstructorCrossedStrips* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__triangleMap(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x5978908, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597c29c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

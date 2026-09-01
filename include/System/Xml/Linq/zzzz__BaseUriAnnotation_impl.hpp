@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/BaseUriAnnotation.hpp"
+// IWYU pragma private; include "System\Xml\Linq\BaseUriAnnotation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__BaseUriAnnotation_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::BaseUriAnnotation._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::BaseUriAnnotation::*)(::StringW)>(&::System::Xml::Linq::BaseUriAnnotation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x619b740;
+  constexpr static std::size_t addrs = 0x61a31bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

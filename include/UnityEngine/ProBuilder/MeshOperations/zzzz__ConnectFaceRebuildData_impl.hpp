@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/ConnectFaceRebuildData.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\ConnectFaceRebuildData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__ConnectFaceRebuildData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::*)(
     ::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67168f0;
+  constexpr static std::size_t addrs = 0x671e36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

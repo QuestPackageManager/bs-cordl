@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FlyingSpriteEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\FlyingSpriteEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FlyingSpriteEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5980364, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5983cf8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,11 +97,11 @@ public:
   /// @brief Field _spriteRenderer, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer)) ::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
-  /// @brief Method InitAndPresent, addr 0x5980220, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x5983bb4, size 0xb4, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Sprite* sprite, ::UnityEngine::Material* material,
                              ::UnityEngine::Color color, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x59802d4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x5983c68, size 0x5c, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingSpriteEffect* New_ctor();
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x5980330, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5983cc4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

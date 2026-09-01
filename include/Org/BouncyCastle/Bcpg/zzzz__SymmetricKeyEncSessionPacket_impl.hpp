@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/SymmetricKeyEncSessionPacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\SymmetricKeyEncSessionPacket.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyAlgorithmTag_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyEncSessionPacket_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3697290;
+  constexpr static std::size_t addrs = 0x369b050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::*)(
     ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, ::Org::BouncyCastle::Bcpg::S2k*, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x369d5ec;
+  constexpr static std::size_t addrs = 0x36a13ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag (::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::get_EncAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369d5fc;
+  constexpr static std::size_t addrs = 0x36a13bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::S2k* (::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::get_S2k)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369d604;
+  constexpr static std::size_t addrs = 0x36a13c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*>(), { "get_S2k", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::GetSecKeyData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369d60c;
+  constexpr static std::size_t addrs = 0x36a13cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*>(), { "GetSecKeyData", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::*)()>(&::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369d614;
+  constexpr static std::size_t addrs = 0x36a13d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*>(), { "get_Version", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket::Encode)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x369d61c;
+  constexpr static std::size_t addrs = 0x36a13dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*>(),

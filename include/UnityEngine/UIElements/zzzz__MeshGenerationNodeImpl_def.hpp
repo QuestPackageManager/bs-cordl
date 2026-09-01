@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MeshGenerationNodeImpl.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MeshGenerationNodeImpl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,35 +65,35 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6dce42c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6dd5fb0, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6dce494, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6dd6018, size 0x44, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawGradients, addr 0x6dce190, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method DrawGradients, addr 0x6dd5d14, size 0x10c, virtual false, abstract: false, final false
   inline void DrawGradients(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices,
                             ::UnityEngine::UIElements::VectorImage* gradientsOwner);
 
-  /// @brief Method DrawMesh, addr 0x6dce00c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x6dd5b90, size 0xcc, virtual false, abstract: false, final false
   inline void DrawMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture,
                        bool skipAtlas);
 
-  /// @brief Method GetNode, addr 0x6dce3fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNode, addr 0x6dd5f80, size 0xc, virtual false, abstract: false, final false
   inline void GetNode(::by_ref<::UnityEngine::UIElements::MeshGenerationNode> node);
 
-  /// @brief Method GetParentEntry, addr 0x6dce414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParentEntry, addr 0x6dd5f98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* GetParentEntry();
 
-  /// @brief Method GetUnsafeNode, addr 0x6dce408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetUnsafeNode, addr 0x6dd5f8c, size 0xc, virtual false, abstract: false, final false
   inline void GetUnsafeNode(::by_ref<::UnityEngine::UIElements::UnsafeMeshGenerationNode> node);
 
-  /// @brief Method Init, addr 0x6dce2dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6dd5e60, size 0x9c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::UnityEngine::UIElements::UIR::EntryRecorder* entryRecorder, bool safe);
 
   static inline ::UnityEngine::UIElements::MeshGenerationNodeImpl* New_ctor();
 
-  /// @brief Method Reset, addr 0x6dce378, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6dd5efc, size 0x84, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -120,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set_m_SelfHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x6dce2bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dd5e40, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disposed, addr 0x6dce41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6dd5fa0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6dce424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6dd5fa8, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

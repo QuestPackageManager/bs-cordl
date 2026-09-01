@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/BundleSource.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\BundleSource.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__BundleSource_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ResourceManagement::Util::BundleSource::BundleSource(int32_t value__) noexcept {

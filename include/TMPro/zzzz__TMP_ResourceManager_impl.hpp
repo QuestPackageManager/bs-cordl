@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_ResourceManager.hpp"
+// IWYU pragma private; include "TMPro\TMP_ResourceManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_ResourceManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_ResourceManager_FontAssetRef::*)(int32_t, int32_t, int32_t, ::TMPro::TMP_FontAsset*)>(
     &::TMPro::TMP_ResourceManager_FontAssetRef::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69937ac;
+  constexpr static std::size_t addrs = 0x699b228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_Settings> (*)()>(&::TMPro::TMP_ResourceManager::GetTextSettings)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x69930b4;
+  constexpr static std::size_t addrs = 0x699ab30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_ResourceManager*>(), { "GetTextSettings", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_ResourceManager::AddFontAsset)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x69931cc;
+  constexpr static std::size_t addrs = 0x699ac48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_ResourceManager::RemoveFontAsset)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x69937cc;
+  constexpr static std::size_t addrs = 0x699b248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::by_ref<::TMPro::TMP_FontAsset*>)>(&::TMPro::TMP_ResourceManager::TryGetFontAssetByName)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6993948;
+  constexpr static std::size_t addrs = 0x699b3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t, ::by_ref<::TMPro::TMP_FontAsset*>)>(&::TMPro::TMP_ResourceManager::TryGetFontAssetByFamilyName)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69939e4;
+  constexpr static std::size_t addrs = 0x699b460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMP_ResourceManager::ClearFontAssetGlyphCache)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6993aa4;
+  constexpr static std::size_t addrs = 0x699b520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_ResourceManager*>(), { "ClearFontAssetGlyphCache", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMP_ResourceManager::RebuildFontAssetCache)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x6993af4;
+  constexpr static std::size_t addrs = 0x699b570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_ResourceManager*>(), { "RebuildFontAssetCache", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_ResourceManager::*)()>(&::TMPro::TMP_ResourceManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6993fe0;
+  constexpr static std::size_t addrs = 0x699ba5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_ResourceManager*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ReflectionProbeDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\ReflectionProbeDataSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ReflectionProbeDataSO_def.hpp"
 #include "UnityEngine/zzzz__Cubemap_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Cubemap> (::GlobalNamespace::ReflectionProbeDataSO::*)()>(
     &::GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e13d4;
+  constexpr static std::size_t addrs = 0x58e4a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ReflectionProbeDataSO*>(), { "get_reflectionProbeCubemap1", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ReflectionProbeDataSO::*)(::UnityEngine::Cubemap*)>(
     &::GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e13dc;
+  constexpr static std::size_t addrs = 0x58e4a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Cubemap> (::GlobalNamespace::ReflectionProbeDataSO::*)()>(
     &::GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e13e4;
+  constexpr static std::size_t addrs = 0x58e4a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ReflectionProbeDataSO*>(), { "get_reflectionProbeCubemap2", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ReflectionProbeDataSO::*)(::UnityEngine::Cubemap*)>(
     &::GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e13ec;
+  constexpr static std::size_t addrs = 0x58e4a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ReflectionProbeDataSO::*)()>(&::GlobalNamespace::ReflectionProbeDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e13f4;
+  constexpr static std::size_t addrs = 0x58e4a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ReflectionProbeDataSO*>(), { ".ctor", {}, {} })));

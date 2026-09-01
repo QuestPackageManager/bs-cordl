@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BaseNoteVisuals.hpp"
+// IWYU pragma private; include "GlobalNamespace\BaseNoteVisuals.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,21 +44,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept;
 
-  /// @brief Method AnimateCutout, addr 0x58cef88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AnimateCutout, addr 0x58ce938, size 0x24, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
-  /// @brief Method Awake, addr 0x58cec60, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58ce610, size 0x14c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x58cef48, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x58ce8f8, size 0x30, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x58cef78, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x58ce928, size 0x10, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float_t duration);
 
   static inline ::GlobalNamespace::BaseNoteVisuals* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58cedac, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58ce75c, size 0x19c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteControllerBase> value);
 
-  /// @brief Method .ctor, addr 0x58cefac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ce95c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/InteropErrorExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\InteropErrorExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__InteropErrorExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__Interop_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Interop_ErrorInfo (*)(::GlobalNamespace::Interop_Error)>(&::GlobalNamespace::InteropErrorExtensions::Info)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa8d3c;
+  constexpr static std::size_t addrs = 0x5aad1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

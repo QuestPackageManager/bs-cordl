@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/CertConfirmContent.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\CertConfirmContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,15 +35,15 @@ public:
   /// @brief Field content, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::Org::BouncyCastle::Asn1::Asn1Sequence* content;
 
-  /// @brief Method GetInstance, addr 0x33433a0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3347160, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3343798, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3347558, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToCertStatusArray, addr 0x334351c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ToCertStatusArray, addr 0x33472dc, size 0xf8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertStatus*> ToCertStatusArray();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_content() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x3343398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3347158, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

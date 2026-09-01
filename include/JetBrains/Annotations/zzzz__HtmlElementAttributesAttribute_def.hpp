@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/HtmlElementAttributesAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\HtmlElementAttributesAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e365f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e178, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6e365f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e17c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x6e36600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6e3e184, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x6e36608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x6e3e18c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   HtmlElementAttributesAttribute(HtmlElementAttributesAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22581 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

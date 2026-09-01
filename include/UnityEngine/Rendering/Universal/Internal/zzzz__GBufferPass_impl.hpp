@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/GBufferPass.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\GBufferPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68fe740;
+  constexpr static std::size_t addrs = 0x69061bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::GBufferPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::GBufferPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68fffbc;
+  constexpr static std::size_t addrs = 0x6907a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::GBufferPass___c*>(), { ".ctor", {}, {} })));
@@ -159,7 +159,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::Internal::GBufferPass___c::_Render_b__21_0)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x68fffc0;
+  constexpr static std::size_t addrs = 0x6907a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::GBufferPass___c*>(),
@@ -218,7 +218,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Rendering::RenderQueueRange, ::UnityEngine::LayerMask, ::UnityEngine::Rendering::StencilState, int32_t,
     ::UnityEngine::Rendering::Universal::Internal::DeferredLights*)>(&::UnityEngine::Rendering::Universal::Internal::GBufferPass::_ctor)> {
   constexpr static std::size_t size = 0x514;
-  constexpr static std::size_t addrs = 0x68fe22c;
+  constexpr static std::size_t addrs = 0x6905ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::GBufferPass::*)()>(&::UnityEngine::Rendering::Universal::Internal::GBufferPass::Dispose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68fe744;
+  constexpr static std::size_t addrs = 0x69061c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::GBufferPass*>(), { "Dispose", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::GBufferPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTextureDescriptor)>(&::UnityEngine::Rendering::Universal::Internal::GBufferPass::Configure)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x68fe758;
+  constexpr static std::size_t addrs = 0x69061d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::GBufferPass*>(),
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::GBufferPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::GBufferPass::Execute)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x68fe9f0;
+  constexpr static std::size_t addrs = 0x690646c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::GBufferPass*>(),
@@ -278,7 +278,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Rendering::RendererList, ::UnityEngine::Rendering::RendererList)>(
     &::UnityEngine::Rendering::Universal::Internal::GBufferPass::ExecutePass)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x68ff04c;
+  constexpr static std::size_t addrs = 0x6906ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::UniversalRenderingData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::UniversalLightData*, bool)>(
     &::UnityEngine::Rendering::Universal::Internal::GBufferPass::InitRendererLists)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x68fecc4;
+  constexpr static std::size_t addrs = 0x6906740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +321,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, bool)>(&::UnityEngine::Rendering::Universal::Internal::GBufferPass::Render)> {
   constexpr static std::size_t size = 0xc00;
-  constexpr static std::size_t addrs = 0x68ff18c;
+  constexpr static std::size_t addrs = 0x6906c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/GlvMultiplier.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\GlvMultiplier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
   /// @brief Field glvEndomorphism, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_glvEndomorphism, put = __cordl_internal_set_glvEndomorphism)) ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism;
 
-  /// @brief Method MultiplyPositive, addr 0x350a2ac, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x350e06c, size 0x270, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_glvEndomorphism(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* value);
 
-  /// @brief Method .ctor, addr 0x350a210, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350dfd0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
 
 protected:

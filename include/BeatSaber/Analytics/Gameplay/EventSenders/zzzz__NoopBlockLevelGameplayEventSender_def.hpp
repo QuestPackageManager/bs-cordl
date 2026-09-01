@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/NoopBlockLevelGameplayEventSender.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\NoopBlockLevelGameplayEventSender.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
 
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::NoopBlockLevelGameplayEventSender* New_ctor();
 
-  /// @brief Method SendBlockLevelGameplayEvent, addr 0x3261dd4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SendBlockLevelGameplayEvent, addr 0x32650e8, size 0x4, virtual true, abstract: false, final true
   inline void SendBlockLevelGameplayEvent(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData, ::StringW blockLevelJSON);
 
-  /// @brief Method .ctor, addr 0x325ff8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326328c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender"
@@ -55,7 +55,7 @@ public:
   NoopBlockLevelGameplayEventSender(NoopBlockLevelGameplayEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22274 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

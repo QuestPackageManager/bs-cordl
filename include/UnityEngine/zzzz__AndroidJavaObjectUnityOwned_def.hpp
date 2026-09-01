@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AndroidJavaObjectUnityOwned.hpp"
+// IWYU pragma private; include "UnityEngine\AndroidJavaObjectUnityOwned.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +22,12 @@ namespace UnityEngine {
 class CORDL_TYPE AndroidJavaObjectUnityOwned : public ::UnityEngine::AndroidJavaObject {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x6a29c20, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6a3169c, size 0x58, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::AndroidJavaObjectUnityOwned* New_ctor(::System::IntPtr jobject);
 
-  /// @brief Method .ctor, addr 0x6a29c1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a31698, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr jobject);
 
 protected:
@@ -45,7 +45,7 @@ public:
   AndroidJavaObjectUnityOwned(AndroidJavaObjectUnityOwned const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

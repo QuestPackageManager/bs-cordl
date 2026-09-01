@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/XRDevice.hpp"
+// IWYU pragma private; include "UnityEngine\XR\XRDevice.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRDevice_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::TrackingSpaceType)>(&::UnityEngine::XR::XRDevice::SetTrackingSpaceType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2ec24;
+  constexpr static std::size_t addrs = 0x6e367a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, bool)>(&::UnityEngine::XR::XRDevice::DisableAutoXRCameraTracking)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e2ec60;
+  constexpr static std::size_t addrs = 0x6e367e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::XR::XRDevice::InvokeDeviceLoaded)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e2ed58;
+  constexpr static std::size_t addrs = 0x6e368dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::XR::XRDevice::DisableAutoXRCameraTracking_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2ed14;
+  constexpr static std::size_t addrs = 0x6e36898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

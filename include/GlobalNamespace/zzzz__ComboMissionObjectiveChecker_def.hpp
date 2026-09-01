@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ComboMissionObjectiveChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace\ComboMissionObjectiveChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,15 +26,15 @@ public:
   /// @brief Field _comboController, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__comboController, put = __cordl_internal_set__comboController)) ::UnityW<::GlobalNamespace::ComboController> _comboController;
 
-  /// @brief Method HandleComboDidChange, addr 0x5916574, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x59196d8, size 0x4c, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
-  /// @brief Method Init, addr 0x59162d8, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x5919400, size 0x188, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::ComboMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5916460, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59195c4, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::ComboController> const& __cordl_internal_get__comboController() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value);
 
-  /// @brief Method .ctor, addr 0x59165c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591985c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   ComboMissionObjectiveChecker(ComboMissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6789 };
 
   /// @brief Field _comboController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ComboController> ____comboController;

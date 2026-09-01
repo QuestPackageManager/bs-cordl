@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StylePropertyCache.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StylePropertyCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyCache_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::StringW>)>(&::UnityEngine::UIElements::StyleSheets::StylePropertyCache::TryGetSyntax)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d02d84;
+  constexpr static std::size_t addrs = 0x6d0a908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StylePropertyCache*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::StringW>)>(&::UnityEngine::UIElements::StyleSheets::StylePropertyCache::TryGetNonTerminalValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d02e1c;
+  constexpr static std::size_t addrs = 0x6d0a9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StylePropertyCache*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Mozilla/PublicKeyAndChallenge.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Mozilla\PublicKeyAndChallenge.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,12 +47,12 @@ public:
   /// @brief Field spki, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_spki, put = __cordl_internal_set_spki)) ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki;
 
-  /// @brief Method GetInstance, addr 0x3453d40, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3457b00, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3453f2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3457cec, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerIA5String* const& __cordl_internal_get_challenge() const;
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_spki(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
 
-  /// @brief Method .ctor, addr 0x3453ec8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3457c88, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Challenge, addr 0x3453f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Challenge, addr 0x3457cfc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_Challenge();
 
-  /// @brief Method get_SubjectPublicKeyInfo, addr 0x3453f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKeyInfo, addr 0x3457cf4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
 
 protected:

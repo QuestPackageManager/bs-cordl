@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/GizmoRenderer.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\GizmoRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,16 +41,16 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRenderer* New_ctor();
 
-  /// @brief Method SetUpGizmo, addr 0x5a6afa4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetUpGizmo, addr 0x5a6f460, size 0x10, virtual false, abstract: false, final false
   inline void SetUpGizmo(::Meta::XR::ImmersiveDebugger::DebugGizmoType gizmoType, ::UnityEngine::Color gizmoColor);
 
-  /// @brief Method Start, addr 0x5a6afbc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a6f478, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5a6b020, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a6f4dc, size 0xe0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDataSource, addr 0x5a6afb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDataSource, addr 0x5a6f470, size 0x8, virtual false, abstract: false, final false
   inline void UpdateDataSource(::System::Object* dataSource);
 
   constexpr ::System::Object* const& __cordl_internal_get__dataSource() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__gizmoType(::Meta::XR::ImmersiveDebugger::DebugGizmoType value);
 
-  /// @brief Method .ctor, addr 0x5a6b1f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a6f6b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   GizmoRenderer(GizmoRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18477 };
 
   /// @brief Field _gizmoType, offset: 0x20, size: 0x4, def value: None
   ::Meta::XR::ImmersiveDebugger::DebugGizmoType ____gizmoType;

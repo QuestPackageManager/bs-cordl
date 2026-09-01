@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/NoThrowSetBinderMember.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\NoThrowSetBinderMember.hpp"
 #include "System/Dynamic/zzzz__SetMemberBinder_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__NoThrowSetBinderMember_def.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::NoThrowSetBinderMember::*)(::System::Dynamic::SetMemberBinder*)>(
     &::Newtonsoft::Json::Utilities::NoThrowSetBinderMember::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d21bc8;
+  constexpr static std::size_t addrs = 0x5d26084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::Dynami
     ::Newtonsoft::Json::Utilities::NoThrowSetBinderMember::*)(::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*)>(
     &::Newtonsoft::Json::Utilities::NoThrowSetBinderMember::FallbackSetMember)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5d21c00;
+  constexpr static std::size_t addrs = 0x5d260bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::NoThrowSetBinderMember*>(),

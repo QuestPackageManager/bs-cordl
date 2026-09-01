@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/PoolableMemoryPoolProvider_8.hpp"
+// IWYU pragma private; include "Zenject\PoolableMemoryPoolProvider_8.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,7 +88,7 @@ public:
   PoolableMemoryPoolProvider_8(PoolableMemoryPoolProvider_8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14580 };
 
   /// @brief Field _pool, offset: 0x28, size: 0x8, def value: None
   TMemoryPool ____pool;

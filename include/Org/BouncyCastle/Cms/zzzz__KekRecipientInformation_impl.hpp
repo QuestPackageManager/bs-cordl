@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/KekRecipientInformation.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\KekRecipientInformation.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__KekRecipientInformation_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__KekRecipientInfo_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::KekRecipientInformation::*)(
     ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*, ::Org::BouncyCastle::Cms::CmsSecureReadable*)>(&::Org::BouncyCastle::Cms::KekRecipientInformation::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x36ab048;
+  constexpr static std::size_t addrs = 0x36aee08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cms::CmsTypedStream* (
     ::Org::BouncyCastle::Cms::KekRecipientInformation::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Cms::KekRecipientInformation::GetContentStream)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x36c9a64;
+  constexpr static std::size_t addrs = 0x36cd824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

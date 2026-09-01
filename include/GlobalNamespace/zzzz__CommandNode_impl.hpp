@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CommandNode.hpp"
+// IWYU pragma private; include "GlobalNamespace\CommandNode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandNode_def.hpp"
 #include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandNode___c__DisplayClass6_0::*)()>(&::GlobalNamespace::CommandNode___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c7d0c;
+  constexpr static std::size_t addrs = 0x32cbb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandNode___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CommandNode___c__DisplayClass6_0::*)(::GlobalNamespace::CommandNode*)>(
     &::GlobalNamespace::CommandNode___c__DisplayClass6_0::_IntegrateCommand_b__0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x32c852c;
+  constexpr static std::size_t addrs = 0x32cc328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandNode___c__DisplayClass6_0*>(),
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandNode___c__DisplayClass7_0::*)()>(&::GlobalNamespace::CommandNode___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c7ebc;
+  constexpr static std::size_t addrs = 0x32cbcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandNode___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CommandNode___c__DisplayClass7_0::*)(::StringW)>(
     &::GlobalNamespace::CommandNode___c__DisplayClass7_0::_FindAutocompleteArgumentNames_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32c8554;
+  constexpr static std::size_t addrs = 0x32cc350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandNode___c__DisplayClass8_0::*)()>(&::GlobalNamespace::CommandNode___c__DisplayClass8_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c80bc;
+  constexpr static std::size_t addrs = 0x32cbeb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandNode___c__DisplayClass8_0*>(), { ".ctor", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CommandNode___c__DisplayClass8_0::*)(::StringW)>(
     &::GlobalNamespace::CommandNode___c__DisplayClass8_0::_FindAutocompleteArgumentValues_b__0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x32c8574;
+  constexpr static std::size_t addrs = 0x32cc370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandNode___c__DisplayClass9_0::*)()>(&::GlobalNamespace::CommandNode___c__DisplayClass9_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c83e8;
+  constexpr static std::size_t addrs = 0x32cc1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandNode___c__DisplayClass9_0*>(), { ".ctor", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CommandNode___c__DisplayClass9_0::*)(::GlobalNamespace::CommandNode*)>(
     &::GlobalNamespace::CommandNode___c__DisplayClass9_0::_FindAutocompleteNodes_b__0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32c85fc;
+  constexpr static std::size_t addrs = 0x32cc3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandNode___c__DisplayClass9_0*>(),
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CommandNode___c__DisplayClass9_0::*)(::GlobalNamespace::CommandNode*)>(
     &::GlobalNamespace::CommandNode___c__DisplayClass9_0::_FindAutocompleteNodes_b__1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x32c8660;
+  constexpr static std::size_t addrs = 0x32cc45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandNode___c__DisplayClass9_0*>(),
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::CommandNode::*)()>(&::GlobalNamespace::CommandNode::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32c7954;
+  constexpr static std::size_t addrs = 0x32cb750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandNode::*)(::GlobalNamespace::ConsoleCommandBase*)>(&::GlobalNamespace::CommandNode::IntegrateCommand)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x32c795c;
+  constexpr static std::size_t addrs = 0x32cb758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::GlobalNamespace::CommandNode::*)(::StringW)>(&::GlobalNamespace::CommandNode::FindAutocompleteArgumentNames)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x32c7d10;
+  constexpr static std::size_t addrs = 0x32cbb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::GlobalNamespace::CommandNode::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::CommandNode::FindAutocompleteArgumentValues)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x32c7ec0;
+  constexpr static std::size_t addrs = 0x32cbcbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::CommandNode*> (::GlobalNamespace::CommandNode::*)(::StringW, bool)>(
     &::GlobalNamespace::CommandNode::FindAutocompleteNodes)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x32c80e0;
+  constexpr static std::size_t addrs = 0x32cbedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandNode::*)()>(&::GlobalNamespace::CommandNode::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x32c83ec;
+  constexpr static std::size_t addrs = 0x32cc1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandNode*>(), { ".ctor", {}, {} })));

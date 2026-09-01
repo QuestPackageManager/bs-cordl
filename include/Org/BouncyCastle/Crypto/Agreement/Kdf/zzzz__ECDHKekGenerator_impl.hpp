@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/Kdf/ECDHKekGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\Kdf\ECDHKekGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/Kdf/zzzz__ECDHKekGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x36dd2d0;
+  constexpr static std::size_t addrs = 0x36e1090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::*)(::Org::BouncyCastle::Crypto::IDerivationParameters*)>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::Init)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x36dd338;
+  constexpr static std::size_t addrs = 0x36e10f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::get_Digest)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x36dd3dc;
+  constexpr static std::size_t addrs = 0x36e119c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::GenerateBytes)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x36dd484;
+  constexpr static std::size_t addrs = 0x36e1244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlConfiguration/XmlReaderSection.hpp"
+// IWYU pragma private; include "System\Xml\XmlConfiguration\XmlReaderSection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +22,13 @@ namespace System::Xml::XmlConfiguration {
 class CORDL_TYPE XmlReaderSection : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateDefaultResolver, addr 0x630eca4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultResolver, addr 0x6316720, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlResolver* CreateDefaultResolver();
 
-  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x630ece8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x6316764, size 0x8, virtual false, abstract: false, final false
   static inline bool get_CollapseWhiteSpaceIntoEmptyString();
 
-  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x630ec9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x6316718, size 0x8, virtual false, abstract: false, final false
   static inline bool get_ProhibitDefaultUrlResolver();
 
 protected:
@@ -46,7 +46,7 @@ public:
   XmlReaderSection(XmlReaderSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

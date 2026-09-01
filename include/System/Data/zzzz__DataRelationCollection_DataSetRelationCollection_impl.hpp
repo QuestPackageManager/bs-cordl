@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataRelationCollection_DataSetRelationCollection.hpp"
+// IWYU pragma private; include "System\Data\DataRelationCollection_DataSetRelationCollection.hpp"
 #include "System/Data/zzzz__DataRelationCollection_impl.hpp"
 #include "System/Data/zzzz__DataRelation_impl.hpp"
 #include "System/Data/zzzz__DataRelationCollection_DataSetRelationCollection_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::*)(::System::Data::DataSet*)>(
     &::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6021e98;
+  constexpr static std::size_t addrs = 0x6029914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::*)()>(
     &::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::get_List)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021f34;
+  constexpr static std::size_t addrs = 0x60299b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DataRelationCollection_DataSetRelationCollection*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::*)()>(
     &::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::Clear)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6021f3c;
+  constexpr static std::size_t addrs = 0x60299b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DataRelationCollection_DataSetRelationCollection*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataSet* (::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::*)()>(
     &::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::GetDataSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021f70;
+  constexpr static std::size_t addrs = 0x60299ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DataRelationCollection_DataSetRelationCollection*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataRelation* (::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::*)(int32_t)>(
     &::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::get_Item)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6021f78;
+  constexpr static std::size_t addrs = 0x60299f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DataRelationCollection_DataSetRelationCollection*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataRelation* (::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::*)(::StringW)>(
     &::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::get_Item)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6022078;
+  constexpr static std::size_t addrs = 0x6029af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DataRelationCollection_DataSetRelationCollection*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::*)(::System::Data::DataRelation*)>(
     &::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::AddCore)> {
   constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x6022170;
+  constexpr static std::size_t addrs = 0x6029bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DataRelationCollection_DataSetRelationCollection*>(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::*)(::System::Data::DataRelation*)>(
     &::GlobalNamespace::DataRelationCollection_DataSetRelationCollection::RemoveCore)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x60226d8;
+  constexpr static std::size_t addrs = 0x602a154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DataRelationCollection_DataSetRelationCollection*>(),

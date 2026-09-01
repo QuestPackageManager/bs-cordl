@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRGLTFAccessor.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRGLTFAccessor.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFComponentType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::OVRSimpleJSON::JSONNode*, ::OVRSimpleJSON::JSONNode*, ::OVRSimpleJSON::JSONNode*, ::System::IO::Stream*,
                                                                 ::by_ref<::GlobalNamespace::OVRGLTFAccessor*>)>(&::GlobalNamespace::OVRGLTFAccessor::TryCreate)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5e1ca24;
+  constexpr static std::size_t addrs = 0x5e20ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(::OVRSimpleJSON::JSONNode*, ::OVRSimpleJSON::JSONNode*, ::OVRSimpleJSON::JSONNode*,
                                                                                                     ::System::IO::BinaryReader*, int32_t, int32_t)>(&::GlobalNamespace::OVRGLTFAccessor::_ctor)> {
   constexpr static std::size_t size = 0x108c;
-  constexpr static std::size_t addrs = 0x5e1cbcc;
+  constexpr static std::size_t addrs = 0x5e21088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRGLTFType (*)(::StringW)>(&::GlobalNamespace::OVRGLTFAccessor::ToOVRType)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5e1dd58;
+  constexpr static std::size_t addrs = 0x5e22214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(int32_t, bool)>(&::GlobalNamespace::OVRGLTFAccessor::Seek)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5e1dec4;
+  constexpr static std::size_t addrs = 0x5e22380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(int32_t)>(&::GlobalNamespace::OVRGLTFAccessor::SeekStride)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5e1e0a4;
+  constexpr static std::size_t addrs = 0x5e22560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (::GlobalNamespace::OVRGLTFAccessor::*)()>(&::GlobalNamespace::OVRGLTFAccessor::ReadFloat)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5e1e188;
+  constexpr static std::size_t addrs = 0x5e22644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFAccessor*>(), { "ReadFloat", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::GlobalNamespace::OVRGLTFAccessor::*)()>(&::GlobalNamespace::OVRGLTFAccessor::ReadInt)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5e1e4a0;
+  constexpr static std::size_t addrs = 0x5e2295c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFAccessor*>(), { "ReadInt", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector2> (::GlobalNamespace::OVRGLTFAccessor::*)()>(&::GlobalNamespace::OVRGLTFAccessor::ReadVector2)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5e1e6e4;
+  constexpr static std::size_t addrs = 0x5e22ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFAccessor*>(), { "ReadVector2", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (::GlobalNamespace::OVRGLTFAccessor::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRGLTFAccessor::ReadVector3)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x5e1e898;
+  constexpr static std::size_t addrs = 0x5e22d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector4> (::GlobalNamespace::OVRGLTFAccessor::*)(::UnityEngine::Vector4)>(
     &::GlobalNamespace::OVRGLTFAccessor::ReadVector4)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x5e1eb0c;
+  constexpr static std::size_t addrs = 0x5e22fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IO::BinaryReader*, ::GlobalNamespace::OVRGLTFComponentType)>(&::GlobalNamespace::OVRGLTFAccessor::ReadAsInt)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5e1e548;
+  constexpr static std::size_t addrs = 0x5e22a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IO::BinaryReader*, ::GlobalNamespace::OVRGLTFComponentType)>(&::GlobalNamespace::OVRGLTFAccessor::ReadAsFloat)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5e1e30c;
+  constexpr static std::size_t addrs = 0x5e227c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Color> (::GlobalNamespace::OVRGLTFAccessor::*)()>(&::GlobalNamespace::OVRGLTFAccessor::ReadColor)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x5e1ed90;
+  constexpr static std::size_t addrs = 0x5e2324c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFAccessor*>(), { "ReadColor", {}, {} })));
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(::by_ref<::ArrayW<::UnityEngine::BoneWeight>>)>(&::GlobalNamespace::OVRGLTFAccessor::ReadWeights)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x5e1f2a0;
+  constexpr static std::size_t addrs = 0x5e2375c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)(::by_ref<::ArrayW<::UnityEngine::BoneWeight>>)>(&::GlobalNamespace::OVRGLTFAccessor::ReadJoints)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5e1f588;
+  constexpr static std::size_t addrs = 0x5e23a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Quaternion> (::GlobalNamespace::OVRGLTFAccessor::*)(::UnityEngine::Vector4)>(
     &::GlobalNamespace::OVRGLTFAccessor::ReadQuaterion)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x5e1f740;
+  constexpr static std::size_t addrs = 0x5e23bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::GlobalNamespace::OVRGLTFAccessor::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRGLTFAccessor::ReadMatrix4x4)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x5e1fa80;
+  constexpr static std::size_t addrs = 0x5e23f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRGLTFAccessor::*)(::GlobalNamespace::OVRGLTFComponentType)>(
     &::GlobalNamespace::OVRGLTFAccessor::GetStrideForType)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5e1dc58;
+  constexpr static std::size_t addrs = 0x5e22114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRGLTFAccessor::*)(::GlobalNamespace::OVRGLTFComponentType)>(
     &::GlobalNamespace::OVRGLTFAccessor::GetMaxValueForType)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5e1f1a0;
+  constexpr static std::size_t addrs = 0x5e2365c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::OVRGLTFAccessor::*)(int32_t)>(&::GlobalNamespace::OVRGLTFAccessor::ReadBuffer)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5e1ff34;
+  constexpr static std::size_t addrs = 0x5e243f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAccessor::*)()>(&::GlobalNamespace::OVRGLTFAccessor::Dispose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e20030;
+  constexpr static std::size_t addrs = 0x5e244ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFAccessor*>(), { "Dispose", {}, {} })));
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRGLTFAccessor::*)()>(&::GlobalNamespace::OVRGLTFAccessor::GetDataCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e20050;
+  constexpr static std::size_t addrs = 0x5e2450c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFAccessor*>(), { "GetDataCount", {}, {} })));

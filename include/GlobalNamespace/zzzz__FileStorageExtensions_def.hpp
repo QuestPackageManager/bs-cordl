@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FileStorageExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\FileStorageExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,7 +100,7 @@ public:
 
   static inline ::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <SaveFile>b__0, addr 0x3311408, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <SaveFile>b__0, addr 0x3315204, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _SaveFile_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3310e28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3314c24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,7 +145,7 @@ public:
   FileStorageExtensions___c__DisplayClass1_0(FileStorageExtensions___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23259 };
 
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
@@ -191,7 +191,7 @@ public:
 
   static inline ::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <LoadFile>b__0, addr 0x33114c8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <LoadFile>b__0, addr 0x33152c4, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* _LoadFile_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  /// @brief Method .ctor, addr 0x3310f38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3314d34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -230,7 +230,7 @@ public:
   FileStorageExtensions___c__DisplayClass2_0(FileStorageExtensions___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23260 };
 
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
@@ -271,7 +271,7 @@ public:
 
   static inline ::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <FileExists>b__0, addr 0x3311580, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <FileExists>b__0, addr 0x331537c, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* _FileExists_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -292,7 +292,7 @@ public:
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  /// @brief Method .ctor, addr 0x3311048, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3314e44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -310,7 +310,7 @@ public:
   FileStorageExtensions___c__DisplayClass3_0(FileStorageExtensions___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23261 };
 
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
@@ -351,7 +351,7 @@ public:
 
   static inline ::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <DeleteFile>b__0, addr 0x3311638, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <DeleteFile>b__0, addr 0x3315434, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _DeleteFile_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -372,7 +372,7 @@ public:
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  /// @brief Method .ctor, addr 0x3311140, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3314f3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -390,7 +390,7 @@ public:
   FileStorageExtensions___c__DisplayClass4_0(FileStorageExtensions___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23262 };
 
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
@@ -447,7 +447,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23263 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -491,13 +491,13 @@ public:
 
   using __c__DisplayClass4_0 = ::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0;
 
-  /// @brief Method DeleteFile, addr 0x331104c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DeleteFile, addr 0x3314e48, size 0xf4, virtual false, abstract: false, final false
   static inline void DeleteFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method FileExists, addr 0x3310f3c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0x3314d38, size 0x10c, virtual false, abstract: false, final false
   static inline bool FileExists(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method LoadFile, addr 0x3310e2c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LoadFile, addr 0x3314c28, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW LoadFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
   /// @brief Method LoadFromJSONFile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -507,14 +507,14 @@ public:
   template <typename T>
   static inline ::System::Threading::Tasks::Task_1<T>* LoadFromJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method SaveFile, addr 0x3310d24, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SaveFile, addr 0x3314b20, size 0x104, virtual false, abstract: false, final false
   static inline void SaveFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method SaveToJSONFile, addr 0x3311144, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method SaveToJSONFile, addr 0x3314f40, size 0x184, virtual false, abstract: false, final false
   static inline void SaveToJSONFile(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation,
                                     ::Newtonsoft::Json::JsonSerializerSettings* overrideSerializerSettings);
 
-  /// @brief Method SaveToJSONFileAsync, addr 0x33112c8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SaveToJSONFileAsync, addr 0x33150c4, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* SaveToJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName,
                                                                       ::GlobalNamespace::StoragePreference storageLocation, ::Newtonsoft::Json::JsonSerializerSettings* overrideSerializerSettings);
 
@@ -533,7 +533,7 @@ public:
   FileStorageExtensions(FileStorageExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23264 };
 
   /// @brief Field kSizeInBytesUntilDeserializeWarning offset 0xffffffff size 0x4
   static constexpr int32_t kSizeInBytesUntilDeserializeWarning{ static_cast<int32_t>(0x2710) };

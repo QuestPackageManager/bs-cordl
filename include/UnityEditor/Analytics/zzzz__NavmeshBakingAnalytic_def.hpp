@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor/Analytics/NavmeshBakingAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor\Analytics\NavmeshBakingAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   /// @brief Field offmesh_links_count, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_offmesh_links_count, put = __cordl_internal_set_offmesh_links_count)) int32_t offmesh_links_count;
 
-  /// @brief Method CreateNavmeshBakingAnalytic, addr 0x6e1d608, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateNavmeshBakingAnalytic, addr 0x6e2518c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::NavmeshBakingAnalytic* CreateNavmeshBakingAnalytic();
 
   static inline ::UnityEditor::Analytics::NavmeshBakingAnalytic* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_offmesh_links_count(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6e1d590, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e25114, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   NavmeshBakingAnalytic(NavmeshBakingAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23005 };
 
   /// @brief Field new_nav_api, offset: 0x2c, size: 0x1, def value: None
   bool ___new_nav_api;

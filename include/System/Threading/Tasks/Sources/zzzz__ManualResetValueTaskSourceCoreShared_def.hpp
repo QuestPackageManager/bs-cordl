@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/Sources/ManualResetValueTaskSourceCoreShared.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\Sources\ManualResetValueTaskSourceCoreShared.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ public:
   /// @brief Field s_sentinel, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_sentinel, put = setStaticF_s_sentinel)) ::System::Action_1<::System::Object*>* s_sentinel;
 
-  /// @brief Method CompletionSentinel, addr 0x5cc470c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CompletionSentinel, addr 0x5cc8bc8, size 0x48, virtual false, abstract: false, final false
   static inline void CompletionSentinel(::System::Object* _);
 
-  /// @brief Method ThrowInvalidOperationException, addr 0x5cc46d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidOperationException, addr 0x5cc8b90, size 0x38, virtual false, abstract: false, final false
   static inline void ThrowInvalidOperationException();
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_sentinel();

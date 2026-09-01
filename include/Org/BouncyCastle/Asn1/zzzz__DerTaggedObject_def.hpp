@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerTaggedObject.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerTaggedObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE DerTaggedObject : public ::Org::BouncyCastle::Asn1::Asn1TaggedObject {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x36886d0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x368c490, size 0xdc, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::DerTaggedObject* New_ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
@@ -35,13 +35,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerTaggedObject* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x367d324, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36810e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x3688658, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368c418, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo);
 
-  /// @brief Method .ctor, addr 0x36748c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3678680, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphProfilingScope.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphProfilingScope.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphProfilingScope_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphProfilingScope::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ProfilingSampler*)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphProfilingScope::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67d4684;
+  constexpr static std::size_t addrs = 0x67dc100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphProfilingScope::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphProfilingScope::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67d4688;
+  constexpr static std::size_t addrs = 0x67dc104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphProfilingScope::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphProfilingScope::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67d468c;
+  constexpr static std::size_t addrs = 0x67dc108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

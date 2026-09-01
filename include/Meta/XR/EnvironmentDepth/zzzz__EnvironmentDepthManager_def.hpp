@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/EnvironmentDepth/EnvironmentDepthManager.hpp"
+// IWYU pragma private; include "Meta\XR\EnvironmentDepth\EnvironmentDepthManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,11 +90,11 @@ public:
   /// @brief Field _mvpMatrices, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__mvpMatrices, put = __cordl_internal_set__mvpMatrices)) ::ArrayW<::UnityEngine::Matrix4x4> _mvpMatrices;
 
-  /// @brief Method ApplyMask, addr 0x5a39d00, size 0x928, virtual false, abstract: false, final false
+  /// @brief Method ApplyMask, addr 0x5a3e1bc, size 0x928, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> ApplyMask(::UnityEngine::RenderTexture* depthTexture, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* meshFilters,
                                                           ::UnityEngine::Matrix4x4 trackingSpaceWorldToLocal, ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc> frameDescriptors);
 
-  /// @brief Method Dispose, addr 0x5a390d4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5a3d590, size 0x8c, virtual false, abstract: false, final false
   inline void Dispose();
 
   static inline ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* New_ctor(int32_t width, int32_t height, float_t bias);
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__mvpMatrices(::ArrayW<::UnityEngine::Matrix4x4> value);
 
-  /// @brief Method .ctor, addr 0x5a39abc, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a3df78, size 0x244, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, float_t bias);
 
 protected:
@@ -147,7 +147,7 @@ public:
   EnvironmentDepthManager_Mask(EnvironmentDepthManager_Mask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23026 };
 
   /// @brief Field _maskMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____maskMaterial;
@@ -273,45 +273,45 @@ public:
   __declspec(property(get = __cordl_internal_get_onDepthTextureUpdate,
                       put = __cordl_internal_set_onDepthTextureUpdate)) ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* onDepthTextureUpdate;
 
-  /// @brief Method Awake, addr 0x5a38ae8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a3cfa4, size 0xbc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CacheCameraRig, addr 0x5a39a1c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CacheCameraRig, addr 0x5a3ded8, size 0xa0, virtual false, abstract: false, final false
   inline void CacheCameraRig();
 
-  /// @brief Method CreateProvider, addr 0x5a382fc, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method CreateProvider, addr 0x5a3c7b8, size 0x2ec, virtual false, abstract: false, final false
   static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* CreateProvider();
 
-  /// @brief Method GetTrackingSpaceWorldToLocalMatrix, addr 0x5a394b0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetTrackingSpaceWorldToLocalMatrix, addr 0x5a3d96c, size 0x144, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetTrackingSpaceWorldToLocalMatrix();
 
-  /// @brief Method Log, addr 0x5a3a90c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5a3edc8, size 0x124, virtual false, abstract: false, final false
   static inline void Log(::UnityEngine::LogType type, ::StringW msg);
 
   static inline ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager* New_ctor();
 
-  /// @brief Method OnBeforeRender, addr 0x5a39160, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeRender, addr 0x5a3d61c, size 0x350, virtual false, abstract: false, final false
   inline void OnBeforeRender();
 
-  /// @brief Method OnDestroy, addr 0x5a38fec, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a3d4a8, size 0xe8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5a38e5c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a3d318, size 0x190, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5a38ba4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5a3d060, size 0x21c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PreprocessDepthTexture, addr 0x5a3a628, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method PreprocessDepthTexture, addr 0x5a3eae4, size 0x2e4, virtual false, abstract: false, final false
   inline void PreprocessDepthTexture(::UnityEngine::RenderTexture* depthTexture);
 
-  /// @brief Method ResetDepthTextureIfAvailable, addr 0x5a38dc0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ResetDepthTextureIfAvailable, addr 0x5a3d27c, size 0x9c, virtual false, abstract: false, final false
   inline void ResetDepthTextureIfAvailable();
 
-  /// @brief Method SetOcclusionShaderKeywords, addr 0x5a3875c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method SetOcclusionShaderKeywords, addr 0x5a3cc18, size 0x1b0, virtual false, abstract: false, final false
   static inline void SetOcclusionShaderKeywords(::Meta::XR::EnvironmentDepth::OcclusionShadersMode mode);
 
-  /// @brief Method TryFetchDepthTexture, addr 0x5a395f4, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method TryFetchDepthTexture, addr 0x5a3dab0, size 0x2e4, virtual false, abstract: false, final false
   inline void TryFetchDepthTexture(::UnityEngine::Matrix4x4 trackingSpaceWorldToLocal);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_CustomTrackingSpace() const;
@@ -410,10 +410,10 @@ public:
 
   constexpr void __cordl_internal_set_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method .ctor, addr 0x5a3aa30, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a3eeec, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onDepthTextureUpdate, addr 0x5a380f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_onDepthTextureUpdate, addr 0x5a3c5b4, size 0xc0, virtual false, abstract: false, final false
   inline void add_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
   static inline int32_t getStaticF_DepthTextureID();
@@ -432,28 +432,28 @@ public:
 
   static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* getStaticF__provider();
 
-  /// @brief Method get_IsDepthAvailable, addr 0x5a386b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDepthAvailable, addr 0x5a3cb74, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDepthAvailable();
 
-  /// @brief Method get_IsSupported, addr 0x5a385ec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_IsSupported, addr 0x5a3caa8, size 0xcc, virtual false, abstract: false, final false
   static inline bool get_IsSupported();
 
-  /// @brief Method get_MaskBias, addr 0x5a38a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaskBias, addr 0x5a3cf00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_MaskBias();
 
-  /// @brief Method get_MaskMeshFilters, addr 0x5a380e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaskMeshFilters, addr 0x5a3c5a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* get_MaskMeshFilters();
 
-  /// @brief Method get_OcclusionShadersMode, addr 0x5a386c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OcclusionShadersMode, addr 0x5a3cb84, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::EnvironmentDepth::OcclusionShadersMode get_OcclusionShadersMode();
 
-  /// @brief Method get_RemoveHands, addr 0x5a3890c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RemoveHands, addr 0x5a3cdc8, size 0x8, virtual false, abstract: false, final false
   inline bool get_RemoveHands();
 
-  /// @brief Method get_provider, addr 0x5a38278, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_provider, addr 0x5a3c734, size 0x84, virtual false, abstract: false, final false
   static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* get_provider();
 
-  /// @brief Method remove_onDepthTextureUpdate, addr 0x5a381b8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_onDepthTextureUpdate, addr 0x5a3c674, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
   static inline void setStaticF_DepthTextureID(int32_t value);
@@ -472,19 +472,19 @@ public:
 
   static inline void setStaticF__provider(::Meta::XR::EnvironmentDepth::IDepthProvider* value);
 
-  /// @brief Method set_IsDepthAvailable, addr 0x5a386c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsDepthAvailable, addr 0x5a3cb7c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDepthAvailable(bool value);
 
-  /// @brief Method set_MaskBias, addr 0x5a38a4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_MaskBias, addr 0x5a3cf08, size 0x9c, virtual false, abstract: false, final false
   inline void set_MaskBias(float_t value);
 
-  /// @brief Method set_MaskMeshFilters, addr 0x5a380f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaskMeshFilters, addr 0x5a3c5ac, size 0x8, virtual false, abstract: false, final false
   inline void set_MaskMeshFilters(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* value);
 
-  /// @brief Method set_OcclusionShadersMode, addr 0x5a386d0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_OcclusionShadersMode, addr 0x5a3cb8c, size 0x8c, virtual false, abstract: false, final false
   inline void set_OcclusionShadersMode(::Meta::XR::EnvironmentDepth::OcclusionShadersMode value);
 
-  /// @brief Method set_RemoveHands, addr 0x5a38914, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method set_RemoveHands, addr 0x5a3cdd0, size 0x130, virtual false, abstract: false, final false
   inline void set_RemoveHands(bool value);
 
 protected:
@@ -508,7 +508,7 @@ public:
   static constexpr ::ConstString SoftOcclusionKeyword{ u"SOFT_OCCLUSION" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23027 };
 
   /// @brief Field numViews offset 0xffffffff size 0x4
   static constexpr int32_t numViews{ static_cast<int32_t>(0x2) };

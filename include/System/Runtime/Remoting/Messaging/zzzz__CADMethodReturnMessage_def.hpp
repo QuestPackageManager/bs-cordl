@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CADMethodReturnMessage.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Messaging\CADMethodReturnMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,19 +51,19 @@ public:
   /// @brief Field _sig, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__sig, put = __cordl_internal_set__sig)) ::ArrayW<::System::Type*> _sig;
 
-  /// @brief Method Create, addr 0x5b3e368, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b42824, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
 
-  /// @brief Method GetArgs, addr 0x5b3e8bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetArgs, addr 0x5b42d78, size 0x10, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetArgs(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetArguments, addr 0x5b3e774, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x5b42c30, size 0x148, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetArguments();
 
-  /// @brief Method GetException, addr 0x5b3e8dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x5b42d98, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Exception* GetException(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetReturnValue, addr 0x5b3e8cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetReturnValue, addr 0x5b42d88, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* GetReturnValue(::System::Collections::ArrayList* args);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg);
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set__sig(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x5b3e3f8, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b428b4, size 0x37c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* retMsg);
 
-  /// @brief Method get_PropertiesCount, addr 0x5b3e98c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertiesCount, addr 0x5b42e48, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PropertiesCount();
 
 protected:

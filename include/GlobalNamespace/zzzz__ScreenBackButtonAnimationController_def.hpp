@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScreenBackButtonAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScreenBackButtonAnimationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
   static ::GlobalNamespace::ScreenBackButtonAnimationController_AnimationType const MoveOut2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20929 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -116,12 +116,12 @@ public:
   /// @brief Field _animator, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator)) ::UnityW<::UnityEngine::Animator> _animator;
 
-  /// @brief Method Awake, addr 0x32ea424, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x32ee220, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ScreenBackButtonAnimationController* New_ctor();
 
-  /// @brief Method StartAnimation, addr 0x32ea440, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x32ee23c, size 0x78, virtual false, abstract: false, final false
   inline void StartAnimation(::GlobalNamespace::ScreenBackButtonAnimationController_AnimationType animationType);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenBackButtonAnimationController_AnimationType, int32_t>* const& __cordl_internal_get__animationHashes() const;
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method .ctor, addr 0x32ea4b8, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ee2b4, size 0x27c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,7 +154,7 @@ public:
   ScreenBackButtonAnimationController(ScreenBackButtonAnimationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20930 };
 
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/KeyParameter.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\KeyParameter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::KeyParameter::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Parameters::KeyParameter::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3401af0;
+  constexpr static std::size_t addrs = 0x34058b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::KeyParameter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::KeyParameter::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3408cf4;
+  constexpr static std::size_t addrs = 0x340cab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Parameters::KeyParameter::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KeyParameter::GetKey)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x33f82bc;
+  constexpr static std::size_t addrs = 0x33fc07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*>(), { "GetKey", {}, {} })));

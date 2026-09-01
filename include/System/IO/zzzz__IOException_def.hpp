@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/IOException.hpp"
+// IWYU pragma private; include "System\IO\IOException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,19 +40,19 @@ public:
 
   static inline ::System::IO::IOException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5bf2d4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf7208, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5bf20b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf656c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5bf1270, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf572c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5bf2dac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf7268, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t hresult);
 
-  /// @brief Method .ctor, addr 0x5bf2dd4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf7290, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Rotate.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Rotate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,52 +73,52 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>*();
 
-  /// @brief Method Equals, addr 0x6c89f24, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c91aa8, size 0xe4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c89ea4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c91a28, size 0x80, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Rotate other);
 
-  /// @brief Method GetHashCode, addr 0x6c87b7c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c8f700, size 0xcc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x6c89d44, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x6c918c8, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate Initial();
 
-  /// @brief Method None, addr 0x6c89da8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x6c9192c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate None();
 
-  /// @brief Method ToQuaternion, addr 0x6c8a080, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ToQuaternion, addr 0x6c91c04, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ToQuaternion();
 
-  /// @brief Method ToString, addr 0x6c8a008, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c91b8c, size 0x78, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c89c8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c91810, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Angle angle);
 
-  /// @brief Method .ctor, addr 0x6c89cf0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c91874, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Quaternion quaternion);
 
-  /// @brief Method get_angle, addr 0x6c89e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angle, addr 0x6c91984, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle get_angle();
 
-  /// @brief Method get_axis, addr 0x6c89e10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x6c91994, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_axis();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Rotate>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Rotate>* i___System__IEquatable_1___UnityEngine__UIElements__Rotate_();
 
-  /// @brief Method op_Equality, addr 0x6c87884, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c8f408, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs);
 
-  /// @brief Method op_Inequality, addr 0x6c89e28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6c919ac, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs);
 
-  /// @brief Method set_angle, addr 0x6c89e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angle, addr 0x6c9198c, size 0x8, virtual false, abstract: false, final false
   inline void set_angle(::UnityEngine::UIElements::Angle value);
 
-  /// @brief Method set_axis, addr 0x6c89e1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_axis, addr 0x6c919a0, size 0xc, virtual false, abstract: false, final false
   inline void set_axis(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -173,12 +173,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c8a290, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c91e14, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle GetValue(::by_ref<::UnityEngine::UIElements::Rotate> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c8a298, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c91e1c, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Rotate> container, ::UnityEngine::UIElements::Angle value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -193,13 +193,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c8a1b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c91d3c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c8a288, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c91e0c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c8a280, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c91e04, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -252,12 +252,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c8a2b0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c91e34, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 GetValue(::by_ref<::UnityEngine::UIElements::Rotate> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c8a2bc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c91e40, size 0xc, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Rotate> container, ::UnityEngine::Vector3 value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -272,13 +272,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c8a21c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c91da0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c8a2a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c91e2c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c8a2a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c91e24, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -327,7 +327,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Rotate_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c8a0a4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c91c28, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

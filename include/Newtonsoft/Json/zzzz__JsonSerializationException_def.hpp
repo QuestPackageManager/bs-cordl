@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/JsonSerializationException.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\JsonSerializationException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ public:
   /// @brief Field <Path>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField)) ::StringW _Path_k__BackingField;
 
-  /// @brief Method Create, addr 0x5cda414, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5cde8d0, size 0x204, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method Create, addr 0x5cd1e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5cd62d4, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message);
 
-  /// @brief Method Create, addr 0x5cda388, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5cde844, size 0x8c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonSerializationException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::JsonSerializationException* New_ctor();
@@ -88,28 +88,28 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5cda33c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cde7f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5cda348, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cde804, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5cda340, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cde7fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5cda344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cde800, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5cda34c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cde808, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW path, int32_t lineNumber, int32_t linePosition, ::System::Exception* innerException);
 
-  /// @brief Method get_LineNumber, addr 0x5cda324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x5cde7e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x5cda32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x5cde7e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_Path, addr 0x5cda334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x5cde7f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -127,7 +127,7 @@ public:
   JsonSerializationException(JsonSerializationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13271 };
 
   /// @brief Field <LineNumber>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   int32_t ____LineNumber_k__BackingField;

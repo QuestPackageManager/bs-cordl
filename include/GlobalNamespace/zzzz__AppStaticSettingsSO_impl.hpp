@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AppStaticSettingsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\AppStaticSettingsSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AppStaticSettingsSO._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppStaticSettingsSO::*)()>(&::GlobalNamespace::AppStaticSettingsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3700a00;
+  constexpr static std::size_t addrs = 0x3704c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppStaticSettingsSO*>(), { ".ctor", {}, {} })));

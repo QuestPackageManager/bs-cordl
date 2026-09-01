@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/LegacySettingsV2.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\LegacySettingsV2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -251,7 +251,7 @@ public:
 
   constexpr void __cordl_internal_set_smoothCameraSettings(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings* value);
 
-  /// @brief Method .ctor, addr 0x32c2764, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c6560, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -269,7 +269,7 @@ public:
   LegacySettingsV2_MainSettings(LegacySettingsV2_MainSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22069 };
 
   /// @brief Field audioSettings, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Settings::LegacySettingsV2_AudioSettings* ___audioSettings;
@@ -377,7 +377,7 @@ public:
 
   constexpr void __cordl_internal_set_volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x32c29a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c679c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -395,7 +395,7 @@ public:
   LegacySettingsV2_AudioSettings(LegacySettingsV2_AudioSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22070 };
 
   /// @brief Field volume, offset: 0x10, size: 0x4, def value: None
   float_t ___volume;
@@ -495,7 +495,7 @@ public:
 
   constexpr void __cordl_internal_set_thirdPersonPosition(::Unity::Mathematics::float3 value);
 
-  /// @brief Method .ctor, addr 0x32c29b0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c67ac, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -513,7 +513,7 @@ public:
   LegacySettingsV2_SmoothCameraSettings(LegacySettingsV2_SmoothCameraSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22071 };
 
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;
@@ -583,7 +583,7 @@ public:
 
   constexpr void __cordl_internal_set_rotationOffset(::Unity::Mathematics::float3 value);
 
-  /// @brief Method .ctor, addr 0x32c2a34, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c6830, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -601,7 +601,7 @@ public:
   LegacySettingsV2_ControllerSettings(LegacySettingsV2_ControllerSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22072 };
 
   /// @brief Field positionOffset, offset: 0x10, size: 0xc, def value: None
   ::Unity::Mathematics::float3 ___positionOffset;
@@ -655,7 +655,7 @@ public:
 
   constexpr void __cordl_internal_set_useCustomServerEnvironment(bool value);
 
-  /// @brief Method .ctor, addr 0x32c2aa4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c68a0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -673,7 +673,7 @@ public:
   LegacySettingsV2_CustomServerSettings(LegacySettingsV2_CustomServerSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22073 };
 
   /// @brief Field useCustomServerEnvironment, offset: 0x10, size: 0x1, def value: None
   bool ___useCustomServerEnvironment;
@@ -732,7 +732,7 @@ public:
 
   constexpr void __cordl_internal_set_enableMemoryTracker(bool value);
 
-  /// @brief Method .ctor, addr 0x32c2abc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c68b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -750,7 +750,7 @@ public:
   LegacySettingsV2_DebugSettings(LegacySettingsV2_DebugSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22074 };
 
   /// @brief Field enableFpsCounter, offset: 0x10, size: 0x1, def value: None
   bool ___enableFpsCounter;
@@ -812,7 +812,7 @@ public:
   static ::BeatSaber::Settings::LegacySettingsV2_WindowMode const Windowed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22076 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -873,7 +873,7 @@ public:
 
   constexpr void __cordl_internal_set_windowResolution(::Unity::Mathematics::int2 value);
 
-  /// @brief Method .ctor, addr 0x32c2928, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c6724, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -891,7 +891,7 @@ public:
   LegacySettingsV2_GraphicSettings(LegacySettingsV2_GraphicSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22075 };
 
   /// @brief Field performancePresetKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ___performancePresetKey;
@@ -958,7 +958,7 @@ public:
   static ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset const HDWithoutToneMapping;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22077 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1025,7 +1025,7 @@ public:
   static ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22078 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1084,7 +1084,7 @@ public:
   static ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset const PyramidForBaking;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22079 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1147,7 +1147,7 @@ public:
   static ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset const RenderedLQ;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22080 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1210,7 +1210,7 @@ public:
   static ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality const TexturedObstacle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22081 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1277,7 +1277,7 @@ public:
   static ::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22082 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1466,7 +1466,7 @@ public:
 
   constexpr void __cordl_internal_set_vrResolutionScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x32c2ac0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c68bc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1484,7 +1484,7 @@ public:
   LegacySettingsV2_PerformancePreset(LegacySettingsV2_PerformancePreset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22083 };
 
   /// @brief Field presetNameLocalizationTag, offset: 0x10, size: 0x8, def value: None
   ::StringW ___presetNameLocalizationTag;
@@ -1625,7 +1625,7 @@ public:
   /// @brief Field mainSettings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mainSettings, put = __cordl_internal_set_mainSettings)) ::BeatSaber::Settings::LegacySettingsV2_MainSettings* mainSettings;
 
-  /// @brief Method ApplyTo, addr 0x32c23a4, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x32c61a0, size 0x33c, virtual false, abstract: false, final false
   inline void ApplyTo(::by_ref<::BeatSaber::Settings::Settings> settings);
 
   static inline ::BeatSaber::Settings::LegacySettingsV2* New_ctor();
@@ -1642,7 +1642,7 @@ public:
 
   constexpr void __cordl_internal_set_mainSettings(::BeatSaber::Settings::LegacySettingsV2_MainSettings* value);
 
-  /// @brief Method .ctor, addr 0x32c26e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c64dc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1660,7 +1660,7 @@ public:
   LegacySettingsV2(LegacySettingsV2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22084 };
 
   /// @brief Field mainSettings, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Settings::LegacySettingsV2_MainSettings* ___mainSettings;

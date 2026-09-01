@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/KeySequence.hpp"
+// IWYU pragma private; include "System\Xml\Schema\KeySequence.hpp"
 #include "System/Xml/Schema/zzzz__TypedObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__KeySequence_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::KeySequence::*)(int32_t, int32_t, int32_t)>(&::System::Xml::Schema::KeySequence::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6314700;
+  constexpr static std::size_t addrs = 0x631c17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::KeySequence*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::KeySequence::*)()>(&::System::Xml::Schema::KeySequence::get_PosLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63150d8;
+  constexpr static std::size_t addrs = 0x631cb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::KeySequence*>(), { "get_PosLine", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::KeySequence::*)()>(&::System::Xml::Schema::KeySequence::get_PosCol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63150e0;
+  constexpr static std::size_t addrs = 0x631cb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::KeySequence*>(), { "get_PosCol", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::KeySequence::*)(int32_t)>(&::System::Xml::Schema::KeySequence::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63150e8;
+  constexpr static std::size_t addrs = 0x631cb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::KeySequence*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::KeySequence::*)(int32_t, ::System::Object*)>(&::System::Xml::Schema::KeySequence::set_Item)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6315118;
+  constexpr static std::size_t addrs = 0x631cb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::KeySequence::*)()>(&::System::Xml::Schema::KeySequence::IsQualified)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6315214;
+  constexpr static std::size_t addrs = 0x631cc90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::KeySequence*>(), { "IsQualified", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::KeySequence::*)()>(&::System::Xml::Schema::KeySequence::GetHashCode)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x6315280;
+  constexpr static std::size_t addrs = 0x631ccfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::KeySequence::*)(::System::Object*)>(&::System::Xml::Schema::KeySequence::Equals)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x63155ec;
+  constexpr static std::size_t addrs = 0x631d068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::KeySequence::*)()>(&::System::Xml::Schema::KeySequence::ToString)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x63156d8;
+  constexpr static std::size_t addrs = 0x631d154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

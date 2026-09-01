@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/CastInstruction_CastInstructionNoT_Value.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\CastInstruction_CastInstructionNoT_Value.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE CastInstructionNoT_CastInstruction_Value : public ::GlobalNamespace::CastInstruction_CastInstructionNoT {
 public:
   // Declarations
-  /// @brief Method ConvertNull, addr 0x5fb8310, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ConvertNull, addr 0x5fbfd8c, size 0x38, virtual true, abstract: false, final false
   inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   static inline ::GlobalNamespace::CastInstructionNoT_CastInstruction_Value* New_ctor(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x5fb818c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbfc08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:
@@ -48,7 +48,7 @@ public:
   CastInstructionNoT_CastInstruction_Value(CastInstructionNoT_CastInstruction_Value const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16611 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/VersionConverter.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\VersionConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,18 +34,18 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE VersionConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x5d9a76c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x5d9ec28, size 0x70, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::VersionConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x5d9a4f0, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x5d9e9ac, size 0x27c, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5d9a3f8, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x5d9e8b4, size 0xf8, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5d9a7dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9ec98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   VersionConverter(VersionConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/DropdownWithTitleView.hpp"
+// IWYU pragma private; include "HMUI\DropdownWithTitleView.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_impl.hpp"
 #include "HMUI/zzzz__DropdownWithTitleView_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTitleView::*)(::HMUI::TableView_IDataSource*)>(&::HMUI::DropdownWithTitleView::RefreshSize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5883394;
+  constexpr static std::size_t addrs = 0x5882cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTitleView*>(), { ::i2c::class_of<::HMUI::DropdownWithTitleView*>(), 7 }));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTitleView::*)()>(&::HMUI::DropdownWithTitleView::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58833f4;
+  constexpr static std::size_t addrs = 0x5882d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTitleView*>(), { ".ctor", {}, {} })));

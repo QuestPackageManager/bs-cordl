@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissMissionObjectiveChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissMissionObjectiveChecker.hpp"
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_impl.hpp"
 #include "GlobalNamespace/zzzz__MissMissionObjectiveChecker_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissMissionObjectiveChecker::*)()>(&::GlobalNamespace::MissMissionObjectiveChecker::Init)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5917ce0;
+  constexpr static std::size_t addrs = 0x591b69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissMissionObjectiveChecker::*)()>(&::GlobalNamespace::MissMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5917e2c;
+  constexpr static std::size_t addrs = 0x591b7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissMissionObjectiveChecker*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissMissionObjectiveChecker::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::MissMissionObjectiveChecker::HandleNoteWasMissed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5917ec4;
+  constexpr static std::size_t addrs = 0x591b880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissMissionObjectiveChecker::*)()>(&::GlobalNamespace::MissMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5917f34;
+  constexpr static std::size_t addrs = 0x591b8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissMissionObjectiveChecker*>(), { ".ctor", {}, {} })));

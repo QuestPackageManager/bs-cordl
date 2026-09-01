@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Attr/ImageAttrib.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Attr\ImageAttrib.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Attr/zzzz__ImageAttrib_def.hpp"
 #include "Org/BouncyCastle/Bcpg/Attr/zzzz__ImageAttrib_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3690230;
+  constexpr static std::size_t addrs = 0x3693ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::*)(bool, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x369023c;
+  constexpr static std::size_t addrs = 0x3693ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::*)(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib_Format, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3690310;
+  constexpr static std::size_t addrs = 0x36940d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib_Format, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::ToByteArray)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x369038c;
+  constexpr static std::size_t addrs = 0x369414c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::*)()>(&::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36904e0;
+  constexpr static std::size_t addrs = 0x36942a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::*)()>(&::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36904e8;
+  constexpr static std::size_t addrs = 0x36942a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::*)()>(&::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::GetImageData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36904f0;
+  constexpr static std::size_t addrs = 0x36942b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

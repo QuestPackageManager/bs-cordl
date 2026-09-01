@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeReferenceUnsafeUtility.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeReferenceUnsafeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   NativeReferenceUnsafeUtility(NativeReferenceUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15755 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

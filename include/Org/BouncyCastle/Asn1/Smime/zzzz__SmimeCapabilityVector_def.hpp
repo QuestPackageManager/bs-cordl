@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Smime/SmimeCapabilityVector.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Smime\SmimeCapabilityVector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,18 +32,18 @@ public:
   /// @brief Field capabilities, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_capabilities, put = __cordl_internal_set_capabilities)) ::Org::BouncyCastle::Asn1::Asn1EncodableVector* capabilities;
 
-  /// @brief Method AddCapability, addr 0x35485d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddCapability, addr 0x354c398, size 0x7c, virtual false, abstract: false, final false
   inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
 
-  /// @brief Method AddCapability, addr 0x354878c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddCapability, addr 0x354c54c, size 0x108, virtual false, abstract: false, final false
   inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method AddCapability, addr 0x3548654, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method AddCapability, addr 0x354c414, size 0x138, virtual false, abstract: false, final false
   inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* New_ctor();
 
-  /// @brief Method ToAsn1EncodableVector, addr 0x3548894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1EncodableVector, addr 0x354c654, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ToAsn1EncodableVector();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector* const& __cordl_internal_get_capabilities() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_capabilities(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method .ctor, addr 0x354889c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354c65c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

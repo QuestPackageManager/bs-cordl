@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GlobalKeyword.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GlobalKeyword.hpp"
 #include "UnityEngine/Rendering/zzzz__GlobalKeyword_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::GlobalKeyword.GetGlobalKeywordCount
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::UnityEngine::Rendering::GlobalKeyword::GetGlobalKeywordCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b251dc;
+  constexpr static std::size_t addrs = 0x6b2cd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GlobalKeyword>(), { "GetGlobalKeywordCount", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::StringW)>(&::UnityEngine::Rendering::GlobalKeyword::GetGlobalKeywordIndex)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6b25204;
+  constexpr static std::size_t addrs = 0x6b2cd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::Rendering::GlobalKeyword::CreateGlobalKeyword)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6b2536c;
+  constexpr static std::size_t addrs = 0x6b2cef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GlobalKeyword (*)(::StringW)>(&::UnityEngine::Rendering::GlobalKeyword::Create)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6b254cc;
+  constexpr static std::size_t addrs = 0x6b2d050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GlobalKeyword::*)(::StringW)>(&::UnityEngine::Rendering::GlobalKeyword::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6b254fc;
+  constexpr static std::size_t addrs = 0x6b2d080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::GlobalKeyword::*)()>(&::UnityEngine::Rendering::GlobalKeyword::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25634;
+  constexpr static std::size_t addrs = 0x6b2d1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::Rendering::GlobalKeyword::GetGlobalKeywordIndex_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b25330;
+  constexpr static std::size_t addrs = 0x6b2ceb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::Rendering::GlobalKeyword::CreateGlobalKeyword_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b25490;
+  constexpr static std::size_t addrs = 0x6b2d014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/ManagedSpanWrapper.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\ManagedSpanWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,7 @@ namespace UnityEngine::Bindings {
 struct CORDL_TYPE ManagedSpanWrapper {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6aec7cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af41e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* begin, int32_t length);
 
   // Ctor Parameters []
@@ -31,7 +31,7 @@ public:
   constexpr ManagedSpanWrapper(void* begin, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10475 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

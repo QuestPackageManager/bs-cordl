@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/FormUrlEncodedContent.hpp"
+// IWYU pragma private; include "System\Net\Http\FormUrlEncodedContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,16 +28,16 @@ namespace System::Net::Http {
 class CORDL_TYPE FormUrlEncodedContent : public ::System::Net::Http::ByteArrayContent {
 public:
   // Declarations
-  /// @brief Method EncodeContent, addr 0x60d33f8, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method EncodeContent, addr 0x60dae74, size 0x52c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> EncodeContent(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>* nameValueCollection);
 
   static inline ::System::Net::Http::FormUrlEncodedContent*
   New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>* nameValueCollection);
 
-  /// @brief Method SerializeValue, addr 0x60d39a4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SerializeValue, addr 0x60db420, size 0xdc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> SerializeValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60d3348, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60dadc4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>* nameValueCollection);
 
 protected:
@@ -55,7 +55,7 @@ public:
   FormUrlEncodedContent(FormUrlEncodedContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

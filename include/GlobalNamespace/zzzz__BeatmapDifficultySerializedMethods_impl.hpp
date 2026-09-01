@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultySerializedMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapDifficultySerializedMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultySerializedMethods_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapDifficultySerializedMethods::SerializedName)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3255dac;
+  constexpr static std::size_t addrs = 0x32590ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultySerializedMethods*>(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::GlobalNamespace::BeatmapDifficulty>)>(
     &::GlobalNamespace::BeatmapDifficultySerializedMethods::BeatmapDifficultyFromSerializedName)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3255e74;
+  constexpr static std::size_t addrs = 0x3259174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardsInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   __declspec(property(get = __cordl_internal_get__localLeaderboardsSettings, put = __cordl_internal_set__localLeaderboardsSettings)) ::UnityW<::GlobalNamespace::LocalLeaderboardsSettingsSO>
       _localLeaderboardsSettings;
 
-  /// @brief Method InstallBindings, addr 0x37702b0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3775f1c, size 0xdc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LocalLeaderboardsInstaller* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__localLeaderboardsSettings(::UnityW<::GlobalNamespace::LocalLeaderboardsSettingsSO> value);
 
-  /// @brief Method .ctor, addr 0x377038c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3775ff8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   LocalLeaderboardsInstaller(LocalLeaderboardsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21024 };
 
   /// @brief Field _localLeaderboardsSettings, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LocalLeaderboardsSettingsSO> ____localLeaderboardsSettings;

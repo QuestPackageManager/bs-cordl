@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Principal/NTAccount.hpp"
+// IWYU pragma private; include "System\Security\Principal\NTAccount.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,18 +35,18 @@ public:
   /// @brief Field _value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::StringW _value;
 
-  /// @brief Method Equals, addr 0x5b0f458, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5b13914, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x5b0f55c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5b13a18, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Security::Principal::NTAccount* New_ctor(::StringW name);
 
-  /// @brief Method ToString, addr 0x5b0f584, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5b13a40, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate, addr 0x5b0f590, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method Translate, addr 0x5b13a4c, size 0x200, virtual true, abstract: false, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
   constexpr ::StringW const& __cordl_internal_get__value() const;
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b0f388, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b13844, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Value, addr 0x5b0f450, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5b1390c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method op_Equality, addr 0x5b0f4f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5b139b4, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::NTAccount* left, ::System::Security::Principal::NTAccount* right);
 
 protected:

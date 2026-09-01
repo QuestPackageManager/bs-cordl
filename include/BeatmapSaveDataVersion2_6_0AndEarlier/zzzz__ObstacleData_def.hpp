@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/ObstacleData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\ObstacleData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,22 +83,22 @@ public:
 
   constexpr void __cordl_internal_set__width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x375a0b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375fd24, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type, float_t duration, int32_t width);
 
-  /// @brief Method get_duration, addr 0x375a0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x375fd14, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_lineIndex, addr 0x375a098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x375fd04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_time, addr 0x375a090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x375fcfc, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x375a0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x375fd0c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType get_type();
 
-  /// @brief Method get_width, addr 0x375a0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x375fd1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
 protected:
@@ -116,7 +116,7 @@ public:
   ObstacleData(ObstacleData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15390 };
 
   /// @brief Field _time, offset: 0x10, size: 0x4, def value: None
   float_t ____time;

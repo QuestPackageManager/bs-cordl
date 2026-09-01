@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncLoader.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   static ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep const PreloadStep2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21551 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,7 +113,7 @@ public:
 
   __declspec(property(get = get_synchronizationStep)) ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep synchronizationStep;
 
-  /// @brief Method LoadAsync, addr 0x3304bd0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x33089cc, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   /// @brief Method LoadInternalAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -122,13 +122,13 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::AsyncLoader* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3304bcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x33089c8, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3304b78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3308974, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method TryCancelTaskIfItRunning, addr 0x3304b7c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method TryCancelTaskIfItRunning, addr 0x3308978, size 0x50, virtual false, abstract: false, final false
   inline bool TryCancelTaskIfItRunning();
 
   constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x3304774, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3308570, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_synchronizationStep, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -164,7 +164,7 @@ public:
   AsyncLoader(AsyncLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21552 };
 
   /// @brief Field _initializationTask, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____initializationTask;

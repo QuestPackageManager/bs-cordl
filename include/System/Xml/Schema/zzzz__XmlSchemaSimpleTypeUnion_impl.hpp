@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSimpleTypeUnion.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSimpleTypeUnion.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSimpleTypeContent_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_impl.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_impl.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchemaSimpleTypeUnion::*)()>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeUnion::get_BaseTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x623460c;
+  constexpr static std::size_t addrs = 0x623c088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaSimpleTypeUnion*>(), { "get_BaseTypes", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Xml::XmlQualifiedName*> (::System::Xml::Schema::XmlSchemaSimpleTypeUnion::*)()>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeUnion::get_MemberTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6234614;
+  constexpr static std::size_t addrs = 0x623c090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaSimpleTypeUnion*>(), { "get_MemberTypes", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaSimpleTypeUnion::*)(::ArrayW<::System::Xml::XmlQualifiedName*>)>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeUnion::set_MemberTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x623461c;
+  constexpr static std::size_t addrs = 0x623c098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaSimpleTypeUnion*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> (::System::Xml::Schema::XmlSchemaSimpleTypeUnion::*)()>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeUnion::get_BaseMemberTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6234624;
+  constexpr static std::size_t addrs = 0x623c0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaSimpleTypeUnion*>(), { "get_BaseMemberTypes", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaSimpleTypeUnion::*)(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*>)>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeUnion::SetBaseMemberTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x623462c;
+  constexpr static std::size_t addrs = 0x623c0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaSimpleTypeUnion*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObject* (::System::Xml::Schema::XmlSchemaSimpleTypeUnion::*)()>(
     &::System::Xml::Schema::XmlSchemaSimpleTypeUnion::Clone)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6234634;
+  constexpr static std::size_t addrs = 0x623c0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaSimpleTypeUnion::*)()>(&::System::Xml::Schema::XmlSchemaSimpleTypeUnion::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62347ac;
+  constexpr static std::size_t addrs = 0x623c228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaSimpleTypeUnion*>(), { ".ctor", {}, {} })));

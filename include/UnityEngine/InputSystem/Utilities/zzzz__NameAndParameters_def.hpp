@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/NameAndParameters.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\NameAndParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,10 +55,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters___c* New_ctor();
 
-  /// @brief Method <ToString>b__8_0, addr 0x64fe14c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__8_0, addr 0x6505bc8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(::UnityEngine::InputSystem::Utilities::NamedValue x);
 
-  /// @brief Method .ctor, addr 0x64fe148, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6505bc4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters___c* getStaticF___9();
@@ -84,7 +84,7 @@ public:
   NameAndParameters___c(NameAndParameters___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,34 +105,34 @@ public:
 
   __declspec(property(get = get_parameters, put = set_parameters)) ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> parameters;
 
-  /// @brief Method Parse, addr 0x64fdedc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x6505958, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters Parse(::StringW text);
 
-  /// @brief Method ParseMultiple, addr 0x64fd880, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiple, addr 0x65052fc, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>* ParseMultiple(::StringW text);
 
-  /// @brief Method ParseMultiple, addr 0x64fd93c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiple, addr 0x65053b8, size 0x1c8, virtual false, abstract: false, final false
   static inline bool ParseMultiple(::StringW text, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>*> list);
 
-  /// @brief Method ParseName, addr 0x64fde64, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ParseName, addr 0x65058e0, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW ParseName(::StringW text);
 
-  /// @brief Method ParseNameAndParameters, addr 0x64fdb04, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ParseNameAndParameters, addr 0x6505580, size 0x360, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters ParseNameAndParameters(::StringW text, ::by_ref<int32_t> index, bool nameOnly);
 
-  /// @brief Method ToString, addr 0x64fd664, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x65050e0, size 0x21c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_name, addr 0x64fd640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x65050bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_parameters, addr 0x64fd650, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x65050cc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> get_parameters();
 
-  /// @brief Method set_name, addr 0x64fd648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x65050c4, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_parameters, addr 0x64fd65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameters, addr 0x65050d8, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> value);
 
   // Ctor Parameters []
@@ -145,7 +145,7 @@ public:
                               ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> _parameters_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9176 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

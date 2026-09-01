@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OutputStreamPacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OutputStreamPacket.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__OutputStreamPacket_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OutputStreamPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::OutputStreamPacket::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x369ae5c;
+  constexpr static std::size_t addrs = 0x369ec1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

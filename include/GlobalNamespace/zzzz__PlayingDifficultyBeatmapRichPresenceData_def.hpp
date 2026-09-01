@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayingDifficultyBeatmapRichPresenceData.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayingDifficultyBeatmapRichPresenceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
-  /// @brief Method GetDestinationLocalizedString, addr 0x58fc74c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetDestinationLocalizedString, addr 0x58ffd14, size 0x190, virtual false, abstract: false, final false
   static inline ::StringW GetDestinationLocalizedString(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   static inline ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData* New_ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x58fc8dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ffea4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method get_apiName, addr 0x58fc71c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x58ffce4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription, addr 0x58fc724, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x58ffcec, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
@@ -105,7 +105,7 @@ public:
   PlayingDifficultyBeatmapRichPresenceData(PlayingDifficultyBeatmapRichPresenceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6652 };
 
   /// @brief Field <apiName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____apiName_k__BackingField;

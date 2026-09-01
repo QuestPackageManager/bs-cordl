@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ImageSource.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\ImageSource.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__ImageSource_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::ImageSource::*)()>(&::UnityEngine::UIElements::StyleSheets::ImageSource::IsNull)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6d0ac68;
+  constexpr static std::size_t addrs = 0x6d127ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ImageSource>(), { "IsNull", {}, {} })));

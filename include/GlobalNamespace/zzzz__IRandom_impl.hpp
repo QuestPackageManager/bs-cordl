@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IRandom.hpp"
+// IWYU pragma private; include "GlobalNamespace\IRandom.hpp"
 #include "GlobalNamespace/zzzz__IRandom_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IRandom.Sample
 template <>

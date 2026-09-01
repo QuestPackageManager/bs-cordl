@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameSettingsCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameSettingsCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,10 +80,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32d6500, size 0x96c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32da2fc, size 0x96c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32d6e6c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32dac68, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -102,7 +102,7 @@ public:
                                                     bool _success_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19393 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -153,10 +153,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32d6eec, size 0x310, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32dace8, size 0x310, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32d71fc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32daff8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -173,7 +173,7 @@ public:
                                                          ::GlobalNamespace::GameSettingsCommand* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19394 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -245,21 +245,21 @@ public:
   /// @brief Field fileStorage, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage)) ::GlobalNamespace::IFileStorage* fileStorage;
 
-  /// @brief Method ExecuteAsync, addr 0x32d3064, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x32d6e60, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method GetPropertyString, addr 0x32d3200, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyString, addr 0x32d6ffc, size 0xb0, virtual false, abstract: false, final false
   inline bool GetPropertyString(::StringW propertyName, ::by_ref<::StringW> propertyValue);
 
-  /// @brief Method Initialize, addr 0x32cfcac, size 0x33b8, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x32d3aa8, size 0x33b8, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::GameSettingsCommand* New_ctor();
 
-  /// @brief Method SaveSettingsAsync, addr 0x32d3150, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SaveSettingsAsync, addr 0x32d6f4c, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveSettingsAsync();
 
-  /// @brief Method SetPropertyValue, addr 0x32d32b0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyValue, addr 0x32d70ac, size 0x1a8, virtual false, abstract: false, final false
   inline bool SetPropertyValue(::StringW propertyName, ::StringW propertyValue, ::by_ref<::StringW> log);
 
   /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -268,379 +268,379 @@ public:
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW ToString(::by_ref<T> value);
 
-  /// @brief Method <Initialize>b__12_0, addr 0x32d3618, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_0, addr 0x32d7414, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_0();
 
-  /// @brief Method <Initialize>b__12_1, addr 0x32d3670, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_1, addr 0x32d746c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_1();
 
-  /// @brief Method <Initialize>b__12_10, addr 0x32d3988, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_10, addr 0x32d7784, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_10();
 
-  /// @brief Method <Initialize>b__12_100, addr 0x32d5ad8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_100, addr 0x32d98d4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_100(::StringW value);
 
-  /// @brief Method <Initialize>b__12_101, addr 0x32d5b40, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_101, addr 0x32d993c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_101(::StringW value);
 
-  /// @brief Method <Initialize>b__12_102, addr 0x32d5ba8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_102, addr 0x32d99a4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_102(::StringW value);
 
-  /// @brief Method <Initialize>b__12_103, addr 0x32d5c10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_103, addr 0x32d9a0c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_103(::StringW value);
 
-  /// @brief Method <Initialize>b__12_104, addr 0x32d5c78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_104, addr 0x32d9a74, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_104(::StringW value);
 
-  /// @brief Method <Initialize>b__12_105, addr 0x32d5ce0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_105, addr 0x32d9adc, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_105(::StringW value);
 
-  /// @brief Method <Initialize>b__12_106, addr 0x32d5d48, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_106, addr 0x32d9b44, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_106(::StringW value);
 
-  /// @brief Method <Initialize>b__12_107, addr 0x32d5db0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_107, addr 0x32d9bac, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_107(::StringW value);
 
-  /// @brief Method <Initialize>b__12_108, addr 0x32d5e18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_108, addr 0x32d9c14, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_108(::StringW value);
 
-  /// @brief Method <Initialize>b__12_109, addr 0x32d5e80, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_109, addr 0x32d9c7c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_109(::StringW value);
 
-  /// @brief Method <Initialize>b__12_11, addr 0x32d39e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_11, addr 0x32d77dc, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_11();
 
-  /// @brief Method <Initialize>b__12_110, addr 0x32d5ee8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_110, addr 0x32d9ce4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_110(::StringW value);
 
-  /// @brief Method <Initialize>b__12_111, addr 0x32d5f50, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_111, addr 0x32d9d4c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_111(::StringW value);
 
-  /// @brief Method <Initialize>b__12_112, addr 0x32d5fb8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_112, addr 0x32d9db4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_112(::StringW value);
 
-  /// @brief Method <Initialize>b__12_113, addr 0x32d6020, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_113, addr 0x32d9e1c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_113(::StringW value);
 
-  /// @brief Method <Initialize>b__12_114, addr 0x32d6088, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_114, addr 0x32d9e84, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_114(::StringW value);
 
-  /// @brief Method <Initialize>b__12_115, addr 0x32d60f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_115, addr 0x32d9eec, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_115(::StringW value);
 
-  /// @brief Method <Initialize>b__12_116, addr 0x32d6158, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_116, addr 0x32d9f54, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_116(::StringW value);
 
-  /// @brief Method <Initialize>b__12_117, addr 0x32d61c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_117, addr 0x32d9fbc, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_117(::StringW value);
 
-  /// @brief Method <Initialize>b__12_118, addr 0x32d6228, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_118, addr 0x32da024, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_118(::StringW value);
 
-  /// @brief Method <Initialize>b__12_119, addr 0x32d6290, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_119, addr 0x32da08c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_119(::StringW value);
 
-  /// @brief Method <Initialize>b__12_12, addr 0x32d3a38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_12, addr 0x32d7834, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_12();
 
-  /// @brief Method <Initialize>b__12_120, addr 0x32d62f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_120, addr 0x32da0f4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_120(::StringW value);
 
-  /// @brief Method <Initialize>b__12_121, addr 0x32d6360, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_121, addr 0x32da15c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_121(::StringW value);
 
-  /// @brief Method <Initialize>b__12_122, addr 0x32d63c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_122, addr 0x32da1c4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_122(::StringW value);
 
-  /// @brief Method <Initialize>b__12_123, addr 0x32d6430, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_123, addr 0x32da22c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_123(::StringW value);
 
-  /// @brief Method <Initialize>b__12_124, addr 0x32d6498, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_124, addr 0x32da294, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_124(::StringW value);
 
-  /// @brief Method <Initialize>b__12_13, addr 0x32d3a90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_13, addr 0x32d788c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_13();
 
-  /// @brief Method <Initialize>b__12_14, addr 0x32d3ae8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_14, addr 0x32d78e4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_14();
 
-  /// @brief Method <Initialize>b__12_15, addr 0x32d3b40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_15, addr 0x32d793c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_15();
 
-  /// @brief Method <Initialize>b__12_16, addr 0x32d3b98, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_16, addr 0x32d7994, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_16();
 
-  /// @brief Method <Initialize>b__12_17, addr 0x32d3bf0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_17, addr 0x32d79ec, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_17();
 
-  /// @brief Method <Initialize>b__12_18, addr 0x32d3c48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_18, addr 0x32d7a44, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_18();
 
-  /// @brief Method <Initialize>b__12_19, addr 0x32d3ca0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_19, addr 0x32d7a9c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_19();
 
-  /// @brief Method <Initialize>b__12_2, addr 0x32d36c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_2, addr 0x32d74c4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_2();
 
-  /// @brief Method <Initialize>b__12_20, addr 0x32d3cf8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_20, addr 0x32d7af4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_20();
 
-  /// @brief Method <Initialize>b__12_21, addr 0x32d3d50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_21, addr 0x32d7b4c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_21();
 
-  /// @brief Method <Initialize>b__12_22, addr 0x32d3da8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_22, addr 0x32d7ba4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_22();
 
-  /// @brief Method <Initialize>b__12_23, addr 0x32d3e00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_23, addr 0x32d7bfc, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_23();
 
-  /// @brief Method <Initialize>b__12_24, addr 0x32d3e58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_24, addr 0x32d7c54, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_24();
 
-  /// @brief Method <Initialize>b__12_25, addr 0x32d3eb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_25, addr 0x32d7cac, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_25();
 
-  /// @brief Method <Initialize>b__12_26, addr 0x32d3f08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_26, addr 0x32d7d04, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_26();
 
-  /// @brief Method <Initialize>b__12_27, addr 0x32d3f60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_27, addr 0x32d7d5c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_27();
 
-  /// @brief Method <Initialize>b__12_28, addr 0x32d3fb8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_28, addr 0x32d7db4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_28();
 
-  /// @brief Method <Initialize>b__12_29, addr 0x32d4010, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_29, addr 0x32d7e0c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_29();
 
-  /// @brief Method <Initialize>b__12_3, addr 0x32d3720, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_3, addr 0x32d751c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_3();
 
-  /// @brief Method <Initialize>b__12_30, addr 0x32d4068, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_30, addr 0x32d7e64, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_30();
 
-  /// @brief Method <Initialize>b__12_31, addr 0x32d40c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_31, addr 0x32d7ebc, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_31();
 
-  /// @brief Method <Initialize>b__12_32, addr 0x32d4118, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_32, addr 0x32d7f14, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_32();
 
-  /// @brief Method <Initialize>b__12_33, addr 0x32d4170, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_33, addr 0x32d7f6c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_33();
 
-  /// @brief Method <Initialize>b__12_34, addr 0x32d41c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_34, addr 0x32d7fc4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_34();
 
-  /// @brief Method <Initialize>b__12_35, addr 0x32d4220, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_35, addr 0x32d801c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_35();
 
-  /// @brief Method <Initialize>b__12_36, addr 0x32d4278, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_36, addr 0x32d8074, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_36();
 
-  /// @brief Method <Initialize>b__12_37, addr 0x32d42d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_37, addr 0x32d80cc, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_37();
 
-  /// @brief Method <Initialize>b__12_38, addr 0x32d4328, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_38, addr 0x32d8124, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_38();
 
-  /// @brief Method <Initialize>b__12_39, addr 0x32d4380, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_39, addr 0x32d817c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_39();
 
-  /// @brief Method <Initialize>b__12_4, addr 0x32d3778, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_4, addr 0x32d7574, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_4();
 
-  /// @brief Method <Initialize>b__12_40, addr 0x32d43d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_40, addr 0x32d81d4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_40();
 
-  /// @brief Method <Initialize>b__12_41, addr 0x32d4430, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_41, addr 0x32d822c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_41();
 
-  /// @brief Method <Initialize>b__12_42, addr 0x32d4488, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_42, addr 0x32d8284, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_42();
 
-  /// @brief Method <Initialize>b__12_43, addr 0x32d44e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_43, addr 0x32d82dc, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_43();
 
-  /// @brief Method <Initialize>b__12_44, addr 0x32d4538, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_44, addr 0x32d8334, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_44();
 
-  /// @brief Method <Initialize>b__12_45, addr 0x32d4590, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_45, addr 0x32d838c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_45();
 
-  /// @brief Method <Initialize>b__12_46, addr 0x32d45e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_46, addr 0x32d83e4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_46();
 
-  /// @brief Method <Initialize>b__12_47, addr 0x32d4640, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_47, addr 0x32d843c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_47();
 
-  /// @brief Method <Initialize>b__12_48, addr 0x32d4698, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_48, addr 0x32d8494, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_48();
 
-  /// @brief Method <Initialize>b__12_49, addr 0x32d46f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_49, addr 0x32d84ec, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_49();
 
-  /// @brief Method <Initialize>b__12_5, addr 0x32d37d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_5, addr 0x32d75cc, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_5();
 
-  /// @brief Method <Initialize>b__12_50, addr 0x32d4748, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_50, addr 0x32d8544, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_50();
 
-  /// @brief Method <Initialize>b__12_51, addr 0x32d47a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_51, addr 0x32d859c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_51();
 
-  /// @brief Method <Initialize>b__12_52, addr 0x32d47f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_52, addr 0x32d85f4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_52();
 
-  /// @brief Method <Initialize>b__12_53, addr 0x32d4850, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_53, addr 0x32d864c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_53();
 
-  /// @brief Method <Initialize>b__12_54, addr 0x32d48a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_54, addr 0x32d86a4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_54();
 
-  /// @brief Method <Initialize>b__12_55, addr 0x32d4900, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_55, addr 0x32d86fc, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_55();
 
-  /// @brief Method <Initialize>b__12_56, addr 0x32d4958, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_56, addr 0x32d8754, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_56();
 
-  /// @brief Method <Initialize>b__12_57, addr 0x32d49b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_57, addr 0x32d87ac, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_57();
 
-  /// @brief Method <Initialize>b__12_58, addr 0x32d4a08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_58, addr 0x32d8804, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_58();
 
-  /// @brief Method <Initialize>b__12_59, addr 0x32d4a60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_59, addr 0x32d885c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_59();
 
-  /// @brief Method <Initialize>b__12_6, addr 0x32d3828, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_6, addr 0x32d7624, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_6();
 
-  /// @brief Method <Initialize>b__12_60, addr 0x32d4ab8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_60, addr 0x32d88b4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_60();
 
-  /// @brief Method <Initialize>b__12_61, addr 0x32d4b10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_61, addr 0x32d890c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_61();
 
-  /// @brief Method <Initialize>b__12_62, addr 0x32d4b68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_62, addr 0x32d8964, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_62(::StringW value);
 
-  /// @brief Method <Initialize>b__12_63, addr 0x32d4bd0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_63, addr 0x32d89cc, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_63(::StringW value);
 
-  /// @brief Method <Initialize>b__12_64, addr 0x32d4c38, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_64, addr 0x32d8a34, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_64(::StringW value);
 
-  /// @brief Method <Initialize>b__12_65, addr 0x32d4ca0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_65, addr 0x32d8a9c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_65(::StringW value);
 
-  /// @brief Method <Initialize>b__12_66, addr 0x32d4d08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_66, addr 0x32d8b04, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_66(::StringW value);
 
-  /// @brief Method <Initialize>b__12_67, addr 0x32d4d70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_67, addr 0x32d8b6c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_67(::StringW value);
 
-  /// @brief Method <Initialize>b__12_68, addr 0x32d4dd8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_68, addr 0x32d8bd4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_68(::StringW value);
 
-  /// @brief Method <Initialize>b__12_69, addr 0x32d4e40, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_69, addr 0x32d8c3c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_69(::StringW value);
 
-  /// @brief Method <Initialize>b__12_7, addr 0x32d3880, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_7, addr 0x32d767c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_7();
 
-  /// @brief Method <Initialize>b__12_70, addr 0x32d4ea8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_70, addr 0x32d8ca4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_70(::StringW value);
 
-  /// @brief Method <Initialize>b__12_71, addr 0x32d4f10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_71, addr 0x32d8d0c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_71(::StringW value);
 
-  /// @brief Method <Initialize>b__12_72, addr 0x32d4f78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_72, addr 0x32d8d74, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_72(::StringW value);
 
-  /// @brief Method <Initialize>b__12_73, addr 0x32d4fe0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_73, addr 0x32d8ddc, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_73(::StringW value);
 
-  /// @brief Method <Initialize>b__12_74, addr 0x32d5048, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_74, addr 0x32d8e44, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_74(::StringW value);
 
-  /// @brief Method <Initialize>b__12_75, addr 0x32d50b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_75, addr 0x32d8eac, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_75(::StringW value);
 
-  /// @brief Method <Initialize>b__12_76, addr 0x32d5118, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_76, addr 0x32d8f14, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_76(::StringW value);
 
-  /// @brief Method <Initialize>b__12_77, addr 0x32d5180, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_77, addr 0x32d8f7c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_77(::StringW value);
 
-  /// @brief Method <Initialize>b__12_78, addr 0x32d51e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_78, addr 0x32d8fe4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_78(::StringW value);
 
-  /// @brief Method <Initialize>b__12_79, addr 0x32d5250, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_79, addr 0x32d904c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_79(::StringW value);
 
-  /// @brief Method <Initialize>b__12_8, addr 0x32d38d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_8, addr 0x32d76d4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_8();
 
-  /// @brief Method <Initialize>b__12_80, addr 0x32d52b8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_80, addr 0x32d90b4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_80(::StringW value);
 
-  /// @brief Method <Initialize>b__12_81, addr 0x32d5320, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_81, addr 0x32d911c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_81(::StringW value);
 
-  /// @brief Method <Initialize>b__12_82, addr 0x32d5388, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_82, addr 0x32d9184, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_82(::StringW value);
 
-  /// @brief Method <Initialize>b__12_83, addr 0x32d53f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_83, addr 0x32d91ec, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_83(::StringW value);
 
-  /// @brief Method <Initialize>b__12_84, addr 0x32d5458, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_84, addr 0x32d9254, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_84(::StringW value);
 
-  /// @brief Method <Initialize>b__12_85, addr 0x32d54c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_85, addr 0x32d92bc, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_85(::StringW value);
 
-  /// @brief Method <Initialize>b__12_86, addr 0x32d5528, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_86, addr 0x32d9324, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_86(::StringW value);
 
-  /// @brief Method <Initialize>b__12_87, addr 0x32d5590, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_87, addr 0x32d938c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_87(::StringW value);
 
-  /// @brief Method <Initialize>b__12_88, addr 0x32d55f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_88, addr 0x32d93f4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_88(::StringW value);
 
-  /// @brief Method <Initialize>b__12_89, addr 0x32d5660, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_89, addr 0x32d945c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_89(::StringW value);
 
-  /// @brief Method <Initialize>b__12_9, addr 0x32d3930, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_9, addr 0x32d772c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _Initialize_b__12_9();
 
-  /// @brief Method <Initialize>b__12_90, addr 0x32d56c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_90, addr 0x32d94c4, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_90(::StringW value);
 
-  /// @brief Method <Initialize>b__12_91, addr 0x32d5730, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_91, addr 0x32d952c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_91(::StringW value);
 
-  /// @brief Method <Initialize>b__12_92, addr 0x32d5798, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_92, addr 0x32d9594, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_92(::StringW value);
 
-  /// @brief Method <Initialize>b__12_93, addr 0x32d5800, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_93, addr 0x32d95fc, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_93(::StringW value);
 
-  /// @brief Method <Initialize>b__12_94, addr 0x32d5868, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_94, addr 0x32d9664, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_94(::StringW value);
 
-  /// @brief Method <Initialize>b__12_95, addr 0x32d58d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_95, addr 0x32d96cc, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_95(::StringW value);
 
-  /// @brief Method <Initialize>b__12_96, addr 0x32d5938, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_96, addr 0x32d9734, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_96(::StringW value);
 
-  /// @brief Method <Initialize>b__12_97, addr 0x32d59a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_97, addr 0x32d979c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_97(::StringW value);
 
-  /// @brief Method <Initialize>b__12_98, addr 0x32d5a08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_98, addr 0x32d9804, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_98(::StringW value);
 
-  /// @brief Method <Initialize>b__12_99, addr 0x32d5a70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__12_99, addr 0x32d986c, size 0x68, virtual false, abstract: false, final false
   inline bool _Initialize_b__12_99(::StringW value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Func_1<::StringW>*>* const& __cordl_internal_get_PropertyGetters() const;
@@ -691,13 +691,13 @@ public:
 
   constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
 
-  /// @brief Method .ctor, addr 0x32d3458, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32d7254, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32cfc24, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x32d3a20, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32cfc68, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x32d3a64, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -715,7 +715,7 @@ public:
   GameSettingsCommand(GameSettingsCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19395 };
 
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

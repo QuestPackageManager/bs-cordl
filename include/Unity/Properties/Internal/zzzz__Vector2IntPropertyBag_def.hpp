@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/Internal/Vector2IntPropertyBag.hpp"
+// IWYU pragma private; include "Unity\Properties\Internal\Vector2IntPropertyBag.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,21 +46,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x6bac098, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6bb3c1c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetValue(::by_ref<::UnityEngine::Vector2Int> container);
 
   static inline ::Unity::Properties::Internal::Vector2IntPropertyBag_XProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6bac0a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6bb3c24, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::Vector2Int> container, int32_t value);
 
-  /// @brief Method .ctor, addr 0x6babfd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb3b58, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6bac090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6bb3c14, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6bac04c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6bb3bd0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -78,7 +78,7 @@ public:
   Vector2IntPropertyBag_XProperty(Vector2IntPropertyBag_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -97,21 +97,21 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method GetValue, addr 0x6bac0f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6bb3c78, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetValue(::by_ref<::UnityEngine::Vector2Int> container);
 
   static inline ::Unity::Properties::Internal::Vector2IntPropertyBag_YProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6bac0fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6bb3c80, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::Vector2Int> container, int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bac010, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb3b94, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6bac0ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6bb3c70, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6bac0a8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6bb3c2c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -129,7 +129,7 @@ public:
   Vector2IntPropertyBag_YProperty(Vector2IntPropertyBag_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -150,7 +150,7 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector2IntPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6baad1c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb28a0, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,7 +168,7 @@ public:
   Vector2IntPropertyBag(Vector2IntPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

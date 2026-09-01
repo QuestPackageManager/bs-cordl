@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ScalableImage.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\ScalableImage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE ScalableImage {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x6d0aafc, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6d12680, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

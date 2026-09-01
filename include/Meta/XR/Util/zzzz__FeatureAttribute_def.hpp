@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/Util/FeatureAttribute.hpp"
+// IWYU pragma private; include "Meta\XR\Util\FeatureAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__Feature_k__BackingField(::Meta::XR::Util::Feature value);
 
-  /// @brief Method .ctor, addr 0x5e4c87c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e50d38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::Util::Feature feature);
 
-  /// @brief Method get_Feature, addr 0x5e4c884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Feature, addr 0x5e50d40, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::Util::Feature get_Feature();
 
 protected:
@@ -57,7 +57,7 @@ public:
   FeatureAttribute(FeatureAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8572 };
 
   /// @brief Field <Feature>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Meta::XR::Util::Feature ____Feature_k__BackingField;

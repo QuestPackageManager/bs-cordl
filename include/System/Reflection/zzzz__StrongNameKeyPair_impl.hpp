@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/StrongNameKeyPair.hpp"
+// IWYU pragma private; include "System\Reflection\StrongNameKeyPair.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__StrongNameKeyPair_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::StrongNameKeyPair::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Reflection::StrongNameKeyPair::_ctor)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5b8d590;
+  constexpr static std::size_t addrs = 0x5b91a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::System::Reflection::StrongNameKeyPair::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Reflection::StrongNameKeyPair::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5b8d770;
+  constexpr static std::size_t addrs = 0x5b91c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::StrongNameKeyPair::*)(::System::Object*)>(
     &::System::Reflection::StrongNameKeyPair::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b8d8b4;
+  constexpr static std::size_t addrs = 0x5b91d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

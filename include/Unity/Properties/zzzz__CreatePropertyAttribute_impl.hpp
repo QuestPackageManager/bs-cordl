@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/CreatePropertyAttribute.hpp"
+// IWYU pragma private; include "Unity\Properties\CreatePropertyAttribute.hpp"
 #include "UnityEngine/Scripting/zzzz__RequiredMemberAttribute_impl.hpp"
 #include "Unity/Properties/zzzz__CreatePropertyAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Properties::CreatePropertyAttribute.get_ReadOnly
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::CreatePropertyAttribute::*)()>(&::Unity::Properties::CreatePropertyAttribute::get_ReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b9695c;
+  constexpr static std::size_t addrs = 0x6b9e4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::CreatePropertyAttribute*>(), { "get_ReadOnly", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::CreatePropertyAttribute::*)(bool)>(&::Unity::Properties::CreatePropertyAttribute::set_ReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b96964;
+  constexpr static std::size_t addrs = 0x6b9e4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::CreatePropertyAttribute::*)()>(&::Unity::Properties::CreatePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b9696c;
+  constexpr static std::size_t addrs = 0x6b9e4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::CreatePropertyAttribute*>(), { ".ctor", {}, {} })));

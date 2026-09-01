@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DefaultTlsSrpGroupVerifier.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\DefaultTlsSrpGroupVerifier.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DefaultTlsSrpGroupVerifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x343d380;
+  constexpr static std::size_t addrs = 0x3441140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x343d3e4;
+  constexpr static std::size_t addrs = 0x34411a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::*)(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::Accept)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x343d3ec;
+  constexpr static std::size_t addrs = 0x34411ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier*>(),
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle
                                                                                                                               ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::AreGroupsEqual)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x343d70c;
+  constexpr static std::size_t addrs = 0x34414cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier::AreParametersEqual)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x343d784;
+  constexpr static std::size_t addrs = 0x3441544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier*>(),

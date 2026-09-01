@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/RaycastHit.hpp"
+// IWYU pragma private; include "UnityEngine\RaycastHit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,65 +69,65 @@ public:
 
   __declspec(property(get = get_triangleIndex)) int32_t triangleIndex;
 
-  /// @brief Method CalculateRaycastTexCoord, addr 0x6b90f64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CalculateRaycastTexCoord, addr 0x6b98ae8, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 CalculateRaycastTexCoord(int32_t colliderInstanceID, ::UnityEngine::Vector2 uv, ::UnityEngine::Vector3 pos, uint32_t face, int32_t textcoord);
 
-  /// @brief Method CalculateRaycastTexCoord_Injected, addr 0x6b90fe4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CalculateRaycastTexCoord_Injected, addr 0x6b98b68, size 0x74, virtual false, abstract: false, final false
   static inline void CalculateRaycastTexCoord_Injected(int32_t colliderInstanceID, ::by_ref<::UnityEngine::Vector2> uv, ::by_ref<::UnityEngine::Vector3> pos, uint32_t face, int32_t textcoord,
                                                        ::by_ref<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_articulationBody, addr 0x6b91210, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_articulationBody, addr 0x6b98d94, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ArticulationBody> get_articulationBody();
 
-  /// @brief Method get_barycentricCoordinate, addr 0x6b90f30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_barycentricCoordinate, addr 0x6b98ab4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_barycentricCoordinate();
 
-  /// @brief Method get_collider, addr 0x6b90e44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x6b989c8, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_collider();
 
-  /// @brief Method get_colliderInstanceID, addr 0x6b90ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colliderInstanceID, addr 0x6b98a7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_colliderInstanceID();
 
-  /// @brief Method get_distance, addr 0x6b90f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x6b98ad0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_lightmapCoord, addr 0x6b912ac, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapCoord, addr 0x6b98e30, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_lightmapCoord();
 
-  /// @brief Method get_normal, addr 0x6b90f18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x6b98a9c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_point, addr 0x6b90f00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x6b98a84, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_rigidbody, addr 0x6b91174, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_rigidbody, addr 0x6b98cf8, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_rigidbody();
 
-  /// @brief Method get_textureCoord, addr 0x6b91058, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_textureCoord, addr 0x6b98bdc, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_textureCoord();
 
-  /// @brief Method get_textureCoord1, addr 0x6b913b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_textureCoord1, addr 0x6b98f34, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_textureCoord1();
 
-  /// @brief Method get_textureCoord2, addr 0x6b91078, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_textureCoord2, addr 0x6b98bfc, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_textureCoord2();
 
-  /// @brief Method get_transform, addr 0x6b91098, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x6b98c1c, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
-  /// @brief Method get_triangleIndex, addr 0x6b90f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triangleIndex, addr 0x6b98ae0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_triangleIndex();
 
-  /// @brief Method set_barycentricCoordinate, addr 0x6b90f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_barycentricCoordinate, addr 0x6b98ac8, size 0x8, virtual false, abstract: false, final false
   inline void set_barycentricCoordinate(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_distance, addr 0x6b90f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_distance, addr 0x6b98ad8, size 0x8, virtual false, abstract: false, final false
   inline void set_distance(float_t value);
 
-  /// @brief Method set_normal, addr 0x6b90f24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_normal, addr 0x6b98aa8, size 0xc, virtual false, abstract: false, final false
   inline void set_normal(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_point, addr 0x6b90f0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_point, addr 0x6b98a90, size 0xc, virtual false, abstract: false, final false
   inline void set_point(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -140,7 +140,7 @@ public:
   constexpr RaycastHit(::UnityEngine::Vector3 m_Point, ::UnityEngine::Vector3 m_Normal, uint32_t m_FaceID, float_t m_Distance, ::UnityEngine::Vector2 m_UV, int32_t m_Collider) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18687 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/CIELabColor.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\CIELabColor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__CIELabColor_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__XYZColor_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::CIELabColor::*)(float_t, float_t, float_t)>(&::UnityEngine::ProBuilder::CIELabColor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66b228c;
+  constexpr static std::size_t addrs = 0x66b9d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::CIELabColor*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::CIELabColor* (*)(::UnityEngine::ProBuilder::XYZColor*)>(&::UnityEngine::ProBuilder::CIELabColor::FromXYZ)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x66b2298;
+  constexpr static std::size_t addrs = 0x66b9d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::CIELabColor* (*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::CIELabColor::FromRGB)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x66b2454;
+  constexpr static std::size_t addrs = 0x66b9ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::CIELabColor::*)()>(&::UnityEngine::ProBuilder::CIELabColor::ToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x66b24e4;
+  constexpr static std::size_t addrs = 0x66b9f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

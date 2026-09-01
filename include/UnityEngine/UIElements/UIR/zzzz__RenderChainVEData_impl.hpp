@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/RenderChainVEData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\RenderChainVEData.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ClipMethod_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderDataDirtyTypes_impl.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::RenderChainCommand* (::UnityEngine::UIElements::UIR::RenderChainVEData::*)()>(
     &::UnityEngine::UIElements::UIR::RenderChainVEData::get_lastTailOrHeadCommand)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ce4994;
+  constexpr static std::size_t addrs = 0x6cec518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::UIR::RenderChainVEData::AllocatesID)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ce49ac;
+  constexpr static std::size_t addrs = 0x6cec530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::UIR::RenderChainVEData::InheritsID)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6ce4a2c;
+  constexpr static std::size_t addrs = 0x6cec5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::RenderChainVEData::*)()>(&::UnityEngine::UIElements::UIR::RenderChainVEData::get_isInChain)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ce4a98;
+  constexpr static std::size_t addrs = 0x6cec61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderChainVEData>(), { "get_isInChain", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::RenderChainVEData::*)()>(&::UnityEngine::UIElements::UIR::RenderChainVEData::get_isGroupTransform)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ce4aa4;
+  constexpr static std::size_t addrs = 0x6cec628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderChainVEData>(), { "get_isGroupTransform", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::RenderChainVEData::*)()>(
     &::UnityEngine::UIElements::UIR::RenderChainVEData::get_isIgnoringDynamicColorHint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ce4ab0;
+  constexpr static std::size_t addrs = 0x6cec634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::RenderChainVEData::*)()>(&::UnityEngine::UIElements::UIR::RenderChainVEData::get_hasExtraData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ce4abc;
+  constexpr static std::size_t addrs = 0x6cec640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderChainVEData>(), { "get_hasExtraData", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::RenderChainVEData::*)()>(&::UnityEngine::UIElements::UIR::RenderChainVEData::get_hasExtraMeshes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ce4ac8;
+  constexpr static std::size_t addrs = 0x6cec64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderChainVEData>(), { "get_hasExtraMeshes", {}, {} })));

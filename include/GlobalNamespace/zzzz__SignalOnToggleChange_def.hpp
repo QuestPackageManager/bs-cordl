@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SignalOnToggleChange.hpp"
+// IWYU pragma private; include "GlobalNamespace\SignalOnToggleChange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   static inline ::GlobalNamespace::SignalOnToggleChange* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5859f88, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5859090, size 0x130, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RaiseSignal, addr 0x585a0b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RaiseSignal, addr 0x58591c0, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseSignal(bool newValue);
 
-  /// @brief Method Start, addr 0x5859ea0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5858fa8, size 0xe8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__toggleValueChangeSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x585a0d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58591dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   SignalOnToggleChange(SignalOnToggleChange const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21436 };
 
   /// @brief Field _toggleValueChangeSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____toggleValueChangeSignal;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Composites/AxisComposite.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Composites\AxisComposite.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__AxisComposite_def.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__AxisComposite_def.hpp"
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Composites::AxisComposite::*)()>(&::UnityEngine::InputSystem::Composites::AxisComposite::get_midPoint)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6504094;
+  constexpr static std::size_t addrs = 0x650bb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::AxisComposite*>(), { "get_midPoint", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Composites::AxisComposite::*)(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(
     &::UnityEngine::InputSystem::Composites::AxisComposite::ReadValue)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x65040a8;
+  constexpr static std::size_t addrs = 0x650bb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::AxisComposite*>(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Composites::AxisComposite::*)(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(
     &::UnityEngine::InputSystem::Composites::AxisComposite::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x65041bc;
+  constexpr static std::size_t addrs = 0x650bc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::AxisComposite*>(),
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Composites::AxisComposite::*)()>(&::UnityEngine::InputSystem::Composites::AxisComposite::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6504204;
+  constexpr static std::size_t addrs = 0x650bc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Composites::AxisComposite*>(), { ".ctor", {}, {} })));

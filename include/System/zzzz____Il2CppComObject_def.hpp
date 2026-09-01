@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/__Il2CppComObject.hpp"
+// IWYU pragma private; include "System\__Il2CppComObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,7 @@ namespace System {
 class CORDL_TYPE __Il2CppComObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x6e9f5e4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6ea7168, size 0x30, virtual true, abstract: false, final false
   inline void Finalize();
 
 protected:
@@ -37,7 +37,7 @@ public:
   __Il2CppComObject(__Il2CppComObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23791 };
 
   /// @brief Size padding 0xb0 - 0x10 = 0xa0, packed as 0xa0
   uint8_t _cordl_size_padding[0xa0];

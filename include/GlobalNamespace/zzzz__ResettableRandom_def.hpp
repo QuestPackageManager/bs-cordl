@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ResettableRandom.hpp"
+// IWYU pragma private; include "GlobalNamespace\ResettableRandom.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,15 +48,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x33229f0, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x33267b0, size 0x8c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleDeterminismSet, addr 0x3322948, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleDeterminismSet, addr 0x3326708, size 0x8c, virtual false, abstract: false, final false
   inline void HandleDeterminismSet(bool isDeterministic);
 
   static inline ::GlobalNamespace::ResettableRandom* New_ctor(::GlobalNamespace::DeterminismConfig* determinismConfig, int32_t fixedSeed);
 
-  /// @brief Method Sample, addr 0x33229d4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Sample, addr 0x3326794, size 0x1c, virtual true, abstract: false, final true
   inline double_t Sample();
 
   constexpr ::GlobalNamespace::DeterminismConfig* const& __cordl_internal_get__determinismConfig() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  /// @brief Method .ctor, addr 0x3322894, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3326654, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::DeterminismConfig* determinismConfig, int32_t fixedSeed);
 
   /// @brief Convert to "::GlobalNamespace::IRandom"
@@ -101,7 +101,7 @@ public:
   ResettableRandom(ResettableRandom const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20751 };
 
   /// @brief Field _determinismConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;

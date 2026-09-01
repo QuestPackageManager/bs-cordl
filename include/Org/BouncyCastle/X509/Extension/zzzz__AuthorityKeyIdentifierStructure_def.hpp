@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/Extension/AuthorityKeyIdentifierStructure.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\Extension\AuthorityKeyIdentifierStructure.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ namespace Org::BouncyCastle::X509::Extension {
 class CORDL_TYPE AuthorityKeyIdentifierStructure : public ::Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier {
 public:
   // Declarations
-  /// @brief Method FromCertificate, addr 0x363b1e4, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method FromCertificate, addr 0x363efa4, size 0x404, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method FromKey, addr 0x363b5e8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method FromKey, addr 0x363f3a8, size 0x1a4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
   static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::X509::X509Certificate* certificate);
@@ -43,13 +43,13 @@ public:
 
   static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
-  /// @brief Method .ctor, addr 0x363b78c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363f54c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method .ctor, addr 0x363b120, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363eee0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
 
-  /// @brief Method .ctor, addr 0x363b7b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363f570, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
 protected:

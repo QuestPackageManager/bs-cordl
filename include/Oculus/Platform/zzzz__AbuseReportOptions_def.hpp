@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/AbuseReportOptions.hpp"
+// IWYU pragma private; include "Oculus\Platform\AbuseReportOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,15 +29,15 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x5daf788, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5db3c44, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::AbuseReportOptions* New_ctor();
 
-  /// @brief Method SetPreventPeopleChooser, addr 0x5daf59c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetPreventPeopleChooser, addr 0x5db3a58, size 0x6c, virtual false, abstract: false, final false
   inline void SetPreventPeopleChooser(bool value);
 
-  /// @brief Method SetReportType, addr 0x5daf68c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetReportType, addr 0x5db3b48, size 0x6c, virtual false, abstract: false, final false
   inline void SetReportType(::Oculus::Platform::AbuseReportType value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5daf4dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db3998, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x5daf77c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x5db3c38, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::AbuseReportOptions* options);
 
 protected:
@@ -67,7 +67,7 @@ public:
   AbuseReportOptions(AbuseReportOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17813 };
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;

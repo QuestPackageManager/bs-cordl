@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Processors/ScaleProcessor.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Processors\ScaleProcessor.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_impl.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__ScaleProcessor_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Processors::ScaleProcessor::*)(float_t, ::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::Processors::ScaleProcessor::Process)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65b764c;
+  constexpr static std::size_t addrs = 0x65bf0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::ScaleProcessor*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::ScaleProcessor::*)()>(&::UnityEngine::InputSystem::Processors::ScaleProcessor::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65b7658;
+  constexpr static std::size_t addrs = 0x65bf0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::ScaleProcessor*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Processors::ScaleProcessor::*)()>(&::UnityEngine::InputSystem::Processors::ScaleProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x65b76f0;
+  constexpr static std::size_t addrs = 0x65bf16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::ScaleProcessor*>(), { ".ctor", {}, {} })));

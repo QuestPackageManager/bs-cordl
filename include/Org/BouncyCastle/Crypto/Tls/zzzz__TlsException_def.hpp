@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsException* New_ctor(::StringW message, ::System::Exception* cause);
 
-  /// @brief Method .ctor, addr 0x34819b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3485770, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause);
 
 protected:

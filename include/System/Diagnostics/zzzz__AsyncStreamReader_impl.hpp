@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/AsyncStreamReader.hpp"
+// IWYU pragma private; include "System\Diagnostics\AsyncStreamReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__AsyncStreamReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::AsyncStreamReader::*)()>(&::System::Diagnostics::AsyncStreamReader::Close)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6393d44;
+  constexpr static std::size_t addrs = 0x639b7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::AsyncStreamReader::*)(bool)>(&::System::Diagnostics::AsyncStreamReader::Dispose)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x6393d54;
+  constexpr static std::size_t addrs = 0x639b7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::AsyncStreamReader::*)()>(&::System::Diagnostics::AsyncStreamReader::CancelOperation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63940d8;
+  constexpr static std::size_t addrs = 0x639bb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::AsyncStreamReader*>(), { "CancelOperation", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::AsyncStreamReader::*)()>(&::System::Diagnostics::AsyncStreamReader::WaitUtilEOF)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x63940e4;
+  constexpr static std::size_t addrs = 0x639bb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::AsyncStreamReader*>(), { "WaitUtilEOF", {}, {} })));

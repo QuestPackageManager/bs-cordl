@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/PrimitiveArray.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\PrimitiveArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,13 +66,13 @@ public:
   /// @brief Field uint64A, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_uint64A, put = __cordl_internal_set_uint64A)) ::ArrayW<uint64_t> uint64A;
 
-  /// @brief Method Init, addr 0x5b66ef8, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5b6b3b4, size 0x3b4, virtual false, abstract: false, final false
   inline void Init(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code,
                                                                                                ::System::Array* array);
 
-  /// @brief Method SetValue, addr 0x5b5f4e8, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5b639a4, size 0x414, virtual false, abstract: false, final false
   inline void SetValue(::StringW value, int32_t index);
 
   constexpr ::ArrayW<bool> const& __cordl_internal_get_booleanA() const;
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_uint64A(::ArrayW<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x5b5eb94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b63050, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
 protected:

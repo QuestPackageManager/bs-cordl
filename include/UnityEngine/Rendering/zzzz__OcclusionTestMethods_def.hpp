@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OcclusionTestMethods.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OcclusionTestMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE OcclusionTestMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBatchLayerMask, addr 0x680eb7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetBatchLayerMask, addr 0x68165f8, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t GetBatchLayerMask(::UnityEngine::Rendering::OcclusionTest occlusionTest);
 
 protected:
@@ -41,7 +41,7 @@ public:
   OcclusionTestMethods(OcclusionTestMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17632 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

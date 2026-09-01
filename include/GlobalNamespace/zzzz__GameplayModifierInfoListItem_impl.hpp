@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameplayModifierInfoListItem.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameplayModifierInfoListItem.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierInfoListItem_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierParamsSO_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifierInfoListItem::*)(::GlobalNamespace::GameplayModifierParamsSO*, bool)>(
     &::GlobalNamespace::GameplayModifierInfoListItem::SetModifier)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5a2c600;
+  constexpr static std::size_t addrs = 0x5a30abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifierInfoListItem::*)()>(&::GlobalNamespace::GameplayModifierInfoListItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a2c78c;
+  constexpr static std::size_t addrs = 0x5a30c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierInfoListItem*>(), { ".ctor", {}, {} })));

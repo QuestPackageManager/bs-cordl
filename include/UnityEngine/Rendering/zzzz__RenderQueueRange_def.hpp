@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderQueueRange.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderQueueRange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,38 +39,38 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>*();
 
-  /// @brief Method Equals, addr 0x6b1c9b4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b24538, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b19e04, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b21988, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderQueueRange other);
 
-  /// @brief Method GetHashCode, addr 0x6b19f50, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b21ad4, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline int32_t getStaticF_maximumBound();
 
   static inline int32_t getStaticF_minimumBound();
 
-  /// @brief Method get_all, addr 0x6b19cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x6b21878, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderQueueRange get_all();
 
-  /// @brief Method get_lowerBound, addr 0x6b1c9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowerBound, addr 0x6b24528, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lowerBound();
 
-  /// @brief Method get_opaque, addr 0x6b1c990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opaque, addr 0x6b24514, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderQueueRange get_opaque();
 
-  /// @brief Method get_transparent, addr 0x6b1c998, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_transparent, addr 0x6b2451c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderQueueRange get_transparent();
 
-  /// @brief Method get_upperBound, addr 0x6b1c9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_upperBound, addr 0x6b24530, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_upperBound();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>* i___System__IEquatable_1___UnityEngine__Rendering__RenderQueueRange_();
 
-  /// @brief Method op_Equality, addr 0x6b1ca74, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b245f8, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::RenderQueueRange left, ::UnityEngine::Rendering::RenderQueueRange right);
 
   static inline void setStaticF_maximumBound(int32_t value);
@@ -85,7 +85,7 @@ public:
   constexpr RenderQueueRange(int32_t m_LowerBound, int32_t m_UpperBound) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10822 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

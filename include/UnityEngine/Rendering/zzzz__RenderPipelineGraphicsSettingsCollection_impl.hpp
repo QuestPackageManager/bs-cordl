@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineGraphicsSettingsCollection.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineGraphicsSettingsCollection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineGraphicsSettingsCollection_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* (
     ::UnityEngine::Rendering::RenderPipelineGraphicsSettingsCollection::*)()>(&::UnityEngine::Rendering::RenderPipelineGraphicsSettingsCollection::get_settingsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b03bd8;
+  constexpr static std::size_t addrs = 0x6b0b5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGraphicsSettingsCollection::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGraphicsSettingsCollection::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6b03be0;
+  constexpr static std::size_t addrs = 0x6b0b5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

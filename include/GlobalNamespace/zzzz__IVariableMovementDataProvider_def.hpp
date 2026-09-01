@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IVariableMovementDataProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\IVariableMovementDataProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT

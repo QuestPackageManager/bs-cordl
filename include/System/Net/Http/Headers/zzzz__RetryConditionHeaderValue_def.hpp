@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/RetryConditionHeaderValue.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\RetryConditionHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,23 +52,23 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x60e7a80, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60ef4fc, size 0x1b0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x60e7c30, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60ef6ac, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::RetryConditionHeaderValue* New_ctor(::System::DateTimeOffset date);
 
   static inline ::System::Net::Http::Headers::RetryConditionHeaderValue* New_ctor(::System::TimeSpan delta);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x60e7a7c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x60ef4f8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x60e7eb4, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60ef930, size 0x18c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x60e7ccc, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60ef748, size 0x1e8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::System::Net::Http::Headers::RetryConditionHeaderValue*> parsedValue);
 
   constexpr ::System::Nullable_1<::System::DateTimeOffset> const& __cordl_internal_get__Date_k__BackingField() const;
@@ -83,25 +83,25 @@ public:
 
   constexpr void __cordl_internal_set__Delta_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method .ctor, addr 0x60e78f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ef374, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTimeOffset date);
 
-  /// @brief Method .ctor, addr 0x60e795c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ef3d8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan delta);
 
-  /// @brief Method get_Date, addr 0x60e7a40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x60ef4bc, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
-  /// @brief Method get_Delta, addr 0x60e7a68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Delta, addr 0x60ef4e4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_Delta();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Date, addr 0x60e7a54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_Date, addr 0x60ef4d0, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  /// @brief Method set_Delta, addr 0x60e7a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Delta, addr 0x60ef4f0, size 0x8, virtual false, abstract: false, final false
   inline void set_Delta(::System::Nullable_1<::System::TimeSpan> value);
 
 protected:
@@ -119,7 +119,7 @@ public:
   RetryConditionHeaderValue(RetryConditionHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20341 };
 
   /// @brief Field <Date>k__BackingField, offset: 0x10, size: 0x18, def value: None
   ::System::Nullable_1<::System::DateTimeOffset> ____Date_k__BackingField;

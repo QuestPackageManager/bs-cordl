@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVRSimpleJSON/JSONNumber.hpp"
+// IWYU pragma private; include "OVRSimpleJSON\JSONNumber.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNumber_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONNodeType (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_Tag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e25b28;
+  constexpr static std::size_t addrs = 0x5e29fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 4 }));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_IsNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e25b30;
+  constexpr static std::size_t addrs = 0x5e29fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 12 }));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONNode_Enumerator (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::GetEnumerator)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e25b38;
+  constexpr static std::size_t addrs = 0x5e29ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 32 }));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_Value)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e25b4c;
+  constexpr static std::size_t addrs = 0x5e2a008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 9 }));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(::StringW)>(&::OVRSimpleJSON::JSONNumber::set_Value)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e25bb4;
+  constexpr static std::size_t addrs = 0x5e2a070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 10 }));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_AsDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e25c44;
+  constexpr static std::size_t addrs = 0x5e2a100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 33 }));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(double_t)>(&::OVRSimpleJSON::JSONNumber::set_AsDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e25c4c;
+  constexpr static std::size_t addrs = 0x5e2a108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 34 }));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_AsLong)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e25c54;
+  constexpr static std::size_t addrs = 0x5e2a110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 41 }));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(int64_t)>(&::OVRSimpleJSON::JSONNumber::set_AsLong)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e25c74;
+  constexpr static std::size_t addrs = 0x5e2a130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 42 }));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_AsULong)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e25c80;
+  constexpr static std::size_t addrs = 0x5e2a13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 43 }));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(uint64_t)>(&::OVRSimpleJSON::JSONNumber::set_AsULong)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e25c98;
+  constexpr static std::size_t addrs = 0x5e2a154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 44 }));
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(double_t)>(&::OVRSimpleJSON::JSONNumber::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5e25ca4;
+  constexpr static std::size_t addrs = 0x5e2a160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ".ctor", {}, { ::i2c::type_of<double_t>() } })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(::StringW)>(&::OVRSimpleJSON::JSONNumber::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e25d08;
+  constexpr static std::size_t addrs = 0x5e2a1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::Clone)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e25d78;
+  constexpr static std::size_t addrs = 0x5e2a234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 26 }));
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(::System::Text::StringBuilder*, int32_t, int32_t, ::OVRSimpleJSON::JSONTextMode)>(
     &::OVRSimpleJSON::JSONNumber::WriteToStringBuilder)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5e25de0;
+  constexpr static std::size_t addrs = 0x5e2a29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 31 }));
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*)>(&::OVRSimpleJSON::JSONNumber::IsNumeric)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5e25e78;
+  constexpr static std::size_t addrs = 0x5e2a334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVRSimpleJSON::JSONNumber::*)(::System::Object*)>(&::OVRSimpleJSON::JSONNumber::Equals)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5e25f6c;
+  constexpr static std::size_t addrs = 0x5e2a428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 0 }));
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e260a8;
+  constexpr static std::size_t addrs = 0x5e2a564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 2 }));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::Clear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e260c8;
+  constexpr static std::size_t addrs = 0x5e2a584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), { ::i2c::class_of<::OVRSimpleJSON::JSONNumber*>(), 25 }));

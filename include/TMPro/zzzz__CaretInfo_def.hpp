@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/CaretInfo.hpp"
+// IWYU pragma private; include "TMPro\CaretInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ namespace TMPro {
 struct CORDL_TYPE CaretInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x699f71c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a7198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::TMPro::CaretPosition position);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr CaretInfo(int32_t index, ::TMPro::CaretPosition position) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16022 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

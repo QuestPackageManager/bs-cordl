@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/DebugGizmoType.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\DebugGizmoType.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__DebugGizmoType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Meta::XR::ImmersiveDebugger::DebugGizmoType::DebugGizmoType(int32_t value__) noexcept {

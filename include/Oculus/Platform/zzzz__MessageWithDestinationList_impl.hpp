@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithDestinationList.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithDestinationList.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithDestinationList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithDestinationList::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithDestinationList::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd3158;
+  constexpr static std::size_t addrs = 0x5dd7614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::DestinationList* (::Oculus::Platform::MessageWithDestinationList::*)()>(
     &::Oculus::Platform::MessageWithDestinationList::GetDestinationList)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd6738;
+  constexpr static std::size_t addrs = 0x5ddabf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::DestinationList* (::Oculus::Platform::MessageWithDestinationList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithDestinationList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd677c;
+  constexpr static std::size_t addrs = 0x5ddac38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

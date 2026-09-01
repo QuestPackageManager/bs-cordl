@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapSelectionView.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapSelectionView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapSelectionView::*)(::by_ref<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::BeatmapSelectionView::SetBeatmap)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5967b78;
+  constexpr static std::size_t addrs = 0x596b470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapSelectionView::*)()>(&::GlobalNamespace::BeatmapSelectionView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5967c1c;
+  constexpr static std::size_t addrs = 0x596b514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapSelectionView*>(), { ".ctor", {}, {} })));

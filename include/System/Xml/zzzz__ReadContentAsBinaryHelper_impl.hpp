@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/ReadContentAsBinaryHelper.hpp"
+// IWYU pragma private; include "System\Xml\ReadContentAsBinaryHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__ReadContentAsBinaryHelper_def.hpp"
 #include "System/Xml/zzzz__Base64Decoder_def.hpp"
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReadContentAsBinaryHelper::*)(::System::Xml::XmlReader*)>(&::System::Xml::ReadContentAsBinaryHelper::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x61aabf4;
+  constexpr static std::size_t addrs = 0x61b2670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::ReadContentAsBinaryHelper* (*)(::System::Xml::ReadContentAsBinaryHelper*, ::System::Xml::XmlReader*)>(
     &::System::Xml::ReadContentAsBinaryHelper::CreateOrReset)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x61aac80;
+  constexpr static std::size_t addrs = 0x61b26fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ReadContentAsBinaryHelper::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::ReadContentAsBinaryHelper::ReadContentAsBase64)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x61aad04;
+  constexpr static std::size_t addrs = 0x61b2780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ReadContentAsBinaryHelper::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::ReadContentAsBinaryHelper::ReadContentAsBinHex)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x61ab0ec;
+  constexpr static std::size_t addrs = 0x61b2b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReadContentAsBinaryHelper::*)()>(&::System::Xml::ReadContentAsBinaryHelper::Finish)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x61ab344;
+  constexpr static std::size_t addrs = 0x61b2dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ReadContentAsBinaryHelper*>(), { "Finish", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReadContentAsBinaryHelper::*)()>(&::System::Xml::ReadContentAsBinaryHelper::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61aacf8;
+  constexpr static std::size_t addrs = 0x61b2774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ReadContentAsBinaryHelper*>(), { "Reset", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ReadContentAsBinaryHelper::*)()>(&::System::Xml::ReadContentAsBinaryHelper::Init)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x61aaee8;
+  constexpr static std::size_t addrs = 0x61b2964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ReadContentAsBinaryHelper*>(), { "Init", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReadContentAsBinaryHelper::*)()>(&::System::Xml::ReadContentAsBinaryHelper::InitBase64Decoder)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61ab07c;
+  constexpr static std::size_t addrs = 0x61b2af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ReadContentAsBinaryHelper*>(), { "InitBase64Decoder", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReadContentAsBinaryHelper::*)()>(&::System::Xml::ReadContentAsBinaryHelper::InitBinHexDecoder)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61ab2d4;
+  constexpr static std::size_t addrs = 0x61b2d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ReadContentAsBinaryHelper*>(), { "InitBinHexDecoder", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ReadContentAsBinaryHelper::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::ReadContentAsBinaryHelper::ReadContentAsBinary)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x61aaf14;
+  constexpr static std::size_t addrs = 0x61b2990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ReadContentAsBinaryHelper::*)(bool)>(&::System::Xml::ReadContentAsBinaryHelper::MoveToNextContentNode)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x61ab48c;
+  constexpr static std::size_t addrs = 0x61b2f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

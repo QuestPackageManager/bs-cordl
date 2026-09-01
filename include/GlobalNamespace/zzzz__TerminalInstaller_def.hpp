@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TerminalInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\TerminalInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE TerminalInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x32e7bd0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x32eb9cc, size 0xbc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TerminalInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x32e7c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32eba88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   TerminalInstaller(TerminalInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19428 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

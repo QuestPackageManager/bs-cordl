@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Util/MonoPInvokeCallbackAttribute.hpp"
+// IWYU pragma private; include "Mono\Util\MonoPInvokeCallbackAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Mono/Util/zzzz__MonoPInvokeCallbackAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Util::MonoPInvokeCallbackAttribute::*)(::System::Type*)>(&::Mono::Util::MonoPInvokeCallbackAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc912c;
+  constexpr static std::size_t addrs = 0x5fd0ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

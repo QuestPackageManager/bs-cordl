@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BoolParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BoolParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   static ::UnityEngine::Rendering::BoolParameter_DisplayType const EnumPopup;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12333 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -99,10 +99,10 @@ public:
 
   constexpr void __cordl_internal_set_displayType(::UnityEngine::Rendering::BoolParameter_DisplayType value);
 
-  /// @brief Method .ctor, addr 0x67c4cac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cc728, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(bool value, ::UnityEngine::Rendering::BoolParameter_DisplayType displayType, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x67c4c44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cc6c0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(bool value, bool overrideState);
 
 protected:
@@ -120,7 +120,7 @@ public:
   BoolParameter(BoolParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12334 };
 
   /// @brief Field displayType, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::Rendering::BoolParameter_DisplayType ___displayType;

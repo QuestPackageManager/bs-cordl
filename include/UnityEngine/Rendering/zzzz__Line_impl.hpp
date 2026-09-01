@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Line.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Line.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__Line_def.hpp"
 #include "Unity/Mathematics/zzzz__float3_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Line (*)(::Unity::Mathematics::float4, ::Unity::Mathematics::float4)>(
     &::UnityEngine::Rendering::Line::LineOfPlaneIntersectingPlane)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6807bd0;
+  constexpr static std::size_t addrs = 0x680f64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float4 (*)(::UnityEngine::Rendering::Line, ::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Line::PlaneContainingLineAndPoint)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6807c30;
+  constexpr static std::size_t addrs = 0x680f6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float4 (*)(::UnityEngine::Rendering::Line, ::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::Line::PlaneContainingLineWithNormalPerpendicularToVector)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6807c8c;
+  constexpr static std::size_t addrs = 0x680f708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

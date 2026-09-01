@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ControllerColliderHit.hpp"
+// IWYU pragma private; include "UnityEngine\ControllerColliderHit.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__ControllerColliderHit_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::CharacterController> (::UnityEngine::ControllerColliderHit::*)()>(
     &::UnityEngine::ControllerColliderHit::get_controller)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b74360;
+  constexpr static std::size_t addrs = 0x6b7bee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "get_controller", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Collider> (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_collider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b74368;
+  constexpr static std::size_t addrs = 0x6b7beec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "get_collider", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rigidbody> (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_rigidbody)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b74370;
+  constexpr static std::size_t addrs = 0x6b7bef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "get_rigidbody", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_gameObject)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b744d4;
+  constexpr static std::size_t addrs = 0x6b7c058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "get_gameObject", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_transform)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b744ec;
+  constexpr static std::size_t addrs = 0x6b7c070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "get_transform", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_point)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b74504;
+  constexpr static std::size_t addrs = 0x6b7c088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "get_point", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b74510;
+  constexpr static std::size_t addrs = 0x6b7c094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "get_normal", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_moveDirection)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b7451c;
+  constexpr static std::size_t addrs = 0x6b7c0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "get_moveDirection", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_moveLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b74528;
+  constexpr static std::size_t addrs = 0x6b7c0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "get_moveLength", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::get_push)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b74530;
+  constexpr static std::size_t addrs = 0x6b7c0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "get_push", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ControllerColliderHit::*)(bool)>(&::UnityEngine::ControllerColliderHit::set_push)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b74540;
+  constexpr static std::size_t addrs = 0x6b7c0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { "set_push", {}, { ::i2c::type_of<bool>() } })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ControllerColliderHit::*)()>(&::UnityEngine::ControllerColliderHit::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b74558;
+  constexpr static std::size_t addrs = 0x6b7c0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ControllerColliderHit*>(), { ".ctor", {}, {} })));

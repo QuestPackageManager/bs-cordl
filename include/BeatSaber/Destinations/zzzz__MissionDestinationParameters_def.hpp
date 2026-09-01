@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Destinations/MissionDestinationParameters.hpp"
+// IWYU pragma private; include "BeatSaber\Destinations\MissionDestinationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_objectives(::ArrayW<::BeatSaber::Destinations::SimpleMissionObjective*> value);
 
-  /// @brief Method .ctor, addr 0x327d688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3281418, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatSaber::Destinations::SimpleMissionObjective*> objectives);
 
 protected:
@@ -53,7 +53,7 @@ public:
   MissionDestinationParameters(MissionDestinationParameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23067 };
 
   /// @brief Field objectives, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::BeatSaber::Destinations::SimpleMissionObjective*> ___objectives;

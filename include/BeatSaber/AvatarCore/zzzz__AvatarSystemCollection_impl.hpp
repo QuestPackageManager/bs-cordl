@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarSystemCollection.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarSystemCollection.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_impl.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
@@ -21,30 +21,31 @@
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection___c::*)()>(&::BeatSaber::AvatarCore::AvatarSystemCollection___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3269d68;
+  constexpr static std::size_t addrs = 0x326d96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection___c._get_anyAvatarCreated_b__14_0
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection___c._get_anyAvatarCreated_b__18_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BeatSaber::AvatarCore::AvatarSystemCollection___c::*)(::BeatSaber::AvatarCore::IAvatarSystem*)>(
-    &::BeatSaber::AvatarCore::AvatarSystemCollection___c::_get_anyAvatarCreated_b__14_0)> {
+    &::BeatSaber::AvatarCore::AvatarSystemCollection___c::_get_anyAvatarCreated_b__18_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3269d6c;
+  constexpr static std::size_t addrs = 0x326d970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection___c*>(),
-                                                                                           { "<get_anyAvatarCreated>b__14_0", {}, { ::i2c::type_of<::BeatSaber::AvatarCore::IAvatarSystem*>() } })));
+                                                                                           { "<get_anyAvatarCreated>b__18_0", {}, { ::i2c::type_of<::BeatSaber::AvatarCore::IAvatarSystem*>() } })));
     return ___internal_method;
   }
 };
@@ -55,22 +56,22 @@ inline void BeatSaber::AvatarCore::AvatarSystemCollection___c::setStaticF___9(::
 inline ::BeatSaber::AvatarCore::AvatarSystemCollection___c* BeatSaber::AvatarCore::AvatarSystemCollection___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::BeatSaber::AvatarCore::AvatarSystemCollection___c*, "<>9", ::BeatSaber::AvatarCore::AvatarSystemCollection___c*>();
 }
-inline void BeatSaber::AvatarCore::AvatarSystemCollection___c::setStaticF___9__14_0(::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>*, "<>9__14_0",
+inline void BeatSaber::AvatarCore::AvatarSystemCollection___c::setStaticF___9__18_0(::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>*, "<>9__18_0",
                                     ::BeatSaber::AvatarCore::AvatarSystemCollection___c*>(
       std::forward<::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>*>(value));
 }
-inline ::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>* BeatSaber::AvatarCore::AvatarSystemCollection___c::getStaticF___9__14_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>*, "<>9__14_0",
+inline ::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>* BeatSaber::AvatarCore::AvatarSystemCollection___c::getStaticF___9__18_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>*, "<>9__18_0",
                                            ::BeatSaber::AvatarCore::AvatarSystemCollection___c*>();
 }
 inline void BeatSaber::AvatarCore::AvatarSystemCollection___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task_1<bool>* BeatSaber::AvatarCore::AvatarSystemCollection___c::_get_anyAvatarCreated_b__14_0(::BeatSaber::AvatarCore::IAvatarSystem* avatarSystem) {
+inline ::System::Threading::Tasks::Task_1<bool>* BeatSaber::AvatarCore::AvatarSystemCollection___c::_get_anyAvatarCreated_b__18_0(::BeatSaber::AvatarCore::IAvatarSystem* avatarSystem) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection___c*>(),
-                                                                                         { "<get_anyAvatarCreated>b__14_0", {}, { ::i2c::type_of<::BeatSaber::AvatarCore::IAvatarSystem*>() } })));
+                                                                                         { "<get_anyAvatarCreated>b__18_0", {}, { ::i2c::type_of<::BeatSaber::AvatarCore::IAvatarSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*>(this, ___internal_method, avatarSystem);
 }
 inline ::BeatSaber::AvatarCore::AvatarSystemCollection___c* BeatSaber::AvatarCore::AvatarSystemCollection___c::New_ctor() {
@@ -78,65 +79,65 @@ inline ::BeatSaber::AvatarCore::AvatarSystemCollection___c* BeatSaber::AvatarCor
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection___c::AvatarSystemCollection___c() {}
-//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18.MoveNext
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18::*)()>(
-    &::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22::*)()>(
+    &::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x3269e10;
+  constexpr static std::size_t addrs = 0x326da14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18>(), { "MoveNext", {}, {} })));
+        (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18::*)(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18::SetStateMachine)> {
+    &::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x326a244;
+  constexpr static std::size_t addrs = 0x326de48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18>(),
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22>(),
                                                 { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18::MoveNext() {
+inline void BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18>(), { "MoveNext", {}, {} })));
+      (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18::SetStateMachine(
+inline void BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22::SetStateMachine(
     ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BeatSaber::AvatarCore::AvatarSystemCollection*",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty: "::System::Collections::Generic::List_1_Enumerator<::BeatSaber::AvatarCore::IAvatarSystem*>", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18::
-    AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18(
+constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22::
+    AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22(
         int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BeatSaber::AvatarCore::AvatarSystemCollection* __4__this,
         ::System::Collections::Generic::List_1_Enumerator<::BeatSaber::AvatarCore::IAvatarSystem*> __7__wrap1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -146,60 +147,60 @@ constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsF
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18::
-    AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18() {}
-//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16.MoveNext
+constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22::
+    AvatarSystemCollection__CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__22() {}
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16::*)()>(
-    &::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20::*)()>(
+    &::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x8fc;
-  constexpr static std::size_t addrs = 0x326a2b0;
+  constexpr static std::size_t addrs = 0x326deb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x326abac;
+  constexpr static std::size_t addrs = 0x326e7b0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16::MoveNext() {
+inline void BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16>(),
+inline void BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerAvatarsData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
 // "::BeatSaber::AvatarCore::AvatarSystemCollection*", modifiers: "", def_value: Some("{}") }, CppParam { name: "selectedAvatarTypeIdentifier", ty: "::StringW", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::MultiplayerAvatarData>>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16(
+constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerAvatarsData> __t__builder,
     ::BeatSaber::AvatarCore::AvatarSystemCollection* __4__this, ::StringW selectedAvatarTypeIdentifier,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::MultiplayerAvatarData>> __u__1) noexcept {
@@ -210,14 +211,42 @@ constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatars
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16::AvatarSystemCollection__GetMultiplayerAvatarsData_d__16() {}
+constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20::AvatarSystemCollection__GetMultiplayerAvatarsData_d__20() {}
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection.add_avatarDidChangeEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection::*)(::System::Action*)>(
+    &::BeatSaber::AvatarCore::AvatarSystemCollection::add_avatarDidChangeEvent)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x326c698;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(), { "add_avatarDidChangeEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection.remove_avatarDidChangeEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection::*)(::System::Action*)>(
+    &::BeatSaber::AvatarCore::AvatarSystemCollection::remove_avatarDidChangeEvent)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x326c744;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(), { "remove_avatarDidChangeEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection.get_selectableAvatarSystems
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* (
     ::BeatSaber::AvatarCore::AvatarSystemCollection::*)()>(&::BeatSaber::AvatarCore::AvatarSystemCollection::get_selectableAvatarSystems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3268cc0;
+  constexpr static std::size_t addrs = 0x326c7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* (
     ::BeatSaber::AvatarCore::AvatarSystemCollection::*)()>(&::BeatSaber::AvatarCore::AvatarSystemCollection::get_availableAvatarSystems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3268cc8;
+  constexpr static std::size_t addrs = 0x326c7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* (::BeatSaber::AvatarCore::AvatarSystemCollection::*)()>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::get_supportedOptionalAvatarDataType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3268cd0;
+  constexpr static std::size_t addrs = 0x326c800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,8 +287,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection::*)(::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>*)>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::_ctor)> {
-  constexpr static std::size_t size = 0xa88;
-  constexpr static std::size_t addrs = 0x3268cd8;
+  constexpr static std::size_t size = 0xb40;
+  constexpr static std::size_t addrs = 0x326c808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::BeatSaber::AvatarCore::IAvatarSystem*, ::BeatSaber::AvatarCore::IAvatarSystem*)>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::AvatarSystemBySelectionSortOrder)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3269760;
+  constexpr static std::size_t addrs = 0x326d348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,13 +313,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::BeatSaber::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection.HandleAvatarDidChange
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemCollection::*)()>(&::BeatSaber::AvatarCore::AvatarSystemCollection::HandleAvatarDidChange)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x326d46c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(), { "HandleAvatarDidChange", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystemCollection.get_anyAvatarCreated
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BeatSaber::AvatarCore::AvatarSystemCollection::*)()>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::get_anyAvatarCreated)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3269884;
+  constexpr static std::size_t addrs = 0x326d488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(), { "get_anyAvatarCreated", {}, {} })));
@@ -302,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::AvatarCore::AvatarSystemCollection::*)(uint32_t)>(&::BeatSaber::AvatarCore::AvatarSystemCollection::HasAvatarSystem)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3267318;
+  constexpr static std::size_t addrs = 0x326ab7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarsData>* (::BeatSaber::AvatarCore::AvatarSystemCollection::*)(::StringW)>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::GetMultiplayerAvatarsData)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x32699b0;
+  constexpr static std::size_t addrs = 0x326d5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* (::BeatSaber::AvatarCore::AvatarSystemCollection::*)(::StringW)>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::GetMultiplayerAvatarOptionalDataProvider)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3269aa0;
+  constexpr static std::size_t addrs = 0x326d6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::AvatarCore::AvatarSystemCollection::*)()>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3269b9c;
+  constexpr static std::size_t addrs = 0x326d7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::AvatarCore::IAvatarSystem* (::BeatSaber::AvatarCore::AvatarSystemCollection::*)(::BeatSaber::AvatarCore::IAvatarSystemMetadata*)>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::GetAvatarSystem)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3269c50;
+  constexpr static std::size_t addrs = 0x326d854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(),
@@ -373,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::AvatarCore::IAvatarSystem* (::BeatSaber::AvatarCore::AvatarSystemCollection::*)(::BeatSaber::AvatarCore::AvatarSystemIdentifier)>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::GetAvatarSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3269d04;
+  constexpr static std::size_t addrs = 0x326d908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(),
@@ -387,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::AvatarCore::IAvatarSystem* (::BeatSaber::AvatarCore::AvatarSystemCollection::*)(::StringW)>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::GetAvatarSystem)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3269b6c;
+  constexpr static std::size_t addrs = 0x326d770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -401,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::AvatarCore::IAvatarSystem* (::BeatSaber::AvatarCore::AvatarSystemCollection::*)(uint32_t)>(
     &::BeatSaber::AvatarCore::AvatarSystemCollection::GetAvatarSystem)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3267394;
+  constexpr static std::size_t addrs = 0x326abf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -409,6 +450,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::AvatarCore::
     return ___internal_method;
   }
 };
+constexpr ::System::Action*& BeatSaber::AvatarCore::AvatarSystemCollection::__cordl_internal_get_avatarDidChangeEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___avatarDidChangeEvent;
+}
+constexpr ::System::Action* const& BeatSaber::AvatarCore::AvatarSystemCollection::__cordl_internal_get_avatarDidChangeEvent() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___avatarDidChangeEvent;
+}
+constexpr void BeatSaber::AvatarCore::AvatarSystemCollection::__cordl_internal_set_avatarDidChangeEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___avatarDidChangeEvent = value;
+}
 constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::IAvatarSystem*>*&
 BeatSaber::AvatarCore::AvatarSystemCollection::__cordl_internal_get__availableAvatarSystems() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -477,6 +530,16 @@ BeatSaber::AvatarCore::AvatarSystemCollection::__cordl_internal_set__availableAv
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____availableAvatarSystemList = value;
 }
+inline void BeatSaber::AvatarCore::AvatarSystemCollection::add_avatarDidChangeEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(), { "add_avatarDidChangeEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void BeatSaber::AvatarCore::AvatarSystemCollection::remove_avatarDidChangeEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(), { "remove_avatarDidChangeEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 inline ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* BeatSaber::AvatarCore::AvatarSystemCollection::get_selectableAvatarSystems() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(), { "get_selectableAvatarSystems", {}, {} })));
@@ -504,6 +567,10 @@ inline int32_t BeatSaber::AvatarCore::AvatarSystemCollection::AvatarSystemBySele
       (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(),
                           { "AvatarSystemBySelectionSortOrder", {}, { ::i2c::type_of<::BeatSaber::AvatarCore::IAvatarSystem*>(), ::i2c::type_of<::BeatSaber::AvatarCore::IAvatarSystem*>() } })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(nullptr, ___internal_method, system1, system2);
+}
+inline void BeatSaber::AvatarCore::AvatarSystemCollection::HandleAvatarDidChange() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(), { "HandleAvatarDidChange", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task_1<bool>* BeatSaber::AvatarCore::AvatarSystemCollection::get_anyAvatarCreated() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystemCollection*>(), { "get_anyAvatarCreated", {}, {} })));

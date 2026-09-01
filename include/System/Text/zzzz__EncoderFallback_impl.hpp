@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/EncoderFallback.hpp"
+// IWYU pragma private; include "System\Text\EncoderFallback.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__EncoderFallback_def.hpp"
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::EncoderFallback* (*)()>(&::System::Text::EncoderFallback::get_ReplacementFallback)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ace7a0;
+  constexpr static std::size_t addrs = 0x5ad2c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::EncoderFallback*>(), { "get_ReplacementFallback", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::EncoderFallback* (*)()>(&::System::Text::EncoderFallback::get_ExceptionFallback)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5acfdf4;
+  constexpr static std::size_t addrs = 0x5ad42b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::EncoderFallback*>(), { "get_ExceptionFallback", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::EncoderFallback::*)()>(&::System::Text::EncoderFallback::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5acf1ac;
+  constexpr static std::size_t addrs = 0x5ad3668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::EncoderFallback*>(), { ".ctor", {}, {} })));

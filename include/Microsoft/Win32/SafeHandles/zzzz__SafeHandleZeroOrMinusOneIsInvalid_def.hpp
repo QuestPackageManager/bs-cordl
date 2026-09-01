@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.hpp"
+// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafeHandleZeroOrMinusOneIsInvalid.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ public:
 
   static inline ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid* New_ctor(bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x5ac2fd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac7490, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool ownsHandle);
 
-  /// @brief Method get_IsInvalid, addr 0x5ac30b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x5ac756c, size 0x14, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
 protected:

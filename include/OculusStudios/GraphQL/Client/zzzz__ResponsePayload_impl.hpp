@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/ResponsePayload.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\ResponsePayload.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__ResponsePayload_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JRaw_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::Client::GraphQLError* (::OculusStudios::GraphQL::Client::ResponsePayload::*)()>(
     &::OculusStudios::GraphQL::Client::ResponsePayload::get_error)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1ea00;
+  constexpr static std::size_t addrs = 0x5f22ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::ResponsePayload*>(), { "get_error", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::ResponsePayload::*)(::OculusStudios::GraphQL::Client::GraphQLError*)>(
     &::OculusStudios::GraphQL::Client::ResponsePayload::set_error)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1ea08;
+  constexpr static std::size_t addrs = 0x5f22ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::ResponsePayload*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::GraphQLError*>* (
     ::OculusStudios::GraphQL::Client::ResponsePayload::*)()>(&::OculusStudios::GraphQL::Client::ResponsePayload::get_errors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1ea10;
+  constexpr static std::size_t addrs = 0x5f22ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::ResponsePayload*>(), { "get_errors", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::ResponsePayload::*)(
     ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::GraphQLError*>*)>(&::OculusStudios::GraphQL::Client::ResponsePayload::set_errors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1ea18;
+  constexpr static std::size_t addrs = 0x5f22ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JRaw* (::OculusStudios::GraphQL::Client::ResponsePayload::*)()>(
     &::OculusStudios::GraphQL::Client::ResponsePayload::get_data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1ea20;
+  constexpr static std::size_t addrs = 0x5f22ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::ResponsePayload*>(), { "get_data", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::ResponsePayload::*)(::Newtonsoft::Json::Linq::JRaw*)>(
     &::OculusStudios::GraphQL::Client::ResponsePayload::set_data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1ea28;
+  constexpr static std::size_t addrs = 0x5f22ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::ResponsePayload::*)()>(&::OculusStudios::GraphQL::Client::ResponsePayload::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f1ea30;
+  constexpr static std::size_t addrs = 0x5f22ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::ResponsePayload*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/LinearColor.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\LinearColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,28 +29,28 @@ public:
 
   __declspec(property(get = get_red, put = set_red)) float_t red;
 
-  /// @brief Method Black, addr 0x6b275f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Black, addr 0x6b2f178, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
 
-  /// @brief Method Convert, addr 0x6b272bc, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x6b2ee40, size 0x338, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method get_blue, addr 0x6b27208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blue, addr 0x6b2ed8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_blue();
 
-  /// @brief Method get_green, addr 0x6b27154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_green, addr 0x6b2ecd8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_green();
 
-  /// @brief Method get_red, addr 0x6b270a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_red, addr 0x6b2ec24, size 0x8, virtual false, abstract: false, final false
   inline float_t get_red();
 
-  /// @brief Method set_blue, addr 0x6b27210, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_blue, addr 0x6b2ed94, size 0xac, virtual false, abstract: false, final false
   inline void set_blue(float_t value);
 
-  /// @brief Method set_green, addr 0x6b2715c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_green, addr 0x6b2ece0, size 0xac, virtual false, abstract: false, final false
   inline void set_green(float_t value);
 
-  /// @brief Method set_red, addr 0x6b270a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_red, addr 0x6b2ec2c, size 0xac, virtual false, abstract: false, final false
   inline void set_red(float_t value);
 
   // Ctor Parameters []
@@ -62,7 +62,7 @@ public:
   constexpr LinearColor(float_t m_red, float_t m_green, float_t m_blue, float_t m_intensity) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10902 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

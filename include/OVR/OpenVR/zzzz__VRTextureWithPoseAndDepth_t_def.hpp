@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/VRTextureWithPoseAndDepth_t.hpp"
+// IWYU pragma private; include "OVR\OpenVR\VRTextureWithPoseAndDepth_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
   constexpr VRTextureWithPoseAndDepth_t(::OVR::OpenVR::VRTextureDepthInfo_t depth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8481 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

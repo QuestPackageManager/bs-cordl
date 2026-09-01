@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Haptics/KnucklesHapticImpulseTransmitter.hpp"
+// IWYU pragma private; include "BeatSaber\Haptics\KnucklesHapticImpulseTransmitter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,21 +86,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3295670, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x329946c, size 0x134, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::BeatSaber::Haptics::KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32957a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32995a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32957ac, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32995a8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32957e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32995e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x329566c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3299468, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__waiter_5__3(::UnityEngine::WaitForSecondsRealtime* value);
 
-  /// @brief Method .ctor, addr 0x32955dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32993d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -160,7 +160,7 @@ public:
   KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9(KnucklesHapticImpulseTransmitter__HapticsCoroutine_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23197 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -223,18 +223,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x32955e4, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x32993e0, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HapticsCoroutine, addr 0x329554c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HapticsCoroutine, addr 0x3299348, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HapticsCoroutine();
 
   static inline ::BeatSaber::Haptics::KnucklesHapticImpulseTransmitter* New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method StopHaptics, addr 0x32955c4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method StopHaptics, addr 0x32993c0, size 0x18, virtual true, abstract: false, final true
   inline void StopHaptics();
 
-  /// @brief Method TriggerHapticPulse, addr 0x32955a0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method TriggerHapticPulse, addr 0x329939c, size 0x24, virtual true, abstract: false, final true
   inline void TriggerHapticPulse(float_t strength, float_t duration);
 
   constexpr float_t const& __cordl_internal_get__amplitude() const;
@@ -267,7 +267,7 @@ public:
 
   constexpr void __cordl_internal_set__remainingTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x3295504, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3299300, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
   /// @brief Convert to "::BeatSaber::Haptics::IHapticImpulseTransmitter"
@@ -291,7 +291,7 @@ public:
   KnucklesHapticImpulseTransmitter(KnucklesHapticImpulseTransmitter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23198 };
 
   /// @brief Field kRate offset 0xffffffff size 0x4
   static constexpr float_t kRate{ static_cast<float_t>(0.0125f) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Activation/RemoteActivator.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Activation\RemoteActivator.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__RemoteActivator_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoti
     ::System::Runtime::Remoting::Activation::RemoteActivator::*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
     &::System::Runtime::Remoting::Activation::RemoteActivator::Activate)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x5b3990c;
+  constexpr static std::size_t addrs = 0x5b3ddc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (::System::Runtime::Remoting::Activation::RemoteActivator::*)()>(
     &::System::Runtime::Remoting::Activation::RemoteActivator::get_NextActivator)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b39d50;
+  constexpr static std::size_t addrs = 0x5b3e20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

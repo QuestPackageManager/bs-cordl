@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/InputControl_1.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\InputControl_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -179,7 +179,7 @@ public:
   InputControl_1(InputControl_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8698 };
 
   /// @brief Field m_ProcessorStack, offset: 0xe0, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> ___m_ProcessorStack;

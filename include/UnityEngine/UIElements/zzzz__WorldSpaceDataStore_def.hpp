@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/WorldSpaceDataStore.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\WorldSpaceDataStore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
   __declspec(property(get = getStaticF_m_WorldSpaceData,
                       put = setStaticF_m_WorldSpaceData)) ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::UIElements::WorldSpaceData>* m_WorldSpaceData;
 
-  /// @brief Method GetWorldSpaceData, addr 0x6cc9ce8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetWorldSpaceData, addr 0x6cd186c, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WorldSpaceData GetWorldSpaceData(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method SetWorldSpaceData, addr 0x6cc9c20, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetWorldSpaceData, addr 0x6cd17a4, size 0xc8, virtual false, abstract: false, final false
   static inline void SetWorldSpaceData(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::WorldSpaceData data);
 
   static inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::UIElements::WorldSpaceData>* getStaticF_m_WorldSpaceData();

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BatchCullingOutput.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BatchCullingOutput.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingOutputDrawCommands_impl.hpp"

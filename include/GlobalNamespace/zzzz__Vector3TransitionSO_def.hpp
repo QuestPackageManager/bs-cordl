@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Vector3TransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\Vector3TransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,25 +91,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x643f0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6446b74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x643f0d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x6446b50, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x643f0bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x6446b38, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x643f0b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x6446b2c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x643f0c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x6446b44, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x643f0ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x6446b68, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x643f0e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x6446b5c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedState();
 
 protected:
@@ -127,7 +127,7 @@ public:
   Vector3TransitionSO(Vector3TransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22386 };
 
   /// @brief Field _normalState, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____normalState;

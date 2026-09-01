@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Rotate.hpp"
+// IWYU pragma private; include "GlobalNamespace\Rotate.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__Rotate_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Rotate::*)()>(&::GlobalNamespace::Rotate::Awake)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5858ab0;
+  constexpr static std::size_t addrs = 0x5857bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Rotate*>(), { "Awake", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Rotate::*)()>(&::GlobalNamespace::Rotate::OnBecameVisible)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5858b80;
+  constexpr static std::size_t addrs = 0x5857c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Rotate*>(), { "OnBecameVisible", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Rotate::*)()>(&::GlobalNamespace::Rotate::OnBecameInvisible)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5858c68;
+  constexpr static std::size_t addrs = 0x5857d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Rotate*>(), { "OnBecameInvisible", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Rotate::*)()>(&::GlobalNamespace::Rotate::Update)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5858c74;
+  constexpr static std::size_t addrs = 0x5857d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Rotate*>(), { "Update", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Rotate::*)()>(&::GlobalNamespace::Rotate::Randomize)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5858ba0;
+  constexpr static std::size_t addrs = 0x5857ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Rotate*>(), { "Randomize", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Rotate::*)()>(&::GlobalNamespace::Rotate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5858d6c;
+  constexpr static std::size_t addrs = 0x5857e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Rotate*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/ImuSample_t.hpp"
+// IWYU pragma private; include "OVR\OpenVR\ImuSample_t.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector3d_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__ImuSample_t_def.hpp"
 // Ctor Parameters [CppParam { name: "fSampleTime", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vAccel", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value:

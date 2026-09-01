@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PublicServerInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace\PublicServerInfo.hpp"
 #include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PublicServerInfo::*)(::StringW, int32_t)>(&::GlobalNamespace::PublicServerInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32b6210;
+  constexpr static std::size_t addrs = 0x32ba00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PublicServerInfo::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::PublicServerInfo::Serialize)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b621c;
+  constexpr static std::size_t addrs = 0x32ba018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PublicServerInfo (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::PublicServerInfo::Deserialize)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6270;
+  constexpr static std::size_t addrs = 0x32ba06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

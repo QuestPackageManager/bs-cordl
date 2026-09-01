@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Smime/SmimeCapabilitiesAttribute.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Smime\SmimeCapabilitiesAttribute.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Smime/zzzz__SmimeCapabilitiesAttribute_def.hpp"
 #include "Org/BouncyCastle/Asn1/Smime/zzzz__SmimeCapabilityVector_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::*)(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector*)>(
     &::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x354810c;
+  constexpr static std::size_t addrs = 0x354becc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute*>(),

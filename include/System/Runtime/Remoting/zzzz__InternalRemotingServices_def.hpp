@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/InternalRemotingServices.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\InternalRemotingServices.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   /// @brief Field _soapAttributes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__soapAttributes, put = setStaticF__soapAttributes)) ::System::Collections::Hashtable* _soapAttributes;
 
-  /// @brief Method GetCachedSoapAttribute, addr 0x5b1cf3c, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSoapAttribute, addr 0x5b213f8, size 0x4fc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* GetCachedSoapAttribute(::System::Object* reflectionObject);
 
   static inline ::System::Collections::Hashtable* getStaticF__soapAttributes();

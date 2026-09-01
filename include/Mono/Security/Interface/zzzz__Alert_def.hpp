@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Interface/Alert.hpp"
+// IWYU pragma private; include "Mono\Security\Interface\Alert.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   static inline ::Mono::Security::Interface::Alert* New_ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method ToString, addr 0x5a99978, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5a9de34, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Mono::Security::Interface::AlertDescription const& __cordl_internal_get_description() const;
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_level(::Mono::Security::Interface::AlertLevel value);
 
-  /// @brief Method .ctor, addr 0x5a998e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9dda0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method get_Description, addr 0x5a998dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x5a9dd98, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertDescription get_Description();
 
-  /// @brief Method get_Level, addr 0x5a998d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x5a9dd90, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertLevel get_Level();
 
-  /// @brief Method inferAlertLevel, addr 0x5a99934, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method inferAlertLevel, addr 0x5a9ddf0, size 0x44, virtual false, abstract: false, final false
   inline void inferAlertLevel();
 
 protected:
@@ -82,7 +82,7 @@ public:
   Alert(Alert const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19311 };
 
   /// @brief Field level, offset: 0x10, size: 0x1, def value: None
   ::Mono::Security::Interface::AlertLevel ___level;

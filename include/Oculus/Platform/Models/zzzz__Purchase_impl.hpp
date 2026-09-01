@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/Purchase.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\Purchase.hpp"
 #include "Oculus/Platform/zzzz__ProductType_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::Purchase::*)(::System::IntPtr)>(&::Oculus::Platform::Models::Purchase::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5dedba8;
+  constexpr static std::size_t addrs = 0x5df2064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/IndexedCollectionPropertyBag_2.hpp"
+// IWYU pragma private; include "Unity\Properties\IndexedCollectionPropertyBag_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -154,7 +154,7 @@ public:
   IndexedCollectionPropertyBag_2_ListElementProperty(IndexedCollectionPropertyBag_2_ListElementProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19655 };
 
   /// @brief Field m_Index, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_Index;
@@ -311,7 +311,7 @@ public:
   IndexedCollectionPropertyBag_2(IndexedCollectionPropertyBag_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19656 };
 
   /// @brief Field m_Property, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::IndexedCollectionPropertyBag_2_ListElementProperty<TList, TElement>* ___m_Property;

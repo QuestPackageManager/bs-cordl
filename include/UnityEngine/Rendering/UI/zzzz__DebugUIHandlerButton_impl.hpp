@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerButton.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerButton.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerButton_def.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerButton::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerButton::SetWidget)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x67f762c;
+  constexpr static std::size_t addrs = 0x67ff0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerButton::*)(bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerButton::OnSelection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67f76b4;
+  constexpr static std::size_t addrs = 0x67ff130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerButton::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerButton::OnDeselection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67f76ec;
+  constexpr static std::size_t addrs = 0x67ff168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerButton::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerButton::OnAction)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67f7718;
+  constexpr static std::size_t addrs = 0x67ff194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerButton::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerButton::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67f7744;
+  constexpr static std::size_t addrs = 0x67ff1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerButton*>(), { ".ctor", {}, {} })));

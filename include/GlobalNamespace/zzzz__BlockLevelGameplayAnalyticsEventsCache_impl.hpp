@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BlockLevelGameplayAnalyticsEventsCache.hpp"
+// IWYU pragma private; include "GlobalNamespace\BlockLevelGameplayAnalyticsEventsCache.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BlockLevelGameplayAnalyticsEventsCache_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData::*)(
     float_t, float_t, uint8_t, uint8_t, ::System::Nullable_1<uint8_t>, ::System::Nullable_1<uint8_t>)>(&::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59e9604;
+  constexpr static std::size_t addrs = 0x59f16d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData::*)(::Newtonsoft::Json::JsonWriter*)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData::WriteFieldsToJson)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x59ea834;
+  constexpr static std::size_t addrs = 0x59f2908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData::*)(
     float_t, uint8_t, uint8_t, uint8_t, ::System::Nullable_1<uint8_t>, ::System::Nullable_1<uint8_t>)>(&::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59e97cc;
+  constexpr static std::size_t addrs = 0x59f18a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData::*)(::Newtonsoft::Json::JsonWriter*)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData::WriteFieldsToJson)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x59ea794;
+  constexpr static std::size_t addrs = 0x59f2868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData>(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData::*)(
     float_t, uint8_t, uint8_t, ::System::Nullable_1<uint8_t>, ::System::Nullable_1<uint8_t>)>(&::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59e9970;
+  constexpr static std::size_t addrs = 0x59f1a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData>(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData::*)(::Newtonsoft::Json::JsonWriter*)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData::WriteFieldsToJson)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59ea624;
+  constexpr static std::size_t addrs = 0x59f26f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData>(),
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData::*)(float_t)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59eab00;
+  constexpr static std::size_t addrs = 0x59f2bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData::*)(::Newtonsoft::Json::JsonWriter*)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData::WriteFieldsToJson)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x59ea644;
+  constexpr static std::size_t addrs = 0x59f2718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData>(),
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData::*)(float_t, float_t)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e9af8;
+  constexpr static std::size_t addrs = 0x59f1bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData>(),
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData::*)(::Newtonsoft::Json::JsonWriter*)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData::WriteFieldsToJson)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x59ea6c8;
+  constexpr static std::size_t addrs = 0x59f279c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData>(),
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::*)(int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::_ctor)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x59e92b0;
+  constexpr static std::size_t addrs = 0x59f1384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache*>(),
@@ -306,7 +306,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     float_t, float_t, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::AddGoodCut)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x59e9480;
+  constexpr static std::size_t addrs = 0x59f1554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     float_t, ::GlobalNamespace::NoteCutInfo_FailReason, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>,
     ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(&::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::AddBadCut)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x59e961c;
+  constexpr static std::size_t addrs = 0x59f16f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     float_t, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::AddBlockMiss)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x59e97e8;
+  constexpr static std::size_t addrs = 0x59f18bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::*)(float_t)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::AddBombCut)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x59e9988;
+  constexpr static std::size_t addrs = 0x59f1a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::*)(float_t, float_t)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::AddObstacleHit)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x59e9a3c;
+  constexpr static std::size_t addrs = 0x59f1b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache*>(),
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::*)()>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::SerializeJSON)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x59e9b00;
+  constexpr static std::size_t addrs = 0x59f1bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::*)()>(&::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::IsEmpty)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x59ea528;
+  constexpr static std::size_t addrs = 0x59f25fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache*>(), { "IsEmpty", {}, {} })));
@@ -419,7 +419,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::Newtonsoft::Json::JsonTextWriter*, ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData>*)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::WriteMissedBlocksArray)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x59ea058;
+  constexpr static std::size_t addrs = 0x59f212c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::Newtonsoft::Json::JsonTextWriter*, ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData>*)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::WriteBombsHitArray)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x59ea200;
+  constexpr static std::size_t addrs = 0x59f22d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +457,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::Newtonsoft::Json::JsonTextWriter*, ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData>*)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::WriteObstaclesHitArray)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x59ea394;
+  constexpr static std::size_t addrs = 0x59f2468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -476,7 +476,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::Newtonsoft::Json::JsonTextWriter*, ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData>*)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::WriteBadHitBlocksArray)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x59e9eb8;
+  constexpr static std::size_t addrs = 0x59f1f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -495,7 +495,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::Newtonsoft::Json::JsonTextWriter*, ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData>*)>(
         &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::WriteGoodCutsArray)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x59e9d24;
+  constexpr static std::size_t addrs = 0x59f1df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -513,7 +513,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Newtonsoft::Json::JsonWriter*, float_t, uint8_t, uint8_t, ::System::Nullable_1<uint8_t>, ::System::Nullable_1<uint8_t>)>(
     &::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache::WriteCommonBlockFieldsToJson)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x59ea8d4;
+  constexpr static std::size_t addrs = 0x59f29a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

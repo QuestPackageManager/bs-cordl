@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TemplateAsset.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TemplateAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE TemplateAsset_AttributeOverride {
 public:
   // Declarations
-  /// @brief Method NamesPathMatchesElementNamesPath, addr 0x6cb56fc, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method NamesPathMatchesElementNamesPath, addr 0x6cbd280, size 0x328, virtual false, abstract: false, final false
   inline bool NamesPathMatchesElementNamesPath(::System::Collections::Generic::IList_1<::StringW>* elementNamesPath);
 
   // Ctor Parameters []
@@ -176,7 +176,7 @@ public:
 
   __declspec(property(get = get_slotUsages)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry>* slotUsages;
 
-  /// @brief Method Instantiate, addr 0x6cb3fbc, size 0x794, virtual true, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x6cbbb40, size 0x794, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Instantiate(::UnityEngine::UIElements::CreationContext cc);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* const& __cordl_internal_get_m_AttributeOverrides() const;
@@ -203,13 +203,13 @@ public:
 
   constexpr void __cordl_internal_set_m_TemplateAlias(::StringW value);
 
-  /// @brief Method get_attributeOverrides, addr 0x6cb3fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attributeOverrides, addr 0x6cbbb30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* get_attributeOverrides();
 
-  /// @brief Method get_serializedDataOverrides, addr 0x6cb3fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedDataOverrides, addr 0x6cbbb38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* get_serializedDataOverrides();
 
-  /// @brief Method get_slotUsages, addr 0x6cb56f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slotUsages, addr 0x6cbd278, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry>* get_slotUsages();
 
 protected:

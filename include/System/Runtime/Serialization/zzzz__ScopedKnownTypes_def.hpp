@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ScopedKnownTypes.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ScopedKnownTypes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ namespace System::Runtime::Serialization {
 struct CORDL_TYPE ScopedKnownTypes {
 public:
   // Declarations
-  /// @brief Method GetDataContract, addr 0x6158eb0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetDataContract, addr 0x616092c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetDataContract(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method Pop, addr 0x6158ea0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x616091c, size 0x10, virtual false, abstract: false, final false
   inline void Pop();
 
-  /// @brief Method Push, addr 0x6158d94, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x6160810, size 0x10c, virtual false, abstract: false, final false
   inline void Push(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* dataContractDictionary);
 
   // Ctor Parameters []
@@ -51,7 +51,7 @@ public:
                              int32_t count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17111 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

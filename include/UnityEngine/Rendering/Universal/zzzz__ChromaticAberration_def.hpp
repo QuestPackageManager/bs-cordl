@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ChromaticAberration.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ChromaticAberration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6876214, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x687dc90, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsTileCompatible, addr 0x6876244, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x687dcc0, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::ChromaticAberration* New_ctor();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_intensity(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x687624c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687dcc8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -66,7 +66,7 @@ public:
   ChromaticAberration(ChromaticAberration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12789 };
 
   /// @brief Field intensity, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::ClampedFloatParameter* ___intensity;

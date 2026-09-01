@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameplayCoreSceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameplayCoreSceneSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,10 +94,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5909c64, size 0xa78, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x590d1e4, size 0x9d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x590a6dc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x590dbb4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -123,7 +123,7 @@ public:
                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6722 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -253,10 +253,10 @@ public:
 
   __declspec(property(get = get_transformedBeatmapData, put = set_transformedBeatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
-  /// @brief Method ApplyDisableUpdateAlwaysConfiguration, addr 0x5909ac8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ApplyDisableUpdateAlwaysConfiguration, addr 0x590d0b4, size 0x7c, virtual false, abstract: false, final false
   inline void ApplyDisableUpdateAlwaysConfiguration();
 
-  /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x5909b44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x590d130, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadTransformedBeatmapDataAsync();
 
   static inline ::GlobalNamespace::GameplayCoreSceneSetupData*
@@ -266,9 +266,6 @@ public:
            ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
            ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, bool enableBeatmapDataCaching, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
            bool allowNullBeatmapLevelData, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
-
-  /// @brief Method TransformBeatmapData, addr 0x5909bf8, size 0x6c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IReadonlyBeatmapData* TransformBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
   constexpr bool const& __cordl_internal_get__allowNullBeatmapLevelData() const;
 
@@ -390,7 +387,7 @@ public:
 
   constexpr void __cordl_internal_set_targetEnvironmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
 
-  /// @brief Method .ctor, addr 0x5909854, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590ce40, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                     ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo, ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
@@ -398,22 +395,22 @@ public:
                     ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, bool enableBeatmapDataCaching, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                     bool allowNullBeatmapLevelData, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
-  /// @brief Method get_beatmapLevelData, addr 0x5909834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelData, addr 0x590ce20, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
 
-  /// @brief Method get_songAudioClip, addr 0x5909824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songAudioClip, addr 0x590ce10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_songAudioClip();
 
-  /// @brief Method get_transformedBeatmapData, addr 0x5909844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transformedBeatmapData, addr 0x590ce30, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
-  /// @brief Method set_beatmapLevelData, addr 0x590983c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevelData, addr 0x590ce28, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
 
-  /// @brief Method set_songAudioClip, addr 0x590982c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songAudioClip, addr 0x590ce18, size 0x8, virtual false, abstract: false, final false
   inline void set_songAudioClip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method set_transformedBeatmapData, addr 0x590984c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_transformedBeatmapData, addr 0x590ce38, size 0x8, virtual false, abstract: false, final false
   inline void set_transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
 protected:
@@ -431,7 +428,7 @@ public:
   GameplayCoreSceneSetupData(GameplayCoreSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6723 };
 
   /// @brief Field beatmapKey, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;

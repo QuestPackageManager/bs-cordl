@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/Collections/LRUCache_2.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\Collections\LRUCache_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,7 +85,7 @@ public:
   LRUCache_2_CacheElement(LRUCache_2_CacheElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20527 };
 
   /// @brief Field _key, offset: 0x10, size: 0x8, def value: None
   TKey ____key;
@@ -200,7 +200,7 @@ public:
   LRUCache_2(LRUCache_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20528 };
 
   /// @brief Field itemWillBeRemovedFromCacheEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<TKey, TValue>* ___itemWillBeRemovedFromCacheEvent;

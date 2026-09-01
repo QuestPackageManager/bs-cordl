@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalLightData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalLightData.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ContextItem_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VisibleLight_impl.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalLightData::*)()>(&::UnityEngine::Rendering::Universal::UniversalLightData::Reset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x686f1f4;
+  constexpr static std::size_t addrs = 0x6876c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalLightData*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalLightData::*)()>(&::UnityEngine::Rendering::Universal::UniversalLightData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x686f20c;
+  constexpr static std::size_t addrs = 0x6876c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalLightData*>(), { ".ctor", {}, {} })));

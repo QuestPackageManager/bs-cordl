@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/EnvelopedDataParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\EnvelopedDataParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__EnvelopedDataParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__EncryptedContentInfoParser_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::*)(::Org::BouncyCastle::Asn1::Asn1SequenceParser*)>(
     &::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3356308;
+  constexpr static std::size_t addrs = 0x335a0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3356434;
+  constexpr static std::size_t addrs = 0x335a1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*>(), { "get_Version", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* (::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::GetOriginatorInfo)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x335643c;
+  constexpr static std::size_t addrs = 0x335a1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*>(), { "GetOriginatorInfo", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1SetParser* (::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::GetRecipientInfos)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3356720;
+  constexpr static std::size_t addrs = 0x335a4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*>(), { "GetRecipientInfos", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* (::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::GetEncryptedContentInfo)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3356828;
+  constexpr static std::size_t addrs = 0x335a5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1SetParser* (::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::GetUnprotectedAttrs)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x335694c;
+  constexpr static std::size_t addrs = 0x335a70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

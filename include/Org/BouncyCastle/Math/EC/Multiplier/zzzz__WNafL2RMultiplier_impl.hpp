@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WNafL2RMultiplier.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\WNafL2RMultiplier.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WNafL2RMultiplier_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math
     ::Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier::*)(::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier::MultiplyPositive)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x350b010;
+  constexpr static std::size_t addrs = 0x350edd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x350b7b4;
+  constexpr static std::size_t addrs = 0x350f574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier*>(), { ".ctor", {}, {} })));

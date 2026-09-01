@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapObjectRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapObjectRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   constexpr BeatmapObjectRecorder_ObjectCounts(int32_t note, int32_t bomb, int32_t burstSliderHead, int32_t burstSliderElement, int32_t slider, int32_t burstSlider, int32_t obstacle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6597 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -128,48 +128,48 @@ public:
   __declspec(property(get = __cordl_internal_get__samples,
                       put = __cordl_internal_set__samples)) ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts>* _samples;
 
-  /// @brief Method Begin, addr 0x58eac5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x58ee28c, size 0x4, virtual false, abstract: false, final false
   inline void Begin(::GlobalNamespace::BeatmapObjectManager* objectManager);
 
-  /// @brief Method CaptureFrame, addr 0x58eaea8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x58ee4d8, size 0xdc, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method ChangeNoteTypeCount, addr 0x58eb768, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ChangeNoteTypeCount, addr 0x58eed98, size 0x64, virtual false, abstract: false, final false
   static inline bool ChangeNoteTypeCount(::by_ref<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts> counts, ::GlobalNamespace::NoteData* data, int32_t delta);
 
-  /// @brief Method ChangeSliderTypeCount, addr 0x58eb848, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ChangeSliderTypeCount, addr 0x58eee78, size 0x3c, virtual false, abstract: false, final false
   static inline bool ChangeSliderTypeCount(::by_ref<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts> counts, ::GlobalNamespace::SliderData* data, int32_t delta);
 
-  /// @brief Method ClearCallbacks, addr 0x58eb020, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ClearCallbacks, addr 0x58ee650, size 0x24c, virtual false, abstract: false, final false
   inline void ClearCallbacks();
 
-  /// @brief Method Finish, addr 0x58eaf84, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x58ee5b4, size 0x9c, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts> Finish();
 
-  /// @brief Method GenerateTableReport, addr 0x58eb26c, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x58ee89c, size 0x4c4, virtual false, abstract: false, final false
   static inline ::StringW GenerateTableReport(::ArrayW<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts> samples);
 
   static inline ::GlobalNamespace::BeatmapObjectRecorder* New_ctor(int32_t initialFrameCapacity);
 
-  /// @brief Method OnDepawnObstacle, addr 0x58eb8d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDepawnObstacle, addr 0x58eef08, size 0x10, virtual false, abstract: false, final false
   inline void OnDepawnObstacle(::GlobalNamespace::ObstacleController* obstacle);
 
-  /// @brief Method OnDespawnNote, addr 0x58eb7cc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnDespawnNote, addr 0x58eedfc, size 0x38, virtual false, abstract: false, final false
   inline void OnDespawnNote(::GlobalNamespace::NoteController* note);
 
-  /// @brief Method OnDespawnSlider, addr 0x58eb884, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnDespawnSlider, addr 0x58eeeb4, size 0x44, virtual false, abstract: false, final false
   inline void OnDespawnSlider(::GlobalNamespace::SliderController* slider);
 
-  /// @brief Method OnSpawnNote, addr 0x58eb730, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnSpawnNote, addr 0x58eed60, size 0x38, virtual false, abstract: false, final false
   inline void OnSpawnNote(::GlobalNamespace::NoteController* note);
 
-  /// @brief Method OnSpawnObstacle, addr 0x58eb8c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnSpawnObstacle, addr 0x58eeef8, size 0x10, virtual false, abstract: false, final false
   inline void OnSpawnObstacle(::GlobalNamespace::ObstacleController* obstacle);
 
-  /// @brief Method OnSpawnSlider, addr 0x58eb804, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnSpawnSlider, addr 0x58eee34, size 0x44, virtual false, abstract: false, final false
   inline void OnSpawnSlider(::GlobalNamespace::SliderController* slider);
 
-  /// @brief Method SetupCallbacks, addr 0x58eac60, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method SetupCallbacks, addr 0x58ee290, size 0x248, virtual false, abstract: false, final false
   inline void SetupCallbacks(::GlobalNamespace::BeatmapObjectManager* objectManager);
 
   constexpr ::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts const& __cordl_internal_get__objectCounts() const;
@@ -190,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts>* value);
 
-  /// @brief Method .ctor, addr 0x58eabd8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ee208, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialFrameCapacity);
 
 protected:
@@ -208,7 +208,7 @@ public:
   BeatmapObjectRecorder(BeatmapObjectRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6598 };
 
   /// @brief Field _samples, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectRecorder_ObjectCounts>* ____samples;

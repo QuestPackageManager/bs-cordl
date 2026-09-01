@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4/ColorNote.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4\ColorNote.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   constexpr ColorNote(int32_t x, int32_t y, int32_t a, ::BeatmapSaveDataCommon::NoteColorType c, ::BeatmapSaveDataCommon::NoteCutDirection d) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15340 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

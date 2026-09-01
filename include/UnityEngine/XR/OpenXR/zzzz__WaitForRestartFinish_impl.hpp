@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/WaitForRestartFinish.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\WaitForRestartFinish.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__WaitForRestartFinish_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::WaitForRestartFinish._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::WaitForRestartFinish::*)(float_t)>(&::UnityEngine::XR::OpenXR::WaitForRestartFinish::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69ed5c8;
+  constexpr static std::size_t addrs = 0x69f5044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::WaitForRestartFinish::*)()>(&::UnityEngine::XR::OpenXR::WaitForRestartFinish::get_keepWaiting)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x69ef238;
+  constexpr static std::size_t addrs = 0x69f6cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

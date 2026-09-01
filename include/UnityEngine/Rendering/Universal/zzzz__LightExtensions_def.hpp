@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/LightExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\LightExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE LightExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetUniversalAdditionalLightData, addr 0x68c1ac8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetUniversalAdditionalLightData, addr 0x68c9544, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData> GetUniversalAdditionalLightData(::UnityEngine::Light* light);
 
 protected:
@@ -43,7 +43,7 @@ public:
   LightExtensions(LightExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12995 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

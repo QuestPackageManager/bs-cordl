@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/IntegerExtensions.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\IntegerExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/zzzz__IntegerExtensions_def.hpp"
 //  Writing Method size for method: ::BGLib::DotnetExtension::IntegerExtensions.ToUInt
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<uint32_t>, ::by_ref<bool>)>(&::BGLib::DotnetExtension::IntegerExtensions::ToUInt)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33094c8;
+  constexpr static std::size_t addrs = 0x330d2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

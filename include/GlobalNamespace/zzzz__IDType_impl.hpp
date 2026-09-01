@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IDType.hpp"
+// IWYU pragma private; include "GlobalNamespace\IDType.hpp"
 #include "GlobalNamespace/zzzz__IDType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::IDType::IDType(int32_t value__) noexcept {

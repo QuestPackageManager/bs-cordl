@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cmp/CertificateStatus.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cmp\CertificateStatus.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cmp/zzzz__CertificateStatus_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertStatus_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateStatus::*)(
     ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*, ::Org::BouncyCastle::Asn1::Cmp::CertStatus*)>(&::Org::BouncyCastle::Cmp::CertificateStatus::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369de14;
+  constexpr static std::size_t addrs = 0x36a1bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* (::Org::BouncyCastle::Cmp::CertificateStatus::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateStatus::get_PkiStatusInfo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x369e564;
+  constexpr static std::size_t addrs = 0x36a2324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::CertificateStatus*>(), { "get_PkiStatusInfo", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Cmp::CertificateStatus::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateStatus::get_CertRequestId)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x369e580;
+  constexpr static std::size_t addrs = 0x36a2340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::CertificateStatus*>(), { "get_CertRequestId", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Cmp::CertificateStatus::*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::Cmp::CertificateStatus::IsVerified)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x369e5ac;
+  constexpr static std::size_t addrs = 0x36a236c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

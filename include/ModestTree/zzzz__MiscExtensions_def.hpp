@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree/MiscExtensions.hpp"
+// IWYU pragma private; include "ModestTree\MiscExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
   /// @brief Method AllocFreeAddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AllocFreeAddRange(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IList_1<T>* items);
 
-  /// @brief Method Fmt, addr 0x6e37544, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Fmt, addr 0x6e3f0c8, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW Fmt(::StringW s, ::ArrayW<::System::Object*> args);
 
   /// @brief Method GetValueAndRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -52,7 +52,7 @@ public:
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::System::Collections::Generic::IList_1<T>* list, T item);
 
-  /// @brief Method Join, addr 0x6e383b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x6e3ff34, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW Join(::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
 
   /// @brief Method RemoveWithConfirm, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -82,7 +82,7 @@ public:
   MiscExtensions(MiscExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13968 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

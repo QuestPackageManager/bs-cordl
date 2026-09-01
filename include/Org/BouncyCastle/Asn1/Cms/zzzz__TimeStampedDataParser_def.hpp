@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/TimeStampedDataParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\TimeStampedDataParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,10 +64,10 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x3360214, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3363fd4, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetTemporalEvidence, addr 0x3360358, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method GetTemporalEvidence, addr 0x3364118, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetTemporalEvidence();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser);
@@ -108,16 +108,16 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x335fe1c, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3363bdc, size 0x3f8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* parser);
 
-  /// @brief Method get_Content, addr 0x3360350, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x3364110, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Content();
 
-  /// @brief Method get_DataUri, addr 0x3360340, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DataUri, addr 0x3364100, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_DataUri();
 
-  /// @brief Method get_MetaData, addr 0x3360348, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MetaData, addr 0x3364108, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::MetaData* get_MetaData();
 
 protected:

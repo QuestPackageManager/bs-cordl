@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerIntroCountdown.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerIntroCountdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,19 +94,19 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdown___c__DisplayClass28_0* New_ctor();
 
-  /// @brief Method <PhaseRoutine>b__0, addr 0x59d1dc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__0, addr 0x59d9f64, size 0x14, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__0(float_t val);
 
-  /// @brief Method <PhaseRoutine>b__1, addr 0x59d1e38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__1, addr 0x59d9fdc, size 0x14, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__1(float_t val);
 
-  /// @brief Method <PhaseRoutine>b__2, addr 0x59d1ee8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__2, addr 0x59da08c, size 0x50, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__2(::UnityEngine::Vector3 pos);
 
-  /// @brief Method <PhaseRoutine>b__3, addr 0x59d1f38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__3, addr 0x59da0dc, size 0x28, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__3(float_t f);
 
-  /// @brief Method <PhaseRoutine>b__4, addr 0x59d1fe0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <PhaseRoutine>b__4, addr 0x59da184, size 0x14, virtual false, abstract: false, final false
   inline void _PhaseRoutine_b__4(float_t val);
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_textController(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
 
-  /// @brief Method .ctor, addr 0x59d1dbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d9f60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -139,7 +139,7 @@ public:
   MultiplayerIntroCountdown___c__DisplayClass28_0(MultiplayerIntroCountdown___c__DisplayClass28_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6144 };
 
   /// @brief Field textController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> ___textController;
@@ -198,21 +198,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x59d1ff8, size 0x30c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59da19c, size 0x30c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdown__CountdownRoutine_d__26* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59d230c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59da4b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59d2314, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59da4b8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59d234c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59da4f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x59d1ff4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59da198, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -257,7 +257,7 @@ public:
 
   constexpr void __cordl_internal_set_seconds(float_t value);
 
-  /// @brief Method .ctor, addr 0x59d1c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d9de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -284,7 +284,7 @@ public:
   MultiplayerIntroCountdown__CountdownRoutine_d__26(MultiplayerIntroCountdown__CountdownRoutine_d__26 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6145 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -368,21 +368,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x59d2358, size 0x618, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59da4fc, size 0x618, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdown__PhaseRoutine_d__28* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59d29dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59dab80, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59d29e4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59dab88, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59d2a1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59dabc0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x59d2354, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59da4f8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -427,7 +427,7 @@ public:
 
   constexpr void __cordl_internal_set_text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x59d1d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d9ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -454,7 +454,7 @@ public:
   MultiplayerIntroCountdown__PhaseRoutine_d__28(MultiplayerIntroCountdown__PhaseRoutine_d__28 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6146 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -532,21 +532,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x59d2a28, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59dabcc, size 0xbc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdown__PlayDelayed_d__27* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59d2ae4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59dac88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59d2aec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59dac90, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59d2b24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59dacc8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x59d2a24, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59dabc8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -579,7 +579,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x59d1cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d9e5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -606,7 +606,7 @@ public:
   MultiplayerIntroCountdown__PlayDelayed_d__27(MultiplayerIntroCountdown__PlayDelayed_d__27 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6147 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -713,24 +713,24 @@ public:
 
   __declspec(property(get = get_textAppearDuration)) float_t textAppearDuration;
 
-  /// @brief Method Awake, addr 0x59d19dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59d9b80, size 0x54, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CountdownRoutine, addr 0x59d1bc8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CountdownRoutine, addr 0x59d9d6c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CountdownRoutine(float_t seconds, float_t delay, float_t durationMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdown* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59d1acc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59d9c70, size 0x8c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PhaseRoutine, addr 0x59d1cc0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method PhaseRoutine, addr 0x59d9e64, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PhaseRoutine(::StringW text, float_t appearDuration, float_t disappearDuration);
 
-  /// @brief Method PlayDelayed, addr 0x59d1c48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayed, addr 0x59d9dec, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayDelayed(::UnityEngine::AudioClip* audioClip, float_t delay);
 
-  /// @brief Method StartCountdown, addr 0x59d1b58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x59d9cfc, size 0x70, virtual false, abstract: false, final false
   inline void StartCountdown(float_t seconds, float_t delay, float_t durationMultiplier);
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -841,10 +841,10 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x59d1d3c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d9ee0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_textAppearDuration, addr 0x59d19d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textAppearDuration, addr 0x59d9b78, size 0x8, virtual false, abstract: false, final false
   inline float_t get_textAppearDuration();
 
 protected:
@@ -862,7 +862,7 @@ public:
   MultiplayerIntroCountdown(MultiplayerIntroCountdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6148 };
 
   /// @brief Field kCountdownGoLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kCountdownGoLocalizationKey{ u"COUNTDOWN_GO" };

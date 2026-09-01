@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/UI/ExtendedSubmitCancelEventData.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\UI\ExtendedSubmitCancelEventData.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__ExtendedSubmitCancelEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::UI::ExtendedSubmitCancelEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedSubmitCancelEventData::get_device)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658b45c;
+  constexpr static std::size_t addrs = 0x6592ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedSubmitCancelEventData::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::UI::ExtendedSubmitCancelEventData::set_device)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658b464;
+  constexpr static std::size_t addrs = 0x6592ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedSubmitCancelEventData*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedSubmitCancelEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::InputSystem::UI::ExtendedSubmitCancelEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658b46c;
+  constexpr static std::size_t addrs = 0x6592ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedSubmitCancelEventData*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RotateBySpawnRotation.hpp"
+// IWYU pragma private; include "GlobalNamespace\RotateBySpawnRotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,21 +58,21 @@ public:
   /// @brief Field _timeHelper, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
 
-  /// @brief Method FixedUpdate, addr 0x599e244, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x59a6170, size 0x54, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x599e1a4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x59a60d0, size 0xa0, virtual false, abstract: false, final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::BeatmapObjectData* data);
 
-  /// @brief Method LateUpdate, addr 0x599e298, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59a61c4, size 0x90, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::RotateBySpawnRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x599e188, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59a60b4, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x599e038, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59a5f64, size 0x150, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
 
-  /// @brief Method .ctor, addr 0x599e328, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a6254, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,7 +141,7 @@ public:
   RotateBySpawnRotation(RotateBySpawnRotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5975 };
 
   /// @brief Field _aheadTime, offset: 0x20, size: 0x4, def value: None
   float_t ____aheadTime;

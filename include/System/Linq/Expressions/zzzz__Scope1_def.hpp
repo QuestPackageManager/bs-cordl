@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Scope1.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Scope1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,10 +44,10 @@ public:
   /// @brief Field _body, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__body, put = __cordl_internal_set__body)) ::System::Object* _body;
 
-  /// @brief Method GetExpression, addr 0x5f71f70, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x5f799ec, size 0x88, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression(int32_t index);
 
-  /// @brief Method GetOrMakeExpressions, addr 0x5f72000, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeExpressions, addr 0x5f79a7c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* GetOrMakeExpressions();
 
   static inline ::System::Linq::Expressions::Scope1* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables,
@@ -55,7 +55,7 @@ public:
 
   static inline ::System::Linq::Expressions::Scope1* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables, ::System::Object* body);
 
-  /// @brief Method Rewrite, addr 0x5f72008, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x5f79a84, size 0xec, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*> args);
 
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set__body(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5f71f20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f7999c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables, ::System::Linq::Expressions::Expression* body);
 
-  /// @brief Method .ctor, addr 0x5f71f48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f799c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables, ::System::Object* body);
 
-  /// @brief Method get_ExpressionCount, addr 0x5f71ff8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ExpressionCount, addr 0x5f79a74, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ExpressionCount();
 
 protected:
@@ -89,7 +89,7 @@ public:
   Scope1(Scope1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16147 };
 
   /// @brief Field _body, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____body;

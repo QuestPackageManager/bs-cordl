@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/AttributeProviderAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\AttributeProviderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__AttributeProviderAttribute_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::AttributeProviderAttribute.get_TypeName
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::AttributeProviderAttribute::*)()>(&::System::ComponentModel::AttributeProviderAttribute::get_TypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63aea30;
+  constexpr static std::size_t addrs = 0x63b64ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::AttributeProviderAttribute*>(), { "get_TypeName", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::AttributeProviderAttribute::*)()>(
     &::System::ComponentModel::AttributeProviderAttribute::get_PropertyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63aea38;
+  constexpr static std::size_t addrs = 0x63b64b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::AttributeProviderAttribute*>(), { "get_PropertyName", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/FastAction.hpp"
+// IWYU pragma private; include "TMPro\FastAction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,15 +38,15 @@ public:
   __declspec(property(get = __cordl_internal_get_lookup,
                       put = __cordl_internal_set_lookup)) ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* lookup;
 
-  /// @brief Method Add, addr 0x692fa98, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6937514, size 0xf4, virtual false, abstract: false, final false
   inline void Add(::System::Action* rhs);
 
-  /// @brief Method Call, addr 0x692fc84, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x6937700, size 0xb4, virtual false, abstract: false, final false
   inline void Call();
 
   static inline ::TMPro::FastAction* New_ctor();
 
-  /// @brief Method Remove, addr 0x692fb8c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6937608, size 0xf8, virtual false, abstract: false, final false
   inline void Remove(::System::Action* rhs);
 
   constexpr ::System::Collections::Generic::LinkedList_1<::System::Action*>* const& __cordl_internal_get_delegates() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* value);
 
-  /// @brief Method .ctor, addr 0x692fd38, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69377b4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   FastAction(FastAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15845 };
 
   /// @brief Field delegates, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::System::Action*>* ___delegates;

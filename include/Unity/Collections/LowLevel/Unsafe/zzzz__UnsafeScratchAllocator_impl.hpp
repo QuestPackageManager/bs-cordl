@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeScratchAllocator.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeScratchAllocator.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeScratchAllocator_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator._ctor
 template <>
@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::*)(void*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64c757c;
+  constexpr static std::size_t addrs = 0x64ceff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::*)(uint64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::CheckAllocationDoesNotExceedCapacity)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x64c7588;
+  constexpr static std::size_t addrs = 0x64cf004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::Allocate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x64c7654;
+  constexpr static std::size_t addrs = 0x64cf0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator>(),

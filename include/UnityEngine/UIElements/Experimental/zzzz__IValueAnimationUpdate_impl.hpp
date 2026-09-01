@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Experimental/IValueAnimationUpdate.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Experimental\IValueAnimationUpdate.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__IValueAnimationUpdate_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate.Tick
 template <>

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgesProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgesProvider.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgesProvider_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBadgesProvider___c::*)()>(&::GlobalNamespace::MultiplayerBadgesProvider___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3730b58;
+  constexpr static std::size_t addrs = 0x37366c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgesProvider___c*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerBadgesProvider___c::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(
     &::GlobalNamespace::MultiplayerBadgesProvider___c::_SelectBadgesAndPutThemIntoResults_b__7_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3730b5c;
+  constexpr static std::size_t addrs = 0x37366cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerBadgesProvider___c::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(
     &::GlobalNamespace::MultiplayerBadgesProvider___c::_SelectBadgesAndPutThemIntoResults_b__7_1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3730b84;
+  constexpr static std::size_t addrs = 0x37366f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBadgesProvider::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*)>(&::GlobalNamespace::MultiplayerBadgesProvider::SelectBadgesAndPutThemIntoResults)> {
   constexpr static std::size_t size = 0x12bc;
-  constexpr static std::size_t addrs = 0x372f844;
+  constexpr static std::size_t addrs = 0x37353b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBadgesProvider::*)()>(&::GlobalNamespace::MultiplayerBadgesProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3730b00;
+  constexpr static std::size_t addrs = 0x3736670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgesProvider*>(), { ".ctor", {}, {} })));

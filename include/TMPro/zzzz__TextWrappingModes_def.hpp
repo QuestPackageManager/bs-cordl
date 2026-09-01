@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TextWrappingModes.hpp"
+// IWYU pragma private; include "TMPro\TextWrappingModes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   static ::TMPro::TextWrappingModes const PreserveWhitespaceNoWrap;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15996 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

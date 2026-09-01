@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplierValuesRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplierValuesRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE MultiplierValuesRecorder_MultiplierValue {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x59e3ab4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ec078, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t multiplier, float_t time);
 
   // Ctor Parameters []
@@ -50,7 +50,7 @@ public:
   constexpr MultiplierValuesRecorder_MultiplierValue(int32_t multiplier, float_t time) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6205 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -93,15 +93,15 @@ public:
 
   __declspec(property(get = get_multiplierValues)) ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplierValuesRecorder_MultiplierValue>* multiplierValues;
 
-  /// @brief Method HandleScoreControllerMultiplierDidChange, addr 0x59e39a0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreControllerMultiplierDidChange, addr 0x59ebf64, size 0x114, virtual false, abstract: false, final false
   inline void HandleScoreControllerMultiplierDidChange(int32_t multiplier, float_t multiplierProgress);
 
   static inline ::GlobalNamespace::MultiplierValuesRecorder* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59e3864, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59ebe28, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59e376c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59ebd30, size 0xf8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -122,10 +122,10 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x59e3ac0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ec084, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_multiplierValues, addr 0x59e3764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplierValues, addr 0x59ebd28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplierValuesRecorder_MultiplierValue>* get_multiplierValues();
 
 protected:
@@ -143,7 +143,7 @@ public:
   MultiplierValuesRecorder(MultiplierValuesRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6206 };
 
   /// @brief Field _scoreController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;

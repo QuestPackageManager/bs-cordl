@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AnimationStartParams.hpp"
+// IWYU pragma private; include "GlobalNamespace\AnimationStartParams.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AnimationStartParams_def.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnimationStartParams::*)()>(&::GlobalNamespace::AnimationStartParams::Start)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x331db1c;
+  constexpr static std::size_t addrs = 0x33218dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnimationStartParams*>(), { "Start", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnimationStartParams::*)()>(&::GlobalNamespace::AnimationStartParams::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x331ddc8;
+  constexpr static std::size_t addrs = 0x3321b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnimationStartParams*>(), { ".ctor", {}, {} })));

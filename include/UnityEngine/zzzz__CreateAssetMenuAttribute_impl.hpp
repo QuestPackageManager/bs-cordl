@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/CreateAssetMenuAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\CreateAssetMenuAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__CreateAssetMenuAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::CreateAssetMenuAttribute.set_menuName
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CreateAssetMenuAttribute::*)(::StringW)>(&::UnityEngine::CreateAssetMenuAttribute::set_menuName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ad30b0;
+  constexpr static std::size_t addrs = 0x6adaac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CreateAssetMenuAttribute::*)(::StringW)>(&::UnityEngine::CreateAssetMenuAttribute::set_fileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ad30b8;
+  constexpr static std::size_t addrs = 0x6adaad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CreateAssetMenuAttribute::*)(int32_t)>(&::UnityEngine::CreateAssetMenuAttribute::set_order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ad30c0;
+  constexpr static std::size_t addrs = 0x6adaad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CreateAssetMenuAttribute::*)()>(&::UnityEngine::CreateAssetMenuAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ad30c8;
+  constexpr static std::size_t addrs = 0x6adaae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CreateAssetMenuAttribute*>(), { ".ctor", {}, {} })));

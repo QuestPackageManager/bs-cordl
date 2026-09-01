@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/HashCodeCalculator.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\HashCodeCalculator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
   HashCodeCalculator(HashCodeCalculator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20301 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

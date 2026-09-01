@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/CatalogFrameData.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\CatalogFrameData.hpp"
 #include "UnityEngine/zzzz__Hash128_impl.hpp"
 #include "UnityEngine/ResourceManagement/Profiling/zzzz__CatalogFrameData_def.hpp"
 // Ctor Parameters [CppParam { name: "BuildResultHash", ty: "::UnityEngine::Hash128", modifiers: "", def_value: Some("{}") }]

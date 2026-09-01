@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/VoipPCMSourceNative.hpp"
+// IWYU pragma private; include "Oculus\Platform\VoipPCMSourceNative.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__VoipPCMSourceNative_def.hpp"
 #include "Oculus/Platform/zzzz__IVoipPCMSource_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Oculus::Platform::VoipPCMSourceNative::*)(::ArrayW<float_t>, int32_t)>(&::Oculus::Platform::VoipPCMSourceNative::GetPCM)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5de8d64;
+  constexpr static std::size_t addrs = 0x5ded220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::VoipPCMSourceNative::*)(uint64_t)>(&::Oculus::Platform::VoipPCMSourceNative::SetSenderID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5de8ddc;
+  constexpr static std::size_t addrs = 0x5ded298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Oculus::Platform::VoipPCMSourceNative::*)()>(&::Oculus::Platform::VoipPCMSourceNative::PeekSizeElements)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5de8de4;
+  constexpr static std::size_t addrs = 0x5ded2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::VoipPCMSourceNative*>(), { "PeekSizeElements", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::VoipPCMSourceNative::*)()>(&::Oculus::Platform::VoipPCMSourceNative::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5de8e44;
+  constexpr static std::size_t addrs = 0x5ded300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::VoipPCMSourceNative*>(), { "Update", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::VoipPCMSourceNative::*)()>(&::Oculus::Platform::VoipPCMSourceNative::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5de82dc;
+  constexpr static std::size_t addrs = 0x5dec798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::VoipPCMSourceNative*>(), { ".ctor", {}, {} })));

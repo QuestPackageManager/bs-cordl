@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SingleProviderBindingFinalizer.hpp"
+// IWYU pragma private; include "Zenject\SingleProviderBindingFinalizer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   static inline ::Zenject::SingleProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x6e5fe18, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x6e6799c, size 0xd8, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   constexpr ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* const& __cordl_internal_get__providerFactory() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x6e5fe10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e67994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
 protected:
@@ -67,7 +67,7 @@ public:
   SingleProviderBindingFinalizer(SingleProviderBindingFinalizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14324 };
 
   /// @brief Field _providerFactory, offset: 0x20, size: 0x8, def value: None
   ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* ____providerFactory;

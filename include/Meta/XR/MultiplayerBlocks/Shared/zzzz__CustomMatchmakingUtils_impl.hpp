@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/CustomMatchmakingUtils.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\CustomMatchmakingUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__CustomMatchmakingUtils_def.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__MatchInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::MultiplayerBlocks::Shared::MatchInfo (*)(::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmakingUtils::DecodeMatchInfoWithStruct)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5a700e8;
+  constexpr static std::size_t addrs = 0x5a745a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmakingUtils::EncodeMatchInfoWithStruct)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5a70298;
+  constexpr static std::size_t addrs = 0x5a74754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::StringW, ::StringW> (*)(::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmakingUtils::ExtractMatchInfoFromSessionId)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5a7035c;
+  constexpr static std::size_t addrs = 0x5a74818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmakingUtils::EncodeMatchInfoToSessionId)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5a704b4;
+  constexpr static std::size_t addrs = 0x5a74970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::CustomMatchmakingUtils*>(),

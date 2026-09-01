@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/ConstructedOctetStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\ConstructedOctetStream.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseInputStream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__ConstructedOctetStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetStringParser_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::ConstructedOctetStream::*)(::Org::BouncyCastle::Asn1::Asn1StreamParser*)>(
     &::Org::BouncyCastle::Asn1::ConstructedOctetStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3686f20;
+  constexpr static std::size_t addrs = 0x368ace0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::ConstructedOctetStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Asn1::ConstructedOctetStream::Read)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3689250;
+  constexpr static std::size_t addrs = 0x368d010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::ConstructedOctetStream::*)()>(&::Org::BouncyCastle::Asn1::ConstructedOctetStream::ReadByte)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3689514;
+  constexpr static std::size_t addrs = 0x368d2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetStringParser* (::Org::BouncyCastle::Asn1::ConstructedOctetStream::*)()>(
     &::Org::BouncyCastle::Asn1::ConstructedOctetStream::GetNextParser)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3689410;
+  constexpr static std::size_t addrs = 0x368d1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::ConstructedOctetStream*>(), { "GetNextParser", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/DecimalArrayHelperWithString.hpp"
+// IWYU pragma private; include "System\Xml\DecimalArrayHelperWithString.hpp"
 #include "System/Xml/zzzz__ArrayHelper_2_impl.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Xml/zzzz__DecimalArrayHelperWithString_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::DecimalArrayHelperWithString::*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::ArrayW<::System::Decimal>,
                                                                                                                 int32_t, int32_t)>(&::System::Xml::DecimalArrayHelperWithString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60f7450;
+  constexpr static std::size_t addrs = 0x60feecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DecimalArrayHelperWithString::*)(
     ::System::Xml::XmlDictionaryWriter*, ::StringW, ::StringW, ::StringW, ::ArrayW<::System::Decimal>, int32_t, int32_t)>(&::System::Xml::DecimalArrayHelperWithString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60f7488;
+  constexpr static std::size_t addrs = 0x60fef04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DecimalArrayHelperWithString::*)()>(&::System::Xml::DecimalArrayHelperWithString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60f74c4;
+  constexpr static std::size_t addrs = 0x60fef40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DecimalArrayHelperWithString*>(), { ".ctor", {}, {} })));

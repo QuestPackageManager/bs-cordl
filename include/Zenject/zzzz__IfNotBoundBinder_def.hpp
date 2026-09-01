@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/IfNotBoundBinder.hpp"
+// IWYU pragma private; include "Zenject\IfNotBoundBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ public:
   /// @brief Field <BindInfo>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__BindInfo_k__BackingField, put = __cordl_internal_set__BindInfo_k__BackingField)) ::Zenject::BindInfo* _BindInfo_k__BackingField;
 
-  /// @brief Method IfNotBound, addr 0x6e550f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IfNotBound, addr 0x6e5cc78, size 0x1c, virtual false, abstract: false, final false
   inline void IfNotBound();
 
   static inline ::Zenject::IfNotBoundBinder* New_ctor(::Zenject::BindInfo* bindInfo);
@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set__BindInfo_k__BackingField(::Zenject::BindInfo* value);
 
-  /// @brief Method .ctor, addr 0x6e550dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e5cc60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method get_BindInfo, addr 0x6e550e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindInfo, addr 0x6e5cc68, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::BindInfo* get_BindInfo();
 
-  /// @brief Method set_BindInfo, addr 0x6e550ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BindInfo, addr 0x6e5cc70, size 0x8, virtual false, abstract: false, final false
   inline void set_BindInfo(::Zenject::BindInfo* value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   IfNotBoundBinder(IfNotBoundBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14276 };
 
   /// @brief Field <BindInfo>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Zenject::BindInfo* ____BindInfo_k__BackingField;

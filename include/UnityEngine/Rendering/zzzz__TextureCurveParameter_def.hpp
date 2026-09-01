@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/TextureCurveParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\TextureCurveParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::TextureCurveParameter* New_ctor(::UnityEngine::Rendering::TextureCurve* value, bool overrideState);
 
-  /// @brief Method Release, addr 0x67c0ebc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x67c8938, size 0x14, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method .ctor, addr 0x67c0e58, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c88d4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::TextureCurve* value, bool overrideState);
 
 protected:
@@ -45,7 +45,7 @@ public:
   TextureCurveParameter(TextureCurveParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12315 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

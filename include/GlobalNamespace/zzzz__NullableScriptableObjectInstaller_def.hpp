@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NullableScriptableObjectInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\NullableScriptableObjectInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ public:
   /// @brief Field _installer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installer, put = __cordl_internal_set__installer)) ::UnityW<::Zenject::ScriptableObjectInstaller> _installer;
 
-  /// @brief Method InstallBindings, addr 0x6e549ec, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x6e5c570, size 0xa0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::NullableScriptableObjectInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__installer(::UnityW<::Zenject::ScriptableObjectInstaller> value);
 
-  /// @brief Method .ctor, addr 0x6e54a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e5c610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   NullableScriptableObjectInstaller(NullableScriptableObjectInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23696 };
 
   /// @brief Field _installer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Zenject::ScriptableObjectInstaller> ____installer;

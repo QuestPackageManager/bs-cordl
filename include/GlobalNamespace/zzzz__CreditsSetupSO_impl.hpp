@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CreditsSetupSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\CreditsSetupSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__CreditsSetupSO_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsSetupSO::*)()>(&::GlobalNamespace::CreditsSetupSO::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x327cf50;
+  constexpr static std::size_t addrs = 0x3280ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsSetupSO*>(), { ".ctor", {}, {} })));

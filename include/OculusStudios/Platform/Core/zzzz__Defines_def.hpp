@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/Defines.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\Defines.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   static constexpr uint32_t TIMEOUT_WEBREQUEST_SECONDS{ static_cast<uint32_t>(0x14u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

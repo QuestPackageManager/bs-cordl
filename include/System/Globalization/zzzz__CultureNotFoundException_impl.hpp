@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/CultureNotFoundException.hpp"
+// IWYU pragma private; include "System\Globalization\CultureNotFoundException.hpp"
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/Globalization/zzzz__CultureNotFoundException_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CultureNotFoundException::*)()>(&::System::Globalization::CultureNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5b94b0c;
+  constexpr static std::size_t addrs = 0x5b98fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CultureNotFoundException*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CultureNotFoundException::*)(::StringW, ::StringW)>(&::System::Globalization::CultureNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b94bb0;
+  constexpr static std::size_t addrs = 0x5b9906c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CultureNotFoundException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Globalization::CultureNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x5b94be8;
+  constexpr static std::size_t addrs = 0x5b990a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CultureNotFoundException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Globalization::CultureNotFoundException::GetObjectData)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5b94e28;
+  constexpr static std::size_t addrs = 0x5b992e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<int32_t> (::System::Globalization::CultureNotFoundException::*)()>(
     &::System::Globalization::CultureNotFoundException::get_InvalidCultureId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b94f74;
+  constexpr static std::size_t addrs = 0x5b99430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::CultureNotFoundException::*)()>(
     &::System::Globalization::CultureNotFoundException::get_InvalidCultureName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b94f7c;
+  constexpr static std::size_t addrs = 0x5b99438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Globalization::CultureNotFoundException::get_DefaultMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5b94b6c;
+  constexpr static std::size_t addrs = 0x5b99028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CultureNotFoundException*>(), { "get_DefaultMessage", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::CultureNotFoundException::*)()>(
     &::System::Globalization::CultureNotFoundException::get_FormatedInvalidCultureId)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5b94f84;
+  constexpr static std::size_t addrs = 0x5b99440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::CultureNotFoundException::*)()>(&::System::Globalization::CultureNotFoundException::get_Message)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5b950d0;
+  constexpr static std::size_t addrs = 0x5b9958c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

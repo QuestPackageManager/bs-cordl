@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/AvatarEditor/EditAvatarHistorySnapshot.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\AvatarEditor\EditAvatarHistorySnapshot.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 struct CORDL_TYPE EditAvatarHistorySnapshot {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3271f48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3275b5c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr EditAvatarHistorySnapshot(::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart, ::BeatSaber::BeatAvatarSDK::AvatarData* avatarData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21700 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextAnchor.hpp"
+// IWYU pragma private; include "UnityEngine\TextAnchor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
   static ::UnityEngine::TextAnchor const UpperRight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22419 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

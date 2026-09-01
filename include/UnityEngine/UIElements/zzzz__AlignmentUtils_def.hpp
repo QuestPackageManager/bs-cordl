@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/AlignmentUtils.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\AlignmentUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,13 +23,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE AlignmentUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CeilToPixelGrid, addr 0x6c26618, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CeilToPixelGrid, addr 0x6c2e19c, size 0x14, virtual false, abstract: false, final false
   static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
-  /// @brief Method RoundToPanelPixelSize, addr 0x6c2662c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method RoundToPanelPixelSize, addr 0x6c2e1b0, size 0x48, virtual false, abstract: false, final false
   static inline float_t RoundToPanelPixelSize(::UnityEngine::UIElements::VisualElement* ve, float_t v);
 
-  /// @brief Method RoundToPixelGrid, addr 0x6c265fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RoundToPixelGrid, addr 0x6c2e180, size 0x1c, virtual false, abstract: false, final false
   static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Destinations/SceneNames.hpp"
+// IWYU pragma private; include "BeatSaber\Destinations\SceneNames.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Destinations/zzzz__SceneNames_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::BeatSaber::Destinations::SceneNames::ShouldDisableRootObjects)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x327de54;
+  constexpr static std::size_t addrs = 0x3281be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

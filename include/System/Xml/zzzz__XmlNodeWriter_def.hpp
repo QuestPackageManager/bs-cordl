@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlNodeWriter.hpp"
+// IWYU pragma private; include "System\Xml\XmlNodeWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +82,7 @@ public:
   /// @brief Method WriteEndElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName);
 
-  /// @brief Method WriteEndElement, addr 0x6120544, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x6127fc0, size 0xb0, virtual true, abstract: false, final false
   inline void WriteEndElement(::ArrayW<uint8_t> prefixBuffer, int32_t prefixOffset, int32_t prefixLength, ::ArrayW<uint8_t> localNameBuffer, int32_t localNameOffset, int32_t localNameLength);
 
   /// @brief Method WriteEndStartElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -121,7 +121,7 @@ public:
   /// @brief Method WriteStartAttribute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::StringW prefix, ::System::Xml::XmlDictionaryString* localName);
 
-  /// @brief Method WriteStartAttribute, addr 0x61206a4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method WriteStartAttribute, addr 0x6128120, size 0xb0, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::ArrayW<uint8_t> prefixBuffer, int32_t prefixOffset, int32_t prefixLength, ::ArrayW<uint8_t> localNameBuffer, int32_t localNameOffset, int32_t localNameLength);
 
   /// @brief Method WriteStartElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -130,7 +130,7 @@ public:
   /// @brief Method WriteStartElement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteStartElement(::StringW prefix, ::System::Xml::XmlDictionaryString* localName);
 
-  /// @brief Method WriteStartElement, addr 0x6120498, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x6127f14, size 0xac, virtual true, abstract: false, final false
   inline void WriteStartElement(::ArrayW<uint8_t> prefixBuffer, int32_t prefixOffset, int32_t prefixLength, ::ArrayW<uint8_t> localNameBuffer, int32_t localNameOffset, int32_t localNameLength);
 
   /// @brief Method WriteText, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -160,10 +160,10 @@ public:
   /// @brief Method WriteXmlnsAttribute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteXmlnsAttribute(::StringW prefix, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method WriteXmlnsAttribute, addr 0x61205f4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlnsAttribute, addr 0x6128070, size 0xb0, virtual true, abstract: false, final false
   inline void WriteXmlnsAttribute(::ArrayW<uint8_t> prefixBuffer, int32_t prefixOffset, int32_t prefixLength, ::ArrayW<uint8_t> nsBuffer, int32_t nsOffset, int32_t nsLength);
 
-  /// @brief Method .ctor, addr 0x6120754, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61281d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,7 +181,7 @@ public:
   XmlNodeWriter(XmlNodeWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16990 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

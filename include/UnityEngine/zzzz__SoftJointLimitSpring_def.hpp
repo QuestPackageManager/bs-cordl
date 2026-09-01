@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SoftJointLimitSpring.hpp"
+// IWYU pragma private; include "UnityEngine\SoftJointLimitSpring.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,16 +24,16 @@ public:
 
   __declspec(property(get = get_spring, put = set_spring)) float_t spring;
 
-  /// @brief Method get_damper, addr 0x6b6a7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_damper, addr 0x6b72340, size 0x8, virtual false, abstract: false, final false
   inline float_t get_damper();
 
-  /// @brief Method get_spring, addr 0x6b6a7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x6b72330, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spring();
 
-  /// @brief Method set_damper, addr 0x6b6a7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_damper, addr 0x6b72348, size 0x8, virtual false, abstract: false, final false
   inline void set_damper(float_t value);
 
-  /// @brief Method set_spring, addr 0x6b6a7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spring, addr 0x6b72338, size 0x8, virtual false, abstract: false, final false
   inline void set_spring(float_t value);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr SoftJointLimitSpring(float_t m_Spring, float_t m_Damper) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18615 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

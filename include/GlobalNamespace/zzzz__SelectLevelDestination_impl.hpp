@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SelectLevelDestination.hpp"
+// IWYU pragma private; include "GlobalNamespace\SelectLevelDestination.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                            ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::SelectLevelDestination::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3703ba8;
+  constexpr static std::size_t addrs = 0x3707fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

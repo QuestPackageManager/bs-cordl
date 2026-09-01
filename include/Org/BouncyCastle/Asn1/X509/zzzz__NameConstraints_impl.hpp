@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/NameConstraints.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\NameConstraints.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__NameConstraints_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::NameConstraints* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::X509::NameConstraints::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x365d6f8;
+  constexpr static std::size_t addrs = 0x36614b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::NameConstraints::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::NameConstraints::_ctor)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x365d87c;
+  constexpr static std::size_t addrs = 0x366163c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::NameConstraints::*)(::System::Collections::ArrayList*, ::System::Collections::ArrayList*)>(
     &::Org::BouncyCastle::Asn1::X509::NameConstraints::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x365db88;
+  constexpr static std::size_t addrs = 0x3661948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::NameConstraints::*)(::System::Collections::IList*, ::System::Collections::IList*)>(
     &::Org::BouncyCastle::Asn1::X509::NameConstraints::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x365db8c;
+  constexpr static std::size_t addrs = 0x366194c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerSequence* (::Org::BouncyCastle::Asn1::X509::NameConstraints::*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Asn1::X509::NameConstraints::CreateSequence)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x365dbc4;
+  constexpr static std::size_t addrs = 0x3661984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::Asn1::X509::NameConstraints::*)()>(
     &::Org::BouncyCastle::Asn1::X509::NameConstraints::get_PermittedSubtrees)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x365de78;
+  constexpr static std::size_t addrs = 0x3661c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::NameConstraints*>(), { "get_PermittedSubtrees", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::Asn1::X509::NameConstraints::*)()>(
     &::Org::BouncyCastle::Asn1::X509::NameConstraints::get_ExcludedSubtrees)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x365de80;
+  constexpr static std::size_t addrs = 0x3661c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::NameConstraints*>(), { "get_ExcludedSubtrees", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::NameConstraints::*)()>(
     &::Org::BouncyCastle::Asn1::X509::NameConstraints::ToAsn1Object)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x365de88;
+  constexpr static std::size_t addrs = 0x3661c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

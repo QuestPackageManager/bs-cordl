@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/FreeFunctionAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\FreeFunctionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +26,13 @@ public:
 
   static inline ::UnityEngine::Bindings::FreeFunctionAttribute* New_ctor(::StringW name, bool isThreadSafe);
 
-  /// @brief Method .ctor, addr 0x6bae950, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb64d4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bae95c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb64e0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6bae978, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb64fc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isThreadSafe);
 
 protected:
@@ -50,7 +50,7 @@ public:
   FreeFunctionAttribute(FreeFunctionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23119 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

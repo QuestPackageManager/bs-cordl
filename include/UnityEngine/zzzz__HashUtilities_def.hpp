@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/HashUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\HashUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace UnityEngine {
 class CORDL_TYPE HashUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendHash, addr 0x6ac06ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AppendHash, addr 0x6ac80c4, size 0xc, virtual false, abstract: false, final false
   static inline void AppendHash(::by_ref<::UnityEngine::Hash128> inHash, ::by_ref<::UnityEngine::Hash128> outHash);
 
 protected:
@@ -40,7 +40,7 @@ public:
   HashUtilities(HashUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Unity/Debug.hpp"
+// IWYU pragma private; include "Mono\Unity\Debug.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Unity/zzzz__Debug_def.hpp"
 #include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Unity::UnityTls_unitytls_errorstate, ::StringW, ::Mono::Security::Interface::AlertDescription)>(
     &::Mono::Unity::Debug::CheckAndThrow)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5fc953c;
+  constexpr static std::size_t addrs = 0x5fd0fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Unity::UnityTls_unitytls_errorstate, ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::StringW,
                                                                 ::Mono::Security::Interface::AlertDescription)>(&::Mono::Unity::Debug::CheckAndThrow)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5fc95d4;
+  constexpr static std::size_t addrs = 0x5fd1050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

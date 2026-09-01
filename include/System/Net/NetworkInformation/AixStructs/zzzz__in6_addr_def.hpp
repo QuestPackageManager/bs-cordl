@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/in6_addr.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\AixStructs\in6_addr.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   constexpr in6_addr(::ArrayW<uint8_t> u6_addr8) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11733 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

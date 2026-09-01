@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Keyframe.hpp"
+// IWYU pragma private; include "UnityEngine\Keyframe.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,52 +38,52 @@ public:
 
   __declspec(property(get = get_weightedMode, put = set_weightedMode)) ::UnityEngine::WeightedMode weightedMode;
 
-  /// @brief Method .ctor, addr 0x6a5dde4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a65860, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value);
 
-  /// @brief Method .ctor, addr 0x6a5ddf4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a65870, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
 
-  /// @brief Method get_inTangent, addr 0x6a5de28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inTangent, addr 0x6a658a4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inTangent();
 
-  /// @brief Method get_inWeight, addr 0x6a5de48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inWeight, addr 0x6a658c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inWeight();
 
-  /// @brief Method get_outTangent, addr 0x6a5de38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outTangent, addr 0x6a658b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_outTangent();
 
-  /// @brief Method get_outWeight, addr 0x6a5de58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outWeight, addr 0x6a658d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_outWeight();
 
-  /// @brief Method get_time, addr 0x6a5de08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x6a65884, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_value, addr 0x6a5de18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6a65894, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method get_weightedMode, addr 0x6a5de68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_weightedMode, addr 0x6a658e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::WeightedMode get_weightedMode();
 
-  /// @brief Method set_inTangent, addr 0x6a5de30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inTangent, addr 0x6a658ac, size 0x8, virtual false, abstract: false, final false
   inline void set_inTangent(float_t value);
 
-  /// @brief Method set_inWeight, addr 0x6a5de50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inWeight, addr 0x6a658cc, size 0x8, virtual false, abstract: false, final false
   inline void set_inWeight(float_t value);
 
-  /// @brief Method set_outTangent, addr 0x6a5de40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_outTangent, addr 0x6a658bc, size 0x8, virtual false, abstract: false, final false
   inline void set_outTangent(float_t value);
 
-  /// @brief Method set_outWeight, addr 0x6a5de60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_outWeight, addr 0x6a658dc, size 0x8, virtual false, abstract: false, final false
   inline void set_outWeight(float_t value);
 
-  /// @brief Method set_time, addr 0x6a5de10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x6a6588c, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_value, addr 0x6a5de20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x6a6589c, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
-  /// @brief Method set_weightedMode, addr 0x6a5de70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_weightedMode, addr 0x6a658ec, size 0x8, virtual false, abstract: false, final false
   inline void set_weightedMode(::UnityEngine::WeightedMode value);
 
   // Ctor Parameters []
@@ -96,7 +96,7 @@ public:
   constexpr Keyframe(float_t m_Time, float_t m_Value, float_t m_InTangent, float_t m_OutTangent, int32_t m_WeightedMode, float_t m_InWeight, float_t m_OutWeight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10054 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

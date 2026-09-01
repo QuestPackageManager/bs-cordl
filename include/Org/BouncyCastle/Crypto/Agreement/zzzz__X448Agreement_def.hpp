@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/X448Agreement.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\X448Agreement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IRawAgreement"
   constexpr operator ::Org::BouncyCastle::Crypto::IRawAgreement*() noexcept;
 
-  /// @brief Method CalculateAgreement, addr 0x36e3094, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method CalculateAgreement, addr 0x36e6e54, size 0x98, virtual true, abstract: false, final true
   inline void CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* publicKey, ::ArrayW<uint8_t> buf, int32_t off);
 
-  /// @brief Method Init, addr 0x36e2fb8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x36e6d78, size 0x80, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::X448Agreement* New_ctor();
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_privateKey(::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x36e312c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e6eec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AgreementSize, addr 0x36e3038, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_AgreementSize, addr 0x36e6df8, size 0x5c, virtual true, abstract: false, final true
   inline int32_t get_AgreementSize();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IRawAgreement"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/InputActions/UserInputActionSet.hpp"
+// IWYU pragma private; include "Meta\XR\InputActions\UserInputActionSet.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/InputActions/zzzz__UserInputActionSet_def.hpp"
 #include "Meta/XR/InputActions/zzzz__InputActionDefinition_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::InputActions::UserInputActionSet::*)()>(&::Meta::XR::InputActions::UserInputActionSet::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4cb4c;
+  constexpr static std::size_t addrs = 0x5e51008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::InputActions::UserInputActionSet::*)()>(&::Meta::XR::InputActions::UserInputActionSet::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5e4cb54;
+  constexpr static std::size_t addrs = 0x5e51010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::InputActions::UserInputActionSet*>(), { ".ctor", {}, {} })));

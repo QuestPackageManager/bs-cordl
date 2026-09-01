@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActiveClient.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActiveClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,39 +95,39 @@ public:
   /// @brief Field _scoreSyncStateManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreSyncStateManager, put = __cordl_internal_set__scoreSyncStateManager)) ::GlobalNamespace::IScoreSyncStateManager* _scoreSyncStateManager;
 
-  /// @brief Method HandleComboDidChange, addr 0x59bd810, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x59c539c, size 0xdc, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
-  /// @brief Method HandleMultiplierDidChange, addr 0x59bd8ec, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplierDidChange, addr 0x59c5478, size 0xdc, virtual false, abstract: false, final false
   inline void HandleMultiplierDidChange(int32_t multiplier, float_t multiplierProgress);
 
-  /// @brief Method HandleNoteWasAdded, addr 0x59bd0f4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasAdded, addr 0x59c4c80, size 0x160, virtual false, abstract: false, final false
   inline void HandleNoteWasAdded(::GlobalNamespace::NoteData* noteData, ::GlobalNamespace::NoteSpawnData noteSpawnData);
 
-  /// @brief Method HandleNoteWasCut, addr 0x59bd64c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x59c51d8, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x59bd53c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x59c50c8, size 0x110, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleObstacleWasAdded, addr 0x59bd254, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasAdded, addr 0x59c4de0, size 0x15c, virtual false, abstract: false, final false
   inline void HandleObstacleWasAdded(::GlobalNamespace::ObstacleData* obstacleData, ::GlobalNamespace::ObstacleSpawnData obstacleSpawnData, float_t rotation);
 
-  /// @brief Method HandleScoreDidChange, addr 0x59bd9c8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChange, addr 0x59c5554, size 0x25c, virtual false, abstract: false, final false
   inline void HandleScoreDidChange(int32_t multipliedScore, int32_t modifiedScore);
 
-  /// @brief Method HandleSliderWasAdded, addr 0x59bd3b0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasAdded, addr 0x59c4f3c, size 0x18c, virtual false, abstract: false, final false
   inline void HandleSliderWasAdded(::GlobalNamespace::SliderData* sliderData, ::GlobalNamespace::SliderSpawnData sliderSpawnData);
 
-  /// @brief Method LateUpdate, addr 0x59bcde4, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59c4970, size 0x310, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveClient* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59bc914, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59c44a0, size 0x4d0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59bc1d0, size 0x744, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59c3d5c, size 0x744, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreSyncStateManager(::GlobalNamespace::IScoreSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x59bdc24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c57b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,7 +196,7 @@ public:
   MultiplayerLocalActiveClient(MultiplayerLocalActiveClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6085 };
 
   /// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;

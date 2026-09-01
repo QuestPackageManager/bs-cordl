@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/Utils/CRC32C.hpp"
+// IWYU pragma private; include "LiteNetLib\Utils\CRC32C.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__CRC32C_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::Utils::CRC32C.Compute
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::LiteNetLib::Utils::CRC32C::Compute)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x58a9c18;
+  constexpr static std::size_t addrs = 0x58a95e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

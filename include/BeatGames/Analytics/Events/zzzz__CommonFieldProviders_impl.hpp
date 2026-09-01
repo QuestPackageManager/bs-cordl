@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames/Analytics/Events/CommonFieldProviders.hpp"
+// IWYU pragma private; include "BeatGames\Analytics\Events\CommonFieldProviders.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatGames/Analytics/Events/zzzz__CommonFieldProviders_def.hpp"
 //  Writing Method size for method: ::BeatGames::Analytics::Events::CommonFieldProviders.get_RuntimePlatform
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_RuntimePlatform)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3254b6c;
+  constexpr static std::size_t addrs = 0x3257e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_DeviceType)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3254f24;
+  constexpr static std::size_t addrs = 0x3258224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::CommonFieldProviders*>(), { "get_DeviceType", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::BeatGames::Analytics::Events::CommonFieldProviders::get_VROSMajorVersion)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3254c3c;
+  constexpr static std::size_t addrs = 0x3257f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

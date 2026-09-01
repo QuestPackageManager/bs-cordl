@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/GraphErrorCodeExtensions.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\GraphErrorCodeExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace OculusStudios::GraphQL::ClientInterface {
 class CORDL_TYPE GraphErrorCodeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetGraphQLErrorCode, addr 0x5f281fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetGraphQLErrorCode, addr 0x5f2c6bc, size 0xbc, virtual false, abstract: false, final false
   static inline ::OculusStudios::GraphQL::ClientInterface::GraphErrorCode GetGraphQLErrorCode(int32_t code);
 
-  /// @brief Method IsGraphQLErrorCode, addr 0x5f2814c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsGraphQLErrorCode, addr 0x5f2c60c, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsGraphQLErrorCode(int32_t code);
 
 protected:
@@ -44,7 +44,7 @@ public:
   GraphErrorCodeExtensions(GraphErrorCodeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22874 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

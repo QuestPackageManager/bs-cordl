@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/RazorPageBaseTypeAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\RazorPageBaseTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e36738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e2bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x6e36740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e2c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method get_BaseType, addr 0x6e36748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x6e3e2cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method get_PageName, addr 0x6e36758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageName, addr 0x6e3e2dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
-  /// @brief Method set_BaseType, addr 0x6e36750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x6e3e2d4, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
-  /// @brief Method set_PageName, addr 0x6e36760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PageName, addr 0x6e3e2e4, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22605 };
 
   /// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____BaseType_k__BackingField;

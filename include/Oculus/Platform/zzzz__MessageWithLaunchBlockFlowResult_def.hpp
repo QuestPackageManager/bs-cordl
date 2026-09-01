@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithLaunchBlockFlowResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithLaunchBlockFlowResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLaunchBlockFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchBlockFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5dd6c38, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5ddb0f4, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchBlockFlowResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLaunchBlockFlowResult, addr 0x5dd6bf4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchBlockFlowResult, addr 0x5ddb0b0, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchBlockFlowResult* GetLaunchBlockFlowResult();
 
   static inline ::Oculus::Platform::MessageWithLaunchBlockFlowResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5dd32c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd7784, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithLaunchBlockFlowResult(MessageWithLaunchBlockFlowResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

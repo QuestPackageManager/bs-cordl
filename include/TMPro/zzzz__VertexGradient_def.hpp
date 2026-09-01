@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/VertexGradient.hpp"
+// IWYU pragma private; include "TMPro\VertexGradient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace TMPro {
 struct CORDL_TYPE VertexGradient {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6941b84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6949600, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x6941ba8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6949624, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr VertexGradient(::UnityEngine::Color topLeft, ::UnityEngine::Color topRight, ::UnityEngine::Color bottomLeft, ::UnityEngine::Color bottomRight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15873 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

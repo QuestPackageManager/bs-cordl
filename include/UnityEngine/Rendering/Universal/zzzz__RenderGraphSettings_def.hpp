@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderGraphSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderGraphSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   static ::UnityEngine::Rendering::Universal::RenderGraphSettings_Version const Initial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12949 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,7 +102,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::RenderGraphSettings* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68b26d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68ba14c, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr bool const& __cordl_internal_get_m_EnableRenderCompatibilityMode() const;
@@ -117,19 +117,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::UnityEngine::Rendering::Universal::RenderGraphSettings_Version value);
 
-  /// @brief Method .ctor, addr 0x68b27f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68ba274, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enableRenderCompatibilityMode, addr 0x68b26d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_enableRenderCompatibilityMode, addr 0x68ba154, size 0xb0, virtual false, abstract: false, final false
   inline bool get_enableRenderCompatibilityMode();
 
-  /// @brief Method get_version, addr 0x68b26c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x68ba144, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_enableRenderCompatibilityMode, addr 0x68b2788, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_enableRenderCompatibilityMode, addr 0x68ba204, size 0x70, virtual false, abstract: false, final false
   inline void set_enableRenderCompatibilityMode(bool value);
 
 protected:
@@ -147,7 +147,7 @@ public:
   RenderGraphSettings(RenderGraphSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12950 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::RenderGraphSettings_Version ___m_Version;

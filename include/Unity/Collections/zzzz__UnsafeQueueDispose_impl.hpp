@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/UnsafeQueueDispose.hpp"
+// IWYU pragma private; include "Unity\Collections\UnsafeQueueDispose.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_impl.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueDispose_def.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueBlockPoolData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::UnsafeQueueDispose::*)()>(&::Unity::Collections::UnsafeQueueDispose::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64c1be8;
+  constexpr static std::size_t addrs = 0x64c9664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueDispose>(), { "Dispose", {}, {} })));

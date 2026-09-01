@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/ThreadPoolWorkQueue.hpp"
+// IWYU pragma private; include "System\Threading\ThreadPoolWorkQueue.hpp"
 #include "System/Threading/zzzz__IThreadPoolWorkItem_impl.hpp"
 #include "System/Threading/zzzz__SpinLock_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)(::System::Threading::IThreadPoolWorkItem*)>(
     &::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::LocalPush)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x5cb088c;
+  constexpr static std::size_t addrs = 0x5cb4d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)(::System::Threading::IThreadPoolWorkItem*)>(
     &::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::LocalFindAndPop)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x5cb0e90;
+  constexpr static std::size_t addrs = 0x5cb534c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*>(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)(::by_ref<::System::Threading::IThreadPoolWorkItem*>)>(
     &::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::LocalPop)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x5cb1380;
+  constexpr static std::size_t addrs = 0x5cb583c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*>(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)(::by_ref<::System::Threading::IThreadPoolWorkItem*>, ::by_ref<bool>)>(
     &::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::TrySteal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb17c4;
+  constexpr static std::size_t addrs = 0x5cb5c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)(
     ::by_ref<::System::Threading::IThreadPoolWorkItem*>, ::by_ref<bool>, int32_t)>(&::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::TrySteal)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x5cb1bbc;
+  constexpr static std::size_t addrs = 0x5cb6078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::*)()>(&::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cb1e60;
+  constexpr static std::size_t addrs = 0x5cb631c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue*>(), { ".ctor", {}, {} })));
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)(::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::System::Threading::ThreadPoolWorkQueue_QueueSegment::GetIndexes)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cb1ed0;
+  constexpr static std::size_t addrs = 0x5cb638c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_QueueSegment*>(),
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)(::by_ref<int32_t>, int32_t, ::by_ref<int32_t>, int32_t)>(
     &::System::Threading::ThreadPoolWorkQueue_QueueSegment::CompareExchangeIndexes)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5cb1eec;
+  constexpr static std::size_t addrs = 0x5cb63a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)()>(&::System::Threading::ThreadPoolWorkQueue_QueueSegment::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5cb03d8;
+  constexpr static std::size_t addrs = 0x5cb4894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_QueueSegment*>(), { ".ctor", {}, {} })));
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)()>(&::System::Threading::ThreadPoolWorkQueue_QueueSegment::IsUsedUp)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cb1794;
+  constexpr static std::size_t addrs = 0x5cb5c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_QueueSegment*>(), { "IsUsedUp", {}, {} })));
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)(::System::Threading::IThreadPoolWorkItem*)>(
     &::System::Threading::ThreadPoolWorkQueue_QueueSegment::TryEnqueue)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5cb0d50;
+  constexpr static std::size_t addrs = 0x5cb520c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_QueueSegment*>(),
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue_QueueSegment::*)(::by_ref<::System::Threading::IThreadPoolWorkItem*>)>(
     &::System::Threading::ThreadPoolWorkQueue_QueueSegment::TryDequeue)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5cb1664;
+  constexpr static std::size_t addrs = 0x5cb5b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue_QueueSegment*>(),
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueue::*)()>(&::System::Threading::ThreadPoolWorkQueue::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5cb0374;
+  constexpr static std::size_t addrs = 0x5cb4830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue*>(), { ".ctor", {}, {} })));
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::ThreadPoolWorkQueueThreadLocals* (::System::Threading::ThreadPoolWorkQueue::*)()>(
     &::System::Threading::ThreadPoolWorkQueue::EnsureCurrentThreadHasQueue)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5cb042c;
+  constexpr static std::size_t addrs = 0x5cb48e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue*>(), { "EnsureCurrentThreadHasQueue", {}, {} })));
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueue::*)()>(&::System::Threading::ThreadPoolWorkQueue::EnsureThreadRequested)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5cb0630;
+  constexpr static std::size_t addrs = 0x5cb4aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue*>(), { "EnsureThreadRequested", {}, {} })));
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueue::*)()>(&::System::Threading::ThreadPoolWorkQueue::MarkThreadRequestSatisfied)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5cb06f4;
+  constexpr static std::size_t addrs = 0x5cb4bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue*>(), { "MarkThreadRequestSatisfied", {}, {} })));
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueue::*)(::System::Threading::IThreadPoolWorkItem*, bool)>(
     &::System::Threading::ThreadPoolWorkQueue::Enqueue)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5cb0740;
+  constexpr static std::size_t addrs = 0x5cb4bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ThreadPoolWorkQueue::*)(::System::Threading::IThreadPoolWorkItem*)>(
     &::System::Threading::ThreadPoolWorkQueue::LocalFindAndPop)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5cb0df8;
+  constexpr static std::size_t addrs = 0x5cb52b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueue::*)(
     ::System::Threading::ThreadPoolWorkQueueThreadLocals*, ::by_ref<::System::Threading::IThreadPoolWorkItem*>, ::by_ref<bool>)>(&::System::Threading::ThreadPoolWorkQueue::Dequeue)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5cb11b8;
+  constexpr static std::size_t addrs = 0x5cb5674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -480,7 +480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Threading::ThreadPoolWorkQueue::Dispatch)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x5cb17cc;
+  constexpr static std::size_t addrs = 0x5cb5c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueue*>(), { "Dispatch", {}, {} })));

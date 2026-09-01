@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphLogger.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphLogger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,22 +40,22 @@ public:
   /// @brief Field m_LogMap, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LogMap, put = __cordl_internal_set_m_LogMap)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Text::StringBuilder*>* m_LogMap;
 
-  /// @brief Method DecrementIndentation, addr 0x67d8ab4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method DecrementIndentation, addr 0x67e0530, size 0x78, virtual false, abstract: false, final false
   inline void DecrementIndentation(int32_t value);
 
-  /// @brief Method GetAllLogs, addr 0x67d8d6c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetAllLogs, addr 0x67e07e8, size 0x1b4, virtual false, abstract: false, final false
   inline ::StringW GetAllLogs();
 
-  /// @brief Method GetLog, addr 0x67d8cbc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLog, addr 0x67e0738, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW GetLog(::StringW logName);
 
-  /// @brief Method IncrementIndentation, addr 0x67d89d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IncrementIndentation, addr 0x67e0450, size 0x74, virtual false, abstract: false, final false
   inline void IncrementIndentation(int32_t value);
 
-  /// @brief Method Initialize, addr 0x67d8b2c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x67e05a8, size 0x100, virtual false, abstract: false, final false
   inline void Initialize(::StringW logName);
 
-  /// @brief Method LogLine, addr 0x67d8c2c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LogLine, addr 0x67e06a8, size 0x90, virtual false, abstract: false, final false
   inline void LogLine(::StringW format, ::ArrayW<::System::Object*> args);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* New_ctor();
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_m_LogMap(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Text::StringBuilder*>* value);
 
-  /// @brief Method .ctor, addr 0x67d8f20, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e099c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   RenderGraphLogger(RenderGraphLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12422 };
 
   /// @brief Field m_LogMap, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Text::StringBuilder*>* ___m_LogMap;

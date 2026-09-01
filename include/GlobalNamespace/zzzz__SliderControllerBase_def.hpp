@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SliderControllerBase.hpp"
+// IWYU pragma private; include "GlobalNamespace\SliderControllerBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
                       put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       _materialPropertyBlockController;
 
-  /// @brief Method AnimateCutout, addr 0x5975b68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AnimateCutout, addr 0x59794fc, size 0x20, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
   static inline ::GlobalNamespace::SliderControllerBase* New_ctor();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x5976564, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5979ef8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TextStyleSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\TextStyleSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__textStyle(::GlobalNamespace::TextStyle* value);
 
-  /// @brief Method .ctor, addr 0x32c70a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32cae9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_languageOverrides, addr 0x32c7098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_languageOverrides, addr 0x32cae94, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* get_languageOverrides();
 
-  /// @brief Method get_textStyle, addr 0x32c7090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textStyle, addr 0x32cae8c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadOnlyTextStyle* get_textStyle();
 
 protected:
@@ -81,7 +81,7 @@ public:
   TextStyleSO(TextStyleSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23630 };
 
   /// @brief Field _textStyle, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::TextStyle* ____textStyle;

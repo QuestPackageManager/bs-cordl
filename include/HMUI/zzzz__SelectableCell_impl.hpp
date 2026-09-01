@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/SelectableCell.hpp"
+// IWYU pragma private; include "HMUI\SelectableCell.hpp"
 #include "HMUI/zzzz__Interactable_impl.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(
     ::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*)>(&::HMUI::SelectableCell::add_selectionDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588b1b4;
+  constexpr static std::size_t addrs = 0x588ab7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(
     ::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>*)>(&::HMUI::SelectableCell::remove_selectionDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588b274;
+  constexpr static std::size_t addrs = 0x588ac3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>*)>(
     &::HMUI::SelectableCell::add_highlightDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588b334;
+  constexpr static std::size_t addrs = 0x588acfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>*)>(
     &::HMUI::SelectableCell::remove_highlightDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588b3f4;
+  constexpr static std::size_t addrs = 0x588adbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::System::Action_1<::UnityW<::HMUI::SelectableCell>>*)>(
     &::HMUI::SelectableCell::add_nonInteractableCellWasPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588b4b4;
+  constexpr static std::size_t addrs = 0x588ae7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::System::Action_1<::UnityW<::HMUI::SelectableCell>>*)>(
     &::HMUI::SelectableCell::remove_nonInteractableCellWasPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588b574;
+  constexpr static std::size_t addrs = 0x588af3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::SelectableCell::*)()>(&::HMUI::SelectableCell::get_highlighted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588b634;
+  constexpr static std::size_t addrs = 0x588affc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { "get_highlighted", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(bool)>(&::HMUI::SelectableCell::set_highlighted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588b63c;
+  constexpr static std::size_t addrs = 0x588b004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { "set_highlighted", {}, { ::i2c::type_of<bool>() } })));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::SelectableCell::*)()>(&::HMUI::SelectableCell::get_selected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588b644;
+  constexpr static std::size_t addrs = 0x588b00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { "get_selected", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(bool)>(&::HMUI::SelectableCell::set_selected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588b64c;
+  constexpr static std::size_t addrs = 0x588b014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { "set_selected", {}, { ::i2c::type_of<bool>() } })));
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)()>(&::HMUI::SelectableCell::Start)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x588b654;
+  constexpr static std::size_t addrs = 0x588b01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { ::i2c::class_of<::HMUI::SelectableCell*>(), 6 }));
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)()>(&::HMUI::SelectableCell::OnDisable)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x588b68c;
+  constexpr static std::size_t addrs = 0x588b054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { ::i2c::class_of<::HMUI::SelectableCell*>(), 7 }));
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(bool, ::HMUI::SelectableCell_TransitionType, ::System::Object*, bool)>(&::HMUI::SelectableCell::SetSelected)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x588b71c;
+  constexpr static std::size_t addrs = 0x588b0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::HMUI::SelectableCell_TransitionType)>(&::HMUI::SelectableCell::ClearHighlight)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x588b7a4;
+  constexpr static std::size_t addrs = 0x588b16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(bool, ::HMUI::SelectableCell_TransitionType, bool)>(&::HMUI::SelectableCell::SetHighlight)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x588b69c;
+  constexpr static std::size_t addrs = 0x588b064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::HMUI::SelectableCell_TransitionType)>(&::HMUI::SelectableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x588b7b4;
+  constexpr static std::size_t addrs = 0x588b17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { ::i2c::class_of<::HMUI::SelectableCell*>(), 22 }));
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::HMUI::SelectableCell_TransitionType)>(&::HMUI::SelectableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x588b7b8;
+  constexpr static std::size_t addrs = 0x588b180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { ::i2c::class_of<::HMUI::SelectableCell*>(), 23 }));
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::SelectableCell::OnPointerClick)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x588b7bc;
+  constexpr static std::size_t addrs = 0x588b184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { ::i2c::class_of<::HMUI::SelectableCell*>(), 24 }));
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::HMUI::SelectableCell::OnSubmit)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x588b8b0;
+  constexpr static std::size_t addrs = 0x588b278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { ::i2c::class_of<::HMUI::SelectableCell*>(), 25 }));
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::SelectableCell::OnPointerEnter)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x588b960;
+  constexpr static std::size_t addrs = 0x588b328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { ::i2c::class_of<::HMUI::SelectableCell*>(), 26 }));
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::SelectableCell::OnPointerExit)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x588b984;
+  constexpr static std::size_t addrs = 0x588b34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { ::i2c::class_of<::HMUI::SelectableCell*>(), 27 }));
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SelectableCell::*)()>(&::HMUI::SelectableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588b994;
+  constexpr static std::size_t addrs = 0x588b35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SelectableCell*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/SectionTableView.hpp"
+// IWYU pragma private; include "HMUI\SectionTableView.hpp"
 #include "HMUI/zzzz__TableView_impl.hpp"
 #include "HMUI/zzzz__SectionTableView_def.hpp"
 #include "HMUI/zzzz__SectionTableView_def.hpp"
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*)>(
     &::HMUI::SectionTableView::add_didSelectRowInSectionEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588d248;
+  constexpr static std::size_t addrs = 0x588cc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*)>(
     &::HMUI::SectionTableView::remove_didSelectRowInSectionEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588d308;
+  constexpr static std::size_t addrs = 0x588ccd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*)>(
     &::HMUI::SectionTableView::add_didSelectHeaderEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588d3c8;
+  constexpr static std::size_t addrs = 0x588cd90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*)>(
     &::HMUI::SectionTableView::remove_didSelectHeaderEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588d488;
+  constexpr static std::size_t addrs = 0x588ce50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::SectionTableView_IDataSource* (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::get_dataSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588d548;
+  constexpr static std::size_t addrs = 0x588cf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { "get_dataSource", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(::HMUI::SectionTableView_IDataSource*)>(&::HMUI::SectionTableView::set_dataSource)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x588d550;
+  constexpr static std::size_t addrs = 0x588cf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::SectionTableView::*)(int32_t)>(&::HMUI::SectionTableView::IsSectionUnfolded)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x588d57c;
+  constexpr static std::size_t addrs = 0x588cf44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { "IsSectionUnfolded", {}, { ::i2c::type_of<int32_t>() } })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::SectionTableView::*)(int32_t)>(&::HMUI::SectionTableView::CellSize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x588d5b0;
+  constexpr static std::size_t addrs = 0x588cf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { "CellSize", {}, { ::i2c::type_of<int32_t>() } })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::NumberOfCells)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x588d654;
+  constexpr static std::size_t addrs = 0x588d01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { "NumberOfCells", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::TableCell> (::HMUI::SectionTableView::*)(::HMUI::TableView*, int32_t)>(&::HMUI::SectionTableView::CellForIdx)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x588d690;
+  constexpr static std::size_t addrs = 0x588d058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::ReloadData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588d8f8;
+  constexpr static std::size_t addrs = 0x588d2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { ::i2c::class_of<::HMUI::SectionTableView*>(), 15 }));
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(bool)>(&::HMUI::SectionTableView::ReloadData)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x588d900;
+  constexpr static std::size_t addrs = 0x588d2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { "ReloadData", {}, { ::i2c::type_of<bool>() } })));
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(int32_t)>(&::HMUI::SectionTableView::DidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x588ddc0;
+  constexpr static std::size_t addrs = 0x588d788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { ::i2c::class_of<::HMUI::SectionTableView*>(), 12 }));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::UnfoldAllSections)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x588de48;
+  constexpr static std::size_t addrs = 0x588d810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { "UnfoldAllSections", {}, {} })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::FoldAll)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x588de98;
+  constexpr static std::size_t addrs = 0x588d860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { "FoldAll", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(int32_t)>(&::HMUI::SectionTableView::UnfoldSection)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x588dee4;
+  constexpr static std::size_t addrs = 0x588d8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { "UnfoldSection", {}, { ::i2c::type_of<int32_t>() } })));
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(int32_t)>(&::HMUI::SectionTableView::FoldSection)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x588e34c;
+  constexpr static std::size_t addrs = 0x588dd14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { "FoldSection", {}, { ::i2c::type_of<int32_t>() } })));
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(int32_t, int32_t, ::HMUI::TableView_ScrollPositionType, bool)>(&::HMUI::SectionTableView::ScrollToRow)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x588e71c;
+  constexpr static std::size_t addrs = 0x588e0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)(int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<bool>)>(
     &::HMUI::SectionTableView::SectionAndRowForBaseRow)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x588d818;
+  constexpr static std::size_t addrs = 0x588d1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x588e854;
+  constexpr static std::size_t addrs = 0x588e21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::SectionTableView*>(), { ".ctor", {}, {} })));

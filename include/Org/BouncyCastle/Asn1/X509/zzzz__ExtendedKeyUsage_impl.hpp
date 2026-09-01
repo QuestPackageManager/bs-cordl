@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/ExtendedKeyUsage.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\ExtendedKeyUsage.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__ExtendedKeyUsage_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__KeyPurposeID_def.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36580c0;
+  constexpr static std::size_t addrs = 0x365be80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::GetInstance)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x36580d4;
+  constexpr static std::size_t addrs = 0x365be94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* (*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::FromExtensions)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x365868c;
+  constexpr static std::size_t addrs = 0x365c44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x36582e0;
+  constexpr static std::size_t addrs = 0x365c0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3658704;
+  constexpr static std::size_t addrs = 0x365c4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)(::System::Collections::ArrayList*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3658870;
+  constexpr static std::size_t addrs = 0x365c630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x3658874;
+  constexpr static std::size_t addrs = 0x365c634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)(::Org::BouncyCastle::Asn1::X509::KeyPurposeID*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::HasKeyPurposeId)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3658cac;
+  constexpr static std::size_t addrs = 0x365ca6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)()>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::GetUsages)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3658d64;
+  constexpr static std::size_t addrs = 0x365cb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(), { "GetUsages", {}, {} })));
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)()>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::GetAllUsages)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3658e4c;
+  constexpr static std::size_t addrs = 0x365cc0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(), { "GetAllUsages", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)()>(&::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::get_Count)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3658f30;
+  constexpr static std::size_t addrs = 0x365ccf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(), { "get_Count", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)()>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3658fd8;
+  constexpr static std::size_t addrs = 0x365cd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

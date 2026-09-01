@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/RaycastUITopLevelChecker.hpp"
+// IWYU pragma private; include "HMUI\RaycastUITopLevelChecker.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__RaycastUITopLevelChecker_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RaycastUITopLevelChecker::*)()>(&::HMUI::RaycastUITopLevelChecker::Awake)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x587ca6c;
+  constexpr static std::size_t addrs = 0x587c3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RaycastUITopLevelChecker*>(), { "Awake", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::RaycastUITopLevelChecker::*)()>(&::HMUI::RaycastUITopLevelChecker::get_isOnTop)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x587cae4;
+  constexpr static std::size_t addrs = 0x587c42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RaycastUITopLevelChecker*>(), { "get_isOnTop", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RaycastUITopLevelChecker::*)()>(&::HMUI::RaycastUITopLevelChecker::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x587cd00;
+  constexpr static std::size_t addrs = 0x587c648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RaycastUITopLevelChecker*>(), { ".ctor", {}, {} })));

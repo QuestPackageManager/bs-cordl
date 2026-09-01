@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/DeserializationEventHandler.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\DeserializationEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__DeserializationEventHandler_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::DeserializationEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Runtime::Serialization::DeserializationEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5b47ab8;
+  constexpr static std::size_t addrs = 0x5b4bf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DeserializationEventHandler*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::DeserializationEventHandler::*)(::System::Object*)>(
     &::System::Runtime::Serialization::DeserializationEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b47bfc;
+  constexpr static std::size_t addrs = 0x5b4c0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::DeserializationEventHandler*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MergeElements.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\MergeElements.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,10 +65,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c* New_ctor();
 
-  /// @brief Method <Merge>b__1_0, addr 0x672c1e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Merge>b__1_0, addr 0x6733c60, size 0x14, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _Merge_b__1_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x672c1e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6733c5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c* getStaticF___9();
@@ -94,7 +94,7 @@ public:
   MergeElements___c(MergeElements___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16878 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,7 +114,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <MergePairs>b__0, addr 0x672c1f8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <MergePairs>b__0, addr 0x6733c74, size 0x70, virtual false, abstract: false, final false
   inline bool _MergePairs_b__0(::UnityEngine::ProBuilder::Face* x);
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* const& __cordl_internal_get_remove() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_remove(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* value);
 
-  /// @brief Method .ctor, addr 0x672b51c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6732f98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,7 +141,7 @@ public:
   MergeElements___c__DisplayClass0_0(MergeElements___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16879 };
 
   /// @brief Field remove, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ___remove;
@@ -165,13 +165,13 @@ public:
 
   using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0;
 
-  /// @brief Method CollapseCoincidentVertices, addr 0x672b520, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method CollapseCoincidentVertices, addr 0x6732f9c, size 0x4e8, virtual false, abstract: false, final false
   static inline void CollapseCoincidentVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Merge, addr 0x672ba08, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x6733484, size 0x404, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* Merge(::UnityEngine::ProBuilder::ProBuilderMesh* target, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method MergePairs, addr 0x672ae28, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method MergePairs, addr 0x67328a4, size 0x6f4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   MergePairs(::UnityEngine::ProBuilder::ProBuilderMesh* target,
              ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>>* pairs,
@@ -192,7 +192,7 @@ public:
   MergeElements(MergeElements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16880 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/NtlmSettings.hpp"
+// IWYU pragma private; include "Mono\Security\Protocol\Ntlm\NtlmSettings.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__NtlmAuthLevel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__NtlmSettings_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Protocol::Ntlm::NtlmAuthLevel (*)()>(&::Mono::Security::Protocol::Ntlm::NtlmSettings::get_DefaultAuthLevel)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a983ec;
+  constexpr static std::size_t addrs = 0x5a9c8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::NtlmSettings*>(), { "get_DefaultAuthLevel", {}, {} })));

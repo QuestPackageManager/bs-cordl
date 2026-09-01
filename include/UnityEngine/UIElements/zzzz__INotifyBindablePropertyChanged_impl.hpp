@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/INotifyBindablePropertyChanged.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\INotifyBindablePropertyChanged.hpp"
 #include "UnityEngine/UIElements/zzzz__INotifyBindablePropertyChanged_def.hpp"
 #include "System/zzzz__EventHandler_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindablePropertyChangedEventArgs_def.hpp"

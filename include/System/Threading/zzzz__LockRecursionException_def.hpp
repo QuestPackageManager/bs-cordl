@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/LockRecursionException.hpp"
+// IWYU pragma private; include "System\Threading\LockRecursionException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Threading::LockRecursionException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5ca47ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca8c68, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5ca4870, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca8d2c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5ca4804, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca8cc0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

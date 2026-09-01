@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RotationTimeProcessor.hpp"
+// IWYU pragma private; include "GlobalNamespace\RotationTimeProcessor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RotationTimeProcessor_def.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__EventData_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RotationTimeProcessor_RotationChangeData::*)(float_t, int32_t, bool)>(
     &::GlobalNamespace::RotationTimeProcessor_RotationChangeData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x37102c0;
+  constexpr static std::size_t addrs = 0x3716144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RotationTimeProcessor_RotationChangeData>(),
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RotationTimeProcessor___c::*)()>(&::GlobalNamespace::RotationTimeProcessor___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x371091c;
+  constexpr static std::size_t addrs = 0x37167a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RotationTimeProcessor___c*>(), { ".ctor", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RotationTimeProcessor___c::*)(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*)>(
     &::GlobalNamespace::RotationTimeProcessor___c::__ctor_b__3_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3710920;
+  constexpr static std::size_t addrs = 0x37167a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RotationTimeProcessor___c*>(),
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RotationTimeProcessor::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>*)>(&::GlobalNamespace::RotationTimeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x370fe40;
+  constexpr static std::size_t addrs = 0x3715cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RotationTimeProcessor::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::RotationEventData*>*)>(&::GlobalNamespace::RotationTimeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x37102d0;
+  constexpr static std::size_t addrs = 0x3716154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::RotationTimeProcessor_RotationChangeData, float_t)>(&::GlobalNamespace::RotationTimeProcessor::RotationApplies)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x371080c;
+  constexpr static std::size_t addrs = 0x3716690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::RotationTimeProcessor::*)(float_t)>(&::GlobalNamespace::RotationTimeProcessor::ConvertBeatToRotation)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x370fc14;
+  constexpr static std::size_t addrs = 0x3715a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RotationTimeProcessor::*)()>(&::GlobalNamespace::RotationTimeProcessor::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3710828;
+  constexpr static std::size_t addrs = 0x37166ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RotationTimeProcessor*>(), { "Reset", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::RotationTimeProcessor::SpawnRotationForEventValue)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x371020c;
+  constexpr static std::size_t addrs = 0x3716090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

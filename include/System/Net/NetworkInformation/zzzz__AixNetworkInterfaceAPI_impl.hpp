@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/AixNetworkInterfaceAPI.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\AixNetworkInterfaceAPI.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterfaceAPI_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__AixNetworkInterfaceAPI_def.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifconf_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Net::NetworkInformation::AixAddressFamily, int32_t, int32_t)>(
     &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::socket)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x634b498;
+  constexpr static std::size_t addrs = 0x6352f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Net::NetworkInformation::AixNetworkInterfaceAPI::close)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x634b538;
+  constexpr static std::size_t addrs = 0x6352fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::System::Net::NetworkInformation::AixIoctlRequest, ::by_ref<int32_t>)>(
     &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ioctl)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x634b5b0;
+  constexpr static std::size_t addrs = 0x635302c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::System::Net::NetworkInformation::AixIoctlRequest, ::by_ref<::System::Net::NetworkInformation::AixStructs::ifconf>)>(
     &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ioctl)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x634b650;
+  constexpr static std::size_t addrs = 0x63530cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::AixNetworkInterfaceAPI*>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::System::Net::NetworkInformation::AixIoctlRequest, ::by_ref<::System::Net::NetworkInformation::AixStructs::ifreq_flags>)>(
     &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ioctl)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x634b6f0;
+  constexpr static std::size_t addrs = 0x635316c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::AixNetworkInterfaceAPI*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::System::Net::NetworkInformation::AixIoctlRequest, ::by_ref<::System::Net::NetworkInformation::AixStructs::ifreq_mtu>)>(
     &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ioctl)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x634b790;
+  constexpr static std::size_t addrs = 0x635320c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::AixNetworkInterfaceAPI*>(),
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int32_t)>(&::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ByteArrayCopy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x634b830;
+  constexpr static std::size_t addrs = 0x63532ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> (::System::Net::NetworkInformation::AixNetworkInterfaceAPI::*)()>(
     &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
   constexpr static std::size_t size = 0xf2c;
-  constexpr static std::size_t addrs = 0x634b84c;
+  constexpr static std::size_t addrs = 0x63532c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::AixNetworkInterfaceAPI*>(),
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::AixNetworkInterfaceAPI::*)()>(&::System::Net::NetworkInformation::AixNetworkInterfaceAPI::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x634c998;
+  constexpr static std::size_t addrs = 0x6354414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::AixNetworkInterfaceAPI*>(), { ".ctor", {}, {} })));

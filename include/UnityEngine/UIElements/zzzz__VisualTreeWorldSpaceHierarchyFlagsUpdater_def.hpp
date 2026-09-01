@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeWorldSpaceHierarchyFlagsUpdater.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeWorldSpaceHierarchyFlagsUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,18 +28,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE VisualTreeWorldSpaceHierarchyFlagsUpdater : public ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater {
 public:
   // Declarations
-  /// @brief Method GetParentMustDirtyFlags, addr 0x6cc6708, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetParentMustDirtyFlags, addr 0x6cce28c, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElementFlags GetParentMustDirtyFlags(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::VisualTreeWorldSpaceHierarchyFlagsUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x6cc65d0, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x6cce154, size 0x138, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x6cc673c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6cce2c0, size 0x4, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method .ctor, addr 0x6cc6740, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cce2c4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

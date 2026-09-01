@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Specialized/CaseSensitiveStringDictionary.hpp"
+// IWYU pragma private; include "System\Collections\Specialized\CaseSensitiveStringDictionary.hpp"
 #include "System/Collections/Specialized/zzzz__StringDictionary_impl.hpp"
 #include "System/Collections/Specialized/zzzz__CaseSensitiveStringDictionary_def.hpp"
 //  Writing Method size for method: ::System::Collections::Specialized::CaseSensitiveStringDictionary._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::CaseSensitiveStringDictionary::*)()>(
     &::System::Collections::Specialized::CaseSensitiveStringDictionary::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63ea794;
+  constexpr static std::size_t addrs = 0x63f2210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::CaseSensitiveStringDictionary::*)(::StringW, ::StringW)>(
     &::System::Collections::Specialized::CaseSensitiveStringDictionary::Add)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x63ea798;
+  constexpr static std::size_t addrs = 0x63f2214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::CaseSensitiveStringDictionary*>(),

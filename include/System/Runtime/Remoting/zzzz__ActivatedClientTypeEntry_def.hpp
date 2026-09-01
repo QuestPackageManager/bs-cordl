@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/ActivatedClientTypeEntry.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\ActivatedClientTypeEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
 
   static inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl);
 
-  /// @brief Method ToString, addr 0x5b1c9f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5b20eb0, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_applicationUrl() const;
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set_obj_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5b1c8f0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b20dac, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl);
 
-  /// @brief Method get_ApplicationUrl, addr 0x5b1c9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationUrl, addr 0x5b20e98, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ApplicationUrl();
 
-  /// @brief Method get_ContextAttributes, addr 0x5b1c9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContextAttributes, addr 0x5b20ea0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Runtime::Remoting::Contexts::IContextAttribute*> get_ContextAttributes();
 
-  /// @brief Method get_ObjectType, addr 0x5b1c9ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x5b20ea8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
 protected:

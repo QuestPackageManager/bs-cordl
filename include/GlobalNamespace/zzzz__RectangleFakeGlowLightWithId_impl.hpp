@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RectangleFakeGlowLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace\RectangleFakeGlowLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RectangleFakeGlowLightWithId_def.hpp"
 #include "GlobalNamespace/zzzz__RectangleFakeGlow_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::RectangleFakeGlowLightWithId::*)()>(&::GlobalNamespace::RectangleFakeGlowLightWithId::get_color)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x599dfe0;
+  constexpr static std::size_t addrs = 0x59a5f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlowLightWithId*>(), { "get_color", {}, {} })));
@@ -22,11 +22,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlowLightWithId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::RectangleFakeGlowLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x599dffc;
+  constexpr static std::size_t addrs = 0x59a5f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlowLightWithId*>(), { ::i2c::class_of<::GlobalNamespace::RectangleFakeGlowLightWithId*>(), 9 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlowLightWithId*>(), { ::i2c::class_of<::GlobalNamespace::RectangleFakeGlowLightWithId*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RectangleFakeGlowLightWithId::*)()>(&::GlobalNamespace::RectangleFakeGlowLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x599e024;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x59a5f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RectangleFakeGlowLightWithId*>(), { ".ctor", {}, {} })));
@@ -84,7 +84,7 @@ inline ::UnityEngine::Color GlobalNamespace::RectangleFakeGlowLightWithId::get_c
 }
 inline void GlobalNamespace::RectangleFakeGlowLightWithId::ColorWasSet(::UnityEngine::Color color) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::RectangleFakeGlowLightWithId*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::RectangleFakeGlowLightWithId*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
 inline void GlobalNamespace::RectangleFakeGlowLightWithId::_ctor() {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatSaberNetworkUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatSaberNetworkUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatSaberNetworkUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashedUserId, addr 0x32a4a40, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetHashedUserId, addr 0x32a883c, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetHashedUserId(::StringW userId, ::GlobalNamespace::AuthenticationToken_PlatformType platform);
 
 protected:
@@ -41,7 +41,7 @@ public:
   BeatSaberNetworkUtility(BeatSaberNetworkUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18845 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

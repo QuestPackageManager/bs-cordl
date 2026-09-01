@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RotationTimeProcessor.hpp"
+// IWYU pragma private; include "GlobalNamespace\RotationTimeProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE RotationTimeProcessor_RotationChangeData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x37102c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3716144, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t rotation, bool isEarly);
 
   // Ctor Parameters []
@@ -66,7 +66,7 @@ public:
   constexpr RotationTimeProcessor_RotationChangeData(float_t beat, int32_t rotation, bool isEarly) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14908 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -107,10 +107,10 @@ public:
 
   static inline ::GlobalNamespace::RotationTimeProcessor___c* New_ctor();
 
-  /// @brief Method <.ctor>b__3_0, addr 0x3710920, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3_0, addr 0x37167a4, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__3_0(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData* e);
 
-  /// @brief Method .ctor, addr 0x371091c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37167a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::RotationTimeProcessor___c* getStaticF___9();
@@ -136,7 +136,7 @@ public:
   RotationTimeProcessor___c(RotationTimeProcessor___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -165,20 +165,20 @@ public:
   /// @brief Field currentBpmChangesDataIdx, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_currentBpmChangesDataIdx, put = __cordl_internal_set_currentBpmChangesDataIdx)) int32_t currentBpmChangesDataIdx;
 
-  /// @brief Method ConvertBeatToRotation, addr 0x370fc14, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ConvertBeatToRotation, addr 0x3715a98, size 0x17c, virtual false, abstract: false, final false
   inline int32_t ConvertBeatToRotation(float_t beat);
 
   static inline ::GlobalNamespace::RotationTimeProcessor* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
 
   static inline ::GlobalNamespace::RotationTimeProcessor* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::RotationEventData*>* rotationEventsSaveData);
 
-  /// @brief Method Reset, addr 0x3710828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x37166ac, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RotationApplies, addr 0x371080c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RotationApplies, addr 0x3716690, size 0x1c, virtual false, abstract: false, final false
   static inline bool RotationApplies(::GlobalNamespace::RotationTimeProcessor_RotationChangeData change, float_t beat);
 
-  /// @brief Method SpawnRotationForEventValue, addr 0x371020c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SpawnRotationForEventValue, addr 0x3716090, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t SpawnRotationForEventValue(int32_t index);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RotationTimeProcessor_RotationChangeData>* const& __cordl_internal_get__rotationChangeDataList() const;
@@ -193,10 +193,10 @@ public:
 
   constexpr void __cordl_internal_set_currentBpmChangesDataIdx(int32_t value);
 
-  /// @brief Method .ctor, addr 0x370fe40, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3715cc4, size 0x3cc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
 
-  /// @brief Method .ctor, addr 0x37102d0, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3716154, size 0x53c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::RotationEventData*>* rotationEventsSaveData);
 
   static inline ::ArrayW<int32_t> getStaticF__spawnRotations();
@@ -218,7 +218,7 @@ public:
   RotationTimeProcessor(RotationTimeProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14910 };
 
   /// @brief Field _rotationChangeDataList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::RotationTimeProcessor_RotationChangeData>* ____rotationChangeDataList;

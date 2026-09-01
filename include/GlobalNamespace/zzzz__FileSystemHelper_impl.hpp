@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FileSystemHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\FileSystemHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FileSystemHelper_def.hpp"
 #include "System/Security/AccessControl/zzzz__FileSystemSecurity_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::FindFirstExistedParentPath)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3308124;
+  constexpr static std::size_t addrs = 0x330bf20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::AccessControl::FileSystemSecurity*)>(&::GlobalNamespace::FileSystemHelper::HasWritePermission)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x33081b8;
+  constexpr static std::size_t addrs = 0x330bfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::HasWritePermissionOnDirectory)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x33084f0;
+  constexpr static std::size_t addrs = 0x330c2ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::HasWritePermissionOnFile)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3308504;
+  constexpr static std::size_t addrs = 0x330c300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::IsFileWritable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3308518;
+  constexpr static std::size_t addrs = 0x330c314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

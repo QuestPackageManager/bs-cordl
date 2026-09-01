@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/OfflineException.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\OfflineException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::OculusStudios::GraphQL::ClientInterface::OfflineException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5f28014, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c4d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f2806c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c52c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5f280d8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c598, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -53,7 +53,7 @@ public:
   OfflineException(OfflineException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22871 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

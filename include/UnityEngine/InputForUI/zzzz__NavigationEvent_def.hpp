@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/NavigationEvent.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\NavigationEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +92,7 @@ public:
   static ::UnityEngine::InputForUI::NavigationEvent_Type const Submit;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21812 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -167,7 +167,7 @@ public:
   static ::UnityEngine::InputForUI::NavigationEvent_Direction const Up;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21813 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -206,31 +206,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProperties"
   constexpr operator ::UnityEngine::InputForUI::IEventProperties*();
 
-  /// @brief Method DetermineMoveDirection, addr 0x6b524b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DetermineMoveDirection, addr 0x6b5a034, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputForUI::NavigationEvent_Direction DetermineMoveDirection(::UnityEngine::Vector2 vec, float_t deadZone);
 
-  /// @brief Method ToString, addr 0x6b522cc, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b59e50, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_eventModifiers, addr 0x6b522bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_eventModifiers, addr 0x6b59e40, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventModifiers get_eventModifiers();
 
-  /// @brief Method get_eventSource, addr 0x6b522a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_eventSource, addr 0x6b59e28, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputForUI::EventSource get_eventSource();
 
   /// @brief Convert to "::UnityEngine::InputForUI::IEventProperties"
   constexpr ::UnityEngine::InputForUI::IEventProperties* i___UnityEngine__InputForUI__IEventProperties();
 
-  /// @brief Method set_eventModifiers, addr 0x6b522c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventModifiers, addr 0x6b59e48, size 0x8, virtual false, abstract: false, final false
   inline void set_eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
 
-  /// @brief Method set_eventSource, addr 0x6b522ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventSource, addr 0x6b59e30, size 0x8, virtual false, abstract: false, final false
   inline void set_eventSource(::UnityEngine::InputForUI::EventSource value);
 
-  /// @brief Method set_playerId, addr 0x6b522b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x6b59e38, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(uint32_t value);
 
-  /// @brief Method set_timestamp, addr 0x6b5229c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timestamp, addr 0x6b59e20, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(::Unity::IntegerTime::DiscreteTime value);
 
   // Ctor Parameters []
@@ -247,7 +247,7 @@ public:
                             ::UnityEngine::InputForUI::EventModifiers _eventModifiers_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21814 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AndroidJavaException.hpp"
+// IWYU pragma private; include "UnityEngine\AndroidJavaException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_mJavaStackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6a22860, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a2a2dc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW javaStackTrace);
 
-  /// @brief Method get_StackTrace, addr 0x6a25afc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x6a2d578, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_StackTrace();
 
 protected:
@@ -54,7 +54,7 @@ public:
   AndroidJavaException(AndroidJavaException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20155 };
 
   /// @brief Field mJavaStackTrace, offset: 0x90, size: 0x8, def value: None
   ::StringW ___mJavaStackTrace;

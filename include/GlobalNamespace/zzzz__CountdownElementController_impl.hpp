@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CountdownElementController.hpp"
+// IWYU pragma private; include "GlobalNamespace\CountdownElementController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CountdownElementController_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CountdownElementController::*)(::StringW)>(&::GlobalNamespace::CountdownElementController::SetTextAndRunAnimation)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a07b6c;
+  constexpr static std::size_t addrs = 0x5a0fc78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CountdownElementController::*)()>(&::GlobalNamespace::CountdownElementController::StopAndHide)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a07cbc;
+  constexpr static std::size_t addrs = 0x5a0fdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CountdownElementController*>(), { "StopAndHide", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CountdownElementController::*)()>(&::GlobalNamespace::CountdownElementController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a07e38;
+  constexpr static std::size_t addrs = 0x5a0ff44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CountdownElementController*>(), { ".ctor", {}, {} })));

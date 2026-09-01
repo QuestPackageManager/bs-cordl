@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/OverlayCanvas.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\OverlayCanvas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,27 +75,27 @@ public:
   /// @brief Field _scaleViewport, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__scaleViewport, put = __cordl_internal_set__scaleViewport)) bool _scaleViewport;
 
-  /// @brief Method Init, addr 0x5a5b1f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5a5f6b0, size 0x88, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvas* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a5bd48, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a60204, size 0x78, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5a5beb8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a60374, size 0xf8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5a5bdc0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5a6027c, size 0xf8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ShouldRender, addr 0x5a5bfb0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ShouldRender, addr 0x5a6046c, size 0x194, virtual false, abstract: false, final false
   inline bool ShouldRender(::UnityEngine::Camera* baseCamera);
 
-  /// @brief Method Start, addr 0x5a5b28c, size 0xabc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a5f748, size 0xabc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5a5c144, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a60600, size 0x45c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvasPanel> const& __cordl_internal_get__Panel_k__BackingField() const;
@@ -146,17 +146,17 @@ public:
 
   constexpr void __cordl_internal_set__scaleViewport(bool value);
 
-  /// @brief Method .ctor, addr 0x5a5c5a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a60a5c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::UnityEngine::Plane> getStaticF_FrustumPlanes();
 
-  /// @brief Method get_Panel, addr 0x5a5b27c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Panel, addr 0x5a5f738, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvasPanel> get_Panel();
 
   static inline void setStaticF_FrustumPlanes(::ArrayW<::UnityEngine::Plane> value);
 
-  /// @brief Method set_Panel, addr 0x5a5b284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Panel, addr 0x5a5f740, size 0x8, virtual false, abstract: false, final false
   inline void set_Panel(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvasPanel* value);
 
 protected:
@@ -183,7 +183,7 @@ public:
   static constexpr float_t PixelsPerUnit{ static_cast<float_t>(1.0f) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18416 };
 
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;

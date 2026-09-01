@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapLevelOrPackIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapLevelOrPackIdAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,16 +40,16 @@ public:
 
   constexpr void __cordl_internal_set_filter(::GlobalNamespace::BeatmapLevelOrPackIdFilter value);
 
-  /// @brief Method .ctor, addr 0x3748924, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x374e580, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
-  /// @brief Method get_allowEmpty, addr 0x3748910, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowEmpty, addr 0x374e56c, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowEmpty();
 
-  /// @brief Method get_allowLevels, addr 0x37488fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowLevels, addr 0x374e558, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowLevels();
 
-  /// @brief Method get_allowPacks, addr 0x37488e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowPacks, addr 0x374e544, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowPacks();
 
 protected:
@@ -67,7 +67,7 @@ public:
   BeatmapLevelOrPackIdAttribute(BeatmapLevelOrPackIdAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15175 };
 
   /// @brief Field filter, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapLevelOrPackIdFilter ___filter;

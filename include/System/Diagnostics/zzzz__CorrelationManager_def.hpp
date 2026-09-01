@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/CorrelationManager.hpp"
+// IWYU pragma private; include "System\Diagnostics\CorrelationManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +24,15 @@ public:
   // Declarations
   __declspec(property(get = get_LogicalOperationStack)) ::System::Collections::Stack* LogicalOperationStack;
 
-  /// @brief Method GetLogicalOperationStack, addr 0x638f694, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalOperationStack, addr 0x6397110, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* GetLogicalOperationStack();
 
   static inline ::System::Diagnostics::CorrelationManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x638f68c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6397108, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LogicalOperationStack, addr 0x638f690, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalOperationStack, addr 0x639710c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* get_LogicalOperationStack();
 
 protected:
@@ -50,7 +50,7 @@ public:
   CorrelationManager(CorrelationManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

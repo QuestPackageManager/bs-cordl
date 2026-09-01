@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SilhouettePlaneCache.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SilhouettePlaneCache.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
 #include "UnityEngine/zzzz__Plane_impl.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SilhouettePlaneCache_Slot::*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::SilhouettePlaneCache_Slot::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x682af10;
+  constexpr static std::size_t addrs = 0x683298c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SilhouettePlaneCache_Slot>(),
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SilhouettePlaneCache::*)()>(&::UnityEngine::Rendering::SilhouettePlaneCache::Init)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x682a8f8;
+  constexpr static std::size_t addrs = 0x6832374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SilhouettePlaneCache>(), { "Init", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SilhouettePlaneCache::*)()>(&::UnityEngine::Rendering::SilhouettePlaneCache::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x682aa0c;
+  constexpr static std::size_t addrs = 0x6832488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SilhouettePlaneCache>(), { "Dispose", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SilhouettePlaneCache::*)(int32_t, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, int32_t)>(
     &::UnityEngine::Rendering::SilhouettePlaneCache::Update)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x682aac4;
+  constexpr static std::size_t addrs = 0x6832540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SilhouettePlaneCache::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::SilhouettePlaneCache::FreeUnusedSlots)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x682af24;
+  constexpr static std::size_t addrs = 0x68329a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Plane> (::UnityEngine::Rendering::SilhouettePlaneCache::*)(int32_t)>(
     &::UnityEngine::Rendering::SilhouettePlaneCache::GetSubArray)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x682b0c4;
+  constexpr static std::size_t addrs = 0x6832b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

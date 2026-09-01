@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ListViewController.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ListViewController.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseListViewController_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ListView_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ListView* (::UnityEngine::UIElements::ListViewController::*)()>(
     &::UnityEngine::UIElements::ListViewController::get_listView)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c4ba5c;
+  constexpr static std::size_t addrs = 0x6c535e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewController*>(), { "get_listView", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ListViewController::*)()>(
     &::UnityEngine::UIElements::ListViewController::MakeItem)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6c4badc;
+  constexpr static std::size_t addrs = 0x6c53660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::ListViewController::BindItem)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x6c4bbdc;
+  constexpr static std::size_t addrs = 0x6c53760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::ListViewController::UnbindItem)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6c4be1c;
+  constexpr static std::size_t addrs = 0x6c539a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::ListViewController::DestroyItem)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6c4be6c;
+  constexpr static std::size_t addrs = 0x6c539f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewController::*)()>(&::UnityEngine::UIElements::ListViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c4bea8;
+  constexpr static std::size_t addrs = 0x6c53a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewController*>(), { ".ctor", {}, {} })));

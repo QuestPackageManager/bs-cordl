@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RunLevelMenuDestination.hpp"
+// IWYU pragma private; include "GlobalNamespace\RunLevelMenuDestination.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::GameplayModifiers*, bool,
     float_t, float_t, bool, ::StringW, ::StringW, bool)>(&::GlobalNamespace::RunLevelMenuDestination::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3703bcc;
+  constexpr static std::size_t addrs = 0x3707fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

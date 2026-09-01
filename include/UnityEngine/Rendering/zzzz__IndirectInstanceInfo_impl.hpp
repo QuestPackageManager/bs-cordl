@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IndirectInstanceInfo.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IndirectInstanceInfo.hpp"
 #include "UnityEngine/Rendering/zzzz__IndirectInstanceInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "drawOffsetAndSplitMask", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceIndexAndCrossFade", ty: "int32_t", modifiers: "",
 // def_value: Some("{}") }]

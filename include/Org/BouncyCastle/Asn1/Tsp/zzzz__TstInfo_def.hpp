@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Tsp/TstInfo.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Tsp\TstInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,7 +102,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x354d5d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3551398, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TstInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TstInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -113,7 +113,7 @@ public:
                                                                   ::Org::BouncyCastle::Asn1::DerInteger* nonce, ::Org::BouncyCastle::Asn1::X509::GeneralName* tsa,
                                                                   ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method ToAsn1Object, addr 0x354df90, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3551d50, size 0x29c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy* const& __cordl_internal_get_accuracy() const;
@@ -176,42 +176,42 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x354d678, size 0x818, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3551438, size 0x818, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x354de90, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3551c50, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicyId, ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint, ::Org::BouncyCastle::Asn1::DerInteger* serialNumber,
                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* genTime, ::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy, ::Org::BouncyCastle::Asn1::DerBoolean* ordering,
                     ::Org::BouncyCastle::Asn1::DerInteger* nonce, ::Org::BouncyCastle::Asn1::X509::GeneralName* tsa, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method get_Accuracy, addr 0x354df60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Accuracy, addr 0x3551d20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* get_Accuracy();
 
-  /// @brief Method get_Extensions, addr 0x354df88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x3551d48, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method get_GenTime, addr 0x354df68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenTime, addr 0x3551d28, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_GenTime();
 
-  /// @brief Method get_MessageImprint, addr 0x354df48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MessageImprint, addr 0x3551d08, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* get_MessageImprint();
 
-  /// @brief Method get_Nonce, addr 0x354df78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x3551d38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Nonce();
 
-  /// @brief Method get_Ordering, addr 0x354df70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ordering, addr 0x3551d30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBoolean* get_Ordering();
 
-  /// @brief Method get_Policy, addr 0x354df50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x3551d10, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Policy();
 
-  /// @brief Method get_SerialNumber, addr 0x354df58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x3551d18, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
-  /// @brief Method get_Tsa, addr 0x354df80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tsa, addr 0x3551d40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Tsa();
 
-  /// @brief Method get_Version, addr 0x354df40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3551d00, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

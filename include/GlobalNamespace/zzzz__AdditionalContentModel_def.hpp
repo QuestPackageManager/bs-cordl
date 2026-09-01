@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AdditionalContentModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\AdditionalContentModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,7 +96,7 @@ public:
   static ::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14765 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -151,25 +151,25 @@ public:
   /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetExcludedLevelIdsAsync, addr 0x36f760c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetExcludedLevelIdsAsync, addr 0x36fb85c, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* IAdditionalContentEntitlementModel_GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetLevelDataVersionAsync, addr 0x36f75fc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetLevelDataVersionAsync, addr 0x36fb84c, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* IAdditionalContentEntitlementModel_GetLevelDataVersionAsync(::StringW levelId,
                                                                                                                                                      ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetLevelEntitlementStatusAsync, addr 0x36f75dc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetLevelEntitlementStatusAsync, addr 0x36fb82c, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetLevelEntitlementStatusAsync(::StringW levelId,
                                                                                                                                                      ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetPackEntitlementStatusAsync, addr 0x36f75ec, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetPackEntitlementStatusAsync, addr 0x36fb83c, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetPackEntitlementStatusAsync(::StringW levelPackId,
                                                                                                                                                     ::System::Threading::CancellationToken token);
 
   /// @brief Method Initialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InvalidateData, addr 0x36f7584, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InvalidateData, addr 0x36fb7d4, size 0x3c, virtual false, abstract: false, final false
   inline void InvalidateData();
 
   /// @brief Method InvalidateDataInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -180,7 +180,7 @@ public:
 
   static inline ::GlobalNamespace::AdditionalContentModel* New_ctor();
 
-  /// @brief Method NotifyDataChanged, addr 0x36f75c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NotifyDataChanged, addr 0x36fb810, size 0x1c, virtual false, abstract: false, final false
   inline void NotifyDataChanged();
 
   /// @brief Method OpenLevelPackProductStoreAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -198,10 +198,10 @@ public:
 
   constexpr void __cordl_internal_set_didInvalidateDataEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x36f761c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36fb86c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didInvalidateDataEvent, addr 0x36f742c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_didInvalidateDataEvent, addr 0x36fb67c, size 0xac, virtual true, abstract: false, final true
   inline void add_didInvalidateDataEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IAdditionalContentEntitlementModel"
@@ -216,7 +216,7 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  /// @brief Method remove_didInvalidateDataEvent, addr 0x36f74d8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_didInvalidateDataEvent, addr 0x36fb728, size 0xac, virtual true, abstract: false, final true
   inline void remove_didInvalidateDataEvent(::System::Action* value);
 
 protected:
@@ -234,7 +234,7 @@ public:
   AdditionalContentModel(AdditionalContentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14766 };
 
   /// @brief Field didInvalidateDataEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___didInvalidateDataEvent;

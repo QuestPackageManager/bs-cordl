@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/GeneralSecurityException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\GeneralSecurityException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__GeneralSecurityException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::GeneralSecurityException::*)()>(&::Org::BouncyCastle::Security::GeneralSecurityException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x35c3c34;
+  constexpr static std::size_t addrs = 0x35c79f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::GeneralSecurityException*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::GeneralSecurityException::*)(::StringW)>(&::Org::BouncyCastle::Security::GeneralSecurityException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35c3c8c;
+  constexpr static std::size_t addrs = 0x35c7a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::GeneralSecurityException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Security::GeneralSecurityException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35c3cf8;
+  constexpr static std::size_t addrs = 0x35c7ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::GeneralSecurityException*>(),

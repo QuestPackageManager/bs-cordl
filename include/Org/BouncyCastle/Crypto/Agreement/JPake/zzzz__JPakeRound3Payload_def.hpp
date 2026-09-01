@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/JPake/JPakeRound3Payload.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\JPake\JPakeRound3Payload.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x36dad58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36deb18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 
-  /// @brief Method get_MacTag, addr 0x36db8c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacTag, addr 0x36df680, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MacTag();
 
-  /// @brief Method get_ParticipantId, addr 0x36db8b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x36df678, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/IPointerEventInternal.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\IPointerEventInternal.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEventInternal_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IPointerEventInternal.get_triggeredByOS

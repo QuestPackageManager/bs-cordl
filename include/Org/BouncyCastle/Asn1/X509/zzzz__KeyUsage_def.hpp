@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/KeyUsage.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\KeyUsage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,23 +30,23 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class CORDL_TYPE KeyUsage : public ::Org::BouncyCastle::Asn1::DerBitString {
 public:
   // Declarations
-  /// @brief Method FromExtensions, addr 0x365d550, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x3661310, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetInstance, addr 0x365d378, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3661138, size 0x138, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* New_ctor(int32_t usage);
 
-  /// @brief Method ToString, addr 0x365d634, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x36613f4, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x365d4b0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3661270, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-  /// @brief Method .ctor, addr 0x365d5c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3661388, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
 protected:

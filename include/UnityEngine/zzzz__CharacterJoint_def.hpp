@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/CharacterJoint.hpp"
+// IWYU pragma private; include "UnityEngine\CharacterJoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,127 +84,127 @@ public:
 
   constexpr void __cordl_internal_set_targetRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x6b76990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b7e514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enableProjection, addr 0x6b764d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_enableProjection, addr 0x6b7e054, size 0x80, virtual false, abstract: false, final false
   inline bool get_enableProjection();
 
-  /// @brief Method get_enableProjection_Injected, addr 0x6b76550, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enableProjection_Injected, addr 0x6b7e0d4, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_enableProjection_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_highTwistLimit, addr 0x6b75f90, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_highTwistLimit, addr 0x6b7db14, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimit get_highTwistLimit();
 
-  /// @brief Method get_highTwistLimit_Injected, addr 0x6b76030, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_highTwistLimit_Injected, addr 0x6b7dbb4, size 0x44, virtual false, abstract: false, final false
   static inline void get_highTwistLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> ret);
 
-  /// @brief Method get_lowTwistLimit, addr 0x6b75dd0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_lowTwistLimit, addr 0x6b7d954, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimit get_lowTwistLimit();
 
-  /// @brief Method get_lowTwistLimit_Injected, addr 0x6b75e70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_lowTwistLimit_Injected, addr 0x6b7d9f4, size 0x44, virtual false, abstract: false, final false
   static inline void get_lowTwistLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> ret);
 
-  /// @brief Method get_projectionAngle, addr 0x6b767f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_projectionAngle, addr 0x6b7e37c, size 0x80, virtual false, abstract: false, final false
   inline float_t get_projectionAngle();
 
-  /// @brief Method get_projectionAngle_Injected, addr 0x6b76878, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_projectionAngle_Injected, addr 0x6b7e3fc, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_projectionAngle_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_projectionDistance, addr 0x6b76660, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_projectionDistance, addr 0x6b7e1e4, size 0x80, virtual false, abstract: false, final false
   inline float_t get_projectionDistance();
 
-  /// @brief Method get_projectionDistance_Injected, addr 0x6b766e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_projectionDistance_Injected, addr 0x6b7e264, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_projectionDistance_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_swing1Limit, addr 0x6b76150, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_swing1Limit, addr 0x6b7dcd4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimit get_swing1Limit();
 
-  /// @brief Method get_swing1Limit_Injected, addr 0x6b761f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_swing1Limit_Injected, addr 0x6b7dd74, size 0x44, virtual false, abstract: false, final false
   static inline void get_swing1Limit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> ret);
 
-  /// @brief Method get_swing2Limit, addr 0x6b76310, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_swing2Limit, addr 0x6b7de94, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimit get_swing2Limit();
 
-  /// @brief Method get_swing2Limit_Injected, addr 0x6b763b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_swing2Limit_Injected, addr 0x6b7df34, size 0x44, virtual false, abstract: false, final false
   static inline void get_swing2Limit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> ret);
 
-  /// @brief Method get_swingAxis, addr 0x6b758a8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_swingAxis, addr 0x6b7d42c, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_swingAxis();
 
-  /// @brief Method get_swingAxis_Injected, addr 0x6b75948, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_swingAxis_Injected, addr 0x6b7d4cc, size 0x44, virtual false, abstract: false, final false
   static inline void get_swingAxis_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_swingLimitSpring, addr 0x6b75c1c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_swingLimitSpring, addr 0x6b7d7a0, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimitSpring get_swingLimitSpring();
 
-  /// @brief Method get_swingLimitSpring_Injected, addr 0x6b75cb4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_swingLimitSpring_Injected, addr 0x6b7d838, size 0x44, virtual false, abstract: false, final false
   static inline void get_swingLimitSpring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimitSpring> ret);
 
-  /// @brief Method get_twistLimitSpring, addr 0x6b75a68, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_twistLimitSpring, addr 0x6b7d5ec, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::SoftJointLimitSpring get_twistLimitSpring();
 
-  /// @brief Method get_twistLimitSpring_Injected, addr 0x6b75b00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_twistLimitSpring_Injected, addr 0x6b7d684, size 0x44, virtual false, abstract: false, final false
   static inline void get_twistLimitSpring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimitSpring> ret);
 
-  /// @brief Method set_enableProjection, addr 0x6b7658c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_enableProjection, addr 0x6b7e110, size 0x90, virtual false, abstract: false, final false
   inline void set_enableProjection(bool value);
 
-  /// @brief Method set_enableProjection_Injected, addr 0x6b7661c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enableProjection_Injected, addr 0x6b7e1a0, size 0x44, virtual false, abstract: false, final false
   static inline void set_enableProjection_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_highTwistLimit, addr 0x6b76074, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_highTwistLimit, addr 0x6b7dbf8, size 0x98, virtual false, abstract: false, final false
   inline void set_highTwistLimit(::UnityEngine::SoftJointLimit value);
 
-  /// @brief Method set_highTwistLimit_Injected, addr 0x6b7610c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_highTwistLimit_Injected, addr 0x6b7dc90, size 0x44, virtual false, abstract: false, final false
   static inline void set_highTwistLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> value);
 
-  /// @brief Method set_lowTwistLimit, addr 0x6b75eb4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_lowTwistLimit, addr 0x6b7da38, size 0x98, virtual false, abstract: false, final false
   inline void set_lowTwistLimit(::UnityEngine::SoftJointLimit value);
 
-  /// @brief Method set_lowTwistLimit_Injected, addr 0x6b75f4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_lowTwistLimit_Injected, addr 0x6b7dad0, size 0x44, virtual false, abstract: false, final false
   static inline void set_lowTwistLimit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> value);
 
-  /// @brief Method set_projectionAngle, addr 0x6b768b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_projectionAngle, addr 0x6b7e438, size 0x90, virtual false, abstract: false, final false
   inline void set_projectionAngle(float_t value);
 
-  /// @brief Method set_projectionAngle_Injected, addr 0x6b76944, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_projectionAngle_Injected, addr 0x6b7e4c8, size 0x4c, virtual false, abstract: false, final false
   static inline void set_projectionAngle_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_projectionDistance, addr 0x6b7671c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_projectionDistance, addr 0x6b7e2a0, size 0x90, virtual false, abstract: false, final false
   inline void set_projectionDistance(float_t value);
 
-  /// @brief Method set_projectionDistance_Injected, addr 0x6b767ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_projectionDistance_Injected, addr 0x6b7e330, size 0x4c, virtual false, abstract: false, final false
   static inline void set_projectionDistance_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_swing1Limit, addr 0x6b76234, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_swing1Limit, addr 0x6b7ddb8, size 0x98, virtual false, abstract: false, final false
   inline void set_swing1Limit(::UnityEngine::SoftJointLimit value);
 
-  /// @brief Method set_swing1Limit_Injected, addr 0x6b762cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_swing1Limit_Injected, addr 0x6b7de50, size 0x44, virtual false, abstract: false, final false
   static inline void set_swing1Limit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> value);
 
-  /// @brief Method set_swing2Limit, addr 0x6b763f4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_swing2Limit, addr 0x6b7df78, size 0x98, virtual false, abstract: false, final false
   inline void set_swing2Limit(::UnityEngine::SoftJointLimit value);
 
-  /// @brief Method set_swing2Limit_Injected, addr 0x6b7648c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_swing2Limit_Injected, addr 0x6b7e010, size 0x44, virtual false, abstract: false, final false
   static inline void set_swing2Limit_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimit> value);
 
-  /// @brief Method set_swingAxis, addr 0x6b7598c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_swingAxis, addr 0x6b7d510, size 0x98, virtual false, abstract: false, final false
   inline void set_swingAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_swingAxis_Injected, addr 0x6b75a24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_swingAxis_Injected, addr 0x6b7d5a8, size 0x44, virtual false, abstract: false, final false
   static inline void set_swingAxis_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_swingLimitSpring, addr 0x6b75cf8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_swingLimitSpring, addr 0x6b7d87c, size 0x94, virtual false, abstract: false, final false
   inline void set_swingLimitSpring(::UnityEngine::SoftJointLimitSpring value);
 
-  /// @brief Method set_swingLimitSpring_Injected, addr 0x6b75d8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_swingLimitSpring_Injected, addr 0x6b7d910, size 0x44, virtual false, abstract: false, final false
   static inline void set_swingLimitSpring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimitSpring> value);
 
-  /// @brief Method set_twistLimitSpring, addr 0x6b75b44, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_twistLimitSpring, addr 0x6b7d6c8, size 0x94, virtual false, abstract: false, final false
   inline void set_twistLimitSpring(::UnityEngine::SoftJointLimitSpring value);
 
-  /// @brief Method set_twistLimitSpring_Injected, addr 0x6b75bd8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_twistLimitSpring_Injected, addr 0x6b7d75c, size 0x44, virtual false, abstract: false, final false
   static inline void set_twistLimitSpring_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::SoftJointLimitSpring> value);
 
 protected:
@@ -222,7 +222,7 @@ public:
   CharacterJoint(CharacterJoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18636 };
 
   /// @brief Field targetRotation, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Quaternion ___targetRotation;

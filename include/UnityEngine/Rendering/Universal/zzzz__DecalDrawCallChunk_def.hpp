@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalDrawCallChunk.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalDrawCallChunk.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,15 +41,15 @@ public:
   /// @brief Field subCalls, offset 0x58, size 0x10
   __declspec(property(get = __cordl_internal_get_subCalls, put = __cordl_internal_set_subCalls)) ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall> subCalls;
 
-  /// @brief Method Dispose, addr 0x68527dc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x685a258, size 0xd4, virtual true, abstract: false, final false
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::Universal::DecalDrawCallChunk* New_ctor();
 
-  /// @brief Method RemoveAtSwapBack, addr 0x6852624, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method RemoveAtSwapBack, addr 0x685a0a0, size 0xf4, virtual true, abstract: false, final false
   inline void RemoveAtSwapBack(int32_t entityIndex);
 
-  /// @brief Method SetCapacity, addr 0x6852718, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x685a194, size 0xc4, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t newCapacity);
 
   constexpr ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> const& __cordl_internal_get_decalToWorlds() const;
@@ -82,13 +82,13 @@ public:
 
   constexpr void __cordl_internal_set_subCalls(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::DecalSubDrawCall> value);
 
-  /// @brief Method .ctor, addr 0x68528b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685a32c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_subCallCount, addr 0x6852618, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_subCallCount, addr 0x685a094, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_subCallCount();
 
-  /// @brief Method set_subCallCount, addr 0x685260c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_subCallCount, addr 0x685a088, size 0xc, virtual false, abstract: false, final false
   inline void set_subCallCount(int32_t value);
 
 protected:
@@ -106,7 +106,7 @@ public:
   DecalDrawCallChunk(DecalDrawCallChunk const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12691 };
 
   /// @brief Field decalToWorlds, offset: 0x28, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4x4> ___decalToWorlds;

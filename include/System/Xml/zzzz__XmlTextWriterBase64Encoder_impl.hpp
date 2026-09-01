@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlTextWriterBase64Encoder.hpp"
+// IWYU pragma private; include "System\Xml\XmlTextWriterBase64Encoder.hpp"
 #include "System/Xml/zzzz__Base64Encoder_impl.hpp"
 #include "System/Xml/zzzz__XmlTextWriterBase64Encoder_def.hpp"
 #include "System/Xml/zzzz__XmlTextEncoder_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlTextWriterBase64Encoder::*)(::System::Xml::XmlTextEncoder*)>(&::System::Xml::XmlTextWriterBase64Encoder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x618b11c;
+  constexpr static std::size_t addrs = 0x6192b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlTextWriterBase64Encoder::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::System::Xml::XmlTextWriterBase64Encoder::WriteChars)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x618b140;
+  constexpr static std::size_t addrs = 0x6192bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

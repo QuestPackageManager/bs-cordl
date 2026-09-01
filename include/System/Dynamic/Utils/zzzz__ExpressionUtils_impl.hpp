@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Dynamic/Utils/ExpressionUtils.hpp"
+// IWYU pragma private; include "System\Dynamic\Utils\ExpressionUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Dynamic/Utils/zzzz__ExpressionUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Reflec
                                                                 ::by_ref<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*>, ::StringW)>(
     &::System::Dynamic::Utils::ExpressionUtils::ValidateArgumentTypes)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x5fc1618;
+  constexpr static std::size_t addrs = 0x5fc9094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Reflection::MethodBase*, ::System::Linq::Expressions::ExpressionType, int32_t,
                                                                 ::ArrayW<::System::Reflection::ParameterInfo*>)>(&::System::Dynamic::Utils::ExpressionUtils::ValidateArgumentCount)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5fc196c;
+  constexpr static std::size_t addrs = 0x5fc93e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Linq::Expressions::Expression* (*)(::System::Reflection::MethodBase*, ::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*,
                                                              ::System::Reflection::ParameterInfo*, ::StringW, ::StringW, int32_t)>(&::System::Dynamic::Utils::ExpressionUtils::ValidateOneArgument)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x5fc1a18;
+  constexpr static std::size_t addrs = 0x5fc9494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Linq::Expressions::Expression*, ::StringW)>(&::System::Dynamic::Utils::ExpressionUtils::RequiresCanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc20c0;
+  constexpr static std::size_t addrs = 0x5fc9b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Linq::Expressions::Expression*, ::StringW, int32_t)>(&::System::Dynamic::Utils::ExpressionUtils::RequiresCanRead)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5fc1c3c;
+  constexpr static std::size_t addrs = 0x5fc96b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::System::Linq::Expressions::Expression*>)>(&::System::Dynamic::Utils::ExpressionUtils::TryQuote)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5fc1f9c;
+  constexpr static std::size_t addrs = 0x5fc9a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*> (*)(::System::Reflection::MethodBase*, ::System::Linq::Expressions::ExpressionType)>(
     &::System::Dynamic::Utils::ExpressionUtils::GetParametersForValidation)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5fc18d0;
+  constexpr static std::size_t addrs = 0x5fc934c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Linq::Expressions::LambdaExpression*)>(&::System::Dynamic::Utils::ExpressionUtils::ValidateArgumentCount)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5fc2294;
+  constexpr static std::size_t addrs = 0x5fc9d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::Utils::ExpressionUtils*>(),

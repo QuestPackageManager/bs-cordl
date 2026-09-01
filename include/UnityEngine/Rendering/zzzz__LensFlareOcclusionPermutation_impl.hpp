@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LensFlareOcclusionPermutation.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LensFlareOcclusionPermutation.hpp"
 #include "UnityEngine/Rendering/zzzz__LensFlareOcclusionPermutation_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::LensFlareOcclusionPermutation::LensFlareOcclusionPermutation(int32_t value__) noexcept {

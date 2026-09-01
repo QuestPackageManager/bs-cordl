@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteDebris.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteDebris.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteDebris_Pool::*)()>(&::GlobalNamespace::NoteDebris_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58d5790;
+  constexpr static std::size_t addrs = 0x58d5140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteDebris_Pool*>(), { ".ctor", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* (::GlobalNamespace::NoteDebris::*)()>(
     &::GlobalNamespace::NoteDebris::get_didFinishEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58d4d14;
+  constexpr static std::size_t addrs = 0x58d46c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteDebris*>(), { "get_didFinishEvent", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteDebris::*)()>(&::GlobalNamespace::NoteDebris::Awake)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x58d4d1c;
+  constexpr static std::size_t addrs = 0x58d46cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteDebris*>(), { "Awake", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteDebris::*)()>(&::GlobalNamespace::NoteDebris::Update)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x58d4db8;
+  constexpr static std::size_t addrs = 0x58d4768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteDebris*>(), { "Update", {}, {} })));
@@ -82,7 +82,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::ColorType, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, bool)>(&::GlobalNamespace::NoteDebris::Init)> {
   constexpr static std::size_t size = 0x5b8;
-  constexpr static std::size_t addrs = 0x58d501c;
+  constexpr static std::size_t addrs = 0x58d49cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteDebris::*)()>(&::GlobalNamespace::NoteDebris::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58d55d4;
+  constexpr static std::size_t addrs = 0x58d4f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteDebris*>(), { ".ctor", {}, {} })));

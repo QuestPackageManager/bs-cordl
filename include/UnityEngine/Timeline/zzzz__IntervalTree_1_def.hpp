@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/IntervalTree_1.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\IntervalTree_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   constexpr IntervalTree_1_Entry(int64_t intervalStart, int64_t intervalEnd, T item) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19203 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -157,7 +157,7 @@ public:
   IntervalTree_1(IntervalTree_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19204 };
 
   /// @brief Field kCenterUnknown offset 0xffffffff size 0x8
   static constexpr int64_t kCenterUnknown{ static_cast<int64_t>(0x7fffffffffffffff) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/DHKeyGeneratorHelper.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\DHKeyGeneratorHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +31,15 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* Instance;
 
-  /// @brief Method CalculatePrivate, addr 0x33d1cc8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method CalculatePrivate, addr 0x33d5a88, size 0x1d4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CalculatePublic, addr 0x33d1e9c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePublic, addr 0x33d5c5c, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33d1ecc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d5c8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* getStaticF_Instance();

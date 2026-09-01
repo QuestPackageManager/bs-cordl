@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextHandleTemporaryCache.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextHandleTemporaryCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,24 +42,24 @@ public:
   /// @brief Field syncRoot, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_syncRoot, put = __cordl_internal_set_syncRoot)) ::System::Object* syncRoot;
 
-  /// @brief Method AddTextInfoToCache, addr 0x6c093c4, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method AddTextInfoToCache, addr 0x6c10f48, size 0x480, virtual false, abstract: false, final false
   inline void AddTextInfoToCache(::UnityEngine::TextCore::Text::TextHandle* textHandle, int32_t hashCode);
 
-  /// @brief Method ClearTemporaryCache, addr 0x6c092c0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ClearTemporaryCache, addr 0x6c10e44, size 0xd8, virtual false, abstract: false, final false
   inline void ClearTemporaryCache();
 
   static inline ::UnityEngine::TextCore::Text::TextHandleTemporaryCache* New_ctor();
 
-  /// @brief Method RecycleTextInfoFromCache, addr 0x6c09984, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method RecycleTextInfoFromCache, addr 0x6c11508, size 0x264, virtual false, abstract: false, final false
   inline void RecycleTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
-  /// @brief Method RefreshCaching, addr 0x6c09844, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method RefreshCaching, addr 0x6c113c8, size 0x140, virtual false, abstract: false, final false
   inline void RefreshCaching(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
-  /// @brief Method RemoveTextInfoFromCache, addr 0x6c09be8, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method RemoveTextInfoFromCache, addr 0x6c1176c, size 0x1b0, virtual true, abstract: false, final false
   inline void RemoveTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
-  /// @brief Method UpdateCurrentFrame, addr 0x6c09d98, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateCurrentFrame, addr 0x6c1191c, size 0x40, virtual false, abstract: false, final false
   inline void UpdateCurrentFrame();
 
   constexpr int32_t const& __cordl_internal_get_currentFrame() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_syncRoot(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6c09dd8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1195c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,7 +98,7 @@ public:
   TextHandleTemporaryCache(TextHandleTemporaryCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17275 };
 
   /// @brief Field s_MinFramesInCache offset 0xffffffff size 0x4
   static constexpr int32_t s_MinFramesInCache{ static_cast<int32_t>(0x2) };

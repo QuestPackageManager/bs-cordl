@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/RegexTree.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\RegexTree.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexTree_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::Reg
     ::System::Text::RegularExpressions::RegexNode*, ::System::Collections::Hashtable*, ::ArrayW<int32_t>, int32_t, ::System::Collections::Hashtable*, ::ArrayW<::StringW>,
     ::System::Text::RegularExpressions::RegexOptions)>(&::System::Text::RegularExpressions::RegexTree::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6387cf8;
+  constexpr static std::size_t addrs = 0x638f774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

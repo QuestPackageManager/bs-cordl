@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SubsystemsImplementation/SubsystemDescriptorStore.hpp"
+// IWYU pragma private; include "UnityEngine\SubsystemsImplementation\SubsystemDescriptorStore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemDescriptorStore_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::IntegratedSubsystemDescriptor*)>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::InitializeManagedDescriptor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6bb1314;
+  constexpr static std::size_t addrs = 0x6bb8e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::ClearManagedDescriptors)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6bb1400;
+  constexpr static std::size_t addrs = 0x6bb8f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::ReportSingleSubsystemAnalytics)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6bb1590;
+  constexpr static std::size_t addrs = 0x6bb9114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::SubsystemDescriptor*)>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::RegisterDeprecatedDescriptor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6bb0a7c;
+  constexpr static std::size_t addrs = 0x6bb8600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::ReportSingleSubsystemAnalytics_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bb16dc;
+  constexpr static std::size_t addrs = 0x6bb9260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

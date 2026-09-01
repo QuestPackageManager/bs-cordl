@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/Leaderboards/BeatLeaderboardsState.hpp"
+// IWYU pragma private; include "BeatSaber\Main\Leaderboards\BeatLeaderboardsState.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__BeatLeaderboardsState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboardsState::BeatLeaderboardsState(int32_t value__) noexcept {

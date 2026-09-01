@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ShaderWarmupSceneStart.hpp"
+// IWYU pragma private; include "GlobalNamespace\ShaderWarmupSceneStart.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,21 +69,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x590ef0c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59128b4, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::ShaderWarmupSceneStart__Start_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x590efc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x591296c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x590efcc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5912974, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x590f004, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59129ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x590ef08, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59128b0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ShaderWarmupSceneStart> value);
 
-  /// @brief Method .ctor, addr 0x590eefc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59128a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -131,7 +131,7 @@ public:
   ShaderWarmupSceneStart__Start_d__2(ShaderWarmupSceneStart__Start_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6757 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -171,7 +171,7 @@ public:
 
   static inline ::GlobalNamespace::ShaderWarmupSceneStart* New_ctor();
 
-  /// @brief Method Start, addr 0x590eea8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5912850, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -186,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::ShaderWarmupSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x590ef04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59128ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -204,7 +204,7 @@ public:
   ShaderWarmupSceneStart(ShaderWarmupSceneStart const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6758 };
 
   /// @brief Field _sceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::ShaderWarmupSceneSetupData* ____sceneSetupData;

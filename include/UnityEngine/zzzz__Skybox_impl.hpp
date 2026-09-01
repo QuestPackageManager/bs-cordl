@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Skybox.hpp"
+// IWYU pragma private; include "UnityEngine\Skybox.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__Skybox_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Skybox::*)()>(&::UnityEngine::Skybox::get_material)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6a9cf38;
+  constexpr static std::size_t addrs = 0x6aa4950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Skybox*>(), { "get_material", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Skybox::get_material_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a9d088;
+  constexpr static std::size_t addrs = 0x6aa4aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

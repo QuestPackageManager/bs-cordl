@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlAsyncCheckReaderWithNS.hpp"
+// IWYU pragma private; include "System\Xml\XmlAsyncCheckReaderWithNS.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReader_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReaderWithNS_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithNS::*)(::System::Xml::XmlReader*)>(&::System::Xml::XmlAsyncCheckReaderWithNS::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x61ac058;
+  constexpr static std::size_t addrs = 0x61b3ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (
     ::System::Xml::XmlAsyncCheckReaderWithNS::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::XmlAsyncCheckReaderWithNS::System_Xml_IXmlNamespaceResolver_GetNamespacesInScope)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x61acf94;
+  constexpr static std::size_t addrs = 0x61b4a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlAsyncCheckReaderWithNS::*)(::StringW)>(
     &::System::Xml::XmlAsyncCheckReaderWithNS::System_Xml_IXmlNamespaceResolver_LookupNamespace)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x61ad048;
+  constexpr static std::size_t addrs = 0x61b4ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlAsyncCheckReaderWithNS::*)(::StringW)>(
     &::System::Xml::XmlAsyncCheckReaderWithNS::System_Xml_IXmlNamespaceResolver_LookupPrefix)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x61ad100;
+  constexpr static std::size_t addrs = 0x61b4b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

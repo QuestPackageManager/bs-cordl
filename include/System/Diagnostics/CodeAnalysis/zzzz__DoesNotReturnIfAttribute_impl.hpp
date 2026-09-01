@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/CodeAnalysis/DoesNotReturnIfAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\CodeAnalysis\DoesNotReturnIfAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/CodeAnalysis/zzzz__DoesNotReturnIfAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::*)(bool)>(
     &::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cce5a0;
+  constexpr static std::size_t addrs = 0x5cd2a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::*)()>(
     &::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::get_ParameterValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cce5a8;
+  constexpr static std::size_t addrs = 0x5cd2a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

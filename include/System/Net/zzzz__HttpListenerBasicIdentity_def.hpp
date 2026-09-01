@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/HttpListenerBasicIdentity.hpp"
+// IWYU pragma private; include "System\Net\HttpListenerBasicIdentity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_password(::StringW value);
 
-  /// @brief Method .ctor, addr 0x642db34, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64355b0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW username, ::StringW password);
 
 protected:
@@ -49,7 +49,7 @@ public:
   HttpListenerBasicIdentity(HttpListenerBasicIdentity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11596 };
 
   /// @brief Field password, offset: 0x88, size: 0x8, def value: None
   ::StringW ___password;

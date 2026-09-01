@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FillIndicator.hpp"
+// IWYU pragma private; include "GlobalNamespace\FillIndicator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x591f118, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5922ad4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fillAmount, addr 0x591f100, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_fillAmount, addr 0x5922abc, size 0x18, virtual false, abstract: false, final false
   inline float_t get_fillAmount();
 
-  /// @brief Method set_fillAmount, addr 0x591efdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_fillAmount, addr 0x5922998, size 0x44, virtual false, abstract: false, final false
   inline void set_fillAmount(float_t value);
 
 protected:
@@ -69,7 +69,7 @@ public:
   FillIndicator(FillIndicator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6818 };
 
   /// @brief Field _bgImage, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____bgImage;

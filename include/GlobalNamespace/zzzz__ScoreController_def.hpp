@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScoreController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScoreController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,12 +96,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<float_t>"
   constexpr operator ::System::Collections::Generic::IComparer_1<float_t>*() noexcept;
 
-  /// @brief Method Compare, addr 0x59ee32c, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x59f6400, size 0xe0, virtual true, abstract: false, final true
   inline int32_t Compare(float_t x, float_t y);
 
   static inline ::GlobalNamespace::ScoreController_ApproximateFloatComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59ee328, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f63fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<float_t>"
@@ -122,7 +122,7 @@ public:
   ScoreController_ApproximateFloatComparer(ScoreController_ApproximateFloatComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -255,36 +255,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IScoreController"
   constexpr operator ::GlobalNamespace::IScoreController*() noexcept;
 
-  /// @brief Method DespawnScoringElement, addr 0x59ed440, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method DespawnScoringElement, addr 0x59f5514, size 0x1ac, virtual false, abstract: false, final false
   inline void DespawnScoringElement(::GlobalNamespace::ScoringElement* scoringElement);
 
-  /// @brief Method HandleNoteWasCut, addr 0x59ed8c8, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x59f599c, size 0x4c4, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x59ede44, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x59f5f18, size 0x254, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x59ed81c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x59f58f0, size 0xac, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x59ee0e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x59f61b4, size 0x84, virtual false, abstract: false, final false
   inline void HandlePlayerHeadDidEnterObstacles();
 
-  /// @brief Method HasMultipleNotesOnBeat, addr 0x59ed5ec, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method HasMultipleNotesOnBeat, addr 0x59f56c0, size 0x230, virtual false, abstract: false, final false
   inline bool HasMultipleNotesOnBeat(float_t noteTime);
 
-  /// @brief Method LateUpdate, addr 0x59ecc8c, size 0x708, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59f4d60, size 0x708, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::ScoreController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59eca60, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59f4b34, size 0x22c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetEnabled, addr 0x59ec7fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetEnabled, addr 0x59f48d0, size 0x8, virtual true, abstract: false, final true
   inline void SetEnabled(bool enabled);
 
-  /// @brief Method Start, addr 0x59ec804, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59f48d8, size 0x25c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -455,51 +455,51 @@ public:
 
   constexpr void __cordl_internal_set_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method .ctor, addr 0x59ee164, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f6238, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_multiplierDidChangeEvent, addr 0x59ec354, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_multiplierDidChangeEvent, addr 0x59f4428, size 0xc0, virtual true, abstract: false, final true
   inline void add_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method add_scoreDidChangeEvent, addr 0x59ec1d4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_scoreDidChangeEvent, addr 0x59f42a8, size 0xc0, virtual true, abstract: false, final true
   inline void add_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method add_scoringForNoteFinishedEvent, addr 0x59ec654, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_scoringForNoteFinishedEvent, addr 0x59f4728, size 0xc0, virtual true, abstract: false, final true
   inline void add_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method add_scoringForNoteStartedEvent, addr 0x59ec4d4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_scoringForNoteStartedEvent, addr 0x59f45a8, size 0xc0, virtual true, abstract: false, final true
   inline void add_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
   static inline ::GlobalNamespace::ScoreController_ApproximateFloatComparer* getStaticF__approximateFloatComparer();
 
-  /// @brief Method get_immediateMaxPossibleModifiedScore, addr 0x59ec7f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_immediateMaxPossibleModifiedScore, addr 0x59f48c8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_immediateMaxPossibleModifiedScore();
 
-  /// @brief Method get_immediateMaxPossibleMultipliedScore, addr 0x59ec7e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_immediateMaxPossibleMultipliedScore, addr 0x59f48b8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_immediateMaxPossibleMultipliedScore();
 
-  /// @brief Method get_invalidated, addr 0x59ec7d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_invalidated, addr 0x59f48a8, size 0x8, virtual true, abstract: false, final true
   inline bool get_invalidated();
 
-  /// @brief Method get_modifiedScore, addr 0x59ec7ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_modifiedScore, addr 0x59f48c0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_modifiedScore();
 
-  /// @brief Method get_multipliedScore, addr 0x59ec7dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multipliedScore, addr 0x59f48b0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multipliedScore();
 
   /// @brief Convert to "::GlobalNamespace::IScoreController"
   constexpr ::GlobalNamespace::IScoreController* i___GlobalNamespace__IScoreController() noexcept;
 
-  /// @brief Method remove_multiplierDidChangeEvent, addr 0x59ec414, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_multiplierDidChangeEvent, addr 0x59f44e8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method remove_scoreDidChangeEvent, addr 0x59ec294, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_scoreDidChangeEvent, addr 0x59f4368, size 0xc0, virtual true, abstract: false, final true
   inline void remove_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method remove_scoringForNoteFinishedEvent, addr 0x59ec714, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_scoringForNoteFinishedEvent, addr 0x59f47e8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method remove_scoringForNoteStartedEvent, addr 0x59ec594, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_scoringForNoteStartedEvent, addr 0x59f4668, size 0xc0, virtual true, abstract: false, final true
   inline void remove_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
   static inline void setStaticF__approximateFloatComparer(::GlobalNamespace::ScoreController_ApproximateFloatComparer* value);
@@ -519,7 +519,7 @@ public:
   ScoreController(ScoreController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6235 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6263 };
 
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;

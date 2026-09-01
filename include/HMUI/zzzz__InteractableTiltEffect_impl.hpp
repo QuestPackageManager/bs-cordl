@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/InteractableTiltEffect.hpp"
+// IWYU pragma private; include "HMUI\InteractableTiltEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "HMUI/zzzz__InteractableTiltEffect_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InteractableTiltEffect::*)(float_t)>(&::HMUI::InteractableTiltEffect::set_effectStrengthMultiplier)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5882848;
+  constexpr static std::size_t addrs = 0x5882190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::InteractableTiltEffect::*)()>(&::HMUI::InteractableTiltEffect::get_effectStrengthMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5882904;
+  constexpr static std::size_t addrs = 0x588224c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InteractableTiltEffect*>(), { "get_effectStrengthMultiplier", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InteractableTiltEffect::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::InteractableTiltEffect::OnPointerEnter)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x588290c;
+  constexpr static std::size_t addrs = 0x5882254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InteractableTiltEffect::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::InteractableTiltEffect::OnPointerMove)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x588295c;
+  constexpr static std::size_t addrs = 0x58822a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::HMUI::InteractableTiltEffect::*)(::UnityEngine::Vector2)>(
     &::HMUI::InteractableTiltEffect::ComputeNewTargetRotation)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5882878;
+  constexpr static std::size_t addrs = 0x58821c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InteractableTiltEffect::*)()>(&::HMUI::InteractableTiltEffect::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58829ac;
+  constexpr static std::size_t addrs = 0x58822f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InteractableTiltEffect*>(), { ".ctor", {}, {} })));

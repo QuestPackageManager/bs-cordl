@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SubsystemBindings.hpp"
+// IWYU pragma private; include "UnityEngine\SubsystemBindings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SubsystemBindings_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::SubsystemBindings::DestroySubsystem)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bb06a0;
+  constexpr static std::size_t addrs = 0x6bb8224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

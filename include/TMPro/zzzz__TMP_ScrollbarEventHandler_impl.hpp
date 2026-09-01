@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_ScrollbarEventHandler.hpp"
+// IWYU pragma private; include "TMPro\TMP_ScrollbarEventHandler.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_ScrollbarEventHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_ScrollbarEventHandler::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_ScrollbarEventHandler::OnPointerClick)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x699422c;
+  constexpr static std::size_t addrs = 0x699bca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_ScrollbarEventHandler::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_ScrollbarEventHandler::OnSelect)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x699429c;
+  constexpr static std::size_t addrs = 0x699bd18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_ScrollbarEventHandler::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_ScrollbarEventHandler::OnDeselect)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x699431c;
+  constexpr static std::size_t addrs = 0x699bd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_ScrollbarEventHandler::*)()>(&::TMPro::TMP_ScrollbarEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6994398;
+  constexpr static std::size_t addrs = 0x699be14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_ScrollbarEventHandler*>(), { ".ctor", {}, {} })));

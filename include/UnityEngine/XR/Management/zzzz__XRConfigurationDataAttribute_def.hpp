@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/Management/XRConfigurationDataAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\XR\Management\XRConfigurationDataAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x69e1ed0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e994c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x69e1ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e9950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW buildSettingsKey);
 
-  /// @brief Method get_buildSettingsKey, addr 0x69e1ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildSettingsKey, addr 0x69e993c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildSettingsKey();
 
-  /// @brief Method get_displayName, addr 0x69e1eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x69e992c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method set_buildSettingsKey, addr 0x69e1ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildSettingsKey, addr 0x69e9944, size 0x8, virtual false, abstract: false, final false
   inline void set_buildSettingsKey(::StringW value);
 
-  /// @brief Method set_displayName, addr 0x69e1eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x69e9934, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   XRConfigurationDataAttribute(XRConfigurationDataAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23039 };
 
   /// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;

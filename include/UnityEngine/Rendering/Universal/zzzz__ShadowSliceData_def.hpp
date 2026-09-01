@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowSliceData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowSliceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE ShadowSliceData {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x68b4498, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x68bbf14, size 0x90, virtual false, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
                             int32_t resolution, ::UnityEngine::Rendering::ShadowSplitData splitData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12962 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c8 };

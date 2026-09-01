@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlSerializationFixupCallback.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlSerializationFixupCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializationFixupCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationFixupCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::Serialization::XmlSerializationFixupCallback::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x62f56bc;
+  constexpr static std::size_t addrs = 0x62fd138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationFixupCallback*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationFixupCallback::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlSerializationFixupCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62f5800;
+  constexpr static std::size_t addrs = 0x62fd27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationFixupCallback*>(),

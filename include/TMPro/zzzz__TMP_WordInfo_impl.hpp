@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_WordInfo.hpp"
+// IWYU pragma private; include "TMPro\TMP_WordInfo.hpp"
 #include "TMPro/zzzz__TMP_WordInfo_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_WordInfo.GetWord
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::TMP_WordInfo::*)()>(&::TMPro::TMP_WordInfo::GetWord)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6941e2c;
+  constexpr static std::size_t addrs = 0x69498a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_WordInfo>(), { "GetWord", {}, {} })));

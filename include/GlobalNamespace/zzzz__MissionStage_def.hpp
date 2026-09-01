@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionStage.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionStage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x3750d40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3756964, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_minimumMissionsToUnlock, addr 0x3750d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumMissionsToUnlock, addr 0x3756944, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minimumMissionsToUnlock();
 
-  /// @brief Method get_position, addr 0x3750d28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x375694c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
 protected:
@@ -74,7 +74,7 @@ public:
   MissionStage(MissionStage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15270 };
 
   /// @brief Field _minimumMissionsToUnlock, offset: 0x20, size: 0x4, def value: None
   int32_t ____minimumMissionsToUnlock;

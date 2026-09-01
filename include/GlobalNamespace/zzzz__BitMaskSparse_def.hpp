@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BitMaskSparse.hpp"
+// IWYU pragma private; include "GlobalNamespace\BitMaskSparse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,10 +58,10 @@ public:
 
   static inline ::GlobalNamespace::BitMaskSparse___c* New_ctor();
 
-  /// @brief Method <ToString>b__8_0, addr 0x3776ef0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__8_0, addr 0x377cb5c, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(uint32_t i);
 
-  /// @brief Method .ctor, addr 0x3776eec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x377cb58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BitMaskSparse___c* getStaticF___9();
@@ -87,7 +87,7 @@ public:
   BitMaskSparse___c(BitMaskSparse___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21164 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -121,24 +121,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x3775848, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x377b4b4, size 0x9c, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x3776bb4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x377c820, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BitMaskSparse* other);
 
-  /// @brief Method GetBits, addr 0x3776cd0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetBits, addr 0x377c93c, size 0x98, virtual true, abstract: false, final true
   inline uint64_t GetBits(int32_t offset, int32_t count);
 
   static inline ::GlobalNamespace::BitMaskSparse* New_ctor(int32_t bitCount);
 
-  /// @brief Method Serialize, addr 0x377565c, size 0x1d8, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x377b2c8, size 0x1d8, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetBits, addr 0x3776c30, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method SetBits, addr 0x377c89c, size 0xa0, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BitMaskSparse* SetBits(int32_t offset, uint64_t bits);
 
-  /// @brief Method ToString, addr 0x3776d68, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x377c9d4, size 0x130, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__bitCount_k__BackingField() const;
@@ -153,10 +153,10 @@ public:
 
   constexpr void __cordl_internal_set__sparseSet(::System::Collections::Generic::SortedSet_1<uint32_t>* value);
 
-  /// @brief Method .ctor, addr 0x37752fc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x377af68, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitCount);
 
-  /// @brief Method get_bitCount, addr 0x3776bac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bitCount, addr 0x377c818, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();
 
   /// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>"
@@ -183,7 +183,7 @@ public:
   BitMaskSparse(BitMaskSparse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21165 };
 
   /// @brief Field <bitCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____bitCount_k__BackingField;

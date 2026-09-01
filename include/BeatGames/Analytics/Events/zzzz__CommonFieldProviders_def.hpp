@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames/Analytics/Events/CommonFieldProviders.hpp"
+// IWYU pragma private; include "BeatGames\Analytics\Events\CommonFieldProviders.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +26,13 @@ public:
 
   static inline int32_t getStaticF__cachedVROSVersion();
 
-  /// @brief Method get_DeviceType, addr 0x3254f24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_DeviceType, addr 0x3258224, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW get_DeviceType();
 
-  /// @brief Method get_RuntimePlatform, addr 0x3254b6c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_RuntimePlatform, addr 0x3257e6c, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW get_RuntimePlatform();
 
-  /// @brief Method get_VROSMajorVersion, addr 0x3254c3c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method get_VROSMajorVersion, addr 0x3257f3c, size 0x2e8, virtual false, abstract: false, final false
   static inline int32_t get_VROSMajorVersion();
 
   static inline void setStaticF__cachedVROSVersion(int32_t value);
@@ -52,7 +52,7 @@ public:
   CommonFieldProviders(CommonFieldProviders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23324 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

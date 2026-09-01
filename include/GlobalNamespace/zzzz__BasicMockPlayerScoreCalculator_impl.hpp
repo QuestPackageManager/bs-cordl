@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BasicMockPlayerScoreCalculator.hpp"
+// IWYU pragma private; include "GlobalNamespace\BasicMockPlayerScoreCalculator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicMockPlayerScoreCalculator_def.hpp"
 #include "GlobalNamespace/zzzz__IMockPlayerScoreCalculator_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicMockPlayerScoreCalculator::*)(float_t, int32_t, int32_t)>(
     &::GlobalNamespace::BasicMockPlayerScoreCalculator::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5a7dfb0;
+  constexpr static std::size_t addrs = 0x5a8246c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicMockPlayerScoreCalculator*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BasicMockPlayerScoreCalculator::*)(::GlobalNamespace::MockNoteData*)>(
     &::GlobalNamespace::BasicMockPlayerScoreCalculator::GetScoreForNote)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5a7e054;
+  constexpr static std::size_t addrs = 0x5a82510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

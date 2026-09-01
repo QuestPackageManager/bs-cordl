@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DynamicAtlasCustomFilter.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DynamicAtlasCustomFilter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasCustomFilter_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasCustomFilter::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::DynamicAtlasCustomFilter::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c268d0;
+  constexpr static std::size_t addrs = 0x6c2e454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasCustomFilter*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DynamicAtlasCustomFilter::*)(
     ::UnityEngine::Texture2D*, ::by_ref<::UnityEngine::UIElements::DynamicAtlasFilters>)>(&::UnityEngine::UIElements::DynamicAtlasCustomFilter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c26950;
+  constexpr static std::size_t addrs = 0x6c2e4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DynamicAtlasCustomFilter*>(),

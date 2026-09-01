@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixCertPathValidatorUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixCertPathValidatorUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,101 +124,101 @@ public:
   /// @brief Field crlReasons, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_crlReasons, put = setStaticF_crlReasons)) ::ArrayW<::StringW> crlReasons;
 
-  /// @brief Method AddAdditionalStoreFromLocation, addr 0x35d0274, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method AddAdditionalStoreFromLocation, addr 0x35d4034, size 0x278, virtual false, abstract: false, final false
   static inline void AddAdditionalStoreFromLocation(::StringW location, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
-  /// @brief Method AddAdditionalStoresFromAltNames, addr 0x35bb588, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method AddAdditionalStoresFromAltNames, addr 0x35bf348, size 0x368, virtual false, abstract: false, final false
   static inline void AddAdditionalStoresFromAltNames(::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
-  /// @brief Method AddAdditionalStoresFromCrlDistributionPoint, addr 0x35d3d20, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method AddAdditionalStoresFromCrlDistributionPoint, addr 0x35d7ae0, size 0x224, virtual false, abstract: false, final false
   static inline void AddAdditionalStoresFromCrlDistributionPoint(::Org::BouncyCastle::Asn1::X509::CrlDistPoint* crldp, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
-  /// @brief Method FindCertificates, addr 0x35b979c, size 0x7c8, virtual false, abstract: false, final false
+  /// @brief Method FindCertificates, addr 0x35bd55c, size 0x7c8, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* FindCertificates(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* certSelect, ::System::Collections::IList* certStores);
 
-  /// @brief Method FindCertificates, addr 0x35b9f68, size 0x7c8, virtual false, abstract: false, final false
+  /// @brief Method FindCertificates, addr 0x35bdd28, size 0x7c8, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* FindCertificates(::Org::BouncyCastle::X509::Store::X509CertStoreSelector* certSelect, ::System::Collections::IList* certStores);
 
-  /// @brief Method FindIssuerCerts, addr 0x35bb8f0, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method FindIssuerCerts, addr 0x35bf6b0, size 0x374, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* FindIssuerCerts(::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams);
 
-  /// @brief Method FindTrustAnchor, addr 0x35c6184, size 0x5c4, virtual false, abstract: false, final false
+  /// @brief Method FindTrustAnchor, addr 0x35c9f44, size 0x5c4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::TrustAnchor* FindTrustAnchor(::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors);
 
-  /// @brief Method GetAlgorithmIdentifier, addr 0x35c69f0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmIdentifier, addr 0x35ca7b0, size 0xe8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetAlgorithmIdentifier(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method GetCertStatus, addr 0x35d246c, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method GetCertStatus, addr 0x35d622c, size 0x488, virtual false, abstract: false, final false
   static inline void GetCertStatus(::System::DateTime validDate, ::Org::BouncyCastle::X509::X509Crl* crl, ::System::Object* cert, ::Org::BouncyCastle::Pkix::CertStatus* certStatus);
 
-  /// @brief Method GetCompleteCrls, addr 0x35d2dd8, size 0x5b8, virtual false, abstract: false, final false
+  /// @brief Method GetCompleteCrls, addr 0x35d6b98, size 0x5b8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetCompleteCrls(::Org::BouncyCastle::Asn1::X509::DistributionPoint* dp, ::System::Object* cert, ::System::DateTime currentDate,
                                                                                    ::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX);
 
-  /// @brief Method GetCrlIssuersFromDistributionPoint, addr 0x35d28f4, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method GetCrlIssuersFromDistributionPoint, addr 0x35d66b4, size 0x4e4, virtual false, abstract: false, final false
   static inline void GetCrlIssuersFromDistributionPoint(::Org::BouncyCastle::Asn1::X509::DistributionPoint* dp, ::System::Collections::ICollection* issuerPrincipals,
                                                         ::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* selector, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
-  /// @brief Method GetDeltaCrls, addr 0x35d3390, size 0x890, virtual false, abstract: false, final false
+  /// @brief Method GetDeltaCrls, addr 0x35d7150, size 0x890, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetDeltaCrls(::System::DateTime currentDate, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX,
                                                                                 ::Org::BouncyCastle::X509::X509Crl* completeCRL);
 
-  /// @brief Method GetExtensionValue, addr 0x35d1cb8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionValue, addr 0x35d5a78, size 0xdc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* GetExtensionValue(::Org::BouncyCastle::X509::IX509Extension* ext, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetIssuerPrincipal, addr 0x35d010c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerPrincipal, addr 0x35d3ecc, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetIssuerPrincipal(::System::Object* cert);
 
-  /// @brief Method GetNextWorkingKey, addr 0x35cdf00, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method GetNextWorkingKey, addr 0x35d1cc0, size 0x3f0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetNextWorkingKey(::System::Collections::IList* certs, int32_t index);
 
-  /// @brief Method GetQualifierSet, addr 0x35d07b4, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method GetQualifierSet, addr 0x35d4574, size 0x460, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetQualifierSet(::Org::BouncyCastle::Asn1::Asn1Sequence* qualifiers);
 
-  /// @brief Method GetSerialNumber, addr 0x35d06d8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetSerialNumber, addr 0x35d4498, size 0xdc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* GetSerialNumber(::System::Object* cert);
 
-  /// @brief Method GetValidCertDateFromValidityModel, addr 0x35bc09c, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method GetValidCertDateFromValidityModel, addr 0x35bfe5c, size 0x45c, virtual false, abstract: false, final false
   static inline ::System::DateTime GetValidCertDateFromValidityModel(::Org::BouncyCastle::Pkix::PkixParameters* paramsPkix, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
-  /// @brief Method GetValidDate, addr 0x35d04ec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetValidDate, addr 0x35d42ac, size 0x88, virtual false, abstract: false, final false
   static inline ::System::DateTime GetValidDate(::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX);
 
-  /// @brief Method IsAnyPolicy, addr 0x35d0574, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method IsAnyPolicy, addr 0x35d4334, size 0x164, virtual false, abstract: false, final false
   static inline bool IsAnyPolicy(::Org::BouncyCastle::Utilities::Collections::ISet* policySet);
 
-  /// @brief Method IsIssuerTrustAnchor, addr 0x35bb374, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsIssuerTrustAnchor, addr 0x35bf134, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsIssuerTrustAnchor(::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors);
 
-  /// @brief Method IsSelfIssued, addr 0x35bbc64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsSelfIssued, addr 0x35bfa24, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsSelfIssued(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorUtilities* New_ctor();
 
-  /// @brief Method PrepareNextCertB1, addr 0x35d116c, size 0xb4c, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertB1, addr 0x35d4f2c, size 0xb4c, virtual false, abstract: false, final false
   static inline void PrepareNextCertB1(int32_t i, ::ArrayW<::System::Collections::IList*> policyNodes, ::StringW id_p, ::System::Collections::IDictionary* m_idp,
                                        ::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method PrepareNextCertB2, addr 0x35d1d94, size 0x6d8, virtual false, abstract: false, final false
+  /// @brief Method PrepareNextCertB2, addr 0x35d5b54, size 0x6d8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* PrepareNextCertB2(int32_t i, ::ArrayW<::System::Collections::IList*> policyNodes, ::StringW id_p,
                                                                              ::Org::BouncyCastle::Pkix::PkixPolicyNode* validPolicyTree);
 
-  /// @brief Method ProcessCertD1i, addr 0x35d3f44, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method ProcessCertD1i, addr 0x35d7d04, size 0x418, virtual false, abstract: false, final false
   static inline bool ProcessCertD1i(int32_t index, ::ArrayW<::System::Collections::IList*> policyNodes, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* pOid,
                                     ::Org::BouncyCastle::Utilities::Collections::ISet* pq);
 
-  /// @brief Method ProcessCertD1ii, addr 0x35d435c, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method ProcessCertD1ii, addr 0x35d811c, size 0x3f8, virtual false, abstract: false, final false
   static inline void ProcessCertD1ii(int32_t index, ::ArrayW<::System::Collections::IList*> policyNodes, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _poid,
                                      ::Org::BouncyCastle::Utilities::Collections::ISet* _pq);
 
-  /// @brief Method RemovePolicyNode, addr 0x35d0c14, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method RemovePolicyNode, addr 0x35d49d4, size 0x14c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* RemovePolicyNode(::Org::BouncyCastle::Pkix::PkixPolicyNode* validPolicyTree, ::ArrayW<::System::Collections::IList*> policyNodes,
                                                                             ::Org::BouncyCastle::Pkix::PkixPolicyNode* _node);
 
-  /// @brief Method RemovePolicyNodeRecurse, addr 0x35d0d60, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method RemovePolicyNodeRecurse, addr 0x35d4b20, size 0x40c, virtual false, abstract: false, final false
   static inline void RemovePolicyNodeRecurse(::ArrayW<::System::Collections::IList*> policyNodes, ::Org::BouncyCastle::Pkix::PkixPolicyNode* _node);
 
-  /// @brief Method .ctor, addr 0x35d4a34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d87f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ANY_POLICY();
@@ -233,7 +233,7 @@ public:
 
   static inline ::ArrayW<::StringW> getStaticF_crlReasons();
 
-  /// @brief Method isDeltaCrl, addr 0x35d3c20, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method isDeltaCrl, addr 0x35d79e0, size 0x100, virtual false, abstract: false, final false
   static inline bool isDeltaCrl(::Org::BouncyCastle::X509::X509Crl* crl);
 
   static inline void setStaticF_ANY_POLICY(::StringW value);

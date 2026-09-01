@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,10 +74,10 @@ public:
 
   __declspec(property(get = get_lobbyActivated, put = set_lobbyActivated)) bool lobbyActivated;
 
-  /// @brief Method ActivateMultiplayerLobby, addr 0x5a09380, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ActivateMultiplayerLobby, addr 0x5a1148c, size 0xc4, virtual false, abstract: false, final false
   inline void ActivateMultiplayerLobby();
 
-  /// @brief Method DeactivateMultiplayerLobby, addr 0x5a09440, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DeactivateMultiplayerLobby, addr 0x5a11550, size 0x84, virtual false, abstract: false, final false
   inline void DeactivateMultiplayerLobby();
 
   static inline ::GlobalNamespace::MultiplayerLobbyController* New_ctor();
@@ -136,13 +136,13 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x5a094c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a115d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lobbyActivated, addr 0x5a09370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lobbyActivated, addr 0x5a1147c, size 0x8, virtual false, abstract: false, final false
   inline bool get_lobbyActivated();
 
-  /// @brief Method set_lobbyActivated, addr 0x5a09378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lobbyActivated, addr 0x5a11484, size 0x8, virtual false, abstract: false, final false
   inline void set_lobbyActivated(bool value);
 
 protected:
@@ -160,7 +160,7 @@ public:
   MultiplayerLobbyController(MultiplayerLobbyController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6390 };
 
   /// @brief Field _innerCircleRadius, offset: 0x20, size: 0x4, def value: None
   float_t ____innerCircleRadius;

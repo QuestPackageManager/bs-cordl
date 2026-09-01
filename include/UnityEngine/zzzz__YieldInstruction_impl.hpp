@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/YieldInstruction.hpp"
+// IWYU pragma private; include "UnityEngine\YieldInstruction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_def.hpp"
 //  Writing Method size for method: ::UnityEngine::YieldInstruction._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::YieldInstruction::*)()>(&::UnityEngine::YieldInstruction::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ad2290;
+  constexpr static std::size_t addrs = 0x6ad9ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::YieldInstruction*>(), { ".ctor", {}, {} })));

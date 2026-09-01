@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1EncodableVector.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1EncodableVector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,31 +50,31 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x36748d4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3678694, size 0xf0, virtual false, abstract: false, final false
   inline void Add(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
-  /// @brief Method Add, addr 0x367be44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x367fc04, size 0x6c, virtual false, abstract: false, final false
   inline void Add(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
 
-  /// @brief Method AddAll, addr 0x367d328, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddAll, addr 0x36810e8, size 0x164, virtual false, abstract: false, final false
   inline void AddAll(::Org::BouncyCastle::Asn1::Asn1EncodableVector* other);
 
-  /// @brief Method AddOptional, addr 0x367d2b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddOptional, addr 0x3681078, size 0x6c, virtual false, abstract: false, final false
   inline void AddOptional(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
 
-  /// @brief Method AddOptionalTagged, addr 0x3674824, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AddOptionalTagged, addr 0x36785e4, size 0x9c, virtual false, abstract: false, final false
   inline void AddOptionalTagged(bool isExplicit, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method CloneElements, addr 0x367d71c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CloneElements, addr 0x36814dc, size 0xb8, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> CloneElements(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
 
-  /// @brief Method CopyElements, addr 0x367d590, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CopyElements, addr 0x3681350, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> CopyElements();
 
-  /// @brief Method FromEnumerable, addr 0x367cd9c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method FromEnumerable, addr 0x3680b5c, size 0x348, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* FromEnumerable(::System::Collections::IEnumerable* e);
 
-  /// @brief Method GetEnumerator, addr 0x367d574, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3681334, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* New_ctor();
@@ -83,10 +83,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> v);
 
-  /// @brief Method Reallocate, addr 0x367d1f0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Reallocate, addr 0x3680fb0, size 0xc8, virtual false, abstract: false, final false
   inline void Reallocate(int32_t minCapacity);
 
-  /// @brief Method TakeElements, addr 0x367d644, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method TakeElements, addr 0x3681404, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> TakeElements();
 
   constexpr bool const& __cordl_internal_get_copyOnWrite() const;
@@ -107,21 +107,21 @@ public:
 
   constexpr void __cordl_internal_set_elements(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> value);
 
-  /// @brief Method .ctor, addr 0x367a754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367e514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x367d0e4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3680ea4, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
-  /// @brief Method .ctor, addr 0x36747f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36785b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> v);
 
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> getStaticF_EmptyElements();
 
-  /// @brief Method get_Count, addr 0x367d56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x368132c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x367d48c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x368124c, size 0xe0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::IEnumerable"

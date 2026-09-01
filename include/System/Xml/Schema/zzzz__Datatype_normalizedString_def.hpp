@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_normalizedString.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_normalizedString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,16 +33,16 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_normalizedString* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61b8704, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c0180, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x61c0098, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x61c7b14, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_HasValueFacets, addr 0x61c00a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x61c7b1c, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_TypeCode, addr 0x61c0090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x61c7b0c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -60,7 +60,7 @@ public:
   Datatype_normalizedString(Datatype_normalizedString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

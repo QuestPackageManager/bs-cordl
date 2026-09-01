@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SaberSwingRating.hpp"
+// IWYU pragma private; include "GlobalNamespace\SaberSwingRating.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberSwingRating_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberSwingRating.NormalRating
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::SaberSwingRating::NormalRating)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x37071b8;
+  constexpr static std::size_t addrs = 0x370b5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::SaberSwingRating::BeforeCutStepRating)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3707178;
+  constexpr static std::size_t addrs = 0x370b598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::SaberSwingRating::AfterCutStepRating)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x37071e8;
+  constexpr static std::size_t addrs = 0x370b608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

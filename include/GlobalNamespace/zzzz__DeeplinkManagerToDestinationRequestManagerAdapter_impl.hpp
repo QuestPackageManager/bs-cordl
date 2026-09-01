@@ -1,9 +1,8 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DeeplinkManagerToDestinationRequestManagerAdapter.hpp"
+// IWYU pragma private; include "GlobalNamespace\DeeplinkManagerToDestinationRequestManagerAdapter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DeeplinkManagerToDestinationRequestManagerAdapter_def.hpp"
 #include "Analytics/Model/zzzz__TelemetryModel_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
 #include "GlobalNamespace/zzzz__Deeplink_def.hpp"
 #include "GlobalNamespace/zzzz__IDeeplinkManager_def.hpp"
@@ -17,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::System::Action_1<::GlobalNamespace::MenuDestination*>*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::add_didSendMenuDestinationRequestEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x597a7c8;
+  constexpr static std::size_t addrs = 0x597e15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::System::Action_1<::GlobalNamespace::MenuDestination*>*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::remove_didSendMenuDestinationRequestEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x597a888;
+  constexpr static std::size_t addrs = 0x597e21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MenuDestination* (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597a948;
+  constexpr static std::size_t addrs = 0x597e2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::MenuDestination*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x597a950;
+  constexpr static std::size_t addrs = 0x597e2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*>(),
@@ -75,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::IDeeplinkManager*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Init)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x597a970;
+  constexpr static std::size_t addrs = 0x597e304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*>(),
@@ -89,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Clear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597b1e0;
+  constexpr static std::size_t addrs = 0x597eb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::Deeplink*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::HandleDeeplinkManagerDidReceiveDeeplink)> {
   constexpr static std::size_t size = 0x69c;
-  constexpr static std::size_t addrs = 0x597ab44;
+  constexpr static std::size_t addrs = 0x597e4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*>(),
@@ -117,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x597b1e8;
+  constexpr static std::size_t addrs = 0x597eb7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,18 +135,6 @@ constexpr ::GlobalNamespace::BeatmapLevelsModel* const& GlobalNamespace::Deeplin
 constexpr void GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapLevelsModel = value;
-}
-constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get__beatmapCharacteristicCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCharacteristicCollection;
-}
-constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get__beatmapCharacteristicCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCharacteristicCollection;
-}
-constexpr void GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____beatmapCharacteristicCollection = value;
 }
 constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::__cordl_internal_get__playerDataModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

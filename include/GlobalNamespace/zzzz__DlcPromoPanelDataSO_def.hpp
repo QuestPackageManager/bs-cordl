@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DlcPromoPanelDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\DlcPromoPanelDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   static ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType const Store;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15181 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -127,7 +127,7 @@ public:
 
   static inline ::GlobalNamespace::DlcPromoPanelDataSO* New_ctor();
 
-  /// @brief Method SetMusicPackPromo, addr 0x3748d08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetMusicPackPromo, addr 0x374e964, size 0x10, virtual false, abstract: false, final false
   inline void SetMusicPackPromo(::StringW targetPromoInfoId, int32_t priority, int32_t cutOffTest);
 
   constexpr ::UnityW<::GlobalNamespace::PromoBannerInfoSO> const& __cordl_internal_get__customDlcPromoBanner() const;
@@ -172,28 +172,28 @@ public:
 
   constexpr void __cordl_internal_set__target(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3748d18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x374e974, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customDlcPromoBanner, addr 0x3748ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customDlcPromoBanner, addr 0x374e944, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PromoBannerInfoSO> get_customDlcPromoBanner();
 
-  /// @brief Method get_cutOffTest, addr 0x3748cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutOffTest, addr 0x374e92c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cutOffTest();
 
-  /// @brief Method get_dlcPromoPanelType, addr 0x3748ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dlcPromoPanelType, addr 0x374e93c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType get_dlcPromoPanelType();
 
-  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x3748cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x374e934, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minNumberOfNotOwnedPacks();
 
-  /// @brief Method get_priority, addr 0x3748d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_priority, addr 0x374e95c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_priority();
 
-  /// @brief Method get_promoId, addr 0x3748cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoId, addr 0x374e94c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_promoId();
 
-  /// @brief Method get_target, addr 0x3748cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x374e954, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_target();
 
 protected:
@@ -211,7 +211,7 @@ public:
   DlcPromoPanelDataSO(DlcPromoPanelDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15182 };
 
   /// @brief Field _cutOffTest, offset: 0x18, size: 0x4, def value: None
   int32_t ____cutOffTest;

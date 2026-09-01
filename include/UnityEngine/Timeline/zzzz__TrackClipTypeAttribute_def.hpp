@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/TrackClipTypeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\TrackClipTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set_inspectedType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x69c3974, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cb3f0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* clipClass);
 
-  /// @brief Method .ctor, addr 0x69c3984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cb400, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* clipClass, bool allowAutoCreate);
 
 protected:
@@ -65,7 +65,7 @@ public:
   TrackClipTypeAttribute(TrackClipTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19239 };
 
   /// @brief Field inspectedType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___inspectedType;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/NameInfo.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\NameInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   /// @brief Field NItype, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_NItype, put = __cordl_internal_set_NItype)) ::System::Type* NItype;
 
-  /// @brief Method Init, addr 0x5b62ea4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5b67360, size 0x20, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* New_ctor();
@@ -153,16 +153,16 @@ public:
 
   constexpr void __cordl_internal_set_NItype(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5b62ec4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b67380, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsSealed, addr 0x5b62c3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_IsSealed, addr 0x5b670f8, size 0x54, virtual false, abstract: false, final false
   inline bool get_IsSealed();
 
-  /// @brief Method get_NIname, addr 0x5b66eb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_NIname, addr 0x5b6b374, size 0x38, virtual false, abstract: false, final false
   inline ::StringW get_NIname();
 
-  /// @brief Method set_NIname, addr 0x5b66ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NIname, addr 0x5b6b3ac, size 0x8, virtual false, abstract: false, final false
   inline void set_NIname(::StringW value);
 
 protected:

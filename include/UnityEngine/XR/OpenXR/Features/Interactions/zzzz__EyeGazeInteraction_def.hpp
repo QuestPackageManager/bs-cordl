@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/EyeGazeInteraction.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\EyeGazeInteraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
 
   __declspec(property(get = get_pose, put = set_pose)) ::UnityEngine::XR::OpenXR::Input::PoseControl* pose;
 
-  /// @brief Method FinishSetup, addr 0x69f7520, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69fef9c, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice* New_ctor();
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__pose_k__BackingField(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
-  /// @brief Method .ctor, addr 0x69f7598, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ff014, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pose, addr 0x69f7510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pose, addr 0x69fef8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pose();
 
-  /// @brief Method set_pose, addr 0x69f7518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pose, addr 0x69fef94, size 0x8, virtual false, abstract: false, final false
   inline void set_pose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   EyeGazeInteraction_EyeGazeDevice(EyeGazeInteraction_EyeGazeDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18568 };
 
   /// @brief Field <pose>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____pose_k__BackingField;
@@ -98,27 +98,27 @@ public:
   // Declarations
   using EyeGazeDevice = ::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice;
 
-  /// @brief Method GetDeviceLayoutName, addr 0x69f6f28, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDeviceLayoutName, addr 0x69fe9a4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetDeviceLayoutName();
 
-  /// @brief Method GetInteractionProfileType, addr 0x69f6e74, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetInteractionProfileType, addr 0x69fe8f0, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_InteractionProfileType GetInteractionProfileType();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x69f6c38, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x69fe6b4, size 0x6c, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t instance);
 
-  /// @brief Method RegisterActionMapsWithRuntime, addr 0x69f6f6c, size 0x548, virtual true, abstract: false, final false
+  /// @brief Method RegisterActionMapsWithRuntime, addr 0x69fe9e8, size 0x548, virtual true, abstract: false, final false
   inline void RegisterActionMapsWithRuntime();
 
-  /// @brief Method RegisterDeviceLayout, addr 0x69f6ca4, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method RegisterDeviceLayout, addr 0x69fe720, size 0x160, virtual true, abstract: false, final false
   inline void RegisterDeviceLayout();
 
-  /// @brief Method UnregisterDeviceLayout, addr 0x69f6e04, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method UnregisterDeviceLayout, addr 0x69fe880, size 0x70, virtual true, abstract: false, final false
   inline void UnregisterDeviceLayout();
 
-  /// @brief Method .ctor, addr 0x69f74b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69fef30, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,7 +136,7 @@ public:
   EyeGazeInteraction(EyeGazeInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18569 };
 
   /// @brief Field extensionString offset 0xffffffff size 0x8
   static constexpr ::ConstString extensionString{ u"XR_EXT_eye_gaze_interaction" };

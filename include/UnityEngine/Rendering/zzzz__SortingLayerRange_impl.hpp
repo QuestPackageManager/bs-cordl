@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SortingLayerRange.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SortingLayerRange.hpp"
 #include "UnityEngine/Rendering/zzzz__SortingLayerRange_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SortingLayerRange (*)()>(&::UnityEngine::Rendering::SortingLayerRange::get_all)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b19cfc;
+  constexpr static std::size_t addrs = 0x6b21880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingLayerRange>(), { "get_all", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SortingLayerRange::*)(::UnityEngine::Rendering::SortingLayerRange)>(
     &::UnityEngine::Rendering::SortingLayerRange::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b20f1c;
+  constexpr static std::size_t addrs = 0x6b28aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SortingLayerRange::*)(::System::Object*)>(&::UnityEngine::Rendering::SortingLayerRange::Equals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6b20f40;
+  constexpr static std::size_t addrs = 0x6b28ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SortingLayerRange::*)()>(&::UnityEngine::Rendering::SortingLayerRange::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b20fc8;
+  constexpr static std::size_t addrs = 0x6b28b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

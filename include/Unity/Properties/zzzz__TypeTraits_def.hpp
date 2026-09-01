@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/TypeTraits.hpp"
+// IWYU pragma private; include "Unity\Properties\TypeTraits.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace Unity::Properties {
 class CORDL_TYPE TypeTraits : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsContainer, addr 0x6ba8ad4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method IsContainer, addr 0x6bb0658, size 0xfc, virtual false, abstract: false, final false
   static inline bool IsContainer(::System::Type* type);
 
 protected:
@@ -40,7 +40,7 @@ public:
   TypeTraits(TypeTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

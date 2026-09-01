@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/AttributesScope.hpp"
+// IWYU pragma private; include "Unity\Properties\AttributesScope.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6b96e2c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b9e9b0, size 0xb8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6b96b40, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9e6c4, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Properties::IProperty* target, ::Unity::Properties::IProperty* source);
 
-  /// @brief Method .ctor, addr 0x6b96d14, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9e898, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Properties::Internal::IAttributes* target, ::System::Collections::Generic::List_1<::System::Attribute*>* attributes);
 
   /// @brief Convert to "::System::IDisposable"
@@ -58,7 +58,7 @@ public:
   constexpr AttributesScope(::Unity::Properties::Internal::IAttributes* m_Target, ::System::Collections::Generic::List_1<::System::Attribute*>* m_Previous) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19616 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

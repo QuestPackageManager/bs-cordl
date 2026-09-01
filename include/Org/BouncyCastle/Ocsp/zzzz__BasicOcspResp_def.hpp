@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Ocsp/BasicOcspResp.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Ocsp\BasicOcspResp.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,39 +78,39 @@ public:
   /// @brief Field resp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp)) ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* resp;
 
-  /// @brief Method Equals, addr 0x356f35c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x357311c, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetCertList, addr 0x356e700, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method GetCertList, addr 0x35724c0, size 0x540, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetCertList();
 
-  /// @brief Method GetCertificates, addr 0x356eed4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x3572c94, size 0x178, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates(::StringW type);
 
-  /// @brief Method GetCerts, addr 0x356ec40, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method GetCerts, addr 0x3572a00, size 0x294, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*> GetCerts();
 
-  /// @brief Method GetEncoded, addr 0x356f344, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x3573104, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method GetHashCode, addr 0x356f414, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35731d4, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetResponseData, addr 0x356e67c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetResponseData, addr 0x357243c, size 0x54, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::RespData* GetResponseData();
 
-  /// @brief Method GetSignature, addr 0x356e6d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x3572498, size 0x28, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSignature();
 
-  /// @brief Method GetTbsResponseData, addr 0x356e0bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetTbsResponseData, addr 0x3571e7c, size 0xe8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetTbsResponseData();
 
-  /// @brief Method GetX509Extensions, addr 0x356e420, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x35721e0, size 0x18, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::Ocsp::BasicOcspResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* resp);
 
-  /// @brief Method Verify, addr 0x356f04c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x3572e0c, size 0x2f8, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* const& __cordl_internal_get_data() const;
@@ -125,28 +125,28 @@ public:
 
   constexpr void __cordl_internal_set_resp(::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* value);
 
-  /// @brief Method .ctor, addr 0x356e0a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3571e60, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* resp);
 
-  /// @brief Method get_ProducedAt, addr 0x356e2ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_ProducedAt, addr 0x357206c, size 0x24, virtual false, abstract: false, final false
   inline ::System::DateTime get_ProducedAt();
 
-  /// @brief Method get_ResponderId, addr 0x356e244, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_ResponderId, addr 0x3572004, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::RespID* get_ResponderId();
 
-  /// @brief Method get_ResponseExtensions, addr 0x356e408, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseExtensions, addr 0x35721c8, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_ResponseExtensions();
 
-  /// @brief Method get_Responses, addr 0x356e2d0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_Responses, addr 0x3572090, size 0x130, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Ocsp::SingleResp*> get_Responses();
 
-  /// @brief Method get_SignatureAlgName, addr 0x356e438, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgName, addr 0x35721f8, size 0x80, virtual false, abstract: false, final false
   inline ::StringW get_SignatureAlgName();
 
-  /// @brief Method get_SignatureAlgOid, addr 0x356e648, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgOid, addr 0x3572408, size 0x34, virtual false, abstract: false, final false
   inline ::StringW get_SignatureAlgOid();
 
-  /// @brief Method get_Version, addr 0x356e218, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3571fd8, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

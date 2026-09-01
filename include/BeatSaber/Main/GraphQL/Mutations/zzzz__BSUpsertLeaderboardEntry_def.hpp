@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/GraphQL/Mutations/BSUpsertLeaderboardEntry.hpp"
+// IWYU pragma private; include "BeatSaber\Main\GraphQL\Mutations\BSUpsertLeaderboardEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,21 +29,21 @@ public:
   // Declarations
   __declspec(property(get = get_Data, put = set_Data)) ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData* Data;
 
-  /// @brief Method GetPersistedQueryID, addr 0x329c504, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetPersistedQueryID, addr 0x32a0300, size 0x14, virtual true, abstract: false, final false
   inline uint64_t GetPersistedQueryID();
 
-  /// @brief Method GetVariableNames, addr 0x329c2d8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetVariableNames, addr 0x32a00d4, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
 
   static inline ::BeatSaber::Main::GraphQL::Mutations::BSUpsertLeaderboardEntry* New_ctor();
 
-  /// @brief Method .ctor, addr 0x329c518, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0314, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Data, addr 0x329c454, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x32a0250, size 0xb0, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData* get_Data();
 
-  /// @brief Method set_Data, addr 0x329c3d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x32a01d0, size 0x80, virtual false, abstract: false, final false
   inline void set_Data(::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData* value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   BSUpsertLeaderboardEntry(BSUpsertLeaderboardEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

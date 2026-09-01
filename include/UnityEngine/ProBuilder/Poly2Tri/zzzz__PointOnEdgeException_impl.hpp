@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/PointOnEdgeException.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\PointOnEdgeException.hpp"
 #include "System/zzzz__NotImplementedException_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PointOnEdgeException_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProB
     ::StringW, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x66a82f0;
+  constexpr static std::size_t addrs = 0x66afd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException*>(),

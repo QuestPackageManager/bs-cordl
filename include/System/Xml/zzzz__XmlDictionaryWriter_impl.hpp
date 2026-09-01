@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlDictionaryWriter.hpp"
+// IWYU pragma private; include "System\Xml\XmlDictionaryWriter.hpp"
 #include "System/Xml/zzzz__XmlWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlDictionaryWriter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryWriter* (*)(::System::IO::Stream*, ::System::Text::Encoding*, bool)>(
     &::System::Xml::XmlDictionaryWriter::CreateTextWriter)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x611cb88;
+  constexpr static std::size_t addrs = 0x6124604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryWriter* (*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlDictionaryWriter::CreateDictionaryWriter)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x611cc14;
+  constexpr static std::size_t addrs = 0x6124690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlDictionaryWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x611ccf4;
+  constexpr static std::size_t addrs = 0x6124770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlDictionaryWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x611cd98;
+  constexpr static std::size_t addrs = 0x6124814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlDictionaryWriter::WriteXmlnsAttribute)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x611ce3c;
+  constexpr static std::size_t addrs = 0x61248b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlDictionaryWriter::WriteXmlnsAttribute)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x611cfb0;
+  constexpr static std::size_t addrs = 0x6124a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::XmlDictionaryWriter::WriteString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x611d03c;
+  constexpr static std::size_t addrs = 0x6124ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlDictionaryWriter::WriteQualifiedName)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x611d0c0;
+  constexpr static std::size_t addrs = 0x6124b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::Guid)>(&::System::Xml::XmlDictionaryWriter::WriteValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x611d19c;
+  constexpr static std::size_t addrs = 0x6124c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::TimeSpan)>(&::System::Xml::XmlDictionaryWriter::WriteValue)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x611d1d8;
+  constexpr static std::size_t addrs = 0x6124c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::Xml::XmlDictionaryReader*, bool)>(
     &::System::Xml::XmlDictionaryWriter::WriteElementNode)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x611d27c;
+  constexpr static std::size_t addrs = 0x6124cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::StringW, ::System::Type*)>(
     &::System::Xml::XmlDictionaryWriter::WriteArrayNode)> {
   constexpr static std::size_t size = 0x7a4;
-  constexpr static std::size_t addrs = 0x611d604;
+  constexpr static std::size_t addrs = 0x6125080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(
     ::System::Xml::XmlDictionaryReader*, ::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::System::Type*)>(&::System::Xml::XmlDictionaryWriter::WriteArrayNode)> {
   constexpr static std::size_t size = 0x7a4;
-  constexpr static std::size_t addrs = 0x611dda8;
+  constexpr static std::size_t addrs = 0x6125824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::Xml::XmlDictionaryReader*, ::System::Type*)>(
     &::System::Xml::XmlDictionaryWriter::WriteArrayNode)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x611e54c;
+  constexpr static std::size_t addrs = 0x6125fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::Xml::XmlDictionaryReader*, bool)>(&::System::Xml::XmlDictionaryWriter::WriteTextNode)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x611e640;
+  constexpr static std::size_t addrs = 0x61260bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::Xml::XmlReader*, bool)>(&::System::Xml::XmlDictionaryWriter::WriteNode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x611e6e4;
+  constexpr static std::size_t addrs = 0x6126160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::Xml::XmlDictionaryReader*, bool)>(&::System::Xml::XmlDictionaryWriter::WriteNode)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x611e7a0;
+  constexpr static std::size_t addrs = 0x612621c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::System::Array*, int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::CheckArray)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x611eb54;
+  constexpr static std::size_t addrs = 0x61265d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW, ::StringW, ::ArrayW<bool>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x611ed88;
+  constexpr static std::size_t addrs = 0x6126804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<bool>,
                                                                                                     int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x611ee68;
+  constexpr static std::size_t addrs = 0x61268e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW, ::StringW, ::ArrayW<int16_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x611ef30;
+  constexpr static std::size_t addrs = 0x61269ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
                                                                                                     ::ArrayW<int16_t>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x611f010;
+  constexpr static std::size_t addrs = 0x6126a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW, ::StringW, ::ArrayW<int32_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x611f0d8;
+  constexpr static std::size_t addrs = 0x6126b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
                                                                                                     ::ArrayW<int32_t>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x611f1b8;
+  constexpr static std::size_t addrs = 0x6126c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW, ::StringW, ::ArrayW<int64_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x611f280;
+  constexpr static std::size_t addrs = 0x6126cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
                                                                                                     ::ArrayW<int64_t>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x611f360;
+  constexpr static std::size_t addrs = 0x6126ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW, ::StringW, ::ArrayW<float_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x611f428;
+  constexpr static std::size_t addrs = 0x6126ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
                                                                                                     ::ArrayW<float_t>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x611f508;
+  constexpr static std::size_t addrs = 0x6126f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW, ::StringW, ::ArrayW<double_t>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x611f5d0;
+  constexpr static std::size_t addrs = 0x612704c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
                                                                                                     ::ArrayW<double_t>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x611f6b0;
+  constexpr static std::size_t addrs = 0x612712c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW, ::StringW, ::ArrayW<::System::Decimal>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x611f778;
+  constexpr static std::size_t addrs = 0x61271f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
                                                                                                     ::ArrayW<::System::Decimal>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x611f858;
+  constexpr static std::size_t addrs = 0x61272d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW, ::StringW, ::ArrayW<::System::DateTime>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x611f920;
+  constexpr static std::size_t addrs = 0x612739c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
                                                                                                     ::ArrayW<::System::DateTime>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x611fa00;
+  constexpr static std::size_t addrs = 0x612747c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW, ::StringW, ::ArrayW<::System::Guid>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x611fac8;
+  constexpr static std::size_t addrs = 0x6127544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
                                                                                                     ::ArrayW<::System::Guid>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x611fba8;
+  constexpr static std::size_t addrs = 0x6127624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::StringW, ::StringW, ::ArrayW<::System::TimeSpan>, int32_t, int32_t)>(
     &::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x611fc70;
+  constexpr static std::size_t addrs = 0x61276ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*,
                                                                                                     ::ArrayW<::System::TimeSpan>, int32_t, int32_t)>(&::System::Xml::XmlDictionaryWriter::WriteArray)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x611fd50;
+  constexpr static std::size_t addrs = 0x61277cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -555,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryWriter::*)()>(&::System::Xml::XmlDictionaryWriter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x611fe18;
+  constexpr static std::size_t addrs = 0x6127894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryWriter*>(), { ".ctor", {}, {} })));

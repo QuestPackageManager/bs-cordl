@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/FixedList64Bytes_1.hpp"
+// IWYU pragma private; include "Unity\Collections\FixedList64Bytes_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -390,7 +390,7 @@ public:
   constexpr FixedList64Bytes_1(::Unity::Collections::FixedBytes64Align8 data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15579 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -460,7 +460,7 @@ public:
   constexpr FixedList64Bytes_1_Enumerator(::Unity::Collections::FixedList64Bytes_1<T> m_List, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15578 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/WindowsConsoleDriver.hpp"
+// IWYU pragma private; include "System\WindowsConsoleDriver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,21 +51,21 @@ public:
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
 
-  /// @brief Method GetConsoleScreenBufferInfo, addr 0x5c9cce4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetConsoleScreenBufferInfo, addr 0x5ca11a0, size 0x94, virtual false, abstract: false, final false
   static inline bool GetConsoleScreenBufferInfo(::System::IntPtr handle, ::by_ref<::System::ConsoleScreenBufferInfo> info);
 
-  /// @brief Method GetStdHandle, addr 0x5c9cc60, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetStdHandle, addr 0x5ca111c, size 0x84, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetStdHandle(::System::Handles handle);
 
-  /// @brief Method IsModifierKey, addr 0x5c9cfc0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsModifierKey, addr 0x5ca147c, size 0x34, virtual false, abstract: false, final false
   static inline bool IsModifierKey(int16_t virtualKeyCode);
 
   static inline ::System::WindowsConsoleDriver* New_ctor();
 
-  /// @brief Method ReadConsoleInput, addr 0x5c9ceb8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ReadConsoleInput, addr 0x5ca1374, size 0x108, virtual false, abstract: false, final false
   static inline bool ReadConsoleInput(::System::IntPtr handle, ::by_ref<::System::InputRecord> record, int32_t length, ::by_ref<int32_t> nread);
 
-  /// @brief Method ReadKey, addr 0x5c9cd78, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method ReadKey, addr 0x5ca1234, size 0x140, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
   constexpr int16_t const& __cordl_internal_get_defaultAttribute() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_outputHandle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5c9cc14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca10d0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IConsoleDriver"

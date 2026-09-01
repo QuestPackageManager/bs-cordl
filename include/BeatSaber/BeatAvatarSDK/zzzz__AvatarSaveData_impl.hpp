@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarSaveData.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\AvatarSaveData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarSaveData_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarSaveData::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarSaveData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32780b8;
+  constexpr static std::size_t addrs = 0x327be48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>(), { ".ctor", {}, {} })));

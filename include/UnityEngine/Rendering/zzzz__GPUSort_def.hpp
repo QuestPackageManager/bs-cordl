@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUSort.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUSort.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,7 +121,7 @@ public:
   static ::UnityEngine::Rendering::GPUSort_Stage const LocalDisperse;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12291 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -144,10 +144,10 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GPUSort_SupportResources {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x67bcff8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x67c4a74, size 0x38, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Load, addr 0x67bcf6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x67c49e8, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUSort_SupportResources Load(::UnityEngine::Rendering::GPUSort_RenderGraphResources renderGraphResources);
 
   // Ctor Parameters []
@@ -159,7 +159,7 @@ public:
   constexpr GPUSort_SupportResources(::UnityEngine::GraphicsBuffer* sortBufferKeys, ::UnityEngine::GraphicsBuffer* sortBufferValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12294 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -199,7 +199,7 @@ public:
                          ::UnityEngine::Rendering::GPUSort_SupportResources resources, int32_t workGroupCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12292 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -247,7 +247,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GPUSort_RenderGraphResources {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x67bce84, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x67c4900, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUSort_RenderGraphResources Create(int32_t count, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder builder);
 
@@ -260,7 +260,7 @@ public:
   constexpr GPUSort_RenderGraphResources(::UnityEngine::Rendering::RenderGraphModule::BufferHandle sortBufferKeys, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle sortBufferValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12293 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -296,7 +296,7 @@ public:
   constexpr GPUSort_SystemResources(::UnityW<::UnityEngine::ComputeShader> computeAsset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12295 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -329,19 +329,19 @@ public:
 
   using SystemResources = ::UnityEngine::Rendering::GPUSort_SystemResources;
 
-  /// @brief Method CopyBuffer, addr 0x67bcab4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CopyBuffer, addr 0x67c4530, size 0x1e8, virtual false, abstract: false, final false
   inline void CopyBuffer(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* src, ::UnityEngine::GraphicsBuffer* dst);
 
-  /// @brief Method Dispatch, addr 0x67bccac, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x67c4728, size 0x1d8, virtual false, abstract: false, final false
   inline void Dispatch(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::GPUSort_Args args);
 
-  /// @brief Method DispatchStage, addr 0x67bc7f4, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method DispatchStage, addr 0x67c4270, size 0x2c0, virtual false, abstract: false, final false
   inline void DispatchStage(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::GPUSort_Args args, uint32_t h, ::UnityEngine::Rendering::GPUSort_Stage stage);
 
-  /// @brief Method DivRoundUp, addr 0x67bcc9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DivRoundUp, addr 0x67c4718, size 0x10, virtual false, abstract: false, final false
   static inline int32_t DivRoundUp(int32_t x, int32_t y);
 
-  /// @brief Method .ctor, addr 0x67bc63c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c40b8, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::GPUSort_SystemResources resources);
 
   // Ctor Parameters []
@@ -353,7 +353,7 @@ public:
   constexpr GPUSort(::ArrayW<::UnityEngine::Rendering::LocalKeyword> m_Keywords, ::UnityEngine::Rendering::GPUSort_SystemResources resources) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12296 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

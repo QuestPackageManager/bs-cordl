@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/CollectionChangeEventHandler.hpp"
+// IWYU pragma private; include "System\ComponentModel\CollectionChangeEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/ComponentModel/zzzz__CollectionChangeEventHandler_def.hpp"
 #include "System/ComponentModel/zzzz__CollectionChangeEventArgs_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::CollectionChangeEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::ComponentModel::CollectionChangeEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x63af988;
+  constexpr static std::size_t addrs = 0x63b7404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::CollectionChangeEventHandler*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::CollectionChangeEventHandler::*)(::System::Object*, ::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::ComponentModel::CollectionChangeEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63afad0;
+  constexpr static std::size_t addrs = 0x63b754c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::CollectionChangeEventHandler*>(),

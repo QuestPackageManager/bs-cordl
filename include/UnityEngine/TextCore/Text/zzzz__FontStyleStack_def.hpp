@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/FontStyleStack.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\FontStyleStack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,13 +23,13 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x6c0b1f4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6c12d78, size 0x104, virtual false, abstract: false, final false
   inline uint8_t Add(::UnityEngine::TextCore::Text::FontStyles style);
 
-  /// @brief Method Clear, addr 0x6c0b1e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c12d6c, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove, addr 0x6c0b2f8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6c12e7c, size 0x128, virtual false, abstract: false, final false
   inline uint8_t Remove(::UnityEngine::TextCore::Text::FontStyles style);
 
   // Ctor Parameters []
@@ -45,7 +45,7 @@ public:
                            uint8_t smallcaps) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17283 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa };

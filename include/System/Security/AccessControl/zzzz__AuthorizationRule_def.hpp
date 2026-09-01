@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/AuthorizationRule.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\AuthorizationRule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,11 +82,11 @@ public:
 
   constexpr void __cordl_internal_set_propagationFlags(::System::Security::AccessControl::PropagationFlags value);
 
-  /// @brief Method .ctor, addr 0x5b184b4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1c970, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                     ::System::Security::AccessControl::PropagationFlags propagationFlags);
 
-  /// @brief Method get_AccessMask, addr 0x5b186e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessMask, addr 0x5b1cba4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AccessMask();
 
 protected:

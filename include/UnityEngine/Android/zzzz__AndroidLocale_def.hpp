@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/AndroidLocale.hpp"
+// IWYU pragma private; include "UnityEngine\Android\AndroidLocale.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__language_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6a2d170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a34bec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW _country, ::StringW _language);
 
-  /// @brief Method get_country, addr 0x6a2d160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_country, addr 0x6a34bdc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_country();
 
-  /// @brief Method get_language, addr 0x6a2d168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0x6a34be4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_language();
 
 protected:
@@ -68,7 +68,7 @@ public:
   AndroidLocale(AndroidLocale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20181 };
 
   /// @brief Field <country>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____country_k__BackingField;

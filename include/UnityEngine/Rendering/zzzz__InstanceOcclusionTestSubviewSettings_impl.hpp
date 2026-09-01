@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/InstanceOcclusionTestSubviewSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\InstanceOcclusionTestSubviewSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceOcclusionTestSubviewSettings_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SubviewOcclusionTest_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings (*)(::System::ReadOnlySpan_1<::UnityEngine::Rendering::SubviewOcclusionTest>)>(
     &::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings::FromSpan)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6828208;
+  constexpr static std::size_t addrs = 0x682fc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

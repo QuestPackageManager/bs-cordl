@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ECKeyGenerationParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ECKeyGenerationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x340c5f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34103b8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x340c644, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3410404, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_DomainParameters, addr 0x340c7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DomainParameters, addr 0x3410588, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_DomainParameters();
 
-  /// @brief Method get_PublicKeyParamSet, addr 0x340c7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0x3410590, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
 protected:

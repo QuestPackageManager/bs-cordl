@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Action_6.hpp"
+// IWYU pragma private; include "System\Action_6.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Action_6_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"

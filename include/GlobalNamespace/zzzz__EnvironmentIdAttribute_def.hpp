@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnvironmentIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnvironmentIdAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_filter(::GlobalNamespace::EnvironmentIdFilter value);
 
-  /// @brief Method .ctor, addr 0x37299d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372f63c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW emptyExplanation, ::GlobalNamespace::EnvironmentIdFilter filter);
 
 protected:
@@ -71,7 +71,7 @@ public:
   EnvironmentIdAttribute(EnvironmentIdAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15028 };
 
   /// @brief Field emptyIsAllowed, offset: 0x15, size: 0x1, def value: None
   bool ___emptyIsAllowed;

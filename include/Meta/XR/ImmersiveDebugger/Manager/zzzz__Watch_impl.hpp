@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/Watch.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\Watch.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__Hook_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__Watch_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/Utils/zzzz__InstanceHandle_def.hpp"
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::Watch::*)(
     ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*)>(&::Meta::XR::ImmersiveDebugger::Manager::Watch::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a623e4;
+  constexpr static std::size_t addrs = 0x5a668a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

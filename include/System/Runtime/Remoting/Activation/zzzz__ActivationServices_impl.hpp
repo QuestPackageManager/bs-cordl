@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Activation/ActivationServices.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Activation\ActivationServices.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__ActivationServices_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (*)()>(
     &::System::Runtime::Remoting::Activation::ActivationServices::get_ConstructionActivator)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5b387bc;
+  constexpr static std::size_t addrs = 0x5b3cc78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Proxies::RemotingProxy*, ::System::Runtime::Remoting::Messaging::ConstructionCall*)>(
         &::System::Runtime::Remoting::Activation::ActivationServices::Activate)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x5b302f8;
+  constexpr static std::size_t addrs = 0x5b347b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
     &::System::Runtime::Remoting::Activation::ActivationServices::RemoteActivate)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5b38848;
+  constexpr static std::size_t addrs = 0x5b3cd04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::ConstructionCall* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Object*>)>(
     &::System::Runtime::Remoting::Activation::ActivationServices::CreateConstructionCall)> {
   constexpr static std::size_t size = 0x918;
-  constexpr static std::size_t addrs = 0x5b2ebb0;
+  constexpr static std::size_t addrs = 0x5b3306c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
     &::System::Runtime::Remoting::Activation::ActivationServices::CreateInstanceFromMessage)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5b38a38;
+  constexpr static std::size_t addrs = 0x5b3cef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Type*)>(&::System::Runtime::Remoting::Activation::ActivationServices::CreateProxyForType)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5b38c1c;
+  constexpr static std::size_t addrs = 0x5b3d0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Type*)>(&::System::Runtime::Remoting::Activation::ActivationServices::AllocateUninitializedClassInstance)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b38c18;
+  constexpr static std::size_t addrs = 0x5b3d0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Activation::ActivationServices*>(),
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, bool)>(&::System::Runtime::Remoting::Activation::ActivationServices::EnableProxyActivation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b38d54;
+  constexpr static std::size_t addrs = 0x5b3d210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Activation::ActivationServices*>(),

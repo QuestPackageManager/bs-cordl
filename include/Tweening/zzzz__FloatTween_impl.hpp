@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tweening/FloatTween.hpp"
+// IWYU pragma private; include "Tweening\FloatTween.hpp"
 #include "Tweening/zzzz__Tween_1_impl.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::FloatTween::*)()>(&::Tweening::FloatTween::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64406f0;
+  constexpr static std::size_t addrs = 0x644816c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::FloatTween*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::FloatTween::*)(float_t, float_t, ::System::Action_1<float_t>*, float_t, ::GlobalNamespace::EaseType, float_t)>(
     &::Tweening::FloatTween::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6440748;
+  constexpr static std::size_t addrs = 0x64481c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::FloatTween::*)(float_t, float_t, ::System::Action_1<float_t>*, float_t, ::UnityEngine::AnimationCurve*, float_t)>(
     &::Tweening::FloatTween::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x64407d4;
+  constexpr static std::size_t addrs = 0x6448250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Tweening::FloatTween::*)(float_t)>(&::Tweening::FloatTween::GetValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6440864;
+  constexpr static std::size_t addrs = 0x64482e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Tweening::FloatTween*>(), { ::i2c::class_of<::Tweening::FloatTween*>(), 6 }));

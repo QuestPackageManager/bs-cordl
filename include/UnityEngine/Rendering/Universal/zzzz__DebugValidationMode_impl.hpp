@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugValidationMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugValidationMode.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugValidationMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::DebugValidationMode::DebugValidationMode(int32_t value__) noexcept {

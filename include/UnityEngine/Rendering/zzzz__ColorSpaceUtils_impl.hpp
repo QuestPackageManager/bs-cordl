@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ColorSpaceUtils.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ColorSpaceUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Mathematics/zzzz__float3x3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ColorSpaceUtils_def.hpp"

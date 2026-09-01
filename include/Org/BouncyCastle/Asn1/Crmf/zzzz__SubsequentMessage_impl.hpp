@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/SubsequentMessage.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Crmf\SubsequentMessage.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__SubsequentMessage_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::*)(int32_t)>(&::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33665a0;
+  constexpr static std::size_t addrs = 0x336a360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* (*)(int32_t)>(&::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::ValueOf)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3364d84;
+  constexpr static std::size_t addrs = 0x3368b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

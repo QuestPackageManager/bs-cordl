@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/RuntimeVariablesExpression.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\RuntimeVariablesExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__Variables_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* value);
 
-  /// @brief Method get_Variables, addr 0x5f81aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variables, addr 0x5f89528, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* get_Variables();
 
 protected:
@@ -56,7 +56,7 @@ public:
   RuntimeVariablesExpression(RuntimeVariablesExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16225 };
 
   /// @brief Field <Variables>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* ____Variables_k__BackingField;

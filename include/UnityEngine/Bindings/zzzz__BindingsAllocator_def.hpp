@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/BindingsAllocator.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\BindingsAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
   constexpr BindingsAllocator_NativeOwnedMemory(void* data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10469 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -61,13 +61,13 @@ public:
   // Declarations
   using NativeOwnedMemory = ::UnityEngine::Bindings::BindingsAllocator_NativeOwnedMemory;
 
-  /// @brief Method Free, addr 0x6af7410, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6afee28, size 0x3c, virtual false, abstract: false, final false
   static inline void Free(void* ptr);
 
-  /// @brief Method FreeNativeOwnedMemory, addr 0x6af744c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FreeNativeOwnedMemory, addr 0x6afee64, size 0x3c, virtual false, abstract: false, final false
   static inline void FreeNativeOwnedMemory(void* ptr);
 
-  /// @brief Method GetNativeOwnedDataPointer, addr 0x6af7488, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNativeOwnedDataPointer, addr 0x6afeea0, size 0x14, virtual false, abstract: false, final false
   static inline void* GetNativeOwnedDataPointer(void* ptr);
 
 protected:
@@ -85,7 +85,7 @@ public:
   BindingsAllocator(BindingsAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

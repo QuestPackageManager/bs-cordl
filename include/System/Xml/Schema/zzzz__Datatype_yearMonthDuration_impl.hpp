@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_yearMonthDuration.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_yearMonthDuration.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_duration_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_yearMonthDuration_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::S
                                                                                                                                    ::System::Xml::IXmlNamespaceResolver*, ::by_ref<::System::Object*>)>(
     &::System::Xml::Schema::Datatype_yearMonthDuration::TryParseValue)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x61be274;
+  constexpr static std::size_t addrs = 0x61c5cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_yearMonthDuration::*)()>(
     &::System::Xml::Schema::Datatype_yearMonthDuration::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61be440;
+  constexpr static std::size_t addrs = 0x61c5ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_yearMonthDuration::*)()>(&::System::Xml::Schema::Datatype_yearMonthDuration::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61b8d0c;
+  constexpr static std::size_t addrs = 0x61c0788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_yearMonthDuration*>(), { ".ctor", {}, {} })));

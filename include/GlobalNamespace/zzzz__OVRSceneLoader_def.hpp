@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRSceneLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRSceneLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRSceneLoader_SceneInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5ebdb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec1ff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* sceneList, int64_t currentSceneEpochVersion);
 
   // Ctor Parameters []
@@ -87,7 +87,7 @@ public:
   constexpr OVRSceneLoader_SceneInfo(::System::Collections::Generic::List_1<::StringW>* scenes, int64_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7656 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -137,21 +137,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5ebdb48, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ec2004, size 0xa4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRSceneLoader__DelayCanvasPosUpdate_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5ebdbec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5ec20a8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ebdbf4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ec20b0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ebdc2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ec20e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5ebdb44, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5ec2000, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSceneLoader> value);
 
-  /// @brief Method .ctor, addr 0x5ebdb3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec1ff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -199,7 +199,7 @@ public:
   OVRSceneLoader__DelayCanvasPosUpdate_d__24(OVRSceneLoader__DelayCanvasPosUpdate_d__24 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7657 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -251,21 +251,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5ebdc40, size 0x330, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ec20fc, size 0x330, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRSceneLoader__onCheckSceneCoroutine_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5ebdf70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5ec242c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ebdf78, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ec2434, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ebdfb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ec246c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5ebdc3c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5ec20f8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -286,7 +286,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSceneLoader> value);
 
-  /// @brief Method .ctor, addr 0x5ebdc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec20f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -313,7 +313,7 @@ public:
   OVRSceneLoader__onCheckSceneCoroutine_d__25(OVRSceneLoader__onCheckSceneCoroutine_d__25 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7658 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -389,33 +389,33 @@ public:
   /// @brief Field scenePath, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_scenePath, put = __cordl_internal_set_scenePath)) ::StringW scenePath;
 
-  /// @brief Method Awake, addr 0x5ebc4d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5ec098c, size 0x70, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DelayCanvasPosUpdate, addr 0x5ebc6bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DelayCanvasPosUpdate, addr 0x5ec0b78, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayCanvasPosUpdate();
 
-  /// @brief Method DestroyAllGameObjects, addr 0x5ebd8b4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method DestroyAllGameObjects, addr 0x5ec1d70, size 0x10c, virtual false, abstract: false, final false
   inline void DestroyAllGameObjects();
 
-  /// @brief Method GetSceneInfo, addr 0x5ebc710, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method GetSceneInfo, addr 0x5ec0bcc, size 0x2a8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSceneLoader_SceneInfo GetSceneInfo();
 
-  /// @brief Method LoadScene, addr 0x5ebc9b8, size 0x914, virtual false, abstract: false, final false
+  /// @brief Method LoadScene, addr 0x5ec0e74, size 0x914, virtual false, abstract: false, final false
   inline void LoadScene(::GlobalNamespace::OVRSceneLoader_SceneInfo sceneInfo);
 
-  /// @brief Method LoadSceneOperation_completed, addr 0x5ebd2cc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneOperation_completed, addr 0x5ec1788, size 0xe0, virtual false, abstract: false, final false
   inline void LoadSceneOperation_completed(::UnityEngine::AsyncOperation* obj);
 
   static inline ::GlobalNamespace::OVRSceneLoader* New_ctor();
 
-  /// @brief Method Start, addr 0x5ebc540, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ec09fc, size 0x17c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5ebd400, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ec18bc, size 0x2b0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCanvasPosition, addr 0x5ebd6b0, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method UpdateCanvasPosition, addr 0x5ec1b6c, size 0x204, virtual false, abstract: false, final false
   inline void UpdateCanvasPosition();
 
   constexpr bool const& __cordl_internal_get_canvasPosUpdated() const;
@@ -496,10 +496,10 @@ public:
 
   constexpr void __cordl_internal_set_scenePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5ebd9c0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec1e7c, size 0x174, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method onCheckSceneCoroutine, addr 0x5ebd3ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method onCheckSceneCoroutine, addr 0x5ec1868, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* onCheckSceneCoroutine();
 
 protected:
@@ -517,7 +517,7 @@ public:
   OVRSceneLoader(OVRSceneLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7659 };
 
   /// @brief Field externalStoragePath offset 0xffffffff size 0x8
   static constexpr ::ConstString externalStoragePath{ u"/sdcard/Android/data" };

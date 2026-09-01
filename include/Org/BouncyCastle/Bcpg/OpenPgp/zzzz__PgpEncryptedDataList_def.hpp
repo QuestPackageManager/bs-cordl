@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpEncryptedDataList.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpEncryptedDataList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,10 +52,10 @@ public:
   /// @brief Field list, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::IList* list;
 
-  /// @brief Method Get, addr 0x357f580, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3583340, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* Get(int32_t index);
 
-  /// @brief Method GetEncryptedDataObjects, addr 0x357f788, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedDataObjects, addr 0x3583548, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetEncryptedDataObjects();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
@@ -72,19 +72,19 @@ public:
 
   constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x357eebc, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3582c7c, size 0x5b4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Count, addr 0x357f62c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x35833ec, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x357f6d4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x3583494, size 0xb4, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Item, addr 0x357f47c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x358323c, size 0x104, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* get_Item(int32_t index);
 
-  /// @brief Method get_Size, addr 0x357f584, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x3583344, size 0xa8, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

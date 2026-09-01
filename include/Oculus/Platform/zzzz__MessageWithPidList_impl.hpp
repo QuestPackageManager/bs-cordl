@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithPidList.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithPidList.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithPidList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PidList_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithPidList::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithPidList::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd382c;
+  constexpr static std::size_t addrs = 0x5dd7ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::PidList* (::Oculus::Platform::MessageWithPidList::*)()>(&::Oculus::Platform::MessageWithPidList::GetPidList)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd8350;
+  constexpr static std::size_t addrs = 0x5ddc80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::PidList* (::Oculus::Platform::MessageWithPidList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithPidList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd8394;
+  constexpr static std::size_t addrs = 0x5ddc850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

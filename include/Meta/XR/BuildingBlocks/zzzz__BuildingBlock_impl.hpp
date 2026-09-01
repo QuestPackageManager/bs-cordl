@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/BuildingBlocks/BuildingBlock.hpp"
+// IWYU pragma private; include "Meta\XR\BuildingBlocks\BuildingBlock.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__BuildingBlock_def.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__InstallationRoutineCheckpoint_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::get_BlockId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2f12c;
+  constexpr static std::size_t addrs = 0x5a335e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::BuildingBlock*>(), { "get_BlockId", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::get_InstanceId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2f134;
+  constexpr static std::size_t addrs = 0x5a335f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::BuildingBlock*>(), { "get_InstanceId", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2f13c;
+  constexpr static std::size_t addrs = 0x5a335f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::BuildingBlock*>(), { "get_Version", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(
     &::Meta::XR::BuildingBlocks::BuildingBlock::get_InstallationRoutineCheckpoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2f144;
+  constexpr static std::size_t addrs = 0x5a33600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::BuildingBlock::*)(::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint*)>(
     &::Meta::XR::BuildingBlocks::BuildingBlock::set_InstallationRoutineCheckpoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2f14c;
+  constexpr static std::size_t addrs = 0x5a33608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::Awake)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5a2f154;
+  constexpr static std::size_t addrs = 0x5a33610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::BuildingBlock*>(), { "Awake", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::ResetInstanceId)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5a2f30c;
+  constexpr static std::size_t addrs = 0x5a337c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::BuildingBlock*>(), { "ResetInstanceId", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::HasDuplicateInstanceId)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5a2f1fc;
+  constexpr static std::size_t addrs = 0x5a336b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::BuildingBlock*>(), { "HasDuplicateInstanceId", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::Start)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5a2f340;
+  constexpr static std::size_t addrs = 0x5a337fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::BuildingBlock*>(), { "Start", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::BuildingBlock::*)()>(&::Meta::XR::BuildingBlocks::BuildingBlock::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5a2ebc8;
+  constexpr static std::size_t addrs = 0x5a33084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::BuildingBlock*>(), { ".ctor", {}, {} })));

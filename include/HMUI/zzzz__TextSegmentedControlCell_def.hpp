@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/TextSegmentedControlCell.hpp"
+// IWYU pragma private; include "HMUI\TextSegmentedControlCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,37 +65,37 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5f4fd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f57800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fontSize, addr 0x5f4fd3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x5f577b8, size 0x18, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method get_preferredWidth, addr 0x5f4fce4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x5f57760, size 0x20, virtual false, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_text, addr 0x5f4fd1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x5f57798, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_textOverflowMode, addr 0x5f4fd6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_textOverflowMode, addr 0x5f577e8, size 0x18, virtual false, abstract: false, final false
   inline ::TMPro::TextOverflowModes get_textOverflowMode();
 
-  /// @brief Method get_textWrappingMode, addr 0x5f4fd54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_textWrappingMode, addr 0x5f577d0, size 0x18, virtual false, abstract: false, final false
   inline ::TMPro::TextWrappingModes get_textWrappingMode();
 
-  /// @brief Method set_fontSize, addr 0x5f4fbd0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x5f5764c, size 0x18, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method set_hideBackgroundImage, addr 0x5f4fc08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x5f57684, size 0x20, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_text, addr 0x5f4fbe8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x5f57664, size 0x20, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_textOverflowMode, addr 0x5f4fc88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_textOverflowMode, addr 0x5f57704, size 0x5c, virtual false, abstract: false, final false
   inline void set_textOverflowMode(::TMPro::TextOverflowModes value);
 
-  /// @brief Method set_textWrappingMode, addr 0x5f4fc28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_textWrappingMode, addr 0x5f576a4, size 0x60, virtual false, abstract: false, final false
   inline void set_textWrappingMode(::TMPro::TextWrappingModes value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   TextSegmentedControlCell(TextSegmentedControlCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23141 };
 
   /// @brief Field _text, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlHash128AttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlHash128AttributeDescription.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_impl.hpp"
 #include "UnityEngine/zzzz__Hash128_impl.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlHash128AttributeDescription___c::*)()>(
     &::UnityEngine::UIElements::UxmlHash128AttributeDescription___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cb81d8;
+  constexpr static std::size_t addrs = 0x6cbfd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlHash128AttributeDescription___c*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Hash128 (::UnityEngine::UIElements::UxmlHash128AttributeDescription___c::*)(::StringW, ::UnityEngine::Hash128)>(
     &::UnityEngine::UIElements::UxmlHash128AttributeDescription___c::_GetValueFromBag_b__3_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cb81dc;
+  constexpr static std::size_t addrs = 0x6cbfd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlHash128AttributeDescription::*)()>(&::UnityEngine::UIElements::UxmlHash128AttributeDescription::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cb7f4c;
+  constexpr static std::size_t addrs = 0x6cbfad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlHash128AttributeDescription*>(), { ".ctor", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Hash128 (::UnityEngine::UIElements::UxmlHash128AttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlHash128AttributeDescription::GetValueFromBag)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6cb7fec;
+  constexpr static std::size_t addrs = 0x6cbfb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlHash128AttributeDescription*>(),

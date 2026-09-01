@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnableFPSCounterConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnableFPSCounterConsoleCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__EnableFPSCounterConsoleCommand_def.hpp"
 #include "GlobalNamespace/zzzz__ConsoleMessage_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnableFPSCounterConsoleCommand::*)()>(&::GlobalNamespace::EnableFPSCounterConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32ccbd4;
+  constexpr static std::size_t addrs = 0x32d09d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnableFPSCounterConsoleCommand::*)()>(&::GlobalNamespace::EnableFPSCounterConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32ccc18;
+  constexpr static std::size_t addrs = 0x32d0a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::EnableFPSCounterConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
         &::GlobalNamespace::EnableFPSCounterConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32ccc5c;
+  constexpr static std::size_t addrs = 0x32d0a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableFPSCounterConsoleCommand::*)()>(&::GlobalNamespace::EnableFPSCounterConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x32ccd0c;
+  constexpr static std::size_t addrs = 0x32d0b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableFPSCounterConsoleCommand*>(), { ".ctor", {}, {} })));

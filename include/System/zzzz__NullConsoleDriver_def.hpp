@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/NullConsoleDriver.hpp"
+// IWYU pragma private; include "System\NullConsoleDriver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::NullConsoleDriver* New_ctor();
 
-  /// @brief Method ReadKey, addr 0x5c93270, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method ReadKey, addr 0x5c9772c, size 0x60, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method .ctor, addr 0x5c8bec4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c90380, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ConsoleKeyInfo getStaticF_EmptyConsoleKeyInfo();

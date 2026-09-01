@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/ProofOfPossession.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Crmf\ProofOfPossession.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x3361688, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3365448, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* New_ctor();
@@ -65,7 +65,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* privkey);
 
-  /// @brief Method ToAsn1Object, addr 0x3365a38, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x33697f8, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_obj() const;
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_tagNo(int32_t value);
 
-  /// @brief Method .ctor, addr 0x33659a4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3369764, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3365a0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33697cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* Poposk);
 
-  /// @brief Method .ctor, addr 0x3365864, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3369624, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0x3365a1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33697dc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* privkey);
 
-  /// @brief Method get_Object, addr 0x3365a30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Object, addr 0x33697f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Object();
 
-  /// @brief Method get_Type, addr 0x3365a28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x33697e8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

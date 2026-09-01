@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LoadStaticFieldInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LoadStaticFieldInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__FieldInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LoadStaticFieldInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction::*)(::System::Reflection::FieldInfo*)>(
     &::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8d624;
+  constexpr static std::size_t addrs = 0x5f950a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f8d62c;
+  constexpr static std::size_t addrs = 0x5f950a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8d670;
+  constexpr static std::size_t addrs = 0x5f950ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction::Run)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f8d678;
+  constexpr static std::size_t addrs = 0x5f950f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LoadStaticFieldInstruction*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/IsisMtt/X509/ProcurationSyntax.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\IsisMtt\X509\ProcurationSyntax.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   /// @brief Field typeOfSubstitution, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_typeOfSubstitution, put = __cordl_internal_set_typeOfSubstitution)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution;
 
-  /// @brief Method GetInstance, addr 0x344fdbc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3453b7c, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* New_ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution,
@@ -69,7 +69,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3450268, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3454028, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial* const& __cordl_internal_get_certRef() const;
@@ -96,25 +96,25 @@ public:
 
   constexpr void __cordl_internal_set_typeOfSubstitution(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method .ctor, addr 0x3450230, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3453ff0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* certRef);
 
-  /// @brief Method .ctor, addr 0x345023c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3453ffc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution, ::Org::BouncyCastle::Asn1::X509::GeneralName* thirdPerson);
 
-  /// @brief Method .ctor, addr 0x344ff40, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3453d00, size 0x2f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertRef, addr 0x3450260, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertRef, addr 0x3454020, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_CertRef();
 
-  /// @brief Method get_Country, addr 0x3450248, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Country, addr 0x3454008, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Country();
 
-  /// @brief Method get_ThirdPerson, addr 0x3450258, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ThirdPerson, addr 0x3454018, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_ThirdPerson();
 
-  /// @brief Method get_TypeOfSubstitution, addr 0x3450250, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeOfSubstitution, addr 0x3454010, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_TypeOfSubstitution();
 
 protected:

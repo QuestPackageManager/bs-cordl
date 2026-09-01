@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/UnsafeValueTypeAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\UnsafeValueTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__UnsafeValueTypeAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::UnsafeValueTypeAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::UnsafeValueTypeAttribute::*)()>(
     &::System::Runtime::CompilerServices::UnsafeValueTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6c404;
+  constexpr static std::size_t addrs = 0x5b708c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::UnsafeValueTypeAttribute*>(), { ".ctor", {}, {} })));

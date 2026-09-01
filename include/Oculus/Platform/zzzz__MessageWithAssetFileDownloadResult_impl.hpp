@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithAssetFileDownloadResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithAssetFileDownloadResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAssetFileDownloadResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithAssetFileDownloadResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAssetFileDownloadResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd2dc0;
+  constexpr static std::size_t addrs = 0x5dd727c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetFileDownloadResult* (::Oculus::Platform::MessageWithAssetFileDownloadResult::*)()>(
     &::Oculus::Platform::MessageWithAssetFileDownloadResult::GetAssetFileDownloadResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd5e78;
+  constexpr static std::size_t addrs = 0x5dda334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithAssetFileDownloadResult*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetFileDownloadResult* (::Oculus::Platform::MessageWithAssetFileDownloadResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAssetFileDownloadResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd5ebc;
+  constexpr static std::size_t addrs = 0x5dda378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithAssetFileDownloadResult*>(),

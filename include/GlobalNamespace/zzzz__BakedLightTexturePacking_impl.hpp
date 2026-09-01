@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BakedLightTexturePacking.hpp"
+// IWYU pragma private; include "GlobalNamespace\BakedLightTexturePacking.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BakedLightTexturePacking_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(
     ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>*, ::UnityEngine::RenderTextureDescriptor)>(&::GlobalNamespace::BakedLightTexturePacking::PackTextures)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x58de990;
+  constexpr static std::size_t addrs = 0x58e1fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/SimpleChannel.hpp"
+// IWYU pragma private; include "LiteNetLib\SimpleChannel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +27,13 @@ public:
   // Declarations
   static inline ::LiteNetLib::SimpleChannel* New_ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method ProcessPacket, addr 0x58a9b14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x58a94dc, size 0x8, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x58a999c, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x58a9364, size 0x178, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
-  /// @brief Method .ctor, addr 0x58a9998, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a9360, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer);
 
 protected:
@@ -51,7 +51,7 @@ public:
   SimpleChannel(SimpleChannel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/LongList.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\LongList.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__LongList_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::LongList._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::LongList::*)()>(&::System::Runtime::Serialization::LongList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b4f554;
+  constexpr static std::size_t addrs = 0x5b53a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::LongList*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::LongList::*)(int32_t)>(&::System::Runtime::Serialization::LongList::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b4f7d8;
+  constexpr static std::size_t addrs = 0x5b53c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::LongList::*)(int64_t)>(&::System::Runtime::Serialization::LongList::Add)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5b4f55c;
+  constexpr static std::size_t addrs = 0x5b53a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::LongList::*)()>(&::System::Runtime::Serialization::LongList::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b4f8c8;
+  constexpr static std::size_t addrs = 0x5b53d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::LongList*>(), { "get_Count", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::LongList::*)()>(&::System::Runtime::Serialization::LongList::StartEnumeration)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b4d88c;
+  constexpr static std::size_t addrs = 0x5b51d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::LongList*>(), { "StartEnumeration", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::LongList::*)()>(&::System::Runtime::Serialization::LongList::MoveNext)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5b4d8d8;
+  constexpr static std::size_t addrs = 0x5b51d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::LongList*>(), { "MoveNext", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Runtime::Serialization::LongList::*)()>(&::System::Runtime::Serialization::LongList::get_Current)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5b4d898;
+  constexpr static std::size_t addrs = 0x5b51d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::LongList*>(), { "get_Current", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::LongList::*)(int64_t)>(&::System::Runtime::Serialization::LongList::RemoveElement)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5b4f4a4;
+  constexpr static std::size_t addrs = 0x5b53960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::LongList::*)()>(&::System::Runtime::Serialization::LongList::EnlargeArray)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5b4f83c;
+  constexpr static std::size_t addrs = 0x5b53cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::LongList*>(), { "EnlargeArray", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenCallbacks.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenCallbacks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,12 +46,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUDrivenCallbacks : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeGPUDrivenLODGroupDataNativeCallback, addr 0x6b23e2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeGPUDrivenLODGroupDataNativeCallback, addr 0x6b2b9b0, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeGPUDrivenLODGroupDataNativeCallback(::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* callback,
                                                                ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative> lodGroupDataNative,
                                                                ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* target);
 
-  /// @brief Method InvokeGPUDrivenRendererDataNativeCallback, addr 0x6b23e4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeGPUDrivenRendererDataNativeCallback, addr 0x6b2b9d0, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeGPUDrivenRendererDataNativeCallback(::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* callback,
                                                                ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative> rendererDataNative,
                                                                ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
@@ -73,7 +73,7 @@ public:
   GPUDrivenCallbacks(GPUDrivenCallbacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10878 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

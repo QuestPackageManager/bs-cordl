@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DebugAction.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DebugAction.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugAction_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::DebugAction::DebugAction(int32_t value__) noexcept {

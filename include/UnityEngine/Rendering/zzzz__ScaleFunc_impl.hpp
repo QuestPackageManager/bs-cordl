@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ScaleFunc.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ScaleFunc.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ScaleFunc_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScaleFunc::*)(::System::Object*, ::System::IntPtr)>(&::UnityEngine::Rendering::ScaleFunc::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x67a6f10;
+  constexpr static std::size_t addrs = 0x67ae98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::Rendering::ScaleFunc::*)(::UnityEngine::Vector2Int)>(&::UnityEngine::Rendering::ScaleFunc::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67a6f7c;
+  constexpr static std::size_t addrs = 0x67ae9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::UnityEngine::Rendering::ScaleFunc::*)(::UnityEngine::Vector2Int, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::ScaleFunc::BeginInvoke)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x67a6f90;
+  constexpr static std::size_t addrs = 0x67aea0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::Rendering::ScaleFunc::*)(::System::IAsyncResult*)>(&::UnityEngine::Rendering::ScaleFunc::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67a7018;
+  constexpr static std::size_t addrs = 0x67aea94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

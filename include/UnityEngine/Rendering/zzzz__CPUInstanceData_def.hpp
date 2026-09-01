@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CPUInstanceData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CPUInstanceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,25 +52,25 @@ public:
 
   __declspec(property(get = get_instancesLength)) int32_t instancesLength;
 
-  /// @brief Method IndexToInstance, addr 0x681daa4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IndexToInstance, addr 0x6825520, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceHandle IndexToInstance(int32_t index);
 
-  /// @brief Method InstanceToIndex, addr 0x681da08, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method InstanceToIndex, addr 0x6825484, size 0x9c, virtual false, abstract: false, final false
   inline int32_t InstanceToIndex(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method IsValidIndex, addr 0x681dc88, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method IsValidIndex, addr 0x6825704, size 0x104, virtual false, abstract: false, final false
   inline bool IsValidIndex(int32_t index);
 
-  /// @brief Method IsValidInstance, addr 0x681db14, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method IsValidInstance, addr 0x6825590, size 0x174, virtual false, abstract: false, final false
   inline bool IsValidInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method .ctor, addr 0x681d63c, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68250b8, size 0x340, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::Rendering::CPUInstanceData> instanceData);
 
-  /// @brief Method get_handlesLength, addr 0x681d97c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_handlesLength, addr 0x68253f8, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_handlesLength();
 
-  /// @brief Method get_instancesLength, addr 0x681d9c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_instancesLength, addr 0x682543c, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_instancesLength();
 
   // Ctor Parameters []
@@ -94,7 +94,7 @@ public:
                                      ::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly editorData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17694 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd8 };
@@ -174,119 +174,119 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Add, addr 0x681cfec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6824a68, size 0x54, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method AddNoGrow, addr 0x681cf20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddNoGrow, addr 0x682499c, size 0x2c, virtual false, abstract: false, final false
   inline void AddNoGrow(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method AddUnsafe, addr 0x681c904, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method AddUnsafe, addr 0x6824380, size 0x1f0, virtual false, abstract: false, final false
   inline void AddUnsafe(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method AsReadOnly, addr 0x681d608, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method AsReadOnly, addr 0x6825084, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CPUInstanceData_ReadOnly AsReadOnly();
 
-  /// @brief Method Dispose, addr 0x681c5bc, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6824038, size 0x118, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EnsureFreeInstances, addr 0x681cef8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method EnsureFreeInstances, addr 0x6824974, size 0x28, virtual false, abstract: false, final false
   inline void EnsureFreeInstances(int32_t instancesCount);
 
-  /// @brief Method GetFreeInstancesCount, addr 0x681cee8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetFreeInstancesCount, addr 0x6824964, size 0x10, virtual false, abstract: false, final false
   inline int32_t GetFreeInstancesCount();
 
-  /// @brief Method Get_LocalToWorldIsFlipped, addr 0x681d32c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Get_LocalToWorldIsFlipped, addr 0x6824da8, size 0x24, virtual false, abstract: false, final false
   inline bool Get_LocalToWorldIsFlipped(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Get_MovedInCurrentFrame, addr 0x681d430, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Get_MovedInCurrentFrame, addr 0x6824eac, size 0x24, virtual false, abstract: false, final false
   inline bool Get_MovedInCurrentFrame(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Get_MovedInPreviousFrame, addr 0x681d454, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Get_MovedInPreviousFrame, addr 0x6824ed0, size 0x24, virtual false, abstract: false, final false
   inline bool Get_MovedInPreviousFrame(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Get_SharedInstance, addr 0x681d30c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Get_SharedInstance, addr 0x6824d88, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SharedInstanceHandle Get_SharedInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Get_TetrahedronCacheIndex, addr 0x681d394, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Get_TetrahedronCacheIndex, addr 0x6824e10, size 0x20, virtual false, abstract: false, final false
   inline int32_t Get_TetrahedronCacheIndex(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Get_VisibleInPreviousFrame, addr 0x681d478, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Get_VisibleInPreviousFrame, addr 0x6824ef4, size 0x24, virtual false, abstract: false, final false
   inline bool Get_VisibleInPreviousFrame(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Get_WorldAABB, addr 0x681d350, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Get_WorldAABB, addr 0x6824dcc, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::AABB Get_WorldAABB(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Get_WorldBounds, addr 0x681d3b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Get_WorldBounds, addr 0x6824e30, size 0x7c, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::AABB> Get_WorldBounds(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Grow, addr 0x681c6d8, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x6824154, size 0x228, virtual false, abstract: false, final false
   inline void Grow(int32_t newCapacity);
 
-  /// @brief Method IndexToInstance, addr 0x681cb94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IndexToInstance, addr 0x6824610, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceHandle IndexToInstance(int32_t index);
 
-  /// @brief Method Initialize, addr 0x681c264, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6823ce0, size 0x354, virtual false, abstract: false, final false
   inline void Initialize(int32_t initCapacity);
 
-  /// @brief Method InstanceToIndex, addr 0x681caf4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InstanceToIndex, addr 0x6824570, size 0xa0, virtual false, abstract: false, final false
   inline int32_t InstanceToIndex(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method IsFreeInstanceHandle, addr 0x681ccf8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method IsFreeInstanceHandle, addr 0x6824774, size 0x128, virtual false, abstract: false, final false
   inline bool IsFreeInstanceHandle(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method IsValidIndex, addr 0x681ce20, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsValidIndex, addr 0x682489c, size 0xc8, virtual false, abstract: false, final false
   inline bool IsValidIndex(int32_t index);
 
-  /// @brief Method IsValidInstance, addr 0x681cba0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method IsValidInstance, addr 0x682461c, size 0x158, virtual false, abstract: false, final false
   inline bool IsValidInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Remove, addr 0x681d040, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6824abc, size 0x1f0, virtual false, abstract: false, final false
   inline void Remove(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Set, addr 0x681d234, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x6824cb0, size 0xd4, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::Rendering::InstanceHandle instance, ::UnityEngine::Rendering::SharedInstanceHandle sharedInstance, bool localToWorldIsFlipped,
                   ::by_ref<::UnityEngine::Rendering::AABB> worldAABB, int32_t tetrahedronCacheIndex, bool movedInCurrentFrame, bool movedInPreviousFrame, bool visibleInPreviousFrame);
 
-  /// @brief Method SetDefault, addr 0x681cf4c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetDefault, addr 0x68249c8, size 0xa0, virtual false, abstract: false, final false
   inline void SetDefault(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method Set_LocalToWorldIsFlipped, addr 0x681d4c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Set_LocalToWorldIsFlipped, addr 0x6824f44, size 0x34, virtual false, abstract: false, final false
   inline void Set_LocalToWorldIsFlipped(::UnityEngine::Rendering::InstanceHandle instance, bool isFlipped);
 
-  /// @brief Method Set_MovedInCurrentFrame, addr 0x681d56c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Set_MovedInCurrentFrame, addr 0x6824fe8, size 0x34, virtual false, abstract: false, final false
   inline void Set_MovedInCurrentFrame(::UnityEngine::Rendering::InstanceHandle instance, bool movedInCurrentFrame);
 
-  /// @brief Method Set_MovedInPreviousFrame, addr 0x681d5a0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Set_MovedInPreviousFrame, addr 0x682501c, size 0x34, virtual false, abstract: false, final false
   inline void Set_MovedInPreviousFrame(::UnityEngine::Rendering::InstanceHandle instance, bool movedInPreviousFrame);
 
-  /// @brief Method Set_SharedInstance, addr 0x681d49c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Set_SharedInstance, addr 0x6824f18, size 0x2c, virtual false, abstract: false, final false
   inline void Set_SharedInstance(::UnityEngine::Rendering::InstanceHandle instance, ::UnityEngine::Rendering::SharedInstanceHandle sharedInstance);
 
-  /// @brief Method Set_TetrahedronCacheIndex, addr 0x681d540, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Set_TetrahedronCacheIndex, addr 0x6824fbc, size 0x2c, virtual false, abstract: false, final false
   inline void Set_TetrahedronCacheIndex(::UnityEngine::Rendering::InstanceHandle instance, int32_t tetrahedronCacheIndex);
 
-  /// @brief Method Set_VisibleInPreviousFrame, addr 0x681d5d4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Set_VisibleInPreviousFrame, addr 0x6825050, size 0x34, virtual false, abstract: false, final false
   inline void Set_VisibleInPreviousFrame(::UnityEngine::Rendering::InstanceHandle instance, bool visibleInPreviousFrame);
 
-  /// @brief Method Set_WorldAABB, addr 0x681d4fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Set_WorldAABB, addr 0x6824f78, size 0x44, virtual false, abstract: false, final false
   inline void Set_WorldAABB(::UnityEngine::Rendering::InstanceHandle instance, ::by_ref<::UnityEngine::Rendering::AABB> worldBounds);
 
-  /// @brief Method get_handlesLength, addr 0x681c200, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_handlesLength, addr 0x6823c7c, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_handlesLength();
 
-  /// @brief Method get_instancesCapacity, addr 0x681c1e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_instancesCapacity, addr 0x6823c64, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_instancesCapacity();
 
-  /// @brief Method get_instancesLength, addr 0x681c1d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_instancesLength, addr 0x6823c4c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_instancesLength();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_instancesCapacity, addr 0x681c1f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_instancesCapacity, addr 0x6823c70, size 0xc, virtual false, abstract: false, final false
   inline void set_instancesCapacity(int32_t value);
 
-  /// @brief Method set_instancesLength, addr 0x681c1dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_instancesLength, addr 0x6823c58, size 0xc, virtual false, abstract: false, final false
   inline void set_instancesLength(int32_t value);
 
   // Ctor Parameters []
@@ -310,7 +310,7 @@ public:
                             ::UnityEngine::Rendering::ParallelBitArray visibleInPreviousFrameBits, ::UnityEngine::Rendering::EditorInstanceDataArrays editorData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17695 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe0 };

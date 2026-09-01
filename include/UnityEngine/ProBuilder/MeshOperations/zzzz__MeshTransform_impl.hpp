@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MeshTransform.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\MeshTransform.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__MeshTransform_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PivotLocation_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::PivotLocation)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshTransform::SetPivot)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x672db4c;
+  constexpr static std::size_t addrs = 0x67355c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int32_t>)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshTransform::CenterPivot)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x6729370;
+  constexpr static std::size_t addrs = 0x6730dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshTransform::SetPivot)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x672dbec;
+  constexpr static std::size_t addrs = 0x6735668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::MeshOperations::MeshTransform::FreezeScaleTransform)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x672dd88;
+  constexpr static std::size_t addrs = 0x6735804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::MeshTransform*>(),

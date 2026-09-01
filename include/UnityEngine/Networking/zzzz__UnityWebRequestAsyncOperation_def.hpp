@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Networking/UnityWebRequestAsyncOperation.hpp"
+// IWYU pragma private; include "UnityEngine\Networking\UnityWebRequestAsyncOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UnityWebRequestAsyncOperation_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToManaged, addr 0x6e215e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ConvertToManaged, addr 0x6e29164, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* ConvertToManaged(::System::IntPtr ptr);
 
 protected:
@@ -52,7 +52,7 @@ public:
   UnityWebRequestAsyncOperation_BindingsMarshaller(UnityWebRequestAsyncOperation_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set__webRequest_k__BackingField(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x6e21584, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e29108, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_webRequest, addr 0x6e215d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_webRequest, addr 0x6e29154, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* get_webRequest();
 
-  /// @brief Method set_webRequest, addr 0x6e215d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_webRequest, addr 0x6e2915c, size 0x8, virtual false, abstract: false, final false
   inline void set_webRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
 protected:
@@ -107,7 +107,7 @@ public:
   UnityWebRequestAsyncOperation(UnityWebRequestAsyncOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22299 };
 
   /// @brief Field <webRequest>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ____webRequest_k__BackingField;

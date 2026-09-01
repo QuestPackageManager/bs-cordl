@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/LocalizationLanguage.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\LocalizationLanguage.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguage_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BGLib::Polyglot::LocalizationLanguage::LocalizationLanguage(int32_t value__) noexcept {

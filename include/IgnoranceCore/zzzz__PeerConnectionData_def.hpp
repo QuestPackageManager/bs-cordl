@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceCore/PeerConnectionData.hpp"
+// IWYU pragma private; include "IgnoranceCore\PeerConnectionData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
   constexpr PeerConnectionData(uint16_t Port, uint32_t NativePeerId, ::StringW IP) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21749 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

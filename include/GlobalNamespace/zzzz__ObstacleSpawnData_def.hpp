@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ObstacleSpawnData.hpp"
+// IWYU pragma private; include "GlobalNamespace\ObstacleSpawnData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE ObstacleSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x58cd730, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58cd0e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 moveOffset, float_t obstacleWidth, float_t obstacleHeight);
 
   // Ctor Parameters []

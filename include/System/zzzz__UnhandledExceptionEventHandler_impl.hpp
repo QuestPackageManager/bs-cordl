@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/UnhandledExceptionEventHandler.hpp"
+// IWYU pragma private; include "System\UnhandledExceptionEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UnhandledExceptionEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::UnhandledExceptionEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5c6242c;
+  constexpr static std::size_t addrs = 0x5c668e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UnhandledExceptionEventHandler::*)(::System::Object*, ::System::UnhandledExceptionEventArgs*)>(
     &::System::UnhandledExceptionEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c62574;
+  constexpr static std::size_t addrs = 0x5c66a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

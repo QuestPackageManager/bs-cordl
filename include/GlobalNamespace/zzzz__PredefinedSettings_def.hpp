@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PredefinedSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace\PredefinedSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
   PredefinedSettings(PredefinedSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22038 };
 
   /// @brief Field kControllersPositionOffsetLimit offset 0xffffffff size 0x4
   static constexpr float_t kControllersPositionOffsetLimit{ static_cast<float_t>(0.1f) };

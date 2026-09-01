@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/Extrapolation.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\Extrapolation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__Extrapolation_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::Extrapolation___c::*)()>(&::UnityEngine::Timeline::Extrapolation___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69c5cfc;
+  constexpr static std::size_t addrs = 0x69cd778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::Extrapolation___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::Extrapolation___c::*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::Extrapolation___c::_SortClipsByStartTime_b__2_0)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69c5d00;
+  constexpr static std::size_t addrs = 0x69cd77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::TrackAsset*)>(&::UnityEngine::Timeline::Extrapolation::CalculateExtrapolationTimes)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x69c5724;
+  constexpr static std::size_t addrs = 0x69cd1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::Extrapolation*>(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Timeline::TimelineClip*> (*)(::ArrayW<::UnityEngine::Timeline::TimelineClip*>)>(
     &::UnityEngine::Timeline::Extrapolation::SortClipsByStartTime)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x69c5ad0;
+  constexpr static std::size_t addrs = 0x69cd54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::Extrapolation*>(),

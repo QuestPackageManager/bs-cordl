@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/EventHandler.hpp"
+// IWYU pragma private; include "System\EventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +28,12 @@ namespace System {
 class CORDL_TYPE EventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5c2c170, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5c3062c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
   static inline ::System::EventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5c2c028, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c304e4, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

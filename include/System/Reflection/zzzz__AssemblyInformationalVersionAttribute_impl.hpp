@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/AssemblyInformationalVersionAttribute.hpp"
+// IWYU pragma private; include "System\Reflection\AssemblyInformationalVersionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Reflection/zzzz__AssemblyInformationalVersionAttribute_def.hpp"
 //  Writing Method size for method: ::System::Reflection::AssemblyInformationalVersionAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::AssemblyInformationalVersionAttribute::*)(::StringW)>(
     &::System::Reflection::AssemblyInformationalVersionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b794c8;
+  constexpr static std::size_t addrs = 0x5b7d984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

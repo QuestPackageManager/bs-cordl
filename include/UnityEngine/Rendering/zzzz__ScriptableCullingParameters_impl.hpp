@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ScriptableCullingParameters.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ScriptableCullingParameters.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraProperties_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingOptions_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_impl.hpp"
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_maximumVisibleLights)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b178e0;
+  constexpr static std::size_t addrs = 0x6b1f2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(bool)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_conservativeEnclosingSphere)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b178e8;
+  constexpr static std::size_t addrs = 0x6b1f300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_numIterationsEnclosingSphere)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b178f0;
+  constexpr static std::size_t addrs = 0x6b1f308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,11 +75,40 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::get_cullingPlaneCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b178f8;
+  constexpr static std::size_t addrs = 0x6b1f310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(), { "get_cullingPlaneCount", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_cullingMask
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(uint32_t)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::set_cullingMask)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b1f318;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(), { "set_cullingMask", {}, { ::i2c::type_of<uint32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_cullingMatrix
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Matrix4x4)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::set_cullingMatrix)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6b1f320;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(), { "set_cullingMatrix", {}, { ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
     return ___internal_method;
   }
 };
@@ -89,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(float_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_shadowDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b17900;
+  constexpr static std::size_t addrs = 0x6b1f338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CullingOptions (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::get_cullingOptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b17908;
+  constexpr static std::size_t addrs = 0x6b1f340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Rendering::CullingOptions)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_cullingOptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b17910;
+  constexpr static std::size_t addrs = 0x6b1f348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
@@ -131,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Rendering::ReflectionProbeSortingCriteria)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_reflectionProbeSortingCriteria)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b17918;
+  constexpr static std::size_t addrs = 0x6b1f350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_stereoViewMatrix)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b17920;
+  constexpr static std::size_t addrs = 0x6b1f358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::get_stereoProjectionMatrix)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b17938;
+  constexpr static std::size_t addrs = 0x6b1f370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_stereoProjectionMatrix)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b17950;
+  constexpr static std::size_t addrs = 0x6b1f388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
@@ -189,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(float_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::set_stereoSeparationDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b17968;
+  constexpr static std::size_t addrs = 0x6b1f3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::GetLayerCullingDistance)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6b17970;
+  constexpr static std::size_t addrs = 0x6b1f3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,11 +246,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::GetCullingPlane)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6b17a30;
+  constexpr static std::size_t addrs = 0x6b1f468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(), { "GetCullingPlane", {}, { ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.SetCullingPlane
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t, ::UnityEngine::Plane)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::SetCullingPlane)> {
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6b1f594;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
+                                                                                           { "SetCullingPlane", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Plane>() } })));
     return ___internal_method;
   }
 };
@@ -231,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Rendering::ScriptableCullingParameters)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::Equals)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x6b17b5c;
+  constexpr static std::size_t addrs = 0x6b1f6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
@@ -245,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::System::Object*)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::Equals)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6b180b4;
+  constexpr static std::size_t addrs = 0x6b1fc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
@@ -258,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(&::UnityEngine::Rendering::ScriptableCullingParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6b181b4;
+  constexpr static std::size_t addrs = 0x6b1fd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
@@ -297,6 +340,16 @@ inline int32_t UnityEngine::Rendering::ScriptableCullingParameters::get_cullingP
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(), { "get_cullingPlaneCount", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_cullingMask(uint32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(), { "set_cullingMask", {}, { ::i2c::type_of<uint32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_cullingMatrix(::UnityEngine::Matrix4x4 value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(), { "set_cullingMatrix", {}, { ::i2c::type_of<::UnityEngine::Matrix4x4>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, value);
 }
 inline void UnityEngine::Rendering::ScriptableCullingParameters::set_shadowDistance(float_t value) {
   static auto* ___internal_method =
@@ -348,6 +401,11 @@ inline ::UnityEngine::Plane UnityEngine::Rendering::ScriptableCullingParameters:
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(), { "GetCullingPlane", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Plane>(*this, ___internal_method, index);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::SetCullingPlane(int32_t index, ::UnityEngine::Plane plane) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),
+                                                                                         { "SetCullingPlane", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<::UnityEngine::Plane>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, index, plane);
 }
 inline bool UnityEngine::Rendering::ScriptableCullingParameters::Equals(::UnityEngine::Rendering::ScriptableCullingParameters other) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ScriptableCullingParameters>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/TileRangeExpansionJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\TileRangeExpansionJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Execute, addr 0x68ba5cc, size 0x214, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x68c2048, size 0x214, virtual true, abstract: false, final true
   inline void Execute(int32_t jobIndex);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -47,7 +47,7 @@ public:
                                   int32_t rangesPerItem, int32_t itemsPerTile, int32_t wordsPerTile, ::Unity::Mathematics::int2 tileResolution) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12978 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

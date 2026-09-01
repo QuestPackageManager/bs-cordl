@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Channels/SinkProviderData.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Channels\SinkProviderData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__SinkProviderData_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Channels::SinkProviderData::*)(::StringW)>(&::System::Runtime::Remoting::Channels::SinkProviderData::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5b3870c;
+  constexpr static std::size_t addrs = 0x5b3cbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::System::Runtime::Remoting::Channels::SinkProviderData::*)()>(
     &::System::Runtime::Remoting::Channels::SinkProviderData::get_Children)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b387ac;
+  constexpr static std::size_t addrs = 0x5b3cc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::SinkProviderData*>(), { "get_Children", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Channels::SinkProviderData::*)()>(
     &::System::Runtime::Remoting::Channels::SinkProviderData::get_Properties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b387b4;
+  constexpr static std::size_t addrs = 0x5b3cc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::SinkProviderData*>(), { "get_Properties", {}, {} })));

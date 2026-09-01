@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/ChallengeOptions.hpp"
+// IWYU pragma private; include "Oculus\Platform\ChallengeOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,39 +36,39 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x5dd0620, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5dd4adc, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::ChallengeOptions* New_ctor();
 
-  /// @brief Method SetDescription, addr 0x5dd01dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetDescription, addr 0x5dd4698, size 0x6c, virtual false, abstract: false, final false
   inline void SetDescription(::StringW value);
 
-  /// @brief Method SetEndDate, addr 0x5dd0248, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x5dd4704, size 0x6c, virtual false, abstract: false, final false
   inline void SetEndDate(::System::DateTime value);
 
-  /// @brief Method SetIncludeActiveChallenges, addr 0x5dd02b4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetIncludeActiveChallenges, addr 0x5dd4770, size 0x6c, virtual false, abstract: false, final false
   inline void SetIncludeActiveChallenges(bool value);
 
-  /// @brief Method SetIncludeFutureChallenges, addr 0x5dd0320, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetIncludeFutureChallenges, addr 0x5dd47dc, size 0x6c, virtual false, abstract: false, final false
   inline void SetIncludeFutureChallenges(bool value);
 
-  /// @brief Method SetIncludePastChallenges, addr 0x5dd038c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetIncludePastChallenges, addr 0x5dd4848, size 0x6c, virtual false, abstract: false, final false
   inline void SetIncludePastChallenges(bool value);
 
-  /// @brief Method SetLeaderboardName, addr 0x5dd03f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetLeaderboardName, addr 0x5dd48b4, size 0x6c, virtual false, abstract: false, final false
   inline void SetLeaderboardName(::StringW value);
 
-  /// @brief Method SetStartDate, addr 0x5dd0464, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x5dd4920, size 0x6c, virtual false, abstract: false, final false
   inline void SetStartDate(::System::DateTime value);
 
-  /// @brief Method SetTitle, addr 0x5dd04d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetTitle, addr 0x5dd498c, size 0x6c, virtual false, abstract: false, final false
   inline void SetTitle(::StringW value);
 
-  /// @brief Method SetViewerFilter, addr 0x5dd053c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetViewerFilter, addr 0x5dd49f8, size 0x6c, virtual false, abstract: false, final false
   inline void SetViewerFilter(::Oculus::Platform::ChallengeViewerFilter value);
 
-  /// @brief Method SetVisibility, addr 0x5dd05a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetVisibility, addr 0x5dd4a64, size 0x6c, virtual false, abstract: false, final false
   inline void SetVisibility(::Oculus::Platform::ChallengeVisibility value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5dd0180, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd463c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x5dd0614, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x5dd4ad0, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::ChallengeOptions* options);
 
 protected:
@@ -98,7 +98,7 @@ public:
   ChallengeOptions(ChallengeOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17802 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17835 };
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;

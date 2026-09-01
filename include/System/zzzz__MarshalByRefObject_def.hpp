@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/MarshalByRefObject.hpp"
+// IWYU pragma private; include "System\MarshalByRefObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
   /// @brief Field _identity, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__identity, put = __cordl_internal_set__identity)) ::System::Object* _identity;
 
-  /// @brief Method CreateObjRef, addr 0x5c8ea4c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method CreateObjRef, addr 0x5c92f08, size 0x38, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method InitializeLifetimeService, addr 0x5c8ea84, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method InitializeLifetimeService, addr 0x5c92f40, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* InitializeLifetimeService();
 
   static inline ::System::MarshalByRefObject* New_ctor();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__identity(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5c87ea8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c8c364, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ObjectIdentity, addr 0x5c8e9dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectIdentity, addr 0x5c92e98, size 0x38, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
 
-  /// @brief Method set_ObjectIdentity, addr 0x5c8ea14, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectIdentity, addr 0x5c92ed0, size 0x38, virtual false, abstract: false, final false
   inline void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity* value);
 
 protected:

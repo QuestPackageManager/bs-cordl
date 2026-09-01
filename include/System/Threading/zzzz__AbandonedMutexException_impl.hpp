@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/AbandonedMutexException.hpp"
+// IWYU pragma private; include "System\Threading\AbandonedMutexException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Threading/zzzz__AbandonedMutexException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::AbandonedMutexException::*)()>(&::System::Threading::AbandonedMutexException::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5ca457c;
+  constexpr static std::size_t addrs = 0x5ca8a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::AbandonedMutexException*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::AbandonedMutexException::*)(int32_t, ::System::Threading::WaitHandle*)>(
     &::System::Threading::AbandonedMutexException::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5ca45e4;
+  constexpr static std::size_t addrs = 0x5ca8aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::AbandonedMutexException*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::AbandonedMutexException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Threading::AbandonedMutexException::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ca4714;
+  constexpr static std::size_t addrs = 0x5ca8bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::AbandonedMutexException::*)(int32_t, ::System::Threading::WaitHandle*)>(
     &::System::Threading::AbandonedMutexException::SetupException)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ca46a4;
+  constexpr static std::size_t addrs = 0x5ca8b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

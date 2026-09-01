@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CompletableViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\CompletableViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,18 +30,18 @@ public:
   __declspec(property(get = __cordl_internal_get__taskCompletionSource,
                       put = __cordl_internal_set__taskCompletionSource)) ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* _taskCompletionSource;
 
-  /// @brief Method Complete, addr 0x5a0fa0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x5a17b18, size 0x58, virtual false, abstract: false, final false
   inline void Complete();
 
   static inline ::GlobalNamespace::CompletableViewController* New_ctor();
 
-  /// @brief Method ResetCompletion, addr 0x5a0f998, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ResetCompletion, addr 0x5a17aa4, size 0x74, virtual false, abstract: false, final false
   inline void ResetCompletion();
 
-  /// @brief Method WaitForCompletionAsync, addr 0x5a0f948, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionAsync, addr 0x5a17a54, size 0x50, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WaitForCompletionAsync();
 
-  /// @brief Method __Activate, addr 0x5a0fa64, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method __Activate, addr 0x5a17b70, size 0xa0, virtual true, abstract: false, final false
   inline void __Activate(bool addedToHierarchy, bool screenSystemEnabling);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* const& __cordl_internal_get__taskCompletionSource() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x5a0fb04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a17c10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   CompletableViewController(CompletableViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6390 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6418 };
 
   /// @brief Field _taskCompletionSource, offset: 0x78, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* ____taskCompletionSource;

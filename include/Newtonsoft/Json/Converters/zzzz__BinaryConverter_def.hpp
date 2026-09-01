@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/BinaryConverter.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\BinaryConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,27 +43,27 @@ public:
   /// @brief Field _reflectionObject, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__reflectionObject, put = setStaticF__reflectionObject)) ::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject;
 
-  /// @brief Method CanConvert, addr 0x5d928cc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x5d96d88, size 0xf8, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method EnsureReflectionObject, addr 0x5d92098, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method EnsureReflectionObject, addr 0x5d96554, size 0x19c, virtual false, abstract: false, final false
   static inline void EnsureReflectionObject(::System::Type* t);
 
-  /// @brief Method GetByteArray, addr 0x5d91eb0, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetByteArray, addr 0x5d9636c, size 0x1e8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetByteArray(::System::Object* value);
 
   static inline ::Newtonsoft::Json::Converters::BinaryConverter* New_ctor();
 
-  /// @brief Method ReadByteArray, addr 0x5d9261c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method ReadByteArray, addr 0x5d96ad8, size 0x2b0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ReadByteArray(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method ReadJson, addr 0x5d92234, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x5d966f0, size 0x3e8, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5d91e5c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x5d96318, size 0x54, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5d929c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d96e80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* getStaticF__reflectionObject();
@@ -91,7 +91,7 @@ public:
   static constexpr ::ConstString BinaryTypeName{ u"System.Data.Linq.Binary" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/DHBasicAgreement.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\DHBasicAgreement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBasicAgreement"
   constexpr operator ::Org::BouncyCastle::Crypto::IBasicAgreement*() noexcept;
 
-  /// @brief Method CalculateAgreement, addr 0x36df824, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x36e35e4, size 0x274, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
-  /// @brief Method GetFieldSize, addr 0x36df7e0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetFieldSize, addr 0x36e35a0, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetFieldSize();
 
-  /// @brief Method Init, addr 0x36df694, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x36e3454, size 0x14c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* New_ctor();
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x36dfa98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e3858, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"

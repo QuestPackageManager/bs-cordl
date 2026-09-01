@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Interface/TlsException.hpp"
+// IWYU pragma private; include "Mono\Security\Interface\TlsException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Mono/Security/Interface/zzzz__TlsException_def.hpp"
 #include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::TlsException::*)(::Mono::Security::Interface::Alert*, ::StringW)>(
     &::Mono::Security::Interface::TlsException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5a9a0c8;
+  constexpr static std::size_t addrs = 0x5a9e584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::TlsException*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::TlsException::*)(::Mono::Security::Interface::AlertDescription, ::StringW)>(
     &::Mono::Security::Interface::TlsException::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a9a13c;
+  constexpr static std::size_t addrs = 0x5a9e5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

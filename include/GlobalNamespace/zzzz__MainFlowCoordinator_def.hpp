@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -176,10 +176,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x59247d0, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x592800c, size 0x244, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5924a14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5928250, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -201,7 +201,7 @@ public:
                                                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6835 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -252,10 +252,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5924a1c, size 0x6d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5928258, size 0x6d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x59250f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5928930, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -274,7 +274,7 @@ public:
                                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6836 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -325,10 +325,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x59250fc, size 0x6b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5928938, size 0x6b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x59257ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5928fe8, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -348,7 +348,7 @@ public:
                                                                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6837 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -394,10 +394,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x59257b4, size 0x5c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5928ff0, size 0x5cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5926198, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x59295bc, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -416,7 +416,7 @@ public:
                                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6838 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -484,21 +484,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x59261a4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59295c8, size 0x54, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__53* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59261f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x592961c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5926200, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5929624, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5926238, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x592965c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x59261a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59295c4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -525,7 +525,7 @@ public:
 
   constexpr void __cordl_internal_set_destination(::GlobalNamespace::MenuDestination* value);
 
-  /// @brief Method .ctor, addr 0x59245d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5927e0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -552,7 +552,7 @@ public:
   MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__53(MainFlowCoordinator__ProcessMenuDestinationRequestAfterFrameCoroutine_d__53 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6839 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -682,81 +682,81 @@ public:
   /// @brief Field _startWithSettings, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__startWithSettings, put = setStaticF__startWithSettings)) bool _startWithSettings;
 
-  /// @brief Method BackButtonWasPressed, addr 0x59245d8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x5927e14, size 0xa0, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DidActivate, addr 0x5922b2c, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x59264d8, size 0x504, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5923418, size 0x4a8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5926d0c, size 0x4b0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleCampaignFlowCoordinatorDidFinish, addr 0x5924108, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleCampaignFlowCoordinatorDidFinish, addr 0x5927944, size 0x14, virtual false, abstract: false, final false
   inline void HandleCampaignFlowCoordinatorDidFinish(::GlobalNamespace::CampaignFlowCoordinator* flowCoordinator);
 
-  /// @brief Method HandleEditAvatarFlowCoordinatorHelperDidFinish, addr 0x592411c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HandleEditAvatarFlowCoordinatorHelperDidFinish, addr 0x5927958, size 0xbc, virtual false, abstract: false, final false
   inline void HandleEditAvatarFlowCoordinatorHelperDidFinish(::HMUI::FlowCoordinator* flowCoordinator, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction finishAction);
 
-  /// @brief Method HandleHelpFlowCoordinatorDidFinish, addr 0x59242a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleHelpFlowCoordinatorDidFinish, addr 0x5927ae0, size 0x14, virtual false, abstract: false, final false
   inline void HandleHelpFlowCoordinatorDidFinish(::GlobalNamespace::HelpFlowCoordinator* helpFlowCoordinator);
 
-  /// @brief Method HandleMainMenuViewControllerDidFinish, addr 0x5923ccc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleMainMenuViewControllerDidFinish, addr 0x5927508, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleMainMenuViewControllerDidFinish(::GlobalNamespace::MainMenuViewController* viewController, ::GlobalNamespace::MainMenuViewController_MenuButton subMenuType);
 
-  /// @brief Method HandleMainMenuViewControllerPromoButtonWasPressed, addr 0x59242cc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method HandleMainMenuViewControllerPromoButtonWasPressed, addr 0x5927b08, size 0x258, virtual false, abstract: false, final false
   inline void HandleMainMenuViewControllerPromoButtonWasPressed(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* promoInfo);
 
-  /// @brief Method HandleMultiplayerDisclaimerDidFinishAction, addr 0x5923f44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerDisclaimerDidFinishAction, addr 0x5927780, size 0xb4, virtual false, abstract: false, final false
   inline void HandleMultiplayerDisclaimerDidFinishAction(int32_t buttonNumber);
 
-  /// @brief Method HandleMultiplayerModeSelectionFlowCoordinatorDidFinish, addr 0x59242b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerModeSelectionFlowCoordinatorDidFinish, addr 0x5927af4, size 0x14, virtual false, abstract: false, final false
   inline void HandleMultiplayerModeSelectionFlowCoordinatorDidFinish(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* multiplayerModeSelectionFlowCoordinator);
 
-  /// @brief Method HandleOptionsViewControllerDidFinish, addr 0x5923ff8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionsViewControllerDidFinish, addr 0x5927834, size 0xfc, virtual false, abstract: false, final false
   inline void HandleOptionsViewControllerDidFinish(::GlobalNamespace::OptionsViewController_OptionsButton optionsType);
 
-  /// @brief Method HandlePartyFreePlayFlowCoordinatorDidFinish, addr 0x59241ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandlePartyFreePlayFlowCoordinatorDidFinish, addr 0x5927a28, size 0x14, virtual false, abstract: false, final false
   inline void HandlePartyFreePlayFlowCoordinatorDidFinish(::GlobalNamespace::LevelSelectionFlowCoordinator* flowCoordinator);
 
-  /// @brief Method HandlePlayerOptionsViewControllerDidFinish, addr 0x59240f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerOptionsViewControllerDidFinish, addr 0x5927930, size 0x14, virtual false, abstract: false, final false
   inline void HandlePlayerOptionsViewControllerDidFinish(::HMUI::ViewController* viewController);
 
-  /// @brief Method HandleSettingsFlowCoordinatorDidFinish, addr 0x5924200, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleSettingsFlowCoordinatorDidFinish, addr 0x5927a3c, size 0xa4, virtual false, abstract: false, final false
   inline void HandleSettingsFlowCoordinatorDidFinish(::GlobalNamespace::SettingsFlowCoordinator* settingsFlowCoordinator, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction finishAction);
 
-  /// @brief Method HandleSoloFreePlayFlowCoordinatorDidFinish, addr 0x59241d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleSoloFreePlayFlowCoordinatorDidFinish, addr 0x5927a14, size 0x14, virtual false, abstract: false, final false
   inline void HandleSoloFreePlayFlowCoordinatorDidFinish(::GlobalNamespace::LevelSelectionFlowCoordinator* flowCoordinator);
 
-  /// @brief Method InitialViewControllerWasPresented, addr 0x592339c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method InitialViewControllerWasPresented, addr 0x5926c90, size 0x7c, virtual true, abstract: false, final false
   inline void InitialViewControllerWasPresented();
 
   static inline ::GlobalNamespace::MainFlowCoordinator* New_ctor();
 
-  /// @brief Method PresentFlowCoordinatorOrAskForTutorial, addr 0x5923a40, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method PresentFlowCoordinatorOrAskForTutorial, addr 0x592727c, size 0x28c, virtual false, abstract: false, final false
   inline void PresentFlowCoordinatorOrAskForTutorial(::HMUI::FlowCoordinator* flowCoordinator);
 
-  /// @brief Method PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator, addr 0x5923e90, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator, addr 0x59276cc, size 0xb4, virtual false, abstract: false, final false
   inline void PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator(bool presentImmediately);
 
-  /// @brief Method ProcessMenuDestinationRequest, addr 0x5924524, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ProcessMenuDestinationRequest, addr 0x5927d60, size 0xac, virtual false, abstract: false, final false
   inline void ProcessMenuDestinationRequest(::GlobalNamespace::MenuDestination* destination);
 
-  /// @brief Method ProcessMenuDestinationRequestAfterFrameCoroutine, addr 0x59231a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ProcessMenuDestinationRequestAfterFrameCoroutine, addr 0x5926a9c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProcessMenuDestinationRequestAfterFrameCoroutine(::GlobalNamespace::MenuDestination* destination);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x5923208, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x5926afc, size 0x194, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method <HandleMainMenuViewControllerDidFinish>b__39_0, addr 0x59247b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <HandleMainMenuViewControllerDidFinish>b__39_0, addr 0x5927ff0, size 0x18, virtual false, abstract: false, final false
   inline void _HandleMainMenuViewControllerDidFinish_b__39_0();
 
-  /// @brief Method <PresentFlowCoordinatorOrAskForTutorial>b__38_0, addr 0x5924680, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method <PresentFlowCoordinatorOrAskForTutorial>b__38_0, addr 0x5927ebc, size 0x11c, virtual false, abstract: false, final false
   inline void _PresentFlowCoordinatorOrAskForTutorial_b__38_0(int32_t buttonNumber);
 
-  /// @brief Method <PresentFlowCoordinatorOrAskForTutorial>b__38_1, addr 0x592479c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <PresentFlowCoordinatorOrAskForTutorial>b__38_1, addr 0x5927fd8, size 0x18, virtual false, abstract: false, final false
   inline void _PresentFlowCoordinatorOrAskForTutorial_b__38_1();
 
-  /// @brief Method <PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__52_0, addr 0x59247cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__52_0, addr 0x5928008, size 0x4, virtual false, abstract: false, final false
   inline void _PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator_b__52_0(int32_t buttonNumber);
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -897,7 +897,7 @@ public:
 
   constexpr void __cordl_internal_set__soloFreePlayFlowCoordinator(::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> value);
 
-  /// @brief Method .ctor, addr 0x5924678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5927eb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__startWithSettings();
@@ -919,7 +919,7 @@ public:
   MainFlowCoordinator(MainFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6840 };
 
   /// @brief Field kButtonAgreeLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kButtonAgreeLocalizationKey{ u"BUTTON_AGREE" };

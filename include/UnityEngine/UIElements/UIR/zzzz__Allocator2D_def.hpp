@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/Allocator2D.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\Allocator2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x6ccc3b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd3f38, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RectInt rect);
 
 protected:
@@ -149,12 +149,12 @@ public:
   /// @brief Field rect, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect)) ::UnityEngine::RectInt rect;
 
-  /// @brief Method Create, addr 0x6ccc42c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6cd3fb0, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::Allocator2D_Row* Create();
 
   static inline ::UnityEngine::UIElements::UIR::Allocator2D_Row* New_ctor();
 
-  /// @brief Method Reset, addr 0x6ccc4e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6cd4064, size 0x24, virtual false, abstract: false, final false
   static inline void Reset(::UnityEngine::UIElements::UIR::Allocator2D_Row* row);
 
   constexpr ::UnityEngine::UIElements::UIR::Alloc const& __cordl_internal_get_alloc() const;
@@ -187,7 +187,7 @@ public:
 
   constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x6ccc4a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd4028, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::Allocator2D_Row*>* getStaticF_pool();
@@ -249,7 +249,7 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE Allocator2D_Alloc2D {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6ccc094, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd3c18, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIR::Allocator2D_Row* row, ::UnityEngine::UIElements::UIR::Alloc alloc, int32_t width, int32_t height);
 
   // Ctor Parameters []
@@ -318,21 +318,21 @@ public:
   /// @brief Field m_Rows, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Rows, put = __cordl_internal_set_m_Rows)) ::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*> m_Rows;
 
-  /// @brief Method BuildAreas, addr 0x6ccb7a8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method BuildAreas, addr 0x6cd332c, size 0x22c, virtual false, abstract: false, final false
   static inline void BuildAreas(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>* areas, ::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize);
 
-  /// @brief Method BuildRowArray, addr 0x6ccbb10, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BuildRowArray, addr 0x6cd3694, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*> BuildRowArray(int32_t maxRowHeight, int32_t rowHeightBias);
 
-  /// @brief Method ComputeMaxAllocSize, addr 0x6ccb9d4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ComputeMaxAllocSize, addr 0x6cd3558, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int ComputeMaxAllocSize(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>* areas, int32_t rowHeightBias);
 
-  /// @brief Method Free, addr 0x6ccc1a4, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6cd3d28, size 0x210, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D alloc2D);
 
   static inline ::UnityEngine::UIElements::UIR::Allocator2D* New_ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias);
 
-  /// @brief Method TryAllocate, addr 0x6ccbbb0, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x6cd3734, size 0x4e4, virtual false, abstract: false, final false
   inline bool TryAllocate(int32_t width, int32_t height, ::by_ref<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D> alloc2D);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>* const& __cordl_internal_get_m_Areas() const;
@@ -371,7 +371,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Rows(::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*> value);
 
-  /// @brief Method .ctor, addr 0x6ccb598, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd311c, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias);
 
 protected:

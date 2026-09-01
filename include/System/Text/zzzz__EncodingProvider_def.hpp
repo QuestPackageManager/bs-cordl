@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/EncodingProvider.hpp"
+// IWYU pragma private; include "System\Text\EncodingProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,19 +43,19 @@ public:
   /// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage);
 
-  /// @brief Method GetEncoding, addr 0x5ad2538, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetEncoding, addr 0x5ad69f4, size 0x108, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage, ::System::Text::EncoderFallback* encoderFallback, ::System::Text::DecoderFallback* decoderFallback);
 
   /// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(::StringW name);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x5ad2640, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x5ad6afc, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x5ad27f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x5ad6cb4, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage, ::System::Text::EncoderFallback* enc, ::System::Text::DecoderFallback* dec);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x5ad271c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x5ad6bd8, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(::StringW encodingName);
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();

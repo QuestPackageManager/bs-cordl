@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/TypeFilter.hpp"
+// IWYU pragma private; include "System\Reflection\TypeFilter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Reflection/zzzz__TypeFilter_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::TypeFilter::*)(::System::Object*, ::System::IntPtr)>(&::System::Reflection::TypeFilter::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5b7c218;
+  constexpr static std::size_t addrs = 0x5b806d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::TypeFilter::*)(::System::Type*, ::System::Object*)>(&::System::Reflection::TypeFilter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b800ac;
+  constexpr static std::size_t addrs = 0x5b84568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

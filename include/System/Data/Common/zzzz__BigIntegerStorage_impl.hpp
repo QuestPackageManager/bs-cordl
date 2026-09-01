@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/Common/BigIntegerStorage.hpp"
+// IWYU pragma private; include "System\Data\Common\BigIntegerStorage.hpp"
 #include "System/Data/Common/zzzz__DataStorage_impl.hpp"
 #include "System/Numerics/zzzz__BigInteger_impl.hpp"
 #include "System/Data/Common/zzzz__BigIntegerStorage_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BigIntegerStorage::*)(::System::Data::DataColumn*)>(&::System::Data::Common::BigIntegerStorage::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x60999cc;
+  constexpr static std::size_t addrs = 0x60a1448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::BigIntegerStorage::*)(::ArrayW<int32_t>, ::System::Data::AggregateType)>(
     &::System::Data::Common::BigIntegerStorage::Aggregate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6099bac;
+  constexpr static std::size_t addrs = 0x60a1628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::BigIntegerStorage::*)(int32_t, int32_t)>(&::System::Data::Common::BigIntegerStorage::Compare)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6099bdc;
+  constexpr static std::size_t addrs = 0x60a1658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::BigIntegerStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::BigIntegerStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6099d50;
+  constexpr static std::size_t addrs = 0x60a17cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::System::Object*, ::System::IFormatProvider*)>(
     &::System::Data::Common::BigIntegerStorage::ConvertToBigInteger)> {
   constexpr static std::size_t size = 0x5e4;
-  constexpr static std::size_t addrs = 0x6099e9c;
+  constexpr static std::size_t addrs = 0x60a1918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Numerics::BigInteger, ::System::Type*, ::System::IFormatProvider*)>(
     &::System::Data::Common::BigIntegerStorage::ConvertFromBigInteger)> {
   constexpr static std::size_t size = 0x648;
-  constexpr static std::size_t addrs = 0x609a480;
+  constexpr static std::size_t addrs = 0x60a1efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::BigIntegerStorage::*)(::System::Object*)>(&::System::Data::Common::BigIntegerStorage::ConvertValue)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x609aac8;
+  constexpr static std::size_t addrs = 0x60a2544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BigIntegerStorage::*)(int32_t, int32_t)>(&::System::Data::Common::BigIntegerStorage::Copy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x609ab8c;
+  constexpr static std::size_t addrs = 0x60a2608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::BigIntegerStorage::*)(int32_t)>(&::System::Data::Common::BigIntegerStorage::Get)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x609ac24;
+  constexpr static std::size_t addrs = 0x60a26a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BigIntegerStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::BigIntegerStorage::Set)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x609ad24;
+  constexpr static std::size_t addrs = 0x60a27a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BigIntegerStorage::*)(int32_t)>(&::System::Data::Common::BigIntegerStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x609ae7c;
+  constexpr static std::size_t addrs = 0x60a28f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::BigIntegerStorage::*)(::StringW)>(&::System::Data::Common::BigIntegerStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x609afc8;
+  constexpr static std::size_t addrs = 0x60a2a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Common::BigIntegerStorage::*)(::System::Object*)>(&::System::Data::Common::BigIntegerStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x609b080;
+  constexpr static std::size_t addrs = 0x60a2afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::BigIntegerStorage::*)(int32_t)>(&::System::Data::Common::BigIntegerStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x609b178;
+  constexpr static std::size_t addrs = 0x60a2bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BigIntegerStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(
     &::System::Data::Common::BigIntegerStorage::CopyValue)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x609b1c4;
+  constexpr static std::size_t addrs = 0x60a2c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BigIntegerStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::BigIntegerStorage::SetStorage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x609b2cc;
+  constexpr static std::size_t addrs = 0x60a2d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

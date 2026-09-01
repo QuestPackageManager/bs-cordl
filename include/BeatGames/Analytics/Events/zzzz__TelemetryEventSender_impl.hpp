@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames/Analytics/Events/TelemetryEventSender.hpp"
+// IWYU pragma private; include "BeatGames\Analytics\Events\TelemetryEventSender.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatGames/Analytics/Events/zzzz__TelemetryEventSender_def.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::TelemetryEventSender::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatGames::Analytics::Events::TelemetryEventSender::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3254780;
+  constexpr static std::size_t addrs = 0x3257a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::TelemetryEventSender::*)(::StringW, ::StringW, ::StringW, int32_t, int32_t, ::ArrayW<::StringW>)>(
     &::BeatGames::Analytics::Events::TelemetryEventSender::SendTelemetryEvent)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3255138;
+  constexpr static std::size_t addrs = 0x3258438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::TelemetryEventSender*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Awaitable_1.hpp"
+// IWYU pragma private; include "UnityEngine\Awaitable_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Awaitable_1_def.hpp"
 #include "System/Threading/zzzz__ThreadLocal_1_def.hpp"

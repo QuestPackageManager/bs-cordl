@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/NoInterpMaxIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\NoInterpMaxIntParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpMaxIntParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::NoInterpMaxIntParameter.get_value
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::NoInterpMaxIntParameter::*)()>(&::UnityEngine::Rendering::NoInterpMaxIntParameter::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c5008;
+  constexpr static std::size_t addrs = 0x67cca84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpMaxIntParameter::*)(int32_t)>(&::UnityEngine::Rendering::NoInterpMaxIntParameter::set_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c5010;
+  constexpr static std::size_t addrs = 0x67cca8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpMaxIntParameter::*)(int32_t, int32_t, bool)>(
     &::UnityEngine::Rendering::NoInterpMaxIntParameter::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x67c5024;
+  constexpr static std::size_t addrs = 0x67ccaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpMaxIntParameter*>(),

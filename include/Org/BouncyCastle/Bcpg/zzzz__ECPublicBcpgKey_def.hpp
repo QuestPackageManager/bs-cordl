@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/ECPublicBcpgKey.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\ECPublicBcpgKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,10 +55,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Method Encode, addr 0x3699e50, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x369dc10, size 0xbc, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x3699dc8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x369db88, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::ECPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ECPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method ReadBytesOfEncodedLength, addr 0x3699b8c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReadBytesOfEncodedLength, addr 0x369d94c, size 0x154, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadBytesOfEncodedLength(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_oid() const;
@@ -82,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set_point(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x3699ac4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369d884, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x3699d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369db3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::BigInteger* encodedPoint);
 
-  /// @brief Method .ctor, addr 0x3699ce0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369daa0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method get_CurveOid, addr 0x3699f14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CurveOid, addr 0x369dcd4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_CurveOid();
 
-  /// @brief Method get_EncodedPoint, addr 0x3699f0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EncodedPoint, addr 0x369dccc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_EncodedPoint();
 
-  /// @brief Method get_Format, addr 0x3699d84, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x369db44, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"

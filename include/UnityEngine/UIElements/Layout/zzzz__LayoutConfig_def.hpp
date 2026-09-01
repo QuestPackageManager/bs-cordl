@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutConfig.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutConfig.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,16 +32,16 @@ public:
 
   __declspec(property(get = get_PointScaleFactor)) float_t PointScaleFactor;
 
-  /// @brief Method .ctor, addr 0x6cf62fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfde80, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Layout::LayoutDataAccess access, ::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method get_Handle, addr 0x6cf6310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x6cfde94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutHandle get_Handle();
 
-  /// @brief Method get_PointScaleFactor, addr 0x6cf6318, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_PointScaleFactor, addr 0x6cfde9c, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<float_t> get_PointScaleFactor();
 
-  /// @brief Method get_Undefined, addr 0x6cf62e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Undefined, addr 0x6cfde68, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutConfig get_Undefined();
 
   // Ctor Parameters []

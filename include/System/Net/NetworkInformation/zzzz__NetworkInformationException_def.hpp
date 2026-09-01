@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/NetworkInformationException.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\NetworkInformationException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
   static inline ::System::Net::NetworkInformation::NetworkInformationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                          ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x634a874, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63522f0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x634a8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6352370, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x634a8fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x6352378, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:
@@ -57,7 +57,7 @@ public:
   NetworkInformationException(NetworkInformationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11675 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

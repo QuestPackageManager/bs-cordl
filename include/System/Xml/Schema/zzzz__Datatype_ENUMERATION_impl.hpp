@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_ENUMERATION.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_ENUMERATION.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_NMTOKEN_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_ENUMERATION_def.hpp"
 #include "System/Xml/zzzz__XmlTokenizedType_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlTokenizedType (::System::Xml::Schema::Datatype_ENUMERATION::*)()>(
     &::System::Xml::Schema::Datatype_ENUMERATION::get_TokenizedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c3364;
+  constexpr static std::size_t addrs = 0x61cade0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_ENUMERATION::*)()>(&::System::Xml::Schema::Datatype_ENUMERATION::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61b83f4;
+  constexpr static std::size_t addrs = 0x61bfe70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_ENUMERATION*>(), { ".ctor", {}, {} })));

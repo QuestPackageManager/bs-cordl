@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/CompilerContextData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\CompilerContextData.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__CompilerContextData_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__NativePassData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator::*)(Il2CppObject*)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x67e7550;
+  constexpr static std::size_t addrs = 0x67eefcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::R
     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator::get_Current)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x67e76c0;
+  constexpr static std::size_t addrs = 0x67ef13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator::MoveNext)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x67e7740;
+  constexpr static std::size_t addrs = 0x67ef1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator::GetEnumerator)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67e76b4;
+  constexpr static std::size_t addrs = 0x67ef130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

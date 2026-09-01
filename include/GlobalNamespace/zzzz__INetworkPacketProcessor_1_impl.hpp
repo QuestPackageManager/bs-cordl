@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/INetworkPacketProcessor_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\INetworkPacketProcessor_1.hpp"
 #include "GlobalNamespace/zzzz__INetworkPacketProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPacketProcessedHandler_1_def.hpp"
 template <typename TData> inline ::GlobalNamespace::INetworkPacketProcessedHandler_1<TData>* GlobalNamespace::INetworkPacketProcessor_1<TData>::get_PacketProcessedHandler() {

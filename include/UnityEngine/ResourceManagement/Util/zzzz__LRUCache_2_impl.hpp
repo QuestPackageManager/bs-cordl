@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/LRUCache_2.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\LRUCache_2.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__LRUCache_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"

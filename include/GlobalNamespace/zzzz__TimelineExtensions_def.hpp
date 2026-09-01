@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TimelineExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\TimelineExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <JumpToTimelineMarker>b__0, addr 0x5903588, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <JumpToTimelineMarker>b__0, addr 0x5906b88, size 0x38, virtual false, abstract: false, final false
   inline bool _JumpToTimelineMarker_b__0(::UnityEngine::Timeline::IMarker* marker);
 
   constexpr ::System::Type* const& __cordl_internal_get_markerType() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_markerType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5903584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5906b84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   TimelineExtensions___c__DisplayClass0_0(TimelineExtensions___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6680 };
 
   /// @brief Field markerType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___markerType;
@@ -90,7 +90,7 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0;
 
-  /// @brief Method JumpToTimelineMarker, addr 0x59033b0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method JumpToTimelineMarker, addr 0x59069b0, size 0x1d4, virtual false, abstract: false, final false
   static inline void JumpToTimelineMarker(::UnityEngine::Playables::PlayableDirector* playableDirector, ::System::Type* markerType);
 
 protected:
@@ -108,7 +108,7 @@ public:
   TimelineExtensions(TimelineExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6681 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

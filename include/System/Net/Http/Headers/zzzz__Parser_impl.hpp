@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/Parser.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\Parser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__Parser_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Parser_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Net::Http::Headers::Parser_Token::Check)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x60d730c;
+  constexpr static std::size_t addrs = 0x60ded88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::Headers::Parser_Token::TryCheck)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x60e23c8;
+  constexpr static std::size_t addrs = 0x60e9e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::DateTime_Parser___c::*)()>(&::System::Net::Http::Headers::DateTime_Parser___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60e52f0;
+  constexpr static std::size_t addrs = 0x60ecd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::DateTime_Parser___c*>(), { ".ctor", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::DateTime_Parser___c::*)(::System::Object*)>(
     &::System::Net::Http::Headers::DateTime_Parser___c::__cctor_b__2_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x60e52f4;
+  constexpr static std::size_t addrs = 0x60ecd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::DateTimeOffset>)>(&::System::Net::Http::Headers::Parser_DateTime::TryParse)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x60e5168;
+  constexpr static std::size_t addrs = 0x60ecbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Parser_DateTime*>(),
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::StringW>)>(&::System::Net::Http::Headers::Parser_EmailAddress::TryParse)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x60e53e4;
+  constexpr static std::size_t addrs = 0x60ece60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Parser_EmailAddress*>(),
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::StringW>)>(&::System::Net::Http::Headers::Parser_Host::TryParse)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x60e54c8;
+  constexpr static std::size_t addrs = 0x60ecf44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<int32_t>)>(&::System::Net::Http::Headers::Parser_Int::TryParse)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x60e5590;
+  constexpr static std::size_t addrs = 0x60ed00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<int64_t>)>(&::System::Net::Http::Headers::Parser_Long::TryParse)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x60e560c;
+  constexpr static std::size_t addrs = 0x60ed088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::MD5_Parser___c::*)()>(&::System::Net::Http::Headers::MD5_Parser___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60e5898;
+  constexpr static std::size_t addrs = 0x60ed314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::MD5_Parser___c*>(), { ".ctor", {}, {} })));
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::MD5_Parser___c::*)(::System::Object*)>(&::System::Net::Http::Headers::MD5_Parser___c::__cctor_b__2_0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x60e589c;
+  constexpr static std::size_t addrs = 0x60ed318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::ArrayW<uint8_t>>)>(&::System::Net::Http::Headers::Parser_MD5::TryParse)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x60e5688;
+  constexpr static std::size_t addrs = 0x60ed104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Parser_MD5*>(),
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::TimeSpan>)>(&::System::Net::Http::Headers::Parser_TimeSpanSeconds::TryParse)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x60e5938;
+  constexpr static std::size_t addrs = 0x60ed3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Parser_TimeSpanSeconds*>(),
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::Uri*>)>(&::System::Net::Http::Headers::Parser_Uri::TryParse)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60e59f0;
+  constexpr static std::size_t addrs = 0x60ed46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Parser_Uri*>(),

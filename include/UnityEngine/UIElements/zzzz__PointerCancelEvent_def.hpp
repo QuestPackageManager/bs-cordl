@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PointerCancelEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PointerCancelEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9d714, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6da5298, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerCancelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9d710, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da5294, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent___c* getStaticF___9();
@@ -78,21 +78,21 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerCancelEvent___c;
 
-  /// @brief Method Init, addr 0x6d9d260, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6da4de4, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d9d2b4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6da4e38, size 0xa8, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x6d9d4dc, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6da5060, size 0x1e0, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method PreDispatch, addr 0x6d9d3b0, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6da4f34, size 0x12c, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6d9d35c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da4ee0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

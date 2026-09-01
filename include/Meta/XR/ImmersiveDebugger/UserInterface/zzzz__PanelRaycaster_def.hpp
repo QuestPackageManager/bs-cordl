@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/PanelRaycaster.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\PanelRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,24 +24,24 @@ public:
   // Declarations
   __declspec(property(get = get_IsValid)) bool IsValid;
 
-  /// @brief Method IsFocussed, addr 0x5a52a48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsFocussed, addr 0x5a56f04, size 0x8, virtual true, abstract: false, final false
   inline bool IsFocussed();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5a52aa8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a56f64, size 0x58, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5a52a50, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5a56f0c, size 0x58, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPointerEnter, addr 0x5a52a44, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x5a56f00, size 0x4, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* e);
 
-  /// @brief Method .ctor, addr 0x5a52b00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a56fbc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsValid, addr 0x5a51c00, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x5a560bc, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
 protected:
@@ -59,7 +59,7 @@ public:
   PanelRaycaster(PanelRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

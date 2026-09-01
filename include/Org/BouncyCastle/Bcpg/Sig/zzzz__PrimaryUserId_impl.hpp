@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/PrimaryUserId.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Sig\PrimaryUserId.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Sig/zzzz__PrimaryUserId_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId.BooleanToByteArray
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(bool)>(&::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId::BooleanToByteArray)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3691680;
+  constexpr static std::size_t addrs = 0x3695440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId::*)(bool, bool, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x36916f0;
+  constexpr static std::size_t addrs = 0x36954b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId*>(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId::*)(bool, bool)>(&::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3691708;
+  constexpr static std::size_t addrs = 0x36954c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId::*)()>(&::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId::IsPrimaryUserId)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3691740;
+  constexpr static std::size_t addrs = 0x3695500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId*>(), { "IsPrimaryUserId", {}, {} })));

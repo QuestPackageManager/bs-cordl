@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/StackGuard.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\StackGuard.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +76,7 @@ public:
   StackGuard___c__3_2(StackGuard___c__3_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16226 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -102,7 +102,7 @@ public:
   /// @brief Method RunOnEmptyStackCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename R> inline R RunOnEmptyStackCore(::System::Func_2<::System::Object*, R>* action, ::System::Object* state);
 
-  /// @brief Method TryEnterOnCurrentStack, addr 0x5f81ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TryEnterOnCurrentStack, addr 0x5f89530, size 0x8, virtual false, abstract: false, final false
   inline bool TryEnterOnCurrentStack();
 
   constexpr int32_t const& __cordl_internal_get__executionStackCount() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__executionStackCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5f81abc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f89538, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   StackGuard(StackGuard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16227 };
 
   /// @brief Field _executionStackCount, offset: 0x10, size: 0x4, def value: None
   int32_t ____executionStackCount;

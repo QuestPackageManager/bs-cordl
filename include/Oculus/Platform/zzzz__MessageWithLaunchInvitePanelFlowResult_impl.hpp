@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithLaunchInvitePanelFlowResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithLaunchInvitePanelFlowResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLaunchInvitePanelFlowResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LaunchInvitePanelFlowResult_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd3380;
+  constexpr static std::size_t addrs = 0x5dd783c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LaunchInvitePanelFlowResult* (::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::*)()>(
     &::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::GetLaunchInvitePanelFlowResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd6db4;
+  constexpr static std::size_t addrs = 0x5ddb270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LaunchInvitePanelFlowResult* (::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd6df8;
+  constexpr static std::size_t addrs = 0x5ddb2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult*>(),

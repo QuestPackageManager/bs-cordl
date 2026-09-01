@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AutoSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\AutoSetupData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AutoSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AutoSetupData._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupData::*)()>(&::GlobalNamespace::AutoSetupData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593ad1c;
+  constexpr static std::size_t addrs = 0x593e7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutoSetupData*>(), { ".ctor", {}, {} })));

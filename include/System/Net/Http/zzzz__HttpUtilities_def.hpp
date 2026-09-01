@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/HttpUtilities.hpp"
+// IWYU pragma private; include "System\Net\Http\HttpUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,10 +20,10 @@ namespace System::Net::Http {
 class CORDL_TYPE HttpUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsSecureWebSocketScheme, addr 0x60ce8fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsSecureWebSocketScheme, addr 0x60d6378, size 0x54, virtual false, abstract: false, final false
   static inline bool IsSecureWebSocketScheme(::StringW scheme);
 
-  /// @brief Method IsSupportedSecureScheme, addr 0x60ce88c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsSupportedSecureScheme, addr 0x60d6308, size 0x70, virtual false, abstract: false, final false
   static inline bool IsSupportedSecureScheme(::StringW scheme);
 
 protected:
@@ -41,7 +41,7 @@ public:
   HttpUtilities(HttpUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

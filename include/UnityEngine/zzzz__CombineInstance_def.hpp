@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/CombineInstance.hpp"
+// IWYU pragma private; include "UnityEngine\CombineInstance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ public:
 
   __declspec(property(put = set_transform)) ::UnityEngine::Matrix4x4 transform;
 
-  /// @brief Method set_mesh, addr 0x6aad900, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x6ab5318, size 0x94, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_subMeshIndex, addr 0x6aad994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_subMeshIndex, addr 0x6ab53ac, size 0x8, virtual false, abstract: false, final false
   inline void set_subMeshIndex(int32_t value);
 
-  /// @brief Method set_transform, addr 0x6aad99c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x6ab53b4, size 0x1c, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
                             ::UnityEngine::Vector4 m_RealtimeLightmapScaleOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10221 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

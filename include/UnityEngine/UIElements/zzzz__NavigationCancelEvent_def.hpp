@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/NavigationCancelEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\NavigationCancelEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   static inline ::UnityEngine::UIElements::NavigationCancelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9a8d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6da245c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::NavigationCancelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9a8d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da2458, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::NavigationCancelEvent___c* getStaticF___9();
@@ -77,7 +77,7 @@ public:
 
   static inline ::UnityEngine::UIElements::NavigationCancelEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d9a834, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da23b8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

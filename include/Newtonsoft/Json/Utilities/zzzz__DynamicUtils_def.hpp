@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/DynamicUtils.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\DynamicUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,19 +63,19 @@ public:
   /// @brief Field _setMemberCall, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__setMemberCall, put = setStaticF__setMemberCall)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _setMemberCall;
 
-  /// @brief Method CreateMemberCalls, addr 0x5d211ac, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method CreateMemberCalls, addr 0x5d25668, size 0x4f4, virtual false, abstract: false, final false
   static inline void CreateMemberCalls();
 
-  /// @brief Method CreateSharpArgumentInfoArray, addr 0x5d20ecc, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method CreateSharpArgumentInfoArray, addr 0x5d25388, size 0x2e0, virtual false, abstract: false, final false
   static inline ::System::Object* CreateSharpArgumentInfoArray(::ArrayW<int32_t> values);
 
-  /// @brief Method GetMember, addr 0x5d216a0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetMember, addr 0x5d25b5c, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* GetMember(::StringW name, ::System::Type* context);
 
-  /// @brief Method Init, addr 0x5d20cfc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d251b8, size 0x1d0, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method SetMember, addr 0x5d21870, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method SetMember, addr 0x5d25d2c, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* SetMember(::StringW name, ::System::Type* context);
 
   static inline ::System::Object* getStaticF__getCSharpArgumentInfoArray();
@@ -132,7 +132,7 @@ public:
   static constexpr ::ConstString CSharpBinderFlagsTypeName{ u"Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13410 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -149,7 +149,7 @@ public:
   // Declarations
   using BinderWrapper = ::Newtonsoft::Json::Utilities::DynamicUtils_BinderWrapper;
 
-  /// @brief Method GetDynamicMemberNames, addr 0x5d20c0c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetDynamicMemberNames, addr 0x5d250c8, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider);
 
 protected:
@@ -167,7 +167,7 @@ public:
   DynamicUtils(DynamicUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

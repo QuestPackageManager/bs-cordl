@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActiveLevelFailController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActiveLevelFailController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,21 +84,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x59bdec0, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59c5a4c, size 0xfc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59bdfbc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59c5b48, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59bdfc4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59c5b50, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59bdffc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59c5b88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x59bdebc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59c5a48, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> value);
 
-  /// @brief Method .ctor, addr 0x59bde70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c59fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -146,7 +146,7 @@ public:
   MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8(MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6086 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -199,18 +199,18 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerPlayersManager, put = __cordl_internal_set__multiplayerPlayersManager)) ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>
       _multiplayerPlayersManager;
 
-  /// @brief Method HandlePlayerDidFinish, addr 0x59bde78, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x59c5a04, size 0x40, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveLevelFailController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59bdd1c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59c58a8, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PlayerFailedCoroutine, addr 0x59bde1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PlayerFailedCoroutine, addr 0x59c59a8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayerFailedCoroutine();
 
-  /// @brief Method Start, addr 0x59bdc28, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59c57b4, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -249,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
 
-  /// @brief Method .ctor, addr 0x59bdeb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c5a44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -267,7 +267,7 @@ public:
   MultiplayerLocalActiveLevelFailController(MultiplayerLocalActiveLevelFailController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6087 };
 
   /// @brief Field _levelFailedTextEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelFailedTextEffect> ____levelFailedTextEffect;

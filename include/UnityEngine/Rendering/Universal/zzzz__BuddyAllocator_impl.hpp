@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/BuddyAllocator.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\BuddyAllocator.hpp"
 #include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__BuddyAllocator_def.hpp"
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::Universal::BuddyAllocator_Header> (::UnityEngine::Rendering::Universal::BuddyAllocator::*)()>(
     &::UnityEngine::Rendering::Universal::BuddyAllocator::get_header)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6874730;
+  constexpr static std::size_t addrs = 0x687c1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocator>(), { "get_header", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<int32_t> (::UnityEngine::Rendering::Universal::BuddyAllocator::*)()>(
     &::UnityEngine::Rendering::Universal::BuddyAllocator::get_freeMaskCounts)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6874774;
+  constexpr static std::size_t addrs = 0x687c1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocator>(), { "get_freeMaskCounts", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<uint64_t> (::UnityEngine::Rendering::Universal::BuddyAllocator::*)()>(
     &::UnityEngine::Rendering::Universal::BuddyAllocator::get_freeMasksStorage)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x68747e0;
+  constexpr static std::size_t addrs = 0x687c25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<uint64_t> (::UnityEngine::Rendering::Universal::BuddyAllocator::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::BuddyAllocator::FreeMasks)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x687484c;
+  constexpr static std::size_t addrs = 0x687c2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<int32_t> (::UnityEngine::Rendering::Universal::BuddyAllocator::*)()>(
     &::UnityEngine::Rendering::Universal::BuddyAllocator::get_freeMaskIndicesStorage)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x687498c;
+  constexpr static std::size_t addrs = 0x687c408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<int32_t> (::UnityEngine::Rendering::Universal::BuddyAllocator::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::BuddyAllocator::FreeMaskIndices)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x68749f8;
+  constexpr static std::size_t addrs = 0x687c474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::BuddyAllocator::*)()>(&::UnityEngine::Rendering::Universal::BuddyAllocator::get_levelCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6874adc;
+  constexpr static std::size_t addrs = 0x687c558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocator>(), { "get_levelCount", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::BuddyAllocator::*)(int32_t, int32_t, ::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::Universal::BuddyAllocator::_ctor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6874b24;
+  constexpr static std::size_t addrs = 0x687c5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::BuddyAllocator::*)(int32_t, ::by_ref<::UnityEngine::Rendering::Universal::BuddyAllocation>)>(
     &::UnityEngine::Rendering::Universal::BuddyAllocator::TryAllocate)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6874ce0;
+  constexpr static std::size_t addrs = 0x687c75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::BuddyAllocator::*)(::UnityEngine::Rendering::Universal::BuddyAllocation)>(
     &::UnityEngine::Rendering::Universal::BuddyAllocator::Free)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6874f00;
+  constexpr static std::size_t addrs = 0x687c97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocator>(),
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::BuddyAllocator::*)()>(&::UnityEngine::Rendering::Universal::BuddyAllocator::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x687506c;
+  constexpr static std::size_t addrs = 0x687cae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::BuddyAllocator>(), { "Dispose", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::BuddyAllocator::LevelOffset)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68750c8;
+  constexpr static std::size_t addrs = 0x687cb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::BuddyAllocator::LevelLength)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68750e8;
+  constexpr static std::size_t addrs = 0x687cb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::BuddyAllocator::LevelOffset64)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6874930;
+  constexpr static std::size_t addrs = 0x687c3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::BuddyAllocator::LevelLength64)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6874968;
+  constexpr static std::size_t addrs = 0x687c3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::BuddyAllocator::AlignForward)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6875108;
+  constexpr static std::size_t addrs = 0x687cb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, int32_t)>(&::UnityEngine::Rendering::Universal::BuddyAllocator::PtrAdd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6875124;
+  constexpr static std::size_t addrs = 0x687cba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::Rendering::Universal::BuddyAllocator::Pow2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6874ef4;
+  constexpr static std::size_t addrs = 0x687c970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::BuddyAllocator::Pow2N)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68750f8;
+  constexpr static std::size_t addrs = 0x687cb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

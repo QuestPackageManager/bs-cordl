@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HealthCheckService.hpp"
+// IWYU pragma private; include "GlobalNamespace\HealthCheckService.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,15 +62,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x332ed1c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3332adc, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::HealthCheckService* New_ctor(int32_t port);
 
-  /// @brief Method PollUpdate, addr 0x332eddc, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x3332b9c, size 0x98, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method Run, addr 0x332ee74, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3332c34, size 0x51c, virtual false, abstract: false, final false
   inline void Run();
 
   constexpr bool const& __cordl_internal_get__disposed() const;
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set__runThread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x332ec18, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33329d8, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(int32_t port);
 
   /// @brief Convert to "::GlobalNamespace::IHealthCheckService"
@@ -130,7 +130,7 @@ public:
   HealthCheckService(HealthCheckService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18161 };
 
   /// @brief Field kTimeoutLengthMs offset 0xffffffff size 0x4
   static constexpr int32_t kTimeoutLengthMs{ static_cast<int32_t>(0x3e8) };

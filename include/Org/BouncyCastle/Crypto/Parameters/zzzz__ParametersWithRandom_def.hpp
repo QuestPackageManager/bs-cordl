@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ParametersWithRandom.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ParametersWithRandom.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetRandom, addr 0x3411538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRandom, addr 0x34152f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* GetRandom();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
@@ -58,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x341144c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x341520c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x34113cc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x341518c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_Parameters, addr 0x3411548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x3415308, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
-  /// @brief Method get_Random, addr 0x3411540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Random, addr 0x3415300, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

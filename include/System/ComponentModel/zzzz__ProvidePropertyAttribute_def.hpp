@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/ProvidePropertyAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\ProvidePropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__ReceiverTypeName_k__BackingField(::StringW value);
 
-  /// @brief Method get_PropertyName, addr 0x63beec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x63c6944, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method get_ReceiverTypeName, addr 0x63beed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceiverTypeName, addr 0x63c694c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceiverTypeName();
 
 protected:
@@ -63,7 +63,7 @@ public:
   ProvidePropertyAttribute(ProvidePropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11289 };
 
   /// @brief Field <PropertyName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____PropertyName_k__BackingField;

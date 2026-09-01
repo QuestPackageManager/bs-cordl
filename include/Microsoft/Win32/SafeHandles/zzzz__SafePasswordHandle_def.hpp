@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafePasswordHandle.hpp"
+// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafePasswordHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,27 +25,27 @@ public:
   // Declarations
   __declspec(property(get = get_IsInvalid)) bool IsInvalid;
 
-  /// @brief Method CreateHandle, addr 0x5ac2d64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x5ac7220, size 0x5c, virtual false, abstract: false, final false
   inline ::System::IntPtr CreateHandle(::StringW password);
 
-  /// @brief Method Dispose, addr 0x5ac2ebc, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5ac7378, size 0x80, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FreeHandle, addr 0x5ac2dc0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method FreeHandle, addr 0x5ac727c, size 0x60, virtual false, abstract: false, final false
   inline void FreeHandle();
 
-  /// @brief Method Mono_DangerousGetString, addr 0x5ac2f4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Mono_DangerousGetString, addr 0x5ac7408, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW Mono_DangerousGetString();
 
   static inline ::Microsoft::Win32::SafeHandles::SafePasswordHandle* New_ctor(::StringW password);
 
-  /// @brief Method ReleaseHandle, addr 0x5ac2e90, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x5ac734c, size 0x2c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x5ac2e20, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac72dc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW password);
 
-  /// @brief Method get_IsInvalid, addr 0x5ac2f3c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x5ac73f8, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
 protected:

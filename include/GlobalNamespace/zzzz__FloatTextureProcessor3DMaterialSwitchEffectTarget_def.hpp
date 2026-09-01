@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DMaterialSwitchEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DMaterialSwitchEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,24 +41,24 @@ public:
   /// @brief Field _valueBounds, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method LateUpdate, addr 0x598cea8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5996c40, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x598cdfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5996b94, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetFloat, addr 0x598ccd4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x5996a6c, size 0x124, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetMaterialsIfNeeded, addr 0x598ce00, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetMaterialsIfNeeded, addr 0x5996b98, size 0xa8, virtual false, abstract: false, final false
   inline void SetMaterialsIfNeeded();
 
-  /// @brief Method SetValue, addr 0x598ccd0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5996a68, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x598cdf8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x5996b90, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::GridElementController>> const& __cordl_internal_get__gridElementControllers() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x598ceac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5996c44, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,7 +109,7 @@ public:
   FloatTextureProcessor3DMaterialSwitchEffectTarget(FloatTextureProcessor3DMaterialSwitchEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5871 };
 
   /// @brief Field _materialArray, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Material>> ____materialArray;

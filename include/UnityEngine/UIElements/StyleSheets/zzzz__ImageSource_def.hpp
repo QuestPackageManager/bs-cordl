@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ImageSource.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\ImageSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE ImageSource {
 public:
   // Declarations
-  /// @brief Method IsNull, addr 0x6d0ac68, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6d127ec, size 0xec, virtual false, abstract: false, final false
   inline bool IsNull();
 
   // Ctor Parameters []

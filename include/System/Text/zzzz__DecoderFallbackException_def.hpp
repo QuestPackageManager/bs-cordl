@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/DecoderFallbackException.hpp"
+// IWYU pragma private; include "System\Text\DecoderFallbackException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5cc7a98, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccbf54, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5cc7a5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccbf18, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::ArrayW<uint8_t> bytesUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x5cc7af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccbfb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:

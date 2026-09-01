@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Attributes/DateStringAttribute.hpp"
+// IWYU pragma private; include "BGLib\Attributes\DateStringAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BGLib/Attributes/zzzz__DateStringAttribute_def.hpp"
 //  Writing Method size for method: ::BGLib::Attributes::DateStringAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Attributes::DateStringAttribute::*)(bool)>(&::BGLib::Attributes::DateStringAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33078ac;
+  constexpr static std::size_t addrs = 0x330b6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Attributes::DateStringAttribute*>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));

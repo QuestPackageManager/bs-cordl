@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/TracePayload.hpp"
+// IWYU pragma private; include "System\Runtime\TracePayload.hpp"
 #include "System/Runtime/zzzz__TracePayload_def.hpp"
 //  Writing Method size for method: ::System::Runtime::TracePayload._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::TracePayload::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(&::System::Runtime::TracePayload::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6180258;
+  constexpr static std::size_t addrs = 0x6187cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::TracePayload::*)()>(&::System::Runtime::TracePayload::get_SerializedException)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6180268;
+  constexpr static std::size_t addrs = 0x6187ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::TracePayload>(), { "get_SerializedException", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::TracePayload::*)()>(&::System::Runtime::TracePayload::get_EventSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6180270;
+  constexpr static std::size_t addrs = 0x6187cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::TracePayload>(), { "get_EventSource", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::TracePayload::*)()>(&::System::Runtime::TracePayload::get_AppDomainFriendlyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6180278;
+  constexpr static std::size_t addrs = 0x6187cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::TracePayload>(), { "get_AppDomainFriendlyName", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::TracePayload::*)()>(&::System::Runtime::TracePayload::get_ExtendedData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6180280;
+  constexpr static std::size_t addrs = 0x6187cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::TracePayload>(), { "get_ExtendedData", {}, {} })));

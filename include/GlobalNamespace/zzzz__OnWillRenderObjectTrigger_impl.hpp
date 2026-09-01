@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OnWillRenderObjectTrigger.hpp"
+// IWYU pragma private; include "GlobalNamespace\OnWillRenderObjectTrigger.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OnWillRenderObjectTrigger_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OnWillRenderObjectTrigger::*)()>(&::GlobalNamespace::OnWillRenderObjectTrigger::OnEnable)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x587336c;
+  constexpr static std::size_t addrs = 0x5872cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OnWillRenderObjectTrigger*>(), { "OnEnable", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OnWillRenderObjectTrigger::*)()>(&::GlobalNamespace::OnWillRenderObjectTrigger::OnDisable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x587376c;
+  constexpr static std::size_t addrs = 0x58730ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OnWillRenderObjectTrigger*>(), { "OnDisable", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OnWillRenderObjectTrigger::*)()>(&::GlobalNamespace::OnWillRenderObjectTrigger::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587379c;
+  constexpr static std::size_t addrs = 0x58730dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OnWillRenderObjectTrigger*>(), { ".ctor", {}, {} })));

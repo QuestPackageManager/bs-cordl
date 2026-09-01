@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StandardLevelInfoSaveData_V100.hpp"
+// IWYU pragma private; include "GlobalNamespace\StandardLevelInfoSaveData_V100.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,22 +89,22 @@ public:
 
   constexpr void __cordl_internal_set__noteJumpStartBeatOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x374e6c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37542f4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, int32_t noteJumpStartBeatOffset);
 
-  /// @brief Method get_beatmapFilename, addr 0x374e6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapFilename, addr 0x37542dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_beatmapFilename();
 
-  /// @brief Method get_difficulty, addr 0x374e69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulty, addr 0x37542cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_difficulty();
 
-  /// @brief Method get_difficultyRank, addr 0x374e6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyRank, addr 0x37542d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_difficultyRank();
 
-  /// @brief Method get_noteJumpMovementSpeed, addr 0x374e6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpMovementSpeed, addr 0x37542e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteJumpMovementSpeed();
 
-  /// @brief Method get_noteJumpStartBeatOffset, addr 0x374e6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpStartBeatOffset, addr 0x37542ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_noteJumpStartBeatOffset();
 
 protected:
@@ -122,7 +122,7 @@ public:
   StandardLevelInfoSaveData_V100_DifficultyBeatmap(StandardLevelInfoSaveData_V100_DifficultyBeatmap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15202 };
 
   /// @brief Field _difficulty, offset: 0x10, size: 0x8, def value: None
   ::StringW ____difficulty;
@@ -332,52 +332,52 @@ public:
 
   constexpr void __cordl_internal_set__version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x374e698, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37542c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatsPerMinute, addr 0x374e648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatsPerMinute, addr 0x3754278, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beatsPerMinute();
 
-  /// @brief Method get_coverImageFilename, addr 0x374e680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coverImageFilename, addr 0x37542b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_coverImageFilename();
 
-  /// @brief Method get_difficultyBeatmaps, addr 0x374e690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyBeatmaps, addr 0x37542c0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap*> get_difficultyBeatmaps();
 
-  /// @brief Method get_environmentName, addr 0x374e688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentName, addr 0x37542b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_environmentName();
 
-  /// @brief Method get_levelAuthorName, addr 0x374e640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelAuthorName, addr 0x3754270, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelAuthorName();
 
-  /// @brief Method get_previewDuration, addr 0x374e670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previewDuration, addr 0x37542a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_previewDuration();
 
-  /// @brief Method get_previewStartTime, addr 0x374e668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previewStartTime, addr 0x3754298, size 0x8, virtual false, abstract: false, final false
   inline float_t get_previewStartTime();
 
-  /// @brief Method get_shuffle, addr 0x374e658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shuffle, addr 0x3754288, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shuffle();
 
-  /// @brief Method get_shufflePeriod, addr 0x374e660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shufflePeriod, addr 0x3754290, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shufflePeriod();
 
-  /// @brief Method get_songAuthorName, addr 0x374e638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songAuthorName, addr 0x3754268, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songAuthorName();
 
-  /// @brief Method get_songFilename, addr 0x374e678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songFilename, addr 0x37542a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songFilename();
 
-  /// @brief Method get_songName, addr 0x374e628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songName, addr 0x3754258, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songName();
 
-  /// @brief Method get_songSubName, addr 0x374e630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songSubName, addr 0x3754260, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songSubName();
 
-  /// @brief Method get_songTimeOffset, addr 0x374e650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songTimeOffset, addr 0x3754280, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_version, addr 0x374e620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x3754250, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
 protected:
@@ -395,7 +395,7 @@ public:
   StandardLevelInfoSaveData_V100(StandardLevelInfoSaveData_V100 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15203 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"1.0.0" };

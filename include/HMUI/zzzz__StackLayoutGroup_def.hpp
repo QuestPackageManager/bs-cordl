@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/StackLayoutGroup.hpp"
+// IWYU pragma private; include "HMUI\StackLayoutGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,24 +30,24 @@ public:
   /// @brief Field m_ChildForceExpandWidth, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ChildForceExpandWidth, put = __cordl_internal_set_m_ChildForceExpandWidth)) bool m_ChildForceExpandWidth;
 
-  /// @brief Method CalcAlongAxis, addr 0x5880b54, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CalcAlongAxis, addr 0x588049c, size 0x18c, virtual false, abstract: false, final false
   inline void CalcAlongAxis(int32_t axis);
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x5880b34, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x588047c, size 0x20, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x5880ce0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x5880628, size 0x8, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
   static inline ::HMUI::StackLayoutGroup* New_ctor();
 
-  /// @brief Method SetChildrenAlongAxis, addr 0x5880cf0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SetChildrenAlongAxis, addr 0x5880638, size 0x214, virtual false, abstract: false, final false
   inline void SetChildrenAlongAxis(int32_t axis);
 
-  /// @brief Method SetLayoutHorizontal, addr 0x5880ce8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x5880630, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x5880f04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x588084c, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
   constexpr bool const& __cordl_internal_get_m_ChildForceExpandHeight() const;
@@ -62,19 +62,19 @@ public:
 
   constexpr void __cordl_internal_set_m_ChildForceExpandWidth(bool value);
 
-  /// @brief Method .ctor, addr 0x5880b24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x588046c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childForceExpandHeight, addr 0x5880abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childForceExpandHeight, addr 0x5880404, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandHeight();
 
-  /// @brief Method get_childForceExpandWidth, addr 0x5880a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childForceExpandWidth, addr 0x588039c, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandWidth();
 
-  /// @brief Method set_childForceExpandHeight, addr 0x5880ac4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_childForceExpandHeight, addr 0x588040c, size 0x60, virtual false, abstract: false, final false
   inline void set_childForceExpandHeight(bool value);
 
-  /// @brief Method set_childForceExpandWidth, addr 0x5880a5c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_childForceExpandWidth, addr 0x58803a4, size 0x60, virtual false, abstract: false, final false
   inline void set_childForceExpandWidth(bool value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   StackLayoutGroup(StackLayoutGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19066 };
 
   /// @brief Field m_ChildForceExpandWidth, offset: 0x60, size: 0x1, def value: None
   bool ___m_ChildForceExpandWidth;

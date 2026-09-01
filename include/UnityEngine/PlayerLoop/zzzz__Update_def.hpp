@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/PlayerLoop/Update.hpp"
+// IWYU pragma private; include "UnityEngine\PlayerLoop\Update.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   constexpr Update_ScriptRunBehaviourUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10568 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -85,7 +85,7 @@ public:
   constexpr Update_DirectorUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10569 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -113,7 +113,7 @@ public:
   constexpr Update_ScriptRunDelayedDynamicFrameRate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10570 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -141,7 +141,7 @@ public:
   constexpr Update_ScriptRunDelayedTasks();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10571 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -177,7 +177,7 @@ public:
   constexpr Update();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10572 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

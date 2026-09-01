@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/StaticTree.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\StaticTree.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_static_tree(::ArrayW<int16_t> value);
 
-  /// @brief Method .ctor, addr 0x3634bc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3638984, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int16_t> static_tree, ::ArrayW<int32_t> extra_bits, int32_t extra_base, int32_t elems, int32_t max_length);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::StaticTree* getStaticF_static_bl_desc();

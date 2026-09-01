@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/Pfx.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\Pfx.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__Pfx_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__ContentInfo_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::Pfx* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Pkcs::Pfx::GetInstance)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3460b44;
+  constexpr static std::size_t addrs = 0x3464904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pfx::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::Pkcs::Pfx::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3460be4;
+  constexpr static std::size_t addrs = 0x34649a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pfx::*)(::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Org::BouncyCastle::Asn1::Pkcs::MacData*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pfx::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3460cd4;
+  constexpr static std::size_t addrs = 0x3464a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* (::Org::BouncyCastle::Asn1::Pkcs::Pfx::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pfx::get_AuthSafe)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3460cdc;
+  constexpr static std::size_t addrs = 0x3464a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::Pfx*>(), { "get_AuthSafe", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::MacData* (::Org::BouncyCastle::Asn1::Pkcs::Pfx::*)()>(&::Org::BouncyCastle::Asn1::Pkcs::Pfx::get_MacData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3460ce4;
+  constexpr static std::size_t addrs = 0x3464aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::Pfx*>(), { "get_MacData", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::Pfx::*)()>(&::Org::BouncyCastle::Asn1::Pkcs::Pfx::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3460cec;
+  constexpr static std::size_t addrs = 0x3464aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

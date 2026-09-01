@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Audio/AudioMixerPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Audio\AudioMixerPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Audio/zzzz__AudioMixerPlayable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::AudioMixerPlayable (*)(::UnityEngine::Playables::PlayableGraph, int32_t, bool)>(
     &::UnityEngine::Audio::AudioMixerPlayable::Create)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a509e8;
+  constexpr static std::size_t addrs = 0x6a58464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableHandle (*)(::UnityEngine::Playables::PlayableGraph, int32_t, bool)>(
     &::UnityEngine::Audio::AudioMixerPlayable::CreateHandle)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6a50a20;
+  constexpr static std::size_t addrs = 0x6a5849c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioMixerPlayable::*)(::UnityEngine::Playables::PlayableHandle)>(
     &::UnityEngine::Audio::AudioMixerPlayable::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6a50b24;
+  constexpr static std::size_t addrs = 0x6a585a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Audio::AudioMixerPlayable::*)()>(
     &::UnityEngine::Audio::AudioMixerPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a50c8c;
+  constexpr static std::size_t addrs = 0x6a58708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioMixerPlayable>(), { "GetHandle", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (*)(::UnityEngine::Audio::AudioMixerPlayable)>(
     &::UnityEngine::Audio::AudioMixerPlayable::op_Implicit___UnityEngine__Playables__Playable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a50c98;
+  constexpr static std::size_t addrs = 0x6a58714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::AudioMixerPlayable (*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Audio::AudioMixerPlayable::op_Explicit___UnityEngine__Audio__AudioMixerPlayable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a50c9c;
+  constexpr static std::size_t addrs = 0x6a58718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Audio::AudioMixerPlayable::*)(::UnityEngine::Audio::AudioMixerPlayable)>(
     &::UnityEngine::Audio::AudioMixerPlayable::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a50d1c;
+  constexpr static std::size_t addrs = 0x6a58798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, bool, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Audio::AudioMixerPlayable::CreateAudioMixerPlayableInternal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a50c38;
+  constexpr static std::size_t addrs = 0x6a586b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

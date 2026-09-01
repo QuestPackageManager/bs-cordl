@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/QuitGameCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\QuitGameCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__QuitGameCommand_def.hpp"
 #include "GlobalNamespace/zzzz__ConsoleMessage_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::QuitGameCommand::*)()>(&::GlobalNamespace::QuitGameCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32deb88;
+  constexpr static std::size_t addrs = 0x32e2984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::QuitGameCommand::*)()>(&::GlobalNamespace::QuitGameCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32debcc;
+  constexpr static std::size_t addrs = 0x32e29c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::QuitGameCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::QuitGameCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x32dec10;
+  constexpr static std::size_t addrs = 0x32e2a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuitGameCommand::*)()>(&::GlobalNamespace::QuitGameCommand::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32ded90;
+  constexpr static std::size_t addrs = 0x32e2b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuitGameCommand*>(), { ".ctor", {}, {} })));

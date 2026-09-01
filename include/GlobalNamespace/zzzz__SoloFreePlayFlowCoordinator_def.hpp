@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SoloFreePlayFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace\SoloFreePlayFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,7 +108,7 @@ public:
 
   static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0, addr 0x5936334, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0, addr 0x5939dc0, size 0x34, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _ProcessLevelCompletionResultsAfterLevelDidFinish_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_modifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method .ctor, addr 0x5936330, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5939990, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -153,7 +153,7 @@ public:
   SoloFreePlayFlowCoordinator___c__DisplayClass19_0(SoloFreePlayFlowCoordinator___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6858 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> _____4__this;
@@ -199,7 +199,7 @@ public:
 
   static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method <HandleStandardLevelWasRestarted>b__0, addr 0x593636c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <HandleStandardLevelWasRestarted>b__0, addr 0x5939df4, size 0x48, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _HandleStandardLevelWasRestarted_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set_transitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x5936368, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5939b0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -238,7 +238,7 @@ public:
   SoloFreePlayFlowCoordinator___c__DisplayClass22_0(SoloFreePlayFlowCoordinator___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6859 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> _____4__this;
@@ -276,7 +276,7 @@ public:
 
   static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass24_0* New_ctor();
 
-  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x59363b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x5939e3c, size 0x54, virtual false, abstract: false, final false
   inline void _HandleResultsViewControllerRestartButtonPressed_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -291,7 +291,7 @@ public:
 
   constexpr void __cordl_internal_set_resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x59363b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5939c4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -309,7 +309,7 @@ public:
   SoloFreePlayFlowCoordinator___c__DisplayClass24_0(SoloFreePlayFlowCoordinator___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6860 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> _____4__this;
@@ -377,35 +377,35 @@ public:
 
   __declspec(property(get = get_showBackButtonForMainViewController)) bool showBackButtonForMainViewController;
 
-  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x59361ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x5939b10, size 0x40, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerContinueButtonPressed(::GlobalNamespace::ResultsViewController* viewController);
 
-  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x593622c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x5939b50, size 0xfc, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerRestartButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
 
-  /// @brief Method HandleStandardLevelWasRestarted, addr 0x59360dc, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method HandleStandardLevelWasRestarted, addr 0x59399fc, size 0x110, virtual true, abstract: false, final false
   inline void HandleStandardLevelWasRestarted(::GlobalNamespace::StandardLevelScenesTransitionSetupData* transitionSetupData, ::GlobalNamespace::LevelCompletionResults* results);
 
-  /// @brief Method IsNewHighScore, addr 0x5936064, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsNewHighScore, addr 0x5939994, size 0x28, virtual false, abstract: false, final false
   inline bool IsNewHighScore(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator* New_ctor();
 
-  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x5935d80, size 0x2e4, virtual true, abstract: false, final false
+  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x59396ac, size 0x2e4, virtual true, abstract: false, final false
   inline void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                                                ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* modifiers,
                                                                bool practice);
 
-  /// @brief Method Refresh, addr 0x593608c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Refresh, addr 0x59399bc, size 0x40, virtual true, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x5935aa8, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x59393dc, size 0x194, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x5935c44, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x5939570, size 0x13c, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method __SetupFromDestination, addr 0x5925d78, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method __SetupFromDestination, addr 0x5939c50, size 0x168, virtual false, abstract: false, final false
   inline void __SetupFromDestination(::GlobalNamespace::RunLevelMenuDestination* runLevelMenuDestination);
 
   constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards* const& __cordl_internal_get__beatLeaderboards() const;
@@ -456,19 +456,19 @@ public:
 
   constexpr void __cordl_internal_set__resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x5936328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5939db8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameMode, addr 0x5935a0c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_gameMode, addr 0x5939340, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method get_leaderboardViewController, addr 0x5935a50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_leaderboardViewController, addr 0x5939384, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LeaderboardViewController> get_leaderboardViewController();
 
-  /// @brief Method get_mainTitle, addr 0x5935a60, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_mainTitle, addr 0x5939394, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_mainTitle();
 
-  /// @brief Method get_showBackButtonForMainViewController, addr 0x5935a58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_showBackButtonForMainViewController, addr 0x593938c, size 0x8, virtual true, abstract: false, final false
   inline bool get_showBackButtonForMainViewController();
 
 protected:
@@ -486,7 +486,7 @@ public:
   SoloFreePlayFlowCoordinator(SoloFreePlayFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6861 };
 
   /// @brief Field kTitleSoloLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kTitleSoloLocalizationKey{ u"TITLE_SOLO" };

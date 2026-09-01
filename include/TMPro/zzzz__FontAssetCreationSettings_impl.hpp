@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/FontAssetCreationSettings.hpp"
+// IWYU pragma private; include "TMPro\FontAssetCreationSettings.hpp"
 #include "TMPro/zzzz__FontAssetCreationSettings_def.hpp"
 //  Writing Method size for method: ::TMPro::FontAssetCreationSettings._ctor
 template <>
@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::FontAssetCreationSettings::*)(::StringW, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, ::StringW, int32_t)>(
     &::TMPro::FontAssetCreationSettings::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x695502c;
+  constexpr static std::size_t addrs = 0x695caa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ParametricBoxFrameController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ParametricBoxFrameController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,18 +62,18 @@ public:
   /// @brief Field width, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) float_t width;
 
-  /// @brief Method Awake, addr 0x5868238, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58671dc, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ParametricBoxFrameController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x586838c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5867330, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5868254, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x58671f8, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x586827c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5867220, size 0x110, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -118,21 +118,21 @@ public:
 
   constexpr void __cordl_internal_set_width(float_t value);
 
-  /// @brief Method .ctor, addr 0x58683a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586734c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
 
   static inline int32_t getStaticF__sizeParamsID();
 
-  /// @brief Method get_localPosition, addr 0x58681d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x5867174, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
   static inline void setStaticF__colorID(int32_t value);
 
   static inline void setStaticF__sizeParamsID(int32_t value);
 
-  /// @brief Method set_localPosition, addr 0x58681f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_localPosition, addr 0x5867194, size 0x48, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
 protected:
@@ -150,7 +150,7 @@ public:
   ParametricBoxFrameController(ParametricBoxFrameController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19486 };
 
   /// @brief Field width, offset: 0x20, size: 0x4, def value: None
   float_t ___width;

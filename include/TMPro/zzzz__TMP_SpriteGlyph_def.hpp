@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_SpriteGlyph.hpp"
+// IWYU pragma private; include "TMPro\TMP_SpriteGlyph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x699a534, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a1fb0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x699a720, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a219c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
-  /// @brief Method .ctor, addr 0x699a754, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a21d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, ::UnityEngine::Sprite* sprite);
 
 protected:
@@ -70,7 +70,7 @@ public:
   TMP_SpriteGlyph(TMP_SpriteGlyph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15983 };
 
   /// @brief Field sprite, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___sprite;

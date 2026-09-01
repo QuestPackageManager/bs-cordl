@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/RenderPipelines/Core/Runtime/Shared/CameraCaptureBridge.hpp"
+// IWYU pragma private; include "Unity\RenderPipelines\Core\Runtime\Shared\CameraCaptureBridge.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ namespace Unity::RenderPipelines::Core::Runtime::Shared {
 class CORDL_TYPE CameraCaptureBridge : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCachedCaptureActionsEnumerator, addr 0x675323c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCachedCaptureActionsEnumerator, addr 0x675acb8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerator_1<::System::Action_2<::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::CommandBuffer*>*>*
   GetCachedCaptureActionsEnumerator(::UnityEngine::Camera* camera);
 
@@ -53,7 +53,7 @@ public:
   CameraCaptureBridge(CameraCaptureBridge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/ComputeGraphContext.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\ComputeGraphContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*() noexcept;
 
-  /// @brief Method FromInternalContext, addr 0x67d4424, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method FromInternalContext, addr 0x67dbea0, size 0xa4, virtual true, abstract: false, final true
   inline void FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* context);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* New_ctor();
@@ -67,15 +67,15 @@ public:
 
   constexpr void __cordl_internal_set_wrappedContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* value);
 
-  /// @brief Method .ctor, addr 0x67d44c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67dbf44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::ComputeCommandBuffer* getStaticF_computecmd();
 
-  /// @brief Method get_defaultResources, addr 0x67d43f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultResources, addr 0x67dbe70, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* get_defaultResources();
 
-  /// @brief Method get_renderGraphPool, addr 0x67d440c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderGraphPool, addr 0x67dbe88, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* get_renderGraphPool();
 
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
@@ -98,7 +98,7 @@ public:
   ComputeGraphContext(ComputeGraphContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12413 };
 
   /// @brief Field wrappedContext, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* ___wrappedContext;

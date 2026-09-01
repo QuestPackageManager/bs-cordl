@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Utils/NumString/G_IntString.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Utils\NumString\G_IntString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,23 +28,23 @@ public:
   /// @brief Field m_positiveBuffer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_positiveBuffer, put = setStaticF_m_positiveBuffer)) ::ArrayW<::StringW> m_positiveBuffer;
 
-  /// @brief Method Dispose, addr 0x6432cf4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x643a770, size 0xa0, virtual false, abstract: false, final false
   static inline void Dispose();
 
-  /// @brief Method Init, addr 0x6436f20, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x643e99c, size 0x230, virtual false, abstract: false, final false
   static inline void Init(int32_t minNegativeValue, int32_t maxPositiveValue);
 
-  /// @brief Method ToStringNonAlloc, addr 0x6437150, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ToStringNonAlloc, addr 0x643ebcc, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(int32_t value);
 
   static inline ::ArrayW<::StringW> getStaticF_m_negativeBuffer();
 
   static inline ::ArrayW<::StringW> getStaticF_m_positiveBuffer();
 
-  /// @brief Method get_MaxValue, addr 0x6436eb8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x643e934, size 0x68, virtual false, abstract: false, final false
   static inline int32_t get_MaxValue();
 
-  /// @brief Method get_MinValue, addr 0x6436e48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x643e8c4, size 0x70, virtual false, abstract: false, final false
   static inline int32_t get_MinValue();
 
   static inline void setStaticF_m_negativeBuffer(::ArrayW<::StringW> value);
@@ -66,7 +66,7 @@ public:
   G_IntString(G_IntString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

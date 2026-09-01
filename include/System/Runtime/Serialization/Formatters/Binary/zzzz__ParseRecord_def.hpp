@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/ParseRecord.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\ParseRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -175,7 +175,7 @@ public:
   /// @brief Field parseRecordIdCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_parseRecordIdCount, put = setStaticF_parseRecordIdCount)) int32_t parseRecordIdCount;
 
-  /// @brief Method Init, addr 0x5b65130, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5b695ec, size 0x58, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* New_ctor();
@@ -420,7 +420,7 @@ public:
 
   constexpr void __cordl_internal_set_PRvarValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5b6326c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b67728, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_parseRecordIdCount();

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Cache/RequestCacheProtocol.hpp"
+// IWYU pragma private; include "System\Net\Cache\RequestCacheProtocol.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Cache/zzzz__RequestCacheProtocol_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Cache::RequestCacheProtocol::*)(::System::Object*, ::System::Object*)>(
     &::System::Net::Cache::RequestCacheProtocol::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63501d8;
+  constexpr static std::size_t addrs = 0x6357c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Cache::RequestCacheProtocol*>(),

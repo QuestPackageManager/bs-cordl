@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/X509Utilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Operators\X509Utilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__X509Utilities_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__RsassaPssParameters_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Crypto::Operators::X509Utilities::GetDigestAlgName)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x3405600;
+  constexpr static std::size_t addrs = 0x34093c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::X509Utilities*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Crypto::Operators::X509Utilities::GetSignatureName)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x34059d4;
+  constexpr static std::size_t addrs = 0x3409794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::X509Utilities*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* (*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Operators::X509Utilities::CreatePssParams)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x34054fc;
+  constexpr static std::size_t addrs = 0x34092bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::StringW)>(&::Org::BouncyCastle::Crypto::Operators::X509Utilities::GetAlgorithmOid)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3405c94;
+  constexpr static std::size_t addrs = 0x3409a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::StringW)>(
     &::Org::BouncyCastle::Crypto::Operators::X509Utilities::GetSigAlgID)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x3405eb0;
+  constexpr static std::size_t addrs = 0x3409c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (*)()>(&::Org::BouncyCastle::Crypto::Operators::X509Utilities::GetAlgNames)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x34061c8;
+  constexpr static std::size_t addrs = 0x3409f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::X509Utilities*>(), { "GetAlgNames", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::X509Utilities::*)()>(&::Org::BouncyCastle::Crypto::Operators::X509Utilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34062dc;
+  constexpr static std::size_t addrs = 0x340a09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::X509Utilities*>(), { ".ctor", {}, {} })));

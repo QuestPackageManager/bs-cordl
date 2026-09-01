@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OneTimeLightColorEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\OneTimeLightColorEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::OneTimeLightColorEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x5982a70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5986404, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__lightsId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5982acc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5986460, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

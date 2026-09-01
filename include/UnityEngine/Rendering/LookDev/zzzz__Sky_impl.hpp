@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LookDev/Sky.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LookDev\Sky.hpp"
 #include "UnityEngine/Rendering/LookDev/zzzz__Sky_def.hpp"
 #include "UnityEngine/zzzz__Cubemap_def.hpp"
 // Ctor Parameters [CppParam { name: "cubemap", ty: "::UnityW<::UnityEngine::Cubemap>", modifiers: "", def_value: Some("{}") }, CppParam { name: "longitudeOffset", ty: "float_t", modifiers: "",

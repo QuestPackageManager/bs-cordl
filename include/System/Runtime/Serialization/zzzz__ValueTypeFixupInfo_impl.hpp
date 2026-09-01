@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ValueTypeFixupInfo.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ValueTypeFixupInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ValueTypeFixupInfo_def.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ValueTypeFixupInfo::*)(int64_t, ::System::Reflection::FieldInfo*, ::ArrayW<int32_t>)>(
     &::System::Runtime::Serialization::ValueTypeFixupInfo::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5b48d68;
+  constexpr static std::size_t addrs = 0x5b4d224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(&::System::Runtime::Serialization::ValueTypeFixupInfo::get_ContainerID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b48e64;
+  constexpr static std::size_t addrs = 0x5b4d320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ValueTypeFixupInfo*>(), { "get_ContainerID", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::FieldInfo* (::System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(
     &::System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b48e6c;
+  constexpr static std::size_t addrs = 0x5b4d328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ValueTypeFixupInfo*>(), { "get_ParentField", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(
     &::System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b48e74;
+  constexpr static std::size_t addrs = 0x5b4d330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ValueTypeFixupInfo*>(), { "get_ParentIndex", {}, {} })));

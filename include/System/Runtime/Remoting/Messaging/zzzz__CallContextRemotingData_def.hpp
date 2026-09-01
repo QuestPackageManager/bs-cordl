@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CallContextRemotingData.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Messaging\CallContextRemotingData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x5b3b458, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x5b3f914, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
   static inline ::System::Runtime::Remoting::Messaging::CallContextRemotingData* New_ctor();
@@ -47,19 +47,19 @@ public:
 
   constexpr void __cordl_internal_set__logicalCallID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b3b610, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b3facc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasInfo, addr 0x5b3b510, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x5b3f9cc, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
-  /// @brief Method get_LogicalCallID, addr 0x5b3b600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalCallID, addr 0x5b3fabc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LogicalCallID();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_LogicalCallID, addr 0x5b3b608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LogicalCallID, addr 0x5b3fac4, size 0x8, virtual false, abstract: false, final false
   inline void set_LogicalCallID(::StringW value);
 
 protected:

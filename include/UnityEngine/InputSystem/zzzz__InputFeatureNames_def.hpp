@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/InputFeatureNames.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\InputFeatureNames.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
   InputFeatureNames(InputFeatureNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8776 };
 
   /// @brief Field kDisableUnityRemoteSupport offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisableUnityRemoteSupport{ u"DISABLE_UNITY_REMOTE_SUPPORT" };

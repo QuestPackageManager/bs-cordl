@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NodePoseSyncStateNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace\NodePoseSyncStateNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,15 +70,15 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x32ba29c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x32be098, size 0x50, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::NodePoseSyncStateNetSerializable* New_ctor();
 
-  /// @brief Method Release, addr 0x32ba2ec, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x32be0e8, size 0x58, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x32ba250, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x32be04c, size 0x4c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__id_k__BackingField() const;
@@ -99,19 +99,19 @@ public:
 
   constexpr void __cordl_internal_set__time_k__BackingField(int64_t value);
 
-  /// @brief Method .ctor, addr 0x32ba344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32be140, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x32ba214, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x32be010, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId get_id();
 
-  /// @brief Method get_pool, addr 0x32ba1d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x32bdfcc, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_pool();
 
-  /// @brief Method get_state, addr 0x32ba234, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_state, addr 0x32be030, size 0x10, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState get_state();
 
-  /// @brief Method get_time, addr 0x32ba224, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x32be020, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_time();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -123,13 +123,13 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  /// @brief Method set_id, addr 0x32ba21c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_id, addr 0x32be018, size 0x8, virtual true, abstract: false, final true
   inline void set_id(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method set_state, addr 0x32ba244, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_state, addr 0x32be040, size 0xc, virtual true, abstract: false, final true
   inline void set_state(::GlobalNamespace::NodePoseSyncState value);
 
-  /// @brief Method set_time, addr 0x32ba22c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_time, addr 0x32be028, size 0x8, virtual true, abstract: false, final true
   inline void set_time(int64_t value);
 
 protected:
@@ -147,7 +147,7 @@ public:
   NodePoseSyncStateNetSerializable(NodePoseSyncStateNetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18979 };
 
   /// @brief Field _state, offset: 0x10, size: 0x48, def value: None
   ::GlobalNamespace::NodePoseSyncState ____state;

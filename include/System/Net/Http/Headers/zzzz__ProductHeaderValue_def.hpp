@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/ProductHeaderValue.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\ProductHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,24 +49,24 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x60e5a88, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60ed504, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x60e5b44, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60ed5c0, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ProductHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x60e5a84, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x60ed500, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x60e5dd4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60ed850, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x60e5ba8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60ed624, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x60e5c5c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x60ed6d8, size 0x178, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::by_ref<::System::Net::Http::Headers::ProductHeaderValue*> parsedValue,
                                      ::by_ref<::System::Net::Http::Headers::Token> t);
 
@@ -82,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set__Version_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60e5a60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ed4dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x60e5a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x60ed4e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Version, addr 0x60e5a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x60ed4f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Name, addr 0x60e5a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x60ed4e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Version, addr 0x60e5a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x60ed4f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Version(::StringW value);
 
 protected:
@@ -115,7 +115,7 @@ public:
   ProductHeaderValue(ProductHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20300 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20336 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

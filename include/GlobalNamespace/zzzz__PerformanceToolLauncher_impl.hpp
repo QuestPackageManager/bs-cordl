@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PerformanceToolLauncher.hpp"
+// IWYU pragma private; include "GlobalNamespace\PerformanceToolLauncher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceToolLauncher_def.hpp"
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58f568c;
+  constexpr static std::size_t addrs = 0x58f8ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0*>(), { ".ctor", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0::_Run_g__HandleSongControllerSongDidStart_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x58f5694;
+  constexpr static std::size_t addrs = 0x58f8ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass3_0::_Run_g__HandleSongControllerSongDidFinish_1)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x58f5738;
+  constexpr static std::size_t addrs = 0x58f8d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::BeatmapObjectManager*, ::GlobalNamespace::BeatmapCallbacksController*, ::System::Nullable_1<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig>)>(
     &::GlobalNamespace::PerformanceToolLauncher::Initialize)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x58f5278;
+  constexpr static std::size_t addrs = 0x58f888c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::PerformanceRecorder*, ::GlobalNamespace::SongController*)>(&::GlobalNamespace::PerformanceToolLauncher::Run)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x58f551c;
+  constexpr static std::size_t addrs = 0x58f8b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher::*)()>(&::GlobalNamespace::PerformanceToolLauncher::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58f5690;
+  constexpr static std::size_t addrs = 0x58f8ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceToolLauncher*>(), { ".ctor", {}, {} })));

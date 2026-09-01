@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CustomControlPlayableAsset.hpp"
+// IWYU pragma private; include "GlobalNamespace\CustomControlPlayableAsset.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomControlPlayableAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::CustomControlPlayableAsset::*)()>(
     &::GlobalNamespace::CustomControlPlayableAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59042b0;
+  constexpr static std::size_t addrs = 0x590789c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomControlPlayableAsset*>(), { "get_clipCaps", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomControlPlayableAsset::*)()>(&::GlobalNamespace::CustomControlPlayableAsset::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59042b8;
+  constexpr static std::size_t addrs = 0x59078a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomControlPlayableAsset*>(), { ".ctor", {}, {} })));

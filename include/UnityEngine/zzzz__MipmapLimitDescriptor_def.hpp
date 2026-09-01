@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/MipmapLimitDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine\MipmapLimitDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,13 +24,13 @@ public:
 
   __declspec(property(get = get_useMipmapLimit)) bool useMipmapLimit;
 
-  /// @brief Method .ctor, addr 0x6abfee0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac78f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool useMipmapLimit, ::StringW groupName);
 
-  /// @brief Method get_groupName, addr 0x6abfed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x6ac78f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method get_useMipmapLimit, addr 0x6abfed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useMipmapLimit, addr 0x6ac78e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_useMipmapLimit();
 
   // Ctor Parameters []
@@ -42,7 +42,7 @@ public:
   constexpr MipmapLimitDescriptor(bool _useMipmapLimit_k__BackingField, ::StringW _groupName_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10232 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

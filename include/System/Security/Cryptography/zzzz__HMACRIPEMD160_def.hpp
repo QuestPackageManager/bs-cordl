@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/HMACRIPEMD160.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\HMACRIPEMD160.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Security::Cryptography::HMACRIPEMD160* New_ctor(::ArrayW<uint8_t> key);
 
-  /// @brief Method .ctor, addr 0x5af76cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afbb88, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5af76f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afbbac, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> key);
 
 protected:

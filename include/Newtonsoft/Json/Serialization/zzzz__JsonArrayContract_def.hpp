@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonArrayContract.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonArrayContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,15 +104,15 @@ public:
   __declspec(property(get = __cordl_internal_get__parameterizedCreator,
                       put = __cordl_internal_set__parameterizedCreator)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _parameterizedCreator;
 
-  /// @brief Method CreateTemporaryCollection, addr 0x5d3d294, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method CreateTemporaryCollection, addr 0x5d41750, size 0x234, virtual false, abstract: false, final false
   inline ::System::Collections::IList* CreateTemporaryCollection();
 
-  /// @brief Method CreateWrapper, addr 0x5d3ceb8, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method CreateWrapper, addr 0x5d41374, size 0x3dc, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::IWrappedCollection* CreateWrapper(::System::Object* list);
 
   static inline ::Newtonsoft::Json::Serialization::JsonArrayContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method StoreFSharpListCreatorIfNecessary, addr 0x5d3cd90, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method StoreFSharpListCreatorIfNecessary, addr 0x5d4124c, size 0x128, virtual false, abstract: false, final false
   inline void StoreFSharpListCreatorIfNecessary(::System::Type* underlyingType);
 
   constexpr bool const& __cordl_internal_get__CanDeserialize_k__BackingField() const;
@@ -193,43 +193,43 @@ public:
 
   constexpr void __cordl_internal_set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x5d37cc4, size 0xd84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d3c180, size 0xd84, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_CanDeserialize, addr 0x5d3ca60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CanDeserialize, addr 0x5d40f1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CanDeserialize();
 
-  /// @brief Method get_CollectionItemType, addr 0x5d3ca40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionItemType, addr 0x5d40efc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_CollectionItemType();
 
-  /// @brief Method get_HasParameterizedCreator, addr 0x5d3cb40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasParameterizedCreator, addr 0x5d40ffc, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreator();
 
-  /// @brief Method get_HasParameterizedCreatorInternal, addr 0x5d3cb50, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_HasParameterizedCreatorInternal, addr 0x5d4100c, size 0x84, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreatorInternal();
 
-  /// @brief Method get_IsArray, addr 0x5d3ca50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsArray, addr 0x5d40f0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsArray();
 
-  /// @brief Method get_IsMultidimensionalArray, addr 0x5d3ca48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsMultidimensionalArray, addr 0x5d40f04, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsMultidimensionalArray();
 
-  /// @brief Method get_OverrideCreator, addr 0x5d3cb38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OverrideCreator, addr 0x5d40ff4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_OverrideCreator();
 
-  /// @brief Method get_ParameterizedCreator, addr 0x5d3ca70, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterizedCreator, addr 0x5d40f2c, size 0xc8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ParameterizedCreator();
 
-  /// @brief Method get_ShouldCreateWrapper, addr 0x5d3ca58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldCreateWrapper, addr 0x5d40f14, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldCreateWrapper();
 
-  /// @brief Method set_CanDeserialize, addr 0x5d3ca68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CanDeserialize, addr 0x5d40f24, size 0x8, virtual false, abstract: false, final false
   inline void set_CanDeserialize(bool value);
 
-  /// @brief Method set_HasParameterizedCreator, addr 0x5d3cb48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HasParameterizedCreator, addr 0x5d41004, size 0x8, virtual false, abstract: false, final false
   inline void set_HasParameterizedCreator(bool value);
 
-  /// @brief Method set_OverrideCreator, addr 0x5d38a48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_OverrideCreator, addr 0x5d3cf04, size 0x10, virtual false, abstract: false, final false
   inline void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
 protected:
@@ -247,7 +247,7 @@ public:
   JsonArrayContract(JsonArrayContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13496 };
 
   /// @brief Field <CollectionItemType>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::System::Type* ____CollectionItemType_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CreateDrawBatchesJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CreateDrawBatchesJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::DrawRange> (::UnityEngine::Rendering::CreateDrawBatchesJob::*)(::by_ref<::UnityEngine::Rendering::RangeKey>)>(
     &::UnityEngine::Rendering::CreateDrawBatchesJob::EditDrawRange)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6815294;
+  constexpr static std::size_t addrs = 0x681cd10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CreateDrawBatchesJob>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::DrawBatch> (::UnityEngine::Rendering::CreateDrawBatchesJob::*)(
     ::by_ref<::UnityEngine::Rendering::DrawKey>, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor>)>(&::UnityEngine::Rendering::CreateDrawBatchesJob::EditDrawBatch)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x681540c;
+  constexpr static std::size_t addrs = 0x681ce88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CreateDrawBatchesJob::*)(int32_t)>(&::UnityEngine::Rendering::CreateDrawBatchesJob::ProcessRenderer)> {
   constexpr static std::size_t size = 0x69c;
-  constexpr static std::size_t addrs = 0x68155b8;
+  constexpr static std::size_t addrs = 0x681d034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CreateDrawBatchesJob::*)()>(&::UnityEngine::Rendering::CreateDrawBatchesJob::Execute)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6815c54;
+  constexpr static std::size_t addrs = 0x681d6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CreateDrawBatchesJob>(), { "Execute", {}, {} })));

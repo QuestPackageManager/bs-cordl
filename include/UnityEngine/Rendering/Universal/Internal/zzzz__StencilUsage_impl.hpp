@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/StencilUsage.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\StencilUsage.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__StencilUsage_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::Internal::StencilUsage::StencilUsage(int32_t value__) noexcept {

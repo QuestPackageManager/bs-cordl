@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/GameAnalyticsBeatmapPracticeSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\GameAnalyticsBeatmapPracticeSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__GameAnalyticsBeatmapPracticeSettings_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings::*)()>(
     &::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3261628;
+  constexpr static std::size_t addrs = 0x3264934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

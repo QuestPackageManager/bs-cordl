@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ConsoleMessage.hpp"
+// IWYU pragma private; include "GlobalNamespace\ConsoleMessage.hpp"
 #include "UnityEngine/zzzz__LogType_impl.hpp"
 #include "GlobalNamespace/zzzz__ConsoleMessage_def.hpp"
 #include "UnityEngine/zzzz__LogType_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConsoleMessage::*)(::StringW, ::UnityEngine::LogType)>(&::GlobalNamespace::ConsoleMessage::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32e4ce8;
+  constexpr static std::size_t addrs = 0x32e8ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ConsoleMessage::*)()>(&::GlobalNamespace::ConsoleMessage::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e4cf4;
+  constexpr static std::size_t addrs = 0x32e8af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

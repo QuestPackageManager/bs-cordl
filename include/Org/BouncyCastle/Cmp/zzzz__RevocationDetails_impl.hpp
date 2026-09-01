@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cmp/RevocationDetails.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cmp\RevocationDetails.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cmp/zzzz__RevocationDetails_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__RevDetails_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::RevocationDetails::*)(::Org::BouncyCastle::Asn1::Cmp::RevDetails*)>(
     &::Org::BouncyCastle::Cmp::RevocationDetails::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36a076c;
+  constexpr static std::size_t addrs = 0x36a452c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (::Org::BouncyCastle::Cmp::RevocationDetails::*)()>(
     &::Org::BouncyCastle::Cmp::RevocationDetails::get_Subject)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x36a0774;
+  constexpr static std::size_t addrs = 0x36a4534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::RevocationDetails*>(), { "get_Subject", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (::Org::BouncyCastle::Cmp::RevocationDetails::*)()>(
     &::Org::BouncyCastle::Cmp::RevocationDetails::get_Issuer)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x36a07a4;
+  constexpr static std::size_t addrs = 0x36a4564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::RevocationDetails*>(), { "get_Issuer", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Cmp::RevocationDetails::*)()>(
     &::Org::BouncyCastle::Cmp::RevocationDetails::get_SerialNumber)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x36a07d4;
+  constexpr static std::size_t addrs = 0x36a4594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::RevocationDetails*>(), { "get_SerialNumber", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::RevDetails* (::Org::BouncyCastle::Cmp::RevocationDetails::*)()>(
     &::Org::BouncyCastle::Cmp::RevocationDetails::ToASN1Structure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36a0810;
+  constexpr static std::size_t addrs = 0x36a45d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::RevocationDetails*>(), { "ToASN1Structure", {}, {} })));

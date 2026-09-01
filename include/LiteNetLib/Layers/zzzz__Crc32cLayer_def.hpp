@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/Layers/Crc32cLayer.hpp"
+// IWYU pragma private; include "LiteNetLib\Layers\Crc32cLayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +26,13 @@ public:
   // Declarations
   static inline ::LiteNetLib::Layers::Crc32cLayer* New_ctor();
 
-  /// @brief Method ProcessInboundPacket, addr 0x58ae2a4, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method ProcessInboundPacket, addr 0x58adc6c, size 0x184, virtual true, abstract: false, final false
   inline void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ::by_ref<::ArrayW<uint8_t>> data, ::by_ref<int32_t> offset, ::by_ref<int32_t> length);
 
-  /// @brief Method ProcessOutBoundPacket, addr 0x58ae428, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ProcessOutBoundPacket, addr 0x58addf0, size 0xa0, virtual true, abstract: false, final false
   inline void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ::by_ref<::ArrayW<uint8_t>> data, ::by_ref<int32_t> offset, ::by_ref<int32_t> length);
 
-  /// @brief Method .ctor, addr 0x58ae290, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58adc58, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +50,7 @@ public:
   Crc32cLayer(Crc32cLayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

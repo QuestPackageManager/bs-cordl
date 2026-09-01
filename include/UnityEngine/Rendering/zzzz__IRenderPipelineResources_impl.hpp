@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IRenderPipelineResources.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IRenderPipelineResources.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineResources_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
 /// @brief Convert operator to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"

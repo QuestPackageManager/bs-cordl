@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ConnectedPlayerManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\ConnectedPlayerManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,7 +113,7 @@ public:
   static ::GlobalNamespace::ConnectedPlayerManager_InternalMessageType const SyncTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18120 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -176,7 +176,7 @@ public:
   static ::GlobalNamespace::ConnectedPlayerManager_MessageType const PlayerIdentity;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18121 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -205,7 +205,7 @@ public:
 
   static inline ::GlobalNamespace::ConnectedPlayerManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3329a84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332d844, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -223,7 +223,7 @@ public:
   ConnectedPlayerManager(ConnectedPlayerManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18122 };
 
   /// @brief Field invalidSortIndex offset 0xffffffff size 0x4
   static constexpr int32_t invalidSortIndex{ static_cast<int32_t>(0xffffffff) };

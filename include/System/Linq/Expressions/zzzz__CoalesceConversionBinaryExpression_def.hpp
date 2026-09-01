@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/CoalesceConversionBinaryExpression.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\CoalesceConversionBinaryExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   /// @brief Field _conversion, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__conversion, put = __cordl_internal_set__conversion)) ::System::Linq::Expressions::LambdaExpression* _conversion;
 
-  /// @brief Method GetConversion, addr 0x5f5b594, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetConversion, addr 0x5f63010, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::LambdaExpression* GetConversion();
 
   static inline ::System::Linq::Expressions::CoalesceConversionBinaryExpression* New_ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__conversion(::System::Linq::Expressions::LambdaExpression* value);
 
-  /// @brief Method .ctor, addr 0x5f5b570, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f62fec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method get_NodeType, addr 0x5f5b59c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x5f63018, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x5f5b5a4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x5f63020, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -74,7 +74,7 @@ public:
   CoalesceConversionBinaryExpression(CoalesceConversionBinaryExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16108 };
 
   /// @brief Field _conversion, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::LambdaExpression* ____conversion;

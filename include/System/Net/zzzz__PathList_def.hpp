@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/PathList.hpp"
+// IWYU pragma private; include "System\Net\PathList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,10 +52,10 @@ public:
 
   static inline ::System::Net::PathList_PathListComparer* New_ctor();
 
-  /// @brief Method System.Collections.IComparer.Compare, addr 0x64199b4, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x6421430, size 0x128, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
 
-  /// @brief Method .ctor, addr 0x6419adc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6421558, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::PathList_PathListComparer* getStaticF_StaticInstance();
@@ -80,7 +80,7 @@ public:
   PathList_PathListComparer(PathList_PathListComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11555 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,10 +108,10 @@ public:
   /// @brief Field m_list, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_list, put = __cordl_internal_set_m_list)) ::System::Collections::SortedList* m_list;
 
-  /// @brief Method GetCookiesCount, addr 0x64162b8, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method GetCookiesCount, addr 0x641dd34, size 0x414, virtual false, abstract: false, final false
   inline int32_t GetCookiesCount();
 
-  /// @brief Method GetEnumerator, addr 0x6419278, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6420cf4, size 0x20, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Net::PathList* New_ctor();
@@ -122,22 +122,22 @@ public:
 
   constexpr void __cordl_internal_set_m_list(::System::Collections::SortedList* value);
 
-  /// @brief Method .ctor, addr 0x6416218, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x641dc94, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x6417d44, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x641f7c0, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x64166ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x641e168, size 0x20, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(::StringW s);
 
-  /// @brief Method get_SyncRoot, addr 0x64166cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x641e148, size 0x20, virtual false, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values, addr 0x6417bac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x641f628, size 0x20, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method set_Item, addr 0x641670c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x641e188, size 0xf8, virtual false, abstract: false, final false
   inline void set_Item(::StringW s, ::System::Object* value);
 
 protected:
@@ -155,7 +155,7 @@ public:
   PathList(PathList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11556 };
 
   /// @brief Field m_list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::SortedList* ___m_list;

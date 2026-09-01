@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlTypeMapElementInfo.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlTypeMapElementInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,10 +102,10 @@ public:
   /// @brief Field _wrappedElement, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__wrappedElement, put = __cordl_internal_set__wrappedElement)) bool _wrappedElement;
 
-  /// @brief Method Equals, addr 0x630aa1c, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6312498, size 0x138, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x630ab54, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x63125d0, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Xml::Serialization::XmlTypeMapElementInfo* New_ctor(::System::Xml::Serialization::XmlTypeMapMember* member, ::System::Xml::Serialization::TypeData* type);
@@ -176,85 +176,85 @@ public:
 
   constexpr void __cordl_internal_set__wrappedElement(bool value);
 
-  /// @brief Method .ctor, addr 0x630a740, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63121bc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Serialization::XmlTypeMapMember* member, ::System::Xml::Serialization::TypeData* type);
 
-  /// @brief Method get_ChoiceValue, addr 0x630a7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChoiceValue, addr 0x6312268, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ChoiceValue();
 
-  /// @brief Method get_DataTypeName, addr 0x630792c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_DataTypeName, addr 0x630f3a8, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_DataTypeName();
 
-  /// @brief Method get_DataTypeNamespace, addr 0x6307958, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_DataTypeNamespace, addr 0x630f3d4, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW get_DataTypeNamespace();
 
-  /// @brief Method get_ElementName, addr 0x630a7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x6312278, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_ExplicitOrder, addr 0x630aa0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExplicitOrder, addr 0x6312488, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ExplicitOrder();
 
-  /// @brief Method get_Form, addr 0x630a81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x6312298, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_IsNullable, addr 0x630a83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x63122b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_IsTextElement, addr 0x630a88c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsTextElement, addr 0x6312308, size 0x4c, virtual false, abstract: false, final false
   inline bool get_IsTextElement();
 
-  /// @brief Method get_IsUnnamedAnyElement, addr 0x630a98c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsUnnamedAnyElement, addr 0x6312408, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsUnnamedAnyElement();
 
-  /// @brief Method get_MappedType, addr 0x630a82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MappedType, addr 0x63122a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* get_MappedType();
 
-  /// @brief Method get_Member, addr 0x630a84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x63122c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapMember* get_Member();
 
-  /// @brief Method get_MultiReferenceType, addr 0x630a85c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_MultiReferenceType, addr 0x63122d8, size 0x20, virtual false, abstract: false, final false
   inline bool get_MultiReferenceType();
 
-  /// @brief Method get_Namespace, addr 0x630a80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x6312288, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_TypeData, addr 0x630a7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeData, addr 0x6312260, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::TypeData* get_TypeData();
 
-  /// @brief Method get_WrappedElement, addr 0x630a87c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WrappedElement, addr 0x63122f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_WrappedElement();
 
-  /// @brief Method set_ChoiceValue, addr 0x630a7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ChoiceValue, addr 0x6312270, size 0x8, virtual false, abstract: false, final false
   inline void set_ChoiceValue(::System::Object* value);
 
-  /// @brief Method set_ElementName, addr 0x630a804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ElementName, addr 0x6312280, size 0x8, virtual false, abstract: false, final false
   inline void set_ElementName(::StringW value);
 
-  /// @brief Method set_ExplicitOrder, addr 0x630aa14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExplicitOrder, addr 0x6312490, size 0x8, virtual false, abstract: false, final false
   inline void set_ExplicitOrder(int32_t value);
 
-  /// @brief Method set_Form, addr 0x630a824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Form, addr 0x63122a0, size 0x8, virtual false, abstract: false, final false
   inline void set_Form(::System::Xml::Schema::XmlSchemaForm value);
 
-  /// @brief Method set_IsNullable, addr 0x630a844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsNullable, addr 0x63122c0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsNullable(bool value);
 
-  /// @brief Method set_IsTextElement, addr 0x630a8d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_IsTextElement, addr 0x6312354, size 0xb4, virtual false, abstract: false, final false
   inline void set_IsTextElement(bool value);
 
-  /// @brief Method set_IsUnnamedAnyElement, addr 0x630a9a4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_IsUnnamedAnyElement, addr 0x6312420, size 0x68, virtual false, abstract: false, final false
   inline void set_IsUnnamedAnyElement(bool value);
 
-  /// @brief Method set_MappedType, addr 0x630a834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MappedType, addr 0x63122b0, size 0x8, virtual false, abstract: false, final false
   inline void set_MappedType(::System::Xml::Serialization::XmlTypeMapping* value);
 
-  /// @brief Method set_Namespace, addr 0x630a814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x6312290, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
-  /// @brief Method set_NestingLevel, addr 0x630a854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NestingLevel, addr 0x63122d0, size 0x8, virtual false, abstract: false, final false
   inline void set_NestingLevel(int32_t value);
 
-  /// @brief Method set_WrappedElement, addr 0x630a884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WrappedElement, addr 0x6312300, size 0x8, virtual false, abstract: false, final false
   inline void set_WrappedElement(bool value);
 
 protected:
@@ -272,7 +272,7 @@ public:
   XmlTypeMapElementInfo(XmlTypeMapElementInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9546 };
 
   /// @brief Field _elementName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____elementName;

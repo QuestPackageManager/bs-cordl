@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/OpenXRHmd.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\OpenXRHmd.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
 
   __declspec(property(get = get_userPresence, put = set_userPresence)) ::UnityEngine::InputSystem::Controls::ButtonControl* userPresence;
 
-  /// @brief Method FinishSetup, addr 0x69ef60c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69f7088, size 0x7c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::OpenXR::Input::OpenXRHmd* New_ctor();
@@ -39,13 +39,13 @@ public:
 
   constexpr void __cordl_internal_set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x69ef688, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f7104, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_userPresence, addr 0x69ef5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userPresence, addr 0x69f7078, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence();
 
-  /// @brief Method set_userPresence, addr 0x69ef604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userPresence, addr 0x69f7080, size 0x8, virtual false, abstract: false, final false
   inline void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -63,7 +63,7 @@ public:
   OpenXRHmd(OpenXRHmd const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18543 };
 
   /// @brief Field <userPresence>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____userPresence_k__BackingField;

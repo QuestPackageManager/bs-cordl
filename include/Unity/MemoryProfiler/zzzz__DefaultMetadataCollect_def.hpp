@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/MemoryProfiler/DefaultMetadataCollect.hpp"
+// IWYU pragma private; include "Unity\MemoryProfiler\DefaultMetadataCollect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +24,15 @@ namespace Unity::MemoryProfiler {
 class CORDL_TYPE DefaultMetadataCollect : public ::Unity::MemoryProfiler::MetadataCollect {
 public:
   // Declarations
-  /// @brief Method CollectMetadata, addr 0x668a3d8, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method CollectMetadata, addr 0x6691e54, size 0x2c4, virtual true, abstract: false, final false
   inline void CollectMetadata(::Unity::Profiling::Memory::MemorySnapshotMetadata* data);
 
-  /// @brief Method FormatSecondsToTime, addr 0x668a69c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method FormatSecondsToTime, addr 0x6692118, size 0x230, virtual false, abstract: false, final false
   inline ::StringW FormatSecondsToTime(double_t timeInSeconds);
 
   static inline ::Unity::MemoryProfiler::DefaultMetadataCollect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x668a26c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6691ce8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +50,7 @@ public:
   DefaultMetadataCollect(DefaultMetadataCollect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23672 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

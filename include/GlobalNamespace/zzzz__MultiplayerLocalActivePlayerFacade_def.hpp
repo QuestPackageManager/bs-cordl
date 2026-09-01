@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerFacade.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActivePlayerFacade.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,6 +48,9 @@ class PrepareLevelCompletionResults;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+class Action;
+}
 namespace UnityEngine {
 class GameObject;
 }
@@ -73,7 +76,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerFacade_Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59be444, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c6144, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +94,7 @@ public:
   MultiplayerLocalActivePlayerFacade_Factory(MultiplayerLocalActivePlayerFacade_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6088 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -140,13 +143,16 @@ public:
 
   __declspec(property(get = get_outroAnimator)) ::UnityW<::UnityEngine::GameObject> outroAnimator;
 
-  /// @brief Field playerDidFinishEvent, offset 0x60, size 0x8
+  /// @brief Field playerDidFinishEvent, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_playerDidFinishEvent,
                       put = __cordl_internal_set_playerDidFinishEvent)) ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* playerDidFinishEvent;
 
-  /// @brief Field playerNetworkDidFailedEvent, offset 0x68, size 0x8
+  /// @brief Field playerNetworkDidFailedEvent, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_playerNetworkDidFailedEvent,
                       put = __cordl_internal_set_playerNetworkDidFailedEvent)) ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* playerNetworkDidFailedEvent;
+
+  /// @brief Field playerWillBeInactivatedEvent, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerWillBeInactivatedEvent, put = __cordl_internal_set_playerWillBeInactivatedEvent)) ::System::Action* playerWillBeInactivatedEvent;
 
   __declspec(property(get = get_songController)) ::GlobalNamespace::IStartSeekSongController* songController;
 
@@ -159,27 +165,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongControllerProvider"
   constexpr operator ::GlobalNamespace::IStartSeekSongControllerProvider*() noexcept;
 
-  /// @brief Method DisablePlayer, addr 0x59be374, size 0x58, virtual false, abstract: false, final false
-  inline void DisablePlayer();
+  /// @brief Method InactivatePlayer, addr 0x59c6058, size 0x74, virtual false, abstract: false, final false
+  inline void InactivatePlayer();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerFacade* New_ctor();
 
-  /// @brief Method PauseSpawning, addr 0x59be3cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method PauseSpawning, addr 0x59c60cc, size 0x1c, virtual false, abstract: false, final false
   inline void PauseSpawning();
 
-  /// @brief Method ReportPlayerDidFinish, addr 0x59be33c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReportPlayerDidFinish, addr 0x59c6020, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x59be358, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x59c603c, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method ResumeSpawning, addr 0x59be3e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ResumeSpawning, addr 0x59c60e8, size 0x1c, virtual false, abstract: false, final false
   inline void ResumeSpawning();
 
-  /// @brief Method __ForceStopSong, addr 0x59be404, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method __ForceStopSong, addr 0x59c6104, size 0x34, virtual false, abstract: false, final false
   inline void __ForceStopSong();
 
-  /// @brief Method __GetActiveOnlyGameObjects, addr 0x59be438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method __GetActiveOnlyGameObjects, addr 0x59c6138, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> __GetActiveOnlyGameObjects();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>> const& __cordl_internal_get__activeOnlyGameObjects() const;
@@ -222,6 +228,10 @@ public:
 
   constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& __cordl_internal_get_playerNetworkDidFailedEvent();
 
+  constexpr ::System::Action* const& __cordl_internal_get_playerWillBeInactivatedEvent() const;
+
+  constexpr ::System::Action*& __cordl_internal_get_playerWillBeInactivatedEvent();
+
   constexpr void __cordl_internal_set__activeOnlyGameObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>> value);
 
   constexpr void __cordl_internal_set__beatmapCallbacksUpdater(::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> value);
@@ -242,25 +252,30 @@ public:
 
   constexpr void __cordl_internal_set_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x59be440, size 0x4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_playerWillBeInactivatedEvent(::System::Action* value);
+
+  /// @brief Method .ctor, addr 0x59c6140, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerDidFinishEvent, addr 0x59be03c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_playerDidFinishEvent, addr 0x59c5d20, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x59be1bc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x59c5ea0, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method get_currentLocalPlayerLevelCompletionResult, addr 0x59be01c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method add_playerWillBeInactivatedEvent, addr 0x59c5bc8, size 0xac, virtual false, abstract: false, final false
+  inline void add_playerWillBeInactivatedEvent(::System::Action* value);
+
+  /// @brief Method get_currentLocalPlayerLevelCompletionResult, addr 0x59c5ba8, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResults* get_currentLocalPlayerLevelCompletionResult();
 
-  /// @brief Method get_introAnimator, addr 0x59be004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_introAnimator, addr 0x59c5b90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator> get_introAnimator();
 
-  /// @brief Method get_outroAnimator, addr 0x59be00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outroAnimator, addr 0x59c5b98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_outroAnimator();
 
-  /// @brief Method get_songController, addr 0x59be014, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songController, addr 0x59c5ba0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IStartSeekSongController* get_songController();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsListener"
@@ -272,11 +287,14 @@ public:
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongControllerProvider"
   constexpr ::GlobalNamespace::IStartSeekSongControllerProvider* i___GlobalNamespace__IStartSeekSongControllerProvider() noexcept;
 
-  /// @brief Method remove_playerDidFinishEvent, addr 0x59be0fc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerDidFinishEvent, addr 0x59c5de0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x59be27c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x59c5f60, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
+
+  /// @brief Method remove_playerWillBeInactivatedEvent, addr 0x59c5c74, size 0xac, virtual false, abstract: false, final false
+  inline void remove_playerWillBeInactivatedEvent(::System::Action* value);
 
 protected:
   // Ctor Parameters []
@@ -293,7 +311,7 @@ public:
   MultiplayerLocalActivePlayerFacade(MultiplayerLocalActivePlayerFacade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6089 };
 
   /// @brief Field _activeOnlyGameObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>> ____activeOnlyGameObjects;
@@ -319,10 +337,13 @@ public:
   /// @brief Field _beatmapCallbacksUpdater, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> ____beatmapCallbacksUpdater;
 
-  /// @brief Field playerDidFinishEvent, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field playerWillBeInactivatedEvent, offset: 0x60, size: 0x8, def value: None
+  ::System::Action* ___playerWillBeInactivatedEvent;
+
+  /// @brief Field playerDidFinishEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* ___playerDidFinishEvent;
 
-  /// @brief Field playerNetworkDidFailedEvent, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field playerNetworkDidFailedEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* ___playerNetworkDidFailedEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -344,10 +365,12 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade, __
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade, ____beatmapCallbacksUpdater) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade, ___playerDidFinishEvent) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade, ___playerWillBeInactivatedEvent) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade, ___playerNetworkDidFailedEvent) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade, ___playerDidFinishEvent) == 0x68, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade) == 0x70, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade, ___playerNetworkDidFailedEvent) == 0x70, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade) == 0x78, "Size mismatch!");
 
 } // namespace GlobalNamespace

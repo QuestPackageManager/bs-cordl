@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LanguageFactory.hpp"
+// IWYU pragma private; include "GlobalNamespace\LanguageFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory_1<::BGLib::Polyglot::LocalizationLanguage>"
   constexpr operator ::Zenject::IFactory_1<::BGLib::Polyglot::LocalizationLanguage>*() noexcept;
 
-  /// @brief Method Create, addr 0x37700f4, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method Create, addr 0x3775d60, size 0x154, virtual true, abstract: false, final true
   inline ::BGLib::Polyglot::LocalizationLanguage Create();
 
   static inline ::GlobalNamespace::LanguageFactory* New_ctor(::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::SettingsManager* settingsManager,
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x37700e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3775d54, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::SettingsManager* settingsManager, ::OculusStudios::Platform::Core::IPlatform* platform);
 
   /// @brief Convert to "::Zenject::IFactory"
@@ -100,7 +100,7 @@ public:
   LanguageFactory(LanguageFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21022 };
 
   /// @brief Field _playerDataModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;

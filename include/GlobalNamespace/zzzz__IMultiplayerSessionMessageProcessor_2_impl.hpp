@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IMultiplayerSessionMessageProcessor_2.hpp"
+// IWYU pragma private; include "GlobalNamespace\IMultiplayerSessionMessageProcessor_2.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionMessageProcessor_2_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"

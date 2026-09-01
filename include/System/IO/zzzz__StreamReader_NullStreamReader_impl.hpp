@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/StreamReader_NullStreamReader.hpp"
+// IWYU pragma private; include "System\IO\StreamReader_NullStreamReader.hpp"
 #include "System/IO/zzzz__StreamReader_impl.hpp"
 #include "System/IO/zzzz__StreamReader_NullStreamReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5bf90b4;
+  constexpr static std::size_t addrs = 0x5bfd570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StreamReader_NullStreamReader*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(
     &::GlobalNamespace::StreamReader_NullStreamReader::get_BaseStream)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bf9150;
+  constexpr static std::size_t addrs = 0x5bfd60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(
     &::GlobalNamespace::StreamReader_NullStreamReader::get_CurrentEncoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf91ac;
+  constexpr static std::size_t addrs = 0x5bfd668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StreamReader_NullStreamReader::*)(bool)>(&::GlobalNamespace::StreamReader_NullStreamReader::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bf91b4;
+  constexpr static std::size_t addrs = 0x5bfd670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::Peek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf91b8;
+  constexpr static std::size_t addrs = 0x5bfd674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::Read)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf91c0;
+  constexpr static std::size_t addrs = 0x5bfd67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StreamReader_NullStreamReader::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::GlobalNamespace::StreamReader_NullStreamReader::Read)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf91c8;
+  constexpr static std::size_t addrs = 0x5bfd684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::ReadLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf91d0;
+  constexpr static std::size_t addrs = 0x5bfd68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::ReadToEnd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bf91d8;
+  constexpr static std::size_t addrs = 0x5bfd694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StreamReader_NullStreamReader::*)()>(&::GlobalNamespace::StreamReader_NullStreamReader::ReadBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf91ec;
+  constexpr static std::size_t addrs = 0x5bfd6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

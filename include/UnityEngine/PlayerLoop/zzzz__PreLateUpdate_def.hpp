@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/PlayerLoop/PreLateUpdate.hpp"
+// IWYU pragma private; include "UnityEngine\PlayerLoop\PreLateUpdate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -145,7 +145,7 @@ public:
   constexpr PreLateUpdate_Physics2DLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10573 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -173,7 +173,7 @@ public:
   constexpr PreLateUpdate_PhysicsLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10574 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -201,7 +201,7 @@ public:
   constexpr PreLateUpdate_AIUpdatePostScript();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10575 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -229,7 +229,7 @@ public:
   constexpr PreLateUpdate_DirectorUpdateAnimationBegin();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10576 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -257,7 +257,7 @@ public:
   constexpr PreLateUpdate_LegacyAnimationUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10577 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -285,7 +285,7 @@ public:
   constexpr PreLateUpdate_DirectorUpdateAnimationEnd();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10578 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -313,7 +313,7 @@ public:
   constexpr PreLateUpdate_DirectorDeferredEvaluate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10579 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -341,7 +341,7 @@ public:
   constexpr PreLateUpdate_AccessibilityUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10580 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -369,7 +369,7 @@ public:
   constexpr PreLateUpdate_UIElementsUpdatePanels();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10581 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -397,7 +397,7 @@ public:
   constexpr PreLateUpdate_UpdateNetworkManager();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10582 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -425,7 +425,7 @@ public:
   constexpr PreLateUpdate_UpdateMasterServerInterface();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10583 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -453,7 +453,7 @@ public:
   constexpr PreLateUpdate_EndGraphicsJobsAfterScriptUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10584 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -481,7 +481,7 @@ public:
   constexpr PreLateUpdate_ParticleSystemBeginUpdateAll();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10585 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -509,7 +509,7 @@ public:
   constexpr PreLateUpdate_ScriptRunBehaviourLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10586 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -537,7 +537,7 @@ public:
   constexpr PreLateUpdate_ConstraintManagerUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10587 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -595,7 +595,7 @@ public:
   constexpr PreLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10588 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameServersFilterViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameServersFilterViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServersFilterViewController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyDropdown_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameServersFilter* (::GlobalNamespace::GameServersFilterViewController::*)()>(
     &::GlobalNamespace::GameServersFilterViewController::get_gameServersFilter)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x595d50c;
+  constexpr static std::size_t addrs = 0x5960dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(::GlobalNamespace::GameServersFilter*)>(
     &::GlobalNamespace::GameServersFilterViewController::SetupGameServersFilter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x595d63c;
+  constexpr static std::size_t addrs = 0x5960f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameServersFilterViewController*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::GameServersFilterViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x595d75c;
+  constexpr static std::size_t addrs = 0x5961024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)()>(&::GlobalNamespace::GameServersFilterViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x595d924;
+  constexpr static std::size_t addrs = 0x59611ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(::GlobalNamespace::GameServersFilter*)>(
     &::GlobalNamespace::GameServersFilterViewController::Refresh)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x595d640;
+  constexpr static std::size_t addrs = 0x5960f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)()>(&::GlobalNamespace::GameServersFilterViewController::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x595d94c;
+  constexpr static std::size_t addrs = 0x5961214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameServersFilterViewController*>(), { ".ctor", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(bool)>(&::GlobalNamespace::GameServersFilterViewController::_DidActivate_b__16_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x595d9b0;
+  constexpr static std::size_t addrs = 0x5961278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(bool)>(&::GlobalNamespace::GameServersFilterViewController::_DidActivate_b__16_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x595d9cc;
+  constexpr static std::size_t addrs = 0x5961294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(bool)>(&::GlobalNamespace::GameServersFilterViewController::_DidActivate_b__16_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x595d9e8;
+  constexpr static std::size_t addrs = 0x59612b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingCommonConfig.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingCommonConfig.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionCullingCommonConfig_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::OcclusionCullingCommonConfig::OcclusionCullingCommonConfig(int32_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_FontAssetUtilities.hpp"
+// IWYU pragma private; include "TMPro\TMP_FontAssetUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_FontAssetUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_FontAssetUtilities* (*)()>(&::TMPro::TMP_FontAssetUtilities::get_instance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x695619c;
+  constexpr static std::size_t addrs = 0x695dc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontAssetUtilities*>(), { "get_instance", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_Character* (*)(uint32_t, ::TMPro::TMP_FontAsset*, bool, ::TMPro::FontStyles, ::TMPro::FontWeight, ::by_ref<bool>)>(
     &::TMPro::TMP_FontAssetUtilities::GetCharacterFromFontAsset)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x69561f8;
+  constexpr static std::size_t addrs = 0x695dc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_Character* (*)(uint32_t, ::TMPro::TMP_FontAsset*, bool, ::TMPro::FontStyles, ::TMPro::FontWeight, ::by_ref<bool>)>(
     &::TMPro::TMP_FontAssetUtilities::GetCharacterFromFontAsset_Internal)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x695635c;
+  constexpr static std::size_t addrs = 0x695ddd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_Character* (*)(uint32_t, ::TMPro::TMP_FontAsset*, ::TMPro::FontStyles, ::TMPro::FontWeight, ::by_ref<bool>)>(
     &::TMPro::TMP_FontAssetUtilities::SearchFallbacksForCharacter)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x69567a0;
+  constexpr static std::size_t addrs = 0x695e21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_Character* (
                                                                                    ::TMPro::FontStyles, ::TMPro::FontWeight, ::by_ref<bool>)>(
     &::TMPro::TMP_FontAssetUtilities::GetCharacterFromFontAssets)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x695696c;
+  constexpr static std::size_t addrs = 0x695e3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_TextElement*
                                                                                      ::TMPro::FontStyles, ::TMPro::FontWeight, ::by_ref<bool>)>(
     &::TMPro::TMP_FontAssetUtilities::GetTextElementFromTextAssets)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x6956b98;
+  constexpr static std::size_t addrs = 0x695e614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_SpriteCharacter* (*)(uint32_t, ::TMPro::TMP_SpriteAsset*, bool)>(
     &::TMPro::TMP_FontAssetUtilities::GetSpriteCharacterFromSpriteAsset)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x69570e0;
+  constexpr static std::size_t addrs = 0x695eb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_SpriteCharacter* (*)(uint32_t, ::TMPro::TMP_SpriteAsset*, bool)>(
     &::TMPro::TMP_FontAssetUtilities::GetSpriteCharacterFromSpriteAsset_Internal)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6956ed8;
+  constexpr static std::size_t addrs = 0x695e954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontAssetUtilities::*)()>(&::TMPro::TMP_FontAssetUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6956198;
+  constexpr static std::size_t addrs = 0x695dc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontAssetUtilities*>(), { ".ctor", {}, {} })));

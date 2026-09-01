@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/BaseShaderInfoStorage.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\BaseShaderInfoStorage.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BaseShaderInfoStorage_def.hpp"
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)()>(&::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce951c;
+  constexpr static std::size_t addrs = 0x6cf10a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>(), { "get_disposed", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)(bool)>(&::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ce9524;
+  constexpr static std::size_t addrs = 0x6cf10a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)()>(&::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ce952c;
+  constexpr static std::size_t addrs = 0x6cf10b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>(), { "Dispose", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)(bool)>(&::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ce959c;
+  constexpr static std::size_t addrs = 0x6cf1120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>(),
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)()>(&::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce95b4;
+  constexpr static std::size_t addrs = 0x6cf1138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>(), { ".ctor", {}, {} })));

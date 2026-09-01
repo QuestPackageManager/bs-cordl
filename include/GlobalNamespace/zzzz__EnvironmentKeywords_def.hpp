@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnvironmentKeywords.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnvironmentKeywords.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
 
   __declspec(property(get = get_environmentKeywords)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords;
 
-  /// @brief Method HasKeyword, addr 0x3704510, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HasKeyword, addr 0x3708930, size 0x64, virtual false, abstract: false, final false
   inline bool HasKeyword(::StringW keyword);
 
   static inline ::GlobalNamespace::EnvironmentKeywords* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords);
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__environmentKeywordsSet(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x37043e0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3708800, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords);
 
-  /// @brief Method get_environmentKeywords, addr 0x37043d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentKeywords, addr 0x37087f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
 
 protected:
@@ -74,7 +74,7 @@ public:
   EnvironmentKeywords(EnvironmentKeywords const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14841 };
 
   /// @brief Field _environmentKeywords, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::StringW>* ____environmentKeywords;

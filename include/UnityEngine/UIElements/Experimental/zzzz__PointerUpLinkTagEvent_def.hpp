@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Experimental/PointerUpLinkTagEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Experimental\PointerUpLinkTagEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d17d20, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6d1f8a4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d17d1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1f8a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent___c* getStaticF___9();
@@ -89,13 +89,13 @@ public:
 
   __declspec(property(put = set_linkText)) ::StringW linkText;
 
-  /// @brief Method GetPooled, addr 0x6d17c04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6d1f788, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent* GetPooled(::UnityEngine::UIElements::IPointerEvent* evt, ::StringW linkID, ::StringW linkText);
 
-  /// @brief Method Init, addr 0x6d17ba0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d1f724, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d17bf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6d1f77c, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerUpLinkTagEvent* New_ctor();
@@ -112,13 +112,13 @@ public:
 
   constexpr void __cordl_internal_set__linkText_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d17c70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1f7f4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_linkID, addr 0x6d17b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkID, addr 0x6d1f714, size 0x8, virtual false, abstract: false, final false
   inline void set_linkID(::StringW value);
 
-  /// @brief Method set_linkText, addr 0x6d17b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkText, addr 0x6d1f71c, size 0x8, virtual false, abstract: false, final false
   inline void set_linkText(::StringW value);
 
 protected:

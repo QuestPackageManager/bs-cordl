@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/ExternalProcessHelper.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\ExternalProcessHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ namespace BGLib::DotnetExtension {
 class CORDL_TYPE ExternalProcessHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProcessOutputLines, addr 0x330b6b8, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method GetProcessOutputLines, addr 0x330f4b4, size 0x458, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetProcessOutputLines(::StringW path, ::StringW arguments);
 
-  /// @brief Method StartBackgroundProcess, addr 0x330b644, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method StartBackgroundProcess, addr 0x330f440, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::Process* StartBackgroundProcess(::StringW path, ::StringW arguments);
 
 protected:
@@ -47,7 +47,7 @@ public:
   ExternalProcessHelper(ExternalProcessHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20511 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

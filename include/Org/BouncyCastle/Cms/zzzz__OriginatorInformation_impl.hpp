@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/OriginatorInformation.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\OriginatorInformation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__OriginatorInformation_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__OriginatorInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::OriginatorInformation::*)(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*)>(
     &::Org::BouncyCastle::Cms::OriginatorInformation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36cdca4;
+  constexpr static std::size_t addrs = 0x36d1a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Cms::OriginatorInformation::*)()>(
     &::Org::BouncyCastle::Cms::OriginatorInformation::GetCertificates)> {
   constexpr static std::size_t size = 0x508;
-  constexpr static std::size_t addrs = 0x36cdcac;
+  constexpr static std::size_t addrs = 0x36d1a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Cms::OriginatorInformation::*)()>(
     &::Org::BouncyCastle::Cms::OriginatorInformation::GetCrls)> {
   constexpr static std::size_t size = 0x508;
-  constexpr static std::size_t addrs = 0x36ce1b4;
+  constexpr static std::size_t addrs = 0x36d1f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* (::Org::BouncyCastle::Cms::OriginatorInformation::*)()>(
     &::Org::BouncyCastle::Cms::OriginatorInformation::ToAsn1Structure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36ce6bc;
+  constexpr static std::size_t addrs = 0x36d247c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

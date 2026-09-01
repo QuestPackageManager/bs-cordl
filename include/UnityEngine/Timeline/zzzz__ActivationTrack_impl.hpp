@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/ActivationTrack.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\ActivationTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationTrack_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::ActivationTrack::*)()>(&::UnityEngine::Timeline::ActivationTrack::CanCompileClips)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69a4a88;
+  constexpr static std::size_t addrs = 0x69ac504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::ActivationTrack_PostPlaybackState (::UnityEngine::Timeline::ActivationTrack::*)()>(
     &::UnityEngine::Timeline::ActivationTrack::get_postPlaybackState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a4bac;
+  constexpr static std::size_t addrs = 0x69ac628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::ActivationTrack*>(), { "get_postPlaybackState", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ActivationTrack::*)(::UnityEngine::Timeline::ActivationTrack_PostPlaybackState)>(
     &::UnityEngine::Timeline::ActivationTrack::set_postPlaybackState)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69a4bb4;
+  constexpr static std::size_t addrs = 0x69ac630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::ActivationTrack::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, int32_t)>(&::UnityEngine::Timeline::ActivationTrack::CreateTrackMixer)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x69a4bdc;
+  constexpr static std::size_t addrs = 0x69ac658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ActivationTrack::*)()>(&::UnityEngine::Timeline::ActivationTrack::UpdateTrackMode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69a4bc8;
+  constexpr static std::size_t addrs = 0x69ac644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::ActivationTrack*>(), { "UpdateTrackMode", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ActivationTrack::*)(::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*)>(
     &::UnityEngine::Timeline::ActivationTrack::GatherProperties)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x69a4cc4;
+  constexpr static std::size_t addrs = 0x69ac740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ActivationTrack::*)(::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::ActivationTrack::OnCreateClip)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x69a4f80;
+  constexpr static std::size_t addrs = 0x69ac9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ActivationTrack::*)()>(&::UnityEngine::Timeline::ActivationTrack::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69a4fd8;
+  constexpr static std::size_t addrs = 0x69aca54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::ActivationTrack*>(), { ".ctor", {}, {} })));

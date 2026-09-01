@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Controls/DpadControl.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Controls\DpadControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,12 +50,12 @@ public:
 
   __declspec(property(get = get_component, put = set_component)) int32_t component;
 
-  /// @brief Method FinishSetup, addr 0x64f412c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x64fbba8, size 0x8c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x64f41b8, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x64fbc34, size 0xf8, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(void* statePtr);
 
   constexpr int32_t const& __cordl_internal_get__component_k__BackingField() const;
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set__component_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x64f42b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64fbd2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_component, addr 0x64f411c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_component, addr 0x64fbb98, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_component();
 
-  /// @brief Method set_component, addr 0x64f4124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_component, addr 0x64fbba0, size 0x8, virtual false, abstract: false, final false
   inline void set_component(int32_t value);
 
 protected:
@@ -88,7 +88,7 @@ public:
   DpadControl_DpadAxisControl(DpadControl_DpadAxisControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9128 };
 
   /// @brief Field <component>k__BackingField, offset: 0x12c, size: 0x4, def value: None
   int32_t ____component_k__BackingField;
@@ -148,7 +148,7 @@ public:
   static ::UnityEngine::InputSystem::Controls::DpadControl_ButtonBits const Up;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9129 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -196,21 +196,21 @@ public:
 
   __declspec(property(get = get_up, put = set_up)) ::UnityEngine::InputSystem::Controls::ButtonControl* up;
 
-  /// @brief Method FinishSetup, addr 0x64f3ba0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x64fb61c, size 0xfc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeDpadVector, addr 0x64f3efc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MakeDpadVector, addr 0x64fb978, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MakeDpadVector(bool up, bool down, bool left, bool right, bool normalize);
 
-  /// @brief Method MakeDpadVector, addr 0x64f410c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MakeDpadVector, addr 0x64fbb88, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MakeDpadVector(float_t up, float_t down, float_t left, float_t right);
 
   static inline ::UnityEngine::InputSystem::Controls::DpadControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x64f3c9c, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x64fb718, size 0x260, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x64f3f58, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x64fb9d4, size 0x1b4, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::Vector2 value, void* statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__down_k__BackingField() const;
@@ -237,31 +237,31 @@ public:
 
   constexpr void __cordl_internal_set__up_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x64f3b2c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64fb5a8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_down, addr 0x64f3afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_down, addr 0x64fb578, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_down();
 
-  /// @brief Method get_left, addr 0x64f3b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x64fb588, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_left();
 
-  /// @brief Method get_right, addr 0x64f3b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x64fb598, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_right();
 
-  /// @brief Method get_up, addr 0x64f3aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x64fb568, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_up();
 
-  /// @brief Method set_down, addr 0x64f3b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_down, addr 0x64fb580, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_left, addr 0x64f3b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x64fb590, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_right, addr 0x64f3b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x64fb5a0, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_up, addr 0x64f3af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_up, addr 0x64fb570, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -279,7 +279,7 @@ public:
   DpadControl(DpadControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9130 };
 
   /// @brief Field <up>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____up_k__BackingField;

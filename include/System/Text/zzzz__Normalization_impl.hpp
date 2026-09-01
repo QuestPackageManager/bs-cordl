@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/Normalization.hpp"
+// IWYU pragma private; include "System\Text\Normalization.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__Normalization_def.hpp"
 #include "System/Text/zzzz__NormalizationCheck_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(int32_t)>(&::System::Text::Normalization::PropValue)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ae8240;
+  constexpr static std::size_t addrs = 0x5aec6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::Normalization*>(), { "PropValue", {}, { ::i2c::type_of<int32_t>() } })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Text::Normalization::CharMapIdx)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ae82dc;
+  constexpr static std::size_t addrs = 0x5aec798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::Normalization*>(), { "CharMapIdx", {}, { ::i2c::type_of<int32_t>() } })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(int32_t)>(&::System::Text::Normalization::GetCombiningClass)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5ae8378;
+  constexpr static std::size_t addrs = 0x5aec834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Text::Normalization::GetPrimaryCompositeFromMapIndex)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5ae8428;
+  constexpr static std::size_t addrs = 0x5aec8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Text::Normalization::GetPrimaryCompositeHelperIndex)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5ae84d8;
+  constexpr static std::size_t addrs = 0x5aec994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t)>(&::System::Text::Normalization::Compose)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5ae8588;
+  constexpr static std::size_t addrs = 0x5aeca44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::StringBuilder* (*)(::StringW, int32_t, int32_t)>(&::System::Text::Normalization::Combine)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5ae8794;
+  constexpr static std::size_t addrs = 0x5aecc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, int32_t)>(&::System::Text::Normalization::Combine)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5ae88c4;
+  constexpr static std::size_t addrs = 0x5aecd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Text::StringBuilder*, ::StringW, int32_t)>(&::System::Text::Normalization::CombineHangul)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5ae8afc;
+  constexpr static std::size_t addrs = 0x5aecfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Text::StringBuilder*, ::StringW, int32_t)>(&::System::Text::Normalization::Fetch)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5ae8ef0;
+  constexpr static std::size_t addrs = 0x5aed3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Text::StringBuilder*, ::StringW, int32_t)>(&::System::Text::Normalization::TryComposeWithPreviousStarter)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x5ae8cc0;
+  constexpr static std::size_t addrs = 0x5aed17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::System::Text::Normalization::TryCompose)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5ae8f3c;
+  constexpr static std::size_t addrs = 0x5aed3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::Normalization*>(),
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t)>(&::System::Text::Normalization::Decompose)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ae9058;
+  constexpr static std::size_t addrs = 0x5aed514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::System::Text::StringBuilder*>, int32_t)>(&::System::Text::Normalization::Decompose)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5ae8670;
+  constexpr static std::size_t addrs = 0x5aecb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::System::Text::StringBuilder*>, int32_t)>(&::System::Text::Normalization::ReorderCanonical)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x5ae92e4;
+  constexpr static std::size_t addrs = 0x5aed7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::Text::StringBuilder*>, ::by_ref<::ArrayW<int32_t>>, ::StringW, int32_t, int32_t, ::by_ref<int32_t>)>(
     &::System::Text::Normalization::DecomposeChar)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5ae90f0;
+  constexpr static std::size_t addrs = 0x5aed5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::NormalizationCheck (*)(char16_t, int32_t)>(&::System::Text::Normalization::QuickCheck)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5ae89d0;
+  constexpr static std::size_t addrs = 0x5aece8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::ArrayW<int32_t>, int32_t)>(&::System::Text::Normalization::GetCanonicalHangul)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5ae971c;
+  constexpr static std::size_t addrs = 0x5aedbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::ArrayW<int32_t>, int32_t, int32_t)>(&::System::Text::Normalization::GetCanonical)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5ae9568;
+  constexpr static std::size_t addrs = 0x5aeda24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Text::NormalizationForm)>(&::System::Text::Normalization::Normalize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5ae9800;
+  constexpr static std::size_t addrs = 0x5aedcbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::Normalization*>(),
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t)>(&::System::Text::Normalization::Normalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5ae98a8;
+  constexpr static std::size_t addrs = 0x5aedd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>, ::by_ref<::System::IntPtr>, ::by_ref<::System::IntPtr>, ::by_ref<::System::IntPtr>,
                                                                 ::by_ref<::System::IntPtr>, ::by_ref<::System::IntPtr>)>(&::System::Text::Normalization::load_normalization_resource)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5ae9948;
+  constexpr static std::size_t addrs = 0x5aede04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

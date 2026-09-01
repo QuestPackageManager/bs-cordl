@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ResettableRandom.hpp"
+// IWYU pragma private; include "GlobalNamespace\ResettableRandom.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ResettableRandom_def.hpp"
 #include "GlobalNamespace/zzzz__DeterminismConfig_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResettableRandom::*)(::GlobalNamespace::DeterminismConfig*, int32_t)>(&::GlobalNamespace::ResettableRandom::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3322894;
+  constexpr static std::size_t addrs = 0x3326654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResettableRandom*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::GlobalNamespace::ResettableRandom::*)()>(&::GlobalNamespace::ResettableRandom::Sample)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x33229d4;
+  constexpr static std::size_t addrs = 0x3326794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResettableRandom*>(), { "Sample", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResettableRandom::*)(bool)>(&::GlobalNamespace::ResettableRandom::HandleDeterminismSet)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3322948;
+  constexpr static std::size_t addrs = 0x3326708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResettableRandom::*)()>(&::GlobalNamespace::ResettableRandom::Dispose)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x33229f0;
+  constexpr static std::size_t addrs = 0x33267b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResettableRandom*>(), { "Dispose", {}, {} })));

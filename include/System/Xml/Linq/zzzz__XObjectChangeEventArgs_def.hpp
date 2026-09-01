@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/XObjectChangeEventArgs.hpp"
+// IWYU pragma private; include "System\Xml\Linq\XObjectChangeEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__objectChange(::System::Xml::Linq::XObjectChange value);
 
-  /// @brief Method .ctor, addr 0x61a3f2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ab9a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XObjectChange objectChange);
 
   static inline ::System::Xml::Linq::XObjectChangeEventArgs* getStaticF_Add();
@@ -80,7 +80,7 @@ public:
   XObjectChangeEventArgs(XObjectChangeEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21993 };
 
   /// @brief Field _objectChange, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::Linq::XObjectChange ____objectChange;

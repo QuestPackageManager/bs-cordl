@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeSceneData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeSceneData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeVolumeSceneData* New_ctor(::UnityEngine::Object* parentAsset);
 
-  /// @brief Method SetParentObject, addr 0x67903dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetParentObject, addr 0x6797e58, size 0x8, virtual false, abstract: false, final false
   inline void SetParentObject(::UnityEngine::Object* parent);
 
   constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, bool>* const& __cordl_internal_get_obsoleteHasProbeVolumes() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_parentAsset(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x67903d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6797e50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Object* parentAsset);
 
 protected:
@@ -81,7 +81,7 @@ public:
   ProbeVolumeSceneData(ProbeVolumeSceneData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12149 };
 
   /// @brief Field parentAsset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> ___parentAsset;

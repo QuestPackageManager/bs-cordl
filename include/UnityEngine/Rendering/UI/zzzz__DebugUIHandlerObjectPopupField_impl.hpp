@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerObjectPopupField.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerObjectPopupField.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerField_1_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerObjectPopupField_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugUI_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::SetWidget)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67fd118;
+  constexpr static std::size_t addrs = 0x6804b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::ChangeSelectedObject)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x67fd17c;
+  constexpr static std::size_t addrs = 0x6804bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)(bool)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::OnIncrement)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x67fd284;
+  constexpr static std::size_t addrs = 0x6804d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)(bool)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::OnDecrement)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x67fd294;
+  constexpr static std::size_t addrs = 0x6804d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::UpdateValueLabel)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x67fd2a4;
+  constexpr static std::size_t addrs = 0x6804d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField*>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x67fd39c;
+  constexpr static std::size_t addrs = 0x6804e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerObjectPopupField*>(), { ".ctor", {}, {} })));

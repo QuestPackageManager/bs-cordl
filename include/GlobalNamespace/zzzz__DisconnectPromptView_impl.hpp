@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DisconnectPromptView.hpp"
+// IWYU pragma private; include "GlobalNamespace\DisconnectPromptView.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DisconnectPromptView_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0::*)()>(
     &::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1b788;
+  constexpr static std::size_t addrs = 0x5a23874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0::*)()>(
     &::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0::_Hide_b__0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a1b828;
+  constexpr static std::size_t addrs = 0x5a23914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::DisconnectPromptView::add_didViewFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a1b384;
+  constexpr static std::size_t addrs = 0x5a23470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::DisconnectPromptView::remove_didViewFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a1b444;
+  constexpr static std::size_t addrs = 0x5a23530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::OnEnable)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5a1b504;
+  constexpr static std::size_t addrs = 0x5a235f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { "OnEnable", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::OnDisable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a1b62c;
+  constexpr static std::size_t addrs = 0x5a23718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { "OnDisable", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::Show)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5a1b644;
+  constexpr static std::size_t addrs = 0x5a23730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { "Show", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)(::System::Action*)>(&::GlobalNamespace::DisconnectPromptView::Hide)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5a1b684;
+  constexpr static std::size_t addrs = 0x5a23770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a1b78c;
+  constexpr static std::size_t addrs = 0x5a23878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { ".ctor", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::_OnEnable_b__9_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1b7e8;
+  constexpr static std::size_t addrs = 0x5a238d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { "<OnEnable>b__9_0", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::_OnEnable_b__9_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1b808;
+  constexpr static std::size_t addrs = 0x5a238f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { "<OnEnable>b__9_1", {}, {} })));
@@ -223,29 +223,29 @@ constexpr void GlobalNamespace::DisconnectPromptView::__cordl_internal_set__prom
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____promptGameObject = value;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::DisconnectPromptView::__cordl_internal_get__okButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::DisconnectPromptView::__cordl_internal_get__yesButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____okButton;
+  return this->____yesButton;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::DisconnectPromptView::__cordl_internal_get__okButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::DisconnectPromptView::__cordl_internal_get__yesButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____okButton;
+  return this->____yesButton;
 }
-constexpr void GlobalNamespace::DisconnectPromptView::__cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value) {
+constexpr void GlobalNamespace::DisconnectPromptView::__cordl_internal_set__yesButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____okButton = value;
+  this->____yesButton = value;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::DisconnectPromptView::__cordl_internal_get__cancelButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::DisconnectPromptView::__cordl_internal_get__noButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cancelButton;
+  return this->____noButton;
 }
-constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::DisconnectPromptView::__cordl_internal_get__cancelButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::DisconnectPromptView::__cordl_internal_get__noButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cancelButton;
+  return this->____noButton;
 }
-constexpr void GlobalNamespace::DisconnectPromptView::__cordl_internal_set__cancelButton(::UnityW<::UnityEngine::UI::Button> value) {
+constexpr void GlobalNamespace::DisconnectPromptView::__cordl_internal_set__noButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____cancelButton = value;
+  this->____noButton = value;
 }
 constexpr ::System::Action_1<bool>*& GlobalNamespace::DisconnectPromptView::__cordl_internal_get_didViewFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassFragmentData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassFragmentData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,10 +22,10 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE PassFragmentData {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x67f192c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67f93a8, size 0x8c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method SameSubResource, addr 0x67f19b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SameSubResource, addr 0x67f9434, size 0x9c, virtual false, abstract: false, final false
   static inline bool SameSubResource(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> x,
                                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> y);
 
@@ -40,7 +40,7 @@ public:
                              int32_t depthSlice) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12488 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

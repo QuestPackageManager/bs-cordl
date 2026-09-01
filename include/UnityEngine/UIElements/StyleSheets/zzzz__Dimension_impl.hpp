@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Dimension.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Dimension.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__Dimension_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Dimension::*)(float_t, ::UnityEngine::UIElements::StyleSheets::Dimension_Unit)>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d0a824;
+  constexpr static std::size_t addrs = 0x6d123a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::StyleSheets::Dimension::*)()>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::ToLength)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6d0a830;
+  constexpr static std::size_t addrs = 0x6d123b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::Dimension>(), { "ToLength", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TimeValue (::UnityEngine::UIElements::StyleSheets::Dimension::*)()>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::ToTime)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d0a864;
+  constexpr static std::size_t addrs = 0x6d123e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::Dimension>(), { "ToTime", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Angle (::UnityEngine::UIElements::StyleSheets::Dimension::*)()>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::ToAngle)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6d0a878;
+  constexpr static std::size_t addrs = 0x6d123fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::Dimension>(), { "ToAngle", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::Dimension, ::UnityEngine::UIElements::StyleSheets::Dimension)>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::op_Equality)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d0a8a4;
+  constexpr static std::size_t addrs = 0x6d12428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::Dimension::*)(::UnityEngine::UIElements::StyleSheets::Dimension)>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::Equals)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d0a8c4;
+  constexpr static std::size_t addrs = 0x6d12448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::Dimension>(),
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::Dimension::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleSheets::Dimension::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d0a8e4;
+  constexpr static std::size_t addrs = 0x6d12468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleSheets::Dimension::*)()>(&::UnityEngine::UIElements::StyleSheets::Dimension::GetHashCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6d0a970;
+  constexpr static std::size_t addrs = 0x6d124f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleSheets::Dimension::*)()>(&::UnityEngine::UIElements::StyleSheets::Dimension::ToString)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6d0a9a0;
+  constexpr static std::size_t addrs = 0x6d12524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

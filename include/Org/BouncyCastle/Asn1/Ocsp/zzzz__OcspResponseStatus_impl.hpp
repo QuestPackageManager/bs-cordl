@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ocsp/OcspResponseStatus.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ocsp\OcspResponseStatus.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerEnumerated_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspResponseStatus_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerEnumerated_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::*)(int32_t)>(&::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x345874c;
+  constexpr static std::size_t addrs = 0x345c50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::*)(::Org::BouncyCastle::Asn1::DerEnumerated*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3457bfc;
+  constexpr static std::size_t addrs = 0x345b9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

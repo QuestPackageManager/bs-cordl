@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsException* New_ctor(::StringW msg, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x36a0a94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a4854, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36a0aec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a48ac, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x36a0b58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a4918, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, ::System::Exception* e);
 
 protected:

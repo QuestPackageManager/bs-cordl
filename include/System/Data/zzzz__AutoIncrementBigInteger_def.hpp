@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/AutoIncrementBigInteger.hpp"
+// IWYU pragma private; include "System\Data\AutoIncrementBigInteger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,18 +50,18 @@ public:
   /// @brief Field _step, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get__step, put = __cordl_internal_set__step)) ::System::Numerics::BigInteger _step;
 
-  /// @brief Method BoundaryCheck, addr 0x5ffd480, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method BoundaryCheck, addr 0x6004efc, size 0x12c, virtual false, abstract: false, final false
   inline bool BoundaryCheck(::System::Numerics::BigInteger value);
 
-  /// @brief Method MoveAfter, addr 0x5ffd78c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method MoveAfter, addr 0x6005208, size 0x80, virtual true, abstract: false, final false
   inline void MoveAfter();
 
   static inline ::System::Data::AutoIncrementBigInteger* New_ctor();
 
-  /// @brief Method SetCurrent, addr 0x5ffd80c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x6005288, size 0x24, virtual true, abstract: false, final false
   inline void SetCurrent(::System::Object* value, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method SetCurrentAndIncrement, addr 0x5ffd830, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetCurrentAndIncrement, addr 0x60052ac, size 0xc0, virtual true, abstract: false, final false
   inline void SetCurrentAndIncrement(::System::Object* value);
 
   constexpr ::System::Numerics::BigInteger const& __cordl_internal_get__current() const;
@@ -82,28 +82,28 @@ public:
 
   constexpr void __cordl_internal_set__step(::System::Numerics::BigInteger value);
 
-  /// @brief Method .ctor, addr 0x5ff811c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fffb98, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Current, addr 0x5ffd24c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6004cc8, size 0x60, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_DataType, addr 0x5ffd32c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x6004da8, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_DataType();
 
-  /// @brief Method get_Seed, addr 0x5ffd38c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Seed, addr 0x6004e08, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_Seed();
 
-  /// @brief Method get_Step, addr 0x5ffd5ac, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_Step, addr 0x6005028, size 0x64, virtual true, abstract: false, final false
   inline int64_t get_Step();
 
-  /// @brief Method set_Current, addr 0x5ffd2ac, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method set_Current, addr 0x6004d28, size 0x80, virtual true, abstract: false, final false
   inline void set_Current(::System::Object* value);
 
-  /// @brief Method set_Seed, addr 0x5ffd394, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method set_Seed, addr 0x6004e10, size 0xec, virtual true, abstract: false, final false
   inline void set_Seed(int64_t value);
 
-  /// @brief Method set_Step, addr 0x5ffd610, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method set_Step, addr 0x600508c, size 0x17c, virtual true, abstract: false, final false
   inline void set_Step(int64_t value);
 
 protected:
@@ -121,7 +121,7 @@ public:
   AutoIncrementBigInteger(AutoIncrementBigInteger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13730 };
 
   /// @brief Field _current, offset: 0x18, size: 0x10, def value: None
   ::System::Numerics::BigInteger ____current;

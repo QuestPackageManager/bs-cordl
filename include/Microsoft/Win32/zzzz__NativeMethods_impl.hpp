@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft/Win32/NativeMethods.hpp"
+// IWYU pragma private; include "Microsoft\Win32\NativeMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Microsoft/Win32/zzzz__NativeMethods_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeProcessHandle_def.hpp"
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtim
                                                                 ::System::Runtime::InteropServices::HandleRef, ::by_ref<::Microsoft::Win32::SafeHandles::SafeProcessHandle*>, int32_t, bool, int32_t)>(
     &::Microsoft::Win32::NativeMethods::DuplicateHandle)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5fdc7e4;
+  constexpr static std::size_t addrs = 0x5fe4260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::Microsoft::Win32::NativeMethods::GetCurrentProcess)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5fdc978;
+  constexpr static std::size_t addrs = 0x5fe43f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Microsoft::Win32::NativeMethods*>(), { "GetCurrentProcess", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<int32_t>)>(&::Microsoft::Win32::NativeMethods::GetExitCodeProcess)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5fdc98c;
+  constexpr static std::size_t addrs = 0x5fe4408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Microsoft::Win32::NativeMethods*>(),
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Microsoft::Win32::SafeHandles::SafeProcessHandle*, ::by_ref<int32_t>)>(&::Microsoft::Win32::NativeMethods::GetExitCodeProcess)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5fdc98c;
+  constexpr static std::size_t addrs = 0x5fe4408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<int64_t>, ::by_ref<int64_t>, ::by_ref<int64_t>, ::by_ref<int64_t>)>(
     &::Microsoft::Win32::NativeMethods::GetProcessTimes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fdca38;
+  constexpr static std::size_t addrs = 0x5fe44b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Microsoft::Win32::SafeHandles::SafeProcessHandle*, ::by_ref<int64_t>, ::by_ref<int64_t>, ::by_ref<int64_t>, ::by_ref<int64_t>)>(
     &::Microsoft::Win32::NativeMethods::GetProcessTimes)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5fdca40;
+  constexpr static std::size_t addrs = 0x5fe44bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Microsoft::Win32::NativeMethods::GetCurrentProcessId)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fdcb38;
+  constexpr static std::size_t addrs = 0x5fe45b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Microsoft::Win32::NativeMethods*>(), { "GetCurrentProcessId", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::Microsoft::Win32::NativeMethods::CloseProcess)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5fdcb3c;
+  constexpr static std::size_t addrs = 0x5fe45b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RichPresenceManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\RichPresenceManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,34 +140,34 @@ public:
   __declspec(property(get = __cordl_internal_get__unifiedNetworkPlayerModel,
                       put = __cordl_internal_set__unifiedNetworkPlayerModel)) ::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
 
-  /// @brief Method Awake, addr 0x58fc918, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58ffee0, size 0x310, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Clear, addr 0x58fd4f4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5900abc, size 0xac, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x58fd27c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x5900844, size 0x278, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType,
                                                          ::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData, ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x58fcf78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x5900540, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x58fd77c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x5900d44, size 0x15c, virtual false, abstract: false, final false
   inline void HandleLobbyPlayerPermissionChanged();
 
-  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x58fd5a0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x5900b68, size 0x1dc, virtual false, abstract: false, final false
   inline void HandleMultiplayerPartySizeChanged(int32_t currentPartySize);
 
   static inline ::GlobalNamespace::RichPresenceManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58fcc28, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59001f0, size 0x350, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetMenuPresence, addr 0x58fcf94, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SetMenuPresence, addr 0x590055c, size 0x230, virtual false, abstract: false, final false
   inline void SetMenuPresence();
 
-  /// @brief Method SetPresence, addr 0x58fd1c4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SetPresence, addr 0x590078c, size 0xb8, virtual false, abstract: false, final false
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* presenceData);
 
   constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData* const& __cordl_internal_get__browsingMenusRichPresenceData() const;
@@ -272,7 +272,7 @@ public:
 
   constexpr void __cordl_internal_set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
 
-  /// @brief Method .ctor, addr 0x58fd8d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5900ea0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -290,7 +290,7 @@ public:
   RichPresenceManager(RichPresenceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6653 };
 
   /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::StandardLevelScenesTransitionSetupData* ____standardLevelScenesTransitionSetupData;

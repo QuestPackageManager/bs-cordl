@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeShadingParameters.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeShadingParameters.hpp"
 #include "Unity/Mathematics/zzzz__uint4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__APVLeakReductionMode_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/Internal/PropertyBagStore.hpp"
+// IWYU pragma private; include "Unity\Properties\Internal\PropertyBagStore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/Internal/zzzz__PropertyBagStore_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::Internal::ReflectedPropertyBagProvider* (*)()>(
     &::Unity::Properties::Internal::PropertyBagStore::get_ReflectedPropertyBagProvider)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6bacddc;
+  constexpr static std::size_t addrs = 0x6bb4960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::Internal::PropertyBagStore::CreatePropertyBagProvider)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6baa59c;
+  constexpr static std::size_t addrs = 0x6bb2120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (*)(::System::Type*)>(&::Unity::Properties::Internal::PropertyBagStore::GetPropertyBag)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6b9a288;
+  constexpr static std::size_t addrs = 0x6ba1e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/ValueStringBuilder.hpp"
+// IWYU pragma private; include "System\Text\ValueStringBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,48 +26,50 @@ namespace System::Text {
 struct CORDL_TYPE ValueStringBuilder {
 public:
   // Declarations
+  __declspec(property(get = get_Item)) char16_t Item[];
+
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method Append, addr 0x60f5fcc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x5ae70b8, size 0x90, virtual false, abstract: false, final false
   inline void Append(char16_t c);
 
-  /// @brief Method Append, addr 0x60f4f5c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x5ae762c, size 0x204, virtual false, abstract: false, final false
   inline void Append(char16_t c, int32_t count);
 
-  /// @brief Method Append, addr 0x60f60e4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x5ae71d0, size 0xa8, virtual false, abstract: false, final false
   inline void Append(::StringW s);
 
-  /// @brief Method Append, addr 0x60f4e6c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x5ae7830, size 0xf0, virtual false, abstract: false, final false
   inline void Append(char16_t* value, int32_t length);
 
-  /// @brief Method AppendSlow, addr 0x60f618c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method AppendSlow, addr 0x5ae7278, size 0x138, virtual false, abstract: false, final false
   inline void AppendSlow(::StringW s);
 
-  /// @brief Method AppendSpan, addr 0x60f62c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AppendSpan, addr 0x5ae7920, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Span_1<char16_t> AppendSpan(int32_t length);
 
-  /// @brief Method Dispose, addr 0x60f6390, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5ae79ec, size 0x110, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Grow, addr 0x60f5d50, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x5ae73b0, size 0x27c, virtual false, abstract: false, final false
   inline void Grow(int32_t requiredAdditionalCapacity);
 
-  /// @brief Method GrowAndAppend, addr 0x60f605c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GrowAndAppend, addr 0x5ae7148, size 0x88, virtual false, abstract: false, final false
   inline void GrowAndAppend(char16_t c);
 
-  /// @brief Method Insert, addr 0x60f06e0, size 0x1d0, virtual false, abstract: false, final false
-  inline void Insert(int32_t index, char16_t value, int32_t count);
-
-  /// @brief Method ToString, addr 0x60f09a4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5ae6efc, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryCopyTo, addr 0x60f08b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryCopyTo, addr 0x5ae6fc4, size 0xf4, virtual false, abstract: false, final false
   inline bool TryCopyTo(::System::Span_1<char16_t> destination, ::by_ref<int32_t> charsWritten);
 
-  /// @brief Method .ctor, addr 0x60f06d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ae6ec4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<char16_t> initialBuffer);
 
-  /// @brief Method get_Length, addr 0x60f5d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5ae6edc, size 0x20, virtual false, abstract: false, final false
+  inline ::by_ref<char16_t> get_Item(int32_t index);
+
+  /// @brief Method get_Length, addr 0x5ae6ed4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []
@@ -79,7 +81,7 @@ public:
   constexpr ValueStringBuilder(::ArrayW<char16_t> _arrayToReturnToPool, ::System::Span_1<char16_t> _chars, int32_t _pos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2887 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

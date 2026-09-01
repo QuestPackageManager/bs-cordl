@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/RC2Transform.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\RC2Transform.hpp"
 #include "Mono/Security/Cryptography/zzzz__SymmetricTransform_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RC2Transform_def.hpp"
 #include "System/Security/Cryptography/zzzz__RC2_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RC2Transform::*)(::System::Security::Cryptography::RC2*, bool, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::RC2Transform::_ctor)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x5b0a004;
+  constexpr static std::size_t addrs = 0x5b0e4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RC2Transform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::RC2Transform::ECB)> {
   constexpr static std::size_t size = 0x86c;
-  constexpr static std::size_t addrs = 0x5b0a530;
+  constexpr static std::size_t addrs = 0x5b0e9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

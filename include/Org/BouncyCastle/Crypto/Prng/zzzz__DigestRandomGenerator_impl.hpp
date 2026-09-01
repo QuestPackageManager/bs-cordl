@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/DigestRandomGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\DigestRandomGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__DigestRandomGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3419fe4;
+  constexpr static std::size_t addrs = 0x341dda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::AddSeedMaterial)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x341a148;
+  constexpr static std::size_t addrs = 0x341df08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::AddSeedMaterial)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x341a380;
+  constexpr static std::size_t addrs = 0x341e140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::NextBytes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x341a540;
+  constexpr static std::size_t addrs = 0x341e300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::NextBytes)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x341a558;
+  constexpr static std::size_t addrs = 0x341e318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)()>(&::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::CycleSeed)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x341a71c;
+  constexpr static std::size_t addrs = 0x341e4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*>(), { "CycleSeed", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::GenerateState)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x341a6a8;
+  constexpr static std::size_t addrs = 0x341e468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*>(), { "GenerateState", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestAddCounter)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x341a434;
+  constexpr static std::size_t addrs = 0x341e1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestUpdate)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x341a1fc;
+  constexpr static std::size_t addrs = 0x341dfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestDoFinal)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x341a2c4;
+  constexpr static std::size_t addrs = 0x341e084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

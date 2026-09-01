@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/LivestreamingStartResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\LivestreamingStartResult.hpp"
 #include "Oculus/Platform/zzzz__LivestreamingStartStatus_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__LivestreamingStartResult_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::LivestreamingStartResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::LivestreamingStartResult::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5dec668;
+  constexpr static std::size_t addrs = 0x5df0b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

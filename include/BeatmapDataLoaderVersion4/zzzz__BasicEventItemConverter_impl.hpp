@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/BasicEventItemConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\BasicEventItemConverter.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BasicEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__BasicEventItemConverter_def.hpp"
@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoader
     ::ArrayW<::BeatmapSaveDataVersion4::BasicEvent>, ::BeatmapDataLoaderVersion4::SpecialEventsFilter*, ::GlobalNamespace::BpmTimeProcessor*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
     &::BeatmapDataLoaderVersion4::BasicEventItemConverter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x375e04c;
+  constexpr static std::size_t addrs = 0x3763cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* (
     ::BeatmapDataLoaderVersion4::BasicEventItemConverter::*)(::BeatmapSaveDataVersion4::BeatIndex*)>(&::BeatmapDataLoaderVersion4::BasicEventItemConverter::Convert)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x375e060;
+  constexpr static std::size_t addrs = 0x3763ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/StaticMemoryPool_5.hpp"
+// IWYU pragma private; include "Zenject\StaticMemoryPool_5.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +92,7 @@ public:
   StaticMemoryPool_5(StaticMemoryPool_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14444 };
 
   /// @brief Field _onSpawnMethod, offset: 0x28, size: 0x8, def value: None
   ::System::Action_5<TParam1, TParam2, TParam3, TParam4, TValue>* ____onSpawnMethod;

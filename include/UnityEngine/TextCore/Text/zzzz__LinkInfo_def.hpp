@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/LinkInfo.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\LinkInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE LinkInfo {
 public:
   // Declarations
-  /// @brief Method GetLinkId, addr 0x6bbfaf8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetLinkId, addr 0x6bc767c, size 0x34, virtual false, abstract: false, final false
   inline ::StringW GetLinkId();
 
-  /// @brief Method GetLinkText, addr 0x6bbfa20, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetLinkText, addr 0x6bc75a4, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW GetLinkText(::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SetLinkId, addr 0x6bbf930, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetLinkId, addr 0x6bc74b4, size 0xf0, virtual false, abstract: false, final false
   inline void SetLinkId(::ArrayW<char16_t> text, int32_t startIndex, int32_t length);
 
   // Ctor Parameters []
@@ -46,7 +46,7 @@ public:
                      ::StringW m_LinkIdString, ::StringW m_LinkTextString) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17213 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

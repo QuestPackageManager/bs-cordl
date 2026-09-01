@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Generic/IntrospectiveSortUtilities.hpp"
+// IWYU pragma private; include "System\Collections\Generic\IntrospectiveSortUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace System::Collections::Generic {
 class CORDL_TYPE IntrospectiveSortUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FloorLog2PlusOne, addr 0x5bef34c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method FloorLog2PlusOne, addr 0x5bf3808, size 0x30, virtual false, abstract: false, final false
   static inline int32_t FloorLog2PlusOne(int32_t n);
 
-  /// @brief Method ThrowOrIgnoreBadComparer, addr 0x5bef37c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ThrowOrIgnoreBadComparer, addr 0x5bf3838, size 0x60, virtual false, abstract: false, final false
   static inline void ThrowOrIgnoreBadComparer(::System::Object* comparer);
 
 protected:

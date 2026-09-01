@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/ContainedPacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\ContainedPacket.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__Packet_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::ContainedPacket::*)()>(&::Org::BouncyCastle::Bcpg::ContainedPacket::GetEncoded)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x369926c;
+  constexpr static std::size_t addrs = 0x369d02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::ContainedPacket*>(), { "GetEncoded", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::ContainedPacket::*)()>(&::Org::BouncyCastle::Bcpg::ContainedPacket::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3699324;
+  constexpr static std::size_t addrs = 0x369d0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::ContainedPacket*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/IAvatarSystem.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\IAvatarSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,6 +31,9 @@ template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace System {
+class Action;
 }
 namespace Zenject {
 class DiContainer;
@@ -85,6 +88,9 @@ public:
   /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* __GetRandomizedMultiplayerAvatarsData();
 
+  /// @brief Method add_avatarDidChangeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void add_avatarDidChangeEvent(::System::Action* value);
+
   /// @brief Method get_isFallbackSystem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isFallbackSystem();
 
@@ -100,12 +106,15 @@ public:
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarSystemMetadata"
   constexpr ::BeatSaber::AvatarCore::IAvatarSystemMetadata* i___BeatSaber__AvatarCore__IAvatarSystemMetadata() noexcept;
 
+  /// @brief Method remove_avatarDidChangeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void remove_avatarDidChangeEvent(::System::Action* value);
+
   // Ctor Parameters [CppParam { name: "", ty: "IAvatarSystem", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IAvatarSystem(IAvatarSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21659 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

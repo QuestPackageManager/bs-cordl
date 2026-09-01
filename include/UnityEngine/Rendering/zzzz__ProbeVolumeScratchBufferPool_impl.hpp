@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeScratchBufferPool.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeScratchBufferPool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeScratchBufferPool_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6790c1c;
+  constexpr static std::size_t addrs = 0x6798698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6790fe8;
+  constexpr static std::size_t addrs = 0x6798a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool::*)(
     ::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool*)>(&::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool::CompareTo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6791064;
+  constexpr static std::size_t addrs = 0x6798ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c::*)()>(&::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67910dc;
+  constexpr static std::size_t addrs = 0x6798b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c*>(), { ".ctor", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c::*)(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool*)>(
     &::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c::_AllocateScratchBuffer_b__26_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67910e0;
+  constexpr static std::size_t addrs = 0x6798b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c::*)(::UnityEngine::Rendering::ProbeVolumeScratchBufferPool_ScratchBufferPool*)>(
     &::UnityEngine::Rendering::ProbeVolumeScratchBufferPool___c::_ReleaseScratchBuffer_b__27_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6791144;
+  constexpr static std::size_t addrs = 0x6798bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::*)()>(&::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::get_chunkSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67903e4;
+  constexpr static std::size_t addrs = 0x6797e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeScratchBufferPool*>(), { "get_chunkSize", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::set_chunkSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67903ec;
+  constexpr static std::size_t addrs = 0x6797e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::get_maxChunkCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67903f4;
+  constexpr static std::size_t addrs = 0x6797e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::set_maxChunkCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67903fc;
+  constexpr static std::size_t addrs = 0x6797e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::get_allocatedMemory)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6790404;
+  constexpr static std::size_t addrs = 0x6797e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::*)(
     ::UnityEngine::Rendering::ProbeVolumeBakingSet*, ::UnityEngine::Rendering::ProbeVolumeSHBands)>(&::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6790414;
+  constexpr static std::size_t addrs = 0x6797e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::*)(
     int32_t)>(&::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::GetOrCreateScratchBufferLayout)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x679057c;
+  constexpr static std::size_t addrs = 0x6797ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* (
     ::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::*)(int32_t, bool)>(&::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::CreateScratchBuffer)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x67907f0;
+  constexpr static std::size_t addrs = 0x679826c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeScratchBufferPool*>(),
@@ -322,7 +322,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     int32_t, ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer*>, ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout>, bool)>(
     &::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::AllocateScratchBuffer)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x6790874;
+  constexpr static std::size_t addrs = 0x67982f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::*)(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer*)>(
     &::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::ReleaseScratchBuffer)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6790ca8;
+  constexpr static std::size_t addrs = 0x6798724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::*)()>(&::UnityEngine::Rendering::ProbeVolumeScratchBufferPool::Cleanup)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6790e38;
+  constexpr static std::size_t addrs = 0x67988b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeScratchBufferPool*>(), { "Cleanup", {}, {} })));

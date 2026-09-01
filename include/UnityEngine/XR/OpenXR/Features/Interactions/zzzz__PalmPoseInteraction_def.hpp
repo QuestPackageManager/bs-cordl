@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/PalmPoseInteraction.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\PalmPoseInteraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,7 +114,7 @@ public:
 
   __declspec(property(get = get_trackingState, put = set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
-  /// @brief Method FinishSetup, addr 0x6a138f8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6a1b374, size 0x7c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose* New_ctor();
@@ -161,49 +161,49 @@ public:
 
   constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method .ctor, addr 0x6a13974, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a1b3f0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_devicePosition, addr 0x6a138b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePosition, addr 0x6a1b334, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
-  /// @brief Method get_deviceRotation, addr 0x6a138c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceRotation, addr 0x6a1b344, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
-  /// @brief Method get_isTracked, addr 0x6a13898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x6a1b314, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
-  /// @brief Method get_palmPose, addr 0x6a13888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_palmPose, addr 0x6a1b304, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_palmPose();
 
-  /// @brief Method get_palmPosition, addr 0x6a138d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_palmPosition, addr 0x6a1b354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_palmPosition();
 
-  /// @brief Method get_palmRotation, addr 0x6a138e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_palmRotation, addr 0x6a1b364, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_palmRotation();
 
-  /// @brief Method get_trackingState, addr 0x6a138a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x6a1b324, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
-  /// @brief Method set_devicePosition, addr 0x6a138c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePosition, addr 0x6a1b33c, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceRotation, addr 0x6a138d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceRotation, addr 0x6a1b34c, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_isTracked, addr 0x6a138a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x6a1b31c, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_palmPose, addr 0x6a13890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_palmPose, addr 0x6a1b30c, size 0x8, virtual false, abstract: false, final false
   inline void set_palmPose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
-  /// @brief Method set_palmPosition, addr 0x6a138e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_palmPosition, addr 0x6a1b35c, size 0x8, virtual false, abstract: false, final false
   inline void set_palmPosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_palmRotation, addr 0x6a138f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_palmRotation, addr 0x6a1b36c, size 0x8, virtual false, abstract: false, final false
   inline void set_palmRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_trackingState, addr 0x6a138b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x6a1b32c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
 protected:
@@ -221,7 +221,7 @@ public:
   PalmPoseInteraction_PalmPose(PalmPoseInteraction_PalmPose const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18593 };
 
   /// @brief Field <palmPose>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____palmPose_k__BackingField;
@@ -282,13 +282,13 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction___c* New_ctor();
 
-  /// @brief Method <AddAdditiveActions>b__15_0, addr 0x6a139ec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <AddAdditiveActions>b__15_0, addr 0x6a1b468, size 0xb8, virtual false, abstract: false, final false
   inline bool _AddAdditiveActions_b__15_0(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_DeviceConfig* d);
 
-  /// @brief Method <AddAdditiveActions>b__15_1, addr 0x6a13aa4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <AddAdditiveActions>b__15_1, addr 0x6a1b520, size 0x14, virtual false, abstract: false, final false
   inline bool _AddAdditiveActions_b__15_1(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionConfig* a);
 
-  /// @brief Method .ctor, addr 0x6a139e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a1b464, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction___c* getStaticF___9();
@@ -318,7 +318,7 @@ public:
   PalmPoseInteraction___c(PalmPoseInteraction___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -339,34 +339,34 @@ public:
 
   __declspec(property(get = get_IsAdditive)) bool IsAdditive;
 
-  /// @brief Method AddAdditiveActions, addr 0x6a13218, size 0x614, virtual true, abstract: false, final false
+  /// @brief Method AddAdditiveActions, addr 0x6a1ac94, size 0x614, virtual true, abstract: false, final false
   inline void AddAdditiveActions(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>* actionMaps,
                                  ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig* additiveMap);
 
-  /// @brief Method AddBindingBasedOnRuntimeAPIVersion, addr 0x6a13098, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method AddBindingBasedOnRuntimeAPIVersion, addr 0x6a1ab14, size 0x180, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding*>* AddBindingBasedOnRuntimeAPIVersion();
 
-  /// @brief Method GetDeviceLayoutName, addr 0x6a12ca8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDeviceLayoutName, addr 0x6a1a724, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetDeviceLayoutName();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x6a12a84, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x6a1a500, size 0x6c, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t instance);
 
-  /// @brief Method RegisterActionMapsWithRuntime, addr 0x6a12cec, size 0x3ac, virtual true, abstract: false, final false
+  /// @brief Method RegisterActionMapsWithRuntime, addr 0x6a1a768, size 0x3ac, virtual true, abstract: false, final false
   inline void RegisterActionMapsWithRuntime();
 
-  /// @brief Method RegisterDeviceLayout, addr 0x6a12af0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method RegisterDeviceLayout, addr 0x6a1a56c, size 0x148, virtual true, abstract: false, final false
   inline void RegisterDeviceLayout();
 
-  /// @brief Method UnregisterDeviceLayout, addr 0x6a12c38, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method UnregisterDeviceLayout, addr 0x6a1a6b4, size 0x70, virtual true, abstract: false, final false
   inline void UnregisterDeviceLayout();
 
-  /// @brief Method .ctor, addr 0x6a1382c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a1b2a8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsAdditive, addr 0x6a12a7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsAdditive, addr 0x6a1a4f8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsAdditive();
 
 protected:
@@ -384,7 +384,7 @@ public:
   PalmPoseInteraction(PalmPoseInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18562 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18595 };
 
   /// @brief Field extensionString offset 0xffffffff size 0x8
   static constexpr ::ConstString extensionString{ u"XR_EXT_palm_pose" };

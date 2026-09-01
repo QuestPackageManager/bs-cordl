@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cmp/CertificateConfirmationContentBuilder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cmp\CertificateConfirmationContentBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,11 +49,11 @@ public:
   /// @brief Field sigAlgFinder, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_sigAlgFinder, put = setStaticF_sigAlgFinder)) ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* sigAlgFinder;
 
-  /// @brief Method AddAcceptedCertificate, addr 0x369deec, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddAcceptedCertificate, addr 0x36a1cac, size 0x12c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* AddAcceptedCertificate(::Org::BouncyCastle::X509::X509Certificate* certHolder,
                                                                                                  ::Org::BouncyCastle::Math::BigInteger* certReqId);
 
-  /// @brief Method Build, addr 0x369e018, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x36a1dd8, size 0x474, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* Build();
 
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* New_ctor();
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
 
-  /// @brief Method .ctor, addr 0x369de1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a1bdc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x369de70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a1c30, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* getStaticF_sigAlgFinder();

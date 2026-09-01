@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/MultiplayerGameAvatarInstaller.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\MultiplayerGameAvatarInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__MultiplayerGameAvatarInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberConnectedPlayer_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x326c598;
+  constexpr static std::size_t addrs = 0x32701a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller::*)()>(&::BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x326c86c;
+  constexpr static std::size_t addrs = 0x3270478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::MultiplayerGameAvatarInstaller*>(), { ".ctor", {}, {} })));

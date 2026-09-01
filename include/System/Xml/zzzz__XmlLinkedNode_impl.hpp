@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlLinkedNode.hpp"
+// IWYU pragma private; include "System\Xml\XmlLinkedNode.hpp"
 #include "System/Xml/zzzz__XmlNode_impl.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlLinkedNode::*)(::System::Xml::XmlDocument*)>(&::System::Xml::XmlLinkedNode::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62b2c5c;
+  constexpr static std::size_t addrs = 0x62ba6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlLinkedNode::*)()>(&::System::Xml::XmlLinkedNode::get_PreviousSibling)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x62baf60;
+  constexpr static std::size_t addrs = 0x62c29dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlLinkedNode*>(), { ::i2c::class_of<::System::Xml::XmlLinkedNode*>(), 13 }));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlLinkedNode::*)()>(&::System::Xml::XmlLinkedNode::get_NextSibling)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x62bafc8;
+  constexpr static std::size_t addrs = 0x62c2a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlLinkedNode*>(), { ::i2c::class_of<::System::Xml::XmlLinkedNode*>(), 14 }));

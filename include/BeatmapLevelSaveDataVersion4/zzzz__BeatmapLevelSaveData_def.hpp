@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapLevelSaveDataVersion4/BeatmapLevelSaveData.hpp"
+// IWYU pragma private; include "BeatmapLevelSaveDataVersion4\BeatmapLevelSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +76,7 @@ public:
   constexpr BeatmapLevelSaveData_SongData(::StringW title, ::StringW subTitle, ::StringW author) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15414 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -121,7 +121,7 @@ public:
                                            float_t previewDuration) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15415 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -266,7 +266,7 @@ public:
 
   constexpr void __cordl_internal_set_saberBColor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x375a490, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37600fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -284,7 +284,7 @@ public:
   BeatmapLevelSaveData_ColorScheme(BeatmapLevelSaveData_ColorScheme const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15416 };
 
   /// @brief Field colorSchemeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___colorSchemeName;
@@ -357,7 +357,7 @@ public:
   constexpr BeatmapLevelSaveData_BeatmapAuthors(::ArrayW<::StringW> mappers, ::ArrayW<::StringW> lighters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15417 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -468,7 +468,7 @@ public:
 
   constexpr void __cordl_internal_set_noteJumpStartBeatOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x375a494, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3760100, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -486,7 +486,7 @@ public:
   BeatmapLevelSaveData_DifficultyBeatmap(BeatmapLevelSaveData_DifficultyBeatmap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15418 };
 
   /// @brief Field characteristic, offset: 0x10, size: 0x8, def value: None
   ::StringW ___characteristic;
@@ -635,7 +635,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x375a3b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376001c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Version* getStaticF_kCustomColorOverridesVersion();
@@ -657,7 +657,7 @@ public:
   BeatmapLevelSaveData(BeatmapLevelSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15419 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"4.0.1" };

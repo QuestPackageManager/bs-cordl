@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/DHParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\DHParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,16 +70,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method Equals, addr 0x340a314, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x340e0d4, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x340a3c8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x340e188, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHParameters* other);
 
-  /// @brief Method GetDefaultMParam, addr 0x3409d5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultMParam, addr 0x340db1c, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetDefaultMParam(int32_t lParam);
 
-  /// @brief Method GetHashCode, addr 0x340a464, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x340e224, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
@@ -143,45 +143,45 @@ public:
 
   constexpr void __cordl_internal_set_validation(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* value);
 
-  /// @brief Method .ctor, addr 0x3409dc8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340db88, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor, addr 0x3409ea8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340dc68, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* q);
 
-  /// @brief Method .ctor, addr 0x340a2b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340e074, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* j,
                     ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation);
 
-  /// @brief Method .ctor, addr 0x3409e44, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340dc04, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* q, int32_t l);
 
-  /// @brief Method .ctor, addr 0x340a294, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340e054, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* q, int32_t m, int32_t l);
 
-  /// @brief Method .ctor, addr 0x3409f30, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340dcf0, size 0x364, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* q, int32_t m, int32_t l,
                     ::Org::BouncyCastle::Math::BigInteger* j, ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation);
 
-  /// @brief Method get_G, addr 0x340a2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x340e0a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_J, addr 0x340a2f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_J, addr 0x340e0b4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_J();
 
-  /// @brief Method get_L, addr 0x340a304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_L, addr 0x340e0c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_L();
 
-  /// @brief Method get_M, addr 0x340a2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_M, addr 0x340e0bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_M();
 
-  /// @brief Method get_P, addr 0x340a2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x340e09c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x340a2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x340e0ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_ValidationParameters, addr 0x340a30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationParameters, addr 0x340e0cc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* get_ValidationParameters();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

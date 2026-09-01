@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/SymmetricEncDataPacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\SymmetricEncDataPacket.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__InputStreamPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SymmetricEncDataPacket_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::SymmetricEncDataPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::SymmetricEncDataPacket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3697998;
+  constexpr static std::size_t addrs = 0x369b758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnumTableViewDataSource_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnumTableViewDataSource_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,7 +111,7 @@ public:
   EnumTableViewDataSource_1(EnumTableViewDataSource_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6679 };
 
   /// @brief Field kCellReuseIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellReuseIdentifier{ u"Cell" };

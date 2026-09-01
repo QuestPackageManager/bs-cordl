@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatFxGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatFxGroup.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroup_def.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FloatFxGroup::*)()>(&::GlobalNamespace::FloatFxGroup::get_isTriggerOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x598b368;
+  constexpr static std::size_t addrs = 0x5995328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxGroup*>(), { "get_isTriggerOnly", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>* (::GlobalNamespace::FloatFxGroup::*)()>(
     &::GlobalNamespace::FloatFxGroup::get_targets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x598b370;
+  constexpr static std::size_t addrs = 0x5995330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxGroup*>(), { "get_targets", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxGroup::*)()>(&::GlobalNamespace::FloatFxGroup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x598b378;
+  constexpr static std::size_t addrs = 0x5995338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxGroup*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FadeInOutController.hpp"
+// IWYU pragma private; include "GlobalNamespace\FadeInOutController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__19::*)(int32_t)>(&::GlobalNamespace::FadeInOutController__Fade_d__19::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5857ac4;
+  constexpr static std::size_t addrs = 0x5856bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
     &::GlobalNamespace::FadeInOutController__Fade_d__19::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5857ae4;
+  constexpr static std::size_t addrs = 0x5856bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(&::GlobalNamespace::FadeInOutController__Fade_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5857ae8;
+  constexpr static std::size_t addrs = 0x5856bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController__Fade_d__19*>(), { "MoveNext", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
     &::GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5857ca0;
+  constexpr static std::size_t addrs = 0x5856da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
     &::GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5857ca8;
+  constexpr static std::size_t addrs = 0x5856db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FadeInOutController__Fade_d__19::*)()>(
     &::GlobalNamespace::FadeInOutController__Fade_d__19::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5857ce0;
+  constexpr static std::size_t addrs = 0x5856de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::get_inTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5857824;
+  constexpr static std::size_t addrs = 0x585692c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "get_inTransition", {}, {} })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(bool)>(&::GlobalNamespace::FadeInOutController::set_inTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585782c;
+  constexpr static std::size_t addrs = 0x5856934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::FadeOutInstant)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5857834;
+  constexpr static std::size_t addrs = 0x585693c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "FadeOutInstant", {}, {} })));
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x585791c;
+  constexpr static std::size_t addrs = 0x5856a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "FadeIn", {}, {} })));
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5857a00;
+  constexpr static std::size_t addrs = 0x5856b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { "FadeOut", {}, {} })));
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t)>(&::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5857a0c;
+  constexpr static std::size_t addrs = 0x5856b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t)>(&::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5857a14;
+  constexpr static std::size_t addrs = 0x5856b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(::System::Action*)>(&::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5857a1c;
+  constexpr static std::size_t addrs = 0x5856b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(::System::Action*)>(&::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5857a24;
+  constexpr static std::size_t addrs = 0x5856b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t, ::System::Action*)>(&::GlobalNamespace::FadeInOutController::FadeIn)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5857928;
+  constexpr static std::size_t addrs = 0x5856a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)(float_t, ::System::Action*)>(&::GlobalNamespace::FadeInOutController::FadeOut)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5857840;
+  constexpr static std::size_t addrs = 0x5856948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::FadeInOutController::*)(float_t, float_t, float_t, float_t, ::UnityEngine::AnimationCurve*, ::System::Action*)>(&::GlobalNamespace::FadeInOutController::Fade)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5857a2c;
+  constexpr static std::size_t addrs = 0x5856b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOutController::*)()>(&::GlobalNamespace::FadeInOutController::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5857acc;
+  constexpr static std::size_t addrs = 0x5856bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOutController*>(), { ".ctor", {}, {} })));

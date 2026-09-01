@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Mathematics/Random.hpp"
+// IWYU pragma private; include "Unity\Mathematics\Random.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,208 +69,208 @@ namespace Unity::Mathematics {
 struct CORDL_TYPE Random {
 public:
   // Declarations
-  /// @brief Method CheckIndexForHash, addr 0x667c048, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckIndexForHash, addr 0x6683ac4, size 0x58, virtual false, abstract: false, final false
   static inline void CheckIndexForHash(uint32_t index);
 
-  /// @brief Method CheckInitState, addr 0x667c044, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckInitState, addr 0x6683ac0, size 0x4, virtual false, abstract: false, final false
   inline void CheckInitState();
 
-  /// @brief Method CheckNextIntMax, addr 0x667c0a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckNextIntMax, addr 0x6683b20, size 0x4, virtual false, abstract: false, final false
   inline void CheckNextIntMax(int32_t max);
 
-  /// @brief Method CheckNextIntMinMax, addr 0x667c0a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckNextIntMinMax, addr 0x6683b24, size 0x4, virtual false, abstract: false, final false
   inline void CheckNextIntMinMax(int32_t min, int32_t max);
 
-  /// @brief Method CheckNextUIntMinMax, addr 0x667c0ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckNextUIntMinMax, addr 0x6683b28, size 0x4, virtual false, abstract: false, final false
   inline void CheckNextUIntMinMax(uint32_t min, uint32_t max);
 
-  /// @brief Method CheckState, addr 0x667c0a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckState, addr 0x6683b1c, size 0x4, virtual false, abstract: false, final false
   inline void CheckState();
 
-  /// @brief Method CreateFromIndex, addr 0x667a69c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CreateFromIndex, addr 0x6682118, size 0x38, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Random CreateFromIndex(uint32_t index);
 
-  /// @brief Method InitState, addr 0x667a6fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InitState, addr 0x6682178, size 0x14, virtual false, abstract: false, final false
   inline void InitState(uint32_t seed);
 
-  /// @brief Method NextBool, addr 0x667a710, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method NextBool, addr 0x668218c, size 0x20, virtual false, abstract: false, final false
   inline bool NextBool();
 
-  /// @brief Method NextBool2, addr 0x667a730, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method NextBool2, addr 0x66821ac, size 0x30, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool2 NextBool2();
 
-  /// @brief Method NextBool3, addr 0x667a760, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NextBool3, addr 0x66821dc, size 0x48, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool3 NextBool3();
 
-  /// @brief Method NextBool4, addr 0x667a7a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NextBool4, addr 0x6682224, size 0x3c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 NextBool4();
 
-  /// @brief Method NextDouble, addr 0x667b3d0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method NextDouble, addr 0x6682e4c, size 0x38, virtual false, abstract: false, final false
   inline double_t NextDouble();
 
-  /// @brief Method NextDouble, addr 0x667b5a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NextDouble, addr 0x668301c, size 0x3c, virtual false, abstract: false, final false
   inline double_t NextDouble(double_t max);
 
-  /// @brief Method NextDouble, addr 0x667b798, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method NextDouble, addr 0x6683214, size 0x44, virtual false, abstract: false, final false
   inline double_t NextDouble(double_t min, double_t max);
 
-  /// @brief Method NextDouble2, addr 0x667b408, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method NextDouble2, addr 0x6682e84, size 0x60, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double2 NextDouble2();
 
-  /// @brief Method NextDouble2, addr 0x667b5dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method NextDouble2, addr 0x6683058, size 0x68, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double2 NextDouble2(::Unity::Mathematics::double2 max);
 
-  /// @brief Method NextDouble2, addr 0x667b7dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method NextDouble2, addr 0x6683258, size 0x78, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double2 NextDouble2(::Unity::Mathematics::double2 min, ::Unity::Mathematics::double2 max);
 
-  /// @brief Method NextDouble2Direction, addr 0x667bad0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method NextDouble2Direction, addr 0x668354c, size 0xec, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double2 NextDouble2Direction();
 
-  /// @brief Method NextDouble3, addr 0x667b468, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NextDouble3, addr 0x6682ee4, size 0x88, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double3 NextDouble3();
 
-  /// @brief Method NextDouble3, addr 0x667b644, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method NextDouble3, addr 0x66830c0, size 0x94, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double3 NextDouble3(::Unity::Mathematics::double3 max);
 
-  /// @brief Method NextDouble3, addr 0x667b854, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method NextDouble3, addr 0x66832d0, size 0xac, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double3 NextDouble3(::Unity::Mathematics::double3 min, ::Unity::Mathematics::double3 max);
 
-  /// @brief Method NextDouble3Direction, addr 0x667bd2c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method NextDouble3Direction, addr 0x66837a8, size 0x188, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double3 NextDouble3Direction();
 
-  /// @brief Method NextDouble4, addr 0x667b4f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method NextDouble4, addr 0x6682f6c, size 0xb0, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double4 NextDouble4();
 
-  /// @brief Method NextDouble4, addr 0x667b6d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method NextDouble4, addr 0x6683154, size 0xc0, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double4 NextDouble4(::Unity::Mathematics::double4 max);
 
-  /// @brief Method NextDouble4, addr 0x667b900, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method NextDouble4, addr 0x668337c, size 0xe0, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::double4 NextDouble4(::Unity::Mathematics::double4 min, ::Unity::Mathematics::double4 max);
 
-  /// @brief Method NextFloat, addr 0x667af28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method NextFloat, addr 0x66829a4, size 0x2c, virtual false, abstract: false, final false
   inline float_t NextFloat();
 
-  /// @brief Method NextFloat, addr 0x667b080, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method NextFloat, addr 0x6682afc, size 0x30, virtual false, abstract: false, final false
   inline float_t NextFloat(float_t max);
 
-  /// @brief Method NextFloat, addr 0x667b200, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method NextFloat, addr 0x6682c7c, size 0x38, virtual false, abstract: false, final false
   inline float_t NextFloat(float_t min, float_t max);
 
-  /// @brief Method NextFloat2, addr 0x667af54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NextFloat2, addr 0x66829d0, size 0x48, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 NextFloat2();
 
-  /// @brief Method NextFloat2, addr 0x667b0b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method NextFloat2, addr 0x6682b2c, size 0x50, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 NextFloat2(::Unity::Mathematics::float2 max);
 
-  /// @brief Method NextFloat2, addr 0x667b238, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method NextFloat2, addr 0x6682cb4, size 0x60, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 NextFloat2(::Unity::Mathematics::float2 min, ::Unity::Mathematics::float2 max);
 
-  /// @brief Method NextFloat2Direction, addr 0x667b9e0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method NextFloat2Direction, addr 0x668345c, size 0xf0, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float2 NextFloat2Direction();
 
-  /// @brief Method NextFloat3, addr 0x667af9c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NextFloat3, addr 0x6682a18, size 0x64, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 NextFloat3();
 
-  /// @brief Method NextFloat3, addr 0x667b100, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method NextFloat3, addr 0x6682b7c, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 NextFloat3(::Unity::Mathematics::float3 max);
 
-  /// @brief Method NextFloat3, addr 0x667b298, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NextFloat3, addr 0x6682d14, size 0x88, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 NextFloat3(::Unity::Mathematics::float3 min, ::Unity::Mathematics::float3 max);
 
-  /// @brief Method NextFloat3Direction, addr 0x667bbbc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method NextFloat3Direction, addr 0x6683638, size 0x170, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float3 NextFloat3Direction();
 
-  /// @brief Method NextFloat4, addr 0x667b000, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method NextFloat4, addr 0x6682a7c, size 0x80, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 NextFloat4();
 
-  /// @brief Method NextFloat4, addr 0x667b170, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method NextFloat4, addr 0x6682bec, size 0x90, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 NextFloat4(::Unity::Mathematics::float4 max);
 
-  /// @brief Method NextFloat4, addr 0x667b320, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method NextFloat4, addr 0x6682d9c, size 0xb0, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::float4 NextFloat4(::Unity::Mathematics::float4 min, ::Unity::Mathematics::float4 max);
 
-  /// @brief Method NextInt, addr 0x667a7e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method NextInt, addr 0x6682260, size 0x20, virtual false, abstract: false, final false
   inline int32_t NextInt();
 
-  /// @brief Method NextInt, addr 0x667a8d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method NextInt, addr 0x6682350, size 0x28, virtual false, abstract: false, final false
   inline int32_t NextInt(int32_t max);
 
-  /// @brief Method NextInt, addr 0x667a9f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method NextInt, addr 0x6682470, size 0x2c, virtual false, abstract: false, final false
   inline int32_t NextInt(int32_t min, int32_t max);
 
-  /// @brief Method NextInt2, addr 0x667a804, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NextInt2, addr 0x6682280, size 0x34, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::int2 NextInt2();
 
-  /// @brief Method NextInt2, addr 0x667a8fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NextInt2, addr 0x6682378, size 0x3c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::int2 NextInt2(::Unity::Mathematics::int2 max);
 
-  /// @brief Method NextInt2, addr 0x667aa20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method NextInt2, addr 0x668249c, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::int2 NextInt2(::Unity::Mathematics::int2 min, ::Unity::Mathematics::int2 max);
 
-  /// @brief Method NextInt3, addr 0x667a838, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method NextInt3, addr 0x66822b4, size 0x44, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::int3 NextInt3();
 
-  /// @brief Method NextInt3, addr 0x667a938, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method NextInt3, addr 0x66823b4, size 0x54, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::int3 NextInt3(::Unity::Mathematics::int3 max);
 
-  /// @brief Method NextInt3, addr 0x667aa78, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NextInt3, addr 0x66824f4, size 0x74, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::int3 NextInt3(::Unity::Mathematics::int3 min, ::Unity::Mathematics::int3 max);
 
-  /// @brief Method NextInt4, addr 0x667a87c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method NextInt4, addr 0x66822f8, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::int4 NextInt4();
 
-  /// @brief Method NextInt4, addr 0x667a98c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method NextInt4, addr 0x6682408, size 0x68, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::int4 NextInt4(::Unity::Mathematics::int4 max);
 
-  /// @brief Method NextInt4, addr 0x667aaec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method NextInt4, addr 0x6682568, size 0xa0, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::int4 NextInt4(::Unity::Mathematics::int4 min, ::Unity::Mathematics::int4 max);
 
-  /// @brief Method NextQuaternionRotation, addr 0x667beb4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method NextQuaternionRotation, addr 0x6683930, size 0x174, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::quaternion NextQuaternionRotation();
 
-  /// @brief Method NextState, addr 0x667c028, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NextState, addr 0x6683aa4, size 0x1c, virtual false, abstract: false, final false
   inline uint32_t NextState();
 
-  /// @brief Method NextUInt, addr 0x667ab8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method NextUInt, addr 0x6682608, size 0x20, virtual false, abstract: false, final false
   inline uint32_t NextUInt();
 
-  /// @brief Method NextUInt, addr 0x667ac7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method NextUInt, addr 0x66826f8, size 0x24, virtual false, abstract: false, final false
   inline uint32_t NextUInt(uint32_t max);
 
-  /// @brief Method NextUInt, addr 0x667ad90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method NextUInt, addr 0x668280c, size 0x2c, virtual false, abstract: false, final false
   inline uint32_t NextUInt(uint32_t min, uint32_t max);
 
-  /// @brief Method NextUInt2, addr 0x667abac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NextUInt2, addr 0x6682628, size 0x34, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint2 NextUInt2();
 
-  /// @brief Method NextUInt2, addr 0x667aca0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NextUInt2, addr 0x668271c, size 0x3c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint2 NextUInt2(::Unity::Mathematics::uint2 max);
 
-  /// @brief Method NextUInt2, addr 0x667adbc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method NextUInt2, addr 0x6682838, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint2 NextUInt2(::Unity::Mathematics::uint2 min, ::Unity::Mathematics::uint2 max);
 
-  /// @brief Method NextUInt3, addr 0x667abe0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method NextUInt3, addr 0x668265c, size 0x44, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint3 NextUInt3();
 
-  /// @brief Method NextUInt3, addr 0x667acdc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method NextUInt3, addr 0x6682758, size 0x50, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint3 NextUInt3(::Unity::Mathematics::uint3 max);
 
-  /// @brief Method NextUInt3, addr 0x667ae14, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NextUInt3, addr 0x6682890, size 0x74, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint3 NextUInt3(::Unity::Mathematics::uint3 min, ::Unity::Mathematics::uint3 max);
 
-  /// @brief Method NextUInt4, addr 0x667ac24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method NextUInt4, addr 0x66826a0, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint4 NextUInt4();
 
-  /// @brief Method NextUInt4, addr 0x667ad2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NextUInt4, addr 0x66827a8, size 0x64, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint4 NextUInt4(::Unity::Mathematics::uint4 max);
 
-  /// @brief Method NextUInt4, addr 0x667ae88, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method NextUInt4, addr 0x6682904, size 0xa0, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::uint4 NextUInt4(::Unity::Mathematics::uint4 min, ::Unity::Mathematics::uint4 max);
 
-  /// @brief Method WangHash, addr 0x667a6d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method WangHash, addr 0x6682150, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t WangHash(uint32_t n);
 
-  /// @brief Method .ctor, addr 0x667a688, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6682104, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint32_t seed);
 
   // Ctor Parameters []
@@ -281,7 +281,7 @@ public:
   constexpr Random(uint32_t state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13199 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

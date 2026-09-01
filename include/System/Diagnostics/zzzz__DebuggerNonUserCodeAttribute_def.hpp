@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/DebuggerNonUserCodeAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\DebuggerNonUserCodeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Diagnostics::DebuggerNonUserCodeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5bdc5fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be0ab8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

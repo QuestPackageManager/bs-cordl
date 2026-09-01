@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MaterialUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MaterialUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__MaterialUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Renderer*)>(&::UnityEngine::ProBuilder::MaterialUtility::GetMaterialCount)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x66bc91c;
+  constexpr static std::size_t addrs = 0x66c4398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Renderer*, int32_t)>(&::UnityEngine::ProBuilder::MaterialUtility::GetSharedMaterial)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x66bca00;
+  constexpr static std::size_t addrs = 0x66c447c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MaterialUtility*>(),

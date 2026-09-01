@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatSO.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatSO._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatSO::*)()>(&::GlobalNamespace::FloatSO::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x33241e0;
+  constexpr static std::size_t addrs = 0x3327fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatSO*>(), { ".ctor", {}, {} })));

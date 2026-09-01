@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XsdSimpleValue.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XsdSimpleValue.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__XsdSimpleValue_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XsdSimpleValue::*)(::System::Xml::Schema::XmlSchemaSimpleType*, ::System::Object*)>(
     &::System::Xml::Schema::XsdSimpleValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b49e4;
+  constexpr static std::size_t addrs = 0x61bc460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (::System::Xml::Schema::XsdSimpleValue::*)()>(&::System::Xml::Schema::XsdSimpleValue::get_XmlType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b49ec;
+  constexpr static std::size_t addrs = 0x61bc468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XsdSimpleValue*>(), { "get_XmlType", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XsdSimpleValue::*)()>(&::System::Xml::Schema::XsdSimpleValue::get_TypedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b49f4;
+  constexpr static std::size_t addrs = 0x61bc470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XsdSimpleValue*>(), { "get_TypedValue", {}, {} })));

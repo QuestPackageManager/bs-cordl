@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingDebugShaderVariables.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingDebugShaderVariables.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
   constexpr OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17789 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -81,7 +81,7 @@ public:
                                                  uint32_t _OccluderMipLayoutSizeY, uint32_t _OcclusionCullingDebugPad0, uint32_t _OcclusionCullingDebugPad1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17790 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };

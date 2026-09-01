@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/EventSystems/PointerEventDataExtension.hpp"
+// IWYU pragma private; include "UnityEngine\EventSystems\PointerEventDataExtension.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventDataExtension_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::EventSystems::PointerEventDataExtension::IsVRPointer)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e4ae68;
+  constexpr static std::size_t addrs = 0x5e4f324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::PointerEventDataExtension*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ray (*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::EventSystems::PointerEventDataExtension::GetRay)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5e4aee4;
+  constexpr static std::size_t addrs = 0x5e4f3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::PointerEventDataExtension*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::PointerEventDataExtension::GetSwipeStart)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e4af78;
+  constexpr static std::size_t addrs = 0x5e4f434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::PointerEventDataExtension*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::Vector2)>(
     &::UnityEngine::EventSystems::PointerEventDataExtension::SetSwipeStart)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e4aff8;
+  constexpr static std::size_t addrs = 0x5e4f4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/RIPEMD160Managed.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\RIPEMD160Managed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,42 +33,42 @@ public:
   /// @brief Field _stateMD160, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__stateMD160, put = __cordl_internal_set__stateMD160)) ::ArrayW<uint32_t> _stateMD160;
 
-  /// @brief Method F, addr 0x5afdca0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method F, addr 0x5b0215c, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t F(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method G, addr 0x5afdcac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method G, addr 0x5b02168, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t G(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method H, addr 0x5afdcbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method H, addr 0x5b02178, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t H(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method HashCore, addr 0x5afc31c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x5b007d8, size 0x4, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x5afc494, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x5b00950, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> HashFinal();
 
-  /// @brief Method I, addr 0x5afdcc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method I, addr 0x5b02184, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t I(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method Initialize, addr 0x5afc2d8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5b00794, size 0x44, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeState, addr 0x5afc254, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitializeState, addr 0x5b00710, size 0x84, virtual false, abstract: false, final false
   inline void InitializeState();
 
-  /// @brief Method J, addr 0x5afdcd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method J, addr 0x5b02194, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t J(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method MDTransform, addr 0x5afc620, size 0x1680, virtual false, abstract: false, final false
+  /// @brief Method MDTransform, addr 0x5b00adc, size 0x1680, virtual false, abstract: false, final false
   static inline void MDTransform(uint32_t* blockDWords, uint32_t* state, uint8_t* block);
 
   static inline ::System::Security::Cryptography::RIPEMD160Managed* New_ctor();
 
-  /// @brief Method _EndHash, addr 0x5afc498, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method _EndHash, addr 0x5b00954, size 0x188, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> _EndHash();
 
-  /// @brief Method _HashData, addr 0x5afc320, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method _HashData, addr 0x5b007dc, size 0x174, virtual false, abstract: false, final false
   inline void _HashData(::ArrayW<uint8_t> partIn, int32_t ibStart, int32_t cbSize);
 
   constexpr ::ArrayW<uint32_t> const& __cordl_internal_get__blockDWords() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__stateMD160(::ArrayW<uint32_t> value);
 
-  /// @brief Method .ctor, addr 0x5af77a0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afbc5c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/ProcessWaitHandle.hpp"
+// IWYU pragma private; include "System\Diagnostics\ProcessWaitHandle.hpp"
 #include "System/Threading/zzzz__WaitHandle_impl.hpp"
 #include "System/Diagnostics/zzzz__ProcessWaitHandle_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeProcessHandle_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::ProcessWaitHandle::*)(::Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(
     &::System::Diagnostics::ProcessWaitHandle::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6394a04;
+  constexpr static std::size_t addrs = 0x639c480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

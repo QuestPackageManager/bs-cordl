@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RendererListResource.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RendererListResource.hpp"
 #include "UnityEngine/Rendering/zzzz__RendererListParams_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RendererList_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListResource_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListResource::*)(::by_ref<::UnityEngine::Rendering::RendererListParams>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListResource::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67e00c4;
+  constexpr static std::size_t addrs = 0x67e7b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RendererListResource>(),

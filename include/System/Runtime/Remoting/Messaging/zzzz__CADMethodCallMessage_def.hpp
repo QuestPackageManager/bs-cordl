@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CADMethodCallMessage.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Messaging\CADMethodCallMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ public:
   /// @brief Field _uri, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri)) ::StringW _uri;
 
-  /// @brief Method Create, addr 0x5b380a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b3c560, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
 
-  /// @brief Method GetArgs, addr 0x5b3e350, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetArgs, addr 0x5b4280c, size 0x10, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetArgs(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetArguments, addr 0x5b3e208, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x5b426c4, size 0x148, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetArguments();
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b3e018, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b424d4, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
 
-  /// @brief Method get_PropertiesCount, addr 0x5b3e360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertiesCount, addr 0x5b4281c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PropertiesCount();
 
-  /// @brief Method get_Uri, addr 0x5b3e010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Uri, addr 0x5b424cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Uri();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/MarkToMarkAdjustmentRecord.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\MarkToMarkAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,28 +36,28 @@ public:
 
   __declspec(property(get = get_combiningMarkPositionAdjustment, put = set_combiningMarkPositionAdjustment)) ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment combiningMarkPositionAdjustment;
 
-  /// @brief Method get_baseMarkGlyphAnchorPoint, addr 0x6bb90ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseMarkGlyphAnchorPoint, addr 0x6bc0c30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint get_baseMarkGlyphAnchorPoint();
 
-  /// @brief Method get_baseMarkGlyphID, addr 0x6bb909c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseMarkGlyphID, addr 0x6bc0c20, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_baseMarkGlyphID();
 
-  /// @brief Method get_combiningMarkGlyphID, addr 0x6bb90bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_combiningMarkGlyphID, addr 0x6bc0c40, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_combiningMarkGlyphID();
 
-  /// @brief Method get_combiningMarkPositionAdjustment, addr 0x6bb90cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_combiningMarkPositionAdjustment, addr 0x6bc0c50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment get_combiningMarkPositionAdjustment();
 
-  /// @brief Method set_baseMarkGlyphAnchorPoint, addr 0x6bb90b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseMarkGlyphAnchorPoint, addr 0x6bc0c38, size 0x8, virtual false, abstract: false, final false
   inline void set_baseMarkGlyphAnchorPoint(::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint value);
 
-  /// @brief Method set_baseMarkGlyphID, addr 0x6bb90a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseMarkGlyphID, addr 0x6bc0c28, size 0x8, virtual false, abstract: false, final false
   inline void set_baseMarkGlyphID(uint32_t value);
 
-  /// @brief Method set_combiningMarkGlyphID, addr 0x6bb90c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_combiningMarkGlyphID, addr 0x6bc0c48, size 0x8, virtual false, abstract: false, final false
   inline void set_combiningMarkGlyphID(uint32_t value);
 
-  /// @brief Method set_combiningMarkPositionAdjustment, addr 0x6bb90d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_combiningMarkPositionAdjustment, addr 0x6bc0c58, size 0x8, virtual false, abstract: false, final false
   inline void set_combiningMarkPositionAdjustment(::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment value);
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
                                        ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment m_CombiningMarkPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21874 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

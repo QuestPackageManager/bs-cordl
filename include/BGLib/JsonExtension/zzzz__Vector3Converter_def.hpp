@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/JsonExtension/Vector3Converter.hpp"
+// IWYU pragma private; include "BGLib\JsonExtension\Vector3Converter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,14 +37,14 @@ public:
   // Declarations
   static inline ::BGLib::JsonExtension::Vector3Converter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x3312c90, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3316a8c, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::UnityEngine::Vector3 existingValue, bool hasExistingValue,
                                          ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x3312d4c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3316b48, size 0x14c, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::UnityEngine::Vector3 value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3312e98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3316c94, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   Vector3Converter(Vector3Converter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

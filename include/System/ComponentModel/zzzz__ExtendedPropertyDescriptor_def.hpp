@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/ExtendedPropertyDescriptor.hpp"
+// IWYU pragma private; include "System\ComponentModel\ExtendedPropertyDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,22 +50,22 @@ public:
   /// @brief Field _provider, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__provider, put = __cordl_internal_set__provider)) ::System::ComponentModel::IExtenderProvider* _provider;
 
-  /// @brief Method CanResetValue, addr 0x63ba210, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x63c1c8c, size 0x24, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* comp);
 
-  /// @brief Method GetValue, addr 0x63ba55c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x63c1fd8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* comp);
 
   static inline ::System::ComponentModel::ExtendedPropertyDescriptor* New_ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo, ::System::Type* receiverType,
                                                                                ::System::ComponentModel::IExtenderProvider* provider, ::ArrayW<::System::Attribute*> attributes);
 
-  /// @brief Method ResetValue, addr 0x63ba580, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x63c1ffc, size 0x24, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* comp);
 
-  /// @brief Method SetValue, addr 0x63ba5a4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x63c2020, size 0x2c, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x63ba5d0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x63c204c, size 0x24, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* comp);
 
   constexpr ::System::ComponentModel::ReflectPropertyDescriptor* const& __cordl_internal_get__extenderInfo() const;
@@ -80,20 +80,20 @@ public:
 
   constexpr void __cordl_internal_set__provider(::System::ComponentModel::IExtenderProvider* value);
 
-  /// @brief Method .ctor, addr 0x63b9f30, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c19ac, size 0x26c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo, ::System::Type* receiverType, ::System::ComponentModel::IExtenderProvider* provider,
                     ::ArrayW<::System::Attribute*> attributes);
 
-  /// @brief Method get_ComponentType, addr 0x63ba234, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x63c1cb0, size 0x20, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_DisplayName, addr 0x63ba35c, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x63c1dd8, size 0x200, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_IsReadOnly, addr 0x63ba254, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x63c1cd0, size 0xe8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x63ba33c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x63c1db8, size 0x20, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:
@@ -111,7 +111,7 @@ public:
   ExtendedPropertyDescriptor(ExtendedPropertyDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11266 };
 
   /// @brief Field _extenderInfo, offset: 0x88, size: 0x8, def value: None
   ::System::ComponentModel::ReflectPropertyDescriptor* ____extenderInfo;

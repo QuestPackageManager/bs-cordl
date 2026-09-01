@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/MatchInfo.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\MatchInfo.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__MatchInfo_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Shared::MatchInfo._ctor
 template <>
@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::MatchInfo::*)(::StringW, ::StringW, ::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::MatchInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a700dc;
+  constexpr static std::size_t addrs = 0x5a74598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

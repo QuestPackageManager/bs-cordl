@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EventBase.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EventBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -326,47 +326,47 @@ public:
   /// @brief Method Acquire, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Acquire();
 
-  /// @brief Method Dispatch, addr 0x6d908bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6d98440, size 0x4, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   /// @brief Method Dispose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Init, addr 0x6d90d58, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d988dc, size 0x4, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d90d5c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6d988e0, size 0xf4, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method MarkReceivedByDispatcher, addr 0x6d8d448, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MarkReceivedByDispatcher, addr 0x6d94fcc, size 0x90, virtual false, abstract: false, final false
   inline void MarkReceivedByDispatcher();
 
   static inline ::UnityEngine::UIElements::EventBase* New_ctor();
 
   static inline ::UnityEngine::UIElements::EventBase* New_ctor(::UnityEngine::UIElements::EventCategory category);
 
-  /// @brief Method PostDispatch, addr 0x6d90870, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6d983f4, size 0x4, virtual true, abstract: false, final false
   inline void PostDispatch();
 
-  /// @brief Method PostDispatch, addr 0x6d90874, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6d983f8, size 0x28, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method PreDispatch, addr 0x6d9086c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6d983f0, size 0x4, virtual true, abstract: false, final false
   inline void PreDispatch();
 
-  /// @brief Method PreDispatch, addr 0x6d8e2dc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6d95e60, size 0xc, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method RegisterEventType, addr 0x6d907b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventType, addr 0x6d9833c, size 0x54, virtual false, abstract: false, final false
   static inline int64_t RegisterEventType();
 
-  /// @brief Method SetTriggerEventId, addr 0x6d90844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTriggerEventId, addr 0x6d983c8, size 0x8, virtual false, abstract: false, final false
   inline void SetTriggerEventId(uint64_t id);
 
-  /// @brief Method StopImmediatePropagation, addr 0x6d90a68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method StopImmediatePropagation, addr 0x6d985ec, size 0x10, virtual false, abstract: false, final false
   inline void StopImmediatePropagation();
 
-  /// @brief Method StopPropagation, addr 0x6d90a2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method StopPropagation, addr 0x6d985b0, size 0x10, virtual false, abstract: false, final false
   inline void StopPropagation();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__elementTarget_k__BackingField() const;
@@ -435,86 +435,86 @@ public:
 
   constexpr void __cordl_internal_set_m_ImguiEvent(::UnityEngine::Event* value);
 
-  /// @brief Method .ctor, addr 0x6d90e70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d989f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d90e80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d98a04, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventCategory category);
 
   static inline int64_t getStaticF_s_LastTypeId();
 
   static inline uint64_t getStaticF_s_NextEventId();
 
-  /// @brief Method get_bubbles, addr 0x6d908f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_bubbles, addr 0x6d98478, size 0xc, virtual false, abstract: false, final false
   inline bool get_bubbles();
 
-  /// @brief Method get_bubblesOrTricklesDown, addr 0x6d90968, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_bubblesOrTricklesDown, addr 0x6d984ec, size 0x10, virtual false, abstract: false, final false
   inline bool get_bubblesOrTricklesDown();
 
-  /// @brief Method get_currentTarget, addr 0x6d90a80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_currentTarget, addr 0x6d98604, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* get_currentTarget();
 
-  /// @brief Method get_dispatch, addr 0x6d90b80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dispatch, addr 0x6d98704, size 0xc, virtual false, abstract: false, final false
   inline bool get_dispatch();
 
-  /// @brief Method get_dispatched, addr 0x6d90bcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dispatched, addr 0x6d98750, size 0xc, virtual false, abstract: false, final false
   inline bool get_dispatched();
 
-  /// @brief Method get_elementTarget, addr 0x6d90978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elementTarget, addr 0x6d984fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_elementTarget();
 
-  /// @brief Method get_eventCategories, addr 0x6d90814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventCategories, addr 0x6d98398, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_eventCategories();
 
-  /// @brief Method get_eventId, addr 0x6d9082c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventId, addr 0x6d983b0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_eventId();
 
-  /// @brief Method get_eventTypeId, addr 0x6d9080c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_eventTypeId, addr 0x6d98390, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_eventTypeId();
 
-  /// @brief Method get_imguiEvent, addr 0x6d8d4d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_imguiEvent, addr 0x6d9505c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_imguiEvent();
 
-  /// @brief Method get_imguiEventIsValid, addr 0x6d90c3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_imguiEventIsValid, addr 0x6d987c0, size 0xc, virtual false, abstract: false, final false
   inline bool get_imguiEventIsValid();
 
-  /// @brief Method get_isImmediatePropagationStopped, addr 0x6d90a3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isImmediatePropagationStopped, addr 0x6d985c0, size 0xc, virtual false, abstract: false, final false
   inline bool get_isImmediatePropagationStopped();
 
-  /// @brief Method get_isPropagationStopped, addr 0x6d8df9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isPropagationStopped, addr 0x6d95b20, size 0xc, virtual false, abstract: false, final false
   inline bool get_isPropagationStopped();
 
-  /// @brief Method get_lifeCycleStatus, addr 0x6d9085c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lifeCycleStatus, addr 0x6d983e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase_LifeCycleStatus get_lifeCycleStatus();
 
-  /// @brief Method get_originalMousePosition, addr 0x6d90d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_originalMousePosition, addr 0x6d988cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_originalMousePosition();
 
-  /// @brief Method get_pooled, addr 0x6d90e94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pooled, addr 0x6d98a18, size 0xc, virtual false, abstract: false, final false
   inline bool get_pooled();
 
-  /// @brief Method get_processed, addr 0x6d90bd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_processed, addr 0x6d9875c, size 0xc, virtual false, abstract: false, final false
   inline bool get_processed();
 
-  /// @brief Method get_processedByFocusController, addr 0x6d90be4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_processedByFocusController, addr 0x6d98768, size 0xc, virtual false, abstract: false, final false
   inline bool get_processedByFocusController();
 
-  /// @brief Method get_propagateToIMGUI, addr 0x6d90c10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_propagateToIMGUI, addr 0x6d98794, size 0xc, virtual false, abstract: false, final false
   inline bool get_propagateToIMGUI();
 
-  /// @brief Method get_propagation, addr 0x6d9084c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_propagation, addr 0x6d983d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase_EventPropagation get_propagation();
 
-  /// @brief Method get_skipDisabledElements, addr 0x6d9093c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_skipDisabledElements, addr 0x6d984c0, size 0xc, virtual false, abstract: false, final false
   inline bool get_skipDisabledElements();
 
-  /// @brief Method get_target, addr 0x6d90988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x6d9850c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* get_target();
 
-  /// @brief Method get_timestamp, addr 0x6d9081c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timestamp, addr 0x6d983a0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_timestamp();
 
-  /// @brief Method get_tricklesDown, addr 0x6d90910, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tricklesDown, addr 0x6d98494, size 0xc, virtual false, abstract: false, final false
   inline bool get_tricklesDown();
 
   /// @brief Convert to "::System::IDisposable"
@@ -524,73 +524,73 @@ public:
 
   static inline void setStaticF_s_NextEventId(uint64_t value);
 
-  /// @brief Method set_bubbles, addr 0x6d90900, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_bubbles, addr 0x6d98484, size 0x10, virtual false, abstract: false, final false
   inline void set_bubbles(bool value);
 
-  /// @brief Method set_currentTarget, addr 0x6d90a88, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method set_currentTarget, addr 0x6d9860c, size 0xf8, virtual true, abstract: false, final false
   inline void set_currentTarget(::UnityEngine::UIElements::IEventHandler* value);
 
-  /// @brief Method set_dispatch, addr 0x6d90b8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_dispatch, addr 0x6d98710, size 0x20, virtual false, abstract: false, final false
   inline void set_dispatch(bool value);
 
-  /// @brief Method set_dispatched, addr 0x6d90bac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_dispatched, addr 0x6d98730, size 0x20, virtual false, abstract: false, final false
   inline void set_dispatched(bool value);
 
-  /// @brief Method set_elementTarget, addr 0x6d90980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_elementTarget, addr 0x6d98504, size 0x8, virtual false, abstract: false, final false
   inline void set_elementTarget(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method set_eventId, addr 0x6d90834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventId, addr 0x6d983b8, size 0x8, virtual false, abstract: false, final false
   inline void set_eventId(uint64_t value);
 
-  /// @brief Method set_imguiEvent, addr 0x6d90c68, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method set_imguiEvent, addr 0x6d987ec, size 0xe0, virtual false, abstract: false, final false
   inline void set_imguiEvent(::UnityEngine::Event* value);
 
-  /// @brief Method set_imguiEventIsValid, addr 0x6d90c48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_imguiEventIsValid, addr 0x6d987cc, size 0x20, virtual false, abstract: false, final false
   inline void set_imguiEventIsValid(bool value);
 
-  /// @brief Method set_isImmediatePropagationStopped, addr 0x6d90a48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isImmediatePropagationStopped, addr 0x6d985cc, size 0x20, virtual false, abstract: false, final false
   inline void set_isImmediatePropagationStopped(bool value);
 
-  /// @brief Method set_isPropagationStopped, addr 0x6d90a1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_isPropagationStopped, addr 0x6d985a0, size 0x10, virtual false, abstract: false, final false
   inline void set_isPropagationStopped(bool value);
 
-  /// @brief Method set_lifeCycleStatus, addr 0x6d90864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lifeCycleStatus, addr 0x6d983e8, size 0x8, virtual false, abstract: false, final false
   inline void set_lifeCycleStatus(::UnityEngine::UIElements::EventBase_LifeCycleStatus value);
 
-  /// @brief Method set_originalMousePosition, addr 0x6d90d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_originalMousePosition, addr 0x6d988d4, size 0x8, virtual false, abstract: false, final false
   inline void set_originalMousePosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_pooled, addr 0x6d90e50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_pooled, addr 0x6d989d4, size 0x20, virtual false, abstract: false, final false
   inline void set_pooled(bool value);
 
-  /// @brief Method set_processed, addr 0x6d9089c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_processed, addr 0x6d98420, size 0x20, virtual false, abstract: false, final false
   inline void set_processed(bool value);
 
-  /// @brief Method set_processedByFocusController, addr 0x6d90bf0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_processedByFocusController, addr 0x6d98774, size 0x20, virtual false, abstract: false, final false
   inline void set_processedByFocusController(bool value);
 
-  /// @brief Method set_propagateToIMGUI, addr 0x6d90c1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_propagateToIMGUI, addr 0x6d987a0, size 0x20, virtual false, abstract: false, final false
   inline void set_propagateToIMGUI(bool value);
 
-  /// @brief Method set_propagation, addr 0x6d90854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propagation, addr 0x6d983d8, size 0x8, virtual false, abstract: false, final false
   inline void set_propagation(::UnityEngine::UIElements::EventBase_EventPropagation value);
 
-  /// @brief Method set_propagationPhase, addr 0x6d90a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propagationPhase, addr 0x6d985fc, size 0x8, virtual false, abstract: false, final false
   inline void set_propagationPhase(::UnityEngine::UIElements::PropagationPhase value);
 
-  /// @brief Method set_skipDisabledElements, addr 0x6d90948, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_skipDisabledElements, addr 0x6d984cc, size 0x20, virtual false, abstract: false, final false
   inline void set_skipDisabledElements(bool value);
 
-  /// @brief Method set_target, addr 0x6d90990, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_target, addr 0x6d98514, size 0x8c, virtual false, abstract: false, final false
   inline void set_target(::UnityEngine::UIElements::IEventHandler* value);
 
-  /// @brief Method set_timestamp, addr 0x6d90824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timestamp, addr 0x6d983a8, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(int64_t value);
 
-  /// @brief Method set_tricklesDown, addr 0x6d9091c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_tricklesDown, addr 0x6d984a0, size 0x20, virtual false, abstract: false, final false
   inline void set_tricklesDown(bool value);
 
-  /// @brief Method set_triggerEventId, addr 0x6d9083c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggerEventId, addr 0x6d983c0, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerEventId(uint64_t value);
 
 protected:

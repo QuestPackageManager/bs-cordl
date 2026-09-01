@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/IPAddressCollection.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\IPAddressCollection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPAddressCollection_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::IPAddressCollection::*)()>(&::System::Net::NetworkInformation::IPAddressCollection::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x634a4c0;
+  constexpr static std::size_t addrs = 0x6351f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPAddressCollection*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::IPAddressCollection::*)(::ArrayW<::System::Net::IPAddress*>, int32_t)>(
     &::System::Net::NetworkInformation::IPAddressCollection::CopyTo)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x634a534;
+  constexpr static std::size_t addrs = 0x6351fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPAddressCollection*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::NetworkInformation::IPAddressCollection::*)()>(&::System::Net::NetworkInformation::IPAddressCollection::get_Count)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x634a5a0;
+  constexpr static std::size_t addrs = 0x635201c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPAddressCollection*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::NetworkInformation::IPAddressCollection::*)()>(&::System::Net::NetworkInformation::IPAddressCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x634a5f4;
+  constexpr static std::size_t addrs = 0x6352070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPAddressCollection*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::IPAddressCollection::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::IPAddressCollection::Add)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x634a5fc;
+  constexpr static std::size_t addrs = 0x6352078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPAddressCollection*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::IPAddressCollection::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::IPAddressCollection::InternalAdd)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x634a64c;
+  constexpr static std::size_t addrs = 0x63520c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::NetworkInformation::IPAddressCollection::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::IPAddressCollection::Contains)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x634a6b0;
+  constexpr static std::size_t addrs = 0x635212c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPAddressCollection*>(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Net::NetworkInformation::IPAddressCollection::*)()>(
     &::System::Net::NetworkInformation::IPAddressCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x634a714;
+  constexpr static std::size_t addrs = 0x6352190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Net::IPAddress*>* (::System::Net::NetworkInformation::IPAddressCollection::*)()>(
     &::System::Net::NetworkInformation::IPAddressCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x634a724;
+  constexpr static std::size_t addrs = 0x63521a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPAddressCollection*>(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::NetworkInformation::IPAddressCollection::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::IPAddressCollection::Remove)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x634a778;
+  constexpr static std::size_t addrs = 0x63521f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPAddressCollection*>(),
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::IPAddressCollection::*)()>(&::System::Net::NetworkInformation::IPAddressCollection::Clear)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x634a7c8;
+  constexpr static std::size_t addrs = 0x6352244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::IPAddressCollection*>(),

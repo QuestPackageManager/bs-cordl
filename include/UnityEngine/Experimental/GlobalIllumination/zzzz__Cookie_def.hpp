@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/Cookie.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\Cookie.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct CORDL_TYPE Cookie {
 public:
   // Declarations
-  /// @brief Method Defaults, addr 0x6b27608, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Defaults, addr 0x6b2f18c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::Cookie Defaults();
 
   // Ctor Parameters []
@@ -34,7 +34,7 @@ public:
   constexpr Cookie(int32_t instanceID, float_t scale, ::UnityEngine::Vector2 sizes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10908 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

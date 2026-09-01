@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OnCullingCompleteCallback.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OnCullingCompleteCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,19 +40,19 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE OnCullingCompleteCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x681425c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x681bcd8, size 0xf0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::Unity::Jobs::JobHandle jobHandle, ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cullingContext,
                                              ::by_ref<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x681434c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x681bdc8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::by_ref<::UnityEngine::Rendering::BatchCullingContext> cullingContext, ::by_ref<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6814248, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x681bcc4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Unity::Jobs::JobHandle jobHandle, ::by_ref<::UnityEngine::Rendering::BatchCullingContext> cullingContext, ::by_ref<::UnityEngine::Rendering::BatchCullingOutput> cullingOutput);
 
   static inline ::UnityEngine::Rendering::OnCullingCompleteCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x68141dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681bc58, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -70,7 +70,7 @@ public:
   OnCullingCompleteCallback(OnCullingCompleteCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17663 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

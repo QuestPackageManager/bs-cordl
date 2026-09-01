@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SpectrogramRowPropertyAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace\SpectrogramRowPropertyAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,21 +60,21 @@ public:
   /// @brief Field propertyId, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
 
-  /// @brief Method Awake, addr 0x599fe44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59a7d78, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LazyInit, addr 0x599fedc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x59a7e10, size 0x34, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::SpectrogramRowPropertyAnimator* New_ctor();
 
-  /// @brief Method SetMultiplier, addr 0x599ffb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMultiplier, addr 0x59a7eec, size 0x8, virtual false, abstract: false, final false
   inline void SetMultiplier(float_t value);
 
-  /// @brief Method SetProperty, addr 0x599fe14, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x59a7d48, size 0x30, virtual true, abstract: false, final false
   inline void SetProperty();
 
-  /// @brief Method Update, addr 0x599ff10, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59a7e44, size 0xa8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__animationCurve() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x599ffc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a7ef4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,7 +149,7 @@ public:
   SpectrogramRowPropertyAnimator(SpectrogramRowPropertyAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5985 };
 
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;

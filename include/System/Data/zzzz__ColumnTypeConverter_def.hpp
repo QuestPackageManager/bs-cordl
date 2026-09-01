@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/ColumnTypeConverter.hpp"
+// IWYU pragma private; include "System\Data\ColumnTypeConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,26 +42,26 @@ public:
   /// @brief Field s_types, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_types, put = setStaticF_s_types)) ::ArrayW<::System::Type*> s_types;
 
-  /// @brief Method CanConvertFrom, addr 0x60148b8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x601c334, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x6014388, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x601be04, size 0xa4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x6014938, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x601c3b4, size 0x1d0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x601442c, size 0x48c, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x601bea8, size 0x48c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetStandardValues, addr 0x6014b08, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x601c584, size 0x120, virtual true, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x6014c28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x601c6a4, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x6014c30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x601c6ac, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::Data::ColumnTypeConverter* New_ctor();
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::System::ComponentModel::TypeConverter_StandardValuesCollection* value);
 
-  /// @brief Method .ctor, addr 0x6014384, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x601be00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Type*> getStaticF_s_types();
@@ -94,7 +94,7 @@ public:
   ColumnTypeConverter(ColumnTypeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13756 };
 
   /// @brief Field _values, offset: 0x10, size: 0x8, def value: None
   ::System::ComponentModel::TypeConverter_StandardValuesCollection* ____values;

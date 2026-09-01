@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/JsonTokenUtils.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\JsonTokenUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__JsonTokenUtils_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::JsonToken)>(&::Newtonsoft::Json::Utilities::JsonTokenUtils::IsEndToken)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d15554;
+  constexpr static std::size_t addrs = 0x5d19a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::JsonToken)>(&::Newtonsoft::Json::Utilities::JsonTokenUtils::IsStartToken)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d28f28;
+  constexpr static std::size_t addrs = 0x5d2d3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::JsonToken)>(&::Newtonsoft::Json::Utilities::JsonTokenUtils::IsPrimitiveToken)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d28f38;
+  constexpr static std::size_t addrs = 0x5d2d3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

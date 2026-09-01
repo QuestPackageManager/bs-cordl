@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithRejoinDialogResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithRejoinDialogResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithRejoinDialogResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::RejoinDialogResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5dd87f4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5ddccb0, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::RejoinDialogResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetRejoinDialogResult, addr 0x5dd87b0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetRejoinDialogResult, addr 0x5ddcc6c, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::RejoinDialogResult* GetRejoinDialogResult();
 
   static inline ::Oculus::Platform::MessageWithRejoinDialogResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5dd39f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd7eb4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithRejoinDialogResult(MessageWithRejoinDialogResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17915 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

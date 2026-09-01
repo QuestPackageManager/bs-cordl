@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SetApplicationVersionText.hpp"
+// IWYU pragma private; include "GlobalNamespace\SetApplicationVersionText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,13 +58,13 @@ public:
 
   static inline ::GlobalNamespace::SetApplicationVersionText* New_ctor();
 
-  /// @brief Method SetText, addr 0x59a686c, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x59ae114, size 0x300, virtual false, abstract: false, final false
   inline void SetText(::BeatSaber::Init::GameVersion* gameVersion);
 
-  /// @brief Method Start, addr 0x59a6758, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59ae000, size 0x114, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleVersionColor, addr 0x59a6b6c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ToggleVersionColor, addr 0x59ae414, size 0x94, virtual false, abstract: false, final false
   inline void ToggleVersionColor();
 
   constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__buildIdText() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__versionText(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x59a6c00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ae4a8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
   SetApplicationVersionText(SetApplicationVersionText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6020 };
 
   /// @brief Field _versionText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____versionText;

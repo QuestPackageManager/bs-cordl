@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ZenjectException.hpp"
+// IWYU pragma private; include "Zenject\ZenjectException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Zenject/zzzz__ZenjectException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ZenjectException::*)(::StringW)>(&::Zenject::ZenjectException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e96e78;
+  constexpr static std::size_t addrs = 0x6e9e9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ZenjectException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ZenjectException::*)(::StringW, ::System::Exception*)>(&::Zenject::ZenjectException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6e96ee4;
+  constexpr static std::size_t addrs = 0x6e9ea68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

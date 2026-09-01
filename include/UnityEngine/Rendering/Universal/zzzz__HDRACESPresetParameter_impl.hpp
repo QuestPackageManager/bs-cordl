@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/HDRACESPresetParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\HDRACESPresetParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__HDRACESPreset_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__HDRACESPresetParameter_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::HDRACESPresetParameter::*)(::UnityEngine::Rendering::Universal::HDRACESPreset, bool)>(
     &::UnityEngine::Rendering::Universal::HDRACESPresetParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68783ac;
+  constexpr static std::size_t addrs = 0x687fe28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

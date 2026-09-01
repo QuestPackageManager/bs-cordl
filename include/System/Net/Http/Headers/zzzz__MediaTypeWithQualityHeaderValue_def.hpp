@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/MediaTypeWithQualityHeaderValue.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\MediaTypeWithQualityHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,17 +34,17 @@ public:
 
   static inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* New_ctor(::StringW mediaType);
 
-  /// @brief Method TryParse, addr 0x60e4544, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60ebfc0, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x60e43cc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x60ebe48, size 0x178, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::by_ref<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*> parsedValue,
                                      ::by_ref<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method .ctor, addr 0x60e43c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ebe44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x60e43c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ebe40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW mediaType);
 
 protected:
@@ -62,7 +62,7 @@ public:
   MediaTypeWithQualityHeaderValue(MediaTypeWithQualityHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20285 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

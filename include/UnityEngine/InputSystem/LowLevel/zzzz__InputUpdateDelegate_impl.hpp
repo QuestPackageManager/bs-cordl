@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputUpdateDelegate.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputUpdateDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateDelegate_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x65ae584;
+  constexpr static std::size_t addrs = 0x65b6000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::*)(
     ::UnityEngine::InputSystem::LowLevel::InputUpdateType, ::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer>)>(&::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65ae5f0;
+  constexpr static std::size_t addrs = 0x65b606c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*>(),
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType, ::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer>,
                                                                   ::System::AsyncCallback*, ::System::Object*)>(&::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x65ae604;
+  constexpr static std::size_t addrs = 0x65b6080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*>(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::*)(
     ::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer>, ::System::IAsyncResult*)>(&::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65ae6c4;
+  constexpr static std::size_t addrs = 0x65b6140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/BuddyAllocator.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\BuddyAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   constexpr BuddyAllocator_Header(int32_t branchingOrder, int32_t levelCount, int32_t allocationCount, int32_t freeAllocationIdsCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12779 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -107,67 +107,67 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AlignForward, addr 0x6875108, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AlignForward, addr 0x687cb84, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t AlignForward(int32_t offset, int32_t alignment);
 
   /// @brief Method AllocateRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::ValueTuple_2<int32_t, int32_t> AllocateRange(int32_t length, ::by_ref<int32_t> dataSize);
 
-  /// @brief Method Dispose, addr 0x687506c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x687cae8, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Free, addr 0x6874f00, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x687c97c, size 0x16c, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::Rendering::Universal::BuddyAllocation allocation);
 
-  /// @brief Method FreeMaskIndices, addr 0x68749f8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FreeMaskIndices, addr 0x687c474, size 0xe4, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<int32_t> FreeMaskIndices(int32_t level);
 
-  /// @brief Method FreeMasks, addr 0x687484c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FreeMasks, addr 0x687c2c8, size 0xe4, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint64_t> FreeMasks(int32_t level);
 
   /// @brief Method GetNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetNativeArray(int32_t offset, int32_t length);
 
-  /// @brief Method LevelLength, addr 0x68750e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LevelLength, addr 0x687cb64, size 0x10, virtual false, abstract: false, final false
   static inline int32_t LevelLength(int32_t level, int32_t branchingOrder);
 
-  /// @brief Method LevelLength64, addr 0x6874968, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LevelLength64, addr 0x687c3e4, size 0x24, virtual false, abstract: false, final false
   static inline int32_t LevelLength64(int32_t level, int32_t branchingOrder);
 
-  /// @brief Method LevelOffset, addr 0x68750c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method LevelOffset, addr 0x687cb44, size 0x20, virtual false, abstract: false, final false
   static inline int32_t LevelOffset(int32_t level, int32_t branchingOrder);
 
-  /// @brief Method LevelOffset64, addr 0x6874930, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method LevelOffset64, addr 0x687c3ac, size 0x38, virtual false, abstract: false, final false
   static inline int32_t LevelOffset64(int32_t level, int32_t branchingOrder);
 
-  /// @brief Method Pow2, addr 0x6874ef4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Pow2, addr 0x687c970, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Pow2(int32_t n);
 
-  /// @brief Method Pow2N, addr 0x68750f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Pow2N, addr 0x687cb74, size 0x10, virtual false, abstract: false, final false
   static inline int32_t Pow2N(int32_t x, int32_t n);
 
-  /// @brief Method PtrAdd, addr 0x6875124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PtrAdd, addr 0x687cba0, size 0x8, virtual false, abstract: false, final false
   static inline void* PtrAdd(void* ptr, int32_t bytes);
 
-  /// @brief Method TryAllocate, addr 0x6874ce0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x687c75c, size 0x214, virtual false, abstract: false, final false
   inline bool TryAllocate(int32_t requestedLevel, ::by_ref<::UnityEngine::Rendering::Universal::BuddyAllocation> allocation);
 
-  /// @brief Method .ctor, addr 0x6874b24, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687c5a0, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(int32_t levelCount, int32_t branchingOrder, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method get_freeMaskCounts, addr 0x6874774, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_freeMaskCounts, addr 0x687c1f0, size 0x6c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<int32_t> get_freeMaskCounts();
 
-  /// @brief Method get_freeMaskIndicesStorage, addr 0x687498c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_freeMaskIndicesStorage, addr 0x687c408, size 0x6c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<int32_t> get_freeMaskIndicesStorage();
 
-  /// @brief Method get_freeMasksStorage, addr 0x68747e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_freeMasksStorage, addr 0x687c25c, size 0x6c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint64_t> get_freeMasksStorage();
 
-  /// @brief Method get_header, addr 0x6874730, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_header, addr 0x687c1ac, size 0x44, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::Universal::BuddyAllocator_Header> get_header();
 
-  /// @brief Method get_levelCount, addr 0x6874adc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_levelCount, addr 0x687c558, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_levelCount();
 
   /// @brief Convert to "::System::IDisposable"
@@ -184,7 +184,7 @@ public:
                            ::System::ValueTuple_2<int32_t, int32_t> m_FreeMaskIndicesStorage, ::Unity::Collections::Allocator m_Allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12780 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

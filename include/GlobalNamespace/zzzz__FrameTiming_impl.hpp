@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FrameTiming.hpp"
+// IWYU pragma private; include "GlobalNamespace\FrameTiming.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorder_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FrameTiming_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::GlobalNamespace::FrameTiming::get_PlayerLoopMilliseconds)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x585326c;
+  constexpr static std::size_t addrs = 0x5852374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FrameTiming*>(), { "get_PlayerLoopMilliseconds", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::GlobalNamespace::FrameTiming::get_GPUMilliseconds)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5853584;
+  constexpr static std::size_t addrs = 0x585268c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FrameTiming*>(), { "get_GPUMilliseconds", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::FrameTiming::Initialize)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x585363c;
+  constexpr static std::size_t addrs = 0x5852744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FrameTiming*>(), { "Initialize", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FrameTiming::*)()>(&::GlobalNamespace::FrameTiming::Awake)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x58537dc;
+  constexpr static std::size_t addrs = 0x58528e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FrameTiming*>(), { "Awake", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FrameTiming::*)()>(&::GlobalNamespace::FrameTiming::OnDestroy)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5853a88;
+  constexpr static std::size_t addrs = 0x5852b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FrameTiming*>(), { "OnDestroy", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FrameTiming::*)()>(&::GlobalNamespace::FrameTiming::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5853ad4;
+  constexpr static std::size_t addrs = 0x5852bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FrameTiming*>(), { "Update", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FrameTiming::*)()>(&::GlobalNamespace::FrameTiming::Refresh)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x5853324;
+  constexpr static std::size_t addrs = 0x585242c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FrameTiming*>(), { "Refresh", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Profiling::ProfilerRecorder, int32_t)>(&::GlobalNamespace::FrameTiming::GetLastFrameSampleValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5853ad8;
+  constexpr static std::size_t addrs = 0x5852be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FrameTiming::*)()>(&::GlobalNamespace::FrameTiming::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5853b54;
+  constexpr static std::size_t addrs = 0x5852c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FrameTiming*>(), { ".ctor", {}, {} })));

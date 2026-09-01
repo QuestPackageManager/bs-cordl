@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/UnsafeValueTypeAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\UnsafeValueTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::UnsafeValueTypeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5b6c404, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b708c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/NotImplemented.hpp"
+// IWYU pragma private; include "System\NotImplemented.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace System {
 class CORDL_TYPE NotImplemented : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ByDesign, addr 0x5c5da18, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_ByDesign, addr 0x5c61ed4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Exception* get_ByDesign();
 
 protected:

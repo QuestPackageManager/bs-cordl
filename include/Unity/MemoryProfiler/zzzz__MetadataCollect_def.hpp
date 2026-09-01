@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/MemoryProfiler/MetadataCollect.hpp"
+// IWYU pragma private; include "Unity\MemoryProfiler\MetadataCollect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   /// @brief Method CollectMetadata, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CollectMetadata(::Unity::Profiling::Memory::MemorySnapshotMetadata* data);
 
-  /// @brief Method Dispose, addr 0x668a0e8, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6691b64, size 0x110, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Unity::MemoryProfiler::MetadataCollect* New_ctor();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_disposed(bool value);
 
-  /// @brief Method .ctor, addr 0x668a2c8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6691d44, size 0x110, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -66,7 +66,7 @@ public:
   MetadataCollect(MetadataCollect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23671 };
 
   /// @brief Field disposed, offset: 0x10, size: 0x1, def value: None
   bool ___disposed;

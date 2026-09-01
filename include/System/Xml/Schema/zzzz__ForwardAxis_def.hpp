@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/ForwardAxis.hpp"
+// IWYU pragma private; include "System\Xml\Schema\ForwardAxis.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,22 +79,22 @@ public:
 
   constexpr void __cordl_internal_set__topNode(::System::Xml::Schema::DoubleLinkAxis* value);
 
-  /// @brief Method .ctor, addr 0x6310014, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6317a90, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::DoubleLinkAxis* axis, bool isdesorself);
 
-  /// @brief Method get_IsAttribute, addr 0x630fffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAttribute, addr 0x6317a78, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAttribute();
 
-  /// @brief Method get_IsDss, addr 0x6310004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDss, addr 0x6317a80, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDss();
 
-  /// @brief Method get_IsSelfAxis, addr 0x631000c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSelfAxis, addr 0x6317a88, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSelfAxis();
 
-  /// @brief Method get_RootNode, addr 0x630ffec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootNode, addr 0x6317a68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_RootNode();
 
-  /// @brief Method get_TopNode, addr 0x630fff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TopNode, addr 0x6317a70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_TopNode();
 
 protected:
@@ -112,7 +112,7 @@ public:
   ForwardAxis(ForwardAxis const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9569 };
 
   /// @brief Field _topNode, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::DoubleLinkAxis* ____topNode;

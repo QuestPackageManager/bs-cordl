@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NotEqualInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NotEqualInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -225,12 +225,12 @@ public:
   /// @brief Field s_reference, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_reference, put = setStaticF_s_reference)) ::System::Linq::Expressions::Interpreter::Instruction* s_reference;
 
-  /// @brief Method Create, addr 0x5fafd94, size 0x7c8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5fb7810, size 0x7c8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type, bool liftedToNull);
 
   static inline ::System::Linq::Expressions::Interpreter::NotEqualInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5fafd90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb780c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Boolean();
@@ -281,13 +281,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_reference();
 
-  /// @brief Method get_ConsumedStack, addr 0x5fafd3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5fb77b8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5fafd4c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fb77c8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5fafd44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5fb77c0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Boolean(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -353,7 +353,7 @@ public:
   NotEqualInstruction(NotEqualInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16541 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

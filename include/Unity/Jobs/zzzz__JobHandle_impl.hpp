@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Jobs/JobHandle.hpp"
+// IWYU pragma private; include "Unity\Jobs\JobHandle.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::JobHandle::*)()>(&::Unity::Jobs::JobHandle::Complete)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6a53ec4;
+  constexpr static std::size_t addrs = 0x6a5b940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::JobHandle>(), { "Complete", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Jobs::JobHandle::*)()>(&::Unity::Jobs::JobHandle::get_IsCompleted)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a53f48;
+  constexpr static std::size_t addrs = 0x6a5b9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::JobHandle>(), { "get_IsCompleted", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Jobs::JobHandle::ScheduleBatchedJobs)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a53fc0;
+  constexpr static std::size_t addrs = 0x6a5ba3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::JobHandle>(), { "ScheduleBatchedJobs", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::JobHandle>)>(&::Unity::Jobs::JobHandle::ScheduleBatchedJobsAndComplete)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a53f0c;
+  constexpr static std::size_t addrs = 0x6a5b988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Jobs::JobHandle>)>(&::Unity::Jobs::JobHandle::ScheduleBatchedJobsAndIsCompleted)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a53f84;
+  constexpr static std::size_t addrs = 0x6a5ba00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::Unity::Jobs::JobHandle, ::Unity::Jobs::JobHandle)>(&::Unity::Jobs::JobHandle::CombineDependencies)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a53fe8;
+  constexpr static std::size_t addrs = 0x6a5ba64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle>)>(&::Unity::Jobs::JobHandle::CombineDependencies)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a5406c;
+  constexpr static std::size_t addrs = 0x6a5bae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::Unity::Collections::NativeSlice_1<::Unity::Jobs::JobHandle>)>(&::Unity::Jobs::JobHandle::CombineDependencies)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a5411c;
+  constexpr static std::size_t addrs = 0x6a5bb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::Jobs::JobHandle>, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::Unity::Jobs::JobHandle::CombineDependenciesInternal2)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a54010;
+  constexpr static std::size_t addrs = 0x6a5ba8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(void*, int32_t)>(&::Unity::Jobs::JobHandle::CombineDependenciesInternalPtr)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a540c0;
+  constexpr static std::size_t addrs = 0x6a5bb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Jobs::JobHandle::*)(::Unity::Jobs::JobHandle)>(&::Unity::Jobs::JobHandle::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a5422c;
+  constexpr static std::size_t addrs = 0x6a5bca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::JobHandle>, ::by_ref<::Unity::Jobs::JobHandle>, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::Unity::Jobs::JobHandle::CombineDependenciesInternal2_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a54184;
+  constexpr static std::size_t addrs = 0x6a5bc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, int32_t, ::by_ref<::Unity::Jobs::JobHandle>)>(&::Unity::Jobs::JobHandle::CombineDependenciesInternalPtr_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a541d8;
+  constexpr static std::size_t addrs = 0x6a5bc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

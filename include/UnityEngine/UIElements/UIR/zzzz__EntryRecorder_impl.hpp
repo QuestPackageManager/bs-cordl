@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryRecorder.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__EntryRecorder_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::EntryPool*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6cd4330;
+  constexpr static std::size_t addrs = 0x6cdbeb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UIR::Entry*, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*, bool)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::DrawMesh)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6cd43a4;
+  constexpr static std::size_t addrs = 0x6cdbf28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UIR::Entry*, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*, bool)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::DrawRasterText)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6cd4694;
+  constexpr static std::size_t addrs = 0x6cdc218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UIR::Entry*, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*, float_t,
     float_t)>(&::UnityEngine::UIElements::UIR::EntryRecorder::DrawSdfText)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6cd471c;
+  constexpr static std::size_t addrs = 0x6cdc2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UIR::Entry*, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>,
     ::UnityEngine::UIElements::VectorImage*)>(&::UnityEngine::UIElements::UIR::EntryRecorder::DrawGradients)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6cd47a4;
+  constexpr static std::size_t addrs = 0x6cdc328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*, ::System::Action*, bool)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::DrawImmediate)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6cd4810;
+  constexpr static std::size_t addrs = 0x6cdc394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::DrawChildren)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd48d4;
+  constexpr static std::size_t addrs = 0x6cdc458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::BeginStencilMask)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd4984;
+  constexpr static std::size_t addrs = 0x6cdc508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::EndStencilMask)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd4a34;
+  constexpr static std::size_t addrs = 0x6cdc5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PopStencilMask)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd4ae4;
+  constexpr static std::size_t addrs = 0x6cdc668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PushClippingRect)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd4b94;
+  constexpr static std::size_t addrs = 0x6cdc718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PopClippingRect)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd4c44;
+  constexpr static std::size_t addrs = 0x6cdc7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PushScissors)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd4cf4;
+  constexpr static std::size_t addrs = 0x6cdc878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PopScissors)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd4da4;
+  constexpr static std::size_t addrs = 0x6cdc928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PushGroupMatrix)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd4e54;
+  constexpr static std::size_t addrs = 0x6cdc9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PopGroupMatrix)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd4f04;
+  constexpr static std::size_t addrs = 0x6cdca88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PushRenderTexture)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd4fb4;
+  constexpr static std::size_t addrs = 0x6cdcb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::BlitAndPopRenderTexture)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd5064;
+  constexpr static std::size_t addrs = 0x6cdcbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::Material*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PushDefaultMaterial)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6cd5114;
+  constexpr static std::size_t addrs = 0x6cdcc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::PopDefaultMaterial)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd51cc;
+  constexpr static std::size_t addrs = 0x6cdcd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::CutRenderChain)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6cd527c;
+  constexpr static std::size_t addrs = 0x6cdce00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::Entry* (::UnityEngine::UIElements::UIR::EntryRecorder::*)(::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::InsertPlaceholder)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6cd532c;
+  constexpr static std::size_t addrs = 0x6cdceb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::EntryRecorder*>(),
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::AppendMeshEntry)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x6cd4424;
+  constexpr static std::size_t addrs = 0x6cdbfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::Entry*, ::UnityEngine::UIElements::UIR::Entry*)>(
     &::UnityEngine::UIElements::UIR::EntryRecorder::Append)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6cd53e0;
+  constexpr static std::size_t addrs = 0x6cdcf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

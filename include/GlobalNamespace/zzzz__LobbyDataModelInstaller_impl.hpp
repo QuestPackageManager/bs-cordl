@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LobbyDataModelInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\LobbyDataModelInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__LobbyDataModelInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LobbyDataModelInstaller.InstallBindings
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyDataModelInstaller::*)()>(&::GlobalNamespace::LobbyDataModelInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x59f5788;
+  constexpr static std::size_t addrs = 0x59fd860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyDataModelInstaller::*)()>(&::GlobalNamespace::LobbyDataModelInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59f5b74;
+  constexpr static std::size_t addrs = 0x59fdc4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyDataModelInstaller*>(), { ".ctor", {}, {} })));

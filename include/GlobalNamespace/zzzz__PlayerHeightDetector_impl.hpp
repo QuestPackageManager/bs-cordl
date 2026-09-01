@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerHeightDetector.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerHeightDetector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightDetector_InitData::*)(float_t, float_t)>(&::GlobalNamespace::PlayerHeightDetector_InitData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e5350;
+  constexpr static std::size_t addrs = 0x59ed5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::PlayerHeightDetector::add_playerHeightDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59e4e78;
+  constexpr static std::size_t addrs = 0x59ed0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::PlayerHeightDetector::remove_playerHeightDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59e4f38;
+  constexpr static std::size_t addrs = 0x59ed1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightDetector*>(),
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PlayerHeightDetector::*)()>(&::GlobalNamespace::PlayerHeightDetector::get_playerHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e4ff8;
+  constexpr static std::size_t addrs = 0x59ed264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightDetector*>(), { "get_playerHeight", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)()>(&::GlobalNamespace::PlayerHeightDetector::Start)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x59e5000;
+  constexpr static std::size_t addrs = 0x59ed26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightDetector*>(), { "Start", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)()>(&::GlobalNamespace::PlayerHeightDetector::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59e50ec;
+  constexpr static std::size_t addrs = 0x59ed358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightDetector*>(), { "OnDestroy", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)()>(&::GlobalNamespace::PlayerHeightDetector::LateUpdate)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x59e5108;
+  constexpr static std::size_t addrs = 0x59ed374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightDetector*>(), { "LateUpdate", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)(::GlobalNamespace::ObstacleData*)>(
     &::GlobalNamespace::PlayerHeightDetector::BeatmapObjectSpawnCallback)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x59e530c;
+  constexpr static std::size_t addrs = 0x59ed578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerHeightDetector::*)()>(&::GlobalNamespace::PlayerHeightDetector::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59e534c;
+  constexpr static std::size_t addrs = 0x59ed5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerHeightDetector*>(), { ".ctor", {}, {} })));

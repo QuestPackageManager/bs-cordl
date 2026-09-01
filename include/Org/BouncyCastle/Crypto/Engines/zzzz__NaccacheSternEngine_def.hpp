@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/NaccacheSternEngine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\NaccacheSternEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,27 +54,27 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Method AddCryptedBlocks, addr 0x33b3688, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method AddCryptedBlocks, addr 0x33b7448, size 0x210, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> AddCryptedBlocks(::ArrayW<uint8_t> block1, ::ArrayW<uint8_t> block2);
 
-  /// @brief Method Encrypt, addr 0x33b35a8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Encrypt, addr 0x33b7368, size 0xe0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> Encrypt(::Org::BouncyCastle::Math::BigInteger* plain);
 
-  /// @brief Method GetInputBlockSize, addr 0x33b2850, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetInputBlockSize, addr 0x33b6610, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0x33b28a8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetOutputBlockSize, addr 0x33b6668, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method Init, addr 0x33b22cc, size 0x580, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x33b608c, size 0x580, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x33b2900, size 0x8b8, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x33b66c0, size 0x8b8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> inBytes, int32_t inOff, int32_t length);
 
-  /// @brief Method ProcessData, addr 0x33b3898, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method ProcessData, addr 0x33b7658, size 0x20c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessData(::ArrayW<uint8_t> data);
 
   constexpr bool const& __cordl_internal_get_forEncryption() const;
@@ -95,19 +95,19 @@ public:
 
   constexpr void __cordl_internal_set_lookup(::ArrayW<::System::Collections::IList*> value);
 
-  /// @brief Method .ctor, addr 0x33b3aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b7864, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method chineseRemainder, addr 0x33b31b8, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method chineseRemainder, addr 0x33b6f78, size 0x3f0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* chineseRemainder(::System::Collections::IList* congruences, ::System::Collections::IList* primes);
 
-  /// @brief Method get_AlgorithmName, addr 0x33b2288, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x33b6048, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
-  /// @brief Method set_Debug, addr 0x33b284c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Debug, addr 0x33b660c, size 0x4, virtual true, abstract: false, final false
   inline void set_Debug(bool value);
 
 protected:

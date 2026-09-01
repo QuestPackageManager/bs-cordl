@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/LockHolder.hpp"
+// IWYU pragma private; include "System\Threading\LockHolder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x5ca9488, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5cad944, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Hold, addr 0x5ca945c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hold, addr 0x5cad918, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Threading::LockHolder Hold(::System::Threading::Lock* l);
 
   /// @brief Convert to "::System::IDisposable"

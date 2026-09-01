@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ISaberSwingRatingCounter.hpp"
+// IWYU pragma private; include "GlobalNamespace\ISaberSwingRatingCounter.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"

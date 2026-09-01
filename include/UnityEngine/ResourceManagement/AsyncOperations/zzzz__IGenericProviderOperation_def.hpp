@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/IGenericProviderOperation.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\AsyncOperations\IGenericProviderOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,7 +111,7 @@ public:
   IGenericProviderOperation(IGenericProviderOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18825 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

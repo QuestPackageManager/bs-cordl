@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerMessageBox.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerMessageBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,13 +52,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerMessageBox* New_ctor();
 
-  /// @brief Method OnSelection, addr 0x67fcc54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x68046d0, size 0x8, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x67fca78, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x68044f4, size 0x188, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method Update, addr 0x67fcc00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x680467c, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Rendering::DebugUI_MessageBox* const& __cordl_internal_get_m_Field() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x67fcc5c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68046d8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color32 getStaticF_k_ErrorBackgroundColor();
@@ -107,7 +107,7 @@ public:
   DebugUIHandlerMessageBox(DebugUIHandlerMessageBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12527 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

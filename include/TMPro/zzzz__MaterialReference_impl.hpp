@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/MaterialReference.hpp"
+// IWYU pragma private; include "TMPro\MaterialReference.hpp"
 #include "TMPro/zzzz__MaterialReference_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MaterialReference::*)(int32_t, ::TMPro::TMP_FontAsset*, ::TMPro::TMP_SpriteAsset*, ::UnityEngine::Material*, float_t)>(
     &::TMPro::MaterialReference::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6930b30;
+  constexpr static std::size_t addrs = 0x69385ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::TMPro::MaterialReference>, ::TMPro::TMP_FontAsset*)>(&::TMPro::MaterialReference::Contains)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6930bac;
+  constexpr static std::size_t addrs = 0x6938628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Material*, ::TMPro::TMP_FontAsset*, ::by_ref<::ArrayW<::TMPro::MaterialReference>>,
                                                                    ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::TMPro::MaterialReference::AddMaterialReference)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x6930cac;
+  constexpr static std::size_t addrs = 0x6938728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Material*, ::TMPro::TMP_SpriteAsset*, ::by_ref<::ArrayW<::TMPro::MaterialReference>>,
                                                                    ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::TMPro::MaterialReference::AddMaterialReference)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6930ec4;
+  constexpr static std::size_t addrs = 0x6938940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

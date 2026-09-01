@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "crypto/Security.hpp"
+// IWYU pragma private; include "crypto\Security.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "crypto/zzzz__Security_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::crypto::Security::ComputeHash)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x349b328;
+  constexpr static std::size_t addrs = 0x349f0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::crypto::Security::Decrypt)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x349b498;
+  constexpr static std::size_t addrs = 0x349f258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::crypto::Security::Encrypt)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x349b7c4;
+  constexpr static std::size_t addrs = 0x349f584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::crypto::Security::GenerateText)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x349b8b8;
+  constexpr static std::size_t addrs = 0x349f678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::crypto::Security*>(), { "GenerateText", {}, { ::i2c::type_of<int32_t>() } })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBufferedCipher* (*)(bool, ::StringW, ::StringW)>(&::crypto::Security::CreateCipher)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x349b5a0;
+  constexpr static std::size_t addrs = 0x349f360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::crypto::Security::*)()>(&::crypto::Security::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x349b980;
+  constexpr static std::size_t addrs = 0x349f740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::crypto::Security*>(), { ".ctor", {}, {} })));

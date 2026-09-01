@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BlueNoiseDithering.hpp"
+// IWYU pragma private; include "GlobalNamespace\BlueNoiseDithering.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::BlueNoiseDithering* New_ctor();
 
-  /// @brief Method SetBlueNoiseShaderParams, addr 0x586924c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetBlueNoiseShaderParams, addr 0x58681f0, size 0xe8, virtual false, abstract: false, final false
   inline void SetBlueNoiseShaderParams(int32_t cameraPixelWidth, int32_t cameraPixelHeight);
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__noiseTexture() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__noiseTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x5869334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58682d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__globalNoiseTextureID();
@@ -69,7 +69,7 @@ public:
   BlueNoiseDithering(BlueNoiseDithering const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19490 };
 
   /// @brief Field _noiseTexture, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____noiseTexture;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/ReasonFlags.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\ReasonFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* New_ctor(int32_t reasons);
 
-  /// @brief Method .ctor, addr 0x36572ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365b0ac, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* reasons);
 
-  /// @brief Method .ctor, addr 0x3660598, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3664358, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t reasons);
 
 protected:

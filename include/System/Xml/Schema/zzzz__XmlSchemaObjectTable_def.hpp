@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaObjectTable.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaObjectTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -130,7 +130,7 @@ public:
   static ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType const Values;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9799 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -153,7 +153,7 @@ namespace System::Xml::Schema {
 struct CORDL_TYPE XmlSchemaObjectTable_XmlSchemaObjectEntry {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x622ada8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6232824, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::XmlSchemaObject* value);
 
   // Ctor Parameters []
@@ -165,7 +165,7 @@ public:
   constexpr XmlSchemaObjectTable_XmlSchemaObjectEntry(::System::Xml::XmlQualifiedName* qname, ::System::Xml::Schema::XmlSchemaObject* xso) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9800 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -212,10 +212,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x622b5f0, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x623306c, size 0x120, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x622b710, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x623318c, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Xml::Schema::XmlSchemaObjectTable_ValuesCollection*
@@ -233,16 +233,16 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x622b3e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6232e64, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries, int32_t size);
 
-  /// @brief Method get_Count, addr 0x622b498, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x6232f14, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x622b548, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x6232fc4, size 0xa8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x622b4a0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x6232f1c, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -266,7 +266,7 @@ public:
   XmlSchemaObjectTable_ValuesCollection(XmlSchemaObjectTable_ValuesCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9801 };
 
   /// @brief Field entries, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* ___entries;
@@ -315,13 +315,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x622b924, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x62333a0, size 0xa4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Xml::Schema::XmlSchemaObjectTable_XSOEnumerator* New_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries,
                                                                                     int32_t size, ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType);
 
-  /// @brief Method Reset, addr 0x622b9c8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x6233444, size 0x10, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_currentIndex() const;
@@ -360,11 +360,11 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x622b778, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62331f4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries, int32_t size,
                     ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType);
 
-  /// @brief Method get_Current, addr 0x622b78c, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x6233208, size 0x198, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -385,7 +385,7 @@ public:
   XmlSchemaObjectTable_XSOEnumerator(XmlSchemaObjectTable_XSOEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9802 };
 
   /// @brief Field entries, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* ___entries;
@@ -446,17 +446,17 @@ public:
   New_ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries, int32_t size,
            ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType);
 
-  /// @brief Method .ctor, addr 0x622b484, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6232f00, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* entries, int32_t size,
                     ::System::Xml::Schema::XmlSchemaObjectTable_EnumeratorType enumType);
 
-  /// @brief Method get_Entry, addr 0x622b9d8, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method get_Entry, addr 0x6233454, size 0x124, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x622bafc, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x6233578, size 0x120, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x622bc1c, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x6233698, size 0x120, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
@@ -480,7 +480,7 @@ public:
   XmlSchemaObjectTable_XSODictionaryEnumerator(XmlSchemaObjectTable_XSODictionaryEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -519,30 +519,30 @@ public:
   __declspec(property(get = __cordl_internal_get_table,
                       put = __cordl_internal_set_table)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*>* table;
 
-  /// @brief Method Add, addr 0x622acac, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6232728, size 0xfc, virtual false, abstract: false, final false
   inline void Add(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::XmlSchemaObject* value);
 
-  /// @brief Method Clear, addr 0x622b08c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6232b08, size 0xa0, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x622b26c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6232ce8, size 0x7c, virtual false, abstract: false, final false
   inline bool Contains(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method FindIndexByValue, addr 0x622aed0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method FindIndexByValue, addr 0x623294c, size 0xa8, virtual false, abstract: false, final false
   inline int32_t FindIndexByValue(::System::Xml::Schema::XmlSchemaObject* xso);
 
-  /// @brief Method GetEnumerator, addr 0x622b3f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6232e70, size 0x90, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method Insert, addr 0x622adb0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x623282c, size 0x120, virtual false, abstract: false, final false
   inline void Insert(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::XmlSchemaObject* value);
 
   static inline ::System::Xml::Schema::XmlSchemaObjectTable* New_ctor();
 
-  /// @brief Method Remove, addr 0x622b12c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6232ba8, size 0xe8, virtual false, abstract: false, final false
   inline void Remove(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method Replace, addr 0x622af78, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x62329f4, size 0x114, virtual false, abstract: false, final false
   inline void Replace(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::XmlSchemaObject* value);
 
   constexpr ::System::Collections::Generic::List_1<::System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry>* const& __cordl_internal_get_entries() const;
@@ -557,16 +557,16 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*>* value);
 
-  /// @brief Method .ctor, addr 0x622abcc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6232648, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x622b214, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6232c90, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x622b2e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6232d64, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* get_Item(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method get_Values, addr 0x622b364, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x6232de0, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Values();
 
 protected:
@@ -584,7 +584,7 @@ public:
   XmlSchemaObjectTable(XmlSchemaObjectTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9804 };
 
   /// @brief Field table, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*>* ___table;

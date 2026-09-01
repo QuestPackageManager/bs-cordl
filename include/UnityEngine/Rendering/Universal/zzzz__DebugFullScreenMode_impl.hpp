@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugFullScreenMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugFullScreenMode.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugFullScreenMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::DebugFullScreenMode::DebugFullScreenMode(int32_t value__) noexcept {

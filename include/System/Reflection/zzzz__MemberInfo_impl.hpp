@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/MemberInfo.hpp"
+// IWYU pragma private; include "System\Reflection\MemberInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::MemberInfo::*)()>(&::System::Reflection::MemberInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b7978c;
+  constexpr static std::size_t addrs = 0x5b7dc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::MemberInfo*>(), { ".ctor", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Module* (::System::Reflection::MemberInfo::*)()>(&::System::Reflection::MemberInfo::get_Module)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5b7ab48;
+  constexpr static std::size_t addrs = 0x5b7f004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Reflection::MemberInfo::*)()>(&::System::Reflection::MemberInfo::get_MetadataToken)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b7abd8;
+  constexpr static std::size_t addrs = 0x5b7f094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::MemberInfo::*)(::System::Object*)>(&::System::Reflection::MemberInfo::Equals)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b798dc;
+  constexpr static std::size_t addrs = 0x5b7dd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Reflection::MemberInfo::*)()>(&::System::Reflection::MemberInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b798fc;
+  constexpr static std::size_t addrs = 0x5b7ddb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*)>(&::System::Reflection::MemberInfo::op_Equality)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x5b7ac10;
+  constexpr static std::size_t addrs = 0x5b7f0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*)>(&::System::Reflection::MemberInfo::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b7b14c;
+  constexpr static std::size_t addrs = 0x5b7f608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Graph/G_Graph.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Graph\G_Graph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ public:
   /// @brief Method UpdateGraph, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method .ctor, addr 0x6437c18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x643f694, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   G_Graph(G_Graph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

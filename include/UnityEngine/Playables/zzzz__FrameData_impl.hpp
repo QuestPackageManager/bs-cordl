@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/FrameData.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\FrameData.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutput_impl.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::FrameData::*)(::UnityEngine::Playables::FrameData_Flags)>(&::UnityEngine::Playables::FrameData::HasFlags)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6afc098;
+  constexpr static std::size_t addrs = 0x6b03ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Playables::FrameData::*)()>(&::UnityEngine::Playables::FrameData::get_deltaTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6afc0a8;
+  constexpr static std::size_t addrs = 0x6b03ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameData>(), { "get_deltaTime", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Playables::FrameData::*)()>(&::UnityEngine::Playables::FrameData::get_effectiveSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afc0b4;
+  constexpr static std::size_t addrs = 0x6b03acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameData>(), { "get_effectiveSpeed", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::FrameData_EvaluationType (::UnityEngine::Playables::FrameData::*)()>(
     &::UnityEngine::Playables::FrameData::get_evaluationType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6afc0bc;
+  constexpr static std::size_t addrs = 0x6b03ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameData>(), { "get_evaluationType", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::FrameData::*)()>(&::UnityEngine::Playables::FrameData::get_seekOccurred)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6afc0cc;
+  constexpr static std::size_t addrs = 0x6b03ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameData>(), { "get_seekOccurred", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::FrameData::*)()>(&::UnityEngine::Playables::FrameData::get_timeLooped)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6afc0d8;
+  constexpr static std::size_t addrs = 0x6b03af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameData>(), { "get_timeLooped", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::FrameData::*)()>(&::UnityEngine::Playables::FrameData::get_timeHeld)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6afc0e4;
+  constexpr static std::size_t addrs = 0x6b03afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameData>(), { "get_timeHeld", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutput (::UnityEngine::Playables::FrameData::*)()>(&::UnityEngine::Playables::FrameData::get_output)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6afc0f0;
+  constexpr static std::size_t addrs = 0x6b03b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameData>(), { "get_output", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayState (::UnityEngine::Playables::FrameData::*)()>(&::UnityEngine::Playables::FrameData::get_effectivePlayState)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6afc0fc;
+  constexpr static std::size_t addrs = 0x6b03b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameData>(), { "get_effectivePlayState", {}, {} })));

@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/BlendShapeBufferRange.hpp"
+// IWYU pragma private; include "UnityEngine\BlendShapeBufferRange.hpp"
 #include "UnityEngine/zzzz__BlendShapeBufferRange_def.hpp"
 //  Writing Method size for method: ::UnityEngine::BlendShapeBufferRange.set_startIndex
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BlendShapeBufferRange::*)(uint32_t)>(&::UnityEngine::BlendShapeBufferRange::set_startIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6aa9f94;
+  constexpr static std::size_t addrs = 0x6ab19ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BlendShapeBufferRange::*)(uint32_t)>(&::UnityEngine::BlendShapeBufferRange::set_endIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6aa9fa4;
+  constexpr static std::size_t addrs = 0x6ab19bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

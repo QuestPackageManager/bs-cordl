@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/PerformanceToolSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\PerformanceToolSettings.hpp"
 #include "BeatSaber/Settings/zzzz__PerformanceToolSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "recordFps", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "showFps", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "showMemory", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "saveScreenshot", ty: "bool", modifiers: "", def_value: Some("{}") }]

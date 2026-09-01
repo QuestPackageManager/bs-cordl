@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithAssetFileDownloadCancelResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithAssetFileDownloadCancelResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAssetFileDownloadCancelResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetFileDownloadCancelResult_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithAssetFileDownloadCancelResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAssetFileDownloadCancelResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd2d64;
+  constexpr static std::size_t addrs = 0x5dd7220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetFileDownloadCancelResult* (::Oculus::Platform::MessageWithAssetFileDownloadCancelResult::*)()>(
     &::Oculus::Platform::MessageWithAssetFileDownloadCancelResult::GetAssetFileDownloadCancelResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd5d98;
+  constexpr static std::size_t addrs = 0x5dda254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithAssetFileDownloadCancelResult*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetFileDownloadCancelResult* (::Oculus::Platform::MessageWithAssetFileDownloadCancelResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAssetFileDownloadCancelResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd5ddc;
+  constexpr static std::size_t addrs = 0x5dda298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithAssetFileDownloadCancelResult*>(),

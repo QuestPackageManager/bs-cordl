@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRTask_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRTask_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -237,7 +237,7 @@ public:
   OVRTask_1_ContinueWithInvoker(OVRTask_1_ContinueWithInvoker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -281,7 +281,7 @@ public:
   OVRTask_1_ContinueWithRemover(OVRTask_1_ContinueWithRemover const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -325,7 +325,7 @@ public:
   OVRTask_1_InternalDataRemover(OVRTask_1_InternalDataRemover const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -388,7 +388,7 @@ public:
   OVRTask_1_InternalData_1(OVRTask_1_InternalData_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -451,7 +451,7 @@ public:
   OVRTask_1_IncrementalResultSubscriber_1(OVRTask_1_IncrementalResultSubscriber_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7851 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -496,7 +496,7 @@ public:
   CombinedTaskData_OVRTask_1___c(CombinedTaskData_OVRTask_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7852 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -785,7 +785,7 @@ public:
   constexpr OVRTask_1(::System::Guid _id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7861 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -846,7 +846,7 @@ public:
                                        ::System::Collections::Generic::List_1<TResult>* _userOwnedResultList) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7853 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -888,7 +888,7 @@ public:
   constexpr OVRTask_1_CombinedTaskDataWithCompletedTaskId(::System::Guid CompletedTaskId, ::GlobalNamespace::OVRTask_1_CombinedTaskData<TResult> CombinedData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7854 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -991,7 +991,7 @@ public:
   OVRTask_1_TaskSource(OVRTask_1_TaskSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7855 };
 
   /// @brief Field _manualSource, offset: 0x10, size: 0x40, def value: None
   ::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCore_1<TResult> ____manualSource;
@@ -1047,7 +1047,7 @@ public:
   OVRTask_1_AwaitableSource(OVRTask_1_AwaitableSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7856 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1090,7 +1090,7 @@ public:
   constexpr OVRTask_1_Awaiter(::GlobalNamespace::OVRTask_1<TResult> _task) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7857 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1165,7 +1165,7 @@ public:
   constexpr OVRTask_1_Callback(::System::Action_1<TResult>* _delegate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7858 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -1241,7 +1241,7 @@ public:
   constexpr OVRTask_1_CallbackWithState_1(T _data, ::System::Action_2<TResult, T>* _delegate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7859 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1298,7 +1298,7 @@ public:
   OVRTask_1___c(OVRTask_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

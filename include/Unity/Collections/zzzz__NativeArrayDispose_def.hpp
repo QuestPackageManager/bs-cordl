@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/NativeArrayDispose.hpp"
+// IWYU pragma private; include "Unity\Collections\NativeArrayDispose.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,7 @@ namespace Unity::Collections {
 struct CORDL_TYPE NativeArrayDispose {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x6a581b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6a5fc2c, size 0x44, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters []
@@ -32,7 +32,7 @@ public:
   constexpr NativeArrayDispose(void* m_Buffer, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9997 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

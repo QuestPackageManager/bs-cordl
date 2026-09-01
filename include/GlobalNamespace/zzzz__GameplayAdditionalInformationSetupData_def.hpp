@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameplayAdditionalInformationSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameplayAdditionalInformationSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_additionalInformation(::GlobalNamespace::GameplayAdditionalInformation* value);
 
-  /// @brief Method .ctor, addr 0x37087c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x370cbe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayAdditionalInformation* additionalInformation);
 
 protected:
@@ -51,7 +51,7 @@ public:
   GameplayAdditionalInformationSetupData(GameplayAdditionalInformationSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14869 };
 
   /// @brief Field additionalInformation, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameplayAdditionalInformation* ___additionalInformation;

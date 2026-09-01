@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightTranslationGroupEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightTranslationGroupEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,15 +41,12 @@ public:
   __declspec(property(get = __cordl_internal_get__lightTranslationGroups, put = __cordl_internal_set__lightTranslationGroups)) ::ArrayW<::UnityW<::GlobalNamespace::LightTranslationGroup>>
       _lightTranslationGroups;
 
-  /// @brief Method LateUpdate, addr 0x5993934, size 0xa4, virtual false, abstract: false, final false
-  inline void LateUpdate();
-
   static inline ::GlobalNamespace::LightTranslationGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59939d8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x599b960, size 0x104, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x599354c, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x599b578, size 0x3e8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -70,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__lightTranslationGroups(::ArrayW<::UnityW<::GlobalNamespace::LightTranslationGroup>> value);
 
-  /// @brief Method .ctor, addr 0x5993adc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599ba64, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +85,7 @@ public:
   LightTranslationGroupEffectManager(LightTranslationGroupEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5920 };
 
   /// @brief Field _lightTranslationGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightTranslationGroup>> ____lightTranslationGroups;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerResultsPyramidViewAvatarInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerResultsPyramidViewAvatarInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ public:
   /// @brief Field _connectedPlayer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IBeatSaberConnectedPlayer* _connectedPlayer;
 
-  /// @brief Method InstallBindings, addr 0x59dca1c, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59e4ae0, size 0x304, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x59dcd20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e4de4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   MultiplayerResultsPyramidViewAvatarInstaller(MultiplayerResultsPyramidViewAvatarInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6181 };
 
   /// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;

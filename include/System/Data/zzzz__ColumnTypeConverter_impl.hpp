@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/ColumnTypeConverter.hpp"
+// IWYU pragma private; include "System\Data\ColumnTypeConverter.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Data/zzzz__ColumnTypeConverter_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::ColumnTypeConverter::*)()>(&::System::Data::ColumnTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6014384;
+  constexpr static std::size_t addrs = 0x601be00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ColumnTypeConverter*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::Data::ColumnTypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6014388;
+  constexpr static std::size_t addrs = 0x601be04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                   ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::Data::ColumnTypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x601442c;
+  constexpr static std::size_t addrs = 0x601bea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::Data::ColumnTypeConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60148b8;
+  constexpr static std::size_t addrs = 0x601c334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::Data::ColumnTypeConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x6014938;
+  constexpr static std::size_t addrs = 0x601c3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (
     ::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::Data::ColumnTypeConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6014b08;
+  constexpr static std::size_t addrs = 0x601c584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::Data::ColumnTypeConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6014c28;
+  constexpr static std::size_t addrs = 0x601c6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::Data::ColumnTypeConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6014c30;
+  constexpr static std::size_t addrs = 0x601c6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NumericConvertInstruction_Unchecked.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NumericConvertInstruction_Unchecked.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,27 +30,27 @@ public:
   // Declarations
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
-  /// @brief Method Convert, addr 0x5fb22c4, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x5fb9d40, size 0x278, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Object* obj);
 
-  /// @brief Method ConvertDouble, addr 0x5fb2aec, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method ConvertDouble, addr 0x5fba568, size 0x2a4, virtual false, abstract: false, final false
   inline ::System::Object* ConvertDouble(double_t obj);
 
-  /// @brief Method ConvertInt32, addr 0x5fb253c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ConvertInt32, addr 0x5fb9fb8, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Object* ConvertInt32(int32_t obj);
 
-  /// @brief Method ConvertInt64, addr 0x5fb2700, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ConvertInt64, addr 0x5fba17c, size 0x1fc, virtual false, abstract: false, final false
   inline ::System::Object* ConvertInt64(int64_t obj);
 
-  /// @brief Method ConvertUInt64, addr 0x5fb28fc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ConvertUInt64, addr 0x5fba378, size 0x1f0, virtual false, abstract: false, final false
   inline ::System::Object* ConvertUInt64(uint64_t obj);
 
   static inline ::GlobalNamespace::NumericConvertInstruction_Unchecked* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method .ctor, addr 0x5fb22b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb9d34, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_InstructionName, addr 0x5fb2274, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fb9cf0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -68,7 +68,7 @@ public:
   NumericConvertInstruction_Unchecked(NumericConvertInstruction_Unchecked const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16553 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

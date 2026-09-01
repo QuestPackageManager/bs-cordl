@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Endo/EndoPreCompInfo.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Endo\EndoPreCompInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,22 +55,22 @@ public:
 
   constexpr void __cordl_internal_set_m_mappedPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x3508688, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350c448, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Endomorphism, addr 0x3508668, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Endomorphism, addr 0x350c428, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism();
 
-  /// @brief Method get_MappedPoint, addr 0x3508678, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MappedPoint, addr 0x350c438, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_MappedPoint();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  /// @brief Method set_Endomorphism, addr 0x3508670, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Endomorphism, addr 0x350c430, size 0x8, virtual true, abstract: false, final false
   inline void set_Endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
 
-  /// @brief Method set_MappedPoint, addr 0x3508680, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_MappedPoint, addr 0x350c440, size 0x8, virtual true, abstract: false, final false
   inline void set_MappedPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
 protected:

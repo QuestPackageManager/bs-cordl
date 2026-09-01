@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/TracePayload.hpp"
+// IWYU pragma private; include "System\Runtime\TracePayload.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,19 +28,19 @@ public:
 
   __declspec(property(get = get_SerializedException)) ::StringW SerializedException;
 
-  /// @brief Method .ctor, addr 0x6180258, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6187cd4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW serializedException, ::StringW eventSource, ::StringW appDomainFriendlyName, ::StringW extendedData, ::StringW hostReference);
 
-  /// @brief Method get_AppDomainFriendlyName, addr 0x6180278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AppDomainFriendlyName, addr 0x6187cf4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AppDomainFriendlyName();
 
-  /// @brief Method get_EventSource, addr 0x6180270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EventSource, addr 0x6187cec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EventSource();
 
-  /// @brief Method get_ExtendedData, addr 0x6180280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExtendedData, addr 0x6187cfc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ExtendedData();
 
-  /// @brief Method get_SerializedException, addr 0x6180268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializedException, addr 0x6187ce4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SerializedException();
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   constexpr TracePayload(::StringW serializedException, ::StringW eventSource, ::StringW appDomainFriendlyName, ::StringW extendedData, ::StringW hostReference) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21312 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

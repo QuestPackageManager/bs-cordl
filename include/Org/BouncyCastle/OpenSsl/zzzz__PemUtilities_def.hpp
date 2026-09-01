@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\OpenSsl\PemUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -196,18 +196,18 @@ public:
 
   using PemMode = ::Org::BouncyCastle::OpenSsl::PemUtilities_PemMode;
 
-  /// @brief Method Crypt, addr 0x35a2a68, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method Crypt, addr 0x35a6828, size 0x54c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Crypt(bool encrypt, ::ArrayW<uint8_t> bytes, ::ArrayW<char16_t> password, ::StringW dekAlgName, ::ArrayW<uint8_t> iv);
 
-  /// @brief Method GetCipherParameters, addr 0x35a5b0c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetCipherParameters, addr 0x35a98cc, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::ArrayW<char16_t> password, ::Org::BouncyCastle::OpenSsl::PemUtilities_PemBaseAlg baseAlg, ::ArrayW<uint8_t> salt);
 
   static inline ::Org::BouncyCastle::OpenSsl::PemUtilities* New_ctor();
 
-  /// @brief Method ParseDekAlgName, addr 0x35a57b8, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method ParseDekAlgName, addr 0x35a9578, size 0x354, virtual false, abstract: false, final false
   static inline void ParseDekAlgName(::StringW dekAlgName, ::by_ref<::Org::BouncyCastle::OpenSsl::PemUtilities_PemBaseAlg> baseAlg, ::by_ref<::Org::BouncyCastle::OpenSsl::PemUtilities_PemMode> mode);
 
-  /// @brief Method .ctor, addr 0x35a5c90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a9a50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

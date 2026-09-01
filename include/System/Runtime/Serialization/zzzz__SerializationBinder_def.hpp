@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/SerializationBinder.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\SerializationBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE SerializationBinder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BindToName, addr 0x5b48164, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method BindToName, addr 0x5b4c620, size 0xc, virtual true, abstract: false, final false
   inline void BindToName(::System::Type* serializedType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> typeName);
 
   /// @brief Method BindToType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationBinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5b48170, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4c62c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

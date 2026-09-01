@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/UserInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace\UserInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UserInfo::*)(::GlobalNamespace::UserInfo_Platform, ::StringW, ::StringW)>(&::GlobalNamespace::UserInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f3c850;
+  constexpr static std::size_t addrs = 0x5f40cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

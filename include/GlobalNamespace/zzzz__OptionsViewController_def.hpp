@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OptionsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\OptionsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   static ::GlobalNamespace::OptionsViewController_OptionsButton const Settings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6986 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -108,18 +108,18 @@ public:
   /// @brief Field didFinishEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x596205c, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5965954, size 0x1c0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::OptionsViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__7_0, addr 0x5962220, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_0, addr 0x5965b18, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
-  /// @brief Method <DidActivate>b__7_1, addr 0x5962240, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_1, addr 0x5965b38, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
-  /// @brief Method <DidActivate>b__7_2, addr 0x5962260, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_2, addr 0x5965b58, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editAvatarButton() const;
@@ -146,13 +146,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* value);
 
-  /// @brief Method .ctor, addr 0x596221c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5965b14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x5961edc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x59657d4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x5961f9c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5965894, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* value);
 
 protected:
@@ -170,7 +170,7 @@ public:
   OptionsViewController(OptionsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6987 };
 
   /// @brief Field _editAvatarButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editAvatarButton;

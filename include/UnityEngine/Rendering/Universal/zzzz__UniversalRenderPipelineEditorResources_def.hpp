@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineEditorResources.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineEditorResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_terrainDetailLitPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x686ccdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6874758, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,7 +138,7 @@ public:
   UniversalRenderPipelineEditorResources_ShaderResources(UniversalRenderPipelineEditorResources_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12744 };
 
   /// @brief Field autodeskInteractivePS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___autodeskInteractivePS;
@@ -231,7 +231,7 @@ public:
 
   constexpr void __cordl_internal_set_terrainLit(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x686cce0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687475c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -249,7 +249,7 @@ public:
   UniversalRenderPipelineEditorResources_MaterialResources(UniversalRenderPipelineEditorResources_MaterialResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12745 };
 
   /// @brief Field lit, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___lit;
@@ -309,7 +309,7 @@ public:
 
   constexpr void __cordl_internal_set_shaders(::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources* value);
 
-  /// @brief Method .ctor, addr 0x686ccd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6874750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -327,7 +327,7 @@ public:
   UniversalRenderPipelineEditorResources(UniversalRenderPipelineEditorResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12746 };
 
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources* ___shaders;

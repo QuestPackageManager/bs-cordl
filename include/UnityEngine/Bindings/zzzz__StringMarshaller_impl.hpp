@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/StringMarshaller.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\StringMarshaller.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__StringMarshaller_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Bindings::StringMarshaller::TryMarshalEmptyOrNullString)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6af7538;
+  constexpr static std::size_t addrs = 0x6afef50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

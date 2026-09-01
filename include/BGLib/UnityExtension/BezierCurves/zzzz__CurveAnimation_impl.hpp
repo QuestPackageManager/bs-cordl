@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/CurveAnimation.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\CurveAnimation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_impl.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3327b90;
+  constexpr static std::size_t addrs = 0x332b950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent*>(), { ".ctor", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::*)(int32_t)>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3327b50;
+  constexpr static std::size_t addrs = 0x332b910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3327b98;
+  constexpr static std::size_t addrs = 0x332b958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3327b9c;
+  constexpr static std::size_t addrs = 0x332b95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3327d1c;
+  constexpr static std::size_t addrs = 0x332badc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20*>(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3327d24;
+  constexpr static std::size_t addrs = 0x332bae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3327d5c;
+  constexpr static std::size_t addrs = 0x332bb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)()>(&::BGLib::UnityExtension::BezierCurves::CurveAnimation::get_isPlaying)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33279d4;
+  constexpr static std::size_t addrs = 0x332b794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::CurveAnimation*>(), { "get_isPlaying", {}, {} })));
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)(bool)>(&::BGLib::UnityExtension::BezierCurves::CurveAnimation::set_isPlaying)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33279dc;
+  constexpr static std::size_t addrs = 0x332b79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)()>(&::BGLib::UnityExtension::BezierCurves::CurveAnimation::LateUpdate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33279e4;
+  constexpr static std::size_t addrs = 0x332b7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::CurveAnimation*>(), { "LateUpdate", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)()>(&::BGLib::UnityExtension::BezierCurves::CurveAnimation::Awake)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3327aa4;
+  constexpr static std::size_t addrs = 0x332b864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::CurveAnimation*>(), { "Awake", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)(bool)>(&::BGLib::UnityExtension::BezierCurves::CurveAnimation::StartAnimation)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3327ab8;
+  constexpr static std::size_t addrs = 0x332b878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)(bool)>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation::Animate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3327ae8;
+  constexpr static std::size_t addrs = 0x332b8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)(float_t)>(&::BGLib::UnityExtension::BezierCurves::CurveAnimation::Animate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x33279fc;
+  constexpr static std::size_t addrs = 0x332b7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)()>(&::BGLib::UnityExtension::BezierCurves::CurveAnimation::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3327b58;
+  constexpr static std::size_t addrs = 0x332b918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::CurveAnimation*>(), { ".ctor", {}, {} })));

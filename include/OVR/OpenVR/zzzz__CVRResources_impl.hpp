@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/CVRResources.hpp"
+// IWYU pragma private; include "OVR\OpenVR\CVRResources.hpp"
 #include "OVR/OpenVR/zzzz__IVRResources_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRResources_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRResources::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRResources::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5e42d80;
+  constexpr static std::size_t addrs = 0x5e4723c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRResources*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRResources::*)(::StringW, ::StringW, uint32_t)>(&::OVR::OpenVR::CVRResources::LoadSharedResource)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42e74;
+  constexpr static std::size_t addrs = 0x5e47330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRResources::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRResources::GetResourceFullPath)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42e94;
+  constexpr static std::size_t addrs = 0x5e47350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

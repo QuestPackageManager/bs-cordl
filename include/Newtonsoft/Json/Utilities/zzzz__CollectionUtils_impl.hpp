@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/CollectionUtils.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\CollectionUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__CollectionUtils_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__CollectionUtils_def.hpp"
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::CollectionUtils::IsDictionaryType)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5d17d18;
+  constexpr static std::size_t addrs = 0x5d1c1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::ConstructorInfo* (*)(::System::Type*, ::System::Type*)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::ResolveEnumerableCollectionConstructor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5d17f28;
+  constexpr static std::size_t addrs = 0x5d1c3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::ConstructorInfo* (*)(::System::Type*, ::System::Type*, ::System::Type*)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::ResolveEnumerableCollectionConstructor)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x5d18030;
+  constexpr static std::size_t addrs = 0x5d1c4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<int32_t>* (*)(::System::Collections::IList*, int32_t)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::GetDimensions)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x5d18348;
+  constexpr static std::size_t addrs = 0x5d1c804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::CollectionUtils*>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::IList*, ::System::Array*, ::ArrayW<int32_t>)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::CopyFromJaggedToMultidimensionalArray)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x5d18610;
+  constexpr static std::size_t addrs = 0x5d1cacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Collections::IList*, ::ArrayW<int32_t>)>(&::Newtonsoft::Json::Utilities::CollectionUtils::JaggedArrayGetValue)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5d188bc;
+  constexpr static std::size_t addrs = 0x5d1cd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (*)(::System::Collections::IList*, ::System::Type*, int32_t)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::ToMultidimensionalArray)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5d18a60;
+  constexpr static std::size_t addrs = 0x5d1cf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

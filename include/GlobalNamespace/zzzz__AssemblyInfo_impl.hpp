@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AssemblyInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace\AssemblyInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AssemblyInfo_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AssemblyInfo.get_Version
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::GlobalNamespace::AssemblyInfo::get_Version)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x365394c;
+  constexpr static std::size_t addrs = 0x365770c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AssemblyInfo*>(), { "get_Version", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AssemblyInfo::*)()>(&::GlobalNamespace::AssemblyInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3653ae8;
+  constexpr static std::size_t addrs = 0x36578a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AssemblyInfo*>(), { ".ctor", {}, {} })));

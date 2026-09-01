@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GradientTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\GradientTransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -161,43 +161,43 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor2(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x643f018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6446a94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor1, addr 0x643c9dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor1, addr 0x6444458, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor1();
 
-  /// @brief Method get_disabledColor2, addr 0x643c9e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor2, addr 0x6444464, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor2();
 
-  /// @brief Method get_highlightColor1, addr 0x643c88c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor1, addr 0x6444308, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor1();
 
-  /// @brief Method get_highlightColor2, addr 0x643c898, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor2, addr 0x6444314, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor2();
 
-  /// @brief Method get_normalColor1, addr 0x643c4ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor1, addr 0x6443f68, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor1();
 
-  /// @brief Method get_normalColor2, addr 0x643c4f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor2, addr 0x6443f74, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor2();
 
-  /// @brief Method get_pressedColor1, addr 0x643c934, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor1, addr 0x64443b0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor1();
 
-  /// @brief Method get_pressedColor2, addr 0x643c940, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor2, addr 0x64443bc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor2();
 
-  /// @brief Method get_selectedAndHighlightedColor1, addr 0x643cb2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor1, addr 0x64445a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor1();
 
-  /// @brief Method get_selectedAndHighlightedColor2, addr 0x643cb38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor2, addr 0x64445b4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor2();
 
-  /// @brief Method get_selectedColor1, addr 0x643ca84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor1, addr 0x6444500, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor1();
 
-  /// @brief Method get_selectedColor2, addr 0x643ca90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor2, addr 0x644450c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor2();
 
 protected:
@@ -215,7 +215,7 @@ public:
   GradientTransitionSO(GradientTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22382 };
 
   /// @brief Field _normalColor1, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____normalColor1;

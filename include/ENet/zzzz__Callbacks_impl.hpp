@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet/Callbacks.hpp"
+// IWYU pragma private; include "ENet\Callbacks.hpp"
 #include "ENet/zzzz__ENetCallbacks_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ENet/zzzz__Callbacks_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ENet::ENetCallbacks (::ENet::Callbacks::*)()>(&::ENet::Callbacks::get_NativeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5892a6c;
+  constexpr static std::size_t addrs = 0x5892434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Callbacks*>(), { "get_NativeData", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Callbacks::*)(::ENet::ENetCallbacks)>(&::ENet::Callbacks::set_NativeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5892a80;
+  constexpr static std::size_t addrs = 0x5892448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Callbacks::*)(::ENet::AllocCallback*, ::ENet::FreeCallback*, ::ENet::NoMemoryCallback*)>(&::ENet::Callbacks::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5892a94;
+  constexpr static std::size_t addrs = 0x589245c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

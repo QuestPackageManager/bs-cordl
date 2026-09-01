@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/PlatformInitFailedException.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\PlatformInitFailedException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PlatformInitFailedException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformInitFailedException::*)()>(
     &::OculusStudios::Platform::Core::PlatformInitFailedException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f2a03c;
+  constexpr static std::size_t addrs = 0x5f2e4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformInitFailedException*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformInitFailedException::*)(::StringW)>(
     &::OculusStudios::Platform::Core::PlatformInitFailedException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f2a094;
+  constexpr static std::size_t addrs = 0x5f2e554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformInitFailedException::*)(::StringW, ::System::Exception*)>(
     &::OculusStudios::Platform::Core::PlatformInitFailedException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f2a100;
+  constexpr static std::size_t addrs = 0x5f2e5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformInitFailedException*>(),

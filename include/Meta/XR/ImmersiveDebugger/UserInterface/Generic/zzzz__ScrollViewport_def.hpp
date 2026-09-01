@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ScrollViewport.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ScrollViewport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport* New_ctor();
 
-  /// @brief Method Setup, addr 0x5a59360, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a5d81c, size 0x1b8, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> const& __cordl_internal_get__flex() const;
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set__mask(::UnityW<::UnityEngine::UI::Mask> value);
 
-  /// @brief Method .ctor, addr 0x5a59518, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5d9d4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Flex, addr 0x5a59358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flex, addr 0x5a5d814, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> get_Flex();
 
 protected:
@@ -86,7 +86,7 @@ public:
   ScrollViewport(ScrollViewport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18405 };
 
   /// @brief Field _image, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::RawImage> ____image;

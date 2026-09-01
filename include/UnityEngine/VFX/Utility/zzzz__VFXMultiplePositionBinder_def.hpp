@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXMultiplePositionBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXMultiplePositionBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,21 +50,21 @@ public:
   /// @brief Field positionMap, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_positionMap, put = __cordl_internal_set_positionMap)) ::UnityW<::UnityEngine::Texture2D> positionMap;
 
-  /// @brief Method IsValid, addr 0x69de378, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69e5df4, size 0x74, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXMultiplePositionBinder* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69ddda8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x69e5824, size 0x18, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ToString, addr 0x69de4a4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69e5f20, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69de3ec, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69e5e68, size 0xb8, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
-  /// @brief Method UpdateTexture, addr 0x69ddeac, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method UpdateTexture, addr 0x69e5928, size 0x4cc, virtual false, abstract: false, final false
   inline void UpdateTexture();
 
   constexpr bool const& __cordl_internal_get_EveryFrame() const;
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_positionMap(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x69de53c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e5fb8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,7 +121,7 @@ public:
   VFXMultiplePositionBinder(VFXMultiplePositionBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19999 };
 
   /// @brief Field PositionMapProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___PositionMapProperty;

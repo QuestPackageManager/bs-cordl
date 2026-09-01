@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRLoaderBase.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRLoaderBase.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_impl.hpp"
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase_FeatureLoggingInfo::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase_FeatureLoggingInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69eb468;
+  constexpr static std::size_t addrs = 0x69f2ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69ec7c4;
+  constexpr static std::size_t addrs = 0x69f4240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate*>(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate::*)(
     ::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent, uint64_t)>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69ec990;
+  constexpr static std::size_t addrs = 0x69f440c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate*>(),
@@ -141,7 +141,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate::*)(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent, uint64_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69ec9a4;
+  constexpr static std::size_t addrs = 0x69f4420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate*>(),
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69eca48;
+  constexpr static std::size_t addrs = 0x69f44c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate*>(),
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69ecaa8;
+  constexpr static std::size_t addrs = 0x69f4524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c*>(), { ".ctor", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c::*)(::UnityEngine::XR::OpenXR::Features::OpenXRFeature*)>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c::_InitializeInternal_b__33_0)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69ecaac;
+  constexpr static std::size_t addrs = 0x69f4528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c::*)(::UnityEngine::XR::OpenXR::Features::OpenXRFeature*)>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c::_InitializeInternal_b__33_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69ecb0c;
+  constexpr static std::size_t addrs = 0x69f4588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c::*)(::UnityEngine::XR::OpenXR::Features::OpenXRFeature*)>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase___c::_InitializeInternal_b__33_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69ecb20;
+  constexpr static std::size_t addrs = 0x69f459c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::XR::OpenXR::OpenXRLoaderBase> (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::get_Instance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69e7f14;
+  constexpr static std::size_t addrs = 0x69ef990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "get_Instance", {}, {} })));
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::OpenXRLoaderBase*)>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::set_Instance)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69e7f70;
+  constexpr static std::size_t addrs = 0x69ef9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase::get_currentLoaderState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e7fd0;
+  constexpr static std::size_t addrs = 0x69efa4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "get_currentLoaderState", {}, {} })));
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)(::UnityEngine::XR::OpenXR::OpenXRLoaderBase_LoaderState)>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase::set_currentLoaderState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69e7fd8;
+  constexpr static std::size_t addrs = 0x69efa54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<Il2CppObject* (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::get_displaySubsystem)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x69e7fe0;
+  constexpr static std::size_t addrs = 0x69efa5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "get_displaySubsystem", {}, {} })));
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::XRInputSubsystem* (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase::get_inputSubsystem)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x69e8048;
+  constexpr static std::size_t addrs = 0x69efac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "get_inputSubsystem", {}, {} })));
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::get_isInitialized)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69e812c;
+  constexpr static std::size_t addrs = 0x69efba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "get_isInitialized", {}, {} })));
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::get_isStarted)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x69e8140;
+  constexpr static std::size_t addrs = 0x69efbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "get_isStarted", {}, {} })));
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::UnhandledExceptionEventArgs*)>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::ExceptionHandler)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x69e8198;
+  constexpr static std::size_t addrs = 0x69efc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Initialize)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x69e83f0;
+  constexpr static std::size_t addrs = 0x69efe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::InitializeInternal)> {
   constexpr static std::size_t size = 0x5a8;
-  constexpr static std::size_t addrs = 0x69e8684;
+  constexpr static std::size_t addrs = 0x69f0100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "InitializeInternal", {}, {} })));
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::CreateSubsystems)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x69e9548;
+  constexpr static std::size_t addrs = 0x69f0fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "CreateSubsystems", {}, {} })));
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::ProcessOpenXRMessageLoop)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x69e9bdc;
+  constexpr static std::size_t addrs = 0x69f1658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "ProcessOpenXRMessageLoop", {}, {} })));
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Start)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69e9cf8;
+  constexpr static std::size_t addrs = 0x69f1774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::StartInternal)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x69e9d9c;
+  constexpr static std::size_t addrs = 0x69f1818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "StartInternal", {}, {} })));
@@ -498,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Stop)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x69eac50;
+  constexpr static std::size_t addrs = 0x69f26cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::StopInternal)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69ead84;
+  constexpr static std::size_t addrs = 0x69f2800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "StopInternal", {}, {} })));
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Deinitialize)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x69eae44;
+  constexpr static std::size_t addrs = 0x69f28c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::SetApplicationInfo)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x69e9674;
+  constexpr static std::size_t addrs = 0x69f10f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "SetApplicationInfo", {}, {} })));
@@ -548,7 +548,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::StringToWCHAR_T)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x69eb33c;
+  constexpr static std::size_t addrs = 0x69f2db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::LoadOpenXRSymbols)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69e8ff4;
+  constexpr static std::size_t addrs = 0x69f0a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "LoadOpenXRSymbols", {}, {} })));
@@ -573,7 +573,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::RequestOpenXRFeatures)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x69e91f0;
+  constexpr static std::size_t addrs = 0x69f0c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "RequestOpenXRFeatures", {}, {} })));
@@ -585,7 +585,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::LogRequestedOpenXRFeatures)> {
   constexpr static std::size_t size = 0x778;
-  constexpr static std::size_t addrs = 0x69eb508;
+  constexpr static std::size_t addrs = 0x69f2f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "LogRequestedOpenXRFeatures", {}, {} })));
@@ -597,7 +597,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::DebugLogEnabledSpecExtensions)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x69e99b0;
+  constexpr static std::size_t addrs = 0x69f142c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -611,7 +611,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::Features::OpenXRFeature_NativeEvent, uint64_t)>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase::ReceiveNativeEvent)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x69e7c10;
+  constexpr static std::size_t addrs = 0x69ef68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -625,7 +625,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::RegisterOpenXRCallbacks)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69e94ac;
+  constexpr static std::size_t addrs = 0x69f0f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "RegisterOpenXRCallbacks", {}, {} })));
@@ -637,7 +637,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>)>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_LoadOpenXRLibrary)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69eb3dc;
+  constexpr static std::size_t addrs = 0x69f2e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_UnloadOpenXRLibrary)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69eb1fc;
+  constexpr static std::size_t addrs = 0x69f2c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -664,7 +664,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::OpenXRLoaderBase_ReceiveNativeEventDelegate*)>(
     &::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_SetCallbacks)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69ec830;
+  constexpr static std::size_t addrs = 0x69f42ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -678,7 +678,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW, uint32_t, ::StringW)>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_SetApplicationInfo)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x69eb260;
+  constexpr static std::size_t addrs = 0x69f2cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -693,7 +693,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_RequestExitSession)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69eb134;
+  constexpr static std::size_t addrs = 0x69f2bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -706,7 +706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_InitializeSession)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69e9184;
+  constexpr static std::size_t addrs = 0x69f0c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "Internal_InitializeSession", {}, {} })));
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_CreateSessionIfNeeded)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69e9f68;
+  constexpr static std::size_t addrs = 0x69f19e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -731,7 +731,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_BeginSession)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69e9fd4;
+  constexpr static std::size_t addrs = 0x69f1a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "Internal_BeginSession", {}, {} })));
@@ -743,7 +743,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_EndSession)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69eade0;
+  constexpr static std::size_t addrs = 0x69f285c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "Internal_EndSession", {}, {} })));
@@ -755,7 +755,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_DestroySession)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69eb198;
+  constexpr static std::size_t addrs = 0x69f2c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "Internal_DestroySession", {}, {} })));
@@ -767,7 +767,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_PumpMessageLoop)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69e9c94;
+  constexpr static std::size_t addrs = 0x69f1710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { "Internal_PumpMessageLoop", {}, {} })));
@@ -779,7 +779,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_SetSuccessfullyInitialized)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x69e8c2c;
+  constexpr static std::size_t addrs = 0x69f06a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -792,7 +792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_RequestEnableExtensionString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x69eb474;
+  constexpr static std::size_t addrs = 0x69f2ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -805,7 +805,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::Internal_IsExtensionEnabled)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69ebc80;
+  constexpr static std::size_t addrs = 0x69f36fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -818,7 +818,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRLoaderBase::*)()>(&::UnityEngine::XR::OpenXR::OpenXRLoaderBase::_ctor)> {
   constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x69e7560;
+  constexpr static std::size_t addrs = 0x69eefdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRLoaderBase*>(), { ".ctor", {}, {} })));

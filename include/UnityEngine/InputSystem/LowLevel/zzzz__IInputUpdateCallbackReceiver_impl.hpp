@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/IInputUpdateCallbackReceiver.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\IInputUpdateCallbackReceiver.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputUpdateCallbackReceiver_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::IInputUpdateCallbackReceiver.OnUpdate
 template <>

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject\NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "Zenject/zzzz__TransformScopeConcreteIdArgConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Zenject::BindInfo*, ::Zenject::GameObjectCreationParameters*)>(
     &::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e5500c;
+  constexpr static std::size_t addrs = 0x6e5cb90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* (
     ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::StringW)>(&::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::WithGameObjectName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e55024;
+  constexpr static std::size_t addrs = 0x6e5cba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

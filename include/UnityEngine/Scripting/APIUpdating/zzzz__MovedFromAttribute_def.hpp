@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Scripting/APIUpdating/MovedFromAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Scripting\APIUpdating\MovedFromAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value);
 
-  /// @brief Method .ctor, addr 0x6af7744, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aff15c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
-  /// @brief Method .ctor, addr 0x6af7778, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aff190, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW sourceNamespace);
 
 protected:
@@ -55,7 +55,7 @@ public:
   MovedFromAttribute(MovedFromAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10484 };
 
   /// @brief Field data, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData ___data;

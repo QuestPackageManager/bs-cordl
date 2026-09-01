@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/IBlockLevelGameplayEventSender.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\IBlockLevelGameplayEventSender.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__IBlockLevelGameplayEventSender_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__GameAnalyticsBeatmapLevelData_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender.SendBlockLevelGameplayEvent

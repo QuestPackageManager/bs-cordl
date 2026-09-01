@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NormalizedHash.hpp"
+// IWYU pragma private; include "GlobalNamespace\NormalizedHash.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE NormalizedHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Evaluate, addr 0x3308598, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x330c394, size 0x64, virtual false, abstract: false, final false
   static inline double_t Evaluate(double_t seed);
 
 protected:
@@ -39,7 +39,7 @@ public:
   NormalizedHash(NormalizedHash const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20461 };
 
   /// @brief Field kHashMixer offset 0xffffffff size 0x4
   static constexpr uint32_t kHashMixer{ static_cast<uint32_t>(0x27d4eb2du) };

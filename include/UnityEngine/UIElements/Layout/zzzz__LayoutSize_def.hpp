@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutSize.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutSize.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,7 @@ namespace UnityEngine::UIElements::Layout {
 struct CORDL_TYPE LayoutSize {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6cfbfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d03b44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t width, float_t height);
 
   // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Button.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Button.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Button_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d31440, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d38fc4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,7 +114,7 @@ public:
   /// @brief Field m_IconImage, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_IconImage, put = __cordl_internal_set_m_IconImage)) ::UnityEngine::UIElements::UxmlImageAttributeDescription* m_IconImage;
 
-  /// @brief Method Init, addr 0x6d3155c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d390e0, size 0x120, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Button_UxmlTraits* New_ctor();
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IconImage(::UnityEngine::UIElements::UxmlImageAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d314a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3902c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -206,7 +206,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DoMeasure, addr 0x6d311a0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x6d38d24, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode);
 
@@ -216,13 +216,13 @@ public:
 
   static inline ::UnityEngine::UIElements::Button* New_ctor(::UnityEngine::UIElements::Background iconImage, ::System::Action* clickEvent);
 
-  /// @brief Method OnNavigationSubmit, addr 0x6d31164, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x6d38ce8, size 0x3c, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method ResetButtonHierarchy, addr 0x6d30adc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ResetButtonHierarchy, addr 0x6d38660, size 0xf0, virtual false, abstract: false, final false
   inline void ResetButtonHierarchy();
 
-  /// @brief Method UpdateButtonHierarchy, addr 0x6d30bcc, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonHierarchy, addr 0x6d38750, size 0x208, virtual false, abstract: false, final false
   inline void UpdateButtonHierarchy();
 
   constexpr ::UnityEngine::UIElements::Clickable* const& __cordl_internal_get_m_Clickable() const;
@@ -255,13 +255,13 @@ public:
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x6d30f58, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d38adc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d30fcc, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d38b50, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent);
 
-  /// @brief Method .ctor, addr 0x6d30f8c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d38b10, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Background iconImage, ::System::Action* clickEvent);
 
   static inline ::StringW getStaticF_NonEmptyString();
@@ -276,13 +276,13 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_clickable, addr 0x6d3081c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickable, addr 0x6d383a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
-  /// @brief Method get_iconImage, addr 0x6d30884, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_iconImage, addr 0x6d38408, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Background get_iconImage();
 
-  /// @brief Method get_text, addr 0x6d30dd4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_text, addr 0x6d38958, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_text();
 
   static inline void setStaticF_NonEmptyString(::StringW value);
@@ -297,13 +297,13 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_clickable, addr 0x6d30824, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_clickable, addr 0x6d383a8, size 0x60, virtual false, abstract: false, final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method set_iconImage, addr 0x6d30894, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method set_iconImage, addr 0x6d38418, size 0x248, virtual false, abstract: false, final false
   inline void set_iconImage(::UnityEngine::UIElements::Background value);
 
-  /// @brief Method set_text, addr 0x6d30df4, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method set_text, addr 0x6d38978, size 0x164, virtual true, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

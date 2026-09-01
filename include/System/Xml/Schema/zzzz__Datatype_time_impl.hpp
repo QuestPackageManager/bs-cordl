@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_time.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_time.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_dateTimeBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_time_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_time::*)()>(&::System::Xml::Schema::Datatype_time::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61bed00;
+  constexpr static std::size_t addrs = 0x61c677c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_time::*)()>(&::System::Xml::Schema::Datatype_time::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61b88f0;
+  constexpr static std::size_t addrs = 0x61c036c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_time*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/EncryptedContentInfoParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\EncryptedContentInfoParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   /// @brief Field _encryptedContent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__encryptedContent, put = __cordl_internal_set__encryptedContent)) ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* _encryptedContent;
 
-  /// @brief Method GetEncryptedContent, addr 0x335509c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedContent, addr 0x3358e5c, size 0xbc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetEncryptedContent(int32_t tag);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set__encryptedContent(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* value);
 
-  /// @brief Method .ctor, addr 0x33537dc, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335759c, size 0x2b4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_ContentEncryptionAlgorithm, addr 0x3355094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentEncryptionAlgorithm, addr 0x3358e54, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_ContentEncryptionAlgorithm();
 
-  /// @brief Method get_ContentType, addr 0x335508c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x3358e4c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
 protected:

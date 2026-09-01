@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DataSourceContext.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DataSourceContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ public:
 
   __declspec(property(get = get_dataSourcePath)) ::Unity::Properties::PropertyPath dataSourcePath;
 
-  /// @brief Method .ctor, addr 0x6c3d840, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c453c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* dataSource, ::by_ref<::Unity::Properties::PropertyPath> dataSourcePath);
 
-  /// @brief Method get_dataSource, addr 0x6c3d828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x6c453ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_dataSource();
 
-  /// @brief Method get_dataSourcePath, addr 0x6c3d830, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_dataSourcePath, addr 0x6c453b4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_dataSourcePath();
 
   // Ctor Parameters []

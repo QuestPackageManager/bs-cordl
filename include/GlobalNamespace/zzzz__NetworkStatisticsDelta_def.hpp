@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NetworkStatisticsDelta.hpp"
+// IWYU pragma private; include "GlobalNamespace\NetworkStatisticsDelta.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE NetworkStatisticsDelta {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x33377e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333b5a4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int64_t packetsSentDelta, int64_t packetsReceivedDelta, int64_t bytesSentDelta, int64_t bytesReceivedDelta, int64_t packetsLostDelta, int64_t packetsSentEncryptedDelta,
                     int64_t packetsSentPlaintextDelta, int64_t packetsSentRejectedDelta, int64_t packetsReceivedEncryptedDelta, int64_t packetsReceivedPlaintextDelta,
                     int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta);
@@ -41,7 +41,7 @@ public:
                                    int64_t packetsReceivedPlaintextDelta, int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18237 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockFloatCurve.hpp"
+// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockFloatCurve.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockFloatCurve_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockFloatCurve::*)()>(&::GlobalNamespace::MaterialPropertyBlockFloatCurve::SetProperty)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5872a28;
+  constexpr static std::size_t addrs = 0x5872368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockFloatCurve::*)()>(&::GlobalNamespace::MaterialPropertyBlockFloatCurve::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5872ad8;
+  constexpr static std::size_t addrs = 0x5872418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockFloatCurve*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PackDefinitionExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\PackDefinitionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsSO_def.hpp"
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)(int32_t)>(
     &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3727894;
+  constexpr static std::size_t addrs = 0x372d558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3727994;
+  constexpr static std::size_t addrs = 0x372d698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x37279b0;
+  constexpr static std::size_t addrs = 0x372d6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3727ca0;
+  constexpr static std::size_t addrs = 0x372d9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3727d54;
+  constexpr static std::size_t addrs = 0x372da58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3727d5c;
+  constexpr static std::size_t addrs = 0x372da60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3727d94;
+  constexpr static std::size_t addrs = 0x372da98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3727d9c;
+  constexpr static std::size_t addrs = 0x372daa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3727e34;
+  constexpr static std::size_t addrs = 0x372db38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>(),
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)(int32_t)>(
     &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3727e38;
+  constexpr static std::size_t addrs = 0x372d678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3727e58;
+  constexpr static std::size_t addrs = 0x372db3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x3727e74;
+  constexpr static std::size_t addrs = 0x372db58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3728158;
+  constexpr static std::size_t addrs = 0x372de3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::PerceivedLoudnessSO> (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372820c;
+  constexpr static std::size_t addrs = 0x372def0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>(),
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3728214;
+  constexpr static std::size_t addrs = 0x372def8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372824c;
+  constexpr static std::size_t addrs = 0x372df30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -427,7 +427,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
         &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3728254;
+  constexpr static std::size_t addrs = 0x372df38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>(),
@@ -441,7 +441,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37282ec;
+  constexpr static std::size_t addrs = 0x372dfd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)(int32_t)>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x37282f0;
+  constexpr static std::size_t addrs = 0x372d3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3728310;
+  constexpr static std::size_t addrs = 0x372dfd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -663,7 +663,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x372832c;
+  constexpr static std::size_t addrs = 0x372dff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -677,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x372861c;
+  constexpr static std::size_t addrs = 0x372e2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -691,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::LeaderboardIdsSO> (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37286d0;
+  constexpr static std::size_t addrs = 0x372e394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0*>(),
@@ -705,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x37286d8;
+  constexpr static std::size_t addrs = 0x372e39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -719,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3728710;
+  constexpr static std::size_t addrs = 0x372e3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -735,7 +735,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
         &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3728718;
+  constexpr static std::size_t addrs = 0x372e3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0*>(),
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37287b0;
+  constexpr static std::size_t addrs = 0x372e474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -939,7 +939,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)(int32_t)>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x37287b4;
+  constexpr static std::size_t addrs = 0x372d438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -953,7 +953,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x37287d4;
+  constexpr static std::size_t addrs = 0x372e478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -967,7 +967,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x37287f0;
+  constexpr static std::size_t addrs = 0x372e494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -981,7 +981,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3728ae0;
+  constexpr static std::size_t addrs = 0x372e784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -995,7 +995,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::LeaderboardIdsSO> (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3728b94;
+  constexpr static std::size_t addrs = 0x372e838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1*>(),
@@ -1009,7 +1009,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3728b9c;
+  constexpr static std::size_t addrs = 0x372e840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1023,7 +1023,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3728bd4;
+  constexpr static std::size_t addrs = 0x372e878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1039,7 +1039,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
         &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3728bdc;
+  constexpr static std::size_t addrs = 0x372e880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1*>(),
@@ -1053,7 +1053,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3728c74;
+  constexpr static std::size_t addrs = 0x372e918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1243,7 +1243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)(int32_t)>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3728c78;
+  constexpr static std::size_t addrs = 0x372d4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1257,7 +1257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3728c98;
+  constexpr static std::size_t addrs = 0x372e91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1271,7 +1271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::MoveNext)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3728cb4;
+  constexpr static std::size_t addrs = 0x372e938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1285,7 +1285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3728fa4;
+  constexpr static std::size_t addrs = 0x372ec28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1299,7 +1299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::LeaderboardIdsSO> (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3729058;
+  constexpr static std::size_t addrs = 0x372ecdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2*>(),
@@ -1313,7 +1313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3729060;
+  constexpr static std::size_t addrs = 0x372ece4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1327,7 +1327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3729098;
+  constexpr static std::size_t addrs = 0x372ed1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1343,7 +1343,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
         &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x37290a0;
+  constexpr static std::size_t addrs = 0x372ed24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2*>(),
@@ -1357,7 +1357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3729138;
+  constexpr static std::size_t addrs = 0x372edbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1547,7 +1547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)(int32_t)>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x372913c;
+  constexpr static std::size_t addrs = 0x372d5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1561,7 +1561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x372915c;
+  constexpr static std::size_t addrs = 0x372edc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1575,7 +1575,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3729178;
+  constexpr static std::size_t addrs = 0x372eddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1589,7 +1589,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3729468;
+  constexpr static std::size_t addrs = 0x372f0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1603,7 +1603,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372951c;
+  constexpr static std::size_t addrs = 0x372f180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>(),
@@ -1617,7 +1617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3729524;
+  constexpr static std::size_t addrs = 0x372f188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1631,7 +1631,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372955c;
+  constexpr static std::size_t addrs = 0x372f1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1647,7 +1647,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3729564;
+  constexpr static std::size_t addrs = 0x372f1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>(),
@@ -1661,7 +1661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37295fc;
+  constexpr static std::size_t addrs = 0x372f260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1856,7 +1856,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetQuestLeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x37276d4;
+  constexpr static std::size_t addrs = 0x372d338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1873,7 +1873,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetRiftLeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3727744;
+  constexpr static std::size_t addrs = 0x372d3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1889,7 +1889,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetSteamLeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x37277b4;
+  constexpr static std::size_t addrs = 0x372d458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1906,7 +1906,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetOculusLevelProductPacks)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3727824;
+  constexpr static std::size_t addrs = 0x372d4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1923,7 +1923,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetSteamLevelProductPacks)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x37278b4;
+  constexpr static std::size_t addrs = 0x372d578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1940,7 +1940,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetPerceivedLoudnessSOs)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3727924;
+  constexpr static std::size_t addrs = 0x372d608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/XmlSerializableServices.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\XmlSerializableServices.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__XmlSerializableServices_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Xml::XmlNode*> (*)(::System::Xml::XmlReader*)>(&::System::Runtime::Serialization::XmlSerializableServices::ReadNodes)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6170928;
+  constexpr static std::size_t addrs = 0x61783a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::XmlReader*)>(&::System::Runtime::Serialization::XmlSerializableServices::IsValidAttribute)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6170cac;
+  constexpr static std::size_t addrs = 0x6178728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

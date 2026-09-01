@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/BitSet.hpp"
+// IWYU pragma private; include "System\Xml\Schema\BitSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,44 +36,44 @@ public:
   /// @brief Field count, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
-  /// @brief Method And, addr 0x63134e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method And, addr 0x631af60, size 0xc4, virtual false, abstract: false, final false
   inline void And(::System::Xml::Schema::BitSet* other);
 
-  /// @brief Method Clear, addr 0x6313308, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x631ad84, size 0x48, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clone, addr 0x63137f0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x631b26c, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::BitSet* Clone();
 
-  /// @brief Method EnsureLength, addr 0x63133ac, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method EnsureLength, addr 0x631ae28, size 0xa0, virtual false, abstract: false, final false
   inline void EnsureLength(int32_t nRequiredLength);
 
-  /// @brief Method Equals, addr 0x6313688, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x631b104, size 0x168, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Get, addr 0x63132b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x631ad34, size 0x50, virtual false, abstract: false, final false
   inline bool Get(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x6313650, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x631b0cc, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Intersects, addr 0x6313924, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Intersects, addr 0x631b3a0, size 0xe8, virtual false, abstract: false, final false
   inline bool Intersects(::System::Xml::Schema::BitSet* other);
 
   static inline ::System::Xml::Schema::BitSet* New_ctor();
 
   static inline ::System::Xml::Schema::BitSet* New_ctor(int32_t count);
 
-  /// @brief Method NextSet, addr 0x631344c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method NextSet, addr 0x631aec8, size 0x98, virtual false, abstract: false, final false
   inline int32_t NextSet(int32_t startFrom);
 
-  /// @brief Method Or, addr 0x63135a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Or, addr 0x631b024, size 0xa8, virtual false, abstract: false, final false
   inline void Or(::System::Xml::Schema::BitSet* other);
 
-  /// @brief Method Set, addr 0x6313350, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x631adcc, size 0x5c, virtual false, abstract: false, final false
   inline void Set(int32_t index);
 
-  /// @brief Method Subscript, addr 0x63132a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Subscript, addr 0x631ad20, size 0x8, virtual false, abstract: false, final false
   inline int32_t Subscript(int32_t bitIndex);
 
   constexpr ::ArrayW<uint32_t> const& __cordl_internal_get_bits() const;
@@ -88,19 +88,19 @@ public:
 
   constexpr void __cordl_internal_set_count(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6313238, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631acb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x631323c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631acb8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t count);
 
-  /// @brief Method get_Count, addr 0x63132ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x631ad28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x63138c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x631b33c, size 0x64, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Item, addr 0x63132b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x631ad30, size 0x4, virtual false, abstract: false, final false
   inline bool get_Item(int32_t index);
 
 protected:
@@ -118,7 +118,7 @@ public:
   BitSet(BitSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9574 };
 
   /// @brief Field count, offset: 0x10, size: 0x4, def value: None
   int32_t ___count;

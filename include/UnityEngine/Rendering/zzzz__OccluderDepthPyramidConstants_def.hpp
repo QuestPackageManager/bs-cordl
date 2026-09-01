@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OccluderDepthPyramidConstants.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OccluderDepthPyramidConstants.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   constexpr OccluderDepthPyramidConstants___InvViewProjMatrix_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17764 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x180 };
@@ -101,7 +101,7 @@ public:
   constexpr OccluderDepthPyramidConstants___MipOffsetAndSize_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17765 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -137,7 +137,7 @@ public:
   constexpr OccluderDepthPyramidConstants___SilhouettePlanes_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17766 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -173,7 +173,7 @@ public:
   constexpr OccluderDepthPyramidConstants___SrcOffset_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17767 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -229,7 +229,7 @@ public:
                                           uint32_t _DstSubviewIndices, uint32_t _MipCount, uint32_t _SilhouettePlaneCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17768 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2b0 };

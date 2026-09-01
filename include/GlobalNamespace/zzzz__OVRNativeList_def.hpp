@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRNativeList.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRNativeList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
   /// @brief Method AllocateEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::GlobalNamespace::OVRNativeList_1<T> AllocateEmpty(::Unity::Collections::Allocator allocator);
 
-  /// @brief Method .ctor, addr 0x5f009c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f04e84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<int32_t> count);
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   constexpr OVRNativeList_CapacityHelper(::System::Nullable_1<int32_t> _count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7946 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -110,7 +110,7 @@ public:
   OVRNativeList(OVRNativeList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

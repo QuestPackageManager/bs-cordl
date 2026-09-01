@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ColorGamut.hpp"
+// IWYU pragma private; include "UnityEngine\ColorGamut.hpp"
 #include "UnityEngine/zzzz__ColorGamut_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ColorGamut::ColorGamut(int32_t value__) noexcept {

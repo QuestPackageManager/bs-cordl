@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/LazyDerSet.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\LazyDerSet.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerSet_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__LazyDerSet_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::LazyDerSet::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x368f90c;
+  constexpr static std::size_t addrs = 0x36936cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::Parse)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x368fc0c;
+  constexpr static std::size_t addrs = 0x36939cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSet*>(), { "Parse", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::LazyDerSet::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::LazyDerSet::get_Item)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x368fd78;
+  constexpr static std::size_t addrs = 0x3693b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x368fda0;
+  constexpr static std::size_t addrs = 0x3693b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::LazyDerSet::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSet::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x368fdc4;
+  constexpr static std::size_t addrs = 0x3693b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSet::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(&::Org::BouncyCastle::Asn1::LazyDerSet::Encode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x368fde8;
+  constexpr static std::size_t addrs = 0x3693ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

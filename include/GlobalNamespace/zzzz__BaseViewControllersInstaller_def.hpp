@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BaseViewControllersInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\BaseViewControllersInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
                       put = __cordl_internal_set__simpleDialogPromptViewControllerPrefab)) ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>
       _simpleDialogPromptViewControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x59f2af8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59fabcc, size 0xc8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BaseViewControllersInstaller* New_ctor();
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__simpleDialogPromptViewControllerPrefab(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> value);
 
-  /// @brief Method .ctor, addr 0x59f2bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59fac94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   BaseViewControllersInstaller(BaseViewControllersInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6299 };
 
   /// @brief Field _simpleDialogPromptViewControllerPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> ____simpleDialogPromptViewControllerPrefab;

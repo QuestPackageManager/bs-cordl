@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LabelScopeInfo.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LabelScopeInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,16 +45,16 @@ public:
                       put = __cordl_internal_set__labels)) ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*,
                                                                                                                                  ::System::Linq::Expressions::Interpreter::LabelInfo*>* _labels;
 
-  /// @brief Method AddLabelInfo, addr 0x5f97868, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddLabelInfo, addr 0x5f9f2e4, size 0xa8, virtual false, abstract: false, final false
   inline void AddLabelInfo(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Interpreter::LabelInfo* info);
 
-  /// @brief Method ContainsTarget, addr 0x5f976a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ContainsTarget, addr 0x5f9f124, size 0x70, virtual false, abstract: false, final false
   inline bool ContainsTarget(::System::Linq::Expressions::LabelTarget* target);
 
   static inline ::System::Linq::Expressions::Interpreter::LabelScopeInfo* New_ctor(::System::Linq::Expressions::Interpreter::LabelScopeInfo* parent,
                                                                                    ::System::Linq::Expressions::Interpreter::LabelScopeKind kind);
 
-  /// @brief Method TryGetLabelInfo, addr 0x5f97d00, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TryGetLabelInfo, addr 0x5f9f77c, size 0x7c, virtual false, abstract: false, final false
   inline bool TryGetLabelInfo(::System::Linq::Expressions::LabelTarget* target, ::by_ref<::System::Linq::Expressions::Interpreter::LabelInfo*> info);
 
   constexpr ::System::Linq::Expressions::Interpreter::LabelScopeKind const& __cordl_internal_get_Kind() const;
@@ -78,10 +78,10 @@ public:
   constexpr void __cordl_internal_set__labels(
       ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x5f97cf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f9f770, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LabelScopeInfo* parent, ::System::Linq::Expressions::Interpreter::LabelScopeKind kind);
 
-  /// @brief Method get_CanJumpInto, addr 0x5f97be4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_CanJumpInto, addr 0x5f9f660, size 0x10, virtual false, abstract: false, final false
   inline bool get_CanJumpInto();
 
 protected:
@@ -99,7 +99,7 @@ public:
   LabelScopeInfo(LabelScopeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16399 };
 
   /// @brief Field _labels, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>* ____labels;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVROverlayMeshGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVROverlayMeshGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,7 +129,7 @@ public:
   static ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace const Top;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7267 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -211,64 +211,64 @@ public:
   /// @brief Field _Verts, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__Verts, put = __cordl_internal_set__Verts)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _Verts;
 
-  /// @brief Method BuildCube, addr 0x5e97054, size 0x83c, virtual false, abstract: false, final false
+  /// @brief Method BuildCube, addr 0x5e9b510, size 0x83c, virtual false, abstract: false, final false
   static inline void BuildCube(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv,
                                ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* cubeUV, ::System::Collections::Generic::List_1<int32_t>* triangles, ::UnityEngine::Vector3 position,
                                ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale, float_t worldScale, int32_t subQuads, float_t expandCoefficient);
 
-  /// @brief Method BuildHemicylinder, addr 0x5e97ed4, size 0x5cc, virtual false, abstract: false, final false
+  /// @brief Method BuildHemicylinder, addr 0x5e9c390, size 0x5cc, virtual false, abstract: false, final false
   static inline void BuildHemicylinder(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv,
                                        ::System::Collections::Generic::List_1<int32_t>* triangles, ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect, int32_t longitudes);
 
-  /// @brief Method BuildQuad, addr 0x5e97890, size 0x644, virtual false, abstract: false, final false
+  /// @brief Method BuildQuad, addr 0x5e9bd4c, size 0x644, virtual false, abstract: false, final false
   static inline void BuildQuad(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv,
                                ::System::Collections::Generic::List_1<int32_t>* triangles, ::UnityEngine::Rect rect);
 
-  /// @brief Method BuildSphere, addr 0x5e96984, size 0x6d0, virtual false, abstract: false, final false
+  /// @brief Method BuildSphere, addr 0x5e9ae40, size 0x6d0, virtual false, abstract: false, final false
   static inline void BuildSphere(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv,
                                  ::System::Collections::Generic::List_1<int32_t>* triangles, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale,
                                  ::UnityEngine::Rect rect, float_t worldScale, int32_t latitudes, int32_t longitudes, float_t expandCoefficient);
 
-  /// @brief Method GenerateMesh, addr 0x5e96884, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GenerateMesh, addr 0x5e9ad40, size 0x100, virtual false, abstract: false, final false
   static inline void GenerateMesh(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs,
                                   ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* cubeUVs, ::System::Collections::Generic::List_1<int32_t>* tris,
                                   ::GlobalNamespace::OVROverlay_OverlayShape shape, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale,
                                   ::UnityEngine::Rect rect);
 
-  /// @brief Method GetCubeUV, addr 0x5e98568, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetCubeUV, addr 0x5e9ca24, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetCubeUV(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace face, float_t sideU, float_t sideV, float_t expandScale, float_t expandOffset);
 
-  /// @brief Method GetCubeVert, addr 0x5e9864c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetCubeVert, addr 0x5e9cb08, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetCubeVert(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace face, float_t sideU, float_t sideV);
 
-  /// @brief Method GetSphereUV, addr 0x5e984dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetSphereUV, addr 0x5e9c998, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetSphereUV(float_t theta, float_t phi, float_t expandScale);
 
-  /// @brief Method GetSphereVert, addr 0x5e98514, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSphereVert, addr 0x5e9c9d0, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetSphereVert(float_t theta, float_t phi);
 
-  /// @brief Method Initialize, addr 0x5e95c28, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5e9a0e4, size 0x168, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InverseTransformVert, addr 0x5e984a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformVert, addr 0x5e9c95c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 InverseTransformVert(::by_ref<::UnityEngine::Vector3> vert, ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Vector3> scale,
                                                             float_t worldScale);
 
   static inline ::GlobalNamespace::OVROverlayMeshGenerator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5e95d90, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e9a24c, size 0x1a4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x5e95c24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e9a0e0, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetOverlay, addr 0x5e96678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetOverlay, addr 0x5e9ab34, size 0x8, virtual false, abstract: false, final false
   inline void SetOverlay(::GlobalNamespace::OVROverlay* overlay);
 
-  /// @brief Method TryUpdateMesh, addr 0x5e95f34, size 0x744, virtual false, abstract: false, final false
+  /// @brief Method TryUpdateMesh, addr 0x5e9a3f0, size 0x744, virtual false, abstract: false, final false
   inline void TryUpdateMesh();
 
-  /// @brief Method UpdateMesh, addr 0x5e96680, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method UpdateMesh, addr 0x5e9ab3c, size 0x204, virtual false, abstract: false, final false
   inline void UpdateMesh(::GlobalNamespace::OVROverlay_OverlayShape shape, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect,
                          bool cubemap);
 
@@ -386,7 +386,7 @@ public:
 
   constexpr void __cordl_internal_set__Verts(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x5e9874c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e9cc08, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -404,7 +404,7 @@ public:
   OVROverlayMeshGenerator(OVROverlayMeshGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7268 };
 
   /// @brief Field _Tris, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ____Tris;

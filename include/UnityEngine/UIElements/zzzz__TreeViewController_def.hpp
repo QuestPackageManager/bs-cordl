@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TreeViewController.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TreeViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,24 +28,24 @@ public:
   // Declarations
   __declspec(property(get = get_treeView)) ::UnityEngine::UIElements::TreeView* treeView;
 
-  /// @brief Method BindItem, addr 0x6c4d3dc, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x6c54f60, size 0x190, virtual true, abstract: false, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0x6c4d5bc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x6c55140, size 0x3c, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method MakeItem, addr 0x6c4d2dc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x6c54e60, size 0x100, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::TreeViewController* New_ctor();
 
-  /// @brief Method UnbindItem, addr 0x6c4d56c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method UnbindItem, addr 0x6c550f0, size 0x50, virtual true, abstract: false, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method .ctor, addr 0x6c4d5f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5517c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_treeView, addr 0x6c4d25c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_treeView, addr 0x6c54de0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TreeView* get_treeView();
 
 protected:

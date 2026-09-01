@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/StencilStateData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\StencilStateData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_zFailOperation(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method .ctor, addr 0x6835558, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x683cfd4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   StencilStateData(StencilStateData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12578 };
 
   /// @brief Field overrideStencilState, offset: 0x10, size: 0x1, def value: None
   bool ___overrideStencilState;

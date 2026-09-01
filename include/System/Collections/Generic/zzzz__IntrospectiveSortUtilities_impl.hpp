@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Generic/IntrospectiveSortUtilities.hpp"
+// IWYU pragma private; include "System\Collections\Generic\IntrospectiveSortUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__IntrospectiveSortUtilities_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Collections::Generic::IntrospectiveSortUtilities::FloorLog2PlusOne)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5bef34c;
+  constexpr static std::size_t addrs = 0x5bf3808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Collections::Generic::IntrospectiveSortUtilities::ThrowOrIgnoreBadComparer)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5bef37c;
+  constexpr static std::size_t addrs = 0x5bf3838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Events/UnityEvent_3.hpp"
+// IWYU pragma private; include "UnityEngine\Events\UnityEvent_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   UnityEvent_3(UnityEvent_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10461 };
 
   /// @brief Field m_InvokeArray, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Object*> ___m_InvokeArray;

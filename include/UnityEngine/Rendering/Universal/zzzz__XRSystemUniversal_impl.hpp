@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/XRSystemUniversal.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\XRSystemUniversal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__XRSystemUniversal_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::BeginLateLatching)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x68e12d4;
+  constexpr static std::size_t addrs = 0x68e8d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::EndLateLatching)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68e13b0;
+  constexpr static std::size_t addrs = 0x68e8e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::UnmarkShaderProperties)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68e1478;
+  constexpr static std::size_t addrs = 0x68e8ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::XRPassUniversal*, bool)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::MarkShaderProperties)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x68e1504;
+  constexpr static std::size_t addrs = 0x68e8f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRSystemUniversal*>(),

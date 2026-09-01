@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Controls/DoubleControl.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Controls\DoubleControl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DoubleControl_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::DoubleControl._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DoubleControl::*)()>(&::UnityEngine::InputSystem::Controls::DoubleControl::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64f3980;
+  constexpr static std::size_t addrs = 0x64fb3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DoubleControl*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::InputSystem::Controls::DoubleControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::DoubleControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64f3a04;
+  constexpr static std::size_t addrs = 0x64fb480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DoubleControl*>(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DoubleControl::*)(double_t, void*)>(
     &::UnityEngine::InputSystem::Controls::DoubleControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x64f3a70;
+  constexpr static std::size_t addrs = 0x64fb4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DoubleControl*>(),

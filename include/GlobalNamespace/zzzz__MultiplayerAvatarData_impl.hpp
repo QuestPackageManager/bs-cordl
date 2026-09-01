@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerAvatarData.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerAvatarData.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerAvatarData._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerAvatarData::*)(uint32_t, ::ArrayW<uint8_t>)>(&::GlobalNamespace::MultiplayerAvatarData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3778440;
+  constexpr static std::size_t addrs = 0x377e1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

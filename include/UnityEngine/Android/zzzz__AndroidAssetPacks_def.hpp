@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPacks.hpp"
+// IWYU pragma private; include "UnityEngine\Android\AndroidAssetPacks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,13 +97,13 @@ public:
 
   static inline ::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c* New_ctor();
 
-  /// @brief Method <.ctor>b__2_0, addr 0x6a2c040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_0, addr 0x6a33abc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__2_0(::StringW ap);
 
-  /// @brief Method <.ctor>b__2_1, addr 0x6a2c048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_1, addr 0x6a33ac4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Android::AndroidAssetPackStatus __ctor_b__2_1(::StringW ap);
 
-  /// @brief Method .ctor, addr 0x6a2c03c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a33ab8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c* getStaticF___9();
@@ -133,7 +133,7 @@ public:
   AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c(AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20170 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -172,10 +172,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Callback(::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x6a2bb40, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a335bc, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>* callback, ::ArrayW<::StringW> assetPacks);
 
-  /// @brief Method onStatusUpdate, addr 0x6a2bd38, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method onStatusUpdate, addr 0x6a337b4, size 0x274, virtual false, abstract: false, final false
   inline void onStatusUpdate(::StringW assetPackName, int32_t assetPackStatus, int64_t assetPackSize, int64_t assetPackBytesDownloaded, int32_t assetPackTransferProgress, int32_t assetPackErrorCode);
 
 protected:
@@ -193,7 +193,7 @@ public:
   AndroidAssetPacks_AssetPackManagerDownloadStatusCallback(AndroidAssetPacks_AssetPackManagerDownloadStatusCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20171 };
 
   /// @brief Field m_Callback, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>* ___m_Callback;
@@ -231,10 +231,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Callback(::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>* value);
 
-  /// @brief Method .ctor, addr 0x6a2c050, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a33acc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>* callback);
 
-  /// @brief Method onMobileDataConfirmationResult, addr 0x6a2c0d8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method onMobileDataConfirmationResult, addr 0x6a33b54, size 0x88, virtual false, abstract: false, final false
   inline void onMobileDataConfirmationResult(bool allowed);
 
 protected:
@@ -252,7 +252,7 @@ public:
   AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback(AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20172 };
 
   /// @brief Field m_Callback, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>* ___m_Callback;
@@ -311,10 +311,10 @@ public:
 
   constexpr void __cordl_internal_set_m_States(::System::Collections::Generic::List_1<::UnityEngine::Android::AndroidAssetPackState*>* value);
 
-  /// @brief Method .ctor, addr 0x6a2c160, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a33bdc, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*>>* callback, ::ArrayW<::StringW> assetPacks);
 
-  /// @brief Method onStatusResult, addr 0x6a2c260, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method onStatusResult, addr 0x6a33cdc, size 0x360, virtual false, abstract: false, final false
   inline void onStatusResult(int64_t totalBytes, ::ArrayW<::StringW> assetPackNames, ::ArrayW<int32_t> assetPackStatuses, ::ArrayW<int32_t> assetPackErrorCodes);
 
 protected:
@@ -332,7 +332,7 @@ public:
   AndroidAssetPacks_AssetPackManagerStatusQueryCallback(AndroidAssetPacks_AssetPackManagerStatusQueryCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20173 };
 
   /// @brief Field m_Callback, offset: 0x20, size: 0x8, def value: None
   ::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*>>* ___m_Callback;
@@ -379,7 +379,7 @@ public:
   /// @brief Field s_JavaPlayAssetDeliveryWrapper, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_JavaPlayAssetDeliveryWrapper, put = setStaticF_s_JavaPlayAssetDeliveryWrapper)) ::UnityEngine::AndroidJavaObject* s_JavaPlayAssetDeliveryWrapper;
 
-  /// @brief Method GetAssetPackManager, addr 0x6a2b7c0, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method GetAssetPackManager, addr 0x6a3323c, size 0x380, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* GetAssetPackManager();
 
   static inline bool getStaticF_s_ApiMissing();
@@ -405,7 +405,7 @@ public:
   AndroidAssetPacks(AndroidAssetPacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

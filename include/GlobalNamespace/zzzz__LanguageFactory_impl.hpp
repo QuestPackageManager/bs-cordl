@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LanguageFactory.hpp"
+// IWYU pragma private; include "GlobalNamespace\LanguageFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LanguageFactory_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguage_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LanguageFactory::*)(::GlobalNamespace::PlayerDataModel*, ::GlobalNamespace::SettingsManager*,
                                                                                                     ::OculusStudios::Platform::Core::IPlatform*)>(&::GlobalNamespace::LanguageFactory::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x37700e8;
+  constexpr static std::size_t addrs = 0x3775d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::Polyglot::LocalizationLanguage (::GlobalNamespace::LanguageFactory::*)()>(&::GlobalNamespace::LanguageFactory::Create)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x37700f4;
+  constexpr static std::size_t addrs = 0x3775d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LanguageFactory*>(), { "Create", {}, {} })));

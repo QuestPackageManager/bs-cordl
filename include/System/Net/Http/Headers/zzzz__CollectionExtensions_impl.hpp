@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/CollectionExtensions.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\CollectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__CollectionExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*, ::StringW, ::StringW)>(
     &::System::Net::Http::Headers::CollectionExtensions::SetValue)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x60dd038;
+  constexpr static std::size_t addrs = 0x60e4ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

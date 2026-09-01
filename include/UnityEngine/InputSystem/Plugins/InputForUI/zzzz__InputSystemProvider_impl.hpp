@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Plugins/InputForUI/InputSystemProvider.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Plugins\InputForUI\InputSystemProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__PointerState_impl.hpp"
 #include "UnityEngine/InputSystem/Plugins/InputForUI/zzzz__InputSystemProvider_def.hpp"
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration (*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider_Configuration::GetDefaultConfiguration)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x64dc5ac;
+  constexpr static std::size_t addrs = 0x64e4028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider___c::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64e04ac;
+  constexpr static std::size_t addrs = 0x64e7f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider___c::*)(
     ::UnityEngine::InputForUI::Event, ::UnityEngine::InputForUI::Event)>(&::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider___c::_Update_b__33_0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64e04b0;
+  constexpr static std::size_t addrs = 0x64e7f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::Bootstrap)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64dc390;
+  constexpr static std::size_t addrs = 0x64e3e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventModifiers (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::get_m_EventModifiers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64dc394;
+  constexpr static std::size_t addrs = 0x64e3e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::DiscreteTime (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::get_m_CurrentTime)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64dc3ac;
+  constexpr static std::size_t addrs = 0x64e3e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::Initialize)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x64dc3c4;
+  constexpr static std::size_t addrs = 0x64e3e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::Shutdown)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x64dd058;
+  constexpr static std::size_t addrs = 0x64e4ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnActionsChange)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64dd7f8;
+  constexpr static std::size_t addrs = 0x64e5274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::Update)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x64dd830;
+  constexpr static std::size_t addrs = 0x64e52ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ResetSeenEvents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64ddea0;
+  constexpr static std::size_t addrs = 0x64e591c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ActionAssetIsNotNull)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64ddeac;
+  constexpr static std::size_t addrs = 0x64e5928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::Unity::IntegerTime::DiscreteTime)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::DirectionNavigation)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x64ddc9c;
+  constexpr static std::size_t addrs = 0x64e5718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -271,7 +271,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputForUI::NavigationEvent_Direction)>(
         &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::GetActiveDeviceFromDirection)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x64de124;
+  constexpr static std::size_t addrs = 0x64e5ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::UnityEngine::Vector2, bool> (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ReadCurrentNavigationMoveVector)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x64ddf10;
+  constexpr static std::size_t addrs = 0x64e598c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::NavigationEvent_Direction (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ReadNextPreviousDirection)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x64de014;
+  constexpr static std::size_t addrs = 0x64e5a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::InputForUI::Event, ::UnityEngine::InputForUI::Event)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::SortEvents)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x64de3b4;
+  constexpr static std::size_t addrs = 0x64e5e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(bool)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnFocusChanged)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x64de494;
+  constexpr static std::size_t addrs = 0x64e5f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputForUI::Event_Type)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::RequestCurrentState)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x64de620;
+  constexpr static std::size_t addrs = 0x64e609c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::get_playerCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64dea64;
+  constexpr static std::size_t addrs = 0x64e64e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, int32_t)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ScreenBottomLeftToPanelPosition)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x64dea6c;
+  constexpr static std::size_t addrs = 0x64e64e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI
     ::Unity::IntegerTime::DiscreteTime, ::by_ref<::UnityEngine::InputForUI::PointerState>, ::UnityEngine::InputForUI::EventSource)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::ToPointerStateEvent)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x64de960;
+  constexpr static std::size_t addrs = 0x64e63dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventSource (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(
     ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::GetEventSource)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64deb6c;
+  constexpr static std::size_t addrs = 0x64e65e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventSource (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(
     ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::GetEventSource)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x64de224;
+  constexpr static std::size_t addrs = 0x64e5ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::InputForUI::PointerState> (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(
     ::UnityEngine::InputForUI::EventSource)>(&::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::GetPointerStateForSource)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64deb9c;
+  constexpr static std::size_t addrs = 0x64e6618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::by_ref<::UnityEngine::InputForUI::Event>)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::DispatchFromCallback)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x64debbc;
+  constexpr static std::size_t addrs = 0x64e6638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider*>(),
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::InputSystem::Touchscreen*, ::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::FindTouchFingerIndex)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x64dece0;
+  constexpr static std::size_t addrs = 0x64e675c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnPointerPerformed)> {
   constexpr static std::size_t size = 0x834;
-  constexpr static std::size_t addrs = 0x64deff0;
+  constexpr static std::size_t addrs = 0x64e6a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -493,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnSubmitPerformed)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x64df824;
+  constexpr static std::size_t addrs = 0x64e72a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnCancelPerformed)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x64df940;
+  constexpr static std::size_t addrs = 0x64e73bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -524,7 +524,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Inpu
     ::UnityEngine::InputSystem::InputAction_CallbackContext, ::UnityEngine::InputForUI::EventSource, ::UnityEngine::InputForUI::PointerEvent_Button)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnClickPerformed)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x64dfa5c;
+  constexpr static std::size_t addrs = 0x64e74d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnLeftClickPerformed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64dfe68;
+  constexpr static std::size_t addrs = 0x64e78e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -557,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnMiddleClickPerformed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64dfea0;
+  constexpr static std::size_t addrs = 0x64e791c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnRightClickPerformed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64dfed8;
+  constexpr static std::size_t addrs = 0x64e7954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -587,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::OnScrollWheelPerformed)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x64dff10;
+  constexpr static std::size_t addrs = 0x64e798c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::RegisterNextPreviousAction)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64e02ec;
+  constexpr static std::size_t addrs = 0x64e7d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::UnregisterFixedActions)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64e03d4;
+  constexpr static std::size_t addrs = 0x64e7e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::RegisterActions)> {
   constexpr static std::size_t size = 0x890;
-  constexpr static std::size_t addrs = 0x64dc7c8;
+  constexpr static std::size_t addrs = 0x64e4244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::UnregisterActions)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x64dd150;
+  constexpr static std::size_t addrs = 0x64e4bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -658,7 +658,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::UnityW<::UnityEngine::InputSystem::InputActionAsset>>*)>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::SetOnRegisterActions)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64e03f8;
+  constexpr static std::size_t addrs = 0x64e7e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -673,7 +673,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::*)()>(
     &::UnityEngine::InputSystem::Plugins::InputForUI::InputSystemProvider::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64dc2ec;
+  constexpr static std::size_t addrs = 0x64e3d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

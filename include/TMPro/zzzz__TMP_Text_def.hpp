@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_Text.hpp"
+// IWYU pragma private; include "TMPro\TMP_Text.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -248,19 +248,19 @@ namespace TMPro {
 class CORDL_TYPE TMP_Text_MissingCharacterEventCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x699d6a4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x69a5120, size 0x8c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t unicode, int32_t stringIndex, ::StringW text, ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::TMP_Text* textComponent,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x699d730, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x69a51ac, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x699d690, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x69a510c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(int32_t unicode, int32_t stringIndex, ::StringW text, ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::TMP_Text* textComponent);
 
   static inline ::TMPro::TMP_Text_MissingCharacterEventCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x699d624, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a50a0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -278,7 +278,7 @@ public:
   TMP_Text_MissingCharacterEventCallback(TMP_Text_MissingCharacterEventCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16001 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -293,7 +293,7 @@ namespace TMPro {
 struct CORDL_TYPE TMP_Text_CharacterSubstitution {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x699d73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a51b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, uint32_t unicode);
 
   // Ctor Parameters []
@@ -304,7 +304,7 @@ public:
   constexpr TMP_Text_CharacterSubstitution(int32_t index, uint32_t unicode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16002 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -372,7 +372,7 @@ public:
   static ::TMPro::TMP_Text_TextInputSources const TextString;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16003 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -404,7 +404,7 @@ public:
   constexpr TMP_Text_TextProcessingElement(::TMPro::TextProcessingElementType elementType, uint32_t unicode, int32_t stringIndex, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16004 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -442,7 +442,7 @@ namespace TMPro {
 struct CORDL_TYPE TMP_Text_SpecialCharacter {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x699d744, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a51c0, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_Character* character, int32_t materialIndex);
 
   // Ctor Parameters []
@@ -455,7 +455,7 @@ public:
   constexpr TMP_Text_SpecialCharacter(::TMPro::TMP_Character* character, ::UnityW<::TMPro::TMP_FontAsset> fontAsset, ::UnityW<::UnityEngine::Material> material, int32_t materialIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16005 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -501,28 +501,28 @@ public:
 
   __declspec(property(get = get_Text)) ::ArrayW<uint32_t> Text;
 
-  /// @brief Method Resize, addr 0x699d90c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x69a5388, size 0x70, virtual false, abstract: false, final false
   inline void Resize(int32_t size);
 
-  /// @brief Method .ctor, addr 0x699d97c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a53f8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
-  /// @brief Method get_Capacity, addr 0x699d854, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Capacity, addr 0x69a52d0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
-  /// @brief Method get_Count, addr 0x699d86c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x69a52e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x699d87c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x69a52f8, size 0x30, virtual false, abstract: false, final false
   inline uint32_t get_Item(int32_t index);
 
-  /// @brief Method get_Text, addr 0x699d84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x69a52c8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t> get_Text();
 
-  /// @brief Method set_Count, addr 0x699d874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x69a52f0, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
-  /// @brief Method set_Item, addr 0x699d8ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x69a5328, size 0x60, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, uint32_t value);
 
   // Ctor Parameters []
@@ -533,7 +533,7 @@ public:
   constexpr TMP_Text_TextBackingContainer(::ArrayW<uint32_t> m_Array, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16006 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -569,10 +569,10 @@ public:
 
   static inline ::TMPro::TMP_Text___c* New_ctor();
 
-  /// @brief Method <.ctor>b__645_0, addr 0x699da38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__645_0, addr 0x69a54b4, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__645_0(::TMPro::TMP_TextInfo* _p0_);
 
-  /// @brief Method .ctor, addr 0x699da34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a54b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_Text___c* getStaticF___9();
@@ -598,7 +598,7 @@ public:
   TMP_Text___c(TMP_Text___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16007 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1540,293 +1540,293 @@ public:
 
   __declspec(property(get = get_wordWrappingRatios, put = set_wordWrappingRatios)) float_t wordWrappingRatios;
 
-  /// @brief Method AddFloatToInternalTextBackingArray, addr 0x696a370, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method AddFloatToInternalTextBackingArray, addr 0x6971dec, size 0x2e0, virtual false, abstract: false, final false
   inline void AddFloatToInternalTextBackingArray(float_t value, int32_t padding, int32_t precision, ::by_ref<int32_t> writeIndex);
 
-  /// @brief Method AddIntegerToInternalTextBackingArray, addr 0x696b130, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddIntegerToInternalTextBackingArray, addr 0x6972bac, size 0x12c, virtual false, abstract: false, final false
   inline void AddIntegerToInternalTextBackingArray(double_t number, int32_t padding, ::by_ref<int32_t> writeIndex);
 
-  /// @brief Method AdjustLineOffset, addr 0x6972c38, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method AdjustLineOffset, addr 0x697a6b4, size 0x1bc, virtual false, abstract: false, final false
   inline void AdjustLineOffset(int32_t startIndex, int32_t endIndex, float_t offset);
 
-  /// @brief Method CalculatePreferredValues, addr 0x696b864, size 0x22e4, virtual true, abstract: false, final false
+  /// @brief Method CalculatePreferredValues, addr 0x69732e0, size 0x22e4, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePreferredValues(::by_ref<float_t> fontSize, ::UnityEngine::Vector2 marginSize, bool isTextAutoSizingEnabled, ::TMPro::TextWrappingModes textWrapMode);
 
-  /// @brief Method ClearMarkupTagAttributes, addr 0x6978de0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ClearMarkupTagAttributes, addr 0x698085c, size 0xcc, virtual false, abstract: false, final false
   inline void ClearMarkupTagAttributes();
 
-  /// @brief Method ClearMesh, addr 0x6978274, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ClearMesh, addr 0x697fcf0, size 0x4, virtual true, abstract: false, final false
   inline void ClearMesh();
 
-  /// @brief Method ClearMesh, addr 0x6978278, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ClearMesh, addr 0x697fcf4, size 0x4, virtual true, abstract: false, final false
   inline void ClearMesh(bool uploadGeometry);
 
-  /// @brief Method ComputeMarginSize, addr 0x6972fac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ComputeMarginSize, addr 0x697aa28, size 0x4, virtual true, abstract: false, final false
   inline void ComputeMarginSize();
 
-  /// @brief Method ConvertToFloat, addr 0x6978dcc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToFloat, addr 0x6980848, size 0x14, virtual false, abstract: false, final false
   inline float_t ConvertToFloat(::ArrayW<char16_t> chars, int32_t startIndex, int32_t length);
 
-  /// @brief Method ConvertToFloat, addr 0x6978c58, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ConvertToFloat, addr 0x69806d4, size 0x174, virtual false, abstract: false, final false
   inline float_t ConvertToFloat(::ArrayW<char16_t> chars, int32_t startIndex, int32_t length, ::by_ref<int32_t> lastIndex);
 
-  /// @brief Method CreateMaterialInstance, addr 0x6968278, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method CreateMaterialInstance, addr 0x696fcf4, size 0xb8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> CreateMaterialInstance(::UnityEngine::Material* source);
 
-  /// @brief Method CrossFadeAlpha, addr 0x69686ec, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeAlpha, addr 0x6970168, size 0x50, virtual true, abstract: false, final false
   inline void CrossFadeAlpha(float_t alpha, float_t duration, bool ignoreTimeScale);
 
-  /// @brief Method CrossFadeColor, addr 0x6968660, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CrossFadeColor, addr 0x69700dc, size 0x8c, virtual true, abstract: false, final false
   inline void CrossFadeColor(::UnityEngine::Color targetColor, float_t duration, bool ignoreTimeScale, bool useAlpha);
 
-  /// @brief Method DestroySubMeshObjects, addr 0x6978270, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DestroySubMeshObjects, addr 0x697fcec, size 0x4, virtual true, abstract: false, final false
   inline void DestroySubMeshObjects();
 
-  /// @brief Method DoMissingGlyphCallback, addr 0x6978364, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method DoMissingGlyphCallback, addr 0x697fde0, size 0xb4, virtual false, abstract: false, final false
   inline void DoMissingGlyphCallback(int32_t unicode, int32_t stringIndex, ::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method DrawTextHighlight, addr 0x6976f90, size 0x554, virtual true, abstract: false, final false
+  /// @brief Method DrawTextHighlight, addr 0x697ea0c, size 0x554, virtual true, abstract: false, final false
   inline void DrawTextHighlight(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::by_ref<int32_t> index, ::UnityEngine::Color32 highlightColor);
 
-  /// @brief Method DrawUnderlineMesh, addr 0x6976284, size 0xc58, virtual true, abstract: false, final false
+  /// @brief Method DrawUnderlineMesh, addr 0x697dd00, size 0xc58, virtual true, abstract: false, final false
   inline void DrawUnderlineMesh(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::by_ref<int32_t> index, float_t startScale, float_t endScale, float_t maxScale, float_t sdfScale,
                                 ::UnityEngine::Color32 underlineColor);
 
-  /// @brief Method FillCharacterVertexBuffers, addr 0x6974718, size 0x828, virtual true, abstract: false, final false
+  /// @brief Method FillCharacterVertexBuffers, addr 0x697c194, size 0x828, virtual true, abstract: false, final false
   inline void FillCharacterVertexBuffers(int32_t i);
 
-  /// @brief Method FillCharacterVertexBuffers, addr 0x6974f40, size 0xb1c, virtual true, abstract: false, final false
+  /// @brief Method FillCharacterVertexBuffers, addr 0x697c9bc, size 0xb1c, virtual true, abstract: false, final false
   inline void FillCharacterVertexBuffers(int32_t i, bool isVolumetric);
 
-  /// @brief Method FillSpriteVertexBuffers, addr 0x6975a5c, size 0x828, virtual true, abstract: false, final false
+  /// @brief Method FillSpriteVertexBuffers, addr 0x697d4d8, size 0x828, virtual true, abstract: false, final false
   inline void FillSpriteVertexBuffers(int32_t i);
 
-  /// @brief Method ForceMeshUpdate, addr 0x6968648, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ForceMeshUpdate, addr 0x69700c4, size 0x4, virtual true, abstract: false, final false
   inline void ForceMeshUpdate(bool ignoreActiveState, bool forceTextReparsing);
 
-  /// @brief Method GetAttributeParameters, addr 0x6978bac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeParameters, addr 0x6980628, size 0xac, virtual false, abstract: false, final false
   inline int32_t GetAttributeParameters(::ArrayW<char16_t> chars, int32_t startIndex, int32_t length, ::by_ref<::ArrayW<float_t>> parameters);
 
-  /// @brief Method GetCanvasSpaceClippingRect, addr 0x6972c30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCanvasSpaceClippingRect, addr 0x697a6ac, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rect GetCanvasSpaceClippingRect();
 
-  /// @brief Method GetCompoundBounds, addr 0x6972c24, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetCompoundBounds, addr 0x697a6a0, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds GetCompoundBounds();
 
-  /// @brief Method GetEllipsisSpecialCharacter, addr 0x69778d8, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetEllipsisSpecialCharacter, addr 0x697f354, size 0x2bc, virtual false, abstract: false, final false
   inline void GetEllipsisSpecialCharacter(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method GetFontAssetForWeight, addr 0x6977c0c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetFontAssetForWeight, addr 0x697f688, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_FontAsset> GetFontAssetForWeight(int32_t fontWeight);
 
-  /// @brief Method GetMarkupTagHashCode, addr 0x696ad48, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetMarkupTagHashCode, addr 0x69727c4, size 0x108, virtual false, abstract: false, final false
   inline int32_t GetMarkupTagHashCode(::ArrayW<uint32_t> styleDefinition, int32_t readIndex);
 
-  /// @brief Method GetMarkupTagHashCode, addr 0x6969964, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetMarkupTagHashCode, addr 0x69713e0, size 0xfc, virtual false, abstract: false, final false
   inline int32_t GetMarkupTagHashCode(::TMPro::TMP_Text_TextBackingContainer styleDefinition, int32_t readIndex);
 
-  /// @brief Method GetMaterial, addr 0x6968258, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x696fcd4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method GetMaterials, addr 0x6968270, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMaterials, addr 0x696fcec, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>> GetMaterials(::ArrayW<::UnityEngine::Material*> mats);
 
-  /// @brief Method GetPaddingForMaterial, addr 0x6968410, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetPaddingForMaterial, addr 0x696fe8c, size 0x128, virtual true, abstract: false, final false
   inline float_t GetPaddingForMaterial();
 
-  /// @brief Method GetPaddingForMaterial, addr 0x6968538, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetPaddingForMaterial, addr 0x696ffb4, size 0x108, virtual true, abstract: false, final false
   inline float_t GetPaddingForMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method GetParsedText, addr 0x697827c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetParsedText, addr 0x697fcf8, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW GetParsedText();
 
-  /// @brief Method GetPreferredHeight, addr 0x6968010, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredHeight, addr 0x696fa8c, size 0x1a8, virtual false, abstract: false, final false
   inline float_t GetPreferredHeight();
 
-  /// @brief Method GetPreferredHeight, addr 0x696b378, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredHeight, addr 0x6972df4, size 0xa0, virtual false, abstract: false, final false
   inline float_t GetPreferredHeight(::UnityEngine::Vector2 margin);
 
-  /// @brief Method GetPreferredValues, addr 0x696b264, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredValues, addr 0x6972ce0, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPreferredValues();
 
-  /// @brief Method GetPreferredValues, addr 0x696b418, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredValues, addr 0x6972e94, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPreferredValues(::StringW text);
 
-  /// @brief Method GetPreferredValues, addr 0x696b4f0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredValues, addr 0x6972f6c, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPreferredValues(::StringW text, float_t width, float_t height);
 
-  /// @brief Method GetPreferredValues, addr 0x696b2b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredValues, addr 0x6972d2c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPreferredValues(float_t width, float_t height);
 
-  /// @brief Method GetPreferredWidth, addr 0x6967e80, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredWidth, addr 0x696f8fc, size 0x178, virtual false, abstract: false, final false
   inline float_t GetPreferredWidth();
 
-  /// @brief Method GetPreferredWidth, addr 0x696b310, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredWidth, addr 0x6972d8c, size 0x68, virtual false, abstract: false, final false
   inline float_t GetPreferredWidth(::UnityEngine::Vector2 margin);
 
-  /// @brief Method GetPreferredWidth, addr 0x696b5b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredWidth, addr 0x6973030, size 0x5c, virtual false, abstract: false, final false
   inline float_t GetPreferredWidth(::UnityEngine::Vector2 margin, ::TMPro::TextWrappingModes wrapMode);
 
-  /// @brief Method GetRenderedHeight, addr 0x6968224, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetRenderedHeight, addr 0x696fca0, size 0x24, virtual false, abstract: false, final false
   inline float_t GetRenderedHeight();
 
-  /// @brief Method GetRenderedHeight, addr 0x696b840, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetRenderedHeight, addr 0x69732bc, size 0x24, virtual false, abstract: false, final false
   inline float_t GetRenderedHeight(bool onlyVisibleCharacters);
 
-  /// @brief Method GetRenderedValues, addr 0x696b610, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetRenderedValues, addr 0x697308c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetRenderedValues();
 
-  /// @brief Method GetRenderedValues, addr 0x696b638, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetRenderedValues, addr 0x69730b4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetRenderedValues(bool onlyVisibleCharacters);
 
-  /// @brief Method GetRenderedWidth, addr 0x69681dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetRenderedWidth, addr 0x696fc58, size 0x24, virtual false, abstract: false, final false
   inline float_t GetRenderedWidth();
 
-  /// @brief Method GetRenderedWidth, addr 0x696b81c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetRenderedWidth, addr 0x6973298, size 0x24, virtual false, abstract: false, final false
   inline float_t GetRenderedWidth(bool onlyVisibleCharacters);
 
-  /// @brief Method GetSharedMaterials, addr 0x6968264, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetSharedMaterials, addr 0x696fce0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>> GetSharedMaterials();
 
-  /// @brief Method GetSpecialCharacters, addr 0x69778b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetSpecialCharacters, addr 0x697f32c, size 0x28, virtual false, abstract: false, final false
   inline void GetSpecialCharacters(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method GetStyle, addr 0x69658a8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x696d324, size 0x12c, virtual false, abstract: false, final false
   inline ::TMPro::TMP_Style* GetStyle(int32_t hashCode);
 
-  /// @brief Method GetStyleHashCode, addr 0x696b058, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetStyleHashCode, addr 0x6972ad4, size 0xd8, virtual false, abstract: false, final false
   inline int32_t GetStyleHashCode(::by_ref<::ArrayW<uint32_t>> text, int32_t index, ::by_ref<int32_t> closeIndex);
 
-  /// @brief Method GetStyleHashCode, addr 0x696af58, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetStyleHashCode, addr 0x69729d4, size 0x100, virtual false, abstract: false, final false
   inline int32_t GetStyleHashCode(::by_ref<::TMPro::TMP_Text_TextBackingContainer> text, int32_t index, ::by_ref<int32_t> closeIndex);
 
-  /// @brief Method GetTextBounds, addr 0x69673b0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetTextBounds, addr 0x696ee2c, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds GetTextBounds();
 
-  /// @brief Method GetTextBounds, addr 0x696b660, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetTextBounds, addr 0x69730dc, size 0x1bc, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds GetTextBounds(bool onlyVisibleCharacters);
 
-  /// @brief Method GetTextContainerLocalCorners, addr 0x6968640, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTextContainerLocalCorners, addr 0x69700bc, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3> GetTextContainerLocalCorners();
 
-  /// @brief Method GetTextElement, addr 0x6977cb0, size 0x5bc, virtual false, abstract: false, final false
+  /// @brief Method GetTextElement, addr 0x697f72c, size 0x5bc, virtual false, abstract: false, final false
   inline ::TMPro::TMP_TextElement* GetTextElement(uint32_t unicode, ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::FontStyles fontStyle, ::TMPro::FontWeight fontWeight,
                                                   ::by_ref<bool> isUsingAlternativeTypeface);
 
-  /// @brief Method GetTextInfo, addr 0x6972fa4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTextInfo, addr 0x697aa20, size 0x8, virtual true, abstract: false, final false
   inline ::TMPro::TMP_TextInfo* GetTextInfo(::StringW text);
 
-  /// @brief Method GetUTF16, addr 0x696ab58, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetUTF16, addr 0x69725d4, size 0xa8, virtual false, abstract: false, final false
   inline uint32_t GetUTF16(::ArrayW<uint32_t> text, int32_t i);
 
-  /// @brief Method GetUTF16, addr 0x69696e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetUTF16, addr 0x697115c, size 0xa8, virtual false, abstract: false, final false
   inline uint32_t GetUTF16(::TMPro::TMP_Text_TextBackingContainer text, int32_t i);
 
-  /// @brief Method GetUTF32, addr 0x696ac00, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetUTF32, addr 0x697267c, size 0x148, virtual false, abstract: false, final false
   inline uint32_t GetUTF32(::ArrayW<uint32_t> text, int32_t i);
 
-  /// @brief Method GetUTF32, addr 0x696982c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetUTF32, addr 0x69712a8, size 0x138, virtual false, abstract: false, final false
   inline uint32_t GetUTF32(::TMPro::TMP_Text_TextBackingContainer text, int32_t i);
 
-  /// @brief Method GetUnderlineSpecialCharacter, addr 0x6976edc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlineSpecialCharacter, addr 0x697e958, size 0xb4, virtual false, abstract: false, final false
   inline void GetUnderlineSpecialCharacter(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method HexCharsToColor, addr 0x697895c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method HexCharsToColor, addr 0x69803d8, size 0x250, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 HexCharsToColor(::ArrayW<char16_t> hexChars, int32_t startIndex, int32_t length);
 
-  /// @brief Method HexCharsToColor, addr 0x6978500, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method HexCharsToColor, addr 0x697ff7c, size 0x45c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 HexCharsToColor(::ArrayW<char16_t> hexChars, int32_t tagCount);
 
-  /// @brief Method HexToInt, addr 0x69784d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HexToInt, addr 0x697ff50, size 0x2c, virtual false, abstract: false, final false
   inline uint32_t HexToInt(char16_t hex);
 
-  /// @brief Method InsertClosingStyleTag, addr 0x6969db8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InsertClosingStyleTag, addr 0x6971834, size 0xa0, virtual false, abstract: false, final false
   inline void InsertClosingStyleTag(::by_ref<::ArrayW<::TMPro::TMP_Text_TextProcessingElement>> charBuffer, ::by_ref<int32_t> writeIndex);
 
-  /// @brief Method InsertClosingTextStyle, addr 0x6969c2c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InsertClosingTextStyle, addr 0x69716a8, size 0xc4, virtual false, abstract: false, final false
   inline void InsertClosingTextStyle(::TMPro::TMP_Style* style, ::by_ref<::ArrayW<::TMPro::TMP_Text_TextProcessingElement>> charBuffer, ::by_ref<int32_t> writeIndex);
 
-  /// @brief Method InsertNewLine, addr 0x6972fb0, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method InsertNewLine, addr 0x697aa2c, size 0x4cc, virtual false, abstract: false, final false
   inline void InsertNewLine(int32_t i, float_t baseScale, float_t currentElementScale, float_t currentEmScale, float_t boldSpacingAdjustment, float_t characterSpacingAdjustment, float_t width,
                             float_t lineGap, ::by_ref<bool> isMaxVisibleDescenderSet, ::by_ref<float_t> maxVisibleDescender);
 
-  /// @brief Method InsertOpeningStyleTag, addr 0x6969598, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InsertOpeningStyleTag, addr 0x6971014, size 0xa4, virtual false, abstract: false, final false
   inline void InsertOpeningStyleTag(::TMPro::TMP_Style* style, ::by_ref<::ArrayW<::TMPro::TMP_Text_TextProcessingElement>> charBuffer, ::by_ref<int32_t> writeIndex);
 
-  /// @brief Method InsertOpeningTextStyle, addr 0x6969a60, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InsertOpeningTextStyle, addr 0x69714dc, size 0xc4, virtual false, abstract: false, final false
   inline void InsertOpeningTextStyle(::TMPro::TMP_Style* style, ::by_ref<::ArrayW<::TMPro::TMP_Text_TextProcessingElement>> charBuffer, ::by_ref<int32_t> writeIndex);
 
-  /// @brief Method InsertTextStyleInTextProcessingArray, addr 0x696a758, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method InsertTextStyleInTextProcessingArray, addr 0x69721d4, size 0x400, virtual false, abstract: false, final false
   inline void InsertTextStyleInTextProcessingArray(::by_ref<::ArrayW<::TMPro::TMP_Text_TextProcessingElement>> charBuffer, ::by_ref<int32_t> writeIndex, ::ArrayW<uint32_t> styleDefinition);
 
-  /// @brief Method InternalCrossFadeAlpha, addr 0x6968740, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InternalCrossFadeAlpha, addr 0x69701bc, size 0x4, virtual true, abstract: false, final false
   inline void InternalCrossFadeAlpha(float_t alpha, float_t duration, bool ignoreTimeScale);
 
-  /// @brief Method InternalCrossFadeColor, addr 0x696873c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InternalCrossFadeColor, addr 0x69701b8, size 0x4, virtual true, abstract: false, final false
   inline void InternalCrossFadeColor(::UnityEngine::Color targetColor, float_t duration, bool ignoreTimeScale, bool useAlpha);
 
-  /// @brief Method InternalTextBackingArrayToString, addr 0x6965114, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InternalTextBackingArrayToString, addr 0x696cb90, size 0xc4, virtual false, abstract: false, final false
   inline ::StringW InternalTextBackingArrayToString();
 
-  /// @brief Method InternalUpdate, addr 0x69784d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InternalUpdate, addr 0x697ff4c, size 0x4, virtual true, abstract: false, final false
   inline void InternalUpdate();
 
-  /// @brief Method IsSelfOrLinkedAncestor, addr 0x6966738, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IsSelfOrLinkedAncestor, addr 0x696e1b4, size 0xe4, virtual false, abstract: false, final false
   inline bool IsSelfOrLinkedAncestor(::TMPro::TMP_Text* targetTextComponent);
 
-  /// @brief Method IsValidUTF16, addr 0x696963c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsValidUTF16, addr 0x69710b8, size 0xa4, virtual false, abstract: false, final false
   inline bool IsValidUTF16(::TMPro::TMP_Text_TextBackingContainer text, int32_t index);
 
-  /// @brief Method IsValidUTF32, addr 0x6969788, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsValidUTF32, addr 0x6971204, size 0xa4, virtual false, abstract: false, final false
   inline bool IsValidUTF32(::TMPro::TMP_Text_TextBackingContainer text, int32_t index);
 
-  /// @brief Method LoadDefaultSettings, addr 0x69774e4, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method LoadDefaultSettings, addr 0x697ef60, size 0x3cc, virtual false, abstract: false, final false
   inline void LoadDefaultSettings();
 
-  /// @brief Method LoadFontAsset, addr 0x6968250, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LoadFontAsset, addr 0x696fccc, size 0x4, virtual true, abstract: false, final false
   inline void LoadFontAsset();
 
   static inline ::TMPro::TMP_Text* New_ctor();
 
-  /// @brief Method PackUV, addr 0x6978418, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method PackUV, addr 0x697fe94, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 PackUV(float_t x, float_t y, float_t scale);
 
-  /// @brief Method PackUV, addr 0x6978470, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PackUV, addr 0x697feec, size 0x60, virtual false, abstract: false, final false
   inline float_t PackUV(float_t x, float_t y);
 
-  /// @brief Method ParseInputText, addr 0x6968744, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ParseInputText, addr 0x69701c0, size 0x104, virtual false, abstract: false, final false
   inline void ParseInputText();
 
-  /// @brief Method PopulateTextBackingArray, addr 0x6969488, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method PopulateTextBackingArray, addr 0x6970f04, size 0x110, virtual false, abstract: false, final false
   inline void PopulateTextBackingArray(::ArrayW<char16_t> sourceText, int32_t start, int32_t length);
 
-  /// @brief Method PopulateTextBackingArray, addr 0x6968848, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method PopulateTextBackingArray, addr 0x69702c4, size 0x18, virtual false, abstract: false, final false
   inline void PopulateTextBackingArray(::StringW sourceText);
 
-  /// @brief Method PopulateTextBackingArray, addr 0x6969278, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method PopulateTextBackingArray, addr 0x6970cf4, size 0x114, virtual false, abstract: false, final false
   inline void PopulateTextBackingArray(::StringW sourceText, int32_t start, int32_t length);
 
-  /// @brief Method PopulateTextBackingArray, addr 0x696938c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method PopulateTextBackingArray, addr 0x6970e08, size 0xfc, virtual false, abstract: false, final false
   inline void PopulateTextBackingArray(::System::Text::StringBuilder* sourceText, int32_t start, int32_t length);
 
-  /// @brief Method PopulateTextProcessingArray, addr 0x6968860, size 0xa18, virtual false, abstract: false, final false
+  /// @brief Method PopulateTextProcessingArray, addr 0x69702dc, size 0xa18, virtual false, abstract: false, final false
   inline void PopulateTextProcessingArray();
 
-  /// @brief Method ReleaseLinkedTextComponent, addr 0x696662c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseLinkedTextComponent, addr 0x696e0a8, size 0x10c, virtual false, abstract: false, final false
   inline void ReleaseLinkedTextComponent(::TMPro::TMP_Text* targetTextComponent);
 
-  /// @brief Method ReplaceClosingStyleTag, addr 0x6969cf0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ReplaceClosingStyleTag, addr 0x697176c, size 0xc8, virtual false, abstract: false, final false
   inline void ReplaceClosingStyleTag(::by_ref<::ArrayW<::TMPro::TMP_Text_TextProcessingElement>> charBuffer, ::by_ref<int32_t> writeIndex);
 
-  /// @brief Method ReplaceOpeningStyleTag, addr 0x696ae50, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ReplaceOpeningStyleTag, addr 0x69728cc, size 0x108, virtual false, abstract: false, final false
   inline bool ReplaceOpeningStyleTag(::by_ref<::ArrayW<uint32_t>> sourceText, int32_t srcIndex, ::by_ref<int32_t> srcOffset, ::by_ref<::ArrayW<::TMPro::TMP_Text_TextProcessingElement>> charBuffer,
                                      ::by_ref<int32_t> writeIndex);
 
-  /// @brief Method ReplaceOpeningStyleTag, addr 0x6969b24, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ReplaceOpeningStyleTag, addr 0x69715a0, size 0x108, virtual false, abstract: false, final false
   inline bool ReplaceOpeningStyleTag(::by_ref<::TMPro::TMP_Text_TextBackingContainer> sourceText, int32_t srcIndex, ::by_ref<int32_t> srcOffset,
                                      ::by_ref<::ArrayW<::TMPro::TMP_Text_TextProcessingElement>> charBuffer, ::by_ref<int32_t> writeIndex);
 
-  /// @brief Method ReplaceTagWithCharacter, addr 0x6977b94, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReplaceTagWithCharacter, addr 0x697f610, size 0x78, virtual false, abstract: false, final false
   inline void ReplaceTagWithCharacter(::ArrayW<int32_t> chars, int32_t insertionIndex, int32_t tagLength, char16_t c);
 
   /// @brief Method ResizeInternalArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1835,130 +1835,130 @@ public:
   /// @brief Method ResizeInternalArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ResizeInternalArray(::by_ref<::ArrayW<T>> array, int32_t size);
 
-  /// @brief Method ResizeLineExtents, addr 0x6972df4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ResizeLineExtents, addr 0x697a870, size 0x1b0, virtual false, abstract: false, final false
   inline void ResizeLineExtents(int32_t size);
 
-  /// @brief Method RestoreWordWrappingState, addr 0x6972604, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method RestoreWordWrappingState, addr 0x697a080, size 0x30c, virtual false, abstract: false, final false
   inline int32_t RestoreWordWrappingState(::by_ref<::TMPro::WordWrapState> state);
 
-  /// @brief Method SaveGlyphVertexInfo, addr 0x697347c, size 0xb94, virtual true, abstract: false, final false
+  /// @brief Method SaveGlyphVertexInfo, addr 0x697aef8, size 0xb94, virtual true, abstract: false, final false
   inline void SaveGlyphVertexInfo(float_t padding, float_t style_padding, ::UnityEngine::Color32 vertexColor);
 
-  /// @brief Method SaveSpriteVertexInfo, addr 0x6974010, size 0x708, virtual true, abstract: false, final false
+  /// @brief Method SaveSpriteVertexInfo, addr 0x697ba8c, size 0x708, virtual true, abstract: false, final false
   inline void SaveSpriteVertexInfo(::UnityEngine::Color32 vertexColor);
 
-  /// @brief Method SaveWordWrappingState, addr 0x6972910, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method SaveWordWrappingState, addr 0x697a38c, size 0x314, virtual false, abstract: false, final false
   inline void SaveWordWrappingState(::by_ref<::TMPro::WordWrapState> state, int32_t index, int32_t count);
 
-  /// @brief Method SetActiveSubMeshes, addr 0x697826c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetActiveSubMeshes, addr 0x697fce8, size 0x4, virtual true, abstract: false, final false
   inline void SetActiveSubMeshes(bool state);
 
-  /// @brief Method SetArraySizes, addr 0x696b25c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetArraySizes, addr 0x6972cd8, size 0x8, virtual true, abstract: false, final false
   inline int32_t SetArraySizes(::ArrayW<::TMPro::TMP_Text_TextProcessingElement> unicodeChars);
 
-  /// @brief Method SetCharArray, addr 0x696a740, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetCharArray, addr 0x69721bc, size 0x18, virtual false, abstract: false, final false
   inline void SetCharArray(::ArrayW<char16_t> sourceText);
 
-  /// @brief Method SetCharArray, addr 0x696a6e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetCharArray, addr 0x697215c, size 0x5c, virtual false, abstract: false, final false
   inline void SetCharArray(::ArrayW<char16_t> sourceText, int32_t start, int32_t length);
 
-  /// @brief Method SetCulling, addr 0x6968408, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetCulling, addr 0x696fe84, size 0x4, virtual true, abstract: false, final false
   inline void SetCulling();
 
-  /// @brief Method SetFaceColor, addr 0x69683f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetFaceColor, addr 0x696fe74, size 0x4, virtual true, abstract: false, final false
   inline void SetFaceColor(::UnityEngine::Color32 color);
 
-  /// @brief Method SetFontBaseMaterial, addr 0x6968260, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetFontBaseMaterial, addr 0x696fcdc, size 0x4, virtual true, abstract: false, final false
   inline void SetFontBaseMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method SetOutlineColor, addr 0x69683fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetOutlineColor, addr 0x696fe78, size 0x4, virtual true, abstract: false, final false
   inline void SetOutlineColor(::UnityEngine::Color32 color);
 
-  /// @brief Method SetOutlineThickness, addr 0x6968400, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetOutlineThickness, addr 0x696fe7c, size 0x4, virtual true, abstract: false, final false
   inline void SetOutlineThickness(float_t thickness);
 
-  /// @brief Method SetShaderDepth, addr 0x6968404, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetShaderDepth, addr 0x696fe80, size 0x4, virtual true, abstract: false, final false
   inline void SetShaderDepth();
 
-  /// @brief Method SetSharedMaterial, addr 0x6968254, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetSharedMaterial, addr 0x696fcd0, size 0x4, virtual true, abstract: false, final false
   inline void SetSharedMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method SetSharedMaterials, addr 0x696826c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetSharedMaterials, addr 0x696fce8, size 0x4, virtual true, abstract: false, final false
   inline void SetSharedMaterials(::ArrayW<::UnityEngine::Material*> materials);
 
-  /// @brief Method SetText, addr 0x696a6c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x6972144, size 0x18, virtual false, abstract: false, final false
   inline void SetText(::ArrayW<char16_t> sourceText);
 
-  /// @brief Method SetText, addr 0x696a73c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x69721b8, size 0x4, virtual false, abstract: false, final false
   inline void SetText(::ArrayW<char16_t> sourceText, int32_t start, int32_t length);
 
-  /// @brief Method SetText, addr 0x6969ea4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x6971920, size 0x7c, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText);
 
-  /// @brief Method SetText, addr 0x6969f9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x6971a18, size 0x20, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, float_t arg0);
 
-  /// @brief Method SetText, addr 0x696a304, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x6971d80, size 0x1c, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, float_t arg0, float_t arg1);
 
-  /// @brief Method SetText, addr 0x696a320, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x6971d9c, size 0x18, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, float_t arg0, float_t arg1, float_t arg2);
 
-  /// @brief Method SetText, addr 0x696a338, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x6971db4, size 0x14, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, float_t arg0, float_t arg1, float_t arg2, float_t arg3);
 
-  /// @brief Method SetText, addr 0x696a34c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x6971dc8, size 0x10, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, float_t arg0, float_t arg1, float_t arg2, float_t arg3, float_t arg4);
 
-  /// @brief Method SetText, addr 0x696a35c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x6971dd8, size 0xc, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, float_t arg0, float_t arg1, float_t arg2, float_t arg3, float_t arg4, float_t arg5);
 
-  /// @brief Method SetText, addr 0x696a368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x6971de4, size 0x8, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, float_t arg0, float_t arg1, float_t arg2, float_t arg3, float_t arg4, float_t arg5, float_t arg6);
 
-  /// @brief Method SetText, addr 0x6969fbc, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x6971a38, size 0x348, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, float_t arg0, float_t arg1, float_t arg2, float_t arg3, float_t arg4, float_t arg5, float_t arg6, float_t arg7);
 
-  /// @brief Method SetText, addr 0x6969f20, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x697199c, size 0x7c, virtual false, abstract: false, final false
   inline void SetText(::StringW sourceText, bool syncTextInputBox);
 
-  /// @brief Method SetText, addr 0x696a650, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x69720cc, size 0x1c, virtual false, abstract: false, final false
   inline void SetText(::System::Text::StringBuilder* sourceText);
 
-  /// @brief Method SetText, addr 0x696a66c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x69720e8, size 0x5c, virtual false, abstract: false, final false
   inline void SetText(::System::Text::StringBuilder* sourceText, int32_t start, int32_t length);
 
-  /// @brief Method SetTextInternal, addr 0x6969e58, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetTextInternal, addr 0x69718d4, size 0x4c, virtual false, abstract: false, final false
   inline void SetTextInternal(::StringW sourceText);
 
-  /// @brief Method SetTextSortingOrder, addr 0x69683f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetTextSortingOrder, addr 0x696fe70, size 0x4, virtual false, abstract: false, final false
   inline void SetTextSortingOrder(::ArrayW<int32_t> order);
 
-  /// @brief Method SetTextSortingOrder, addr 0x69683f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetTextSortingOrder, addr 0x696fe6c, size 0x4, virtual false, abstract: false, final false
   inline void SetTextSortingOrder(::TMPro::VertexSortingOrder order);
 
-  /// @brief Method SetVertexColorGradient, addr 0x6968330, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetVertexColorGradient, addr 0x696fdac, size 0xc0, virtual false, abstract: false, final false
   inline void SetVertexColorGradient(::TMPro::TMP_ColorGradient* gradient);
 
-  /// @brief Method SetVertices, addr 0x6968658, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetVertices, addr 0x69700d4, size 0x4, virtual true, abstract: false, final false
   inline void SetVertices(::ArrayW<::UnityEngine::Vector3> vertices);
 
-  /// @brief Method UpdateCulling, addr 0x696840c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateCulling, addr 0x696fe88, size 0x4, virtual true, abstract: false, final false
   inline void UpdateCulling();
 
-  /// @brief Method UpdateGeometry, addr 0x696864c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x69700c8, size 0x4, virtual true, abstract: false, final false
   inline void UpdateGeometry(::UnityEngine::Mesh* mesh, int32_t index);
 
-  /// @brief Method UpdateMeshPadding, addr 0x696865c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateMeshPadding, addr 0x69700d8, size 0x4, virtual true, abstract: false, final false
   inline void UpdateMeshPadding();
 
-  /// @brief Method UpdateVertexData, addr 0x6968654, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateVertexData, addr 0x69700d0, size 0x4, virtual true, abstract: false, final false
   inline void UpdateVertexData();
 
-  /// @brief Method UpdateVertexData, addr 0x6968650, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateVertexData, addr 0x69700cc, size 0x4, virtual true, abstract: false, final false
   inline void UpdateVertexData(::TMPro::TMP_VertexDataUpdateFlags flags);
 
-  /// @brief Method ValidateHtmlTag, addr 0x696db48, size 0x4abc, virtual false, abstract: false, final false
+  /// @brief Method ValidateHtmlTag, addr 0x69755c4, size 0x4abc, virtual false, abstract: false, final false
   inline bool ValidateHtmlTag(::ArrayW<::TMPro::TMP_Text_TextProcessingElement> chars, int32_t startIndex, ::by_ref<int32_t> endIndex);
 
   constexpr ::System::Action_1<::TMPro::TMP_TextInfo*>* const& __cordl_internal_get_OnPreRenderText() const;
@@ -3245,19 +3245,19 @@ public:
 
   constexpr void __cordl_internal_set_tag_NoParsing(bool value);
 
-  /// @brief Method .ctor, addr 0x6978eac, size 0x89c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6980928, size 0x89c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnFontAssetRequest, addr 0x6967520, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_OnFontAssetRequest, addr 0x696ef9c, size 0x108, virtual false, abstract: false, final false
   static inline void add_OnFontAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>* value);
 
-  /// @brief Method add_OnMissingCharacter, addr 0x6967940, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method add_OnMissingCharacter, addr 0x696f3bc, size 0xf0, virtual false, abstract: false, final false
   static inline void add_OnMissingCharacter(::TMPro::TMP_Text_MissingCharacterEventCallback* value);
 
-  /// @brief Method add_OnPreRenderText, addr 0x6967b20, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method add_OnPreRenderText, addr 0x696f59c, size 0xc0, virtual true, abstract: false, final false
   inline void add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
-  /// @brief Method add_OnSpriteAssetRequest, addr 0x6967730, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_OnSpriteAssetRequest, addr 0x696f1ac, size 0x108, virtual false, abstract: false, final false
   static inline void add_OnSpriteAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>* value);
 
   static inline ::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_OnFontAssetRequest();
@@ -3308,295 +3308,295 @@ public:
 
   static inline ::UnityEngine::Color32 getStaticF_s_colorWhite();
 
-  /// @brief Method get_alignment, addr 0x696616c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_alignment, addr 0x696dbe8, size 0x10, virtual false, abstract: false, final false
   inline ::TMPro::TextAlignmentOptions get_alignment();
 
-  /// @brief Method get_alpha, addr 0x69656d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alpha, addr 0x696d154, size 0x8, virtual false, abstract: false, final false
   inline float_t get_alpha();
 
-  /// @brief Method get_autoSizeTextContainer, addr 0x6967230, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_autoSizeTextContainer, addr 0x696ecac, size 0x8, virtual true, abstract: false, final false
   inline bool get_autoSizeTextContainer();
 
-  /// @brief Method get_bounds, addr 0x69672b8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x696ed34, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_characterSpacing, addr 0x69661c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterSpacing, addr 0x696dc3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_characterSpacing();
 
-  /// @brief Method get_characterWidthAdjustment, addr 0x6966364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterWidthAdjustment, addr 0x696dde0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_characterWidthAdjustment();
 
-  /// @brief Method get_color, addr 0x696564c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x696d0c8, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_colorGradient, addr 0x6965744, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_colorGradient, addr 0x696d1c0, size 0x18, virtual false, abstract: false, final false
   inline ::TMPro::VertexGradient get_colorGradient();
 
-  /// @brief Method get_colorGradientPreset, addr 0x6965788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorGradientPreset, addr 0x696d204, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_ColorGradient> get_colorGradientPreset();
 
-  /// @brief Method get_emojiFallbackSupport, addr 0x6966af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_emojiFallbackSupport, addr 0x696e56c, size 0x8, virtual false, abstract: false, final false
   inline bool get_emojiFallbackSupport();
 
-  /// @brief Method get_enableAutoSizing, addr 0x6965fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableAutoSizing, addr 0x696da34, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableAutoSizing();
 
-  /// @brief Method get_enableCulling, addr 0x6966c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableCulling, addr 0x696e6ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableCulling();
 
-  /// @brief Method get_enableKerning, addr 0x6966824, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_enableKerning, addr 0x696e2a0, size 0x5c, virtual false, abstract: false, final false
   inline bool get_enableKerning();
 
-  /// @brief Method get_enableVertexGradient, addr 0x696570c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableVertexGradient, addr 0x696d188, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableVertexGradient();
 
-  /// @brief Method get_enableWordWrapping, addr 0x6966410, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_enableWordWrapping, addr 0x696de8c, size 0x14, virtual false, abstract: false, final false
   inline bool get_enableWordWrapping();
 
-  /// @brief Method get_extraPadding, addr 0x6966a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extraPadding, addr 0x696e4bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_extraPadding();
 
-  /// @brief Method get_faceColor, addr 0x6965a58, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_faceColor, addr 0x696d4d4, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 get_faceColor();
 
-  /// @brief Method get_firstOverflowCharacterIndex, addr 0x696652c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstOverflowCharacterIndex, addr 0x696dfa8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_firstOverflowCharacterIndex();
 
-  /// @brief Method get_firstVisibleCharacter, addr 0x6966e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstVisibleCharacter, addr 0x696e8cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_firstVisibleCharacter();
 
-  /// @brief Method get_flexibleHeight, addr 0x6967d9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_flexibleHeight, addr 0x696f818, size 0x8, virtual true, abstract: false, final true
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_flexibleWidth, addr 0x6967da4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_flexibleWidth, addr 0x696f820, size 0x8, virtual true, abstract: false, final true
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_font, addr 0x69652d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_font, addr 0x696cd50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_FontAsset> get_font();
 
-  /// @brief Method get_fontFeatures, addr 0x69669f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontFeatures, addr 0x696e46c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>* get_fontFeatures();
 
-  /// @brief Method get_fontMaterial, addr 0x69654d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_fontMaterial, addr 0x696cf54, size 0x14, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_fontMaterial();
 
-  /// @brief Method get_fontMaterials, addr 0x69655ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_fontMaterials, addr 0x696d068, size 0x14, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>> get_fontMaterials();
 
-  /// @brief Method get_fontSharedMaterial, addr 0x69653a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_fontSharedMaterial, addr 0x696ce24, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_fontSharedMaterial();
 
-  /// @brief Method get_fontSharedMaterials, addr 0x696547c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_fontSharedMaterials, addr 0x696cef8, size 0x10, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>> get_fontSharedMaterials();
 
-  /// @brief Method get_fontSize, addr 0x6965ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x696d858, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method get_fontSizeMax, addr 0x6966054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontSizeMax, addr 0x696dad0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fontSizeMax();
 
-  /// @brief Method get_fontSizeMin, addr 0x6966008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontSizeMin, addr 0x696da84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fontSizeMin();
 
-  /// @brief Method get_fontStyle, addr 0x69660a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontStyle, addr 0x696db1c, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::FontStyles get_fontStyle();
 
-  /// @brief Method get_fontWeight, addr 0x6965e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontWeight, addr 0x696d8bc, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::FontWeight get_fontWeight();
 
-  /// @brief Method get_geometrySortingOrder, addr 0x6966d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_geometrySortingOrder, addr 0x696e7e0, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::VertexSortingOrder get_geometrySortingOrder();
 
-  /// @brief Method get_havePropertiesChanged, addr 0x69670b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_havePropertiesChanged, addr 0x696eb34, size 0x8, virtual false, abstract: false, final false
   inline bool get_havePropertiesChanged();
 
-  /// @brief Method get_horizontalAlignment, addr 0x69660fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalAlignment, addr 0x696db78, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::HorizontalAlignmentOptions get_horizontalAlignment();
 
-  /// @brief Method get_horizontalMapping, addr 0x6966c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalMapping, addr 0x696e718, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::TextureMappingOptions get_horizontalMapping();
 
-  /// @brief Method get_ignoreVisibility, addr 0x6966c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreVisibility, addr 0x696e6f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreVisibility();
 
-  /// @brief Method get_isOrthographic, addr 0x6966bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isOrthographic, addr 0x696e674, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOrthographic();
 
-  /// @brief Method get_isOverlay, addr 0x6966ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isOverlay, addr 0x696e61c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOverlay();
 
-  /// @brief Method get_isRightToLeftText, addr 0x696527c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isRightToLeftText, addr 0x696ccf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isRightToLeftText();
 
-  /// @brief Method get_isTextObjectScaleStatic, addr 0x6966d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTextObjectScaleStatic, addr 0x696e808, size 0x8, virtual false, abstract: false, final false
   inline bool get_isTextObjectScaleStatic();
 
-  /// @brief Method get_isTextOverflowing, addr 0x696651c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isTextOverflowing, addr 0x696df98, size 0x10, virtual false, abstract: false, final false
   inline bool get_isTextOverflowing();
 
-  /// @brief Method get_isTextTruncated, addr 0x696681c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTextTruncated, addr 0x696e298, size 0x8, virtual false, abstract: false, final false
   inline bool get_isTextTruncated();
 
-  /// @brief Method get_isUsingBold, addr 0x69660f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isUsingBold, addr 0x696db70, size 0x8, virtual false, abstract: false, final false
   inline bool get_isUsingBold();
 
-  /// @brief Method get_isUsingLegacyAnimationComponent, addr 0x69670e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isUsingLegacyAnimationComponent, addr 0x696eb64, size 0x8, virtual false, abstract: false, final false
   inline bool get_isUsingLegacyAnimationComponent();
 
-  /// @brief Method get_isVolumetricText, addr 0x6967248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isVolumetricText, addr 0x696ecc4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isVolumetricText();
 
-  /// @brief Method get_layoutElement, addr 0x6967dcc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_layoutElement, addr 0x696f848, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::LayoutElement> get_layoutElement();
 
-  /// @brief Method get_layoutPriority, addr 0x6968248, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_layoutPriority, addr 0x696fcc4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_layoutPriority();
 
-  /// @brief Method get_lineSpacing, addr 0x6966268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineSpacing, addr 0x696dce4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lineSpacing();
 
-  /// @brief Method get_lineSpacingAdjustment, addr 0x69662bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineSpacingAdjustment, addr 0x696dd38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lineSpacingAdjustment();
 
-  /// @brief Method get_linkedTextComponent, addr 0x6966534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_linkedTextComponent, addr 0x696dfb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_Text> get_linkedTextComponent();
 
-  /// @brief Method get_mappingUvLineOffset, addr 0x6966d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mappingUvLineOffset, addr 0x696e788, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mappingUvLineOffset();
 
-  /// @brief Method get_margin, addr 0x6966fa0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_margin, addr 0x696ea1c, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector4 get_margin();
 
-  /// @brief Method get_maxHeight, addr 0x6967dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxHeight, addr 0x696f840, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxHeight();
 
-  /// @brief Method get_maxVisibleCharacters, addr 0x6966e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVisibleCharacters, addr 0x696e904, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxVisibleCharacters();
 
-  /// @brief Method get_maxVisibleLines, addr 0x6966ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVisibleLines, addr 0x696e974, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxVisibleLines();
 
-  /// @brief Method get_maxVisibleWords, addr 0x6966ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVisibleWords, addr 0x696e93c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxVisibleWords();
 
-  /// @brief Method get_maxWidth, addr 0x6967dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxWidth, addr 0x696f838, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxWidth();
 
-  /// @brief Method get_mesh, addr 0x6967240, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x696ecbc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_minHeight, addr 0x6967db4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_minHeight, addr 0x696f830, size 0x8, virtual true, abstract: false, final true
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x6967dac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_minWidth, addr 0x696f828, size 0x8, virtual true, abstract: false, final true
   inline float_t get_minWidth();
 
-  /// @brief Method get_outlineColor, addr 0x6965b98, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_outlineColor, addr 0x696d614, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 get_outlineColor();
 
-  /// @brief Method get_outlineWidth, addr 0x6965cc4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_outlineWidth, addr 0x696d740, size 0xc0, virtual false, abstract: false, final false
   inline float_t get_outlineWidth();
 
-  /// @brief Method get_overflowMode, addr 0x69664c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overflowMode, addr 0x696df44, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::TextOverflowModes get_overflowMode();
 
-  /// @brief Method get_overrideColorTags, addr 0x6965a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideColorTags, addr 0x696d49c, size 0x8, virtual false, abstract: false, final false
   inline bool get_overrideColorTags();
 
-  /// @brief Method get_pageToDisplay, addr 0x6966f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageToDisplay, addr 0x696e9e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_pageToDisplay();
 
-  /// @brief Method get_paragraphSpacing, addr 0x6966310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_paragraphSpacing, addr 0x696dd8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_paragraphSpacing();
 
-  /// @brief Method get_parseCtrlCharacters, addr 0x6966b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parseCtrlCharacters, addr 0x696e5c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_parseCtrlCharacters();
 
-  /// @brief Method get_pixelsPerUnit, addr 0x6965e94, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_pixelsPerUnit, addr 0x696d910, size 0x124, virtual false, abstract: false, final false
   inline float_t get_pixelsPerUnit();
 
-  /// @brief Method get_preferredHeight, addr 0x6967ff8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_preferredHeight, addr 0x696fa74, size 0x18, virtual true, abstract: false, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_preferredWidth, addr 0x6967e68, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x696f8e4, size 0x18, virtual true, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_rectTransform, addr 0x6967194, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x696ec10, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_renderMode, addr 0x6966d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderMode, addr 0x696e7bc, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::TextRenderFlags get_renderMode();
 
-  /// @brief Method get_renderedHeight, addr 0x6968200, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_renderedHeight, addr 0x696fc7c, size 0x24, virtual true, abstract: false, final false
   inline float_t get_renderedHeight();
 
-  /// @brief Method get_renderedWidth, addr 0x69681b8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_renderedWidth, addr 0x696fc34, size 0x24, virtual true, abstract: false, final false
   inline float_t get_renderedWidth();
 
-  /// @brief Method get_richText, addr 0x6966a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_richText, addr 0x696e514, size 0x8, virtual false, abstract: false, final false
   inline bool get_richText();
 
-  /// @brief Method get_spriteAnimator, addr 0x6967ca0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_spriteAnimator, addr 0x696f71c, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_SpriteAnimator> get_spriteAnimator();
 
-  /// @brief Method get_spriteAsset, addr 0x69657b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spriteAsset, addr 0x696d22c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_SpriteAsset> get_spriteAsset();
 
-  /// @brief Method get_styleSheet, addr 0x696582c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleSheet, addr 0x696d2a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_StyleSheet> get_styleSheet();
 
-  /// @brief Method get_text, addr 0x6965100, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_text, addr 0x696cb7c, size 0x14, virtual true, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_textBounds, addr 0x696736c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_textBounds, addr 0x696ede8, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_textBounds();
 
-  /// @brief Method get_textInfo, addr 0x696704c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_textInfo, addr 0x696eac8, size 0x6c, virtual false, abstract: false, final false
   inline ::TMPro::TMP_TextInfo* get_textInfo();
 
-  /// @brief Method get_textPreprocessor, addr 0x696526c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textPreprocessor, addr 0x696cce8, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::ITextPreprocessor* get_textPreprocessor();
 
-  /// @brief Method get_textStyle, addr 0x6965870, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_textStyle, addr 0x696d2ec, size 0x38, virtual false, abstract: false, final false
   inline ::TMPro::TMP_Style* get_textStyle();
 
-  /// @brief Method get_textWrappingMode, addr 0x69663b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textWrappingMode, addr 0x696de34, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::TextWrappingModes get_textWrappingMode();
 
-  /// @brief Method get_tintAllSprites, addr 0x69657f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tintAllSprites, addr 0x696d270, size 0x8, virtual false, abstract: false, final false
   inline bool get_tintAllSprites();
 
-  /// @brief Method get_transform, addr 0x69670f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x696eb74, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
-  /// @brief Method get_useMaxVisibleDescender, addr 0x6966f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useMaxVisibleDescender, addr 0x696e9ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_useMaxVisibleDescender();
 
-  /// @brief Method get_vertexBufferAutoSizeReduction, addr 0x6966e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexBufferAutoSizeReduction, addr 0x696e8a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_vertexBufferAutoSizeReduction();
 
-  /// @brief Method get_verticalAlignment, addr 0x6966134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalAlignment, addr 0x696dbb0, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::VerticalAlignmentOptions get_verticalAlignment();
 
-  /// @brief Method get_verticalMapping, addr 0x6966cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalMapping, addr 0x696e750, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::TextureMappingOptions get_verticalMapping();
 
-  /// @brief Method get_wordSpacing, addr 0x6966214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wordSpacing, addr 0x696dc90, size 0x8, virtual false, abstract: false, final false
   inline float_t get_wordSpacing();
 
-  /// @brief Method get_wordWrappingRatios, addr 0x6966474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wordWrappingRatios, addr 0x696def0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_wordWrappingRatios();
 
-  /// @brief Method remove_OnFontAssetRequest, addr 0x6967628, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_OnFontAssetRequest, addr 0x696f0a4, size 0x108, virtual false, abstract: false, final false
   static inline void remove_OnFontAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>* value);
 
-  /// @brief Method remove_OnMissingCharacter, addr 0x6967a30, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method remove_OnMissingCharacter, addr 0x696f4ac, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_OnMissingCharacter(::TMPro::TMP_Text_MissingCharacterEventCallback* value);
 
-  /// @brief Method remove_OnPreRenderText, addr 0x6967be0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method remove_OnPreRenderText, addr 0x696f65c, size 0xc0, virtual true, abstract: false, final false
   inline void remove_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
-  /// @brief Method remove_OnSpriteAssetRequest, addr 0x6967838, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_OnSpriteAssetRequest, addr 0x696f2b4, size 0x108, virtual false, abstract: false, final false
   static inline void remove_OnSpriteAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>* value);
 
   static inline void setStaticF_OnFontAssetRequest(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>* value);
@@ -3647,211 +3647,211 @@ public:
 
   static inline void setStaticF_s_colorWhite(::UnityEngine::Color32 value);
 
-  /// @brief Method set_alignment, addr 0x696617c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alignment, addr 0x696dbf8, size 0x44, virtual false, abstract: false, final false
   inline void set_alignment(::TMPro::TextAlignmentOptions value);
 
-  /// @brief Method set_alpha, addr 0x69656e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x696d15c, size 0x2c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_autoSizeTextContainer, addr 0x6967238, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_autoSizeTextContainer, addr 0x696ecb4, size 0x8, virtual true, abstract: false, final false
   inline void set_autoSizeTextContainer(bool value);
 
-  /// @brief Method set_characterSpacing, addr 0x69661c8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_characterSpacing, addr 0x696dc44, size 0x4c, virtual false, abstract: false, final false
   inline void set_characterSpacing(float_t value);
 
-  /// @brief Method set_characterWidthAdjustment, addr 0x696636c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_characterWidthAdjustment, addr 0x696dde8, size 0x4c, virtual false, abstract: false, final false
   inline void set_characterWidthAdjustment(float_t value);
 
-  /// @brief Method set_color, addr 0x6965660, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_color, addr 0x696d0dc, size 0x78, virtual true, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_colorGradient, addr 0x696575c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_colorGradient, addr 0x696d1d8, size 0x2c, virtual false, abstract: false, final false
   inline void set_colorGradient(::TMPro::VertexGradient value);
 
-  /// @brief Method set_colorGradientPreset, addr 0x6965790, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_colorGradientPreset, addr 0x696d20c, size 0x20, virtual false, abstract: false, final false
   inline void set_colorGradientPreset(::TMPro::TMP_ColorGradient* value);
 
-  /// @brief Method set_emojiFallbackSupport, addr 0x6966af8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_emojiFallbackSupport, addr 0x696e574, size 0x50, virtual false, abstract: false, final false
   inline void set_emojiFallbackSupport(bool value);
 
-  /// @brief Method set_enableAutoSizing, addr 0x6965fc0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_enableAutoSizing, addr 0x696da3c, size 0x48, virtual false, abstract: false, final false
   inline void set_enableAutoSizing(bool value);
 
-  /// @brief Method set_enableCulling, addr 0x6966c38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enableCulling, addr 0x696e6b4, size 0x3c, virtual false, abstract: false, final false
   inline void set_enableCulling(bool value);
 
-  /// @brief Method set_enableKerning, addr 0x6966880, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method set_enableKerning, addr 0x696e2fc, size 0x170, virtual false, abstract: false, final false
   inline void set_enableKerning(bool value);
 
-  /// @brief Method set_enableVertexGradient, addr 0x6965714, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_enableVertexGradient, addr 0x696d190, size 0x30, virtual false, abstract: false, final false
   inline void set_enableVertexGradient(bool value);
 
-  /// @brief Method set_enableWordWrapping, addr 0x6966424, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_enableWordWrapping, addr 0x696dea0, size 0x50, virtual false, abstract: false, final false
   inline void set_enableWordWrapping(bool value);
 
-  /// @brief Method set_extraPadding, addr 0x6966a48, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_extraPadding, addr 0x696e4c4, size 0x50, virtual false, abstract: false, final false
   inline void set_extraPadding(bool value);
 
-  /// @brief Method set_faceColor, addr 0x6965b20, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_faceColor, addr 0x696d59c, size 0x78, virtual false, abstract: false, final false
   inline void set_faceColor(::UnityEngine::Color32 value);
 
-  /// @brief Method set_firstVisibleCharacter, addr 0x6966e58, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_firstVisibleCharacter, addr 0x696e8d4, size 0x30, virtual false, abstract: false, final false
   inline void set_firstVisibleCharacter(int32_t value);
 
-  /// @brief Method set_font, addr 0x69652dc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_font, addr 0x696cd58, size 0xcc, virtual false, abstract: false, final false
   inline void set_font(::TMPro::TMP_FontAsset* value);
 
-  /// @brief Method set_fontFeatures, addr 0x69669f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_fontFeatures, addr 0x696e474, size 0x48, virtual false, abstract: false, final false
   inline void set_fontFeatures(::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>* value);
 
-  /// @brief Method set_fontMaterial, addr 0x69654ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_fontMaterial, addr 0x696cf68, size 0x100, virtual false, abstract: false, final false
   inline void set_fontMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_fontMaterials, addr 0x6965600, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method set_fontMaterials, addr 0x696d07c, size 0x4c, virtual true, abstract: false, final false
   inline void set_fontMaterials(::ArrayW<::UnityEngine::Material*> value);
 
-  /// @brief Method set_fontSharedMaterial, addr 0x69653b0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method set_fontSharedMaterial, addr 0x696ce2c, size 0xcc, virtual true, abstract: false, final false
   inline void set_fontSharedMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_fontSharedMaterials, addr 0x696548c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method set_fontSharedMaterials, addr 0x696cf08, size 0x4c, virtual true, abstract: false, final false
   inline void set_fontSharedMaterials(::ArrayW<::UnityEngine::Material*> value);
 
-  /// @brief Method set_fontSize, addr 0x6965de4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x696d860, size 0x5c, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method set_fontSizeMax, addr 0x696605c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_fontSizeMax, addr 0x696dad8, size 0x44, virtual false, abstract: false, final false
   inline void set_fontSizeMax(float_t value);
 
-  /// @brief Method set_fontSizeMin, addr 0x6966010, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_fontSizeMin, addr 0x696da8c, size 0x44, virtual false, abstract: false, final false
   inline void set_fontSizeMin(float_t value);
 
-  /// @brief Method set_fontStyle, addr 0x69660a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_fontStyle, addr 0x696db24, size 0x4c, virtual false, abstract: false, final false
   inline void set_fontStyle(::TMPro::FontStyles value);
 
-  /// @brief Method set_fontWeight, addr 0x6965e48, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_fontWeight, addr 0x696d8c4, size 0x4c, virtual false, abstract: false, final false
   inline void set_fontWeight(::TMPro::FontWeight value);
 
-  /// @brief Method set_geometrySortingOrder, addr 0x6966d6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_geometrySortingOrder, addr 0x696e7e8, size 0x20, virtual false, abstract: false, final false
   inline void set_geometrySortingOrder(::TMPro::VertexSortingOrder value);
 
-  /// @brief Method set_havePropertiesChanged, addr 0x69670c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_havePropertiesChanged, addr 0x696eb3c, size 0x28, virtual false, abstract: false, final false
   inline void set_havePropertiesChanged(bool value);
 
-  /// @brief Method set_horizontalAlignment, addr 0x6966104, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalAlignment, addr 0x696db80, size 0x30, virtual false, abstract: false, final false
   inline void set_horizontalAlignment(::TMPro::HorizontalAlignmentOptions value);
 
-  /// @brief Method set_horizontalMapping, addr 0x6966ca4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalMapping, addr 0x696e720, size 0x30, virtual false, abstract: false, final false
   inline void set_horizontalMapping(::TMPro::TextureMappingOptions value);
 
-  /// @brief Method set_ignoreVisibility, addr 0x6966c7c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreVisibility, addr 0x696e6f8, size 0x20, virtual false, abstract: false, final false
   inline void set_ignoreVisibility(bool value);
 
-  /// @brief Method set_isOrthographic, addr 0x6966c00, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_isOrthographic, addr 0x696e67c, size 0x30, virtual false, abstract: false, final false
   inline void set_isOrthographic(bool value);
 
-  /// @brief Method set_isOverlay, addr 0x6966ba8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_isOverlay, addr 0x696e624, size 0x50, virtual false, abstract: false, final false
   inline void set_isOverlay(bool value);
 
-  /// @brief Method set_isRightToLeftText, addr 0x6965284, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_isRightToLeftText, addr 0x696cd00, size 0x50, virtual false, abstract: false, final false
   inline void set_isRightToLeftText(bool value);
 
-  /// @brief Method set_isTextObjectScaleStatic, addr 0x6966d94, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_isTextObjectScaleStatic, addr 0x696e810, size 0x94, virtual false, abstract: false, final false
   inline void set_isTextObjectScaleStatic(bool value);
 
-  /// @brief Method set_isUsingLegacyAnimationComponent, addr 0x69670f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isUsingLegacyAnimationComponent, addr 0x696eb6c, size 0x8, virtual false, abstract: false, final false
   inline void set_isUsingLegacyAnimationComponent(bool value);
 
-  /// @brief Method set_isVolumetricText, addr 0x6967250, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_isVolumetricText, addr 0x696eccc, size 0x68, virtual false, abstract: false, final false
   inline void set_isVolumetricText(bool value);
 
-  /// @brief Method set_lineSpacing, addr 0x6966270, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_lineSpacing, addr 0x696dcec, size 0x4c, virtual false, abstract: false, final false
   inline void set_lineSpacing(float_t value);
 
-  /// @brief Method set_lineSpacingAdjustment, addr 0x69662c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_lineSpacingAdjustment, addr 0x696dd40, size 0x4c, virtual false, abstract: false, final false
   inline void set_lineSpacingAdjustment(float_t value);
 
-  /// @brief Method set_linkedTextComponent, addr 0x696653c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_linkedTextComponent, addr 0x696dfb8, size 0xf0, virtual false, abstract: false, final false
   inline void set_linkedTextComponent(::TMPro::TMP_Text* value);
 
-  /// @brief Method set_mappingUvLineOffset, addr 0x6966d14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_mappingUvLineOffset, addr 0x696e790, size 0x2c, virtual false, abstract: false, final false
   inline void set_mappingUvLineOffset(float_t value);
 
-  /// @brief Method set_margin, addr 0x6966fb4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method set_margin, addr 0x696ea30, size 0x98, virtual true, abstract: false, final false
   inline void set_margin(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_maxVisibleCharacters, addr 0x6966e90, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_maxVisibleCharacters, addr 0x696e90c, size 0x30, virtual false, abstract: false, final false
   inline void set_maxVisibleCharacters(int32_t value);
 
-  /// @brief Method set_maxVisibleLines, addr 0x6966f00, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_maxVisibleLines, addr 0x696e97c, size 0x30, virtual false, abstract: false, final false
   inline void set_maxVisibleLines(int32_t value);
 
-  /// @brief Method set_maxVisibleWords, addr 0x6966ec8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_maxVisibleWords, addr 0x696e944, size 0x30, virtual false, abstract: false, final false
   inline void set_maxVisibleWords(int32_t value);
 
-  /// @brief Method set_outlineColor, addr 0x6965c60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_outlineColor, addr 0x696d6dc, size 0x64, virtual false, abstract: false, final false
   inline void set_outlineColor(::UnityEngine::Color32 value);
 
-  /// @brief Method set_outlineWidth, addr 0x6965d84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_outlineWidth, addr 0x696d800, size 0x58, virtual false, abstract: false, final false
   inline void set_outlineWidth(float_t value);
 
-  /// @brief Method set_overflowMode, addr 0x69664d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_overflowMode, addr 0x696df4c, size 0x4c, virtual false, abstract: false, final false
   inline void set_overflowMode(::TMPro::TextOverflowModes value);
 
-  /// @brief Method set_overrideColorTags, addr 0x6965a28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_overrideColorTags, addr 0x696d4a4, size 0x30, virtual false, abstract: false, final false
   inline void set_overrideColorTags(bool value);
 
-  /// @brief Method set_pageToDisplay, addr 0x6966f70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_pageToDisplay, addr 0x696e9ec, size 0x30, virtual false, abstract: false, final false
   inline void set_pageToDisplay(int32_t value);
 
-  /// @brief Method set_paragraphSpacing, addr 0x6966318, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_paragraphSpacing, addr 0x696dd94, size 0x4c, virtual false, abstract: false, final false
   inline void set_paragraphSpacing(float_t value);
 
-  /// @brief Method set_parseCtrlCharacters, addr 0x6966b50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_parseCtrlCharacters, addr 0x696e5cc, size 0x50, virtual false, abstract: false, final false
   inline void set_parseCtrlCharacters(bool value);
 
-  /// @brief Method set_renderMode, addr 0x6966d48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_renderMode, addr 0x696e7c4, size 0x1c, virtual false, abstract: false, final false
   inline void set_renderMode(::TMPro::TextRenderFlags value);
 
-  /// @brief Method set_richText, addr 0x6966aa0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_richText, addr 0x696e51c, size 0x50, virtual false, abstract: false, final false
   inline void set_richText(bool value);
 
-  /// @brief Method set_spriteAsset, addr 0x69657b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_spriteAsset, addr 0x696d234, size 0x3c, virtual false, abstract: false, final false
   inline void set_spriteAsset(::TMPro::TMP_SpriteAsset* value);
 
-  /// @brief Method set_styleSheet, addr 0x6965834, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_styleSheet, addr 0x696d2b0, size 0x3c, virtual false, abstract: false, final false
   inline void set_styleSheet(::TMPro::TMP_StyleSheet* value);
 
-  /// @brief Method set_text, addr 0x69651d8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method set_text, addr 0x696cc54, size 0x94, virtual true, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_textPreprocessor, addr 0x6965274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textPreprocessor, addr 0x696ccf0, size 0x8, virtual false, abstract: false, final false
   inline void set_textPreprocessor(::TMPro::ITextPreprocessor* value);
 
-  /// @brief Method set_textStyle, addr 0x69659d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_textStyle, addr 0x696d450, size 0x4c, virtual false, abstract: false, final false
   inline void set_textStyle(::TMPro::TMP_Style* value);
 
-  /// @brief Method set_textWrappingMode, addr 0x69663c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_textWrappingMode, addr 0x696de3c, size 0x50, virtual false, abstract: false, final false
   inline void set_textWrappingMode(::TMPro::TextWrappingModes value);
 
-  /// @brief Method set_tintAllSprites, addr 0x69657fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_tintAllSprites, addr 0x696d278, size 0x30, virtual false, abstract: false, final false
   inline void set_tintAllSprites(bool value);
 
-  /// @brief Method set_useMaxVisibleDescender, addr 0x6966f38, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_useMaxVisibleDescender, addr 0x696e9b4, size 0x30, virtual false, abstract: false, final false
   inline void set_useMaxVisibleDescender(bool value);
 
-  /// @brief Method set_vertexBufferAutoSizeReduction, addr 0x6966e30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_vertexBufferAutoSizeReduction, addr 0x696e8ac, size 0x20, virtual false, abstract: false, final false
   inline void set_vertexBufferAutoSizeReduction(bool value);
 
-  /// @brief Method set_verticalAlignment, addr 0x696613c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_verticalAlignment, addr 0x696dbb8, size 0x30, virtual false, abstract: false, final false
   inline void set_verticalAlignment(::TMPro::VerticalAlignmentOptions value);
 
-  /// @brief Method set_verticalMapping, addr 0x6966cdc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_verticalMapping, addr 0x696e758, size 0x30, virtual false, abstract: false, final false
   inline void set_verticalMapping(::TMPro::TextureMappingOptions value);
 
-  /// @brief Method set_wordSpacing, addr 0x696621c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_wordSpacing, addr 0x696dc98, size 0x4c, virtual false, abstract: false, final false
   inline void set_wordSpacing(float_t value);
 
-  /// @brief Method set_wordWrappingRatios, addr 0x696647c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_wordWrappingRatios, addr 0x696def8, size 0x4c, virtual false, abstract: false, final false
   inline void set_wordWrappingRatios(float_t value);
 
 protected:
@@ -3869,7 +3869,7 @@ public:
   TMP_Text(TMP_Text const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16008 };
 
   /// @brief Field m_text, offset: 0xd8, size: 0x8, def value: None
   ::StringW ___m_text;

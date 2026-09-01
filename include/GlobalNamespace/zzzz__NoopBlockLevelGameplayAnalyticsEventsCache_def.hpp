@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoopBlockLevelGameplayAnalyticsEventsCache.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoopBlockLevelGameplayAnalyticsEventsCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,33 +43,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache"
   constexpr operator ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*() noexcept;
 
-  /// @brief Method AddBadCut, addr 0x59ec1b0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddBadCut, addr 0x59f4284, size 0x4, virtual true, abstract: false, final true
   inline void AddBadCut(float_t beat, ::GlobalNamespace::NoteCutInfo_FailReason failReason, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType,
                         ::System::Nullable_1<int32_t> lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddBlockMiss, addr 0x59ec1b4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddBlockMiss, addr 0x59f4288, size 0x4, virtual true, abstract: false, final true
   inline void AddBlockMiss(float_t beat, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
                            ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddBombCut, addr 0x59ec1b8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddBombCut, addr 0x59f428c, size 0x4, virtual true, abstract: false, final true
   inline void AddBombCut(float_t beat);
 
-  /// @brief Method AddGoodCut, addr 0x59ec1ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddGoodCut, addr 0x59f4280, size 0x4, virtual true, abstract: false, final true
   inline void AddGoodCut(float_t beat, float_t score, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
                          ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddObstacleHit, addr 0x59ec1bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddObstacleHit, addr 0x59f4290, size 0x4, virtual true, abstract: false, final true
   inline void AddObstacleHit(float_t beat, float_t duration);
 
-  /// @brief Method IsEmpty, addr 0x59ec1c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsEmpty, addr 0x59f429c, size 0x8, virtual true, abstract: false, final true
   inline bool IsEmpty();
 
   static inline ::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache* New_ctor();
 
-  /// @brief Method SerializeJSON, addr 0x59ec1c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SerializeJSON, addr 0x59f4294, size 0x8, virtual true, abstract: false, final true
   inline ::StringW SerializeJSON();
 
-  /// @brief Method .ctor, addr 0x59ec1d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f42a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache"
@@ -90,7 +90,7 @@ public:
   NoopBlockLevelGameplayAnalyticsEventsCache(NoopBlockLevelGameplayAnalyticsEventsCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6261 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

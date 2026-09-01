@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/DependencyAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\DependencyAttribute.hpp"
 #include "System/Runtime/CompilerServices/zzzz__LoadHint_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__DependencyAttribute_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::DependencyAttribute::*)(::StringW, ::System::Runtime::CompilerServices::LoadHint)>(
     &::System::Runtime::CompilerServices::DependencyAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b6e968;
+  constexpr static std::size_t addrs = 0x5b72e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

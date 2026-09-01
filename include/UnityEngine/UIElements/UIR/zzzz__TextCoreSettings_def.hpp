@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextCoreSettings.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextCoreSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>*();
 
-  /// @brief Method Equals, addr 0x6cea5d4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6cf2158, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6cea668, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6cf21ec, size 0xf4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UIR::TextCoreSettings other);
 
-  /// @brief Method GetHashCode, addr 0x6cea75c, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6cf22e0, size 0x194, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"

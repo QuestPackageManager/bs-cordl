@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DebugOccluderStats.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DebugOccluderStats.hpp"
 #include "UnityEngine/zzzz__Vector2Int_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugOccluderStats_def.hpp"
 // Ctor Parameters [CppParam { name: "viewInstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "subviewCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },

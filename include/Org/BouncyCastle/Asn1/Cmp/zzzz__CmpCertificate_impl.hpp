@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/CmpCertificate.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\CmpCertificate.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CmpCertificate_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeCertificate_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::*)(::Org::BouncyCastle::Asn1::X509::AttributeCertificate*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33453c0;
+  constexpr static std::size_t addrs = 0x3349180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::*)(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x33453c8;
+  constexpr static std::size_t addrs = 0x3349188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::GetInstance)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3342f08;
+  constexpr static std::size_t addrs = 0x3346cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::*)()>(&::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::get_IsX509v3PKCert)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3345460;
+  constexpr static std::size_t addrs = 0x3349220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* (::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::get_X509v3PKCert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3345470;
+  constexpr static std::size_t addrs = 0x3349230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AttributeCertificate* (::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::get_X509v2AttrCert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3345478;
+  constexpr static std::size_t addrs = 0x3349238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CmpCertificate::ToAsn1Object)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3345480;
+  constexpr static std::size_t addrs = 0x3349240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

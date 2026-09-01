@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GetAssetBundleFileResult.hpp"
+// IWYU pragma private; include "GlobalNamespace\GetAssetBundleFileResult.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GetAssetBundleFileResult._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GetAssetBundleFileResult::*)(bool, ::StringW)>(&::GlobalNamespace::GetAssetBundleFileResult::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3729a14;
+  constexpr static std::size_t addrs = 0x372f678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GetAssetBundleFileResult (*)(::StringW)>(&::GlobalNamespace::GetAssetBundleFileResult::Success)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3729a20;
+  constexpr static std::size_t addrs = 0x372f684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

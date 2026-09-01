@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CubemapHelpers.hpp"
+// IWYU pragma private; include "GlobalNamespace\CubemapHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CubemapFace_impl.hpp"
 #include "GlobalNamespace/zzzz__CubemapHelpers_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::GlobalNamespace::CubemapHelpers::get_cubemapHelpersMaterial)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x58dfdf4;
+  constexpr static std::size_t addrs = 0x58e3408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CubemapHelpers*>(), { "get_cubemapHelpersMaterial", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*)>(&::GlobalNamespace::CubemapHelpers::Downsample)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x58dff24;
+  constexpr static std::size_t addrs = 0x58e3538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::RenderTexture*, int32_t)>(
     &::GlobalNamespace::CubemapHelpers::CreateDownsampledCubemap)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x58e0330;
+  constexpr static std::size_t addrs = 0x58e3944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::RenderTexture*)>(&::GlobalNamespace::CubemapHelpers::Create2DTextureFromCubemap)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x58e052c;
+  constexpr static std::size_t addrs = 0x58e3b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::CubemapFace)>(&::GlobalNamespace::CubemapHelpers::DrawCubemapFace)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x58e0058;
+  constexpr static std::size_t addrs = 0x58e366c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

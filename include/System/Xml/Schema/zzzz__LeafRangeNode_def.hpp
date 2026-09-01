@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/LeafRangeNode.hpp"
+// IWYU pragma private; include "System\Xml\Schema\LeafRangeNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   /// @brief Field nextIteration, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_nextIteration, put = __cordl_internal_set_nextIteration)) ::System::Xml::Schema::BitSet* nextIteration;
 
-  /// @brief Method ExpandTree, addr 0x631800c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x631fa88, size 0x34, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::LeafRangeNode* New_ctor(::System::Decimal min, ::System::Decimal max);
@@ -78,25 +78,25 @@ public:
 
   constexpr void __cordl_internal_set_nextIteration(::System::Xml::Schema::BitSet* value);
 
-  /// @brief Method .ctor, addr 0x6317fb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631fa34, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Decimal min, ::System::Decimal max);
 
-  /// @brief Method .ctor, addr 0x6317fcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631fa48, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t pos, ::System::Decimal min, ::System::Decimal max);
 
-  /// @brief Method get_IsRangeNode, addr 0x6318004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsRangeNode, addr 0x631fa80, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsRangeNode();
 
-  /// @brief Method get_Max, addr 0x6317fdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Max, addr 0x631fa58, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Max();
 
-  /// @brief Method get_Min, addr 0x6317fe8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Min, addr 0x631fa64, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Min();
 
-  /// @brief Method get_NextIteration, addr 0x6317ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextIteration, addr 0x631fa70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::BitSet* get_NextIteration();
 
-  /// @brief Method set_NextIteration, addr 0x6317ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NextIteration, addr 0x631fa78, size 0x8, virtual false, abstract: false, final false
   inline void set_NextIteration(::System::Xml::Schema::BitSet* value);
 
 protected:
@@ -114,7 +114,7 @@ public:
   LeafRangeNode(LeafRangeNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9599 };
 
   /// @brief Field min, offset: 0x18, size: 0x10, def value: None
   ::System::Decimal ___min;

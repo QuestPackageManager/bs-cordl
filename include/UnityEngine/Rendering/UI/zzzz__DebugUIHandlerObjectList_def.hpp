@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerObjectList.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerObjectList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,16 +31,16 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerObjectList* New_ctor();
 
-  /// @brief Method OnDecrement, addr 0x67fcf18, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x6804994, size 0x1c, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnIncrement, addr 0x67fcefc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x6804978, size 0x1c, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method SetWidget, addr 0x67fce98, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6804914, size 0x64, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValueLabel, addr 0x67fcf34, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x68049b0, size 0x18c, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr int32_t const& __cordl_internal_get_m_Index() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67fd0c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6804b3c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   DebugUIHandlerObjectList(DebugUIHandlerObjectList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12529 };
 
   /// @brief Field m_Index, offset: 0x88, size: 0x4, def value: None
   int32_t ___m_Index;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIElementsInitialization.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIElementsInitialization.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIElementsInitialization_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIElementsInitialization.InitializeUIElementsManaged
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsInitialization::InitializeUIElementsManaged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cab990;
+  constexpr static std::size_t addrs = 0x6cb3514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsInitialization::RegisterBuiltInPropertyBags)> {
   constexpr static std::size_t size = 0x15f8;
-  constexpr static std::size_t addrs = 0x6cab994;
+  constexpr static std::size_t addrs = 0x6cb3518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/ContextCallback.hpp"
+// IWYU pragma private; include "System\Threading\ContextCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ContextCallback::*)(::System::Object*, ::System::IntPtr)>(&::System::Threading::ContextCallback::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5ca91ac;
+  constexpr static std::size_t addrs = 0x5cad668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ContextCallback::*)(::System::Object*)>(&::System::Threading::ContextCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cac0cc;
+  constexpr static std::size_t addrs = 0x5cb0588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

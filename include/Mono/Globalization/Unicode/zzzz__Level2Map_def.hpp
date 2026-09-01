@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Globalization/Unicode/Level2Map.hpp"
+// IWYU pragma private; include "Mono\Globalization\Unicode\Level2Map.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_Source(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x5aac3dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab0898, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint8_t source, uint8_t replace);
 
 protected:

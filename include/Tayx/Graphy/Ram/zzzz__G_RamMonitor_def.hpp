@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Ram/G_RamMonitor.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Ram\G_RamMonitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,12 +35,12 @@ public:
   /// @brief Field <ReservedRam>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__ReservedRam_k__BackingField, put = __cordl_internal_set__ReservedRam_k__BackingField)) float_t _ReservedRam_k__BackingField;
 
-  /// @brief Method Init, addr 0x64336c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x643b144, size 0x4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamMonitor* New_ctor();
 
-  /// @brief Method Update, addr 0x6437f10, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x643f98c, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__AllocatedRam_k__BackingField() const;
@@ -61,25 +61,25 @@ public:
 
   constexpr void __cordl_internal_set__ReservedRam_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x6437fa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x643fa20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllocatedRam, addr 0x6437ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllocatedRam, addr 0x643f95c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_AllocatedRam();
 
-  /// @brief Method get_MonoRam, addr 0x6437f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MonoRam, addr 0x643f97c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_MonoRam();
 
-  /// @brief Method get_ReservedRam, addr 0x6437ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReservedRam, addr 0x643f96c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ReservedRam();
 
-  /// @brief Method set_AllocatedRam, addr 0x6437ee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AllocatedRam, addr 0x643f964, size 0x8, virtual false, abstract: false, final false
   inline void set_AllocatedRam(float_t value);
 
-  /// @brief Method set_MonoRam, addr 0x6437f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MonoRam, addr 0x643f984, size 0x8, virtual false, abstract: false, final false
   inline void set_MonoRam(float_t value);
 
-  /// @brief Method set_ReservedRam, addr 0x6437ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReservedRam, addr 0x643f974, size 0x8, virtual false, abstract: false, final false
   inline void set_ReservedRam(float_t value);
 
 protected:
@@ -97,7 +97,7 @@ public:
   G_RamMonitor(G_RamMonitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21495 };
 
   /// @brief Field <AllocatedRam>k__BackingField, offset: 0x20, size: 0x4, def value: None
   float_t ____AllocatedRam_k__BackingField;

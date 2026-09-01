@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/LocalDataStoreElement.hpp"
+// IWYU pragma private; include "System\LocalDataStoreElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set_m_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5c6c6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c70b68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t cookie);
 
-  /// @brief Method get_Cookie, addr 0x5c6c6c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x5c70b80, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method get_Value, addr 0x5c6c6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5c70b70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x5c6c6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5c70b78, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
 protected:

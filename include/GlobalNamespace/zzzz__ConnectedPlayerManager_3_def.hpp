@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ConnectedPlayerManager_3.hpp"
+// IWYU pragma private; include "GlobalNamespace\ConnectedPlayerManager_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -171,7 +171,7 @@ public:
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18123 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -841,7 +841,7 @@ public:
   ConnectedPlayerManager_3(ConnectedPlayerManager_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18124 };
 
   /// @brief Field connectedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___connectedEvent;

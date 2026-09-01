@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HealthWarningFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace\HealthWarningFlowCoordinator.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguage_impl.hpp"
 #include "GlobalNamespace/zzzz__EulaViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__37::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__37::MoveNext)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x5a01d2c;
+  constexpr static std::size_t addrs = 0x5a09e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__37::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__37::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a02068;
+  constexpr static std::size_t addrs = 0x5a0a13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__37>(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__36::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__36::MoveNext)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x5a020d4;
+  constexpr static std::size_t addrs = 0x5a0a1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__36::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__36::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a02350;
+  constexpr static std::size_t addrs = 0x5a0a424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__36>(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__28::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x598;
-  constexpr static std::size_t addrs = 0x5a023bc;
+  constexpr static std::size_t addrs = 0x5a0a490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__28::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__28::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a02954;
+  constexpr static std::size_t addrs = 0x5a0aa28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__28>(),
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__32::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__32::MoveNext)> {
   constexpr static std::size_t size = 0x710;
-  constexpr static std::size_t addrs = 0x5a029c0;
+  constexpr static std::size_t addrs = 0x5a0aa94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__32::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__32::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a030d0;
+  constexpr static std::size_t addrs = 0x5a0b1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__32>(),
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__33::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__33::MoveNext)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x5a0313c;
+  constexpr static std::size_t addrs = 0x5a0b210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__33::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__33::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a03550;
+  constexpr static std::size_t addrs = 0x5a0b624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__33>(),
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__35::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__35::MoveNext)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x5a035bc;
+  constexpr static std::size_t addrs = 0x5a0b690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__35::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__35::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a03968;
+  constexpr static std::size_t addrs = 0x5a0ba3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__35>(),
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__39::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__39::MoveNext)> {
   constexpr static std::size_t size = 0x5ac;
-  constexpr static std::size_t addrs = 0x5a039d4;
+  constexpr static std::size_t addrs = 0x5a0baa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__39::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__39::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a03f80;
+  constexpr static std::size_t addrs = 0x5a0c054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__39>(),
@@ -471,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__38::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__38::MoveNext)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x5a03fec;
+  constexpr static std::size_t addrs = 0x5a0c0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__38::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__38::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a04244;
+  constexpr static std::size_t addrs = 0x5a0c318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__38>(),
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__34::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__34::MoveNext)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x5a042b0;
+  constexpr static std::size_t addrs = 0x5a0c384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__34::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__34::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a0465c;
+  constexpr static std::size_t addrs = 0x5a0c730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__40::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__40::MoveNext)> {
   constexpr static std::size_t size = 0x670;
-  constexpr static std::size_t addrs = 0x5a046c8;
+  constexpr static std::size_t addrs = 0x5a0c79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -607,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__40::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__40::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a04d38;
+  constexpr static std::size_t addrs = 0x5a0ce0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__40>(),
@@ -659,7 +659,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(bool, bool, bool)>(&::GlobalNamespace::HealthWarningFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x5a01064;
+  constexpr static std::size_t addrs = 0x5a09138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -673,7 +673,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::ShowTopViewController)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5a013d4;
+  constexpr static std::size_t addrs = 0x5a094a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -687,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::FilterExcludedSongsAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a014dc;
+  constexpr static std::size_t addrs = 0x5a095b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -701,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)(::GlobalNamespace::CompletableViewController*)>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::ShowTopViewControllerAsync)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a01590;
+  constexpr static std::size_t addrs = 0x5a09664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator*>(),
@@ -715,7 +715,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(
     ::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(&::GlobalNamespace::HealthWarningFlowCoordinator::TopViewControllerWillChange)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5a015d4;
+  constexpr static std::size_t addrs = 0x5a096a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -729,7 +729,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::RunAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a01660;
+  constexpr static std::size_t addrs = 0x5a09734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator*>(), { "RunAsync", {}, {} })));
@@ -742,7 +742,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::SelectLanguageAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a01710;
+  constexpr static std::size_t addrs = 0x5a097e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator*>(), { "SelectLanguageAsync", {}, {} })));
@@ -755,7 +755,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::ShowSelectLanguageViewControllerAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a017c4;
+  constexpr static std::size_t addrs = 0x5a09898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -769,7 +769,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::SelectRegionAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a01874;
+  constexpr static std::size_t addrs = 0x5a09948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator*>(), { "SelectRegionAsync", {}, {} })));
@@ -782,7 +782,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::AgreeToPrivacyPolicyAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a01928;
+  constexpr static std::size_t addrs = 0x5a099fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -796,7 +796,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::AgreeToEulaAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a019d8;
+  constexpr static std::size_t addrs = 0x5a09aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator*>(), { "AgreeToEulaAsync", {}, {} })));
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::ShowHealthWarningAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a01a88;
+  constexpr static std::size_t addrs = 0x5a09b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator*>(), { "ShowHealthWarningAsync", {}, {} })));
@@ -822,7 +822,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::ShowExplicitContentWarningAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a01b38;
+  constexpr static std::size_t addrs = 0x5a09c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -836,7 +836,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::UpdateUacAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a01be8;
+  constexpr static std::size_t addrs = 0x5a09cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator*>(), { "UpdateUacAsync", {}, {} })));
@@ -848,7 +848,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(&::GlobalNamespace::HealthWarningFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a01c9c;
+  constexpr static std::size_t addrs = 0x5a09d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningFlowCoordinator*>(), { ".ctor", {}, {} })));
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(::BGLib::Polyglot::LocalizationLanguage)>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::_ShowSelectLanguageViewControllerAsync_g__HandleDidChangeLanguage_34_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5a01ca4;
+  constexpr static std::size_t addrs = 0x5a09d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

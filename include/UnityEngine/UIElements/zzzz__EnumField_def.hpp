@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EnumField.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EnumField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,7 +105,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::EnumField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d3895c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d404e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,7 +148,7 @@ public:
   /// @brief Field m_Value, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Value;
 
-  /// @brief Method Init, addr 0x6d389c4, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d40548, size 0x244, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::EnumField_UxmlTraits* New_ctor();
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d38c08, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4078c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -227,10 +227,10 @@ public:
 
   static inline ::UnityEngine::UIElements::EnumField___c* New_ctor();
 
-  /// @brief Method <.ctor>b__31_0, addr 0x6d38cec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__31_0, addr 0x6d40870, size 0x5c, virtual false, abstract: false, final false
   inline void __ctor_b__31_0(::UnityEngine::UIElements::MouseDownEvent* e);
 
-  /// @brief Method .ctor, addr 0x6d38ce8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4086c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::EnumField___c* getStaticF___9();
@@ -317,53 +317,53 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ChangeValueFromMenu, addr 0x6d385b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ChangeValueFromMenu, addr 0x6d40134, size 0x4c, virtual false, abstract: false, final false
   inline void ChangeValueFromMenu(::System::Object* menuItem);
 
-  /// @brief Method ContainsPointer, addr 0x6d37ea0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ContainsPointer, addr 0x6d3fa24, size 0x88, virtual false, abstract: false, final false
   inline bool ContainsPointer(int32_t pointerId);
 
-  /// @brief Method Init, addr 0x6d37658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d3f1dc, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Enum* defaultValue);
 
-  /// @brief Method Init, addr 0x6d37a04, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d3f588, size 0x10c, virtual false, abstract: false, final false
   inline void Init(::System::Enum* defaultValue, bool includeObsoleteValues);
 
-  /// @brief Method Initialize, addr 0x6d374d8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6d3f05c, size 0x180, virtual false, abstract: false, final false
   inline void Initialize(::System::Enum* defaultValue);
 
   static inline ::UnityEngine::UIElements::EnumField* New_ctor();
 
   static inline ::UnityEngine::UIElements::EnumField* New_ctor(::StringW label, ::System::Enum* defaultValue);
 
-  /// @brief Method OnNavigationSubmit, addr 0x6d37f28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x6d3faac, size 0x28, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method OnPointerDownEvent, addr 0x6d37d98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDownEvent, addr 0x6d3f91c, size 0x5c, virtual false, abstract: false, final false
   inline void OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMoveEvent, addr 0x6d37df4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMoveEvent, addr 0x6d3f978, size 0xac, virtual false, abstract: false, final false
   inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method PopulateDataFromType, addr 0x6d37b10, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method PopulateDataFromType, addr 0x6d3f694, size 0xe8, virtual false, abstract: false, final false
   inline void PopulateDataFromType(::System::Type* enumType);
 
   /// @brief Method ProcessPointerDown, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>* evt);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x6d37cc4, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x6d3f848, size 0xd4, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::System::Enum* newValue);
 
-  /// @brief Method ShowMenu, addr 0x6d37f50, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method ShowMenu, addr 0x6d3fad4, size 0x340, virtual false, abstract: false, final false
   inline void ShowMenu();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x6d385fc, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x6d40180, size 0x15c, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
-  /// @brief Method UpdateValueLabel, addr 0x6d37bf8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x6d3f77c, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateValueLabel(::System::Enum* value);
 
-  /// @brief Method <ShowMenu>b__42_0, addr 0x6d38958, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <ShowMenu>b__42_0, addr 0x6d404dc, size 0x4, virtual false, abstract: false, final false
   inline void _ShowMenu_b__42_0(::System::Object* contentView);
 
   constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* const& __cordl_internal_get_createMenuCallback() const;
@@ -402,10 +402,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x6d37660, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3f1e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d3766c, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3f1f0, size 0x398, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, ::System::Enum* defaultValue);
 
   static inline ::StringW getStaticF_arrowUssClassName();
@@ -420,10 +420,10 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_includeObsoleteValues, addr 0x6d374b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_includeObsoleteValues, addr 0x6d3f034, size 0x8, virtual false, abstract: false, final false
   inline bool get_includeObsoleteValues();
 
-  /// @brief Method get_text, addr 0x6d374b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x6d3f03c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   static inline void setStaticF_arrowUssClassName(::StringW value);

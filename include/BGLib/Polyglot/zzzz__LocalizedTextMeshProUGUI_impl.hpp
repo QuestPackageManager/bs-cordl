@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/LocalizedTextMeshProUGUI.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\LocalizedTextMeshProUGUI.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizedTextComponent_1_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizedTextMeshProUGUI_def.hpp"
 #include "BGLib/Polyglot/zzzz__LanguageDirection_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizedTextMeshProUGUI::*)(::TMPro::TextMeshProUGUI*, ::StringW)>(
     &::BGLib::Polyglot::LocalizedTextMeshProUGUI::SetText)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3318958;
+  constexpr static std::size_t addrs = 0x331c718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizedTextMeshProUGUI::*)(::TMPro::TextMeshProUGUI*, ::BGLib::Polyglot::LanguageDirection)>(
     &::BGLib::Polyglot::LocalizedTextMeshProUGUI::UpdateAlignment)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3318980;
+  constexpr static std::size_t addrs = 0x331c740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::TMPro::TextAlignmentOptions, ::BGLib::Polyglot::LanguageDirection)>(
     &::BGLib::Polyglot::LocalizedTextMeshProUGUI::IsOppositeDirection)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3318a70;
+  constexpr static std::size_t addrs = 0x331c830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::TMPro::TextAlignmentOptions)>(&::BGLib::Polyglot::LocalizedTextMeshProUGUI::IsAlignmentRight)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3318ac4;
+  constexpr static std::size_t addrs = 0x331c884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::TMPro::TextAlignmentOptions)>(&::BGLib::Polyglot::LocalizedTextMeshProUGUI::IsAlignmentLeft)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3318aec;
+  constexpr static std::size_t addrs = 0x331c8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizedTextMeshProUGUI::*)()>(&::BGLib::Polyglot::LocalizedTextMeshProUGUI::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3318b14;
+  constexpr static std::size_t addrs = 0x331c8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizedTextMeshProUGUI*>(), { ".ctor", {}, {} })));

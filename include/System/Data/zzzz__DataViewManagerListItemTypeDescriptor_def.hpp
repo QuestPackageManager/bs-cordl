@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataViewManagerListItemTypeDescriptor.hpp"
+// IWYU pragma private; include "System\Data\DataViewManagerListItemTypeDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   /// @brief Field _dataViewManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__dataViewManager, put = __cordl_internal_set__dataViewManager)) ::System::Data::DataViewManager* _dataViewManager;
 
-  /// @brief Method GetDataView, addr 0x6029884, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetDataView, addr 0x6031300, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Data::DataView* GetDataView(::System::Data::DataTable* table);
 
   constexpr ::System::Data::DataViewManager* const& __cordl_internal_get__dataViewManager() const;
@@ -55,7 +55,7 @@ public:
   DataViewManagerListItemTypeDescriptor(DataViewManagerListItemTypeDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13802 };
 
   /// @brief Field _dataViewManager, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataViewManager* ____dataViewManager;

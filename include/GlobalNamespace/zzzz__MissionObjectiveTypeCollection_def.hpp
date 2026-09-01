@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionObjectiveTypeCollection.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionObjectiveTypeCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,10 +48,10 @@ public:
 
   static inline ::GlobalNamespace::MissionObjectiveTypeCollection___c* New_ctor();
 
-  /// @brief Method <.ctor>b__1_0, addr 0x3750c04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_0, addr 0x3756828, size 0x14, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__1_0(::GlobalNamespace::MissionObjectiveTypeSO* m);
 
-  /// @brief Method .ctor, addr 0x3750c00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3756824, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MissionObjectiveTypeCollection___c* getStaticF___9();
@@ -77,7 +77,7 @@ public:
   MissionObjectiveTypeCollection___c(MissionObjectiveTypeCollection___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -100,7 +100,7 @@ public:
       put =
           __cordl_internal_set__missionObjectiveTypeByName)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>>* _missionObjectiveTypeByName;
 
-  /// @brief Method GetMissionObjectiveTypeByName, addr 0x3750b2c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetMissionObjectiveTypeByName, addr 0x3756750, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> GetMissionObjectiveTypeByName(::StringW objectiveName);
 
   static inline ::GlobalNamespace::MissionObjectiveTypeCollection* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>>* missionObjectiveTypes);
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__missionObjectiveTypeByName(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3750a18, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375663c, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>>* missionObjectiveTypes);
 
 protected:
@@ -129,7 +129,7 @@ public:
   MissionObjectiveTypeCollection(MissionObjectiveTypeCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15267 };
 
   /// @brief Field _missionObjectiveTypeByName, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>>* ____missionObjectiveTypeByName;

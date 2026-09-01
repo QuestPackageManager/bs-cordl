@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BezierCurve.hpp"
+// IWYU pragma private; include "GlobalNamespace\BezierCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BezierCurve {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3283690, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3287420, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr BezierCurve(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22021 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

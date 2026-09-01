@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/MulticastDelegate.hpp"
+// IWYU pragma private; include "System\MulticastDelegate.hpp"
 #include "System/zzzz__Delegate_impl.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::MulticastDelegate::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::MulticastDelegate::GetObjectData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c92910;
+  constexpr static std::size_t addrs = 0x5c96dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::MulticastDelegate*>(), { ::i2c::class_of<::System::MulticastDelegate*>(), 9 }));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::MulticastDelegate::*)(::ArrayW<::System::Object*>)>(&::System::MulticastDelegate::DynamicInvokeImpl)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5c92914;
+  constexpr static std::size_t addrs = 0x5c96dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::MulticastDelegate::*)(::System::Object*)>(&::System::MulticastDelegate::Equals)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5c929ac;
+  constexpr static std::size_t addrs = 0x5c96e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::MulticastDelegate::*)()>(&::System::MulticastDelegate::GetHashCode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c92acc;
+  constexpr static std::size_t addrs = 0x5c96f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MulticastDelegate*>(), { "GetHashCode", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::MulticastDelegate::*)()>(&::System::MulticastDelegate::GetMethodImpl)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5c92ad0;
+  constexpr static std::size_t addrs = 0x5c96f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::MulticastDelegate*>(), { ::i2c::class_of<::System::MulticastDelegate*>(), 8 }));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Delegate*> (::System::MulticastDelegate::*)()>(&::System::MulticastDelegate::GetInvocationList)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5c92b18;
+  constexpr static std::size_t addrs = 0x5c96fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MulticastDelegate*>(), { "GetInvocationList", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Delegate* (::System::MulticastDelegate::*)(::System::Delegate*)>(&::System::MulticastDelegate::CombineImpl)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x5c92be8;
+  constexpr static std::size_t addrs = 0x5c970a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::MulticastDelegate::*)(::ArrayW<::System::Delegate*>, ::ArrayW<::System::Delegate*>)>(
     &::System::MulticastDelegate::LastIndexOf)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5c92e4c;
+  constexpr static std::size_t addrs = 0x5c97308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Delegate* (::System::MulticastDelegate::*)(::System::Delegate*)>(&::System::MulticastDelegate::RemoveImpl)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x5c92f7c;
+  constexpr static std::size_t addrs = 0x5c97438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

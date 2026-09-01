@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassRandomWriteData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassRandomWriteData.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__PassRandomWriteData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData.GetHashCode
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData::GetHashCode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x67f1a54;
+  constexpr static std::size_t addrs = 0x67f94d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

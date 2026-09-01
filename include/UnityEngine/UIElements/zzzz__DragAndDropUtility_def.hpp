@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DragAndDropUtility.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DragAndDropUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   __declspec(property(get = getStaticF_s_MakeDragAndDropClientFunc,
                       put = setStaticF_s_MakeDragAndDropClientFunc)) ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* s_MakeDragAndDropClientFunc;
 
-  /// @brief Method GetDragAndDrop, addr 0x6d82034, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetDragAndDrop, addr 0x6d89bb8, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IDragAndDrop* GetDragAndDrop(::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::IDragAndDrop* getStaticF_s_DragAndDropEditor();

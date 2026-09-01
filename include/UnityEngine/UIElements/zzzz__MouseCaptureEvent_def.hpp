@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MouseCaptureEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MouseCaptureEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseCaptureEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d8ea0c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6d96590, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseCaptureEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d8ea08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d9658c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseCaptureEvent___c* getStaticF___9();
@@ -77,7 +77,7 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseCaptureEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d8e95c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d964e0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

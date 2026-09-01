@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/CultureAwareComparer.hpp"
+// IWYU pragma private; include "System\CultureAwareComparer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,22 +52,22 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Compare, addr 0x5c59cd0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5c5e18c, size 0x4c, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x5c59de0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c5e29c, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5c59d1c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c5e1d8, size 0x54, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x5c59e80, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c5e33c, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x5c59d70, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c5e22c, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method GetObjectData, addr 0x5c59eb4, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5c5e370, size 0xf0, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::CultureAwareComparer* New_ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options);
@@ -88,13 +88,13 @@ public:
 
   constexpr void __cordl_internal_set__options(::System::Globalization::CompareOptions value);
 
-  /// @brief Method .ctor, addr 0x5c599e4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5dea0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method .ctor, addr 0x5c595cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5da88, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method .ctor, addr 0x5c59abc, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5df78, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

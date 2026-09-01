@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/X509NameEntryConverter.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\X509NameEntryConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class CORDL_TYPE X509NameEntryConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CanBePrintable, addr 0x366847c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanBePrintable, addr 0x366c23c, size 0xc, virtual false, abstract: false, final false
   inline bool CanBePrintable(::StringW str);
 
-  /// @brief Method ConvertHexEncoded, addr 0x36683f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ConvertHexEncoded, addr 0x366c1b8, size 0x84, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertHexEncoded(::StringW hexString, int32_t offset);
 
   /// @brief Method GetConvertedValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -38,7 +38,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3668488, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366c248, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

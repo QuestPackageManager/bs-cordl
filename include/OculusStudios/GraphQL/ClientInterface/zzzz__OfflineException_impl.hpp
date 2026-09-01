@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/OfflineException.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\OfflineException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__OfflineException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::OfflineException::*)()>(&::OculusStudios::GraphQL::ClientInterface::OfflineException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f28014;
+  constexpr static std::size_t addrs = 0x5f2c4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::OfflineException*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::OfflineException::*)(::StringW)>(
     &::OculusStudios::GraphQL::ClientInterface::OfflineException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f2806c;
+  constexpr static std::size_t addrs = 0x5f2c52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::OfflineException::*)(::StringW, ::System::Exception*)>(
     &::OculusStudios::GraphQL::ClientInterface::OfflineException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f280d8;
+  constexpr static std::size_t addrs = 0x5f2c598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::OfflineException*>(),

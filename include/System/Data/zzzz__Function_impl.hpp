@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/Function.hpp"
+// IWYU pragma private; include "System\Data\Function.hpp"
 #include "System/Data/zzzz__FunctionId_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Function::*)(::StringW, ::System::Data::FunctionId, ::System::Type*, bool, bool, int32_t, ::System::Type*, ::System::Type*,
                                                                                           ::System::Type*)>(&::System::Data::Function::_ctor)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x601209c;
+  constexpr static std::size_t addrs = 0x6019b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PropertyPathInfo.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PropertyPathInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE PropertyPathInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c3d238, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c44dbc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Properties::PropertyPath> propertyPath, ::System::Type* type);
 
   // Ctor Parameters []

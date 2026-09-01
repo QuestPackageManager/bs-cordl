@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/FeatureFlags/Feature.hpp"
+// IWYU pragma private; include "BeatSaber\FeatureFlags\Feature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,6 +26,7 @@ public:
   enum struct __Feature_Unwrapped : int32_t {
     __E_BlockLevelAnalytics = static_cast<int32_t>(0x0),
     __E_GameplayAnalytics = static_cast<int32_t>(0x1),
+    __E_SettingsAnalytics = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -51,8 +52,11 @@ public:
   /// @brief Field GameplayAnalytics value: I32(1)
   static ::BeatSaber::FeatureFlags::Feature const GameplayAnalytics;
 
+  /// @brief Field SettingsAnalytics value: I32(2)
+  static ::BeatSaber::FeatureFlags::Feature const SettingsAnalytics;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22903 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

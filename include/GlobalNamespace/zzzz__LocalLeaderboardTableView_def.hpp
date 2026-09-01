@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LocalLeaderboardTableView* New_ctor();
 
-  /// @brief Method SetScores, addr 0x596b104, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method SetScores, addr 0x596e9fc, size 0x2a8, virtual false, abstract: false, final false
   inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>* scores, int32_t specialScorePos, int32_t maxNumberOfCells);
 
-  /// @brief Method .ctor, addr 0x596b3ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596eca4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   LocalLeaderboardTableView(LocalLeaderboardTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7010 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

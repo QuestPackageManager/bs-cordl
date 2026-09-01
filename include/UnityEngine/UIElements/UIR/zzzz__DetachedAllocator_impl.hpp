@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/DetachedAllocator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\DetachedAllocator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__DetachedAllocator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(&::UnityEngine::UIElements::UIR::DetachedAllocator::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6ccdff4;
+  constexpr static std::size_t addrs = 0x6cd5b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(&::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6cce118;
+  constexpr static std::size_t addrs = 0x6cd5c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DetachedAllocator*>(), { "Dispose", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)(bool)>(&::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cce180;
+  constexpr static std::size_t addrs = 0x6cd5d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

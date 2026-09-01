@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VisualEffectObject.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VisualEffectObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::VFX::VisualEffectObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e2602c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e2dbb0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   VisualEffectObject(VisualEffectObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/CameraRaycastHelper.hpp"
+// IWYU pragma private; include "UnityEngine\CameraRaycastHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,16 +33,16 @@ namespace UnityEngine {
 class CORDL_TYPE CameraRaycastHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RaycastTry, addr 0x6b59664, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry, addr 0x6b611e8, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry2D, addr 0x6b59838, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry2D, addr 0x6b613bc, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry2D_Injected, addr 0x6b599a8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry2D_Injected, addr 0x6b6152c, size 0x64, virtual false, abstract: false, final false
   static inline ::System::IntPtr RaycastTry2D_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry_Injected, addr 0x6b597d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry_Injected, addr 0x6b61358, size 0x64, virtual false, abstract: false, final false
   static inline ::System::IntPtr RaycastTry_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
 protected:
@@ -60,7 +60,7 @@ public:
   CameraRaycastHelper(CameraRaycastHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/Destination.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\Destination.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__Destination_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::Destination::*)(::System::IntPtr)>(&::Oculus::Platform::Models::Destination::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5deb120;
+  constexpr static std::size_t addrs = 0x5def5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ContextContainer.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ContextContainer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ContextContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ContextContainer::*)(uint32_t)>(&::UnityEngine::Rendering::ContextContainer::Contains)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x674e994;
+  constexpr static std::size_t addrs = 0x6756410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ContextContainer::*)()>(&::UnityEngine::Rendering::ContextContainer::Dispose)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x674e9e0;
+  constexpr static std::size_t addrs = 0x675645c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ContextContainer*>(), { "Dispose", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ContextContainer::*)()>(&::UnityEngine::Rendering::ContextContainer::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x674eb5c;
+  constexpr static std::size_t addrs = 0x67565d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ContextContainer*>(), { ".ctor", {}, {} })));

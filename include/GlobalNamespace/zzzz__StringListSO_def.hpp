@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StringListSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\StringListSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__strings(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x3324238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3327ff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_strings, addr 0x3324230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strings, addr 0x3327ff0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_strings();
 
 protected:
@@ -58,7 +58,7 @@ public:
   StringListSO(StringListSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20782 };
 
   /// @brief Field _strings, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW> ____strings;

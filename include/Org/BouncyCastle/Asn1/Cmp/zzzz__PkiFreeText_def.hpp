@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PkiFreeText.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\PkiFreeText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,20 +44,20 @@ public:
   /// @brief Field strings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_strings, put = __cordl_internal_set_strings)) ::Org::BouncyCastle::Asn1::Asn1Sequence* strings;
 
-  /// @brief Method GetInstance, addr 0x334a1c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x334df80, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x3345f50, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3349d10, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetStringAt, addr 0x334a62c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetStringAt, addr 0x334e3ec, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* GetStringAt(int32_t index);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* New_ctor(::Org::BouncyCastle::Asn1::DerUtf8String* p);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x334a630, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x334e3f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_strings() const;
@@ -66,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set_strings(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x334a4e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334e2a4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* p);
 
-  /// @brief Method .ctor, addr 0x334a1d4, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334df94, size 0x310, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Count, addr 0x334a56c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x334e32c, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x334a58c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x334e34c, size 0xa0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_Item(int32_t index);
 
-  /// @brief Method get_Size, addr 0x334a54c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x334e30c, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

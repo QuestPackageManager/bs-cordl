@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissScoringElement.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissScoringElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MissScoringElement_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59ee6ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f67c0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   MissScoringElement_Pool(MissScoringElement_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,7 +89,7 @@ public:
 
   __declspec(property(get = get_wouldBeCorrectCutBestPossibleMultiplierEventType)) ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType wouldBeCorrectCutBestPossibleMultiplierEventType;
 
-  /// @brief Method Init, addr 0x59ee098, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59f616c, size 0x48, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData);
 
   static inline ::GlobalNamespace::MissScoringElement* New_ctor();
@@ -106,19 +106,19 @@ public:
 
   constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType value);
 
-  /// @brief Method .ctor, addr 0x59ee6e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f67bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cutScore, addr 0x59ee6c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cutScore, addr 0x59f6798, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_cutScore();
 
-  /// @brief Method get_executionOrder, addr 0x59ee6dc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x59f67b0, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_multiplierEventType, addr 0x59ee6d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_multiplierEventType, addr 0x59f67a8, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x59ee6cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x59f67a0, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
 
 protected:
@@ -136,7 +136,7 @@ public:
   MissScoringElement(MissScoringElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6271 };
 
   /// @brief Field _multiplierEventType, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType ____multiplierEventType;

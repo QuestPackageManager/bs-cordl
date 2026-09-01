@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/MemoryProfiler/DefaultMetadataCollect.hpp"
+// IWYU pragma private; include "Unity\MemoryProfiler\DefaultMetadataCollect.hpp"
 #include "Unity/MemoryProfiler/zzzz__MetadataCollect_impl.hpp"
 #include "Unity/MemoryProfiler/zzzz__DefaultMetadataCollect_def.hpp"
 #include "Unity/Profiling/Memory/zzzz__MemorySnapshotMetadata_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::MemoryProfiler::DefaultMetadataCollect::*)()>(&::Unity::MemoryProfiler::DefaultMetadataCollect::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x668a26c;
+  constexpr static std::size_t addrs = 0x6691ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::MemoryProfiler::DefaultMetadataCollect*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::MemoryProfiler::DefaultMetadataCollect::*)(::Unity::Profiling::Memory::MemorySnapshotMetadata*)>(
     &::Unity::MemoryProfiler::DefaultMetadataCollect::CollectMetadata)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x668a3d8;
+  constexpr static std::size_t addrs = 0x6691e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::MemoryProfiler::DefaultMetadataCollect::*)(double_t)>(
     &::Unity::MemoryProfiler::DefaultMetadataCollect::FormatSecondsToTime)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x668a69c;
+  constexpr static std::size_t addrs = 0x6692118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

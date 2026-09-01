@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/KeyPurposeID.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\KeyPurposeID.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__KeyPurposeID_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::KeyPurposeID._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::KeyPurposeID::*)(::StringW)>(&::Org::BouncyCastle::Asn1::X509::KeyPurposeID::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x365cfd8;
+  constexpr static std::size_t addrs = 0x3660d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

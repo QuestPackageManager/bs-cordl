@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/MemberPrimitiveUnTyped.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\MemberPrimitiveUnTyped.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,21 +39,21 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::Object* value;
 
-  /// @brief Method Dump, addr 0x5b55628, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5b59ae4, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* New_ctor();
 
-  /// @brief Method Read, addr 0x5b555f8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5b59ab4, size 0x30, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x5b555d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5b59a8c, size 0x8, virtual false, abstract: false, final false
   inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation);
 
-  /// @brief Method Set, addr 0x5b555c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5b59a80, size 0xc, virtual false, abstract: false, final false
   inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::System::Object* value);
 
-  /// @brief Method Write, addr 0x5b555d8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x5b59a94, size 0x20, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_typeInformation() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5b555c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b59a7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

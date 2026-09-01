@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ReusableMultiColumnListViewItem.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ReusableMultiColumnListViewItem.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableListViewItem_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableMultiColumnListViewItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Columns_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableMultiColumnListViewItem::get_rootElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4e384;
+  constexpr static std::size_t addrs = 0x6c55f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableMultiColumnListViewItem*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::ReusableMultiColumnListViewItem::Init)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c4e38c;
+  constexpr static std::size_t addrs = 0x6c55f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableMultiColumnListViewItem*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::Columns*, bool)>(&::UnityEngine::UIElements::ReusableMultiColumnListViewItem::Init)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x6c4c10c;
+  constexpr static std::size_t addrs = 0x6c53c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)()>(&::UnityEngine::UIElements::ReusableMultiColumnListViewItem::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c4e390;
+  constexpr static std::size_t addrs = 0x6c55f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableMultiColumnListViewItem*>(), { ".ctor", {}, {} })));

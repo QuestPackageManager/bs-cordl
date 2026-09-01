@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/CancellationCallbackInfo.hpp"
+// IWYU pragma private; include "System\Threading\CancellationCallbackInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,10 +54,10 @@ public:
   /// @brief Field s_executionContextCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_executionContextCallback, put = setStaticF_s_executionContextCallback)) ::System::Threading::ContextCallback* s_executionContextCallback;
 
-  /// @brief Method ExecuteCallback, addr 0x5ca8568, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCallback, addr 0x5caca24, size 0x104, virtual false, abstract: false, final false
   inline void ExecuteCallback();
 
-  /// @brief Method ExecutionContextCallback, addr 0x5ca93cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ExecutionContextCallback, addr 0x5cad888, size 0x90, virtual false, abstract: false, final false
   static inline void ExecutionContextCallback(::System::Object* obj);
 
   static inline ::System::Threading::CancellationCallbackInfo* New_ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetExecutionContext(::System::Threading::ExecutionContext* value);
 
-  /// @brief Method .ctor, addr 0x5ca7f4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cac408, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource);
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Schema/ValidationEventHandler.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Schema\ValidationEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,18 +34,18 @@ namespace Newtonsoft::Json::Schema {
 class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5d64038, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5d684f4, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5d64060, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5d6851c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5d64024, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5d684e0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* e);
 
   static inline ::Newtonsoft::Json::Schema::ValidationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5d589c4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d5ce80, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -63,7 +63,7 @@ public:
   ValidationEventHandler(ValidationEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/TrackDefinitions/LightGroupDuplicationGroup.hpp"
+// IWYU pragma private; include "BeatSaber\TrackDefinitions\LightGroupDuplicationGroup.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "BeatSaber/TrackDefinitions/zzzz__LightGroupDuplicationGroup_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::*)()>(
     &::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::get_duplicationGroupName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e8b68;
+  constexpr static std::size_t addrs = 0x32ec964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>> (::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::*)()>(
     &::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::get_lightGroups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e8b70;
+  constexpr static std::size_t addrs = 0x32ec96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::*)()>(&::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e8b78;
+  constexpr static std::size_t addrs = 0x32ec974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup*>(), { ".ctor", {}, {} })));

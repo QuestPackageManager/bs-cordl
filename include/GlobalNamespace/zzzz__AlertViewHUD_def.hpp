@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AlertViewHUD.hpp"
+// IWYU pragma private; include "GlobalNamespace\AlertViewHUD.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,7 +84,7 @@ public:
   static ::GlobalNamespace::AlertViewHUD_MessageType const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21338 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -160,33 +160,33 @@ public:
   /// @brief Field _warningIcon, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__warningIcon, put = __cordl_internal_set__warningIcon)) ::UnityW<::UnityEngine::Sprite> _warningIcon;
 
-  /// @brief Method Awake, addr 0x5a2cd14, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a311d0, size 0x134, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateHideAfterMessage, addr 0x5a2d194, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CalculateHideAfterMessage, addr 0x5a31650, size 0x74, virtual false, abstract: false, final false
   inline void CalculateHideAfterMessage();
 
-  /// @brief Method ClearMessage, addr 0x5a2d11c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ClearMessage, addr 0x5a315d8, size 0x60, virtual false, abstract: false, final false
   inline void ClearMessage();
 
-  /// @brief Method FollowCamera, addr 0x5a2d208, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method FollowCamera, addr 0x5a316c4, size 0x2d8, virtual false, abstract: false, final false
   inline void FollowCamera();
 
-  /// @brief Method Hide, addr 0x5a2ce48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x5a31304, size 0x1c, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::AlertViewHUD* New_ctor();
 
-  /// @brief Method Post, addr 0x5a2cf60, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Post, addr 0x5a3141c, size 0x168, virtual false, abstract: false, final false
   inline void Post(::StringW message, ::GlobalNamespace::AlertViewHUD_MessageType type);
 
-  /// @brief Method PostMessage, addr 0x5a2ce64, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method PostMessage, addr 0x5a31320, size 0xfc, virtual false, abstract: false, final false
   static inline void PostMessage(::StringW message, ::GlobalNamespace::AlertViewHUD_MessageType messageType);
 
-  /// @brief Method Reset, addr 0x5a2d0c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5a31584, size 0x54, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x5a2d17c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a31638, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__centerEyeTransform() const;
@@ -273,32 +273,32 @@ public:
 
   constexpr void __cordl_internal_set__warningIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x5a2d4e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a3199c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::AlertViewHUD> getStaticF__Instance_k__BackingField();
 
-  /// @brief Method get_CenterInCamera, addr 0x5a2ccdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CenterInCamera, addr 0x5a31198, size 0x8, virtual false, abstract: false, final false
   inline bool get_CenterInCamera();
 
-  /// @brief Method get_Hidden, addr 0x5a2ccec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Hidden, addr 0x5a311a8, size 0x28, virtual false, abstract: false, final false
   inline bool get_Hidden();
 
-  /// @brief Method get_HideAfterSec, addr 0x5a2cccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HideAfterSec, addr 0x5a31188, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_HideAfterSec();
 
-  /// @brief Method get_Instance, addr 0x5a2cc30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x5a310ec, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::AlertViewHUD> get_Instance();
 
   static inline void setStaticF__Instance_k__BackingField(::UnityW<::GlobalNamespace::AlertViewHUD> value);
 
-  /// @brief Method set_CenterInCamera, addr 0x5a2cce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CenterInCamera, addr 0x5a311a0, size 0x8, virtual false, abstract: false, final false
   inline void set_CenterInCamera(bool value);
 
-  /// @brief Method set_HideAfterSec, addr 0x5a2ccd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HideAfterSec, addr 0x5a31190, size 0x8, virtual false, abstract: false, final false
   inline void set_HideAfterSec(int32_t value);
 
-  /// @brief Method set_Instance, addr 0x5a2cc7c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_Instance, addr 0x5a31138, size 0x50, virtual false, abstract: false, final false
   static inline void set_Instance(::GlobalNamespace::AlertViewHUD* value);
 
 protected:
@@ -316,7 +316,7 @@ public:
   AlertViewHUD(AlertViewHUD const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21339 };
 
   /// @brief Field _hideAfterSec, offset: 0x20, size: 0x4, def value: None
   int32_t ____hideAfterSec;

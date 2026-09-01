@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DynamicString.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DynamicString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,10 +21,10 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DynamicString : public ::UnityEngine::Rendering::DynamicArray_1<char16_t> {
 public:
   // Declarations
-  /// @brief Method Append, addr 0x675164c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x67590c8, size 0x10c, virtual false, abstract: false, final false
   inline void Append(::StringW s);
 
-  /// @brief Method Append, addr 0x6751758, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x67591d4, size 0x5c, virtual false, abstract: false, final false
   inline void Append(::UnityEngine::Rendering::DynamicString* s);
 
   static inline ::UnityEngine::Rendering::DynamicString* New_ctor();
@@ -33,16 +33,16 @@ public:
 
   static inline ::UnityEngine::Rendering::DynamicString* New_ctor(::StringW s);
 
-  /// @brief Method ToString, addr 0x67517b4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6759230, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x67514f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6758f6c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x67515ec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6759068, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x675153c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6758fb8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -60,7 +60,7 @@ public:
   DynamicString(DynamicString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11913 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

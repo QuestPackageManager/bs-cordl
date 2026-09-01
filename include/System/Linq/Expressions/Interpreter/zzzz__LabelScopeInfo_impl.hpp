@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LabelScopeInfo.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LabelScopeInfo.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LabelScopeKind_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LabelScopeInfo_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::LabelScopeInfo::*)(
     ::System::Linq::Expressions::Interpreter::LabelScopeInfo*, ::System::Linq::Expressions::Interpreter::LabelScopeKind)>(&::System::Linq::Expressions::Interpreter::LabelScopeInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f97cf4;
+  constexpr static std::size_t addrs = 0x5f9f770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::Interpreter::LabelScopeInfo::*)()>(
     &::System::Linq::Expressions::Interpreter::LabelScopeInfo::get_CanJumpInto)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f97be4;
+  constexpr static std::size_t addrs = 0x5f9f660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::Interpreter::LabelScopeInfo::*)(::System::Linq::Expressions::LabelTarget*)>(
     &::System::Linq::Expressions::Interpreter::LabelScopeInfo::ContainsTarget)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f976a8;
+  constexpr static std::size_t addrs = 0x5f9f124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::Interpreter::LabelScopeInfo::*)(
     ::System::Linq::Expressions::LabelTarget*, ::by_ref<::System::Linq::Expressions::Interpreter::LabelInfo*>)>(&::System::Linq::Expressions::Interpreter::LabelScopeInfo::TryGetLabelInfo)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f97d00;
+  constexpr static std::size_t addrs = 0x5f9f77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::LabelScopeInfo::*)(
     ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*)>(&::System::Linq::Expressions::Interpreter::LabelScopeInfo::AddLabelInfo)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5f97868;
+  constexpr static std::size_t addrs = 0x5f9f2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

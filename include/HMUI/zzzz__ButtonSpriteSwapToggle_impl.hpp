@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ButtonSpriteSwapToggle.hpp"
+// IWYU pragma private; include "HMUI\ButtonSpriteSwapToggle.hpp"
 #include "HMUI/zzzz__ButtonSpriteSwap_impl.hpp"
 #include "HMUI/zzzz__ButtonSpriteSwapToggle_def.hpp"
 #include "HMUI/zzzz__NoTransitionsButton_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ButtonSpriteSwapToggle::*)()>(&::HMUI::ButtonSpriteSwapToggle::get_isToggled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5882394;
+  constexpr static std::size_t addrs = 0x5881cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ButtonSpriteSwapToggle*>(), { "get_isToggled", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonSpriteSwapToggle::*)(bool)>(&::HMUI::ButtonSpriteSwapToggle::set_isToggled)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x588239c;
+  constexpr static std::size_t addrs = 0x5881ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ButtonSpriteSwapToggle*>(), { "set_isToggled", {}, { ::i2c::type_of<bool>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonSpriteSwapToggle::*)()>(&::HMUI::ButtonSpriteSwapToggle::OnEnable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58823d4;
+  constexpr static std::size_t addrs = 0x5881d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonSpriteSwapToggle::*)(::HMUI::NoTransitionsButton_SelectionState)>(
     &::HMUI::ButtonSpriteSwapToggle::HandleButtonSelectionStateDidChange)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5882400;
+  constexpr static std::size_t addrs = 0x5881d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ButtonSpriteSwapToggle::*)()>(&::HMUI::ButtonSpriteSwapToggle::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5882550;
+  constexpr static std::size_t addrs = 0x5881e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ButtonSpriteSwapToggle*>(), { ".ctor", {}, {} })));

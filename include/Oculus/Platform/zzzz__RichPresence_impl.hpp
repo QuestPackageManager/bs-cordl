@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/RichPresence.hpp"
+// IWYU pragma private; include "Oculus\Platform\RichPresence.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__RichPresence_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)()>(&::Oculus::Platform::RichPresence::Clear)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5de66b4;
+  constexpr static std::size_t addrs = 0x5deab70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(), { "Clear", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* (*)()>(&::Oculus::Platform::RichPresence::GetDestinations)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de67f8;
+  constexpr static std::size_t addrs = 0x5deacb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(), { "GetDestinations", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(::Oculus::Platform::RichPresenceOptions*)>(&::Oculus::Platform::RichPresence::Set)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5de6950;
+  constexpr static std::size_t addrs = 0x5deae0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* (*)(::Oculus::Platform::Models::DestinationList*)>(
     &::Oculus::Platform::RichPresence::GetNextDestinationListPage)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5de6ab8;
+  constexpr static std::size_t addrs = 0x5deaf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::RichPresence*>(),

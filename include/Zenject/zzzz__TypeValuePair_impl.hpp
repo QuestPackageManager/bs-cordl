@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/TypeValuePair.hpp"
+// IWYU pragma private; include "Zenject\TypeValuePair.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::TypeValuePair::*)(::System::Type*, ::System::Object*)>(&::Zenject::TypeValuePair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e649c8;
+  constexpr static std::size_t addrs = 0x6e6c54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

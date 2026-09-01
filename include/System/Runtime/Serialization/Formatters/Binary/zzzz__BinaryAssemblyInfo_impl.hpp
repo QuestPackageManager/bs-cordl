@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryAssemblyInfo.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\BinaryAssemblyInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssemblyInfo_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::*)(::StringW)>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b53bc8;
+  constexpr static std::size_t addrs = 0x5b58084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::*)(::StringW, ::System::Reflection::Assembly*)>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b53bd0;
+  constexpr static std::size_t addrs = 0x5b5808c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Assembly* (::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::GetAssembly)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5b53bd8;
+  constexpr static std::size_t addrs = 0x5b58094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

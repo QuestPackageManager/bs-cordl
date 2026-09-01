@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsRsaKeyExchange.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsRsaKeyExchange.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,33 +57,33 @@ public:
   /// @brief Field mServerPublicKey, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_mServerPublicKey, put = __cordl_internal_set_mServerPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
 
-  /// @brief Method GenerateClientKeyExchange, addr 0x348708c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientKeyExchange, addr 0x348ae4c, size 0x28, virtual true, abstract: false, final false
   inline void GenerateClientKeyExchange(::System::IO::Stream* output);
 
-  /// @brief Method GeneratePremasterSecret, addr 0x34871d4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GeneratePremasterSecret, addr 0x348af94, size 0x4c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GeneratePremasterSecret();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange* New_ctor(::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method ProcessClientCredentials, addr 0x3487004, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientCredentials, addr 0x348adc4, size 0x88, virtual true, abstract: false, final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
-  /// @brief Method ProcessClientKeyExchange, addr 0x34870b4, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientKeyExchange, addr 0x348ae74, size 0x120, virtual true, abstract: false, final false
   inline void ProcessClientKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method ProcessServerCertificate, addr 0x3486d38, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCertificate, addr 0x348aaf8, size 0x230, virtual true, abstract: false, final false
   inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method ProcessServerCredentials, addr 0x3486bdc, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCredentials, addr 0x348a99c, size 0x15c, virtual true, abstract: false, final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method SkipServerCredentials, addr 0x3486ba4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SkipServerCredentials, addr 0x348a964, size 0x38, virtual true, abstract: false, final false
   inline void SkipServerCredentials();
 
-  /// @brief Method ValidateCertificateRequest, addr 0x3486f68, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificateRequest, addr 0x348ad28, size 0x9c, virtual true, abstract: false, final false
   inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
-  /// @brief Method ValidateRsaPublicKey, addr 0x3487220, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ValidateRsaPublicKey, addr 0x348afe0, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ValidateRsaPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_mPremasterSecret() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x3486b8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x348a94c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* supportedSignatureAlgorithms);
 
 protected:

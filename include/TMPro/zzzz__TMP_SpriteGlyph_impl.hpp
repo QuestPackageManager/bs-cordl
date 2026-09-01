@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_SpriteGlyph.hpp"
+// IWYU pragma private; include "TMPro\TMP_SpriteGlyph.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteGlyph_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteGlyph::*)()>(&::TMPro::TMP_SpriteGlyph::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x699a534;
+  constexpr static std::size_t addrs = 0x69a1fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteGlyph*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteGlyph::*)(uint32_t, ::UnityEngine::TextCore::GlyphMetrics, ::UnityEngine::TextCore::GlyphRect, float_t, int32_t)>(
     &::TMPro::TMP_SpriteGlyph::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x699a720;
+  constexpr static std::size_t addrs = 0x69a219c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteGlyph::*)(uint32_t, ::UnityEngine::TextCore::GlyphMetrics, ::UnityEngine::TextCore::GlyphRect, float_t, int32_t,
                                                                                           ::UnityEngine::Sprite*)>(&::TMPro::TMP_SpriteGlyph::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x699a754;
+  constexpr static std::size_t addrs = 0x69a21d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/NameType.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\NameType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,12 +20,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE NameType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x346812c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x346beec, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t nameType);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::NameType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3468138, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346bef8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

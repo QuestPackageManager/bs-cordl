@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/AspMvcMasterLocationFormatAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\AspMvcMasterLocationFormatAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AspMvcMasterLocationFormatAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3652c;
+  constexpr static std::size_t addrs = 0x6e3e0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::*)()>(
     &::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36534;
+  constexpr static std::size_t addrs = 0x6e3e0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::set_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3653c;
+  constexpr static std::size_t addrs = 0x6e3e0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

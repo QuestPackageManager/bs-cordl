@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/ISignerInfoGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\ISignerInfoGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT

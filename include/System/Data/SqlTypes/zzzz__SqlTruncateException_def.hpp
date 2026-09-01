@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/SqlTypes/SqlTruncateException.hpp"
+// IWYU pragma private; include "System\Data\SqlTypes\SqlTruncateException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,20 +37,20 @@ public:
 
   static inline ::System::Data::SqlTypes::SqlTruncateException* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method SqlTruncateExceptionSerialization, addr 0x6093e48, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SqlTruncateExceptionSerialization, addr 0x609b8c4, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationInfo* SqlTruncateExceptionSerialization(::System::Runtime::Serialization::SerializationInfo* si,
                                                                                                        ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method .ctor, addr 0x6086f18, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x608e994, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6093dc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x609b83c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x6093d9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x609b818, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x6093de8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x609b864, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
 protected:
@@ -68,7 +68,7 @@ public:
   SqlTruncateException(SqlTruncateException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13906 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

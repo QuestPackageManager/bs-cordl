@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/LazyInitializer.hpp"
+// IWYU pragma private; include "System\Threading\LazyInitializer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitializedCore(::by_ref<T> target, ::System::Func_1<T>* valueFactory);
 
-  /// @brief Method EnsureLockInitialized, addr 0x5ca4738, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method EnsureLockInitialized, addr 0x5ca8bf4, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* EnsureLockInitialized(::by_ref<::System::Object*> syncLock);
 
 protected:

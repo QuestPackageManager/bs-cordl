@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LeaderboardTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace\LeaderboardTableCell.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardTableCell_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(int32_t)>(&::GlobalNamespace::LeaderboardTableCell::set_rank)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x591f11c;
+  constexpr static std::size_t addrs = 0x5922ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LeaderboardTableCell::*)()>(&::GlobalNamespace::LeaderboardTableCell::get_playerName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x591f1b0;
+  constexpr static std::size_t addrs = 0x5922b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { "get_playerName", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(::StringW)>(&::GlobalNamespace::LeaderboardTableCell::set_playerName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x591f1d0;
+  constexpr static std::size_t addrs = 0x5922b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(int32_t)>(&::GlobalNamespace::LeaderboardTableCell::set_score)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x591f1f0;
+  constexpr static std::size_t addrs = 0x5922bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(&::GlobalNamespace::LeaderboardTableCell::set_showSeparator)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x591f2a0;
+  constexpr static std::size_t addrs = 0x5922c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(&::GlobalNamespace::LeaderboardTableCell::set_showFullCombo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x591f2bc;
+  constexpr static std::size_t addrs = 0x5922c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)(bool)>(&::GlobalNamespace::LeaderboardTableCell::set_specialScore)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x591f2d8;
+  constexpr static std::size_t addrs = 0x5922c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardTableCell::*)()>(&::GlobalNamespace::LeaderboardTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591f3dc;
+  constexpr static std::size_t addrs = 0x5922d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardTableCell*>(), { ".ctor", {}, {} })));

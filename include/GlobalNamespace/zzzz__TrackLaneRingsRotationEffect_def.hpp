@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TrackLaneRingsRotationEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\TrackLaneRingsRotationEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_rotationStep(float_t value);
 
-  /// @brief Method .ctor, addr 0x59a0f94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a8ed4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   TrackLaneRingsRotationEffect_RingRotationEffect(TrackLaneRingsRotationEffect_RingRotationEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5991 };
 
   /// @brief Field rotationAngle, offset: 0x10, size: 0x4, def value: None
   float_t ___rotationAngle;
@@ -172,30 +172,30 @@ public:
   __declspec(property(get = __cordl_internal_get_ringRotationEffectsToDelete,
                       put = __cordl_internal_set_ringRotationEffectsToDelete)) ::System::Collections::Generic::List_1<int32_t>* ringRotationEffectsToDelete;
 
-  /// @brief Method AddRingRotationEffect, addr 0x59a0fa8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddRingRotationEffect, addr 0x59a8ee8, size 0xf0, virtual false, abstract: false, final false
   inline void AddRingRotationEffect(float_t angle, float_t step, int32_t propagationSpeed, float_t flexySpeed);
 
-  /// @brief Method Awake, addr 0x59a0e2c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59a8d6c, size 0x168, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FixedUpdate, addr 0x59a1098, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x59a8fd8, size 0x19c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetFirstRingDestinationRotationAngle, addr 0x59a13fc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRingDestinationRotationAngle, addr 0x59a933c, size 0x38, virtual false, abstract: false, final false
   inline float_t GetFirstRingDestinationRotationAngle();
 
-  /// @brief Method GetFirstRingRotationAngle, addr 0x59a13c4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRingRotationAngle, addr 0x59a9304, size 0x38, virtual false, abstract: false, final false
   inline float_t GetFirstRingRotationAngle();
 
   static inline ::GlobalNamespace::TrackLaneRingsRotationEffect* New_ctor();
 
-  /// @brief Method RecycleRingRotationEffect, addr 0x59a1234, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method RecycleRingRotationEffect, addr 0x59a9174, size 0xb4, virtual false, abstract: false, final false
   inline void RecycleRingRotationEffect(::GlobalNamespace::TrackLaneRingsRotationEffect_RingRotationEffect* ringRotationEffect);
 
-  /// @brief Method SpawnRingRotationEffect, addr 0x59a12e8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SpawnRingRotationEffect, addr 0x59a9228, size 0xdc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TrackLaneRingsRotationEffect_RingRotationEffect* SpawnRingRotationEffect();
 
-  /// @brief Method Start, addr 0x59a0f98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59a8ed8, size 0x10, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::TrackLaneRingsRotationEffect_RingRotationEffect*>* const& __cordl_internal_get__activeRingRotationEffects() const;
@@ -246,7 +246,7 @@ public:
 
   constexpr void __cordl_internal_set_ringRotationEffectsToDelete(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x59a1434, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a9374, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -264,7 +264,7 @@ public:
   TrackLaneRingsRotationEffect(TrackLaneRingsRotationEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5992 };
 
   /// @brief Field _trackLaneRingsManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRingsManager> ____trackLaneRingsManager;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/ForeignKeyConstraintEnumerator.hpp"
+// IWYU pragma private; include "System\Data\ForeignKeyConstraintEnumerator.hpp"
 #include "System/Data/zzzz__ConstraintEnumerator_impl.hpp"
 #include "System/Data/zzzz__ForeignKeyConstraintEnumerator_def.hpp"
 #include "System/Data/zzzz__Constraint_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::ForeignKeyConstraintEnumerator::*)(::System::Data::DataSet*)>(&::System::Data::ForeignKeyConstraintEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6018900;
+  constexpr static std::size_t addrs = 0x602037c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ForeignKeyConstraintEnumerator::*)(::System::Data::Constraint*)>(
     &::System::Data::ForeignKeyConstraintEnumerator::IsValidCandidate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6018904;
+  constexpr static std::size_t addrs = 0x6020380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::ForeignKeyConstraint* (::System::Data::ForeignKeyConstraintEnumerator::*)()>(
     &::System::Data::ForeignKeyConstraintEnumerator::GetForeignKeyConstraint)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6018980;
+  constexpr static std::size_t addrs = 0x60203fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ForeignKeyConstraintEnumerator*>(), { "GetForeignKeyConstraint", {}, {} })));

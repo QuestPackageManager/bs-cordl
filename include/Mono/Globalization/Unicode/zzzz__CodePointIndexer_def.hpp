@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Globalization/Unicode/CodePointIndexer.hpp"
+// IWYU pragma private; include "Mono\Globalization\Unicode\CodePointIndexer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ namespace Mono::Globalization::Unicode {
 struct CORDL_TYPE CodePointIndexer_TableRange {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5aac24c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab0708, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end, int32_t indexStart);
 
   // Ctor Parameters []
@@ -102,7 +102,7 @@ public:
 
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* New_ctor(::ArrayW<int32_t> starts, ::ArrayW<int32_t> ends, int32_t defaultIndex, int32_t defaultCP);
 
-  /// @brief Method ToIndex, addr 0x5aac264, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToIndex, addr 0x5ab0720, size 0x64, virtual false, abstract: false, final false
   inline int32_t ToIndex(int32_t cp);
 
   constexpr int32_t const& __cordl_internal_get_TotalCount() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_ranges(::ArrayW<::Mono::Globalization::Unicode::CodePointIndexer_TableRange> value);
 
-  /// @brief Method .ctor, addr 0x5aac104, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab05c0, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t> starts, ::ArrayW<int32_t> ends, int32_t defaultIndex, int32_t defaultCP);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Net/Security/Private/CallbackHelpers.hpp"
+// IWYU pragma private; include "Mono\Net\Security\Private\CallbackHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"
 #include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::*)()>(
     &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fd7308;
+  constexpr static std::size_t addrs = 0x5fded84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Securi
     ::StringW, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::Mono::Security::Interface::MonoSslPolicyErrors)>(
     &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::_PublicToMono_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5fd7310;
+  constexpr static std::size_t addrs = 0x5fded8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::*)()>(
     &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fd730c;
+  constexpr static std::size_t addrs = 0x5fded88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Crypt
                                                                              ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>)>(
     &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::_MonoToInternal_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5fd7330;
+  constexpr static std::size_t addrs = 0x5fdedac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(
     &::Mono::Net::Security::Private::CallbackHelpers::PublicToMono)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5fd6840;
+  constexpr static std::size_t addrs = 0x5fde2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Security::LocalCertSelectionCallback* (*)(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(
     &::Mono::Net::Security::Private::CallbackHelpers::MonoToInternal)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5fd14f8;
+  constexpr static std::size_t addrs = 0x5fd8f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LODGroupCullingData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LODGroupCullingData.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LODGroupCullingData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LODGroupCullingData_def.hpp"

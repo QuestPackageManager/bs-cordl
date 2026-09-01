@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerApplicationSpecificParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerApplicationSpecificParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,10 +46,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecificParser* New_ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ReadObject, addr 0x36852fc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReadObject, addr 0x36890bc, size 0x1c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ToAsn1Object, addr 0x367fe84, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x3683c44, size 0x7c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser* const& __cordl_internal_get_parser() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_tag(int32_t value);
 
-  /// @brief Method .ctor, addr 0x367fe78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3683c38, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"

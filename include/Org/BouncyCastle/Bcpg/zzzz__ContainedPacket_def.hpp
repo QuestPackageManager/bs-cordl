@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/ContainedPacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\ContainedPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,12 +27,12 @@ public:
   /// @brief Method Encode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x369926c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x369d02c, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::ContainedPacket* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3699324, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369d0e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

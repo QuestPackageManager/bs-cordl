@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/INoteControllerNoteDidFinishJumpEvent.hpp"
+// IWYU pragma private; include "GlobalNamespace\INoteControllerNoteDidFinishJumpEvent.hpp"
 #include "GlobalNamespace/zzzz__INoteControllerNoteDidFinishJumpEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent.HandleNoteControllerNoteDidFinishJump

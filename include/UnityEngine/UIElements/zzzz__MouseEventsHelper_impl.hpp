@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MouseEventsHelper.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MouseEventsHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventsHelper_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IMouseEvent*,
                                                                 ::UnityEngine::Vector2)>(&::UnityEngine::UIElements::MouseEventsHelper::SendMouseOverMouseOut)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x6d903cc;
+  constexpr static std::size_t addrs = 0x6d97f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

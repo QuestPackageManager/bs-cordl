@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OrderedSet_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\OrderedSet_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,7 +107,7 @@ public:
   static ::GlobalNamespace::OrderedSet_1_ProcessOrder<T> const Lifo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18239 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -193,7 +193,7 @@ public:
   OrderedSet_1_Node(OrderedSet_1_Node const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18240 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   T ___value;
@@ -316,7 +316,7 @@ public:
   OrderedSet_1__GetEnumerator_d__23(OrderedSet_1__GetEnumerator_d__23 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18241 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -489,7 +489,7 @@ public:
   OrderedSet_1(OrderedSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18242 };
 
   /// @brief Field _comparison, offset: 0x10, size: 0x8, def value: None
   ::System::Comparison_1<T>* ____comparison;

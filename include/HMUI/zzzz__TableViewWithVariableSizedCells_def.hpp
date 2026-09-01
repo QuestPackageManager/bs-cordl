@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/TableViewWithVariableSizedCells.hpp"
+// IWYU pragma private; include "HMUI\TableViewWithVariableSizedCells.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,21 +33,21 @@ public:
 
   __declspec(property(get = get_contentSize)) float_t contentSize;
 
-  /// @brief Method GetCellPosition, addr 0x589146c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetCellPosition, addr 0x5890e34, size 0x50, virtual true, abstract: false, final false
   inline float_t GetCellPosition(int32_t idx);
 
-  /// @brief Method GetCellSize, addr 0x589143c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetCellSize, addr 0x5890e04, size 0x30, virtual true, abstract: false, final false
   inline float_t GetCellSize(int32_t idx);
 
-  /// @brief Method GetMaxVisibleIdx, addr 0x589134c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetMaxVisibleIdx, addr 0x5890d14, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetMaxVisibleIdx();
 
-  /// @brief Method GetMinVisibleIdx, addr 0x589127c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetMinVisibleIdx, addr 0x5890c44, size 0xd0, virtual true, abstract: false, final false
   inline int32_t GetMinVisibleIdx();
 
   static inline ::HMUI::TableViewWithVariableSizedCells* New_ctor();
 
-  /// @brief Method UpdateCachedData, addr 0x58914bc, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method UpdateCachedData, addr 0x5890e84, size 0x1f4, virtual true, abstract: false, final false
   inline void UpdateCachedData();
 
   constexpr ::ArrayW<float_t> const& __cordl_internal_get__cachedCellSizes() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__totalHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x58916b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5891078, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_contentSize, addr 0x5891274, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentSize, addr 0x5890c3c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_contentSize();
 
 protected:
@@ -89,7 +89,7 @@ public:
   TableViewWithVariableSizedCells(TableViewWithVariableSizedCells const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19135 };
 
   /// @brief Field _totalHeight, offset: 0xc4, size: 0x4, def value: None
   float_t ____totalHeight;

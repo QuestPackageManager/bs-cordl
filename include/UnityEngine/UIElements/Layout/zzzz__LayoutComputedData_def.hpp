@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutComputedData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutComputedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -306,16 +306,16 @@ public:
 
   __declspec(property(get = get_PaddingBuffer)) float_t* PaddingBuffer;
 
-  /// @brief Method get_BorderBuffer, addr 0x6cfb228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BorderBuffer, addr 0x6d02dac, size 0x8, virtual false, abstract: false, final false
   inline float_t* get_BorderBuffer();
 
-  /// @brief Method get_Default, addr 0x6cf79ac, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6cff530, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutComputedData get_Default();
 
-  /// @brief Method get_MarginBuffer, addr 0x6cfb220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarginBuffer, addr 0x6d02da4, size 0x8, virtual false, abstract: false, final false
   inline float_t* get_MarginBuffer();
 
-  /// @brief Method get_PaddingBuffer, addr 0x6cfb230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PaddingBuffer, addr 0x6d02db4, size 0x8, virtual false, abstract: false, final false
   inline float_t* get_PaddingBuffer();
 
   // Ctor Parameters []

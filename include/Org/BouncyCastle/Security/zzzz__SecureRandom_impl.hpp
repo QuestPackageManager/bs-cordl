@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/SecureRandom.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\SecureRandom.hpp"
 #include "System/zzzz__Random_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__DigestRandomGenerator_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)()>(&::Org::BouncyCastle::Security::SecureRandom::NextCounterValue)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x341ae3c;
+  constexpr static std::size_t addrs = 0x341ebfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::SecureRandom*>(), { "NextCounterValue", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (*)()>(&::Org::BouncyCastle::Security::SecureRandom::get_Master)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x341aea4;
+  constexpr static std::size_t addrs = 0x341ec64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::SecureRandom*>(), { "get_Master", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* (*)(::StringW, bool)>(&::Org::BouncyCastle::Security::SecureRandom::CreatePrng)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x341af00;
+  constexpr static std::size_t addrs = 0x341ecc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(&::Org::BouncyCastle::Security::SecureRandom::GetNextBytes)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3419c00;
+  constexpr static std::size_t addrs = 0x341d9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (*)(::StringW)>(&::Org::BouncyCastle::Security::SecureRandom::GetInstance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x341b0c0;
+  constexpr static std::size_t addrs = 0x341ee80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (*)(::StringW, bool)>(&::Org::BouncyCastle::Security::SecureRandom::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x341b11c;
+  constexpr static std::size_t addrs = 0x341eedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int32_t)>(&::Org::BouncyCastle::Security::SecureRandom::GetSeed)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x341b318;
+  constexpr static std::size_t addrs = 0x341f0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::SecureRandom::*)()>(&::Org::BouncyCastle::Security::SecureRandom::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x34114b8;
+  constexpr static std::size_t addrs = 0x3415278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::SecureRandom*>(), { ".ctor", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::SecureRandom::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Security::SecureRandom::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x341b3bc;
+  constexpr static std::size_t addrs = 0x341f17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::SecureRandom::*)(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*)>(
     &::Org::BouncyCastle::Security::SecureRandom::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x341b2a4;
+  constexpr static std::size_t addrs = 0x341f064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::SecureRandom*>(),
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Security::SecureRandom::*)(int32_t)>(&::Org::BouncyCastle::Security::SecureRandom::GenerateSeed)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x341b45c;
+  constexpr static std::size_t addrs = 0x341f21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::SecureRandom::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Security::SecureRandom::SetSeed)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x341b500;
+  constexpr static std::size_t addrs = 0x341f2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::SecureRandom::*)(int64_t)>(&::Org::BouncyCastle::Security::SecureRandom::SetSeed)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x341b5b4;
+  constexpr static std::size_t addrs = 0x341f374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Security::SecureRandom::*)()>(&::Org::BouncyCastle::Security::SecureRandom::Next)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x341b66c;
+  constexpr static std::size_t addrs = 0x341f42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Security::SecureRandom::*)(int32_t)>(&::Org::BouncyCastle::Security::SecureRandom::Next)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x341b68c;
+  constexpr static std::size_t addrs = 0x341f44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Security::SecureRandom::*)(int32_t, int32_t)>(&::Org::BouncyCastle::Security::SecureRandom::Next)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x341b770;
+  constexpr static std::size_t addrs = 0x341f530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::SecureRandom::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Security::SecureRandom::NextBytes)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x341b830;
+  constexpr static std::size_t addrs = 0x341f5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::SecureRandom::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Security::SecureRandom::NextBytes)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x341b8e8;
+  constexpr static std::size_t addrs = 0x341f6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Org::BouncyCastle::Security::SecureRandom::*)()>(&::Org::BouncyCastle::Security::SecureRandom::NextDouble)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x341b9b8;
+  constexpr static std::size_t addrs = 0x341f778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Security::SecureRandom::*)()>(&::Org::BouncyCastle::Security::SecureRandom::NextInt)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x341ba68;
+  constexpr static std::size_t addrs = 0x341f828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Security::SecureRandom::*)()>(&::Org::BouncyCastle::Security::SecureRandom::NextLong)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x341bad8;
+  constexpr static std::size_t addrs = 0x341f898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

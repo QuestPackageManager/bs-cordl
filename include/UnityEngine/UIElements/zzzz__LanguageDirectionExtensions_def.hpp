@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/LanguageDirectionExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\LanguageDirectionExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE LanguageDirectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method toTextCore, addr 0x6cc1860, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method toTextCore, addr 0x6cc93e4, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::LanguageDirection toTextCore(::UnityEngine::UIElements::LanguageDirection dir);
 
 protected:

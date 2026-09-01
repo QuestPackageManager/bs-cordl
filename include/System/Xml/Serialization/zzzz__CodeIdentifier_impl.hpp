@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/CodeIdentifier.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\CodeIdentifier.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__CodeIdentifier_def.hpp"
 #include "Microsoft/CSharp/zzzz__CodeDomProvider_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Serialization::CodeIdentifier::MakePascal)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x62e2e30;
+  constexpr static std::size_t addrs = 0x62ea8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Serialization::CodeIdentifier::MakeValid)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x62e2fd0;
+  constexpr static std::size_t addrs = 0x62eaa4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Xml::Serialization::CodeIdentifier::IsValidStart)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x62e3194;
+  constexpr static std::size_t addrs = 0x62eac10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Xml::Serialization::CodeIdentifier::IsValid)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x62e3148;
+  constexpr static std::size_t addrs = 0x62eabc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DisappearingArrowControllerBase_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\DisappearingArrowControllerBase_1.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_def.hpp"

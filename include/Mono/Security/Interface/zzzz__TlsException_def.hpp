@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Interface/TlsException.hpp"
+// IWYU pragma private; include "Mono\Security\Interface\TlsException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_alert(::Mono::Security::Interface::Alert* value);
 
-  /// @brief Method .ctor, addr 0x5a9a0c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9e584, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x5a9a13c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9e5f8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message);
 
 protected:
@@ -60,7 +60,7 @@ public:
   TlsException(TlsException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19322 };
 
   /// @brief Field alert, offset: 0x90, size: 0x8, def value: None
   ::Mono::Security::Interface::Alert* ___alert;

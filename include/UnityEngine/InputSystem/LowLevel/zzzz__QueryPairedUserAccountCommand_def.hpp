@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryPairedUserAccountCommand.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\QueryPairedUserAccountCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +94,7 @@ public:
   static ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand_Result const UserAccountSelectionInProgress;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8974 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -126,7 +126,7 @@ public:
   constexpr QueryPairedUserAccountCommand__idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8975 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -162,7 +162,7 @@ public:
   constexpr QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8976 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -219,7 +219,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x65a64c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x65adf3c, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -246,25 +246,25 @@ public:
 
   constexpr void __cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand__nameBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x65a6248, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x65adcc4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_id, addr 0x65a6254, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x65adcd0, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_name, addr 0x65a6384, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x65ade00, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_typeStatic, addr 0x65a64b4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x65adf30, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
-  /// @brief Method set_id, addr 0x65a6274, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x65adcf0, size 0x110, virtual false, abstract: false, final false
   inline void set_id(::StringW value);
 
-  /// @brief Method set_name, addr 0x65a63a4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x65ade20, size 0x110, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   // Ctor Parameters []
@@ -341,7 +341,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8977 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x410 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/Shaders.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\Shaders.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Shaders_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::UIElements::UIR::Shaders::get_runtimeMaterial)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6ce9878;
+  constexpr static std::size_t addrs = 0x6cf13fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Shaders*>(), { "get_runtimeMaterial", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::UIElements::UIR::Shaders::get_runtimeWorldMaterial)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6ce9a60;
+  constexpr static std::size_t addrs = 0x6cf15e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Shaders*>(), { "get_runtimeWorldMaterial", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::UIElements::UIR::Shaders::get_editorMaterial)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6ce9ac0;
+  constexpr static std::size_t addrs = 0x6cf1644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Shaders*>(), { "get_editorMaterial", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::by_ref<::UnityEngine::Material*>, ::StringW)>(
     &::UnityEngine::UIElements::UIR::Shaders::GetOrCreateMaterial)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6ce98d8;
+  constexpr static std::size_t addrs = 0x6cf145c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::Shaders::Acquire)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6ce9b20;
+  constexpr static std::size_t addrs = 0x6cf16a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Shaders*>(), { "Acquire", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::Shaders::Release)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6ce9b84;
+  constexpr static std::size_t addrs = 0x6cf1708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Shaders*>(), { "Release", {}, {} })));

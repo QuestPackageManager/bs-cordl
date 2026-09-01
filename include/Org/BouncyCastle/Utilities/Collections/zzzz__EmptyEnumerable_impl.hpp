@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/EmptyEnumerable.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Collections\EmptyEnumerable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__EmptyEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3623b28;
+  constexpr static std::size_t addrs = 0x36278e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::GetEnumerator)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3623b2c;
+  constexpr static std::size_t addrs = 0x36278ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

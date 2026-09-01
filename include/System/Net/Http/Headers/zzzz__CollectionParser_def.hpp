@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/CollectionParser.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\CollectionParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
   template <typename T>
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T>* parser, ::by_ref<::System::Collections::Generic::List_1<T>*> result);
 
-  /// @brief Method TryParse, addr 0x60dd354, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60e4dd0, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::by_ref<::System::Collections::Generic::List_1<::StringW>*> result);
 
-  /// @brief Method TryParseStringElement, addr 0x60dd408, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TryParseStringElement, addr 0x60e4e84, size 0xd0, virtual false, abstract: false, final false
   static inline bool TryParseStringElement(::System::Net::Http::Headers::Lexer* lexer, ::by_ref<::StringW> parsedValue, ::by_ref<::System::Net::Http::Headers::Token> t);
 
 protected:
@@ -58,7 +58,7 @@ public:
   CollectionParser(CollectionParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/NormalReconstruction.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\NormalReconstruction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__NormalReconstruction_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x68f09bc;
+  constexpr static std::size_t addrs = 0x68f8438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68f0a60;
+  constexpr static std::size_t addrs = 0x68f84dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x68f0d68;
+  constexpr static std::size_t addrs = 0x68f87e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x68f0af0;
+  constexpr static std::size_t addrs = 0x68f856c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

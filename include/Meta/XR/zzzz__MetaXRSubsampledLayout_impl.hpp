@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MetaXRSubsampledLayout.hpp"
+// IWYU pragma private; include "Meta\XR\MetaXRSubsampledLayout.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_impl.hpp"
 #include "Meta/XR/zzzz__MetaXRSubsampledLayout_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MetaXRSubsampledLayout.OnInstanceCreate
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MetaXRSubsampledLayout::*)(uint64_t)>(&::Meta::XR::MetaXRSubsampledLayout::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4c390;
+  constexpr static std::size_t addrs = 0x5e5084c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Meta::XR::MetaXRSubsampledLayout::MetaSetSubsampledLayout)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e4c3b0;
+  constexpr static std::size_t addrs = 0x5e5086c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRSubsampledLayout::*)()>(&::Meta::XR::MetaXRSubsampledLayout::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c42c;
+  constexpr static std::size_t addrs = 0x5e508e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRSubsampledLayout*>(), { ".ctor", {}, {} })));

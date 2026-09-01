@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/PbeParametersGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\PbeParametersGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,33 +55,33 @@ public:
   /// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize, int32_t ivSize);
 
-  /// @brief Method GetPassword, addr 0x33dd0ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetPassword, addr 0x33e0e6c, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetPassword();
 
-  /// @brief Method GetSalt, addr 0x33dd118, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetSalt, addr 0x33e0ed8, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSalt();
 
-  /// @brief Method Init, addr 0x33dcf48, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x33e0d08, size 0x104, virtual true, abstract: false, final false
   inline void Init(::ArrayW<uint8_t> password, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
   static inline ::Org::BouncyCastle::Crypto::PbeParametersGenerator* New_ctor();
 
-  /// @brief Method Pkcs12PasswordToBytes, addr 0x33dd2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Pkcs12PasswordToBytes, addr 0x33e10ac, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Pkcs12PasswordToBytes(::ArrayW<char16_t> password);
 
-  /// @brief Method Pkcs12PasswordToBytes, addr 0x33dd2f4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Pkcs12PasswordToBytes, addr 0x33e10b4, size 0xd0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Pkcs12PasswordToBytes(::ArrayW<char16_t> password, bool wrongPkcs12Zero);
 
-  /// @brief Method Pkcs5PasswordToBytes, addr 0x33dd12c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Pkcs5PasswordToBytes, addr 0x33e0eec, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Pkcs5PasswordToBytes(::ArrayW<char16_t> password);
 
-  /// @brief Method Pkcs5PasswordToBytes, addr 0x33dd190, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Pkcs5PasswordToBytes, addr 0x33e0f50, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Pkcs5PasswordToBytes(::StringW password);
 
-  /// @brief Method Pkcs5PasswordToUtf8Bytes, addr 0x33dd1f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Pkcs5PasswordToUtf8Bytes, addr 0x33e0fb4, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Pkcs5PasswordToUtf8Bytes(::ArrayW<char16_t> password);
 
-  /// @brief Method Pkcs5PasswordToUtf8Bytes, addr 0x33dd270, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Pkcs5PasswordToUtf8Bytes, addr 0x33e1030, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Pkcs5PasswordToUtf8Bytes(::StringW password);
 
   constexpr int32_t const& __cordl_internal_get_mIterationCount() const;
@@ -102,16 +102,16 @@ public:
 
   constexpr void __cordl_internal_set_mSalt(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x33dcf44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e0d04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IterationCount, addr 0x33dd124, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x33e0ee4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_IterationCount();
 
-  /// @brief Method get_Password, addr 0x33dd04c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Password, addr 0x33e0e0c, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Password();
 
-  /// @brief Method get_Salt, addr 0x33dd0b8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Salt, addr 0x33e0e78, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Salt();
 
 protected:

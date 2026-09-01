@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SpaceAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\SpaceAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__SpaceAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SpaceAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpaceAttribute::*)()>(&::UnityEngine::SpaceAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ad0608;
+  constexpr static std::size_t addrs = 0x6ad8020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpaceAttribute*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpaceAttribute::*)(float_t)>(&::UnityEngine::SpaceAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ad0618;
+  constexpr static std::size_t addrs = 0x6ad8030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpaceAttribute*>(), { ".ctor", {}, { ::i2c::type_of<float_t>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/FieldMember.hpp"
+// IWYU pragma private; include "Unity\Properties\FieldMember.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,25 +47,25 @@ public:
   /// @brief Convert operator to "::Unity::Properties::IMemberInfo"
   constexpr operator ::Unity::Properties::IMemberInfo*();
 
-  /// @brief Method GetCustomAttributes, addr 0x6b9a158, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetCustomAttributes, addr 0x6ba1cdc, size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes();
 
-  /// @brief Method GetValue, addr 0x6b9a120, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetValue, addr 0x6ba1ca4, size 0x20, virtual true, abstract: false, final true
   inline ::System::Object* GetValue(::System::Object* obj);
 
-  /// @brief Method SetValue, addr 0x6b9a140, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method SetValue, addr 0x6ba1cc4, size 0x18, virtual true, abstract: false, final true
   inline void SetValue(::System::Object* obj, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6b99fa4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba1b28, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* fieldInfo);
 
-  /// @brief Method get_IsReadOnly, addr 0x6b9a0d4, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x6ba1c58, size 0x2c, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6b9a0cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x6ba1c50, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_ValueType, addr 0x6b9a100, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_ValueType, addr 0x6ba1c84, size 0x20, virtual true, abstract: false, final true
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::Unity::Properties::IMemberInfo"
@@ -80,7 +80,7 @@ public:
   constexpr FieldMember(::System::Reflection::FieldInfo* m_FieldInfo, ::StringW _Name_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19631 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

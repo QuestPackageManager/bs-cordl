@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Encoders/BufferedEncoder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Encoders\BufferedEncoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder* New_ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
 
-  /// @brief Method ProcessByte, addr 0x3629628, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x362d3e8, size 0x12c, virtual false, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t> outBytes, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x3629754, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x362d514, size 0x260, virtual false, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t> outBytes, int32_t outOff);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_Buffer() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_translator(::Org::BouncyCastle::Utilities::Encoders::ITranslator* value);
 
-  /// @brief Method .ctor, addr 0x36294f4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362d2b4, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightTranslationBeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightTranslationBeatmapEventDataBox.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_impl.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::*)(int32_t)>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3716008;
+  constexpr static std::size_t addrs = 0x371be8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3716028;
+  constexpr static std::size_t addrs = 0x371beac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x838;
-  constexpr static std::size_t addrs = 0x37160d4;
+  constexpr static std::size_t addrs = 0x371bf58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x37169c0;
+  constexpr static std::size_t addrs = 0x371c844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::__m__Finally2)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x371690c;
+  constexpr static std::size_t addrs = 0x371c790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3716a74;
+  constexpr static std::size_t addrs = 0x371c8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9*>(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3716a7c;
+  constexpr static std::size_t addrs = 0x371c900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3716ab4;
+  constexpr static std::size_t addrs = 0x371c938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* (::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::*)()>(
         &::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3716abc;
+  constexpr static std::size_t addrs = 0x371c940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9*>(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3716b94;
+  constexpr static std::size_t addrs = 0x371ca18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -574,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightTranslationBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3715cd8;
+  constexpr static std::size_t addrs = 0x371bb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>(),
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::LightTranslationBeatmapEventDataBox::*)()>(&::GlobalNamespace::LightTranslationBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3715ce0;
+  constexpr static std::size_t addrs = 0x371bb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>(),
@@ -603,7 +603,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, bool, ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*)>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3715ce8;
+  constexpr static std::size_t addrs = 0x371bb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -625,7 +625,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::GlobalNamespace::LightTranslationBeatmapEventDataBox::*)(float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*,
                                                                ::GlobalNamespace::IBeatmapLightEventConverter*)>(&::GlobalNamespace::LightTranslationBeatmapEventDataBox::Unpack)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3715f3c;
+  constexpr static std::size_t addrs = 0x371bdc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>(),

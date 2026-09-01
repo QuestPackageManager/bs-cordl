@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/GizmoHook.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\GizmoHook.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,14 +60,14 @@ public:
 
   constexpr void __cordl_internal_set__SetState_k__BackingField(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x5a5fe24, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a642e0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute,
                     ::System::Action_1<bool>* setState, ::System::Func_1<bool>* getState);
 
-  /// @brief Method get_GetState, addr 0x5a60208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GetState, addr 0x5a646c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<bool>* get_GetState();
 
-  /// @brief Method get_SetState, addr 0x5a60200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SetState, addr 0x5a646bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<bool>* get_SetState();
 
 protected:
@@ -85,7 +85,7 @@ public:
   GizmoHook(GizmoHook const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18437 };
 
   /// @brief Field <SetState>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<bool>* ____SetState_k__BackingField;

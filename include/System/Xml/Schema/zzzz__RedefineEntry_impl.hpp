@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/RedefineEntry.hpp"
+// IWYU pragma private; include "System\Xml\Schema\RedefineEntry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__RedefineEntry_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaRedefine_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::RedefineEntry::*)(::System::Xml::Schema::XmlSchemaRedefine*, ::System::Xml::Schema::XmlSchema*)>(
     &::System::Xml::Schema::RedefineEntry::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61d93cc;
+  constexpr static std::size_t addrs = 0x61e0e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalTechniqueOption_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalSettings_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalSettings::*)()>(&::UnityEngine::Rendering::Universal::DecalSettings::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68a6090;
+  constexpr static std::size_t addrs = 0x68adb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalSettings*>(), { ".ctor", {}, {} })));

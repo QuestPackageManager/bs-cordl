@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPacks.hpp"
+// IWYU pragma private; include "UnityEngine\Android\AndroidAssetPacks.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPacks_def.hpp"
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c::*)()>(
     &::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a2c03c;
+  constexpr static std::size_t addrs = 0x6a33ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c::*)(::StringW)>(
     &::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c::__ctor_b__2_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2c040;
+  constexpr static std::size_t addrs = 0x6a33abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c*>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidAssetPackStatus (::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c::*)(
     ::StringW)>(&::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c::__ctor_b__2_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2c048;
+  constexpr static std::size_t addrs = 0x6a33ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AssetPackManagerDownloadStatusCallback_AndroidAssetPacks___c*>(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerDownloadStatusCallback::*)(
     ::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>*, ::ArrayW<::StringW>)>(&::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerDownloadStatusCallback::_ctor)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6a2bb40;
+  constexpr static std::size_t addrs = 0x6a335bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerDownloadStatusCallback::*)(
     ::StringW, int32_t, int64_t, int64_t, int32_t, int32_t)>(&::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerDownloadStatusCallback::onStatusUpdate)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x6a2bd38;
+  constexpr static std::size_t addrs = 0x6a337b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerDownloadStatusCallback*>(),
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback::*)(
     ::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>*)>(&::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6a2c050;
+  constexpr static std::size_t addrs = 0x6a33acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback::*)(bool)>(
     &::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback::onMobileDataConfirmationResult)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6a2c0d8;
+  constexpr static std::size_t addrs = 0x6a33b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerMobileDataConfirmationCallback*>(),
@@ -257,7 +257,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Andr
     ::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*>>*, ::ArrayW<::StringW>)>(
     &::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerStatusQueryCallback::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6a2c160;
+  constexpr static std::size_t addrs = 0x6a33bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerStatusQueryCallback::*)(
     int64_t, ::ArrayW<::StringW>, ::ArrayW<int32_t>, ::ArrayW<int32_t>)>(&::UnityEngine::Android::AndroidAssetPacks_AssetPackManagerStatusQueryCallback::onStatusResult)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x6a2c260;
+  constexpr static std::size_t addrs = 0x6a33cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AndroidJavaObject* (*)()>(&::UnityEngine::Android::AndroidAssetPacks::GetAssetPackManager)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x6a2b7c0;
+  constexpr static std::size_t addrs = 0x6a3323c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidAssetPacks*>(), { "GetAssetPackManager", {}, {} })));

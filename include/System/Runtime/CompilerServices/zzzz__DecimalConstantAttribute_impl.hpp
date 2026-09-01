@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/DecimalConstantAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\DecimalConstantAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__DecimalConstantAttribute_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::DecimalConstantAttribute::*)(uint8_t, uint8_t, uint32_t, uint32_t, uint32_t)>(
     &::System::Runtime::CompilerServices::DecimalConstantAttribute::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5b6beac;
+  constexpr static std::size_t addrs = 0x5b70368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Runtime::CompilerServices::DecimalConstantAttribute::*)()>(
     &::System::Runtime::CompilerServices::DecimalConstantAttribute::get_Value)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b6bf20;
+  constexpr static std::size_t addrs = 0x5b703dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

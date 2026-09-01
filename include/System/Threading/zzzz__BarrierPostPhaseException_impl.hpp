@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/BarrierPostPhaseException.hpp"
+// IWYU pragma private; include "System\Threading\BarrierPostPhaseException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Threading/zzzz__BarrierPostPhaseException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::BarrierPostPhaseException::*)()>(&::System::Threading::BarrierPostPhaseException::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6373748;
+  constexpr static std::size_t addrs = 0x637b1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::BarrierPostPhaseException*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::BarrierPostPhaseException::*)(::System::Exception*)>(&::System::Threading::BarrierPostPhaseException::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x637375c;
+  constexpr static std::size_t addrs = 0x637b1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::BarrierPostPhaseException::*)(::StringW)>(&::System::Threading::BarrierPostPhaseException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6373754;
+  constexpr static std::size_t addrs = 0x637b1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::BarrierPostPhaseException::*)(::StringW, ::System::Exception*)>(
     &::System::Threading::BarrierPostPhaseException::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6373768;
+  constexpr static std::size_t addrs = 0x637b1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::BarrierPostPhaseException*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::BarrierPostPhaseException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Threading::BarrierPostPhaseException::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6373800;
+  constexpr static std::size_t addrs = 0x637b27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

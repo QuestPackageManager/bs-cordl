@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/RichPresenceRuntimeInstance.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\RichPresenceRuntimeInstance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,20 +43,20 @@ public:
 
   __declspec(property(get = get_timestamp)) ::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp> timestamp;
 
-  /// @brief Method .ctor, addr 0x5f2a01c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e4dc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::Platform::Core::IRichPresenceDefinition* definition, ::StringW state, ::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo> partyInfo,
                     ::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp> timestamp);
 
-  /// @brief Method get_definition, addr 0x5f29fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_definition, addr 0x5f2e4ac, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::IRichPresenceDefinition* get_definition();
 
-  /// @brief Method get_partyInfo, addr 0x5f29ffc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_partyInfo, addr 0x5f2e4bc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo> get_partyInfo();
 
-  /// @brief Method get_state, addr 0x5f29ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x5f2e4b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_state();
 
-  /// @brief Method get_timestamp, addr 0x5f2a008, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_timestamp, addr 0x5f2e4c8, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp> get_timestamp();
 
   // Ctor Parameters []
@@ -72,7 +72,7 @@ public:
                                         ::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp> _timestamp_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22446 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

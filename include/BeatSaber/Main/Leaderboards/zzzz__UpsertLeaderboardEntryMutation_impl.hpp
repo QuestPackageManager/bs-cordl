@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/Leaderboards/UpsertLeaderboardEntryMutation.hpp"
+// IWYU pragma private; include "BeatSaber\Main\Leaderboards\UpsertLeaderboardEntryMutation.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__MutationRequest_1_impl.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__UpsertLeaderboardEntryMutation_def.hpp"
 #include "BeatSaber/Main/GraphQL/InputTypes/zzzz__XOCBeatGamesBeatmapLeaderboardEntryUpsertData_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
                                                                                                                                  ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifiers*)>(
     &::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x32a199c;
+  constexpr static std::size_t addrs = 0x32a5798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                                            ::GlobalNamespace::GameplayModifiers*)>(
         &::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::ConvertInputData)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x32a1e90;
+  constexpr static std::size_t addrs = 0x32a5c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

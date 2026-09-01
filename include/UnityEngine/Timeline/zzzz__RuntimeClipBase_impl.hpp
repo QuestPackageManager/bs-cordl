@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/RuntimeClipBase.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\RuntimeClipBase.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeClipBase_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::RuntimeClipBase.get_start
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Timeline::RuntimeClipBase::*)()>(&::UnityEngine::Timeline::RuntimeClipBase::get_intervalStart)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69bdfa0;
+  constexpr static std::size_t addrs = 0x69c5a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Timeline::RuntimeClipBase::*)()>(&::UnityEngine::Timeline::RuntimeClipBase::get_intervalEnd)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x69be014;
+  constexpr static std::size_t addrs = 0x69c5a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::RuntimeClipBase::*)()>(&::UnityEngine::Timeline::RuntimeClipBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69bd998;
+  constexpr static std::size_t addrs = 0x69c5414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::RuntimeClipBase*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeBakingProcessSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeBakingProcessSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeDilationSettings_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VirtualOffsetSettings_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeBakingProcessSettings_def.hpp"
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings (*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::get_Default)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x678a2c0;
+  constexpr static std::size_t addrs = 0x6791d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings>(), { "get_Default", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::*)(
     ::UnityEngine::Rendering::ProbeDilationSettings, ::UnityEngine::Rendering::VirtualOffsetSettings)>(&::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x678a344;
+  constexpr static std::size_t addrs = 0x6791dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::*)()>(
     &::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::SetDefaults)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x678a308;
+  constexpr static std::size_t addrs = 0x6791d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings>(), { "SetDefaults", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::*)()>(&::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings::Upgrade)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x678a370;
+  constexpr static std::size_t addrs = 0x6791dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings>(), { "Upgrade", {}, {} })));

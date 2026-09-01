@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TransformData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TransformData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,19 +39,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>*();
 
-  /// @brief Method Copy, addr 0x6c876d8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x6c8f25c, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransformData Copy();
 
-  /// @brief Method CopyFrom, addr 0x6c876e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x6c8f26c, size 0x8, virtual true, abstract: false, final true
   inline void CopyFrom(::by_ref<::UnityEngine::UIElements::TransformData> other);
 
-  /// @brief Method Equals, addr 0x6c87a84, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c8f608, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c87a40, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c8f5c4, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransformData other);
 
-  /// @brief Method GetHashCode, addr 0x6c87b28, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c8f6ac, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformData>"
@@ -60,7 +60,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransformData_();
 
-  /// @brief Method op_Equality, addr 0x6c876f0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c8f274, size 0x194, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransformData lhs, ::UnityEngine::UIElements::TransformData rhs);
 
   // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/HttpStreamAsyncResult.hpp"
+// IWYU pragma private; include "System\Net\HttpStreamAsyncResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpStreamAsyncResult_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpStreamAsyncResult::*)(::System::Exception*)>(&::System::Net::HttpStreamAsyncResult::Complete)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6328cb0;
+  constexpr static std::size_t addrs = 0x633072c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpStreamAsyncResult::*)()>(&::System::Net::HttpStreamAsyncResult::Complete)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6328cb8;
+  constexpr static std::size_t addrs = 0x6330734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpStreamAsyncResult*>(), { "Complete", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::HttpStreamAsyncResult::*)()>(&::System::Net::HttpStreamAsyncResult::get_AsyncState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6328da4;
+  constexpr static std::size_t addrs = 0x6330820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpStreamAsyncResult*>(), { "get_AsyncState", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::WaitHandle* (::System::Net::HttpStreamAsyncResult::*)()>(&::System::Net::HttpStreamAsyncResult::get_AsyncWaitHandle)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6328dac;
+  constexpr static std::size_t addrs = 0x6330828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpStreamAsyncResult*>(), { "get_AsyncWaitHandle", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::HttpStreamAsyncResult::*)()>(&::System::Net::HttpStreamAsyncResult::get_CompletedSynchronously)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6328edc;
+  constexpr static std::size_t addrs = 0x6330958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpStreamAsyncResult*>(), { "get_CompletedSynchronously", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::HttpStreamAsyncResult::*)()>(&::System::Net::HttpStreamAsyncResult::get_IsCompleted)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6328ef0;
+  constexpr static std::size_t addrs = 0x633096c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpStreamAsyncResult*>(), { "get_IsCompleted", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpStreamAsyncResult::*)()>(&::System::Net::HttpStreamAsyncResult::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6328fb0;
+  constexpr static std::size_t addrs = 0x6330a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpStreamAsyncResult*>(), { ".ctor", {}, {} })));

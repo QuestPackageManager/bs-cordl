@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/EnumListConverter_1.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\EnumListConverter_1.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__EnumListConverter_1_def.hpp"

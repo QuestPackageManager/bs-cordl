@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AssetReferenceUILabelRestriction.hpp"
+// IWYU pragma private; include "UnityEngine\AssetReferenceUILabelRestriction.hpp"
 #include "UnityEngine/zzzz__AssetReferenceUIRestriction_impl.hpp"
 #include "UnityEngine/zzzz__AssetReferenceUILabelRestriction_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AssetReferenceUILabelRestriction::*)(::ArrayW<::StringW>)>(&::UnityEngine::AssetReferenceUILabelRestriction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6442fd8;
+  constexpr static std::size_t addrs = 0x644aa54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AssetReferenceUILabelRestriction::*)(::UnityEngine::Object*)>(
     &::UnityEngine::AssetReferenceUILabelRestriction::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6442fe0;
+  constexpr static std::size_t addrs = 0x644aa5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AssetReferenceUILabelRestriction::*)(::StringW)>(&::UnityEngine::AssetReferenceUILabelRestriction::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6442fe8;
+  constexpr static std::size_t addrs = 0x644aa64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AssetReferenceUILabelRestriction::*)()>(&::UnityEngine::AssetReferenceUILabelRestriction::ToString)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6442ff0;
+  constexpr static std::size_t addrs = 0x644aa6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Haptics/Utils.hpp"
+// IWYU pragma private; include "Oculus\Haptics\Utils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Haptics/zzzz__Utils_def.hpp"
 #include "Oculus/Haptics/zzzz__Controller_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Haptics::Ffi_Controller (*)(::Oculus::Haptics::Controller)>(&::Oculus::Haptics::Utils::ControllerToFfiController)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5dada1c;
+  constexpr static std::size_t addrs = 0x5db1ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::Oculus::Haptics::Utils::Map)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5dae388;
+  constexpr static std::size_t addrs = 0x5db2844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal/Cryptography/Helpers.hpp"
+// IWYU pragma private; include "Internal\Cryptography\Helpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,16 +22,16 @@ namespace Internal::Cryptography {
 class CORDL_TYPE Helpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloneByteArray, addr 0x5ac3610, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CloneByteArray, addr 0x5ac7acc, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CloneByteArray(::ArrayW<uint8_t> src);
 
-  /// @brief Method NibbleToHex, addr 0x5ac3768, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NibbleToHex, addr 0x5ac7c24, size 0x1c, virtual false, abstract: false, final false
   static inline char16_t NibbleToHex(uint8_t b);
 
-  /// @brief Method ToHexArrayUpper, addr 0x5ac3688, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ToHexArrayUpper, addr 0x5ac7b44, size 0xe0, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t> ToHexArrayUpper(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method ToHexStringUpper, addr 0x5ac3784, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToHexStringUpper, addr 0x5ac7c40, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW ToHexStringUpper(::ArrayW<uint8_t> bytes);
 
 protected:

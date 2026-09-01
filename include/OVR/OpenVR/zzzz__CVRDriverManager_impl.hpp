@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/CVRDriverManager.hpp"
+// IWYU pragma private; include "OVR\OpenVR\CVRDriverManager.hpp"
 #include "OVR/OpenVR/zzzz__IVRDriverManager_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRDriverManager_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRDriverManager::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRDriverManager::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5e42eb4;
+  constexpr static std::size_t addrs = 0x5e47370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRDriverManager::*)()>(&::OVR::OpenVR::CVRDriverManager::GetDriverCount)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42fb0;
+  constexpr static std::size_t addrs = 0x5e4746c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRDriverManager*>(), { "GetDriverCount", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRDriverManager::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRDriverManager::GetDriverName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42fd0;
+  constexpr static std::size_t addrs = 0x5e4748c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVR::OpenVR::CVRDriverManager::*)(::StringW)>(&::OVR::OpenVR::CVRDriverManager::GetDriverHandle)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42ff0;
+  constexpr static std::size_t addrs = 0x5e474ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

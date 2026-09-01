@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SceneIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\SceneIdAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,22 +44,22 @@ public:
 
   constexpr void __cordl_internal_set__filter(::GlobalNamespace::BeatmapSceneIdFilter value);
 
-  /// @brief Method .ctor, addr 0x32fcf84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3300d80, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapSceneIdFilter filter);
 
-  /// @brief Method get_allowAllScenes, addr 0x32fcf5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_allowAllScenes, addr 0x3300d58, size 0x14, virtual false, abstract: false, final false
   inline bool get_allowAllScenes();
 
-  /// @brief Method get_allowEmpty, addr 0x32fcf50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowEmpty, addr 0x3300d4c, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowEmpty();
 
-  /// @brief Method get_allowEnvironmentScenes, addr 0x32fcf44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowEnvironmentScenes, addr 0x3300d40, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowEnvironmentScenes();
 
-  /// @brief Method get_allowGameScenes, addr 0x32fcf38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowGameScenes, addr 0x3300d34, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowGameScenes();
 
-  /// @brief Method get_onlyAllowEnvironmentScenes, addr 0x32fcf70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_onlyAllowEnvironmentScenes, addr 0x3300d6c, size 0x14, virtual false, abstract: false, final false
   inline bool get_onlyAllowEnvironmentScenes();
 
 protected:
@@ -77,7 +77,7 @@ public:
   SceneIdAttribute(SceneIdAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21518 };
 
   /// @brief Field _filter, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapSceneIdFilter ____filter;

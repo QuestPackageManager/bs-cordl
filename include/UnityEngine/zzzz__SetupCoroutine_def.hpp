@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SetupCoroutine.hpp"
+// IWYU pragma private; include "UnityEngine\SetupCoroutine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ namespace UnityEngine {
 class CORDL_TYPE SetupCoroutine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeMember, addr 0x6ad6b40, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InvokeMember, addr 0x6ade558, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeMember(::System::Object* behaviour, ::StringW name, ::System::Object* variable);
 
-  /// @brief Method InvokeMoveNext, addr 0x6ad6a28, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method InvokeMoveNext, addr 0x6ade440, size 0x118, virtual false, abstract: false, final false
   static inline void InvokeMoveNext(::System::Collections::IEnumerator* enumerator, ::System::IntPtr returnValueAddress);
 
 protected:
@@ -50,7 +50,7 @@ public:
   SetupCoroutine(SetupCoroutine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

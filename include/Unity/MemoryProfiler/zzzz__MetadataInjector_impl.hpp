@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/MemoryProfiler/MetadataInjector.hpp"
+// IWYU pragma private; include "Unity\MemoryProfiler\MetadataInjector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/MemoryProfiler/zzzz__MetadataInjector_def.hpp"
 #include "Unity/MemoryProfiler/zzzz__DefaultMetadataCollect_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::MemoryProfiler::MetadataInjector::PlayerInitMetadata)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x668a050;
+  constexpr static std::size_t addrs = 0x6691acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::MemoryProfiler::MetadataInjector*>(), { "PlayerInitMetadata", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::MemoryProfiler::MetadataInjector::InitializeMetadataCollection)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x668a1f8;
+  constexpr static std::size_t addrs = 0x6691c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::MemoryProfiler::MetadataInjector*>(), { "InitializeMetadataCollection", {}, {} })));

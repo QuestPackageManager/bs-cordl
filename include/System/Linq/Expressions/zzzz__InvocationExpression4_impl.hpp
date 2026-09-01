@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/InvocationExpression4.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\InvocationExpression4.hpp"
 #include "System/Linq/Expressions/zzzz__InvocationExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__InvocationExpression4_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
     ::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
     ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::InvocationExpression4::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f7e8ec;
+  constexpr static std::size_t addrs = 0x5f86368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::InvocationExpression4::*)(int32_t)>(
     &::System::Linq::Expressions::InvocationExpression4::GetArgument)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5f7e928;
+  constexpr static std::size_t addrs = 0x5f863a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::InvocationExpression4::*)()>(&::System::Linq::Expressions::InvocationExpression4::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f7ea10;
+  constexpr static std::size_t addrs = 0x5f8648c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
     ::System::Linq::Expressions::InvocationExpression4::*)(::System::Linq::Expressions::Expression*, ::ArrayW<::System::Linq::Expressions::Expression*>)>(
     &::System::Linq::Expressions::InvocationExpression4::Rewrite)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5f7ea18;
+  constexpr static std::size_t addrs = 0x5f86494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

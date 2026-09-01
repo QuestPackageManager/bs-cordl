@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Buffers/Binary/BinaryPrimitives.hpp"
+// IWYU pragma private; include "System\Buffers\Binary\BinaryPrimitives.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Buffers/Binary/zzzz__BinaryPrimitives_def.hpp"
 //  Writing Method size for method: ::System::Buffers::Binary::BinaryPrimitives.ReverseEndianness
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5befb94;
+  constexpr static std::size_t addrs = 0x5bf4050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(uint16_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5befb9c;
+  constexpr static std::size_t addrs = 0x5bf4058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5befba8;
+  constexpr static std::size_t addrs = 0x5bf4064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

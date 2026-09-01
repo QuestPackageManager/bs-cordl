@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/S2k.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\S2k.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ public:
   /// @brief Field type, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) int32_t type;
 
-  /// @brief Method Encode, addr 0x369c01c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x369fddc, size 0xfc, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetIV, addr 0x369bf88, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetIV, addr 0x369fd48, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetIV();
 
-  /// @brief Method GetIterationCount, addr 0x369bfe8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetIterationCount, addr 0x369fda8, size 0xc, virtual false, abstract: false, final false
   inline int64_t GetIterationCount();
 
   static inline ::Org::BouncyCastle::Bcpg::S2k* New_ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm);
@@ -101,28 +101,28 @@ public:
 
   constexpr void __cordl_internal_set_type(int32_t value);
 
-  /// @brief Method .ctor, addr 0x369bf38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369fcf8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm);
 
-  /// @brief Method .ctor, addr 0x369bf48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369fd08, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv);
 
-  /// @brief Method .ctor, addr 0x369bf60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369fd20, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t> iv, int32_t itCount);
 
-  /// @brief Method .ctor, addr 0x369bd74, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369fb34, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStr);
 
-  /// @brief Method get_HashAlgorithm, addr 0x369bf80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x369fd40, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
 
-  /// @brief Method get_IterationCount, addr 0x369bff4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x369fdb4, size 0x20, virtual true, abstract: false, final false
   inline int64_t get_IterationCount();
 
-  /// @brief Method get_ProtectionMode, addr 0x369c014, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProtectionMode, addr 0x369fdd4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProtectionMode();
 
-  /// @brief Method get_Type, addr 0x369bf78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x369fd38, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
 protected:

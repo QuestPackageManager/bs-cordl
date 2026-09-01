@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/WebRequestQueueOperation.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\WebRequestQueueOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   /// @brief Field m_WebRequest, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WebRequest, put = __cordl_internal_set_m_WebRequest)) ::UnityEngine::Networking::UnityWebRequest* m_WebRequest;
 
-  /// @brief Method Complete, addr 0x690904c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x6910ac8, size 0x28, virtual false, abstract: false, final false
   inline void Complete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
@@ -73,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x6909044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6910ac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method get_IsDone, addr 0x6909014, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsDone, addr 0x6910a90, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsDone();
 
-  /// @brief Method get_WebRequest, addr 0x6909034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequest, addr 0x6910ab0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* get_WebRequest();
 
-  /// @brief Method set_WebRequest, addr 0x690903c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WebRequest, addr 0x6910ab8, size 0x8, virtual false, abstract: false, final false
   inline void set_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
 protected:
@@ -100,7 +100,7 @@ public:
   WebRequestQueueOperation(WebRequestQueueOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18714 };
 
   /// @brief Field m_Completed, offset: 0x10, size: 0x1, def value: None
   bool ___m_Completed;

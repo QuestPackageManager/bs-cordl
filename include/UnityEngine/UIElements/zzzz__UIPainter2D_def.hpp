@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIPainter2D.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIPainter2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,22 +26,22 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UIPainter2D : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ClearSnapshots, addr 0x6daeed4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearSnapshots, addr 0x6db6a58, size 0x3c, virtual false, abstract: false, final false
   static inline void ClearSnapshots(::System::IntPtr handle);
 
-  /// @brief Method Create, addr 0x6daee20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6db69a4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(bool computeBBox);
 
-  /// @brief Method Destroy, addr 0x6daee5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6db69e0, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr handle);
 
-  /// @brief Method ExecuteSnapshotFromJob, addr 0x6daef10, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ExecuteSnapshotFromJob, addr 0x6db6a94, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface ExecuteSnapshotFromJob(::System::IntPtr painterHandle, int32_t i);
 
-  /// @brief Method ExecuteSnapshotFromJob_Injected, addr 0x6daef80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExecuteSnapshotFromJob_Injected, addr 0x6db6b04, size 0x54, virtual false, abstract: false, final false
   static inline void ExecuteSnapshotFromJob_Injected(::System::IntPtr painterHandle, int32_t i, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method Reset, addr 0x6daee98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6db6a1c, size 0x3c, virtual false, abstract: false, final false
   static inline void Reset(::System::IntPtr handle);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlLoader.hpp"
+// IWYU pragma private; include "System\Xml\XmlLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,84 +74,84 @@ public:
   /// @brief Field reader, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader)) ::System::Xml::XmlReader* reader;
 
-  /// @brief Method CreateInnerXmlReader, addr 0x62be164, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method CreateInnerXmlReader, addr 0x62c5be0, size 0x284, virtual false, abstract: false, final false
   inline ::System::Xml::XmlReader* CreateInnerXmlReader(::StringW xmlFragment, ::System::Xml::XmlNodeType nt, ::System::Xml::XmlParserContext* context, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method EntitizeName, addr 0x62be680, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EntitizeName, addr 0x62c60fc, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW EntitizeName(::StringW name);
 
-  /// @brief Method ExpandEntity, addr 0x62ba1d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ExpandEntity, addr 0x62c1c4c, size 0x4c, virtual false, abstract: false, final false
   inline void ExpandEntity(::System::Xml::XmlEntity* ent);
 
-  /// @brief Method ExpandEntityReference, addr 0x62ba468, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method ExpandEntityReference, addr 0x62c1ee4, size 0x5e0, virtual false, abstract: false, final false
   inline void ExpandEntityReference(::System::Xml::XmlEntityReference* eref);
 
-  /// @brief Method GetContext, addr 0x62bd8d0, size 0x894, virtual false, abstract: false, final false
+  /// @brief Method GetContext, addr 0x62c534c, size 0x894, virtual false, abstract: false, final false
   inline ::System::Xml::XmlParserContext* GetContext(::System::Xml::XmlNode* node);
 
-  /// @brief Method Load, addr 0x62b6fd0, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x62bea4c, size 0x21c, virtual false, abstract: false, final false
   inline void Load(::System::Xml::XmlDocument* doc, ::System::Xml::XmlReader* reader, bool preserveWhitespace);
 
-  /// @brief Method LoadAttributeNode, addr 0x62bb610, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method LoadAttributeNode, addr 0x62c308c, size 0x2fc, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* LoadAttributeNode();
 
-  /// @brief Method LoadAttributeNodeDirect, addr 0x62bd4cc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method LoadAttributeNodeDirect, addr 0x62c4f48, size 0x144, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* LoadAttributeNodeDirect();
 
-  /// @brief Method LoadAttributeValue, addr 0x62bc110, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method LoadAttributeValue, addr 0x62c3b8c, size 0x2f8, virtual false, abstract: false, final false
   inline void LoadAttributeValue(::System::Xml::XmlNode* parent, bool direct);
 
-  /// @brief Method LoadDeclarationNode, addr 0x62bbae8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method LoadDeclarationNode, addr 0x62c3564, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDeclaration* LoadDeclarationNode();
 
-  /// @brief Method LoadDefaultAttribute, addr 0x62bbf68, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method LoadDefaultAttribute, addr 0x62c39e4, size 0x1a8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* LoadDefaultAttribute();
 
-  /// @brief Method LoadDocSequence, addr 0x62bb018, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LoadDocSequence, addr 0x62c2a94, size 0x6c, virtual false, abstract: false, final false
   inline void LoadDocSequence(::System::Xml::XmlDocument* parentDoc);
 
-  /// @brief Method LoadDocumentType, addr 0x62bc8b0, size 0xc1c, virtual false, abstract: false, final false
+  /// @brief Method LoadDocumentType, addr 0x62c432c, size 0xc1c, virtual false, abstract: false, final false
   inline void LoadDocumentType(::System::Xml::IDtdInfo* dtdInfo, ::System::Xml::XmlDocumentType* dtNode);
 
-  /// @brief Method LoadDocumentTypeNode, addr 0x62bbc8c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method LoadDocumentTypeNode, addr 0x62c3708, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDocumentType* LoadDocumentTypeNode();
 
-  /// @brief Method LoadEntityReferenceNode, addr 0x62bb90c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method LoadEntityReferenceNode, addr 0x62c3388, size 0x1dc, virtual false, abstract: false, final false
   inline ::System::Xml::XmlEntityReference* LoadEntityReferenceNode(bool direct);
 
-  /// @brief Method LoadInnerXmlAttribute, addr 0x62b08e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LoadInnerXmlAttribute, addr 0x62b8360, size 0x8, virtual false, abstract: false, final false
   inline void LoadInnerXmlAttribute(::System::Xml::XmlAttribute* node, ::StringW innerxmltext);
 
-  /// @brief Method LoadInnerXmlElement, addr 0x62b9e80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadInnerXmlElement, addr 0x62c18fc, size 0x74, virtual false, abstract: false, final false
   inline void LoadInnerXmlElement(::System::Xml::XmlElement* node, ::StringW innerxmltext);
 
-  /// @brief Method LoadNode, addr 0x62bb084, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method LoadNode, addr 0x62c2b00, size 0x58c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* LoadNode(bool skipOverWhitespace);
 
-  /// @brief Method LoadNodeDirect, addr 0x62bc408, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method LoadNodeDirect, addr 0x62c3e84, size 0x4a8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* LoadNodeDirect();
 
   static inline ::System::Xml::XmlLoader* New_ctor();
 
-  /// @brief Method ParseDocumentType, addr 0x62b88f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ParseDocumentType, addr 0x62c0370, size 0x68, virtual false, abstract: false, final false
   inline void ParseDocumentType(::System::Xml::XmlDocumentType* dtNode);
 
-  /// @brief Method ParseDocumentType, addr 0x62bd610, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method ParseDocumentType, addr 0x62c508c, size 0x2c0, virtual false, abstract: false, final false
   inline void ParseDocumentType(::System::Xml::XmlDocumentType* dtNode, bool bUseResolver, ::System::Xml::XmlResolver* resolver);
 
-  /// @brief Method ParsePartialContent, addr 0x62b8250, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ParsePartialContent, addr 0x62bfccc, size 0x204, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNamespaceManager* ParsePartialContent(::System::Xml::XmlNode* parentNode, ::StringW innerxmltext, ::System::Xml::XmlNodeType nt);
 
-  /// @brief Method ParseXmlDeclarationValue, addr 0x62b3908, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method ParseXmlDeclarationValue, addr 0x62bb384, size 0x26c, virtual false, abstract: false, final false
   static inline void ParseXmlDeclarationValue(::StringW strValue, ::by_ref<::StringW> version, ::by_ref<::StringW> encoding, ::by_ref<::StringW> standalone);
 
-  /// @brief Method ReadCurrentNode, addr 0x62b6d50, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ReadCurrentNode, addr 0x62be7cc, size 0x118, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* ReadCurrentNode(::System::Xml::XmlDocument* doc, ::System::Xml::XmlReader* reader);
 
-  /// @brief Method RemoveDuplicateNamespace, addr 0x62be3e8, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method RemoveDuplicateNamespace, addr 0x62c5e64, size 0x298, virtual false, abstract: false, final false
   inline void RemoveDuplicateNamespace(::System::Xml::XmlElement* elem, ::System::Xml::XmlNamespaceManager* mgr, bool fCheckElemAttrs);
 
-  /// @brief Method UnexpectedNodeType, addr 0x62bbe38, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method UnexpectedNodeType, addr 0x62c38b4, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Exception* UnexpectedNodeType(::System::Xml::XmlNodeType nodetype);
 
   constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get_doc() const;
@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set_reader(::System::Xml::XmlReader* value);
 
-  /// @brief Method .ctor, addr 0x62b08e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62b835c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -190,7 +190,7 @@ public:
   XmlLoader(XmlLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9394 };
 
   /// @brief Field doc, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlDocument* ___doc;

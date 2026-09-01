@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Utility/DateTimeExtensions.hpp"
+// IWYU pragma private; include "Utility\DateTimeExtensions.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Utility/zzzz__DateTimeExtensions_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Utility::DateTimeExtensions::GetSecondsSinceEpoch)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5f32bf8;
+  constexpr static std::size_t addrs = 0x5f37064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Utility::DateTimeExtensions*>(), { "GetSecondsSinceEpoch", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (*)(int32_t)>(&::Utility::DateTimeExtensions::UnixTimestampToUniversalDateTime)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5f32d04;
+  constexpr static std::size_t addrs = 0x5f37170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

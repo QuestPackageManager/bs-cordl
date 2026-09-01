@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/SpawnOverDistance.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\SpawnOverDistance.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VFXSpawnerCallbacks_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SpawnOverDistance_InputProperties::*)()>(&::UnityEngine::VFX::SpawnOverDistance_InputProperties::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x69ca750;
+  constexpr static std::size_t addrs = 0x69d21cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SpawnOverDistance_InputProperties*>(), { ".ctor", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SpawnOverDistance::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                        ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::SpawnOverDistance::OnPlay)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x69ca2bc;
+  constexpr static std::size_t addrs = 0x69d1d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SpawnOverDistance::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                        ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::SpawnOverDistance::OnUpdate)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x69ca344;
+  constexpr static std::size_t addrs = 0x69d1dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SpawnOverDistance::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                        ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::SpawnOverDistance::OnStop)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69ca5d0;
+  constexpr static std::size_t addrs = 0x69d204c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::SpawnOverDistance::*)()>(&::UnityEngine::VFX::SpawnOverDistance::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca5d4;
+  constexpr static std::size_t addrs = 0x69d2050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::SpawnOverDistance*>(), { ".ctor", {}, {} })));

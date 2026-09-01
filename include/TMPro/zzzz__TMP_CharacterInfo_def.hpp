@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_CharacterInfo.hpp"
+// IWYU pragma private; include "TMPro\TMP_CharacterInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
                               ::UnityEngine::Color32 highlightColor, ::TMPro::HighlightState highlightState, ::TMPro::FontStyles style, bool isVisible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15888 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x178 };

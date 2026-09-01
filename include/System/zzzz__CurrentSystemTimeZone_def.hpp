@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/CurrentSystemTimeZone.hpp"
+// IWYU pragma private; include "System\CurrentSystemTimeZone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,27 +46,27 @@ public:
   /// @brief Field m_ticksOffset, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ticksOffset, put = __cordl_internal_set_m_ticksOffset)) int64_t m_ticksOffset;
 
-  /// @brief Method CreateDaylightChanges, addr 0x5c218e4, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method CreateDaylightChanges, addr 0x5c25da0, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Globalization::DaylightTime* CreateDaylightChanges(int32_t year);
 
-  /// @brief Method GetCachedDaylightChanges, addr 0x5c21704, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetCachedDaylightChanges, addr 0x5c25bc0, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::Globalization::DaylightTime* GetCachedDaylightChanges(int32_t year);
 
-  /// @brief Method GetDaylightChanges, addr 0x5c2163c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetDaylightChanges, addr 0x5c25af8, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
 
-  /// @brief Method GetTimeZoneData, addr 0x5c21c74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTimeZoneData, addr 0x5c26130, size 0x4, virtual false, abstract: false, final false
   static inline bool GetTimeZoneData(int32_t year, ::by_ref<::ArrayW<int64_t>> data, ::by_ref<::ArrayW<::StringW>> names, ::by_ref<bool> daylight_inverted);
 
-  /// @brief Method GetUtcOffset, addr 0x5c21b68, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x5c26024, size 0x10c, virtual true, abstract: false, final false
   inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
 
-  /// @brief Method GetUtcOffsetFromUniversalTime, addr 0x5c20d90, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetUtcOffsetFromUniversalTime, addr 0x5c2524c, size 0x2bc, virtual false, abstract: false, final false
   inline int64_t GetUtcOffsetFromUniversalTime(::System::DateTime time, ::by_ref<bool> isAmbiguousLocalDst);
 
   static inline ::System::CurrentSystemTimeZone* New_ctor();
 
-  /// @brief Method ToLocalTime, addr 0x5c212f4, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToLocalTime, addr 0x5c257b0, size 0x100, virtual true, abstract: false, final false
   inline ::System::DateTime ToLocalTime(::System::DateTime time);
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_m_CachedDaylightChanges() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ticksOffset(int64_t value);
 
-  /// @brief Method .ctor, addr 0x5c20c8c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c25148, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

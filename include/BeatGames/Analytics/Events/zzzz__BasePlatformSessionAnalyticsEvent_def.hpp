@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames/Analytics/Events/BasePlatformSessionAnalyticsEvent.hpp"
+// IWYU pragma private; include "BeatGames\Analytics\Events\BasePlatformSessionAnalyticsEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,21 +49,21 @@ public:
   /// @brief Field vros_major_version, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_vros_major_version, put = __cordl_internal_set_vros_major_version)) int32_t vros_major_version;
 
-  /// @brief Method ApplyBasicFields, addr 0x3254ab4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ApplyBasicFields, addr 0x3257db4, size 0xb8, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method ApplyTime, addr 0x3254a74, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ApplyTime, addr 0x3257d74, size 0x40, virtual true, abstract: false, final false
   inline void ApplyTime(::OSCE::Analytics::AnalyticsManager* manager, int32_t timestamp);
 
-  /// @brief Method EventRequiresAnalyticsID, addr 0x3254a50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method EventRequiresAnalyticsID, addr 0x3257d50, size 0x8, virtual true, abstract: false, final false
   inline bool EventRequiresAnalyticsID();
 
-  /// @brief Method GetIDType, addr 0x3254a48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIDType, addr 0x3257d48, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IDType GetIDType();
 
   static inline ::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent* New_ctor();
 
-  /// @brief Method ReturnedToPool, addr 0x3254a58, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ReturnedToPool, addr 0x3257d58, size 0x1c, virtual true, abstract: false, final false
   inline void ReturnedToPool();
 
   constexpr ::StringW const& __cordl_internal_get_client_version() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_vros_major_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3254f9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325829c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   BasePlatformSessionAnalyticsEvent(BasePlatformSessionAnalyticsEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23323 };
 
   /// @brief Field event_time, offset: 0x44, size: 0x4, def value: None
   float_t ___event_time;

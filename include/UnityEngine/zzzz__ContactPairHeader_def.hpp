@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ContactPairHeader.hpp"
+// IWYU pragma private; include "UnityEngine\ContactPairHeader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,43 +51,43 @@ public:
 
   __declspec(property(get = get_pairCount)) int32_t pairCount;
 
-  /// @brief Method GetContactPair, addr 0x6b87ba4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetContactPair, addr 0x6b8f728, size 0x4, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::ContactPair> GetContactPair(int32_t index);
 
-  /// @brief Method GetContactPair_Internal, addr 0x6b8b36c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetContactPair_Internal, addr 0x6b92ef0, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::ContactPair* GetContactPair_Internal(int32_t index);
 
-  /// @brief Method get_Body, addr 0x6b8b3ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x6b92f70, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_Body();
 
-  /// @brief Method get_BodyInstanceID, addr 0x6b8b3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BodyInstanceID, addr 0x6b92f60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BodyInstanceID();
 
-  /// @brief Method get_OtherBody, addr 0x6b8b3f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_OtherBody, addr 0x6b92f74, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_OtherBody();
 
-  /// @brief Method get_OtherBodyInstanceID, addr 0x6b8b3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherBodyInstanceID, addr 0x6b92f68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OtherBodyInstanceID();
 
-  /// @brief Method get_PairCount, addr 0x6b8b3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PairCount, addr 0x6b92f78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PairCount();
 
-  /// @brief Method get_body, addr 0x6b69afc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_body, addr 0x6b71680, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_body();
 
-  /// @brief Method get_bodyInstanceID, addr 0x6b8b354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bodyInstanceID, addr 0x6b92ed8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bodyInstanceID();
 
-  /// @brief Method get_hasRemovedBody, addr 0x6b87b94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasRemovedBody, addr 0x6b8f718, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasRemovedBody();
 
-  /// @brief Method get_otherBody, addr 0x6b69aa0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_otherBody, addr 0x6b71624, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_otherBody();
 
-  /// @brief Method get_otherBodyInstanceID, addr 0x6b8b35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherBodyInstanceID, addr 0x6b92ee0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_otherBodyInstanceID();
 
-  /// @brief Method get_pairCount, addr 0x6b8b364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pairCount, addr 0x6b92ee8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_pairCount();
 
   // Ctor Parameters []
@@ -101,7 +101,7 @@ public:
                               ::UnityEngine::Vector3 m_RelativeVelocity) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

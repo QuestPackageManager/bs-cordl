@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/StringExtensions.hpp"
+// IWYU pragma private; include "System\StringExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__StringExtensions_def.hpp"
 //  Writing Method size for method: ::System::StringExtensions.SubstringTrim
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t, int32_t)>(&::System::StringExtensions::SubstringTrim)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x636be44;
+  constexpr static std::size_t addrs = 0x63738c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

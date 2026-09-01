@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_Vertex.hpp"
+// IWYU pragma private; include "TMPro\TMP_Vertex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
 
   static inline ::TMPro::TMP_Vertex getStaticF_k_Zero();
 
-  /// @brief Method get_zero, addr 0x694259c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x694a018, size 0x6c, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Vertex get_zero();
 
   static inline void setStaticF_k_Zero(::TMPro::TMP_Vertex value);
@@ -42,7 +42,7 @@ public:
   constexpr TMP_Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector4 uv, ::UnityEngine::Vector2 uv2, ::UnityEngine::Color32 color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15885 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

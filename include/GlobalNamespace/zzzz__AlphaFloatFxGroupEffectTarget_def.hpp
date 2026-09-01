@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AlphaFloatFxGroupEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace\AlphaFloatFxGroupEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,21 +45,21 @@ public:
   /// @brief Field _staticColor, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get__staticColor, put = __cordl_internal_set__staticColor)) ::UnityEngine::Color _staticColor;
 
-  /// @brief Method Awake, addr 0x598ab00, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5994ac0, size 0x34, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x598ab34, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x5994af4, size 0x34, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::AlphaFloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method SetColor, addr 0x598ab80, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x5994b40, size 0xcc, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetValue, addr 0x598ab68, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5994b28, size 0x18, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x598ac4c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x5994c0c, size 0x18, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__staticColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x598ac64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5994c24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   AlphaFloatFxGroupEffectTarget(AlphaFloatFxGroupEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5850 };
 
   /// @brief Field _staticColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____staticColor;

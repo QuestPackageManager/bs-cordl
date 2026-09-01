@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEventStream.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEventStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,37 +37,37 @@ public:
 
   __declspec(property(get = get_remainingEventCount)) int32_t remainingEventCount;
 
-  /// @brief Method Advance, addr 0x65a9e64, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Advance, addr 0x65b18e0, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEvent* Advance(bool leaveEventInBuffer);
 
-  /// @brief Method CleanUpAfterException, addr 0x65a9c00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CleanUpAfterException, addr 0x65b167c, size 0x70, virtual false, abstract: false, final false
   inline void CleanUpAfterException();
 
-  /// @brief Method Close, addr 0x65a9ae0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x65b155c, size 0x120, virtual false, abstract: false, final false
   inline void Close(::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
 
-  /// @brief Method Peek, addr 0x65a9f04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x65b1980, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEvent* Peek();
 
-  /// @brief Method Write, addr 0x65a9c70, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x65b16ec, size 0x1f4, virtual false, abstract: false, final false
   inline void Write(::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr);
 
-  /// @brief Method .ctor, addr 0x65a9a5c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65b14d8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, int32_t maxAppendedEvents);
 
-  /// @brief Method get_currentEventPtr, addr 0x65a99dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_currentEventPtr, addr 0x65b1458, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEvent* get_currentEventPtr();
 
-  /// @brief Method get_isOpen, addr 0x65a99bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isOpen, addr 0x65b1438, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOpen();
 
-  /// @brief Method get_numBytesRetainedInBuffer, addr 0x65a9a10, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_numBytesRetainedInBuffer, addr 0x65b148c, size 0x4c, virtual false, abstract: false, final false
   inline uint32_t get_numBytesRetainedInBuffer();
 
-  /// @brief Method get_numEventsRetainedInBuffer, addr 0x65a99d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numEventsRetainedInBuffer, addr 0x65b1450, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numEventsRetainedInBuffer();
 
-  /// @brief Method get_remainingEventCount, addr 0x65a99c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_remainingEventCount, addr 0x65b1440, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_remainingEventCount();
 
   // Ctor Parameters []
@@ -89,7 +89,7 @@ public:
                              bool m_IsOpen) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9031 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };

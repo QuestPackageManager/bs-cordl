@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ControllerConfiguration.hpp"
+// IWYU pragma private; include "GlobalNamespace\ControllerConfiguration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
 
   __declspec(property(get = get_triggerActionReference, put = set_triggerActionReference)) ::UnityW<::UnityEngine::InputSystem::InputActionReference> triggerActionReference;
 
-  /// @brief Method CreateUnityXRController, addr 0x59189b4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CreateUnityXRController, addr 0x591c370, size 0xe4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::UnityXRController* CreateUnityXRController(::UnityEngine::XR::XRNode node);
 
   static inline ::GlobalNamespace::ControllerConfiguration* New_ctor();
@@ -85,31 +85,31 @@ public:
 
   constexpr void __cordl_internal_set__triggerActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  /// @brief Method .ctor, addr 0x5918b74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591c530, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_orientationActionReference, addr 0x5918984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orientationActionReference, addr 0x591c340, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_orientationActionReference();
 
-  /// @brief Method get_positionActionReference, addr 0x5918974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionActionReference, addr 0x591c330, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_positionActionReference();
 
-  /// @brief Method get_thumbstickActionReference, addr 0x5918994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstickActionReference, addr 0x591c350, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_thumbstickActionReference();
 
-  /// @brief Method get_triggerActionReference, addr 0x59189a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerActionReference, addr 0x591c360, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_triggerActionReference();
 
-  /// @brief Method set_orientationActionReference, addr 0x591898c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_orientationActionReference, addr 0x591c348, size 0x8, virtual false, abstract: false, final false
   inline void set_orientationActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_positionActionReference, addr 0x591897c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionActionReference, addr 0x591c338, size 0x8, virtual false, abstract: false, final false
   inline void set_positionActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_thumbstickActionReference, addr 0x591899c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstickActionReference, addr 0x591c358, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_triggerActionReference, addr 0x59189ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggerActionReference, addr 0x591c368, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
 protected:
@@ -127,7 +127,7 @@ public:
   ControllerConfiguration(ControllerConfiguration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6802 };
 
   /// @brief Field <positionActionReference>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____positionActionReference_k__BackingField;

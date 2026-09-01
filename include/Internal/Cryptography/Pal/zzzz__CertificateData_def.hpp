@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal/Cryptography/Pal/CertificateData.hpp"
+// IWYU pragma private; include "Internal\Cryptography\Pal\CertificateData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,7 +91,7 @@ public:
   constexpr CertificateData_AlgorithmIdentifier(::StringW AlgorithmId, ::ArrayW<uint8_t> Parameters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11047 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -163,31 +163,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5fdc41c, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5fe3e98, size 0x288, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator, addr 0x5fdc748, size 0x98, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator, addr 0x5fe41c4, size 0x98, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current, addr 0x5fdc6a4, size 0xc, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current, addr 0x5fe4120, size 0xc, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5fdc7e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5fe425c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5fdc6b0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5fe412c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5fdc6e8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5fe4164, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5fdc418, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5fe3e94, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -232,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
 
-  /// @brief Method .ctor, addr 0x5fdc3f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fe3e74, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
@@ -267,7 +267,7 @@ public:
   CertificateData__ReadReverseRdns_d__21(CertificateData__ReadReverseRdns_d__21 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11048 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -321,20 +321,20 @@ public:
 
   using _ReadReverseRdns_d__21 = ::Internal::Cryptography::Pal::CertificateData__ReadReverseRdns_d__21;
 
-  /// @brief Method FindAltNameMatch, addr 0x5fdc1d4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method FindAltNameMatch, addr 0x5fe3c50, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW FindAltNameMatch(::ArrayW<uint8_t> extensionBytes, ::Internal::Cryptography::Pal::GeneralNameType matchType, ::StringW otherOid);
 
-  /// @brief Method GetNameInfo, addr 0x5fdb7ec, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method GetNameInfo, addr 0x5fe3268, size 0x5d8, virtual false, abstract: false, final false
   inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
 
-  /// @brief Method GetSimpleNameInfo, addr 0x5fdbdc4, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method GetSimpleNameInfo, addr 0x5fe3840, size 0x410, virtual false, abstract: false, final false
   static inline ::StringW GetSimpleNameInfo(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 
-  /// @brief Method ReadReverseRdns, addr 0x5fdc388, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseRdns, addr 0x5fe3e04, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   ReadReverseRdns(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 
-  /// @brief Method .ctor, addr 0x5fdb0b8, size 0x734, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fe2b34, size 0x734, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> rawData);
 
   // Ctor Parameters []
@@ -360,7 +360,7 @@ public:
                             ::Internal::Cryptography::Pal::CertificateData_AlgorithmIdentifier SignatureAlgorithm, ::ArrayW<uint8_t> SignatureValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11049 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };

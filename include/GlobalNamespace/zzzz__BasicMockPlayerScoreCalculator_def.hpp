@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BasicMockPlayerScoreCalculator.hpp"
+// IWYU pragma private; include "GlobalNamespace\BasicMockPlayerScoreCalculator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
-  /// @brief Method GetScoreForNote, addr 0x5a7e054, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetScoreForNote, addr 0x5a82510, size 0x74, virtual true, abstract: false, final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   static inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  /// @brief Method .ctor, addr 0x5a7dfb0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a8246c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
   /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
@@ -95,7 +95,7 @@ public:
   BasicMockPlayerScoreCalculator(BasicMockPlayerScoreCalculator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22221 };
 
   /// @brief Field _hitFrequency, offset: 0x10, size: 0x4, def value: None
   float_t ____hitFrequency;

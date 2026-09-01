@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlRootElementFactory.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlRootElementFactory.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlRootElementFactory_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::UxmlRootElementFactory::*)()>(&::UnityEngine::UIElements::UxmlRootElementFactory::get_uxmlName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6cb37a8;
+  constexpr static std::size_t addrs = 0x6cbb32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::UxmlRootElementFactory::*)()>(&::UnityEngine::UIElements::UxmlRootElementFactory::get_uxmlQualifiedName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6cb37ec;
+  constexpr static std::size_t addrs = 0x6cbb370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                                                                         ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::UxmlRootElementFactory::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cb3864;
+  constexpr static std::size_t addrs = 0x6cbb3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlRootElementFactory::*)()>(&::UnityEngine::UIElements::UxmlRootElementFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6cb386c;
+  constexpr static std::size_t addrs = 0x6cbb3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlRootElementFactory*>(), { ".ctor", {}, {} })));

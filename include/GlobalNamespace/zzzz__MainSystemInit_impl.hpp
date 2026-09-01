@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainSystemInit.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainSystemInit.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit___c::*)()>(&::GlobalNamespace::MainSystemInit___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3771608;
+  constexpr static std::size_t addrs = 0x3777274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c*>(), { ".ctor", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ResettableRandom* (::GlobalNamespace::MainSystemInit___c::*)(::Zenject::InjectContext*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__27_1)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x377160c;
+  constexpr static std::size_t addrs = 0x3777278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Percei
     ::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__27_2)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x377170c;
+  constexpr static std::size_t addrs = 0x3777378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Oculus
     ::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__27_3)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3771780;
+  constexpr static std::size_t addrs = 0x37773ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LeaderboardIdsModel* (::GlobalNamespace::MainSystemInit___c::*)(::GlobalNamespace::BeatmapLevelsModel*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallPlatformLeaderboardsModel_b__30_0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x37717f4;
+  constexpr static std::size_t addrs = 0x3777460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit___c__DisplayClass27_0::*)()>(&::GlobalNamespace::MainSystemInit___c__DisplayClass27_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37710b0;
+  constexpr static std::size_t addrs = 0x3776d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass27_0*>(), { ".ctor", {}, {} })));
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DeterminismConfig* (::GlobalNamespace::MainSystemInit___c__DisplayClass27_0::*)(::GlobalNamespace::TimeHelper*)>(
     &::GlobalNamespace::MainSystemInit___c__DisplayClass27_0::_InstallBindings_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3771870;
+  constexpr static std::size_t addrs = 0x37774dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit___c__DisplayClass27_0*>(),
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::GlobalNamespace::SettingsApplicatorSO*)>(&::GlobalNamespace::MainSystemInit::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3767794;
+  constexpr static std::size_t addrs = 0x376d400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, ::BeatSaber::Destinations::Destination*)>(
     &::GlobalNamespace::MainSystemInit::InstallBindings)> {
   constexpr static std::size_t size = 0x1e8c;
-  constexpr static std::size_t addrs = 0x376818c;
+  constexpr static std::size_t addrs = 0x376ddf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(&::GlobalNamespace::MainSystemInit::InstallRichPresence)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x37711d8;
+  constexpr static std::size_t addrs = 0x3776e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*)>(&::GlobalNamespace::MainSystemInit::InstallOculusDestinationBindings)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x37710b4;
+  constexpr static std::size_t addrs = 0x3776d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::MainSystemInit::InstallPlatformLeaderboardsModel)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x3771310;
+  constexpr static std::size_t addrs = 0x3776f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSystemInit::*)()>(&::GlobalNamespace::MainSystemInit::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x37715a8;
+  constexpr static std::size_t addrs = 0x3777214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSystemInit*>(), { ".ctor", {}, {} })));

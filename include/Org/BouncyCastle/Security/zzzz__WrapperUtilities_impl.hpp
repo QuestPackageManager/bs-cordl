@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/WrapperUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\WrapperUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__WrapperUtilities_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper::*)(::Org::BouncyCastle::Crypto::IBufferedCipher*)>(
     &::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x361b020;
+  constexpr static std::size_t addrs = 0x361ede0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper::*)()>(
     &::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x361b128;
+  constexpr static std::size_t addrs = 0x361eee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper::Init)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x361b1cc;
+  constexpr static std::size_t addrs = 0x361ef8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper::Wrap)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x361b294;
+  constexpr static std::size_t addrs = 0x361f054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Security::WrapperUtilities_BufferedCipherWrapper::Unwrap)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x361b3b4;
+  constexpr static std::size_t addrs = 0x361f174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::WrapperUtilities::*)()>(&::Org::BouncyCastle::Security::WrapperUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x361a268;
+  constexpr static std::size_t addrs = 0x361e028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::WrapperUtilities*>(), { ".ctor", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IWrapper* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::WrapperUtilities::GetWrapper)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x361aa50;
+  constexpr static std::size_t addrs = 0x361e810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::WrapperUtilities*>(),
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IWrapper* (*)(::StringW)>(&::Org::BouncyCastle::Security::WrapperUtilities::GetWrapper)> {
   constexpr static std::size_t size = 0x56c;
-  constexpr static std::size_t addrs = 0x361aab4;
+  constexpr static std::size_t addrs = 0x361e874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Security::WrapperUtilities::GetAlgorithmName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x361b028;
+  constexpr static std::size_t addrs = 0x361ede8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::WrapperUtilities*>(),

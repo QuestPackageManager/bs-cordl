@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ArrayExtension.hpp"
+// IWYU pragma private; include "GlobalNamespace\ArrayExtension.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ArrayExtension_def.hpp"
 #include "System/zzzz__Array_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Array*, int32_t)>(&::GlobalNamespace::ArrayExtension::IsValidIndex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3307a14;
+  constexpr static std::size_t addrs = 0x330b810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

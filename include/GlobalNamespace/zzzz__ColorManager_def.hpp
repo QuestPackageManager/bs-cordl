@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,24 +39,24 @@ public:
 
   __declspec(property(get = get_obstaclesColor)) ::UnityEngine::Color obstaclesColor;
 
-  /// @brief Method ColorForSaberType, addr 0x5a1ef68, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ColorForSaberType, addr 0x5a27054, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ColorForSaberType(::GlobalNamespace::SaberType type);
 
-  /// @brief Method ColorForType, addr 0x5a1eef4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ColorForType, addr 0x5a26fe0, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ColorForType(::GlobalNamespace::ColorType type);
 
-  /// @brief Method ColorForType, addr 0x5a1edf0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ColorForType, addr 0x5a26edc, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ColorForType(::GlobalNamespace::EnvironmentColorType type, bool boost);
 
-  /// @brief Method EffectsColorForSaberType, addr 0x5a1efc0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EffectsColorForSaberType, addr 0x5a270ac, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Color EffectsColorForSaberType(::GlobalNamespace::SaberType type);
 
-  /// @brief Method GetObstacleEffectColor, addr 0x5a1f044, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetObstacleEffectColor, addr 0x5a27130, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetObstacleEffectColor();
 
   static inline ::GlobalNamespace::ColorManager* New_ctor();
 
-  /// @brief Method SetColorScheme, addr 0x5a1ede8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x5a26ed4, size 0x8, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
   constexpr ::GlobalNamespace::ColorScheme* const& __cordl_internal_get__colorScheme() const;
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method .ctor, addr 0x5a1f090, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2717c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_obstaclesColor, addr 0x5a1edcc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesColor, addr 0x5a26eb8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_obstaclesColor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   ColorManager(ColorManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6505 };
 
   /// @brief Field _colorScheme, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ColorScheme* ____colorScheme;

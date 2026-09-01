@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/CreateXmlSerializableDelegate.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\CreateXmlSerializableDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__CreateXmlSerializableDelegate_def.hpp"
 #include "System/Xml/Serialization/zzzz__IXmlSerializable_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CreateXmlSerializableDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Runtime::Serialization::CreateXmlSerializableDelegate::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6159fd4;
+  constexpr static std::size_t addrs = 0x6161a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CreateXmlSerializableDelegate*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::IXmlSerializable* (::System::Runtime::Serialization::CreateXmlSerializableDelegate::*)()>(
     &::System::Runtime::Serialization::CreateXmlSerializableDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x615a03c;
+  constexpr static std::size_t addrs = 0x6161ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CreateXmlSerializableDelegate*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/RC2Parameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\RC2Parameters.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RC2Parameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x341161c;
+  constexpr static std::size_t addrs = 0x34153dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3411684;
+  constexpr static std::size_t addrs = 0x3415444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x341165c;
+  constexpr static std::size_t addrs = 0x341541c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::RC2Parameters*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::*)(::ArrayW<uint8_t>, int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x34116b8;
+  constexpr static std::size_t addrs = 0x3415478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RC2Parameters::get_EffectiveKeyBits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34116e0;
+  constexpr static std::size_t addrs = 0x34154a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

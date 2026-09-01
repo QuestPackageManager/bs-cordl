@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphObjectPool.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphObjectPool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphObjectPool_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphObjectPool_def.hpp"
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67d970c;
+  constexpr static std::size_t addrs = 0x67e1188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase::Clear)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67d9710;
+  constexpr static std::size_t addrs = 0x67e118c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x67d8fb8;
+  constexpr static std::size_t addrs = 0x67e0a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::MaterialPropertyBlock* (::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::GetTempMaterialPropertyBlock)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x67d90e0;
+  constexpr static std::size_t addrs = 0x67e0b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::ReleaseAllTempAlloc)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x67d91dc;
+  constexpr static std::size_t addrs = 0x67e0c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool::Cleanup)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x67d94d8;
+  constexpr static std::size_t addrs = 0x67e0f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

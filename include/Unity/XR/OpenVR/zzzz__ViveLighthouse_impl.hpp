@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/XR/OpenVR/ViveLighthouse.hpp"
+// IWYU pragma private; include "Unity\XR\OpenVR\ViveLighthouse.hpp"
 #include "UnityEngine/InputSystem/zzzz__TrackedDevice_impl.hpp"
 #include "Unity/XR/OpenVR/zzzz__ViveLighthouse_def.hpp"
 //  Writing Method size for method: ::Unity::XR::OpenVR::ViveLighthouse._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveLighthouse::*)()>(&::Unity::XR::OpenVR::ViveLighthouse::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64c9594;
+  constexpr static std::size_t addrs = 0x64d1010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveLighthouse*>(), { ".ctor", {}, {} })));

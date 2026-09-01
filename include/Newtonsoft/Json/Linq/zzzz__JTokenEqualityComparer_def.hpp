@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Linq/JTokenEqualityComparer.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Linq\JTokenEqualityComparer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,15 +29,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x5d8197c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5d85e38, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::Newtonsoft::Json::Linq::JToken* x, ::Newtonsoft::Json::Linq::JToken* y);
 
-  /// @brief Method GetHashCode, addr 0x5d81a18, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x5d85ed4, size 0x24, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::Newtonsoft::Json::Linq::JToken* obj);
 
   static inline ::Newtonsoft::Json::Linq::JTokenEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d81a3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d85ef8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>"
@@ -58,7 +58,7 @@ public:
   JTokenEqualityComparer(JTokenEqualityComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13614 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

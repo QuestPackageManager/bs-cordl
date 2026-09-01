@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/FxEventBoxGroup.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\FxEventBoxGroup.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__EventBoxGroup_1_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__FxEventType_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__FxEventBoxGroup_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataVersion3::FxEventType (::BeatmapSaveDataVersion3::FxEventBoxGroup::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBoxGroup::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3758c6c;
+  constexpr static std::size_t addrs = 0x375e8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FxEventBoxGroup*>(), { "get_type", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::FxEventBoxGroup::*)(
     float_t, int32_t, ::BeatmapSaveDataVersion3::FxEventType, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>*)>(&::BeatmapSaveDataVersion3::FxEventBoxGroup::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3758c74;
+  constexpr static std::size_t addrs = 0x375e8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

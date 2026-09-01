@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/TypeLoadExceptionHolder.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\TypeLoadExceptionHolder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__TypeLoadExceptionHolder_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::TypeLoadExceptionHolder._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::TypeLoadExceptionHolder::*)(::StringW)>(
     &::System::Runtime::Serialization::TypeLoadExceptionHolder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b4fa70;
+  constexpr static std::size_t addrs = 0x5b53f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::TypeLoadExceptionHolder::*)()>(
     &::System::Runtime::Serialization::TypeLoadExceptionHolder::get_TypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b4fa78;
+  constexpr static std::size_t addrs = 0x5b53f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::TypeLoadExceptionHolder*>(), { "get_TypeName", {}, {} })));

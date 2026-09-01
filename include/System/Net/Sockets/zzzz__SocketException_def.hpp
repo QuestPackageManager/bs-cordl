@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Sockets/SocketException.hpp"
+// IWYU pragma private; include "System\Net\Sockets\SocketException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(::System::Net::Sockets::SocketError socketError);
 
-  /// @brief Method WSAGetLastError_icall, addr 0x6362440, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WSAGetLastError_icall, addr 0x6369ebc, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t WSAGetLastError_icall();
 
   constexpr ::System::Net::EndPoint* const& __cordl_internal_get_m_EndPoint() const;
@@ -62,28 +62,28 @@ public:
 
   constexpr void __cordl_internal_set_m_EndPoint(::System::Net::EndPoint* value);
 
-  /// @brief Method .ctor, addr 0x636245c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6369ed8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x63624b0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6369f2c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t error, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x635e6c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636613c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t errorCode);
 
-  /// @brief Method .ctor, addr 0x63624e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6369f64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x6361a58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63694d4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::SocketError socketError);
 
-  /// @brief Method get_ErrorCode, addr 0x63624f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x6369f6c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
-  /// @brief Method get_Message, addr 0x63624f8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x6369f74, size 0x94, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_SocketErrorCode, addr 0x636005c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SocketErrorCode, addr 0x6367ad8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_SocketErrorCode();
 
 protected:
@@ -101,7 +101,7 @@ public:
   SocketException(SocketException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11761 };
 
   /// @brief Field m_EndPoint, offset: 0x90, size: 0x8, def value: None
   ::System::Net::EndPoint* ___m_EndPoint;

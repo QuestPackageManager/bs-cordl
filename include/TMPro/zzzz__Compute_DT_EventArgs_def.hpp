@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/Compute_DT_EventArgs.hpp"
+// IWYU pragma private; include "TMPro\Compute_DT_EventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_ProgressPercentage(float_t value);
 
-  /// @brief Method .ctor, addr 0x6941190, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6948c0c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color> colors);
 
-  /// @brief Method .ctor, addr 0x6941184, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6948c00, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float_t progress);
 
 protected:
@@ -81,7 +81,7 @@ public:
   Compute_DT_EventArgs(Compute_DT_EventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15869 };
 
   /// @brief Field EventType, offset: 0x10, size: 0x4, def value: None
   ::TMPro::Compute_DistanceTransform_EventTypes ___EventType;

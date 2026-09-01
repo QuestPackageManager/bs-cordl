@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/MarshalDirectiveException.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\MarshalDirectiveException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   static inline ::System::Runtime::InteropServices::MarshalDirectiveException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5b67568, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6ba24, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b675ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6baa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b675c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6ba84, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

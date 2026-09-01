@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Translate.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Translate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,52 +80,52 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Translate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Translate>*();
 
-  /// @brief Method Equals, addr 0x6c8e3bc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c95f40, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c8e33c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c95ec0, size 0x80, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Translate other);
 
-  /// @brief Method GetHashCode, addr 0x6c87d10, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c8f894, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method None, addr 0x6c8c818, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x6c9439c, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate None();
 
-  /// @brief Method ToString, addr 0x6c8e450, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c95fd4, size 0x13c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c8e260, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c95de4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 v);
 
-  /// @brief Method .ctor, addr 0x6c8e250, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c95dd4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
 
-  /// @brief Method get_x, addr 0x6c8e290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x6c95e14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_x();
 
-  /// @brief Method get_y, addr 0x6c8e2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x6c95e24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_y();
 
-  /// @brief Method get_z, addr 0x6c8e2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x6c95e34, size 0x8, virtual false, abstract: false, final false
   inline float_t get_z();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Translate>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Translate>* i___System__IEquatable_1___UnityEngine__UIElements__Translate_();
 
-  /// @brief Method op_Equality, addr 0x6c879c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c8f544, size 0x80, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Translate lhs, ::UnityEngine::UIElements::Translate rhs);
 
-  /// @brief Method op_Inequality, addr 0x6c8e2c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6c95e44, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Translate lhs, ::UnityEngine::UIElements::Translate rhs);
 
-  /// @brief Method set_x, addr 0x6c8e298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x6c95e1c, size 0x8, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::UIElements::Length value);
 
-  /// @brief Method set_y, addr 0x6c8e2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x6c95e2c, size 0x8, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::UIElements::Length value);
 
-  /// @brief Method set_z, addr 0x6c8e2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_z, addr 0x6c95e3c, size 0x8, virtual false, abstract: false, final false
   inline void set_z(float_t value);
 
   // Ctor Parameters []
@@ -185,12 +185,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c8e814, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c96398, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Length GetValue(::by_ref<::UnityEngine::UIElements::Translate> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Translate_XProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c8e81c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c963a0, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Translate> container, ::UnityEngine::UIElements::Length value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -205,13 +205,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c8e6d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9625c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c8e80c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c96390, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c8e804, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c96388, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -264,12 +264,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c8e834, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c963b8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Length GetValue(::by_ref<::UnityEngine::UIElements::Translate> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Translate_YProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c8e83c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c963c0, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Translate> container, ::UnityEngine::UIElements::Length value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -284,13 +284,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c8e73c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c962c0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c8e82c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c963b0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c8e824, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c963a8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -343,12 +343,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c8e854, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c963d8, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::by_ref<::UnityEngine::UIElements::Translate> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Translate_ZProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c8e85c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c963e0, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Translate> container, float_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -363,13 +363,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c8e7a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c96324, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c8e84c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c963d0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c8e844, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c963c8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -420,7 +420,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Translate_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c8e58c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c96110, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

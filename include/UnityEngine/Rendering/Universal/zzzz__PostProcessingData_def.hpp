@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessingData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessingData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,25 +41,25 @@ public:
 
   __declspec(property(get = get_useFastSRGBLinearConversion)) bool useFastSRGBLinearConversion;
 
-  /// @brief Method .ctor, addr 0x68df564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68e6fe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method get_gradingMode, addr 0x68df5c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_gradingMode, addr 0x68e703c, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::Universal::ColorGradingMode> get_gradingMode();
 
-  /// @brief Method get_lutSize, addr 0x68df620, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_lutSize, addr 0x68e709c, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_lutSize();
 
-  /// @brief Method get_supportDataDrivenLensFlare, addr 0x68df740, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportDataDrivenLensFlare, addr 0x68e71bc, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportDataDrivenLensFlare();
 
-  /// @brief Method get_supportScreenSpaceLensFlare, addr 0x68df6e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportScreenSpaceLensFlare, addr 0x68e715c, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportScreenSpaceLensFlare();
 
-  /// @brief Method get_universalPostProcessingData, addr 0x68df56c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_universalPostProcessingData, addr 0x68e6fe8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* get_universalPostProcessingData();
 
-  /// @brief Method get_useFastSRGBLinearConversion, addr 0x68df680, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_useFastSRGBLinearConversion, addr 0x68e70fc, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_useFastSRGBLinearConversion();
 
   // Ctor Parameters []
@@ -70,7 +70,7 @@ public:
   constexpr PostProcessingData(::UnityEngine::Rendering::ContextContainer* frameData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13044 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

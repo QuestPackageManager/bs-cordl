@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/TypeConversion.hpp"
+// IWYU pragma private; include "Unity\Properties\TypeConversion.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__ConversionRegistry_impl.hpp"
 #include "Unity/Properties/zzzz__TypeConversion_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)()>(&::Unity::Properties::PrimitiveConverters_TypeConversion___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ba7598;
+  constexpr static std::size_t addrs = 0x6baf11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_Register_b__0_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba759c;
+  constexpr static std::size_t addrs = 0x6baf120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba75c8;
+  constexpr static std::size_t addrs = 0x6baf14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba75d0;
+  constexpr static std::size_t addrs = 0x6baf154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba75e0;
+  constexpr static std::size_t addrs = 0x6baf164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba75e8;
+  constexpr static std::size_t addrs = 0x6baf16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba75f0;
+  constexpr static std::size_t addrs = 0x6baf174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba75f8;
+  constexpr static std::size_t addrs = 0x6baf17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7600;
+  constexpr static std::size_t addrs = 0x6baf184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7608;
+  constexpr static std::size_t addrs = 0x6baf18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7610;
+  constexpr static std::size_t addrs = 0x6baf194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba7618;
+  constexpr static std::size_t addrs = 0x6baf19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba7624;
+  constexpr static std::size_t addrs = 0x6baf1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt8Converters_b__1_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ba7630;
+  constexpr static std::size_t addrs = 0x6baf1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7654;
+  constexpr static std::size_t addrs = 0x6baf1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba765c;
+  constexpr static std::size_t addrs = 0x6baf1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7664;
+  constexpr static std::size_t addrs = 0x6baf1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7674;
+  constexpr static std::size_t addrs = 0x6baf1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba767c;
+  constexpr static std::size_t addrs = 0x6baf200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7684;
+  constexpr static std::size_t addrs = 0x6baf208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba768c;
+  constexpr static std::size_t addrs = 0x6baf210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7694;
+  constexpr static std::size_t addrs = 0x6baf218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba769c;
+  constexpr static std::size_t addrs = 0x6baf220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba76a4;
+  constexpr static std::size_t addrs = 0x6baf228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba76b0;
+  constexpr static std::size_t addrs = 0x6baf234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt16Converters_b__2_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ba76bc;
+  constexpr static std::size_t addrs = 0x6baf240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba76e0;
+  constexpr static std::size_t addrs = 0x6baf264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba76e8;
+  constexpr static std::size_t addrs = 0x6baf26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba76f0;
+  constexpr static std::size_t addrs = 0x6baf274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7700;
+  constexpr static std::size_t addrs = 0x6baf284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7708;
+  constexpr static std::size_t addrs = 0x6baf28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7710;
+  constexpr static std::size_t addrs = 0x6baf294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7718;
+  constexpr static std::size_t addrs = 0x6baf29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -475,7 +475,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7720;
+  constexpr static std::size_t addrs = 0x6baf2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7728;
+  constexpr static std::size_t addrs = 0x6baf2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba7730;
+  constexpr static std::size_t addrs = 0x6baf2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba773c;
+  constexpr static std::size_t addrs = 0x6baf2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt32Converters_b__3_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ba7748;
+  constexpr static std::size_t addrs = 0x6baf2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba776c;
+  constexpr static std::size_t addrs = 0x6baf2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7774;
+  constexpr static std::size_t addrs = 0x6baf2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba777c;
+  constexpr static std::size_t addrs = 0x6baf300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -587,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba778c;
+  constexpr static std::size_t addrs = 0x6baf310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -601,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7794;
+  constexpr static std::size_t addrs = 0x6baf318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba779c;
+  constexpr static std::size_t addrs = 0x6baf320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -629,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba77a4;
+  constexpr static std::size_t addrs = 0x6baf328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -643,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba77ac;
+  constexpr static std::size_t addrs = 0x6baf330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -657,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba77b4;
+  constexpr static std::size_t addrs = 0x6baf338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -671,7 +671,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba77bc;
+  constexpr static std::size_t addrs = 0x6baf340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -685,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba77c8;
+  constexpr static std::size_t addrs = 0x6baf34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -699,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterInt64Converters_b__4_11)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6ba77d4;
+  constexpr static std::size_t addrs = 0x6baf358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -713,7 +713,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba77f4;
+  constexpr static std::size_t addrs = 0x6baf378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -727,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba77fc;
+  constexpr static std::size_t addrs = 0x6baf380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -741,7 +741,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7804;
+  constexpr static std::size_t addrs = 0x6baf388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -755,7 +755,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7814;
+  constexpr static std::size_t addrs = 0x6baf398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -769,7 +769,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba781c;
+  constexpr static std::size_t addrs = 0x6baf3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -783,7 +783,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7824;
+  constexpr static std::size_t addrs = 0x6baf3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -797,7 +797,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba782c;
+  constexpr static std::size_t addrs = 0x6baf3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -811,7 +811,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7834;
+  constexpr static std::size_t addrs = 0x6baf3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -825,7 +825,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba783c;
+  constexpr static std::size_t addrs = 0x6baf3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -839,7 +839,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba7844;
+  constexpr static std::size_t addrs = 0x6baf3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -853,7 +853,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba7850;
+  constexpr static std::size_t addrs = 0x6baf3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -867,7 +867,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt8Converters_b__5_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ba785c;
+  constexpr static std::size_t addrs = 0x6baf3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -881,7 +881,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7880;
+  constexpr static std::size_t addrs = 0x6baf404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -895,7 +895,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7888;
+  constexpr static std::size_t addrs = 0x6baf40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -909,7 +909,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7890;
+  constexpr static std::size_t addrs = 0x6baf414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -923,7 +923,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba78a0;
+  constexpr static std::size_t addrs = 0x6baf424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -937,7 +937,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba78a8;
+  constexpr static std::size_t addrs = 0x6baf42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -951,7 +951,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba78b0;
+  constexpr static std::size_t addrs = 0x6baf434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -965,7 +965,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba78b8;
+  constexpr static std::size_t addrs = 0x6baf43c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -979,7 +979,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba78c0;
+  constexpr static std::size_t addrs = 0x6baf444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -993,7 +993,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba78c8;
+  constexpr static std::size_t addrs = 0x6baf44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1007,7 +1007,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba78d0;
+  constexpr static std::size_t addrs = 0x6baf454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1021,7 +1021,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba78dc;
+  constexpr static std::size_t addrs = 0x6baf460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1035,7 +1035,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt16Converters_b__6_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ba78e8;
+  constexpr static std::size_t addrs = 0x6baf46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1049,7 +1049,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba790c;
+  constexpr static std::size_t addrs = 0x6baf490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1063,7 +1063,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7914;
+  constexpr static std::size_t addrs = 0x6baf498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1077,7 +1077,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba791c;
+  constexpr static std::size_t addrs = 0x6baf4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1091,7 +1091,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba792c;
+  constexpr static std::size_t addrs = 0x6baf4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1105,7 +1105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7934;
+  constexpr static std::size_t addrs = 0x6baf4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1119,7 +1119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba793c;
+  constexpr static std::size_t addrs = 0x6baf4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1133,7 +1133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7944;
+  constexpr static std::size_t addrs = 0x6baf4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1147,7 +1147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba794c;
+  constexpr static std::size_t addrs = 0x6baf4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1161,7 +1161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7954;
+  constexpr static std::size_t addrs = 0x6baf4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1175,7 +1175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba795c;
+  constexpr static std::size_t addrs = 0x6baf4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1189,7 +1189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba7968;
+  constexpr static std::size_t addrs = 0x6baf4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1203,7 +1203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt32Converters_b__7_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ba7974;
+  constexpr static std::size_t addrs = 0x6baf4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1217,7 +1217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7998;
+  constexpr static std::size_t addrs = 0x6baf51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1231,7 +1231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba79a0;
+  constexpr static std::size_t addrs = 0x6baf524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1245,7 +1245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba79a8;
+  constexpr static std::size_t addrs = 0x6baf52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1259,7 +1259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba79b8;
+  constexpr static std::size_t addrs = 0x6baf53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1273,7 +1273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba79c0;
+  constexpr static std::size_t addrs = 0x6baf544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1287,7 +1287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba79c8;
+  constexpr static std::size_t addrs = 0x6baf54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1301,7 +1301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba79d0;
+  constexpr static std::size_t addrs = 0x6baf554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1315,7 +1315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba79d8;
+  constexpr static std::size_t addrs = 0x6baf55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1329,7 +1329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba79e0;
+  constexpr static std::size_t addrs = 0x6baf564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1343,7 +1343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_9)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba79e8;
+  constexpr static std::size_t addrs = 0x6baf56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1357,7 +1357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba79f8;
+  constexpr static std::size_t addrs = 0x6baf57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1371,7 +1371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterUInt64Converters_b__8_11)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6ba7a04;
+  constexpr static std::size_t addrs = 0x6baf588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1385,7 +1385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6ba7a24;
+  constexpr static std::size_t addrs = 0x6baf5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1399,7 +1399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ba7a40;
+  constexpr static std::size_t addrs = 0x6baf5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1413,7 +1413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_2)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6ba7a54;
+  constexpr static std::size_t addrs = 0x6baf5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1427,7 +1427,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6ba7ac8;
+  constexpr static std::size_t addrs = 0x6baf64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1441,7 +1441,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_4)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6ba7ae4;
+  constexpr static std::size_t addrs = 0x6baf668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1455,7 +1455,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_5)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6ba7b04;
+  constexpr static std::size_t addrs = 0x6baf688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1469,7 +1469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_6)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ba7b24;
+  constexpr static std::size_t addrs = 0x6baf6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1483,7 +1483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_7)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ba7b38;
+  constexpr static std::size_t addrs = 0x6baf6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1497,7 +1497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_8)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ba7b4c;
+  constexpr static std::size_t addrs = 0x6baf6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1511,7 +1511,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ba7b64;
+  constexpr static std::size_t addrs = 0x6baf6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1525,7 +1525,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba7b7c;
+  constexpr static std::size_t addrs = 0x6baf700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1539,7 +1539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat32Converters_b__9_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ba7b88;
+  constexpr static std::size_t addrs = 0x6baf70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1553,7 +1553,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6ba7bac;
+  constexpr static std::size_t addrs = 0x6baf730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1567,7 +1567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ba7bc8;
+  constexpr static std::size_t addrs = 0x6baf74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1581,7 +1581,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_2)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6ba7bdc;
+  constexpr static std::size_t addrs = 0x6baf760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1595,7 +1595,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6ba7c50;
+  constexpr static std::size_t addrs = 0x6baf7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1609,7 +1609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_4)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6ba7c6c;
+  constexpr static std::size_t addrs = 0x6baf7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1623,7 +1623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_5)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6ba7c8c;
+  constexpr static std::size_t addrs = 0x6baf810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1637,7 +1637,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_6)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ba7cac;
+  constexpr static std::size_t addrs = 0x6baf830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1651,7 +1651,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_7)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ba7cc0;
+  constexpr static std::size_t addrs = 0x6baf844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1665,7 +1665,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_8)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ba7cd4;
+  constexpr static std::size_t addrs = 0x6baf858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1679,7 +1679,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ba7cec;
+  constexpr static std::size_t addrs = 0x6baf870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1693,7 +1693,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba7d04;
+  constexpr static std::size_t addrs = 0x6baf888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1707,7 +1707,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterFloat64Converters_b__10_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ba7d10;
+  constexpr static std::size_t addrs = 0x6baf894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1721,7 +1721,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7d34;
+  constexpr static std::size_t addrs = 0x6baf8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1735,7 +1735,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7d44;
+  constexpr static std::size_t addrs = 0x6baf8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1749,7 +1749,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7d54;
+  constexpr static std::size_t addrs = 0x6baf8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1763,7 +1763,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_3)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7d64;
+  constexpr static std::size_t addrs = 0x6baf8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1777,7 +1777,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_4)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7d74;
+  constexpr static std::size_t addrs = 0x6baf8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1791,7 +1791,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_5)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7d84;
+  constexpr static std::size_t addrs = 0x6baf908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1805,7 +1805,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_6)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7d94;
+  constexpr static std::size_t addrs = 0x6baf918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1819,7 +1819,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_7)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7da4;
+  constexpr static std::size_t addrs = 0x6baf928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1833,7 +1833,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_8)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7db4;
+  constexpr static std::size_t addrs = 0x6baf938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1847,7 +1847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ba7dc4;
+  constexpr static std::size_t addrs = 0x6baf948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1861,7 +1861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_10)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ba7ddc;
+  constexpr static std::size_t addrs = 0x6baf960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1875,7 +1875,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterBooleanConverters_b__11_11)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba7df4;
+  constexpr static std::size_t addrs = 0x6baf978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1889,7 +1889,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ba7e20;
+  constexpr static std::size_t addrs = 0x6baf9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1903,7 +1903,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ba7e90;
+  constexpr static std::size_t addrs = 0x6bafa14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1917,7 +1917,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7ea0;
+  constexpr static std::size_t addrs = 0x6bafa24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1931,7 +1931,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7ea8;
+  constexpr static std::size_t addrs = 0x6bafa2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1945,7 +1945,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7eb0;
+  constexpr static std::size_t addrs = 0x6bafa34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1959,7 +1959,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7eb8;
+  constexpr static std::size_t addrs = 0x6bafa3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1973,7 +1973,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7ec0;
+  constexpr static std::size_t addrs = 0x6bafa44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -1987,7 +1987,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7ec8;
+  constexpr static std::size_t addrs = 0x6bafa4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2001,7 +2001,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7ed0;
+  constexpr static std::size_t addrs = 0x6bafa54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2015,7 +2015,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_9)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ba7ed8;
+  constexpr static std::size_t addrs = 0x6bafa5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2029,7 +2029,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba7ee0;
+  constexpr static std::size_t addrs = 0x6bafa64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2043,7 +2043,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_11)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba7eec;
+  constexpr static std::size_t addrs = 0x6bafa70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2057,7 +2057,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_12)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ba7ef8;
+  constexpr static std::size_t addrs = 0x6bafa7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2071,7 +2071,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterCharConverters_b__12_13)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba7f1c;
+  constexpr static std::size_t addrs = 0x6bafaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2085,7 +2085,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6ba7f48;
+  constexpr static std::size_t addrs = 0x6bafacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2099,7 +2099,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<char16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_1)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba7f7c;
+  constexpr static std::size_t addrs = 0x6bafb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2113,7 +2113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_2)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6ba7fa8;
+  constexpr static std::size_t addrs = 0x6bafb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2127,7 +2127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<bool>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_3)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba808c;
+  constexpr static std::size_t addrs = 0x6bafc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2141,7 +2141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_4)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ba80b8;
+  constexpr static std::size_t addrs = 0x6bafc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2155,7 +2155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_5)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba8178;
+  constexpr static std::size_t addrs = 0x6bafcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2169,7 +2169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_6)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ba8184;
+  constexpr static std::size_t addrs = 0x6bafd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2183,7 +2183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_7)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba8244;
+  constexpr static std::size_t addrs = 0x6bafdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2197,7 +2197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_8)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ba8250;
+  constexpr static std::size_t addrs = 0x6bafdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2211,7 +2211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba8310;
+  constexpr static std::size_t addrs = 0x6bafe94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2225,7 +2225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_10)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6ba831c;
+  constexpr static std::size_t addrs = 0x6bafea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2239,7 +2239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<int64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_11)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba83d8;
+  constexpr static std::size_t addrs = 0x6baff5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2253,7 +2253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_12)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ba83e4;
+  constexpr static std::size_t addrs = 0x6baff68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2267,7 +2267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint8_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_13)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba84a4;
+  constexpr static std::size_t addrs = 0x6bb0028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2281,7 +2281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_14)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ba84b0;
+  constexpr static std::size_t addrs = 0x6bb0034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2295,7 +2295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint16_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_15)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba8570;
+  constexpr static std::size_t addrs = 0x6bb00f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2309,7 +2309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_16)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ba857c;
+  constexpr static std::size_t addrs = 0x6bb0100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2323,7 +2323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint32_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_17)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba863c;
+  constexpr static std::size_t addrs = 0x6bb01c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2337,7 +2337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_18)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6ba8648;
+  constexpr static std::size_t addrs = 0x6bb01cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2351,7 +2351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<uint64_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_19)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ba8704;
+  constexpr static std::size_t addrs = 0x6bb0288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2365,7 +2365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_20)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6ba8710;
+  constexpr static std::size_t addrs = 0x6bb0294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2379,7 +2379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<float_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_21)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6ba87cc;
+  constexpr static std::size_t addrs = 0x6bb0350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2393,7 +2393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::StringW>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_22)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6ba8834;
+  constexpr static std::size_t addrs = 0x6bb03b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2407,7 +2407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<double_t>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterStringConverters_b__13_23)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6ba8854;
+  constexpr static std::size_t addrs = 0x6bb03d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2421,7 +2421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba88bc;
+  constexpr static std::size_t addrs = 0x6bb0440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2435,7 +2435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_1)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6ba88e8;
+  constexpr static std::size_t addrs = 0x6bb046c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2449,7 +2449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_2)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba891c;
+  constexpr static std::size_t addrs = 0x6bb04a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2463,7 +2463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_3)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba8948;
+  constexpr static std::size_t addrs = 0x6bb04cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2477,7 +2477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_4)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba8974;
+  constexpr static std::size_t addrs = 0x6bb04f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2491,7 +2491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_5)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba89a0;
+  constexpr static std::size_t addrs = 0x6bb0524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2505,7 +2505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_6)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba89cc;
+  constexpr static std::size_t addrs = 0x6bb0550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2519,7 +2519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_7)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba89f8;
+  constexpr static std::size_t addrs = 0x6bb057c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2533,7 +2533,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_8)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba8a24;
+  constexpr static std::size_t addrs = 0x6bb05a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2547,7 +2547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_9)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba8a50;
+  constexpr static std::size_t addrs = 0x6bb05d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2561,7 +2561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_10)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba8a7c;
+  constexpr static std::size_t addrs = 0x6bb0600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -2575,7 +2575,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Properties::PrimitiveConverters_TypeConversion___c::*)(::by_ref<::System::Object*>)>(
     &::Unity::Properties::PrimitiveConverters_TypeConversion___c::_RegisterObjectConverters_b__14_11)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ba8aa8;
+  constexpr static std::size_t addrs = 0x6bb062c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PrimitiveConverters_TypeConversion___c*>(),
@@ -4800,7 +4800,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::Register)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6b9a9d8;
+  constexpr static std::size_t addrs = 0x6ba255c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::TypeConversion_PrimitiveConverters*>(), { "Register", {}, {} })));
@@ -4812,7 +4812,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterInt8Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6b9abf8;
+  constexpr static std::size_t addrs = 0x6ba277c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4825,7 +4825,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterInt16Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6b9b944;
+  constexpr static std::size_t addrs = 0x6ba34c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4838,7 +4838,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterInt32Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6b9c690;
+  constexpr static std::size_t addrs = 0x6ba4214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4851,7 +4851,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterInt64Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6b9d3dc;
+  constexpr static std::size_t addrs = 0x6ba4f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4864,7 +4864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterUInt8Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6b9e128;
+  constexpr static std::size_t addrs = 0x6ba5cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4877,7 +4877,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterUInt16Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6b9ee74;
+  constexpr static std::size_t addrs = 0x6ba69f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4890,7 +4890,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterUInt32Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6b9fbc0;
+  constexpr static std::size_t addrs = 0x6ba7744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4903,7 +4903,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterUInt64Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6ba090c;
+  constexpr static std::size_t addrs = 0x6ba8490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4916,7 +4916,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterFloat32Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6ba1658;
+  constexpr static std::size_t addrs = 0x6ba91dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4929,7 +4929,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterFloat64Converters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6ba23a4;
+  constexpr static std::size_t addrs = 0x6ba9f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4942,7 +4942,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterBooleanConverters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6ba30f0;
+  constexpr static std::size_t addrs = 0x6baac74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4955,7 +4955,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterCharConverters)> {
   constexpr static std::size_t size = 0xf74;
-  constexpr static std::size_t addrs = 0x6ba3e3c;
+  constexpr static std::size_t addrs = 0x6bab9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4968,7 +4968,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterStringConverters)> {
   constexpr static std::size_t size = 0x1a48;
-  constexpr static std::size_t addrs = 0x6ba4db0;
+  constexpr static std::size_t addrs = 0x6bac934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4981,7 +4981,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::TypeConversion_PrimitiveConverters::RegisterObjectConverters)> {
   constexpr static std::size_t size = 0xd4c;
-  constexpr static std::size_t addrs = 0x6ba67f8;
+  constexpr static std::size_t addrs = 0x6bae37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5070,7 +5070,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Unity::Properties::TypeConversion::IsNumericType)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6b9abb8;
+  constexpr static std::size_t addrs = 0x6ba273c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

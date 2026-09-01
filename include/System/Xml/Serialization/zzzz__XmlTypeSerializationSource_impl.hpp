@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlTypeSerializationSource.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlTypeSerializationSource.hpp"
 #include "System/Xml/Serialization/zzzz__SerializationSource_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeSerializationSource_def.hpp"
 #include "System/Xml/Serialization/zzzz__XmlAttributeOverrides_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Seri
     ::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*, ::System::Xml::Serialization::XmlAttributeOverrides*, ::StringW, ::ArrayW<::System::Type*>)>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x62e4c6c;
+  constexpr static std::size_t addrs = 0x62ec6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlTypeSerializationSource::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x62e5230;
+  constexpr static std::size_t addrs = 0x62eccac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeSerializationSource*>(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Serialization::XmlTypeSerializationSource::*)()>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62e5310;
+  constexpr static std::size_t addrs = 0x62ecd8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeSerializationSource*>(),

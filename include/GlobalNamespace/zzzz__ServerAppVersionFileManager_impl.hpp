@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ServerAppVersionFileManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\ServerAppVersionFileManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerAppVersionFileManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ServerAppVersionFileManager.WriteAppVersion
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::GlobalNamespace::ServerAppVersionFileManager::WriteAppVersion)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b8348;
+  constexpr static std::size_t addrs = 0x32bc144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::ServerAppVersionFileManager::ReadAppVersion)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32b83dc;
+  constexpr static std::size_t addrs = 0x32bc1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::ServerAppVersionFileManager::BuildFilePath)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x32b8364;
+  constexpr static std::size_t addrs = 0x32bc160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerAppVersionFileManager::*)()>(&::GlobalNamespace::ServerAppVersionFileManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b83f0;
+  constexpr static std::size_t addrs = 0x32bc1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ServerAppVersionFileManager*>(), { ".ctor", {}, {} })));

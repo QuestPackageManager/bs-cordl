@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Authentication/ExtendedProtection/ExtendedProtectionPolicy.hpp"
+// IWYU pragma private; include "System\Security\Authentication\ExtendedProtection\ExtendedProtectionPolicy.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Authentication/ExtendedProtection/zzzz__ExtendedProtectionPolicy_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::*)(
     ::System::Security::Authentication::ExtendedProtection::PolicyEnforcement)>(&::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6398de8;
+  constexpr static std::size_t addrs = 0x63a0864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
                                                                                                                                                   ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6398dec;
+  constexpr static std::size_t addrs = 0x63a0868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::*)()>(
     &::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6398e24;
+  constexpr static std::size_t addrs = 0x63a08a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*>(),
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
                                                                                                                                                   ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6398e2c;
+  constexpr static std::size_t addrs = 0x63a08a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

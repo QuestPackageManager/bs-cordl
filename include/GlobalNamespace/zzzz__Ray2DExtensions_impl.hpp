@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Ray2DExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\Ray2DExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Ray2DExtensions_def.hpp"
 #include "UnityEngine/zzzz__Ray2D_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Ray2D, ::UnityEngine::Vector2, float_t, ::ArrayW<float_t>)>(
     &::GlobalNamespace::Ray2DExtensions::CircleIntersections)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3322a7c;
+  constexpr static std::size_t addrs = 0x332683c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

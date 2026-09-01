@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/XRRenderScaleRenderPass.hpp"
+// IWYU pragma private; include "GlobalNamespace\XRRenderScaleRenderPass.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPass_impl.hpp"
 #include "GlobalNamespace/zzzz__XRRenderScaleRenderPass_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XRRenderScaleRenderPass::*)()>(&::GlobalNamespace::XRRenderScaleRenderPass::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f4b2a4;
+  constexpr static std::size_t addrs = 0x5f52c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XRRenderScaleRenderPass*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XRRenderScaleRenderPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::XRRenderScaleRenderPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f4b368;
+  constexpr static std::size_t addrs = 0x5f52cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

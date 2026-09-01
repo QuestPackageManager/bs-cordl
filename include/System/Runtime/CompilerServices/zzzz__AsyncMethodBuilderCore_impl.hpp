@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncMethodBuilderCore.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncMethodBuilderCore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::*)(
     ::System::Threading::ExecutionContext*, ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6dc50;
+  constexpr static std::size_t addrs = 0x5b7210c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::*)()>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::Run)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5b6e018;
+  constexpr static std::size_t addrs = 0x5b724d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::InvokeMoveNext)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5b6e218;
+  constexpr static std::size_t addrs = 0x5b726d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::*)(
     ::System::Action*, ::System::Action*, ::System::Threading::Tasks::Task*)>(&::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b6df58;
+  constexpr static std::size_t addrs = 0x5b72414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::*)()>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::Invoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b6e2fc;
+  constexpr static std::size_t addrs = 0x5b727b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::*)()>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6dd4c;
+  constexpr static std::size_t addrs = 0x5b72208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::*)()>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::_OutputAsyncCausalityEvents_b__0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b6e31c;
+  constexpr static std::size_t addrs = 0x5b727d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::*)()>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6e3cc;
+  constexpr static std::size_t addrs = 0x5b72888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>(), { ".ctor", {}, {} })));
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::*)(::System::Object*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::_ThrowAsync_b__7_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b6e3d0;
+  constexpr static std::size_t addrs = 0x5b7288c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::*)(::System::Object*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::_ThrowAsync_b__7_1)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b6e42c;
+  constexpr static std::size_t addrs = 0x5b728e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::SetStateMachine)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5b6d2e4;
+  constexpr static std::size_t addrs = 0x5b717a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncMethodBuilderCore>(),
@@ -368,7 +368,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action* (
     ::System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(::System::Threading::Tasks::Task*, ::by_ref<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::GetCompletionAction)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5b6da9c;
+  constexpr static std::size_t addrs = 0x5b71f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -386,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action* (::System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(::System::Threading::Tasks::Task*, ::System::Action*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::OutputAsyncCausalityEvents)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5b6dc58;
+  constexpr static std::size_t addrs = 0x5b72114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Runtime::CompilerServices::IAsyncStateMachine*, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*, ::System::Threading::Tasks::Task*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::PostBoxInitialization)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5b6de18;
+  constexpr static std::size_t addrs = 0x5b722d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Exception*, ::System::Threading::SynchronizationContext*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::ThrowAsync)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x5b6d5a4;
+  constexpr static std::size_t addrs = 0x5b71a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action* (*)(::System::Action*, ::System::Action*, ::System::Threading::Tasks::Task*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::CreateContinuationWrapper)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5b6dd50;
+  constexpr static std::size_t addrs = 0x5b7220c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::TryGetContinuationTask)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5b6df90;
+  constexpr static std::size_t addrs = 0x5b7244c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

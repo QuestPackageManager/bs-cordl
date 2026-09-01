@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Pool/PoolManager.hpp"
+// IWYU pragma private; include "UnityEngine\Pool\PoolManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Pool/zzzz__PoolManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Pool::IPool*)>(&::UnityEngine::Pool::PoolManager::Register)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6afa014;
+  constexpr static std::size_t addrs = 0x6b01a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

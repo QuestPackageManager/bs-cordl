@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidCompensateDirectionProcessor.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Android\LowLevel\AndroidCompensateDirectionProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x65a577c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x65ad1f8, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 vector, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x65a5798, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ad214, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   AndroidCompensateDirectionProcessor(AndroidCompensateDirectionProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8953 };
 
   /// @brief Field kAccelerationMultiplier offset 0xffffffff size 0x4
   static constexpr float_t kAccelerationMultiplier{ static_cast<float_t>(-0.10197162f) };

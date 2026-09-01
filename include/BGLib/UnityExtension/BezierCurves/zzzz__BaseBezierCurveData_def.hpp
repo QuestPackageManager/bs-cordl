@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/BaseBezierCurveData.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\BaseBezierCurveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,25 +51,25 @@ public:
 
   constexpr void __cordl_internal_set__startControlPointDelta(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x332790c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332b6cc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endControlPoint, addr 0x3327890, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_endControlPoint, addr 0x332b650, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endControlPoint();
 
   /// @brief Method get_endPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPoint();
 
-  /// @brief Method get_startControlPoint, addr 0x3327814, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_startControlPoint, addr 0x332b5d4, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startControlPoint();
 
   /// @brief Method get_startPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startPoint();
 
-  /// @brief Method set_endControlPoint, addr 0x33278c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_endControlPoint, addr 0x332b680, size 0x4c, virtual false, abstract: false, final false
   inline void set_endControlPoint(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_startControlPoint, addr 0x3327844, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startControlPoint, addr 0x332b604, size 0x4c, virtual false, abstract: false, final false
   inline void set_startControlPoint(::UnityEngine::Vector3 value);
 
 protected:
@@ -87,7 +87,7 @@ public:
   BaseBezierCurveData(BaseBezierCurveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20824 };
 
   /// @brief Field _startControlPointDelta, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startControlPointDelta;

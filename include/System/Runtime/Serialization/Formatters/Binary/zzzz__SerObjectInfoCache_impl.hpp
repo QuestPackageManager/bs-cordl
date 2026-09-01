@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/SerObjectInfoCache.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\SerObjectInfoCache.hpp"
 #include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::*)(::StringW, ::StringW, bool)>(
     &::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b5ac38;
+  constexpr static std::size_t addrs = 0x5b5f0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::*)(::System::Type*)>(
     &::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5b5abb4;
+  constexpr static std::size_t addrs = 0x5b5f070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

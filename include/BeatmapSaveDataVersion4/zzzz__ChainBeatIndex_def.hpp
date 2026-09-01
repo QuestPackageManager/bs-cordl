@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4/ChainBeatIndex.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4\ChainBeatIndex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set_tr(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3757cac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375d918, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x3757ca4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x375d910, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -118,7 +118,7 @@ public:
   ChainBeatIndex(ChainBeatIndex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15319 };
 
   /// @brief Field hb, offset: 0x10, size: 0x4, def value: None
   float_t ___hb;

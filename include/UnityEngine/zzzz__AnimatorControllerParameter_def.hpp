@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AnimatorControllerParameter.hpp"
+// IWYU pragma private; include "UnityEngine\AnimatorControllerParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,10 +43,10 @@ public:
 
   __declspec(property(get = get_name)) ::StringW name;
 
-  /// @brief Method Equals, addr 0x6a3dd84, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a45800, size 0xd8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x6a3de5c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a458d8, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AnimatorControllerParameter* New_ctor();
@@ -81,10 +81,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::UnityEngine::AnimatorControllerParameterType value);
 
-  /// @brief Method .ctor, addr 0x6a3de78, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a458f4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x6a3dd7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6a457f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:
@@ -102,7 +102,7 @@ public:
   AnimatorControllerParameter(AnimatorControllerParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20227 };
 
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;

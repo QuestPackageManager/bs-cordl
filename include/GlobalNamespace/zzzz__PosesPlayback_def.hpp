@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PosesPlayback.hpp"
+// IWYU pragma private; include "GlobalNamespace\PosesPlayback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,21 +51,21 @@ public:
   /// @brief Field _transforms, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__transforms, put = __cordl_internal_set__transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>> _transforms;
 
-  /// @brief Method Init, addr 0x58e46b8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58e7ce8, size 0x268, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::PoseObject*> poseObjects, ::GlobalNamespace::PosesRecordingData* data, ::GlobalNamespace::IBeatSaberLogger* logger);
 
   static inline ::GlobalNamespace::PosesPlayback* New_ctor();
 
-  /// @brief Method PlaybackTick, addr 0x58e6648, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method PlaybackTick, addr 0x58e9c78, size 0x3a8, virtual false, abstract: false, final false
   inline void PlaybackTick(float_t time);
 
-  /// @brief Method StartPlayback, addr 0x58e4dd8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method StartPlayback, addr 0x58e8408, size 0xf0, virtual false, abstract: false, final false
   inline void StartPlayback();
 
-  /// @brief Method StopPlayback, addr 0x58e4d4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopPlayback, addr 0x58e837c, size 0xc, virtual false, abstract: false, final false
   inline void StopPlayback();
 
-  /// @brief Method Update, addr 0x58e6630, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58e9c60, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>> value);
 
-  /// @brief Method .ctor, addr 0x58e69f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ea020, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   PosesPlayback(PosesPlayback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6576 };
 
   /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;

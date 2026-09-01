@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PerformanceReport.hpp"
+// IWYU pragma private; include "GlobalNamespace\PerformanceReport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x58f4050, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f7664, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -106,7 +106,7 @@ public:
   PerformanceReport_Metrics(PerformanceReport_Metrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6614 };
 
   /// @brief Field Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Name;
@@ -162,7 +162,7 @@ public:
   PerformanceReport_Metrics_1(PerformanceReport_Metrics_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6615 };
 
   /// @brief Field Values, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<T> ___Values;
@@ -178,12 +178,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE PerformanceReport_FloatMetrics : public ::GlobalNamespace::PerformanceReport_Metrics_1<float_t> {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x58f4054, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x58f7668, size 0x94, virtual true, abstract: false, final false
   inline ::StringW GetValue(int32_t index);
 
   static inline ::GlobalNamespace::PerformanceReport_FloatMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58f3398, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f69b4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -201,7 +201,7 @@ public:
   PerformanceReport_FloatMetrics(PerformanceReport_FloatMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6616 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -216,12 +216,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE PerformanceReport_LongMetrics : public ::GlobalNamespace::PerformanceReport_Metrics_1<int64_t> {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x58f40e8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x58f76fc, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW GetValue(int32_t index);
 
   static inline ::GlobalNamespace::PerformanceReport_LongMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58f4164, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f7778, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -239,7 +239,7 @@ public:
   PerformanceReport_LongMetrics(PerformanceReport_LongMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6617 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -259,7 +259,7 @@ public:
 
   static inline ::GlobalNamespace::PerformanceReport___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <ListMetrics>b__0, addr 0x58f41a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <ListMetrics>b__0, addr 0x58f77b4, size 0x38, virtual false, abstract: false, final false
   inline bool _ListMetrics_b__0(::GlobalNamespace::PerformanceReport_Metrics* m);
 
   constexpr int32_t const& __cordl_internal_get_frameCount() const;
@@ -268,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set_frameCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x58f404c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f7660, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -286,7 +286,7 @@ public:
   PerformanceReport___c__DisplayClass7_0(PerformanceReport___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6618 };
 
   /// @brief Field frameCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___frameCount;
@@ -316,16 +316,16 @@ public:
 
   using __c__DisplayClass7_0 = ::GlobalNamespace::PerformanceReport___c__DisplayClass7_0;
 
-  /// @brief Method CreateReportDescriptor, addr 0x58f3f34, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateReportDescriptor, addr 0x58f7548, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW CreateReportDescriptor(::StringW tag, ::StringW environmentName, ::StringW levelId, ::StringW difficulty, ::StringW characteristic);
 
-  /// @brief Method CreateReportDescriptor, addr 0x58f3e7c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateReportDescriptor, addr 0x58f7490, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW CreateReportDescriptor(::StringW tag, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData);
 
-  /// @brief Method CreateTimestamp, addr 0x58f36c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateTimestamp, addr 0x58f6ce0, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW CreateTimestamp(::System::DateTime timestamp);
 
-  /// @brief Method ListMetrics, addr 0x58f33d4, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method ListMetrics, addr 0x58f69f0, size 0x2f0, virtual false, abstract: false, final false
   static inline ::StringW ListMetrics(bool includeHeader, ::ArrayW<::GlobalNamespace::PerformanceReport_Metrics*> metrics);
 
 protected:
@@ -343,7 +343,7 @@ public:
   PerformanceReport(PerformanceReport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6619 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

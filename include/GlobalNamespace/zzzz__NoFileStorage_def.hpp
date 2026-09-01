@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoFileStorage.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoFileStorage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,21 +35,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFileStorage"
   constexpr operator ::GlobalNamespace::IFileStorage*() noexcept;
 
-  /// @brief Method DeleteFileAsync, addr 0x3312308, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method DeleteFileAsync, addr 0x3316104, size 0x94, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* DeleteFileAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method FileExistsAsync, addr 0x331239c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method FileExistsAsync, addr 0x3316198, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* FileExistsAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method LoadFileAsync, addr 0x3312298, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method LoadFileAsync, addr 0x3316094, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* LoadFileAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
   static inline ::GlobalNamespace::NoFileStorage* New_ctor();
 
-  /// @brief Method SaveFileAsync, addr 0x3312204, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method SaveFileAsync, addr 0x3316000, size 0x94, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* SaveFileAsync(::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method .ctor, addr 0x331240c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3316208, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFileStorage"
@@ -70,7 +70,7 @@ public:
   NoFileStorage(NoFileStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23273 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

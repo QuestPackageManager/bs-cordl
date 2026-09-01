@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/ServerCertValidationCallback.hpp"
+// IWYU pragma private; include "System\Net\ServerCertValidationCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_sslPolicyErrors(::System::Net::Security::SslPolicyErrors value);
 
-  /// @brief Method .ctor, addr 0x641f808, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6427284, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                     ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
@@ -114,7 +114,7 @@ public:
   ServerCertValidationCallback_CallbackContext(ServerCertValidationCallback_CallbackContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11570 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___request;
@@ -165,10 +165,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ValidationCallback,
                       put = __cordl_internal_set_m_ValidationCallback)) ::System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback;
 
-  /// @brief Method Callback, addr 0x641f5f4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Callback, addr 0x6427070, size 0xb8, virtual false, abstract: false, final false
   inline void Callback(::System::Object* state);
 
-  /// @brief Method Invoke, addr 0x641f6ac, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6427128, size 0x15c, virtual false, abstract: false, final false
   inline bool Invoke(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
@@ -186,10 +186,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
-  /// @brief Method .ctor, addr 0x641f57c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6426ff8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback);
 
-  /// @brief Method get_ValidationCallback, addr 0x641f5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationCallback, addr 0x6427068, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ValidationCallback();
 
 protected:
@@ -207,7 +207,7 @@ public:
   ServerCertValidationCallback(ServerCertValidationCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11571 };
 
   /// @brief Field m_ValidationCallback, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Security::RemoteCertificateValidationCallback* ___m_ValidationCallback;

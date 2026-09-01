@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/TimelineUndo.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\TimelineUndo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineUndo_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineAsset_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Timeline::TimelineUndo::get_undoEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c78c4;
+  constexpr static std::size_t addrs = 0x69cf340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineUndo*>(), { "get_undoEnabled", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::TimelineAsset*, ::UnityEngine::Object*, ::UnityEngine::Object*)>(
     &::UnityEngine::Timeline::TimelineUndo::PushDestroyUndo)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69c78cc;
+  constexpr static std::size_t addrs = 0x69cf348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::Object*>, ::StringW)>(&::UnityEngine::Timeline::TimelineUndo::PushUndo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69c7958;
+  constexpr static std::size_t addrs = 0x69cf3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineUndo*>(),
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&::UnityEngine::Timeline::TimelineUndo::PushUndo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69c795c;
+  constexpr static std::size_t addrs = 0x69cf3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&::UnityEngine::Timeline::TimelineUndo::RegisterCreatedObjectUndo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69c7960;
+  constexpr static std::size_t addrs = 0x69cf3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::Timeline::TimelineUndo::UndoName)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69c7964;
+  constexpr static std::size_t addrs = 0x69cf3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

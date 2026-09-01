@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/InteractableController.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\InteractableController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,25 +38,25 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5a59164, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a5d620, size 0x1c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnHoverChanged, addr 0x5a55368, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnHoverChanged, addr 0x5a59824, size 0x4, virtual true, abstract: false, final false
   inline void OnHoverChanged();
 
-  /// @brief Method OnPointerClick, addr 0x5a5a994, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x5a5ee50, size 0x4, virtual true, abstract: false, final false
   inline void OnPointerClick();
 
-  /// @brief Method OnPointerEnter, addr 0x5a5a958, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x5a5ee14, size 0x20, virtual false, abstract: false, final false
   inline void OnPointerEnter();
 
-  /// @brief Method OnPointerExit, addr 0x5a5a978, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerExit, addr 0x5a5ee34, size 0x1c, virtual false, abstract: false, final false
   inline void OnPointerExit();
 
-  /// @brief Method PlayHaptics, addr 0x5a5536c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PlayHaptics, addr 0x5a59828, size 0x134, virtual false, abstract: false, final false
   inline void PlayHaptics(::GlobalNamespace::OVRHapticsClip* hapticsClip);
 
-  /// @brief Method Setup, addr 0x5a55784, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a59c40, size 0x80, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::PointerHandler> const& __cordl_internal_get__handler() const;
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set__hover(bool value);
 
-  /// @brief Method .ctor, addr 0x5a554ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a59968, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Hover, addr 0x5a5a92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hover, addr 0x5a5ede8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Hover();
 
-  /// @brief Method set_Hover, addr 0x5a5a934, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_Hover, addr 0x5a5edf0, size 0x24, virtual false, abstract: false, final false
   inline void set_Hover(bool value);
 
 protected:
@@ -95,7 +95,7 @@ public:
   InteractableController(InteractableController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18411 };
 
   /// @brief Field _handler, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::PointerHandler> ____handler;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ShadowDrawingSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ShadowDrawingSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,22 +38,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ShadowDrawingSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ShadowDrawingSettings>*();
 
-  /// @brief Method Equals, addr 0x6b20a78, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b285fc, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b20790, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b28314, size 0x170, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ShadowDrawingSettings other);
 
-  /// @brief Method GetHashCode, addr 0x6b20b34, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b286b8, size 0xc0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6b20614, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b28198, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CullingResults cullingResults, int32_t lightIndex);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ShadowDrawingSettings>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ShadowDrawingSettings>* i___System__IEquatable_1___UnityEngine__Rendering__ShadowDrawingSettings_();
 
-  /// @brief Method set_useRenderingLayerMaskTest, addr 0x6b20608, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useRenderingLayerMaskTest, addr 0x6b2818c, size 0xc, virtual false, abstract: false, final false
   inline void set_useRenderingLayerMaskTest(bool value);
 
   // Ctor Parameters []
@@ -70,7 +70,7 @@ public:
                                   ::UnityEngine::Rendering::BatchCullingProjectionType m_ProjectionType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10832 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x128 };

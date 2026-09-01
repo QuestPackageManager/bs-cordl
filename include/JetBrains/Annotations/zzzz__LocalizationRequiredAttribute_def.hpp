@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/LocalizationRequiredAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\LocalizationRequiredAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__Required_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6e3636c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3def0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6e36378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3defc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool required);
 
-  /// @brief Method get_Required, addr 0x6e36380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Required, addr 0x6e3df04, size 0x8, virtual false, abstract: false, final false
   inline bool get_Required();
 
-  /// @brief Method set_Required, addr 0x6e36388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Required, addr 0x6e3df0c, size 0x8, virtual false, abstract: false, final false
   inline void set_Required(bool value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   LocalizationRequiredAttribute(LocalizationRequiredAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22546 };
 
   /// @brief Field <Required>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Required_k__BackingField;

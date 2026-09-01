@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/LiteralDataPacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\LiteralDataPacket.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__InputStreamPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__LiteralDataPacket_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::LiteralDataPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::LiteralDataPacket::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3697a38;
+  constexpr static std::size_t addrs = 0x369b7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::LiteralDataPacket::*)()>(&::Org::BouncyCastle::Bcpg::LiteralDataPacket::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369a9a8;
+  constexpr static std::size_t addrs = 0x369e768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::LiteralDataPacket*>(), { "get_Format", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Bcpg::LiteralDataPacket::*)()>(&::Org::BouncyCastle::Bcpg::LiteralDataPacket::get_ModificationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369a9b0;
+  constexpr static std::size_t addrs = 0x369e770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::LiteralDataPacket*>(), { "get_ModificationTime", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::LiteralDataPacket::*)()>(&::Org::BouncyCastle::Bcpg::LiteralDataPacket::get_FileName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x369a9b8;
+  constexpr static std::size_t addrs = 0x369e778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::LiteralDataPacket*>(), { "get_FileName", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::LiteralDataPacket::*)()>(&::Org::BouncyCastle::Bcpg::LiteralDataPacket::GetRawFileName)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x369a9c4;
+  constexpr static std::size_t addrs = 0x369e784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::LiteralDataPacket*>(), { "GetRawFileName", {}, {} })));

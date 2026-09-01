@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/GraphicsBufferHandle.hpp"
+// IWYU pragma private; include "UnityEngine\GraphicsBufferHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>*();
 
-  /// @brief Method Equals, addr 0x6a99318, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6aa0d30, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6a99394, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6aa0dac, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::GraphicsBufferHandle other);
 
-  /// @brief Method GetHashCode, addr 0x6a99310, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6aa0d28, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>"
@@ -49,7 +49,7 @@ public:
   constexpr GraphicsBufferHandle(uint32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10162 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

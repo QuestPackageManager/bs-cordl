@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionGameplaySceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionGameplaySceneSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*> value);
 
-  /// @brief Method .ctor, addr 0x596ee38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5972700, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey,
                     ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText);
 
@@ -112,7 +112,7 @@ public:
   MissionGameplaySceneSetupData(MissionGameplaySceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7027 };
 
   /// @brief Field missionObjectives, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjective*> ___missionObjectives;

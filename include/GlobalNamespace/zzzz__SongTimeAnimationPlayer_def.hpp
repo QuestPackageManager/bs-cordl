@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SongTimeAnimationPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace\SongTimeAnimationPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::SongTimeAnimationPlayer* New_ctor();
 
-  /// @brief Method Update, addr 0x58bc040, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58bb9a8, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__animationClip() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  /// @brief Method .ctor, addr 0x58bc09c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bba04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

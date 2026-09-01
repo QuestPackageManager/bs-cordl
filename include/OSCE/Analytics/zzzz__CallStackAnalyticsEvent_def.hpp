@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Analytics/CallStackAnalyticsEvent.hpp"
+// IWYU pragma private; include "OSCE\Analytics\CallStackAnalyticsEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,18 +38,18 @@ public:
   /// @brief Field event_message, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_event_message, put = __cordl_internal_set_event_message)) ::StringW event_message;
 
-  /// @brief Method ApplyBasicFields, addr 0x5f35320, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ApplyBasicFields, addr 0x5f3978c, size 0x34, virtual true, abstract: false, final false
   inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
 
-  /// @brief Method GetIDType, addr 0x5f35318, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIDType, addr 0x5f39784, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IDType GetIDType();
 
   static inline ::OSCE::Analytics::CallStackAnalyticsEvent* New_ctor();
 
-  /// @brief Method ReturnEventToPool, addr 0x5f353c0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReturnEventToPool, addr 0x5f3982c, size 0x74, virtual true, abstract: false, final false
   inline void ReturnEventToPool();
 
-  /// @brief Method ReturnedToPool, addr 0x5f35434, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ReturnedToPool, addr 0x5f398a0, size 0x58, virtual true, abstract: false, final false
   inline void ReturnedToPool();
 
   constexpr ::StringW const& __cordl_internal_get_build_id() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_event_message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f35510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3997c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   CallStackAnalyticsEvent(CallStackAnalyticsEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21901 };
 
   /// @brief Field build_id, offset: 0x48, size: 0x8, def value: None
   ::StringW ___build_id;

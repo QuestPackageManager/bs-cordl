@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SongRunningHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\SongRunningHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -17,9 +17,6 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(SongRunningHelper)
 namespace GlobalNamespace {
 class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollection;
 }
 namespace GlobalNamespace {
 struct BeatmapCharacteristic;
@@ -70,16 +67,16 @@ namespace GlobalNamespace {
 struct SongRunningHelper_QueuedSongParams;
 }
 namespace GlobalNamespace {
-class SongRunningHelper__StartLevel_d__14;
+class SongRunningHelper__StartLevel_d__13;
 }
 namespace GlobalNamespace {
-class SongRunningHelper___c__DisplayClass14_0;
+class SongRunningHelper___c__DisplayClass13_0;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupData;
 }
 namespace GlobalNamespace {
-class __c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d;
+class __c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -110,13 +107,13 @@ namespace GlobalNamespace {
 class SongRunningHelper_MessageStrings;
 }
 namespace GlobalNamespace {
-class SongRunningHelper__StartLevel_d__14;
+class SongRunningHelper__StartLevel_d__13;
 }
 namespace GlobalNamespace {
-class SongRunningHelper___c__DisplayClass14_0;
+class SongRunningHelper___c__DisplayClass13_0;
 }
 namespace GlobalNamespace {
-class __c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d;
+class __c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d;
 }
 namespace GlobalNamespace {
 struct SongRunningHelper_QueuedSongParams;
@@ -124,16 +121,16 @@ struct SongRunningHelper_QueuedSongParams;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SongRunningHelper*);
 MARK_REF_T(::GlobalNamespace::SongRunningHelper_MessageStrings*);
-MARK_REF_T(::GlobalNamespace::SongRunningHelper__StartLevel_d__14*);
-MARK_REF_T(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*);
-MARK_REF_T(::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*);
+MARK_REF_T(::GlobalNamespace::SongRunningHelper__StartLevel_d__13*);
+MARK_REF_T(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*);
+MARK_REF_T(::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*);
 MARK_VAL_T(::GlobalNamespace::SongRunningHelper_QueuedSongParams);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongRunningHelper*, "", "SongRunningHelper");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongRunningHelper_MessageStrings*, "", "SongRunningHelper/MessageStrings");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongRunningHelper__StartLevel_d__14*, "", "SongRunningHelper/<StartLevel>d__14");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*, "", "SongRunningHelper/<>c__DisplayClass14_0");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*, "",
-                    "SongRunningHelper/<>c__DisplayClass14_0/<<StartLevel>g__WatchPlayDuration|3>d");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongRunningHelper__StartLevel_d__13*, "", "SongRunningHelper/<StartLevel>d__13");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*, "", "SongRunningHelper/<>c__DisplayClass13_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d*, "",
+                    "SongRunningHelper/<>c__DisplayClass13_0/<<StartLevel>g__WatchPlayDuration|3>d");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SongRunningHelper_QueuedSongParams, "", "SongRunningHelper/QueuedSongParams");
 // Dependencies System.Object
 namespace GlobalNamespace {
@@ -199,7 +196,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SongRunningHelper_QueuedSongParams {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x58bd54c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bceb4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, bool advancedHud,
                     ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong,
                     ::StringW reportDescriptor, bool zenMode, bool disablePause,
@@ -315,8 +312,8 @@ static_assert(sizeof(::GlobalNamespace::SongRunningHelper_QueuedSongParams) == 0
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: SongRunningHelper/<>c__DisplayClass14_0/<<StartLevel>g__WatchPlayDuration|3>d
-class CORDL_TYPE __c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d : public ::System::Object {
+// CS Name: SongRunningHelper/<>c__DisplayClass13_0/<<StartLevel>g__WatchPlayDuration|3>d
+class CORDL_TYPE __c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -330,7 +327,7 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* __4__this;
 
   /// @brief Field <targetSongTime>5__2, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__targetSongTime_5__2, put = __cordl_internal_set__targetSongTime_5__2)) float_t _targetSongTime_5__2;
@@ -344,21 +341,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58bdfb4, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58bd914, size 0x1e0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58be194, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58bdaf4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58be19c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58bdafc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58be1d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58bdb34, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x58bdfb0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x58bd910, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -369,9 +366,9 @@ public:
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* const& __cordl_internal_get___4__this() const;
+  constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* const& __cordl_internal_get___4__this() const;
 
-  constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*& __cordl_internal_get___4__this();
+  constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*& __cordl_internal_get___4__this();
 
   constexpr float_t const& __cordl_internal_get__targetSongTime_5__2() const;
 
@@ -381,11 +378,11 @@ public:
 
   constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* value);
 
   constexpr void __cordl_internal_set__targetSongTime_5__2(float_t value);
 
-  /// @brief Method .ctor, addr 0x58bdfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bd908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -400,16 +397,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d();
+  constexpr __c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d(__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d&&) = delete;
+  __c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d(__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d(__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d const&) = delete;
+  __c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d(__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5593 };
@@ -421,7 +418,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* _____4__this;
+  ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* _____4__this;
 
   /// @brief Field <targetSongTime>5__2, offset: 0x28, size: 0x4, def value: None
   float_t ____targetSongTime_5__2;
@@ -429,25 +426,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d, ____targetSongTime_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d, ____targetSongTime_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d) == 0x30, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies SongRunningHelper::QueuedSongParams, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: SongRunningHelper/<>c__DisplayClass14_0
-class CORDL_TYPE SongRunningHelper___c__DisplayClass14_0 : public ::System::Object {
+// CS Name: SongRunningHelper/<>c__DisplayClass13_0
+class CORDL_TYPE SongRunningHelper___c__DisplayClass13_0 : public ::System::Object {
 public:
   // Declarations
-  using __StartLevel_g__WatchPlayDuration_3_d = ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d;
+  using __StartLevel_g__WatchPlayDuration_3_d = ::GlobalNamespace::__c__DisplayClass13_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d;
 
   /// @brief Field <>4__this, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::SongRunningHelper* __4__this;
@@ -474,19 +471,19 @@ public:
   /// @brief Field queuedSongParams, offset 0x38, size 0x50
   __declspec(property(get = __cordl_internal_get_queuedSongParams, put = __cordl_internal_set_queuedSongParams)) ::GlobalNamespace::SongRunningHelper_QueuedSongParams queuedSongParams;
 
-  static inline ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* New_ctor();
+  static inline ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <StartLevel>g__HandleLevelDidFinishCallback|0, addr 0x58bd5a0, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleLevelDidFinishCallback|0, addr 0x58bcf08, size 0x444, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleLevelDidFinishCallback_0(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransition,
                                                             ::GlobalNamespace::LevelCompletionResults* results);
 
-  /// @brief Method <StartLevel>g__HandleLevelEnded|2, addr 0x58bdc1c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleLevelEnded|2, addr 0x58bd57c, size 0x338, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleLevelEnded_2();
 
-  /// @brief Method <StartLevel>g__HandleStateChanged|1, addr 0x58bd9ec, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleStateChanged|1, addr 0x58bd34c, size 0x230, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleStateChanged_1();
 
-  /// @brief Method <StartLevel>g__WatchPlayDuration|3, addr 0x58bdf54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__WatchPlayDuration|3, addr 0x58bd8b4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* _StartLevel_g__WatchPlayDuration_3();
 
   constexpr ::GlobalNamespace::SongRunningHelper* const& __cordl_internal_get___4__this() const;
@@ -537,22 +534,22 @@ public:
 
   constexpr void __cordl_internal_set_queuedSongParams(::GlobalNamespace::SongRunningHelper_QueuedSongParams value);
 
-  /// @brief Method .ctor, addr 0x58bd59c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bcf04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SongRunningHelper___c__DisplayClass14_0();
+  constexpr SongRunningHelper___c__DisplayClass13_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper___c__DisplayClass14_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper___c__DisplayClass13_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SongRunningHelper___c__DisplayClass14_0(SongRunningHelper___c__DisplayClass14_0&&) = delete;
+  SongRunningHelper___c__DisplayClass13_0(SongRunningHelper___c__DisplayClass13_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper___c__DisplayClass14_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper___c__DisplayClass13_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongRunningHelper___c__DisplayClass14_0(SongRunningHelper___c__DisplayClass14_0 const&) = delete;
+  SongRunningHelper___c__DisplayClass13_0(SongRunningHelper___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5594 };
@@ -584,30 +581,30 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0, ___audioPlayingLogged) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0, ___audioPlayingLogged) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0, ___audioTimeSyncController) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0, ___audioTimeSyncController) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0, ___modifiers) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0, ___modifiers) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0, ___levelEndedHandled) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0, ___levelEndedHandled) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0, ___queuedSongParams) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0, ___queuedSongParams) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0, ___pauseController) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0, ___pauseController) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0, ___levelEndActions) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0, ___levelEndActions) == 0x90, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0) == 0x98, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0) == 0x98, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies SongRunningHelper::QueuedSongParams, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: SongRunningHelper/<StartLevel>d__14
-class CORDL_TYPE SongRunningHelper__StartLevel_d__14 : public ::System::Object {
+// CS Name: SongRunningHelper/<StartLevel>d__13
+class CORDL_TYPE SongRunningHelper__StartLevel_d__13 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -624,7 +621,7 @@ public:
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::SongRunningHelper* __4__this;
 
   /// @brief Field <>8__1, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1)) ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* __8__1;
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1)) ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* __8__1;
 
   /// @brief Field queuedSongParams, offset 0x28, size 0x50
   __declspec(property(get = __cordl_internal_get_queuedSongParams, put = __cordl_internal_set_queuedSongParams)) ::GlobalNamespace::SongRunningHelper_QueuedSongParams queuedSongParams;
@@ -638,21 +635,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58be1e0, size 0xa78, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58bdb40, size 0xa78, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::SongRunningHelper__StartLevel_d__14* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::SongRunningHelper__StartLevel_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58bec58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58be5b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58bec60, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58be5c0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58bec98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58be5f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x58be1dc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x58bdb3c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -667,9 +664,9 @@ public:
 
   constexpr ::GlobalNamespace::SongRunningHelper*& __cordl_internal_get___4__this();
 
-  constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* const& __cordl_internal_get___8__1() const;
+  constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* const& __cordl_internal_get___8__1() const;
 
-  constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0*& __cordl_internal_get___8__1();
+  constexpr ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0*& __cordl_internal_get___8__1();
 
   constexpr ::GlobalNamespace::SongRunningHelper_QueuedSongParams const& __cordl_internal_get_queuedSongParams() const;
 
@@ -681,11 +678,11 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper* value);
 
-  constexpr void __cordl_internal_set___8__1(::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* value);
+  constexpr void __cordl_internal_set___8__1(::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* value);
 
   constexpr void __cordl_internal_set_queuedSongParams(::GlobalNamespace::SongRunningHelper_QueuedSongParams value);
 
-  /// @brief Method .ctor, addr 0x58bd3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bcd18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -700,16 +697,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SongRunningHelper__StartLevel_d__14();
+  constexpr SongRunningHelper__StartLevel_d__13();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper__StartLevel_d__14", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper__StartLevel_d__13", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SongRunningHelper__StartLevel_d__14(SongRunningHelper__StartLevel_d__14&&) = delete;
+  SongRunningHelper__StartLevel_d__13(SongRunningHelper__StartLevel_d__13&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper__StartLevel_d__14", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongRunningHelper__StartLevel_d__13", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SongRunningHelper__StartLevel_d__14(SongRunningHelper__StartLevel_d__14 const&) = delete;
+  SongRunningHelper__StartLevel_d__13(SongRunningHelper__StartLevel_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5595 };
@@ -727,22 +724,22 @@ public:
   ::GlobalNamespace::SongRunningHelper_QueuedSongParams ___queuedSongParams;
 
   /// @brief Field <>8__1, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* _____8__1;
+  ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0* _____8__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper__StartLevel_d__14, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper__StartLevel_d__13, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper__StartLevel_d__14, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper__StartLevel_d__13, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper__StartLevel_d__14, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper__StartLevel_d__13, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper__StartLevel_d__14, ___queuedSongParams) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper__StartLevel_d__13, ___queuedSongParams) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper__StartLevel_d__14, _____8__1) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper__StartLevel_d__13, _____8__1) == 0x78, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SongRunningHelper__StartLevel_d__14) == 0x80, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SongRunningHelper__StartLevel_d__13) == 0x80, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies SongRunningHelper::QueuedSongParams, System.Nullable`1<T>, System.Object
@@ -756,61 +753,53 @@ public:
 
   using QueuedSongParams = ::GlobalNamespace::SongRunningHelper_QueuedSongParams;
 
-  using _StartLevel_d__14 = ::GlobalNamespace::SongRunningHelper__StartLevel_d__14;
+  using _StartLevel_d__13 = ::GlobalNamespace::SongRunningHelper__StartLevel_d__13;
 
-  using __c__DisplayClass14_0 = ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0;
+  using __c__DisplayClass13_0 = ::GlobalNamespace::SongRunningHelper___c__DisplayClass13_0;
 
   __declspec(property(get = get_SongsRunning)) bool SongsRunning;
 
-  /// @brief Field _beatmapCharacteristics, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCharacteristics,
-                      put = __cordl_internal_set__beatmapCharacteristics)) ::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristics;
-
-  /// @brief Field _beatmapLevels, offset 0x20, size 0x8
+  /// @brief Field _beatmapLevels, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevels, put = __cordl_internal_set__beatmapLevels)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevels;
 
-  /// @brief Field _coroutineStarter, offset 0x38, size 0x8
+  /// @brief Field _coroutineStarter, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter)) ::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
 
-  /// @brief Field _current, offset 0x48, size 0x58
+  /// @brief Field _current, offset 0x40, size 0x58
   __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) ::System::Nullable_1<::GlobalNamespace::SongRunningHelper_QueuedSongParams> _current;
 
-  /// @brief Field _environmentsListModel, offset 0x28, size 0x8
+  /// @brief Field _environmentsListModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentsListModel, put = __cordl_internal_set__environmentsListModel)) ::GlobalNamespace::EnvironmentsListModel* _environmentsListModel;
 
-  /// @brief Field _gameScenesManager, offset 0x30, size 0x8
+  /// @brief Field _gameScenesManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Field _menuTransitionsHelper, offset 0x18, size 0x8
+  /// @brief Field _menuTransitionsHelper, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
 
-  /// @brief Field _playQueue, offset 0x40, size 0x8
+  /// @brief Field _playQueue, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__playQueue,
                       put = __cordl_internal_set__playQueue)) ::System::Collections::Generic::Queue_1<::GlobalNamespace::SongRunningHelper_QueuedSongParams>* _playQueue;
 
-  /// @brief Method EnqueueLevel, addr 0x58bd108, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method EnqueueLevel, addr 0x58bca70, size 0x230, virtual false, abstract: false, final false
   inline bool EnqueueLevel(::GlobalNamespace::SongRunningHelper_QueuedSongParams queuedSongParams);
 
-  /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x58bcef0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x58bc858, size 0x218, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapLevel*> FindBeatmapLevelPackBeatmaps(::StringW packId, bool ignoreCase);
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x58bd3b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x58bcd20, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
   static inline ::GlobalNamespace::SongRunningHelper* New_ctor();
 
-  /// @brief Method StartLevel, addr 0x58bd338, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x58bcca0, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevel(::GlobalNamespace::SongRunningHelper_QueuedSongParams queuedSongParams);
 
-  /// @brief Method StopAllLevels, addr 0x58bd3d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StopAllLevels, addr 0x58bcd3c, size 0xa0, virtual false, abstract: false, final false
   inline void StopAllLevels();
 
-  /// @brief Method StopCurrentLevel, addr 0x58bd474, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method StopCurrentLevel, addr 0x58bcddc, size 0x64, virtual false, abstract: false, final false
   inline void StopCurrentLevel();
-
-  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristics() const;
-
-  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristics();
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevels() const;
 
@@ -840,8 +829,6 @@ public:
 
   constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::SongRunningHelper_QueuedSongParams>*& __cordl_internal_get__playQueue();
 
-  constexpr void __cordl_internal_set__beatmapCharacteristics(::GlobalNamespace::BeatmapCharacteristicCollection* value);
-
   constexpr void __cordl_internal_set__beatmapLevels(::GlobalNamespace::BeatmapLevelsModel* value);
 
   constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
@@ -856,10 +843,10 @@ public:
 
   constexpr void __cordl_internal_set__playQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::SongRunningHelper_QueuedSongParams>* value);
 
-  /// @brief Method .ctor, addr 0x58bd4d8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bce40, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SongsRunning, addr 0x58bceac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_SongsRunning, addr 0x58bc814, size 0x44, virtual false, abstract: false, final false
   inline bool get_SongsRunning();
 
 protected:
@@ -879,49 +866,44 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5596 };
 
-  /// @brief Field _beatmapCharacteristics, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristics;
-
-  /// @brief Field _menuTransitionsHelper, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _menuTransitionsHelper, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
-  /// @brief Field _beatmapLevels, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _beatmapLevels, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevels;
 
-  /// @brief Field _environmentsListModel, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _environmentsListModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
 
-  /// @brief Field _gameScenesManager, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _gameScenesManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
-  /// @brief Field _coroutineStarter, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _coroutineStarter, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 
-  /// @brief Field _playQueue, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _playQueue, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<::GlobalNamespace::SongRunningHelper_QueuedSongParams>* ____playQueue;
 
-  /// @brief Field _current, offset: 0x48, size: 0x58, def value: None
+  /// @brief Field _current, offset: 0x40, size: 0x58, def value: None
   ::System::Nullable_1<::GlobalNamespace::SongRunningHelper_QueuedSongParams> ____current;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____beatmapCharacteristics) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____menuTransitionsHelper) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____menuTransitionsHelper) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____beatmapLevels) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____beatmapLevels) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____environmentsListModel) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____environmentsListModel) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____gameScenesManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____gameScenesManager) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____coroutineStarter) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____coroutineStarter) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____playQueue) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____playQueue) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____current) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongRunningHelper, ____current) == 0x48, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::SongRunningHelper) == 0xa0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SongRunningHelper) == 0x98, "Size mismatch!");
 
 } // namespace GlobalNamespace

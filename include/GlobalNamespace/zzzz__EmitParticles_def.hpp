@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EmitParticles.hpp"
+// IWYU pragma private; include "GlobalNamespace\EmitParticles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   /// @brief Field _particleSystem, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  /// @brief Method Emit, addr 0x597d7d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x598116c, size 0x14, virtual false, abstract: false, final false
   inline void Emit(int32_t count);
 
   static inline ::GlobalNamespace::EmitParticles* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  /// @brief Method .ctor, addr 0x597d7ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5981180, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

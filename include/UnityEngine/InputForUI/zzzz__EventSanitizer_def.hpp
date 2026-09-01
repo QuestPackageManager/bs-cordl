@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/EventSanitizer.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\EventSanitizer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
   EventSanitizer_IEventSanitizer(EventSanitizer_IEventSanitizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -63,16 +63,16 @@ public:
   // Declarations
   using IEventSanitizer = ::UnityEngine::InputForUI::EventSanitizer_IEventSanitizer;
 
-  /// @brief Method AfterProviderUpdate, addr 0x6b543a0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AfterProviderUpdate, addr 0x6b5bf24, size 0xfc, virtual false, abstract: false, final false
   inline void AfterProviderUpdate();
 
-  /// @brief Method BeforeProviderUpdate, addr 0x6b542a4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method BeforeProviderUpdate, addr 0x6b5be28, size 0xfc, virtual false, abstract: false, final false
   inline void BeforeProviderUpdate();
 
-  /// @brief Method Inspect, addr 0x6b53dfc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Inspect, addr 0x6b5b980, size 0x104, virtual false, abstract: false, final false
   inline void Inspect(::by_ref<::UnityEngine::InputForUI::Event> ev);
 
-  /// @brief Method Reset, addr 0x6b53f00, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b5ba84, size 0x110, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []
@@ -83,7 +83,7 @@ public:
   constexpr EventSanitizer(::ArrayW<::UnityEngine::InputForUI::EventSanitizer_IEventSanitizer*> _sanitizers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21837 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

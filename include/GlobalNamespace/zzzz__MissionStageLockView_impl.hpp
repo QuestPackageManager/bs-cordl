@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionStageLockView.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionStageLockView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionStageLockView_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStageLockView::*)(float_t, bool, float_t)>(&::GlobalNamespace::MissionStageLockView::UpdateLocalPositionY)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5939f9c;
+  constexpr static std::size_t addrs = 0x593da20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStageLockView::*)()>(&::GlobalNamespace::MissionStageLockView::Update)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x593a024;
+  constexpr static std::size_t addrs = 0x593daa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionStageLockView*>(), { "Update", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStageLockView::*)(::StringW)>(&::GlobalNamespace::MissionStageLockView::UpdateStageLockText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x593a11c;
+  constexpr static std::size_t addrs = 0x593dba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStageLockView::*)()>(&::GlobalNamespace::MissionStageLockView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593a13c;
+  constexpr static std::size_t addrs = 0x593dbc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionStageLockView*>(), { ".ctor", {}, {} })));

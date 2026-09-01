@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Parametric3SliceSpriteController.hpp"
+// IWYU pragma private; include "GlobalNamespace\Parametric3SliceSpriteController.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Parametric3SliceSpriteController_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(&::GlobalNamespace::Parametric3SliceSpriteController::get_useCollision)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5866f94;
+  constexpr static std::size_t addrs = 0x5865f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteController*>(), { "get_useCollision", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)(bool)>(&::GlobalNamespace::Parametric3SliceSpriteController::set_useCollision)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5866f9c;
+  constexpr static std::size_t addrs = 0x5865f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(&::GlobalNamespace::Parametric3SliceSpriteController::get_collisionLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5866fa4;
+  constexpr static std::size_t addrs = 0x5865f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)(float_t)>(
     &::GlobalNamespace::Parametric3SliceSpriteController::set_collisionLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5866fac;
+  constexpr static std::size_t addrs = 0x5865f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(&::GlobalNamespace::Parametric3SliceSpriteController::Awake)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5866fb4;
+  constexpr static std::size_t addrs = 0x5865f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteController*>(), { "Awake", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(&::GlobalNamespace::Parametric3SliceSpriteController::Start)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5867524;
+  constexpr static std::size_t addrs = 0x58664c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteController*>(), { "Start", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(&::GlobalNamespace::Parametric3SliceSpriteController::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5867598;
+  constexpr static std::size_t addrs = 0x586653c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteController*>(), { "OnEnable", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(&::GlobalNamespace::Parametric3SliceSpriteController::OnDisable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58675b4;
+  constexpr static std::size_t addrs = 0x5866558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteController*>(), { "OnDisable", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(&::GlobalNamespace::Parametric3SliceSpriteController::OnDestroy)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x58675d0;
+  constexpr static std::size_t addrs = 0x5866574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteController*>(), { "OnDestroy", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(&::GlobalNamespace::Parametric3SliceSpriteController::InitIfNeeded)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5867120;
+  constexpr static std::size_t addrs = 0x58660c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteController*>(), { "InitIfNeeded", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::CreateMesh)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x5867254;
+  constexpr static std::size_t addrs = 0x58661f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteController*>(), { "CreateMesh", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(&::GlobalNamespace::Parametric3SliceSpriteController::Refresh)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x5867698;
+  constexpr static std::size_t addrs = 0x586663c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteController*>(), { "Refresh", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(&::GlobalNamespace::Parametric3SliceSpriteController::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5867890;
+  constexpr static std::size_t addrs = 0x5866834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceSpriteController*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/SequenceNode.hpp"
+// IWYU pragma private; include "System\Xml\Schema\SequenceNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ namespace System::Xml::Schema {
 struct CORDL_TYPE SequenceNode_SequenceConstructPosContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6317a24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631f4a0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::SequenceNode* node, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos);
 
   // Ctor Parameters []
@@ -55,7 +55,7 @@ public:
                                                      ::System::Xml::Schema::BitSet* lastposLeft, ::System::Xml::Schema::BitSet* firstposRight) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9593 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -102,18 +102,18 @@ public:
 
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x63176b4, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x631f130, size 0x370, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x6317b9c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x631f618, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::SequenceNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6317ba0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631f61c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x6317a34, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x631f4b0, size 0x168, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:
@@ -131,7 +131,7 @@ public:
   SequenceNode(SequenceNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/SpriteCharacter.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\SpriteCharacter.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__SpriteCharacter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::SpriteCharacter.get_name
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::Text::SpriteCharacter::*)()>(&::UnityEngine::TextCore::Text::SpriteCharacter::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bf886c;
+  constexpr static std::size_t addrs = 0x6c003f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::SpriteCharacter*>(), { "get_name", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::SpriteCharacter::*)()>(&::UnityEngine::TextCore::Text::SpriteCharacter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6bf9770;
+  constexpr static std::size_t addrs = 0x6c012f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::SpriteCharacter*>(), { ".ctor", {}, {} })));

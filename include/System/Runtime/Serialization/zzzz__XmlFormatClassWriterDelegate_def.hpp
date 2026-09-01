@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/XmlFormatClassWriterDelegate.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\XmlFormatClassWriterDelegate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE XmlFormatClassWriterDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x615cb90, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x616460c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context,
                      ::System::Runtime::Serialization::ClassDataContract* dataContract);
 
   static inline ::System::Runtime::Serialization::XmlFormatClassWriterDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x615ca48, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61644c4, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -58,7 +58,7 @@ public:
   XmlFormatClassWriterDelegate(XmlFormatClassWriterDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

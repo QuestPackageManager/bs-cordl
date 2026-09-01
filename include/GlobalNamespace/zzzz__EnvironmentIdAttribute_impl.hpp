@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnvironmentIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnvironmentIdAttribute.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentIdFilter_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentIdAttribute_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentIdAttribute::*)(::StringW, ::GlobalNamespace::EnvironmentIdFilter)>(
     &::GlobalNamespace::EnvironmentIdAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x37299d8;
+  constexpr static std::size_t addrs = 0x372f63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

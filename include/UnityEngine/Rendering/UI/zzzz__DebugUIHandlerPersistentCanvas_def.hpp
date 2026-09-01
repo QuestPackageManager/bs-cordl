@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerPersistentCanvas.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerPersistentCanvas.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <Toggle>b__0, addr 0x67fdfcc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Toggle>b__0, addr 0x6805a48, size 0x20, virtual false, abstract: false, final false
   inline bool _Toggle_b__0(::UnityEngine::Rendering::UI::DebugUIHandlerValue* x);
 
   constexpr ::UnityEngine::Rendering::DebugUI_Value* const& __cordl_internal_get_widget() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_widget(::UnityEngine::Rendering::DebugUI_Value* value);
 
-  /// @brief Method .ctor, addr 0x67fd990, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x680540c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   DebugUIHandlerPersistentCanvas___c__DisplayClass3_0(DebugUIHandlerPersistentCanvas___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12532 };
 
   /// @brief Field widget, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugUI_Value* ___widget;
@@ -113,7 +113,7 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <Toggle>b__0, addr 0x67fdfec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Toggle>b__0, addr 0x6805a68, size 0x10, virtual false, abstract: false, final false
   inline bool _Toggle_b__0(::UnityEngine::Rendering::DebugUI_ValueTuple* x);
 
   constexpr ::UnityEngine::Rendering::DebugUI_ValueTuple* const& __cordl_internal_get_widget() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_widget(::UnityEngine::Rendering::DebugUI_ValueTuple* value);
 
-  /// @brief Method .ctor, addr 0x67fdd18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6805794, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   DebugUIHandlerPersistentCanvas___c__DisplayClass5_0(DebugUIHandlerPersistentCanvas___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12533 };
 
   /// @brief Field widget, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugUI_ValueTuple* ___widget;
@@ -178,18 +178,18 @@ public:
   /// @brief Field valuePrefab, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_valuePrefab, put = __cordl_internal_set_valuePrefab)) ::UnityW<::UnityEngine::RectTransform> valuePrefab;
 
-  /// @brief Method Clear, addr 0x67fdd74, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x68057f0, size 0x198, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method IsEmpty, addr 0x67fdd1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x6805798, size 0x58, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas* New_ctor();
 
-  /// @brief Method Toggle, addr 0x67fd6a8, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Toggle, addr 0x6805124, size 0x2e8, virtual false, abstract: false, final false
   inline void Toggle(::UnityEngine::Rendering::DebugUI_Value* widget, ::StringW displayName);
 
-  /// @brief Method Toggle, addr 0x67fd994, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method Toggle, addr 0x6805410, size 0x384, virtual false, abstract: false, final false
   inline void Toggle(::UnityEngine::Rendering::DebugUI_ValueTuple* widget, ::System::Nullable_1<int32_t> forceTupleIndex);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerValue>>* const& __cordl_internal_get_m_Items() const;
@@ -216,7 +216,7 @@ public:
 
   constexpr void __cordl_internal_set_valuePrefab(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x67fdf0c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6805988, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -234,7 +234,7 @@ public:
   DebugUIHandlerPersistentCanvas(DebugUIHandlerPersistentCanvas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12534 };
 
   /// @brief Field panel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___panel;

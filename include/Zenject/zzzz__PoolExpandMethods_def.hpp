@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/PoolExpandMethods.hpp"
+// IWYU pragma private; include "Zenject\PoolExpandMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   static ::Zenject::PoolExpandMethods const OneAtATime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14304 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

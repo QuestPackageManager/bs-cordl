@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Changelog.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Changelog.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Changelog_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>* (
     ::UnityEngine::ProBuilder::Changelog::*)()>(&::UnityEngine::ProBuilder::Changelog::get_entries)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x66b0640;
+  constexpr static std::size_t addrs = 0x66b80bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Changelog*>(), { "get_entries", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Changelog::*)(::StringW)>(&::UnityEngine::ProBuilder::Changelog::_ctor)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x66b06b8;
+  constexpr static std::size_t addrs = 0x66b8134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::ChangelogEntry* (::UnityEngine::ProBuilder::Changelog::*)(::StringW, ::StringW)>(
     &::UnityEngine::ProBuilder::Changelog::CreateEntry)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x66b09a8;
+  constexpr static std::size_t addrs = 0x66b8424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

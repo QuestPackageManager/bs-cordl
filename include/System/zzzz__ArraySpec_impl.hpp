@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ArraySpec.hpp"
+// IWYU pragma private; include "System\ArraySpec.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ArraySpec_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ArraySpec::*)(int32_t, bool)>(&::System::ArraySpec::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c9a3bc;
+  constexpr static std::size_t addrs = 0x5c9e878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ArraySpec::*)(::System::Type*)>(&::System::ArraySpec::Resolve)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c9a3c8;
+  constexpr static std::size_t addrs = 0x5c9e884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ArraySpec*>(), { "Resolve", {}, { ::i2c::type_of<::System::Type*>() } })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::StringBuilder* (::System::ArraySpec::*)(::System::Text::StringBuilder*)>(&::System::ArraySpec::Append)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c9a440;
+  constexpr static std::size_t addrs = 0x5c9e8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ArraySpec::*)()>(&::System::ArraySpec::ToString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c9a4ec;
+  constexpr static std::size_t addrs = 0x5c9e9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ArraySpec*>(), { ::i2c::class_of<::System::ArraySpec*>(), 3 }));

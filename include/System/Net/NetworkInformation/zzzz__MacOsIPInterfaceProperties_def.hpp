@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/MacOsIPInterfaceProperties.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\MacOsIPInterfaceProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,13 +38,13 @@ public:
   static inline ::System::Net::NetworkInformation::MacOsIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface,
                                                                                         ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method ParseRouteInfo_icall, addr 0x634e41c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo_icall, addr 0x6355e98, size 0x94, virtual false, abstract: false, final false
   static inline bool ParseRouteInfo_icall(::StringW iface, ::by_ref<::ArrayW<::StringW>> gw_addr_list);
 
-  /// @brief Method .ctor, addr 0x634e3b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6355e30, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method get_GatewayAddresses, addr 0x634e41c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x6355e98, size 0x94, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:
@@ -62,7 +62,7 @@ public:
   MacOsIPInterfaceProperties(MacOsIPInterfaceProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11702 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

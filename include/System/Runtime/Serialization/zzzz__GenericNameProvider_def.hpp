@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/GenericNameProvider.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\GenericNameProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,22 +51,22 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IGenericNameProvider"
   constexpr operator ::System::Runtime::Serialization::IGenericNameProvider*() noexcept;
 
-  /// @brief Method GetGenericTypeName, addr 0x61438d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetGenericTypeName, addr 0x614b354, size 0x8, virtual true, abstract: false, final true
   inline ::StringW GetGenericTypeName();
 
-  /// @brief Method GetNamespaces, addr 0x61437f4, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method GetNamespaces, addr 0x614b270, size 0xe4, virtual true, abstract: false, final true
   inline ::StringW GetNamespaces();
 
-  /// @brief Method GetNestedParameterCounts, addr 0x61435f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetNestedParameterCounts, addr 0x614b074, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<int32_t>* GetNestedParameterCounts();
 
-  /// @brief Method GetParameterCount, addr 0x61435e0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method GetParameterCount, addr 0x614b05c, size 0x18, virtual true, abstract: false, final true
   inline int32_t GetParameterCount();
 
-  /// @brief Method GetParameterName, addr 0x6143600, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method GetParameterName, addr 0x614b07c, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW GetParameterName(int32_t paramIndex);
 
-  /// @brief Method GetStableName, addr 0x614361c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetStableName, addr 0x614b098, size 0x1d8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* GetStableName(int32_t i);
 
   static inline ::System::Runtime::Serialization::GenericNameProvider* New_ctor(::StringW genericTypeName, ::ArrayW<::System::Object*> genericParams);
@@ -91,13 +91,13 @@ public:
 
   constexpr void __cordl_internal_set_nestedParamCounts(::System::Collections::Generic::IList_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x6143530, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614afac, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::StringW genericTypeName, ::ArrayW<::System::Object*> genericParams);
 
-  /// @brief Method .ctor, addr 0x613e248, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6145cc4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_ParametersFromBuiltInNamespaces, addr 0x61438e0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_ParametersFromBuiltInNamespaces, addr 0x614b35c, size 0x64, virtual true, abstract: false, final true
   inline bool get_ParametersFromBuiltInNamespaces();
 
   /// @brief Convert to "::System::Runtime::Serialization::IGenericNameProvider"
@@ -118,7 +118,7 @@ public:
   GenericNameProvider(GenericNameProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17017 };
 
   /// @brief Field genericTypeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___genericTypeName;

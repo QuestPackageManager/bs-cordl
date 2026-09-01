@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardsModel.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel_ScoreData::*)()>(&::GlobalNamespace::LocalLeaderboardsModel_ScoreData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3753fb8;
+  constexpr static std::size_t addrs = 0x375a48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>(), { ".ctor", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData::*)()>(&::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3753fb4;
+  constexpr static std::size_t addrs = 0x375a490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>(), { ".ctor", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel_SavedLeaderboardsData::*)()>(
     &::GlobalNamespace::LocalLeaderboardsModel_SavedLeaderboardsData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37547dc;
+  constexpr static std::size_t addrs = 0x375a494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel_SavedLeaderboardsData*>(), { ".ctor", {}, {} })));
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel___c::*)()>(&::GlobalNamespace::LocalLeaderboardsModel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3754834;
+  constexpr static std::size_t addrs = 0x375a4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel___c*>(), { ".ctor", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LocalLeaderboardsModel___c::*)(
     ::GlobalNamespace::LocalLeaderboardsModel_ScoreData*, ::GlobalNamespace::LocalLeaderboardsModel_ScoreData*)>(&::GlobalNamespace::LocalLeaderboardsModel___c::_AppendLeaderboardScores_b__21_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3754838;
+  constexpr static std::size_t addrs = 0x375a4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LocalLeaderboardsModel___c::*)(::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*)>(
     &::GlobalNamespace::LocalLeaderboardsModel___c::_MigrateQuestLeaderboards_b__22_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x375485c;
+  constexpr static std::size_t addrs = 0x375a514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LocalLeaderboardsModel___c::*)(::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*)>(
     &::GlobalNamespace::LocalLeaderboardsModel___c::_MigrateQuestLeaderboards_b__22_1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x37548b8;
+  constexpr static std::size_t addrs = 0x375a570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel__ClearAllLeaderboardsAsync_d__38::*)()>(
     &::GlobalNamespace::LocalLeaderboardsModel__ClearAllLeaderboardsAsync_d__38::MoveNext)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x37548c4;
+  constexpr static std::size_t addrs = 0x375a57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel__ClearAllLeaderboardsAsync_d__38::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::LocalLeaderboardsModel__ClearAllLeaderboardsAsync_d__38::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3754cf8;
+  constexpr static std::size_t addrs = 0x375a9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel__ClearAllLeaderboardsAsync_d__38>(),
@@ -363,8 +363,8 @@ constexpr ::GlobalNamespace::LocalLeaderboardsModel__ClearAllLeaderboardsAsync_d
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel__LoadAsync_d__39::*)()>(&::GlobalNamespace::LocalLeaderboardsModel__LoadAsync_d__39::MoveNext)> {
-  constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x3754d64;
+  constexpr static std::size_t size = 0x32c;
+  constexpr static std::size_t addrs = 0x375aa1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel__LoadAsync_d__39>(), { "MoveNext", {}, {} })));
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel__LoadAsync_d__39::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::LocalLeaderboardsModel__LoadAsync_d__39::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3755084;
+  constexpr static std::size_t addrs = 0x375ad48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel__LoadAsync_d__39>(),
@@ -421,8 +421,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel__LoadLeaderboardsDataAsync_d__16::*)()>(
     &::GlobalNamespace::LocalLeaderboardsModel__LoadLeaderboardsDataAsync_d__16::MoveNext)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x37550f0;
+  constexpr static std::size_t size = 0x280;
+  constexpr static std::size_t addrs = 0x375adb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel__LoadLeaderboardsDataAsync_d__16::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::LocalLeaderboardsModel__LoadLeaderboardsDataAsync_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x375536c;
+  constexpr static std::size_t addrs = 0x375b034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel__LoadLeaderboardsDataAsync_d__16>(),
@@ -484,8 +484,8 @@ constexpr ::GlobalNamespace::LocalLeaderboardsModel__LoadLeaderboardsDataAsync_d
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel__SaveAsync_d__23::*)()>(&::GlobalNamespace::LocalLeaderboardsModel__SaveAsync_d__23::MoveNext)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x37553ec;
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x375b0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel__SaveAsync_d__23>(), { "MoveNext", {}, {} })));
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel__SaveAsync_d__23::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::LocalLeaderboardsModel__SaveAsync_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x37556b0;
+  constexpr static std::size_t addrs = 0x375b380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel__SaveAsync_d__23>(),
@@ -542,8 +542,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel__SaveLeaderboardsData_d__19::*)()>(
     &::GlobalNamespace::LocalLeaderboardsModel__SaveLeaderboardsData_d__19::MoveNext)> {
-  constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x375571c;
+  constexpr static std::size_t size = 0x334;
+  constexpr static std::size_t addrs = 0x375b3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -557,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel__SaveLeaderboardsData_d__19::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::LocalLeaderboardsModel__SaveLeaderboardsData_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3755a4c;
+  constexpr static std::size_t addrs = 0x375b720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel__SaveLeaderboardsData_d__19>(),
@@ -607,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel::*)(::System::Action_2<::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>*)>(
     &::GlobalNamespace::LocalLeaderboardsModel::add_newScoreWasAddedToLeaderboardEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3752cb4;
+  constexpr static std::size_t addrs = 0x37588d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel::*)(::System::Action_2<::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType>*)>(
     &::GlobalNamespace::LocalLeaderboardsModel::remove_newScoreWasAddedToLeaderboardEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3752d74;
+  constexpr static std::size_t addrs = 0x3758998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -639,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel::*)(::GlobalNamespace::IFileStorage*, ::GlobalNamespace::LocalLeaderboardsSettingsSO*)>(
     &::GlobalNamespace::LocalLeaderboardsModel::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3752e34;
+  constexpr static std::size_t addrs = 0x3758a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*>* (
     ::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW)>(&::GlobalNamespace::LocalLeaderboardsModel::LoadLeaderboardsDataAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3752ef0;
+  constexpr static std::size_t addrs = 0x3758b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>* (
     ::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW)>(&::GlobalNamespace::LocalLeaderboardsModel::LoadLeaderboardsData)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3752fe0;
+  constexpr static std::size_t addrs = 0x3758c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -683,7 +683,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>* (*)(::GlobalNamespace::LocalLeaderboardsModel_SavedLeaderboardsData*)>(
         &::GlobalNamespace::LocalLeaderboardsModel::LoadLeaderboardsDataInternal)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3753044;
+  constexpr static std::size_t addrs = 0x3758c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -699,7 +699,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*)>(
     &::GlobalNamespace::LocalLeaderboardsModel::SaveLeaderboardsData)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x37530c4;
+  constexpr static std::size_t addrs = 0x3758ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -716,7 +716,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::LocalLeaderboardsModel::SaveLeaderboardsDataAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3753188;
+  constexpr static std::size_t addrs = 0x3758dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel*>(),
@@ -731,7 +731,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collec
                                                                 ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>*, int32_t)>(
     &::GlobalNamespace::LocalLeaderboardsModel::AppendLeaderboardScores)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3753248;
+  constexpr static std::size_t addrs = 0x3758e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>*, int32_t)>(
     &::GlobalNamespace::LocalLeaderboardsModel::MigrateQuestLeaderboards)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x37533e8;
+  constexpr static std::size_t addrs = 0x375900c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -765,7 +765,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LocalLeaderboardsModel::*)()>(&::GlobalNamespace::LocalLeaderboardsModel::SaveAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x37537cc;
+  constexpr static std::size_t addrs = 0x37593f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel*>(), { "SaveAsync", {}, {} })));
@@ -778,7 +778,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData*>* (
     ::GlobalNamespace::LocalLeaderboardsModel::*)(::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(&::GlobalNamespace::LocalLeaderboardsModel::GetLeaderboardsData)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x375387c;
+  constexpr static std::size_t addrs = 0x37594a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -793,7 +793,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LocalLeaderboardsModel_LeaderboardData* (
     ::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(&::GlobalNamespace::LocalLeaderboardsModel::GetLeaderboardData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x37538a4;
+  constexpr static std::size_t addrs = 0x37594c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -807,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::LocalLeaderboardsModel::*)()>(&::GlobalNamespace::LocalLeaderboardsModel::GetCurrentTimestamp)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3753980;
+  constexpr static std::size_t addrs = 0x37595a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel*>(), { "GetCurrentTimestamp", {}, {} })));
@@ -819,7 +819,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW)>(&::GlobalNamespace::LocalLeaderboardsModel::UpdateDailyLeaderboard)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3753a78;
+  constexpr static std::size_t addrs = 0x375969c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -833,7 +833,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType, ::StringW, int32_t,
                                                                                                            bool)>(&::GlobalNamespace::LocalLeaderboardsModel::AddScore)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x3753c80;
+  constexpr static std::size_t addrs = 0x37598a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel*>(),
@@ -850,7 +850,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType, int32_t)>(
     &::GlobalNamespace::LocalLeaderboardsModel::WillScoreGoIntoLeaderboard)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3753fbc;
+  constexpr static std::size_t addrs = 0x3759bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -867,7 +867,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>* (
     ::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(&::GlobalNamespace::LocalLeaderboardsModel::GetScores)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3754098;
+  constexpr static std::size_t addrs = 0x3759cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -882,7 +882,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(
     &::GlobalNamespace::LocalLeaderboardsModel::GetHighScore)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x37540b0;
+  constexpr static std::size_t addrs = 0x3759ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -897,7 +897,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType, int32_t)>(
     &::GlobalNamespace::LocalLeaderboardsModel::GetPositionInLeaderboard)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3754160;
+  constexpr static std::size_t addrs = 0x3759d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -914,7 +914,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(
     &::GlobalNamespace::LocalLeaderboardsModel::GetLastScorePosition)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3754248;
+  constexpr static std::size_t addrs = 0x3759e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -928,7 +928,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel::*)()>(&::GlobalNamespace::LocalLeaderboardsModel::ClearLastScorePosition)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x37542e8;
+  constexpr static std::size_t addrs = 0x3759f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel*>(), { "ClearLastScorePosition", {}, {} })));
@@ -941,7 +941,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, ::StringW, int32_t, bool)>(
     &::GlobalNamespace::LocalLeaderboardsModel::AddScore)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3754344;
+  constexpr static std::size_t addrs = 0x3759f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -956,7 +956,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW, int32_t)>(
     &::GlobalNamespace::LocalLeaderboardsModel::WillScoreGoIntoLeaderboard)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x37543a0;
+  constexpr static std::size_t addrs = 0x3759fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel*>(),
@@ -969,7 +969,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel::*)(::StringW)>(&::GlobalNamespace::LocalLeaderboardsModel::ClearLeaderboard)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x37543f0;
+  constexpr static std::size_t addrs = 0x375a00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -983,7 +983,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LocalLeaderboardsModel::*)(bool)>(
     &::GlobalNamespace::LocalLeaderboardsModel::ClearAllLeaderboardsAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x375452c;
+  constexpr static std::size_t addrs = 0x375a148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -996,7 +996,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LocalLeaderboardsModel::*)()>(&::GlobalNamespace::LocalLeaderboardsModel::LoadAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x37545f4;
+  constexpr static std::size_t addrs = 0x375a210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel*>(), { "LoadAsync", {}, {} })));
@@ -1008,7 +1008,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel::*)()>(&::GlobalNamespace::LocalLeaderboardsModel::Load)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x37546a4;
+  constexpr static std::size_t addrs = 0x375a2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel*>(), { "Load", {}, {} })));
@@ -1019,8 +1019,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsModel::*)()>(&::GlobalNamespace::LocalLeaderboardsModel::LoadInternal)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3754728;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x375a344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsModel*>(), { "LoadInternal", {}, {} })));

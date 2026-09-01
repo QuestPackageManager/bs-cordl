@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Resources.hpp"
+// IWYU pragma private; include "UnityEngine\Resources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,40 +39,40 @@ public:
   /// @brief Method ConvertObjects, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> ConvertObjects(::ArrayW<::UnityEngine::Object*> rawObjects);
 
-  /// @brief Method FindObjectsOfTypeAll, addr 0x6ad1b48, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x6ad9560, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeAll(::System::Type* type);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> FindObjectsOfTypeAll();
 
-  /// @brief Method GetBuiltinResource, addr 0x6ad1d10, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinResource, addr 0x6ad9728, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> GetBuiltinResource(::System::Type* type, ::StringW path);
 
   /// @brief Method GetBuiltinResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetBuiltinResource(::StringW path);
 
-  /// @brief Method GetBuiltinResource_Injected, addr 0x6ad1f9c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinResource_Injected, addr 0x6ad99b4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetBuiltinResource_Injected(::System::Type* type, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path);
 
-  /// @brief Method Load, addr 0x6ad1bb4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6ad95cc, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
-  /// @brief Method Load, addr 0x6ad10dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6ad8af4, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Load(::StringW path);
 
-  /// @brief Method LoadAll, addr 0x6ad1ca0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x6ad96b8, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(::StringW path);
 
-  /// @brief Method LoadAll, addr 0x6ad1c24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x6ad963c, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method UnloadUnusedAssets, addr 0x6ad1fe0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UnloadUnusedAssets, addr 0x6ad99f8, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadUnusedAssets();
 
-  /// @brief Method UnloadUnusedAssets_Injected, addr 0x6ad2018, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnloadUnusedAssets_Injected, addr 0x6ad9a30, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr UnloadUnusedAssets_Injected();
 
 protected:
@@ -90,7 +90,7 @@ public:
   Resources(Resources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

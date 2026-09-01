@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MathfExtra.hpp"
+// IWYU pragma private; include "GlobalNamespace\MathfExtra.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MathfExtra_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::Mod)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3321cb0;
+  constexpr static std::size_t addrs = 0x3325a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::MathfExtra::Mod)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3321cc4;
+  constexpr static std::size_t addrs = 0x3325a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, int32_t)>(&::GlobalNamespace::MathfExtra::Round)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3321cf4;
+  constexpr static std::size_t addrs = 0x3325ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::MaxAbs)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3321e18;
+  constexpr static std::size_t addrs = 0x3325bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t, float_t)>(&::GlobalNamespace::MathfExtra::Approximately)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3321e2c;
+  constexpr static std::size_t addrs = 0x3325bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::ShortestAngleDifference)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3321e3c;
+  constexpr static std::size_t addrs = 0x3325bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector4, int32_t)>(&::GlobalNamespace::MathfExtra::Round)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3321e70;
+  constexpr static std::size_t addrs = 0x3325c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::MathfExtra::Repeat)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x33220b4;
+  constexpr static std::size_t addrs = 0x3325e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

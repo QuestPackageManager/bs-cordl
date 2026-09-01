@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXEnabledBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXEnabledBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   static ::UnityEngine::VFX::Utility::VFXEnabledBinder_Check const ActiveSelf;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19987 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -107,15 +107,15 @@ public:
   /// @brief Field m_Property, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Property, put = __cordl_internal_set_m_Property)) ::UnityEngine::VFX::Utility::ExposedProperty* m_Property;
 
-  /// @brief Method IsValid, addr 0x69dae34, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69e28b0, size 0xa8, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXEnabledBinder* New_ctor();
 
-  /// @brief Method ToString, addr 0x69daf50, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69e29cc, size 0x138, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69daedc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69e2958, size 0x74, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_Target() const;
@@ -136,13 +136,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Property(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69db088, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e2b04, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Property, addr 0x69dae00, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Property, addr 0x69e287c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Property();
 
-  /// @brief Method set_Property, addr 0x69dae18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Property, addr 0x69e2894, size 0x1c, virtual false, abstract: false, final false
   inline void set_Property(::StringW value);
 
 protected:
@@ -160,7 +160,7 @@ public:
   VFXEnabledBinder(VFXEnabledBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19988 };
 
   /// @brief Field check, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::VFX::Utility::VFXEnabledBinder_Check ___check;

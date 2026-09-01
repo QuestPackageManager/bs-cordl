@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DirectionalLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace\DirectionalLightWithIds.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLightWithIds_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DirectionalLightWithIds::*)(::UnityEngine::Color)>(&::GlobalNamespace::DirectionalLightWithIds::ColorWasSet)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x586da14;
+  constexpr static std::size_t addrs = 0x586cb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DirectionalLightWithIds::*)()>(&::GlobalNamespace::DirectionalLightWithIds::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x586da58;
+  constexpr static std::size_t addrs = 0x586cbd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLightWithIds*>(), { ".ctor", {}, {} })));

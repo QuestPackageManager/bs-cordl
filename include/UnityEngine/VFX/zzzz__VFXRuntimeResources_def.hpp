@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VFXRuntimeResources.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VFXRuntimeResources.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,28 +60,28 @@ public:
 
   constexpr void __cordl_internal_set_m_SDFRayMapShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x69d0838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d82b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_runtimeResources, addr 0x69d0790, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_runtimeResources, addr 0x69d820c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::VFX::VFXRuntimeResources> get_runtimeResources();
 
-  /// @brief Method get_sdfNormalsCS, addr 0x69d0770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sdfNormalsCS, addr 0x69d81ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_sdfNormalsCS();
 
-  /// @brief Method get_sdfRayMapCS, addr 0x69d0760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sdfRayMapCS, addr 0x69d81dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_sdfRayMapCS();
 
-  /// @brief Method get_sdfRayMapShader, addr 0x69d0780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sdfRayMapShader, addr 0x69d81fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_sdfRayMapShader();
 
-  /// @brief Method set_sdfNormalsCS, addr 0x69d0778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sdfNormalsCS, addr 0x69d81f4, size 0x8, virtual false, abstract: false, final false
   inline void set_sdfNormalsCS(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_sdfRayMapCS, addr 0x69d0768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sdfRayMapCS, addr 0x69d81e4, size 0x8, virtual false, abstract: false, final false
   inline void set_sdfRayMapCS(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_sdfRayMapShader, addr 0x69d0788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sdfRayMapShader, addr 0x69d8204, size 0x8, virtual false, abstract: false, final false
   inline void set_sdfRayMapShader(::UnityEngine::Shader* value);
 
 protected:
@@ -99,7 +99,7 @@ public:
   VFXRuntimeResources(VFXRuntimeResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19971 };
 
   /// @brief Field m_SDFRayMapCS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_SDFRayMapCS;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/IEnumerableExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\IEnumerableExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IEnumerableExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HasValues, addr 0x6da99b0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method HasValues, addr 0x6db1534, size 0x2c8, virtual false, abstract: false, final false
   static inline bool HasValues(::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/TriggerBehaviour.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\TriggerBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,18 +25,18 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE TriggerBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x66f1158, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x66f8bd4, size 0x1b0, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::UnityEngine::ProBuilder::TriggerBehaviour* New_ctor();
 
-  /// @brief Method OnEnterPlayMode, addr 0x66f1308, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnEnterPlayMode, addr 0x66f8d84, size 0x7c, virtual true, abstract: false, final false
   inline void OnEnterPlayMode();
 
-  /// @brief Method OnSceneLoaded, addr 0x66f1384, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnSceneLoaded, addr 0x66f8e00, size 0x7c, virtual true, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method .ctor, addr 0x66f1400, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f8e7c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   TriggerBehaviour(TriggerBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

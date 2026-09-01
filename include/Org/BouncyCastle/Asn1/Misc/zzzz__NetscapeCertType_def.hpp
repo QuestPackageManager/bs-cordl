@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Misc/NetscapeCertType.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Misc\NetscapeCertType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeCertType* New_ctor(int32_t usage);
 
-  /// @brief Method ToString, addr 0x345387c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x345763c, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x34537dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345759c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-  /// @brief Method .ctor, addr 0x3453770, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3457530, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
 protected:

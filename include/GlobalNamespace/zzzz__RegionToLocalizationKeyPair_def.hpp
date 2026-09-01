@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RegionToLocalizationKeyPair.hpp"
+// IWYU pragma private; include "GlobalNamespace\RegionToLocalizationKeyPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE RegionToLocalizationKeyPair {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x58e1424, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4a5c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Region region, ::StringW localizationKey);
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr RegionToLocalizationKeyPair(::GlobalNamespace::Region region, ::StringW localizationKey) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6544 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

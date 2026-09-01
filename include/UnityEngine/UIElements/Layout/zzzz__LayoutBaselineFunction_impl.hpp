@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutBaselineFunction.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutBaselineFunction.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutBaselineFunction_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutBaselineFunction::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::Layout::LayoutBaselineFunction::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6cf65a4;
+  constexpr static std::size_t addrs = 0x6cfe128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutBaselineFunction*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Layout::LayoutBaselineFunction::*)(
     ::by_ref<::UnityEngine::UIElements::Layout::LayoutNode>, float_t, float_t)>(&::UnityEngine::UIElements::Layout::LayoutBaselineFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6cf6624;
+  constexpr static std::size_t addrs = 0x6cfe1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutBaselineFunction*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/DecoderFallback.hpp"
+// IWYU pragma private; include "System\Text\DecoderFallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,20 +36,20 @@ public:
 
   static inline ::System::Text::DecoderFallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5cc72dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccb798, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::DecoderFallback* getStaticF_s_exceptionFallback();
 
   static inline ::System::Text::DecoderFallback* getStaticF_s_replacementFallback();
 
-  /// @brief Method get_ExceptionFallback, addr 0x5cc7b00, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionFallback, addr 0x5ccbfbc, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Text::DecoderFallback* get_ExceptionFallback();
 
   /// @brief Method get_MaxCharCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method get_ReplacementFallback, addr 0x5cc482c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ReplacementFallback, addr 0x5cc8ce8, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Text::DecoderFallback* get_ReplacementFallback();
 
   static inline void setStaticF_s_exceptionFallback(::System::Text::DecoderFallback* value);

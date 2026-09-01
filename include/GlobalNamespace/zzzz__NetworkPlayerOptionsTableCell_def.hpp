@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NetworkPlayerOptionsTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace\NetworkPlayerOptionsTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,27 +42,27 @@ public:
 
   __declspec(property(get = get_player, put = set_player)) ::GlobalNamespace::INetworkPlayer* player;
 
-  /// @brief Method Block, addr 0x5a0a1b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5a122c8, size 0xb0, virtual false, abstract: false, final false
   inline void Block();
 
-  /// @brief Method Invite, addr 0x5a0a3c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Invite, addr 0x5a124d8, size 0xb0, virtual false, abstract: false, final false
   inline void Invite();
 
-  /// @brief Method Join, addr 0x5a0a314, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x5a12428, size 0xb0, virtual false, abstract: false, final false
   inline void Join();
 
-  /// @brief Method Kick, addr 0x5a0a474, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Kick, addr 0x5a12588, size 0xb0, virtual false, abstract: false, final false
   inline void Kick();
 
-  /// @brief Method Leave, addr 0x5a0a524, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Leave, addr 0x5a12638, size 0xb0, virtual false, abstract: false, final false
   inline void Leave();
 
   static inline ::GlobalNamespace::NetworkPlayerOptionsTableCell* New_ctor();
 
-  /// @brief Method Refresh, addr 0x5a094e0, size 0xcd4, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5a115f4, size 0xcd4, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Unblock, addr 0x5a0a264, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Unblock, addr 0x5a12378, size 0xb0, virtual false, abstract: false, final false
   inline void Unblock();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -89,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set__player(::GlobalNamespace::INetworkPlayer* value);
 
-  /// @brief Method .ctor, addr 0x5a0a5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a126e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_player, addr 0x5a094d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_player, addr 0x5a115e4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::INetworkPlayer* get_player();
 
-  /// @brief Method set_player, addr 0x5a094d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_player, addr 0x5a115ec, size 0x8, virtual false, abstract: false, final false
   inline void set_player(::GlobalNamespace::INetworkPlayer* value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   NetworkPlayerOptionsTableCell(NetworkPlayerOptionsTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6391 };
 
   /// @brief Field _buttons, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Button>> ____buttons;

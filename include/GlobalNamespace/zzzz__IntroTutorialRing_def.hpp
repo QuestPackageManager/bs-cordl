@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IntroTutorialRing.hpp"
+// IWYU pragma private; include "GlobalNamespace\IntroTutorialRing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,25 +85,25 @@ public:
 
   static inline ::GlobalNamespace::IntroTutorialRing* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5918398, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x591bd54, size 0x54, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTriggerEnter, addr 0x59185b4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerEnter, addr 0x591bf70, size 0x114, virtual false, abstract: false, final false
   inline void OnTriggerEnter(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerExit, addr 0x59186c8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerExit, addr 0x591c084, size 0x108, virtual false, abstract: false, final false
   inline void OnTriggerExit(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerStay, addr 0x59187d0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerStay, addr 0x591c18c, size 0x120, virtual false, abstract: false, final false
   inline void OnTriggerStay(::UnityEngine::Collider* other);
 
-  /// @brief Method SetProgressImagesfillAmount, addr 0x5918550, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetProgressImagesfillAmount, addr 0x591bf0c, size 0x64, virtual false, abstract: false, final false
   inline void SetProgressImagesfillAmount(float_t fillAmount);
 
-  /// @brief Method Start, addr 0x5918318, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x591bcd4, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59183ec, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x591bda8, size 0x164, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__activationDuration() const;
@@ -178,19 +178,19 @@ public:
 
   constexpr void __cordl_internal_set__sabersInsideAfterOnEnable(bool value);
 
-  /// @brief Method .ctor, addr 0x59188f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591c2ac, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fullyActivated, addr 0x59182e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_fullyActivated, addr 0x591bca0, size 0x24, virtual false, abstract: false, final false
   inline bool get_fullyActivated();
 
-  /// @brief Method get_saberType, addr 0x5918308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberType, addr 0x591bcc4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
-  /// @brief Method set_alpha, addr 0x59182cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x591bc88, size 0x18, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_saberType, addr 0x5918310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x591bccc, size 0x8, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
 protected:
@@ -208,7 +208,7 @@ public:
   IntroTutorialRing(IntroTutorialRing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6801 };
 
   /// @brief Field _progressImages, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Image>> ____progressImages;

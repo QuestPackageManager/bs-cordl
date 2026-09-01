@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Interface/ValidationResult.hpp"
+// IWYU pragma private; include "Mono\Security\Interface\ValidationResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set_user_denied(bool value);
 
-  /// @brief Method .ctor, addr 0x5a99a58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9df14, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(bool trusted, bool user_denied, int32_t error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors);
 
-  /// @brief Method get_Trusted, addr 0x5a99a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Trusted, addr 0x5a9df28, size 0x8, virtual false, abstract: false, final false
   inline bool get_Trusted();
 
-  /// @brief Method get_UserDenied, addr 0x5a99a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserDenied, addr 0x5a9df30, size 0x8, virtual false, abstract: false, final false
   inline bool get_UserDenied();
 
 protected:
@@ -95,7 +95,7 @@ public:
   ValidationResult(ValidationResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19312 };
 
   /// @brief Field trusted, offset: 0x10, size: 0x1, def value: None
   bool ___trusted;

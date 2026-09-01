@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MirroredDisappearingArrowController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MirroredDisappearingArrowController.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredDisappearingArrowController_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MirroredGameNoteController> (::GlobalNamespace::MirroredDisappearingArrowController::*)()>(
     &::GlobalNamespace::MirroredDisappearingArrowController::get_gameNoteController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58d2dfc;
+  constexpr static std::size_t addrs = 0x58d27ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredDisappearingArrowController*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredDisappearingArrowController::*)()>(&::GlobalNamespace::MirroredDisappearingArrowController::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58d2e04;
+  constexpr static std::size_t addrs = 0x58d27b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredDisappearingArrowController*>(), { ".ctor", {}, {} })));

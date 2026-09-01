@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VFXOutputEventArgs.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VFXOutputEventArgs.hpp"
 #include "UnityEngine/VFX/zzzz__VFXOutputEventArgs_def.hpp"
 #include "UnityEngine/VFX/zzzz__VFXEventAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::VFX::VFXOutputEventArgs.get_nameId
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::VFX::VFXOutputEventArgs::*)()>(&::UnityEngine::VFX::VFXOutputEventArgs::get_nameId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e26228;
+  constexpr static std::size_t addrs = 0x6e2ddac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXOutputEventArgs>(), { "get_nameId", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXEventAttribute* (::UnityEngine::VFX::VFXOutputEventArgs::*)()>(
     &::UnityEngine::VFX::VFXOutputEventArgs::get_eventAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e26230;
+  constexpr static std::size_t addrs = 0x6e2ddb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXOutputEventArgs>(), { "get_eventAttribute", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXOutputEventArgs::*)(int32_t, ::UnityEngine::VFX::VFXEventAttribute*)>(
     &::UnityEngine::VFX::VFXOutputEventArgs::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e26238;
+  constexpr static std::size_t addrs = 0x6e2ddbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXOutputEventArgs>(),

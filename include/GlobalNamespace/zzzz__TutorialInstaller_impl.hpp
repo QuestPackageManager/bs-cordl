@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TutorialInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\TutorialInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialInstaller::*)()>(&::GlobalNamespace::TutorialInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x10e8;
-  constexpr static std::size_t addrs = 0x59f71b0;
+  constexpr static std::size_t size = 0x10e4;
+  constexpr static std::size_t addrs = 0x59ff288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialInstaller::*)()>(&::GlobalNamespace::TutorialInstaller::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59f8298;
+  constexpr static std::size_t addrs = 0x5a0036c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialInstaller*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/NestedFragmentConverter_1.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\NestedFragmentConverter_1.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__NestedFragmentConverter_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JObject_def.hpp"

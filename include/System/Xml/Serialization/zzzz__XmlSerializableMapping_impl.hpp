@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlSerializableMapping.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlSerializableMapping.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeMapping_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializableMapping_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaComplexType_def.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Seri
                                                                                                                       ::System::Xml::Serialization::TypeData*, ::StringW, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializableMapping::_ctor)> {
   constexpr static std::size_t size = 0x780;
-  constexpr static std::size_t addrs = 0x630be7c;
+  constexpr static std::size_t addrs = 0x63138f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

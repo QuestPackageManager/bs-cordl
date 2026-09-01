@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderPassEventsEnumValues.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderPassEventsEnumValues.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
   RenderPassEventsEnumValues(RenderPassEventsEnumValues const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

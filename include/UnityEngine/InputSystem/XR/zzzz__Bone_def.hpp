@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/XR/Bone.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\XR\Bone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,22 +34,22 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
 
-  /// @brief Method get_parentBoneIndex, addr 0x65830bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentBoneIndex, addr 0x658ab38, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_parentBoneIndex();
 
-  /// @brief Method get_position, addr 0x65830cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x658ab48, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x65830e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x658ab60, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_parentBoneIndex, addr 0x65830c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentBoneIndex, addr 0x658ab40, size 0x8, virtual false, abstract: false, final false
   inline void set_parentBoneIndex(uint32_t value);
 
-  /// @brief Method set_position, addr 0x65830d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x658ab54, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation, addr 0x65830f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x658ab6c, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
   // Ctor Parameters []
@@ -61,7 +61,7 @@ public:
   constexpr Bone(uint32_t m_ParentBoneIndex, ::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8825 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

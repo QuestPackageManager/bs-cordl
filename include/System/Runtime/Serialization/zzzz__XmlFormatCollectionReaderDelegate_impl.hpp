@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/XmlFormatCollectionReaderDelegate.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\XmlFormatCollectionReaderDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__XmlFormatCollectionReaderDelegate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__CollectionDataContract_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x615be5c;
+  constexpr static std::size_t addrs = 0x61638d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate*>(),
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
                                                                             ::System::Runtime::Serialization::CollectionDataContract*)>(
     &::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x615bfa4;
+  constexpr static std::size_t addrs = 0x6163a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate*>(),

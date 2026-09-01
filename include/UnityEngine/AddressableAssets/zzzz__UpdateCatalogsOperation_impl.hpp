@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AddressableAssets/UpdateCatalogsOperation.hpp"
+// IWYU pragma private; include "UnityEngine\AddressableAssets\UpdateCatalogsOperation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::*)()>(
     &::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x645bc34;
+  constexpr static std::size_t addrs = 0x64636b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*)>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c::_Start_b__6_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x645bc38;
+  constexpr static std::size_t addrs = 0x64636b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::*)()>(
     &::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x645bbdc;
+  constexpr static std::size_t addrs = 0x6463658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>)>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0::_OnCleanCacheCompleted_b__0)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x645bcc4;
+  constexpr static std::size_t addrs = 0x6463740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)(::UnityEngine::AddressableAssets::AddressablesImpl*)>(
     &::UnityEngine::AddressableAssets::UpdateCatalogsOperation::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64563c4;
+  constexpr static std::size_t addrs = 0x645de40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::UpdateCatalogsOperation*>(),
@@ -168,7 +168,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceMa
     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)(
     ::System::Collections::Generic::IEnumerable_1<::StringW>*, bool)>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation::Start)> {
   constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x6456424;
+  constexpr static std::size_t addrs = 0x645dea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)()>(
     &::UnityEngine::AddressableAssets::UpdateCatalogsOperation::InvokeWaitForCompletion)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x645b0fc;
+  constexpr static std::size_t addrs = 0x6462b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::UpdateCatalogsOperation*>(),
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)()>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation::Destroy)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x645b2e8;
+  constexpr static std::size_t addrs = 0x6462d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::UpdateCatalogsOperation*>(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation::GetDependencies)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x645b334;
+  constexpr static std::size_t addrs = 0x6462db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::UpdateCatalogsOperation*>(),
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::UpdateCatalogsOperation::*)()>(&::UnityEngine::AddressableAssets::UpdateCatalogsOperation::Execute)> {
   constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x645b418;
+  constexpr static std::size_t addrs = 0x6462e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::UpdateCatalogsOperation*>(),
@@ -238,7 +238,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Addr
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>, ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*)>(
     &::UnityEngine::AddressableAssets::UpdateCatalogsOperation::OnCleanCacheCompleted)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x645bac8;
+  constexpr static std::size_t addrs = 0x6463544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

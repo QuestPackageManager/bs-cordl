@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering/SplitAudioJob.hpp"
+// IWYU pragma private; include "LufsMetering\SplitAudioJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "LufsMetering/zzzz__SplitAudioJob_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LufsMetering::SplitAudioJob (*)(::Unity::Collections::NativeArray_1<float_t>, ::Unity::Collections::NativeArray_1<float_t>, int32_t, int32_t)>(
     &::LufsMetering::SplitAudioJob::Create)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3264dd8;
+  constexpr static std::size_t addrs = 0x3268170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LufsMetering::SplitAudioJob::*)(int32_t)>(&::LufsMetering::SplitAudioJob::Execute)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3264de8;
+  constexpr static std::size_t addrs = 0x3268180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LufsMetering::SplitAudioJob>(), { "Execute", {}, { ::i2c::type_of<int32_t>() } })));

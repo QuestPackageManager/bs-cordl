@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VisualEffectPlayableSerializedEventNoColor.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VisualEffectPlayableSerializedEventNoColor.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributes_impl.hpp"
 #include "UnityEngine/VFX/zzzz__PlayableTimeSpace_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectPlayableSerializedEventNoColor_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent (*)(::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor)>(
     &::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor::op_Implicit___UnityEngine__VFX__VisualEffectPlayableSerializedEvent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69cae10;
+  constexpr static std::size_t addrs = 0x69d288c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

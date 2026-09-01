@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/AbstractF2mPoint.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\AbstractF2mPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,37 +37,37 @@ public:
                                                                           ::Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs,
                                                                           bool withCompression);
 
-  /// @brief Method SatisfiesCurveEquation, addr 0x34d8448, size 0x454, virtual true, abstract: false, final false
+  /// @brief Method SatisfiesCurveEquation, addr 0x34dc208, size 0x454, virtual true, abstract: false, final false
   inline bool SatisfiesCurveEquation();
 
-  /// @brief Method SatisfiesOrder, addr 0x34d889c, size 0x2c8, virtual true, abstract: false, final false
+  /// @brief Method SatisfiesOrder, addr 0x34dc65c, size 0x2c8, virtual true, abstract: false, final false
   inline bool SatisfiesOrder();
 
-  /// @brief Method ScaleX, addr 0x34d8b64, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method ScaleX, addr 0x34dc924, size 0x294, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleX(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleXNegateY, addr 0x34d8df8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ScaleXNegateY, addr 0x34dcbb8, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleXNegateY(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleY, addr 0x34d8e08, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ScaleY, addr 0x34dcbc8, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleY(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleYNegateX, addr 0x34d8ef4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ScaleYNegateX, addr 0x34dccb4, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleYNegateX(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method Subtract, addr 0x34d8f04, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x34dccc4, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Subtract(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method Tau, addr 0x34d8f64, size 0x290, virtual true, abstract: false, final false
+  /// @brief Method Tau, addr 0x34dcd24, size 0x290, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* Tau();
 
-  /// @brief Method TauPow, addr 0x34d91f4, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method TauPow, addr 0x34dcfb4, size 0x2a8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* TauPow(int32_t pow);
 
-  /// @brief Method .ctor, addr 0x34d8438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34dc1f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x34d8440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34dc200, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
 

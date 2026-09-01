@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/X509/Extensions/BasicConstraintsExtension.hpp"
+// IWYU pragma private; include "Mono\Security\X509\Extensions\BasicConstraintsExtension.hpp"
 #include "Mono/Security/X509/zzzz__X509Extension_impl.hpp"
 #include "Mono/Security/X509/Extensions/zzzz__BasicConstraintsExtension_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::Extensions::BasicConstraintsExtension::*)(::Mono::Security::X509::X509Extension*)>(
     &::Mono::Security::X509::Extensions::BasicConstraintsExtension::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a93cf4;
+  constexpr static std::size_t addrs = 0x5a981b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::Extensions::BasicConstraintsExtension::*)()>(
     &::Mono::Security::X509::Extensions::BasicConstraintsExtension::Decode)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5a957fc;
+  constexpr static std::size_t addrs = 0x5a99cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::Extensions::BasicConstraintsExtension::*)()>(
     &::Mono::Security::X509::Extensions::BasicConstraintsExtension::Encode)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5a95934;
+  constexpr static std::size_t addrs = 0x5a99df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::X509::Extensions::BasicConstraintsExtension::*)()>(
     &::Mono::Security::X509::Extensions::BasicConstraintsExtension::get_CertificateAuthority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a95a40;
+  constexpr static std::size_t addrs = 0x5a99efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::X509::Extensions::BasicConstraintsExtension::*)()>(
     &::Mono::Security::X509::Extensions::BasicConstraintsExtension::ToString)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5a95a48;
+  constexpr static std::size_t addrs = 0x5a99f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>(),

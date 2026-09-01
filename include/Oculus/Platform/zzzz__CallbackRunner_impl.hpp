@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/CallbackRunner.hpp"
+// IWYU pragma private; include "Oculus\Platform\CallbackRunner.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/zzzz__CallbackRunner_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::CallbackRunner.ovr_UnityResetTestPlatform
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Oculus::Platform::CallbackRunner::ovr_UnityResetTestPlatform)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5db16d0;
+  constexpr static std::size_t addrs = 0x5db5b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::CallbackRunner*>(), { "ovr_UnityResetTestPlatform", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::CallbackRunner::*)()>(&::Oculus::Platform::CallbackRunner::Awake)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5db1734;
+  constexpr static std::size_t addrs = 0x5db5bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::CallbackRunner*>(), { "Awake", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::CallbackRunner::*)()>(&::Oculus::Platform::CallbackRunner::Update)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db1844;
+  constexpr static std::size_t addrs = 0x5db5d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::CallbackRunner*>(), { "Update", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::CallbackRunner::*)()>(&::Oculus::Platform::CallbackRunner::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db18bc;
+  constexpr static std::size_t addrs = 0x5db5d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::CallbackRunner*>(), { "OnDestroy", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::CallbackRunner::*)()>(&::Oculus::Platform::CallbackRunner::OnApplicationQuit)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5db18c0;
+  constexpr static std::size_t addrs = 0x5db5d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::CallbackRunner*>(), { "OnApplicationQuit", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::CallbackRunner::*)()>(&::Oculus::Platform::CallbackRunner::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5db1910;
+  constexpr static std::size_t addrs = 0x5db5dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::CallbackRunner*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/MethodProviderWithContainer_7.hpp"
+// IWYU pragma private; include "Zenject\MethodProviderWithContainer_7.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,7 +102,7 @@ public:
   MethodProviderWithContainer_7(MethodProviderWithContainer_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14571 };
 
   /// @brief Field _method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_8<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* ____method;

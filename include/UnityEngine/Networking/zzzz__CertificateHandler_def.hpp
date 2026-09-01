@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Networking/CertificateHandler.hpp"
+// IWYU pragma private; include "UnityEngine\Networking\CertificateHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE CertificateHandler_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6e209cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6e28550, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Networking::CertificateHandler* handler);
 
 protected:
@@ -54,7 +54,7 @@ public:
   CertificateHandler_BindingsMarshaller(CertificateHandler_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,27 +77,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Create, addr 0x6e20838, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6e283bc, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Networking::CertificateHandler* obj);
 
-  /// @brief Method Dispose, addr 0x6e20998, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e2851c, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x6e20944, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6e284c8, size 0x54, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Networking::CertificateHandler* New_ctor();
 
-  /// @brief Method ReleaseFromScripting, addr 0x6e20874, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReleaseFromScripting, addr 0x6e283f8, size 0x50, virtual false, abstract: false, final false
   inline void ReleaseFromScripting();
 
-  /// @brief Method ReleaseFromScripting_Injected, addr 0x6e208c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseFromScripting_Injected, addr 0x6e28448, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseFromScripting_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method ValidateCertificate, addr 0x6e209b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x6e2853c, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::ArrayW<uint8_t> certificateData);
 
-  /// @brief Method ValidateCertificateNative, addr 0x6e209c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateNative, addr 0x6e28544, size 0xc, virtual false, abstract: false, final false
   inline bool ValidateCertificateNative(::ArrayW<uint8_t> certificateData);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6e20900, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e28484, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -127,7 +127,7 @@ public:
   CertificateHandler(CertificateHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22294 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

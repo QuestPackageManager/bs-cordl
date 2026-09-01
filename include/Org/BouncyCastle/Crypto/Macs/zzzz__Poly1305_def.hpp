@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/Poly1305.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Macs\Poly1305.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,32 +102,32 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x33eaa38, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x33ee7f8, size 0xec, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x33ead2c, size 0x214, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x33eeaec, size 0x214, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method GetMacSize, addr 0x33ea9fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0x33ee7bc, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x33ea420, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x33ee1e0, size 0x1a4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Poly1305* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Poly1305* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method ProcessBlock, addr 0x33eab24, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x33ee8e4, size 0x200, virtual false, abstract: false, final false
   inline void ProcessBlock();
 
-  /// @brief Method Reset, addr 0x33ea8fc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x33ee6bc, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method SetKey, addr 0x33ea5c4, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x33ee384, size 0x338, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> nonce);
 
-  /// @brief Method Update, addr 0x33eaa04, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x33ee7c4, size 0x34, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& __cordl_internal_get_cipher() const;
@@ -262,19 +262,19 @@ public:
 
   constexpr void __cordl_internal_set_singleByte(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x33ea268, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ee028, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x33ea2d8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ee098, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method get_AlgorithmName, addr 0x33ea908, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x33ee6c8, size 0xf4, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  /// @brief Method mul32x32_64, addr 0x33ead24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method mul32x32_64, addr 0x33eeae4, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t mul32x32_64(uint32_t i1, uint32_t i2);
 
 protected:

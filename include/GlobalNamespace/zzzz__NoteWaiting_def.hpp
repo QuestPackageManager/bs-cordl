@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteWaiting.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteWaiting.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,15 +45,15 @@ public:
 
   __declspec(property(get = get_localPosition)) ::UnityEngine::Vector3 localPosition;
 
-  /// @brief Method Init, addr 0x58d8ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58d887c, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t beatTime);
 
-  /// @brief Method ManualUpdate, addr 0x58d8e90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x58d8840, size 0x2c, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::NoteWaiting* New_ctor();
 
-  /// @brief Method ShouldWait, addr 0x58d8cdc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ShouldWait, addr 0x58d868c, size 0x1b4, virtual false, abstract: false, final false
   inline bool ShouldWait();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
@@ -80,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set__waitingPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x58d8ed4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d8884, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localPosition, addr 0x58d8ec0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x58d8870, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
 protected:

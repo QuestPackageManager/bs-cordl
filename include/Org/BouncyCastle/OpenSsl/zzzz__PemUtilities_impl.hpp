@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\OpenSsl\PemUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__PemUtilities_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::Org::BouncyCastle::OpenSsl::PemUtilities_PemBaseAlg>,
                                                                 ::by_ref<::Org::BouncyCastle::OpenSsl::PemUtilities_PemMode>)>(&::Org::BouncyCastle::OpenSsl::PemUtilities::ParseDekAlgName)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x35a57b8;
+  constexpr static std::size_t addrs = 0x35a9578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(bool, ::ArrayW<uint8_t>, ::ArrayW<char16_t>, ::StringW, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::OpenSsl::PemUtilities::Crypt)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x35a2a68;
+  constexpr static std::size_t addrs = 0x35a6828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (*)(::ArrayW<char16_t>, ::Org::BouncyCastle::OpenSsl::PemUtilities_PemBaseAlg,
                                                                                                            ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::OpenSsl::PemUtilities::GetCipherParameters)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x35a5b0c;
+  constexpr static std::size_t addrs = 0x35a98cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemUtilities::*)()>(&::Org::BouncyCastle::OpenSsl::PemUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35a5c90;
+  constexpr static std::size_t addrs = 0x35a9a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::PemUtilities*>(), { ".ctor", {}, {} })));

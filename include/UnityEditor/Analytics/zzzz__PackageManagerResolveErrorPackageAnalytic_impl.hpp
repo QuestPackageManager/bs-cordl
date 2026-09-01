@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor/Analytics/PackageManagerResolveErrorPackageAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor\Analytics\PackageManagerResolveErrorPackageAnalytic.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerBaseAnalytic_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerResolveErrorPackageAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic::*)()>(
     &::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e1ddcc;
+  constexpr static std::size_t addrs = 0x6e25950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic* (*)()>(
     &::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic::CreatePackageManagerResolveErrorPackageAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e1de60;
+  constexpr static std::size_t addrs = 0x6e259e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

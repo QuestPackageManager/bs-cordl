@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/CodePageDataItem.hpp"
+// IWYU pragma private; include "System\Globalization\CodePageDataItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
   /// @brief Field sep, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_sep, put = setStaticF_sep)) ::ArrayW<char16_t> sep;
 
-  /// @brief Method CreateString, addr 0x5bceb30, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x5bd2fec, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW CreateString(::StringW pStrings, uint32_t index);
 
   static inline ::System::Globalization::CodePageDataItem* New_ctor(int32_t dataIndex);
@@ -68,12 +68,12 @@ public:
 
   constexpr void __cordl_internal_set_m_webName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5bcea94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd2f50, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataIndex);
 
   static inline ::ArrayW<char16_t> getStaticF_sep();
 
-  /// @brief Method get_WebName, addr 0x5bcebf4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_WebName, addr 0x5bd30b0, size 0xc4, virtual false, abstract: false, final false
   inline ::StringW get_WebName();
 
   static inline void setStaticF_sep(::ArrayW<char16_t> value);

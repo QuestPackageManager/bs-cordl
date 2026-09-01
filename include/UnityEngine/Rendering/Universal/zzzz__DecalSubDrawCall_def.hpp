@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalSubDrawCall.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalSubDrawCall.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_count)) int32_t count;
 
-  /// @brief Method get_count, addr 0x6852600, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x685a07c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_count();
 
   // Ctor Parameters []
@@ -33,7 +33,7 @@ public:
   constexpr DecalSubDrawCall(int32_t start, int32_t end) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12690 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

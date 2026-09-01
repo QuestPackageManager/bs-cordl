@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapEditorScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapEditorScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>* didFinishEvent;
 
-  /// @brief Method Finish, addr 0x590aaa4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x590df7c, size 0x20, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Init, addr 0x590aa58, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x590df30, size 0x4c, virtual false, abstract: false, final false
   inline void Init(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
                    ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel);
 
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>* value);
 
-  /// @brief Method .ctor, addr 0x590aac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590df9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x590a8d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x590ddb0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x590a998, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x590de70, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>* value);
 
 protected:
@@ -78,7 +78,7 @@ public:
   BeatmapEditorScenesTransitionSetupData(BeatmapEditorScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6731 };
 
   /// @brief Field didFinishEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>* ___didFinishEvent;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/TypeDescriptionProviderAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\TypeDescriptionProviderAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__TypeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x63c1d70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c97ec, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_TypeName, addr 0x63c1dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x63c9844, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:
@@ -54,7 +54,7 @@ public:
   TypeDescriptionProviderAttribute(TypeDescriptionProviderAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11303 };
 
   /// @brief Field <TypeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____TypeName_k__BackingField;

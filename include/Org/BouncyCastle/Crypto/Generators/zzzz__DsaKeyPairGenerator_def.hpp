@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/DsaKeyPairGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\DsaKeyPairGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,16 +46,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method CalculatePublicKey, addr 0x33d2d18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CalculatePublicKey, addr 0x33d6ad8, size 0x24, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculatePublicKey(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method GenerateKeyPair, addr 0x33d2ad4, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0x33d6894, size 0x14c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method GeneratePrivateKey, addr 0x33d2c20, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GeneratePrivateKey, addr 0x33d69e0, size 0xf8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* GeneratePrivateKey(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init, addr 0x33d29dc, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x33d679c, size 0xf8, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator* New_ctor();
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters* value);
 
-  /// @brief Method .ctor, addr 0x33d2dbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d6b7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_One();

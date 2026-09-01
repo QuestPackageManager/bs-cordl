@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/RegexFC.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\RegexFC.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexFC_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(bool)>(&::System::Text::RegularExpressions::RegexFC::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x63834d4;
+  constexpr static std::size_t addrs = 0x638af50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(char16_t, bool, bool, bool)>(&::System::Text::RegularExpressions::RegexFC::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x63835e0;
+  constexpr static std::size_t addrs = 0x638b05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(::StringW, bool, bool)>(&::System::Text::RegularExpressions::RegexFC::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x63836d0;
+  constexpr static std::size_t addrs = 0x638b14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::RegularExpressions::RegexFC::*)(::System::Text::RegularExpressions::RegexFC*, bool)>(
     &::System::Text::RegularExpressions::RegexFC::AddFC)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6383544;
+  constexpr static std::size_t addrs = 0x638afc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::RegularExpressions::RegexFC::*)()>(&::System::Text::RegularExpressions::RegexFC::get_CaseInsensitive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6383760;
+  constexpr static std::size_t addrs = 0x638b1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::RegexFC*>(), { "get_CaseInsensitive", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(bool)>(&::System::Text::RegularExpressions::RegexFC::set_CaseInsensitive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6383768;
+  constexpr static std::size_t addrs = 0x638b1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::RegexFC::*)(::System::Globalization::CultureInfo*)>(
     &::System::Text::RegularExpressions::RegexFC::GetFirstChars)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63827a0;
+  constexpr static std::size_t addrs = 0x638a21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

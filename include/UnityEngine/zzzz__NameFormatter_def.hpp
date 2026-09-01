@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/NameFormatter.hpp"
+// IWYU pragma private; include "UnityEngine\NameFormatter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace UnityEngine {
 class CORDL_TYPE NameFormatter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FormatVariableName, addr 0x6aec620, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method FormatVariableName, addr 0x6af4038, size 0x1ac, virtual false, abstract: false, final false
   static inline ::StringW FormatVariableName(::StringW name);
 
-  /// @brief Method FormatVariableName_Injected, addr 0x6aec7d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FormatVariableName_Injected, addr 0x6af41f0, size 0x44, virtual false, abstract: false, final false
   static inline void FormatVariableName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
 protected:
@@ -44,7 +44,7 @@ public:
   NameFormatter(NameFormatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

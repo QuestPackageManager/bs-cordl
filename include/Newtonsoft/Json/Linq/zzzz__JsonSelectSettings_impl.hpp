@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonSelectSettings.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonSelectSettings.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::TimeSpan> (::Newtonsoft::Json::Linq::JsonSelectSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonSelectSettings::get_RegexMatchTimeout)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d76b44;
+  constexpr static std::size_t addrs = 0x5d7b000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonSelectSettings*>(), { "get_RegexMatchTimeout", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonSelectSettings::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::Newtonsoft::Json::Linq::JsonSelectSettings::set_RegexMatchTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d76b50;
+  constexpr static std::size_t addrs = 0x5d7b00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonSelectSettings*>(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JsonSelectSettings::*)()>(&::Newtonsoft::Json::Linq::JsonSelectSettings::get_ErrorWhenNoMatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d76b58;
+  constexpr static std::size_t addrs = 0x5d7b014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonSelectSettings*>(), { "get_ErrorWhenNoMatch", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonSelectSettings::*)(bool)>(&::Newtonsoft::Json::Linq::JsonSelectSettings::set_ErrorWhenNoMatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d76b60;
+  constexpr static std::size_t addrs = 0x5d7b01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonSelectSettings::*)()>(&::Newtonsoft::Json::Linq::JsonSelectSettings::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d76b68;
+  constexpr static std::size_t addrs = 0x5d7b024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonSelectSettings*>(), { ".ctor", {}, {} })));

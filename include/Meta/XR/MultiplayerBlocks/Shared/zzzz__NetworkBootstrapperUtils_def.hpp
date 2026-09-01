@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/NetworkBootstrapperUtils.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\NetworkBootstrapperUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ namespace Meta::XR::MultiplayerBlocks::Shared {
 class CORDL_TYPE NetworkBootstrapperUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OnColocationFailed, addr 0x5a6e7e0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnColocationFailed, addr 0x5a72c9c, size 0xac, virtual false, abstract: false, final false
   static inline void OnColocationFailed(::Meta::XR::MultiplayerBlocks::Colocation::ColocationFailedReason e);
 
-  /// @brief Method SetEntitlementIds, addr 0x5a6e0d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetEntitlementIds, addr 0x5a7258c, size 0x40, virtual false, abstract: false, final false
   static inline void SetEntitlementIds(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo info, ::by_ref<::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperParams> param);
 
-  /// @brief Method SetUpAndStartAutomaticColocation, addr 0x5a6e110, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method SetUpAndStartAutomaticColocation, addr 0x5a725cc, size 0x388, virtual false, abstract: false, final false
   static inline void SetUpAndStartAutomaticColocation(::by_ref<::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperParams> param, ::UnityEngine::GameObject* anchorPrefab,
                                                       ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* networkData,
                                                       ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* networkMessenger);
@@ -63,7 +63,7 @@ public:
   NetworkBootstrapperUtils(NetworkBootstrapperUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

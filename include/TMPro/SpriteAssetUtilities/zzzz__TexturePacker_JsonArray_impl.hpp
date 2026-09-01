@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/SpriteAssetUtilities/TexturePacker_JsonArray.hpp"
+// IWYU pragma private; include "TMPro\SpriteAssetUtilities\TexturePacker_JsonArray.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/SpriteAssetUtilities/zzzz__TexturePacker_JsonArray_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame::*)()>(
     &::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame::ToString)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x69a4390;
+  constexpr static std::size_t addrs = 0x69abe0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteFrame>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::*)()>(
     &::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize::ToString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69a4534;
+  constexpr static std::size_t addrs = 0x69abfb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteSize>(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::*)()>(
     &::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray_SpriteDataObject::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69a45e4;
+  constexpr static std::size_t addrs = 0x69ac060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::*)()>(&::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69a438c;
+  constexpr static std::size_t addrs = 0x69abe08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray*>(), { ".ctor", {}, {} })));

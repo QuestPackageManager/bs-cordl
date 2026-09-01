@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/Ed448KeyPairGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\Ed448KeyPairGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__Ed448KeyPairGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::*)(::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(
     &::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::Init)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33d4b18;
+  constexpr static std::size_t addrs = 0x33d88d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::GenerateKeyPair)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x33d4b30;
+  constexpr static std::size_t addrs = 0x33d88f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33d4be4;
+  constexpr static std::size_t addrs = 0x33d89a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::Ed448KeyPairGenerator*>(), { ".ctor", {}, {} })));

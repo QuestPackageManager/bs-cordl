@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/RuntimeVariables.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\RuntimeVariables.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IRuntimeVariables"
   constexpr operator ::System::Runtime::CompilerServices::IRuntimeVariables*() noexcept;
 
-  /// @brief Method Create, addr 0x5fabf80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5fb39fc, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::IRuntimeVariables* Create(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> boxes);
 
   static inline ::System::Linq::Expressions::Interpreter::RuntimeVariables* New_ctor(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> boxes);
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__boxes(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> value);
 
-  /// @brief Method .ctor, addr 0x5fb50fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbcb78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> boxes);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IRuntimeVariables"
@@ -65,7 +65,7 @@ public:
   RuntimeVariables(RuntimeVariables const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16576 };
 
   /// @brief Field _boxes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> ____boxes;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VFXTypeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VFXTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VFXTypeAttribute_def.hpp"
 #include "UnityEngine/VFX/zzzz__VFXTypeAttribute_def.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTypeAttribute::*)(::UnityEngine::VFX::VFXTypeAttribute_Usage, ::StringW)>(
     &::UnityEngine::VFX::VFXTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69ca7b8;
+  constexpr static std::size_t addrs = 0x69d2234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXTypeAttribute_Usage (::UnityEngine::VFX::VFXTypeAttribute::*)()>(&::UnityEngine::VFX::VFXTypeAttribute::get_usages)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca7c4;
+  constexpr static std::size_t addrs = 0x69d2240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXTypeAttribute*>(), { "get_usages", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTypeAttribute::*)(::UnityEngine::VFX::VFXTypeAttribute_Usage)>(&::UnityEngine::VFX::VFXTypeAttribute::set_usages)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca7cc;
+  constexpr static std::size_t addrs = 0x69d2248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::VFXTypeAttribute::*)()>(&::UnityEngine::VFX::VFXTypeAttribute::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca7d4;
+  constexpr static std::size_t addrs = 0x69d2250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXTypeAttribute*>(), { "get_name", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTypeAttribute::*)(::StringW)>(&::UnityEngine::VFX::VFXTypeAttribute::set_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca7dc;
+  constexpr static std::size_t addrs = 0x69d2258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

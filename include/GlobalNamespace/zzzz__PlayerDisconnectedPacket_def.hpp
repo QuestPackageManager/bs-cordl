@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerDisconnectedPacket.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerDisconnectedPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,18 +47,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x3329fe4, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x332dda4, size 0x2c, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x3329fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x332dd74, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerDisconnectedPacket* Init(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   static inline ::GlobalNamespace::PlayerDisconnectedPacket* New_ctor();
 
-  /// @brief Method Release, addr 0x332a010, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x332ddd0, size 0x58, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x3329fbc, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x332dd7c, size 0x28, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::DisconnectedReason const& __cordl_internal_get_disconnectedReason() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_disconnectedReason(::GlobalNamespace::DisconnectedReason value);
 
-  /// @brief Method .ctor, addr 0x332a068, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332de28, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0x3329f70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x332dd30, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PlayerDisconnectedPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -94,7 +94,7 @@ public:
   PlayerDisconnectedPacket(PlayerDisconnectedPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18130 };
 
   /// @brief Field disconnectedReason, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::DisconnectedReason ___disconnectedReason;

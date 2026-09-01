@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509ChainElement.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509ChainElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,16 +52,16 @@ public:
   /// @brief Field status, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> status;
 
-  /// @brief Method Count, addr 0x63a414c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x63abbc8, size 0x24, virtual false, abstract: false, final false
   inline int32_t Count(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Set, addr 0x63a4170, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x63abbec, size 0x84, virtual false, abstract: false, final false
   inline void Set(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> status, ::by_ref<int32_t> position,
                   ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags, ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags mask);
 
-  /// @brief Method UncompressFlags, addr 0x63a41f4, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method UncompressFlags, addr 0x63abc70, size 0x254, virtual false, abstract: false, final false
   inline void UncompressFlags();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2* const& __cordl_internal_get_certificate() const;
@@ -88,19 +88,19 @@ public:
 
   constexpr void __cordl_internal_set_status(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> value);
 
-  /// @brief Method .ctor, addr 0x63a4110, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63abb8c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method get_Certificate, addr 0x63a412c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x63abba8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Certificate();
 
-  /// @brief Method get_ChainElementStatus, addr 0x63a4134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChainElementStatus, addr 0x63abbb0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainElementStatus();
 
-  /// @brief Method get_StatusFlags, addr 0x63a413c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusFlags, addr 0x63abbb8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_StatusFlags();
 
-  /// @brief Method set_StatusFlags, addr 0x63a4144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusFlags, addr 0x63abbc0, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusFlags(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   X509ChainElement(X509ChainElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11201 };
 
   /// @brief Field certificate, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509Certificate2* ___certificate;

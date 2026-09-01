@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/MetaRemoteAssets/MockRemoteCatalogLoader.hpp"
+// IWYU pragma private; include "BGLib\MetaRemoteAssets\MockRemoteCatalogLoader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/MetaRemoteAssets/zzzz__MockRemoteCatalogLoader_def.hpp"
 #include "BGLib/MetaRemoteAssets/zzzz__IRemoteCatalogLoader_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader::*)(::System::Threading::CancellationToken)>(
     &::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader::LoadRemoteCatalogAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x331757c;
+  constexpr static std::size_t addrs = 0x331b33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader::*)()>(&::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33175ec;
+  constexpr static std::size_t addrs = 0x331b3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader*>(), { ".ctor", {}, {} })));

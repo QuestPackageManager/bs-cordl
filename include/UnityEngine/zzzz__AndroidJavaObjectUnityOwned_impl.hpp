@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AndroidJavaObjectUnityOwned.hpp"
+// IWYU pragma private; include "UnityEngine\AndroidJavaObjectUnityOwned.hpp"
 #include "UnityEngine/zzzz__AndroidJavaObject_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaObjectUnityOwned_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AndroidJavaObjectUnityOwned::*)(::System::IntPtr)>(&::UnityEngine::AndroidJavaObjectUnityOwned::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a29c1c;
+  constexpr static std::size_t addrs = 0x6a31698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AndroidJavaObjectUnityOwned::*)(bool)>(&::UnityEngine::AndroidJavaObjectUnityOwned::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6a29c20;
+  constexpr static std::size_t addrs = 0x6a3169c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

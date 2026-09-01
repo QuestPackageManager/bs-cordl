@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SubMeshDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SubMeshDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,52 +43,52 @@ public:
 
   __declspec(property(get = get_vertexCount, put = set_vertexCount)) int32_t vertexCount;
 
-  /// @brief Method ToString, addr 0x6b014ec, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b08f04, size 0x298, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6b0144c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b08e64, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t indexStart, int32_t indexCount, ::UnityEngine::MeshTopology topology);
 
-  /// @brief Method get_baseVertex, addr 0x6b014bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseVertex, addr 0x6b08ed4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_baseVertex();
 
-  /// @brief Method get_bounds, addr 0x6b01464, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x6b08e7c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_firstVertex, addr 0x6b014cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstVertex, addr 0x6b08ee4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_firstVertex();
 
-  /// @brief Method get_indexCount, addr 0x6b014ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexCount, addr 0x6b08ec4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_indexCount();
 
-  /// @brief Method get_indexStart, addr 0x6b0149c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexStart, addr 0x6b08eb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_indexStart();
 
-  /// @brief Method get_topology, addr 0x6b0148c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_topology, addr 0x6b08ea4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::MeshTopology get_topology();
 
-  /// @brief Method get_vertexCount, addr 0x6b014dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexCount, addr 0x6b08ef4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_vertexCount();
 
-  /// @brief Method set_baseVertex, addr 0x6b014c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseVertex, addr 0x6b08edc, size 0x8, virtual false, abstract: false, final false
   inline void set_baseVertex(int32_t value);
 
-  /// @brief Method set_bounds, addr 0x6b01478, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_bounds, addr 0x6b08e90, size 0x14, virtual false, abstract: false, final false
   inline void set_bounds(::UnityEngine::Bounds value);
 
-  /// @brief Method set_firstVertex, addr 0x6b014d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstVertex, addr 0x6b08eec, size 0x8, virtual false, abstract: false, final false
   inline void set_firstVertex(int32_t value);
 
-  /// @brief Method set_indexCount, addr 0x6b014b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_indexCount, addr 0x6b08ecc, size 0x8, virtual false, abstract: false, final false
   inline void set_indexCount(int32_t value);
 
-  /// @brief Method set_indexStart, addr 0x6b014a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_indexStart, addr 0x6b08ebc, size 0x8, virtual false, abstract: false, final false
   inline void set_indexStart(int32_t value);
 
-  /// @brief Method set_topology, addr 0x6b01494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_topology, addr 0x6b08eac, size 0x8, virtual false, abstract: false, final false
   inline void set_topology(::UnityEngine::MeshTopology value);
 
-  /// @brief Method set_vertexCount, addr 0x6b014e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vertexCount, addr 0x6b08efc, size 0x8, virtual false, abstract: false, final false
   inline void set_vertexCount(int32_t value);
 
   // Ctor Parameters []
@@ -103,7 +103,7 @@ public:
                               int32_t _indexCount_k__BackingField, int32_t _baseVertex_k__BackingField, int32_t _firstVertex_k__BackingField, int32_t _vertexCount_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10731 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

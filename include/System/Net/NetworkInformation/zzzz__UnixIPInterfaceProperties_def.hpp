@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/UnixIPInterfaceProperties.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\UnixIPInterfaceProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,14 +63,14 @@ public:
 
   constexpr void __cordl_internal_set_iface(::System::Net::NetworkInformation::UnixNetworkInterface* value);
 
-  /// @brief Method .ctor, addr 0x634b1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6352c3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_ns();
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_search();
 
-  /// @brief Method get_UnicastAddresses, addr 0x634f660, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method get_UnicastAddresses, addr 0x63570dc, size 0x1fc, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
 
   static inline void setStaticF_ns(::System::Text::RegularExpressions::Regex* value);
@@ -92,7 +92,7 @@ public:
   UnixIPInterfaceProperties(UnixIPInterfaceProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11714 };
 
   /// @brief Field iface, offset: 0x10, size: 0x8, def value: None
   ::System::Net::NetworkInformation::UnixNetworkInterface* ___iface;

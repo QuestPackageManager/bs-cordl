@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/BSLeaderboardHealthModel.hpp"
+// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\BSLeaderboardHealthModel.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/zzzz__XOCBeatGamesHealthCheckStatusValue_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLModel_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesHealthCheckStatusValue>)>(
     &::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel::set_Status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329cd8c;
+  constexpr static std::size_t addrs = 0x32a0b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::Be
     ::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel::get_Status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329cd94;
+  constexpr static std::size_t addrs = 0x32a0b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329cd9c;
+  constexpr static std::size_t addrs = 0x32a0b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel::*)(::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel*)>(
         &::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel::set_XocBeatGamesLeaderboardHealth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329cd78;
+  constexpr static std::size_t addrs = 0x32a0b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel_XocBeatGamesLeaderboardHealthModel* (
     ::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel::*)()>(&::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel::get_XocBeatGamesLeaderboardHealth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329cd80;
+  constexpr static std::size_t addrs = 0x32a0b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329cd88;
+  constexpr static std::size_t addrs = 0x32a0b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel*>(), { ".ctor", {}, {} })));

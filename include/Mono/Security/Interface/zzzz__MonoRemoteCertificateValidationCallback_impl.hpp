@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Interface/MonoRemoteCertificateValidationCallback.hpp"
+// IWYU pragma private; include "Mono\Security\Interface\MonoRemoteCertificateValidationCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Mono/Security/Interface/zzzz__MonoRemoteCertificateValidationCallback_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoSslPolicyErrors_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoRemoteCertificateValidationCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Security::Interface::MonoRemoteCertificateValidationCallback::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5a99b88;
+  constexpr static std::size_t addrs = 0x5a9e044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>(),
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::I
     ::StringW, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::Mono::Security::Interface::MonoSslPolicyErrors)>(
     &::Mono::Security::Interface::MonoRemoteCertificateValidationCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a99c08;
+  constexpr static std::size_t addrs = 0x5a9e0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>(),

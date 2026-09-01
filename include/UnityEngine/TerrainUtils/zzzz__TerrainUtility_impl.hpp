@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TerrainUtils/TerrainUtility.hpp"
+// IWYU pragma private; include "UnityEngine\TerrainUtils\TerrainUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TerrainUtils/zzzz__TerrainUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::*)()>(
     &::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bb3fc0;
+  constexpr static std::size_t addrs = 0x6bbbb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0*>(), { ".ctor", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::*)()>(
     &::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bb3fc4;
+  constexpr static std::size_t addrs = 0x6bbbb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>(), { ".ctor", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::*)(::UnityEngine::Terrain*)>(
     &::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_CollectTerrains_b__0)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6bb4324;
+  constexpr static std::size_t addrs = 0x6bbbea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1*>(),
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::ValidTerrainsExist)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6bb3c00;
+  constexpr static std::size_t addrs = 0x6bbb784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "ValidTerrainsExist", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::ClearConnectivity)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6bb3c60;
+  constexpr static std::size_t addrs = 0x6bbb7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "ClearConnectivity", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* (*)(bool)>(
     &::UnityEngine::TerrainUtils::TerrainUtility::CollectTerrains)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x6bb3d04;
+  constexpr static std::size_t addrs = 0x6bbb888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::AutoConnect)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x6bb3fc8;
+  constexpr static std::size_t addrs = 0x6bbbb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainUtils::TerrainUtility*>(), { "AutoConnect", {}, {} })));

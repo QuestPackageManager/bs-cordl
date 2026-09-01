@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SongPreviewPlayerPauseOnInputFocusLost.hpp"
+// IWYU pragma private; include "GlobalNamespace\SongPreviewPlayerPauseOnInputFocusLost.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,15 +34,15 @@ public:
   /// @brief Field _xrSystemState, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xrSystemState, put = __cordl_internal_set__xrSystemState)) ::GlobalNamespace::IXRSystemState* _xrSystemState;
 
-  /// @brief Method HandleSystemStateChange, addr 0x58bbfb8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HandleSystemStateChange, addr 0x58bb920, size 0x84, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58bbe7c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58bb7e4, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58bbd5c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58bb6c4, size 0x120, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase> const& __cordl_internal_get__songPreviewPlayer() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x58bc03c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bb9a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

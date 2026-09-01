@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/VmpcKsa3Engine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\VmpcKsa3Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +24,15 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-  /// @brief Method InitKey, addr 0x33cf0ec, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method InitKey, addr 0x33d2eac, size 0x298, virtual true, abstract: false, final false
   inline void InitKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33cf384, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d3144, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x33cf0a8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x33d2e68, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

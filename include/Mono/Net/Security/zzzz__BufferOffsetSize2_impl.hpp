@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Net/Security/BufferOffsetSize2.hpp"
+// IWYU pragma private; include "Mono\Net\Security\BufferOffsetSize2.hpp"
 #include "Mono/Net/Security/zzzz__BufferOffsetSize_impl.hpp"
 #include "Mono/Net/Security/zzzz__BufferOffsetSize2_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::BufferOffsetSize2._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::BufferOffsetSize2::*)(int32_t)>(&::Mono::Net::Security::BufferOffsetSize2::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5fced08;
+  constexpr static std::size_t addrs = 0x5fd6784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::BufferOffsetSize2::*)()>(&::Mono::Net::Security::BufferOffsetSize2::Reset)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5fced7c;
+  constexpr static std::size_t addrs = 0x5fd67f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::BufferOffsetSize2*>(), { "Reset", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::BufferOffsetSize2::*)(int32_t)>(&::Mono::Net::Security::BufferOffsetSize2::MakeRoom)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5fceddc;
+  constexpr static std::size_t addrs = 0x5fd6858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::BufferOffsetSize2::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Net::Security::BufferOffsetSize2::AppendData)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5fcee9c;
+  constexpr static std::size_t addrs = 0x5fd6918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

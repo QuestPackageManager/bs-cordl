@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionObjectiveTypeCollectionInstallerSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionObjectiveTypeCollectionInstallerSO.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveTypeSO_impl.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveTypeCollectionInstallerSO_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveTypeCollectionInstallerSO::*)()>(
     &::GlobalNamespace::MissionObjectiveTypeCollectionInstallerSO::InstallBindings)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3750c18;
+  constexpr static std::size_t addrs = 0x375683c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveTypeCollectionInstallerSO*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveTypeCollectionInstallerSO::*)()>(
     &::GlobalNamespace::MissionObjectiveTypeCollectionInstallerSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3750cec;
+  constexpr static std::size_t addrs = 0x3756910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveTypeCollectionInstallerSO*>(), { ".ctor", {}, {} })));

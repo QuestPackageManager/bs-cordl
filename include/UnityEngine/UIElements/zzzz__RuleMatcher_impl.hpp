@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/RuleMatcher.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\RuleMatcher.hpp"
 #include "UnityEngine/UIElements/zzzz__RuleMatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleComplexSelector_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::RuleMatcher::*)()>(&::UnityEngine::UIElements::RuleMatcher::ToString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6cb2a44;
+  constexpr static std::size_t addrs = 0x6cba5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

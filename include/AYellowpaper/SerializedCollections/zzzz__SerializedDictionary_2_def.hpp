@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AYellowpaper/SerializedCollections/SerializedDictionary_2.hpp"
+// IWYU pragma private; include "AYellowpaper\SerializedCollections\SerializedDictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -135,7 +135,7 @@ public:
   SerializedDictionary_2(SerializedDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23375 };
 
   /// @brief Field _serializedList, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::AYellowpaper::SerializedCollections::SerializedKeyValuePair_2<TKey, TValue>>* ____serializedList;

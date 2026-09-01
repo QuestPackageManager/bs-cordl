@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ServerCodeView.hpp"
+// IWYU pragma private; include "GlobalNamespace\ServerCodeView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,21 +44,21 @@ public:
   /// @brief Field _serverCodeText, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__serverCodeText, put = __cordl_internal_set__serverCodeText)) ::UnityW<::TMPro::TextMeshProUGUI> _serverCodeText;
 
-  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x5a1df14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x5a26000, size 0x10, virtual false, abstract: false, final false
   inline void HandleShowServerCodeButtonPressed();
 
   static inline ::GlobalNamespace::ServerCodeView* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5a1defc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a25fe8, size 0x18, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5a1de60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5a25f4c, size 0x9c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshText, addr 0x5a1ddbc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RefreshText, addr 0x5a25ea8, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshText(bool showCode);
 
-  /// @brief Method SetCode, addr 0x5a1ddac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetCode, addr 0x5a25e98, size 0x10, virtual false, abstract: false, final false
   inline void SetCode(::StringW serverCode);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__serverCodeText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5a1df24, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a26010, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,7 +109,7 @@ public:
   ServerCodeView(ServerCodeView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6468 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6496 };
 
   /// @brief Field _serverCodeText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____serverCodeText;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextureColorSpace.hpp"
+// IWYU pragma private; include "UnityEngine\TextureColorSpace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   static ::UnityEngine::TextureColorSpace const Linear;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10198 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

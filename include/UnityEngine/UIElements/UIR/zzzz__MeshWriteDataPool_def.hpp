@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshWriteDataPool.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\MeshWriteDataPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::MeshWriteDataPool___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x6cde624, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x6ce61a8, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* __cctor_b__2_0();
 
-  /// @brief Method .ctor, addr 0x6cde620, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce61a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::MeshWriteDataPool___c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::MeshWriteDataPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cde474, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce5ff8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_1<::UnityEngine::UIElements::MeshWriteData*>* getStaticF_k_CreateAction();

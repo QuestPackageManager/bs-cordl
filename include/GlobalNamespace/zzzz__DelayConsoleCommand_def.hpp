@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DelayConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\DelayConsoleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +80,7 @@ public:
 
   static inline ::GlobalNamespace::DelayConsoleCommand___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <ExecuteAsync>b__0, addr 0x32ca798, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteAsync>b__0, addr 0x32ce594, size 0x170, virtual false, abstract: false, final false
   inline bool _ExecuteAsync_b__0();
 
   constexpr ::GlobalNamespace::DelayConsoleCommand* const& __cordl_internal_get___4__this() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_messages(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* value);
 
-  /// @brief Method .ctor, addr 0x32ca640, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ce43c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   DelayConsoleCommand___c__DisplayClass8_0(DelayConsoleCommand___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19381 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::DelayConsoleCommand* _____4__this;
@@ -166,21 +166,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x32ca90c, size 0x338, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32ce708, size 0x338, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32cac44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32cea40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32cac4c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32cea48, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32cac84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32cea80, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x32ca908, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x32ce704, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set__wholeSeconds_5__2(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32ca698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ce494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -240,7 +240,7 @@ public:
   DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9(DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19382 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -300,10 +300,10 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method CoroutineControlsCommandLifecycle, addr 0x32ca644, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CoroutineControlsCommandLifecycle, addr 0x32ce440, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CoroutineControlsCommandLifecycle();
 
-  /// @brief Method ExecuteAsync, addr 0x32ca484, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x32ce280, size 0x1bc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   static inline ::GlobalNamespace::DelayConsoleCommand* New_ctor();
@@ -332,13 +332,13 @@ public:
 
   constexpr void __cordl_internal_set__terminalController(::GlobalNamespace::TerminalController* value);
 
-  /// @brief Method .ctor, addr 0x32ca6a0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ce49c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32ca3fc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x32ce1f8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32ca440, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x32ce23c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -356,7 +356,7 @@ public:
   DelayConsoleCommand(DelayConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19383 };
 
   /// @brief Field _coroutineStarter, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;

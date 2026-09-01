@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Diagnostics/DictionaryTraceRecord.hpp"
+// IWYU pragma private; include "System\Runtime\Diagnostics\DictionaryTraceRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Runtime::Diagnostics::DictionaryTraceRecord* New_ctor(::System::Collections::IDictionary* dictionary);
 
-  /// @brief Method WriteTo, addr 0x6185318, size 0x420, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x618cd94, size 0x420, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* xml);
 
   constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_dictionary() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_dictionary(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x618530c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618cd88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* dictionary);
 
 protected:
@@ -57,7 +57,7 @@ public:
   DictionaryTraceRecord(DictionaryTraceRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21323 };
 
   /// @brief Field dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___dictionary;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DragAndDropData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DragAndDropData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set__paths_k__BackingField(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6d82b4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d8a6d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_source, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_source();
 
-  /// @brief Method set_paths, addr 0x6d83ec4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_paths, addr 0x6d8ba48, size 0x8, virtual true, abstract: false, final false
   inline void set_paths(::ArrayW<::StringW> value);
 
 protected:

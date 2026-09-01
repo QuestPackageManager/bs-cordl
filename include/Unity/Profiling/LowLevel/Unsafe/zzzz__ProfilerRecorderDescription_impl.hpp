@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Profiling/LowLevel/Unsafe/ProfilerRecorderDescription.hpp"
+// IWYU pragma private; include "Unity\Profiling\LowLevel\Unsafe\ProfilerRecorderDescription.hpp"
 #include "Unity/Profiling/LowLevel/zzzz__MarkerFlags_impl.hpp"
 #include "Unity/Profiling/LowLevel/zzzz__ProfilerMarkerDataType_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCategory_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerCategory (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Category)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a564c4;
+  constexpr static std::size_t addrs = 0x6a5df40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::LowLevel::MarkerFlags (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a564cc;
+  constexpr static std::size_t addrs = 0x6a5df48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Name)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a564d4;
+  constexpr static std::size_t addrs = 0x6a5df50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

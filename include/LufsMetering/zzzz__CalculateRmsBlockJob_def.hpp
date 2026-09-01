@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering/CalculateRmsBlockJob.hpp"
+// IWYU pragma private; include "LufsMetering\CalculateRmsBlockJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Create, addr 0x3264d04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x326809c, size 0xc, virtual false, abstract: false, final false
   static inline ::LufsMetering::CalculateRmsBlockJob Create(::Unity::Collections::NativeArray_1<float_t> inputData);
 
-  /// @brief Method Execute, addr 0x3264d10, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x32680a8, size 0xc8, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -48,7 +48,7 @@ public:
   constexpr CalculateRmsBlockJob(::Unity::Collections::NativeArray_1<float_t> inputData, float_t outputData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22639 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

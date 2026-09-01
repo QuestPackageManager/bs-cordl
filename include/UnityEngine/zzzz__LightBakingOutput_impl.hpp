@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/LightBakingOutput.hpp"
+// IWYU pragma private; include "UnityEngine\LightBakingOutput.hpp"
 #include "UnityEngine/zzzz__LightmapBakeType_impl.hpp"
 #include "UnityEngine/zzzz__MixedLightingMode_impl.hpp"
 #include "UnityEngine/zzzz__LightBakingOutput_def.hpp"

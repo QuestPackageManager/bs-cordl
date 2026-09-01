@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/RuntimeImports.hpp"
+// IWYU pragma private; include "System\Runtime\RuntimeImports.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/zzzz__RuntimeImports_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint8_t>, uint64_t)>(&::System::Runtime::RuntimeImports::RhZeroMemory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b1c7c4;
+  constexpr static std::size_t addrs = 0x5b20c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, uint32_t)>(&::System::Runtime::RuntimeImports::ZeroMemory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b1c7d0;
+  constexpr static std::size_t addrs = 0x5b20c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, uint32_t)>(&::System::Runtime::RuntimeImports::Memmove)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1c7dc;
+  constexpr static std::size_t addrs = 0x5b20c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::RuntimeImports*>(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, uint32_t, ::System::IntPtr)>(&::System::Runtime::RuntimeImports::Memmove_wbarrier)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b1c7e4;
+  constexpr static std::size_t addrs = 0x5b20ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

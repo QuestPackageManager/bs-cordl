@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PollRepContent.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\PollRepContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   /// @brief Field reason, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason)) ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* reason;
 
-  /// @brief Method GetInstance, addr 0x3348d84, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x334cb44, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter);
@@ -59,7 +59,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x334c7a8, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3350568, size 0x180, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_certReqId() const;
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_reason(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* value);
 
-  /// @brief Method .ctor, addr 0x334c778, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3350538, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter);
 
-  /// @brief Method .ctor, addr 0x334c784, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3350544, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* reason);
 
-  /// @brief Method .ctor, addr 0x334c6dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335049c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertReqID, addr 0x334c790, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertReqID, addr 0x3350550, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_CheckAfter, addr 0x334c798, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CheckAfter, addr 0x3350558, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CheckAfter();
 
-  /// @brief Method get_Reason, addr 0x334c7a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Reason, addr 0x3350560, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_Reason();
 
 protected:

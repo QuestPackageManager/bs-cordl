@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Globalization/Unicode/SortKeyBuffer.hpp"
+// IWYU pragma private; include "Mono\Globalization\Unicode\SortKeyBuffer.hpp"
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SortKeyBuffer_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(int32_t)>(&::Mono::Globalization::Unicode::SortKeyBuffer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aafbf0;
+  constexpr static std::size_t addrs = 0x5ab40ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&::Mono::Globalization::Unicode::SortKeyBuffer::Reset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ab43c8;
+  constexpr static std::size_t addrs = 0x5ab8884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SortKeyBuffer*>(), { "Reset", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(::System::Globalization::CompareOptions, int32_t, ::StringW, bool)>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::Initialize)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5aafbf4;
+  constexpr static std::size_t addrs = 0x5ab40b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t)>(&::Mono::Globalization::Unicode::SortKeyBuffer::AppendCJKExtension)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ab0838;
+  constexpr static std::size_t addrs = 0x5ab4cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t, bool, uint8_t, bool, bool)>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::AppendKana)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5ab0970;
+  constexpr static std::size_t addrs = 0x5ab4e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t)>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::AppendNormal)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5ab0708;
+  constexpr static std::size_t addrs = 0x5ab4bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t)>(&::Mono::Globalization::Unicode::SortKeyBuffer::AppendLevel5)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5ab44a8;
+  constexpr static std::size_t addrs = 0x5ab8964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, ::by_ref<::ArrayW<uint8_t>>, ::by_ref<int32_t>)>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::AppendBufferPrimitive)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5ab43dc;
+  constexpr static std::size_t addrs = 0x5ab8898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::SortKey* (::Mono::Globalization::Unicode::SortKeyBuffer::*)()>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::GetResultAndReset)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5ab00f4;
+  constexpr static std::size_t addrs = 0x5ab45b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SortKeyBuffer*>(), { "GetResultAndReset", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::SortKeyBuffer::*)(::ArrayW<uint8_t>, int32_t, uint8_t)>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::GetOptimizedLength)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5ab496c;
+  constexpr static std::size_t addrs = 0x5ab8e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::SortKey* (::Mono::Globalization::Unicode::SortKeyBuffer::*)()>(
     &::Mono::Globalization::Unicode::SortKeyBuffer::GetResult)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x5ab4538;
+  constexpr static std::size_t addrs = 0x5ab89f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::SortKeyBuffer*>(), { "GetResult", {}, {} })));

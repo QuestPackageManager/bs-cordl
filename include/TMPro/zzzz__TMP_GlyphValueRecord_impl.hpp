@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_GlyphValueRecord.hpp"
+// IWYU pragma private; include "TMPro\TMP_GlyphValueRecord.hpp"
 #include "TMPro/zzzz__TMP_GlyphValueRecord_def.hpp"
 #include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_GlyphValueRecord::*)()>(&::TMPro::TMP_GlyphValueRecord::get_xPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695742c;
+  constexpr static std::size_t addrs = 0x695eea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphValueRecord>(), { "get_xPlacement", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(float_t)>(&::TMPro::TMP_GlyphValueRecord::set_xPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6957434;
+  constexpr static std::size_t addrs = 0x695eeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphValueRecord>(), { "set_xPlacement", {}, { ::i2c::type_of<float_t>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_GlyphValueRecord::*)()>(&::TMPro::TMP_GlyphValueRecord::get_yPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695743c;
+  constexpr static std::size_t addrs = 0x695eeb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphValueRecord>(), { "get_yPlacement", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(float_t)>(&::TMPro::TMP_GlyphValueRecord::set_yPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6957444;
+  constexpr static std::size_t addrs = 0x695eec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphValueRecord>(), { "set_yPlacement", {}, { ::i2c::type_of<float_t>() } })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_GlyphValueRecord::*)()>(&::TMPro::TMP_GlyphValueRecord::get_xAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695744c;
+  constexpr static std::size_t addrs = 0x695eec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphValueRecord>(), { "get_xAdvance", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(float_t)>(&::TMPro::TMP_GlyphValueRecord::set_xAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6957454;
+  constexpr static std::size_t addrs = 0x695eed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphValueRecord>(), { "set_xAdvance", {}, { ::i2c::type_of<float_t>() } })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_GlyphValueRecord::*)()>(&::TMPro::TMP_GlyphValueRecord::get_yAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x695745c;
+  constexpr static std::size_t addrs = 0x695eed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphValueRecord>(), { "get_yAdvance", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(float_t)>(&::TMPro::TMP_GlyphValueRecord::set_yAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6957464;
+  constexpr static std::size_t addrs = 0x695eee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphValueRecord>(), { "set_yAdvance", {}, { ::i2c::type_of<float_t>() } })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(float_t, float_t, float_t, float_t)>(&::TMPro::TMP_GlyphValueRecord::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x695746c;
+  constexpr static std::size_t addrs = 0x695eee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(::TMPro::GlyphValueRecord_Legacy)>(&::TMPro::TMP_GlyphValueRecord::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6957478;
+  constexpr static std::size_t addrs = 0x695eef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphValueRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&::TMPro::TMP_GlyphValueRecord::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6957484;
+  constexpr static std::size_t addrs = 0x695ef00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_GlyphValueRecord (*)(::TMPro::TMP_GlyphValueRecord, ::TMPro::TMP_GlyphValueRecord)>(&::TMPro::TMP_GlyphValueRecord::op_Addition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6957490;
+  constexpr static std::size_t addrs = 0x695ef0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SubContainerCreatorUtil.hpp"
+// IWYU pragma private; include "Zenject\SubContainerCreatorUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorUtil_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::SubContainerCreatorBindInfo*, ::Zenject::DiContainer*)>(&::Zenject::SubContainerCreatorUtil::ApplyBindSettings)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x6e82c20;
+  constexpr static std::size_t addrs = 0x6e8a7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

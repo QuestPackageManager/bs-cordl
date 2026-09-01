@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/DigestHeaderParser.hpp"
+// IWYU pragma private; include "System\Net\DigestHeaderParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,18 +47,18 @@ public:
   /// @brief Field values, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::ArrayW<::StringW> values;
 
-  /// @brief Method GetKey, addr 0x64225e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x642a064, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetKey();
 
-  /// @brief Method GetKeywordAndValue, addr 0x64223cc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetKeywordAndValue, addr 0x6429e48, size 0x184, virtual false, abstract: false, final false
   inline bool GetKeywordAndValue(::by_ref<::StringW> key, ::by_ref<::StringW> value);
 
   static inline ::System::Net::DigestHeaderParser* New_ctor(::StringW header);
 
-  /// @brief Method Parse, addr 0x6422218, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x6429c94, size 0x1b4, virtual false, abstract: false, final false
   inline bool Parse();
 
-  /// @brief Method SkipWhitespace, addr 0x6422550, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespace, addr 0x6429fcc, size 0x98, virtual false, abstract: false, final false
   inline void SkipWhitespace();
 
   constexpr ::StringW const& __cordl_internal_get_header() const;
@@ -85,24 +85,24 @@ public:
 
   constexpr void __cordl_internal_set_values(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6422090, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6429b0c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
   static inline ::ArrayW<::StringW> getStaticF_keywords();
 
-  /// @brief Method get_Algorithm, addr 0x64221c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x6429c3c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_Nonce, addr 0x6422194, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x6429c10, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Nonce();
 
-  /// @brief Method get_Opaque, addr 0x6422168, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Opaque, addr 0x6429be4, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Opaque();
 
-  /// @brief Method get_QOP, addr 0x64221ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_QOP, addr 0x6429c68, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_QOP();
 
-  /// @brief Method get_Realm, addr 0x6422140, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Realm, addr 0x6429bbc, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
   static inline void setStaticF_keywords(::ArrayW<::StringW> value);
@@ -122,7 +122,7 @@ public:
   DigestHeaderParser(DigestHeaderParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11583 };
 
   /// @brief Field header, offset: 0x10, size: 0x8, def value: None
   ::StringW ___header;

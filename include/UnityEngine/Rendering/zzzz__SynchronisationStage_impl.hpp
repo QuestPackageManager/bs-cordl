@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SynchronisationStage.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SynchronisationStage.hpp"
 #include "UnityEngine/Rendering/zzzz__SynchronisationStage_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::SynchronisationStage::SynchronisationStage(int32_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_positiveInteger.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_positiveInteger.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_nonNegativeInteger_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_positiveInteger_def.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_positiveInteger::*)()>(
     &::System::Xml::Schema::Datatype_positiveInteger::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61c2aa4;
+  constexpr static std::size_t addrs = 0x61ca520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_positiveInteger::*)()>(
     &::System::Xml::Schema::Datatype_positiveInteger::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c2b00;
+  constexpr static std::size_t addrs = 0x61ca57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_positiveInteger::*)()>(&::System::Xml::Schema::Datatype_positiveInteger::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61b8758;
+  constexpr static std::size_t addrs = 0x61c01d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_positiveInteger*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/ExternalProcessHelper.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\ExternalProcessHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/zzzz__ExternalProcessHelper_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::Process* (*)(::StringW, ::StringW)>(&::BGLib::DotnetExtension::ExternalProcessHelper::StartBackgroundProcess)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x330b644;
+  constexpr static std::size_t addrs = 0x330f440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::ExternalProcessHelper*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::StringW, ::StringW)>(
     &::BGLib::DotnetExtension::ExternalProcessHelper::GetProcessOutputLines)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x330b6b8;
+  constexpr static std::size_t addrs = 0x330f4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::ExternalProcessHelper*>(),

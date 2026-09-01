@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DrawSkyboxPass.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DrawSkyboxPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x687d1d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6884c50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   DrawSkyboxPass_PassData(DrawSkyboxPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12832 };
 
   /// @brief Field xr, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Experimental::Rendering::XRPass* ___xr;
@@ -167,10 +167,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* New_ctor();
 
-  /// @brief Method <Render>b__7_0, addr 0x687d230, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__7_0, addr 0x6884cac, size 0x4c, virtual false, abstract: false, final false
   inline void _Render_b__7_0(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x687d22c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6884ca8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* getStaticF___9();
@@ -199,7 +199,7 @@ public:
   DrawSkyboxPass___c(DrawSkyboxPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -218,32 +218,32 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c;
 
-  /// @brief Method CreateSkyBoxRendererList, addr 0x687c950, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyBoxRendererList, addr 0x68843cc, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyBoxRendererList(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                   ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method CreateSkyboxRendererList, addr 0x687c690, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyboxRendererList, addr 0x688410c, size 0x1a0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList(::UnityEngine::Rendering::ScriptableRenderContext context,
                                                                          ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method Execute, addr 0x687c558, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6883fd4, size 0x138, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x687c830, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x68842ac, size 0x120, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method InitPassData, addr 0x687cac0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x688453c, size 0x38, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*> passData, ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr,
                            ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> handle);
 
   static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x687caf8, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6884574, size 0x6dc, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget, ::UnityEngine::Material* skyboxMaterial);
 
-  /// @brief Method .ctor, addr 0x687c4c4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6883f40, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -261,7 +261,7 @@ public:
   DrawSkyboxPass(DrawSkyboxPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

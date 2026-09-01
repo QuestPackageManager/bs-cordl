@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DebugRendererBatcherStats.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DebugRendererBatcherStats.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugOccluderStats_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugRendererBatcherStats::*)()>(&::UnityEngine::Rendering::DebugRendererBatcherStats::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x680e574;
+  constexpr static std::size_t addrs = 0x6815ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugRendererBatcherStats::*)()>(&::UnityEngine::Rendering::DebugRendererBatcherStats::Dispose)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x680e644;
+  constexpr static std::size_t addrs = 0x68160c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugRendererBatcherStats*>(), { "Dispose", {}, {} })));

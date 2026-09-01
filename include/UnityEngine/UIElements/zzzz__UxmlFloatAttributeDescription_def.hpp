@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlFloatAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlFloatAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,10 +47,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6cb6ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6cbe72c, size 0x8, virtual false, abstract: false, final false
   inline float_t _GetValueFromBag_b__3_0(::StringW s, float_t f);
 
-  /// @brief Method .ctor, addr 0x6cb6ba4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbe728, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription___c* getStaticF___9();
@@ -93,15 +93,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlFloatAttributeDescription___c;
 
-  /// @brief Method ConvertValueToFloat, addr 0x6cb6ab8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToFloat, addr 0x6cbe63c, size 0x98, virtual false, abstract: false, final false
   static inline float_t ConvertValueToFloat(::StringW v, float_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x6cb6920, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x6cbe4a4, size 0x198, virtual true, abstract: false, final false
   inline float_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlFloatAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cb6880, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbe404, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

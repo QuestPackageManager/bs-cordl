@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/ManifestResourceInfo.hpp"
+// IWYU pragma private; include "System\Reflection\ManifestResourceInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set__ResourceLocation_k__BackingField(::System::Reflection::ResourceLocation value);
 
-  /// @brief Method .ctor, addr 0x5b7a9c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b7ee84, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::Assembly* containingAssembly, ::StringW containingFileName, ::System::Reflection::ResourceLocation resourceLocation);
 
-  /// @brief Method get_FileName, addr 0x5b7a9dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x5b7ee98, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_ReferencedAssembly, addr 0x5b7a9d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReferencedAssembly, addr 0x5b7ee90, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::Assembly* get_ReferencedAssembly();
 
-  /// @brief Method get_ResourceLocation, addr 0x5b7a9e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResourceLocation, addr 0x5b7eea0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::ResourceLocation get_ResourceLocation();
 
 protected:

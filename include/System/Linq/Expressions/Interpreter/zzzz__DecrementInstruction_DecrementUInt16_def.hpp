@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/DecrementInstruction_DecrementUInt16.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\DecrementInstruction_DecrementUInt16.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DecrementInstruction_DecrementUInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x5f8a08c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f91b08, size 0x74, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5f89f04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f91980, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   DecrementInstruction_DecrementUInt16(DecrementInstruction_DecrementUInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

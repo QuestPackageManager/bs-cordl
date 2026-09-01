@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IAppIdentification.hpp"
+// IWYU pragma private; include "GlobalNamespace\IAppIdentification.hpp"
 #include "GlobalNamespace/zzzz__IAppIdentification_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IAppIdentification.get_appId
 template <>

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/DESTransform.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\DESTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,27 +63,27 @@ public:
   /// @brief Field spBoxes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_spBoxes, put = setStaticF_spBoxes)) ::ArrayW<uint32_t> spBoxes;
 
-  /// @brief Method BSwap, addr 0x5b0820c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method BSwap, addr 0x5b0c6c8, size 0x60, virtual false, abstract: false, final false
   static inline void BSwap(::ArrayW<uint8_t> byteBuff);
 
-  /// @brief Method CipherFunct, addr 0x5b07d10, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method CipherFunct, addr 0x5b0c1cc, size 0x230, virtual false, abstract: false, final false
   inline uint32_t CipherFunct(uint32_t r, int32_t n);
 
-  /// @brief Method ECB, addr 0x5b0860c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x5b0cac8, size 0xa8, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
 
-  /// @brief Method GetStrongKey, addr 0x5b07888, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetStrongKey, addr 0x5b0bd44, size 0xdc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetStrongKey();
 
   static inline ::System::Security::Cryptography::DESTransform* New_ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv);
 
-  /// @brief Method Permutation, addr 0x5b07f40, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method Permutation, addr 0x5b0c3fc, size 0x2cc, virtual false, abstract: false, final false
   static inline void Permutation(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output, ::ArrayW<uint32_t> permTab, bool preSwap);
 
-  /// @brief Method ProcessBlock, addr 0x5b0826c, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x5b0c728, size 0x3a0, virtual false, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
 
-  /// @brief Method SetKey, addr 0x5b07964, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x5b0be20, size 0x3ac, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t> key);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_byteBuff() const;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_keySchedule(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x5b07658, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b0bb14, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv);
 
   static inline int32_t getStaticF_BLOCK_BIT_SIZE();

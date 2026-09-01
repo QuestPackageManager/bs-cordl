@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SpawnRotationChevronManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\SpawnRotationChevronManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_fullyLit(bool value);
 
-  /// @brief Method .ctor, addr 0x599f0dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a7010, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,7 +131,7 @@ public:
   SpawnRotationChevronManager_DirectionData(SpawnRotationChevronManager_DirectionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5979 };
 
   /// @brief Field chevron, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SpawnRotationChevron> ___chevron;
@@ -166,7 +166,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SpawnRotationChevronManager_QueuedDirectionData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x599f0d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a7004, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t duration, int32_t rotation);
 
   // Ctor Parameters []
@@ -178,7 +178,7 @@ public:
   constexpr SpawnRotationChevronManager_QueuedDirectionData(float_t time, float_t duration, int32_t rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5980 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -274,18 +274,18 @@ public:
   __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
                       put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
 
-  /// @brief Method HandleBeatmapObjectCallback, addr 0x599f00c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectCallback, addr 0x59a6f40, size 0xc4, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
   static inline ::GlobalNamespace::SpawnRotationChevronManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x599efcc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59a6f00, size 0x40, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SpawnDirectionData, addr 0x599ec20, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method SpawnDirectionData, addr 0x59a6b54, size 0x3ac, virtual false, abstract: false, final false
   inline void SpawnDirectionData(float_t time, float_t duration, int32_t rotation);
 
-  /// @brief Method Update, addr 0x599e480, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59a63b4, size 0x7a0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__activeDirections() const;
@@ -390,7 +390,7 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x599f0e0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a7014, size 0x180, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -408,7 +408,7 @@ public:
   SpawnRotationChevronManager(SpawnRotationChevronManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5981 };
 
   /// @brief Field _fadeInTime, offset: 0x20, size: 0x4, def value: None
   float_t ____fadeInTime;

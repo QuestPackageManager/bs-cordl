@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXTerrainBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXTerrainBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXTerrainBinder_def.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__ExposedProperty_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXTerrainBinder::*)()>(&::UnityEngine::VFX::Utility::VFXTerrainBinder::get_Property)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69e00f8;
+  constexpr static std::size_t addrs = 0x69e7b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXTerrainBinder*>(), { "get_Property", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXTerrainBinder::*)(::StringW)>(&::UnityEngine::VFX::Utility::VFXTerrainBinder::set_Property)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69e0110;
+  constexpr static std::size_t addrs = 0x69e7b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXTerrainBinder::*)()>(&::UnityEngine::VFX::Utility::VFXTerrainBinder::OnEnable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69e0260;
+  constexpr static std::size_t addrs = 0x69e7cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXTerrainBinder::*)()>(&::UnityEngine::VFX::Utility::VFXTerrainBinder::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69e0278;
+  constexpr static std::size_t addrs = 0x69e7cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXTerrainBinder*>(), { "OnValidate", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXTerrainBinder::*)()>(&::UnityEngine::VFX::Utility::VFXTerrainBinder::UpdateSubProperties)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x69e0138;
+  constexpr static std::size_t addrs = 0x69e7bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXTerrainBinder*>(), { "UpdateSubProperties", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXTerrainBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXTerrainBinder::IsValid)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x69e027c;
+  constexpr static std::size_t addrs = 0x69e7cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXTerrainBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXTerrainBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x69e0388;
+  constexpr static std::size_t addrs = 0x69e7e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXTerrainBinder::*)()>(&::UnityEngine::VFX::Utility::VFXTerrainBinder::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69e04d0;
+  constexpr static std::size_t addrs = 0x69e7f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXTerrainBinder::*)()>(&::UnityEngine::VFX::Utility::VFXTerrainBinder::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69e05cc;
+  constexpr static std::size_t addrs = 0x69e8048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXTerrainBinder*>(), { ".ctor", {}, {} })));

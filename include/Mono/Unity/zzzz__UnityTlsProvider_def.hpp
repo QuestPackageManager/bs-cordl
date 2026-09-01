@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Unity/UnityTlsProvider.hpp"
+// IWYU pragma private; include "Mono\Unity\UnityTlsProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,43 +74,43 @@ public:
 
   __declspec(property(get = get_ID)) ::System::Guid _cordl_ID;
 
-  /// @brief Method CreateSslStream, addr 0x5fcdaac, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CreateSslStream, addr 0x5fd5528, size 0x8c, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* CreateSslStream(::System::Net::Security::SslStream* sslStream, ::System::IO::Stream* innerStream, bool leaveInnerStreamOpen,
                                                                            ::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline ::Mono::Unity::UnityTlsProvider* New_ctor();
 
-  /// @brief Method ValidateCertificate, addr 0x5fcdbd0, size 0x890, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x5fd564c, size 0x890, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::Mono::Net::Security::ChainValidationHelper* validator, ::StringW targetHost, bool serverMode,
                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain,
                                   ::by_ref<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ::by_ref<::System::Net::Security::SslPolicyErrors> errors,
                                   ::by_ref<int32_t> status11);
 
-  /// @brief Method .ctor, addr 0x5fce510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd5f8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ID, addr 0x5fcda28, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x5fd54a4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Guid get_ID();
 
-  /// @brief Method get_Name, addr 0x5fcd9e4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5fd5460, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_SupportedProtocols, addr 0x5fcdaa4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportedProtocols, addr 0x5fd5520, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_SupportedProtocols();
 
-  /// @brief Method get_SupportsCleanShutdown, addr 0x5fcda9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsCleanShutdown, addr 0x5fd5518, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsCleanShutdown();
 
-  /// @brief Method get_SupportsConnectionInfo, addr 0x5fcda94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsConnectionInfo, addr 0x5fd5510, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsConnectionInfo();
 
-  /// @brief Method get_SupportsMonoExtensions, addr 0x5fcda8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsMonoExtensions, addr 0x5fd5508, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsMonoExtensions();
 
-  /// @brief Method get_SupportsSslStream, addr 0x5fcda84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsSslStream, addr 0x5fd5500, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsSslStream();
 
-  /// @brief Method x509verify_callback, addr 0x5fcd980, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method x509verify_callback, addr 0x5fd53fc, size 0x64, virtual false, abstract: false, final false
   static inline ::Mono::Unity::UnityTls_unitytls_x509verify_result x509verify_callback(void* userData, ::Mono::Unity::UnityTls_unitytls_x509_ref cert,
                                                                                        ::Mono::Unity::UnityTls_unitytls_x509verify_result result,
                                                                                        ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
@@ -130,7 +130,7 @@ public:
   UnityTlsProvider(UnityTlsProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11003 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

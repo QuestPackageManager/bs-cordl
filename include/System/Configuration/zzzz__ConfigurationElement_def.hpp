@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Configuration/ConfigurationElement.hpp"
+// IWYU pragma private; include "System\Configuration\ConfigurationElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,16 +24,16 @@ public:
   // Declarations
   __declspec(property(get = get_Properties)) ::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method IsModified, addr 0x5f4fdc8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x5f57844, size 0x3c, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method Reset, addr 0x5f4fe04, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5f57880, size 0x3c, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method ResetModified, addr 0x5f4fe40, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x5f578bc, size 0x3c, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method get_Properties, addr 0x5f4fd8c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x5f57808, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -51,7 +51,7 @@ public:
   ConfigurationElement(ConfigurationElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23771 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

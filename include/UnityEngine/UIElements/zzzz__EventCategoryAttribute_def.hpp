@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EventCategoryAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EventCategoryAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_category(::UnityEngine::UIElements::EventCategory value);
 
-  /// @brief Method .ctor, addr 0x6cc33b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccaf38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventCategory category);
 
 protected:

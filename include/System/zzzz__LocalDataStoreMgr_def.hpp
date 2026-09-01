@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/LocalDataStoreMgr.hpp"
+// IWYU pragma private; include "System\LocalDataStoreMgr.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,33 +54,33 @@ public:
   /// @brief Field m_SlotInfoTable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SlotInfoTable, put = __cordl_internal_set_m_SlotInfoTable)) ::ArrayW<bool> m_SlotInfoTable;
 
-  /// @brief Method AllocateDataSlot, addr 0x5c6d0e4, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method AllocateDataSlot, addr 0x5c715a0, size 0x258, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreSlot* AllocateDataSlot();
 
-  /// @brief Method AllocateNamedDataSlot, addr 0x5c6d33c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AllocateNamedDataSlot, addr 0x5c717f8, size 0x130, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreSlot* AllocateNamedDataSlot(::StringW name);
 
-  /// @brief Method CreateLocalDataStore, addr 0x5c6cf38, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method CreateLocalDataStore, addr 0x5c713f4, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreHolder* CreateLocalDataStore();
 
-  /// @brief Method DeleteLocalDataStore, addr 0x5c6c734, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method DeleteLocalDataStore, addr 0x5c70bf0, size 0x108, virtual false, abstract: false, final false
   inline void DeleteLocalDataStore(::System::LocalDataStore* store);
 
-  /// @brief Method FreeDataSlot, addr 0x5c6cd94, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method FreeDataSlot, addr 0x5c71250, size 0x1a4, virtual false, abstract: false, final false
   inline void FreeDataSlot(int32_t slot, int64_t cookie);
 
-  /// @brief Method FreeNamedDataSlot, addr 0x5c6d58c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method FreeNamedDataSlot, addr 0x5c71a48, size 0x108, virtual false, abstract: false, final false
   inline void FreeNamedDataSlot(::StringW name);
 
-  /// @brief Method GetNamedDataSlot, addr 0x5c6d46c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetNamedDataSlot, addr 0x5c71928, size 0x120, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreSlot* GetNamedDataSlot(::StringW name);
 
-  /// @brief Method GetSlotTableLength, addr 0x5c6ccf4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetSlotTableLength, addr 0x5c711b0, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetSlotTableLength();
 
   static inline ::System::LocalDataStoreMgr* New_ctor();
 
-  /// @brief Method ValidateSlot, addr 0x5c6c8f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ValidateSlot, addr 0x5c70db4, size 0x64, virtual false, abstract: false, final false
   inline void ValidateSlot(::System::LocalDataStoreSlot* slot);
 
   constexpr int64_t const& __cordl_internal_get_m_CookieGenerator() const;
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SlotInfoTable(::ArrayW<bool> value);
 
-  /// @brief Method .ctor, addr 0x5c6d694, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c71b50, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

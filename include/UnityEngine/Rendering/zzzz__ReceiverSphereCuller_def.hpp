@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ReceiverSphereCuller.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ReceiverSphereCuller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   constexpr ReceiverSphereCuller_SplitInfo(::Unity::Mathematics::float4 receiverSphereLightSpace, float_t cascadeBlendCullingFactor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17613 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -95,25 +95,25 @@ public:
   // Declarations
   using SplitInfo = ::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo;
 
-  /// @brief Method ComputeSplitVisibilityMask, addr 0x6809390, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ComputeSplitVisibilityMask, addr 0x6810e0c, size 0x28c, virtual false, abstract: false, final false
   static inline uint32_t ComputeSplitVisibilityMask(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> lightFacingFrustumPlanes,
                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo> splitInfos,
                                                     ::Unity::Mathematics::float3x3 worldToLightSpaceRotation, ::by_ref<::UnityEngine::Rendering::AABB> bounds);
 
-  /// @brief Method Create, addr 0x6809034, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6810ab0, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ReceiverSphereCuller Create(::by_ref<::UnityEngine::Rendering::BatchCullingContext> cc, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method CreateEmptyForTesting, addr 0x6808f2c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptyForTesting, addr 0x68109a8, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ReceiverSphereCuller CreateEmptyForTesting(::Unity::Collections::Allocator allocator);
 
-  /// @brief Method Dispose, addr 0x6808fd0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6810a4c, size 0x64, virtual false, abstract: false, final false
   inline void Dispose(::Unity::Jobs::JobHandle job);
 
-  /// @brief Method DistanceUntilCylinderFullyCrossesPlane, addr 0x6809264, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method DistanceUntilCylinderFullyCrossesPlane, addr 0x6810ce0, size 0x12c, virtual false, abstract: false, final false
   static inline float_t DistanceUntilCylinderFullyCrossesPlane(::Unity::Mathematics::float3 cylinderCenter, ::Unity::Mathematics::float3 cylinderDirection, float_t cylinderRadius,
                                                                ::UnityEngine::Plane plane);
 
-  /// @brief Method UseReceiverPlanes, addr 0x6808c7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UseReceiverPlanes, addr 0x68106f8, size 0x6c, virtual false, abstract: false, final false
   inline bool UseReceiverPlanes();
 
   // Ctor Parameters []
@@ -126,7 +126,7 @@ public:
                                  ::Unity::Mathematics::float3x3 worldToLightSpaceRotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17614 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

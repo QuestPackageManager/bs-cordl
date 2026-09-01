@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/AsyncCallback.hpp"
+// IWYU pragma private; include "System\AsyncCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,18 +28,18 @@ namespace System {
 class CORDL_TYPE AsyncCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5baace4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5baf1a0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IAsyncResult* ar, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5baad04, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5baf1c0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5baacd0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5baf18c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IAsyncResult* ar);
 
   static inline ::System::AsyncCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5baab8c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5baf048, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

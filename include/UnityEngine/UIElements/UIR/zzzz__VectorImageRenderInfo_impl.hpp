@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/VectorImageRenderInfo.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\VectorImageRenderInfo.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfo::*)()>(&::UnityEngine::UIElements::UIR::VectorImageRenderInfo::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6cee2b0;
+  constexpr static std::size_t addrs = 0x6cf5e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>(), { "Reset", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfo::*)()>(&::UnityEngine::UIElements::UIR::VectorImageRenderInfo::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6cee258;
+  constexpr static std::size_t addrs = 0x6cf5ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>(), { ".ctor", {}, {} })));

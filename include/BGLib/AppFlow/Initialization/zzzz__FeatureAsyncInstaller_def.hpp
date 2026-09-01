@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/FeatureAsyncInstaller.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\FeatureAsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,19 +31,19 @@ public:
   // Declarations
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x33063f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x330a1f0, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x33060d0, size 0x324, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x3309ecc, size 0x324, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers,
                                          ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry);
 
   static inline ::BGLib::AppFlow::Initialization::FeatureAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33063f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330a1f4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x330608c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x3309e88, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -61,7 +61,7 @@ public:
   FeatureAsyncInstaller(FeatureAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21563 };
 
   /// @brief Field kFeatureAsyncInstallerLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kFeatureAsyncInstallerLabel{ u"FeatureInstaller" };

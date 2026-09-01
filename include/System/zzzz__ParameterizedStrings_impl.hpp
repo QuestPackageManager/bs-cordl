@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ParameterizedStrings.hpp"
+// IWYU pragma private; include "System\ParameterizedStrings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ParameterizedStrings_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ParameterizedStrings_FormatParam::*)(int32_t)>(&::System::ParameterizedStrings_FormatParam::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c99d8c;
+  constexpr static std::size_t addrs = 0x5c9e248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ParameterizedStrings_FormatParam::*)(int32_t, ::StringW)>(&::System::ParameterizedStrings_FormatParam::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c99d98;
+  constexpr static std::size_t addrs = 0x5c9e254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ParameterizedStrings_FormatParam (*)(int32_t)>(
     &::System::ParameterizedStrings_FormatParam::op_Implicit___System__ParameterizedStrings_FormatParam)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c97340;
+  constexpr static std::size_t addrs = 0x5c9b7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ParameterizedStrings_FormatParam::*)()>(&::System::ParameterizedStrings_FormatParam::get_Int32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c99da4;
+  constexpr static std::size_t addrs = 0x5c9e260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParameterizedStrings_FormatParam>(), { "get_Int32", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ParameterizedStrings_FormatParam::*)()>(&::System::ParameterizedStrings_FormatParam::get_String)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c996e0;
+  constexpr static std::size_t addrs = 0x5c9db9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParameterizedStrings_FormatParam>(), { "get_String", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ParameterizedStrings_FormatParam::*)()>(&::System::ParameterizedStrings_FormatParam::get_Object)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5c99700;
+  constexpr static std::size_t addrs = 0x5c9dbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParameterizedStrings_FormatParam>(), { "get_Object", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ParameterizedStrings_LowLevelStack::*)()>(&::System::ParameterizedStrings_LowLevelStack::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c98e14;
+  constexpr static std::size_t addrs = 0x5c9d2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParameterizedStrings_LowLevelStack*>(), { ".ctor", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ParameterizedStrings_FormatParam (::System::ParameterizedStrings_LowLevelStack::*)()>(
     &::System::ParameterizedStrings_LowLevelStack::Pop)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5c99654;
+  constexpr static std::size_t addrs = 0x5c9db10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParameterizedStrings_LowLevelStack*>(), { "Pop", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ParameterizedStrings_LowLevelStack::*)(::System::ParameterizedStrings_FormatParam)>(
     &::System::ParameterizedStrings_LowLevelStack::Push)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5c9991c;
+  constexpr static std::size_t addrs = 0x5c9ddd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ParameterizedStrings_LowLevelStack::*)()>(&::System::ParameterizedStrings_LowLevelStack::Clear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c98e68;
+  constexpr static std::size_t addrs = 0x5c9d324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParameterizedStrings_LowLevelStack*>(), { "Clear", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::ArrayW<::System::ParameterizedStrings_FormatParam>)>(&::System::ParameterizedStrings::Evaluate)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5c9734c;
+  constexpr static std::size_t addrs = 0x5c9b808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, 
                                                                      ::by_ref<::ArrayW<::System::ParameterizedStrings_FormatParam>>, ::by_ref<::ArrayW<::System::ParameterizedStrings_FormatParam>>)>(
     &::System::ParameterizedStrings::EvaluateInternal)> {
   constexpr static std::size_t size = 0x7c4;
-  constexpr static std::size_t addrs = 0x5c98e90;
+  constexpr static std::size_t addrs = 0x5c9d34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::System::ParameterizedStrings::AsBool)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c99b08;
+  constexpr static std::size_t addrs = 0x5c9dfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParameterizedStrings*>(), { "AsBool", {}, { ::i2c::type_of<int32_t>() } })));
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(bool)>(&::System::ParameterizedStrings::AsInt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c99b00;
+  constexpr static std::size_t addrs = 0x5c9dfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ParameterizedStrings*>(), { "AsInt", {}, { ::i2c::type_of<bool>() } })));
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::ParameterizedStrings::StringFromAsciiBytes)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5c99b14;
+  constexpr static std::size_t addrs = 0x5c9dfd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, ::System::IntPtr, ::StringW, ::StringW)>(&::System::ParameterizedStrings::snprintf)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5c99bfc;
+  constexpr static std::size_t addrs = 0x5c9e0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, ::System::IntPtr, ::StringW, int32_t)>(&::System::ParameterizedStrings::snprintf)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5c99cd0;
+  constexpr static std::size_t addrs = 0x5c9e18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Object*)>(&::System::ParameterizedStrings::FormatPrintF)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x5c99734;
+  constexpr static std::size_t addrs = 0x5c9dbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -332,7 +332,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Parame
                                                                                                                 ::by_ref<::ArrayW<::System::ParameterizedStrings_FormatParam>>, ::by_ref<int32_t>)>(
     &::System::ParameterizedStrings::GetDynamicOrStaticVariables)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5c999f8;
+  constexpr static std::size_t addrs = 0x5c9deb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

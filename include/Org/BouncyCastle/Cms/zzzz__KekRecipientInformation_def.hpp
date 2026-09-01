@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/KekRecipientInformation.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\KekRecipientInformation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   /// @brief Field info, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info;
 
-  /// @brief Method GetContentStream, addr 0x36c9a64, size 0x344, virtual true, abstract: false, final false
+  /// @brief Method GetContentStream, addr 0x36cd824, size 0x344, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   static inline ::Org::BouncyCastle::Cms::KekRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* value);
 
-  /// @brief Method .ctor, addr 0x36ab048, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36aee08, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
 protected:

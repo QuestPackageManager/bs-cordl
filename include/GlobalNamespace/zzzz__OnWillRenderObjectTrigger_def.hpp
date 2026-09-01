@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OnWillRenderObjectTrigger.hpp"
+// IWYU pragma private; include "GlobalNamespace\OnWillRenderObjectTrigger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,10 +55,10 @@ public:
 
   static inline ::GlobalNamespace::OnWillRenderObjectTrigger* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x587376c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58730ac, size 0x30, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x587336c, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5872cac, size 0x400, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set__renderQueue(int32_t value);
 
-  /// @brief Method .ctor, addr 0x587379c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58730dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
   OnWillRenderObjectTrigger(OnWillRenderObjectTrigger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19584 };
 
   /// @brief Field _overrideShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____overrideShader;

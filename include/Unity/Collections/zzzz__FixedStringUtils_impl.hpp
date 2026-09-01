@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/FixedStringUtils.hpp"
+// IWYU pragma private; include "Unity\Collections\FixedStringUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__FixedStringUtils_def.hpp"
 #include "Unity/Collections/zzzz__FixedStringUtils_def.hpp"
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::ParseError (*)(::by_ref<float_t>, uint64_t, int32_t)>(&::Unity::Collections::FixedStringUtils::Base10ToBase2)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64ba374;
+  constexpr static std::size_t addrs = 0x64c1df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint64_t>, ::by_ref<int32_t>, float_t)>(&::Unity::Collections::FixedStringUtils::Base2ToBase10)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x64ba458;
+  constexpr static std::size_t addrs = 0x64c1ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

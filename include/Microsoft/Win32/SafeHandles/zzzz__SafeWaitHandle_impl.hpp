@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeWaitHandle.hpp"
+// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafeWaitHandle.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_impl.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeWaitHandle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Microsoft::Win32::SafeHandles::SafeWaitHandle::*)(::System::IntPtr, bool)>(&::Microsoft::Win32::SafeHandles::SafeWaitHandle::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5ac3060;
+  constexpr static std::size_t addrs = 0x5ac751c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafeWaitHandle::*)()>(&::Microsoft::Win32::SafeHandles::SafeWaitHandle::ReleaseHandle)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5ac308c;
+  constexpr static std::size_t addrs = 0x5ac7548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

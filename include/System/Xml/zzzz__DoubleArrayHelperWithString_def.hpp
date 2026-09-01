@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/DoubleArrayHelperWithString.hpp"
+// IWYU pragma private; include "System\Xml\DoubleArrayHelperWithString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ public:
 
   static inline ::System::Xml::DoubleArrayHelperWithString* New_ctor();
 
-  /// @brief Method ReadArray, addr 0x60f71e0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x60fec5c, size 0x38, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW namespaceUri, ::ArrayW<double_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x60f7218, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x60fec94, size 0x3c, virtual true, abstract: false, final false
   inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<double_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method .ctor, addr 0x60f7254, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60fecd0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::DoubleArrayHelperWithString* getStaticF_Instance();
@@ -62,7 +62,7 @@ public:
   DoubleArrayHelperWithString(DoubleArrayHelperWithString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16921 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

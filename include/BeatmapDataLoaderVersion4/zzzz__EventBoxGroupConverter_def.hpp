@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/EventBoxGroupConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\EventBoxGroupConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   /// @brief Field lightshowSaveData, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_lightshowSaveData, put = __cordl_internal_set_lightshowSaveData)) ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData;
 
-  /// @brief Method Convert, addr 0x375e2b8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3763f24, size 0x320, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBoxGroup* Convert(::BeatmapSaveDataVersion4::EventBoxGroup* eventBoxGroup, int32_t channel);
 
   /// @brief Method ConvertEvents, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_lightshowSaveData(::BeatmapSaveDataVersion4::LightshowSaveData* value);
 
-  /// @brief Method .ctor, addr 0x375e8e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3764550, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
 protected:
@@ -98,7 +98,7 @@ public:
   EventBoxGroupConverter(EventBoxGroupConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15441 };
 
   /// @brief Field lightshowSaveData, offset: 0x10, size: 0x8, def value: None
   ::BeatmapSaveDataVersion4::LightshowSaveData* ___lightshowSaveData;

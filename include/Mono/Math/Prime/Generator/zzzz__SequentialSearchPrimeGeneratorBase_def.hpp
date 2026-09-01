@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Math/Prime/Generator/SequentialSearchPrimeGeneratorBase.hpp"
+// IWYU pragma private; include "Mono\Math\Prime\Generator\SequentialSearchPrimeGeneratorBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,21 +26,21 @@ namespace Mono::Math::Prime::Generator {
 class CORDL_TYPE SequentialSearchPrimeGeneratorBase : public ::Mono::Math::Prime::Generator::PrimeGeneratorBase {
 public:
   // Declarations
-  /// @brief Method GenerateNewPrime, addr 0x5aa7458, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GenerateNewPrime, addr 0x5ac6eb4, size 0x10, virtual true, abstract: false, final false
   inline ::Mono::Math::BigInteger* GenerateNewPrime(int32_t bits);
 
-  /// @brief Method GenerateNewPrime, addr 0x5aa7468, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method GenerateNewPrime, addr 0x5ac6ec4, size 0x2ec, virtual true, abstract: false, final false
   inline ::Mono::Math::BigInteger* GenerateNewPrime(int32_t bits, ::System::Object* context);
 
-  /// @brief Method GenerateSearchBase, addr 0x5aa73e8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GenerateSearchBase, addr 0x5ac6e44, size 0x70, virtual true, abstract: false, final false
   inline ::Mono::Math::BigInteger* GenerateSearchBase(int32_t bits, ::System::Object* context);
 
-  /// @brief Method IsPrimeAcceptable, addr 0x5aa7754, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsPrimeAcceptable, addr 0x5ac71b0, size 0x8, virtual true, abstract: false, final false
   inline bool IsPrimeAcceptable(::Mono::Math::BigInteger* bi, ::System::Object* context);
 
   static inline ::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5aa60c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac5948, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   SequentialSearchPrimeGeneratorBase(SequentialSearchPrimeGeneratorBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

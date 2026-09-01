@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/MatchResultInfo.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\MatchResultInfo.hpp"
 #include "UnityEngine/UIElements/zzzz__PseudoStates_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResultInfo_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PseudoStates_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::MatchResultInfo::*)(
     bool, ::UnityEngine::UIElements::PseudoStates, ::UnityEngine::UIElements::PseudoStates)>(&::UnityEngine::UIElements::StyleSheets::MatchResultInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d0f244;
+  constexpr static std::size_t addrs = 0x6d16dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

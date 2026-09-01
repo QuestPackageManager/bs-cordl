@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerSequenceGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerSequenceGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerSequenceGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x3687a00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368b7c0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x3687a14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368b7d4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:

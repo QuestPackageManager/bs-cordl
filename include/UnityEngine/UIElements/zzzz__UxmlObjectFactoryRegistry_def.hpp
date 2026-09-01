@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlObjectFactoryRegistry.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlObjectFactoryRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,18 +34,18 @@ public:
       get = getStaticF_s_Factories,
       put = setStaticF_s_Factories)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* s_Factories;
 
-  /// @brief Method RegisterEngineFactories, addr 0x6cb8e5c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method RegisterEngineFactories, addr 0x6cc09e0, size 0x1ec, virtual false, abstract: false, final false
   static inline void RegisterEngineFactories();
 
-  /// @brief Method RegisterFactory, addr 0x6cb9368, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method RegisterFactory, addr 0x6cc0eec, size 0x4ac, virtual false, abstract: false, final false
   static inline void RegisterFactory(::UnityEngine::UIElements::IBaseUxmlObjectFactory* factory);
 
-  /// @brief Method RegisterUserFactories, addr 0x6cb9048, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method RegisterUserFactories, addr 0x6cc0bcc, size 0x320, virtual false, abstract: false, final false
   static inline void RegisterUserFactories();
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* getStaticF_s_Factories();
 
-  /// @brief Method get_factories, addr 0x6cb8d84, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_factories, addr 0x6cc0908, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* get_factories();
 
   static inline void

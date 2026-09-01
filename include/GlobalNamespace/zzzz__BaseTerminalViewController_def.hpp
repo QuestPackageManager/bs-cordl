@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BaseTerminalViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\BaseTerminalViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,22 +61,22 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x32e7d74, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x32ebb70, size 0xe0, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method ExecuteCommand, addr 0x32e7e74, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommand, addr 0x32ebc70, size 0x124, virtual false, abstract: false, final false
   inline void ExecuteCommand(::StringW command);
 
-  /// @brief Method GetNextHistory, addr 0x32e81b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetNextHistory, addr 0x32ebfac, size 0xac, virtual false, abstract: false, final false
   inline ::StringW GetNextHistory();
 
-  /// @brief Method GetPrevHistory, addr 0x32e80fc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetPrevHistory, addr 0x32ebef8, size 0xb4, virtual false, abstract: false, final false
   inline ::StringW GetPrevHistory();
 
-  /// @brief Method HandleOnNewMessageToOutput, addr 0x32e7e64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleOnNewMessageToOutput, addr 0x32ebc60, size 0x10, virtual false, abstract: false, final false
   inline void HandleOnNewMessageToOutput(::StringW message, ::UnityEngine::LogType type);
 
-  /// @brief Method Initialize, addr 0x32e7c94, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x32eba90, size 0xe0, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::BaseTerminalViewController* New_ctor();
@@ -84,13 +84,13 @@ public:
   /// @brief Method PrintMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PrintMessage(::GlobalNamespace::ConsoleMessage message);
 
-  /// @brief Method PrintMessage, addr 0x32e7e54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PrintMessage, addr 0x32ebc50, size 0x10, virtual false, abstract: false, final false
   inline void PrintMessage(::StringW message, ::UnityEngine::LogType type);
 
-  /// @brief Method ResetAutocompleteResult, addr 0x32e7f98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ResetAutocompleteResult, addr 0x32ebd94, size 0x10, virtual false, abstract: false, final false
   inline void ResetAutocompleteResult();
 
-  /// @brief Method TryAutocomplete, addr 0x32e7fa8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method TryAutocomplete, addr 0x32ebda4, size 0x154, virtual false, abstract: false, final false
   inline void TryAutocomplete(::StringW input, ::by_ref<::StringW> newInput, ::by_ref<::StringW> newAutocompleteInput);
 
   constexpr int32_t const& __cordl_internal_get__autocompleteIndex() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set__console(::GlobalNamespace::TerminalController* value);
 
-  /// @brief Method .ctor, addr 0x32e825c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ec058, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -147,7 +147,7 @@ public:
   BaseTerminalViewController(BaseTerminalViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19429 };
 
   /// @brief Field _console, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::TerminalController* ____console;

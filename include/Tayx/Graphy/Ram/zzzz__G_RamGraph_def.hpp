@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Ram/G_RamGraph.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Ram\G_RamGraph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,21 +85,21 @@ public:
   /// @brief Field m_shaderGraphReserved, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_shaderGraphReserved, put = __cordl_internal_set_m_shaderGraphReserved)) ::Tayx::Graphy::G_GraphShader* m_shaderGraphReserved;
 
-  /// @brief Method CreatePoints, addr 0x64378fc, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x643f378, size 0x310, virtual true, abstract: false, final false
   inline void CreatePoints();
 
-  /// @brief Method Init, addr 0x6437554, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x643efd0, size 0x164, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamGraph* New_ctor();
 
-  /// @brief Method Update, addr 0x64372fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x643ed78, size 0xc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGraph, addr 0x64376b8, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x643f134, size 0x244, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method UpdateParameters, addr 0x6437308, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x643ed84, size 0x24c, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
@@ -198,7 +198,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shaderGraphReserved(::Tayx::Graphy::G_GraphShader* value);
 
-  /// @brief Method .ctor, addr 0x6437c0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x643f688, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -216,7 +216,7 @@ public:
   G_RamGraph(G_RamGraph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21493 };
 
   /// @brief Field m_imageAllocated, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_imageAllocated;

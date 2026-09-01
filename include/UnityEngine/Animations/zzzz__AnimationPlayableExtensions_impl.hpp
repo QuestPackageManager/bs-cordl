@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Animations\AnimationPlayableExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableExtensions_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, ::UnityEngine::AnimationClip*)>(
     &::UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedPropertiesInternal)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6a41944;
+  constexpr static std::size_t addrs = 0x6a493c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, ::System::IntPtr)>(
     &::UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedPropertiesInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a419d4;
+  constexpr static std::size_t addrs = 0x6a49450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

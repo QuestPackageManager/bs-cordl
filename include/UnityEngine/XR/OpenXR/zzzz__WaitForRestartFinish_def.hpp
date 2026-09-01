@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/WaitForRestartFinish.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\WaitForRestartFinish.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Timeout(float_t value);
 
-  /// @brief Method .ctor, addr 0x69ed5c8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f5044, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t timeout);
 
-  /// @brief Method get_keepWaiting, addr 0x69ef238, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x69f6cb4, size 0xec, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
 protected:
@@ -54,7 +54,7 @@ public:
   WaitForRestartFinish(WaitForRestartFinish const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18516 };
 
   /// @brief Field m_Timeout, offset: 0x10, size: 0x4, def value: None
   float_t ___m_Timeout;

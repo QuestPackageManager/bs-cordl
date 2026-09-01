@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVREnumerable_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVREnumerable_1.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_impl.hpp"

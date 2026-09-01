@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/BindSignalFromBinder_2.hpp"
+// IWYU pragma private; include "Zenject\BindSignalFromBinder_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,7 +128,7 @@ public:
   BindSignalFromBinder_2___c(BindSignalFromBinder_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13990 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -190,7 +190,7 @@ public:
   BindSignalFromBinder_2___c__DisplayClass8_0(BindSignalFromBinder_2___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13991 };
 
   /// @brief Field obj, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___obj;
@@ -294,7 +294,7 @@ public:
   BindSignalFromBinder_2(BindSignalFromBinder_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13992 };
 
   /// @brief Field _bindStatement, offset: 0x10, size: 0x8, def value: None
   ::Zenject::BindStatement* ____bindStatement;

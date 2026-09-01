@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/RuntimeEventHandle.hpp"
+// IWYU pragma private; include "Mono\RuntimeEventHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,16 +29,16 @@ public:
   // Declarations
   __declspec(property(get = get_Value)) ::System::IntPtr Value;
 
-  /// @brief Method Equals, addr 0x5aa9780, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5aadc3c, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5aa9868, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5aadd24, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x5aa9770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aadc2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr v);
 
-  /// @brief Method get_Value, addr 0x5aa9778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5aadc34, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Value();
 
   // Ctor Parameters []

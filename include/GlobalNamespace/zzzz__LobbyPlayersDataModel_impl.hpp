@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LobbyPlayersDataModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\LobbyPlayersDataModel.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_impl.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
@@ -8,7 +8,6 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LobbyPlayersDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKeyNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_def.hpp"
@@ -42,24 +41,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel___c::*)()>(&::GlobalNamespace::LobbyPlayersDataModel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3735e44;
+  constexpr static std::size_t addrs = 0x373b9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel___c*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel___c._SetOwnedSongPacks_b__42_0
+//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel___c._SetOwnedSongPacks_b__41_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LobbyPlayersDataModel___c::*)(::GlobalNamespace::BeatmapLevelPack*)>(
-    &::GlobalNamespace::LobbyPlayersDataModel___c::_SetOwnedSongPacks_b__42_0)> {
+    &::GlobalNamespace::LobbyPlayersDataModel___c::_SetOwnedSongPacks_b__41_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3735e48;
+  constexpr static std::size_t addrs = 0x373b9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel___c*>(),
-                                                                                           { "<SetOwnedSongPacks>b__42_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>() } })));
+                                                                                           { "<SetOwnedSongPacks>b__41_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>() } })));
     return ___internal_method;
   }
 };
@@ -70,20 +69,20 @@ inline void GlobalNamespace::LobbyPlayersDataModel___c::setStaticF___9(::GlobalN
 inline ::GlobalNamespace::LobbyPlayersDataModel___c* GlobalNamespace::LobbyPlayersDataModel___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::LobbyPlayersDataModel___c*, "<>9", ::GlobalNamespace::LobbyPlayersDataModel___c*>();
 }
-inline void GlobalNamespace::LobbyPlayersDataModel___c::setStaticF___9__42_0(::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>*, "<>9__42_0", ::GlobalNamespace::LobbyPlayersDataModel___c*>(
+inline void GlobalNamespace::LobbyPlayersDataModel___c::setStaticF___9__41_0(::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>*, "<>9__41_0", ::GlobalNamespace::LobbyPlayersDataModel___c*>(
       std::forward<::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* GlobalNamespace::LobbyPlayersDataModel___c::getStaticF___9__42_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>*, "<>9__42_0", ::GlobalNamespace::LobbyPlayersDataModel___c*>();
+inline ::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* GlobalNamespace::LobbyPlayersDataModel___c::getStaticF___9__41_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>*, "<>9__41_0", ::GlobalNamespace::LobbyPlayersDataModel___c*>();
 }
 inline void GlobalNamespace::LobbyPlayersDataModel___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel___c*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::LobbyPlayersDataModel___c::_SetOwnedSongPacks_b__42_0(::GlobalNamespace::BeatmapLevelPack* pack) {
+inline ::StringW GlobalNamespace::LobbyPlayersDataModel___c::_SetOwnedSongPacks_b__41_0(::GlobalNamespace::BeatmapLevelPack* pack) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel___c*>(),
-                                                                                         { "<SetOwnedSongPacks>b__42_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>() } })));
+                                                                                         { "<SetOwnedSongPacks>b__41_0", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, pack);
 }
 inline ::GlobalNamespace::LobbyPlayersDataModel___c* GlobalNamespace::LobbyPlayersDataModel___c::New_ctor() {
@@ -91,272 +90,272 @@ inline ::GlobalNamespace::LobbyPlayersDataModel___c* GlobalNamespace::LobbyPlaye
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LobbyPlayersDataModel___c::LobbyPlayersDataModel___c() {}
-//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59._ctor
+//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::*)(int32_t)>(
-    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::*)(int32_t)>(
+    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3735acc;
+  constexpr static std::size_t addrs = 0x373b63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::*)()>(
-    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::*)()>(
+    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3735e5c;
+  constexpr static std::size_t addrs = 0x373b9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::*)()>(
-    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::*)()>(
+    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::MoveNext)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x3735eb8;
+  constexpr static std::size_t addrs = 0x373ba28;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59.__m__Finally1
+//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::*)()>(
-    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__m__Finally1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::*)()>(
+    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__m__Finally1)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x373611c;
+  constexpr static std::size_t addrs = 0x373bc8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { "<>m__Finally1", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { "<>m__Finally1", {}, {} })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59.System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current
+//  ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58.System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::*)()>(
-        &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current)> {
+    static_cast<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::*)()>(
+        &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3736164;
+  constexpr static std::size_t addrs = 0x373bcd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(),
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(),
                                                 { "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,ILobbyPlayerData>>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::*)()>(
-    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::*)()>(
+    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3736170;
+  constexpr static std::size_t addrs = 0x373bce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::*)()>(
-    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::*)()>(
+    &::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x37361a8;
+  constexpr static std::size_t addrs = 0x373bd18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>&
-GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_get___2__current() {
+GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> const&
-GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_get___2__current() const {
+GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 constexpr void
-GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> value) {
+GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::GlobalNamespace::LobbyPlayersDataModel*& GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::LobbyPlayersDataModel*& GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::LobbyPlayersDataModel* const& GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::LobbyPlayersDataModel* const& GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_set___4__this(::GlobalNamespace::LobbyPlayersDataModel* value) {
+constexpr void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_set___4__this(::GlobalNamespace::LobbyPlayersDataModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*>&
-GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_get___7__wrap1() {
+GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_get___7__wrap1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> const&
-GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_get___7__wrap1() const {
+GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_get___7__wrap1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
-constexpr void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__cordl_internal_set___7__wrap1(
+constexpr void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__cordl_internal_set___7__wrap1(
     ::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap1 = value;
 }
-inline void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::System_IDisposable_Dispose() {
+inline void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { "MoveNext", {}, {} })));
+inline bool GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::__m__Finally1() {
+inline void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::__m__Finally1() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { "<>m__Finally1", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { "<>m__Finally1", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>
-GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current() {
+GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(),
                                                            { "System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,ILobbyPlayerData>>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>(this, ___internal_method);
 }
-inline void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59* GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59*>(__1__state));
+inline ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58* GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
-constexpr GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::operator ::System::Collections::Generic::IEnumerator_1<
+constexpr GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::operator ::System::Collections::Generic::IEnumerator_1<
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*
-GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::
+GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::
     i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___StringW___GlobalNamespace__ILobbyPlayerData___() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59::LobbyPlayersDataModel__GetEnumerator_d__59() {}
-//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42.MoveNext
+constexpr ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__58::LobbyPlayersDataModel__GetEnumerator_d__58() {}
+//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::*)()>(
-    &::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41::*)()>(
+    &::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41::MoveNext)> {
   constexpr static std::size_t size = 0x86c;
-  constexpr static std::size_t addrs = 0x3736208;
+  constexpr static std::size_t addrs = 0x373bd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3736a74;
+  constexpr static std::size_t addrs = 0x373c5e4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::MoveNext() {
+inline void GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42>(),
+inline void GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -365,7 +364,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevelPack*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_dlcSongPack_5__4", ty:
 // "::GlobalNamespace::BeatmapLevelPack*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::LobbyPlayersDataModel__SetOwnedSongPacks_d__42(
+constexpr ::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41::LobbyPlayersDataModel__SetOwnedSongPacks_d__41(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::LobbyPlayersDataModel* __4__this,
     ::GlobalNamespace::SongPackMask _songPackMask_5__2, ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevelPack*>* __7__wrap2,
     ::GlobalNamespace::BeatmapLevelPack* _dlcSongPack_5__4, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept {
@@ -378,13 +377,13 @@ constexpr ::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::Lob
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__42::LobbyPlayersDataModel__SetOwnedSongPacks_d__42() {}
+constexpr ::GlobalNamespace::LobbyPlayersDataModel__SetOwnedSongPacks_d__41::LobbyPlayersDataModel__SetOwnedSongPacks_d__41() {}
 //  Writing Method size for method: ::GlobalNamespace::LobbyPlayersDataModel.get_localUserId
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::get_localUserId)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x373211c;
+  constexpr static std::size_t addrs = 0x3737c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "get_localUserId", {}, {} })));
@@ -396,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::get_partyOwnerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3732254;
+  constexpr static std::size_t addrs = 0x3737dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "get_partyOwnerId", {}, {} })));
@@ -408,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(&::GlobalNamespace::LobbyPlayersDataModel::set_partyOwnerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x373225c;
+  constexpr static std::size_t addrs = 0x3737dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::LobbyPlayersDataModel::add_didChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3732264;
+  constexpr static std::size_t addrs = 0x3737dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -436,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::LobbyPlayersDataModel::remove_didChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3732324;
+  constexpr static std::size_t addrs = 0x3737e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -450,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ILobbyPlayerData* (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(
     &::GlobalNamespace::LobbyPlayersDataModel::get_Item)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x37323e4;
+  constexpr static std::size_t addrs = 0x3737f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -464,7 +463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LobbyPlayerData* (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, ::by_ref<bool>)>(
     &::GlobalNamespace::LobbyPlayersDataModel::GetOrCreateLobbyPlayerDataModel)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3732468;
+  constexpr static std::size_t addrs = 0x3737fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, ::by_ref<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::LobbyPlayersDataModel::SetPlayerBeatmapLevel)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3732568;
+  constexpr static std::size_t addrs = 0x37380d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -494,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LobbyPlayersDataModel::SetPlayerGameplayModifiers)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3732634;
+  constexpr static std::size_t addrs = 0x37381a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -508,7 +507,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, bool, bool)>(&::GlobalNamespace::LobbyPlayersDataModel::SetPlayerIsActive)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x37326bc;
+  constexpr static std::size_t addrs = 0x373822c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -522,7 +521,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, bool, bool)>(&::GlobalNamespace::LobbyPlayersDataModel::SetPlayerIsReady)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3732754;
+  constexpr static std::size_t addrs = 0x37382c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +535,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, bool, bool)>(&::GlobalNamespace::LobbyPlayersDataModel::SetPlayerIsInLobby)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x37327ec;
+  constexpr static std::size_t addrs = 0x373835c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -550,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, bool, bool)>(&::GlobalNamespace::LobbyPlayersDataModel::SetPlayerIsPartyOwner)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3732884;
+  constexpr static std::size_t addrs = 0x37383f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -565,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::by_ref<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::LobbyPlayersDataModel::SetLocalPlayerBeatmapLevel)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3732928;
+  constexpr static std::size_t addrs = 0x3738498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(),
@@ -578,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::ClearLocalPlayerBeatmapLevel)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3732a84;
+  constexpr static std::size_t addrs = 0x37385f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "ClearLocalPlayerBeatmapLevel", {}, {} })));
@@ -591,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LobbyPlayersDataModel::SetLocalPlayerGameplayModifiers)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3732b54;
+  constexpr static std::size_t addrs = 0x37386c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(),
@@ -604,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::ClearLocalPlayerGameplayModifiers)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3732c90;
+  constexpr static std::size_t addrs = 0x3738800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -617,7 +616,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(bool)>(&::GlobalNamespace::LobbyPlayersDataModel::SetLocalPlayerIsActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3732d50;
+  constexpr static std::size_t addrs = 0x37388c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -630,7 +629,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(bool, bool)>(&::GlobalNamespace::LobbyPlayersDataModel::SetLocalPlayerIsActive)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3732d58;
+  constexpr static std::size_t addrs = 0x37388c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -643,7 +642,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(bool)>(&::GlobalNamespace::LobbyPlayersDataModel::SetLocalPlayerIsReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3732e50;
+  constexpr static std::size_t addrs = 0x37389c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -656,7 +655,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(bool, bool)>(&::GlobalNamespace::LobbyPlayersDataModel::SetLocalPlayerIsReady)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3732e58;
+  constexpr static std::size_t addrs = 0x37389c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -669,7 +668,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(bool)>(&::GlobalNamespace::LobbyPlayersDataModel::SetLocalPlayerIsInLobby)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3732f30;
+  constexpr static std::size_t addrs = 0x3738aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -682,7 +681,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(bool, bool)>(&::GlobalNamespace::LobbyPlayersDataModel::SetLocalPlayerIsInLobby)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3732f38;
+  constexpr static std::size_t addrs = 0x3738aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -695,7 +694,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(&::GlobalNamespace::LobbyPlayersDataModel::RequestKickPlayer)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3733010;
+  constexpr static std::size_t addrs = 0x3738b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -708,7 +707,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::ClearData)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x37330e8;
+  constexpr static std::size_t addrs = 0x3738c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "ClearData", {}, {} })));
@@ -720,7 +719,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::ClearRecommendations)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x373316c;
+  constexpr static std::size_t addrs = 0x3738cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "ClearRecommendations", {}, {} })));
@@ -732,7 +731,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::Activate)> {
   constexpr static std::size_t size = 0x10d4;
-  constexpr static std::size_t addrs = 0x3733294;
+  constexpr static std::size_t addrs = 0x3738e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "Activate", {}, {} })));
@@ -744,7 +743,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::Deactivate)> {
   constexpr static std::size_t size = 0xa5c;
-  constexpr static std::size_t addrs = 0x3734410;
+  constexpr static std::size_t addrs = 0x3739f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "Deactivate", {}, {} })));
@@ -756,7 +755,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3734e6c;
+  constexpr static std::size_t addrs = 0x373a9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "Dispose", {}, {} })));
@@ -768,7 +767,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::SetOwnedSongPacks)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3734368;
+  constexpr static std::size_t addrs = 0x3739ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "SetOwnedSongPacks", {}, {} })));
@@ -781,7 +780,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerGetRecommendedBeatmap)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3734e70;
+  constexpr static std::size_t addrs = 0x373a9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -795,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerGetRecommendedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3735024;
+  constexpr static std::size_t addrs = 0x373ab94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(),
@@ -808,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(&::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerGetIsInLobby)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x37351d4;
+  constexpr static std::size_t addrs = 0x373ad44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -821,7 +820,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(&::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerGetIsReady)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3735314;
+  constexpr static std::size_t addrs = 0x373ae84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -835,7 +834,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerRecommendBeatmap)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3735454;
+  constexpr static std::size_t addrs = 0x373afc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -850,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerRecommendGameplayModifiers)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3735498;
+  constexpr static std::size_t addrs = 0x373b008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -865,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerClearRecommendedGameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x373549c;
+  constexpr static std::size_t addrs = 0x373b00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(),
@@ -878,7 +877,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(&::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerClearBeatmap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x37354a4;
+  constexpr static std::size_t addrs = 0x373b014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -892,7 +891,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, bool)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerSetIsReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37354c4;
+  constexpr static std::size_t addrs = 0x373b034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(),
@@ -906,7 +905,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, bool)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerSetIsInLobby)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37354cc;
+  constexpr static std::size_t addrs = 0x373b03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(),
@@ -920,7 +919,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMultiplayerSessionManagerPlayerStateChanged)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x37354d4;
+  constexpr static std::size_t addrs = 0x373b044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -935,7 +934,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMultiplayerSessionManagerPlayerConnected)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x37355ac;
+  constexpr static std::size_t addrs = 0x373b11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -950,7 +949,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMultiplayerSessionManagerPlayerDisconnected)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x37357e8;
+  constexpr static std::size_t addrs = 0x373b358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -964,7 +963,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(&::GlobalNamespace::LobbyPlayersDataModel::NotifyModelChange)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3732618;
+  constexpr static std::size_t addrs = 0x3738188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -978,7 +977,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerGetOwnedSongPacks)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3735950;
+  constexpr static std::size_t addrs = 0x373b4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -992,7 +991,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*)>(
     &::GlobalNamespace::LobbyPlayersDataModel::HandleMenuRpcManagerSetPlayersPermissionConfiguration)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3735954;
+  constexpr static std::size_t addrs = 0x373b4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1009,7 +1008,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>* (
     ::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3735a78;
+  constexpr static std::size_t addrs = 0x373b5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "GetEnumerator", {}, {} })));
@@ -1022,7 +1021,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::LobbyPlayersDataModel::*)()>(
     &::GlobalNamespace::LobbyPlayersDataModel::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3735ad4;
+  constexpr static std::size_t addrs = 0x373b644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1035,7 +1034,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::get_Count)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3735ad8;
+  constexpr static std::size_t addrs = 0x373b648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "get_Count", {}, {} })));
@@ -1047,7 +1046,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW)>(&::GlobalNamespace::LobbyPlayersDataModel::ContainsKey)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3735b30;
+  constexpr static std::size_t addrs = 0x373b6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1061,7 +1060,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LobbyPlayersDataModel::*)(::StringW, ::by_ref<::GlobalNamespace::ILobbyPlayerData*>)>(
     &::GlobalNamespace::LobbyPlayersDataModel::TryGetValue)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3735bac;
+  constexpr static std::size_t addrs = 0x373b71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1076,7 +1075,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::GlobalNamespace::LobbyPlayersDataModel::*)()>(
     &::GlobalNamespace::LobbyPlayersDataModel::get_Keys)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3735c34;
+  constexpr static std::size_t addrs = 0x373b7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "get_Keys", {}, {} })));
@@ -1089,7 +1088,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILobbyPlayerData*>* (::GlobalNamespace::LobbyPlayersDataModel::*)()>(
     &::GlobalNamespace::LobbyPlayersDataModel::get_Values)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3735c88;
+  constexpr static std::size_t addrs = 0x373b7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { "get_Values", {}, {} })));
@@ -1101,7 +1100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)()>(&::GlobalNamespace::LobbyPlayersDataModel::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3735cdc;
+  constexpr static std::size_t addrs = 0x373b84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyPlayersDataModel*>(), { ".ctor", {}, {} })));
@@ -1114,7 +1113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyPlayersDataModel::*)(::by_ref<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::LobbyPlayersDataModel::ILobbyPlayersDataModel_SetLocalPlayerBeatmapLevel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3735dec;
+  constexpr static std::size_t addrs = 0x373b95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1158,18 +1157,6 @@ constexpr ::GlobalNamespace::BeatmapLevelsModel* const& GlobalNamespace::LobbyPl
 constexpr void GlobalNamespace::LobbyPlayersDataModel::__cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapLevelsModel = value;
-}
-constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& GlobalNamespace::LobbyPlayersDataModel::__cordl_internal_get__beatmapCharacteristicCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCharacteristicCollection;
-}
-constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& GlobalNamespace::LobbyPlayersDataModel::__cordl_internal_get__beatmapCharacteristicCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCharacteristicCollection;
-}
-constexpr void GlobalNamespace::LobbyPlayersDataModel::__cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____beatmapCharacteristicCollection = value;
 }
 constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& GlobalNamespace::LobbyPlayersDataModel::__cordl_internal_get__lobbyPlayerPermissionsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Cache/RequestCachePolicy.hpp"
+// IWYU pragma private; include "System\Net\Cache\RequestCachePolicy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Net::Cache::RequestCachePolicy* New_ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method ToString, addr 0x6350140, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6357bbc, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Net::Cache::RequestCacheLevel const& __cordl_internal_get_m_Level() const;
@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Level(::System::Net::Cache::RequestCacheLevel value);
 
-  /// @brief Method .ctor, addr 0x6350080, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6357afc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method get_Level, addr 0x6350138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x6357bb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheLevel get_Level();
 
 protected:
@@ -61,7 +61,7 @@ public:
   RequestCachePolicy(RequestCachePolicy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11746 };
 
   /// @brief Field m_Level, offset: 0x10, size: 0x4, def value: None
   ::System::Net::Cache::RequestCacheLevel ___m_Level;

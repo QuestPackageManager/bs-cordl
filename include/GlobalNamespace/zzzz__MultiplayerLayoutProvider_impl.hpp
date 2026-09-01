@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLayoutProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLayoutProvider.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerPlayerLayout (::GlobalNamespace::MultiplayerLayoutProvider::*)()>(
     &::GlobalNamespace::MultiplayerLayoutProvider::get_layout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d2b30;
+  constexpr static std::size_t addrs = 0x59dacd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLayoutProvider*>(), { "get_layout", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLayoutProvider::*)(::GlobalNamespace::MultiplayerPlayerLayout)>(
     &::GlobalNamespace::MultiplayerLayoutProvider::set_layout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d2b38;
+  constexpr static std::size_t addrs = 0x59dacdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerLayoutProvider::*)()>(&::GlobalNamespace::MultiplayerLayoutProvider::get_activePlayerSpotsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d2b40;
+  constexpr static std::size_t addrs = 0x59dace4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLayoutProvider::*)(int32_t)>(&::GlobalNamespace::MultiplayerLayoutProvider::set_activePlayerSpotsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d2b48;
+  constexpr static std::size_t addrs = 0x59dacec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLayoutProvider::*)(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*)>(
     &::GlobalNamespace::MultiplayerLayoutProvider::add_playersLayoutWasCalculatedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59c9118;
+  constexpr static std::size_t addrs = 0x59d0534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLayoutProvider::*)(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*)>(
     &::GlobalNamespace::MultiplayerLayoutProvider::remove_playersLayoutWasCalculatedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59d2b50;
+  constexpr static std::size_t addrs = 0x59d06c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerPlayerLayout (::GlobalNamespace::MultiplayerLayoutProvider::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerLayoutProvider::CalculateLayout)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59d2c10;
+  constexpr static std::size_t addrs = 0x59dacf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLayoutProvider::*)()>(&::GlobalNamespace::MultiplayerLayoutProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59d2c6c;
+  constexpr static std::size_t addrs = 0x59dad50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLayoutProvider*>(), { ".ctor", {}, {} })));

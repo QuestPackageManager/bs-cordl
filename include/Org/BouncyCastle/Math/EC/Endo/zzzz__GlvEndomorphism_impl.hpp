@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Endo/GlvEndomorphism.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Endo\GlvEndomorphism.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SubsystemDescriptorBindings.hpp"
+// IWYU pragma private; include "UnityEngine\SubsystemDescriptorBindings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +26,13 @@ namespace UnityEngine {
 class CORDL_TYPE SubsystemDescriptorBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6bb0888, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6bb840c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::System::IntPtr descriptorPtr);
 
-  /// @brief Method GetId, addr 0x6bb07ac, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x6bb8330, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW GetId(::System::IntPtr descriptorPtr);
 
-  /// @brief Method GetId_Injected, addr 0x6bb08c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetId_Injected, addr 0x6bb8448, size 0x44, virtual false, abstract: false, final false
   static inline void GetId_Injected(::System::IntPtr descriptorPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
 protected:
@@ -50,7 +50,7 @@ public:
   SubsystemDescriptorBindings(SubsystemDescriptorBindings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

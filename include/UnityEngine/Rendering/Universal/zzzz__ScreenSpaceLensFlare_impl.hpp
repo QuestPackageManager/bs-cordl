@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceLensFlare.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceLensFlare.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceLensFlare_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceLensFlareResolutionParameter_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::_ctor)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x68778ac;
+  constexpr static std::size_t addrs = 0x687f328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6877c9c;
+  constexpr static std::size_t addrs = 0x687f718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare*>(), { "IsActive", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsStreaksActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6877ccc;
+  constexpr static std::size_t addrs = 0x687f748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6877cfc;
+  constexpr static std::size_t addrs = 0x687f778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

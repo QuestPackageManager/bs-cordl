@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/TextWriter_NullTextWriter.hpp"
+// IWYU pragma private; include "System\IO\TextWriter_NullTextWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,25 +29,25 @@ public:
 
   static inline ::GlobalNamespace::TextWriter_NullTextWriter* New_ctor();
 
-  /// @brief Method Write, addr 0x5bfff70, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c0442c, size 0x4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x5bfff74, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c04430, size 0x4, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write, addr 0x5bfff80, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c0443c, size 0x4, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method WriteLine, addr 0x5bfff78, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x5c04434, size 0x4, virtual true, abstract: false, final false
   inline void WriteLine();
 
-  /// @brief Method WriteLine, addr 0x5bfff7c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x5c04438, size 0x4, virtual true, abstract: false, final false
   inline void WriteLine(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5bffed4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c04390, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Encoding, addr 0x5bfff68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x5c04424, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
 protected:

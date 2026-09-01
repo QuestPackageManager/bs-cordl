@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/NetworkBootstrapperParams.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\NetworkBootstrapperParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
                                       ::UnityW<::Meta::XR::MultiplayerBlocks::Shared::ColocationController> colocationController, ::System::Action* setupColocationReadyEvents) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20845 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

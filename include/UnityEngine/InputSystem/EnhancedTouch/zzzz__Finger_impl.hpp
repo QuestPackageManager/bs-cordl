@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/EnhancedTouch/Finger.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\EnhancedTouch\Finger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__Finger_def.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__TouchHistory_def.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Touchscreen* (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_screen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x659eb60;
+  constexpr static std::size_t addrs = 0x65a65dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::Finger*>(), { "get_screen", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::get_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x659eb68;
+  constexpr static std::size_t addrs = 0x65a65e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::Finger*>(), { "get_index", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::get_isActive)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x659eb70;
+  constexpr static std::size_t addrs = 0x65a65ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::Finger*>(), { "get_isActive", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_screenPosition)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x659ed3c;
+  constexpr static std::size_t addrs = 0x65a67b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::Finger*>(), { "get_screenPosition", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_lastTouch)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x659edd8;
+  constexpr static std::size_t addrs = 0x65a6854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::Finger*>(), { "get_lastTouch", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_currentTouch)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x659ebec;
+  constexpr static std::size_t addrs = 0x65a6668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::Finger*>(), { "get_currentTouch", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_touchHistory)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x659ef94;
+  constexpr static std::size_t addrs = 0x65a6a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::Finger*>(), { "get_touchHistory", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(
     ::UnityEngine::InputSystem::Touchscreen*, int32_t, ::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::_ctor)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x659effc;
+  constexpr static std::size_t addrs = 0x65a6a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::ShouldRecordTouch)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x659f3a8;
+  constexpr static std::size_t addrs = 0x65a6e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record)>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::OnTouchRecorded)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x659f4a0;
+  constexpr static std::size_t addrs = 0x65a6f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(uint32_t)>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::FindTouch)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x659f7a0;
+  constexpr static std::size_t addrs = 0x65a721c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(
     ::UnityEngine::InputSystem::EnhancedTouch::Touch)>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::GetTouchHistory)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x659fac4;
+  constexpr static std::size_t addrs = 0x65a7540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::Finger*>(),

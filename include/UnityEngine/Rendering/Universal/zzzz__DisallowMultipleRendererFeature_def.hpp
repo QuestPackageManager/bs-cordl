@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DisallowMultipleRendererFeature.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DisallowMultipleRendererFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__customTitle_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x68a7b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68af5d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW customTitle);
 
-  /// @brief Method get_customTitle, addr 0x68a7b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customTitle, addr 0x68af5d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_customTitle();
 
-  /// @brief Method set_customTitle, addr 0x68a7b4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customTitle, addr 0x68af5c8, size 0x8, virtual false, abstract: false, final false
   inline void set_customTitle(::StringW value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   DisallowMultipleRendererFeature(DisallowMultipleRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12913 };
 
   /// @brief Field <customTitle>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____customTitle_k__BackingField;

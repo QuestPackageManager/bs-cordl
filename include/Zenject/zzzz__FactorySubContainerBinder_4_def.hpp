@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/FactorySubContainerBinder_4.hpp"
+// IWYU pragma private; include "Zenject\FactorySubContainerBinder_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -148,7 +148,7 @@ public:
   FactorySubContainerBinder_4___c__DisplayClass1_0(FactorySubContainerBinder_4___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14156 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactorySubContainerBinder_4<TParam1, TParam2, TParam3, TContract>* _____4__this;
@@ -228,7 +228,7 @@ public:
   FactorySubContainerBinder_4___c__DisplayClass2_0(FactorySubContainerBinder_4___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14157 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactorySubContainerBinder_4<TParam1, TParam2, TParam3, TContract>* _____4__this;
@@ -317,7 +317,7 @@ public:
   FactorySubContainerBinder_4___c__DisplayClass3_0(FactorySubContainerBinder_4___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14158 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactorySubContainerBinder_4<TParam1, TParam2, TParam3, TContract>* _____4__this;
@@ -409,7 +409,7 @@ public:
   FactorySubContainerBinder_4___c__DisplayClass4_0(FactorySubContainerBinder_4___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14159 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactorySubContainerBinder_4<TParam1, TParam2, TParam3, TContract>* _____4__this;
@@ -479,7 +479,7 @@ public:
   FactorySubContainerBinder_4(FactorySubContainerBinder_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

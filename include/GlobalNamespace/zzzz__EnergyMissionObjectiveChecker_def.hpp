@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnergyMissionObjectiveChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnergyMissionObjectiveChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,18 +26,18 @@ public:
   /// @brief Field _energyCounter, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__energyCounter, put = __cordl_internal_set__energyCounter)) ::UnityW<::GlobalNamespace::GameEnergyCounter> _energyCounter;
 
-  /// @brief Method CheckAndUpdateStatus, addr 0x5916740, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CheckAndUpdateStatus, addr 0x59199e0, size 0xbc, virtual false, abstract: false, final false
   inline void CheckAndUpdateStatus();
 
-  /// @brief Method HandleEnergyDidChange, addr 0x59166d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleEnergyDidChange, addr 0x5919974, size 0x6c, virtual false, abstract: false, final false
   inline void HandleEnergyDidChange(float_t energy);
 
-  /// @brief Method Init, addr 0x59167fc, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x5919a9c, size 0x174, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::EnergyMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59165c4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5919864, size 0x110, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__energyCounter() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__energyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
 
-  /// @brief Method .ctor, addr 0x5916970, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5919c10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   EnergyMissionObjectiveChecker(EnergyMissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6790 };
 
   /// @brief Field _energyCounter, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameEnergyCounter> ____energyCounter;

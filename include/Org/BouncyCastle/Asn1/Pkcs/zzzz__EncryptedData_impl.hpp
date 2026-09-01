@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/EncryptedData.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\EncryptedData.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__EncryptedData_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x345dc04;
+  constexpr static std::size_t addrs = 0x34619c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x345dd88;
+  constexpr static std::size_t addrs = 0x3461b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x345df68;
+  constexpr static std::size_t addrs = 0x3461d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::get_ContentType)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x345e0e4;
+  constexpr static std::size_t addrs = 0x3461ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::EncryptedData*>(), { "get_ContentType", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::get_EncryptionAlgorithm)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x345e178;
+  constexpr static std::size_t addrs = 0x3461f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::EncryptedData*>(), { "get_EncryptionAlgorithm", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::get_Content)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x345e1a0;
+  constexpr static std::size_t addrs = 0x3461f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::EncryptedData*>(), { "get_Content", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptedData::ToAsn1Object)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x345e26c;
+  constexpr static std::size_t addrs = 0x346202c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

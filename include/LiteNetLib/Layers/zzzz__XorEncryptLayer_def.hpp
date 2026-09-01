@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/Layers/XorEncryptLayer.hpp"
+// IWYU pragma private; include "LiteNetLib\Layers\XorEncryptLayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,16 +34,16 @@ public:
 
   static inline ::LiteNetLib::Layers::XorEncryptLayer* New_ctor(::StringW key);
 
-  /// @brief Method ProcessInboundPacket, addr 0x58ae5c8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ProcessInboundPacket, addr 0x58adf90, size 0x84, virtual true, abstract: false, final false
   inline void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ::by_ref<::ArrayW<uint8_t>> data, ::by_ref<int32_t> offset, ::by_ref<int32_t> length);
 
-  /// @brief Method ProcessOutBoundPacket, addr 0x58ae64c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ProcessOutBoundPacket, addr 0x58ae014, size 0x8c, virtual true, abstract: false, final false
   inline void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ::by_ref<::ArrayW<uint8_t>> data, ::by_ref<int32_t> offset, ::by_ref<int32_t> length);
 
-  /// @brief Method SetKey, addr 0x58ae4d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x58adea0, size 0xa4, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t> key);
 
-  /// @brief Method SetKey, addr 0x58ae584, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x58adf4c, size 0x44, virtual false, abstract: false, final false
   inline void SetKey(::StringW key);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get__byteKey() const;
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__byteKey(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x58ae4c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ade90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x58ae4d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ade98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> key);
 
-  /// @brief Method .ctor, addr 0x58ae57c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58adf44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW key);
 
 protected:
@@ -76,7 +76,7 @@ public:
   XorEncryptLayer(XorEncryptLayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20142 };
 
   /// @brief Field _byteKey, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____byteKey;

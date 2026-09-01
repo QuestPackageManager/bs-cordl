@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ExplicitContentWarningViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ExplicitContentWarningViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
   /// @brief Field _toggleExplicit, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleExplicit, put = __cordl_internal_set__toggleExplicit)) ::UnityW<::UnityEngine::UI::Toggle> _toggleExplicit;
 
-  /// @brief Method DidActivate, addr 0x5a11ad8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a19be4, size 0xec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5a11bc4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5a19cd0, size 0x34, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleClickedEvent, addr 0x5a11bf8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleClickedEvent, addr 0x5a19d04, size 0x68, virtual false, abstract: false, final false
   inline void HandleClickedEvent();
 
   static inline ::GlobalNamespace::ExplicitContentWarningViewController* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__toggleExplicit(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x5a11c60, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a19d6c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   ExplicitContentWarningViewController(ExplicitContentWarningViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6438 };
 
   /// @brief Field _toggleExplicit, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____toggleExplicit;

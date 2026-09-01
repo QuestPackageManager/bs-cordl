@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/HLSLArray.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\HLSLArray.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__HLSLArray_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HLSLArray::*)(int32_t, ::System::Type*)>(&::UnityEngine::Rendering::HLSLArray::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x679b8d0;
+  constexpr static std::size_t addrs = 0x67a334c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

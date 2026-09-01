@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/InstanceOcclusionEventStats.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\InstanceOcclusionEventStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
                                         ::UnityEngine::Rendering::OcclusionTest occlusionTest, int32_t visibleInstances, int32_t culledInstances) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17624 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

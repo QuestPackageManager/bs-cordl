@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/NewArrayBoundsExpression.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\NewArrayBoundsExpression.hpp"
 #include "System/Linq/Expressions/zzzz__NewArrayExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__NewArrayBoundsExpression_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::NewArrayBoundsExpression::*)(
     ::System::Type*, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::NewArrayBoundsExpression::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f8130c;
+  constexpr static std::size_t addrs = 0x5f88d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::NewArrayBoundsExpression::*)()>(
     &::System::Linq::Expressions::NewArrayBoundsExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f81350;
+  constexpr static std::size_t addrs = 0x5f88dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::NewArrayBoundsExpression*>(), { "get_NodeType", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapLevelOrPackIdFilterExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapLevelOrPackIdFilterExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +22,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapLevelOrPackIdFilterExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldAllowEmpty, addr 0x374891c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldAllowEmpty, addr 0x374e578, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldAllowEmpty(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
-  /// @brief Method ShouldAllowLevels, addr 0x3748908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldAllowLevels, addr 0x374e564, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldAllowLevels(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
-  /// @brief Method ShouldAllowPacks, addr 0x37488f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldAllowPacks, addr 0x374e550, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldAllowPacks(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
 protected:
@@ -46,7 +46,7 @@ public:
   BeatmapLevelOrPackIdFilterExtensions(BeatmapLevelOrPackIdFilterExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

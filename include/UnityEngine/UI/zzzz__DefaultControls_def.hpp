@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UI/DefaultControls.hpp"
+// IWYU pragma private; include "UnityEngine\UI\DefaultControls.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +76,7 @@ public:
   DefaultControls_IFactoryControls(DefaultControls_IFactoryControls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17399 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -95,12 +95,12 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::DefaultControls_IFactoryControls"
   constexpr operator ::UnityEngine::UI::DefaultControls_IFactoryControls*() noexcept;
 
-  /// @brief Method CreateGameObject, addr 0x6c18784, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method CreateGameObject, addr 0x6c20308, size 0x70, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::StringW name, ::ArrayW<::System::Type*> components);
 
   static inline ::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c187f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c20378, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::DefaultControls_IFactoryControls* getStaticF_Default();
@@ -125,7 +125,7 @@ public:
   DefaultControls_DefaultRuntimeFactory(DefaultControls_DefaultRuntimeFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17400 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,7 +153,7 @@ public:
                                       ::UnityW<::UnityEngine::Sprite> mask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17401 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -233,55 +233,55 @@ public:
   /// @brief Field s_ThinElementSize, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ThinElementSize, put = setStaticF_s_ThinElementSize)) ::UnityEngine::Vector2 s_ThinElementSize;
 
-  /// @brief Method CreateButton, addr 0x6c148b4, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method CreateButton, addr 0x6c1c438, size 0x424, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateButton(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreateDropdown, addr 0x6c16870, size 0x12c8, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x6c1e3f4, size 0x12c8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateDropdown(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreateImage, addr 0x6c14e74, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateImage, addr 0x6c1c9f8, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateImage(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreateInputField, addr 0x6c161fc, size 0x674, virtual false, abstract: false, final false
+  /// @brief Method CreateInputField, addr 0x6c1dd80, size 0x674, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateInputField(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreatePanel, addr 0x6c14290, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method CreatePanel, addr 0x6c1be14, size 0x2e4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreatePanel(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreateRawImage, addr 0x6c14fa8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateRawImage, addr 0x6c1cb2c, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateRawImage(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreateScrollView, addr 0x6c17d64, size 0x940, virtual false, abstract: false, final false
+  /// @brief Method CreateScrollView, addr 0x6c1f8e8, size 0x940, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateScrollView(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreateScrollbar, addr 0x6c157bc, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method CreateScrollbar, addr 0x6c1d340, size 0x4a8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateScrollbar(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreateSlider, addr 0x6c150dc, size 0x6e0, virtual false, abstract: false, final false
+  /// @brief Method CreateSlider, addr 0x6c1cc60, size 0x6e0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateSlider(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreateText, addr 0x6c14cd8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method CreateText, addr 0x6c1c85c, size 0x19c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateText(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreateToggle, addr 0x6c15c64, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method CreateToggle, addr 0x6c1d7e8, size 0x598, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateToggle(::UnityEngine::UI::DefaultControls_Resources resources);
 
-  /// @brief Method CreateUIElementRoot, addr 0x6c13cac, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateUIElementRoot, addr 0x6c1b830, size 0x174, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size, ::ArrayW<::System::Type*> components);
 
-  /// @brief Method CreateUIObject, addr 0x6c13e20, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateUIObject, addr 0x6c1b9a4, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent, ::ArrayW<::System::Type*> components);
 
-  /// @brief Method SetDefaultColorTransitionValues, addr 0x6c14144, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultColorTransitionValues, addr 0x6c1bcc8, size 0x64, virtual false, abstract: false, final false
   static inline void SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable* slider);
 
-  /// @brief Method SetDefaultTextValues, addr 0x6c14068, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultTextValues, addr 0x6c1bbec, size 0xdc, virtual false, abstract: false, final false
   static inline void SetDefaultTextValues(::UnityEngine::UI::Text* lbl);
 
-  /// @brief Method SetLayerRecursively, addr 0x6c141a8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetLayerRecursively, addr 0x6c1bd2c, size 0xe8, virtual false, abstract: false, final false
   static inline void SetLayerRecursively(::UnityEngine::GameObject* go, int32_t layer);
 
-  /// @brief Method SetParentAndAlign, addr 0x6c13f60, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetParentAndAlign, addr 0x6c1bae4, size 0x108, virtual false, abstract: false, final false
   static inline void SetParentAndAlign(::UnityEngine::GameObject* child, ::UnityEngine::GameObject* parent);
 
   static inline ::UnityEngine::UI::DefaultControls_IFactoryControls* getStaticF_m_CurrentFactory();
@@ -298,7 +298,7 @@ public:
 
   static inline ::UnityEngine::Vector2 getStaticF_s_ThinElementSize();
 
-  /// @brief Method get_factory, addr 0x6c13c50, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_factory, addr 0x6c1b7d4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::DefaultControls_IFactoryControls* get_factory();
 
   static inline void setStaticF_m_CurrentFactory(::UnityEngine::UI::DefaultControls_IFactoryControls* value);
@@ -330,7 +330,7 @@ public:
   DefaultControls(DefaultControls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17402 };
 
   /// @brief Field kThickHeight offset 0xffffffff size 0x4
   static constexpr float_t kThickHeight{ static_cast<float_t>(30.0f) };

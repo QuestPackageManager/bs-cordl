@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/MethodCallExpression0.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\MethodCallExpression0.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,19 +40,19 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetArgument, addr 0x5f7f950, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x5f873cc, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::MethodCallExpression0* New_ctor(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Rewrite, addr 0x5f7f9a4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x5f87420, size 0x60, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::MethodCallExpression* Rewrite(::System::Linq::Expressions::Expression* instance,
                                                                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
 
-  /// @brief Method .ctor, addr 0x5f7f94c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f873c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method get_ArgumentCount, addr 0x5f7f99c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x5f87418, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -73,7 +73,7 @@ public:
   MethodCallExpression0(MethodCallExpression0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

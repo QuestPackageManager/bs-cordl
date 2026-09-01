@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_QNameXdr.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_QNameXdr.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,23 +49,23 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_QNameXdr* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x61c2f80, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x61ca9fc, size 0x274, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method .ctor, addr 0x61b87f8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c0274, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_ListValueType, addr 0x61c3250, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x61caccc, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TokenizedType, addr 0x61c2f78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x61ca9f4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_ValueType, addr 0x61c31f4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x61cac70, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);
@@ -87,7 +87,7 @@ public:
   Datatype_QNameXdr(Datatype_QNameXdr const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

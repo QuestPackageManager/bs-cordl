@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Notifications.hpp"
+// IWYU pragma private; include "Oculus\Platform\Notifications.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Notifications_def.hpp"
 #include "Oculus/Platform/zzzz__Request_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(uint64_t)>(&::Oculus::Platform::Notifications::MarkAsRead)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5de6234;
+  constexpr static std::size_t addrs = 0x5dea6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

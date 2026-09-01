@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/ControllerSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\ControllerSettings.hpp"
 #include "BeatSaber/Settings/zzzz__SelectedProfile_impl.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "BeatSaber/Settings/zzzz__ControllerSettings_def.hpp"

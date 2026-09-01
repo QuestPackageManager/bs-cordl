@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StaticOverridableSpriteColor.hpp"
+// IWYU pragma private; include "GlobalNamespace\StaticOverridableSpriteColor.hpp"
 #include "GlobalNamespace/zzzz__ColorType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticOverridableSpriteColor_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StaticOverridableSpriteColor::*)()>(&::GlobalNamespace::StaticOverridableSpriteColor::Start)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5903340;
+  constexpr static std::size_t addrs = 0x5906940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StaticOverridableSpriteColor*>(), { "Start", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StaticOverridableSpriteColor::*)(::UnityEngine::Color)>(&::GlobalNamespace::StaticOverridableSpriteColor::SetColor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x590336c;
+  constexpr static std::size_t addrs = 0x590696c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StaticOverridableSpriteColor::*)()>(&::GlobalNamespace::StaticOverridableSpriteColor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59033a4;
+  constexpr static std::size_t addrs = 0x59069a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StaticOverridableSpriteColor*>(), { ".ctor", {}, {} })));

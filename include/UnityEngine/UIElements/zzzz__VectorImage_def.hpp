@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/VectorImage.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\VectorImage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,13 +88,13 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::ArrayW<::UnityEngine::UIElements::VectorImageVertex> value);
 
-  /// @brief Method .ctor, addr 0x6cc17f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc937c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_height, addr 0x6cc17f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x6cc9374, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_width, addr 0x6cc17e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x6cc936c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
 protected:

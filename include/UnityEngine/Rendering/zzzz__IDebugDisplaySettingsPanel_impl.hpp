@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IDebugDisplaySettingsPanel.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IDebugDisplaySettingsPanel.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsPanel_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugUI_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IDebugDisplaySettingsPanel.get_PanelName

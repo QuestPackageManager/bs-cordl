@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RpcPool.hpp"
+// IWYU pragma private; include "GlobalNamespace\RpcPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
   /// @brief Method Obtain, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Obtain();
 
-  /// @brief Method Release, addr 0x333c970, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x3340730, size 0x114, virtual false, abstract: false, final false
   static inline void Release(::GlobalNamespace::IRemoteProcedureCall* t);
 
 protected:
@@ -46,7 +46,7 @@ public:
   RpcPool(RpcPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18280 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

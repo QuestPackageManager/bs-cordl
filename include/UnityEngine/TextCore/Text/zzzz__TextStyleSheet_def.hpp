@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextStyleSheet.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextStyleSheet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,21 +45,21 @@ public:
 
   __declspec(property(get = get_styles)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* styles;
 
-  /// @brief Method GetStyle, addr 0x6bfacb4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x6c02838, size 0x130, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(int32_t hashCode);
 
-  /// @brief Method GetStyle, addr 0x6bfade4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x6c02968, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(::StringW name);
 
-  /// @brief Method LoadStyleDictionaryInternal, addr 0x6bfa978, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method LoadStyleDictionaryInternal, addr 0x6c024fc, size 0x33c, virtual false, abstract: false, final false
   inline void LoadStyleDictionaryInternal();
 
   static inline ::UnityEngine::TextCore::Text::TextStyleSheet* New_ctor();
 
-  /// @brief Method RefreshStyles, addr 0x6bfae80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyles, addr 0x6c02a04, size 0x4, virtual false, abstract: false, final false
   inline void RefreshStyles();
 
-  /// @brief Method Reset, addr 0x6bfa974, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6c024f8, size 0x4, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* const& __cordl_internal_get_m_StyleList() const;
@@ -80,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set_styleLookupLock(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6bfae84, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c02a08, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_styles, addr 0x6bfa96c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styles, addr 0x6c024f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* get_styles();
 
 protected:
@@ -101,7 +101,7 @@ public:
   TextStyleSheet(TextStyleSheet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17241 };
 
   /// @brief Field m_StyleList, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* ___m_StyleList;

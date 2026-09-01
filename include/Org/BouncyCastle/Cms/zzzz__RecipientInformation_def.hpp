@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/RecipientInformation.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\RecipientInformation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,19 +63,19 @@ public:
   /// @brief Field secureReadable, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_secureReadable, put = __cordl_internal_set_secureReadable)) ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable;
 
-  /// @brief Method GetContent, addr 0x36c977c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x36cd53c, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetContent(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
-  /// @brief Method GetContentAlgorithmName, addr 0x36c9414, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetContentAlgorithmName, addr 0x36cd1d4, size 0xc0, virtual false, abstract: false, final false
   inline ::StringW GetContentAlgorithmName();
 
-  /// @brief Method GetContentFromSessionKey, addr 0x36c9548, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetContentFromSessionKey, addr 0x36cd308, size 0x234, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentFromSessionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
 
   /// @brief Method GetContentStream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
-  /// @brief Method GetMac, addr 0x36c987c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0x36cd63c, size 0x178, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetMac();
 
   static inline ::Org::BouncyCastle::Cms::RecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
@@ -104,19 +104,19 @@ public:
 
   constexpr void __cordl_internal_set_secureReadable(::Org::BouncyCastle::Cms::CmsSecureReadable* value);
 
-  /// @brief Method .ctor, addr 0x36c939c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36cd15c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method get_KeyEncryptionAlgOid, addr 0x36c94e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgOid, addr 0x36cd2a4, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_KeyEncryptionAlgOid();
 
-  /// @brief Method get_KeyEncryptionAlgParams, addr 0x36c9510, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgParams, addr 0x36cd2d0, size 0x38, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_KeyEncryptionAlgParams();
 
-  /// @brief Method get_KeyEncryptionAlgorithmID, addr 0x36c94dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgorithmID, addr 0x36cd29c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithmID();
 
-  /// @brief Method get_RecipientID, addr 0x36c94d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecipientID, addr 0x36cd294, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientID* get_RecipientID();
 
 protected:

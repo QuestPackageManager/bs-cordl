@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlDownloadManager.hpp"
+// IWYU pragma private; include "System\Xml\XmlDownloadManager.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDownloadManager___c__DisplayClass4_0::*)()>(&::System::Xml::XmlDownloadManager___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62da73c;
+  constexpr static std::size_t addrs = 0x62e21b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDownloadManager___c__DisplayClass4_0*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::System::Xml::XmlDownloadManager___c__DisplayClass4_0::*)()>(
     &::System::Xml::XmlDownloadManager___c__DisplayClass4_0::_GetStreamAsync_b__0)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x62da850;
+  constexpr static std::size_t addrs = 0x62e22cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5::*)()>(
     &::System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x7fc;
-  constexpr static std::size_t addrs = 0x62da8e8;
+  constexpr static std::size_t addrs = 0x62e2364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5>(), { "MoveNext", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62db0e4;
+  constexpr static std::size_t addrs = 0x62e2b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDownloadManager__GetNonFileStreamAsync_d__5>(),
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IO::Stream* (::System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(
         &::System::Xml::XmlDownloadManager::GetStream)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x62d9cb0;
+  constexpr static std::size_t addrs = 0x62e172c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IO::Stream* (::System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(
         &::System::Xml::XmlDownloadManager::GetNonFileStream)> {
   constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x62d9dc4;
+  constexpr static std::size_t addrs = 0x62e1840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDownloadManager::*)(::StringW)>(&::System::Xml::XmlDownloadManager::Remove)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x62da420;
+  constexpr static std::size_t addrs = 0x62e1e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDownloadManager*>(), { "Remove", {}, { ::i2c::type_of<::StringW>() } })));
@@ -190,7 +190,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(
     &::System::Xml::XmlDownloadManager::GetStreamAsync)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x62da598;
+  constexpr static std::size_t addrs = 0x62e2014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(
     &::System::Xml::XmlDownloadManager::GetNonFileStreamAsync)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x62da740;
+  constexpr static std::size_t addrs = 0x62e21bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDownloadManager::*)()>(&::System::Xml::XmlDownloadManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62da84c;
+  constexpr static std::size_t addrs = 0x62e22c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDownloadManager*>(), { ".ctor", {}, {} })));

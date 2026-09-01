@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/AndroidConfiguration.hpp"
+// IWYU pragma private; include "UnityEngine\Android\AndroidConfiguration.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidHardwareKeyboardHidden_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidKeyboardHidden_impl.hpp"
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_colorMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d178;
+  constexpr static std::size_t addrs = 0x6a34bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_colorMode", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_densityDpi)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d180;
+  constexpr static std::size_t addrs = 0x6a34bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_densityDpi", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_fontScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d188;
+  constexpr static std::size_t addrs = 0x6a34c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_fontScale", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_fontWeightAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d190;
+  constexpr static std::size_t addrs = 0x6a34c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_fontWeightAdjustment", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidKeyboard (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_keyboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d198;
+  constexpr static std::size_t addrs = 0x6a34c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_keyboard", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidHardwareKeyboardHidden (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_hardKeyboardHidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1a0;
+  constexpr static std::size_t addrs = 0x6a34c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_hardKeyboardHidden", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidKeyboardHidden (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_keyboardHidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1a8;
+  constexpr static std::size_t addrs = 0x6a34c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_keyboardHidden", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_mobileCountryCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1b0;
+  constexpr static std::size_t addrs = 0x6a34c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_mobileCountryCode", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_mobileNetworkCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1b8;
+  constexpr static std::size_t addrs = 0x6a34c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_mobileNetworkCode", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidNavigation (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_navigation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1c0;
+  constexpr static std::size_t addrs = 0x6a34c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_navigation", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidNavigationHidden (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_navigationHidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1c8;
+  constexpr static std::size_t addrs = 0x6a34c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_navigationHidden", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidOrientation (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_orientation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1d0;
+  constexpr static std::size_t addrs = 0x6a34c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_orientation", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_screenHeightDp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1d8;
+  constexpr static std::size_t addrs = 0x6a34c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_screenHeightDp", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_screenWidthDp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1e0;
+  constexpr static std::size_t addrs = 0x6a34c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_screenWidthDp", {}, {} })));
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_smallestScreenWidthDp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1e8;
+  constexpr static std::size_t addrs = 0x6a34c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_smallestScreenWidthDp", {}, {} })));
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_screenLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1f0;
+  constexpr static std::size_t addrs = 0x6a34c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_screenLayout", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidTouchScreen (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_touchScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d1f8;
+  constexpr static std::size_t addrs = 0x6a34c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_touchScreen", {}, {} })));
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_uiMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d200;
+  constexpr static std::size_t addrs = 0x6a34c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_uiMode", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_primaryLocaleCountry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d208;
+  constexpr static std::size_t addrs = 0x6a34c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_primaryLocaleCountry", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::get_primaryLocaleLanguage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a2d210;
+  constexpr static std::size_t addrs = 0x6a34c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_primaryLocaleLanguage", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Android::AndroidLocale*> (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_locales)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6a2d218;
+  constexpr static std::size_t addrs = 0x6a34c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_locales", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidColorModeHdr (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_colorModeHdr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a2d310;
+  constexpr static std::size_t addrs = 0x6a34d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_colorModeHdr", {}, {} })));
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidColorModeWideColorGamut (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_colorModeWideColorGamut)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a2d31c;
+  constexpr static std::size_t addrs = 0x6a34d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidScreenLayoutDirection (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_screenLayoutDirection)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a2d328;
+  constexpr static std::size_t addrs = 0x6a34da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_screenLayoutDirection", {}, {} })));
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidScreenLayoutLong (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_screenLayoutLong)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a2d334;
+  constexpr static std::size_t addrs = 0x6a34db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_screenLayoutLong", {}, {} })));
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidScreenLayoutRound (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_screenLayoutRound)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a2d340;
+  constexpr static std::size_t addrs = 0x6a34dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_screenLayoutRound", {}, {} })));
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidScreenLayoutSize (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_screenLayoutSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a2d34c;
+  constexpr static std::size_t addrs = 0x6a34dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_screenLayoutSize", {}, {} })));
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidUIModeNight (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_uiModeNight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a2d358;
+  constexpr static std::size_t addrs = 0x6a34dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_uiModeNight", {}, {} })));
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidUIModeType (::UnityEngine::Android::AndroidConfiguration::*)()>(
     &::UnityEngine::Android::AndroidConfiguration::get_uiModeType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a2d364;
+  constexpr static std::size_t addrs = 0x6a34de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidConfiguration*>(), { "get_uiModeType", {}, {} })));
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Android::AndroidConfiguration::*)()>(&::UnityEngine::Android::AndroidConfiguration::ToString)> {
   constexpr static std::size_t size = 0x11b0;
-  constexpr static std::size_t addrs = 0x6a2d370;
+  constexpr static std::size_t addrs = 0x6a34dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

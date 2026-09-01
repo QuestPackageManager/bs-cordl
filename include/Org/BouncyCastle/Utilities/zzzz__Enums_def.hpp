@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Enums.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Enums.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,21 +29,21 @@ namespace Org::BouncyCastle::Utilities {
 class CORDL_TYPE Enums : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetArbitraryValue, addr 0x3639e6c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetArbitraryValue, addr 0x363dc2c, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Enum* GetArbitraryValue(::System::Type* enumType);
 
-  /// @brief Method GetEnumValue, addr 0x3639bec, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumValue, addr 0x363d9ac, size 0x19c, virtual false, abstract: false, final false
   static inline ::System::Enum* GetEnumValue(::System::Type* enumType, ::StringW s);
 
-  /// @brief Method GetEnumValues, addr 0x3639da4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetEnumValues, addr 0x363db64, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Array* GetEnumValues(::System::Type* enumType);
 
-  /// @brief Method IsEnumType, addr 0x3639d88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsEnumType, addr 0x363db48, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsEnumType(::System::Type* t);
 
   static inline ::Org::BouncyCastle::Utilities::Enums* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3639f40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363dd00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

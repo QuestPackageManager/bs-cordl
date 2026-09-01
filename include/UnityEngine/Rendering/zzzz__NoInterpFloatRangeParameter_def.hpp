@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/NoInterpFloatRangeParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\NoInterpFloatRangeParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x67c5624, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cd0a0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 value, float_t min, float_t max, bool overrideState);
 
-  /// @brief Method get_value, addr 0x67c55f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x67cd06c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_value();
 
-  /// @brief Method set_value, addr 0x67c55f8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x67cd074, size 0x2c, virtual true, abstract: false, final false
   inline void set_value(::UnityEngine::Vector2 value);
 
 protected:
@@ -70,7 +70,7 @@ public:
   NoInterpFloatRangeParameter(NoInterpFloatRangeParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12354 };
 
   /// @brief Field min, offset: 0x1c, size: 0x4, def value: None
   float_t ___min;

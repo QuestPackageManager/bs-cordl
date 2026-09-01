@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RenderTextureFromPostEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\RenderTextureFromPostEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,12 +33,12 @@ public:
 
   __declspec(property(get = get_targetTexture)) ::UnityW<::UnityEngine::RenderTexture> targetTexture;
 
-  /// @brief Method Awake, addr 0x5f43778, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5f4b0ec, size 0x54, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::RenderTextureFromPostEffect* New_ctor();
 
-  /// @brief Method OnRenderImage, addr 0x5f437cc, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method OnRenderImage, addr 0x5f4b140, size 0x208, virtual false, abstract: false, final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dst);
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__targetTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
-  /// @brief Method .ctor, addr 0x5f439d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4b348, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_targetTexture, addr 0x5f43770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetTexture, addr 0x5f4b0e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_targetTexture();
 
 protected:
@@ -74,7 +74,7 @@ public:
   RenderTextureFromPostEffect(RenderTextureFromPostEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20666 };
 
   /// @brief Field _targetTexture, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____targetTexture;

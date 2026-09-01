@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PyramidBloomRendererSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\PyramidBloomRendererSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -143,7 +143,7 @@ public:
   static ::GlobalNamespace::PyramidBloomRendererSO_Pass const UpsampleTentGamma;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19437 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -198,7 +198,7 @@ public:
   static ::GlobalNamespace::PyramidBloomRendererSO_TextureType const MainEffect;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19438 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -272,13 +272,13 @@ public:
 
   static inline ::GlobalNamespace::PyramidBloomRendererSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x585ec44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x585dd4c, size 0x14, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x585e8d0, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x585d9d8, size 0x374, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RenderBloom, addr 0x585f0e8, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x585e1f0, size 0x694, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle src, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dest,
                           ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tempRTHandles, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset,
                           bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness,
@@ -286,7 +286,7 @@ public:
                           ::GlobalNamespace::PyramidBloomRendererSO_Pass upsamplePass, ::GlobalNamespace::PyramidBloomRendererSO_Pass finalUpsamplePass, bool legacyAutoExposure,
                           bool isScreenspaceEffect);
 
-  /// @brief Method SetupTempTextureHandles, addr 0x585ec58, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method SetupTempTextureHandles, addr 0x585dd60, size 0x490, virtual false, abstract: false, final false
   inline void SetupTempTextureHandles(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* builder, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                       ::UnityEngine::RenderTextureDescriptor destDesc, ::GlobalNamespace::PyramidBloomRendererSO_TextureType textureType, float_t radius, bool downsampleOnFirstPass,
                                       ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> textureHandles);
@@ -351,7 +351,7 @@ public:
 
   constexpr void __cordl_internal_set_kLegacyAutoExposureKeyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x585f77c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x585e884, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__bloomParamsID();
@@ -385,7 +385,7 @@ public:
   PyramidBloomRendererSO(PyramidBloomRendererSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19439 };
 
   /// @brief Field kMaxPyramidSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPyramidSize{ static_cast<int32_t>(0x10) };

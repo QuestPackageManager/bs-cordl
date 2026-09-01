@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRChromaticAberration.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRChromaticAberration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::OVRChromaticAberration* New_ctor();
 
-  /// @brief Method Start, addr 0x5eed5f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ef1aac, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5eed6a0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ef1b5c, size 0x10c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_chromatic() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::OVRInput_RawButton value);
 
-  /// @brief Method .ctor, addr 0x5eed7ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ef1c68, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   OVRChromaticAberration(OVRChromaticAberration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7867 };
 
   /// @brief Field toggleButton, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVRInput_RawButton ___toggleButton;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Serialization/CamelCasePropertyNamesContractResolver.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Serialization\CamelCasePropertyNamesContractResolver.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultContractResolver_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__CamelCasePropertyNamesContractResolver_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)()>(
     &::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d30b00;
+  constexpr static std::size_t addrs = 0x5d34fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Serialization::JsonContract* (
     ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)(::System::Type*)>(&::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::ResolveContract)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x5d30c84;
+  constexpr static std::size_t addrs = 0x5d35140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::DefaultJsonNameTable* (::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)()>(
     &::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::GetNameTable)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d30fdc;
+  constexpr static std::size_t addrs = 0x5d35498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver*>(),

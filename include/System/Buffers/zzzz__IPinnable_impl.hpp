@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Buffers/IPinnable.hpp"
+// IWYU pragma private; include "System\Buffers\IPinnable.hpp"
 #include "System/Buffers/zzzz__IPinnable_def.hpp"
 //  Writing Method size for method: ::System::Buffers::IPinnable.Unpin
 template <>

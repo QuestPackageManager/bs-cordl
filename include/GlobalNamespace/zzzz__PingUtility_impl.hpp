@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PingUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace\PingUtility.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PingUtility___c::*)()>(&::GlobalNamespace::PingUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x333b03c;
+  constexpr static std::size_t addrs = 0x333edfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PingUtility___c*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ping* (::GlobalNamespace::PingUtility___c::*)(::System::Net::IPAddress*)>(
     &::GlobalNamespace::PingUtility___c::_PingAsync_b__0_0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x333b040;
+  constexpr static std::size_t addrs = 0x333ee00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PingUtility__PingAsync_d__0::*)()>(&::GlobalNamespace::PingUtility__PingAsync_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x600;
-  constexpr static std::size_t addrs = 0x333b0c4;
+  constexpr static std::size_t addrs = 0x333ee84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PingUtility__PingAsync_d__0>(), { "MoveNext", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PingUtility__PingAsync_d__0::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PingUtility__PingAsync_d__0::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x333b6c4;
+  constexpr static std::size_t addrs = 0x333f484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PingUtility__PingAsync_d__0>(),
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int64_t>* (*)(::StringW)>(&::GlobalNamespace::PingUtility::PingAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x333af04;
+  constexpr static std::size_t addrs = 0x333ecc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PingUtility*>(), { "PingAsync", {}, { ::i2c::type_of<::StringW>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiClickButtonController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiClickButtonController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,15 +44,15 @@ public:
   /// @brief Field wasTriggeredEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_wasTriggeredEvent, put = __cordl_internal_set_wasTriggeredEvent)) ::System::Action* wasTriggeredEvent;
 
-  /// @brief Method HandleButtonClicked, addr 0x59fb738, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClicked, addr 0x5a0380c, size 0x38, virtual false, abstract: false, final false
   inline void HandleButtonClicked();
 
   static inline ::GlobalNamespace::MultiClickButtonController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59fb720, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a037f4, size 0x18, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59fb680, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5a03754, size 0xa0, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set_wasTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x59fb770, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a03844, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_wasTriggeredEvent, addr 0x59fb528, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_wasTriggeredEvent, addr 0x5a035fc, size 0xac, virtual false, abstract: false, final false
   inline void add_wasTriggeredEvent(::System::Action* value);
 
-  /// @brief Method remove_wasTriggeredEvent, addr 0x59fb5d4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_wasTriggeredEvent, addr 0x5a036a8, size 0xac, virtual false, abstract: false, final false
   inline void remove_wasTriggeredEvent(::System::Action* value);
 
 protected:
@@ -109,7 +109,7 @@ public:
   MultiClickButtonController(MultiClickButtonController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6330 };
 
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;

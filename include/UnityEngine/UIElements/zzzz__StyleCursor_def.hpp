@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleCursor.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleCursor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,28 +48,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Cursor>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Cursor>*();
 
-  /// @brief Method Equals, addr 0x6c8b444, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c92fc8, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c8b3e8, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c92f6c, size 0x5c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleCursor other);
 
-  /// @brief Method GetHashCode, addr 0x6c8b4f8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c9307c, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6c8b520, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c930a4, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c8b354, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c92ed8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x6c8b364, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c92ee8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Cursor v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x6c8b344, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x6c92ec8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x6c8b2ec, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x6c92e70, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Cursor get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleCursor>"
@@ -78,16 +78,16 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Cursor>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Cursor>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Cursor_();
 
-  /// @brief Method op_Equality, addr 0x6c8b37c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c92f00, size 0x5c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleCursor lhs, ::UnityEngine::UIElements::StyleCursor rhs);
 
-  /// @brief Method op_Implicit, addr 0x6c8b3d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c92f5c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleCursor op_Implicit___UnityEngine__UIElements__StyleCursor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method set_keyword, addr 0x6c8b34c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x6c92ed0, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x6c8b32c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x6c92eb0, size 0x18, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::UIElements::Cursor value);
 
   // Ctor Parameters []

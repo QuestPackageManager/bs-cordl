@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_NMTOKEN.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_NMTOKEN.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_token_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_NMTOKEN_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_NMTOKEN::*)()>(&::System::Xml::Schema::Datatype_NMTOKEN::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c00d8;
+  constexpr static std::size_t addrs = 0x61c7b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlTokenizedType (::System::Xml::Schema::Datatype_NMTOKEN::*)()>(&::System::Xml::Schema::Datatype_NMTOKEN::get_TokenizedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c00e0;
+  constexpr static std::size_t addrs = 0x61c7b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_NMTOKEN::*)()>(&::System::Xml::Schema::Datatype_NMTOKEN::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61b86f8;
+  constexpr static std::size_t addrs = 0x61c0174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_NMTOKEN*>(), { ".ctor", {}, {} })));

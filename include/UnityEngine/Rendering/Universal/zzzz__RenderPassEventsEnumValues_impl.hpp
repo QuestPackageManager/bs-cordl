@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderPassEventsEnumValues.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderPassEventsEnumValues.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderPassEventsEnumValues_def.hpp"
 inline void UnityEngine::Rendering::Universal::RenderPassEventsEnumValues::setStaticF_values(::ArrayW<int32_t> value) {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlatformInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlatformInstaller.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformInstaller_def.hpp"
@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     bool, ::OSCE::Analytics::AnalyticsManager*, ::OculusStudios::Platform::Core::IPlatform*, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*, uint64_t,
     ::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO*)>(&::GlobalNamespace::PlatformInstaller_Arguments::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3771fc4;
+  constexpr static std::size_t addrs = 0x3777c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)(::GlobalNamespace::PlatformInstaller_Arguments*)>(&::GlobalNamespace::PlatformInstaller::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x37718e0;
+  constexpr static std::size_t addrs = 0x377754c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x3771930;
+  constexpr static std::size_t addrs = 0x377759c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::BindAnalyticsModel)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3771c54;
+  constexpr static std::size_t addrs = 0x37778c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindAnalyticsModel", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::BindBeatmapDataAssetFileModel)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3771dc4;
+  constexpr static std::size_t addrs = 0x3777a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindBeatmapDataAssetFileModel", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::BindAdditionalContentModel)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3771d30;
+  constexpr static std::size_t addrs = 0x377799c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(), { "BindAdditionalContentModel", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformInstaller::*)()>(&::GlobalNamespace::PlatformInstaller::BindMockPlatformAdditionalContentModel)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3771e6c;
+  constexpr static std::size_t addrs = 0x3777ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* (
     ::GlobalNamespace::PlatformInstaller::*)(::BeatSaber::FeatureFlags::IFeatureFlagService*)>(&::GlobalNamespace::PlatformInstaller::_InstallBindings_b__3_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3771f3c;
+  constexpr static std::size_t addrs = 0x3777ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformInstaller*>(),

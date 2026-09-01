@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/RegisteredWaitHandle.hpp"
+// IWYU pragma private; include "System\Threading\RegisteredWaitHandle.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Threading/zzzz__RegisteredWaitHandle_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(
     ::System::Threading::WaitHandle*, ::System::Threading::WaitOrTimerCallback*, ::System::Object*, ::System::TimeSpan, bool)>(&::System::Threading::RegisteredWaitHandle::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cb2550;
+  constexpr static std::size_t addrs = 0x5cb6a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(::System::Object*)>(&::System::Threading::RegisteredWaitHandle::Wait)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x5cb50d4;
+  constexpr static std::size_t addrs = 0x5cb9590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::RegisteredWaitHandle::*)(::System::Object*)>(&::System::Threading::RegisteredWaitHandle::DoCallBack)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cb5670;
+  constexpr static std::size_t addrs = 0x5cb9b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::RegisteredWaitHandle::*)(::System::Threading::WaitHandle*)>(&::System::Threading::RegisteredWaitHandle::Unregister)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5cb5738;
+  constexpr static std::size_t addrs = 0x5cb9bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

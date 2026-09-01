@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteDebrisPhysics.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteDebrisPhysics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::NoteDebrisPhysics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58d57cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d517c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

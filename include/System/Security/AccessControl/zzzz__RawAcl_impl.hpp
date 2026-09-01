@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/RawAcl.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\RawAcl.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAcl_impl.hpp"
 #include "System/Security/AccessControl/zzzz__RawAcl_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::RawAcl::*)(uint8_t, int32_t)>(&::System::Security::AccessControl::RawAcl::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5b18f28;
+  constexpr static std::size_t addrs = 0x5b1d3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::AccessControl::RawAcl::*)()>(&::System::Security::AccessControl::RawAcl::get_Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5b1c4f8;
+  constexpr static std::size_t addrs = 0x5b209b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::GenericAce* (::System::Security::AccessControl::RawAcl::*)(int32_t)>(
     &::System::Security::AccessControl::RawAcl::get_Item)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b1c548;
+  constexpr static std::size_t addrs = 0x5b20a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::RawAcl::*)(int32_t, ::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::RawAcl::set_Item)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5b1c5ac;
+  constexpr static std::size_t addrs = 0x5b20a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::RawAcl::*)(int32_t, ::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::RawAcl::InsertAce)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5b1a5f8;
+  constexpr static std::size_t addrs = 0x5b1eab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::RawAcl::*)(int32_t)>(&::System::Security::AccessControl::RawAcl::RemoveAce)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b1a080;
+  constexpr static std::size_t addrs = 0x5b1e53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

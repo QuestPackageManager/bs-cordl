@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLeaderboardPanelController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLeaderboardPanelController.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLeaderboardPanelItem_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLeaderboardPanelController_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeaderboardPanelController::*)()>(&::GlobalNamespace::MultiplayerLeaderboardPanelController::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59a4c88;
+  constexpr static std::size_t addrs = 0x59ac530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeaderboardPanelController*>(), { "Start", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeaderboardPanelController::*)()>(&::GlobalNamespace::MultiplayerLeaderboardPanelController::Update)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x59a4d08;
+  constexpr static std::size_t addrs = 0x59ac5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeaderboardPanelController*>(), { "Update", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeaderboardPanelController::*)()>(&::GlobalNamespace::MultiplayerLeaderboardPanelController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59a5208;
+  constexpr static std::size_t addrs = 0x59acab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeaderboardPanelController*>(), { ".ctor", {}, {} })));

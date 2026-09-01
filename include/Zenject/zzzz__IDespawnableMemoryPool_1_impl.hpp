@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/IDespawnableMemoryPool_1.hpp"
+// IWYU pragma private; include "Zenject\IDespawnableMemoryPool_1.hpp"
 #include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_def.hpp"
 template <typename TValue> inline void Zenject::IDespawnableMemoryPool_1<TValue>::Despawn(TValue item) {

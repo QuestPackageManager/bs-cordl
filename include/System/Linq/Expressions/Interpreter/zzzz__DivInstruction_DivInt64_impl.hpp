@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/DivInstruction_DivInt64.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\DivInstruction_DivInt64.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DivInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DivInstruction_DivInt64_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::DivInstruction_DivInt64::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::GlobalNamespace::DivInstruction_DivInt64::Run)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5f8aa08;
+  constexpr static std::size_t addrs = 0x5f92484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DivInstruction_DivInt64::*)()>(&::GlobalNamespace::DivInstruction_DivInt64::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f8a7e0;
+  constexpr static std::size_t addrs = 0x5f9225c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DivInstruction_DivInt64*>(), { ".ctor", {}, {} })));

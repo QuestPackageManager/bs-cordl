@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/XR/Interaction/BasePoseProvider.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\XR\Interaction\BasePoseProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ namespace UnityEngine::Experimental::XR::Interaction {
 class CORDL_TYPE BasePoseProvider : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method GetPoseFromProvider, addr 0x6bb0254, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetPoseFromProvider, addr 0x6bb7dd8, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::SpatialTracking::PoseDataFlags GetPoseFromProvider(::by_ref<::UnityEngine::Pose> output);
 
   static inline ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider* New_ctor();
 
-  /// @brief Method TryGetPoseFromProvider, addr 0x6bb0278, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method TryGetPoseFromProvider, addr 0x6bb7dfc, size 0x7c, virtual true, abstract: false, final false
   inline bool TryGetPoseFromProvider(::by_ref<::UnityEngine::Pose> output);
 
-  /// @brief Method .ctor, addr 0x6bb02f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb7e78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   BasePoseProvider(BasePoseProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23364 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

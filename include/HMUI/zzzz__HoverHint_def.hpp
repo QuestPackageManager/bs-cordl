@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/HoverHint.hpp"
+// IWYU pragma private; include "HMUI\HoverHint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ public:
 
   static inline ::HMUI::HoverHint* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x587a6c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x587a004, size 0x84, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPointerEnter, addr 0x587a534, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x5879e74, size 0x30, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x587a58c, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x5879ecc, size 0xc4, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::HMUI::HoverHintController> const& __cordl_internal_get__hoverHintController() const;
@@ -96,16 +96,16 @@ public:
 
   constexpr void __cordl_internal_set__worldCornersTemp(::ArrayW<::UnityEngine::Vector3> value);
 
-  /// @brief Method .ctor, addr 0x587a748, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587a088, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_size, addr 0x587a3b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x5879cf4, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_size();
 
-  /// @brief Method get_text, addr 0x587a3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x5879ce4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_worldCenter, addr 0x587a430, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_worldCenter, addr 0x5879d70, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldCenter();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -117,7 +117,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method set_text, addr 0x587a3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x5879cec, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -135,7 +135,7 @@ public:
   HoverHint(HoverHint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19042 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::StringW ____text;

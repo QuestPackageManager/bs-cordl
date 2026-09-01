@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/VolumeComponent.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\VolumeComponent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_relativeAmount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67c4b94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cc610, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t relativeAmount);
 
 protected:
@@ -90,7 +90,7 @@ public:
   VolumeComponent_Indent(VolumeComponent_Indent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12326 };
 
   /// @brief Field relativeAmount, offset: 0x18, size: 0x4, def value: None
   int32_t ___relativeAmount;
@@ -118,10 +118,10 @@ public:
 
   static inline ::UnityEngine::Rendering::VolumeComponent___c* New_ctor();
 
-  /// @brief Method <FindParameters>b__10_0, addr 0x67c4bf8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FindParameters>b__10_0, addr 0x67cc674, size 0x24, virtual false, abstract: false, final false
   inline int32_t _FindParameters_b__10_0(::System::Reflection::FieldInfo* t);
 
-  /// @brief Method .ctor, addr 0x67c4bf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cc670, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::VolumeComponent___c* getStaticF___9();
@@ -147,7 +147,7 @@ public:
   VolumeComponent___c(VolumeComponent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12327 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -185,37 +185,37 @@ public:
 
   __declspec(property(get = get_parameters)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* parameters;
 
-  /// @brief Method AnyPropertiesIsOverridden, addr 0x67c4988, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AnyPropertiesIsOverridden, addr 0x67cc404, size 0xb0, virtual false, abstract: false, final false
   inline bool AnyPropertiesIsOverridden();
 
-  /// @brief Method FindParameters, addr 0x67c3950, size 0x63c, virtual false, abstract: false, final false
+  /// @brief Method FindParameters, addr 0x67cb3cc, size 0x63c, virtual false, abstract: false, final false
   static inline void FindParameters(::System::Object* o, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>* parameters,
                                     ::System::Func_2<::System::Reflection::FieldInfo*, bool>* filter);
 
-  /// @brief Method GetHashCode, addr 0x67c48d4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67cc350, size 0xb4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::VolumeComponent* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x67c4a38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x67cc4b4, size 0x4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x67c41a0, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x67cbc1c, size 0x104, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x67c3f8c, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x67cba08, size 0x214, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Override, addr 0x67c42a4, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method Override, addr 0x67cbd20, size 0x130, virtual true, abstract: false, final false
   inline void Override(::UnityEngine::Rendering::VolumeComponent* state, float_t interpFactor);
 
-  /// @brief Method Release, addr 0x67c4a3c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x67cc4b8, size 0xb4, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SetAllOverridesTo, addr 0x67c43d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetAllOverridesTo, addr 0x67cbe50, size 0x10, virtual false, abstract: false, final false
   inline void SetAllOverridesTo(bool state);
 
-  /// @brief Method SetOverridesTo, addr 0x67c43e4, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method SetOverridesTo, addr 0x67cbe60, size 0x3d0, virtual false, abstract: false, final false
   inline void SetOverridesTo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>* enumerable, bool state);
 
   constexpr ::StringW const& __cordl_internal_get__displayName_k__BackingField() const;
@@ -242,16 +242,16 @@ public:
 
   constexpr void __cordl_internal_set_parameterList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>* value);
 
-  /// @brief Method .ctor, addr 0x67c4af0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cc56c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_displayName, addr 0x67c38dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x67cb358, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_parameters, addr 0x67c38ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x67cb368, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* get_parameters();
 
-  /// @brief Method set_displayName, addr 0x67c38e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x67cb360, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
 protected:
@@ -269,7 +269,7 @@ public:
   VolumeComponent(VolumeComponent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12328 };
 
   /// @brief Field active, offset: 0x18, size: 0x1, def value: None
   bool ___active;

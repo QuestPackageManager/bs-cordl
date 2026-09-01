@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DirectionalLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace\DirectionalLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLightWithId_def.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLight_def.hpp"
@@ -9,11 +9,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DirectionalLightWithId::*)(::UnityEngine::Color)>(&::GlobalNamespace::DirectionalLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x586d9d0;
+  constexpr static std::size_t addrs = 0x586cb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLightWithId*>(), { ::i2c::class_of<::GlobalNamespace::DirectionalLightWithId*>(), 9 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLightWithId*>(), { ::i2c::class_of<::GlobalNamespace::DirectionalLightWithId*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DirectionalLightWithId::*)()>(&::GlobalNamespace::DirectionalLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x586da00;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x586cb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLightWithId*>(), { ".ctor", {}, {} })));
@@ -66,7 +66,8 @@ constexpr void GlobalNamespace::DirectionalLightWithId::__cordl_internal_set__mi
   this->____minIntensity = value;
 }
 inline void GlobalNamespace::DirectionalLightWithId::ColorWasSet(::UnityEngine::Color color) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::DirectionalLightWithId*>(), 9 })));
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::DirectionalLightWithId*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
 inline void GlobalNamespace::DirectionalLightWithId::_ctor() {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/StyleSyntaxToken.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Syntax\StyleSyntaxToken.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxTokenType_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxToken_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__StyleSyntaxTokenType_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken::*)(
     ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType)>(&::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d1674c;
+  constexpr static std::size_t addrs = 0x6d1e2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken::*)(
     ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType, ::StringW)>(&::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d1675c;
+  constexpr static std::size_t addrs = 0x6d1e2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken::*)(
     ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType, int32_t)>(&::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d1676c;
+  constexpr static std::size_t addrs = 0x6d1e2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

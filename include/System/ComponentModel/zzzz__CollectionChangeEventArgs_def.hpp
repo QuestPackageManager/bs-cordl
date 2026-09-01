@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/CollectionChangeEventArgs.hpp"
+// IWYU pragma private; include "System\ComponentModel\CollectionChangeEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__Element_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x63af90c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b7388, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::CollectionChangeAction action, ::System::Object* element);
 
-  /// @brief Method get_Action, addr 0x63af978, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Action, addr 0x63b73f4, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::CollectionChangeAction get_Action();
 
-  /// @brief Method get_Element, addr 0x63af980, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Element, addr 0x63b73fc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Element();
 
 protected:
@@ -74,7 +74,7 @@ public:
   CollectionChangeEventArgs(CollectionChangeEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11247 };
 
   /// @brief Field <Action>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::CollectionChangeAction ____Action_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Burst/Intrinsics/BurstTargetCpuAttribute.hpp"
+// IWYU pragma private; include "Unity\Burst\Intrinsics\BurstTargetCpuAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Burst/zzzz__BurstTargetCpu_impl.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__BurstTargetCpuAttribute_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::Intrinsics::BurstTargetCpuAttribute::*)(::Unity::Burst::BurstTargetCpu)>(
     &::Unity::Burst::Intrinsics::BurstTargetCpuAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x648be14;
+  constexpr static std::size_t addrs = 0x6493890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

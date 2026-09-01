@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/EventConsumer.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\EventConsumer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +28,12 @@ namespace UnityEngine::InputForUI {
 class CORDL_TYPE EventConsumer : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6b54878, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6b5c3fc, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::by_ref<::UnityEngine::InputForUI::Event> ev);
 
   static inline ::UnityEngine::InputForUI::EventConsumer* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6b547fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b5c380, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -51,7 +51,7 @@ public:
   EventConsumer(EventConsumer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21824 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Net/Security/AsyncHandshakeRequest.hpp"
+// IWYU pragma private; include "Mono\Net\Security\AsyncHandshakeRequest.hpp"
 #include "Mono/Net/Security/zzzz__AsyncProtocolRequest_impl.hpp"
 #include "Mono/Net/Security/zzzz__AsyncHandshakeRequest_def.hpp"
 #include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::AsyncHandshakeRequest::*)(::Mono::Net::Security::MobileAuthenticatedStream*, bool)>(
     &::Mono::Net::Security::AsyncHandshakeRequest::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fd062c;
+  constexpr static std::size_t addrs = 0x5fd80a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::AsyncOperationStatus (::Mono::Net::Security::AsyncHandshakeRequest::*)(::Mono::Net::Security::AsyncOperationStatus)>(
     &::Mono::Net::Security::AsyncHandshakeRequest::Run)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fd0630;
+  constexpr static std::size_t addrs = 0x5fd80ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

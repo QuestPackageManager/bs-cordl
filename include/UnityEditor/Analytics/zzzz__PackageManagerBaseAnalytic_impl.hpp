@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor/Analytics/PackageManagerBaseAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor\Analytics\PackageManagerBaseAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerBaseAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::PackageManagerBaseAnalytic._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::PackageManagerBaseAnalytic::*)(::StringW)>(&::UnityEditor::Analytics::PackageManagerBaseAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6e1d7f4;
+  constexpr static std::size_t addrs = 0x6e25378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

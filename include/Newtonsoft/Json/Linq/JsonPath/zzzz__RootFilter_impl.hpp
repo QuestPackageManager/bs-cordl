@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/RootFilter.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\RootFilter.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__RootFilter_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::RootFilter::*)()>(&::Newtonsoft::Json::Linq::JsonPath::RootFilter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d90efc;
+  constexpr static std::size_t addrs = 0x5d953b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::RootFilter*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::Newtonsoft::Json::Linq::JsonPath::RootFilter::*)(::Newtonsoft::Json::Linq::JToken*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*,
                                                        ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::RootFilter::ExecuteFilter)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d90f00;
+  constexpr static std::size_t addrs = 0x5d953bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

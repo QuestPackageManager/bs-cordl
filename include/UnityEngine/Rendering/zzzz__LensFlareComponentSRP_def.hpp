@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LensFlareComponentSRP.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LensFlareComponentSRP.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
   static ::UnityEngine::Rendering::LensFlareComponentSRP_Version const Initial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12172 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -166,21 +166,21 @@ public:
   /// @brief Field volumetricCloudOcclusion, offset 0x6d, size 0x1
   __declspec(property(get = __cordl_internal_get_volumetricCloudOcclusion, put = __cordl_internal_set_volumetricCloudOcclusion)) bool volumetricCloudOcclusion;
 
-  /// @brief Method Awake, addr 0x6799d04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x67a1780, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::UnityEngine::Rendering::LensFlareComponentSRP* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6799e30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x67a18ac, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x6799dcc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x67a1848, size 0x64, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6799d08, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x67a1784, size 0xc4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6799c24, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x67a16a0, size 0xe0, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr bool const& __cordl_internal_get_allowOffScreen() const;
@@ -309,20 +309,20 @@ public:
 
   constexpr void __cordl_internal_set_volumetricCloudOcclusion(bool value);
 
-  /// @brief Method .ctor, addr 0x6799e48, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a18c4, size 0x248, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method celestialProjectedOcclusionRadius, addr 0x6795360, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method celestialProjectedOcclusionRadius, addr 0x679cddc, size 0xd0, virtual false, abstract: false, final false
   inline float_t celestialProjectedOcclusionRadius(::UnityEngine::Camera* mainCam);
 
   static inline float_t getStaticF_sCelestialAngularRadius();
 
-  /// @brief Method get_lensFlareData, addr 0x6799c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lensFlareData, addr 0x67a1690, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::LensFlareDataSRP> get_lensFlareData();
 
   static inline void setStaticF_sCelestialAngularRadius(float_t value);
 
-  /// @brief Method set_lensFlareData, addr 0x6799c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lensFlareData, addr 0x67a1698, size 0x8, virtual false, abstract: false, final false
   inline void set_lensFlareData(::UnityEngine::Rendering::LensFlareDataSRP* value);
 
 protected:
@@ -340,7 +340,7 @@ public:
   LensFlareComponentSRP(LensFlareComponentSRP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12173 };
 
   /// @brief Field m_LensFlareData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::LensFlareDataSRP> ___m_LensFlareData;

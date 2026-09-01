@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IBeatToTimeConverter.hpp"
+// IWYU pragma private; include "GlobalNamespace\IBeatToTimeConverter.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConverter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IBeatToTimeConverter.ConvertBeatToTime
 template <>

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightGroupGridLayouter.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightGroupGridLayouter.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupGridLayouter_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightGroupGridLayouter::*)()>(&::GlobalNamespace::LightGroupGridLayouter::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5991100;
+  constexpr static std::size_t addrs = 0x599a42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupGridLayouter*>(), { ".ctor", {}, {} })));

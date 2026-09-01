@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LevelFailedTextEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\LevelFailedTextEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedTextEffect* New_ctor();
 
-  /// @brief Method ShowEffect, addr 0x59815ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ShowEffect, addr 0x5984f80, size 0x3c, virtual false, abstract: false, final false
   inline void ShowEffect();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method .ctor, addr 0x5981628, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5984fbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

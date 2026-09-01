@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/SerializedTypeRestrictionAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\SerializedTypeRestrictionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__SerializedTypeRestrictionAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute::*)()>(
     &::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69101f0;
+  constexpr static std::size_t addrs = 0x6917c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

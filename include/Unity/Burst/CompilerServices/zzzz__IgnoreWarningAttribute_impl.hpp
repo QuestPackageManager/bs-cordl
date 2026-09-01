@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Burst/CompilerServices/IgnoreWarningAttribute.hpp"
+// IWYU pragma private; include "Unity\Burst\CompilerServices\IgnoreWarningAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__IgnoreWarningAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::IgnoreWarningAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::CompilerServices::IgnoreWarningAttribute::*)(int32_t)>(&::Unity::Burst::CompilerServices::IgnoreWarningAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649fba8;
+  constexpr static std::size_t addrs = 0x64a7624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Processors/ClampProcessor.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Processors\ClampProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::ClampProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x65b6820, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x65be29c, size 0x18, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x65b6838, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x65be2b4, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_max() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x65b68ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65be368, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   ClampProcessor(ClampProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9075 };
 
   /// @brief Field min, offset: 0x10, size: 0x4, def value: None
   float_t ___min;

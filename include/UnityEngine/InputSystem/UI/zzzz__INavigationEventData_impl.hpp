@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/UI/INavigationEventData.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\UI\INavigationEventData.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__INavigationEventData_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::UI::INavigationEventData.get_device

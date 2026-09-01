@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XRLayoutStack.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XRLayoutStack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,15 +36,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x673fcc8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6747744, size 0x9c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method New, addr 0x673fab0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method New, addr 0x674752c, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::XRLayout* New();
 
   static inline ::UnityEngine::Experimental::Rendering::XRLayoutStack* New_ctor();
 
-  /// @brief Method Release, addr 0x673fbbc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6747638, size 0x10c, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::Experimental::Rendering::XRLayout*>* const& __cordl_internal_get_m_Stack() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<::UnityEngine::Experimental::Rendering::XRLayout*>* value);
 
-  /// @brief Method .ctor, addr 0x673fd64, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67477e0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_top, addr 0x673fb68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_top, addr 0x67475e4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::XRLayout* get_top();
 
   /// @brief Convert to "::System::IDisposable"
@@ -77,7 +77,7 @@ public:
   XRLayoutStack(XRLayoutStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11854 };
 
   /// @brief Field m_Stack, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::Experimental::Rendering::XRLayout*>* ___m_Stack;

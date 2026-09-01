@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Tab.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Tab.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,7 +95,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Tab_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d6c85c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d743e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -137,7 +137,7 @@ public:
   /// @brief Field m_Label, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Label, put = __cordl_internal_set_m_Label)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Label;
 
-  /// @brief Method Init, addr 0x6d6c8c4, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d74448, size 0x1a0, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Tab_UxmlTraits* New_ctor();
@@ -160,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Label(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d6ca64, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d745e8, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -216,10 +216,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Tab___c* New_ctor();
 
-  /// @brief Method <.ctor>b__63_0, addr 0x6d6cc08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__63_0, addr 0x6d7478c, size 0x1c, virtual false, abstract: false, final false
   inline void __ctor_b__63_0(::UnityEngine::UIElements::TooltipEvent* evt);
 
-  /// @brief Method .ctor, addr 0x6d6cc04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d74788, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Tab___c* getStaticF___9();
@@ -369,41 +369,41 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method AddCloseButton, addr 0x6d6c1e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AddCloseButton, addr 0x6d73d68, size 0x20, virtual false, abstract: false, final false
   inline void AddCloseButton();
 
-  /// @brief Method AddDragHandles, addr 0x6d6c168, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddDragHandles, addr 0x6d73cec, size 0x24, virtual false, abstract: false, final false
   inline void AddDragHandles();
 
-  /// @brief Method EnableTabCloseButton, addr 0x6d6b478, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method EnableTabCloseButton, addr 0x6d72ffc, size 0xc, virtual false, abstract: false, final false
   inline void EnableTabCloseButton(bool enable);
 
-  /// @brief Method EnableTabDragHandles, addr 0x6d6c1d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method EnableTabDragHandles, addr 0x6d73d5c, size 0xc, virtual false, abstract: false, final false
   inline void EnableTabDragHandles(bool enable);
 
   static inline ::UnityEngine::UIElements::Tab* New_ctor();
 
   static inline ::UnityEngine::UIElements::Tab* New_ctor(::StringW label, ::UnityEngine::UIElements::Background iconImage);
 
-  /// @brief Method OnCloseButtonClicked, addr 0x6d6c2e8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnCloseButtonClicked, addr 0x6d73e6c, size 0x74, virtual false, abstract: false, final false
   inline void OnCloseButtonClicked(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnTabClicked, addr 0x6d6c2c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnTabClicked, addr 0x6d73e4c, size 0x20, virtual false, abstract: false, final false
   inline void OnTabClicked(::UnityEngine::UIElements::PointerDownEvent* _);
 
-  /// @brief Method RemoveCloseButton, addr 0x6d6c204, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RemoveCloseButton, addr 0x6d73d88, size 0x4c, virtual false, abstract: false, final false
   inline void RemoveCloseButton();
 
-  /// @brief Method RemoveDragHandles, addr 0x6d6c18c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RemoveDragHandles, addr 0x6d73d10, size 0x4c, virtual false, abstract: false, final false
   inline void RemoveDragHandles();
 
-  /// @brief Method SetActive, addr 0x6d6c250, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x6d73dd4, size 0x3c, virtual false, abstract: false, final false
   inline void SetActive();
 
-  /// @brief Method SetInactive, addr 0x6d6c28c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetInactive, addr 0x6d73e10, size 0x3c, virtual false, abstract: false, final false
   inline void SetInactive();
 
-  /// @brief Method UpdateTooltip, addr 0x6d6c078, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateTooltip, addr 0x6d73bfc, size 0xf0, virtual false, abstract: false, final false
   inline void UpdateTooltip(::UnityEngine::UIElements::TooltipEvent* evt);
 
   constexpr ::UnityEngine::UIElements::TabDragger* const& __cordl_internal_get__dragger_k__BackingField() const;
@@ -484,16 +484,16 @@ public:
 
   constexpr void __cordl_internal_set_selected(::System::Action_1<::UnityEngine::UIElements::Tab*>* value);
 
-  /// @brief Method .ctor, addr 0x6d6b48c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d73010, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d6b4c8, size 0xabc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d7304c, size 0xabc, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, ::UnityEngine::UIElements::Background iconImage);
 
-  /// @brief Method add_closed, addr 0x6d6ae34, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_closed, addr 0x6d729b8, size 0xc0, virtual false, abstract: false, final false
   inline void add_closed(::System::Action_1<::UnityEngine::UIElements::Tab*>* value);
 
-  /// @brief Method add_selected, addr 0x6d6acb4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_selected, addr 0x6d72838, size 0xc0, virtual false, abstract: false, final false
   inline void add_selected(::System::Action_1<::UnityEngine::UIElements::Tab*>* value);
 
   static inline ::StringW getStaticF_closeButtonUssClassName();
@@ -532,25 +532,25 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_closeable, addr 0x6d6b39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_closeable, addr 0x6d72f20, size 0x8, virtual false, abstract: false, final false
   inline bool get_closeable();
 
-  /// @brief Method get_contentContainer, addr 0x6d6b484, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x6d73008, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_iconImage, addr 0x6d6b0f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_iconImage, addr 0x6d72c7c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Background get_iconImage();
 
-  /// @brief Method get_label, addr 0x6d6afbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_label, addr 0x6d72b40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_label();
 
-  /// @brief Method get_tabHeader, addr 0x6d6afb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabHeader, addr 0x6d72b38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_tabHeader();
 
-  /// @brief Method remove_closed, addr 0x6d6aef4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_closed, addr 0x6d72a78, size 0xc0, virtual false, abstract: false, final false
   inline void remove_closed(::System::Action_1<::UnityEngine::UIElements::Tab*>* value);
 
-  /// @brief Method remove_selected, addr 0x6d6ad74, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_selected, addr 0x6d728f8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selected(::System::Action_1<::UnityEngine::UIElements::Tab*>* value);
 
   static inline void setStaticF_closeButtonUssClassName(::StringW value);
@@ -589,13 +589,13 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_closeable, addr 0x6d6b3a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method set_closeable, addr 0x6d72f28, size 0xd4, virtual false, abstract: false, final false
   inline void set_closeable(bool value);
 
-  /// @brief Method set_iconImage, addr 0x6d6b108, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method set_iconImage, addr 0x6d72c8c, size 0x294, virtual false, abstract: false, final false
   inline void set_iconImage(::UnityEngine::UIElements::Background value);
 
-  /// @brief Method set_label, addr 0x6d6afc4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method set_label, addr 0x6d72b48, size 0x134, virtual false, abstract: false, final false
   inline void set_label(::StringW value);
 
 protected:

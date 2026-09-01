@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/InjectLocalAttribute.hpp"
+// IWYU pragma private; include "Zenject\InjectLocalAttribute.hpp"
 #include "Zenject/zzzz__InjectAttributeBase_impl.hpp"
 #include "Zenject/zzzz__InjectLocalAttribute_def.hpp"
 //  Writing Method size for method: ::Zenject::InjectLocalAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectLocalAttribute::*)()>(&::Zenject::InjectLocalAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e35bf4;
+  constexpr static std::size_t addrs = 0x6e3d778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectLocalAttribute*>(), { ".ctor", {}, {} })));

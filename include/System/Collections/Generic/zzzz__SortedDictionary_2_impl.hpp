@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Generic/SortedDictionary_2.hpp"
+// IWYU pragma private; include "System\Collections\Generic\SortedDictionary_2.hpp"
 #include "System/Collections/Generic/zzzz__Comparer_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_impl.hpp"

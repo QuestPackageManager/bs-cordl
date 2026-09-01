@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ConstantBuffer.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ConstantBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ConstantBuffer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::ConstantBuffer::ReleaseAll)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x674e68c;
+  constexpr static std::size_t addrs = 0x6756108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(), { "ReleaseAll", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ConstantBufferBase*)>(&::UnityEngine::Rendering::ConstantBuffer::Register)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x674e828;
+  constexpr static std::size_t addrs = 0x67562a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ConstantBuffer::*)()>(&::UnityEngine::Rendering::ConstantBuffer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x674e8fc;
+  constexpr static std::size_t addrs = 0x6756378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ConstantBuffer*>(), { ".ctor", {}, {} })));

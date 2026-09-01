@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Extensions.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Extensions_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Extensions::SetSizeOptimized)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5a53b20;
+  constexpr static std::size_t addrs = 0x5a57fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

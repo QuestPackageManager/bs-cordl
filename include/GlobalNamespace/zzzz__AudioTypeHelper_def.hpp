@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioTypeHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioTypeHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE AudioTypeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAudioTypeFromPath, addr 0x331e2d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetAudioTypeFromPath, addr 0x3322090, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::AudioType GetAudioTypeFromPath(::StringW path);
 
 protected:
@@ -41,7 +41,7 @@ public:
   AudioTypeHelper(AudioTypeHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20723 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

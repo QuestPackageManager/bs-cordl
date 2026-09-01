@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/EnvironmentDepth/EnvironmentDepthUtils.hpp"
+// IWYU pragma private; include "Meta\XR\EnvironmentDepth\EnvironmentDepthUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "Meta/XR/EnvironmentDepth/zzzz__EnvironmentDepthUtils_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(float_t, float_t)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils::ComputeNdcToLinearDepthParameters)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a398d8;
+  constexpr static std::size_t addrs = 0x5a3dd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::Meta::XR::EnvironmentDepth::DepthFrameDesc)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils::CalculateReprojection)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5a39934;
+  constexpr static std::size_t addrs = 0x5a3ddf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthUtils::CalculateDepthCameraMatrices)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5a3acb8;
+  constexpr static std::size_t addrs = 0x5a3f174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

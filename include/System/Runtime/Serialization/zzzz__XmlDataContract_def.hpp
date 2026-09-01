@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/XmlDataContract.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\XmlDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -163,34 +163,34 @@ public:
 
   constexpr void __cordl_internal_set_xsdType(::System::Xml::Schema::XmlSchemaType* value);
 
-  /// @brief Method .ctor, addr 0x615a100, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6161b7c, size 0x564, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_CreateXmlSerializableDelegate, addr 0x615aed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateXmlSerializableDelegate, addr 0x6162950, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::CreateXmlSerializableDelegate* get_CreateXmlSerializableDelegate();
 
-  /// @brief Method get_HasRoot, addr 0x615aeb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasRoot, addr 0x6162930, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasRoot();
 
-  /// @brief Method get_IsAnonymous, addr 0x615a6a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsAnonymous, addr 0x616211c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsAnonymous();
 
-  /// @brief Method get_KnownDataContracts, addr 0x615ad9c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method get_KnownDataContracts, addr 0x6162818, size 0x110, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* get_KnownDataContracts();
 
-  /// @brief Method get_TopLevelElementName, addr 0x615aec4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TopLevelElementName, addr 0x6162940, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_TopLevelElementName();
 
-  /// @brief Method get_TopLevelElementNamespace, addr 0x615aecc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TopLevelElementNamespace, addr 0x6162948, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_TopLevelElementNamespace();
 
-  /// @brief Method set_CreateXmlSerializableDelegate, addr 0x615aedc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CreateXmlSerializableDelegate, addr 0x6162958, size 0x8, virtual false, abstract: false, final false
   inline void set_CreateXmlSerializableDelegate(::System::Runtime::Serialization::CreateXmlSerializableDelegate* value);
 
-  /// @brief Method set_HasRoot, addr 0x615aebc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_HasRoot, addr 0x6162938, size 0x8, virtual true, abstract: false, final false
   inline void set_HasRoot(bool value);
 
-  /// @brief Method set_XsdType, addr 0x615aeac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XsdType, addr 0x6162928, size 0x8, virtual false, abstract: false, final false
   inline void set_XsdType(::System::Xml::Schema::XmlSchemaType* value);
 
 protected:
@@ -208,7 +208,7 @@ public:
   XmlDataContract_XmlDataContractCriticalHelper(XmlDataContract_XmlDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17119 };
 
   /// @brief Field knownDataContracts, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* ___knownDataContracts;
@@ -285,24 +285,24 @@ public:
   /// @brief Field helper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Runtime::Serialization::XmlDataContract_XmlDataContractCriticalHelper* helper;
 
-  /// @brief Method Equals, addr 0x615a97c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x61623f8, size 0x14c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>* checkedContracts);
 
-  /// @brief Method GenerateCreateXmlSerializableDelegate, addr 0x615a818, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GenerateCreateXmlSerializableDelegate, addr 0x6162294, size 0x78, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::CreateXmlSerializableDelegate* GenerateCreateXmlSerializableDelegate();
 
-  /// @brief Method GetHashCode, addr 0x615aac8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6162544, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Runtime::Serialization::XmlDataContract* New_ctor(::System::Type* type);
 
-  /// @brief Method ReadXmlValue, addr 0x615abcc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x6162648, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method WriteXmlValue, addr 0x615aadc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x6162558, size 0x18, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
-  /// @brief Method <GenerateCreateXmlSerializableDelegate>b__39_0, addr 0x615ad48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <GenerateCreateXmlSerializableDelegate>b__39_0, addr 0x61627c4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::IXmlSerializable* _GenerateCreateXmlSerializableDelegate_b__39_0();
 
   constexpr ::System::Runtime::Serialization::XmlDataContract_XmlDataContractCriticalHelper* const& __cordl_internal_get_helper() const;
@@ -311,31 +311,31 @@ public:
 
   constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::XmlDataContract_XmlDataContractCriticalHelper* value);
 
-  /// @brief Method .ctor, addr 0x615a050, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6161acc, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_CanContainReferences, addr 0x615a890, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanContainReferences, addr 0x616230c, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanContainReferences();
 
-  /// @brief Method get_CreateXmlSerializableDelegate, addr 0x615a704, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_CreateXmlSerializableDelegate, addr 0x6162180, size 0x114, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::CreateXmlSerializableDelegate* get_CreateXmlSerializableDelegate();
 
-  /// @brief Method get_HasRoot, addr 0x615a6b0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_HasRoot, addr 0x616212c, size 0x1c, virtual true, abstract: false, final false
   inline bool get_HasRoot();
 
-  /// @brief Method get_IsAnonymous, addr 0x615a680, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsAnonymous, addr 0x61620fc, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsAnonymous();
 
-  /// @brief Method get_IsBuiltInDataContract, addr 0x615a898, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_IsBuiltInDataContract, addr 0x6162314, size 0xe4, virtual true, abstract: false, final false
   inline bool get_IsBuiltInDataContract();
 
-  /// @brief Method get_KnownDataContracts, addr 0x615a664, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_KnownDataContracts, addr 0x61620e0, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* get_KnownDataContracts();
 
-  /// @brief Method get_TopLevelElementName, addr 0x615a6cc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_TopLevelElementName, addr 0x6162148, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_TopLevelElementName();
 
-  /// @brief Method get_TopLevelElementNamespace, addr 0x615a6e8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_TopLevelElementNamespace, addr 0x6162164, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* get_TopLevelElementNamespace();
 
 protected:
@@ -353,7 +353,7 @@ public:
   XmlDataContract(XmlDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17120 };
 
   /// @brief Field helper, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::Serialization::XmlDataContract_XmlDataContractCriticalHelper* ___helper;

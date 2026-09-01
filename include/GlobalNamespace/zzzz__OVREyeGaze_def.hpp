@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVREyeGaze.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVREyeGaze.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
   static ::GlobalNamespace::OVREyeGaze_EyeId const Right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -142,7 +142,7 @@ public:
   static ::GlobalNamespace::OVREyeGaze_EyeTrackingMode const WorldSpace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7053 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -209,36 +209,36 @@ public:
   /// @brief Field _viewTransform, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__viewTransform, put = __cordl_internal_set__viewTransform)) ::UnityW<::UnityEngine::Transform> _viewTransform;
 
-  /// @brief Method Awake, addr 0x5df3dbc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5df8278, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateEyeRotation, addr 0x5df4548, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CalculateEyeRotation, addr 0x5df8a04, size 0x1e4, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion CalculateEyeRotation(::UnityEngine::Quaternion eyeRotation);
 
   static inline ::GlobalNamespace::OVREyeGaze* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5df4344, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5df8800, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5df42b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5df8770, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5df40f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5df85b0, size 0x7c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPermissionGranted, addr 0x5df4258, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnPermissionGranted, addr 0x5df8714, size 0x5c, virtual false, abstract: false, final false
   inline void OnPermissionGranted(::StringW permissionId);
 
-  /// @brief Method PrepareHeadDirection, addr 0x5df3e3c, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method PrepareHeadDirection, addr 0x5df82f8, size 0x2b8, virtual false, abstract: false, final false
   inline void PrepareHeadDirection();
 
-  /// @brief Method Start, addr 0x5df3e38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5df82f4, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEyeTracking, addr 0x5df4170, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method StartEyeTracking, addr 0x5df862c, size 0xe8, virtual false, abstract: false, final false
   inline bool StartEyeTracking();
 
-  /// @brief Method Update, addr 0x5df4350, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5df880c, size 0x1f8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_ApplyPosition() const;
@@ -307,20 +307,20 @@ public:
 
   constexpr void __cordl_internal_set__viewTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5df472c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df8be8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
-  /// @brief Method get_Confidence, addr 0x5df3dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Confidence, addr 0x5df8268, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Confidence();
 
-  /// @brief Method get_EyeTrackingEnabled, addr 0x5df3d58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_EyeTrackingEnabled, addr 0x5df8214, size 0x54, virtual false, abstract: false, final false
   inline bool get_EyeTrackingEnabled();
 
   static inline void setStaticF__trackingInstanceCount(int32_t value);
 
-  /// @brief Method set_Confidence, addr 0x5df3db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Confidence, addr 0x5df8270, size 0x8, virtual false, abstract: false, final false
   inline void set_Confidence(float_t value);
 
 protected:
@@ -341,7 +341,7 @@ public:
   static ::GlobalNamespace::OVRPermissionsRequester_Permission const EyeTrackingPermission;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7054 };
 
   /// @brief Field Eye, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVREyeGaze_EyeId ___Eye;

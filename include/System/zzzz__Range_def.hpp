@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Range.hpp"
+// IWYU pragma private; include "System\Range.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,25 +38,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Range>"
   constexpr operator ::System::IEquatable_1<::System::Range>*();
 
-  /// @brief Method Equals, addr 0x5c558f8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5c59db4, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::System::Range other);
 
-  /// @brief Method Equals, addr 0x5c5586c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c59d28, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x5c55920, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c59ddc, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x5c5599c, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5c59e58, size 0x240, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x5c55864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c59d20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Index start, ::System::Index end);
 
-  /// @brief Method get_End, addr 0x5c5585c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x5c59d18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Index get_End();
 
-  /// @brief Method get_Start, addr 0x5c55854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x5c59d10, size 0x8, virtual false, abstract: false, final false
   inline ::System::Index get_Start();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Range>"

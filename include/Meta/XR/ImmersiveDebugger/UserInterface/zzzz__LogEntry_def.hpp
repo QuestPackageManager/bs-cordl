@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/LogEntry.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\LogEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,12 +63,12 @@ public:
   __declspec(property(get = __cordl_internal_get__Severity_k__BackingField,
                       put = __cordl_internal_set__Severity_k__BackingField)) ::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry* _Severity_k__BackingField;
 
-  /// @brief Method DisplayDetails, addr 0x5a48f14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DisplayDetails, addr 0x5a4d3d0, size 0x70, virtual false, abstract: false, final false
   inline void DisplayDetails();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* New_ctor();
 
-  /// @brief Method Setup, addr 0x5a4768c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a4bb48, size 0x18, virtual false, abstract: false, final false
   inline void Setup(::StringW label, ::StringW callstack, ::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry* severity);
 
   constexpr ::StringW const& __cordl_internal_get__Callstack_k__BackingField() const;
@@ -101,50 +101,50 @@ public:
 
   constexpr void __cordl_internal_set__Severity_k__BackingField(::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry* value);
 
-  /// @brief Method .ctor, addr 0x5a4fc78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a54134, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Action_1<::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*>* getStaticF__OnDisplayDetails_k__BackingField();
 
-  /// @brief Method get_Callstack, addr 0x5a4fc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Callstack, addr 0x5a540f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Callstack();
 
-  /// @brief Method get_Count, addr 0x5a4fc58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x5a54114, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Label, addr 0x5a4fc28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Label, addr 0x5a540e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Label();
 
-  /// @brief Method get_Line, addr 0x5a4fc68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Line, addr 0x5a54124, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine* get_Line();
 
-  /// @brief Method get_OnDisplayDetails, addr 0x5a4fb8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_OnDisplayDetails, addr 0x5a54048, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Action_1<::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*>* get_OnDisplayDetails();
 
-  /// @brief Method get_Severity, addr 0x5a4fc48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Severity, addr 0x5a54104, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry* get_Severity();
 
-  /// @brief Method get_Shown, addr 0x5a47e28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Shown, addr 0x5a4c2e4, size 0x10, virtual false, abstract: false, final false
   inline bool get_Shown();
 
   static inline void setStaticF__OnDisplayDetails_k__BackingField(::System::Action_1<::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*>* value);
 
-  /// @brief Method set_Callstack, addr 0x5a4fc40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Callstack, addr 0x5a540fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Callstack(::StringW value);
 
-  /// @brief Method set_Count, addr 0x5a4fc60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x5a5411c, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
-  /// @brief Method set_Label, addr 0x5a4fc30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Label, addr 0x5a540ec, size 0x8, virtual false, abstract: false, final false
   inline void set_Label(::StringW value);
 
-  /// @brief Method set_Line, addr 0x5a4fc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Line, addr 0x5a5412c, size 0x8, virtual false, abstract: false, final false
   inline void set_Line(::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine* value);
 
-  /// @brief Method set_OnDisplayDetails, addr 0x5a4fbd8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_OnDisplayDetails, addr 0x5a54094, size 0x50, virtual false, abstract: false, final false
   static inline void set_OnDisplayDetails(::System::Action_1<::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*>* value);
 
-  /// @brief Method set_Severity, addr 0x5a4fc50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Severity, addr 0x5a5410c, size 0x8, virtual false, abstract: false, final false
   inline void set_Severity(::Meta::XR::ImmersiveDebugger::UserInterface::SeverityEntry* value);
 
 protected:
@@ -162,7 +162,7 @@ public:
   LogEntry(LogEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18375 };
 
   /// @brief Field <Label>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Label_k__BackingField;

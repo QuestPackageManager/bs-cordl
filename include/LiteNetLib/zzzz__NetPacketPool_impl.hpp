@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/NetPacketPool.hpp"
+// IWYU pragma private; include "LiteNetLib\NetPacketPool.hpp"
 #include "LiteNetLib/zzzz__NetPacket_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetPacketPool_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetPacket* (::LiteNetLib::NetPacketPool::*)(::LiteNetLib::PacketProperty, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::LiteNetLib::NetPacketPool::GetWithData)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58a31bc;
+  constexpr static std::size_t addrs = 0x58a2b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetPacket* (::LiteNetLib::NetPacketPool::*)(::LiteNetLib::PacketProperty, int32_t)>(
     &::LiteNetLib::NetPacketPool::GetWithProperty)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x58a0e34;
+  constexpr static std::size_t addrs = 0x58a07fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetPacket* (::LiteNetLib::NetPacketPool::*)(::LiteNetLib::PacketProperty)>(&::LiteNetLib::NetPacketPool::GetWithProperty)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x58a1990;
+  constexpr static std::size_t addrs = 0x58a1358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetPacket* (::LiteNetLib::NetPacketPool::*)(int32_t)>(&::LiteNetLib::NetPacketPool::GetPacket)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x589f620;
+  constexpr static std::size_t addrs = 0x589efe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacketPool*>(), { "GetPacket", {}, { ::i2c::type_of<int32_t>() } })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacketPool::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetPacketPool::Recycle)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x589e178;
+  constexpr static std::size_t addrs = 0x589db40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPacketPool::*)()>(&::LiteNetLib::NetPacketPool::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x589eecc;
+  constexpr static std::size_t addrs = 0x589e894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPacketPool*>(), { ".ctor", {}, {} })));

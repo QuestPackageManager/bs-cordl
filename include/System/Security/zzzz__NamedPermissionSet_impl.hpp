@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/NamedPermissionSet.hpp"
+// IWYU pragma private; include "System\Security\NamedPermissionSet.hpp"
 #include "System/Security/zzzz__PermissionSet_impl.hpp"
 #include "System/Security/zzzz__NamedPermissionSet_def.hpp"
 #include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::NamedPermissionSet::*)()>(&::System::Security::NamedPermissionSet::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5aead70;
+  constexpr static std::size_t addrs = 0x5aef22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::NamedPermissionSet*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::NamedPermissionSet::*)(::StringW, ::System::Security::Permissions::PermissionState)>(
     &::System::Security::NamedPermissionSet::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5aeae24;
+  constexpr static std::size_t addrs = 0x5aef2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::NamedPermissionSet::*)(::StringW)>(&::System::Security::NamedPermissionSet::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aeaf60;
+  constexpr static std::size_t addrs = 0x5aef41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::NamedPermissionSet::*)()>(&::System::Security::NamedPermissionSet::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aeaf68;
+  constexpr static std::size_t addrs = 0x5aef424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::NamedPermissionSet*>(), { "get_Name", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::NamedPermissionSet::*)(::StringW)>(&::System::Security::NamedPermissionSet::set_Name)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5aeaed8;
+  constexpr static std::size_t addrs = 0x5aef394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::SecurityElement* (::System::Security::NamedPermissionSet::*)()>(&::System::Security::NamedPermissionSet::ToXml)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5aeaf70;
+  constexpr static std::size_t addrs = 0x5aef42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::NamedPermissionSet::*)(::System::Object*)>(&::System::Security::NamedPermissionSet::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5aeb444;
+  constexpr static std::size_t addrs = 0x5aef900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::NamedPermissionSet::*)()>(&::System::Security::NamedPermissionSet::GetHashCode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5aeb66c;
+  constexpr static std::size_t addrs = 0x5aefb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

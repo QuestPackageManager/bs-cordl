@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/DependencyInjector.hpp"
+// IWYU pragma private; include "Mono\DependencyInjector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/zzzz__DependencyInjector_def.hpp"
 #include "Mono/zzzz__ISystemDependencyProvider_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::ISystemDependencyProvider* (*)()>(&::Mono::DependencyInjector::get_SystemProvider)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x5aa8f3c;
+  constexpr static std::size_t addrs = 0x5aad3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::DependencyInjector*>(), { "get_SystemProvider", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::ISystemDependencyProvider*)>(&::Mono::DependencyInjector::Register)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5aa9260;
+  constexpr static std::size_t addrs = 0x5aad71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::ISystemDependencyProvider* (*)()>(&::Mono::DependencyInjector::ReflectionLoad)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5aa9148;
+  constexpr static std::size_t addrs = 0x5aad604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::DependencyInjector*>(), { "ReflectionLoad", {}, {} })));

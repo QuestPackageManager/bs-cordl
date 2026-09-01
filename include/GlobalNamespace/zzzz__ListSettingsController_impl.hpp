@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ListSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ListSettingsController.hpp"
 #include "GlobalNamespace/zzzz__IncDecSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ListSettingsController.GetInitValues
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ListSettingsController::*)()>(&::GlobalNamespace::ListSettingsController::OnEnable)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5a2b950;
+  constexpr static std::size_t addrs = 0x5a2fe0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ListSettingsController*>(), { "OnEnable", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ListSettingsController::*)()>(&::GlobalNamespace::ListSettingsController::RefreshUI)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5a2b984;
+  constexpr static std::size_t addrs = 0x5a2fe40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ListSettingsController*>(), { "RefreshUI", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ListSettingsController::*)(bool)>(&::GlobalNamespace::ListSettingsController::Refresh)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a2b9d8;
+  constexpr static std::size_t addrs = 0x5a2fe94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ListSettingsController::*)()>(&::GlobalNamespace::ListSettingsController::IncButtonPressed)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5a2ba34;
+  constexpr static std::size_t addrs = 0x5a2fef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ListSettingsController::*)()>(&::GlobalNamespace::ListSettingsController::DecButtonPressed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a2ba74;
+  constexpr static std::size_t addrs = 0x5a2ff30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ListSettingsController::*)()>(&::GlobalNamespace::ListSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a2baac;
+  constexpr static std::size_t addrs = 0x5a2ff68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ListSettingsController*>(), { ".ctor", {}, {} })));

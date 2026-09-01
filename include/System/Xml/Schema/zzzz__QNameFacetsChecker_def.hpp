@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/QNameFacetsChecker.hpp"
+// IWYU pragma private; include "System\Xml\Schema\QNameFacetsChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,21 +34,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE QNameFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x61cc60c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61d4088, size 0x124, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x61cc730, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61d41ac, size 0x1e0, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x61cca28, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x61d44a4, size 0x10c, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x61cc910, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x61d438c, size 0x118, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::Xml::XmlQualifiedName* value, ::System::Collections::ArrayList* enumeration);
 
   static inline ::System::Xml::Schema::QNameFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61ccb34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d45b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   QNameFacetsChecker(QNameFacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9686 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

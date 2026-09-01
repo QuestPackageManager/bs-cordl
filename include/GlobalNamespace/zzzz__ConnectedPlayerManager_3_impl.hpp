@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ConnectedPlayerManager_3.hpp"
+// IWYU pragma private; include "GlobalNamespace\ConnectedPlayerManager_3.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/SetupDragAndDropArgs.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\SetupDragAndDropArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE SetupDragAndDropArgs {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6d83f34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d8bab8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* draggedElement, ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds,
                     ::UnityEngine::UIElements::StartDragArgs startDragArgs);
 

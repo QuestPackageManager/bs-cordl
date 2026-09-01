@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRKeyboard.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRKeyboard.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
                                              ::UnityEngine::Quaternion rotation, double_t timeInSeconds) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7774 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -121,7 +121,7 @@ public:
                                             ::GlobalNamespace::OVRPlugin_TrackedKeyboardPresentationStyles SupportedPresentationStyles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7775 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -168,13 +168,13 @@ public:
 
   using TrackedKeyboardState = ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState;
 
-  /// @brief Method GetKeyboardState, addr 0x5edb48c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetKeyboardState, addr 0x5edf948, size 0xd0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRKeyboard_TrackedKeyboardState GetKeyboardState();
 
-  /// @brief Method GetSystemKeyboardInfo, addr 0x5edb55c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemKeyboardInfo, addr 0x5edfa18, size 0xf4, virtual false, abstract: false, final false
   static inline bool GetSystemKeyboardInfo(::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags keyboardQueryFlags, ::by_ref<::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo> keyboardInfo);
 
-  /// @brief Method StopKeyboardTracking, addr 0x5edb650, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method StopKeyboardTracking, addr 0x5edfb0c, size 0x54, virtual false, abstract: false, final false
   static inline bool StopKeyboardTracking(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo keyboardInfo);
 
 protected:
@@ -192,7 +192,7 @@ public:
   OVRKeyboard(OVRKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7776 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

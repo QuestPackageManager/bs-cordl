@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ReusableListViewItem.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ReusableListViewItem.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableListViewItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ReusableListViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableListViewItem::get_rootElement)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c4deec;
+  constexpr static std::size_t addrs = 0x6c55a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)(::UnityEngine::UIElements::VisualElement*, bool)>(
     &::UnityEngine::UIElements::ReusableListViewItem::Init)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6c440d8;
+  constexpr static std::size_t addrs = 0x6c4bc5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableListViewItem*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*,
                                                                                                                  bool)>(&::UnityEngine::UIElements::ReusableListViewItem::UpdateHierarchy)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x6c4df04;
+  constexpr static std::size_t addrs = 0x6c55a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)(bool)>(&::UnityEngine::UIElements::ReusableListViewItem::UpdateDragHandle)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6c44760;
+  constexpr static std::size_t addrs = 0x6c4c2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)(bool)>(&::UnityEngine::UIElements::ReusableListViewItem::SetDragHandleEnabled)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c4c628;
+  constexpr static std::size_t addrs = 0x6c541ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)()>(&::UnityEngine::UIElements::ReusableListViewItem::PreAttachElement)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c4e168;
+  constexpr static std::size_t addrs = 0x6c55cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)()>(&::UnityEngine::UIElements::ReusableListViewItem::DetachElement)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c4e1f8;
+  constexpr static std::size_t addrs = 0x6c55d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)(bool)>(&::UnityEngine::UIElements::ReusableListViewItem::SetDragGhost)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c4e288;
+  constexpr static std::size_t addrs = 0x6c55e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)()>(&::UnityEngine::UIElements::ReusableListViewItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c4e318;
+  constexpr static std::size_t addrs = 0x6c55e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ReusableListViewItem*>(), { ".ctor", {}, {} })));

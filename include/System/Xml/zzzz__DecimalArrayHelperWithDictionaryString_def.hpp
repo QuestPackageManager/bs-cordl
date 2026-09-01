@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/DecimalArrayHelperWithDictionaryString.hpp"
+// IWYU pragma private; include "System\Xml\DecimalArrayHelperWithDictionaryString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,15 +40,15 @@ public:
 
   static inline ::System::Xml::DecimalArrayHelperWithDictionaryString* New_ctor();
 
-  /// @brief Method ReadArray, addr 0x60f7588, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x60ff004, size 0x38, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri,
                            ::ArrayW<::System::Decimal> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x60f75c0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x60ff03c, size 0x3c, virtual true, abstract: false, final false
   inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::System::Xml::XmlDictionaryString* localName, ::System::Xml::XmlDictionaryString* namespaceUri,
                          ::ArrayW<::System::Decimal> array, int32_t offset, int32_t count);
 
-  /// @brief Method .ctor, addr 0x60f75fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ff078, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::DecimalArrayHelperWithDictionaryString* getStaticF_Instance();
@@ -70,7 +70,7 @@ public:
   DecimalArrayHelperWithDictionaryString(DecimalArrayHelperWithDictionaryString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16924 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

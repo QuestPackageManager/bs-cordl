@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/KdfDoublePipelineIterationParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\KdfDoublePipelineIterationParameters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KdfDoublePipelineIterationParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t, bool)>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3410424;
+  constexpr static std::size_t addrs = 0x34141e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::CreateWithCounter)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x341057c;
+  constexpr static std::size_t addrs = 0x341433c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::CreateWithoutCounter)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x34105f4;
+  constexpr static std::size_t addrs = 0x34143b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::get_Ki)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3410680;
+  constexpr static std::size_t addrs = 0x3414440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::get_UseCounter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34106e0;
+  constexpr static std::size_t addrs = 0x34144a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::get_R)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34106e8;
+  constexpr static std::size_t addrs = 0x34144a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::get_FixedInputData)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x34106f0;
+  constexpr static std::size_t addrs = 0x34144b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

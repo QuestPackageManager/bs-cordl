@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CrlListID.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\CrlListID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
   /// @brief Field crls, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_crls, put = __cordl_internal_set_crls)) ::Org::BouncyCastle::Asn1::Asn1Sequence* crls;
 
-  /// @brief Method GetCrls, addr 0x336f22c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x3372fec, size 0x124, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*> GetCrls();
 
-  /// @brief Method GetInstance, addr 0x336e8a0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3372660, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*> crls);
@@ -50,7 +50,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x336f350, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3373110, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_crls() const;
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_crls(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x336eff0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3372db0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*> crls);
 
-  /// @brief Method .ctor, addr 0x336f0a4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3372e64, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* crls);
 
-  /// @brief Method .ctor, addr 0x336ea24, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33727e4, size 0x448, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

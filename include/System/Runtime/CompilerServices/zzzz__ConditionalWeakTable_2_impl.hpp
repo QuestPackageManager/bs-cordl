@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/ConditionalWeakTable_2.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\ConditionalWeakTable_2.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__Ephemeron_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"

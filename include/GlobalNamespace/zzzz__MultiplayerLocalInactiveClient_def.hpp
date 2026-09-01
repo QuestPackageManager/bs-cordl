@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalInactiveClient.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalInactiveClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   /// @brief Field _playerTransforms, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms)) ::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
-  /// @brief Method LateUpdate, addr 0x59bfd74, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59c7a74, size 0x310, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactiveClient* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
 
-  /// @brief Method .ctor, addr 0x59c0084, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c7d84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   MultiplayerLocalInactiveClient(MultiplayerLocalInactiveClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6097 };
 
   /// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;

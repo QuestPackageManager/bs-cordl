@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/CustomBinding.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\CustomBinding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE CustomBinding : public ::UnityEngine::UIElements::Binding {
 public:
   // Declarations
-  /// @brief Method Update, addr 0x6c37458, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6c3efdc, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingResult Update(::by_ref<::UnityEngine::UIElements::BindingContext> context);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/TernaryTreeReadOnly.hpp"
+// IWYU pragma private; include "System\Xml\TernaryTreeReadOnly.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__TernaryTreeReadOnly_def.hpp"
 //  Writing Method size for method: ::System::Xml::TernaryTreeReadOnly._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::TernaryTreeReadOnly::*)(::ArrayW<uint8_t>)>(&::System::Xml::TernaryTreeReadOnly::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a76c0;
+  constexpr static std::size_t addrs = 0x61af13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Xml::TernaryTreeReadOnly::*)(::StringW)>(&::System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x61a5fdc;
+  constexpr static std::size_t addrs = 0x61ada58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

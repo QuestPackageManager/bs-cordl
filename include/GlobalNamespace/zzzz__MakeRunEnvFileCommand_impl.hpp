@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MakeRunEnvFileCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\MakeRunEnvFileCommand.hpp"
 #include "GlobalNamespace/zzzz__MakeRunsongFileBaseCommand_impl.hpp"
 #include "GlobalNamespace/zzzz__MakeRunEnvFileCommand_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MakeRunEnvFileCommand::*)()>(&::GlobalNamespace::MakeRunEnvFileCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32db334;
+  constexpr static std::size_t addrs = 0x32df130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MakeRunEnvFileCommand::*)()>(&::GlobalNamespace::MakeRunEnvFileCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32db378;
+  constexpr static std::size_t addrs = 0x32df174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
     int32_t, ::StringW, ::GlobalNamespace::BeatmapDifficulty, ::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*>,
     ::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*>)>(&::GlobalNamespace::MakeRunEnvFileCommand::TryGetLevelsToPlay)> {
   constexpr static std::size_t size = 0x9a0;
-  constexpr static std::size_t addrs = 0x32db3bc;
+  constexpr static std::size_t addrs = 0x32df1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::GlobalNamespace::MakeRunEnvFileCommand::*)(::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapDifficulty, ::StringW)>(
     &::GlobalNamespace::MakeRunEnvFileCommand::GetAllEnvironmentsSongsFromPack)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x32dbd5c;
+  constexpr static std::size_t addrs = 0x32dfb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MakeRunEnvFileCommand::*)()>(&::GlobalNamespace::MakeRunEnvFileCommand::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x32dc1cc;
+  constexpr static std::size_t addrs = 0x32dffc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MakeRunEnvFileCommand*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TextEditingManipulator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TextEditingManipulator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,24 +54,24 @@ public:
 
   __declspec(property(get = get_touchScreenTextFieldChanged)) bool touchScreenTextFieldChanged;
 
-  /// @brief Method HandleEventBubbleUp, addr 0x6c9c5f8, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method HandleEventBubbleUp, addr 0x6ca417c, size 0x270, virtual false, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method InitTextEditorEventHandler, addr 0x6c9c4f8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InitTextEditorEventHandler, addr 0x6ca407c, size 0xd4, virtual false, abstract: false, final false
   inline void InitTextEditorEventHandler();
 
   static inline ::UnityEngine::UIElements::TextEditingManipulator* New_ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method OnFocusInEvent, addr 0x6c9c86c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method OnFocusInEvent, addr 0x6ca43f0, size 0x2e0, virtual false, abstract: false, final false
   inline void OnFocusInEvent();
 
-  /// @brief Method OnFocusOutEvent, addr 0x6c9cb4c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnFocusOutEvent, addr 0x6ca46d0, size 0xb8, virtual false, abstract: false, final false
   inline void OnFocusOutEvent();
 
-  /// @brief Method Reset, addr 0x6c9c5cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6ca4150, size 0x2c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method <OnFocusInEvent>b__14_0, addr 0x6c9cc04, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <OnFocusInEvent>b__14_0, addr 0x6ca4788, size 0x40, virtual false, abstract: false, final false
   inline void _OnFocusInEvent_b__14_0();
 
   constexpr ::UnityEngine::TextEditingUtilities* const& __cordl_internal_get_editingUtilities() const;
@@ -104,16 +104,16 @@ public:
 
   constexpr void __cordl_internal_set_m_TouchScreenTextFieldInitialized(bool value);
 
-  /// @brief Method .ctor, addr 0x6c9c3d8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca3f5c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method get_editingEventHandler, addr 0x6c9c2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editingEventHandler, addr 0x6ca3e50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextEditorEventHandler* get_editingEventHandler();
 
-  /// @brief Method get_touchScreenTextFieldChanged, addr 0x6c9c334, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_touchScreenTextFieldChanged, addr 0x6ca3eb8, size 0xa4, virtual false, abstract: false, final false
   inline bool get_touchScreenTextFieldChanged();
 
-  /// @brief Method set_editingEventHandler, addr 0x6c9c2d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_editingEventHandler, addr 0x6ca3e58, size 0x60, virtual false, abstract: false, final false
   inline void set_editingEventHandler(::UnityEngine::UIElements::TextEditorEventHandler* value);
 
 protected:

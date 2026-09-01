@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/NativeTypeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\NativeTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,25 +67,25 @@ public:
 
   constexpr void __cordl_internal_set__IntermediateScriptingStructName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bae830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb63b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bae838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb63bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions);
 
-  /// @brief Method .ctor, addr 0x6bae93c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb64c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName);
 
-  /// @brief Method .ctor, addr 0x6bae840, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb63c4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
-  /// @brief Method set_CodegenOptions, addr 0x6bae828, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_CodegenOptions, addr 0x6bb63ac, size 0x8, virtual true, abstract: false, final true
   inline void set_CodegenOptions(::UnityEngine::Bindings::CodegenOptions value);
 
-  /// @brief Method set_Header, addr 0x6bae818, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Header, addr 0x6bb639c, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
-  /// @brief Method set_IntermediateScriptingStructName, addr 0x6bae820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IntermediateScriptingStructName, addr 0x6bb63a4, size 0x8, virtual false, abstract: false, final false
   inline void set_IntermediateScriptingStructName(::StringW value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   NativeTypeAttribute(NativeTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23116 };
 
   /// @brief Field <Header>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Header_k__BackingField;

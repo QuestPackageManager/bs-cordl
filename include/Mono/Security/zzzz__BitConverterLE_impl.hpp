@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/BitConverterLE.hpp"
+// IWYU pragma private; include "Mono\Security\BitConverterLE.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/zzzz__BitConverterLE_def.hpp"
 //  Writing Method size for method: ::Mono::Security::BitConverterLE.GetUIntBytes
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(uint8_t*)>(&::Mono::Security::BitConverterLE::GetUIntBytes)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5a865c8;
+  constexpr static std::size_t addrs = 0x5a8aa84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(uint8_t*)>(&::Mono::Security::BitConverterLE::GetULongBytes)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5a86664;
+  constexpr static std::size_t addrs = 0x5a8ab20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int32_t)>(&::Mono::Security::BitConverterLE::GetBytes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a85abc;
+  constexpr static std::size_t addrs = 0x5a89f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::BitConverterLE*>(), { "GetBytes", {}, { ::i2c::type_of<int32_t>() } })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int64_t)>(&::Mono::Security::BitConverterLE::GetBytes)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a86740;
+  constexpr static std::size_t addrs = 0x5a8abfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::BitConverterLE*>(), { "GetBytes", {}, { ::i2c::type_of<int64_t>() } })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::BitConverterLE::UShortFromBytes)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5a86754;
+  constexpr static std::size_t addrs = 0x5a8ac10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, ::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::BitConverterLE::UIntFromBytes)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5a867a0;
+  constexpr static std::size_t addrs = 0x5a8ac5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::BitConverterLE::ToInt32)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a86824;
+  constexpr static std::size_t addrs = 0x5a8ace0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::BitConverterLE::ToUInt16)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a86848;
+  constexpr static std::size_t addrs = 0x5a8ad04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::BitConverterLE::ToUInt32)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a8686c;
+  constexpr static std::size_t addrs = 0x5a8ad28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

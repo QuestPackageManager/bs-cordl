@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/KSStruct.hpp"
+// IWYU pragma private; include "System\Xml\Schema\KSStruct.hpp"
 #include "System/Xml/Schema/zzzz__LocatedActiveAxis_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__KSStruct_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::KSStruct::*)(::System::Xml::Schema::KeySequence*, int32_t)>(&::System::Xml::Schema::KSStruct::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x631477c;
+  constexpr static std::size_t addrs = 0x631c1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

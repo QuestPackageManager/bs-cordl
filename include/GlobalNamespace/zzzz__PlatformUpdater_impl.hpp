@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlatformUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlatformUpdater.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformUpdater_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformUpdater::*)(::OculusStudios::Platform::Core::IPlatform*)>(&::GlobalNamespace::PlatformUpdater::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3773c64;
+  constexpr static std::size_t addrs = 0x37798d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformUpdater::*)()>(&::GlobalNamespace::PlatformUpdater::Tick)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3773c6c;
+  constexpr static std::size_t addrs = 0x37798d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformUpdater*>(), { "Tick", {}, {} })));

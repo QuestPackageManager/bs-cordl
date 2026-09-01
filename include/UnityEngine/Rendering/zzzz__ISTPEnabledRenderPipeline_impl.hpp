@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ISTPEnabledRenderPipeline.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ISTPEnabledRenderPipeline.hpp"
 #include "UnityEngine/Rendering/zzzz__ISTPEnabledRenderPipeline_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ISTPEnabledRenderPipeline.get_isStpUsed
 template <>

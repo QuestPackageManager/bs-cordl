@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Playables/TextureMixerPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Playables\TextureMixerPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x6b28e34, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b309b8, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Playables::TextureMixerPlayable other);
 
-  /// @brief Method GetHandle, addr 0x6b28e28, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6b309ac, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>"
@@ -55,7 +55,7 @@ public:
   constexpr TextureMixerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10916 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

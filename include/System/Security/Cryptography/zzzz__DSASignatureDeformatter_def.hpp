@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/DSASignatureDeformatter.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\DSASignatureDeformatter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,13 +38,13 @@ public:
 
   static inline ::System::Security::Cryptography::DSASignatureDeformatter* New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method SetHashAlgorithm, addr 0x5af6bc4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method SetHashAlgorithm, addr 0x5afb080, size 0xbc, virtual true, abstract: false, final false
   inline void SetHashAlgorithm(::StringW strName);
 
-  /// @brief Method SetKey, addr 0x5af6acc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x5afaf88, size 0xf8, virtual true, abstract: false, final false
   inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method VerifySignature, addr 0x5af6c80, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x5afb13c, size 0xd8, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
 
   constexpr ::System::Security::Cryptography::DSA* const& __cordl_internal_get__dsaKey() const;
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5af6950, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afae0c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5af69cc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afae88, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
 protected:

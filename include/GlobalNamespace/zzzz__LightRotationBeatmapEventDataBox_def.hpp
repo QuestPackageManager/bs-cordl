@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightRotationBeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightRotationBeatmapEventDataBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -177,27 +177,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x37150e0, size 0x954, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x371af64, size 0x954, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::LightRotationBeatmapEventDataBox__Unpack_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x3715be4, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x371ba68, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x3715b9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x371ba20, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3715cbc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x371bb40, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3715ba4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x371ba28, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3715bdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x371ba60, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3715034, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x371aeb8, size 0xac, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -350,13 +350,13 @@ public:
 
   constexpr void __cordl_internal_set_maxBeat(float_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x3715ae8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x371b96c, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x3715a34, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x371b8b8, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x3715014, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x371ae98, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>"
@@ -389,7 +389,7 @@ public:
   LightRotationBeatmapEventDataBox__Unpack_d__10(LightRotationBeatmapEventDataBox__Unpack_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14933 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -558,7 +558,7 @@ public:
                                                                               bool rotationDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType rotationDistributionEaseType,
                                                                               ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// @brief Method Unpack, addr 0x3714f48, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Unpack, addr 0x371adcc, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex,
                                                                                                      int32_t distributionOrderIndex, float_t maxBeat,
                                                                                                      ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
@@ -594,16 +594,16 @@ public:
 
   constexpr void __cordl_internal_set__rotationStep(float_t value);
 
-  /// @brief Method .ctor, addr 0x3714cf4, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x371ab78, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,
                     ::GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType rotationDistributionParamType,
                     bool rotationDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType rotationDistributionEaseType,
                     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// @brief Method get_beatStep, addr 0x3714cec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x371ab70, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x3714ce4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x371ab68, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:
@@ -621,7 +621,7 @@ public:
   LightRotationBeatmapEventDataBox(LightRotationBeatmapEventDataBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14934 };
 
   /// @brief Field _lightRotationBaseDataList, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* ____lightRotationBaseDataList;

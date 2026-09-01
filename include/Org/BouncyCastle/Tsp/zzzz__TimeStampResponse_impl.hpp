@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampResponse.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Tsp\TimeStampResponse.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampResponse_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiFailureInfo_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponse::*)(::Org::BouncyCastle::Asn1::Tsp::TimeStampResp*)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponse::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x361cc10;
+  constexpr static std::size_t addrs = 0x36209d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponse::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Tsp::TimeStampResponse::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x361ccfc;
+  constexpr static std::size_t addrs = 0x3620abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponse::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Tsp::TimeStampResponse::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x361ce90;
+  constexpr static std::size_t addrs = 0x3620c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* (*)(::Org::BouncyCastle::Asn1::Asn1InputStream*)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponse::readTimeStampResp)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x361cd74;
+  constexpr static std::size_t addrs = 0x3620b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampResponse*>(),
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Tsp::TimeStampResponse::*)()>(&::Org::BouncyCastle::Tsp::TimeStampResponse::get_Status)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x361cf88;
+  constexpr static std::size_t addrs = 0x3620d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampResponse*>(), { "get_Status", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Tsp::TimeStampResponse::*)()>(&::Org::BouncyCastle::Tsp::TimeStampResponse::GetStatusString)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x361cfc0;
+  constexpr static std::size_t addrs = 0x3620d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampResponse*>(), { "GetStatusString", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* (::Org::BouncyCastle::Tsp::TimeStampResponse::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampResponse::GetFailInfo)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x361d0cc;
+  constexpr static std::size_t addrs = 0x3620e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampResponse*>(), { "GetFailInfo", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Tsp::TimeStampToken* (::Org::BouncyCastle::Tsp::TimeStampResponse::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampResponse::get_TimeStampToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x361d150;
+  constexpr static std::size_t addrs = 0x3620f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampResponse*>(), { "get_TimeStampToken", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampResponse::*)(::Org::BouncyCastle::Tsp::TimeStampRequest*)>(
     &::Org::BouncyCastle::Tsp::TimeStampResponse::Validate)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x361d158;
+  constexpr static std::size_t addrs = 0x3620f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Tsp::TimeStampResponse::*)()>(&::Org::BouncyCastle::Tsp::TimeStampResponse::GetEncoded)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x361d54c;
+  constexpr static std::size_t addrs = 0x362130c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampResponse*>(), { "GetEncoded", {}, {} })));

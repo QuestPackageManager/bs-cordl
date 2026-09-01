@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/MissingPropertyBagException.hpp"
+// IWYU pragma private; include "Unity\Properties\MissingPropertyBagException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Unity/Properties/zzzz__MissingPropertyBagException_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::MissingPropertyBagException::*)(::System::Type*)>(&::Unity::Properties::MissingPropertyBagException::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b96a34;
+  constexpr static std::size_t addrs = 0x6b9e5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Type*)>(&::Unity::Properties::MissingPropertyBagException::GetMessageForType)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b96ab4;
+  constexpr static std::size_t addrs = 0x6b9e638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,13 +24,13 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCodeCaseInSensitive, addr 0x6c0bc90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeCaseInSensitive, addr 0x6c13814, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeCaseInSensitive(::StringW s);
 
-  /// @brief Method GetTextFontWeightIndex, addr 0x6c0d268, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetTextFontWeightIndex, addr 0x6c14dec, size 0x94, virtual false, abstract: false, final false
   static inline int32_t GetTextFontWeightIndex(::UnityEngine::TextCore::Text::TextFontWeight fontWeight);
 
-  /// @brief Method ToUpperFast, addr 0x6c0d1e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToUpperFast, addr 0x6c14d6c, size 0x80, virtual false, abstract: false, final false
   static inline char16_t ToUpperFast(char16_t c);
 
 protected:
@@ -48,7 +48,7 @@ public:
   TextUtilities(TextUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17288 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

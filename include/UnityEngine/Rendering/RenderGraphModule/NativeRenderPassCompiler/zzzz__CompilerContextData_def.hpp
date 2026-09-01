@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/CompilerContextData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\CompilerContextData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,16 +26,16 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData Current;
 
-  /// @brief Method GetEnumerator, addr 0x67e76b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x67ef130, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x67e7740, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x67ef1bc, size 0x100, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x67e7550, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67eefcc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(Il2CppObject* ctx);
 
-  /// @brief Method get_Current, addr 0x67e76c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x67ef13c, size 0x80, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> get_Current();
 
   // Ctor Parameters []
@@ -46,7 +46,7 @@ public:
   constexpr CompilerContextData_NativePassIterator(Il2CppObject* m_Ctx, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12480 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

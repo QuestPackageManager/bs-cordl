@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/MemoryPoolBindInfo.hpp"
+// IWYU pragma private; include "Zenject\MemoryPoolBindInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,31 +70,31 @@ public:
 
   constexpr void __cordl_internal_set__ShowExpandWarning_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6e59044, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e60bc8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ExpandMethod, addr 0x6e5906c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExpandMethod, addr 0x6e60bf0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::PoolExpandMethods get_ExpandMethod();
 
-  /// @brief Method get_InitialSize, addr 0x6e5907c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitialSize, addr 0x6e60c00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InitialSize();
 
-  /// @brief Method get_MaxSize, addr 0x6e5908c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x6e60c10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method get_ShowExpandWarning, addr 0x6e5905c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowExpandWarning, addr 0x6e60be0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowExpandWarning();
 
-  /// @brief Method set_ExpandMethod, addr 0x6e59074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExpandMethod, addr 0x6e60bf8, size 0x8, virtual false, abstract: false, final false
   inline void set_ExpandMethod(::Zenject::PoolExpandMethods value);
 
-  /// @brief Method set_InitialSize, addr 0x6e59084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitialSize, addr 0x6e60c08, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialSize(int32_t value);
 
-  /// @brief Method set_MaxSize, addr 0x6e59094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxSize, addr 0x6e60c18, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxSize(int32_t value);
 
-  /// @brief Method set_ShowExpandWarning, addr 0x6e59064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ShowExpandWarning, addr 0x6e60be8, size 0x8, virtual false, abstract: false, final false
   inline void set_ShowExpandWarning(bool value);
 
 protected:
@@ -112,7 +112,7 @@ public:
   MemoryPoolBindInfo(MemoryPoolBindInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14305 };
 
   /// @brief Field <ShowExpandWarning>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ShowExpandWarning_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorSchemeIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorSchemeIdAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_emptyIsAllowed(bool value);
 
-  /// @brief Method .ctor, addr 0x36f3984, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f7744, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW emptyExplanation);
 
 protected:
@@ -58,7 +58,7 @@ public:
   ColorSchemeIdAttribute(ColorSchemeIdAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23150 };
 
   /// @brief Field emptyIsAllowed, offset: 0x15, size: 0x1, def value: None
   bool ___emptyIsAllowed;

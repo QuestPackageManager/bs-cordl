@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MomentaryLoudnessHistory.hpp"
+// IWYU pragma private; include "GlobalNamespace\MomentaryLoudnessHistory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MomentaryLoudnessHistory_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MomentaryLoudnessHistory._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MomentaryLoudnessHistory::*)(int32_t)>(&::GlobalNamespace::MomentaryLoudnessHistory::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x32634fc;
+  constexpr static std::size_t addrs = 0x3266894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MomentaryLoudnessHistory::*)()>(&::GlobalNamespace::MomentaryLoudnessHistory::GetAverageLoudness)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x32633bc;
+  constexpr static std::size_t addrs = 0x3266754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MomentaryLoudnessHistory*>(), { "GetAverageLoudness", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MomentaryLoudnessHistory::*)(float_t)>(&::GlobalNamespace::MomentaryLoudnessHistory::Add)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3263338;
+  constexpr static std::size_t addrs = 0x32666d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

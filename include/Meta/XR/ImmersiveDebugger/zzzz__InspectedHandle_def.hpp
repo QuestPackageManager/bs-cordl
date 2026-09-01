@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/InspectedHandle.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\InspectedHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,12 +53,12 @@ public:
   __declspec(property(get = __cordl_internal_get_inspectedMembers,
                       put = __cordl_internal_set_inspectedMembers)) ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>* inspectedMembers;
 
-  /// @brief Method Initialize, addr 0x5a3b9cc, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5a3fe88, size 0x3ec, virtual false, abstract: false, final false
   inline void Initialize(::Meta::XR::ImmersiveDebugger::DebugInspector* owner);
 
   static inline ::Meta::XR::ImmersiveDebugger::InspectedHandle* New_ctor(::Meta::XR::ImmersiveDebugger::DebugInspector* owner, ::System::Type* type);
 
-  /// @brief Method TryGetMember, addr 0x5a3d354, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method TryGetMember, addr 0x5a41810, size 0x134, virtual false, abstract: false, final false
   inline bool TryGetMember(::System::Reflection::MemberInfo* memberInfo, ::by_ref<::Meta::XR::ImmersiveDebugger::InspectedMember*> inspectedMember);
 
   constexpr ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle const& __cordl_internal_get__InstanceHandle_k__BackingField() const;
@@ -79,19 +79,19 @@ public:
 
   constexpr void __cordl_internal_set_inspectedMembers(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>* value);
 
-  /// @brief Method .ctor, addr 0x5a3bf24, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a403e0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::ImmersiveDebugger::DebugInspector* owner, ::System::Type* type);
 
-  /// @brief Method get_InstanceHandle, addr 0x5a3d27c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceHandle, addr 0x5a41738, size 0x14, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle get_InstanceHandle();
 
-  /// @brief Method get_Type, addr 0x5a3d2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5a41760, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method set_InstanceHandle, addr 0x5a3d290, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_InstanceHandle, addr 0x5a4174c, size 0x14, virtual false, abstract: false, final false
   inline void set_InstanceHandle(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle value);
 
-  /// @brief Method set_Type, addr 0x5a3d2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x5a41768, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::System::Type* value);
 
 protected:
@@ -109,7 +109,7 @@ public:
   InspectedHandle(InspectedHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18331 };
 
   /// @brief Field inspectedMembers, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::InspectedMember*>* ___inspectedMembers;

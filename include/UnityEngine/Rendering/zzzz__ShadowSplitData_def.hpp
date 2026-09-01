@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ShadowSplitData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ShadowSplitData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   constexpr ShadowSplitData__m_CullingPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10833 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
@@ -93,24 +93,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ShadowSplitData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ShadowSplitData>*();
 
-  /// @brief Method Equals, addr 0x6b20dcc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b28950, size 0x100, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b20900, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b28484, size 0x178, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ShadowSplitData other);
 
-  /// @brief Method GetCullingPlane, addr 0x6b20c84, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetCullingPlane, addr 0x6b28808, size 0x148, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetCullingPlane(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x6b20bf4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b28778, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline int32_t getStaticF_maximumCullingPlaneCount();
 
-  /// @brief Method get_cullingPlaneCount, addr 0x6b20c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cullingPlaneCount, addr 0x6b287f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cullingPlaneCount();
 
-  /// @brief Method get_cullingSphere, addr 0x6b20c78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cullingSphere, addr 0x6b287fc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_cullingSphere();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ShadowSplitData>"
@@ -118,7 +118,7 @@ public:
 
   static inline void setStaticF_maximumCullingPlaneCount(int32_t value);
 
-  /// @brief Method set_shadowCascadeBlendCullingFactor, addr 0x6b206bc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method set_shadowCascadeBlendCullingFactor, addr 0x6b28240, size 0xd4, virtual false, abstract: false, final false
   inline void set_shadowCascadeBlendCullingFactor(float_t value);
 
   // Ctor Parameters []
@@ -133,7 +133,7 @@ public:
                             float_t m_ShadowCascadeBlendCullingFactor, float_t m_CullingNearPlane, ::UnityEngine::Matrix4x4 m_CullingMatrix) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10834 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xfc };

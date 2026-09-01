@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/WhiteColorOrAlphaGroupEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\WhiteColorOrAlphaGroupEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,10 +46,10 @@ public:
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5990f1c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x599a248, size 0x104, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5990cac, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5999fd8, size 0x270, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteColorOrAlphaEffects(::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* value);
 
-  /// @brief Method .ctor, addr 0x5991020, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599a34c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   WhiteColorOrAlphaGroupEffectManager(WhiteColorOrAlphaGroupEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5897 };
 
   /// @brief Field _lightGroup, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>> ____lightGroup;

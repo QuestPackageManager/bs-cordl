@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/DateTimeConstantAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\DateTimeConstantAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__date(::System::DateTime value);
 
-  /// @brief Method get_Value, addr 0x5b6be4c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5b70308, size 0x60, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/ValidationHelper.hpp"
+// IWYU pragma private; include "System\Net\ValidationHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ValidationHelper_def.hpp"
 //  Writing Method size for method: ::System::Net::ValidationHelper.MakeStringNull
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Net::ValidationHelper::MakeStringNull)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6403e3c;
+  constexpr static std::size_t addrs = 0x640b8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::ValidationHelper::IsBlankString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6406784;
+  constexpr static std::size_t addrs = 0x640e200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::System::Net::ValidationHelper::ValidateTcpPort)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64067a0;
+  constexpr static std::size_t addrs = 0x640e21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

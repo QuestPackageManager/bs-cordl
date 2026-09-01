@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/PkiArchiveOptions.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Crmf\PkiArchiveOptions.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__PkiArchiveOptions_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedKey_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3363d38;
+  constexpr static std::size_t addrs = 0x3367af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3363ebc;
+  constexpr static std::size_t addrs = 0x3367c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::*)(::Org::BouncyCastle::Asn1::Crmf::EncryptedKey*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3364000;
+  constexpr static std::size_t addrs = 0x3367dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*>(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::*)(::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3364008;
+  constexpr static std::size_t addrs = 0x3367dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::*)(bool)>(&::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3364010;
+  constexpr static std::size_t addrs = 0x3367dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::*)()>(&::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::get_Type)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3364080;
+  constexpr static std::size_t addrs = 0x3367e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3364148;
+  constexpr static std::size_t addrs = 0x3367f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions::ToAsn1Object)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3364150;
+  constexpr static std::size_t addrs = 0x3367f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

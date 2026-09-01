@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AddressablesConstants.hpp"
+// IWYU pragma private; include "GlobalNamespace\AddressablesConstants.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
   AddressablesConstants(AddressablesConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23659 };
 
   /// @brief Field kAllBeatmapCharacteristicsCollectionKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllBeatmapCharacteristicsCollectionKey{ u"AllBeatmapCharacteristicsCollection" };

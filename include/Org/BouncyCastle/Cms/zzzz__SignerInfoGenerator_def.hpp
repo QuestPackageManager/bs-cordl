@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/SignerInfoGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\SignerInfoGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,17 +94,17 @@ public:
 
   constexpr void __cordl_internal_set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  /// @brief Method .ctor, addr 0x36cfe1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d3bdc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
                     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
 
-  /// @brief Method .ctor, addr 0x36cfd88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d3b48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
 
-  /// @brief Method .ctor, addr 0x36cfd90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d3b50, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, bool isDirectSignature);
 
-  /// @brief Method setAssociatedCertificate, addr 0x36cfe2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method setAssociatedCertificate, addr 0x36d3bec, size 0x8, virtual false, abstract: false, final false
   inline void setAssociatedCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnHeaderColumnMoveLocationPreview.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnHeaderColumnMoveLocationPreview.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
 #include "UnityEngine/UIElements/Internal/zzzz__MultiColumnHeaderColumnMoveLocationPreview_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMoveLocationPreview._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMoveLocationPreview::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMoveLocationPreview::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6d19368;
+  constexpr static std::size_t addrs = 0x6d20eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

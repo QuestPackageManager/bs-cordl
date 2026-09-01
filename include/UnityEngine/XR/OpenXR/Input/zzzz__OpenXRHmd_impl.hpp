@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/OpenXRHmd.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\OpenXRHmd.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRHMD_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__OpenXRHmd_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Input::OpenXRHmd::*)()>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRHmd::get_userPresence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ef5fc;
+  constexpr static std::size_t addrs = 0x69f7078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRHmd*>(), { "get_userPresence", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::OpenXRHmd::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRHmd::set_userPresence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ef604;
+  constexpr static std::size_t addrs = 0x69f7080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRHmd*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::OpenXRHmd::*)()>(&::UnityEngine::XR::OpenXR::Input::OpenXRHmd::FinishSetup)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x69ef60c;
+  constexpr static std::size_t addrs = 0x69f7088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::OpenXRHmd::*)()>(&::UnityEngine::XR::OpenXR::Input::OpenXRHmd::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69ef688;
+  constexpr static std::size_t addrs = 0x69f7104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRHmd*>(), { ".ctor", {}, {} })));

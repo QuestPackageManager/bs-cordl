@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Configuration/SettingsSectionInternal.hpp"
+// IWYU pragma private; include "System\Net\Configuration\SettingsSectionInternal.hpp"
 #include "System/Net/Sockets/zzzz__IPProtectionLevel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Configuration/zzzz__SettingsSectionInternal_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Configuration::SettingsSectionInternal* (*)()>(&::System::Net::Configuration::SettingsSectionInternal::get_Section)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x634faf4;
+  constexpr static std::size_t addrs = 0x6357570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Configuration::SettingsSectionInternal*>(), { "get_Section", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Configuration::SettingsSectionInternal::*)()>(&::System::Net::Configuration::SettingsSectionInternal::get_Ipv6Enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x634fb50;
+  constexpr static std::size_t addrs = 0x63575cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Configuration::SettingsSectionInternal*>(), { "get_Ipv6Enabled", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Configuration::SettingsSectionInternal::*)()>(&::System::Net::Configuration::SettingsSectionInternal::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x634fb58;
+  constexpr static std::size_t addrs = 0x63575d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Configuration::SettingsSectionInternal*>(), { ".ctor", {}, {} })));

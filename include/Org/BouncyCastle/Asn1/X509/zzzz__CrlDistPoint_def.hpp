@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/CrlDistPoint.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\CrlDistPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,26 +42,26 @@ public:
   /// @brief Field seq, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq)) ::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
-  /// @brief Method FromExtensions, addr 0x3655fb8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x3659d78, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetDistributionPoints, addr 0x36560a4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetDistributionPoints, addr 0x3659e64, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*> GetDistributionPoints();
 
-  /// @brief Method GetInstance, addr 0x3655f00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3659cc0, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x3655f14, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3659cd4, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*> points);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3656328, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x365a0e8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x3656330, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x365a0f0, size 0x170, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_seq() const;
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x365603c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3659dfc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*> points);
 
-  /// @brief Method .ctor, addr 0x3655fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3659d70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

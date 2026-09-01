@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Encodings/ISO9796d1Encoding.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Encodings\ISO9796d1Encoding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Encodings/zzzz__ISO9796d1Encoding_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x338eed0;
+  constexpr static std::size_t addrs = 0x3392c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x338eedc;
+  constexpr static std::size_t addrs = 0x3392c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::GetUnderlyingCipher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x338efa4;
+  constexpr static std::size_t addrs = 0x3392d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::Init)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x338efac;
+  constexpr static std::size_t addrs = 0x3392d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::GetInputBlockSize)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x338f168;
+  constexpr static std::size_t addrs = 0x3392f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::GetOutputBlockSize)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x338f230;
+  constexpr static std::size_t addrs = 0x3392ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::SetPadBits)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x338f2f8;
+  constexpr static std::size_t addrs = 0x33930b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::GetPadBits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x338f354;
+  constexpr static std::size_t addrs = 0x3393114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding*>(), { "GetPadBits", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::ProcessBlock)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x338f35c;
+  constexpr static std::size_t addrs = 0x339311c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::EncodeBlock)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x338f36c;
+  constexpr static std::size_t addrs = 0x339312c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::DecodeBlock)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x338f6b4;
+  constexpr static std::size_t addrs = 0x3393474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

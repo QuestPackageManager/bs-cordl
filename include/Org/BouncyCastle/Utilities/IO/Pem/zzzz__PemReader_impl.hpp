@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemReader.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\Pem\PemReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemReader_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)(::System::IO::TextReader*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemReader::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x35a3138;
+  constexpr static std::size_t addrs = 0x35a6ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::TextReader* (::Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemReader::get_Reader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35a3190;
+  constexpr static std::size_t addrs = 0x35a6f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::Pem::PemReader*>(), { "get_Reader", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (::Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemReader::ReadPemObject)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x35a3198;
+  constexpr static std::size_t addrs = 0x35a6f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::Pem::PemReader*>(), { "ReadPemObject", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (::Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)(::StringW)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemReader::LoadObject)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x35a3304;
+  constexpr static std::size_t addrs = 0x35a70c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

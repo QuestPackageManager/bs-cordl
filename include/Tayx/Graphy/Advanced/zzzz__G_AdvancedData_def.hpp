@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Advanced/G_AdvancedData.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Advanced\G_AdvancedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,30 +111,30 @@ public:
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
-  /// @brief Method Init, addr 0x643465c, size 0xd6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x643c0d8, size 0xd6c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Advanced::G_AdvancedData* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x643a6d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x644214c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshParameters, addr 0x6435e84, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method RefreshParameters, addr 0x643d900, size 0x148, virtual false, abstract: false, final false
   inline void RefreshParameters();
 
-  /// @brief Method RestorePreviousState, addr 0x6433608, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RestorePreviousState, addr 0x643b084, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();
 
-  /// @brief Method SetPosition, addr 0x6431ee8, size 0x814, virtual true, abstract: false, final true
+  /// @brief Method SetPosition, addr 0x6439964, size 0x814, virtual true, abstract: false, final true
   inline void SetPosition(::Tayx::Graphy::GraphyManager_ModulePosition newModulePosition);
 
-  /// @brief Method SetState, addr 0x6431e4c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x64398c8, size 0x78, virtual true, abstract: false, final true
   inline void SetState(::Tayx::Graphy::GraphyManager_ModuleState state, bool silentUpdate);
 
-  /// @brief Method Update, addr 0x643a6d4, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6442150, size 0x2e4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x64358e8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x643d364, size 0x150, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* const& __cordl_internal_get_m_backgroundImages() const;
@@ -239,7 +239,7 @@ public:
 
   constexpr void __cordl_internal_set_m_windowStrings(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x643a9b8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6442434, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
@@ -263,7 +263,7 @@ public:
   G_AdvancedData(G_AdvancedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21507 };
 
   /// @brief Field m_backgroundImages, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* ___m_backgroundImages;

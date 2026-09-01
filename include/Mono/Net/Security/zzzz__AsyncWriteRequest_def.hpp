@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Net/Security/AsyncWriteRequest.hpp"
+// IWYU pragma private; include "Mono\Net\Security\AsyncWriteRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ public:
   // Declarations
   static inline ::Mono::Net::Security::AsyncWriteRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method Run, addr 0x5fd0d24, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fd87a0, size 0x78, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method .ctor, addr 0x5fd0d20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd879c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
 protected:
@@ -50,7 +50,7 @@ public:
   AsyncWriteRequest(AsyncWriteRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

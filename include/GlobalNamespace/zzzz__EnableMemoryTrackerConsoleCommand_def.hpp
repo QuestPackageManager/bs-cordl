@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnableMemoryTrackerConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnableMemoryTrackerConsoleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32cd214, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x32d1010, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   static inline ::GlobalNamespace::EnableMemoryTrackerConsoleCommand* New_ctor();
@@ -62,13 +62,13 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x32cd2c4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32d10c0, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32cd18c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x32d0f88, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32cd1d0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x32d0fcc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -86,7 +86,7 @@ public:
   EnableMemoryTrackerConsoleCommand(EnableMemoryTrackerConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19390 };
 
   /// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MouseLeaveWindowEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MouseLeaveWindowEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseLeaveWindowEvent_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent___c::*)()>(&::UnityEngine::UIElements::MouseLeaveWindowEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d9931c;
+  constexpr static std::size_t addrs = 0x6da0ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseLeaveWindowEvent___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MouseLeaveWindowEvent* (::UnityEngine::UIElements::MouseLeaveWindowEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d99320;
+  constexpr static std::size_t addrs = 0x6da0ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseLeaveWindowEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)()>(&::UnityEngine::UIElements::MouseLeaveWindowEvent::Init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d98e4c;
+  constexpr static std::size_t addrs = 0x6da09d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)()>(&::UnityEngine::UIElements::MouseLeaveWindowEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d98ea4;
+  constexpr static std::size_t addrs = 0x6da0a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseLeaveWindowEvent*>(), { "LocalInit", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)()>(&::UnityEngine::UIElements::MouseLeaveWindowEvent::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d98eb0;
+  constexpr static std::size_t addrs = 0x6da0a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseLeaveWindowEvent*>(), { ".ctor", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MouseLeaveWindowEvent* (*)(::UnityEngine::Event*)>(&::UnityEngine::UIElements::MouseLeaveWindowEvent::GetPooled)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6d98f08;
+  constexpr static std::size_t addrs = 0x6da0a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x6d99040;
+  constexpr static std::size_t addrs = 0x6da0bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::Dispatch)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d99240;
+  constexpr static std::size_t addrs = 0x6da0dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

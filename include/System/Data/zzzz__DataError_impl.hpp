@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataError.hpp"
+// IWYU pragma private; include "System\Data\DataError.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__DataError_def.hpp"
 #include "System/Data/zzzz__DataColumn_def.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataError::*)()>(&::System::Data::DataError::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x601bcf8;
+  constexpr static std::size_t addrs = 0x6023774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataError*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataError::*)(::StringW)>(&::System::Data::DataError::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x601bd10;
+  constexpr static std::size_t addrs = 0x602378c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataError*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataError::*)()>(&::System::Data::DataError::get_Text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601bd4c;
+  constexpr static std::size_t addrs = 0x60237c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataError*>(), { "get_Text", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataError::*)(::StringW)>(&::System::Data::DataError::set_Text)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x601bd54;
+  constexpr static std::size_t addrs = 0x60237d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataError*>(), { "set_Text", {}, { ::i2c::type_of<::StringW>() } })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataError::*)()>(&::System::Data::DataError::get_HasErrors)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x601bd70;
+  constexpr static std::size_t addrs = 0x60237ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataError*>(), { "get_HasErrors", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataError::*)(::System::Data::DataColumn*, ::StringW)>(&::System::Data::DataError::SetColumnError)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x601bda0;
+  constexpr static std::size_t addrs = 0x602381c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataError::*)(::System::Data::DataColumn*)>(&::System::Data::DataError::GetColumnError)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x601c07c;
+  constexpr static std::size_t addrs = 0x6023af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataError::*)(::System::Data::DataColumn*)>(&::System::Data::DataError::Clear)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x601be84;
+  constexpr static std::size_t addrs = 0x6023900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataError::*)()>(&::System::Data::DataError::Clear)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x601c0dc;
+  constexpr static std::size_t addrs = 0x6023b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataError*>(), { "Clear", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::DataError::*)()>(&::System::Data::DataError::GetColumnsInError)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x601c14c;
+  constexpr static std::size_t addrs = 0x6023bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataError*>(), { "GetColumnsInError", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataError::*)(::StringW)>(&::System::Data::DataError::SetText)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x601bd30;
+  constexpr static std::size_t addrs = 0x60237ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataError*>(), { "SetText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataError::*)(::System::Data::DataColumn*)>(&::System::Data::DataError::IndexOf)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x601bf30;
+  constexpr static std::size_t addrs = 0x60239ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

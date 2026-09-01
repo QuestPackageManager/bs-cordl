@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowsMidtonesHighlights.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowsMidtonesHighlights.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShadowsMidtonesHighlights_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IPostProcessComponent_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::*)()>(
     &::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::IsActive)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6877d04;
+  constexpr static std::size_t addrs = 0x687f780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::*)()>(
     &::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6877db0;
+  constexpr static std::size_t addrs = 0x687f82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::*)()>(
     &::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights::_ctor)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6877db8;
+  constexpr static std::size_t addrs = 0x687f834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights*>(), { ".ctor", {}, {} })));

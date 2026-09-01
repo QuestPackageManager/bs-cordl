@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatTransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,25 +88,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(float_t value);
 
-  /// @brief Method .ctor, addr 0x643f010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6446a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x643eff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x6446a74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x643efe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x6446a64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x643efe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x6446a5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x643eff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x6446a6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x643f008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x6446a84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x643f000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x6446a7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedState();
 
 protected:
@@ -124,7 +124,7 @@ public:
   FloatTransitionSO(FloatTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22381 };
 
   /// @brief Field _normalState, offset: 0x20, size: 0x4, def value: None
   float_t ____normalState;

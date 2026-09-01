@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BatchRendererGroupCreateInfo.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BatchRendererGroupCreateInfo.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchRendererGroupCreateInfo_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchRendererGroup_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/Debugger.hpp"
+// IWYU pragma private; include "System\Diagnostics\Debugger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__Debugger_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::Debugger.IsLogging
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Diagnostics::Debugger::IsLogging)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdc770;
+  constexpr static std::size_t addrs = 0x5be0c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Debugger*>(), { "IsLogging", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::System::Diagnostics::Debugger::Log_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bdc778;
+  constexpr static std::size_t addrs = 0x5be0c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::StringW, ::StringW)>(&::System::Diagnostics::Debugger::Log)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5bdc77c;
+  constexpr static std::size_t addrs = 0x5be0c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Diagnostics::Debugger::NotifyOfCrossThreadDependency)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bdc7d4;
+  constexpr static std::size_t addrs = 0x5be0c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Debugger*>(), { "NotifyOfCrossThreadDependency", {}, {} })));

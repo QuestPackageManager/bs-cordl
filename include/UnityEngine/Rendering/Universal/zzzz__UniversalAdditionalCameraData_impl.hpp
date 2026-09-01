@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalAdditionalCameraData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalAdditionalCameraData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__AntialiasingMode_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__AntialiasingQuality_impl.hpp"
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68c1a64;
+  constexpr static std::size_t addrs = 0x68c94e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c::_UpdateCameraStack_b__53_0)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68c1a68;
+  constexpr static std::size_t addrs = 0x68c94e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData___c*>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c0b74;
+  constexpr static std::size_t addrs = 0x68c85f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> (*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_defaultAdditionalCameraData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x68c0b7c;
+  constexpr static std::size_t addrs = 0x68c85f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_camera)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x68c0d5c;
+  constexpr static std::size_t addrs = 0x68c87d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::Start)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x68c0e04;
+  constexpr static std::size_t addrs = 0x68c8880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderShadows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c0e38;
+  constexpr static std::size_t addrs = 0x68c88b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderShadows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c0e40;
+  constexpr static std::size_t addrs = 0x68c88bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::CameraOverrideOption (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresDepthOption)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c0e48;
+  constexpr static std::size_t addrs = 0x68c88c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::CameraOverrideOption)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresDepthOption)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c0e50;
+  constexpr static std::size_t addrs = 0x68c88cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::CameraOverrideOption (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresColorOption)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c0e58;
+  constexpr static std::size_t addrs = 0x68c88d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::CameraOverrideOption)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresColorOption)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c0e60;
+  constexpr static std::size_t addrs = 0x68c88dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::CameraRenderType (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c0e68;
+  constexpr static std::size_t addrs = 0x68c88e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::CameraRenderType)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c0e70;
+  constexpr static std::size_t addrs = 0x68c88ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(),
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* (
     ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(&::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_cameraStack)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x68b8024;
+  constexpr static std::size_t addrs = 0x68bfaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::UpdateCameraStack)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x68c110c;
+  constexpr static std::size_t addrs = 0x68c8b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_clearDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c13d4;
+  constexpr static std::size_t addrs = 0x68c8e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresDepthTexture)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68c13dc;
+  constexpr static std::size_t addrs = 0x68c8e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresDepthTexture)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68c1464;
+  constexpr static std::size_t addrs = 0x68c8ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresColorTexture)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68c147c;
+  constexpr static std::size_t addrs = 0x68c8ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_requiresColorTexture)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68c1504;
+  constexpr static std::size_t addrs = 0x68c8f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::ScriptableRenderer* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_scriptableRenderer)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x68c0e78;
+  constexpr static std::size_t addrs = 0x68c88f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::SetRenderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c151c;
+  constexpr static std::size_t addrs = 0x68c8f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1524;
+  constexpr static std::size_t addrs = 0x68c8fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::LayerMask)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c152c;
+  constexpr static std::size_t addrs = 0x68c8fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(),
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1534;
+  constexpr static std::size_t addrs = 0x68c8fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -434,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Transform*)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c153c;
+  constexpr static std::size_t addrs = 0x68c8fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(),
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeFrameworkUpdateMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1544;
+  constexpr static std::size_t addrs = 0x68c8fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::VolumeFrameworkUpdateMode)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeFrameworkUpdateMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c154c;
+  constexpr static std::size_t addrs = 0x68c8fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_requiresVolumeFrameworkUpdate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68c02f0;
+  constexpr static std::size_t addrs = 0x68c7d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::VolumeStack* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_volumeStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1554;
+  constexpr static std::size_t addrs = 0x68c8fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -505,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::VolumeStack*)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_volumeStack)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x68c08ac;
+  constexpr static std::size_t addrs = 0x68c8328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(),
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::GetOrCreateVolumeStack)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x68c04e8;
+  constexpr static std::size_t addrs = 0x68c7f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -533,7 +533,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_renderPostProcessing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c155c;
+  constexpr static std::size_t addrs = 0x68c8fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_renderPostProcessing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1564;
+  constexpr static std::size_t addrs = 0x68c8fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::AntialiasingMode (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_antialiasing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c156c;
+  constexpr static std::size_t addrs = 0x68c8fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::AntialiasingMode)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_antialiasing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1574;
+  constexpr static std::size_t addrs = 0x68c8ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(),
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::AntialiasingQuality (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_antialiasingQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c157c;
+  constexpr static std::size_t addrs = 0x68c8ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -604,7 +604,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Rendering::Universal::AntialiasingQuality)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_antialiasingQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1584;
+  constexpr static std::size_t addrs = 0x68c9000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -619,7 +619,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::Universal::TemporalAA_Settings> (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_taaSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c158c;
+  constexpr static std::size_t addrs = 0x68c9008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -633,7 +633,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ICameraHistoryReadAccess* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_history)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1594;
+  constexpr static std::size_t addrs = 0x68c9010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -647,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::UniversalCameraHistory* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_historyManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c159c;
+  constexpr static std::size_t addrs = 0x68c9018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -661,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_motionVectorsPersistentData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c15a4;
+  constexpr static std::size_t addrs = 0x68c9020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_resetHistory)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68c15ac;
+  constexpr static std::size_t addrs = 0x68c9028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -689,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_resetHistory)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68c15bc;
+  constexpr static std::size_t addrs = 0x68c9038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -703,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_stopNaN)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1620;
+  constexpr static std::size_t addrs = 0x68c909c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_stopNaN)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1628;
+  constexpr static std::size_t addrs = 0x68c90a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -731,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_dithering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1630;
+  constexpr static std::size_t addrs = 0x68c90ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_dithering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1638;
+  constexpr static std::size_t addrs = 0x68c90b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -759,7 +759,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_allowXRRendering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1640;
+  constexpr static std::size_t addrs = 0x68c90bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -773,7 +773,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_allowXRRendering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1648;
+  constexpr static std::size_t addrs = 0x68c90c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -787,7 +787,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_useScreenCoordOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1650;
+  constexpr static std::size_t addrs = 0x68c90cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -801,7 +801,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_useScreenCoordOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1658;
+  constexpr static std::size_t addrs = 0x68c90d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -816,7 +816,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_screenSizeOverride)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68c1660;
+  constexpr static std::size_t addrs = 0x68c90dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -830,7 +830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Vector4)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_screenSizeOverride)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68c166c;
+  constexpr static std::size_t addrs = 0x68c90e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(),
@@ -844,7 +844,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_screenCoordScaleBias)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68c1678;
+  constexpr static std::size_t addrs = 0x68c90f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -858,7 +858,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(::UnityEngine::Vector4)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_screenCoordScaleBias)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68c1684;
+  constexpr static std::size_t addrs = 0x68c9100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*>(),
@@ -872,7 +872,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::get_allowHDROutput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1690;
+  constexpr static std::size_t addrs = 0x68c910c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -886,7 +886,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::set_allowHDROutput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68c1698;
+  constexpr static std::size_t addrs = 0x68c9114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -900,7 +900,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68c16a0;
+  constexpr static std::size_t addrs = 0x68c911c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -914,7 +914,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68c16a4;
+  constexpr static std::size_t addrs = 0x68c9120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -928,7 +928,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnValidate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x68c16cc;
+  constexpr static std::size_t addrs = 0x68c9148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -942,7 +942,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnDrawGizmos)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x68c1764;
+  constexpr static std::size_t addrs = 0x68c91e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -956,7 +956,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::OnDestroy)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68c188c;
+  constexpr static std::size_t addrs = 0x68c9308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -970,7 +970,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::ScriptableRenderer* (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::GetRawRenderer)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x68c18f0;
+  constexpr static std::size_t addrs = 0x68c936c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -984,7 +984,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x68c0c2c;
+  constexpr static std::size_t addrs = 0x68c86a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatFxGroupEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatFxGroupEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   /// @brief Method TriggerValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method .ctor, addr 0x598ac68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5994c28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   FloatFxGroupEffectTarget(FloatFxGroupEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

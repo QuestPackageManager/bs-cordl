@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteJump.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteJump.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action*)>(&::GlobalNamespace::NoteJump::add_noteJumpDidStartEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58d667c;
+  constexpr static std::size_t addrs = 0x58d602c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action*)>(&::GlobalNamespace::NoteJump::remove_noteJumpDidStartEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58d6728;
+  constexpr static std::size_t addrs = 0x58d60d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action*)>(&::GlobalNamespace::NoteJump::add_noteJumpDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58d67d4;
+  constexpr static std::size_t addrs = 0x58d6184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action*)>(&::GlobalNamespace::NoteJump::remove_noteJumpDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58d6880;
+  constexpr static std::size_t addrs = 0x58d6230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action*)>(&::GlobalNamespace::NoteJump::add_noteJumpDidPassMissedMarkerEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58d692c;
+  constexpr static std::size_t addrs = 0x58d62dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action*)>(&::GlobalNamespace::NoteJump::remove_noteJumpDidPassMissedMarkerEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58d69d8;
+  constexpr static std::size_t addrs = 0x58d6388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>*)>(
     &::GlobalNamespace::NoteJump::add_noteJumpDidPassThreeQuartersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58d6a84;
+  constexpr static std::size_t addrs = 0x58d6434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>*)>(
     &::GlobalNamespace::NoteJump::remove_noteJumpDidPassThreeQuartersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58d6b44;
+  constexpr static std::size_t addrs = 0x58d64f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action*)>(&::GlobalNamespace::NoteJump::add_noteJumpDidPassHalfEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58d6c04;
+  constexpr static std::size_t addrs = 0x58d65b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action*)>(&::GlobalNamespace::NoteJump::remove_noteJumpDidPassHalfEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58d6cb0;
+  constexpr static std::size_t addrs = 0x58d6660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action_1<float_t>*)>(&::GlobalNamespace::NoteJump::add_noteJumpDidUpdateProgressEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58d6d5c;
+  constexpr static std::size_t addrs = 0x58d670c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action_1<float_t>*)>(&::GlobalNamespace::NoteJump::remove_noteJumpDidUpdateProgressEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58d6e1c;
+  constexpr static std::size_t addrs = 0x58d67cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::NoteJump::*)()>(&::GlobalNamespace::NoteJump::get_noteTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58d6edc;
+  constexpr static std::size_t addrs = 0x58d688c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJump*>(), { "get_noteTime", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::NoteJump::*)()>(&::GlobalNamespace::NoteJump::get_distanceToPlayer)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x58d6ee4;
+  constexpr static std::size_t addrs = 0x58d6894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJump*>(), { "get_distanceToPlayer", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteJump::*)()>(&::GlobalNamespace::NoteJump::get_beatPos)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58d6f2c;
+  constexpr static std::size_t addrs = 0x58d68dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJump*>(), { "get_beatPos", {}, {} })));
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteJump::*)()>(&::GlobalNamespace::NoteJump::get_moveVec)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58d6f5c;
+  constexpr static std::size_t addrs = 0x58d690c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJump*>(), { "get_moveVec", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteJump::*)()>(&::GlobalNamespace::NoteJump::get_localPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58d6f8c;
+  constexpr static std::size_t addrs = 0x58d693c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJump*>(), { "get_localPosition", {}, {} })));
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)(float_t, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t, float_t, bool, bool)>(
     &::GlobalNamespace::NoteJump::Init)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x58d6f98;
+  constexpr static std::size_t addrs = 0x58d6948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteJump::*)()>(&::GlobalNamespace::NoteJump::ManualUpdate)> {
   constexpr static std::size_t size = 0x904;
-  constexpr static std::size_t addrs = 0x58d7378;
+  constexpr static std::size_t addrs = 0x58d6d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJump*>(), { "ManualUpdate", {}, {} })));
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJump::*)()>(&::GlobalNamespace::NoteJump::_ctor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x58d7c7c;
+  constexpr static std::size_t addrs = 0x58d762c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJump*>(), { ".ctor", {}, {} })));

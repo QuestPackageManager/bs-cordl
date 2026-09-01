@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/BeatmapSaveData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\BeatmapSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
 
   __declspec(property(get = get_waypoints)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* waypoints;
 
-  /// @brief Method ConvertBeatmapSaveDataPreV2_5_0Inline, addr 0x3759c68, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ConvertBeatmapSaveDataPreV2_5_0Inline, addr 0x375f8d4, size 0x300, virtual false, abstract: false, final false
   inline void ConvertBeatmapSaveDataPreV2_5_0Inline();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events,
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set__waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* value);
 
-  /// @brief Method .ctor, addr 0x3759be0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375f84c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* notes,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* sliders,
@@ -139,25 +139,25 @@ public:
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* obstacles,
                     ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* specialEventsKeywordFilters);
 
-  /// @brief Method get_events, addr 0x3759bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_events, addr 0x375f81c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* get_events();
 
-  /// @brief Method get_notes, addr 0x3759bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_notes, addr 0x375f824, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* get_notes();
 
-  /// @brief Method get_obstacles, addr 0x3759bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstacles, addr 0x375f83c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* get_obstacles();
 
-  /// @brief Method get_sliders, addr 0x3759bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliders, addr 0x375f82c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* get_sliders();
 
-  /// @brief Method get_specialEventsKeywordFilters, addr 0x3759bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specialEventsKeywordFilters, addr 0x375f844, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* get_specialEventsKeywordFilters();
 
-  /// @brief Method get_version, addr 0x3759ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x375f814, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method get_waypoints, addr 0x3759bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_waypoints, addr 0x375f834, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* get_waypoints();
 
 protected:
@@ -175,7 +175,7 @@ public:
   BeatmapSaveData(BeatmapSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15380 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"2.6.0" };

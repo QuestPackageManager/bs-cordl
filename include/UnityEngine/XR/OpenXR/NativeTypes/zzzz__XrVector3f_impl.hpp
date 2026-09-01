@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrVector3f.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrVector3f.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrVector3f_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f::*)(float_t, float_t, float_t)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69ef3f8;
+  constexpr static std::size_t addrs = 0x69f6e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f>(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrVector3f::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69ef408;
+  constexpr static std::size_t addrs = 0x69f6e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

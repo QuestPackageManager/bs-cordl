@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DebugSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\DebugSettingsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,25 +44,25 @@ public:
   /// @brief Field _showBeatmapLevelVersions, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__showBeatmapLevelVersions, put = __cordl_internal_set__showBeatmapLevelVersions)) ::UnityW<::UnityEngine::UI::Toggle> _showBeatmapLevelVersions;
 
-  /// @brief Method DidActivate, addr 0x5a17ea0, size 0x37c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a1ff9c, size 0x37c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5a1821c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5a20318, size 0x9c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleDisableVRTrackingInAutoplayChanged, addr 0x5a18328, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleDisableVRTrackingInAutoplayChanged, addr 0x5a20424, size 0x1c, virtual false, abstract: false, final false
   inline void HandleDisableVRTrackingInAutoplayChanged(bool newValue);
 
-  /// @brief Method HandleFpsCounterChanged, addr 0x5a182b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleFpsCounterChanged, addr 0x5a203b4, size 0x1c, virtual false, abstract: false, final false
   inline void HandleFpsCounterChanged(bool newValue);
 
-  /// @brief Method HandleFpsRecorderChanged, addr 0x5a182d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleFpsRecorderChanged, addr 0x5a203d0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleFpsRecorderChanged(bool newValue);
 
-  /// @brief Method HandleMemoryTrackerChanged, addr 0x5a182f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMemoryTrackerChanged, addr 0x5a203ec, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMemoryTrackerChanged(bool newValue);
 
-  /// @brief Method HandleShowBeatmapLevelVersionsChanged, addr 0x5a1830c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleShowBeatmapLevelVersionsChanged, addr 0x5a20408, size 0x1c, virtual false, abstract: false, final false
   inline void HandleShowBeatmapLevelVersionsChanged(bool newValue);
 
   static inline ::GlobalNamespace::DebugSettingsViewController* New_ctor();
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set__showBeatmapLevelVersions(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x5a18344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a20440, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,7 +121,7 @@ public:
   DebugSettingsViewController(DebugSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6464 };
 
   /// @brief Field _fpsCounter, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____fpsCounter;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerBmpString.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerBmpString.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerBmpString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerBmpString* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::DerBmpString::GetInstance)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3689b9c;
+  constexpr static std::size_t addrs = 0x368d95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerBmpString* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::DerBmpString::GetInstance)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3689c88;
+  constexpr static std::size_t addrs = 0x368da48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerBmpString::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::DerBmpString::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3689d7c;
+  constexpr static std::size_t addrs = 0x368db3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerBmpString::*)(::ArrayW<char16_t>)>(&::Org::BouncyCastle::Asn1::DerBmpString::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x36809c4;
+  constexpr static std::size_t addrs = 0x3684784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerBmpString::*)(::StringW)>(&::Org::BouncyCastle::Asn1::DerBmpString::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3689ee8;
+  constexpr static std::size_t addrs = 0x368dca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerBmpString::*)()>(&::Org::BouncyCastle::Asn1::DerBmpString::GetString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3689f40;
+  constexpr static std::size_t addrs = 0x368dd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::DerBmpString::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerBmpString::Asn1Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3689f48;
+  constexpr static std::size_t addrs = 0x368dd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerBmpString::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerBmpString::Encode)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3689ff0;
+  constexpr static std::size_t addrs = 0x368ddb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

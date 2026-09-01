@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/MockedPlatform.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\MockedPlatform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,27 +92,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ClearRichPresenceStatus, addr 0x5f2bf04, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ClearRichPresenceStatus, addr 0x5f303c4, size 0x4, virtual true, abstract: false, final true
   inline void ClearRichPresenceStatus();
 
-  /// @brief Method Dispose, addr 0x5f2bee4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5f303a4, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetAppVersion, addr 0x5f2beec, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetAppVersion, addr 0x5f303ac, size 0x14, virtual true, abstract: false, final true
   inline ::StringW GetAppVersion();
 
-  /// @brief Method GetDestination, addr 0x5f2bf08, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method GetDestination, addr 0x5f303c8, size 0x44, virtual true, abstract: false, final true
   inline ::System::ValueTuple_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW> GetDestination();
 
   static inline ::OculusStudios::Platform::Core::MockedPlatform* New_ctor();
 
-  /// @brief Method OculusStudios.Platform.Core.IPlatformInternal.InitializeAsync, addr 0x5f2bf4c, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method OculusStudios.Platform.Core.IPlatformInternal.InitializeAsync, addr 0x5f3040c, size 0x104, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* OculusStudios_Platform_Core_IPlatformInternal_InitializeAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
-  /// @brief Method SetRichPresenceStatus, addr 0x5f2bf00, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetRichPresenceStatus, addr 0x5f303c0, size 0x4, virtual true, abstract: false, final true
   inline void SetRichPresenceStatus(::OculusStudios::Platform::Core::RichPresenceRuntimeInstance status);
 
-  /// @brief Method Tick, addr 0x5f2bee8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x5f303a8, size 0x4, virtual true, abstract: false, final true
   inline void Tick(float_t deltaTime);
 
   constexpr ::OculusStudios::Platform::Core::MockedEntitlements* const& __cordl_internal_get__entitlements() const;
@@ -133,25 +133,25 @@ public:
 
   constexpr void __cordl_internal_set_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5f2c104, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f305c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_destinationRequestedEvent, addr 0x5f2bd64, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_destinationRequestedEvent, addr 0x5f30224, size 0xc0, virtual true, abstract: false, final true
   inline void add_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value);
 
-  /// @brief Method get_displayName, addr 0x5f2bcc4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x5f30184, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_entitlements, addr 0x5f2bd5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_entitlements, addr 0x5f3021c, size 0x8, virtual true, abstract: false, final false
   inline ::OculusStudios::Platform::Core::IPlatformEntitlements* get_entitlements();
 
-  /// @brief Method get_key, addr 0x5f2bd08, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_key, addr 0x5f301c8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_key();
 
-  /// @brief Method get_user, addr 0x5f2bd54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_user, addr 0x5f30214, size 0x8, virtual true, abstract: false, final false
   inline ::OculusStudios::Platform::Core::IPlatformUser* get_user();
 
-  /// @brief Method get_vendor, addr 0x5f2bd4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_vendor, addr 0x5f3020c, size 0x8, virtual true, abstract: false, final false
   inline ::OculusStudios::Platform::Core::Vendor get_vendor();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatform"
@@ -163,7 +163,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_destinationRequestedEvent, addr 0x5f2be24, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_destinationRequestedEvent, addr 0x5f302e4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value);
 
 protected:
@@ -181,7 +181,7 @@ public:
   MockedPlatform(MockedPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22470 };
 
   /// @brief Field _entitlements, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::MockedEntitlements* ____entitlements;

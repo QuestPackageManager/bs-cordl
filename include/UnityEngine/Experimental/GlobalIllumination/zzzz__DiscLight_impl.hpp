@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/DiscLight.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\DiscLight.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__FalloffType_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_impl.hpp"

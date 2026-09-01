@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AdbCommandReceiver.hpp"
+// IWYU pragma private; include "GlobalNamespace\AdbCommandReceiver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__onCommandReceived(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x32c76e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32cb4e0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::StringW>* onCommandReceived);
 
-  /// @brief Method onCommandReceived, addr 0x32c7934, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method onCommandReceived, addr 0x32cb730, size 0x20, virtual false, abstract: false, final false
   inline void onCommandReceived(::StringW cmd);
 
 protected:
@@ -76,7 +76,7 @@ public:
   AdbCommandReceiver_CallbackProxy(AdbCommandReceiver_CallbackProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19362 };
 
   /// @brief Field _onCommandReceived, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ____onCommandReceived;
@@ -119,15 +119,15 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x32c7770, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x32cb56c, size 0x110, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Initialize, addr 0x32c7168, size 0x57c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x32caf64, size 0x57c, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::AdbCommandReceiver* New_ctor();
 
-  /// @brief Method OnCommandReceived, addr 0x32c7880, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnCommandReceived, addr 0x32cb67c, size 0xb0, virtual false, abstract: false, final false
   inline void OnCommandReceived(::StringW cmd);
 
   constexpr ::GlobalNamespace::AdbCommandReceiver_CallbackProxy* const& __cordl_internal_get__callbackProxy() const;
@@ -160,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set__terminalController(::GlobalNamespace::TerminalController* value);
 
-  /// @brief Method .ctor, addr 0x32c7930, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32cb72c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -184,7 +184,7 @@ public:
   AdbCommandReceiver(AdbCommandReceiver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19363 };
 
   /// @brief Field kCallbackInterface offset 0xffffffff size 0x8
   static constexpr ::ConstString kCallbackInterface{ u"com.beatgames.beatsaber.terminal.TerminalBroadcastReceiver$Callback" };

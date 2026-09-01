@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionConnectionsGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionConnectionsGenerator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionConnectionsGenerator_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeConnection_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionNode> (::GlobalNamespace::MissionConnectionsGenerator::*)()>(
     &::GlobalNamespace::MissionConnectionsGenerator::get__rootMissionNode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59365e8;
+  constexpr static std::size_t addrs = 0x593a06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionConnectionsGenerator*>(), { "get__rootMissionNode", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionConnectionsGenerator::*)()>(&::GlobalNamespace::MissionConnectionsGenerator::CreateNodeConnections)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5936600;
+  constexpr static std::size_t addrs = 0x593a084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionConnectionsGenerator*>(), { "CreateNodeConnections", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionConnectionsGenerator::*)()>(&::GlobalNamespace::MissionConnectionsGenerator::RemoveOldConnections)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x5936694;
+  constexpr static std::size_t addrs = 0x593a118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionConnectionsGenerator*>(), { "RemoveOldConnections", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionConnectionsGenerator::*)(
     ::GlobalNamespace::MissionNode*, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>*)>(&::GlobalNamespace::MissionConnectionsGenerator::CreateConnections)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x5936b0c;
+  constexpr static std::size_t addrs = 0x593a590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionNodeConnection> (::GlobalNamespace::MissionConnectionsGenerator::*)(
     ::GlobalNamespace::MissionNode*, ::GlobalNamespace::MissionNode*)>(&::GlobalNamespace::MissionConnectionsGenerator::CreateConnectionBetweenNodes)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5936d04;
+  constexpr static std::size_t addrs = 0x593a788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionConnectionsGenerator::*)()>(&::GlobalNamespace::MissionConnectionsGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5936e08;
+  constexpr static std::size_t addrs = 0x593a88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionConnectionsGenerator*>(), { ".ctor", {}, {} })));

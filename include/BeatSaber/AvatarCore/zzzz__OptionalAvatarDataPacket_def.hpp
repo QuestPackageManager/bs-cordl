@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/OptionalAvatarDataPacket.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\OptionalAvatarDataPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,21 +54,21 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x326d168, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x3270d74, size 0x54, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x326d22c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3270e38, size 0x34, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* Init(uint32_t dataType, ::ArrayW<uint8_t> data, int32_t length);
 
-  /// @brief Method Init, addr 0x326d224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3270e30, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* Init(::BeatSaber::AvatarCore::OptionalAvatarData optionalAvatarData);
 
   static inline ::BeatSaber::AvatarCore::OptionalAvatarDataPacket* New_ctor();
 
-  /// @brief Method Release, addr 0x326d1bc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x3270dc8, size 0x68, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x326d124, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x3270d30, size 0x44, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::ByteArrayNetSerializable* const& __cordl_internal_get_data() const;
@@ -83,10 +83,10 @@ public:
 
   constexpr void __cordl_internal_set_dataType(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x326d260, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3270e6c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0x326d0e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x3270cec, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::BeatSaber::AvatarCore::OptionalAvatarDataPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -110,7 +110,7 @@ public:
   OptionalAvatarDataPacket(OptionalAvatarDataPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21671 };
 
   /// @brief Field dataType, offset: 0x10, size: 0x4, def value: None
   uint32_t ___dataType;

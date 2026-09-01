@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/SerpentEngine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\SerpentEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,18 +21,18 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE SerpentEngine : public ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
 public:
   // Declarations
-  /// @brief Method DecryptBlock, addr 0x33c0c30, size 0x171c, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x33c49f0, size 0x171c, virtual true, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0x33bf7c4, size 0x146c, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x33c3584, size 0x146c, virtual true, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method MakeWorkingKey, addr 0x33be330, size 0x1494, virtual true, abstract: false, final false
+  /// @brief Method MakeWorkingKey, addr 0x33c20f0, size 0x1494, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t> MakeWorkingKey(::ArrayW<uint8_t> key);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SerpentEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33c234c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c610c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

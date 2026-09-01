@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/CameraTypeUtility.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\CameraTypeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ public:
   /// @brief Field s_CameraTypeNames, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_CameraTypeNames, put = setStaticF_s_CameraTypeNames)) ::ArrayW<::StringW> s_CameraTypeNames;
 
-  /// @brief Method GetName, addr 0x68c09f0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x68c846c, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW GetName(::UnityEngine::Rendering::Universal::CameraRenderType type);
 
   static inline ::ArrayW<::StringW> getStaticF_s_CameraTypeNames();
@@ -49,7 +49,7 @@ public:
   CameraTypeUtility(CameraTypeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12991 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

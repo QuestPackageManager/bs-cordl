@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/DPadInteraction.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\DPadInteraction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRInteractionFeature_impl.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::get_thumbstickDpadUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67a8;
+  constexpr static std::size_t addrs = 0x69fe224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::set_thumbstickDpadUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67b0;
+  constexpr static std::size_t addrs = 0x69fe22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::get_thumbstickDpadDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67b8;
+  constexpr static std::size_t addrs = 0x69fe234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::set_thumbstickDpadDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67c0;
+  constexpr static std::size_t addrs = 0x69fe23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::get_thumbstickDpadLeft)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67c8;
+  constexpr static std::size_t addrs = 0x69fe244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::set_thumbstickDpadLeft)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67d0;
+  constexpr static std::size_t addrs = 0x69fe24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::get_thumbstickDpadRight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67d8;
+  constexpr static std::size_t addrs = 0x69fe254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::set_thumbstickDpadRight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67e0;
+  constexpr static std::size_t addrs = 0x69fe25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::get_trackpadDpadUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67e8;
+  constexpr static std::size_t addrs = 0x69fe264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::set_trackpadDpadUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67f0;
+  constexpr static std::size_t addrs = 0x69fe26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad*>(),
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::get_trackpadDpadDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f67f8;
+  constexpr static std::size_t addrs = 0x69fe274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::set_trackpadDpadDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f6800;
+  constexpr static std::size_t addrs = 0x69fe27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::get_trackpadDpadLeft)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f6808;
+  constexpr static std::size_t addrs = 0x69fe284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::set_trackpadDpadLeft)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f6810;
+  constexpr static std::size_t addrs = 0x69fe28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::get_trackpadDpadRight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f6818;
+  constexpr static std::size_t addrs = 0x69fe294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::set_trackpadDpadRight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f6820;
+  constexpr static std::size_t addrs = 0x69fe29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::get_trackpadDpadCenter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f6828;
+  constexpr static std::size_t addrs = 0x69fe2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::set_trackpadDpadCenter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f6830;
+  constexpr static std::size_t addrs = 0x69fe2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::FinishSetup)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x69f6838;
+  constexpr static std::size_t addrs = 0x69fe2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad*>(),
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction_DPad::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69f6a14;
+  constexpr static std::size_t addrs = 0x69fe490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69f6a88;
+  constexpr static std::size_t addrs = 0x69fe504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c::*)(
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_DeviceConfig*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c::_AddAdditiveActions_b__31_0)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x69f6a8c;
+  constexpr static std::size_t addrs = 0x69fe508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -566,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c::*)(
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c::_AddAdditiveActions_b__31_1)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69f6b44;
+  constexpr static std::size_t addrs = 0x69fe5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -581,7 +581,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c::*)(
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c::_AddAdditiveActions_b__31_2)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69f6bb4;
+  constexpr static std::size_t addrs = 0x69fe630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c::*)(
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionConfig*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction___c::_AddAdditiveActions_b__31_3)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69f6c24;
+  constexpr static std::size_t addrs = 0x69fe6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -696,7 +696,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::get_IsAdditive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f4b58;
+  constexpr static std::size_t addrs = 0x69fc5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction*>(),
@@ -710,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69f4b60;
+  constexpr static std::size_t addrs = 0x69fc5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction*>(),
@@ -724,7 +724,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x69f4bec;
+  constexpr static std::size_t addrs = 0x69fc668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction*>(),
@@ -738,7 +738,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69f4d34;
+  constexpr static std::size_t addrs = 0x69fc7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction*>(),
@@ -752,7 +752,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69f4da4;
+  constexpr static std::size_t addrs = 0x69fc820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction*>(),
@@ -766,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0xf2c;
-  constexpr static std::size_t addrs = 0x69f4de8;
+  constexpr static std::size_t addrs = 0x69fc864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction*>(),
@@ -781,7 +781,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>*,
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::AddAdditiveActions)> {
   constexpr static std::size_t size = 0x9a0;
-  constexpr static std::size_t addrs = 0x69f5d14;
+  constexpr static std::size_t addrs = 0x69fd790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction*>(),
@@ -795,7 +795,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::DPadInteraction::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x69f66b4;
+  constexpr static std::size_t addrs = 0x69fe130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

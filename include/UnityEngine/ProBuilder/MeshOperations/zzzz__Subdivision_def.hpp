@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/Subdivision.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\Subdivision.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +32,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class CORDL_TYPE Subdivision : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Subdivide, addr 0x673190c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Subdivide, addr 0x6739388, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*> Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Subdivide, addr 0x6731850, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Subdivide, addr 0x67392cc, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb);
 
 protected:
@@ -53,7 +53,7 @@ public:
   Subdivision(Subdivision const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16891 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

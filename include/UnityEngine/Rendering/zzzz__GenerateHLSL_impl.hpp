@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GenerateHLSL.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GenerateHLSL.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__PackingRules_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GenerateHLSL_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GenerateHLSL::*)(::UnityEngine::Rendering::PackingRules, bool, bool, bool, int32_t, bool, bool, bool, int32_t,
                                                                                                         ::StringW)>(&::UnityEngine::Rendering::GenerateHLSL::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x679b7c0;
+  constexpr static std::size_t addrs = 0x67a323c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GenerateHLSL*>(),

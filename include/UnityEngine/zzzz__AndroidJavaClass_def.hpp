@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AndroidJavaClass.hpp"
+// IWYU pragma private; include "UnityEngine\AndroidJavaClass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +27,13 @@ public:
 
   static inline ::UnityEngine::AndroidJavaClass* New_ctor(::System::IntPtr jclass);
 
-  /// @brief Method _AndroidJavaClass, addr 0x6a29c78, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method _AndroidJavaClass, addr 0x6a316f4, size 0x128, virtual false, abstract: false, final false
   inline void _AndroidJavaClass(::StringW className);
 
-  /// @brief Method .ctor, addr 0x6a26168, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a2dbe4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW className);
 
-  /// @brief Method .ctor, addr 0x6a29674, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a310f0, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr jclass);
 
 protected:
@@ -51,7 +51,7 @@ public:
   AndroidJavaClass(AndroidJavaClass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

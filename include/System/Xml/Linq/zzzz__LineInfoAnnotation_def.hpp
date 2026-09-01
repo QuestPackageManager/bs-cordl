@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/LineInfoAnnotation.hpp"
+// IWYU pragma private; include "System\Xml\Linq\LineInfoAnnotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_linePosition(int32_t value);
 
-  /// @brief Method .ctor, addr 0x619b748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a31c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, int32_t linePosition);
 
 protected:
@@ -58,7 +58,7 @@ public:
   LineInfoAnnotation(LineInfoAnnotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21964 };
 
   /// @brief Field lineNumber, offset: 0x10, size: 0x4, def value: None
   int32_t ___lineNumber;

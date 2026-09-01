@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/GizmoRendererManager.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\GizmoRendererManager.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__DebugGizmoType_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Immersi
     ::System::Type*, ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugGizmoType, ::UnityEngine::Color, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::Setup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5a5f770;
+  constexpr static std::size_t addrs = 0x5a63c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(&::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a6b1fc;
+  constexpr static std::size_t addrs = 0x5a6f6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager*>(), { "Start", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(&::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::Update)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x5a6b2f8;
+  constexpr static std::size_t addrs = 0x5a6f7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager*>(), { "Update", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::AddGizmoRenderer)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5a6b200;
+  constexpr static std::size_t addrs = 0x5a6f6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)(::UnityEngine::Object*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::GetState)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5a60068;
+  constexpr static std::size_t addrs = 0x5a64524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)(::UnityEngine::Object*, bool)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::SetState)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5a5ff00;
+  constexpr static std::size_t addrs = 0x5a643bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager*>(),
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::*)()>(&::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a6b5f0;
+  constexpr static std::size_t addrs = 0x5a6faac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager*>(), { ".ctor", {}, {} })));

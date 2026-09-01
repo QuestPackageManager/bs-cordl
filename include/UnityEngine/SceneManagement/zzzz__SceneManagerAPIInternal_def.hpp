@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SceneManagement/SceneManagerAPIInternal.hpp"
+// IWYU pragma private; include "UnityEngine\SceneManagement\SceneManagerAPIInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,14 +33,14 @@ namespace UnityEngine::SceneManagement {
 class CORDL_TYPE SceneManagerAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x6af8090, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetNumScenesInBuildSettings, addr 0x6affaa8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetNumScenesInBuildSettings();
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x6af80b8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x6affad0, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                                bool mustCompleteNextFrame);
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x6af82a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x6affcc0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr LoadSceneAsyncNameIndexInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> sceneName, int32_t sceneBuildIndex,
                                                                           ::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters> parameters, bool mustCompleteNextFrame);
 
@@ -59,7 +59,7 @@ public:
   SceneManagerAPIInternal(SceneManagerAPIInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

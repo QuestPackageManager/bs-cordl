@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/PasteArguments.hpp"
+// IWYU pragma private; include "System\PasteArguments.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace System {
 class CORDL_TYPE PasteArguments : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendArgument, addr 0x636bbc8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method AppendArgument, addr 0x6373644, size 0x1ec, virtual false, abstract: false, final false
   static inline void AppendArgument(::System::Text::StringBuilder* stringBuilder, ::StringW argument);
 
-  /// @brief Method ContainsNoWhitespaceOrQuotes, addr 0x636bdb4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ContainsNoWhitespaceOrQuotes, addr 0x6373830, size 0x90, virtual false, abstract: false, final false
   static inline bool ContainsNoWhitespaceOrQuotes(::StringW s);
 
 protected:
@@ -44,7 +44,7 @@ public:
   PasteArguments(PasteArguments const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11055 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

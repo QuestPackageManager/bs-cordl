@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRMeshAttributes.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRMeshAttributes.hpp"
 #include "UnityEngine/zzzz__BoneWeight_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"

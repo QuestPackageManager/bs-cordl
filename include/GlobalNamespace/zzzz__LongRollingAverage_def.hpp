@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LongRollingAverage.hpp"
+// IWYU pragma private; include "GlobalNamespace\LongRollingAverage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +42,10 @@ public:
 
   static inline ::GlobalNamespace::LongRollingAverage* New_ctor(int32_t window);
 
-  /// @brief Method Reset, addr 0x3337340, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x333b100, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x3337258, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x333b018, size 0xe8, virtual false, abstract: false, final false
   inline void Update(int64_t value);
 
   constexpr ::ArrayW<int64_t> const& __cordl_internal_get__buffer() const;
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set__length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x33371f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333afb8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t window);
 
-  /// @brief Method get_currentAverage, addr 0x33371e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentAverage, addr 0x333afa0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_currentAverage();
 
-  /// @brief Method get_hasValue, addr 0x33371e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasValue, addr 0x333afa8, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasValue();
 
 protected:
@@ -102,7 +102,7 @@ public:
   LongRollingAverage(LongRollingAverage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18215 };
 
   /// @brief Field _currentTotal, offset: 0x10, size: 0x8, def value: None
   int64_t ____currentTotal;

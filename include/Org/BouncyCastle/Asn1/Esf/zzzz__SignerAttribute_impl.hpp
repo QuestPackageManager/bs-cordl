@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/SignerAttribute.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\SignerAttribute.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__SignerAttribute_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeCertificate_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Esf::SignerAttribute* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Esf::SignerAttribute::GetInstance)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x33751ac;
+  constexpr static std::size_t addrs = 0x3378f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignerAttribute::*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Esf::SignerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x33752fc;
+  constexpr static std::size_t addrs = 0x33790bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignerAttribute::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3375470;
+  constexpr static std::size_t addrs = 0x3379230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignerAttribute::*)(::Org::BouncyCastle::Asn1::X509::AttributeCertificate*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3375478;
+  constexpr static std::size_t addrs = 0x3379238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::SignerAttribute*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::Asn1::Esf::SignerAttribute::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignerAttribute::get_ClaimedAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3375480;
+  constexpr static std::size_t addrs = 0x3379240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AttributeCertificate* (::Org::BouncyCastle::Asn1::Esf::SignerAttribute::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignerAttribute::get_CertifiedAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3375488;
+  constexpr static std::size_t addrs = 0x3379248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::SignerAttribute::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignerAttribute::ToAsn1Object)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3375490;
+  constexpr static std::size_t addrs = 0x3379250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

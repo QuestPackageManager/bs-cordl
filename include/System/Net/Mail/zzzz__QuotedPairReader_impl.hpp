@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Mail/QuotedPairReader.hpp"
+// IWYU pragma private; include "System\Net\Mail\QuotedPairReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Mail/zzzz__QuotedPairReader_def.hpp"
 //  Writing Method size for method: ::System::Net::Mail::QuotedPairReader.CountQuotedChars
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t, bool)>(&::System::Net::Mail::QuotedPairReader::CountQuotedChars)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6366b48;
+  constexpr static std::size_t addrs = 0x636e5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::Mail::QuotedPairReader::CountBackslashes)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x636801c;
+  constexpr static std::size_t addrs = 0x636fa98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

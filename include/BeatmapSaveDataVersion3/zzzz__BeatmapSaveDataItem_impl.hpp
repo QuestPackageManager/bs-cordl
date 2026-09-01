@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/BeatmapSaveDataItem.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\BeatmapSaveDataItem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveDataItem_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IBeat_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::BeatmapSaveDataItem::*)()>(&::BeatmapSaveDataVersion3::BeatmapSaveDataItem::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3758c48;
+  constexpr static std::size_t addrs = 0x375e8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BeatmapSaveDataItem*>(), { "get_beat", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::BeatmapSaveDataItem::*)(float_t)>(&::BeatmapSaveDataVersion3::BeatmapSaveDataItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3758c50;
+  constexpr static std::size_t addrs = 0x375e8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/XRRenderScaleRenderingFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace\XRRenderScaleRenderingFeature.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "GlobalNamespace/zzzz__XRRenderScaleRenderingFeature_def.hpp"
 #include "GlobalNamespace/zzzz__XRRenderScaleRenderPass_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XRRenderScaleRenderingFeature::*)()>(&::GlobalNamespace::XRRenderScaleRenderingFeature::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f4b24c;
+  constexpr static std::size_t addrs = 0x5f52bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XRRenderScaleRenderingFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::XRRenderScaleRenderingFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5f4b308;
+  constexpr static std::size_t addrs = 0x5f52c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XRRenderScaleRenderingFeature::*)()>(&::GlobalNamespace::XRRenderScaleRenderingFeature::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f4b358;
+  constexpr static std::size_t addrs = 0x5f52ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XRRenderScaleRenderingFeature*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Hierarchy/HierarchyNodeType.hpp"
+// IWYU pragma private; include "Unity\Hierarchy\HierarchyNodeType.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNodeType_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Hierarchy::HierarchyNodeType> (*)()>(&::Unity::Hierarchy::HierarchyNodeType::get_Null)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b329c8;
+  constexpr static std::size_t addrs = 0x6b3a54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeType>(), { "get_Null", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyNodeType::*)()>(&::Unity::Hierarchy::HierarchyNodeType::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b32a10;
+  constexpr static std::size_t addrs = 0x6b3a594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeType>(), { "get_Id", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Hierarchy::HierarchyNodeType>, ::by_ref<::Unity::Hierarchy::HierarchyNodeType>)>(
     &::Unity::Hierarchy::HierarchyNodeType::op_Equality)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b32a18;
+  constexpr static std::size_t addrs = 0x6b3a59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyNodeType::*)(::Unity::Hierarchy::HierarchyNodeType)>(&::Unity::Hierarchy::HierarchyNodeType::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b32a2c;
+  constexpr static std::size_t addrs = 0x6b3a5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Hierarchy::HierarchyNodeType::*)()>(&::Unity::Hierarchy::HierarchyNodeType::ToString)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6b32a3c;
+  constexpr static std::size_t addrs = 0x6b3a5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyNodeType::*)(::System::Object*)>(&::Unity::Hierarchy::HierarchyNodeType::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b32b54;
+  constexpr static std::size_t addrs = 0x6b3a6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Hierarchy::HierarchyNodeType::*)()>(&::Unity::Hierarchy::HierarchyNodeType::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b32bd0;
+  constexpr static std::size_t addrs = 0x6b3a754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

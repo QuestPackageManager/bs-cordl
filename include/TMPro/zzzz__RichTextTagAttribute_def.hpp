@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/RichTextTagAttribute.hpp"
+// IWYU pragma private; include "TMPro\RichTextTagAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   constexpr RichTextTagAttribute(int32_t nameHashCode, int32_t valueHashCode, ::TMPro::TagValueType valueType, int32_t valueStartIndex, int32_t valueLength, ::TMPro::TagUnitType unitType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15882 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

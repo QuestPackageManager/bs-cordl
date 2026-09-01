@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SubContainerDependencyProvider.hpp"
+// IWYU pragma private; include "Zenject\SubContainerDependencyProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,14 +65,14 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method CreateSubContext, addr 0x6e84d88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateSubContext, addr 0x6e8c90c, size 0x3c, virtual false, abstract: false, final false
   inline ::Zenject::InjectContext* CreateSubContext(::Zenject::InjectContext* parent, ::Zenject::DiContainer* subContainer);
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6e84dc4, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6e8c948, size 0x1b0, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::by_ref<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x6e84d80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x6e8c904, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerDependencyProvider* New_ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator,
@@ -102,13 +102,13 @@ public:
 
   constexpr void __cordl_internal_set__subContainerCreator(::Zenject::ISubContainerCreator* value);
 
-  /// @brief Method .ctor, addr 0x6e84d60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8c8e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator, bool resolveAll);
 
-  /// @brief Method get_IsCached, addr 0x6e84d70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x6e8c8f4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6e84d78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6e8c8fc, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -129,7 +129,7 @@ public:
   SubContainerDependencyProvider(SubContainerDependencyProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14651 };
 
   /// @brief Field _subContainerCreator, offset: 0x10, size: 0x8, def value: None
   ::Zenject::ISubContainerCreator* ____subContainerCreator;

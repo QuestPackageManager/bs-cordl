@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleValueHandle.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleValueHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ public:
   // Declarations
   __declspec(property(get = get_valueType, put = set_valueType)) ::UnityEngine::UIElements::StyleValueType valueType;
 
-  /// @brief Method get_valueType, addr 0x6c94d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x6c9c8f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueType get_valueType();
 
-  /// @brief Method set_valueType, addr 0x6c9589c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_valueType, addr 0x6c9d420, size 0x8, virtual false, abstract: false, final false
   inline void set_valueType(::UnityEngine::UIElements::StyleValueType value);
 
   // Ctor Parameters []

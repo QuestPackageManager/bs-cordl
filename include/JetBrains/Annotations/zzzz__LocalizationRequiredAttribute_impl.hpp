@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/LocalizationRequiredAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\LocalizationRequiredAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__LocalizationRequiredAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::LocalizationRequiredAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::LocalizationRequiredAttribute::*)()>(&::JetBrains::Annotations::LocalizationRequiredAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e3636c;
+  constexpr static std::size_t addrs = 0x6e3def0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::LocalizationRequiredAttribute*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::LocalizationRequiredAttribute::*)(bool)>(&::JetBrains::Annotations::LocalizationRequiredAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36378;
+  constexpr static std::size_t addrs = 0x6e3defc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::JetBrains::Annotations::LocalizationRequiredAttribute::*)()>(&::JetBrains::Annotations::LocalizationRequiredAttribute::get_Required)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36380;
+  constexpr static std::size_t addrs = 0x6e3df04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::LocalizationRequiredAttribute*>(), { "get_Required", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::LocalizationRequiredAttribute::*)(bool)>(
     &::JetBrains::Annotations::LocalizationRequiredAttribute::set_Required)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36388;
+  constexpr static std::size_t addrs = 0x6e3df0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

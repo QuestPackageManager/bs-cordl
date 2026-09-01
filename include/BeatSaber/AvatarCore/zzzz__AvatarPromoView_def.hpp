@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarPromoView.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarPromoView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x3267dd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326b638, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rectTransform, addr 0x3267dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x326b630, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
 protected:
@@ -56,7 +56,7 @@ public:
   AvatarPromoView(AvatarPromoView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21641 };
 
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;

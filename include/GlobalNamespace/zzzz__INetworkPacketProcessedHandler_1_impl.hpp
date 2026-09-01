@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/INetworkPacketProcessedHandler_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\INetworkPacketProcessedHandler_1.hpp"
 #include "GlobalNamespace/zzzz__INetworkPacketProcessedHandler_1_def.hpp"
 template <typename TData> inline void GlobalNamespace::INetworkPacketProcessedHandler_1<TData>::HandlePacketProcessed(::StringW typeName, TData data) {
   auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/Extents.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\Extents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE Extents {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x6bbf778, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6bc72fc, size 0x1b8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -32,7 +32,7 @@ public:
   constexpr Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17211 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

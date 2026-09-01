@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/LightTranslationEventBox.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\LightTranslationEventBox.hpp"
 #include "BeatmapSaveDataCommon/zzzz__Axis_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__DistributionParamType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseType_impl.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_gapDistributionParam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37598f8;
+  constexpr static std::size_t addrs = 0x375f564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::DistributionParamType (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_gapDistributionParamType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759900;
+  constexpr static std::size_t addrs = 0x375f56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::Axis (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_axis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759908;
+  constexpr static std::size_t addrs = 0x375f574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightTranslationEventBox*>(), { "get_axis", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(&::BeatmapSaveDataVersion3::LightTranslationEventBox::get_flipTranslation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3759910;
+  constexpr static std::size_t addrs = 0x375f57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_gapDistributionShouldAffectFirstBaseEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3759920;
+  constexpr static std::size_t addrs = 0x375f58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_gapDistributionEaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759930;
+  constexpr static std::size_t addrs = 0x375f59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* (
     ::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(&::BeatmapSaveDataVersion3::LightTranslationEventBox::get_lightTranslationBaseDataList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759938;
+  constexpr static std::size_t addrs = 0x375f5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVe
     ::BeatmapSaveDataVersion3::IndexFilter*, float_t, ::BeatmapSaveDataCommon::DistributionParamType, float_t, ::BeatmapSaveDataCommon::DistributionParamType, bool, ::BeatmapSaveDataCommon::EaseType,
     ::BeatmapSaveDataCommon::Axis, bool, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*)>(&::BeatmapSaveDataVersion3::LightTranslationEventBox::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3759940;
+  constexpr static std::size_t addrs = 0x375f5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

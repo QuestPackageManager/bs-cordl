@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/InvokeMeasureFunctionDelegate.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\InvokeMeasureFunctionDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__InvokeMeasureFunctionDelegate_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6cfa9f8;
+  constexpr static std::size_t addrs = 0x6d0257c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate*>(),
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::by_ref<::UnityEngine::UIElements::Layout::LayoutNode>, float_t, ::UnityEngine::UIElements::Layout::LayoutMeasureMode, float_t, ::UnityEngine::UIElements::Layout::LayoutMeasureMode,
     ::by_ref<::System::IntPtr>, ::by_ref<::UnityEngine::UIElements::Layout::LayoutSize>)>(&::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6cfaa78;
+  constexpr static std::size_t addrs = 0x6d025fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate*>(),

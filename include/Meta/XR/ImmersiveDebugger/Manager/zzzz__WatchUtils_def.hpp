@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/WatchUtils.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\WatchUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,22 +63,22 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::WatchUtils___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x5a620b0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x5a6656c, size 0x84, virtual false, abstract: false, final false
   inline void __cctor_b__2_0(float_t value, ::by_ref<::ArrayW<::StringW>> valuesContainer);
 
-  /// @brief Method <.cctor>b__2_1, addr 0x5a62134, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_1, addr 0x5a665f0, size 0x94, virtual false, abstract: false, final false
   inline void __cctor_b__2_1(bool value, ::by_ref<::ArrayW<::StringW>> valuesContainer);
 
-  /// @brief Method <.cctor>b__2_2, addr 0x5a621c8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_2, addr 0x5a66684, size 0xd4, virtual false, abstract: false, final false
   inline void __cctor_b__2_2(::UnityEngine::Vector3 value, ::by_ref<::ArrayW<::StringW>> valuesContainer);
 
-  /// @brief Method <.cctor>b__2_3, addr 0x5a6229c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_3, addr 0x5a66758, size 0xa8, virtual false, abstract: false, final false
   inline void __cctor_b__2_3(::UnityEngine::Vector2 value, ::by_ref<::ArrayW<::StringW>> valuesContainer);
 
-  /// @brief Method <.cctor>b__2_4, addr 0x5a62344, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_4, addr 0x5a66800, size 0xa0, virtual false, abstract: false, final false
   inline void __cctor_b__2_4(::StringW value, ::by_ref<::ArrayW<::StringW>> valuesContainer);
 
-  /// @brief Method .ctor, addr 0x5a620ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a66568, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::WatchUtils___c* getStaticF___9();
@@ -100,7 +100,7 @@ public:
   WatchUtils___c(WatchUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18412 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -120,20 +120,20 @@ public:
   /// @brief Field Types, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Types, put = setStaticF_Types)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* Types;
 
-  /// @brief Method Create, addr 0x5a61bd8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5a66094, size 0x23c, virtual false, abstract: false, final false
   static inline ::Meta::XR::ImmersiveDebugger::Manager::Watch* Create(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle,
                                                                       ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
-  /// @brief Method FormatFloat, addr 0x5a61f80, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FormatFloat, addr 0x5a6643c, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW FormatFloat(float_t value);
 
   /// @brief Method Register, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Type* Register(::Meta::XR::ImmersiveDebugger::Manager::Watch_1_ToDisplayStringSignature<T>* toDisplayString, int32_t numberOfValues);
 
-  /// @brief Method Register, addr 0x5a61e14, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x5a662d0, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::Type* Register(::System::Type* type);
 
-  /// @brief Method RegisterTexture, addr 0x5a61af0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method RegisterTexture, addr 0x5a65fac, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Type* RegisterTexture(::System::Type* type);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* getStaticF_Types();
@@ -158,7 +158,7 @@ public:
   static constexpr int32_t MaxLetterCount{ static_cast<int32_t>(0x40) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18446 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

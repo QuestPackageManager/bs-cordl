@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/TypedReference.hpp"
+// IWYU pragma private; include "System\TypedReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,22 +37,22 @@ public:
   // Declarations
   __declspec(property(get = get_IsNull)) bool IsNull;
 
-  /// @brief Method Equals, addr 0x5c86200, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c8a6bc, size 0x50, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x5c861a8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c8a664, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method InternalMakeTypedReference, addr 0x5c861a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalMakeTypedReference, addr 0x5c8a660, size 0x4, virtual false, abstract: false, final false
   static inline void InternalMakeTypedReference(void* result, ::System::Object* target, ::ArrayW<::System::IntPtr> flds, ::System::RuntimeType* lastFieldType);
 
-  /// @brief Method MakeTypedReference, addr 0x5c85d80, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method MakeTypedReference, addr 0x5c8a23c, size 0x418, virtual false, abstract: false, final false
   static inline ::System::TypedReference MakeTypedReference(::System::Object* target, ::ArrayW<::System::Reflection::FieldInfo*> flds);
 
-  /// @brief Method SetTypedReference, addr 0x5c86270, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetTypedReference, addr 0x5c8a72c, size 0x4c, virtual false, abstract: false, final false
   static inline void SetTypedReference(::System::TypedReference target, ::System::Object* value);
 
-  /// @brief Method get_IsNull, addr 0x5c86250, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x5c8a70c, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
   // Ctor Parameters []

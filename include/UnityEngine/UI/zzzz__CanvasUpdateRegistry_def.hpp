@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UI/CanvasUpdateRegistry.hpp"
+// IWYU pragma private; include "UnityEngine\UI\CanvasUpdateRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,63 +57,63 @@ public:
   /// @brief Field s_SortLayoutFunction, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_SortLayoutFunction, put = setStaticF_s_SortLayoutFunction)) ::System::Comparison_1<::UnityEngine::UI::ICanvasElement*>* s_SortLayoutFunction;
 
-  /// @brief Method CleanInvalidItems, addr 0x6c1187c, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method CleanInvalidItems, addr 0x6c19400, size 0x2e4, virtual false, abstract: false, final false
   inline void CleanInvalidItems();
 
-  /// @brief Method DisableCanvasElementForRebuild, addr 0x6c12c94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DisableCanvasElementForRebuild, addr 0x6c1a818, size 0x74, virtual false, abstract: false, final false
   static inline void DisableCanvasElementForRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalDisableCanvasElementForGraphicRebuild, addr 0x6c12ebc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method InternalDisableCanvasElementForGraphicRebuild, addr 0x6c1aa40, size 0x1b4, virtual false, abstract: false, final false
   inline void InternalDisableCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalDisableCanvasElementForLayoutRebuild, addr 0x6c12d08, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method InternalDisableCanvasElementForLayoutRebuild, addr 0x6c1a88c, size 0x1b4, virtual false, abstract: false, final false
   inline void InternalDisableCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalRegisterCanvasElementForGraphicRebuild, addr 0x6c1273c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterCanvasElementForGraphicRebuild, addr 0x6c1a2c0, size 0x118, virtual false, abstract: false, final false
   inline bool InternalRegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalRegisterCanvasElementForLayoutRebuild, addr 0x6c125c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterCanvasElementForLayoutRebuild, addr 0x6c1a14c, size 0xac, virtual false, abstract: false, final false
   inline bool InternalRegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalUnRegisterCanvasElementForGraphicRebuild, addr 0x6c12ae0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method InternalUnRegisterCanvasElementForGraphicRebuild, addr 0x6c1a664, size 0x1b4, virtual false, abstract: false, final false
   inline void InternalUnRegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method InternalUnRegisterCanvasElementForLayoutRebuild, addr 0x6c1292c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method InternalUnRegisterCanvasElementForLayoutRebuild, addr 0x6c1a4b0, size 0x1b4, virtual false, abstract: false, final false
   inline void InternalUnRegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method IsRebuildingGraphics, addr 0x6c130d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsRebuildingGraphics, addr 0x6c1ac54, size 0x60, virtual false, abstract: false, final false
   static inline bool IsRebuildingGraphics();
 
-  /// @brief Method IsRebuildingLayout, addr 0x6c13070, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsRebuildingLayout, addr 0x6c1abf4, size 0x60, virtual false, abstract: false, final false
   static inline bool IsRebuildingLayout();
 
   static inline ::UnityEngine::UI::CanvasUpdateRegistry* New_ctor();
 
-  /// @brief Method ObjectValidForUpdate, addr 0x6c117a8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ObjectValidForUpdate, addr 0x6c1932c, size 0xd4, virtual false, abstract: false, final false
   inline bool ObjectValidForUpdate(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method ParentCount, addr 0x6c12348, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ParentCount, addr 0x6c19ecc, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t ParentCount(::UnityEngine::Transform* child);
 
-  /// @brief Method PerformUpdate, addr 0x6c11b60, size 0x654, virtual false, abstract: false, final false
+  /// @brief Method PerformUpdate, addr 0x6c196e4, size 0x654, virtual false, abstract: false, final false
   inline void PerformUpdate();
 
-  /// @brief Method RegisterCanvasElementForGraphicRebuild, addr 0x6c126d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RegisterCanvasElementForGraphicRebuild, addr 0x6c1a25c, size 0x64, virtual false, abstract: false, final false
   static inline void RegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method RegisterCanvasElementForLayoutRebuild, addr 0x6c12564, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RegisterCanvasElementForLayoutRebuild, addr 0x6c1a0e8, size 0x64, virtual false, abstract: false, final false
   static inline void RegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method SortLayoutList, addr 0x6c12404, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SortLayoutList, addr 0x6c19f88, size 0x160, virtual false, abstract: false, final false
   static inline int32_t SortLayoutList(::UnityEngine::UI::ICanvasElement* x, ::UnityEngine::UI::ICanvasElement* y);
 
-  /// @brief Method TryRegisterCanvasElementForGraphicRebuild, addr 0x6c12854, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TryRegisterCanvasElementForGraphicRebuild, addr 0x6c1a3d8, size 0x64, virtual false, abstract: false, final false
   static inline bool TryRegisterCanvasElementForGraphicRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method TryRegisterCanvasElementForLayoutRebuild, addr 0x6c12674, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TryRegisterCanvasElementForLayoutRebuild, addr 0x6c1a1f8, size 0x64, virtual false, abstract: false, final false
   static inline bool TryRegisterCanvasElementForLayoutRebuild(::UnityEngine::UI::ICanvasElement* element);
 
-  /// @brief Method UnRegisterCanvasElementForRebuild, addr 0x6c128b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterCanvasElementForRebuild, addr 0x6c1a43c, size 0x74, virtual false, abstract: false, final false
   static inline void UnRegisterCanvasElementForRebuild(::UnityEngine::UI::ICanvasElement* element);
 
   constexpr ::ArrayW<::StringW> const& __cordl_internal_get_m_CanvasUpdateProfilerStrings() const;
@@ -146,14 +146,14 @@ public:
 
   constexpr void __cordl_internal_set_m_PerformingLayoutUpdate(bool value);
 
-  /// @brief Method .ctor, addr 0x6c1151c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c190a0, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::CanvasUpdateRegistry* getStaticF_s_Instance();
 
   static inline ::System::Comparison_1<::UnityEngine::UI::ICanvasElement*>* getStaticF_s_SortLayoutFunction();
 
-  /// @brief Method get_instance, addr 0x6c11704, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x6c19288, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::CanvasUpdateRegistry* get_instance();
 
   static inline void setStaticF_s_Instance(::UnityEngine::UI::CanvasUpdateRegistry* value);
@@ -175,7 +175,7 @@ public:
   CanvasUpdateRegistry(CanvasUpdateRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17392 };
 
   /// @brief Field m_CullingUpdateProfilerString offset 0xffffffff size 0x8
   static constexpr ::ConstString m_CullingUpdateProfilerString{ u"ClipperRegistry.Cull" };

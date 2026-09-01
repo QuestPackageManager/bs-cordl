@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineRuntimeShaders.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineRuntimeShaders.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,7 +85,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeShaders* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68af740, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68b71bc, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_BlitHDROverlay() const;
@@ -142,34 +142,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68afb08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b7584, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_blitHDROverlay, addr 0x68af7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blitHDROverlay, addr 0x68b723c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_blitHDROverlay();
 
-  /// @brief Method get_coreBlitColorAndDepthPS, addr 0x68af8b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coreBlitColorAndDepthPS, addr 0x68b732c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_coreBlitColorAndDepthPS();
 
-  /// @brief Method get_coreBlitPS, addr 0x68af838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coreBlitPS, addr 0x68b72b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_coreBlitPS();
 
-  /// @brief Method get_fallbackErrorShader, addr 0x68af748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackErrorShader, addr 0x68b71c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_fallbackErrorShader();
 
-  /// @brief Method get_samplingPS, addr 0x68af928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplingPS, addr 0x68b73a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_samplingPS();
 
-  /// @brief Method get_terrainDetailGrassBillboardShader, addr 0x68afa18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_terrainDetailGrassBillboardShader, addr 0x68b7494, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassBillboardShader();
 
-  /// @brief Method get_terrainDetailGrassShader, addr 0x68afa90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_terrainDetailGrassShader, addr 0x68b750c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassShader();
 
-  /// @brief Method get_terrainDetailLitShader, addr 0x68af9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_terrainDetailLitShader, addr 0x68b741c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailLitShader();
 
-  /// @brief Method get_version, addr 0x68af738, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x68b71b4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -178,28 +178,28 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_blitHDROverlay, addr 0x68af7c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_blitHDROverlay, addr 0x68b7244, size 0x70, virtual false, abstract: false, final false
   inline void set_blitHDROverlay(::UnityEngine::Shader* value);
 
-  /// @brief Method set_coreBlitColorAndDepthPS, addr 0x68af8b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_coreBlitColorAndDepthPS, addr 0x68b7334, size 0x70, virtual false, abstract: false, final false
   inline void set_coreBlitColorAndDepthPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_coreBlitPS, addr 0x68af840, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_coreBlitPS, addr 0x68b72bc, size 0x70, virtual false, abstract: false, final false
   inline void set_coreBlitPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_fallbackErrorShader, addr 0x68af750, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_fallbackErrorShader, addr 0x68b71cc, size 0x70, virtual false, abstract: false, final false
   inline void set_fallbackErrorShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_samplingPS, addr 0x68af930, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_samplingPS, addr 0x68b73ac, size 0x70, virtual false, abstract: false, final false
   inline void set_samplingPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_terrainDetailGrassBillboardShader, addr 0x68afa20, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_terrainDetailGrassBillboardShader, addr 0x68b749c, size 0x70, virtual false, abstract: false, final false
   inline void set_terrainDetailGrassBillboardShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_terrainDetailGrassShader, addr 0x68afa98, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_terrainDetailGrassShader, addr 0x68b7514, size 0x70, virtual false, abstract: false, final false
   inline void set_terrainDetailGrassShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_terrainDetailLitShader, addr 0x68af9a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_terrainDetailLitShader, addr 0x68b7424, size 0x70, virtual false, abstract: false, final false
   inline void set_terrainDetailLitShader(::UnityEngine::Shader* value);
 
 protected:
@@ -217,7 +217,7 @@ public:
   UniversalRenderPipelineRuntimeShaders(UniversalRenderPipelineRuntimeShaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12942 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;

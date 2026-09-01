@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Sockets/IPPacketInformation.hpp"
+// IWYU pragma private; include "System\Net\Sockets\IPPacketInformation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ namespace System::Net::Sockets {
 struct CORDL_TYPE IPPacketInformation {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x636258c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x636a008, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode, addr 0x6362628, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x636a0a4, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr IPPacketInformation(::System::Net::IPAddress* address, int32_t networkInterface) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11764 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/PunctualLightData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\PunctualLightData.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PunctualLightData_def.hpp"

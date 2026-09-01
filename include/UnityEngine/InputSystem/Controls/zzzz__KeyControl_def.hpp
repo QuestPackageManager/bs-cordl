@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Controls/KeyControl.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Controls\KeyControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::Controls::KeyControl* New_ctor();
 
-  /// @brief Method RefreshConfiguration, addr 0x64f45b8, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method RefreshConfiguration, addr 0x64fc034, size 0x180, virtual true, abstract: false, final false
   inline void RefreshConfiguration();
 
   constexpr ::UnityEngine::InputSystem::Key const& __cordl_internal_get__keyCode_k__BackingField() const;
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set_m_ScanCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x64f4738, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64fc1b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_keyCode, addr 0x64f456c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x64fbfe8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Key get_keyCode();
 
-  /// @brief Method get_scanCode, addr 0x64f457c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_scanCode, addr 0x64fbff8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_scanCode();
 
-  /// @brief Method set_keyCode, addr 0x64f4574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_keyCode, addr 0x64fbff0, size 0x8, virtual false, abstract: false, final false
   inline void set_keyCode(::UnityEngine::InputSystem::Key value);
 
 protected:
@@ -78,7 +78,7 @@ public:
   KeyControl(KeyControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9132 };
 
   /// @brief Field <keyCode>k__BackingField, offset: 0x140, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Key ____keyCode_k__BackingField;

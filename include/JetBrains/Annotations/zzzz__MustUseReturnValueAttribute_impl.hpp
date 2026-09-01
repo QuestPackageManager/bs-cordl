@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/MustUseReturnValueAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\MustUseReturnValueAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__MustUseReturnValueAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::MustUseReturnValueAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(&::JetBrains::Annotations::MustUseReturnValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e36470;
+  constexpr static std::size_t addrs = 0x6e3dff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::MustUseReturnValueAttribute*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::MustUseReturnValueAttribute::*)(::StringW)>(&::JetBrains::Annotations::MustUseReturnValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36474;
+  constexpr static std::size_t addrs = 0x6e3dff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(
     &::JetBrains::Annotations::MustUseReturnValueAttribute::get_Justification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3647c;
+  constexpr static std::size_t addrs = 0x6e3e000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::MustUseReturnValueAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::MustUseReturnValueAttribute::set_Justification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36484;
+  constexpr static std::size_t addrs = 0x6e3e008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

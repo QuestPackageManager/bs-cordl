@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/MemoryProfiler/MetadataCollect.hpp"
+// IWYU pragma private; include "Unity\MemoryProfiler\MetadataCollect.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/MemoryProfiler/zzzz__MetadataCollect_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::MemoryProfiler::MetadataCollect::*)()>(&::Unity::MemoryProfiler::MetadataCollect::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x668a2c8;
+  constexpr static std::size_t addrs = 0x6691d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::MemoryProfiler::MetadataCollect*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::MemoryProfiler::MetadataCollect::*)()>(&::Unity::MemoryProfiler::MetadataCollect::Dispose)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x668a0e8;
+  constexpr static std::size_t addrs = 0x6691b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::MemoryProfiler::MetadataCollect*>(), { "Dispose", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PanelClearSettings.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PanelClearSettings.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelClearSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "clearDepthStencil", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "clearColor", ty: "bool", modifiers: "", def_value: Some("{}") },

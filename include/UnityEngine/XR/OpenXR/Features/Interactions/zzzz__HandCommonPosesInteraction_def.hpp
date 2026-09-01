@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/HandCommonPosesInteraction.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\HandCommonPosesInteraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,7 +97,7 @@ public:
 
   __declspec(property(get = get_pokePose, put = set_pokePose)) ::UnityEngine::XR::OpenXR::Input::PoseControl* pokePose;
 
-  /// @brief Method FinishSetup, addr 0x69f8da0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6a0081c, size 0xfc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction_HandInteractionPoses* New_ctor();
@@ -126,31 +126,31 @@ public:
 
   constexpr void __cordl_internal_set__pokePose_k__BackingField(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
-  /// @brief Method .ctor, addr 0x69f8e9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a00918, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_devicePose, addr 0x69f8d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePose, addr 0x6a007dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_devicePose();
 
-  /// @brief Method get_pinchPose, addr 0x69f8d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pinchPose, addr 0x6a0080c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pinchPose();
 
-  /// @brief Method get_pointer, addr 0x69f8d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointer, addr 0x6a007ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pointer();
 
-  /// @brief Method get_pokePose, addr 0x69f8d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pokePose, addr 0x6a007fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pokePose();
 
-  /// @brief Method set_devicePose, addr 0x69f8d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePose, addr 0x6a007e4, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
-  /// @brief Method set_pinchPose, addr 0x69f8d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pinchPose, addr 0x6a00814, size 0x8, virtual false, abstract: false, final false
   inline void set_pinchPose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
-  /// @brief Method set_pointer, addr 0x69f8d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointer, addr 0x6a007f4, size 0x8, virtual false, abstract: false, final false
   inline void set_pointer(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
-  /// @brief Method set_pokePose, addr 0x69f8d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pokePose, addr 0x6a00804, size 0x8, virtual false, abstract: false, final false
   inline void set_pokePose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
 protected:
@@ -168,7 +168,7 @@ public:
   HandCommonPosesInteraction_HandInteractionPoses(HandCommonPosesInteraction_HandInteractionPoses const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18571 };
 
   /// @brief Field <devicePose>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Input::PoseControl* ____devicePose_k__BackingField;
@@ -217,16 +217,16 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c* New_ctor();
 
-  /// @brief Method <AddAdditiveActions>b__17_0, addr 0x69f8f14, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <AddAdditiveActions>b__17_0, addr 0x6a00990, size 0xb8, virtual false, abstract: false, final false
   inline bool _AddAdditiveActions_b__17_0(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_DeviceConfig* d);
 
-  /// @brief Method <AddAdditiveActions>b__17_1, addr 0x69f8fcc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <AddAdditiveActions>b__17_1, addr 0x6a00a48, size 0x14, virtual false, abstract: false, final false
   inline bool _AddAdditiveActions_b__17_1(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionConfig* a);
 
-  /// @brief Method <AddAdditiveActions>b__17_2, addr 0x69f8fe0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <AddAdditiveActions>b__17_2, addr 0x6a00a5c, size 0x1c, virtual false, abstract: false, final false
   inline bool _AddAdditiveActions_b__17_2(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionConfig* m);
 
-  /// @brief Method .ctor, addr 0x69f8f10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a0098c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c* getStaticF___9();
@@ -260,7 +260,7 @@ public:
   HandCommonPosesInteraction___c(HandCommonPosesInteraction___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18572 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -284,7 +284,7 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <AddAdditiveActions>b__3, addr 0x69f8ffc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <AddAdditiveActions>b__3, addr 0x6a00a78, size 0xc8, virtual false, abstract: false, final false
   inline bool _AddAdditiveActions_b__3(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding* b);
 
   constexpr ::System::Func_2<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding*, bool>* const& __cordl_internal_get___9__3() const;
@@ -299,7 +299,7 @@ public:
 
   constexpr void __cordl_internal_set_additiveAction(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionConfig* value);
 
-  /// @brief Method .ctor, addr 0x69f8d00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a0077c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -317,7 +317,7 @@ public:
   HandCommonPosesInteraction___c__DisplayClass17_0(HandCommonPosesInteraction___c__DisplayClass17_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18573 };
 
   /// @brief Field additiveAction, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionConfig* ___additiveAction;
@@ -350,34 +350,34 @@ public:
 
   __declspec(property(get = get_IsAdditive)) bool IsAdditive;
 
-  /// @brief Method AddAdditiveActions, addr 0x69f83ec, size 0x914, virtual true, abstract: false, final false
+  /// @brief Method AddAdditiveActions, addr 0x69ffe68, size 0x914, virtual true, abstract: false, final false
   inline void AddAdditiveActions(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>* actionMaps,
                                  ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig* additiveMap);
 
-  /// @brief Method GetDeviceLayoutName, addr 0x69f7988, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDeviceLayoutName, addr 0x69ff404, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetDeviceLayoutName();
 
-  /// @brief Method GetInteractionProfileType, addr 0x69f78d4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetInteractionProfileType, addr 0x69ff350, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_InteractionProfileType GetInteractionProfileType();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::HandCommonPosesInteraction* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x69f76b0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x69ff12c, size 0x6c, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t instance);
 
-  /// @brief Method RegisterActionMapsWithRuntime, addr 0x69f79cc, size 0xa20, virtual true, abstract: false, final false
+  /// @brief Method RegisterActionMapsWithRuntime, addr 0x69ff448, size 0xa20, virtual true, abstract: false, final false
   inline void RegisterActionMapsWithRuntime();
 
-  /// @brief Method RegisterDeviceLayout, addr 0x69f771c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method RegisterDeviceLayout, addr 0x69ff198, size 0x148, virtual true, abstract: false, final false
   inline void RegisterDeviceLayout();
 
-  /// @brief Method UnregisterDeviceLayout, addr 0x69f7864, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method UnregisterDeviceLayout, addr 0x69ff2e0, size 0x70, virtual true, abstract: false, final false
   inline void UnregisterDeviceLayout();
 
-  /// @brief Method .ctor, addr 0x69f8d04, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a00780, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsAdditive, addr 0x69f76a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsAdditive, addr 0x69ff124, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsAdditive();
 
 protected:
@@ -395,7 +395,7 @@ public:
   HandCommonPosesInteraction(HandCommonPosesInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18574 };
 
   /// @brief Field aim offset 0xffffffff size 0x8
   static constexpr ::ConstString aim{ u"/input/aim/pose" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerValueTuple.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerValueTuple.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_impl.hpp"
 #include "UnityEngine/UI/zzzz__Text_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::OnEnable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67ffa20;
+  constexpr static std::size_t addrs = 0x680749c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::*)(bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::OnSelection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67ffa28;
+  constexpr static std::size_t addrs = 0x68074a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::OnDeselection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67ffa60;
+  constexpr static std::size_t addrs = 0x68074dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::SetWidget)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x67ffa8c;
+  constexpr static std::size_t addrs = 0x6807508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::UpdateValueLabels)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x67ffdf4;
+  constexpr static std::size_t addrs = 0x6807870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple*>(),
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::Update)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6800034;
+  constexpr static std::size_t addrs = 0x6807ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple*>(), { "Update", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68000d0;
+  constexpr static std::size_t addrs = 0x6807b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerValueTuple*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/UncNameHelper.hpp"
+// IWYU pragma private; include "System\UncNameHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,10 +21,10 @@ namespace System {
 class CORDL_TYPE UncNameHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x6372718, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x637a194, size 0x2cc, virtual false, abstract: false, final false
   static inline bool IsValid(char16_t* name, uint16_t start, ::by_ref<int32_t> returnedEnd, bool notImplicitFile);
 
-  /// @brief Method ParseCanonicalName, addr 0x6372714, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonicalName, addr 0x637a190, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ::by_ref<bool> loopback);
 
 protected:
@@ -42,7 +42,7 @@ public:
   UncNameHelper(UncNameHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

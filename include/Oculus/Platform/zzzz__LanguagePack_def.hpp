@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/LanguagePack.hpp"
+// IWYU pragma private; include "Oculus\Platform\LanguagePack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE LanguagePack : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent, addr 0x5de5c80, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x5dea13c, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* GetCurrent();
 
-  /// @brief Method SetCurrent, addr 0x5de5dd8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x5dea294, size 0x168, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
 
 protected:
@@ -50,7 +50,7 @@ public:
   LanguagePack(LanguagePack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17960 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlCustomFormatter.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlCustomFormatter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlCustomFormatter_def.hpp"
 #include "System/Xml/Serialization/zzzz__TypeData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int64_t, ::ArrayW<::StringW>, ::ArrayW<int64_t>, ::StringW)>(&::System::Xml::Serialization::XmlCustomFormatter::FromEnum)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x62ec344;
+  constexpr static std::size_t addrs = 0x62f3dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Serialization::XmlCustomFormatter::FromXmlName)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62ec5bc;
+  constexpr static std::size_t addrs = 0x62f4038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Serialization::XmlCustomFormatter::FromXmlNCName)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62ec618;
+  constexpr static std::size_t addrs = 0x62f4094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Xml::Serialization::TypeData*, ::System::Object*)>(&::System::Xml::Serialization::XmlCustomFormatter::ToXmlString)> {
   constexpr static std::size_t size = 0xce0;
-  constexpr static std::size_t addrs = 0x62ec674;
+  constexpr static std::size_t addrs = 0x62f40f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Xml::Serialization::TypeData*, ::StringW)>(&::System::Xml::Serialization::XmlCustomFormatter::FromXmlString)> {
   constexpr static std::size_t size = 0xa98;
-  constexpr static std::size_t addrs = 0x62ed354;
+  constexpr static std::size_t addrs = 0x62f4dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

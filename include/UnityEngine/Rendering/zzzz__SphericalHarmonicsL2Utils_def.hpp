@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SphericalHarmonicsL2Utils.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SphericalHarmonicsL2Utils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,37 +26,37 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE SphericalHarmonicsL2Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCoefficient, addr 0x6791f7c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetCoefficient, addr 0x67999f8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetCoefficient(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, int32_t index);
 
-  /// @brief Method GetL1, addr 0x6791e20, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetL1, addr 0x679989c, size 0x34, virtual false, abstract: false, final false
   static inline void GetL1(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, ::by_ref<::UnityEngine::Vector3> L1_R, ::by_ref<::UnityEngine::Vector3> L1_G, ::by_ref<::UnityEngine::Vector3> L1_B);
 
-  /// @brief Method GetL2, addr 0x6791e54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetL2, addr 0x67998d0, size 0x68, virtual false, abstract: false, final false
   static inline void GetL2(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, ::by_ref<::UnityEngine::Vector3> L2_0, ::by_ref<::UnityEngine::Vector3> L2_1, ::by_ref<::UnityEngine::Vector3> L2_2,
                            ::by_ref<::UnityEngine::Vector3> L2_3, ::by_ref<::UnityEngine::Vector3> L2_4);
 
   static inline ::UnityEngine::Rendering::SphericalHarmonicsL2Utils* New_ctor();
 
-  /// @brief Method SetCoefficient, addr 0x6791f14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetCoefficient, addr 0x6799990, size 0x68, virtual false, abstract: false, final false
   static inline void SetCoefficient(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, int32_t index, ::UnityEngine::Vector3 coefficient);
 
-  /// @brief Method SetL0, addr 0x6791ebc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetL0, addr 0x6799938, size 0x10, virtual false, abstract: false, final false
   static inline void SetL0(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L0);
 
-  /// @brief Method SetL1, addr 0x6791ef0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetL1, addr 0x679996c, size 0x24, virtual false, abstract: false, final false
   static inline void SetL1(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_R, ::UnityEngine::Vector3 L1_G, ::UnityEngine::Vector3 L1_B);
 
-  /// @brief Method SetL1B, addr 0x6791ee4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetL1B, addr 0x6799960, size 0xc, virtual false, abstract: false, final false
   static inline void SetL1B(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_B);
 
-  /// @brief Method SetL1G, addr 0x6791ed8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetL1G, addr 0x6799954, size 0xc, virtual false, abstract: false, final false
   static inline void SetL1G(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_G);
 
-  /// @brief Method SetL1R, addr 0x6791ecc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetL1R, addr 0x6799948, size 0xc, virtual false, abstract: false, final false
   static inline void SetL1R(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2> sh, ::UnityEngine::Vector3 L1_R);
 
-  /// @brief Method .ctor, addr 0x6791fec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6799a68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   SphericalHarmonicsL2Utils(SphericalHarmonicsL2Utils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12162 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ComponentUtility.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ComponentUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ComponentUtility_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::Universal::ComponentUtility::IsUniversalCamera)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6835420;
+  constexpr static std::size_t addrs = 0x683ce9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Light*)>(&::UnityEngine::Rendering::Universal::ComponentUtility::IsUniversalLight)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x68354b4;
+  constexpr static std::size_t addrs = 0x683cf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

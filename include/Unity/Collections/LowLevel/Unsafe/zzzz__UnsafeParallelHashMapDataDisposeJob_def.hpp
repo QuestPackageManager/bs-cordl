@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapDataDisposeJob.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapDataDisposeJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x64c74e8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x64cef64, size 0x10, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -40,7 +40,7 @@ public:
   constexpr UnsafeParallelHashMapDataDisposeJob(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15791 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

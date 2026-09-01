@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonLinqContract.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonLinqContract.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonLinqContract_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonLinqContract::*)(::System::Type*)>(&::Newtonsoft::Json::Serialization::JsonLinqContract::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d38c4c;
+  constexpr static std::size_t addrs = 0x5d3d108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

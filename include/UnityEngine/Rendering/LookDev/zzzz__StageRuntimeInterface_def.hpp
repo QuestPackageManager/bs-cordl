@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LookDev/StageRuntimeInterface.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LookDev\StageRuntimeInterface.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
 
   __declspec(property(get = get_sunLight)) ::UnityW<::UnityEngine::Light> sunLight;
 
-  /// @brief Method AddGameObject, addr 0x67f6744, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddGameObject, addr 0x67fe1c0, size 0x24, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> AddGameObject(bool persistent);
 
   static inline ::UnityEngine::Rendering::LookDev::StageRuntimeInterface* New_ctor(::System::Func_2<bool, ::UnityW<::UnityEngine::GameObject>>* AddGameObject,
@@ -84,14 +84,14 @@ public:
 
   constexpr void __cordl_internal_set_m_GetSunLight(::System::Func_1<::UnityW<::UnityEngine::Light>>* value);
 
-  /// @brief Method .ctor, addr 0x67f6738, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fe1b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<bool, ::UnityW<::UnityEngine::GameObject>>* AddGameObject, ::System::Func_1<::UnityW<::UnityEngine::Camera>>* GetCamera,
                     ::System::Func_1<::UnityW<::UnityEngine::Light>>* GetSunLight);
 
-  /// @brief Method get_camera, addr 0x67f6768, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x67fe1e4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// @brief Method get_sunLight, addr 0x67f6788, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_sunLight, addr 0x67fe204, size 0x20, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Light> get_sunLight();
 
 protected:
@@ -109,7 +109,7 @@ public:
   StageRuntimeInterface(StageRuntimeInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12506 };
 
   /// @brief Field m_AddGameObject, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<bool, ::UnityW<::UnityEngine::GameObject>>* ___m_AddGameObject;

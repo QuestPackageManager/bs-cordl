@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/PrefabControlPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\PrefabControlPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__PrefabControlPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::PrefabControlPlayable*> (*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Transform*)>(&::UnityEngine::Timeline::PrefabControlPlayable::Create)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x69c1cc4;
+  constexpr static std::size_t addrs = 0x69c9740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Timeline::PrefabControlPlayable::*)()>(
     &::UnityEngine::Timeline::PrefabControlPlayable::get_prefabInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20a4;
+  constexpr static std::size_t addrs = 0x69c9b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::PrefabControlPlayable*>(), { "get_prefabInstance", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Timeline::PrefabControlPlayable::*)(::UnityEngine::GameObject*, ::UnityEngine::Transform*)>(
     &::UnityEngine::Timeline::PrefabControlPlayable::Initialize)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x69c1e18;
+  constexpr static std::size_t addrs = 0x69c9894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::PrefabControlPlayable::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::PrefabControlPlayable::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69c2410;
+  constexpr static std::size_t addrs = 0x69c9e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::PrefabControlPlayable::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::PrefabControlPlayable::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69c250c;
+  constexpr static std::size_t addrs = 0x69c9f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::PrefabControlPlayable::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::PrefabControlPlayable::OnBehaviourPause)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69c2598;
+  constexpr static std::size_t addrs = 0x69ca014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::PrefabControlPlayable::SetHideFlagsRecursive)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x69c20ac;
+  constexpr static std::size_t addrs = 0x69c9b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::PrefabControlPlayable::*)()>(&::UnityEngine::Timeline::PrefabControlPlayable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69c2640;
+  constexpr static std::size_t addrs = 0x69ca0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::PrefabControlPlayable*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/X509Pal.hpp"
+// IWYU pragma private; include "Mono\X509Pal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/zzzz__X509Pal_def.hpp"
 #include "Mono/zzzz__X509PalImpl_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::X509PalImpl* (*)()>(&::Mono::X509Pal::get_Instance)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5fc8930;
+  constexpr static std::size_t addrs = 0x5fd03ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::X509Pal*>(), { "get_Instance", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/XPath/Variable.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\XPath\Variable.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Variable_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Variable::*)(::StringW, ::StringW)>(&::MS::Internal::Xml::XPath::Variable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x626f4bc;
+  constexpr static std::size_t addrs = 0x6276f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::Variable::*)()>(&::MS::Internal::Xml::XPath::Variable::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x626f4c4;
+  constexpr static std::size_t addrs = 0x6276f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Variable::*)()>(&::MS::Internal::Xml::XPath::Variable::get_ReturnType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x626f4cc;
+  constexpr static std::size_t addrs = 0x6276f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

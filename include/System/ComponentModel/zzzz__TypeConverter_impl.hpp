@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/TypeConverter.hpp"
+// IWYU pragma private; include "System\ComponentModel\TypeConverter.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)(::System::Type*, ::StringW, ::System::Type*)>(
     &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63d5d48;
+  constexpr static std::size_t addrs = 0x63dd7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)(
     ::System::Type*, ::StringW, ::System::Type*, ::ArrayW<::System::Attribute*>)>(&::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63d5dc8;
+  constexpr static std::size_t addrs = 0x63dd844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)()>(
     &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d5df8;
+  constexpr static std::size_t addrs = 0x63dd874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)()>(
     &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x63d5e00;
+  constexpr static std::size_t addrs = 0x63dd87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)()>(
     &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d5e88;
+  constexpr static std::size_t addrs = 0x63dd904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x63d5e90;
+  constexpr static std::size_t addrs = 0x63dd90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x63d5fcc;
+  constexpr static std::size_t addrs = 0x63dda48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d60f0;
+  constexpr static std::size_t addrs = 0x63ddb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>(),
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)(::System::Collections::ICollection*)>(
     &::System::ComponentModel::TypeConverter_StandardValuesCollection::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x63c6780;
+  constexpr static std::size_t addrs = 0x63ce1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter_StandardValuesCollection*>(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
     &::System::ComponentModel::TypeConverter_StandardValuesCollection::get_Count)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x63d60f8;
+  constexpr static std::size_t addrs = 0x63ddb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)(int32_t)>(
     &::System::ComponentModel::TypeConverter_StandardValuesCollection::get_Item)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x63d61b8;
+  constexpr static std::size_t addrs = 0x63ddc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)(::System::Array*, int32_t)>(
     &::System::ComponentModel::TypeConverter_StandardValuesCollection::CopyTo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x63d63b4;
+  constexpr static std::size_t addrs = 0x63dde30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter_StandardValuesCollection*>(),
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
     &::System::ComponentModel::TypeConverter_StandardValuesCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x63d6470;
+  constexpr static std::size_t addrs = 0x63ddeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
     &::System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_get_Count)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63d6514;
+  constexpr static std::size_t addrs = 0x63ddf90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
     &::System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d6518;
+  constexpr static std::size_t addrs = 0x63ddf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
     &::System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d6520;
+  constexpr static std::size_t addrs = 0x63ddf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)(::System::Array*, int32_t)>(
     &::System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63d6528;
+  constexpr static std::size_t addrs = 0x63ddfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
     &::System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63d652c;
+  constexpr static std::size_t addrs = 0x63ddfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::ComponentModel::TypeConverter::get_UseCompatibleTypeConversion)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63d521c;
+  constexpr static std::size_t addrs = 0x63dcc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::Type*)>(&::System::ComponentModel::TypeConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63d526c;
+  constexpr static std::size_t addrs = 0x63dcce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::ComponentModel::TypeConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x63c3de4;
+  constexpr static std::size_t addrs = 0x63cb860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::Type*)>(&::System::ComponentModel::TypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63d5280;
+  constexpr static std::size_t addrs = 0x63dccfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::ComponentModel::TypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x63c3ed8;
+  constexpr static std::size_t addrs = 0x63cb954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -519,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(&::System::ComponentModel::TypeConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63d5294;
+  constexpr static std::size_t addrs = 0x63dcd10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -534,7 +534,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::TypeConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x63c4270;
+  constexpr static std::size_t addrs = 0x63cbcec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::StringW)>(
     &::System::ComponentModel::TypeConverter::ConvertFromInvariantString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63d5434;
+  constexpr static std::size_t addrs = 0x63dceb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::StringW)>(
     &::System::ComponentModel::TypeConverter::ConvertFromInvariantString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63d54c0;
+  constexpr static std::size_t addrs = 0x63dcf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::StringW)>(&::System::ComponentModel::TypeConverter::ConvertFromString)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x63d5544;
+  constexpr static std::size_t addrs = 0x63dcfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::StringW)>(
     &::System::ComponentModel::TypeConverter::ConvertFromString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63d555c;
+  constexpr static std::size_t addrs = 0x63dcfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -606,7 +606,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::StringW)>(
         &::System::ComponentModel::TypeConverter::ConvertFromString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63d54b4;
+  constexpr static std::size_t addrs = 0x63dcf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -624,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::TypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x63d55e0;
+  constexpr static std::size_t addrs = 0x63dd05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter*>(),
@@ -639,7 +639,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                       ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::TypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x63c3320;
+  constexpr static std::size_t addrs = 0x63cad9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -652,7 +652,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(&::System::ComponentModel::TypeConverter::ConvertToInvariantString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x63d5760;
+  constexpr static std::size_t addrs = 0x63dd1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -666,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(
     &::System::ComponentModel::TypeConverter::ConvertToInvariantString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x63c6260;
+  constexpr static std::size_t addrs = 0x63cdcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -680,7 +680,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(&::System::ComponentModel::TypeConverter::ConvertToString)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x63d586c;
+  constexpr static std::size_t addrs = 0x63dd2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -694,7 +694,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(
     &::System::ComponentModel::TypeConverter::ConvertToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x63d5940;
+  constexpr static std::size_t addrs = 0x63dd3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -709,7 +709,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*,
                                                                                                               ::System::Object*)>(&::System::ComponentModel::TypeConverter::ConvertToString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x63d57d8;
+  constexpr static std::size_t addrs = 0x63dd254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter*>(),
@@ -726,7 +726,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::Collections::IDictionary*)>(
     &::System::ComponentModel::TypeConverter::CreateInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63d5a18;
+  constexpr static std::size_t addrs = 0x63dd494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -740,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Collections::IDictionary*)>(&::System::ComponentModel::TypeConverter::CreateInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d5a2c;
+  constexpr static std::size_t addrs = 0x63dd4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -754,7 +754,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverter::GetConvertFromException)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x63d5314;
+  constexpr static std::size_t addrs = 0x63dcd90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -768,7 +768,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::ComponentModel::TypeConverter::*)(::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::TypeConverter::GetConvertToException)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x63d55fc;
+  constexpr static std::size_t addrs = 0x63dd078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -782,7 +782,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)()>(&::System::ComponentModel::TypeConverter::GetCreateInstanceSupported)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x63d5a34;
+  constexpr static std::size_t addrs = 0x63dd4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter*>(), { "GetCreateInstanceSupported", {}, {} })));
@@ -795,7 +795,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::TypeConverter::GetCreateInstanceSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d5a44;
+  constexpr static std::size_t addrs = 0x63dd4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverter::GetProperties)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63d5a4c;
+  constexpr static std::size_t addrs = 0x63dd4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -823,7 +823,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(&::System::ComponentModel::TypeConverter::GetProperties)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x63d5a58;
+  constexpr static std::size_t addrs = 0x63dd4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -839,7 +839,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel:
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*, ::ArrayW<::System::Attribute*>)>(
     &::System::ComponentModel::TypeConverter::GetProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d5b48;
+  constexpr static std::size_t addrs = 0x63dd5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -852,7 +852,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)()>(&::System::ComponentModel::TypeConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x63d5b50;
+  constexpr static std::size_t addrs = 0x63dd5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter*>(), { "GetPropertiesSupported", {}, {} })));
@@ -865,7 +865,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::TypeConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d5b60;
+  constexpr static std::size_t addrs = 0x63dd5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -879,7 +879,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::ComponentModel::TypeConverter::*)()>(
     &::System::ComponentModel::TypeConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x63d5b68;
+  constexpr static std::size_t addrs = 0x63dd5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter*>(), { "GetStandardValues", {}, {} })));
@@ -892,7 +892,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::ComponentModel::TypeConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d5b78;
+  constexpr static std::size_t addrs = 0x63dd5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -905,7 +905,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)()>(&::System::ComponentModel::TypeConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63d5b80;
+  constexpr static std::size_t addrs = 0x63dd5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter*>(), { "GetStandardValuesExclusive", {}, {} })));
@@ -918,7 +918,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::TypeConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d5b94;
+  constexpr static std::size_t addrs = 0x63dd610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -931,7 +931,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)()>(&::System::ComponentModel::TypeConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63d5b9c;
+  constexpr static std::size_t addrs = 0x63dd618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter*>(), { "GetStandardValuesSupported", {}, {} })));
@@ -944,7 +944,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::TypeConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63d5bb0;
+  constexpr static std::size_t addrs = 0x63dd62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -957,7 +957,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(&::System::ComponentModel::TypeConverter::IsValid)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x63d5bb8;
+  constexpr static std::size_t addrs = 0x63dd634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -971,7 +971,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(
     &::System::ComponentModel::TypeConverter::IsValid)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x63d5bd0;
+  constexpr static std::size_t addrs = 0x63dd64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -985,7 +985,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::PropertyDescriptorCollection*, ::ArrayW<::StringW>)>(&::System::ComponentModel::TypeConverter::SortProperties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63d5d10;
+  constexpr static std::size_t addrs = 0x63dd78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -999,7 +999,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::TypeConverter::*)()>(&::System::ComponentModel::TypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63c3528;
+  constexpr static std::size_t addrs = 0x63cafa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::TypeConverter*>(), { ".ctor", {}, {} })));

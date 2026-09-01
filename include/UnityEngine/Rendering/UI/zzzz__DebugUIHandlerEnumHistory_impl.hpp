@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerEnumHistory.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerEnumHistory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerEnumField_impl.hpp"
 #include "UnityEngine/UI/zzzz__Text_impl.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::*)(int32_t)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67fb4d8;
+  constexpr static std::size_t addrs = 0x6802f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67fb4e4;
+  constexpr static std::size_t addrs = 0x6802f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::MoveNext)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x67fb4e8;
+  constexpr static std::size_t addrs = 0x6802f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67fb5d8;
+  constexpr static std::size_t addrs = 0x6803054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67fb5e0;
+  constexpr static std::size_t addrs = 0x680305c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4*>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67fb618;
+  constexpr static std::size_t addrs = 0x6803094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory__RefreshAfterSanitization_d__4*>(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory::SetWidget)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x67fafd4;
+  constexpr static std::size_t addrs = 0x6802a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory*>(),
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory::UpdateValueLabel)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x67fb260;
+  constexpr static std::size_t addrs = 0x6802cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory*>(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory::RefreshAfterSanitization)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x67fb484;
+  constexpr static std::size_t addrs = 0x6802f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67fb4e0;
+  constexpr static std::size_t addrs = 0x6802f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerEnumHistory*>(), { ".ctor", {}, {} })));

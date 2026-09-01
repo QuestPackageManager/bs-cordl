@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRAutoDestroyInMRC.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRAutoDestroyInMRC.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRAutoDestroyInMRC_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRAutoDestroyInMRC.Start
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAutoDestroyInMRC::*)()>(&::GlobalNamespace::OVRAutoDestroyInMRC::Start)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5eed4d4;
+  constexpr static std::size_t addrs = 0x5ef1990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAutoDestroyInMRC*>(), { "Start", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAutoDestroyInMRC::*)()>(&::GlobalNamespace::OVRAutoDestroyInMRC::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5eed5ec;
+  constexpr static std::size_t addrs = 0x5ef1aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAutoDestroyInMRC*>(), { ".ctor", {}, {} })));

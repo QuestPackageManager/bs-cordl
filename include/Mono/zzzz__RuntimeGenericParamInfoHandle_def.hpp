@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/RuntimeGenericParamInfoHandle.hpp"
+// IWYU pragma private; include "Mono\RuntimeGenericParamInfoHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,19 +37,19 @@ public:
 
   __declspec(property(get = get_Constraints)) ::ArrayW<::System::Type*> Constraints;
 
-  /// @brief Method GetConstraints, addr 0x5aa9608, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetConstraints, addr 0x5aadac4, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> GetConstraints();
 
-  /// @brief Method GetConstraintsCount, addr 0x5aa9730, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetConstraintsCount, addr 0x5aadbec, size 0x40, virtual false, abstract: false, final false
   inline int32_t GetConstraintsCount();
 
-  /// @brief Method .ctor, addr 0x5aa95fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aadab8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Attributes, addr 0x5aa9718, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x5aadbd4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Reflection::GenericParameterAttributes get_Attributes();
 
-  /// @brief Method get_Constraints, addr 0x5aa9604, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Constraints, addr 0x5aadac0, size 0x4, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_Constraints();
 
   // Ctor Parameters []

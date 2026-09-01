@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "VRUIControls/ButtonState.hpp"
+// IWYU pragma private; include "VRUIControls\ButtonState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_impl.hpp"
 #include "VRUIControls/zzzz__ButtonState_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::VRUIControls::MouseButtonEventData* (::VRUIControls::ButtonState::*)()>(&::VRUIControls::ButtonState::get_eventData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e32a1c;
+  constexpr static std::size_t addrs = 0x6e3a5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::ButtonState*>(), { "get_eventData", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::ButtonState::*)(::VRUIControls::MouseButtonEventData*)>(&::VRUIControls::ButtonState::set_eventData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e32a24;
+  constexpr static std::size_t addrs = 0x6e3a5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSystems::PointerEventData_InputButton (::VRUIControls::ButtonState::*)()>(&::VRUIControls::ButtonState::get_button)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e32a2c;
+  constexpr static std::size_t addrs = 0x6e3a5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::ButtonState*>(), { "get_button", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::ButtonState::*)(::UnityEngine::EventSystems::PointerEventData_InputButton)>(&::VRUIControls::ButtonState::set_button)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e32a34;
+  constexpr static std::size_t addrs = 0x6e3a5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::VRUIControls::ButtonState::*)()>(&::VRUIControls::ButtonState::get_pressedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e32a3c;
+  constexpr static std::size_t addrs = 0x6e3a5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::ButtonState*>(), { "get_pressedValue", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::ButtonState::*)(float_t)>(&::VRUIControls::ButtonState::set_pressedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e32a44;
+  constexpr static std::size_t addrs = 0x6e3a5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::ButtonState::*)()>(&::VRUIControls::ButtonState::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e32a4c;
+  constexpr static std::size_t addrs = 0x6e3a5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::ButtonState*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SelectRegionViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SelectRegionViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +56,10 @@ public:
 
   static inline ::GlobalNamespace::SelectRegionViewController___c* New_ctor();
 
-  /// @brief Method <DidActivate>b__3_1, addr 0x5964304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__3_1, addr 0x5967bfc, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _DidActivate_b__3_1(::GlobalNamespace::RegionToLocalizationKeyPair p);
 
-  /// @brief Method .ctor, addr 0x5964300, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5967bf8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SelectRegionViewController___c* getStaticF___9();
@@ -85,7 +85,7 @@ public:
   SelectRegionViewController___c(SelectRegionViewController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -112,18 +112,18 @@ public:
   /// @brief Field _regionSelectionDropdown, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__regionSelectionDropdown, put = __cordl_internal_set__regionSelectionDropdown)) ::UnityW<::HMUI::SimpleTextDropdown> _regionSelectionDropdown;
 
-  /// @brief Method DidActivate, addr 0x5963e78, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5967770, size 0x248, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleRegionSelectionDropdownDidSelectCell, addr 0x59641a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleRegionSelectionDropdownDidSelectCell, addr 0x5967aa0, size 0x44, virtual false, abstract: false, final false
   inline void HandleRegionSelectionDropdownDidSelectCell(::HMUI::DropdownWithTableView* dropdown, int32_t idx);
 
   static inline ::GlobalNamespace::SelectRegionViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59640c0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59679b8, size 0xe8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <DidActivate>b__3_0, addr 0x5964230, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__3_0, addr 0x5967b28, size 0x7c, virtual false, abstract: false, final false
   inline void _DidActivate_b__3_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__regionSelectionDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  /// @brief Method .ctor, addr 0x59641ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5967ae4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   SelectRegionViewController(SelectRegionViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6994 };
 
   /// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;

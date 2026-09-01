@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlStringAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlStringAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlStringAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6cb6870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6cbe3f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _GetValueFromBag_b__3_0(::StringW s, ::StringW t);
 
-  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x6cb6878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x6cbe3fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _TryGetValueFromBag_b__4_0(::StringW s, ::StringW t);
 
-  /// @brief Method .ctor, addr 0x6cb686c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbe3f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlStringAttributeDescription___c* getStaticF___9();
@@ -102,15 +102,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlStringAttributeDescription___c;
 
-  /// @brief Method GetValueFromBag, addr 0x6cb64d4, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x6cbe058, size 0x198, virtual true, abstract: false, final false
   inline ::StringW GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlStringAttributeDescription* New_ctor();
 
-  /// @brief Method TryGetValueFromBag, addr 0x6cb666c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueFromBag, addr 0x6cbe1f0, size 0x1ac, virtual false, abstract: false, final false
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::by_ref<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6caacb0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb2834, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

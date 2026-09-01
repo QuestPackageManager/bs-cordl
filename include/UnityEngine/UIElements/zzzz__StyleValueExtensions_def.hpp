@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleValueExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleValueExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,22 +53,22 @@ public:
   /// @brief Method DebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
 
-  /// @brief Method ToLayoutValue, addr 0x6c8d16c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ToLayoutValue, addr 0x6c94cf0, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutValue ToLayoutValue(::UnityEngine::UIElements::Length length);
 
-  /// @brief Method ToLength, addr 0x6c8d2d0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x6c94e54, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToLength, addr 0x6c8d798, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x6c9531c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
 
-  /// @brief Method ToRotate, addr 0x6c8d3e0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ToRotate, addr 0x6c94f64, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToScale, addr 0x6c8d548, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ToScale, addr 0x6c950cc, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToTranslate, addr 0x6c8d654, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ToTranslate, addr 0x6c951d8, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
 
 protected:

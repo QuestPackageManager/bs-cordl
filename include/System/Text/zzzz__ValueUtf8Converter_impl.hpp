@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/ValueUtf8Converter.hpp"
+// IWYU pragma private; include "System\Text\ValueUtf8Converter.hpp"
 #include "System/zzzz__Span_1_impl.hpp"
 #include "System/Text/zzzz__ValueUtf8Converter_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::ValueUtf8Converter::*)(::System::Span_1<uint8_t>)>(&::System::Text::ValueUtf8Converter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ae3640;
+  constexpr static std::size_t addrs = 0x5ae7afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Span_1<uint8_t> (::System::Text::ValueUtf8Converter::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::Text::ValueUtf8Converter::ConvertAndTerminateString)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x5ae364c;
+  constexpr static std::size_t addrs = 0x5ae7b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::ValueUtf8Converter::*)()>(&::System::Text::ValueUtf8Converter::Dispose)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5ae3934;
+  constexpr static std::size_t addrs = 0x5ae7df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::ValueUtf8Converter>(), { "Dispose", {}, {} })));

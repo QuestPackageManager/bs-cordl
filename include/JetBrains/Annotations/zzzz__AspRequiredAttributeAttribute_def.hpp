@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/AspRequiredAttributeAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\AspRequiredAttributeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__Attribute_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e366b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e234, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW attribute);
 
-  /// @brief Method get_Attribute, addr 0x6e366b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attribute, addr 0x6e3e23c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Attribute();
 
-  /// @brief Method set_Attribute, addr 0x6e366c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Attribute, addr 0x6e3e244, size 0x8, virtual false, abstract: false, final false
   inline void set_Attribute(::StringW value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   AspRequiredAttributeAttribute(AspRequiredAttributeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22600 };
 
   /// @brief Field <Attribute>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Attribute_k__BackingField;

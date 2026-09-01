@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/EventSystems/BaseRaycaster.hpp"
+// IWYU pragma private; include "UnityEngine\EventSystems\BaseRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,22 +48,22 @@ public:
 
   static inline ::UnityEngine::EventSystems::BaseRaycaster* New_ctor();
 
-  /// @brief Method OnCanvasHierarchyChanged, addr 0x6e1b9b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x6e2353c, size 0x8, virtual true, abstract: false, final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method OnDisable, addr 0x6e1b960, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6e234e4, size 0x58, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6e1b908, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6e2348c, size 0x58, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTransformParentChanged, addr 0x6e1b9c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x6e23548, size 0x8, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
   /// @brief Method Raycast, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method ToString, addr 0x6e1b72c, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e232b0, size 0x1dc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> const& __cordl_internal_get_m_RootRaycaster() const;
@@ -72,22 +72,22 @@ public:
 
   constexpr void __cordl_internal_set_m_RootRaycaster(::UnityW<::UnityEngine::EventSystems::BaseRaycaster> value);
 
-  /// @brief Method .ctor, addr 0x6e10208, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e17d8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_eventCamera, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_priority, addr 0x6e1b714, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_priority, addr 0x6e23298, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_priority();
 
-  /// @brief Method get_renderOrderPriority, addr 0x6e1b724, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderOrderPriority, addr 0x6e232a8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_renderOrderPriority();
 
-  /// @brief Method get_rootRaycaster, addr 0x6e12018, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_rootRaycaster, addr 0x6e19b9c, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> get_rootRaycaster();
 
-  /// @brief Method get_sortOrderPriority, addr 0x6e1b71c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x6e232a0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
 protected:
@@ -105,7 +105,7 @@ public:
   BaseRaycaster(BaseRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17578 };
 
   /// @brief Field m_RootRaycaster, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> ___m_RootRaycaster;

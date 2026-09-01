@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/PreferredAlgorithms.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Sig\PreferredAlgorithms.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Sig/zzzz__PreferredAlgorithms_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacketTag_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<int32_t>)>(&::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::IntToByteArray)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x36914f0;
+  constexpr static std::size_t addrs = 0x36952b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::*)(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, bool, bool, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3691594;
+  constexpr static std::size_t addrs = 0x3695354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::*)(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, bool, ::ArrayW<int32_t>)>(
     &::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x36915a8;
+  constexpr static std::size_t addrs = 0x3695368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::GetPreferences)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x36915e0;
+  constexpr static std::size_t addrs = 0x36953a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms*>(), { "GetPreferences", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ReceiverSphereCuller.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ReceiverSphereCuller.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Mathematics/zzzz__float3x3_impl.hpp"
 #include "Unity/Mathematics/zzzz__float4_impl.hpp"
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ReceiverSphereCuller (*)(::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::ReceiverSphereCuller::CreateEmptyForTesting)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6808f2c;
+  constexpr static std::size_t addrs = 0x68109a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ReceiverSphereCuller::*)(::Unity::Jobs::JobHandle)>(&::UnityEngine::Rendering::ReceiverSphereCuller::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6808fd0;
+  constexpr static std::size_t addrs = 0x6810a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ReceiverSphereCuller::*)()>(&::UnityEngine::Rendering::ReceiverSphereCuller::UseReceiverPlanes)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6808c7c;
+  constexpr static std::size_t addrs = 0x68106f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(), { "UseReceiverPlanes", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ReceiverSphereCuller (*)(::by_ref<::UnityEngine::Rendering::BatchCullingContext>, ::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::ReceiverSphereCuller::Create)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x6809034;
+  constexpr static std::size_t addrs = 0x6810ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3, float_t, ::UnityEngine::Plane)>(
     &::UnityEngine::Rendering::ReceiverSphereCuller::DistanceUntilCylinderFullyCrossesPlane)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6809264;
+  constexpr static std::size_t addrs = 0x6810ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverSphereCuller>(),
@@ -100,7 +100,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<uint32_t (*)(::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ReceiverSphereCuller_SplitInfo>,
                              ::Unity::Mathematics::float3x3, ::by_ref<::UnityEngine::Rendering::AABB>)>(&::UnityEngine::Rendering::ReceiverSphereCuller::ComputeSplitVisibilityMask)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6809390;
+  constexpr static std::size_t addrs = 0x6810e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

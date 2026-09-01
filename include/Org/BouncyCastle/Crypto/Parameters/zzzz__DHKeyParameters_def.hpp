@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/DHKeyParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\DHKeyParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ public:
   /// @brief Field parameters, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters;
 
-  /// @brief Method Equals, addr 0x3409bf8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x340d9b8, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3409ca4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x340da64, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x3409d10, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x340dad0, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
 
-  /// @brief Method .ctor, addr 0x3409b60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340d920, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x3409bdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340d99c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method get_AlgorithmOid, addr 0x3409bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmOid, addr 0x340d9b0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AlgorithmOid();
 
-  /// @brief Method get_Parameters, addr 0x3409be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x340d9a8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
 
 protected:

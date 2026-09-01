@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/StringBuilderCache.hpp"
+// IWYU pragma private; include "System\Text\StringBuilderCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +27,13 @@ public:
   /// @brief Field t_cachedInstance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_t_cachedInstance, put = setStaticF_t_cachedInstance)) ::System::Text::StringBuilder* t_cachedInstance;
 
-  /// @brief Method Acquire, addr 0x61a053c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x61a7fb8, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* Acquire(int32_t capacity);
 
-  /// @brief Method GetStringAndRelease, addr 0x61a0660, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetStringAndRelease, addr 0x61a80dc, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetStringAndRelease(::System::Text::StringBuilder* sb);
 
-  /// @brief Method Release, addr 0x61a44e4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x61abf60, size 0xb8, virtual false, abstract: false, final false
   static inline void Release(::System::Text::StringBuilder* sb);
 
   static inline ::System::Text::StringBuilder* getStaticF_t_cachedInstance();
@@ -55,7 +55,7 @@ public:
   StringBuilderCache(StringBuilderCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

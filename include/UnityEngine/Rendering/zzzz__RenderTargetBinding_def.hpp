@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderTargetBinding.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderTargetBinding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,25 +50,25 @@ public:
 
   __declspec(property(get = get_flags)) ::UnityEngine::Rendering::RenderTargetFlags flags;
 
-  /// @brief Method get_colorLoadActions, addr 0x6b022e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorLoadActions, addr 0x6b09d00, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderBufferLoadAction> get_colorLoadActions();
 
-  /// @brief Method get_colorRenderTargets, addr 0x6b022c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorRenderTargets, addr 0x6b09ce0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> get_colorRenderTargets();
 
-  /// @brief Method get_colorStoreActions, addr 0x6b022f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorStoreActions, addr 0x6b09d08, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderBufferStoreAction> get_colorStoreActions();
 
-  /// @brief Method get_depthLoadAction, addr 0x6b022f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthLoadAction, addr 0x6b09d10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderBufferLoadAction get_depthLoadAction();
 
-  /// @brief Method get_depthRenderTarget, addr 0x6b022d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_depthRenderTarget, addr 0x6b09ce8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_depthRenderTarget();
 
-  /// @brief Method get_depthStoreAction, addr 0x6b02300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthStoreAction, addr 0x6b09d18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderBufferStoreAction get_depthStoreAction();
 
-  /// @brief Method get_flags, addr 0x6b02308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x6b09d20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetFlags get_flags();
 
   // Ctor Parameters []
@@ -87,7 +87,7 @@ public:
                                 ::UnityEngine::Rendering::RenderTargetFlags m_Flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10736 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

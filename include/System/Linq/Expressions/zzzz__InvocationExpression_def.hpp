@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/InvocationExpression.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\InvocationExpression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,15 +54,15 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method Accept, addr 0x5f7e0a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x5f85b1c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetArgument, addr 0x5f7e050, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x5f85acc, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
 
-  /// @brief Method Rewrite, addr 0x5f7e0c4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x5f85b40, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda, ::ArrayW<::System::Linq::Expressions::Expression*> arguments);
 
   constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Expression_k__BackingField() const;
@@ -77,19 +77,19 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5f7dfd0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f85a4c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
 
-  /// @brief Method get_ArgumentCount, addr 0x5f7e078, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x5f85af4, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Expression, addr 0x5f7e048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x5f85ac4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
-  /// @brief Method get_NodeType, addr 0x5f7e040, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x5f85abc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x5f7e038, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x5f85ab4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -110,7 +110,7 @@ public:
   InvocationExpression(InvocationExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16173 };
 
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;

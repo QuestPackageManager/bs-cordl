@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Switch.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Switch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,16 +48,16 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Switch* New_ctor();
 
-  /// @brief Method OnStateChanged, addr 0x5a59cd0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnStateChanged, addr 0x5a5e18c, size 0x5c, virtual false, abstract: false, final false
   inline void OnStateChanged();
 
-  /// @brief Method SetToggleIcons, addr 0x5a59d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetToggleIcons, addr 0x5a5e23c, size 0x8, virtual false, abstract: false, final false
   inline void SetToggleIcons(::UnityEngine::Texture2D* onState, ::UnityEngine::Texture2D* offState);
 
-  /// @brief Method Start, addr 0x5a59d3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a5e1f8, size 0x44, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateIcon, addr 0x5a59d88, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method UpdateIcon, addr 0x5a5e244, size 0x16c, virtual true, abstract: false, final false
   inline void UpdateIcon();
 
   constexpr ::System::Action_1<bool>* const& __cordl_internal_get__StateChanged_k__BackingField() const;
@@ -84,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set__toggleIconOn(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x5a59ef4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5e3b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_State, addr 0x5a59be8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x5a5e0a4, size 0xac, virtual false, abstract: false, final false
   inline bool get_State();
 
-  /// @brief Method get_StateChanged, addr 0x5a59d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StateChanged, addr 0x5a5e1e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<bool>* get_StateChanged();
 
-  /// @brief Method get_Tweak, addr 0x5a59bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tweak, addr 0x5a5e094, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* get_Tweak();
 
-  /// @brief Method set_State, addr 0x5a59c94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_State, addr 0x5a5e150, size 0x3c, virtual false, abstract: false, final false
   inline void set_State(bool value);
 
-  /// @brief Method set_StateChanged, addr 0x5a59d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StateChanged, addr 0x5a5e1f0, size 0x8, virtual false, abstract: false, final false
   inline void set_StateChanged(::System::Action_1<bool>* value);
 
-  /// @brief Method set_Tweak, addr 0x5a59be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Tweak, addr 0x5a5e09c, size 0x8, virtual false, abstract: false, final false
   inline void set_Tweak(::Meta::XR::ImmersiveDebugger::Manager::Tweak* value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   Switch(Switch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18407 };
 
   /// @brief Field _toggleIconOn, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____toggleIconOn;

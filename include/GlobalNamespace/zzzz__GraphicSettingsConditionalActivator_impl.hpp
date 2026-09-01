@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GraphicSettingsConditionalActivator.hpp"
+// IWYU pragma private; include "GlobalNamespace\GraphicSettingsConditionalActivator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsConditionalActivator_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GraphicSettingsConditionalActivator::*)()>(&::GlobalNamespace::GraphicSettingsConditionalActivator::Start)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58fdcac;
+  constexpr static std::size_t addrs = 0x5901274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GraphicSettingsConditionalActivator*>(), { "Start", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GraphicSettingsConditionalActivator::*)()>(
     &::GlobalNamespace::GraphicSettingsConditionalActivator::GetGraphicsActivatorType)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x58fdcfc;
+  constexpr static std::size_t addrs = 0x59012c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GraphicSettingsConditionalActivator::*)()>(&::GlobalNamespace::GraphicSettingsConditionalActivator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58fdd9c;
+  constexpr static std::size_t addrs = 0x5901364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GraphicSettingsConditionalActivator*>(), { ".ctor", {}, {} })));

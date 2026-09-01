@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Oculus/Entitlements.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Oculus\Entitlements.hpp"
 #include "OculusStudios/Platform/Core/zzzz__Vendor_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::Entitlements___c::*)()>(&::OculusStudios::Platform::Oculus::Entitlements___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2cc64;
+  constexpr static std::size_t addrs = 0x5f31124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::Entitlements___c*>(), { ".ctor", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Oculus::Entitlements___c::*)(::Oculus::Platform::Models::Purchase*)>(
     &::OculusStudios::Platform::Oculus::Entitlements___c::_GetAllProductsAsync_b__5_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f2cc68;
+  constexpr static std::size_t addrs = 0x5f31128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::Entitlements___c*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Oculus::Entitlements___c::*)(::OculusStudios::Platform::Core::Product*)>(
     &::OculusStudios::Platform::Oculus::Entitlements___c::_GetAllProductsAsync_b__5_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f2cc7c;
+  constexpr static std::size_t addrs = 0x5f3113c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::Entitlements___c*>(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_0::*)()>(
     &::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2cc94;
+  constexpr static std::size_t addrs = 0x5f31154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::OculusStudios::Platform::Core::Product* (::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_0::*)(::OculusStudios::Platform::Core::IProductDefinition*)>(
         &::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_0::_GetAllProductsAsync_b__3)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5f2cc98;
+  constexpr static std::size_t addrs = 0x5f31158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_1::*)()>(
     &::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2cd74;
+  constexpr static std::size_t addrs = 0x5f31234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_1::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Oculus::Platform::Models::Purchase*>)>(
         &::OculusStudios::Platform::Oculus::Entitlements___c__DisplayClass5_1::_GetAllProductsAsync_b__2)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5f2cd78;
+  constexpr static std::size_t addrs = 0x5f31238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,8 +245,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::Entitlements__GetAllProductsAsync_d__5::*)()>(
     &::OculusStudios::Platform::Oculus::Entitlements__GetAllProductsAsync_d__5::MoveNext)> {
-  constexpr static std::size_t size = 0xff4;
-  constexpr static std::size_t addrs = 0x5f2cdd8;
+  constexpr static std::size_t size = 0xfd8;
+  constexpr static std::size_t addrs = 0x5f31298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::Entitlements__GetAllProductsAsync_d__5::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OculusStudios::Platform::Oculus::Entitlements__GetAllProductsAsync_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f2de70;
+  constexpr static std::size_t addrs = 0x5f32314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::Entitlements__GetAllProductsAsync_d__5>(),
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::Entitlements::*)(::OculusStudios::Platform::Core::PlatformInitParams*)>(
     &::OculusStudios::Platform::Oculus::Entitlements::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5f2c9fc;
+  constexpr static std::size_t addrs = 0x5f30ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::Entitlements*>(),
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::OculusStudios::Platform::Core::Product*>*>* (
     ::OculusStudios::Platform::Oculus::Entitlements::*)()>(&::OculusStudios::Platform::Oculus::Entitlements::GetAllProductsAsync)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5f2cab8;
+  constexpr static std::size_t addrs = 0x5f30f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::Entitlements*>(), { "GetAllProductsAsync", {}, {} })));
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::Entitlements::*)(
     ::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>*)>(&::OculusStudios::Platform::Oculus::Entitlements::RegisterNewProducts)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5f2cb98;
+  constexpr static std::size_t addrs = 0x5f31058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

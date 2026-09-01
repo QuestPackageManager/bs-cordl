@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightmappingSongController.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightmappingSongController.hpp"
 #include "GlobalNamespace/zzzz__SongController_impl.hpp"
 #include "GlobalNamespace/zzzz__LightmappingSongController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightmappingSongController.StopSong
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(&::GlobalNamespace::LightmappingSongController::StopSong)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59ef048;
+  constexpr static std::size_t addrs = 0x59f711c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(&::GlobalNamespace::LightmappingSongController::PauseSong)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59ef04c;
+  constexpr static std::size_t addrs = 0x59f7120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(&::GlobalNamespace::LightmappingSongController::ResumeSong)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59ef050;
+  constexpr static std::size_t addrs = 0x59f7124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(&::GlobalNamespace::LightmappingSongController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59ef054;
+  constexpr static std::size_t addrs = 0x59f7128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightmappingSongController*>(), { ".ctor", {}, {} })));

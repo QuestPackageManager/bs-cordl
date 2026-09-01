@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/CryptographicOperations.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\CryptographicOperations.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE CryptographicOperations : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ZeroMemory, addr 0x5af2a68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x5af6f24, size 0x5c, virtual false, abstract: false, final false
   static inline void ZeroMemory(::System::Span_1<uint8_t> buffer);
 
 protected:

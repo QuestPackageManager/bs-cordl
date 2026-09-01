@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/PrivateKeyUsagePeriod.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\PrivateKeyUsagePeriod.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__PrivateKeyUsagePeriod_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::GetInstance)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x365fff0;
+  constexpr static std::size_t addrs = 0x3663db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::_ctor)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x36601e4;
+  constexpr static std::size_t addrs = 0x3663fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::*)()>(
     &::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::get_NotBefore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36604c8;
+  constexpr static std::size_t addrs = 0x3664288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod*>(), { "get_NotBefore", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::*)()>(
     &::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::get_NotAfter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36604d0;
+  constexpr static std::size_t addrs = 0x3664290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod*>(), { "get_NotAfter", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::*)()>(
     &::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod::ToAsn1Object)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x36604d8;
+  constexpr static std::size_t addrs = 0x3664298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod*>(),

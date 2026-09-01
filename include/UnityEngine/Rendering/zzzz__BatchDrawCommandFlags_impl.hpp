@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BatchDrawCommandFlags.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BatchDrawCommandFlags.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommandFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::BatchDrawCommandFlags::BatchDrawCommandFlags(int32_t value__) noexcept {

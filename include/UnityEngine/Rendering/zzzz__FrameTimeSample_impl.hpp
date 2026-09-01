@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/FrameTimeSample.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\FrameTimeSample.hpp"
 #include "UnityEngine/Rendering/zzzz__FrameTimeSample_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::FrameTimeSample._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrameTimeSample::*)(float_t)>(&::UnityEngine::Rendering::FrameTimeSample::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x67659ac;
+  constexpr static std::size_t addrs = 0x676d428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/ExceptionTrace.hpp"
+// IWYU pragma private; include "System\Runtime\ExceptionTrace.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/zzzz__ExceptionTrace_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventType_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ExceptionTrace::*)(::StringW, ::System::Runtime::Diagnostics::EtwDiagnosticTrace*)>(
     &::System::Runtime::ExceptionTrace::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x617df34;
+  constexpr static std::size_t addrs = 0x61859b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ArgumentOutOfRangeException* (::System::Runtime::ExceptionTrace::*)(::StringW, ::System::Object*, ::StringW)>(
     &::System::Runtime::ExceptionTrace::ArgumentOutOfRange)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x617df3c;
+  constexpr static std::size_t addrs = 0x61859b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ExceptionTrace::*)(::System::Exception*, ::System::Diagnostics::TraceEventType)>(
     &::System::Runtime::ExceptionTrace::TraceHandledException)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x617dfe8;
+  constexpr static std::size_t addrs = 0x6185a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ExceptionTrace::*)(::System::Exception*)>(&::System::Runtime::ExceptionTrace::BreakOnException)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x617ecf0;
+  constexpr static std::size_t addrs = 0x618676c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/GraphicsBuffer.hpp"
+// IWYU pragma private; include "UnityEngine\GraphicsBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,7 +129,7 @@ public:
   static ::UnityEngine::GraphicsBuffer_Target const Vertex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10163 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -184,7 +184,7 @@ public:
   static ::UnityEngine::GraphicsBuffer_UsageFlags const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10164 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -207,10 +207,10 @@ namespace UnityEngine {
 class CORDL_TYPE GraphicsBuffer_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToManaged, addr 0x6a9bacc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ConvertToManaged, addr 0x6aa34e4, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer* ConvertToManaged(::System::IntPtr ptr);
 
-  /// @brief Method ConvertToNative, addr 0x6a9bb1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6aa3534, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::GraphicsBuffer* graphicsBuffer);
 
 protected:
@@ -228,7 +228,7 @@ public:
   GraphicsBuffer_BindingsMarshaller(GraphicsBuffer_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10165 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -265,68 +265,68 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BeginBufferWrite, addr 0x6a9a0b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BeginBufferWrite, addr 0x6aa1ac8, size 0x68, virtual false, abstract: false, final false
   inline void* BeginBufferWrite(int32_t offset, int32_t size);
 
-  /// @brief Method BeginBufferWrite_Injected, addr 0x6a9a118, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method BeginBufferWrite_Injected, addr 0x6aa1b30, size 0x54, virtual false, abstract: false, final false
   static inline void* BeginBufferWrite_Injected(::System::IntPtr _unity_self, int32_t offset, int32_t size);
 
-  /// @brief Method DestroyBuffer, addr 0x6a99524, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method DestroyBuffer, addr 0x6aa0f3c, size 0x48, virtual false, abstract: false, final false
   static inline void DestroyBuffer(::UnityEngine::GraphicsBuffer* buf);
 
-  /// @brief Method DestroyBuffer_Injected, addr 0x6a995e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroyBuffer_Injected, addr 0x6aa0ff8, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyBuffer_Injected(::System::IntPtr buf);
 
-  /// @brief Method Dispose, addr 0x6a994bc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6aa0ed4, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6a993ec, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6aa0e04, size 0xd0, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndBufferWrite, addr 0x6a9a16c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method EndBufferWrite, addr 0x6aa1b84, size 0x58, virtual false, abstract: false, final false
   inline void EndBufferWrite(int32_t bytesWritten);
 
-  /// @brief Method EndBufferWrite_Injected, addr 0x6a9a1c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EndBufferWrite_Injected, addr 0x6aa1bdc, size 0x44, virtual false, abstract: false, final false
   static inline void EndBufferWrite_Injected(::System::IntPtr _unity_self, int32_t bytesWritten);
 
-  /// @brief Method Finalize, addr 0x6a993a4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6aa0dbc, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetUsageFlags, addr 0x6a99b50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetUsageFlags, addr 0x6aa1568, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer_UsageFlags GetUsageFlags();
 
-  /// @brief Method GetUsageFlags_Injected, addr 0x6a99ba0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetUsageFlags_Injected, addr 0x6aa15b8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer_UsageFlags GetUsageFlags_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method InitBuffer, addr 0x6a99584, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InitBuffer, addr 0x6aa0f9c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr InitBuffer(::UnityEngine::GraphicsBuffer_Target target, ::UnityEngine::GraphicsBuffer_UsageFlags usageFlags, int32_t count, int32_t stride);
 
-  /// @brief Method InternalInitialization, addr 0x6a99638, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method InternalInitialization, addr 0x6aa1050, size 0x324, virtual false, abstract: false, final false
   inline void InternalInitialization(::UnityEngine::GraphicsBuffer_Target target, ::UnityEngine::GraphicsBuffer_UsageFlags usageFlags, int32_t count, int32_t stride);
 
-  /// @brief Method InternalSetData, addr 0x6a99eb8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InternalSetData, addr 0x6aa18d0, size 0x88, virtual false, abstract: false, final false
   inline void InternalSetData(::System::Array* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count, int32_t elemSize);
 
-  /// @brief Method InternalSetData_Injected, addr 0x6a9a03c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InternalSetData_Injected, addr 0x6aa1a54, size 0x74, virtual false, abstract: false, final false
   static inline void InternalSetData_Injected(::System::IntPtr _unity_self, ::System::Array* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count, int32_t elemSize);
 
-  /// @brief Method InternalSetNativeData, addr 0x6a99f40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InternalSetNativeData, addr 0x6aa1958, size 0x88, virtual false, abstract: false, final false
   inline void InternalSetNativeData(::System::IntPtr data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count, int32_t elemSize);
 
-  /// @brief Method InternalSetNativeData_Injected, addr 0x6a99fc8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InternalSetNativeData_Injected, addr 0x6aa19e0, size 0x74, virtual false, abstract: false, final false
   static inline void InternalSetNativeData_Injected(::System::IntPtr _unity_self, ::System::IntPtr data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count,
                                                     int32_t elemSize);
 
-  /// @brief Method IsValid, addr 0x6a999e8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6aa1400, size 0x50, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method IsValidBuffer, addr 0x6a99964, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsValidBuffer, addr 0x6aa137c, size 0x48, virtual false, abstract: false, final false
   static inline bool IsValidBuffer(::UnityEngine::GraphicsBuffer* buf);
 
-  /// @brief Method IsValidBuffer_Injected, addr 0x6a999ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValidBuffer_Injected, addr 0x6aa13c4, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsValidBuffer_Injected(::System::IntPtr buf);
 
-  /// @brief Method IsVertexIndexOrCopyOnly, addr 0x6a99578, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsVertexIndexOrCopyOnly, addr 0x6aa0f90, size 0xc, virtual false, abstract: false, final false
   static inline bool IsVertexIndexOrCopyOnly(::UnityEngine::GraphicsBuffer_Target target);
 
   /// @brief Method LockBufferForWrite, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -338,13 +338,13 @@ public:
 
   static inline ::UnityEngine::GraphicsBuffer* New_ctor(::UnityEngine::GraphicsBuffer_Target target, ::UnityEngine::GraphicsBuffer_UsageFlags usageFlags, int32_t count, int32_t stride);
 
-  /// @brief Method Release, addr 0x6a99960, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6aa1378, size 0x4, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method RequiresCompute, addr 0x6a9956c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RequiresCompute, addr 0x6aa0f84, size 0xc, virtual false, abstract: false, final false
   static inline bool RequiresCompute(::UnityEngine::GraphicsBuffer_Target target);
 
-  /// @brief Method SetData, addr 0x6a99c84, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x6aa169c, size 0x234, virtual false, abstract: false, final false
   inline void SetData(::System::Array* data, int32_t managedBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count);
 
   /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -353,10 +353,10 @@ public:
   /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetData(::Unity::Collections::NativeArray_1<T> data, int32_t nativeBufferStartIndex, int32_t graphicsBufferStartIndex, int32_t count);
 
-  /// @brief Method SetName, addr 0x6a9a20c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetName, addr 0x6aa1c24, size 0x154, virtual false, abstract: false, final false
   inline void SetName(::StringW name);
 
-  /// @brief Method SetName_Injected, addr 0x6a9a360, size 0x176c, virtual false, abstract: false, final false
+  /// @brief Method SetName_Injected, addr 0x6aa1d78, size 0x176c, virtual false, abstract: false, final false
   static inline void SetName_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
   /// @brief Method UnlockBufferAfterWrite, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -368,40 +368,40 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6a9961c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aa1034, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method .ctor, addr 0x6a99624, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aa103c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GraphicsBuffer_Target target, int32_t count, int32_t stride);
 
-  /// @brief Method .ctor, addr 0x6a9995c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aa1374, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GraphicsBuffer_Target target, ::UnityEngine::GraphicsBuffer_UsageFlags usageFlags, int32_t count, int32_t stride);
 
-  /// @brief Method get_bufferHandle, addr 0x6a99be0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_bufferHandle, addr 0x6aa15f8, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBufferHandle get_bufferHandle();
 
-  /// @brief Method get_bufferHandle_Injected, addr 0x6a99c40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bufferHandle_Injected, addr 0x6aa1658, size 0x44, virtual false, abstract: false, final false
   static inline void get_bufferHandle_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::GraphicsBufferHandle> ret);
 
-  /// @brief Method get_count, addr 0x6a99a38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x6aa1450, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_count_Injected, addr 0x6a99a88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_count_Injected, addr 0x6aa14a0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_count_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_stride, addr 0x6a99ac4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_stride, addr 0x6aa14dc, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_stride();
 
-  /// @brief Method get_stride_Injected, addr 0x6a99b14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_stride_Injected, addr 0x6aa152c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_stride_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_usageFlags, addr 0x6a99bdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_usageFlags, addr 0x6aa15f4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer_UsageFlags get_usageFlags();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_name, addr 0x6a9a208, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x6aa1c20, size 0x4, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
 protected:
@@ -419,7 +419,7 @@ public:
   GraphicsBuffer(GraphicsBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10166 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

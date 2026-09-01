@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/VREvent_Keyboard_t.hpp"
+// IWYU pragma private; include "OVR\OpenVR\VREvent_Keyboard_t.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_Keyboard_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::VREvent_Keyboard_t.get_cNewInput
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OVR::OpenVR::VREvent_Keyboard_t::*)()>(&::OVR::OpenVR::VREvent_Keyboard_t::get_cNewInput)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5e43b64;
+  constexpr static std::size_t addrs = 0x5e48020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::VREvent_Keyboard_t>(), { "get_cNewInput", {}, {} })));

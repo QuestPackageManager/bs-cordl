@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataViewManagerListItemTypeDescriptor.hpp"
+// IWYU pragma private; include "System\Data\DataViewManagerListItemTypeDescriptor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__DataViewManagerListItemTypeDescriptor_def.hpp"
 #include "System/Data/zzzz__DataTable_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataView* (::System::Data::DataViewManagerListItemTypeDescriptor::*)(::System::Data::DataTable*)>(
     &::System::Data::DataViewManagerListItemTypeDescriptor::GetDataView)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6029884;
+  constexpr static std::size_t addrs = 0x6031300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

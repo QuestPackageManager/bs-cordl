@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/Group.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\Group.hpp"
 #include "System/Text/RegularExpressions/zzzz__Capture_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__Group_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__CaptureCollection_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::Group::*)(::StringW, ::ArrayW<int32_t>, int32_t, ::StringW)>(
     &::System::Text::RegularExpressions::Group::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63755cc;
+  constexpr static std::size_t addrs = 0x637d048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::RegularExpressions::Group::*)()>(&::System::Text::RegularExpressions::Group::get_Success)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6375628;
+  constexpr static std::size_t addrs = 0x637d0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::Group*>(), { "get_Success", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::Group::*)()>(&::System::Text::RegularExpressions::Group::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6375730;
+  constexpr static std::size_t addrs = 0x637d1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::Group*>(), { ".ctor", {}, {} })));

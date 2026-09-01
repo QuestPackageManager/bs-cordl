@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/VideoProjectionDataModelSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\VideoProjectionDataModelSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__VideoProjectionDataModelSO_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(
     &::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599bbe4;
+  constexpr static std::size_t addrs = 0x59a3b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>(), { "get_id", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AssetReference* (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(
     &::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::get_videoAssetReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599bbec;
+  constexpr static std::size_t addrs = 0x59a3b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::*)()>(
     &::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x599bbf4;
+  constexpr static std::size_t addrs = 0x59a3b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*>(), { ".ctor", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*> (::GlobalNamespace::VideoProjectionDataModelSO::*)()>(
     &::GlobalNamespace::VideoProjectionDataModelSO::get_videoClipWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599bbd4;
+  constexpr static std::size_t addrs = 0x59a3af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO*>(), { "get_videoClipWithIds", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VideoProjectionDataModelSO::*)()>(&::GlobalNamespace::VideoProjectionDataModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599bbdc;
+  constexpr static std::size_t addrs = 0x59a3b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VideoProjectionDataModelSO*>(), { ".ctor", {}, {} })));

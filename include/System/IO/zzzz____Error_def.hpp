@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/__Error.hpp"
+// IWYU pragma private; include "System\IO\__Error.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,22 +21,22 @@ namespace System::IO {
 class CORDL_TYPE __Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndOfFile, addr 0x5c112b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method EndOfFile, addr 0x5c1576c, size 0x50, virtual false, abstract: false, final false
   static inline void EndOfFile();
 
-  /// @brief Method FileNotOpen, addr 0x5c11300, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FileNotOpen, addr 0x5c157bc, size 0x54, virtual false, abstract: false, final false
   static inline void FileNotOpen();
 
-  /// @brief Method GetDisplayablePath, addr 0x5c113a8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayablePath, addr 0x5c15864, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayablePath(::StringW path, bool isInvalidPath);
 
-  /// @brief Method ReaderClosed, addr 0x5c11354, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReaderClosed, addr 0x5c15810, size 0x54, virtual false, abstract: false, final false
   static inline void ReaderClosed();
 
-  /// @brief Method WinIOError, addr 0x5c11684, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method WinIOError, addr 0x5c15b40, size 0x550, virtual false, abstract: false, final false
   static inline void WinIOError(int32_t errorCode, ::StringW maybeFullPath);
 
-  /// @brief Method WriterClosed, addr 0x5c11bd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method WriterClosed, addr 0x5c16090, size 0x54, virtual false, abstract: false, final false
   static inline void WriterClosed();
 
 protected:

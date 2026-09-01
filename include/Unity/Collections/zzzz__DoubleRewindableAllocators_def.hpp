@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/DoubleRewindableAllocators.hpp"
+// IWYU pragma private; include "Unity\Collections\DoubleRewindableAllocators.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,34 +40,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method CheckIsCreated, addr 0x64a6f10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckIsCreated, addr 0x64ae98c, size 0x58, virtual false, abstract: false, final false
   inline void CheckIsCreated();
 
-  /// @brief Method Dispose, addr 0x64a70b0, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x64aeb2c, size 0xe4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Initialize, addr 0x64a6f8c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x64aea08, size 0x124, virtual false, abstract: false, final false
   inline void Initialize(::Unity::Collections::AllocatorManager_AllocatorHandle backingAllocator, int32_t initialSizeInBytes);
 
-  /// @brief Method Update, addr 0x64a6e08, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x64ae884, size 0xc4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method .ctor, addr 0x64a6f78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64ae9f4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::AllocatorManager_AllocatorHandle backingAllocator, int32_t initialSizeInBytes);
 
-  /// @brief Method get_Allocator, addr 0x64a6ecc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_Allocator, addr 0x64ae948, size 0x44, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Collections::RewindableAllocator> get_Allocator();
 
-  /// @brief Method get_EnableBlockFree, addr 0x64a7194, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_EnableBlockFree, addr 0x64aec10, size 0x6c, virtual false, abstract: false, final false
   inline bool get_EnableBlockFree();
 
-  /// @brief Method get_IsCreated, addr 0x64a6f68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x64ae9e4, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_EnableBlockFree, addr 0x64a7200, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_EnableBlockFree, addr 0x64aec7c, size 0x94, virtual false, abstract: false, final false
   inline void set_EnableBlockFree(bool value);
 
   // Ctor Parameters []
@@ -81,7 +81,7 @@ public:
                                        ::Unity::Collections::AllocatorHelper_1<::Unity::Collections::RewindableAllocator> UpdateAllocatorHelper1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15571 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

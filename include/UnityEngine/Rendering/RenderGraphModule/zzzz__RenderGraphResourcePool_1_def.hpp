@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphResourcePool_1.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphResourcePool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   constexpr RenderGraphResourcePool_1_ResourceLogInfo(::StringW name, int64_t size) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12444 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -130,7 +130,7 @@ public:
   RenderGraphResourcePool_1___c(RenderGraphResourcePool_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -238,7 +238,7 @@ public:
   RenderGraphResourcePool_1(RenderGraphResourcePool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12446 };
 
   /// @brief Field kStaleResourceLifetime offset 0xffffffff size 0x4
   static constexpr int32_t kStaleResourceLifetime{ static_cast<int32_t>(0xa) };

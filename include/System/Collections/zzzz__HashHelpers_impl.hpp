@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/HashHelpers.hpp"
+// IWYU pragma private; include "System\Collections\HashHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__HashHelpers_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::System::Collections::HashHelpers::IsPrime)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5bdf098;
+  constexpr static std::size_t addrs = 0x5be3554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::HashHelpers*>(), { "IsPrime", {}, { ::i2c::type_of<int32_t>() } })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Collections::HashHelpers::GetPrime)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5bdf140;
+  constexpr static std::size_t addrs = 0x5be35fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::HashHelpers*>(), { "GetPrime", {}, { ::i2c::type_of<int32_t>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Collections::HashHelpers::ExpandPrime)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5bdf2c8;
+  constexpr static std::size_t addrs = 0x5be3784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* (*)()>(
     &::System::Collections::HashHelpers::get_SerializationInfoTable)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5bdf350;
+  constexpr static std::size_t addrs = 0x5be380c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::HashHelpers*>(), { "get_SerializationInfoTable", {}, {} })));

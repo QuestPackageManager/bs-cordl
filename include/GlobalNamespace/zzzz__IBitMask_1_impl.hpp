@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IBitMask_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\IBitMask_1.hpp"
 #include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 template <typename T> inline int32_t GlobalNamespace::IBitMask_1<T>::get_bitCount() {

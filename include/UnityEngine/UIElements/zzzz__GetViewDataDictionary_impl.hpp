@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/GetViewDataDictionary.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\GetViewDataDictionary.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__GetViewDataDictionary_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::GetViewDataDictionary::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::GetViewDataDictionary::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6db0e84;
+  constexpr static std::size_t addrs = 0x6db8a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::GetViewDataDictionary*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ISerializableJsonDictionary* (::UnityEngine::UIElements::GetViewDataDictionary::*)()>(
     &::UnityEngine::UIElements::GetViewDataDictionary::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6db0eec;
+  constexpr static std::size_t addrs = 0x6db8a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

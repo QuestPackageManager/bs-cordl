@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/ManualResetEventSlim.hpp"
+// IWYU pragma private; include "System\Threading\ManualResetEventSlim.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ManualResetEventSlim_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::WaitHandle* (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::get_WaitHandle)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5ca5ac0;
+  constexpr static std::size_t addrs = 0x5ca9f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "get_WaitHandle", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::get_IsSet)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ca5cdc;
+  constexpr static std::size_t addrs = 0x5caa198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "get_IsSet", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool)>(&::System::Threading::ManualResetEventSlim::set_IsSet)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ca5d44;
+  constexpr static std::size_t addrs = 0x5caa200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::get_SpinCount)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ca5e38;
+  constexpr static std::size_t addrs = 0x5caa2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "get_SpinCount", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(int32_t)>(&::System::Threading::ManualResetEventSlim::set_SpinCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ca5ea4;
+  constexpr static std::size_t addrs = 0x5caa360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::get_Waiters)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ca5ebc;
+  constexpr static std::size_t addrs = 0x5caa378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "get_Waiters", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(int32_t)>(&::System::Threading::ManualResetEventSlim::set_Waiters)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5ca5f1c;
+  constexpr static std::size_t addrs = 0x5caa3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool)>(&::System::Threading::ManualResetEventSlim::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ca5fa4;
+  constexpr static std::size_t addrs = 0x5caa460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool, int32_t)>(&::System::Threading::ManualResetEventSlim::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5ca60c8;
+  constexpr static std::size_t addrs = 0x5caa584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool, int32_t)>(&::System::Threading::ManualResetEventSlim::Initialize)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5ca6018;
+  constexpr static std::size_t addrs = 0x5caa4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::EnsureLockObjectCreated)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ca61b8;
+  constexpr static std::size_t addrs = 0x5caa674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "EnsureLockObjectCreated", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::LazyInitializeEvent)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5ca5b4c;
+  constexpr static std::size_t addrs = 0x5caa008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "LazyInitializeEvent", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::Set)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca629c;
+  constexpr static std::size_t addrs = 0x5caa758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "Set", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool)>(&::System::Threading::ManualResetEventSlim::Set)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5ca62a4;
+  constexpr static std::size_t addrs = 0x5caa760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "Set", {}, { ::i2c::type_of<bool>() } })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5ca649c;
+  constexpr static std::size_t addrs = 0x5caa958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "Reset", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ManualResetEventSlim::*)(int32_t, ::System::Threading::CancellationToken)>(
     &::System::Threading::ManualResetEventSlim::Wait)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x5ca6534;
+  constexpr static std::size_t addrs = 0x5caa9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(),
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ca6b64;
+  constexpr static std::size_t addrs = 0x5cab020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "Dispose", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool)>(&::System::Threading::ManualResetEventSlim::Dispose)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5ca6bd4;
+  constexpr static std::size_t addrs = 0x5cab090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::ThrowIfDisposed)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ca5af0;
+  constexpr static std::size_t addrs = 0x5ca9fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ManualResetEventSlim*>(), { "ThrowIfDisposed", {}, {} })));
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::ManualResetEventSlim::CancellationTokenCallback)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5ca6cc8;
+  constexpr static std::size_t addrs = 0x5cab184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(int32_t, int32_t)>(&::System::Threading::ManualResetEventSlim::UpdateStateAtomically)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5ca5d64;
+  constexpr static std::size_t addrs = 0x5caa220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::System::Threading::ManualResetEventSlim::ExtractStatePortionAndShiftRight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ca5e98;
+  constexpr static std::size_t addrs = 0x5caa354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Threading::ManualResetEventSlim::ExtractStatePortion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca5d3c;
+  constexpr static std::size_t addrs = 0x5caa1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

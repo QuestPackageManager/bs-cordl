@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/Common/ADP.hpp"
+// IWYU pragma private; include "System\Data\Common\ADP.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,52 +80,52 @@ public:
   /// @brief Field s_threadAbortType, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_threadAbortType, put = setStaticF_s_threadAbortType)) ::System::Type* s_threadAbortType;
 
-  /// @brief Method Argument, addr 0x6098cb0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Argument, addr 0x60a072c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::ArgumentException* Argument(::StringW error);
 
-  /// @brief Method ArgumentOutOfRange, addr 0x6098ddc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ArgumentOutOfRange, addr 0x60a0858, size 0xac, virtual false, abstract: false, final false
   static inline ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW message, ::StringW parameterName);
 
-  /// @brief Method ArgumentOutOfRange, addr 0x6098d4c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ArgumentOutOfRange, addr 0x60a07c8, size 0x90, virtual false, abstract: false, final false
   static inline ::System::ArgumentOutOfRangeException* ArgumentOutOfRange(::StringW parameterName);
 
-  /// @brief Method InvalidAcceptRejectRule, addr 0x6099494, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InvalidAcceptRejectRule, addr 0x60a0f10, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::ArgumentOutOfRangeException* InvalidAcceptRejectRule(::System::Data::AcceptRejectRule value);
 
-  /// @brief Method InvalidEnumerationValue, addr 0x609930c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method InvalidEnumerationValue, addr 0x60a0d88, size 0x114, virtual false, abstract: false, final false
   static inline ::System::ArgumentOutOfRangeException* InvalidEnumerationValue(::System::Type* type, int32_t value);
 
-  /// @brief Method InvalidMissingSchemaAction, addr 0x6099534, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InvalidMissingSchemaAction, addr 0x60a0fb0, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::ArgumentOutOfRangeException* InvalidMissingSchemaAction(::System::Data::MissingSchemaAction value);
 
-  /// @brief Method InvalidOperation, addr 0x6098e88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method InvalidOperation, addr 0x60a0904, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::InvalidOperationException* InvalidOperation(::StringW error);
 
-  /// @brief Method InvalidRule, addr 0x60995d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InvalidRule, addr 0x60a1050, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::ArgumentOutOfRangeException* InvalidRule(::System::Data::Rule value);
 
-  /// @brief Method InvalidSeekOrigin, addr 0x6099420, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InvalidSeekOrigin, addr 0x60a0e9c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidSeekOrigin(::StringW parameterName);
 
-  /// @brief Method IsCatchableExceptionType, addr 0x6098fc0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method IsCatchableExceptionType, addr 0x60a0a3c, size 0x1c4, virtual false, abstract: false, final false
   static inline bool IsCatchableExceptionType(::System::Exception* e);
 
-  /// @brief Method IsCatchableOrSecurityExceptionType, addr 0x6099184, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method IsCatchableOrSecurityExceptionType, addr 0x60a0c00, size 0x188, virtual false, abstract: false, final false
   static inline bool IsCatchableOrSecurityExceptionType(::System::Exception* e);
 
-  /// @brief Method NotSupported, addr 0x6098f24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method NotSupported, addr 0x60a09a0, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::NotSupportedException* NotSupported(::StringW error);
 
-  /// @brief Method TraceException, addr 0x6098b1c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method TraceException, addr 0x60a0598, size 0xac, virtual false, abstract: false, final false
   static inline void TraceException(::StringW trace, ::System::Exception* e);
 
-  /// @brief Method TraceExceptionAsReturnValue, addr 0x6098bc8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TraceExceptionAsReturnValue, addr 0x60a0644, size 0x74, virtual false, abstract: false, final false
   static inline void TraceExceptionAsReturnValue(::System::Exception* e);
 
-  /// @brief Method TraceExceptionWithoutRethrow, addr 0x6098c3c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TraceExceptionWithoutRethrow, addr 0x60a06b8, size 0x74, virtual false, abstract: false, final false
   static inline void TraceExceptionWithoutRethrow(::System::Exception* e);
 
-  /// @brief Method WrongType, addr 0x6099674, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method WrongType, addr 0x60a10f0, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Exception* WrongType(::System::Type* got, ::System::Type* expected);
 
   static inline ::ArrayW<::StringW> getStaticF_AzureSqlServerEndpoints();
@@ -183,7 +183,7 @@ public:
   ADP(ADP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13913 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

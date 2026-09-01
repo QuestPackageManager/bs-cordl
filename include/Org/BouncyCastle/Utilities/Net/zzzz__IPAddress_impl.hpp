@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Net/IPAddress.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Net\IPAddress.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Net/zzzz__IPAddress_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Net::IPAddress.IsValid
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValid)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x362c844;
+  constexpr static std::size_t addrs = 0x3630604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValidWithNetMask)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x362c9c4;
+  constexpr static std::size_t addrs = 0x3630784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValidIPv4)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x362c86c;
+  constexpr static std::size_t addrs = 0x363062c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::unsafeIsValidIPv4)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x362cb44;
+  constexpr static std::size_t addrs = 0x3630904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValidIPv4WithNetmask)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x362c9ec;
+  constexpr static std::size_t addrs = 0x36307ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValidIPv6WithNetmask)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x362ca98;
+  constexpr static std::size_t addrs = 0x3630858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsMaskValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x362cc38;
+  constexpr static std::size_t addrs = 0x36309f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValidIPv6)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x362c918;
+  constexpr static std::size_t addrs = 0x36306d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::unsafeIsValidIPv6)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x362cc5c;
+  constexpr static std::size_t addrs = 0x3630a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Net::IPAddress::*)()>(&::Org::BouncyCastle::Utilities::Net::IPAddress::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x362cdf8;
+  constexpr static std::size_t addrs = 0x3630bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Net::IPAddress*>(), { ".ctor", {}, {} })));

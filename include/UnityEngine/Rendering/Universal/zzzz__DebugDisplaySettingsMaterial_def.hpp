@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugDisplaySettingsMaterial.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugDisplaySettingsMaterial.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -339,7 +339,7 @@ public:
   static ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_AlbedoDebugValidationPreset const WornAsphalt;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12612 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -371,7 +371,7 @@ public:
   constexpr DebugDisplaySettingsMaterial_AlbedoDebugValidationPresetData(::StringW name, ::UnityEngine::Color color, float_t minLuminance, float_t maxLuminance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12613 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -540,7 +540,7 @@ public:
   static constexpr ::ConstString RenderingLayerMasksSettingsContainerName{ u"Rendering Layer Masks Settings" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12614 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -566,13 +566,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c* New_ctor();
 
-  /// @brief Method <CreateAlbedoPreset>b__6_4, addr 0x683d558, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoPreset>b__6_4, addr 0x6844fd4, size 0x7c, virtual false, abstract: false, final false
   inline void _CreateAlbedoPreset_b__6_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>* _, int32_t __param_1);
 
-  /// @brief Method <CreateMaterialValidationMode>b__2_4, addr 0x683d4dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaterialValidationMode>b__2_4, addr 0x6844f58, size 0x7c, virtual false, abstract: false, final false
   inline void _CreateMaterialValidationMode_b__2_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>* _, int32_t __param_1);
 
-  /// @brief Method .ctor, addr 0x683d4d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6844f54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c* getStaticF___9();
@@ -602,7 +602,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c(WidgetFactory_DebugDisplaySettingsMaterial___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -622,16 +622,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateMaterialOverride>b__0, addr 0x683d5d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaterialOverride>b__0, addr 0x6845050, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMaterialOverride_b__0();
 
-  /// @brief Method <CreateMaterialOverride>b__1, addr 0x683d62c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaterialOverride>b__1, addr 0x68450a8, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMaterialOverride_b__1(int32_t value);
 
-  /// @brief Method <CreateMaterialOverride>b__2, addr 0x683d690, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaterialOverride>b__2, addr 0x684510c, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMaterialOverride_b__2();
 
-  /// @brief Method <CreateMaterialOverride>b__3, addr 0x683d6e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaterialOverride>b__3, addr 0x6845164, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMaterialOverride_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -640,7 +640,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683b088, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6842b04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -658,7 +658,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12616 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -683,13 +683,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <CreateAlbedoHueTolerance>b__0, addr 0x683d74c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoHueTolerance>b__0, addr 0x68451c8, size 0x68, virtual false, abstract: false, final false
   inline float_t _CreateAlbedoHueTolerance_b__0();
 
-  /// @brief Method <CreateAlbedoHueTolerance>b__1, addr 0x683d7b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoHueTolerance>b__1, addr 0x6845230, size 0x64, virtual false, abstract: false, final false
   inline void _CreateAlbedoHueTolerance_b__1(float_t value);
 
-  /// @brief Method <CreateAlbedoHueTolerance>b__2, addr 0x683d818, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoHueTolerance>b__2, addr 0x6845294, size 0x60, virtual false, abstract: false, final false
   inline bool _CreateAlbedoHueTolerance_b__2();
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -698,7 +698,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683cd20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x684479c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -716,7 +716,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass10_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12617 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -741,13 +741,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <CreateAlbedoSaturationTolerance>b__0, addr 0x683d878, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoSaturationTolerance>b__0, addr 0x68452f4, size 0x68, virtual false, abstract: false, final false
   inline float_t _CreateAlbedoSaturationTolerance_b__0();
 
-  /// @brief Method <CreateAlbedoSaturationTolerance>b__1, addr 0x683d8e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoSaturationTolerance>b__1, addr 0x684535c, size 0x64, virtual false, abstract: false, final false
   inline void _CreateAlbedoSaturationTolerance_b__1(float_t value);
 
-  /// @brief Method <CreateAlbedoSaturationTolerance>b__2, addr 0x683d944, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoSaturationTolerance>b__2, addr 0x68453c0, size 0x60, virtual false, abstract: false, final false
   inline bool _CreateAlbedoSaturationTolerance_b__2();
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -756,7 +756,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683cff0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6844a6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -774,7 +774,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass11_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12618 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -799,10 +799,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <CreateMetallicMinValue>b__0, addr 0x683d9a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMetallicMinValue>b__0, addr 0x6845420, size 0x58, virtual false, abstract: false, final false
   inline float_t _CreateMetallicMinValue_b__0();
 
-  /// @brief Method <CreateMetallicMinValue>b__1, addr 0x683d9fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMetallicMinValue>b__1, addr 0x6845478, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMetallicMinValue_b__1(float_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -811,7 +811,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683d238, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6844cb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -829,7 +829,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass12_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12619 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -854,10 +854,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <CreateMetallicMaxValue>b__0, addr 0x683da60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMetallicMaxValue>b__0, addr 0x68454dc, size 0x58, virtual false, abstract: false, final false
   inline float_t _CreateMetallicMaxValue_b__0();
 
-  /// @brief Method <CreateMetallicMaxValue>b__1, addr 0x683dab8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMetallicMaxValue>b__1, addr 0x6845534, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMetallicMaxValue_b__1(float_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -866,7 +866,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683d480, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6844efc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -884,7 +884,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass13_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12620 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -909,16 +909,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <CreateVertexAttribute>b__0, addr 0x683db1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateVertexAttribute>b__0, addr 0x6845598, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateVertexAttribute_b__0();
 
-  /// @brief Method <CreateVertexAttribute>b__1, addr 0x683db74, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateVertexAttribute>b__1, addr 0x68455f0, size 0x64, virtual false, abstract: false, final false
   inline void _CreateVertexAttribute_b__1(int32_t value);
 
-  /// @brief Method <CreateVertexAttribute>b__2, addr 0x683dbd8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateVertexAttribute>b__2, addr 0x6845654, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateVertexAttribute_b__2();
 
-  /// @brief Method <CreateVertexAttribute>b__3, addr 0x683dc30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateVertexAttribute>b__3, addr 0x68456ac, size 0x64, virtual false, abstract: false, final false
   inline void _CreateVertexAttribute_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -927,7 +927,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683b3c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6842e3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -945,7 +945,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12621 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -970,16 +970,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <CreateMaterialValidationMode>b__0, addr 0x683dc94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaterialValidationMode>b__0, addr 0x6845710, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMaterialValidationMode_b__0();
 
-  /// @brief Method <CreateMaterialValidationMode>b__1, addr 0x683dcec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaterialValidationMode>b__1, addr 0x6845768, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMaterialValidationMode_b__1(int32_t value);
 
-  /// @brief Method <CreateMaterialValidationMode>b__2, addr 0x683dd50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaterialValidationMode>b__2, addr 0x68457cc, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMaterialValidationMode_b__2();
 
-  /// @brief Method <CreateMaterialValidationMode>b__3, addr 0x683dda8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaterialValidationMode>b__3, addr 0x6845824, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMaterialValidationMode_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -988,7 +988,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683b7a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6843224, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1006,7 +1006,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12622 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -1031,10 +1031,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <CreateRenderingLayersSelectedLight>b__0, addr 0x683de0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateRenderingLayersSelectedLight>b__0, addr 0x6845888, size 0x58, virtual false, abstract: false, final false
   inline bool _CreateRenderingLayersSelectedLight_b__0();
 
-  /// @brief Method <CreateRenderingLayersSelectedLight>b__1, addr 0x683de64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <CreateRenderingLayersSelectedLight>b__1, addr 0x68458e0, size 0x68, virtual false, abstract: false, final false
   inline void _CreateRenderingLayersSelectedLight_b__1(bool value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1043,7 +1043,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683b9dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6843458, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1061,7 +1061,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass3_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12623 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -1086,13 +1086,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <CreateSelectedLightShadowLayerMask>b__0, addr 0x683decc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateSelectedLightShadowLayerMask>b__0, addr 0x6845948, size 0x58, virtual false, abstract: false, final false
   inline bool _CreateSelectedLightShadowLayerMask_b__0();
 
-  /// @brief Method <CreateSelectedLightShadowLayerMask>b__1, addr 0x683df24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <CreateSelectedLightShadowLayerMask>b__1, addr 0x68459a0, size 0x68, virtual false, abstract: false, final false
   inline void _CreateSelectedLightShadowLayerMask_b__1(bool value);
 
-  /// @brief Method <CreateSelectedLightShadowLayerMask>b__2, addr 0x683df8c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <CreateSelectedLightShadowLayerMask>b__2, addr 0x6845a08, size 0x60, virtual false, abstract: false, final false
   inline bool _CreateSelectedLightShadowLayerMask_b__2();
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1101,7 +1101,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683bc78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68436f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1119,7 +1119,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass4_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12624 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -1144,13 +1144,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <CreateFilterRenderingLayerMasks>b__0, addr 0x683dfec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateFilterRenderingLayerMasks>b__0, addr 0x6845a68, size 0x58, virtual false, abstract: false, final false
   inline uint32_t _CreateFilterRenderingLayerMasks_b__0();
 
-  /// @brief Method <CreateFilterRenderingLayerMasks>b__1, addr 0x683e044, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateFilterRenderingLayerMasks>b__1, addr 0x6845ac0, size 0x64, virtual false, abstract: false, final false
   inline void _CreateFilterRenderingLayerMasks_b__1(uint32_t value);
 
-  /// @brief Method <CreateFilterRenderingLayerMasks>b__2, addr 0x683e0a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateFilterRenderingLayerMasks>b__2, addr 0x6845b24, size 0x58, virtual false, abstract: false, final false
   inline bool _CreateFilterRenderingLayerMasks_b__2();
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1159,7 +1159,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683bf08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6843984, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1177,7 +1177,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass5_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12625 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -1202,16 +1202,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <CreateAlbedoPreset>b__0, addr 0x683e100, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoPreset>b__0, addr 0x6845b7c, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateAlbedoPreset_b__0();
 
-  /// @brief Method <CreateAlbedoPreset>b__1, addr 0x683e158, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoPreset>b__1, addr 0x6845bd4, size 0x64, virtual false, abstract: false, final false
   inline void _CreateAlbedoPreset_b__1(int32_t value);
 
-  /// @brief Method <CreateAlbedoPreset>b__2, addr 0x683e1bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoPreset>b__2, addr 0x6845c38, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateAlbedoPreset_b__2();
 
-  /// @brief Method <CreateAlbedoPreset>b__3, addr 0x683e214, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoPreset>b__3, addr 0x6845c90, size 0x64, virtual false, abstract: false, final false
   inline void _CreateAlbedoPreset_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1220,7 +1220,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683c2f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6843d6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1238,7 +1238,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass6_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12626 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -1263,13 +1263,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <CreateAlbedoCustomColor>b__0, addr 0x683e278, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoCustomColor>b__0, addr 0x6845cf4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _CreateAlbedoCustomColor_b__0();
 
-  /// @brief Method <CreateAlbedoCustomColor>b__1, addr 0x683e2d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoCustomColor>b__1, addr 0x6845d50, size 0x7c, virtual false, abstract: false, final false
   inline void _CreateAlbedoCustomColor_b__1(::UnityEngine::Color value);
 
-  /// @brief Method <CreateAlbedoCustomColor>b__2, addr 0x683e350, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoCustomColor>b__2, addr 0x6845dcc, size 0x60, virtual false, abstract: false, final false
   inline bool _CreateAlbedoCustomColor_b__2();
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1278,7 +1278,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683c5c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x684403c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1296,7 +1296,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass7_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12627 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -1321,10 +1321,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <CreateAlbedoMinLuminance>b__0, addr 0x683e3b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoMinLuminance>b__0, addr 0x6845e2c, size 0x58, virtual false, abstract: false, final false
   inline float_t _CreateAlbedoMinLuminance_b__0();
 
-  /// @brief Method <CreateAlbedoMinLuminance>b__1, addr 0x683e408, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoMinLuminance>b__1, addr 0x6845e84, size 0x64, virtual false, abstract: false, final false
   inline void _CreateAlbedoMinLuminance_b__1(float_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1333,7 +1333,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683c808, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6844284, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1351,7 +1351,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass8_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12628 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -1376,10 +1376,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <CreateAlbedoMaxLuminance>b__0, addr 0x683e46c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoMaxLuminance>b__0, addr 0x6845ee8, size 0x58, virtual false, abstract: false, final false
   inline float_t _CreateAlbedoMaxLuminance_b__0();
 
-  /// @brief Method <CreateAlbedoMaxLuminance>b__1, addr 0x683e4c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateAlbedoMaxLuminance>b__1, addr 0x6845f40, size 0x64, virtual false, abstract: false, final false
   inline void _CreateAlbedoMaxLuminance_b__1(float_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1388,7 +1388,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x683ca50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68444cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1406,7 +1406,7 @@ public:
   WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12629 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* ___panel;
@@ -1456,46 +1456,46 @@ public:
 
   using __c__DisplayClass9_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsMaterial___c__DisplayClass9_0;
 
-  /// @brief Method CreateAlbedoCustomColor, addr 0x683c2f4, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method CreateAlbedoCustomColor, addr 0x6843d70, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateAlbedoCustomColor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateAlbedoHueTolerance, addr 0x683ca54, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method CreateAlbedoHueTolerance, addr 0x68444d0, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateAlbedoHueTolerance(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateAlbedoMaxLuminance, addr 0x683c80c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreateAlbedoMaxLuminance, addr 0x6844288, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateAlbedoMaxLuminance(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateAlbedoMinLuminance, addr 0x683c5c4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreateAlbedoMinLuminance, addr 0x6844040, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateAlbedoMinLuminance(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateAlbedoPreset, addr 0x683bf0c, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method CreateAlbedoPreset, addr 0x6843988, size 0x3e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateAlbedoPreset(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateAlbedoSaturationTolerance, addr 0x683cd24, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method CreateAlbedoSaturationTolerance, addr 0x68447a0, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateAlbedoSaturationTolerance(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateFilterRenderingLayerMasks, addr 0x683bc7c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method CreateFilterRenderingLayerMasks, addr 0x68436f8, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateFilterRenderingLayerMasks(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateMaterialOverride, addr 0x683ad54, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method CreateMaterialOverride, addr 0x68427d0, size 0x334, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMaterialOverride(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateMaterialValidationMode, addr 0x683b3c4, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method CreateMaterialValidationMode, addr 0x6842e40, size 0x3e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMaterialValidationMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateMetallicMaxValue, addr 0x683d23c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreateMetallicMaxValue, addr 0x6844cb8, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMetallicMaxValue(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateMetallicMinValue, addr 0x683cff4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreateMetallicMinValue, addr 0x6844a70, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMetallicMinValue(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateRenderingLayersSelectedLight, addr 0x683b7ac, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderingLayersSelectedLight, addr 0x6843228, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateRenderingLayersSelectedLight(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateSelectedLightShadowLayerMask, addr 0x683b9e0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method CreateSelectedLightShadowLayerMask, addr 0x684345c, size 0x298, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateSelectedLightShadowLayerMask(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
-  /// @brief Method CreateVertexAttribute, addr 0x683b08c, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method CreateVertexAttribute, addr 0x6842b08, size 0x334, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateVertexAttribute(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* panel);
 
 protected:
@@ -1513,7 +1513,7 @@ public:
   DebugDisplaySettingsMaterial_WidgetFactory(DebugDisplaySettingsMaterial_WidgetFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1548,16 +1548,16 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial* value);
 
-  /// @brief Method <.ctor>b__2, addr 0x683e530, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2, addr 0x6845fac, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__2();
 
-  /// @brief Method <.ctor>b__3, addr 0x683e550, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3, addr 0x6845fcc, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__3();
 
-  /// @brief Method <.ctor>b__4, addr 0x683e570, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__4, addr 0x6845fec, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__4();
 
-  /// @brief Method .ctor, addr 0x683e528, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6845fa4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1575,7 +1575,7 @@ public:
   SettingsPanel_DebugDisplaySettingsMaterial___c__DisplayClass0_0(SettingsPanel_DebugDisplaySettingsMaterial___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12631 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* _____4__this;
@@ -1621,13 +1621,13 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method <.ctor>b__0, addr 0x683e590, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x684600c, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Color __ctor_b__0();
 
-  /// @brief Method <.ctor>b__1, addr 0x683e614, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1, addr 0x6846090, size 0xa4, virtual false, abstract: false, final false
   inline void __ctor_b__1(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x683e52c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6845fa8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1645,7 +1645,7 @@ public:
   SettingsPanel_DebugDisplaySettingsMaterial___c__DisplayClass0_1(SettingsPanel_DebugDisplaySettingsMaterial___c__DisplayClass0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12632 };
 
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;
@@ -1676,7 +1676,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_SettingsPanel* New_ctor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial* data);
 
-  /// @brief Method .ctor, addr 0x683954c, size 0xb54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6840fc8, size 0xb54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial* data);
 
 protected:
@@ -1694,7 +1694,7 @@ public:
   DebugDisplaySettingsMaterial_SettingsPanel(DebugDisplaySettingsMaterial_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1819,12 +1819,12 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
 
-  /// @brief Method GetDebugLightLayersMask, addr 0x6839440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDebugLightLayersMask, addr 0x6840ebc, size 0x8, virtual false, abstract: false, final false
   inline uint32_t GetDebugLightLayersMask();
 
   static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x68394f0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x6840f6c, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__albedoCompareColor_k__BackingField() const;
@@ -1923,58 +1923,58 @@ public:
 
   constexpr void __cordl_internal_set_m_AlbedoValidationPreset(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_AlbedoDebugValidationPreset value);
 
-  /// @brief Method .ctor, addr 0x683a0a0, size 0x8e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6841b1c, size 0x8e4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x6839478, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6840ef4, size 0x28, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
-  /// @brief Method get_IsLightingActive, addr 0x68394c8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_IsLightingActive, addr 0x6840f44, size 0x28, virtual true, abstract: false, final true
   inline bool get_IsLightingActive();
 
-  /// @brief Method get_IsPostProcessingAllowed, addr 0x68394a0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_IsPostProcessingAllowed, addr 0x6840f1c, size 0x28, virtual true, abstract: false, final true
   inline bool get_IsPostProcessingAllowed();
 
-  /// @brief Method get_albedoCompareColor, addr 0x68393d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_albedoCompareColor, addr 0x6840e54, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_albedoCompareColor();
 
-  /// @brief Method get_albedoHueTolerance, addr 0x6839398, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_albedoHueTolerance, addr 0x6840e14, size 0x18, virtual false, abstract: false, final false
   inline float_t get_albedoHueTolerance();
 
-  /// @brief Method get_albedoMaxLuminance, addr 0x6839388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_albedoMaxLuminance, addr 0x6840e04, size 0x8, virtual false, abstract: false, final false
   inline float_t get_albedoMaxLuminance();
 
-  /// @brief Method get_albedoMinLuminance, addr 0x6839378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_albedoMinLuminance, addr 0x6840df4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_albedoMinLuminance();
 
-  /// @brief Method get_albedoSaturationTolerance, addr 0x68393b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_albedoSaturationTolerance, addr 0x6840e34, size 0x18, virtual false, abstract: false, final false
   inline float_t get_albedoSaturationTolerance();
 
-  /// @brief Method get_albedoValidationPreset, addr 0x683932c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_albedoValidationPreset, addr 0x6840da8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_AlbedoDebugValidationPreset get_albedoValidationPreset();
 
-  /// @brief Method get_materialDebugMode, addr 0x6839458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialDebugMode, addr 0x6840ed4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugMaterialMode get_materialDebugMode();
 
-  /// @brief Method get_materialValidationMode, addr 0x6839448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialValidationMode, addr 0x6840ec4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugMaterialValidationMode get_materialValidationMode();
 
-  /// @brief Method get_metallicMaxValue, addr 0x6839400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_metallicMaxValue, addr 0x6840e7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_metallicMaxValue();
 
-  /// @brief Method get_metallicMinValue, addr 0x68393f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_metallicMinValue, addr 0x6840e6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_metallicMinValue();
 
-  /// @brief Method get_renderingLayerMask, addr 0x6839430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingLayerMask, addr 0x6840eac, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_renderingLayerMask();
 
-  /// @brief Method get_renderingLayersSelectedLight, addr 0x6839410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingLayersSelectedLight, addr 0x6840e8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_renderingLayersSelectedLight();
 
-  /// @brief Method get_selectedLightShadowLayerMask, addr 0x6839420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedLightShadowLayerMask, addr 0x6840e9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_selectedLightShadowLayerMask();
 
-  /// @brief Method get_vertexAttributeDebugMode, addr 0x6839468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexAttributeDebugMode, addr 0x6840ee4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode get_vertexAttributeDebugMode();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
@@ -1983,46 +1983,46 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept;
 
-  /// @brief Method set_albedoCompareColor, addr 0x68393e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_albedoCompareColor, addr 0x6840e60, size 0xc, virtual false, abstract: false, final false
   inline void set_albedoCompareColor(::UnityEngine::Color value);
 
-  /// @brief Method set_albedoHueTolerance, addr 0x68393b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_albedoHueTolerance, addr 0x6840e2c, size 0x8, virtual false, abstract: false, final false
   inline void set_albedoHueTolerance(float_t value);
 
-  /// @brief Method set_albedoMaxLuminance, addr 0x6839390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_albedoMaxLuminance, addr 0x6840e0c, size 0x8, virtual false, abstract: false, final false
   inline void set_albedoMaxLuminance(float_t value);
 
-  /// @brief Method set_albedoMinLuminance, addr 0x6839380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_albedoMinLuminance, addr 0x6840dfc, size 0x8, virtual false, abstract: false, final false
   inline void set_albedoMinLuminance(float_t value);
 
-  /// @brief Method set_albedoSaturationTolerance, addr 0x68393d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_albedoSaturationTolerance, addr 0x6840e4c, size 0x8, virtual false, abstract: false, final false
   inline void set_albedoSaturationTolerance(float_t value);
 
-  /// @brief Method set_albedoValidationPreset, addr 0x6839334, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_albedoValidationPreset, addr 0x6840db0, size 0x44, virtual false, abstract: false, final false
   inline void set_albedoValidationPreset(::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_AlbedoDebugValidationPreset value);
 
-  /// @brief Method set_materialDebugMode, addr 0x6839460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialDebugMode, addr 0x6840edc, size 0x8, virtual false, abstract: false, final false
   inline void set_materialDebugMode(::UnityEngine::Rendering::Universal::DebugMaterialMode value);
 
-  /// @brief Method set_materialValidationMode, addr 0x6839450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialValidationMode, addr 0x6840ecc, size 0x8, virtual false, abstract: false, final false
   inline void set_materialValidationMode(::UnityEngine::Rendering::Universal::DebugMaterialValidationMode value);
 
-  /// @brief Method set_metallicMaxValue, addr 0x6839408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_metallicMaxValue, addr 0x6840e84, size 0x8, virtual false, abstract: false, final false
   inline void set_metallicMaxValue(float_t value);
 
-  /// @brief Method set_metallicMinValue, addr 0x68393f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_metallicMinValue, addr 0x6840e74, size 0x8, virtual false, abstract: false, final false
   inline void set_metallicMinValue(float_t value);
 
-  /// @brief Method set_renderingLayerMask, addr 0x6839438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderingLayerMask, addr 0x6840eb4, size 0x8, virtual false, abstract: false, final false
   inline void set_renderingLayerMask(uint32_t value);
 
-  /// @brief Method set_renderingLayersSelectedLight, addr 0x6839418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderingLayersSelectedLight, addr 0x6840e94, size 0x8, virtual false, abstract: false, final false
   inline void set_renderingLayersSelectedLight(bool value);
 
-  /// @brief Method set_selectedLightShadowLayerMask, addr 0x6839428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedLightShadowLayerMask, addr 0x6840ea4, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedLightShadowLayerMask(bool value);
 
-  /// @brief Method set_vertexAttributeDebugMode, addr 0x6839470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vertexAttributeDebugMode, addr 0x6840eec, size 0x8, virtual false, abstract: false, final false
   inline void set_vertexAttributeDebugMode(::UnityEngine::Rendering::Universal::DebugVertexAttributeMode value);
 
 protected:
@@ -2040,7 +2040,7 @@ public:
   DebugDisplaySettingsMaterial(DebugDisplaySettingsMaterial const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12634 };
 
   /// @brief Field m_AlbedoDebugValidationPresetData, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial_AlbedoDebugValidationPresetData> ___m_AlbedoDebugValidationPresetData;

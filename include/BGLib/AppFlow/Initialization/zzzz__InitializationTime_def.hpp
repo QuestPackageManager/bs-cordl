@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/InitializationTime.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\InitializationTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +53,13 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::InitializationTime___c* New_ctor();
 
-  /// @brief Method <ToString>b__20_0, addr 0x33073f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__20_0, addr 0x330b1ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__20_0(::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple);
 
-  /// @brief Method <ToString>b__20_1, addr 0x33073f8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__20_1, addr 0x330b1f4, size 0x198, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__20_1(::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>> tuple);
 
-  /// @brief Method .ctor, addr 0x33073ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330b1e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::AppFlow::Initialization::InitializationTime___c* getStaticF___9();
@@ -89,7 +89,7 @@ public:
   InitializationTime___c(InitializationTime___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21565 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -136,39 +136,39 @@ public:
   /// @brief Field asyncLoadersDuration, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_asyncLoadersDuration, put = __cordl_internal_set_asyncLoadersDuration)) ::System::TimeSpan asyncLoadersDuration;
 
-  /// @brief Method GetElapsedTime, addr 0x3307268, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetElapsedTime, addr 0x330b064, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::TimeSpan GetElapsedTime(int64_t startingTimestamp, int64_t endingTimestamp);
 
-  /// @brief Method InitializeWithEditorTimestamp, addr 0x33064d8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitializeWithEditorTimestamp, addr 0x330a2d4, size 0xc4, virtual false, abstract: false, final false
   static inline void InitializeWithEditorTimestamp();
 
-  /// @brief Method LogEventName, addr 0x3307308, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LogEventName, addr 0x330b104, size 0x4, virtual false, abstract: false, final false
   static inline void LogEventName(::StringW eventName);
 
-  /// @brief Method LogVerbose, addr 0x330730c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LogVerbose, addr 0x330b108, size 0x8c, virtual false, abstract: false, final false
   static inline void LogVerbose(::StringW log);
 
   static inline ::BGLib::AppFlow::Initialization::InitializationTime* New_ctor();
 
-  /// @brief Method ReportGameInitializationStarted, addr 0x32fcc00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReportGameInitializationStarted, addr 0x33009fc, size 0x5c, virtual false, abstract: false, final false
   inline void ReportGameInitializationStarted();
 
-  /// @brief Method ReportInitializationEnded, addr 0x32fce70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReportInitializationEnded, addr 0x3300c6c, size 0x5c, virtual false, abstract: false, final false
   inline void ReportInitializationEnded();
 
-  /// @brief Method ReportNoTransitionInstallerEnded, addr 0x3306748, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReportNoTransitionInstallerEnded, addr 0x330a544, size 0x5c, virtual false, abstract: false, final false
   inline void ReportNoTransitionInstallerEnded();
 
-  /// @brief Method ReportPreloadEnded, addr 0x32fcd08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReportPreloadEnded, addr 0x3300b04, size 0x5c, virtual false, abstract: false, final false
   inline void ReportPreloadEnded();
 
-  /// @brief Method ReportSceneContextEnded, addr 0x32fce14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReportSceneContextEnded, addr 0x3300c10, size 0x5c, virtual false, abstract: false, final false
   inline void ReportSceneContextEnded();
 
-  /// @brief Method RunBeforeInitialization, addr 0x3306614, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method RunBeforeInitialization, addr 0x330a410, size 0x134, virtual false, abstract: false, final false
   static inline void RunBeforeInitialization();
 
-  /// @brief Method ToString, addr 0x33067a4, size 0xac4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x330a5a0, size 0xac4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int64_t const& __cordl_internal_get__endInitializationTimeStamp() const;
@@ -225,17 +225,17 @@ public:
 
   constexpr void __cordl_internal_set_asyncLoadersDuration(::System::TimeSpan value);
 
-  /// @brief Method .ctor, addr 0x330659c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330a398, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::AppFlow::Initialization::InitializationTime* getStaticF__Current_k__BackingField();
 
-  /// @brief Method get_Current, addr 0x330643c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x330a238, size 0x4c, virtual false, abstract: false, final false
   static inline ::BGLib::AppFlow::Initialization::InitializationTime* get_Current();
 
   static inline void setStaticF__Current_k__BackingField(::BGLib::AppFlow::Initialization::InitializationTime* value);
 
-  /// @brief Method set_Current, addr 0x3306488, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_Current, addr 0x330a284, size 0x50, virtual false, abstract: false, final false
   static inline void set_Current(::BGLib::AppFlow::Initialization::InitializationTime* value);
 
 protected:
@@ -253,7 +253,7 @@ public:
   InitializationTime(InitializationTime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21566 };
 
   /// @brief Field asyncLoadersDuration, offset: 0x10, size: 0x8, def value: None
   ::System::TimeSpan ___asyncLoadersDuration;

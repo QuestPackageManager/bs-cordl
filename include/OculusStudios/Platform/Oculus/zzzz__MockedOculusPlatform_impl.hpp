@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Oculus/MockedOculusPlatform.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Oculus\MockedOculusPlatform.hpp"
 #include "OculusStudios/Platform/Core/zzzz__MockedPlatform_impl.hpp"
 #include "OculusStudios/Platform/Oculus/zzzz__MockedOculusPlatform_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatformInternal_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Oculus::MockedOculusPlatform::*)()>(
     &::OculusStudios::Platform::Oculus::MockedOculusPlatform::get_displayName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f2def0;
+  constexpr static std::size_t addrs = 0x5f32394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedOculusPlatform*>(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Oculus::MockedOculusPlatform::*)()>(&::OculusStudios::Platform::Oculus::MockedOculusPlatform::get_key)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f2df34;
+  constexpr static std::size_t addrs = 0x5f323d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedOculusPlatform*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::Vendor (::OculusStudios::Platform::Oculus::MockedOculusPlatform::*)()>(
     &::OculusStudios::Platform::Oculus::MockedOculusPlatform::get_vendor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2df78;
+  constexpr static std::size_t addrs = 0x5f3241c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedOculusPlatform*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::IPlatformUser* (::OculusStudios::Platform::Oculus::MockedOculusPlatform::*)()>(
     &::OculusStudios::Platform::Oculus::MockedOculusPlatform::get_user)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2df80;
+  constexpr static std::size_t addrs = 0x5f32424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedOculusPlatform*>(),
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task* (::OculusStudios::Platform::Oculus::MockedOculusPlatform::*)(::OculusStudios::Platform::Core::PlatformInitParams*)>(
         &::OculusStudios::Platform::Oculus::MockedOculusPlatform::OculusStudios_Platform_Core_IPlatformInternal_InitializeAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5f2df88;
+  constexpr static std::size_t addrs = 0x5f3242c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::MockedOculusPlatform::*)()>(&::OculusStudios::Platform::Oculus::MockedOculusPlatform::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2e170;
+  constexpr static std::size_t addrs = 0x5f32614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedOculusPlatform*>(), { ".ctor", {}, {} })));

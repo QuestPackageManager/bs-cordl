@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/WingedEdgeEnumerator.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\WingedEdgeEnumerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,18 +53,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x66fa818, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6702294, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x66fa7c4, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6702240, size 0x3c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::ProBuilder::WingedEdgeEnumerator* New_ctor(::UnityEngine::ProBuilder::WingedEdge* start);
 
-  /// @brief Method Reset, addr 0x66fa800, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x670227c, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x66fa810, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x670228c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::UnityEngine::ProBuilder::WingedEdge* const& __cordl_internal_get_m_Current() const;
@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Start(::UnityEngine::ProBuilder::WingedEdge* value);
 
-  /// @brief Method .ctor, addr 0x66fa7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6702238, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::WingedEdge* start);
 
-  /// @brief Method get_Current, addr 0x66fa808, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x6702284, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ProBuilder::WingedEdge* get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>"
@@ -109,7 +109,7 @@ public:
   WingedEdgeEnumerator(WingedEdgeEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16834 };
 
   /// @brief Field m_Start, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::WingedEdge* ___m_Start;

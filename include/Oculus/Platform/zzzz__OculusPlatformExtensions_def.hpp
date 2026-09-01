@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/OculusPlatformExtensions.hpp"
+// IWYU pragma private; include "Oculus\Platform\OculusPlatformExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,7 +133,7 @@ public:
   OculusPlatformExtensions___c__DisplayClass0_0_1(OculusPlatformExtensions___c__DisplayClass0_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18004 };
 
   /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<T>*>* ___tcs;
@@ -185,7 +185,7 @@ public:
                                                        ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18005 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -262,7 +262,7 @@ public:
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<T>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18006 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -308,7 +308,7 @@ public:
 
   template <typename T> using __c__DisplayClass0_0_1 = ::Oculus::Platform::OculusPlatformExtensions___c__DisplayClass0_0_1<T>;
 
-  /// @brief Method GetAwaiter, addr 0x5de9050, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x5ded50c, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> GetAwaiter(::Oculus::Platform::Request* oculusRequest);
 
   /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -339,7 +339,7 @@ public:
   OculusPlatformExtensions(OculusPlatformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18007 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

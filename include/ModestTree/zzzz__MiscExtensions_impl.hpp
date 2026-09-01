@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree/MiscExtensions.hpp"
+// IWYU pragma private; include "ModestTree\MiscExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__MiscExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::ArrayW<::System::Object*>)>(&::ModestTree::MiscExtensions::Fmt)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6e37544;
+  constexpr static std::size_t addrs = 0x6e3f0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Collections::Generic::IEnumerable_1<::StringW>*, ::StringW)>(&::ModestTree::MiscExtensions::Join)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6e383b0;
+  constexpr static std::size_t addrs = 0x6e3ff34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/DateTimeRawInfo.hpp"
+// IWYU pragma private; include "System\DateTimeRawInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +22,13 @@ namespace System {
 struct CORDL_TYPE DateTimeRawInfo {
 public:
   // Declarations
-  /// @brief Method AddNumber, addr 0x5c3c260, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddNumber, addr 0x5c4071c, size 0x18, virtual false, abstract: false, final false
   inline void AddNumber(int32_t value);
 
-  /// @brief Method GetNumber, addr 0x5c3c278, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNumber, addr 0x5c40734, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetNumber(int32_t index);
 
-  /// @brief Method Init, addr 0x5c3c240, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5c406fc, size 0x20, virtual false, abstract: false, final false
   inline void Init(int32_t* numberBuffer);
 
   // Ctor Parameters []

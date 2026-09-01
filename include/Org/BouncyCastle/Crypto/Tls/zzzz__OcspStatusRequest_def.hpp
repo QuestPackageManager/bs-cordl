@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/OcspStatusRequest.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\OcspStatusRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,12 +38,12 @@ public:
   /// @brief Field mResponderIDList, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mResponderIDList, put = __cordl_internal_set_mResponderIDList)) ::System::Collections::IList* mResponderIDList;
 
-  /// @brief Method Encode, addr 0x3468288, size 0x3dc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x346c048, size 0x3dc, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* New_ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method Parse, addr 0x3468664, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x346c424, size 0x2b0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* Parse(::System::IO::Stream* input);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& __cordl_internal_get_mRequestExtensions() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_mResponderIDList(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x3468270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346c030, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method get_RequestExtensions, addr 0x3468280, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequestExtensions, addr 0x346c040, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_RequestExtensions();
 
-  /// @brief Method get_ResponderIDList, addr 0x3468278, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResponderIDList, addr 0x346c038, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_ResponderIDList();
 
 protected:

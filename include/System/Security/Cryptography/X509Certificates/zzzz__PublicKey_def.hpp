@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/PublicKey.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\PublicKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,13 +56,13 @@ public:
   /// @brief Field _params, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params)) ::System::Security::Cryptography::AsnEncodedData* _params;
 
-  /// @brief Method DecodeDSA, addr 0x639c828, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method DecodeDSA, addr 0x63a42a4, size 0x4b8, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t> rawPublicKey, ::ArrayW<uint8_t> rawParameters);
 
-  /// @brief Method DecodeRSA, addr 0x639c478, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method DecodeRSA, addr 0x63a3ef4, size 0x3b0, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t> rawPublicKey);
 
-  /// @brief Method GetUnsignedBigInteger, addr 0x639cce8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetUnsignedBigInteger, addr 0x63a4764, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetUnsignedBigInteger(::ArrayW<uint8_t> integer);
 
   static inline ::System::Security::Cryptography::X509Certificates::PublicKey* New_ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters,
@@ -86,21 +86,21 @@ public:
 
   constexpr void __cordl_internal_set__params(::System::Security::Cryptography::AsnEncodedData* value);
 
-  /// @brief Method .ctor, addr 0x639c168, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a3be4, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters, ::System::Security::Cryptography::AsnEncodedData* keyValue);
 
   static inline ::ArrayW<uint8_t> getStaticF_Empty();
 
-  /// @brief Method get_EncodedKeyValue, addr 0x639c2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncodedKeyValue, addr 0x63a3d40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue();
 
-  /// @brief Method get_EncodedParameters, addr 0x639c2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncodedParameters, addr 0x63a3d48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnEncodedData* get_EncodedParameters();
 
-  /// @brief Method get_Key, addr 0x639c2d4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x63a3d50, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsymmetricAlgorithm* get_Key();
 
-  /// @brief Method get_Oid, addr 0x639cce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Oid, addr 0x63a475c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Oid();
 
   static inline void setStaticF_Empty(::ArrayW<uint8_t> value);
@@ -120,7 +120,7 @@ public:
   PublicKey(PublicKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11188 };
 
   /// @brief Field _keyValue, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::AsnEncodedData* ____keyValue;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerVBox.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerVBox.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerWidget_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerVBox_def.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerContainer_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerVBox::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerVBox::SetWidget)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x680013c;
+  constexpr static std::size_t addrs = 0x6807bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerVBox::*)(bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerVBox::OnSelection)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x68001a0;
+  constexpr static std::size_t addrs = 0x6807c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> (::UnityEngine::Rendering::UI::DebugUIHandlerVBox::*)()>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerVBox::Next)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6800260;
+  constexpr static std::size_t addrs = 0x6807cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerVBox::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerVBox::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x680031c;
+  constexpr static std::size_t addrs = 0x6807d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerVBox*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryObject.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\BinaryObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,18 +32,18 @@ public:
   /// @brief Field objectId, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
 
-  /// @brief Method Dump, addr 0x5b541b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5b58670, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObject* New_ctor();
 
-  /// @brief Method Read, addr 0x5b54154, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5b58610, size 0x60, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x5b540dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5b58598, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, int32_t mapId);
 
-  /// @brief Method Write, addr 0x5b540e4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x5b585a0, size 0x70, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_mapId() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b540d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b58594, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

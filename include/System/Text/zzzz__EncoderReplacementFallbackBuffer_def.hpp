@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/EncoderReplacementFallbackBuffer.hpp"
+// IWYU pragma private; include "System\Text\EncoderReplacementFallbackBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,21 +35,21 @@ public:
   /// @brief Field _strDefault, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault)) ::StringW _strDefault;
 
-  /// @brief Method Fallback, addr 0x5ad1094, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x5ad5550, size 0x130, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x5ad11c4, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x5ad5680, size 0x1d0, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x5ad1394, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x5ad5850, size 0x7c, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x5ad1410, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x5ad58cc, size 0x30, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
   static inline ::System::Text::EncoderReplacementFallbackBuffer* New_ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method Reset, addr 0x5ad144c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5ad5908, size 0x14, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__fallbackCount() const;
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set__strDefault(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5ad0fac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ad5468, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method get_Remaining, addr 0x5ad1440, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x5ad58fc, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:

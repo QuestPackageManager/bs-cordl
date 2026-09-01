@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/IColorStyledComponent.hpp"
+// IWYU pragma private; include "HMUI\IColorStyledComponent.hpp"
 #include "HMUI/zzzz__IColorStyledComponent_def.hpp"
 #include "GlobalNamespace/zzzz__IReadOnlyColorStyle_def.hpp"
 //  Writing Method size for method: ::HMUI::IColorStyledComponent.get_colorStyle

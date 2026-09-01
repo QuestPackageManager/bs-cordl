@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/RuntimeInformation.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\RuntimeInformation.hpp"
 #include "System/Runtime/InteropServices/zzzz__Architecture_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__OSPlatform_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::InteropServices::RuntimeInformation::GetRuntimeArchitecture)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b68c58;
+  constexpr static std::size_t addrs = 0x5b6d114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::InteropServices::RuntimeInformation::GetOSName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b68c68;
+  constexpr static std::size_t addrs = 0x5b6d124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::RuntimeInformation*>(), { "GetOSName", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::InteropServices::OSPlatform)>(&::System::Runtime::InteropServices::RuntimeInformation::IsOSPlatform)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5b68c78;
+  constexpr static std::size_t addrs = 0x5b6d134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::RuntimeInformation*>(),

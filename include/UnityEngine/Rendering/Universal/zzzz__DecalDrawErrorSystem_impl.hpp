@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalDrawErrorSystem.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalDrawErrorSystem.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawSystem_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalTechnique_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawErrorSystem_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawErrorSystem::*)(
     ::UnityEngine::Rendering::Universal::DecalEntityManager*, ::UnityEngine::Rendering::Universal::DecalTechnique)>(&::UnityEngine::Rendering::Universal::DecalDrawErrorSystem::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6850364;
+  constexpr static std::size_t addrs = 0x6857de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::DecalDrawErrorSystem::*)(::UnityEngine::Rendering::Universal::DecalCachedChunk*)>(
     &::UnityEngine::Rendering::Universal::DecalDrawErrorSystem::GetPassIndex)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68503f4;
+  constexpr static std::size_t addrs = 0x6857e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawErrorSystem*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::Universal::DecalDrawErrorSystem::*)(
     ::UnityEngine::Rendering::Universal::DecalEntityChunk*)>(&::UnityEngine::Rendering::Universal::DecalDrawErrorSystem::GetMaterial)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6850464;
+  constexpr static std::size_t addrs = 0x6857ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawErrorSystem*>(),

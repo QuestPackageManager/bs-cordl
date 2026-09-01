@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Cryptography/MD2.hpp"
+// IWYU pragma private; include "Mono\Security\Cryptography\MD2.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__MD2_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Cryptography::MD2._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::MD2::*)()>(&::Mono::Security::Cryptography::MD2::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a9b72c;
+  constexpr static std::size_t addrs = 0x5abbabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::MD2*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Cryptography::MD2* (*)()>(&::Mono::Security::Cryptography::MD2::Create)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5a9b738;
+  constexpr static std::size_t addrs = 0x5abbac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::MD2*>(), { "Create", {}, {} })));

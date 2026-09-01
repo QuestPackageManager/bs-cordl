@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampTokenInfo.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Tsp\TimeStampTokenInfo.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampTokenInfo_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)(::Org::BouncyCastle::Asn1::Tsp::TstInfo*)>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenInfo::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x361ee64;
+  constexpr static std::size_t addrs = 0x3622c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(&::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_IsOrdered)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3620160;
+  constexpr static std::size_t addrs = 0x3623f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_IsOrdered", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Tsp::Accuracy* (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_Accuracy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x362018c;
+  constexpr static std::size_t addrs = 0x3623f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_Accuracy", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(&::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_GenTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36201a4;
+  constexpr static std::size_t addrs = 0x3623f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_GenTime", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Tsp::GenTimeAccuracy* (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_GenTimeAccuracy)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x36201ac;
+  constexpr static std::size_t addrs = 0x3623f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_GenTimeAccuracy", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(&::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_Policy)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x361d528;
+  constexpr static std::size_t addrs = 0x36212e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_Policy", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_SerialNumber)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3620218;
+  constexpr static std::size_t addrs = 0x3623fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_SerialNumber", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_Tsa)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x362023c;
+  constexpr static std::size_t addrs = 0x3623ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_Tsa", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_Nonce)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x361d470;
+  constexpr static std::size_t addrs = 0x3621230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_Nonce", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_HashAlgorithm)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3620254;
+  constexpr static std::size_t addrs = 0x3624014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_HashAlgorithm", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(&::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_MessageImprintAlgOid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x361d4d4;
+  constexpr static std::size_t addrs = 0x3621294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_MessageImprintAlgOid", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(&::Org::BouncyCastle::Tsp::TimeStampTokenInfo::GetMessageImprintDigest)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x361d4b0;
+  constexpr static std::size_t addrs = 0x3621270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "GetMessageImprintDigest", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(&::Org::BouncyCastle::Tsp::TimeStampTokenInfo::GetEncoded)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3620278;
+  constexpr static std::size_t addrs = 0x3624038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "GetEncoded", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Tsp::TstInfo* (::Org::BouncyCastle::Tsp::TimeStampTokenInfo::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampTokenInfo::get_TstInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3620290;
+  constexpr static std::size_t addrs = 0x3624050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*>(), { "get_TstInfo", {}, {} })));

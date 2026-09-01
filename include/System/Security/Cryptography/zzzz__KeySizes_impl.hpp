@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/KeySizes.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\KeySizes.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__KeySizes_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::KeySizes.get_MinSize
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::KeySizes::*)()>(&::System::Security::Cryptography::KeySizes::get_MinSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5af4d38;
+  constexpr static std::size_t addrs = 0x5af91f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::KeySizes*>(), { "get_MinSize", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::KeySizes::*)()>(&::System::Security::Cryptography::KeySizes::get_MaxSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5af4d40;
+  constexpr static std::size_t addrs = 0x5af91fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::KeySizes*>(), { "get_MaxSize", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::KeySizes::*)()>(&::System::Security::Cryptography::KeySizes::get_SkipSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5af4d48;
+  constexpr static std::size_t addrs = 0x5af9204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::KeySizes*>(), { "get_SkipSize", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::KeySizes::*)(int32_t, int32_t, int32_t)>(&::System::Security::Cryptography::KeySizes::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5af4b30;
+  constexpr static std::size_t addrs = 0x5af8fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::KeySizes*>(),
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::KeySizes::*)(int32_t)>(&::System::Security::Cryptography::KeySizes::IsLegal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5af4d50;
+  constexpr static std::size_t addrs = 0x5af920c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::System::Security::Cryptography::KeySizes*>, int32_t)>(&::System::Security::Cryptography::KeySizes::IsLegalKeySize)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5af4d94;
+  constexpr static std::size_t addrs = 0x5af9250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

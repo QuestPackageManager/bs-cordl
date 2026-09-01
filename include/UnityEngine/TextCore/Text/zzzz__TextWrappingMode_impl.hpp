@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextWrappingMode.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextWrappingMode.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextWrappingMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::Text::TextWrappingMode::TextWrappingMode(int32_t value__) noexcept {

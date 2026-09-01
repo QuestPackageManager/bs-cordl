@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/VertexDisplacementFloatFxGroupEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace\VertexDisplacementFloatFxGroupEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,24 +66,24 @@ public:
   /// @brief Field _zAnimationCurve, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__zAnimationCurve, put = __cordl_internal_set__zAnimationCurve)) ::UnityEngine::AnimationCurve* _zAnimationCurve;
 
-  /// @brief Method CalculateDisplacementVector, addr 0x598ec80, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CalculateDisplacementVector, addr 0x5998a18, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 CalculateDisplacementVector(float_t value);
 
   static inline ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x598ebb8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5998950, size 0xc8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x598ed04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5998a9c, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetValue, addr 0x598ed28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5998ac0, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method SetValue, addr 0x598ed2c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5998ac4, size 0xd0, virtual false, abstract: false, final false
   inline void SetValue(float_t value);
 
-  /// @brief Method TriggerValue, addr 0x598edfc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x5998b94, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityEngine::Bounds const& __cordl_internal_get__bounds() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__zAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x598ee00, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5998b98, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__vertexDisplacementRangeVectorPropertyID();
@@ -162,7 +162,7 @@ public:
   VertexDisplacementFloatFxGroupEffectTarget(VertexDisplacementFloatFxGroupEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5887 };
 
   /// @brief Field _displacementRanges, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____displacementRanges;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SharedSpatialAnchorErrorHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace\SharedSpatialAnchorErrorHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,27 +41,27 @@ public:
   /// @brief Field cloudPermissionMsg, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_cloudPermissionMsg, put = __cordl_internal_set_cloudPermissionMsg)) ::StringW cloudPermissionMsg;
 
-  /// @brief Method Awake, addr 0x5a2ec08, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a330c4, size 0xa8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LogWarning, addr 0x5a2ed2c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x5a331e8, size 0xac, virtual false, abstract: false, final false
   inline void LogWarning(::StringW msg);
 
   static inline ::GlobalNamespace::SharedSpatialAnchorErrorHandler* New_ctor();
 
-  /// @brief Method OnAnchorCreate, addr 0x5a2ecb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnAnchorCreate, addr 0x5a3316c, size 0x7c, virtual false, abstract: false, final false
   inline void OnAnchorCreate(::GlobalNamespace::OVRSpatialAnchor* _, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-  /// @brief Method OnAnchorErase, addr 0x5a2ef64, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnAnchorErase, addr 0x5a33420, size 0xb4, virtual false, abstract: false, final false
   inline void OnAnchorErase(::GlobalNamespace::OVRSpatialAnchor* anchor, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-  /// @brief Method OnAnchorEraseAll, addr 0x5a2eef4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnAnchorEraseAll, addr 0x5a333b0, size 0x70, virtual false, abstract: false, final false
   inline void OnAnchorEraseAll(::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-  /// @brief Method OnAnchorShare, addr 0x5a2edd8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnAnchorShare, addr 0x5a33294, size 0x7c, virtual false, abstract: false, final false
   inline void OnAnchorShare(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* _, ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
-  /// @brief Method OnSharedSpatialAnchorLoad, addr 0x5a2ee54, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnSharedSpatialAnchorLoad, addr 0x5a33310, size 0xa0, virtual false, abstract: false, final false
   inline void OnSharedSpatialAnchorLoad(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* loadedAnchors,
                                         ::GlobalNamespace::OVRSpatialAnchor_OperationResult result);
 
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_cloudPermissionMsg(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a2f018, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a334d4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   SharedSpatialAnchorErrorHandler(SharedSpatialAnchorErrorHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21350 };
 
   /// @brief Field DisableRuntimeGUIAlerts, offset: 0x20, size: 0x1, def value: None
   bool ___DisableRuntimeGUIAlerts;

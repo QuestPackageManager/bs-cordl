@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/BindInfo.hpp"
+// IWYU pragma private; include "Zenject\BindInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,15 +106,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6e58464, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e5ffe8, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::BindInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x6e58358, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6e5fedc, size 0x10c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetContextInfo, addr 0x6e584c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContextInfo, addr 0x6e60044, size 0x8, virtual false, abstract: false, final false
   inline void SetContextInfo(::StringW contextInfo);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* const& __cordl_internal_get_Arguments() const;
@@ -225,7 +225,7 @@ public:
 
   constexpr void __cordl_internal_set_ToTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x6e58278, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e5fdfc, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -246,7 +246,7 @@ public:
   BindInfo(BindInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14300 };
 
   /// @brief Field MarkAsCreationBinding, offset: 0x10, size: 0x1, def value: None
   bool ___MarkAsCreationBinding;

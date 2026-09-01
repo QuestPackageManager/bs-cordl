@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeAppendBuffer.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeAppendBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   // Declarations
   __declspec(property(get = get_EndOfBuffer)) bool EndOfBuffer;
 
-  /// @brief Method CheckBounds, addr 0x64c60ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckBounds, addr 0x64cdb28, size 0xac, virtual false, abstract: false, final false
   inline void CheckBounds(int32_t structSize);
 
   /// @brief Method ReadNext, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -58,19 +58,19 @@ public:
   /// @brief Method ReadNext, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ReadNext(::by_ref<T> value);
 
-  /// @brief Method ReadNext, addr 0x64c6090, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadNext, addr 0x64cdb0c, size 0x1c, virtual false, abstract: false, final false
   inline void* ReadNext(int32_t structSize);
 
   /// @brief Method ReadNextArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void* ReadNextArray(::by_ref<int32_t> length);
 
-  /// @brief Method .ctor, addr 0x64c5fd4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64cda50, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer);
 
-  /// @brief Method .ctor, addr 0x64c6074, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64cdaf0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* ptr, int32_t length);
 
-  /// @brief Method get_EndOfBuffer, addr 0x64c6080, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_EndOfBuffer, addr 0x64cdafc, size 0x10, virtual false, abstract: false, final false
   inline bool get_EndOfBuffer();
 
   // Ctor Parameters []
@@ -82,7 +82,7 @@ public:
   constexpr UnsafeAppendBuffer_Reader(uint8_t* Ptr, int32_t Size, int32_t Offset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15756 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -127,7 +127,7 @@ public:
   /// @brief Convert operator to "::Unity::Collections::INativeDisposable"
   constexpr operator ::Unity::Collections::INativeDisposable*();
 
-  /// @brief Method Add, addr 0x64c5ecc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x64cd948, size 0x80, virtual false, abstract: false, final false
   inline void Add(void* ptr, int32_t structSize);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -139,43 +139,43 @@ public:
   /// @brief Method AddArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddArray(void* ptr, int32_t length);
 
-  /// @brief Method AsReader, addr 0x64c5fc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AsReader, addr 0x64cda40, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader AsReader();
 
-  /// @brief Method CheckAlignment, addr 0x64c5fe8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CheckAlignment, addr 0x64cda64, size 0x8c, virtual false, abstract: false, final false
   static inline void CheckAlignment(int32_t alignment);
 
-  /// @brief Method Dispose, addr 0x64c5dd4, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x64cd850, size 0xcc, virtual true, abstract: false, final true
   inline ::Unity::Jobs::JobHandle Dispose(::Unity::Jobs::JobHandle inputDeps);
 
-  /// @brief Method Dispose, addr 0x64c5d38, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x64cd7b4, size 0x9c, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Method Pop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Pop();
 
-  /// @brief Method Pop, addr 0x64c5f4c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x64cd9c8, size 0x78, virtual false, abstract: false, final false
   inline void Pop(void* ptr, int32_t structSize);
 
-  /// @brief Method Reset, addr 0x64c5ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x64cd91c, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ResizeUninitialized, addr 0x64c5ea8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResizeUninitialized, addr 0x64cd924, size 0x24, virtual false, abstract: false, final false
   inline void ResizeUninitialized(int32_t length);
 
-  /// @brief Method SetCapacity, addr 0x64c5b9c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x64cd618, size 0xfc, virtual false, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x64c5b88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64cd604, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity, int32_t alignment, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method .ctor, addr 0x64c5c98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64cd714, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(void* ptr, int32_t length);
 
-  /// @brief Method get_IsCreated, addr 0x64c5d28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x64cd7a4, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
-  /// @brief Method get_IsEmpty, addr 0x64c5d18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x64cd794, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
   /// @brief Convert to "::System::IDisposable"
@@ -194,7 +194,7 @@ public:
   constexpr UnsafeAppendBuffer(uint8_t* Ptr, int32_t Length, int32_t Capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t Alignment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15757 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

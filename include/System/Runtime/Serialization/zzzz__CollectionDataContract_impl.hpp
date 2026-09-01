@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/CollectionDataContract.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\CollectionDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__CollectionKind_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContract_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_KnownInterfaces)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x61352c0;
+  constexpr static std::size_t addrs = 0x613cd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Runtime::Serialization::CollectionKind, ::System::Type*, ::System::Runtime::Serialization::CollectionDataContractAttribute*)>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::Init)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x6135cf0;
+  constexpr static std::size_t addrs = 0x613d76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)(::System::Type*)>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6136540;
+  constexpr static std::size_t addrs = 0x613dfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)(
     ::System::Type*, ::System::Runtime::Serialization::DataContract*)>(&::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6136904;
+  constexpr static std::size_t addrs = 0x613e380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Type*, ::System::Runtime::Serialization::CollectionKind, ::System::Type*, ::System::Reflection::MethodInfo*, ::StringW, ::StringW)>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6136b10;
+  constexpr static std::size_t addrs = 0x613e58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Type*, ::System::Runtime::Serialization::CollectionKind, ::System::Type*, ::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*, ::System::Reflection::ConstructorInfo*)>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6136db4;
+  constexpr static std::size_t addrs = 0x613e830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Type*, ::System::Runtime::Serialization::CollectionKind, ::System::Type*, ::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*, ::System::Reflection::ConstructorInfo*,
     bool)>(&::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6136ea8;
+  constexpr static std::size_t addrs = 0x613e924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)(::System::Type*, ::StringW)>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6136ecc;
+  constexpr static std::size_t addrs = 0x613e948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Serialization::CollectionKind (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
         &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_Kind)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6136f54;
+  constexpr static std::size_t addrs = 0x613e9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_ItemType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6136f5c;
+  constexpr static std::size_t addrs = 0x613e9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
         &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_ItemContract)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6136f64;
+  constexpr static std::size_t addrs = 0x613e9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
         &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_SharedTypeContract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61371e4;
+  constexpr static std::size_t addrs = 0x613ec60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)(
     ::System::Runtime::Serialization::DataContract*)>(&::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::set_SharedTypeContract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61371ec;
+  constexpr static std::size_t addrs = 0x613ec68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_ItemName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61371f4;
+  constexpr static std::size_t addrs = 0x613ec70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_IsConstructorCheckRequired)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61371fc;
+  constexpr static std::size_t addrs = 0x613ec78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)(bool)>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::set_IsConstructorCheckRequired)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6137204;
+  constexpr static std::size_t addrs = 0x613ec80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_CollectionItemName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x613720c;
+  constexpr static std::size_t addrs = 0x613ec88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_KeyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6137214;
+  constexpr static std::size_t addrs = 0x613ec90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_ValueName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x613721c;
+  constexpr static std::size_t addrs = 0x613ec98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_IsDictionary)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6137144;
+  constexpr static std::size_t addrs = 0x613ebc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_SerializationExceptionMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6137224;
+  constexpr static std::size_t addrs = 0x613eca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_DeserializationExceptionMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x613722c;
+  constexpr static std::size_t addrs = 0x613eca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_ChildElementNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6137234;
+  constexpr static std::size_t addrs = 0x613ecb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)(::System::Xml::XmlDictionaryString*)>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::set_ChildElementNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x613723c;
+  constexpr static std::size_t addrs = 0x613ecb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_IsItemTypeNullable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6137244;
+  constexpr static std::size_t addrs = 0x613ecc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_GetEnumeratorMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x613724c;
+  constexpr static std::size_t addrs = 0x613ecc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_AddMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6137254;
+  constexpr static std::size_t addrs = 0x613ecd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::ConstructorInfo* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_Constructor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x613725c;
+  constexpr static std::size_t addrs = 0x613ecd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -469,7 +469,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_KnownDataContracts)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6137264;
+  constexpr static std::size_t addrs = 0x613ece0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_InvalidCollectionInSharedContractMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6137424;
+  constexpr static std::size_t addrs = 0x613eea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
         &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_XmlFormatWriterDelegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x613742c;
+  constexpr static std::size_t addrs = 0x613eea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -516,7 +516,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)(::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate*)>(
         &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::set_XmlFormatWriterDelegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6137434;
+  constexpr static std::size_t addrs = 0x613eeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -532,7 +532,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
         &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_XmlFormatReaderDelegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x613743c;
+  constexpr static std::size_t addrs = 0x613eeb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -548,7 +548,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)(::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate*)>(
         &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::set_XmlFormatReaderDelegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6137444;
+  constexpr static std::size_t addrs = 0x613eec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -564,7 +564,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)()>(
         &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::get_XmlFormatGetOnlyCollectionReaderDelegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x613744c;
+  constexpr static std::size_t addrs = 0x613eec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -580,7 +580,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::*)(::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate*)>(
         &::System::Runtime::Serialization::CollectionDataContract_CollectionDataContractCriticalHelper::set_XmlFormatGetOnlyCollectionReaderDelegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6137454;
+  constexpr static std::size_t addrs = 0x613eed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1168,7 +1168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::*)(::System::Collections::IDictionaryEnumerator*)>(
     &::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x613745c;
+  constexpr static std::size_t addrs = 0x613eed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator*>(),
@@ -1182,7 +1182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6137464;
+  constexpr static std::size_t addrs = 0x613eee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1196,7 +1196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6137468;
+  constexpr static std::size_t addrs = 0x613eee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1210,7 +1210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::KeyValue_2<::System::Object*, ::System::Object*> (
     ::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::*)()>(&::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x613750c;
+  constexpr static std::size_t addrs = 0x613ef88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1224,7 +1224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6137638;
+  constexpr static std::size_t addrs = 0x613f0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1239,7 +1239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract_DictionaryEnumerator::Reset)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61376a0;
+  constexpr static std::size_t addrs = 0x613f11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1404,7 +1404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract::*)(::System::Type*)>(
     &::System::Runtime::Serialization::CollectionDataContract::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6131fe4;
+  constexpr static std::size_t addrs = 0x6139a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1418,7 +1418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract::*)(::System::Type*, ::System::Runtime::Serialization::DataContract*)>(
     &::System::Runtime::Serialization::CollectionDataContract::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x613212c;
+  constexpr static std::size_t addrs = 0x6139ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1434,7 +1434,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
                                                                                                                           ::System::Type*, ::System::Reflection::MethodInfo*, ::StringW, ::StringW)>(
     &::System::Runtime::Serialization::CollectionDataContract::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x61321b8;
+  constexpr static std::size_t addrs = 0x6139c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1453,7 +1453,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Type*, ::System::Runtime::Serialization::CollectionKind, ::System::Type*, ::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*, ::System::Reflection::ConstructorInfo*)>(
     &::System::Runtime::Serialization::CollectionDataContract::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x613238c;
+  constexpr static std::size_t addrs = 0x6139e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1473,7 +1473,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Type*, ::System::Runtime::Serialization::CollectionKind, ::System::Type*, ::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*, ::System::Reflection::ConstructorInfo*,
     bool)>(&::System::Runtime::Serialization::CollectionDataContract::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6132454;
+  constexpr static std::size_t addrs = 0x6139ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1492,7 +1492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract::*)(::System::Type*, ::StringW)>(
     &::System::Runtime::Serialization::CollectionDataContract::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6132524;
+  constexpr static std::size_t addrs = 0x6139fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(),
@@ -1506,7 +1506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract::*)(::System::Runtime::Serialization::DataContract*)>(
     &::System::Runtime::Serialization::CollectionDataContract::InitCollectionDataContract)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6132068;
+  constexpr static std::size_t addrs = 0x6139ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1520,7 +1520,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (*)()>(&::System::Runtime::Serialization::CollectionDataContract::get_KnownInterfaces)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61325bc;
+  constexpr static std::size_t addrs = 0x613a038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1534,7 +1534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::CollectionKind (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_Kind)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61325c4;
+  constexpr static std::size_t addrs = 0x613a040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(), { "get_Kind", {}, {} })));
@@ -1547,7 +1547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_ItemType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61325dc;
+  constexpr static std::size_t addrs = 0x613a058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(), { "get_ItemType", {}, {} })));
@@ -1560,7 +1560,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_ItemContract)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x61325f4;
+  constexpr static std::size_t addrs = 0x613a070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1574,7 +1574,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_SharedTypeContract)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x612f478;
+  constexpr static std::size_t addrs = 0x6136ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1588,7 +1588,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_ItemName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x613261c;
+  constexpr static std::size_t addrs = 0x613a098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(), { "get_ItemName", {}, {} })));
@@ -1601,7 +1601,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_CollectionItemName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6132634;
+  constexpr static std::size_t addrs = 0x613a0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1615,7 +1615,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_KeyName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x613263c;
+  constexpr static std::size_t addrs = 0x613a0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(), { "get_KeyName", {}, {} })));
@@ -1628,7 +1628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_IsDictionary)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6132654;
+  constexpr static std::size_t addrs = 0x613a0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1642,7 +1642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryString* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_ChildElementNamespace)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6132674;
+  constexpr static std::size_t addrs = 0x613a0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1656,7 +1656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_IsItemTypeNullable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61327e0;
+  constexpr static std::size_t addrs = 0x613a25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1670,7 +1670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_IsConstructorCheckRequired)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61327f8;
+  constexpr static std::size_t addrs = 0x613a274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1684,7 +1684,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract::*)(bool)>(
     &::System::Runtime::Serialization::CollectionDataContract::set_IsConstructorCheckRequired)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6132810;
+  constexpr static std::size_t addrs = 0x613a28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1698,7 +1698,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_GetEnumeratorMethod)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x613282c;
+  constexpr static std::size_t addrs = 0x613a2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1712,7 +1712,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_AddMethod)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6132844;
+  constexpr static std::size_t addrs = 0x613a2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(), { "get_AddMethod", {}, {} })));
@@ -1725,7 +1725,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::ConstructorInfo* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_Constructor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x613285c;
+  constexpr static std::size_t addrs = 0x613a2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1739,7 +1739,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* (
     ::System::Runtime::Serialization::CollectionDataContract::*)()>(&::System::Runtime::Serialization::CollectionDataContract::get_KnownDataContracts)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6132874;
+  constexpr static std::size_t addrs = 0x613a2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(),
@@ -1753,7 +1753,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_InvalidCollectionInSharedContractMessage)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6132890;
+  constexpr static std::size_t addrs = 0x613a30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1767,7 +1767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_SerializationExceptionMessage)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61328a8;
+  constexpr static std::size_t addrs = 0x613a324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1781,7 +1781,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_DeserializationExceptionMessage)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61328c0;
+  constexpr static std::size_t addrs = 0x613a33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1795,7 +1795,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_IsReadOnlyContract)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x61328d8;
+  constexpr static std::size_t addrs = 0x613a354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1809,7 +1809,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::XmlFormatCollectionWriterDelegate* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_XmlFormatWriterDelegate)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x61328f8;
+  constexpr static std::size_t addrs = 0x613a374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1823,7 +1823,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::XmlFormatCollectionReaderDelegate* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_XmlFormatReaderDelegate)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6132a60;
+  constexpr static std::size_t addrs = 0x613a4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1837,7 +1837,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::XmlFormatGetOnlyCollectionReaderDelegate* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::get_XmlFormatGetOnlyCollectionReaderDelegate)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x6132be0;
+  constexpr static std::size_t addrs = 0x613a65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1851,7 +1851,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::CollectionDataContract::*)(::System::Type*)>(
     &::System::Runtime::Serialization::CollectionDataContract::GetSharedTypeContract)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6132280;
+  constexpr static std::size_t addrs = 0x6139cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1864,7 +1864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Runtime::Serialization::CollectionDataContract::IsCollectionInterface)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x612e730;
+  constexpr static std::size_t addrs = 0x61361ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1877,7 +1877,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Runtime::Serialization::CollectionDataContract::IsCollection)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6132e88;
+  constexpr static std::size_t addrs = 0x613a904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1890,7 +1890,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::System::Type*>)>(&::System::Runtime::Serialization::CollectionDataContract::IsCollection)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6132ea8;
+  constexpr static std::size_t addrs = 0x613a924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1904,7 +1904,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, bool, bool)>(&::System::Runtime::Serialization::CollectionDataContract::IsCollection)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x613112c;
+  constexpr static std::size_t addrs = 0x6138ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1919,7 +1919,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::System::Type*>, bool, bool)>(
     &::System::Runtime::Serialization::CollectionDataContract::IsCollectionHelper)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6132eb4;
+  constexpr static std::size_t addrs = 0x613a930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1935,7 +1935,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::System::Runtime::Serialization::DataContract*>)>(
     &::System::Runtime::Serialization::CollectionDataContract::TryCreate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6134034;
+  constexpr static std::size_t addrs = 0x613bab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1950,7 +1950,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::System::Runtime::Serialization::DataContract*>)>(
     &::System::Runtime::Serialization::CollectionDataContract::TryCreateGetOnlyCollectionDataContract)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x613405c;
+  constexpr static std::size_t addrs = 0x613bad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1966,7 +1966,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)(::StringW, ::System::Type*, ::System::Type*)>(
     &::System::Runtime::Serialization::CollectionDataContract::GetTargetMethodWithName)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6134110;
+  constexpr static std::size_t addrs = 0x613bb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1980,7 +1980,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Runtime::Serialization::CollectionDataContract::IsArraySegment)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x61341e0;
+  constexpr static std::size_t addrs = 0x613bc5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1994,7 +1994,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, bool, ::by_ref<::System::Runtime::Serialization::DataContract*>, ::by_ref<::System::Type*>, bool, bool)>(
     &::System::Runtime::Serialization::CollectionDataContract::IsCollectionOrTryCreate)> {
   constexpr static std::size_t size = 0x10e4;
-  constexpr static std::size_t addrs = 0x6132f50;
+  constexpr static std::size_t addrs = 0x613a9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2011,7 +2011,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Runtime::Serialization::CollectionDataContract::IsCollectionDataContract)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x61344a0;
+  constexpr static std::size_t addrs = 0x613bf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2026,7 +2026,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, bool, bool, bool, ::StringW, ::StringW, ::by_ref<::System::Runtime::Serialization::DataContract*>)>(
     &::System::Runtime::Serialization::CollectionDataContract::HandleIfInvalidCollection)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x6134294;
+  constexpr static std::size_t addrs = 0x613bd10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2044,7 +2044,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, bool, ::StringW, ::StringW, ::by_ref<::StringW>, ::by_ref<::StringW>)>(
     &::System::Runtime::Serialization::CollectionDataContract::GetReadOnlyCollectionExceptionMessages)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6134518;
+  constexpr static std::size_t addrs = 0x613bf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2061,7 +2061,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::System::Runtime::Serialization::CollectionDataContract::GetInvalidCollectionMessage)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6134a14;
+  constexpr static std::size_t addrs = 0x613c490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2076,7 +2076,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::System::Type*, ::by_ref<::System::Reflection::MethodInfo*>, ::by_ref<::System::Reflection::MethodInfo*>)>(
     &::System::Runtime::Serialization::CollectionDataContract::FindCollectionMethodsOnInterface)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6134b20;
+  constexpr static std::size_t addrs = 0x613c59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2094,7 +2094,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::System::Type*, ::ArrayW<::System::Type*>, bool, ::by_ref<::System::Reflection::MethodInfo*>,
                                                                 ::by_ref<::System::Reflection::MethodInfo*>)>(&::System::Runtime::Serialization::CollectionDataContract::GetCollectionMethods)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x61346d8;
+  constexpr static std::size_t addrs = 0x613c154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2111,7 +2111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Runtime::Serialization::CollectionDataContract::IsKnownInterface)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6134c80;
+  constexpr static std::size_t addrs = 0x613c6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2125,7 +2125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::DataContract* (
     ::System::Runtime::Serialization::CollectionDataContract::*)(::System::Runtime::Serialization::SerializationMode)>(&::System::Runtime::Serialization::CollectionDataContract::GetValidContract)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6134d4c;
+  constexpr static std::size_t addrs = 0x613c7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(),
@@ -2139,7 +2139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::ThrowIfInvalid)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6134d98;
+  constexpr static std::size_t addrs = 0x613c814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2153,7 +2153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::GetValidContract)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6134e00;
+  constexpr static std::size_t addrs = 0x613c87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(),
@@ -2167,7 +2167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::CheckConstructor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6134e30;
+  constexpr static std::size_t addrs = 0x613c8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2181,7 +2181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::CollectionDataContract::*)(::System::Runtime::Serialization::SerializationMode)>(
     &::System::Runtime::Serialization::CollectionDataContract::IsValidContract)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6134f4c;
+  constexpr static std::size_t addrs = 0x613c9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(),
@@ -2196,7 +2196,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::
     ::System::Object*, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>*)>(
     &::System::Runtime::Serialization::CollectionDataContract::Equals)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6134f8c;
+  constexpr static std::size_t addrs = 0x613ca08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(),
@@ -2210,7 +2210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::CollectionDataContract::*)()>(
     &::System::Runtime::Serialization::CollectionDataContract::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6135124;
+  constexpr static std::size_t addrs = 0x613cba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(),
@@ -2225,7 +2225,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
                                                                                                                           ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*)>(
     &::System::Runtime::Serialization::CollectionDataContract::WriteXmlValue)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6135138;
+  constexpr static std::size_t addrs = 0x613cbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(),
@@ -2240,7 +2240,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
     ::System::Runtime::Serialization::CollectionDataContract::*)(::System::Runtime::Serialization::XmlReaderDelegator*, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*)>(
     &::System::Runtime::Serialization::CollectionDataContract::ReadXmlValue)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x61351ac;
+  constexpr static std::size_t addrs = 0x613cc28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CollectionDataContract*>(),

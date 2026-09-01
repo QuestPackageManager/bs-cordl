@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonObjectId.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonObjectId.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonObjectId_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Bson::BsonObjectId.get_Value
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Newtonsoft::Json::Bson::BsonObjectId::*)()>(&::Newtonsoft::Json::Bson::BsonObjectId::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5da8134;
+  constexpr static std::size_t addrs = 0x5dac5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Bson::BsonObjectId*>(), { "get_Value", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonObjectId::*)(::ArrayW<uint8_t>)>(&::Newtonsoft::Json::Bson::BsonObjectId::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5da813c;
+  constexpr static std::size_t addrs = 0x5dac5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

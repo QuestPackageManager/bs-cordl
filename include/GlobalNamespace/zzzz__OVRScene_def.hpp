@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRScene.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRScene.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,16 +32,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRScene : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RequestSpaceSetup, addr 0x5e13cdc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method RequestSpaceSetup, addr 0x5e18198, size 0x108, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup();
 
-  /// @brief Method RequestSpaceSetup, addr 0x5e13de4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RequestSpaceSetup, addr 0x5e182a0, size 0x5c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSemanticLabels_Classification>* classifications);
 
-  /// @brief Method RequestSpaceSetup, addr 0x5e13bd8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RequestSpaceSetup, addr 0x5e18094, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> RequestSpaceSetup(::StringW labels);
 
-  /// @brief Method ValidateRequestString, addr 0x5e13e40, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method ValidateRequestString, addr 0x5e182fc, size 0x2d8, virtual false, abstract: false, final false
   static inline void ValidateRequestString(::System::Collections::Generic::IEnumerable_1<::StringW>* labels, ::StringW paramName);
 
 protected:
@@ -59,7 +59,7 @@ public:
   OVRScene(OVRScene const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

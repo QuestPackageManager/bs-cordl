@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultyMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapDifficultyMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMethods_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapDifficultyMethods::Name)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x371ad4c;
+  constexpr static std::size_t addrs = 0x3720bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapDifficultyMethods::ShortName)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x371ae18;
+  constexpr static std::size_t addrs = 0x3720c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapDifficultyMethods::DefaultRating)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x371aee4;
+  constexpr static std::size_t addrs = 0x3720d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::GlobalNamespace::BeatmapDifficulty, float_t, bool)>(&::GlobalNamespace::BeatmapDifficultyMethods::NoteJumpMovementSpeed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x371aefc;
+  constexpr static std::size_t addrs = 0x3720d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapDifficultyMethods::DefaultNoteJumpMovementSpeed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x371af34;
+  constexpr static std::size_t addrs = 0x3720db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultyMethods*>(),

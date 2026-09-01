@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RemoveDrawInstanceIndicesJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RemoveDrawInstanceIndicesJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6814f64, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x681c9e0, size 0x1e0, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method RemoveDrawBatch, addr 0x6814cf4, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method RemoveDrawBatch, addr 0x681c770, size 0x270, virtual false, abstract: false, final false
   inline void RemoveDrawBatch(::by_ref<::UnityEngine::Rendering::DrawKey> key);
 
-  /// @brief Method RemoveDrawRange, addr 0x6814b50, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RemoveDrawRange, addr 0x681c5cc, size 0x1a4, virtual false, abstract: false, final false
   inline void RemoveDrawRange(::by_ref<::UnityEngine::Rendering::RangeKey> key);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -70,7 +70,7 @@ public:
                                          ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17672 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

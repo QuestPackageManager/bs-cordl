@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightTranslationGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightTranslationGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,7 +77,7 @@ public:
 
   static inline ::GlobalNamespace::LightTranslationGroup* New_ctor();
 
-  /// @brief Method __Validate, addr 0x599213c, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method __Validate, addr 0x599af70, size 0x240, virtual false, abstract: false, final false
   inline bool __Validate();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__xDistributionLimits() const;
@@ -116,28 +116,28 @@ public:
 
   constexpr void __cordl_internal_set__zTranslationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x599237c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599b1b0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_transformGroupType, addr 0x5992104, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_transformGroupType, addr 0x599af38, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::LightTransformGroupType get_transformGroupType();
 
-  /// @brief Method get_xDistributionLimits, addr 0x5992124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xDistributionLimits, addr 0x599af58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xDistributionLimits();
 
-  /// @brief Method get_xTranslationLimits, addr 0x599210c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xTranslationLimits, addr 0x599af40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xTranslationLimits();
 
-  /// @brief Method get_yDistributionLimits, addr 0x599212c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yDistributionLimits, addr 0x599af60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yDistributionLimits();
 
-  /// @brief Method get_yTranslationLimits, addr 0x5992114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yTranslationLimits, addr 0x599af48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yTranslationLimits();
 
-  /// @brief Method get_zDistributionLimits, addr 0x5992134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zDistributionLimits, addr 0x599af68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zDistributionLimits();
 
-  /// @brief Method get_zTranslationLimits, addr 0x599211c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zTranslationLimits, addr 0x599af50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zTranslationLimits();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
@@ -158,7 +158,7 @@ public:
   LightTranslationGroup(LightTranslationGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5917 };
 
   /// @brief Field _xTranslationLimits, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____xTranslationLimits;

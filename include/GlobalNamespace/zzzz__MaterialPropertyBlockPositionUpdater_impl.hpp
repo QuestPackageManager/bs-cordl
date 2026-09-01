@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockPositionUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockPositionUpdater.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockPositionUpdater_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockPositionUpdater::*)()>(&::GlobalNamespace::MaterialPropertyBlockPositionUpdater::SetProperty)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5872b3c;
+  constexpr static std::size_t addrs = 0x587247c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockPositionUpdater*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockPositionUpdater::*)()>(&::GlobalNamespace::MaterialPropertyBlockPositionUpdater::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5872bf0;
+  constexpr static std::size_t addrs = 0x5872530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockPositionUpdater*>(), { ".ctor", {}, {} })));

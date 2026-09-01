@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NetworkPlayerTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace\NetworkPlayerTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,18 +73,18 @@ public:
 
   __declspec(property(get = get_showSeparator, put = set_showSeparator)) bool showSeparator;
 
-  /// @brief Method HighlightDidChange, addr 0x5a0ba20, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x5a13b34, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::NetworkPlayerTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x5a0b808, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x5a1391c, size 0x214, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x5a0ba1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x5a13b30, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x5a0ac3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5a12d50, size 0xa0, virtual false, abstract: false, final false
   inline void SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -153,16 +153,16 @@ public:
 
   constexpr void __cordl_internal_set__textColorSelected(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x5a0ba8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a13ba0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeColor, addr 0x5a0ba24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_activeColor, addr 0x5a13b38, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_activeColor();
 
-  /// @brief Method get_showSeparator, addr 0x5a0b7f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_showSeparator, addr 0x5a13904, size 0x18, virtual false, abstract: false, final false
   inline bool get_showSeparator();
 
-  /// @brief Method set_showSeparator, addr 0x5a0acdc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x5a12df0, size 0x2c, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
 protected:
@@ -180,7 +180,7 @@ public:
   NetworkPlayerTableCell(NetworkPlayerTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6395 };
 
   /// @brief Field _playerNameText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;

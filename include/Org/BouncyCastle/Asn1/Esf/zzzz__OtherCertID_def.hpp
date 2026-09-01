@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/OtherCertID.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\OtherCertID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   /// @brief Field otherCertHash, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_otherCertHash, put = __cordl_internal_set_otherCertHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHash* otherCertHash;
 
-  /// @brief Method GetInstance, addr 0x336d3cc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x337118c, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherCertID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherCertID* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* otherCertHash);
@@ -53,7 +53,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherCertID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x337169c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x337545c, size 0x13c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial* const& __cordl_internal_get_issuerSerial() const;
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set_otherCertHash(::Org::BouncyCastle::Asn1::Esf::OtherHash* value);
 
-  /// @brief Method .ctor, addr 0x337162c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33753ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* otherCertHash);
 
-  /// @brief Method .ctor, addr 0x3371634, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33753f4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHash* otherCertHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0x3371478, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3375238, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_IssuerSerial, addr 0x3371694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerSerial, addr 0x3375454, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
-  /// @brief Method get_OtherCertHash, addr 0x337168c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherCertHash, addr 0x337544c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* get_OtherCertHash();
 
 protected:

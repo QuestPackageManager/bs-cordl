@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerConditionalActiveByLayout.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerConditionalActiveByLayout.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConditionalActiveByLayout_def.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConditionalActiveByLayout::*)()>(&::GlobalNamespace::MultiplayerConditionalActiveByLayout::Start)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x59c8fe4;
+  constexpr static std::size_t addrs = 0x59d1250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>(), { "Start", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConditionalActiveByLayout::*)(::GlobalNamespace::MultiplayerPlayerLayout, int32_t)>(
     &::GlobalNamespace::MultiplayerConditionalActiveByLayout::HandlePlayersLayoutWasCalculated)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x59c90c0;
+  constexpr static std::size_t addrs = 0x59d132c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConditionalActiveByLayout::*)()>(&::GlobalNamespace::MultiplayerConditionalActiveByLayout::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c91d8;
+  constexpr static std::size_t addrs = 0x59d1384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>(), { ".ctor", {}, {} })));

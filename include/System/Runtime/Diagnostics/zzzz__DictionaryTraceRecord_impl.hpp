@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Diagnostics/DictionaryTraceRecord.hpp"
+// IWYU pragma private; include "System\Runtime\Diagnostics\DictionaryTraceRecord.hpp"
 #include "System/Runtime/Diagnostics/zzzz__TraceRecord_impl.hpp"
 #include "System/Runtime/Diagnostics/zzzz__DictionaryTraceRecord_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DictionaryTraceRecord::*)(::System::Collections::IDictionary*)>(
     &::System::Runtime::Diagnostics::DictionaryTraceRecord::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x618530c;
+  constexpr static std::size_t addrs = 0x618cd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DictionaryTraceRecord::*)(::System::Xml::XmlWriter*)>(
     &::System::Runtime::Diagnostics::DictionaryTraceRecord::WriteTo)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x6185318;
+  constexpr static std::size_t addrs = 0x618cd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DictionaryTraceRecord*>(),

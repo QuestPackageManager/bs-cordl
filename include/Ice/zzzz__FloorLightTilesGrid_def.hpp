@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice/FloorLightTilesGrid.hpp"
+// IWYU pragma private; include "Ice\FloorLightTilesGrid.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,19 +63,19 @@ public:
 
   __declspec(property(get = get_ySize)) int32_t ySize;
 
-  /// @brief Method DespawnAll, addr 0x32864f0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method DespawnAll, addr 0x328a280, size 0xd4, virtual true, abstract: false, final false
   inline void DespawnAll();
 
-  /// @brief Method DespawnTile, addr 0x32865c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DespawnTile, addr 0x328a354, size 0x6c, virtual false, abstract: false, final false
   inline void DespawnTile(::Ice::FloorLightTile* floorLightTile);
 
-  /// @brief Method HandleFloorLightTileDidFinish, addr 0x3286630, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleFloorLightTileDidFinish, addr 0x328a3c0, size 0x4, virtual false, abstract: false, final false
   inline void HandleFloorLightTileDidFinish(::Ice::FloorLightTile* floorLightTile);
 
-  /// @brief Method HighlightTile, addr 0x3285b48, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HighlightTile, addr 0x32898d8, size 0x1c4, virtual false, abstract: false, final false
   inline void HighlightTile(int32_t x, int32_t y, float_t fadeInDuration, float_t fadeOutDuration, ::UnityEngine::Color color);
 
-  /// @brief Method Init, addr 0x32855c8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3289358, size 0x1a4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 anchorPoint, int32_t xSize, int32_t ySize, float_t tileWidth, float_t tileHeight);
 
   static inline ::Ice::FloorLightTilesGrid* New_ctor();
@@ -122,10 +122,10 @@ public:
 
   constexpr void __cordl_internal_set__ySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3286634, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x328a3c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ySize, addr 0x32864e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ySize, addr 0x328a278, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ySize();
 
 protected:
@@ -143,7 +143,7 @@ public:
   FloorLightTilesGrid(FloorLightTilesGrid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23249 };
 
   /// @brief Field _floorLightTileMemoryPool, offset: 0x20, size: 0x8, def value: None
   ::Ice::FloorLightTile_Pool* ____floorLightTileMemoryPool;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_Sprite.hpp"
+// IWYU pragma private; include "TMPro\TMP_Sprite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_unicode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6997e1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x699f898, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   TMP_Sprite(TMP_Sprite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15977 };
 
   /// @brief Field name, offset: 0x38, size: 0x8, def value: None
   ::StringW ___name;

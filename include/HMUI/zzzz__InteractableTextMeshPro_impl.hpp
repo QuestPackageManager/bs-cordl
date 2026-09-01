@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/InteractableTextMeshPro.hpp"
+// IWYU pragma private; include "HMUI\InteractableTextMeshPro.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "HMUI/zzzz__InteractableTextMeshPro_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InteractableTextMeshPro::*)()>(&::HMUI::InteractableTextMeshPro::OnCanvasGroupChanged)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x5879868;
+  constexpr static std::size_t addrs = 0x58791a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InteractableTextMeshPro::*)()>(&::HMUI::InteractableTextMeshPro::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5879a50;
+  constexpr static std::size_t addrs = 0x5879390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InteractableTextMeshPro*>(), { ".ctor", {}, {} })));

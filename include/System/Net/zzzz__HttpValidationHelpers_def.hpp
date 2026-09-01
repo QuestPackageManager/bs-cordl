@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/HttpValidationHelpers.hpp"
+// IWYU pragma private; include "System\Net\HttpValidationHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   /// @brief Field s_httpTrimCharacters, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_httpTrimCharacters, put = setStaticF_s_httpTrimCharacters)) ::ArrayW<char16_t> s_httpTrimCharacters;
 
-  /// @brief Method IsInvalidMethodOrHeaderString, addr 0x63f0954, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsInvalidMethodOrHeaderString, addr 0x63f83d0, size 0xec, virtual false, abstract: false, final false
   static inline bool IsInvalidMethodOrHeaderString(::StringW stringValue);
 
   static inline ::ArrayW<char16_t> getStaticF_s_httpTrimCharacters();
@@ -46,7 +46,7 @@ public:
   HttpValidationHelpers(HttpValidationHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11446 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

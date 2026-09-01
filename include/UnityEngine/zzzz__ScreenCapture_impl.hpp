@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ScreenCapture.hpp"
+// IWYU pragma private; include "UnityEngine\ScreenCapture.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScreenCapture_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::ScreenCapture::CaptureScreenshot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6bae12c;
+  constexpr static std::size_t addrs = 0x6bb5cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, int32_t, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode)>(&::UnityEngine::ScreenCapture::CaptureScreenshot)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6bae138;
+  constexpr static std::size_t addrs = 0x6bb5cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, int32_t, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode)>(
     &::UnityEngine::ScreenCapture::CaptureScreenshot_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6bae274;
+  constexpr static std::size_t addrs = 0x6bb5df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

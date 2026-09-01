@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4/BasicEvent.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4\BasicEvent.hpp"
 #include "BeatmapSaveDataCommon/zzzz__BeatmapEventType_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BasicEvent_def.hpp"
 // Ctor Parameters [CppParam { name: "t", ty: "::BeatmapSaveDataCommon::BeatmapEventType", modifiers: "", def_value: Some("{}") }, CppParam { name: "i", ty: "int32_t", modifiers: "", def_value:

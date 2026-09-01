@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ShaderVariablesProbeVolumes.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ShaderVariablesProbeVolumes.hpp"
 #include "Unity/Mathematics/zzzz__uint4_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderVariablesProbeVolumes_def.hpp"

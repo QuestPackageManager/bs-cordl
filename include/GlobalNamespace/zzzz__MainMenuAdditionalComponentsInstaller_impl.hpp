@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainMenuAdditionalComponentsInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainMenuAdditionalComponentsInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MainMenuAdditionalComponentsInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainMenuAdditionalComponentsInstaller.InstallBindings
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuAdditionalComponentsInstaller::*)()>(
     &::GlobalNamespace::MainMenuAdditionalComponentsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x59f5b78;
+  constexpr static std::size_t addrs = 0x59fdc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainMenuAdditionalComponentsInstaller*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuAdditionalComponentsInstaller::*)()>(&::GlobalNamespace::MainMenuAdditionalComponentsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59f5bec;
+  constexpr static std::size_t addrs = 0x59fdcc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainMenuAdditionalComponentsInstaller*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Numerics/BigNumber.hpp"
+// IWYU pragma private; include "System\Numerics\BigNumber.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ namespace System::Numerics {
 struct CORDL_TYPE BigNumber_BigNumberBuffer {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x60ef90c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x60f7388, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigNumber_BigNumberBuffer Create();
 
   // Ctor Parameters []
@@ -63,7 +63,7 @@ public:
   constexpr BigNumber_BigNumberBuffer(::System::Text::StringBuilder* digits, int32_t precision, int32_t scale, bool sign) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21845 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -103,37 +103,37 @@ public:
   // Declarations
   using BigNumberBuffer = ::System::Numerics::BigNumber_BigNumberBuffer;
 
-  /// @brief Method FormatBigInteger, addr 0x60f0a6c, size 0xc34, virtual false, abstract: false, final false
+  /// @brief Method FormatBigInteger, addr 0x60f84e8, size 0xc34, virtual false, abstract: false, final false
   static inline ::StringW FormatBigInteger(bool targetSpan, ::System::Numerics::BigInteger value, ::StringW formatString, ::System::ReadOnlySpan_1<char16_t> formatSpan,
                                            ::System::Globalization::NumberFormatInfo* info, ::System::Span_1<char16_t> destination, ::by_ref<int32_t> charsWritten, ::by_ref<bool> spanSuccess);
 
-  /// @brief Method FormatBigInteger, addr 0x60ebdd8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FormatBigInteger, addr 0x60f3854, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW FormatBigInteger(::System::Numerics::BigInteger value, ::StringW format, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatBigIntegerToHex, addr 0x60f000c, size 0x6c4, virtual false, abstract: false, final false
+  /// @brief Method FormatBigIntegerToHex, addr 0x60f7a88, size 0x6c4, virtual false, abstract: false, final false
   static inline ::StringW FormatBigIntegerToHex(bool targetSpan, ::System::Numerics::BigInteger value, char16_t format, int32_t digits, ::System::Globalization::NumberFormatInfo* info,
                                                 ::System::Span_1<char16_t> destination, ::by_ref<int32_t> charsWritten, ::by_ref<bool> spanSuccess);
 
-  /// @brief Method HexNumberToBigInteger, addr 0x60efa54, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method HexNumberToBigInteger, addr 0x60f74d0, size 0x1a4, virtual false, abstract: false, final false
   static inline bool HexNumberToBigInteger(::by_ref<::System::Numerics::BigNumber_BigNumberBuffer> number, ::by_ref<::System::Numerics::BigInteger> value);
 
-  /// @brief Method NumberToBigInteger, addr 0x60efbf8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method NumberToBigInteger, addr 0x60f7674, size 0x1d4, virtual false, abstract: false, final false
   static inline bool NumberToBigInteger(::by_ref<::System::Numerics::BigNumber_BigNumberBuffer> number, ::by_ref<::System::Numerics::BigInteger> value);
 
-  /// @brief Method ParseBigInteger, addr 0x60eb034, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ParseBigInteger, addr 0x60f2ab0, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger ParseBigInteger(::StringW value, ::System::Globalization::NumberStyles style, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseBigInteger, addr 0x60efdcc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ParseBigInteger, addr 0x60f7848, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger ParseBigInteger(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles style, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseFormatSpecifier, addr 0x60eff14, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ParseFormatSpecifier, addr 0x60f7990, size 0xf8, virtual false, abstract: false, final false
   static inline char16_t ParseFormatSpecifier(::System::ReadOnlySpan_1<char16_t> format, ::by_ref<int32_t> digits);
 
-  /// @brief Method TryParseBigInteger, addr 0x60ef7ac, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method TryParseBigInteger, addr 0x60f7228, size 0x160, virtual false, abstract: false, final false
   static inline bool TryParseBigInteger(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles style, ::System::Globalization::NumberFormatInfo* info,
                                         ::by_ref<::System::Numerics::BigInteger> result);
 
-  /// @brief Method TryValidateParseStyleInteger, addr 0x60ef69c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method TryValidateParseStyleInteger, addr 0x60f7118, size 0x110, virtual false, abstract: false, final false
   static inline bool TryValidateParseStyleInteger(::System::Globalization::NumberStyles style, ::by_ref<::System::ArgumentException*> e);
 
 protected:
@@ -151,7 +151,7 @@ public:
   BigNumber(BigNumber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

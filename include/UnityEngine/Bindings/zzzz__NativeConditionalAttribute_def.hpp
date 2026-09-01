@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/NativeConditionalAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\NativeConditionalAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,19 +57,19 @@ public:
 
   constexpr void __cordl_internal_set__StubReturnStatement_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bae408, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb5f8c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition);
 
-  /// @brief Method .ctor, addr 0x6bae418, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb5f9c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition, ::StringW stubReturnStatement);
 
-  /// @brief Method set_Condition, addr 0x6bae3f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Condition, addr 0x6bb5f74, size 0x8, virtual false, abstract: false, final false
   inline void set_Condition(::StringW value);
 
-  /// @brief Method set_Enabled, addr 0x6bae400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x6bb5f84, size 0x8, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
-  /// @brief Method set_StubReturnStatement, addr 0x6bae3f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StubReturnStatement, addr 0x6bb5f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_StubReturnStatement(::StringW value);
 
 protected:
@@ -87,7 +87,7 @@ public:
   NativeConditionalAttribute(NativeConditionalAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23108 };
 
   /// @brief Field <Condition>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Condition_k__BackingField;

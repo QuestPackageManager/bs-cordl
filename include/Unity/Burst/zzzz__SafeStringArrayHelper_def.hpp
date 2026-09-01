@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Burst/SafeStringArrayHelper.hpp"
+// IWYU pragma private; include "Unity\Burst\SafeStringArrayHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,10 +21,10 @@ namespace Unity::Burst {
 class CORDL_TYPE SafeStringArrayHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DeserialiseStringArraySafe, addr 0x646a32c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method DeserialiseStringArraySafe, addr 0x6471da8, size 0x290, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> DeserialiseStringArraySafe(::StringW input);
 
-  /// @brief Method SerialiseStringArraySafe, addr 0x646a118, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SerialiseStringArraySafe, addr 0x6471b94, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW SerialiseStringArraySafe(::ArrayW<::StringW> array);
 
 protected:
@@ -42,7 +42,7 @@ public:
   SafeStringArrayHelper(SafeStringArrayHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17332 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

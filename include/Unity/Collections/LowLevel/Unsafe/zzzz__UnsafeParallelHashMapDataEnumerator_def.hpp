@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapDataEnumerator.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapDataEnumerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
   /// @brief Method GetCurrentKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey> inline TKey GetCurrentKey();
 
-  /// @brief Method MoveNext, addr 0x64c7510, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x64cef8c, size 0x48, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x64c7558, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x64cefd4, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method .ctor, addr 0x64c74f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64cef74, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* data);
 
   // Ctor Parameters []
@@ -51,7 +51,7 @@ public:
   constexpr UnsafeParallelHashMapDataEnumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer, int32_t m_Index, int32_t m_BucketIndex, int32_t m_NextIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15794 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/TimerCallback.hpp"
+// IWYU pragma private; include "System\Threading\TimerCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__TimerCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::TimerCallback::*)(::System::Object*, ::System::IntPtr)>(&::System::Threading::TimerCallback::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5cb6af4;
+  constexpr static std::size_t addrs = 0x5cbafb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::TimerCallback::*)(::System::Object*)>(&::System::Threading::TimerCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cb6c38;
+  constexpr static std::size_t addrs = 0x5cbb0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

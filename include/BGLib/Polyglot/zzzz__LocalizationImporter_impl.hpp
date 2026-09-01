@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/LocalizationImporter.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\LocalizationImporter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationImporter_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationAsset_def.hpp"
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* (*)(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*)>(
     &::BGLib::Polyglot::LocalizationImporter::ImportFromFiles)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x3319320;
+  constexpr static std::size_t addrs = 0x331d0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::BGLib::Polyglot::LocalizationImporter::IsLineBreak)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3319bbc;
+  constexpr static std::size_t addrs = 0x331d97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>*)>(
     &::BGLib::Polyglot::LocalizationImporter::ImportTextFile)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x331956c;
+  constexpr static std::size_t addrs = 0x331d32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

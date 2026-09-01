@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/AdvancingFront.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\AdvancingFront.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,28 +36,28 @@ public:
   /// @brief Field Tail, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Tail, put = __cordl_internal_set_Tail)) ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Tail;
 
-  /// @brief Method AddNode, addr 0x66a58f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddNode, addr 0x66ad374, size 0x4, virtual false, abstract: false, final false
   inline void AddNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FindSearchNode, addr 0x66a59f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FindSearchNode, addr 0x66ad470, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* FindSearchNode(double_t x);
 
-  /// @brief Method LocateNode, addr 0x66a59fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method LocateNode, addr 0x66ad478, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method LocateNode, addr 0x66a5a10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LocateNode, addr 0x66ad48c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(double_t x);
 
-  /// @brief Method LocatePoint, addr 0x66a5a6c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LocatePoint, addr 0x66ad4e8, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocatePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* head,
                                                                               ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* tail);
 
-  /// @brief Method RemoveNode, addr 0x66a58fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveNode, addr 0x66ad378, size 0x4, virtual false, abstract: false, final false
   inline void RemoveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method ToString, addr 0x66a5900, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x66ad37c, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* const& __cordl_internal_get_Head() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_Tail(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-  /// @brief Method .ctor, addr 0x66a58ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ad368, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* head, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* tail);
 
 protected:
@@ -96,7 +96,7 @@ public:
   AdvancingFront(AdvancingFront const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21761 };
 
   /// @brief Field Head, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* ___Head;

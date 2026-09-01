@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PromoBannerInfoSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\PromoBannerInfoSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PromoBannerInfoSO_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::PromoBannerInfoSO::*)()>(&::GlobalNamespace::PromoBannerInfoSO::get_bannerImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3729998;
+  constexpr static std::size_t addrs = 0x372f5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PromoBannerInfoSO*>(), { "get_bannerImage", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PromoBannerInfoSO::*)(::UnityEngine::Sprite*)>(&::GlobalNamespace::PromoBannerInfoSO::set_bannerImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37299a0;
+  constexpr static std::size_t addrs = 0x372f604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PromoBannerInfoSO::*)()>(&::GlobalNamespace::PromoBannerInfoSO::get_bannerPromoText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37299a8;
+  constexpr static std::size_t addrs = 0x372f60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PromoBannerInfoSO*>(), { "get_bannerPromoText", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PromoBannerInfoSO::*)()>(&::GlobalNamespace::PromoBannerInfoSO::get_bannerPromoTextPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37299b0;
+  constexpr static std::size_t addrs = 0x372f614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PromoBannerInfoSO*>(), { "get_bannerPromoTextPosition", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PromoBannerInfoSO::*)(::System::DateTime)>(&::GlobalNamespace::PromoBannerInfoSO::IsPromoTextHiddenOn)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x37299b8;
+  constexpr static std::size_t addrs = 0x372f61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PromoBannerInfoSO::*)()>(&::GlobalNamespace::PromoBannerInfoSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37299d0;
+  constexpr static std::size_t addrs = 0x372f634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PromoBannerInfoSO*>(), { ".ctor", {}, {} })));

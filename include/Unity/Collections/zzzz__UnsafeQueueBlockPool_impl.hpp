@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/UnsafeQueueBlockPool.hpp"
+// IWYU pragma private; include "Unity\Collections\UnsafeQueueBlockPool.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/zzzz__SharedStatic_1_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::UnsafeQueueBlockPoolData* (*)()>(&::Unity::Collections::UnsafeQueueBlockPool::GetQueueBlockPool)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x64c180c;
+  constexpr static std::size_t addrs = 0x64c9288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueBlockPool*>(), { "GetQueueBlockPool", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Collections::UnsafeQueueBlockPool::AppDomainOnDomainUnload)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64c1938;
+  constexpr static std::size_t addrs = 0x64c93b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueBlockPool*>(), { "AppDomainOnDomainUnload", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::EventArgs*)>(&::Unity::Collections::UnsafeQueueBlockPool::OnDomainUnload)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x64c19cc;
+  constexpr static std::size_t addrs = 0x64c9448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueBlockPool*>(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::UnsafeQueueBlockPool::*)()>(&::Unity::Collections::UnsafeQueueBlockPool::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64c1abc;
+  constexpr static std::size_t addrs = 0x64c9538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueBlockPool*>(), { ".ctor", {}, {} })));

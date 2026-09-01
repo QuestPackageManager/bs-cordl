@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/IntegerTime/RationalTimeExtensions.hpp"
+// IWYU pragma private; include "Unity\IntegerTime\RationalTimeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/IntegerTime/zzzz__RationalTimeExtensions_def.hpp"
 #include "Unity/IntegerTime/zzzz__RationalTime_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::RationalTime (*)(::Unity::IntegerTime::RationalTime, ::Unity::IntegerTime::RationalTime_TicksPerSecond)>(
     &::Unity::IntegerTime::RationalTimeExtensions::Convert)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a55094;
+  constexpr static std::size_t addrs = 0x6a5cb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IntegerTime::RationalTime>, ::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond>,
                                                                 ::by_ref<::Unity::IntegerTime::RationalTime>)>(&::Unity::IntegerTime::RationalTimeExtensions::Convert_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a555a0;
+  constexpr static std::size_t addrs = 0x6a5d01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

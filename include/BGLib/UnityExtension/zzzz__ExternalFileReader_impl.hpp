@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/ExternalFileReader.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\ExternalFileReader.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::*)()>(
     &::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x7c8;
-  constexpr static std::size_t addrs = 0x3324760;
+  constexpr static std::size_t addrs = 0x3328520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0>(), { "MoveNext", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x33250c8;
+  constexpr static std::size_t addrs = 0x3328e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0>(),
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(::StringW)>(&::BGLib::UnityExtension::ExternalFileReader::ExistsAsync)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3324680;
+  constexpr static std::size_t addrs = 0x3328440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

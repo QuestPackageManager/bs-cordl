@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/APVLeakReductionMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\APVLeakReductionMode.hpp"
 #include "UnityEngine/Rendering/zzzz__APVLeakReductionMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::APVLeakReductionMode::APVLeakReductionMode(int32_t value__) noexcept {

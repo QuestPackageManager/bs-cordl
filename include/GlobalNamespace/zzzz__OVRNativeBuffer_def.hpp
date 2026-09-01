@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRNativeBuffer.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRNativeBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,30 +39,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5e19ea4, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5e1e360, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x5e19e74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5e1e330, size 0x28, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x5e19e1c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5e1e2d8, size 0x58, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetCapacity, addr 0x5e19e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCapacity, addr 0x5e1e358, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetCapacity();
 
-  /// @brief Method GetPointer, addr 0x5e1474c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetPointer, addr 0x5e18c08, size 0x2c, virtual false, abstract: false, final false
   inline ::System::IntPtr GetPointer(int32_t byteOffset);
 
   static inline ::GlobalNamespace::OVRNativeBuffer* New_ctor(int32_t numBytes);
 
-  /// @brief Method Reallocate, addr 0x5e19d8c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Reallocate, addr 0x5e1e248, size 0x90, virtual false, abstract: false, final false
   inline void Reallocate(int32_t numBytes);
 
-  /// @brief Method Release, addr 0x5e19f18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x5e1e3d4, size 0x6c, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method Reset, addr 0x5e14748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5e18c04, size 0x4, virtual false, abstract: false, final false
   inline void Reset(int32_t numBytes);
 
   constexpr bool const& __cordl_internal_get_disposed() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5e14b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e18ffc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t numBytes);
 
   /// @brief Convert to "::System::IDisposable"
@@ -104,7 +104,7 @@ public:
   OVRNativeBuffer(OVRNativeBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7135 };
 
   /// @brief Field disposed, offset: 0x10, size: 0x1, def value: None
   bool ___disposed;

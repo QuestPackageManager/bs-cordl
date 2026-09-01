@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncValueTaskMethodBuilder.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncValueTaskMethodBuilder.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncValueTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder (*)()>(
     &::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::Create)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b6b408;
+  constexpr static std::size_t addrs = 0x5b6f8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder>(), { "Create", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b6b414;
+  constexpr static std::size_t addrs = 0x5b6f8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::*)()>(
     &::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::SetResult)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5b6b4f8;
+  constexpr static std::size_t addrs = 0x5b6f9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::*)(::System::Exception*)>(
     &::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::SetException)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b6b61c;
+  constexpr static std::size_t addrs = 0x5b6fad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::*)()>(
     &::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder::get_Task)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5b6b708;
+  constexpr static std::size_t addrs = 0x5b6fbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

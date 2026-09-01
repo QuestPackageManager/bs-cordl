@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/AceEnumerator.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\AceEnumerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AceEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::AceEnumerator::*)(::System::Security::AccessControl::GenericAcl*)>(
     &::System::Security::AccessControl::AceEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b18648;
+  constexpr static std::size_t addrs = 0x5b1cb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::GenericAce* (::System::Security::AccessControl::AceEnumerator::*)()>(
     &::System::Security::AccessControl::AceEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b18658;
+  constexpr static std::size_t addrs = 0x5b1cb14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::AceEnumerator*>(), { "get_Current", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Security::AccessControl::AceEnumerator::*)()>(
     &::System::Security::AccessControl::AceEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b18684;
+  constexpr static std::size_t addrs = 0x5b1cb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::AccessControl::AceEnumerator::*)()>(&::System::Security::AccessControl::AceEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5b18688;
+  constexpr static std::size_t addrs = 0x5b1cb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::AceEnumerator*>(), { "MoveNext", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::AceEnumerator::*)()>(&::System::Security::AccessControl::AceEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b186dc;
+  constexpr static std::size_t addrs = 0x5b1cb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::AceEnumerator*>(), { "Reset", {}, {} })));

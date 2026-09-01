@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/HierarchyIcons/Defines.hpp"
+// IWYU pragma private; include "OculusStudios\HierarchyIcons\Defines.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/HierarchyIcons/zzzz__Defines_def.hpp"
 #include "OculusStudios/HierarchyIcons/zzzz__Icon_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::HierarchyIcons::Defines::*)()>(&::OculusStudios::HierarchyIcons::Defines::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f29524;
+  constexpr static std::size_t addrs = 0x5f2d9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::HierarchyIcons::Defines*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRTrackedKeyboardSampleControls.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRTrackedKeyboardSampleControls.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,21 +85,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5ee0dd8, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ee5294, size 0x168, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5ee0f40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5ee53fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ee0f48, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ee5404, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ee0f80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ee543c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5ee0dd4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5ee5290, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_shaderName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5ee0d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ee520c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -159,7 +159,7 @@ public:
   OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19(OVRTrackedKeyboardSampleControls__SetShaderCoroutine_d__19 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7791 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -240,36 +240,36 @@ public:
   /// @brief Field trackedKeyboard, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_trackedKeyboard, put = __cordl_internal_set_trackedKeyboard)) ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> trackedKeyboard;
 
-  /// @brief Method LaunchKeyboardSelection, addr 0x5ee0d58, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LaunchKeyboardSelection, addr 0x5ee5214, size 0x24, virtual false, abstract: false, final false
   inline void LaunchKeyboardSelection();
 
   static inline ::GlobalNamespace::OVRTrackedKeyboardSampleControls* New_ctor();
 
-  /// @brief Method SetDiffuseShader, addr 0x5ee0cf4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetDiffuseShader, addr 0x5ee51b0, size 0x5c, virtual false, abstract: false, final false
   inline void SetDiffuseShader();
 
-  /// @brief Method SetPresentationMR, addr 0x5ee0c20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetPresentationMR, addr 0x5ee50dc, size 0x18, virtual false, abstract: false, final false
   inline void SetPresentationMR();
 
-  /// @brief Method SetPresentationOpaque, addr 0x5ee0c08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetPresentationOpaque, addr 0x5ee50c4, size 0x18, virtual false, abstract: false, final false
   inline void SetPresentationOpaque();
 
-  /// @brief Method SetShaderCoroutine, addr 0x5ee0c94, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetShaderCoroutine, addr 0x5ee5150, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SetShaderCoroutine(::StringW shaderName);
 
-  /// @brief Method SetTrackingEnabled, addr 0x5ee0d7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingEnabled, addr 0x5ee5238, size 0x1c, virtual false, abstract: false, final false
   inline void SetTrackingEnabled(bool value);
 
-  /// @brief Method SetUnlitShader, addr 0x5ee0c38, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetUnlitShader, addr 0x5ee50f4, size 0x5c, virtual false, abstract: false, final false
   inline void SetUnlitShader();
 
-  /// @brief Method Start, addr 0x5ee08a8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ee4d64, size 0x100, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5ee09a8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ee4e64, size 0x260, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <SetShaderCoroutine>b__19_0, addr 0x5ee0db4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <SetShaderCoroutine>b__19_0, addr 0x5ee5270, size 0x20, virtual false, abstract: false, final false
   inline bool _SetShaderCoroutine_b__19_0();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_BadStateColor() const;
@@ -350,7 +350,7 @@ public:
 
   constexpr void __cordl_internal_set_trackedKeyboard(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
-  /// @brief Method .ctor, addr 0x5ee0d98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ee5254, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -368,7 +368,7 @@ public:
   OVRTrackedKeyboardSampleControls(OVRTrackedKeyboardSampleControls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7792 };
 
   /// @brief Field trackedKeyboard, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> ___trackedKeyboard;

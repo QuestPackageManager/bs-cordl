@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ApplicationMemoryUsageChange.hpp"
+// IWYU pragma private; include "UnityEngine\ApplicationMemoryUsageChange.hpp"
 #include "UnityEngine/zzzz__ApplicationMemoryUsage_impl.hpp"
 #include "UnityEngine/zzzz__ApplicationMemoryUsageChange_def.hpp"
 #include "UnityEngine/zzzz__ApplicationMemoryUsage_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ApplicationMemoryUsageChange::*)(::UnityEngine::ApplicationMemoryUsage)>(
     &::UnityEngine::ApplicationMemoryUsageChange::set_memoryUsage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a61bbc;
+  constexpr static std::size_t addrs = 0x6a69638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ApplicationMemoryUsageChange::*)(::UnityEngine::ApplicationMemoryUsage)>(
     &::UnityEngine::ApplicationMemoryUsageChange::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a606cc;
+  constexpr static std::size_t addrs = 0x6a68148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

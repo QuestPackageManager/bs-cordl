@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AddressableAssets/Utility/SerializationUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\AddressableAssets\Utility\SerializationUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__SerializationUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t)>(&::UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadInt32FromByteArray)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x645d5e8;
+  constexpr static std::size_t addrs = 0x6465064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Utility::SerializationUtilities*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteInt32ToByteArray)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x645d658;
+  constexpr static std::size_t addrs = 0x64650d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<uint8_t>, int32_t)>(
     &::UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadObjectFromByteArray)> {
   constexpr static std::size_t size = 0x510;
-  constexpr static std::size_t addrs = 0x645d6dc;
+  constexpr static std::size_t addrs = 0x6465158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Utility::SerializationUtilities*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Object*, ::System::Collections::Generic::List_1<uint8_t>*)>(
     &::UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteObjectToByteList)> {
   constexpr static std::size_t size = 0x98c;
-  constexpr static std::size_t addrs = 0x645dbec;
+  constexpr static std::size_t addrs = 0x6465668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

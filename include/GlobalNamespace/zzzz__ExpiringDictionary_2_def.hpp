@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ExpiringDictionary_2.hpp"
+// IWYU pragma private; include "GlobalNamespace\ExpiringDictionary_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,7 +124,7 @@ public:
   ExpiringDictionary_2_Entry(ExpiringDictionary_2_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18154 };
 
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   TKey ___key;
@@ -245,7 +245,7 @@ public:
   ExpiringDictionary_2__Enumerate_d__14(ExpiringDictionary_2__Enumerate_d__14 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18155 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -426,7 +426,7 @@ public:
   ExpiringDictionary_2(ExpiringDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18156 };
 
   /// @brief Field kMaxReusableEntries offset 0xffffffff size 0x4
   static constexpr int32_t kMaxReusableEntries{ static_cast<int32_t>(0x400) };

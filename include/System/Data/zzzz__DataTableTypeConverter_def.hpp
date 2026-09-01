@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataTableTypeConverter.hpp"
+// IWYU pragma private; include "System\Data\DataTableTypeConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +22,12 @@ namespace System::Data {
 class CORDL_TYPE DataTableTypeConverter : public ::System::ComponentModel::ReferenceConverter {
 public:
   // Declarations
-  /// @brief Method GetPropertiesSupported, addr 0x60299ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x6031428, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::Data::DataTableTypeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6029910, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x603138c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   DataTableTypeConverter(DataTableTypeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13797 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

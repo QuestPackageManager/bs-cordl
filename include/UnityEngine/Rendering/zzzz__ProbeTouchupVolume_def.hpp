@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeTouchupVolume.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeTouchupVolume.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::ProbeTouchupVolume* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67683c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x676fe3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   ProbeTouchupVolume(ProbeTouchupVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12063 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeList_1.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,7 +136,7 @@ public:
   constexpr UnsafeList_1_ReadOnly(T* Ptr, int32_t Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15775 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -171,7 +171,7 @@ public:
   constexpr UnsafeList_1_ParallelReader(T* Ptr, int32_t Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15776 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -220,7 +220,7 @@ public:
   constexpr UnsafeList_1_ParallelWriter(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* ListData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15777 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -287,7 +287,7 @@ public:
   constexpr UnsafeList_1_Enumerator(T* m_Ptr, int32_t m_Length, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15778 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -535,7 +535,7 @@ public:
   constexpr UnsafeList_1(T* Ptr, int32_t m_length, int32_t m_capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t padding) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15779 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

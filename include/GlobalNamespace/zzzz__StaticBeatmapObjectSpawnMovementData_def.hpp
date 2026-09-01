@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StaticBeatmapObjectSpawnMovementData.hpp"
+// IWYU pragma private; include "GlobalNamespace\StaticBeatmapObjectSpawnMovementData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE StaticBeatmapObjectSpawnMovementData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get2DNoteOffset, addr 0x325e1c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Get2DNoteOffset, addr 0x32614c8, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, int32_t noteLinesCount, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method LineYPosForLineLayer, addr 0x325e474, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LineYPosForLineLayer, addr 0x3261774, size 0x1c, virtual false, abstract: false, final false
   static inline float_t LineYPosForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
 
 protected:
@@ -48,7 +48,7 @@ public:
   StaticBeatmapObjectSpawnMovementData(StaticBeatmapObjectSpawnMovementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21290 };
 
   /// @brief Field kBaseLinesYPos offset 0xffffffff size 0x4
   static constexpr float_t kBaseLinesYPos{ static_cast<float_t>(0.25f) };

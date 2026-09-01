@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/NativeTextGenerationSettings.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\NativeTextGenerationSettings.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_impl.hpp"
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::NativeTextGenerationSettings___c::*)()>(&::UnityEngine::TextCore::NativeTextGenerationSettings___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bbab50;
+  constexpr static std::size_t addrs = 0x6bc26d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings___c*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::NativeTextGenerationSettings___c::*)(::UnityEngine::TextCore::TextSpan)>(
     &::UnityEngine::TextCore::NativeTextGenerationSettings___c::_get_hasLink_b__20_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bbab54;
+  constexpr static std::size_t addrs = 0x6bc26d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings___c*>(),
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::NativeTextGenerationSettings::*)()>(&::UnityEngine::TextCore::NativeTextGenerationSettings::get_hasLink)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6bb99b8;
+  constexpr static std::size_t addrs = 0x6bc153c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings>(), { "get_hasLink", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::TextSpan (::UnityEngine::TextCore::NativeTextGenerationSettings::*)()>(
     &::UnityEngine::TextCore::NativeTextGenerationSettings::CreateTextSpan)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6bb9ad4;
+  constexpr static std::size_t addrs = 0x6bc1658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings>(), { "CreateTextSpan", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::NativeTextGenerationSettings (*)()>(&::UnityEngine::TextCore::NativeTextGenerationSettings::get_Default)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6bb9af8;
+  constexpr static std::size_t addrs = 0x6bc167c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings>(), { "get_Default", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::NativeTextGenerationSettings::*)()>(&::UnityEngine::TextCore::NativeTextGenerationSettings::ToString)> {
   constexpr static std::size_t size = 0xb18;
-  constexpr static std::size_t addrs = 0x6bb9b44;
+  constexpr static std::size_t addrs = 0x6bc16c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings>(),

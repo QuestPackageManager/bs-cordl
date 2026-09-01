@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/SerpentEngineBase.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\SerpentEngineBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,40 +62,40 @@ public:
   /// @brief Method EncryptBlock, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0x33bdb28, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x33c18e8, size 0x5c, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Ib0, addr 0x33bdd94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib0, addr 0x33c1b54, size 0x44, virtual false, abstract: false, final false
   inline void Ib0(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib1, addr 0x33bde18, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Ib1, addr 0x33c1bd8, size 0x40, virtual false, abstract: false, final false
   inline void Ib1(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib2, addr 0x33bdea0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib2, addr 0x33c1c60, size 0x44, virtual false, abstract: false, final false
   inline void Ib2(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib3, addr 0x33bdf30, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Ib3, addr 0x33c1cf0, size 0x48, virtual false, abstract: false, final false
   inline void Ib3(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib4, addr 0x33bdfbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib4, addr 0x33c1d7c, size 0x44, virtual false, abstract: false, final false
   inline void Ib4(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib5, addr 0x33be048, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Ib5, addr 0x33c1e08, size 0x48, virtual false, abstract: false, final false
   inline void Ib5(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib6, addr 0x33be0d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib6, addr 0x33c1e90, size 0x44, virtual false, abstract: false, final false
   inline void Ib6(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib7, addr 0x33be15c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Ib7, addr 0x33c1f1c, size 0x4c, virtual false, abstract: false, final false
   inline void Ib7(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Init, addr 0x33bd958, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x33c1718, size 0x184, virtual true, abstract: false, final false
   inline void Init(bool encrypting, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method InverseLT, addr 0x33be248, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InverseLT, addr 0x33c2008, size 0x98, virtual false, abstract: false, final false
   inline void InverseLT();
 
-  /// @brief Method LT, addr 0x33be1a8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method LT, addr 0x33c1f68, size 0xa0, virtual false, abstract: false, final false
   inline void LT();
 
   /// @brief Method MakeWorkingKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -103,40 +103,40 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x33bdb84, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0x33c1944, size 0x1b8, virtual true, abstract: false, final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x33bdd3c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x33c1afc, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RotateLeft, addr 0x33bdd40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x33c1b00, size 0xc, virtual false, abstract: false, final false
   static inline int32_t RotateLeft(int32_t x, int32_t bits);
 
-  /// @brief Method RotateRight, addr 0x33bdd4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x33c1b0c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t RotateRight(int32_t x, int32_t bits);
 
-  /// @brief Method Sb0, addr 0x33bdd54, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Sb0, addr 0x33c1b14, size 0x40, virtual false, abstract: false, final false
   inline void Sb0(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb1, addr 0x33bddd8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Sb1, addr 0x33c1b98, size 0x40, virtual false, abstract: false, final false
   inline void Sb1(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb2, addr 0x33bde58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Sb2, addr 0x33c1c18, size 0x48, virtual false, abstract: false, final false
   inline void Sb2(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb3, addr 0x33bdee4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Sb3, addr 0x33c1ca4, size 0x4c, virtual false, abstract: false, final false
   inline void Sb3(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb4, addr 0x33bdf78, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Sb4, addr 0x33c1d38, size 0x44, virtual false, abstract: false, final false
   inline void Sb4(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb5, addr 0x33be000, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Sb5, addr 0x33c1dc0, size 0x48, virtual false, abstract: false, final false
   inline void Sb5(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb6, addr 0x33be090, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Sb6, addr 0x33c1e50, size 0x40, virtual false, abstract: false, final false
   inline void Sb6(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb7, addr 0x33be114, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Sb7, addr 0x33c1ed4, size 0x48, virtual false, abstract: false, final false
   inline void Sb7(int32_t a, int32_t b, int32_t c, int32_t d);
 
   constexpr int32_t const& __cordl_internal_get_X0() const;
@@ -175,15 +175,15 @@ public:
 
   constexpr void __cordl_internal_set_wKey(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x33bd954, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c1714, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_BlockSize();
 
-  /// @brief Method get_AlgorithmName, addr 0x33bdadc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x33c189c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x33bdb20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x33c18e0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"

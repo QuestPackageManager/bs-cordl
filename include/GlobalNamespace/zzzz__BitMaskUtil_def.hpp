@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BitMaskUtil.hpp"
+// IWYU pragma private; include "GlobalNamespace\BitMaskUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,16 +20,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE BitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits, addr 0x3256334, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x3259634, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint32_t i);
 
-  /// @brief Method NumberOfSetBits, addr 0x325e3a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x32616a4, size 0x30, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint64_t i);
 
-  /// @brief Method ShiftLeft, addr 0x325e3d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0x32616d4, size 0x44, virtual false, abstract: false, final false
   static inline uint64_t ShiftLeft(::by_ref<uint64_t> value, ::by_ref<int32_t> shift);
 
-  /// @brief Method ShiftRight, addr 0x325e418, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0x3261718, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t ShiftRight(::by_ref<uint64_t> value, ::by_ref<int32_t> shift);
 
 protected:
@@ -47,7 +47,7 @@ public:
   BitMaskUtil(BitMaskUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21285 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

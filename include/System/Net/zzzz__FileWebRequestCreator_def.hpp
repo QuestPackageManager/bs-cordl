@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/FileWebRequestCreator.hpp"
+// IWYU pragma private; include "System\Net\FileWebRequestCreator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,12 +31,12 @@ public:
   /// @brief Convert operator to "::System::Net::IWebRequestCreate"
   constexpr operator ::System::Net::IWebRequestCreate*() noexcept;
 
-  /// @brief Method Create, addr 0x641c49c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Create, addr 0x6423f18, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   static inline ::System::Net::FileWebRequestCreator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x641c498, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6423f14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Net::IWebRequestCreate"
@@ -57,7 +57,7 @@ public:
   FileWebRequestCreator(FileWebRequestCreator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11559 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SyncTimePacket.hpp"
+// IWYU pragma private; include "GlobalNamespace\SyncTimePacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,18 +44,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x332a1c8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x332df88, size 0x20, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x332a1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x332dfa8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SyncTimePacket* Init(int64_t syncTime);
 
   static inline ::GlobalNamespace::SyncTimePacket* New_ctor();
 
-  /// @brief Method Release, addr 0x332a1f0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x332dfb0, size 0x58, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x332a1b4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x332df74, size 0x14, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr int64_t const& __cordl_internal_get_syncTime() const;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_syncTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0x332a248, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332e008, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0x332a170, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x332df30, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::SyncTimePacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -91,7 +91,7 @@ public:
   SyncTimePacket(SyncTimePacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18132 };
 
   /// @brief Field syncTime, offset: 0x10, size: 0x8, def value: None
   int64_t ___syncTime;

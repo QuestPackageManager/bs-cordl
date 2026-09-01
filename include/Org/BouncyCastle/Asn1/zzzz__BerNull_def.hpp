@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerNull.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerNull.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,17 +26,17 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::BerNull* Instance;
 
-  /// @brief Method Encode, addr 0x3685a0c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x36897cc, size 0xe4, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor();
 
   static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor(int32_t dummy);
 
-  /// @brief Method .ctor, addr 0x368595c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368971c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36859b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3689774, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(int32_t dummy);
 
   static inline ::Org::BouncyCastle::Asn1::BerNull* getStaticF_Instance();

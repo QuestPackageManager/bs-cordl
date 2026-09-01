@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/ServerIdentity.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\ServerIdentity.hpp"
 #include "System/Runtime/Remoting/zzzz__Identity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ServerIdentity::*)(::StringW, ::System::Runtime::Remoting::Contexts::Context*, ::System::Type*)>(
     &::System::Runtime::Remoting::ServerIdentity::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b29e78;
+  constexpr static std::size_t addrs = 0x5b2e334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Remoting::ServerIdentity::*)()>(&::System::Runtime::Remoting::ServerIdentity::get_ObjectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b29e88;
+  constexpr static std::size_t addrs = 0x5b2e344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ServerIdentity*>(), { "get_ObjectType", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ServerIdentity::*)(::System::Runtime::Remoting::Lifetime::ILease*)>(
     &::System::Runtime::Remoting::ServerIdentity::StartTrackingLifetime)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5b26ae4;
+  constexpr static std::size_t addrs = 0x5b2afa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ServerIdentity*>(),
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ServerIdentity::*)()>(&::System::Runtime::Remoting::ServerIdentity::OnLifetimeExpired)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b2a078;
+  constexpr static std::size_t addrs = 0x5b2e534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::ObjRef* (::System::Runtime::Remoting::ServerIdentity::*)(::System::Type*)>(
     &::System::Runtime::Remoting::ServerIdentity::CreateObjRef)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5b2a0d0;
+  constexpr static std::size_t addrs = 0x5b2e58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ServerIdentity::*)(::System::MarshalByRefObject*, ::System::Runtime::Remoting::Contexts::Context*)>(
     &::System::Runtime::Remoting::ServerIdentity::AttachServerObject)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5b28ec0;
+  constexpr static std::size_t addrs = 0x5b2d37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Lifetime::Lease* (::System::Runtime::Remoting::ServerIdentity::*)()>(
     &::System::Runtime::Remoting::ServerIdentity::get_Lease)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b2a788;
+  constexpr static std::size_t addrs = 0x5b2ec44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ServerIdentity*>(), { "get_Lease", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Contexts::Context* (::System::Runtime::Remoting::ServerIdentity::*)()>(
     &::System::Runtime::Remoting::ServerIdentity::get_Context)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b2a790;
+  constexpr static std::size_t addrs = 0x5b2ec4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ServerIdentity*>(), { "get_Context", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ServerIdentity::*)(::System::Runtime::Remoting::Contexts::Context*)>(
     &::System::Runtime::Remoting::ServerIdentity::set_Context)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b2a798;
+  constexpr static std::size_t addrs = 0x5b2ec54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ServerIdentity*>(),
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ServerIdentity::*)()>(&::System::Runtime::Remoting::ServerIdentity::DisposeServerObject)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5b2a07c;
+  constexpr static std::size_t addrs = 0x5b2e538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ServerIdentity*>(), { "DisposeServerObject", {}, {} })));

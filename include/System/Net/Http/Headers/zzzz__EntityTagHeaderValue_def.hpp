@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/EntityTagHeaderValue.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\EntityTagHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,27 +52,27 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x60def60, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60e69dc, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x60df014, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60e6a90, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x60def5c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x60e69d8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x60df450, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60e6ecc, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x60df39c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60e6e18, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*> result);
 
-  /// @brief Method TryParse, addr 0x60df060, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60e6adc, size 0xf4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue);
 
-  /// @brief Method TryParseElement, addr 0x60df154, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x60e6bd0, size 0x1f0, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::by_ref<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue,
                                      ::by_ref<::System::Net::Http::Headers::Token> t);
 
@@ -88,15 +88,15 @@ public:
 
   constexpr void __cordl_internal_set__Tag_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60def38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e69b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* getStaticF_any();
 
-  /// @brief Method get_IsWeak, addr 0x60def3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsWeak, addr 0x60e69b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsWeak();
 
-  /// @brief Method get_Tag, addr 0x60def4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x60e69c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Tag();
 
   /// @brief Convert to "::System::ICloneable"
@@ -104,10 +104,10 @@ public:
 
   static inline void setStaticF_any(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
-  /// @brief Method set_IsWeak, addr 0x60def44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsWeak, addr 0x60e69c0, size 0x8, virtual false, abstract: false, final false
   inline void set_IsWeak(bool value);
 
-  /// @brief Method set_Tag, addr 0x60def54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Tag, addr 0x60e69d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Tag(::StringW value);
 
 protected:
@@ -125,7 +125,7 @@ public:
   EntityTagHeaderValue(EntityTagHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20300 };
 
   /// @brief Field <IsWeak>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____IsWeak_k__BackingField;

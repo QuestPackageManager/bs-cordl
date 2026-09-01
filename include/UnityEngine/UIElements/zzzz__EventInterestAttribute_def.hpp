@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EventInterestAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EventInterestAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set_eventTypes(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x6cc3398, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccaf1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Type*> eventTypes);
 
-  /// @brief Method .ctor, addr 0x6cc33a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccaf28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventInterestOptions interests);
 
-  /// @brief Method .ctor, addr 0x6cc33ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccaf30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventInterestOptionsInternal interests);
 
 protected:

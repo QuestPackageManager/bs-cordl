@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerActivePlayersTimeOffsetAverage.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerActivePlayersTimeOffsetAverage.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerActivePlayersTimeOffsetAverage_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::*)()>(
     &::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::get_offsetSyncTime)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x59c74bc;
+  constexpr static std::size_t addrs = 0x59cf1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::*)()>(
     &::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::get_isFailed)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x59c7748;
+  constexpr static std::size_t addrs = 0x59cf448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::*)()>(
     &::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c7894;
+  constexpr static std::size_t addrs = 0x59cf594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*>(), { ".ctor", {}, {} })));

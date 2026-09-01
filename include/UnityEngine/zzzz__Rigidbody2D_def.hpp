@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rigidbody2D.hpp"
+// IWYU pragma private; include "UnityEngine\Rigidbody2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   Rigidbody2D(Rigidbody2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22814 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

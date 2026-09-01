@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MockPlayerLobbyPoseGeneratorRecording.hpp"
+// IWYU pragma private; include "GlobalNamespace\MockPlayerLobbyPoseGeneratorRecording.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGeneratorRecording_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::*)(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*)>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c5094;
+  constexpr static std::size_t addrs = 0x59cedb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::*)()>(&::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::Init)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x59c70c0;
+  constexpr static std::size_t addrs = 0x59cedc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::*)()>(&::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::Tick)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x59c7130;
+  constexpr static std::size_t addrs = 0x59cee30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording*>(),

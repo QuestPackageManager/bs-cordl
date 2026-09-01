@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UnsafeMeshGenerationNode.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UnsafeMeshGenerationNode.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UnsafeMeshGenerationNode_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshGenerationNodeImpl* (::UnityEngine::UIElements::UnsafeMeshGenerationNode::*)()>(
     &::UnityEngine::UIElements::UnsafeMeshGenerationNode::GetManaged)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6dcded0;
+  constexpr static std::size_t addrs = 0x6dd5a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UnsafeMeshGenerationNode>(), { "GetManaged", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::InteropServices::GCHandle, ::by_ref<::UnityEngine::UIElements::UnsafeMeshGenerationNode>)>(
     &::UnityEngine::UIElements::UnsafeMeshGenerationNode::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dcdfac;
+  constexpr static std::size_t addrs = 0x6dd5b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                                                                                                                      ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*)>(
     &::UnityEngine::UIElements::UnsafeMeshGenerationNode::DrawMesh)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6dcdfb4;
+  constexpr static std::size_t addrs = 0x6dd5b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                                                                                                                      ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::Texture*, bool)>(
     &::UnityEngine::UIElements::UnsafeMeshGenerationNode::DrawMeshInternal)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6dce0d8;
+  constexpr static std::size_t addrs = 0x6dd5c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<uint16_t>, ::UnityEngine::UIElements::VectorImage*)>(
     &::UnityEngine::UIElements::UnsafeMeshGenerationNode::DrawGradientsInternal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6dce13c;
+  constexpr static std::size_t addrs = 0x6dd5cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::Entry* (::UnityEngine::UIElements::UnsafeMeshGenerationNode::*)()>(
     &::UnityEngine::UIElements::UnsafeMeshGenerationNode::GetParentEntry)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dce29c;
+  constexpr static std::size_t addrs = 0x6dd5e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UnsafeMeshGenerationNode>(), { "GetParentEntry", {}, {} })));

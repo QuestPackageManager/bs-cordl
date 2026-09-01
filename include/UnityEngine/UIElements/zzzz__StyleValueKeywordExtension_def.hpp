@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleValueKeywordExtension.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleValueKeywordExtension.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE StyleValueKeywordExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUssString, addr 0x6c958a4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x6c9d428, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueKeyword svk);
 
 protected:

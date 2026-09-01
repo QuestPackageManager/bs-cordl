@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DrawCommandOutputPerBatch.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DrawCommandOutputPerBatch.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +43,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method EncodeGPUInstanceIndexAndCrossFade, addr 0x68105c0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method EncodeGPUInstanceIndexAndCrossFade, addr 0x681803c, size 0xcc, virtual false, abstract: false, final false
   inline int32_t EncodeGPUInstanceIndexAndCrossFade(int32_t rendererIndex, bool negateCrossFade);
 
-  /// @brief Method Execute, addr 0x681072c, size 0x744, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x68181a8, size 0x744, virtual true, abstract: false, final true
   inline void Execute(int32_t batchIndex);
 
-  /// @brief Method IsInstanceFlipped, addr 0x681068c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsInstanceFlipped, addr 0x6818108, size 0xa0, virtual false, abstract: false, final false
   inline bool IsInstanceFlipped(int32_t rendererIndex);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -91,7 +91,7 @@ public:
                                       ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo> indirectInstanceInfoGlobalArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17650 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1e8 };

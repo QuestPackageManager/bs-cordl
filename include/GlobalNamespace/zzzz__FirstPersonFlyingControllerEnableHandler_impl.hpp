@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FirstPersonFlyingControllerEnableHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace\FirstPersonFlyingControllerEnableHandler.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_impl.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)()>(
     &::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::get_flyingControllerEnabled)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5919688;
+  constexpr static std::size_t addrs = 0x591d044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)(bool)>(
     &::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::set_flyingControllerEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59196a0;
+  constexpr static std::size_t addrs = 0x591d05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult)>(
     &::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::InstallDependencies)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x59196bc;
+  constexpr static std::size_t addrs = 0x591d078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::*)()>(&::GlobalNamespace::FirstPersonFlyingControllerEnableHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x591976c;
+  constexpr static std::size_t addrs = 0x591d128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingControllerEnableHandler*>(), { ".ctor", {}, {} })));

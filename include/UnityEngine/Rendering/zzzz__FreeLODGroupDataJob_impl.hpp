@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/FreeLODGroupDataJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\FreeLODGroupDataJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FreeLODGroupDataJob::*)()>(&::UnityEngine::Rendering::FreeLODGroupDataJob::Execute)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x6829bd8;
+  constexpr static std::size_t addrs = 0x6831654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FreeLODGroupDataJob>(), { "Execute", {}, {} })));

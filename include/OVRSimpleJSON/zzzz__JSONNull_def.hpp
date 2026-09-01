@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVRSimpleJSON/JSONNull.hpp"
+// IWYU pragma private; include "OVRSimpleJSON\JSONNull.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,53 +53,53 @@ public:
   /// @brief Field reuseSameInstance, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_reuseSameInstance, put = setStaticF_reuseSameInstance)) bool reuseSameInstance;
 
-  /// @brief Method Clone, addr 0x5e2648c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x5e2a948, size 0x50, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* Clone();
 
-  /// @brief Method CreateOrGet, addr 0x5e2336c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateOrGet, addr 0x5e27828, size 0x8c, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNull* CreateOrGet();
 
-  /// @brief Method Equals, addr 0x5e264dc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5e2a998, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x5e26424, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x5e2a8e0, size 0x14, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode_Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x5e26574, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5e2aa30, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::OVRSimpleJSON::JSONNull* New_ctor();
 
-  /// @brief Method WriteToStringBuilder, addr 0x5e2657c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x5e2aa38, size 0x58, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
 
-  /// @brief Method .ctor, addr 0x5e263bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e2a878, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::OVRSimpleJSON::JSONNull* getStaticF_m_StaticInstance();
 
   static inline bool getStaticF_reuseSameInstance();
 
-  /// @brief Method get_AsBool, addr 0x5e26480, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsBool, addr 0x5e2a93c, size 0x8, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method get_IsNull, addr 0x5e2641c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x5e2a8d8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_Tag, addr 0x5e26414, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x5e2a8d0, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNodeType get_Tag();
 
-  /// @brief Method get_Value, addr 0x5e26438, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5e2a8f4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_m_StaticInstance(::OVRSimpleJSON::JSONNull* value);
 
   static inline void setStaticF_reuseSameInstance(bool value);
 
-  /// @brief Method set_AsBool, addr 0x5e26488, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_AsBool, addr 0x5e2a944, size 0x4, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
-  /// @brief Method set_Value, addr 0x5e2647c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5e2a938, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -117,7 +117,7 @@ public:
   JSONNull(JSONNull const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8031 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

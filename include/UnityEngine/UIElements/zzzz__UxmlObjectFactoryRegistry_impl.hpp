@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlObjectFactoryRegistry.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlObjectFactoryRegistry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlObjectFactoryRegistry_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* (*)()>(
         &::UnityEngine::UIElements::UxmlObjectFactoryRegistry::get_factories)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6cb8d84;
+  constexpr static std::size_t addrs = 0x6cc0908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(), { "get_factories", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::IBaseUxmlObjectFactory*)>(&::UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterFactory)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x6cb9368;
+  constexpr static std::size_t addrs = 0x6cc0eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectFactoryRegistry*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterEngineFactories)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6cb8e5c;
+  constexpr static std::size_t addrs = 0x6cc09e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UxmlObjectFactoryRegistry::RegisterUserFactories)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x6cb9048;
+  constexpr static std::size_t addrs = 0x6cc0bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

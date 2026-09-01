@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/NoInterpVector2Parameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\NoInterpVector2Parameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpVector2Parameter_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpVector2Parameter::*)(::UnityEngine::Vector2, bool)>(
     &::UnityEngine::Rendering::NoInterpVector2Parameter::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x67c5a1c;
+  constexpr static std::size_t addrs = 0x67cd498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpVector2Parameter*>(),

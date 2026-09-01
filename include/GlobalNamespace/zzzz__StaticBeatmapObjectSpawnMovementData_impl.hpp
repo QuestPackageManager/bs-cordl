@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StaticBeatmapObjectSpawnMovementData.hpp"
+// IWYU pragma private; include "GlobalNamespace\StaticBeatmapObjectSpawnMovementData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticBeatmapObjectSpawnMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::StaticBeatmapObjectSpawnMovementData::Get2DNoteOffset)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x325e1c8;
+  constexpr static std::size_t addrs = 0x32614c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::StaticBeatmapObjectSpawnMovementData::LineYPosForLineLayer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x325e474;
+  constexpr static std::size_t addrs = 0x3261774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StaticBeatmapObjectSpawnMovementData*>(),

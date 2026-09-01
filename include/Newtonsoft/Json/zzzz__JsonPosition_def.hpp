@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/JsonPosition.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\JsonPosition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,22 +44,22 @@ public:
   /// @brief Field SpecialCharacters, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_SpecialCharacters, put = setStaticF_SpecialCharacters)) ::ArrayW<char16_t> SpecialCharacters;
 
-  /// @brief Method BuildPath, addr 0x5cd3558, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method BuildPath, addr 0x5cd7a14, size 0x2d4, virtual false, abstract: false, final false
   static inline ::StringW BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* positions, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> currentPosition);
 
-  /// @brief Method CalculateLength, addr 0x5cd3294, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CalculateLength, addr 0x5cd7750, size 0x94, virtual false, abstract: false, final false
   inline int32_t CalculateLength();
 
-  /// @brief Method FormatMessage, addr 0x5cd2cb4, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method FormatMessage, addr 0x5cd7170, size 0x328, virtual false, abstract: false, final false
   static inline ::StringW FormatMessage(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
-  /// @brief Method TypeHasIndex, addr 0x5cd3284, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TypeHasIndex, addr 0x5cd7740, size 0x10, virtual false, abstract: false, final false
   static inline bool TypeHasIndex(::Newtonsoft::Json::JsonContainerType type);
 
-  /// @brief Method WriteTo, addr 0x5cd3328, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x5cd77e4, size 0x230, virtual false, abstract: false, final false
   inline void WriteTo(::System::Text::StringBuilder* sb, ::by_ref<::System::IO::StringWriter*> writer, ::by_ref<::ArrayW<char16_t>> buffer);
 
-  /// @brief Method .ctor, addr 0x5cd3204, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd76c0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonContainerType type);
 
   static inline ::ArrayW<char16_t> getStaticF_SpecialCharacters();
@@ -75,7 +75,7 @@ public:
   constexpr JsonPosition(::Newtonsoft::Json::JsonContainerType Type, int32_t Position, ::StringW PropertyName, bool HasIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13260 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

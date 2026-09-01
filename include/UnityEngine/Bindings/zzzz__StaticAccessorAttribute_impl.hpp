@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/StaticAccessorAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\StaticAccessorAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__StaticAccessorType_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__StaticAccessorAttribute_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::StringW)>(&::UnityEngine::Bindings::StaticAccessorAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bae9b0;
+  constexpr static std::size_t addrs = 0x6bb6534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::UnityEngine::Bindings::StaticAccessorType)>(
     &::UnityEngine::Bindings::StaticAccessorAttribute::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bae9b8;
+  constexpr static std::size_t addrs = 0x6bb653c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::StringW)>(&::UnityEngine::Bindings::StaticAccessorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bae9c0;
+  constexpr static std::size_t addrs = 0x6bb6544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::StringW, ::UnityEngine::Bindings::StaticAccessorType)>(
     &::UnityEngine::Bindings::StaticAccessorAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6bae9c8;
+  constexpr static std::size_t addrs = 0x6bb654c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/ShaderUtilities.hpp"
+// IWYU pragma private; include "TMPro\ShaderUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__ShaderUtilities_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::TMPro::ShaderUtilities::get_ShaderRef_MobileSDF)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x69961ac;
+  constexpr static std::size_t addrs = 0x699dc28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::ShaderUtilities*>(), { "get_ShaderRef_MobileSDF", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::TMPro::ShaderUtilities::get_ShaderRef_MobileBitmap)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x69962b4;
+  constexpr static std::size_t addrs = 0x699dd30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::ShaderUtilities*>(), { "get_ShaderRef_MobileBitmap", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::ShaderUtilities::GetShaderPropertyIDs)> {
   constexpr static std::size_t size = 0xdc4;
-  constexpr static std::size_t addrs = 0x698d650;
+  constexpr static std::size_t addrs = 0x69950cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::ShaderUtilities*>(), { "GetShaderPropertyIDs", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::UpdateShaderRatios)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x699653c;
+  constexpr static std::size_t addrs = 0x699dfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::GetFontExtent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6996968;
+  constexpr static std::size_t addrs = 0x699e3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::IsMaskingEnabled)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x69969b8;
+  constexpr static std::size_t addrs = 0x699e434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Material*, bool, bool)>(&::TMPro::ShaderUtilities::GetPadding)> {
   constexpr static std::size_t size = 0x79c;
-  constexpr static std::size_t addrs = 0x6996b54;
+  constexpr static std::size_t addrs = 0x699e5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::ComputePaddingForProperties)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x69972f0;
+  constexpr static std::size_t addrs = 0x699ed6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::ArrayW<::UnityEngine::Material*>, bool, bool)>(&::TMPro::ShaderUtilities::GetPadding)> {
   constexpr static std::size_t size = 0x838;
-  constexpr static std::size_t addrs = 0x69975e4;
+  constexpr static std::size_t addrs = 0x699f060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

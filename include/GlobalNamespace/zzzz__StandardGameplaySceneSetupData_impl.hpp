@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StandardGameplaySceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\StandardGameplaySceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardGameplaySceneSetupData_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardGameplaySceneSetupData::*)(
     bool, ::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::StandardGameplaySceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x590a8b4;
+  constexpr static std::size_t addrs = 0x590dd8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

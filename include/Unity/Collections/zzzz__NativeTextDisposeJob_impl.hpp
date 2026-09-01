@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/NativeTextDisposeJob.hpp"
+// IWYU pragma private; include "Unity\Collections\NativeTextDisposeJob.hpp"
 #include "Unity/Collections/zzzz__NativeTextDispose_impl.hpp"
 #include "Unity/Collections/zzzz__NativeTextDisposeJob_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeTextDisposeJob::*)()>(&::Unity::Collections::NativeTextDisposeJob::Execute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64bf5ac;
+  constexpr static std::size_t addrs = 0x64c7028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeTextDisposeJob>(), { "Execute", {}, {} })));

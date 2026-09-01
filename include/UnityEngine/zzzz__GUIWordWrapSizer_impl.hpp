@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/GUIWordWrapSizer.hpp"
+// IWYU pragma private; include "UnityEngine\GUIWordWrapSizer.hpp"
 #include "UnityEngine/zzzz__GUILayoutEntry_impl.hpp"
 #include "UnityEngine/zzzz__GUIWordWrapSizer_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIWordWrapSizer::*)(::UnityEngine::GUIStyle*, ::UnityEngine::GUIContent*, ::ArrayW<::UnityEngine::GUILayoutOption*>)>(
     &::UnityEngine::GUIWordWrapSizer::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6b3f82c;
+  constexpr static std::size_t addrs = 0x6b473b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIWordWrapSizer::*)()>(&::UnityEngine::GUIWordWrapSizer::CalcWidth)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b47954;
+  constexpr static std::size_t addrs = 0x6b4f4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIWordWrapSizer::*)()>(&::UnityEngine::GUIWordWrapSizer::CalcHeight)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b479bc;
+  constexpr static std::size_t addrs = 0x6b4f540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

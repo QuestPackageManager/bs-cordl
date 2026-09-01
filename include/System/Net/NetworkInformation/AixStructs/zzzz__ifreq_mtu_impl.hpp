@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/ifreq_mtu.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\AixStructs\ifreq_mtu.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_mtu_def.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_mtu_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]

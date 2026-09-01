@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/Challenge.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\Challenge.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__Challenge_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::Challenge::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::Challenge::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3345004;
+  constexpr static std::size_t addrs = 0x3348dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::Challenge* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::Challenge::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x33450b0;
+  constexpr static std::size_t addrs = 0x3348e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cmp::Challenge::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::Challenge::get_Owf)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3345234;
+  constexpr static std::size_t addrs = 0x3348ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::Challenge::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::Challenge::ToAsn1Object)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x334523c;
+  constexpr static std::size_t addrs = 0x3348ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

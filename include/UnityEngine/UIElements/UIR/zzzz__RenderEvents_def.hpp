@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/RenderEvents.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\RenderEvents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,90 +55,90 @@ public:
   /// @brief Field k_NudgeVerticesMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_NudgeVerticesMarker, put = setStaticF_k_NudgeVerticesMarker)) ::Unity::Profiling::ProfilerMarker k_NudgeVerticesMarker;
 
-  /// @brief Method DepthFirstOnChildAdded, addr 0x6ce5f14, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method DepthFirstOnChildAdded, addr 0x6ceda98, size 0x528, virtual false, abstract: false, final false
   static inline uint32_t DepthFirstOnChildAdded(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* parent,
                                                 ::UnityEngine::UIElements::VisualElement* ve, int32_t index, bool resetState);
 
-  /// @brief Method DepthFirstOnChildRemoving, addr 0x6ce71b8, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method DepthFirstOnChildRemoving, addr 0x6ceed3c, size 0x484, virtual false, abstract: false, final false
   static inline uint32_t DepthFirstOnChildRemoving(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method DepthFirstOnClippingChanged, addr 0x6ce4bb4, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method DepthFirstOnClippingChanged, addr 0x6cec738, size 0x524, virtual false, abstract: false, final false
   static inline void DepthFirstOnClippingChanged(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* parent,
                                                  ::UnityEngine::UIElements::VisualElement* ve, uint32_t dirtyID, bool hierarchical, bool isRootOfChange, bool isPendingHierarchicalRepaint,
                                                  bool inheritedClipRectIDChanged, bool inheritedMaskingChanged, ::UnityEngine::UIElements::UIR::UIRenderDevice* device,
                                                  ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method DepthFirstOnOpacityChanged, addr 0x6ce51a0, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method DepthFirstOnOpacityChanged, addr 0x6cecd24, size 0x3a8, virtual false, abstract: false, final false
   static inline void DepthFirstOnOpacityChanged(::UnityEngine::UIElements::UIR::RenderChain* renderChain, float_t parentCompositeOpacity, ::UnityEngine::UIElements::VisualElement* ve,
                                                 uint32_t dirtyID, bool hierarchical, ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats, bool isDoingFullVertexRegeneration);
 
-  /// @brief Method DepthFirstOnTransformOrSizeChanged, addr 0x6ce58c4, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method DepthFirstOnTransformOrSizeChanged, addr 0x6ced448, size 0x368, virtual false, abstract: false, final false
   static inline void DepthFirstOnTransformOrSizeChanged(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* parent,
                                                         ::UnityEngine::UIElements::VisualElement* ve, uint32_t dirtyID, ::UnityEngine::UIElements::UIR::UIRenderDevice* device,
                                                         bool isAncestorOfChangeSkinned, bool transformChanged, ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method DetermineSelfClipMethod, addr 0x6ce8054, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DetermineSelfClipMethod, addr 0x6cefbd8, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::ClipMethod DetermineSelfClipMethod(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetClipRectIDClipInfo, addr 0x6ce5d78, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetClipRectIDClipInfo, addr 0x6ced8fc, size 0x19c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetClipRectIDClipInfo(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetLastDeepestChild, addr 0x6ce6560, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetLastDeepestChild, addr 0x6cee0e4, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* GetLastDeepestChild(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetTransformIDTransformInfo, addr 0x6ce5c2c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetTransformIDTransformInfo, addr 0x6ced7b0, size 0x14c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetTransformIDTransformInfo(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method InitColorIDs, addr 0x6ce6644, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method InitColorIDs, addr 0x6cee1c8, size 0x564, virtual false, abstract: false, final false
   static inline bool InitColorIDs(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method NeedsColorID, addr 0x6ce662c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method NeedsColorID, addr 0x6cee1b0, size 0x18, virtual false, abstract: false, final false
   static inline bool NeedsColorID(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method NeedsTextCoreSettings, addr 0x6ce8b5c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method NeedsTextCoreSettings, addr 0x6cf06e0, size 0xac, virtual false, abstract: false, final false
   static inline bool NeedsTextCoreSettings(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method NeedsTransformID, addr 0x6ce65dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method NeedsTransformID, addr 0x6cee160, size 0x28, virtual false, abstract: false, final false
   static inline bool NeedsTransformID(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method NudgeVerticesToNewSpace, addr 0x6ce8780, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method NudgeVerticesToNewSpace, addr 0x6cf0304, size 0x3dc, virtual false, abstract: false, final false
   static inline bool NudgeVerticesToNewSpace(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::RenderChain* renderChain,
                                              ::UnityEngine::UIElements::UIR::UIRenderDevice* device);
 
-  /// @brief Method OnColorChanged, addr 0x6ce55d4, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method OnColorChanged, addr 0x6ced158, size 0x234, virtual false, abstract: false, final false
   static inline void OnColorChanged(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, uint32_t dirtyID,
                                     ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method PrepareNudgeVertices, addr 0x6ce8fd0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method PrepareNudgeVertices, addr 0x6cf0b54, size 0xdc, virtual false, abstract: false, final false
   static inline void PrepareNudgeVertices(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device, ::UnityEngine::UIElements::UIR::MeshHandle* mesh,
                                           ::by_ref<::System::IntPtr> src, ::by_ref<::System::IntPtr> dst, ::by_ref<int32_t> count);
 
-  /// @brief Method ProcessOnClippingChanged, addr 0x6ce4ad4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ProcessOnClippingChanged, addr 0x6cec658, size 0xe0, virtual false, abstract: false, final false
   static inline void ProcessOnClippingChanged(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, uint32_t dirtyID,
                                               ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method ProcessOnColorChanged, addr 0x6ce5548, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ProcessOnColorChanged, addr 0x6ced0cc, size 0x8c, virtual false, abstract: false, final false
   static inline void ProcessOnColorChanged(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, uint32_t dirtyID,
                                            ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method ProcessOnOpacityChanged, addr 0x6ce50d8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ProcessOnOpacityChanged, addr 0x6cecc5c, size 0xc8, virtual false, abstract: false, final false
   static inline void ProcessOnOpacityChanged(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, uint32_t dirtyID,
                                              ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method ProcessOnTransformOrSizeChanged, addr 0x6ce5808, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ProcessOnTransformOrSizeChanged, addr 0x6ced38c, size 0xbc, virtual false, abstract: false, final false
   static inline void ProcessOnTransformOrSizeChanged(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, uint32_t dirtyID,
                                                      ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method SetColorValues, addr 0x6ce6ba8, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method SetColorValues, addr 0x6cee72c, size 0x4a8, virtual false, abstract: false, final false
   static inline void SetColorValues(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UpdateLocalFlipsWinding, addr 0x6ce643c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalFlipsWinding, addr 0x6cedfc0, size 0x124, virtual false, abstract: false, final false
   static inline bool UpdateLocalFlipsWinding(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UpdateTextCoreSettings, addr 0x6ce8294, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTextCoreSettings, addr 0x6cefe18, size 0x24c, virtual false, abstract: false, final false
   static inline bool UpdateTextCoreSettings(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UpdateZeroScaling, addr 0x6ce85fc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UpdateZeroScaling, addr 0x6cf0180, size 0x184, virtual false, abstract: false, final false
   static inline void UpdateZeroScaling(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline float_t getStaticF_VisibilityTreshold();

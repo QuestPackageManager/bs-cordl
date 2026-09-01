@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/OtherKeyAttribute.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\OtherKeyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,14 +44,14 @@ public:
   /// @brief Field keyAttrId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_keyAttrId, put = __cordl_internal_set_keyAttrId)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAttrId;
 
-  /// @brief Method GetInstance, addr 0x3357440, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x335b200, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAttrId, ::Org::BouncyCastle::Asn1::Asn1Encodable* keyAttr);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x335a078, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x335de38, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_keyAttr() const;
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_keyAttrId(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x335a060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335de20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAttrId, ::Org::BouncyCastle::Asn1::Asn1Encodable* keyAttr);
 
-  /// @brief Method .ctor, addr 0x3359f7c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335dd3c, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeyAttr, addr 0x335a070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAttr, addr 0x335de30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_KeyAttr();
 
-  /// @brief Method get_KeyAttrId, addr 0x335a068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAttrId, addr 0x335de28, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_KeyAttrId();
 
 protected:

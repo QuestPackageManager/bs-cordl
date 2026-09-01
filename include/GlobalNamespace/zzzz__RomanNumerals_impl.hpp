@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RomanNumerals.hpp"
+// IWYU pragma private; include "GlobalNamespace\RomanNumerals.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RomanNumerals_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RomanNumerals.ToRomanNumeralString
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::GlobalNamespace::RomanNumerals::ToRomanNumeralString)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x58fd8dc;
+  constexpr static std::size_t addrs = 0x5900ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

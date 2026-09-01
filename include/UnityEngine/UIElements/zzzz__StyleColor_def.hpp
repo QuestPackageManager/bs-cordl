@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleColor.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,31 +48,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Color>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Color>*();
 
-  /// @brief Method Equals, addr 0x6c8b158, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c92cdc, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c8b100, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c92c84, size 0x58, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleColor other);
 
-  /// @brief Method GetHashCode, addr 0x6c8b1ec, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c92d70, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6c8b268, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c92dec, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c8b08c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c92c10, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x6c8b07c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c92c00, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color v);
 
-  /// @brief Method .ctor, addr 0x6c88e0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c90990, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x6c8b06c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x6c92bf0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x6c8b034, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x6c92bb8, size 0x28, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleColor>"
@@ -81,19 +81,19 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Color>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::Color>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__Color_();
 
-  /// @brief Method op_Equality, addr 0x6c8b098, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c92c1c, size 0x58, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleColor lhs, ::UnityEngine::UIElements::StyleColor rhs);
 
-  /// @brief Method op_Implicit, addr 0x6c88e1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c909a0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleColor op_Implicit___UnityEngine__UIElements__StyleColor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Implicit, addr 0x6c8b0f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c92c74, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleColor op_Implicit___UnityEngine__UIElements__StyleColor(::UnityEngine::Color v);
 
-  /// @brief Method set_keyword, addr 0x6c8b074, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x6c92bf8, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x6c8b05c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x6c92be0, size 0x10, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::Color value);
 
   // Ctor Parameters []

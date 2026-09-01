@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/DigestClient.hpp"
+// IWYU pragma private; include "System\Net\DigestClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,26 +44,26 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x6424054, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x642bad0, size 0x2b0, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method CheckExpired, addr 0x6423864, size 0x7f0, virtual false, abstract: false, final false
+  /// @brief Method CheckExpired, addr 0x642b2e0, size 0x7f0, virtual false, abstract: false, final false
   static inline void CheckExpired(int32_t count);
 
   static inline ::System::Net::DigestClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x6424304, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x642bd80, size 0x180, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method .ctor, addr 0x641fa7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64274f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Hashtable* getStaticF_cache();
 
-  /// @brief Method get_AuthenticationType, addr 0x6424484, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x642bf00, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Cache, addr 0x6423700, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x642b17c, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Collections::Hashtable* get_Cache();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"
@@ -86,7 +86,7 @@ public:
   DigestClient(DigestClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

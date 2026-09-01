@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/SignatureExpirationTime.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Sig\SignatureExpirationTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,16 +27,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime* New_ctor(bool critical, int64_t seconds);
 
-  /// @brief Method TimeToBytes, addr 0x3691e28, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TimeToBytes, addr 0x3695be8, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> TimeToBytes(int64_t t);
 
-  /// @brief Method .ctor, addr 0x3691ec0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3695c80, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x3691ed8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3695c98, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int64_t seconds);
 
-  /// @brief Method get_Time, addr 0x3691f10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x3695cd0, size 0x5c, virtual false, abstract: false, final false
   inline int64_t get_Time();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsFatalAlertReceived.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsFatalAlertReceived.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_alertDescription(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x34839c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3487780, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t alertDescription);
 
-  /// @brief Method get_AlertDescription, addr 0x3483a0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AlertDescription, addr 0x34877cc, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_AlertDescription();
 
 protected:

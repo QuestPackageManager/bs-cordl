@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainSettingsMenuViewControllersInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainSettingsMenuViewControllersInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewControllersInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewController_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewControllersInstaller::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewControllersInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x59f5bf4;
+  constexpr static std::size_t addrs = 0x59fdccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewControllersInstaller::*)()>(&::GlobalNamespace::MainSettingsMenuViewControllersInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59f5cbc;
+  constexpr static std::size_t addrs = 0x59fdd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>(), { ".ctor", {}, {} })));

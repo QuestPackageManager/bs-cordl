@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ConnectionFailedReasonMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\ConnectionFailedReasonMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReasonMethods_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::ConnectionFailedReason)>(&::GlobalNamespace::ConnectionFailedReasonMethods::LocalizedKey)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3730ca8;
+  constexpr static std::size_t addrs = 0x3736818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConnectionFailedReasonMethods*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::ConnectionFailedReason)>(&::GlobalNamespace::ConnectionFailedReasonMethods::ErrorCode)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3730dd8;
+  constexpr static std::size_t addrs = 0x3736948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

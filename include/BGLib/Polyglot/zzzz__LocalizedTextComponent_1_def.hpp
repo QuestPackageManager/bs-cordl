@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/LocalizedTextComponent_1.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\LocalizedTextComponent_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -135,7 +135,7 @@ public:
   LocalizedTextComponent_1(LocalizedTextComponent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22199 };
 
   /// @brief Field localizedComponent, offset: 0x20, size: 0x8, def value: None
   T ___localizedComponent;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataRelationCollection_DataSetRelationCollection.hpp"
+// IWYU pragma private; include "System\Data\DataRelationCollection_DataSetRelationCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,18 +47,18 @@ public:
   /// @brief Field _relations, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__relations, put = __cordl_internal_set__relations)) ::System::Collections::ArrayList* _relations;
 
-  /// @brief Method AddCore, addr 0x6022170, size 0x568, virtual true, abstract: false, final false
+  /// @brief Method AddCore, addr 0x6029bec, size 0x568, virtual true, abstract: false, final false
   inline void AddCore(::System::Data::DataRelation* relation);
 
-  /// @brief Method Clear, addr 0x6021f3c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x60299b8, size 0x34, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetDataSet, addr 0x6021f70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDataSet, addr 0x60299ec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Data::DataSet* GetDataSet();
 
   static inline ::GlobalNamespace::DataRelationCollection_DataSetRelationCollection* New_ctor(::System::Data::DataSet* dataSet);
 
-  /// @brief Method RemoveCore, addr 0x60226d8, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method RemoveCore, addr 0x602a154, size 0x244, virtual true, abstract: false, final false
   inline void RemoveCore(::System::Data::DataRelation* relation);
 
   constexpr ::System::Data::DataSet* const& __cordl_internal_get__dataSet() const;
@@ -79,16 +79,16 @@ public:
 
   constexpr void __cordl_internal_set__relations(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x6021e98, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6029914, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet);
 
-  /// @brief Method get_Item, addr 0x6021f78, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x60299f4, size 0x100, virtual true, abstract: false, final false
   inline ::System::Data::DataRelation* get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0x6022078, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6029af4, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Data::DataRelation* get_Item(::StringW name);
 
-  /// @brief Method get_List, addr 0x6021f34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_List, addr 0x60299b0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* get_List();
 
 protected:
@@ -106,7 +106,7 @@ public:
   DataRelationCollection_DataSetRelationCollection(DataRelationCollection_DataSetRelationCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13774 };
 
   /// @brief Field _dataSet, offset: 0x38, size: 0x8, def value: None
   ::System::Data::DataSet* ____dataSet;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/BaseSliderData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\BaseSliderData.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteColorType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteCutDirection_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveDataItem_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::NoteColorType (::BeatmapSaveDataVersion3::BaseSliderData::*)()>(
     &::BeatmapSaveDataVersion3::BaseSliderData::get_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759a98;
+  constexpr static std::size_t addrs = 0x375f704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BaseSliderData*>(), { "get_colorType", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::BaseSliderData::*)()>(&::BeatmapSaveDataVersion3::BaseSliderData::get_headLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759aa0;
+  constexpr static std::size_t addrs = 0x375f70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BaseSliderData*>(), { "get_headLine", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::BaseSliderData::*)()>(&::BeatmapSaveDataVersion3::BaseSliderData::get_headLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759aa8;
+  constexpr static std::size_t addrs = 0x375f714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BaseSliderData*>(), { "get_headLayer", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::NoteCutDirection (::BeatmapSaveDataVersion3::BaseSliderData::*)()>(
     &::BeatmapSaveDataVersion3::BaseSliderData::get_headCutDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759ab0;
+  constexpr static std::size_t addrs = 0x375f71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BaseSliderData*>(), { "get_headCutDirection", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::BaseSliderData::*)()>(&::BeatmapSaveDataVersion3::BaseSliderData::get_tailBeat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759ab8;
+  constexpr static std::size_t addrs = 0x375f724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BaseSliderData*>(), { "get_tailBeat", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::BaseSliderData::*)()>(&::BeatmapSaveDataVersion3::BaseSliderData::get_tailLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759ac0;
+  constexpr static std::size_t addrs = 0x375f72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BaseSliderData*>(), { "get_tailLine", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::BaseSliderData::*)()>(&::BeatmapSaveDataVersion3::BaseSliderData::get_tailLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759ac8;
+  constexpr static std::size_t addrs = 0x375f734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BaseSliderData*>(), { "get_tailLayer", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::BaseSliderData::*)(
     ::BeatmapSaveDataCommon::NoteColorType, float_t, int32_t, int32_t, ::BeatmapSaveDataCommon::NoteCutDirection, float_t, int32_t, int32_t)>(&::BeatmapSaveDataVersion3::BaseSliderData::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3759ad0;
+  constexpr static std::size_t addrs = 0x375f73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

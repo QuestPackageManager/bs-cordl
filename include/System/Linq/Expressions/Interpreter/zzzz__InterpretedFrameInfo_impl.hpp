@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InterpretedFrameInfo.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InterpretedFrameInfo.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrameInfo_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DebugInfo_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrameInfo::*)(::StringW, ::System::Linq::Expressions::Interpreter::DebugInfo*)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrameInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f96dd4;
+  constexpr static std::size_t addrs = 0x5f9e850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::InterpretedFrameInfo::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrameInfo::ToString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f99b28;
+  constexpr static std::size_t addrs = 0x5fa15a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>(),

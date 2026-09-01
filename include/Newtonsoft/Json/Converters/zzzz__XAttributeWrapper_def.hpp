@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/XAttributeWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\XAttributeWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,25 +38,25 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XAttributeWrapper* New_ctor(::System::Xml::Linq::XAttribute* attribute);
 
-  /// @brief Method .ctor, addr 0x5d9cbe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da10a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XAttribute* attribute);
 
-  /// @brief Method get_Attribute, addr 0x5d9d760, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Attribute, addr 0x5da1c1c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XAttribute* get_Attribute();
 
-  /// @brief Method get_LocalName, addr 0x5d9d830, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x5da1cec, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x5d9d854, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x5da1d10, size 0x2c, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_ParentNode, addr 0x5d9d880, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x5da1d3c, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
-  /// @brief Method get_Value, addr 0x5d9d7dc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5da1c98, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x5d9d7f8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5da1cb4, size 0x38, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -74,7 +74,7 @@ public:
   XAttributeWrapper(XAttributeWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

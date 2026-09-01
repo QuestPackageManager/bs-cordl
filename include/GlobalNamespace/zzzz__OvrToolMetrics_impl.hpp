@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OvrToolMetrics.hpp"
+// IWYU pragma private; include "GlobalNamespace\OvrToolMetrics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OvrToolMetrics_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMetricsToolSDK_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OvrToolMetrics* (*)(int32_t)>(&::GlobalNamespace::OvrToolMetrics::RecordMetrics)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58ec184;
+  constexpr static std::size_t addrs = 0x58ef7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OvrToolMetrics::*)(::GlobalNamespace::OVRMetricsToolSDK*, int32_t)>(&::GlobalNamespace::OvrToolMetrics::_ctor)> {
   constexpr static std::size_t size = 0xb98;
-  constexpr static std::size_t addrs = 0x58ec234;
+  constexpr static std::size_t addrs = 0x58ef864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OvrToolMetrics*>(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OvrToolMetrics::*)()>(&::GlobalNamespace::OvrToolMetrics::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58ecdcc;
+  constexpr static std::size_t addrs = 0x58f03fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OvrToolMetrics*>(), { "Dispose", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OvrToolMetrics::*)()>(&::GlobalNamespace::OvrToolMetrics::CaptureFrame)> {
   constexpr static std::size_t size = 0x6a0;
-  constexpr static std::size_t addrs = 0x58ecdd0;
+  constexpr static std::size_t addrs = 0x58f0400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OvrToolMetrics*>(), { "CaptureFrame", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OvrToolMetrics::*)()>(&::GlobalNamespace::OvrToolMetrics::GenerateListReport)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x58ed470;
+  constexpr static std::size_t addrs = 0x58f0aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OvrToolMetrics*>(), { "GenerateListReport", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OvrToolMetrics::*)()>(&::GlobalNamespace::OvrToolMetrics::GenerateTableReport)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x58ed66c;
+  constexpr static std::size_t addrs = 0x58f0c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OvrToolMetrics*>(), { "GenerateTableReport", {}, {} })));

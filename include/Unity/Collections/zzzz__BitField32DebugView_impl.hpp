@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/BitField32DebugView.hpp"
+// IWYU pragma private; include "Unity\Collections\BitField32DebugView.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__BitField32_impl.hpp"
 #include "Unity/Collections/zzzz__BitField32DebugView_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::BitField32DebugView::*)(::Unity::Collections::BitField32)>(&::Unity::Collections::BitField32DebugView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a4094;
+  constexpr static std::size_t addrs = 0x64abb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (::Unity::Collections::BitField32DebugView::*)()>(&::Unity::Collections::BitField32DebugView::get_Bits)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64a409c;
+  constexpr static std::size_t addrs = 0x64abb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BitField32DebugView*>(), { "get_Bits", {}, {} })));

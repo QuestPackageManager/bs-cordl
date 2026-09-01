@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/SignatureArrayType.hpp"
+// IWYU pragma private; include "System\Reflection\SignatureArrayType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,16 +36,16 @@ public:
   /// @brief Field _rank, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__rank, put = __cordl_internal_set__rank)) int32_t _rank;
 
-  /// @brief Method GetArrayRank, addr 0x5b7d134, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetArrayRank, addr 0x5b815f0, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetArrayRank();
 
-  /// @brief Method IsArrayImpl, addr 0x5b7d104, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsArrayImpl, addr 0x5b815c0, size 0x8, virtual true, abstract: false, final true
   inline bool IsArrayImpl();
 
-  /// @brief Method IsByRefImpl, addr 0x5b7d10c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsByRefImpl, addr 0x5b815c8, size 0x8, virtual true, abstract: false, final true
   inline bool IsByRefImpl();
 
-  /// @brief Method IsPointerImpl, addr 0x5b7d114, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsPointerImpl, addr 0x5b815d0, size 0x8, virtual true, abstract: false, final true
   inline bool IsPointerImpl();
 
   static inline ::System::Reflection::SignatureArrayType* New_ctor(::System::Reflection::SignatureType* elementType, int32_t rank, bool isMultiDim);
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set__rank(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b7d078, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b81534, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::SignatureType* elementType, int32_t rank, bool isMultiDim);
 
-  /// @brief Method get_IsSZArray, addr 0x5b7d11c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsSZArray, addr 0x5b815d8, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsSZArray();
 
-  /// @brief Method get_IsVariableBoundArray, addr 0x5b7d12c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsVariableBoundArray, addr 0x5b815e8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsVariableBoundArray();
 
-  /// @brief Method get_Suffix, addr 0x5b7d13c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method get_Suffix, addr 0x5b815f8, size 0xd4, virtual true, abstract: false, final true
   inline ::StringW get_Suffix();
 
 protected:

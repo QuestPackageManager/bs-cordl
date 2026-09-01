@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/ExceptionServices/ExceptionDispatchInfo.hpp"
+// IWYU pragma private; include "System\Runtime\ExceptionServices\ExceptionDispatchInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,15 +35,15 @@ public:
   /// @brief Field m_stackTrace, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_stackTrace, put = __cordl_internal_set_m_stackTrace)) ::System::Object* m_stackTrace;
 
-  /// @brief Method Capture, addr 0x5b6b2c0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x5b6f77c, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(::System::Exception* source);
 
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* New_ctor(::System::Exception* exception);
 
-  /// @brief Method Throw, addr 0x5b6b384, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x5b6f840, size 0x44, virtual false, abstract: false, final false
   inline void Throw();
 
-  /// @brief Method Throw, addr 0x5b6b3c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x5b6f884, size 0x14, virtual false, abstract: false, final false
   static inline void Throw(::System::Exception* source);
 
   constexpr ::System::Exception* const& __cordl_internal_get_m_Exception() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_m_stackTrace(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5b6b19c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6f658, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* exception);
 
-  /// @brief Method get_BinaryStackTraceArray, addr 0x5b6b2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryStackTraceArray, addr 0x5b6f774, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_BinaryStackTraceArray();
 
-  /// @brief Method get_SourceException, addr 0x5b6b37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceException, addr 0x5b6f838, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_SourceException();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MockBeatmapData.hpp"
+// IWYU pragma private; include "GlobalNamespace\MockBeatmapData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,43 +102,43 @@ public:
 
   constexpr void __cordl_internal_set__songEndTime_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x5a7e128, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a825e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bombNotes, addr 0x5a7e108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bombNotes, addr 0x5a825c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*> get_bombNotes();
 
-  /// @brief Method get_leftNotes, addr 0x5a7e0e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftNotes, addr 0x5a825a4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*> get_leftNotes();
 
-  /// @brief Method get_numberOfLines, addr 0x5a7e0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfLines, addr 0x5a82584, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_obstacles, addr 0x5a7e118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstacles, addr 0x5a825d4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockObstacleData*> get_obstacles();
 
-  /// @brief Method get_rightNotes, addr 0x5a7e0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightNotes, addr 0x5a825b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*> get_rightNotes();
 
-  /// @brief Method get_songEndTime, addr 0x5a7e0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songEndTime, addr 0x5a82594, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songEndTime();
 
-  /// @brief Method set_bombNotes, addr 0x5a7e110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bombNotes, addr 0x5a825cc, size 0x8, virtual false, abstract: false, final false
   inline void set_bombNotes(::ArrayW<::GlobalNamespace::MockNoteData*> value);
 
-  /// @brief Method set_leftNotes, addr 0x5a7e0f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftNotes, addr 0x5a825ac, size 0x8, virtual false, abstract: false, final false
   inline void set_leftNotes(::ArrayW<::GlobalNamespace::MockNoteData*> value);
 
-  /// @brief Method set_numberOfLines, addr 0x5a7e0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_numberOfLines, addr 0x5a8258c, size 0x8, virtual false, abstract: false, final false
   inline void set_numberOfLines(int32_t value);
 
-  /// @brief Method set_obstacles, addr 0x5a7e120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_obstacles, addr 0x5a825dc, size 0x8, virtual false, abstract: false, final false
   inline void set_obstacles(::ArrayW<::GlobalNamespace::MockObstacleData*> value);
 
-  /// @brief Method set_rightNotes, addr 0x5a7e100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightNotes, addr 0x5a825bc, size 0x8, virtual false, abstract: false, final false
   inline void set_rightNotes(::ArrayW<::GlobalNamespace::MockNoteData*> value);
 
-  /// @brief Method set_songEndTime, addr 0x5a7e0e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songEndTime, addr 0x5a8259c, size 0x8, virtual false, abstract: false, final false
   inline void set_songEndTime(float_t value);
 
 protected:
@@ -156,7 +156,7 @@ public:
   MockBeatmapData(MockBeatmapData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22224 };
 
   /// @brief Field <numberOfLines>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____numberOfLines_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/Qualified/TypeOfBiometricData.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\Qualified\TypeOfBiometricData.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__TypeOfBiometricData_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::GetInstance)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3553e94;
+  constexpr static std::size_t addrs = 0x3557c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3555a58;
+  constexpr static std::size_t addrs = 0x3559818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3555b38;
+  constexpr static std::size_t addrs = 0x35598f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::get_IsPredefined)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3555b40;
+  constexpr static std::size_t addrs = 0x3559900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::get_PredefinedBiometricType)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3555bc0;
+  constexpr static std::size_t addrs = 0x3559980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::get_BiometricDataOid)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3555c44;
+  constexpr static std::size_t addrs = 0x3559a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3555cc0;
+  constexpr static std::size_t addrs = 0x3559a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData*>(),

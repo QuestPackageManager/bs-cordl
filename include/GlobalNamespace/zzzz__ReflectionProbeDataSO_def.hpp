@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ReflectionProbeDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\ReflectionProbeDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__reflectionProbeCubemap2(::UnityW<::UnityEngine::Cubemap> value);
 
-  /// @brief Method .ctor, addr 0x58e13f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4a2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_reflectionProbeCubemap1, addr 0x58e13d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeCubemap1, addr 0x58e4a0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Cubemap> get_reflectionProbeCubemap1();
 
-  /// @brief Method get_reflectionProbeCubemap2, addr 0x58e13e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeCubemap2, addr 0x58e4a1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Cubemap> get_reflectionProbeCubemap2();
 
-  /// @brief Method set_reflectionProbeCubemap1, addr 0x58e13dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeCubemap1, addr 0x58e4a14, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap1(::UnityEngine::Cubemap* value);
 
-  /// @brief Method set_reflectionProbeCubemap2, addr 0x58e13ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeCubemap2, addr 0x58e4a24, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap2(::UnityEngine::Cubemap* value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   ReflectionProbeDataSO(ReflectionProbeDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6541 };
 
   /// @brief Field _reflectionProbeCubemap1, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Cubemap> ____reflectionProbeCubemap1;

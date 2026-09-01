@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/SerializationHeaderRecord.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\SerializationHeaderRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,10 +53,10 @@ public:
   /// @brief Field topId, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_topId, put = __cordl_internal_set_topId)) int32_t topId;
 
-  /// @brief Method Dump, addr 0x5b53f88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5b58444, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
-  /// @brief Method GetInt32, addr 0x5b53dc4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetInt32, addr 0x5b58280, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetInt32(::ArrayW<uint8_t> buffer, int32_t index);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord* New_ctor();
@@ -64,10 +64,10 @@ public:
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum,
                                                                                                           int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion);
 
-  /// @brief Method Read, addr 0x5b53e34, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5b582f0, size 0x154, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Write, addr 0x5b53d14, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x5b581d0, size 0xb0, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_binaryFormatterMajorVersion() const;
@@ -112,10 +112,10 @@ public:
 
   constexpr void __cordl_internal_set_topId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b53cf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b581ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b53cfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b581b8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion);
 
 protected:

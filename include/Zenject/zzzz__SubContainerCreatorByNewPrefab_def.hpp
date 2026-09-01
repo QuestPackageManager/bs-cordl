@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SubContainerCreatorByNewPrefab.hpp"
+// IWYU pragma private; include "Zenject\SubContainerCreatorByNewPrefab.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x6e837e8, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x6e8b36c, size 0x1b4, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   static inline ::Zenject::SubContainerCreatorByNewPrefab* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
 
-  /// @brief Method .ctor, addr 0x6e837dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8b360, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"
@@ -97,7 +97,7 @@ public:
   SubContainerCreatorByNewPrefab(SubContainerCreatorByNewPrefab const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14627 };
 
   /// @brief Field _gameObjectBindInfo, offset: 0x10, size: 0x8, def value: None
   ::Zenject::GameObjectCreationParameters* ____gameObjectBindInfo;

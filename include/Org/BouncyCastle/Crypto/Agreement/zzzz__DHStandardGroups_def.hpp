@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/DHStandardGroups.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\DHStandardGroups.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -153,21 +153,21 @@ public:
   /// @brief Field rfc7919_ffdhe8192_p, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_rfc7919_ffdhe8192_p, put = setStaticF_rfc7919_ffdhe8192_p)) ::StringW rfc7919_ffdhe8192_p;
 
-  /// @brief Method FromHex, addr 0x36dfa9c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x36e385c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method FromPG, addr 0x36dfb3c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FromPG, addr 0x36e38fc, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* FromPG(::StringW hexP, ::StringW hexG);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups* New_ctor();
 
-  /// @brief Method SafePrimeGen2, addr 0x36dfbf0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SafePrimeGen2, addr 0x36e39b0, size 0x5c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP);
 
-  /// @brief Method SafePrimeGen2, addr 0x36dfc4c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SafePrimeGen2, addr 0x36e3a0c, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP, int32_t l);
 
-  /// @brief Method .ctor, addr 0x36e00f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e3eb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();

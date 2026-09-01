@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TextureEffectSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\TextureEffectSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,17 +35,17 @@ namespace GlobalNamespace {
 class CORDL_TYPE TextureEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Method BindAndFetchTempTextureHandles, addr 0x5873a40, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BindAndFetchTempTextureHandles, addr 0x5873380, size 0xa0, virtual true, abstract: false, final false
   inline void BindAndFetchTempTextureHandles(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* builder, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                              ::UnityEngine::RenderTextureDescriptor destDesc, ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> textureHandles);
 
   static inline ::GlobalNamespace::TextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x5873ae0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x5873420, size 0xe0, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle src, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dest,
                      ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tempTextures);
 
-  /// @brief Method .ctor, addr 0x5873bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5873500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   TextureEffectSO(TextureEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

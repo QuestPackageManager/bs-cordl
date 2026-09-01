@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tweening/TweeningManager.hpp"
+// IWYU pragma private; include "Tweening\TweeningManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tweening/zzzz__TweeningManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::Start)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6441a8c;
+  constexpr static std::size_t addrs = 0x6449508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "Start", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::LateUpdate)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x6441bd8;
+  constexpr static std::size_t addrs = 0x6449654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { "LateUpdate", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(&::Tweening::TweeningManager::AddTween)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6441fe4;
+  constexpr static std::size_t addrs = 0x6449a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(&::Tweening::TweeningManager::RestartTween)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6442144;
+  constexpr static std::size_t addrs = 0x6449bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(&::Tweening::TweeningManager::ResumeTween)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64421fc;
+  constexpr static std::size_t addrs = 0x6449c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)(::System::Object*)>(&::Tweening::TweeningManager::KillAllTweens)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6442220;
+  constexpr static std::size_t addrs = 0x6449c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)(::Tweening::Tween*)>(&::Tweening::TweeningManager::RemoveTweenFromOwnerDictionary)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6441e08;
+  constexpr static std::size_t addrs = 0x6449884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(&::Tweening::TweeningManager::AddTweenToDataStructures)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6442030;
+  constexpr static std::size_t addrs = 0x6449aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(&::Tweening::TweeningManager::AddTweenToOwnerDictionary)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x6442368;
+  constexpr static std::size_t addrs = 0x6449de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::_ctor)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x64417b4;
+  constexpr static std::size_t addrs = 0x6449230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::TweeningManager*>(), { ".ctor", {}, {} })));

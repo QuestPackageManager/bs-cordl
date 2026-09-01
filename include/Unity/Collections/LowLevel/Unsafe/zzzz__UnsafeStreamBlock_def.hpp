@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeStreamBlock.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeStreamBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
   constexpr UnsafeStreamBlock__Data_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15817 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -72,7 +72,7 @@ public:
   constexpr UnsafeStreamBlock(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* Next, ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock__Data_e__FixedBuffer Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15818 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

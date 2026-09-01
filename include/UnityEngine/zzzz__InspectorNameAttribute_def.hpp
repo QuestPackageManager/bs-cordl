@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InspectorNameAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\InspectorNameAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_displayName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6ad05f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad8008, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
 protected:
@@ -49,7 +49,7 @@ public:
   InspectorNameAttribute(InspectorNameAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10277 };
 
   /// @brief Field displayName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___displayName;

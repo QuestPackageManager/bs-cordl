@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlElementAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlElementAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlElementAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlElementAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlElementAttribute::*)(::StringW)>(&::UnityEngine::UIElements::UxmlElementAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cb81e8;
+  constexpr static std::size_t addrs = 0x6cbfd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

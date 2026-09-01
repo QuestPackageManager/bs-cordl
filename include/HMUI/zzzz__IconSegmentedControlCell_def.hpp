@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/IconSegmentedControlCell.hpp"
+// IWYU pragma private; include "HMUI\IconSegmentedControlCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,22 +70,22 @@ public:
 
   constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x5f4ea4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f564c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x5f4ea34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x5f564b0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hideBackgroundImage, addr 0x5f4e90c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x5f56388, size 0xa0, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_hintText, addr 0x5f4e8f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x5f56370, size 0x18, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_iconSize, addr 0x5f4e9ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_iconSize, addr 0x5f56428, size 0x3c, virtual false, abstract: false, final false
   inline void set_iconSize(float_t value);
 
-  /// @brief Method set_sprite, addr 0x5f4e8dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x5f56358, size 0x18, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   IconSegmentedControlCell(IconSegmentedControlCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23136 };
 
   /// @brief Field _icon, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____icon;

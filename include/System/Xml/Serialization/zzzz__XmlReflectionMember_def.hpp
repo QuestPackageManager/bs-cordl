@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlReflectionMember.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlReflectionMember.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,25 +83,25 @@ public:
 
   constexpr void __cordl_internal_set_xmlAttributes(::System::Xml::Serialization::XmlAttributes* value);
 
-  /// @brief Method .ctor, addr 0x62f33e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62fae64, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Type* type, ::System::Xml::Serialization::XmlAttributes* attributes);
 
-  /// @brief Method get_DeclaringType, addr 0x62f5404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x62fce80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_IsReturnValue, addr 0x62f53ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReturnValue, addr 0x62fce68, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReturnValue();
 
-  /// @brief Method get_MemberName, addr 0x62f53f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x62fce70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
-  /// @brief Method get_MemberType, addr 0x62f53fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x62fce78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_XmlAttributes, addr 0x62f27e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAttributes, addr 0x62fa260, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributes* get_XmlAttributes();
 
-  /// @brief Method set_DeclaringType, addr 0x62f540c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeclaringType, addr 0x62fce88, size 0x8, virtual false, abstract: false, final false
   inline void set_DeclaringType(::System::Type* value);
 
 protected:
@@ -119,7 +119,7 @@ public:
   XmlReflectionMember(XmlReflectionMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9520 };
 
   /// @brief Field isReturnValue, offset: 0x10, size: 0x1, def value: None
   bool ___isReturnValue;

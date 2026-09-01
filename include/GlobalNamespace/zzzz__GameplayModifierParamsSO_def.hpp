@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameplayModifierParamsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameplayModifierParamsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,34 +127,34 @@ public:
 
   constexpr void __cordl_internal_set__requires(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> value);
 
-  /// @brief Method .ctor, addr 0x3708814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x370cc34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_descriptionLocalizationKey, addr 0x37087d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_descriptionLocalizationKey, addr 0x370cbf4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_descriptionLocalizationKey();
 
-  /// @brief Method get_icon, addr 0x37087dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x370cbfc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_isInBeta, addr 0x370880c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInBeta, addr 0x370cc2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInBeta();
 
-  /// @brief Method get_modifierNameLocalizationKey, addr 0x37087cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modifierNameLocalizationKey, addr 0x370cbec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_modifierNameLocalizationKey();
 
-  /// @brief Method get_multiplier, addr 0x37087fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x370cc1c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_multiplier();
 
-  /// @brief Method get_multiplierConditionallyValid, addr 0x3708804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplierConditionallyValid, addr 0x370cc24, size 0x8, virtual false, abstract: false, final false
   inline bool get_multiplierConditionallyValid();
 
-  /// @brief Method get_mutuallyExclusives, addr 0x37087e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mutuallyExclusives, addr 0x370cc04, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> get_mutuallyExclusives();
 
-  /// @brief Method get_requiredBy, addr 0x37087f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requiredBy, addr 0x370cc14, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> get_requiredBy();
 
-  /// @brief Method get_requires, addr 0x37087ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requires, addr 0x370cc0c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> get_requires();
 
 protected:
@@ -172,7 +172,7 @@ public:
   GameplayModifierParamsSO(GameplayModifierParamsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14870 };
 
   /// @brief Field _modifierNameLocalizationKey, offset: 0x18, size: 0x8, def value: None
   ::StringW ____modifierNameLocalizationKey;

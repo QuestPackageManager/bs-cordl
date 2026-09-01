@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScaleAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScaleAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,36 +56,36 @@ public:
   /// @brief Field _tweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Animate, addr 0x59e073c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x59e8800, size 0xf0, virtual false, abstract: false, final false
   inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method HideInstant, addr 0x59e0628, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HideInstant, addr 0x59e86ec, size 0xa8, virtual false, abstract: false, final false
   inline void HideInstant();
 
-  /// @brief Method InitIfNeeded, addr 0x59e0230, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x59e82f4, size 0x380, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::ScaleAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59e01a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59e8268, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPositionAndRotation, addr 0x59e05b0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x59e8674, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ShowInstant, addr 0x59e06d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ShowInstant, addr 0x59e8794, size 0x6c, virtual false, abstract: false, final false
   inline void ShowInstant();
 
-  /// @brief Method <InitIfNeeded>b__7_0, addr 0x59e0838, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_0, addr 0x59e88fc, size 0x20, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_0(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__7_1, addr 0x59e0884, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_1, addr 0x59e8948, size 0x20, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_1(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__7_2, addr 0x59e0858, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_2, addr 0x59e891c, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_2();
 
-  /// @brief Method <InitIfNeeded>b__7_3, addr 0x59e08a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_3, addr 0x59e8968, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_3();
 
   constexpr float_t const& __cordl_internal_get__displayedScale() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x59e082c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e88f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,7 +142,7 @@ public:
   ScaleAnimator(ScaleAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6192 };
 
   /// @brief Field _displayedScale, offset: 0x20, size: 0x4, def value: None
   float_t ____displayedScale;

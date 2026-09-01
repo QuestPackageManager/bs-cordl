@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/EventAttributeFloat.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\EventAttributeFloat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ public:
 
   static inline ::UnityEngine::VFX::EventAttributeFloat___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x69cb37c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x69d2df8, size 0x1c, virtual false, abstract: false, final false
   inline bool __ctor_b__0_0(::UnityEngine::VFX::VFXEventAttribute* e, int32_t id);
 
-  /// @brief Method <.ctor>b__0_1, addr 0x69cb398, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x69d2e14, size 0x1c, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::VFX::VFXEventAttribute* e, int32_t id, float_t value);
 
-  /// @brief Method .ctor, addr 0x69cb378, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d2df4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::VFX::EventAttributeFloat___c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   EventAttributeFloat___c(EventAttributeFloat___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19937 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,7 +105,7 @@ public:
 
   static inline ::UnityEngine::VFX::EventAttributeFloat* New_ctor();
 
-  /// @brief Method .ctor, addr 0x69cb1a4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d2c20, size 0x180, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   EventAttributeFloat(EventAttributeFloat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ConverterGroup.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ConverterGroup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TypeConverterRegistry_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ConverterGroup_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TypeConverterRegistry (::UnityEngine::UIElements::ConverterGroup::*)()>(
     &::UnityEngine::UIElements::ConverterGroup::get_registry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c2abc0;
+  constexpr static std::size_t addrs = 0x6c32744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroup*>(), { "get_registry", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ConverterGroup::*)(::StringW, ::StringW, ::StringW)>(&::UnityEngine::UIElements::ConverterGroup::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c2abc8;
+  constexpr static std::size_t addrs = 0x6c3274c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

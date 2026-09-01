@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorSchemeIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorSchemeIdAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeIdAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorSchemeIdAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeIdAttribute::*)(::StringW)>(&::GlobalNamespace::ColorSchemeIdAttribute::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x36f3984;
+  constexpr static std::size_t addrs = 0x36f7744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

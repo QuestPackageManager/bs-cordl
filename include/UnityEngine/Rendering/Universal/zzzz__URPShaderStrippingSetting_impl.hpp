@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/URPShaderStrippingSetting.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\URPShaderStrippingSetting.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPShaderStrippingSetting_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPShaderStrippingSetting_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b2880;
+  constexpr static std::size_t addrs = 0x68ba2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::get_stripUnusedPostProcessingVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b2888;
+  constexpr static std::size_t addrs = 0x68ba304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)(bool)>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::set_stripUnusedPostProcessingVariants)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b2890;
+  constexpr static std::size_t addrs = 0x68ba30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::URPShaderStrippingSetting*>(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::get_stripUnusedVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b2900;
+  constexpr static std::size_t addrs = 0x68ba37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)(bool)>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::set_stripUnusedVariants)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b2908;
+  constexpr static std::size_t addrs = 0x68ba384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::get_stripScreenCoordOverrideVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b2978;
+  constexpr static std::size_t addrs = 0x68ba3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)(bool)>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::set_stripScreenCoordOverrideVariants)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b2980;
+  constexpr static std::size_t addrs = 0x68ba3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::URPShaderStrippingSetting*>(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::*)()>(
     &::UnityEngine::Rendering::Universal::URPShaderStrippingSetting::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68b29f0;
+  constexpr static std::size_t addrs = 0x68ba46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::URPShaderStrippingSetting*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/IGenericNameProvider.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\IGenericNameProvider.hpp"
 #include "System/Runtime/Serialization/zzzz__IGenericNameProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::IGenericNameProvider.GetParameterCount

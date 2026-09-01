@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapDataStats.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapDataStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +82,7 @@ public:
   static ::GlobalNamespace::BeatmapDataStats_Objects const Sliders;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6562 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6590 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -161,7 +161,7 @@ public:
   static ::GlobalNamespace::BeatmapDataStats_Events const Translation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6591 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -200,16 +200,16 @@ public:
   /// @brief Field kObjectRange, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kObjectRange, put = setStaticF_kObjectRange)) ::System::Range kObjectRange;
 
-  /// @brief Method CountItems, addr 0x58e8b14, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CountItems, addr 0x58ec144, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Span_1<int32_t> CountItems(::ArrayW<::GlobalNamespace::BeatmapDataItem*> items);
 
-  /// @brief Method CountItems, addr 0x58e8cec, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method CountItems, addr 0x58ec31c, size 0x3f0, virtual false, abstract: false, final false
   static inline int32_t CountItems(::ArrayW<::GlobalNamespace::BeatmapDataItem*> items, ::System::Span_1<int32_t> objects, ::System::Span_1<int32_t> events);
 
-  /// @brief Method GenerateReport, addr 0x58e9150, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method GenerateReport, addr 0x58ec780, size 0x558, virtual false, abstract: false, final false
   static inline ::StringW GenerateReport(::System::Span_1<int32_t> counts);
 
-  /// @brief Method SumCounts, addr 0x58e90dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SumCounts, addr 0x58ec70c, size 0x74, virtual false, abstract: false, final false
   static inline int32_t SumCounts(::System::Span_1<int32_t> counts);
 
   static inline int32_t getStaticF_kEventCount();
@@ -243,7 +243,7 @@ public:
   BeatmapDataStats(BeatmapDataStats const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6592 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

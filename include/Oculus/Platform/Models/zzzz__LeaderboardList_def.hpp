@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/LeaderboardList.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\LeaderboardList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::LeaderboardList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x5debd8c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df0248, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -45,7 +45,7 @@ public:
   LeaderboardList(LeaderboardList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18057 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

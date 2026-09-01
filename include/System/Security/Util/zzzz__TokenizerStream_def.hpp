@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Util/TokenizerStream.hpp"
+// IWYU pragma private; include "System\Security\Util\TokenizerStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,36 +51,36 @@ public:
   /// @brief Field m_lastTokens, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_lastTokens, put = __cordl_internal_set_m_lastTokens)) ::System::Security::Util::TokenizerShortBlock* m_lastTokens;
 
-  /// @brief Method AddString, addr 0x5aef7d0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddString, addr 0x5af3c8c, size 0xd8, virtual false, abstract: false, final false
   inline void AddString(::StringW str);
 
-  /// @brief Method AddToken, addr 0x5aef6cc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddToken, addr 0x5af3b88, size 0xf0, virtual false, abstract: false, final false
   inline void AddToken(int16_t token);
 
-  /// @brief Method GetNextFullToken, addr 0x5aef438, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetNextFullToken, addr 0x5af38f4, size 0x78, virtual false, abstract: false, final false
   inline int16_t GetNextFullToken();
 
-  /// @brief Method GetNextString, addr 0x5aee43c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetNextString, addr 0x5af28f8, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetNextString();
 
-  /// @brief Method GetNextToken, addr 0x5aee3b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNextToken, addr 0x5af286c, size 0x14, virtual false, abstract: false, final false
   inline int16_t GetNextToken();
 
-  /// @brief Method GetTokenCount, addr 0x5aefb4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTokenCount, addr 0x5af4008, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetTokenCount();
 
-  /// @brief Method GoToPosition, addr 0x5aeee14, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GoToPosition, addr 0x5af32d0, size 0x60, virtual false, abstract: false, final false
   inline void GoToPosition(int32_t position);
 
   static inline ::System::Security::Util::TokenizerStream* New_ctor();
 
-  /// @brief Method Reset, addr 0x5aef41c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5af38d8, size 0x1c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method TagLastToken, addr 0x5aee3c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TagLastToken, addr 0x5af2884, size 0x74, virtual false, abstract: false, final false
   inline void TagLastToken(int16_t tag);
 
-  /// @brief Method ThrowAwayNextString, addr 0x5aee3c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ThrowAwayNextString, addr 0x5af2880, size 0x4, virtual false, abstract: false, final false
   inline void ThrowAwayNextString();
 
   constexpr int32_t const& __cordl_internal_get_m_countTokens() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_m_lastTokens(::System::Security::Util::TokenizerShortBlock* value);
 
-  /// @brief Method .ctor, addr 0x5aef384, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af3840, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

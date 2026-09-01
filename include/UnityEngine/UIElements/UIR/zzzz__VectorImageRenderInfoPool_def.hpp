@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/VectorImageRenderInfoPool.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\VectorImageRenderInfoPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x6cee1e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6cf5d64, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1, addr 0x6cee294, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x6cf5e18, size 0x1c, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::VectorImageRenderInfo* vectorImageInfo);
 
-  /// @brief Method .ctor, addr 0x6cee1dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf5d60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool___c* getStaticF___9();
@@ -103,7 +103,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cedff4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf5b78, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

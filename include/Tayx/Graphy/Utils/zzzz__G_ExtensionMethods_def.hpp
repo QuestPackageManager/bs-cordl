@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Utils/G_ExtensionMethods.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Utils\G_ExtensionMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,15 +29,15 @@ namespace Tayx::Graphy::Utils {
 class CORDL_TYPE G_ExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAllActive, addr 0x64363a8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x643de24, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjects,
                                                                                                           bool active);
 
-  /// @brief Method SetAllActive, addr 0x6436580, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x643dffc, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          bool active);
 
-  /// @brief Method SetOneActive, addr 0x64364c0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetOneActive, addr 0x643df3c, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetOneActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          int32_t active);
 
@@ -56,7 +56,7 @@ public:
   G_ExtensionMethods(G_ExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

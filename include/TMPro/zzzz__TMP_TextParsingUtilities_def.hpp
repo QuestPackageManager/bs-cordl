@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_TextParsingUtilities.hpp"
+// IWYU pragma private; include "TMPro\TMP_TextParsingUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,54 +34,54 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::TMPro::TMP_TextParsingUtilities* s_Instance;
 
-  /// @brief Method ConvertToUTF32, addr 0x699ec58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToUTF32, addr 0x69a66d4, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t ConvertToUTF32(uint32_t highSurrogate, uint32_t lowSurrogate);
 
-  /// @brief Method GetHashCode, addr 0x699a938, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x69a23b4, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::StringW s);
 
-  /// @brief Method GetHashCodeCaseSensitive, addr 0x699ea68, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeCaseSensitive, addr 0x69a64e4, size 0x48, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeCaseSensitive(::StringW s);
 
-  /// @brief Method IsBaseGlyph, addr 0x699ecac, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method IsBaseGlyph, addr 0x69a6728, size 0x130, virtual false, abstract: false, final false
   static inline bool IsBaseGlyph(uint32_t c);
 
-  /// @brief Method IsCJK, addr 0x699ef48, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsCJK, addr 0x69a69c4, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsCJK(uint32_t c);
 
-  /// @brief Method IsDiacriticalMark, addr 0x699ec6c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsDiacriticalMark, addr 0x69a66e8, size 0x40, virtual false, abstract: false, final false
   static inline bool IsDiacriticalMark(uint32_t c);
 
-  /// @brief Method IsEmoji, addr 0x699eddc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsEmoji, addr 0x69a6858, size 0x88, virtual false, abstract: false, final false
   static inline bool IsEmoji(uint32_t c);
 
-  /// @brief Method IsEmojiPresentationForm, addr 0x699ee64, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsEmojiPresentationForm, addr 0x69a68e0, size 0x88, virtual false, abstract: false, final false
   static inline bool IsEmojiPresentationForm(uint32_t c);
 
-  /// @brief Method IsHangul, addr 0x699eeec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsHangul, addr 0x69a6968, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsHangul(uint32_t c);
 
-  /// @brief Method IsHighSurrogate, addr 0x699ec30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsHighSurrogate, addr 0x69a66ac, size 0x14, virtual false, abstract: false, final false
   static inline bool IsHighSurrogate(uint32_t c);
 
-  /// @brief Method IsLowSurrogate, addr 0x699ec44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsLowSurrogate, addr 0x69a66c0, size 0x14, virtual false, abstract: false, final false
   static inline bool IsLowSurrogate(uint32_t c);
 
   static inline ::TMPro::TMP_TextParsingUtilities* New_ctor();
 
-  /// @brief Method ToLowerASCIIFast, addr 0x699eab0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToLowerASCIIFast, addr 0x69a652c, size 0x80, virtual false, abstract: false, final false
   static inline char16_t ToLowerASCIIFast(char16_t c);
 
-  /// @brief Method ToLowerASCIIFast, addr 0x699ebb0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToLowerASCIIFast, addr 0x69a662c, size 0x80, virtual false, abstract: false, final false
   static inline uint32_t ToLowerASCIIFast(uint32_t c);
 
-  /// @brief Method ToUpperASCIIFast, addr 0x699e9e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToUpperASCIIFast, addr 0x69a6464, size 0x80, virtual false, abstract: false, final false
   static inline char16_t ToUpperASCIIFast(char16_t c);
 
-  /// @brief Method ToUpperASCIIFast, addr 0x699eb30, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToUpperASCIIFast, addr 0x69a65ac, size 0x80, virtual false, abstract: false, final false
   static inline uint32_t ToUpperASCIIFast(uint32_t c);
 
-  /// @brief Method .ctor, addr 0x699eff0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a6a6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* getStaticF_k_EmojiLookup();
@@ -90,7 +90,7 @@ public:
 
   static inline ::TMPro::TMP_TextParsingUtilities* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x699e98c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x69a6408, size 0x5c, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_TextParsingUtilities* get_instance();
 
   static inline void setStaticF_k_EmojiLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value);
@@ -114,7 +114,7 @@ public:
   TMP_TextParsingUtilities(TMP_TextParsingUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16013 };
 
   /// @brief Field k_LookupStringL offset 0xffffffff size 0x8
   static constexpr ::ConstString k_LookupStringL{ u"-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-" };

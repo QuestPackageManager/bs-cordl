@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MakeRunsongFileBaseCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\MakeRunsongFileBaseCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MakeRunsongFileBaseCommand_def.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MakeRunsongFileBaseCommand___c::*)()>(&::GlobalNamespace::MakeRunsongFileBaseCommand___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32daab4;
+  constexpr static std::size_t addrs = 0x32de8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MakeRunsongFileBaseCommand___c*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MakeRunsongFileBaseCommand___c::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::MakeRunsongFileBaseCommand___c::_CollectFirstNLongestLevels_b__12_0)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32daab8;
+  constexpr static std::size_t addrs = 0x32de8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MakeRunsongFileBaseCommand::*)()>(&::GlobalNamespace::MakeRunsongFileBaseCommand::get_AllowsUnknownArguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32d9b14;
+  constexpr static std::size_t addrs = 0x32dd910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::MakeRunsongFileBaseCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::MakeRunsongFileBaseCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x32d9b1c;
+  constexpr static std::size_t addrs = 0x32dd918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
                                                                                                                ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*)>(
     &::GlobalNamespace::MakeRunsongFileBaseCommand::GenerateCommandFile)> {
   constexpr static std::size_t size = 0x620;
-  constexpr static std::size_t addrs = 0x32d9d04;
+  constexpr static std::size_t addrs = 0x32ddb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MakeRunsongFileBaseCommand*>(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BeatmapLevel*> (::GlobalNamespace::MakeRunsongFileBaseCommand::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*, int32_t)>(&::GlobalNamespace::MakeRunsongFileBaseCommand::CollectFirstNLongestLevels)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x32da324;
+  constexpr static std::size_t addrs = 0x32de120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MakeRunsongFileBaseCommand::*)(
     ::GlobalNamespace::BeatmapLevel*, ::StringW, ::by_ref<::GlobalNamespace::BeatmapCharacteristic>)>(&::GlobalNamespace::MakeRunsongFileBaseCommand::TryGetLevelCharacteristic)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x32da514;
+  constexpr static std::size_t addrs = 0x32de310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MakeRunsongFileBaseCommand::*)()>(&::GlobalNamespace::MakeRunsongFileBaseCommand::_ctor)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x32da62c;
+  constexpr static std::size_t addrs = 0x32de428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MakeRunsongFileBaseCommand*>(), { ".ctor", {}, {} })));

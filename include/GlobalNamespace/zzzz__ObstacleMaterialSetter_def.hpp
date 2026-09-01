@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ObstacleMaterialSetter.hpp"
+// IWYU pragma private; include "GlobalNamespace\ObstacleMaterialSetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,15 +49,15 @@ public:
   /// @brief Field _texturedCoreMaterial, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__texturedCoreMaterial, put = __cordl_internal_set__texturedCoreMaterial)) ::UnityW<::UnityEngine::Material> _texturedCoreMaterial;
 
-  /// @brief Method Init, addr 0x58daa38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58da3e8, size 0x3c, virtual false, abstract: false, final false
   inline void Init(::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacleQuality, bool screenDisplacementEffects);
 
   static inline ::GlobalNamespace::ObstacleMaterialSetter* New_ctor();
 
-  /// @brief Method SetCoreMaterial, addr 0x58db5f0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetCoreMaterial, addr 0x58dafa0, size 0x10c, virtual false, abstract: false, final false
   inline void SetCoreMaterial(::UnityEngine::Renderer* renderer, ::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacleQuality, bool screenDisplacementEffects);
 
-  /// @brief Method SetFakeGlowMaterial, addr 0x58db6fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetFakeGlowMaterial, addr 0x58db0ac, size 0x3c, virtual false, abstract: false, final false
   inline void SetFakeGlowMaterial(::UnityEngine::Renderer* renderer, ::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacleQuality);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fakeGlowLWMaterial() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set__texturedCoreMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x58db738, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58db0e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

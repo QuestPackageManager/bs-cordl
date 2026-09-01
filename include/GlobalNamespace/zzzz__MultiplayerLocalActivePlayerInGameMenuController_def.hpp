@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerInGameMenuController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActivePlayerInGameMenuController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,39 +89,39 @@ public:
   /// @brief Field requestsDisconnectEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_requestsDisconnectEvent, put = __cordl_internal_set_requestsDisconnectEvent)) ::System::Action* requestsDisconnectEvent;
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton, addr 0x59a98dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton, addr 0x59b1184, size 0x1c, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressDisconnectButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton, addr 0x59a98a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton, addr 0x59b1148, size 0x3c, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressGiveUpButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton, addr 0x59a989c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton, addr 0x59b1144, size 0x4, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressResumeButton();
 
-  /// @brief Method HandleMenuButtonTriggered, addr 0x59a9898, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButtonTriggered, addr 0x59b1140, size 0x4, virtual false, abstract: false, final false
   inline void HandleMenuButtonTriggered();
 
-  /// @brief Method HandleStateChanged, addr 0x59a98f8, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x59b11a0, size 0x1f4, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
-  /// @brief Method HandleSystemStateChange, addr 0x59a9aec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleSystemStateChange, addr 0x59b1394, size 0xc, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
-  /// @brief Method HideInGameMenu, addr 0x59a8c30, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method HideInGameMenu, addr 0x59b04d8, size 0x1b4, virtual false, abstract: false, final false
   inline void HideInGameMenu();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x59a96a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x59b0f48, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDestroy, addr 0x59a8fe8, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59b0890, size 0x4b4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShowInGameMenu, addr 0x59a96ac, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ShowInGameMenu, addr 0x59b0f54, size 0x158, virtual false, abstract: false, final false
   inline void ShowInGameMenu();
 
-  /// @brief Method Start, addr 0x59a8824, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59b00cc, size 0x40c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -190,25 +190,25 @@ public:
 
   constexpr void __cordl_internal_set_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x59a9af8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b13a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didGiveUpEvent, addr 0x59a8518, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didGiveUpEvent, addr 0x59afdc0, size 0xac, virtual false, abstract: false, final false
   inline void add_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method add_requestsDisconnectEvent, addr 0x59a8670, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_requestsDisconnectEvent, addr 0x59aff18, size 0xac, virtual false, abstract: false, final false
   inline void add_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method get_canChangeMenuState, addr 0x59a87d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_canChangeMenuState, addr 0x59b0078, size 0x54, virtual false, abstract: false, final false
   inline bool get_canChangeMenuState();
 
-  /// @brief Method get_gameMenuIsShown, addr 0x59a87c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameMenuIsShown, addr 0x59b0070, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameMenuIsShown();
 
-  /// @brief Method remove_didGiveUpEvent, addr 0x59a85c4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didGiveUpEvent, addr 0x59afe6c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method remove_requestsDisconnectEvent, addr 0x59a871c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_requestsDisconnectEvent, addr 0x59affc4, size 0xac, virtual false, abstract: false, final false
   inline void remove_requestsDisconnectEvent(::System::Action* value);
 
 protected:
@@ -226,7 +226,7 @@ public:
   MultiplayerLocalActivePlayerInGameMenuController(MultiplayerLocalActivePlayerInGameMenuController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6027 };
 
   /// @brief Field kChangeStateDelay offset 0xffffffff size 0x4
   static constexpr float_t kChangeStateDelay{ static_cast<float_t>(0.05f) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionObjectiveTypeCollectionInstallerSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionObjectiveTypeCollectionInstallerSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ public:
   __declspec(property(get = __cordl_internal_get__missionObjectiveTypes, put = __cordl_internal_set__missionObjectiveTypes)) ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>>
       _missionObjectiveTypes;
 
-  /// @brief Method InstallBindings, addr 0x3750c18, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x375683c, size 0xd4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MissionObjectiveTypeCollectionInstallerSO* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__missionObjectiveTypes(::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>> value);
 
-  /// @brief Method .ctor, addr 0x3750cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3756910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   MissionObjectiveTypeCollectionInstallerSO(MissionObjectiveTypeCollectionInstallerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15235 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15268 };
 
   /// @brief Field _missionObjectiveTypes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>> ____missionObjectiveTypes;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SimpleRandom.hpp"
+// IWYU pragma private; include "GlobalNamespace\SimpleRandom.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::SimpleRandom* New_ctor(int32_t seed);
 
-  /// @brief Method Sample, addr 0x3308684, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Sample, addr 0x330c480, size 0x1c, virtual true, abstract: false, final true
   inline double_t Sample();
 
   constexpr ::System::Random* const& __cordl_internal_get__random() const;
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  /// @brief Method .ctor, addr 0x33085fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330c3f8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3308618, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330c414, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t seed);
 
   /// @brief Convert to "::GlobalNamespace::IRandom"
@@ -70,7 +70,7 @@ public:
   SimpleRandom(SimpleRandom const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20466 };
 
   /// @brief Field _random, offset: 0x10, size: 0x8, def value: None
   ::System::Random* ____random;

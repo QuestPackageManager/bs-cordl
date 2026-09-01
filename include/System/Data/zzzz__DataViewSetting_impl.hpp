@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataViewSetting.hpp"
+// IWYU pragma private; include "System\Data\DataViewSetting.hpp"
 #include "System/Data/zzzz__DataViewRowState_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__DataViewSetting_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewSetting::*)()>(&::System::Data::DataViewSetting::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x602e04c;
+  constexpr static std::size_t addrs = 0x6035ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataViewSetting*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataViewSetting::*)()>(&::System::Data::DataViewSetting::get_ApplyDefaultSort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x602e06c;
+  constexpr static std::size_t addrs = 0x6035ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataViewSetting*>(), { "get_ApplyDefaultSort", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewSetting::*)(::System::Data::DataViewManager*)>(&::System::Data::DataViewSetting::SetDataViewManager)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x602e074;
+  constexpr static std::size_t addrs = 0x6035af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewSetting::*)(::System::Data::DataTable*)>(&::System::Data::DataViewSetting::SetDataTable)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x602e088;
+  constexpr static std::size_t addrs = 0x6035b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataViewSetting::*)()>(&::System::Data::DataViewSetting::get_RowFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x602e09c;
+  constexpr static std::size_t addrs = 0x6035b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataViewSetting*>(), { "get_RowFilter", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataViewRowState (::System::Data::DataViewSetting::*)()>(&::System::Data::DataViewSetting::get_RowStateFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x602e0a4;
+  constexpr static std::size_t addrs = 0x6035b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataViewSetting*>(), { "get_RowStateFilter", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataViewSetting::*)()>(&::System::Data::DataViewSetting::get_Sort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x602e0ac;
+  constexpr static std::size_t addrs = 0x6035b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataViewSetting*>(), { "get_Sort", {}, {} })));

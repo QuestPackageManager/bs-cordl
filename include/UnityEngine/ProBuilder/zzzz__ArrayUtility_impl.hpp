@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/ArrayUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\ArrayUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ArrayUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)(int32_t, int32_t)>(&::UnityEngine::ProBuilder::ArrayUtility_SearchRange::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66ab7c4;
+  constexpr static std::size_t addrs = 0x66b3240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)()>(&::UnityEngine::ProBuilder::ArrayUtility_SearchRange::Valid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66ab7cc;
+  constexpr static std::size_t addrs = 0x66b3248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ArrayUtility_SearchRange>(), { "Valid", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)()>(&::UnityEngine::ProBuilder::ArrayUtility_SearchRange::Center)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66ab7e0;
+  constexpr static std::size_t addrs = 0x66b325c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ArrayUtility_SearchRange>(), { "Center", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::ArrayUtility_SearchRange::*)()>(&::UnityEngine::ProBuilder::ArrayUtility_SearchRange::ToString)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x66ab7f8;
+  constexpr static std::size_t addrs = 0x66b3274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

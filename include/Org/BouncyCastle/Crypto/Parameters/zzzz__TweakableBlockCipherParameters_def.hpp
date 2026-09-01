@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/TweakableBlockCipherParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\TweakableBlockCipherParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_tweak(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x3413a0c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34177cc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, ::ArrayW<uint8_t> tweak);
 
-  /// @brief Method get_Key, addr 0x3413a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3417844, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
 
-  /// @brief Method get_Tweak, addr 0x3413a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tweak, addr 0x341784c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Tweak();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

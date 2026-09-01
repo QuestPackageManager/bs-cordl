@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/Compression/DeflateStreamNative.hpp"
+// IWYU pragma private; include "System\IO\Compression\DeflateStreamNative.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,12 +56,12 @@ namespace System::IO::Compression {
 class CORDL_TYPE DeflateStreamNative_UnmanagedReadOrWrite : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x63ef144, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x63f6bc0, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::System::IntPtr buffer, int32_t length, ::System::IntPtr data);
 
   static inline ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x63ee9b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f642c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -79,7 +79,7 @@ public:
   DeflateStreamNative_UnmanagedReadOrWrite(DeflateStreamNative_UnmanagedReadOrWrite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11439 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -98,13 +98,13 @@ public:
 
   static inline ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* New_ctor();
 
-  /// @brief Method ReleaseHandle, addr 0x63ef168, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x63f6be4, size 0x84, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x63ef0ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f6b68, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInvalid, addr 0x63ef158, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x63f6bd4, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
 protected:
@@ -122,7 +122,7 @@ public:
   DeflateStreamNative_SafeDeflateStreamHandle(DeflateStreamNative_SafeDeflateStreamHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -162,55 +162,55 @@ public:
   /// @brief Field z_stream, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_z_stream, put = __cordl_internal_set_z_stream)) ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* z_stream;
 
-  /// @brief Method CheckResult, addr 0x63eeb98, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CheckResult, addr 0x63f6614, size 0xd8, virtual false, abstract: false, final false
   inline void CheckResult(int32_t result, ::StringW where);
 
-  /// @brief Method CloseZStream, addr 0x63ef140, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseZStream, addr 0x63f6bbc, size 0x4, virtual false, abstract: false, final false
   static inline int32_t CloseZStream(::System::IntPtr stream);
 
-  /// @brief Method Create, addr 0x63ed2bc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x63f4d38, size 0x140, virtual false, abstract: false, final false
   static inline ::System::IO::Compression::DeflateStreamNative* Create(::System::IO::Stream* compressedStream, ::System::IO::Compression::CompressionMode mode, bool gzip);
 
-  /// @brief Method CreateZStream, addr 0x63eea1c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CreateZStream, addr 0x63f6498, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*
   CreateZStream(::System::IO::Compression::CompressionMode compress, bool gzip, ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* feeder, ::System::IntPtr data);
 
-  /// @brief Method Dispose, addr 0x63ed510, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x63f4f8c, size 0x114, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x63eeaec, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x63f6568, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Flush, addr 0x63eeb34, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x63f65b0, size 0x64, virtual false, abstract: false, final false
   static inline int32_t Flush(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* stream);
 
-  /// @brief Method Flush, addr 0x63edbe8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x63f5664, size 0x58, virtual false, abstract: false, final false
   inline void Flush();
 
   static inline ::System::IO::Compression::DeflateStreamNative* New_ctor();
 
-  /// @brief Method ReadZStream, addr 0x63ed664, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadZStream, addr 0x63f50e0, size 0x7c, virtual false, abstract: false, final false
   inline int32_t ReadZStream(::System::IntPtr buffer, int32_t length);
 
-  /// @brief Method ReadZStream, addr 0x63eec70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReadZStream, addr 0x63f66ec, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t ReadZStream(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* stream, ::System::IntPtr buffer, int32_t length);
 
-  /// @brief Method UnmanagedRead, addr 0x63eed68, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UnmanagedRead, addr 0x63f67e4, size 0x1a8, virtual false, abstract: false, final false
   inline int32_t UnmanagedRead(::System::IntPtr buffer, int32_t length);
 
-  /// @brief Method UnmanagedRead, addr 0x63ee794, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UnmanagedRead, addr 0x63f6210, size 0x10c, virtual false, abstract: false, final false
   static inline int32_t UnmanagedRead(::System::IntPtr buffer, int32_t length, ::System::IntPtr data);
 
-  /// @brief Method UnmanagedWrite, addr 0x63eef10, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method UnmanagedWrite, addr 0x63f698c, size 0x1dc, virtual false, abstract: false, final false
   inline int32_t UnmanagedWrite(::System::IntPtr buffer, int32_t length);
 
-  /// @brief Method UnmanagedWrite, addr 0x63ee8a0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UnmanagedWrite, addr 0x63f631c, size 0x10c, virtual false, abstract: false, final false
   static inline int32_t UnmanagedWrite(::System::IntPtr buffer, int32_t length, ::System::IntPtr data);
 
-  /// @brief Method WriteZStream, addr 0x63eecec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteZStream, addr 0x63f6768, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t WriteZStream(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* stream, ::System::IntPtr buffer, int32_t length);
 
-  /// @brief Method WriteZStream, addr 0x63ed8ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method WriteZStream, addr 0x63f5368, size 0x70, virtual false, abstract: false, final false
   inline void WriteZStream(::System::IntPtr buffer, int32_t length);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_base_stream() const;
@@ -255,7 +255,7 @@ public:
 
   constexpr void __cordl_internal_set_z_stream(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* value);
 
-  /// @brief Method .ctor, addr 0x63ee9ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f6428, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -273,7 +273,7 @@ public:
   DeflateStreamNative(DeflateStreamNative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11412 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11441 };
 
   /// @brief Field feeder, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* ___feeder;

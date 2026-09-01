@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DrawCommandOutputPerBatch.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DrawCommandOutputPerBatch.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t, bool)>(
     &::UnityEngine::Rendering::DrawCommandOutputPerBatch::EncodeGPUInstanceIndexAndCrossFade)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x68105c0;
+  constexpr static std::size_t addrs = 0x681803c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawCommandOutputPerBatch>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t)>(
     &::UnityEngine::Rendering::DrawCommandOutputPerBatch::IsInstanceFlipped)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x681068c;
+  constexpr static std::size_t addrs = 0x6818108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::DrawCommandOutputPerBatch::Execute)> {
   constexpr static std::size_t size = 0x744;
-  constexpr static std::size_t addrs = 0x681072c;
+  constexpr static std::size_t addrs = 0x68181a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

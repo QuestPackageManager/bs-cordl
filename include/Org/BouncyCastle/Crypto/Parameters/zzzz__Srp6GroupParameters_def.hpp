@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/Srp6GroupParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\Srp6GroupParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x34139f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34177b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method get_G, addr 0x34139fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x34177bc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_N, addr 0x3413a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_N, addr 0x34177c4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_N();
 
 protected:

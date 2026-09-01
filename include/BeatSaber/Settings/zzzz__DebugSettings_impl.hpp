@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/DebugSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\DebugSettings.hpp"
 #include "BeatSaber/Settings/zzzz__DebugSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "showBeatmapLevelVersion", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "disableVRTrackingInAutoplayPS4", ty: "bool", modifiers: "",
 // def_value: Some("{}") }]

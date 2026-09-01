@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/XmlDataLoader.hpp"
+// IWYU pragma private; include "System\Data\XmlDataLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,64 +138,64 @@ public:
   /// @brief Field _topMostNode, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__topMostNode, put = __cordl_internal_set__topMostNode)) ::System::Xml::XmlElement* _topMostNode;
 
-  /// @brief Method AttachRows, addr 0x6060e80, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method AttachRows, addr 0x60688fc, size 0x160, virtual false, abstract: false, final false
   inline void AttachRows(::System::Data::DataRow* parentRow, ::System::Xml::XmlNode* parentElement);
 
-  /// @brief Method CountNonNSAttributes, addr 0x6061084, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CountNonNSAttributes, addr 0x6068b00, size 0xf4, virtual false, abstract: false, final false
   inline int32_t CountNonNSAttributes(::System::Xml::XmlNode* node);
 
-  /// @brief Method FColumnElement, addr 0x60616c0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method FColumnElement, addr 0x606913c, size 0xf4, virtual false, abstract: false, final false
   inline bool FColumnElement(::System::Xml::XmlElement* e);
 
-  /// @brief Method FExcludedNamespace, addr 0x6061178, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FExcludedNamespace, addr 0x6068bf4, size 0x9c, virtual false, abstract: false, final false
   inline bool FExcludedNamespace(::StringW ns);
 
-  /// @brief Method FIgnoreNamespace, addr 0x60617b4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method FIgnoreNamespace, addr 0x6069230, size 0xf4, virtual false, abstract: false, final false
   inline bool FIgnoreNamespace(::System::Xml::XmlNode* node);
 
-  /// @brief Method FIgnoreNamespace, addr 0x6061aa0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method FIgnoreNamespace, addr 0x606951c, size 0x94, virtual false, abstract: false, final false
   inline bool FIgnoreNamespace(::System::Xml::XmlReader* node);
 
-  /// @brief Method GetInitialTextFromNodes, addr 0x606142c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetInitialTextFromNodes, addr 0x6068ea8, size 0x1d0, virtual false, abstract: false, final false
   inline ::StringW GetInitialTextFromNodes(::by_ref<::System::Xml::XmlNode*> n);
 
-  /// @brief Method GetRowFromElement, addr 0x6060fe0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetRowFromElement, addr 0x6068a5c, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* GetRowFromElement(::System::Xml::XmlElement* e);
 
-  /// @brief Method GetTextOnlyColumn, addr 0x60615fc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetTextOnlyColumn, addr 0x6069078, size 0x94, virtual false, abstract: false, final false
   inline ::System::Data::DataColumn* GetTextOnlyColumn(::System::Data::DataRow* row);
 
-  /// @brief Method GetValueForTextOnlyColums, addr 0x6061214, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetValueForTextOnlyColums, addr 0x6068c90, size 0x1c4, virtual false, abstract: false, final false
   inline ::StringW GetValueForTextOnlyColums(::System::Xml::XmlNode* n);
 
-  /// @brief Method InitNameTable, addr 0x6062ea0, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method InitNameTable, addr 0x606a91c, size 0x28c, virtual false, abstract: false, final false
   inline void InitNameTable();
 
-  /// @brief Method IsTextLikeNode, addr 0x60613d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsTextLikeNode, addr 0x6068e54, size 0x54, virtual false, abstract: false, final false
   inline bool IsTextLikeNode(::System::Xml::XmlNodeType n);
 
-  /// @brief Method IsTextOnly, addr 0x6061690, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsTextOnly, addr 0x606910c, size 0x30, virtual false, abstract: false, final false
   inline bool IsTextOnly(::System::Data::DataColumn* c);
 
-  /// @brief Method LoadColumn, addr 0x6064e64, size 0x928, virtual false, abstract: false, final false
+  /// @brief Method LoadColumn, addr 0x606c8e0, size 0x928, virtual false, abstract: false, final false
   inline void LoadColumn(::System::Data::DataColumn* column, ::ArrayW<::System::Object*> foundColumns);
 
-  /// @brief Method LoadData, addr 0x606312c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method LoadData, addr 0x606aba8, size 0x360, virtual false, abstract: false, final false
   inline void LoadData(::System::Xml::XmlReader* reader);
 
-  /// @brief Method LoadData, addr 0x6061b34, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method LoadData, addr 0x60695b0, size 0x2ec, virtual false, abstract: false, final false
   inline void LoadData(::System::Xml::XmlDocument* xdoc);
 
-  /// @brief Method LoadRowData, addr 0x6061f1c, size 0xbd0, virtual false, abstract: false, final false
+  /// @brief Method LoadRowData, addr 0x6069998, size 0xbd0, virtual false, abstract: false, final false
   inline void LoadRowData(::System::Data::DataRow* row, ::System::Xml::XmlElement* rowElement);
 
-  /// @brief Method LoadRows, addr 0x6062aec, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method LoadRows, addr 0x606a568, size 0x344, virtual false, abstract: false, final false
   inline void LoadRows(::System::Data::DataRow* parentRow, ::System::Xml::XmlNode* parentElement);
 
-  /// @brief Method LoadTable, addr 0x6064080, size 0xca8, virtual false, abstract: false, final false
+  /// @brief Method LoadTable, addr 0x606bafc, size 0xca8, virtual false, abstract: false, final false
   inline void LoadTable(::System::Data::DataTable* table, bool isNested);
 
-  /// @brief Method LoadTopMostTable, addr 0x6063494, size 0x924, virtual false, abstract: false, final false
+  /// @brief Method LoadTopMostTable, addr 0x606af10, size 0x924, virtual false, abstract: false, final false
   inline void LoadTopMostTable(::System::Data::DataTable* table);
 
   static inline ::System::Data::XmlDataLoader* New_ctor(::System::Data::DataSet* dataset, bool IsXdr, bool ignoreSchema);
@@ -206,10 +206,10 @@ public:
 
   static inline ::System::Data::XmlDataLoader* New_ctor(::System::Data::DataTable* datatable, bool IsXdr, ::System::Xml::XmlElement* topNode, bool ignoreSchema);
 
-  /// @brief Method ProcessXsdSchema, addr 0x6063e84, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ProcessXsdSchema, addr 0x606b900, size 0x1fc, virtual false, abstract: false, final false
   inline bool ProcessXsdSchema();
 
-  /// @brief Method SetRowValueFromXmlText, addr 0x6062e30, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetRowValueFromXmlText, addr 0x606a8ac, size 0x48, virtual false, abstract: false, final false
   inline void SetRowValueFromXmlText(::System::Data::DataRow* row, ::System::Data::DataColumn* col, ::StringW xmlText);
 
   constexpr ::System::Object* const& __cordl_internal_get__DFFNS() const;
@@ -362,22 +362,22 @@ public:
 
   constexpr void __cordl_internal_set__topMostNode(::System::Xml::XmlElement* value);
 
-  /// @brief Method .ctor, addr 0x6060ba0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x606861c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataset, bool IsXdr, bool ignoreSchema);
 
-  /// @brief Method .ctor, addr 0x6060c30, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60686ac, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataset, bool IsXdr, ::System::Xml::XmlElement* topNode, bool ignoreSchema);
 
-  /// @brief Method .ctor, addr 0x6060cfc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6068778, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* datatable, bool IsXdr, bool ignoreSchema);
 
-  /// @brief Method .ctor, addr 0x6060d98, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6068814, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* datatable, bool IsXdr, ::System::Xml::XmlElement* topNode, bool ignoreSchema);
 
-  /// @brief Method get_FromInference, addr 0x6060e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FromInference, addr 0x60688ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_FromInference();
 
-  /// @brief Method set_FromInference, addr 0x6060e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FromInference, addr 0x60688f4, size 0x8, virtual false, abstract: false, final false
   inline void set_FromInference(bool value);
 
 protected:
@@ -395,7 +395,7 @@ public:
   XmlDataLoader(XmlDataLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13871 };
 
   /// @brief Field _dataSet, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataSet* ____dataSet;

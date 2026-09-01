@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IEquatableByReference_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\IEquatableByReference_1.hpp"
 #include "GlobalNamespace/zzzz__IEquatableByReference_1_def.hpp"
 template <typename T> inline bool GlobalNamespace::IEquatableByReference_1<T>::Equals(::by_ref<T> other) {
   auto* ___internal_method =

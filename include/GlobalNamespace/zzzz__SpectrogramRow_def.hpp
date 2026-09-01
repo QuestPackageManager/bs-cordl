@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SpectrogramRow.hpp"
+// IWYU pragma private; include "GlobalNamespace\SpectrogramRow.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,12 +43,12 @@ public:
   /// @brief Field _spectrogramDataID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__spectrogramDataID, put = setStaticF__spectrogramDataID)) int32_t _spectrogramDataID;
 
-  /// @brief Method Awake, addr 0x599fbb4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59a7ae8, size 0xcc, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::SpectrogramRow* New_ctor();
 
-  /// @brief Method Update, addr 0x599fc80, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59a7bb4, size 0x120, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__dataIndex() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
 
-  /// @brief Method .ctor, addr 0x599fda0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a7cd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
@@ -95,7 +95,7 @@ public:
   SpectrogramRow(SpectrogramRow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5984 };
 
   /// @brief Field _meshRenderers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>> ____meshRenderers;

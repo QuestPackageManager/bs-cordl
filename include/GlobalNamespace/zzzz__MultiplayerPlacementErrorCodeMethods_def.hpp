@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerPlacementErrorCodeMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerPlacementErrorCodeMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerPlacementErrorCodeMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToConnectionFailedReason, addr 0x32aabb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToConnectionFailedReason, addr 0x32ae9ac, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode);
 
 protected:
@@ -43,7 +43,7 @@ public:
   MultiplayerPlacementErrorCodeMethods(MultiplayerPlacementErrorCodeMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18868 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

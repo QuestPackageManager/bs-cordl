@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerOutputStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerOutputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,37 +35,37 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::DerOutputStream* New_ctor(::System::IO::Stream* os);
 
-  /// @brief Method WriteEncoded, addr 0x36815f4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x36853b4, size 0x50, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t flags, int32_t tagNo, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteEncoded, addr 0x3681394, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x3685154, size 0x5c, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t tag, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteEncoded, addr 0x368146c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x368522c, size 0x64, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t tag, ::ArrayW<uint8_t> bytes, int32_t offset, int32_t length);
 
-  /// @brief Method WriteEncoded, addr 0x36813f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x36851b0, size 0x7c, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t tag, uint8_t first, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteLength, addr 0x36812e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WriteLength, addr 0x36850a4, size 0xb0, virtual false, abstract: false, final false
   inline void WriteLength(int32_t length);
 
-  /// @brief Method WriteNull, addr 0x3681644, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method WriteNull, addr 0x3685404, size 0x38, virtual false, abstract: false, final false
   inline void WriteNull();
 
-  /// @brief Method WriteObject, addr 0x36817e8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x36855a8, size 0x70, virtual true, abstract: false, final false
   inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method WriteObject, addr 0x3681858, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x3685618, size 0x58, virtual true, abstract: false, final false
   inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method WriteObject, addr 0x368167c, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x368543c, size 0x16c, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method WriteTag, addr 0x36814d0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WriteTag, addr 0x3685290, size 0x124, virtual false, abstract: false, final false
   inline void WriteTag(int32_t flags, int32_t tagNo);
 
-  /// @brief Method .ctor, addr 0x36812e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36850a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* os);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AssemblyVersion.hpp"
+// IWYU pragma private; include "UnityEngine\AssemblyVersion.hpp"
 #include "UnityEngine/zzzz__AssemblyVersion_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AssemblyVersion.op_Equality
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::AssemblyVersion, ::UnityEngine::AssemblyVersion)>(&::UnityEngine::AssemblyVersion::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ad5198;
+  constexpr static std::size_t addrs = 0x6adcbb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AssemblyVersion::*)()>(&::UnityEngine::AssemblyVersion::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6ad51a4;
+  constexpr static std::size_t addrs = 0x6adcbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AssemblyVersion>(), { ::i2c::class_of<::UnityEngine::AssemblyVersion>(), 3 }));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AssemblyVersion::*)(::System::Object*)>(&::UnityEngine::AssemblyVersion::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6ad5344;
+  constexpr static std::size_t addrs = 0x6adcd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AssemblyVersion>(), { ::i2c::class_of<::UnityEngine::AssemblyVersion>(), 0 }));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::AssemblyVersion::*)()>(&::UnityEngine::AssemblyVersion::GetHashCode)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6ad53f0;
+  constexpr static std::size_t addrs = 0x6adce08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AssemblyVersion>(), { ::i2c::class_of<::UnityEngine::AssemblyVersion>(), 2 }));

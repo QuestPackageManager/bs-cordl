@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncSceneContextLoadersQueue.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncSceneContextLoadersQueue.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncSceneContextLoadersQueue_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__ConcurrentAsyncLoaders_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BGLib::AppFlow::Initialization::ConcurrentAsyncLoaders*>* (
     ::BGLib::AppFlow::Initialization::AsyncSceneContextLoadersQueue::*)()>(&::BGLib::AppFlow::Initialization::AsyncSceneContextLoadersQueue::get_loadersQueue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3306064;
+  constexpr static std::size_t addrs = 0x3309e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncSceneContextLoadersQueue::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncSceneContextLoadersQueue::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x330606c;
+  constexpr static std::size_t addrs = 0x3309e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncSceneContextLoadersQueue*>(), { ".ctor", {}, {} })));

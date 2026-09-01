@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NodePoseSyncStateDeltaNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace\NodePoseSyncStateDeltaNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,15 +70,15 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x32ba09c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x32bde98, size 0x80, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable* New_ctor();
 
-  /// @brief Method Release, addr 0x32ba11c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x32bdf18, size 0xb0, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x32b9ff4, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x32bddf0, size 0xa8, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__baseId_k__BackingField() const;
@@ -99,19 +99,19 @@ public:
 
   constexpr void __cordl_internal_set__timeOffsetMs_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32ba1cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32bdfc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_baseId, addr 0x32b9fb8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_baseId, addr 0x32bddb4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId get_baseId();
 
-  /// @brief Method get_delta, addr 0x32b9fd8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_delta, addr 0x32bddd4, size 0x10, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState get_delta();
 
-  /// @brief Method get_pool, addr 0x32b9f74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x32bdd70, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* get_pool();
 
-  /// @brief Method get_timeOffsetMs, addr 0x32b9fc8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_timeOffsetMs, addr 0x32bddc4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_timeOffsetMs();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -123,13 +123,13 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  /// @brief Method set_baseId, addr 0x32b9fc0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_baseId, addr 0x32bddbc, size 0x8, virtual true, abstract: false, final true
   inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method set_delta, addr 0x32b9fe8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_delta, addr 0x32bdde4, size 0xc, virtual true, abstract: false, final true
   inline void set_delta(::GlobalNamespace::NodePoseSyncState value);
 
-  /// @brief Method set_timeOffsetMs, addr 0x32b9fd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_timeOffsetMs, addr 0x32bddcc, size 0x8, virtual true, abstract: false, final true
   inline void set_timeOffsetMs(int32_t value);
 
 protected:
@@ -147,7 +147,7 @@ public:
   NodePoseSyncStateDeltaNetSerializable(NodePoseSyncStateDeltaNetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18978 };
 
   /// @brief Field _delta, offset: 0x10, size: 0x48, def value: None
   ::GlobalNamespace::NodePoseSyncState ____delta;

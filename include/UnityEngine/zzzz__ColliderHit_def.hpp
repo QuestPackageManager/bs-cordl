@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ColliderHit.hpp"
+// IWYU pragma private; include "UnityEngine\ColliderHit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ public:
 
   __declspec(property(get = get_instanceID)) int32_t instanceID;
 
-  /// @brief Method get_collider, addr 0x6b8e32c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x6b95eb0, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_collider();
 
-  /// @brief Method get_instanceID, addr 0x6b8e324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x6b95ea8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr ColliderHit(int32_t m_ColliderInstanceID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18678 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

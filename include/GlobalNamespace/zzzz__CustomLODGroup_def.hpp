@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CustomLODGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace\CustomLODGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,16 +35,16 @@ public:
   /// @brief Field _levels, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levels, put = __cordl_internal_set__levels)) ::ArrayW<::UnityW<::UnityEngine::GameObject>> _levels;
 
-  /// @brief Method Awake, addr 0x597a1fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x597db90, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DetectLODs, addr 0x597a4c8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method DetectLODs, addr 0x597de5c, size 0x1f8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* DetectLODs();
 
-  /// @brief Method DisableAllLevels, addr 0x597a3b0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DisableAllLevels, addr 0x597dd44, size 0xc8, virtual false, abstract: false, final false
   inline void DisableAllLevels();
 
-  /// @brief Method GetActiveLevel, addr 0x597a374, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetActiveLevel, addr 0x597dd08, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetActiveLevel();
 
   /// @brief Method GetStartupLevel, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -52,13 +52,13 @@ public:
 
   static inline ::GlobalNamespace::CustomLODGroup* New_ctor();
 
-  /// @brief Method SetActiveLevel, addr 0x597a220, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetActiveLevel, addr 0x597dbb4, size 0x154, virtual false, abstract: false, final false
   inline void SetActiveLevel(int32_t level);
 
-  /// @brief Method SetLevels, addr 0x597a4a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetLevels, addr 0x597de34, size 0x28, virtual false, abstract: false, final false
   inline void SetLevels(::ArrayW<::UnityEngine::GameObject*> levels);
 
-  /// @brief Method ToggleLevel, addr 0x597a478, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToggleLevel, addr 0x597de0c, size 0x28, virtual false, abstract: false, final false
   inline void ToggleLevel();
 
   constexpr int32_t const& __cordl_internal_get__activeLevel() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__levels(::ArrayW<::UnityW<::UnityEngine::GameObject>> value);
 
-  /// @brief Method .ctor, addr 0x597a6c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597e054, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

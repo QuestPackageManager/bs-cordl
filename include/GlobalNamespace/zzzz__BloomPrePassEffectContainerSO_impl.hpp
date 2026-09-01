@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomPrePassEffectContainerSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomPrePassEffectContainerSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BloomPrePassEffectSO> (::GlobalNamespace::BloomPrePassEffectContainerSO::*)()>(
     &::GlobalNamespace::BloomPrePassEffectContainerSO::get_bloomPrePassEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5862e44;
+  constexpr static std::size_t addrs = 0x5861f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassEffectContainerSO::*)(::GlobalNamespace::BloomPrePassEffectSO*)>(
     &::GlobalNamespace::BloomPrePassEffectContainerSO::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5862e4c;
+  constexpr static std::size_t addrs = 0x5861f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassEffectContainerSO::*)()>(&::GlobalNamespace::BloomPrePassEffectContainerSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5862e54;
+  constexpr static std::size_t addrs = 0x5861f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassEffectContainerSO*>(), { ".ctor", {}, {} })));

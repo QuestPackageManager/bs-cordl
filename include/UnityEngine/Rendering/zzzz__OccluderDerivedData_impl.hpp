@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OccluderDerivedData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OccluderDerivedData.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OccluderDerivedData_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::OccluderDerivedData (*)(::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate>)>(
     &::UnityEngine::Rendering::OccluderDerivedData::FromParameters)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x682683c;
+  constexpr static std::size_t addrs = 0x682e2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::OccluderDerivedData>(),

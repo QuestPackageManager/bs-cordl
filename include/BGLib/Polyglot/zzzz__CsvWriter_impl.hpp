@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/CsvWriter.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\CsvWriter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__CsvWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Collections::Generic::List_1<::StringW>*)>(&::BGLib::Polyglot::CsvWriter::AppendRow)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x331d2e0;
+  constexpr static std::size_t addrs = 0x33210a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::BGLib::Polyglot::CsvWriter::AppendRowInternal)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x331d4b0;
+  constexpr static std::size_t addrs = 0x3321270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::StringW)>(&::BGLib::Polyglot::CsvWriter::AppendElement)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x331d8e8;
+  constexpr static std::size_t addrs = 0x33216a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::BGLib::Polyglot::CsvWriter::HasEscapeChars)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x331d80c;
+  constexpr static std::size_t addrs = 0x33215cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::BGLib::Polyglot::CsvWriter::AppendCSVLine)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x331d97c;
+  constexpr static std::size_t addrs = 0x332173c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::ArrayW<::StringW>)>(&::BGLib::Polyglot::CsvWriter::AppendCSVLine)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x331d9a8;
+  constexpr static std::size_t addrs = 0x3321768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/InstanceAllocator.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\InstanceAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,28 +26,28 @@ public:
 
   __declspec(property(get = get_valid)) bool valid;
 
-  /// @brief Method AllocateInstance, addr 0x681bc8c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method AllocateInstance, addr 0x6823708, size 0x148, virtual false, abstract: false, final false
   inline int32_t AllocateInstance();
 
-  /// @brief Method Dispose, addr 0x681bc1c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6823698, size 0x70, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FreeInstance, addr 0x681bdd4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method FreeInstance, addr 0x6823850, size 0x60, virtual false, abstract: false, final false
   inline void FreeInstance(int32_t instance);
 
-  /// @brief Method GetNumAllocated, addr 0x681be34, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetNumAllocated, addr 0x68238b0, size 0x70, virtual false, abstract: false, final false
   inline int32_t GetNumAllocated();
 
-  /// @brief Method Initialize, addr 0x681bb64, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x68235e0, size 0xb8, virtual false, abstract: false, final false
   inline void Initialize(int32_t baseInstanceOffset, int32_t instanceStride);
 
-  /// @brief Method get_length, addr 0x681bb00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x682357c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_length();
 
-  /// @brief Method get_valid, addr 0x681bb18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6823594, size 0x4c, virtual false, abstract: false, final false
   inline bool get_valid();
 
-  /// @brief Method set_length, addr 0x681bb0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_length, addr 0x6823588, size 0xc, virtual false, abstract: false, final false
   inline void set_length(int32_t value);
 
   // Ctor Parameters []
@@ -61,7 +61,7 @@ public:
                               int32_t m_InstanceStride) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17692 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

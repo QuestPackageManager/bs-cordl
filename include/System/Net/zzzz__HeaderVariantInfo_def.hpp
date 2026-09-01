@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/HeaderVariantInfo.hpp"
+// IWYU pragma private; include "System\Net\HeaderVariantInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +28,13 @@ public:
 
   __declspec(property(get = get_Variant)) ::System::Net::CookieVariant Variant;
 
-  /// @brief Method .ctor, addr 0x64157e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x641d264, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::CookieVariant variant);
 
-  /// @brief Method get_Name, addr 0x64157f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x641d270, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Variant, addr 0x64157fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variant, addr 0x641d278, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieVariant get_Variant();
 
   // Ctor Parameters []
@@ -45,7 +45,7 @@ public:
   constexpr HeaderVariantInfo(::StringW m_name, ::System::Net::CookieVariant m_variant) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11553 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

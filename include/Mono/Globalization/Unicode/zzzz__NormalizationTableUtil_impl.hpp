@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Globalization/Unicode/NormalizationTableUtil.hpp"
+// IWYU pragma private; include "Mono\Globalization\Unicode\NormalizationTableUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__NormalizationTableUtil_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Mono::Globalization::Unicode::NormalizationTableUtil::PropIdx)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5aae984;
+  constexpr static std::size_t addrs = 0x5ab2e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Mono::Globalization::Unicode::NormalizationTableUtil::MapIdx)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5aae9f0;
+  constexpr static std::size_t addrs = 0x5ab2eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SphericalHarmonicsL2.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SphericalHarmonicsL2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,28 +32,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>*();
 
-  /// @brief Method Equals, addr 0x6b15884, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b1d29c, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x6b15928, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b1d340, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::SphericalHarmonicsL2 other);
 
-  /// @brief Method GetHashCode, addr 0x6b15620, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b1d038, size 0x264, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_Item, addr 0x6b15390, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6b1cda8, size 0x148, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t rgb, int32_t coefficient);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>* i___System__IEquatable_1___UnityEngine__Rendering__SphericalHarmonicsL2_();
 
-  /// @brief Method op_Equality, addr 0x6b15970, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b1d388, size 0x1bc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs);
 
-  /// @brief Method op_Inequality, addr 0x6b15b2c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6b1d544, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs);
 
-  /// @brief Method set_Item, addr 0x6b154d8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6b1cef0, size 0x148, virtual false, abstract: false, final false
   inline void set_Item(int32_t rgb, int32_t coefficient, float_t value);
 
   // Ctor Parameters []
@@ -76,7 +76,7 @@ public:
                                  float_t shb6, float_t shb7, float_t shb8) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10785 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };

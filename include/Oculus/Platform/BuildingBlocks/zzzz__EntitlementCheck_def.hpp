@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/BuildingBlocks/EntitlementCheck.hpp"
+// IWYU pragma private; include "Oculus\Platform\BuildingBlocks\EntitlementCheck.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,21 +40,21 @@ public:
   /// @brief Field quitAppOnNotEntitled, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_quitAppOnNotEntitled, put = __cordl_internal_set_quitAppOnNotEntitled)) bool quitAppOnNotEntitled;
 
-  /// @brief Method EntitlementCheckCallback, addr 0x5def0e8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method EntitlementCheckCallback, addr 0x5df35a4, size 0xec, virtual false, abstract: false, final false
   inline void EntitlementCheckCallback(::Oculus::Platform::Message* msg);
 
   static inline ::Oculus::Platform::BuildingBlocks::EntitlementCheck* New_ctor();
 
-  /// @brief Method PerformUserEntitlementCheck, addr 0x5deec0c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method PerformUserEntitlementCheck, addr 0x5df30c8, size 0x22c, virtual false, abstract: false, final false
   inline void PerformUserEntitlementCheck();
 
-  /// @brief Method PlatformInitializeCallback, addr 0x5deee38, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method PlatformInitializeCallback, addr 0x5df32f4, size 0x2b0, virtual false, abstract: false, final false
   inline void PlatformInitializeCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* msg);
 
-  /// @brief Method QuitAppOnFailure, addr 0x5def1d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method QuitAppOnFailure, addr 0x5df3690, size 0xa0, virtual false, abstract: false, final false
   inline void QuitAppOnFailure();
 
-  /// @brief Method Start, addr 0x5deeb48, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5df3004, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Action* const& __cordl_internal_get_UserFailedEntitlementCheck() const;
@@ -75,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set_quitAppOnNotEntitled(bool value);
 
-  /// @brief Method .ctor, addr 0x5def274, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df3730, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_UserFailedEntitlementCheck, addr 0x5dee898, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_UserFailedEntitlementCheck, addr 0x5df2d54, size 0xac, virtual false, abstract: false, final false
   inline void add_UserFailedEntitlementCheck(::System::Action* value);
 
-  /// @brief Method add_UserPassedEntitlementCheck, addr 0x5dee9f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_UserPassedEntitlementCheck, addr 0x5df2eac, size 0xac, virtual false, abstract: false, final false
   inline void add_UserPassedEntitlementCheck(::System::Action* value);
 
-  /// @brief Method remove_UserFailedEntitlementCheck, addr 0x5dee944, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_UserFailedEntitlementCheck, addr 0x5df2e00, size 0xac, virtual false, abstract: false, final false
   inline void remove_UserFailedEntitlementCheck(::System::Action* value);
 
-  /// @brief Method remove_UserPassedEntitlementCheck, addr 0x5deea9c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_UserPassedEntitlementCheck, addr 0x5df2f58, size 0xac, virtual false, abstract: false, final false
   inline void remove_UserPassedEntitlementCheck(::System::Action* value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   EntitlementCheck(EntitlementCheck const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18107 };
 
   /// @brief Field quitAppOnNotEntitled, offset: 0x20, size: 0x1, def value: None
   bool ___quitAppOnNotEntitled;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/TryCatchFinallyHandler.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\TryCatchFinallyHandler.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__ExceptionHandler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__TryCatchFinallyHandler_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_IsFinallyBlockExist)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f99438;
+  constexpr static std::size_t addrs = 0x5fa0eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*> (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_Handlers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f9944c;
+  constexpr static std::size_t addrs = 0x5fa0ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_IsCatchBlockExist)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f99454;
+  constexpr static std::size_t addrs = 0x5fa0ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)(
     int32_t, int32_t, int32_t, ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*>)>(&::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f99464;
+  constexpr static std::size_t addrs = 0x5fa0ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)(
     int32_t, int32_t, int32_t, int32_t, int32_t, ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*>)>(&::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f9947c;
+  constexpr static std::size_t addrs = 0x5fa0ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Exp
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Exception*, ::by_ref<::System::Linq::Expressions::Interpreter::ExceptionHandler*>, ::by_ref<::System::Object*>)>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::HasHandler)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5f99490;
+  constexpr static std::size_t addrs = 0x5fa0f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::by_ref<::System::Object*>, ::System::Linq::Expressions::Interpreter::ExceptionFilter*)>(
         &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::FilterPasses)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5f995f0;
+  constexpr static std::size_t addrs = 0x5fa106c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

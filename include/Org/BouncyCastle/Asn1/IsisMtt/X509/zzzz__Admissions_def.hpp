@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/IsisMtt/X509/Admissions.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\IsisMtt\X509\Admissions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,10 +51,10 @@ public:
   /// @brief Field professionInfos, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_professionInfos, put = __cordl_internal_set_professionInfos)) ::Org::BouncyCastle::Asn1::Asn1Sequence* professionInfos;
 
-  /// @brief Method GetInstance, addr 0x344d2e8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x34510a8, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetProfessionInfos, addr 0x344dc44, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method GetProfessionInfos, addr 0x3451a04, size 0x3a0, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*> GetProfessionInfos();
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority,
@@ -63,7 +63,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x344e168, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3451f28, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& __cordl_internal_get_admissionAuthority() const;
@@ -84,17 +84,17 @@ public:
 
   constexpr void __cordl_internal_set_professionInfos(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x344dbb8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3451978, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority, ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* namingAuthority,
                     ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*> professionInfos);
 
-  /// @brief Method .ctor, addr 0x344d46c, size 0x6d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345122c, size 0x6d0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AdmissionAuthority, addr 0x344dc34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AdmissionAuthority, addr 0x34519f4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_AdmissionAuthority();
 
-  /// @brief Method get_NamingAuthority, addr 0x344dc3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NamingAuthority, addr 0x34519fc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* get_NamingAuthority();
 
 protected:

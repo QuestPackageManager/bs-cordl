@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet/ArrayPool.hpp"
+// IWYU pragma private; include "ENet\ArrayPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
   /// @brief Field pointerBuffer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_pointerBuffer, put = setStaticF_pointerBuffer)) ::ArrayW<::System::IntPtr> pointerBuffer;
 
-  /// @brief Method GetByteBuffer, addr 0x58921a8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetByteBuffer, addr 0x5891b70, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetByteBuffer();
 
-  /// @brief Method GetPointerBuffer, addr 0x58922b0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetPointerBuffer, addr 0x5891c78, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::IntPtr> GetPointerBuffer();
 
   static inline ::ArrayW<uint8_t> getStaticF_byteBuffer();
@@ -60,7 +60,7 @@ public:
   ArrayPool(ArrayPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21672 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

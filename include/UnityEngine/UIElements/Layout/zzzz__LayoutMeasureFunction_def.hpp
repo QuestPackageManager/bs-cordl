@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutMeasureFunction.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutMeasureFunction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,14 +38,14 @@ namespace UnityEngine::UIElements::Layout {
 class CORDL_TYPE LayoutMeasureFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6cf6590, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6cfe114, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::VisualElement* ve, ::by_ref<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width,
                      ::UnityEngine::UIElements::Layout::LayoutMeasureMode widthMode, float_t height, ::UnityEngine::UIElements::Layout::LayoutMeasureMode heightMode,
                      ::by_ref<::UnityEngine::UIElements::Layout::LayoutSize> result);
 
   static inline ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6cf6448, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfdfcc, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

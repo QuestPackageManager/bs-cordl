@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/TriangulationUtil.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\TriangulationUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationUtil_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Orientation_def.hpp"
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::P
                                                                 ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil::SmartIncircle)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x66a919c;
+  constexpr static std::size_t addrs = 0x66b0c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::P
                                                                 ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil::InScanArea)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x66a88b0;
+  constexpr static std::size_t addrs = 0x66b032c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil::Orient2d)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x66a6ec4;
+  constexpr static std::size_t addrs = 0x66ae940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66aa6dc;
+  constexpr static std::size_t addrs = 0x66b2158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil*>(), { ".ctor", {}, {} })));

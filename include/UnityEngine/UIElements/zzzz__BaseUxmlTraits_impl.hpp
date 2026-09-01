@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BaseUxmlTraits.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BaseUxmlTraits.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseUxmlTraits_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseUxmlTraits._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseUxmlTraits::*)()>(&::UnityEngine::UIElements::BaseUxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cb81f8;
+  constexpr static std::size_t addrs = 0x6cbfd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseUxmlTraits*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseUxmlTraits::*)(bool)>(&::UnityEngine::UIElements::BaseUxmlTraits::set_canHaveAnyAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cb8204;
+  constexpr static std::size_t addrs = 0x6cbfd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

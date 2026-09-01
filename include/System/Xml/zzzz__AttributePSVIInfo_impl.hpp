@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/AttributePSVIInfo.hpp"
+// IWYU pragma private; include "System\Xml\AttributePSVIInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__AttributePSVIInfo_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::AttributePSVIInfo::*)()>(&::System::Xml::AttributePSVIInfo::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x62a5134;
+  constexpr static std::size_t addrs = 0x62acbb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::AttributePSVIInfo*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::AttributePSVIInfo::*)()>(&::System::Xml::AttributePSVIInfo::Reset)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x62a519c;
+  constexpr static std::size_t addrs = 0x62acc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::AttributePSVIInfo*>(), { "Reset", {}, {} })));

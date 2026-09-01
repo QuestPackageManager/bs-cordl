@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Hierarchy/HierarchyPropertyDescriptor.hpp"
+// IWYU pragma private; include "Unity\Hierarchy\HierarchyPropertyDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ public:
 
   __declspec(property(put = set_Type)) ::Unity::Hierarchy::HierarchyPropertyStorageType Type;
 
-  /// @brief Method set_Size, addr 0x6b32bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Size, addr 0x6b3a75c, size 0x8, virtual false, abstract: false, final false
   inline void set_Size(int32_t value);
 
-  /// @brief Method set_Type, addr 0x6b32be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x6b3a764, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::Unity::Hierarchy::HierarchyPropertyStorageType value);
 
   // Ctor Parameters []
@@ -43,7 +43,7 @@ public:
   constexpr HierarchyPropertyDescriptor(int32_t m_Size, ::Unity::Hierarchy::HierarchyPropertyStorageType m_Type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21949 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

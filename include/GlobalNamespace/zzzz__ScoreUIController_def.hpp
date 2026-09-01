@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScoreUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScoreUIController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
   static ::GlobalNamespace::ScoreUIController_ScoreDisplayType const MultipliedScore;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6018 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_scoreDisplayType(::GlobalNamespace::ScoreUIController_ScoreDisplayType value);
 
-  /// @brief Method .ctor, addr 0x59a6750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59adff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScoreUIController_ScoreDisplayType scoreDisplayType);
 
 protected:
@@ -131,7 +131,7 @@ public:
   ScoreUIController_InitData(ScoreUIController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6017 };
 
   /// @brief Field scoreDisplayType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::ScoreUIController_ScoreDisplayType ___scoreDisplayType;
@@ -167,33 +167,33 @@ public:
   /// @brief Field _stringBuilder, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method Append000Number, addr 0x59a66a4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Append000Number, addr 0x59adf4c, size 0x4c, virtual false, abstract: false, final false
   static inline void Append000Number(::System::Text::StringBuilder* stringBuilder, int32_t number);
 
-  /// @brief Method HandleScoreDidChangeRealtime, addr 0x59a6528, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChangeRealtime, addr 0x59addd0, size 0x4, virtual false, abstract: false, final false
   inline void HandleScoreDidChangeRealtime(int32_t multipliedScore, int32_t modifiedScore);
 
   static inline ::GlobalNamespace::ScoreUIController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59a63e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59adc90, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59a63e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x59adc8c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterForEvents, addr 0x59a61ec, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method RegisterForEvents, addr 0x59ada94, size 0x1d8, virtual false, abstract: false, final false
   inline void RegisterForEvents();
 
-  /// @brief Method Start, addr 0x59a6178, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59ada20, size 0x74, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnregisterFromEvents, addr 0x59a63ec, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method UnregisterFromEvents, addr 0x59adc94, size 0x13c, virtual false, abstract: false, final false
   inline void UnregisterFromEvents();
 
-  /// @brief Method UpdateScore, addr 0x59a652c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UpdateScore, addr 0x59addd4, size 0x178, virtual false, abstract: false, final false
   inline void UpdateScore(int32_t displayScore);
 
-  /// @brief Method UpdateScore, addr 0x59a63c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateScore, addr 0x59adc6c, size 0x20, virtual false, abstract: false, final false
   inline void UpdateScore(int32_t multipliedScore, int32_t modifiedScore);
 
   constexpr ::GlobalNamespace::ScoreUIController_InitData* const& __cordl_internal_get__initData() const;
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x59a66f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59adf98, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -238,7 +238,7 @@ public:
   ScoreUIController(ScoreUIController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6019 };
 
   /// @brief Field kMaxNumberOfDigits offset 0xffffffff size 0x4
   static constexpr int32_t kMaxNumberOfDigits{ static_cast<int32_t>(0x9) };

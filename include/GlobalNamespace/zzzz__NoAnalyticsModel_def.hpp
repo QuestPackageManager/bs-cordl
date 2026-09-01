@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoAnalyticsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoAnalyticsModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,33 +35,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-  /// @brief Method LogClick, addr 0x3253280, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogClick, addr 0x3256580, size 0x4, virtual true, abstract: false, final true
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogEditAvatarEvent, addr 0x3253274, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogEditAvatarEvent, addr 0x3256574, size 0x4, virtual true, abstract: false, final true
   inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogEvent, addr 0x325327c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogEvent, addr 0x325657c, size 0x4, virtual true, abstract: false, final true
   inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogExposure, addr 0x3253288, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogExposure, addr 0x3256588, size 0x4, virtual true, abstract: false, final true
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
-  /// @brief Method LogImpression, addr 0x3253284, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogImpression, addr 0x3256584, size 0x4, virtual true, abstract: false, final true
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
-  /// @brief Method LogSessionEvent, addr 0x3253278, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogSessionEvent, addr 0x3256578, size 0x4, virtual true, abstract: false, final true
   inline void LogSessionEvent(::GlobalNamespace::BeatSaberSessionEventType eventType, int32_t _);
 
   static inline ::GlobalNamespace::NoAnalyticsModel* New_ctor();
 
-  /// @brief Method OpenDataPrivacyPage, addr 0x3253270, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OpenDataPrivacyPage, addr 0x3256570, size 0x4, virtual true, abstract: false, final true
   inline void OpenDataPrivacyPage();
 
-  /// @brief Method .ctor, addr 0x325328c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325658c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x3253268, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x3256568, size 0x8, virtual true, abstract: false, final true
   inline bool get_supportsOpenDataPrivacyPage();
 
   /// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
@@ -82,7 +82,7 @@ public:
   NoAnalyticsModel(NoAnalyticsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

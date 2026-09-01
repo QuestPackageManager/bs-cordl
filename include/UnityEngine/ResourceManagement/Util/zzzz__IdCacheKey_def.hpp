@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/IdCacheKey.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\IdCacheKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,16 +45,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
-  /// @brief Method Equals, addr 0x690f1bc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6916c38, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x690f22c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6916ca8, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals, addr 0x690f0fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6916b78, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IdCacheKey* other);
 
-  /// @brief Method GetHashCode, addr 0x690f168, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6916be4, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ResourceManagement::Util::IdCacheKey* New_ctor(::StringW id);
@@ -73,10 +73,10 @@ public:
 
   constexpr void __cordl_internal_set_locationType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x690f0ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6916b28, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x690f0f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6916b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* locType, ::StringW id);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
@@ -100,7 +100,7 @@ public:
   IdCacheKey(IdCacheKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18742 };
 
   /// @brief Field ID, offset: 0x10, size: 0x8, def value: None
   ::StringW ____cordl_ID;

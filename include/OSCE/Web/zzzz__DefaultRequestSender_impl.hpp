@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Web/DefaultRequestSender.hpp"
+// IWYU pragma private; include "OSCE\Web\DefaultRequestSender.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OSCE/Web/zzzz__DefaultRequestSender_def.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::DefaultRequestSender::*)(::OSCE::Analytics::AnalyticsManager*)>(&::OSCE::Web::DefaultRequestSender::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f32e10;
+  constexpr static std::size_t addrs = 0x5f3727c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::OSCE::Web::DefaultRequestSender::*)(::StringW, ::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*,
                                                             ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*)>(&::OSCE::Web::DefaultRequestSender::SendBatchRequest)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5f32e18;
+  constexpr static std::size_t addrs = 0x5f37284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::OSCE::Web::DefaultRequestSender::*)(::StringW, ::StringW, ::OSCE::Analytics::GetIdParams, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*,
                                                             ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*)>(&::OSCE::Web::DefaultRequestSender::SendIdRequest)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5f33028;
+  constexpr static std::size_t addrs = 0x5f37494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

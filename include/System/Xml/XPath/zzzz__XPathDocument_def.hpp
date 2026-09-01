@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XPath/XPathDocument.hpp"
+// IWYU pragma private; include "System\Xml\XPath\XPathDocument.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,10 +54,10 @@ public:
   /// @brief Field pageXmlNmsp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_pageXmlNmsp, put = __cordl_internal_set_pageXmlNmsp)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageXmlNmsp;
 
-  /// @brief Method GetXmlNamespaceNode, addr 0x62e023c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetXmlNamespaceNode, addr 0x62e7cb8, size 0x14, virtual false, abstract: false, final false
   inline int32_t GetXmlNamespaceNode(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageXmlNmsp);
 
-  /// @brief Method LookupNamespaces, addr 0x62e0250, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LookupNamespaces, addr 0x62e7ccc, size 0xd8, virtual false, abstract: false, final false
   inline int32_t LookupNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageElem, int32_t idxElem, ::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
 
   constexpr bool const& __cordl_internal_get_hasLineInfo() const;
@@ -90,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set_pageXmlNmsp(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> value);
 
-  /// @brief Method get_HasLineInfo, addr 0x62e0234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasLineInfo, addr 0x62e7cb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasLineInfo();
 
-  /// @brief Method get_NameTable, addr 0x62e022c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x62e7ca8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
 protected:
@@ -111,7 +111,7 @@ public:
   XPathDocument(XPathDocument const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9467 };
 
   /// @brief Field pageXmlNmsp, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> ___pageXmlNmsp;

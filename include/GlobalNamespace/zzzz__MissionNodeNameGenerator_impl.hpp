@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionNodeNameGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionNodeNameGenerator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeNameGenerator_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodesManager_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeNameGenerator::*)()>(&::GlobalNamespace::MissionNodeNameGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59384ec;
+  constexpr static std::size_t addrs = 0x593bf70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeNameGenerator*>(), { ".ctor", {}, {} })));

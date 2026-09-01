@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/TargetInvocationException.hpp"
+// IWYU pragma private; include "System\Reflection\TargetInvocationException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ public:
 
   static inline ::System::Reflection::TargetInvocationException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5b7f9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b83e74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b7f924, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b83de0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5b7f994, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b83e50, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

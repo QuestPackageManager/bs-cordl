@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/IVRNotifications.hpp"
+// IWYU pragma private; include "OVR\OpenVR\IVRNotifications.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRNotifications_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRNotifications__CreateNotification::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRNotifications__CreateNotification::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e3a0dc;
+  constexpr static std::size_t addrs = 0x5e3e598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRNotifications__CreateNotification*>(),
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRNotific
     uint64_t, uint64_t, ::OVR::OpenVR::EVRNotificationType, ::StringW, ::OVR::OpenVR::EVRNotificationStyle, ::by_ref<::OVR::OpenVR::NotificationBitmap_t>, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::IVRNotifications__CreateNotification::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e3a148;
+  constexpr static std::size_t addrs = 0x5e3e604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRNotifications__CreateNotification*>(),
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                             ::by_ref<::OVR::OpenVR::NotificationBitmap_t>, ::by_ref<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRNotifications__CreateNotification::BeginInvoke)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5e3a160;
+  constexpr static std::size_t addrs = 0x5e3e61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRNotifications__CreateNotification*>(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::IVRNotifications__CreateNotification::*)(
     ::by_ref<::OVR::OpenVR::NotificationBitmap_t>, ::by_ref<uint32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRNotifications__CreateNotification::EndInvoke)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5e3a2a0;
+  constexpr static std::size_t addrs = 0x5e3e75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRNotifications__CreateNotification*>(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRNotifications__RemoveNotification::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRNotifications__RemoveNotification::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e3a2d0;
+  constexpr static std::size_t addrs = 0x5e3e78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRNotifications__RemoveNotification*>(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::IVRNotifications__RemoveNotification::*)(uint32_t)>(
     &::OVR::OpenVR::IVRNotifications__RemoveNotification::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3a33c;
+  constexpr static std::size_t addrs = 0x5e3e7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRNotifications__RemoveNotification*>(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRNotifications__RemoveNotification::*)(uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRNotifications__RemoveNotification::BeginInvoke)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5e3a350;
+  constexpr static std::size_t addrs = 0x5e3e80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRNotifications__RemoveNotification*>(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::IVRNotifications__RemoveNotification::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRNotifications__RemoveNotification::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3a3a8;
+  constexpr static std::size_t addrs = 0x5e3e864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRNotifications__RemoveNotification*>(),

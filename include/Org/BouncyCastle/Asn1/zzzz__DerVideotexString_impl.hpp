@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerVideotexString.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerVideotexString.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerVideotexString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerVideotexString* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::DerVideotexString::GetInstance)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x368ecdc;
+  constexpr static std::size_t addrs = 0x3692a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerVideotexString* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::GetInstance)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x368ef04;
+  constexpr static std::size_t addrs = 0x3692cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerVideotexString::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::DerVideotexString::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3680d34;
+  constexpr static std::size_t addrs = 0x3684af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerVideotexString::*)()>(&::Org::BouncyCastle::Asn1::DerVideotexString::GetString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x368f024;
+  constexpr static std::size_t addrs = 0x3692de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::DerVideotexString::*)()>(&::Org::BouncyCastle::Asn1::DerVideotexString::GetOctets)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x368f030;
+  constexpr static std::size_t addrs = 0x3692df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerVideotexString*>(), { "GetOctets", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerVideotexString::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::Encode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x368f090;
+  constexpr static std::size_t addrs = 0x3692e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerVideotexString::*)()>(&::Org::BouncyCastle::Asn1::DerVideotexString::Asn1GetHashCode)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x368f0ac;
+  constexpr static std::size_t addrs = 0x3692e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::DerVideotexString::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::Asn1Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x368f10c;
+  constexpr static std::size_t addrs = 0x3692ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SubPassDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SubPassDescriptor.hpp"
 #include "UnityEngine/Rendering/zzzz__AttachmentIndexArray_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SubPassFlags_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SubPassDescriptor_def.hpp"

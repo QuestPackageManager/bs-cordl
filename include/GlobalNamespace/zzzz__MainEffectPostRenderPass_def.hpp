@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainEffectPostRenderPass.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainEffectPostRenderPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_tempTextures(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value);
 
-  /// @brief Method .ctor, addr 0x5f4089c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f45044, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,7 +134,7 @@ public:
   MainEffectPostRenderPass_PassData(MainEffectPostRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20640 };
 
   /// @brief Field effectContainer, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectContainerSO> ___effectContainer;
@@ -194,13 +194,13 @@ public:
 
   static inline ::GlobalNamespace::MainEffectPostRenderPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x5f408f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x5f450a0, size 0xc, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__2_0(::GlobalNamespace::MainEffectPostRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <RecordRenderGraph>b__2_1, addr 0x5f40904, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__2_1, addr 0x5f450ac, size 0x10, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__2_1(::GlobalNamespace::MainEffectPostRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x5f408f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4509c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MainEffectPostRenderPass___c* getStaticF___9();
@@ -234,7 +234,7 @@ public:
   MainEffectPostRenderPass___c(MainEffectPostRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -253,18 +253,18 @@ public:
 
   using __c = ::GlobalNamespace::MainEffectPostRenderPass___c;
 
-  /// @brief Method ExecuteNoPostProcessPass, addr 0x5f40860, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ExecuteNoPostProcessPass, addr 0x5f45008, size 0x3c, virtual false, abstract: false, final false
   static inline void ExecuteNoPostProcessPass(::GlobalNamespace::MainEffectPostRenderPass_PassData* passData, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method ExecutePyramidBloomPass, addr 0x5f405ec, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ExecutePyramidBloomPass, addr 0x5f44d94, size 0x274, virtual false, abstract: false, final false
   static inline void ExecutePyramidBloomPass(::GlobalNamespace::MainEffectPostRenderPass_PassData* passData, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
   static inline ::GlobalNamespace::MainEffectPostRenderPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method RecordRenderGraph, addr 0x5f3f790, size 0xe5c, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x5f43f38, size 0xe5c, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x5f3f09c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f435c0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -282,7 +282,7 @@ public:
   MainEffectPostRenderPass(MainEffectPostRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/RegexPrefix.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\RegexPrefix.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +27,18 @@ public:
   /// @brief Field <Empty>k__BackingField, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF__Empty_k__BackingField, put = setStaticF__Empty_k__BackingField)) ::System::Text::RegularExpressions::RegexPrefix _Empty_k__BackingField;
 
-  /// @brief Method .ctor, addr 0x63827d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638a254, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, bool ci);
 
   static inline ::System::Text::RegularExpressions::RegexPrefix getStaticF__Empty_k__BackingField();
 
-  /// @brief Method get_CaseInsensitive, addr 0x638c990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CaseInsensitive, addr 0x639440c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
-  /// @brief Method get_Empty, addr 0x638c998, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Empty, addr 0x6394414, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexPrefix get_Empty();
 
-  /// @brief Method get_Prefix, addr 0x638c9f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x6394470, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
   static inline void setStaticF__Empty_k__BackingField(::System::Text::RegularExpressions::RegexPrefix value);
@@ -52,7 +52,7 @@ public:
   constexpr RegexPrefix(bool _CaseInsensitive_k__BackingField, ::StringW _Prefix_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11121 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

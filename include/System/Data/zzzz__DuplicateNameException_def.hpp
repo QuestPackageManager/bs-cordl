@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DuplicateNameException.hpp"
+// IWYU pragma private; include "System\Data\DuplicateNameException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Data::DuplicateNameException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x5ffdaa4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6005520, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5ffda9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6005518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5ffdb04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6005580, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -56,7 +56,7 @@ public:
   DuplicateNameException(DuplicateNameException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13734 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

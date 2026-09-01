@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/ComVisibleAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\ComVisibleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__ComVisibleAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::ComVisibleAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::ComVisibleAttribute::*)(bool)>(&::System::Runtime::InteropServices::ComVisibleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b67fc4;
+  constexpr static std::size_t addrs = 0x5b6c480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs12Utilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkcs\Pkcs12Utilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +21,15 @@ namespace Org::BouncyCastle::Pkcs {
 class CORDL_TYPE Pkcs12Utilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToDefiniteLength, addr 0x35b6578, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ConvertToDefiniteLength, addr 0x35ba338, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ConvertToDefiniteLength(::ArrayW<uint8_t> berPkcs12File);
 
-  /// @brief Method ConvertToDefiniteLength, addr 0x35b661c, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToDefiniteLength, addr 0x35ba3dc, size 0x41c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ConvertToDefiniteLength(::ArrayW<uint8_t> berPkcs12File, ::ArrayW<char16_t> passwd);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12Utilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35b6a38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ba7f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

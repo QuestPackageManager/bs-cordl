@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/BombNoteData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\BombNoteData.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveDataItem_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BombNoteData_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion3::BombNoteData.get_line
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::BombNoteData::*)()>(&::BeatmapSaveDataVersion3::BombNoteData::get_line)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759a54;
+  constexpr static std::size_t addrs = 0x375f6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BombNoteData*>(), { "get_line", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::BombNoteData::*)()>(&::BeatmapSaveDataVersion3::BombNoteData::get_layer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759a5c;
+  constexpr static std::size_t addrs = 0x375f6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BombNoteData*>(), { "get_layer", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::BombNoteData::*)(float_t, int32_t, int32_t)>(&::BeatmapSaveDataVersion3::BombNoteData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3759a64;
+  constexpr static std::size_t addrs = 0x375f6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BombNoteData*>(),

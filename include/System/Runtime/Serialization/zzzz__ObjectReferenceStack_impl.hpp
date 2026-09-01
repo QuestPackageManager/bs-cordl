@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ObjectReferenceStack.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ObjectReferenceStack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectReferenceStack_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectReferenceStack::*)(::System::Object*)>(
     &::System::Runtime::Serialization::ObjectReferenceStack::Push)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x6151ef4;
+  constexpr static std::size_t addrs = 0x6159970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectReferenceStack::*)(::System::Object*)>(
     &::System::Runtime::Serialization::ObjectReferenceStack::EnsureSetAsIsReference)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x615210c;
+  constexpr static std::size_t addrs = 0x6159b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectReferenceStack::*)(::System::Object*)>(
     &::System::Runtime::Serialization::ObjectReferenceStack::Pop)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6152250;
+  constexpr static std::size_t addrs = 0x6159ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::ObjectReferenceStack::*)(::System::Object*)>(
     &::System::Runtime::Serialization::ObjectReferenceStack::Contains)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x61522d0;
+  constexpr static std::size_t addrs = 0x6159d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::ObjectReferenceStack::*)()>(&::System::Runtime::Serialization::ObjectReferenceStack::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61523c8;
+  constexpr static std::size_t addrs = 0x6159e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ObjectReferenceStack>(), { "get_Count", {}, {} })));

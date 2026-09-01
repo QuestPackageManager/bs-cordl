@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SubviewOcclusionTest.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SubviewOcclusionTest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
   constexpr SubviewOcclusionTest(int32_t cullingSplitIndex, int32_t occluderSubviewIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17633 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

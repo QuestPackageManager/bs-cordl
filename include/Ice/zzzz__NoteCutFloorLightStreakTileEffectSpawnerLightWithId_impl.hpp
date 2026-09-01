@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice/NoteCutFloorLightStreakTileEffectSpawnerLightWithId.hpp"
+// IWYU pragma private; include "Ice\NoteCutFloorLightStreakTileEffectSpawnerLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawnerLightWithId_def.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawner_def.hpp"
@@ -10,11 +10,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::*)(::UnityEngine::Color)>(
     &::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32867e4;
+  constexpr static std::size_t addrs = 0x328a574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId*>(),
-                                                                                          { ::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId*>(), 9 }));
+                                                                                          { ::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::NoteCutFloor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::*)()>(&::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3286800;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x328a590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId*>(), { ".ctor", {}, {} })));
@@ -46,7 +46,7 @@ Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::__cordl_internal_set__
 }
 inline void Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::ColorWasSet(::UnityEngine::Color color) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
 inline void Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::_ctor() {

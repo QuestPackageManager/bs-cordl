@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StylePropertyUtil.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StylePropertyUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyUtil_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StyleEnumType, ::StringW, ::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::TryGetEnumIntValue)> {
   constexpr static std::size_t size = 0x1260;
-  constexpr static std::size_t addrs = 0x6d019cc;
+  constexpr static std::size_t addrs = 0x6d09550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::IsMatchingShorthand)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6d04c3c;
+  constexpr static std::size_t addrs = 0x6d0c7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::IsAnimatable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d04e2c;
+  constexpr static std::size_t addrs = 0x6d0c9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>(),

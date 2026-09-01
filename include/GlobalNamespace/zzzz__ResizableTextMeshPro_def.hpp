@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ResizableTextMeshPro.hpp"
+// IWYU pragma private; include "GlobalNamespace\ResizableTextMeshPro.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,18 +38,18 @@ public:
   /// @brief Field _textMeshPro, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textMeshPro, put = __cordl_internal_set__textMeshPro)) ::UnityW<::TMPro::TMP_Text> _textMeshPro;
 
-  /// @brief Method HandleTextDidChange, addr 0x58fbe08, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleTextDidChange, addr 0x58ff3d0, size 0x94, virtual false, abstract: false, final false
   inline void HandleTextDidChange(::UnityEngine::Object* textMeshPro);
 
   static inline ::GlobalNamespace::ResizableTextMeshPro* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58fbd30, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58ff2f8, size 0xd8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58fbbf8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58ff1c0, size 0xd8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x58fbcd0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58ff298, size 0x60, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__textMeshPro(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x58fbe9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ff464, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   ResizableTextMeshPro(ResizableTextMeshPro const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6641 };
 
   /// @brief Field _textMeshPro, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ____textMeshPro;

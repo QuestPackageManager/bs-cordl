@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/RuntimeImports.hpp"
+// IWYU pragma private; include "System\Runtime\RuntimeImports.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,16 +23,16 @@ namespace System::Runtime {
 class CORDL_TYPE RuntimeImports : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Memmove, addr 0x5b1c7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Memmove, addr 0x5b20c98, size 0x8, virtual false, abstract: false, final false
   static inline void Memmove(uint8_t* dest, uint8_t* src, uint32_t len);
 
-  /// @brief Method Memmove_wbarrier, addr 0x5b1c7e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Memmove_wbarrier, addr 0x5b20ca0, size 0x4, virtual false, abstract: false, final false
   static inline void Memmove_wbarrier(uint8_t* dest, uint8_t* src, uint32_t len, ::System::IntPtr type_handle);
 
-  /// @brief Method RhZeroMemory, addr 0x5b1c7c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RhZeroMemory, addr 0x5b20c80, size 0xc, virtual false, abstract: false, final false
   static inline void RhZeroMemory(::by_ref<uint8_t> b, uint64_t byteLength);
 
-  /// @brief Method ZeroMemory, addr 0x5b1c7d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x5b20c8c, size 0xc, virtual false, abstract: false, final false
   static inline void ZeroMemory(void* p, uint32_t byteLength);
 
 protected:

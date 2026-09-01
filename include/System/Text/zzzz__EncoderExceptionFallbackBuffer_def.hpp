@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/EncoderExceptionFallbackBuffer.hpp"
+// IWYU pragma private; include "System\Text\EncoderExceptionFallbackBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,24 +22,24 @@ public:
   // Declarations
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  /// @brief Method Fallback, addr 0x5acf88c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x5ad3d48, size 0xa0, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x5acf968, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x5ad3e24, size 0x218, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x5acfd28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x5ad41e4, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x5acfd30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x5ad41ec, size 0x8, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
   static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5acf818, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ad3cd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Remaining, addr 0x5acfd38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x5ad41f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/PercentSlider.hpp"
+// IWYU pragma private; include "HMUI\PercentSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::HMUI::PercentSlider* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x587e830, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x587e178, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x587e8d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587e220, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   PercentSlider(PercentSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19060 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

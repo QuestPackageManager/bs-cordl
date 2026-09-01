@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/ConditionalAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\ConditionalAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__ConditionalAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::ConditionalAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::ConditionalAttribute::*)(::StringW)>(&::System::Diagnostics::ConditionalAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdc5e8;
+  constexpr static std::size_t addrs = 0x5be0aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

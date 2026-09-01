@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Destinations/SimpleMissionObjective.hpp"
+// IWYU pragma private; include "BeatSaber\Destinations\SimpleMissionObjective.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   static inline ::BeatSaber::Destinations::SimpleMissionObjective* New_ctor(::BeatSaber::Destinations::MissionObjectiveType type,
                                                                             ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType referenceValueComparisonType, int32_t referenceValue);
 
-  /// @brief Method ToMissionObjective, addr 0x327d2cc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ToMissionObjective, addr 0x328105c, size 0x14c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* ToMissionObjective(::GlobalNamespace::MissionObjectiveTypeCollection* collection);
 
   constexpr int32_t const& __cordl_internal_get__referenceValue() const;
@@ -74,16 +74,16 @@ public:
 
   constexpr void __cordl_internal_set__type(::BeatSaber::Destinations::MissionObjectiveType value);
 
-  /// @brief Method .ctor, addr 0x327d2c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3281050, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Destinations::MissionObjectiveType type, ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType referenceValueComparisonType, int32_t referenceValue);
 
-  /// @brief Method get_referenceValue, addr 0x327d2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceValue, addr 0x3281048, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_referenceValue();
 
-  /// @brief Method get_referenceValueComparisonType, addr 0x327d2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_referenceValueComparisonType, addr 0x3281040, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective_ReferenceValueComparisonType get_referenceValueComparisonType();
 
-  /// @brief Method get_type, addr 0x327d2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x3281038, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Destinations::MissionObjectiveType get_type();
 
 protected:
@@ -101,7 +101,7 @@ public:
   SimpleMissionObjective(SimpleMissionObjective const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23062 };
 
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::BeatSaber::Destinations::MissionObjectiveType ____type;

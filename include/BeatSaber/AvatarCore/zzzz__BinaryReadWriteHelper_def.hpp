@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/BinaryReadWriteHelper.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\BinaryReadWriteHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ namespace BeatSaber::AvatarCore {
 class CORDL_TYPE BinaryReadWriteHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadColor, addr 0x326b150, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0x326ed54, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ReadColor(::System::IO::BinaryReader* binaryReader);
 
-  /// @brief Method Write, addr 0x326b0c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x326eccc, size 0x88, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Color color);
 
 protected:
@@ -49,7 +49,7 @@ public:
   BinaryReadWriteHelper(BinaryReadWriteHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/DaylightTimeStruct.hpp"
+// IWYU pragma private; include "System\Globalization\DaylightTimeStruct.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Globalization/zzzz__DaylightTimeStruct_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::DaylightTimeStruct::*)(::System::DateTime, ::System::DateTime, ::System::TimeSpan)>(
     &::System::Globalization::DaylightTimeStruct::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bb8994;
+  constexpr static std::size_t addrs = 0x5bbce50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlConfiguration/XmlReaderSection.hpp"
+// IWYU pragma private; include "System\Xml\XmlConfiguration\XmlReaderSection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/XmlConfiguration/zzzz__XmlReaderSection_def.hpp"
 #include "System/Xml/zzzz__XmlResolver_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::get_ProhibitDefaultUrlResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x630ec9c;
+  constexpr static std::size_t addrs = 0x6316718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlResolver* (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::CreateDefaultResolver)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x630eca4;
+  constexpr static std::size_t addrs = 0x6316720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::get_CollapseWhiteSpaceIntoEmptyString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x630ece8;
+  constexpr static std::size_t addrs = 0x6316764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

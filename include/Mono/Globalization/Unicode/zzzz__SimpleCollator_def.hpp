@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Globalization/Unicode/SimpleCollator.hpp"
+// IWYU pragma private; include "Mono\Globalization\Unicode\SimpleCollator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +82,7 @@ namespace Mono::Globalization::Unicode {
 struct CORDL_TYPE SimpleCollator_Context {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5ab037c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab4838, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CompareOptions opt, uint8_t* alwaysMatchFlags, uint8_t* neverMatchFlags, uint8_t* buffer1, uint8_t* buffer2, uint8_t* prev1);
 
   // Ctor Parameters []
@@ -150,7 +150,7 @@ namespace Mono::Globalization::Unicode {
 struct CORDL_TYPE SimpleCollator_PreviousInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5ab202c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab64e8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool dummy);
 
   // Ctor Parameters []
@@ -356,154 +356,154 @@ public:
   /// @brief Convert operator to "::System::Globalization::ISimpleCollator"
   constexpr operator ::System::Globalization::ISimpleCollator*() noexcept;
 
-  /// @brief Method Category, addr 0x5aaeed8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Category, addr 0x5ab3394, size 0xa4, virtual false, abstract: false, final false
   inline uint8_t Category(int32_t cp);
 
-  /// @brief Method ClearBuffer, addr 0x5ab0118, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method ClearBuffer, addr 0x5ab45d4, size 0x264, virtual false, abstract: false, final false
   inline void ClearBuffer(uint8_t* buffer, int32_t size);
 
-  /// @brief Method Compare, addr 0x5ab0a08, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x5ab4ec4, size 0xac, virtual false, abstract: false, final false
   inline int32_t Compare(::StringW s1, int32_t idx1, int32_t len1, ::StringW s2, int32_t idx2, int32_t len2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method CompareFlagPair, addr 0x5ab203c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CompareFlagPair, addr 0x5ab64f8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t CompareFlagPair(bool b1, bool b2);
 
-  /// @brief Method CompareInternal, addr 0x5ab0ab4, size 0x1578, virtual false, abstract: false, final false
+  /// @brief Method CompareInternal, addr 0x5ab4f70, size 0x1578, virtual false, abstract: false, final false
   inline int32_t CompareInternal(::StringW s1, int32_t idx1, int32_t len1, ::StringW s2, int32_t idx2, int32_t len2, ::by_ref<bool> targetConsumed, ::by_ref<bool> sourceConsumed,
                                  bool skipHeadingExtenders, bool immediateBreakup, ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx);
 
-  /// @brief Method FillSortKeyRaw, addr 0x5ab0398, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method FillSortKeyRaw, addr 0x5ab4854, size 0x370, virtual false, abstract: false, final false
   inline void FillSortKeyRaw(int32_t i, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext, ::Mono::Globalization::Unicode::SortKeyBuffer* buf,
                              ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method FillSurrogateSortKeyRaw, addr 0x5ab08bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FillSurrogateSortKeyRaw, addr 0x5ab4d78, size 0xb4, virtual false, abstract: false, final false
   inline void FillSurrogateSortKeyRaw(int32_t i, ::Mono::Globalization::Unicode::SortKeyBuffer* buf);
 
-  /// @brief Method FilterExtender, addr 0x5aaf818, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method FilterExtender, addr 0x5ab3cd4, size 0x220, virtual false, abstract: false, final false
   inline int32_t FilterExtender(int32_t i, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method FilterOptions, addr 0x5aaf5f4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FilterOptions, addr 0x5ab3ab0, size 0x100, virtual false, abstract: false, final false
   inline int32_t FilterOptions(int32_t i, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method GetContraction, addr 0x5aaf1d8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetContraction, addr 0x5ab3694, size 0xd0, virtual false, abstract: false, final false
   inline ::Mono::Globalization::Unicode::Contraction* GetContraction(::StringW s, int32_t start, int32_t end);
 
-  /// @brief Method GetContraction, addr 0x5aaf2a8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetContraction, addr 0x5ab3764, size 0xd4, virtual false, abstract: false, final false
   inline ::Mono::Globalization::Unicode::Contraction* GetContraction(::StringW s, int32_t start, int32_t end, ::ArrayW<::Mono::Globalization::Unicode::Contraction*> clist);
 
-  /// @brief Method GetExtenderType, addr 0x5aaf6f4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetExtenderType, addr 0x5ab3bb0, size 0xfc, virtual false, abstract: false, final false
   inline ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType GetExtenderType(int32_t i);
 
-  /// @brief Method GetNeutralCulture, addr 0x5aaee68, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetNeutralCulture, addr 0x5ab3324, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* GetNeutralCulture(::System::Globalization::CultureInfo* info);
 
-  /// @brief Method GetSortKey, addr 0x5aafb14, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method GetSortKey, addr 0x5ab3fd0, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Globalization::SortKey* GetSortKey(::StringW s, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method GetSortKey, addr 0x5aafb30, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetSortKey, addr 0x5ab3fec, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Globalization::SortKey* GetSortKey(::StringW s, int32_t start, int32_t length, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method GetSortKey, addr 0x5aafd70, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method GetSortKey, addr 0x5ab422c, size 0x384, virtual false, abstract: false, final false
   inline void GetSortKey(::StringW s, int32_t start, int32_t end, ::Mono::Globalization::Unicode::SortKeyBuffer* buf, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method GetTailContraction, addr 0x5aaf37c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetTailContraction, addr 0x5ab3838, size 0xd0, virtual false, abstract: false, final false
   inline ::Mono::Globalization::Unicode::Contraction* GetTailContraction(::StringW s, int32_t start, int32_t end);
 
-  /// @brief Method GetTailContraction, addr 0x5aaf44c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetTailContraction, addr 0x5ab3908, size 0x1a8, virtual false, abstract: false, final false
   inline ::Mono::Globalization::Unicode::Contraction* GetTailContraction(::StringW s, int32_t start, int32_t end, ::ArrayW<::Mono::Globalization::Unicode::Contraction*> clist);
 
-  /// @brief Method IndexOf, addr 0x5ab253c, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method IndexOf, addr 0x5ab69f8, size 0x200, virtual true, abstract: false, final true
   inline int32_t IndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method IndexOf, addr 0x5ab273c, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x5ab6bf8, size 0x518, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, uint8_t* targetSortKey, ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx);
 
-  /// @brief Method IndexOfOrdinal, addr 0x5ab2c54, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IndexOfOrdinal, addr 0x5ab7110, size 0xc8, virtual false, abstract: false, final false
   inline int32_t IndexOfOrdinal(::StringW s, ::StringW target, int32_t start, int32_t length);
 
-  /// @brief Method IndexOfOrdinal, addr 0x5ab2d1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IndexOfOrdinal, addr 0x5ab71d8, size 0x5c, virtual false, abstract: false, final false
   inline int32_t IndexOfOrdinal(::StringW s, char16_t target, int32_t start, int32_t length);
 
-  /// @brief Method IndexOfSortKey, addr 0x5ab2d78, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IndexOfSortKey, addr 0x5ab7234, size 0x94, virtual false, abstract: false, final false
   inline int32_t IndexOfSortKey(::StringW s, int32_t start, int32_t length, uint8_t* sortkey, char16_t target, int32_t ti, bool noLv4,
                                 ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx);
 
-  /// @brief Method IsHalfKana, addr 0x5aaf15c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsHalfKana, addr 0x5ab3618, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsHalfKana(int32_t cp, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method IsIgnorable, addr 0x5aafa38, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsIgnorable, addr 0x5ab3ef4, size 0x80, virtual false, abstract: false, final false
   static inline bool IsIgnorable(int32_t i, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method IsPrefix, addr 0x5ab2074, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsPrefix, addr 0x5ab6530, size 0xf0, virtual false, abstract: false, final false
   inline bool IsPrefix(::StringW s, ::StringW target, int32_t start, int32_t length, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method IsPrefix, addr 0x5ab2164, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsPrefix, addr 0x5ab6620, size 0x68, virtual false, abstract: false, final false
   inline bool IsPrefix(::StringW s, ::StringW target, int32_t start, int32_t length, bool skipHeadingExtenders, ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx);
 
-  /// @brief Method IsPrefix, addr 0x5ab2058, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method IsPrefix, addr 0x5ab6514, size 0x1c, virtual true, abstract: false, final true
   inline bool IsPrefix(::StringW src, ::StringW target, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method IsSafe, addr 0x5aafab8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsSafe, addr 0x5ab3f74, size 0x5c, virtual false, abstract: false, final false
   inline bool IsSafe(int32_t i);
 
-  /// @brief Method IsSuffix, addr 0x5ab21e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsSuffix, addr 0x5ab66a4, size 0x94, virtual false, abstract: false, final false
   inline bool IsSuffix(::StringW s, ::StringW target, int32_t start, int32_t length, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method IsSuffix, addr 0x5ab21cc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method IsSuffix, addr 0x5ab6688, size 0x1c, virtual true, abstract: false, final true
   inline bool IsSuffix(::StringW src, ::StringW target, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method LastIndexOf, addr 0x5ab227c, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method LastIndexOf, addr 0x5ab6738, size 0x198, virtual true, abstract: false, final true
   inline int32_t LastIndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method LastIndexOf, addr 0x5ab2fac, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x5ab7468, size 0x580, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, uint8_t* targetSortKey, ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx);
 
-  /// @brief Method LastIndexOfOrdinal, addr 0x5ab352c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfOrdinal, addr 0x5ab79e8, size 0x104, virtual false, abstract: false, final false
   inline int32_t LastIndexOfOrdinal(::StringW s, ::StringW target, int32_t start, int32_t length);
 
-  /// @brief Method LastIndexOfSortKey, addr 0x5ab3630, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfSortKey, addr 0x5ab7aec, size 0x9c, virtual false, abstract: false, final false
   inline int32_t LastIndexOfSortKey(::StringW s, int32_t start, int32_t orgStart, int32_t length, uint8_t* sortkey, int32_t ti, bool noLv4,
                                     ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx);
 
-  /// @brief Method Level1, addr 0x5aaef7c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Level1, addr 0x5ab3438, size 0xa4, virtual false, abstract: false, final false
   inline uint8_t Level1(int32_t cp);
 
-  /// @brief Method Level2, addr 0x5aaf020, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Level2, addr 0x5ab34dc, size 0x13c, virtual false, abstract: false, final false
   inline uint8_t Level2(int32_t cp, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext);
 
-  /// @brief Method MatchesBackward, addr 0x5ab36cc, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method MatchesBackward, addr 0x5ab7b88, size 0x1a8, virtual false, abstract: false, final false
   inline bool MatchesBackward(::StringW s, ::by_ref<int32_t> idx, int32_t end, int32_t orgStart, int32_t ti, uint8_t* sortkey, bool noLv4,
                               ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx);
 
-  /// @brief Method MatchesBackwardCore, addr 0x5ab3e48, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method MatchesBackwardCore, addr 0x5ab8304, size 0x4e8, virtual false, abstract: false, final false
   inline bool MatchesBackwardCore(::StringW s, ::by_ref<int32_t> idx, int32_t end, int32_t orgStart, int32_t ti, uint8_t* sortkey, bool noLv4,
                                   ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext, ::by_ref<::Mono::Globalization::Unicode::Contraction*> ct,
                                   ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx);
 
-  /// @brief Method MatchesForward, addr 0x5ab2e0c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method MatchesForward, addr 0x5ab72c8, size 0x1a0, virtual false, abstract: false, final false
   inline bool MatchesForward(::StringW s, ::by_ref<int32_t> idx, int32_t end, int32_t ti, uint8_t* sortkey, bool noLv4, ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx);
 
-  /// @brief Method MatchesForwardCore, addr 0x5ab3874, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method MatchesForwardCore, addr 0x5ab7d30, size 0x39c, virtual false, abstract: false, final false
   inline bool MatchesForwardCore(::StringW s, ::by_ref<int32_t> idx, int32_t end, int32_t ti, uint8_t* sortkey, bool noLv4, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext,
                                  ::by_ref<::Mono::Globalization::Unicode::Contraction*> ct, ::by_ref<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx);
 
-  /// @brief Method MatchesPrimitive, addr 0x5ab3c10, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method MatchesPrimitive, addr 0x5ab80cc, size 0x238, virtual false, abstract: false, final false
   inline bool MatchesPrimitive(::System::Globalization::CompareOptions opt, uint8_t* source, int32_t si, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext, uint8_t* target, int32_t ti,
                                bool noLv4);
 
   static inline ::Mono::Globalization::Unicode::SimpleCollator* New_ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method QuickIndexOf, addr 0x5ab2414, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method QuickIndexOf, addr 0x5ab68d0, size 0x128, virtual false, abstract: false, final false
   inline int32_t QuickIndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, ::by_ref<bool> testWasUnable);
 
-  /// @brief Method SetCJKTable, addr 0x5aaed8c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetCJKTable, addr 0x5ab3248, size 0xdc, virtual false, abstract: false, final false
   inline void SetCJKTable(::System::Globalization::CultureInfo* culture, ::by_ref<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ::by_ref<uint8_t*> catTable,
                           ::by_ref<uint8_t*> lv1Table, ::by_ref<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ::by_ref<uint8_t*> lv2Table);
 
-  /// @brief Method System.Globalization.ISimpleCollator.Compare, addr 0x5ab0a04, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Globalization.ISimpleCollator.Compare, addr 0x5ab4ec0, size 0x4, virtual true, abstract: false, final true
   inline int32_t System_Globalization_ISimpleCollator_Compare(::StringW s1, int32_t idx1, int32_t len1, ::StringW s2, int32_t idx2, int32_t len2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method ToDashTypeValue, addr 0x5aaf7f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToDashTypeValue, addr 0x5ab3cac, size 0x28, virtual false, abstract: false, final false
   static inline uint8_t ToDashTypeValue(::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext, ::System::Globalization::CompareOptions opt);
 
   constexpr uint8_t* const& __cordl_internal_get_cjkCatTable() const;
@@ -572,7 +572,7 @@ public:
 
   constexpr void __cordl_internal_set_unsafeFlags(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x5aaea5c, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab2f18, size 0x330, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   static inline ::Mono::Globalization::Unicode::SimpleCollator* getStaticF_invariant();

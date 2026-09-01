@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/SymbolDocumentInfo.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\SymbolDocumentInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
 
   static inline ::System::Guid getStaticF_DocumentType_Text();
 
-  /// @brief Method get_FileName, addr 0x5f81af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x5f8956c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
   static inline void setStaticF_DocumentType_Text(::System::Guid value);
@@ -57,7 +57,7 @@ public:
   SymbolDocumentInfo(SymbolDocumentInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16231 };
 
   /// @brief Field <FileName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____FileName_k__BackingField;

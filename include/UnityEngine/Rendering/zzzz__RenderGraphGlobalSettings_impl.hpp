@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphGlobalSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphGlobalSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderGraphGlobalSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IRenderPipelineGraphicsSettings_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x679b318;
+  constexpr static std::size_t addrs = 0x67a2d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphGlobalSettings*>(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x679b320;
+  constexpr static std::size_t addrs = 0x67a2d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::get_enableCompilationCaching)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x679b328;
+  constexpr static std::size_t addrs = 0x67a2da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::set_enableCompilationCaching)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x679b330;
+  constexpr static std::size_t addrs = 0x67a2dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::get_enableValidityChecks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x679b3a0;
+  constexpr static std::size_t addrs = 0x67a2e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::set_enableValidityChecks)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x679b3a8;
+  constexpr static std::size_t addrs = 0x67a2e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)()>(&::UnityEngine::Rendering::RenderGraphGlobalSettings::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x679b418;
+  constexpr static std::size_t addrs = 0x67a2e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphGlobalSettings*>(), { ".ctor", {}, {} })));

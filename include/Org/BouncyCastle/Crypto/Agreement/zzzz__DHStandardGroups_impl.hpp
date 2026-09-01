@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/DHStandardGroups.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\DHStandardGroups.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__DHStandardGroups_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHParameters_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::StringW)>(&::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::FromHex)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x36dfa9c;
+  constexpr static std::size_t addrs = 0x36e385c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::FromPG)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x36dfb3c;
+  constexpr static std::size_t addrs = 0x36e38fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::StringW)>(
     &::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x36dfbf0;
+  constexpr static std::size_t addrs = 0x36e39b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::StringW, int32_t)>(
     &::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x36dfc4c;
+  constexpr static std::size_t addrs = 0x36e3a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*>(),
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::*)()>(&::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36e00f8;
+  constexpr static std::size_t addrs = 0x36e3eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*>(), { ".ctor", {}, {} })));

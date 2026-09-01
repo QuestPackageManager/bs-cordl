@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Paddings/IBlockCipherPadding.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Paddings\IBlockCipherPadding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT

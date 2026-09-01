@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/CsvReader.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\CsvReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   static ::BGLib::Polyglot::CsvReader_ParsingMode const OutQuote;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22213 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -96,10 +96,10 @@ public:
 
   static inline ::BGLib::Polyglot::CsvReader* New_ctor();
 
-  /// @brief Method Parse, addr 0x3319c1c, size 0x820, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x331d9dc, size 0x820, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
 
-  /// @brief Method .ctor, addr 0x331d2dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332109c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,7 +117,7 @@ public:
   CsvReader(CsvReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

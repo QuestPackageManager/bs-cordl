@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/VoipOptions.hpp"
+// IWYU pragma private; include "Oculus\Platform\VoipOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,15 +32,15 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x5de8cd0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5ded18c, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::VoipOptions* New_ctor();
 
-  /// @brief Method SetBitrateForNewConnections, addr 0x5de8bf8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetBitrateForNewConnections, addr 0x5ded0b4, size 0x6c, virtual false, abstract: false, final false
   inline void SetBitrateForNewConnections(::Oculus::Platform::VoipBitrate value);
 
-  /// @brief Method SetCreateNewConnectionUseDtx, addr 0x5de8c64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetCreateNewConnectionUseDtx, addr 0x5ded120, size 0x6c, virtual false, abstract: false, final false
   inline void SetCreateNewConnectionUseDtx(::Oculus::Platform::VoipDtxState value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5de8b9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ded058, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x5dddcf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x5de21b0, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::VoipOptions* options);
 
 protected:
@@ -70,7 +70,7 @@ public:
   VoipOptions(VoipOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17999 };
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;

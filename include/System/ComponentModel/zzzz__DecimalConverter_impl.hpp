@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/DecimalConverter.hpp"
+// IWYU pragma private; include "System\ComponentModel\DecimalConverter.hpp"
 #include "System/ComponentModel/zzzz__BaseNumberConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__DecimalConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DecimalConverter::*)()>(&::System::ComponentModel::DecimalConverter::get_AllowHex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b7a4c;
+  constexpr static std::size_t addrs = 0x63bf4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::DecimalConverter::*)()>(&::System::ComponentModel::DecimalConverter::get_TargetType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63b7a54;
+  constexpr static std::size_t addrs = 0x63bf4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DecimalConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::ComponentModel::DecimalConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x63b7ab4;
+  constexpr static std::size_t addrs = 0x63bf530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                          ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::DecimalConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x63b7b54;
+  constexpr static std::size_t addrs = 0x63bf5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::DecimalConverter::*)(::StringW, int32_t)>(
     &::System::ComponentModel::DecimalConverter::FromString)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x63b7e64;
+  constexpr static std::size_t addrs = 0x63bf8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::DecimalConverter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(
     &::System::ComponentModel::DecimalConverter::FromString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x63b7f5c;
+  constexpr static std::size_t addrs = 0x63bf9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::DecimalConverter::*)(::System::Object*, ::System::Globalization::NumberFormatInfo*)>(
     &::System::ComponentModel::DecimalConverter::ToString)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x63b800c;
+  constexpr static std::size_t addrs = 0x63bfa88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DecimalConverter::*)()>(&::System::ComponentModel::DecimalConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63b8110;
+  constexpr static std::size_t addrs = 0x63bfb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::DecimalConverter*>(), { ".ctor", {}, {} })));

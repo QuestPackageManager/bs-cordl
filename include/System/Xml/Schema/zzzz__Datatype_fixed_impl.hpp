@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_fixed.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_fixed.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_fixed_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::Datatype_fixed::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::Datatype_fixed::ParseValue)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x61c37a8;
+  constexpr static std::size_t addrs = 0x61cb224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Exception* (::System::Xml::Schema::Datatype_fixed::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::by_ref<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_fixed::TryParseValue)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x61c3ce8;
+  constexpr static std::size_t addrs = 0x61cb764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_fixed::*)()>(&::System::Xml::Schema::Datatype_fixed::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61b83f8;
+  constexpr static std::size_t addrs = 0x61bfe74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_fixed*>(), { ".ctor", {}, {} })));

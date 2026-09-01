@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataCommon/IBeat.hpp"
+// IWYU pragma private; include "BeatmapSaveDataCommon\IBeat.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IBeat_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataCommon::IBeat.get_beat
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataCommon::IBeat::*)(::BeatmapSaveDataCommon::IBeat*)>(
     &::BeatmapSaveDataCommon::IBeat::System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x375a248;
+  constexpr static std::size_t addrs = 0x375feb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/GroupTrack.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\GroupTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__GroupTrack_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::GroupTrack::*)()>(&::UnityEngine::Timeline::GroupTrack::CanCompileClips)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c033c;
+  constexpr static std::size_t addrs = 0x69c7db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (::UnityEngine::Timeline::GroupTrack::*)()>(
     &::UnityEngine::Timeline::GroupTrack::get_outputs)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69c0344;
+  constexpr static std::size_t addrs = 0x69c7dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::GroupTrack::*)()>(&::UnityEngine::Timeline::GroupTrack::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x69c03a0;
+  constexpr static std::size_t addrs = 0x69c7e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::GroupTrack*>(), { ".ctor", {}, {} })));

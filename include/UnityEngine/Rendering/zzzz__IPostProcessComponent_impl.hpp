@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IPostProcessComponent.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IPostProcessComponent.hpp"
 #include "UnityEngine/Rendering/zzzz__IPostProcessComponent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IPostProcessComponent.IsActive
 template <>
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IPostProcessComponent::*)()>(&::UnityEngine::Rendering::IPostProcessComponent::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6791ff0;
+  constexpr static std::size_t addrs = 0x6799a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

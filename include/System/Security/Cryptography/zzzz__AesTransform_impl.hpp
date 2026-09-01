@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/AesTransform.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\AesTransform.hpp"
 #include "Mono/Security/Cryptography/zzzz__SymmetricTransform_impl.hpp"
 #include "System/Security/Cryptography/zzzz__AesTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__Aes_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AesTransform::*)(::System::Security::Cryptography::Aes*, bool, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::AesTransform::_ctor)> {
   constexpr static std::size_t size = 0x6ac;
-  constexpr static std::size_t addrs = 0x5f50c90;
+  constexpr static std::size_t addrs = 0x5f5870c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AesTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::AesTransform::ECB)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f5164c;
+  constexpr static std::size_t addrs = 0x5f590c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::System::Security::Cryptography::AesTransform::*)(uint32_t)>(&::System::Security::Cryptography::AesTransform::SubByte)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5f51584;
+  constexpr static std::size_t addrs = 0x5f59000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AesTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint32_t>)>(
     &::System::Security::Cryptography::AesTransform::Encrypt128)> {
   constexpr static std::size_t size = 0x1de4;
-  constexpr static std::size_t addrs = 0x5f51660;
+  constexpr static std::size_t addrs = 0x5f590dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AesTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint32_t>)>(
     &::System::Security::Cryptography::AesTransform::Decrypt128)> {
   constexpr static std::size_t size = 0x1dc8;
-  constexpr static std::size_t addrs = 0x5f53444;
+  constexpr static std::size_t addrs = 0x5f5aec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

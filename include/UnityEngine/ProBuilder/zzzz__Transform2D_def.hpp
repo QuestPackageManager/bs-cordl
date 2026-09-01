@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Transform2D.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Transform2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Transform2D* New_ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
 
-  /// @brief Method ToString, addr 0x66f063c, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x66f80b8, size 0x160, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TransformPoint, addr 0x66f062c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TransformPoint, addr 0x66f80a8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 TransformPoint(::UnityEngine::Vector2 p);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_position() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_scale(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x66f061c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f8098, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
 
 protected:
@@ -78,7 +78,7 @@ public:
   Transform2D(Transform2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16818 };
 
   /// @brief Field position, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___position;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/HingeAngle.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\HingeAngle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,15 +30,15 @@ public:
 
   __declspec(property(get = get_angle, put = set_angle)) ::UnityEngine::InputSystem::Controls::AxisControl* angle;
 
-  /// @brief Method FinishSetup, addr 0x655fa64, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x65674e0, size 0x70, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x655f984, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x6567400, size 0x50, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::HingeAngle* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x655f9d4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x6567450, size 0x90, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__angle_k__BackingField() const;
@@ -47,23 +47,23 @@ public:
 
   constexpr void __cordl_internal_set__angle_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x655fad4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6567550, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::HingeAngle* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_angle, addr 0x655f8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angle, addr 0x6567354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_angle();
 
-  /// @brief Method get_current, addr 0x655f8e8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x6567364, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::HingeAngle* get_current();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::HingeAngle* value);
 
-  /// @brief Method set_angle, addr 0x655f8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angle, addr 0x656735c, size 0x8, virtual false, abstract: false, final false
   inline void set_angle(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_current, addr 0x655f934, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x65673b0, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::HingeAngle* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   HingeAngle(HingeAngle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8771 };
 
   /// @brief Field <angle>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____angle_k__BackingField;

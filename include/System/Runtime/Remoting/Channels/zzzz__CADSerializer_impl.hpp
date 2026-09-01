@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Channels/CADSerializer.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Channels\CADSerializer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__CADSerializer_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::IO::MemoryStream*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(
     &::System::Runtime::Remoting::Channels::CADSerializer::DeserializeMessage)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b38134;
+  constexpr static std::size_t addrs = 0x5b3c5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::MemoryStream* (*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Channels::CADSerializer::SerializeMessage)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5b37bf8;
+  constexpr static std::size_t addrs = 0x5b3c0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::CADSerializer*>(),
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<uint8_t>)>(&::System::Runtime::Remoting::Channels::CADSerializer::DeserializeObjectSafe)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5b384c4;
+  constexpr static std::size_t addrs = 0x5b3c980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::MemoryStream* (*)(::System::Object*)>(&::System::Runtime::Remoting::Channels::CADSerializer::SerializeObject)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5b3860c;
+  constexpr static std::size_t addrs = 0x5b3cac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::IO::MemoryStream*)>(&::System::Runtime::Remoting::Channels::CADSerializer::DeserializeObject)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5b38568;
+  constexpr static std::size_t addrs = 0x5b3ca24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

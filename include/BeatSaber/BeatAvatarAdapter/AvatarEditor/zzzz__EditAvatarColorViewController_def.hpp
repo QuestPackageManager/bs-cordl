@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/AvatarEditor/EditAvatarColorViewController.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\AvatarEditor\EditAvatarColorViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,33 +74,33 @@ public:
   /// @brief Field didFinishEvent, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<bool>* didFinishEvent;
 
-  /// @brief Method ChangeColor, addr 0x3276278, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ChangeColor, addr 0x3279e8c, size 0x94, virtual false, abstract: false, final false
   inline void ChangeColor(::UnityEngine::Color color);
 
-  /// @brief Method HandleApplyButtonWasPressed, addr 0x32763d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleApplyButtonWasPressed, addr 0x3279fe8, size 0x20, virtual false, abstract: false, final false
   inline void HandleApplyButtonWasPressed();
 
-  /// @brief Method HandleCancelButtonWasPressed, addr 0x3276378, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleCancelButtonWasPressed, addr 0x3279f8c, size 0x5c, virtual false, abstract: false, final false
   inline void HandleCancelButtonWasPressed();
 
-  /// @brief Method HandleHSVPanelControllerColorDidChange, addr 0x3276208, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleHSVPanelControllerColorDidChange, addr 0x3279e1c, size 0x70, virtual false, abstract: false, final false
   inline void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  /// @brief Method HandlePreviousColorPanelControllerColorWasSelected, addr 0x327630c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandlePreviousColorPanelControllerColorWasSelected, addr 0x3279f20, size 0x6c, virtual false, abstract: false, final false
   inline void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3276030, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3279c44, size 0x1d8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0x326fd9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x32739b0, size 0x68, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetColorCallback, addr 0x3275dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColorCallback, addr 0x32799e0, size 0x8, virtual false, abstract: false, final false
   inline void SetColorCallback(::System::Action_1<::UnityEngine::Color>* colorCallback);
 
-  /// @brief Method Start, addr 0x3275dd4, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x32799e8, size 0x25c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__applyButton() const;
@@ -163,22 +163,22 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x32763f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327a008, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeColorEvent, addr 0x326ed44, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeColorEvent, addr 0x3272958, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x326ee04, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3272a18, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method get_color, addr 0x3270028, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3273c3c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method remove_didChangeColorEvent, addr 0x326fad8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeColorEvent, addr 0x32736ec, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeColorEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x326fb98, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x32737ac, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<bool>* value);
 
 protected:
@@ -196,7 +196,7 @@ public:
   EditAvatarColorViewController(EditAvatarColorViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21699 };
 
   /// @brief Field _hsvPanelController, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HSVPanelController> ____hsvPanelController;

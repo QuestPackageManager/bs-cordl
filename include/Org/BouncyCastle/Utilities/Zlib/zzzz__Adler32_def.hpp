@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/Adler32.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\Adler32.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Zlib::Adler32* New_ctor();
 
-  /// @brief Method .ctor, addr 0x362d0f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3630eb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method adler32, addr 0x362cdfc, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method adler32, addr 0x3630bbc, size 0x2fc, virtual false, abstract: false, final false
   inline int64_t adler32(int64_t adler, ::ArrayW<uint8_t> buf, int32_t index, int32_t len);
 
 protected:

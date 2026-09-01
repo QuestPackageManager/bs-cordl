@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/DisplayStringFormatAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\DisplayStringFormatAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__formatString_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x64f9a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65014c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatString);
 
-  /// @brief Method get_formatString, addr 0x64f9a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_formatString, addr 0x65014b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_formatString();
 
-  /// @brief Method set_formatString, addr 0x64f9a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_formatString, addr 0x65014bc, size 0x8, virtual false, abstract: false, final false
   inline void set_formatString(::StringW value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   DisplayStringFormatAttribute(DisplayStringFormatAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9159 };
 
   /// @brief Field <formatString>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____formatString_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/SymbolsDictionary.hpp"
+// IWYU pragma private; include "System\Xml\Schema\SymbolsDictionary.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::SymbolsDictionary::*)()>(&::System::Xml::Schema::SymbolsDictionary::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x631588c;
+  constexpr static std::size_t addrs = 0x631d308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::SymbolsDictionary*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::SymbolsDictionary::*)()>(&::System::Xml::Schema::SymbolsDictionary::get_Count)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6315924;
+  constexpr static std::size_t addrs = 0x631d3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::SymbolsDictionary*>(), { "get_Count", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::SymbolsDictionary::*)()>(&::System::Xml::Schema::SymbolsDictionary::get_IsUpaEnforced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6315930;
+  constexpr static std::size_t addrs = 0x631d3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::SymbolsDictionary*>(), { "get_IsUpaEnforced", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::SymbolsDictionary::*)(bool)>(&::System::Xml::Schema::SymbolsDictionary::set_IsUpaEnforced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6315938;
+  constexpr static std::size_t addrs = 0x631d3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::XmlQualifiedName*, ::System::Object*)>(
     &::System::Xml::Schema::SymbolsDictionary::AddName)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6315940;
+  constexpr static std::size_t addrs = 0x631d3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::Schema::NamespaceList*, ::System::Object*, bool)>(
     &::System::Xml::Schema::SymbolsDictionary::AddNamespaceList)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x6315a44;
+  constexpr static std::size_t addrs = 0x631d4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::SymbolsDictionary::*)(::StringW, ::System::Object*)>(&::System::Xml::Schema::SymbolsDictionary::AddWildcard)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6315db4;
+  constexpr static std::size_t addrs = 0x631d830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::Schema::NamespaceList*)>(
     &::System::Xml::Schema::SymbolsDictionary::GetNamespaceListSymbols)> {
   constexpr static std::size_t size = 0x730;
-  constexpr static std::size_t addrs = 0x6315f14;
+  constexpr static std::size_t addrs = 0x631d990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::SymbolsDictionary*>(),
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::SymbolsDictionary::get_Item)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6316644;
+  constexpr static std::size_t addrs = 0x631e0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::SymbolsDictionary::Exists)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63166d4;
+  constexpr static std::size_t addrs = 0x631e150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::SymbolsDictionary::*)(int32_t)>(&::System::Xml::Schema::SymbolsDictionary::GetParticle)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6316704;
+  constexpr static std::size_t addrs = 0x631e180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::SymbolsDictionary::*)(int32_t)>(&::System::Xml::Schema::SymbolsDictionary::NameOf)> {
   constexpr static std::size_t size = 0x630;
-  constexpr static std::size_t addrs = 0x6316738;
+  constexpr static std::size_t addrs = 0x631e1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

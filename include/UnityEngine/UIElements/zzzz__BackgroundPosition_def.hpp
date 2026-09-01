@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BackgroundPosition.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BackgroundPosition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,34 +66,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundPosition>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundPosition>*();
 
-  /// @brief Method Equals, addr 0x6c27858, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c2f3dc, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c27910, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c2f494, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::BackgroundPosition other);
 
-  /// @brief Method GetHashCode, addr 0x6c27958, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c2f4dc, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x6c27840, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x6c2f3c4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundPosition Initial();
 
-  /// @brief Method ToString, addr 0x6c27a2c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c2f5b0, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c27828, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2f3ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundPositionKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x6c27834, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2f3b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundPositionKeyword keyword, ::UnityEngine::UIElements::Length offset);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundPosition>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundPosition>* i___System__IEquatable_1___UnityEngine__UIElements__BackgroundPosition_();
 
-  /// @brief Method op_Equality, addr 0x6c2799c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c2f520, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::BackgroundPosition style1, ::UnityEngine::UIElements::BackgroundPosition style2);
 
-  /// @brief Method op_Inequality, addr 0x6c279e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6c2f568, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::BackgroundPosition style1, ::UnityEngine::UIElements::BackgroundPosition style2);
 
   // Ctor Parameters []
@@ -144,12 +144,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c27cf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c2f87c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::BackgroundPositionKeyword GetValue(::by_ref<::UnityEngine::UIElements::BackgroundPosition> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_BackgroundPosition_KeywordProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c27d00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c2f884, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::BackgroundPosition> container, ::UnityEngine::UIElements::BackgroundPositionKeyword value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -164,13 +164,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c27c20, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2f7a4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c27cf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c2f874, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c27ce8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c2f86c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -223,12 +223,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c27d18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c2f89c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Length GetValue(::by_ref<::UnityEngine::UIElements::BackgroundPosition> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_BackgroundPosition_OffsetProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c27d20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c2f8a4, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::BackgroundPosition> container, ::UnityEngine::UIElements::Length value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -243,13 +243,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c27c84, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2f808, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c27d10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c2f894, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c27d08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c2f88c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -298,7 +298,7 @@ public:
 
   static inline ::UnityEngine::UIElements::BackgroundPosition_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c27b0c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2f690, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

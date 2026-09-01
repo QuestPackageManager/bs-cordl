@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OffsetByBeatmapObjectSpawnCenter.hpp"
+// IWYU pragma private; include "GlobalNamespace\OffsetByBeatmapObjectSpawnCenter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OffsetByBeatmapObjectSpawnCenter_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::*)()>(&::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::Start)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x58c0310;
+  constexpr static std::size_t addrs = 0x58bfcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter*>(), { "Start", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::*)(float_t)>(
     &::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::HandleSpawnCenterDistanceWasFound)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x58c03f4;
+  constexpr static std::size_t addrs = 0x58bfd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::*)()>(&::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58c045c;
+  constexpr static std::size_t addrs = 0x58bfe04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OffsetByBeatmapObjectSpawnCenter*>(), { ".ctor", {}, {} })));

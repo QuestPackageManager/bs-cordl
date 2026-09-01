@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/OtherHash.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\OtherHash.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherHash_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherHashAlgAndValue_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Esf::OtherHash* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Esf::OtherHash::GetInstance)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x336fe68;
+  constexpr static std::size_t addrs = 0x3373c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::OtherHash::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::Esf::OtherHash::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3371a0c;
+  constexpr static std::size_t addrs = 0x33757cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::OtherHash::*)(::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
     &::Org::BouncyCastle::Asn1::Esf::OtherHash::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x33717d8;
+  constexpr static std::size_t addrs = 0x3375598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::OtherHash::*)(::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*)>(
     &::Org::BouncyCastle::Asn1::Esf::OtherHash::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x33719b4;
+  constexpr static std::size_t addrs = 0x3375774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Esf::OtherHash::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::OtherHash::get_HashAlgorithm)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3371ac0;
+  constexpr static std::size_t addrs = 0x3375880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::OtherHash*>(), { "get_HashAlgorithm", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::Esf::OtherHash::*)()>(&::Org::BouncyCastle::Asn1::Esf::OtherHash::GetHashValue)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3371b54;
+  constexpr static std::size_t addrs = 0x3375914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::OtherHash*>(), { "GetHashValue", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::OtherHash::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::OtherHash::ToAsn1Object)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3371ba0;
+  constexpr static std::size_t addrs = 0x3375960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

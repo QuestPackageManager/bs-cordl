@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultyMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapDifficultyMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,19 +25,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultyMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DefaultNoteJumpMovementSpeed, addr 0x371af34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DefaultNoteJumpMovementSpeed, addr 0x3720db8, size 0x20, virtual false, abstract: false, final false
   static inline float_t DefaultNoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method DefaultRating, addr 0x371aee4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DefaultRating, addr 0x3720d68, size 0x18, virtual false, abstract: false, final false
   static inline int32_t DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method Name, addr 0x371ad4c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x3720bd0, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method NoteJumpMovementSpeed, addr 0x371aefc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method NoteJumpMovementSpeed, addr 0x3720d80, size 0x38, virtual false, abstract: false, final false
   static inline float_t NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty, float_t noteJumpMovementSpeed, bool fastNotes);
 
-  /// @brief Method ShortName, addr 0x371ae18, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ShortName, addr 0x3720c9c, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:
@@ -55,7 +55,7 @@ public:
   BeatmapDifficultyMethods(BeatmapDifficultyMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14954 };
 
   /// @brief Field kDefaultDifficultyNjs offset 0xffffffff size 0x4
   static constexpr float_t kDefaultDifficultyNjs{ static_cast<float_t>(10.0f) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/DateTimeConverterBase.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\DateTimeConverterBase.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__DateTimeConverterBase_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::DateTimeConverterBase::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::DateTimeConverterBase::CanConvert)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5d946b8;
+  constexpr static std::size_t addrs = 0x5d98b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::DateTimeConverterBase*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::DateTimeConverterBase::*)()>(&::Newtonsoft::Json::Converters::DateTimeConverterBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d947f0;
+  constexpr static std::size_t addrs = 0x5d98cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::DateTimeConverterBase*>(), { ".ctor", {}, {} })));

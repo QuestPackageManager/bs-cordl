@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DigitallySigned.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\DigitallySigned.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,12 +40,12 @@ public:
   /// @brief Field mSignature, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mSignature, put = __cordl_internal_set_mSignature)) ::ArrayW<uint8_t> mSignature;
 
-  /// @brief Method Encode, addr 0x343f6fc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x34434bc, size 0x88, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* New_ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t> signature);
 
-  /// @brief Method Parse, addr 0x3432704, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x34364c4, size 0xdc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* const& __cordl_internal_get_mAlgorithm() const;
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_mSignature(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x343f694, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3443454, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t> signature);
 
-  /// @brief Method get_Algorithm, addr 0x343f6ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x34434ac, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_Algorithm();
 
-  /// @brief Method get_Signature, addr 0x343f6f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x34434b4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Signature();
 
 protected:

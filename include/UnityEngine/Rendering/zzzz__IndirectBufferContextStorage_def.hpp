@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferContextStorage.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferContextStorage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,88 +86,88 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AllocateDrawBuffers, addr 0x6828874, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AllocateDrawBuffers, addr 0x68302f0, size 0x134, virtual false, abstract: false, final false
   inline void AllocateDrawBuffers(int32_t maxDrawCount);
 
-  /// @brief Method AllocateInstanceBuffers, addr 0x6828744, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AllocateInstanceBuffers, addr 0x68301c0, size 0x130, virtual false, abstract: false, final false
   inline void AllocateInstanceBuffers(int32_t maxInstanceCount);
 
-  /// @brief Method ClearContextsAndGrowBuffers, addr 0x6828f04, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ClearContextsAndGrowBuffers, addr 0x6830980, size 0x20, virtual false, abstract: false, final false
   inline void ClearContextsAndGrowBuffers();
 
-  /// @brief Method CopyFromStaging, addr 0x68291d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CopyFromStaging, addr 0x6830c50, size 0xc0, virtual false, abstract: false, final false
   inline void CopyFromStaging(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::IndirectBufferAllocInfo> allocInfo);
 
-  /// @brief Method Dispose, addr 0x6828b50, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68305cc, size 0xd0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FreeDrawBuffers, addr 0x6828ae0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FreeDrawBuffers, addr 0x683055c, size 0x70, virtual false, abstract: false, final false
   inline void FreeDrawBuffers();
 
-  /// @brief Method FreeInstanceBuffers, addr 0x6828a70, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FreeInstanceBuffers, addr 0x68304ec, size 0x70, virtual false, abstract: false, final false
   inline void FreeInstanceBuffers();
 
-  /// @brief Method GetAllocInfo, addr 0x6829140, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetAllocInfo, addr 0x6830bbc, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::IndirectBufferAllocInfo GetAllocInfo(int32_t contextIndex);
 
-  /// @brief Method GetAllocInfoSubArray, addr 0x68290e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetAllocInfoSubArray, addr 0x6830b5c, size 0x60, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectBufferAllocInfo> GetAllocInfoSubArray(int32_t contextIndex);
 
-  /// @brief Method GetBufferContext, addr 0x68292a8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetBufferContext, addr 0x6830d24, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::IndirectBufferContext GetBufferContext(int32_t contextIndex);
 
-  /// @brief Method GetLimits, addr 0x6829294, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetLimits, addr 0x6830d10, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::IndirectBufferLimits GetLimits(int32_t contextIndex);
 
-  /// @brief Method GrowBuffers, addr 0x6828d40, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GrowBuffers, addr 0x68307bc, size 0x1c4, virtual false, abstract: false, final false
   inline void GrowBuffers();
 
-  /// @brief Method ImportBuffers, addr 0x6828510, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ImportBuffers, addr 0x682ff8c, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::IndirectBufferContextHandles ImportBuffers(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
-  /// @brief Method Init, addr 0x6828608, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6830084, size 0x13c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method ResetAllocators, addr 0x68289a8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ResetAllocators, addr 0x6830424, size 0xc8, virtual false, abstract: false, final false
   inline void ResetAllocators();
 
-  /// @brief Method SetBufferContext, addr 0x6829388, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetBufferContext, addr 0x6830e04, size 0xd4, virtual false, abstract: false, final false
   inline void SetBufferContext(int32_t contextIndex, ::UnityEngine::Rendering::IndirectBufferContext ctx);
 
-  /// @brief Method SyncContexts, addr 0x6828c20, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SyncContexts, addr 0x683069c, size 0x120, virtual false, abstract: false, final false
   inline void SyncContexts();
 
-  /// @brief Method TryAllocateContext, addr 0x6828f24, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method TryAllocateContext, addr 0x68309a0, size 0x148, virtual false, abstract: false, final false
   inline int32_t TryAllocateContext(int32_t viewID);
 
-  /// @brief Method TryGetContextIndex, addr 0x682906c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TryGetContextIndex, addr 0x6830ae8, size 0x74, virtual false, abstract: false, final false
   inline int32_t TryGetContextIndex(int32_t viewID);
 
-  /// @brief Method get_allocationCounters, addr 0x68285fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allocationCounters, addr 0x6830078, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<int32_t> get_allocationCounters();
 
-  /// @brief Method get_argsBuffer, addr 0x68284d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_argsBuffer, addr 0x682ff4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_argsBuffer();
 
-  /// @brief Method get_drawInfoBuffer, addr 0x68284d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawInfoBuffer, addr 0x682ff54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_drawInfoBuffer();
 
-  /// @brief Method get_drawInfoGlobalArray, addr 0x68285f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_drawInfoGlobalArray, addr 0x683006c, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectDrawInfo> get_drawInfoGlobalArray();
 
-  /// @brief Method get_indirectArgsBufferHandle, addr 0x68284f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_indirectArgsBufferHandle, addr 0x682ff74, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBufferHandle get_indirectArgsBufferHandle();
 
-  /// @brief Method get_instanceBuffer, addr 0x68284c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instanceBuffer, addr 0x682ff3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_instanceBuffer();
 
-  /// @brief Method get_instanceInfoBuffer, addr 0x68284c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instanceInfoBuffer, addr 0x682ff44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_instanceInfoBuffer();
 
-  /// @brief Method get_instanceInfoGlobalArray, addr 0x68285e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_instanceInfoGlobalArray, addr 0x6830060, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::IndirectInstanceInfo> get_instanceInfoGlobalArray();
 
-  /// @brief Method get_visibleInstanceBufferHandle, addr 0x68284e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_visibleInstanceBufferHandle, addr 0x682ff5c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBufferHandle get_visibleInstanceBufferHandle();
 
   /// @brief Convert to "::System::IDisposable"
@@ -196,7 +196,7 @@ public:
                                          ::Unity::Collections::NativeArray_1<int32_t> m_AllocationCounters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17748 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };

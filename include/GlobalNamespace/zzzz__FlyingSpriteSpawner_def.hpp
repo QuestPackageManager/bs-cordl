@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FlyingSpriteSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace\FlyingSpriteSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,12 +72,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x59869e0, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x598a380, size 0x130, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingSpriteSpawner* New_ctor();
 
-  /// @brief Method SpawnFlyingSprite, addr 0x59867ec, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingSprite, addr 0x598a18c, size 0x1f4, virtual false, abstract: false, final false
   inline void SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -134,7 +134,7 @@ public:
 
   constexpr void __cordl_internal_set__xSpread(float_t value);
 
-  /// @brief Method .ctor, addr 0x5986b10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598a4b0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"

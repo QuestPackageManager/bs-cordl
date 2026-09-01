@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AYellowpaper/SerializedCollections/SerializedCollectionsUtility.hpp"
+// IWYU pragma private; include "AYellowpaper\SerializedCollections\SerializedCollectionsUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "AYellowpaper/SerializedCollections/zzzz__SerializedCollectionsUtility_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*)>(&::AYellowpaper::SerializedCollections::SerializedCollectionsUtility::IsValidKey)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3254400;
+  constexpr static std::size_t addrs = 0x3257700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/Entry.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\Entry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::Entry* New_ctor();
 
-  /// @brief Method Reset, addr 0x6cd1944, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6cd94c8, size 0x1c, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::UIR::Entry* const& __cordl_internal_get_firstChild() const;
@@ -159,7 +159,7 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value);
 
-  /// @brief Method .ctor, addr 0x6cd1918, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd949c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

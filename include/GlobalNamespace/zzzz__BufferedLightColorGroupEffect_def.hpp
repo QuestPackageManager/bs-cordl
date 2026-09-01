@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BufferedLightColorGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\BufferedLightColorGroupEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x598f740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59994d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroup* lightGroup, ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController);
 
 protected:
@@ -100,7 +100,7 @@ public:
   BufferedLightColorGroupEffect_InitData(BufferedLightColorGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5888 };
 
   /// @brief Field lightGroup, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroup> ___lightGroup;
@@ -175,19 +175,19 @@ public:
   /// @brief Field _useBoostColors, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__useBoostColors, put = __cordl_internal_set__useBoostColors)) bool _useBoostColors;
 
-  /// @brief Method Cleanup, addr 0x598f2f4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x599908c, size 0x140, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetColor, addr 0x598f634, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x59993cc, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
-  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x598f528, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x59992c0, size 0x10c, virtual false, abstract: false, final false
   inline void HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame();
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x598f434, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x59991cc, size 0x18, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* colorBoost);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x598f44c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x59991e4, size 0xdc, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::BufferedLightColorGroupEffect* New_ctor(::GlobalNamespace::BufferedLightColorGroupEffect_InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
@@ -259,7 +259,7 @@ public:
 
   constexpr void __cordl_internal_set__useBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x598ef48, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5998ce0, size 0x3ac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BufferedLightColorGroupEffect_InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -290,7 +290,7 @@ public:
   BufferedLightColorGroupEffect(BufferedLightColorGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5889 };
 
   /// @brief Field kBufferSize offset 0xffffffff size 0x4
   static constexpr int32_t kBufferSize{ static_cast<int32_t>(0x18) };

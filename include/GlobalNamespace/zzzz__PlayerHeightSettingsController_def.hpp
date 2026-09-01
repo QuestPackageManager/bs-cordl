@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerHeightSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerHeightSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,18 +61,18 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_1<float_t>* valueDidChangeEvent;
 
-  /// @brief Method AutoSetHeight, addr 0x5a0dd24, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method AutoSetHeight, addr 0x5a15e30, size 0x118, virtual false, abstract: false, final false
   inline void AutoSetHeight();
 
-  /// @brief Method Awake, addr 0x5a0db98, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a15ca4, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x5a0dc60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5a15d6c, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t playerHeight);
 
   static inline ::GlobalNamespace::PlayerHeightSettingsController* New_ctor();
 
-  /// @brief Method RefreshUI, addr 0x5a0dc68, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x5a15d74, size 0xbc, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -117,16 +117,16 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x5a0de3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a15f48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x5a0da10, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x5a15b1c, size 0xc0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_value, addr 0x5a0db90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x5a15c9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x5a0dad0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x5a15bdc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -144,7 +144,7 @@ public:
   PlayerHeightSettingsController(PlayerHeightSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6412 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

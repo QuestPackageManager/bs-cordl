@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalDrawScreenSpaceSystem.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalDrawScreenSpaceSystem.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawSystem_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawScreenSpaceSystem_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalCachedChunk_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem::*)(::UnityEngine::Rendering::Universal::DecalEntityManager*)>(
     &::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x685abbc;
+  constexpr static std::size_t addrs = 0x6862638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem::*)(::UnityEngine::Rendering::Universal::DecalCachedChunk*)>(
     &::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem::GetPassIndex)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x685ac40;
+  constexpr static std::size_t addrs = 0x68626bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem*>(),

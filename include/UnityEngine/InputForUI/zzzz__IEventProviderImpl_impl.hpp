@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/IEventProviderImpl.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\IEventProviderImpl.hpp"
 #include "UnityEngine/InputForUI/zzzz__IEventProviderImpl_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputForUI::IEventProviderImpl.Initialize
 template <>

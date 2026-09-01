@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/BeatmapSaveData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\BeatmapSaveData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveData_def.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__EventData_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759ba8;
+  constexpr static std::size_t addrs = 0x375f814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>(), { "get_version", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_events)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759bb0;
+  constexpr static std::size_t addrs = 0x375f81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>(), { "get_events", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_notes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759bb8;
+  constexpr static std::size_t addrs = 0x375f824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>(), { "get_notes", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_sliders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759bc0;
+  constexpr static std::size_t addrs = 0x375f82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>(), { "get_sliders", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_waypoints)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759bc8;
+  constexpr static std::size_t addrs = 0x375f834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>(), { "get_waypoints", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_obstacles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759bd0;
+  constexpr static std::size_t addrs = 0x375f83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>(), { "get_obstacles", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* (::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_specialEventsKeywordFilters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759bd8;
+  constexpr static std::size_t addrs = 0x375f844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVe
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>*, ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*)>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3759be0;
+  constexpr static std::size_t addrs = 0x375f84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ConvertBeatmapSaveDataPreV2_5_0Inline)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x3759c68;
+  constexpr static std::size_t addrs = 0x375f8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

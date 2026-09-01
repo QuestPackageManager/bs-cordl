@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VFXExpressionValues.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VFXExpressionValues.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ namespace UnityEngine::VFX {
 class CORDL_TYPE VFXExpressionValues_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6e24fa0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6e2cb24, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::VFX::VFXExpressionValues* vFXExpressionValues);
 
 protected:
@@ -54,7 +54,7 @@ public:
   VFXExpressionValues_BindingsMarshaller(VFXExpressionValues_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -74,37 +74,37 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method CreateExpressionValuesWrapper, addr 0x6e24c0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateExpressionValuesWrapper, addr 0x6e2c790, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXExpressionValues* CreateExpressionValuesWrapper(::System::IntPtr ptr);
 
-  /// @brief Method GetBool, addr 0x6e24c64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetBool, addr 0x6e2c7e8, size 0x58, virtual false, abstract: false, final false
   inline bool GetBool(int32_t nameID);
 
-  /// @brief Method GetBool_Injected, addr 0x6e24cbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBool_Injected, addr 0x6e2c840, size 0x44, virtual false, abstract: false, final false
   static inline bool GetBool_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
-  /// @brief Method GetFloat, addr 0x6e24e38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetFloat, addr 0x6e2c9bc, size 0x58, virtual false, abstract: false, final false
   inline float_t GetFloat(int32_t nameID);
 
-  /// @brief Method GetFloat_Injected, addr 0x6e24e90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFloat_Injected, addr 0x6e2ca14, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetFloat_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
-  /// @brief Method GetInt, addr 0x6e24d00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x6e2c884, size 0x58, virtual false, abstract: false, final false
   inline int32_t GetInt(int32_t nameID);
 
-  /// @brief Method GetInt_Injected, addr 0x6e24d58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetInt_Injected, addr 0x6e2c8dc, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetInt_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
-  /// @brief Method GetUInt, addr 0x6e24d9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetUInt, addr 0x6e2c920, size 0x58, virtual false, abstract: false, final false
   inline uint32_t GetUInt(int32_t nameID);
 
-  /// @brief Method GetUInt_Injected, addr 0x6e24df4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetUInt_Injected, addr 0x6e2c978, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetUInt_Injected(::System::IntPtr _unity_self, int32_t nameID);
 
-  /// @brief Method GetVector3, addr 0x6e24ed4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetVector3, addr 0x6e2ca58, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetVector3(int32_t nameID);
 
-  /// @brief Method GetVector3_Injected, addr 0x6e24f4c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetVector3_Injected, addr 0x6e2cad0, size 0x54, virtual false, abstract: false, final false
   static inline void GetVector3_Injected(::System::IntPtr _unity_self, int32_t nameID, ::by_ref<::UnityEngine::Vector3> ret);
 
   static inline ::UnityEngine::VFX::VFXExpressionValues* New_ctor();
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6e24c08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e2c78c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
   VFXExpressionValues(VFXExpressionValues const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22399 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

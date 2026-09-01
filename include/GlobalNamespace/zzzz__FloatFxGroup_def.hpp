@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatFxGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatFxGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__targets(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>* value);
 
-  /// @brief Method .ctor, addr 0x598b378, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5995338, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isTriggerOnly, addr 0x598b368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTriggerOnly, addr 0x5995328, size 0x8, virtual false, abstract: false, final false
   inline bool get_isTriggerOnly();
 
-  /// @brief Method get_targets, addr 0x598b370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targets, addr 0x5995330, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>* get_targets();
 
 protected:
@@ -77,7 +77,7 @@ public:
   FloatFxGroup(FloatFxGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5855 };
 
   /// @brief Field _isTriggerOnly, offset: 0x28, size: 0x1, def value: None
   bool ____isTriggerOnly;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Hierarchy/SceneItem.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Hierarchy\SceneItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,24 +36,24 @@ public:
 
   __declspec(property(get = get_Valid)) bool Valid;
 
-  /// @brief Method BuildHandle, addr 0x5a66368, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method BuildHandle, addr 0x5a6a824, size 0x18, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle BuildHandle();
 
-  /// @brief Method CompareChildren, addr 0x5a66254, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CompareChildren, addr 0x5a6a710, size 0x6c, virtual true, abstract: false, final false
   inline bool CompareChildren(::UnityEngine::GameObject* lhs, ::UnityEngine::GameObject* rhs);
 
-  /// @brief Method FetchExpectedChildren, addr 0x5a66380, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method FetchExpectedChildren, addr 0x5a6a83c, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> FetchExpectedChildren();
 
   static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a6638c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a6a848, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Label, addr 0x5a662c0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Label, addr 0x5a6a77c, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW get_Label();
 
-  /// @brief Method get_Valid, addr 0x5a6632c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x5a6a7e8, size 0x3c, virtual true, abstract: false, final false
   inline bool get_Valid();
 
 protected:
@@ -71,7 +71,7 @@ public:
   SceneItem(SceneItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

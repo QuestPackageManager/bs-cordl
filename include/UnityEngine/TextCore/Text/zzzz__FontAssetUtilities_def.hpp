@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/FontAssetUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\FontAssetUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,25 +53,25 @@ public:
   /// @brief Field k_SearchedAssets, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_SearchedAssets, put = setStaticF_k_SearchedAssets)) ::System::Collections::Generic::HashSet_1<int32_t>* k_SearchedAssets;
 
-  /// @brief Method GetCharacterFromFontAsset, addr 0x6bf6f64, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterFromFontAsset, addr 0x6bfeae8, size 0x118, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::Character* GetCharacterFromFontAsset(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset, bool includeFallbacks,
                                                                                     ::UnityEngine::TextCore::Text::FontStyles fontStyle, ::UnityEngine::TextCore::Text::TextFontWeight fontWeight,
                                                                                     ::by_ref<bool> isAlternativeTypeface, bool populateLigatures);
 
-  /// @brief Method GetCharacterFromFontAsset_Internal, addr 0x6bf707c, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterFromFontAsset_Internal, addr 0x6bfec00, size 0x570, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::Character* GetCharacterFromFontAsset_Internal(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset, bool includeFallbacks,
                                                                                              ::UnityEngine::TextCore::Text::FontStyles fontStyle,
                                                                                              ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::by_ref<bool> isAlternativeTypeface,
                                                                                              bool populateLigatures);
 
-  /// @brief Method GetCharacterFromFontAssetsInternal, addr 0x6bf775c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterFromFontAssetsInternal, addr 0x6bff2e0, size 0x1e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::Character* GetCharacterFromFontAssetsInternal(uint32_t unicode,
                                                                                              ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fontAssets,
                                                                                              bool includeFallbacks, ::UnityEngine::TextCore::Text::FontStyles fontStyle,
                                                                                              ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::by_ref<bool> isAlternativeTypeface,
                                                                                              bool populateLigatures);
 
-  /// @brief Method GetCharacterFromFontAssetsInternal, addr 0x6bf75f4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterFromFontAssetsInternal, addr 0x6bff178, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::Character* GetCharacterFromFontAssetsInternal(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset,
                                                                                              ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fontAssets,
                                                                                              ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* OSFallbackList,
@@ -79,14 +79,14 @@ public:
                                                                                              ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::by_ref<bool> isAlternativeTypeface,
                                                                                              bool populateLigatures);
 
-  /// @brief Method GetSpriteCharacterFromSpriteAsset, addr 0x6bf7e00, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteCharacterFromSpriteAsset, addr 0x6bff984, size 0x2f4, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::SpriteCharacter* GetSpriteCharacterFromSpriteAsset(uint32_t unicode, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, bool includeFallbacks);
 
-  /// @brief Method GetSpriteCharacterFromSpriteAsset_Internal, addr 0x6bf7c20, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteCharacterFromSpriteAsset_Internal, addr 0x6bff7a4, size 0x1e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::SpriteCharacter* GetSpriteCharacterFromSpriteAsset_Internal(uint32_t unicode, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset,
                                                                                                            bool includeFallbacks);
 
-  /// @brief Method GetTextElementFromTextAssets, addr 0x6bf7940, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method GetTextElementFromTextAssets, addr 0x6bff4c4, size 0x2e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextElement* GetTextElementFromTextAssets(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset,
                                                                                          ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>* textAssets,
                                                                                          bool includeFallbacks, ::UnityEngine::TextCore::Text::FontStyles fontStyle,
@@ -112,7 +112,7 @@ public:
   FontAssetUtilities(FontAssetUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17230 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

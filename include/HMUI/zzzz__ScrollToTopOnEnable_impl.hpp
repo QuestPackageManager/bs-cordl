@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ScrollToTopOnEnable.hpp"
+// IWYU pragma private; include "HMUI\ScrollToTopOnEnable.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScrollToTopOnEnable_def.hpp"
 #include "HMUI/zzzz__ScrollView_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollToTopOnEnable::*)()>(&::HMUI::ScrollToTopOnEnable::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5887e48;
+  constexpr static std::size_t addrs = 0x5887814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollToTopOnEnable*>(), { "OnEnable", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScrollToTopOnEnable::*)()>(&::HMUI::ScrollToTopOnEnable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5887f1c;
+  constexpr static std::size_t addrs = 0x58878e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScrollToTopOnEnable*>(), { ".ctor", {}, {} })));

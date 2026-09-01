@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableGraphExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Animations\AnimationPlayableGraphExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ namespace UnityEngine::Animations {
 class CORDL_TYPE AnimationPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAnimationOutput, addr 0x6a41a18, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAnimationOutput, addr 0x6a49494, size 0x148, virtual false, abstract: false, final false
   static inline bool InternalCreateAnimationOutput(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ::by_ref<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
-  /// @brief Method InternalCreateAnimationOutput_Injected, addr 0x6a41b60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAnimationOutput_Injected, addr 0x6a495dc, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalCreateAnimationOutput_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name,
                                                             ::by_ref<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
@@ -51,7 +51,7 @@ public:
   AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20216 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20252 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

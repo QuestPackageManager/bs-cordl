@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Internal/InputUnsafeUtility.hpp"
+// IWYU pragma private; include "UnityEngine\Internal\InputUnsafeUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,52 +25,52 @@ namespace UnityEngine::Internal {
 class CORDL_TYPE InputUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAxis, addr 0x6b59a10, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetAxis, addr 0x6b61594, size 0x128, virtual false, abstract: false, final false
   static inline float_t GetAxis(::StringW axisName);
 
-  /// @brief Method GetAxisRaw, addr 0x6b59b3c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetAxisRaw, addr 0x6b616c0, size 0x128, virtual false, abstract: false, final false
   static inline float_t GetAxisRaw(::StringW axisName);
 
-  /// @brief Method GetAxisRaw_Injected, addr 0x6b5bc8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAxisRaw_Injected, addr 0x6b63810, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetAxisRaw_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> axisName);
 
-  /// @brief Method GetAxisRaw__Unmanaged, addr 0x6b5bcc8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAxisRaw__Unmanaged, addr 0x6b6384c, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetAxisRaw__Unmanaged(uint8_t* axisName, int32_t axisNameLen);
 
-  /// @brief Method GetAxis_Injected, addr 0x6b5bc0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAxis_Injected, addr 0x6b63790, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetAxis_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> axisName);
 
-  /// @brief Method GetAxis__Unmanaged, addr 0x6b5bc48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAxis__Unmanaged, addr 0x6b637cc, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetAxis__Unmanaged(uint8_t* axisName, int32_t axisNameLen);
 
-  /// @brief Method GetButton, addr 0x6b59c68, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetButton, addr 0x6b617ec, size 0x130, virtual false, abstract: false, final false
   static inline bool GetButton(::StringW buttonName);
 
-  /// @brief Method GetButtonDown, addr 0x6b59d9c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetButtonDown, addr 0x6b61920, size 0x130, virtual false, abstract: false, final false
   static inline bool GetButtonDown(::StringW buttonName);
 
-  /// @brief Method GetButtonDown_Injected, addr 0x6b5bd8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetButtonDown_Injected, addr 0x6b63910, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetButtonDown_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> buttonName);
 
-  /// @brief Method GetButtonDown__Unmanaged, addr 0x6b5bdc8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetButtonDown__Unmanaged, addr 0x6b6394c, size 0x44, virtual false, abstract: false, final false
   static inline uint8_t GetButtonDown__Unmanaged(uint8_t* buttonName, int32_t buttonNameLen);
 
-  /// @brief Method GetButtonUp__Unmanaged, addr 0x6b5be0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetButtonUp__Unmanaged, addr 0x6b63990, size 0x44, virtual false, abstract: false, final false
   static inline bool GetButtonUp__Unmanaged(uint8_t* buttonName, int32_t buttonNameLen);
 
-  /// @brief Method GetButton_Injected, addr 0x6b5bd0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetButton_Injected, addr 0x6b63890, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetButton_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> buttonName);
 
-  /// @brief Method GetButton__Unmanaged, addr 0x6b5bd48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetButton__Unmanaged, addr 0x6b638cc, size 0x44, virtual false, abstract: false, final false
   static inline bool GetButton__Unmanaged(uint8_t* buttonName, int32_t buttonNameLen);
 
-  /// @brief Method GetKeyDownString__Unmanaged, addr 0x6b5bbc8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetKeyDownString__Unmanaged, addr 0x6b6374c, size 0x44, virtual false, abstract: false, final false
   static inline bool GetKeyDownString__Unmanaged(uint8_t* name, int32_t nameLen);
 
-  /// @brief Method GetKeyString__Unmanaged, addr 0x6b5bb40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetKeyString__Unmanaged, addr 0x6b636c4, size 0x44, virtual false, abstract: false, final false
   static inline bool GetKeyString__Unmanaged(uint8_t* name, int32_t nameLen);
 
-  /// @brief Method GetKeyUpString__Unmanaged, addr 0x6b5bb84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetKeyUpString__Unmanaged, addr 0x6b63708, size 0x44, virtual false, abstract: false, final false
   static inline bool GetKeyUpString__Unmanaged(uint8_t* name, int32_t nameLen);
 
 protected:
@@ -88,7 +88,7 @@ public:
   InputUnsafeUtility(InputUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

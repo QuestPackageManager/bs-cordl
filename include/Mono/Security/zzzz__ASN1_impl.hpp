@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/ASN1.hpp"
+// IWYU pragma private; include "Mono\Security\ASN1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/zzzz__ASN1_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::ASN1::*)(uint8_t)>(&::Mono::Security::ASN1::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a84710;
+  constexpr static std::size_t addrs = 0x5ab8e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { ".ctor", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::ASN1::*)(uint8_t, ::ArrayW<uint8_t>)>(&::Mono::Security::ASN1::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a8471c;
+  constexpr static std::size_t addrs = 0x5ab8e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::ASN1::*)(::ArrayW<uint8_t>)>(&::Mono::Security::ASN1::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5a84728;
+  constexpr static std::size_t addrs = 0x5ab8ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
@@ -45,34 +45,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::ASN1::*)()>(&::Mono::Security::ASN1::get_Count)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a84990;
+  constexpr static std::size_t addrs = 0x5ab910c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "get_Count", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Mono::Security::ASN1.get_Tag
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Mono::Security::ASN1::*)()>(&::Mono::Security::ASN1::get_Tag)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a849ac;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "get_Tag", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Mono::Security::ASN1.get_Length
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::ASN1::*)()>(&::Mono::Security::ASN1::get_Length)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a849b4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "get_Length", {}, {} })));
     return ___internal_method;
   }
 };
@@ -81,48 +57,10 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::ASN1::*)()>(&::Mono::Security::ASN1::get_Value)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5a849cc;
+  constexpr static std::size_t addrs = 0x5ab9128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "get_Value", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Mono::Security::ASN1.set_Value
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::ASN1::*)(::ArrayW<uint8_t>)>(&::Mono::Security::ASN1::set_Value)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5a84a5c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "set_Value", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Mono::Security::ASN1.CompareArray
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::ASN1::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Mono::Security::ASN1::CompareArray)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5a84af8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "CompareArray", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Mono::Security::ASN1.CompareValue
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::ASN1::*)(::ArrayW<uint8_t>)>(&::Mono::Security::ASN1::CompareValue)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5a84b68;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "CompareValue", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
     return ___internal_method;
   }
 };
@@ -131,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::ASN1* (::Mono::Security::ASN1::*)(::Mono::Security::ASN1*)>(&::Mono::Security::ASN1::Add)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5a84b78;
+  constexpr static std::size_t addrs = 0x5ab91b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "Add", {}, { ::i2c::type_of<::Mono::Security::ASN1*>() } })));
@@ -143,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::ASN1::*)()>(&::Mono::Security::ASN1::GetBytes)> {
   constexpr static std::size_t size = 0x668;
-  constexpr static std::size_t addrs = 0x5a84c10;
+  constexpr static std::size_t addrs = 0x5ab9250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { ::i2c::class_of<::Mono::Security::ASN1*>(), 4 }));
@@ -155,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::ASN1::*)(::ArrayW<uint8_t>, ::by_ref<int32_t>, int32_t)>(&::Mono::Security::ASN1::Decode)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5a84880;
+  constexpr static std::size_t addrs = 0x5ab8ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::ASN1::*)(::ArrayW<uint8_t>, ::by_ref<int32_t>, ::by_ref<uint8_t>, ::by_ref<int32_t>, ::by_ref<::ArrayW<uint8_t>>)>(
     &::Mono::Security::ASN1::DecodeTLV)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5a85278;
+  constexpr static std::size_t addrs = 0x5ab98b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,37 +120,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::A
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Mono::Security::ASN1.get_Item
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::ASN1* (::Mono::Security::ASN1::*)(int32_t)>(&::Mono::Security::ASN1::get_Item)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5a8539c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Mono::Security::ASN1.Element
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::ASN1* (::Mono::Security::ASN1::*)(int32_t, uint8_t)>(&::Mono::Security::ASN1::Element)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5a854dc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "Element", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t>() } })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::Mono::Security::ASN1.ToString
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::ASN1::*)()>(&::Mono::Security::ASN1::ToString)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5a85638;
+  constexpr static std::size_t addrs = 0x5ab99dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { ::i2c::class_of<::Mono::Security::ASN1*>(), 3 }));
@@ -272,30 +185,9 @@ inline int32_t Mono::Security::ASN1::get_Count() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "get_Count", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-inline uint8_t Mono::Security::ASN1::get_Tag() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "get_Tag", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<uint8_t>(this, ___internal_method);
-}
-inline int32_t Mono::Security::ASN1::get_Length() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "get_Length", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
-}
 inline ::ArrayW<uint8_t> Mono::Security::ASN1::get_Value() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "get_Value", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(this, ___internal_method);
-}
-inline void Mono::Security::ASN1::set_Value(::ArrayW<uint8_t> value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "set_Value", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
-}
-inline bool Mono::Security::ASN1::CompareArray(::ArrayW<uint8_t> array1, ::ArrayW<uint8_t> array2) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "CompareArray", {}, { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, array1, array2);
-}
-inline bool Mono::Security::ASN1::CompareValue(::ArrayW<uint8_t> value) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "CompareValue", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, value);
 }
 inline ::Mono::Security::ASN1* Mono::Security::ASN1::Add(::Mono::Security::ASN1* asn1) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "Add", {}, { ::i2c::type_of<::Mono::Security::ASN1*>() } })));
@@ -319,15 +211,6 @@ inline void Mono::Security::ASN1::DecodeTLV(::ArrayW<uint8_t> asn1, ::by_ref<int
                                                                                      { ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<uint8_t>>(),
                                                                                        ::i2c::type_of<::by_ref<int32_t>>(), ::i2c::type_of<::by_ref<::ArrayW<uint8_t>>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, asn1, pos, tag, length, content);
-}
-inline ::Mono::Security::ASN1* Mono::Security::ASN1::get_Item(int32_t index) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Security::ASN1*>(this, ___internal_method, index);
-}
-inline ::Mono::Security::ASN1* Mono::Security::ASN1::Element(int32_t index, uint8_t anTag) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::ASN1*>(), { "Element", {}, { ::i2c::type_of<int32_t>(), ::i2c::type_of<uint8_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Security::ASN1*>(this, ___internal_method, index, anTag);
 }
 inline ::StringW Mono::Security::ASN1::ToString() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Mono::Security::ASN1*>(), 3 })));

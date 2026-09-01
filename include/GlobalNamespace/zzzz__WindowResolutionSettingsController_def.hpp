@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/WindowResolutionSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace\WindowResolutionSettingsController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,15 +37,15 @@ public:
   __declspec(property(get = __cordl_internal_get__windowResolutions,
                       put = __cordl_internal_set__windowResolutions)) ::System::Collections::Generic::List_1<::Unity::Mathematics::int2>* _windowResolutions;
 
-  /// @brief Method ApplyValue, addr 0x5a0e4a8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x5a165b4, size 0x74, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x5a0e1a0, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x5a162ac, size 0x308, virtual true, abstract: false, final false
   inline bool GetInitValues(::by_ref<int32_t> idx, ::by_ref<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::WindowResolutionSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x5a0e51c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x5a16628, size 0xd0, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__windowResolutions(::System::Collections::Generic::List_1<::Unity::Mathematics::int2>* value);
 
-  /// @brief Method .ctor, addr 0x5a0e5ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a166f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   WindowResolutionSettingsController(WindowResolutionSettingsController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6414 };
 
   /// @brief Field _settingsManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

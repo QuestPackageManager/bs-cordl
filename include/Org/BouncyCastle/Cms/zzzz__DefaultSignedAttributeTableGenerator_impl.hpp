@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/DefaultSignedAttributeTableGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\DefaultSignedAttributeTableGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__DefaultSignedAttributeTableGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::*)()>(
     &::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x36b16e4;
+  constexpr static std::size_t addrs = 0x36b54a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::*)(::Org::BouncyCastle::Asn1::Cms::AttributeTable*)>(
     &::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x36b1bc4;
+  constexpr static std::size_t addrs = 0x36b5984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Hashtable* (::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::*)(::System::Collections::IDictionary*)>(
     &::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::createStandardAttributeTable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x36c7c24;
+  constexpr static std::size_t addrs = 0x36cb9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::*)(
     ::System::Collections::IDictionary*, ::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::DoCreateStandardAttributeTable)> {
   constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x36c7ca4;
+  constexpr static std::size_t addrs = 0x36cba64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::AttributeTable* (
     ::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::*)(::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::GetAttributes)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x36c8384;
+  constexpr static std::size_t addrs = 0x36cc144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator*>(),

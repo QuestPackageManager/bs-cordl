@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Analytics/UserSessionAnalyticsEvent.hpp"
+// IWYU pragma private; include "OSCE\Analytics\UserSessionAnalyticsEvent.hpp"
 #include "OSCE/Analytics/zzzz__BaseAnalyticsEvent_impl.hpp"
 #include "OSCE/Analytics/zzzz__UserSessionAnalyticsEvent_def.hpp"
 #include "GlobalNamespace/zzzz__IDType_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IDType (::OSCE::Analytics::UserSessionAnalyticsEvent::*)()>(&::OSCE::Analytics::UserSessionAnalyticsEvent::GetIDType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35518;
+  constexpr static std::size_t addrs = 0x5f39984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OSCE::Analytics::UserSessionAnalyticsEvent::*)()>(&::OSCE::Analytics::UserSessionAnalyticsEvent::EventRequiresAnalyticsID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35520;
+  constexpr static std::size_t addrs = 0x5f3998c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::UserSessionAnalyticsEvent::*)()>(&::OSCE::Analytics::UserSessionAnalyticsEvent::ReturnEventToPool)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f35528;
+  constexpr static std::size_t addrs = 0x5f39994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::UserSessionAnalyticsEvent::*)()>(&::OSCE::Analytics::UserSessionAnalyticsEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5f3548c;
+  constexpr static std::size_t addrs = 0x5f398f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::UserSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*, int32_t)>(
     &::OSCE::Analytics::UserSessionAnalyticsEvent::ApplyTime)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5f35598;
+  constexpr static std::size_t addrs = 0x5f39a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::UserSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::OSCE::Analytics::UserSessionAnalyticsEvent::ApplyBasicFields)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f35354;
+  constexpr static std::size_t addrs = 0x5f397c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::UserSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::OSCE::Analytics::UserSessionAnalyticsEvent::GetIDForEvent)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5f3560c;
+  constexpr static std::size_t addrs = 0x5f39a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::UserSessionAnalyticsEvent::*)()>(&::OSCE::Analytics::UserSessionAnalyticsEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f35514;
+  constexpr static std::size_t addrs = 0x5f39980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::UserSessionAnalyticsEvent*>(), { ".ctor", {}, {} })));

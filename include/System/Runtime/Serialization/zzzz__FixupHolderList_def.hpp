@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/FixupHolderList.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\FixupHolderList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
   /// @brief Field m_values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_values, put = __cordl_internal_set_m_values)) ::ArrayW<::System::Runtime::Serialization::FixupHolder*> m_values;
 
-  /// @brief Method Add, addr 0x5b4f6a4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x5b53b60, size 0xa8, virtual true, abstract: false, final false
   inline void Add(::System::Runtime::Serialization::FixupHolder* fixup);
 
-  /// @brief Method EnlargeArray, addr 0x5b4f74c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x5b53c08, size 0x8c, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
   static inline ::System::Runtime::Serialization::FixupHolderList* New_ctor();
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_values(::ArrayW<::System::Runtime::Serialization::FixupHolder*> value);
 
-  /// @brief Method .ctor, addr 0x5b4f534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b539f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b4f640, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b53afc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/Extents.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\Extents.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Extents_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::Extents.ToString
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::Text::Extents::*)()>(&::UnityEngine::TextCore::Text::Extents::ToString)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6bbf778;
+  constexpr static std::size_t addrs = 0x6bc72fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

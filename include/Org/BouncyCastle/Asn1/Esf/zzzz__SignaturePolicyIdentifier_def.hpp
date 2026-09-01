@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/SignaturePolicyIdentifier.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\SignaturePolicyIdentifier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,14 +39,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x3374f08, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3378cc8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* New_ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* signaturePolicyId);
 
-  /// @brief Method ToAsn1Object, addr 0x3375130, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3378ef0, size 0x7c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* const& __cordl_internal_get_sigPolicy() const;
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set_sigPolicy(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* value);
 
-  /// @brief Method .ctor, addr 0x3375120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3378ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x33750c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3378e88, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* signaturePolicyId);
 
-  /// @brief Method get_SignaturePolicyId, addr 0x3375128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignaturePolicyId, addr 0x3378ee8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* get_SignaturePolicyId();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

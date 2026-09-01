@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/EventSystems/PointerEventData.hpp"
+// IWYU pragma private; include "UnityEngine\EventSystems\PointerEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,7 +103,7 @@ public:
   static ::UnityEngine::EventSystems::PointerEventData_InputButton const Right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17535 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -166,7 +166,7 @@ public:
   static ::UnityEngine::EventSystems::PointerEventData_FramePressState const Released;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17536 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -373,15 +373,15 @@ public:
 
   __declspec(property(get = get_worldPosition, put = set_worldPosition)) ::UnityEngine::Vector3 worldPosition;
 
-  /// @brief Method IsPointerMoving, addr 0x6e108e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsPointerMoving, addr 0x6e1846c, size 0x20, virtual false, abstract: false, final false
   inline bool IsPointerMoving();
 
-  /// @brief Method IsScrolling, addr 0x6e10908, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsScrolling, addr 0x6e1848c, size 0x20, virtual false, abstract: false, final false
   inline bool IsScrolling();
 
   static inline ::UnityEngine::EventSystems::PointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x6e10ad8, size 0x754, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e1865c, size 0x754, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get__altitudeAngle_k__BackingField() const;
@@ -588,211 +588,211 @@ public:
 
   constexpr void __cordl_internal_set_m_PointerPress(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x6e107bc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e18340, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_altitudeAngle, addr 0x6e10714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_altitudeAngle, addr 0x6e18298, size 0x8, virtual false, abstract: false, final false
   inline float_t get_altitudeAngle();
 
-  /// @brief Method get_azimuthAngle, addr 0x6e10724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_azimuthAngle, addr 0x6e182a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_azimuthAngle();
 
-  /// @brief Method get_button, addr 0x6e106e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x6e18268, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::PointerEventData_InputButton get_button();
 
-  /// @brief Method get_clickCount, addr 0x6e1069c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickCount, addr 0x6e18220, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_clickCount();
 
-  /// @brief Method get_clickTime, addr 0x6e1068c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickTime, addr 0x6e18210, size 0x8, virtual false, abstract: false, final false
   inline float_t get_clickTime();
 
-  /// @brief Method get_delta, addr 0x6e1061c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x6e181a0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_delta();
 
-  /// @brief Method get_displayIndex, addr 0x6e105e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayIndex, addr 0x6e18168, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_displayIndex();
 
-  /// @brief Method get_dragging, addr 0x6e106d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragging, addr 0x6e18258, size 0x8, virtual false, abstract: false, final false
   inline bool get_dragging();
 
-  /// @brief Method get_eligibleForClick, addr 0x6e105d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eligibleForClick, addr 0x6e18158, size 0x8, virtual false, abstract: false, final false
   inline bool get_eligibleForClick();
 
-  /// @brief Method get_enterEventCamera, addr 0x6e10928, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_enterEventCamera, addr 0x6e184ac, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_enterEventCamera();
 
-  /// @brief Method get_fullyExited, addr 0x6e1079c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullyExited, addr 0x6e18320, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullyExited();
 
-  /// @brief Method get_lastPress, addr 0x6e1055c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastPress, addr 0x6e180e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_lastPress();
 
-  /// @brief Method get_penStatus, addr 0x6e1075c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_penStatus, addr 0x6e182e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PenStatus get_penStatus();
 
-  /// @brief Method get_pointerClick, addr 0x6e1058c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerClick, addr 0x6e18110, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerClick();
 
-  /// @brief Method get_pointerCurrentRaycast, addr 0x6e1059c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_pointerCurrentRaycast, addr 0x6e18120, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::RaycastResult get_pointerCurrentRaycast();
 
-  /// @brief Method get_pointerDrag, addr 0x6e1057c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerDrag, addr 0x6e18100, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerDrag();
 
-  /// @brief Method get_pointerEnter, addr 0x6e1054c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerEnter, addr 0x6e180d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerEnter();
 
-  /// @brief Method get_pointerId, addr 0x6e105f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerId, addr 0x6e18178, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_pointerId();
 
-  /// @brief Method get_pointerPress, addr 0x6e10a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerPress, addr 0x6e185d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerPress();
 
-  /// @brief Method get_pointerPressRaycast, addr 0x6e105b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_pointerPressRaycast, addr 0x6e1813c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::RaycastResult get_pointerPressRaycast();
 
-  /// @brief Method get_position, addr 0x6e10604, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x6e18188, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method get_pressEventCamera, addr 0x6e109bc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_pressEventCamera, addr 0x6e18540, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_pressEventCamera();
 
-  /// @brief Method get_pressPosition, addr 0x6e10634, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressPosition, addr 0x6e181b8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pressPosition();
 
-  /// @brief Method get_pressure, addr 0x6e106f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressure, addr 0x6e18278, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressure();
 
-  /// @brief Method get_radius, addr 0x6e1076c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x6e182f0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_radius();
 
-  /// @brief Method get_radiusVariance, addr 0x6e10784, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_radiusVariance, addr 0x6e18308, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_radiusVariance();
 
-  /// @brief Method get_rawPointerPress, addr 0x6e1056c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rawPointerPress, addr 0x6e180f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_rawPointerPress();
 
-  /// @brief Method get_reentered, addr 0x6e107ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reentered, addr 0x6e18330, size 0x8, virtual false, abstract: false, final false
   inline bool get_reentered();
 
-  /// @brief Method get_scrollDelta, addr 0x6e106ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_scrollDelta, addr 0x6e18230, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_scrollDelta();
 
-  /// @brief Method get_tangentialPressure, addr 0x6e10704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tangentialPressure, addr 0x6e18288, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tangentialPressure();
 
-  /// @brief Method get_tilt, addr 0x6e10744, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tilt, addr 0x6e182c8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_tilt();
 
-  /// @brief Method get_twist, addr 0x6e10734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_twist, addr 0x6e182b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_twist();
 
-  /// @brief Method get_useDragThreshold, addr 0x6e106c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useDragThreshold, addr 0x6e18248, size 0x8, virtual false, abstract: false, final false
   inline bool get_useDragThreshold();
 
-  /// @brief Method get_worldNormal, addr 0x6e1066c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_worldNormal, addr 0x6e181f0, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldNormal();
 
-  /// @brief Method get_worldPosition, addr 0x6e1064c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_worldPosition, addr 0x6e181d0, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldPosition();
 
-  /// @brief Method set_altitudeAngle, addr 0x6e1071c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_altitudeAngle, addr 0x6e182a0, size 0x8, virtual false, abstract: false, final false
   inline void set_altitudeAngle(float_t value);
 
-  /// @brief Method set_azimuthAngle, addr 0x6e1072c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_azimuthAngle, addr 0x6e182b0, size 0x8, virtual false, abstract: false, final false
   inline void set_azimuthAngle(float_t value);
 
-  /// @brief Method set_button, addr 0x6e106ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x6e18270, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::EventSystems::PointerEventData_InputButton value);
 
-  /// @brief Method set_clickCount, addr 0x6e106a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clickCount, addr 0x6e18228, size 0x8, virtual false, abstract: false, final false
   inline void set_clickCount(int32_t value);
 
-  /// @brief Method set_clickTime, addr 0x6e10694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clickTime, addr 0x6e18218, size 0x8, virtual false, abstract: false, final false
   inline void set_clickTime(float_t value);
 
-  /// @brief Method set_delta, addr 0x6e10628, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_delta, addr 0x6e181ac, size 0xc, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_displayIndex, addr 0x6e105ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayIndex, addr 0x6e18170, size 0x8, virtual false, abstract: false, final false
   inline void set_displayIndex(int32_t value);
 
-  /// @brief Method set_dragging, addr 0x6e106dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dragging, addr 0x6e18260, size 0x8, virtual false, abstract: false, final false
   inline void set_dragging(bool value);
 
-  /// @brief Method set_eligibleForClick, addr 0x6e105dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eligibleForClick, addr 0x6e18160, size 0x8, virtual false, abstract: false, final false
   inline void set_eligibleForClick(bool value);
 
-  /// @brief Method set_fullyExited, addr 0x6e107a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullyExited, addr 0x6e18328, size 0x8, virtual false, abstract: false, final false
   inline void set_fullyExited(bool value);
 
-  /// @brief Method set_lastPress, addr 0x6e10564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastPress, addr 0x6e180e8, size 0x8, virtual false, abstract: false, final false
   inline void set_lastPress(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_penStatus, addr 0x6e10764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_penStatus, addr 0x6e182e8, size 0x8, virtual false, abstract: false, final false
   inline void set_penStatus(::UnityEngine::PenStatus value);
 
-  /// @brief Method set_pointerClick, addr 0x6e10594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerClick, addr 0x6e18118, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerClick(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_pointerCurrentRaycast, addr 0x6e105ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pointerCurrentRaycast, addr 0x6e18130, size 0xc, virtual false, abstract: false, final false
   inline void set_pointerCurrentRaycast(::UnityEngine::EventSystems::RaycastResult value);
 
-  /// @brief Method set_pointerDrag, addr 0x6e10584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerDrag, addr 0x6e18108, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerDrag(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_pointerEnter, addr 0x6e10554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerEnter, addr 0x6e180d8, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerEnter(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_pointerId, addr 0x6e105fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerId, addr 0x6e18180, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerId(int32_t value);
 
-  /// @brief Method set_pointerPress, addr 0x6e10a58, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_pointerPress, addr 0x6e185dc, size 0x80, virtual false, abstract: false, final false
   inline void set_pointerPress(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_pointerPressRaycast, addr 0x6e105c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pointerPressRaycast, addr 0x6e1814c, size 0xc, virtual false, abstract: false, final false
   inline void set_pointerPressRaycast(::UnityEngine::EventSystems::RaycastResult value);
 
-  /// @brief Method set_position, addr 0x6e10610, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x6e18194, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_pressPosition, addr 0x6e10640, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pressPosition, addr 0x6e181c4, size 0xc, virtual false, abstract: false, final false
   inline void set_pressPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_pressure, addr 0x6e106fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressure, addr 0x6e18280, size 0x8, virtual false, abstract: false, final false
   inline void set_pressure(float_t value);
 
-  /// @brief Method set_radius, addr 0x6e10778, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x6e182fc, size 0xc, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_radiusVariance, addr 0x6e10790, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_radiusVariance, addr 0x6e18314, size 0xc, virtual false, abstract: false, final false
   inline void set_radiusVariance(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_rawPointerPress, addr 0x6e10574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rawPointerPress, addr 0x6e180f8, size 0x8, virtual false, abstract: false, final false
   inline void set_rawPointerPress(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_reentered, addr 0x6e107b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reentered, addr 0x6e18338, size 0x8, virtual false, abstract: false, final false
   inline void set_reentered(bool value);
 
-  /// @brief Method set_scrollDelta, addr 0x6e106b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_scrollDelta, addr 0x6e1823c, size 0xc, virtual false, abstract: false, final false
   inline void set_scrollDelta(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_tangentialPressure, addr 0x6e1070c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tangentialPressure, addr 0x6e18290, size 0x8, virtual false, abstract: false, final false
   inline void set_tangentialPressure(float_t value);
 
-  /// @brief Method set_tilt, addr 0x6e10750, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tilt, addr 0x6e182d4, size 0xc, virtual false, abstract: false, final false
   inline void set_tilt(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_twist, addr 0x6e1073c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_twist, addr 0x6e182c0, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(float_t value);
 
-  /// @brief Method set_useDragThreshold, addr 0x6e106cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useDragThreshold, addr 0x6e18250, size 0x8, virtual false, abstract: false, final false
   inline void set_useDragThreshold(bool value);
 
-  /// @brief Method set_worldNormal, addr 0x6e1067c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_worldNormal, addr 0x6e18200, size 0x10, virtual false, abstract: false, final false
   inline void set_worldNormal(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_worldPosition, addr 0x6e1065c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_worldPosition, addr 0x6e181e0, size 0x10, virtual false, abstract: false, final false
   inline void set_worldPosition(::UnityEngine::Vector3 value);
 
 protected:
@@ -810,7 +810,7 @@ public:
   PointerEventData(PointerEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17537 };
 
   /// @brief Field <pointerEnter>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____pointerEnter_k__BackingField;

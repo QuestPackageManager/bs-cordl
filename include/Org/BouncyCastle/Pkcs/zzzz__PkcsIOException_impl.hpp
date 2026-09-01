@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkcs/PkcsIOException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkcs\PkcsIOException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__PkcsIOException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::PkcsIOException::*)(::StringW)>(&::Org::BouncyCastle::Pkcs::PkcsIOException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35b74e4;
+  constexpr static std::size_t addrs = 0x35bb2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::PkcsIOException::*)(::StringW, ::System::Exception*)>(&::Org::BouncyCastle::Pkcs::PkcsIOException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35b6b5c;
+  constexpr static std::size_t addrs = 0x35ba91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

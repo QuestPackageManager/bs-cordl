@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Controls/AxisControl.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Controls\AxisControl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(&::UnityEngine::InputSystem::Controls::AxisControl::Preprocess)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64f2394;
+  constexpr static std::size_t addrs = 0x64f9e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(&::UnityEngine::InputSystem::Controls::AxisControl::Unpreprocess)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x64f2450;
+  constexpr static std::size_t addrs = 0x64f9ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(&::UnityEngine::InputSystem::Controls::AxisControl::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64f24cc;
+  constexpr static std::size_t addrs = 0x64f9f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::AxisControl*>(), { ".ctor", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(&::UnityEngine::InputSystem::Controls::AxisControl::FinishSetup)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x64f2550;
+  constexpr static std::size_t addrs = 0x64f9fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x64f263c;
+  constexpr static std::size_t addrs = 0x64fa0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t, void*)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64f27ac;
+  constexpr static std::size_t addrs = 0x64fa228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Controls::AxisControl::*)(void*, void*)>(&::UnityEngine::InputSystem::Controls::AxisControl::CompareValue)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x64f2894;
+  constexpr static std::size_t addrs = 0x64fa310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(void*)>(&::UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64f2988;
+  constexpr static std::size_t addrs = 0x64fa404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x64f29ec;
+  constexpr static std::size_t addrs = 0x64fa468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AxisControl::CalculateOptimizedControlDataType)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x64f2aa0;
+  constexpr static std::size_t addrs = 0x64fa51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

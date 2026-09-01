@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ArrayTypeMismatchException.hpp"
+// IWYU pragma private; include "System\ArrayTypeMismatchException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__ArrayTypeMismatchException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ArrayTypeMismatchException::*)()>(&::System::ArrayTypeMismatchException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5baa964;
+  constexpr static std::size_t addrs = 0x5baee20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ArrayTypeMismatchException*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ArrayTypeMismatchException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ArrayTypeMismatchException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5baa9c4;
+  constexpr static std::size_t addrs = 0x5baee80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

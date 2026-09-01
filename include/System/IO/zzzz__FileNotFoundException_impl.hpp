@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/FileNotFoundException.hpp"
+// IWYU pragma private; include "System\IO\FileNotFoundException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "System/IO/zzzz__FileNotFoundException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::FileNotFoundException::*)()>(&::System::IO::FileNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5bf2838;
+  constexpr static std::size_t addrs = 0x5bf6cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::FileNotFoundException*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::FileNotFoundException::*)(::StringW)>(&::System::IO::FileNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5bf2898;
+  constexpr static std::size_t addrs = 0x5bf6d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::FileNotFoundException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::FileNotFoundException::*)(::StringW, ::StringW)>(&::System::IO::FileNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5bf28bc;
+  constexpr static std::size_t addrs = 0x5bf6d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IO::FileNotFoundException::*)()>(&::System::IO::FileNotFoundException::get_Message)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5bf28f0;
+  constexpr static std::size_t addrs = 0x5bf6dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::FileNotFoundException::*)()>(&::System::IO::FileNotFoundException::SetMessageField)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5bf2908;
+  constexpr static std::size_t addrs = 0x5bf6dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::FileNotFoundException*>(), { "SetMessageField", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IO::FileNotFoundException::*)()>(&::System::IO::FileNotFoundException::get_FileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf2980;
+  constexpr static std::size_t addrs = 0x5bf6e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::FileNotFoundException*>(), { "get_FileName", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IO::FileNotFoundException::*)()>(&::System::IO::FileNotFoundException::get_FusionLog)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf2988;
+  constexpr static std::size_t addrs = 0x5bf6e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::FileNotFoundException*>(), { "get_FusionLog", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::IO::FileNotFoundException::*)()>(&::System::IO::FileNotFoundException::ToString)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5bf2990;
+  constexpr static std::size_t addrs = 0x5bf6e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::FileNotFoundException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::IO::FileNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5bf2b84;
+  constexpr static std::size_t addrs = 0x5bf7040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::FileNotFoundException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::IO::FileNotFoundException::GetObjectData)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5bf2c44;
+  constexpr static std::size_t addrs = 0x5bf7100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

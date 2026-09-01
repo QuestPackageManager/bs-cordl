@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRPointerVisualizer.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRPointerVisualizer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::OVRPointerVisualizer* New_ctor();
 
-  /// @brief Method Update, addr 0x5eba99c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ebee58, size 0x20c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_linePointer() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_rayTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5ebaba8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ebf064, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   OVRPointerVisualizer(OVRPointerVisualizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7647 };
 
   /// @brief Field rayTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___rayTransform;

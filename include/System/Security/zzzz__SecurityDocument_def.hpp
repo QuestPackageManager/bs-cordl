@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/SecurityDocument.hpp"
+// IWYU pragma private; include "System\Security\SecurityDocument.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,31 +28,31 @@ public:
   /// @brief Field m_data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_data, put = __cordl_internal_set_m_data)) ::ArrayW<uint8_t> m_data;
 
-  /// @brief Method AddString, addr 0x5ae9e8c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AddString, addr 0x5aee348, size 0x144, virtual false, abstract: false, final false
   inline void AddString(::StringW str, ::by_ref<int32_t> position);
 
-  /// @brief Method AddToken, addr 0x5aea578, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddToken, addr 0x5aeea34, size 0x5c, virtual false, abstract: false, final false
   inline void AddToken(uint8_t b, ::by_ref<int32_t> position);
 
-  /// @brief Method AppendString, addr 0x5ae9fd0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AppendString, addr 0x5aee48c, size 0x8c, virtual false, abstract: false, final false
   inline void AppendString(::StringW str, ::by_ref<int32_t> position);
 
-  /// @brief Method EncodedStringSize, addr 0x5aea05c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method EncodedStringSize, addr 0x5aee518, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t EncodedStringSize(::StringW str);
 
-  /// @brief Method GetElement, addr 0x5aea5f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x5aeeaac, size 0x18, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* GetElement(int32_t position, bool bCreate);
 
-  /// @brief Method GetRootElement, addr 0x5aea5d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRootElement, addr 0x5aeea90, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* GetRootElement();
 
-  /// @brief Method GetString, addr 0x5aea078, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x5aee534, size 0x2ec, virtual false, abstract: false, final false
   inline ::StringW GetString(::by_ref<int32_t> position, bool bCreate);
 
-  /// @brief Method GuaranteeSize, addr 0x5ae9ddc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GuaranteeSize, addr 0x5aee298, size 0xb0, virtual false, abstract: false, final false
   inline void GuaranteeSize(int32_t size);
 
-  /// @brief Method InternalGetElement, addr 0x5aea608, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetElement, addr 0x5aeeac4, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* InternalGetElement(::by_ref<int32_t> position, bool bCreate);
 
   static inline ::System::Security::SecurityDocument* New_ctor(int32_t numData);
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_m_data(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x5ae9d7c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aee238, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t numData);
 
 protected:

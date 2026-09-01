@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CurrentPipelineHelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CurrentPipelineHelpURLAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__pageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x678017c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6787bf8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW pageHash);
 
-  /// @brief Method get_URL, addr 0x67801e4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_URL, addr 0x6787c60, size 0x14, virtual true, abstract: false, final false
   inline ::StringW get_URL();
 
-  /// @brief Method get_pageHash, addr 0x6780174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageHash, addr 0x6787bf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pageHash();
 
-  /// @brief Method get_pageName, addr 0x678016c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageName, addr 0x6787be8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pageName();
 
 protected:
@@ -73,7 +73,7 @@ public:
   CurrentPipelineHelpURLAttribute(CurrentPipelineHelpURLAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12069 };
 
   /// @brief Field <pageName>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::StringW ____pageName_k__BackingField;

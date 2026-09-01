@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AssemblyInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace\AssemblyInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ public:
 
   static inline ::GlobalNamespace::AssemblyInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3653ae8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36578a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_version();
 
-  /// @brief Method get_Version, addr 0x365394c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x365770c, size 0x150, virtual false, abstract: false, final false
   static inline ::StringW get_Version();
 
   static inline void setStaticF_version(::StringW value);

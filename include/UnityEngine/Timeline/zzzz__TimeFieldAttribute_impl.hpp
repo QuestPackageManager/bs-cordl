@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/TimeFieldAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\TimeFieldAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimeFieldAttribute_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimeFieldAttribute_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode (::UnityEngine::Timeline::TimeFieldAttribute::*)()>(
     &::UnityEngine::Timeline::TimeFieldAttribute::get_useEditMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c39bc;
+  constexpr static std::size_t addrs = 0x69cb438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimeFieldAttribute*>(), { "get_useEditMode", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeFieldAttribute::*)(::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode)>(
     &::UnityEngine::Timeline::TimeFieldAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69c39c4;
+  constexpr static std::size_t addrs = 0x69cb440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimeFieldAttribute*>(),

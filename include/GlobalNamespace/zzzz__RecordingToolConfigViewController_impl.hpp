@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RecordingToolConfigViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\RecordingToolConfigViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigViewController_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolConfigViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::RecordingToolConfigViewController::DidActivate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5a15458;
+  constexpr static std::size_t addrs = 0x5a1d564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolConfigViewController*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolConfigViewController::*)()>(&::GlobalNamespace::RecordingToolConfigViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a154f0;
+  constexpr static std::size_t addrs = 0x5a1d5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolConfigViewController*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IBitMaskUtil.hpp"
+// IWYU pragma private; include "GlobalNamespace\IBitMaskUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ public:
   /// @brief Method FromBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FromBytes(::ArrayW<uint8_t> bytes, int32_t offset);
 
-  /// @brief Method GetBase64Char, addr 0x3777a6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBase64Char, addr 0x377d7f4, size 0x44, virtual false, abstract: false, final false
   static inline char16_t GetBase64Char(uint64_t digit);
 
-  /// @brief Method GetBase64Digit, addr 0x3777a10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetBase64Digit, addr 0x377d798, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t GetBase64Digit(char16_t c);
 
-  /// @brief Method GetHexDigit, addr 0x37779d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetHexDigit, addr 0x377d760, size 0x38, virtual false, abstract: false, final false
   static inline uint32_t GetHexDigit(char16_t c);
 
   /// @brief Method NumberOfSetBits, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -64,7 +64,7 @@ public:
   IBitMaskUtil(IBitMaskUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21180 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

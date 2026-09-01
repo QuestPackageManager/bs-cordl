@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Automation/PerformanceToolLauncherOverrideConfig.hpp"
+// IWYU pragma private; include "BeatSaber\Automation\PerformanceToolLauncherOverrideConfig.hpp"
 #include "BeatSaber/Automation/zzzz__PerformanceToolLauncherOverrideConfig_def.hpp"
 inline void BeatSaber::Automation::PerformanceToolLauncherOverrideConfig::setStaticF_kDefault(::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig value) {
   ::cordl_internals::setStaticField<::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig, "kDefault", ::BeatSaber::Automation::PerformanceToolLauncherOverrideConfig>(

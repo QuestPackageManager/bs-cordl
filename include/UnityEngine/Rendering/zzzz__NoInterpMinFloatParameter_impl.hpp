@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/NoInterpMinFloatParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\NoInterpMinFloatParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpMinFloatParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::NoInterpMinFloatParameter.get_value
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::NoInterpMinFloatParameter::*)()>(&::UnityEngine::Rendering::NoInterpMinFloatParameter::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c52b8;
+  constexpr static std::size_t addrs = 0x67ccd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpMinFloatParameter*>(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpMinFloatParameter::*)(float_t)>(&::UnityEngine::Rendering::NoInterpMinFloatParameter::set_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c52c0;
+  constexpr static std::size_t addrs = 0x67ccd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpMinFloatParameter*>(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpMinFloatParameter::*)(float_t, float_t, bool)>(
     &::UnityEngine::Rendering::NoInterpMinFloatParameter::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x67c52d4;
+  constexpr static std::size_t addrs = 0x67ccd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpMinFloatParameter*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/EncryptedPrivateKeyInfo.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\EncryptedPrivateKeyInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,17 +44,17 @@ public:
   /// @brief Field data, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::Org::BouncyCastle::Asn1::Asn1OctetString* data;
 
-  /// @brief Method GetEncryptedData, addr 0x345e664, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedData, addr 0x3462424, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncryptedData();
 
-  /// @brief Method GetInstance, addr 0x345e4d8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3462298, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t> encoding);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x345e680, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3462440, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algId() const;
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x345e468, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3462228, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t> encoding);
 
-  /// @brief Method .ctor, addr 0x345e390, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3462150, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_EncryptionAlgorithm, addr 0x345e65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithm, addr 0x346241c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutDataStore.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutDataStore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,16 +92,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6cfb7b0, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6d03334, size 0xd8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetComponentDataPtr, addr 0x6cfb8ec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetComponentDataPtr, addr 0x6d03470, size 0x34, virtual false, abstract: false, final false
   inline uint8_t* GetComponentDataPtr(int32_t index);
 
-  /// @brief Method ResizeCapacity, addr 0x6cfbcb8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ResizeCapacity, addr 0x6d0383c, size 0x1c8, virtual false, abstract: false, final false
   inline void ResizeCapacity(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x6cfb638, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d031bc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, ::Unity::Collections::Allocator allocator);
 
   /// @brief Convert to "::System::IDisposable"
@@ -233,40 +233,40 @@ public:
   template <typename T0, typename T1, typename T2, typename T3>
   inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(::by_ref<T0> component0, ::by_ref<T1> component1, ::by_ref<T2> component2, ::by_ref<T3> component3);
 
-  /// @brief Method Allocate, addr 0x6cfb920, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6d034a4, size 0x1e4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutHandle Allocate(uint8_t* data, int32_t count);
 
-  /// @brief Method Dispose, addr 0x6cf734c, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cfeed0, size 0x100, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Exists, addr 0x6cfb888, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x6d0340c, size 0x40, virtual false, abstract: false, final false
   inline bool Exists(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
 
-  /// @brief Method Free, addr 0x6cf74dc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6cff060, size 0xf8, virtual false, abstract: false, final false
   inline void Free(::by_ref<::UnityEngine::UIElements::Layout::LayoutHandle> handle);
 
-  /// @brief Method GetComponentDataPtr, addr 0x6cfb8c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetComponentDataPtr, addr 0x6d0344c, size 0x24, virtual false, abstract: false, final false
   inline void* GetComponentDataPtr(int32_t index, int32_t componentIndex);
 
-  /// @brief Method GetNextFreeIndex, addr 0x6cfbb04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNextFreeIndex, addr 0x6d03688, size 0x14, virtual false, abstract: false, final false
   static inline int32_t GetNextFreeIndex(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* ptr, int32_t index);
 
-  /// @brief Method IncreaseCapacity, addr 0x6cfbb18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x6d0369c, size 0x3c, virtual false, abstract: false, final false
   inline void IncreaseCapacity();
 
-  /// @brief Method ResizeArray, addr 0x6cfbb6c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ResizeArray, addr 0x6d036f0, size 0x14c, virtual false, abstract: false, final false
   static inline void* ResizeArray(void* fromPtr, int64_t fromCount, int64_t toCount, int64_t size, int32_t align, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method ResizeCapacity, addr 0x6cfb650, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ResizeCapacity, addr 0x6d031d4, size 0x160, virtual false, abstract: false, final false
   inline void ResizeCapacity(int32_t capacity);
 
-  /// @brief Method SetNextFreeIndex, addr 0x6cfbb54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetNextFreeIndex, addr 0x6d036d8, size 0x18, virtual false, abstract: false, final false
   static inline void SetNextFreeIndex(::UnityEngine::UIElements::Layout::LayoutDataStore_ComponentDataStore* ptr, int32_t index, int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cf6f7c, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfeb00, size 0x30c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::UIElements::Layout::ComponentType> components, int32_t initialCapacity, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method get_IsValid, addr 0x6cfb238, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x6d02dbc, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
   /// @brief Convert to "::System::IDisposable"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlAttributeAttribute.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlAttributeAttribute.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaForm_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlAttributeAttribute_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlAttributeAttribute::*)(::StringW)>(&::System::Xml::Serialization::XmlAttributeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62eb39c;
+  constexpr static std::size_t addrs = 0x62f2e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlAttributeAttribute::*)()>(&::System::Xml::Serialization::XmlAttributeAttribute::get_AttributeName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62eb3a4;
+  constexpr static std::size_t addrs = 0x62f2e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlAttributeAttribute*>(), { "get_AttributeName", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlAttributeAttribute::*)()>(&::System::Xml::Serialization::XmlAttributeAttribute::get_DataType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62eb3c4;
+  constexpr static std::size_t addrs = 0x62f2e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlAttributeAttribute*>(), { "get_DataType", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlAttributeAttribute::*)(::StringW)>(&::System::Xml::Serialization::XmlAttributeAttribute::set_DataType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62eb3e4;
+  constexpr static std::size_t addrs = 0x62f2e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaForm (::System::Xml::Serialization::XmlAttributeAttribute::*)()>(
     &::System::Xml::Serialization::XmlAttributeAttribute::get_Form)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62eb3ec;
+  constexpr static std::size_t addrs = 0x62f2e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlAttributeAttribute*>(), { "get_Form", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlAttributeAttribute::*)()>(&::System::Xml::Serialization::XmlAttributeAttribute::get_Namespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62eb3f4;
+  constexpr static std::size_t addrs = 0x62f2e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlAttributeAttribute*>(), { "get_Namespace", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlAttributeAttribute::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::Serialization::XmlAttributeAttribute::AddKeyHash)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x62eb3fc;
+  constexpr static std::size_t addrs = 0x62f2e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

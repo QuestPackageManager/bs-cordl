@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/DllImportAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\DllImportAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,10 +63,10 @@ public:
   /// @brief Field _val, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val)) ::StringW _val;
 
-  /// @brief Method GetCustomAttribute, addr 0x5b67ff0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x5b6c4ac, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::RuntimeMethodInfo* method);
 
-  /// @brief Method IsDefined, addr 0x5b680e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x5b6c5a0, size 0x28, virtual false, abstract: false, final false
   static inline bool IsDefined(::System::Reflection::RuntimeMethodInfo* method);
 
   static inline ::System::Runtime::InteropServices::DllImportAttribute* New_ctor(::StringW dllName);
@@ -129,14 +129,14 @@ public:
 
   constexpr void __cordl_internal_set__val(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b6810c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6c5c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW dllName);
 
-  /// @brief Method .ctor, addr 0x5b680b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6c574, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig,
                     ::System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar);
 
-  /// @brief Method get_Value, addr 0x5b68114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5b6c5d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:

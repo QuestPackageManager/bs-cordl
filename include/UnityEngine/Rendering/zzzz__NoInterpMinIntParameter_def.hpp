@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/NoInterpMinIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\NoInterpMinIntParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set_min(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67c4f4c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cc9c8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int32_t value, int32_t min, bool overrideState);
 
-  /// @brief Method get_value, addr 0x67c4f30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x67cc9ac, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method set_value, addr 0x67c4f38, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x67cc9b4, size 0x14, virtual true, abstract: false, final false
   inline void set_value(int32_t value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   NoInterpMinIntParameter(NoInterpMinIntParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12340 };
 
   /// @brief Field min, offset: 0x18, size: 0x4, def value: None
   int32_t ___min;

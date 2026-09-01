@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RoomAdjustSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\RoomAdjustSettingsViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__RoomAdjustSettingsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::RoomAdjustSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x5a19878;
+  constexpr static std::size_t addrs = 0x5a2196c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomAdjustSettingsViewController*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::RoomAdjustSettingsViewController::Move)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a19e64;
+  constexpr static std::size_t addrs = 0x5a21f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)(float_t)>(&::GlobalNamespace::RoomAdjustSettingsViewController::Rotate)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a19ec0;
+  constexpr static std::size_t addrs = 0x5a21fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::ResetRoom)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a19f20;
+  constexpr static std::size_t addrs = 0x5a22014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomAdjustSettingsViewController*>(), { "ResetRoom", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::RefreshTexts)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5a19cf0;
+  constexpr static std::size_t addrs = 0x5a21de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomAdjustSettingsViewController*>(), { "RefreshTexts", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)(::GlobalNamespace::StepValuePicker*, float_t)>(
     &::GlobalNamespace::RoomAdjustSettingsViewController::RefreshRoomOffsetValuePicker)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5a19f70;
+  constexpr static std::size_t addrs = 0x5a22064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1a044;
+  constexpr static std::size_t addrs = 0x5a22138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RoomAdjustSettingsViewController*>(), { ".ctor", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a1a048;
+  constexpr static std::size_t addrs = 0x5a2213c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a1a05c;
+  constexpr static std::size_t addrs = 0x5a22150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a1a070;
+  constexpr static std::size_t addrs = 0x5a22164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_3)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a1a084;
+  constexpr static std::size_t addrs = 0x5a22178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_4)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a1a098;
+  constexpr static std::size_t addrs = 0x5a2218c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_5)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a1a0ac;
+  constexpr static std::size_t addrs = 0x5a221a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a1a0c0;
+  constexpr static std::size_t addrs = 0x5a221b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a1a0c8;
+  constexpr static std::size_t addrs = 0x5a221bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(&::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_8)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1a0d0;
+  constexpr static std::size_t addrs = 0x5a221c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

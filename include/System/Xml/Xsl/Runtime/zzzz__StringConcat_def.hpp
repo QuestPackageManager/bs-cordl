@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Xsl/Runtime/StringConcat.hpp"
+// IWYU pragma private; include "System\Xml\Xsl\Runtime\StringConcat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,16 +26,16 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Clear, addr 0x630ecf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x631676c, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ConcatNoDelimiter, addr 0x630edf8, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ConcatNoDelimiter, addr 0x6316874, size 0x2c8, virtual false, abstract: false, final false
   inline void ConcatNoDelimiter(::StringW s);
 
-  /// @brief Method GetResult, addr 0x630ed04, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x6316780, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetResult();
 
-  /// @brief Method get_Count, addr 0x630ecfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6316778, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   // Ctor Parameters []
@@ -49,7 +49,7 @@ public:
   constexpr StringConcat(::StringW s1, ::StringW s2, ::StringW s3, ::StringW s4, ::StringW delimiter, ::System::Collections::Generic::List_1<::StringW>* strList, int32_t idxStr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9564 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x34819b0;
+  constexpr static std::size_t addrs = 0x3485770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::TlsException*>(),

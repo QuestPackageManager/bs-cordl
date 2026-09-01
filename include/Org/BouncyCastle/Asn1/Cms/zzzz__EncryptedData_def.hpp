@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/EncryptedData.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\EncryptedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x3355158, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3358f18, size 0x170, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encInfo);
@@ -61,7 +61,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x33555d8, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3359398, size 0x17c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* const& __cordl_internal_get_encryptedContentInfo() const;
@@ -82,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x33554e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33592a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encInfo);
 
-  /// @brief Method .ctor, addr 0x33554ec, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33592ac, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* encInfo, ::Org::BouncyCastle::Asn1::Asn1Set* unprotectedAttrs);
 
-  /// @brief Method .ctor, addr 0x33552c8, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3359088, size 0x21c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_EncryptedContentInfo, addr 0x33555c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EncryptedContentInfo, addr 0x3359388, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* get_EncryptedContentInfo();
 
-  /// @brief Method get_UnprotectedAttrs, addr 0x33555d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UnprotectedAttrs, addr 0x3359390, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_UnprotectedAttrs();
 
-  /// @brief Method get_Version, addr 0x33555c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3359380, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

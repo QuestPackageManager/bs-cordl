@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HealthWarningScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\HealthWarningScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningScenesTransitionSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningSceneSetupData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningScenesTransitionSetupData::*)(::GlobalNamespace::HealthWarningSceneSetupData*)>(
     &::GlobalNamespace::HealthWarningScenesTransitionSetupData::Init)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x590b714;
+  constexpr static std::size_t addrs = 0x590ebec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningScenesTransitionSetupData*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningScenesTransitionSetupData::*)()>(&::GlobalNamespace::HealthWarningScenesTransitionSetupData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x590b7d8;
+  constexpr static std::size_t addrs = 0x590ecb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningScenesTransitionSetupData*>(), { ".ctor", {}, {} })));

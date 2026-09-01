@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/XRRenderScaleRenderingFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace\XRRenderScaleRenderingFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
   /// @brief Field _pass, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__pass, put = __cordl_internal_set__pass)) ::GlobalNamespace::XRRenderScaleRenderPass* _pass;
 
-  /// @brief Method AddRenderPasses, addr 0x5f4b308, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x5f52c7c, size 0x50, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x5f4b24c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x5f52bc0, size 0x58, virtual true, abstract: false, final false
   inline void Create();
 
   static inline ::GlobalNamespace::XRRenderScaleRenderingFeature* New_ctor();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__pass(::GlobalNamespace::XRRenderScaleRenderPass* value);
 
-  /// @brief Method .ctor, addr 0x5f4b358, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f52ccc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   XRRenderScaleRenderingFeature(XRRenderScaleRenderingFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20705 };
 
   /// @brief Field _pass, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::XRRenderScaleRenderPass* ____pass;

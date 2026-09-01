@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DomainReloadInitOutsourceAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\DomainReloadInitOutsourceAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__OutsourceType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3307628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330b424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* outsourceType);
 
-  /// @brief Method get_OutsourceType, addr 0x3307630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OutsourceType, addr 0x330b42c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_OutsourceType();
 
 protected:
@@ -56,7 +56,7 @@ public:
   DomainReloadInitOutsourceAttribute(DomainReloadInitOutsourceAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23505 };
 
   /// @brief Field <OutsourceType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____OutsourceType_k__BackingField;

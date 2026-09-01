@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/UInt16Converter.hpp"
+// IWYU pragma private; include "System\ComponentModel\UInt16Converter.hpp"
 #include "System/ComponentModel/zzzz__BaseNumberConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__UInt16Converter_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::UInt16Converter::*)()>(&::System::ComponentModel::UInt16Converter::get_TargetType)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63c2238;
+  constexpr static std::size_t addrs = 0x63c9cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::UInt16Converter::*)(::StringW, int32_t)>(&::System::ComponentModel::UInt16Converter::FromString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x63c2268;
+  constexpr static std::size_t addrs = 0x63c9ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::UInt16Converter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(
     &::System::ComponentModel::UInt16Converter::FromString)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x63c22f0;
+  constexpr static std::size_t addrs = 0x63c9d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::UInt16Converter::*)(::System::Object*, ::System::Globalization::NumberFormatInfo*)>(
     &::System::ComponentModel::UInt16Converter::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x63c2324;
+  constexpr static std::size_t addrs = 0x63c9da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::UInt16Converter::*)()>(&::System::ComponentModel::UInt16Converter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63c23bc;
+  constexpr static std::size_t addrs = 0x63c9e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::UInt16Converter*>(), { ".ctor", {}, {} })));

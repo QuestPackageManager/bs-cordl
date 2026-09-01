@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Analytics/BaseAnalyticsEvent.hpp"
+// IWYU pragma private; include "OSCE\Analytics\BaseAnalyticsEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OSCE/Analytics/zzzz__BaseAnalyticsEvent_def.hpp"
 #include "GlobalNamespace/zzzz__IDType_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::get_logger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f350f4;
+  constexpr static std::size_t addrs = 0x5f39560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::BaseAnalyticsEvent*>(), { "get_logger", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)(::StringW)>(&::OSCE::Analytics::BaseAnalyticsEvent::set_logger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f350fc;
+  constexpr static std::size_t addrs = 0x5f39568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::get_CreatedByPool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35104;
+  constexpr static std::size_t addrs = 0x5f39570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::BaseAnalyticsEvent*>(), { "get_CreatedByPool", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)(bool)>(&::OSCE::Analytics::BaseAnalyticsEvent::set_CreatedByPool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3510c;
+  constexpr static std::size_t addrs = 0x5f39578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IDType (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::GetIDType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35114;
+  constexpr static std::size_t addrs = 0x5f39580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::EventRequiresAnalyticsID)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f3511c;
+  constexpr static std::size_t addrs = 0x5f39588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5f3513c;
+  constexpr static std::size_t addrs = 0x5f395a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::ReturnEventToPool)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f3518c;
+  constexpr static std::size_t addrs = 0x5f395f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OSCE::Analytics::LoggerAnalyticsEvent (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(
     &::OSCE::Analytics::BaseAnalyticsEvent::ConvertToLoggerEvent)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f351fc;
+  constexpr static std::size_t addrs = 0x5f39668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*, int32_t)>(
     &::OSCE::Analytics::BaseAnalyticsEvent::ApplyTime)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f35268;
+  constexpr static std::size_t addrs = 0x5f396d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::OSCE::Analytics::BaseAnalyticsEvent::ApplyBasicFields)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5f352e8;
+  constexpr static std::size_t addrs = 0x5f39754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::BaseAnalyticsEvent::*)()>(&::OSCE::Analytics::BaseAnalyticsEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f35314;
+  constexpr static std::size_t addrs = 0x5f39780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::BaseAnalyticsEvent*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXHierarchyAttributeMapBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXHierarchyAttributeMapBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +86,7 @@ public:
   static ::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_RadiusMode const Interpolate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19989 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -118,7 +118,7 @@ public:
   constexpr VFXHierarchyAttributeMapBinder_Bone(::UnityW<::UnityEngine::Transform> source, float_t sourceRadius, ::UnityW<::UnityEngine::Transform> target, float_t targetRadius) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19990 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -197,30 +197,30 @@ public:
   /// @brief Field targetPosition, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_targetPosition, put = __cordl_internal_set_targetPosition)) ::UnityW<::UnityEngine::Texture2D> targetPosition;
 
-  /// @brief Method ChildrenOf, addr 0x69db208, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method ChildrenOf, addr 0x69e2c84, size 0x470, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_Bone>* ChildrenOf(::UnityEngine::Transform* source, uint32_t depth);
 
-  /// @brief Method IsValid, addr 0x69dba88, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69e3504, size 0xfc, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69db0e0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x69e2b5c, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x69db204, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x69e2c80, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method ToString, addr 0x69dbc54, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69e36d0, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69dbb84, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69e3600, size 0xd0, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
-  /// @brief Method UpdateData, addr 0x69db678, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method UpdateData, addr 0x69e30f4, size 0x410, virtual false, abstract: false, final false
   inline void UpdateData();
 
-  /// @brief Method UpdateHierarchy, addr 0x69db0fc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UpdateHierarchy, addr 0x69e2b78, size 0x108, virtual false, abstract: false, final false
   inline void UpdateHierarchy();
 
   constexpr float_t const& __cordl_internal_get_DefaultRadius() const;
@@ -295,7 +295,7 @@ public:
 
   constexpr void __cordl_internal_set_targetPosition(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x69dbd48, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e37c4, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -313,7 +313,7 @@ public:
   VFXHierarchyAttributeMapBinder(VFXHierarchyAttributeMapBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19991 };
 
   /// @brief Field m_BoneCount, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_BoneCount;

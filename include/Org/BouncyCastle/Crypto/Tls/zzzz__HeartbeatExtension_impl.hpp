@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/HeartbeatExtension.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\HeartbeatExtension.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__HeartbeatExtension_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3467930;
+  constexpr static std::size_t addrs = 0x346b6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::*)()>(&::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::get_Mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34679c0;
+  constexpr static std::size_t addrs = 0x346b780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::Encode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x34679c8;
+  constexpr static std::size_t addrs = 0x346b788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension* (*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension::Parse)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3467a48;
+  constexpr static std::size_t addrs = 0x346b808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

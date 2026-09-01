@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/CultureTypes.hpp"
+// IWYU pragma private; include "System\Globalization\CultureTypes.hpp"
 #include "System/Globalization/zzzz__CultureTypes_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Globalization::CultureTypes::CultureTypes(int32_t value__) noexcept {

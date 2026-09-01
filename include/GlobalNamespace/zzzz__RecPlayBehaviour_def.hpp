@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RecPlayBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace\RecPlayBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,55 +100,55 @@ public:
   /// @brief Field _vrCenterAdjust, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__vrCenterAdjust, put = __cordl_internal_set__vrCenterAdjust)) ::UnityW<::GlobalNamespace::VRCenterAdjust> _vrCenterAdjust;
 
-  /// @brief Method CleanUp, addr 0x58f86d4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x58fbc9c, size 0x10c, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method Configure, addr 0x58f853c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Configure, addr 0x58fbb04, size 0x198, virtual false, abstract: false, final false
   inline void Configure();
 
-  /// @brief Method CreateAutoLevelRecording, addr 0x58f7de8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CreateAutoLevelRecording, addr 0x58fb3b0, size 0x160, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreateAutoLevelRecording(::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetup,
                                                                                 ::GlobalNamespace::BeatmapObjectSpawnController* beatmapSpawnerController);
 
-  /// @brief Method CreateRecordingPath, addr 0x58f7ac8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method CreateRecordingPath, addr 0x58fb090, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW CreateRecordingPath(::GlobalNamespace::BeatmapKey key);
 
-  /// @brief Method Init, addr 0x58f79b0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58faf78, size 0x118, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetup, ::GlobalNamespace::BeatmapObjectSpawnController* beatmapSpawnerController);
 
-  /// @brief Method LateUpdate, addr 0x58f8808, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x58fbdd0, size 0x10, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LoadLevelRecording, addr 0x58f7c7c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method LoadLevelRecording, addr 0x58fb244, size 0x16c, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PlayerPoseFrames LoadLevelRecording(::StringW path);
 
   static inline ::GlobalNamespace::RecPlayBehaviour* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58f881c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58fbde4, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x58f8818, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58fbde0, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Play, addr 0x58f7f48, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x58fb510, size 0x304, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Record, addr 0x58f82b0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Record, addr 0x58fb878, size 0xcc, virtual false, abstract: false, final false
   inline void Record();
 
-  /// @brief Method SavePlayerPoseFrames, addr 0x58f846c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SavePlayerPoseFrames, addr 0x58fba34, size 0xd0, virtual false, abstract: false, final false
   static inline void SavePlayerPoseFrames(::StringW path, ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames> frames);
 
-  /// @brief Method SaveRecording, addr 0x58f83e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SaveRecording, addr 0x58fb9a8, size 0x8c, virtual false, abstract: false, final false
   inline void SaveRecording();
 
-  /// @brief Method Update, addr 0x58f87e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58fbda8, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <Play>g__ExtractLocalPose|13_0, addr 0x58f824c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <Play>g__ExtractLocalPose|13_0, addr 0x58fb814, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose _Play_g__ExtractLocalPose_13_0(::UnityEngine::Transform* transform);
 
-  /// @brief Method <Record>g__ExtractGlobalPose|14_0, addr 0x58f837c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <Record>g__ExtractGlobalPose|14_0, addr 0x58fb944, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose _Record_g__ExtractGlobalPose_14_0(::UnityEngine::Transform* transform);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -223,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set__vrCenterAdjust(::UnityW<::GlobalNamespace::VRCenterAdjust> value);
 
-  /// @brief Method .ctor, addr 0x58f8834, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fbdfc, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -241,7 +241,7 @@ public:
   RecPlayBehaviour(RecPlayBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6631 };
 
   /// @brief Field _beatmapCallbacksController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;

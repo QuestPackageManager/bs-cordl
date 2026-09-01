@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IPreviewMediaData.hpp"
+// IWYU pragma private; include "GlobalNamespace\IPreviewMediaData.hpp"
 #include "GlobalNamespace/zzzz__IPreviewMediaData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"

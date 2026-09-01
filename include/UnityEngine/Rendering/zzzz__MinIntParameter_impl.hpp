@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/MinIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\MinIntParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__IntParameter_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MinIntParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::MinIntParameter.get_value
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::MinIntParameter::*)()>(&::UnityEngine::Rendering::MinIntParameter::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c4eec;
+  constexpr static std::size_t addrs = 0x67cc968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MinIntParameter::*)(int32_t)>(&::UnityEngine::Rendering::MinIntParameter::set_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c4ef4;
+  constexpr static std::size_t addrs = 0x67cc970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MinIntParameter::*)(int32_t, int32_t, bool)>(&::UnityEngine::Rendering::MinIntParameter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x67c4f08;
+  constexpr static std::size_t addrs = 0x67cc984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MinIntParameter*>(),

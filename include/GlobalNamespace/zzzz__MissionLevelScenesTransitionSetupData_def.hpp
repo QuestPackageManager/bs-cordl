@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionLevelScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionLevelScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,10 +85,10 @@ public:
 
   __declspec(property(get = get_missionId, put = set_missionId)) ::StringW missionId;
 
-  /// @brief Method Finish, addr 0x596f3f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5972cbc, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::MissionCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x596eff8, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59728c0, size 0x3fc, virtual false, abstract: false, final false
   inline void Init(::StringW missionId, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::ArrayW<::GlobalNamespace::MissionObjective*> missionObjectives,
                    ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
@@ -117,25 +117,25 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x596f41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5972ce4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x596ee54, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x597271c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method get_beatmapKey, addr 0x596efe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x59728ac, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_missionId, addr 0x596efd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x597289c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method remove_didFinishEvent, addr 0x596ef14, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x59727dc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method set_beatmapKey, addr 0x596eff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x59728b8, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method set_missionId, addr 0x596efdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionId, addr 0x59728a4, size 0x8, virtual false, abstract: false, final false
   inline void set_missionId(::StringW value);
 
 protected:
@@ -153,7 +153,7 @@ public:
   MissionLevelScenesTransitionSetupData(MissionLevelScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7028 };
 
   /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>* ___didFinishEvent;

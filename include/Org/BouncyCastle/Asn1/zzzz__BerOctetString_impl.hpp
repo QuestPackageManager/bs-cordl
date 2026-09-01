@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerOctetString.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerOctetString.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOctetString_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3686218;
+  constexpr static std::size_t addrs = 0x3689fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::*)()>(
     &::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x368664c;
+  constexpr static std::size_t addrs = 0x368a40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>(), { "get_Current", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::*)()>(&::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3686690;
+  constexpr static std::size_t addrs = 0x368a450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>(), { "MoveNext", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::*)()>(&::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36867bc;
+  constexpr static std::size_t addrs = 0x368a57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>(), { "Reset", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::BerOctetString* (*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::FromSequence)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3680efc;
+  constexpr static std::size_t addrs = 0x3684cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*>)>(&::Org::BouncyCastle::Asn1::BerOctetString::ToBytes)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3685d00;
+  constexpr static std::size_t addrs = 0x3689ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerOctetString*>(),
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*> (*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::ToOctetStringArray)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3685de0;
+  constexpr static std::size_t addrs = 0x3689ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::System::Collections::IEnumerable*)>(&::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3685fd8;
+  constexpr static std::size_t addrs = 0x3689d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3686048;
+  constexpr static std::size_t addrs = 0x3689e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*>)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x367e8dc;
+  constexpr static std::size_t addrs = 0x368269c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x36860c8;
+  constexpr static std::size_t addrs = 0x3689e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*>, int32_t)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x36860f0;
+  constexpr static std::size_t addrs = 0x3689eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::ArrayW<uint8_t>, ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*>, int32_t)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3686170;
+  constexpr static std::size_t addrs = 0x3689f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Asn1::BerOctetString::*)()>(
     &::Org::BouncyCastle::Asn1::BerOctetString::GetEnumerator)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x368619c;
+  constexpr static std::size_t addrs = 0x3689f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerOctetString*>(), { "GetEnumerator", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Asn1::BerOctetString::*)()>(&::Org::BouncyCastle::Asn1::BerOctetString::GetObjects)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x368622c;
+  constexpr static std::size_t addrs = 0x3689fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerOctetString*>(), { "GetObjects", {}, {} })));
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::Encode)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x3686230;
+  constexpr static std::size_t addrs = 0x3689ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

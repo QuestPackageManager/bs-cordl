@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/MultiplayerAvatarPoseController.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\MultiplayerAvatarPoseController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,10 +67,10 @@ public:
 
   static inline ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController* New_ctor();
 
-  /// @brief Method Start, addr 0x326c00c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x326fc18, size 0x98, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x326c0a4, size 0x4f0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x326fcb0, size 0x4f0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* const& __cordl_internal_get__avatarPoseRestriction() const;
@@ -115,22 +115,22 @@ public:
 
   constexpr void __cordl_internal_set_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x326c594, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32701a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didUpdatePoseEvent, addr 0x3267a88, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdatePoseEvent, addr 0x326b2ec, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method get_leftHandTransform, addr 0x326bff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandTransform, addr 0x326fc00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_leftHandTransform();
 
-  /// @brief Method get_rightHandTransform, addr 0x326bffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandTransform, addr 0x326fc08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_rightHandTransform();
 
-  /// @brief Method remove_didUpdatePoseEvent, addr 0x3267c58, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdatePoseEvent, addr 0x326b4bc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method set_connectedPlayer, addr 0x326c004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectedPlayer, addr 0x326fc10, size 0x8, virtual false, abstract: false, final false
   inline void set_connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
 protected:
@@ -148,7 +148,7 @@ public:
   MultiplayerAvatarPoseController(MultiplayerAvatarPoseController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21665 };
 
   /// @brief Field _leftSaberTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____leftSaberTransform;

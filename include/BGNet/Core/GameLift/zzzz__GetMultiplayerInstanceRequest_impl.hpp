@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet/Core/GameLift/GetMultiplayerInstanceRequest.hpp"
+// IWYU pragma private; include "BGNet\Core\GameLift\GetMultiplayerInstanceRequest.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::Game
     ::GlobalNamespace::AuthenticationToken_PlatformType, ::StringW, ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>*, ::StringW, ::StringW, ::StringW)>(
     &::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32bf584;
+  constexpr static std::size_t addrs = 0x32c3380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

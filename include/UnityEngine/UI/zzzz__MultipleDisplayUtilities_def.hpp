@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UI/MultipleDisplayUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\UI\MultipleDisplayUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ namespace UnityEngine::UI {
 class CORDL_TYPE MultipleDisplayUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRelativeMousePositionForDrag, addr 0x6df9dd0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeMousePositionForDrag, addr 0x6e01954, size 0x6c, virtual false, abstract: false, final false
   static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ::by_ref<::UnityEngine::Vector2> position);
 
-  /// @brief Method GetRelativeMousePositionForRaycast, addr 0x6dfa320, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeMousePositionForRaycast, addr 0x6e01ea4, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetRelativeMousePositionForRaycast(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method RelativeMouseAtScaled, addr 0x6df9e3c, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method RelativeMouseAtScaled, addr 0x6e019c0, size 0x4e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position, int32_t displayIndex);
 
 protected:
@@ -53,7 +53,7 @@ public:
   MultipleDisplayUtilities(MultipleDisplayUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17473 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

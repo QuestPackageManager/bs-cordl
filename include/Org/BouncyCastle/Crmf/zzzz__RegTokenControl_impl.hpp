@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crmf/RegTokenControl.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crmf\RegTokenControl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__RegTokenControl_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::RegTokenControl::*)(::Org::BouncyCastle::Asn1::DerUtf8String*)>(
     &::Org::BouncyCastle::Crmf::RegTokenControl::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36d42e8;
+  constexpr static std::size_t addrs = 0x36d80a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::RegTokenControl::*)(::StringW)>(&::Org::BouncyCastle::Crmf::RegTokenControl::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x36d8d10;
+  constexpr static std::size_t addrs = 0x36dcad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Crmf::RegTokenControl::*)()>(
     &::Org::BouncyCastle::Crmf::RegTokenControl::get_Type)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x36d8d7c;
+  constexpr static std::size_t addrs = 0x36dcb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::RegTokenControl*>(), { "get_Type", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Crmf::RegTokenControl::*)()>(
     &::Org::BouncyCastle::Crmf::RegTokenControl::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36d8dd8;
+  constexpr static std::size_t addrs = 0x36dcb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::RegTokenControl*>(), { "get_Value", {}, {} })));

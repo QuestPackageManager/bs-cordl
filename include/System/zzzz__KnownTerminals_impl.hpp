@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/KnownTerminals.hpp"
+// IWYU pragma private; include "System\KnownTerminals.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__KnownTerminals_def.hpp"
 //  Writing Method size for method: ::System::KnownTerminals.get_linux
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::System::KnownTerminals::get_linux)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c8e874;
+  constexpr static std::size_t addrs = 0x5c92d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::KnownTerminals*>(), { "get_linux", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::System::KnownTerminals::get_xterm)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c8e8ec;
+  constexpr static std::size_t addrs = 0x5c92da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::KnownTerminals*>(), { "get_xterm", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::System::KnownTerminals::get_ansi)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c8e964;
+  constexpr static std::size_t addrs = 0x5c92e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::KnownTerminals*>(), { "get_ansi", {}, {} })));

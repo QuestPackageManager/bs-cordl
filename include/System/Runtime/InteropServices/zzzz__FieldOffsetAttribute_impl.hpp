@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/FieldOffsetAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\FieldOffsetAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__FieldOffsetAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::FieldOffsetAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::FieldOffsetAttribute::*)(int32_t)>(&::System::Runtime::InteropServices::FieldOffsetAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6811c;
+  constexpr static std::size_t addrs = 0x5b6c5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

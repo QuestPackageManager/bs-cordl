@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionSelectionNavigationController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionSelectionNavigationController.hpp"
 #include "HMUI/zzzz__NavigationController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionSelectionNavigationController_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0::*)()>(
     &::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x595ce30;
+  constexpr static std::size_t addrs = 0x59606f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0::*)()>(
     &::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0::_PresentMissionClearedIfNeeded_b__0)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x595ce40;
+  constexpr static std::size_t addrs = 0x5960708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0::*)()>(
     &::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0::_PresentMissionClearedIfNeeded_b__1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x595cf34;
+  constexpr static std::size_t addrs = 0x59607fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*)>(&::GlobalNamespace::MissionSelectionNavigationController::add_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x595c82c;
+  constexpr static std::size_t addrs = 0x59600f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*)>(&::GlobalNamespace::MissionSelectionNavigationController::remove_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x595c8ec;
+  constexpr static std::size_t addrs = 0x59601b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionNode> (::GlobalNamespace::MissionSelectionNavigationController::*)()>(
     &::GlobalNamespace::MissionSelectionNavigationController::get_selectedMissionNode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595c9ac;
+  constexpr static std::size_t addrs = 0x5960274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MissionSelectionNavigationController::DidActivate)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x595c9c4;
+  constexpr static std::size_t addrs = 0x596028c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionSelectionNavigationController*>(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController::*)(bool, bool)>(
     &::GlobalNamespace::MissionSelectionNavigationController::DidDeactivate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x595cb44;
+  constexpr static std::size_t addrs = 0x596040c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionSelectionNavigationController*>(),
@@ -187,7 +187,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::MissionSelectionNavigationController::*)(::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*)>(
         &::GlobalNamespace::MissionSelectionNavigationController::HandleMissionSelectionMapViewControllerDidSelectMissionLevel)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x595cc50;
+  constexpr static std::size_t addrs = 0x5960518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController::*)(::GlobalNamespace::MissionLevelDetailViewController*)>(
     &::GlobalNamespace::MissionSelectionNavigationController::HandleMissionLevelDetailViewControllerDidPressPlayButton)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x595ccc4;
+  constexpr static std::size_t addrs = 0x596058c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::MissionSelectionNavigationController::PresentMissionClearedIfNeeded)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x595cce4;
+  constexpr static std::size_t addrs = 0x59605ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionSelectionNavigationController*>(),
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionSelectionNavigationController::*)()>(&::GlobalNamespace::MissionSelectionNavigationController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x595ce34;
+  constexpr static std::size_t addrs = 0x59606fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionSelectionNavigationController*>(), { ".ctor", {}, {} })));

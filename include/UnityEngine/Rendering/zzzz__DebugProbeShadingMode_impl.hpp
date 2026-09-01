@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DebugProbeShadingMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DebugProbeShadingMode.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugProbeShadingMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::DebugProbeShadingMode::DebugProbeShadingMode(int32_t value__) noexcept {

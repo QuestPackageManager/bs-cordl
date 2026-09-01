@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Destinations/BeatmapEditorDestinationParameters.hpp"
+// IWYU pragma private; include "BeatSaber\Destinations\BeatmapEditorDestinationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_startLevel(::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> value);
 
-  /// @brief Method .ctor, addr 0x327d690, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3281420, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x327d6b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3281444, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW projectPath, bool ignoreTempFolder,
                     ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel);
 
@@ -92,7 +92,7 @@ public:
   BeatmapEditorDestinationParameters(BeatmapEditorDestinationParameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23068 };
 
   /// @brief Field projectPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___projectPath;

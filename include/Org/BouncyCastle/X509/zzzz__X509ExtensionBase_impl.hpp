@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/X509ExtensionBase.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\X509ExtensionBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::X509::X509ExtensionBase::*)(bool)>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionOids)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x356dbf4;
+  constexpr static std::size_t addrs = 0x35719b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::X509::X509ExtensionBase::*)()>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetNonCriticalExtensionOids)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x356dfcc;
+  constexpr static std::size_t addrs = 0x3571d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::X509::X509ExtensionBase::*)()>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetCriticalExtensionOids)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x356dfdc;
+  constexpr static std::size_t addrs = 0x3571d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::X509::X509ExtensionBase::*)(::StringW)>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x356dfec;
+  constexpr static std::size_t addrs = 0x3571dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::X509::X509ExtensionBase::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x356e064;
+  constexpr static std::size_t addrs = 0x3571e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::X509ExtensionBase::*)()>(&::Org::BouncyCastle::X509::X509ExtensionBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x356e09c;
+  constexpr static std::size_t addrs = 0x3571e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::X509ExtensionBase*>(), { ".ctor", {}, {} })));

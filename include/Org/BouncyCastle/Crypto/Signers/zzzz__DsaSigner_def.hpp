@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/DsaSigner.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Signers\DsaSigner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,23 +62,23 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsaExt"
   constexpr operator ::Org::BouncyCastle::Crypto::IDsaExt*() noexcept;
 
-  /// @brief Method CalculateE, addr 0x341fa68, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method CalculateE, addr 0x3423828, size 0xdc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateE(::Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t> message);
 
-  /// @brief Method GenerateSignature, addr 0x341f484, size 0x3c4, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x3423244, size 0x3c4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayW<uint8_t> message);
 
-  /// @brief Method Init, addr 0x341f1c4, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3422f84, size 0x29c, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method InitSecureRandom, addr 0x341fb44, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method InitSecureRandom, addr 0x3423904, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* InitSecureRandom(bool needed, ::Org::BouncyCastle::Security::SecureRandom* provided);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::DsaSigner* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::DsaSigner* New_ctor(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator);
 
-  /// @brief Method VerifySignature, addr 0x341f848, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3423608, size 0x220, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t> message, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
 
   constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* const& __cordl_internal_get_kCalculator() const;
@@ -99,16 +99,16 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x341f120, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3422ee0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x341f174, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3422f34, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator);
 
-  /// @brief Method get_AlgorithmName, addr 0x341f180, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3422f40, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_Order, addr 0x341f460, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Order, addr 0x3423220, size 0x24, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Order();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDsa"

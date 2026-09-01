@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NegateInstruction_NegateSingle.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NegateInstruction_NegateSingle.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NegateInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NegateInstruction_NegateSingle_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::NegateInstruction_NegateSingle::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::GlobalNamespace::NegateInstruction_NegateSingle::Run)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5faf0f4;
+  constexpr static std::size_t addrs = 0x5fb6b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NegateInstruction_NegateSingle::*)()>(&::GlobalNamespace::NegateInstruction_NegateSingle::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5faef78;
+  constexpr static std::size_t addrs = 0x5fb69f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NegateInstruction_NegateSingle*>(), { ".ctor", {}, {} })));

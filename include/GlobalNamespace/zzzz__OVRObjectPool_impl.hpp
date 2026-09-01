@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRObjectPool.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRObjectPool.hpp"
 #include "GlobalNamespace/zzzz__OVRTask_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRObjectPool_def.hpp"

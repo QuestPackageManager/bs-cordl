@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/XmlIgnoreNamespaceReader.hpp"
+// IWYU pragma private; include "System\Data\XmlIgnoreNamespaceReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
   /// @brief Field _namespacesToIgnore, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__namespacesToIgnore, put = __cordl_internal_set__namespacesToIgnore)) ::System::Collections::Generic::List_1<::StringW>* _namespacesToIgnore;
 
-  /// @brief Method MoveToFirstAttribute, addr 0x606097c, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method MoveToFirstAttribute, addr 0x60683f8, size 0x114, virtual true, abstract: false, final false
   inline bool MoveToFirstAttribute();
 
-  /// @brief Method MoveToNextAttribute, addr 0x6060a90, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method MoveToNextAttribute, addr 0x606850c, size 0x110, virtual true, abstract: false, final false
   inline bool MoveToNextAttribute();
 
   static inline ::System::Data::XmlIgnoreNamespaceReader* New_ctor(::System::Xml::XmlDocument* xdoc, ::ArrayW<::StringW> namespacesToIgnore);
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__namespacesToIgnore(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x60608e4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6068360, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* xdoc, ::ArrayW<::StringW> namespacesToIgnore);
 
 protected:
@@ -62,7 +62,7 @@ public:
   XmlIgnoreNamespaceReader(XmlIgnoreNamespaceReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13870 };
 
   /// @brief Field _namespacesToIgnore, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____namespacesToIgnore;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ModalViewBase.hpp"
+// IWYU pragma private; include "HMUI\ModalViewBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
   /// @brief Method Show, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
 
-  /// @brief Method .ctor, addr 0x5887a70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x588743c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_blockerClickedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -54,7 +54,7 @@ public:
   ModalViewBase(ModalViewBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19092 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

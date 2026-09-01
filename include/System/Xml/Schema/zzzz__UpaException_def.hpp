@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/UpaException.hpp"
+// IWYU pragma private; include "System\Xml\Schema\UpaException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_particle2(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x631580c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631d288, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* particle1, ::System::Object* particle2);
 
-  /// @brief Method get_Particle1, addr 0x631587c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle1, addr 0x631d2f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Particle1();
 
-  /// @brief Method get_Particle2, addr 0x6315884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle2, addr 0x631d300, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Particle2();
 
 protected:
@@ -70,7 +70,7 @@ public:
   UpaException(UpaException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9585 };
 
   /// @brief Field particle1, offset: 0x90, size: 0x8, def value: None
   ::System::Object* ___particle1;

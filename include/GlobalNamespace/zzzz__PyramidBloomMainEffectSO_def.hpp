@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PyramidBloomMainEffectSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\PyramidBloomMainEffectSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -126,28 +126,28 @@ public:
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method BindAndFetchTempTextureHandles, addr 0x5f41360, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method BindAndFetchTempTextureHandles, addr 0x5f4645c, size 0x58, virtual true, abstract: false, final false
   inline void BindAndFetchTempTextureHandles(::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder* builder, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                              ::UnityEngine::RenderTextureDescriptor destDesc, ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> textureHandles);
 
-  /// @brief Method LazyInitializeMaterials, addr 0x5f410b0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeMaterials, addr 0x5f461ac, size 0x130, virtual false, abstract: false, final false
   inline void LazyInitializeMaterials();
 
   static inline ::GlobalNamespace::PyramidBloomMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5f411e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5f462dc, size 0x30, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5f40fe8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5f460e4, size 0xc8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PostRender, addr 0x5f41288, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x5f46384, size 0xd8, virtual true, abstract: false, final false
   inline void PostRender(::UnityEngine::Rendering::RasterCommandBuffer* cmd, float_t fade);
 
-  /// @brief Method PreRender, addr 0x5f41210, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x5f4630c, size 0x78, virtual true, abstract: false, final false
   inline void PreRender(::UnityEngine::Rendering::IBaseCommandBuffer* cmd);
 
-  /// @brief Method Render, addr 0x5f413b8, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x5f464b4, size 0x23c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle src,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle bloomTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle dest,
                      ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tempTextures, float_t fade);
@@ -266,7 +266,7 @@ public:
 
   constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value);
 
-  /// @brief Method .ctor, addr 0x5f415f4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f466f0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__bloomIntensityID();
@@ -275,10 +275,10 @@ public:
 
   static inline int32_t getStaticF__fadeID();
 
-  /// @brief Method get_bloomTextureWidth, addr 0x5f40fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bloomTextureWidth, addr 0x5f460dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bloomTextureWidth();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x5f40fd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x5f460d4, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
   static inline void setStaticF__bloomIntensityID(int32_t value);
@@ -302,7 +302,7 @@ public:
   PyramidBloomMainEffectSO(PyramidBloomMainEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20648 };
 
   /// @brief Field _bloomRenderer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PyramidBloomRendererSO> ____bloomRenderer;

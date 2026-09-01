@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering/AudioJobHelpers.hpp"
+// IWYU pragma private; include "LufsMetering\AudioJobHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LufsMetering/zzzz__AudioJobHelpers_def.hpp"
 #include "LufsMetering/zzzz__FilterCoefficients_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LufsMetering::FilterCoefficients (*)(float_t, float_t, float_t, float_t)>(&::LufsMetering::AudioJobHelpers::GetHighShelfDeManCoefficients)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3264918;
+  constexpr static std::size_t addrs = 0x3267cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LufsMetering::FilterCoefficients (*)(float_t, float_t, float_t)>(&::LufsMetering::AudioJobHelpers::GetHighPassDeManCoefficients)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x32649e0;
+  constexpr static std::size_t addrs = 0x3267d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

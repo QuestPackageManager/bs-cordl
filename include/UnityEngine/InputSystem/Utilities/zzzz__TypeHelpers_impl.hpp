@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/TypeHelpers.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\TypeHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TypeHelpers_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::TypeCode)>(&::UnityEngine::InputSystem::Utilities::TypeHelpers::IsInt)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65031a4;
+  constexpr static std::size_t addrs = 0x650ac20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Reflection::MemberInfo*)>(&::UnityEngine::InputSystem::Utilities::TypeHelpers::GetValueType)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x65031b4;
+  constexpr static std::size_t addrs = 0x650ac30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Type*)>(&::UnityEngine::InputSystem::Utilities::TypeHelpers::GetNiceTypeName)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x65032dc;
+  constexpr static std::size_t addrs = 0x650ad58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*, int32_t)>(
     &::UnityEngine::InputSystem::Utilities::TypeHelpers::GetGenericTypeArgumentFromHierarchy)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x65036ac;
+  constexpr static std::size_t addrs = 0x650b128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncInstaller.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,10 +55,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3304778, size 0x26c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3308574, size 0x26c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x33049e4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x33087e0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -77,7 +77,7 @@ public:
                                                    ::Zenject::DiContainer* container, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21548 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -142,7 +142,7 @@ public:
   /// @brief Method InstallBindings, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadInternalAsync, addr 0x33046ac, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method LoadInternalAsync, addr 0x33084a8, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadInternalAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
@@ -157,16 +157,16 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method .ctor, addr 0x3304770, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330856c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Container, addr 0x330469c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x3308498, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_IsEnabled, addr 0x33046a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsEnabled, addr 0x33084a0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEnabled();
 
-  /// @brief Method get_synchronizationStep, addr 0x3304694, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_synchronizationStep, addr 0x3308490, size 0x8, virtual true, abstract: false, final false
   inline ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep get_synchronizationStep();
 
   /// @brief Convert to "::Zenject::IInstaller"
@@ -187,7 +187,7 @@ public:
   AsyncInstaller(AsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21549 };
 
   /// @brief Field _container, offset: 0x30, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

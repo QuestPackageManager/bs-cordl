@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/WWWTranscoder.hpp"
+// IWYU pragma private; include "UnityEngine\WWWTranscoder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__WWWTranscoder_def.hpp"
 //  Writing Method size for method: ::UnityEngine::WWWTranscoder.Hex2Byte
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::ArrayW<uint8_t>, int32_t)>(&::UnityEngine::WWWTranscoder::Hex2Byte)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6e201c4;
+  constexpr static std::size_t addrs = 0x6e27d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::UnityEngine::WWWTranscoder::URLDecode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6e1fe5c;
+  constexpr static std::size_t addrs = 0x6e279e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>, int32_t, ::ArrayW<uint8_t>)>(&::UnityEngine::WWWTranscoder::ByteSubArrayEquals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2055c;
+  constexpr static std::size_t addrs = 0x6e280e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, uint8_t, ::ArrayW<uint8_t>)>(&::UnityEngine::WWWTranscoder::Decode)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x6e20280;
+  constexpr static std::size_t addrs = 0x6e27e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

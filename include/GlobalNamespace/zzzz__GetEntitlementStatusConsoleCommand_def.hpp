@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GetEntitlementStatusConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\GetEntitlementStatusConsoleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,10 +57,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32d7c8c, size 0x7d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32dba88, size 0x7d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32d8460, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32dc25c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -79,7 +79,7 @@ public:
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19396 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -135,10 +135,10 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32d7a60, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x32db85c, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method Initialize, addr 0x32d72f0, size 0x770, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x32db0ec, size 0x770, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::GetEntitlementStatusConsoleCommand* New_ctor();
@@ -167,13 +167,13 @@ public:
 
   constexpr void __cordl_internal_set__packId(::GlobalNamespace::OptionalArgument_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x32d7b3c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32db938, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32d7268, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x32db064, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32d72ac, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x32db0a8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -191,7 +191,7 @@ public:
   GetEntitlementStatusConsoleCommand(GetEntitlementStatusConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19397 };
 
   /// @brief Field _entitlementModel, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IEntitlementModel* ____entitlementModel;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/MultipartFile.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\MultipartFile.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__MultipartFile_def.hpp"
 // Ctor Parameters [CppParam { name: "key", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "filename", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "bytes", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "contentType", ty: "::StringW", modifiers: "", def_value: Some("{}") }]

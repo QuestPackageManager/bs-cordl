@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ShaderKeywordSet.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ShaderKeywordSet.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderKeywordSet_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::ShaderKeywordSet, ::StringW)>(&::UnityEngine::Rendering::ShaderKeywordSet::IsKeywordNameEnabled)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6b26508;
+  constexpr static std::size_t addrs = 0x6b2e08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShaderKeywordSet::*)(::UnityEngine::Rendering::ShaderKeyword)>(
     &::UnityEngine::Rendering::ShaderKeywordSet::CheckKeywordCompatible)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6b2668c;
+  constexpr static std::size_t addrs = 0x6b2e210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderKeywordSet>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShaderKeywordSet::*)(::UnityEngine::Rendering::ShaderKeyword)>(
     &::UnityEngine::Rendering::ShaderKeywordSet::IsEnabled)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6b26750;
+  constexpr static std::size_t addrs = 0x6b2e2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Rendering::ShaderKeywordSet::IsKeywordNameEnabled_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b26648;
+  constexpr static std::size_t addrs = 0x6b2e1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

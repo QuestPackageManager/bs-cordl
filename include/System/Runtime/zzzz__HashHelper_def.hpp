@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/HashHelper.hpp"
+// IWYU pragma private; include "System\Runtime\HashHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ namespace System::Runtime {
 class CORDL_TYPE HashHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeHash, addr 0x617fa04, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0x6187480, size 0x548, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ComputeHash(::ArrayW<uint8_t> buffer);
 
 protected:
@@ -39,7 +39,7 @@ public:
   HashHelper(HashHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21306 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

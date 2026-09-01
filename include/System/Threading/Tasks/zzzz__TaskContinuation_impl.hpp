@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/TaskContinuation.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\TaskContinuation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskContinuation_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::Task*, bool)>(&::System::Threading::Tasks::TaskContinuation::InlineIfPossibleOrElseQueue)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5cc1b7c;
+  constexpr static std::size_t addrs = 0x5cc6038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::TaskContinuation::*)()>(&::System::Threading::Tasks::TaskContinuation::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cc1cc4;
+  constexpr static std::size_t addrs = 0x5cc6180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::TaskContinuation*>(), { ".ctor", {}, {} })));

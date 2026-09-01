@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/X509/X509Chain.hpp"
+// IWYU pragma private; include "Mono\Security\X509\X509Chain.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,30 +43,30 @@ public:
   /// @brief Field roots, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_roots, put = __cordl_internal_set_roots)) ::Mono::Security::X509::X509CertificateCollection* roots;
 
-  /// @brief Method Build, addr 0x5a93284, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x5a97740, size 0x388, virtual false, abstract: false, final false
   inline bool Build(::Mono::Security::X509::X509Certificate* leaf);
 
-  /// @brief Method FindCertificateParent, addr 0x5a9360c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method FindCertificateParent, addr 0x5a97ac8, size 0x1a8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* FindCertificateParent(::Mono::Security::X509::X509Certificate* child);
 
-  /// @brief Method FindCertificateRoot, addr 0x5a937b4, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method FindCertificateRoot, addr 0x5a97c70, size 0x210, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* FindCertificateRoot(::Mono::Security::X509::X509Certificate* potentialRoot);
 
-  /// @brief Method IsParent, addr 0x5a939c4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method IsParent, addr 0x5a97e80, size 0x148, virtual false, abstract: false, final false
   inline bool IsParent(::Mono::Security::X509::X509Certificate* child, ::Mono::Security::X509::X509Certificate* parent);
 
-  /// @brief Method IsTrusted, addr 0x5a93c0c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsTrusted, addr 0x5a980c8, size 0x2c, virtual false, abstract: false, final false
   inline bool IsTrusted(::Mono::Security::X509::X509Certificate* potentialTrusted);
 
-  /// @brief Method IsValid, addr 0x5a93b0c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x5a97fc8, size 0xc0, virtual false, abstract: false, final false
   inline bool IsValid(::Mono::Security::X509::X509Certificate* cert);
 
-  /// @brief Method LoadCertificates, addr 0x5a93270, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method LoadCertificates, addr 0x5a9772c, size 0x14, virtual false, abstract: false, final false
   inline void LoadCertificates(::Mono::Security::X509::X509CertificateCollection* collection);
 
   static inline ::Mono::Security::X509::X509Chain* New_ctor();
 
-  /// @brief Method Reset, addr 0x5a93bcc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5a98088, size 0x40, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::Mono::Security::X509::X509CertificateCollection* const& __cordl_internal_get__chain() const;
@@ -99,10 +99,10 @@ public:
 
   constexpr void __cordl_internal_set_roots(::Mono::Security::X509::X509CertificateCollection* value);
 
-  /// @brief Method .ctor, addr 0x5a930c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a97580, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TrustAnchors, addr 0x5a93120, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAnchors, addr 0x5a975dc, size 0x80, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_TrustAnchors();
 
 protected:
@@ -120,7 +120,7 @@ public:
   X509Chain(X509Chain const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19291 };
 
   /// @brief Field roots, offset: 0x10, size: 0x8, def value: None
   ::Mono::Security::X509::X509CertificateCollection* ___roots;

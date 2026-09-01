@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/Encoder.hpp"
+// IWYU pragma private; include "System\Text\Encoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,28 +39,28 @@ public:
   /// @brief Field _fallbackBuffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__fallbackBuffer, put = __cordl_internal_set__fallbackBuffer)) ::System::Text::EncoderFallbackBuffer* _fallbackBuffer;
 
-  /// @brief Method Convert, addr 0x5aceca8, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x5ad3164, size 0x2dc, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, bool flush, ::by_ref<int32_t> charsUsed,
                       ::by_ref<int32_t> bytesUsed, ::by_ref<bool> completed);
 
-  /// @brief Method Convert, addr 0x5acef84, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x5ad3440, size 0x220, virtual true, abstract: false, final false
   inline void Convert(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount, bool flush, ::by_ref<int32_t> charsUsed, ::by_ref<int32_t> bytesUsed, ::by_ref<bool> completed);
 
   /// @brief Method GetByteCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::ArrayW<char16_t> chars, int32_t index, int32_t count, bool flush);
 
-  /// @brief Method GetByteCount, addr 0x5ace92c, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x5ad2de8, size 0x168, virtual true, abstract: false, final false
   inline int32_t GetByteCount(char16_t* chars, int32_t count, bool flush);
 
   /// @brief Method GetBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex, bool flush);
 
-  /// @brief Method GetBytes, addr 0x5acea94, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x5ad2f50, size 0x214, virtual true, abstract: false, final false
   inline int32_t GetBytes(char16_t* chars, int32_t charCount, uint8_t* bytes, int32_t byteCount, bool flush);
 
   static inline ::System::Text::Encoder* New_ctor();
 
-  /// @brief Method Reset, addr 0x5ace84c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5ad2d08, size 0xe0, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Text::EncoderFallback* const& __cordl_internal_get__fallback() const;
@@ -75,16 +75,16 @@ public:
 
   constexpr void __cordl_internal_set__fallbackBuffer(::System::Text::EncoderFallbackBuffer* value);
 
-  /// @brief Method .ctor, addr 0x5ace758, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ad2c14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Fallback, addr 0x5ace75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Fallback, addr 0x5ad2c18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::EncoderFallback* get_Fallback();
 
-  /// @brief Method get_FallbackBuffer, addr 0x5ace764, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_FallbackBuffer, addr 0x5ad2c20, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* get_FallbackBuffer();
 
-  /// @brief Method get_InternalHasFallbackBuffer, addr 0x5ace83c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_InternalHasFallbackBuffer, addr 0x5ad2cf8, size 0x10, virtual false, abstract: false, final false
   inline bool get_InternalHasFallbackBuffer();
 
 protected:

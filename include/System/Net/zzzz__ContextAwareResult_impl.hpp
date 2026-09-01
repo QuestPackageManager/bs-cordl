@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/ContextAwareResult.hpp"
+// IWYU pragma private; include "System\Net\ContextAwareResult.hpp"
 #include "System/Net/zzzz__LazyAsyncResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ContextAwareResult_def.hpp"
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContextAwareResult___c::*)()>(&::System::Net::ContextAwareResult___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63eff98;
+  constexpr static std::size_t addrs = 0x63f7a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ContextAwareResult___c*>(), { ".ctor", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContextAwareResult___c::*)(::System::Object*)>(&::System::Net::ContextAwareResult___c::_Complete_b__17_0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63eff9c;
+  constexpr static std::size_t addrs = 0x63f7a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContextAwareResult::*)()>(&::System::Net::ContextAwareResult::SafeCaptureIdentity)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63ef1ec;
+  constexpr static std::size_t addrs = 0x63f6c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ContextAwareResult*>(), { "SafeCaptureIdentity", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContextAwareResult::*)()>(&::System::Net::ContextAwareResult::CleanupInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63ef1f0;
+  constexpr static std::size_t addrs = 0x63f6c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ContextAwareResult*>(), { "CleanupInternal", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContextAwareResult::*)(::System::Object*, ::System::Object*, ::System::AsyncCallback*)>(
     &::System::Net::ContextAwareResult::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ef1f4;
+  constexpr static std::size_t addrs = 0x63f6c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContextAwareResult::*)(bool, bool, ::System::Object*, ::System::Object*, ::System::AsyncCallback*)>(
     &::System::Net::ContextAwareResult::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63ef1fc;
+  constexpr static std::size_t addrs = 0x63f6c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContextAwareResult::*)(bool, bool, bool, ::System::Object*, ::System::Object*, ::System::AsyncCallback*)>(
     &::System::Net::ContextAwareResult::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x63ef24c;
+  constexpr static std::size_t addrs = 0x63f6cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::ContextAwareResult::*)()>(&::System::Net::ContextAwareResult::StartPostingAsyncOp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ef2c4;
+  constexpr static std::size_t addrs = 0x63f6d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ContextAwareResult*>(), { "StartPostingAsyncOp", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::ContextAwareResult::*)(bool)>(&::System::Net::ContextAwareResult::StartPostingAsyncOp)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x63ef2cc;
+  constexpr static std::size_t addrs = 0x63f6d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ContextAwareResult::*)()>(&::System::Net::ContextAwareResult::FinishPostingAsyncOp)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x63ef488;
+  constexpr static std::size_t addrs = 0x63f6f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ContextAwareResult*>(), { "FinishPostingAsyncOp", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContextAwareResult::*)()>(&::System::Net::ContextAwareResult::Cleanup)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x63ef8cc;
+  constexpr static std::size_t addrs = 0x63f7348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ContextAwareResult::*)(::by_ref<::System::Threading::ExecutionContext*>, bool)>(
     &::System::Net::ContextAwareResult::CaptureOrComplete)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x63ef4c4;
+  constexpr static std::size_t addrs = 0x63f6f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContextAwareResult::*)(::System::IntPtr)>(&::System::Net::ContextAwareResult::Complete)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x63efb9c;
+  constexpr static std::size_t addrs = 0x63f7618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ContextAwareResult::*)()>(&::System::Net::ContextAwareResult::CompleteCallback)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x63efe8c;
+  constexpr static std::size_t addrs = 0x63f7908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ContextAwareResult*>(), { "CompleteCallback", {}, {} })));

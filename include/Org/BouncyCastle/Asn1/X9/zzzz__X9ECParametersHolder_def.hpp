@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X9ECParametersHolder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\X9ECParametersHolder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::X9::X9ECParameters* value);
 
-  /// @brief Method .ctor, addr 0x334181c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33455dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Parameters, addr 0x3341554, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x3345314, size 0xb4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
 
 protected:

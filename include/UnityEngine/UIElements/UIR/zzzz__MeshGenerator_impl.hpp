@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshGenerator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\MeshGenerator.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPosition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundRepeat_impl.hpp"
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams (::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams::*)()>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams::ToNativeParams)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6cdb9ac;
+  constexpr static std::size_t addrs = 0x6ce3530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Texture*, ::UnityEngine::ScaleMode, ::by_ref<::UnityEngine::Rect>,
                                                                 ::by_ref<::UnityEngine::Rect>)>(&::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::AdjustUVsForScaleMode)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6cdba50;
+  constexpr static std::size_t addrs = 0x6ce35d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::by_ref<::UnityEngine::Rect>, ::by_ref<::UnityEngine::Rect>)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::AdjustSpriteUVsForScaleMode)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x6cdbbec;
+  constexpr static std::size_t addrs = 0x6ce3770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::RectIntersection)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6cdb08c;
+  constexpr static std::size_t addrs = 0x6ce2c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Sprite*)>(&::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::ComputeGeomRect)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6cdbef0;
+  constexpr static std::size_t addrs = 0x6ce3a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Sprite*)>(&::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::ComputeUVRect)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6cdbfa4;
+  constexpr static std::size_t addrs = 0x6ce3b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect, ::UnityEngine::SpritePackingRotation)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::ApplyPackingRotation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6cdc058;
+  constexpr static std::size_t addrs = 0x6ce3bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams (*)(
     ::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Texture*, ::UnityEngine::ScaleMode, ::UnityEngine::Color)>(&::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::MakeTextured)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6cdc0a8;
+  constexpr static std::size_t addrs = 0x6ce3c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Sprite*, ::UnityEngine::ScaleMode, ::UnityEngine::Color, bool, ::by_ref<::UnityEngine::Vector4>, bool)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::MakeSprite)> {
   constexpr static std::size_t size = 0x944;
-  constexpr static std::size_t addrs = 0x6cdc1a4;
+  constexpr static std::size_t addrs = 0x6ce3d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VectorImage*, ::UnityEngine::ScaleMode, ::UnityEngine::Color)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::MakeVectorTextured)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6cdcae8;
+  constexpr static std::size_t addrs = 0x6ce466c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::*)(float_t)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::HasRadius)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6cdcb74;
+  constexpr static std::size_t addrs = 0x6ce46f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::*)(float_t)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::HasSlices)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6cdb040;
+  constexpr static std::size_t addrs = 0x6ce2bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams (::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::*)()>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_RectangleParams::ToNativeParams)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6cd9648;
+  constexpr static std::size_t addrs = 0x6ce11cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::Execute)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6cdcbe8;
+  constexpr static std::size_t addrs = 0x6ce476c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -494,7 +494,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                                                                                                                                ::by_ref<::UnityEngine::UIElements::UIR::MeshGenerator_BorderParams>)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::DrawBorder)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x6cdcd58;
+  constexpr static std::size_t addrs = 0x6ce48dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -512,7 +512,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UnsafeMeshGenerationNode, ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, ::UnityEngine::Texture*)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::DrawRectangle)> {
   constexpr static std::size_t size = 0x920;
-  constexpr static std::size_t addrs = 0x6cdd714;
+  constexpr static std::size_t addrs = 0x6ce5298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -531,7 +531,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UnsafeMeshGenerationNode, ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, ::UnityEngine::Sprite*)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::DrawSprite)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x6cdd3c8;
+  constexpr static std::size_t addrs = 0x6ce4f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -550,7 +550,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UnsafeMeshGenerationNode, ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, ::UnityEngine::UIElements::VectorImage*)>(
     &::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob::DrawVectorImage)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x6cdcfc8;
+  constexpr static std::size_t addrs = 0x6ce4b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::MeshGenerator_TessellationJob>(),

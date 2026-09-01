@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AddressableAssets/CheckCatalogsOperation.hpp"
+// IWYU pragma private; include "UnityEngine\AddressableAssets\CheckCatalogsOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,10 +62,10 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::CheckCatalogsOperation___c* New_ctor();
 
-  /// @brief Method <Start>b__5_0, addr 0x6459c34, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__5_0, addr 0x64616b0, size 0x8c, virtual false, abstract: false, final false
   inline bool _Start_b__5_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
 
-  /// @brief Method .ctor, addr 0x6459c30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64616ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::AddressableAssets::CheckCatalogsOperation___c* getStaticF___9();
@@ -91,7 +91,7 @@ public:
   CheckCatalogsOperation___c(CheckCatalogsOperation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19826 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,27 +123,27 @@ public:
   __declspec(property(get = __cordl_internal_get_m_LocatorInfos,
                       put = __cordl_internal_set_m_LocatorInfos)) ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* m_LocatorInfos;
 
-  /// @brief Method Destroy, addr 0x645941c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6460e98, size 0x4c, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0x6459b30, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x64615ac, size 0xac, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetDependencies, addr 0x6459468, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x6460ee4, size 0xe4, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x64592b0, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x6460d2c, size 0x16c, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::CheckCatalogsOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
-  /// @brief Method ProcessDependentOpResults, addr 0x645954c, size 0x5e4, virtual false, abstract: false, final false
+  /// @brief Method ProcessDependentOpResults, addr 0x6460fc8, size 0x5e4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>*
   ProcessDependentOpResults(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* results,
                             ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* locatorInfos,
                             ::System::Collections::Generic::List_1<::StringW>* localHashes, ::by_ref<::StringW> errorString, ::by_ref<bool> success);
 
-  /// @brief Method Start, addr 0x6455c64, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x645d6e0, size 0x590, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*>
   Start(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* locatorInfos);
 
@@ -177,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_m_LocatorInfos(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x6455c04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x645d680, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
 protected:
@@ -195,7 +195,7 @@ public:
   CheckCatalogsOperation(CheckCatalogsOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19827 };
 
   /// @brief Field m_Addressables, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* ___m_Addressables;

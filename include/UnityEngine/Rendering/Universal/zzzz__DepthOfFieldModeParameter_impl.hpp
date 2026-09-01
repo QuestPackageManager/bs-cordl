@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DepthOfFieldModeParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DepthOfFieldModeParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DepthOfFieldMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DepthOfFieldModeParameter_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DepthOfFieldModeParameter::*)(::UnityEngine::Rendering::Universal::DepthOfFieldMode, bool)>(
     &::UnityEngine::Rendering::Universal::DepthOfFieldModeParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6876fe0;
+  constexpr static std::size_t addrs = 0x687ea5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

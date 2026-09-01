@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/XmlDocumentTypeWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\XmlDocumentTypeWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,22 +56,22 @@ public:
 
   constexpr void __cordl_internal_set__documentType(::System::Xml::XmlDocumentType* value);
 
-  /// @brief Method .ctor, addr 0x5d9abd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9f094, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocumentType* documentType);
 
-  /// @brief Method get_InternalSubset, addr 0x5d9b184, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_InternalSubset, addr 0x5d9f640, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_LocalName, addr 0x5d9b19c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x5d9f658, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x5d9b138, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x5d9f5f4, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_Public, addr 0x5d9b16c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Public, addr 0x5d9f628, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Public();
 
-  /// @brief Method get_System, addr 0x5d9b154, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_System, addr 0x5d9f610, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_System();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
@@ -95,7 +95,7 @@ public:
   XmlDocumentTypeWrapper(XmlDocumentTypeWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13672 };
 
   /// @brief Field _documentType, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlDocumentType* ____documentType;

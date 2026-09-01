@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BombExecutionRating.hpp"
+// IWYU pragma private; include "GlobalNamespace\BombExecutionRating.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRating_impl.hpp"
 #include "GlobalNamespace/zzzz__BombExecutionRating_def.hpp"
 #include "GlobalNamespace/zzzz__BombExecutionRating_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BombExecutionRating_Rating (::GlobalNamespace::BombExecutionRating::*)()>(
     &::GlobalNamespace::BombExecutionRating::get_rating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3703464;
+  constexpr static std::size_t addrs = 0x3707884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombExecutionRating*>(), { "get_rating", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombExecutionRating::*)(float_t, ::GlobalNamespace::BombExecutionRating_Rating)>(
     &::GlobalNamespace::BombExecutionRating::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x370346c;
+  constexpr static std::size_t addrs = 0x370788c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

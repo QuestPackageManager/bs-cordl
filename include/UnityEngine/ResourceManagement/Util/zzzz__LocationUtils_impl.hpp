@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/LocationUtils.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\LocationUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__LocationUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
         &::UnityEngine::ResourceManagement::Util::LocationUtils::LocationEquals)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x690f4a4;
+  constexpr static std::size_t addrs = 0x6916f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Util::LocationUtils*>(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Collec
                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*)>(
     &::UnityEngine::ResourceManagement::Util::LocationUtils::DependenciesEqual)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x690f90c;
+  constexpr static std::size_t addrs = 0x6917388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

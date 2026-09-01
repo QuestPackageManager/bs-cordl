@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EmptyPosesSerializer.hpp"
+// IWYU pragma private; include "GlobalNamespace\EmptyPosesSerializer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,24 +29,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
   constexpr operator ::GlobalNamespace::IPosesSerializer*() noexcept;
 
-  /// @brief Method LoadRecording, addr 0x58e3cd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LoadRecording, addr 0x58e7308, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
 
   static inline ::GlobalNamespace::EmptyPosesSerializer* New_ctor();
 
-  /// @brief Method RecordingCanBeCreated, addr 0x58e3ce8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RecordingCanBeCreated, addr 0x58e7318, size 0x8, virtual true, abstract: false, final true
   inline bool RecordingCanBeCreated(::StringW path);
 
-  /// @brief Method RecordingExists, addr 0x58e3ce0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RecordingExists, addr 0x58e7310, size 0x8, virtual true, abstract: false, final true
   inline bool RecordingExists(::StringW path);
 
-  /// @brief Method SaveRecording, addr 0x58e3cd4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SaveRecording, addr 0x58e7304, size 0x4, virtual true, abstract: false, final true
   inline void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
 
-  /// @brief Method SaveToOldFormat, addr 0x58e3cd0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SaveToOldFormat, addr 0x58e7300, size 0x4, virtual true, abstract: false, final true
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method .ctor, addr 0x58e3cf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e7320, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IPosesSerializer"
@@ -67,7 +67,7 @@ public:
   EmptyPosesSerializer(EmptyPosesSerializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Destinations/Destination.hpp"
+// IWYU pragma private; include "BeatSaber\Destinations\Destination.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,18 +106,18 @@ public:
 
   constexpr void __cordl_internal_set_stage(::BeatSaber::Destinations::DestinationTarget value);
 
-  /// @brief Method .ctor, addr 0x327d554, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32812e4, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Destinations::DestinationTarget stage, ::BeatSaber::Destinations::LevelStartDestinationParameters* levelStartDestination, ::ArrayW<::StringW> arguments,
                     ::BeatSaber::Destinations::DestinationFlags destinationFlags, ::BeatSaber::Destinations::MissionDestinationParameters* missionDestinationParameters,
                     ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation);
 
-  /// @brief Method get_shouldLoadHealthWarning, addr 0x327d670, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_shouldLoadHealthWarning, addr 0x3281400, size 0xc, virtual false, abstract: false, final false
   inline bool get_shouldLoadHealthWarning();
 
-  /// @brief Method get_shouldLoadMenu, addr 0x327d664, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_shouldLoadMenu, addr 0x32813f4, size 0xc, virtual false, abstract: false, final false
   inline bool get_shouldLoadMenu();
 
-  /// @brief Method get_shouldMockOnlineServices, addr 0x327d67c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_shouldMockOnlineServices, addr 0x328140c, size 0xc, virtual false, abstract: false, final false
   inline bool get_shouldMockOnlineServices();
 
 protected:
@@ -135,7 +135,7 @@ public:
   Destination(Destination const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23066 };
 
   /// @brief Field stage, offset: 0x10, size: 0x4, def value: None
   ::BeatSaber::Destinations::DestinationTarget ___stage;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/VisualElementListPool.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\VisualElementListPool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementListPool_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementListPool___c::*)()>(&::UnityEngine::UIElements::VisualElementListPool___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cc1ce8;
+  constexpr static std::size_t addrs = 0x6cc986c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementListPool___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::VisualElementListPool___c::*)()>(
     &::UnityEngine::UIElements::VisualElementListPool___c::__cctor_b__4_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6cc1cec;
+  constexpr static std::size_t addrs = 0x6cc9870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementListPool___c*>(), { "<.cctor>b__4_0", {}, {} })));
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
         &::UnityEngine::UIElements::VisualElementListPool::Copy)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6cc1904;
+  constexpr static std::size_t addrs = 0x6cc9488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElementListPool::Get)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6cc19cc;
+  constexpr static std::size_t addrs = 0x6cc9550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::VisualElementListPool::Release)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6cc1ab8;
+  constexpr static std::size_t addrs = 0x6cc963c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

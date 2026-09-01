@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/JsonConverterAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\JsonConverterAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set__converterType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5cd294c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd6e08, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType);
 
-  /// @brief Method .ctor, addr 0x5cd29d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd6e8c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType, ::ArrayW<::System::Object*> converterParameters);
 
-  /// @brief Method get_ConverterParameters, addr 0x5cd2944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterParameters, addr 0x5cd6e00, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> get_ConverterParameters();
 
-  /// @brief Method get_ConverterType, addr 0x5cd293c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterType, addr 0x5cd6df8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ConverterType();
 
 protected:
@@ -81,7 +81,7 @@ public:
   JsonConverterAttribute(JsonConverterAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13251 };
 
   /// @brief Field _converterType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____converterType;

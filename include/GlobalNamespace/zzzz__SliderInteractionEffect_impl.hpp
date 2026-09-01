@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SliderInteractionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\SliderInteractionEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SliderInteractionEffect::*)()>(&::GlobalNamespace::SliderInteractionEffect::get_saberInteractionParam)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5976da0;
+  constexpr static std::size_t addrs = 0x597a734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderInteractionEffect*>(), { "get_saberInteractionParam", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorType (::GlobalNamespace::SliderInteractionEffect::*)()>(&::GlobalNamespace::SliderInteractionEffect::get_colorType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5976cb0;
+  constexpr static std::size_t addrs = 0x597a644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderInteractionEffect*>(), { "get_colorType", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderInteractionEffect::*)()>(&::GlobalNamespace::SliderInteractionEffect::Start)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5976bc4;
+  constexpr static std::size_t addrs = 0x597a558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderInteractionEffect::*)()>(&::GlobalNamespace::SliderInteractionEffect::OnDestroy)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x59778c8;
+  constexpr static std::size_t addrs = 0x597b25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderInteractionEffect*>(), { "OnDestroy", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderInteractionEffect::*)(::GlobalNamespace::SliderInteractionManager*, float_t)>(
     &::GlobalNamespace::SliderInteractionEffect::HandleSliderWasAddedToActiveSliders)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5977b34;
+  constexpr static std::size_t addrs = 0x597b4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderInteractionEffect::*)(::GlobalNamespace::SliderInteractionManager*)>(
     &::GlobalNamespace::SliderInteractionEffect::HandleAllSliderWereRemovedFromActiveSliders)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5977b40;
+  constexpr static std::size_t addrs = 0x597b4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderInteractionEffect::*)()>(&::GlobalNamespace::SliderInteractionEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5976e40;
+  constexpr static std::size_t addrs = 0x597a7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderInteractionEffect*>(), { ".ctor", {}, {} })));

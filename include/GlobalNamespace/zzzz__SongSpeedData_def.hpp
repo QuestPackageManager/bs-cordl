@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SongSpeedData.hpp"
+// IWYU pragma private; include "GlobalNamespace\SongSpeedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_speedMul(float_t value);
 
-  /// @brief Method .ctor, addr 0x3705c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x370a038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t speedMul);
 
 protected:
@@ -49,7 +49,7 @@ public:
   SongSpeedData(SongSpeedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14855 };
 
   /// @brief Field speedMul, offset: 0x10, size: 0x4, def value: None
   float_t ___speedMul;

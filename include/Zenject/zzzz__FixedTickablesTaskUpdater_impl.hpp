@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/FixedTickablesTaskUpdater.hpp"
+// IWYU pragma private; include "Zenject\FixedTickablesTaskUpdater.hpp"
 #include "Zenject/zzzz__TaskUpdater_1_impl.hpp"
 #include "Zenject/zzzz__FixedTickablesTaskUpdater_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::FixedTickablesTaskUpdater::*)(::Zenject::IFixedTickable*)>(&::Zenject::FixedTickablesTaskUpdater::UpdateItem)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e90054;
+  constexpr static std::size_t addrs = 0x6e97bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::FixedTickablesTaskUpdater::*)()>(&::Zenject::FixedTickablesTaskUpdater::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e900f4;
+  constexpr static std::size_t addrs = 0x6e97c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FixedTickablesTaskUpdater*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::FixedTickablesTaskUpdater::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e90140;
+  constexpr static std::size_t addrs = 0x6e97cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::FixedTickablesTaskUpdater::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6e90194;
+  constexpr static std::size_t addrs = 0x6e97d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::FixedTickablesTaskUpdater*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/BeatmapLevelSaveDataUtils.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\BeatmapLevelSaveDataUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__BeatmapLevelSaveDataUtils_def.hpp"
 #include "BeatmapLevelSaveDataVersion4/zzzz__BeatmapLevelSaveData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*)>(
     &::BeatmapDataLoaderVersion4::BeatmapLevelSaveDataUtils::MigrateBeatmapLevelSaveData)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x375f850;
+  constexpr static std::size_t addrs = 0x37654bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

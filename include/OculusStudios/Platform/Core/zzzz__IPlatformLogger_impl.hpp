@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/IPlatformLogger.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\IPlatformLogger.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatformLogger_def.hpp"
 //  Writing Method size for method: ::OculusStudios::Platform::Core::IPlatformLogger.LogVerbose
 template <>

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/ConstrainedExecution/ReliabilityContractAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\ConstrainedExecution\ReliabilityContractAttribute.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__Cer_impl.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__Consistency_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::*)(
     ::System::Runtime::ConstrainedExecution::Consistency, ::System::Runtime::ConstrainedExecution::Cer)>(&::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6b3dc;
+  constexpr static std::size_t addrs = 0x5b6f898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

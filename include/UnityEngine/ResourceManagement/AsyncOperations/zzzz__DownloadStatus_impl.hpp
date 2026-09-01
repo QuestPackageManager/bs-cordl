@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/DownloadStatus.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\AsyncOperations\DownloadStatus.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus.get_Percent
 template <>
@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::get_Percent)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x691f66c;
+  constexpr static std::size_t addrs = 0x69270e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

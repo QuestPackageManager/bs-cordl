@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/RijndaelManaged.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\RijndaelManaged.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,25 +30,25 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE RijndaelManaged : public ::System::Security::Cryptography::Rijndael {
 public:
   // Declarations
-  /// @brief Method CreateDecryptor, addr 0x5af91f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x5afd6b4, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV);
 
-  /// @brief Method CreateEncryptor, addr 0x5af90e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x5afd59c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV);
 
-  /// @brief Method GenerateIV, addr 0x5af923c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x5afd6f8, size 0x30, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x5af920c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x5afd6c8, size 0x30, virtual true, abstract: false, final false
   inline void GenerateKey();
 
-  /// @brief Method NewEncryptor, addr 0x5af90f4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method NewEncryptor, addr 0x5afd5b0, size 0x104, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* NewEncryptor(::ArrayW<uint8_t> rgbKey, ::System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t feedbackSize,
                                                                           ::System::Security::Cryptography::RijndaelManagedTransformMode encryptMode);
 
   static inline ::System::Security::Cryptography::RijndaelManaged* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5af9054, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afd510, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

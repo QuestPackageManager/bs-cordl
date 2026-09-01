@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/X509CertificatePair.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\X509CertificatePair.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509CertificatePair_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__CertificatePair_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::X509CertificatePair::*)(
     ::Org::BouncyCastle::X509::X509Certificate*, ::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::X509::X509CertificatePair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36461e4;
+  constexpr static std::size_t addrs = 0x3649fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::X509CertificatePair::*)(::Org::BouncyCastle::Asn1::X509::CertificatePair*)>(
     &::Org::BouncyCastle::X509::X509CertificatePair::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x36461ec;
+  constexpr static std::size_t addrs = 0x3649fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::X509CertificatePair*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::X509::X509CertificatePair::*)()>(&::Org::BouncyCastle::X509::X509CertificatePair::GetEncoded)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x3646284;
+  constexpr static std::size_t addrs = 0x364a044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::X509CertificatePair*>(), { "GetEncoded", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (::Org::BouncyCastle::X509::X509CertificatePair::*)()>(
     &::Org::BouncyCastle::X509::X509CertificatePair::get_Forward)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36464dc;
+  constexpr static std::size_t addrs = 0x364a29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::X509CertificatePair*>(), { "get_Forward", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (::Org::BouncyCastle::X509::X509CertificatePair::*)()>(
     &::Org::BouncyCastle::X509::X509CertificatePair::get_Reverse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36464e4;
+  constexpr static std::size_t addrs = 0x364a2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::X509CertificatePair*>(), { "get_Reverse", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::X509::X509CertificatePair::*)(::System::Object*)>(&::Org::BouncyCastle::X509::X509CertificatePair::Equals)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x36464ec;
+  constexpr static std::size_t addrs = 0x364a2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::X509::X509CertificatePair::*)()>(&::Org::BouncyCastle::X509::X509CertificatePair::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x36465e8;
+  constexpr static std::size_t addrs = 0x364a3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SpectrogramMultiplierFloatFxEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace\SpectrogramMultiplierFloatFxEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "GlobalNamespace/zzzz__SpectrogramMultiplierFloatFxEffectTarget_def.hpp"
 #include "GlobalNamespace/zzzz__SpectrogramRowPropertyAnimator_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x598dffc;
+  constexpr static std::size_t addrs = 0x5997d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x598e084;
+  constexpr static std::size_t addrs = 0x5997e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget*>(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::*)()>(&::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x598e10c;
+  constexpr static std::size_t addrs = 0x5997ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/U2D/SpriteBone.hpp"
+// IWYU pragma private; include "UnityEngine\U2D\SpriteBone.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
                        ::UnityEngine::Color32 m_Color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10931 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

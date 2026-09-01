@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cmp/RevocationDetailsBuilder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cmp\RevocationDetailsBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,21 +37,21 @@ public:
   /// @brief Field _templateBuilder, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__templateBuilder, put = __cordl_internal_set__templateBuilder)) ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* _templateBuilder;
 
-  /// @brief Method Build, addr 0x36a0940, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x36a4700, size 0x9c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetails* Build();
 
   static inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* New_ctor();
 
-  /// @brief Method SetIssuer, addr 0x36a0848, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x36a4608, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetPublicKey, addr 0x36a0818, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0x36a45d8, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* publicKey);
 
-  /// @brief Method SetSerialNumber, addr 0x36a0878, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x36a4638, size 0x98, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method SetSubject, addr 0x36a0910, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetSubject, addr 0x36a46d0, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* const& __cordl_internal_get__templateBuilder() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__templateBuilder(::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* value);
 
-  /// @brief Method .ctor, addr 0x36a09dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a479c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

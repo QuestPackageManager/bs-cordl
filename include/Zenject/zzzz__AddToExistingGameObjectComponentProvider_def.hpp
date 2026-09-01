@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/AddToExistingGameObjectComponentProvider.hpp"
+// IWYU pragma private; include "Zenject\AddToExistingGameObjectComponentProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
   /// @brief Field _gameObject, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject)) ::UnityW<::UnityEngine::GameObject> _gameObject;
 
-  /// @brief Method GetGameObject, addr 0x6e7de08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetGameObject, addr 0x6e8598c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
   static inline ::Zenject::AddToExistingGameObjectComponentProvider* New_ctor(::UnityEngine::GameObject* gameObject, ::Zenject::DiContainer* container, ::System::Type* componentType,
@@ -62,12 +62,12 @@ public:
 
   constexpr void __cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x6e7dce8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8586c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject, ::Zenject::DiContainer* container, ::System::Type* componentType,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_ShouldToggleActive, addr 0x6e7de00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldToggleActive, addr 0x6e85984, size 0x8, virtual true, abstract: false, final false
   inline bool get_ShouldToggleActive();
 
 protected:
@@ -85,7 +85,7 @@ public:
   AddToExistingGameObjectComponentProvider(AddToExistingGameObjectComponentProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14536 };
 
   /// @brief Field _gameObject, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____gameObject;

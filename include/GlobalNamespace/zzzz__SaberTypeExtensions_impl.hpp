@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SaberTypeExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\SaberTypeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberTypeExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::SaberType, ::GlobalNamespace::ColorType)>(&::GlobalNamespace::SaberTypeExtensions::MatchesColorType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3778ef8;
+  constexpr static std::size_t addrs = 0x377ec80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::XRNode (*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::SaberTypeExtensions::Node)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x377ba9c;
+  constexpr static std::size_t addrs = 0x3781824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SaberType (*)(bool)>(&::GlobalNamespace::SaberTypeExtensions::MainSaber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x377baac;
+  constexpr static std::size_t addrs = 0x3781834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::SaberTypeExtensions::ToHandString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x377bab8;
+  constexpr static std::size_t addrs = 0x3781840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SaberType (*)(::GlobalNamespace::ColorType)>(&::GlobalNamespace::SaberTypeExtensions::ToSaberType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x377bb30;
+  constexpr static std::size_t addrs = 0x37818b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorType (*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::SaberTypeExtensions::ToColorType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x377bbb0;
+  constexpr static std::size_t addrs = 0x3781938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

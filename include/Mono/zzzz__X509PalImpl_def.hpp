@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/X509PalImpl.hpp"
+// IWYU pragma private; include "Mono\X509PalImpl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,10 +45,10 @@ public:
   /// @brief Field signedData, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_signedData, put = setStaticF_signedData)) ::ArrayW<uint8_t> signedData;
 
-  /// @brief Method ConvertData, addr 0x5fc8b40, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ConvertData, addr 0x5fd05bc, size 0x110, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ConvertData(::ArrayW<uint8_t> data);
 
-  /// @brief Method GetCertContentType, addr 0x5fc8c58, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method GetCertContentType, addr 0x5fd06d4, size 0x43c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ContentType GetCertContentType(::ArrayW<uint8_t> rawData);
 
   /// @brief Method Import, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -61,24 +61,24 @@ public:
   /// @brief Method Import, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t> data);
 
-  /// @brief Method ImportFallback, addr 0x5fc81e4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ImportFallback, addr 0x5fcfc60, size 0x1f0, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* ImportFallback(::ArrayW<uint8_t> data);
 
-  /// @brief Method ImportFallback, addr 0x5fc8468, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ImportFallback, addr 0x5fcfee4, size 0x78, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* ImportFallback(::ArrayW<uint8_t> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                                   ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
   static inline ::Mono::X509PalImpl* New_ctor();
 
-  /// @brief Method PEM, addr 0x5fc89a8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method PEM, addr 0x5fd0424, size 0x198, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> PEM(::StringW type, ::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x5fc89a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd0420, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t> getStaticF_signedData();
 
-  /// @brief Method get_SupportsLegacyBasicConstraintsExtension, addr 0x5fc8c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportsLegacyBasicConstraintsExtension, addr 0x5fd06cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportsLegacyBasicConstraintsExtension();
 
   static inline void setStaticF_signedData(::ArrayW<uint8_t> value);
@@ -98,7 +98,7 @@ public:
   X509PalImpl(X509PalImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

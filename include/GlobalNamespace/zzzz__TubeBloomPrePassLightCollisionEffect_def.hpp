@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLightCollisionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\TubeBloomPrePassLightCollisionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,19 +94,19 @@ public:
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x599ad94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59a2cb8, size 0xb0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x599acfc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59a2c20, size 0x98, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x599ac64, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x59a2b88, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x599aa64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59a2988, size 0x48, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateExternal, addr 0x599afd4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method UpdateExternal, addr 0x59a2ef8, size 0xe0, virtual false, abstract: false, final false
   inline void UpdateExternal(bool hit, float_t normalizedHitDistance);
 
   constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater> const& __cordl_internal_get__effectUpdater() const;
@@ -181,31 +181,31 @@ public:
 
   constexpr void __cordl_internal_set__useScale(bool value);
 
-  /// @brief Method .ctor, addr 0x599b0b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a2fd8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EffectTransform, addr 0x599aa4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EffectTransform, addr 0x59a2970, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_EffectTransform();
 
-  /// @brief Method get_EnvironmentLayerMask, addr 0x599aa44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnvironmentLayerMask, addr 0x59a2968, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EnvironmentLayerMask();
 
-  /// @brief Method get_HitPointTransform, addr 0x599aa54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HitPointTransform, addr 0x59a2978, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_HitPointTransform();
 
-  /// @brief Method get_MaxLength, addr 0x599aa2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_MaxLength, addr 0x59a2950, size 0x18, virtual false, abstract: false, final false
   inline float_t get_MaxLength();
 
-  /// @brief Method get_NeedsUpdate, addr 0x599aa14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_NeedsUpdate, addr 0x59a2938, size 0x18, virtual false, abstract: false, final false
   inline bool get_NeedsUpdate();
 
-  /// @brief Method get_ScaleTransform, addr 0x599aa5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScaleTransform, addr 0x59a2980, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_ScaleTransform();
 
-  /// @brief Method get_ShowHitPoint, addr 0x599aa04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowHitPoint, addr 0x59a2928, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowHitPoint();
 
-  /// @brief Method get_UseScale, addr 0x599aa0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseScale, addr 0x59a2930, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseScale();
 
 protected:
@@ -223,7 +223,7 @@ public:
   TubeBloomPrePassLightCollisionEffect(TubeBloomPrePassLightCollisionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5949 };
 
   /// @brief Field _tubeBloomPrePassLight, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;

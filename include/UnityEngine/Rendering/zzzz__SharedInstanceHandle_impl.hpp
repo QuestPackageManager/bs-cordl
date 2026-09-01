@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SharedInstanceHandle.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SharedInstanceHandle.hpp"
 #include "UnityEngine/Rendering/zzzz__SharedInstanceHandle_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SharedInstanceHandle::*)()>(&::UnityEngine::Rendering::SharedInstanceHandle::get_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x681b718;
+  constexpr static std::size_t addrs = 0x6823194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SharedInstanceHandle>(), { "get_index", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SharedInstanceHandle::*)(int32_t)>(&::UnityEngine::Rendering::SharedInstanceHandle::set_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x681b720;
+  constexpr static std::size_t addrs = 0x682319c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SharedInstanceHandle::*)()>(&::UnityEngine::Rendering::SharedInstanceHandle::get_valid)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x681b728;
+  constexpr static std::size_t addrs = 0x68231a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SharedInstanceHandle>(), { "get_valid", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SharedInstanceHandle::*)(::UnityEngine::Rendering::SharedInstanceHandle)>(
     &::UnityEngine::Rendering::SharedInstanceHandle::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x681b788;
+  constexpr static std::size_t addrs = 0x6823204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SharedInstanceHandle::*)(::UnityEngine::Rendering::SharedInstanceHandle)>(
     &::UnityEngine::Rendering::SharedInstanceHandle::CompareTo)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x681b7f4;
+  constexpr static std::size_t addrs = 0x6823270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SharedInstanceHandle>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SharedInstanceHandle::*)()>(&::UnityEngine::Rendering::SharedInstanceHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x681b864;
+  constexpr static std::size_t addrs = 0x68232e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

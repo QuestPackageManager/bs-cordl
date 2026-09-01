@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/MultipleSubstitutionRecord.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\MultipleSubstitutionRecord.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__MultipleSubstitutionRecord_def.hpp"
 // Ctor Parameters [CppParam { name: "m_TargetGlyphID", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SubstituteGlyphIDs", ty: "::ArrayW<uint32_t>", modifiers: "",
 // def_value: Some("{}") }]

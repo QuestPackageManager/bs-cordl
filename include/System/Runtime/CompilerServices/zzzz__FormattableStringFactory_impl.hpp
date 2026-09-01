@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/FormattableStringFactory.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\FormattableStringFactory.hpp"
 #include "System/zzzz__FormattableString_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__FormattableStringFactory_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)(::StringW, ::ArrayW<::System::Object*>)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6c018;
+  constexpr static std::size_t addrs = 0x5b704d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6c020;
+  constexpr static std::size_t addrs = 0x5b704dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::GetArguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6c028;
+  constexpr static std::size_t addrs = 0x5b704e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b6c030;
+  constexpr static std::size_t addrs = 0x5b704ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)(int32_t)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::GetArgument)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5b6c048;
+  constexpr static std::size_t addrs = 0x5b70504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)(::System::IFormatProvider*)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::ToString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b6c078;
+  constexpr static std::size_t addrs = 0x5b70534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::FormattableString* (*)(::StringW, ::ArrayW<::System::Object*>)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory::Create)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5b6bf4c;
+  constexpr static std::size_t addrs = 0x5b70408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::FormattableStringFactory*>(),

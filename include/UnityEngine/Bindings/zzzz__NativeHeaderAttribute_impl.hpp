@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/NativeHeaderAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\NativeHeaderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeHeaderAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::NativeHeaderAttribute.set_Header
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeHeaderAttribute::*)(::StringW)>(&::UnityEngine::Bindings::NativeHeaderAttribute::set_Header)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bae428;
+  constexpr static std::size_t addrs = 0x6bb5fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeHeaderAttribute::*)(::StringW)>(&::UnityEngine::Bindings::NativeHeaderAttribute::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6bae430;
+  constexpr static std::size_t addrs = 0x6bb5fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

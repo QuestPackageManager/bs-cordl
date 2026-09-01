@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapDataCallbackWrapper.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapDataCallbackWrapper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataCallbackWrapper::*)(float_t, ::System::Type*, ::ArrayW<int32_t>)>(
     &::GlobalNamespace::BeatmapDataCallbackWrapper::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x58c474c;
+  constexpr static std::size_t addrs = 0x58c40fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

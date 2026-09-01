@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/NetConnectRequestPacket.hpp"
+// IWYU pragma private; include "LiteNetLib\NetConnectRequestPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ public:
   /// @brief Field TargetAddress, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_TargetAddress, put = __cordl_internal_set_TargetAddress)) ::ArrayW<uint8_t> TargetAddress;
 
-  /// @brief Method FromData, addr 0x58a1a1c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method FromData, addr 0x58a13e4, size 0x15c, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetConnectRequestPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method GetProtocolId, addr 0x58a1974, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetProtocolId, addr 0x58a133c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetProtocolId(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Make, addr 0x58a4af0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x58a44b8, size 0x148, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetPacket* Make(::LiteNetLib::Utils::NetDataWriter* connectData, ::System::Net::SocketAddress* addressBytes, int64_t connectId);
 
   static inline ::LiteNetLib::NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, ::LiteNetLib::Utils::NetDataReader* data);
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetAddress(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x58a4ad0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58a4498, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, ::LiteNetLib::Utils::NetDataReader* data);
 
 protected:
@@ -101,7 +101,7 @@ public:
   static constexpr int32_t HeaderSize{ static_cast<int32_t>(0xe) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20068 };
 
   /// @brief Field ConnectionTime, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionTime;

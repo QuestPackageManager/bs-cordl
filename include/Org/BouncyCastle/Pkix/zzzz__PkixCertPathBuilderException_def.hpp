@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixCertPathBuilderException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixCertPathBuilderException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x35c3d6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c7b2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35b9798, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bd558, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x35b9f64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bdd24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

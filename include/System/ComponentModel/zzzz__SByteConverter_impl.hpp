@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/SByteConverter.hpp"
+// IWYU pragma private; include "System\ComponentModel\SByteConverter.hpp"
 #include "System/ComponentModel/zzzz__BaseNumberConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__SByteConverter_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::SByteConverter::*)()>(&::System::ComponentModel::SByteConverter::get_TargetType)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63c0cf8;
+  constexpr static std::size_t addrs = 0x63c8774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::SByteConverter::*)(::StringW, int32_t)>(&::System::ComponentModel::SByteConverter::FromString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x63c0d28;
+  constexpr static std::size_t addrs = 0x63c87a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::SByteConverter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(
     &::System::ComponentModel::SByteConverter::FromString)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x63c0db0;
+  constexpr static std::size_t addrs = 0x63c882c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::SByteConverter::*)(::System::Object*, ::System::Globalization::NumberFormatInfo*)>(
     &::System::ComponentModel::SByteConverter::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x63c0de4;
+  constexpr static std::size_t addrs = 0x63c8860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::SByteConverter::*)()>(&::System::ComponentModel::SByteConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63c0e7c;
+  constexpr static std::size_t addrs = 0x63c88f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::SByteConverter*>(), { ".ctor", {}, {} })));

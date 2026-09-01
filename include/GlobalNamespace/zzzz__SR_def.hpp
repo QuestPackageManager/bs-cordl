@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SR.hpp"
+// IWYU pragma private; include "GlobalNamespace\SR.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(SR)
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System {
 class Object;
 }
@@ -24,20 +27,26 @@ namespace GlobalNamespace {
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x5f50150, size 0x8c, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::ArrayW<::System::Object*> args);
-
-  /// @brief Method Format, addr 0x5f501dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x5aac2e4, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
 
-  /// @brief Method Format, addr 0x5f50280, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x5aad28c, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method Format, addr 0x5f5032c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x5aad338, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
 
-  /// @brief Method GetString, addr 0x5f5014c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetResourceString, addr 0x5aad3f4, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW GetResourceString(::StringW str);
+
+  /// @brief Method GetString, addr 0x5aad280, size 0x8, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, ::ArrayW<::System::Object*> args);
+
+  /// @brief Method GetString, addr 0x5aad288, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name);
+
+  /// @brief Method GetString, addr 0x5aad20c, size 0x74, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*> args);
 
 protected:
   // Ctor Parameters []
@@ -54,7 +63,7 @@ public:
   SR(SR const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

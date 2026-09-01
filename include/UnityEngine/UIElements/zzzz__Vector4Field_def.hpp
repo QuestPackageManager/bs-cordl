@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Vector4Field.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Vector4Field.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Vector4Field_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d34bf0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3c774, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,7 +124,7 @@ public:
   /// @brief Field m_ZValue, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ZValue, put = __cordl_internal_set_m_ZValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_ZValue;
 
-  /// @brief Method Init, addr 0x6d34c58, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d3c7dc, size 0x210, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Vector4Field_UxmlTraits* New_ctor();
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ZValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d34e68, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3c9ec, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -243,31 +243,31 @@ public:
 
   static inline ::UnityEngine::UIElements::Vector4Field___c* New_ctor();
 
-  /// @brief Method <DescribeFields>b__0_0, addr 0x6d35018, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_0, addr 0x6d3cb9c, size 0x4, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_0(::UnityEngine::Vector4 r);
 
-  /// @brief Method <DescribeFields>b__0_1, addr 0x6d3501c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_1, addr 0x6d3cba0, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_1(::by_ref<::UnityEngine::Vector4> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_2, addr 0x6d35024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_2, addr 0x6d3cba8, size 0x8, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_2(::UnityEngine::Vector4 r);
 
-  /// @brief Method <DescribeFields>b__0_3, addr 0x6d3502c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_3, addr 0x6d3cbb0, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_3(::by_ref<::UnityEngine::Vector4> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_4, addr 0x6d35034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_4, addr 0x6d3cbb8, size 0x8, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_4(::UnityEngine::Vector4 r);
 
-  /// @brief Method <DescribeFields>b__0_5, addr 0x6d3503c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_5, addr 0x6d3cbc0, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_5(::by_ref<::UnityEngine::Vector4> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_6, addr 0x6d35044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_6, addr 0x6d3cbc8, size 0x8, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_6(::UnityEngine::Vector4 r);
 
-  /// @brief Method <DescribeFields>b__0_7, addr 0x6d3504c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_7, addr 0x6d3cbd0, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_7(::by_ref<::UnityEngine::Vector4> r, float_t v);
 
-  /// @brief Method .ctor, addr 0x6d35014, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3cb98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Vector4Field___c* getStaticF___9();
@@ -355,17 +355,17 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DescribeFields, addr 0x6d34410, size 0x5d0, virtual true, abstract: false, final false
+  /// @brief Method DescribeFields, addr 0x6d3bf94, size 0x5d0, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector4, ::UnityEngine::UIElements::FloatField*, float_t>> DescribeFields();
 
   static inline ::UnityEngine::UIElements::Vector4Field* New_ctor();
 
   static inline ::UnityEngine::UIElements::Vector4Field* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x6d349e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3c564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d349e8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3c56c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_inputUssClassName();

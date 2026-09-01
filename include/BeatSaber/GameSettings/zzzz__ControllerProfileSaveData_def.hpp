@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfileSaveData.hpp"
+// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfileSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_rightController(::BeatSaber::GameSettings::Controller value);
 
-  /// @brief Method .ctor, addr 0x328fb38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3293934, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool alternativeHandling, ::BeatSaber::GameSettings::Controller leftController, ::BeatSaber::GameSettings::Controller rightController);
 
 protected:
@@ -71,7 +71,7 @@ public:
   ControllerProfileSaveData(ControllerProfileSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22056 };
 
   /// @brief Field alternativeHandling, offset: 0x10, size: 0x1, def value: None
   bool ___alternativeHandling;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatSaberNetworkUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatSaberNetworkUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberNetworkUtility_def.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::AuthenticationToken_PlatformType)>(&::GlobalNamespace::BeatSaberNetworkUtility::GetHashedUserId)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x32a4a40;
+  constexpr static std::size_t addrs = 0x32a883c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

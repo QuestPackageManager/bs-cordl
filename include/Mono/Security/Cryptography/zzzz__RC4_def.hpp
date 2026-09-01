@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Cryptography/RC4.hpp"
+// IWYU pragma private; include "Mono\Security\Cryptography\RC4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,26 +30,26 @@ public:
   /// @brief Field s_legalKeySizes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_legalKeySizes, put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*> s_legalKeySizes;
 
-  /// @brief Method Create, addr 0x5a9f050, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5aa350c, size 0x54, virtual false, abstract: false, final false
   static inline ::Mono::Security::Cryptography::RC4* Create();
 
   static inline ::Mono::Security::Cryptography::RC4* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a9a278, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9e734, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*> getStaticF_s_legalBlockSizes();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*> getStaticF_s_legalKeySizes();
 
-  /// @brief Method get_IV, addr 0x5a9f004, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_IV, addr 0x5aa34c0, size 0x48, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_IV();
 
   static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*> value);
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*> value);
 
-  /// @brief Method set_IV, addr 0x5a9f04c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_IV, addr 0x5aa3508, size 0x4, virtual true, abstract: false, final false
   inline void set_IV(::ArrayW<uint8_t> value);
 
 protected:
@@ -67,7 +67,7 @@ public:
   RC4(RC4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

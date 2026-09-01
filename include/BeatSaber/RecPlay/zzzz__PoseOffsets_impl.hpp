@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/RecPlay/PoseOffsets.hpp"
+// IWYU pragma private; include "BeatSaber\RecPlay\PoseOffsets.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseOffsets_def.hpp"
 #include "BeatSaber/RecPlay/zzzz__PlayerPose_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::RecPlay::PoseOffsets::*)(::by_ref<::BeatSaber::RecPlay::PlayerPose>)>(&::BeatSaber::RecPlay::PoseOffsets::Adjust)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x32c1758;
+  constexpr static std::size_t addrs = 0x32c5554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

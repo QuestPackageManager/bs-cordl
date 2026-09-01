@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/RectInt.hpp"
+// IWYU pragma private; include "UnityEngine\RectInt.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,49 +55,49 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x6a7acfc, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a82778, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x6a7ada8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a82824, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::RectInt other);
 
-  /// @brief Method GetHashCode, addr 0x6a7acd8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a82754, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Overlaps, addr 0x6a7a81c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Overlaps, addr 0x6a82298, size 0x29c, virtual false, abstract: false, final false
   inline bool Overlaps(::UnityEngine::RectInt other);
 
-  /// @brief Method ToString, addr 0x6a7aab8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6a82534, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6a7aac8, size 0x210, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6a82544, size 0x210, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6a7a810, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a8228c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t xMin, int32_t yMin, int32_t width, int32_t height);
 
-  /// @brief Method get_height, addr 0x6a7a660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x6a820dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_width, addr 0x6a7a650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x6a820cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method get_x, addr 0x6a7a630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x6a820ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_xMax, addr 0x6a7a740, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_xMax, addr 0x6a821bc, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_xMax();
 
-  /// @brief Method get_xMin, addr 0x6a7a670, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_xMin, addr 0x6a820ec, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_xMin();
 
-  /// @brief Method get_y, addr 0x6a7a640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x6a820bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
-  /// @brief Method get_yMax, addr 0x6a7a7a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_yMax, addr 0x6a82224, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_yMax();
 
-  /// @brief Method get_yMin, addr 0x6a7a6d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_yMin, addr 0x6a82154, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_yMin();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::RectInt>"
@@ -106,16 +106,16 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method set_height, addr 0x6a7a668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x6a820e4, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_width, addr 0x6a7a658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x6a820d4, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
-  /// @brief Method set_x, addr 0x6a7a638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x6a820b4, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method set_y, addr 0x6a7a648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x6a820c4, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
   // Ctor Parameters []
@@ -127,7 +127,7 @@ public:
   constexpr RectInt(int32_t m_XMin, int32_t m_YMin, int32_t m_Width, int32_t m_Height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10121 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

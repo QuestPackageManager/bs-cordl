@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MakeRunsongFileBaseCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\MakeRunsongFileBaseCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,10 +72,10 @@ public:
 
   static inline ::GlobalNamespace::MakeRunsongFileBaseCommand___c* New_ctor();
 
-  /// @brief Method <CollectFirstNLongestLevels>b__12_0, addr 0x32daab8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <CollectFirstNLongestLevels>b__12_0, addr 0x32de8b4, size 0x74, virtual false, abstract: false, final false
   inline int32_t _CollectFirstNLongestLevels_b__12_0(::GlobalNamespace::BeatmapLevel* a, ::GlobalNamespace::BeatmapLevel* b);
 
-  /// @brief Method .ctor, addr 0x32daab4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32de8b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MakeRunsongFileBaseCommand___c* getStaticF___9();
@@ -101,7 +101,7 @@ public:
   MakeRunsongFileBaseCommand___c(MakeRunsongFileBaseCommand___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19401 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -141,19 +141,19 @@ public:
   /// @brief Field _songRunningHelper, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__songRunningHelper, put = __cordl_internal_set__songRunningHelper)) ::GlobalNamespace::SongRunningHelper* _songRunningHelper;
 
-  /// @brief Method CollectFirstNLongestLevels, addr 0x32da324, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method CollectFirstNLongestLevels, addr 0x32de120, size 0x1f0, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapLevel*> CollectFirstNLongestLevels(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* fromLevels, int32_t numberOfLevels);
 
-  /// @brief Method ExecuteAsync, addr 0x32d9b1c, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x32dd918, size 0x1e8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method GenerateCommandFile, addr 0x32d9d04, size 0x620, virtual false, abstract: false, final false
+  /// @brief Method GenerateCommandFile, addr 0x32ddb00, size 0x620, virtual false, abstract: false, final false
   inline bool GenerateCommandFile(::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*> messages,
                                   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* levelsToPlay);
 
   static inline ::GlobalNamespace::MakeRunsongFileBaseCommand* New_ctor();
 
-  /// @brief Method TryGetLevelCharacteristic, addr 0x32da514, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method TryGetLevelCharacteristic, addr 0x32de310, size 0x118, virtual false, abstract: false, final false
   inline bool TryGetLevelCharacteristic(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW characteristic, ::by_ref<::GlobalNamespace::BeatmapCharacteristic> characteristicEnum);
 
   /// @brief Method TryGetLevelsToPlay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -203,10 +203,10 @@ public:
 
   constexpr void __cordl_internal_set__songRunningHelper(::GlobalNamespace::SongRunningHelper* value);
 
-  /// @brief Method .ctor, addr 0x32da62c, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32de428, size 0x434, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowsUnknownArguments, addr 0x32d9b14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowsUnknownArguments, addr 0x32dd910, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowsUnknownArguments();
 
 protected:
@@ -224,7 +224,7 @@ public:
   MakeRunsongFileBaseCommand(MakeRunsongFileBaseCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19402 };
 
   /// @brief Field _songRunningHelper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::SongRunningHelper* ____songRunningHelper;

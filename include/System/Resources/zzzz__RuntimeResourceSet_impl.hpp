@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Resources/RuntimeResourceSet.hpp"
+// IWYU pragma private; include "System\Resources\RuntimeResourceSet.hpp"
 #include "System/Resources/zzzz__ResourceSet_impl.hpp"
 #include "System/Resources/zzzz__RuntimeResourceSet_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::RuntimeResourceSet::*)(::StringW)>(&::System::Resources::RuntimeResourceSet::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5b6ef94;
+  constexpr static std::size_t addrs = 0x5b73450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::RuntimeResourceSet::*)(::System::IO::Stream*)>(&::System::Resources::RuntimeResourceSet::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5b6f1dc;
+  constexpr static std::size_t addrs = 0x5b73698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::RuntimeResourceSet::*)(bool)>(&::System::Resources::RuntimeResourceSet::Dispose)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5b6f2f0;
+  constexpr static std::size_t addrs = 0x5b737ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Resources::RuntimeResourceSet::*)()>(
     &::System::Resources::RuntimeResourceSet::GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6f524;
+  constexpr static std::size_t addrs = 0x5b739e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Resources::RuntimeResourceSet::*)()>(
     &::System::Resources::RuntimeResourceSet::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6f628;
+  constexpr static std::size_t addrs = 0x5b73ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Resources::RuntimeResourceSet::*)()>(
     &::System::Resources::RuntimeResourceSet::GetEnumeratorHelper)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5b6f528;
+  constexpr static std::size_t addrs = 0x5b739e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(), { "GetEnumeratorHelper", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Resources::RuntimeResourceSet::*)(::StringW)>(&::System::Resources::RuntimeResourceSet::GetString)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5b6f62c;
+  constexpr static std::size_t addrs = 0x5b73ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Resources::RuntimeResourceSet::*)(::StringW, bool)>(&::System::Resources::RuntimeResourceSet::GetString)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5b6ff4c;
+  constexpr static std::size_t addrs = 0x5b74408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::RuntimeResourceSet::*)(::StringW)>(&::System::Resources::RuntimeResourceSet::GetObject)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b6ff7c;
+  constexpr static std::size_t addrs = 0x5b74438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::RuntimeResourceSet::*)(::StringW, bool)>(&::System::Resources::RuntimeResourceSet::GetObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6ff88;
+  constexpr static std::size_t addrs = 0x5b74444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::RuntimeResourceSet::*)(::StringW, bool, bool)>(&::System::Resources::RuntimeResourceSet::GetObject)> {
   constexpr static std::size_t size = 0x8ec;
-  constexpr static std::size_t addrs = 0x5b6f660;
+  constexpr static std::size_t addrs = 0x5b73b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::RuntimeResourceSet*>(),
@@ -162,7 +162,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
     ::System::Resources::RuntimeResourceSet::*)(::System::Resources::ResourceLocator, ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*, bool)>(
     &::System::Resources::RuntimeResourceSet::ResolveResourceLocator)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5b70784;
+  constexpr static std::size_t addrs = 0x5b74c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

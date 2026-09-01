@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteCutDirectionExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteCutDirectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirectionExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (*)(::GlobalNamespace::NoteCutDirection)>(&::GlobalNamespace::NoteCutDirectionExtensions::DirectionSign)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32594d8;
+  constexpr static std::size_t addrs = 0x325c7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::NoteCutDirection)>(&::GlobalNamespace::NoteCutDirectionExtensions::Direction)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x325953c;
+  constexpr static std::size_t addrs = 0x325c83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::GlobalNamespace::NoteCutDirection)>(&::GlobalNamespace::NoteCutDirectionExtensions::RotationAngle)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3259568;
+  constexpr static std::size_t addrs = 0x325c868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::GlobalNamespace::NoteCutDirection, float_t)>(&::GlobalNamespace::NoteCutDirectionExtensions::Rotation)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3259584;
+  constexpr static std::size_t addrs = 0x325c884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutDirectionExtensions*>(),
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::NoteCutDirection)>(&::GlobalNamespace::NoteCutDirectionExtensions::IsMainDirection)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32595bc;
+  constexpr static std::size_t addrs = 0x325c8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteCutDirection (*)(float_t)>(&::GlobalNamespace::NoteCutDirectionExtensions::MainNoteCutDirectionFromCutDirAngle)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x32595c8;
+  constexpr static std::size_t addrs = 0x325c8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteCutDirection (*)(::GlobalNamespace::NoteCutDirection)>(&::GlobalNamespace::NoteCutDirectionExtensions::Mirrored)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3259650;
+  constexpr static std::size_t addrs = 0x325c950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteCutDirection (*)(::GlobalNamespace::NoteCutDirection)>(&::GlobalNamespace::NoteCutDirectionExtensions::Opposite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x325966c;
+  constexpr static std::size_t addrs = 0x325c96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::NoteCutDirection, ::GlobalNamespace::NoteCutDirection)>(
     &::GlobalNamespace::NoteCutDirectionExtensions::IsOnSamePlane)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3259684;
+  constexpr static std::size_t addrs = 0x325c984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteCutDirection (*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::NoteCutDirectionExtensions::NoteCutDirectionFromDirection)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x325974c;
+  constexpr static std::size_t addrs = 0x325ca4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

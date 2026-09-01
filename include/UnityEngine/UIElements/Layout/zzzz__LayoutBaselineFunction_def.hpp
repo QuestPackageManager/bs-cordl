@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutBaselineFunction.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutBaselineFunction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,12 +29,12 @@ namespace UnityEngine::UIElements::Layout {
 class CORDL_TYPE LayoutBaselineFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6cf6624, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6cfe1a8, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(::by_ref<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width, float_t height);
 
   static inline ::UnityEngine::UIElements::Layout::LayoutBaselineFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6cf65a4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfe128, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

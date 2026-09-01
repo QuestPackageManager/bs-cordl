@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/FilmGrainLookupParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\FilmGrainLookupParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__FilmGrainLookup_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__FilmGrainLookupParameter_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FilmGrainLookupParameter::*)(::UnityEngine::Rendering::Universal::FilmGrainLookup, bool)>(
     &::UnityEngine::Rendering::Universal::FilmGrainLookupParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6877234;
+  constexpr static std::size_t addrs = 0x687ecb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

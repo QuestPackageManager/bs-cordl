@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Foldout.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Foldout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,7 +77,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Foldout_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d3a9c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d42548, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   /// @brief Field m_Value, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Value;
 
-  /// @brief Method Init, addr 0x6d3aa2c, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d425b0, size 0x154, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Foldout_UxmlTraits* New_ctor();
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d3ab80, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d42704, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -244,21 +244,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<bool>"
   constexpr operator ::UnityEngine::UIElements::INotifyValueChanged_1<bool>*() noexcept;
 
-  /// @brief Method Apply, addr 0x6d39ee8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x6d41a6c, size 0xc4, virtual false, abstract: false, final false
   inline bool Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op);
 
-  /// @brief Method Apply, addr 0x6d39e84, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x6d41a08, size 0x64, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, ::UnityEngine::UIElements::EventBase* sourceEvent);
 
   static inline ::UnityEngine::UIElements::Foldout* New_ctor();
 
-  /// @brief Method OnAttachToPanel, addr 0x6d3a3d0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method OnAttachToPanel, addr 0x6d41f54, size 0x1e0, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x6d39e50, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x6d419d4, size 0x34, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x6d39d0c, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method SetValueWithoutNotify, addr 0x6d41890, size 0x144, virtual true, abstract: false, final true
   inline void SetValueWithoutNotify(bool newValue);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
@@ -285,10 +285,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(bool value);
 
-  /// @brief Method <.ctor>b__39_0, addr 0x6d3a970, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__39_0, addr 0x6d424f4, size 0x54, virtual false, abstract: false, final false
   inline void __ctor_b__39_0(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method .ctor, addr 0x6d39fac, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d41b30, size 0x424, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
@@ -315,22 +315,22 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_valueProperty();
 
-  /// @brief Method get_contentContainer, addr 0x6d39800, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x6d41384, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_focusable, addr 0x6d39808, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_focusable, addr 0x6d4138c, size 0x8, virtual true, abstract: false, final false
   inline bool get_focusable();
 
-  /// @brief Method get_text, addr 0x6d39914, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x6d41498, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_toggle, addr 0x6d397f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x6d4137c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Toggle* get_toggle();
 
-  /// @brief Method get_toggleOnLabelClick, addr 0x6d39850, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_toggleOnLabelClick, addr 0x6d413d4, size 0x18, virtual false, abstract: false, final false
   inline bool get_toggleOnLabelClick();
 
-  /// @brief Method get_value, addr 0x6d39b08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x6d4168c, size 0x8, virtual true, abstract: false, final true
   inline bool get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<bool>"
@@ -360,16 +360,16 @@ public:
 
   static inline void setStaticF_valueProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_focusable, addr 0x6d39810, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_focusable, addr 0x6d41394, size 0x40, virtual true, abstract: false, final false
   inline void set_focusable(bool value);
 
-  /// @brief Method set_text, addr 0x6d39940, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x6d414c4, size 0x1c8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_toggleOnLabelClick, addr 0x6d39868, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_toggleOnLabelClick, addr 0x6d413ec, size 0xac, virtual false, abstract: false, final false
   inline void set_toggleOnLabelClick(bool value);
 
-  /// @brief Method set_value, addr 0x6d39b10, size 0x1fc, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x6d41694, size 0x1fc, virtual true, abstract: false, final true
   inline void set_value(bool value);
 
 protected:

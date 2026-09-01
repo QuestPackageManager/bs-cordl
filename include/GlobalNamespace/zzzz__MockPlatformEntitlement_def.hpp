@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MockPlatformEntitlement.hpp"
+// IWYU pragma private; include "GlobalNamespace\MockPlatformEntitlement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   __declspec(property(get = get_status)) ::GlobalNamespace::EntitlementStatus status;
 
-  /// @brief Method GetIt, addr 0x36f82ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetIt, addr 0x36fc4fc, size 0xc, virtual false, abstract: false, final false
   inline void GetIt();
 
   static inline ::GlobalNamespace::MockPlatformEntitlement* New_ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__status(::GlobalNamespace::EntitlementStatus value);
 
-  /// @brief Method .ctor, addr 0x36f82b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36fc508, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
 
-  /// @brief Method get_id, addr 0x36f9490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x36fd6e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_status, addr 0x36f9498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x36fd6e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EntitlementStatus get_status();
 
 protected:
@@ -75,7 +75,7 @@ public:
   MockPlatformEntitlement(MockPlatformEntitlement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14774 };
 
   /// @brief Field _id, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id;

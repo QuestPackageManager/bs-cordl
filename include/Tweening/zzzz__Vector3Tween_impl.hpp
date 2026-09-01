@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tweening/Vector3Tween.hpp"
+// IWYU pragma private; include "Tweening\Vector3Tween.hpp"
 #include "Tweening/zzzz__Tween_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "Tweening/zzzz__Vector3Tween_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Vector3Tween::*)()>(&::Tweening::Vector3Tween::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6440d00;
+  constexpr static std::size_t addrs = 0x644877c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Vector3Tween*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Vector3Tween::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action_1<::UnityEngine::Vector3>*, float_t,
                                                                                           ::GlobalNamespace::EaseType, float_t)>(&::Tweening::Vector3Tween::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6440d60;
+  constexpr static std::size_t addrs = 0x64487dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Vector3Tween::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Action_1<::UnityEngine::Vector3>*, float_t,
                                                                                           ::UnityEngine::AnimationCurve*, float_t)>(&::Tweening::Vector3Tween::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6440e14;
+  constexpr static std::size_t addrs = 0x6448890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::Tweening::Vector3Tween::*)(float_t)>(&::Tweening::Vector3Tween::GetValue)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6440ecc;
+  constexpr static std::size_t addrs = 0x6448948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Tweening::Vector3Tween*>(), { ::i2c::class_of<::Tweening::Vector3Tween*>(), 6 }));

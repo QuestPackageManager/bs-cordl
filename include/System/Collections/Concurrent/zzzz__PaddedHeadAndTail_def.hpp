@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Concurrent/PaddedHeadAndTail.hpp"
+// IWYU pragma private; include "System\Collections\Concurrent\PaddedHeadAndTail.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT

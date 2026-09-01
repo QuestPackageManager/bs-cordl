@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.hpp"
+// IWYU pragma private; include "Zenject\DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder.hpp"
 #include "Zenject/zzzz__DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder_impl.hpp"
 #include "Zenject/zzzz__DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder::*)(::Zenject::SignalDeclarationBindInfo*)>(
     &::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6e3e554;
+  constexpr static std::size_t addrs = 0x6e460d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder* (
     ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder::*)(::System::Object*)>(&::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder::WithId)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e3e59c;
+  constexpr static std::size_t addrs = 0x6e46120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

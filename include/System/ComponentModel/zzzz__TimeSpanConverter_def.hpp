@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/TimeSpanConverter.hpp"
+// IWYU pragma private; include "System\ComponentModel\TimeSpanConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,22 +31,22 @@ namespace System::ComponentModel {
 class CORDL_TYPE TimeSpanConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x63c1250, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x63c8ccc, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x63c12d0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x63c8d4c, size 0xa4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x63c1374, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x63c8df0, size 0x1e4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x63c1558, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x63c8fd4, size 0x2ec, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::TimeSpanConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x63c1844, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c92c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   TimeSpanConverter(TimeSpanConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

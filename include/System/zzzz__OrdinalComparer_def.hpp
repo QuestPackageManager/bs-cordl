@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/OrdinalComparer.hpp"
+// IWYU pragma private; include "System\OrdinalComparer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,19 +27,19 @@ public:
   /// @brief Field _ignoreCase, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__ignoreCase, put = __cordl_internal_set__ignoreCase)) bool _ignoreCase;
 
-  /// @brief Method Compare, addr 0x5c5a00c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5c5e4c8, size 0x64, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x5c5a18c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c5e648, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5c5a070, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c5e52c, size 0x84, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x5c5a224, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c5e6e0, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x5c5a0f4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c5e5b0, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
   static inline ::System::OrdinalComparer* New_ctor(bool ignoreCase);
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__ignoreCase(bool value);
 
-  /// @brief Method .ctor, addr 0x5c59fa4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5e460, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(bool ignoreCase);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRMRAudioFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRMRAudioFilter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMRAudioFilter_def.hpp"
 #include "GlobalNamespace/zzzz__OVRExternalComposition_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMRAudioFilter::*)()>(&::GlobalNamespace::OVRMRAudioFilter::Start)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5df2fd4;
+  constexpr static std::size_t addrs = 0x5df7490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMRAudioFilter*>(), { "Start", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMRAudioFilter::*)(::ArrayW<float_t>, int32_t)>(&::GlobalNamespace::OVRMRAudioFilter::OnAudioFilterRead)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5df2fe0;
+  constexpr static std::size_t addrs = 0x5df749c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMRAudioFilter::*)()>(&::GlobalNamespace::OVRMRAudioFilter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df2ff8;
+  constexpr static std::size_t addrs = 0x5df74b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMRAudioFilter*>(), { ".ctor", {}, {} })));

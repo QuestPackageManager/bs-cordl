@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/CaseInsensitiveComparer.hpp"
+// IWYU pragma private; include "System\Collections\CaseInsensitiveComparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__CaseInsensitiveComparer_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::CaseInsensitiveComparer::*)()>(&::System::Collections::CaseInsensitiveComparer::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5be0808;
+  constexpr static std::size_t addrs = 0x5be4cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::CaseInsensitiveComparer*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::CaseInsensitiveComparer::*)(::System::Globalization::CultureInfo*)>(
     &::System::Collections::CaseInsensitiveComparer::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5be087c;
+  constexpr static std::size_t addrs = 0x5be4d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::CaseInsensitiveComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::CaseInsensitiveComparer::Compare)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5be08f0;
+  constexpr static std::size_t addrs = 0x5be4dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::CaseInsensitiveComparer*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/XHashtable_1.hpp"
+// IWYU pragma private; include "System\Xml\Linq\XHashtable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
   XHashtable_1_ExtractKeyDelegate(XHashtable_1_ExtractKeyDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21977 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,7 +103,7 @@ public:
   constexpr XHashtableState_XHashtable_1_Entry(TValue Value, int32_t HashCode, int32_t Next) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21978 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -203,7 +203,7 @@ public:
   XHashtable_1_XHashtableState(XHashtable_1_XHashtableState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21979 };
 
   /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ____buckets;
@@ -269,7 +269,7 @@ public:
   XHashtable_1(XHashtable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21980 };
 
   /// @brief Field _state, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Linq::XHashtable_1_XHashtableState<TValue>* ____state;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlSerializerFactory.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlSerializerFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializerFactory_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializerFactory::*)()>(&::System::Xml::Serialization::XmlSerializerFactory::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x630a248;
+  constexpr static std::size_t addrs = 0x6311cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializerFactory*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::XmlSerializer* (::System::Xml::Serialization::XmlSerializerFactory::*)(::System::Type*)>(
     &::System::Xml::Serialization::XmlSerializerFactory::CreateSerializer)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x630a24c;
+  constexpr static std::size_t addrs = 0x6311cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::XmlSerializer* (
     ::System::Xml::Serialization::XmlSerializerFactory::*)(::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*)>(&::System::Xml::Serialization::XmlSerializerFactory::CreateSerializer)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x630a4d8;
+  constexpr static std::size_t addrs = 0x6311f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serializat
     ::System::Xml::Serialization::XmlSerializerFactory::*)(::System::Type*, ::System::Xml::Serialization::XmlAttributeOverrides*, ::ArrayW<::System::Type*>,
                                                            ::System::Xml::Serialization::XmlRootAttribute*, ::StringW)>(&::System::Xml::Serialization::XmlSerializerFactory::CreateSerializer)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x630a260;
+  constexpr static std::size_t addrs = 0x6311cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

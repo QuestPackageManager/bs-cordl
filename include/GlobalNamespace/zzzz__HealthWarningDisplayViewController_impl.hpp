@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HealthWarningDisplayViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\HealthWarningDisplayViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningDisplayViewController_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningDisplayViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::HealthWarningDisplayViewController::DidActivate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a12164;
+  constexpr static std::size_t addrs = 0x5a1a270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningDisplayViewController*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningDisplayViewController::*)()>(&::GlobalNamespace::HealthWarningDisplayViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1219c;
+  constexpr static std::size_t addrs = 0x5a1a2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningDisplayViewController*>(), { ".ctor", {}, {} })));

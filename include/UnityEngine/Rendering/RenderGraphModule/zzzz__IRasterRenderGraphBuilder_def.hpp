@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/IRasterRenderGraphBuilder.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\IRasterRenderGraphBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*() noexcept;
 
-  /// @brief Method SetInputAttachment, addr 0x67c952c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method SetInputAttachment, addr 0x67d0fa8, size 0xd4, virtual true, abstract: false, final false
   inline void SetInputAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, int32_t index, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method SetInputAttachment, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -57,14 +57,14 @@ public:
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle SetRandomAccessAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, int32_t index,
                                                                                               ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
-  /// @brief Method SetRenderAttachment, addr 0x67c9458, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method SetRenderAttachment, addr 0x67d0ed4, size 0xd4, virtual true, abstract: false, final false
   inline void SetRenderAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, int32_t index, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method SetRenderAttachment, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetRenderAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, int32_t index, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags, int32_t mipLevel,
                                   int32_t depthSlice);
 
-  /// @brief Method SetRenderAttachmentDepth, addr 0x67c9600, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method SetRenderAttachmentDepth, addr 0x67d107c, size 0xcc, virtual true, abstract: false, final false
   inline void SetRenderAttachmentDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method SetRenderAttachmentDepth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -94,7 +94,7 @@ public:
   IRasterRenderGraphBuilder(IRasterRenderGraphBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

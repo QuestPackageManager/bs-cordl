@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRMetricsToolSDK.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRMetricsToolSDK.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMetricsToolSDK_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMetricsToolSDK_def.hpp"
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(&::GlobalNamespace::OVRMetricsToolSDK::ovrMetricsTool_Initialize)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5f3b25c;
+  constexpr static std::size_t addrs = 0x5f3f6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::GlobalNamespace::OVRMetricsToolSDK::ovrMetricsTool_EnterVrMode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f3b2f8;
+  constexpr static std::size_t addrs = 0x5f3f764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "ovrMetricsTool_EnterVrMode", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::OVRMetricsToolSDK::ovrMetricsTool_AppendCsvDebugString)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5f3b364;
+  constexpr static std::size_t addrs = 0x5f3f7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::OVRMetricsToolSDK::ovrMetricsTool_SetOverlayDebugString)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5f3b400;
+  constexpr static std::size_t addrs = 0x5f3f86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRMetricsToolSDK::ovrMetricsTool_GetLatestEventJson)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f3b49c;
+  constexpr static std::size_t addrs = 0x5f3f908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "ovrMetricsTool_GetLatestEventJson", {}, {} })));
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::GlobalNamespace::OVRMetricsToolSDK::ovrMetricsTool_LeaveVrMode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f3b524;
+  constexpr static std::size_t addrs = 0x5f3f990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "ovrMetricsTool_LeaveVrMode", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::GlobalNamespace::OVRMetricsToolSDK::ovrMetricsTool_Shutdown)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f3b590;
+  constexpr static std::size_t addrs = 0x5f3f9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "ovrMetricsTool_Shutdown", {}, {} })));
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRMetricsToolSDK> (*)()>(&::GlobalNamespace::OVRMetricsToolSDK::get_Instance)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5f3b5fc;
+  constexpr static std::size_t addrs = 0x5f3fa68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "get_Instance", {}, {} })));
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::OVRMetricsToolSDK::Initialize)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x5f3b740;
+  constexpr static std::size_t addrs = 0x5f3fbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "Initialize", {}, {} })));
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMetricsToolSDK::*)()>(&::GlobalNamespace::OVRMetricsToolSDK::Awake)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f3baa4;
+  constexpr static std::size_t addrs = 0x5f3ff10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "Awake", {}, {} })));
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMetricsToolSDK::*)()>(&::GlobalNamespace::OVRMetricsToolSDK::OnDestroy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f3bbd0;
+  constexpr static std::size_t addrs = 0x5f4003c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "OnDestroy", {}, {} })));
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMetricsToolSDK::*)(bool)>(&::GlobalNamespace::OVRMetricsToolSDK::OnApplicationPause)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f3bd58;
+  constexpr static std::size_t addrs = 0x5f401c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMetricsToolSDK::*)()>(&::GlobalNamespace::OVRMetricsToolSDK::EnterVrMode)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5f3bab4;
+  constexpr static std::size_t addrs = 0x5f3ff20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "EnterVrMode", {}, {} })));
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMetricsToolSDK::*)()>(&::GlobalNamespace::OVRMetricsToolSDK::LeaveVrMode)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5f3bbe0;
+  constexpr static std::size_t addrs = 0x5f4004c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "LeaveVrMode", {}, {} })));
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMetricsToolSDK::*)()>(&::GlobalNamespace::OVRMetricsToolSDK::Shutdown)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f3bcf4;
+  constexpr static std::size_t addrs = 0x5f40160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "Shutdown", {}, {} })));
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMetricsToolSDK::*)(::StringW)>(&::GlobalNamespace::OVRMetricsToolSDK::AppendCsvDebugString)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5f3bd64;
+  constexpr static std::size_t addrs = 0x5f401d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMetricsToolSDK::*)(::StringW)>(&::GlobalNamespace::OVRMetricsToolSDK::SetOverlayDebugString)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5f3bed4;
+  constexpr static std::size_t addrs = 0x5f40340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::GlobalNamespace::OVRMetricsToolSDK_MetricsSnapshot> (::GlobalNamespace::OVRMetricsToolSDK::*)()>(
     &::GlobalNamespace::OVRMetricsToolSDK::GetLatestMetricsSnapshot)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5f3c044;
+  constexpr static std::size_t addrs = 0x5f404b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { "GetLatestMetricsSnapshot", {}, {} })));
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMetricsToolSDK::*)()>(&::GlobalNamespace::OVRMetricsToolSDK::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3c214;
+  constexpr static std::size_t addrs = 0x5f40680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMetricsToolSDK*>(), { ".ctor", {}, {} })));

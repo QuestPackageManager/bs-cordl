@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BombCutSoundEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\BombCutSoundEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,18 +65,18 @@ public:
   /// @brief Field saberManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_saberManager, put = __cordl_internal_set_saberManager)) ::UnityW<::GlobalNamespace::SaberManager> saberManager;
 
-  /// @brief Method HandleBombCutSoundEffectDidFinish, addr 0x58b6fac, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleBombCutSoundEffectDidFinish, addr 0x58b6914, size 0xc0, virtual false, abstract: false, final false
   inline void HandleBombCutSoundEffectDidFinish(::GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
 
-  /// @brief Method HandleNoteWasCut, addr 0x58b6cd4, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x58b663c, size 0x240, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::BombCutSoundEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58b6f14, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58b687c, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58b6bf0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58b6558, size 0xe4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  /// @brief Method .ctor, addr 0x58b706c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b69d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

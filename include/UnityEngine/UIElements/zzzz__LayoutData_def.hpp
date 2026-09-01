@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/LayoutData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\LayoutData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,19 +44,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*();
 
-  /// @brief Method Copy, addr 0x6c86b4c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x6c8e6d0, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::LayoutData Copy();
 
-  /// @brief Method CopyFrom, addr 0x6c86b5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x6c8e6e0, size 0x8, virtual true, abstract: false, final true
   inline void CopyFrom(::by_ref<::UnityEngine::UIElements::LayoutData> other);
 
-  /// @brief Method Equals, addr 0x6c86f94, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c8eb18, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c86f48, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c8eacc, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::LayoutData other);
 
-  /// @brief Method GetHashCode, addr 0x6c87038, size 0x398, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c8ebbc, size 0x398, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
@@ -65,7 +65,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__LayoutData_();
 
-  /// @brief Method op_Equality, addr 0x6c86b64, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c8e6e8, size 0x3e4, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::LayoutData lhs, ::UnityEngine::UIElements::LayoutData rhs);
 
   // Ctor Parameters []

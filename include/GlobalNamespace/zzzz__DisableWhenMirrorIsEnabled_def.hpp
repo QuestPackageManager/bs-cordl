@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DisableWhenMirrorIsEnabled.hpp"
+// IWYU pragma private; include "GlobalNamespace\DisableWhenMirrorIsEnabled.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +27,15 @@ public:
 
   __declspec(property(get = get_mirror, put = set_mirror)) ::UnityW<::GlobalNamespace::Mirror> mirror;
 
-  /// @brief Method HandleMirrorDidChangeEnabledState, addr 0x58e0d50, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorDidChangeEnabledState, addr 0x58e4364, size 0x2c, virtual false, abstract: false, final false
   inline void HandleMirrorDidChangeEnabledState(bool isEnabled);
 
   static inline ::GlobalNamespace::DisableWhenMirrorIsEnabled* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58e0d7c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58e4390, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58e0cac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58e42c0, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::Mirror> const& __cordl_internal_get__mirror() const;
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__mirror(::UnityW<::GlobalNamespace::Mirror> value);
 
-  /// @brief Method .ctor, addr 0x58e0e90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e44a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mirror, addr 0x58e0c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirror, addr 0x58e42b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Mirror> get_mirror();
 
-  /// @brief Method set_mirror, addr 0x58e0ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mirror, addr 0x58e42b8, size 0x8, virtual false, abstract: false, final false
   inline void set_mirror(::GlobalNamespace::Mirror* value);
 
 protected:
@@ -68,7 +68,7 @@ public:
   DisableWhenMirrorIsEnabled(DisableWhenMirrorIsEnabled const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6532 };
 
   /// @brief Field _mirror, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Mirror> ____mirror;

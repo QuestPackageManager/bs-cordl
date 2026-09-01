@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/GC.hpp"
+// IWYU pragma private; include "System\GC.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__GC_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__Ephemeron_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::GC::GetCollectionCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c7b930;
+  constexpr static std::size_t addrs = 0x5c7fdec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::GC*>(), { "GetCollectionCount", {}, { ::i2c::type_of<int32_t>() } })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::GC::GetMaxGeneration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c7b93c;
+  constexpr static std::size_t addrs = 0x5c7fdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::GC*>(), { "GetMaxGeneration", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::System::GC::InternalCollect)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c7b944;
+  constexpr static std::size_t addrs = 0x5c7fe00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::GC*>(), { "InternalCollect", {}, { ::i2c::type_of<int32_t>() } })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::System::Runtime::CompilerServices::Ephemeron>)>(&::System::GC::register_ephemeron_array)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c7b948;
+  constexpr static std::size_t addrs = 0x5c7fe04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)()>(&::System::GC::get_ephemeron_tombstone)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c7b94c;
+  constexpr static std::size_t addrs = 0x5c7fe08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::GC*>(), { "get_ephemeron_tombstone", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint32_t>, ::by_ref<uint64_t>, ::by_ref<uint32_t>, ::by_ref<::System::UIntPtr>, ::by_ref<::System::UIntPtr>)>(
     &::System::GC::GetMemoryInfo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c7b960;
+  constexpr static std::size_t addrs = 0x5c7fe1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::GC::Collect)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c7b97c;
+  constexpr static std::size_t addrs = 0x5c7fe38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::GC*>(), { "Collect", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::GC::CollectionCount)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5c7ba24;
+  constexpr static std::size_t addrs = 0x5c7fee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::GC*>(), { "CollectionCount", {}, { ::i2c::type_of<int32_t>() } })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::GC::KeepAlive)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c7bae0;
+  constexpr static std::size_t addrs = 0x5c7ff9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::GC*>(), { "KeepAlive", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::GC::get_MaxGeneration)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c7b9d0;
+  constexpr static std::size_t addrs = 0x5c7fe8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::GC*>(), { "get_MaxGeneration", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::GC::_SuppressFinalize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c7bae4;
+  constexpr static std::size_t addrs = 0x5c7ffa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::GC*>(), { "_SuppressFinalize", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::GC::SuppressFinalize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5c7bae8;
+  constexpr static std::size_t addrs = 0x5c7ffa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::GC*>(), { "SuppressFinalize", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::GC::_ReRegisterForFinalize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c7bb8c;
+  constexpr static std::size_t addrs = 0x5c80048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::GC::ReRegisterForFinalize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5c7bb90;
+  constexpr static std::size_t addrs = 0x5c8004c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

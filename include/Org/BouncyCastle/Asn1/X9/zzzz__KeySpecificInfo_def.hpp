@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/KeySpecificInfo.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\KeySpecificInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x36741a8, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3677f68, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_algorithm() const;
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_counter(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x3673ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3677c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* counter);
 
-  /// @brief Method .ctor, addr 0x3673ed0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3677c90, size 0x2c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Algorithm, addr 0x3674198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x3677f58, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Algorithm();
 
-  /// @brief Method get_Counter, addr 0x36741a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Counter, addr 0x3677f60, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Counter();
 
 protected:

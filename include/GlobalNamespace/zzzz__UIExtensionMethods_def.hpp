@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/UIExtensionMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\UIExtensionMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE UIExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CopySizeAndPositionFrom, addr 0x5859530, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CopySizeAndPositionFrom, addr 0x5858638, size 0xcc, virtual false, abstract: false, final false
   static inline void CopySizeAndPositionFrom(::UnityEngine::RectTransform* target, ::UnityEngine::RectTransform* source);
 
-  /// @brief Method GetWorldRect, addr 0x58595fc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetWorldRect, addr 0x5858704, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect GetWorldRect(::UnityEngine::RectTransform* target);
 
 protected:
@@ -46,7 +46,7 @@ public:
   UIExtensionMethods(UIExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

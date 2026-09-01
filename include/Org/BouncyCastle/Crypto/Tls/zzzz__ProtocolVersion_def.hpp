@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/ProtocolVersion.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\ProtocolVersion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,33 +60,33 @@ public:
   /// @brief Field version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  /// @brief Method Equals, addr 0x3468bc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x346c988, size 0x20, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* other);
 
-  /// @brief Method Equals, addr 0x3468b3c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x346c8fc, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Get, addr 0x3468bf0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x346c9b0, size 0x1f4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* Get(int32_t major, int32_t minor);
 
-  /// @brief Method GetEquivalentTLSVersion, addr 0x34689d4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetEquivalentTLSVersion, addr 0x346c794, size 0xc4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* GetEquivalentTLSVersion();
 
-  /// @brief Method GetHashCode, addr 0x3468be8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x346c9a8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetUnknownVersion, addr 0x3468de4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetUnknownVersion, addr 0x346cba4, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* GetUnknownVersion(int32_t major, int32_t minor, ::StringW prefix);
 
-  /// @brief Method IsEqualOrEarlierVersionOf, addr 0x3468a98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsEqualOrEarlierVersionOf, addr 0x346c858, size 0x54, virtual false, abstract: false, final false
   inline bool IsEqualOrEarlierVersionOf(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* version);
 
-  /// @brief Method IsLaterVersionOf, addr 0x3468aec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsLaterVersionOf, addr 0x346c8ac, size 0x50, virtual false, abstract: false, final false
   inline bool IsLaterVersionOf(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* version);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* New_ctor(int32_t v, ::StringW name);
 
-  /// @brief Method ToString, addr 0x3468f5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x346cd1c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -101,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3468918, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346c6d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t v, ::StringW name);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* getStaticF_DTLSv10();
@@ -116,22 +116,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* getStaticF_TLSv12();
 
-  /// @brief Method get_FullVersion, addr 0x3468928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FullVersion, addr 0x346c6e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FullVersion();
 
-  /// @brief Method get_IsDtls, addr 0x3468944, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsDtls, addr 0x346c704, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsDtls();
 
-  /// @brief Method get_IsSsl, addr 0x3468958, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_IsSsl, addr 0x346c718, size 0x68, virtual false, abstract: false, final false
   inline bool get_IsSsl();
 
-  /// @brief Method get_IsTls, addr 0x34689c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsTls, addr 0x346c780, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsTls();
 
-  /// @brief Method get_MajorVersion, addr 0x3468930, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MajorVersion, addr 0x346c6f0, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_MajorVersion();
 
-  /// @brief Method get_MinorVersion, addr 0x346893c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinorVersion, addr 0x346c6fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MinorVersion();
 
   static inline void setStaticF_DTLSv10(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);

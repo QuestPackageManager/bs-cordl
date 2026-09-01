@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LeaderboardIdsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\LeaderboardIdsModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardIdsModel::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*)>(
     &::GlobalNamespace::LeaderboardIdsModel::_ctor)> {
   constexpr static std::size_t size = 0x5e4;
-  constexpr static std::size_t addrs = 0x3750eac;
+  constexpr static std::size_t addrs = 0x3756ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LeaderboardIdsModel::*)(::by_ref<::GlobalNamespace::BeatmapKey>, ::by_ref<::StringW>)>(
     &::GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3751490;
+  constexpr static std::size_t addrs = 0x37570b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

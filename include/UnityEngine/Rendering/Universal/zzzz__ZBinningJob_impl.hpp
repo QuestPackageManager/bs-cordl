@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ZBinningJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ZBinningJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Mathematics/zzzz__float2_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ZBinningJob_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::UnityEngine::Rendering::Universal::ZBinningJob::EncodeHeader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68bfe28;
+  constexpr static std::size_t addrs = 0x68c78a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<uint32_t, uint32_t> (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::ZBinningJob::DecodeHeader)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68bfe30;
+  constexpr static std::size_t addrs = 0x68c78ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ZBinningJob::*)(int32_t)>(&::UnityEngine::Rendering::Universal::ZBinningJob::Execute)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x68bfe7c;
+  constexpr static std::size_t addrs = 0x68c78f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ZBinningJob::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::ZBinningJob::FillZBins)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x68bff90;
+  constexpr static std::size_t addrs = 0x68c7a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

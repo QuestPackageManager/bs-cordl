@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/ExtensionType.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\ExtensionType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ExtensionType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3467680, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346b440, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DRAFT_token_binding();

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/Trace.hpp"
+// IWYU pragma private; include "System\Diagnostics\Trace.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__Trace_def.hpp"
 #include "System/Diagnostics/zzzz__CorrelationManager_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::TraceListenerCollection* (*)()>(&::System::Diagnostics::Trace::get_Listeners)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63902e4;
+  constexpr static std::size_t addrs = 0x6397d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Trace*>(), { "get_Listeners", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Diagnostics::Trace::get_AutoFlush)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63905d4;
+  constexpr static std::size_t addrs = 0x6398050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Trace*>(), { "get_AutoFlush", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::CorrelationManager* (*)()>(&::System::Diagnostics::Trace::get_CorrelationManager)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6390684;
+  constexpr static std::size_t addrs = 0x6398100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Trace*>(), { "get_CorrelationManager", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Controls/DoubleControl.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Controls\DoubleControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +22,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::DoubleControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x64f3a04, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x64fb480, size 0x6c, virtual true, abstract: false, final false
   inline double_t ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x64f3a70, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x64fb4ec, size 0x7c, virtual true, abstract: false, final false
   inline void WriteValueIntoState(double_t value, void* statePtr);
 
-  /// @brief Method .ctor, addr 0x64f3980, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64fb3fc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   DoubleControl(DoubleControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9127 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

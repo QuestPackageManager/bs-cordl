@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleTransformOrigin.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleTransformOrigin.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransformOrigin_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleTransformOrigin_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TransformOrigin (::UnityEngine::UIElements::StyleTransformOrigin::*)()>(
     &::UnityEngine::UIElements::StyleTransformOrigin::get_value)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c8cdd0;
+  constexpr static std::size_t addrs = 0x6c94954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleTransformOrigin>(), { "get_value", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTransformOrigin::*)(::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::StyleTransformOrigin::set_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c8ce60;
+  constexpr static std::size_t addrs = 0x6c949e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleTransformOrigin::*)()>(
     &::UnityEngine::UIElements::StyleTransformOrigin::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c8ce74;
+  constexpr static std::size_t addrs = 0x6c949f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleTransformOrigin>(), { "get_keyword", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTransformOrigin::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTransformOrigin::set_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c8ce7c;
+  constexpr static std::size_t addrs = 0x6c94a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTransformOrigin::*)(::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::StyleTransformOrigin::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c8ce84;
+  constexpr static std::size_t addrs = 0x6c94a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTransformOrigin::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTransformOrigin::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c8cebc;
+  constexpr static std::size_t addrs = 0x6c94a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleTransformOrigin::*)(::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTransformOrigin::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c8cea4;
+  constexpr static std::size_t addrs = 0x6c94a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleTransformOrigin, ::UnityEngine::UIElements::StyleTransformOrigin)>(
     &::UnityEngine::UIElements::StyleTransformOrigin::op_Equality)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c8cec8;
+  constexpr static std::size_t addrs = 0x6c94a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleTransformOrigin (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleTransformOrigin::op_Implicit___UnityEngine__UIElements__StyleTransformOrigin)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c8cf48;
+  constexpr static std::size_t addrs = 0x6c94acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleTransformOrigin (*)(::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::StyleTransformOrigin::op_Implicit___UnityEngine__UIElements__StyleTransformOrigin)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c8cf54;
+  constexpr static std::size_t addrs = 0x6c94ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleTransformOrigin::*)(::UnityEngine::UIElements::StyleTransformOrigin)>(
     &::UnityEngine::UIElements::StyleTransformOrigin::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c8cf68;
+  constexpr static std::size_t addrs = 0x6c94aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleTransformOrigin::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleTransformOrigin::Equals)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c8cfe8;
+  constexpr static std::size_t addrs = 0x6c94b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleTransformOrigin::*)()>(&::UnityEngine::UIElements::StyleTransformOrigin::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c8d0c4;
+  constexpr static std::size_t addrs = 0x6c94c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleTransformOrigin::*)()>(&::UnityEngine::UIElements::StyleTransformOrigin::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c8d0e8;
+  constexpr static std::size_t addrs = 0x6c94c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

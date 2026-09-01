@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/LocalDataStore.hpp"
+// IWYU pragma private; include "System\LocalDataStore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,21 +40,21 @@ public:
   /// @brief Field m_Manager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Manager, put = __cordl_internal_set_m_Manager)) ::System::LocalDataStoreMgr* m_Manager;
 
-  /// @brief Method Dispose, addr 0x5c6c68c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5c70b48, size 0x18, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FreeData, addr 0x5c6ccac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FreeData, addr 0x5c71168, size 0x48, virtual false, abstract: false, final false
   inline void FreeData(int32_t slot, int64_t cookie);
 
-  /// @brief Method GetData, addr 0x5c6c83c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x5c70cf8, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Object* GetData(::System::LocalDataStoreSlot* slot);
 
   static inline ::System::LocalDataStore* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
 
-  /// @brief Method PopulateElement, addr 0x5c6ca24, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method PopulateElement, addr 0x5c70ee0, size 0x288, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreElement* PopulateElement(::System::LocalDataStoreSlot* slot);
 
-  /// @brief Method SetData, addr 0x5c6c95c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5c70e18, size 0xc8, virtual false, abstract: false, final false
   inline void SetData(::System::LocalDataStoreSlot* slot, ::System::Object* data);
 
   constexpr ::ArrayW<::System::LocalDataStoreElement*> const& __cordl_internal_get_m_DataTable() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Manager(::System::LocalDataStoreMgr* value);
 
-  /// @brief Method .ctor, addr 0x5c6c6cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c70b88, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t InitialCapacity);
 
 protected:

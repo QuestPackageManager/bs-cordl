@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerBitString.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerBitString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE BerBitString : public ::Org::BouncyCastle::Asn1::DerBitString {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x36854d0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3689290, size 0xe8, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::BerBitString* New_ctor(::ArrayW<uint8_t> data);
@@ -38,16 +38,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerBitString* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x368538c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368914c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x3685318, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36890d8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> data, int32_t padBits);
 
-  /// @brief Method .ctor, addr 0x36853f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36891b8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t namedBits);
 
-  /// @brief Method .ctor, addr 0x3685464, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3689224, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
 protected:

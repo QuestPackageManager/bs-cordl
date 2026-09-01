@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Networking/PureCSharpPool_1.hpp"
+// IWYU pragma private; include "OSCE\Networking\PureCSharpPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   PureCSharpPool_1_DebugTrace(PureCSharpPool_1_DebugTrace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21898 };
 
   /// @brief Field AllocatedElement, offset: 0x10, size: 0x8, def value: None
   T ___AllocatedElement;
@@ -160,7 +160,7 @@ public:
   static constexpr int32_t INITIAL_CAPACITY{ static_cast<int32_t>(0x400) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

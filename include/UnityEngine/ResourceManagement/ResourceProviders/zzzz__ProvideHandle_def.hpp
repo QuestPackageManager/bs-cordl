@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/ProvideHandle.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\ProvideHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,40 +63,40 @@ public:
   /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Complete(T result, bool status, ::System::Exception* exception);
 
-  /// @brief Method GetDependencies, addr 0x6916c98, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x691e714, size 0xc0, virtual false, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::IList_1<::System::Object*>* list);
 
   /// @brief Method GetDependency, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDepObject> inline TDepObject GetDependency(int32_t index);
 
-  /// @brief Method SetDownloadProgressCallbacks, addr 0x6912e7c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetDownloadProgressCallbacks, addr 0x691a8f8, size 0xc0, virtual false, abstract: false, final false
   inline void SetDownloadProgressCallbacks(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
 
-  /// @brief Method SetProgressCallback, addr 0x6912dbc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetProgressCallback, addr 0x691a838, size 0xc0, virtual false, abstract: false, final false
   inline void SetProgressCallback(::System::Func_1<float_t>* callback);
 
-  /// @brief Method SetWaitForCompletionCallback, addr 0x6912f3c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetWaitForCompletionCallback, addr 0x691a9b8, size 0xc0, virtual false, abstract: false, final false
   inline void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
 
-  /// @brief Method .ctor, addr 0x691831c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691fd98, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* op);
 
-  /// @brief Method get_DependencyCount, addr 0x69184e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_DependencyCount, addr 0x691ff64, size 0xb0, virtual false, abstract: false, final false
   inline int32_t get_DependencyCount();
 
-  /// @brief Method get_InternalOp, addr 0x69183dc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_InternalOp, addr 0x691fe58, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* get_InternalOp();
 
-  /// @brief Method get_IsValid, addr 0x6912080, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x6919afc, size 0xbc, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_Location, addr 0x69119a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x6919424, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
-  /// @brief Method get_ResourceManager, addr 0x69184e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceManager, addr 0x691ff5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceManager* get_ResourceManager();
 
-  /// @brief Method get_Type, addr 0x6915e54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x691d8d0, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
   // Ctor Parameters []
@@ -110,7 +110,7 @@ public:
                           ::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18780 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/ValidationState.hpp"
+// IWYU pragma private; include "System\Xml\Schema\ValidationState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set_Validity(::System::Xml::Schema::XmlSchemaValidity value);
 
-  /// @brief Method .ctor, addr 0x62176a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x621f124, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -222,7 +222,7 @@ public:
   ValidationState(ValidationState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9723 };
 
   /// @brief Field IsNill, offset: 0x10, size: 0x1, def value: None
   bool ___IsNill;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Specialized/StringDictionary.hpp"
+// IWYU pragma private; include "System\Collections\Specialized\StringDictionary.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Specialized/zzzz__StringDictionary_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::StringDictionary::*)()>(&::System::Collections::Specialized::StringDictionary::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63e95c0;
+  constexpr static std::size_t addrs = 0x63f103c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::StringDictionary*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::StringDictionary::*)(::StringW, ::StringW)>(
     &::System::Collections::Specialized::StringDictionary::Add)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x63e9620;
+  constexpr static std::size_t addrs = 0x63f109c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::StringDictionary*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Specialized::StringDictionary::*)()>(
     &::System::Collections::Specialized::StringDictionary::GetEnumerator)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63e96b4;
+  constexpr static std::size_t addrs = 0x63f1130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::StringDictionary*>(),

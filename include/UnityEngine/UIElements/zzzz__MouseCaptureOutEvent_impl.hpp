@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MouseCaptureOutEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MouseCaptureOutEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseCaptureEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseCaptureOutEvent_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MouseCaptureOutEvent___c::*)()>(&::UnityEngine::UIElements::MouseCaptureOutEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d8e814;
+  constexpr static std::size_t addrs = 0x6d96398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseCaptureOutEvent___c*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MouseCaptureOutEvent* (::UnityEngine::UIElements::MouseCaptureOutEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseCaptureOutEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d8e818;
+  constexpr static std::size_t addrs = 0x6d9639c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseCaptureOutEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MouseCaptureOutEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::MouseCaptureOutEvent::PreDispatch)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d8e71c;
+  constexpr static std::size_t addrs = 0x6d962a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::MouseCaptureOutEvent::*)()>(&::UnityEngine::UIElements::MouseCaptureOutEvent::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d8e768;
+  constexpr static std::size_t addrs = 0x6d962ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MouseCaptureOutEvent*>(), { ".ctor", {}, {} })));

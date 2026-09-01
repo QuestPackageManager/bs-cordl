@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Burst/Intrinsics/Common.hpp"
+// IWYU pragma private; include "Unity\Burst\Intrinsics\Common.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,10 +20,10 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE Common : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Pause, addr 0x648bdd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x6493850, size 0x4, virtual false, abstract: false, final false
   static inline void Pause();
 
-  /// @brief Method umul128, addr 0x648bdd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method umul128, addr 0x6493854, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t umul128(uint64_t x, uint64_t y, ::by_ref<uint64_t> high);
 
 protected:
@@ -41,7 +41,7 @@ public:
   Common(Common const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17338 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

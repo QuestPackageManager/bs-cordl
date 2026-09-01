@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DataBindingManager.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DataBindingManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -171,10 +171,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE DataBindingManager_BindingRequest {
 public:
   // Declarations
-  /// @brief Method CancelRequest, addr 0x6c3a804, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CancelRequest, addr 0x6c42388, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DataBindingManager_BindingRequest CancelRequest();
 
-  /// @brief Method .ctor, addr 0x6c3a834, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c423b8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding, bool shouldProcess);
 
   // Ctor Parameters []
@@ -222,25 +222,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddBindingData, addr 0x6c3bc58, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method AddBindingData, addr 0x6c437dc, size 0x188, virtual false, abstract: false, final false
   inline void AddBindingData(::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData);
 
-  /// @brief Method Create, addr 0x6c3bb90, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c43714, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DataBindingManager_BindingDataCollection Create();
 
-  /// @brief Method Dispose, addr 0x6c3bf5c, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c43ae0, size 0xdc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetBindingCount, addr 0x6c3bf0c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetBindingCount, addr 0x6c43a90, size 0x50, virtual false, abstract: false, final false
   inline int32_t GetBindingCount();
 
-  /// @brief Method GetBindings, addr 0x6c38ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBindings, addr 0x6c4064c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>* GetBindings();
 
-  /// @brief Method RemoveBindingData, addr 0x6c3bde0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method RemoveBindingData, addr 0x6c43964, size 0x12c, virtual false, abstract: false, final false
   inline bool RemoveBindingData(::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData);
 
-  /// @brief Method TryGetBindingData, addr 0x6c38b48, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetBindingData, addr 0x6c406cc, size 0x90, virtual false, abstract: false, final false
   inline bool TryGetBindingData(::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> data);
 
   /// @brief Convert to "::System::IDisposable"
@@ -315,7 +315,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DataBindingManager_BindingData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6c3b9e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6c43568, size 0x20, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Object* const& __cordl_internal_get__localDataSource_k__BackingField() const;
@@ -360,16 +360,16 @@ public:
 
   constexpr void __cordl_internal_set_version(int64_t value);
 
-  /// @brief Method .ctor, addr 0x6c3b9e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c43564, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localDataSource, addr 0x6c3c038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localDataSource, addr 0x6c43bbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_localDataSource();
 
-  /// @brief Method set_context, addr 0x6c3c048, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_context, addr 0x6c43bcc, size 0x104, virtual false, abstract: false, final false
   inline void set_context(::UnityEngine::UIElements::DataSourceContext value);
 
-  /// @brief Method set_localDataSource, addr 0x6c3c040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_localDataSource, addr 0x6c43bc4, size 0x8, virtual false, abstract: false, final false
   inline void set_localDataSource(::System::Object* value);
 
 protected:
@@ -439,10 +439,10 @@ public:
   // Declarations
   __declspec(property(get = get_IsValid)) bool IsValid;
 
-  /// @brief Method .ctor, addr 0x6c3c14c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c43cd0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData);
 
-  /// @brief Method get_IsValid, addr 0x6c3c16c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x6c43cf0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
   // Ctor Parameters []
@@ -501,7 +501,7 @@ public:
 
   static inline ::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter* New_ctor();
 
-  /// @brief Method TraverseRecursive, addr 0x6c3c4bc, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method TraverseRecursive, addr 0x6c44040, size 0x140, virtual true, abstract: false, final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get__boundElements_k__BackingField() const;
@@ -516,19 +516,19 @@ public:
 
   constexpr void __cordl_internal_set__results_k__BackingField(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x6c3c248, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c43dcc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_boundElements, addr 0x6c3c49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boundElements, addr 0x6c44020, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* get_boundElements();
 
-  /// @brief Method get_results, addr 0x6c3c4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_results, addr 0x6c44030, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* get_results();
 
-  /// @brief Method set_boundElements, addr 0x6c3c4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_boundElements, addr 0x6c44028, size 0x8, virtual false, abstract: false, final false
   inline void set_boundElements(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_results, addr 0x6c3c4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_results, addr 0x6c44038, size 0x8, virtual false, abstract: false, final false
   inline void set_results(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
 protected:
@@ -603,41 +603,41 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6c3a52c, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c420b0, size 0x1cc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetBoundElements, addr 0x6c387f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBoundElements, addr 0x6c4037c, size 0x44, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* GetBoundElements();
 
-  /// @brief Method GetTrackedElementsCount, addr 0x6c38794, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetTrackedElementsCount, addr 0x6c40318, size 0x50, virtual false, abstract: false, final false
   inline int32_t GetTrackedElementsCount();
 
-  /// @brief Method IsTrackingElement, addr 0x6c39dac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsTrackingElement, addr 0x6c41930, size 0x64, virtual false, abstract: false, final false
   inline bool IsTrackingElement(::UnityEngine::UIElements::VisualElement* element);
 
   static inline ::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method OnPropertyChanged, addr 0x6c3c24c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method OnPropertyChanged, addr 0x6c43dd0, size 0x250, virtual false, abstract: false, final false
   inline void
   OnPropertyChanged(::UnityEngine::UIElements::PropertyChangedEvent* evt,
                     ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::DataBindingManager_BindingDataCollection>* bindingCollection);
 
-  /// @brief Method OrderBindings, addr 0x6c3c1a8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OrderBindings, addr 0x6c43d2c, size 0xa0, virtual false, abstract: false, final false
   inline void OrderBindings(::UnityEngine::UIElements::VisualElement* root);
 
-  /// @brief Method SetDirty, addr 0x6c3b2b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x6c42e34, size 0xc, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method StartTrackingBinding, addr 0x6c39504, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingBinding, addr 0x6c41088, size 0x1ec, virtual false, abstract: false, final false
   inline void StartTrackingBinding(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::DataBindingManager_BindingData* binding);
 
-  /// @brief Method StopTrackingBinding, addr 0x6c399f0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method StopTrackingBinding, addr 0x6c41574, size 0x198, virtual false, abstract: false, final false
   inline void StopTrackingBinding(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::DataBindingManager_BindingData* binding);
 
-  /// @brief Method StopTrackingElement, addr 0x6c3a130, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method StopTrackingElement, addr 0x6c41cb4, size 0xe4, virtual false, abstract: false, final false
   inline void StopTrackingElement(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method TryGetBindingCollection, addr 0x6c38a5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetBindingCollection, addr 0x6c405e0, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetBindingCollection(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingDataCollection> collection);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::DataBindingManager_BindingDataCollection>* const&
@@ -694,7 +694,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method .ctor, addr 0x6c37d68, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c3f8ec, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   /// @brief Convert to "::System::IDisposable"
@@ -805,25 +805,25 @@ public:
 
   constexpr void __cordl_internal_set_m_DetectedChanges(::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* value);
 
-  /// @brief Method .ctor, addr 0x6c3c6d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4425c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_detectedChanges, addr 0x6c3ce74, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_detectedChanges, addr 0x6c449f8, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* get_detectedChanges();
 
-  /// @brief Method get_detectedChangesNoAlloc, addr 0x6c3cf78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_detectedChangesNoAlloc, addr 0x6c44afc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* get_detectedChangesNoAlloc();
 
-  /// @brief Method get_lastVersion, addr 0x6c3cf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastVersion, addr 0x6c44adc, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_lastVersion();
 
-  /// @brief Method get_refCount, addr 0x6c3cf68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_refCount, addr 0x6c44aec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_refCount();
 
-  /// @brief Method set_lastVersion, addr 0x6c3cf60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastVersion, addr 0x6c44ae4, size 0x8, virtual false, abstract: false, final false
   inline void set_lastVersion(int64_t value);
 
-  /// @brief Method set_refCount, addr 0x6c3cf70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_refCount, addr 0x6c44af4, size 0x8, virtual false, abstract: false, final false
   inline void set_refCount(int32_t value);
 
 protected:
@@ -879,14 +879,14 @@ public:
   __declspec(property(get = __cordl_internal_get_m_VisitedElements,
                       put = __cordl_internal_set_m_VisitedElements)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_VisitedElements;
 
-  /// @brief Method Invalidate, addr 0x6c3c9d4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Invalidate, addr 0x6c44558, size 0x1ec, virtual false, abstract: false, final false
   inline void Invalidate(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* addedOrMovedElements,
                          ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* removedElements);
 
   static inline ::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal*
   New_ctor(::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker* dataSourceTracker);
 
-  /// @brief Method TraverseRecursive, addr 0x6c3cf80, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method TraverseRecursive, addr 0x6c44b04, size 0xec, virtual true, abstract: false, final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
   constexpr ::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker* const& __cordl_internal_get_m_DataSourceTracker() const;
@@ -901,7 +901,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VisitedElements(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x6c3c7cc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c44350, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker* dataSourceTracker);
 
 protected:
@@ -949,13 +949,13 @@ public:
 
   static inline ::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_ObjectComparer* New_ctor();
 
-  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.Equals, addr 0x6c3d06c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.Equals, addr 0x6c44bf0, size 0x8c, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IEqualityComparer_System_Object__Equals(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode, addr 0x6c3d0f8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode, addr 0x6c44c7c, size 0x14, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x6c3c7c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4434c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::Object*>"
@@ -1036,68 +1036,68 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ClearChangesFromSource, addr 0x6c388f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ClearChangesFromSource, addr 0x6c40478, size 0xb0, virtual false, abstract: false, final false
   inline void ClearChangesFromSource(::System::Object* dataSource);
 
-  /// @brief Method ClearSourceCache, addr 0x6c3b750, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method ClearSourceCache, addr 0x6c432d4, size 0x290, virtual false, abstract: false, final false
   inline void ClearSourceCache();
 
-  /// @brief Method DecreaseBindingRefCount, addr 0x6c3904c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method DecreaseBindingRefCount, addr 0x6c40bd0, size 0x1dc, virtual false, abstract: false, final false
   inline void DecreaseBindingRefCount(::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData);
 
-  /// @brief Method DecreaseRefCount, addr 0x6c3b2f4, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method DecreaseRefCount, addr 0x6c42e78, size 0x234, virtual false, abstract: false, final false
   inline void DecreaseRefCount(::System::Object* dataSource);
 
-  /// @brief Method Dispose, addr 0x6c3a6f8, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c4227c, size 0x10c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetChangesFromSource, addr 0x6c38858, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetChangesFromSource, addr 0x6c403dc, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* GetChangesFromSource(::System::Object* dataSource);
 
-  /// @brief Method GetHierarchicalDataSourceContext, addr 0x6c3cbc0, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GetHierarchicalDataSourceContext, addr 0x6c44744, size 0x210, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DataSourceContext GetHierarchicalDataSourceContext(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method GetPooledSourceInfo, addr 0x6c3c5fc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetPooledSourceInfo, addr 0x6c44180, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo* GetPooledSourceInfo();
 
-  /// @brief Method GetResolvedDataSourceContext, addr 0x6c38380, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedDataSourceContext, addr 0x6c3ff04, size 0x400, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DataSourceContext GetResolvedDataSourceContext(::UnityEngine::UIElements::VisualElement* element,
                                                                                    ::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData);
 
-  /// @brief Method GetTrackedDataSourcesCount, addr 0x6c37f34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetTrackedDataSourcesCount, addr 0x6c3fab8, size 0x58, virtual false, abstract: false, final false
   inline int32_t GetTrackedDataSourcesCount();
 
-  /// @brief Method IncreaseBindingRefCount, addr 0x6c3932c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method IncreaseBindingRefCount, addr 0x6c40eb0, size 0x1d8, virtual false, abstract: false, final false
   inline void IncreaseBindingRefCount(::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData);
 
-  /// @brief Method IncreaseRefCount, addr 0x6c3b528, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method IncreaseRefCount, addr 0x6c430ac, size 0x214, virtual false, abstract: false, final false
   inline void IncreaseRefCount(::System::Object* dataSource);
 
-  /// @brief Method InvalidateCachedDataSource, addr 0x6c3a228, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method InvalidateCachedDataSource, addr 0x6c41dac, size 0x274, virtual false, abstract: false, final false
   inline void InvalidateCachedDataSource(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* elements,
                                          ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* removedElements);
 
   static inline ::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker* New_ctor(::UnityEngine::UIElements::DataBindingManager* manager);
 
-  /// @brief Method OnVisualElementPropertyChanged, addr 0x6c3c850, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnVisualElementPropertyChanged, addr 0x6c443d4, size 0xac, virtual false, abstract: false, final false
   inline void OnVisualElementPropertyChanged(::UnityEngine::UIElements::PropertyChangedEvent* evt, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method ReleasePooledSourceInfo, addr 0x6c3c6dc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ReleasePooledSourceInfo, addr 0x6c44260, size 0xec, virtual false, abstract: false, final false
   inline void ReleasePooledSourceInfo(::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo* info);
 
-  /// @brief Method RemoveHierarchyDataSourceContextFromElement, addr 0x6c3cef4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RemoveHierarchyDataSourceContextFromElement, addr 0x6c44a78, size 0x64, virtual false, abstract: false, final false
   inline void RemoveHierarchyDataSourceContextFromElement(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method TrackPropertyChanges, addr 0x6c3cdd0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TrackPropertyChanges, addr 0x6c44954, size 0xa4, virtual false, abstract: false, final false
   inline void TrackPropertyChanges(::System::Object* sender, ::UnityEngine::UIElements::BindablePropertyChangedEventArgs args);
 
-  /// @brief Method TrackPropertyChanges, addr 0x6c3c8fc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method TrackPropertyChanges, addr 0x6c44480, size 0xd8, virtual false, abstract: false, final false
   inline void TrackPropertyChanges(::System::Object* sender, ::Unity::Properties::PropertyPath propertyPath);
 
-  /// @brief Method TryGetLastVersion, addr 0x6c37fa0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TryGetLastVersion, addr 0x6c3fb24, size 0xa4, virtual false, abstract: false, final false
   inline bool TryGetLastVersion(::System::Object* source, ::by_ref<int64_t> version);
 
-  /// @brief Method UpdateVersion, addr 0x6c38058, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateVersion, addr 0x6c3fbdc, size 0xb0, virtual false, abstract: false, final false
   inline void UpdateVersion(::System::Object* source, int64_t version);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Binding*, int32_t>* const& __cordl_internal_get_m_BindingRefCount() const;
@@ -1162,7 +1162,7 @@ public:
   constexpr void
   __cordl_internal_set_m_VisualElementHandler(::UnityEngine::UIElements::EventCallback_2<::UnityEngine::UIElements::PropertyChangedEvent*, ::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x6c37a38, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c3f5bc, size 0x330, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::DataBindingManager* manager);
 
   /// @brief Convert to "::System::IDisposable"
@@ -1294,103 +1294,103 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AnyPendingBindingRequests, addr 0x6c3b010, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AnyPendingBindingRequests, addr 0x6c42b94, size 0xe0, virtual false, abstract: false, final false
   static inline bool AnyPendingBindingRequests(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method CacheSourceBindingResult, addr 0x6c38204, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CacheSourceBindingResult, addr 0x6c3fd88, size 0x70, virtual false, abstract: false, final false
   inline void CacheSourceBindingResult(::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData, ::UnityEngine::UIElements::BindingResult result);
 
-  /// @brief Method CacheUIBindingResult, addr 0x6c38108, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CacheUIBindingResult, addr 0x6c3fc8c, size 0x70, virtual false, abstract: false, final false
   inline void CacheUIBindingResult(::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData, ::UnityEngine::UIElements::BindingResult result);
 
-  /// @brief Method ClearAllBindings, addr 0x6c3adbc, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method ClearAllBindings, addr 0x6c42940, size 0x254, virtual false, abstract: false, final false
   inline void ClearAllBindings(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method ClearChangesFromSource, addr 0x6c388e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ClearChangesFromSource, addr 0x6c40464, size 0x14, virtual false, abstract: false, final false
   inline void ClearChangesFromSource(::System::Object* dataSource);
 
-  /// @brief Method ClearSourceCache, addr 0x6c3b73c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ClearSourceCache, addr 0x6c432c0, size 0x14, virtual false, abstract: false, final false
   inline void ClearSourceCache();
 
-  /// @brief Method CreateBindingRequest, addr 0x6c39e10, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method CreateBindingRequest, addr 0x6c41994, size 0x320, virtual false, abstract: false, final false
   static inline void CreateBindingRequest(::UnityEngine::UIElements::VisualElement* target, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding);
 
-  /// @brief Method DirtyBindingOrder, addr 0x6c3b294, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DirtyBindingOrder, addr 0x6c42e18, size 0x1c, virtual false, abstract: false, final false
   inline void DirtyBindingOrder();
 
-  /// @brief Method Dispose, addr 0x6c3a49c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c42020, size 0x90, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetBindingData, addr 0x6c389a4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetBindingData, addr 0x6c40528, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>* GetBindingData(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method GetBoundElements, addr 0x6c387e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetBoundElements, addr 0x6c40368, size 0x14, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualElement*>* GetBoundElements();
 
-  /// @brief Method GetBoundElementsCount, addr 0x6c38780, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetBoundElementsCount, addr 0x6c40304, size 0x14, virtual false, abstract: false, final false
   inline int32_t GetBoundElementsCount();
 
-  /// @brief Method GetChangedDetectedFromSource, addr 0x6c38844, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetChangedDetectedFromSource, addr 0x6c403c8, size 0x14, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* GetChangedDetectedFromSource(::System::Object* dataSource);
 
-  /// @brief Method GetChangedDetectedFromUI, addr 0x6c3883c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetChangedDetectedFromUI, addr 0x6c403c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_ChangesFromUI>* GetChangedDetectedFromUI();
 
-  /// @brief Method GetPooledBindingData, addr 0x6c39228, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetPooledBindingData, addr 0x6c40dac, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DataBindingManager_BindingData* GetPooledBindingData(::UnityEngine::UIElements::BindingTarget target, ::UnityEngine::UIElements::Binding* binding);
 
-  /// @brief Method GetResolvedDataSourceContext, addr 0x6c382fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetResolvedDataSourceContext, addr 0x6c3fe80, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DataSourceContext GetResolvedDataSourceContext(::UnityEngine::UIElements::VisualElement* element,
                                                                                    ::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData);
 
-  /// @brief Method GetTrackedDataSourcesCount, addr 0x6c37f20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetTrackedDataSourcesCount, addr 0x6c3faa4, size 0x14, virtual false, abstract: false, final false
   inline int32_t GetTrackedDataSourcesCount();
 
-  /// @brief Method InvalidateCachedDataSource, addr 0x6c3a214, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InvalidateCachedDataSource, addr 0x6c41d98, size 0x14, virtual false, abstract: false, final false
   inline void InvalidateCachedDataSource(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* addedOrMovedElements,
                                          ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* removedElements);
 
   static inline ::UnityEngine::UIElements::DataBindingManager* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method ProcessBindingRequests, addr 0x6c3a864, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method ProcessBindingRequests, addr 0x6c423e8, size 0x558, virtual false, abstract: false, final false
   inline void ProcessBindingRequests(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method RegisterBinding, addr 0x6c38bd8, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method RegisterBinding, addr 0x6c4075c, size 0x474, virtual false, abstract: false, final false
   inline void RegisterBinding(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding);
 
-  /// @brief Method ReleasePoolBindingData, addr 0x6c39b88, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ReleasePoolBindingData, addr 0x6c4170c, size 0xd4, virtual false, abstract: false, final false
   inline void ReleasePoolBindingData(::UnityEngine::UIElements::DataBindingManager_BindingData* data);
 
-  /// @brief Method ResetLogLevel, addr 0x6c28f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetLogLevel, addr 0x6c30a88, size 0x8, virtual false, abstract: false, final false
   inline void ResetLogLevel();
 
-  /// @brief Method TrackDataSource, addr 0x6c3b2bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TrackDataSource, addr 0x6c42e40, size 0x38, virtual false, abstract: false, final false
   inline void TrackDataSource(::System::Object* previous, ::System::Object* current);
 
-  /// @brief Method TransferBindingRequests, addr 0x6c39c5c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method TransferBindingRequests, addr 0x6c417e0, size 0x150, virtual false, abstract: false, final false
   inline void TransferBindingRequests(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method TryGetBindingData, addr 0x6c38ad0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetBindingData, addr 0x6c40654, size 0x78, virtual false, abstract: false, final false
   inline bool TryGetBindingData(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                 ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData);
 
-  /// @brief Method TryGetBindingRequest, addr 0x6c3b0f0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method TryGetBindingRequest, addr 0x6c42c74, size 0x1a4, virtual false, abstract: false, final false
   static inline bool TryGetBindingRequest(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId,
                                           ::by_ref<::UnityEngine::UIElements::Binding*> binding);
 
-  /// @brief Method TryGetLastSourceBindingResult, addr 0x6c38274, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method TryGetLastSourceBindingResult, addr 0x6c3fdf8, size 0x88, virtual false, abstract: false, final false
   inline bool TryGetLastSourceBindingResult(::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData, ::by_ref<::UnityEngine::UIElements::BindingResult> result);
 
-  /// @brief Method TryGetLastUIBindingResult, addr 0x6c38178, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryGetLastUIBindingResult, addr 0x6c3fcfc, size 0x8c, virtual false, abstract: false, final false
   inline bool TryGetLastUIBindingResult(::UnityEngine::UIElements::DataBindingManager_BindingData* bindingData, ::by_ref<::UnityEngine::UIElements::BindingResult> result);
 
-  /// @brief Method TryGetLastVersion, addr 0x6c37f8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetLastVersion, addr 0x6c3fb10, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetLastVersion(::System::Object* source, ::by_ref<int64_t> version);
 
-  /// @brief Method UnregisterBinding, addr 0x6c396f0, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method UnregisterBinding, addr 0x6c41274, size 0x300, virtual false, abstract: false, final false
   inline void UnregisterBinding(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId);
 
-  /// @brief Method UpdateVersion, addr 0x6c38044, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method UpdateVersion, addr 0x6c3fbc8, size 0x14, virtual false, abstract: false, final false
   inline void UpdateVersion(::System::Object* source, int64_t version);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>* const& __cordl_internal_get_m_BindingDataLocalPool() const;
@@ -1429,7 +1429,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method .ctor, addr 0x6c37908, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c3f48c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   static inline ::UnityEngine::UIElements::BindingLogLevel getStaticF_globalLogLevel();
@@ -1440,7 +1440,7 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>* getStaticF_s_Empty();
 
-  /// @brief Method get_logLevel, addr 0x6c3786c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_logLevel, addr 0x6c3f3f0, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingLogLevel get_logLevel();
 
   /// @brief Convert to "::System::IDisposable"
@@ -1454,7 +1454,7 @@ public:
 
   static inline void setStaticF_s_Empty(::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>* value);
 
-  /// @brief Method set_logLevel, addr 0x6c28e1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_logLevel, addr 0x6c309a0, size 0x58, virtual false, abstract: false, final false
   inline void set_logLevel(::UnityEngine::UIElements::BindingLogLevel value);
 
 protected:

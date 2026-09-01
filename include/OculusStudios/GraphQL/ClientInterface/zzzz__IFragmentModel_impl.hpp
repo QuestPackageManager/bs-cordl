@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/IFragmentModel.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\IFragmentModel.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IFragmentModel_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::ClientInterface::IFragmentModel.set_TypeName

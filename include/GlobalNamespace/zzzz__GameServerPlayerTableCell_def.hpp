@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameServerPlayerTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameServerPlayerTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,7 +115,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <SetData>b__0, addr 0x593f814, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <SetData>b__0, addr 0x5943298, size 0x80, virtual false, abstract: false, final false
   inline void _SetData_b__0(int32_t id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const& __cordl_internal_get_modifiersList() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_modifiersList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x593f4f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5942f7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,7 +142,7 @@ public:
   GameServerPlayerTableCell___c__DisplayClass30_0(GameServerPlayerTableCell___c__DisplayClass30_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6896 };
 
   /// @brief Field modifiersList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* ___modifiersList;
@@ -165,10 +165,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x593f894, size 0x52c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5943318, size 0x52c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x593fdc0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5943844, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -190,7 +190,7 @@ public:
                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6897 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -318,24 +318,24 @@ public:
   /// @brief Field useModifiersEvent, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get_useModifiersEvent, put = __cordl_internal_set_useModifiersEvent)) ::System::Action_1<int32_t>* useModifiersEvent;
 
-  /// @brief Method Awake, addr 0x593f5ac, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5943030, size 0x1a8, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleKickPlayerButtonPressed, addr 0x593f754, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleKickPlayerButtonPressed, addr 0x59431d8, size 0x20, virtual false, abstract: false, final false
   inline void HandleKickPlayerButtonPressed();
 
-  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x593f774, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x59431f8, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseBeatmapButtonPressed();
 
-  /// @brief Method HandleUseModifiersButtonPressed, addr 0x593f794, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseModifiersButtonPressed, addr 0x5943218, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseModifiersButtonPressed();
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell* New_ctor();
 
-  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x593f4fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x5942f80, size 0xb0, virtual false, abstract: false, final false
   inline void SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
-  /// @brief Method SetData, addr 0x593de20, size 0xb20, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x59418a4, size 0xb20, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::ILobbyPlayerData* playerData, bool hasKickPermissions, bool allowSelection,
                       ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
@@ -483,25 +483,25 @@ public:
 
   constexpr void __cordl_internal_set_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x593f7b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5943238, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_kickPlayerEvent, addr 0x593ea00, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_kickPlayerEvent, addr 0x5942484, size 0xc0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useBeatmapEvent, addr 0x593eb80, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_useBeatmapEvent, addr 0x5942604, size 0xc0, virtual false, abstract: false, final false
   inline void add_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useModifiersEvent, addr 0x593ed00, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_useModifiersEvent, addr 0x5942784, size 0xc0, virtual false, abstract: false, final false
   inline void add_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x593e940, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x59423c4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useBeatmapEvent, addr 0x593eac0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_useBeatmapEvent, addr 0x5942544, size 0xc0, virtual false, abstract: false, final false
   inline void remove_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useModifiersEvent, addr 0x593ec40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_useModifiersEvent, addr 0x59426c4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_useModifiersEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -519,7 +519,7 @@ public:
   GameServerPlayerTableCell(GameServerPlayerTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6898 };
 
   /// @brief Field kLabelCantStartGameDoNotOwnSongLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kLabelCantStartGameDoNotOwnSongLocalizationKey{ u"LABEL_CANT_START_GAME_DO_NOT_OWN_SONG" };

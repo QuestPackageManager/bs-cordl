@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainThreadDispatcher.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainThreadDispatcher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MainThreadDispatcher_def.hpp"
 #include "GlobalNamespace/zzzz__MainThreadDispatcher_def.hpp"
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainThreadDispatcher::*)(::System::Action*)>(&::GlobalNamespace::MainThreadDispatcher::DispatchOnMainThread)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5853b5c;
+  constexpr static std::size_t addrs = 0x5852c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainThreadDispatcher::*)()>(&::GlobalNamespace::MainThreadDispatcher::Tick)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5853bc0;
+  constexpr static std::size_t addrs = 0x5852cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainThreadDispatcher*>(), { "Tick", {}, {} })));
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainThreadDispatcher::*)()>(&::GlobalNamespace::MainThreadDispatcher::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5853cd4;
+  constexpr static std::size_t addrs = 0x5852ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainThreadDispatcher*>(), { ".ctor", {}, {} })));

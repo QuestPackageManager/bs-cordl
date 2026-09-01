@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SliderShaderWarmup.hpp"
+// IWYU pragma private; include "GlobalNamespace\SliderShaderWarmup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::SliderShaderWarmup* New_ctor();
 
-  /// @brief Method Start, addr 0x59798e0, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x597d274, size 0x21c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__sliderMeshController(::UnityW<::GlobalNamespace::SliderMeshController> value);
 
-  /// @brief Method .ctor, addr 0x5979afc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597d490, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/TypeInfo.hpp"
+// IWYU pragma private; include "System\Reflection\TypeInfo.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Reflection/zzzz__TypeInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::TypeInfo::*)()>(&::System::Reflection::TypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b7fa4c;
+  constexpr static std::size_t addrs = 0x5b83f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::TypeInfo*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::TypeInfo* (::System::Reflection::TypeInfo::*)()>(
     &::System::Reflection::TypeInfo::System_Reflection_IReflectableType_GetTypeInfo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b800c0;
+  constexpr static std::size_t addrs = 0x5b8457c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (::System::Reflection::TypeInfo::*)()>(
     &::System::Reflection::TypeInfo::get_ImplementedInterfaces)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b800c4;
+  constexpr static std::size_t addrs = 0x5b84580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

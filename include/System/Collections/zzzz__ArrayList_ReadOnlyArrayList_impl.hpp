@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/ArrayList_ReadOnlyArrayList.hpp"
+// IWYU pragma private; include "System\Collections\ArrayList_ReadOnlyArrayList.hpp"
 #include "System/Collections/zzzz__ArrayList_impl.hpp"
 #include "System/Collections/zzzz__ArrayList_ReadOnlyArrayList_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Collections::ArrayList*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5be83dc;
+  constexpr static std::size_t addrs = 0x5bec898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_Count)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5beaa4c;
+  constexpr static std::size_t addrs = 0x5beef08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5beaa6c;
+  constexpr static std::size_t addrs = 0x5beef28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5beaa74;
+  constexpr static std::size_t addrs = 0x5beef30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5beaa7c;
+  constexpr static std::size_t addrs = 0x5beef38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_Item)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5beaa9c;
+  constexpr static std::size_t addrs = 0x5beef58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, ::System::Object*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::set_Item)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beaabc;
+  constexpr static std::size_t addrs = 0x5beef78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5beab08;
+  constexpr static std::size_t addrs = 0x5beefc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Object*)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::Add)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beab28;
+  constexpr static std::size_t addrs = 0x5beefe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Collections::ICollection*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::AddRange)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beab74;
+  constexpr static std::size_t addrs = 0x5bef030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::set_Capacity)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beabc0;
+  constexpr static std::size_t addrs = 0x5bef07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::Clear)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beac0c;
+  constexpr static std::size_t addrs = 0x5bef0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::Clone)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5beac58;
+  constexpr static std::size_t addrs = 0x5bef114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Object*)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::Contains)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5bead4c;
+  constexpr static std::size_t addrs = 0x5bef208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Array*, int32_t)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::CopyTo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5bead6c;
+  constexpr static std::size_t addrs = 0x5bef228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, ::System::Array*, int32_t, int32_t)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::CopyTo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5bead8c;
+  constexpr static std::size_t addrs = 0x5bef248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::GetEnumerator)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5beadac;
+  constexpr static std::size_t addrs = 0x5bef268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Object*)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::IndexOf)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5beadcc;
+  constexpr static std::size_t addrs = 0x5bef288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, ::System::Object*)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::Insert)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beadec;
+  constexpr static std::size_t addrs = 0x5bef2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, ::System::Collections::ICollection*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::InsertRange)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beae38;
+  constexpr static std::size_t addrs = 0x5bef2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Object*)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::Remove)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beae84;
+  constexpr static std::size_t addrs = 0x5bef340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::RemoveAt)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beaed0;
+  constexpr static std::size_t addrs = 0x5bef38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, int32_t)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::RemoveRange)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beaf1c;
+  constexpr static std::size_t addrs = 0x5bef3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, int32_t)>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::Reverse)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beaf68;
+  constexpr static std::size_t addrs = 0x5bef424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(int32_t, int32_t, ::System::Collections::IComparer*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::Sort)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5beafb4;
+  constexpr static std::size_t addrs = 0x5bef470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)()>(&::GlobalNamespace::ArrayList_ReadOnlyArrayList::ToArray)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5beb000;
+  constexpr static std::size_t addrs = 0x5bef4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (::GlobalNamespace::ArrayList_ReadOnlyArrayList::*)(::System::Type*)>(
     &::GlobalNamespace::ArrayList_ReadOnlyArrayList::ToArray)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5beb020;
+  constexpr static std::size_t addrs = 0x5bef4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

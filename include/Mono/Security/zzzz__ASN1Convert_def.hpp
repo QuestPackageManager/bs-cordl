@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/ASN1Convert.hpp"
+// IWYU pragma private; include "Mono\Security\ASN1Convert.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,22 +28,22 @@ namespace Mono::Security {
 class CORDL_TYPE ASN1Convert : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromInt32, addr 0x5a85954, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method FromInt32, addr 0x5a89e10, size 0x168, virtual false, abstract: false, final false
   static inline ::Mono::Security::ASN1* FromInt32(int32_t value);
 
-  /// @brief Method FromOid, addr 0x5a85ad4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FromOid, addr 0x5a89f90, size 0xe4, virtual false, abstract: false, final false
   static inline ::Mono::Security::ASN1* FromOid(::StringW oid);
 
-  /// @brief Method FromUnsignedBigInteger, addr 0x5a85bb8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FromUnsignedBigInteger, addr 0x5a8a074, size 0x100, virtual false, abstract: false, final false
   static inline ::Mono::Security::ASN1* FromUnsignedBigInteger(::ArrayW<uint8_t> big);
 
-  /// @brief Method ToDateTime, addr 0x5a86014, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x5a8a4d0, size 0x5b4, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::Mono::Security::ASN1* time);
 
-  /// @brief Method ToInt32, addr 0x5a85cb8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x5a8a174, size 0x104, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method ToOid, addr 0x5a85dbc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ToOid, addr 0x5a8a278, size 0x258, virtual false, abstract: false, final false
   static inline ::StringW ToOid(::Mono::Security::ASN1* asn1);
 
 protected:
@@ -61,7 +61,7 @@ public:
   ASN1Convert(ASN1Convert const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19275 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

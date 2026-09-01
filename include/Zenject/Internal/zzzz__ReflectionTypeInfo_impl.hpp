@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/Internal/ReflectionTypeInfo.hpp"
+// IWYU pragma private; include "Zenject\Internal\ReflectionTypeInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/Internal/zzzz__ReflectionTypeInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo::*)(::System::Reflection::FieldInfo*, ::Zenject::InjectableInfo*)>(
     &::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e99f14;
+  constexpr static std::size_t addrs = 0x6ea1a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo::*)(::System::Reflection::ParameterInfo*, ::Zenject::InjectableInfo*)>(
     &::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e99f1c;
+  constexpr static std::size_t addrs = 0x6ea1aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo::*)(::System::Reflection::PropertyInfo*, ::Zenject::InjectableInfo*)>(
     &::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e99f24;
+  constexpr static std::size_t addrs = 0x6ea1aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal
     ::System::Reflection::MethodInfo*, ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>*)>(
     &::Zenject::Internal::ReflectionTypeInfo_InjectMethodInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e99f2c;
+  constexpr static std::size_t addrs = 0x6ea1ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal
     ::System::Reflection::ConstructorInfo*, ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>*)>(
     &::Zenject::Internal::ReflectionTypeInfo_InjectConstructorInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e99f34;
+  constexpr static std::size_t addrs = 0x6ea1ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal
     ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo*>*,
     ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo*>*)>(&::Zenject::Internal::ReflectionTypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e99f04;
+  constexpr static std::size_t addrs = 0x6ea1a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

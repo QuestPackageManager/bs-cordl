@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/SafeSerializationEventArgs.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\SafeSerializationEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set_m_streamingContext(::System::Runtime::Serialization::StreamingContext value);
 
-  /// @brief Method .ctor, addr 0x5b4fa80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b53f3c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_SerializedStates, addr 0x5b4fb30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializedStates, addr 0x5b53fec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Object*>* get_SerializedStates();
 
 protected:

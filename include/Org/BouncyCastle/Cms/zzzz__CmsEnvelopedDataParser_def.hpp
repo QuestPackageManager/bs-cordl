@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsEnvelopedDataParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsEnvelopedDataParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,10 +61,10 @@ public:
   /// @brief Field recipientInfoStore, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore)) ::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
 
-  /// @brief Method GetRecipientInfos, addr 0x36a81b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x36abf70, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method GetUnprotectedAttributes, addr 0x36a81b8, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method GetUnprotectedAttributes, addr 0x36abf78, size 0x258, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnprotectedAttributes();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* New_ctor(::ArrayW<uint8_t> envelopedData);
@@ -101,19 +101,19 @@ public:
 
   constexpr void __cordl_internal_set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore* value);
 
-  /// @brief Method .ctor, addr 0x36a7dd8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36abb98, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> envelopedData);
 
-  /// @brief Method .ctor, addr 0x36a7e4c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36abc0c, size 0x2f8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* envelopedData);
 
-  /// @brief Method get_EncryptionAlgOid, addr 0x36a814c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgOid, addr 0x36abf0c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_EncryptionAlgOid();
 
-  /// @brief Method get_EncryptionAlgParams, addr 0x36a8178, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgParams, addr 0x36abf38, size 0x38, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_EncryptionAlgParams();
 
-  /// @brief Method get_EncryptionAlgorithmID, addr 0x36a8144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithmID, addr 0x36abf04, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID();
 
 protected:

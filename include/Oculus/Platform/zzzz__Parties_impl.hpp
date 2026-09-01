@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Parties.hpp"
+// IWYU pragma private; include "Oculus\Platform\Parties.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Parties_def.hpp"
 #include "Oculus/Platform/Models/zzzz__PartyUpdateNotification_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Party*>* (*)()>(&::Oculus::Platform::Parties::GetCurrent)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de6388;
+  constexpr static std::size_t addrs = 0x5dea844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Parties*>(), { "GetCurrent", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::PartyUpdateNotification*>*)>(
     &::Oculus::Platform::Parties::SetPartyUpdateNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5de64e0;
+  constexpr static std::size_t addrs = 0x5dea99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

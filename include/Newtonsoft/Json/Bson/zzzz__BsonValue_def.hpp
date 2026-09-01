@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonValue.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5daa2a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dae760, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method get_Type, addr 0x5daa2b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5dae774, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method get_Value, addr 0x5daa2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5dae76c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -74,7 +74,7 @@ public:
   BsonValue(BsonValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13700 };
 
   /// @brief Field _value, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____value;

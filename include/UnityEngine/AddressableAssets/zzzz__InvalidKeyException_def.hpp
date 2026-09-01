@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AddressableAssets/InvalidKeyException.hpp"
+// IWYU pragma private; include "UnityEngine\AddressableAssets\InvalidKeyException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,7 +136,7 @@ public:
   static ::UnityEngine::AddressableAssets::InvalidKeyException_Format const UnionAvailableForKeysWithoutOther;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19779 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -183,37 +183,37 @@ public:
   /// @brief Field m_Addressables, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables)) ::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
-  /// @brief Method FormatMergeModeMessage, addr 0x6444c48, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method FormatMergeModeMessage, addr 0x644c6c4, size 0x48c, virtual false, abstract: false, final false
   inline ::StringW FormatMergeModeMessage(::UnityEngine::AddressableAssets::InvalidKeyException_Format format, ::StringW keysAvailable, ::StringW keysUnavailable, ::StringW typeString);
 
-  /// @brief Method FormatMessage, addr 0x6444474, size 0x7d4, virtual false, abstract: false, final false
+  /// @brief Method FormatMessage, addr 0x644bef0, size 0x7d4, virtual false, abstract: false, final false
   inline ::StringW FormatMessage(::UnityEngine::AddressableAssets::InvalidKeyException_Format format, ::StringW foundWithTypeString);
 
-  /// @brief Method FormatMultipleAssignableTypesMessage, addr 0x6447124, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method FormatMultipleAssignableTypesMessage, addr 0x644eba0, size 0x1fc, virtual false, abstract: false, final false
   inline ::StringW FormatMultipleAssignableTypesMessage(::StringW keyString, ::System::Collections::Generic::HashSet_1<::System::Type*>* typesAvailableForKey);
 
-  /// @brief Method FormatNotFoundMessage, addr 0x6446fd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FormatNotFoundMessage, addr 0x644ea50, size 0xc, virtual false, abstract: false, final false
   inline ::StringW FormatNotFoundMessage(::StringW keyString);
 
-  /// @brief Method FormatTypeNotAssignableMessage, addr 0x6446fe0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method FormatTypeNotAssignableMessage, addr 0x644ea5c, size 0x144, virtual false, abstract: false, final false
   inline ::StringW FormatTypeNotAssignableMessage(::StringW keyString, ::System::Collections::Generic::HashSet_1<::System::Type*>* typesAvailableForKey);
 
-  /// @brief Method GetCSVString, addr 0x64458f8, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method GetCSVString, addr 0x644d374, size 0x414, virtual false, abstract: false, final false
   static inline ::StringW GetCSVString(::System::Collections::IEnumerable* enumerator, ::StringW prefixSingle, ::StringW prefixPlural);
 
-  /// @brief Method GetKeyString, addr 0x64450d4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetKeyString, addr 0x644cb50, size 0xec, virtual false, abstract: false, final false
   inline ::StringW GetKeyString();
 
-  /// @brief Method GetMessageForSingleKey, addr 0x6445858, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetMessageForSingleKey, addr 0x644d2d4, size 0xa0, virtual false, abstract: false, final false
   inline ::StringW GetMessageForSingleKey(::StringW keyString);
 
-  /// @brief Method GetMessageforMergeKeys, addr 0x6445d0c, size 0xbf8, virtual false, abstract: false, final false
+  /// @brief Method GetMessageforMergeKeys, addr 0x644d788, size 0xbf8, virtual false, abstract: false, final false
   inline ::StringW GetMessageforMergeKeys(::System::Collections::Generic::List_1<::StringW>* keys);
 
-  /// @brief Method GetTypeToKeys, addr 0x6447320, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method GetTypeToKeys, addr 0x644ed9c, size 0x2f0, virtual false, abstract: false, final false
   inline bool GetTypeToKeys(::StringW key, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::StringW>*>* typeToKeys);
 
-  /// @brief Method GetTypesForKey, addr 0x6446904, size 0x6d0, virtual false, abstract: false, final false
+  /// @brief Method GetTypesForKey, addr 0x644e380, size 0x6d0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::System::Type*>* GetTypesForKey(::StringW keyString);
 
   static inline ::UnityEngine::AddressableAssets::InvalidKeyException* New_ctor();
@@ -260,49 +260,49 @@ public:
 
   constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  /// @brief Method .ctor, addr 0x64442b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644bd34, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6444038, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644bab4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key);
 
-  /// @brief Method .ctor, addr 0x644408c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644bb08, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x64440fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644bb78, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::AddressablesImpl* addr);
 
-  /// @brief Method .ctor, addr 0x644417c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644bbf8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::Addressables_MergeMode mergeMode);
 
-  /// @brief Method .ctor, addr 0x6444218, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644bc94, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Type* type, ::UnityEngine::AddressableAssets::Addressables_MergeMode mergeMode, ::UnityEngine::AddressableAssets::AddressablesImpl* addr);
 
-  /// @brief Method .ctor, addr 0x6444310, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644bd8c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x644437c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644bdf8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x64443f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644be6c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Key, addr 0x6444010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x644ba8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_MergeMode, addr 0x6444030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeMode, addr 0x644baac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::AddressableAssets::Addressables_MergeMode> get_MergeMode();
 
-  /// @brief Method get_Message, addr 0x64451c0, size 0x698, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x644cc3c, size 0x698, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Type, addr 0x6444020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x644ba9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method set_Key, addr 0x6444018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Key, addr 0x644ba94, size 0x8, virtual false, abstract: false, final false
   inline void set_Key(::System::Object* value);
 
-  /// @brief Method set_Type, addr 0x6444028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x644baa4, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::System::Type* value);
 
 protected:
@@ -358,7 +358,7 @@ public:
   static constexpr ::ConstString UnionAvailableForKeysWithoutOtherMessageFormat{ u"\nUnion of Type={0} found with {1}. Without {2}" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19780 };
 
   /// @brief Field <Key>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::System::Object* ____Key_k__BackingField;

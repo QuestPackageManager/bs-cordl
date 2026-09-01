@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PoseObject.hpp"
+// IWYU pragma private; include "GlobalNamespace\PoseObject.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PoseObject_def.hpp"
 #include "GlobalNamespace/zzzz__PoseObjectIdSO_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::PoseObject::*)()>(&::GlobalNamespace::PoseObject::get_objectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e6600;
+  constexpr static std::size_t addrs = 0x58e9c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PoseObject*>(), { "get_objectTransform", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PoseObject::*)()>(&::GlobalNamespace::PoseObject::get_id)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58e6608;
+  constexpr static std::size_t addrs = 0x58e9c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PoseObject*>(), { "get_id", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PoseObject::*)(::UnityEngine::Transform*, ::GlobalNamespace::PoseObjectIdSO*)>(&::GlobalNamespace::PoseObject::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e4658;
+  constexpr static std::size_t addrs = 0x58e7c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

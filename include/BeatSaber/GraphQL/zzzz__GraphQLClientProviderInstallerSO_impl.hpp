@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/GraphQL/GraphQLClientProviderInstallerSO.hpp"
+// IWYU pragma private; include "BeatSaber\GraphQL\GraphQLClientProviderInstallerSO.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "BeatSaber/GraphQL/zzzz__GraphQLClientProviderInstallerSO_def.hpp"
 //  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO.get_devServerPath
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO::*)()>(
     &::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO::get_devServerPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3292f00;
+  constexpr static std::size_t addrs = 0x3296cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO::*)()>(&::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO::InstallBindings)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3292f08;
+  constexpr static std::size_t addrs = 0x3296d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO::*)()>(&::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3292fc8;
+  constexpr static std::size_t addrs = 0x3296dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProviderInstallerSO*>(), { ".ctor", {}, {} })));

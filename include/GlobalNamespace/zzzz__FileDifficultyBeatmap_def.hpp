@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FileDifficultyBeatmap.hpp"
+// IWYU pragma private; include "GlobalNamespace\FileDifficultyBeatmap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,16 +29,16 @@ public:
   /// @brief Field _lightshowPath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lightshowPath, put = __cordl_internal_set__lightshowPath)) ::StringW _lightshowPath;
 
-  /// @brief Method GetBeatmapString, addr 0x3724d38, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapString, addr 0x372a834, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetBeatmapString();
 
-  /// @brief Method GetBeatmapStringAsync, addr 0x3724bb8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapStringAsync, addr 0x372a6ac, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync();
 
-  /// @brief Method GetLightshowString, addr 0x3724db0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowString, addr 0x372a8b0, size 0x80, virtual false, abstract: false, final false
   inline ::StringW GetLightshowString();
 
-  /// @brief Method GetLightshowStringAsync, addr 0x3724c78, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowStringAsync, addr 0x372a770, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync();
 
   static inline ::GlobalNamespace::FileDifficultyBeatmap* New_ctor(::StringW beatmapPath, ::StringW lightshowPath);
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__lightshowPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3724bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372a6a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapPath, ::StringW lightshowPath);
 
 protected:
@@ -73,7 +73,7 @@ public:
   FileDifficultyBeatmap(FileDifficultyBeatmap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14993 };
 
   /// @brief Field _beatmapPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____beatmapPath;

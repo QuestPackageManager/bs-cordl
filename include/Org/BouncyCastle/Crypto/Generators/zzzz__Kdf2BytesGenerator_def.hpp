@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/Kdf2BytesGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\Kdf2BytesGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0x33d7afc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33db8bc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
 protected:

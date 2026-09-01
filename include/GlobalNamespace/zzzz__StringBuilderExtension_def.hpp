@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StringBuilderExtension.hpp"
+// IWYU pragma private; include "GlobalNamespace\StringBuilderExtension.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,13 +23,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE StringBuilderExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendNumber, addr 0x33094b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0x330d2b4, size 0x10, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
 
-  /// @brief Method AppendNumber, addr 0x33094e0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0x330d2dc, size 0x88, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative);
 
-  /// @brief Method Swap, addr 0x33092c0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x330d0bc, size 0x1f8, virtual false, abstract: false, final false
   static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
 
 protected:
@@ -47,7 +47,7 @@ public:
   StringBuilderExtension(StringBuilderExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20472 };
 
   /// @brief Field kCharZero offset 0xffffffff size 0x2
   static constexpr char16_t kCharZero{ u'0' };

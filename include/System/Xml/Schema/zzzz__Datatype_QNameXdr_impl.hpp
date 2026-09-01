@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_QNameXdr.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_QNameXdr.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_QNameXdr_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlTokenizedType (::System::Xml::Schema::Datatype_QNameXdr::*)()>(&::System::Xml::Schema::Datatype_QNameXdr::get_TokenizedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c2f78;
+  constexpr static std::size_t addrs = 0x61ca9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::Datatype_QNameXdr::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::Datatype_QNameXdr::ParseValue)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x61c2f80;
+  constexpr static std::size_t addrs = 0x61ca9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_QNameXdr::*)()>(&::System::Xml::Schema::Datatype_QNameXdr::get_ValueType)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61c31f4;
+  constexpr static std::size_t addrs = 0x61cac70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_QNameXdr::*)()>(&::System::Xml::Schema::Datatype_QNameXdr::get_ListValueType)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61c3250;
+  constexpr static std::size_t addrs = 0x61caccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_QNameXdr::*)()>(&::System::Xml::Schema::Datatype_QNameXdr::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61b87f8;
+  constexpr static std::size_t addrs = 0x61c0274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_QNameXdr*>(), { ".ctor", {}, {} })));

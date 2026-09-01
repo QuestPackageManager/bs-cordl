@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeAwardData.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeAwardData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberConnectedPlayer_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(
     &::GlobalNamespace::MultiplayerBadgeAwardData::get_awardedPlayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f6e8;
+  constexpr static std::size_t addrs = 0x3735258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeAwardData*>(), { "get_awardedPlayer", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x372f6f0;
+  constexpr static std::size_t addrs = 0x3735260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeAwardData*>(), { "get_titleLocalizationKey", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_title)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f708;
+  constexpr static std::size_t addrs = 0x3735278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeAwardData*>(), { "get_title", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f710;
+  constexpr static std::size_t addrs = 0x3735280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeAwardData*>(), { "get_subtitle", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&::GlobalNamespace::MultiplayerBadgeAwardData::get_icon)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372f718;
+  constexpr static std::size_t addrs = 0x3735288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeAwardData*>(), { "get_icon", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBadgeAwardData::*)(
     ::GlobalNamespace::IBeatSaberConnectedPlayer*, float_t, ::StringW, ::StringW, ::GlobalNamespace::MultiplayerBadgeDataSO*)>(&::GlobalNamespace::MultiplayerBadgeAwardData::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x372d94c;
+  constexpr static std::size_t addrs = 0x37335b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerBadgeAwardData::*)(::System::Object*)>(&::GlobalNamespace::MultiplayerBadgeAwardData::CompareTo)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x372f720;
+  constexpr static std::size_t addrs = 0x3735290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

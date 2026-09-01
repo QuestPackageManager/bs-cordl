@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/BooleanQueryExpression.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonPath\BooleanQueryExpression.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryExpression_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__BooleanQueryExpression_def.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__QueryOperator_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::*)(
     ::Newtonsoft::Json::Linq::JsonPath::QueryOperator, ::System::Object*, ::System::Object*)>(&::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d8e09c;
+  constexpr static std::size_t addrs = 0x5d92558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::*)(::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*, ::System::Object*)>(
     &::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::GetResult)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5d8eb54;
+  constexpr static std::size_t addrs = 0x5d93010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::*)(
     ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::IsMatch)> {
   constexpr static std::size_t size = 0x67c;
-  constexpr static std::size_t addrs = 0x5d8ed34;
+  constexpr static std::size_t addrs = 0x5d931f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression*>(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::*)(
     ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::MatchTokens)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x5d8f3b0;
+  constexpr static std::size_t addrs = 0x5d9386c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(
     &::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::RegexEquals)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5d8f5ec;
+  constexpr static std::size_t addrs = 0x5d93aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JValue*)>(
     &::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::EqualsWithStringCoercion)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x5d8f7cc;
+  constexpr static std::size_t addrs = 0x5d93c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JValue*)>(
     &::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::EqualsWithStrictMatch)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5d8fd0c;
+  constexpr static std::size_t addrs = 0x5d941c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

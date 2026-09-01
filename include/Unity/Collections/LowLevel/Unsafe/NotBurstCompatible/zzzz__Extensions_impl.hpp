@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NotBurstCompatible/Extensions.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NotBurstCompatible\Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/NotBurstCompatible/zzzz__Extensions_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeAppendBuffer_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>, ::StringW)>(
     &::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::AddNBC)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x64c83dc;
+  constexpr static std::size_t addrs = 0x64cfe58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer>)>(
     &::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ToBytesNBC)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x64c846c;
+  constexpr static std::size_t addrs = 0x64cfee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader>, ::by_ref<::StringW>)>(
     &::Unity::Collections::LowLevel::Unsafe::NotBurstCompatible::Extensions::ReadNextNBC)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64c8520;
+  constexpr static std::size_t addrs = 0x64cff9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipMetricEvent.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipMetricEvent.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipUserEventBase_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipMetricEvent_def.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricEvent::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x325f670;
+  constexpr static std::size_t addrs = 0x3262970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricEvent*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricEvent::ApplyBasicFields)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3262114;
+  constexpr static std::size_t addrs = 0x32655d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipMetricEvent*>(),

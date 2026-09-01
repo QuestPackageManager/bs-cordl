@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatToTimeConverter.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatToTimeConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConverter_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatToTimeConverter::*)(::GlobalNamespace::IBeatToTimeConverter*)>(&::GlobalNamespace::BeatToTimeConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370fb3c;
+  constexpr static std::size_t addrs = 0x37159c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatToTimeConverter::*)(float_t)>(&::GlobalNamespace::BeatToTimeConverter::BeatToTime)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x370fb44;
+  constexpr static std::size_t addrs = 0x37159c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

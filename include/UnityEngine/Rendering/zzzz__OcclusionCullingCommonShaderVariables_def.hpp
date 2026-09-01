@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingCommonShaderVariables.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingCommonShaderVariables.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +82,7 @@ public:
   constexpr OcclusionCullingCommonShaderVariables___FacingDirWorldSpace_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17783 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -118,7 +118,7 @@ public:
   constexpr OcclusionCullingCommonShaderVariables___OccluderMipBounds_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17784 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -154,7 +154,7 @@ public:
   constexpr OcclusionCullingCommonShaderVariables___RadialDirWorldSpace_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17785 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -190,7 +190,7 @@ public:
   constexpr OcclusionCullingCommonShaderVariables___ViewOriginWorldSpace_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17786 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -226,7 +226,7 @@ public:
   constexpr OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17787 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x180 };
@@ -266,7 +266,7 @@ public:
 
   using __ViewProjMatrix_e__FixedBuffer = ::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables___ViewProjMatrix_e__FixedBuffer;
 
-  /// @brief Method .ctor, addr 0x682b76c, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68331e8, size 0x328, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::Rendering::OccluderContext> occluderCtx, ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings> subviewSettings,
                     bool occlusionOverlayCountVisible, bool overrideOcclusionTestToAlwaysPass);
 
@@ -294,7 +294,7 @@ public:
                                                   int32_t _OccluderSubviewIndices, int32_t _CullingSplitIndices, int32_t _CullingSplitMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17788 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x360 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/RefreshEventHandler.hpp"
+// IWYU pragma private; include "System\ComponentModel\RefreshEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/ComponentModel/zzzz__RefreshEventHandler_def.hpp"
 #include "System/ComponentModel/zzzz__RefreshEventArgs_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::RefreshEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::ComponentModel::RefreshEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x63c0ba0;
+  constexpr static std::size_t addrs = 0x63c861c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::RefreshEventHandler*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::RefreshEventHandler::*)(::System::ComponentModel::RefreshEventArgs*)>(
     &::System::ComponentModel::RefreshEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63c0ce4;
+  constexpr static std::size_t addrs = 0x63c8760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/TypedReference.hpp"
+// IWYU pragma private; include "System\TypedReference.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__RuntimeTypeHandle_impl.hpp"
 #include "System/zzzz__TypedReference_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TypedReference (*)(::System::Object*, ::ArrayW<::System::Reflection::FieldInfo*>)>(&::System::TypedReference::MakeTypedReference)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x5c85d80;
+  constexpr static std::size_t addrs = 0x5c8a23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::System::Object*, ::ArrayW<::System::IntPtr>, ::System::RuntimeType*)>(&::System::TypedReference::InternalMakeTypedReference)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c861a4;
+  constexpr static std::size_t addrs = 0x5c8a660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::TypedReference::*)()>(&::System::TypedReference::GetHashCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c861a8;
+  constexpr static std::size_t addrs = 0x5c8a664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::TypedReference>(), { ::i2c::class_of<::System::TypedReference>(), 2 }));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::TypedReference::*)(::System::Object*)>(&::System::TypedReference::Equals)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5c86200;
+  constexpr static std::size_t addrs = 0x5c8a6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::TypedReference>(), { ::i2c::class_of<::System::TypedReference>(), 0 }));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::TypedReference::*)()>(&::System::TypedReference::get_IsNull)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c86250;
+  constexpr static std::size_t addrs = 0x5c8a70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TypedReference>(), { "get_IsNull", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::TypedReference, ::System::Object*)>(&::System::TypedReference::SetTypedReference)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c86270;
+  constexpr static std::size_t addrs = 0x5c8a72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

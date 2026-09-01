@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/RegisteredWaitHandle.hpp"
+// IWYU pragma private; include "System\Threading\RegisteredWaitHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,16 +63,16 @@ public:
   /// @brief Field _waitObject, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__waitObject, put = __cordl_internal_set__waitObject)) ::System::Threading::WaitHandle* _waitObject;
 
-  /// @brief Method DoCallBack, addr 0x5cb5670, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DoCallBack, addr 0x5cb9b2c, size 0xc8, virtual false, abstract: false, final false
   inline void DoCallBack(::System::Object* timedOut);
 
   static inline ::System::Threading::RegisteredWaitHandle* New_ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state,
                                                                     ::System::TimeSpan timeout, bool executeOnlyOnce);
 
-  /// @brief Method Unregister, addr 0x5cb5738, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x5cb9bf4, size 0xf4, virtual false, abstract: false, final false
   inline bool Unregister(::System::Threading::WaitHandle* waitObject);
 
-  /// @brief Method Wait, addr 0x5cb50d4, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x5cb9590, size 0x59c, virtual false, abstract: false, final false
   inline void Wait(::System::Object* state);
 
   constexpr ::System::Threading::WaitOrTimerCallback* const& __cordl_internal_get__callback() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__waitObject(::System::Threading::WaitHandle* value);
 
-  /// @brief Method .ctor, addr 0x5cb2550, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb6a0c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state, ::System::TimeSpan timeout, bool executeOnlyOnce);
 
 protected:

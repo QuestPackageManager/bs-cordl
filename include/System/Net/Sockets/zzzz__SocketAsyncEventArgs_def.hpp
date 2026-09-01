@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Sockets/SocketAsyncEventArgs.hpp"
+// IWYU pragma private; include "System\Net\Sockets\SocketAsyncEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -183,35 +183,35 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Complete_internal, addr 0x636573c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Complete_internal, addr 0x636d1b8, size 0x18, virtual false, abstract: false, final false
   inline void Complete_internal();
 
-  /// @brief Method Dispose, addr 0x6365608, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x636d084, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x63655f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x636d070, size 0x14, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x63655e8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x636d064, size 0xc, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Net::Sockets::SocketAsyncEventArgs* New_ctor();
 
   static inline ::System::Net::Sockets::SocketAsyncEventArgs* New_ctor(bool flowExecutionContext);
 
-  /// @brief Method OnCompleted, addr 0x6365754, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnCompleted, addr 0x636d1d0, size 0x28, virtual true, abstract: false, final false
   inline void OnCompleted(::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method SetBuffer, addr 0x63657a0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetBuffer, addr 0x636d21c, size 0xd4, virtual false, abstract: false, final false
   inline void SetBuffer(::System::Memory_1<uint8_t> buffer);
 
-  /// @brief Method SetBytesTransferred, addr 0x6361218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBytesTransferred, addr 0x6368c94, size 0x8, virtual false, abstract: false, final false
   inline void SetBytesTransferred(int32_t value);
 
-  /// @brief Method SetCurrentSocket, addr 0x6365678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentSocket, addr 0x636d0f4, size 0x8, virtual false, abstract: false, final false
   inline void SetCurrentSocket(::System::Net::Sockets::Socket* socket);
 
-  /// @brief Method SetLastOperation, addr 0x6365680, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetLastOperation, addr 0x636d0fc, size 0xbc, virtual false, abstract: false, final false
   inline void SetLastOperation(::System::Net::Sockets::SocketAsyncOperation op);
 
   constexpr ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* const& __cordl_internal_get_Completed() const;
@@ -358,70 +358,70 @@ public:
 
   constexpr void __cordl_internal_set_socket_async_result(::System::Net::Sockets::SocketAsyncResult* value);
 
-  /// @brief Method .ctor, addr 0x6365560, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x636cfdc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x635d8e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6365360, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(bool flowExecutionContext);
 
-  /// @brief Method add_Completed, addr 0x63653e0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_Completed, addr 0x636ce5c, size 0xc0, virtual false, abstract: false, final false
   inline void add_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
-  /// @brief Method get_AcceptSocket, addr 0x6365380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AcceptSocket, addr 0x636cdfc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_AcceptSocket();
 
-  /// @brief Method get_BufferList, addr 0x6365798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BufferList, addr 0x636d214, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* get_BufferList();
 
-  /// @brief Method get_BytesTransferred, addr 0x6365390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BytesTransferred, addr 0x636ce0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BytesTransferred();
 
-  /// @brief Method get_Count, addr 0x6365790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x636d20c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_CurrentSocket, addr 0x6365670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSocket, addr 0x636d0ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_CurrentSocket();
 
-  /// @brief Method get_MemoryBuffer, addr 0x636577c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MemoryBuffer, addr 0x636d1f8, size 0xc, virtual false, abstract: false, final false
   inline ::System::Memory_1<uint8_t> get_MemoryBuffer();
 
-  /// @brief Method get_Offset, addr 0x6365788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x636d204, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Offset();
 
-  /// @brief Method get_SocketError, addr 0x63653b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SocketError, addr 0x636ce34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_SocketError();
 
-  /// @brief Method get_UserToken, addr 0x63653d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserToken, addr 0x636ce4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_UserToken();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_Completed, addr 0x63654a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_Completed, addr 0x636cf1c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
-  /// @brief Method set_AcceptSocket, addr 0x6365388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AcceptSocket, addr 0x636ce04, size 0x8, virtual false, abstract: false, final false
   inline void set_AcceptSocket(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method set_BytesTransferred, addr 0x6365398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BytesTransferred, addr 0x636ce14, size 0x8, virtual false, abstract: false, final false
   inline void set_BytesTransferred(int32_t value);
 
-  /// @brief Method set_LastOperation, addr 0x63653a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastOperation, addr 0x636ce1c, size 0x8, virtual false, abstract: false, final false
   inline void set_LastOperation(::System::Net::Sockets::SocketAsyncOperation value);
 
-  /// @brief Method set_RemoteEndPoint, addr 0x63653a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RemoteEndPoint, addr 0x636ce24, size 0x8, virtual false, abstract: false, final false
   inline void set_RemoteEndPoint(::System::Net::EndPoint* value);
 
-  /// @brief Method set_SendPacketsSendSize, addr 0x63653b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SendPacketsSendSize, addr 0x636ce2c, size 0x8, virtual false, abstract: false, final false
   inline void set_SendPacketsSendSize(int32_t value);
 
-  /// @brief Method set_SocketError, addr 0x63653c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SocketError, addr 0x636ce3c, size 0x8, virtual false, abstract: false, final false
   inline void set_SocketError(::System::Net::Sockets::SocketError value);
 
-  /// @brief Method set_SocketFlags, addr 0x63653c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SocketFlags, addr 0x636ce44, size 0x8, virtual false, abstract: false, final false
   inline void set_SocketFlags(::System::Net::Sockets::SocketFlags value);
 
-  /// @brief Method set_UserToken, addr 0x63653d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UserToken, addr 0x636ce54, size 0x8, virtual false, abstract: false, final false
   inline void set_UserToken(::System::Object* value);
 
 protected:
@@ -439,7 +439,7 @@ public:
   SocketAsyncEventArgs(SocketAsyncEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11784 };
 
   /// @brief Field disposed, offset: 0x10, size: 0x1, def value: None
   bool ___disposed;

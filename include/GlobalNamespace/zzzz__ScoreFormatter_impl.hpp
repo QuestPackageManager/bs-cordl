@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScoreFormatter.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScoreFormatter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreFormatter_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::GlobalNamespace::ScoreFormatter::Format)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x374ebdc;
+  constexpr static std::size_t addrs = 0x375480c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScoreFormatter*>(), { "Format", {}, { ::i2c::type_of<int32_t>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScoreFormatter::*)()>(&::GlobalNamespace::ScoreFormatter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x374ec64;
+  constexpr static std::size_t addrs = 0x3754894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScoreFormatter*>(), { ".ctor", {}, {} })));

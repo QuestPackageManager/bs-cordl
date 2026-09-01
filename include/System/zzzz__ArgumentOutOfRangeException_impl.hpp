@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ArgumentOutOfRangeException.hpp"
+// IWYU pragma private; include "System\ArgumentOutOfRangeException.hpp"
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "System/zzzz__ArgumentOutOfRangeException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ArgumentOutOfRangeException::*)()>(&::System::ArgumentOutOfRangeException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5baa5bc;
+  constexpr static std::size_t addrs = 0x5baea78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ArgumentOutOfRangeException*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ArgumentOutOfRangeException::*)(::StringW)>(&::System::ArgumentOutOfRangeException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5baa61c;
+  constexpr static std::size_t addrs = 0x5baead8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ArgumentOutOfRangeException::*)(::StringW, ::StringW)>(&::System::ArgumentOutOfRangeException::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ba5fb4;
+  constexpr static std::size_t addrs = 0x5baa470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ArgumentOutOfRangeException::*)(::StringW, ::System::Object*, ::StringW)>(&::System::ArgumentOutOfRangeException::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5ba7240;
+  constexpr static std::size_t addrs = 0x5bab6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ArgumentOutOfRangeException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ArgumentOutOfRangeException::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5baa68c;
+  constexpr static std::size_t addrs = 0x5baeb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ArgumentOutOfRangeException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ArgumentOutOfRangeException::GetObjectData)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5baa748;
+  constexpr static std::size_t addrs = 0x5baec04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ArgumentOutOfRangeException::*)()>(&::System::ArgumentOutOfRangeException::get_Message)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5baa804;
+  constexpr static std::size_t addrs = 0x5baecc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

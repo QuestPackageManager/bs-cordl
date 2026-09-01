@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/CustomIntegrationConfigBase.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\CustomIntegrationConfigBase.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__CustomIntegrationConfigBase_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__ICustomIntegrationConfig_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::*)()>(&::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a54d40;
+  constexpr static std::size_t addrs = 0x5a591fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase*>(), { "Awake", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::*)()>(
     &::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a54d44;
+  constexpr static std::size_t addrs = 0x5a59200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::*)()>(
     &::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::GetCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a54d48;
+  constexpr static std::size_t addrs = 0x5a59204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::*)()>(&::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a54d50;
+  constexpr static std::size_t addrs = 0x5a5920c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase*>(), { ".ctor", {}, {} })));

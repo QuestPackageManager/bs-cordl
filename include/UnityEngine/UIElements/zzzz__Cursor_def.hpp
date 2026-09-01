@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Cursor.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Cursor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,40 +79,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Cursor>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Cursor>*();
 
-  /// @brief Method Equals, addr 0x6d7b00c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6d82b90, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6d7b0a0, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6d82c24, size 0xb4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Cursor other);
 
-  /// @brief Method GetHashCode, addr 0x6d7b154, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6d82cd8, size 0xc4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6d7b248, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6d82dcc, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_defaultCursorId, addr 0x6d7affc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultCursorId, addr 0x6d82b80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_defaultCursorId();
 
-  /// @brief Method get_hotspot, addr 0x6d7afec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hotspot, addr 0x6d82b70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_hotspot();
 
-  /// @brief Method get_texture, addr 0x6d7afdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x6d82b60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Cursor>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Cursor>* i___System__IEquatable_1___UnityEngine__UIElements__Cursor_();
 
-  /// @brief Method op_Equality, addr 0x6d7b218, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6d82d9c, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Cursor style1, ::UnityEngine::UIElements::Cursor style2);
 
-  /// @brief Method set_defaultCursorId, addr 0x6d7b004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultCursorId, addr 0x6d82b88, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultCursorId(int32_t value);
 
-  /// @brief Method set_hotspot, addr 0x6d7aff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hotspot, addr 0x6d82b78, size 0x8, virtual false, abstract: false, final false
   inline void set_hotspot(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_texture, addr 0x6d7afe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_texture, addr 0x6d82b68, size 0x8, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture2D* value);
 
   // Ctor Parameters []
@@ -167,12 +167,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6d7b59c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6d83120, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> GetValue(::by_ref<::UnityEngine::UIElements::Cursor> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6d7b5a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6d83128, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Cursor> container, ::UnityEngine::Texture2D* value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -187,13 +187,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d7b460, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d82fe4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6d7b594, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6d83118, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6d7b58c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6d83110, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -246,12 +246,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6d7b5bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6d83140, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 GetValue(::by_ref<::UnityEngine::UIElements::Cursor> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6d7b5c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6d83148, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Cursor> container, ::UnityEngine::Vector2 value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -266,13 +266,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d7b4c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d83048, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6d7b5b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6d83138, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6d7b5ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6d83130, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -325,12 +325,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6d7b5dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6d83160, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetValue(::by_ref<::UnityEngine::UIElements::Cursor> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6d7b5e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6d83168, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Cursor> container, int32_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -345,13 +345,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d7b528, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d830ac, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6d7b5d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6d83158, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6d7b5cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6d83150, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -402,7 +402,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Cursor_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d7b2fc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d82e80, size 0x164, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

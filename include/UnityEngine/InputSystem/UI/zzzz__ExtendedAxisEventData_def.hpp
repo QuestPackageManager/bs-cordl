@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/UI/ExtendedAxisEventData.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\UI\ExtendedAxisEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::UI::ExtendedAxisEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x658a6f0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x659216c, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::InputSystem::InputDevice* const& __cordl_internal_get__device_k__BackingField() const;
@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set__device_k__BackingField(::UnityEngine::InputSystem::InputDevice* value);
 
-  /// @brief Method .ctor, addr 0x658a6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6592164, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_device, addr 0x658a6d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_device, addr 0x6592154, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
   /// @brief Convert to "::UnityEngine::InputSystem::UI::INavigationEventData"
   constexpr ::UnityEngine::InputSystem::UI::INavigationEventData* i___UnityEngine__InputSystem__UI__INavigationEventData() noexcept;
 
-  /// @brief Method set_device, addr 0x658a6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x659215c, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
 protected:
@@ -75,7 +75,7 @@ public:
   ExtendedAxisEventData(ExtendedAxisEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8858 };
 
   /// @brief Field <device>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputDevice* ____device_k__BackingField;

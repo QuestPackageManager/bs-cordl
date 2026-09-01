@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlDownloadManager.hpp"
+// IWYU pragma private; include "System\Xml\XmlDownloadManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,7 @@ public:
 
   static inline ::System::Xml::XmlDownloadManager___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <GetStreamAsync>b__0, addr 0x62da850, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method <GetStreamAsync>b__0, addr 0x62e22cc, size 0x98, virtual false, abstract: false, final false
   inline ::System::IO::Stream* _GetStreamAsync_b__0();
 
   constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x62da73c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e21b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   XmlDownloadManager___c__DisplayClass4_0(XmlDownloadManager___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9436 };
 
   /// @brief Field uri, offset: 0x10, size: 0x8, def value: None
   ::System::Uri* ___uri;
@@ -125,10 +125,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x62da8e8, size 0x7fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x62e2364, size 0x7fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x62db0e4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x62e2b60, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -150,7 +150,7 @@ public:
                                                            ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebResponse*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9437 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -220,23 +220,23 @@ public:
   /// @brief Field connections, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_connections, put = __cordl_internal_set_connections)) ::System::Collections::Hashtable* connections;
 
-  /// @brief Method GetNonFileStream, addr 0x62d9dc4, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method GetNonFileStream, addr 0x62e1840, size 0x47c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetNonFileStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetNonFileStreamAsync, addr 0x62da740, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetNonFileStreamAsync, addr 0x62e21bc, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetNonFileStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy,
                                                                                           ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetStream, addr 0x62d9cb0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetStream, addr 0x62e172c, size 0x114, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetStreamAsync, addr 0x62da598, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetStreamAsync, addr 0x62e2014, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy,
                                                                                    ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
   static inline ::System::Xml::XmlDownloadManager* New_ctor();
 
-  /// @brief Method Remove, addr 0x62da420, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x62e1e9c, size 0x178, virtual false, abstract: false, final false
   inline void Remove(::StringW host);
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_connections() const;
@@ -245,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set_connections(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x62da84c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e22c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -263,7 +263,7 @@ public:
   XmlDownloadManager(XmlDownloadManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9438 };
 
   /// @brief Field connections, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___connections;

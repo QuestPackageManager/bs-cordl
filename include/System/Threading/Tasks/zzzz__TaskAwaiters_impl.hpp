@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/TaskAwaiters.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\TaskAwaiters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskAwaiters_def.hpp"
 #include "System/Threading/Tasks/zzzz__ForceAsyncAwaiter_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ForceAsyncAwaiter (*)(::System::Threading::Tasks::Task*)>(&::System::Threading::Tasks::TaskAwaiters::ForceAsync)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb829c;
+  constexpr static std::size_t addrs = 0x5cbc758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

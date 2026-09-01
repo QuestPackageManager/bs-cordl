@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockLocalScaleAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockLocalScaleAnimator.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockLocalScaleAnimator_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator::SetProperty)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5872ae4;
+  constexpr static std::size_t addrs = 0x5872424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator::*)()>(&::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5872b38;
+  constexpr static std::size_t addrs = 0x5872478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockLocalScaleAnimator*>(), { ".ctor", {}, {} })));

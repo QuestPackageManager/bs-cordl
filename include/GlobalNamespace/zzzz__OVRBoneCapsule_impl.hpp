@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRBoneCapsule.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRBoneCapsule.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRBoneCapsule_def.hpp"
 #include "UnityEngine/zzzz__CapsuleCollider_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::GlobalNamespace::OVRBoneCapsule::*)()>(&::GlobalNamespace::OVRBoneCapsule::get_BoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0d8f0;
+  constexpr static std::size_t addrs = 0x5f11dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRBoneCapsule*>(), { "get_BoneIndex", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)(int16_t)>(&::GlobalNamespace::OVRBoneCapsule::set_BoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0d8f8;
+  constexpr static std::size_t addrs = 0x5f11db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rigidbody> (::GlobalNamespace::OVRBoneCapsule::*)()>(&::GlobalNamespace::OVRBoneCapsule::get_CapsuleRigidbody)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0d900;
+  constexpr static std::size_t addrs = 0x5f11dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRBoneCapsule*>(), { "get_CapsuleRigidbody", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)(::UnityEngine::Rigidbody*)>(&::GlobalNamespace::OVRBoneCapsule::set_CapsuleRigidbody)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0d908;
+  constexpr static std::size_t addrs = 0x5f11dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::CapsuleCollider> (::GlobalNamespace::OVRBoneCapsule::*)()>(&::GlobalNamespace::OVRBoneCapsule::get_CapsuleCollider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0d910;
+  constexpr static std::size_t addrs = 0x5f11dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRBoneCapsule*>(), { "get_CapsuleCollider", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)(::UnityEngine::CapsuleCollider*)>(&::GlobalNamespace::OVRBoneCapsule::set_CapsuleCollider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0d918;
+  constexpr static std::size_t addrs = 0x5f11dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)()>(&::GlobalNamespace::OVRBoneCapsule::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f0ce74;
+  constexpr static std::size_t addrs = 0x5f11330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRBoneCapsule*>(), { ".ctor", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)(int16_t, ::UnityEngine::Rigidbody*, ::UnityEngine::CapsuleCollider*)>(
     &::GlobalNamespace::OVRBoneCapsule::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f0d920;
+  constexpr static std::size_t addrs = 0x5f11ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)()>(&::GlobalNamespace::OVRBoneCapsule::Cleanup)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5f0cdcc;
+  constexpr static std::size_t addrs = 0x5f11288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRBoneCapsule*>(), { "Cleanup", {}, {} })));

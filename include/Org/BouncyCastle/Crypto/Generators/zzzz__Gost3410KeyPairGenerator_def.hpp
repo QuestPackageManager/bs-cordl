@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/Gost3410KeyPairGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\Gost3410KeyPairGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method GenerateKeyPair, addr 0x33d5064, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0x33d8e24, size 0x22c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method Init, addr 0x33d4f30, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x33d8cf0, size 0x134, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator* New_ctor();
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters* value);
 
-  /// @brief Method .ctor, addr 0x33d5290, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d9050, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"

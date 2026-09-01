@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/CatchBlock.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\CatchBlock.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__CatchBlock_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
                                                                                                          ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::CatchBlock::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f729d0;
+  constexpr static std::size_t addrs = 0x5f7a44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ParameterExpression* (::System::Linq::Expressions::CatchBlock::*)()>(
     &::System::Linq::Expressions::CatchBlock::get_Variable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f729dc;
+  constexpr static std::size_t addrs = 0x5f7a458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::CatchBlock*>(), { "get_Variable", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Linq::Expressions::CatchBlock::*)()>(&::System::Linq::Expressions::CatchBlock::get_Test)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f729e4;
+  constexpr static std::size_t addrs = 0x5f7a460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::CatchBlock*>(), { "get_Test", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::CatchBlock::*)()>(&::System::Linq::Expressions::CatchBlock::get_Body)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f729ec;
+  constexpr static std::size_t addrs = 0x5f7a468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::CatchBlock*>(), { "get_Body", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::CatchBlock::*)()>(&::System::Linq::Expressions::CatchBlock::get_Filter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f729f4;
+  constexpr static std::size_t addrs = 0x5f7a470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::CatchBlock*>(), { "get_Filter", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::CatchBlock::*)()>(&::System::Linq::Expressions::CatchBlock::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f729fc;
+  constexpr static std::size_t addrs = 0x5f7a478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
     ::System::Linq::Expressions::CatchBlock::*)(::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::CatchBlock::Update)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5f72a80;
+  constexpr static std::size_t addrs = 0x5f7a4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

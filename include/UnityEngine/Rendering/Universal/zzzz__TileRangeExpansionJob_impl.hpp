@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/TileRangeExpansionJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\TileRangeExpansionJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Mathematics/zzzz__int2_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__InclusiveRange_impl.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TileRangeExpansionJob::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::TileRangeExpansionJob::Execute)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x68ba5cc;
+  constexpr static std::size_t addrs = 0x68c2048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

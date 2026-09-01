@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXTriggerEventBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXTriggerEventBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
   static ::UnityEngine::VFX::Utility::VFXTriggerEventBinder_Activation const OnStay;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19978 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -114,16 +114,16 @@ public:
 
   static inline ::UnityEngine::VFX::Utility::VFXTriggerEventBinder* New_ctor();
 
-  /// @brief Method OnTriggerEnter, addr 0x69d9e1c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerEnter, addr 0x69e1898, size 0xec, virtual false, abstract: false, final false
   inline void OnTriggerEnter(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerExit, addr 0x69d9f08, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerExit, addr 0x69e1984, size 0xf0, virtual false, abstract: false, final false
   inline void OnTriggerExit(::UnityEngine::Collider* other);
 
-  /// @brief Method OnTriggerStay, addr 0x69d9ff8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerStay, addr 0x69e1a74, size 0xf0, virtual false, abstract: false, final false
   inline void OnTriggerStay(::UnityEngine::Collider* other);
 
-  /// @brief Method SetEventAttribute, addr 0x69d9d38, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method SetEventAttribute, addr 0x69e17b4, size 0xe4, virtual true, abstract: false, final false
   inline void SetEventAttribute(::ArrayW<::System::Object*> parameters);
 
   constexpr ::UnityEngine::VFX::Utility::VFXTriggerEventBinder_Activation const& __cordl_internal_get_activation() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_positionParameter(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69da0e8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e1b64, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   VFXTriggerEventBinder(VFXTriggerEventBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19979 };
 
   /// @brief Field colliders, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* ___colliders;

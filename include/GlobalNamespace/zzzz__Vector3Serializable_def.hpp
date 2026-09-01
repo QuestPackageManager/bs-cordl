@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Vector3Serializable.hpp"
+// IWYU pragma private; include "GlobalNamespace\Vector3Serializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,34 +45,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>*();
 
-  /// @brief Method Approximately, addr 0x377bf64, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x3781cec, size 0x60, virtual false, abstract: false, final false
   inline bool Approximately(::GlobalNamespace::Vector3Serializable other);
 
-  /// @brief Method Deserialize, addr 0x37793bc, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x377f144, size 0x70, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x377bfc4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3781d4c, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x377bf30, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3781cb8, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::Vector3Serializable other);
 
-  /// @brief Method GetHashCode, addr 0x377c060, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3781de8, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSize, addr 0x377c1c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetSize, addr 0x3781f48, size 0x9c, virtual false, abstract: false, final false
   inline int32_t GetSize();
 
-  /// @brief Method Serialize, addr 0x3779660, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x377f3e8, size 0x7c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method ToString, addr 0x377c088, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3781e10, size 0x138, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x377c534, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37822bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method .ctor, addr 0x377c298, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3782020, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 v);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
@@ -81,16 +81,16 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>* i___System__IEquatable_1___GlobalNamespace__Vector3Serializable_();
 
-  /// @brief Method op_Addition, addr 0x377c568, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x37822f0, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Vector3Serializable op_Addition(::GlobalNamespace::Vector3Serializable a, ::GlobalNamespace::Vector3Serializable b);
 
-  /// @brief Method op_Implicit, addr 0x3779a90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x377f818, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Vector3Serializable op_Implicit___GlobalNamespace__Vector3Serializable(::UnityEngine::Vector3 v);
 
-  /// @brief Method op_Implicit, addr 0x377c540, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x37822c8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::GlobalNamespace::Vector3Serializable v);
 
-  /// @brief Method op_Subtraction, addr 0x377c584, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x378230c, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Vector3Serializable op_Subtraction(::GlobalNamespace::Vector3Serializable a, ::GlobalNamespace::Vector3Serializable b);
 
   // Ctor Parameters []
@@ -102,7 +102,7 @@ public:
   constexpr Vector3Serializable(int32_t _x, int32_t _y, int32_t _z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21211 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

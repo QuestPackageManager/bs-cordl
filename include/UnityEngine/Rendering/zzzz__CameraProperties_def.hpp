@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CameraProperties.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CameraProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   constexpr CameraProperties__layerCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10792 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -103,7 +103,7 @@ public:
   constexpr CameraProperties__m_CameraCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10793 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -139,7 +139,7 @@ public:
   constexpr CameraProperties__m_ShadowCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10794 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -177,19 +177,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>*();
 
-  /// @brief Method Equals, addr 0x6b172f4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b1ed0c, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b16b2c, size 0x7c8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b1e544, size 0x7c8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::CameraProperties other);
 
-  /// @brief Method GetCameraCullingPlane, addr 0x6b16a60, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetCameraCullingPlane, addr 0x6b1e478, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetCameraCullingPlane(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x6b173b0, size 0x530, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b1edc8, size 0x530, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetShadowCullingPlane, addr 0x6b16994, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetShadowCullingPlane, addr 0x6b1e3ac, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetShadowCullingPlane(int32_t index);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
@@ -229,7 +229,7 @@ public:
                              bool useInteractiveLightBakingData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3e4 };

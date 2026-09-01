@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CustomBoundingBox.hpp"
+// IWYU pragma private; include "GlobalNamespace\CustomBoundingBox.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomBoundingBox_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomBoundingBox::*)()>(&::GlobalNamespace::CustomBoundingBox::Awake)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5856e24;
+  constexpr static std::size_t addrs = 0x5855f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomBoundingBox*>(), { "Awake", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomBoundingBox::*)()>(&::GlobalNamespace::CustomBoundingBox::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5856e8c;
+  constexpr static std::size_t addrs = 0x5855f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomBoundingBox*>(), { ".ctor", {}, {} })));

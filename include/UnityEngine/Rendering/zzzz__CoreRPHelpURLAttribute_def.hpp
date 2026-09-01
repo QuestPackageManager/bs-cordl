@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CoreRPHelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CoreRPHelpURLAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +24,10 @@ public:
 
   static inline ::UnityEngine::Rendering::CoreRPHelpURLAttribute* New_ctor(::StringW pageName, ::StringW pageHash, ::StringW packageName);
 
-  /// @brief Method .ctor, addr 0x677feac, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6787928, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW packageName);
 
-  /// @brief Method .ctor, addr 0x6780104, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6787b80, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW pageHash, ::StringW packageName);
 
 protected:
@@ -45,7 +45,7 @@ public:
   CoreRPHelpURLAttribute(CoreRPHelpURLAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

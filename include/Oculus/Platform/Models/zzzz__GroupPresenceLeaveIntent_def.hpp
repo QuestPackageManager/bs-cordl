@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/GroupPresenceLeaveIntent.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\GroupPresenceLeaveIntent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5deb468, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5def924, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -70,7 +70,7 @@ public:
   GroupPresenceLeaveIntent(GroupPresenceLeaveIntent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18044 };
 
   /// @brief Field DestinationApiName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DestinationApiName;

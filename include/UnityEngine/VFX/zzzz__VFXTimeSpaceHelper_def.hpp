@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VFXTimeSpaceHelper.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VFXTimeSpaceHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,28 +114,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x69cc40c, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x69d3e88, size 0x22c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.GetEnumerator, addr 0x69cc73c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.GetEnumerator, addr 0x69d41b8, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>*
   System_Collections_Generic_IEnumerable_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.get_Current, addr 0x69cc680, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.get_Current, addr 0x69d40fc, size 0x18, virtual true, abstract: false, final true
   inline ::UnityEngine::VFX::VisualEffectPlayableSerializedEvent System_Collections_Generic_IEnumerator_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69cc7d4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69d4250, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69cc698, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69d4114, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69cc6d0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69d414c, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x69cc3a0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x69d3e1c, size 0x6c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -180,10 +180,10 @@ public:
 
   constexpr void __cordl_internal_set_source(::UnityW<::UnityEngine::VFX::VisualEffectControlClip> value);
 
-  /// @brief Method <>m__Finally1, addr 0x69cc638, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x69d40b4, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x69cc148, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d3bc4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>"
@@ -218,7 +218,7 @@ public:
   VFXTimeSpaceHelper__CollectClipEvents_d__1(VFXTimeSpaceHelper__CollectClipEvents_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19952 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -327,28 +327,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x69cc7f4, size 0x370, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x69d4270, size 0x370, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.GetEnumerator, addr 0x69cccd4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.GetEnumerator, addr 0x69d4750, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>*
   System_Collections_Generic_IEnumerable_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.get_Current, addr 0x69ccc18, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.VFX.VisualEffectPlayableSerializedEvent>.get_Current, addr 0x69d4694, size 0x18, virtual true, abstract: false, final true
   inline ::UnityEngine::VFX::VisualEffectPlayableSerializedEvent System_Collections_Generic_IEnumerator_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69ccd84, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69d4800, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69ccc30, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69d46ac, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69ccc68, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69d46e4, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x69cc7d8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x69d4254, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -423,10 +423,10 @@ public:
 
   constexpr void __cordl_internal_set_space(::UnityEngine::VFX::PlayableTimeSpace value);
 
-  /// @brief Method <>m__Finally1, addr 0x69ccb64, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x69d45e0, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x69cc1b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d3c2c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>"
@@ -461,7 +461,7 @@ public:
   VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3(VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19953 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -540,23 +540,23 @@ public:
 
   using _GetEventNormalizedSpace_d__3 = ::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3;
 
-  /// @brief Method CollectClipEvents, addr 0x69cc0d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CollectClipEvents, addr 0x69d3b54, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>* CollectClipEvents(::UnityEngine::VFX::VisualEffectControlClip* source);
 
-  /// @brief Method GetEventNormalizedSpace, addr 0x69cc044, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEventNormalizedSpace, addr 0x69d3ac0, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>*
   GetEventNormalizedSpace(::UnityEngine::VFX::PlayableTimeSpace space, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>* events,
                           double_t clipStart, double_t clipEnd);
 
-  /// @brief Method GetEventNormalizedSpace, addr 0x69cc168, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetEventNormalizedSpace, addr 0x69d3be4, size 0x48, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>*
   GetEventNormalizedSpace(::UnityEngine::VFX::PlayableTimeSpace space, ::UnityEngine::VFX::VisualEffectControlClip* source, bool clipEvents);
 
-  /// @brief Method GetEventNormalizedSpace, addr 0x69cc028, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEventNormalizedSpace, addr 0x69d3aa4, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>*
   GetEventNormalizedSpace(::UnityEngine::VFX::PlayableTimeSpace space, ::UnityEngine::VFX::VisualEffectControlPlayableBehaviour* source);
 
-  /// @brief Method GetTimeInSpace, addr 0x69cc1d0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetTimeInSpace, addr 0x69d3c4c, size 0x1d0, virtual false, abstract: false, final false
   static inline double_t GetTimeInSpace(::UnityEngine::VFX::PlayableTimeSpace srcSpace, double_t srcTime, ::UnityEngine::VFX::PlayableTimeSpace dstSpace, double_t clipStart, double_t clipEnd);
 
 protected:
@@ -574,7 +574,7 @@ public:
   VFXTimeSpaceHelper(VFXTimeSpaceHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19954 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

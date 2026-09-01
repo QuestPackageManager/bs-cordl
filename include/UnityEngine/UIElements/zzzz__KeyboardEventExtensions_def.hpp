@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/KeyboardEventExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\KeyboardEventExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE KeyboardEventExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldSendNavigationMoveEvent, addr 0x6d96580, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendNavigationMoveEvent, addr 0x6d9e104, size 0xc0, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEvent(::UnityEngine::UIElements::KeyDownEvent* e);
 
-  /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x6d968f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendNavigationMoveEventRuntime, addr 0x6d9e478, size 0x44, virtual false, abstract: false, final false
   static inline bool ShouldSendNavigationMoveEventRuntime(::UnityEngine::Event* e);
 
 protected:

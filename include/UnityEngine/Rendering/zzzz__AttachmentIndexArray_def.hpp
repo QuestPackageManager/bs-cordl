@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/AttachmentIndexArray.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\AttachmentIndexArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,20 +27,20 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method .ctor, addr 0x6b16098, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b1dab0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t numAttachments);
 
   static inline ::UnityEngine::Rendering::AttachmentIndexArray getStaticF_Emtpy();
 
-  /// @brief Method get_Item, addr 0x6b16128, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6b1db40, size 0xb0, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x6b16288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x6b1dca0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   static inline void setStaticF_Emtpy(::UnityEngine::Rendering::AttachmentIndexArray value);
 
-  /// @brief Method set_Item, addr 0x6b161d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6b1dbf0, size 0xb0, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, int32_t value);
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
   constexpr AttachmentIndexArray(int32_t a0, int32_t a1, int32_t a2, int32_t a3, int32_t a4, int32_t a5, int32_t a6, int32_t a7, int32_t activeAttachments) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10788 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/BindingCondition.hpp"
+// IWYU pragma private; include "Zenject\BindingCondition.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Zenject/zzzz__BindingCondition_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::BindingCondition::*)(::System::Object*, ::System::IntPtr)>(&::Zenject::BindingCondition::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6e6f6ec;
+  constexpr static std::size_t addrs = 0x6e77270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::BindingCondition::*)(::Zenject::InjectContext*)>(&::Zenject::BindingCondition::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e6f830;
+  constexpr static std::size_t addrs = 0x6e773b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::BindingCondition*>(), { ::i2c::class_of<::Zenject::BindingCondition*>(), 13 }));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::Zenject::BindingCondition::*)(::Zenject::InjectContext*, ::System::AsyncCallback*, ::System::Object*)>(
     &::Zenject::BindingCondition::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e6f844;
+  constexpr static std::size_t addrs = 0x6e773c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::BindingCondition*>(), { ::i2c::class_of<::Zenject::BindingCondition*>(), 14 }));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::BindingCondition::*)(::System::IAsyncResult*)>(&::Zenject::BindingCondition::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6e6f864;
+  constexpr static std::size_t addrs = 0x6e773e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::BindingCondition*>(), { ::i2c::class_of<::Zenject::BindingCondition*>(), 15 }));

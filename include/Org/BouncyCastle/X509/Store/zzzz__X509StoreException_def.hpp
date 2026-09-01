@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509StoreException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\Store\X509StoreException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::X509::Store::X509StoreException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x363c538, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36402f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x363c590, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3640350, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x363c5fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36403bc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:

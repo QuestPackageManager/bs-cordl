@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugDisplaySettingsLighting.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugDisplaySettingsLighting.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,7 +136,7 @@ public:
   DebugDisplaySettingsLighting_Strings(DebugDisplaySettingsLighting_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12605 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -156,16 +156,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateLightingDebugMode>b__0, addr 0x6838f10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateLightingDebugMode>b__0, addr 0x684098c, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateLightingDebugMode_b__0();
 
-  /// @brief Method <CreateLightingDebugMode>b__1, addr 0x6838f68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateLightingDebugMode>b__1, addr 0x68409e4, size 0x64, virtual false, abstract: false, final false
   inline void _CreateLightingDebugMode_b__1(int32_t value);
 
-  /// @brief Method <CreateLightingDebugMode>b__2, addr 0x6838fcc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateLightingDebugMode>b__2, addr 0x6840a48, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateLightingDebugMode_b__2();
 
-  /// @brief Method <CreateLightingDebugMode>b__3, addr 0x6839024, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateLightingDebugMode>b__3, addr 0x6840aa0, size 0x64, virtual false, abstract: false, final false
   inline void _CreateLightingDebugMode_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x68389bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6840438, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -192,7 +192,7 @@ public:
   WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12606 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* ___panel;
@@ -217,10 +217,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <CreateLightingFeatures>b__0, addr 0x6839088, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <CreateLightingFeatures>b__0, addr 0x6840b04, size 0x88, virtual false, abstract: false, final false
   inline ::System::Enum* _CreateLightingFeatures_b__0();
 
-  /// @brief Method <CreateLightingFeatures>b__1, addr 0x6839110, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <CreateLightingFeatures>b__1, addr 0x6840b8c, size 0xa4, virtual false, abstract: false, final false
   inline void _CreateLightingFeatures_b__1(::System::Enum* value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -229,7 +229,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6838bd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6840650, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -247,7 +247,7 @@ public:
   WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12607 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* ___panel;
@@ -272,16 +272,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <CreateHDRDebugMode>b__0, addr 0x68391b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDRDebugMode>b__0, addr 0x6840c30, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateHDRDebugMode_b__0();
 
-  /// @brief Method <CreateHDRDebugMode>b__1, addr 0x683920c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDRDebugMode>b__1, addr 0x6840c88, size 0x64, virtual false, abstract: false, final false
   inline void _CreateHDRDebugMode_b__1(int32_t value);
 
-  /// @brief Method <CreateHDRDebugMode>b__2, addr 0x6839270, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDRDebugMode>b__2, addr 0x6840cec, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateHDRDebugMode_b__2();
 
-  /// @brief Method <CreateHDRDebugMode>b__3, addr 0x68392c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDRDebugMode>b__3, addr 0x6840d44, size 0x64, virtual false, abstract: false, final false
   inline void _CreateHDRDebugMode_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -290,7 +290,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6838f0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6840988, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -308,7 +308,7 @@ public:
   WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0(WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12608 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* ___panel;
@@ -334,13 +334,13 @@ public:
 
   using __c__DisplayClass2_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsLighting___c__DisplayClass2_0;
 
-  /// @brief Method CreateHDRDebugMode, addr 0x6838bd8, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method CreateHDRDebugMode, addr 0x6840654, size 0x334, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateHDRDebugMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* panel);
 
-  /// @brief Method CreateLightingDebugMode, addr 0x6838688, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method CreateLightingDebugMode, addr 0x6840104, size 0x334, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateLightingDebugMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* panel);
 
-  /// @brief Method CreateLightingFeatures, addr 0x68389c0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method CreateLightingFeatures, addr 0x684043c, size 0x214, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateLightingFeatures(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* panel);
 
 protected:
@@ -358,7 +358,7 @@ public:
   DebugDisplaySettingsLighting_WidgetFactory(DebugDisplaySettingsLighting_WidgetFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12609 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -375,7 +375,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting_SettingsPanel* New_ctor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting* data);
 
-  /// @brief Method .ctor, addr 0x68383fc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x683fe78, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting* data);
 
 protected:
@@ -393,7 +393,7 @@ public:
   DebugDisplaySettingsLighting_SettingsPanel(DebugDisplaySettingsLighting_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12610 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -446,7 +446,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x68383a0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x683fe1c, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel();
 
   constexpr ::UnityEngine::Rendering::Universal::HDRDebugMode const& __cordl_internal_get__hdrDebugMode_k__BackingField() const;
@@ -467,25 +467,25 @@ public:
 
   constexpr void __cordl_internal_set__lightingFeatureFlags_k__BackingField(::UnityEngine::Rendering::Universal::DebugLightingFeatureFlags value);
 
-  /// @brief Method .ctor, addr 0x683857c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x683fff8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x683835c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x683fdd8, size 0x28, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
-  /// @brief Method get_IsLightingActive, addr 0x6838398, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsLightingActive, addr 0x683fe14, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsLightingActive();
 
-  /// @brief Method get_IsPostProcessingAllowed, addr 0x6838384, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_IsPostProcessingAllowed, addr 0x683fe00, size 0x14, virtual true, abstract: false, final true
   inline bool get_IsPostProcessingAllowed();
 
-  /// @brief Method get_hdrDebugMode, addr 0x683834c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hdrDebugMode, addr 0x683fdc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::HDRDebugMode get_hdrDebugMode();
 
-  /// @brief Method get_lightingDebugMode, addr 0x683832c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightingDebugMode, addr 0x683fda8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugLightingMode get_lightingDebugMode();
 
-  /// @brief Method get_lightingFeatureFlags, addr 0x683833c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightingFeatureFlags, addr 0x683fdb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugLightingFeatureFlags get_lightingFeatureFlags();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
@@ -494,13 +494,13 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept;
 
-  /// @brief Method set_hdrDebugMode, addr 0x6838354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hdrDebugMode, addr 0x683fdd0, size 0x8, virtual false, abstract: false, final false
   inline void set_hdrDebugMode(::UnityEngine::Rendering::Universal::HDRDebugMode value);
 
-  /// @brief Method set_lightingDebugMode, addr 0x6838334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightingDebugMode, addr 0x683fdb0, size 0x8, virtual false, abstract: false, final false
   inline void set_lightingDebugMode(::UnityEngine::Rendering::Universal::DebugLightingMode value);
 
-  /// @brief Method set_lightingFeatureFlags, addr 0x6838344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightingFeatureFlags, addr 0x683fdc0, size 0x8, virtual false, abstract: false, final false
   inline void set_lightingFeatureFlags(::UnityEngine::Rendering::Universal::DebugLightingFeatureFlags value);
 
 protected:
@@ -518,7 +518,7 @@ public:
   DebugDisplaySettingsLighting(DebugDisplaySettingsLighting const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12611 };
 
   /// @brief Field <lightingDebugMode>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::Universal::DebugLightingMode ____lightingDebugMode_k__BackingField;

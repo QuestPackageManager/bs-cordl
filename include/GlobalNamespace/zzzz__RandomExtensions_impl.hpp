@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RandomExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\RandomExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__IRandom_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::GlobalNamespace::IRandom*, float_t, float_t)>(&::GlobalNamespace::RandomExtensions::GetRange)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x33086a0;
+  constexpr static std::size_t addrs = 0x330c49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::RandomExtensions::GetBool)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3308778;
+  constexpr static std::size_t addrs = 0x330c574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::RandomExtensions::NextDouble)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x33086d8;
+  constexpr static std::size_t addrs = 0x330c4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::RandomExtensions::NextFloat)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x330889c;
+  constexpr static std::size_t addrs = 0x330c698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::IRandom*, int32_t)>(&::GlobalNamespace::RandomExtensions::Next)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3308794;
+  constexpr static std::size_t addrs = 0x330c590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

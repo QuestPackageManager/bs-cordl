@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Inspector.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Inspector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,33 +98,33 @@ public:
   /// @brief Convert operator to "::Meta::XR::ImmersiveDebugger::UserInterface::IInspector"
   constexpr operator ::Meta::XR::ImmersiveDebugger::UserInterface::IInspector*() noexcept;
 
-  /// @brief Method GetMember, addr 0x5a4c7e4, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetMember, addr 0x5a50ca0, size 0x74, virtual true, abstract: false, final true
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::IMember* GetMember(::System::Reflection::MemberInfo* memberInfo);
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Inspector* New_ctor();
 
-  /// @brief Method OnStateChanged, addr 0x5a4c858, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method OnStateChanged, addr 0x5a50d14, size 0x250, virtual false, abstract: false, final false
   inline void OnStateChanged(bool state);
 
-  /// @brief Method OnTransparencyChanged, addr 0x5a4c268, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x5a50724, size 0x78, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method RegisterMember, addr 0x5a4c320, size 0x218, virtual true, abstract: false, final true
+  /// @brief Method RegisterMember, addr 0x5a507dc, size 0x218, virtual true, abstract: false, final true
   inline ::Meta::XR::ImmersiveDebugger::UserInterface::IMember* RegisterMember(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
-  /// @brief Method Setup, addr 0x5a4bd70, size 0x4f8, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a5022c, size 0x4f8, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method Update, addr 0x5a4caa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a50f64, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateBackground, addr 0x5a4c2e0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateBackground, addr 0x5a5079c, size 0x40, virtual false, abstract: false, final false
   inline void UpdateBackground(bool transparent);
 
-  /// @brief Method UpdateInstanceState, addr 0x5a4bc80, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceState, addr 0x5a5013c, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateInstanceState(bool force);
 
-  /// @brief Method UpdateInstanceState, addr 0x5a4cab0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceState, addr 0x5a50f6c, size 0xdc, virtual false, abstract: false, final false
   inline void UpdateInstanceState(bool state, bool force);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> const& __cordl_internal_get__background() const;
@@ -176,28 +176,28 @@ public:
 
   constexpr void __cordl_internal_set__title(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel> value);
 
-  /// @brief Method .ctor, addr 0x5a4cb8c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a51048, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Foldout, addr 0x5a4bd68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Foldout, addr 0x5a50224, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Toggle> get_Foldout();
 
-  /// @brief Method get_InstanceHandle, addr 0x5a4bb34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceHandle, addr 0x5a4fff0, size 0x14, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle get_InstanceHandle();
 
-  /// @brief Method get_Title, addr 0x5a4bb04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Title, addr 0x5a4ffc0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Title();
 
   /// @brief Convert to "::Meta::XR::ImmersiveDebugger::UserInterface::IInspector"
   constexpr ::Meta::XR::ImmersiveDebugger::UserInterface::IInspector* i___Meta__XR__ImmersiveDebugger__UserInterface__IInspector() noexcept;
 
-  /// @brief Method set_BackgroundStyle, addr 0x5a4ba68, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_BackgroundStyle, addr 0x5a4ff24, size 0x9c, virtual false, abstract: false, final false
   inline void set_BackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
-  /// @brief Method set_InstanceHandle, addr 0x5a4bb48, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method set_InstanceHandle, addr 0x5a50004, size 0x138, virtual false, abstract: false, final false
   inline void set_InstanceHandle(::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle value);
 
-  /// @brief Method set_Title, addr 0x5a4bb1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_Title, addr 0x5a4ffd8, size 0x18, virtual false, abstract: false, final false
   inline void set_Title(::StringW value);
 
 protected:
@@ -215,7 +215,7 @@ public:
   Inspector(Inspector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18371 };
 
   /// @brief Field _instanceHandle, offset: 0x70, size: 0x18, def value: None
   ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle ____instanceHandle;

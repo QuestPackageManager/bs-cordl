@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Exceptions/OperationException.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Exceptions\OperationException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::Exceptions::OperationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method ToString, addr 0x690a18c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6911c08, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x690a118, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6911b94, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -46,7 +46,7 @@ public:
   OperationException(OperationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TextShadow.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TextShadow.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextShadow::*)(::System::Object*)>(&::UnityEngine::UIElements::TextShadow::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6cab2e8;
+  constexpr static std::size_t addrs = 0x6cb2e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextShadow::*)(::UnityEngine::UIElements::TextShadow)>(&::UnityEngine::UIElements::TextShadow::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6cab37c;
+  constexpr static std::size_t addrs = 0x6cb2f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::TextShadow::*)()>(&::UnityEngine::UIElements::TextShadow::GetHashCode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6cab3f8;
+  constexpr static std::size_t addrs = 0x6cb2f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow)>(&::UnityEngine::UIElements::TextShadow::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6cab4c4;
+  constexpr static std::size_t addrs = 0x6cb3048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow)>(&::UnityEngine::UIElements::TextShadow::op_Inequality)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6cab4f4;
+  constexpr static std::size_t addrs = 0x6cb3078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::TextShadow::*)()>(&::UnityEngine::UIElements::TextShadow::ToString)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6cab53c;
+  constexpr static std::size_t addrs = 0x6cb30c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextShadow (*)(::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, float_t)>(
     &::UnityEngine::UIElements::TextShadow::LerpUnclamped)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6cab63c;
+  constexpr static std::size_t addrs = 0x6cb31c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cab91c;
+  constexpr static std::size_t addrs = 0x6cb34a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty*>(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cab924;
+  constexpr static std::size_t addrs = 0x6cb34a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty*>(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty::*)(::by_ref<::UnityEngine::UIElements::TextShadow>)>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cab92c;
+  constexpr static std::size_t addrs = 0x6cb34b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty*>(),
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TextShadow>, ::UnityEngine::Vector2)>(&::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cab934;
+  constexpr static std::size_t addrs = 0x6cb34b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty*>(),
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6cab7f0;
+  constexpr static std::size_t addrs = 0x6cb3374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_OffsetProperty*>(), { ".ctor", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cab93c;
+  constexpr static std::size_t addrs = 0x6cb34c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty*>(),
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cab944;
+  constexpr static std::size_t addrs = 0x6cb34c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty*>(),
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty::*)(::by_ref<::UnityEngine::UIElements::TextShadow>)>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cab94c;
+  constexpr static std::size_t addrs = 0x6cb34d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty*>(),
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty::*)(::by_ref<::UnityEngine::UIElements::TextShadow>, float_t)>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cab954;
+  constexpr static std::size_t addrs = 0x6cb34d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty*>(),
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_BlurRadiusProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6cab854;
+  constexpr static std::size_t addrs = 0x6cb33d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cab95c;
+  constexpr static std::size_t addrs = 0x6cb34e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty*>(),
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cab964;
+  constexpr static std::size_t addrs = 0x6cb34e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty*>(),
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty::*)(::by_ref<::UnityEngine::UIElements::TextShadow>)>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty::GetValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cab96c;
+  constexpr static std::size_t addrs = 0x6cb34f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty*>(),
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TextShadow>, ::UnityEngine::Color)>(&::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty::SetValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cab978;
+  constexpr static std::size_t addrs = 0x6cb34fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty*>(),
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6cab8b8;
+  constexpr static std::size_t addrs = 0x6cb343c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TextShadow_ColorProperty*>(), { ".ctor", {}, {} })));
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextShadow_PropertyBag::*)()>(&::UnityEngine::UIElements::TextShadow_PropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6cab68c;
+  constexpr static std::size_t addrs = 0x6cb3210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextShadow_PropertyBag*>(), { ".ctor", {}, {} })));

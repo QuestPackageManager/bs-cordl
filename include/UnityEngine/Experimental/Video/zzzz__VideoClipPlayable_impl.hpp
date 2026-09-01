@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Video/VideoClipPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Video\VideoClipPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Experimental/Video/zzzz__VideoClipPlayable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Experimental::Video::VideoClipPlayable::*)()>(
     &::UnityEngine::Experimental::Video::VideoClipPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e27e9c;
+  constexpr static std::size_t addrs = 0x6e2fa20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Video::VideoClipPlayable>(), { "GetHandle", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Video::VideoClipPlayable::*)(::UnityEngine::Experimental::Video::VideoClipPlayable)>(
     &::UnityEngine::Experimental::Video::VideoClipPlayable::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e27ea8;
+  constexpr static std::size_t addrs = 0x6e2fa2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Video::VideoClipPlayable>(),

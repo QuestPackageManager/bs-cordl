@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/SerializableDictionaryBase.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\SerializableDictionaryBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   // Declarations
   static inline ::BGLib::UnityExtension::SerializableDictionaryBase_Storage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3326c48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332aa08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   SerializableDictionaryBase_Storage(SerializableDictionaryBase_Storage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20668 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20801 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -113,7 +113,7 @@ public:
   SerializableDictionaryBase_Dictionary_2(SerializableDictionaryBase_Dictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20802 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,7 +132,7 @@ public:
 
   static inline ::BGLib::UnityExtension::SerializableDictionaryBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3326c44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332aa04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,7 +150,7 @@ public:
   SerializableDictionaryBase(SerializableDictionaryBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

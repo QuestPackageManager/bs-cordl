@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/EdgeUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\EdgeUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EdgeUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0_0::*)()>(&::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66b4128;
+  constexpr static std::size_t addrs = 0x66bbba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0_0*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0_0::*)(::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0_0::_GetSharedVertexHandleEdges_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b49fc;
+  constexpr static std::size_t addrs = 0x66bc478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::EdgeUtility___c__DisplayClass0_0*>(),
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::ProBuilder::Edge>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*)>(
     &::UnityEngine::ProBuilder::EdgeUtility::GetSharedVertexHandleEdges)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x66b4018;
+  constexpr static std::size_t addrs = 0x66bba94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeUtility::GetSharedVertexHandleEdge)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x66b412c;
+  constexpr static std::size_t addrs = 0x66bbba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeUtility::GetEdgeWithSharedVertexHandles)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x66b41c8;
+  constexpr static std::size_t addrs = 0x66bbc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::P
                                                                 ::by_ref<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>>)>(
     &::UnityEngine::ProBuilder::EdgeUtility::ValidateEdge)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x66b4258;
+  constexpr static std::size_t addrs = 0x66bbcd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::UnityEngine::ProBuilder::Edge>, ::UnityEngine::ProBuilder::Edge)>(&::UnityEngine::ProBuilder::EdgeUtility::Contains)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x66b4498;
+  constexpr static std::size_t addrs = 0x66bbf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::UnityEngine::ProBuilder::Edge>, int32_t, int32_t)>(&::UnityEngine::ProBuilder::EdgeUtility::Contains)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x66b4580;
+  constexpr static std::size_t addrs = 0x66bbffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*,
                                                                    ::UnityEngine::ProBuilder::Edge)>(&::UnityEngine::ProBuilder::EdgeUtility::IndexOf)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x66b4600;
+  constexpr static std::size_t addrs = 0x66bc07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (*)(::ArrayW<::UnityEngine::ProBuilder::Edge>)>(&::UnityEngine::ProBuilder::EdgeUtility::AllTriangles)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x66b47ac;
+  constexpr static std::size_t addrs = 0x66bc228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Face* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeUtility::GetFace)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x66b486c;
+  constexpr static std::size_t addrs = 0x66bc2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Exception.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1Exception.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Exception_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1Exception::*)()>(&::Org::BouncyCastle::Asn1::Asn1Exception::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x367d844;
+  constexpr static std::size_t addrs = 0x3681604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Asn1Exception*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1Exception::*)(::StringW)>(&::Org::BouncyCastle::Asn1::Asn1Exception::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x367d84c;
+  constexpr static std::size_t addrs = 0x368160c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1Exception::*)(::StringW, ::System::Exception*)>(&::Org::BouncyCastle::Asn1::Asn1Exception::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x367d870;
+  constexpr static std::size_t addrs = 0x3681630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

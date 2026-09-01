@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/UnsafeQueueData.hpp"
+// IWYU pragma private; include "Unity\Collections\UnsafeQueueData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,14 +38,14 @@ public:
   static inline ::Unity::Collections::UnsafeQueueBlockHeader* AllocateWriteBlockMT(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::UnsafeQueueBlockPoolData* pool,
                                                                                    int32_t threadIndex);
 
-  /// @brief Method DeallocateQueue, addr 0x64c1b64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DeallocateQueue, addr 0x64c95e0, size 0x84, virtual false, abstract: false, final false
   static inline void DeallocateQueue(::Unity::Collections::UnsafeQueueData* data, ::Unity::Collections::UnsafeQueueBlockPoolData* pool,
                                      ::Unity::Collections::AllocatorManager_AllocatorHandle allocation);
 
-  /// @brief Method GetCurrentWriteBlockTLS, addr 0x64c1b44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentWriteBlockTLS, addr 0x64c95c0, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Collections::UnsafeQueueBlockHeader* GetCurrentWriteBlockTLS(int32_t threadIndex);
 
-  /// @brief Method SetCurrentWriteBlockTLS, addr 0x64c1b54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentWriteBlockTLS, addr 0x64c95d0, size 0x10, virtual false, abstract: false, final false
   inline void SetCurrentWriteBlockTLS(int32_t threadIndex, ::Unity::Collections::UnsafeQueueBlockHeader* currentWriteBlock);
 
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
   constexpr UnsafeQueueData(::System::IntPtr m_FirstBlock, ::System::IntPtr m_LastBlock, int32_t m_MaxItems, int32_t m_CurrentRead, uint8_t* m_CurrentWriteBlockTLS) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15733 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

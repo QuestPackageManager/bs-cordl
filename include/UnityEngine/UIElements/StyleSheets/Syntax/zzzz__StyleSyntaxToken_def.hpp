@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/StyleSyntaxToken.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\Syntax\StyleSyntaxToken.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct CORDL_TYPE StyleSyntaxToken {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6d1674c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1e2d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType t);
 
-  /// @brief Method .ctor, addr 0x6d1676c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1e2f0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, int32_t number);
 
-  /// @brief Method .ctor, addr 0x6d1675c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1e2e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text);
 
   // Ctor Parameters []

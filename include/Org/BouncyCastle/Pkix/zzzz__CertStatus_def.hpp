@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/CertStatus.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\CertStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,19 +47,19 @@ public:
 
   constexpr void __cordl_internal_set_status(int32_t value);
 
-  /// @brief Method .ctor, addr 0x35b8994, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bc754, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RevocationDate, addr 0x35b8974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x35bc734, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_RevocationDate();
 
-  /// @brief Method get_Status, addr 0x35b8984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x35bc744, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
-  /// @brief Method set_RevocationDate, addr 0x35b897c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationDate, addr 0x35bc73c, size 0x8, virtual false, abstract: false, final false
   inline void set_RevocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method set_Status, addr 0x35b898c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Status, addr 0x35bc74c, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(int32_t value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VFXCameraBufferTypes.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VFXCameraBufferTypes.hpp"
 #include "UnityEngine/VFX/zzzz__VFXCameraBufferTypes_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::VFX::VFXCameraBufferTypes::VFXCameraBufferTypes(int32_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferContextHandles.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferContextHandles.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferHandle_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__IndirectBufferContextHandles_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__IBaseRenderGraphBuilder_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IndirectBufferContextHandles::*)(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*)>(
     &::UnityEngine::Rendering::IndirectBufferContextHandles::UseForOcclusionTest)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x68282b8;
+  constexpr static std::size_t addrs = 0x682fd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

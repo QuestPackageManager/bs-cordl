@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatFxBaseData.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatFxBaseData.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "GlobalNamespace/zzzz__FxBaseData_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBaseData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxBaseData::*)(float_t, bool, float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::FloatFxBaseData::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3713624;
+  constexpr static std::size_t addrs = 0x37194a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

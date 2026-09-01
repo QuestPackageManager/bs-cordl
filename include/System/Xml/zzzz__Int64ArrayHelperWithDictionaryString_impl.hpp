@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Int64ArrayHelperWithDictionaryString.hpp"
+// IWYU pragma private; include "System\Xml\Int64ArrayHelperWithDictionaryString.hpp"
 #include "System/Xml/zzzz__ArrayHelper_2_impl.hpp"
 #include "System/Xml/zzzz__Int64ArrayHelperWithDictionaryString_def.hpp"
 #include "System/Xml/zzzz__XmlDictionaryReader_def.hpp"
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::I
                                                                                                                         ::System::Xml::XmlDictionaryString*, ::ArrayW<int64_t>, int32_t, int32_t)>(
     &::System::Xml::Int64ArrayHelperWithDictionaryString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60f6e38;
+  constexpr static std::size_t addrs = 0x60fe8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Int64ArrayHelperWithDictionaryString*>(),
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Int6
     ::System::Xml::XmlDictionaryWriter*, ::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*, ::ArrayW<int64_t>, int32_t, int32_t)>(
     &::System::Xml::Int64ArrayHelperWithDictionaryString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60f6e70;
+  constexpr static std::size_t addrs = 0x60fe8ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Int64ArrayHelperWithDictionaryString*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Int64ArrayHelperWithDictionaryString::*)()>(&::System::Xml::Int64ArrayHelperWithDictionaryString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60f6eac;
+  constexpr static std::size_t addrs = 0x60fe928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Int64ArrayHelperWithDictionaryString*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AddressableAssets/Utility/AssetReferenceUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\AddressableAssets\Utility\AssetReferenceUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/Utility/zzzz__AssetReferenceUtilities_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities.FormatName
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities::FormatName)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x645d548;
+  constexpr static std::size_t addrs = 0x6464fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities::*)()>(
     &::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x645d5e4;
+  constexpr static std::size_t addrs = 0x6465060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

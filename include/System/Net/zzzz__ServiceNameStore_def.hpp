@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/ServiceNameStore.hpp"
+// IWYU pragma private; include "System\Net\ServiceNameStore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_serviceNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x64102f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6417d6c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   ServiceNameStore(ServiceNameStore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11533 };
 
   /// @brief Field serviceNames, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___serviceNames;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/Stopwatch.hpp"
+// IWYU pragma private; include "System\Diagnostics\Stopwatch.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)()>(&::System::Diagnostics::Stopwatch::GetTimestamp)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x639093c;
+  constexpr static std::size_t addrs = 0x63983b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { "GetTimestamp", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::Stopwatch* (*)()>(&::System::Diagnostics::Stopwatch::StartNew)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6398894;
+  constexpr static std::size_t addrs = 0x63a0310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { "StartNew", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63988f0;
+  constexpr static std::size_t addrs = 0x63a036c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { ".ctor", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::get_Elapsed)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6398960;
+  constexpr static std::size_t addrs = 0x63a03dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { "get_Elapsed", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::get_ElapsedMilliseconds)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6398acc;
+  constexpr static std::size_t addrs = 0x63a0548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { "get_ElapsedMilliseconds", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::get_ElapsedTicks)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6398a58;
+  constexpr static std::size_t addrs = 0x63a04d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { "get_ElapsedTicks", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::get_IsRunning)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6398c34;
+  constexpr static std::size_t addrs = 0x63a06b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { "get_IsRunning", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6398c3c;
+  constexpr static std::size_t addrs = 0x63a06b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { "Reset", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::Start)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63988f4;
+  constexpr static std::size_t addrs = 0x63a0370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { "Start", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::Stop)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6398c48;
+  constexpr static std::size_t addrs = 0x63a06c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { "Stop", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::Restart)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6398cc4;
+  constexpr static std::size_t addrs = 0x63a0740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Stopwatch*>(), { "Restart", {}, {} })));

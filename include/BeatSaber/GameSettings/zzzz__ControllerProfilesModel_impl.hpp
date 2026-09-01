@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfilesModel.hpp"
+// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfilesModel.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel___c::*)()>(&::BeatSaber::GameSettings::ControllerProfilesModel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328ee9c;
+  constexpr static std::size_t addrs = 0x3292c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel___c*>(), { ".ctor", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::GameSettings::ControllerProfilesModel___c::*)(::BeatSaber::GameSettings::ControllerProfile*)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel___c::_GetControllerProfilesSaveData_b__27_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x328eea0;
+  constexpr static std::size_t addrs = 0x3292c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::BeatSaber::GameSettings::ControllerProfileSaveData* (::BeatSaber::GameSettings::ControllerProfilesModel___c::*)(::BeatSaber::GameSettings::ControllerProfile*)>(
         &::BeatSaber::GameSettings::ControllerProfilesModel___c::_GetControllerProfilesSaveData_b__27_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x328eeb4;
+  constexpr static std::size_t addrs = 0x3292cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::*)(int32_t)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x328eb68;
+  constexpr static std::size_t addrs = 0x3292964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328ef64;
+  constexpr static std::size_t addrs = 0x3292d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x328ef68;
+  constexpr static std::size_t addrs = 0x3292d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::System_Collections_Generic_IEnumerator_BeatSaber_GameSettings_ControllerProfile__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328eff0;
+  constexpr static std::size_t addrs = 0x3292dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x328eff8;
+  constexpr static std::size_t addrs = 0x3292df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328f030;
+  constexpr static std::size_t addrs = 0x3292e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::BeatSaber::GameSettings::ControllerProfile*>* (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::*)()>(
         &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::System_Collections_Generic_IEnumerable_BeatSaber_GameSettings_ControllerProfile__GetEnumerator)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x328f038;
+  constexpr static std::size_t addrs = 0x3292e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328f0c4;
+  constexpr static std::size_t addrs = 0x3292ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__25*>(),
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__19::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x328f0c8;
+  constexpr static std::size_t addrs = 0x3292ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__19::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328f30c;
+  constexpr static std::size_t addrs = 0x3293108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__19>(),
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__20::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x328f314;
+  constexpr static std::size_t addrs = 0x3293110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__20::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x328f94c;
+  constexpr static std::size_t addrs = 0x3293748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__20>(),
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::GameSettings::ControllerProfile*>* (
     ::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(&::BeatSaber::GameSettings::ControllerProfilesModel::get_profiles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328e0c4;
+  constexpr static std::size_t addrs = 0x3291ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(), { "get_profiles", {}, {} })));
@@ -504,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::get_selectedProfileIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328e0cc;
+  constexpr static std::size_t addrs = 0x3291ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -518,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)(int32_t)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::set_selectedProfileIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x328e0d4;
+  constexpr static std::size_t addrs = 0x3291ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -532,38 +532,38 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::get_selectedProfile)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x328e0dc;
+  constexpr static std::size_t addrs = 0x3291ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(), { "get_selectedProfile", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesModel.add_onControllerProfilesUI
+//  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesModel.add_onControllerProfilesUIEvent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)(::System::Action_1<bool>*)>(
-    &::BeatSaber::GameSettings::ControllerProfilesModel::add_onControllerProfilesUI)> {
+    &::BeatSaber::GameSettings::ControllerProfilesModel::add_onControllerProfilesUIEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x328e134;
+  constexpr static std::size_t addrs = 0x3291f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(),
-                                                                                           { "add_onControllerProfilesUI", {}, { ::i2c::type_of<::System::Action_1<bool>*>() } })));
+                                                                                           { "add_onControllerProfilesUIEvent", {}, { ::i2c::type_of<::System::Action_1<bool>*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesModel.remove_onControllerProfilesUI
+//  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesModel.remove_onControllerProfilesUIEvent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)(::System::Action_1<bool>*)>(
-    &::BeatSaber::GameSettings::ControllerProfilesModel::remove_onControllerProfilesUI)> {
+    &::BeatSaber::GameSettings::ControllerProfilesModel::remove_onControllerProfilesUIEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x328e1f4;
+  constexpr static std::size_t addrs = 0x3291ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(),
-                                                                                           { "remove_onControllerProfilesUI", {}, { ::i2c::type_of<::System::Action_1<bool>*>() } })));
+                                                                                           { "remove_onControllerProfilesUIEvent", {}, { ::i2c::type_of<::System::Action_1<bool>*>() } })));
     return ___internal_method;
   }
 };
@@ -572,7 +572,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(&::BeatSaber::GameSettings::ControllerProfilesModel::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x328e2b4;
+  constexpr static std::size_t addrs = 0x32920b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(), { ".ctor", {}, {} })));
@@ -584,7 +584,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(&::BeatSaber::GameSettings::ControllerProfilesModel::Initialize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x328e408;
+  constexpr static std::size_t addrs = 0x3292204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(), { "Initialize", {}, {} })));
@@ -597,7 +597,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::LoadAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x328e4ac;
+  constexpr static std::size_t addrs = 0x32922a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(), { "LoadAsync", {}, {} })));
@@ -610,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)(int32_t, bool)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::UpdateSelectedProfile)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x328e55c;
+  constexpr static std::size_t addrs = 0x3292358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(),
@@ -624,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::SaveAsync)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x328e7d8;
+  constexpr static std::size_t addrs = 0x32925d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(), { "SaveAsync", {}, {} })));
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)(bool)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::OnControllerProfilesUI)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x328eafc;
+  constexpr static std::size_t addrs = 0x32928f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -651,7 +651,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatSaber::GameSettings::ControllerProfilesModel::*)(int32_t)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::GetSelectedProfileIndexFromSettings)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x328eb1c;
+  constexpr static std::size_t addrs = 0x3292918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -665,7 +665,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfile*>* (
     ::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(&::BeatSaber::GameSettings::ControllerProfilesModel::GetBuiltInProfiles)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x328e3a0;
+  constexpr static std::size_t addrs = 0x329219c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(), { "GetBuiltInProfiles", {}, {} })));
@@ -678,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::RefreshControllersReference)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x328e730;
+  constexpr static std::size_t addrs = 0x329252c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -692,7 +692,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* (
     ::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(&::BeatSaber::GameSettings::ControllerProfilesModel::GetControllerProfilesSaveData)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x328e854;
+  constexpr static std::size_t addrs = 0x3292650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -706,7 +706,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (::BeatSaber::GameSettings::ControllerProfilesModel::*)(int32_t)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::GetDefaultCustomControllerProfile)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x328eb88;
+  constexpr static std::size_t addrs = 0x3292984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -720,7 +720,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (*)(::StringW, int32_t, bool)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::GetDefaultControllersProfile)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x328ecec;
+  constexpr static std::size_t addrs = 0x3292ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -734,7 +734,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::GameSettings::Controller (*)()>(&::BeatSaber::GameSettings::ControllerProfilesModel::GetDefaultController)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x328ede0;
+  constexpr static std::size_t addrs = 0x3292bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -790,17 +790,17 @@ constexpr void BeatSaber::GameSettings::ControllerProfilesModel::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedProfileIndex_k__BackingField = value;
 }
-constexpr ::System::Action_1<bool>*& BeatSaber::GameSettings::ControllerProfilesModel::__cordl_internal_get_onControllerProfilesUI() {
+constexpr ::System::Action_1<bool>*& BeatSaber::GameSettings::ControllerProfilesModel::__cordl_internal_get_onControllerProfilesUIEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___onControllerProfilesUI;
+  return this->___onControllerProfilesUIEvent;
 }
-constexpr ::System::Action_1<bool>* const& BeatSaber::GameSettings::ControllerProfilesModel::__cordl_internal_get_onControllerProfilesUI() const {
+constexpr ::System::Action_1<bool>* const& BeatSaber::GameSettings::ControllerProfilesModel::__cordl_internal_get_onControllerProfilesUIEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___onControllerProfilesUI;
+  return this->___onControllerProfilesUIEvent;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesModel::__cordl_internal_set_onControllerProfilesUI(::System::Action_1<bool>* value) {
+constexpr void BeatSaber::GameSettings::ControllerProfilesModel::__cordl_internal_set_onControllerProfilesUIEvent(::System::Action_1<bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___onControllerProfilesUI = value;
+  this->___onControllerProfilesUIEvent = value;
 }
 constexpr ::System::Collections::Generic::List_1<::BeatSaber::GameSettings::ControllerProfile*>*& BeatSaber::GameSettings::ControllerProfilesModel::__cordl_internal_get__profiles() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -832,15 +832,14 @@ inline ::BeatSaber::GameSettings::ControllerProfile* BeatSaber::GameSettings::Co
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(), { "get_selectedProfile", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::GameSettings::ControllerProfile*>(this, ___internal_method);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesModel::add_onControllerProfilesUI(::System::Action_1<bool>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(), { "add_onControllerProfilesUI", {}, { ::i2c::type_of<::System::Action_1<bool>*>() } })));
+inline void BeatSaber::GameSettings::ControllerProfilesModel::add_onControllerProfilesUIEvent(::System::Action_1<bool>* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(),
+                                                                                         { "add_onControllerProfilesUIEvent", {}, { ::i2c::type_of<::System::Action_1<bool>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesModel::remove_onControllerProfilesUI(::System::Action_1<bool>* value) {
+inline void BeatSaber::GameSettings::ControllerProfilesModel::remove_onControllerProfilesUIEvent(::System::Action_1<bool>* value) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfilesModel*>(),
-                                                                                         { "remove_onControllerProfilesUI", {}, { ::i2c::type_of<::System::Action_1<bool>*>() } })));
+                                                                                         { "remove_onControllerProfilesUIEvent", {}, { ::i2c::type_of<::System::Action_1<bool>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline void BeatSaber::GameSettings::ControllerProfilesModel::_ctor() {

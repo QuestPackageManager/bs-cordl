@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/QuestBoostController.hpp"
+// IWYU pragma private; include "GlobalNamespace\QuestBoostController.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__QuestBoostController_def.hpp"
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::AskForBoost)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58f5824;
+  constexpr static std::size_t addrs = 0x58f8e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { "AskForBoost", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::Awake)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x58f5830;
+  constexpr static std::size_t addrs = 0x58f8e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { "Awake", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::Update)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x58f5900;
+  constexpr static std::size_t addrs = 0x58f8f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { "Update", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)(::GlobalNamespace::QuestBoostController_BoostModeReason)>(
     &::GlobalNamespace::QuestBoostController::EnableBoost)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x58f5d30;
+  constexpr static std::size_t addrs = 0x58f9344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(),
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::UpdateFrameTimeHistory)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x58f5b34;
+  constexpr static std::size_t addrs = 0x58f9148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { "UpdateFrameTimeHistory", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::GetMaxFrameTimeInHistory)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x58f5cec;
+  constexpr static std::size_t addrs = 0x58f9300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { "GetMaxFrameTimeInHistory", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestBoostController::*)()>(&::GlobalNamespace::QuestBoostController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58f60d4;
+  constexpr static std::size_t addrs = 0x58f96e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestBoostController*>(), { ".ctor", {}, {} })));

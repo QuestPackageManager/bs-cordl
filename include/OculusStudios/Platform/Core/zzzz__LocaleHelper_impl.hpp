@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/LocaleHelper.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\LocaleHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__LocaleHelper_def.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::OculusStudios::Platform::Core::LocaleHelper::GetSystemLocale)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f2a51c;
+  constexpr static std::size_t addrs = 0x5f2e9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::LocaleHelper*>(), { "GetSystemLocale", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::SystemLanguage)>(&::OculusStudios::Platform::Core::LocaleHelper::ToLocale)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x5f2a58c;
+  constexpr static std::size_t addrs = 0x5f2ea4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

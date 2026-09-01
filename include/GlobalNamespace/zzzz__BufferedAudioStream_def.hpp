@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BufferedAudioStream.hpp"
+// IWYU pragma private; include "GlobalNamespace\BufferedAudioStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,15 +40,15 @@ public:
   /// @brief Field writePos, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_writePos, put = __cordl_internal_set_writePos)) int32_t writePos;
 
-  /// @brief Method AddData, addr 0x5daf304, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddData, addr 0x5db37c0, size 0x114, virtual false, abstract: false, final false
   inline void AddData(::ArrayW<float_t> samples);
 
   static inline ::GlobalNamespace::BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio);
 
-  /// @brief Method Stop, addr 0x5daf09c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x5db3558, size 0x44, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x5daf0e0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5db359c, size 0x224, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audio() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_writePos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5daefdc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db3498, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSource* audio);
 
 protected:
@@ -102,7 +102,7 @@ public:
   static constexpr bool VerboseLogging{ false };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17810 };
 
   /// @brief Field bufferLengthSeconds offset 0xffffffff size 0x4
   static constexpr float_t bufferLengthSeconds{ static_cast<float_t>(0.25f) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/Target.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\Target.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,14 +114,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x3662994, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3666754, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Target* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::X509::Target_Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method ToAsn1Object, addr 0x3662c9c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3666a5c, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& __cordl_internal_get_targetGroup() const;
@@ -136,16 +136,16 @@ public:
 
   constexpr void __cordl_internal_set_targetName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method .ctor, addr 0x3662b18, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36668d8, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
-  /// @brief Method .ctor, addr 0x3662c18, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36669d8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Target_Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method get_TargetGroup, addr 0x3662c8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TargetGroup, addr 0x3666a4c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetGroup();
 
-  /// @brief Method get_TargetName, addr 0x3662c94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TargetName, addr 0x3666a54, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetName();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AutoSetupController.hpp"
+// IWYU pragma private; include "GlobalNamespace\AutoSetupController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,28 +70,28 @@ public:
 
   static inline ::GlobalNamespace::AutoSetupController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x593ac4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x593e6d0, size 0x18, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x593a97c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x593e400, size 0x2d0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Setup, addr 0x593a974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x593e3f8, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
 
-  /// @brief Method <OnEnable>b__12_0, addr 0x593ad20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_0, addr 0x593e7a4, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_0();
 
-  /// @brief Method <OnEnable>b__12_1, addr 0x593ad40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_1, addr 0x593e7c4, size 0x1c, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_1(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_2, addr 0x593ad5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_2, addr 0x593e7e0, size 0x1c, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_2(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_3, addr 0x593ad78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_3, addr 0x593e7fc, size 0x1c, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_3(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_4, addr 0x593ad94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_4, addr 0x593e818, size 0x1c, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_4(bool isOn);
 
   constexpr ::GlobalNamespace::AutoSetupData* const& __cordl_internal_get__autoSetupData() const;
@@ -148,13 +148,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method .ctor, addr 0x593ac64, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593e6e8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x593a7f4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x593e278, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x593a8b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x593e338, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
 protected:
@@ -172,7 +172,7 @@ public:
   AutoSetupController(AutoSetupController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6884 };
 
   /// @brief Field _closeButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____closeButton;

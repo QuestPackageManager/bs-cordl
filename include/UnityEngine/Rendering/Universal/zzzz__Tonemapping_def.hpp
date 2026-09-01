@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/Tonemapping.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\Tonemapping.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,10 +68,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x68780b8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x687fb34, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsTileCompatible, addr 0x68780e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x687fb64, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::Tonemapping* New_ctor();
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_paperWhite(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x68780f0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687fb6c, size 0x1f4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -151,7 +151,7 @@ public:
   Tonemapping(Tonemapping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12815 };
 
   /// @brief Field mode, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::TonemappingModeParameter* ___mode;

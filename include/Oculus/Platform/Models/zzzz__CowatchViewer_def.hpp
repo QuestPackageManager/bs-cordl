@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/CowatchViewer.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\CowatchViewer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_Id(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x5deadf0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5def2ac, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -62,7 +62,7 @@ public:
   CowatchViewer(CowatchViewer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18036 };
 
   /// @brief Field Data, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Data;

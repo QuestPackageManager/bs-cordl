@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EventCallbackRegistry.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EventCallbackRegistry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TrickleDown_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallbackRegistry_def.hpp"
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList (*)(::UnityEngine::UIElements::TrickleDown)>(
     &::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::Create)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6d917a4;
+  constexpr static std::size_t addrs = 0x6d99328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventCallbackList* (::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::*)()>(
     &::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::GetCallbackListForWriting)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6d91890;
+  constexpr static std::size_t addrs = 0x6d99414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventCallbackList* (::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::*)()>(
     &::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::GetCallbackListForReading)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6d91970;
+  constexpr static std::size_t addrs = 0x6d994f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::*)(int64_t, ::System::Delegate*)>(
     &::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::UnregisterCallback)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6d91988;
+  constexpr static std::size_t addrs = 0x6d9950c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList>(),
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::Invoke)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6d91ae0;
+  constexpr static std::size_t addrs = 0x6d99664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::*)()>(
     &::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::BeginInvoke)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d91ce8;
+  constexpr static std::size_t addrs = 0x6d9986c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::*)()>(
     &::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList::EndInvoke)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x6d91cf8;
+  constexpr static std::size_t addrs = 0x6d9987c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventCallbackList* (*)(::UnityEngine::UIElements::EventCallbackList*)>(
     &::UnityEngine::UIElements::EventCallbackRegistry::GetCallbackList)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6d91660;
+  constexpr static std::size_t addrs = 0x6d991e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackRegistry*>(),
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventCallbackList*)>(&::UnityEngine::UIElements::EventCallbackRegistry::ReleaseCallbackList)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6d916cc;
+  constexpr static std::size_t addrs = 0x6d99250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackRegistry*>(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList> (::UnityEngine::UIElements::EventCallbackRegistry::*)(
     ::UnityEngine::UIElements::TrickleDown)>(&::UnityEngine::UIElements::EventCallbackRegistry::GetDynamicCallbackList)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d91738;
+  constexpr static std::size_t addrs = 0x6d992bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackRegistry*>(),
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EventCallbackRegistry::*)()>(&::UnityEngine::UIElements::EventCallbackRegistry::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d9174c;
+  constexpr static std::size_t addrs = 0x6d992d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventCallbackRegistry*>(), { ".ctor", {}, {} })));

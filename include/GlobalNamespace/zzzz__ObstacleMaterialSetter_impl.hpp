@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ObstacleMaterialSetter.hpp"
+// IWYU pragma private; include "GlobalNamespace\ObstacleMaterialSetter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleMaterialSetter_def.hpp"
 #include "BeatSaber/Settings/zzzz__QualitySettings_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)(::BeatSaber::Settings::QualitySettings_ObstacleQuality, bool)>(
     &::GlobalNamespace::ObstacleMaterialSetter::Init)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58daa38;
+  constexpr static std::size_t addrs = 0x58da3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)(::UnityEngine::Renderer*, ::BeatSaber::Settings::QualitySettings_ObstacleQuality, bool)>(
     &::GlobalNamespace::ObstacleMaterialSetter::SetCoreMaterial)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x58db5f0;
+  constexpr static std::size_t addrs = 0x58dafa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)(::UnityEngine::Renderer*, ::BeatSaber::Settings::QualitySettings_ObstacleQuality)>(
     &::GlobalNamespace::ObstacleMaterialSetter::SetFakeGlowMaterial)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58db6fc;
+  constexpr static std::size_t addrs = 0x58db0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)()>(&::GlobalNamespace::ObstacleMaterialSetter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58db738;
+  constexpr static std::size_t addrs = 0x58db0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleMaterialSetter*>(), { ".ctor", {}, {} })));

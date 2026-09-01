@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXPropertyBindingAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXPropertyBindingAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXPropertyBindingAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::VFX::Utility::VFXPropertyBindingAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXPropertyBindingAttribute::*)(::ArrayW<::StringW>)>(
     &::UnityEngine::VFX::Utility::VFXPropertyBindingAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69e1de0;
+  constexpr static std::size_t addrs = 0x69e985c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundNonLightRendererCore.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundNonLightRendererCore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,18 +71,18 @@ public:
 
   __declspec(property(get = get_useCustomMaterial)) bool useCustomMaterial;
 
-  /// @brief Method Awake, addr 0x5861fec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x58610f4, size 0xc, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x5862114, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x586121c, size 0xc4, virtual true, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore* New_ctor();
 
-  /// @brief Method Render, addr 0x5862320, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x5861428, size 0x2c4, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method SetCustomPropertyBlock, addr 0x5862240, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetCustomPropertyBlock, addr 0x5861348, size 0xe0, virtual false, abstract: false, final false
   inline void SetCustomPropertyBlock(::UnityEngine::MaterialPropertyBlock* bloomPropertyBlock);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__customMaterial() const;
@@ -121,20 +121,20 @@ public:
 
   constexpr void __cordl_internal_set__useCustomPropertyBlock(bool value);
 
-  /// @brief Method .ctor, addr 0x5861194, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586029c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
   static inline int32_t getStaticF__worldSpaceCameraPosID();
 
-  /// @brief Method get_customMaterial, addr 0x5862238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customMaterial, addr 0x5861340, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_customMaterial();
 
   /// @brief Method get_renderer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method get_useCustomMaterial, addr 0x5862230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCustomMaterial, addr 0x5861338, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCustomMaterial();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
@@ -156,7 +156,7 @@ public:
   BloomPrePassBackgroundNonLightRendererCore(BloomPrePassBackgroundNonLightRendererCore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19456 };
 
   /// @brief Field _timeHelper, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;

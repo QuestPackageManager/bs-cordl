@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/XmlDataNode.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\XmlDataNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   /// @brief Field xmlChildNodes, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlChildNodes, put = __cordl_internal_set_xmlChildNodes)) ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* xmlChildNodes;
 
-  /// @brief Method Clear, addr 0x6149214, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x6150c90, size 0x4c, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::System::Runtime::Serialization::XmlDataNode* New_ctor();
@@ -72,25 +72,25 @@ public:
 
   constexpr void __cordl_internal_set_xmlChildNodes(::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* value);
 
-  /// @brief Method .ctor, addr 0x6149068, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6150ae4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_OwnerDocument, addr 0x6149204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OwnerDocument, addr 0x6150c80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDocument* get_OwnerDocument();
 
-  /// @brief Method get_XmlAttributes, addr 0x61491e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAttributes, addr 0x6150c60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* get_XmlAttributes();
 
-  /// @brief Method get_XmlChildNodes, addr 0x61491f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlChildNodes, addr 0x6150c70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* get_XmlChildNodes();
 
-  /// @brief Method set_OwnerDocument, addr 0x614920c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OwnerDocument, addr 0x6150c88, size 0x8, virtual false, abstract: false, final false
   inline void set_OwnerDocument(::System::Xml::XmlDocument* value);
 
-  /// @brief Method set_XmlAttributes, addr 0x61491ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlAttributes, addr 0x6150c68, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlAttributes(::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* value);
 
-  /// @brief Method set_XmlChildNodes, addr 0x61491fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlChildNodes, addr 0x6150c78, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlChildNodes(::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   XmlDataNode(XmlDataNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17039 };
 
   /// @brief Field xmlAttributes, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* ___xmlAttributes;

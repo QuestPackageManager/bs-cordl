@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/LowLevel/PlayerLoop.hpp"
+// IWYU pragma private; include "UnityEngine\LowLevel\PlayerLoop.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,23 +30,23 @@ namespace UnityEngine::LowLevel {
 class CORDL_TYPE PlayerLoop : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrentPlayerLoop, addr 0x6af9ab8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPlayerLoop, addr 0x6b014d0, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevel::PlayerLoopSystem GetCurrentPlayerLoop();
 
-  /// @brief Method GetCurrentPlayerLoopInternal, addr 0x6af9b24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPlayerLoopInternal, addr 0x6b0153c, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal> GetCurrentPlayerLoopInternal();
 
-  /// @brief Method InternalToPlayerLoopSystem, addr 0x6af9b4c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method InternalToPlayerLoopSystem, addr 0x6b01564, size 0x1f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevel::PlayerLoopSystem InternalToPlayerLoopSystem(::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal> internalSys, ::by_ref<int32_t> offset);
 
-  /// @brief Method PlayerLoopSystemToInternal, addr 0x6af9e2c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method PlayerLoopSystemToInternal, addr 0x6b01844, size 0x1ac, virtual false, abstract: false, final false
   static inline int32_t PlayerLoopSystemToInternal(::UnityEngine::LowLevel::PlayerLoopSystem sys,
                                                    ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*> internalSys);
 
-  /// @brief Method SetPlayerLoop, addr 0x6af9d44, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerLoop, addr 0x6b0175c, size 0xe8, virtual false, abstract: false, final false
   static inline void SetPlayerLoop(::UnityEngine::LowLevel::PlayerLoopSystem loop);
 
-  /// @brief Method SetPlayerLoopInternal, addr 0x6af9fd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerLoopInternal, addr 0x6b019f0, size 0x3c, virtual false, abstract: false, final false
   static inline void SetPlayerLoopInternal(::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal> loop);
 
 protected:
@@ -64,7 +64,7 @@ public:
   PlayerLoop(PlayerLoop const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

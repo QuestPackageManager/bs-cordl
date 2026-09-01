@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/RoundedCornersDirectionExtensions.hpp"
+// IWYU pragma private; include "HMUI\RoundedCornersDirectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__RoundedCornersDirectionExtensions_def.hpp"
 #include "HMUI/zzzz__RoundedCornersDirection_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::HMUI::RoundedCornersDirection)>(&::HMUI::RoundedCornersDirectionExtensions::GetFlipAndSymmetry)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5887da0;
+  constexpr static std::size_t addrs = 0x588776c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

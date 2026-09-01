@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapEventTypeExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapEventTypeExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0x32568f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0x3259bf0, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCoreLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
 
 protected:
@@ -41,7 +41,7 @@ public:
   BeatmapEventTypeExtensions(BeatmapEventTypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21238 };
 
   /// @brief Field kColorBoost value: I32(5)
   static ::GlobalNamespace::BasicBeatmapEventType const kColorBoost;

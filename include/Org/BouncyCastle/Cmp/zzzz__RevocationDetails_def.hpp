@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cmp/RevocationDetails.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cmp\RevocationDetails.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::RevocationDetails* New_ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method ToASN1Structure, addr 0x36a0810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToASN1Structure, addr 0x36a45d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ToASN1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::RevDetails* const& __cordl_internal_get_revDetails() const;
@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set_revDetails(::Org::BouncyCastle::Asn1::Cmp::RevDetails* value);
 
-  /// @brief Method .ctor, addr 0x36a076c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a452c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method get_Issuer, addr 0x36a07a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x36a4564, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_SerialNumber, addr 0x36a07d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x36a4594, size 0x3c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_Subject, addr 0x36a0774, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x36a4534, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
 protected:

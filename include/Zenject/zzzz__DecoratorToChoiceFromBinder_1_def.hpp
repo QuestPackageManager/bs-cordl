@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/DecoratorToChoiceFromBinder_1.hpp"
+// IWYU pragma private; include "Zenject\DecoratorToChoiceFromBinder_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
   DecoratorToChoiceFromBinder_1(DecoratorToChoiceFromBinder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14200 };
 
   /// @brief Field _bindContainer, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____bindContainer;

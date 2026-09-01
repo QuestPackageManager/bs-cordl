@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/FaceInfo_Legacy.hpp"
+// IWYU pragma private; include "TMPro\FaceInfo_Legacy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set_strikethroughThickness(float_t value);
 
-  /// @brief Method .ctor, addr 0x6954fb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x695ca30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -231,7 +231,7 @@ public:
   FaceInfo_Legacy(FaceInfo_Legacy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15916 };
 
   /// @brief Field Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Name;

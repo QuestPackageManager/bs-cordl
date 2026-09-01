@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/StencilState.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\StencilState.hpp"
 #include "UnityEngine/Rendering/zzzz__StencilState_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::StencilState (*)()>(&::UnityEngine::Rendering::StencilState::get_defaultValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6b1cc04;
+  constexpr static std::size_t addrs = 0x6b24788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_defaultValue", {}, {} })));
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     bool, uint8_t, uint8_t, ::UnityEngine::Rendering::CompareFunction, ::UnityEngine::Rendering::StencilOp, ::UnityEngine::Rendering::StencilOp, ::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b210dc;
+  constexpr static std::size_t addrs = 0x6b28c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::CompareFunction, ::UnityEngine::Rendering::StencilOp, ::UnityEngine::Rendering::StencilOp, ::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6b21104;
+  constexpr static std::size_t addrs = 0x6b28c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::StencilState::*)()>(&::UnityEngine::Rendering::StencilState::get_enabled)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6b21204;
+  constexpr static std::size_t addrs = 0x6b28d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_enabled", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(bool)>(&::UnityEngine::Rendering::StencilState::set_enabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b21264;
+  constexpr static std::size_t addrs = 0x6b28de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::Rendering::StencilState::*)()>(&::UnityEngine::Rendering::StencilState::get_readMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b212cc;
+  constexpr static std::size_t addrs = 0x6b28e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_readMask", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(uint8_t)>(&::UnityEngine::Rendering::StencilState::set_readMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b212d4;
+  constexpr static std::size_t addrs = 0x6b28e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::Rendering::StencilState::*)()>(&::UnityEngine::Rendering::StencilState::get_writeMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b212dc;
+  constexpr static std::size_t addrs = 0x6b28e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_writeMask", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(uint8_t)>(&::UnityEngine::Rendering::StencilState::set_writeMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b212e4;
+  constexpr static std::size_t addrs = 0x6b28e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::CompareFunction)>(
     &::UnityEngine::Rendering::StencilState::SetCompareFunction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b212ec;
+  constexpr static std::size_t addrs = 0x6b28e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::SetPassOperation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b21308;
+  constexpr static std::size_t addrs = 0x6b28e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::SetFailOperation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b21324;
+  constexpr static std::size_t addrs = 0x6b28ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::SetZFailOperation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b21340;
+  constexpr static std::size_t addrs = 0x6b28ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CompareFunction (::UnityEngine::Rendering::StencilState::*)()>(
     &::UnityEngine::Rendering::StencilState::get_compareFunctionFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2135c;
+  constexpr static std::size_t addrs = 0x6b28ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_compareFunctionFront", {}, {} })));
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::CompareFunction)>(
     &::UnityEngine::Rendering::StencilState::set_compareFunctionFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b212f8;
+  constexpr static std::size_t addrs = 0x6b28e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(),
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::StencilOp (::UnityEngine::Rendering::StencilState::*)()>(
     &::UnityEngine::Rendering::StencilState::get_passOperationFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b21364;
+  constexpr static std::size_t addrs = 0x6b28ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_passOperationFront", {}, {} })));
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_passOperationFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b21314;
+  constexpr static std::size_t addrs = 0x6b28e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::StencilOp (::UnityEngine::Rendering::StencilState::*)()>(
     &::UnityEngine::Rendering::StencilState::get_failOperationFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2136c;
+  constexpr static std::size_t addrs = 0x6b28ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_failOperationFront", {}, {} })));
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_failOperationFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b21330;
+  constexpr static std::size_t addrs = 0x6b28eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::StencilOp (::UnityEngine::Rendering::StencilState::*)()>(
     &::UnityEngine::Rendering::StencilState::get_zFailOperationFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b21374;
+  constexpr static std::size_t addrs = 0x6b28ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_zFailOperationFront", {}, {} })));
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_zFailOperationFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2134c;
+  constexpr static std::size_t addrs = 0x6b28ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CompareFunction (::UnityEngine::Rendering::StencilState::*)()>(
     &::UnityEngine::Rendering::StencilState::get_compareFunctionBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2137c;
+  constexpr static std::size_t addrs = 0x6b28f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_compareFunctionBack", {}, {} })));
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::CompareFunction)>(
     &::UnityEngine::Rendering::StencilState::set_compareFunctionBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b21300;
+  constexpr static std::size_t addrs = 0x6b28e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(),
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::StencilOp (::UnityEngine::Rendering::StencilState::*)()>(
     &::UnityEngine::Rendering::StencilState::get_passOperationBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b21384;
+  constexpr static std::size_t addrs = 0x6b28f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_passOperationBack", {}, {} })));
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_passOperationBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2131c;
+  constexpr static std::size_t addrs = 0x6b28ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::StencilOp (::UnityEngine::Rendering::StencilState::*)()>(
     &::UnityEngine::Rendering::StencilState::get_failOperationBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2138c;
+  constexpr static std::size_t addrs = 0x6b28f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_failOperationBack", {}, {} })));
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_failOperationBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b21338;
+  constexpr static std::size_t addrs = 0x6b28ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::StencilOp (::UnityEngine::Rendering::StencilState::*)()>(
     &::UnityEngine::Rendering::StencilState::get_zFailOperationBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b21394;
+  constexpr static std::size_t addrs = 0x6b28f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::StencilState>(), { "get_zFailOperationBack", {}, {} })));
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_zFailOperationBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b21354;
+  constexpr static std::size_t addrs = 0x6b28ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilState)>(&::UnityEngine::Rendering::StencilState::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6b1cdc4;
+  constexpr static std::size_t addrs = 0x6b24948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::StencilState::*)(::System::Object*)>(&::UnityEngine::Rendering::StencilState::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6b2139c;
+  constexpr static std::size_t addrs = 0x6b28f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::StencilState::*)()>(&::UnityEngine::Rendering::StencilState::GetHashCode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6b1cff8;
+  constexpr static std::size_t addrs = 0x6b24b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

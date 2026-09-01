@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/CryptoPro/Gost28147Parameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\CryptoPro\Gost28147Parameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,15 +43,15 @@ public:
   /// @brief Field paramSet, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_paramSet, put = __cordl_internal_set_paramSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* paramSet;
 
-  /// @brief Method GetInstance, addr 0x33699c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x336d784, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x33699d8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x336d798, size 0x170, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3369c74, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x336da34, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_iv() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_paramSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x3369b48, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336d908, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

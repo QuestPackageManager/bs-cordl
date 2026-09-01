@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixCertPathValidator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixCertPathValidator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathValidator_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathValidatorResult_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Pkix
     ::Org::BouncyCastle::Pkix::PkixCertPathValidator::*)(::Org::BouncyCastle::Pkix::PkixCertPath*, ::Org::BouncyCastle::Pkix::PkixParameters*)>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidator::Validate)> {
   constexpr static std::size_t size = 0x1e04;
-  constexpr static std::size_t addrs = 0x35c41ec;
+  constexpr static std::size_t addrs = 0x35c7fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::Pkix::PkixCertPathValidator::CheckCertificate)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x35c6748;
+  constexpr static std::size_t addrs = 0x35ca508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixCertPathValidator*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixCertPathValidator::*)()>(&::Org::BouncyCastle::Pkix::PkixCertPathValidator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35c3c2c;
+  constexpr static std::size_t addrs = 0x35c79ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixCertPathValidator*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/TimeoutException.hpp"
+// IWYU pragma private; include "System\TimeoutException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::TimeoutException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5c5bb84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c60040, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c5bc00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c600bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c5bbe0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c6009c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

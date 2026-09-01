@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DefaultMaterialType.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DefaultMaterialType.hpp"
 #include "UnityEngine/Rendering/zzzz__DefaultMaterialType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::DefaultMaterialType::DefaultMaterialType(int32_t value__) noexcept {

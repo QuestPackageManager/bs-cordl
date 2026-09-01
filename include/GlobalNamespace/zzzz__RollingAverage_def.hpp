@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RollingAverage.hpp"
+// IWYU pragma private; include "GlobalNamespace\RollingAverage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,10 +43,10 @@ public:
 
   static inline ::GlobalNamespace::RollingAverage* New_ctor(int32_t window);
 
-  /// @brief Method Reset, addr 0x333caa8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3340868, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x332a604, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x332e3c4, size 0x120, virtual false, abstract: false, final false
   inline void Update(float_t value);
 
   constexpr ::ArrayW<int64_t> const& __cordl_internal_get__buffer() const;
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set__length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x332a7bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332e57c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t window);
 
-  /// @brief Method get_currentAverage, addr 0x333ca90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentAverage, addr 0x3340850, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentAverage();
 
-  /// @brief Method get_hasValue, addr 0x333ca98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasValue, addr 0x3340858, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasValue();
 
 protected:
@@ -103,7 +103,7 @@ public:
   RollingAverage(RollingAverage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18267 };
 
   /// @brief Field kGranularity offset 0xffffffff size 0x8
   static constexpr int64_t kGranularity{ static_cast<int64_t>(0x3e8) };

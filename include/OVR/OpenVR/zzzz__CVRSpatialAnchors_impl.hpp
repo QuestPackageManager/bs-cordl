@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/CVRSpatialAnchors.hpp"
+// IWYU pragma private; include "OVR\OpenVR\CVRSpatialAnchors.hpp"
 #include "OVR/OpenVR/zzzz__IVRSpatialAnchors_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRSpatialAnchors_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRSpatialAnchors::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRSpatialAnchors::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5e43550;
+  constexpr static std::size_t addrs = 0x5e47a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::CVRSpatialAnchors::*)(::StringW, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromDescriptor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43644;
+  constexpr static std::size_t addrs = 0x5e47b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::CVRSpatialAnchors::*)(
     uint32_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::by_ref<::OVR::OpenVR::SpatialAnchorPose_t>, ::by_ref<uint32_t>)>(&::OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromPose)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43668;
+  constexpr static std::size_t addrs = 0x5e47b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::CVRSpatialAnchors::*)(
     uint32_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::by_ref<::OVR::OpenVR::SpatialAnchorPose_t>)>(&::OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorPose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4368c;
+  constexpr static std::size_t addrs = 0x5e47b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::CVRSpatialAnchors::*)(uint32_t, ::System::Text::StringBuilder*, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorDescriptor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e436ac;
+  constexpr static std::size_t addrs = 0x5e47b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/FileReadType.hpp"
+// IWYU pragma private; include "Unity\IO\LowLevel\Unsafe\FileReadType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   static ::Unity::IO::LowLevel::Unsafe::FileReadType const Sync;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9975 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

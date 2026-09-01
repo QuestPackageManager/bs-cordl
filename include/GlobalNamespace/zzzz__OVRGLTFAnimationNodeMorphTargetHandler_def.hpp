@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRGLTFAnimationNodeMorphTargetHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRGLTFAnimationNodeMorphTargetHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,12 +38,12 @@ public:
   /// @brief Field _modified, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__modified, put = __cordl_internal_set__modified)) bool _modified;
 
-  /// @brief Method MarkModified, addr 0x5e4d0dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkModified, addr 0x5e51598, size 0xc, virtual false, abstract: false, final false
   inline void MarkModified();
 
   static inline ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* New_ctor(::GlobalNamespace::OVRMeshData meshData);
 
-  /// @brief Method Update, addr 0x5e4ce58, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e51314, size 0x284, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<float_t> const& __cordl_internal_get_Weights() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__modified(bool value);
 
-  /// @brief Method .ctor, addr 0x5e4cdac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e51268, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRMeshData meshData);
 
 protected:
@@ -88,7 +88,7 @@ public:
   OVRGLTFAnimationNodeMorphTargetHandler(OVRGLTFAnimationNodeMorphTargetHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7161 };
 
   /// @brief Field _meshData, offset: 0x10, size: 0x48, def value: None
   ::GlobalNamespace::OVRMeshData ____meshData;

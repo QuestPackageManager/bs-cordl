@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/NavigationMoveEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\NavigationMoveEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,10 +132,10 @@ public:
 
   static inline ::UnityEngine::UIElements::NavigationMoveEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9a6f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6da2274, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::NavigationMoveEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9a6ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da2270, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::NavigationMoveEvent___c* getStaticF___9();
@@ -187,32 +187,32 @@ public:
 
   __declspec(property(put = set_move)) ::UnityEngine::Vector2 move;
 
-  /// @brief Method DetermineMoveDirection, addr 0x6d99fd8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DetermineMoveDirection, addr 0x6da1b5c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationMoveEvent_Direction DetermineMoveDirection(float_t x, float_t y, float_t deadZone);
 
-  /// @brief Method GetPooled, addr 0x6d96640, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6d9e1c4, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* GetPooled(::UnityEngine::UIElements::NavigationMoveEvent_Direction direction,
                                                                           ::UnityEngine::UIElements::NavigationDeviceType deviceType, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method GetPooled, addr 0x6d9a140, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6da1cc4, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* GetPooled(::UnityEngine::UIElements::NavigationMoveEvent_Direction direction, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method GetPooled, addr 0x6d966f4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6d9e278, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* GetPooled(::UnityEngine::Vector2 moveVector, ::UnityEngine::UIElements::NavigationDeviceType deviceType,
                                                                           ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method GetPooled, addr 0x6d9a044, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6da1bc8, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* GetPooled(::UnityEngine::Vector2 moveVector, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method Init, addr 0x6d9a1f0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6da1d74, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d9a244, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6da1dc8, size 0x58, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x6d9a2f0, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6da1e74, size 0x14c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   constexpr ::UnityEngine::UIElements::NavigationMoveEvent_Direction const& __cordl_internal_get__direction_k__BackingField() const;
@@ -227,16 +227,16 @@ public:
 
   constexpr void __cordl_internal_set__move_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x6d9a29c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da1e20, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_direction, addr 0x6d9a02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x6da1bb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::NavigationMoveEvent_Direction get_direction();
 
-  /// @brief Method set_direction, addr 0x6d9a034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x6da1bb8, size 0x8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::NavigationMoveEvent_Direction value);
 
-  /// @brief Method set_move, addr 0x6d9a03c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_move, addr 0x6da1bc0, size 0x8, virtual false, abstract: false, final false
   inline void set_move(::UnityEngine::Vector2 value);
 
 protected:

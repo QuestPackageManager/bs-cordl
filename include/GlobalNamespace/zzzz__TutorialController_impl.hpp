@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TutorialController.hpp"
+// IWYU pragma private; include "GlobalNamespace\TutorialController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialController_def.hpp"
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController__OutroCoroutine_d__15::*)(int32_t)>(
     &::GlobalNamespace::TutorialController__OutroCoroutine_d__15::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59f0570;
+  constexpr static std::size_t addrs = 0x59f8644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController__OutroCoroutine_d__15::*)()>(
     &::GlobalNamespace::TutorialController__OutroCoroutine_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59f05a4;
+  constexpr static std::size_t addrs = 0x59f8678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TutorialController__OutroCoroutine_d__15::*)()>(
     &::GlobalNamespace::TutorialController__OutroCoroutine_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x59f05a8;
+  constexpr static std::size_t addrs = 0x59f867c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialController__OutroCoroutine_d__15*>(), { "MoveNext", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::TutorialController__OutroCoroutine_d__15::*)()>(
     &::GlobalNamespace::TutorialController__OutroCoroutine_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59f06b8;
+  constexpr static std::size_t addrs = 0x59f878c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialController__OutroCoroutine_d__15*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController__OutroCoroutine_d__15::*)()>(
     &::GlobalNamespace::TutorialController__OutroCoroutine_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59f06c0;
+  constexpr static std::size_t addrs = 0x59f8794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::TutorialController__OutroCoroutine_d__15::*)()>(
     &::GlobalNamespace::TutorialController__OutroCoroutine_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59f06f8;
+  constexpr static std::size_t addrs = 0x59f87cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController::*)(::System::Action*)>(&::GlobalNamespace::TutorialController::add_levelDidStartEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59efecc;
+  constexpr static std::size_t addrs = 0x59f7fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController::*)(::System::Action*)>(&::GlobalNamespace::TutorialController::remove_levelDidStartEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59eff78;
+  constexpr static std::size_t addrs = 0x59f804c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController::*)()>(&::GlobalNamespace::TutorialController::Start)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x59f0024;
+  constexpr static std::size_t addrs = 0x59f80f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialController*>(), { "Start", {}, {} })));
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController::*)()>(&::GlobalNamespace::TutorialController::OnDestroy)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x59f01ec;
+  constexpr static std::size_t addrs = 0x59f82c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialController*>(), { "OnDestroy", {}, {} })));
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController::*)()>(&::GlobalNamespace::TutorialController::HandleIntroTutorialDidFinishEvent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59f042c;
+  constexpr static std::size_t addrs = 0x59f8500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController::*)()>(&::GlobalNamespace::TutorialController::HandleTutorialSongControllerSongDidFinishEvent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59f04c8;
+  constexpr static std::size_t addrs = 0x59f859c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::TutorialController::*)()>(&::GlobalNamespace::TutorialController::OutroCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59f051c;
+  constexpr static std::size_t addrs = 0x59f85f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialController*>(), { "OutroCoroutine", {}, {} })));
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::TutorialController::HandlePauseControllerCanPause)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59f0578;
+  constexpr static std::size_t addrs = 0x59f864c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialController::*)()>(&::GlobalNamespace::TutorialController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59f05a0;
+  constexpr static std::size_t addrs = 0x59f8674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialController*>(), { ".ctor", {}, {} })));

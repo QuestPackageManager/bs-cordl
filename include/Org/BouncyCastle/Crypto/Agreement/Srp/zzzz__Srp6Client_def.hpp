@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/Srp/Srp6Client.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\Srp\Srp6Client.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,34 +72,34 @@ public:
   /// @brief Field x, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::Org::BouncyCastle::Math::BigInteger* x;
 
-  /// @brief Method CalculateClientEvidenceMessage, addr 0x36ddf7c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CalculateClientEvidenceMessage, addr 0x36e1d3c, size 0x80, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateClientEvidenceMessage();
 
-  /// @brief Method CalculateS, addr 0x36ddd90, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CalculateS, addr 0x36e1b50, size 0xd0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateS();
 
-  /// @brief Method CalculateSecret, addr 0x36ddc5c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CalculateSecret, addr 0x36e1a1c, size 0x40, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateSecret(::Org::BouncyCastle::Math::BigInteger* serverB);
 
-  /// @brief Method CalculateSessionKey, addr 0x36de0b0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CalculateSessionKey, addr 0x36e1e70, size 0x80, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateSessionKey();
 
-  /// @brief Method GenerateClientCredentials, addr 0x36dd7e8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientCredentials, addr 0x36e15a8, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* GenerateClientCredentials(::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> identity, ::ArrayW<uint8_t> password);
 
-  /// @brief Method Init, addr 0x36dd7b4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x36e1574, size 0xc, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Crypto::IDigest* digest,
                    ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init, addr 0x36dd7c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x36e1580, size 0x28, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Client* New_ctor();
 
-  /// @brief Method SelectPrivateValue, addr 0x36dde60, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SelectPrivateValue, addr 0x36e1c20, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* SelectPrivateValue();
 
-  /// @brief Method VerifyServerEvidenceMessage, addr 0x36de000, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method VerifyServerEvidenceMessage, addr 0x36e1dc0, size 0xac, virtual true, abstract: false, final false
   inline bool VerifyServerEvidenceMessage(::Org::BouncyCastle::Math::BigInteger* serverM2);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_B() const;
@@ -180,7 +180,7 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x36dd7b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e1570, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

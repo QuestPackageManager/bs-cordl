@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/HtmlElementAttributesAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\HtmlElementAttributesAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__HtmlElementAttributesAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::HtmlElementAttributesAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)()>(&::JetBrains::Annotations::HtmlElementAttributesAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e365f4;
+  constexpr static std::size_t addrs = 0x6e3e178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::HtmlElementAttributesAttribute*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e365f8;
+  constexpr static std::size_t addrs = 0x6e3e17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)()>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36600;
+  constexpr static std::size_t addrs = 0x6e3e184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::HtmlElementAttributesAttribute*>(), { "get_Name", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36608;
+  constexpr static std::size_t addrs = 0x6e3e18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

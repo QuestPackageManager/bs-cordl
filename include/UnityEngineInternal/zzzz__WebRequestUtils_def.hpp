@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngineInternal/WebRequestUtils.hpp"
+// IWYU pragma private; include "UnityEngineInternal\WebRequestUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,16 +29,16 @@ public:
   /// @brief Field domainRegex, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_domainRegex, put = setStaticF_domainRegex)) ::System::Text::RegularExpressions::Regex* domainRegex;
 
-  /// @brief Method MakeInitialUrl, addr 0x6e1f5f8, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method MakeInitialUrl, addr 0x6e2717c, size 0x38c, virtual false, abstract: false, final false
   static inline ::StringW MakeInitialUrl(::StringW targetUrl, ::StringW localUrl);
 
-  /// @brief Method MakeUriString, addr 0x6e1f984, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method MakeUriString, addr 0x6e27508, size 0x430, virtual false, abstract: false, final false
   static inline ::StringW MakeUriString(::System::Uri* targetUri, ::StringW targetUrl, bool prependProtocol);
 
-  /// @brief Method RedirectTo, addr 0x6e1f510, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method RedirectTo, addr 0x6e27094, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW RedirectTo(::StringW baseUri, ::StringW redirectUri);
 
-  /// @brief Method URLDecode, addr 0x6e1fdb4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method URLDecode, addr 0x6e27938, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW URLDecode(::StringW encoded);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_domainRegex();
@@ -60,7 +60,7 @@ public:
   WebRequestUtils(WebRequestUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22290 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

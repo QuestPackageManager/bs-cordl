@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/X509KeyUsage.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\X509KeyUsage.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509KeyUsage_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::X509KeyUsage::*)(int32_t)>(&::Org::BouncyCastle::X509::X509KeyUsage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x364b2e8;
+  constexpr static std::size_t addrs = 0x364f0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::X509::X509KeyUsage::*)()>(&::Org::BouncyCastle::X509::X509KeyUsage::ToAsn1Object)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x364b2f0;
+  constexpr static std::size_t addrs = 0x364f0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

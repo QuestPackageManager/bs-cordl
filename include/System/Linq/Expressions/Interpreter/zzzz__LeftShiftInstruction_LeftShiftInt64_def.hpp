@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LeftShiftInstruction_LeftShiftInt64.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LeftShiftInstruction_LeftShiftInt64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LeftShiftInstruction_LeftShiftInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x5f97fe0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f9fa5c, size 0xbc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5f97de0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f9f85c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   LeftShiftInstruction_LeftShiftInt64(LeftShiftInstruction_LeftShiftInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

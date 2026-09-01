@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/FixedList128BytesExtensions.hpp"
+// IWYU pragma private; include "Unity\Collections\FixedList128BytesExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,7 @@ public:
   FixedList128BytesExtensions(FixedList128BytesExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15584 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

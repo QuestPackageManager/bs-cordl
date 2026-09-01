@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/RegexFC.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\RegexFC.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
   /// @brief Field _nullable, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__nullable, put = __cordl_internal_set__nullable)) bool _nullable;
 
-  /// @brief Method AddFC, addr 0x6383544, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AddFC, addr 0x638afc0, size 0x9c, virtual false, abstract: false, final false
   inline bool AddFC(::System::Text::RegularExpressions::RegexFC* fc, bool concatenate);
 
-  /// @brief Method GetFirstChars, addr 0x63827a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstChars, addr 0x638a21c, size 0x38, virtual false, abstract: false, final false
   inline ::StringW GetFirstChars(::System::Globalization::CultureInfo* culture);
 
   static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
@@ -67,19 +67,19 @@ public:
 
   constexpr void __cordl_internal_set__nullable(bool value);
 
-  /// @brief Method .ctor, addr 0x63835e0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638b05c, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(char16_t ch, bool _cordl_not, bool nullable, bool caseInsensitive);
 
-  /// @brief Method .ctor, addr 0x63836d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638b14c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW charClass, bool nullable, bool caseInsensitive);
 
-  /// @brief Method .ctor, addr 0x63834d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638af50, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool nullable);
 
-  /// @brief Method get_CaseInsensitive, addr 0x6383760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CaseInsensitive, addr 0x638b1dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_CaseInsensitive();
 
-  /// @brief Method set_CaseInsensitive, addr 0x6383768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CaseInsensitive, addr 0x638b1e4, size 0x8, virtual false, abstract: false, final false
   inline void set_CaseInsensitive(bool value);
 
 protected:
@@ -97,7 +97,7 @@ public:
   RegexFC(RegexFC const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11115 };
 
   /// @brief Field _cc, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::RegexCharClass* ____cc;

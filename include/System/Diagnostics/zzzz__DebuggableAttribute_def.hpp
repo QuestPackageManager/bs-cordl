@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/DebuggableAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\DebuggableAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_m_debuggingModes(::System::Diagnostics::DebuggableAttribute_DebuggingModes value);
 
-  /// @brief Method .ctor, addr 0x5bdc600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be0abc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::DebuggableAttribute_DebuggingModes modes);
 
 protected:

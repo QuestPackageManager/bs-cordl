@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_fixed.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_fixed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_fixed* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x61c37a8, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x61cb224, size 0x2f8, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method TryParseValue, addr 0x61c3ce8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x61cb764, size 0x174, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::by_ref<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x61b83f8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bfe74, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   Datatype_fixed(Datatype_fixed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9674 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

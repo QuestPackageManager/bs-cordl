@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Advanced/G_AdvancedData.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Advanced\G_AdvancedData.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Advanced/zzzz__G_AdvancedData_def.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643a6d0;
+  constexpr static std::size_t addrs = 0x644214c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(), { "OnEnable", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::Update)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x643a6d4;
+  constexpr static std::size_t addrs = 0x6442150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(), { "Update", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)(::Tayx::Graphy::GraphyManager_ModulePosition)>(
     &::Tayx::Graphy::Advanced::G_AdvancedData::SetPosition)> {
   constexpr static std::size_t size = 0x814;
-  constexpr static std::size_t addrs = 0x6431ee8;
+  constexpr static std::size_t addrs = 0x6439964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)(::Tayx::Graphy::GraphyManager_ModuleState, bool)>(
     &::Tayx::Graphy::Advanced::G_AdvancedData::SetState)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6431e4c;
+  constexpr static std::size_t addrs = 0x64398c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::RestorePreviousState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6433608;
+  constexpr static std::size_t addrs = 0x643b084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(), { "RestorePreviousState", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::UpdateParameters)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x64358e8;
+  constexpr static std::size_t addrs = 0x643d364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(), { "UpdateParameters", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::RefreshParameters)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6435e84;
+  constexpr static std::size_t addrs = 0x643d900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(), { "RefreshParameters", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::Init)> {
   constexpr static std::size_t size = 0xd6c;
-  constexpr static std::size_t addrs = 0x643465c;
+  constexpr static std::size_t addrs = 0x643c0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(), { "Init", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x643a9b8;
+  constexpr static std::size_t addrs = 0x6442434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Advanced::G_AdvancedData*>(), { ".ctor", {}, {} })));

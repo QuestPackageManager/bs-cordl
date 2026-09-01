@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/SubManagerForAddon.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\SubManagerForAddon.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,18 +70,18 @@ public:
   /// @brief Convert operator to "::Meta::XR::ImmersiveDebugger::Manager::IDebugManager"
   constexpr operator ::Meta::XR::ImmersiveDebugger::Manager::IDebugManager*() noexcept;
 
-  /// @brief Method GetCountPerType, addr 0x5a62d0c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetCountPerType, addr 0x5a671c8, size 0x98, virtual true, abstract: false, final true
   inline int32_t GetCountPerType(::System::Type* type);
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon* New_ctor();
 
-  /// @brief Method ProcessType, addr 0x5a62664, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method ProcessType, addr 0x5a66b20, size 0x38, virtual true, abstract: false, final true
   inline void ProcessType(::System::Type* type);
 
-  /// @brief Method ProcessTypeFromHierarchy, addr 0x5a629bc, size 0x350, virtual true, abstract: false, final true
+  /// @brief Method ProcessTypeFromHierarchy, addr 0x5a66e78, size 0x350, virtual true, abstract: false, final true
   inline void ProcessTypeFromHierarchy(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item, ::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method ProcessTypeFromInspector, addr 0x5a6269c, size 0x320, virtual true, abstract: false, final true
+  /// @brief Method ProcessTypeFromInspector, addr 0x5a66b58, size 0x320, virtual true, abstract: false, final true
   inline void ProcessTypeFromInspector(::System::Type* type, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle, ::System::Reflection::MemberInfo* memberInfo,
                                        ::Meta::XR::ImmersiveDebugger::DebugMember* memberAttribute);
 
@@ -89,7 +89,7 @@ public:
   inline bool RegisterSpecialisedWidget(::Meta::XR::ImmersiveDebugger::UserInterface::IMember* member, ::System::Reflection::MemberInfo* memberInfo,
                                         ::Meta::XR::ImmersiveDebugger::DebugMember* memberAttribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle);
 
-  /// @brief Method Setup, addr 0x5a6265c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Setup, addr 0x5a66b18, size 0x8, virtual true, abstract: false, final true
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* panel, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* cache);
 
   constexpr ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache* const& __cordl_internal_get_InstanceCache() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set__uiPanel(::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel* value);
 
-  /// @brief Method .ctor, addr 0x5a62da4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a67260, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_TelemetryAnnotation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -134,7 +134,7 @@ public:
   SubManagerForAddon(SubManagerForAddon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18456 };
 
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::System::Reflection::MemberInfo*>*>* ____dictionary;

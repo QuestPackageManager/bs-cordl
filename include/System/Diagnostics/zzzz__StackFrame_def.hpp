@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/StackFrame.hpp"
+// IWYU pragma private; include "System\Diagnostics\StackFrame.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,38 +51,38 @@ public:
   /// @brief Field nativeOffset, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_nativeOffset, put = __cordl_internal_set_nativeOffset)) int32_t nativeOffset;
 
-  /// @brief Method GetFileLineNumber, addr 0x5bdc8a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFileLineNumber, addr 0x5be0d5c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetFileLineNumber();
 
-  /// @brief Method GetFileName, addr 0x5bdc8a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFileName, addr 0x5be0d64, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetFileName();
 
-  /// @brief Method GetILOffset, addr 0x5bdc98c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetILOffset, addr 0x5be0e48, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetILOffset();
 
-  /// @brief Method GetInternalMethodName, addr 0x5bdc9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInternalMethodName, addr 0x5be0e70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetInternalMethodName();
 
-  /// @brief Method GetMethod, addr 0x5bdc994, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x5be0e50, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodBase* GetMethod();
 
-  /// @brief Method GetMethodAddress, addr 0x5bdc9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodAddress, addr 0x5be0e60, size 0x8, virtual false, abstract: false, final false
   inline int64_t GetMethodAddress();
 
-  /// @brief Method GetMethodIndex, addr 0x5bdc9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodIndex, addr 0x5be0e68, size 0x8, virtual false, abstract: false, final false
   inline uint32_t GetMethodIndex();
 
-  /// @brief Method GetNativeOffset, addr 0x5bdc99c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNativeOffset, addr 0x5be0e58, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetNativeOffset();
 
-  /// @brief Method GetSecureFileName, addr 0x5bdc8b0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetSecureFileName, addr 0x5be0d6c, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetSecureFileName();
 
   static inline ::System::Diagnostics::StackFrame* New_ctor();
 
   static inline ::System::Diagnostics::StackFrame* New_ctor(int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method ToString, addr 0x5bdc9bc, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5be0e78, size 0x22c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_columnNumber() const;
@@ -139,13 +139,13 @@ public:
 
   constexpr void __cordl_internal_set_nativeOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5bdc844, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be0d00, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5bdc870, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be0d2c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t skipFrames, bool fNeedFileInfo);
 
-  /// @brief Method get_frame_info, addr 0x5bdc840, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_frame_info, addr 0x5be0cfc, size 0x4, virtual false, abstract: false, final false
   static inline bool get_frame_info(int32_t skip, bool needFileInfo, ::by_ref<::System::Reflection::MethodBase*> method, ::by_ref<int32_t> iloffset, ::by_ref<int32_t> native_offset,
                                     ::by_ref<::StringW> file, ::by_ref<int32_t> line, ::by_ref<int32_t> column);
 

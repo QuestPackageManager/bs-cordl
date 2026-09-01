@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ScalableBufferManager.hpp"
+// IWYU pragma private; include "UnityEngine\ScalableBufferManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,13 +20,13 @@ namespace UnityEngine {
 class CORDL_TYPE ScalableBufferManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ResizeBuffers, addr 0x6a81c18, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ResizeBuffers, addr 0x6a89630, size 0x40, virtual false, abstract: false, final false
   static inline void ResizeBuffers(float_t widthScale, float_t heightScale);
 
-  /// @brief Method get_heightScaleFactor, addr 0x6a81bf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_heightScaleFactor, addr 0x6a89608, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_heightScaleFactor();
 
-  /// @brief Method get_widthScaleFactor, addr 0x6a81bc8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_widthScaleFactor, addr 0x6a895e0, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_widthScaleFactor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   ScalableBufferManager(ScalableBufferManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10141 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

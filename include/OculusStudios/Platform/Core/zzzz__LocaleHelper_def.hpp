@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/LocaleHelper.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\LocaleHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace OculusStudios::Platform::Core {
 class CORDL_TYPE LocaleHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSystemLocale, addr 0x5f2a51c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetSystemLocale, addr 0x5f2e9dc, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW GetSystemLocale();
 
-  /// @brief Method ToLocale, addr 0x5f2a58c, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method ToLocale, addr 0x5f2ea4c, size 0x398, virtual false, abstract: false, final false
   static inline ::StringW ToLocale(::UnityEngine::SystemLanguage lang);
 
 protected:
@@ -44,7 +44,7 @@ public:
   LocaleHelper(LocaleHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22456 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

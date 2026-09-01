@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Encoders/BufferedEncoder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Encoders\BufferedEncoder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__BufferedEncoder_def.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__ITranslator_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::*)(::Org::BouncyCastle::Utilities::Encoders::ITranslator*, int32_t)>(
     &::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x36294f4;
+  constexpr static std::size_t addrs = 0x362d2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::*)(uint8_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::ProcessByte)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3629628;
+  constexpr static std::size_t addrs = 0x362d3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder::ProcessBytes)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x3629754;
+  constexpr static std::size_t addrs = 0x362d514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

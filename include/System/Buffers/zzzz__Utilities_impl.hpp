@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Buffers/Utilities.hpp"
+// IWYU pragma private; include "System\Buffers\Utilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Buffers/zzzz__Utilities_def.hpp"
 //  Writing Method size for method: ::System::Buffers::Utilities.SelectBucketIndex
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Buffers::Utilities::SelectBucketIndex)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5befb0c;
+  constexpr static std::size_t addrs = 0x5bf3fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Buffers::Utilities::GetMaxSizeForBucket)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5befb88;
+  constexpr static std::size_t addrs = 0x5bf4044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

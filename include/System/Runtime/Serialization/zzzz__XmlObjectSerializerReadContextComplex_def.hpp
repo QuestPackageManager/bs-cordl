@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/XmlObjectSerializerReadContextComplex.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\XmlObjectSerializerReadContextComplex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,7 +98,7 @@ public:
 
   static inline ::System::Runtime::Serialization::XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver* New_ctor(::System::Reflection::Assembly* topLevelAssembly);
 
-  /// @brief Method ResolveType, addr 0x6165f20, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ResolveType, addr 0x616d99c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Type* ResolveType(::System::Reflection::Assembly* assembly, ::StringW simpleTypeName, bool ignoreCase);
 
   constexpr ::System::Reflection::Assembly* const& __cordl_internal_get_topLevelAssembly() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_topLevelAssembly(::System::Reflection::Assembly* value);
 
-  /// @brief Method .ctor, addr 0x61659e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x616d460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::Assembly* topLevelAssembly);
 
 protected:
@@ -125,7 +125,7 @@ public:
   XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver(XmlObjectSerializerReadContextComplex_TopLevelAssemblyTypeResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17139 };
 
   /// @brief Field topLevelAssembly, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::Assembly* ___topLevelAssembly;
@@ -169,13 +169,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6165a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x616d4ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::Assembly* assembly, ::System::Type* type);
 
-  /// @brief Method get_Assembly, addr 0x6165f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Assembly, addr 0x616da04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* get_Assembly();
 
-  /// @brief Method get_Type, addr 0x6165f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x616da0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -193,7 +193,7 @@ public:
   XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17140 };
 
   /// @brief Field assembly, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::Assembly* ___assembly;
@@ -224,10 +224,10 @@ public:
   /// @brief Field typeName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method Equals, addr 0x6165f98, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x616da14, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x6166054, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x616dad0, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Runtime::Serialization::XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey* New_ctor(::StringW assemblyName, ::StringW typeName);
@@ -244,7 +244,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61658b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x616d330, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName, ::StringW typeName);
 
 protected:
@@ -262,7 +262,7 @@ public:
   XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey(XmlObjectSerializerReadContextComplex_XmlObjectDataContractTypeKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17141 };
 
   /// @brief Field assemblyName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___assemblyName;
@@ -320,43 +320,43 @@ public:
   /// @brief Field surrogateSelector, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get_surrogateSelector, put = __cordl_internal_set_surrogateSelector)) ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector;
 
-  /// @brief Method CheckIfTypeSerializable, addr 0x6165ba8, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method CheckIfTypeSerializable, addr 0x616d624, size 0x140, virtual true, abstract: false, final false
   inline void CheckIfTypeSerializable(::System::Type* memberType, bool isMemberTypeSerializable);
 
-  /// @brief Method CheckIfTypeSerializableForSharedTypeMode, addr 0x6165ad4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CheckIfTypeSerializableForSharedTypeMode, addr 0x616d550, size 0xd4, virtual false, abstract: false, final false
   inline bool CheckIfTypeSerializableForSharedTypeMode(::System::Type* memberType);
 
-  /// @brief Method CheckTypeForwardedTo, addr 0x61659ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CheckTypeForwardedTo, addr 0x616d468, size 0x84, virtual false, abstract: false, final false
   static inline void CheckTypeForwardedTo(::System::Reflection::Assembly* sourceAssembly, ::System::Reflection::Assembly* destinationAssembly, ::System::Type* resolvedType);
 
-  /// @brief Method GetArraySize, addr 0x6165e08, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetArraySize, addr 0x616d884, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetArraySize();
 
-  /// @brief Method GetDataContract, addr 0x61645f4, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method GetDataContract, addr 0x616c070, size 0x1ac, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetDataContract(int32_t id, ::System::RuntimeTypeHandle typeHandle);
 
-  /// @brief Method GetDataContract, addr 0x61647a0, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method GetDataContract, addr 0x616c21c, size 0x1ac, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* GetDataContract(::System::RuntimeTypeHandle typeHandle, ::System::Type* type);
 
-  /// @brief Method GetSurrogatedType, addr 0x6165ce8, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method GetSurrogatedType, addr 0x616d764, size 0x120, virtual true, abstract: false, final false
   inline ::System::Type* GetSurrogatedType(::System::Type* type);
 
-  /// @brief Method InternalDeserialize, addr 0x6165218, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method InternalDeserialize, addr 0x616cc94, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* declaredType,
                                                ::System::Runtime::Serialization::DataContract* dataContract, ::StringW name, ::StringW ns);
 
-  /// @brief Method InternalDeserialize, addr 0x616514c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method InternalDeserialize, addr 0x616cbc8, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Object* InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* declaredType, ::StringW name, ::StringW ns);
 
-  /// @brief Method InternalDeserialize, addr 0x616494c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method InternalDeserialize, addr 0x616c3c8, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Object* InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, int32_t declaredTypeID, ::System::RuntimeTypeHandle declaredTypeHandle, ::StringW name,
                                                ::StringW ns);
 
-  /// @brief Method InternalDeserializeInSharedTypeMode, addr 0x6164ccc, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method InternalDeserializeInSharedTypeMode, addr 0x616c748, size 0x480, virtual false, abstract: false, final false
   inline ::System::Object* InternalDeserializeInSharedTypeMode(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, int32_t declaredTypeID, ::System::Type* declaredType, ::StringW name,
                                                                ::StringW ns);
 
-  /// @brief Method InternalDeserializeWithSurrogate, addr 0x6164a48, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method InternalDeserializeWithSurrogate, addr 0x616c4c4, size 0x284, virtual false, abstract: false, final false
   inline ::System::Object* InternalDeserializeWithSurrogate(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* declaredType,
                                                             ::System::Runtime::Serialization::DataContract* surrogateDataContract, ::StringW name, ::StringW ns);
 
@@ -364,20 +364,20 @@ public:
                                                                                                   ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
                                                                                                   ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method ResolveDataContractFromTypeName, addr 0x6165a78, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ResolveDataContractFromTypeName, addr 0x616d4f4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* ResolveDataContractFromTypeName();
 
-  /// @brief Method ResolveDataContractInSharedTypeMode, addr 0x6165248, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ResolveDataContractInSharedTypeMode, addr 0x616ccc4, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* ResolveDataContractInSharedTypeMode(::StringW assemblyName, ::StringW typeName, ::by_ref<::System::Reflection::Assembly*> assembly,
                                                                                              ::by_ref<::System::Type*> type);
 
-  /// @brief Method ResolveDataContractTypeInSharedTypeMode, addr 0x61652a4, size 0x610, virtual false, abstract: false, final false
+  /// @brief Method ResolveDataContractTypeInSharedTypeMode, addr 0x616cd20, size 0x610, virtual false, abstract: false, final false
   inline ::System::Type* ResolveDataContractTypeInSharedTypeMode(::StringW assemblyName, ::StringW typeName, ::by_ref<::System::Reflection::Assembly*> assembly);
 
-  /// @brief Method ResolveSimpleAssemblyName, addr 0x61658bc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ResolveSimpleAssemblyName, addr 0x616d338, size 0x128, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* ResolveSimpleAssemblyName(::StringW assemblyName);
 
-  /// @brief Method ResolveSimpleAssemblyName, addr 0x6165e30, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ResolveSimpleAssemblyName, addr 0x616d8ac, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* ResolveSimpleAssemblyName(::System::Reflection::AssemblyName* assemblyName);
 
   constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const& __cordl_internal_get_assemblyFormat() const;
@@ -422,13 +422,13 @@ public:
 
   constexpr void __cordl_internal_set_surrogateSelector(::System::Runtime::Serialization::ISurrogateSelector* value);
 
-  /// @brief Method .ctor, addr 0x615fc5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61676d8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::DataContractSerializer* serializer, ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
                     ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
   static inline ::System::Collections::Hashtable* getStaticF_dataContractTypeCache();
 
-  /// @brief Method get_Mode, addr 0x61645ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x616c068, size 0x8, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationMode get_Mode();
 
   static inline void setStaticF_dataContractTypeCache(::System::Collections::Hashtable* value);
@@ -448,7 +448,7 @@ public:
   XmlObjectSerializerReadContextComplex(XmlObjectSerializerReadContextComplex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17142 };
 
   /// @brief Field preserveObjectReferences, offset: 0xb1, size: 0x1, def value: None
   bool ___preserveObjectReferences;

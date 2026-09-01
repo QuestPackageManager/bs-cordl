@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/Internal/SingletonMarkRegistry.hpp"
+// IWYU pragma private; include "Zenject\Internal\SingletonMarkRegistry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/Internal/zzzz__SingletonMarkRegistry_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(&::Zenject::Internal::SingletonMarkRegistry::MarkNonSingleton)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6e982cc;
+  constexpr static std::size_t addrs = 0x6e9fe50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(&::Zenject::Internal::SingletonMarkRegistry::MarkSingleton)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6e98398;
+  constexpr static std::size_t addrs = 0x6e9ff1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(&::Zenject::Internal::SingletonMarkRegistry::Unmark)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e98490;
+  constexpr static std::size_t addrs = 0x6ea0014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)()>(&::Zenject::Internal::SingletonMarkRegistry::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e98508;
+  constexpr static std::size_t addrs = 0x6ea008c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::Internal::SingletonMarkRegistry*>(), { ".ctor", {}, {} })));

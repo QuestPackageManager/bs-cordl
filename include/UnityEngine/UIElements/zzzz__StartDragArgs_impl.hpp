@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StartDragArgs.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StartDragArgs.hpp"
 #include "UnityEngine/UIElements/zzzz__DragVisualMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::StringW, ::UnityEngine::UIElements::DragVisualMode)>(
     &::UnityEngine::UIElements::StartDragArgs::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d82008;
+  constexpr static std::size_t addrs = 0x6d89b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StartDragArgs::*)()>(&::UnityEngine::UIElements::StartDragArgs::get_title)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d83f5c;
+  constexpr static std::size_t addrs = 0x6d8bae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StartDragArgs>(), { "get_title", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::StartDragArgs::*)()>(
     &::UnityEngine::UIElements::StartDragArgs::get_visualMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d83f64;
+  constexpr static std::size_t addrs = 0x6d8bae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StartDragArgs>(), { "get_visualMode", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Hashtable* (::UnityEngine::UIElements::StartDragArgs::*)()>(&::UnityEngine::UIElements::StartDragArgs::get_genericData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d83f6c;
+  constexpr static std::size_t addrs = 0x6d8baf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StartDragArgs>(), { "get_genericData", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::System::Collections::Hashtable*)>(
     &::UnityEngine::UIElements::StartDragArgs::set_genericData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d83f74;
+  constexpr static std::size_t addrs = 0x6d8baf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* (::UnityEngine::UIElements::StartDragArgs::*)()>(
     &::UnityEngine::UIElements::StartDragArgs::get_unityObjectReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d83f7c;
+  constexpr static std::size_t addrs = 0x6d8bb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StartDragArgs>(), { "get_unityObjectReferences", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*)>(
     &::UnityEngine::UIElements::StartDragArgs::set_unityObjectReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d83f84;
+  constexpr static std::size_t addrs = 0x6d8bb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::UnityEngine::UIElements::StartDragArgs::*)()>(&::UnityEngine::UIElements::StartDragArgs::get_assetPaths)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d83f8c;
+  constexpr static std::size_t addrs = 0x6d8bb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StartDragArgs>(), { "get_assetPaths", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::ArrayW<::StringW>)>(&::UnityEngine::UIElements::StartDragArgs::set_assetPaths)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d83f94;
+  constexpr static std::size_t addrs = 0x6d8bb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::StringW, ::System::Object*)>(&::UnityEngine::UIElements::StartDragArgs::SetGenericData)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6d83f9c;
+  constexpr static std::size_t addrs = 0x6d8bb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/TaaHistory.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\TaaHistory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,33 +48,33 @@ public:
   /// @brief Field m_TaaAccumulationVersions, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TaaAccumulationVersions, put = __cordl_internal_set_m_TaaAccumulationVersions)) ::ArrayW<int32_t> m_TaaAccumulationVersions;
 
-  /// @brief Method Alloc, addr 0x68715b4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Alloc, addr 0x6879030, size 0x158, virtual false, abstract: false, final false
   inline void Alloc(::by_ref<::UnityEngine::RenderTextureDescriptor> desc, bool xrMultipassEnabled);
 
-  /// @brief Method GetAccumulationTexture, addr 0x6871498, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetAccumulationTexture, addr 0x6878f14, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetAccumulationTexture(int32_t eyeIndex);
 
-  /// @brief Method GetAccumulationVersion, addr 0x68714cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetAccumulationVersion, addr 0x6878f48, size 0x30, virtual false, abstract: false, final false
   inline int32_t GetAccumulationVersion(int32_t eyeIndex);
 
-  /// @brief Method IsDirty, addr 0x6871548, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsDirty, addr 0x6878fc4, size 0x6c, virtual false, abstract: false, final false
   inline bool IsDirty(::by_ref<::UnityEngine::RenderTextureDescriptor> desc);
 
-  /// @brief Method IsValid, addr 0x687152c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6878fa8, size 0x1c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::Universal::TaaHistory* New_ctor();
 
-  /// @brief Method OnCreate, addr 0x68713a0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method OnCreate, addr 0x6878e1c, size 0x4c, virtual true, abstract: false, final false
   inline void OnCreate(::UnityEngine::Rendering::BufferedRTHandleSystem* owner, uint32_t typeId);
 
-  /// @brief Method Reset, addr 0x68713ec, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6878e68, size 0xac, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetAccumulationVersion, addr 0x68714fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetAccumulationVersion, addr 0x6878f78, size 0x30, virtual false, abstract: false, final false
   inline void SetAccumulationVersion(int32_t eyeIndex, int32_t version);
 
-  /// @brief Method Update, addr 0x687170c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6879188, size 0x10c, virtual false, abstract: false, final false
   inline bool Update(::by_ref<::UnityEngine::RenderTextureDescriptor> cameraDesc, bool xrMultipassEnabled);
 
   constexpr ::UnityEngine::Hash128 const& __cordl_internal_get_m_DescKey() const;
@@ -101,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TaaAccumulationVersions(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x6871818, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6879294, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW> getStaticF_m_TaaAccumulationNames();
@@ -123,7 +123,7 @@ public:
   TaaHistory(TaaHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12766 };
 
   /// @brief Field m_TaaAccumulationTextureIds, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_TaaAccumulationTextureIds;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Controls/KeyControl.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Controls\KeyControl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Key (::UnityEngine::InputSystem::Controls::KeyControl::*)()>(
     &::UnityEngine::InputSystem::Controls::KeyControl::get_keyCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f456c;
+  constexpr static std::size_t addrs = 0x64fbfe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::KeyControl*>(), { "get_keyCode", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::KeyControl::*)(::UnityEngine::InputSystem::Key)>(
     &::UnityEngine::InputSystem::Controls::KeyControl::set_keyCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f4574;
+  constexpr static std::size_t addrs = 0x64fbff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Controls::KeyControl::*)()>(&::UnityEngine::InputSystem::Controls::KeyControl::get_scanCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x64f457c;
+  constexpr static std::size_t addrs = 0x64fbff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::KeyControl*>(), { "get_scanCode", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::KeyControl::*)()>(&::UnityEngine::InputSystem::Controls::KeyControl::RefreshConfiguration)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x64f45b8;
+  constexpr static std::size_t addrs = 0x64fc034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::KeyControl::*)()>(&::UnityEngine::InputSystem::Controls::KeyControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64f4738;
+  constexpr static std::size_t addrs = 0x64fc1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::KeyControl*>(), { ".ctor", {}, {} })));

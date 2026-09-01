@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/CommonAce.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\CommonAce.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
   // Declarations
   __declspec(property(get = get_BinaryLength)) int32_t BinaryLength;
 
-  /// @brief Method ConvertType, addr 0x5b18780, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ConvertType, addr 0x5b1cc3c, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::AceType ConvertType(::System::Security::AccessControl::AceQualifier qualifier, bool isCallback);
 
-  /// @brief Method GetBinaryForm, addr 0x5b18c48, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetBinaryForm, addr 0x5b1d104, size 0xe4, virtual true, abstract: false, final false
   inline void GetBinaryForm(::ArrayW<uint8_t> binaryForm, int32_t offset);
 
   static inline ::System::Security::AccessControl::CommonAce* New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset);
@@ -46,14 +46,14 @@ public:
   static inline ::System::Security::AccessControl::CommonAce* New_ctor(::System::Security::AccessControl::AceFlags flags, ::System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask,
                                                                        ::System::Security::Principal::SecurityIdentifier* sid, bool isCallback, ::ArrayW<uint8_t> opaque);
 
-  /// @brief Method .ctor, addr 0x5b188b4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1cd70, size 0x1f4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x5b18720, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1cbdc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceFlags flags, ::System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask,
                     ::System::Security::Principal::SecurityIdentifier* sid, bool isCallback, ::ArrayW<uint8_t> opaque);
 
-  /// @brief Method get_BinaryLength, addr 0x5b18bf8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_BinaryLength, addr 0x5b1d0b4, size 0x38, virtual true, abstract: false, final false
   inline int32_t get_BinaryLength();
 
 protected:

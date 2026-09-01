@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/VRControllerManufacturer.hpp"
+// IWYU pragma private; include "GlobalNamespace\VRControllerManufacturer.hpp"
 #include "GlobalNamespace/zzzz__VRControllerManufacturer_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::VRControllerManufacturer::VRControllerManufacturer(int32_t value__) noexcept {

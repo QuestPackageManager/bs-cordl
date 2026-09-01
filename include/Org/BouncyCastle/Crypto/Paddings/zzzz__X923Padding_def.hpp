@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Paddings/X923Padding.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Paddings\X923Padding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,15 +36,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Method AddPadding, addr 0x3408a70, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method AddPadding, addr 0x340c830, size 0xc8, virtual true, abstract: false, final true
   inline int32_t AddPadding(::ArrayW<uint8_t> input, int32_t inOff);
 
-  /// @brief Method Init, addr 0x3408a24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x340c7e4, size 0x8, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::X923Padding* New_ctor();
 
-  /// @brief Method PadCount, addr 0x3408b38, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method PadCount, addr 0x340c8f8, size 0x7c, virtual true, abstract: false, final true
   inline int32_t PadCount(::ArrayW<uint8_t> input);
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x3408bb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340c974, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PaddingName, addr 0x3408a2c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_PaddingName, addr 0x340c7ec, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_PaddingName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"

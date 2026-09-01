@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LeaderboardTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace\LeaderboardTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,31 +92,31 @@ public:
 
   constexpr void __cordl_internal_set__score_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x59695c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596ceb8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo);
 
-  /// @brief Method get_fullCombo, addr 0x59695b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullCombo, addr 0x596cea8, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullCombo();
 
-  /// @brief Method get_playerName, addr 0x5969590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerName, addr 0x596ce88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
-  /// @brief Method get_rank, addr 0x59695a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rank, addr 0x596ce98, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rank();
 
-  /// @brief Method get_score, addr 0x5969580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_score, addr 0x596ce78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_score();
 
-  /// @brief Method set_fullCombo, addr 0x59695b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullCombo, addr 0x596ceb0, size 0x8, virtual false, abstract: false, final false
   inline void set_fullCombo(bool value);
 
-  /// @brief Method set_playerName, addr 0x5969598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x596ce90, size 0x8, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_rank, addr 0x59695a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rank, addr 0x596cea0, size 0x8, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method set_score, addr 0x5969588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_score, addr 0x596ce80, size 0x8, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
 protected:
@@ -134,7 +134,7 @@ public:
   LeaderboardTableView_ScoreData(LeaderboardTableView_ScoreData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7007 };
 
   /// @brief Field <score>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____score_k__BackingField;
@@ -189,18 +189,18 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x5969320, size 0x220, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x596cc18, size 0x220, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method CellSize, addr 0x59692c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x596cbbc, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
   static inline ::GlobalNamespace::LeaderboardTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x59692cc, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x596cbc4, size 0x54, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetScores, addr 0x5969540, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetScores, addr 0x596ce38, size 0x34, virtual false, abstract: false, final false
   inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView_ScoreData*>* scores, int32_t specialScorePos);
 
   constexpr ::UnityW<::GlobalNamespace::LeaderboardTableCell> const& __cordl_internal_get__cellPrefab() const;
@@ -233,7 +233,7 @@ public:
 
   constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method .ctor, addr 0x5969574, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596ce6c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
@@ -254,7 +254,7 @@ public:
   LeaderboardTableView(LeaderboardTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7008 };
 
   /// @brief Field kCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellIdentifier{ u"Cell" };

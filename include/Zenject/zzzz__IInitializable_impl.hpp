@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/IInitializable.hpp"
+// IWYU pragma private; include "Zenject\IInitializable.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::Zenject::IInitializable.Initialize
 template <>

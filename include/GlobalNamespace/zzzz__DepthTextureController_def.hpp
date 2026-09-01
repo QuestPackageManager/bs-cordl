@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DepthTextureController.hpp"
+// IWYU pragma private; include "GlobalNamespace\DepthTextureController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,12 +23,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE DepthTextureController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x58fdda0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5901368, size 0x104, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SettingsManager* settingsManager);
 
   static inline ::GlobalNamespace::DepthTextureController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58fdea4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590146c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   DepthTextureController(DepthTextureController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6662 };
 
   /// @brief Field kDepthTextureEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kDepthTextureEnabledKeyword{ u"DEPTH_TEXTURE_ENABLED" };

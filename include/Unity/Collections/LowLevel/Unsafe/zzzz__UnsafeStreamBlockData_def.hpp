@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeStreamBlockData.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeStreamBlockData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +24,10 @@ namespace Unity::Collections::LowLevel::Unsafe {
 struct CORDL_TYPE UnsafeStreamBlockData {
 public:
   // Declarations
-  /// @brief Method Allocate, addr 0x64c7690, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x64cf10c, size 0x6c, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* Allocate(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* oldBlock, int32_t threadIndex);
 
-  /// @brief Method Free, addr 0x64c76fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x64cf178, size 0x1c, virtual false, abstract: false, final false
   inline void Free(::Unity::Collections::LowLevel::Unsafe::UnsafeStreamBlock* oldBlock);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   static constexpr int32_t AllocationSize{ static_cast<int32_t>(0x1000) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15820 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithPurchase.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithPurchase.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithPurchase_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Purchase_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithPurchase::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithPurchase::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd38e4;
+  constexpr static std::size_t addrs = 0x5dd7da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::Purchase* (::Oculus::Platform::MessageWithPurchase::*)()>(&::Oculus::Platform::MessageWithPurchase::GetPurchase)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd8510;
+  constexpr static std::size_t addrs = 0x5ddc9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::Purchase* (::Oculus::Platform::MessageWithPurchase::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithPurchase::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd8554;
+  constexpr static std::size_t addrs = 0x5ddca10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

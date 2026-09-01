@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/SHA1Internal.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\SHA1Internal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__SHA1Internal_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::SHA1Internal._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SHA1Internal::*)()>(&::System::Security::Cryptography::SHA1Internal::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5b0b500;
+  constexpr static std::size_t addrs = 0x5b0f9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::SHA1Internal*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SHA1Internal::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Security::Cryptography::SHA1Internal::HashCore)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5b0b624;
+  constexpr static std::size_t addrs = 0x5b0fae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::SHA1Internal::*)()>(&::System::Security::Cryptography::SHA1Internal::HashFinal)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5b0bf4c;
+  constexpr static std::size_t addrs = 0x5b10408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::SHA1Internal*>(), { "HashFinal", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SHA1Internal::*)()>(&::System::Security::Cryptography::SHA1Internal::Initialize)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5b0b59c;
+  constexpr static std::size_t addrs = 0x5b0fa58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::SHA1Internal*>(), { "Initialize", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SHA1Internal::*)(::ArrayW<uint8_t>, uint32_t)>(
     &::System::Security::Cryptography::SHA1Internal::ProcessBlock)> {
   constexpr static std::size_t size = 0x828;
-  constexpr static std::size_t addrs = 0x5b0b724;
+  constexpr static std::size_t addrs = 0x5b0fbe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::SHA1Internal*>(),
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, ::ArrayW<uint8_t>, uint32_t)>(&::System::Security::Cryptography::SHA1Internal::InitialiseBuff)> {
   constexpr static std::size_t size = 0x6a0;
-  constexpr static std::size_t addrs = 0x5b0c1f8;
+  constexpr static std::size_t addrs = 0x5b106b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>)>(&::System::Security::Cryptography::SHA1Internal::FillBuff)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5b0c898;
+  constexpr static std::size_t addrs = 0x5b10d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SHA1Internal::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Security::Cryptography::SHA1Internal::ProcessFinalBlock)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5b0c02c;
+  constexpr static std::size_t addrs = 0x5b104e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SHA1Internal::*)(uint64_t, ::ArrayW<uint8_t>, int32_t)>(
     &::System::Security::Cryptography::SHA1Internal::AddLength)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5b0ca1c;
+  constexpr static std::size_t addrs = 0x5b10ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

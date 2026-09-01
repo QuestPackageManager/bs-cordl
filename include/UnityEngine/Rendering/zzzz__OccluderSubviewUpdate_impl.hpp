@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OccluderSubviewUpdate.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OccluderSubviewUpdate.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Vector2Int_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OccluderSubviewUpdate::*)(int32_t)>(&::UnityEngine::Rendering::OccluderSubviewUpdate::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x680eb9c;
+  constexpr static std::size_t addrs = 0x6816618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Unity/UnityTlsConversions.hpp"
+// IWYU pragma private; include "Mono\Unity\UnityTlsConversions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsConversions_def.hpp"
 #include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Unity::UnityTls_unitytls_protocol (*)(::System::Security::Authentication::SslProtocols)>(
     &::Mono::Unity::UnityTlsConversions::GetMinProtocol)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5fcb8a8;
+  constexpr static std::size_t addrs = 0x5fd3324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Unity::UnityTls_unitytls_protocol (*)(::System::Security::Authentication::SslProtocols)>(
     &::Mono::Unity::UnityTlsConversions::GetMaxProtocol)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fcb8d8;
+  constexpr static std::size_t addrs = 0x5fd3354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::TlsProtocols (*)(::Mono::Unity::UnityTls_unitytls_protocol)>(
     &::Mono::Unity::UnityTlsConversions::ConvertProtocolVersion)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5fcc50c;
+  constexpr static std::size_t addrs = 0x5fd3f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::AlertDescription (*)(
     ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::Mono::Security::Interface::AlertDescription)>(&::Mono::Unity::UnityTlsConversions::VerifyResultToAlertDescription)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5fc96a4;
+  constexpr static std::size_t addrs = 0x5fd1120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Security::SslPolicyErrors (*)(::Mono::Unity::UnityTls_unitytls_x509verify_result)>(
     &::Mono::Unity::UnityTlsConversions::VerifyResultToPolicyErrror)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5fcd914;
+  constexpr static std::size_t addrs = 0x5fd5390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags (*)(::Mono::Unity::UnityTls_unitytls_x509verify_result)>(
     &::Mono::Unity::UnityTlsConversions::VerifyResultToChainStatus)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5fcd944;
+  constexpr static std::size_t addrs = 0x5fd53c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

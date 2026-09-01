@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/MiscPemGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\OpenSsl\MiscPemGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__MiscPemGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::MiscPemGenerator::*)(::System::Object*)>(&::Org::BouncyCastle::OpenSsl::MiscPemGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35a18ac;
+  constexpr static std::size_t addrs = 0x35a566c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::MiscPemGenerator::*)(
     ::System::Object*, ::StringW, ::ArrayW<char16_t>, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::OpenSsl::MiscPemGenerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35a18b4;
+  constexpr static std::size_t addrs = 0x35a5674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::MiscPemGenerator*>(),
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (*)(::System::Object*)>(&::Org::BouncyCastle::OpenSsl::MiscPemGenerator::CreatePemObject)> {
   constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x35a18c0;
+  constexpr static std::size_t addrs = 0x35a5680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (*)(::System::Object*, ::StringW, ::ArrayW<char16_t>, ::Org::BouncyCastle::Security::SecureRandom*)>(
         &::Org::BouncyCastle::OpenSsl::MiscPemGenerator::CreatePemObject)> {
   constexpr static std::size_t size = 0x5cc;
-  constexpr static std::size_t addrs = 0x35a249c;
+  constexpr static std::size_t addrs = 0x35a625c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::MiscPemGenerator*>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::by_ref<::StringW>)>(
     &::Org::BouncyCastle::OpenSsl::MiscPemGenerator::EncodePrivateKey)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x35a1f70;
+  constexpr static std::size_t addrs = 0x35a5d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (::Org::BouncyCastle::OpenSsl::MiscPemGenerator::*)()>(
     &::Org::BouncyCastle::OpenSsl::MiscPemGenerator::Generate)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35a2fb4;
+  constexpr static std::size_t addrs = 0x35a6d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::MiscPemGenerator*>(), { "Generate", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/ReadOnlyAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\ReadOnlyAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__ReadOnlyAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ReadOnlyAttribute::*)(bool)>(&::System::ComponentModel::ReadOnlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ad2c8;
+  constexpr static std::size_t addrs = 0x63b4d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::ReadOnlyAttribute::*)()>(&::System::ComponentModel::ReadOnlyAttribute::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ad2d0;
+  constexpr static std::size_t addrs = 0x63b4d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::ReadOnlyAttribute*>(), { "get_IsReadOnly", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::ReadOnlyAttribute::*)(::System::Object*)>(&::System::ComponentModel::ReadOnlyAttribute::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x63ad2d8;
+  constexpr static std::size_t addrs = 0x63b4d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::ReadOnlyAttribute::*)()>(&::System::ComponentModel::ReadOnlyAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ad3b8;
+  constexpr static std::size_t addrs = 0x63b4e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::ReadOnlyAttribute::*)()>(&::System::ComponentModel::ReadOnlyAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63ad3c0;
+  constexpr static std::size_t addrs = 0x63b4e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/IntegerTime/RationalTime.hpp"
+// IWYU pragma private; include "Unity\IntegerTime\RationalTime.hpp"
 #include "Unity/IntegerTime/zzzz__RationalTime_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::IntegerTime::RationalTime_TicksPerSecond::*)(uint32_t, uint32_t)>(&::Unity::IntegerTime::RationalTime_TicksPerSecond::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6a550e8;
+  constexpr static std::size_t addrs = 0x6a5cb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::IntegerTime::RationalTime_TicksPerSecond::*)(::Unity::IntegerTime::RationalTime_TicksPerSecond)>(
     &::Unity::IntegerTime::RationalTime_TicksPerSecond::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a5520c;
+  constexpr static std::size_t addrs = 0x6a5cc88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTime_TicksPerSecond>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::IntegerTime::RationalTime_TicksPerSecond::*)(::System::Object*)>(&::Unity::IntegerTime::RationalTime_TicksPerSecond::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6a55234;
+  constexpr static std::size_t addrs = 0x6a5ccb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::IntegerTime::RationalTime_TicksPerSecond::*)()>(&::Unity::IntegerTime::RationalTime_TicksPerSecond::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a552cc;
+  constexpr static std::size_t addrs = 0x6a5cd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint32_t>, ::by_ref<uint32_t>)>(&::Unity::IntegerTime::RationalTime_TicksPerSecond::Simplify)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6a55160;
+  constexpr static std::size_t addrs = 0x6a5cbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTime_TicksPerSecond>(),
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::Unity::IntegerTime::RationalTime_TicksPerSecond::Gcd)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6a55348;
+  constexpr static std::size_t addrs = 0x6a5cdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::IntegerTime::RationalTime::*)()>(&::Unity::IntegerTime::RationalTime::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a54fe0;
+  constexpr static std::size_t addrs = 0x6a5ca5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::RationalTime>(), { "get_Count", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::DiscreteTime (*)(::Unity::IntegerTime::RationalTime)>(
     &::Unity::IntegerTime::RationalTime::op_Explicit___Unity__IntegerTime__DiscreteTime)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6a54fe8;
+  constexpr static std::size_t addrs = 0x6a5ca64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

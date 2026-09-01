@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/FeatureAsyncInstaller.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\FeatureAsyncInstaller.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__FeatureAsyncInstaller_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__IInstallerRegistry_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::AppFlow::Initialization::FeatureAsyncInstaller::*)()>(
     &::BGLib::AppFlow::Initialization::FeatureAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x330608c;
+  constexpr static std::size_t addrs = 0x3309e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::FeatureAsyncInstaller*>(),
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::I
     ::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*, ::BGLib::AppFlow::Initialization::IInstallerRegistry*)>(
     &::BGLib::AppFlow::Initialization::FeatureAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x33060d0;
+  constexpr static std::size_t addrs = 0x3309ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::FeatureAsyncInstaller*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::FeatureAsyncInstaller::*)()>(
     &::BGLib::AppFlow::Initialization::FeatureAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33063f4;
+  constexpr static std::size_t addrs = 0x330a1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::FeatureAsyncInstaller*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::Initialization::FeatureAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33063f8;
+  constexpr static std::size_t addrs = 0x330a1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::FeatureAsyncInstaller*>(), { ".ctor", {}, {} })));

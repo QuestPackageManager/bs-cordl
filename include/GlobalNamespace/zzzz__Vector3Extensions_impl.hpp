@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Vector3Extensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\Vector3Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector3Extensions_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::Vector3Extensions::InverseLerp)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3322384;
+  constexpr static std::size_t addrs = 0x3326144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Extensions::RotatedAroundPivot)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x33223d4;
+  constexpr static std::size_t addrs = 0x3326194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::GlobalNamespace::Vector3Extensions::MirrorOnYZPlane)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3322434;
+  constexpr static std::size_t addrs = 0x33261f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::GlobalNamespace::Vector3Extensions::MirrorEulerAnglesOnYZPlane)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x332243c;
+  constexpr static std::size_t addrs = 0x33261fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::by_ref<::UnityEngine::Vector3>)>(&::GlobalNamespace::Vector3Extensions::Abs)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3322448;
+  constexpr static std::size_t addrs = 0x3326208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

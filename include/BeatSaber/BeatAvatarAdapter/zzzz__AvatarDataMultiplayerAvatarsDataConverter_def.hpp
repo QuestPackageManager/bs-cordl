@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/AvatarDataMultiplayerAvatarsDataConverter.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\AvatarDataMultiplayerAvatarsDataConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ namespace BeatSaber::BeatAvatarAdapter {
 class CORDL_TYPE AvatarDataMultiplayerAvatarsDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateAvatarData, addr 0x32707c8, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method CreateAvatarData, addr 0x32743dc, size 0x584, virtual false, abstract: false, final false
   static inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateAvatarData(::GlobalNamespace::MultiplayerAvatarData multiplayerAvatarsData);
 
-  /// @brief Method CreateMultiplayerAvatarsData, addr 0x327032c, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method CreateMultiplayerAvatarsData, addr 0x3273f40, size 0x49c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarsData(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
 protected:
@@ -46,7 +46,7 @@ public:
   AvatarDataMultiplayerAvatarsDataConverter(AvatarDataMultiplayerAvatarsDataConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

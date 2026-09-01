@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Messaging/HeaderHandler.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Messaging\HeaderHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__HeaderHandler_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::HeaderHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Runtime::Remoting::Messaging::HeaderHandler::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5b413b4;
+  constexpr static std::size_t addrs = 0x5b45870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::HeaderHandler*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::HeaderHandler::*)(::ArrayW<::System::Runtime::Remoting::Messaging::Header*>)>(
     &::System::Runtime::Remoting::Messaging::HeaderHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b414f8;
+  constexpr static std::size_t addrs = 0x5b459b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::HeaderHandler*>(),

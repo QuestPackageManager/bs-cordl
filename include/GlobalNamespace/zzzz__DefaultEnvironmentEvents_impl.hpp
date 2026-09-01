@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DefaultEnvironmentEvents.hpp"
+// IWYU pragma private; include "GlobalNamespace\DefaultEnvironmentEvents.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_impl.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BasicBeatmapEventType (::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::get_eventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370422c;
+  constexpr static std::size_t addrs = 0x370864c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704234;
+  constexpr static std::size_t addrs = 0x3708654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::get_floatValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370423c;
+  constexpr static std::size_t addrs = 0x370865c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3704244;
+  constexpr static std::size_t addrs = 0x3708664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent*>(), { ".ctor", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::get_useDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704248;
+  constexpr static std::size_t addrs = 0x3708668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::get_distributionParam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704250;
+  constexpr static std::size_t addrs = 0x3708670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventDataBox_DistributionParamType (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::get_distributionParamType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704258;
+  constexpr static std::size_t addrs = 0x3708678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3704260;
+  constexpr static std::size_t addrs = 0x3708680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_useFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704264;
+  constexpr static std::size_t addrs = 0x3708684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IndexFilter_IndexFilterRandomType (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_randomType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370426c;
+  constexpr static std::size_t addrs = 0x370868c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_limit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704274;
+  constexpr static std::size_t addrs = 0x3708694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_alsoAffectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370427c;
+  constexpr static std::size_t addrs = 0x370869c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_seed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704284;
+  constexpr static std::size_t addrs = 0x37086a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::get_chunks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370428c;
+  constexpr static std::size_t addrs = 0x37086ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3704294;
+  constexpr static std::size_t addrs = 0x37086b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering*>(), { ".ctor", {}, {} })));
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::LightGroupSO> (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_lightGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704298;
+  constexpr static std::size_t addrs = 0x37086b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -469,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentColorType (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_environmentColorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042a0;
+  constexpr static std::size_t addrs = 0x37086c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_brightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042a8;
+  constexpr static std::size_t addrs = 0x37086c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_brightnessDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042b0;
+  constexpr static std::size_t addrs = 0x37086d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_brightnessFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042b8;
+  constexpr static std::size_t addrs = 0x37086d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -525,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042c0;
+  constexpr static std::size_t addrs = 0x37086e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042c8;
+  constexpr static std::size_t addrs = 0x37086e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationZ)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042d0;
+  constexpr static std::size_t addrs = 0x37086f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationXDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042d8;
+  constexpr static std::size_t addrs = 0x37086f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -581,7 +581,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationYDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042e0;
+  constexpr static std::size_t addrs = 0x3708700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -595,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationZDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042e8;
+  constexpr static std::size_t addrs = 0x3708708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_rotationFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042f0;
+  constexpr static std::size_t addrs = 0x3708710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37042f8;
+  constexpr static std::size_t addrs = 0x3708718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704300;
+  constexpr static std::size_t addrs = 0x3708720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -651,7 +651,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationZ)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704308;
+  constexpr static std::size_t addrs = 0x3708728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -665,7 +665,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationXDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704310;
+  constexpr static std::size_t addrs = 0x3708730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -679,7 +679,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationYDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704318;
+  constexpr static std::size_t addrs = 0x3708738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -693,7 +693,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationZDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704320;
+  constexpr static std::size_t addrs = 0x3708740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -707,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_translationFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704328;
+  constexpr static std::size_t addrs = 0x3708748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -721,7 +721,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_floatFxValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704330;
+  constexpr static std::size_t addrs = 0x3708750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -735,7 +735,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_floatFxDistribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704338;
+  constexpr static std::size_t addrs = 0x3708758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::get_floatFxFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3704340;
+  constexpr static std::size_t addrs = 0x3708760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -762,7 +762,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3704348;
+  constexpr static std::size_t addrs = 0x3708768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent*>(), { ".ctor", {}, {} })));
@@ -1158,7 +1158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent*> (::GlobalNamespace::DefaultEnvironmentEvents::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents::get_basicBeatmapEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37041e0;
+  constexpr static std::size_t addrs = 0x3708600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DefaultEnvironmentEvents*>(), { "get_basicBeatmapEvents", {}, {} })));
@@ -1171,7 +1171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent*> (::GlobalNamespace::DefaultEnvironmentEvents::*)()>(
     &::GlobalNamespace::DefaultEnvironmentEvents::get_lightGroupEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37041e8;
+  constexpr static std::size_t addrs = 0x3708608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DefaultEnvironmentEvents*>(), { "get_lightGroupEvents", {}, {} })));
@@ -1183,7 +1183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DefaultEnvironmentEvents::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents::get_isEmpty)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x37041f0;
+  constexpr static std::size_t addrs = 0x3708610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DefaultEnvironmentEvents*>(), { "get_isEmpty", {}, {} })));
@@ -1195,7 +1195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DefaultEnvironmentEvents::*)()>(&::GlobalNamespace::DefaultEnvironmentEvents::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3704228;
+  constexpr static std::size_t addrs = 0x3708648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DefaultEnvironmentEvents*>(), { ".ctor", {}, {} })));

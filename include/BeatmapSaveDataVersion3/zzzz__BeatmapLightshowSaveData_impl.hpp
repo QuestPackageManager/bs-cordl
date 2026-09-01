@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/BeatmapLightshowSaveData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\BeatmapLightshowSaveData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapLightshowSaveData_def.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BasicEventData_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapSaveDataVersion3::BeatmapLightshowSaveData::*)()>(&::BeatmapSaveDataVersion3::BeatmapLightshowSaveData::get_isEmpty)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3758a3c;
+  constexpr static std::size_t addrs = 0x375e6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*>(), { "get_isEmpty", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::BeatmapLightshowSaveData::*)()>(&::BeatmapSaveDataVersion3::BeatmapLightshowSaveData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3758b54;
+  constexpr static std::size_t addrs = 0x375e7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*>(), { ".ctor", {}, {} })));

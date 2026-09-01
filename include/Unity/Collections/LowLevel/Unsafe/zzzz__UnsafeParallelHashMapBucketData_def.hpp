@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapBucketData.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapBucketData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 struct CORDL_TYPE UnsafeParallelHashMapBucketData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x64c71e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64cec60, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint8_t* v, uint8_t* k, uint8_t* n, uint8_t* b, int32_t bcm);
 
   // Ctor Parameters []
@@ -33,7 +33,7 @@ public:
   constexpr UnsafeParallelHashMapBucketData(uint8_t* values, uint8_t* keys, uint8_t* next, uint8_t* buckets, int32_t bucketCapacityMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15788 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

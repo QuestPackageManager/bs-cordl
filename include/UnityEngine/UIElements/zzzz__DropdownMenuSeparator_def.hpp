@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DropdownMenuSeparator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DropdownMenuSeparator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__subMenuPath_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d8c2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d93e50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW subMenuPath);
 
-  /// @brief Method get_subMenuPath, addr 0x6d8c2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subMenuPath, addr 0x6d93e48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subMenuPath();
 
 protected:

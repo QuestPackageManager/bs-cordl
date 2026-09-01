@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AYellowpaper/SerializedCollections/SerializedCollectionsUtility.hpp"
+// IWYU pragma private; include "AYellowpaper\SerializedCollections\SerializedCollectionsUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace AYellowpaper::SerializedCollections {
 class CORDL_TYPE SerializedCollectionsUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValidKey, addr 0x3254400, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method IsValidKey, addr 0x3257700, size 0x114, virtual false, abstract: false, final false
   static inline bool IsValidKey(::System::Object* obj);
 
   /// @brief Method KeysAreEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -43,7 +43,7 @@ public:
   SerializedCollectionsUtility(SerializedCollectionsUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23374 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

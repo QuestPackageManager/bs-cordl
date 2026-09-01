@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/AudioMixerProperties.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\AudioMixerProperties.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AudioMixerProperties_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AudioMixerProperties::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::AudioMixerProperties::PrepareFrame)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x69b79c8;
+  constexpr static std::size_t addrs = 0x69bf444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AudioMixerProperties::*)()>(&::UnityEngine::Timeline::AudioMixerProperties::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69b7c94;
+  constexpr static std::size_t addrs = 0x69bf710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AudioMixerProperties*>(), { ".ctor", {}, {} })));

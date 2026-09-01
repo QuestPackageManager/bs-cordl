@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/GUILayoutEntry.hpp"
+// IWYU pragma private; include "UnityEngine\GUILayoutEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,16 +77,16 @@ public:
 
   __declspec(property(get = get_style, put = set_style)) ::UnityEngine::GUIStyle* style;
 
-  /// @brief Method ApplyOptions, addr 0x6b471e0, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ApplyOptions, addr 0x6b4ed64, size 0x278, virtual true, abstract: false, final false
   inline void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
-  /// @brief Method ApplyStyleSettings, addr 0x6b47164, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ApplyStyleSettings, addr 0x6b4ece8, size 0x7c, virtual true, abstract: false, final false
   inline void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
 
-  /// @brief Method CalcHeight, addr 0x6b47148, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x6b4eccc, size 0x4, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x6b47144, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x6b4ecc8, size 0x4, virtual true, abstract: false, final false
   inline void CalcWidth();
 
   static inline ::UnityEngine::GUILayoutEntry* New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style);
@@ -94,13 +94,13 @@ public:
   static inline ::UnityEngine::GUILayoutEntry* New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style,
                                                         ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
-  /// @brief Method SetHorizontal, addr 0x6b4714c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetHorizontal, addr 0x6b4ecd0, size 0xc, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method SetVertical, addr 0x6b47158, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetVertical, addr 0x6b4ecdc, size 0xc, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
-  /// @brief Method ToString, addr 0x6b47458, size 0x49c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b4efdc, size 0x49c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_consideredForMargin() const;
@@ -157,42 +157,42 @@ public:
 
   constexpr void __cordl_internal_set_stretchWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6b47078, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b4ebfc, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style);
 
-  /// @brief Method .ctor, addr 0x6b3f948, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b474cc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style, ::ArrayW<::UnityEngine::GUILayoutOption*> options);
 
   static inline int32_t getStaticF_indent();
 
   static inline ::UnityEngine::Rect getStaticF_kDummyRect();
 
-  /// @brief Method get_marginBottom, addr 0x6b46fdc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_marginBottom, addr 0x6b4eb60, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_marginBottom();
 
-  /// @brief Method get_marginHorizontal, addr 0x6b47000, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_marginHorizontal, addr 0x6b4eb84, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_marginHorizontal();
 
-  /// @brief Method get_marginLeft, addr 0x6b46f70, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_marginLeft, addr 0x6b4eaf4, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_marginLeft();
 
-  /// @brief Method get_marginRight, addr 0x6b46f94, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_marginRight, addr 0x6b4eb18, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_marginRight();
 
-  /// @brief Method get_marginTop, addr 0x6b46fb8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_marginTop, addr 0x6b4eb3c, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_marginTop();
 
-  /// @brief Method get_marginVertical, addr 0x6b4703c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_marginVertical, addr 0x6b4ebc0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_marginVertical();
 
-  /// @brief Method get_style, addr 0x6b46f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_style, addr 0x6b4eaec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_style();
 
   static inline void setStaticF_indent(int32_t value);
 
   static inline void setStaticF_kDummyRect(::UnityEngine::Rect value);
 
-  /// @brief Method set_style, addr 0x6b3e81c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_style, addr 0x6b463a0, size 0x10, virtual false, abstract: false, final false
   inline void set_style(::UnityEngine::GUIStyle* value);
 
 protected:
@@ -210,7 +210,7 @@ public:
   GUILayoutEntry(GUILayoutEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19896 };
 
   /// @brief Field minWidth, offset: 0x10, size: 0x4, def value: None
   float_t ___minWidth;

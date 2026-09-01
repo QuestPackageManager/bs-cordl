@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/HandleConstraint2D.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\HandleConstraint2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,24 +36,24 @@ public:
   /// @brief Field y, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) int32_t y;
 
-  /// @brief Method Equals, addr 0x66b7038, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x66beab4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x66b7024, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x66beaa0, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Inverse, addr 0x66b6f00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x66be97c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::HandleConstraint2D* Inverse();
 
-  /// @brief Method InverseMask, addr 0x66b6f80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InverseMask, addr 0x66be9fc, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 InverseMask(::UnityEngine::Vector2 v);
 
-  /// @brief Method Mask, addr 0x66b6f68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Mask, addr 0x66be9e4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 Mask(::UnityEngine::Vector2 v);
 
   static inline ::UnityEngine::ProBuilder::HandleConstraint2D* New_ctor(int32_t x, int32_t y);
 
-  /// @brief Method ToString, addr 0x66b70c4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x66beb40, size 0x118, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_x() const;
@@ -68,15 +68,15 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x66b6ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66be974, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y);
 
   static inline ::UnityEngine::ProBuilder::HandleConstraint2D* getStaticF_None();
 
-  /// @brief Method op_Equality, addr 0x66b6fa4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x66bea20, size 0x40, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D* b);
 
-  /// @brief Method op_Inequality, addr 0x66b6fe4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x66bea60, size 0x40, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D* b);
 
   static inline void setStaticF_None(::UnityEngine::ProBuilder::HandleConstraint2D* value);
@@ -96,7 +96,7 @@ public:
   HandleConstraint2D(HandleConstraint2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16737 };
 
   /// @brief Field x, offset: 0x10, size: 0x4, def value: None
   int32_t ___x;

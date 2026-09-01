@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataTableNewRowEventHandler.hpp"
+// IWYU pragma private; include "System\Data\DataTableNewRowEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Data/zzzz__DataTableNewRowEventHandler_def.hpp"
 #include "System/Data/zzzz__DataTableNewRowEventArgs_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableNewRowEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Data::DataTableNewRowEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x60295d8;
+  constexpr static std::size_t addrs = 0x6031054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataTableNewRowEventHandler*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataTableNewRowEventHandler::*)(::System::Object*, ::System::Data::DataTableNewRowEventArgs*)>(
     &::System::Data::DataTableNewRowEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6029720;
+  constexpr static std::size_t addrs = 0x603119c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

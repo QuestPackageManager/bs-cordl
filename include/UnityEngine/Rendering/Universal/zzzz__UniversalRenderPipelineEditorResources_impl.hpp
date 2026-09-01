@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineEditorResources.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineEditorResources.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UniversalRenderPipelineEditorResources_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_ShaderResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x686ccdc;
+  constexpr static std::size_t addrs = 0x6874758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_MaterialResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources_MaterialResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x686cce0;
+  constexpr static std::size_t addrs = 0x687475c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineEditorResources::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686ccd4;
+  constexpr static std::size_t addrs = 0x6874750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

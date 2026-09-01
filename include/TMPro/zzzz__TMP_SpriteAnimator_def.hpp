@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_SpriteAnimator.hpp"
+// IWYU pragma private; include "TMPro\TMP_SpriteAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,21 +114,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6998114, size 0x72c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x699fb90, size 0x72c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6998864, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x69a02e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x699886c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69a02e8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69988a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69a0320, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6998110, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x699fb8c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set_start(int32_t value);
 
-  /// @brief Method .ctor, addr 0x699807c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x699faf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -254,7 +254,7 @@ public:
   TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7(TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15978 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -357,24 +357,24 @@ public:
   /// @brief Field m_animations, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_animations, put = __cordl_internal_set_m_animations)) ::System::Collections::Generic::Dictionary_2<int32_t, bool>* m_animations;
 
-  /// @brief Method Awake, addr 0x6997e24, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x699f8a0, size 0x54, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DoSpriteAnimation, addr 0x6997ee0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method DoSpriteAnimation, addr 0x699f95c, size 0x110, virtual false, abstract: false, final false
   inline void DoSpriteAnimation(int32_t currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int32_t start, int32_t end, int32_t framerate);
 
-  /// @brief Method DoSpriteAnimationInternal, addr 0x6997ff0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DoSpriteAnimationInternal, addr 0x699fa6c, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DoSpriteAnimationInternal(int32_t currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int32_t start, int32_t end, int32_t framerate);
 
   static inline ::TMPro::TMP_SpriteAnimator* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6997e7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x699f8f8, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6997e78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x699f8f4, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method StopAllAnimations, addr 0x6997e80, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method StopAllAnimations, addr 0x699f8fc, size 0x60, virtual false, abstract: false, final false
   inline void StopAllAnimations();
 
   constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get_m_TextComponent() const;
@@ -389,7 +389,7 @@ public:
 
   constexpr void __cordl_internal_set_m_animations(::System::Collections::Generic::Dictionary_2<int32_t, bool>* value);
 
-  /// @brief Method .ctor, addr 0x6998084, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x699fb00, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -407,7 +407,7 @@ public:
   TMP_SpriteAnimator(TMP_SpriteAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15979 };
 
   /// @brief Field m_animations, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, bool>* ___m_animations;

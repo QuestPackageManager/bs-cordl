@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "VRUIControls/VRPointer.hpp"
+// IWYU pragma private; include "VRUIControls\VRPointer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "VRUIControls/zzzz__VRPointer_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>*)>(
     &::VRUIControls::VRPointer::add_lastUsedControllerChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e34a08;
+  constexpr static std::size_t addrs = 0x6e3c58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)(::System::Action_1<::UnityW<::GlobalNamespace::VRController>>*)>(
     &::VRUIControls::VRPointer::remove_lastUsedControllerChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e34ac8;
+  constexpr static std::size_t addrs = 0x6e3c64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::get_pointingOver)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e34b88;
+  constexpr static std::size_t addrs = 0x6e3c70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "get_pointingOver", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::get_flatCanvasWorldPosition)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6e34ba0;
+  constexpr static std::size_t addrs = 0x6e3c724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "get_flatCanvasWorldPosition", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::get_cursorTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e34c08;
+  constexpr static std::size_t addrs = 0x6e3c78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "get_cursorTransform", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::get_state)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x6e34c10;
+  constexpr static std::size_t addrs = 0x6e3c794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "get_state", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::VRController> (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::get_lastSelectedVrController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e34fd0;
+  constexpr static std::size_t addrs = 0x6e3cb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "get_lastSelectedVrController", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::get_cursorPosition)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e34fd8;
+  constexpr static std::size_t addrs = 0x6e3cb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "get_cursorPosition", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::Awake)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6e350cc;
+  constexpr static std::size_t addrs = 0x6e3cc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "Awake", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::OnEnable)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e35438;
+  constexpr static std::size_t addrs = 0x6e3cfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "OnEnable", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::OnDisable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e354b4;
+  constexpr static std::size_t addrs = 0x6e3d038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "OnDisable", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::LateUpdate)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6e354e4;
+  constexpr static std::size_t addrs = 0x6e3d068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "LateUpdate", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::IsLeftControllerDown)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e355f4;
+  constexpr static std::size_t addrs = 0x6e3d178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "IsLeftControllerDown", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::IsRightControllerDown)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e35648;
+  constexpr static std::size_t addrs = 0x6e3d1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "IsRightControllerDown", {}, {} })));
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::SelectRightController)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6e353bc;
+  constexpr static std::size_t addrs = 0x6e3cf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "SelectRightController", {}, {} })));
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::SelectLeftController)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e353fc;
+  constexpr static std::size_t addrs = 0x6e3cf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "SelectLeftController", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::ShowLastSelectedPointer)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e35448;
+  constexpr static std::size_t addrs = 0x6e3cfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "ShowLastSelectedPointer", {}, {} })));
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::CreateLaserPointers)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6e35174;
+  constexpr static std::size_t addrs = 0x6e3ccf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "CreateLaserPointers", {}, {} })));
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)(::VRUIControls::VRLaserPointer*)>(&::VRUIControls::VRPointer::SetupLaserPointer)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6e356fc;
+  constexpr static std::size_t addrs = 0x6e3d280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::CreateCursors)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6e35280;
+  constexpr static std::size_t addrs = 0x6e3ce04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "CreateCursors", {}, {} })));
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::VRUIControls::VRPointer::RefreshLaserPointerAndLaserHit)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6e35770;
+  constexpr static std::size_t addrs = 0x6e3d2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)(bool)>(&::VRUIControls::VRPointer::OnApplicationFocus)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e359a8;
+  constexpr static std::size_t addrs = 0x6e3d52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "OnApplicationFocus", {}, { ::i2c::type_of<bool>() } })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::HideLaserPointersAndCursors)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e354cc;
+  constexpr static std::size_t addrs = 0x6e3d050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "HideLaserPointersAndCursors", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::HideLaserPointers)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e359b4;
+  constexpr static std::size_t addrs = 0x6e3d538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "HideLaserPointers", {}, {} })));
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::HideCursors)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e3569c;
+  constexpr static std::size_t addrs = 0x6e3d220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { "HideCursors", {}, {} })));
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::VRUIControls::VRPointer::Process)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e35a14;
+  constexpr static std::size_t addrs = 0x6e3d598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRPointer::*)()>(&::VRUIControls::VRPointer::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e35ac0;
+  constexpr static std::size_t addrs = 0x6e3d644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRPointer*>(), { ".ctor", {}, {} })));

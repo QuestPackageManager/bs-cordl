@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Specialized/BitVector32.hpp"
+// IWYU pragma private; include "System\Collections\Specialized\BitVector32.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,28 +26,28 @@ public:
   // Declarations
   __declspec(property(get = get_Item, put = set_Item)) bool Item[];
 
-  /// @brief Method CreateMask, addr 0x63e52c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateMask, addr 0x63ecd3c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t CreateMask();
 
-  /// @brief Method CreateMask, addr 0x63e52c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateMask, addr 0x63ecd44, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CreateMask(int32_t previous);
 
-  /// @brief Method Equals, addr 0x63e5334, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x63ecdb0, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x63e53b0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x63ece2c, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x63e54e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63ecf64, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x63e5414, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x63ece90, size 0xd4, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Collections::Specialized::BitVector32 value);
 
-  /// @brief Method get_Item, addr 0x63e5294, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x63ecd10, size 0x10, virtual false, abstract: false, final false
   inline bool get_Item(int32_t bit);
 
-  /// @brief Method set_Item, addr 0x63e52a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x63ecd20, size 0x1c, virtual false, abstract: false, final false
   inline void set_Item(int32_t bit, bool value);
 
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
   constexpr BitVector32(uint32_t _data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11363 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

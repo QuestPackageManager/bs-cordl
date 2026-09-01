@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Slider.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Slider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,24 +83,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IInitializePotentialDragHandler*() noexcept;
 
-  /// @brief Method MayDrag, addr 0x5a59b8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method MayDrag, addr 0x5a5e048, size 0x2c, virtual false, abstract: false, final false
   inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Slider* New_ctor();
 
-  /// @brief Method OnDrag, addr 0x5a59a58, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method OnDrag, addr 0x5a5df14, size 0x134, virtual true, abstract: false, final true
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x5a59bb8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method OnInitializePotentialDrag, addr 0x5a5e074, size 0x14, virtual true, abstract: false, final true
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method Setup, addr 0x5a59674, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a5db30, size 0x338, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method Update, addr 0x5a59a54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a5df10, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePillPosition, addr 0x5a599ac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdatePillPosition, addr 0x5a5de68, size 0xa8, virtual false, abstract: false, final false
   inline void UpdatePillPosition();
 
   constexpr ::Meta::XR::ImmersiveDebugger::Manager::Tweak* const& __cordl_internal_get__Tweak_k__BackingField() const;
@@ -139,10 +139,10 @@ public:
 
   constexpr void __cordl_internal_set__pill(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon> value);
 
-  /// @brief Method .ctor, addr 0x5a59bcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5e088, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Tweak, addr 0x5a59524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tweak, addr 0x5a5d9e0, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Tweak* get_Tweak();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
@@ -154,13 +154,13 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IInitializePotentialDragHandler"
   constexpr ::UnityEngine::EventSystems::IInitializePotentialDragHandler* i___UnityEngine__EventSystems__IInitializePotentialDragHandler() noexcept;
 
-  /// @brief Method set_EmptyBackgroundStyle, addr 0x5a59534, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_EmptyBackgroundStyle, addr 0x5a5d9f0, size 0xa0, virtual false, abstract: false, final false
   inline void set_EmptyBackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
-  /// @brief Method set_FillBackgroundStyle, addr 0x5a595d4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_FillBackgroundStyle, addr 0x5a5da90, size 0xa0, virtual false, abstract: false, final false
   inline void set_FillBackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
-  /// @brief Method set_Tweak, addr 0x5a5952c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Tweak, addr 0x5a5d9e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Tweak(::Meta::XR::ImmersiveDebugger::Manager::Tweak* value);
 
 protected:
@@ -178,7 +178,7 @@ public:
   Slider(Slider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18406 };
 
   /// @brief Field _emptyBackground, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> ____emptyBackground;

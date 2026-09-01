@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLException.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5f1a6a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1eb5c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f1a6f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1ebb4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5f1a764, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1ec20, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -53,7 +53,7 @@ public:
   GraphQLException(GraphQLException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

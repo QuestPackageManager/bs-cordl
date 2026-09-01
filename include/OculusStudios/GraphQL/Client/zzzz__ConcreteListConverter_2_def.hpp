@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/ConcreteListConverter_2.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\ConcreteListConverter_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,7 +85,7 @@ public:
   ConcreteListConverter_2___c(ConcreteListConverter_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20392 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,7 +131,7 @@ public:
   ConcreteListConverter_2(ConcreteListConverter_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

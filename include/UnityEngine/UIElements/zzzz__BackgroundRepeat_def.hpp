@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BackgroundRepeat.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BackgroundRepeat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,31 +62,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>*();
 
-  /// @brief Method Equals, addr 0x6c2803c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c2fbc0, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c280c8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c2fc4c, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::BackgroundRepeat other);
 
-  /// @brief Method GetHashCode, addr 0x6c280f0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c2fc74, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x6c28034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x6c2fbb8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundRepeat Initial();
 
-  /// @brief Method ToString, addr 0x6c2811c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c2fca0, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c27d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2f8b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Repeat repeatX, ::UnityEngine::UIElements::Repeat repeatY);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>* i___System__IEquatable_1___UnityEngine__UIElements__BackgroundRepeat_();
 
-  /// @brief Method op_Equality, addr 0x6c27fbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c2fb40, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::BackgroundRepeat style1, ::UnityEngine::UIElements::BackgroundRepeat style2);
 
-  /// @brief Method op_Inequality, addr 0x6c28110, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6c2fc94, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::BackgroundRepeat style1, ::UnityEngine::UIElements::BackgroundRepeat style2);
 
   // Ctor Parameters []
@@ -136,12 +136,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c283b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c2ff3c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Repeat GetValue(::by_ref<::UnityEngine::UIElements::BackgroundRepeat> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_BackgroundRepeat_XProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c283c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c2ff44, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::BackgroundRepeat> container, ::UnityEngine::UIElements::Repeat value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -156,13 +156,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c282e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2fe64, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c283b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c2ff34, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c283a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c2ff2c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -215,12 +215,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c283d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c2ff5c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Repeat GetValue(::by_ref<::UnityEngine::UIElements::BackgroundRepeat> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_BackgroundRepeat_YProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c283e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c2ff64, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::BackgroundRepeat> container, ::UnityEngine::UIElements::Repeat value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -235,13 +235,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c28344, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2fec8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c283d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c2ff54, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c283c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c2ff4c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -290,7 +290,7 @@ public:
 
   static inline ::UnityEngine::UIElements::BackgroundRepeat_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c281e4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2fd68, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

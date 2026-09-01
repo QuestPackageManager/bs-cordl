@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Scope1.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Scope1.hpp"
 #include "System/Linq/Expressions/zzzz__ScopeExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__Scope1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Scope1::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Scope1::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f71f20;
+  constexpr static std::size_t addrs = 0x5f7999c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Scope1::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*, ::System::Object*)>(&::System::Linq::Expressions::Scope1::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f71f48;
+  constexpr static std::size_t addrs = 0x5f799c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::Scope1::*)(int32_t)>(
     &::System::Linq::Expressions::Scope1::GetExpression)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f71f70;
+  constexpr static std::size_t addrs = 0x5f799ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Scope1::*)()>(&::System::Linq::Expressions::Scope1::get_ExpressionCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f71ff8;
+  constexpr static std::size_t addrs = 0x5f79a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* (::System::Linq::Expressions::Scope1::*)()>(
     &::System::Linq::Expressions::Scope1::GetOrMakeExpressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f72000;
+  constexpr static std::size_t addrs = 0x5f79a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
     ::System::Linq::Expressions::Scope1::*)(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*,
                                             ::ArrayW<::System::Linq::Expressions::Expression*>)>(&::System::Linq::Expressions::Scope1::Rewrite)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5f72008;
+  constexpr static std::size_t addrs = 0x5f79a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

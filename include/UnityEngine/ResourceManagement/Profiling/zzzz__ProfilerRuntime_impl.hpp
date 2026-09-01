@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/ProfilerRuntime.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\ProfilerRuntime.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCounterValue_1_impl.hpp"
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::Initialise)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x6904494;
+  constexpr static std::size_t addrs = 0x690bf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::InstanceOnOnLateUpdateDelegate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x691cc70;
+  constexpr static std::size_t addrs = 0x69246ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Hash128)>(&::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::AddCatalog)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x691d0b0;
+  constexpr static std::size_t addrs = 0x6924b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::UnityEngine::ResourceManagement::Profiling::ContentStatus, ::UnityEngine::ResourceManagement::Util::BundleSource)>(
         &::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::AddBundleOperation)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x6912420;
+  constexpr static std::size_t addrs = 0x6919e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime*>(),
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::BundleReleased)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x691213c;
+  constexpr static std::size_t addrs = 0x6919bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, ::UnityEngine::ResourceManagement::Profiling::ContentStatus)>(
     &::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::AddAssetOperation)> {
   constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x69172bc;
+  constexpr static std::size_t addrs = 0x691ed38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime*>(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
     &::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::GetContainingBundleNameForLocation)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x691d190;
+  constexpr static std::size_t addrs = 0x6924c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::ResourceManagement::Profiling::ContentStatus)>(
         &::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::AddSceneOperation)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x691a3dc;
+  constexpr static std::size_t addrs = 0x6921e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(
         &::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::SceneReleased)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x691ae30;
+  constexpr static std::size_t addrs = 0x69228ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::GetSceneLoadCounterValue)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x691d50c;
+  constexpr static std::size_t addrs = 0x6924f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::PushToProfilerStream)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x691ccc0;
+  constexpr static std::size_t addrs = 0x692473c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::RefreshChangedReferenceCounts)> {
   constexpr static std::size_t size = 0xa48;
-  constexpr static std::size_t addrs = 0x691d574;
+  constexpr static std::size_t addrs = 0x6924ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, int32_t, float_t, ::by_ref<::System::ValueTuple_2<int32_t, float_t>>)>(
         &::UnityEngine::ResourceManagement::Profiling::ProfilerRuntime::ShouldUpdateFrameDataWithOperationData)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x691dfbc;
+  constexpr static std::size_t addrs = 0x6925a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

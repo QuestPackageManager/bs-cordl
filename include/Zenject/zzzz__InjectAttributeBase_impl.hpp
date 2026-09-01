@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/InjectAttributeBase.hpp"
+// IWYU pragma private; include "Zenject\InjectAttributeBase.hpp"
 #include "Zenject/Internal/zzzz__PreserveAttribute_impl.hpp"
 #include "Zenject/zzzz__InjectSources_impl.hpp"
 #include "Zenject/zzzz__InjectAttributeBase_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::InjectAttributeBase::*)()>(&::Zenject::InjectAttributeBase::get_Optional)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e35bbc;
+  constexpr static std::size_t addrs = 0x6e3d740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectAttributeBase*>(), { "get_Optional", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectAttributeBase::*)(bool)>(&::Zenject::InjectAttributeBase::set_Optional)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e35bc4;
+  constexpr static std::size_t addrs = 0x6e3d748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectAttributeBase*>(), { "set_Optional", {}, { ::i2c::type_of<bool>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::InjectAttributeBase::*)()>(&::Zenject::InjectAttributeBase::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e35bcc;
+  constexpr static std::size_t addrs = 0x6e3d750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectAttributeBase*>(), { "get_Id", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectAttributeBase::*)(::System::Object*)>(&::Zenject::InjectAttributeBase::set_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e35bd4;
+  constexpr static std::size_t addrs = 0x6e3d758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectSources (::Zenject::InjectAttributeBase::*)()>(&::Zenject::InjectAttributeBase::get_Source)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e35bdc;
+  constexpr static std::size_t addrs = 0x6e3d760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectAttributeBase*>(), { "get_Source", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectAttributeBase::*)(::Zenject::InjectSources)>(&::Zenject::InjectAttributeBase::set_Source)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e35be4;
+  constexpr static std::size_t addrs = 0x6e3d768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectAttributeBase::*)()>(&::Zenject::InjectAttributeBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e35bec;
+  constexpr static std::size_t addrs = 0x6e3d770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectAttributeBase*>(), { ".ctor", {}, {} })));

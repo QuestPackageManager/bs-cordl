@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/PropertyAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\PropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6ad05e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad7ff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6ad05e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad8000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool applyToCollection);
 
-  /// @brief Method set_order, addr 0x6ad05d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_order, addr 0x6ad7ff0, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
 protected:
@@ -68,7 +68,7 @@ public:
   PropertyAttribute(PropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10276 };
 
   /// @brief Field <order>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____order_k__BackingField;

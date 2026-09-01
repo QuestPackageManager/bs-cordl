@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/GroupBox.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\GroupBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::GroupBox_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d3e9f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d46574, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   /// @brief Field m_Text, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x6d3ea58, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d465dc, size 0x11c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::GroupBox_UxmlTraits* New_ctor();
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d3eb74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d466f8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,10 +171,10 @@ public:
 
   static inline ::UnityEngine::UIElements::GroupBox* New_ctor(::StringW text);
 
-  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionAdded, addr 0x6d3e890, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionAdded, addr 0x6d46414, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBox_OnOptionAdded(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionRemoved, addr 0x6d3e894, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionRemoved, addr 0x6d46418, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBox_OnOptionRemoved(::UnityEngine::UIElements::IGroupBoxOption* option);
 
   constexpr ::UnityEngine::UIElements::Label* const& __cordl_internal_get_m_TitleLabel() const;
@@ -183,10 +183,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TitleLabel(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x6d3e7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d46380, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d3e804, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d46388, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::StringW getStaticF_labelUssClassName();
@@ -195,7 +195,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_text, addr 0x6d3e584, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x6d46108, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
@@ -207,7 +207,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_text, addr 0x6d3e5a0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x6d46124, size 0x19c, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

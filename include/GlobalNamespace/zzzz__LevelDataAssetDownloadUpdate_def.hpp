@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LevelDataAssetDownloadUpdate.hpp"
+// IWYU pragma private; include "GlobalNamespace\LevelDataAssetDownloadUpdate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   static ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState const PreparingToDownload;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15032 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -90,7 +90,7 @@ public:
   // Declarations
   using AssetDownloadingState = ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState;
 
-  /// @brief Method .ctor, addr 0x3729a84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372f6e8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, uint32_t bytesTotal, uint32_t bytesTransferred, ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState assetDownloadingState);
 
   // Ctor Parameters []
@@ -104,7 +104,7 @@ public:
                                          ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState assetDownloadingState) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15033 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

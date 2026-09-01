@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BackgroundPropertyHelper.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BackgroundPropertyHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPropertyHelper_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPosition_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundPosition (*)(::UnityEngine::ScaleMode)>(
     &::UnityEngine::UIElements::BackgroundPropertyHelper::ConvertScaleModeToBackgroundPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c2784c;
+  constexpr static std::size_t addrs = 0x6c2f3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BackgroundPropertyHelper*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundRepeat (*)(::UnityEngine::ScaleMode)>(
     &::UnityEngine::UIElements::BackgroundPropertyHelper::ConvertScaleModeToBackgroundRepeat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c27d28;
+  constexpr static std::size_t addrs = 0x6c2f8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BackgroundPropertyHelper*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundSize (*)(::UnityEngine::ScaleMode)>(
     &::UnityEngine::UIElements::BackgroundPropertyHelper::ConvertScaleModeToBackgroundSize)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6c27d38;
+  constexpr static std::size_t addrs = 0x6c2f8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BackgroundPropertyHelper*>(),
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ScaleMode 
                                                                                     ::UnityEngine::UIElements::BackgroundRepeat, ::UnityEngine::UIElements::BackgroundSize, ::by_ref<bool>)>(
     &::UnityEngine::UIElements::BackgroundPropertyHelper::ResolveUnityBackgroundScaleMode)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x6c27d8c;
+  constexpr static std::size_t addrs = 0x6c2f910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

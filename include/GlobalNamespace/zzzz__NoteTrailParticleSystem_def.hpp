@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteTrailParticleSystem.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteTrailParticleSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
   /// @brief Field _particleSystem, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  /// @brief Method Awake, addr 0x5982958, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59862ec, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Emit, addr 0x5982968, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x59862fc, size 0x104, virtual false, abstract: false, final false
   inline void Emit(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, int32_t count);
 
   static inline ::GlobalNamespace::NoteTrailParticleSystem* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  /// @brief Method .ctor, addr 0x5982a6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5986400, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

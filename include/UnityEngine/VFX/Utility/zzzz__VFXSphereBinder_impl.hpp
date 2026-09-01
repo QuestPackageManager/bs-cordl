@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXSphereBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXSphereBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXSpaceableBinder_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXSphereBinder_def.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__ExposedProperty_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXSphereBinder::*)()>(&::UnityEngine::VFX::Utility::VFXSphereBinder::get_Property)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69dfc14;
+  constexpr static std::size_t addrs = 0x69e7690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXSphereBinder*>(), { "get_Property", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXSphereBinder::*)(::StringW)>(&::UnityEngine::VFX::Utility::VFXSphereBinder::set_Property)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69dfc2c;
+  constexpr static std::size_t addrs = 0x69e76a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXSphereBinder::*)()>(&::UnityEngine::VFX::Utility::VFXSphereBinder::OnEnable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69dfd3c;
+  constexpr static std::size_t addrs = 0x69e77b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXSphereBinder::*)()>(&::UnityEngine::VFX::Utility::VFXSphereBinder::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69dfd54;
+  constexpr static std::size_t addrs = 0x69e77d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXSphereBinder*>(), { "OnValidate", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXSphereBinder::*)()>(&::UnityEngine::VFX::Utility::VFXSphereBinder::UpdateSubProperties)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x69dfc54;
+  constexpr static std::size_t addrs = 0x69e76d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXSphereBinder*>(), { "UpdateSubProperties", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXSphereBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXSphereBinder::IsValid)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x69dfd58;
+  constexpr static std::size_t addrs = 0x69e77d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXSphereBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXSphereBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x69dfe44;
+  constexpr static std::size_t addrs = 0x69e78c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::VFX::Utility::VFXSphereBinder::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::VFX::Utility::VFXSphereBinder::GetSphereColliderScale)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69dff8c;
+  constexpr static std::size_t addrs = 0x69e7a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXSphereBinder::*)()>(&::UnityEngine::VFX::Utility::VFXSphereBinder::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69dffa0;
+  constexpr static std::size_t addrs = 0x69e7a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXSphereBinder::*)()>(&::UnityEngine::VFX::Utility::VFXSphereBinder::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69e009c;
+  constexpr static std::size_t addrs = 0x69e7b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXSphereBinder*>(), { ".ctor", {}, {} })));

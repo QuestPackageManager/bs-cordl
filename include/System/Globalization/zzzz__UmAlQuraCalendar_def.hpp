@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/UmAlQuraCalendar.hpp"
+// IWYU pragma private; include "System\Globalization\UmAlQuraCalendar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ namespace System::Globalization {
 struct CORDL_TYPE UmAlQuraCalendar_DateMapping {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5bcd2c8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd1784, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t MonthsLengthFlags, int32_t GYear, int32_t GMonth, int32_t GDay);
 
   // Ctor Parameters []
@@ -100,72 +100,72 @@ public:
   /// @brief Field minDate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_minDate, put = setStaticF_minDate)) ::System::DateTime minDate;
 
-  /// @brief Method CheckEraRange, addr 0x5bcc024, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckEraRange, addr 0x5bd04e0, size 0x70, virtual false, abstract: false, final false
   static inline void CheckEraRange(int32_t era);
 
-  /// @brief Method CheckTicksRange, addr 0x5bcbe44, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CheckTicksRange, addr 0x5bd0300, size 0x1e0, virtual false, abstract: false, final false
   static inline void CheckTicksRange(int64_t ticks);
 
-  /// @brief Method CheckYearMonthRange, addr 0x5bcc1cc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CheckYearMonthRange, addr 0x5bd0688, size 0xd8, virtual false, abstract: false, final false
   static inline void CheckYearMonthRange(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method CheckYearRange, addr 0x5bcc094, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CheckYearRange, addr 0x5bd0550, size 0x138, virtual false, abstract: false, final false
   static inline void CheckYearRange(int32_t year, int32_t era);
 
-  /// @brief Method ConvertGregorianToHijri, addr 0x5bcc2a4, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method ConvertGregorianToHijri, addr 0x5bd0760, size 0x2f0, virtual false, abstract: false, final false
   static inline void ConvertGregorianToHijri(::System::DateTime time, ::by_ref<int32_t> HijriYear, ::by_ref<int32_t> HijriMonth, ::by_ref<int32_t> HijriDay);
 
-  /// @brief Method ConvertHijriToGregorian, addr 0x5bcbc20, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ConvertHijriToGregorian, addr 0x5bd00dc, size 0x158, virtual false, abstract: false, final false
   static inline void ConvertHijriToGregorian(int32_t HijriYear, int32_t HijriMonth, int32_t HijriDay, ::by_ref<int32_t> yg, ::by_ref<int32_t> mg, ::by_ref<int32_t> dg);
 
-  /// @brief Method GetAbsoluteDateUmAlQura, addr 0x5bcbd78, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetAbsoluteDateUmAlQura, addr 0x5bd0234, size 0xcc, virtual false, abstract: false, final false
   static inline int64_t GetAbsoluteDateUmAlQura(int32_t year, int32_t month, int32_t day);
 
-  /// @brief Method GetDatePart, addr 0x5bcc594, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method GetDatePart, addr 0x5bd0a50, size 0x188, virtual true, abstract: false, final false
   inline int32_t GetDatePart(::System::DateTime time, int32_t part);
 
-  /// @brief Method GetDayOfMonth, addr 0x5bcc71c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfMonth, addr 0x5bd0bd8, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetDayOfMonth(::System::DateTime time);
 
-  /// @brief Method GetDayOfWeek, addr 0x5bcc730, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfWeek, addr 0x5bd0bec, size 0xac, virtual true, abstract: false, final false
   inline ::System::DayOfWeek GetDayOfWeek(::System::DateTime time);
 
-  /// @brief Method GetDaysInMonth, addr 0x5bcc7dc, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInMonth, addr 0x5bd0c98, size 0xb8, virtual true, abstract: false, final false
   inline int32_t GetDaysInMonth(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method GetDaysInYear, addr 0x5bcc938, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInYear, addr 0x5bd0df4, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetDaysInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetEra, addr 0x5bcc9a8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetEra, addr 0x5bd0e64, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetEra(::System::DateTime time);
 
-  /// @brief Method GetMonth, addr 0x5bccaac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetMonth, addr 0x5bd0f68, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetMonth(::System::DateTime time);
 
-  /// @brief Method GetMonthsInYear, addr 0x5bccac0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetMonthsInYear, addr 0x5bd0f7c, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetMonthsInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetYear, addr 0x5bccb30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetYear, addr 0x5bd0fec, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetYear(::System::DateTime time);
 
-  /// @brief Method InitDateMapping, addr 0x5bcb9d4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method InitDateMapping, addr 0x5bcfe90, size 0x174, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Globalization::UmAlQuraCalendar_DateMapping> InitDateMapping();
 
-  /// @brief Method IsLeapYear, addr 0x5bccb44, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method IsLeapYear, addr 0x5bd1000, size 0x7c, virtual true, abstract: false, final false
   inline bool IsLeapYear(int32_t year, int32_t era);
 
   static inline ::System::Globalization::UmAlQuraCalendar* New_ctor();
 
-  /// @brief Method RealGetDaysInYear, addr 0x5bcc894, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RealGetDaysInYear, addr 0x5bd0d50, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t RealGetDaysInYear(int32_t year);
 
-  /// @brief Method ToDateTime, addr 0x5bccbc0, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x5bd107c, size 0x234, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era);
 
-  /// @brief Method ToFourDigitYear, addr 0x5bccf40, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToFourDigitYear, addr 0x5bd13fc, size 0x11c, virtual true, abstract: false, final false
   inline int32_t ToFourDigitYear(int32_t year);
 
-  /// @brief Method .ctor, addr 0x5bcbc00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd00bc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Globalization::UmAlQuraCalendar_DateMapping> getStaticF_HijriYearInfo();
@@ -174,22 +174,22 @@ public:
 
   static inline ::System::DateTime getStaticF_minDate();
 
-  /// @brief Method get_BaseCalendarID, addr 0x5bcbc10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BaseCalendarID, addr 0x5bd00cc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_BaseCalendarID();
 
-  /// @brief Method get_Eras, addr 0x5bcca44, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Eras, addr 0x5bd0f00, size 0x68, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t> get_Eras();
 
-  /// @brief Method get_ID, addr 0x5bcbc18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x5bd00d4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ID();
 
-  /// @brief Method get_MaxSupportedDateTime, addr 0x5bcbba4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_MaxSupportedDateTime, addr 0x5bd0060, size 0x5c, virtual true, abstract: false, final false
   inline ::System::DateTime get_MaxSupportedDateTime();
 
-  /// @brief Method get_MinSupportedDateTime, addr 0x5bcbb48, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_MinSupportedDateTime, addr 0x5bd0004, size 0x5c, virtual true, abstract: false, final false
   inline ::System::DateTime get_MinSupportedDateTime();
 
-  /// @brief Method get_TwoDigitYearMax, addr 0x5bccdf4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_TwoDigitYearMax, addr 0x5bd12b0, size 0x44, virtual true, abstract: false, final false
   inline int32_t get_TwoDigitYearMax();
 
   static inline void setStaticF_HijriYearInfo(::ArrayW<::System::Globalization::UmAlQuraCalendar_DateMapping> value);
@@ -198,7 +198,7 @@ public:
 
   static inline void setStaticF_minDate(::System::DateTime value);
 
-  /// @brief Method set_TwoDigitYearMax, addr 0x5bcce38, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method set_TwoDigitYearMax, addr 0x5bd12f4, size 0x108, virtual true, abstract: false, final false
   inline void set_TwoDigitYearMax(int32_t value);
 
 protected:

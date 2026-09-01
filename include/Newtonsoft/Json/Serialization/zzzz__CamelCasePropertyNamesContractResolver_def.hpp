@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Serialization/CamelCasePropertyNamesContractResolver.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Serialization\CamelCasePropertyNamesContractResolver.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,15 +48,15 @@ public:
                       put = setStaticF__contractCache)) ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::System::Type*>,
                                                                                                      ::Newtonsoft::Json::Serialization::JsonContract*>* _contractCache;
 
-  /// @brief Method GetNameTable, addr 0x5d30fdc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetNameTable, addr 0x5d35498, size 0x5c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::DefaultJsonNameTable* GetNameTable();
 
   static inline ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver* New_ctor();
 
-  /// @brief Method ResolveContract, addr 0x5d30c84, size 0x358, virtual true, abstract: false, final false
+  /// @brief Method ResolveContract, addr 0x5d35140, size 0x358, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* ResolveContract(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x5d30b00, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d34fbc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::DefaultJsonNameTable* getStaticF_NameTable();
@@ -88,7 +88,7 @@ public:
   CamelCasePropertyNamesContractResolver(CamelCasePropertyNamesContractResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/LayerMask.hpp"
+// IWYU pragma private; include "UnityEngine\LayerMask.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::LayerMask.op_Implicit_int32_t
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::LayerMask)>(&::UnityEngine::LayerMask::op_Implicit_int32_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6adc278;
+  constexpr static std::size_t addrs = 0x6ae3c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (*)(int32_t)>(&::UnityEngine::LayerMask::op_Implicit___UnityEngine__LayerMask)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6adc27c;
+  constexpr static std::size_t addrs = 0x6ae3c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LayerMask>(), { "op_Implicit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::LayerMask::*)()>(&::UnityEngine::LayerMask::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6adc280;
+  constexpr static std::size_t addrs = 0x6ae3c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LayerMask>(), { "get_value", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LayerMask::*)(int32_t)>(&::UnityEngine::LayerMask::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6adc288;
+  constexpr static std::size_t addrs = 0x6ae3ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LayerMask>(), { "set_value", {}, { ::i2c::type_of<int32_t>() } })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::UnityEngine::LayerMask::NameToLayer)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6adc290;
+  constexpr static std::size_t addrs = 0x6ae3ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LayerMask>(), { "NameToLayer", {}, { ::i2c::type_of<::StringW>() } })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::StringW>)>(&::UnityEngine::LayerMask::GetMask)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6adc3f8;
+  constexpr static std::size_t addrs = 0x6ae3e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LayerMask>(), { "GetMask", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::LayerMask::NameToLayer_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6adc3bc;
+  constexpr static std::size_t addrs = 0x6ae3dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/KnownTypeAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\KnownTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__KnownTypeAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::KnownTypeAttribute::*)()>(&::System::Runtime::Serialization::KnownTypeAttribute::get_MethodName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61503e8;
+  constexpr static std::size_t addrs = 0x6157e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::KnownTypeAttribute*>(), { "get_MethodName", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Serialization::KnownTypeAttribute::*)()>(&::System::Runtime::Serialization::KnownTypeAttribute::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61503f0;
+  constexpr static std::size_t addrs = 0x6157e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::KnownTypeAttribute*>(), { "get_Type", {}, {} })));

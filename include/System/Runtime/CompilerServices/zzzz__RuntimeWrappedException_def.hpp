@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/RuntimeWrappedException.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\RuntimeWrappedException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
   /// @brief Field _wrappedException, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__wrappedException, put = __cordl_internal_set__wrappedException)) ::System::Object* _wrappedException;
 
-  /// @brief Method GetObjectData, addr 0x5b6c234, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5b706f0, size 0xc0, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor();
@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set__wrappedException(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5b6c2fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b707b8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b6c14c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b70608, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b6c0b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b70570, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* thrownObject);
 
-  /// @brief Method get_WrappedException, addr 0x5b6c2f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WrappedException, addr 0x5b707b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_WrappedException();
 
 protected:

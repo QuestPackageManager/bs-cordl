@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RpcPool.hpp"
+// IWYU pragma private; include "GlobalNamespace\RpcPool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RpcPool_def.hpp"
 #include "GlobalNamespace/zzzz__IRemoteProcedureCall_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::IRemoteProcedureCall*)>(&::GlobalNamespace::RpcPool::Release)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x333c970;
+  constexpr static std::size_t addrs = 0x3340730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

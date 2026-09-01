@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/HMAC.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\HMAC.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,27 +50,27 @@ public:
   /// @brief Field m_outer, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer)) ::ArrayW<uint8_t> m_outer;
 
-  /// @brief Method Create, addr 0x5af70ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5afb5a8, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::HMAC* Create();
 
-  /// @brief Method Dispose, addr 0x5af7440, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5afb8fc, size 0x168, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method HashCore, addr 0x5af71c8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x5afb684, size 0xb8, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t> rgb, int32_t ib, int32_t cb);
 
-  /// @brief Method HashFinal, addr 0x5af7280, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x5afb73c, size 0x1c0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> HashFinal();
 
-  /// @brief Method Initialize, addr 0x5af7180, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5afb63c, size 0x48, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeKey, addr 0x5af6f50, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InitializeKey, addr 0x5afb40c, size 0xcc, virtual false, abstract: false, final false
   inline void InitializeKey(::ArrayW<uint8_t> key);
 
   static inline ::System::Security::Cryptography::HMAC* New_ctor();
 
-  /// @brief Method UpdateIOPadBuffers, addr 0x5af6de4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UpdateIOPadBuffers, addr 0x5afb2a0, size 0x16c, virtual false, abstract: false, final false
   inline void UpdateIOPadBuffers();
 
   constexpr int32_t const& __cordl_internal_get_blockSizeValue() const;
@@ -115,19 +115,19 @@ public:
 
   constexpr void __cordl_internal_set_m_outer(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x5af75e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afba9c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BlockSizeValue, addr 0x5af6dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlockSizeValue, addr 0x5afb290, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BlockSizeValue();
 
-  /// @brief Method get_Key, addr 0x5af701c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x5afb4d8, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Key();
 
-  /// @brief Method set_BlockSizeValue, addr 0x5af6ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BlockSizeValue, addr 0x5afb298, size 0x8, virtual false, abstract: false, final false
   inline void set_BlockSizeValue(int32_t value);
 
-  /// @brief Method set_Key, addr 0x5af7094, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x5afb550, size 0x58, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t> value);
 
 protected:

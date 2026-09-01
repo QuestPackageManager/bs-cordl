@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/HttpListenerRequestUriBuilder.hpp"
+// IWYU pragma private; include "System\Net\HttpListenerRequestUriBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpListenerRequestUriBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerRequestUriBuilder::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Net::HttpListenerRequestUriBuilder::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6404404;
+  constexpr static std::size_t addrs = 0x640be80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Uri* (*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(&::System::Net::HttpListenerRequestUriBuilder::GetRequestUri)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x640451c;
+  constexpr static std::size_t addrs = 0x640bf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Uri* (::System::Net::HttpListenerRequestUriBuilder::*)()>(&::System::Net::HttpListenerRequestUriBuilder::Build)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64045b0;
+  constexpr static std::size_t addrs = 0x640c02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerRequestUriBuilder*>(), { "Build", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerRequestUriBuilder::*)()>(&::System::Net::HttpListenerRequestUriBuilder::BuildRequestUriUsingCookedPath)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x6404698;
+  constexpr static std::size_t addrs = 0x640c114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerRequestUriBuilder::*)()>(&::System::Net::HttpListenerRequestUriBuilder::BuildRequestUriUsingRawPath)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x64048a8;
+  constexpr static std::size_t addrs = 0x640c324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)(::System::Net::HttpListenerRequestUriBuilder_EncodingType)>(
     &::System::Net::HttpListenerRequestUriBuilder::GetEncoding)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6404d30;
+  constexpr static std::size_t addrs = 0x640c7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerRequestUriBuilder*>(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::HttpListenerRequestUriBuilder_ParsingResult (::System::Net::HttpListenerRequestUriBuilder::*)(::System::Text::Encoding*)>(
     &::System::Net::HttpListenerRequestUriBuilder::BuildRequestUriUsingRawPath)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x6404db4;
+  constexpr static std::size_t addrs = 0x640c830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::HttpListenerRequestUriBuilder_ParsingResult (::System::Net::HttpListenerRequestUriBuilder::*)(::System::Text::Encoding*)>(
     &::System::Net::HttpListenerRequestUriBuilder::ParseRawPath)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x640501c;
+  constexpr static std::size_t addrs = 0x640ca98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::HttpListenerRequestUriBuilder::*)(::StringW)>(
     &::System::Net::HttpListenerRequestUriBuilder::AppendUnicodeCodePointValuePercentEncoded)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x6405504;
+  constexpr static std::size_t addrs = 0x640cf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::HttpListenerRequestUriBuilder::*)(::System::Text::Encoding*, ::StringW)>(
     &::System::Net::HttpListenerRequestUriBuilder::AddPercentEncodedOctetToRawOctetsList)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x640580c;
+  constexpr static std::size_t addrs = 0x640d288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::HttpListenerRequestUriBuilder::*)(::System::Text::Encoding*)>(
     &::System::Net::HttpListenerRequestUriBuilder::EmptyDecodeAndAppendRawOctetsList)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x6405160;
+  constexpr static std::size_t addrs = 0x640cbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerRequestUriBuilder*>(),
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::System::Collections::Generic::IEnumerable_1<uint8_t>*)>(
     &::System::Net::HttpListenerRequestUriBuilder::AppendOctetsPercentEncoded)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x640596c;
+  constexpr static std::size_t addrs = 0x640d3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Collections::Generic::IEnumerable_1<uint8_t>*)>(&::System::Net::HttpListenerRequestUriBuilder::GetOctetsAsString)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x6405cb8;
+  constexpr static std::size_t addrs = 0x640d734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Net::HttpListenerRequestUriBuilder::GetPath)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6404ba4;
+  constexpr static std::size_t addrs = 0x640c620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Net::HttpListenerRequestUriBuilder::AddSlashToAsteriskOnlyPath)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64044b0;
+  constexpr static std::size_t addrs = 0x640bf2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerRequestUriBuilder::*)(::StringW, ::StringW, ::ArrayW<::System::Object*>)>(
     &::System::Net::HttpListenerRequestUriBuilder::LogWarning)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6404ba0;
+  constexpr static std::size_t addrs = 0x640c61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

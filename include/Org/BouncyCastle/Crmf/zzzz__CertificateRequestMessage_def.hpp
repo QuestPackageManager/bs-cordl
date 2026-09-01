@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crmf/CertificateRequestMessage.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crmf\CertificateRequestMessage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,32 +71,32 @@ public:
   /// @brief Field popSigningKey, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_popSigningKey, put = setStaticF_popSigningKey)) int32_t popSigningKey;
 
-  /// @brief Method FindControl, addr 0x36d4040, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method FindControl, addr 0x36d7e00, size 0xa8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::AttributeTypeAndValue* FindControl(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type);
 
-  /// @brief Method GetCertTemplate, addr 0x36d3fe8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetCertTemplate, addr 0x36d7da8, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* GetCertTemplate();
 
-  /// @brief Method GetControl, addr 0x36d40e8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetControl, addr 0x36d7ea8, size 0x1f8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::IControl* GetControl(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type);
 
-  /// @brief Method GetEncoded, addr 0x36d4a60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x36d8820, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method HasControl, addr 0x36d4028, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasControl, addr 0x36d7de8, size 0x18, virtual false, abstract: false, final false
   inline bool HasControl(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectIdentifier);
 
-  /// @brief Method IsValidSigningKeyPop, addr 0x36d4430, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IsValidSigningKeyPop, addr 0x36d81f0, size 0x170, virtual false, abstract: false, final false
   inline bool IsValidSigningKeyPop(::Org::BouncyCastle::Crypto::IVerifierFactoryProvider* verifierProvider);
 
   static inline ::Org::BouncyCastle::Crmf::CertificateRequestMessage* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* certReqMsg);
 
   static inline ::Org::BouncyCastle::Crmf::CertificateRequestMessage* New_ctor(::ArrayW<uint8_t> encoded);
 
-  /// @brief Method ParseBytes, addr 0x36d3f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ParseBytes, addr 0x36d7d30, size 0x8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* ParseBytes(::ArrayW<uint8_t> encoding);
 
-  /// @brief Method ToAsn1Structure, addr 0x36d3fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x36d7da0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* ToAsn1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* const& __cordl_internal_get_certReqMsg() const;
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set_controls(::Org::BouncyCastle::Asn1::Crmf::Controls* value);
 
-  /// @brief Method .ctor, addr 0x36d3f9c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d7d5c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* certReqMsg);
 
-  /// @brief Method .ctor, addr 0x36d3f78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d7d38, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> encoded);
 
   static inline int32_t getStaticF_popKeyAgreement();
@@ -125,16 +125,16 @@ public:
 
   static inline int32_t getStaticF_popSigningKey();
 
-  /// @brief Method get_HasControls, addr 0x36d4018, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasControls, addr 0x36d7dd8, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasControls();
 
-  /// @brief Method get_HasProofOfPossession, addr 0x36d42f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HasProofOfPossession, addr 0x36d80b0, size 0x2c, virtual false, abstract: false, final false
   inline bool get_HasProofOfPossession();
 
-  /// @brief Method get_HasSigningKeyProofOfPossessionWithPkMac, addr 0x36d434c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_HasSigningKeyProofOfPossessionWithPkMac, addr 0x36d810c, size 0xe4, virtual false, abstract: false, final false
   inline bool get_HasSigningKeyProofOfPossessionWithPkMac();
 
-  /// @brief Method get_ProofOfPossession, addr 0x36d431c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_ProofOfPossession, addr 0x36d80dc, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_ProofOfPossession();
 
   static inline void setStaticF_popKeyAgreement(int32_t value);
@@ -145,7 +145,7 @@ public:
 
   static inline void setStaticF_popSigningKey(int32_t value);
 
-  /// @brief Method verifySignature, addr 0x36d45a0, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method verifySignature, addr 0x36d8360, size 0x44c, virtual false, abstract: false, final false
   inline bool verifySignature(::Org::BouncyCastle::Crypto::IVerifierFactoryProvider* verifierFactoryProvider, ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* signKey);
 
 protected:

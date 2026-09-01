@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/JsonExtension/JsonSettings.hpp"
+// IWYU pragma private; include "BGLib\JsonExtension\JsonSettings.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/JsonExtension/zzzz__JsonSettings_def.hpp"

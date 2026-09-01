@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/NetSyncVoipAttenuationValueList.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\NetSyncVoipAttenuationValueList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncVoipAttenuationValueList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncVoipAttenuationValue_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::NetSyncVoipAttenuationValueList::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::NetSyncVoipAttenuationValueList::_ctor)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5deceb4;
+  constexpr static std::size_t addrs = 0x5df1370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

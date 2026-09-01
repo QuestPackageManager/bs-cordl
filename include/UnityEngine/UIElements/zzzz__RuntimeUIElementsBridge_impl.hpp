@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/RuntimeUIElementsBridge.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\RuntimeUIElementsBridge.hpp"
 #include "UnityEngine/UIElements/zzzz__UIElementsBridge_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RuntimeUIElementsBridge_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::RuntimeUIElementsBridge.SetWantsMouseJumping
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RuntimeUIElementsBridge::*)(int32_t)>(
     &::UnityEngine::UIElements::RuntimeUIElementsBridge::SetWantsMouseJumping)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cab988;
+  constexpr static std::size_t addrs = 0x6cb350c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RuntimeUIElementsBridge::*)()>(&::UnityEngine::UIElements::RuntimeUIElementsBridge::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cab98c;
+  constexpr static std::size_t addrs = 0x6cb3510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RuntimeUIElementsBridge*>(), { ".ctor", {}, {} })));

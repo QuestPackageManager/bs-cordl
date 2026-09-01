@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsCompressedDataGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsCompressedDataGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,12 +26,12 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsCompressedDataGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x36a5330, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36a90f0, size 0x3b4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsCompressedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW compressionOid);
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x36a532c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a90ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnHeaderColumnIcon.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnHeaderColumnIcon.hpp"
 #include "UnityEngine/UIElements/zzzz__Image_impl.hpp"
 #include "UnityEngine/UIElements/Internal/zzzz__MultiColumnHeaderColumnIcon_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::get_isImageInline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d22728;
+  constexpr static std::size_t addrs = 0x6d2a2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)(bool)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::set_isImageInline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d22730;
+  constexpr static std::size_t addrs = 0x6d2a2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6d22738;
+  constexpr static std::size_t addrs = 0x6d2a2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon*>(), { ".ctor", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::UpdateClassList)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6d2284c;
+  constexpr static std::size_t addrs = 0x6d2a3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)(::UnityEngine::UIElements::CustomStyleResolvedEvent*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::__ctor_b__5_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d22a3c;
+  constexpr static std::size_t addrs = 0x6d2a5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon*>(),

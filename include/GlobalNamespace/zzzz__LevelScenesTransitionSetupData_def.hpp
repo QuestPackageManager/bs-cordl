@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LevelScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\LevelScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,10 +55,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x590b8dc, size 0x3f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x590edb4, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x590bcd0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x590f1a8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -77,7 +77,7 @@ public:
                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6739 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -141,7 +141,7 @@ public:
 
   __declspec(property(get = get_transformedBeatmapData)) ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
-  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x590b818, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x590ecf0, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
   static inline ::GlobalNamespace::LevelScenesTransitionSetupData* New_ctor();
@@ -164,25 +164,25 @@ public:
 
   constexpr void __cordl_internal_set__telemetryModel(::Analytics::Model::TelemetryModel* value);
 
-  /// @brief Method <>n__0, addr 0x590b8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x590edac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
-  /// @brief Method .ctor, addr 0x590b8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590eda4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayAdditionalInformationSetupData, addr 0x590b808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayAdditionalInformationSetupData, addr 0x590ece0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayAdditionalInformationSetupData* get_gameplayAdditionalInformationSetupData();
 
-  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x590b7f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x590ecd0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
 
-  /// @brief Method get_transformedBeatmapData, addr 0x590b7e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_transformedBeatmapData, addr 0x590ecb8, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
-  /// @brief Method set_gameplayAdditionalInformationSetupData, addr 0x590b810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayAdditionalInformationSetupData, addr 0x590ece8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayAdditionalInformationSetupData(::GlobalNamespace::GameplayAdditionalInformationSetupData* value);
 
-  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x590b800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x590ecd8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
 protected:
@@ -200,7 +200,7 @@ public:
   LevelScenesTransitionSetupData(LevelScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6740 };
 
   /// @brief Field _telemetryModel, offset: 0x20, size: 0x8, def value: None
   ::Analytics::Model::TelemetryModel* ____telemetryModel;

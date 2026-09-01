@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IShaderVariantSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IShaderVariantSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__IShaderVariantSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderVariantLogLevel_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IShaderVariantSettings.get_shaderVariantLogLevel
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IShaderVariantSettings::*)()>(&::UnityEngine::Rendering::IShaderVariantSettings::get_stripDebugVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67683b4;
+  constexpr static std::size_t addrs = 0x676fe30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IShaderVariantSettings::*)(bool)>(&::UnityEngine::Rendering::IShaderVariantSettings::set_stripDebugVariants)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67683bc;
+  constexpr static std::size_t addrs = 0x676fe38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

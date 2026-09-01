@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BottleneckHistory.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BottleneckHistory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,19 +37,19 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Bottlenecks,
                       put = __cordl_internal_set_m_Bottlenecks)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::PerformanceBottleneck>* m_Bottlenecks;
 
-  /// @brief Method AddBottleneckFromAveragedSample, addr 0x6759838, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddBottleneckFromAveragedSample, addr 0x67612b4, size 0xdc, virtual false, abstract: false, final false
   inline void AddBottleneckFromAveragedSample(::UnityEngine::Rendering::FrameTimeSample frameHistorySampleAverage);
 
-  /// @brief Method Clear, addr 0x675b030, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6762aac, size 0x5c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeHistogram, addr 0x6759914, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ComputeHistogram, addr 0x6761390, size 0x118, virtual false, abstract: false, final false
   inline void ComputeHistogram();
 
-  /// @brief Method DetermineBottleneck, addr 0x6765908, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DetermineBottleneck, addr 0x676d384, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::PerformanceBottleneck DetermineBottleneck(::UnityEngine::Rendering::FrameTimeSample s);
 
-  /// @brief Method DiscardOldSamples, addr 0x6759788, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DiscardOldSamples, addr 0x6761204, size 0xb0, virtual false, abstract: false, final false
   inline void DiscardOldSamples(int32_t historySize);
 
   static inline ::UnityEngine::Rendering::BottleneckHistory* New_ctor(int32_t initialCapacity);
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Bottlenecks(::System::Collections::Generic::List_1<::UnityEngine::Rendering::PerformanceBottleneck>* value);
 
-  /// @brief Method .ctor, addr 0x6759108, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6760b84, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
 protected:
@@ -84,7 +84,7 @@ public:
   BottleneckHistory(BottleneckHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12038 };
 
   /// @brief Field m_Bottlenecks, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::PerformanceBottleneck>* ___m_Bottlenecks;

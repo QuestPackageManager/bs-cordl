@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Cryptography/PKCS1.hpp"
+// IWYU pragma private; include "Mono\Security\Cryptography\PKCS1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,33 +40,33 @@ public:
   /// @brief Field emptySHA512, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_emptySHA512, put = setStaticF_emptySHA512)) ::ArrayW<uint8_t> emptySHA512;
 
-  /// @brief Method Compare, addr 0x5a9cd9c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x5abd12c, size 0x70, virtual false, abstract: false, final false
   static inline bool Compare(::ArrayW<uint8_t> array1, ::ArrayW<uint8_t> array2);
 
-  /// @brief Method CreateFromName, addr 0x5a9d974, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x5abd744, size 0x43c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::StringW name);
 
-  /// @brief Method CreateFromOid, addr 0x5a9d914, size 0x60, virtual false, abstract: false, final false
-  static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromOid(::StringW oid);
-
-  /// @brief Method Encode_v15, addr 0x5a9d19c, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method Encode_v15, addr 0x5abdb80, size 0x308, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Encode_v15(::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t> hashValue, int32_t emLength);
 
-  /// @brief Method HashNameFromOid, addr 0x5a9d4b8, size 0x41c, virtual false, abstract: false, final false
-  static inline ::StringW HashNameFromOid(::StringW oid, bool throwOnError);
-
-  /// @brief Method I2OSP, addr 0x5a9ce0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method I2OSP, addr 0x5abd19c, size 0x90, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> I2OSP(::ArrayW<uint8_t> x, int32_t size);
 
-  /// @brief Method OS2IP, addr 0x5a9ce9c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OS2IP, addr 0x5abd22c, size 0xd0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> OS2IP(::ArrayW<uint8_t> x);
 
-  /// @brief Method RSAVP1, addr 0x5a9cf6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RSAVP1, addr 0x5abd2fc, size 0x18, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> RSAVP1(::System::Security::Cryptography::RSA* rsa, ::ArrayW<uint8_t> s);
 
-  /// @brief Method Verify_v15, addr 0x5a9cf84, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Verify_v15, addr 0x5abd314, size 0x84, virtual false, abstract: false, final false
+  static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature);
+
+  /// @brief Method Verify_v15, addr 0x5abd398, size 0x218, virtual false, abstract: false, final false
   static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature,
                                 bool tryNonStandardEncoding);
+
+  /// @brief Method Verify_v15, addr 0x5abd5b0, size 0x194, virtual false, abstract: false, final false
+  static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::StringW hashName, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature);
 
   static inline ::ArrayW<uint8_t> getStaticF_emptySHA1();
 
@@ -99,7 +99,7 @@ public:
   PKCS1(PKCS1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2281 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

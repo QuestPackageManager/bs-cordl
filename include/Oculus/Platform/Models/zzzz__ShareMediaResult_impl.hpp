@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/ShareMediaResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\ShareMediaResult.hpp"
 #include "Oculus/Platform/zzzz__ShareMediaStatus_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__ShareMediaResult_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::ShareMediaResult::*)(::System::IntPtr)>(&::Oculus::Platform::Models::ShareMediaResult::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5dee25c;
+  constexpr static std::size_t addrs = 0x5df2718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

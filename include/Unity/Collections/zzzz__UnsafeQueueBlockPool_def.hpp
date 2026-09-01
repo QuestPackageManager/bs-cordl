@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/UnsafeQueueBlockPool.hpp"
+// IWYU pragma private; include "Unity\Collections\UnsafeQueueBlockPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,18 +33,18 @@ public:
   /// @brief Field Data, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Data, put = setStaticF_Data)) ::Unity::Burst::SharedStatic_1<::System::IntPtr> Data;
 
-  /// @brief Method AppDomainOnDomainUnload, addr 0x64c1938, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AppDomainOnDomainUnload, addr 0x64c93b4, size 0x94, virtual false, abstract: false, final false
   static inline void AppDomainOnDomainUnload();
 
-  /// @brief Method GetQueueBlockPool, addr 0x64c180c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetQueueBlockPool, addr 0x64c9288, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::UnsafeQueueBlockPoolData* GetQueueBlockPool();
 
   static inline ::Unity::Collections::UnsafeQueueBlockPool* New_ctor();
 
-  /// @brief Method OnDomainUnload, addr 0x64c19cc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnDomainUnload, addr 0x64c9448, size 0xf0, virtual false, abstract: false, final false
   static inline void OnDomainUnload(::System::Object* sender, ::System::EventArgs* e);
 
-  /// @brief Method .ctor, addr 0x64c1abc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64c9538, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Burst::SharedStatic_1<::System::IntPtr> getStaticF_Data();
@@ -66,7 +66,7 @@ public:
   UnsafeQueueBlockPool(UnsafeQueueBlockPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

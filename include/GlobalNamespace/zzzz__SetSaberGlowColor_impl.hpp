@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SetSaberGlowColor.hpp"
+// IWYU pragma private; include "GlobalNamespace\SetSaberGlowColor.hpp"
 #include "GlobalNamespace/zzzz__SaberType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::*)()>(&::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59e9188;
+  constexpr static std::size_t addrs = 0x59f125c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair*>(), { ".ctor", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetSaberGlowColor::*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::SetSaberGlowColor::set_saberType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59e8a48;
+  constexpr static std::size_t addrs = 0x59f0b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetSaberGlowColor::*)()>(&::GlobalNamespace::SetSaberGlowColor::Start)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x59e9100;
+  constexpr static std::size_t addrs = 0x59f11d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetSaberGlowColor*>(), { "Start", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetSaberGlowColor::*)()>(&::GlobalNamespace::SetSaberGlowColor::SetColors)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x59e8fa8;
+  constexpr static std::size_t addrs = 0x59f107c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetSaberGlowColor*>(), { "SetColors", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetSaberGlowColor::*)()>(&::GlobalNamespace::SetSaberGlowColor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59e9184;
+  constexpr static std::size_t addrs = 0x59f1258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetSaberGlowColor*>(), { ".ctor", {}, {} })));

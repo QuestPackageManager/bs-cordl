@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/LocalizationLanguageExtensions.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\LocalizationLanguageExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguageExtensions_def.hpp"
 #include "BGLib/Polyglot/zzzz__LanguageDirection_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::BGLib::Polyglot::LocalizationLanguage)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToSerializedName)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x331a43c;
+  constexpr static std::size_t addrs = 0x331e1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::BGLib::Polyglot::LocalizationLanguage)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToCultureInfoName)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x331a6fc;
+  constexpr static std::size_t addrs = 0x331e4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::Polyglot::LocalizationLanguage (*)(::StringW)>(&::BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage)> {
   constexpr static std::size_t size = 0x1458;
-  constexpr static std::size_t addrs = 0x331a7e4;
+  constexpr static std::size_t addrs = 0x331e5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<bool, ::BGLib::Polyglot::LocalizationLanguage> (*)(::UnityEngine::SystemLanguage)>(
     &::BGLib::Polyglot::LocalizationLanguageExtensions::ToLocalizationLanguage)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x331bc7c;
+  constexpr static std::size_t addrs = 0x331fa3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::Polyglot::LanguageDirection (*)(::BGLib::Polyglot::LocalizationLanguage)>(
     &::BGLib::Polyglot::LocalizationLanguageExtensions::GetLanguageDirection)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x331bd20;
+  constexpr static std::size_t addrs = 0x331fae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizationLanguageExtensions*>(),

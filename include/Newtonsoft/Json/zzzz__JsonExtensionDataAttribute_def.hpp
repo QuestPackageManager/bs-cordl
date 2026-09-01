@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/JsonExtensionDataAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\JsonExtensionDataAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,19 +43,19 @@ public:
 
   constexpr void __cordl_internal_set__WriteData_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5cd2ffc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd74b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReadData, addr 0x5cd2fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadData, addr 0x5cd74a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadData();
 
-  /// @brief Method get_WriteData, addr 0x5cd2fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WriteData, addr 0x5cd7498, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteData();
 
-  /// @brief Method set_ReadData, addr 0x5cd2ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadData, addr 0x5cd74b0, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadData(bool value);
 
-  /// @brief Method set_WriteData, addr 0x5cd2fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WriteData, addr 0x5cd74a0, size 0x8, virtual false, abstract: false, final false
   inline void set_WriteData(bool value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   JsonExtensionDataAttribute(JsonExtensionDataAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13255 };
 
   /// @brief Field <WriteData>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____WriteData_k__BackingField;

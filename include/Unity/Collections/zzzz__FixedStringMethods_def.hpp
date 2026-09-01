@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/FixedStringMethods.hpp"
+// IWYU pragma private; include "Unity\Collections\FixedStringMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,7 +137,7 @@ public:
   /// @brief Method AppendScientific, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Collections::FormatError AppendScientific(::by_ref<T> fs, char16_t* source, int32_t sourceLength, int32_t decimalExponent, char16_t decimalSeparator);
 
-  /// @brief Method CheckSubstringInRange, addr 0x64adc9c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CheckSubstringInRange, addr 0x64b5718, size 0x110, virtual false, abstract: false, final false
   static inline void CheckSubstringInRange(int32_t strLength, int32_t startIndex, int32_t length);
 
   /// @brief Method CompareTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -242,16 +242,16 @@ public:
   /// @brief Method StartsWith, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool StartsWith(::by_ref<T> fs, ::Unity::Collections::Unicode_Rune rune);
 
-  /// @brief Method Substring, addr 0x64adf7c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x64b59f8, size 0x8c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText Substring(::by_ref<::Unity::Collections::NativeText> str, int32_t startIndex);
 
-  /// @brief Method Substring, addr 0x64aded8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x64b5954, size 0x8c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText Substring(::by_ref<::Unity::Collections::NativeText> str, int32_t startIndex, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method Substring, addr 0x64adf64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x64b59e0, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText Substring(::by_ref<::Unity::Collections::NativeText> str, int32_t startIndex, int32_t length);
 
-  /// @brief Method Substring, addr 0x64addac, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x64b5828, size 0x12c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText Substring(::by_ref<::Unity::Collections::NativeText> str, int32_t startIndex, int32_t length,
                                                            ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
@@ -261,39 +261,39 @@ public:
   /// @brief Method Substring, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Substring(::by_ref<T> str, int32_t startIndex, int32_t length);
 
-  /// @brief Method ToLowerAscii, addr 0x64aeed0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ToLowerAscii, addr 0x64b694c, size 0x144, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeText ToLowerAscii(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> fs,
                                                                                 ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method ToLowerAscii, addr 0x64af014, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ToLowerAscii, addr 0x64b6a90, size 0x158, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText ToLowerAscii(::by_ref<::Unity::Collections::NativeText> fs, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method ToLowerAscii, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T ToLowerAscii(::by_ref<T> fs);
 
-  /// @brief Method ToUpperAscii, addr 0x64af16c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ToUpperAscii, addr 0x64b6be8, size 0x148, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeText ToUpperAscii(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> fs,
                                                                                 ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method ToUpperAscii, addr 0x64af2b4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ToUpperAscii, addr 0x64b6d30, size 0x15c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText ToUpperAscii(::by_ref<::Unity::Collections::NativeText> fs, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
   /// @brief Method ToUpperAscii, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T ToUpperAscii(::by_ref<T> fs);
 
-  /// @brief Method Trim, addr 0x64ae848, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x64b62c4, size 0x188, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeText Trim(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> fs,
                                                                         ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method Trim, addr 0x64aeb7c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x64b65f8, size 0x198, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeText Trim(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> fs,
                                                                         ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                                         ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes);
 
-  /// @brief Method Trim, addr 0x64ae9d0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x64b644c, size 0x1ac, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText Trim(::by_ref<::Unity::Collections::NativeText> fs, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method Trim, addr 0x64aed14, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x64b6790, size 0x1bc, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText Trim(::by_ref<::Unity::Collections::NativeText> fs, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                       ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes);
 
@@ -303,19 +303,19 @@ public:
   /// @brief Method Trim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Trim(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes);
 
-  /// @brief Method TrimEnd, addr 0x64ae4f0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method TrimEnd, addr 0x64b5f6c, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeText TrimEnd(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> fs,
                                                                            ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method TrimEnd, addr 0x64ae684, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method TrimEnd, addr 0x64b6100, size 0xdc, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeText TrimEnd(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> fs,
                                                                            ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                                            ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes);
 
-  /// @brief Method TrimEnd, addr 0x64ae5b4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TrimEnd, addr 0x64b6030, size 0xd0, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText TrimEnd(::by_ref<::Unity::Collections::NativeText> fs, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method TrimEnd, addr 0x64ae760, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TrimEnd, addr 0x64b61dc, size 0xe8, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText TrimEnd(::by_ref<::Unity::Collections::NativeText> fs, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                          ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes);
 
@@ -331,19 +331,19 @@ public:
   /// @brief Method TrimEndIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t TrimEndIndex(::by_ref<T> fs, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes);
 
-  /// @brief Method TrimStart, addr 0x64ae008, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method TrimStart, addr 0x64b5a84, size 0x128, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeText TrimStart(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> fs,
                                                                              ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method TrimStart, addr 0x64ae26c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method TrimStart, addr 0x64b5ce8, size 0x138, virtual false, abstract: false, final false
   static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeText TrimStart(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText> fs,
                                                                              ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                                              ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes);
 
-  /// @brief Method TrimStart, addr 0x64ae130, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method TrimStart, addr 0x64b5bac, size 0x13c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText TrimStart(::by_ref<::Unity::Collections::NativeText> fs, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method TrimStart, addr 0x64ae3a4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method TrimStart, addr 0x64b5e20, size 0x14c, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeText TrimStart(::by_ref<::Unity::Collections::NativeText> fs, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator,
                                                            ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune> trimRunes);
 
@@ -377,7 +377,7 @@ public:
   FixedStringMethods(FixedStringMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15617 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

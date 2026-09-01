@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TrackLaneRingsRotationEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\TrackLaneRingsRotationEffect.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffect_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect_RingRotationEffect::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect_RingRotationEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59a0f94;
+  constexpr static std::size_t addrs = 0x59a8ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(&::GlobalNamespace::TrackLaneRingsRotationEffect::Awake)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x59a0e2c;
+  constexpr static std::size_t addrs = 0x59a8d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsRotationEffect*>(), { "Awake", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(&::GlobalNamespace::TrackLaneRingsRotationEffect::Start)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59a0f98;
+  constexpr static std::size_t addrs = 0x59a8ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsRotationEffect*>(), { "Start", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(&::GlobalNamespace::TrackLaneRingsRotationEffect::FixedUpdate)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x59a1098;
+  constexpr static std::size_t addrs = 0x59a8fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsRotationEffect*>(), { "FixedUpdate", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)(float_t, float_t, int32_t, float_t)>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::AddRingRotationEffect)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x59a0fa8;
+  constexpr static std::size_t addrs = 0x59a8ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(&::GlobalNamespace::TrackLaneRingsRotationEffect::GetFirstRingRotationAngle)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59a13c4;
+  constexpr static std::size_t addrs = 0x59a9304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::GetFirstRingDestinationRotationAngle)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59a13fc;
+  constexpr static std::size_t addrs = 0x59a933c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::TrackLaneRingsRotationEffect_RingRotationEffect* (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::SpawnRingRotationEffect)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x59a12e8;
+  constexpr static std::size_t addrs = 0x59a9228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)(::GlobalNamespace::TrackLaneRingsRotationEffect_RingRotationEffect*)>(
     &::GlobalNamespace::TrackLaneRingsRotationEffect::RecycleRingRotationEffect)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x59a1234;
+  constexpr static std::size_t addrs = 0x59a9174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffect::*)()>(&::GlobalNamespace::TrackLaneRingsRotationEffect::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x59a1434;
+  constexpr static std::size_t addrs = 0x59a9374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrackLaneRingsRotationEffect*>(), { ".ctor", {}, {} })));

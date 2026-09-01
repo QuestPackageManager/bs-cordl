@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/Dstu7624WrapEngine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\Dstu7624WrapEngine.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Dstu7624WrapEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Dstu7624Engine_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x33ab1a0;
+  constexpr static std::size_t addrs = 0x33aef60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33ab220;
+  constexpr static std::size_t addrs = 0x33aefe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::Init)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x33ab264;
+  constexpr static std::size_t addrs = 0x33af024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::Wrap)> {
   constexpr static std::size_t size = 0x7a8;
-  constexpr static std::size_t addrs = 0x33ab38c;
+  constexpr static std::size_t addrs = 0x33af14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine::Unwrap)> {
   constexpr static std::size_t size = 0x878;
-  constexpr static std::size_t addrs = 0x33abb34;
+  constexpr static std::size_t addrs = 0x33af8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

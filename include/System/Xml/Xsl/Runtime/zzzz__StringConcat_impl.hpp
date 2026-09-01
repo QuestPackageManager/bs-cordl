@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Xsl/Runtime/StringConcat.hpp"
+// IWYU pragma private; include "System\Xml\Xsl\Runtime\StringConcat.hpp"
 #include "System/Xml/Xsl/Runtime/zzzz__StringConcat_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::System::Xml::Xsl::Runtime::StringConcat.Clear
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Xsl::Runtime::StringConcat::*)()>(&::System::Xml::Xsl::Runtime::StringConcat::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x630ecf0;
+  constexpr static std::size_t addrs = 0x631676c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Xsl::Runtime::StringConcat>(), { "Clear", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Xsl::Runtime::StringConcat::*)()>(&::System::Xml::Xsl::Runtime::StringConcat::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x630ecfc;
+  constexpr static std::size_t addrs = 0x6316778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Xsl::Runtime::StringConcat>(), { "get_Count", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Xsl::Runtime::StringConcat::*)()>(&::System::Xml::Xsl::Runtime::StringConcat::GetResult)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x630ed04;
+  constexpr static std::size_t addrs = 0x6316780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Xsl::Runtime::StringConcat>(), { "GetResult", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Xsl::Runtime::StringConcat::*)(::StringW)>(&::System::Xml::Xsl::Runtime::StringConcat::ConcatNoDelimiter)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x630edf8;
+  constexpr static std::size_t addrs = 0x6316874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

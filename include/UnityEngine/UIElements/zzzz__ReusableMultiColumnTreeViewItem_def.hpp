@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ReusableMultiColumnTreeViewItem.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ReusableMultiColumnTreeViewItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method Init, addr 0x6c4cd7c, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6c54900, size 0x3bc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* container, ::UnityEngine::UIElements::Columns* columns);
 
-  /// @brief Method Init, addr 0x6c4e3f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6c55f74, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
   static inline ::UnityEngine::UIElements::ReusableMultiColumnTreeViewItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c4e8a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c56424, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x6c4e3e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x6c55f6c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:

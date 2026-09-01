@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/Store/NoSuchStoreException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\Store\NoSuchStoreException.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509StoreException_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__NoSuchStoreException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::Store::NoSuchStoreException::*)()>(&::Org::BouncyCastle::X509::Store::NoSuchStoreException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x363c670;
+  constexpr static std::size_t addrs = 0x3640430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Store::NoSuchStoreException*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::Store::NoSuchStoreException::*)(::StringW)>(&::Org::BouncyCastle::X509::Store::NoSuchStoreException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x363c674;
+  constexpr static std::size_t addrs = 0x3640434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::Store::NoSuchStoreException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::X509::Store::NoSuchStoreException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x363c678;
+  constexpr static std::size_t addrs = 0x3640438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::Store::NoSuchStoreException*>(),

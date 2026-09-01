@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MouseManipulator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MouseManipulator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__activators_k__BackingField(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
 
-  /// @brief Method .ctor, addr 0x6daedac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6db6930, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activators, addr 0x6daed9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activators, addr 0x6db6920, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* get_activators();
 
-  /// @brief Method set_activators, addr 0x6daeda4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activators, addr 0x6db6928, size 0x8, virtual false, abstract: false, final false
   inline void set_activators(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/TempMeshAllocatorImpl.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\TempMeshAllocatorImpl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TempMeshAllocatorImpl_def.hpp"
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::*)()>(&::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::_ctor)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6ce9de0;
+  constexpr static std::size_t addrs = 0x6cf1964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::*)(::by_ref<::UnityEngine::UIElements::TempMeshAllocator>)>(
     &::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::CreateNativeHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ce9fcc;
+  constexpr static std::size_t addrs = 0x6cf1b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     int32_t, int32_t, ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>, ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>>)>(
     &::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::AllocateTempMesh)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6ce9fd8;
+  constexpr static std::size_t addrs = 0x6cf1b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::*)()>(&::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::Clear)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x6cea278;
+  constexpr static std::size_t addrs = 0x6cf1dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl*>(), { "Clear", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::*)()>(&::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cea4a8;
+  constexpr static std::size_t addrs = 0x6cf202c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl*>(), { "get_disposed", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::*)(bool)>(&::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cea4b0;
+  constexpr static std::size_t addrs = 0x6cf2034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::*)()>(&::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6cea4b8;
+  constexpr static std::size_t addrs = 0x6cf203c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl*>(), { "Dispose", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::*)(bool)>(&::UnityEngine::UIElements::UIR::TempMeshAllocatorImpl::Dispose)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6cea520;
+  constexpr static std::size_t addrs = 0x6cf20a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

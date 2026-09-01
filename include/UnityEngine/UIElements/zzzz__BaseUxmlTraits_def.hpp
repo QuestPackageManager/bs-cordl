@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BaseUxmlTraits.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BaseUxmlTraits.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__canHaveAnyAttribute_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6cb81f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbfd7c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_canHaveAnyAttribute, addr 0x6cb8204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_canHaveAnyAttribute, addr 0x6cbfd88, size 0x8, virtual false, abstract: false, final false
   inline void set_canHaveAnyAttribute(bool value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Specialized/NotifyCollectionChangedEventArgs.hpp"
+// IWYU pragma private; include "System\Collections\Specialized\NotifyCollectionChangedEventArgs.hpp"
 #include "System/Collections/Specialized/zzzz__NotifyCollectionChangedAction_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Collections/Specialized/zzzz__NotifyCollectionChangedEventArgs_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventArgs::*)(
     ::System::Collections::Specialized::NotifyCollectionChangedAction)>(&::System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x63e96d4;
+  constexpr static std::size_t addrs = 0x63f1150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventArgs::*)(
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Object*, int32_t)>(&::System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x63e988c;
+  constexpr static std::size_t addrs = 0x63f1308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventArgs::*)(
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Object*, ::System::Object*, int32_t)>(&::System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x63e9a98;
+  constexpr static std::size_t addrs = 0x63f1514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collectio
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Collections::IList*, ::System::Collections::IList*, int32_t)>(
     &::System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x63e9cb0;
+  constexpr static std::size_t addrs = 0x63f172c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collectio
                                                                                                                                       ::System::Collections::IList*, int32_t)>(
     &::System::Collections::Specialized::NotifyCollectionChangedEventArgs::InitializeAddOrRemove)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x63e9a80;
+  constexpr static std::size_t addrs = 0x63f14fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventArgs::*)(
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Collections::IList*, int32_t)>(&::System::Collections::Specialized::NotifyCollectionChangedEventArgs::InitializeAdd)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63e9808;
+  constexpr static std::size_t addrs = 0x63f1284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collectio
                                                                                                                                       ::System::Collections::IList*, int32_t)>(
     &::System::Collections::Specialized::NotifyCollectionChangedEventArgs::InitializeRemove)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63e9e58;
+  constexpr static std::size_t addrs = 0x63f18d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collectio
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Collections::IList*, ::System::Collections::IList*, int32_t, int32_t)>(
     &::System::Collections::Specialized::NotifyCollectionChangedEventArgs::InitializeMoveOrReplace)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x63e9c6c;
+  constexpr static std::size_t addrs = 0x63f16e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

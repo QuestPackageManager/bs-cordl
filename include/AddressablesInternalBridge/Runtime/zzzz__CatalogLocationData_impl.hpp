@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AddressablesInternalBridge/Runtime/CatalogLocationData.hpp"
+// IWYU pragma private; include "AddressablesInternalBridge\Runtime\CatalogLocationData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "AddressablesInternalBridge/Runtime/zzzz__CatalogLocationData_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(
     &::AddressablesInternalBridge::Runtime::CatalogLocationData::get_LocatorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6442fac;
+  constexpr static std::size_t addrs = 0x644aa28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(
     &::AddressablesInternalBridge::Runtime::CatalogLocationData::get_LocalHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6442fb4;
+  constexpr static std::size_t addrs = 0x644aa30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)()>(
     &::AddressablesInternalBridge::Runtime::CatalogLocationData::get_CatalogLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6442fbc;
+  constexpr static std::size_t addrs = 0x644aa38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::AddressablesInternalBridge::Runtime::CatalogLocationData::*)(
     ::StringW, ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::AddressablesInternalBridge::Runtime::CatalogLocationData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x644297c;
+  constexpr static std::size_t addrs = 0x644a3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

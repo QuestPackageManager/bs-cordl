@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerSequenceGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerSequenceGenerator.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGenerator_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerSequenceGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerSequenceGenerator::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::DerSequenceGenerator::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x368d1dc;
+  constexpr static std::size_t addrs = 0x3690f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerSequenceGenerator::*)(::System::IO::Stream*, int32_t, bool)>(
     &::Org::BouncyCastle::Asn1::DerSequenceGenerator::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x368d24c;
+  constexpr static std::size_t addrs = 0x369100c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerSequenceGenerator::*)(::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::DerSequenceGenerator::AddObject)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x368d2dc;
+  constexpr static std::size_t addrs = 0x369109c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::DerSequenceGenerator::*)()>(
     &::Org::BouncyCastle::Asn1::DerSequenceGenerator::GetRawOutputStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x368d360;
+  constexpr static std::size_t addrs = 0x3691120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerSequenceGenerator::*)()>(&::Org::BouncyCastle::Asn1::DerSequenceGenerator::Close)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x368d368;
+  constexpr static std::size_t addrs = 0x3691128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

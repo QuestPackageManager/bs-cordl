@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RecordingToolInstallerSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\RecordingToolInstallerSO.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolInstallerSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolInstallerSO.InstallBindings
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolInstallerSO::*)()>(&::GlobalNamespace::RecordingToolInstallerSO::InstallBindings)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x58fa6b0;
+  constexpr static std::size_t addrs = 0x58fdc78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolInstallerSO::*)()>(&::GlobalNamespace::RecordingToolInstallerSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fa8c8;
+  constexpr static std::size_t addrs = 0x58fde90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolInstallerSO*>(), { ".ctor", {}, {} })));

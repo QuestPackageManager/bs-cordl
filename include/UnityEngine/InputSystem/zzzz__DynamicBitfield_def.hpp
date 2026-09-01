@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/DynamicBitfield.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\DynamicBitfield.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,22 +21,22 @@ namespace UnityEngine::InputSystem {
 struct CORDL_TYPE DynamicBitfield {
 public:
   // Declarations
-  /// @brief Method AnyBitIsSet, addr 0x657f0f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AnyBitIsSet, addr 0x6586b70, size 0x8c, virtual false, abstract: false, final false
   inline bool AnyBitIsSet();
 
-  /// @brief Method BitCountToULongCount, addr 0x657efc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BitCountToULongCount, addr 0x6586a44, size 0x18, virtual false, abstract: false, final false
   static inline int32_t BitCountToULongCount(int32_t bitCount);
 
-  /// @brief Method ClearBit, addr 0x656ea60, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ClearBit, addr 0x65764dc, size 0xa0, virtual false, abstract: false, final false
   inline void ClearBit(int32_t bitIndex);
 
-  /// @brief Method SetBit, addr 0x657efe0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetBit, addr 0x6586a5c, size 0xa0, virtual false, abstract: false, final false
   inline void SetBit(int32_t bitIndex);
 
-  /// @brief Method SetLength, addr 0x656e92c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetLength, addr 0x65763a8, size 0x80, virtual false, abstract: false, final false
   inline void SetLength(int32_t newLength);
 
-  /// @brief Method TestBit, addr 0x657f080, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TestBit, addr 0x6586afc, size 0x74, virtual false, abstract: false, final false
   inline bool TestBit(int32_t bitIndex);
 
   // Ctor Parameters []
@@ -48,7 +48,7 @@ public:
   constexpr DynamicBitfield(::UnityEngine::InputSystem::Utilities::InlinedArray_1<uint64_t> array, int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8808 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

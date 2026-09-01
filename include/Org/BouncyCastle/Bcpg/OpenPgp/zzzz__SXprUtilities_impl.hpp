@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/SXprUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\SXprUtilities.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__S2k_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__SXprUtilities_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities_MyS2k::*)(::Org::BouncyCastle::Bcpg::HashAlgorithmTag, ::ArrayW<uint8_t>, int64_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities_MyS2k::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x35a1770;
+  constexpr static std::size_t addrs = 0x35a5530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities_MyS2k::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities_MyS2k::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35a178c;
+  constexpr static std::size_t addrs = 0x35a554c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities_MyS2k*>(),
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35a16f8;
+  constexpr static std::size_t addrs = 0x35a54b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities*>(), { ".ctor", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IO::Stream*, int32_t)>(&::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::ReadLength)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35a16fc;
+  constexpr static std::size_t addrs = 0x35a54bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities*>(),
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IO::Stream*, int32_t)>(&::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::ReadString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x35949b8;
+  constexpr static std::size_t addrs = 0x3598778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities*>(),
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::IO::Stream*, int32_t)>(&::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::ReadBytes)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3594af0;
+  constexpr static std::size_t addrs = 0x35988b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities*>(),
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::S2k* (*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::ParseS2k)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x35952e0;
+  constexpr static std::size_t addrs = 0x35990a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::SkipOpenParenthesis)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3594944;
+  constexpr static std::size_t addrs = 0x3598704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::SkipCloseParenthesis)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3594a7c;
+  constexpr static std::size_t addrs = 0x359883c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

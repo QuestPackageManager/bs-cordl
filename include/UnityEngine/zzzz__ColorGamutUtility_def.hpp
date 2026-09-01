@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ColorGamutUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ColorGamutUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ namespace UnityEngine {
 class CORDL_TYPE ColorGamutUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetColorPrimaries, addr 0x6a846b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetColorPrimaries, addr 0x6a8c0cc, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorPrimaries GetColorPrimaries(::UnityEngine::ColorGamut gamut);
 
-  /// @brief Method GetTransferFunction, addr 0x6a8472c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTransferFunction, addr 0x6a8c144, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TransferFunction GetTransferFunction(::UnityEngine::ColorGamut gamut);
 
-  /// @brief Method GetWhitePoint, addr 0x6a846f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWhitePoint, addr 0x6a8c108, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::WhitePoint GetWhitePoint(::UnityEngine::ColorGamut gamut);
 
 protected:
@@ -55,7 +55,7 @@ public:
   ColorGamutUtility(ColorGamutUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10148 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/Common/BooleanStorage.hpp"
+// IWYU pragma private; include "System\Data\Common\BooleanStorage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,45 +37,45 @@ public:
   /// @brief Field _values, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<bool> _values;
 
-  /// @brief Method Aggregate, addr 0x609b420, size 0x348, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x60a2e9c, size 0x348, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x609b77c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x60a31f8, size 0x80, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x609b7fc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x60a3278, size 0xd0, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x609bd88, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x60a3804, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertValue, addr 0x609b8cc, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x60a3348, size 0x144, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x609bd08, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x60a3784, size 0x80, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x609ba10, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x60a348c, size 0x54, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x609be5c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x60a38d8, size 0x104, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x609ba64, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x60a34e0, size 0x54, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x609be10, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x60a388c, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
   static inline ::System::Data::Common::BooleanStorage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x609bab8, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x60a3534, size 0x190, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x609bc48, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x60a36c4, size 0xc0, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x609bf60, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x60a39dc, size 0x98, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<bool> const& __cordl_internal_get__values() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<bool> value);
 
-  /// @brief Method .ctor, addr 0x609b364, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60a2de0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
 protected:
@@ -102,7 +102,7 @@ public:
   BooleanStorage(BooleanStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13915 };
 
   /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<bool> ____values;

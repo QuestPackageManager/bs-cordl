@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Networking/IPureCSharpPoolElement.hpp"
+// IWYU pragma private; include "OSCE\Networking\IPureCSharpPoolElement.hpp"
 #include "OSCE/Networking/zzzz__IPureCSharpPoolElement_def.hpp"
 //  Writing Method size for method: ::OSCE::Networking::IPureCSharpPoolElement.get_CreatedByPool
 template <>

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Schema/ValidationEventHandler.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Schema\ValidationEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__ValidationEventHandler_def.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__ValidationEventArgs_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::Newtonsoft::Json::Schema::ValidationEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5d589c4;
+  constexpr static std::size_t addrs = 0x5d5ce80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Schema::ValidationEventHandler*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventHandler::*)(::System::Object*, ::Newtonsoft::Json::Schema::ValidationEventArgs*)>(
     &::Newtonsoft::Json::Schema::ValidationEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d64024;
+  constexpr static std::size_t addrs = 0x5d684e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::Newtonsoft::Json::Schema::ValidationEventHandler::*)(::System::Object*, ::Newtonsoft::Json::Schema::ValidationEventArgs*, ::System::AsyncCallback*, ::System::Object*)>(
     &::Newtonsoft::Json::Schema::ValidationEventHandler::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5d64038;
+  constexpr static std::size_t addrs = 0x5d684f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventHandler::*)(::System::IAsyncResult*)>(
     &::Newtonsoft::Json::Schema::ValidationEventHandler::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d64060;
+  constexpr static std::size_t addrs = 0x5d6851c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

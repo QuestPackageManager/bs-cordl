@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/BooleanArrayHelperWithString.hpp"
+// IWYU pragma private; include "System\Xml\BooleanArrayHelperWithString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   static inline ::System::Xml::BooleanArrayHelperWithString* New_ctor();
 
-  /// @brief Method ReadArray, addr 0x60f65b0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x60fe02c, size 0x38, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW namespaceUri, ::ArrayW<bool> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x60f65e8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x60fe064, size 0x3c, virtual true, abstract: false, final false
   inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<bool> array, int32_t offset, int32_t count);
 
-  /// @brief Method .ctor, addr 0x60f6624, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60fe0a0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::BooleanArrayHelperWithString* getStaticF_Instance();
@@ -61,7 +61,7 @@ public:
   BooleanArrayHelperWithString(BooleanArrayHelperWithString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16911 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

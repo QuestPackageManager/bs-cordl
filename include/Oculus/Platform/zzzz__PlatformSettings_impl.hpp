@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/PlatformSettings.hpp"
+// IWYU pragma private; include "Oculus\Platform\PlatformSettings.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Oculus/Platform/zzzz__PlatformSettings_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::PlatformSettings.get_AppID
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::Oculus::Platform::PlatformSettings::get_AppID)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ddacb0;
+  constexpr static std::size_t addrs = 0x5ddf16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::PlatformSettings*>(), { "get_AppID", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Oculus::Platform::PlatformSettings::set_AppID)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5de76d0;
+  constexpr static std::size_t addrs = 0x5debb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::Oculus::Platform::PlatformSettings::get_MobileAppID)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ddac78;
+  constexpr static std::size_t addrs = 0x5ddf134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::PlatformSettings*>(), { "get_MobileAppID", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Oculus::Platform::PlatformSettings::set_MobileAppID)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5de76f0;
+  constexpr static std::size_t addrs = 0x5debbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Oculus::Platform::PlatformSettings::get_UseStandalonePlatform)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5dda18c;
+  constexpr static std::size_t addrs = 0x5dde648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::PlatformSettings*>(), { "get_UseStandalonePlatform", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Oculus::Platform::PlatformSettings::set_UseStandalonePlatform)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5de7710;
+  constexpr static std::size_t addrs = 0x5debbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Oculus::Platform::PlatformSettings::get_UseMobileAppIDInEditor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ddac94;
+  constexpr static std::size_t addrs = 0x5ddf150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::PlatformSettings*>(), { "get_UseMobileAppIDInEditor", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Oculus::Platform::PlatformSettings::set_UseMobileAppIDInEditor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5de7734;
+  constexpr static std::size_t addrs = 0x5debbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Oculus::Platform::PlatformSettings> (*)()>(&::Oculus::Platform::PlatformSettings::get_Instance)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5de7598;
+  constexpr static std::size_t addrs = 0x5deba54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::PlatformSettings*>(), { "get_Instance", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::PlatformSettings*)>(&::Oculus::Platform::PlatformSettings::set_Instance)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5de7758;
+  constexpr static std::size_t addrs = 0x5debc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::PlatformSettings::*)()>(&::Oculus::Platform::PlatformSettings::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5de77a8;
+  constexpr static std::size_t addrs = 0x5debc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::PlatformSettings*>(), { ".ctor", {}, {} })));

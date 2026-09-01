@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Profiling/CustomSampler.hpp"
+// IWYU pragma private; include "UnityEngine\Profiling\CustomSampler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ namespace UnityEngine::Profiling {
 class CORDL_TYPE CustomSampler_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6af414c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6afbb64, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Profiling::CustomSampler* customSampler);
 
 protected:
@@ -50,7 +50,7 @@ public:
   CustomSampler_BindingsMarshaller(CustomSampler_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10430 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -70,17 +70,17 @@ public:
   /// @brief Field s_InvalidCustomSampler, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_InvalidCustomSampler, put = setStaticF_s_InvalidCustomSampler)) ::UnityEngine::Profiling::CustomSampler* s_InvalidCustomSampler;
 
-  /// @brief Method Create, addr 0x6af4040, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6afba58, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Profiling::CustomSampler* Create(::StringW name, bool collectGpuData);
 
   static inline ::UnityEngine::Profiling::CustomSampler* New_ctor();
 
   static inline ::UnityEngine::Profiling::CustomSampler* New_ctor(::System::IntPtr ptr);
 
-  /// @brief Method .ctor, addr 0x6af3f84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afb99c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6af3fdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afb9f4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
   static inline ::UnityEngine::Profiling::CustomSampler* getStaticF_s_InvalidCustomSampler();
@@ -102,7 +102,7 @@ public:
   CustomSampler(CustomSampler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

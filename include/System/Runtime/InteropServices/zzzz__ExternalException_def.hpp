@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/ExternalException.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\ExternalException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,22 +37,22 @@ public:
 
   static inline ::System::Runtime::InteropServices::ExternalException* New_ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method ToString, addr 0x5b67368, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5b6b824, size 0x1f0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x5b672ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6b768, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b67358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6b814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b6730c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6b7c8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5b67330, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6b7ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method get_ErrorCode, addr 0x5b67360, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x5b6b81c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:

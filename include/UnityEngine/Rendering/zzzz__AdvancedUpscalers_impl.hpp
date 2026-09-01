@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/AdvancedUpscalers.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\AdvancedUpscalers.hpp"
 #include "UnityEngine/Rendering/zzzz__AdvancedUpscalers_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::AdvancedUpscalers::AdvancedUpscalers(uint8_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/CommandList.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\CommandList.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(::UnityEngine::UIElements::VisualElement*, ::System::IntPtr, ::System::IntPtr)>(
     &::UnityEngine::UIElements::UIR::CommandList::_ctor)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6ccc638;
+  constexpr static std::size_t addrs = 0x6cd41bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::CommandList::Reset)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6ccc814;
+  constexpr static std::size_t addrs = 0x6cd4398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)()>(&::UnityEngine::UIElements::UIR::CommandList::Execute)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x6ccc934;
+  constexpr static std::size_t addrs = 0x6cd44b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(), { "Execute", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(int32_t, ::UnityEngine::Texture*, int32_t, ::UnityEngine::Vector4,
                                                                                                              ::UnityEngine::Vector4)>(&::UnityEngine::UIElements::UIR::CommandList::SetTexture)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6ccccbc;
+  constexpr static std::size_t addrs = 0x6cd4840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(),
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)()>(&::UnityEngine::UIElements::UIR::CommandList::ApplyBatchProps)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6ccce30;
+  constexpr static std::size_t addrs = 0x6cd49b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(), { "ApplyBatchProps", {}, {} })));
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<uint16_t>*, ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<::UnityEngine::UIElements::Vertex>*,
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::DrawBufferRange>)>(&::UnityEngine::UIElements::UIR::CommandList::DrawRanges)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6cccf20;
+  constexpr static std::size_t addrs = 0x6cd4aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::CommandList::*)()>(&::UnityEngine::UIElements::UIR::CommandList::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ccd0c4;
+  constexpr static std::size_t addrs = 0x6cd4c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(), { "get_disposed", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(bool)>(&::UnityEngine::UIElements::UIR::CommandList::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ccd0cc;
+  constexpr static std::size_t addrs = 0x6cd4c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)()>(&::UnityEngine::UIElements::UIR::CommandList::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6ccd0d4;
+  constexpr static std::size_t addrs = 0x6cd4c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(), { "Dispose", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(bool)>(&::UnityEngine::UIElements::UIR::CommandList::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ccd13c;
+  constexpr static std::size_t addrs = 0x6cd4cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

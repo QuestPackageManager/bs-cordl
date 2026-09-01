@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RegionToLocalizationKeyPair.hpp"
+// IWYU pragma private; include "GlobalNamespace\RegionToLocalizationKeyPair.hpp"
 #include "GlobalNamespace/zzzz__Region_impl.hpp"
 #include "GlobalNamespace/zzzz__RegionToLocalizationKeyPair_def.hpp"
 #include "GlobalNamespace/zzzz__Region_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RegionToLocalizationKeyPair::*)(::GlobalNamespace::Region, ::StringW)>(
     &::GlobalNamespace::RegionToLocalizationKeyPair::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58e1424;
+  constexpr static std::size_t addrs = 0x58e4a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RegionToLocalizationKeyPair>(),

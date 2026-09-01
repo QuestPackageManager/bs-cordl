@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorHueSlider.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorHueSlider.hpp"
 #include "HMUI/zzzz__CircleSlider_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorHueSlider_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(
     ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a28100;
+  constexpr static std::size_t addrs = 0x5a2c568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(
     ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::ColorHueSlider::remove_colorHueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a281c0;
+  constexpr static std::size_t addrs = 0x5a2c628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5a28280;
+  constexpr static std::size_t addrs = 0x5a2c6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::OnDestroy)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5a28310;
+  constexpr static std::size_t addrs = 0x5a2c778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::UpdateVisuals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5a28394;
+  constexpr static std::size_t addrs = 0x5a2c7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(::HMUI::CircleSlider*, float_t)>(
     &::GlobalNamespace::ColorHueSlider::HandleNormalizedValueDidChange)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a2843c;
+  constexpr static std::size_t addrs = 0x5a2c8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::GlobalNamespace::ColorHueSlider::OnPointerUp)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5a28464;
+  constexpr static std::size_t addrs = 0x5a2c8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a284a4;
+  constexpr static std::size_t addrs = 0x5a2c90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorHueSlider*>(), { ".ctor", {}, {} })));

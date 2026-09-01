@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/DebuggerTypeProxyAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\DebuggerTypeProxyAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__DebuggerTypeProxyAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::DebuggerTypeProxyAttribute::*)(::System::Type*)>(&::System::Diagnostics::DebuggerTypeProxyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5bdc664;
+  constexpr static std::size_t addrs = 0x5be0b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

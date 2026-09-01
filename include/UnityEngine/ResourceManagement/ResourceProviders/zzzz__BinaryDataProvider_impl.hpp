@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/BinaryDataProvider.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\BinaryDataProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProvideHandle_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_impl.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::GetPercentComplete)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6915d3c;
+  constexpr static std::size_t addrs = 0x691d7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Reso
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::Start)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x691585c;
+  constexpr static std::size_t addrs = 0x691d2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp*>(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::WaitForCompletionHandler)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6915f04;
+  constexpr static std::size_t addrs = 0x691d980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(::UnityEngine::AsyncOperation*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::RequestOperation_completed)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6915f78;
+  constexpr static std::size_t addrs = 0x691d9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(::ArrayW<uint8_t>, ::System::Exception*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::CompleteOperation)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x691614c;
+  constexpr static std::size_t addrs = 0x691dbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(::ArrayW<uint8_t>)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::ConvertBytes)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6915d54;
+  constexpr static std::size_t addrs = 0x691d7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp*>(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::SendWebRequest)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x69161f4;
+  constexpr static std::size_t addrs = 0x691dc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6915858;
+  constexpr static std::size_t addrs = 0x691d2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(
     ::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::_SendWebRequest_b__13_0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69164b0;
+  constexpr static std::size_t addrs = 0x691df2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::get_IgnoreFailures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69157bc;
+  constexpr static std::size_t addrs = 0x691d238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::*)(bool)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::set_IgnoreFailures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69157c4;
+  constexpr static std::size_t addrs = 0x691d240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::*)(::System::Type*, ::ArrayW<uint8_t>)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::Convert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69157cc;
+  constexpr static std::size_t addrs = 0x691d248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider*>(),
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::Provide)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69157d4;
+  constexpr static std::size_t addrs = 0x691d250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider*>(),
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6915d38;
+  constexpr static std::size_t addrs = 0x691d7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

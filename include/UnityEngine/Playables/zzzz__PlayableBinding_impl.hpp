@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/PlayableBinding.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\PlayableBinding.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableBinding_CreateOutputMethod::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Playables::PlayableBinding_CreateOutputMethod::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6afce28;
+  constexpr static std::size_t addrs = 0x6b04840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableBinding_CreateOutputMethod*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutput (::UnityEngine::Playables::PlayableBinding_CreateOutputMethod::*)(
     ::UnityEngine::Playables::PlayableGraph, ::StringW)>(&::UnityEngine::Playables::PlayableBinding_CreateOutputMethod::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6afce94;
+  constexpr static std::size_t addrs = 0x6b048ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableBinding_CreateOutputMethod*>(),
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Playables::PlayableBinding::*)()>(&::UnityEngine::Playables::PlayableBinding::get_streamName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afcc9c;
+  constexpr static std::size_t addrs = 0x6b046b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableBinding>(), { "get_streamName", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::Playables::PlayableBinding::*)()>(
     &::UnityEngine::Playables::PlayableBinding::get_sourceObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afcca4;
+  constexpr static std::size_t addrs = 0x6b046bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableBinding>(), { "get_sourceObject", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutput (::UnityEngine::Playables::PlayableBinding::*)(::UnityEngine::Playables::PlayableGraph)>(
     &::UnityEngine::Playables::PlayableBinding::CreateOutput)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6afccac;
+  constexpr static std::size_t addrs = 0x6b046c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableBinding (*)(
     ::StringW, ::UnityEngine::Object*, ::System::Type*, ::UnityEngine::Playables::PlayableBinding_CreateOutputMethod*)>(&::UnityEngine::Playables::PlayableBinding::CreateInternal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6afcd9c;
+  constexpr static std::size_t addrs = 0x6b047b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableBinding>(),

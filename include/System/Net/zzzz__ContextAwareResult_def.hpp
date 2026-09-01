@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/ContextAwareResult.hpp"
+// IWYU pragma private; include "System\Net\ContextAwareResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,7 +101,7 @@ public:
   static ::System::Net::ContextAwareResult_StateFlags const ThreadSafeContextCopy;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11442 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -132,10 +132,10 @@ public:
 
   static inline ::System::Net::ContextAwareResult___c* New_ctor();
 
-  /// @brief Method <Complete>b__17_0, addr 0x63eff9c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <Complete>b__17_0, addr 0x63f7a18, size 0x84, virtual false, abstract: false, final false
   inline void _Complete_b__17_0(::System::Object* s);
 
-  /// @brief Method .ctor, addr 0x63eff98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f7a14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::ContextAwareResult___c* getStaticF___9();
@@ -161,7 +161,7 @@ public:
   ContextAwareResult___c(ContextAwareResult___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -189,22 +189,22 @@ public:
   /// @brief Field _lock, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock)) ::System::Object* _lock;
 
-  /// @brief Method CaptureOrComplete, addr 0x63ef4c4, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method CaptureOrComplete, addr 0x63f6f40, size 0x408, virtual false, abstract: false, final false
   inline bool CaptureOrComplete(::by_ref<::System::Threading::ExecutionContext*> cachedContext, bool returnContext);
 
-  /// @brief Method Cleanup, addr 0x63ef8cc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x63f7348, size 0x9c, virtual true, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CleanupInternal, addr 0x63ef1f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CleanupInternal, addr 0x63f6c6c, size 0x4, virtual false, abstract: false, final false
   inline void CleanupInternal();
 
-  /// @brief Method Complete, addr 0x63efb9c, size 0x2f0, virtual true, abstract: false, final false
+  /// @brief Method Complete, addr 0x63f7618, size 0x2f0, virtual true, abstract: false, final false
   inline void Complete(::System::IntPtr userToken);
 
-  /// @brief Method CompleteCallback, addr 0x63efe8c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CompleteCallback, addr 0x63f7908, size 0xb8, virtual false, abstract: false, final false
   inline void CompleteCallback();
 
-  /// @brief Method FinishPostingAsyncOp, addr 0x63ef488, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FinishPostingAsyncOp, addr 0x63f6f04, size 0x3c, virtual false, abstract: false, final false
   inline bool FinishPostingAsyncOp();
 
   static inline ::System::Net::ContextAwareResult* New_ctor(bool captureIdentity, bool forceCaptureContext, ::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
@@ -214,13 +214,13 @@ public:
 
   static inline ::System::Net::ContextAwareResult* New_ctor(::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method SafeCaptureIdentity, addr 0x63ef1ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SafeCaptureIdentity, addr 0x63f6c68, size 0x4, virtual false, abstract: false, final false
   inline void SafeCaptureIdentity();
 
-  /// @brief Method StartPostingAsyncOp, addr 0x63ef2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method StartPostingAsyncOp, addr 0x63f6d40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* StartPostingAsyncOp();
 
-  /// @brief Method StartPostingAsyncOp, addr 0x63ef2cc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method StartPostingAsyncOp, addr 0x63f6d48, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Object* StartPostingAsyncOp(bool lockCapture);
 
   constexpr ::System::Threading::ExecutionContext* const& __cordl_internal_get__context() const;
@@ -241,13 +241,13 @@ public:
 
   constexpr void __cordl_internal_set__lock(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x63ef1fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f6c78, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(bool captureIdentity, bool forceCaptureContext, ::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method .ctor, addr 0x63ef24c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f6cc8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool captureIdentity, bool forceCaptureContext, bool threadSafeContextCopy, ::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
-  /// @brief Method .ctor, addr 0x63ef1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f6c70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* myObject, ::System::Object* myState, ::System::AsyncCallback* myCallBack);
 
 protected:
@@ -265,7 +265,7 @@ public:
   ContextAwareResult(ContextAwareResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11444 };
 
   /// @brief Field _context, offset: 0x40, size: 0x8, def value: None
   ::System::Threading::ExecutionContext* ____context;

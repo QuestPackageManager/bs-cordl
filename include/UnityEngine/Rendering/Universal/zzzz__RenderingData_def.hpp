@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderingData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderingData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,25 +50,25 @@ public:
 
   __declspec(property(get = get_universalRenderingData)) ::UnityEngine::Rendering::Universal::UniversalRenderingData* universalRenderingData;
 
-  /// @brief Method .ctor, addr 0x68dbc30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68e36ac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method get_commandBuffer, addr 0x68dbc94, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_commandBuffer, addr 0x68e3710, size 0xb8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::CommandBuffer*> get_commandBuffer();
 
-  /// @brief Method get_cullResults, addr 0x68dbd4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_cullResults, addr 0x68e37c8, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::CullingResults> get_cullResults();
 
-  /// @brief Method get_perObjectData, addr 0x68dbe0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_perObjectData, addr 0x68e3888, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::PerObjectData> get_perObjectData();
 
-  /// @brief Method get_postProcessingEnabled, addr 0x68dbe6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_postProcessingEnabled, addr 0x68e38e8, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_postProcessingEnabled();
 
-  /// @brief Method get_supportsDynamicBatching, addr 0x68dbdac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportsDynamicBatching, addr 0x68e3828, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportsDynamicBatching();
 
-  /// @brief Method get_universalRenderingData, addr 0x68dbc40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_universalRenderingData, addr 0x68e36bc, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalRenderingData* get_universalRenderingData();
 
   // Ctor Parameters []
@@ -83,7 +83,7 @@ public:
                           ::UnityEngine::Rendering::Universal::ShadowData shadowData, ::UnityEngine::Rendering::Universal::PostProcessingData postProcessingData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13036 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Analytics/AnalyticsManager.hpp"
+// IWYU pragma private; include "OSCE\Analytics\AnalyticsManager.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsSystemModeEnum_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::get_PlatformRID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35768;
+  constexpr static std::size_t addrs = 0x5f39bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "get_PlatformRID", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::get_GameSpecificRID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35770;
+  constexpr static std::size_t addrs = 0x5f39bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "get_GameSpecificRID", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::get_GameSpecificUserID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35778;
+  constexpr static std::size_t addrs = 0x5f39be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "get_GameSpecificUserID", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::get_PlatformUserID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35780;
+  constexpr static std::size_t addrs = 0x5f39bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "get_PlatformUserID", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::get_OculusAuthToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35788;
+  constexpr static std::size_t addrs = 0x5f39bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "get_OculusAuthToken", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::get_BuildID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35790;
+  constexpr static std::size_t addrs = 0x5f39bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "get_BuildID", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::get_Environment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f35798;
+  constexpr static std::size_t addrs = 0x5f39c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "get_Environment", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5f357a0;
+  constexpr static std::size_t addrs = 0x5f39c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { ".ctor", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::GetGraphAPIUrl)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f347c4;
+  constexpr static std::size_t addrs = 0x5f38c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "GetGraphAPIUrl", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)(
     ::StringW, ::StringW, int32_t, ::OSCE::Analytics::AnalyticsSystemModeEnum, ::OSCE::Web::IRequestSender*, ::StringW, ::StringW)>(&::OSCE::Analytics::AnalyticsManager::InitializeAnalytics)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5f358e0;
+  constexpr static std::size_t addrs = 0x5f39d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)(::StringW)>(&::OSCE::Analytics::AnalyticsManager::SetOculusAuthToken)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f35db0;
+  constexpr static std::size_t addrs = 0x5f3a21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)(bool)>(&::OSCE::Analytics::AnalyticsManager::QueueIdRequest)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5f35ae0;
+  constexpr static std::size_t addrs = 0x5f39f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::SendIdRequest)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x5f35dd8;
+  constexpr static std::size_t addrs = 0x5f3a244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "SendIdRequest", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::Deinitialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f36078;
+  constexpr static std::size_t addrs = 0x5f3a4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "Deinitialize", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::FixedUpdate)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5f3616c;
+  constexpr static std::size_t addrs = 0x5f3a5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "FixedUpdate", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::CheckToQueueEvents)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f36230;
+  constexpr static std::size_t addrs = 0x5f3a69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "CheckToQueueEvents", {}, {} })));
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OSCE::Analytics::AnalyticsManager::*)(::by_ref<::OSCE::Analytics::LoggerAnalyticsBatch*>)>(
     &::OSCE::Analytics::AnalyticsManager::TryGetNextBatch)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x5f36390;
+  constexpr static std::size_t addrs = 0x5f3a7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(),
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OSCE::Analytics::AnalyticsManager::*)(::OSCE::Analytics::BaseAnalyticsEvent*, bool, bool, bool, bool)>(
     &::OSCE::Analytics::AnalyticsManager::CheckIfIDPresent)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5f367e8;
+  constexpr static std::size_t addrs = 0x5f3ac54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::CheckToSendNextBatch)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f362e4;
+  constexpr static std::size_t addrs = 0x5f3a750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "CheckToSendNextBatch", {}, {} })));
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OSCE::Analytics::AnalyticsSystemModeEnum (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::GetActiveMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f36c38;
+  constexpr static std::size_t addrs = 0x5f3b0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "GetActiveMode", {}, {} })));
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)(::OSCE::Analytics::AnalyticsSystemModeEnum)>(
     &::OSCE::Analytics::AnalyticsManager::SetSystemMode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5f36c40;
+  constexpr static std::size_t addrs = 0x5f3b0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::ResetAnalyticsId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f36cfc;
+  constexpr static std::size_t addrs = 0x5f3b168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "ResetAnalyticsId", {}, {} })));
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::Shutdown)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5f3607c;
+  constexpr static std::size_t addrs = 0x5f3a4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "Shutdown", {}, {} })));
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::GetDefaultLogger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f36da0;
+  constexpr static std::size_t addrs = 0x5f3b20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "GetDefaultLogger", {}, {} })));
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::GetSessionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f36da8;
+  constexpr static std::size_t addrs = 0x5f3b214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "GetSessionId", {}, {} })));
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::GetPlatformRID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f36db0;
+  constexpr static std::size_t addrs = 0x5f3b21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "GetPlatformRID", {}, {} })));
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::GetGameSpecificRID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f36db8;
+  constexpr static std::size_t addrs = 0x5f3b224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "GetGameSpecificRID", {}, {} })));
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::GetGameSpecificID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f36dc0;
+  constexpr static std::size_t addrs = 0x5f3b22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "GetGameSpecificID", {}, {} })));
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::GetPlatformUserID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f36dc8;
+  constexpr static std::size_t addrs = 0x5f3b234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "GetPlatformUserID", {}, {} })));
@@ -384,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::FlushAllEvents)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f36d04;
+  constexpr static std::size_t addrs = 0x5f3b170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "FlushAllEvents", {}, {} })));
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::CreateNewSessionId)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5f35a90;
+  constexpr static std::size_t addrs = 0x5f39efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "CreateNewSessionId", {}, {} })));
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::GetSessionTimeMS)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f355e4;
+  constexpr static std::size_t addrs = 0x5f39a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "GetSessionTimeMS", {}, {} })));
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::GetSessionOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f370f8;
+  constexpr static std::size_t addrs = 0x5f3b564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "GetSessionOrder", {}, {} })));
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::IncrementSessionOrder)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f355fc;
+  constexpr static std::size_t addrs = 0x5f39a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "IncrementSessionOrder", {}, {} })));
@@ -444,7 +444,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)()>(&::OSCE::Analytics::AnalyticsManager::OnApplicationQuit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f37100;
+  constexpr static std::size_t addrs = 0x5f3b56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsManager*>(), { "OnApplicationQuit", {}, {} })));
@@ -456,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)(::OSCE::Analytics::LoggerAnalyticsBatch*)>(&::OSCE::Analytics::AnalyticsManager::SendBatch)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5f36f30;
+  constexpr static std::size_t addrs = 0x5f3b39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)(::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*)>(
     &::OSCE::Analytics::AnalyticsManager::OnAnalyticsIDRetrieveSuccess)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5f37104;
+  constexpr static std::size_t addrs = 0x5f3b570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)(::System::Exception*, ::OSCE::Web::FailedPostRequest)>(
     &::OSCE::Analytics::AnalyticsManager::OnAnalyticsIdRetrieveFailed)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5f37314;
+  constexpr static std::size_t addrs = 0x5f3b780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)(::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*)>(
     &::OSCE::Analytics::AnalyticsManager::OnBatchSuccess)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5f37428;
+  constexpr static std::size_t addrs = 0x5f3b894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsManager::*)(::System::Exception*, ::OSCE::Web::FailedPostRequest)>(
     &::OSCE::Analytics::AnalyticsManager::OnBatchFailed)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5f375b8;
+  constexpr static std::size_t addrs = 0x5f3ba24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

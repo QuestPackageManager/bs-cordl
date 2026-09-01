@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "TMPro/KerningPairKey.hpp"
+// IWYU pragma private; include "TMPro\KerningPairKey.hpp"
 #include "TMPro/zzzz__KerningPairKey_def.hpp"
 //  Writing Method size for method: ::TMPro::KerningPairKey._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningPairKey::*)(uint32_t, uint32_t)>(&::TMPro::KerningPairKey::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x695507c;
+  constexpr static std::size_t addrs = 0x695caf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

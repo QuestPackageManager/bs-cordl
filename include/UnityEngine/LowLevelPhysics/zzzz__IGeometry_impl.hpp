@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/LowLevelPhysics/IGeometry.hpp"
+// IWYU pragma private; include "UnityEngine\LowLevelPhysics\IGeometry.hpp"
 #include "UnityEngine/LowLevelPhysics/zzzz__IGeometry_def.hpp"
 #include "UnityEngine/LowLevelPhysics/zzzz__GeometryType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::LowLevelPhysics::IGeometry.get_GeometryType

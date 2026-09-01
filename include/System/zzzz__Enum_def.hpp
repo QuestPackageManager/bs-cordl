@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Enum.hpp"
+// IWYU pragma private; include "System\Enum.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,19 +81,19 @@ namespace System {
 struct CORDL_TYPE Enum_EnumResult {
 public:
   // Declarations
-  /// @brief Method GetEnumParseException, addr 0x5c773e8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetEnumParseException, addr 0x5c7b8a4, size 0x194, virtual false, abstract: false, final false
   inline ::System::Exception* GetEnumParseException();
 
-  /// @brief Method Init, addr 0x5c76d74, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5c7b230, size 0x38, virtual false, abstract: false, final false
   inline void Init(bool canMethodThrow);
 
-  /// @brief Method SetFailure, addr 0x5c775b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5c7ba70, size 0x3c, virtual false, abstract: false, final false
   inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x5c7757c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5c7ba38, size 0x38, virtual false, abstract: false, final false
   inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureParameter);
 
-  /// @brief Method SetFailure, addr 0x5c77ab8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5c7bf74, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Exception* unhandledException);
 
   // Ctor Parameters []
@@ -181,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x5c763e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c7a8a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t> values, ::ArrayW<::StringW> names);
 
 protected:

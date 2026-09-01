@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/DefaultSignatureCalculator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Operators\DefaultSignatureCalculator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__DefaultSignatureCalculator_def.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__SignerSink_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::*)(::Org::BouncyCastle::Crypto::ISigner*)>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x34064e8;
+  constexpr static std::size_t addrs = 0x340a2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::get_Stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3407494;
+  constexpr static std::size_t addrs = 0x340b254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::GetResult)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x340749c;
+  constexpr static std::size_t addrs = 0x340b25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

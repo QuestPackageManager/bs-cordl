@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ColorAdjustments.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ColorAdjustments.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,10 +49,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x68762c0, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x687dd3c, size 0xf0, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsTileCompatible, addr 0x68763b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x687de2c, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::ColorAdjustments* New_ctor();
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_saturation(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x68763b8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687de34, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
@@ -108,7 +108,7 @@ public:
   ColorAdjustments(ColorAdjustments const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12790 };
 
   /// @brief Field postExposure, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Rendering::FloatParameter* ___postExposure;

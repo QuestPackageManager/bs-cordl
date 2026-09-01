@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRPointerVisualizer.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRPointerVisualizer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPointerVisualizer_def.hpp"
 #include "UnityEngine/zzzz__LineRenderer_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRPointerVisualizer::*)()>(&::GlobalNamespace::OVRPointerVisualizer::Update)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x5eba99c;
+  constexpr static std::size_t addrs = 0x5ebee58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPointerVisualizer*>(), { "Update", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRPointerVisualizer::*)()>(&::GlobalNamespace::OVRPointerVisualizer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ebaba8;
+  constexpr static std::size_t addrs = 0x5ebf064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPointerVisualizer*>(), { ".ctor", {}, {} })));

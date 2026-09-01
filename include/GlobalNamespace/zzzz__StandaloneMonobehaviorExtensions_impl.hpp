@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StandaloneMonobehaviorExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\StandaloneMonobehaviorExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StandaloneMonobehaviorExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::IStandaloneMonobehavior*, ::System::Action*)>(&::GlobalNamespace::StandaloneMonobehaviorExtensions::Dispatch)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x33324b0;
+  constexpr static std::size_t addrs = 0x3336270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::GlobalNamespace::IStandaloneMonobehavior*, ::System::Func_1<::System::Threading::Tasks::Task*>*)>(
     &::GlobalNamespace::StandaloneMonobehaviorExtensions::DispatchAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3332560;
+  constexpr static std::size_t addrs = 0x3336320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

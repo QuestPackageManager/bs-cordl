@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaGroupBase.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaGroupBase.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaGroupBase_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectCollection_def.hpp"
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaGroupBase::*)()>(&::System::Xml::Schema::XmlSchemaGroupBase::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6224334;
+  constexpr static std::size_t addrs = 0x622bdb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaGroupBase*>(), { ".ctor", {}, {} })));

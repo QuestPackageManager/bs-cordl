@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRUtility.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,22 +29,22 @@ namespace UnityEngine::XR::OpenXR {
 class CORDL_TYPE OpenXRUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputePoseToWorldSpace, addr 0x69eef40, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ComputePoseToWorldSpace, addr 0x69f69bc, size 0x218, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose ComputePoseToWorldSpace(::UnityEngine::Transform* t, ::UnityEngine::Camera* camera);
 
-  /// @brief Method Internal_GetUserPresence, addr 0x69ef1cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetUserPresence, addr 0x69f6c48, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_GetUserPresence();
 
-  /// @brief Method Internal_IsSessionFocused, addr 0x69ef15c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsSessionFocused, addr 0x69f6bd8, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_IsSessionFocused();
 
-  /// @brief Method Inverse, addr 0x69eeebc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x69f6938, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose Inverse(::UnityEngine::Pose p);
 
-  /// @brief Method get_IsSessionFocused, addr 0x69ef158, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_IsSessionFocused, addr 0x69f6bd4, size 0x4, virtual false, abstract: false, final false
   static inline bool get_IsSessionFocused();
 
-  /// @brief Method get_IsUserPresent, addr 0x69ef1c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_IsUserPresent, addr 0x69f6c44, size 0x4, virtual false, abstract: false, final false
   static inline bool get_IsUserPresent();
 
 protected:
@@ -65,7 +65,7 @@ public:
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18515 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

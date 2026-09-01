@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AlertLevel.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\AlertLevel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AlertLevel_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AlertLevel.GetName
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::AlertLevel::GetName)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x343413c;
+  constexpr static std::size_t addrs = 0x3437efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::AlertLevel::GetText)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x34341f8;
+  constexpr static std::size_t addrs = 0x3437fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AlertLevel::*)()>(&::Org::BouncyCastle::Crypto::Tls::AlertLevel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x343436c;
+  constexpr static std::size_t addrs = 0x343812c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::AlertLevel*>(), { ".ctor", {}, {} })));

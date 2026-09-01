@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/DropdownMenuItem.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\DropdownMenuItem.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ButtonWithLabel_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__DropdownMenuItem_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Controller_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::Setup)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5a5727c;
+  constexpr static std::size_t addrs = 0x5a5b738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::RegisterDropdownSourceMenu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a573a4;
+  constexpr static std::size_t addrs = 0x5a5b860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::OnPointerClick)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a573ac;
+  constexpr static std::size_t addrs = 0x5a5b868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a573d4;
+  constexpr static std::size_t addrs = 0x5a5b890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

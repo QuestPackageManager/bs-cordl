@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/TraceSwitch.hpp"
+// IWYU pragma private; include "System\Diagnostics\TraceSwitch.hpp"
 #include "System/Diagnostics/zzzz__Switch_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceSwitch_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::TraceSwitch._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSwitch::*)(::StringW, ::StringW)>(&::System::Diagnostics::TraceSwitch::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6393bc8;
+  constexpr static std::size_t addrs = 0x639b644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSwitch::*)()>(&::System::Diagnostics::TraceSwitch::OnSwitchSettingChanged)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6393c38;
+  constexpr static std::size_t addrs = 0x639b6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSwitch::*)()>(&::System::Diagnostics::TraceSwitch::OnValueChanged)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6393c70;
+  constexpr static std::size_t addrs = 0x639b6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

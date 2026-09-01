@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/DefaultSignatureAlgorithmIdentifierFinder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\DefaultSignatureAlgorithmIdentifierFinder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__DefaultSignatureAlgorithmIdentifierFinder_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__RsassaPssParameters_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(::StringW)>(
     &::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::Generate)> {
   constexpr static std::size_t size = 0x6ac;
-  constexpr static std::size_t addrs = 0x36c2174;
+  constexpr static std::size_t addrs = 0x36c5f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* (*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, int32_t)>(
     &::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::CreatePssParams)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x36c2070;
+  constexpr static std::size_t addrs = 0x36c5e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::Find)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x36c2820;
+  constexpr static std::size_t addrs = 0x36c65e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::*)()>(
     &::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36c2878;
+  constexpr static std::size_t addrs = 0x36c6638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

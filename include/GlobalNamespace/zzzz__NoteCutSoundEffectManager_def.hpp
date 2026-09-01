@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteCutSoundEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteCutSoundEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_useTestAudioClips(bool value);
 
-  /// @brief Method .ctor, addr 0x58ba04c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b99b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool useTestAudioClips, bool ignoreBadCuts);
 
 protected:
@@ -212,30 +212,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleNoteCutSoundEffectDidFinish, addr 0x58b9ef8, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteCutSoundEffectDidFinish, addr 0x58b9860, size 0xe8, virtual true, abstract: false, final true
   inline void HandleNoteCutSoundEffectDidFinish(::GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
 
-  /// @brief Method HandleNoteDidStartDissolving, addr 0x58b9d90, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartDissolving, addr 0x58b96f8, size 0x168, virtual false, abstract: false, final false
   inline void HandleNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteWasCut, addr 0x58b9c20, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x58b9588, size 0x170, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x58b966c, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x58b8fd4, size 0x584, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method IsSupportedNote, addr 0x58b9bf0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsSupportedNote, addr 0x58b9558, size 0x30, virtual false, abstract: false, final false
   inline bool IsSupportedNote(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method LateUpdate, addr 0x58b95b0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x58b8f18, size 0xbc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::NoteCutSoundEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58b944c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58b8db4, size 0x164, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58b917c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58b8ae4, size 0x2d0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::AudioManager* const& __cordl_internal_get__audioManager() const;
@@ -358,16 +358,16 @@ public:
 
   constexpr void __cordl_internal_set__useTestAudioClips(bool value);
 
-  /// @brief Method .ctor, addr 0x58b9fe0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b9948, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_handleWrongSaberTypeAsGood, addr 0x58b916c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handleWrongSaberTypeAsGood, addr 0x58b8ad4, size 0x8, virtual false, abstract: false, final false
   inline bool get_handleWrongSaberTypeAsGood();
 
   /// @brief Convert to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
   constexpr ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent* i___GlobalNamespace__INoteCutSoundEffectDidFinishEvent() noexcept;
 
-  /// @brief Method set_handleWrongSaberTypeAsGood, addr 0x58b9174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_handleWrongSaberTypeAsGood, addr 0x58b8adc, size 0x8, virtual false, abstract: false, final false
   inline void set_handleWrongSaberTypeAsGood(bool value);
 
 protected:

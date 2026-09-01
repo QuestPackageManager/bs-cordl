@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/KeyedHashAlgorithm.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\KeyedHashAlgorithm.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   /// @brief Field KeyValue, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_KeyValue, put = __cordl_internal_set_KeyValue)) ::ArrayW<uint8_t> KeyValue;
 
-  /// @brief Method Dispose, addr 0x5af75a8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5afba64, size 0x38, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Security::Cryptography::KeyedHashAlgorithm* New_ctor();
@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set_KeyValue(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x5af75ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afbaa8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Key, addr 0x5af7c20, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x5afc0dc, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Key();
 
-  /// @brief Method set_Key, addr 0x5af7c98, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x5afc154, size 0xec, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t> value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/ResourceManagerConfig.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\ResourceManagerConfig.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ResourceManagerConfig_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*, ::by_ref<::StringW>, ::by_ref<::StringW>)>(
     &::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x69107b4;
+  constexpr static std::size_t addrs = 0x6918230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsPathRemote)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x691087c;
+  constexpr static std::size_t addrs = 0x69182f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::StripQueryParameters)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x69108e4;
+  constexpr static std::size_t addrs = 0x6918360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ShouldPathUseWebRequest)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x691092c;
+  constexpr static std::size_t addrs = 0x69183a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::PlatformCanLoadLocallyFromUrlPath)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x69109c4;
+  constexpr static std::size_t addrs = 0x6918440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (*)(::System::Type*, ::ArrayW<::UnityEngine::Object*>)>(
     &::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6910b14;
+  constexpr static std::size_t addrs = 0x6918590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (*)(::System::Type*, ::ArrayW<::UnityEngine::Object*>)>(
     &::UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6910c90;
+  constexpr static std::size_t addrs = 0x691870c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

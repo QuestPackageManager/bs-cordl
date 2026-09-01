@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionCompletionResults.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionCompletionResults.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*> value);
 
-  /// @brief Method .ctor, addr 0x37506b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37562d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::ArrayW<::GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults);
 
-  /// @brief Method get_IsMissionComplete, addr 0x3750638, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsMissionComplete, addr 0x375625c, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsMissionComplete();
 
 protected:
@@ -72,7 +72,7 @@ public:
   MissionCompletionResults(MissionCompletionResults const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15259 };
 
   /// @brief Field levelCompletionResults, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* ___levelCompletionResults;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Ocsp/Req.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Ocsp\Req.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__Req_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__Request_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::Req::*)(::Org::BouncyCastle::Asn1::Ocsp::Request*)>(&::Org::BouncyCastle::Ocsp::Req::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3571db0;
+  constexpr static std::size_t addrs = 0x3575b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Ocsp::CertificateID* (::Org::BouncyCastle::Ocsp::Req::*)()>(&::Org::BouncyCastle::Ocsp::Req::GetCertID)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3576c98;
+  constexpr static std::size_t addrs = 0x357aa58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::Req*>(), { "GetCertID", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Ocsp::Req::*)()>(
     &::Org::BouncyCastle::Ocsp::Req::get_SingleRequestExtensions)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3576d04;
+  constexpr static std::size_t addrs = 0x357aac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::Req*>(), { "get_SingleRequestExtensions", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Ocsp::Req::*)()>(&::Org::BouncyCastle::Ocsp::Req::GetX509Extensions)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3576d1c;
+  constexpr static std::size_t addrs = 0x357aadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

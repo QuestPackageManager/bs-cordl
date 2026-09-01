@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/AuthorizationRule.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\AuthorizationRule.hpp"
 #include "System/Security/AccessControl/zzzz__InheritanceFlags_impl.hpp"
 #include "System/Security/AccessControl/zzzz__PropagationFlags_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     ::System::Security::Principal::IdentityReference*, int32_t, bool, ::System::Security::AccessControl::InheritanceFlags, ::System::Security::AccessControl::PropagationFlags)>(
     &::System::Security::AccessControl::AuthorizationRule::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5b184b4;
+  constexpr static std::size_t addrs = 0x5b1c970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::AccessControl::AuthorizationRule::*)()>(&::System::Security::AccessControl::AuthorizationRule::get_AccessMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b186e8;
+  constexpr static std::size_t addrs = 0x5b1cba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::AuthorizationRule*>(), { "get_AccessMask", {}, {} })));

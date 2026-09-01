@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/SignerID.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\SignerID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,15 +23,15 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE SignerID : public ::Org::BouncyCastle::X509::Store::X509CertStoreSelector {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x36cfc38, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x36d39f8, size 0x144, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x36cfb90, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x36d3950, size 0xa8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Cms::SignerID* New_ctor();
 
-  /// @brief Method .ctor, addr 0x36cfd7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d3b3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

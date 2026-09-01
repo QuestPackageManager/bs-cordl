@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ObjectReferenceStack.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ObjectReferenceStack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,19 +30,19 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Contains, addr 0x61522d0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6159d4c, size 0xf8, virtual false, abstract: false, final false
   inline bool Contains(::System::Object* obj);
 
-  /// @brief Method EnsureSetAsIsReference, addr 0x615210c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method EnsureSetAsIsReference, addr 0x6159b88, size 0x144, virtual false, abstract: false, final false
   inline void EnsureSetAsIsReference(::System::Object* obj);
 
-  /// @brief Method Pop, addr 0x6152250, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x6159ccc, size 0x80, virtual false, abstract: false, final false
   inline void Pop(::System::Object* obj);
 
-  /// @brief Method Push, addr 0x6151ef4, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x6159970, size 0x218, virtual false, abstract: false, final false
   inline void Push(::System::Object* obj);
 
-  /// @brief Method get_Count, addr 0x61523c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6159e44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   // Ctor Parameters []
@@ -56,7 +56,7 @@ public:
                                  ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* objectDictionary) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17058 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

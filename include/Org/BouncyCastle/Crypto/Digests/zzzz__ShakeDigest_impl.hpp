@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/ShakeDigest.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\ShakeDigest.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__KeccakDigest_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__ShakeDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Org::BouncyCastle::Crypto::Digests::ShakeDigest::CheckBitLength)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x33820b0;
+  constexpr static std::size_t addrs = 0x3385e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::ShakeDigest::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3382154;
+  constexpr static std::size_t addrs = 0x3385f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::ShakeDigest*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Digests::ShakeDigest::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x338215c;
+  constexpr static std::size_t addrs = 0x3385f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::Org::BouncyCastle::Crypto::Digests::ShakeDigest*)>(
     &::Org::BouncyCastle::Crypto::Digests::ShakeDigest::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x33821d0;
+  constexpr static std::size_t addrs = 0x3385f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Digests::ShakeDigest*>(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)()>(&::Org::BouncyCastle::Crypto::Digests::ShakeDigest::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x338223c;
+  constexpr static std::size_t addrs = 0x3385ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoFinal)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x33822b0;
+  constexpr static std::size_t addrs = 0x3386070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoFinal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3382300;
+  constexpr static std::size_t addrs = 0x33860c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoOutput)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3382344;
+  constexpr static std::size_t addrs = 0x3386104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayW<uint8_t>, int32_t, uint8_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoFinal)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x33823a8;
+  constexpr static std::size_t addrs = 0x3386168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayW<uint8_t>, int32_t, int32_t, uint8_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoFinal)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3382410;
+  constexpr static std::size_t addrs = 0x33861d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::ShakeDigest::Copy)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x338252c;
+  constexpr static std::size_t addrs = 0x33862ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

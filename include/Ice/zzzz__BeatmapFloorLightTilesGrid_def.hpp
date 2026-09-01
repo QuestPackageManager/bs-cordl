@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice/BeatmapFloorLightTilesGrid.hpp"
+// IWYU pragma private; include "Ice\BeatmapFloorLightTilesGrid.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
 
   static inline ::Ice::BeatmapFloorLightTilesGrid* New_ctor();
 
-  /// @brief Method Start, addr 0x3285558, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x32892e8, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> const& __cordl_internal_get__beatmapObjectSpawnController() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__tileWidth(float_t value);
 
-  /// @brief Method .ctor, addr 0x328576c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32894fc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   BeatmapFloorLightTilesGrid(BeatmapFloorLightTilesGrid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23243 };
 
   /// @brief Field _numberOfRows, offset: 0x20, size: 0x4, def value: None
   int32_t ____numberOfRows;

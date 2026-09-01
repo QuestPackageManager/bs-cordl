@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Dynamic/GetIndexBinder.hpp"
+// IWYU pragma private; include "System\Dynamic\GetIndexBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace System::Dynamic {
 class CORDL_TYPE GetIndexBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x5fc0cdc, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x5fc8758, size 0xbc, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> args);
 
-  /// @brief Method FallbackGetIndex, addr 0x5fc0d98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackGetIndex, addr 0x5fc8814, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetIndex(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> indexes);
 
   /// @brief Method FallbackGetIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -48,7 +48,7 @@ public:
   GetIndexBinder(GetIndexBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

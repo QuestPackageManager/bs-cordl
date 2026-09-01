@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ShaderDebugPrintInput.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ShaderDebugPrintInput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,31 +32,31 @@ public:
 
   __declspec(property(get = get_rightDown, put = set_rightDown)) bool rightDown;
 
-  /// @brief Method String, addr 0x6768054, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method String, addr 0x676fad0, size 0x1e4, virtual false, abstract: false, final false
   inline ::StringW String();
 
-  /// @brief Method get_leftDown, addr 0x6768024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftDown, addr 0x676faa0, size 0x8, virtual false, abstract: false, final false
   inline bool get_leftDown();
 
-  /// @brief Method get_middleDown, addr 0x6768044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_middleDown, addr 0x676fac0, size 0x8, virtual false, abstract: false, final false
   inline bool get_middleDown();
 
-  /// @brief Method get_pos, addr 0x6768014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pos, addr 0x676fa90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pos();
 
-  /// @brief Method get_rightDown, addr 0x6768034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightDown, addr 0x676fab0, size 0x8, virtual false, abstract: false, final false
   inline bool get_rightDown();
 
-  /// @brief Method set_leftDown, addr 0x676802c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftDown, addr 0x676faa8, size 0x8, virtual false, abstract: false, final false
   inline void set_leftDown(bool value);
 
-  /// @brief Method set_middleDown, addr 0x676804c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_middleDown, addr 0x676fac8, size 0x8, virtual false, abstract: false, final false
   inline void set_middleDown(bool value);
 
-  /// @brief Method set_pos, addr 0x676801c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pos, addr 0x676fa98, size 0x8, virtual false, abstract: false, final false
   inline void set_pos(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_rightDown, addr 0x676803c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightDown, addr 0x676fab8, size 0x8, virtual false, abstract: false, final false
   inline void set_rightDown(bool value);
 
   // Ctor Parameters []
@@ -69,7 +69,7 @@ public:
   constexpr ShaderDebugPrintInput(::UnityEngine::Vector2 _pos_k__BackingField, bool _leftDown_k__BackingField, bool _rightDown_k__BackingField, bool _middleDown_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12057 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

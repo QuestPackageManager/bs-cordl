@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Specialized/NotifyCollectionChangedEventHandler.hpp"
+// IWYU pragma private; include "System\Collections\Specialized\NotifyCollectionChangedEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Collections/Specialized/zzzz__NotifyCollectionChangedEventHandler_def.hpp"
 #include "System/Collections/Specialized/zzzz__NotifyCollectionChangedEventArgs_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Collections::Specialized::NotifyCollectionChangedEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x63e9ee4;
+  constexpr static std::size_t addrs = 0x63f1960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::NotifyCollectionChangedEventHandler*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventHandler::*)(
     ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*)>(&::System::Collections::Specialized::NotifyCollectionChangedEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63ea02c;
+  constexpr static std::size_t addrs = 0x63f1aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::NotifyCollectionChangedEventHandler*>(),

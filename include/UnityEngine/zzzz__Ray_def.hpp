@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Ray.hpp"
+// IWYU pragma private; include "UnityEngine\Ray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,31 +38,31 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method GetPoint, addr 0x6a79934, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x6a813b0, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(float_t distance);
 
-  /// @brief Method ToString, addr 0x6a7995c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6a813d8, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6a7996c, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6a813e8, size 0x198, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6a79718, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a81194, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction);
 
-  /// @brief Method get_direction, addr 0x6a79830, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x6a812ac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_direction();
 
-  /// @brief Method get_origin, addr 0x6a79818, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_origin, addr 0x6a81294, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_origin();
 
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method set_direction, addr 0x6a7983c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x6a812b8, size 0xf8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_origin, addr 0x6a79824, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_origin, addr 0x6a812a0, size 0xc, virtual false, abstract: false, final false
   inline void set_origin(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -74,7 +74,7 @@ public:
   constexpr Ray(::UnityEngine::Vector3 m_Origin, ::UnityEngine::Vector3 m_Direction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10118 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

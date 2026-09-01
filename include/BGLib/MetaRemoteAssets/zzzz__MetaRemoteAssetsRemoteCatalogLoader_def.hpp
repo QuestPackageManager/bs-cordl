@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/MetaRemoteAssets/MetaRemoteAssetsRemoteCatalogLoader.hpp"
+// IWYU pragma private; include "BGLib\MetaRemoteAssets\MetaRemoteAssetsRemoteCatalogLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,10 +66,10 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c* New_ctor();
 
-  /// @brief Method <LoadRemoteCatalogAsync>b__0_0, addr 0x3316f14, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method <LoadRemoteCatalogAsync>b__0_0, addr 0x331acd4, size 0xdc, virtual false, abstract: false, final false
   inline bool _LoadRemoteCatalogAsync_b__0_0(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator);
 
-  /// @brief Method .ctor, addr 0x3316f10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331acd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c* getStaticF___9();
@@ -95,7 +95,7 @@ public:
   MetaRemoteAssetsRemoteCatalogLoader___c(MetaRemoteAssetsRemoteCatalogLoader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -113,10 +113,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3316ff0, size 0x50c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x331adb0, size 0x50c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x33174fc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x331b2bc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -134,7 +134,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22496 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -174,12 +174,12 @@ public:
   /// @brief Convert operator to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
   constexpr operator ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
 
-  /// @brief Method LoadRemoteCatalogAsync, addr 0x3316de0, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method LoadRemoteCatalogAsync, addr 0x331aba0, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3316eb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331ac78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
@@ -200,7 +200,7 @@ public:
   MetaRemoteAssetsRemoteCatalogLoader(MetaRemoteAssetsRemoteCatalogLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

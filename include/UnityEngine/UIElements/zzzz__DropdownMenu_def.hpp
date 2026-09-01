@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DropdownMenu.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DropdownMenu.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <AppendAction>b__0, addr 0x6d8ccac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <AppendAction>b__0, addr 0x6d94830, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DropdownMenuAction_Status _AppendAction_b__0(::UnityEngine::UIElements::DropdownMenuAction* e);
 
   constexpr ::UnityEngine::UIElements::DropdownMenuAction_Status const& __cordl_internal_get_status() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_status(::UnityEngine::UIElements::DropdownMenuAction_Status value);
 
-  /// @brief Method .ctor, addr 0x6d8c5d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d94158, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DropdownMenu___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <AppendSeparator>b__0, addr 0x6d8ccb4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <AppendSeparator>b__0, addr 0x6d94838, size 0xa8, virtual false, abstract: false, final false
   inline bool _AppendSeparator_b__0(::UnityEngine::UIElements::DropdownMenuItem* item);
 
   constexpr ::StringW const& __cordl_internal_get_subMenuPath() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_subMenuPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d8c86c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d943f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -183,25 +183,25 @@ public:
   __declspec(property(get = __cordl_internal_get_m_MenuItems,
                       put = __cordl_internal_set_m_MenuItems)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* m_MenuItems;
 
-  /// @brief Method AppendAction, addr 0x6d8c3a8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AppendAction, addr 0x6d93f2c, size 0xf8, virtual false, abstract: false, final false
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action,
                            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method AppendAction, addr 0x6d8c4a0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AppendAction, addr 0x6d94024, size 0x134, virtual false, abstract: false, final false
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action, ::UnityEngine::UIElements::DropdownMenuAction_Status status);
 
-  /// @brief Method AppendSeparator, addr 0x6d8c5d8, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AppendSeparator, addr 0x6d9415c, size 0x294, virtual false, abstract: false, final false
   inline void AppendSeparator(::StringW subMenuPath);
 
-  /// @brief Method InsertSeparator, addr 0x6d8c870, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method InsertSeparator, addr 0x6d943f4, size 0x138, virtual false, abstract: false, final false
   inline void InsertSeparator(::StringW subMenuPath, int32_t atIndex);
 
-  /// @brief Method MenuItems, addr 0x6d8c3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MenuItems, addr 0x6d93f24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* MenuItems();
 
   static inline ::UnityEngine::UIElements::DropdownMenu* New_ctor();
 
-  /// @brief Method PrepareForDisplay, addr 0x6d8c9a8, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method PrepareForDisplay, addr 0x6d9452c, size 0x290, virtual false, abstract: false, final false
   inline void PrepareForDisplay(::UnityEngine::UIElements::EventBase* e);
 
   constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo* const& __cordl_internal_get_m_DropdownMenuEventInfo() const;
@@ -216,10 +216,10 @@ public:
 
   constexpr void __cordl_internal_set_m_MenuItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* value);
 
-  /// @brief Method .ctor, addr 0x6d8cc38, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d947bc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x6d8c350, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6d93ed4, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
 protected:

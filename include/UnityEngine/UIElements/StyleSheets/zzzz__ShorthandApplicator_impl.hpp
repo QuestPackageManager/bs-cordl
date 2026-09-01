@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ShorthandApplicator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\ShorthandApplicator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__ShorthandApplicator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBackgroundPosition)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6cffcfc;
+  constexpr static std::size_t addrs = 0x6d07880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderColor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6d00278;
+  constexpr static std::size_t addrs = 0x6d07dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderRadius)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6d00504;
+  constexpr static std::size_t addrs = 0x6d08088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderWidth)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6d006d4;
+  constexpr static std::size_t addrs = 0x6d08258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyFlex)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6d00880;
+  constexpr static std::size_t addrs = 0x6d08404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyMargin)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6d00b40;
+  constexpr static std::size_t addrs = 0x6d086c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyPadding)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6d00d8c;
+  constexpr static std::size_t addrs = 0x6d08910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyTransition)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6d00e80;
+  constexpr static std::size_t addrs = 0x6d08a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityBackgroundScaleMode)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6d016a8;
+  constexpr static std::size_t addrs = 0x6d0922c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityTextOutline)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6d0184c;
+  constexpr static std::size_t addrs = 0x6d093d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<float_t>, ::by_ref<float_t>,
                                                                 ::by_ref<::UnityEngine::UIElements::Length>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileFlexShorthand)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6d00954;
+  constexpr static std::size_t addrs = 0x6d084d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
                                                                 ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBorderRadius)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6d005f8;
+  constexpr static std::size_t addrs = 0x6d0817c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
                                                                 ::by_ref<::UnityEngine::UIElements::BackgroundPosition>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBackgroundPosition)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x6cffdd4;
+  constexpr static std::size_t addrs = 0x6d07958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::UnityEngine::UIElements::BackgroundRepeat>, ::by_ref<::UnityEngine::UIElements::BackgroundSize>)>(
         &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileUnityBackgroundScaleMode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d017c4;
+  constexpr static std::size_t addrs = 0x6d09348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +274,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
                                                                 ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6d00c34;
+  constexpr static std::size_t addrs = 0x6d087b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<float_t>, ::by_ref<float_t>, ::by_ref<float_t>,
                                                                 ::by_ref<float_t>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d007c4;
+  constexpr static std::size_t addrs = 0x6d08348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
                                                                 ::by_ref<::UnityEngine::Color>, ::by_ref<::UnityEngine::Color>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6d00370;
+  constexpr static std::size_t addrs = 0x6d07ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ::by_ref<::UnityEngine::Color>, ::by_ref<float_t>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTextOutline)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d0190c;
+  constexpr static std::size_t addrs = 0x6d09490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),
@@ -350,7 +350,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>,
     ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTransition)> {
   constexpr static std::size_t size = 0x6d0;
-  constexpr static std::size_t addrs = 0x6d00fd8;
+  constexpr static std::size_t addrs = 0x6d08b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword>, ::by_ref<::UnityEngine::UIElements::BackgroundPositionKeyword>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::_CompileBackgroundPosition_g__SwapKeyword_16_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d019b8;
+  constexpr static std::size_t addrs = 0x6d0953c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::ShorthandApplicator*>(),

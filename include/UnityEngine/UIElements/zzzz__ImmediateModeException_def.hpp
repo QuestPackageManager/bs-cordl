@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ImmediateModeException.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ImmediateModeException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ImmediateModeException* New_ctor(::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x6dadf48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6db5acc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* inner);
 
 protected:

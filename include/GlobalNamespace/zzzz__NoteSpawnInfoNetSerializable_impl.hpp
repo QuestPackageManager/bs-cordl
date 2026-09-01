@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteSpawnInfoNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteSpawnInfoNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__ColorType_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteData_impl.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteSpawnInfoNetSerializable* (*)()>(&::GlobalNamespace::NoteSpawnInfoNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3779d4c;
+  constexpr static std::size_t addrs = 0x377fad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteSpawnInfoNetSerializable*>(), { "Obtain", {}, {} })));
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteSp
                                                         ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::NoteSpawnInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3779db8;
+  constexpr static std::size_t addrs = 0x377fb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteSpawnInfoNetSerializable::*)()>(&::GlobalNamespace::NoteSpawnInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3779ed0;
+  constexpr static std::size_t addrs = 0x377fc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteSpawnInfoNetSerializable*>(), { ".ctor", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::NoteSpawnInfoNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x3779f28;
+  constexpr static std::size_t addrs = 0x377fcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::NoteSpawnInfoNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x377a25c;
+  constexpr static std::size_t addrs = 0x377ffe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Vector2Extensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\Vector2Extensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,16 +26,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE Vector2Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clamp, addr 0x3322324, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x33260e4, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 value, ::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
-  /// @brief Method Clamp, addr 0x3322348, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x3326108, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 value, ::UnityEngine::Rect within);
 
-  /// @brief Method Cross, addr 0x3322374, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Cross, addr 0x3326134, size 0x10, virtual false, abstract: false, final false
   static inline float_t Cross(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method SignedAngleToLine, addr 0x3322150, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SignedAngleToLine, addr 0x3325f10, size 0x1d4, virtual false, abstract: false, final false
   static inline float_t SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line);
 
 protected:
@@ -53,7 +53,7 @@ public:
   Vector2Extensions(Vector2Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20746 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

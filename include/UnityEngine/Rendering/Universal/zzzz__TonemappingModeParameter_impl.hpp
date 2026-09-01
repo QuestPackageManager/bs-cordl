@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/TonemappingModeParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\TonemappingModeParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__TonemappingMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__TonemappingModeParameter_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::TonemappingModeParameter::*)(::UnityEngine::Rendering::Universal::TonemappingMode, bool)>(
     &::UnityEngine::Rendering::Universal::TonemappingModeParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x68782e4;
+  constexpr static std::size_t addrs = 0x687fd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

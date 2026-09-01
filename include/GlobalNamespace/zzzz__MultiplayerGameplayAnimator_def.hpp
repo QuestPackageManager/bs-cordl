@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerGameplayAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerGameplayAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,18 +75,18 @@ public:
   /// @brief Method AnimateNewLeaderSelected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x59cfca4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x59d7e48, size 0xf4, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
-  /// @brief Method HandleStateChanged, addr 0x59cfa94, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x59d7c38, size 0x150, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59cf804, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59d79a8, size 0x1d0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59cf734, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x59d78d8, size 0xd0, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__activeLightsColor() const;
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x59cfd98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d7f3c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,7 +167,7 @@ public:
   MultiplayerGameplayAnimator(MultiplayerGameplayAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6142 };
 
   /// @brief Field _activeLightsColor, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____activeLightsColor;

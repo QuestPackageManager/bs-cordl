@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/VREvent_Scroll_t.hpp"
+// IWYU pragma private; include "OVR\OpenVR\VREvent_Scroll_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
   constexpr VREvent_Scroll_t(float_t xdelta, float_t ydelta, uint32_t repeatCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8486 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

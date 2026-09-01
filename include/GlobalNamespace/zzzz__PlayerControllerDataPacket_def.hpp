@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerControllerDataPacket.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerControllerDataPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,18 +47,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x32a435c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x32a8158, size 0x28, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x32a3188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x32a6f84, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerControllerDataPacket* Init(::GlobalNamespace::MultiplayerActiveHand activeHand);
 
   static inline ::GlobalNamespace::PlayerControllerDataPacket* New_ctor();
 
-  /// @brief Method Release, addr 0x32a4174, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x32a7f70, size 0x58, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x32a433c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x32a8138, size 0x20, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::MultiplayerActiveHand const& __cordl_internal_get_activeHand() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_activeHand(::GlobalNamespace::MultiplayerActiveHand value);
 
-  /// @brief Method .ctor, addr 0x32a4384, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a8180, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0x32a3144, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x32a6f40, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PlayerControllerDataPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -94,7 +94,7 @@ public:
   PlayerControllerDataPacket(PlayerControllerDataPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18841 };
 
   /// @brief Field activeHand, offset: 0x10, size: 0x1, def value: None
   ::GlobalNamespace::MultiplayerActiveHand ___activeHand;

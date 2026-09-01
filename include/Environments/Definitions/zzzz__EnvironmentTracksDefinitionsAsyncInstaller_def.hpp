@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Environments/Definitions/EnvironmentTracksDefinitionsAsyncInstaller.hpp"
+// IWYU pragma private; include "Environments\Definitions\EnvironmentTracksDefinitionsAsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,10 +40,10 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x32e85dc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x32ec3d8, size 0xc8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x32e8568, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x32ec364, size 0x74, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* tracksDefinitions,
                                          ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry);
 
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__environmentTracksDefinitions(::System::Collections::Generic::List_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* value);
 
-  /// @brief Method .ctor, addr 0x32e8850, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ec64c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x32e8524, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x32ec320, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -76,7 +76,7 @@ public:
   EnvironmentTracksDefinitionsAsyncInstaller(EnvironmentTracksDefinitionsAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22947 };
 
   /// @brief Field _environmentTracksDefinitions, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* ____environmentTracksDefinitions;

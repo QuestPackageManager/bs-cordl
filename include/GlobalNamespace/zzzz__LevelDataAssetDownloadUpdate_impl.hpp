@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LevelDataAssetDownloadUpdate.hpp"
+// IWYU pragma private; include "GlobalNamespace\LevelDataAssetDownloadUpdate.hpp"
 #include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
 #include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelDataAssetDownloadUpdate::*)(
     ::StringW, uint32_t, uint32_t, ::GlobalNamespace::LevelDataAssetDownloadUpdate_AssetDownloadingState)>(&::GlobalNamespace::LevelDataAssetDownloadUpdate::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3729a84;
+  constexpr static std::size_t addrs = 0x372f6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelDataAssetDownloadUpdate>(),

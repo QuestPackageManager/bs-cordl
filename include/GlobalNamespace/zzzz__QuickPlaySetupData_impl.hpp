@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/QuickPlaySetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\QuickPlaySetupData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName::*)()>(
     &::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x372c78c;
+  constexpr static std::size_t addrs = 0x37323f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack::*)()>(
     &::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x372c790;
+  constexpr static std::size_t addrs = 0x37323f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack::*)()>(
     &::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x372c804;
+  constexpr static std::size_t addrs = 0x3732468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride::*)()>(
     &::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x372c6d0;
+  constexpr static std::size_t addrs = 0x3732334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride*>(), { ".ctor", {}, {} })));
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::QuickPlaySetupData::*)()>(&::GlobalNamespace::QuickPlaySetupData::get_hasOverride)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x372c634;
+  constexpr static std::size_t addrs = 0x3732298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySetupData*>(), { "get_hasOverride", {}, {} })));
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySetupData::*)()>(&::GlobalNamespace::QuickPlaySetupData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x372c6cc;
+  constexpr static std::size_t addrs = 0x3732330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySetupData*>(), { ".ctor", {}, {} })));

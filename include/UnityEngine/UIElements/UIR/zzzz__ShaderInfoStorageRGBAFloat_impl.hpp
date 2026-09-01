@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/ShaderInfoStorageRGBAFloat.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\ShaderInfoStorageRGBAFloat.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorage_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c::*)()>(
     &::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce9870;
+  constexpr static std::size_t addrs = 0x6cf13f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c::*)(::UnityEngine::Color)>(
     &::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c::__cctor_b__2_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce9874;
+  constexpr static std::size_t addrs = 0x6cf13f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6ce96b4;
+  constexpr static std::size_t addrs = 0x6cf1238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

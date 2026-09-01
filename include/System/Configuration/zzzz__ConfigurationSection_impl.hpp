@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Configuration/ConfigurationSection.hpp"
+// IWYU pragma private; include "System\Configuration\ConfigurationSection.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_impl.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Configuration::ConfigurationSection::*)(::System::Xml::XmlReader*)>(
     &::System::Configuration::ConfigurationSection::DeserializeSection)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f4fe7c;
+  constexpr static std::size_t addrs = 0x5f578f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Configuration::ConfigurationSection::*)()>(&::System::Configuration::ConfigurationSection::IsModified)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f4feb8;
+  constexpr static std::size_t addrs = 0x5f57934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Configuration::ConfigurationSection::*)()>(&::System::Configuration::ConfigurationSection::ResetModified)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f4fef4;
+  constexpr static std::size_t addrs = 0x5f57970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Configuration::ConfigurationSection::*)(
     ::System::Configuration::ConfigurationElement*, ::StringW, ::System::Configuration::ConfigurationSaveMode)>(&::System::Configuration::ConfigurationSection::SerializeSection)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f4ff30;
+  constexpr static std::size_t addrs = 0x5f579ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

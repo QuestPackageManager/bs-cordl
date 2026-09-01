@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ProbeVolumeDebugPass.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ProbeVolumeDebugPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData::*)()>(
     &::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x689a714;
+  constexpr static std::size_t addrs = 0x68a2190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x689a76c;
+  constexpr static std::size_t addrs = 0x68a21e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>(), { ".ctor", {}, {} })));
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c::_Render_b__7_0)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x689a770;
+  constexpr static std::size_t addrs = 0x68a21ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c*>(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::ComputeShader*)>(&::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6899cf0;
+  constexpr static std::size_t addrs = 0x68a176c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::*)(::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6899dc0;
+  constexpr static std::size_t addrs = 0x68a183c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::Execute)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x6899dc8;
+  constexpr static std::size_t addrs = 0x68a1844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass*>(),
@@ -224,7 +224,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(&::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass::Render)> {
   constexpr static std::size_t size = 0x604;
-  constexpr static std::size_t addrs = 0x689a110;
+  constexpr static std::size_t addrs = 0x68a1b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

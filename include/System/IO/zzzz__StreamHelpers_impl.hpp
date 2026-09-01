@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/StreamHelpers.hpp"
+// IWYU pragma private; include "System\IO\StreamHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__StreamHelpers_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*, ::System::IO::Stream*, int32_t)>(&::System::IO::StreamHelpers::ValidateCopyToArgs)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x5bf4628;
+  constexpr static std::size_t addrs = 0x5bf8ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

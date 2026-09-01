@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplaySettingsStats_1.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplaySettingsStats_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugDisplaySettingsPanel_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugDisplaySettingsStats_1_def.hpp"

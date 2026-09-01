@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet/Core/ITaskUtility.hpp"
+// IWYU pragma private; include "BGNet\Core\ITaskUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   ITaskUtility(ITaskUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18282 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18315 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

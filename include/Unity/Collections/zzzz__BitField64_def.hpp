@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/BitField64.hpp"
+// IWYU pragma private; include "Unity\Collections\BitField64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,43 +20,43 @@ namespace Unity::Collections {
 struct CORDL_TYPE BitField64 {
 public:
   // Declarations
-  /// @brief Method CheckArgs, addr 0x64a42cc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CheckArgs, addr 0x64abd48, size 0xbc, virtual false, abstract: false, final false
   static inline void CheckArgs(int32_t pos, int32_t numBits);
 
-  /// @brief Method Clear, addr 0x64a4130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x64abbac, size 0x8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CountBits, addr 0x64a4210, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CountBits, addr 0x64abc8c, size 0x14, virtual false, abstract: false, final false
   inline int32_t CountBits();
 
-  /// @brief Method CountLeadingZeros, addr 0x64a4224, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CountLeadingZeros, addr 0x64abca0, size 0x50, virtual false, abstract: false, final false
   inline int32_t CountLeadingZeros();
 
-  /// @brief Method CountTrailingZeros, addr 0x64a4274, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CountTrailingZeros, addr 0x64abcf0, size 0x58, virtual false, abstract: false, final false
   inline int32_t CountTrailingZeros();
 
-  /// @brief Method GetBits, addr 0x64a418c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetBits, addr 0x64abc08, size 0x1c, virtual false, abstract: false, final false
   inline uint64_t GetBits(int32_t pos, int32_t numBits);
 
-  /// @brief Method IsSet, addr 0x64a41a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSet, addr 0x64abc24, size 0x10, virtual false, abstract: false, final false
   inline bool IsSet(int32_t pos);
 
-  /// @brief Method SetBits, addr 0x64a4138, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x64abbb4, size 0x24, virtual false, abstract: false, final false
   inline void SetBits(int32_t pos, bool value);
 
-  /// @brief Method SetBits, addr 0x64a415c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetBits, addr 0x64abbd8, size 0x30, virtual false, abstract: false, final false
   inline void SetBits(int32_t pos, bool value, int32_t numBits);
 
-  /// @brief Method TestAll, addr 0x64a41f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TestAll, addr 0x64abc6c, size 0x20, virtual false, abstract: false, final false
   inline bool TestAll(int32_t pos, int32_t numBits);
 
-  /// @brief Method TestAny, addr 0x64a41d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method TestAny, addr 0x64abc50, size 0x1c, virtual false, abstract: false, final false
   inline bool TestAny(int32_t pos, int32_t numBits);
 
-  /// @brief Method TestNone, addr 0x64a41b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method TestNone, addr 0x64abc34, size 0x1c, virtual false, abstract: false, final false
   inline bool TestNone(int32_t pos, int32_t numBits);
 
-  /// @brief Method .ctor, addr 0x64a4128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64abba4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t initialValue);
 
   // Ctor Parameters []
@@ -67,7 +67,7 @@ public:
   constexpr BitField64(uint64_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15554 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

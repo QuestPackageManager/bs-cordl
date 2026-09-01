@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AttributeHelperEngine.hpp"
+// IWYU pragma private; include "UnityEngine\AttributeHelperEngine.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__DisallowMultipleComponent_impl.hpp"
 #include "UnityEngine/zzzz__ExecuteInEditMode_impl.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6ad279c;
+  constexpr static std::size_t addrs = 0x6ada1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::GetRequiredComponents)> {
   constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x6ad28a4;
+  constexpr static std::size_t addrs = 0x6ada2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::GetExecuteMode)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6ad2d4c;
+  constexpr static std::size_t addrs = 0x6ada764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::CheckIsEditorScript)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6ad2e50;
+  constexpr static std::size_t addrs = 0x6ada868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::GetDefaultExecutionOrderFor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ad2f28;
+  constexpr static std::size_t addrs = 0x6ada940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

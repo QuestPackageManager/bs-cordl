@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/BasicClient.hpp"
+// IWYU pragma private; include "System\Net\BasicClient.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__BasicClient_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::BasicClient::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::BasicClient::Authenticate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6420540;
+  constexpr static std::size_t addrs = 0x6427fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::System::Net::BasicClient::GetBytes)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6420900;
+  constexpr static std::size_t addrs = 0x642837c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::BasicClient*>(), { "GetBytes", {}, { ::i2c::type_of<::StringW>() } })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::BasicClient::InternalAuthenticate)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x64205f4;
+  constexpr static std::size_t addrs = 0x6428070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::BasicClient::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::BasicClient::PreAuthenticate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64209bc;
+  constexpr static std::size_t addrs = 0x6428438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::BasicClient::*)()>(&::System::Net::BasicClient::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64209c8;
+  constexpr static std::size_t addrs = 0x6428444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::BasicClient*>(), { "get_AuthenticationType", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::BasicClient::*)()>(&::System::Net::BasicClient::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x641fa80;
+  constexpr static std::size_t addrs = 0x64274fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::BasicClient*>(), { ".ctor", {}, {} })));

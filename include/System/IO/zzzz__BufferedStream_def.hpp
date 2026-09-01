@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/BufferedStream.hpp"
+// IWYU pragma private; include "System\IO\BufferedStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -150,10 +150,10 @@ public:
 
   static inline ::System::IO::BufferedStream___c* New_ctor();
 
-  /// @brief Method <LazyEnsureAsyncActiveSemaphoreInitialized>b__10_0, addr 0x5c09cc4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <LazyEnsureAsyncActiveSemaphoreInitialized>b__10_0, addr 0x5c0e180, size 0x60, virtual false, abstract: false, final false
   inline ::System::Threading::SemaphoreSlim* _LazyEnsureAsyncActiveSemaphoreInitialized_b__10_0();
 
-  /// @brief Method .ctor, addr 0x5c09cc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c0e17c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::BufferedStream___c* getStaticF___9();
@@ -198,10 +198,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5c09d24, size 0x460, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5c0e1e0, size 0x460, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5c0a1ec, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5c0e6a8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -277,10 +277,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5c0a1f8, size 0x59c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5c0e6b4, size 0x59c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5c0a794, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5c0ec50, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -351,10 +351,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5c0a800, size 0x358, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5c0ecbc, size 0x358, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5c0ab58, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5c0f014, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -427,10 +427,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5c0abc4, size 0x800, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5c0f080, size 0x800, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5c0b3c4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5c0f880, size 0x5c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -526,10 +526,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5c0b420, size 0xa64, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5c0f8dc, size 0xa64, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5c0be84, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5c10340, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -614,10 +614,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5c0bef0, size 0x5a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5c103ac, size 0x5a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5c0c490, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5c1094c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -746,141 +746,141 @@ public:
   /// @brief Field _writePos, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__writePos, put = __cordl_internal_set__writePos)) int32_t _writePos;
 
-  /// @brief Method BeginRead, addr 0x5c08798, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x5c0cc54, size 0xb0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWrite, addr 0x5c096c8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x5c0db84, size 0xb0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method ClearReadBufferBeforeWrite, addr 0x5c076d4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ClearReadBufferBeforeWrite, addr 0x5c0bb90, size 0x90, virtual false, abstract: false, final false
   inline void ClearReadBufferBeforeWrite();
 
-  /// @brief Method CopyTo, addr 0x5c099f4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x5c0deb0, size 0x90, virtual true, abstract: false, final false
   inline void CopyTo(::System::IO::Stream* destination, int32_t bufferSize);
 
-  /// @brief Method CopyToAsync, addr 0x5c09a84, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method CopyToAsync, addr 0x5c0df40, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CopyToAsyncCore, addr 0x5c09b90, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CopyToAsyncCore, addr 0x5c0e04c, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsyncCore(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x5c07308, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5c0b7c4, size 0x11c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DisposeAsync, addr 0x5c07230, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method DisposeAsync, addr 0x5c0b6ec, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  /// @brief Method EndRead, addr 0x5c08848, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x5c0cd04, size 0x4c, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x5c09778, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x5c0dc34, size 0xc, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EnsureBufferAllocated, addr 0x5c06ff4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EnsureBufferAllocated, addr 0x5c0b4b0, size 0x5c, virtual false, abstract: false, final false
   inline void EnsureBufferAllocated();
 
-  /// @brief Method EnsureCanRead, addr 0x5c06e40, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EnsureCanRead, addr 0x5c0b2fc, size 0x70, virtual false, abstract: false, final false
   inline void EnsureCanRead();
 
-  /// @brief Method EnsureCanSeek, addr 0x5c06dd0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EnsureCanSeek, addr 0x5c0b28c, size 0x70, virtual false, abstract: false, final false
   inline void EnsureCanSeek();
 
-  /// @brief Method EnsureCanWrite, addr 0x5c06eb0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EnsureCanWrite, addr 0x5c0b36c, size 0x70, virtual false, abstract: false, final false
   inline void EnsureCanWrite();
 
-  /// @brief Method EnsureNotClosed, addr 0x5c06d74, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EnsureNotClosed, addr 0x5c0b230, size 0x5c, virtual false, abstract: false, final false
   inline void EnsureNotClosed();
 
-  /// @brief Method EnsureShadowBufferAllocated, addr 0x5c06f20, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EnsureShadowBufferAllocated, addr 0x5c0b3dc, size 0xd4, virtual false, abstract: false, final false
   inline void EnsureShadowBufferAllocated();
 
-  /// @brief Method Flush, addr 0x5c07424, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x5c0b8e0, size 0xc4, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x5c0752c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x5c0b9e8, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FlushAsyncInternal, addr 0x5c07610, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method FlushAsyncInternal, addr 0x5c0bacc, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsyncInternal(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FlushRead, addr 0x5c074e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FlushRead, addr 0x5c0b9a4, size 0x44, virtual false, abstract: false, final false
   inline void FlushRead();
 
-  /// @brief Method FlushWrite, addr 0x5c070d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FlushWrite, addr 0x5c0b590, size 0x50, virtual false, abstract: false, final false
   inline void FlushWrite();
 
-  /// @brief Method FlushWriteAsync, addr 0x5c07764, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method FlushWriteAsync, addr 0x5c0bc20, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushWriteAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LastSyncCompletedReadTask, addr 0x5c07dd4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method LastSyncCompletedReadTask, addr 0x5c0c290, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* LastSyncCompletedReadTask(int32_t val);
 
-  /// @brief Method LazyEnsureAsyncActiveSemaphoreInitialized, addr 0x5c06aa0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method LazyEnsureAsyncActiveSemaphoreInitialized, addr 0x5c0af5c, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::SemaphoreSlim* LazyEnsureAsyncActiveSemaphoreInitialized();
 
   static inline ::System::IO::BufferedStream* New_ctor(::System::IO::Stream* stream);
 
   static inline ::System::IO::BufferedStream* New_ctor(::System::IO::Stream* stream, int32_t bufferSize);
 
-  /// @brief Method Read, addr 0x5c07a4c, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5c0bf08, size 0x218, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method Read, addr 0x5c07c64, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5c0c120, size 0x170, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<uint8_t> destination);
 
-  /// @brief Method ReadAsync, addr 0x5c07eb8, size 0x448, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x5c0c374, size 0x448, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x5c08448, size 0x350, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x5c0c904, size 0x350, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadByte, addr 0x5c08894, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x5c0cd50, size 0x50, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ReadByteSlow, addr 0x5c088e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadByteSlow, addr 0x5c0cda0, size 0x90, virtual false, abstract: false, final false
   inline int32_t ReadByteSlow();
 
-  /// @brief Method ReadFromBuffer, addr 0x5c07828, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReadFromBuffer, addr 0x5c0bce4, size 0x64, virtual false, abstract: false, final false
   inline int32_t ReadFromBuffer(::ArrayW<uint8_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method ReadFromBuffer, addr 0x5c079ac, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadFromBuffer, addr 0x5c0be68, size 0xa0, virtual false, abstract: false, final false
   inline int32_t ReadFromBuffer(::ArrayW<uint8_t> array, int32_t offset, int32_t count, ::by_ref<::System::Exception*> error);
 
-  /// @brief Method ReadFromBuffer, addr 0x5c0788c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ReadFromBuffer, addr 0x5c0bd48, size 0x120, virtual false, abstract: false, final false
   inline int32_t ReadFromBuffer(::System::Span_1<uint8_t> destination);
 
-  /// @brief Method ReadFromUnderlyingStreamAsync, addr 0x5c08300, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ReadFromUnderlyingStreamAsync, addr 0x5c0c7bc, size 0x148, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadFromUnderlyingStreamAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken,
                                                                                         int32_t bytesAlreadySatisfied, ::System::Threading::Tasks::Task* semaphoreLockTask);
 
-  /// @brief Method Seek, addr 0x5c09810, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x5c0dccc, size 0x124, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x5c09934, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x5c0ddf0, size 0xc0, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x5c08ba8, size 0x314, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c0d064, size 0x314, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> array, int32_t offset, int32_t count);
 
-  /// @brief Method Write, addr 0x5c08ebc, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5c0d378, size 0x2b4, virtual true, abstract: false, final false
   inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
 
-  /// @brief Method WriteAsync, addr 0x5c09170, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x5c0d62c, size 0x1ec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsync, addr 0x5c0935c, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x5c0d818, size 0x288, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteByte, addr 0x5c09784, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x5c0dc40, size 0x8c, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
-  /// @brief Method WriteToBuffer, addr 0x5c08a4c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method WriteToBuffer, addr 0x5c0cf08, size 0x15c, virtual false, abstract: false, final false
   inline int32_t WriteToBuffer(::System::ReadOnlySpan_1<uint8_t> buffer);
 
-  /// @brief Method WriteToBuffer, addr 0x5c08974, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method WriteToBuffer, addr 0x5c0ce30, size 0xd8, virtual false, abstract: false, final false
   inline void WriteToBuffer(::ArrayW<uint8_t> array, ::by_ref<int32_t> offset, ::by_ref<int32_t> count);
 
-  /// @brief Method WriteToUnderlyingStreamAsync, addr 0x5c095e4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method WriteToUnderlyingStreamAsync, addr 0x5c0daa0, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteToUnderlyingStreamAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken,
                                                                         ::System::Threading::Tasks::Task* semaphoreLockTask);
 
@@ -932,28 +932,28 @@ public:
 
   constexpr void __cordl_internal_set__writePos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5c06ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c0b05c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream);
 
-  /// @brief Method .ctor, addr 0x5c06ba8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c0b064, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, int32_t bufferSize);
 
-  /// @brief Method get_CanRead, addr 0x5c07050, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x5c0b50c, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x5c07080, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x5c0b53c, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x5c07068, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x5c0b524, size 0x18, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x5c07098, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x5c0b554, size 0x3c, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x5c07124, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x5c0b5e0, size 0x4c, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x5c07170, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x5c0b62c, size 0xc0, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:

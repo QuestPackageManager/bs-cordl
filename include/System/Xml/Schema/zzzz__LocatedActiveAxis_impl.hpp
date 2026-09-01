@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/LocatedActiveAxis.hpp"
+// IWYU pragma private; include "System\Xml\Schema\LocatedActiveAxis.hpp"
 #include "System/Xml/Schema/zzzz__ActiveAxis_impl.hpp"
 #include "System/Xml/Schema/zzzz__LocatedActiveAxis_def.hpp"
 #include "System/Xml/Schema/zzzz__Asttree_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::LocatedActiveAxis::*)()>(&::System::Xml::Schema::LocatedActiveAxis::get_Column)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63142e0;
+  constexpr static std::size_t addrs = 0x631bd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::LocatedActiveAxis*>(), { "get_Column", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::LocatedActiveAxis::*)(::System::Xml::Schema::Asttree*, ::System::Xml::Schema::KeySequence*, int32_t)>(
     &::System::Xml::Schema::LocatedActiveAxis::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63142e8;
+  constexpr static std::size_t addrs = 0x631bd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::LocatedActiveAxis::*)(::System::Xml::Schema::KeySequence*)>(
     &::System::Xml::Schema::LocatedActiveAxis::Reactivate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6314318;
+  constexpr static std::size_t addrs = 0x631bd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

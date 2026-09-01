@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/BitStack.hpp"
+// IWYU pragma private; include "System\Xml\BitStack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__BitStack_def.hpp"
 //  Writing Method size for method: ::System::Xml::BitStack._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::BitStack::*)()>(&::System::Xml::BitStack::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61a4bc0;
+  constexpr static std::size_t addrs = 0x61ac63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::BitStack*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::BitStack::*)(bool)>(&::System::Xml::BitStack::PushBit)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x61a4bcc;
+  constexpr static std::size_t addrs = 0x61ac648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::BitStack*>(), { "PushBit", {}, { ::i2c::type_of<bool>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::BitStack::*)()>(&::System::Xml::BitStack::PopBit)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x61a4ce4;
+  constexpr static std::size_t addrs = 0x61ac760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::BitStack*>(), { "PopBit", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::BitStack::*)()>(&::System::Xml::BitStack::PeekBit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61a4d50;
+  constexpr static std::size_t addrs = 0x61ac7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::BitStack*>(), { "PeekBit", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::BitStack::*)()>(&::System::Xml::BitStack::PushCurr)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x61a4c04;
+  constexpr static std::size_t addrs = 0x61ac680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::BitStack*>(), { "PushCurr", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::BitStack::*)()>(&::System::Xml::BitStack::PopCurr)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x61a4d0c;
+  constexpr static std::size_t addrs = 0x61ac788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::BitStack*>(), { "PopCurr", {}, {} })));

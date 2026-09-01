@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/FixedStringMethods.hpp"
+// IWYU pragma private; include "Unity\Collections\FixedStringMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__FixedStringMethods_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Unity::Collections::FixedStringMethods::CheckSubstringInRange)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x64adc9c;
+  constexpr static std::size_t addrs = 0x64b5718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeText (*)(
     ::by_ref<::Unity::Collections::NativeText>, int32_t, int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::FixedStringMethods::Substring)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x64addac;
+  constexpr static std::size_t addrs = 0x64b5828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeText (*)(
     ::by_ref<::Unity::Collections::NativeText>, int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::FixedStringMethods::Substring)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64aded8;
+  constexpr static std::size_t addrs = 0x64b5954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeText (*)(::by_ref<::Unity::Collections::NativeText>, int32_t, int32_t)>(
     &::Unity::Collections::FixedStringMethods::Substring)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64adf64;
+  constexpr static std::size_t addrs = 0x64b59e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeText (*)(::by_ref<::Unity::Collections::NativeText>, int32_t)>(
     &::Unity::Collections::FixedStringMethods::Substring)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64adf7c;
+  constexpr static std::size_t addrs = 0x64b59f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeText (*)(
     ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::FixedStringMethods::TrimStart)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x64ae008;
+  constexpr static std::size_t addrs = 0x64b5a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeText (*)(::by_ref<::Unity::Collections::NativeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::FixedStringMethods::TrimStart)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x64ae130;
+  constexpr static std::size_t addrs = 0x64b5bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Low
     ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune>)>(
     &::Unity::Collections::FixedStringMethods::TrimStart)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x64ae26c;
+  constexpr static std::size_t addrs = 0x64b5ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Nat
                                                                                             ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune>)>(
     &::Unity::Collections::FixedStringMethods::TrimStart)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x64ae3a4;
+  constexpr static std::size_t addrs = 0x64b5e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeText (*)(
     ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::FixedStringMethods::TrimEnd)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x64ae4f0;
+  constexpr static std::size_t addrs = 0x64b5f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeText (*)(::by_ref<::Unity::Collections::NativeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::FixedStringMethods::TrimEnd)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x64ae5b4;
+  constexpr static std::size_t addrs = 0x64b6030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Low
     ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune>)>(
     &::Unity::Collections::FixedStringMethods::TrimEnd)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x64ae684;
+  constexpr static std::size_t addrs = 0x64b6100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Nat
                                                                                             ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune>)>(
     &::Unity::Collections::FixedStringMethods::TrimEnd)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64ae760;
+  constexpr static std::size_t addrs = 0x64b61dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeText (*)(
     ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::FixedStringMethods::Trim)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x64ae848;
+  constexpr static std::size_t addrs = 0x64b62c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeText (*)(::by_ref<::Unity::Collections::NativeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::FixedStringMethods::Trim)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x64ae9d0;
+  constexpr static std::size_t addrs = 0x64b644c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +274,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Low
     ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle, ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune>)>(
     &::Unity::Collections::FixedStringMethods::Trim)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x64aeb7c;
+  constexpr static std::size_t addrs = 0x64b65f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -294,7 +294,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Nat
                                                                                             ::System::ReadOnlySpan_1<::Unity::Collections::Unicode_Rune>)>(
     &::Unity::Collections::FixedStringMethods::Trim)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x64aed14;
+  constexpr static std::size_t addrs = 0x64b6790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeText (*)(
     ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::FixedStringMethods::ToLowerAscii)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x64aeed0;
+  constexpr static std::size_t addrs = 0x64b694c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeText (*)(::by_ref<::Unity::Collections::NativeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::FixedStringMethods::ToLowerAscii)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x64af014;
+  constexpr static std::size_t addrs = 0x64b6a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeText (*)(
     ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::FixedStringMethods::ToUpperAscii)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x64af16c;
+  constexpr static std::size_t addrs = 0x64b6be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeText (*)(::by_ref<::Unity::Collections::NativeText>, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::FixedStringMethods::ToUpperAscii)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x64af2b4;
+  constexpr static std::size_t addrs = 0x64b6d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

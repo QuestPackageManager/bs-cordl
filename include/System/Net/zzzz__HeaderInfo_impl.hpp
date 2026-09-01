@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/HeaderInfo.hpp"
+// IWYU pragma private; include "System\Net\HeaderInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HeaderInfo_def.hpp"
 #include "System/Net/zzzz__HeaderParser_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HeaderInfo::*)(::StringW, bool, bool, bool, ::System::Net::HeaderParser*)>(&::System::Net::HeaderInfo::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x640dd70;
+  constexpr static std::size_t addrs = 0x64157ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

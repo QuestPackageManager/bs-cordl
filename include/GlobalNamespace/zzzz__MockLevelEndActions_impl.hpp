@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MockLevelEndActions.hpp"
+// IWYU pragma private; include "GlobalNamespace\MockLevelEndActions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockLevelEndActions_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockLevelEndActions::*)(::System::Action*)>(&::GlobalNamespace::MockLevelEndActions::add_levelFinishedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59a1884;
+  constexpr static std::size_t addrs = 0x59a97c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockLevelEndActions::*)(::System::Action*)>(&::GlobalNamespace::MockLevelEndActions::remove_levelFinishedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59a1930;
+  constexpr static std::size_t addrs = 0x59a9870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockLevelEndActions::*)(::System::Action*)>(&::GlobalNamespace::MockLevelEndActions::add_levelFailedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59a19dc;
+  constexpr static std::size_t addrs = 0x59a991c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockLevelEndActions::*)(::System::Action*)>(&::GlobalNamespace::MockLevelEndActions::remove_levelFailedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59a1a88;
+  constexpr static std::size_t addrs = 0x59a99c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockLevelEndActions::*)()>(&::GlobalNamespace::MockLevelEndActions::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59a1b34;
+  constexpr static std::size_t addrs = 0x59a9a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockLevelEndActions*>(), { ".ctor", {}, {} })));

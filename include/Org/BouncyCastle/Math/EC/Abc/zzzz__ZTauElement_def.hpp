@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Abc/ZTauElement.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Abc\ZTauElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_v(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x349d2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a10a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v);
 
 protected:

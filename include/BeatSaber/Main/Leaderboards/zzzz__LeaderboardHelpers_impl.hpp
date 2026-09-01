@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/Leaderboards/LeaderboardHelpers.hpp"
+// IWYU pragma private; include "BeatSaber\Main\Leaderboards\LeaderboardHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__LeaderboardHelpers_def.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/zzzz__XOCBeatGamesBeatmapCharacteristic_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic (*)(::StringW)>(
     &::BeatSaber::Main::Leaderboards::LeaderboardHelpers::ConvertCharacteristic)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x32a1b3c;
+  constexpr static std::size_t addrs = 0x32a5938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty (*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::BeatSaber::Main::Leaderboards::LeaderboardHelpers::ConvertDifficulty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32a1e84;
+  constexpr static std::size_t addrs = 0x32a5c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::LeaderboardHelpers*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ClassDataNode.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ClassDataNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
   /// @brief Field members, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_members, put = __cordl_internal_set_members)) ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* members;
 
-  /// @brief Method Clear, addr 0x6148c24, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x61506a0, size 0x48, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::System::Runtime::Serialization::ClassDataNode* New_ctor();
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* value);
 
-  /// @brief Method .ctor, addr 0x6148a98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6150514, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Members, addr 0x6148c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x6150690, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* get_Members();
 
-  /// @brief Method set_Members, addr 0x6148c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Members, addr 0x6150698, size 0x8, virtual false, abstract: false, final false
   inline void set_Members(::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* value);
 
 protected:
@@ -68,7 +68,7 @@ public:
   ClassDataNode(ClassDataNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17037 };
 
   /// @brief Field members, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ExtensionDataMember*>* ___members;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/ConstraintConverter.hpp"
+// IWYU pragma private; include "System\Data\ConstraintConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,16 +31,16 @@ namespace System::Data {
 class CORDL_TYPE ConstraintConverter : public ::System::ComponentModel::ExpandableObjectConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertTo, addr 0x6017b84, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x601f600, size 0xa4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x6017c28, size 0x964, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x601f6a4, size 0x964, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Data::ConstraintConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6017b80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x601f5fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   ConstraintConverter(ConstraintConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Torus.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Shapes\Torus.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Torus_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Torus::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Torus::CopyShape)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x670472c;
+  constexpr static std::size_t addrs = 0x670c1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Torus::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Torus::UpdateBounds)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x67047c8;
+  constexpr static std::size_t addrs = 0x670c244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Torus::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Torus::RebuildMesh)> {
   constexpr static std::size_t size = 0xa00;
-  constexpr static std::size_t addrs = 0x6704848;
+  constexpr static std::size_t addrs = 0x670c2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(int32_t, float_t, float_t, ::UnityEngine::Quaternion, float_t)>(
     &::UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x6705248;
+  constexpr static std::size_t addrs = 0x670ccc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(int32_t, float_t, float_t, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x6705564;
+  constexpr static std::size_t addrs = 0x670cfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Torus::*)()>(&::UnityEngine::ProBuilder::Shapes::Torus::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x67057f8;
+  constexpr static std::size_t addrs = 0x670d274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Torus*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/MibIPGlobalProperties.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\MibIPGlobalProperties.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixIPGlobalProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__MibIPGlobalProperties_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::MibIPGlobalProperties._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::MibIPGlobalProperties::*)(::StringW)>(
     &::System::Net::NetworkInformation::MibIPGlobalProperties::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x634f410;
+  constexpr static std::size_t addrs = 0x6356e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

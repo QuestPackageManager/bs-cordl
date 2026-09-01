@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ZenjectExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\ZenjectExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ZenjectExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__ZenjectExtensions_def.hpp"

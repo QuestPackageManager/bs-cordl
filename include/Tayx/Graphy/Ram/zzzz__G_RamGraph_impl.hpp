@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Ram/G_RamGraph.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Ram\G_RamGraph.hpp"
 #include "Tayx/Graphy/Graph/zzzz__G_Graph_impl.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamGraph_def.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Ram::G_RamGraph::*)()>(&::Tayx::Graphy::Ram::G_RamGraph::Update)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64372fc;
+  constexpr static std::size_t addrs = 0x643ed78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Ram::G_RamGraph*>(), { "Update", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Ram::G_RamGraph::*)()>(&::Tayx::Graphy::Ram::G_RamGraph::UpdateParameters)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x6437308;
+  constexpr static std::size_t addrs = 0x643ed84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Ram::G_RamGraph*>(), { "UpdateParameters", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Ram::G_RamGraph::*)()>(&::Tayx::Graphy::Ram::G_RamGraph::Init)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6437554;
+  constexpr static std::size_t addrs = 0x643efd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Ram::G_RamGraph*>(), { "Init", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Ram::G_RamGraph::*)()>(&::Tayx::Graphy::Ram::G_RamGraph::UpdateGraph)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x64376b8;
+  constexpr static std::size_t addrs = 0x643f134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Ram::G_RamGraph::*)()>(&::Tayx::Graphy::Ram::G_RamGraph::CreatePoints)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x64378fc;
+  constexpr static std::size_t addrs = 0x643f378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Ram::G_RamGraph::*)()>(&::Tayx::Graphy::Ram::G_RamGraph::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6437c0c;
+  constexpr static std::size_t addrs = 0x643f688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Ram::G_RamGraph*>(), { ".ctor", {}, {} })));

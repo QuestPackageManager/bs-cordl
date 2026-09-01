@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/DeferredPass.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\DeferredPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_shadowData(::UnityEngine::Rendering::Universal::UniversalShadowData* value);
 
-  /// @brief Method .ctor, addr 0x68f65e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68fe060, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,7 +163,7 @@ public:
   DeferredPass_PassData(DeferredPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13081 };
 
   /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
@@ -223,10 +223,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* New_ctor();
 
-  /// @brief Method <Render>b__5_0, addr 0x68f6640, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__5_0, addr 0x68fe0bc, size 0x30, virtual false, abstract: false, final false
   inline void _Render_b__5_0(::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x68f663c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68fe0b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* getStaticF___9();
@@ -255,7 +255,7 @@ public:
   DeferredPass___c(DeferredPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -277,19 +277,19 @@ public:
   /// @brief Field m_DeferredLights, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DeferredLights, put = __cordl_internal_set_m_DeferredLights)) ::UnityEngine::Rendering::Universal::Internal::DeferredLights* m_DeferredLights;
 
-  /// @brief Method Configure, addr 0x68f5cac, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Configure, addr 0x68fd728, size 0x4c, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescripor);
 
-  /// @brief Method Execute, addr 0x68f5cf8, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x68fd774, size 0x124, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                                                                                       ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
-  /// @brief Method OnCameraCleanup, addr 0x68f65cc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x68fe048, size 0x18, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method Render, addr 0x68f5e1c, size 0x7b0, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x68fd898, size 0x7b0, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle color, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depth,
                      ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> gbuffer);
@@ -300,7 +300,7 @@ public:
 
   constexpr void __cordl_internal_set_m_DeferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights* value);
 
-  /// @brief Method .ctor, addr 0x68f5bdc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68fd658, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
 protected:
@@ -318,7 +318,7 @@ public:
   DeferredPass(DeferredPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13083 };
 
   /// @brief Field m_DeferredLights, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::Internal::DeferredLights* ___m_DeferredLights;

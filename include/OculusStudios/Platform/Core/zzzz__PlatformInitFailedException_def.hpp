@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/PlatformInitFailedException.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\PlatformInitFailedException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::OculusStudios::Platform::Core::PlatformInitFailedException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5f2a03c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e4fc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f2a094, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e554, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5f2a100, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e5c0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -53,7 +53,7 @@ public:
   PlatformInitFailedException(PlatformInitFailedException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

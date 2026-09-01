@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SoftJointLimitSpring.hpp"
+// IWYU pragma private; include "UnityEngine\SoftJointLimitSpring.hpp"
 #include "UnityEngine/zzzz__SoftJointLimitSpring_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SoftJointLimitSpring.get_spring
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::SoftJointLimitSpring::*)()>(&::UnityEngine::SoftJointLimitSpring::get_spring)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b6a7ac;
+  constexpr static std::size_t addrs = 0x6b72330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SoftJointLimitSpring>(), { "get_spring", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SoftJointLimitSpring::*)(float_t)>(&::UnityEngine::SoftJointLimitSpring::set_spring)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b6a7b4;
+  constexpr static std::size_t addrs = 0x6b72338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::SoftJointLimitSpring::*)()>(&::UnityEngine::SoftJointLimitSpring::get_damper)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b6a7bc;
+  constexpr static std::size_t addrs = 0x6b72340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SoftJointLimitSpring>(), { "get_damper", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SoftJointLimitSpring::*)(float_t)>(&::UnityEngine::SoftJointLimitSpring::set_damper)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b6a7c4;
+  constexpr static std::size_t addrs = 0x6b72348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/InjectOptionalAttribute.hpp"
+// IWYU pragma private; include "Zenject\InjectOptionalAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Zenject::InjectOptionalAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e35c00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3d784, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   InjectOptionalAttribute(InjectOptionalAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22512 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DisallowSmallMeshCulling.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DisallowSmallMeshCulling.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DisallowSmallMeshCulling_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)()>(
     &::UnityEngine::Rendering::DisallowSmallMeshCulling::get_applyToChildrenRecursively)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6802d30;
+  constexpr static std::size_t addrs = 0x680a7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)(bool)>(
     &::UnityEngine::Rendering::DisallowSmallMeshCulling::set_applyToChildrenRecursively)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6802d38;
+  constexpr static std::size_t addrs = 0x680a7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)()>(&::UnityEngine::Rendering::DisallowSmallMeshCulling::OnEnable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6802d7c;
+  constexpr static std::size_t addrs = 0x680a7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DisallowSmallMeshCulling*>(), { "OnEnable", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)()>(&::UnityEngine::Rendering::DisallowSmallMeshCulling::OnDisable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6802d54;
+  constexpr static std::size_t addrs = 0x680a7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DisallowSmallMeshCulling*>(), { "OnDisable", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Transform*, bool)>(&::UnityEngine::Rendering::DisallowSmallMeshCulling::AllowSmallMeshCulling)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x68030dc;
+  constexpr static std::size_t addrs = 0x680ab58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DisallowSmallMeshCulling*>(),
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Transform*, bool)>(&::UnityEngine::Rendering::DisallowSmallMeshCulling::AllowSmallMeshCullingRecursively)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x6802da8;
+  constexpr static std::size_t addrs = 0x680a824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)()>(&::UnityEngine::Rendering::DisallowSmallMeshCulling::OnValidate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68031a0;
+  constexpr static std::size_t addrs = 0x680ac1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DisallowSmallMeshCulling*>(), { "OnValidate", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DisallowSmallMeshCulling::*)()>(&::UnityEngine::Rendering::DisallowSmallMeshCulling::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68031b8;
+  constexpr static std::size_t addrs = 0x680ac34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DisallowSmallMeshCulling*>(), { ".ctor", {}, {} })));

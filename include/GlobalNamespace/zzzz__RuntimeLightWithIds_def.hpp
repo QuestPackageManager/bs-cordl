@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RuntimeLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace\RuntimeLightWithIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x5870fa8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58708c8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x5870f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x58708b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x5870fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x58708c0, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   RuntimeLightWithIds_LightIntensitiesWithId(RuntimeLightWithIds_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19552 };
 
   /// @brief Field _intensity, offset: 0x30, size: 0x4, def value: None
   float_t ____intensity;
@@ -123,15 +123,15 @@ public:
   /// @brief Method ColorWasSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method GetLightWithIds, addr 0x5870e00, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x58708b0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::RuntimeLightWithIds* New_ctor();
 
-  /// @brief Method ProcessColor, addr 0x5870dc0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ProcessColor, addr 0x5870870, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method ProcessNewColorData, addr 0x5870c70, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x5870720, size 0x150, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr float_t const& __cordl_internal_get__intensity() const;
@@ -164,10 +164,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplyColorByAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x586d248, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58706d4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mixType, addr 0x5870c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mixType, addr 0x5870718, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_mixType();
 
 protected:
@@ -185,7 +185,7 @@ public:
   RuntimeLightWithIds(RuntimeLightWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19553 };
 
   /// @brief Field _lightIntensityData, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId*> ____lightIntensityData;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/XPath/Filter.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\XPath\Filter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__input(::MS::Internal::Xml::XPath::AstNode* value);
 
-  /// @brief Method .ctor, addr 0x626f004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6276a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::AstNode* input, ::MS::Internal::Xml::XPath::AstNode* condition);
 
-  /// @brief Method get_ReturnType, addr 0x626f014, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x6276a90, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x626f00c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x6276a88, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
@@ -76,7 +76,7 @@ public:
   Filter(Filter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9866 };
 
   /// @brief Field _input, offset: 0x10, size: 0x8, def value: None
   ::MS::Internal::Xml::XPath::AstNode* ____input;

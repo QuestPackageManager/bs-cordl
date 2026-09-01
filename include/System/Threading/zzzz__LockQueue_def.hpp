@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/LockQueue.hpp"
+// IWYU pragma private; include "System\Threading\LockQueue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   static inline ::System::Threading::LockQueue* New_ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method Pulse, addr 0x5cb42a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Pulse, addr 0x5cb8760, size 0xb0, virtual false, abstract: false, final false
   inline void Pulse();
 
-  /// @brief Method Wait, addr 0x5cb4064, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x5cb8520, size 0x184, virtual false, abstract: false, final false
   inline bool Wait(int32_t timeout);
 
   constexpr int32_t const& __cordl_internal_get_lockCount() const;
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set_rwlock(::System::Threading::ReaderWriterLock* value);
 
-  /// @brief Method .ctor, addr 0x5cb405c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb8518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method get_IsEmpty, addr 0x5cb41e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x5cb86a4, size 0xbc, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
 protected:

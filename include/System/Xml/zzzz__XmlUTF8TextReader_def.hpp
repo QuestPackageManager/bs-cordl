@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlUTF8TextReader.hpp"
+// IWYU pragma private; include "System\Xml\XmlUTF8TextReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,87 +71,87 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlLineInfo"
   constexpr operator ::System::Xml::IXmlLineInfo*() noexcept;
 
-  /// @brief Method BreakText, addr 0x61249b4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BreakText, addr 0x612c430, size 0xb4, virtual false, abstract: false, final false
   inline int32_t BreakText(::ArrayW<uint8_t> buffer, int32_t offset, int32_t length);
 
-  /// @brief Method BufferElement, addr 0x6122a70, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method BufferElement, addr 0x612a4ec, size 0x128, virtual false, abstract: false, final false
   inline void BufferElement();
 
-  /// @brief Method Close, addr 0x6122568, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x6129fe4, size 0xf0, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetPosition, addr 0x612545c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetPosition, addr 0x612ced8, size 0xc0, virtual false, abstract: false, final false
   inline void GetPosition(::by_ref<int32_t> row, ::by_ref<int32_t> column);
 
-  /// @brief Method HasLineInfo, addr 0x6125434, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method HasLineInfo, addr 0x612ceb0, size 0x8, virtual true, abstract: false, final true
   inline bool HasLineInfo();
 
-  /// @brief Method IsNextCharacterNonFFFE, addr 0x6123d2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsNextCharacterNonFFFE, addr 0x612b7a8, size 0x64, virtual false, abstract: false, final false
   inline bool IsNextCharacterNonFFFE(::ArrayW<uint8_t> buffer, int32_t offset);
 
-  /// @brief Method MoveToInitial, addr 0x612252c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method MoveToInitial, addr 0x6129fa8, size 0x3c, virtual false, abstract: false, final false
   inline void MoveToInitial(::System::Xml::XmlDictionaryReaderQuotas* quotas, ::System::Xml::OnXmlDictionaryReaderClose* onClose);
 
   static inline ::System::Xml::XmlUTF8TextReader* New_ctor();
 
-  /// @brief Method Read, addr 0x6124f58, size 0x48c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x612c9d4, size 0x48c, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAttributeText, addr 0x61239ac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ReadAttributeText, addr 0x612b428, size 0xe8, virtual false, abstract: false, final false
   inline int32_t ReadAttributeText(::ArrayW<uint8_t> buffer, int32_t offset, int32_t offsetMax);
 
-  /// @brief Method ReadAttributes, addr 0x6122c38, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method ReadAttributes, addr 0x612a6b4, size 0x5e8, virtual false, abstract: false, final false
   inline void ReadAttributes();
 
-  /// @brief Method ReadCData, addr 0x612455c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method ReadCData, addr 0x612bfd8, size 0x2a8, virtual false, abstract: false, final false
   inline void ReadCData();
 
-  /// @brief Method ReadCharRef, addr 0x6123b10, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReadCharRef, addr 0x612b58c, size 0x9c, virtual false, abstract: false, final false
   inline int32_t ReadCharRef();
 
-  /// @brief Method ReadComment, addr 0x6124224, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ReadComment, addr 0x612bca0, size 0x284, virtual false, abstract: false, final false
   inline void ReadComment();
 
-  /// @brief Method ReadDeclaration, addr 0x6122728, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method ReadDeclaration, addr 0x612a1a4, size 0x348, virtual false, abstract: false, final false
   inline void ReadDeclaration();
 
-  /// @brief Method ReadEndElement, addr 0x6123f90, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ReadEndElement, addr 0x612ba0c, size 0x210, virtual false, abstract: false, final false
   inline void ReadEndElement();
 
-  /// @brief Method ReadEscapedText, addr 0x6124e88, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReadEscapedText, addr 0x612c904, size 0xd0, virtual false, abstract: false, final false
   inline void ReadEscapedText();
 
-  /// @brief Method ReadNonFFFE, addr 0x6123bac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadNonFFFE, addr 0x612b628, size 0x110, virtual false, abstract: false, final false
   inline void ReadNonFFFE();
 
-  /// @brief Method ReadQualifiedName, addr 0x6123638, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method ReadQualifiedName, addr 0x612b0b4, size 0x374, virtual false, abstract: false, final false
   inline void ReadQualifiedName(::System::Xml::PrefixHandle* prefix, ::System::Xml::StringHandle* localName);
 
-  /// @brief Method ReadStartElement, addr 0x6123d90, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method ReadStartElement, addr 0x612b80c, size 0x200, virtual false, abstract: false, final false
   inline void ReadStartElement();
 
-  /// @brief Method ReadText, addr 0x6124a68, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ReadText, addr 0x612c4e4, size 0xe8, virtual false, abstract: false, final false
   inline int32_t ReadText(::ArrayW<uint8_t> buffer, int32_t offset, int32_t offsetMax);
 
-  /// @brief Method ReadText, addr 0x6124d00, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ReadText, addr 0x612c77c, size 0x188, virtual false, abstract: false, final false
   inline void ReadText(bool hasLeadingByteOf0xEF);
 
-  /// @brief Method ReadTextAndWatchForInvalidCharacters, addr 0x6124b50, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ReadTextAndWatchForInvalidCharacters, addr 0x612c5cc, size 0x1b0, virtual false, abstract: false, final false
   inline int32_t ReadTextAndWatchForInvalidCharacters(::ArrayW<uint8_t> buffer, int32_t offset, int32_t offsetMax);
 
-  /// @brief Method ReadWhitespace, addr 0x61248cc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ReadWhitespace, addr 0x612c348, size 0xe8, virtual false, abstract: false, final false
   inline int32_t ReadWhitespace(::ArrayW<uint8_t> buffer, int32_t offset, int32_t offsetMax);
 
-  /// @brief Method ReadWhitespace, addr 0x6124804, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ReadWhitespace, addr 0x612c280, size 0xc8, virtual false, abstract: false, final false
   inline void ReadWhitespace();
 
-  /// @brief Method SetInput, addr 0x6122444, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method SetInput, addr 0x6129ec0, size 0xe8, virtual true, abstract: false, final true
   inline void SetInput(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, ::System::Xml::XmlDictionaryReaderQuotas* quotas, ::System::Xml::OnXmlDictionaryReaderClose* onClose);
 
-  /// @brief Method SkipWhitespace, addr 0x6122658, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespace, addr 0x612a0d4, size 0xd0, virtual false, abstract: false, final false
   inline void SkipWhitespace();
 
-  /// @brief Method VerifyNCName, addr 0x612327c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method VerifyNCName, addr 0x612acf8, size 0xf0, virtual false, abstract: false, final false
   inline void VerifyNCName(::StringW s);
 
   constexpr bool const& __cordl_internal_get_buffered() const;
@@ -190,15 +190,15 @@ public:
 
   constexpr void __cordl_internal_set_rowOffsets(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x612237c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6129df8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t> getStaticF_charType();
 
-  /// @brief Method get_LineNumber, addr 0x612543c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_LineNumber, addr 0x612ceb8, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x612551c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_LinePosition, addr 0x612cf98, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_LinePosition();
 
   /// @brief Convert to "::System::Xml::IXmlLineInfo"
@@ -221,7 +221,7 @@ public:
   XmlUTF8TextReader(XmlUTF8TextReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16993 };
 
   /// @brief Field prefix, offset: 0xf8, size: 0x8, def value: None
   ::System::Xml::PrefixHandle* ___prefix;

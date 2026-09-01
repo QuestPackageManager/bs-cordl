@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/ScriptPlayableBinding.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\ScriptPlayableBinding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayableBinding_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableBinding (*)(::StringW, ::UnityEngine::Object*, ::System::Type*)>(
     &::UnityEngine::Playables::ScriptPlayableBinding::Create)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6afef2c;
+  constexpr static std::size_t addrs = 0x6b06944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Playables::PlayableGraph, ::StringW)>(
     &::UnityEngine::Playables::ScriptPlayableBinding::CreateScriptOutput)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6afefec;
+  constexpr static std::size_t addrs = 0x6b06a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

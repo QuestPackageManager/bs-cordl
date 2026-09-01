@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/CodeInterpreter.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\CodeInterpreter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,19 +31,19 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE CodeInterpreter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x61745b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x617c034, size 0x10, virtual false, abstract: false, final false
   static inline bool CanConvert(::System::TypeCode typeCode);
 
-  /// @brief Method ConvertValue, addr 0x6174358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x617bdd4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* ConvertValue(::System::Object* arg, ::System::Type* source, ::System::Type* target);
 
-  /// @brief Method GetMember, addr 0x61745c8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetMember, addr 0x617c044, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Object* GetMember(::System::Reflection::MemberInfo* memberInfo, ::System::Object* instance);
 
-  /// @brief Method InternalConvert, addr 0x6174360, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method InternalConvert, addr 0x617bddc, size 0x258, virtual false, abstract: false, final false
   static inline ::System::Object* InternalConvert(::System::Object* arg, ::System::Type* source, ::System::Type* target, bool isAddress);
 
-  /// @brief Method SetMember, addr 0x61746c4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SetMember, addr 0x617c140, size 0x104, virtual false, abstract: false, final false
   static inline void SetMember(::System::Reflection::MemberInfo* memberInfo, ::System::Object* instance, ::System::Object* value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   CodeInterpreter(CodeInterpreter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17150 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundNonLightInstancedGroupRenderer.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundNonLightInstancedGroupRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,7 +103,7 @@ public:
   static ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_PropertyType const Vector;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19453 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyType(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_PropertyType value);
 
-  /// @brief Method .ctor, addr 0x5861fa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58610ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -174,7 +174,7 @@ public:
   BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty(BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19452 };
 
   /// @brief Field propertyType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_PropertyType ___propertyType;
@@ -245,27 +245,27 @@ public:
   /// @brief Field _worldSpaceCameraPosID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__worldSpaceCameraPosID, put = setStaticF__worldSpaceCameraPosID)) int32_t _worldSpaceCameraPosID;
 
-  /// @brief Method AutoFillRenderers, addr 0x5861d44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AutoFillRenderers, addr 0x5860e4c, size 0x54, virtual false, abstract: false, final false
   inline void AutoFillRenderers();
 
-  /// @brief Method Awake, addr 0x58611ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58602f4, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetCachedFloatArray, addr 0x5861c50, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFloatArray, addr 0x5860d58, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> GetCachedFloatArray(::StringW propertyName);
 
-  /// @brief Method GetCachedMatrixArray, addr 0x5861a68, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetCachedMatrixArray, addr 0x5860b70, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> GetCachedMatrixArray(::StringW propertyName);
 
-  /// @brief Method GetCachedVectorArray, addr 0x5861b5c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetCachedVectorArray, addr 0x5860c64, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4> GetCachedVectorArray(::StringW propertyName);
 
-  /// @brief Method InitIfNeeded, addr 0x58611f0, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x58602f8, size 0x204, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer* New_ctor();
 
-  /// @brief Method Render, addr 0x5861428, size 0x640, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x5860530, size 0x640, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>> const& __cordl_internal_get__renderers() const;
@@ -322,7 +322,7 @@ public:
 
   constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
 
-  /// @brief Method .ctor, addr 0x5861d98, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5860ea0, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__worldSpaceCameraPosID();
@@ -344,7 +344,7 @@ public:
   BloomPrePassBackgroundNonLightInstancedGroupRenderer(BloomPrePassBackgroundNonLightInstancedGroupRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19454 };
 
   /// @brief Field kInternalMatricesCachingId offset 0xffffffff size 0x8
   static constexpr ::ConstString kInternalMatricesCachingId{ u"INTERNAL_MATRICES" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/SelectorMatchRecord.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\SelectorMatchRecord.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__SelectorMatchRecord_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleComplexSelector_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord::*)(::UnityEngine::UIElements::StyleSheet*, int32_t)>(
     &::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d0f250;
+  constexpr static std::size_t addrs = 0x6d16dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord)>(
     &::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord::Compare)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6d0f264;
+  constexpr static std::size_t addrs = 0x6d16de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

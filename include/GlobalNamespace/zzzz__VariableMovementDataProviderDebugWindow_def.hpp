@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/VariableMovementDataProviderDebugWindow.hpp"
+// IWYU pragma private; include "GlobalNamespace\VariableMovementDataProviderDebugWindow.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
 
   static inline ::GlobalNamespace::VariableMovementDataProviderDebugWindow* New_ctor();
 
-  /// @brief Method OnGUI, addr 0x58ce064, size 0xbf8, virtual false, abstract: false, final false
+  /// @brief Method OnGUI, addr 0x58cda14, size 0xbf8, virtual false, abstract: false, final false
   inline void OnGUI();
 
   constexpr float_t const& __cordl_internal_get__njs() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x58cec5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ce60c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

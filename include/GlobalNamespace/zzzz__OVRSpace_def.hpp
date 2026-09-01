@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRSpace.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRSpace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   static ::GlobalNamespace::OVRSpace_StorageLocation const Local;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7703 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,43 +102,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRSpace>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRSpace>*();
 
-  /// @brief Method Equals, addr 0x5ecd36c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5ed1828, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5ecd35c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5ed1818, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRSpace other);
 
-  /// @brief Method GetHashCode, addr 0x5ecd3e8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5ed18a4, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x5ecd2c4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5ed1780, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetUuid, addr 0x5ecd24c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGetUuid, addr 0x5ed1708, size 0x70, virtual false, abstract: false, final false
   inline bool TryGetUuid(::by_ref<::System::Guid> uuid);
 
-  /// @brief Method .ctor, addr 0x5ecd2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed1778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t handle);
 
-  /// @brief Method get_Handle, addr 0x5ecd244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5ed1700, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_Valid, addr 0x5ec662c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x5ecaae8, size 0x10, virtual false, abstract: false, final false
   inline bool get_Valid();
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRSpace>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRSpace>* i___System__IEquatable_1___GlobalNamespace__OVRSpace_();
 
-  /// @brief Method op_Equality, addr 0x5ecd3f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5ed18b0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRSpace lhs, ::GlobalNamespace::OVRSpace rhs);
 
-  /// @brief Method op_Implicit, addr 0x5ec1c2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x5ec60e8, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRSpace op_Implicit___GlobalNamespace__OVRSpace(uint64_t handle);
 
-  /// @brief Method op_Implicit, addr 0x5ec1c30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x5ec60ec, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t op_Implicit_uint64_t(::GlobalNamespace::OVRSpace space);
 
-  /// @brief Method op_Inequality, addr 0x5ecd400, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5ed18bc, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRSpace lhs, ::GlobalNamespace::OVRSpace rhs);
 
   // Ctor Parameters []
@@ -149,7 +149,7 @@ public:
   constexpr OVRSpace(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7704 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

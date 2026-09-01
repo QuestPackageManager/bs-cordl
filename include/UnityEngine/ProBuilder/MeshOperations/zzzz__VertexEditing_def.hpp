@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/VertexEditing.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\VertexEditing.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,25 +55,25 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class CORDL_TYPE VertexEditing : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AlignEdgeWithDirection, addr 0x673b2ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AlignEdgeWithDirection, addr 0x6742d68, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge AlignEdgeWithDirection(::UnityEngine::ProBuilder::EdgeLookup edge, int32_t commonIndex);
 
-  /// @brief Method ExplodeVertex, addr 0x673a6d8, size 0xc14, virtual false, abstract: false, final false
+  /// @brief Method ExplodeVertex, addr 0x6742154, size 0xc14, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::FaceRebuildData*
   ExplodeVertex(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                 ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::WingedEdge*, int32_t>>* edgeAndCommonIndex, float_t distance,
                 ::by_ref<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*> appendedVertices);
 
-  /// @brief Method MergeVertices, addr 0x673925c, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method MergeVertices, addr 0x6740cd8, size 0x31c, virtual false, abstract: false, final false
   static inline int32_t MergeVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t> indexes, bool collapseToFirst);
 
-  /// @brief Method SplitVertices, addr 0x6739578, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SplitVertices, addr 0x6740ff4, size 0x8c, virtual false, abstract: false, final false
   static inline void SplitVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method SplitVertices, addr 0x6739604, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method SplitVertices, addr 0x6741080, size 0x3f0, virtual false, abstract: false, final false
   static inline void SplitVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
-  /// @brief Method WeldVertices, addr 0x67399f4, size 0xce4, virtual false, abstract: false, final false
+  /// @brief Method WeldVertices, addr 0x6741470, size 0xce4, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> WeldVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes, float_t neighborRadius);
 
 protected:
@@ -91,7 +91,7 @@ public:
   VertexEditing(VertexEditing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

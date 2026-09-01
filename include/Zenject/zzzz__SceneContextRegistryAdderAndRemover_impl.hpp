@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SceneContextRegistryAdderAndRemover.hpp"
+// IWYU pragma private; include "Zenject\SceneContextRegistryAdderAndRemover.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SceneContextRegistryAdderAndRemover_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)(::Zenject::SceneContext*, ::Zenject::SceneContextRegistry*)>(
     &::Zenject::SceneContextRegistryAdderAndRemover::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e8f684;
+  constexpr static std::size_t addrs = 0x6e97208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)()>(&::Zenject::SceneContextRegistryAdderAndRemover::Initialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e8f68c;
+  constexpr static std::size_t addrs = 0x6e97210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(), { "Initialize", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)()>(&::Zenject::SceneContextRegistryAdderAndRemover::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e8f6a8;
+  constexpr static std::size_t addrs = 0x6e9722c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneContextRegistryAdderAndRemover*>(), { "Dispose", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::SceneContextRegistryAdderAndRemover::__zenCreate)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6e8f6c4;
+  constexpr static std::size_t addrs = 0x6e97248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneContextRegistryAdderAndRemover::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x6e8f7d4;
+  constexpr static std::size_t addrs = 0x6e97358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

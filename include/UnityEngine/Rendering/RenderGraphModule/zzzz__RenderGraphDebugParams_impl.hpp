@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphDebugParams.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphDebugParams.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugUI_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphDebugParams_def.hpp"
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67c8670;
+  constexpr static std::size_t addrs = 0x67d00ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* (
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)(::StringW)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::GetWidgetList)> {
   constexpr static std::size_t size = 0x774;
-  constexpr static std::size_t addrs = 0x67c867c;
+  constexpr static std::size_t addrs = 0x67d00f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::IsImmediateModeSupported)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x67c8df0;
+  constexpr static std::size_t addrs = 0x67d086c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)(::StringW, ::UnityEngine::Rendering::DebugUI_Panel*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::RegisterDebug)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x67c8ed0;
+  constexpr static std::size_t addrs = 0x67d094c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)(::StringW)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::UnRegisterDebug)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x67c8ff4;
+  constexpr static std::size_t addrs = 0x67d0a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::get_AreAnySettingsActive)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67c905c;
+  constexpr static std::size_t addrs = 0x67d0ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67c9094;
+  constexpr static std::size_t addrs = 0x67d0b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c9098;
+  constexpr static std::size_t addrs = 0x67d0b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c90a0;
+  constexpr static std::size_t addrs = 0x67d0b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c90a8;
+  constexpr static std::size_t addrs = 0x67d0b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c90b0;
+  constexpr static std::size_t addrs = 0x67d0b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c90b8;
+  constexpr static std::size_t addrs = 0x67d0b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c90c0;
+  constexpr static std::size_t addrs = 0x67d0b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c90c8;
+  constexpr static std::size_t addrs = 0x67d0b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c90d0;
+  constexpr static std::size_t addrs = 0x67d0b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_8)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67c90d8;
+  constexpr static std::size_t addrs = 0x67d0b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_9)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c90f0;
+  constexpr static std::size_t addrs = 0x67d0b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_10)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c90f8;
+  constexpr static std::size_t addrs = 0x67d0b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_11)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x67c9100;
+  constexpr static std::size_t addrs = 0x67d0b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams::_GetWidgetList_b__11_12)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x67c9188;
+  constexpr static std::size_t addrs = 0x67d0c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/AsyncHelper.hpp"
+// IWYU pragma private; include "System\Xml\AsyncHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   AsyncHelper(AsyncHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9241 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

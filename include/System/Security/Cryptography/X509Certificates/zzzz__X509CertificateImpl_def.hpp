@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509CertificateImpl.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509CertificateImpl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,22 +70,22 @@ public:
   /// @brief Method CopyWithPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
 
-  /// @brief Method Dispose, addr 0x5b0d23c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5b116f8, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x5b0e97c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5b12e38, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Equals, addr 0x5b0e808, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5b12cc4, size 0x174, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Finalize, addr 0x5b0e980, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5b12e3c, size 0x54, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method GetDSAPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::DSA* GetDSAPrivateKey();
 
-  /// @brief Method GetHashCode, addr 0x5b0e790, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x5b12c4c, size 0x78, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
   /// @brief Method GetRSAPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -93,10 +93,10 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* New_ctor();
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x5b0e6d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x5b12b8c, size 0x3c, virtual false, abstract: false, final false
   inline void ThrowIfContextInvalid();
 
-  /// @brief Method .ctor, addr 0x5b0e9d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b12e90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_HasPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

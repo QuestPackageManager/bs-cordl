@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureConfiguration_Hardcoded.hpp"
+// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureConfiguration_Hardcoded.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureConfiguration_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureConfiguration_Hardcoded_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FeatureConfiguration_Hardcoded._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FeatureConfiguration_Hardcoded::*)(bool)>(&::GlobalNamespace::FeatureConfiguration_Hardcoded::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32879e0;
+  constexpr static std::size_t addrs = 0x328b778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

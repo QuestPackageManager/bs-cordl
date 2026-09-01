@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FadeInOutController.hpp"
+// IWYU pragma private; include "GlobalNamespace\FadeInOutController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,21 +94,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5857ae8, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5856bf0, size 0x1b8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::FadeInOutController__Fade_d__19* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5857ca0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5856da8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5857ca8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5856db0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5857ce0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5856de8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5857ae4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5856bec, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_toValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x5857ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5856bcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -198,7 +198,7 @@ public:
   FadeInOutController__Fade_d__19(FadeInOutController__Fade_d__19 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21410 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -288,35 +288,35 @@ public:
 
   __declspec(property(get = get_inTransition, put = set_inTransition)) bool inTransition;
 
-  /// @brief Method Fade, addr 0x5857a2c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Fade, addr 0x5856b34, size 0x98, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Fade(float_t fromValue, float_t toValue, float_t duration, float_t startDelay, ::UnityEngine::AnimationCurve* curve,
                                                   ::System::Action* fadeFinishedCallback);
 
-  /// @brief Method FadeIn, addr 0x585791c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x5856a24, size 0xc, virtual false, abstract: false, final false
   inline void FadeIn();
 
-  /// @brief Method FadeIn, addr 0x5857a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x5856b14, size 0x8, virtual false, abstract: false, final false
   inline void FadeIn(float_t duration);
 
-  /// @brief Method FadeIn, addr 0x5857928, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x5856a30, size 0xd8, virtual false, abstract: false, final false
   inline void FadeIn(float_t duration, ::System::Action* fadeInFinishedCallback);
 
-  /// @brief Method FadeIn, addr 0x5857a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x5856b24, size 0x8, virtual false, abstract: false, final false
   inline void FadeIn(::System::Action* fadeInCallback);
 
-  /// @brief Method FadeOut, addr 0x5857a00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x5856b08, size 0xc, virtual false, abstract: false, final false
   inline void FadeOut();
 
-  /// @brief Method FadeOut, addr 0x5857a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x5856b1c, size 0x8, virtual false, abstract: false, final false
   inline void FadeOut(float_t duration);
 
-  /// @brief Method FadeOut, addr 0x5857840, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x5856948, size 0xdc, virtual false, abstract: false, final false
   inline void FadeOut(float_t duration, ::System::Action* fadeOutFinishedCallback);
 
-  /// @brief Method FadeOut, addr 0x5857a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x5856b2c, size 0x8, virtual false, abstract: false, final false
   inline void FadeOut(::System::Action* fadeOutCallback);
 
-  /// @brief Method FadeOutInstant, addr 0x5857834, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FadeOutInstant, addr 0x585693c, size 0xc, virtual false, abstract: false, final false
   inline void FadeOutInstant();
 
   static inline ::GlobalNamespace::FadeInOutController* New_ctor();
@@ -363,13 +363,13 @@ public:
 
   constexpr void __cordl_internal_set__inTransition_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5857acc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5856bd4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_inTransition, addr 0x5857824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inTransition, addr 0x585692c, size 0x8, virtual false, abstract: false, final false
   inline bool get_inTransition();
 
-  /// @brief Method set_inTransition, addr 0x585782c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inTransition, addr 0x5856934, size 0x8, virtual false, abstract: false, final false
   inline void set_inTransition(bool value);
 
 protected:
@@ -387,7 +387,7 @@ public:
   FadeInOutController(FadeInOutController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21411 };
 
   /// @brief Field _easeValue, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FloatSO> ____easeValue;

@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "Unity/Profiling/ProfilerCategory.hpp"
+// IWYU pragma private; include "Unity\Profiling\ProfilerCategory.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCategory_def.hpp"
 //  Writing Method size for method: ::Unity::Profiling::ProfilerCategory._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Profiling::ProfilerCategory::*)(uint16_t)>(&::Unity::Profiling::ProfilerCategory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a555fc;
+  constexpr static std::size_t addrs = 0x6a5d078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerCategory>(), { ".ctor", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Profiling::ProfilerCategory::*)()>(&::Unity::Profiling::ProfilerCategory::get_Name)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a55604;
+  constexpr static std::size_t addrs = 0x6a5d080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerCategory>(), { "get_Name", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Profiling::ProfilerCategory::*)()>(&::Unity::Profiling::ProfilerCategory::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a557f8;
+  constexpr static std::size_t addrs = 0x6a5d274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Render)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a557fc;
+  constexpr static std::size_t addrs = 0x6a5d278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerCategory>(), { "get_Render", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Scripts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a55804;
+  constexpr static std::size_t addrs = 0x6a5d280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerCategory>(), { "get_Scripts", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Loading)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a5580c;
+  constexpr static std::size_t addrs = 0x6a5d288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerCategory>(), { "get_Loading", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Memory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a55814;
+  constexpr static std::size_t addrs = 0x6a5d290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerCategory>(), { "get_Memory", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Internal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a5581c;
+  constexpr static std::size_t addrs = 0x6a5d298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerCategory>(), { "get_Internal", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::Unity::Profiling::ProfilerCategory)>(&::Unity::Profiling::ProfilerCategory::op_Implicit_uint16_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a55824;
+  constexpr static std::size_t addrs = 0x6a5d2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

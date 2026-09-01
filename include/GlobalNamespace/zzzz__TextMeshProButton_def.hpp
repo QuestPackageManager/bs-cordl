@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TextMeshProButton.hpp"
+// IWYU pragma private; include "GlobalNamespace\TextMeshProButton.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x59fbb08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a03bdc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x59fbb00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x5a03bd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
-  /// @brief Method get_text, addr 0x59fbaf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x5a03bcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TextMeshProUGUI> get_text();
 
 protected:
@@ -73,7 +73,7 @@ public:
   TextMeshProButton(TextMeshProButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6333 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

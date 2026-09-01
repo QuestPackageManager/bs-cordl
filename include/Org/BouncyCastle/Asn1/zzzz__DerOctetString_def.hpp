@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerOctetString.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerOctetString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE DerOctetString : public ::Org::BouncyCastle::Asn1::Asn1OctetString {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x3685c74, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3689a34, size 0x1c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Encode, addr 0x3685c90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3689a50, size 0x70, virtual false, abstract: false, final false
   static inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut, ::ArrayW<uint8_t> bytes, int32_t offset, int32_t length);
 
   static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
@@ -42,13 +42,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::ArrayW<uint8_t> str);
 
-  /// @brief Method .ctor, addr 0x3685c04, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36899c4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x3685b4c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368990c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::IAsn1Convertible* obj);
 
-  /// @brief Method .ctor, addr 0x367b9d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367f794, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> str);
 
 protected:

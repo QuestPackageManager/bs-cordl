@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/GenericSecurityDescriptor.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\GenericSecurityDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
 
   static inline ::System::Security::AccessControl::GenericSecurityDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5b1acb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1f174, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method set_Group, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

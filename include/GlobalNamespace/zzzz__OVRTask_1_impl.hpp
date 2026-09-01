@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRTask_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRTask_1.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ManualResetValueTaskSourceCore_1_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"

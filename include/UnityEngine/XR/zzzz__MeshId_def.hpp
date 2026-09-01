@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/MeshId.hpp"
+// IWYU pragma private; include "UnityEngine\XR\MeshId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,16 +33,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::MeshId>*();
 
-  /// @brief Method Equals, addr 0x6e31c58, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e397dc, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e31d18, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e3989c, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::MeshId other);
 
-  /// @brief Method GetHashCode, addr 0x6e31c40, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e397c4, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6e31b80, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e39704, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::XR::MeshId getStaticF_s_InvalidId();
@@ -60,7 +60,7 @@ public:
   constexpr MeshId(uint64_t m_SubId1, uint64_t m_SubId2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22184 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

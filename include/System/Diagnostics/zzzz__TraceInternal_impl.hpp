@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/TraceInternal.hpp"
+// IWYU pragma private; include "System\Diagnostics\TraceInternal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceInternal_def.hpp"
 #include "System/Diagnostics/zzzz__TraceListenerCollection_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::TraceListenerCollection* (*)()>(&::System::Diagnostics::TraceInternal::get_Listeners)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6390334;
+  constexpr static std::size_t addrs = 0x6397db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceInternal*>(), { "get_Listeners", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Diagnostics::TraceInternal::get_AutoFlush)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6390624;
+  constexpr static std::size_t addrs = 0x63980a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceInternal*>(), { "get_AutoFlush", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Diagnostics::TraceInternal::get_UseGlobalLock)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63910a0;
+  constexpr static std::size_t addrs = 0x6398b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceInternal*>(), { "get_UseGlobalLock", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Diagnostics::TraceInternal::get_IndentLevel)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6391100;
+  constexpr static std::size_t addrs = 0x6398b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceInternal*>(), { "get_IndentLevel", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Diagnostics::TraceInternal::get_IndentSize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6391180;
+  constexpr static std::size_t addrs = 0x6398bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceInternal*>(), { "get_IndentSize", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Diagnostics::TraceInternal::InitializeSettings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6390dfc;
+  constexpr static std::size_t addrs = 0x6398878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceInternal*>(), { "InitializeSettings", {}, {} })));

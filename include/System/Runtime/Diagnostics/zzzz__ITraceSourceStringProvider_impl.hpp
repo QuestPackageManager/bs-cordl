@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Diagnostics/ITraceSourceStringProvider.hpp"
+// IWYU pragma private; include "System\Runtime\Diagnostics\ITraceSourceStringProvider.hpp"
 #include "System/Runtime/Diagnostics/zzzz__ITraceSourceStringProvider_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Diagnostics::ITraceSourceStringProvider.GetSourceString
 template <>

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiClickButtonController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiClickButtonController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiClickButtonController_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiClickButtonController::add_wasTriggeredEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fb528;
+  constexpr static std::size_t addrs = 0x5a035fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiClickButtonController::remove_wasTriggeredEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fb5d4;
+  constexpr static std::size_t addrs = 0x5a036a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(&::GlobalNamespace::MultiClickButtonController::OnEnable)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x59fb680;
+  constexpr static std::size_t addrs = 0x5a03754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiClickButtonController*>(), { "OnEnable", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(&::GlobalNamespace::MultiClickButtonController::OnDisable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59fb720;
+  constexpr static std::size_t addrs = 0x5a037f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiClickButtonController*>(), { "OnDisable", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(&::GlobalNamespace::MultiClickButtonController::HandleButtonClicked)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59fb738;
+  constexpr static std::size_t addrs = 0x5a0380c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiClickButtonController*>(), { "HandleButtonClicked", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(&::GlobalNamespace::MultiClickButtonController::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x59fb770;
+  constexpr static std::size_t addrs = 0x5a03844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiClickButtonController*>(), { ".ctor", {}, {} })));

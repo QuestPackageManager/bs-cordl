@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SubContainerCreatorByInstaller.hpp"
+// IWYU pragma private; include "Zenject\SubContainerCreatorByInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x6e82a94, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x6e8a618, size 0x18c, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
@@ -90,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set__installerType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6e829f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8a578, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
 
-  /// @brief Method .ctor, addr 0x6e82904, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8a488, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
@@ -115,7 +115,7 @@ public:
   SubContainerCreatorByInstaller(SubContainerCreatorByInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14597 };
 
   /// @brief Field _installerType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____installerType;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/MotionBlurModeParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\MotionBlurModeParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__MotionBlurMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__MotionBlurModeParameter_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::MotionBlurModeParameter::*)(::UnityEngine::Rendering::Universal::MotionBlurMode, bool)>(
     &::UnityEngine::Rendering::Universal::MotionBlurModeParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6877710;
+  constexpr static std::size_t addrs = 0x687f18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

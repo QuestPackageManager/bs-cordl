@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StandardLevelReturnToMenuController.hpp"
+// IWYU pragma private; include "GlobalNamespace\StandardLevelReturnToMenuController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelReturnToMenuController* New_ctor();
 
-  /// @brief Method ReturnToMenu, addr 0x59af080, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x59b6fe4, size 0x54, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x59af0d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b7038, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
@@ -77,7 +77,7 @@ public:
   StandardLevelReturnToMenuController(StandardLevelReturnToMenuController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6045 };
 
   /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::StandardLevelScenesTransitionSetupData* ____standardLevelSceneSetupData;

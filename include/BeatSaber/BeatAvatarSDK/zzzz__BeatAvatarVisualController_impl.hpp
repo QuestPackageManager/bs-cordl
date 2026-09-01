@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/BeatAvatarVisualController.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\BeatAvatarVisualController.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3279960;
+  constexpr static std::size_t addrs = 0x327d6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate::*)(bool, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x327a468;
+  constexpr static std::size_t addrs = 0x327e1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate*>(),
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate::*)(bool, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x327a47c;
+  constexpr static std::size_t addrs = 0x327e20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate::*)(::System::IAsyncResult*)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x327a4f4;
+  constexpr static std::size_t addrs = 0x327e284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate*>(),
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)()>(&::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::Awake)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x32795f8;
+  constexpr static std::size_t addrs = 0x327d388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*>(), { "Awake", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)(::BeatSaber::BeatAvatarSDK::AvatarData*)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::UpdateAvatarVisual)> {
   constexpr static std::size_t size = 0x4c0;
-  constexpr static std::size_t addrs = 0x32799cc;
+  constexpr static std::size_t addrs = 0x327d75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*>(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)(::UnityEngine::Color)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::SetLightColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x327a11c;
+  constexpr static std::size_t addrs = 0x327deac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)()>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::UpdateAvatarColors)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3279e8c;
+  constexpr static std::size_t addrs = 0x327dc1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)(::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::HighlightEditedPart)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x327a330;
+  constexpr static std::size_t addrs = 0x327e0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)()>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::DisableEditedPartHighlight)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x327a3d4;
+  constexpr static std::size_t addrs = 0x327e164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)(bool, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::SetHandsHighlight)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x327a408;
+  constexpr static std::size_t addrs = 0x327e198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*>(),
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::*)()>(&::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x327a45c;
+  constexpr static std::size_t addrs = 0x327e1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController*>(), { ".ctor", {}, {} })));

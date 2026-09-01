@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSimpleTypeUnion.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSimpleTypeUnion.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,12 +49,12 @@ public:
   /// @brief Field memberTypes, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_memberTypes, put = __cordl_internal_set_memberTypes)) ::ArrayW<::System::Xml::XmlQualifiedName*> memberTypes;
 
-  /// @brief Method Clone, addr 0x6234634, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x623c0b0, size 0x178, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeUnion* New_ctor();
 
-  /// @brief Method SetBaseMemberTypes, addr 0x623462c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBaseMemberTypes, addr 0x623c0a8, size 0x8, virtual false, abstract: false, final false
   inline void SetBaseMemberTypes(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> baseMemberTypes);
 
   constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_baseMemberTypes() const;
@@ -75,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Xml::XmlQualifiedName*> value);
 
-  /// @brief Method .ctor, addr 0x62347ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x623c228, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseMemberTypes, addr 0x6234624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseMemberTypes, addr 0x623c0a0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*> get_BaseMemberTypes();
 
-  /// @brief Method get_BaseTypes, addr 0x623460c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseTypes, addr 0x623c088, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_BaseTypes();
 
-  /// @brief Method get_MemberTypes, addr 0x6234614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberTypes, addr 0x623c090, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlQualifiedName*> get_MemberTypes();
 
-  /// @brief Method set_MemberTypes, addr 0x623461c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberTypes, addr 0x623c098, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberTypes(::ArrayW<::System::Xml::XmlQualifiedName*> value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   XmlSchemaSimpleTypeUnion(XmlSchemaSimpleTypeUnion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9818 };
 
   /// @brief Field baseTypes, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaObjectCollection* ___baseTypes;

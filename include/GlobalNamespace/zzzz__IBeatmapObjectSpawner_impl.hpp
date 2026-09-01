@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IBeatmapObjectSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace\IBeatmapObjectSpawner.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapObjectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteSpawnData_def.hpp"

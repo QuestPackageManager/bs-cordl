@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BoxCuttableBySaber.hpp"
+// IWYU pragma private; include "GlobalNamespace\BoxCuttableBySaber.hpp"
 #include "GlobalNamespace/zzzz__CuttableBySaber_impl.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::get_radius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e6014;
+  constexpr static std::size_t addrs = 0x59ee280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)(bool)>(&::GlobalNamespace::BoxCuttableBySaber::set_canBeCut)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59e601c;
+  constexpr static std::size_t addrs = 0x59ee288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::get_canBeCut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e6054;
+  constexpr static std::size_t addrs = 0x59ee2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::BoxCuttableBySaber::set_colliderSize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59e605c;
+  constexpr static std::size_t addrs = 0x59ee2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::get_colliderSize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59e60e4;
+  constexpr static std::size_t addrs = 0x59ee350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BoxCuttableBySaber*>(), { "get_colliderSize", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::BoxCuttableBySaber::set_colliderCenter)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59e60fc;
+  constexpr static std::size_t addrs = 0x59ee368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::get_colliderCenter)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59e6114;
+  constexpr static std::size_t addrs = 0x59ee380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BoxCuttableBySaber*>(), { "get_colliderCenter", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::Awake)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x59e612c;
+  constexpr static std::size_t addrs = 0x59ee398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BoxCuttableBySaber*>(), { "Awake", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)(::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
                                                                                                        ::UnityEngine::Vector3)>(&::GlobalNamespace::BoxCuttableBySaber::Cut)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x59e6160;
+  constexpr static std::size_t addrs = 0x59ee3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::BoxCuttableBySaber::SetColliderCenterAndSize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x59e61c0;
+  constexpr static std::size_t addrs = 0x59ee42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::RefreshRadius)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x59e6084;
+  constexpr static std::size_t addrs = 0x59ee2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BoxCuttableBySaber*>(), { "RefreshRadius", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59e6218;
+  constexpr static std::size_t addrs = 0x59ee484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BoxCuttableBySaber*>(), { ".ctor", {}, {} })));

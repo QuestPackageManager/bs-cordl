@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ShuffleExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\ShuffleExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -296,7 +296,7 @@ public:
   ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1(ShuffleExtensions__PickRandomElementsWithTombstone_d__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20468 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -536,7 +536,7 @@ public:
   ShuffleExtensions__TakeWithTombstone_d__2_1(ShuffleExtensions__TakeWithTombstone_d__2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20469 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -635,27 +635,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3308a94, size 0x578, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x330c890, size 0x578, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::ShuffleExtensions__ZipSkipTombstone_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<(System.Int32,System.Int32)>.GetEnumerator, addr 0x3309214, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<(System.Int32,System.Int32)>.GetEnumerator, addr 0x330d010, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* System_Collections_Generic_IEnumerable__System_Int32_System_Int32___GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32,System.Int32)>.get_Current, addr 0x3309174, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32,System.Int32)>.get_Current, addr 0x330cf70, size 0x8, virtual true, abstract: false, final true
   inline ::System::ValueTuple_2<int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x33092bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x330d0b8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x330917c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x330cf78, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x33091b4, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x330cfb0, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x33089e8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x330c7e4, size 0xac, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -724,13 +724,13 @@ public:
 
   constexpr void __cordl_internal_set_collection2Tombstone(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x33090c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x330cebc, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x330900c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x330ce08, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x33089c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330c7c4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t,int32_t>>"
@@ -765,7 +765,7 @@ public:
   ShuffleExtensions__ZipSkipTombstone_d__3(ShuffleExtensions__ZipSkipTombstone_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20470 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -855,7 +855,7 @@ public:
   /// @brief Method TakeWithTombstone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* TakeWithTombstone(::System::Collections::Generic::IEnumerable_1<T>* source, int32_t limit, T tombstone);
 
-  /// @brief Method ZipSkipTombstone, addr 0x3308944, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ZipSkipTombstone, addr 0x330c740, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*
   ZipSkipTombstone(::System::Collections::Generic::IEnumerable_1<int32_t>* collection1, ::System::Collections::Generic::IEnumerable_1<int32_t>* collection2, int32_t collection2Tombstone);
 
@@ -874,7 +874,7 @@ public:
   ShuffleExtensions(ShuffleExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

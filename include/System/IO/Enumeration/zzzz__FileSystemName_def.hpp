@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/Enumeration/FileSystemName.hpp"
+// IWYU pragma private; include "System\IO\Enumeration\FileSystemName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,16 +30,16 @@ public:
   /// @brief Field s_wildcardChars, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_wildcardChars, put = setStaticF_s_wildcardChars)) ::ArrayW<char16_t> s_wildcardChars;
 
-  /// @brief Method MatchPattern, addr 0x5c2038c, size 0x7ac, virtual false, abstract: false, final false
+  /// @brief Method MatchPattern, addr 0x5c24848, size 0x7ac, virtual false, abstract: false, final false
   static inline bool MatchPattern(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase, bool useExtendedWildcards);
 
-  /// @brief Method MatchesSimpleExpression, addr 0x5c1fa14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MatchesSimpleExpression, addr 0x5c23ed0, size 0x8c, virtual false, abstract: false, final false
   static inline bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
 
-  /// @brief Method MatchesWin32Expression, addr 0x5c1faa0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MatchesWin32Expression, addr 0x5c23f5c, size 0x8c, virtual false, abstract: false, final false
   static inline bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
 
-  /// @brief Method TranslateWin32Expression, addr 0x5c1f438, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method TranslateWin32Expression, addr 0x5c238f4, size 0x3b0, virtual false, abstract: false, final false
   static inline ::StringW TranslateWin32Expression(::StringW expression);
 
   static inline ::ArrayW<char16_t> getStaticF_s_simpleWildcardChars();

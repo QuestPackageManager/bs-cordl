@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/TypeHelpers.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\TypeHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,16 +36,16 @@ public:
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject As(::System::Object* obj);
 
-  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x65036ac, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x650b128, size 0x32c, virtual false, abstract: false, final false
   static inline ::System::Type* GetGenericTypeArgumentFromHierarchy(::System::Type* type, ::System::Type* genericTypeDefinition, int32_t argumentIndex);
 
-  /// @brief Method GetNiceTypeName, addr 0x65032dc, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method GetNiceTypeName, addr 0x650ad58, size 0x3d0, virtual false, abstract: false, final false
   static inline ::StringW GetNiceTypeName(::System::Type* type);
 
-  /// @brief Method GetValueType, addr 0x65031b4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x650ac30, size 0x128, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method IsInt, addr 0x65031a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInt, addr 0x650ac20, size 0x10, virtual false, abstract: false, final false
   static inline bool IsInt(::System::TypeCode type);
 
 protected:
@@ -63,7 +63,7 @@ public:
   TypeHelpers(TypeHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleVariable.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleVariable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE StyleVariable {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x6c95a2c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c9d5b0, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6c95a20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9d5a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> handles);
 
   // Ctor Parameters []

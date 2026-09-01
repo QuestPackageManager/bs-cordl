@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ParticleSystemEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\ParticleSystemEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,21 +95,21 @@ public:
   /// @brief Field kFadeSpeed, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get_kFadeSpeed, put = __cordl_internal_set_kFadeSpeed)) float_t kFadeSpeed;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x599815c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x59a03a4, size 0x1e8, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::ParticleSystemEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5998038, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59a0280, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshParticles, addr 0x5997f40, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RefreshParticles, addr 0x59a0188, size 0xf8, virtual false, abstract: false, final false
   inline void RefreshParticles();
 
-  /// @brief Method Start, addr 0x5997d50, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x599ff98, size 0x1f0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5998054, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59a029c, size 0x108, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__afterHighlightColor() const;
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set_kFadeSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x5998344, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a058c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -238,7 +238,7 @@ public:
   ParticleSystemEventEffect(ParticleSystemEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5938 };
 
   /// @brief Field _lightColor0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor0;

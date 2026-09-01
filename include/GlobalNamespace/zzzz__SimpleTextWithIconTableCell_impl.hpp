@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SimpleTextWithIconTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace\SimpleTextWithIconTableCell.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__SimpleTextWithIconTableCell_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleTextWithIconTableCell::*)(::UnityEngine::UI::Image*)>(
     &::GlobalNamespace::SimpleTextWithIconTableCell::set_icon)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5874164;
+  constexpr static std::size_t addrs = 0x5873aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Image> (::GlobalNamespace::SimpleTextWithIconTableCell::*)()>(
     &::GlobalNamespace::SimpleTextWithIconTableCell::get_icon)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587416c;
+  constexpr static std::size_t addrs = 0x5873aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleTextWithIconTableCell*>(), { "get_icon", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleTextWithIconTableCell::*)(::StringW)>(&::GlobalNamespace::SimpleTextWithIconTableCell::set_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5874174;
+  constexpr static std::size_t addrs = 0x5873ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SimpleTextWithIconTableCell::*)()>(&::GlobalNamespace::SimpleTextWithIconTableCell::get_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5874194;
+  constexpr static std::size_t addrs = 0x5873ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleTextWithIconTableCell*>(), { "get_text", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleTextWithIconTableCell::*)()>(&::GlobalNamespace::SimpleTextWithIconTableCell::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58741b4;
+  constexpr static std::size_t addrs = 0x5873af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleTextWithIconTableCell*>(), { ".ctor", {}, {} })));

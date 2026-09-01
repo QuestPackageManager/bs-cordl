@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/HashHelpers.hpp"
+// IWYU pragma private; include "System\Collections\HashHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,20 +38,20 @@ public:
                       put = setStaticF_s_serializationInfoTable)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>*
       s_serializationInfoTable;
 
-  /// @brief Method ExpandPrime, addr 0x5bdf2c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ExpandPrime, addr 0x5be3784, size 0x88, virtual false, abstract: false, final false
   static inline int32_t ExpandPrime(int32_t oldSize);
 
-  /// @brief Method GetPrime, addr 0x5bdf140, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetPrime, addr 0x5be35fc, size 0x188, virtual false, abstract: false, final false
   static inline int32_t GetPrime(int32_t min);
 
-  /// @brief Method IsPrime, addr 0x5bdf098, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsPrime, addr 0x5be3554, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsPrime(int32_t candidate);
 
   static inline ::ArrayW<int32_t> getStaticF_primes();
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* getStaticF_s_serializationInfoTable();
 
-  /// @brief Method get_SerializationInfoTable, addr 0x5bdf350, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationInfoTable, addr 0x5be380c, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
 
   static inline void setStaticF_primes(::ArrayW<int32_t> value);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/IWebProxy.hpp"
+// IWYU pragma private; include "System\Net\IWebProxy.hpp"
 #include "System/Net/zzzz__IWebProxy_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/zzzz__Uri_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugRenderSetup.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugRenderSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,35 +81,35 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Begin, addr 0x684a344, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x6851dc0, size 0x70, virtual false, abstract: false, final false
   inline void Begin(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
-  /// @brief Method CreateDrawingSettings, addr 0x6849bf8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CreateDrawingSettings, addr 0x6851674, size 0x160, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DrawingSettings CreateDrawingSettings(::UnityEngine::Rendering::DrawingSettings drawingSettings);
 
-  /// @brief Method CreateRendererList, addr 0x684a54c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererList, addr 0x6851fc8, size 0x10c, virtual false, abstract: false, final false
   inline void CreateRendererList(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                  ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings, ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                  ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock, ::by_ref<::UnityEngine::Rendering::RendererList> rendererList);
 
-  /// @brief Method CreateRendererList, addr 0x684a658, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererList, addr 0x68520d4, size 0x124, virtual false, abstract: false, final false
   inline void CreateRendererList(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                  ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings, ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                  ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle> rendererListHdl);
 
-  /// @brief Method Dispose, addr 0x6849bf4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6851670, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DrawWithRendererList, addr 0x684a3b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DrawWithRendererList, addr 0x6851e30, size 0xbc, virtual false, abstract: false, final false
   inline void DrawWithRendererList(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::RendererList> rendererList);
 
-  /// @brief Method End, addr 0x684a470, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x6851eec, size 0x70, virtual false, abstract: false, final false
   inline void End(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
-  /// @brief Method GetIndex, addr 0x684a77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIndex, addr 0x68521f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetIndex();
 
-  /// @brief Method GetRenderStateBlock, addr 0x6849d58, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method GetRenderStateBlock, addr 0x68517d4, size 0x218, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderStateBlock GetRenderStateBlock(::UnityEngine::Rendering::RenderStateBlock renderStateBlock);
 
   static inline ::UnityEngine::Rendering::Universal::DebugRenderSetup* New_ctor(::UnityEngine::Rendering::Universal::DebugHandler* debugHandler, int32_t index,
@@ -133,16 +133,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6849a54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68514d0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DebugHandler* debugHandler, int32_t index, ::UnityEngine::Rendering::FilteringSettings filteringSettings);
 
-  /// @brief Method get_LightingSettings, addr 0x684a528, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_LightingSettings, addr 0x6851fa4, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting* get_LightingSettings();
 
-  /// @brief Method get_MaterialSettings, addr 0x684a4e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_MaterialSettings, addr 0x6851f5c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial* get_MaterialSettings();
 
-  /// @brief Method get_RenderingSettings, addr 0x684a504, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_RenderingSettings, addr 0x6851f80, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* get_RenderingSettings();
 
   /// @brief Convert to "::System::IDisposable"
@@ -163,7 +163,7 @@ public:
   DebugRenderSetup(DebugRenderSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12668 };
 
   /// @brief Field m_DebugHandler, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DebugHandler* ___m_DebugHandler;

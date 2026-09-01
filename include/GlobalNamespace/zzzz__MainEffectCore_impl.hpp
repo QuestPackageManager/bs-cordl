@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainEffectCore.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainEffectCore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectCore_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IBaseCommandBuffer_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::IBaseCommandBuffer*, bool)>(&::GlobalNamespace::MainEffectCore::UpdateKeyword)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5f3ec64;
+  constexpr static std::size_t addrs = 0x5f430d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::IBaseCommandBuffer*, float_t, float_t)>(&::GlobalNamespace::MainEffectCore::SetGlobalShaderValues)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5f3ed90;
+  constexpr static std::size_t addrs = 0x5f431fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectCore::*)()>(&::GlobalNamespace::MainEffectCore::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3eef8;
+  constexpr static std::size_t addrs = 0x5f43364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectCore*>(), { ".ctor", {}, {} })));

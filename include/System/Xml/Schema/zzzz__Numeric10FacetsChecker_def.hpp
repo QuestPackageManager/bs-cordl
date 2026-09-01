@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Numeric10FacetsChecker.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Numeric10FacetsChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,28 +49,28 @@ public:
   /// @brief Field signs, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_signs, put = setStaticF_signs)) ::ArrayW<char16_t> signs;
 
-  /// @brief Method CheckTotalAndFractionDigits, addr 0x61c3aa0, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method CheckTotalAndFractionDigits, addr 0x61cb51c, size 0x248, virtual false, abstract: false, final false
   inline ::System::Exception* CheckTotalAndFractionDigits(::System::Decimal value, int32_t totalDigits, int32_t fractionDigits, bool checkTotal, bool checkFraction);
 
-  /// @brief Method CheckValueFacets, addr 0x61ca644, size 0x614, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61d20c0, size 0x614, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x61ca5d4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61d2050, size 0x70, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x61cae84, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61d2900, size 0x84, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int16_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x61cae04, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61d2880, size 0x80, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int32_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x61cad80, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61d27fc, size 0x84, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int64_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x61cac58, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x61d26d4, size 0x128, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::Decimal value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlValueConverter* valueConverter);
 
-  /// @brief Method MatchEnumeration, addr 0x61caf08, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x61d2984, size 0x84, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::Numeric10FacetsChecker* New_ctor(::System::Decimal minVal, ::System::Decimal maxVal);
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_minValue(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x61bde0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c5888, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Decimal minVal, ::System::Decimal maxVal);
 
   static inline ::ArrayW<char16_t> getStaticF_signs();
@@ -109,7 +109,7 @@ public:
   Numeric10FacetsChecker(Numeric10FacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9681 };
 
   /// @brief Field maxValue, offset: 0x10, size: 0x10, def value: None
   ::System::Decimal ___maxValue;

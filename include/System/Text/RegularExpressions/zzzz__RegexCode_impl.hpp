@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/RegexCode.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\RegexCode.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexPrefix_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::Reg
     ::ArrayW<int32_t>, ::System::Collections::Generic::List_1<::StringW>*, int32_t, ::System::Collections::Hashtable*, int32_t, ::System::Text::RegularExpressions::RegexBoyerMoore*,
     ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix>, int32_t, bool)>(&::System::Text::RegularExpressions::RegexCode::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x638229c;
+  constexpr static std::size_t addrs = 0x6389d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::System::Text::RegularExpressions::RegexCode::OpcodeBacktracks)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x638236c;
+  constexpr static std::size_t addrs = 0x6389de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

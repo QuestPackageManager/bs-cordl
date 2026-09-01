@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapBase_2.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapBase_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +94,7 @@ public:
   static constexpr int32_t SentinelSwapInProgress{ static_cast<int32_t>(0xfffffffd) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15792 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

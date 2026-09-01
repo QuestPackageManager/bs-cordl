@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MusicPackPromoBanner.hpp"
+// IWYU pragma private; include "GlobalNamespace\MusicPackPromoBanner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::MusicPackPromoBanner* New_ctor();
 
-  /// @brief Method Setup, addr 0x5a1cecc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a24fb8, size 0x13c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* newPromoInfo, bool probablyOwned);
 
-  /// @brief Method StartLoading, addr 0x5a1ce60, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method StartLoading, addr 0x5a24f4c, size 0x6c, virtual false, abstract: false, final false
   inline void StartLoading();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -111,16 +111,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a1d008, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a250f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promoButtonText, addr 0x5a1ce58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoButtonText, addr 0x5a24f44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_promoButtonText();
 
-  /// @brief Method get_promoInfo, addr 0x5a1ce48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoInfo, addr 0x5a24f34, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* get_promoInfo();
 
-  /// @brief Method set_promoInfo, addr 0x5a1ce50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_promoInfo, addr 0x5a24f3c, size 0x8, virtual false, abstract: false, final false
   inline void set_promoInfo(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* value);
 
 protected:
@@ -138,7 +138,7 @@ public:
   MusicPackPromoBanner(MusicPackPromoBanner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6490 };
 
   /// @brief Field kGetNow offset 0xffffffff size 0x8
   static constexpr ::ConstString kGetNow{ u"PROMO_GET_NOW_LABEL" };

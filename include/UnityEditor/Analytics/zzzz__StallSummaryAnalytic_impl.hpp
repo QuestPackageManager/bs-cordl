@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor/Analytics/StallSummaryAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor\Analytics\StallSummaryAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__StallSummaryAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::StallSummaryAnalytic._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::StallSummaryAnalytic::*)()>(&::UnityEditor::Analytics::StallSummaryAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e1e204;
+  constexpr static std::size_t addrs = 0x6e25d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEditor::Analytics::StallSummaryAnalytic*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::StallSummaryAnalytic* (*)()>(&::UnityEditor::Analytics::StallSummaryAnalytic::CreateStallSummaryAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e1e27c;
+  constexpr static std::size_t addrs = 0x6e25e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

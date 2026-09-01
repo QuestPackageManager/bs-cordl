@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/OSPlatform.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\OSPlatform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,25 +39,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>"
   constexpr operator ::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>*();
 
-  /// @brief Method Create, addr 0x5b677bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b6bc78, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform Create(::StringW osPlatform);
 
-  /// @brief Method Equals, addr 0x5b67858, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5b6bd14, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5b67848, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x5b6bd04, size 0x10, virtual false, abstract: false, final false
   inline bool Equals(::StringW other);
 
-  /// @brief Method Equals, addr 0x5b677d8, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5b6bc94, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::System::Runtime::InteropServices::OSPlatform other);
 
-  /// @brief Method GetHashCode, addr 0x5b6790c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5b6bdc8, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x5b67924, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5b6bde0, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x5b67708, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6bbc4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW osPlatform);
 
   static inline ::System::Runtime::InteropServices::OSPlatform getStaticF__Linux_k__BackingField();
@@ -66,19 +66,19 @@ public:
 
   static inline ::System::Runtime::InteropServices::OSPlatform getStaticF__Windows_k__BackingField();
 
-  /// @brief Method get_Linux, addr 0x5b675f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Linux, addr 0x5b6bab0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform get_Linux();
 
-  /// @brief Method get_OSX, addr 0x5b67650, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_OSX, addr 0x5b6bb0c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform get_OSX();
 
-  /// @brief Method get_Windows, addr 0x5b676ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Windows, addr 0x5b6bb68, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::OSPlatform get_Windows();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>"
   constexpr ::System::IEquatable_1<::System::Runtime::InteropServices::OSPlatform>* i___System__IEquatable_1___System__Runtime__InteropServices__OSPlatform_();
 
-  /// @brief Method op_Equality, addr 0x5b67944, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5b6be00, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Runtime::InteropServices::OSPlatform left, ::System::Runtime::InteropServices::OSPlatform right);
 
   static inline void setStaticF__Linux_k__BackingField(::System::Runtime::InteropServices::OSPlatform value);

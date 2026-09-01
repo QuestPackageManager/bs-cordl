@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpEncryptedDataList.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpEncryptedDataList.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpEncryptedDataList_def.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpEncryptedData_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::_ctor)> {
   constexpr static std::size_t size = 0x5b4;
-  constexpr static std::size_t addrs = 0x357eebc;
+  constexpr static std::size_t addrs = 0x3582c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)(int32_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::get_Item)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x357f47c;
+  constexpr static std::size_t addrs = 0x358323c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)(int32_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::Get)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x357f580;
+  constexpr static std::size_t addrs = 0x3583340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::get_Size)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x357f584;
+  constexpr static std::size_t addrs = 0x3583344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>(), { "get_Size", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::get_Count)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x357f62c;
+  constexpr static std::size_t addrs = 0x35833ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>(), { "get_Count", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::get_IsEmpty)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x357f6d4;
+  constexpr static std::size_t addrs = 0x3583494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>(), { "get_IsEmpty", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::GetEncryptedDataObjects)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x357f788;
+  constexpr static std::size_t addrs = 0x3583548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerIdentityPacket_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerIdentityPacket_1.hpp"
 #include "GlobalNamespace/zzzz__PlayerStateHash_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerIdentityPacket_1_def.hpp"

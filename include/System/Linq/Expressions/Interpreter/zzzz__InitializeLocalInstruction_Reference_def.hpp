@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InitializeLocalInstruction_Reference.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InitializeLocalInstruction_Reference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,18 +35,18 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x5fab448, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x5fb2ec4, size 0x88, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
   static inline ::GlobalNamespace::InitializeLocalInstruction_Reference* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x5fab40c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fb2e88, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5fab404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb2e80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x5fab4d0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fb2f4c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
@@ -67,7 +67,7 @@ public:
   InitializeLocalInstruction_Reference(InitializeLocalInstruction_Reference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

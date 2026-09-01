@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/FloatFxBaseDataConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\FloatFxBaseDataConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__FloatFxBaseDataConverter_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__FloatFxEvent_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::FloatFxBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::FloatFxEvent)>(
     &::BeatmapDataLoaderVersion4::FloatFxBaseDataConverter::Convert)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x375f724;
+  constexpr static std::size_t addrs = 0x3765390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

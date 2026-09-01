@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/Util/FeatureAttribute.hpp"
+// IWYU pragma private; include "Meta\XR\Util\FeatureAttribute.hpp"
 #include "Meta/XR/Util/zzzz__Feature_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Meta/XR/Util/zzzz__FeatureAttribute_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Util::FeatureAttribute::*)(::Meta::XR::Util::Feature)>(&::Meta::XR::Util::FeatureAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c87c;
+  constexpr static std::size_t addrs = 0x5e50d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::Util::Feature (::Meta::XR::Util::FeatureAttribute::*)()>(&::Meta::XR::Util::FeatureAttribute::get_Feature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c884;
+  constexpr static std::size_t addrs = 0x5e50d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::Util::FeatureAttribute*>(), { "get_Feature", {}, {} })));

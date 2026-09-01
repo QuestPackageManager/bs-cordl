@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/NativeParallelHashMap_2.hpp"
+// IWYU pragma private; include "Unity\Collections\NativeParallelHashMap_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -166,7 +166,7 @@ public:
   constexpr NativeParallelHashMap_2_ReadOnly(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue> m_HashMapData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15657 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -216,7 +216,7 @@ public:
   constexpr NativeParallelHashMap_2_ParallelWriter(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2_ParallelWriter<TKey, TValue> m_Writer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15658 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -283,7 +283,7 @@ public:
   constexpr NativeParallelHashMap_2_Enumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15659 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -437,7 +437,7 @@ public:
   constexpr NativeParallelHashMap_2(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMap_2<TKey, TValue> m_HashMapData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15660 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

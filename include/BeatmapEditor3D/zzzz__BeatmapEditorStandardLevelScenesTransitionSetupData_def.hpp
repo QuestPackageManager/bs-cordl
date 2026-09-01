@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapEditor3D/BeatmapEditorStandardLevelScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "BeatmapEditor3D\BeatmapEditorStandardLevelScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(BeatmapEditorStandardLevelScenesTransitionSetupData)
 namespace GlobalNamespace {
 class AudioClipAsyncLoader;
+}
+namespace GlobalNamespace {
+class BeatmapDataLoader;
 }
 namespace GlobalNamespace {
 struct BeatmapEditorStartTestLevelData;
@@ -64,14 +67,14 @@ public:
       put =
           __cordl_internal_set_didFinishEvent)) ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* didFinishEvent;
 
-  /// @brief Method Finish, addr 0x5972334, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5975bfc, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x597235c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5975c24, size 0x4c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                    ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-                   ::GlobalNamespace::SettingsManager* settingsManager, ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
+                   ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
 
   static inline ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData* New_ctor();
 
@@ -81,13 +84,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x59723a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5975c70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x59721b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5975a7c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x5972274, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5975b3c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
 protected:
@@ -105,7 +108,7 @@ public:
   BeatmapEditorStandardLevelScenesTransitionSetupData(BeatmapEditorStandardLevelScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7032 };
 
   /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* ___didFinishEvent;

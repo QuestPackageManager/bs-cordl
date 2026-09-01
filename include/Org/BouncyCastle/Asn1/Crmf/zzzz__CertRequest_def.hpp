@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/CertRequest.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Crmf\CertRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
   /// @brief Field controls, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_controls, put = __cordl_internal_set_controls)) ::Org::BouncyCastle::Asn1::Crmf::Controls* controls;
 
-  /// @brief Method GetInstance, addr 0x33615e8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x33653a8, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate,
@@ -64,7 +64,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3361ecc, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3365c8c, size 0x180, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_certReqId() const;
@@ -85,22 +85,22 @@ public:
 
   constexpr void __cordl_internal_set_controls(::Org::BouncyCastle::Asn1::Crmf::Controls* value);
 
-  /// @brief Method .ctor, addr 0x3361ea8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3365c68, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate, ::Org::BouncyCastle::Asn1::Crmf::Controls* controls);
 
-  /// @brief Method .ctor, addr 0x3361e2c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3365bec, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate, ::Org::BouncyCastle::Asn1::Crmf::Controls* controls);
 
-  /// @brief Method .ctor, addr 0x3361b7c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336593c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertReqID, addr 0x3361eb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertReqID, addr 0x3365c74, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_CertTemplate, addr 0x3361ebc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertTemplate, addr 0x3365c7c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* get_CertTemplate();
 
-  /// @brief Method get_Controls, addr 0x3361ec4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Controls, addr 0x3365c84, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::Controls* get_Controls();
 
 protected:

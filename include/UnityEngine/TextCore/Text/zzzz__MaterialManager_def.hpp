@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/MaterialManager.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\MaterialManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
   __declspec(property(get = getStaticF_s_FallbackMaterials,
                       put = setStaticF_s_FallbackMaterials)) ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* s_FallbackMaterials;
 
-  /// @brief Method CopyMaterialPresetProperties, addr 0x6bbff38, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CopyMaterialPresetProperties, addr 0x6bc7abc, size 0x254, virtual false, abstract: false, final false
   static inline void CopyMaterialPresetProperties(::UnityEngine::Material* source, ::UnityEngine::Material* destination);
 
-  /// @brief Method GetFallbackMaterial, addr 0x6bc018c, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x6bc7d10, size 0x26c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
 
-  /// @brief Method GetFallbackMaterial, addr 0x6bbfb2c, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x6bc76b0, size 0x40c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
 
   static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* getStaticF_s_FallbackMaterials();
@@ -61,7 +61,7 @@ public:
   MaterialManager(MaterialManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

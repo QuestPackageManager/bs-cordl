@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RecPlayBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace\RecPlayBehaviour.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseNoise_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RecPlayBehaviour_def.hpp"
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)(::GlobalNamespace::GameplayCoreSceneSetupData*, ::GlobalNamespace::BeatmapObjectSpawnController*)>(
     &::GlobalNamespace::RecPlayBehaviour::Init)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x58f79b0;
+  constexpr static std::size_t addrs = 0x58faf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::Play)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x58f7f48;
+  constexpr static std::size_t addrs = 0x58fb510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "Play", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::Record)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x58f82b0;
+  constexpr static std::size_t addrs = 0x58fb878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "Record", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::SaveRecording)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x58f83e0;
+  constexpr static std::size_t addrs = 0x58fb9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "SaveRecording", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::Configure)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x58f853c;
+  constexpr static std::size_t addrs = 0x58fbb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "Configure", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::CleanUp)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x58f86d4;
+  constexpr static std::size_t addrs = 0x58fbc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "CleanUp", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::Update)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58f87e0;
+  constexpr static std::size_t addrs = 0x58fbda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "Update", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::LateUpdate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58f8808;
+  constexpr static std::size_t addrs = 0x58fbdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "LateUpdate", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58f8818;
+  constexpr static std::size_t addrs = 0x58fbde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "OnDisable", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58f881c;
+  constexpr static std::size_t addrs = 0x58fbde4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { "OnDestroy", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapKey)>(&::GlobalNamespace::RecPlayBehaviour::CreateRecordingPath)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x58f7ac8;
+  constexpr static std::size_t addrs = 0x58fb090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (*)(::GlobalNamespace::GameplayCoreSceneSetupData*, ::GlobalNamespace::BeatmapObjectSpawnController*)>(
     &::GlobalNamespace::RecPlayBehaviour::CreateAutoLevelRecording)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x58f7de8;
+  constexpr static std::size_t addrs = 0x58fb3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (*)(::StringW)>(&::GlobalNamespace::RecPlayBehaviour::LoadLevelRecording)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x58f7c7c;
+  constexpr static std::size_t addrs = 0x58fb244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames>)>(&::GlobalNamespace::RecPlayBehaviour::SavePlayerPoseFrames)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x58f846c;
+  constexpr static std::size_t addrs = 0x58fba34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58f8834;
+  constexpr static std::size_t addrs = 0x58fbdfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecPlayBehaviour*>(), { ".ctor", {}, {} })));
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Transform*)>(&::GlobalNamespace::RecPlayBehaviour::_Play_g__ExtractLocalPose_13_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58f824c;
+  constexpr static std::size_t addrs = 0x58fb814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Transform*)>(&::GlobalNamespace::RecPlayBehaviour::_Record_g__ExtractGlobalPose_14_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58f837c;
+  constexpr static std::size_t addrs = 0x58fb944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

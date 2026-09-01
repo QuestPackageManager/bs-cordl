@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CADMethodCallMessage.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Messaging\CADMethodCallMessage.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMessageBase_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMethodCallMessage_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::CADMethodCallMessage::get_Uri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b3e010;
+  constexpr static std::size_t addrs = 0x5b424cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::CADMethodCallMessage*>(), { "get_Uri", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::CADMethodCallMessage* (*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Messaging::CADMethodCallMessage::Create)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5b380a4;
+  constexpr static std::size_t addrs = 0x5b3c560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::CADMethodCallMessage*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(
     &::System::Runtime::Remoting::Messaging::CADMethodCallMessage::_ctor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5b3e018;
+  constexpr static std::size_t addrs = 0x5b424d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::CADMethodCallMessage*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArguments)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5b3e208;
+  constexpr static std::size_t addrs = 0x5b426c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(::System::Collections::ArrayList*)>(
     &::System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArgs)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b3e350;
+  constexpr static std::size_t addrs = 0x5b4280c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::CADMethodCallMessage*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::CADMethodCallMessage::get_PropertiesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b3e360;
+  constexpr static std::size_t addrs = 0x5b4281c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

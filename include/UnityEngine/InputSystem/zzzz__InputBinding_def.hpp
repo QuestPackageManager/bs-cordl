@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/InputBinding.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\InputBinding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,7 +113,7 @@ public:
   static ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions const IgnoreBindingOverrides;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -164,7 +164,7 @@ public:
   static ::UnityEngine::InputSystem::InputBinding_MatchOptions const EmptyGroupMatchesAny;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8666 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -223,7 +223,7 @@ public:
   static ::UnityEngine::InputSystem::InputBinding_Flags const PartOfComposite;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8667 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -254,10 +254,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::InputBinding___c* New_ctor();
 
-  /// @brief Method <MaskByGroups>b__45_0, addr 0x64ef21c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <MaskByGroups>b__45_0, addr 0x64f6c98, size 0x1c, virtual false, abstract: false, final false
   inline bool _MaskByGroups_b__45_0(::StringW x);
 
-  /// @brief Method .ctor, addr 0x64ef218, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f6c94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::InputBinding___c* getStaticF___9();
@@ -283,7 +283,7 @@ public:
   InputBinding___c(InputBinding___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -343,146 +343,146 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>*();
 
-  /// @brief Method Equals, addr 0x64ee99c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x64f6418, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x64ee8d0, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x64f634c, size 0xcc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputBinding other);
 
-  /// @brief Method GenerateId, addr 0x64e3048, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GenerateId, addr 0x64eaac4, size 0x34, virtual false, abstract: false, final false
   inline void GenerateId();
 
-  /// @brief Method GetHashCode, addr 0x64eea7c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x64f64f8, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetNameOfComposite, addr 0x64ee6a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetNameOfComposite, addr 0x64f611c, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetNameOfComposite();
 
-  /// @brief Method MaskByGroup, addr 0x64ee6f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method MaskByGroup, addr 0x64f616c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputBinding MaskByGroup(::StringW group);
 
-  /// @brief Method MaskByGroups, addr 0x64ee708, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method MaskByGroups, addr 0x64f6184, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputBinding MaskByGroups(::ArrayW<::StringW> groups);
 
-  /// @brief Method Matches, addr 0x64ef0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x64f6b38, size 0x8, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::InputSystem::InputBinding binding);
 
-  /// @brief Method Matches, addr 0x64ef0c4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x64f6b40, size 0x100, virtual false, abstract: false, final false
   inline bool Matches(::by_ref<::UnityEngine::InputSystem::InputBinding> binding, ::UnityEngine::InputSystem::InputBinding_MatchOptions options);
 
-  /// @brief Method RemoveOverrides, addr 0x64ee6e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RemoveOverrides, addr 0x64f6160, size 0xc, virtual false, abstract: false, final false
   inline void RemoveOverrides();
 
-  /// @brief Method ToDisplayString, addr 0x64eec98, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method ToDisplayString, addr 0x64f6714, size 0x424, virtual false, abstract: false, final false
   inline ::StringW ToDisplayString(::by_ref<::StringW> deviceLayoutName, ::by_ref<::StringW> controlPath, ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options,
                                    ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToDisplayString, addr 0x64eec6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToDisplayString, addr 0x64f66e8, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW ToDisplayString(::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x64eeb6c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x64f65e8, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TriggersAction, addr 0x64e37d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TriggersAction, addr 0x64eb254, size 0x54, virtual false, abstract: false, final false
   inline bool TriggersAction(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method .ctor, addr 0x64ee680, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f60fc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::StringW action, ::StringW groups, ::StringW processors, ::StringW interactions, ::StringW name);
 
-  /// @brief Method get_action, addr 0x64ee648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_action, addr 0x64f60c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_action();
 
-  /// @brief Method get_effectiveInteractions, addr 0x64ee858, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveInteractions, addr 0x64f62d4, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_effectiveInteractions();
 
-  /// @brief Method get_effectivePath, addr 0x64e7050, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_effectivePath, addr 0x64eeacc, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_effectivePath();
 
-  /// @brief Method get_effectiveProcessors, addr 0x64ee870, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveProcessors, addr 0x64f62ec, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_effectiveProcessors();
 
-  /// @brief Method get_groups, addr 0x64ee638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groups, addr 0x64f60b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groups();
 
-  /// @brief Method get_hasOverrides, addr 0x64ee658, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_hasOverrides, addr 0x64f60d4, size 0x28, virtual false, abstract: false, final false
   inline bool get_hasOverrides();
 
-  /// @brief Method get_id, addr 0x64ee594, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x64f6010, size 0x44, virtual false, abstract: false, final false
   inline ::System::Guid get_id();
 
-  /// @brief Method get_interactions, addr 0x64ee5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactions, addr 0x64f6074, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_interactions();
 
-  /// @brief Method get_isComposite, addr 0x64e37cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isComposite, addr 0x64eb248, size 0xc, virtual false, abstract: false, final false
   inline bool get_isComposite();
 
-  /// @brief Method get_isEmpty, addr 0x64ee888, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x64f6304, size 0x48, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method get_isPartOfComposite, addr 0x64e59c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isPartOfComposite, addr 0x64ed444, size 0xc, virtual false, abstract: false, final false
   inline bool get_isPartOfComposite();
 
-  /// @brief Method get_name, addr 0x64ee584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x64f6000, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_overrideInteractions, addr 0x64ee608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideInteractions, addr 0x64f6084, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_overrideInteractions();
 
-  /// @brief Method get_overridePath, addr 0x64ee5e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overridePath, addr 0x64f6064, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_overridePath();
 
-  /// @brief Method get_overrideProcessors, addr 0x64ee628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideProcessors, addr 0x64f60a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_overrideProcessors();
 
-  /// @brief Method get_path, addr 0x64ee5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x64f6054, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_processors, addr 0x64ee618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processors, addr 0x64f6094, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_processors();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>* i___System__IEquatable_1___UnityEngine__InputSystem__InputBinding_();
 
-  /// @brief Method op_Equality, addr 0x64e6124, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x64edba0, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::InputBinding left, ::UnityEngine::InputSystem::InputBinding right);
 
-  /// @brief Method op_Inequality, addr 0x64eea30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x64f64ac, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::InputBinding left, ::UnityEngine::InputSystem::InputBinding right);
 
-  /// @brief Method set_action, addr 0x64ee650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_action, addr 0x64f60cc, size 0x8, virtual false, abstract: false, final false
   inline void set_action(::StringW value);
 
-  /// @brief Method set_groups, addr 0x64ee640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_groups, addr 0x64f60bc, size 0x8, virtual false, abstract: false, final false
   inline void set_groups(::StringW value);
 
-  /// @brief Method set_id, addr 0x64e34cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x64eaf48, size 0x2c, virtual false, abstract: false, final false
   inline void set_id(::System::Guid value);
 
-  /// @brief Method set_interactions, addr 0x64ee600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_interactions, addr 0x64f607c, size 0x8, virtual false, abstract: false, final false
   inline void set_interactions(::StringW value);
 
-  /// @brief Method set_isComposite, addr 0x64e301c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isComposite, addr 0x64eaa98, size 0x20, virtual false, abstract: false, final false
   inline void set_isComposite(bool value);
 
-  /// @brief Method set_isPartOfComposite, addr 0x64e5cc4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isPartOfComposite, addr 0x64ed740, size 0x20, virtual false, abstract: false, final false
   inline void set_isPartOfComposite(bool value);
 
-  /// @brief Method set_name, addr 0x64ee58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x64f6008, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_overrideInteractions, addr 0x64ee610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideInteractions, addr 0x64f608c, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideInteractions(::StringW value);
 
-  /// @brief Method set_overridePath, addr 0x64ee5f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overridePath, addr 0x64f606c, size 0x8, virtual false, abstract: false, final false
   inline void set_overridePath(::StringW value);
 
-  /// @brief Method set_overrideProcessors, addr 0x64ee630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideProcessors, addr 0x64f60ac, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideProcessors(::StringW value);
 
-  /// @brief Method set_path, addr 0x64ee5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_path, addr 0x64f605c, size 0x8, virtual false, abstract: false, final false
   inline void set_path(::StringW value);
 
-  /// @brief Method set_processors, addr 0x64ee620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processors, addr 0x64f609c, size 0x8, virtual false, abstract: false, final false
   inline void set_processors(::StringW value);
 
   // Ctor Parameters []
@@ -502,7 +502,7 @@ public:
   static constexpr char16_t Separator{ u';' };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8669 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };

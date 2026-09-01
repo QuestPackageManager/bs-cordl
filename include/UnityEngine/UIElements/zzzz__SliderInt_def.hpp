@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/SliderInt.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\SliderInt.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::SliderInt_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d6a6d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d72254, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   /// @brief Field m_ShowInputField, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShowInputField, put = __cordl_internal_set_m_ShowInputField)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowInputField;
 
-  /// @brief Method Init, addr 0x6d6a738, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d722bc, size 0x310, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::SliderInt_UxmlTraits* New_ctor();
@@ -164,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowInputField(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x6d6aa48, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d725cc, size 0x26c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -242,35 +242,35 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x6d69c68, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x6d717ec, size 0x1ac, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int32_t startValue);
 
-  /// @brief Method ComputeValueAndDirectionFromClick, addr 0x6d6a03c, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method ComputeValueAndDirectionFromClick, addr 0x6d71bc0, size 0x308, virtual true, abstract: false, final false
   inline void ComputeValueAndDirectionFromClick(float_t sliderLength, float_t dragElementLength, float_t dragElementPos, float_t dragElementLastPos);
 
-  /// @brief Method ComputeValueFromKey, addr 0x6d6a344, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ComputeValueFromKey, addr 0x6d71ec8, size 0x2b0, virtual true, abstract: false, final false
   inline void ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<int32_t> sliderKey, bool isShift);
 
   static inline ::UnityEngine::UIElements::SliderInt* New_ctor();
 
   static inline ::UnityEngine::UIElements::SliderInt* New_ctor(::StringW label, int32_t start, int32_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method ParseStringToValue, addr 0x6d69fb8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ParseStringToValue, addr 0x6d71b3c, size 0x84, virtual true, abstract: false, final false
   inline int32_t ParseStringToValue(::StringW previousValue, ::StringW newValue);
 
-  /// @brief Method SliderLerpUnclamped, addr 0x6d69e14, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method SliderLerpUnclamped, addr 0x6d71998, size 0xf0, virtual true, abstract: false, final false
   inline int32_t SliderLerpUnclamped(int32_t a, int32_t b, float_t interpolant);
 
-  /// @brief Method SliderNormalizeValue, addr 0x6d69f04, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SliderNormalizeValue, addr 0x6d71a88, size 0x28, virtual true, abstract: false, final false
   inline float_t SliderNormalizeValue(int32_t currentValue, int32_t lowerValue, int32_t higherValue);
 
-  /// @brief Method SliderRange, addr 0x6d69f2c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method SliderRange, addr 0x6d71ab0, size 0x8c, virtual true, abstract: false, final false
   inline int32_t SliderRange();
 
-  /// @brief Method .ctor, addr 0x6d69990, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d71514, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d699a8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d7152c, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t start, int32_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -279,7 +279,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_pageSize, addr 0x6d69b00, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_pageSize, addr 0x6d71684, size 0x44, virtual true, abstract: false, final false
   inline float_t get_pageSize();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -288,7 +288,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_pageSize, addr 0x6d69b44, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method set_pageSize, addr 0x6d716c8, size 0x124, virtual true, abstract: false, final false
   inline void set_pageSize(float_t value);
 
 protected:

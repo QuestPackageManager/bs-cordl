@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Gizmo/GizmoTypeInfo.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Gizmo\GizmoTypeInfo.hpp"
 #include "Meta/XR/ImmersiveDebugger/Gizmo/zzzz__GizmoTypeInfo_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypeInfo::*)(::System::Action_1<::System::Object*>*)>(
     &::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a6b6b0;
+  constexpr static std::size_t addrs = 0x5a6fb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

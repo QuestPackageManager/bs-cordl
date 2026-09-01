@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/TransformUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\TransformUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__TransformUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::TransformUtility::UnparentChildren)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x66f079c;
+  constexpr static std::size_t addrs = 0x66f8218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::TransformUtility::ReparentChildren)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x66f091c;
+  constexpr static std::size_t addrs = 0x66f8398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vertex* (*)(::UnityEngine::Transform*, ::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::TransformUtility::TransformVertex)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x66f0a5c;
+  constexpr static std::size_t addrs = 0x66f84d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vertex* (*)(::UnityEngine::Transform*, ::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::TransformUtility::InverseTransformVertex)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x66f0c18;
+  constexpr static std::size_t addrs = 0x66f8694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

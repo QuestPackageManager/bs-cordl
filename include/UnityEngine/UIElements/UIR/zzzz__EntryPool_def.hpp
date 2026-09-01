@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryPool.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::EntryPool___c* New_ctor();
 
-  /// @brief Method <.cctor>b__8_0, addr 0x6cd18d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__8_0, addr 0x6cd9458, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* __cctor_b__8_0();
 
-  /// @brief Method <.cctor>b__8_1, addr 0x6cd191c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__8_1, addr 0x6cd94a0, size 0x28, virtual false, abstract: false, final false
   inline void __cctor_b__8_1(::UnityEngine::UIElements::UIR::Entry* e);
 
-  /// @brief Method .ctor, addr 0x6cd18d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd9454, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::EntryPool___c* getStaticF___9();
@@ -107,12 +107,12 @@ public:
                       put = __cordl_internal_set_m_ThreadEntries)) ::ArrayW<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::UIR::Entry*>*>
       m_ThreadEntries;
 
-  /// @brief Method Get, addr 0x6cd147c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6cd9000, size 0x1ec, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* Get();
 
   static inline ::UnityEngine::UIElements::UIR::EntryPool* New_ctor(int32_t maxCapacity);
 
-  /// @brief Method ReturnAll, addr 0x6cd1668, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReturnAll, addr 0x6cd91ec, size 0xdc, virtual false, abstract: false, final false
   inline void ReturnAll();
 
   constexpr ::UnityEngine::UIElements::UIR::ImplicitPool_1<::UnityEngine::UIElements::UIR::Entry*>* const& __cordl_internal_get_m_SharedPool() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ThreadEntries(::ArrayW<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::UIR::Entry*>*> value);
 
-  /// @brief Method .ctor, addr 0x6cd1290, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd8e14, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxCapacity);
 
   static inline ::System::Func_1<::UnityEngine::UIElements::UIR::Entry*>* getStaticF_k_CreateAction();

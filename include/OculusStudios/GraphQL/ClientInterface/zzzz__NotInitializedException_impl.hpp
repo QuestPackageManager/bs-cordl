@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/NotInitializedException.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\NotInitializedException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__NotInitializedException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::NotInitializedException::*)()>(
     &::OculusStudios::GraphQL::ClientInterface::NotInitializedException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f27edc;
+  constexpr static std::size_t addrs = 0x5f2c39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::NotInitializedException::*)(::StringW)>(
     &::OculusStudios::GraphQL::ClientInterface::NotInitializedException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f27f34;
+  constexpr static std::size_t addrs = 0x5f2c3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::NotInitializedException::*)(::StringW, ::System::Exception*)>(
     &::OculusStudios::GraphQL::ClientInterface::NotInitializedException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f27fa0;
+  constexpr static std::size_t addrs = 0x5f2c460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::NotInitializedException*>(),

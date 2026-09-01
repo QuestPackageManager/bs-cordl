@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XROcclusionMesh.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XROcclusionMesh.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__XROcclusionMesh_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__XRPass_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)(::UnityEngine::Experimental::Rendering::XRPass*)>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6740f68;
+  constexpr static std::size_t addrs = 0x67489e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XROcclusionMesh*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)(::UnityEngine::Material*)>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::SetMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6740f70;
+  constexpr static std::size_t addrs = 0x67489ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::get_hasValidOcclusionMesh)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6740f78;
+  constexpr static std::size_t addrs = 0x67489f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)(::UnityEngine::Rendering::CommandBuffer*, float_t, bool)>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::RenderOcclusionMesh)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x6741134;
+  constexpr static std::size_t addrs = 0x6748bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::UpdateCombinedMesh)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x67417fc;
+  constexpr static std::size_t addrs = 0x6749278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::IsOcclusionMeshSupported)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6741030;
+  constexpr static std::size_t addrs = 0x6748aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)(::by_ref<int32_t>)>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::TryGetOcclusionMeshCombinedHashCode)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x67418d0;
+  constexpr static std::size_t addrs = 0x674934c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XROcclusionMesh*>(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XROcclusionMesh::*)()>(
     &::UnityEngine::Experimental::Rendering::XROcclusionMesh::CreateOcclusionMeshCombined)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x67419c8;
+  constexpr static std::size_t addrs = 0x6749444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

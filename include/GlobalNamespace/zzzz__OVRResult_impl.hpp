@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRResult.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRResult_def.hpp"
 #include "GlobalNamespace/zzzz__OVRResult_1_def.hpp"

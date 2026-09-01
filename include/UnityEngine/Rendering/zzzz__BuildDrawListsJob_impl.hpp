@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BuildDrawListsJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BuildDrawListsJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t*)>(&::UnityEngine::Rendering::BuildDrawListsJob::IncrementCounter)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6814660;
+  constexpr static std::size_t addrs = 0x681c0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BuildDrawListsJob::*)(int32_t)>(&::UnityEngine::Rendering::BuildDrawListsJob::Execute)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x68146b0;
+  constexpr static std::size_t addrs = 0x681c12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

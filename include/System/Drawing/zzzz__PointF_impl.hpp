@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Drawing/PointF.hpp"
+// IWYU pragma private; include "System\Drawing\PointF.hpp"
 #include "System/Drawing/zzzz__PointF_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Drawing::PointF::*)()>(&::System::Drawing::PointF::get_X)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60cda64;
+  constexpr static std::size_t addrs = 0x60d54e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::PointF>(), { "get_X", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Drawing::PointF::*)()>(&::System::Drawing::PointF::get_Y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60cda6c;
+  constexpr static std::size_t addrs = 0x60d54e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::PointF>(), { "get_Y", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Drawing::PointF, ::System::Drawing::PointF)>(&::System::Drawing::PointF::op_Equality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60cda74;
+  constexpr static std::size_t addrs = 0x60d54f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Drawing::PointF::*)(::System::Object*)>(&::System::Drawing::PointF::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x60cda84;
+  constexpr static std::size_t addrs = 0x60d5500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Drawing::PointF>(), { ::i2c::class_of<::System::Drawing::PointF>(), 0 }));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Drawing::PointF::*)(::System::Drawing::PointF)>(&::System::Drawing::PointF::Equals)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x60cdb08;
+  constexpr static std::size_t addrs = 0x60d5584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Drawing::PointF::*)()>(&::System::Drawing::PointF::GetHashCode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x60cdb20;
+  constexpr static std::size_t addrs = 0x60d559c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Drawing::PointF>(), { ::i2c::class_of<::System::Drawing::PointF>(), 2 }));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Drawing::PointF::*)()>(&::System::Drawing::PointF::ToString)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x60cdba4;
+  constexpr static std::size_t addrs = 0x60d5620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Drawing::PointF>(), { ::i2c::class_of<::System::Drawing::PointF>(), 3 }));

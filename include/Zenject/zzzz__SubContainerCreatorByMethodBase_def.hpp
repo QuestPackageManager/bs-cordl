@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SubContainerCreatorByMethodBase.hpp"
+// IWYU pragma private; include "Zenject\SubContainerCreatorByMethodBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateEmptySubContainer, addr 0x6e8304c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptySubContainer, addr 0x6e8abd0, size 0x3c, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* CreateEmptySubContainer();
 
   /// @brief Method CreateSubContainer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__containerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x6e83044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8abc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo);
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"
@@ -87,7 +87,7 @@ public:
   SubContainerCreatorByMethodBase(SubContainerCreatorByMethodBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14600 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Serialization/FormerlySerializedAsAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Serialization\FormerlySerializedAsAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_m_oldName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6af738c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afeda4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oldName);
 
 protected:
@@ -49,7 +49,7 @@ public:
   FormerlySerializedAsAttribute(FormerlySerializedAsAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10464 };
 
   /// @brief Field m_oldName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_oldName;

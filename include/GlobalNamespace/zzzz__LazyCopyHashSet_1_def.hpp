@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LazyCopyHashSet_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\LazyCopyHashSet_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,7 +103,7 @@ public:
   LazyCopyHashSet_1(LazyCopyHashSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20457 };
 
   /// @brief Field _itemsCopy, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ____itemsCopy;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/NotifyParentPropertyAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\NotifyParentPropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ public:
   /// @brief Field notifyParent, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_notifyParent, put = __cordl_internal_set_notifyParent)) bool notifyParent;
 
-  /// @brief Method Equals, addr 0x63e3234, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x63eacb0, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x63e32c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x63ead3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x63e32c8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x63ead44, size 0x6c, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::NotifyParentPropertyAttribute* New_ctor(bool notifyParent);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_notifyParent(bool value);
 
-  /// @brief Method .ctor, addr 0x63e3224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63eaca0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool notifyParent);
 
   static inline ::System::ComponentModel::NotifyParentPropertyAttribute* getStaticF_Default();
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::ComponentModel::NotifyParentPropertyAttribute* getStaticF_Yes();
 
-  /// @brief Method get_NotifyParent, addr 0x63e322c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotifyParent, addr 0x63eaca8, size 0x8, virtual false, abstract: false, final false
   inline bool get_NotifyParent();
 
   static inline void setStaticF_Default(::System::ComponentModel::NotifyParentPropertyAttribute* value);
@@ -87,7 +87,7 @@ public:
   NotifyParentPropertyAttribute(NotifyParentPropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11342 };
 
   /// @brief Field notifyParent, offset: 0x10, size: 0x1, def value: None
   bool ___notifyParent;

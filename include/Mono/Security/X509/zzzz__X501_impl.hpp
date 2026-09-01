@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/X509/X501.hpp"
+// IWYU pragma private; include "Mono\Security\X509\X501.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/X509/zzzz__X501_def.hpp"
 #include "Mono/Security/zzzz__ASN1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Mono::Security::ASN1*)>(&::Mono::Security::X509::X501::ToString)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5a87bc0;
+  constexpr static std::size_t addrs = 0x5a8c07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Mono::Security::ASN1*, bool, ::StringW, bool)>(&::Mono::Security::X509::X501::ToString)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5a8f4e0;
+  constexpr static std::size_t addrs = 0x5a9399c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::Mono::Security::ASN1*, bool)>(&::Mono::Security::X509::X501::AppendEntry)> {
   constexpr static std::size_t size = 0x878;
-  constexpr static std::size_t addrs = 0x5a8ec68;
+  constexpr static std::size_t addrs = 0x5a93124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

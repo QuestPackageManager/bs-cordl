@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/FileSecurity.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\FileSecurity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::System::Security::AccessControl::FileSecurity* New_ctor(::StringW fileName, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method .ctor, addr 0x5b1b1b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1f674, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName, ::System::Security::AccessControl::AccessControlSections includeSections);
 
 protected:

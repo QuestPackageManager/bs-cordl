@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/RecPlay/PlayerPoseIO.hpp"
+// IWYU pragma private; include "BeatSaber\RecPlay\PlayerPoseIO.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/RecPlay/zzzz__PlayerPoseIO_def.hpp"
 #include "BeatSaber/RecPlay/zzzz__PlayerPoseFrames_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::BeatSaber::RecPlay::PlayerPoseFrames)>(&::BeatSaber::RecPlay::PlayerPoseIO::SerializeAsText)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x32c02f8;
+  constexpr static std::size_t addrs = 0x32c40f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames>, ::by_ref<::StringW>)>(
     &::BeatSaber::RecPlay::PlayerPoseIO::DeserializeFromText)> {
   constexpr static std::size_t size = 0x7ec;
-  constexpr static std::size_t addrs = 0x32c0ae8;
+  constexpr static std::size_t addrs = 0x32c48e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::by_ref<::System::ReadOnlySpan_1<char16_t>>)>(&::BeatSaber::RecPlay::PlayerPoseIO::NextToken)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x32c12d4;
+  constexpr static std::size_t addrs = 0x32c50d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::ReadOnlySpan_1<char16_t>>, char16_t, char16_t)>(&::BeatSaber::RecPlay::PlayerPoseIO::Clamp)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x32c1474;
+  constexpr static std::size_t addrs = 0x32c5270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::StringW, ::ArrayW<::BeatSaber::RecPlay::PoseFrame>)>(
     &::BeatSaber::RecPlay::PlayerPoseIO::_SerializeAsText_g__WriteFrames_0_0)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x32c06d0;
+  constexpr static std::size_t addrs = 0x32c44cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/GroupPresenceLeaveIntent.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\GroupPresenceLeaveIntent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__GroupPresenceLeaveIntent_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::GroupPresenceLeaveIntent::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::GroupPresenceLeaveIntent::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5deb468;
+  constexpr static std::size_t addrs = 0x5def924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

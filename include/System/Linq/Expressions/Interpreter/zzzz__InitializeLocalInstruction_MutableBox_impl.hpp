@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InitializeLocalInstruction_MutableBox.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InitializeLocalInstruction_MutableBox.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InitializeLocalInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InitializeLocalInstruction_MutableBox_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitializeLocalInstruction_MutableBox::*)(int32_t, ::System::Type*)>(
     &::GlobalNamespace::InitializeLocalInstruction_MutableBox::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fabc04;
+  constexpr static std::size_t addrs = 0x5fb3680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitializeLocalInstruction_MutableBox*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::InitializeLocalInstruction_MutableBox::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::GlobalNamespace::InitializeLocalInstruction_MutableBox::Run)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5fabc54;
+  constexpr static std::size_t addrs = 0x5fb36d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitializeLocalInstruction_MutableBox*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::InitializeLocalInstruction_MutableBox::*)()>(
     &::GlobalNamespace::InitializeLocalInstruction_MutableBox::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5fabda4;
+  constexpr static std::size_t addrs = 0x5fb3820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitializeLocalInstruction_MutableBox*>(),

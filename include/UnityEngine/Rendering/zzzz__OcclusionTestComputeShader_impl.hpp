@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OcclusionTestComputeShader.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OcclusionTestComputeShader.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionTestComputeShader_def.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OcclusionTestComputeShader::*)(::UnityEngine::ComputeShader*)>(
     &::UnityEngine::Rendering::OcclusionTestComputeShader::Init)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x682a874;
+  constexpr static std::size_t addrs = 0x68322f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

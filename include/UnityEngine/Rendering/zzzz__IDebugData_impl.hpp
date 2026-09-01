@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IDebugData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IDebugData.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugData_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IDebugData.GetReset

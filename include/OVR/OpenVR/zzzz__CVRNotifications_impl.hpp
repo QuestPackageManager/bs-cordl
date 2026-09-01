@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/CVRNotifications.hpp"
+// IWYU pragma private; include "OVR\OpenVR\CVRNotifications.hpp"
 #include "OVR/OpenVR/zzzz__IVRNotifications_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRNotifications_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRNotifications::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRNotifications::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5e42754;
+  constexpr static std::size_t addrs = 0x5e46c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRNotific
     uint64_t, uint64_t, ::OVR::OpenVR::EVRNotificationType, ::StringW, ::OVR::OpenVR::EVRNotificationStyle, ::by_ref<::OVR::OpenVR::NotificationBitmap_t>, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::CVRNotifications::CreateNotification)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e42848;
+  constexpr static std::size_t addrs = 0x5e46d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRNotificationError (::OVR::OpenVR::CVRNotifications::*)(uint32_t)>(&::OVR::OpenVR::CVRNotifications::RemoveNotification)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42874;
+  constexpr static std::size_t addrs = 0x5e46d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

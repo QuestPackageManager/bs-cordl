@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphPairAdjustmentRecord.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\GlyphPairAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,31 +43,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*();
 
-  /// @brief Method Equals, addr 0x6bb8f08, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6bc0a8c, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6bb8f80, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6bc0b04, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord other);
 
-  /// @brief Method GetHashCode, addr 0x6bb8e9c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6bc0a20, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6bb8e78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc09fc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord firstAdjustmentRecord, ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord secondAdjustmentRecord);
 
-  /// @brief Method get_featureLookupFlags, addr 0x6bb8e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_featureLookupFlags, addr 0x6bc09f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags get_featureLookupFlags();
 
-  /// @brief Method get_firstAdjustmentRecord, addr 0x6bb8e34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_firstAdjustmentRecord, addr 0x6bc09b8, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_firstAdjustmentRecord();
 
-  /// @brief Method get_secondAdjustmentRecord, addr 0x6bb8e5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_secondAdjustmentRecord, addr 0x6bc09e0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord get_secondAdjustmentRecord();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>"
   constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphPairAdjustmentRecord_();
 
-  /// @brief Method set_firstAdjustmentRecord, addr 0x6bb8e48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_firstAdjustmentRecord, addr 0x6bc09cc, size 0x14, virtual false, abstract: false, final false
   inline void set_firstAdjustmentRecord(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord value);
 
   // Ctor Parameters []
@@ -82,7 +82,7 @@ public:
                                       ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21870 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };

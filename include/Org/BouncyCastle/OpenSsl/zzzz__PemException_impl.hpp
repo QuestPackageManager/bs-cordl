@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\OpenSsl\PemException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__PemException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemException::*)(::StringW)>(&::Org::BouncyCastle::OpenSsl::PemException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35a30f0;
+  constexpr static std::size_t addrs = 0x35a6eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemException::*)(::StringW, ::System::Exception*)>(&::Org::BouncyCastle::OpenSsl::PemException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35a3114;
+  constexpr static std::size_t addrs = 0x35a6ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

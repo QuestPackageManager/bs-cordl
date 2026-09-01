@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorSaturationValueSlider.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorSaturationValueSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,24 +67,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x5a2862c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a2ca94, size 0x90, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x5a28874, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x5a2ccdc, size 0x28, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::Slider2D* slider, ::UnityEngine::Vector2 normalizedValue);
 
   static inline ::GlobalNamespace::ColorSaturationValueSlider* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a286bc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a2cb24, size 0x84, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPointerUp, addr 0x5a2889c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x5a2cd04, size 0x44, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method SetHue, addr 0x5a28740, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetHue, addr 0x5a2cba8, size 0x14, virtual false, abstract: false, final false
   inline void SetHue(float_t hue);
 
-  /// @brief Method UpdateVisuals, addr 0x5a28754, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x5a2cbbc, size 0x120, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__darkColor() const;
@@ -120,10 +120,10 @@ public:
   constexpr void __cordl_internal_set_colorSaturationOrValueDidChangeEvent(
       ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x5a288e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2cd48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x5a284ac, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x5a2c914, size 0xc0, virtual false, abstract: false, final false
   inline void
   add_colorSaturationOrValueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
@@ -133,7 +133,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x5a2856c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x5a2c9d4, size 0xc0, virtual false, abstract: false, final false
   inline void
   remove_colorSaturationOrValueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
@@ -152,7 +152,7 @@ public:
   ColorSaturationValueSlider(ColorSaturationValueSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23173 };
 
   /// @brief Field _hue, offset: 0x12c, size: 0x4, def value: None
   float_t ____hue;

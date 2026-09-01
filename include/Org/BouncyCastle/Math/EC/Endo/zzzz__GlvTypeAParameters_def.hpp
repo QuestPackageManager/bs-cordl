@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Endo/GlvTypeAParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Endo\GlvTypeAParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_m_splitParams(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* value);
 
-  /// @brief Method .ctor, addr 0x3508ef4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350ccb4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
-  /// @brief Method get_I, addr 0x3508f00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_I, addr 0x350ccc0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_I();
 
-  /// @brief Method get_Lambda, addr 0x3508f08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Lambda, addr 0x350ccc8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Lambda();
 
-  /// @brief Method get_SplitParams, addr 0x3508f10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SplitParams, addr 0x350ccd0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
 
 protected:

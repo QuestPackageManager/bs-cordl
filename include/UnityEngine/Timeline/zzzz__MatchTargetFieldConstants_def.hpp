@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/MatchTargetFieldConstants.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\MatchTargetFieldConstants.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
   /// @brief Field Rotation, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_Rotation, put = setStaticF_Rotation)) ::UnityEngine::Timeline::MatchTargetFields Rotation;
 
-  /// @brief Method HasAny, addr 0x69a6bb4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HasAny, addr 0x69ae630, size 0x78, virtual false, abstract: false, final false
   static inline bool HasAny(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields fields);
 
-  /// @brief Method Toggle, addr 0x69a6c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Toggle, addr 0x69ae6a8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::MatchTargetFields Toggle(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields flag);
 
   static inline ::UnityEngine::Timeline::MatchTargetFields getStaticF_All();
@@ -72,7 +72,7 @@ public:
   MatchTargetFieldConstants(MatchTargetFieldConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19163 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

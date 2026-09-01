@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DeactivateAnimatorOnInputFocusCapture.hpp"
+// IWYU pragma private; include "GlobalNamespace\DeactivateAnimatorOnInputFocusCapture.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DeactivateAnimatorOnInputFocusCapture_def.hpp"
 #include "GlobalNamespace/zzzz__IXRSystemState_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(&::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::Start)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x58550cc;
+  constexpr static std::size_t addrs = 0x58541d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(&::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::OnDestroy)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x58551ec;
+  constexpr static std::size_t addrs = 0x58542f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)(::GlobalNamespace::XRSystemEventType)>(
     &::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::HandleSystemStateChange)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5855328;
+  constexpr static std::size_t addrs = 0x5854430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::*)()>(&::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585538c;
+  constexpr static std::size_t addrs = 0x5854494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture*>(), { ".ctor", {}, {} })));

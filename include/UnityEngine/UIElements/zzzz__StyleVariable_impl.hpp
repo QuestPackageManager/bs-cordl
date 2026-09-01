@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleVariable.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleVariable.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueHandle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleVariable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleVariable::*)(
     ::StringW, ::UnityEngine::UIElements::StyleSheet*, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle>)>(&::UnityEngine::UIElements::StyleVariable::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c95a20;
+  constexpr static std::size_t addrs = 0x6c9d5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleVariable::*)()>(&::UnityEngine::UIElements::StyleVariable::GetHashCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c95a2c;
+  constexpr static std::size_t addrs = 0x6c9d5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ToneMappingExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\ToneMappingExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
   /// @brief Field _acesToneMappingKeyword, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF__acesToneMappingKeyword, put = setStaticF__acesToneMappingKeyword)) ::UnityEngine::Rendering::GlobalKeyword _acesToneMappingKeyword;
 
-  /// @brief Method SetShaderKeyword, addr 0x586845c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetShaderKeyword, addr 0x5867400, size 0x64, virtual false, abstract: false, final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
 
-  /// @brief Method SetShaderKeyword, addr 0x58661dc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetShaderKeyword, addr 0x5865160, size 0xac, virtual false, abstract: false, final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
   static inline ::UnityEngine::Rendering::GlobalKeyword getStaticF__acesToneMappingKeyword();
@@ -55,7 +55,7 @@ public:
   ToneMappingExtensions(ToneMappingExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19488 };
 
   /// @brief Field kAcesToneMappingEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kAcesToneMappingEnabledKeyword{ u"ACES_TONE_MAPPING" };

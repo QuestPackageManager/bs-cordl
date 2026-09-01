@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlatformLogger.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlatformLogger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,19 +29,19 @@ public:
   /// @brief Convert operator to "::OculusStudios::Platform::Core::IPlatformLogger"
   constexpr operator ::OculusStudios::Platform::Core::IPlatformLogger*() noexcept;
 
-  /// @brief Method LogError, addr 0x3773a34, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x37796a0, size 0xb8, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogInfo, addr 0x3773aec, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method LogInfo, addr 0x3779758, size 0xb8, virtual true, abstract: false, final true
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogSensitive, addr 0x3773ba8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogSensitive, addr 0x3779814, size 0x4, virtual true, abstract: false, final true
   inline void LogSensitive(::StringW message);
 
-  /// @brief Method LogVerbose, addr 0x3773ba4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogVerbose, addr 0x3779810, size 0x4, virtual true, abstract: false, final true
   inline void LogVerbose(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x3773bac, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x3779818, size 0xb8, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
   static inline ::GlobalNamespace::PlatformLogger* New_ctor(::StringW logPrefix);
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_logPrefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3772e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3778a7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW logPrefix);
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatformLogger"
@@ -73,7 +73,7 @@ public:
   PlatformLogger(PlatformLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21040 };
 
   /// @brief Field logPrefix, offset: 0x10, size: 0x8, def value: None
   ::StringW ___logPrefix;

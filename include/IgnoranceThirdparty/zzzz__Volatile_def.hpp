@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceThirdparty/Volatile.hpp"
+// IWYU pragma private; include "IgnoranceThirdparty\Volatile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,46 +34,46 @@ public:
   /// @brief Field _value, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int64_t _value;
 
-  /// @brief Method AtomicAddAndGet, addr 0x5891ab8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AtomicAddAndGet, addr 0x5891480, size 0x24, virtual false, abstract: false, final false
   inline int64_t AtomicAddAndGet(int64_t delta);
 
-  /// @brief Method AtomicCompareExchange, addr 0x5891a70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AtomicCompareExchange, addr 0x5891438, size 0x28, virtual false, abstract: false, final false
   inline bool AtomicCompareExchange(int64_t newValue, int64_t comparand);
 
-  /// @brief Method AtomicDecrementAndGet, addr 0x5891afc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AtomicDecrementAndGet, addr 0x58914c4, size 0x20, virtual false, abstract: false, final false
   inline int64_t AtomicDecrementAndGet();
 
-  /// @brief Method AtomicExchange, addr 0x5891a98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AtomicExchange, addr 0x5891460, size 0x20, virtual false, abstract: false, final false
   inline int64_t AtomicExchange(int64_t newValue);
 
-  /// @brief Method AtomicIncrementAndGet, addr 0x5891adc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AtomicIncrementAndGet, addr 0x58914a4, size 0x20, virtual false, abstract: false, final false
   inline int64_t AtomicIncrementAndGet();
 
-  /// @brief Method ReadAcquireFence, addr 0x58919e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReadAcquireFence, addr 0x58913b0, size 0xc, virtual false, abstract: false, final false
   inline int64_t ReadAcquireFence();
 
-  /// @brief Method ReadCompilerOnlyFence, addr 0x5891a00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadCompilerOnlyFence, addr 0x58913c8, size 0x24, virtual false, abstract: false, final false
   inline int64_t ReadCompilerOnlyFence();
 
-  /// @brief Method ReadFullFence, addr 0x58919f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReadFullFence, addr 0x58913bc, size 0xc, virtual false, abstract: false, final false
   inline int64_t ReadFullFence();
 
-  /// @brief Method ReadUnfenced, addr 0x58919e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadUnfenced, addr 0x58913a8, size 0x8, virtual false, abstract: false, final false
   inline int64_t ReadUnfenced();
 
-  /// @brief Method ToString, addr 0x5891b1c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x58914e4, size 0x24, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method WriteCompilerOnlyFence, addr 0x5891a3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WriteCompilerOnlyFence, addr 0x5891404, size 0x2c, virtual false, abstract: false, final false
   inline void WriteCompilerOnlyFence(int64_t newValue);
 
-  /// @brief Method WriteFullFence, addr 0x5891a30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteFullFence, addr 0x58913f8, size 0xc, virtual false, abstract: false, final false
   inline void WriteFullFence(int64_t newValue);
 
-  /// @brief Method WriteReleaseFence, addr 0x5891a24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteReleaseFence, addr 0x58913ec, size 0xc, virtual false, abstract: false, final false
   inline void WriteReleaseFence(int64_t newValue);
 
-  /// @brief Method WriteUnfenced, addr 0x5891a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WriteUnfenced, addr 0x5891430, size 0x8, virtual false, abstract: false, final false
   inline void WriteUnfenced(int64_t newValue);
 
   constexpr int64_t const& __cordl_internal_get__value() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__value(int64_t value);
 
-  /// @brief Method .ctor, addr 0x58919d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58913a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
   // Ctor Parameters []
@@ -113,7 +113,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -155,7 +155,7 @@ public:
   static constexpr int32_t CacheLineSize{ static_cast<int32_t>(0x40) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

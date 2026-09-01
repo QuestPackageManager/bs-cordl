@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapEventRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapEventRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)(int32_t)>(&::GlobalNamespace::BeatmapEventRecorder::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x58e97e8;
+  constexpr static std::size_t addrs = 0x58ece18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)(::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::BeatmapEventRecorder::Begin)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e986c;
+  constexpr static std::size_t addrs = 0x58ece9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)()>(&::GlobalNamespace::BeatmapEventRecorder::CaptureFrame)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x58e992c;
+  constexpr static std::size_t addrs = 0x58ecf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventRecorder*>(), { "CaptureFrame", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BeatmapEventRecorder_EventCounts> (::GlobalNamespace::BeatmapEventRecorder::*)()>(
     &::GlobalNamespace::BeatmapEventRecorder::Finish)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x58e9a18;
+  constexpr static std::size_t addrs = 0x58ed048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventRecorder*>(), { "Finish", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<::GlobalNamespace::BeatmapEventRecorder_EventCounts>)>(&::GlobalNamespace::BeatmapEventRecorder::GenerateTableReport)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x58e9aec;
+  constexpr static std::size_t addrs = 0x58ed11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)()>(&::GlobalNamespace::BeatmapEventRecorder::ClearCallbacks)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58e9abc;
+  constexpr static std::size_t addrs = 0x58ed0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventRecorder*>(), { "ClearCallbacks", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)(::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::BeatmapEventRecorder::SetupCallbacks)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x58e9870;
+  constexpr static std::size_t addrs = 0x58ecea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventRecorder::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapEventRecorder::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x58ea02c;
+  constexpr static std::size_t addrs = 0x58ed65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

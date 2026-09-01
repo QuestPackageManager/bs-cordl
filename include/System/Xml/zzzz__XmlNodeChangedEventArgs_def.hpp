@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlNodeChangedEventArgs.hpp"
+// IWYU pragma private; include "System\Xml\XmlNodeChangedEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,11 +86,11 @@ public:
 
   constexpr void __cordl_internal_set_oldValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62b79e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62bf464, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue,
                     ::System::Xml::XmlNodeChangedAction action);
 
-  /// @brief Method get_Action, addr 0x62c0c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Action, addr 0x62c86a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNodeChangedAction get_Action();
 
 protected:
@@ -108,7 +108,7 @@ public:
   XmlNodeChangedEventArgs(XmlNodeChangedEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9401 };
 
   /// @brief Field action, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::XmlNodeChangedAction ___action;

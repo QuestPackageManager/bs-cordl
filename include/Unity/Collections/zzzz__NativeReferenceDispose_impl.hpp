@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/NativeReferenceDispose.hpp"
+// IWYU pragma private; include "Unity\Collections\NativeReferenceDispose.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_impl.hpp"
 #include "Unity/Collections/zzzz__NativeReferenceDispose_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::NativeReferenceDispose.Dispose
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeReferenceDispose::*)()>(&::Unity::Collections::NativeReferenceDispose::Dispose)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64bb7c0;
+  constexpr static std::size_t addrs = 0x64c323c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeReferenceDispose>(), { "Dispose", {}, {} })));

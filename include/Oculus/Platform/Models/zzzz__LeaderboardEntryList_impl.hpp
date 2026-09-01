@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/LeaderboardEntryList.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\LeaderboardEntryList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__LeaderboardEntryList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LeaderboardEntry_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::LeaderboardEntryList::*)(::System::IntPtr)>(&::Oculus::Platform::Models::LeaderboardEntryList::_ctor)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x5dec16c;
+  constexpr static std::size_t addrs = 0x5df0628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

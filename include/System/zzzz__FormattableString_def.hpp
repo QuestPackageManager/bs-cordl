@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/FormattableString.hpp"
+// IWYU pragma private; include "System\FormattableString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,16 +46,16 @@ public:
 
   static inline ::System::FormattableString* New_ctor();
 
-  /// @brief Method System.IFormattable.ToString, addr 0x5c2c350, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.IFormattable.ToString, addr 0x5c3080c, size 0x10, virtual true, abstract: false, final true
   inline ::StringW System_IFormattable_ToString(::StringW ignored, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ToString, addr 0x5c2c360, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5c3081c, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method ToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x5c2c3cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c30888, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ArgumentCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

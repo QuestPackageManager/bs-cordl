@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/DoubleConverter.hpp"
+// IWYU pragma private; include "System\ComponentModel\DoubleConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,24 +34,24 @@ public:
 
   __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x63b8af0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x63c056c, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x63b8a24, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x63c04a0, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::DoubleConverter* New_ctor();
 
-  /// @brief Method ToString, addr 0x63b8b20, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63c059c, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x63b8bb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c0634, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex, addr 0x63b89ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x63c0468, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
-  /// @brief Method get_TargetType, addr 0x63b89f4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x63c0470, size 0x30, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:
@@ -69,7 +69,7 @@ public:
   DoubleConverter(DoubleConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

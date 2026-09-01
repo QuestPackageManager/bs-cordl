@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/TypeInfo.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\TypeInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
   constexpr operator ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept;
 
-  /// @brief Method CanCastTo, addr 0x5b2c784, size 0x24c, virtual true, abstract: false, final true
+  /// @brief Method CanCastTo, addr 0x5b30c40, size 0x24c, virtual true, abstract: false, final true
   inline bool CanCastTo(::System::Type* fromType, ::System::Object* o);
 
   static inline ::System::Runtime::Remoting::TypeInfo* New_ctor(::System::Type* type);
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_serverType(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b2a25c, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b2e718, size 0x364, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_TypeName, addr 0x5b2c77c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x5b30c38, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
   /// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/DSASignatureFormatter.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\DSASignatureFormatter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set__oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5af6d58, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afb214, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

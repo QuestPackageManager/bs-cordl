@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PosesRecordingInfoSaveData.hpp"
+// IWYU pragma private; include "GlobalNamespace\PosesRecordingInfoSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,22 +88,22 @@ public:
 
   constexpr void __cordl_internal_set__nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x58e6e98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ea4c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
-  /// @brief Method get_farClip, addr 0x58e6e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_farClip, addr 0x58ea4b0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_farClip();
 
-  /// @brief Method get_fieldOfVision, addr 0x58e6e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fieldOfVision, addr 0x58ea4a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fieldOfVision();
 
-  /// @brief Method get_hmdOffset, addr 0x58e6e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hmdOffset, addr 0x58ea4b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_hmdOffset();
 
-  /// @brief Method get_nearClip, addr 0x58e6e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nearClip, addr 0x58ea4a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nearClip();
 
-  /// @brief Method get_nearOffset, addr 0x58e6e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nearOffset, addr 0x58ea4c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nearOffset();
 
 protected:
@@ -121,7 +121,7 @@ public:
   PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData(PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6586 };
 
   /// @brief Field _fieldOfVision, offset: 0x10, size: 0x4, def value: None
   float_t ____fieldOfVision;
@@ -211,19 +211,19 @@ public:
 
   constexpr void __cordl_internal_set__version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x58e6e04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ea434, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> objectIds, ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* externalCameraCalibration, ::StringW dataFileName);
 
-  /// @brief Method get_dataFileName, addr 0x58e6dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataFileName, addr 0x58ea42c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_dataFileName();
 
-  /// @brief Method get_externalCameraCalibration, addr 0x58e6df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_externalCameraCalibration, addr 0x58ea424, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* get_externalCameraCalibration();
 
-  /// @brief Method get_objectIds, addr 0x58e6dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectIds, addr 0x58ea41c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_objectIds();
 
-  /// @brief Method get_version, addr 0x58e6de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x58ea414, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
 protected:
@@ -241,7 +241,7 @@ public:
   PosesRecordingInfoSaveData(PosesRecordingInfoSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6587 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"1.0.0" };

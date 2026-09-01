@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioPlayerBase.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioPlayerBase.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioPlayerBase_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPlayerBase::*)()>(&::GlobalNamespace::AudioPlayerBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b53ec;
+  constexpr static std::size_t addrs = 0x58b4d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPlayerBase*>(), { ".ctor", {}, {} })));

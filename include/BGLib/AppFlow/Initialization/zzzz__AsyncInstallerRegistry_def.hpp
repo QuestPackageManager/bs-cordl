@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncInstallerRegistry.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncInstallerRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   /// @brief Convert operator to "::BGLib::AppFlow::Initialization::IInstallerRegistry"
   constexpr operator ::BGLib::AppFlow::Initialization::IInstallerRegistry*() noexcept;
 
-  /// @brief Method AddInstaller, addr 0x3304a50, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method AddInstaller, addr 0x330884c, size 0xb4, virtual true, abstract: false, final true
   inline void AddInstaller(::Zenject::IInstaller* newInstaller);
 
   static inline ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* New_ctor();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_installers(::System::Collections::Generic::List_1<::Zenject::IInstaller*>* value);
 
-  /// @brief Method .ctor, addr 0x3304b04, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3308900, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::AppFlow::Initialization::IInstallerRegistry"
@@ -66,7 +66,7 @@ public:
   AsyncInstallerRegistry(AsyncInstallerRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21550 };
 
   /// @brief Field installers, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::IInstaller*>* ___installers;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MouseOutEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MouseOutEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d988b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6da043c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d988b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da0438, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseOutEvent___c* getStaticF___9();
@@ -81,15 +81,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseOutEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6d98788, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6da030c, size 0x4, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   static inline ::UnityEngine::UIElements::MouseOutEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x6d9878c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6da0310, size 0x88, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6d98814, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da0398, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AdbCommandReceiver.hpp"
+// IWYU pragma private; include "GlobalNamespace\AdbCommandReceiver.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_impl.hpp"
 #include "GlobalNamespace/zzzz__AdbCommandReceiver_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdbCommandReceiver_CallbackProxy::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::AdbCommandReceiver_CallbackProxy::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x32c76e4;
+  constexpr static std::size_t addrs = 0x32cb4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdbCommandReceiver_CallbackProxy::*)(::StringW)>(
     &::GlobalNamespace::AdbCommandReceiver_CallbackProxy::onCommandReceived)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32c7934;
+  constexpr static std::size_t addrs = 0x32cb730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdbCommandReceiver::*)()>(&::GlobalNamespace::AdbCommandReceiver::Initialize)> {
   constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x32c7168;
+  constexpr static std::size_t addrs = 0x32caf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AdbCommandReceiver*>(), { "Initialize", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdbCommandReceiver::*)()>(&::GlobalNamespace::AdbCommandReceiver::Dispose)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x32c7770;
+  constexpr static std::size_t addrs = 0x32cb56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AdbCommandReceiver*>(), { "Dispose", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdbCommandReceiver::*)(::StringW)>(&::GlobalNamespace::AdbCommandReceiver::OnCommandReceived)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32c7880;
+  constexpr static std::size_t addrs = 0x32cb67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AdbCommandReceiver::*)()>(&::GlobalNamespace::AdbCommandReceiver::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c7930;
+  constexpr static std::size_t addrs = 0x32cb72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AdbCommandReceiver*>(), { ".ctor", {}, {} })));

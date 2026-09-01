@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DragAndDropData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DragAndDropData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DragAndDropData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragAndDropData::*)(::ArrayW<::StringW>)>(&::UnityEngine::UIElements::DragAndDropData::set_paths)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d83ec4;
+  constexpr static std::size_t addrs = 0x6d8ba48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DragAndDropData::*)()>(&::UnityEngine::UIElements::DragAndDropData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d82b4c;
+  constexpr static std::size_t addrs = 0x6d8a6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DragAndDropData*>(), { ".ctor", {}, {} })));

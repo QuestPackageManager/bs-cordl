@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderInput.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderInput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
   constexpr ShaderInput_ShadowData(::UnityEngine::Matrix4x4 worldToShadowMatrix, ::UnityEngine::Vector4 shadowParams) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23482 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -87,7 +87,7 @@ public:
                                   ::UnityEngine::Vector4 occlusionProbeChannels, uint32_t layerMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23483 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
@@ -154,7 +154,7 @@ public:
   ShaderInput(ShaderInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapDataBasicInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapDataBasicInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,22 +78,22 @@ public:
 
   constexpr void __cordl_internal_set__obstaclesCount_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x370cc78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3711098, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t cuttableScoringObjectsCount, int32_t obstaclesCount, int32_t bombsCount);
 
-  /// @brief Method get_bombsCount, addr 0x370cc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bombsCount, addr 0x3711090, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bombsCount();
 
-  /// @brief Method get_cuttableNotesCount, addr 0x370cc58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableNotesCount, addr 0x3711078, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableNotesCount();
 
-  /// @brief Method get_cuttableScoringObjectsCount, addr 0x370cc60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableScoringObjectsCount, addr 0x3711080, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableScoringObjectsCount();
 
-  /// @brief Method get_numberOfLines, addr 0x370cc50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfLines, addr 0x3711070, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_obstaclesCount, addr 0x370cc68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesCount, addr 0x3711088, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_obstaclesCount();
 
 protected:
@@ -111,7 +111,7 @@ public:
   BeatmapDataBasicInfo(BeatmapDataBasicInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14884 };
 
   /// @brief Field <numberOfLines>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____numberOfLines_k__BackingField;

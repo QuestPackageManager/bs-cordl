@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ComboController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ComboController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,21 +66,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IComboController"
   constexpr operator ::GlobalNamespace::IComboController*() noexcept;
 
-  /// @brief Method HandleNoteWasCut, addr 0x59eb168, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x59f323c, size 0xb0, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x59eb218, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x59f32ec, size 0x84, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x59eb110, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x59f31e4, size 0x58, virtual false, abstract: false, final false
   inline void HandlePlayerHeadDidEnterObstacles();
 
   static inline ::GlobalNamespace::ComboController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59eaf3c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59f3010, size 0x1d4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59eade8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59f2ebc, size 0x154, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -119,25 +119,25 @@ public:
 
   constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x59eb29c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f3370, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x59eac90, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x59f2d64, size 0xac, virtual true, abstract: false, final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method add_comboDidChangeEvent, addr 0x59eab10, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_comboDidChangeEvent, addr 0x59f2be4, size 0xc0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method get_maxCombo, addr 0x59eab08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxCombo, addr 0x59f2bdc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
 
   /// @brief Convert to "::GlobalNamespace::IComboController"
   constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x59ead3c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x59f2e10, size 0xac, virtual true, abstract: false, final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboDidChangeEvent, addr 0x59eabd0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_comboDidChangeEvent, addr 0x59f2ca4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -155,7 +155,7 @@ public:
   ComboController(ComboController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6252 };
 
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/IntegrationInfo.hpp"
+// IWYU pragma private; include "UnityEngine\IntegrationInfo.hpp"
 #include "UnityEngine/zzzz__IntegrationInfo_def.hpp"
 #include "UnityEngine/zzzz__IntegrationInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_Name)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b8b2a4;
+  constexpr static std::size_t addrs = 0x6b92e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_Name", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::IntegrationInfo::*)()>(&::UnityEngine::IntegrationInfo::get_Description)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b8b2fc;
+  constexpr static std::size_t addrs = 0x6b92e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::IntegrationInfo>(), { "get_Description", {}, {} })));

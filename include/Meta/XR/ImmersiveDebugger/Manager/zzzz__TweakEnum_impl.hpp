@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/TweakEnum.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\TweakEnum.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__Tweak_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__TweakEnum_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/Utils/zzzz__InstanceHandle_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MemberInfo* (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)()>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Member)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a616e8;
+  constexpr static std::size_t addrs = 0x5a65ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), { "get_Member", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Value)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a56344;
+  constexpr static std::size_t addrs = 0x5a5a800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*>(), { "get_Value", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)(::StringW)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::set_Value)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5a5621c;
+  constexpr static std::size_t addrs = 0x5a5a6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Immersi
     ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*, ::System::Type*)>(
     &::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a616f0;
+  constexpr static std::size_t addrs = 0x5a65bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::get_Tween)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a61718;
+  constexpr static std::size_t addrs = 0x5a65bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::*)(float_t)>(&::Meta::XR::ImmersiveDebugger::Manager::TweakEnum::set_Tween)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a61720;
+  constexpr static std::size_t addrs = 0x5a65bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

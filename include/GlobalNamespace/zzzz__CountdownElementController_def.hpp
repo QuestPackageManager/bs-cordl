@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CountdownElementController.hpp"
+// IWYU pragma private; include "GlobalNamespace\CountdownElementController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
 
   static inline ::GlobalNamespace::CountdownElementController* New_ctor();
 
-  /// @brief Method SetTextAndRunAnimation, addr 0x5a07b6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetTextAndRunAnimation, addr 0x5a0fc78, size 0x60, virtual false, abstract: false, final false
   inline void SetTextAndRunAnimation(::StringW text);
 
-  /// @brief Method StopAndHide, addr 0x5a07cbc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method StopAndHide, addr 0x5a0fdc8, size 0x24, virtual false, abstract: false, final false
   inline void StopAndHide();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5a07e38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0ff44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   CountdownElementController(CountdownElementController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6380 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

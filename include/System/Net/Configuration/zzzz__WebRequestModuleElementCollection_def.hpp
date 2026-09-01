@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Configuration/WebRequestModuleElementCollection.hpp"
+// IWYU pragma private; include "System\Net\Configuration\WebRequestModuleElementCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Net::Configuration::WebRequestModuleElementCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x636a6e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6372164, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   WebRequestModuleElementCollection(WebRequestModuleElementCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/SubInstruction_SubDouble.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\SubInstruction_SubDouble.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::SubInstruction_SubDouble* New_ctor();
 
-  /// @brief Method Run, addr 0x5fb61dc, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fbdc58, size 0x10c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5fb5a90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbd50c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   SubInstruction_SubDouble(SubInstruction_SubDouble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

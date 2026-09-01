@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/HDREncoding.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\HDREncoding.hpp"
 #include "UnityEngine/Rendering/zzzz__HDREncoding_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::HDREncoding::HDREncoding(int32_t value__) noexcept {

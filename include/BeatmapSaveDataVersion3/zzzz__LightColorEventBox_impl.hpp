@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/LightColorEventBox.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\LightColorEventBox.hpp"
 #include "BeatmapSaveDataCommon/zzzz__DistributionParamType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseType_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__EventBox_impl.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::LightColorEventBox::*)()>(&::BeatmapSaveDataVersion3::LightColorEventBox::get_brightnessDistributionParam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759778;
+  constexpr static std::size_t addrs = 0x375f3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::DistributionParamType (::BeatmapSaveDataVersion3::LightColorEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightColorEventBox::get_brightnessDistributionParamType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759780;
+  constexpr static std::size_t addrs = 0x375f3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapSaveDataVersion3::LightColorEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightColorEventBox::get_brightnessDistributionShouldAffectFirstBaseEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3759788;
+  constexpr static std::size_t addrs = 0x375f3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::LightColorEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightColorEventBox::get_brightnessDistributionEaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759798;
+  constexpr static std::size_t addrs = 0x375f404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>* (::BeatmapSaveDataVersion3::LightColorEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightColorEventBox::get_lightColorBaseDataList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37597a0;
+  constexpr static std::size_t addrs = 0x375f40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVe
     ::BeatmapSaveDataVersion3::IndexFilter*, float_t, ::BeatmapSaveDataCommon::DistributionParamType, float_t, bool, ::BeatmapSaveDataCommon::DistributionParamType, ::BeatmapSaveDataCommon::EaseType,
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>*)>(&::BeatmapSaveDataVersion3::LightColorEventBox::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x37597a8;
+  constexpr static std::size_t addrs = 0x375f414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

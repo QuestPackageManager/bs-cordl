@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithAchievementUpdate.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithAchievementUpdate.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAchievementUpdate_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementUpdate_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithAchievementUpdate::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAchievementUpdate::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd2a84;
+  constexpr static std::size_t addrs = 0x5dd6f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AchievementUpdate* (::Oculus::Platform::MessageWithAchievementUpdate::*)()>(
     &::Oculus::Platform::MessageWithAchievementUpdate::GetAchievementUpdate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd5198;
+  constexpr static std::size_t addrs = 0x5dd9654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AchievementUpdate* (::Oculus::Platform::MessageWithAchievementUpdate::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAchievementUpdate::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5dd51dc;
+  constexpr static std::size_t addrs = 0x5dd9698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

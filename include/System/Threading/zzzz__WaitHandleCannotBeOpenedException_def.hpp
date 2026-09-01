@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/WaitHandleCannotBeOpenedException.hpp"
+// IWYU pragma private; include "System\Threading\WaitHandleCannotBeOpenedException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Threading::WaitHandleCannotBeOpenedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5ca4dec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca92a8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5ca4e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca932c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5ca4e4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca9308, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

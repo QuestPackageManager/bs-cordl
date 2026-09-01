@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/PolygonSet.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\PolygonSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
   /// @brief Field _polygons, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__polygons, put = __cordl_internal_set__polygons)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* _polygons;
 
-  /// @brief Method Add, addr 0x66a44f4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x66abf70, size 0xb4, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::ProBuilder::Poly2Tri::Polygon* p);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* New_ctor();
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__polygons(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* value);
 
-  /// @brief Method .ctor, addr 0x66a4384, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66abe00, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x66a43f8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66abe74, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::Polygon* poly);
 
-  /// @brief Method get_Polygons, addr 0x66a45a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Polygons, addr 0x66ac024, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* get_Polygons();
 
 protected:
@@ -70,7 +70,7 @@ public:
   PolygonSet(PolygonSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21759 };
 
   /// @brief Field _polygons, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* ____polygons;

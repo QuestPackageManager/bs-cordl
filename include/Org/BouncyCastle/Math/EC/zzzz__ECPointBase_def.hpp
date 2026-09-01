@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/ECPointBase.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\ECPointBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ namespace Org::BouncyCastle::Math::EC {
 class CORDL_TYPE ECPointBase : public ::Org::BouncyCastle::Math::EC::ECPoint {
 public:
   // Declarations
-  /// @brief Method GetEncoded, addr 0x34a633c, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x34aa0fc, size 0x1cc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded(bool compressed);
 
-  /// @brief Method Multiply, addr 0x34a6508, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x34aa2c8, size 0xdc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::ECPointBase* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -46,10 +46,10 @@ public:
                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs,
                                                                      bool withCompression);
 
-  /// @brief Method .ctor, addr 0x34a6220, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a9fe0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x34a62a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34aa068, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
 

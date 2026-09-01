@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LoadLocalFromClosureBoxedInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LoadLocalFromClosureBoxedInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,16 +30,16 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LoadLocalFromClosureBoxedInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x5faab40, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fb25bc, size 0x90, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5faaaec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb2568, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x5faaafc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fb2578, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5faaaf4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5fb2570, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -57,7 +57,7 @@ public:
   LoadLocalFromClosureBoxedInstruction(LoadLocalFromClosureBoxedInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

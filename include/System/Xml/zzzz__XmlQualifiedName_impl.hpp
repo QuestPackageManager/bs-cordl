@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlQualifiedName.hpp"
+// IWYU pragma private; include "System\Xml\XmlQualifiedName.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlQualifiedName_HashCodeOfStringDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::XmlQualifiedName_HashCodeOfStringDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62df358;
+  constexpr static std::size_t addrs = 0x62e6dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName_HashCodeOfStringDelegate*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlQualifiedName_HashCodeOfStringDelegate::*)(::StringW, int32_t, int64_t)>(
     &::System::Xml::XmlQualifiedName_HashCodeOfStringDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62df7a4;
+  constexpr static std::size_t addrs = 0x62e7220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName_HashCodeOfStringDelegate*>(),
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlQualifiedName::*)()>(&::System::Xml::XmlQualifiedName::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62deda8;
+  constexpr static std::size_t addrs = 0x62e6824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName*>(), { ".ctor", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlQualifiedName::*)(::StringW)>(&::System::Xml::XmlQualifiedName::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62dee00;
+  constexpr static std::size_t addrs = 0x62e687c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlQualifiedName::*)(::StringW, ::StringW)>(&::System::Xml::XmlQualifiedName::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x62dedc0;
+  constexpr static std::size_t addrs = 0x62e683c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlQualifiedName::*)()>(&::System::Xml::XmlQualifiedName::get_Namespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62dee14;
+  constexpr static std::size_t addrs = 0x62e6890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName*>(), { "get_Namespace", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlQualifiedName::*)()>(&::System::Xml::XmlQualifiedName::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62dee1c;
+  constexpr static std::size_t addrs = 0x62e6898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName*>(), { "get_Name", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlQualifiedName::*)()>(&::System::Xml::XmlQualifiedName::GetHashCode)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x62dee24;
+  constexpr static std::size_t addrs = 0x62e68a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlQualifiedName::*)()>(&::System::Xml::XmlQualifiedName::get_IsEmpty)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x62df064;
+  constexpr static std::size_t addrs = 0x62e6ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName*>(), { "get_IsEmpty", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlQualifiedName::*)()>(&::System::Xml::XmlQualifiedName::ToString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x62df0a0;
+  constexpr static std::size_t addrs = 0x62e6b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlQualifiedName::*)(::System::Object*)>(&::System::Xml::XmlQualifiedName::Equals)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x62df114;
+  constexpr static std::size_t addrs = 0x62e6b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::XmlQualifiedName*, ::System::Xml::XmlQualifiedName*)>(&::System::Xml::XmlQualifiedName::op_Equality)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x62df270;
+  constexpr static std::size_t addrs = 0x62e6cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::XmlQualifiedName*, ::System::Xml::XmlQualifiedName*)>(&::System::Xml::XmlQualifiedName::op_Inequality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x62df1fc;
+  constexpr static std::size_t addrs = 0x62e6c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Xml::XmlQualifiedName::ToString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62df2d0;
+  constexpr static std::size_t addrs = 0x62e6d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName_HashCodeOfStringDelegate* (*)()>(&::System::Xml::XmlQualifiedName::GetHashCodeDelegate)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x62deef4;
+  constexpr static std::size_t addrs = 0x62e6970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName*>(), { "GetHashCodeDelegate", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Xml::XmlQualifiedName::IsRandomizedHashingDisabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62df350;
+  constexpr static std::size_t addrs = 0x62e6dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName*>(), { "IsRandomizedHashingDisabled", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t, int64_t)>(&::System::Xml::XmlQualifiedName::GetHashCodeOfString)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62df3d8;
+  constexpr static std::size_t addrs = 0x62e6e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlQualifiedName::*)(::StringW, ::StringW)>(&::System::Xml::XmlQualifiedName::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62df3f0;
+  constexpr static std::size_t addrs = 0x62e6e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlQualifiedName::*)(::StringW)>(&::System::Xml::XmlQualifiedName::SetNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62df3fc;
+  constexpr static std::size_t addrs = 0x62e6e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlQualifiedName::*)()>(&::System::Xml::XmlQualifiedName::Verify)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x62df404;
+  constexpr static std::size_t addrs = 0x62e6e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName*>(), { "Verify", {}, {} })));
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlQualifiedName::*)(::System::Xml::XmlNameTable*)>(&::System::Xml::XmlQualifiedName::Atomize)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x62df498;
+  constexpr static std::size_t addrs = 0x62e6f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (*)(::StringW, ::System::Xml::IXmlNamespaceResolver*, ::by_ref<::StringW>)>(
     &::System::Xml::XmlQualifiedName::Parse)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x62df4ec;
+  constexpr static std::size_t addrs = 0x62e6f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::XmlQualifiedName::*)()>(&::System::Xml::XmlQualifiedName::Clone)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62df69c;
+  constexpr static std::size_t addrs = 0x62e7118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlQualifiedName*>(), { "Clone", {}, {} })));

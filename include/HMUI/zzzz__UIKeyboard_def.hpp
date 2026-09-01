@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/UIKeyboard.hpp"
+// IWYU pragma private; include "HMUI\UIKeyboard.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
 
   static inline ::HMUI::UIKeyboard___c__DisplayClass24_0* New_ctor();
 
-  /// @brief Method <Awake>b__3, addr 0x587c280, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__3, addr 0x587bbc0, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__3();
 
   constexpr ::UnityW<::HMUI::UIKeyboard> const& __cordl_internal_get___4__this() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_key(::UnityW<::HMUI::UIKeyboardKey> value);
 
-  /// @brief Method .ctor, addr 0x587bc1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587b55c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   UIKeyboard___c__DisplayClass24_0(UIKeyboard___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19048 };
 
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::UIKeyboardKey> ___key;
@@ -166,39 +166,39 @@ public:
 
   __declspec(property(get = get_shouldCapitalize)) bool shouldCapitalize;
 
-  /// @brief Method Awake, addr 0x587b810, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x587b150, size 0x40c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleCapsLockPressed, addr 0x587bfd0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method HandleCapsLockPressed, addr 0x587b910, size 0x1a4, virtual false, abstract: false, final false
   inline void HandleCapsLockPressed();
 
-  /// @brief Method HandleKeyPress, addr 0x587bd64, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HandleKeyPress, addr 0x587b6a4, size 0x120, virtual false, abstract: false, final false
   inline void HandleKeyPress(::UnityEngine::KeyCode keyCode);
 
-  /// @brief Method HasFontStyle, addr 0x587c174, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HasFontStyle, addr 0x587bab4, size 0x1c, virtual false, abstract: false, final false
   inline bool HasFontStyle(::TMPro::TextMeshProUGUI* text, ::TMPro::FontStyles style);
 
   static inline ::HMUI::UIKeyboard* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x587c190, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x587bad0, size 0x40, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetCapsLockState, addr 0x587be84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetCapsLockState, addr 0x587b7c4, size 0x20, virtual false, abstract: false, final false
   inline void SetCapsLockState(::HMUI::CapsLockState newState);
 
-  /// @brief Method SetKeyboardCapitalization, addr 0x587bea4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetKeyboardCapitalization, addr 0x587b7e4, size 0x12c, virtual false, abstract: false, final false
   inline void SetKeyboardCapitalization(bool capitalize);
 
-  /// @brief Method Update, addr 0x587bc20, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x587b560, size 0x144, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <Awake>b__24_0, addr 0x587c22c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__24_0, addr 0x587bb6c, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_0();
 
-  /// @brief Method <Awake>b__24_1, addr 0x587c248, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__24_1, addr 0x587bb88, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_1();
 
-  /// @brief Method <Awake>b__24_2, addr 0x587c264, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__24_2, addr 0x587bba4, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_2();
 
   constexpr bool const& __cordl_internal_get__allowAtRuntime() const;
@@ -267,37 +267,37 @@ public:
 
   constexpr void __cordl_internal_set_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x587c1d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587bb10, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_capsLockStateChangedEvent, addr 0x587b678, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_capsLockStateChangedEvent, addr 0x587afb8, size 0xc0, virtual false, abstract: false, final false
   inline void add_capsLockStateChangedEvent(::System::Action_1<::HMUI::CapsLockState>* value);
 
-  /// @brief Method add_deleteButtonWasPressedEvent, addr 0x587b520, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_deleteButtonWasPressedEvent, addr 0x587ae60, size 0xac, virtual false, abstract: false, final false
   inline void add_deleteButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_keyWasPressedEvent, addr 0x587b3a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_keyWasPressedEvent, addr 0x587ace0, size 0xc0, virtual false, abstract: false, final false
   inline void add_keyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method add_okButtonWasPressedEvent, addr 0x587b248, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_okButtonWasPressedEvent, addr 0x587ab88, size 0xac, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_capsLockState, addr 0x587b808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capsLockState, addr 0x587b148, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::CapsLockState get_capsLockState();
 
-  /// @brief Method get_shouldCapitalize, addr 0x587b7f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_shouldCapitalize, addr 0x587b138, size 0x10, virtual false, abstract: false, final false
   inline bool get_shouldCapitalize();
 
-  /// @brief Method remove_capsLockStateChangedEvent, addr 0x587b738, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_capsLockStateChangedEvent, addr 0x587b078, size 0xc0, virtual false, abstract: false, final false
   inline void remove_capsLockStateChangedEvent(::System::Action_1<::HMUI::CapsLockState>* value);
 
-  /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x587b5cc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x587af0c, size 0xac, virtual false, abstract: false, final false
   inline void remove_deleteButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_keyWasPressedEvent, addr 0x587b460, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_keyWasPressedEvent, addr 0x587ada0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_keyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method remove_okButtonWasPressedEvent, addr 0x587b2f4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_okButtonWasPressedEvent, addr 0x587ac34, size 0xac, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
 protected:
@@ -315,7 +315,7 @@ public:
   UIKeyboard(UIKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19049 };
 
   /// @brief Field kCapsLockPressWindowToToggleUppercase offset 0xffffffff size 0x4
   static constexpr float_t kCapsLockPressWindowToToggleUppercase{ static_cast<float_t>(0.2f) };

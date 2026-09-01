@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemWriter.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\Pem\PemWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,21 +42,21 @@ public:
   /// @brief Field writer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_writer, put = __cordl_internal_set_writer)) ::System::IO::TextWriter* writer;
 
-  /// @brief Method GetOutputSize, addr 0x35a5d90, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x35a9b50, size 0x4b0, virtual false, abstract: false, final false
   inline int32_t GetOutputSize(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* obj);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method WriteEncoded, addr 0x35a67f4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x35aa5b4, size 0xe0, virtual false, abstract: false, final false
   inline void WriteEncoded(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteObject, addr 0x35a6240, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x35aa000, size 0x518, virtual false, abstract: false, final false
   inline void WriteObject(::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* objGen);
 
-  /// @brief Method WritePostEncapsulationBoundary, addr 0x35a68d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WritePostEncapsulationBoundary, addr 0x35aa694, size 0x9c, virtual false, abstract: false, final false
   inline void WritePostEncapsulationBoundary(::StringW type);
 
-  /// @brief Method WritePreEncapsulationBoundary, addr 0x35a6758, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WritePreEncapsulationBoundary, addr 0x35aa518, size 0x9c, virtual false, abstract: false, final false
   inline void WritePreEncapsulationBoundary(::StringW type);
 
   constexpr ::ArrayW<char16_t> const& __cordl_internal_get_buf() const;
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_writer(::System::IO::TextWriter* value);
 
-  /// @brief Method .ctor, addr 0x35a5c94, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a9a54, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method get_Writer, addr 0x35a5d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Writer, addr 0x35a9b48, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::TextWriter* get_Writer();
 
 protected:

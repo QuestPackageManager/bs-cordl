@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Web/WebSettings.hpp"
+// IWYU pragma private; include "OSCE\Web\WebSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OSCE/Web/zzzz__WebSettings_def.hpp"
 inline void OSCE::Web::WebSettings::setStaticF_ContentType(::StringW value) {

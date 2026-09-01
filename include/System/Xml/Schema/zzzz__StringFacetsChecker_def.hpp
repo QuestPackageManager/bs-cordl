@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/StringFacetsChecker.hpp"
+// IWYU pragma private; include "System\Xml\Schema\StringFacetsChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,32 +41,32 @@ public:
   /// @brief Field languagePattern, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_languagePattern, put = setStaticF_languagePattern)) ::System::Text::RegularExpressions::Regex* languagePattern;
 
-  /// @brief Method CheckBuiltInFacets, addr 0x61cc10c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method CheckBuiltInFacets, addr 0x61d3b88, size 0x2b0, virtual false, abstract: false, final false
   inline ::System::Exception* CheckBuiltInFacets(::StringW s, ::System::Xml::Schema::XmlTypeCode typeCode, bool verifyUri);
 
-  /// @brief Method CheckValueFacets, addr 0x61cc104, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61d3b80, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x61bf970, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61c73ec, size 0x22c, virtual false, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype, bool verifyUri);
 
-  /// @brief Method CheckValueFacets, addr 0x61cc0ac, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x61d3b28, size 0x58, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x61cc3bc, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x61d3e38, size 0x1f4, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::StringW value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x61cc5b0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x61d402c, size 0x5c, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::StringFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61b7d5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bf7d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_languagePattern();
 
-  /// @brief Method get_LanguagePattern, addr 0x61cbfec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_LanguagePattern, addr 0x61d3a68, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Regex* get_LanguagePattern();
 
   static inline void setStaticF_languagePattern(::System::Text::RegularExpressions::Regex* value);
@@ -86,7 +86,7 @@ public:
   StringFacetsChecker(StringFacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9685 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

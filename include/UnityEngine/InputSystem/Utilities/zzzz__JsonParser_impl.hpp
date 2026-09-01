@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/JsonParser.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\JsonParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__JsonParser_def.hpp"
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::ToString)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x64fb2c4;
+  constexpr static std::size_t addrs = 0x6502d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString>(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::*)(::UnityEngine::InputSystem::Utilities::JsonParser_JsonString)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::Equals)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x64fb3c4;
+  constexpr static std::size_t addrs = 0x6502e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString>(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64fb550;
+  constexpr static std::size_t addrs = 0x6502fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64fb5e4;
+  constexpr static std::size_t addrs = 0x6503060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::JsonParser_JsonString, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonString)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64fb638;
+  constexpr static std::size_t addrs = 0x65030b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::JsonParser_JsonString, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonString)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64fb668;
+  constexpr static std::size_t addrs = 0x65030e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString (*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonString::op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64fb69c;
+  constexpr static std::size_t addrs = 0x6503118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::JsonValue_JsonParser___c::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonValue_JsonParser___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64fcbb0;
+  constexpr static std::size_t addrs = 0x650462c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonValue_JsonParser___c*>(), { ".ctor", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::JsonValue_JsonParser___c::*)(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue)>(
     &::UnityEngine::InputSystem::Utilities::JsonValue_JsonParser___c::_ToString_b__11_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64fcbb4;
+  constexpr static std::size_t addrs = 0x6504630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>)>(
     &::UnityEngine::InputSystem::Utilities::JsonValue_JsonParser___c::_ToString_b__11_1)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64fcbbc;
+  constexpr static std::size_t addrs = 0x6504638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::ToBoolean)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x64fb6bc;
+  constexpr static std::size_t addrs = 0x6503138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>(), { "ToBoolean", {}, {} })));
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::ToInteger)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x64fbcd8;
+  constexpr static std::size_t addrs = 0x6503754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>(), { "ToInteger", {}, {} })));
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::ToDouble)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x64fbdac;
+  constexpr static std::size_t addrs = 0x6503828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>(), { "ToDouble", {}, {} })));
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::ToString)> {
   constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x64fb800;
+  constexpr static std::size_t addrs = 0x650327c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>(),
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue (*)(bool)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64fb28c;
+  constexpr static std::size_t addrs = 0x6502d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue (*)(int64_t)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64fb1a8;
+  constexpr static std::size_t addrs = 0x6502c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue (*)(double_t)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64fb1d0;
+  constexpr static std::size_t addrs = 0x6502c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue (*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x64fbe78;
+  constexpr static std::size_t addrs = 0x65038f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue (*)(::UnityEngine::InputSystem::Utilities::JsonParser_JsonString)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x64f0374;
+  constexpr static std::size_t addrs = 0x64f7df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>(),
@@ -419,7 +419,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue (*)(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*)>(
         &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64fb184;
+  constexpr static std::size_t addrs = 0x6502c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +435,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue (*)(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*)>(
         &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64fbeb4;
+  constexpr static std::size_t addrs = 0x6503930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue (*)(::System::Enum*)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64fbed8;
+  constexpr static std::size_t addrs = 0x6503954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::*)(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::Equals)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x64fbefc;
+  constexpr static std::size_t addrs = 0x6503978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>(),
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::Equals)> {
   constexpr static std::size_t size = 0x844;
-  constexpr static std::size_t addrs = 0x64fc134;
+  constexpr static std::size_t addrs = 0x6503bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64fc978;
+  constexpr static std::size_t addrs = 0x65043f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>(),
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::GetHashCode)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x64fca0c;
+  constexpr static std::size_t addrs = 0x6504488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>(),
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::op_Equality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64fa6b4;
+  constexpr static std::size_t addrs = 0x6502130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue::op_Inequality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64fcb24;
+  constexpr static std::size_t addrs = 0x65045a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -693,7 +693,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::StringW)>(&::UnityEngine::InputSystem::Utilities::JsonParser::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64eff24;
+  constexpr static std::size_t addrs = 0x64f79a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -706,7 +706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(&::UnityEngine::InputSystem::Utilities::JsonParser::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64fa2dc;
+  constexpr static std::size_t addrs = 0x6501d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser>(), { "Reset", {}, {} })));
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(&::UnityEngine::InputSystem::Utilities::JsonParser::ToString)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x64fa2e8;
+  constexpr static std::size_t addrs = 0x6501d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -732,7 +732,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::NavigateToProperty)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x64eff8c;
+  constexpr static std::size_t addrs = 0x64f7a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -746,7 +746,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::CurrentPropertyHasValueEqualTo)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x64f03e8;
+  constexpr static std::size_t addrs = 0x64f7e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -760,7 +760,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(char16_t)>(&::UnityEngine::InputSystem::Utilities::JsonParser::ParseToken)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64fa3f8;
+  constexpr static std::size_t addrs = 0x6501e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -773,7 +773,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(&::UnityEngine::InputSystem::Utilities::JsonParser::ParseValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64fa574;
+  constexpr static std::size_t addrs = 0x6501ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser>(), { "ParseValue", {}, {} })));
@@ -786,7 +786,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::by_ref<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::ParseValue)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x64fa594;
+  constexpr static std::size_t addrs = 0x6502010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -801,7 +801,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::by_ref<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::ParseStringValue)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x64fa6e8;
+  constexpr static std::size_t addrs = 0x6502164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -816,7 +816,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::by_ref<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::ParseArrayValue)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x64fa808;
+  constexpr static std::size_t addrs = 0x6502284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -831,7 +831,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::by_ref<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::ParseObjectValue)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x64faab0;
+  constexpr static std::size_t addrs = 0x650252c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -846,7 +846,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::by_ref<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::ParseNumber)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x64fad68;
+  constexpr static std::size_t addrs = 0x65027e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::by_ref<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::ParseBooleanValue)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x64fac10;
+  constexpr static std::size_t addrs = 0x650268c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -876,7 +876,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::by_ref<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::ParseNullValue)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64fad00;
+  constexpr static std::size_t addrs = 0x650277c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -890,7 +890,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(&::UnityEngine::InputSystem::Utilities::JsonParser::SkipToValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x64fa504;
+  constexpr static std::size_t addrs = 0x6501f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser>(), { "SkipToValue", {}, {} })));
@@ -902,7 +902,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::StringW)>(&::UnityEngine::InputSystem::Utilities::JsonParser::SkipString)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x64fb1f0;
+  constexpr static std::size_t addrs = 0x6502c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -915,7 +915,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(&::UnityEngine::InputSystem::Utilities::JsonParser::SkipWhitespace)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x64fa47c;
+  constexpr static std::size_t addrs = 0x6501ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser>(), { "SkipWhitespace", {}, {} })));
@@ -927,7 +927,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(&::UnityEngine::InputSystem::Utilities::JsonParser::get_isAtEnd)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64fb2b4;
+  constexpr static std::size_t addrs = 0x6502d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::JsonParser>(), { "get_isAtEnd", {}, {} })));

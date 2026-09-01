@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DebugShapes.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DebugShapes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,39 +39,39 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::Rendering::DebugShapes* s_Instance;
 
-  /// @brief Method BuildBox, addr 0x6760838, size 0x7b4, virtual false, abstract: false, final false
+  /// @brief Method BuildBox, addr 0x67682b4, size 0x7b4, virtual false, abstract: false, final false
   inline void BuildBox(::by_ref<::UnityEngine::Mesh*> outputMesh, float_t length, float_t width, float_t height);
 
-  /// @brief Method BuildCone, addr 0x6760fec, size 0x928, virtual false, abstract: false, final false
+  /// @brief Method BuildCone, addr 0x6768a68, size 0x928, virtual false, abstract: false, final false
   inline void BuildCone(::by_ref<::UnityEngine::Mesh*> outputMesh, float_t height, float_t topRadius, float_t bottomRadius, int32_t nbSides);
 
-  /// @brief Method BuildCustomSphereMesh, addr 0x6761e14, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method BuildCustomSphereMesh, addr 0x6769890, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> BuildCustomSphereMesh(float_t radius, uint32_t longSubdiv, uint32_t latSubdiv);
 
-  /// @brief Method BuildPyramid, addr 0x6761914, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method BuildPyramid, addr 0x6769390, size 0x300, virtual false, abstract: false, final false
   inline void BuildPyramid(::by_ref<::UnityEngine::Mesh*> outputMesh, float_t width, float_t height, float_t depth);
 
-  /// @brief Method BuildShapes, addr 0x6761c14, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method BuildShapes, addr 0x6769690, size 0xf4, virtual false, abstract: false, final false
   inline void BuildShapes();
 
-  /// @brief Method BuildSphere, addr 0x6760118, size 0x720, virtual false, abstract: false, final false
+  /// @brief Method BuildSphere, addr 0x6767b94, size 0x720, virtual false, abstract: false, final false
   inline void BuildSphere(::by_ref<::UnityEngine::Mesh*> outputMesh, float_t radius, uint32_t longSubdiv, uint32_t latSubdiv);
 
   static inline ::UnityEngine::Rendering::DebugShapes* New_ctor();
 
-  /// @brief Method RebuildResources, addr 0x6761d08, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RebuildResources, addr 0x6769784, size 0xf4, virtual false, abstract: false, final false
   inline void RebuildResources();
 
-  /// @brief Method RequestBoxMesh, addr 0x6761ea8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RequestBoxMesh, addr 0x6769924, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> RequestBoxMesh();
 
-  /// @brief Method RequestConeMesh, addr 0x6761ec0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RequestConeMesh, addr 0x676993c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> RequestConeMesh();
 
-  /// @brief Method RequestPyramidMesh, addr 0x6761ed8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RequestPyramidMesh, addr 0x6769954, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> RequestPyramidMesh();
 
-  /// @brief Method RequestSphereMesh, addr 0x6761dfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RequestSphereMesh, addr 0x6769878, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> RequestSphereMesh();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_boxMesh() const;
@@ -98,12 +98,12 @@ public:
 
   constexpr void __cordl_internal_set_m_sphereMesh(::UnityW<::UnityEngine::Mesh> value);
 
-  /// @brief Method .ctor, addr 0x6760114, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6767b90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::DebugShapes* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x67600a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x6767b20, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugShapes* get_instance();
 
   static inline void setStaticF_s_Instance(::UnityEngine::Rendering::DebugShapes* value);
@@ -123,7 +123,7 @@ public:
   DebugShapes(DebugShapes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11989 };
 
   /// @brief Field m_sphereMesh, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___m_sphereMesh;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/MonoAssemblyName.hpp"
+// IWYU pragma private; include "Mono\MonoAssemblyName.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Mono/zzzz__MonoAssemblyName_def.hpp"
 #include "Mono/zzzz__MonoAssemblyName_def.hpp"

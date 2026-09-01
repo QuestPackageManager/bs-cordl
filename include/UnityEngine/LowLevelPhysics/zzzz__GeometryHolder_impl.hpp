@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/LowLevelPhysics/GeometryHolder.hpp"
+// IWYU pragma private; include "UnityEngine\LowLevelPhysics\GeometryHolder.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/LowLevelPhysics/zzzz__GeometryHolder_def.hpp"
 #include "UnityEngine/LowLevelPhysics/zzzz__GeometryHolder_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsSrpUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsSrpUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,30 +30,30 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsSrpUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddSrpExtension, addr 0x348e3dc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AddSrpExtension, addr 0x349219c, size 0xe0, virtual false, abstract: false, final false
   static inline void AddSrpExtension(::System::Collections::IDictionary* extensions, ::ArrayW<uint8_t> identity);
 
-  /// @brief Method CreateSrpExtension, addr 0x348e4bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateSrpExtension, addr 0x349227c, size 0x90, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CreateSrpExtension(::ArrayW<uint8_t> identity);
 
-  /// @brief Method GetSrpExtension, addr 0x348e54c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetSrpExtension, addr 0x349230c, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetSrpExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method IsSrpCipherSuite, addr 0x348e744, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsSrpCipherSuite, addr 0x3492504, size 0x14, virtual false, abstract: false, final false
   static inline bool IsSrpCipherSuite(int32_t cipherSuite);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities* New_ctor();
 
-  /// @brief Method ReadSrpExtension, addr 0x348e5bc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadSrpExtension, addr 0x349237c, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadSrpExtension(::ArrayW<uint8_t> extensionData);
 
-  /// @brief Method ReadSrpParameter, addr 0x348e020, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReadSrpParameter, addr 0x3491de0, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ReadSrpParameter(::System::IO::Stream* input);
 
-  /// @brief Method WriteSrpParameter, addr 0x348ddbc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method WriteSrpParameter, addr 0x3491b7c, size 0x84, virtual false, abstract: false, final false
   static inline void WriteSrpParameter(::Org::BouncyCastle::Math::BigInteger* x, ::System::IO::Stream* output);
 
-  /// @brief Method .ctor, addr 0x348e758, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3492518, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

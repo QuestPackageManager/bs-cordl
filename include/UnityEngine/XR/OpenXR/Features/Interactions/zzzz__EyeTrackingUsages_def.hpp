@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/Interactions/EyeTrackingUsages.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\Interactions\EyeTrackingUsages.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
   EyeTrackingUsages(EyeTrackingUsages const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18537 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18570 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

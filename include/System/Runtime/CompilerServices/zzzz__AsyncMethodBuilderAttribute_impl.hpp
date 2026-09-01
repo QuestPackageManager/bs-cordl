@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncMethodBuilderAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncMethodBuilderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute::*)(::System::Type*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6b3f0;
+  constexpr static std::size_t addrs = 0x5b6f8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/TupleElementNamesAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\TupleElementNamesAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TupleElementNamesAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::TupleElementNamesAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::TupleElementNamesAttribute::*)(::ArrayW<::StringW>)>(
     &::System::Runtime::CompilerServices::TupleElementNamesAttribute::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5b6c344;
+  constexpr static std::size_t addrs = 0x5b70800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

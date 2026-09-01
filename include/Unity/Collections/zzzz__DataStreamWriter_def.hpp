@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/DataStreamWriter.hpp"
+// IWYU pragma private; include "Unity\Collections\DataStreamWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   constexpr DataStreamWriter_StreamData(uint8_t* buffer, int32_t length, int32_t capacity, uint64_t bitBuffer, int32_t bitIndex, int32_t failedWrites) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15567 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -127,195 +127,195 @@ public:
 
   __declspec(property(get = get_LengthInBits)) int32_t LengthInBits;
 
-  /// @brief Method AsNativeArray, addr 0x64a61ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AsNativeArray, addr 0x64adc28, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> AsNativeArray();
 
-  /// @brief Method ByteSwap, addr 0x64a6254, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ByteSwap, addr 0x64adcd0, size 0xc, virtual false, abstract: false, final false
   static inline int16_t ByteSwap(int16_t val);
 
-  /// @brief Method ByteSwap, addr 0x64a6260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ByteSwap, addr 0x64adcdc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ByteSwap(int32_t val);
 
-  /// @brief Method CheckAllocator, addr 0x64a6c94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckAllocator, addr 0x64ae710, size 0x58, virtual false, abstract: false, final false
   static inline void CheckAllocator(::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method CheckBits, addr 0x64a6cec, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CheckBits, addr 0x64ae768, size 0x11c, virtual false, abstract: false, final false
   static inline void CheckBits(uint32_t value, int32_t numBits);
 
-  /// @brief Method CheckRead, addr 0x64a6c8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckRead, addr 0x64ae708, size 0x4, virtual false, abstract: false, final false
   inline void CheckRead();
 
-  /// @brief Method CheckWrite, addr 0x64a6c90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckWrite, addr 0x64ae70c, size 0x4, virtual false, abstract: false, final false
   inline void CheckWrite();
 
-  /// @brief Method Clear, addr 0x64a6c80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x64ae6fc, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Flush, addr 0x64a631c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x64add98, size 0x4c, virtual false, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushBits, addr 0x64a66a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FlushBits, addr 0x64ae124, size 0x48, virtual false, abstract: false, final false
   inline void FlushBits();
 
-  /// @brief Method Initialize, addr 0x64a6064, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x64adae0, size 0x60, virtual false, abstract: false, final false
   static inline void Initialize(::by_ref<::Unity::Collections::DataStreamWriter> self, ::Unity::Collections::NativeArray_1<uint8_t> data);
 
-  /// @brief Method SyncBitData, addr 0x64a6290, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SyncBitData, addr 0x64add0c, size 0x40, virtual false, abstract: false, final false
   inline void SyncBitData();
 
-  /// @brief Method WriteByte, addr 0x64a6428, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x64adea4, size 0x20, virtual false, abstract: false, final false
   inline bool WriteByte(uint8_t value);
 
-  /// @brief Method WriteBytes, addr 0x64a64a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WriteBytes, addr 0x64adf20, size 0x74, virtual false, abstract: false, final false
   inline bool WriteBytes(::System::Span_1<uint8_t> value);
 
-  /// @brief Method WriteBytes, addr 0x64a6448, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method WriteBytes, addr 0x64adec4, size 0x5c, virtual false, abstract: false, final false
   inline bool WriteBytes(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method WriteBytesInternal, addr 0x64a6368, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WriteBytesInternal, addr 0x64adde4, size 0xc0, virtual false, abstract: false, final false
   inline bool WriteBytesInternal(uint8_t* data, int32_t bytes);
 
-  /// @brief Method WriteDouble, addr 0x64a6688, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteDouble, addr 0x64ae104, size 0x20, virtual false, abstract: false, final false
   inline bool WriteDouble(double_t value);
 
-  /// @brief Method WriteFixedString128, addr 0x64a6a98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteFixedString128, addr 0x64ae514, size 0xc, virtual false, abstract: false, final false
   inline bool WriteFixedString128(::Unity::Collections::FixedString128Bytes str);
 
-  /// @brief Method WriteFixedString32, addr 0x64a6a80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteFixedString32, addr 0x64ae4fc, size 0xc, virtual false, abstract: false, final false
   inline bool WriteFixedString32(::Unity::Collections::FixedString32Bytes str);
 
-  /// @brief Method WriteFixedString4096, addr 0x64a6ab0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteFixedString4096, addr 0x64ae52c, size 0xc, virtual false, abstract: false, final false
   inline bool WriteFixedString4096(::Unity::Collections::FixedString4096Bytes str);
 
-  /// @brief Method WriteFixedString512, addr 0x64a6aa4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteFixedString512, addr 0x64ae520, size 0xc, virtual false, abstract: false, final false
   inline bool WriteFixedString512(::Unity::Collections::FixedString512Bytes str);
 
-  /// @brief Method WriteFixedString64, addr 0x64a6a8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteFixedString64, addr 0x64ae508, size 0xc, virtual false, abstract: false, final false
   inline bool WriteFixedString64(::Unity::Collections::FixedString64Bytes str);
 
-  /// @brief Method WriteFloat, addr 0x64a6668, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteFloat, addr 0x64ae0e4, size 0x20, virtual false, abstract: false, final false
   inline bool WriteFloat(float_t value);
 
-  /// @brief Method WriteInt, addr 0x64a6558, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteInt, addr 0x64adfd4, size 0x20, virtual false, abstract: false, final false
   inline bool WriteInt(int32_t value);
 
-  /// @brief Method WriteIntNetworkByteOrder, addr 0x64a6620, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteIntNetworkByteOrder, addr 0x64ae09c, size 0x24, virtual false, abstract: false, final false
   inline bool WriteIntNetworkByteOrder(int32_t value);
 
-  /// @brief Method WriteLong, addr 0x64a6598, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteLong, addr 0x64ae014, size 0x1c, virtual false, abstract: false, final false
   inline bool WriteLong(int64_t value);
 
-  /// @brief Method WritePackedDouble, addr 0x64a695c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WritePackedDouble, addr 0x64ae3d8, size 0x8, virtual false, abstract: false, final false
   inline bool WritePackedDouble(double_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedDoubleDelta, addr 0x64a6964, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method WritePackedDoubleDelta, addr 0x64ae3e0, size 0xcc, virtual false, abstract: false, final false
   inline bool WritePackedDoubleDelta(double_t value, double_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedFixedString128Delta, addr 0x64a6c44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WritePackedFixedString128Delta, addr 0x64ae6c0, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString128Delta(::Unity::Collections::FixedString128Bytes str, ::Unity::Collections::FixedString128Bytes baseline,
                                              ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedFixedString32Delta, addr 0x64a6abc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WritePackedFixedString32Delta, addr 0x64ae538, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString32Delta(::Unity::Collections::FixedString32Bytes str, ::Unity::Collections::FixedString32Bytes baseline,
                                             ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedFixedString4096Delta, addr 0x64a6c6c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WritePackedFixedString4096Delta, addr 0x64ae6e8, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString4096Delta(::Unity::Collections::FixedString4096Bytes str, ::Unity::Collections::FixedString4096Bytes baseline,
                                               ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedFixedString512Delta, addr 0x64a6c58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WritePackedFixedString512Delta, addr 0x64ae6d4, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString512Delta(::Unity::Collections::FixedString512Bytes str, ::Unity::Collections::FixedString512Bytes baseline,
                                              ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedFixedString64Delta, addr 0x64a6c30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WritePackedFixedString64Delta, addr 0x64ae6ac, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedFixedString64Delta(::Unity::Collections::FixedString64Bytes str, ::Unity::Collections::FixedString64Bytes baseline,
                                             ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedFixedStringDelta, addr 0x64a6ad0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method WritePackedFixedStringDelta, addr 0x64ae54c, size 0x160, virtual false, abstract: false, final false
   inline bool WritePackedFixedStringDelta(uint8_t* data, uint32_t length, uint8_t* baseData, uint32_t baseLength, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedFloat, addr 0x64a68cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WritePackedFloat, addr 0x64ae348, size 0x8, virtual false, abstract: false, final false
   inline bool WritePackedFloat(float_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedFloatDelta, addr 0x64a68d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WritePackedFloatDelta, addr 0x64ae350, size 0x88, virtual false, abstract: false, final false
   inline bool WritePackedFloatDelta(float_t value, float_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedInt, addr 0x64a68b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WritePackedInt, addr 0x64ae330, size 0xc, virtual false, abstract: false, final false
   inline bool WritePackedInt(int32_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedIntDelta, addr 0x64a6a44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WritePackedIntDelta, addr 0x64ae4c0, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedIntDelta(int32_t value, int32_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedLong, addr 0x64a68c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WritePackedLong, addr 0x64ae33c, size 0xc, virtual false, abstract: false, final false
   inline bool WritePackedLong(int64_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedLongDelta, addr 0x64a6a58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WritePackedLongDelta, addr 0x64ae4d4, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedLongDelta(int64_t value, int64_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedUInt, addr 0x64a6778, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method WritePackedUInt, addr 0x64ae1f4, size 0xf4, virtual false, abstract: false, final false
   inline bool WritePackedUInt(uint32_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedUIntDelta, addr 0x64a6a30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WritePackedUIntDelta, addr 0x64ae4ac, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedUIntDelta(uint32_t value, uint32_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedULong, addr 0x64a686c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WritePackedULong, addr 0x64ae2e8, size 0x48, virtual false, abstract: false, final false
   inline bool WritePackedULong(uint64_t value, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WritePackedULongDelta, addr 0x64a6a6c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WritePackedULongDelta, addr 0x64ae4e8, size 0x14, virtual false, abstract: false, final false
   inline bool WritePackedULongDelta(uint64_t value, uint64_t baseline, ::by_ref<::Unity::Collections::StreamCompressionModel> model);
 
-  /// @brief Method WriteRawBits, addr 0x64a6714, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WriteRawBits, addr 0x64ae190, size 0x64, virtual false, abstract: false, final false
   inline bool WriteRawBits(uint32_t value, int32_t numbits);
 
-  /// @brief Method WriteRawBitsInternal, addr 0x64a66f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteRawBitsInternal, addr 0x64ae16c, size 0x24, virtual false, abstract: false, final false
   inline void WriteRawBitsInternal(uint32_t value, int32_t numbits);
 
-  /// @brief Method WriteShort, addr 0x64a6518, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteShort, addr 0x64adf94, size 0x20, virtual false, abstract: false, final false
   inline bool WriteShort(int16_t value);
 
-  /// @brief Method WriteShortNetworkByteOrder, addr 0x64a65d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method WriteShortNetworkByteOrder, addr 0x64ae04c, size 0x28, virtual false, abstract: false, final false
   inline bool WriteShortNetworkByteOrder(int16_t value);
 
-  /// @brief Method WriteUInt, addr 0x64a6578, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteUInt, addr 0x64adff4, size 0x20, virtual false, abstract: false, final false
   inline bool WriteUInt(uint32_t value);
 
-  /// @brief Method WriteUIntNetworkByteOrder, addr 0x64a6644, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteUIntNetworkByteOrder, addr 0x64ae0c0, size 0x24, virtual false, abstract: false, final false
   inline bool WriteUIntNetworkByteOrder(uint32_t value);
 
-  /// @brief Method WriteULong, addr 0x64a65b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteULong, addr 0x64ae030, size 0x1c, virtual false, abstract: false, final false
   inline bool WriteULong(uint64_t value);
 
-  /// @brief Method WriteUShort, addr 0x64a6538, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteUShort, addr 0x64adfb4, size 0x20, virtual false, abstract: false, final false
   inline bool WriteUShort(uint16_t value);
 
-  /// @brief Method WriteUShortNetworkByteOrder, addr 0x64a65f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method WriteUShortNetworkByteOrder, addr 0x64ae074, size 0x28, virtual false, abstract: false, final false
   inline bool WriteUShortNetworkByteOrder(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x64a60c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64adb40, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x64a6124, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64adba0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(uint8_t* data, int32_t length);
 
-  /// @brief Method .ctor, addr 0x64a5fbc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64ada38, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t length, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method get_Capacity, addr 0x64a6288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Capacity, addr 0x64add04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
-  /// @brief Method get_HasFailedWrites, addr 0x64a6278, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasFailedWrites, addr 0x64adcf4, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasFailedWrites();
 
-  /// @brief Method get_IsCreated, addr 0x64a6268, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x64adce4, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
-  /// @brief Method get_IsLittleEndian, addr 0x64a4f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsLittleEndian, addr 0x64ac9a4, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsLittleEndian();
 
-  /// @brief Method get_Length, addr 0x64a6204, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x64adc80, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_LengthInBits, addr 0x64a62d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_LengthInBits, addr 0x64add4c, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_LengthInBits();
 
   // Ctor Parameters []
@@ -327,7 +327,7 @@ public:
   constexpr DataStreamWriter(::Unity::Collections::DataStreamWriter_StreamData m_Data, ::System::IntPtr m_SendHandleData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15568 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

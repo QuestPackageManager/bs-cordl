@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SharedSpatialAnchorErrorHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace\SharedSpatialAnchorErrorHandler.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SharedSpatialAnchorErrorHandler_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpatialAnchor_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SharedSpatialAnchorErrorHandler::*)()>(&::GlobalNamespace::SharedSpatialAnchorErrorHandler::Awake)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5a2ec08;
+  constexpr static std::size_t addrs = 0x5a330c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SharedSpatialAnchorErrorHandler*>(), { "Awake", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SharedSpatialAnchorErrorHandler::*)(
     ::GlobalNamespace::OVRSpatialAnchor*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(&::GlobalNamespace::SharedSpatialAnchorErrorHandler::OnAnchorCreate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5a2ecb0;
+  constexpr static std::size_t addrs = 0x5a3316c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
     &::GlobalNamespace::SharedSpatialAnchorErrorHandler::OnAnchorShare)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5a2edd8;
+  constexpr static std::size_t addrs = 0x5a33294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SharedSpatialAnchorErrorHandler*>(),
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
     &::GlobalNamespace::SharedSpatialAnchorErrorHandler::OnSharedSpatialAnchorLoad)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a2ee54;
+  constexpr static std::size_t addrs = 0x5a33310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SharedSpatialAnchorErrorHandler*>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SharedSpatialAnchorErrorHandler::*)(::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
     &::GlobalNamespace::SharedSpatialAnchorErrorHandler::OnAnchorEraseAll)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5a2eef4;
+  constexpr static std::size_t addrs = 0x5a333b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SharedSpatialAnchorErrorHandler*>(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SharedSpatialAnchorErrorHandler::*)(
     ::GlobalNamespace::OVRSpatialAnchor*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(&::GlobalNamespace::SharedSpatialAnchorErrorHandler::OnAnchorErase)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a2ef64;
+  constexpr static std::size_t addrs = 0x5a33420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SharedSpatialAnchorErrorHandler::*)(::StringW)>(&::GlobalNamespace::SharedSpatialAnchorErrorHandler::LogWarning)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a2ed2c;
+  constexpr static std::size_t addrs = 0x5a331e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SharedSpatialAnchorErrorHandler::*)()>(&::GlobalNamespace::SharedSpatialAnchorErrorHandler::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a2f018;
+  constexpr static std::size_t addrs = 0x5a334d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SharedSpatialAnchorErrorHandler*>(), { ".ctor", {}, {} })));

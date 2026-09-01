@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Ucs4Decoder.hpp"
+// IWYU pragma private; include "System\Xml\Ucs4Decoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,14 +27,14 @@ public:
   /// @brief Field lastBytesCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_lastBytesCount, put = __cordl_internal_set_lastBytesCount)) int32_t lastBytesCount;
 
-  /// @brief Method Convert, addr 0x62dc2fc, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x62e3d78, size 0x234, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, bool flush, ::by_ref<int32_t> bytesUsed,
                       ::by_ref<int32_t> charsUsed, ::by_ref<bool> completed);
 
-  /// @brief Method GetCharCount, addr 0x62dc130, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x62e3bac, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0x62dc14c, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x62e3bc8, size 0x1b0, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   /// @brief Method GetFullChars, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -42,7 +42,7 @@ public:
 
   static inline ::System::Xml::Ucs4Decoder* New_ctor();
 
-  /// @brief Method Ucs4ToUTF16, addr 0x62dc530, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Ucs4ToUTF16, addr 0x62e3fac, size 0x58, virtual false, abstract: false, final false
   inline void Ucs4ToUTF16(uint32_t code, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_lastBytes() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_lastBytesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x62dc588, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e4004, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   Ucs4Decoder(Ucs4Decoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9449 };
 
   /// @brief Field lastBytes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t> ___lastBytes;

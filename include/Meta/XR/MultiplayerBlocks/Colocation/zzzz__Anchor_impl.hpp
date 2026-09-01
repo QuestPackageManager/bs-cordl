@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/Anchor.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\Anchor.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__Anchor_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::Anchor::*)(bool, bool, uint64_t, uint32_t, ::System::Guid)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::Anchor::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a785ec;
+  constexpr static std::size_t addrs = 0x5a7caa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MultiplayerBlocks::Colocation::Anchor::*)(::Meta::XR::MultiplayerBlocks::Colocation::Anchor)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::Anchor::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5a7923c;
+  constexpr static std::size_t addrs = 0x5a7d6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>(),

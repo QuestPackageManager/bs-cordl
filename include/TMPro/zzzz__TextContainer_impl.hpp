@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TextContainer.hpp"
+// IWYU pragma private; include "TMPro\TextContainer.hpp"
 #include "TMPro/zzzz__TextContainerAnchors_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_hasChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69310ac;
+  constexpr static std::size_t addrs = 0x6938b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_hasChanged", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)(bool)>(&::TMPro::TextContainer::set_hasChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69310b4;
+  constexpr static std::size_t addrs = 0x6938b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "set_hasChanged", {}, { ::i2c::type_of<bool>() } })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_pivot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69310bc;
+  constexpr static std::size_t addrs = 0x6938b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_pivot", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&::TMPro::TextContainer::set_pivot)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x69310c4;
+  constexpr static std::size_t addrs = 0x6938b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TextContainerAnchors (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_anchorPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6931324;
+  constexpr static std::size_t addrs = 0x6938da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_anchorPosition", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)(::TMPro::TextContainerAnchors)>(&::TMPro::TextContainer::set_anchorPosition)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x693132c;
+  constexpr static std::size_t addrs = 0x6938da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_rect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69313e0;
+  constexpr static std::size_t addrs = 0x6938e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_rect", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)(::UnityEngine::Rect)>(&::TMPro::TextContainer::set_rect)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69313ec;
+  constexpr static std::size_t addrs = 0x6938e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "set_rect", {}, { ::i2c::type_of<::UnityEngine::Rect>() } })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_size)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6931438;
+  constexpr static std::size_t addrs = 0x6938eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_size", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&::TMPro::TextContainer::set_size)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6931440;
+  constexpr static std::size_t addrs = 0x6938ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6931488;
+  constexpr static std::size_t addrs = 0x6938f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_width", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)(float_t)>(&::TMPro::TextContainer::set_width)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6931490;
+  constexpr static std::size_t addrs = 0x6938f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "set_width", {}, { ::i2c::type_of<float_t>() } })));
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69314a4;
+  constexpr static std::size_t addrs = 0x6938f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_height", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)(float_t)>(&::TMPro::TextContainer::set_height)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69314ac;
+  constexpr static std::size_t addrs = 0x6938f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "set_height", {}, { ::i2c::type_of<float_t>() } })));
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_isDefaultWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69314c0;
+  constexpr static std::size_t addrs = 0x6938f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_isDefaultWidth", {}, {} })));
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_isDefaultHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69314c8;
+  constexpr static std::size_t addrs = 0x6938f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_isDefaultHeight", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_isAutoFitting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69314d0;
+  constexpr static std::size_t addrs = 0x6938f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_isAutoFitting", {}, {} })));
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)(bool)>(&::TMPro::TextContainer::set_isAutoFitting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69314d8;
+  constexpr static std::size_t addrs = 0x6938f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "set_isAutoFitting", {}, { ::i2c::type_of<bool>() } })));
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_corners)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69314e0;
+  constexpr static std::size_t addrs = 0x6938f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_corners", {}, {} })));
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_worldCorners)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69314e8;
+  constexpr static std::size_t addrs = 0x6938f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_worldCorners", {}, {} })));
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_margins)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69314f0;
+  constexpr static std::size_t addrs = 0x6938f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_margins", {}, {} })));
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)(::UnityEngine::Vector4)>(&::TMPro::TextContainer::set_margins)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69314fc;
+  constexpr static std::size_t addrs = 0x6938f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_rectTransform)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6931558;
+  constexpr static std::size_t addrs = 0x6938fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_rectTransform", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TextMeshPro> (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_textMeshPro)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69315f4;
+  constexpr static std::size_t addrs = 0x6939070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "get_textMeshPro", {}, {} })));
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::Awake)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6931690;
+  constexpr static std::size_t addrs = 0x693910c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { ::i2c::class_of<::TMPro::TextContainer*>(), 4 }));
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6931758;
+  constexpr static std::size_t addrs = 0x69391d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { ::i2c::class_of<::TMPro::TextContainer*>(), 5 }));
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x693175c;
+  constexpr static std::size_t addrs = 0x69391d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { ::i2c::class_of<::TMPro::TextContainer*>(), 7 }));
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::OnContainerChanged)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6931210;
+  constexpr static std::size_t addrs = 0x6938c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "OnContainerChanged", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x69318b8;
+  constexpr static std::size_t addrs = 0x6939334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { ::i2c::class_of<::TMPro::TextContainer*>(), 10 }));
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&::TMPro::TextContainer::SetRect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6931480;
+  constexpr static std::size_t addrs = 0x6938efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -384,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::UpdateCorners)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6931760;
+  constexpr static std::size_t addrs = 0x69391dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { "UpdateCorners", {}, {} })));
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::TMPro::TextContainer::*)(::TMPro::TextContainerAnchors)>(&::TMPro::TextContainer::GetPivot)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6931364;
+  constexpr static std::size_t addrs = 0x6938de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TextContainerAnchors (::TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&::TMPro::TextContainer::GetAnchorPosition)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6931118;
+  constexpr static std::size_t addrs = 0x6938b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6931a20;
+  constexpr static std::size_t addrs = 0x693949c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextContainer*>(), { ".ctor", {}, {} })));

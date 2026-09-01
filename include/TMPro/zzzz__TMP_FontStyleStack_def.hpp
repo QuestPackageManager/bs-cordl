@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_FontStyleStack.hpp"
+// IWYU pragma private; include "TMPro\TMP_FontStyleStack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,13 +23,13 @@ namespace TMPro {
 struct CORDL_TYPE TMP_FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x699f4cc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x69a6f48, size 0x104, virtual false, abstract: false, final false
   inline uint8_t Add(::TMPro::FontStyles style);
 
-  /// @brief Method Clear, addr 0x699f4c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x69a6f3c, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove, addr 0x699f5d0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x69a704c, size 0x14c, virtual false, abstract: false, final false
   inline uint8_t Remove(::TMPro::FontStyles style);
 
   // Ctor Parameters []
@@ -45,7 +45,7 @@ public:
                                uint8_t smallcaps) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16019 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa };

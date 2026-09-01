@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PointerDispatchState.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PointerDispatchState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,36 +39,36 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShouldSendCompatibilityMouseEvents, put = __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents)) ::ArrayW<bool>
       m_ShouldSendCompatibilityMouseEvents;
 
-  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x6db3fd4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x6dbbb58, size 0x34, virtual false, abstract: false, final false
   inline void ActivateCompatibilityMouseEvents(int32_t pointerId);
 
-  /// @brief Method CapturePointer, addr 0x6db3b7c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CapturePointer, addr 0x6dbb700, size 0x134, virtual false, abstract: false, final false
   inline void CapturePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method GetCapturingElement, addr 0x6dad1a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetCapturingElement, addr 0x6db4d2c, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* GetCapturingElement(int32_t pointerId);
 
-  /// @brief Method HasPointerCapture, addr 0x6db3b44, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasPointerCapture, addr 0x6dbb6c8, size 0x38, virtual false, abstract: false, final false
   inline bool HasPointerCapture(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
   static inline ::UnityEngine::UIElements::PointerDispatchState* New_ctor();
 
-  /// @brief Method PreventCompatibilityMouseEvents, addr 0x6db40dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method PreventCompatibilityMouseEvents, addr 0x6dbbc60, size 0x30, virtual false, abstract: false, final false
   inline void PreventCompatibilityMouseEvents(int32_t pointerId);
 
-  /// @brief Method ProcessPointerCapture, addr 0x6db4360, size 0x7b4, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerCapture, addr 0x6dbbee4, size 0x7b4, virtual false, abstract: false, final false
   inline void ProcessPointerCapture(int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x6db3ce8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x6dbb86c, size 0x3c, virtual false, abstract: false, final false
   inline void ReleasePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x6db3ed0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x6dbba54, size 0x30, virtual false, abstract: false, final false
   inline void ReleasePointer(int32_t pointerId);
 
-  /// @brief Method Reset, addr 0x6db4bf0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6dbc774, size 0x90, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x6db4220, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x6dbbda4, size 0x140, virtual false, abstract: false, final false
   inline bool ShouldSendCompatibilityMouseEvents(::UnityEngine::UIElements::IPointerEvent* evt);
 
   constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*> const& __cordl_internal_get_m_PendingPointerCapture() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents(::ArrayW<bool> value);
 
-  /// @brief Method .ctor, addr 0x6db4b14, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dbc698, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

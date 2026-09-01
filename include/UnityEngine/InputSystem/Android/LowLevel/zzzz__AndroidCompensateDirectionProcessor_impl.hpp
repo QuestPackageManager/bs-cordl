@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidCompensateDirectionProcessor.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Android\LowLevel\AndroidCompensateDirectionProcessor.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__CompensateDirectionProcessor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidCompensateDirectionProcessor_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::*)(
     ::UnityEngine::Vector3, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::Process)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65a577c;
+  constexpr static std::size_t addrs = 0x65ad1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65a5798;
+  constexpr static std::size_t addrs = 0x65ad214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

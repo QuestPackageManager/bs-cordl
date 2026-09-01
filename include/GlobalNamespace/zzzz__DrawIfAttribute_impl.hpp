@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DrawIfAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\DrawIfAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__DrawIfAttribute_def.hpp"
 #include "GlobalNamespace/zzzz__DrawIfAttribute_def.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DrawIfAttribute::*)(::StringW, ::System::Object*, ::GlobalNamespace::DrawIfAttribute_DisablingType)>(
     &::GlobalNamespace::DrawIfAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3307638;
+  constexpr static std::size_t addrs = 0x330b434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DrawIfAttribute::*)(::StringW, ::System::Object*, ::System::Object*, ::GlobalNamespace::DrawIfAttribute_DisablingType)>(
     &::GlobalNamespace::DrawIfAttribute::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3307648;
+  constexpr static std::size_t addrs = 0x330b444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DrawIfAttribute*>(),

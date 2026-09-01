@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaCollectionNode.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaCollectionNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,22 +61,22 @@ public:
 
   constexpr void __cordl_internal_set_schemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
-  /// @brief Method .ctor, addr 0x62260f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x622db70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Schema, addr 0x6226260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schema, addr 0x622dcdc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_Schema();
 
-  /// @brief Method get_SchemaInfo, addr 0x6226250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x622dccc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_SchemaInfo();
 
-  /// @brief Method set_NamespaceURI, addr 0x6226248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NamespaceURI, addr 0x622dcc4, size 0x8, virtual false, abstract: false, final false
   inline void set_NamespaceURI(::StringW value);
 
-  /// @brief Method set_Schema, addr 0x6226268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Schema, addr 0x622dce4, size 0x8, virtual false, abstract: false, final false
   inline void set_Schema(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method set_SchemaInfo, addr 0x6226258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaInfo, addr 0x622dcd4, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
 protected:
@@ -94,7 +94,7 @@ public:
   XmlSchemaCollectionNode(XmlSchemaCollectionNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9751 };
 
   /// @brief Field namespaceUri, offset: 0x10, size: 0x8, def value: None
   ::StringW ___namespaceUri;

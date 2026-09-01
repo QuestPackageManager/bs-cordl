@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/EventModifiers.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\EventModifiers.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventModifiers::*)(::UnityEngine::InputForUI::EventModifiers_Modifiers)>(
     &::UnityEngine::InputForUI::EventModifiers::IsPressed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b519ac;
+  constexpr static std::size_t addrs = 0x6b59530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventModifiers>(),
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventModifiers::*)()>(&::UnityEngine::InputForUI::EventModifiers::get_isShiftPressed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b519bc;
+  constexpr static std::size_t addrs = 0x6b59540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventModifiers>(), { "get_isShiftPressed", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventModifiers::*)()>(&::UnityEngine::InputForUI::EventModifiers::get_isCtrlPressed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b519cc;
+  constexpr static std::size_t addrs = 0x6b59550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventModifiers>(), { "get_isCtrlPressed", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventModifiers::*)()>(&::UnityEngine::InputForUI::EventModifiers::get_isAltPressed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b519dc;
+  constexpr static std::size_t addrs = 0x6b59560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventModifiers>(), { "get_isAltPressed", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventModifiers::*)()>(&::UnityEngine::InputForUI::EventModifiers::get_isMetaPressed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b519ec;
+  constexpr static std::size_t addrs = 0x6b59570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventModifiers>(), { "get_isMetaPressed", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventModifiers::*)()>(&::UnityEngine::InputForUI::EventModifiers::get_isCapsLockEnabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b519fc;
+  constexpr static std::size_t addrs = 0x6b59580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventModifiers>(), { "get_isCapsLockEnabled", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventModifiers::*)()>(&::UnityEngine::InputForUI::EventModifiers::get_isFunctionKeyPressed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b51a08;
+  constexpr static std::size_t addrs = 0x6b5958c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventModifiers>(), { "get_isFunctionKeyPressed", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventModifiers::*)()>(&::UnityEngine::InputForUI::EventModifiers::get_isNumericPressed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b51a14;
+  constexpr static std::size_t addrs = 0x6b59598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventModifiers>(), { "get_isNumericPressed", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::EventModifiers::*)(::UnityEngine::InputForUI::EventModifiers_Modifiers, bool)>(
     &::UnityEngine::InputForUI::EventModifiers::SetPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b51a20;
+  constexpr static std::size_t addrs = 0x6b595a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::EventModifiers::*)()>(&::UnityEngine::InputForUI::EventModifiers::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b51a3c;
+  constexpr static std::size_t addrs = 0x6b595c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::EventModifiers>(), { "Reset", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::StringW>, ::StringW)>(&::UnityEngine::InputForUI::EventModifiers::Append)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b51a44;
+  constexpr static std::size_t addrs = 0x6b595c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputForUI::EventModifiers::*)()>(&::UnityEngine::InputForUI::EventModifiers::ToString)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6b51098;
+  constexpr static std::size_t addrs = 0x6b58c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

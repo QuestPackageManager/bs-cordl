@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Oculus/OculusPlatformResponseException.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Oculus\OculusPlatformResponseException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
 
   static inline ::OculusStudios::Platform::Oculus::OculusPlatformResponseException* New_ctor(::StringW message, ::Oculus::Platform::Models::Error* error);
 
-  /// @brief Method ParseMessage, addr 0x5f30544, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method ParseMessage, addr 0x5f349e8, size 0x2b8, virtual false, abstract: false, final false
   static inline ::StringW ParseMessage(::StringW message, ::Oculus::Platform::Models::Error* error, ::by_ref<::OculusStudios::Platform::Oculus::OculusPlatformResponseErrorCode> errorCode,
                                        ::by_ref<::System::Net::HttpStatusCode> httpCode);
 
@@ -68,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set_httpCode(::System::Net::HttpStatusCode value);
 
-  /// @brief Method .ctor, addr 0x5f304ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f34950, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Oculus::Platform::Models::Error* error);
 
-  /// @brief Method .ctor, addr 0x5f2ddcc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f32270, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::Oculus::Platform::Models::Error* error);
 
-  /// @brief Method get_message, addr 0x5f30494, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_message, addr 0x5f34938, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_message();
 
 protected:
@@ -92,7 +92,7 @@ public:
   OculusPlatformResponseException(OculusPlatformResponseException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22142 };
 
   /// @brief Field error, offset: 0x90, size: 0x8, def value: None
   ::Oculus::Platform::Models::Error* ___error;

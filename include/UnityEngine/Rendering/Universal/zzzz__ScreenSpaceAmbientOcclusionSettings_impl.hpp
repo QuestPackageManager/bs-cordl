@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceAmbientOcclusionSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceAmbientOcclusionSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceAmbientOcclusionSettings_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceAmbientOcclusionSettings_def.hpp"
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x689d59c;
+  constexpr static std::size_t addrs = 0x68a5018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

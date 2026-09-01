@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CrashManagerSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\CrashManagerSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,15 +33,15 @@ public:
 
   __declspec(property(get = get_stackTrace)) ::StringW stackTrace;
 
-  /// @brief Method HandleLog, addr 0x5a1f388, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleLog, addr 0x5a27474, size 0xd0, virtual false, abstract: false, final false
   inline void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
 
   static inline ::GlobalNamespace::CrashManagerSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5a1f2e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a273cc, size 0xa8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method StartCatchingExceptions, addr 0x5a1f238, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method StartCatchingExceptions, addr 0x5a27324, size 0xa8, virtual false, abstract: false, final false
   inline void StartCatchingExceptions();
 
   constexpr ::StringW const& __cordl_internal_get__logString() const;
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__stackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a1f458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a27544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_logString, addr 0x5a1f228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_logString, addr 0x5a27314, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_logString();
 
-  /// @brief Method get_stackTrace, addr 0x5a1f230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stackTrace, addr 0x5a2731c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stackTrace();
 
 protected:
@@ -80,7 +80,7 @@ public:
   CrashManagerSO(CrashManagerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6507 };
 
   /// @brief Field _logString, offset: 0x18, size: 0x8, def value: None
   ::StringW ____logString;

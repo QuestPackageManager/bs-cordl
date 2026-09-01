@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/PoolExceededFixedSizeException.hpp"
+// IWYU pragma private; include "Zenject\PoolExceededFixedSizeException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Zenject::PoolExceededFixedSizeException* New_ctor(::StringW errorMessage);
 
-  /// @brief Method .ctor, addr 0x6e61ab8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e6963c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW errorMessage);
 
 protected:
@@ -40,7 +40,7 @@ public:
   PoolExceededFixedSizeException(PoolExceededFixedSizeException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14401 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MonotonicTimeProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\MonotonicTimeProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +42,10 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
-  /// @brief Method GetTicks, addr 0x3337504, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetTicks, addr 0x333b2c4, size 0x58, virtual true, abstract: false, final true
   inline int64_t GetTicks();
 
-  /// @brief Method GetTimeMs, addr 0x33374d8, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetTimeMs, addr 0x333b298, size 0x2c, virtual true, abstract: false, final true
   inline int64_t GetTimeMs();
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* New_ctor();
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSpanTicksPerStopwatchTick(double_t value);
 
-  /// @brief Method .ctor, addr 0x333734c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333b10c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* getStaticF_instance();
@@ -93,7 +93,7 @@ public:
   MonotonicTimeProvider(MonotonicTimeProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18216 };
 
   /// @brief Field _timeSpanTicksPerStopwatchTick, offset: 0x10, size: 0x8, def value: None
   double_t ____timeSpanTicksPerStopwatchTick;

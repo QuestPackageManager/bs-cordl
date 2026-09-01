@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnableRendererWithLightId.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnableRendererWithLightId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnableRendererWithLightId_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -9,11 +9,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableRendererWithLightId::*)(::UnityEngine::Color)>(&::GlobalNamespace::EnableRendererWithLightId::ColorWasSet)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x586db00;
+  constexpr static std::size_t addrs = 0x586cc78;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableRendererWithLightId*>(), { ::i2c::class_of<::GlobalNamespace::EnableRendererWithLightId*>(), 9 }));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableRendererWithLightId*>(), { ::i2c::class_of<::GlobalNamespace::EnableRendererWithLightId*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableRendererWithLightId::*)()>(&::GlobalNamespace::EnableRendererWithLightId::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x586db3c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x586ccb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableRendererWithLightId*>(), { ".ctor", {}, {} })));
@@ -67,7 +67,7 @@ constexpr void GlobalNamespace::EnableRendererWithLightId::__cordl_internal_set_
 }
 inline void GlobalNamespace::EnableRendererWithLightId::ColorWasSet(::UnityEngine::Color color) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::EnableRendererWithLightId*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::EnableRendererWithLightId*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
 inline void GlobalNamespace::EnableRendererWithLightId::_ctor() {

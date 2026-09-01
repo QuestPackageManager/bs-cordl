@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/AgreementUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\AgreementUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__AgreementUtilities_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::AgreementUtilities::*)()>(&::Org::BouncyCastle::Security::AgreementUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35eb93c;
+  constexpr static std::size_t addrs = 0x35ef6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::AgreementUtilities*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBasicAgreement* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::AgreementUtilities::GetBasicAgreement)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x35ebd68;
+  constexpr static std::size_t addrs = 0x35efb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::AgreementUtilities*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBasicAgreement* (*)(::StringW)>(&::Org::BouncyCastle::Security::AgreementUtilities::GetBasicAgreement)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x35ebdcc;
+  constexpr static std::size_t addrs = 0x35efb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBasicAgreement* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::StringW)>(
     &::Org::BouncyCastle::Security::AgreementUtilities::GetBasicAgreementWithKdf)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35ec140;
+  constexpr static std::size_t addrs = 0x35eff00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBasicAgreement* (*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Security::AgreementUtilities::GetBasicAgreementWithKdf)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x35ec1b4;
+  constexpr static std::size_t addrs = 0x35eff74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::AgreementUtilities*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IRawAgreement* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::AgreementUtilities::GetRawAgreement)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x35ec400;
+  constexpr static std::size_t addrs = 0x35f01c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::AgreementUtilities*>(),
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IRawAgreement* (*)(::StringW)>(&::Org::BouncyCastle::Security::AgreementUtilities::GetRawAgreement)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x35ec464;
+  constexpr static std::size_t addrs = 0x35f0224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Security::AgreementUtilities::GetAlgorithmName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x35ec5bc;
+  constexpr static std::size_t addrs = 0x35f037c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::AgreementUtilities*>(),
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Security::AgreementUtilities::GetMechanism)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x35ec004;
+  constexpr static std::size_t addrs = 0x35efdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

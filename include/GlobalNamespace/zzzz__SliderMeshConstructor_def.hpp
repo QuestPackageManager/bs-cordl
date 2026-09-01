@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SliderMeshConstructor.hpp"
+// IWYU pragma private; include "GlobalNamespace\SliderMeshConstructor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,10 +55,10 @@ public:
   /// @brief Field reusableVerts, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts)) ::ArrayW<::UnityEngine::Vector3> reusableVerts;
 
-  /// @brief Method CreateMeshIfNonExisting, addr 0x5978204, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshIfNonExisting, addr 0x597bb98, size 0xbc, virtual false, abstract: false, final false
   inline void CreateMeshIfNonExisting();
 
-  /// @brief Method CreateSliderMesh, addr 0x59782c0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateSliderMesh, addr 0x597bc54, size 0x1dc, virtual false, abstract: false, final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path, float_t zDistanceBetweenNotes);
 
   /// @brief Method CreateSliderMeshInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -72,7 +72,7 @@ public:
 
   static inline ::GlobalNamespace::SliderMeshConstructor* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59781f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x597bb8c, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set_reusableVerts(::ArrayW<::UnityEngine::Vector3> value);
 
-  /// @brief Method .ctor, addr 0x597849c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597be30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x59781f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x597bb84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:

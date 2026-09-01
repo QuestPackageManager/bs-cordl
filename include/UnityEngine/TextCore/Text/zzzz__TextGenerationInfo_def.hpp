@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextGenerationInfo.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextGenerationInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,10 +22,10 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextGenerationInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6c054d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c0d058, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create();
 
-  /// @brief Method Destroy, addr 0x6c054fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6c0d080, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr ptr);
 
 protected:
@@ -43,7 +43,7 @@ public:
   TextGenerationInfo(TextGenerationInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

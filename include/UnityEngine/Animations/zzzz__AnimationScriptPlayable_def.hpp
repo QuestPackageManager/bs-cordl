@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Animations/AnimationScriptPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Animations\AnimationScriptPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,13 +38,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x6a4290c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a4a388, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationScriptPlayable other);
 
-  /// @brief Method GetHandle, addr 0x6a42900, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6a4a37c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x6a427ec, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a4a268, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationScriptPlayable getStaticF_m_NullPlayable();
@@ -65,7 +65,7 @@ public:
   constexpr AnimationScriptPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20256 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

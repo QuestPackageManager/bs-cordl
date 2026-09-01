@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Networking/PlayerConnection/MessageEventArgs.hpp"
+// IWYU pragma private; include "UnityEngine\Networking\PlayerConnection\MessageEventArgs.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__MessageEventArgs_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::MessageEventArgs._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::PlayerConnection::MessageEventArgs::*)()>(
     &::UnityEngine::Networking::PlayerConnection::MessageEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6afa1cc;
+  constexpr static std::size_t addrs = 0x6b01be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>(), { ".ctor", {}, {} })));

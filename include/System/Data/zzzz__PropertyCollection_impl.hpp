@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/PropertyCollection.hpp"
+// IWYU pragma private; include "System\Data\PropertyCollection.hpp"
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
 #include "System/Data/zzzz__PropertyCollection_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::PropertyCollection::*)()>(&::System::Data::PropertyCollection::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6043704;
+  constexpr static std::size_t addrs = 0x604b180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::PropertyCollection*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::PropertyCollection::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                                     ::System::Runtime::Serialization::StreamingContext)>(&::System::Data::PropertyCollection::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6043710;
+  constexpr static std::size_t addrs = 0x604b18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::PropertyCollection::*)()>(&::System::Data::PropertyCollection::Clone)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x6043718;
+  constexpr static std::size_t addrs = 0x604b194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

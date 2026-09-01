@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeContainerSupportsMinMaxWriteRestrictionAttribute.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeContainerSupportsMinMaxWriteRestrictionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__NativeContainerSupportsMinMaxWriteRestrictionAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a583e0;
+  constexpr static std::size_t addrs = 0x6a5fe5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

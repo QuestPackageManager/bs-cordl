@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Security/CertificateHelper.hpp"
+// IWYU pragma private; include "System\Net\Security\CertificateHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Security/zzzz__CertificateHelper_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (*)(::System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(
         &::System::Net::Security::CertificateHelper::GetEligibleClientCertificate)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6368638;
+  constexpr static std::size_t addrs = 0x63700b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (*)(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*)>(
         &::System::Net::Security::CertificateHelper::GetEligibleClientCertificate)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x63686dc;
+  constexpr static std::size_t addrs = 0x6370158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::X509Certificates::X509Certificate2*)>(
     &::System::Net::Security::CertificateHelper::IsValidClientCertificate)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6368780;
+  constexpr static std::size_t addrs = 0x63701fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*)>(
     &::System::Net::Security::CertificateHelper::IsValidForClientAuthenticationEKU)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6368884;
+  constexpr static std::size_t addrs = 0x6370300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension*)>(
     &::System::Net::Security::CertificateHelper::IsValidForDigitalSignatureUsage)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6368928;
+  constexpr static std::size_t addrs = 0x63703a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (*)()>(
     &::System::Net::Security::CertificateHelper::GetEligibleClientCertificate)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6368948;
+  constexpr static std::size_t addrs = 0x63703c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

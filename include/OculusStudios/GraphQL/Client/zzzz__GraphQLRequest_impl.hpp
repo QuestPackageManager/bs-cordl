@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLRequest.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLRequest.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLRequest_def.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__MultipartFile_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLRequest::*)()>(&::OculusStudios::GraphQL::Client::GraphQLRequest::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f27840;
+  constexpr static std::size_t addrs = 0x5f2bd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLRequest*>(), { ".ctor", {}, {} })));

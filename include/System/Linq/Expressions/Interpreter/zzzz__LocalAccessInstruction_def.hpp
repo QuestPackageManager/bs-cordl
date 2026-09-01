@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LocalAccessInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LocalAccessInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LocalAccessInstruction* New_ctor(int32_t index);
 
-  /// @brief Method ToDebugString, addr 0x5faa4bc, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x5fb1f38, size 0x198, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5faa4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb1f30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
 protected:
@@ -63,7 +63,7 @@ public:
   LocalAccessInstruction(LocalAccessInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16455 };
 
   /// @brief Field _index, offset: 0x10, size: 0x4, def value: None
   int32_t ____index;

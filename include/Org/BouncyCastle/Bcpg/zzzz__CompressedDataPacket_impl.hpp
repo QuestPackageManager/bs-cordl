@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/CompressedDataPacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\CompressedDataPacket.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__CompressionAlgorithmTag_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__InputStreamPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__CompressedDataPacket_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::CompressedDataPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::CompressedDataPacket::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3697960;
+  constexpr static std::size_t addrs = 0x369b720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag (::Org::BouncyCastle::Bcpg::CompressedDataPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::CompressedDataPacket::get_Algorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3699264;
+  constexpr static std::size_t addrs = 0x369d024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::CompressedDataPacket*>(), { "get_Algorithm", {}, {} })));

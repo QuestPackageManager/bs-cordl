@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightGroupCircularLayouter.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightGroupCircularLayouter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   static ::GlobalNamespace::LightGroupCircularLayouter_RotationDirection const Counterclockwise;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5898 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__staticRotation(bool value);
 
-  /// @brief Method .ctor, addr 0x5991098, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599a3c4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   LightGroupCircularLayouter(LightGroupCircularLayouter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5899 };
 
   /// @brief Field _radius, offset: 0x28, size: 0x4, def value: None
   float_t ____radius;

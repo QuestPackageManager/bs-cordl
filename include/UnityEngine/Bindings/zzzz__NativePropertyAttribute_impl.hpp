@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/NativePropertyAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\NativePropertyAttribute.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeMethodAttribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__TargetType_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativePropertyAttribute_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::UnityEngine::Bindings::TargetType)>(
     &::UnityEngine::Bindings::NativePropertyAttribute::set_TargetType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bae79c;
+  constexpr static std::size_t addrs = 0x6bb6320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)()>(&::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bae7a4;
+  constexpr static std::size_t addrs = 0x6bb6328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::NativePropertyAttribute*>(), { ".ctor", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::StringW)>(&::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bae7a8;
+  constexpr static std::size_t addrs = 0x6bb632c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::StringW, bool, ::UnityEngine::Bindings::TargetType)>(
     &::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6bae7ac;
+  constexpr static std::size_t addrs = 0x6bb6330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativePropertyAttribute::*)(::StringW, bool, ::UnityEngine::Bindings::TargetType, bool)>(
     &::UnityEngine::Bindings::NativePropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bae7d8;
+  constexpr static std::size_t addrs = 0x6bb635c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

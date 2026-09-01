@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/LowLevel/PlayerLoop.hpp"
+// IWYU pragma private; include "UnityEngine\LowLevel\PlayerLoop.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/LowLevel/zzzz__PlayerLoop_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevel::PlayerLoopSystem (*)()>(&::UnityEngine::LowLevel::PlayerLoop::GetCurrentPlayerLoop)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6af9ab8;
+  constexpr static std::size_t addrs = 0x6b014d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevel::PlayerLoop*>(), { "GetCurrentPlayerLoop", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LowLevel::PlayerLoopSystem)>(&::UnityEngine::LowLevel::PlayerLoop::SetPlayerLoop)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6af9d44;
+  constexpr static std::size_t addrs = 0x6b0175c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<int32_t (*)(::UnityEngine::LowLevel::PlayerLoopSystem, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*>)>(
         &::UnityEngine::LowLevel::PlayerLoop::PlayerLoopSystemToInternal)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6af9e2c;
+  constexpr static std::size_t addrs = 0x6b01844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevel::PlayerLoopSystem (*)(::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal>, ::by_ref<int32_t>)>(
     &::UnityEngine::LowLevel::PlayerLoop::InternalToPlayerLoopSystem)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6af9b4c;
+  constexpr static std::size_t addrs = 0x6b01564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal> (*)()>(&::UnityEngine::LowLevel::PlayerLoop::GetCurrentPlayerLoopInternal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6af9b24;
+  constexpr static std::size_t addrs = 0x6b0153c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevel::PlayerLoop*>(), { "GetCurrentPlayerLoopInternal", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal>)>(&::UnityEngine::LowLevel::PlayerLoop::SetPlayerLoopInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6af9fd8;
+  constexpr static std::size_t addrs = 0x6b019f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

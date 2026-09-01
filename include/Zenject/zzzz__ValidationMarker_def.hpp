@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ValidationMarker.hpp"
+// IWYU pragma private; include "Zenject\ValidationMarker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,22 +48,22 @@ public:
 
   constexpr void __cordl_internal_set__MarkedType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6e7d9a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e85528, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType);
 
-  /// @brief Method .ctor, addr 0x6e981b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e9fd3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType, bool instantiateFailed);
 
-  /// @brief Method get_InstantiateFailed, addr 0x6e981c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateFailed, addr 0x6e9fd48, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateFailed();
 
-  /// @brief Method get_MarkedType, addr 0x6e981d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkedType, addr 0x6e9fd58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MarkedType();
 
-  /// @brief Method set_InstantiateFailed, addr 0x6e981cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InstantiateFailed, addr 0x6e9fd50, size 0x8, virtual false, abstract: false, final false
   inline void set_InstantiateFailed(bool value);
 
-  /// @brief Method set_MarkedType, addr 0x6e981dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkedType, addr 0x6e9fd60, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkedType(::System::Type* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   ValidationMarker(ValidationMarker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14720 };
 
   /// @brief Field <InstantiateFailed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____InstantiateFailed_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/IArrayPool_1.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\IArrayPool_1.hpp"
 #include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
 template <typename T> inline ::ArrayW<T> Newtonsoft::Json::IArrayPool_1<T>::Rent(int32_t minimumLength) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::Newtonsoft::Json::IArrayPool_1<T>*>(), 0 })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/ActivationControlPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\ActivationControlPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,7 +91,7 @@ public:
   static ::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState const Revert;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19223 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -150,7 +150,7 @@ public:
   static ::UnityEngine::Timeline::ActivationControlPlayable_InitialState const Unset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19224 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -186,25 +186,25 @@ public:
   /// @brief Field postPlayback, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_postPlayback, put = __cordl_internal_set_postPlayback)) ::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState postPlayback;
 
-  /// @brief Method Create, addr 0x69bb1f4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x69c2c70, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationControlPlayable*>
   Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* gameObject, ::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState postPlaybackState);
 
   static inline ::UnityEngine::Timeline::ActivationControlPlayable* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x69c0484, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x69c7f00, size 0xa8, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x69c03f8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x69c7e74, size 0x8c, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x69c05b8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x69c8034, size 0x98, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x69c0650, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x69c80cc, size 0xd0, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x69c052c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x69c7fa8, size 0x8c, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* userData);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_gameObject() const;
@@ -225,7 +225,7 @@ public:
 
   constexpr void __cordl_internal_set_postPlayback(::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState value);
 
-  /// @brief Method .ctor, addr 0x69c0720, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69c819c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -243,7 +243,7 @@ public:
   ActivationControlPlayable(ActivationControlPlayable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19225 };
 
   /// @brief Field gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___gameObject;

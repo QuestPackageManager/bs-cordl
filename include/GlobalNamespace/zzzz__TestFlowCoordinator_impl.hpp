@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TestFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace\TestFlowCoordinator.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__TestFlowCoordinator_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TestFlowCoordinator::*)(bool, bool, bool)>(&::GlobalNamespace::TestFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x593640c;
+  constexpr static std::size_t addrs = 0x5939e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TestFlowCoordinator::*)()>(&::GlobalNamespace::TestFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5936430;
+  constexpr static std::size_t addrs = 0x5939eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TestFlowCoordinator*>(), { ".ctor", {}, {} })));

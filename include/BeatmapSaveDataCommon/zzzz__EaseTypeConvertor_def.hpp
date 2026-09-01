@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataCommon/EaseTypeConvertor.hpp"
+// IWYU pragma private; include "BeatmapSaveDataCommon\EaseTypeConvertor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ namespace BeatmapSaveDataCommon {
 class CORDL_TYPE EaseTypeConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x375a224, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x375fe90, size 0x24, virtual false, abstract: false, final false
   static inline ::BeatmapSaveDataCommon::EaseType Convert(::GlobalNamespace::EaseType easeType);
 
 protected:
@@ -43,7 +43,7 @@ public:
   EaseTypeConvertor(EaseTypeConvertor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15401 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

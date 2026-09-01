@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeStyleUpdater.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeStyleUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,18 +71,18 @@ public:
   /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
 
-  /// @brief Method ApplyStyles, addr 0x6cc7384, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyles, addr 0x6ccef08, size 0xe0, virtual false, abstract: false, final false
   inline void ApplyStyles();
 
-  /// @brief Method Dispose, addr 0x6cc777c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6ccf300, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x6cc6fb0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x6cceb34, size 0xe8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x6cc7128, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6ccecac, size 0x25c, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -127,24 +127,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6cc77dc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccf360, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_disposed, addr 0x6cc776c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6ccf2f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_profilerMarker, addr 0x6cc6f54, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x6ccead8, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);
 
   static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_disposed, addr 0x6cc7774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6ccf2f8, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

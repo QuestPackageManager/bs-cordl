@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SyncText.hpp"
+// IWYU pragma private; include "GlobalNamespace\SyncText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,18 +31,18 @@ public:
   /// @brief Field _textComponent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__textComponent, put = __cordl_internal_set__textComponent)) ::UnityW<::TMPro::TMP_Text> _textComponent;
 
-  /// @brief Method HandleTextChanged, addr 0x59a78a0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleTextChanged, addr 0x59af148, size 0x8c, virtual false, abstract: false, final false
   inline void HandleTextChanged(::UnityEngine::Object* obj);
 
   static inline ::GlobalNamespace::SyncText* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59a77c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59af070, size 0xd8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59a74f4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x59aed9c, size 0xe0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method UpdateText, addr 0x59a75d4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method UpdateText, addr 0x59aee7c, size 0x1f4, virtual false, abstract: false, final false
   inline void UpdateText();
 
   constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get__otherTextComponent() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__textComponent(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x59a792c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59af1d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   SyncText(SyncText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6022 };
 
   /// @brief Field _otherTextComponent, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ____otherTextComponent;

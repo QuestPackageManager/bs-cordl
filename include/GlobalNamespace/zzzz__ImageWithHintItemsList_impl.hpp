@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ImageWithHintItemsList.hpp"
+// IWYU pragma private; include "GlobalNamespace\ImageWithHintItemsList.hpp"
 #include "HMUI/zzzz__UIItemsList_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ImageWithHintItemsList_def.hpp"
 #include "HMUI/zzzz__ImageWithHint_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ImageWithHintItemsList::*)()>(&::GlobalNamespace::ImageWithHintItemsList::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59f9d04;
+  constexpr static std::size_t addrs = 0x5a01dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ImageWithHintItemsList*>(), { ".ctor", {}, {} })));

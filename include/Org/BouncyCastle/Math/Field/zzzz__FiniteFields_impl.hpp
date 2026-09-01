@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/Field/FiniteFields.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\Field\FiniteFields.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__FiniteFields_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* (*)(::ArrayW<int32_t>)>(
     &::Org::BouncyCastle::Math::Field::FiniteFields::GetBinaryExtensionField)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x352eabc;
+  constexpr static std::size_t addrs = 0x353287c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::Field::IFiniteField* (*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Field::FiniteFields::GetPrimeField)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x352ecac;
+  constexpr static std::size_t addrs = 0x3532a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::Field::FiniteFields::*)()>(&::Org::BouncyCastle::Math::Field::FiniteFields::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x352ef00;
+  constexpr static std::size_t addrs = 0x3532cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Field::FiniteFields*>(), { ".ctor", {}, {} })));

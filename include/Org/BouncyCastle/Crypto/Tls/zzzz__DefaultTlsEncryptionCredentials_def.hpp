@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DefaultTlsEncryptionCredentials.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\DefaultTlsEncryptionCredentials.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
   /// @brief Field mPrivateKey, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_mPrivateKey, put = __cordl_internal_set_mPrivateKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mPrivateKey;
 
-  /// @brief Method DecryptPreMasterSecret, addr 0x343c158, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DecryptPreMasterSecret, addr 0x343ff18, size 0x9c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DecryptPreMasterSecret(::ArrayW<uint8_t> encryptedPreMasterSecret);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials*
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_mPrivateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x343bf30, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x343fcf0, size 0x220, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method get_Certificate, addr 0x343c150, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x343ff10, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
 protected:

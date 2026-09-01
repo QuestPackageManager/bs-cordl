@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLight.hpp"
+// IWYU pragma private; include "GlobalNamespace\TubeBloomPrePassLight.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -225,33 +225,33 @@ public:
 
   __declspec(property(get = get_width, put = set_width)) float_t width;
 
-  /// @brief Method Awake, addr 0x5868a10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58679b4, size 0x14, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DidRegisterLight, addr 0x5868a44, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DidRegisterLight, addr 0x58679e8, size 0x1c, virtual true, abstract: false, final false
   inline void DidRegisterLight();
 
-  /// @brief Method FillInputData, addr 0x5868e90, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method FillInputData, addr 0x5867e34, size 0x138, virtual true, abstract: false, final false
   inline void FillInputData(::by_ref<int32_t> lightNum, ::ArrayW<::GlobalNamespace::BloomPrePassRendererSO_InputData> inputData);
 
-  /// @brief Method InitIfNeeded, addr 0x58686f4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x5867698, size 0x150, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method MarkDirty, addr 0x58688e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkDirty, addr 0x5867884, size 0xc, virtual false, abstract: false, final false
   inline void MarkDirty();
 
-  /// @brief Method NeedsRefresh, addr 0x5868a60, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NeedsRefresh, addr 0x5867a04, size 0x6c, virtual false, abstract: false, final false
   inline bool NeedsRefresh();
 
   static inline ::GlobalNamespace::TubeBloomPrePassLight* New_ctor();
 
-  /// @brief Method OnDrawGizmos, addr 0x5868fc8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmos, addr 0x5867f6c, size 0x16c, virtual false, abstract: false, final false
   inline void OnDrawGizmos();
 
-  /// @brief Method OnEnable, addr 0x5868a24, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x58679c8, size 0x20, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x5868acc, size 0x3c4, virtual true, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5867a70, size 0x3c4, virtual true, abstract: false, final false
   inline void Refresh();
 
   constexpr bool const& __cordl_internal_get__addWidthToLength() const;
@@ -548,76 +548,76 @@ public:
 
   constexpr void __cordl_internal_set_didRefreshEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5869134, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58680d8, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didRefreshEvent, addr 0x5868530, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didRefreshEvent, addr 0x58674d4, size 0xac, virtual false, abstract: false, final false
   inline void add_didRefreshEvent(::System::Action* value);
 
-  /// @brief Method get_bloomFogIntensityMultiplier, addr 0x5868944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bloomFogIntensityMultiplier, addr 0x58678e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bloomFogIntensityMultiplier();
 
-  /// @brief Method get_calculatedCollisionLength, addr 0x58688bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_calculatedCollisionLength, addr 0x5867860, size 0x24, virtual false, abstract: false, final false
   inline float_t get_calculatedCollisionLength();
 
-  /// @brief Method get_center, addr 0x5868698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x586763c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_center();
 
-  /// @brief Method get_collisionEndAlpha, addr 0x586885c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_collisionEndAlpha, addr 0x5867800, size 0x60, virtual false, abstract: false, final false
   inline float_t get_collisionEndAlpha();
 
-  /// @brief Method get_collisionLength, addr 0x5868844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collisionLength, addr 0x58677e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_collisionLength();
 
-  /// @brief Method get_color, addr 0x5868a04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x58679a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_colorAlphaMultiplier, addr 0x5868690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorAlphaMultiplier, addr 0x5867634, size 0x8, virtual false, abstract: false, final false
   inline float_t get_colorAlphaMultiplier();
 
-  /// @brief Method get_enabledRenderers, addr 0x5868688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabledRenderers, addr 0x586762c, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabledRenderers();
 
-  /// @brief Method get_length, addr 0x58688ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x5867890, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
-  /// @brief Method get_lightWidthMultiplier, addr 0x5868934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightWidthMultiplier, addr 0x58678d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lightWidthMultiplier();
 
-  /// @brief Method get_startAlpha, addr 0x586891c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startAlpha, addr 0x58678c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startAlpha();
 
-  /// @brief Method get_useCollision, addr 0x58686a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCollision, addr 0x5867644, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCollision();
 
-  /// @brief Method get_width, addr 0x5868904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x58678a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
-  /// @brief Method remove_didRefreshEvent, addr 0x58685dc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didRefreshEvent, addr 0x5867580, size 0xac, virtual false, abstract: false, final false
   inline void remove_didRefreshEvent(::System::Action* value);
 
-  /// @brief Method set_bloomFogIntensityMultiplier, addr 0x586894c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bloomFogIntensityMultiplier, addr 0x58678f0, size 0x8, virtual false, abstract: false, final false
   inline void set_bloomFogIntensityMultiplier(float_t value);
 
-  /// @brief Method set_collisionLength, addr 0x586884c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_collisionLength, addr 0x58677f0, size 0x10, virtual false, abstract: false, final false
   inline void set_collisionLength(float_t value);
 
-  /// @brief Method set_color, addr 0x5868954, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x58678f8, size 0xb0, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_length, addr 0x58688f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_length, addr 0x5867898, size 0x10, virtual false, abstract: false, final false
   inline void set_length(float_t value);
 
-  /// @brief Method set_lightWidthMultiplier, addr 0x586893c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightWidthMultiplier, addr 0x58678e0, size 0x8, virtual false, abstract: false, final false
   inline void set_lightWidthMultiplier(float_t value);
 
-  /// @brief Method set_startAlpha, addr 0x5868924, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_startAlpha, addr 0x58678c8, size 0x10, virtual false, abstract: false, final false
   inline void set_startAlpha(float_t value);
 
-  /// @brief Method set_useCollision, addr 0x58686a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_useCollision, addr 0x586764c, size 0x4c, virtual false, abstract: false, final false
   inline void set_useCollision(bool value);
 
-  /// @brief Method set_width, addr 0x586890c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x58678b0, size 0x10, virtual false, abstract: false, final false
   inline void set_width(float_t value);
 
 protected:
@@ -635,7 +635,7 @@ public:
   TubeBloomPrePassLight(TubeBloomPrePassLight const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19489 };
 
   /// @brief Field _mainEffectPostProcessEnabled, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____mainEffectPostProcessEnabled;

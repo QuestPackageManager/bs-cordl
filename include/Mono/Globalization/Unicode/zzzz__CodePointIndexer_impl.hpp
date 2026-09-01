@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Globalization/Unicode/CodePointIndexer.hpp"
+// IWYU pragma private; include "Mono\Globalization\Unicode\CodePointIndexer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::CodePointIndexer_TableRange::*)(int32_t, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::CodePointIndexer_TableRange::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5aac24c;
+  constexpr static std::size_t addrs = 0x5ab0708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Globalization::Unicode::CodePointIndexer_TableRange>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Globalization::Unicode::CodePointIndexer::*)(::ArrayW<int32_t>, ::ArrayW<int32_t>, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::CodePointIndexer::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5aac104;
+  constexpr static std::size_t addrs = 0x5ab05c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Globalization::Unicode::CodePointIndexer::*)(int32_t)>(&::Mono::Globalization::Unicode::CodePointIndexer::ToIndex)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5aac264;
+  constexpr static std::size_t addrs = 0x5ab0720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

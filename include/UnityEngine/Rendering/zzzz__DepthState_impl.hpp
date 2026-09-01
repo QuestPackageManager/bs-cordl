@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DepthState.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DepthState.hpp"
 #include "UnityEngine/Rendering/zzzz__DepthState_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DepthState (*)()>(&::UnityEngine::Rendering::DepthState::get_defaultValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b18ff8;
+  constexpr static std::size_t addrs = 0x6b20b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DepthState>(), { "get_defaultValue", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DepthState::*)(bool, ::UnityEngine::Rendering::CompareFunction)>(&::UnityEngine::Rendering::DepthState::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b1901c;
+  constexpr static std::size_t addrs = 0x6b20ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DepthState>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CompareFunction (::UnityEngine::Rendering::DepthState::*)()>(
     &::UnityEngine::Rendering::DepthState::get_compareFunction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1908c;
+  constexpr static std::size_t addrs = 0x6b20c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DepthState>(), { "get_compareFunction", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DepthState::*)(::UnityEngine::Rendering::DepthState)>(&::UnityEngine::Rendering::DepthState::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b19094;
+  constexpr static std::size_t addrs = 0x6b20c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DepthState::*)(::System::Object*)>(&::UnityEngine::Rendering::DepthState::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b190bc;
+  constexpr static std::size_t addrs = 0x6b20c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DepthState::*)()>(&::UnityEngine::Rendering::DepthState::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b19148;
+  constexpr static std::size_t addrs = 0x6b20ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

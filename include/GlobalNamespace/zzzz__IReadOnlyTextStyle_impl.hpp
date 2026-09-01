@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IReadOnlyTextStyle.hpp"
+// IWYU pragma private; include "GlobalNamespace\IReadOnlyTextStyle.hpp"
 #include "GlobalNamespace/zzzz__IReadOnlyTextStyle_def.hpp"
 #include "TMPro/zzzz__FontStyles_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IReadOnlyTextStyle.get_fontStyle

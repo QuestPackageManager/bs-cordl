@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BlueNoiseDitheringUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace\BlueNoiseDitheringUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,18 +40,18 @@ public:
   /// @brief Field _randomValueToShader, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__randomValueToShader, put = __cordl_internal_set__randomValueToShader)) ::UnityW<::GlobalNamespace::RandomValueToShader> _randomValueToShader;
 
-  /// @brief Method HandleCameraPreRender, addr 0x5869578, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleCameraPreRender, addr 0x586851c, size 0xc8, virtual false, abstract: false, final false
   inline void HandleCameraPreRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method Init, addr 0x58693e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5868384, size 0x18, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IRandom* random);
 
   static inline ::GlobalNamespace::BlueNoiseDitheringUpdater* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x58694d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5868474, size 0xa8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x58693f8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x586839c, size 0xd8, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::BlueNoiseDithering> const& __cordl_internal_get__blueNoiseDithering() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__randomValueToShader(::UnityW<::GlobalNamespace::RandomValueToShader> value);
 
-  /// @brief Method .ctor, addr 0x5869764, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5868708, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   BlueNoiseDitheringUpdater(BlueNoiseDitheringUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19491 };
 
   /// @brief Field _blueNoiseDithering, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BlueNoiseDithering> ____blueNoiseDithering;

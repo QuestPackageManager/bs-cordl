@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BitArray256.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BitArray256.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,61 +43,61 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IBitArray"
   constexpr operator ::UnityEngine::Rendering::IBitArray*();
 
-  /// @brief Method BitAnd, addr 0x67b0650, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method BitAnd, addr 0x67b80cc, size 0xa4, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IBitArray* BitAnd(::UnityEngine::Rendering::IBitArray* other);
 
-  /// @brief Method BitNot, addr 0x67b0798, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method BitNot, addr 0x67b8214, size 0x68, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IBitArray* BitNot();
 
-  /// @brief Method BitOr, addr 0x67b06f4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method BitOr, addr 0x67b8170, size 0xa4, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IBitArray* BitOr(::UnityEngine::Rendering::IBitArray* other);
 
-  /// @brief Method Equals, addr 0x67b0898, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x67b8314, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x67b0944, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67b83c0, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x67b04ec, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b7f68, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<uint32_t>* bitIndexTrue);
 
-  /// @brief Method .ctor, addr 0x67b04e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b7f5c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t initValue1, uint64_t initValue2, uint64_t initValue3, uint64_t initValue4);
 
-  /// @brief Method get_Item, addr 0x67b0398, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x67b7e14, size 0x44, virtual true, abstract: false, final true
   inline bool get_Item(uint32_t index);
 
-  /// @brief Method get_allFalse, addr 0x67aff50, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_allFalse, addr 0x67b79cc, size 0x30, virtual true, abstract: false, final true
   inline bool get_allFalse();
 
-  /// @brief Method get_allTrue, addr 0x67aff80, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_allTrue, addr 0x67b79fc, size 0x3c, virtual true, abstract: false, final true
   inline bool get_allTrue();
 
-  /// @brief Method get_capacity, addr 0x67aff48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_capacity, addr 0x67b79c4, size 0x8, virtual true, abstract: false, final true
   inline uint32_t get_capacity();
 
-  /// @brief Method get_humanizedData, addr 0x67affbc, size 0x3dc, virtual true, abstract: false, final true
+  /// @brief Method get_humanizedData, addr 0x67b7a38, size 0x3dc, virtual true, abstract: false, final true
   inline ::StringW get_humanizedData();
 
   /// @brief Convert to "::UnityEngine::Rendering::IBitArray"
   constexpr ::UnityEngine::Rendering::IBitArray* i___UnityEngine__Rendering__IBitArray();
 
-  /// @brief Method op_BitwiseAnd, addr 0x67b0638, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x67b80b4, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BitArray256 op_BitwiseAnd(::UnityEngine::Rendering::BitArray256 a, ::UnityEngine::Rendering::BitArray256 b);
 
-  /// @brief Method op_BitwiseOr, addr 0x67b0620, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x67b809c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BitArray256 op_BitwiseOr(::UnityEngine::Rendering::BitArray256 a, ::UnityEngine::Rendering::BitArray256 b);
 
-  /// @brief Method op_Equality, addr 0x67b0800, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x67b827c, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::BitArray256 a, ::UnityEngine::Rendering::BitArray256 b);
 
-  /// @brief Method op_Inequality, addr 0x67b084c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x67b82c8, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::BitArray256 a, ::UnityEngine::Rendering::BitArray256 b);
 
-  /// @brief Method op_OnesComplement, addr 0x67b060c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_OnesComplement, addr 0x67b8088, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BitArray256 op_OnesComplement(::UnityEngine::Rendering::BitArray256 a);
 
-  /// @brief Method set_Item, addr 0x67b0418, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x67b7e94, size 0x20, virtual true, abstract: false, final true
   inline void set_Item(uint32_t index, bool value);
 
   // Ctor Parameters []
@@ -109,7 +109,7 @@ public:
   constexpr BitArray256(uint64_t data1, uint64_t data2, uint64_t data3, uint64_t data4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12263 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

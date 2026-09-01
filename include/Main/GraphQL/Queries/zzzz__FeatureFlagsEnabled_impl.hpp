@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Main/GraphQL/Queries/FeatureFlagsEnabled.hpp"
+// IWYU pragma private; include "Main\GraphQL\Queries\FeatureFlagsEnabled.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLQueryOperation_impl.hpp"
 #include "Main/GraphQL/Queries/zzzz__FeatureFlagsEnabled_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::Main::GraphQL::Queries::FeatureFlagsEnabled::*)()>(
     &::Main::GraphQL::Queries::FeatureFlagsEnabled::GetVariableNames)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x32876e4;
+  constexpr static std::size_t addrs = 0x328b47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Main::GraphQL::Queries::FeatureFlagsEnabled::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::Main::GraphQL::Queries::FeatureFlagsEnabled::set_Features)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32877e0;
+  constexpr static std::size_t addrs = 0x328b578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Main::GraphQL::Queries::FeatureFlagsEnabled*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::Main::GraphQL::Queries::FeatureFlagsEnabled::*)()>(
     &::Main::GraphQL::Queries::FeatureFlagsEnabled::get_Features)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3287860;
+  constexpr static std::size_t addrs = 0x328b5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Main::GraphQL::Queries::FeatureFlagsEnabled*>(), { "get_Features", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Main::GraphQL::Queries::FeatureFlagsEnabled::*)()>(&::Main::GraphQL::Queries::FeatureFlagsEnabled::GetPersistedQueryID)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3287920;
+  constexpr static std::size_t addrs = 0x328b6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Main::GraphQL::Queries::FeatureFlagsEnabled::*)()>(&::Main::GraphQL::Queries::FeatureFlagsEnabled::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3287934;
+  constexpr static std::size_t addrs = 0x328b6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Main::GraphQL::Queries::FeatureFlagsEnabled*>(), { ".ctor", {}, {} })));

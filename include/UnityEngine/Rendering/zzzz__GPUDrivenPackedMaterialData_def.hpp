@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenPackedMaterialData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenPackedMaterialData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,19 +26,19 @@ public:
 
   __declspec(property(get = get_isTransparent)) bool isTransparent;
 
-  /// @brief Method Equals, addr 0x6b251c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b2cd4c, size 0x14, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::Rendering::GPUDrivenPackedMaterialData other);
 
-  /// @brief Method .ctor, addr 0x6b251c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b2cd44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isIndirectSupported, addr 0x6b251b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isIndirectSupported, addr 0x6b2cd38, size 0xc, virtual false, abstract: false, final false
   inline bool get_isIndirectSupported();
 
-  /// @brief Method get_isMotionVectorsPassEnabled, addr 0x6b251a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isMotionVectorsPassEnabled, addr 0x6b2cd2c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isMotionVectorsPassEnabled();
 
-  /// @brief Method get_isTransparent, addr 0x6b2519c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isTransparent, addr 0x6b2cd20, size 0xc, virtual false, abstract: false, final false
   inline bool get_isTransparent();
 
   // Ctor Parameters []
@@ -49,7 +49,7 @@ public:
   constexpr GPUDrivenPackedMaterialData(uint32_t data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10886 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

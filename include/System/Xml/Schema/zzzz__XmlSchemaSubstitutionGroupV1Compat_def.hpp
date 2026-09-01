@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSubstitutionGroupV1Compat.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSubstitutionGroupV1Compat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_choice(::System::Xml::Schema::XmlSchemaChoice* value);
 
-  /// @brief Method .ctor, addr 0x62348bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x623c338, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Choice, addr 0x62348b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Choice, addr 0x623c330, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaChoice* get_Choice();
 
 protected:
@@ -56,7 +56,7 @@ public:
   XmlSchemaSubstitutionGroupV1Compat(XmlSchemaSubstitutionGroupV1Compat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9820 };
 
   /// @brief Field choice, offset: 0x48, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaChoice* ___choice;

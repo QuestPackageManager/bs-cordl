@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering/CalculateRmsBlockJob.hpp"
+// IWYU pragma private; include "LufsMetering\CalculateRmsBlockJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "LufsMetering/zzzz__CalculateRmsBlockJob_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LufsMetering::CalculateRmsBlockJob (*)(::Unity::Collections::NativeArray_1<float_t>)>(&::LufsMetering::CalculateRmsBlockJob::Create)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3264d04;
+  constexpr static std::size_t addrs = 0x326809c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LufsMetering::CalculateRmsBlockJob::*)()>(&::LufsMetering::CalculateRmsBlockJob::Execute)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3264d10;
+  constexpr static std::size_t addrs = 0x32680a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LufsMetering::CalculateRmsBlockJob>(), { "Execute", {}, {} })));

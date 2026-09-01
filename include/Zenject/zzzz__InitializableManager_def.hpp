@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/InitializableManager.hpp"
+// IWYU pragma private; include "Zenject\InitializableManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,13 +86,13 @@ public:
 
   constexpr void __cordl_internal_set_Priority(int32_t value);
 
-  /// @brief Method __zenCreate, addr 0x6e8b0c4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e92c48, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8b1b8, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e92d3c, size 0x2c8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e8a7d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e92354, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IInitializable* initializable, int32_t priority);
 
 protected:
@@ -110,7 +110,7 @@ public:
   InitializableManager_InitializableInfo(InitializableManager_InitializableInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14671 };
 
   /// @brief Field Initializable, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IInitializable* ___Initializable;
@@ -146,19 +146,19 @@ public:
 
   static inline ::Zenject::InitializableManager___c* New_ctor();
 
-  /// @brief Method <Initialize>b__5_0, addr 0x6e8b4ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__5_0, addr 0x6e93070, size 0x14, virtual false, abstract: false, final false
   inline int32_t _Initialize_b__5_0(::Zenject::InitializableManager_InitializableInfo* x);
 
-  /// @brief Method <.ctor>b__2_1, addr 0x6e8b4d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_1, addr 0x6e9305c, size 0x14, virtual false, abstract: false, final false
   inline int32_t __ctor_b__2_1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x6e8b500, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e93084, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8b544, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e930c8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e8b4d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e93058, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::InitializableManager___c* getStaticF___9();
@@ -188,7 +188,7 @@ public:
   InitializableManager___c(InitializableManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14672 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -214,16 +214,16 @@ public:
 
   constexpr void __cordl_internal_set_initializable(::Zenject::IInitializable* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x6e8b6d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x6e9325c, size 0x90, virtual false, abstract: false, final false
   inline bool __ctor_b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x6e8b768, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e932ec, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8b7ac, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e93330, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e8a7cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e92350, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -241,7 +241,7 @@ public:
   InitializableManager___c__DisplayClass2_0(InitializableManager___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14673 };
 
   /// @brief Field initializable, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IInitializable* ___initializable;
@@ -274,13 +274,13 @@ public:
   __declspec(property(get = __cordl_internal_get__initializables,
                       put = __cordl_internal_set__initializables)) ::System::Collections::Generic::List_1<::Zenject::InitializableManager_InitializableInfo*>* _initializables;
 
-  /// @brief Method Add, addr 0x6e8a7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6e92360, size 0x8, virtual false, abstract: false, final false
   inline void Add(::Zenject::IInitializable* initializable);
 
-  /// @brief Method Add, addr 0x6e8a7e4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6e92368, size 0xf8, virtual false, abstract: false, final false
   inline void Add(::Zenject::IInitializable* initializable, int32_t priority);
 
-  /// @brief Method Initialize, addr 0x6e8a8dc, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6e92460, size 0x3e4, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::Zenject::InitializableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
@@ -298,13 +298,13 @@ public:
 
   constexpr void __cordl_internal_set__initializables(::System::Collections::Generic::List_1<::Zenject::InitializableManager_InitializableInfo*>* value);
 
-  /// @brief Method __zenCreate, addr 0x6e8acc0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e92844, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8ade4, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e92968, size 0x2e0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e8a3c8, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e91f4c, size 0x404, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
@@ -323,7 +323,7 @@ public:
   InitializableManager(InitializableManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14674 };
 
   /// @brief Field _initializables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::InitializableManager_InitializableInfo*>* ____initializables;

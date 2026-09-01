@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/NetworkBootstrapperUtils.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\NetworkBootstrapperUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__NetworkBootstrapperUtils_def.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__ColocationFailedReason_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo, ::by_ref<::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperParams>)>(
     &::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils::SetEntitlementIds)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5a6e0d0;
+  constexpr static std::size_t addrs = 0x5a7258c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils*>(),
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Meta:
                                                                 ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(
     &::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils::SetUpAndStartAutomaticColocation)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x5a6e110;
+  constexpr static std::size_t addrs = 0x5a725cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::ColocationFailedReason)>(
     &::Meta::XR::MultiplayerBlocks::Shared::NetworkBootstrapperUtils::OnColocationFailed)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a6e7e0;
+  constexpr static std::size_t addrs = 0x5a72c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/AspTypePropertyAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\AspTypePropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__CreateConstructorReferences_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6e366d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e25c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool createConstructorReferences);
 
-  /// @brief Method get_CreateConstructorReferences, addr 0x6e366c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateConstructorReferences, addr 0x6e3e24c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateConstructorReferences();
 
-  /// @brief Method set_CreateConstructorReferences, addr 0x6e366d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CreateConstructorReferences, addr 0x6e3e254, size 0x8, virtual false, abstract: false, final false
   inline void set_CreateConstructorReferences(bool value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   AspTypePropertyAttribute(AspTypePropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22601 };
 
   /// @brief Field <CreateConstructorReferences>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____CreateConstructorReferences_k__BackingField;

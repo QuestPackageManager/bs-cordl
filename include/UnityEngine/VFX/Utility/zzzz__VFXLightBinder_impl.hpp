@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXLightBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXLightBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXLightBinder_def.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__ExposedProperty_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXLightBinder::*)()>(&::UnityEngine::VFX::Utility::VFXLightBinder::get_ColorProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69dd8f4;
+  constexpr static std::size_t addrs = 0x69e5370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXLightBinder*>(), { "get_ColorProperty", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXLightBinder::*)(::StringW)>(&::UnityEngine::VFX::Utility::VFXLightBinder::set_ColorProperty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69dd90c;
+  constexpr static std::size_t addrs = 0x69e5388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXLightBinder::*)()>(&::UnityEngine::VFX::Utility::VFXLightBinder::get_BrightnessProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69dd92c;
+  constexpr static std::size_t addrs = 0x69e53a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXLightBinder*>(), { "get_BrightnessProperty", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXLightBinder::*)(::StringW)>(&::UnityEngine::VFX::Utility::VFXLightBinder::set_BrightnessProperty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69dd944;
+  constexpr static std::size_t addrs = 0x69e53c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXLightBinder::*)()>(&::UnityEngine::VFX::Utility::VFXLightBinder::get_RadiusProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69dd964;
+  constexpr static std::size_t addrs = 0x69e53e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXLightBinder*>(), { "get_RadiusProperty", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXLightBinder::*)(::StringW)>(&::UnityEngine::VFX::Utility::VFXLightBinder::set_RadiusProperty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69dd97c;
+  constexpr static std::size_t addrs = 0x69e53f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXLightBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXLightBinder::IsValid)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x69dd99c;
+  constexpr static std::size_t addrs = 0x69e5418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXLightBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXLightBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x69ddabc;
+  constexpr static std::size_t addrs = 0x69e5538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXLightBinder::*)()>(&::UnityEngine::VFX::Utility::VFXLightBinder::ToString)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x69ddbec;
+  constexpr static std::size_t addrs = 0x69e5668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXLightBinder::*)()>(&::UnityEngine::VFX::Utility::VFXLightBinder::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x69ddcec;
+  constexpr static std::size_t addrs = 0x69e5768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXLightBinder*>(), { ".ctor", {}, {} })));

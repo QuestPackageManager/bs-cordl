@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/HybridObjectCache.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\HybridObjectCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,18 +34,18 @@ public:
   __declspec(property(get = __cordl_internal_get_referencedObjectDictionary,
                       put = __cordl_internal_set_referencedObjectDictionary)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* referencedObjectDictionary;
 
-  /// @brief Method Add, addr 0x614fbc8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6157644, size 0x1a4, virtual false, abstract: false, final false
   inline void Add(::StringW id, ::System::Object* obj);
 
-  /// @brief Method GetObject, addr 0x614fde4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetObject, addr 0x6157860, size 0x170, virtual false, abstract: false, final false
   inline ::System::Object* GetObject(::StringW id);
 
-  /// @brief Method IsObjectReferenced, addr 0x614ff54, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsObjectReferenced, addr 0x61579d0, size 0x78, virtual false, abstract: false, final false
   inline bool IsObjectReferenced(::StringW id);
 
   static inline ::System::Runtime::Serialization::HybridObjectCache* New_ctor();
 
-  /// @brief Method Remove, addr 0x614fd74, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x61577f0, size 0x70, virtual false, abstract: false, final false
   inline void Remove(::StringW id);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* const& __cordl_internal_get_objectDictionary() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_referencedObjectDictionary(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x614fbc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6157640, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   HybridObjectCache(HybridObjectCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17049 };
 
   /// @brief Field objectDictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* ___objectDictionary;

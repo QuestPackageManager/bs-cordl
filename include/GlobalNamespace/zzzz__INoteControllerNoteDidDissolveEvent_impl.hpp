@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/INoteControllerNoteDidDissolveEvent.hpp"
+// IWYU pragma private; include "GlobalNamespace\INoteControllerNoteDidDissolveEvent.hpp"
 #include "GlobalNamespace/zzzz__INoteControllerNoteDidDissolveEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::INoteControllerNoteDidDissolveEvent.HandleNoteControllerNoteDidDissolve

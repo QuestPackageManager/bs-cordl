@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PersistentAudioNoiseController.hpp"
+// IWYU pragma private; include "GlobalNamespace\PersistentAudioNoiseController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,19 +47,19 @@ public:
   __declspec(property(get = __cordl_internal_get__shaderWarmupScenesTransitionSetupData,
                       put = __cordl_internal_set__shaderWarmupScenesTransitionSetupData)) ::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* _shaderWarmupScenesTransitionSetupData;
 
-  /// @brief Method HandleTransitionDidFinish, addr 0x58ba1fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleTransitionDidFinish, addr 0x58b9b64, size 0x64, virtual false, abstract: false, final false
   inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupData* transitionSetupData,
                                         ::Zenject::DiContainer* diContainer);
 
   static inline ::GlobalNamespace::PersistentAudioNoiseController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58ba0e8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58b9a50, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnValidate, addr 0x58ba260, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x58b9bc8, size 0xe8, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Start, addr 0x58ba058, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58b99c0, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__shaderWarmupScenesTransitionSetupData(::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x58ba348, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b9cb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/DefaultGameObjectParentInstaller.hpp"
+// IWYU pragma private; include "Zenject\DefaultGameObjectParentInstaller.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "Zenject/zzzz__DefaultGameObjectParentInstaller_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer::*)(::UnityEngine::GameObject*)>(
     &::Zenject::DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e93f50;
+  constexpr static std::size_t addrs = 0x6e9bad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer::*)()>(
     &::Zenject::DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e93f58;
+  constexpr static std::size_t addrs = 0x6e9badc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer::__zenCreate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6e93fb8;
+  constexpr static std::size_t addrs = 0x6e9bb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer*>(),
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::DefaultGameObjectParentInstaller_DefaultParentObjectDestroyer::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x6e94054;
+  constexpr static std::size_t addrs = 0x6e9bbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DefaultGameObjectParentInstaller::*)(::StringW)>(&::Zenject::DefaultGameObjectParentInstaller::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e93aac;
+  constexpr static std::size_t addrs = 0x6e9b630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DefaultGameObjectParentInstaller::*)()>(&::Zenject::DefaultGameObjectParentInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6e93afc;
+  constexpr static std::size_t addrs = 0x6e9b680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::DefaultGameObjectParentInstaller::__zenCreate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e93c5c;
+  constexpr static std::size_t addrs = 0x6e9b7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::DefaultGameObjectParentInstaller::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6e93d1c;
+  constexpr static std::size_t addrs = 0x6e9b8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DefaultGameObjectParentInstaller*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

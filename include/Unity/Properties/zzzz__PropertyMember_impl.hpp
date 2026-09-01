@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/PropertyMember.hpp"
+// IWYU pragma private; include "Unity\Properties\PropertyMember.hpp"
 #include "Unity/Properties/zzzz__PropertyMember_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PropertyMember::*)()>(&::Unity::Properties::PropertyMember::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b9a164;
+  constexpr static std::size_t addrs = 0x6ba1ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyMember>(), { "get_Name", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PropertyMember::*)()>(&::Unity::Properties::PropertyMember::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6b9a16c;
+  constexpr static std::size_t addrs = 0x6ba1cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyMember>(), { "get_IsReadOnly", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Unity::Properties::PropertyMember::*)()>(&::Unity::Properties::PropertyMember::get_ValueType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b9a19c;
+  constexpr static std::size_t addrs = 0x6ba1d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyMember>(), { "get_ValueType", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyMember::*)(::System::Reflection::PropertyInfo*)>(&::Unity::Properties::PropertyMember::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b9a1bc;
+  constexpr static std::size_t addrs = 0x6ba1d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Properties::PropertyMember::*)(::System::Object*)>(&::Unity::Properties::PropertyMember::GetValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b9a1dc;
+  constexpr static std::size_t addrs = 0x6ba1d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyMember::*)(::System::Object*, ::System::Object*)>(&::Unity::Properties::PropertyMember::SetValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b9a200;
+  constexpr static std::size_t addrs = 0x6ba1d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* (::Unity::Properties::PropertyMember::*)()>(
     &::Unity::Properties::PropertyMember::GetCustomAttributes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b9a224;
+  constexpr static std::size_t addrs = 0x6ba1da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyMember>(), { "GetCustomAttributes", {}, {} })));

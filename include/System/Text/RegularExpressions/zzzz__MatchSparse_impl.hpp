@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/MatchSparse.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\MatchSparse.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__MatchSparse_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::MatchSparse::*)(
     ::System::Text::RegularExpressions::Regex*, ::System::Collections::Hashtable*, int32_t, ::StringW, int32_t, int32_t, int32_t)>(&::System::Text::RegularExpressions::MatchSparse::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6377604;
+  constexpr static std::size_t addrs = 0x637f080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::RegularExpressions::GroupCollection* (::System::Text::RegularExpressions::MatchSparse::*)()>(
     &::System::Text::RegularExpressions::MatchSparse::get_Groups)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63776b8;
+  constexpr static std::size_t addrs = 0x637f134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

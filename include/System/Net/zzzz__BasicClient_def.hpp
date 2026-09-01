@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/BasicClient.hpp"
+// IWYU pragma private; include "System\Net\BasicClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,24 +39,24 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x6420540, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x6427fbc, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method GetBytes, addr 0x6420900, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x642837c, size 0xbc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetBytes(::StringW str);
 
-  /// @brief Method InternalAuthenticate, addr 0x64205f4, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method InternalAuthenticate, addr 0x6428070, size 0x30c, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* InternalAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::System::Net::BasicClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x64209bc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x6428438, size 0xc, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method .ctor, addr 0x641fa80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64274fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AuthenticationType, addr 0x64209c8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x6428444, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"
@@ -77,7 +77,7 @@ public:
   BasicClient(BasicClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

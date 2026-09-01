@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataPersonalBestSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeDataPersonalBestSO.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataPersonalBestSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerBadgeAwardData* (
     ::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, ::GlobalNamespace::PlayerDataModel*,
                                                               ::by_ref<::GlobalNamespace::BeatmapKey>, float_t)>(&::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::CalculateBadgeData)> {
-  constexpr static std::size_t size = 0x55c;
-  constexpr static std::size_t addrs = 0x372efcc;
+  constexpr static std::size_t size = 0x560;
+  constexpr static std::size_t addrs = 0x3734c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO*>(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::*)()>(&::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x372f620;
+  constexpr static std::size_t addrs = 0x3735190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixNameConstraintValidatorException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixNameConstraintValidatorException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixNameConstraintValidatorException_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException::*)(::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35da604;
+  constexpr static std::size_t addrs = 0x35de3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

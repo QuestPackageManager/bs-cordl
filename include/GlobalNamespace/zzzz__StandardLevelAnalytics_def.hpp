@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StandardLevelAnalytics.hpp"
+// IWYU pragma private; include "GlobalNamespace\StandardLevelAnalytics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,16 +49,16 @@ public:
   __declspec(property(get = __cordl_internal_get__standardLevelScenesTransitionSetupData,
                       put = __cordl_internal_set__standardLevelScenesTransitionSetupData)) ::GlobalNamespace::StandardLevelScenesTransitionSetupData* _standardLevelScenesTransitionSetupData;
 
-  /// @brief Method HandleStandardLevelDidFinishEvent, addr 0x58b414c, size 0x934, virtual false, abstract: false, final false
+  /// @brief Method HandleStandardLevelDidFinishEvent, addr 0x58b3ab0, size 0x938, virtual false, abstract: false, final false
   inline void HandleStandardLevelDidFinishEvent(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransitionSetupData,
                                                 ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::StandardLevelAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58b40bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58b3a20, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58b402c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58b3990, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelScenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x58b4a80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b43e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

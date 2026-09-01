@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/PointGenerator.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\PointGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor();
 
-  /// @brief Method UniformDistribution, addr 0x66aa73c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method UniformDistribution, addr 0x66b21b8, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t n, double_t scale);
 
-  /// @brief Method UniformGrid, addr 0x66aa908, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method UniformGrid, addr 0x66b2384, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t n, double_t scale);
 
-  /// @brief Method .ctor, addr 0x66aaa94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66b2510, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Random* getStaticF_RNG();
@@ -63,7 +63,7 @@ public:
   PointGenerator(PointGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21783 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

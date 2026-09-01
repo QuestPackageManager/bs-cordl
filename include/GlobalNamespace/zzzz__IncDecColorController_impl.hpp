@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IncDecColorController.hpp"
+// IWYU pragma private; include "GlobalNamespace\IncDecColorController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__IncDecColorController_def.hpp"
 #include "GlobalNamespace/zzzz__ColorStepValuePicker_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IncDecColorController::*)(bool)>(&::GlobalNamespace::IncDecColorController::set_enableDec)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a2aedc;
+  constexpr static std::size_t addrs = 0x5a2f344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IncDecColorController::*)(bool)>(&::GlobalNamespace::IncDecColorController::set_enableInc)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a2af04;
+  constexpr static std::size_t addrs = 0x5a2f36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IncDecColorController::*)(::UnityEngine::Color)>(&::GlobalNamespace::IncDecColorController::set_color)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a2af2c;
+  constexpr static std::size_t addrs = 0x5a2f394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IncDecColorController::*)()>(&::GlobalNamespace::IncDecColorController::Awake)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5a2af58;
+  constexpr static std::size_t addrs = 0x5a2f3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IncDecColorController::*)()>(&::GlobalNamespace::IncDecColorController::OnDestroy)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5a2b074;
+  constexpr static std::size_t addrs = 0x5a2f4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IncDecColorController*>(), { "OnDestroy", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IncDecColorController::*)()>(&::GlobalNamespace::IncDecColorController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a2b1e0;
+  constexpr static std::size_t addrs = 0x5a2f648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IncDecColorController*>(), { ".ctor", {}, {} })));

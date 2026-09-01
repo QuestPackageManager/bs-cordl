@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crmf/PKMacBuilder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crmf\PKMacBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__PKMacBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PbmParameter_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::PKMacBuilder::*)()>(&::Org::BouncyCastle::Crmf::PKMacBuilder::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x36d8264;
+  constexpr static std::size_t addrs = 0x36dc024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::PKMacBuilder*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x36d83b8;
+  constexpr static std::size_t addrs = 0x36dc178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x36d84e0;
+  constexpr static std::size_t addrs = 0x36dc2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*, int32_t)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x36d84f8;
+  constexpr static std::size_t addrs = 0x36dc2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, int32_t, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36d83a4;
+  constexpr static std::size_t addrs = 0x36dc164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::PKMacBuilder* (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(int32_t)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::SetSaltLength)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x36d8508;
+  constexpr static std::size_t addrs = 0x36dc2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::PKMacBuilder* (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(int32_t)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::SetIterationCount)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x36d8564;
+  constexpr static std::size_t addrs = 0x36dc324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::PKMacBuilder* (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PbmParameter*)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::SetParameters)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x36d8778;
+  constexpr static std::size_t addrs = 0x36dc538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::PKMacBuilder* (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::SetSecureRandom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36d87cc;
+  constexpr static std::size_t addrs = 0x36dc58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IMacFactory* (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::ArrayW<char16_t>)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::Build)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x36d87d4;
+  constexpr static std::size_t addrs = 0x36dc594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(int32_t)>(&::Org::BouncyCastle::Crmf::PKMacBuilder::CheckIterationCountCeiling)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x36d85dc;
+  constexpr static std::size_t addrs = 0x36dc39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IMacFactory* (
     ::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PbmParameter*, ::ArrayW<char16_t>)>(&::Org::BouncyCastle::Crmf::PKMacBuilder::GenCalculator)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x36d88f0;
+  constexpr static std::size_t addrs = 0x36dc6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

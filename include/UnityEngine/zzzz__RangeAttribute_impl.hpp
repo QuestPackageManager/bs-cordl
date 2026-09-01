@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/RangeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\RangeAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__RangeAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::RangeAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RangeAttribute::*)(float_t, float_t)>(&::UnityEngine::RangeAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ad0630;
+  constexpr static std::size_t addrs = 0x6ad8048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Net/Security/AsyncProtocolResult.hpp"
+// IWYU pragma private; include "Mono\Net\Security\AsyncProtocolResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__UserResult_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5fcef14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd6990, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
-  /// @brief Method .ctor, addr 0x5fcef0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd6988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
-  /// @brief Method get_Error, addr 0x5fcef04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x5fd6980, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
 
-  /// @brief Method get_UserResult, addr 0x5fceefc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserResult, addr 0x5fd6978, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
 protected:
@@ -77,7 +77,7 @@ public:
   AsyncProtocolResult(AsyncProtocolResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11009 };
 
   /// @brief Field <UserResult>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____UserResult_k__BackingField;

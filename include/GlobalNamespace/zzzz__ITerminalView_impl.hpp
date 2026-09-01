@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ITerminalView.hpp"
+// IWYU pragma private; include "GlobalNamespace\ITerminalView.hpp"
 #include "GlobalNamespace/zzzz__ITerminalView_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ITerminalView.SetOpen
 template <>

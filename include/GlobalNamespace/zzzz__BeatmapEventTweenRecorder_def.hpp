@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapEventTweenRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapEventTweenRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   constexpr BeatmapEventTweenRecorder_EventTweens(int32_t color, int32_t rotation, int32_t translation, int32_t fx) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6595 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -105,27 +105,27 @@ public:
   __declspec(property(get = __cordl_internal_get__samples,
                       put = __cordl_internal_set__samples)) ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventTweenRecorder_EventTweens>* _samples;
 
-  /// @brief Method Begin, addr 0x58ea37c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x58ed9ac, size 0x4, virtual false, abstract: false, final false
   inline void Begin(::GlobalNamespace::BeatmapCallbacksController* callbackController);
 
-  /// @brief Method CaptureFrame, addr 0x58ea43c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x58eda6c, size 0xa4, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method ClearCallbacks, addr 0x58ea574, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ClearCallbacks, addr 0x58edba4, size 0x30, virtual false, abstract: false, final false
   inline void ClearCallbacks();
 
-  /// @brief Method Finish, addr 0x58ea4e0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x58edb10, size 0x94, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapEventTweenRecorder_EventTweens> Finish();
 
-  /// @brief Method GenerateTableReport, addr 0x58ea5a4, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x58edbd4, size 0x350, virtual false, abstract: false, final false
   static inline ::StringW GenerateTableReport(::ArrayW<::GlobalNamespace::BeatmapEventTweenRecorder_EventTweens> samples);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x58ea8f4, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x58edf24, size 0x2e4, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BeatmapEventData* data);
 
   static inline ::GlobalNamespace::BeatmapEventTweenRecorder* New_ctor(int32_t initialFrameCapacity);
 
-  /// @brief Method SetupCallbacks, addr 0x58ea380, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetupCallbacks, addr 0x58ed9b0, size 0xbc, virtual false, abstract: false, final false
   inline void SetupCallbacks(::GlobalNamespace::BeatmapCallbacksController* callbackController);
 
   constexpr ::GlobalNamespace::BeatmapEventTweenRecorder_EventTweens const& __cordl_internal_get__activeTweens() const;
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventTweenRecorder_EventTweens>* value);
 
-  /// @brief Method .ctor, addr 0x58ea2f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ed928, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialFrameCapacity);
 
 protected:
@@ -170,7 +170,7 @@ public:
   BeatmapEventTweenRecorder(BeatmapEventTweenRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6596 };
 
   /// @brief Field _samples, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventTweenRecorder_EventTweens>* ____samples;

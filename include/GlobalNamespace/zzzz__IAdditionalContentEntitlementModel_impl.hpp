@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IAdditionalContentEntitlementModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\IAdditionalContentEntitlementModel.hpp"
 #include "GlobalNamespace/zzzz__IAdditionalContentEntitlementModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"

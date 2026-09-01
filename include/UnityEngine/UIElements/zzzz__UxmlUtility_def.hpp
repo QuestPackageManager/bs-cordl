@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlUtility.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UxmlUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ParseStringListAttribute, addr 0x6cb9a9c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ParseStringListAttribute, addr 0x6cc1620, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* ParseStringListAttribute(::StringW itemList);
 
 protected:

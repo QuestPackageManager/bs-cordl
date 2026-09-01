@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/PrefabInstantiatorCached.hpp"
+// IWYU pragma private; include "Zenject\PrefabInstantiatorCached.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,10 +61,10 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabInstantiator"
   constexpr operator ::Zenject::IPrefabInstantiator*() noexcept;
 
-  /// @brief Method GetPrefab, addr 0x6e81310, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x6e88e94, size 0xa8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
-  /// @brief Method Instantiate, addr 0x6e813b8, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method Instantiate, addr 0x6e88f3c, size 0x18c, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
                                                          ::by_ref<::System::Action*> injectAction);
 
@@ -82,16 +82,16 @@ public:
 
   constexpr void __cordl_internal_set__subInstantiator(::Zenject::IPrefabInstantiator* value);
 
-  /// @brief Method .ctor, addr 0x6e81114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e88c98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IPrefabInstantiator* subInstantiator);
 
-  /// @brief Method get_ArgumentTarget, addr 0x6e811c4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_ArgumentTarget, addr 0x6e88d48, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Type* get_ArgumentTarget();
 
-  /// @brief Method get_ExtraArguments, addr 0x6e8111c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_ExtraArguments, addr 0x6e88ca0, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
 
-  /// @brief Method get_GameObjectCreationParameters, addr 0x6e81268, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_GameObjectCreationParameters, addr 0x6e88dec, size 0xa8, virtual true, abstract: false, final true
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
 
   /// @brief Convert to "::Zenject::IPrefabInstantiator"
@@ -112,7 +112,7 @@ public:
   PrefabInstantiatorCached(PrefabInstantiatorCached const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14584 };
 
   /// @brief Field _subInstantiator, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IPrefabInstantiator* ____subInstantiator;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/Iso18033KdfParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\Iso18033KdfParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method GetSeed, addr 0x3410154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSeed, addr 0x3413f14, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSeed();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters* New_ctor(::ArrayW<uint8_t> seed);
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x341014c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3413f0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> seed);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

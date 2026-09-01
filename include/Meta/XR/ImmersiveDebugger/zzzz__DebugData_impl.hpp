@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/DebugData.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\DebugData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__DebugData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::DebugData::*)(::StringW, ::System::Collections::Generic::List_1<::StringW>*)>(
     &::Meta::XR::ImmersiveDebugger::DebugData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3dea8;
+  constexpr static std::size_t addrs = 0x5a42364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

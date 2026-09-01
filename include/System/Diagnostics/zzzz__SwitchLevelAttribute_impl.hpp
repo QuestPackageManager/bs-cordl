@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/SwitchLevelAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\SwitchLevelAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__SwitchLevelAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::SwitchLevelAttribute::*)(::System::Type*)>(&::System::Diagnostics::SwitchLevelAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x639025c;
+  constexpr static std::size_t addrs = 0x6397cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::SwitchLevelAttribute::*)(::System::Type*)>(&::System::Diagnostics::SwitchLevelAttribute::set_SwitchLevelType)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6390260;
+  constexpr static std::size_t addrs = 0x6397cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

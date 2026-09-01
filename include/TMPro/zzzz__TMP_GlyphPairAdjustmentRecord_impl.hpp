@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_GlyphPairAdjustmentRecord.hpp"
+// IWYU pragma private; include "TMPro\TMP_GlyphPairAdjustmentRecord.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__FontFeatureLookupFlags_impl.hpp"
 #include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_GlyphAdjustmentRecord (::TMPro::TMP_GlyphPairAdjustmentRecord::*)()>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69574f0;
+  constexpr static std::size_t addrs = 0x695ef6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphPairAdjustmentRecord*>(), { "get_firstAdjustmentRecord", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphPairAdjustmentRecord::*)(::TMPro::TMP_GlyphAdjustmentRecord)>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::set_firstAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6957504;
+  constexpr static std::size_t addrs = 0x695ef80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_GlyphAdjustmentRecord (::TMPro::TMP_GlyphPairAdjustmentRecord::*)()>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6957518;
+  constexpr static std::size_t addrs = 0x695ef94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphPairAdjustmentRecord*>(), { "get_secondAdjustmentRecord", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphPairAdjustmentRecord::*)(::TMPro::TMP_GlyphAdjustmentRecord)>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::set_secondAdjustmentRecord)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x695752c;
+  constexpr static std::size_t addrs = 0x695efa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::FontFeatureLookupFlags (::TMPro::TMP_GlyphPairAdjustmentRecord::*)()>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::get_featureLookupFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6957540;
+  constexpr static std::size_t addrs = 0x695efbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphPairAdjustmentRecord*>(), { "get_featureLookupFlags", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphPairAdjustmentRecord::*)(::TMPro::FontFeatureLookupFlags)>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::set_featureLookupFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6957548;
+  constexpr static std::size_t addrs = 0x695efc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphPairAdjustmentRecord::*)(::TMPro::TMP_GlyphAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord)>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6957550;
+  constexpr static std::size_t addrs = 0x695efcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_GlyphPairAdjustmentRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(
     &::TMPro::TMP_GlyphPairAdjustmentRecord::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6957574;
+  constexpr static std::size_t addrs = 0x695eff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_GlyphPairAdjustmentRecord*>(),

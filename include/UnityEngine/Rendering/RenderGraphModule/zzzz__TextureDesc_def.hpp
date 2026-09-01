@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/TextureDesc.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\TextureDesc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,43 +60,43 @@ public:
 
   __declspec(property(get = get_depthBufferBits, put = set_depthBufferBits)) ::UnityEngine::Rendering::DepthBits depthBufferBits;
 
-  /// @brief Method CalculateFinalDimensions, addr 0x67dfd34, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CalculateFinalDimensions, addr 0x67e77b0, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int CalculateFinalDimensions();
 
-  /// @brief Method GetHashCode, addr 0x67e329c, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67ead18, size 0x1e0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method InitDefaultValues, addr 0x67e2fc8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InitDefaultValues, addr 0x67eaa44, size 0xd8, virtual false, abstract: false, final false
   inline void InitDefaultValues(bool dynamicResolution, bool xrReady);
 
-  /// @brief Method .ctor, addr 0x67e310c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67eab88, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ScaleFunc* func, bool dynamicResolution, bool xrReady);
 
-  /// @brief Method .ctor, addr 0x67df4c4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e6f40, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTexture* input);
 
-  /// @brief Method .ctor, addr 0x67e315c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67eabd8, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTextureDescriptor input);
 
-  /// @brief Method .ctor, addr 0x67e3154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67eabd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureDesc input);
 
-  /// @brief Method .ctor, addr 0x67e30cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67eab48, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 scale, bool dynamicResolution, bool xrReady);
 
-  /// @brief Method .ctor, addr 0x67e30a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67eab1c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, bool dynamicResolution, bool xrReady);
 
-  /// @brief Method get_colorFormat, addr 0x67e2f30, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_colorFormat, addr 0x67ea9ac, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_colorFormat();
 
-  /// @brief Method get_depthBufferBits, addr 0x67e2df8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_depthBufferBits, addr 0x67ea874, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::DepthBits get_depthBufferBits();
 
-  /// @brief Method set_colorFormat, addr 0x67e2fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorFormat, addr 0x67eaa3c, size 0x8, virtual false, abstract: false, final false
   inline void set_colorFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
 
-  /// @brief Method set_depthBufferBits, addr 0x67e2e74, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_depthBufferBits, addr 0x67ea8f0, size 0xbc, virtual false, abstract: false, final false
   inline void set_depthBufferBits(::UnityEngine::Rendering::DepthBits value);
 
   // Ctor Parameters []
@@ -127,7 +127,7 @@ public:
                         ::UnityEngine::Color clearColor, bool discardBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12465 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarController.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,10 +59,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3266da8, size 0x570, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x326a60c, size 0x570, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32674e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x326ad48, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -80,7 +80,7 @@ public:
                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::Avatar>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21633 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -146,12 +146,12 @@ public:
 
   __declspec(property(get = get_avatar)) ::UnityW<::BeatSaber::AvatarCore::Avatar> avatar;
 
-  /// @brief Method LoadAndDisplayAvatar, addr 0x3266d00, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LoadAndDisplayAvatar, addr 0x326a564, size 0xa4, virtual false, abstract: false, final false
   inline void LoadAndDisplayAvatar();
 
   static inline ::BeatSaber::AvatarCore::AvatarController* New_ctor();
 
-  /// @brief Method Start, addr 0x3266cfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x326a560, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::Avatar> const& __cordl_internal_get__avatar() const;
@@ -202,10 +202,10 @@ public:
 
   constexpr void __cordl_internal_set__visualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x3266da4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326a608, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_avatar, addr 0x3266cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatar, addr 0x326a558, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::AvatarCore::Avatar> get_avatar();
 
 protected:
@@ -223,7 +223,7 @@ public:
   AvatarController(AvatarController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21634 };
 
   /// @brief Field _parentingTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____parentingTransform;

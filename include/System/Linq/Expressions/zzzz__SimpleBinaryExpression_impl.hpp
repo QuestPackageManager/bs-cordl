@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/SimpleBinaryExpression.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\SimpleBinaryExpression.hpp"
 #include "System/Linq/Expressions/zzzz__BinaryExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionType_impl.hpp"
 #include "System/Linq/Expressions/zzzz__SimpleBinaryExpression_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
     ::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::SimpleBinaryExpression::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5f5b650;
+  constexpr static std::size_t addrs = 0x5f630cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::SimpleBinaryExpression::*)()>(
     &::System::Linq::Expressions::SimpleBinaryExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f5b684;
+  constexpr static std::size_t addrs = 0x5f63100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::SimpleBinaryExpression*>(), { "get_NodeType", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Linq::Expressions::SimpleBinaryExpression::*)()>(&::System::Linq::Expressions::SimpleBinaryExpression::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f5b68c;
+  constexpr static std::size_t addrs = 0x5f63108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::SimpleBinaryExpression*>(), { "get_Type", {}, {} })));

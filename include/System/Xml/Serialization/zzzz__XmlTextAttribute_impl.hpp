@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlTextAttribute.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlTextAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTextAttribute_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTextAttribute::*)()>(&::System::Xml::Serialization::XmlTextAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x630a5a0;
+  constexpr static std::size_t addrs = 0x631201c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTextAttribute*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlTextAttribute::*)()>(&::System::Xml::Serialization::XmlTextAttribute::get_DataType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x630a5a4;
+  constexpr static std::size_t addrs = 0x6312020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTextAttribute*>(), { "get_DataType", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Serialization::XmlTextAttribute::*)()>(&::System::Xml::Serialization::XmlTextAttribute::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x630a5c4;
+  constexpr static std::size_t addrs = 0x6312040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTextAttribute*>(), { "get_Type", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTextAttribute::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::Serialization::XmlTextAttribute::AddKeyHash)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x630a5cc;
+  constexpr static std::size_t addrs = 0x6312048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

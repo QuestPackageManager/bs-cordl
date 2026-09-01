@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/FrameRate.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\FrameRate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,28 +62,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::FrameRate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>*();
 
-  /// @brief Method DoubleToFrameRate, addr 0x6afc51c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DoubleToFrameRate, addr 0x6b03f34, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::FrameRate DoubleToFrameRate(double_t framerate);
 
-  /// @brief Method Equals, addr 0x6afc1c8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b03be0, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6afc1b8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b03bd0, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Playables::FrameRate other);
 
-  /// @brief Method GetHashCode, addr 0x6afc2e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b03cf8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsValid, addr 0x6afc1a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6b03bc0, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method ToString, addr 0x6afc2e8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b03d00, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6afc348, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b03d60, size 0x1d4, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6afc198, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b03bb0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t frameRate, bool drop);
 
   static inline ::UnityEngine::Playables::FrameRate getStaticF_k_23_976Fps();
@@ -102,16 +102,16 @@ public:
 
   static inline ::UnityEngine::Playables::FrameRate getStaticF_k_60Fps();
 
-  /// @brief Method get_dropFrame, addr 0x6afc114, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dropFrame, addr 0x6b03b2c, size 0xc, virtual false, abstract: false, final false
   inline bool get_dropFrame();
 
-  /// @brief Method get_rate, addr 0x6afc120, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_rate, addr 0x6b03b38, size 0x78, virtual false, abstract: false, final false
   inline double_t get_rate();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::FrameRate>"
   constexpr ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>* i___System__IEquatable_1___UnityEngine__Playables__FrameRate_();
 
-  /// @brief Method op_Equality, addr 0x6afc278, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b03c90, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Playables::FrameRate a, ::UnityEngine::Playables::FrameRate b);
 
   static inline void setStaticF_k_23_976Fps(::UnityEngine::Playables::FrameRate value);
@@ -138,7 +138,7 @@ public:
   constexpr FrameRate(int32_t m_Rate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10664 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/EnvelopedDataHelper.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\EnvelopedDataHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,21 +49,21 @@ public:
   /// @brief Field MacAlgNames, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_MacAlgNames, put = setStaticF_MacAlgNames)) ::System::Collections::IDictionary* MacAlgNames;
 
-  /// @brief Method CreateContentCipher, addr 0x36c8a34, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateContentCipher, addr 0x36cc7f4, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* encKey,
                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgID);
 
-  /// @brief Method CreateKeyGenerator, addr 0x36c8b3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateKeyGenerator, addr 0x36cc8fc, size 0x10, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateEncryptionAlgID, addr 0x36c8aa8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GenerateEncryptionAlgID, addr 0x36cc868, size 0x94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID,
                                                                                        ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey,
                                                                                        ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::EnvelopedDataHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x36c8b4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36cc90c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_BaseCipherNames();

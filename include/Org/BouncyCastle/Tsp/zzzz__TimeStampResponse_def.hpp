@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampResponse.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Tsp\TimeStampResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ public:
   /// @brief Field timeStampToken, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_timeStampToken, put = __cordl_internal_set_timeStampToken)) ::Org::BouncyCastle::Tsp::TimeStampToken* timeStampToken;
 
-  /// @brief Method GetEncoded, addr 0x361d54c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x362130c, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method GetFailInfo, addr 0x361d0cc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetFailInfo, addr 0x3620e8c, size 0x84, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* GetFailInfo();
 
-  /// @brief Method GetStatusString, addr 0x361cfc0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetStatusString, addr 0x3620d80, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW GetStatusString();
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponse* New_ctor(::System::IO::Stream* input);
@@ -65,7 +65,7 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponse* New_ctor(::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* resp);
 
-  /// @brief Method Validate, addr 0x361d158, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x3620f18, size 0x318, virtual false, abstract: false, final false
   inline void Validate(::Org::BouncyCastle::Tsp::TimeStampRequest* request);
 
   constexpr ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* const& __cordl_internal_get_resp() const;
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_timeStampToken(::Org::BouncyCastle::Tsp::TimeStampToken* value);
 
-  /// @brief Method .ctor, addr 0x361ce90, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3620c50, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x361ccfc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3620abc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> resp);
 
-  /// @brief Method .ctor, addr 0x361cc10, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36209d0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* resp);
 
-  /// @brief Method get_Status, addr 0x361cf88, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x3620d48, size 0x38, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
-  /// @brief Method get_TimeStampToken, addr 0x361d150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeStampToken, addr 0x3620f10, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampToken* get_TimeStampToken();
 
-  /// @brief Method readTimeStampResp, addr 0x361cd74, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method readTimeStampResp, addr 0x3620b34, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* readTimeStampResp(::Org::BouncyCastle::Asn1::Asn1InputStream* input);
 
 protected:

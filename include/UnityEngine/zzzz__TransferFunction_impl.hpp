@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TransferFunction.hpp"
+// IWYU pragma private; include "UnityEngine\TransferFunction.hpp"
 #include "UnityEngine/zzzz__TransferFunction_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TransferFunction::TransferFunction(int32_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/Leaderboards/GraphQLErrorCode.hpp"
+// IWYU pragma private; include "BeatSaber\Main\Leaderboards\GraphQLErrorCode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__GraphQLErrorCode_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Main::Leaderboards::GraphQLErrorCode.IsBeatGamesErrorCode
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::BeatSaber::Main::Leaderboards::GraphQLErrorCode::IsBeatGamesErrorCode)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x32a1acc;
+  constexpr static std::size_t addrs = 0x32a58c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::BeatSaber::Main::Leaderboards::GraphQLErrorCode::IsBeatGamesErrorCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32a0418;
+  constexpr static std::size_t addrs = 0x32a4214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

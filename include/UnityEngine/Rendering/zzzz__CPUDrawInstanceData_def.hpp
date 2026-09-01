@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CPUDrawInstanceData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CPUDrawInstanceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,27 +98,27 @@ public:
 
   __declspec(property(get = get_valid)) bool valid;
 
-  /// @brief Method DestroyDrawInstanceIndices, addr 0x68163d8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DestroyDrawInstanceIndices, addr 0x681de54, size 0xc8, virtual false, abstract: false, final false
   inline void DestroyDrawInstanceIndices(::Unity::Collections::NativeArray_1<int32_t> drawInstanceIndicesToDestroy);
 
-  /// @brief Method DestroyDrawInstances, addr 0x68164a0, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method DestroyDrawInstances, addr 0x681df1c, size 0x2dc, virtual false, abstract: false, final false
   inline void DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> destroyedInstances);
 
-  /// @brief Method DestroyMaterialDrawInstances, addr 0x6816788, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method DestroyMaterialDrawInstances, addr 0x681e204, size 0x2dc, virtual false, abstract: false, final false
   inline void DestroyMaterialDrawInstances(::Unity::Collections::NativeArray_1<uint32_t> destroyedBatchMaterials);
 
-  /// @brief Method Dispose, addr 0x6815f48, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x681d9c4, size 0x200, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Initialize, addr 0x6815dac, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x681d828, size 0x19c, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method NeedsRebuild, addr 0x681677c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method NeedsRebuild, addr 0x681e1f8, size 0xc, virtual false, abstract: false, final false
   inline void NeedsRebuild();
 
   static inline ::UnityEngine::Rendering::CPUDrawInstanceData* New_ctor();
 
-  /// @brief Method RebuildDrawListsIfNeeded, addr 0x6816148, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method RebuildDrawListsIfNeeded, addr 0x681dbc4, size 0x290, virtual false, abstract: false, final false
   inline void RebuildDrawListsIfNeeded();
 
   constexpr ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> const& __cordl_internal_get_m_BatchHash() const;
@@ -169,31 +169,31 @@ public:
 
   constexpr void __cordl_internal_set_m_RangeHash(::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> value);
 
-  /// @brief Method .ctor, addr 0x6816a64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681e4e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_batchHash, addr 0x6815ca0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_batchHash, addr 0x681d71c, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t> get_batchHash();
 
-  /// @brief Method get_drawBatchIndices, addr 0x6815cc8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_drawBatchIndices, addr 0x681d744, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<int32_t> get_drawBatchIndices();
 
-  /// @brief Method get_drawBatches, addr 0x6815cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawBatches, addr 0x681d728, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> get_drawBatches();
 
-  /// @brief Method get_drawInstanceIndices, addr 0x6815d14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_drawInstanceIndices, addr 0x681d790, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<int32_t> get_drawInstanceIndices();
 
-  /// @brief Method get_drawInstances, addr 0x6815c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawInstances, addr 0x681d714, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> get_drawInstances();
 
-  /// @brief Method get_drawRanges, addr 0x6815cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawRanges, addr 0x681d73c, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange> get_drawRanges();
 
-  /// @brief Method get_rangeHash, addr 0x6815cb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rangeHash, addr 0x681d730, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> get_rangeHash();
 
-  /// @brief Method get_valid, addr 0x6815d60, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x681d7dc, size 0x4c, virtual false, abstract: false, final false
   inline bool get_valid();
 
 protected:
@@ -211,7 +211,7 @@ public:
   CPUDrawInstanceData(CPUDrawInstanceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17675 };
 
   /// @brief Field m_RangeHash, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t> ___m_RangeHash;

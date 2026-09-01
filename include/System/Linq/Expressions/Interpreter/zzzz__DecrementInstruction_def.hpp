@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/DecrementInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\DecrementInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,12 +97,12 @@ public:
   /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
 
-  /// @brief Method Create, addr 0x5f89bb0, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5f9162c, size 0x348, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
 
   static inline ::System::Linq::Expressions::Interpreter::DecrementInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5f89bac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f91628, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Double();
@@ -121,13 +121,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64();
 
-  /// @brief Method get_ConsumedStack, addr 0x5f89b58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5f915d4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5f89b68, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f915e4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5f89b60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f915dc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Double(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -161,7 +161,7 @@ public:
   DecrementInstruction(DecrementInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16302 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

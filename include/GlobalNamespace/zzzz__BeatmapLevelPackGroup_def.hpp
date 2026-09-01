@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapLevelPackGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapLevelPackGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelPackGroup* New_ctor(::StringW groupName, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* collections);
 
-  /// @brief Method UpdateBeatmapLevelPacks, addr 0x372ba24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateBeatmapLevelPacks, addr 0x3731688, size 0x8, virtual false, abstract: false, final false
   inline void UpdateBeatmapLevelPacks(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* const& __cordl_internal_get__beatmapLevelPacks_k__BackingField() const;
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set__groupName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x372ba1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3731680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW groupName, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* collections);
 
-  /// @brief Method get_beatmapLevelPacks, addr 0x372ba0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelPacks, addr 0x3731670, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* get_beatmapLevelPacks();
 
-  /// @brief Method get_groupName, addr 0x372ba04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x3731668, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method set_beatmapLevelPacks, addr 0x372ba14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevelPacks, addr 0x3731678, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelPacks(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* value);
 
 protected:
@@ -82,7 +82,7 @@ public:
   BeatmapLevelPackGroup(BeatmapLevelPackGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15050 };
 
   /// @brief Field <groupName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____groupName_k__BackingField;

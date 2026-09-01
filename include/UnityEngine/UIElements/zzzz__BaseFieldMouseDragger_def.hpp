@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BaseFieldMouseDragger.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BaseFieldMouseDragger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +27,13 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::BaseFieldMouseDragger* New_ctor();
 
-  /// @brief Method SetDragZone, addr 0x6d9f9a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetDragZone, addr 0x6da7528, size 0x1c, virtual false, abstract: false, final false
   inline void SetDragZone(::UnityEngine::UIElements::VisualElement* dragElement);
 
   /// @brief Method SetDragZone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetDragZone(::UnityEngine::UIElements::VisualElement* dragElement, ::UnityEngine::Rect hotZone);
 
-  /// @brief Method .ctor, addr 0x6d9f9c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da7544, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SetSaberBladeParams.hpp"
+// IWYU pragma private; include "GlobalNamespace\SetSaberBladeParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x59e8eb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f0f84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   SetSaberBladeParams_PropertyTintColorPair(SetSaberBladeParams_PropertyTintColorPair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6239 };
 
   /// @brief Field tintColor, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color ___tintColor;
@@ -120,7 +120,7 @@ public:
 
   static inline ::GlobalNamespace::SetSaberBladeParams* New_ctor();
 
-  /// @brief Method Start, addr 0x59e8d74, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59f0e48, size 0x138, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x59e8eac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f0f80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,7 +165,7 @@ public:
   SetSaberBladeParams(SetSaberBladeParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6240 };
 
   /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saber;

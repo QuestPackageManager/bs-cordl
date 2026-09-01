@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlDictionary.hpp"
+// IWYU pragma private; include "System\Xml\XmlDictionary.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,14 +44,14 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlDictionary"
   constexpr operator ::System::Xml::IXmlDictionary*() noexcept;
 
-  /// @brief Method Add, addr 0x6118544, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x611ffc0, size 0x1d0, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDictionaryString* Add(::StringW value);
 
   static inline ::System::Xml::XmlDictionary* New_ctor();
 
   static inline ::System::Xml::XmlDictionary* New_ctor(int32_t capacity);
 
-  /// @brief Method TryLookup, addr 0x61188a0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method TryLookup, addr 0x612031c, size 0x54, virtual true, abstract: false, final false
   inline bool TryLookup(int32_t key, ::by_ref<::System::Xml::XmlDictionaryString*> result);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlDictionaryString*>* const& __cordl_internal_get_lookup() const;
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set_strings(::ArrayW<::System::Xml::XmlDictionaryString*> value);
 
-  /// @brief Method .ctor, addr 0x61183e8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x611fe64, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6118484, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x611ff00, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   /// @brief Convert to "::System::Xml::IXmlDictionary"
@@ -96,7 +96,7 @@ public:
   XmlDictionary(XmlDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16980 };
 
   /// @brief Field lookup, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::XmlDictionaryString*>* ___lookup;

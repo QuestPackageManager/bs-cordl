@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Events/InvokableCall_4.hpp"
+// IWYU pragma private; include "UnityEngine\Events\InvokableCall_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +66,7 @@ public:
   InvokableCall_4(InvokableCall_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10447 };
 
   /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* ___Delegate;

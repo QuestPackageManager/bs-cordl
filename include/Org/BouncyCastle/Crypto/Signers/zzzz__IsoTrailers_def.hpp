@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/IsoTrailers.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Signers\IsoTrailers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,18 +29,18 @@ public:
   /// @brief Field trailerMap, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_trailerMap, put = setStaticF_trailerMap)) ::System::Collections::IDictionary* trailerMap;
 
-  /// @brief Method CreateTrailerMap, addr 0x342a96c, size 0x688, virtual false, abstract: false, final false
+  /// @brief Method CreateTrailerMap, addr 0x342e72c, size 0x688, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateTrailerMap();
 
-  /// @brief Method GetTrailer, addr 0x3426e34, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetTrailer, addr 0x342abf4, size 0x17c, virtual false, abstract: false, final false
   static inline int32_t GetTrailer(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::IsoTrailers* New_ctor();
 
-  /// @brief Method NoTrailerAvailable, addr 0x3426cd4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method NoTrailerAvailable, addr 0x342aa94, size 0x160, virtual false, abstract: false, final false
   static inline bool NoTrailerAvailable(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0x342b044, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x342ee04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_trailerMap();

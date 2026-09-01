@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Icao/CscaMasterList.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Icao\CscaMasterList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,20 +45,20 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method CopyCertList, addr 0x344b0c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CopyCertList, addr 0x344ee80, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> CopyCertList(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> orig);
 
-  /// @brief Method GetCertStructs, addr 0x344b150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCertStructs, addr 0x344ef10, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> GetCertStructs();
 
-  /// @brief Method GetInstance, addr 0x344ad34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x344eaf4, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> certStructs);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x344b158, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x344ef18, size 0x124, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> const& __cordl_internal_get_certList() const;
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x344b048, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x344ee08, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*> certStructs);
 
-  /// @brief Method .ctor, addr 0x344add4, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x344eb94, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version, addr 0x344b138, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0x344eef8, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

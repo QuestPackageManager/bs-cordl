@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlAnyListConverter.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlAnyListConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,12 +40,12 @@ public:
   /// @brief Field ItemList, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ItemList, put = setStaticF_ItemList)) ::System::Xml::Schema::XmlValueConverter* ItemList;
 
-  /// @brief Method ChangeType, addr 0x6258aa0, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x626051c, size 0x228, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   static inline ::System::Xml::Schema::XmlAnyListConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
 
-  /// @brief Method .ctor, addr 0x6258a28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62604a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
 
   static inline ::System::Xml::Schema::XmlValueConverter* getStaticF_AnyAtomicList();
@@ -71,7 +71,7 @@ public:
   XmlAnyListConverter(XmlAnyListConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

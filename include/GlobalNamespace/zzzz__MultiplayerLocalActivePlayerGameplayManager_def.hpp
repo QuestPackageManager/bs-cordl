@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerGameplayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActivePlayerGameplayManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_continueGameplayWith0Energy(bool value);
 
-  /// @brief Method .ctor, addr 0x59bfbb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c78b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool continueGameplayWith0Energy);
 
 protected:
@@ -87,7 +87,7 @@ public:
   MultiplayerLocalActivePlayerGameplayManager_InitData(MultiplayerLocalActivePlayerGameplayManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6091 };
 
   /// @brief Field continueGameplayWith0Energy, offset: 0x10, size: 0x1, def value: None
   bool ___continueGameplayWith0Energy;
@@ -146,36 +146,36 @@ public:
   /// @brief Field _xrSystemState, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__xrSystemState, put = __cordl_internal_set__xrSystemState)) ::GlobalNamespace::IXRSystemState* _xrSystemState;
 
-  /// @brief Method HandleGameEnergyDidReach0, addr 0x59bf6b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyDidReach0, addr 0x59c73b8, size 0x20, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidReach0();
 
-  /// @brief Method HandleInGameMenuControllerDidGiveUp, addr 0x59bf6d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuControllerDidGiveUp, addr 0x59c73d8, size 0x4, virtual false, abstract: false, final false
   inline void HandleInGameMenuControllerDidGiveUp();
 
-  /// @brief Method HandleInGameMenuControllerRequestsDisconnect, addr 0x59bf6dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuControllerRequestsDisconnect, addr 0x59c73dc, size 0x40, virtual false, abstract: false, final false
   inline void HandleInGameMenuControllerRequestsDisconnect();
 
-  /// @brief Method HandleSongDidFinish, addr 0x59bf924, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x59c7624, size 0x240, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
-  /// @brief Method HandleSystemStateChange, addr 0x59bedbc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleSystemStateChange, addr 0x59c6abc, size 0x74, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x59bfb64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x59c7864, size 0x4c, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDisable, addr 0x59bf078, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59c6d78, size 0x3f4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method PerformPlayerFail, addr 0x59bee30, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method PerformPlayerFail, addr 0x59c6b30, size 0x248, virtual false, abstract: false, final false
   inline void PerformPlayerFail();
 
-  /// @brief Method PerformPlayerGivenUp, addr 0x59bf46c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method PerformPlayerGivenUp, addr 0x59c716c, size 0x24c, virtual false, abstract: false, final false
   inline void PerformPlayerGivenUp();
 
-  /// @brief Method Start, addr 0x59bea84, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59c6784, size 0x338, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* const& __cordl_internal_get__disconnectHelper() const;
@@ -244,7 +244,7 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x59bfbb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c78b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -262,7 +262,7 @@ public:
   MultiplayerLocalActivePlayerGameplayManager(MultiplayerLocalActivePlayerGameplayManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6092 };
 
   /// @brief Field _gameSongController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;

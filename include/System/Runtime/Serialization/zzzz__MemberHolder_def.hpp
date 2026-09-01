@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/MemberHolder.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\MemberHolder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
   /// @brief Field _memberType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__memberType, put = __cordl_internal_set__memberType)) ::System::Type* _memberType;
 
-  /// @brief Method Equals, addr 0x5b480d8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5b4c594, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5b480bc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5b4c578, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Runtime::Serialization::MemberHolder* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__memberType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5b480b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4c56c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
 
 protected:

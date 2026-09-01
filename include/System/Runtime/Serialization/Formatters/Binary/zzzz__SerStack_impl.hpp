@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/SerStack.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\SerStack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerStack_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SerStack::*)(::StringW)>(
     &::System::Runtime::Serialization::Formatters::Binary::SerStack::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b5c45c;
+  constexpr static std::size_t addrs = 0x5b60918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SerStack::*)(::System::Object*)>(
     &::System::Runtime::Serialization::Formatters::Binary::SerStack::Push)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5b5af04;
+  constexpr static std::size_t addrs = 0x5b5f3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::Formatters::Binary::SerStack::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::SerStack::Pop)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5b5aeb4;
+  constexpr static std::size_t addrs = 0x5b5f370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::SerStack*>(), { "Pop", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SerStack::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::SerStack::IncreaseCapacity)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5b66724;
+  constexpr static std::size_t addrs = 0x5b6abe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::Formatters::Binary::SerStack::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::SerStack::Peek)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5b5e850;
+  constexpr static std::size_t addrs = 0x5b62d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::SerStack*>(), { "Peek", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::Formatters::Binary::SerStack::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::SerStack::PeekPeek)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5b657e4;
+  constexpr static std::size_t addrs = 0x5b69ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::Formatters::Binary::SerStack::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::SerStack::IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b5aea4;
+  constexpr static std::size_t addrs = 0x5b5f360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::SerStack*>(), { "IsEmpty", {}, {} })));

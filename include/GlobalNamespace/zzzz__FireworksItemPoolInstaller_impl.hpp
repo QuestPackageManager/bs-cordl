@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FireworksItemPoolInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\FireworksItemPoolInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__FireworksItemPoolInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworksItemPoolInstaller::*)()>(&::GlobalNamespace::FireworksItemPoolInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x597ea0c;
+  constexpr static std::size_t addrs = 0x59823a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FireworksItemPoolInstaller::*)()>(&::GlobalNamespace::FireworksItemPoolInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x597eaa4;
+  constexpr static std::size_t addrs = 0x5982438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FireworksItemPoolInstaller*>(), { ".ctor", {}, {} })));

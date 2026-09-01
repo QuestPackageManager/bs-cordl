@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crmf/DefaultPKMacResult.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crmf\DefaultPKMacResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-  /// @brief Method Collect, addr 0x36d80dc, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x36dbe9c, size 0x148, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t> Collect();
 
-  /// @brief Method Collect, addr 0x36d8224, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x36dbfe4, size 0x40, virtual true, abstract: false, final true
   inline int32_t Collect(::ArrayW<uint8_t> sig, int32_t sigOff);
 
   static inline ::Org::BouncyCastle::Crmf::DefaultPKMacResult* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  /// @brief Method .ctor, addr 0x36d7e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36dbc24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"

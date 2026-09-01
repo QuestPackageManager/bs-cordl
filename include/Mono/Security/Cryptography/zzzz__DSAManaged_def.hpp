@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Cryptography/DSAManaged.hpp"
+// IWYU pragma private; include "Mono\Security\Cryptography\DSAManaged.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,12 +48,12 @@ namespace Mono::Security::Cryptography {
 class CORDL_TYPE DSAManaged_KeyGeneratedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5abf364, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5ac3820, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
   static inline ::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5abf21c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac36d8, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -133,33 +133,33 @@ public:
   /// @brief Field y, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) ::Mono::Math::BigInteger* y;
 
-  /// @brief Method Dispose, addr 0x5abeef0, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5ac33ac, size 0x1d4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ExportParameters, addr 0x5abe524, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method ExportParameters, addr 0x5ac29e0, size 0x268, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method Finalize, addr 0x5abd818, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5ac1cd4, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Generate, addr 0x5abd868, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x5ac1d24, size 0x4c, virtual false, abstract: false, final false
   inline void Generate();
 
-  /// @brief Method GenerateKeyPair, addr 0x5abdde4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0x5ac22a0, size 0xe4, virtual false, abstract: false, final false
   inline void GenerateKeyPair();
 
-  /// @brief Method GenerateParams, addr 0x5abd8b4, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method GenerateParams, addr 0x5ac1d70, size 0x530, virtual false, abstract: false, final false
   inline void GenerateParams(int32_t keyLength);
 
-  /// @brief Method ImportParameters, addr 0x5abe7f8, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method ImportParameters, addr 0x5ac2cb4, size 0x270, virtual true, abstract: false, final false
   inline void ImportParameters(::System::Security::Cryptography::DSAParameters parameters);
 
   static inline ::Mono::Security::Cryptography::DSAManaged* New_ctor(int32_t dwKeySize);
 
-  /// @brief Method NormalizeArray, addr 0x5abe480, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NormalizeArray, addr 0x5ac293c, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> NormalizeArray(::ArrayW<uint8_t> array);
 
-  /// @brief Method VerifySignature, addr 0x5abea68, size 0x488, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x5ac2f24, size 0x488, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
 
   constexpr ::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler* const& __cordl_internal_get_KeyGenerated() const;
@@ -240,25 +240,25 @@ public:
 
   constexpr void __cordl_internal_set_y(::Mono::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x5abd764, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac1c20, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwKeySize);
 
-  /// @brief Method add, addr 0x5abe00c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method add, addr 0x5ac24c8, size 0x98, virtual false, abstract: false, final false
   inline void add(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b, int32_t value);
 
-  /// @brief Method add_KeyGenerated, addr 0x5abf0c4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_KeyGenerated, addr 0x5ac3580, size 0xac, virtual false, abstract: false, final false
   inline void add_KeyGenerated(::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler* value);
 
-  /// @brief Method get_KeySize, addr 0x5abe3e4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x5ac28a0, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly, addr 0x5abe408, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_PublicOnly, addr 0x5ac28c4, size 0x78, virtual false, abstract: false, final false
   inline bool get_PublicOnly();
 
-  /// @brief Method get_Random, addr 0x5abe0a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Random, addr 0x5ac2560, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::RandomNumberGenerator* get_Random();
 
-  /// @brief Method remove_KeyGenerated, addr 0x5abf170, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_KeyGenerated, addr 0x5ac362c, size 0xac, virtual false, abstract: false, final false
   inline void remove_KeyGenerated(::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler* value);
 
 protected:

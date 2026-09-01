@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BitArray256.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BitArray256.hpp"
 #include "UnityEngine/Rendering/zzzz__BitArray256_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::BitArray256::*)()>(&::UnityEngine::Rendering::BitArray256::get_capacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67aff48;
+  constexpr static std::size_t addrs = 0x67b79c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BitArray256>(), { "get_capacity", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BitArray256::*)()>(&::UnityEngine::Rendering::BitArray256::get_allFalse)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x67aff50;
+  constexpr static std::size_t addrs = 0x67b79cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BitArray256>(), { "get_allFalse", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BitArray256::*)()>(&::UnityEngine::Rendering::BitArray256::get_allTrue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67aff80;
+  constexpr static std::size_t addrs = 0x67b79fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BitArray256>(), { "get_allTrue", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::BitArray256::*)()>(&::UnityEngine::Rendering::BitArray256::get_humanizedData)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x67affbc;
+  constexpr static std::size_t addrs = 0x67b7a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BitArray256>(), { "get_humanizedData", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BitArray256::*)(uint32_t)>(&::UnityEngine::Rendering::BitArray256::get_Item)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x67b0398;
+  constexpr static std::size_t addrs = 0x67b7e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BitArray256::*)(uint32_t, bool)>(&::UnityEngine::Rendering::BitArray256::set_Item)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67b0418;
+  constexpr static std::size_t addrs = 0x67b7e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BitArray256::*)(uint64_t, uint64_t, uint64_t, uint64_t)>(&::UnityEngine::Rendering::BitArray256::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67b04e0;
+  constexpr static std::size_t addrs = 0x67b7f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BitArray256::*)(::System::Collections::Generic::IEnumerable_1<uint32_t>*)>(
     &::UnityEngine::Rendering::BitArray256::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x67b04ec;
+  constexpr static std::size_t addrs = 0x67b7f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::BitArray256 (*)(::UnityEngine::Rendering::BitArray256)>(&::UnityEngine::Rendering::BitArray256::op_OnesComplement)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67b060c;
+  constexpr static std::size_t addrs = 0x67b8088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::BitArray256 (*)(::UnityEngine::Rendering::BitArray256, ::UnityEngine::Rendering::BitArray256)>(
     &::UnityEngine::Rendering::BitArray256::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67b0620;
+  constexpr static std::size_t addrs = 0x67b809c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::BitArray256 (*)(::UnityEngine::Rendering::BitArray256, ::UnityEngine::Rendering::BitArray256)>(
     &::UnityEngine::Rendering::BitArray256::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67b0638;
+  constexpr static std::size_t addrs = 0x67b80b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::IBitArray* (::UnityEngine::Rendering::BitArray256::*)(::UnityEngine::Rendering::IBitArray*)>(
     &::UnityEngine::Rendering::BitArray256::BitAnd)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x67b0650;
+  constexpr static std::size_t addrs = 0x67b80cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::IBitArray* (::UnityEngine::Rendering::BitArray256::*)(::UnityEngine::Rendering::IBitArray*)>(
     &::UnityEngine::Rendering::BitArray256::BitOr)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x67b06f4;
+  constexpr static std::size_t addrs = 0x67b8170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::IBitArray* (::UnityEngine::Rendering::BitArray256::*)()>(&::UnityEngine::Rendering::BitArray256::BitNot)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x67b0798;
+  constexpr static std::size_t addrs = 0x67b8214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BitArray256>(), { "BitNot", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::BitArray256, ::UnityEngine::Rendering::BitArray256)>(&::UnityEngine::Rendering::BitArray256::op_Equality)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x67b0800;
+  constexpr static std::size_t addrs = 0x67b827c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::BitArray256, ::UnityEngine::Rendering::BitArray256)>(&::UnityEngine::Rendering::BitArray256::op_Inequality)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x67b084c;
+  constexpr static std::size_t addrs = 0x67b82c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BitArray256::*)(::System::Object*)>(&::UnityEngine::Rendering::BitArray256::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x67b0898;
+  constexpr static std::size_t addrs = 0x67b8314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::BitArray256::*)()>(&::UnityEngine::Rendering::BitArray256::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67b0944;
+  constexpr static std::size_t addrs = 0x67b83c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

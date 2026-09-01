@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MenuNeonLightsGenerator.hpp"
+// IWYU pragma private; include "GlobalNamespace\MenuNeonLightsGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set__widthMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x58c02e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bfc90, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

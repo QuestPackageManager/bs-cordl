@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/LocalizationLanguageExtensions.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\LocalizationLanguageExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,19 +32,19 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizationLanguageExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLanguageDirection, addr 0x331bd20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetLanguageDirection, addr 0x331fae0, size 0x10, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::LanguageDirection GetLanguageDirection(::BGLib::Polyglot::LocalizationLanguage language);
 
-  /// @brief Method ToCultureInfoName, addr 0x331a6fc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ToCultureInfoName, addr 0x331e4bc, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW ToCultureInfoName(::BGLib::Polyglot::LocalizationLanguage language);
 
-  /// @brief Method ToLocalizationLanguage, addr 0x331a7e4, size 0x1458, virtual false, abstract: false, final false
+  /// @brief Method ToLocalizationLanguage, addr 0x331e5a4, size 0x1458, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::LocalizationLanguage ToLocalizationLanguage(::StringW serializedName);
 
-  /// @brief Method ToLocalizationLanguage, addr 0x331bc7c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ToLocalizationLanguage, addr 0x331fa3c, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<bool, ::BGLib::Polyglot::LocalizationLanguage> ToLocalizationLanguage(::UnityEngine::SystemLanguage systemLanguage);
 
-  /// @brief Method ToSerializedName, addr 0x331a43c, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method ToSerializedName, addr 0x331e1fc, size 0x2c0, virtual false, abstract: false, final false
   static inline ::StringW ToSerializedName(::BGLib::Polyglot::LocalizationLanguage language);
 
 protected:
@@ -62,7 +62,7 @@ public:
   LocalizationLanguageExtensions(LocalizationLanguageExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22211 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomFilterUtil.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomFilterUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
   BloomFilterUtil___c__DisplayClass1_0_1(BloomFilterUtil___c__DisplayClass1_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21166 };
 
   /// @brief Field hashCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___hashCount;
@@ -145,7 +145,7 @@ public:
   BloomFilterUtil___c__DisplayClass2_0_1(BloomFilterUtil___c__DisplayClass2_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21167 };
 
   /// @brief Field hashCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___hashCount;
@@ -204,7 +204,7 @@ public:
   BloomFilterUtil(BloomFilterUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21168 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

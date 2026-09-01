@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AbTestExperimentDefinitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\AbTestExperimentDefinitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   static ::GlobalNamespace::AbTestExperimentDefinitionSO_Group const Test2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6500 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -119,18 +119,18 @@ public:
 
   __declspec(property(get = get_test2GroupSize)) float_t test2GroupSize;
 
-  /// @brief Method AbSplit, addr 0x5a1e3f0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method AbSplit, addr 0x5a264dc, size 0x20c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AbTestExperimentDefinitionSO_Group AbSplit(::StringW userId);
 
-  /// @brief Method ComputeCurrentUserTreatment, addr 0x5a1e3d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ComputeCurrentUserTreatment, addr 0x5a264c4, size 0x18, virtual false, abstract: false, final false
   inline void ComputeCurrentUserTreatment(::StringW userId);
 
-  /// @brief Method ForceSetTreatmentGroup, addr 0x5a1e5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ForceSetTreatmentGroup, addr 0x5a266e8, size 0x8, virtual false, abstract: false, final false
   inline void ForceSetTreatmentGroup(::GlobalNamespace::AbTestExperimentDefinitionSO_Group group);
 
   static inline ::GlobalNamespace::AbTestExperimentDefinitionSO* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x5a1e3a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5a26490, size 0x34, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr float_t const& __cordl_internal_get__controlGroupSize() const;
@@ -169,19 +169,19 @@ public:
 
   constexpr void __cordl_internal_set__test2GroupSize(float_t value);
 
-  /// @brief Method .ctor, addr 0x5a1e604, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a266f0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentUserTreatmentGroup, addr 0x5a1e39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentUserTreatmentGroup, addr 0x5a26488, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AbTestExperimentDefinitionSO_Group get_currentUserTreatmentGroup();
 
-  /// @brief Method get_experimentName, addr 0x5a1e394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_experimentName, addr 0x5a26480, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_experimentName();
 
-  /// @brief Method get_test1GroupSize, addr 0x5a1e384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_test1GroupSize, addr 0x5a26470, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test1GroupSize();
 
-  /// @brief Method get_test2GroupSize, addr 0x5a1e38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_test2GroupSize, addr 0x5a26478, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test2GroupSize();
 
 protected:
@@ -199,7 +199,7 @@ public:
   AbTestExperimentDefinitionSO(AbTestExperimentDefinitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6501 };
 
   /// @brief Field _experimentName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____experimentName;

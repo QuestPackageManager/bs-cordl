@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CenterStageScreenController.hpp"
+// IWYU pragma private; include "GlobalNamespace\CenterStageScreenController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CenterStageScreenController::*)()>(&::GlobalNamespace::CenterStageScreenController::get_countdownShown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a12d58;
+  constexpr static std::size_t addrs = 0x5a1ae64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CenterStageScreenController*>(), { "get_countdownShown", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(bool)>(&::GlobalNamespace::CenterStageScreenController::set_countdownShown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a12d60;
+  constexpr static std::size_t addrs = 0x5a1ae6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(bool)>(&::GlobalNamespace::CenterStageScreenController::Setup)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5a12d68;
+  constexpr static std::size_t addrs = 0x5a1ae74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)()>(&::GlobalNamespace::CenterStageScreenController::Show)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5a12d98;
+  constexpr static std::size_t addrs = 0x5a1aea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CenterStageScreenController*>(), { "Show", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)()>(&::GlobalNamespace::CenterStageScreenController::Hide)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5a130a8;
+  constexpr static std::size_t addrs = 0x5a1b1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CenterStageScreenController*>(), { "Hide", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(int64_t)>(&::GlobalNamespace::CenterStageScreenController::ShowCountdown)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5a13228;
+  constexpr static std::size_t addrs = 0x5a1b334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(bool)>(&::GlobalNamespace::CenterStageScreenController::HideCountdown)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a131e4;
+  constexpr static std::size_t addrs = 0x5a1b2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(int64_t)>(&::GlobalNamespace::CenterStageScreenController::SetCountdownEndTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5a13264;
+  constexpr static std::size_t addrs = 0x5a1b370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(bool)>(&::GlobalNamespace::CenterStageScreenController::ShowCountdownColorPreset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a132bc;
+  constexpr static std::size_t addrs = 0x5a1b3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(bool)>(&::GlobalNamespace::CenterStageScreenController::ShowLobbyColorPreset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a12f2c;
+  constexpr static std::size_t addrs = 0x5a1b038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(::GlobalNamespace::ILevelGameplaySetupData*)>(
     &::GlobalNamespace::CenterStageScreenController::HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a132e8;
+  constexpr static std::size_t addrs = 0x5a1b3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(::GlobalNamespace::ILevelGameplaySetupData*)>(
     &::GlobalNamespace::CenterStageScreenController::SetNextGameplaySetupData)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5a12f58;
+  constexpr static std::size_t addrs = 0x5a1b064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CenterStageScreenController*>(),
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)()>(&::GlobalNamespace::CenterStageScreenController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a132ec;
+  constexpr static std::size_t addrs = 0x5a1b3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CenterStageScreenController*>(), { ".ctor", {}, {} })));

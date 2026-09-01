@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextColorGradient.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextColorGradient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set_topRight(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x6bf98b0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c01434, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bf9950, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c014d4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x6bf99bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c01540, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   static inline ::UnityEngine::Color getStaticF_k_DefaultColor();
@@ -106,7 +106,7 @@ public:
   TextColorGradient(TextColorGradient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17237 };
 
   /// @brief Field k_DefaultColorMode value: I32(3)
   static ::UnityEngine::TextCore::Text::ColorGradientMode const k_DefaultColorMode;

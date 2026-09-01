@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Analytics/AnalyticsEventBase.hpp"
+// IWYU pragma private; include "UnityEngine\Analytics\AnalyticsEventBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_sendEventOptions(::UnityEngine::Analytics::SendEventOptions value);
 
-  /// @brief Method .ctor, addr 0x6b00000, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b07a18, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW eventName, int32_t eventVersion, ::UnityEngine::Analytics::SendEventOptions sendEventOptions, ::StringW eventPrefix);
 
 protected:
@@ -81,7 +81,7 @@ public:
   AnalyticsEventBase(AnalyticsEventBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10694 };
 
   /// @brief Field eventName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___eventName;

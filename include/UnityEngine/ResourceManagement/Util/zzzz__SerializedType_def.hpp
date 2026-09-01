@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/SerializedType.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\SerializedType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,25 +31,25 @@ public:
 
   __declspec(property(get = get_ValueChanged, put = set_ValueChanged)) bool ValueChanged;
 
-  /// @brief Method ToString, addr 0x6910204, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6917c80, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_AssemblyName, addr 0x69101f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyName, addr 0x6917c70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method get_ClassName, addr 0x69101fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClassName, addr 0x6917c78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ClassName();
 
-  /// @brief Method get_Value, addr 0x691029c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x6917d18, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Type* get_Value();
 
-  /// @brief Method get_ValueChanged, addr 0x69104c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueChanged, addr 0x6917f44, size 0x8, virtual false, abstract: false, final false
   inline bool get_ValueChanged();
 
-  /// @brief Method set_Value, addr 0x6910440, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x6917ebc, size 0x88, virtual false, abstract: false, final false
   inline void set_Value(::System::Type* value);
 
-  /// @brief Method set_ValueChanged, addr 0x69104d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ValueChanged, addr 0x6917f4c, size 0x8, virtual false, abstract: false, final false
   inline void set_ValueChanged(bool value);
 
   // Ctor Parameters []
@@ -61,7 +61,7 @@ public:
   constexpr SerializedType(::StringW m_AssemblyName, ::StringW m_ClassName, ::System::Type* m_CachedType, bool _ValueChanged_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18756 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

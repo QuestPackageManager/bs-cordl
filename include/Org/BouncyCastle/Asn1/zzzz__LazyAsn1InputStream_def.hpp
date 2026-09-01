@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/LazyAsn1InputStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\LazyAsn1InputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,20 +33,20 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE LazyAsn1InputStream : public ::Org::BouncyCastle::Asn1::Asn1InputStream {
 public:
   // Declarations
-  /// @brief Method CreateDerSequence, addr 0x368f7b8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method CreateDerSequence, addr 0x3693578, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSequence* CreateDerSequence(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
-  /// @brief Method CreateDerSet, addr 0x368f898, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method CreateDerSet, addr 0x3693658, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSet* CreateDerSet(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
   static inline ::Org::BouncyCastle::Asn1::LazyAsn1InputStream* New_ctor(::ArrayW<uint8_t> input);
 
   static inline ::Org::BouncyCastle::Asn1::LazyAsn1InputStream* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor, addr 0x368f784, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3693544, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> input);
 
-  /// @brief Method .ctor, addr 0x368f788, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3693548, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
 protected:

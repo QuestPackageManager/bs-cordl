@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnHeaderColumnIcon.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnHeaderColumnIcon.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon* New_ctor();
 
-  /// @brief Method UpdateClassList, addr 0x6d2284c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method UpdateClassList, addr 0x6d2a3d0, size 0x14c, virtual false, abstract: false, final false
   inline void UpdateClassList();
 
   constexpr bool const& __cordl_internal_get__isImageInline_k__BackingField() const;
@@ -42,20 +42,20 @@ public:
 
   constexpr void __cordl_internal_set__isImageInline_k__BackingField(bool value);
 
-  /// @brief Method <.ctor>b__5_0, addr 0x6d22a3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__5_0, addr 0x6d2a5c0, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__5_0(::UnityEngine::UIElements::CustomStyleResolvedEvent* evt);
 
-  /// @brief Method .ctor, addr 0x6d22738, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2a2bc, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_isImageInline, addr 0x6d22728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isImageInline, addr 0x6d2a2ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_isImageInline();
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_isImageInline, addr 0x6d22730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isImageInline, addr 0x6d2a2b4, size 0x8, virtual false, abstract: false, final false
   inline void set_isImageInline(bool value);
 
 protected:

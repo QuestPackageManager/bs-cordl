@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PointerCaptureHelper.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PointerCaptureHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,34 +32,34 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerCaptureHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x6db3f00, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x6dbba84, size 0xd4, virtual false, abstract: false, final false
   static inline void ActivateCompatibilityMouseEvents(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
-  /// @brief Method CapturePointer, addr 0x6daec90, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CapturePointer, addr 0x6db6814, size 0x38, virtual false, abstract: false, final false
   static inline void CapturePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method GetCapturingElement, addr 0x6db3d24, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetCapturingElement, addr 0x6dbb8a8, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IEventHandler* GetCapturingElement(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
-  /// @brief Method GetStateFor, addr 0x6db3a44, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetStateFor, addr 0x6dbb5c8, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PointerDispatchState* GetStateFor(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method HasPointerCapture, addr 0x6daeb8c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasPointerCapture, addr 0x6db6710, size 0x38, virtual false, abstract: false, final false
   static inline bool HasPointerCapture(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method PreventCompatibilityMouseEvents, addr 0x6db4008, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PreventCompatibilityMouseEvents, addr 0x6dbbb8c, size 0xd4, virtual false, abstract: false, final false
   static inline void PreventCompatibilityMouseEvents(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
-  /// @brief Method ProcessPointerCapture, addr 0x6daecc8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerCapture, addr 0x6db684c, size 0xd4, virtual false, abstract: false, final false
   static inline void ProcessPointerCapture(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x6db3cb0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x6dbb834, size 0x38, virtual false, abstract: false, final false
   static inline void ReleasePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x6db3dfc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x6dbb980, size 0xd4, virtual false, abstract: false, final false
   static inline void ReleasePointer(::UnityEngine::UIElements::IPanel* panel, int32_t pointerId);
 
-  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x6db410c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x6dbbc90, size 0x114, virtual false, abstract: false, final false
   static inline bool ShouldSendCompatibilityMouseEvents(::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::UIElements::IPointerEvent* evt);
 
 protected:

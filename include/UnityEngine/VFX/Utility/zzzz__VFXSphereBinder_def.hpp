@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXSphereBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXSphereBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,27 +50,27 @@ public:
   /// @brief Field m_Radius, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Radius, put = __cordl_internal_set_m_Radius)) ::UnityEngine::VFX::Utility::ExposedProperty* m_Radius;
 
-  /// @brief Method GetSphereColliderScale, addr 0x69dff8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetSphereColliderScale, addr 0x69e7a08, size 0x14, virtual false, abstract: false, final false
   inline float_t GetSphereColliderScale(::UnityEngine::Vector3 scale);
 
-  /// @brief Method IsValid, addr 0x69dfd58, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69e77d4, size 0xec, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXSphereBinder* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69dfd3c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x69e77b8, size 0x18, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x69dfd54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x69e77d0, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method ToString, addr 0x69dffa0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69e7a1c, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69dfe44, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69e78c0, size 0x148, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
-  /// @brief Method UpdateSubProperties, addr 0x69dfc54, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubProperties, addr 0x69e76d0, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateSubProperties();
 
   constexpr ::UnityW<::UnityEngine::SphereCollider> const& __cordl_internal_get_Target() const;
@@ -103,13 +103,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Radius(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69e009c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e7b18, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Property, addr 0x69dfc14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Property, addr 0x69e7690, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Property();
 
-  /// @brief Method set_Property, addr 0x69dfc2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Property, addr 0x69e76a8, size 0x28, virtual false, abstract: false, final false
   inline void set_Property(::StringW value);
 
 protected:
@@ -127,7 +127,7 @@ public:
   VFXSphereBinder(VFXSphereBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20007 };
 
   /// @brief Field m_Property, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;

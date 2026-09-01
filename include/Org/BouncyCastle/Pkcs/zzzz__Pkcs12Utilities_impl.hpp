@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs12Utilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkcs\Pkcs12Utilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Utilities_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Pkcs::Pkcs12Utilities.ConvertToDefiniteLength
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Pkcs::Pkcs12Utilities::ConvertToDefiniteLength)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x35b6578;
+  constexpr static std::size_t addrs = 0x35ba338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, ::ArrayW<char16_t>)>(&::Org::BouncyCastle::Pkcs::Pkcs12Utilities::ConvertToDefiniteLength)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x35b661c;
+  constexpr static std::size_t addrs = 0x35ba3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Utilities::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12Utilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35b6a38;
+  constexpr static std::size_t addrs = 0x35ba7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Utilities*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_SpriteCharacter.hpp"
+// IWYU pragma private; include "TMPro\TMP_SpriteCharacter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x699a548, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a1fc4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x699a6ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a2128, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method .ctor, addr 0x699a704, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a2180, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x699a6d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a2154, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method get_name, addr 0x699a698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x69a2114, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x699a6a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x69a211c, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   TMP_SpriteCharacter(TMP_SpriteCharacter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15982 };
 
   /// @brief Field m_Name, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_Name;

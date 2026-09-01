@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/EventSystems/Physics2DRaycaster.hpp"
+// IWYU pragma private; include "UnityEngine\EventSystems\Physics2DRaycaster.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
 
   static inline ::UnityEngine::EventSystems::Physics2DRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x6e1b9e8, size 0x658, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x6e2356c, size 0x658, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   constexpr ::ArrayW<::UnityEngine::RaycastHit2D> const& __cordl_internal_get_m_Hits() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Hits(::ArrayW<::UnityEngine::RaycastHit2D> value);
 
-  /// @brief Method .ctor, addr 0x6e1b9d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e23554, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   Physics2DRaycaster(Physics2DRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17579 };
 
   /// @brief Field m_Hits, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::RaycastHit2D> ___m_Hits;

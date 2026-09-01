@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/PushbackStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\PushbackStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::PushbackStream* New_ctor(::System::IO::Stream* s);
 
-  /// @brief Method Read, addr 0x362be18, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x362fbd8, size 0x6c, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x362bddc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x362fb9c, size 0x3c, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Unread, addr 0x362be84, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Unread, addr 0x362fc44, size 0x64, virtual true, abstract: false, final false
   inline void Unread(int32_t b);
 
   constexpr int32_t const& __cordl_internal_get_buf() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_buf(int32_t value);
 
-  /// @brief Method .ctor, addr 0x362bdcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362fb8c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* s);
 
 protected:

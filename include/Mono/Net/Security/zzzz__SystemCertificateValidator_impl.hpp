@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Net/Security/SystemCertificateValidator.hpp"
+// IWYU pragma private; include "Mono\Net\Security\SystemCertificateValidator.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyUsageFlags_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/zzzz__SystemCertificateValidator_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Security::Interface::MonoTlsSettings*)>(&::Mono::Net::Security::SystemCertificateValidator::NeedsChain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fd1cac;
+  constexpr static std::size_t addrs = 0x5fd9728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::SystemCertificateValidator*>(),

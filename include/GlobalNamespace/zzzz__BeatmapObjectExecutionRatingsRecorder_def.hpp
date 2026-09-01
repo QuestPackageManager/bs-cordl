@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapObjectExecutionRatingsRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapObjectExecutionRatingsRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,21 +72,21 @@ public:
 
   __declspec(property(get = get_beatmapObjectExecutionRatings)) ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* beatmapObjectExecutionRatings;
 
-  /// @brief Method HandleObstacleDidPassAvoidedMark, addr 0x58c5e9c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleDidPassAvoidedMark, addr 0x58c584c, size 0x16c, virtual false, abstract: false, final false
   inline void HandleObstacleDidPassAvoidedMark(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandlePlayerHeadDidEnterObstacle, addr 0x58c5d68, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeadDidEnterObstacle, addr 0x58c5718, size 0x134, virtual false, abstract: false, final false
   inline void HandlePlayerHeadDidEnterObstacle(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleScoringForNoteDidFinish, addr 0x58c597c, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method HandleScoringForNoteDidFinish, addr 0x58c532c, size 0x3ec, virtual false, abstract: false, final false
   inline void HandleScoringForNoteDidFinish(::GlobalNamespace::ScoringElement* scoringElement);
 
   static inline ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58c56c0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58c5070, size 0x1fc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58c5454, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58c4e04, size 0x1ac, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -125,10 +125,10 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x58c6008, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c59b8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapObjectExecutionRatings, addr 0x58c544c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapObjectExecutionRatings, addr 0x58c4dfc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
 
 protected:

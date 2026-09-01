@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/DefaultDigestAlgorithmIdentifierFinder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\DefaultDigestAlgorithmIdentifierFinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x36b47ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36b856c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method find, addr 0x36c4710, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method find, addr 0x36c84d0, size 0x18c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* find(::StringW digAlgName);
 
-  /// @brief Method find, addr 0x36b47b0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method find, addr 0x36b8570, size 0x25c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* find(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
 
   static inline ::System::Collections::IDictionary* getStaticF_digestNameToOids();

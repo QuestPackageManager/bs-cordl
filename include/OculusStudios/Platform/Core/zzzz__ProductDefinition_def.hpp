@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/ProductDefinition.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\ProductDefinition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,20 +92,20 @@ public:
 
   constexpr void __cordl_internal_set__ownershipRequirement(::OculusStudios::Platform::Core::OwnershipRequirement value);
 
-  /// @brief Method .ctor, addr 0x5f29f4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e40c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* idForVendor,
                     ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* children, ::OculusStudios::Platform::Core::OwnershipRequirement ownershipRequirement);
 
-  /// @brief Method get_children, addr 0x5f29f6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_children, addr 0x5f2e42c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>* get_children();
 
-  /// @brief Method get_id, addr 0x5f29f5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x5f2e41c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
-  /// @brief Method get_idForVendor, addr 0x5f29f64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_idForVendor, addr 0x5f2e424, size 0x8, virtual true, abstract: false, final true
   inline ::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* get_idForVendor();
 
-  /// @brief Method get_ownershipRequirement, addr 0x5f29f74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ownershipRequirement, addr 0x5f2e434, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::Platform::Core::OwnershipRequirement get_ownershipRequirement();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IProductDefinition"
@@ -126,7 +126,7 @@ public:
   ProductDefinition(ProductDefinition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22441 };
 
   /// @brief Field _children, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::OculusStudios::Platform::Core::ProductDefinition*>* ____children;

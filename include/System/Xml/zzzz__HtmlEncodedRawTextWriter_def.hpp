@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/HtmlEncodedRawTextWriter.hpp"
+// IWYU pragma private; include "System\Xml\HtmlEncodedRawTextWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,74 +69,74 @@ public:
   /// @brief Field uriEscapingBuffer, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_uriEscapingBuffer, put = __cordl_internal_set_uriEscapingBuffer)) ::ArrayW<uint8_t> uriEscapingBuffer;
 
-  /// @brief Method Init, addr 0x61a579c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x61ad218, size 0x168, virtual false, abstract: false, final false
   inline void Init(::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::HtmlEncodedRawTextWriter* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::HtmlEncodedRawTextWriter* New_ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method OutputRestAmps, addr 0x61a6aac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OutputRestAmps, addr 0x61ae528, size 0x94, virtual false, abstract: false, final false
   inline void OutputRestAmps();
 
-  /// @brief Method StartElementContent, addr 0x61a61ac, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method StartElementContent, addr 0x61adc28, size 0x54, virtual true, abstract: false, final false
   inline void StartElementContent();
 
-  /// @brief Method WriteCharEntity, addr 0x61a7048, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method WriteCharEntity, addr 0x61aeac4, size 0x50, virtual true, abstract: false, final false
   inline void WriteCharEntity(char16_t ch);
 
-  /// @brief Method WriteChars, addr 0x61a70e8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x61aeb64, size 0x88, virtual true, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteDocType, addr 0x61a5bcc, size 0x258, virtual true, abstract: false, final false
+  /// @brief Method WriteDocType, addr 0x61ad648, size 0x258, virtual true, abstract: false, final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteEndAttribute, addr 0x61a6a20, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method WriteEndAttribute, addr 0x61ae49c, size 0x8c, virtual true, abstract: false, final false
   inline void WriteEndAttribute();
 
-  /// @brief Method WriteEndElement, addr 0x61a6310, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x61add8c, size 0xf8, virtual true, abstract: false, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteEntityRef, addr 0x61a6ff8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method WriteEntityRef, addr 0x61aea74, size 0x50, virtual true, abstract: false, final false
   inline void WriteEntityRef(::StringW name);
 
-  /// @brief Method WriteFullEndElement, addr 0x61a657c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method WriteFullEndElement, addr 0x61adff8, size 0xf8, virtual true, abstract: false, final false
   inline void WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteHtmlAttributeText, addr 0x61a7bbc, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method WriteHtmlAttributeText, addr 0x61af638, size 0x2a0, virtual false, abstract: false, final false
   inline void WriteHtmlAttributeText(char16_t* pSrc, char16_t* pSrcEnd);
 
-  /// @brief Method WriteHtmlAttributeTextBlock, addr 0x61a6fa8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method WriteHtmlAttributeTextBlock, addr 0x61aea24, size 0x40, virtual false, abstract: false, final false
   inline void WriteHtmlAttributeTextBlock(char16_t* pSrc, char16_t* pSrcEnd);
 
-  /// @brief Method WriteHtmlElementTextBlock, addr 0x61a6fe8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method WriteHtmlElementTextBlock, addr 0x61aea64, size 0x10, virtual false, abstract: false, final false
   inline void WriteHtmlElementTextBlock(char16_t* pSrc, char16_t* pSrcEnd);
 
-  /// @brief Method WriteMetaElement, addr 0x61a6200, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method WriteMetaElement, addr 0x61adc7c, size 0x110, virtual false, abstract: false, final false
   inline void WriteMetaElement();
 
-  /// @brief Method WriteProcessingInstruction, addr 0x61a6b40, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method WriteProcessingInstruction, addr 0x61ae5bc, size 0x128, virtual true, abstract: false, final false
   inline void WriteProcessingInstruction(::StringW target, ::StringW text);
 
-  /// @brief Method WriteStartAttribute, addr 0x61a6780, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method WriteStartAttribute, addr 0x61ae1fc, size 0x17c, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartElement, addr 0x61a5eb4, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x61ad930, size 0x128, virtual true, abstract: false, final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteString, addr 0x61a6f44, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method WriteString, addr 0x61ae9c0, size 0x64, virtual true, abstract: false, final false
   inline void WriteString(::StringW text);
 
-  /// @brief Method WriteSurrogateCharEntity, addr 0x61a7098, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method WriteSurrogateCharEntity, addr 0x61aeb14, size 0x50, virtual true, abstract: false, final false
   inline void WriteSurrogateCharEntity(char16_t lowChar, char16_t highChar);
 
-  /// @brief Method WriteUriAttributeText, addr 0x61a781c, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method WriteUriAttributeText, addr 0x61af298, size 0x3a0, virtual false, abstract: false, final false
   inline void WriteUriAttributeText(char16_t* pSrc, char16_t* pSrcEnd);
 
-  /// @brief Method WriteXmlDeclaration, addr 0x61a5bc4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlDeclaration, addr 0x61ad640, size 0x4, virtual true, abstract: false, final false
   inline void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone);
 
-  /// @brief Method WriteXmlDeclaration, addr 0x61a5bc8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlDeclaration, addr 0x61ad644, size 0x4, virtual true, abstract: false, final false
   inline void WriteXmlDeclaration(::StringW xmldecl);
 
   constexpr ::System::Xml::AttributeProperties const& __cordl_internal_get_currentAttributeProperties() const;
@@ -181,10 +181,10 @@ public:
 
   constexpr void __cordl_internal_set_uriEscapingBuffer(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x61a5904, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ad380, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method .ctor, addr 0x61a5694, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ad110, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::TernaryTreeReadOnly* getStaticF_attributePropertySearch();
@@ -210,7 +210,7 @@ public:
   HtmlEncodedRawTextWriter(HtmlEncodedRawTextWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9268 };
 
   /// @brief Field elementScope, offset: 0xc0, size: 0x8, def value: None
   ::System::Xml::ByteStack* ___elementScope;

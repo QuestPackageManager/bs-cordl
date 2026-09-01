@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/AbuseReport.hpp"
+// IWYU pragma private; include "Oculus\Platform\AbuseReport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE AbuseReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReportRequestHandled, addr 0x5ddf95c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReportRequestHandled, addr 0x5de3e18, size 0x154, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* ReportRequestHandled(::Oculus::Platform::ReportRequestResponse response);
 
-  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x5ddfab0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x5de3f6c, size 0x7c, virtual false, abstract: false, final false
   static inline void SetReportButtonPressedNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
 protected:
@@ -50,7 +50,7 @@ public:
   AbuseReport(AbuseReport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17950 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

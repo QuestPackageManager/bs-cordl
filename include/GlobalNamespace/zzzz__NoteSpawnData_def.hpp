@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteSpawnData.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteSpawnData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE NoteSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x58cb9b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58cb364, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 moveStartOffset, ::UnityEngine::Vector3 moveEndOffset, ::UnityEngine::Vector3 jumpEndOffset, float_t gravityBase);
 
   // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Pool/PoolManager.hpp"
+// IWYU pragma private; include "UnityEngine\Pool\PoolManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   __declspec(property(get = getStaticF_s_WeakPoolReferences,
                       put = setStaticF_s_WeakPoolReferences)) ::System::Collections::Generic::List_1<::System::WeakReference_1<::UnityEngine::Pool::IPool*>*>* s_WeakPoolReferences;
 
-  /// @brief Method Register, addr 0x6afa014, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6b01a2c, size 0x128, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::Pool::IPool* pool);
 
   static inline ::System::Collections::Generic::List_1<::System::WeakReference_1<::UnityEngine::Pool::IPool*>*>* getStaticF_s_WeakPoolReferences();
@@ -54,7 +54,7 @@ public:
   PoolManager(PoolManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10646 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

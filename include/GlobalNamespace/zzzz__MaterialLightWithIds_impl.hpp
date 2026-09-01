@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MaterialLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace\MaterialLightWithIds.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialLightWithIds_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialLightWithIds::*)()>(&::GlobalNamespace::MaterialLightWithIds::Awake)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x587052c;
+  constexpr static std::size_t addrs = 0x586fe2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialLightWithIds::*)(::UnityEngine::Color)>(&::GlobalNamespace::MaterialLightWithIds::ColorWasSet)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x58705a0;
+  constexpr static std::size_t addrs = 0x586fea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialLightWithIds::*)()>(&::GlobalNamespace::MaterialLightWithIds::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x587070c;
+  constexpr static std::size_t addrs = 0x587000c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialLightWithIds*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/ConnectedPlayerName.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\ConnectedPlayerName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerName* New_ctor();
 
-  /// @brief Method Start, addr 0x326b948, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x326f554, size 0xc8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x326ba10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326f61c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   ConnectedPlayerName(ConnectedPlayerName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21656 };
 
   /// @brief Field _nameText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;

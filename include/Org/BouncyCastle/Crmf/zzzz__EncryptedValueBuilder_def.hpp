@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crmf/EncryptedValueBuilder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crmf\EncryptedValueBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,16 +48,16 @@ public:
   /// @brief Field wrapper, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_wrapper, put = __cordl_internal_set_wrapper)) ::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper;
 
-  /// @brief Method Build, addr 0x36d7004, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x36dadc4, size 0x140, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* Build(::Org::BouncyCastle::X509::X509Certificate* holder);
 
-  /// @brief Method Build, addr 0x36d7144, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x36daf04, size 0x5b0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* Build(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo);
 
-  /// @brief Method Build, addr 0x36d67c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x36da580, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* Build(::ArrayW<char16_t> revocationPassphrase);
 
-  /// @brief Method EncryptData, addr 0x36d68b4, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method EncryptData, addr 0x36da674, size 0x750, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* EncryptData(::ArrayW<uint8_t> data);
 
   static inline ::Org::BouncyCastle::Crmf::EncryptedValueBuilder* New_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor);
@@ -65,7 +65,7 @@ public:
   static inline ::Org::BouncyCastle::Crmf::EncryptedValueBuilder* New_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor,
                                                                            ::Org::BouncyCastle::Crmf::IEncryptedValuePadder* padder);
 
-  /// @brief Method PadData, addr 0x36d67f0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method PadData, addr 0x36da5b0, size 0xc4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> PadData(::ArrayW<uint8_t> data);
 
   constexpr ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* const& __cordl_internal_get_encryptor() const;
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set_wrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
 
-  /// @brief Method .ctor, addr 0x36d67a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36da568, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor);
 
-  /// @brief Method .ctor, addr 0x36d67b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36da574, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor, ::Org::BouncyCastle::Crmf::IEncryptedValuePadder* padder);
 
 protected:

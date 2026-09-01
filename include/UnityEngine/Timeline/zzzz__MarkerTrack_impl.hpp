@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/MarkerTrack.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\MarkerTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__MarkerTrack_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (::UnityEngine::Timeline::MarkerTrack::*)()>(
     &::UnityEngine::Timeline::MarkerTrack::get_outputs)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x69beb80;
+  constexpr static std::size_t addrs = 0x69c65fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::MarkerTrack::*)()>(&::UnityEngine::Timeline::MarkerTrack::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x69bed48;
+  constexpr static std::size_t addrs = 0x69c67c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::MarkerTrack*>(), { ".ctor", {}, {} })));

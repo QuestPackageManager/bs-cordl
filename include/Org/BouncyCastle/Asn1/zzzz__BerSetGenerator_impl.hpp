@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerSetGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerSetGenerator.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerGenerator_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerSetGenerator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerSetGenerator::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::BerSetGenerator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x368860c;
+  constexpr static std::size_t addrs = 0x368c3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerSetGenerator::*)(::System::IO::Stream*, int32_t, bool)>(
     &::Org::BouncyCastle::Asn1::BerSetGenerator::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3688620;
+  constexpr static std::size_t addrs = 0x368c3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

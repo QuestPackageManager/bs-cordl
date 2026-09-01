@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Numerics/BigIntegerCalculator.hpp"
+// IWYU pragma private; include "System\Numerics\BigIntegerCalculator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,76 +33,76 @@ public:
   /// @brief Field SquareThreshold, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_SquareThreshold, put = setStaticF_SquareThreshold)) int32_t SquareThreshold;
 
-  /// @brief Method Add, addr 0x60ec180, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x60f3bfc, size 0xf4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Add(::ArrayW<uint32_t> left, ::ArrayW<uint32_t> right);
 
-  /// @brief Method Add, addr 0x60ec09c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x60f3b18, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Add(::ArrayW<uint32_t> left, uint32_t right);
 
-  /// @brief Method Add, addr 0x60ee6ac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x60f6128, size 0x84, virtual false, abstract: false, final false
   static inline void Add(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint32_t* bits, int32_t bitsLength);
 
-  /// @brief Method AddDivisor, addr 0x60eec9c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method AddDivisor, addr 0x60f6718, size 0x40, virtual false, abstract: false, final false
   static inline uint32_t AddDivisor(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength);
 
-  /// @brief Method AddSelf, addr 0x60ee730, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddSelf, addr 0x60f61ac, size 0x70, virtual false, abstract: false, final false
   static inline void AddSelf(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength);
 
-  /// @brief Method Compare, addr 0x60ec58c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x60f4008, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t Compare(::ArrayW<uint32_t> left, ::ArrayW<uint32_t> right);
 
-  /// @brief Method CreateCopy, addr 0x60ee818, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x60f6294, size 0x80, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> CreateCopy(::ArrayW<uint32_t> value);
 
-  /// @brief Method Divide, addr 0x60ede38, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0x60f58b4, size 0xe0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Divide(::ArrayW<uint32_t> left, ::ArrayW<uint32_t> right);
 
-  /// @brief Method Divide, addr 0x60edd74, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0x60f57f0, size 0xc4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Divide(::ArrayW<uint32_t> left, uint32_t right);
 
-  /// @brief Method Divide, addr 0x60ee898, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0x60f6314, size 0x304, virtual false, abstract: false, final false
   static inline void Divide(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint32_t* bits, int32_t bitsLength);
 
-  /// @brief Method DivideGuessTooBig, addr 0x60eec14, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method DivideGuessTooBig, addr 0x60f6690, size 0x40, virtual false, abstract: false, final false
   static inline bool DivideGuessTooBig(uint64_t q, uint64_t valHi, uint32_t valLo, uint32_t divHi, uint32_t divLo);
 
-  /// @brief Method LeadingZeros, addr 0x60eeb9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LeadingZeros, addr 0x60f6618, size 0x78, virtual false, abstract: false, final false
   static inline int32_t LeadingZeros(uint32_t value);
 
-  /// @brief Method Multiply, addr 0x60edb28, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x60f55a4, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Multiply(::ArrayW<uint32_t> left, ::ArrayW<uint32_t> right);
 
-  /// @brief Method Multiply, addr 0x60ed980, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x60f53fc, size 0xdc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Multiply(::ArrayW<uint32_t> left, uint32_t right);
 
-  /// @brief Method Multiply, addr 0x60ef194, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x60f6c10, size 0x4b4, virtual false, abstract: false, final false
   static inline void Multiply(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint32_t* bits, int32_t bitsLength);
 
-  /// @brief Method Remainder, addr 0x60ee0e8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Remainder, addr 0x60f5b64, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Remainder(::ArrayW<uint32_t> left, ::ArrayW<uint32_t> right);
 
-  /// @brief Method Remainder, addr 0x60ee080, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Remainder, addr 0x60f5afc, size 0x68, virtual false, abstract: false, final false
   static inline uint32_t Remainder(::ArrayW<uint32_t> left, uint32_t right);
 
-  /// @brief Method Square, addr 0x60eda5c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x60f54d8, size 0xcc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Square(::ArrayW<uint32_t> value);
 
-  /// @brief Method Square, addr 0x60eecdc, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x60f6758, size 0x3ec, virtual false, abstract: false, final false
   static inline void Square(uint32_t* value, int32_t valueLength, uint32_t* bits, int32_t bitsLength);
 
-  /// @brief Method Subtract, addr 0x60ec618, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x60f4094, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Subtract(::ArrayW<uint32_t> left, ::ArrayW<uint32_t> right);
 
-  /// @brief Method Subtract, addr 0x60ec4cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x60f3f48, size 0xc0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t> Subtract(::ArrayW<uint32_t> left, uint32_t right);
 
-  /// @brief Method Subtract, addr 0x60ee7a0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x60f621c, size 0x78, virtual false, abstract: false, final false
   static inline void Subtract(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint32_t* bits, int32_t bitsLength);
 
-  /// @brief Method SubtractCore, addr 0x60ef0c8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SubtractCore, addr 0x60f6b44, size 0xcc, virtual false, abstract: false, final false
   static inline void SubtractCore(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint32_t* core, int32_t coreLength);
 
-  /// @brief Method SubtractDivisor, addr 0x60eec54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SubtractDivisor, addr 0x60f66d0, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t SubtractDivisor(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint64_t q);
 
   static inline int32_t getStaticF_AllocationThreshold();
@@ -136,7 +136,7 @@ public:
   BigIntegerCalculator(BigIntegerCalculator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21844 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

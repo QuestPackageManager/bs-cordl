@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapEventData.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,18 +36,18 @@ public:
   /// @brief Method GetDefault, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
-  /// @brief Method GetDefault, addr 0x3256948, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x3259c48, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault(::GlobalNamespace::BeatmapEventData* nextData);
 
   static inline ::GlobalNamespace::BeatmapEventData* New_ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier);
 
-  /// @brief Method __ConnectWithNextSameTypeEventData, addr 0x3256930, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method __ConnectWithNextSameTypeEventData, addr 0x3259c30, size 0x10, virtual false, abstract: false, final false
   inline void __ConnectWithNextSameTypeEventData(::GlobalNamespace::BeatmapEventData* newNextSameTypeEvent);
 
-  /// @brief Method __ConnectWithPreviousSameTypeEventData, addr 0x3256920, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method __ConnectWithPreviousSameTypeEventData, addr 0x3259c20, size 0x10, virtual false, abstract: false, final false
   inline void __ConnectWithPreviousSameTypeEventData(::GlobalNamespace::BeatmapEventData* newPreviousSameTypeEvent);
 
-  /// @brief Method __ResetConnections, addr 0x3256940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method __ResetConnections, addr 0x3259c40, size 0x8, virtual false, abstract: false, final false
   inline void __ResetConnections();
 
   constexpr ::GlobalNamespace::BeatmapEventData* const& __cordl_internal_get__nextSameTypeEventData_k__BackingField() const;
@@ -62,19 +62,19 @@ public:
 
   constexpr void __cordl_internal_set__previousSameTypeEventData_k__BackingField(::GlobalNamespace::BeatmapEventData* value);
 
-  /// @brief Method .ctor, addr 0x3256544, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3259844, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier);
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x3256910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x3259c10, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x3256900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x3259c00, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* get_previousSameTypeEventData();
 
-  /// @brief Method set_nextSameTypeEventData, addr 0x3256918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nextSameTypeEventData, addr 0x3259c18, size 0x8, virtual false, abstract: false, final false
   inline void set_nextSameTypeEventData(::GlobalNamespace::BeatmapEventData* value);
 
-  /// @brief Method set_previousSameTypeEventData, addr 0x3256908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousSameTypeEventData, addr 0x3259c08, size 0x8, virtual false, abstract: false, final false
   inline void set_previousSameTypeEventData(::GlobalNamespace::BeatmapEventData* value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   BeatmapEventData(BeatmapEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21240 };
 
   /// @brief Field kGroupIdMultiplier offset 0xffffffff size 0x4
   static constexpr int32_t kGroupIdMultiplier{ static_cast<int32_t>(0x2710) };

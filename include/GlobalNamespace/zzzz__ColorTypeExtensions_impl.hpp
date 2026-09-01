@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorTypeExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorTypeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorTypeExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::ColorType)>(&::GlobalNamespace::ColorTypeExtensions::GetDefaultColorLabel)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x325941c;
+  constexpr static std::size_t addrs = 0x325c71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorType (*)(::GlobalNamespace::ColorType)>(&::GlobalNamespace::ColorTypeExtensions::Opposite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32594c0;
+  constexpr static std::size_t addrs = 0x325c7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/SpecialEventKeywordFiltersData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\SpecialEventKeywordFiltersData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__SpecialEventKeywordFiltersData_def.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__SpecialEventsForKeyword_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData::get_keywords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375a0d8;
+  constexpr static std::size_t addrs = 0x375fd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData::*)(
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>*)>(&::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375a0e0;
+  constexpr static std::size_t addrs = 0x375fd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

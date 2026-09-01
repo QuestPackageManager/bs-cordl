@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/API/UnityXRRenderTextureDesc.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\API\UnityXRRenderTextureDesc.hpp"
 #include "UnityEngine/XR/OpenXR/API/zzzz__UnityXRDepthTextureFormat_impl.hpp"
 #include "UnityEngine/XR/OpenXR/API/zzzz__UnityXRRenderTextureFormat_impl.hpp"
 #include "UnityEngine/XR/OpenXR/API/zzzz__UnityXRShadingRateFormat_impl.hpp"

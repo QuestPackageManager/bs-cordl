@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/TextWriter_NullTextWriter.hpp"
+// IWYU pragma private; include "System\IO\TextWriter_NullTextWriter.hpp"
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "System/IO/zzzz__TextWriter_NullTextWriter_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_NullTextWriter::*)()>(&::GlobalNamespace::TextWriter_NullTextWriter::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5bffed4;
+  constexpr static std::size_t addrs = 0x5c04390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextWriter_NullTextWriter*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::GlobalNamespace::TextWriter_NullTextWriter::*)()>(&::GlobalNamespace::TextWriter_NullTextWriter::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bfff68;
+  constexpr static std::size_t addrs = 0x5c04424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_NullTextWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::GlobalNamespace::TextWriter_NullTextWriter::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bfff70;
+  constexpr static std::size_t addrs = 0x5c0442c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_NullTextWriter::*)(::StringW)>(&::GlobalNamespace::TextWriter_NullTextWriter::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bfff74;
+  constexpr static std::size_t addrs = 0x5c04430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_NullTextWriter::*)()>(&::GlobalNamespace::TextWriter_NullTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bfff78;
+  constexpr static std::size_t addrs = 0x5c04434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_NullTextWriter::*)(::StringW)>(&::GlobalNamespace::TextWriter_NullTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bfff7c;
+  constexpr static std::size_t addrs = 0x5c04438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_NullTextWriter::*)(char16_t)>(&::GlobalNamespace::TextWriter_NullTextWriter::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bfff80;
+  constexpr static std::size_t addrs = 0x5c0443c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

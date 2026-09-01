@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/FloatFxEventBoxGroupConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\FloatFxEventBoxGroupConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE FloatFxEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x375f514, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x3765180, size 0x210, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
   static inline ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                      ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
-  /// @brief Method .ctor, addr 0x375e2ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3763f18, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
 protected:
@@ -61,7 +61,7 @@ public:
   FloatFxEventBoxGroupConverter(FloatFxEventBoxGroupConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleRule.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleRule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Properties(::ArrayW<::UnityEngine::UIElements::StyleProperty*> value);
 
-  /// @brief Method .ctor, addr 0x6c93ea4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9ba28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_properties, addr 0x6c93e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_properties, addr 0x6c9ba20, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleProperty*> get_properties();
 
 protected:

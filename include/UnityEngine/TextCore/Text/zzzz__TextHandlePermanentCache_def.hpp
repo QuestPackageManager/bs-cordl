@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextHandlePermanentCache.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextHandlePermanentCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,12 +38,12 @@ public:
   /// @brief Field syncRoot, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_syncRoot, put = __cordl_internal_set_syncRoot)) ::System::Object* syncRoot;
 
-  /// @brief Method AddTextInfoToCache, addr 0x6c08ed4, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method AddTextInfoToCache, addr 0x6c10a58, size 0x234, virtual true, abstract: false, final false
   inline void AddTextInfoToCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
   static inline ::UnityEngine::TextCore::Text::TextHandlePermanentCache* New_ctor();
 
-  /// @brief Method RemoveTextInfoFromCache, addr 0x6c09108, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method RemoveTextInfoFromCache, addr 0x6c10c8c, size 0x12c, virtual false, abstract: false, final false
   inline void RemoveTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
   constexpr ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* const& __cordl_internal_get_s_TextInfoPool() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_syncRoot(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x6c09234, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c10db8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   TextHandlePermanentCache(TextHandlePermanentCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17274 };
 
   /// @brief Field s_TextInfoPool, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::UnityEngine::TextCore::Text::TextInfo*>* ___s_TextInfoPool;

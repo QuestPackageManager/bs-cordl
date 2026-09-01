@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UI/Outline.hpp"
+// IWYU pragma private; include "UnityEngine\UI\Outline.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +22,12 @@ namespace UnityEngine::UI {
 class CORDL_TYPE Outline : public ::UnityEngine::UI::Shadow {
 public:
   // Declarations
-  /// @brief Method ModifyMesh, addr 0x6e0c0ac, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x6e13c30, size 0x254, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::UnityEngine::UI::Outline* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e0c088, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e13c0c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   Outline(Outline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17516 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

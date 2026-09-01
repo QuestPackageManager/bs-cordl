@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Scripting/RequiredByNativeCodeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Scripting\RequiredByNativeCodeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Scripting/zzzz__RequiredByNativeCodeAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Scripting::RequiredByNativeCodeAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)()>(&::UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6baea0c;
+  constexpr static std::size_t addrs = 0x6bb6590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Scripting::RequiredByNativeCodeAttribute*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(::StringW)>(&::UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baea10;
+  constexpr static std::size_t addrs = 0x6bb6594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(bool)>(&::UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baea18;
+  constexpr static std::size_t addrs = 0x6bb659c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(::StringW)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baea20;
+  constexpr static std::size_t addrs = 0x6bb65a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(bool)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Optional)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baea28;
+  constexpr static std::size_t addrs = 0x6bb65ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(bool)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_GenerateProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baea30;
+  constexpr static std::size_t addrs = 0x6bb65b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlNodeEventArgs.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlNodeEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlNodeEventArgs_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlNodeEventArgs::*)(::System::Xml::XmlNode*, int32_t, int32_t, ::System::Object*)>(
     &::System::Xml::Serialization::XmlNodeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x62e3df0;
+  constexpr static std::size_t addrs = 0x62eb86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

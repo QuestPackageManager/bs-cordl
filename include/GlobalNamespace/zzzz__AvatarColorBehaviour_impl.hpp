@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AvatarColorBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace\AvatarColorBehaviour.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(::UnityEngine::Playables::Playable)>(&::GlobalNamespace::AvatarColorBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5903c48;
+  constexpr static std::size_t addrs = 0x5907234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(
     &::GlobalNamespace::AvatarColorBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5903cc0;
+  constexpr static std::size_t addrs = 0x59072ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::AvatarColorBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5903ec4;
+  constexpr static std::size_t addrs = 0x59074b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)()>(&::GlobalNamespace::AvatarColorBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5903f54;
+  constexpr static std::size_t addrs = 0x5907540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AvatarColorBehaviour*>(), { ".ctor", {}, {} })));

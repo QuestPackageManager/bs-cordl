@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UnityException.hpp"
+// IWYU pragma private; include "UnityEngine\UnityException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   static inline ::UnityEngine::UnityException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x6adf220, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae6c38, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6adf2a8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae6cc0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x6adcde4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae47fc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -56,7 +56,7 @@ public:
   UnityException(UnityException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10365 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

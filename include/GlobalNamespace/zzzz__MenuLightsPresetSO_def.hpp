@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MenuLightsPresetSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MenuLightsPresetSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__lightIdColorPairs(::ArrayW<::GlobalNamespace::LightIdColorPair*> value);
 
-  /// @brief Method .ctor, addr 0x5a2c498, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a30954, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightIdColorPairs, addr 0x5a2c488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightIdColorPairs, addr 0x5a30944, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LightIdColorPair*> get_lightIdColorPairs();
 
-  /// @brief Method set_lightIdColorPairs, addr 0x5a2c490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightIdColorPairs, addr 0x5a3094c, size 0x8, virtual false, abstract: false, final false
   inline void set_lightIdColorPairs(::ArrayW<::GlobalNamespace::LightIdColorPair*> value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   MenuLightsPresetSO(MenuLightsPresetSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23706 };
 
   /// @brief Field _lightIdColorPairs, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LightIdColorPair*> ____lightIdColorPairs;

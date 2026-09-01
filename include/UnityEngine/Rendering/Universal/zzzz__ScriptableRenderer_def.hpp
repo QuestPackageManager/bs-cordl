@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScriptableRenderer.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScriptableRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -338,7 +338,7 @@ public:
   Profiling_ScriptableRenderer_RenderBlock(Profiling_ScriptableRenderer_RenderBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12720 };
 
   /// @brief Field k_Name offset 0xffffffff size 0x8
   static constexpr ::ConstString k_Name{ u"RenderPassBlock" };
@@ -385,7 +385,7 @@ public:
   Profiling_ScriptableRenderer_RenderPass(Profiling_ScriptableRenderer_RenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12721 };
 
   /// @brief Field k_Name offset 0xffffffff size 0x8
   static constexpr ::ConstString k_Name{ u"ScriptableRenderPass" };
@@ -569,7 +569,7 @@ public:
   ScriptableRenderer_Profiling(ScriptableRenderer_Profiling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12722 };
 
   /// @brief Field k_Name offset 0xffffffff size 0x8
   static constexpr ::ConstString k_Name{ u"ScriptableRenderer" };
@@ -587,7 +587,7 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE ScriptableRenderer_RenderPassDescriptor {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x686b6d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6873150, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t sampleCount, int32_t rtID);
 
   // Ctor Parameters []
@@ -599,7 +599,7 @@ public:
   constexpr ScriptableRenderer_RenderPassDescriptor(int32_t w, int32_t h, int32_t samples, int32_t depthID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12723 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -661,19 +661,19 @@ public:
 
   constexpr void __cordl_internal_set__msaa_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x686b700, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687317c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cameraStacking, addr 0x686b6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraStacking, addr 0x687315c, size 0x8, virtual false, abstract: false, final false
   inline bool get_cameraStacking();
 
-  /// @brief Method get_msaa, addr 0x686b6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_msaa, addr 0x687316c, size 0x8, virtual false, abstract: false, final false
   inline bool get_msaa();
 
-  /// @brief Method set_cameraStacking, addr 0x686b6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cameraStacking, addr 0x6873164, size 0x8, virtual false, abstract: false, final false
   inline void set_cameraStacking(bool value);
 
-  /// @brief Method set_msaa, addr 0x686b6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_msaa, addr 0x6873174, size 0x8, virtual false, abstract: false, final false
   inline void set_msaa(bool value);
 
 protected:
@@ -691,7 +691,7 @@ public:
   ScriptableRenderer_RenderingFeatures(ScriptableRenderer_RenderingFeatures const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12724 };
 
   /// @brief Field <cameraStacking>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____cameraStacking_k__BackingField;
@@ -759,7 +759,7 @@ public:
   ScriptableRenderer_RenderPassBlock(ScriptableRenderer_RenderPassBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12725 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -812,7 +812,7 @@ public:
 
   constexpr void __cordl_internal_set_xrPass(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x686b760, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68731dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -830,7 +830,7 @@ public:
   ScriptableRenderer_VFXProcessCameraPassData(ScriptableRenderer_VFXProcessCameraPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12726 };
 
   /// @brief Field renderingData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalRenderingData* ___renderingData;
@@ -876,7 +876,7 @@ public:
 
   constexpr void __cordl_internal_set_gizmoRenderList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x686b764, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68731e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -894,7 +894,7 @@ public:
   ScriptableRenderer_DrawGizmosPassData(ScriptableRenderer_DrawGizmosPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12727 };
 
   /// @brief Field gizmoRenderList, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___gizmoRenderList;
@@ -925,7 +925,7 @@ public:
 
   constexpr void __cordl_internal_set_wireOverlayList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x686b768, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68731e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -943,7 +943,7 @@ public:
   ScriptableRenderer_DrawWireOverlayPassData(ScriptableRenderer_DrawWireOverlayPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12728 };
 
   /// @brief Field wireOverlayList, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___wireOverlayList;
@@ -974,7 +974,7 @@ public:
 
   constexpr void __cordl_internal_set_cameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* value);
 
-  /// @brief Method .ctor, addr 0x686b76c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68731e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -992,7 +992,7 @@ public:
   ScriptableRenderer_BeginXRPassData(ScriptableRenderer_BeginXRPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12729 };
 
   /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
@@ -1023,7 +1023,7 @@ public:
 
   constexpr void __cordl_internal_set_cameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* value);
 
-  /// @brief Method .ctor, addr 0x686b770, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68731ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1041,7 +1041,7 @@ public:
   ScriptableRenderer_EndXRPassData(ScriptableRenderer_EndXRPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12730 };
 
   /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
@@ -1063,7 +1063,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::ScriptableRenderer_DummyData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x686b774, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68731f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1081,7 +1081,7 @@ public:
   ScriptableRenderer_DummyData(ScriptableRenderer_DummyData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1134,7 +1134,7 @@ public:
 
   constexpr void __cordl_internal_set_renderer(::UnityEngine::Rendering::Universal::ScriptableRenderer* value);
 
-  /// @brief Method .ctor, addr 0x686b778, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68731f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1152,7 +1152,7 @@ public:
   ScriptableRenderer_PassData(ScriptableRenderer_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12732 };
 
   /// @brief Field renderer, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScriptableRenderer* ___renderer;
@@ -1192,19 +1192,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x686bb20, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x687359c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEnumerator, addr 0x686baf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6873570, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderBlocks_ScriptableRenderer_BlockRange GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x686bafc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6873578, size 0x1c, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x686bad8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6873554, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t begin, int32_t end);
 
-  /// @brief Method get_Current, addr 0x686bb18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6873594, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Current();
 
   /// @brief Convert to "::System::IDisposable"
@@ -1218,7 +1218,7 @@ public:
   constexpr RenderBlocks_ScriptableRenderer_BlockRange(int32_t m_Current, int32_t m_End) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12733 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -1251,19 +1251,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x686ba48, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68734c4, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FillBlockRanges, addr 0x686b930, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FillBlockRanges, addr 0x68733ac, size 0x118, virtual false, abstract: false, final false
   inline void FillBlockRanges(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::ScriptableRenderPass*>* activeRenderPassQueue);
 
-  /// @brief Method GetLength, addr 0x686baa0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x687351c, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetLength(int32_t index);
 
-  /// @brief Method GetRange, addr 0x686baac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetRange, addr 0x6873528, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderBlocks_ScriptableRenderer_BlockRange GetRange(int32_t index);
 
-  /// @brief Method .ctor, addr 0x686b77c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68731f8, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::ScriptableRenderPass*>* activeRenderPassQueue);
 
   /// @brief Convert to "::System::IDisposable"
@@ -1280,7 +1280,7 @@ public:
                                             ::Unity::Collections::NativeArray_1<int32_t> m_BlockRanges, ::Unity::Collections::NativeArray_1<int32_t> m_BlockRangeLengths) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12734 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -1348,28 +1348,28 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ScriptableRenderer___c* New_ctor();
 
-  /// @brief Method <BeginRenderGraphXRRendering>b__147_0, addr 0x686bf44, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method <BeginRenderGraphXRRendering>b__147_0, addr 0x68739c0, size 0x19c, virtual false, abstract: false, final false
   inline void _BeginRenderGraphXRRendering_b__147_0(::UnityEngine::Rendering::Universal::ScriptableRenderer_BeginXRPassData* data,
                                                     ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <EndRenderGraphXRRendering>b__149_0, addr 0x686c160, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method <EndRenderGraphXRRendering>b__149_0, addr 0x6873bdc, size 0x198, virtual false, abstract: false, final false
   inline void _EndRenderGraphXRRendering_b__149_0(::UnityEngine::Rendering::Universal::ScriptableRenderer_EndXRPassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <InitRenderGraphFrame>b__138_0, addr 0x686bb7c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method <InitRenderGraphFrame>b__138_0, addr 0x68735f8, size 0xfc, virtual false, abstract: false, final false
   inline void _InitRenderGraphFrame_b__138_0(::UnityEngine::Rendering::Universal::ScriptableRenderer_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* rgContext);
 
-  /// @brief Method <ProcessVFXCameraCommand>b__140_0, addr 0x686bc78, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method <ProcessVFXCameraCommand>b__140_0, addr 0x68736f4, size 0xfc, virtual false, abstract: false, final false
   inline void _ProcessVFXCameraCommand_b__140_0(::UnityEngine::Rendering::Universal::ScriptableRenderer_VFXProcessCameraPassData* data,
                                                 ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <SetEditorTarget>b__151_0, addr 0x686c2f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <SetEditorTarget>b__151_0, addr 0x6873d74, size 0x60, virtual false, abstract: false, final false
   inline void _SetEditorTarget_b__151_0(::UnityEngine::Rendering::Universal::ScriptableRenderer_DummyData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method <SetupRenderGraphCameraProperties>b__141_0, addr 0x686bd74, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method <SetupRenderGraphCameraProperties>b__141_0, addr 0x68737f0, size 0x1d0, virtual false, abstract: false, final false
   inline void _SetupRenderGraphCameraProperties_b__141_0(::UnityEngine::Rendering::Universal::ScriptableRenderer_PassData* data,
                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x686bb78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68735f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::ScriptableRenderer___c* getStaticF___9();
@@ -1433,7 +1433,7 @@ public:
   ScriptableRenderer___c(ScriptableRenderer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12706 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12735 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1664,331 +1664,331 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddRenderPasses, addr 0x6868210, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x686fc8c, size 0x298, virtual false, abstract: false, final false
   inline void AddRenderPasses(::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method AdjustAndGetScreenMSAASamples, addr 0x686a67c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method AdjustAndGetScreenMSAASamples, addr 0x68720f8, size 0x244, virtual false, abstract: false, final false
   inline int32_t AdjustAndGetScreenMSAASamples(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool useIntermediateColorTarget);
 
-  /// @brief Method AreAttachmentIndicesCompatible, addr 0x6860c0c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AreAttachmentIndicesCompatible, addr 0x6868688, size 0xf4, virtual false, abstract: false, final false
   static inline bool AreAttachmentIndicesCompatible(::UnityEngine::Rendering::Universal::ScriptableRenderPass* lastSubPass, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* currentSubPass);
 
-  /// @brief Method BeginRenderGraphXRRendering, addr 0x6864688, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method BeginRenderGraphXRRendering, addr 0x686c104, size 0x530, virtual false, abstract: false, final false
   inline void BeginRenderGraphXRRendering(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
-  /// @brief Method BeginXRRendering, addr 0x6867a38, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method BeginXRRendering, addr 0x686f4b4, size 0x1d4, virtual false, abstract: false, final false
   inline void BeginXRRendering(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method CalculateBillboardProperties, addr 0x68620b4, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method CalculateBillboardProperties, addr 0x6869b30, size 0x3d8, virtual false, abstract: false, final false
   static inline void CalculateBillboardProperties(::by_ref<::UnityEngine::Matrix4x4> worldToCameraMatrix, ::by_ref<::UnityEngine::Vector3> billboardTangent,
                                                   ::by_ref<::UnityEngine::Vector3> billboardNormal, ::by_ref<float_t> cameraXZAngle);
 
-  /// @brief Method CalculateSplitEventRange, addr 0x6865a60, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CalculateSplitEventRange, addr 0x686d4dc, size 0x130, virtual false, abstract: false, final false
   inline void CalculateSplitEventRange(::UnityEngine::Rendering::Universal::RenderPassEvent startInjectionPoint, ::UnityEngine::Rendering::Universal::RenderPassEvent targetEvent,
                                        ::by_ref<::UnityEngine::Rendering::Universal::RenderPassEvent> startEvent, ::by_ref<::UnityEngine::Rendering::Universal::RenderPassEvent> splitEvent,
                                        ::by_ref<::UnityEngine::Rendering::Universal::RenderPassEvent> endEvent);
 
-  /// @brief Method Clear, addr 0x6863580, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x686affc, size 0x28c, virtual false, abstract: false, final false
   inline void Clear(::UnityEngine::Rendering::Universal::CameraRenderType cameraType);
 
-  /// @brief Method ClearRenderingState, addr 0x6866f90, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method ClearRenderingState, addr 0x686ea0c, size 0x930, virtual false, abstract: false, final false
   static inline void ClearRenderingState(::UnityEngine::Rendering::IBaseCommandBuffer* cmd);
 
-  /// @brief Method ConfigureCameraColorTarget, addr 0x68639c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCameraColorTarget, addr 0x686b444, size 0x8, virtual false, abstract: false, final false
   inline void ConfigureCameraColorTarget(::UnityEngine::Rendering::RTHandle* colorTarget);
 
-  /// @brief Method ConfigureCameraTarget, addr 0x68639b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCameraTarget, addr 0x686b430, size 0x8, virtual false, abstract: false, final false
   inline void ConfigureCameraTarget(::UnityEngine::Rendering::RTHandle* colorTarget, ::UnityEngine::Rendering::RTHandle* depthTarget);
 
-  /// @brief Method ConfigureCameraTarget, addr 0x68639bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCameraTarget, addr 0x686b438, size 0xc, virtual false, abstract: false, final false
   inline void ConfigureCameraTarget(::UnityEngine::Rendering::RTHandle* colorTarget, ::UnityEngine::Rendering::RTHandle* depthTarget, ::UnityEngine::Rendering::RTHandle* resolveTarget);
 
-  /// @brief Method ConfigureCameraTarget, addr 0x6863968, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCameraTarget, addr 0x686b3e4, size 0x4c, virtual false, abstract: false, final false
   inline void ConfigureCameraTarget(::UnityEngine::Rendering::RenderTargetIdentifier colorTarget, ::UnityEngine::Rendering::RenderTargetIdentifier depthTarget);
 
-  /// @brief Method CreateRenderPassHash, addr 0x685de1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderPassHash, addr 0x6865898, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128 CreateRenderPassHash(::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderPassDescriptor desc, uint32_t hashIndex);
 
-  /// @brief Method CreateRenderPassHash, addr 0x6860e8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderPassHash, addr 0x6868908, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128 CreateRenderPassHash(int32_t width, int32_t height, int32_t depthID, int32_t sample, uint32_t hashIndex);
 
-  /// @brief Method Dispose, addr 0x686380c, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x686b288, size 0x144, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6863950, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x686b3cc, size 0x14, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawGizmos, addr 0x686a608, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmos, addr 0x6872084, size 0x4, virtual false, abstract: false, final false
   inline void DrawGizmos(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera, ::UnityEngine::Rendering::GizmoSubset gizmoSubset,
                          ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method DrawRenderGraphGizmos, addr 0x6864680, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DrawRenderGraphGizmos, addr 0x686c0fc, size 0x4, virtual false, abstract: false, final false
   inline void DrawRenderGraphGizmos(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle color, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depth,
                                     ::UnityEngine::Rendering::GizmoSubset gizmoSubset);
 
-  /// @brief Method DrawRenderGraphWireOverlay, addr 0x6864684, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DrawRenderGraphWireOverlay, addr 0x686c100, size 0x4, virtual false, abstract: false, final false
   inline void DrawRenderGraphWireOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                                          ::UnityEngine::Rendering::RenderGraphModule::TextureHandle color);
 
-  /// @brief Method DrawWireOverlay, addr 0x686a60c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DrawWireOverlay, addr 0x6872088, size 0x70, virtual false, abstract: false, final false
   inline void DrawWireOverlay(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method EnableSwapBufferMSAA, addr 0x686a604, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method EnableSwapBufferMSAA, addr 0x6872080, size 0x4, virtual true, abstract: false, final false
   inline void EnableSwapBufferMSAA(bool enable);
 
-  /// @brief Method EndRenderGraphXRRendering, addr 0x6864bb8, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method EndRenderGraphXRRendering, addr 0x686c634, size 0x458, virtual false, abstract: false, final false
   inline void EndRenderGraphXRRendering(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
-  /// @brief Method EndXRRendering, addr 0x6867c0c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method EndXRRendering, addr 0x686f688, size 0x1d0, virtual false, abstract: false, final false
   inline void EndXRRendering(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::ScriptableRenderContext context,
                              ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method EnqueuePass, addr 0x6867e88, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EnqueuePass, addr 0x686f904, size 0xbc, virtual false, abstract: false, final false
   inline void EnqueuePass(::UnityEngine::Rendering::Universal::ScriptableRenderPass* pass);
 
-  /// @brief Method Execute, addr 0x6865f40, size 0xd54, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x686d9bc, size 0xd54, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecuteBlock, addr 0x68678c0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ExecuteBlock, addr 0x686f33c, size 0x178, virtual false, abstract: false, final false
   inline void ExecuteBlock(int32_t blockIndex, ::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderBlocks> renderBlocks, ::UnityEngine::Rendering::ScriptableRenderContext context,
                            ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData, bool submit);
 
-  /// @brief Method ExecuteNativeRenderPass, addr 0x685ffa8, size 0xb2c, virtual false, abstract: false, final false
+  /// @brief Method ExecuteNativeRenderPass, addr 0x6867a24, size 0xb2c, virtual false, abstract: false, final false
   inline void ExecuteNativeRenderPass(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass,
                                       ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecuteRenderPass, addr 0x68684a8, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method ExecuteRenderPass, addr 0x686ff24, size 0x3f0, virtual false, abstract: false, final false
   inline void ExecuteRenderPass(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass,
                                 ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method FindAttachmentDescriptorIndexInList, addr 0x685fee0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method FindAttachmentDescriptorIndexInList, addr 0x686795c, size 0xc8, virtual false, abstract: false, final false
   static inline int32_t FindAttachmentDescriptorIndexInList(int32_t attachmentIdx, ::UnityEngine::Rendering::AttachmentDescriptor attachmentDescriptor,
                                                             ::ArrayW<::UnityEngine::Rendering::AttachmentDescriptor> attachmentDescriptors);
 
-  /// @brief Method FindAttachmentDescriptorIndexInList, addr 0x685ecbc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method FindAttachmentDescriptorIndexInList, addr 0x6866738, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t FindAttachmentDescriptorIndexInList(::UnityEngine::Rendering::RenderTargetIdentifier target, ::ArrayW<::UnityEngine::Rendering::AttachmentDescriptor> attachmentDescriptors);
 
-  /// @brief Method FinishRenderGraphRendering, addr 0x68656a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method FinishRenderGraphRendering, addr 0x686d11c, size 0x90, virtual false, abstract: false, final false
   inline void FinishRenderGraphRendering(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method FinishRendering, addr 0x68639d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method FinishRendering, addr 0x686b454, size 0x4, virtual true, abstract: false, final false
   inline void FinishRendering(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method GetCameraClearFlag, addr 0x6867fb0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetCameraClearFlag, addr 0x686fa2c, size 0x190, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ClearFlag GetCameraClearFlag(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method GetCameraClearFlag, addr 0x6867f44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetCameraClearFlag, addr 0x686f9c0, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ClearFlag GetCameraClearFlag(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method GetCameraColorBackBuffer, addr 0x6862b84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCameraColorBackBuffer, addr 0x686a600, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCameraColorBackBuffer(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method GetCameraColorFrontBuffer, addr 0x6862b7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCameraColorFrontBuffer, addr 0x686a5f8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCameraColorFrontBuffer(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method GetFirstAllocatedRTHandle, addr 0x685e1e4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetFirstAllocatedRTHandle, addr 0x6865c60, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* GetFirstAllocatedRTHandle(::UnityEngine::Rendering::Universal::ScriptableRenderPass* pass);
 
-  /// @brief Method GetRenderTextureDescriptor, addr 0x6860ea0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetRenderTextureDescriptor, addr 0x686891c, size 0x1ec, virtual false, abstract: false, final false
   static inline void GetRenderTextureDescriptor(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass,
                                                 ::by_ref<::UnityEngine::RenderTextureDescriptor> targetRT);
 
-  /// @brief Method GetSubPassAttachmentIndicesCount, addr 0x6860ad4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetSubPassAttachmentIndicesCount, addr 0x6868550, size 0x138, virtual false, abstract: false, final false
   static inline uint32_t GetSubPassAttachmentIndicesCount(::UnityEngine::Rendering::Universal::ScriptableRenderPass* pass);
 
-  /// @brief Method GetValidColorAttachmentCount, addr 0x6860d44, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetValidColorAttachmentCount, addr 0x68687c0, size 0x148, virtual false, abstract: false, final false
   static inline uint32_t GetValidColorAttachmentCount(::ArrayW<::UnityEngine::Rendering::AttachmentDescriptor> colorAttachments);
 
-  /// @brief Method GetValidInputAttachmentCount, addr 0x6860d00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetValidInputAttachmentCount, addr 0x686877c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetValidInputAttachmentCount(::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass);
 
-  /// @brief Method GetValidPassIndexCount, addr 0x685de98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetValidPassIndexCount, addr 0x6865914, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetValidPassIndexCount(::ArrayW<int32_t> array);
 
-  /// @brief Method InitRenderGraphFrame, addr 0x68639e8, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method InitRenderGraphFrame, addr 0x686b464, size 0x390, virtual false, abstract: false, final false
   inline void InitRenderGraphFrame(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
-  /// @brief Method InitializeRenderPassDescriptor, addr 0x685dd34, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InitializeRenderPassDescriptor, addr 0x68657b0, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderPassDescriptor InitializeRenderPassDescriptor(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                                                                      ::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass);
 
-  /// @brief Method InternalFinishRenderingCommon, addr 0x6865730, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method InternalFinishRenderingCommon, addr 0x686d1ac, size 0x1e0, virtual false, abstract: false, final false
   inline void InternalFinishRenderingCommon(::UnityEngine::Rendering::CommandBuffer* cmd, bool resolveFinalTarget);
 
-  /// @brief Method InternalFinishRenderingExecute, addr 0x6867ddc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InternalFinishRenderingExecute, addr 0x686f858, size 0xac, virtual false, abstract: false, final false
   inline void InternalFinishRenderingExecute(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::CommandBuffer* cmd, bool resolveFinalTarget);
 
-  /// @brief Method InternalStartRendering, addr 0x6866de4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method InternalStartRendering, addr 0x686e860, size 0x1ac, virtual false, abstract: false, final false
   inline void InternalStartRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method InterruptFramebufferFetch, addr 0x6865c24, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method InterruptFramebufferFetch, addr 0x686d6a0, size 0x178, virtual false, abstract: false, final false
   inline bool InterruptFramebufferFetch(::UnityEngine::Rendering::Universal::FramebufferFetchEvent fetchEvent, ::UnityEngine::Rendering::Universal::RenderPassEvent startInjectionPoint,
                                         ::UnityEngine::Rendering::Universal::RenderPassEvent endInjectionPoint);
 
-  /// @brief Method IsDepthOnlyRenderTexture, addr 0x685f040, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsDepthOnlyRenderTexture, addr 0x6866abc, size 0x28, virtual false, abstract: false, final false
   inline bool IsDepthOnlyRenderTexture(::UnityEngine::RenderTexture* t);
 
-  /// @brief Method IsRenderPassEnabled, addr 0x685dd08, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsRenderPassEnabled, addr 0x6865784, size 0x2c, virtual false, abstract: false, final false
   inline bool IsRenderPassEnabled(::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass);
 
-  /// @brief Method IsSceneFilteringEnabled, addr 0x6869ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsSceneFilteringEnabled, addr 0x6871544, size 0x8, virtual false, abstract: false, final false
   inline bool IsSceneFilteringEnabled(::UnityEngine::Camera* camera);
 
   static inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* New_ctor(::UnityEngine::Rendering::Universal::ScriptableRendererData* data);
 
-  /// @brief Method OnBeginRenderGraphFrame, addr 0x68639dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBeginRenderGraphFrame, addr 0x686b458, size 0x4, virtual true, abstract: false, final false
   inline void OnBeginRenderGraphFrame();
 
-  /// @brief Method OnEndRenderGraphFrame, addr 0x68639e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEndRenderGraphFrame, addr 0x686b460, size 0x4, virtual true, abstract: false, final false
   inline void OnEndRenderGraphFrame();
 
-  /// @brief Method OnFinishRenderGraphRendering, addr 0x6865910, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnFinishRenderGraphRendering, addr 0x686d38c, size 0x4, virtual true, abstract: false, final false
   inline void OnFinishRenderGraphRendering(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method OnPreCullRenderPasses, addr 0x6868140, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnPreCullRenderPasses, addr 0x686fbbc, size 0xd0, virtual false, abstract: false, final false
   inline void OnPreCullRenderPasses(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method OnRecordRenderGraph, addr 0x68639e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRecordRenderGraph, addr 0x686b45c, size 0x4, virtual true, abstract: false, final false
   inline void OnRecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ScriptableRenderContext context);
 
-  /// @brief Method PassHasInputAttachments, addr 0x685ed64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method PassHasInputAttachments, addr 0x68667e0, size 0x3c, virtual false, abstract: false, final false
   static inline bool PassHasInputAttachments(::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass);
 
-  /// @brief Method ProcessVFXCameraCommand, addr 0x6863d78, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method ProcessVFXCameraCommand, addr 0x686b7f4, size 0x4a0, virtual false, abstract: false, final false
   inline void ProcessVFXCameraCommand(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
-  /// @brief Method RecordCustomRenderGraphPasses, addr 0x6865c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RecordCustomRenderGraphPasses, addr 0x686d698, size 0x8, virtual false, abstract: false, final false
   inline void RecordCustomRenderGraphPasses(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::RenderPassEvent injectionPoint);
 
-  /// @brief Method RecordCustomRenderGraphPasses, addr 0x6865b90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RecordCustomRenderGraphPasses, addr 0x686d60c, size 0x8c, virtual false, abstract: false, final false
   inline void RecordCustomRenderGraphPasses(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::RenderPassEvent startInjectionPoint,
                                             ::UnityEngine::Rendering::Universal::RenderPassEvent endInjectionPoint);
 
-  /// @brief Method RecordCustomRenderGraphPassesInEventRange, addr 0x6865914, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method RecordCustomRenderGraphPassesInEventRange, addr 0x686d390, size 0x14c, virtual false, abstract: false, final false
   inline void RecordCustomRenderGraphPassesInEventRange(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::RenderPassEvent eventStart,
                                                         ::UnityEngine::Rendering::Universal::RenderPassEvent eventEnd);
 
-  /// @brief Method RecordRenderGraph, addr 0x686539c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x686ce18, size 0x19c, virtual false, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ScriptableRenderContext context);
 
-  /// @brief Method ReleaseRenderTargets, addr 0x6863964, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReleaseRenderTargets, addr 0x686b3e0, size 0x4, virtual true, abstract: false, final false
   inline void ReleaseRenderTargets();
 
-  /// @brief Method ResetNativeRenderPassFrameData, addr 0x685d3f4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ResetNativeRenderPassFrameData, addr 0x6864e70, size 0x128, virtual false, abstract: false, final false
   inline void ResetNativeRenderPassFrameData();
 
-  /// @brief Method SetCameraMatrices, addr 0x686169c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetCameraMatrices, addr 0x6869118, size 0xc8, virtual false, abstract: false, final false
   static inline void SetCameraMatrices(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool setInverseMatrices);
 
-  /// @brief Method SetCameraMatrices, addr 0x6861168, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetCameraMatrices, addr 0x6868be4, size 0xd0, virtual false, abstract: false, final false
   static inline void SetCameraMatrices(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData, bool setInverseMatrices);
 
-  /// @brief Method SetCameraMatrices, addr 0x6861238, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method SetCameraMatrices, addr 0x6868cb4, size 0x464, virtual false, abstract: false, final false
   static inline void SetCameraMatrices(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool setInverseMatrices,
                                        bool isTargetFlipped);
 
-  /// @brief Method SetEditorTarget, addr 0x6865010, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method SetEditorTarget, addr 0x686ca8c, size 0x38c, virtual false, abstract: false, final false
   inline void SetEditorTarget(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph);
 
-  /// @brief Method SetNativeRenderPassAttachmentList, addr 0x685f068, size 0xe78, virtual false, abstract: false, final false
+  /// @brief Method SetNativeRenderPassAttachmentList, addr 0x6866ae4, size 0xe78, virtual false, abstract: false, final false
   inline void SetNativeRenderPassAttachmentList(::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                 ::UnityEngine::Rendering::RTHandle* passColorAttachment, ::UnityEngine::Rendering::RTHandle* passDepthAttachment,
                                                 ::UnityEngine::Rendering::ClearFlag finalClearFlag, ::UnityEngine::Color finalClearColor);
 
-  /// @brief Method SetNativeRenderPassMRTAttachmentList, addr 0x685e2c4, size 0x9f8, virtual false, abstract: false, final false
+  /// @brief Method SetNativeRenderPassMRTAttachmentList, addr 0x6865d40, size 0x9f8, virtual false, abstract: false, final false
   inline void SetNativeRenderPassMRTAttachmentList(::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                    bool needCustomCameraColorClear, ::UnityEngine::Rendering::ClearFlag cameraClearFlag);
 
-  /// @brief Method SetPerCameraBillboardProperties, addr 0x6861ee4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method SetPerCameraBillboardProperties, addr 0x6869960, size 0x1d0, virtual false, abstract: false, final false
   inline void SetPerCameraBillboardProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method SetPerCameraClippingPlaneProperties, addr 0x686248c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetPerCameraClippingPlaneProperties, addr 0x6869f08, size 0x40, virtual false, abstract: false, final false
   inline void SetPerCameraClippingPlaneProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method SetPerCameraClippingPlaneProperties, addr 0x68624cc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method SetPerCameraClippingPlaneProperties, addr 0x6869f48, size 0x1c4, virtual false, abstract: false, final false
   inline void SetPerCameraClippingPlaneProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData,
                                                   bool isTargetFlipped);
 
-  /// @brief Method SetPerCameraProperties, addr 0x6865d9c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method SetPerCameraProperties, addr 0x686d818, size 0x1a4, virtual false, abstract: false, final false
   inline void SetPerCameraProperties(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Camera* camera,
                                      ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method SetPerCameraShaderVariables, addr 0x6861764, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetPerCameraShaderVariables, addr 0x68691e0, size 0x58, virtual false, abstract: false, final false
   inline void SetPerCameraShaderVariables(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method SetPerCameraShaderVariables, addr 0x68617bc, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method SetPerCameraShaderVariables, addr 0x6869238, size 0x728, virtual false, abstract: false, final false
   inline void SetPerCameraShaderVariables(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                           ::UnityEngine::Vector2Int cameraTargetSizeCopy, bool isTargetFlipped);
 
-  /// @brief Method SetRenderPassAttachments, addr 0x6868898, size 0x1230, virtual false, abstract: false, final false
+  /// @brief Method SetRenderPassAttachments, addr 0x6870314, size 0x1230, virtual false, abstract: false, final false
   inline void SetRenderPassAttachments(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::ScriptableRenderPass* renderPass,
                                        ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method SetRenderTarget, addr 0x686a478, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x6871ef4, size 0x188, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorAttachment,
                                      ::UnityEngine::Rendering::RenderBufferLoadAction colorLoadAction, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction,
                                      ::UnityEngine::Rendering::RTHandle* depthAttachment, ::UnityEngine::Rendering::RenderBufferLoadAction depthLoadAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction, ::UnityEngine::Rendering::ClearFlag clearFlags, ::UnityEngine::Color clearColor);
 
-  /// @brief Method SetRenderTarget, addr 0x6869ad0, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x687154c, size 0x4fc, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorAttachment, ::UnityEngine::Rendering::RTHandle* depthAttachment,
                                      ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
-  /// @brief Method SetRenderTarget, addr 0x686a0bc, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x6871b38, size 0x3bc, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* colorAttachment, ::UnityEngine::Rendering::RTHandle* depthAttachment,
                                      ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor, ::UnityEngine::Rendering::RenderBufferStoreAction colorStoreAction,
                                      ::UnityEngine::Rendering::RenderBufferStoreAction depthStoreAction);
 
-  /// @brief Method SetRenderTarget, addr 0x6869fcc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetRenderTarget, addr 0x6871a48, size 0xf0, virtual false, abstract: false, final false
   static inline void SetRenderTarget(::UnityEngine::Rendering::CommandBuffer* cmd, ::ArrayW<::UnityEngine::Rendering::RTHandle*> colorAttachments,
                                      ::ArrayW<::UnityEngine::Rendering::RenderTargetIdentifier> colorAttachmentIDs, ::UnityEngine::Rendering::RTHandle* depthAttachment,
                                      ::UnityEngine::Rendering::ClearFlag clearFlag, ::UnityEngine::Color clearColor);
 
-  /// @brief Method SetShaderTimeValues, addr 0x6862690, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method SetShaderTimeValues, addr 0x686a10c, size 0x4a0, virtual false, abstract: false, final false
   static inline void SetShaderTimeValues(::UnityEngine::Rendering::IBaseCommandBuffer* cmd, float_t time, float_t deltaTime, float_t smoothDeltaTime);
 
   /// @brief Method Setup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method SetupCullingParameters, addr 0x68639d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetupCullingParameters, addr 0x686b450, size 0x4, virtual true, abstract: false, final false
   inline void SetupCullingParameters(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParameters, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method SetupInputAttachmentIndices, addr 0x685eda0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SetupInputAttachmentIndices, addr 0x686681c, size 0x208, virtual false, abstract: false, final false
   inline void SetupInputAttachmentIndices(::UnityEngine::Rendering::Universal::ScriptableRenderPass* pass);
 
-  /// @brief Method SetupLights, addr 0x68639d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetupLights, addr 0x686b44c, size 0x4, virtual true, abstract: false, final false
   inline void SetupLights(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method SetupNativeRenderPassFrameData, addr 0x685d51c, size 0x7ec, virtual false, abstract: false, final false
+  /// @brief Method SetupNativeRenderPassFrameData, addr 0x6864f98, size 0x7ec, virtual false, abstract: false, final false
   inline void SetupNativeRenderPassFrameData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool isRenderPassEnabled);
 
-  /// @brief Method SetupRenderGraphCameraProperties, addr 0x6864218, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method SetupRenderGraphCameraProperties, addr 0x686bc94, size 0x468, virtual false, abstract: false, final false
   inline void SetupRenderGraphCameraProperties(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool isTargetBackbuffer);
 
-  /// @brief Method SetupRenderPasses, addr 0x6866c94, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method SetupRenderPasses, addr 0x686e710, size 0x150, virtual false, abstract: false, final false
   inline void SetupRenderPasses(::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method SetupTransientInputAttachments, addr 0x685efa8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetupTransientInputAttachments, addr 0x6866a24, size 0x98, virtual false, abstract: false, final false
   inline void SetupTransientInputAttachments(int32_t attachmentCount);
 
-  /// @brief Method SortStable, addr 0x6865538, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SortStable, addr 0x686cfb4, size 0x168, virtual false, abstract: false, final false
   static inline void SortStable(::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::ScriptableRenderPass*>* list);
 
-  /// @brief Method SupportedCameraStackingTypes, addr 0x6861118, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SupportedCameraStackingTypes, addr 0x6868b94, size 0x8, virtual true, abstract: false, final false
   inline int32_t SupportedCameraStackingTypes();
 
-  /// @brief Method SupportsCameraStackingType, addr 0x6861120, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SupportsCameraStackingType, addr 0x6868b9c, size 0x28, virtual false, abstract: false, final false
   inline bool SupportsCameraStackingType(::UnityEngine::Rendering::Universal::CameraRenderType cameraRenderType);
 
-  /// @brief Method SupportsMotionVectors, addr 0x6861148, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SupportsMotionVectors, addr 0x6868bc4, size 0x8, virtual true, abstract: false, final false
   inline bool SupportsMotionVectors();
 
-  /// @brief Method SwapColorBuffer, addr 0x686a600, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SwapColorBuffer, addr 0x687207c, size 0x4, virtual true, abstract: false, final false
   inline void SwapColorBuffer(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method UpdateFinalStoreActions, addr 0x685dedc, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method UpdateFinalStoreActions, addr 0x6865958, size 0x308, virtual false, abstract: false, final false
   inline void UpdateFinalStoreActions(::ArrayW<int32_t> currentMergeablePasses, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool isLastMergeableGroup);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugHandler* const& __cordl_internal_get__DebugHandler_k__BackingField() const;
@@ -2177,7 +2177,7 @@ public:
 
   constexpr void __cordl_internal_set_useRenderPassEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x6862c40, size 0x940, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686a6bc, size 0x940, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::ScriptableRendererData* data);
 
   static inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* getStaticF_current();
@@ -2204,55 +2204,55 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector4> getStaticF_s_VectorPlanes();
 
-  /// @brief Method get_DebugHandler, addr 0x6861160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DebugHandler, addr 0x6868bdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugHandler* get_DebugHandler();
 
-  /// @brief Method get_activeRenderPassQueue, addr 0x6862be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeRenderPassQueue, addr 0x686a65c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::ScriptableRenderPass*>* get_activeRenderPassQueue();
 
-  /// @brief Method get_cameraColorTarget, addr 0x6862b30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_cameraColorTarget, addr 0x686a5ac, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_cameraColorTarget();
 
-  /// @brief Method get_cameraColorTargetHandle, addr 0x685cbe4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_cameraColorTargetHandle, addr 0x6864660, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_cameraColorTargetHandle();
 
-  /// @brief Method get_cameraDepth, addr 0x685d3cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_cameraDepth, addr 0x6864e48, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_cameraDepth();
 
-  /// @brief Method get_cameraDepthTarget, addr 0x6862b8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_cameraDepthTarget, addr 0x686a608, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_cameraDepthTarget();
 
-  /// @brief Method get_cameraDepthTargetHandle, addr 0x686108c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_cameraDepthTargetHandle, addr 0x6868b08, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_cameraDepthTargetHandle();
 
-  /// @brief Method get_frameData, addr 0x6862c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frameData, addr 0x686a684, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ContextContainer* get_frameData();
 
-  /// @brief Method get_profilingExecute, addr 0x6861150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_profilingExecute, addr 0x6868bcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ProfilingSampler* get_profilingExecute();
 
-  /// @brief Method get_rendererFeatures, addr 0x6862bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rendererFeatures, addr 0x686a654, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* get_rendererFeatures();
 
-  /// @brief Method get_stripAdditionalLightOffVariants, addr 0x6862c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripAdditionalLightOffVariants, addr 0x686a6ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripAdditionalLightOffVariants();
 
-  /// @brief Method get_stripShadowsOffVariants, addr 0x6862c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stripShadowsOffVariants, addr 0x686a69c, size 0x8, virtual false, abstract: false, final false
   inline bool get_stripShadowsOffVariants();
 
-  /// @brief Method get_supportedRenderingFeatures, addr 0x6862be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportedRenderingFeatures, addr 0x686a664, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderingFeatures* get_supportedRenderingFeatures();
 
-  /// @brief Method get_supportsGPUOcclusion, addr 0x686a8c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_supportsGPUOcclusion, addr 0x6872344, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsGPUOcclusion();
 
-  /// @brief Method get_supportsNativeRenderPassRendergraphCompiler, addr 0x686a8c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_supportsNativeRenderPassRendergraphCompiler, addr 0x687233c, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsNativeRenderPassRendergraphCompiler();
 
-  /// @brief Method get_unsupportedGraphicsDeviceTypes, addr 0x6862bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unsupportedGraphicsDeviceTypes, addr 0x686a674, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::GraphicsDeviceType> get_unsupportedGraphicsDeviceTypes();
 
-  /// @brief Method get_useDepthPriming, addr 0x6862c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useDepthPriming, addr 0x686a68c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useDepthPriming();
 
   /// @brief Convert to "::System::IDisposable"
@@ -2282,22 +2282,22 @@ public:
 
   static inline void setStaticF_s_VectorPlanes(::ArrayW<::UnityEngine::Vector4> value);
 
-  /// @brief Method set_profilingExecute, addr 0x6861158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_profilingExecute, addr 0x6868bd4, size 0x8, virtual false, abstract: false, final false
   inline void set_profilingExecute(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method set_stripAdditionalLightOffVariants, addr 0x6862c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stripAdditionalLightOffVariants, addr 0x686a6b4, size 0x8, virtual false, abstract: false, final false
   inline void set_stripAdditionalLightOffVariants(bool value);
 
-  /// @brief Method set_stripShadowsOffVariants, addr 0x6862c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stripShadowsOffVariants, addr 0x686a6a4, size 0x8, virtual false, abstract: false, final false
   inline void set_stripShadowsOffVariants(bool value);
 
-  /// @brief Method set_supportedRenderingFeatures, addr 0x6862bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_supportedRenderingFeatures, addr 0x686a66c, size 0x8, virtual false, abstract: false, final false
   inline void set_supportedRenderingFeatures(::UnityEngine::Rendering::Universal::ScriptableRenderer_RenderingFeatures* value);
 
-  /// @brief Method set_unsupportedGraphicsDeviceTypes, addr 0x6862c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unsupportedGraphicsDeviceTypes, addr 0x686a67c, size 0x8, virtual false, abstract: false, final false
   inline void set_unsupportedGraphicsDeviceTypes(::ArrayW<::UnityEngine::Rendering::GraphicsDeviceType> value);
 
-  /// @brief Method set_useDepthPriming, addr 0x6862c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useDepthPriming, addr 0x686a694, size 0x8, virtual false, abstract: false, final false
   inline void set_useDepthPriming(bool value);
 
 protected:
@@ -2315,7 +2315,7 @@ public:
   ScriptableRenderer(ScriptableRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12736 };
 
   /// @brief Field kRenderPassMapSize offset 0xffffffff size 0x4
   static constexpr int32_t kRenderPassMapSize{ static_cast<int32_t>(0xa) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RecordingToolSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace\RecordingToolSettings.hpp"
 #include "GlobalNamespace/zzzz__RecordingSettings_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSettings_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettings::*)(::ArrayW<::GlobalNamespace::RecordingSettings*>)>(
     &::GlobalNamespace::RecordingToolSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fa214;
+  constexpr static std::size_t addrs = 0x58fd7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Barrier.hpp"
+// IWYU pragma private; include "System\Threading\Barrier.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__Barrier_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Threading::Barrier::*)()>(&::System::Threading::Barrier::get_CurrentPhaseNumber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6373884;
+  constexpr static std::size_t addrs = 0x637b300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Barrier*>(), { "get_CurrentPhaseNumber", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)(int64_t)>(&::System::Threading::Barrier::set_CurrentPhaseNumber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6373890;
+  constexpr static std::size_t addrs = 0x637b30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)(int32_t)>(&::System::Threading::Barrier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x637389c;
+  constexpr static std::size_t addrs = 0x637b318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Barrier*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)(int32_t, ::System::Action_1<::System::Threading::Barrier*>*)>(&::System::Threading::Barrier::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x63738a4;
+  constexpr static std::size_t addrs = 0x637b320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)(int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<bool>)>(
     &::System::Threading::Barrier::GetCurrentTotal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6373a1c;
+  constexpr static std::size_t addrs = 0x637b498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Barrier::*)(int32_t, int32_t, int32_t, bool)>(&::System::Threading::Barrier::SetCurrentTotal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6373a3c;
+  constexpr static std::size_t addrs = 0x637b4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)()>(&::System::Threading::Barrier::SignalAndWait)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6373a78;
+  constexpr static std::size_t addrs = 0x637b4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Barrier*>(), { "SignalAndWait", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)(::System::Threading::CancellationToken)>(&::System::Threading::Barrier::SignalAndWait)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6373a84;
+  constexpr static std::size_t addrs = 0x637b500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Barrier::*)(int32_t, ::System::Threading::CancellationToken)>(&::System::Threading::Barrier::SignalAndWait)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x6373a90;
+  constexpr static std::size_t addrs = 0x637b50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)(bool)>(&::System::Threading::Barrier::FinishPhase)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x6373fcc;
+  constexpr static std::size_t addrs = 0x637ba48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Barrier*>(), { "FinishPhase", {}, { ::i2c::type_of<bool>() } })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Barrier::InvokePostPhaseAction)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6374518;
+  constexpr static std::size_t addrs = 0x637bf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)(bool)>(&::System::Threading::Barrier::SetResetEvents)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x63744b4;
+  constexpr static std::size_t addrs = 0x637bf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Barrier*>(), { "SetResetEvents", {}, { ::i2c::type_of<bool>() } })));
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)(::System::Threading::ManualResetEventSlim*, int64_t)>(&::System::Threading::Barrier::WaitCurrentPhase)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x63743fc;
+  constexpr static std::size_t addrs = 0x637be78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Barrier::*)(::System::Threading::ManualResetEventSlim*, int32_t, ::System::Threading::CancellationToken, int64_t)>(
     &::System::Threading::Barrier::DiscontinuousWait)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x63742c0;
+  constexpr static std::size_t addrs = 0x637bd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)()>(&::System::Threading::Barrier::Dispose)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x63745b0;
+  constexpr static std::size_t addrs = 0x637c02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Barrier*>(), { "Dispose", {}, {} })));
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)(bool)>(&::System::Threading::Barrier::Dispose)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6374694;
+  constexpr static std::size_t addrs = 0x637c110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::Barrier*>(), { ::i2c::class_of<::System::Threading::Barrier*>(), 5 }));
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Barrier::*)()>(&::System::Threading::Barrier::ThrowIfDisposed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6373f5c;
+  constexpr static std::size_t addrs = 0x637b9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Barrier*>(), { "ThrowIfDisposed", {}, {} })));

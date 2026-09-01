@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ocsp/OcspRequest.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ocsp\OcspRequest.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspRequest_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__Signature_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3457204;
+  constexpr static std::size_t addrs = 0x345afc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3457218;
+  constexpr static std::size_t addrs = 0x345afd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::*)(
     ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest*, ::Org::BouncyCastle::Asn1::Ocsp::Signature*)>(&::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x34574bc;
+  constexpr static std::size_t addrs = 0x345b27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x345739c;
+  constexpr static std::size_t addrs = 0x345b15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* (::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::get_TbsRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34576ac;
+  constexpr static std::size_t addrs = 0x345b46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*>(), { "get_TbsRequest", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::Signature* (::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::get_OptionalSignature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34576b4;
+  constexpr static std::size_t addrs = 0x345b474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*>(), { "get_OptionalSignature", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspRequest::ToAsn1Object)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x34576bc;
+  constexpr static std::size_t addrs = 0x345b47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

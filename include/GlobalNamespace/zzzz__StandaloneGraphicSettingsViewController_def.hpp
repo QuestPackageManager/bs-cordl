@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StandaloneGraphicSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\StandaloneGraphicSettingsViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,34 +58,34 @@ public:
   /// @brief Field _vrRenderingScale, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__vrRenderingScale, put = __cordl_internal_set__vrRenderingScale)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _vrRenderingScale;
 
-  /// @brief Method DidActivate, addr 0x5a18910, size 0x5a0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a20a0c, size 0x59c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5a18eb0, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5a20fa8, size 0x430, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x5a192e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x5a213d8, size 0x18, virtual false, abstract: false, final false
   inline void HandleAntiAliasingLevelChanged(int32_t newValue);
 
-  /// @brief Method HandleFullscreenToggled, addr 0x5a19314, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleFullscreenToggled, addr 0x5a21408, size 0x1c, virtual false, abstract: false, final false
   inline void HandleFullscreenToggled(bool newValue);
 
-  /// @brief Method HandleMainEffectChanged, addr 0x5a19380, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleMainEffectChanged, addr 0x5a21474, size 0x18, virtual false, abstract: false, final false
   inline void HandleMainEffectChanged(int32_t newValue);
 
-  /// @brief Method HandleMirrorChanged, addr 0x5a19398, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorChanged, addr 0x5a2148c, size 0x18, virtual false, abstract: false, final false
   inline void HandleMirrorChanged(int32_t newValue);
 
-  /// @brief Method HandleScreenDisplacementToggled, addr 0x5a19364, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleScreenDisplacementToggled, addr 0x5a21458, size 0x1c, virtual false, abstract: false, final false
   inline void HandleScreenDisplacementToggled(bool newValue);
 
-  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x5a19330, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x5a21424, size 0x18, virtual false, abstract: false, final false
   inline void HandleShockwaveMaxParticlesChanged(int32_t newValue);
 
-  /// @brief Method HandleSmokeToggled, addr 0x5a19348, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleSmokeToggled, addr 0x5a2143c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleSmokeToggled(bool newValue);
 
-  /// @brief Method HandleVrRenderingScaleChanged, addr 0x5a192fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleVrRenderingScaleChanged, addr 0x5a213f0, size 0x18, virtual false, abstract: false, final false
   inline void HandleVrRenderingScaleChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
   static inline ::GlobalNamespace::StandaloneGraphicSettingsViewController* New_ctor();
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set__vrRenderingScale(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  /// @brief Method .ctor, addr 0x5a193b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a214a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,7 +156,7 @@ public:
   StandaloneGraphicSettingsViewController(StandaloneGraphicSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6468 };
 
   /// @brief Field _antiAliasingLevel, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedIntListSettingsController> ____antiAliasingLevel;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXPropertyBindingAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXPropertyBindingAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_EditorTypes(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x69e1de0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e985c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> editorTypes);
 
 protected:
@@ -50,7 +50,7 @@ public:
   VFXPropertyBindingAttribute(VFXPropertyBindingAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20018 };
 
   /// @brief Field EditorTypes, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW> ___EditorTypes;

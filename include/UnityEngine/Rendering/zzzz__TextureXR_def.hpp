@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/TextureXR.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\TextureXR.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,40 +111,40 @@ public:
   /// @brief Field m_WhiteTextureRTH, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_WhiteTextureRTH, put = setStaticF_m_WhiteTextureRTH)) ::UnityEngine::Rendering::RTHandle* m_WhiteTextureRTH;
 
-  /// @brief Method CreateBlackTexture3D, addr 0x67ad41c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateBlackTexture3D, addr 0x67b4e98, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture3D> CreateBlackTexture3D(::StringW name);
 
-  /// @brief Method CreateBlackUIntTextureArray, addr 0x67acde0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method CreateBlackUIntTextureArray, addr 0x67b485c, size 0x274, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture> CreateBlackUIntTextureArray(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* clearR32_UIntShader);
 
-  /// @brief Method CreateBlackUintTexture, addr 0x67ad054, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CreateBlackUintTexture, addr 0x67b4ad0, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture> CreateBlackUintTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* clearR32_UIntShader);
 
-  /// @brief Method CreateTexture2DArrayFromTexture2D, addr 0x67ad21c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture2DArrayFromTexture2D, addr 0x67b4c98, size 0x200, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2DArray> CreateTexture2DArrayFromTexture2D(::UnityEngine::Texture2D* source, ::StringW name);
 
-  /// @brief Method GetBlackTexture, addr 0x67ac694, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetBlackTexture, addr 0x67b4110, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* GetBlackTexture();
 
-  /// @brief Method GetBlackTexture3D, addr 0x67ac784, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetBlackTexture3D, addr 0x67b4200, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* GetBlackTexture3D();
 
-  /// @brief Method GetBlackTextureArray, addr 0x67ac728, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetBlackTextureArray, addr 0x67b41a4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* GetBlackTextureArray();
 
-  /// @brief Method GetBlackUIntTexture, addr 0x67ac4d8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetBlackUIntTexture, addr 0x67b3f54, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* GetBlackUIntTexture();
 
-  /// @brief Method GetClearTexture, addr 0x67ac56c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetClearTexture, addr 0x67b3fe8, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* GetClearTexture();
 
-  /// @brief Method GetMagentaTexture, addr 0x67ac600, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetMagentaTexture, addr 0x67b407c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* GetMagentaTexture();
 
-  /// @brief Method GetWhiteTexture, addr 0x67ac7e0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetWhiteTexture, addr 0x67b425c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RTHandle* GetWhiteTexture();
 
-  /// @brief Method Initialize, addr 0x67ac874, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x67b42f0, size 0x56c, virtual false, abstract: false, final false
   static inline void Initialize(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::ComputeShader* clearR32_UIntShader);
 
   static inline ::UnityW<::UnityEngine::Texture2D> getStaticF_m_BlackTexture();
@@ -191,13 +191,13 @@ public:
 
   static inline ::UnityEngine::Rendering::RTHandle* getStaticF_m_WhiteTextureRTH();
 
-  /// @brief Method get_dimension, addr 0x67ac474, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_dimension, addr 0x67b3ef0, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::TextureDimension get_dimension();
 
-  /// @brief Method get_slices, addr 0x67ac398, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_slices, addr 0x67b3e14, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_slices();
 
-  /// @brief Method get_useTexArray, addr 0x67ac3f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_useTexArray, addr 0x67b3e70, size 0x80, virtual false, abstract: false, final false
   static inline bool get_useTexArray();
 
   static inline void setStaticF_m_BlackTexture(::UnityW<::UnityEngine::Texture2D> value);
@@ -244,7 +244,7 @@ public:
 
   static inline void setStaticF_m_WhiteTextureRTH(::UnityEngine::Rendering::RTHandle* value);
 
-  /// @brief Method set_maxViews, addr 0x67ac338, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_maxViews, addr 0x67b3db4, size 0x60, virtual false, abstract: false, final false
   static inline void set_maxViews(int32_t value);
 
 protected:
@@ -262,7 +262,7 @@ public:
   TextureXR(TextureXR const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

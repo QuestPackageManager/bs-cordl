@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Globals.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Globals.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -361,199 +361,199 @@ public:
 
   static inline ::System::Type* getStaticF_typeOfXmlSchemaType();
 
-  /// @brief Method get_DataContractXsdBaseNamespaceUri, addr 0x613d4d0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_DataContractXsdBaseNamespaceUri, addr 0x6144f4c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Uri* get_DataContractXsdBaseNamespaceUri();
 
-  /// @brief Method get_EmptyObjectArray, addr 0x613fcb0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_EmptyObjectArray, addr 0x614772c, size 0xc8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Object*> get_EmptyObjectArray();
 
-  /// @brief Method get_EmptyTypeArray, addr 0x613faec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_EmptyTypeArray, addr 0x6147568, size 0xc8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*> get_EmptyTypeArray();
 
-  /// @brief Method get_TypeOfArray, addr 0x613671c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfArray, addr 0x613e198, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfArray();
 
-  /// @brief Method get_TypeOfByteArray, addr 0x614d908, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfByteArray, addr 0x6155384, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfByteArray();
 
-  /// @brief Method get_TypeOfClassDataNode, addr 0x6148b18, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfClassDataNode, addr 0x6150594, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfClassDataNode();
 
-  /// @brief Method get_TypeOfCollectionDataContractAttribute, addr 0x613c8d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfCollectionDataContractAttribute, addr 0x6144350, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfCollectionDataContractAttribute();
 
-  /// @brief Method get_TypeOfCollectionDataNode, addr 0x6148cf4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfCollectionDataNode, addr 0x6150770, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfCollectionDataNode();
 
-  /// @brief Method get_TypeOfDBNull, addr 0x614fa6c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfDBNull, addr 0x61574e8, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfDBNull();
 
-  /// @brief Method get_TypeOfDataContractAttribute, addr 0x613aa64, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfDataContractAttribute, addr 0x61424e0, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfDataContractAttribute();
 
-  /// @brief Method get_TypeOfDataMemberAttribute, addr 0x6148934, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfDataMemberAttribute, addr 0x61503b0, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfDataMemberAttribute();
 
-  /// @brief Method get_TypeOfDateTimeOffset, addr 0x6141178, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfDateTimeOffset, addr 0x6148bf4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfDateTimeOffset();
 
-  /// @brief Method get_TypeOfDateTimeOffsetAdapter, addr 0x6141274, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfDateTimeOffsetAdapter, addr 0x6148cf0, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfDateTimeOffsetAdapter();
 
-  /// @brief Method get_TypeOfDictionaryEnumerator, addr 0x614f580, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfDictionaryEnumerator, addr 0x6156ffc, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfDictionaryEnumerator();
 
-  /// @brief Method get_TypeOfDictionaryGeneric, addr 0x614f778, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfDictionaryGeneric, addr 0x61571f4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfDictionaryGeneric();
 
-  /// @brief Method get_TypeOfEnumMemberAttribute, addr 0x6148838, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfEnumMemberAttribute, addr 0x61502b4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfEnumMemberAttribute();
 
-  /// @brief Method get_TypeOfExtensionDataObject, addr 0x614f094, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfExtensionDataObject, addr 0x6156b10, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfExtensionDataObject();
 
-  /// @brief Method get_TypeOfFlagsAttribute, addr 0x6147e7c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfFlagsAttribute, addr 0x614f8f8, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfFlagsAttribute();
 
-  /// @brief Method get_TypeOfGenericDictionaryEnumerator, addr 0x614f67c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfGenericDictionaryEnumerator, addr 0x61570f8, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfGenericDictionaryEnumerator();
 
-  /// @brief Method get_TypeOfGuid, addr 0x614db00, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfGuid, addr 0x615557c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfGuid();
 
-  /// @brief Method get_TypeOfHashtable, addr 0x614f874, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfHashtable, addr 0x61572f0, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfHashtable();
 
-  /// @brief Method get_TypeOfICollection, addr 0x6135af8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfICollection, addr 0x613d574, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfICollection();
 
-  /// @brief Method get_TypeOfICollectionGeneric, addr 0x6135804, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfICollectionGeneric, addr 0x613d280, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfICollectionGeneric();
 
-  /// @brief Method get_TypeOfIDeserializationCallback, addr 0x614e3c8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIDeserializationCallback, addr 0x6155e44, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIDeserializationCallback();
 
-  /// @brief Method get_TypeOfIDictionary, addr 0x613560c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIDictionary, addr 0x613d088, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIDictionary();
 
-  /// @brief Method get_TypeOfIDictionaryGeneric, addr 0x6135510, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIDictionaryGeneric, addr 0x613cf8c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIDictionaryGeneric();
 
-  /// @brief Method get_TypeOfIEnumerable, addr 0x6135bf4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIEnumerable, addr 0x613d670, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIEnumerable();
 
-  /// @brief Method get_TypeOfIEnumerableGeneric, addr 0x61359fc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIEnumerableGeneric, addr 0x613d478, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIEnumerableGeneric();
 
-  /// @brief Method get_TypeOfIEnumerator, addr 0x614f28c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIEnumerator, addr 0x6156d08, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIEnumerator();
 
-  /// @brief Method get_TypeOfIEnumeratorGeneric, addr 0x614f190, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIEnumeratorGeneric, addr 0x6156c0c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIEnumeratorGeneric();
 
-  /// @brief Method get_TypeOfIExtensibleDataObject, addr 0x614ef98, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIExtensibleDataObject, addr 0x6156a14, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIExtensibleDataObject();
 
-  /// @brief Method get_TypeOfIList, addr 0x6135900, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIList, addr 0x613d37c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIList();
 
-  /// @brief Method get_TypeOfIListGeneric, addr 0x6135708, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIListGeneric, addr 0x613d184, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIListGeneric();
 
-  /// @brief Method get_TypeOfIObjectReference, addr 0x614e4c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIObjectReference, addr 0x6155f40, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIObjectReference();
 
-  /// @brief Method get_TypeOfISerializable, addr 0x614e2cc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfISerializable, addr 0x6155d48, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfISerializable();
 
-  /// @brief Method get_TypeOfISerializableDataNode, addr 0x61492e0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfISerializableDataNode, addr 0x6150d5c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfISerializableDataNode();
 
-  /// @brief Method get_TypeOfIXmlSerializable, addr 0x613ab60, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfIXmlSerializable, addr 0x61425dc, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfIXmlSerializable();
 
-  /// @brief Method get_TypeOfInt, addr 0x61431d4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfInt, addr 0x614ac50, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfInt();
 
-  /// @brief Method get_TypeOfKeyValue, addr 0x614f484, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfKeyValue, addr 0x6156f00, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfKeyValue();
 
-  /// @brief Method get_TypeOfKeyValuePair, addr 0x614f388, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfKeyValuePair, addr 0x6156e04, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfKeyValuePair();
 
-  /// @brief Method get_TypeOfKnownTypeAttribute, addr 0x613f6e8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfKnownTypeAttribute, addr 0x6147164, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfKnownTypeAttribute();
 
-  /// @brief Method get_TypeOfNullable, addr 0x613b194, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfNullable, addr 0x6142c10, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfNullable();
 
-  /// @brief Method get_TypeOfObject, addr 0x614140c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfObject, addr 0x6148e88, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfObject();
 
-  /// @brief Method get_TypeOfObjectArray, addr 0x6136808, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfObjectArray, addr 0x613e284, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfObjectArray();
 
-  /// @brief Method get_TypeOfOnDeserializedAttribute, addr 0x614e9b0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfOnDeserializedAttribute, addr 0x615642c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfOnDeserializedAttribute();
 
-  /// @brief Method get_TypeOfOnDeserializingAttribute, addr 0x614e8b4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfOnDeserializingAttribute, addr 0x6156330, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfOnDeserializingAttribute();
 
-  /// @brief Method get_TypeOfOnSerializedAttribute, addr 0x614e7b8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfOnSerializedAttribute, addr 0x6156234, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfOnSerializedAttribute();
 
-  /// @brief Method get_TypeOfOnSerializingAttribute, addr 0x614e6bc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfOnSerializingAttribute, addr 0x6156138, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfOnSerializingAttribute();
 
-  /// @brief Method get_TypeOfOptionalFieldAttribute, addr 0x614e5c0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfOptionalFieldAttribute, addr 0x615603c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfOptionalFieldAttribute();
 
-  /// @brief Method get_TypeOfReflectionPointer, addr 0x614107c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfReflectionPointer, addr 0x6148af8, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfReflectionPointer();
 
-  /// @brief Method get_TypeOfStreamingContext, addr 0x614e1d0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfStreamingContext, addr 0x6155c4c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfStreamingContext();
 
-  /// @brief Method get_TypeOfString, addr 0x614dff8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfString, addr 0x6155a74, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfString();
 
-  /// @brief Method get_TypeOfTimeSpan, addr 0x614da04, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfTimeSpan, addr 0x6155480, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfTimeSpan();
 
-  /// @brief Method get_TypeOfTypeEnumerable, addr 0x613fbb4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfTypeEnumerable, addr 0x6147630, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfTypeEnumerable();
 
-  /// @brief Method get_TypeOfULong, addr 0x614874c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfULong, addr 0x61501c8, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfULong();
 
-  /// @brief Method get_TypeOfUri, addr 0x614dbfc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfUri, addr 0x6155678, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfUri();
 
-  /// @brief Method get_TypeOfValueType, addr 0x614df0c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfValueType, addr 0x6155988, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfValueType();
 
-  /// @brief Method get_TypeOfVoid, addr 0x614e0e4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfVoid, addr 0x6155b60, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfVoid();
 
-  /// @brief Method get_TypeOfXmlDataNode, addr 0x61490e8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfXmlDataNode, addr 0x6150b64, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfXmlDataNode();
 
-  /// @brief Method get_TypeOfXmlElement, addr 0x614f970, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfXmlElement, addr 0x61573ec, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfXmlElement();
 
-  /// @brief Method get_TypeOfXmlNodeArray, addr 0x614ee9c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfXmlNodeArray, addr 0x6156918, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfXmlNodeArray();
 
-  /// @brief Method get_TypeOfXmlQualifiedName, addr 0x614eca4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfXmlQualifiedName, addr 0x6156720, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfXmlQualifiedName();
 
-  /// @brief Method get_TypeOfXmlRootAttribute, addr 0x614eba8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfXmlRootAttribute, addr 0x6156624, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfXmlRootAttribute();
 
-  /// @brief Method get_TypeOfXmlSchemaProviderAttribute, addr 0x614eaac, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfXmlSchemaProviderAttribute, addr 0x6156528, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfXmlSchemaProviderAttribute();
 
-  /// @brief Method get_TypeOfXmlSchemaType, addr 0x614eda0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfXmlSchemaType, addr 0x615681c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Type* get_TypeOfXmlSchemaType();
 
   static inline void setStaticF_NewObjectId(::StringW value);
@@ -703,7 +703,7 @@ public:
   Globals(Globals const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

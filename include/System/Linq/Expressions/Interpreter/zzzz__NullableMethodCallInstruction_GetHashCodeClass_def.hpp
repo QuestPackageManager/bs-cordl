@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NullableMethodCallInstruction_GetHashCodeClass.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NullableMethodCallInstruction_GetHashCodeClass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NullableMethodCallInstruction_GetHashCodeClass* New_ctor();
 
-  /// @brief Method Run, addr 0x5fb7a44, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fbf4c0, size 0x50, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5fb76d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbf150, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   NullableMethodCallInstruction_GetHashCodeClass(NullableMethodCallInstruction_GetHashCodeClass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16607 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

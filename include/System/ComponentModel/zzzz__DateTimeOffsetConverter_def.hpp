@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/DateTimeOffsetConverter.hpp"
+// IWYU pragma private; include "System\ComponentModel\DateTimeOffsetConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,22 +31,22 @@ namespace System::ComponentModel {
 class CORDL_TYPE DateTimeOffsetConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x63c3d88, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x63cb804, size 0x5c, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x63c3e54, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x63cb8d0, size 0x84, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x63c3f20, size 0x350, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x63cb99c, size 0x350, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x63c42e8, size 0xb80, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x63cbd64, size 0xb80, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::DateTimeOffsetConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x63c4e68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63cc8e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   DateTimeOffsetConverter(DateTimeOffsetConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11291 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11320 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

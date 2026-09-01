@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AssetFileNameExtensionAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\AssetFileNameExtensionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__preferredExtension_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bae2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb5e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW preferredExtension, ::ArrayW<::StringW> otherExtensions);
 
 protected:
@@ -63,7 +63,7 @@ public:
   AssetFileNameExtensionAttribute(AssetFileNameExtensionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23101 };
 
   /// @brief Field <preferredExtension>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____preferredExtension_k__BackingField;

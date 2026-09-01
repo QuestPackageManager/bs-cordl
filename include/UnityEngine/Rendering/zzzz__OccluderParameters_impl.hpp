@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OccluderParameters.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OccluderParameters.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_impl.hpp"
 #include "UnityEngine/zzzz__Vector2Int_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OccluderParameters_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::OccluderParameters::*)(int32_t)>(&::UnityEngine::Rendering::OccluderParameters::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x680eca4;
+  constexpr static std::size_t addrs = 0x6816720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

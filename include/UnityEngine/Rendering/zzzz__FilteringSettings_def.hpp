@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/FilteringSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\FilteringSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,34 +45,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::FilteringSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::FilteringSettings>*();
 
-  /// @brief Method Equals, addr 0x6b19e2c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b219b0, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b19d2c, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b218b0, size 0xd8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::FilteringSettings other);
 
-  /// @brief Method GetHashCode, addr 0x6b19eb8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b21a3c, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6b19c04, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b21788, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange> renderQueueRange, int32_t layerMask, uint32_t renderingLayerMask, int32_t excludeMotionVectorObjects);
 
-  /// @brief Method get_renderQueueRange, addr 0x6b19d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderQueueRange, addr 0x6b21888, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderQueueRange get_renderQueueRange();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::FilteringSettings>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::FilteringSettings>* i___System__IEquatable_1___UnityEngine__Rendering__FilteringSettings_();
 
-  /// @brief Method op_Equality, addr 0x6b19f64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b21ae8, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::FilteringSettings left, ::UnityEngine::Rendering::FilteringSettings right);
 
-  /// @brief Method set_batchLayerMask, addr 0x6b19d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_batchLayerMask, addr 0x6b21890, size 0x8, virtual false, abstract: false, final false
   inline void set_batchLayerMask(uint32_t value);
 
-  /// @brief Method set_excludeMotionVectorObjects, addr 0x6b19d14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_excludeMotionVectorObjects, addr 0x6b21898, size 0xc, virtual false, abstract: false, final false
   inline void set_excludeMotionVectorObjects(bool value);
 
-  /// @brief Method set_forceAllMotionVectorObjects, addr 0x6b19d20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_forceAllMotionVectorObjects, addr 0x6b218a4, size 0xc, virtual false, abstract: false, final false
   inline void set_forceAllMotionVectorObjects(bool value);
 
   // Ctor Parameters []
@@ -87,7 +87,7 @@ public:
                               int32_t m_ExcludeMotionVectorObjects, int32_t m_ForceAllMotionVectorObjects, ::UnityEngine::Rendering::SortingLayerRange m_SortingLayerRange) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10808 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

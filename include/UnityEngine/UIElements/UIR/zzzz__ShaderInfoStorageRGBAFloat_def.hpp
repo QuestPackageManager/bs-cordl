@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/ShaderInfoStorageRGBAFloat.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\ShaderInfoStorageRGBAFloat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +41,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x6ce9874, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x6cf13f8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color __cctor_b__2_0(::UnityEngine::Color c);
 
-  /// @brief Method .ctor, addr 0x6ce9870, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf13f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat___c* getStaticF___9();
@@ -88,7 +88,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat* New_ctor(int32_t initialSize, int32_t maxSize);
 
-  /// @brief Method .ctor, addr 0x6ce96b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf1238, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize);
 
   static inline ::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color>* getStaticF_s_Convert();

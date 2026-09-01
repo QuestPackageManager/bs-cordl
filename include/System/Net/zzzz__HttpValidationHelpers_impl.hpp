@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/HttpValidationHelpers.hpp"
+// IWYU pragma private; include "System\Net\HttpValidationHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpValidationHelpers_def.hpp"
 //  Writing Method size for method: ::System::Net::HttpValidationHelpers.IsInvalidMethodOrHeaderString
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::HttpValidationHelpers::IsInvalidMethodOrHeaderString)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x63f0954;
+  constexpr static std::size_t addrs = 0x63f83d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

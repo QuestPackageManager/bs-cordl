@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Deeplink.hpp"
+// IWYU pragma private; include "GlobalNamespace\Deeplink.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
   /// @brief Field PackID, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_PackID, put = __cordl_internal_set_PackID)) ::StringW PackID;
 
-  /// @brief Method FromJson, addr 0x3703b44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x3707f64, size 0x4c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Deeplink* FromJson(::StringW jsonDeeplink);
 
   static inline ::GlobalNamespace::Deeplink* New_ctor();
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_PackID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3703b90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3707fb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
   Deeplink(Deeplink const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14820 };
 
   /// @brief Field Destination, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Destination;

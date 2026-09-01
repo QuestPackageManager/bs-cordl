@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TransitionEndEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TransitionEndEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionEndEvent_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TransitionEndEvent___c::*)()>(&::UnityEngine::UIElements::TransitionEndEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d9f454;
+  constexpr static std::size_t addrs = 0x6da6fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TransitionEndEvent___c*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TransitionEndEvent* (::UnityEngine::UIElements::TransitionEndEvent___c::*)()>(
     &::UnityEngine::UIElements::TransitionEndEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9f458;
+  constexpr static std::size_t addrs = 0x6da6fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TransitionEndEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TransitionEndEvent::*)()>(&::UnityEngine::UIElements::TransitionEndEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d9f3b4;
+  constexpr static std::size_t addrs = 0x6da6f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TransitionEndEvent*>(), { ".ctor", {}, {} })));

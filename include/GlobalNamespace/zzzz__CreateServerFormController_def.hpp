@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CreateServerFormController.hpp"
+// IWYU pragma private; include "GlobalNamespace\CreateServerFormController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::CreateServerFormController* New_ctor();
 
-  /// @brief Method Setup, addr 0x593ae84, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x593e908, size 0x64, virtual false, abstract: false, final false
   inline void Setup(int32_t selectedNumberOfPlayers, bool netDiscoverable);
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__maxPlayersList() const;
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__netDiscoverable(bool value);
 
-  /// @brief Method .ctor, addr 0x593aee8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593e96c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_formData, addr 0x593adb0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_formData, addr 0x593e834, size 0xd4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CreateServerFormData get_formData();
 
 protected:
@@ -72,7 +72,7 @@ public:
   CreateServerFormController(CreateServerFormController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6886 };
 
   /// @brief Field kMaxPlayers offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPlayers{ static_cast<int32_t>(0x5) };

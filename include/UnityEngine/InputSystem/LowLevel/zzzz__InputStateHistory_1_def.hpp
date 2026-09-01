@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputStateHistory_1.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputStateHistory_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,7 +127,7 @@ public:
   constexpr InputStateHistory_1_Enumerator(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>* m_History, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9069 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -251,7 +251,7 @@ public:
   constexpr InputStateHistory_1_Record(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>* m_Owner, int32_t m_IndexPlusOne, uint32_t m_Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9070 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -362,7 +362,7 @@ public:
   InputStateHistory_1(InputStateHistory_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

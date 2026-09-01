@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NtlmClient.hpp"
+// IWYU pragma private; include "System\Net\NtlmClient.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NtlmClient_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NtlmClient::*)()>(&::System::Net::NtlmClient::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x633372c;
+  constexpr static std::size_t addrs = 0x633b1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NtlmClient*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::NtlmClient::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::NtlmClient::Authenticate)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x633377c;
+  constexpr static std::size_t addrs = 0x633b1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::NtlmClient::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::NtlmClient::PreAuthenticate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x633385c;
+  constexpr static std::size_t addrs = 0x633b2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::NtlmClient::*)()>(&::System::Net::NtlmClient::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6333864;
+  constexpr static std::size_t addrs = 0x633b2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NtlmClient*>(), { "get_AuthenticationType", {}, {} })));

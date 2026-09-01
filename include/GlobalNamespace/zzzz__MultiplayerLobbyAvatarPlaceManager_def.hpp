@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyAvatarPlaceManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyAvatarPlaceManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,21 +48,21 @@ public:
   /// @brief Field _minOuterCircleRadius, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
-  /// @brief Method Activate, addr 0x59d4ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x59dcdc4, size 0x8, virtual false, abstract: false, final false
   inline void Activate(float_t innerCircleRadius, float_t minOuterCircleRadius);
 
-  /// @brief Method Deactivate, addr 0x59d5180, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x59dd264, size 0x4, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method DespawnAllPlaces, addr 0x59d5184, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method DespawnAllPlaces, addr 0x59dd268, size 0x184, virtual false, abstract: false, final false
   inline void DespawnAllPlaces();
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59d5308, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59dd3ec, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SpawnAllPlaces, addr 0x59d4ce8, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method SpawnAllPlaces, addr 0x59dcdcc, size 0x498, virtual false, abstract: false, final false
   inline void SpawnAllPlaces();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>>* const& __cordl_internal_get__allPlaces() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0x59d530c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59dd3f0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   MultiplayerLobbyAvatarPlaceManager(MultiplayerLobbyAvatarPlaceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6161 };
 
   /// @brief Field _lobbyStateDataModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;

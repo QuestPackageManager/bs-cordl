@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SubContainerCreatorByMethod_6.hpp"
+// IWYU pragma private; include "Zenject\SubContainerCreatorByMethod_6.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,7 @@ public:
   SubContainerCreatorByMethod_6(SubContainerCreatorByMethod_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14607 };
 
   /// @brief Field _installMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* ____installMethod;

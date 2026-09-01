@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ModalViewBase.hpp"
+// IWYU pragma private; include "HMUI\ModalViewBase.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ModalViewBase_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ModalViewBase::*)()>(&::HMUI::ModalViewBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5887a70;
+  constexpr static std::size_t addrs = 0x588743c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ModalViewBase*>(), { ".ctor", {}, {} })));

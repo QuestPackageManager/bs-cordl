@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Spacing.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Spacing.hpp"
 #include "UnityEngine/UIElements/zzzz__Spacing_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Spacing.get_horizontal
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Spacing::*)()>(&::UnityEngine::UIElements::Spacing::get_horizontal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6dd276c;
+  constexpr static std::size_t addrs = 0x6dda2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Spacing>(), { "get_horizontal", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Spacing::*)()>(&::UnityEngine::UIElements::Spacing::get_vertical)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6dd277c;
+  constexpr static std::size_t addrs = 0x6dda300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Spacing>(), { "get_vertical", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Spacing::*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::UIElements::Spacing::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dd278c;
+  constexpr static std::size_t addrs = 0x6dda310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect, ::UnityEngine::UIElements::Spacing)>(&::UnityEngine::UIElements::Spacing::op_Subtraction)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6dd2798;
+  constexpr static std::size_t addrs = 0x6dda31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

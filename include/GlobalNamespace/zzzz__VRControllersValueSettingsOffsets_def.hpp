@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/VRControllersValueSettingsOffsets.hpp"
+// IWYU pragma private; include "GlobalNamespace\VRControllersValueSettingsOffsets.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,22 +58,22 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x37501e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3755e14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alternativeHandling, addr 0x375010c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_alternativeHandling, addr 0x3755d3c, size 0x28, virtual true, abstract: false, final false
   inline bool get_alternativeHandling();
 
-  /// @brief Method get_leftPositionOffset, addr 0x3750134, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_leftPositionOffset, addr 0x3755d64, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftPositionOffset();
 
-  /// @brief Method get_leftRotationOffset, addr 0x3750160, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_leftRotationOffset, addr 0x3755d90, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftRotationOffset();
 
-  /// @brief Method get_rightPositionOffset, addr 0x375018c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_rightPositionOffset, addr 0x3755dbc, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightPositionOffset();
 
-  /// @brief Method get_rightRotationOffset, addr 0x37501b8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_rightRotationOffset, addr 0x3755de8, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightRotationOffset();
 
 protected:
@@ -91,7 +91,7 @@ public:
   VRControllersValueSettingsOffsets(VRControllersValueSettingsOffsets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15254 };
 
   /// @brief Field _settingsManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeUtilityExtensions.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeUtilityExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeUtilityExtensions_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions.MemSwap
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*, int64_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::MemSwap)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x64c8190;
+  constexpr static std::size_t addrs = 0x64cfc0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions*>(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, uint8_t*, int64_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::CheckMemSwapOverlap)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64c82a8;
+  constexpr static std::size_t addrs = 0x64cfd24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions::CheckIndexRange)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x64c8310;
+  constexpr static std::size_t addrs = 0x64cfd8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeUtilityExtensions*>(),

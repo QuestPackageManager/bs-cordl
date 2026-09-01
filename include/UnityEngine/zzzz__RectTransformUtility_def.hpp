@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/RectTransformUtility.hpp"
+// IWYU pragma private; include "UnityEngine\RectTransformUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,51 +55,51 @@ public:
   /// @brief Field s_Corners, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Corners, put = setStaticF_s_Corners)) ::ArrayW<::UnityEngine::Vector3> s_Corners;
 
-  /// @brief Method FlipLayoutAxes, addr 0x6de2a6c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method FlipLayoutAxes, addr 0x6dea5f0, size 0x260, virtual false, abstract: false, final false
   static inline void FlipLayoutAxes(::UnityEngine::RectTransform* rect, bool keepPositioning, bool recursive);
 
-  /// @brief Method FlipLayoutOnAxis, addr 0x6de2774, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method FlipLayoutOnAxis, addr 0x6dea2f8, size 0x2f8, virtual false, abstract: false, final false
   static inline void FlipLayoutOnAxis(::UnityEngine::RectTransform* rect, int32_t axis, bool keepPositioning, bool recursive);
 
-  /// @brief Method GetTransposed, addr 0x6de2ccc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetTransposed, addr 0x6dea850, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetTransposed(::UnityEngine::Vector2 input);
 
-  /// @brief Method PixelAdjustPoint, addr 0x6de19cc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method PixelAdjustPoint, addr 0x6de9550, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 PixelAdjustPoint(::UnityEngine::Vector2 point, ::UnityEngine::Transform* elementTransform, ::UnityEngine::Canvas* canvas);
 
-  /// @brief Method PixelAdjustPoint_Injected, addr 0x6de1ad4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PixelAdjustPoint_Injected, addr 0x6de9658, size 0x5c, virtual false, abstract: false, final false
   static inline void PixelAdjustPoint_Injected(::by_ref<::UnityEngine::Vector2> point, ::System::IntPtr elementTransform, ::System::IntPtr canvas, ::by_ref<::UnityEngine::Vector2> ret);
 
-  /// @brief Method PixelAdjustRect, addr 0x6de1b30, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method PixelAdjustRect, addr 0x6de96b4, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect PixelAdjustRect(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Canvas* canvas);
 
-  /// @brief Method PixelAdjustRect_Injected, addr 0x6de1c34, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PixelAdjustRect_Injected, addr 0x6de97b8, size 0x54, virtual false, abstract: false, final false
   static inline void PixelAdjustRect_Injected(::System::IntPtr rectTransform, ::System::IntPtr canvas, ::by_ref<::UnityEngine::Rect> ret);
 
-  /// @brief Method PointInRectangle, addr 0x6de1c88, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method PointInRectangle, addr 0x6de980c, size 0x10c, virtual false, abstract: false, final false
   static inline bool PointInRectangle(::UnityEngine::Vector2 screenPoint, ::UnityEngine::RectTransform* rect, ::UnityEngine::Camera* cam, ::UnityEngine::Vector4 offset);
 
-  /// @brief Method PointInRectangle_Injected, addr 0x6de1d94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PointInRectangle_Injected, addr 0x6de9918, size 0x5c, virtual false, abstract: false, final false
   static inline bool PointInRectangle_Injected(::by_ref<::UnityEngine::Vector2> screenPoint, ::System::IntPtr rect, ::System::IntPtr cam, ::by_ref<::UnityEngine::Vector4> offset);
 
-  /// @brief Method RectangleContainsScreenPoint, addr 0x6de1df0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RectangleContainsScreenPoint, addr 0x6de9974, size 0xdc, virtual false, abstract: false, final false
   static inline bool RectangleContainsScreenPoint(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam);
 
-  /// @brief Method RectangleContainsScreenPoint, addr 0x6de1ecc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RectangleContainsScreenPoint, addr 0x6de9a50, size 0xb0, virtual false, abstract: false, final false
   static inline bool RectangleContainsScreenPoint(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam, ::UnityEngine::Vector4 offset);
 
-  /// @brief Method ScreenPointToLocalPointInRectangle, addr 0x6de25bc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ScreenPointToLocalPointInRectangle, addr 0x6dea140, size 0x104, virtual false, abstract: false, final false
   static inline bool ScreenPointToLocalPointInRectangle(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam,
                                                         ::by_ref<::UnityEngine::Vector2> localPoint);
 
-  /// @brief Method ScreenPointToRay, addr 0x6de23d8, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ScreenPointToRay, addr 0x6de9f5c, size 0x1e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Camera* cam, ::UnityEngine::Vector2 screenPos);
 
-  /// @brief Method ScreenPointToWorldPointInRectangle, addr 0x6de1f7c, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method ScreenPointToWorldPointInRectangle, addr 0x6de9b00, size 0x45c, virtual false, abstract: false, final false
   static inline bool ScreenPointToWorldPointInRectangle(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam,
                                                         ::by_ref<::UnityEngine::Vector3> worldPoint);
 
-  /// @brief Method WorldToScreenPoint, addr 0x6de26c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WorldToScreenPoint, addr 0x6dea244, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 WorldToScreenPoint(::UnityEngine::Camera* cam, ::UnityEngine::Vector3 worldPoint);
 
   static inline ::ArrayW<::UnityEngine::Vector3> getStaticF_s_Corners();
@@ -121,7 +121,7 @@ public:
   RectTransformUtility(RectTransformUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22114 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

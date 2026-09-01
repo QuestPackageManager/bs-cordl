@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlCachedStream.hpp"
+// IWYU pragma private; include "System\Xml\XmlCachedStream.hpp"
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "System/Xml/zzzz__XmlCachedStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlCachedStream::*)(::System::Uri*, ::System::IO::Stream*)>(&::System::Xml::XmlCachedStream::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x62da2bc;
+  constexpr static std::size_t addrs = 0x62e1d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleSheetCache.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleSheetCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE StyleSheetCache_SheetHandleKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6d0ff9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d17b20, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t index);
 
   // Ctor Parameters []
@@ -95,15 +95,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey>*() noexcept;
 
-  /// @brief Method Equals, addr 0x6d10280, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6d17e04, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey x, ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey y);
 
-  /// @brief Method GetHashCode, addr 0x6d1028c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x6d17e10, size 0xc, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey key);
 
   static inline ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d1027c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d17e00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey>"
@@ -152,13 +152,13 @@ public:
                       put = setStaticF_s_RulePropertyIdsCache)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey,
                                                                                                              ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId>>* s_RulePropertyIdsCache;
 
-  /// @brief Method GetPropertyId, addr 0x6d0ffd0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyId, addr 0x6d17b54, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId GetPropertyId(::UnityEngine::UIElements::StyleRule* rule, int32_t index);
 
-  /// @brief Method GetPropertyIds, addr 0x6d100b0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyIds, addr 0x6d17c34, size 0xdc, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId> GetPropertyIds(::UnityEngine::UIElements::StyleRule* rule);
 
-  /// @brief Method GetPropertyIds, addr 0x6d0ae54, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyIds, addr 0x6d129d8, size 0x1e8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId> GetPropertyIds(::UnityEngine::UIElements::StyleSheet* sheet, int32_t ruleIndex);
 
   static inline ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer* getStaticF_s_Comparer();

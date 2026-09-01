@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemWriter.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\Pem\PemWriter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemWriter_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::System::IO::TextWriter*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35a5c94;
+  constexpr static std::size_t addrs = 0x35a9a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::TextWriter* (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::get_Writer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35a5d88;
+  constexpr static std::size_t addrs = 0x35a9b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::Pem::PemWriter*>(), { "get_Writer", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::GetOutputSize)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x35a5d90;
+  constexpr static std::size_t addrs = 0x35a9b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::Pem::PemWriter*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::WriteObject)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x35a6240;
+  constexpr static std::size_t addrs = 0x35aa000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::Pem::PemWriter*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::WriteEncoded)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x35a67f4;
+  constexpr static std::size_t addrs = 0x35aa5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::StringW)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::WritePreEncapsulationBoundary)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x35a6758;
+  constexpr static std::size_t addrs = 0x35aa518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::StringW)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::WritePostEncapsulationBoundary)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x35a68d4;
+  constexpr static std::size_t addrs = 0x35aa694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

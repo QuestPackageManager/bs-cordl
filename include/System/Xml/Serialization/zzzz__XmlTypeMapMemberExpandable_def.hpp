@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlTypeMapMemberExpandable.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlTypeMapMemberExpandable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__flatArrayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x630b6a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6313124, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FlatArrayIndex, addr 0x630b698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FlatArrayIndex, addr 0x6313114, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FlatArrayIndex();
 
-  /// @brief Method set_FlatArrayIndex, addr 0x630b6a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FlatArrayIndex, addr 0x631311c, size 0x8, virtual false, abstract: false, final false
   inline void set_FlatArrayIndex(int32_t value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   XmlTypeMapMemberExpandable(XmlTypeMapMemberExpandable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9552 };
 
   /// @brief Field _flatArrayIndex, offset: 0x78, size: 0x4, def value: None
   int32_t ____flatArrayIndex;

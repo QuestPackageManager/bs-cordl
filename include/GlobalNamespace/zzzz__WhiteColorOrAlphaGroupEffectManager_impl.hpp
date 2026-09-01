@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/WhiteColorOrAlphaGroupEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\WhiteColorOrAlphaGroupEffectManager.hpp"
 #include "GlobalNamespace/zzzz__LightGroup_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::*)()>(&::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::Start)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x5990cac;
+  constexpr static std::size_t addrs = 0x5999fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>(), { "Start", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::*)()>(&::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5990f1c;
+  constexpr static std::size_t addrs = 0x599a248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>(), { "OnDestroy", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::*)()>(&::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5991020;
+  constexpr static std::size_t addrs = 0x599a34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/URPDefaultVolumeProfileSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\URPDefaultVolumeProfileSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPDefaultVolumeProfileSettings_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPDefaultVolumeProfileSettings_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings::*)()>(
     &::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b27fc;
+  constexpr static std::size_t addrs = 0x68ba278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::VolumeProfile> (::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings::*)()>(
     &::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings::get_volumeProfile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68b2804;
+  constexpr static std::size_t addrs = 0x68ba280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings::*)(::UnityEngine::Rendering::VolumeProfile*)>(
     &::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings::set_volumeProfile)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68b280c;
+  constexpr static std::size_t addrs = 0x68ba288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings*>(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings::*)()>(
     &::UnityEngine::Rendering::Universal::URPDefaultVolumeProfileSettings::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68b287c;
+  constexpr static std::size_t addrs = 0x68ba2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoTransitionColorHueSlider.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoTransitionColorHueSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,21 +44,21 @@ public:
                       put = __cordl_internal_set_colorHueDidChangeEvent)) ::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorHueSlider>, float_t,
                                                                                              ::GlobalNamespace::ColorChangeUIEventType>* colorHueDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x5a29800, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a2dc68, size 0x90, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x5a299bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x5a2de24, size 0x28, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::CircleSlider* slider, float_t normalizedValue);
 
   static inline ::GlobalNamespace::NoTransitionColorHueSlider* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a29890, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a2dcf8, size 0x84, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPointerUp, addr 0x5a299e4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x5a2de4c, size 0x40, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method UpdateVisuals, addr 0x5a29914, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x5a2dd7c, size 0xa8, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__darkColor() const;
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x5a29a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2de8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorHueDidChangeEvent, addr 0x5a29680, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_colorHueDidChangeEvent, addr 0x5a2dae8, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method remove_colorHueDidChangeEvent, addr 0x5a29740, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorHueDidChangeEvent, addr 0x5a2dba8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::NoTransitionColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   NoTransitionColorHueSlider(NoTransitionColorHueSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23176 };
 
   /// @brief Field _darkColor, offset: 0x13c, size: 0x10, def value: None
   ::UnityEngine::Color ____darkColor;

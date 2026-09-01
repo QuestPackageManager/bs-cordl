@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ReusableListViewItem.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ReusableListViewItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,27 +37,27 @@ public:
 
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method DetachElement, addr 0x6c4e1f8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method DetachElement, addr 0x6c55d7c, size 0x90, virtual true, abstract: false, final false
   inline void DetachElement();
 
-  /// @brief Method Init, addr 0x6c440d8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6c4bc5c, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor();
 
-  /// @brief Method PreAttachElement, addr 0x6c4e168, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method PreAttachElement, addr 0x6c55cec, size 0x90, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method SetDragGhost, addr 0x6c4e288, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SetDragGhost, addr 0x6c55e0c, size 0x90, virtual true, abstract: false, final false
   inline void SetDragGhost(bool dragGhost);
 
-  /// @brief Method SetDragHandleEnabled, addr 0x6c4c628, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetDragHandleEnabled, addr 0x6c541ac, size 0xac, virtual false, abstract: false, final false
   inline void SetDragHandleEnabled(bool enabled);
 
-  /// @brief Method UpdateDragHandle, addr 0x6c44760, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method UpdateDragHandle, addr 0x6c4c2e4, size 0x144, virtual false, abstract: false, final false
   inline void UpdateDragHandle(bool needsDragHandle);
 
-  /// @brief Method UpdateHierarchy, addr 0x6c4df04, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method UpdateHierarchy, addr 0x6c55a88, size 0x264, virtual false, abstract: false, final false
   inline void UpdateHierarchy(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
@@ -78,12 +78,12 @@ public:
 
   constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6c4e318, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c55e9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_k_SortingDisablesReorderingTooltip();
 
-  /// @brief Method get_rootElement, addr 0x6c4deec, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x6c55a70, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
   static inline void setStaticF_k_SortingDisablesReorderingTooltip(::StringW value);

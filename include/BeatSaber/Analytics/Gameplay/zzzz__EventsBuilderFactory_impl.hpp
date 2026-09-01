@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventsBuilderFactory.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventsBuilderFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__EventsBuilderFactory_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__EventsBuilderSharedCache_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventsBuilder* (::BeatSaber::Analytics::Gameplay::EventsBuilderFactory::*)()>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilderFactory::Create)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x325fbb0;
+  constexpr static std::size_t addrs = 0x3262eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilderFactory*>(), { "Create", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventsBuilderFactory::*)()>(&::BeatSaber::Analytics::Gameplay::EventsBuilderFactory::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x325fc10;
+  constexpr static std::size_t addrs = 0x3262f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilderFactory*>(), { ".ctor", {}, {} })));

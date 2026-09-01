@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/BombNoteItemConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\BombNoteItemConverter.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BombNote_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__BombNoteItemConverter_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::BombNoteItemConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::BombNote>, ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::BombNoteItemConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375d68c;
+  constexpr static std::size_t addrs = 0x37632f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapObjectData* (::BeatmapDataLoaderVersion4::BombNoteItemConverter::*)(::BeatmapSaveDataVersion4::BeatmapBeatIndex*)>(
     &::BeatmapDataLoaderVersion4::BombNoteItemConverter::Convert)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x375d79c;
+  constexpr static std::size_t addrs = 0x3763408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::BombNoteItemConverter*>(),

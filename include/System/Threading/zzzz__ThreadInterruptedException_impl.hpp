@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/ThreadInterruptedException.hpp"
+// IWYU pragma private; include "System\Threading\ThreadInterruptedException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Threading/zzzz__ThreadInterruptedException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadInterruptedException::*)()>(&::System::Threading::ThreadInterruptedException::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5caffb0;
+  constexpr static std::size_t addrs = 0x5cb446c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadInterruptedException*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadInterruptedException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Threading::ThreadInterruptedException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb002c;
+  constexpr static std::size_t addrs = 0x5cb44e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRSampledEventSender.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRSampledEventSender.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ public:
   static inline ::GlobalNamespace::OVRSampledEventSender* New_ctor(int32_t markerId, float_t recordRecordChance,
                                                                    ::System::Func_2<::GlobalNamespace::OVRTelemetryMarker, ::GlobalNamespace::OVRTelemetryMarker>* addAnnotationsFunc);
 
-  /// @brief Method Send, addr 0x5ed9d1c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x5ede1d8, size 0x30, virtual false, abstract: false, final false
   inline void Send();
 
-  /// @brief Method ShouldSendEvent, addr 0x5ed9f9c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendEvent, addr 0x5ede458, size 0x40, virtual false, abstract: false, final false
   static inline bool ShouldSendEvent(float_t chance);
 
-  /// @brief Method Start, addr 0x5ed9e90, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ede34c, size 0x10c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Func_2<::GlobalNamespace::OVRTelemetryMarker, ::GlobalNamespace::OVRTelemetryMarker>* const& __cordl_internal_get__addAnnotationsFunc() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__shouldSend(bool value);
 
-  /// @brief Method .ctor, addr 0x5ed9d0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ede1c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t markerId, float_t recordRecordChance, ::System::Func_2<::GlobalNamespace::OVRTelemetryMarker, ::GlobalNamespace::OVRTelemetryMarker>* addAnnotationsFunc);
 
 protected:
@@ -104,7 +104,7 @@ public:
   OVRSampledEventSender(OVRSampledEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7728 };
 
   /// @brief Field _marker, offset: 0x10, size: 0x18, def value: None
   ::GlobalNamespace::OVRTelemetryMarker ____marker;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ResultsTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace\ResultsTableCell.hpp"
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_impl.hpp"
 #include "GlobalNamespace/zzzz__ResultsTableCell_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultsTableCell::*)(int32_t, ::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::LevelCompletionResults*)>(
     &::GlobalNamespace::ResultsTableCell::SetData)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x596b7a4;
+  constexpr static std::size_t addrs = 0x596f09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultsTableCell::*)()>(&::GlobalNamespace::ResultsTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596bb2c;
+  constexpr static std::size_t addrs = 0x596f424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResultsTableCell*>(), { ".ctor", {}, {} })));

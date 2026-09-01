@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/CipherUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\CipherUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -554,34 +554,34 @@ public:
   /// @brief Field oids, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_oids, put = setStaticF_oids)) ::System::Collections::IDictionary* oids;
 
-  /// @brief Method CreateBlockCipher, addr 0x35f173c, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method CreateBlockCipher, addr 0x35f54fc, size 0x50c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateBlockCipher(::Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm cipherAlgorithm);
 
-  /// @brief Method GetAlgorithmName, addr 0x35f1c48, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x35f5a08, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetCipher, addr 0x35ef91c, size 0x1da4, virtual false, abstract: false, final false
+  /// @brief Method GetCipher, addr 0x35f36dc, size 0x1da4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* GetCipher(::StringW algorithm);
 
-  /// @brief Method GetCipher, addr 0x35ef8b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetCipher, addr 0x35f3678, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* GetCipher(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetDigitIndex, addr 0x35f16c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetDigitIndex, addr 0x35f5480, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetDigitIndex(::StringW s);
 
-  /// @brief Method GetObjectIdentifier, addr 0x35ef594, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method GetObjectIdentifier, addr 0x35f3354, size 0x250, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
   static inline ::Org::BouncyCastle::Security::CipherUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35ef590, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f3350, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();
 
   static inline ::System::Collections::IDictionary* getStaticF_oids();
 
-  /// @brief Method get_Algorithms, addr 0x35ef7e4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithms, addr 0x35f35a4, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
   static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);

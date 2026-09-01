@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlSchemaProviderAttribute.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlSchemaProviderAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__methodName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62f5540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62fcfbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW methodName);
 
-  /// @brief Method get_IsAny, addr 0x62f5550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAny, addr 0x62fcfcc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAny();
 
-  /// @brief Method get_MethodName, addr 0x62f5548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MethodName, addr 0x62fcfc4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MethodName();
 
-  /// @brief Method set_IsAny, addr 0x62f5558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsAny, addr 0x62fcfd4, size 0x8, virtual false, abstract: false, final false
   inline void set_IsAny(bool value);
 
 protected:
@@ -71,7 +71,7 @@ public:
   XmlSchemaProviderAttribute(XmlSchemaProviderAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9522 };
 
   /// @brief Field _methodName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____methodName;

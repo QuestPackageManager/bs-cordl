@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ConcreteIdArgConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject\ConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
   // Declarations
   static inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithConcreteId, addr 0x6e43428, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method WithConcreteId, addr 0x6e4afac, size 0x18, virtual false, abstract: false, final false
   inline ::Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::System::Object* id);
 
-  /// @brief Method .ctor, addr 0x6e43420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e4afa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -51,7 +51,7 @@ public:
   ConcreteIdArgConditionCopyNonLazyBinder(ConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14028 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

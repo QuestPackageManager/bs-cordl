@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapDataNoArrowsTransform.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapDataNoArrowsTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataNoArrowsTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData, addr 0x37015a4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x37057f4, size 0xf4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x3701698, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x37058e8, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
 protected:
@@ -46,7 +46,7 @@ public:
   BeatmapDataNoArrowsTransform(BeatmapDataNoArrowsTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14800 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

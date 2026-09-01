@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/EncodingHelper.hpp"
+// IWYU pragma private; include "System\Text\EncodingHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +43,13 @@ public:
   /// @brief Field utf8EncodingWithoutMarkers, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_utf8EncodingWithoutMarkers, put = setStaticF_utf8EncodingWithoutMarkers)) ::System::Text::Encoding* utf8EncodingWithoutMarkers;
 
-  /// @brief Method GetDefaultEncoding, addr 0x5ae6a68, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultEncoding, addr 0x5aeaf24, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetDefaultEncoding();
 
-  /// @brief Method InternalCodePage, addr 0x5ae9ce8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalCodePage, addr 0x5aee1a4, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW InternalCodePage(::by_ref<int32_t> code_page);
 
-  /// @brief Method InvokeI18N, addr 0x5ae4f7c, size 0x6cc, virtual false, abstract: false, final false
+  /// @brief Method InvokeI18N, addr 0x5ae9438, size 0x6cc, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeI18N(::StringW name, ::ArrayW<::System::Object*> args);
 
   static inline ::System::Reflection::Assembly* getStaticF_i18nAssembly();
@@ -60,7 +60,7 @@ public:
 
   static inline ::System::Text::Encoding* getStaticF_utf8EncodingWithoutMarkers();
 
-  /// @brief Method get_UTF8Unmarked, addr 0x5ae9af4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method get_UTF8Unmarked, addr 0x5aedfb0, size 0x1f4, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_UTF8Unmarked();
 
   static inline void setStaticF_i18nAssembly(::System::Reflection::Assembly* value);

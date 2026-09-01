@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DataSourceContextChanged.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DataSourceContextChanged.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE DataSourceContextChanged {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c3d850, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c453d4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::by_ref<::UnityEngine::UIElements::DataSourceContext> previousContext,
                     ::by_ref<::UnityEngine::UIElements::DataSourceContext> newContext);
 

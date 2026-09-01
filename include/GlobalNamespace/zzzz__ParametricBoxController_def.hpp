@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ParametricBoxController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ParametricBoxController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,21 +101,21 @@ public:
   /// @brief Field widthStart, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_widthStart, put = __cordl_internal_set_widthStart)) float_t widthStart;
 
-  /// @brief Method Awake, addr 0x5867a68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5866a0c, size 0x28, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x5867a90, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x5866a34, size 0xfc, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::ParametricBoxController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5867ba8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5866b4c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5867b8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5866b30, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x5867bc4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5866b68, size 0x214, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr float_t const& __cordl_internal_get__collisionHeight_k__BackingField() const;
@@ -214,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set_widthStart(float_t value);
 
-  /// @brief Method .ctor, addr 0x5867dd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5866d7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__alphaEndID();
@@ -229,10 +229,10 @@ public:
 
   static inline int32_t getStaticF__widthStartID();
 
-  /// @brief Method get_collisionHeight, addr 0x5867a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collisionHeight, addr 0x58669fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_collisionHeight();
 
-  /// @brief Method get_useCollision, addr 0x5867a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCollision, addr 0x58669ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCollision();
 
   static inline void setStaticF__alphaEndID(int32_t value);
@@ -247,10 +247,10 @@ public:
 
   static inline void setStaticF__widthStartID(int32_t value);
 
-  /// @brief Method set_collisionHeight, addr 0x5867a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_collisionHeight, addr 0x5866a04, size 0x8, virtual false, abstract: false, final false
   inline void set_collisionHeight(float_t value);
 
-  /// @brief Method set_useCollision, addr 0x5867a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useCollision, addr 0x58669f4, size 0x8, virtual false, abstract: false, final false
   inline void set_useCollision(bool value);
 
 protected:
@@ -268,7 +268,7 @@ public:
   ParametricBoxController(ParametricBoxController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19484 };
 
   /// @brief Field width, offset: 0x20, size: 0x4, def value: None
   float_t ___width;

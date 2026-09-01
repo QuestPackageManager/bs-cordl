@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioClipAsyncLoaderExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioClipAsyncLoaderExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoaderExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapLevel*)>(
         &::GlobalNamespace::AudioClipAsyncLoaderExtensions::LoadPreview)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x371a9bc;
+  constexpr static std::size_t addrs = 0x3720840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::AudioClipAsyncLoaderExtensions::UnloadPreview)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x371aa68;
+  constexpr static std::size_t addrs = 0x37208ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::IBeatmapLevelData*)>(
         &::GlobalNamespace::AudioClipAsyncLoaderExtensions::LoadSong)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x371ab14;
+  constexpr static std::size_t addrs = 0x3720998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::AudioClipAsyncLoaderExtensions::UnloadSong)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x371929c;
+  constexpr static std::size_t addrs = 0x371f120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

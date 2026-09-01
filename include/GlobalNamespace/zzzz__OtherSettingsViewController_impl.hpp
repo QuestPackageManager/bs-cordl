@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OtherSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\OtherSettingsViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__OtherSettingsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__NamedIntListSettingsController_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)(bool, bool, bool)>(&::GlobalNamespace::OtherSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5a193b8;
+  constexpr static std::size_t addrs = 0x5a214ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)(bool, bool)>(&::GlobalNamespace::OtherSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5a1966c;
+  constexpr static std::size_t addrs = 0x5a21760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::OtherSettingsViewController::HandlePausePressDurationChanged)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a1982c;
+  constexpr static std::size_t addrs = 0x5a21920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)(bool)>(&::GlobalNamespace::OtherSettingsViewController::HandleHideExplicitChanged)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5a19844;
+  constexpr static std::size_t addrs = 0x5a21938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)()>(
     &::GlobalNamespace::OtherSettingsViewController::UpdateExplicitContentHiddenWarningVisibility)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5a19620;
+  constexpr static std::size_t addrs = 0x5a21714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OtherSettingsViewController::*)()>(&::GlobalNamespace::OtherSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a19874;
+  constexpr static std::size_t addrs = 0x5a21968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OtherSettingsViewController*>(), { ".ctor", {}, {} })));

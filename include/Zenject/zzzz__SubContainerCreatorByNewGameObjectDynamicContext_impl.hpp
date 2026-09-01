@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SubContainerCreatorByNewGameObjectDynamicContext.hpp"
+// IWYU pragma private; include "Zenject\SubContainerCreatorByNewGameObjectDynamicContext.hpp"
 #include "Zenject/zzzz__SubContainerCreatorDynamicContext_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubContainerCreatorByNewGameObjectDynamicContext::*)(::Zenject::DiContainer*, ::Zenject::GameObjectCreationParameters*)>(
     &::Zenject::SubContainerCreatorByNewGameObjectDynamicContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e83130;
+  constexpr static std::size_t addrs = 0x6e8acb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::SubContainerCreatorByNewGameObjectDynamicContext::*)(::by_ref<bool>)>(
     &::Zenject::SubContainerCreatorByNewGameObjectDynamicContext::CreateGameObject)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e83140;
+  constexpr static std::size_t addrs = 0x6e8acc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorByNewGameObjectDynamicContext*>(),

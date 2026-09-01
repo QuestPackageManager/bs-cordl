@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SaberSound.hpp"
+// IWYU pragma private; include "GlobalNamespace\SaberSound.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,10 +62,10 @@ public:
 
   static inline ::GlobalNamespace::SaberSound* New_ctor();
 
-  /// @brief Method Start, addr 0x59e8a64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59f0b38, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59e8a90, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59f0b64, size 0x218, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -128,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set__upSmooth(float_t value);
 
-  /// @brief Method .ctor, addr 0x59e8ca8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f0d7c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,7 +146,7 @@ public:
   SaberSound(SaberSound const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6235 };
 
   /// @brief Field _saberTop, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____saberTop;

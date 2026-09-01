@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/BuildingBlocks/RunTimeUtils.hpp"
+// IWYU pragma private; include "Meta\XR\BuildingBlocks\RunTimeUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__RunTimeUtils_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t, bool, bool, bool, bool)>(&::Meta::XR::BuildingBlocks::RunTimeUtils::GenerateRandomString)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5a31280;
+  constexpr static std::size_t addrs = 0x5a3573c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

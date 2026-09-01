@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorSchemesSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorSchemesSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemesSettings_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemesSettings___c::*)()>(&::GlobalNamespace::ColorSchemesSettings___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x374046c;
+  constexpr static std::size_t addrs = 0x3745fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemesSettings___c*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemesSettings___c::*)(::GlobalNamespace::ColorSchemeSO*)>(
     &::GlobalNamespace::ColorSchemesSettings___c::__ctor_b__16_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3740470;
+  constexpr static std::size_t addrs = 0x3745fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ColorSchemesSettings::*)()>(&::GlobalNamespace::ColorSchemesSettings::get_overrideDefaultColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x373fd14;
+  constexpr static std::size_t addrs = 0x3745884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemesSettings*>(), { "get_overrideDefaultColors", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(bool)>(&::GlobalNamespace::ColorSchemesSettings::set_overrideDefaultColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x373fd1c;
+  constexpr static std::size_t addrs = 0x374588c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::StringW)>(&::GlobalNamespace::ColorSchemesSettings::set_selectedColorSchemeId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x373fd24;
+  constexpr static std::size_t addrs = 0x3745894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ColorSchemesSettings::*)()>(&::GlobalNamespace::ColorSchemesSettings::get_selectedColorSchemeId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x373fd2c;
+  constexpr static std::size_t addrs = 0x374589c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemesSettings*>(), { "get_selectedColorSchemeId", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorSchemesSettings_ColorOverrideType (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::get_colorOverrideType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x373fd34;
+  constexpr static std::size_t addrs = 0x37458a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemesSettings*>(), { "get_colorOverrideType", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType)>(
     &::GlobalNamespace::ColorSchemesSettings::set_colorOverrideType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x373fd3c;
+  constexpr static std::size_t addrs = 0x37458ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>*)>(
     &::GlobalNamespace::ColorSchemesSettings::_ctor)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x373fd44;
+  constexpr static std::size_t addrs = 0x37458b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*)>(
     &::GlobalNamespace::ColorSchemesSettings::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x373ff90;
+  constexpr static std::size_t addrs = 0x3745b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ColorSchemesSettings::*)()>(&::GlobalNamespace::ColorSchemesSettings::GetNumberOfColorSchemes)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x37400a0;
+  constexpr static std::size_t addrs = 0x3745c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemesSettings*>(), { "GetNumberOfColorSchemes", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemesSettings::*)(int32_t)>(
     &::GlobalNamespace::ColorSchemesSettings::GetColorSchemeForIdx)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x37400f0;
+  constexpr static std::size_t addrs = 0x3745c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemesSettings::*)(::StringW)>(
     &::GlobalNamespace::ColorSchemesSettings::GetColorSchemeForId)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3740154;
+  constexpr static std::size_t addrs = 0x3745cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemesSettings::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::ColorSchemesSettings::SetColorSchemeForId)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x37401b8;
+  constexpr static std::size_t addrs = 0x3745d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::GetSelectedColorScheme)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x37402e4;
+  constexpr static std::size_t addrs = 0x3745e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemesSettings*>(), { "GetSelectedColorScheme", {}, {} })));
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ColorSchemesSettings::*)()>(&::GlobalNamespace::ColorSchemesSettings::GetSelectedColorSchemeIdx)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x374033c;
+  constexpr static std::size_t addrs = 0x3745eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemesSettings*>(), { "GetSelectedColorSchemeIdx", {}, {} })));
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemesSettings::*)()>(
     &::GlobalNamespace::ColorSchemesSettings::GetOverrideColorScheme)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x37403e4;
+  constexpr static std::size_t addrs = 0x3745f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemesSettings*>(), { "GetOverrideColorScheme", {}, {} })));
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ColorSchemesSettings::*)()>(&::GlobalNamespace::ColorSchemesSettings::ShouldOverrideLightshowColors)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x37403f8;
+  constexpr static std::size_t addrs = 0x3745f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemesSettings*>(), { "ShouldOverrideLightshowColors", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ElGamalPrivateKeyParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ElGamalPrivateKeyParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ public:
   /// @brief Field x, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::Org::BouncyCastle::Math::BigInteger* x;
 
-  /// @brief Method Equals, addr 0x340f030, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3412df0, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x340f0dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3412e9c, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x340f134, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3412ef4, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x,
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x340efc4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3412d84, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_X, addr 0x340f028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x3412de8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
 protected:

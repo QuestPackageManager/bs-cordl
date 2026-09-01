@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/JavaScriptDateTimeConverter.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\JavaScriptDateTimeConverter.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__DateTimeConverterBase_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__JavaScriptDateTimeConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::WriteJson)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5d97768;
+  constexpr static std::size_t addrs = 0x5d9bc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter*>(),
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newt
                                                                                                                                           ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::ReadJson)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x5d97938;
+  constexpr static std::size_t addrs = 0x5d9bdf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter*>(),
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::*)()>(&::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d97c5c;
+  constexpr static std::size_t addrs = 0x5d9c118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter*>(), { ".ctor", {}, {} })));

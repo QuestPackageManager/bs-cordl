@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Numerics/NumericsHelpers.hpp"
+// IWYU pragma private; include "System\Numerics\NumericsHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Numerics/zzzz__NumericsHelpers_def.hpp"
 //  Writing Method size for method: ::System::Numerics::NumericsHelpers.GetDoubleParts
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(double_t, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<uint64_t>, ::by_ref<bool>)>(
     &::System::Numerics::NumericsHelpers::GetDoubleParts)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x60ea3e4;
+  constexpr static std::size_t addrs = 0x60f1e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::NumericsHelpers*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(int32_t, int32_t, uint64_t)>(&::System::Numerics::NumericsHelpers::GetDoubleFromParts)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60ecf3c;
+  constexpr static std::size_t addrs = 0x60f49b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>)>(&::System::Numerics::NumericsHelpers::DangerousMakeTwosComplement)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x60eac6c;
+  constexpr static std::size_t addrs = 0x60f26e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint32_t, uint32_t)>(&::System::Numerics::NumericsHelpers::MakeUlong)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60eb314;
+  constexpr static std::size_t addrs = 0x60f2d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(int32_t)>(&::System::Numerics::NumericsHelpers::Abs)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60ec090;
+  constexpr static std::size_t addrs = 0x60f3b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::NumericsHelpers*>(), { "Abs", {}, { ::i2c::type_of<int32_t>() } })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::Numerics::NumericsHelpers::CombineHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60f1804;
+  constexpr static std::size_t addrs = 0x60f9280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Numerics::NumericsHelpers::CombineHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60eb130;
+  constexpr static std::size_t addrs = 0x60f2bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint32_t)>(&::System::Numerics::NumericsHelpers::CbitHighZero)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60ecec4;
+  constexpr static std::size_t addrs = 0x60f4940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t)>(&::System::Numerics::NumericsHelpers::CbitHighZero)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60f17e0;
+  constexpr static std::size_t addrs = 0x60f925c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

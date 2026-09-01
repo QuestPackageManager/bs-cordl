@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/KeyedFactory_6.hpp"
+// IWYU pragma private; include "Zenject\KeyedFactory_6.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
   KeyedFactory_6(KeyedFactory_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14354 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

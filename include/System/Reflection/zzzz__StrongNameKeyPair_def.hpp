@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/StrongNameKeyPair.hpp"
+// IWYU pragma private; include "System\Reflection\StrongNameKeyPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,10 +57,10 @@ public:
 
   static inline ::System::Reflection::StrongNameKeyPair* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5b8d8b4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5b91d70, size 0x4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5b8d770, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5b91c2c, size 0x144, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get__keyPairArray() const;
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__publicKey(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x5b8d590, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b91a4c, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"

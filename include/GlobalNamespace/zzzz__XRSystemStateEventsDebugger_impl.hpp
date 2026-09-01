@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/XRSystemStateEventsDebugger.hpp"
+// IWYU pragma private; include "GlobalNamespace\XRSystemStateEventsDebugger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__XRSystemStateEventsDebugger_def.hpp"
 #include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::XRSystemStateEventsDebugger::*)()>(&::GlobalNamespace::XRSystemStateEventsDebugger::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x585e560;
+  constexpr static std::size_t addrs = 0x585d668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XRSystemStateEventsDebugger*>(), { "get_loggerPrefix", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XRSystemStateEventsDebugger::*)()>(&::GlobalNamespace::XRSystemStateEventsDebugger::Initialize)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x585e5a4;
+  constexpr static std::size_t addrs = 0x585d6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XRSystemStateEventsDebugger*>(), { "Initialize", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XRSystemStateEventsDebugger::*)()>(&::GlobalNamespace::XRSystemStateEventsDebugger::Dispose)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x585e70c;
+  constexpr static std::size_t addrs = 0x585d814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XRSystemStateEventsDebugger*>(), { "Dispose", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XRSystemStateEventsDebugger::*)(::GlobalNamespace::XRSystemEventType)>(
     &::GlobalNamespace::XRSystemStateEventsDebugger::HandleSystemStateChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585e804;
+  constexpr static std::size_t addrs = 0x585d90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XRSystemStateEventsDebugger*>(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XRSystemStateEventsDebugger::*)()>(&::GlobalNamespace::XRSystemStateEventsDebugger::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585e808;
+  constexpr static std::size_t addrs = 0x585d910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XRSystemStateEventsDebugger*>(), { ".ctor", {}, {} })));

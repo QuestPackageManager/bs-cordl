@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/MergeFailedEventHandler.hpp"
+// IWYU pragma private; include "System\Data\MergeFailedEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Data/zzzz__MergeFailedEventHandler_def.hpp"
 #include "System/Data/zzzz__MergeFailedEventArgs_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::MergeFailedEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::Data::MergeFailedEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6040620;
+  constexpr static std::size_t addrs = 0x604809c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::MergeFailedEventHandler::*)(::System::Object*, ::System::Data::MergeFailedEventArgs*)>(
     &::System::Data::MergeFailedEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6040768;
+  constexpr static std::size_t addrs = 0x60481e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Ucs4Encoding2143.hpp"
+// IWYU pragma private; include "System\Xml\Ucs4Encoding2143.hpp"
 #include "System/Xml/zzzz__Ucs4Encoding_impl.hpp"
 #include "System/Xml/zzzz__Ucs4Encoding2143_def.hpp"
 //  Writing Method size for method: ::System::Xml::Ucs4Encoding2143._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Ucs4Encoding2143::*)()>(&::System::Xml::Ucs4Encoding2143::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x62dbcd4;
+  constexpr static std::size_t addrs = 0x62e3750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding2143*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Ucs4Encoding2143::*)()>(&::System::Xml::Ucs4Encoding2143::get_EncodingName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x62dbfb0;
+  constexpr static std::size_t addrs = 0x62e3a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::Ucs4Encoding2143::*)()>(&::System::Xml::Ucs4Encoding2143::GetPreamble)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x62dbff4;
+  constexpr static std::size_t addrs = 0x62e3a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SliderSpawnInfoNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace\SliderSpawnInfoNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,10 +132,10 @@ public:
   /// @brief Field tailTime, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_tailTime, put = __cordl_internal_set_tailTime)) float_t tailTime;
 
-  /// @brief Method Deserialize, addr 0x377ea4c, size 0x2e8, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x37847d4, size 0x2e8, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x377e504, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x378428c, size 0x10c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::SliderData_Type sliderType, bool hasHeadNote, float_t headTime,
                                                                  float_t headBeat, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer,
                                                                  ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier,
@@ -147,10 +147,10 @@ public:
 
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x377e498, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x3784220, size 0x6c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x377e668, size 0x3e4, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x37843f0, size 0x3e4, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get_colorType() const;
@@ -315,7 +315,7 @@ public:
 
   constexpr void __cordl_internal_set_tailTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x377e610, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3784398, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -333,7 +333,7 @@ public:
   SliderSpawnInfoNetSerializable(SliderSpawnInfoNetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21218 };
 
   /// @brief Field colorType, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::ColorType ___colorType;

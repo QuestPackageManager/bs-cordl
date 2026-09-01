@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UpscalingFilterSelection.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UpscalingFilterSelection.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__UpscalingFilterSelection_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::UpscalingFilterSelection::UpscalingFilterSelection(int32_t value__) noexcept {

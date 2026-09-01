@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/CommandLineParser.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\CommandLine\CommandLineParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +82,13 @@ public:
 
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParser___c* New_ctor();
 
-  /// @brief Method <NormalizeCommandLineArgs>b__2_0, addr 0x330fadc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <NormalizeCommandLineArgs>b__2_0, addr 0x33138d8, size 0x44, virtual false, abstract: false, final false
   inline bool _NormalizeCommandLineArgs_b__2_0(char16_t c);
 
-  /// @brief Method <ParseArgs>b__9_1, addr 0x330fb20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ParseArgs>b__9_1, addr 0x331391c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ParseArgs_b__9_1(::BGLib::DotnetExtension::CommandLine::ArgumentOption option);
 
-  /// @brief Method .ctor, addr 0x330fad8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33138d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParser___c* getStaticF___9();
@@ -118,7 +118,7 @@ public:
   CommandLineParser___c(CommandLineParser___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -139,7 +139,7 @@ public:
 
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <ParseArgs>b__0, addr 0x330fb28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <ParseArgs>b__0, addr 0x3313924, size 0x88, virtual false, abstract: false, final false
   inline bool _ParseArgs_b__0(::BGLib::DotnetExtension::CommandLine::ArgumentOption option);
 
   constexpr ::System::Collections::Generic::HashSet_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* const& __cordl_internal_get_requiredFound() const;
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set_requiredFound(::System::Collections::Generic::HashSet_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* value);
 
-  /// @brief Method .ctor, addr 0x330f968, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3313764, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -166,7 +166,7 @@ public:
   CommandLineParser___c__DisplayClass9_0(CommandLineParser___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20522 };
 
   /// @brief Field requiredFound, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* ___requiredFound;
@@ -190,45 +190,45 @@ public:
 
   using __c__DisplayClass9_0 = ::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass9_0;
 
-  /// @brief Method AddParsedOption, addr 0x330f96c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method AddParsedOption, addr 0x3313768, size 0x118, virtual false, abstract: false, final false
   static inline void AddParsedOption(::System::Collections::Generic::Dictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>* parsedOption,
                                      ::BGLib::DotnetExtension::CommandLine::ArgumentOption option, ::StringW value);
 
-  /// @brief Method GenerateHint, addr 0x330f420, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method GenerateHint, addr 0x331321c, size 0x548, virtual false, abstract: false, final false
   static inline ::StringW GenerateHint(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* options);
 
-  /// @brief Method GenerateOptionsMap, addr 0x330df4c, size 0x828, virtual false, abstract: false, final false
+  /// @brief Method GenerateOptionsMap, addr 0x3311d48, size 0x828, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::BGLib::DotnetExtension::CommandLine::ArgumentOption>*
   GenerateOptionsMap(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* options, ::System::Text::RegularExpressions::Regex* argumentIdentifierRegex);
 
-  /// @brief Method GetCommandLineArgs, addr 0x330d794, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCommandLineArgs, addr 0x3311590, size 0x10, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetCommandLineArgs();
 
-  /// @brief Method NormalizeCommandLineArgs, addr 0x330d7a4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method NormalizeCommandLineArgs, addr 0x33115a0, size 0x164, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> NormalizeCommandLineArgs(::ArrayW<::StringW> environmentCommandLines);
 
-  /// @brief Method ParseArgs, addr 0x330eae0, size 0x934, virtual false, abstract: false, final false
+  /// @brief Method ParseArgs, addr 0x33128dc, size 0x934, virtual false, abstract: false, final false
   static inline void ParseArgs(::System::Collections::Generic::IReadOnlyList_1<::StringW>* args, int32_t startIndex,
                                ::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* requiredOptions,
                                ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::BGLib::DotnetExtension::CommandLine::ArgumentOption>* optionsMap,
                                ::by_ref<::System::Collections::Generic::Dictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>*> parsedOption,
                                ::by_ref<::System::Collections::Generic::List_1<::StringW>*> ignored);
 
-  /// @brief Method ParseCommandLine, addr 0x330dc24, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method ParseCommandLine, addr 0x3311a20, size 0x328, virtual false, abstract: false, final false
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult ParseCommandLine(::System::Collections::Generic::IReadOnlyList_1<::StringW>* args,
                                                                                                 ::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption> options);
 
-  /// @brief Method ParseEnvironmentCommandLine, addr 0x330dbe0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ParseEnvironmentCommandLine, addr 0x33119dc, size 0x44, virtual false, abstract: false, final false
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult ParseEnvironmentCommandLine(::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption> options);
 
-  /// @brief Method SelectRequiredOptions, addr 0x330e774, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method SelectRequiredOptions, addr 0x3312570, size 0x36c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*
   SelectRequiredOptions(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* options);
 
-  /// @brief Method TokenizeCommandLine, addr 0x330d908, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method TokenizeCommandLine, addr 0x3311704, size 0x1e8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* TokenizeCommandLine(::StringW commandLine, ::System::Func_2<char16_t, bool>* isSeparator);
 
-  /// @brief Method <TokenizeCommandLine>g__Flush|3_0, addr 0x330daf0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <TokenizeCommandLine>g__Flush|3_0, addr 0x33118ec, size 0xf0, virtual false, abstract: false, final false
   static inline void _TokenizeCommandLine_g__Flush_3_0(::System::Text::StringBuilder* currentString, ::System::Collections::Generic::List_1<::StringW>* output, bool shouldFlushEmptyString);
 
 protected:
@@ -246,7 +246,7 @@ public:
   CommandLineParser(CommandLineParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20523 };
 
   /// @brief Field kArgumentIdentifierPattern offset 0xffffffff size 0x8
   static constexpr ::ConstString kArgumentIdentifierPattern{ u"^(?>\\w|-|_)+$" };

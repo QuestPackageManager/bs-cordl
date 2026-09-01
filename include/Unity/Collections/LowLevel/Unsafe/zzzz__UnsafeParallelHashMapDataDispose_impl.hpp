@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapDataDispose.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapDataDispose.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapDataDispose_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDispose::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataDispose::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64c74d8;
+  constexpr static std::size_t addrs = 0x64cef54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

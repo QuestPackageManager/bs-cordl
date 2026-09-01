@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/CoalesceConversionBinaryExpression.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\CoalesceConversionBinaryExpression.hpp"
 #include "System/Linq/Expressions/zzzz__BinaryExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__CoalesceConversionBinaryExpression_def.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionType_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
     ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::LambdaExpression*)>(
     &::System::Linq::Expressions::CoalesceConversionBinaryExpression::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5f5b570;
+  constexpr static std::size_t addrs = 0x5f62fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::LambdaExpression* (::System::Linq::Expressions::CoalesceConversionBinaryExpression::*)()>(
     &::System::Linq::Expressions::CoalesceConversionBinaryExpression::GetConversion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f5b594;
+  constexpr static std::size_t addrs = 0x5f63010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::CoalesceConversionBinaryExpression*>(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::CoalesceConversionBinaryExpression::*)()>(
     &::System::Linq::Expressions::CoalesceConversionBinaryExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f5b59c;
+  constexpr static std::size_t addrs = 0x5f63018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Linq::Expressions::CoalesceConversionBinaryExpression::*)()>(
     &::System::Linq::Expressions::CoalesceConversionBinaryExpression::get_Type)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f5b5a4;
+  constexpr static std::size_t addrs = 0x5f63020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

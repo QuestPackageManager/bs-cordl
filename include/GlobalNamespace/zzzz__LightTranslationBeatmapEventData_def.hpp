@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightTranslationBeatmapEventData.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightTranslationBeatmapEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,19 +70,19 @@ public:
   /// @brief Field usePreviousEventValue, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_usePreviousEventValue, put = __cordl_internal_set_usePreviousEventValue)) bool usePreviousEventValue;
 
-  /// @brief Method ChangeTranslation, addr 0x3257f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ChangeTranslation, addr 0x325b234, size 0x8, virtual false, abstract: false, final false
   inline void ChangeTranslation(float_t translation, float_t distribution);
 
-  /// @brief Method GetCopy, addr 0x3257f3c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x325b23c, size 0xac, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x3257fe8, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x325b2e8, size 0x178, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::LightTranslationBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType,
                                                                               ::GlobalNamespace::LightAxis axis, float_t translation, float_t distribution);
 
-  /// @brief Method SubtypeIdentifier, addr 0x3257f1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0x325b21c, size 0x18, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis);
 
   constexpr float_t const& __cordl_internal_get__distribution_k__BackingField() const;
@@ -127,30 +127,30 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
-  /// @brief Method .ctor, addr 0x3257e48, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325b148, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::LightAxis axis, float_t translation,
                     float_t distribution);
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightTranslationBeatmapEventData*>* getStaticF__defaults();
 
-  /// @brief Method get_distribution, addr 0x3257e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distribution, addr 0x325b138, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distribution();
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x3257dac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x325b0ac, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightTranslationBeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x3257d30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x325b030, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightTranslationBeatmapEventData* get_previousSameTypeEventData();
 
-  /// @brief Method get_translation, addr 0x3257e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translation, addr 0x325b128, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translation();
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightTranslationBeatmapEventData*>* value);
 
-  /// @brief Method set_distribution, addr 0x3257e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_distribution, addr 0x325b140, size 0x8, virtual false, abstract: false, final false
   inline void set_distribution(float_t value);
 
-  /// @brief Method set_translation, addr 0x3257e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_translation, addr 0x325b130, size 0x8, virtual false, abstract: false, final false
   inline void set_translation(float_t value);
 
 protected:
@@ -168,7 +168,7 @@ public:
   LightTranslationBeatmapEventData(LightTranslationBeatmapEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21249 };
 
   /// @brief Field groupId, offset: 0x38, size: 0x4, def value: None
   int32_t ___groupId;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameplayModifierCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameplayModifierCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierCommand_def.hpp"
 #include "GlobalNamespace/zzzz__ConsoleMessage_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameplayModifierCommand::*)()>(&::GlobalNamespace::GameplayModifierCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32cd858;
+  constexpr static std::size_t addrs = 0x32d1654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameplayModifierCommand::*)()>(&::GlobalNamespace::GameplayModifierCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32cd89c;
+  constexpr static std::size_t addrs = 0x32d1698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::GameplayModifierCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::GameplayModifierCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x32cd8e0;
+  constexpr static std::size_t addrs = 0x32d16dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameplayModifierCommand::*)(
     ::StringW, bool, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::GameplayModifierCommand::SetModifierState)> {
   constexpr static std::size_t size = 0xa48;
-  constexpr static std::size_t addrs = 0x32cdab0;
+  constexpr static std::size_t addrs = 0x32d18ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifierCommand::*)(::StringW, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
     &::GlobalNamespace::GameplayModifierCommand::PrintModifierState)> {
   constexpr static std::size_t size = 0xb74;
-  constexpr static std::size_t addrs = 0x32ce4f8;
+  constexpr static std::size_t addrs = 0x32d22f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameplayModifierCommand::*)()>(&::GlobalNamespace::GameplayModifierCommand::GetGameplayModifierString)> {
   constexpr static std::size_t size = 0x728;
-  constexpr static std::size_t addrs = 0x32cf06c;
+  constexpr static std::size_t addrs = 0x32d2e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierCommand*>(), { "GetGameplayModifierString", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifierCommand::*)()>(&::GlobalNamespace::GameplayModifierCommand::_ctor)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x32cf794;
+  constexpr static std::size_t addrs = 0x32d3590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierCommand*>(), { ".ctor", {}, {} })));

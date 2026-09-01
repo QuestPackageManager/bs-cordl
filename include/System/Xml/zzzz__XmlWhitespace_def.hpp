@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlWhitespace.hpp"
+// IWYU pragma private; include "System\Xml\XmlWhitespace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,45 +51,45 @@ public:
 
   __declspec(property(get = get_XPNodeType)) ::System::Xml::XPath::XPathNodeType XPNodeType;
 
-  /// @brief Method CloneNode, addr 0x62c5c94, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x62cd710, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlWhitespace* New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x62c5d30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x62cd7ac, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x62c5cf0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x62cd76c, size 0x40, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method .ctor, addr 0x62c5a64, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62cd4e0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_IsText, addr 0x62c5d5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsText, addr 0x62cd7d8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsText();
 
-  /// @brief Method get_LocalName, addr 0x62c5b34, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x62cd5b0, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x62c5b0c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x62cd588, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x62c5b5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x62cd5d8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode, addr 0x62c5b64, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x62cd5e0, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method get_PreviousText, addr 0x62c5d64, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_PreviousText, addr 0x62cd7e0, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_PreviousText();
 
-  /// @brief Method get_Value, addr 0x62c5bf0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x62cd66c, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_XPNodeType, addr 0x62c5d34, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_XPNodeType, addr 0x62cd7b0, size 0x28, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathNodeType get_XPNodeType();
 
-  /// @brief Method set_Value, addr 0x62c5c00, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x62cd67c, size 0x94, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -107,7 +107,7 @@ public:
   XmlWhitespace(XmlWhitespace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9412 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

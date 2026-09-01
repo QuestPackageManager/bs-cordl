@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PointLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace\PointLightWithIds.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__PointLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__PointLight_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PointLightWithIds::*)(::UnityEngine::Color)>(&::GlobalNamespace::PointLightWithIds::ColorWasSet)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5870c38;
+  constexpr static std::size_t addrs = 0x58706e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PointLightWithIds::*)()>(&::GlobalNamespace::PointLightWithIds::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5870c54;
+  constexpr static std::size_t addrs = 0x5870704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PointLightWithIds*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/ChaChaEngine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\ChaChaEngine.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Salsa20Engine_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ChaChaEngine_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::ChaChaEngine._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x33a62c8;
+  constexpr static std::size_t addrs = 0x33aa088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ChaChaEngine*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x33a6320;
+  constexpr static std::size_t addrs = 0x33aa0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x33a6388;
+  constexpr static std::size_t addrs = 0x33aa148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::AdvanceCounter)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x33a63fc;
+  constexpr static std::size_t addrs = 0x33aa1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::ResetCounter)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x33a6448;
+  constexpr static std::size_t addrs = 0x33aa208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::SetKey)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x33a6474;
+  constexpr static std::size_t addrs = 0x33aa234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::GenerateKeyStream)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33a6578;
+  constexpr static std::size_t addrs = 0x33aa338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::ArrayW<uint32_t>, ::ArrayW<uint32_t>)>(&::Org::BouncyCastle::Crypto::Engines::ChaChaEngine::ChachaCore)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x33a5f84;
+  constexpr static std::size_t addrs = 0x33a9d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

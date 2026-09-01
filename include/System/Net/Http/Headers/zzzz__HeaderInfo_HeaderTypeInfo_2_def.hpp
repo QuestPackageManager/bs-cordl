@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/HeaderInfo_HeaderTypeInfo_2.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\HeaderInfo_HeaderTypeInfo_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +82,7 @@ public:
   HeaderInfo_HeaderTypeInfo_2(HeaderInfo_HeaderTypeInfo_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20304 };
 
   /// @brief Field parser, offset: 0x28, size: 0x8, def value: None
   ::System::Net::Http::Headers::TryParseDelegate_1<T>* ___parser;

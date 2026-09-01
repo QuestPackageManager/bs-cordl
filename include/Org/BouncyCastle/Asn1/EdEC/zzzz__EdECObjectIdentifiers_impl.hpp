@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/EdEC/EdECObjectIdentifiers.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\EdEC\EdECObjectIdentifiers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/EdEC/zzzz__EdECObjectIdentifiers_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers::*)()>(&::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x336bae8;
+  constexpr static std::size_t addrs = 0x336f8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers*>(), { ".ctor", {}, {} })));

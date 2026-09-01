@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Profiling/ProfilerUtility.hpp"
+// IWYU pragma private; include "Unity\Profiling\ProfilerUtility.hpp"
 #include "Unity/Profiling/zzzz__ProfilerUtility_def.hpp"
 template <typename T> inline uint8_t Unity::Profiling::ProfilerUtility::GetProfilerMarkerDataType() {
   static auto* ___internal_method_base =

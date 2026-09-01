@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/AspMvcAreaPartialViewLocationFormatAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\AspMvcAreaPartialViewLocationFormatAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__Format_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e364fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e080, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW format);
 
-  /// @brief Method get_Format, addr 0x6e36504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x6e3e088, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method set_Format, addr 0x6e3650c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Format, addr 0x6e3e090, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::StringW value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   AspMvcAreaPartialViewLocationFormatAttribute(AspMvcAreaPartialViewLocationFormatAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22562 };
 
   /// @brief Field <Format>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Format_k__BackingField;

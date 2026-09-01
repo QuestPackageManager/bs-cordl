@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/SpaceFillingCurves.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\SpaceFillingCurves.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,16 +23,16 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE SpaceFillingCurves : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Compact1By1, addr 0x68b68e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Compact1By1, addr 0x68be360, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t Compact1By1(uint32_t x);
 
-  /// @brief Method DecodeMorton2D, addr 0x68b6980, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DecodeMorton2D, addr 0x68be3fc, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint2 DecodeMorton2D(uint32_t code);
 
-  /// @brief Method EncodeMorton2D, addr 0x68b690c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method EncodeMorton2D, addr 0x68be388, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t EncodeMorton2D(::Unity::Mathematics::uint2 coord);
 
-  /// @brief Method Part1By1, addr 0x68b68c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Part1By1, addr 0x68be33c, size 0x24, virtual false, abstract: false, final false
   static inline uint32_t Part1By1(uint32_t x);
 
 protected:
@@ -50,7 +50,7 @@ public:
   SpaceFillingCurves(SpaceFillingCurves const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12964 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

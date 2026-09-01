@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/ThreadPoolWorkQueueThreadLocals.hpp"
+// IWYU pragma private; include "System\Threading\ThreadPoolWorkQueueThreadLocals.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ThreadPoolWorkQueueThreadLocals_def.hpp"
 #include "System/Threading/zzzz__ThreadPoolWorkQueue_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueueThreadLocals::*)(::System::Threading::ThreadPoolWorkQueue*)>(
     &::System::Threading::ThreadPoolWorkQueueThreadLocals::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5cb0524;
+  constexpr static std::size_t addrs = 0x5cb49e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueueThreadLocals::*)()>(&::System::Threading::ThreadPoolWorkQueueThreadLocals::CleanUp)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5cb1f4c;
+  constexpr static std::size_t addrs = 0x5cb6408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueueThreadLocals*>(), { "CleanUp", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadPoolWorkQueueThreadLocals::*)()>(&::System::Threading::ThreadPoolWorkQueueThreadLocals::Finalize)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cb202c;
+  constexpr static std::size_t addrs = 0x5cb64e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::ThreadPoolWorkQueueThreadLocals*>(),

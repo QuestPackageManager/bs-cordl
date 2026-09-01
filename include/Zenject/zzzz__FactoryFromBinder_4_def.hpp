@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/FactoryFromBinder_4.hpp"
+// IWYU pragma private; include "Zenject\FactoryFromBinder_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,7 +119,7 @@ public:
   FactoryFromBinder_4___c__2_1(FactoryFromBinder_4___c__2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -172,7 +172,7 @@ public:
   FactoryFromBinder_4___c__DisplayClass1_0(FactoryFromBinder_4___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14099 };
 
   /// @brief Field method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_5<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TContract>* ___method;
@@ -227,7 +227,7 @@ public:
   FactoryFromBinder_4(FactoryFromBinder_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14100 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

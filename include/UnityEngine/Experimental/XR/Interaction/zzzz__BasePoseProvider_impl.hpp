@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/XR/Interaction/BasePoseProvider.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\XR\Interaction\BasePoseProvider.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Experimental/XR/Interaction/zzzz__BasePoseProvider_def.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__PoseDataFlags_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpatialTracking::PoseDataFlags (::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::*)(
     ::by_ref<::UnityEngine::Pose>)>(&::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::GetPoseFromProvider)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6bb0254;
+  constexpr static std::size_t addrs = 0x6bb7dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::XR::Interaction::BasePoseProvider*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::*)(::by_ref<::UnityEngine::Pose>)>(
     &::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::TryGetPoseFromProvider)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6bb0278;
+  constexpr static std::size_t addrs = 0x6bb7dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::XR::Interaction::BasePoseProvider*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::*)()>(
     &::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bb02f4;
+  constexpr static std::size_t addrs = 0x6bb7e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::XR::Interaction::BasePoseProvider*>(), { ".ctor", {}, {} })));

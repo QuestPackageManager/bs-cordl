@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Playables/TexturePlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Playables\TexturePlayableOutput.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_impl.hpp"
 #include "UnityEngine/Experimental/Playables/zzzz__TexturePlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__IPlayableOutput_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutputHandle (::UnityEngine::Experimental::Playables::TexturePlayableOutput::*)()>(
     &::UnityEngine::Experimental::Playables::TexturePlayableOutput::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b28eb0;
+  constexpr static std::size_t addrs = 0x6b30a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Playables::TexturePlayableOutput>(), { "GetHandle", {}, {} })));

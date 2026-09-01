@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlTypeMapMemberFlatList.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlTypeMapMemberFlatList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__listMap(::System::Xml::Serialization::ListMap* value);
 
-  /// @brief Method .ctor, addr 0x630b6bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6313138, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ListMap, addr 0x630b6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ListMap, addr 0x6313128, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::ListMap* get_ListMap();
 
-  /// @brief Method set_ListMap, addr 0x630b6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ListMap, addr 0x6313130, size 0x8, virtual false, abstract: false, final false
   inline void set_ListMap(::System::Xml::Serialization::ListMap* value);
 
 protected:
@@ -59,7 +59,7 @@ public:
   XmlTypeMapMemberFlatList(XmlTypeMapMemberFlatList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9553 };
 
   /// @brief Field _listMap, offset: 0x80, size: 0x8, def value: None
   ::System::Xml::Serialization::ListMap* ____listMap;

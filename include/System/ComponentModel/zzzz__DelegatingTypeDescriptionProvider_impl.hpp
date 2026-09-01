@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/DelegatingTypeDescriptionProvider.hpp"
+// IWYU pragma private; include "System\ComponentModel\DelegatingTypeDescriptionProvider.hpp"
 #include "System/ComponentModel/zzzz__TypeDescriptionProvider_impl.hpp"
 #include "System/ComponentModel/zzzz__DelegatingTypeDescriptionProvider_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Type*)>(
     &::System::ComponentModel::DelegatingTypeDescriptionProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b82f4;
+  constexpr static std::size_t addrs = 0x63bfd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::TypeDescriptionProvider* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)()>(
     &::System::ComponentModel::DelegatingTypeDescriptionProvider::get_Provider)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63b8300;
+  constexpr static std::size_t addrs = 0x63bfd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                                           ::ArrayW<::System::Type*>, ::ArrayW<::System::Object*>)>(
     &::System::ComponentModel::DelegatingTypeDescriptionProvider::CreateInstance)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63b8360;
+  constexpr static std::size_t addrs = 0x63bfddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DelegatingTypeDescriptionProvider*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionary* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Object*)>(
     &::System::ComponentModel::DelegatingTypeDescriptionProvider::GetCache)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63b83b0;
+  constexpr static std::size_t addrs = 0x63bfe2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DelegatingTypeDescriptionProvider*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Object*)>(
     &::System::ComponentModel::DelegatingTypeDescriptionProvider::GetExtendedTypeDescriptor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63b83d8;
+  constexpr static std::size_t addrs = 0x63bfe54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DelegatingTypeDescriptionProvider*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::ComponentModel::IExtenderProvider*> (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Object*)>(
     &::System::ComponentModel::DelegatingTypeDescriptionProvider::GetExtenderProviders)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63b8400;
+  constexpr static std::size_t addrs = 0x63bfe7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DelegatingTypeDescriptionProvider*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Type*, ::System::Object*)>(
     &::System::ComponentModel::DelegatingTypeDescriptionProvider::GetReflectionType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63b8428;
+  constexpr static std::size_t addrs = 0x63bfea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DelegatingTypeDescriptionProvider*>(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (
     ::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Type*, ::System::Object*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::GetTypeDescriptor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63b8460;
+  constexpr static std::size_t addrs = 0x63bfedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DelegatingTypeDescriptionProvider*>(),

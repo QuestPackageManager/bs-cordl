@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/RedefineEntry.hpp"
+// IWYU pragma private; include "System\Xml\Schema\RedefineEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_schemaToUpdate(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method .ctor, addr 0x61d93cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61e0e48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaRedefine* external, ::System::Xml::Schema::XmlSchema* schema);
 
 protected:
@@ -63,7 +63,7 @@ public:
   RedefineEntry(RedefineEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9700 };
 
   /// @brief Field redefine, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaRedefine* ___redefine;

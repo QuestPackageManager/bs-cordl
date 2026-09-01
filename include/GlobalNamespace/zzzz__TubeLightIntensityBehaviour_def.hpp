@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TubeLightIntensityBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace\TubeLightIntensityBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,15 +80,15 @@ public:
   /// @brief Field _tubeLights, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__tubeLights, put = __cordl_internal_set__tubeLights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> _tubeLights;
 
-  /// @brief Method EnableObjects, addr 0x5907da0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method EnableObjects, addr 0x590b38c, size 0xc0, virtual false, abstract: false, final false
   inline void EnableObjects(bool on);
 
   static inline ::GlobalNamespace::TubeLightIntensityBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x5907e60, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x590b44c, size 0xd0, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x5907a20, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x590b00c, size 0x380, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__blend() const;
@@ -187,7 +187,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeLights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> value);
 
-  /// @brief Method .ctor, addr 0x5907f30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590b51c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -205,7 +205,7 @@ public:
   TubeLightIntensityBehaviour(TubeLightIntensityBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6710 };
 
   /// @brief Field _noPredefinedStartValue, offset: 0x10, size: 0x1, def value: None
   bool ____noPredefinedStartValue;

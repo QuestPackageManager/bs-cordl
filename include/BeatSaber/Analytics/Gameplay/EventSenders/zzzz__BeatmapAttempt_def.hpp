@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/BeatmapAttempt.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\BeatmapAttempt.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,22 +44,22 @@ public:
   /// @brief Convert operator to "::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender"
   constexpr operator ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender*() noexcept;
 
-  /// @brief Method GetBuilderForBeatmapAttempt, addr 0x326100c, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method GetBuilderForBeatmapAttempt, addr 0x326430c, size 0x434, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* GetBuilderForBeatmapAttempt(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapAttemptEventData* eventData);
 
-  /// @brief Method NewEventsBuilder, addr 0x3260a18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method NewEventsBuilder, addr 0x3263d18, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::EventsBuilder* NewEventsBuilder();
 
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::BeatmapAttempt* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager,
                                                                                          ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory);
 
-  /// @brief Method SendAbortedLevel, addr 0x3261440, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method SendAbortedLevel, addr 0x3264740, size 0x178, virtual true, abstract: false, final true
   inline void SendAbortedLevel(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData);
 
-  /// @brief Method SendFinishedLevel, addr 0x3260eb0, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method SendFinishedLevel, addr 0x32641b0, size 0x15c, virtual true, abstract: false, final true
   inline void SendFinishedLevel(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapAttemptEventData* eventData);
 
-  /// @brief Method SendStartedLevel, addr 0x3260a34, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method SendStartedLevel, addr 0x3263d34, size 0x308, virtual true, abstract: false, final true
   inline void SendStartedLevel(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData);
 
   constexpr ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* const& __cordl_internal_get__eventsBuilderFactory() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__eventsBuilderFactory(::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* value);
 
-  /// @brief Method .ctor, addr 0x32607a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3263aa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager, ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory);
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender"
@@ -89,7 +89,7 @@ public:
   BeatmapAttempt(BeatmapAttempt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22262 };
 
   /// @brief Field _eventsBuilderFactory, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* ____eventsBuilderFactory;

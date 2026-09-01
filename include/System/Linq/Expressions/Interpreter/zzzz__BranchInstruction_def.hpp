@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/BranchInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\BranchInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::BranchInstruction* New_ctor(bool hasResult, bool hasValue);
 
-  /// @brief Method Run, addr 0x5f87fd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f8fa54, size 0x8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr bool const& __cordl_internal_get__hasResult() const;
@@ -65,24 +65,24 @@ public:
 
   constexpr void __cordl_internal_set__hasValue(bool value);
 
-  /// @brief Method .ctor, addr 0x5f87f60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8f9dc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f87f70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8f9ec, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(bool hasResult, bool hasValue);
 
   static inline ::ArrayW<::ArrayW<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*>>> getStaticF_s_caches();
 
-  /// @brief Method get_Cache, addr 0x5f87d28, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x5f8f7a4, size 0x238, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*> get_Cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x5f87fc8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5f8fa44, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5f87f84, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f8fa00, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5f87fd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f8fa4c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_caches(::ArrayW<::ArrayW<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*>>> value);
@@ -102,7 +102,7 @@ public:
   BranchInstruction(BranchInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16278 };
 
   /// @brief Field _hasResult, offset: 0x14, size: 0x1, def value: None
   bool ____hasResult;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/UnsafeQueue_1.hpp"
+// IWYU pragma private; include "Unity\Collections\UnsafeQueue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,7 +133,7 @@ public:
   constexpr UnsafeQueue_1_Enumerator(::Unity::Collections::UnsafeQueueBlockHeader* m_FirstBlock, ::Unity::Collections::UnsafeQueueBlockHeader* m_Block, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15734 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -219,7 +219,7 @@ public:
   constexpr UnsafeQueue_1_ReadOnly(::Unity::Collections::UnsafeQueueData* m_Buffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15735 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -255,7 +255,7 @@ public:
   constexpr UnsafeQueue_1_ParallelWriter(::Unity::Collections::UnsafeQueueData* m_Buffer, ::Unity::Collections::UnsafeQueueBlockPoolData* m_QueuePool, int32_t m_ThreadIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15736 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -378,7 +378,7 @@ public:
                           ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15737 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/SpriteGlyph.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\SpriteGlyph.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__SpriteGlyph_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::SpriteGlyph::*)()>(&::UnityEngine::TextCore::Text::SpriteGlyph::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bf9780;
+  constexpr static std::size_t addrs = 0x6c01304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::SpriteGlyph*>(), { ".ctor", {}, {} })));

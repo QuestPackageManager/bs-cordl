@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/IncrementalReadDummyDecoder.hpp"
+// IWYU pragma private; include "System\Xml\IncrementalReadDummyDecoder.hpp"
 #include "System/Xml/zzzz__IncrementalReadDecoder_impl.hpp"
 #include "System/Xml/zzzz__IncrementalReadDummyDecoder_def.hpp"
 #include "System/zzzz__Array_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::IncrementalReadDummyDecoder::*)()>(&::System::Xml::IncrementalReadDummyDecoder::get_DecodedCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61aa06c;
+  constexpr static std::size_t addrs = 0x61b1ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::IncrementalReadDummyDecoder::*)()>(&::System::Xml::IncrementalReadDummyDecoder::get_IsFull)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61aa074;
+  constexpr static std::size_t addrs = 0x61b1af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::IncrementalReadDummyDecoder::*)(::System::Array*, int32_t, int32_t)>(
     &::System::Xml::IncrementalReadDummyDecoder::SetNextOutputBuffer)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61aa07c;
+  constexpr static std::size_t addrs = 0x61b1af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::IncrementalReadDummyDecoder::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::System::Xml::IncrementalReadDummyDecoder::Decode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61aa080;
+  constexpr static std::size_t addrs = 0x61b1afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::IncrementalReadDummyDecoder::*)(::StringW, int32_t, int32_t)>(&::System::Xml::IncrementalReadDummyDecoder::Decode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61aa088;
+  constexpr static std::size_t addrs = 0x61b1b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::IncrementalReadDummyDecoder::*)()>(&::System::Xml::IncrementalReadDummyDecoder::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61aa090;
+  constexpr static std::size_t addrs = 0x61b1b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::IncrementalReadDummyDecoder::*)()>(&::System::Xml::IncrementalReadDummyDecoder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61aa094;
+  constexpr static std::size_t addrs = 0x61b1b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::IncrementalReadDummyDecoder*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/ReasonFlags.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\ReasonFlags.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__ReasonFlags_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::ReasonFlags::*)(int32_t)>(&::Org::BouncyCastle::Asn1::X509::ReasonFlags::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3660598;
+  constexpr static std::size_t addrs = 0x3664358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::ReasonFlags::*)(::Org::BouncyCastle::Asn1::DerBitString*)>(
     &::Org::BouncyCastle::Asn1::X509::ReasonFlags::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x36572ec;
+  constexpr static std::size_t addrs = 0x365b0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

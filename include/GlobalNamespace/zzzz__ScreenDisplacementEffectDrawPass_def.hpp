@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScreenDisplacementEffectDrawPass.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScreenDisplacementEffectDrawPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererListHandle(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x5f464c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4de34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   ScreenDisplacementEffectDrawPass_PassData(ScreenDisplacementEffectDrawPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20680 };
 
   /// @brief Field rendererListHandle, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___rendererListHandle;
@@ -124,10 +124,10 @@ public:
 
   static inline ::GlobalNamespace::ScreenDisplacementEffectDrawPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__5_0, addr 0x5f4651c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__5_0, addr 0x5f4de90, size 0x70, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__5_0(::GlobalNamespace::ScreenDisplacementEffectDrawPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x5f46518, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4de8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::ScreenDisplacementEffectDrawPass___c* getStaticF___9();
@@ -156,7 +156,7 @@ public:
   ScreenDisplacementEffectDrawPass___c(ScreenDisplacementEffectDrawPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20681 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -187,15 +187,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5f44bcc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5f4c540, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::ScreenDisplacementEffectDrawPass* New_ctor(::UnityEngine::LayerMask layerMask);
 
-  /// @brief Method RecordRenderGraph, addr 0x5f457b0, size 0x9ac, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x5f4d124, size 0x9ac, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Render, addr 0x5f4615c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x5f4dad0, size 0xf8, virtual false, abstract: false, final false
   static inline void Render(::GlobalNamespace::ScreenDisplacementEffectDrawPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
   constexpr ::UnityEngine::Rendering::FilteringSettings const& __cordl_internal_get__filteringSettings() const;
@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set__filteringSettings(::UnityEngine::Rendering::FilteringSettings value);
 
-  /// @brief Method .ctor, addr 0x5f44a10, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4c384, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LayerMask layerMask);
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF__profilingSampler();
@@ -233,7 +233,7 @@ public:
   ScreenDisplacementEffectDrawPass(ScreenDisplacementEffectDrawPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20682 };
 
   /// @brief Field _filteringSettings, offset: 0xb8, size: 0x20, def value: None
   ::UnityEngine::Rendering::FilteringSettings ____filteringSettings;

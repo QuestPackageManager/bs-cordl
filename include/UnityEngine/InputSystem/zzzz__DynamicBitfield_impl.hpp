@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/DynamicBitfield.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\DynamicBitfield.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__DynamicBitfield_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::DynamicBitfield.SetLength
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::DynamicBitfield::*)(int32_t)>(&::UnityEngine::InputSystem::DynamicBitfield::SetLength)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x656e92c;
+  constexpr static std::size_t addrs = 0x65763a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::DynamicBitfield::*)(int32_t)>(&::UnityEngine::InputSystem::DynamicBitfield::SetBit)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x657efe0;
+  constexpr static std::size_t addrs = 0x6586a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::DynamicBitfield::*)(int32_t)>(&::UnityEngine::InputSystem::DynamicBitfield::TestBit)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x657f080;
+  constexpr static std::size_t addrs = 0x6586afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::DynamicBitfield::*)(int32_t)>(&::UnityEngine::InputSystem::DynamicBitfield::ClearBit)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x656ea60;
+  constexpr static std::size_t addrs = 0x65764dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::DynamicBitfield::*)()>(&::UnityEngine::InputSystem::DynamicBitfield::AnyBitIsSet)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x657f0f4;
+  constexpr static std::size_t addrs = 0x6586b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::DynamicBitfield>(), { "AnyBitIsSet", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::InputSystem::DynamicBitfield::BitCountToULongCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x657efc8;
+  constexpr static std::size_t addrs = 0x6586a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

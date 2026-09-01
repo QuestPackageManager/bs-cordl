@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/FixedBufferAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\FixedBufferAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__FixedBufferAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::FixedBufferAttribute::*)(::System::Type*, int32_t)>(
     &::System::Runtime::CompilerServices::FixedBufferAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b6bf30;
+  constexpr static std::size_t addrs = 0x5b703ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::FixedBufferAttribute*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::CompilerServices::FixedBufferAttribute::*)()>(
     &::System::Runtime::CompilerServices::FixedBufferAttribute::get_ElementType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6bf3c;
+  constexpr static std::size_t addrs = 0x5b703f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::CompilerServices::FixedBufferAttribute::*)()>(
     &::System::Runtime::CompilerServices::FixedBufferAttribute::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6bf44;
+  constexpr static std::size_t addrs = 0x5b70400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::FixedBufferAttribute*>(), { "get_Length", {}, {} })));

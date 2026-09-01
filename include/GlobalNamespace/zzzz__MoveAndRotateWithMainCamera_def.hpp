@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MoveAndRotateWithMainCamera.hpp"
+// IWYU pragma private; include "GlobalNamespace\MoveAndRotateWithMainCamera.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,15 +45,15 @@ public:
   /// @brief Field _transform, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x58e3888, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58e6eb8, size 0x124, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MoveAndRotateWithMainCamera* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58e39ac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58e6fdc, size 0xa8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPreCullCallback, addr 0x58e3a54, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method OnPreCullCallback, addr 0x58e7084, size 0x18c, virtual false, abstract: false, final false
   inline void OnPreCullCallback(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* currentCamera);
 
   constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x58e3be0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e7210, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,7 +98,7 @@ public:
   MoveAndRotateWithMainCamera(MoveAndRotateWithMainCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6560 };
 
   /// @brief Field _mainCamera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;

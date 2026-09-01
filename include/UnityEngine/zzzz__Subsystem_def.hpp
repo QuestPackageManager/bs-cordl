@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Subsystem.hpp"
+// IWYU pragma private; include "UnityEngine\Subsystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x6bb0908, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x6bb848c, size 0x78, virtual true, abstract: false, final true
   inline void Destroy();
 
   static inline ::UnityEngine::Subsystem* New_ctor();
@@ -39,7 +39,7 @@ public:
   /// @brief Method Stop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method .ctor, addr 0x6bb0a08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb858c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
@@ -60,7 +60,7 @@ public:
   Subsystem(Subsystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

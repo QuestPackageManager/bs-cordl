@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Encoders/HexEncoder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Encoders\HexEncoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,25 +37,25 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
   constexpr operator ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept;
 
-  /// @brief Method Decode, addr 0x3629ed4, size 0x318, virtual true, abstract: false, final true
+  /// @brief Method Decode, addr 0x362dc94, size 0x318, virtual true, abstract: false, final true
   inline int32_t Decode(::ArrayW<uint8_t> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method DecodeStrict, addr 0x362a6a4, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method DecodeStrict, addr 0x362e464, size 0x230, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> DecodeStrict(::StringW str, int32_t off, int32_t len);
 
-  /// @brief Method DecodeString, addr 0x362a2bc, size 0x2f4, virtual true, abstract: false, final true
+  /// @brief Method DecodeString, addr 0x362e07c, size 0x2f4, virtual true, abstract: false, final true
   inline int32_t DecodeString(::StringW data, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x3629bd0, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Encode, addr 0x362d990, size 0x110, virtual true, abstract: false, final true
   inline int32_t Encode(::ArrayW<uint8_t> buf, int32_t off, int32_t len, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x362abbc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x362e97c, size 0xe0, virtual false, abstract: false, final false
   inline int32_t Encode(::ArrayW<uint8_t> inBuf, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t> outBuf, int32_t outOff);
 
-  /// @brief Method Ignore, addr 0x362ac9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Ignore, addr 0x362ea5c, size 0x20, virtual false, abstract: false, final false
   static inline bool Ignore(char16_t c);
 
-  /// @brief Method InitialiseDecodingTable, addr 0x362aa60, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method InitialiseDecodingTable, addr 0x362e820, size 0x15c, virtual false, abstract: false, final false
   inline void InitialiseDecodingTable();
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* New_ctor();
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_encodingTable(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x362a9cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362e78c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineResources.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineResources.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineResources_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderPipelineResources.get_packagePath
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderPipelineResources::*)()>(&::UnityEngine::Rendering::RenderPipelineResources::get_packagePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x679b4a0;
+  constexpr static std::size_t addrs = 0x67a2f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderPipelineResources::*)()>(
     &::UnityEngine::Rendering::RenderPipelineResources::get_packagePath_Internal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x679b4a8;
+  constexpr static std::size_t addrs = 0x67a2f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderPipelineResources::*)()>(&::UnityEngine::Rendering::RenderPipelineResources::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x679b4b4;
+  constexpr static std::size_t addrs = 0x67a2f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderPipelineResources*>(), { ".ctor", {}, {} })));

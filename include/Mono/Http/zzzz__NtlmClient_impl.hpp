@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Http/NtlmClient.hpp"
+// IWYU pragma private; include "Mono\Http\NtlmClient.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Http/zzzz__NtlmClient_def.hpp"
 #include "Mono/Http/zzzz__NtlmClient_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Http::NtlmClient___c::*)()>(&::Mono::Http::NtlmClient___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fd7c80;
+  constexpr static std::size_t addrs = 0x5fdf6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Http::NtlmClient___c*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Http::NtlmSession* (::Mono::Http::NtlmClient___c::*)(::System::Net::HttpWebRequest*)>(
     &::Mono::Http::NtlmClient___c::_Authenticate_b__1_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5fd7c84;
+  constexpr static std::size_t addrs = 0x5fdf700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::Mono::Http::NtlmClient::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::Mono::Http::NtlmClient::Authenticate)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x5fd77bc;
+  constexpr static std::size_t addrs = 0x5fdf238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::Mono::Http::NtlmClient::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::Mono::Http::NtlmClient::PreAuthenticate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fd7b4c;
+  constexpr static std::size_t addrs = 0x5fdf5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Http::NtlmClient::*)()>(&::Mono::Http::NtlmClient::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5fd7b54;
+  constexpr static std::size_t addrs = 0x5fdf5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Http::NtlmClient*>(), { "get_AuthenticationType", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Http::NtlmClient::*)()>(&::Mono::Http::NtlmClient::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fd7b98;
+  constexpr static std::size_t addrs = 0x5fdf614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Http::NtlmClient*>(), { ".ctor", {}, {} })));

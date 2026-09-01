@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/MemberBinding.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\MemberBinding.hpp"
 #include "System/Linq/Expressions/zzzz__MemberBindingType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__MemberBinding_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::MemberBindingType (::System::Linq::Expressions::MemberBinding::*)()>(
     &::System::Linq::Expressions::MemberBinding::get_BindingType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f7f18c;
+  constexpr static std::size_t addrs = 0x5f86c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MemberBinding*>(), { "get_BindingType", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MemberInfo* (::System::Linq::Expressions::MemberBinding::*)()>(&::System::Linq::Expressions::MemberBinding::get_Member)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f7f194;
+  constexpr static std::size_t addrs = 0x5f86c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::MemberBinding*>(), { "get_Member", {}, {} })));

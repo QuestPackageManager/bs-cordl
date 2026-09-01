@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleSheetColor.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleSheetColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
   /// @brief Field s_NameToColor, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_NameToColor, put = setStaticF_s_NameToColor)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* s_NameToColor;
 
-  /// @brief Method HexToColor32, addr 0x6d10298, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HexToColor32, addr 0x6d17e1c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 HexToColor32(uint32_t color);
 
-  /// @brief Method TryGetColor, addr 0x6d0c938, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TryGetColor, addr 0x6d144bc, size 0xe8, virtual false, abstract: false, final false
   static inline bool TryGetColor(::StringW name, ::by_ref<::UnityEngine::Color> color);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* getStaticF_s_NameToColor();

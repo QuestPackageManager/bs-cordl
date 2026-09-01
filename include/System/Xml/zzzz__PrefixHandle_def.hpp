@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/PrefixHandle.hpp"
+// IWYU pragma private; include "System\Xml\PrefixHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,57 +62,57 @@ public:
   /// @brief Field type, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Xml::PrefixHandleType type;
 
-  /// @brief Method CompareTo, addr 0x60fa808, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x6102284, size 0x40, virtual false, abstract: false, final false
   inline int32_t CompareTo(::System::Xml::PrefixHandle* that);
 
-  /// @brief Method Equals, addr 0x60fa9c0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x610243c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals2, addr 0x60fa8d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x610234c, size 0xa0, virtual false, abstract: false, final false
   inline bool Equals2(::StringW prefix2);
 
-  /// @brief Method Equals2, addr 0x60fa848, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x61022c4, size 0x88, virtual false, abstract: false, final false
   inline bool Equals2(::System::Xml::PrefixHandle* prefix2);
 
-  /// @brief Method Equals2, addr 0x60fa970, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Equals2, addr 0x61023ec, size 0x14, virtual false, abstract: false, final false
   inline bool Equals2(::System::Xml::XmlDictionaryString* prefix2);
 
-  /// @brief Method GetAlphaPrefix, addr 0x60fa394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAlphaPrefix, addr 0x6101e10, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Xml::PrefixHandleType GetAlphaPrefix(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x60faa74, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x61024f0, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetString, addr 0x60fa75c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x61021d8, size 0xac, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetString(::by_ref<int32_t> offset, ::by_ref<int32_t> length);
 
-  /// @brief Method GetString, addr 0x60fa5b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x610202c, size 0x90, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetString(::System::Xml::PrefixHandleType type, ::by_ref<int32_t> offset, ::by_ref<int32_t> length);
 
-  /// @brief Method GetString, addr 0x60fa6d8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x6102154, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetString();
 
-  /// @brief Method GetString, addr 0x60fa640, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x61020bc, size 0x98, virtual false, abstract: false, final false
   inline ::StringW GetString(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method GetString, addr 0x60fa530, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x6101fac, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW GetString(::System::Xml::PrefixHandleType type);
 
   static inline ::System::Xml::PrefixHandle* New_ctor(::System::Xml::XmlBufferReader* bufferReader);
 
-  /// @brief Method SetValue, addr 0x60fa2d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6101d50, size 0xc0, virtual false, abstract: false, final false
   inline void SetValue(int32_t offset, int32_t length);
 
-  /// @brief Method SetValue, addr 0x60fa2b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6101d30, size 0x20, virtual false, abstract: false, final false
   inline void SetValue(::System::Xml::PrefixHandle* prefix);
 
-  /// @brief Method SetValue, addr 0x60fa2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6101d28, size 0x8, virtual false, abstract: false, final false
   inline void SetValue(::System::Xml::PrefixHandleType type);
 
-  /// @brief Method ToString, addr 0x60faa70, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x61024ec, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetShortPrefix, addr 0x60fa51c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetShortPrefix, addr 0x6101f98, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetShortPrefix(::by_ref<::System::Xml::PrefixHandleType> type);
 
   constexpr ::System::Xml::XmlBufferReader* const& __cordl_internal_get_bufferReader() const;
@@ -139,29 +139,29 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Xml::PrefixHandleType value);
 
-  /// @brief Method .ctor, addr 0x60fa2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6101d20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlBufferReader* bufferReader);
 
   static inline ::ArrayW<uint8_t> getStaticF_prefixBuffer();
 
   static inline ::ArrayW<::StringW> getStaticF_prefixStrings();
 
-  /// @brief Method get_IsEmpty, addr 0x60fa39c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x6101e18, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_IsXml, addr 0x60fa480, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_IsXml, addr 0x6101efc, size 0x9c, virtual false, abstract: false, final false
   inline bool get_IsXml();
 
-  /// @brief Method get_IsXmlns, addr 0x60fa3ac, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_IsXmlns, addr 0x6101e28, size 0xd4, virtual false, abstract: false, final false
   inline bool get_IsXmlns();
 
-  /// @brief Method op_Equality, addr 0x60fa984, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6102400, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::PrefixHandle* prefix1, ::StringW prefix2);
 
-  /// @brief Method op_Equality, addr 0x60fa9b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x610242c, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::PrefixHandle* prefix1, ::System::Xml::PrefixHandle* prefix2);
 
-  /// @brief Method op_Equality, addr 0x60fa994, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6102410, size 0x1c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::PrefixHandle* prefix1, ::System::Xml::XmlDictionaryString* prefix2);
 
   static inline void setStaticF_prefixBuffer(::ArrayW<uint8_t> value);
@@ -183,7 +183,7 @@ public:
   PrefixHandle(PrefixHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16935 };
 
   /// @brief Field bufferReader, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlBufferReader* ___bufferReader;

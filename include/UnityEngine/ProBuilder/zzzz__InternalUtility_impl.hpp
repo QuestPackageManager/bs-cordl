@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/InternalUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\InternalUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__InternalUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::*)()>(
     &::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66bb0e8;
+  constexpr static std::size_t addrs = 0x66c2b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::*)(char16_t)>(
     &::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::_TryParseColor_b__0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x66bb0ec;
+  constexpr static std::size_t addrs = 0x66c2b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::InternalUtility::EmptyGameObjectWithTransform)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x66bab38;
+  constexpr static std::size_t addrs = 0x66c25b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::Transform*, ::UnityEngine::Mesh*, ::UnityEngine::Material*, bool)>(
     &::UnityEngine::ProBuilder::InternalUtility::MeshGameObjectWithTransform)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x66bac24;
+  constexpr static std::size_t addrs = 0x66c26a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(char16_t)>(&::UnityEngine::ProBuilder::InternalUtility::ControlKeyString)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x66bad38;
+  constexpr static std::size_t addrs = 0x66c27b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::UnityEngine::Color>)>(&::UnityEngine::ProBuilder::InternalUtility::TryParseColor)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x66bae5c;
+  constexpr static std::size_t addrs = 0x66c28d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

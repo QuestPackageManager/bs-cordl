@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/AudioSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\AudioSettings.hpp"
 #include "BeatSaber/Settings/zzzz__AudioSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "volume", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ambientVolumeScale", ty: "float_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "latency", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "overrideLatency", ty: "bool", modifiers: "", def_value: Some("{}") }]

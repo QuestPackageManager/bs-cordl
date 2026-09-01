@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StandaloneGraphicSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\StandaloneGraphicSettingsViewController.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__StandaloneGraphicSettingsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x5a18910;
+  constexpr static std::size_t size = 0x59c;
+  constexpr static std::size_t addrs = 0x5a20a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneGraphicSettingsViewController*>(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::DidDeactivate)> {
-  constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x5a18eb0;
+  constexpr static std::size_t size = 0x430;
+  constexpr static std::size_t addrs = 0x5a20fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneGraphicSettingsViewController*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleAntiAliasingLevelChanged)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a192e4;
+  constexpr static std::size_t addrs = 0x5a213d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleVrRenderingScaleChanged)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a192fc;
+  constexpr static std::size_t addrs = 0x5a213f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleFullscreenToggled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a19314;
+  constexpr static std::size_t addrs = 0x5a21408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleShockwaveMaxParticlesChanged)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a19330;
+  constexpr static std::size_t addrs = 0x5a21424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleSmokeToggled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a19348;
+  constexpr static std::size_t addrs = 0x5a2143c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(bool)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleScreenDisplacementToggled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a19364;
+  constexpr static std::size_t addrs = 0x5a21458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleMainEffectChanged)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a19380;
+  constexpr static std::size_t addrs = 0x5a21474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)(int32_t)>(
     &::GlobalNamespace::StandaloneGraphicSettingsViewController::HandleMirrorChanged)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a19398;
+  constexpr static std::size_t addrs = 0x5a2148c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneGraphicSettingsViewController::*)()>(&::GlobalNamespace::StandaloneGraphicSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a193b0;
+  constexpr static std::size_t addrs = 0x5a214a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneGraphicSettingsViewController*>(), { ".ctor", {}, {} })));

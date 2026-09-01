@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SliderInteractionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\SliderInteractionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,18 +37,18 @@ public:
   /// @brief Method EndEffect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void EndEffect();
 
-  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x5977b40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x597b4d4, size 0xc, virtual false, abstract: false, final false
   inline void HandleAllSliderWereRemovedFromActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager);
 
-  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x5977b34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x597b4c8, size 0xc, virtual false, abstract: false, final false
   inline void HandleSliderWasAddedToActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager, float_t saberInteractionParam);
 
   static inline ::GlobalNamespace::SliderInteractionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59778c8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x597b25c, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5976bc4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x597a558, size 0xec, virtual true, abstract: false, final false
   inline void Start();
 
   /// @brief Method StartEffect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManager(::UnityW<::GlobalNamespace::SliderInteractionManager> value);
 
-  /// @brief Method .ctor, addr 0x5976e40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597a7d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorType, addr 0x5976cb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x597a644, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method get_saberInteractionParam, addr 0x5976da0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_saberInteractionParam, addr 0x597a734, size 0x18, virtual false, abstract: false, final false
   inline float_t get_saberInteractionParam();
 
 protected:

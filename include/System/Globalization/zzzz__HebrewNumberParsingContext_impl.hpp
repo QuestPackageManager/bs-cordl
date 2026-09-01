@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/HebrewNumberParsingContext.hpp"
+// IWYU pragma private; include "System\Globalization\HebrewNumberParsingContext.hpp"
 #include "System/Globalization/zzzz__HebrewNumber_impl.hpp"
 #include "System/Globalization/zzzz__HebrewNumberParsingContext_def.hpp"
 //  Writing Method size for method: ::System::Globalization::HebrewNumberParsingContext._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::HebrewNumberParsingContext::*)(int32_t)>(&::System::Globalization::HebrewNumberParsingContext::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bb89a0;
+  constexpr static std::size_t addrs = 0x5bbce5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

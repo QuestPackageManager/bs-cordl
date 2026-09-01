@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/SerializationEvents.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\SerializationEvents.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,30 +55,30 @@ public:
   __declspec(property(get = __cordl_internal_get__onSerializingMethods,
                       put = __cordl_internal_set__onSerializingMethods)) ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* _onSerializingMethods;
 
-  /// @brief Method AddOnDelegate, addr 0x5b48648, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method AddOnDelegate, addr 0x5b4cb04, size 0x1f4, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationEventHandler* AddOnDelegate(::System::Object* obj, ::System::Runtime::Serialization::SerializationEventHandler* handler,
                                                                                            ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* methods);
 
-  /// @brief Method AddOnDeserialized, addr 0x5b4883c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AddOnDeserialized, addr 0x5b4ccf8, size 0x14, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationEventHandler* AddOnDeserialized(::System::Object* obj, ::System::Runtime::Serialization::SerializationEventHandler* handler);
 
-  /// @brief Method AddOnSerialized, addr 0x5b48634, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AddOnSerialized, addr 0x5b4caf0, size 0x14, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationEventHandler* AddOnSerialized(::System::Object* obj, ::System::Runtime::Serialization::SerializationEventHandler* handler);
 
-  /// @brief Method GetMethodsWithAttribute, addr 0x5b482a0, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetMethodsWithAttribute, addr 0x5b4c75c, size 0x228, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* GetMethodsWithAttribute(::System::Type* attribute, ::System::Type* t);
 
-  /// @brief Method InvokeOnDelegate, addr 0x5b4853c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnDelegate, addr 0x5b4c9f8, size 0x50, virtual false, abstract: false, final false
   static inline void InvokeOnDelegate(::System::Object* obj, ::System::Runtime::Serialization::StreamingContext context,
                                       ::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* methods);
 
-  /// @brief Method InvokeOnDeserialized, addr 0x5b485e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnDeserialized, addr 0x5b4ca9c, size 0x54, virtual false, abstract: false, final false
   inline void InvokeOnDeserialized(::System::Object* obj, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InvokeOnDeserializing, addr 0x5b4858c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnDeserializing, addr 0x5b4ca48, size 0x54, virtual false, abstract: false, final false
   inline void InvokeOnDeserializing(::System::Object* obj, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InvokeOnSerializing, addr 0x5b484e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnSerializing, addr 0x5b4c9a4, size 0x54, virtual false, abstract: false, final false
   inline void InvokeOnSerializing(::System::Object* obj, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::Serialization::SerializationEvents* New_ctor(::System::Type* t);
@@ -107,10 +107,10 @@ public:
 
   constexpr void __cordl_internal_set__onSerializingMethods(::System::Collections::Generic::List_1<::System::Reflection::MethodInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x5b48174, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4c630, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
-  /// @brief Method get_HasOnSerializingEvents, addr 0x5b484c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_HasOnSerializingEvents, addr 0x5b4c984, size 0x20, virtual false, abstract: false, final false
   inline bool get_HasOnSerializingEvents();
 
 protected:

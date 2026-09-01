@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ColorGamutUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ColorGamutUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ColorGamutUtility_def.hpp"
 #include "UnityEngine/zzzz__ColorGamut_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ColorPrimaries (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetColorPrimaries)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a846b4;
+  constexpr static std::size_t addrs = 0x6a8c0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::WhitePoint (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetWhitePoint)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a846f0;
+  constexpr static std::size_t addrs = 0x6a8c108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TransferFunction (*)(::UnityEngine::ColorGamut)>(&::UnityEngine::ColorGamutUtility::GetTransferFunction)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a8472c;
+  constexpr static std::size_t addrs = 0x6a8c144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAuthenticatedDataGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsAuthenticatedDataGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,20 +32,20 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsAuthenticatedDataGenerator : public ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x36a2bcc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36a698c, size 0x1b0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid);
 
-  /// @brief Method Generate, addr 0x36a20a4, size 0xb28, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36a5e64, size 0xb28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x36a209c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a5e5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36a20a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a5e60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:

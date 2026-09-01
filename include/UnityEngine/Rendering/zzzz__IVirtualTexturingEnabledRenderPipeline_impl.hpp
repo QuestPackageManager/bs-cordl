@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IVirtualTexturingEnabledRenderPipeline.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IVirtualTexturingEnabledRenderPipeline.hpp"
 #include "UnityEngine/Rendering/zzzz__IVirtualTexturingEnabledRenderPipeline_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IVirtualTexturingEnabledRenderPipeline.get_virtualTexturingEnabled
 template <>

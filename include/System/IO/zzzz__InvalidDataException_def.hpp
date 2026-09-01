@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/InvalidDataException.hpp"
+// IWYU pragma private; include "System\IO\InvalidDataException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::IO::InvalidDataException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x63ec514, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f3f90, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x63ec598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f4014, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x63ec574, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f3ff0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -56,7 +56,7 @@ public:
   InvalidDataException(InvalidDataException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11432 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

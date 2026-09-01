@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBufferUploader.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBufferUploader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -178,7 +178,7 @@ public:
   GPUInstanceDataBufferUploader_UploadKernelIDs(GPUInstanceDataBufferUploader_UploadKernelIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -196,13 +196,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method CreateResources, addr 0x681a5ac, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CreateResources, addr 0x6822028, size 0x198, virtual false, abstract: false, final false
   inline void CreateResources(int32_t newInstanceCount, int32_t sizePerInstance, int32_t newComponentCounts, int32_t validComponentIndicesCount);
 
-  /// @brief Method Dispose, addr 0x681accc, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6822748, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LoadShaders, addr 0x681ac18, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LoadShaders, addr 0x6822694, size 0xb4, virtual false, abstract: false, final false
   inline void LoadShaders(::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
   /// @brief Convert to "::System::IDisposable"
@@ -223,7 +223,7 @@ public:
                                                        int32_t m_InstanceCount, int32_t m_ComponentCounts, int32_t m_ValidComponentIndicesCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17683 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -294,7 +294,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x681ad14, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6822790, size 0xdc, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -315,7 +315,7 @@ public:
                                                                         ::Unity::Collections::NativeArray_1<uint32_t> tmpDataBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17684 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -385,29 +385,29 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AllocateUploadHandles, addr 0x681a0e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AllocateUploadHandles, addr 0x6821b60, size 0x8, virtual false, abstract: false, final false
   inline void AllocateUploadHandles(int32_t handlesLength);
 
-  /// @brief Method Dispose, addr 0x681a844, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68222c0, size 0x15c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetParamUIntOffset, addr 0x681a0d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetParamUIntOffset, addr 0x6821b54, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetParamUIntOffset(int32_t parameterIndex);
 
-  /// @brief Method GetUIntPerInstance, addr 0x681a0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUIntPerInstance, addr 0x6821b4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetUIntPerInstance();
 
-  /// @brief Method GetUploadBufferPtr, addr 0x681a08c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetUploadBufferPtr, addr 0x6821b08, size 0x44, virtual false, abstract: false, final false
   inline ::System::IntPtr GetUploadBufferPtr();
 
   /// @brief Method PrepareParamWrite, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline int32_t PrepareParamWrite(int32_t parameterIndex);
 
-  /// @brief Method SubmitToGpu, addr 0x681a0ec, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method SubmitToGpu, addr 0x6821b68, size 0x4c0, virtual false, abstract: false, final false
   inline void SubmitToGpu(::UnityEngine::Rendering::GPUInstanceDataBuffer* instanceDataBuffer, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices,
                           ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBufferUploader_GPUResources> gpuResources, bool submitOnlyWrittenParams);
 
-  /// @brief Method SubmitToGpu, addr 0x681a744, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SubmitToGpu, addr 0x68221c0, size 0x100, virtual false, abstract: false, final false
   inline void SubmitToGpu(::UnityEngine::Rendering::GPUInstanceDataBuffer* instanceDataBuffer, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                           ::by_ref<::UnityEngine::Rendering::GPUInstanceDataBufferUploader_GPUResources> gpuResources, bool submitOnlyWrittenParams);
 
@@ -418,7 +418,7 @@ public:
   template <typename T>
   inline ::Unity::Jobs::JobHandle WriteInstanceDataJob(int32_t parameterIndex, ::Unity::Collections::NativeArray_1<T> instanceData, ::Unity::Collections::NativeArray_1<int32_t> gatherIndices);
 
-  /// @brief Method .ctor, addr 0x6819e2c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68218a8, size 0x260, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceComponentDesc>> descriptions, int32_t capacity,
                     ::UnityEngine::Rendering::InstanceType instanceType);
 
@@ -441,7 +441,7 @@ public:
                                           ::Unity::Collections::NativeArray_1<int32_t> m_DummyArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

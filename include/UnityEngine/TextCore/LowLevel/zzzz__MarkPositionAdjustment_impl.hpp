@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/MarkPositionAdjustment.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\MarkPositionAdjustment.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__MarkPositionAdjustment_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment.get_xPositionAdjustment
 template <>
@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::*)()>(
     &::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::get_xPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb903c;
+  constexpr static std::size_t addrs = 0x6bc0bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::*)(float_t)>(
     &::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::set_xPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb9044;
+  constexpr static std::size_t addrs = 0x6bc0bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::*)()>(
     &::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::get_yPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb904c;
+  constexpr static std::size_t addrs = 0x6bc0bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::*)(float_t)>(
     &::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::set_yPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb9054;
+  constexpr static std::size_t addrs = 0x6bc0bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

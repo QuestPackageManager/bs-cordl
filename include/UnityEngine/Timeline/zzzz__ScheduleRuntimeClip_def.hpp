@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/ScheduleRuntimeClip.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\ScheduleRuntimeClip.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,20 +60,20 @@ public:
 
   __declspec(property(get = get_start)) double_t start;
 
-  /// @brief Method Create, addr 0x69be1f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x69c5c70, size 0x9c, virtual false, abstract: false, final false
   inline void Create(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay,
                      double_t finishTail);
 
-  /// @brief Method DisableAt, addr 0x69be640, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method DisableAt, addr 0x69c60bc, size 0x10, virtual true, abstract: false, final false
   inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method EvaluateAt, addr 0x69be3b0, size 0x290, virtual true, abstract: false, final false
+  /// @brief Method EvaluateAt, addr 0x69c5e2c, size 0x290, virtual true, abstract: false, final false
   inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
   static inline ::UnityEngine::Timeline::ScheduleRuntimeClip* New_ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable,
                                                                        ::UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail);
 
-  /// @brief Method SetTime, addr 0x69be178, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetTime, addr 0x69c5bf4, size 0x5c, virtual false, abstract: false, final false
   inline void SetTime(double_t time);
 
   constexpr ::UnityEngine::Timeline::TimelineClip* const& __cordl_internal_get_m_Clip() const;
@@ -112,26 +112,26 @@ public:
 
   constexpr void __cordl_internal_set_m_Started(bool value);
 
-  /// @brief Method .ctor, addr 0x69b89c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69c043c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay,
                     double_t finishTail);
 
-  /// @brief Method get_clip, addr 0x69be1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x69c5c50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* get_clip();
 
-  /// @brief Method get_duration, addr 0x69be12c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x69c5ba8, size 0x4c, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_mixer, addr 0x69be1dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_mixer, addr 0x69c5c58, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable get_mixer();
 
-  /// @brief Method get_playable, addr 0x69be1e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_playable, addr 0x69c5c64, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable get_playable();
 
-  /// @brief Method get_start, addr 0x69be0ac, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_start, addr 0x69c5b28, size 0x80, virtual true, abstract: false, final false
   inline double_t get_start();
 
-  /// @brief Method set_enable, addr 0x69be290, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method set_enable, addr 0x69c5d0c, size 0x120, virtual true, abstract: false, final false
   inline void set_enable(bool value);
 
 protected:
@@ -149,7 +149,7 @@ public:
   ScheduleRuntimeClip(ScheduleRuntimeClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19208 };
 
   /// @brief Field m_Clip, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Timeline::TimelineClip* ___m_Clip;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ZenTypeInfoGetter.hpp"
+// IWYU pragma private; include "Zenject\ZenTypeInfoGetter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Zenject/zzzz__ZenTypeInfoGetter_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ZenTypeInfoGetter::*)(::System::Object*, ::System::IntPtr)>(&::Zenject::ZenTypeInfoGetter::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6e951e8;
+  constexpr static std::size_t addrs = 0x6e9cd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (::Zenject::ZenTypeInfoGetter::*)()>(&::Zenject::ZenTypeInfoGetter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e95250;
+  constexpr static std::size_t addrs = 0x6e9cdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::ZenTypeInfoGetter*>(), { ::i2c::class_of<::Zenject::ZenTypeInfoGetter*>(), 13 }));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::Zenject::ZenTypeInfoGetter::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::Zenject::ZenTypeInfoGetter::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e95264;
+  constexpr static std::size_t addrs = 0x6e9cde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::ZenTypeInfoGetter*>(), { ::i2c::class_of<::Zenject::ZenTypeInfoGetter*>(), 14 }));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (::Zenject::ZenTypeInfoGetter::*)(::System::IAsyncResult*)>(&::Zenject::ZenTypeInfoGetter::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e95280;
+  constexpr static std::size_t addrs = 0x6e9ce04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::ZenTypeInfoGetter*>(), { ::i2c::class_of<::Zenject::ZenTypeInfoGetter*>(), 15 }));

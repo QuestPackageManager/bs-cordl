@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MockBeatmapProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\MockBeatmapProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,20 +45,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IServerBeatmapProvider"
   constexpr operator ::GlobalNamespace::IServerBeatmapProvider*() noexcept;
 
-  /// @brief Method Dispose, addr 0x59c2d44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x59caa3c, size 0x4, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetBeatmapDurationMs, addr 0x59c2c24, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method GetBeatmapDurationMs, addr 0x59ca91c, size 0x120, virtual true, abstract: false, final true
   inline int32_t GetBeatmapDurationMs(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable);
 
   static inline ::GlobalNamespace::MockBeatmapProvider* New_ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x59c2b98, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x59ca890, size 0x8c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapKeyNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(
       int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* suggestedBeatmaps,
       ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* ownedSongPacks);
 
-  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x59c2b90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x59ca888, size 0x8, virtual true, abstract: false, final true
   inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
 
-  /// @brief Method .ctor, addr 0x59c2b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ca880, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
   /// @brief Convert to "::GlobalNamespace::IServerBeatmapProvider"
@@ -88,7 +88,7 @@ public:
   MockBeatmapProvider(MockBeatmapProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6112 };
 
   /// @brief Field _beatmapLevelsModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;

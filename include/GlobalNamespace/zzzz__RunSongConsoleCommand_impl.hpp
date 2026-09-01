@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RunSongConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\RunSongConsoleCommand.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_impl.hpp"
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongConsoleCommand___c::*)()>(&::GlobalNamespace::RunSongConsoleCommand___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32e0878;
+  constexpr static std::size_t addrs = 0x32e4674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongConsoleCommand___c*>(), { ".ctor", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RunSongConsoleCommand___c::*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::RunSongConsoleCommand___c::_ExecuteAsync_b__26_0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x32e087c;
+  constexpr static std::size_t addrs = 0x32e4678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongConsoleCommand___c*>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongConsoleCommand__ExecuteAsync_d__26::*)()>(
     &::GlobalNamespace::RunSongConsoleCommand__ExecuteAsync_d__26::MoveNext)> {
   constexpr static std::size_t size = 0x1340;
-  constexpr static std::size_t addrs = 0x32e08e4;
+  constexpr static std::size_t addrs = 0x32e46e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongConsoleCommand__ExecuteAsync_d__26>(), { "MoveNext", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongConsoleCommand__ExecuteAsync_d__26::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::RunSongConsoleCommand__ExecuteAsync_d__26::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32e1c24;
+  constexpr static std::size_t addrs = 0x32e5a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongConsoleCommand__ExecuteAsync_d__26>(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::*)(int32_t)>(
     &::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32dfeec;
+  constexpr static std::size_t addrs = 0x32e3ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::*)()>(
     &::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32e1ca4;
+  constexpr static std::size_t addrs = 0x32e5aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::*)()>(
     &::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x32e1ca8;
+  constexpr static std::size_t addrs = 0x32e5aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::*)()>(
     &::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e1df0;
+  constexpr static std::size_t addrs = 0x32e5bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29*>(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::*)()>(
     &::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32e1df8;
+  constexpr static std::size_t addrs = 0x32e5bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::*)()>(
     &::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e1e30;
+  constexpr static std::size_t addrs = 0x32e5c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29*>(),
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RunSongConsoleCommand::*)()>(&::GlobalNamespace::RunSongConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32df560;
+  constexpr static std::size_t addrs = 0x32e335c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RunSongConsoleCommand::*)()>(&::GlobalNamespace::RunSongConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32df5a4;
+  constexpr static std::size_t addrs = 0x32e33a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongConsoleCommand::*)()>(&::GlobalNamespace::RunSongConsoleCommand::Initialize)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x32df5e8;
+  constexpr static std::size_t addrs = 0x32e33e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::RunSongConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::RunSongConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x32dfb40;
+  constexpr static std::size_t addrs = 0x32e393c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RunSongConsoleCommand::*)(
     ::GlobalNamespace::BeatmapLevel*, ::StringW, ::by_ref<::GlobalNamespace::BeatmapCharacteristic>)>(&::GlobalNamespace::RunSongConsoleCommand::TryGetLevelCharacteristic)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x32dfc34;
+  constexpr static std::size_t addrs = 0x32e3a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::RunSongConsoleCommand::*)()>(
     &::GlobalNamespace::RunSongConsoleCommand::WaitUntilSongQueueEmpty)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x32dfd4c;
+  constexpr static std::size_t addrs = 0x32e3b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongConsoleCommand*>(), { "WaitUntilSongQueueEmpty", {}, {} })));
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::RunSongConsoleCommand::*)()>(
     &::GlobalNamespace::RunSongConsoleCommand::WaitUntilSongQueueEmptyCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32dfe98;
+  constexpr static std::size_t addrs = 0x32e3c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -442,7 +442,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RunSongConsoleCommand::*)()>(&::GlobalNamespace::RunSongConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0x8b4;
-  constexpr static std::size_t addrs = 0x32dfef4;
+  constexpr static std::size_t addrs = 0x32e3cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RunSongConsoleCommand*>(), { ".ctor", {}, {} })));
@@ -454,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RunSongConsoleCommand::*)()>(&::GlobalNamespace::RunSongConsoleCommand::_WaitUntilSongQueueEmpty_b__28_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x32e07a8;
+  constexpr static std::size_t addrs = 0x32e45a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -467,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RunSongConsoleCommand::*)()>(&::GlobalNamespace::RunSongConsoleCommand::_WaitUntilSongQueueEmptyCoroutine_b__29_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32e07d0;
+  constexpr static std::size_t addrs = 0x32e45cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

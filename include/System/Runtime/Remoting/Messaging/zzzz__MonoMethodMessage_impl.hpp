@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Messaging/MonoMethodMessage.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Messaging\MonoMethodMessage.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CallType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::System::Reflection::RuntimeMethodInfo*, ::ArrayW<::System::Object*>)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::InitMessage)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x5b4518c;
+  constexpr static std::size_t addrs = 0x5b49648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::System::Reflection::MethodBase*, ::ArrayW<::System::Object*>)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5b45408;
+  constexpr static std::size_t addrs = 0x5b498c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(
     ::System::Reflection::MethodInfo*, ::ArrayW<::System::Object*>, ::ArrayW<::System::Object*>)>(&::System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5b454c4;
+  constexpr static std::size_t addrs = 0x5b49980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW)>(&::System::Runtime::Remoting::Messaging::MonoMethodMessage::GetMethodInfo)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5b455ec;
+  constexpr static std::size_t addrs = 0x5b49aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::System::Type*, ::StringW, ::ArrayW<::System::Object*>)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b45688;
+  constexpr static std::size_t addrs = 0x5b49b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Properties)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5b456c0;
+  constexpr static std::size_t addrs = 0x5b49b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_ArgCount)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b4572c;
+  constexpr static std::size_t addrs = 0x5b49be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(), { "get_ArgCount", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Args)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b457e4;
+  constexpr static std::size_t addrs = 0x5b49ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(), { "get_Args", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::LogicalCallContext* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_LogicalCallContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b457ec;
+  constexpr static std::size_t addrs = 0x5b49ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::System::Runtime::Remoting::Messaging::LogicalCallContext*)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::set_LogicalCallContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b457f4;
+  constexpr static std::size_t addrs = 0x5b49cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodBase* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_MethodBase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b457fc;
+  constexpr static std::size_t addrs = 0x5b49cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_MethodName)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5b45804;
+  constexpr static std::size_t addrs = 0x5b49cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_MethodSignature)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5b4582c;
+  constexpr static std::size_t addrs = 0x5b49ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_TypeName)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5b45950;
+  constexpr static std::size_t addrs = 0x5b49e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(), { "get_TypeName", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Uri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b4599c;
+  constexpr static std::size_t addrs = 0x5b49e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(), { "get_Uri", {}, {} })));
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::set_Uri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b459a4;
+  constexpr static std::size_t addrs = 0x5b49e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(int32_t)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::GetArg)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5b459ac;
+  constexpr static std::size_t addrs = 0x5b49e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_Exception)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b459dc;
+  constexpr static std::size_t addrs = 0x5b49e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_OutArgCount)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b459e4;
+  constexpr static std::size_t addrs = 0x5b49ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_OutArgs)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5b45a4c;
+  constexpr static std::size_t addrs = 0x5b49f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(), { "get_OutArgs", {}, {} })));
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_ReturnValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b45b78;
+  constexpr static std::size_t addrs = 0x5b4a034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Identity* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b45b80;
+  constexpr static std::size_t addrs = 0x5b4a03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(),
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::System::Runtime::Remoting::Identity*)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b45b88;
+  constexpr static std::size_t addrs = 0x5b4a044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::AsyncResult* (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_AsyncResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b45b90;
+  constexpr static std::size_t addrs = 0x5b4a04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::CallType (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::get_CallType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5b45764;
+  constexpr static std::size_t addrs = 0x5b49c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>(), { "get_CallType", {}, {} })));
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Messaging::MonoMethodMessage::*)(::by_ref<int32_t>)>(
     &::System::Runtime::Remoting::Messaging::MonoMethodMessage::NeedsOutProcessing)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5b45b98;
+  constexpr static std::size_t addrs = 0x5b4a054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

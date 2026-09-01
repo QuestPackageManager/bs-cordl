@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Events/PersistentCall.hpp"
+// IWYU pragma private; include "UnityEngine\Events\PersistentCall.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,21 +74,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method GetObjectCall, addr 0x6af5b98, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method GetObjectCall, addr 0x6afd5b0, size 0x460, virtual false, abstract: false, final false
   static inline ::UnityEngine::Events::BaseInvokableCall* GetObjectCall(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* method, ::UnityEngine::Events::ArgumentCache* arguments);
 
-  /// @brief Method GetRuntimeCall, addr 0x6af566c, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeCall, addr 0x6afd084, size 0x364, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(::UnityEngine::Events::UnityEventBase* theEvent);
 
-  /// @brief Method IsValid, addr 0x6af5630, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6afd048, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Events::PersistentCall* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x6af6014, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x6afda2c, size 0x1c, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x6af5ff8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x6afda10, size 0x1c, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   constexpr ::UnityEngine::Events::ArgumentCache* const& __cordl_internal_get_m_Arguments() const;
@@ -127,22 +127,22 @@ public:
 
   constexpr void __cordl_internal_set_m_TargetAssemblyTypeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6af6030, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afda48, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_arguments, addr 0x6af5628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arguments, addr 0x6afd040, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::ArgumentCache* get_arguments();
 
-  /// @brief Method get_methodName, addr 0x6af5618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_methodName, addr 0x6afd030, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_methodName();
 
-  /// @brief Method get_mode, addr 0x6af5620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x6afd038, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::PersistentListenerMode get_mode();
 
-  /// @brief Method get_target, addr 0x6af5558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x6afcf70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_target();
 
-  /// @brief Method get_targetAssemblyTypeName, addr 0x6af5560, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_targetAssemblyTypeName, addr 0x6afcf78, size 0xb8, virtual false, abstract: false, final false
   inline ::StringW get_targetAssemblyTypeName();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -163,7 +163,7 @@ public:
   PersistentCall(PersistentCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10450 };
 
   /// @brief Field m_Target, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> ___m_Target;

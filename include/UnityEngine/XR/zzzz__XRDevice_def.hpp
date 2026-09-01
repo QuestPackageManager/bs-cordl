@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/XRDevice.hpp"
+// IWYU pragma private; include "UnityEngine\XR\XRDevice.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,16 +35,16 @@ public:
   /// @brief Field deviceLoaded, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_deviceLoaded, put = setStaticF_deviceLoaded)) ::System::Action_1<::StringW>* deviceLoaded;
 
-  /// @brief Method DisableAutoXRCameraTracking, addr 0x6e2ec60, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method DisableAutoXRCameraTracking, addr 0x6e367e4, size 0xb4, virtual false, abstract: false, final false
   static inline void DisableAutoXRCameraTracking(::UnityEngine::Camera* camera, bool disabled);
 
-  /// @brief Method DisableAutoXRCameraTracking_Injected, addr 0x6e2ed14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DisableAutoXRCameraTracking_Injected, addr 0x6e36898, size 0x44, virtual false, abstract: false, final false
   static inline void DisableAutoXRCameraTracking_Injected(::System::IntPtr camera, bool disabled);
 
-  /// @brief Method InvokeDeviceLoaded, addr 0x6e2ed58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InvokeDeviceLoaded, addr 0x6e368dc, size 0x70, virtual false, abstract: false, final false
   static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
 
-  /// @brief Method SetTrackingSpaceType, addr 0x6e2ec24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingSpaceType, addr 0x6e367a8, size 0x3c, virtual false, abstract: false, final false
   static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
 
   static inline ::System::Action_1<::StringW>* getStaticF_deviceLoaded();
@@ -66,7 +66,7 @@ public:
   XRDevice(XRDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

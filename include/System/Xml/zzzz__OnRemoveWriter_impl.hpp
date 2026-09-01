@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/OnRemoveWriter.hpp"
+// IWYU pragma private; include "System\Xml\OnRemoveWriter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/zzzz__OnRemoveWriter_def.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::OnRemoveWriter::*)(::System::Object*, ::System::IntPtr)>(&::System::Xml::OnRemoveWriter::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x61a9f10;
+  constexpr static std::size_t addrs = 0x61b198c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::OnRemoveWriter::*)(::System::Xml::XmlRawWriter*)>(&::System::Xml::OnRemoveWriter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61aa054;
+  constexpr static std::size_t addrs = 0x61b1ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

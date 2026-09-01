@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/UnreferencedObjectEventArgs.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\UnreferencedObjectEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/Serialization/zzzz__UnreferencedObjectEventArgs_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::UnreferencedObjectEventArgs::*)(::System::Object*, ::StringW)>(
     &::System::Xml::Serialization::UnreferencedObjectEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x62e3fc8;
+  constexpr static std::size_t addrs = 0x62eba44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::UnreferencedObjectEventArgs*>(),

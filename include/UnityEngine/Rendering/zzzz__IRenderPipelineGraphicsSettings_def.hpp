@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IRenderPipelineGraphicsSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IRenderPipelineGraphicsSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ public:
 
   __declspec(property(get = get_version)) int32_t version;
 
-  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6b038c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6b0b2dc, size 0x8, virtual true, abstract: false, final false
   inline bool get_isAvailableInPlayerBuild();
 
   /// @brief Method get_version, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -34,7 +34,7 @@ public:
   IRenderPipelineGraphicsSettings(IRenderPipelineGraphicsSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10765 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

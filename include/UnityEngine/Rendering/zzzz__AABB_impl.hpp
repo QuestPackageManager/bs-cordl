@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/AABB.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\AABB.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__AABB_def.hpp"
 #include "Unity/Mathematics/zzzz__float3_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (::UnityEngine::Rendering::AABB::*)()>(&::UnityEngine::Rendering::AABB::get_min)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68025c4;
+  constexpr static std::size_t addrs = 0x680a040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AABB>(), { "get_min", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (::UnityEngine::Rendering::AABB::*)()>(&::UnityEngine::Rendering::AABB::get_max)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68025e4;
+  constexpr static std::size_t addrs = 0x680a060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AABB>(), { "get_max", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::AABB::*)()>(&::UnityEngine::Rendering::AABB::ToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6802604;
+  constexpr static std::size_t addrs = 0x680a080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AABB>(), { ::i2c::class_of<::UnityEngine::Rendering::AABB>(), 3 }));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3,
                                                                                         ::Unity::Mathematics::float3)>(&::UnityEngine::Rendering::AABB::RotateExtents)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68026dc;
+  constexpr static std::size_t addrs = 0x680a158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::AABB (*)(::Unity::Mathematics::float4x4, ::UnityEngine::Rendering::AABB)>(
     &::UnityEngine::Rendering::AABB::Transform)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6802750;
+  constexpr static std::size_t addrs = 0x680a1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

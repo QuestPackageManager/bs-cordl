@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXMouseEventBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXMouseEventBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,7 +96,7 @@ public:
   static ::UnityEngine::VFX::Utility::VFXMouseEventBinder_Activation const OnMouseUp;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19975 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -151,54 +151,54 @@ public:
   /// @brief Field position, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) ::UnityEngine::VFX::Utility::ExposedProperty* position;
 
-  /// @brief Method Awake, addr 0x69d8e24, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x69e08a0, size 0x2d0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DoOnMouseDown, addr 0x69d952c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DoOnMouseDown, addr 0x69e0fa8, size 0xb8, virtual false, abstract: false, final false
   inline void DoOnMouseDown();
 
-  /// @brief Method DoOnMouseDrag, addr 0x69d9748, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DoOnMouseDrag, addr 0x69e11c4, size 0xb8, virtual false, abstract: false, final false
   inline void DoOnMouseDrag();
 
-  /// @brief Method DoOnMouseEnter, addr 0x69d9800, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DoOnMouseEnter, addr 0x69e127c, size 0xb8, virtual false, abstract: false, final false
   inline void DoOnMouseEnter();
 
-  /// @brief Method DoOnMouseExit, addr 0x69d928c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DoOnMouseExit, addr 0x69e0d08, size 0xb8, virtual false, abstract: false, final false
   inline void DoOnMouseExit();
 
-  /// @brief Method DoOnMouseOver, addr 0x69d91d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DoOnMouseOver, addr 0x69e0c50, size 0xb8, virtual false, abstract: false, final false
   inline void DoOnMouseOver();
 
-  /// @brief Method DoOnMouseUp, addr 0x69d9694, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method DoOnMouseUp, addr 0x69e1110, size 0xb4, virtual false, abstract: false, final false
   inline void DoOnMouseUp();
 
-  /// @brief Method GetMousePosition, addr 0x69d8d84, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetMousePosition, addr 0x69e0800, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetMousePosition();
 
   static inline ::UnityEngine::VFX::Utility::VFXMouseEventBinder* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x69d94ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x69e0f68, size 0x40, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x69d94a4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x69e0f20, size 0x44, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RayCastAndTriggerEvent, addr 0x69d93c4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RayCastAndTriggerEvent, addr 0x69e0e40, size 0xe0, virtual false, abstract: false, final false
   inline void RayCastAndTriggerEvent(::System::Action* trigger);
 
-  /// @brief Method RayCastDrag, addr 0x69d9344, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RayCastDrag, addr 0x69e0dc0, size 0x80, virtual false, abstract: false, final false
   inline void RayCastDrag();
 
-  /// @brief Method RaycastMainCamera, addr 0x69d90f4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RaycastMainCamera, addr 0x69e0b70, size 0xe0, virtual false, abstract: false, final false
   inline void RaycastMainCamera();
 
-  /// @brief Method SetEventAttribute, addr 0x69d8c78, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method SetEventAttribute, addr 0x69e06f4, size 0x10c, virtual true, abstract: false, final false
   inline void SetEventAttribute(::ArrayW<::System::Object*> parameters);
 
-  /// @brief Method <Awake>b__12_0, addr 0x69d9968, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__12_0, addr 0x69e13e4, size 0x80, virtual false, abstract: false, final false
   inline void _Awake_b__12_0(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
-  /// @brief Method <Awake>b__12_1, addr 0x69d99e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__12_1, addr 0x69e1464, size 0x80, virtual false, abstract: false, final false
   inline void _Awake_b__12_1(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
   constexpr bool const& __cordl_internal_get_RaycastMousePosition() const;
@@ -261,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set_position(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69d98b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e1334, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -279,7 +279,7 @@ public:
   VFXMouseEventBinder(VFXMouseEventBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19976 };
 
   /// @brief Field activation, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::VFX::Utility::VFXMouseEventBinder_Activation ___activation;

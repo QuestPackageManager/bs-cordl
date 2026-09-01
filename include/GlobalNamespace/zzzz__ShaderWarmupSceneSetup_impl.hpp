@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ShaderWarmupSceneSetup.hpp"
+// IWYU pragma private; include "GlobalNamespace\ShaderWarmupSceneSetup.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__ShaderWarmupSceneSetup_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShaderWarmupSceneSetup::*)()>(&::GlobalNamespace::ShaderWarmupSceneSetup::InstallBindings)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x590edc0;
+  constexpr static std::size_t addrs = 0x5912768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShaderWarmupSceneSetup::*)()>(&::GlobalNamespace::ShaderWarmupSceneSetup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x590eea4;
+  constexpr static std::size_t addrs = 0x591284c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShaderWarmupSceneSetup*>(), { ".ctor", {}, {} })));

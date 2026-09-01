@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/XPath/Function.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\XPath\Function.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathResultType_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Function_def.hpp"
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Function::*)(
     ::MS::Internal::Xml::XPath::Function_FunctionType, ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>*)>(&::MS::Internal::Xml::XPath::Function::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x626f01c;
+  constexpr static std::size_t addrs = 0x6276a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::Function*>(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Function::*)(
     ::StringW, ::StringW, ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>*)>(&::MS::Internal::Xml::XPath::Function::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x626f0a8;
+  constexpr static std::size_t addrs = 0x6276b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Function::*)(::MS::Internal::Xml::XPath::Function_FunctionType, ::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::Function::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x626f148;
+  constexpr static std::size_t addrs = 0x6276bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::Function::*)()>(&::MS::Internal::Xml::XPath::Function::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x626f24c;
+  constexpr static std::size_t addrs = 0x6276cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Function::*)()>(&::MS::Internal::Xml::XPath::Function::get_ReturnType)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x626f254;
+  constexpr static std::size_t addrs = 0x6276cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

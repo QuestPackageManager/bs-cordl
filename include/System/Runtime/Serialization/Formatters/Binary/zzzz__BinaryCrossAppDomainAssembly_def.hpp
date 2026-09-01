@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryCrossAppDomainAssembly.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\BinaryCrossAppDomainAssembly.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,12 +29,12 @@ public:
   /// @brief Field assemblyIndex, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_assemblyIndex, put = __cordl_internal_set_assemblyIndex)) int32_t assemblyIndex;
 
-  /// @brief Method Dump, addr 0x5b540d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5b58590, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly* New_ctor();
 
-  /// @brief Method Read, addr 0x5b54074, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5b58530, size 0x60, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
   constexpr int32_t const& __cordl_internal_get_assemId() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_assemblyIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b54070, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5852c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

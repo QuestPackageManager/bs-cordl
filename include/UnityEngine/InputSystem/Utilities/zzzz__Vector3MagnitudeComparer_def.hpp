@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Vector3MagnitudeComparer.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\Vector3MagnitudeComparer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>*();
 
-  /// @brief Method Compare, addr 0x64f9284, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x6500d00, size 0x38, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::Vector3 x, ::UnityEngine::Vector3 y);
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
@@ -41,7 +41,7 @@ public:
   constexpr Vector3MagnitudeComparer();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9156 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FirstPersonFlyingController.hpp"
+// IWYU pragma private; include "GlobalNamespace\FirstPersonFlyingController.hpp"
 #include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FirstPersonFlyingController_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(&::GlobalNamespace::FirstPersonFlyingController::OnEnable)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x5918b78;
+  constexpr static std::size_t addrs = 0x591c534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(), { "OnEnable", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(&::GlobalNamespace::FirstPersonFlyingController::OnDisable)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x5918de8;
+  constexpr static std::size_t addrs = 0x591c7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(), { "OnDisable", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(&::GlobalNamespace::FirstPersonFlyingController::Update)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x5919054;
+  constexpr static std::size_t addrs = 0x591ca10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(), { "Update", {}, {} })));
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::UnityEngine::Camera*, ::GlobalNamespace::VRCenterAdjust*, ::GlobalNamespace::VRController*, ::GlobalNamespace::VRController*, ::UnityEngine::SpatialTracking::TrackedPoseDriver*, bool)>(
     &::GlobalNamespace::FirstPersonFlyingController::Inject)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x59194f4;
+  constexpr static std::size_t addrs = 0x591ceb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(&::GlobalNamespace::FirstPersonFlyingController::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x59195f0;
+  constexpr static std::size_t addrs = 0x591cfac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FirstPersonFlyingController*>(), { ".ctor", {}, {} })));

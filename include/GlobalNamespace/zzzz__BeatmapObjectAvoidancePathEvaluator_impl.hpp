@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapObjectAvoidancePathEvaluator.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapObjectAvoidancePathEvaluator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidancePathEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::PlayerTransforms*, ::GlobalNamespace::BezierSplineEvaluator*, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x327e320;
+  constexpr static std::size_t addrs = 0x32820b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::*)()>(
     &::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x327e338;
+  constexpr static std::size_t addrs = 0x32820c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

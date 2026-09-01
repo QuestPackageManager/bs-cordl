@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Configuration/ConnectionManagementSection.hpp"
+// IWYU pragma private; include "System\Net\Configuration\ConnectionManagementSection.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_impl.hpp"
 #include "System/Net/Configuration/zzzz__ConnectionManagementSection_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Configuration::ConnectionManagementSection::*)()>(&::System::Net::Configuration::ConnectionManagementSection::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x636a148;
+  constexpr static std::size_t addrs = 0x6371bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Configuration::ConnectionManagementSection*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Net::Configuration::ConnectionManagementSection::*)()>(
     &::System::Net::Configuration::ConnectionManagementSection::get_Properties)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x636a184;
+  constexpr static std::size_t addrs = 0x6371c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Configuration::ConnectionManagementSection*>(),

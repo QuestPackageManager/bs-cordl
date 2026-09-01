@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SubsystemsImplementation/SubsystemWithProvider.hpp"
+// IWYU pragma private; include "UnityEngine\SubsystemsImplementation\SubsystemWithProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x6bb18d4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x6bb9458, size 0x80, virtual true, abstract: false, final true
   inline void Destroy();
 
   static inline ::UnityEngine::SubsystemsImplementation::SubsystemWithProvider* New_ctor();
@@ -53,10 +53,10 @@ public:
   /// @brief Method OnStop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnStop();
 
-  /// @brief Method Start, addr 0x6bb1860, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x6bb93e4, size 0x3c, virtual true, abstract: false, final true
   inline void Start();
 
-  /// @brief Method Stop, addr 0x6bb189c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x6bb9420, size 0x38, virtual true, abstract: false, final true
   inline void Stop();
 
   constexpr ::UnityEngine::SubsystemsImplementation::SubsystemProvider* const& __cordl_internal_get__providerBase_k__BackingField() const;
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set__running_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6bb196c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb94f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_providerBase, addr 0x6bb1964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_providerBase, addr 0x6bb94e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SubsystemsImplementation::SubsystemProvider* get_providerBase();
 
-  /// @brief Method get_running, addr 0x6bb1954, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x6bb94d8, size 0x8, virtual true, abstract: false, final true
   inline bool get_running();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
   constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
 
-  /// @brief Method set_running, addr 0x6bb195c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_running, addr 0x6bb94e0, size 0x8, virtual false, abstract: false, final false
   inline void set_running(bool value);
 
 protected:
@@ -101,7 +101,7 @@ public:
   SubsystemWithProvider(SubsystemWithProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22940 };
 
   /// @brief Field <running>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____running_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InternalSR.hpp"
+// IWYU pragma private; include "System\Runtime\InternalSR.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/zzzz__InternalSR_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*)>(&::System::Runtime::InternalSR::EtwRegistrationFailed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6182bac;
+  constexpr static std::size_t addrs = 0x618a628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

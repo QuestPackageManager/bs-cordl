@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/CancellationTokenRegistration.hpp"
+// IWYU pragma private; include "System\Threading\CancellationTokenRegistration.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArrayAddInfo_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading
     ::System::Threading::CancellationCallbackInfo*, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*>)>(
     &::System::Threading::CancellationTokenRegistration::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ca72a4;
+  constexpr static std::size_t addrs = 0x5cab760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::CancellationTokenRegistration::*)()>(&::System::Threading::CancellationTokenRegistration::Unregister)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5ca72b0;
+  constexpr static std::size_t addrs = 0x5cab76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenRegistration>(), { "Unregister", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::CancellationTokenRegistration::*)()>(&::System::Threading::CancellationTokenRegistration::Dispose)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ca7340;
+  constexpr static std::size_t addrs = 0x5cab7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenRegistration>(), { "Dispose", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::CancellationTokenRegistration::*)(::System::Object*)>(&::System::Threading::CancellationTokenRegistration::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5ca7470;
+  constexpr static std::size_t addrs = 0x5cab92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::CancellationTokenRegistration::*)(::System::Threading::CancellationTokenRegistration)>(
     &::System::Threading::CancellationTokenRegistration::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ca7504;
+  constexpr static std::size_t addrs = 0x5cab9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenRegistration>(),
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::CancellationTokenRegistration::*)()>(&::System::Threading::CancellationTokenRegistration::GetHashCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5ca759c;
+  constexpr static std::size_t addrs = 0x5caba58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::System::Threading::CancellationTokenRegistration::*)()>(
     &::System::Threading::CancellationTokenRegistration::DisposeAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5ca7614;
+  constexpr static std::size_t addrs = 0x5cabad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::CancellationTokenRegistration>(), { "DisposeAsync", {}, {} })));

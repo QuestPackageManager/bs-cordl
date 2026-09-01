@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/UI/ExtendedSubmitCancelEventData.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\UI\ExtendedSubmitCancelEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__device_k__BackingField(::UnityEngine::InputSystem::InputDevice* value);
 
-  /// @brief Method .ctor, addr 0x658b46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6592ee8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_device, addr 0x658b45c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_device, addr 0x6592ed8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
   /// @brief Convert to "::UnityEngine::InputSystem::UI::INavigationEventData"
   constexpr ::UnityEngine::InputSystem::UI::INavigationEventData* i___UnityEngine__InputSystem__UI__INavigationEventData() noexcept;
 
-  /// @brief Method set_device, addr 0x658b464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x6592ee0, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
 protected:
@@ -71,7 +71,7 @@ public:
   ExtendedSubmitCancelEventData(ExtendedSubmitCancelEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8862 };
 
   /// @brief Field <device>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputDevice* ____device_k__BackingField;

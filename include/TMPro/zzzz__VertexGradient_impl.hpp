@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/VertexGradient.hpp"
+// IWYU pragma private; include "TMPro\VertexGradient.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "TMPro/zzzz__VertexGradient_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::VertexGradient::*)(::UnityEngine::Color)>(&::TMPro::VertexGradient::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6941b84;
+  constexpr static std::size_t addrs = 0x6949600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::VertexGradient>(), { ".ctor", {}, { ::i2c::type_of<::UnityEngine::Color>() } })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::VertexGradient::*)(::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(
     &::TMPro::VertexGradient::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6941ba8;
+  constexpr static std::size_t addrs = 0x6949624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/EncoderExceptionFallback.hpp"
+// IWYU pragma private; include "System\Text\EncoderExceptionFallback.hpp"
 #include "System/Text/zzzz__EncoderFallback_impl.hpp"
 #include "System/Text/zzzz__EncoderExceptionFallback_def.hpp"
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::EncoderExceptionFallback::*)()>(&::System::Text::EncoderExceptionFallback::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5acf7d0;
+  constexpr static std::size_t addrs = 0x5ad3c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::EncoderExceptionFallback*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::EncoderFallbackBuffer* (::System::Text::EncoderExceptionFallback::*)()>(
     &::System::Text::EncoderExceptionFallback::CreateFallbackBuffer)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5acf7d4;
+  constexpr static std::size_t addrs = 0x5ad3c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::EncoderExceptionFallback::*)()>(&::System::Text::EncoderExceptionFallback::get_MaxCharCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5acf81c;
+  constexpr static std::size_t addrs = 0x5ad3cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::EncoderExceptionFallback::*)(::System::Object*)>(&::System::Text::EncoderExceptionFallback::Equals)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5acf824;
+  constexpr static std::size_t addrs = 0x5ad3ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::EncoderExceptionFallback::*)()>(&::System::Text::EncoderExceptionFallback::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5acf884;
+  constexpr static std::size_t addrs = 0x5ad3d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

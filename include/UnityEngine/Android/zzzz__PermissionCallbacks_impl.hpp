@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/PermissionCallbacks.hpp"
+// IWYU pragma private; include "UnityEngine\Android\PermissionCallbacks.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_impl.hpp"
 #include "UnityEngine/Android/zzzz__PermissionCallbacks_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::add_PermissionGranted)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6a2c5c0;
+  constexpr static std::size_t addrs = 0x6a3403c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::remove_PermissionGranted)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6a2c680;
+  constexpr static std::size_t addrs = 0x6a340fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::add_PermissionDenied)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6a2c740;
+  constexpr static std::size_t addrs = 0x6a341bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::remove_PermissionDenied)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6a2c800;
+  constexpr static std::size_t addrs = 0x6a3427c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::add_PermissionDeniedAndDontAskAgain)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6a2c8c0;
+  constexpr static std::size_t addrs = 0x6a3433c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::PermissionCallbacks*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::remove_PermissionDeniedAndDontAskAgain)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6a2c980;
+  constexpr static std::size_t addrs = 0x6a343fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::PermissionCallbacks*>(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::add_PermissionRequestDismissed)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6a2ca40;
+  constexpr static std::size_t addrs = 0x6a344bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::PermissionCallbacks*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::remove_PermissionRequestDismissed)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6a2cb00;
+  constexpr static std::size_t addrs = 0x6a3457c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::PermissionCallbacks*>(),
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)()>(&::UnityEngine::Android::PermissionCallbacks::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6a2cbc0;
+  constexpr static std::size_t addrs = 0x6a3463c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::PermissionCallbacks*>(), { ".ctor", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::Android::PermissionCallbacks::*)(::StringW, ::System::IntPtr)>(
     &::UnityEngine::Android::PermissionCallbacks::Invoke)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6a2cc34;
+  constexpr static std::size_t addrs = 0x6a346b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::IntPtr)>(&::UnityEngine::Android::PermissionCallbacks::onPermissionResult)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6a2ccc4;
+  constexpr static std::size_t addrs = 0x6a34740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BottleneckHistogram.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BottleneckHistogram.hpp"
 #include "UnityEngine/Rendering/zzzz__BottleneckHistogram_def.hpp"
 // Ctor Parameters [CppParam { name: "PresentLimited", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "CPU", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "GPU", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Balanced", ty: "float_t", modifiers: "", def_value: Some("{}") }]

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FileBrowserTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace\FileBrowserTableView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,33 +61,33 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x5920a40, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x59243fc, size 0x188, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method CellSize, addr 0x5920a20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x59243dc, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method ClearSelection, addr 0x5920c18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x59245d4, size 0x5c, virtual false, abstract: false, final false
   inline void ClearSelection(bool animated, bool scrollToRow0);
 
-  /// @brief Method HandleDidSelectRowEvent, addr 0x5920bc8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectRowEvent, addr 0x5924584, size 0x50, virtual false, abstract: false, final false
   inline void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method Init, addr 0x59207f8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59241b4, size 0x110, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::FileBrowserItem*> items);
 
   static inline ::GlobalNamespace::FileBrowserTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x5920a28, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x59243e4, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SelectAndScrollRow, addr 0x59209d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SelectAndScrollRow, addr 0x5924390, size 0x4c, virtual false, abstract: false, final false
   inline void SelectAndScrollRow(int32_t row);
 
-  /// @brief Method SelectAndScrollRowToItemWithPath, addr 0x5920950, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SelectAndScrollRowToItemWithPath, addr 0x592430c, size 0x84, virtual false, abstract: false, final false
   inline bool SelectAndScrollRowToItemWithPath(::StringW folderPath);
 
-  /// @brief Method SetItems, addr 0x5920908, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetItems, addr 0x59242c4, size 0x48, virtual false, abstract: false, final false
   inline void SetItems(::ArrayW<::GlobalNamespace::FileBrowserItem*> items);
 
   constexpr float_t const& __cordl_internal_get__cellHeight() const;
@@ -120,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
-  /// @brief Method .ctor, addr 0x5920c74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5924630, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectRow, addr 0x5920678, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectRow, addr 0x5924034, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
-  /// @brief Method remove_didSelectRow, addr 0x5920738, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectRow, addr 0x59240f4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
 protected:
@@ -147,7 +147,7 @@ public:
   FileBrowserTableView(FileBrowserTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6829 };
 
   /// @brief Field kCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellIdentifier{ u"Cell" };

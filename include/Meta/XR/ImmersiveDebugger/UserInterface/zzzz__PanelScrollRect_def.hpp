@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/PanelScrollRect.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\PanelScrollRect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,22 +24,22 @@ public:
   // Declarations
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect* New_ctor();
 
-  /// @brief Method OnBeginDrag, addr 0x5a52c74, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnBeginDrag, addr 0x5a57130, size 0x8c, virtual true, abstract: false, final false
   inline void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDrag, addr 0x5a52d84, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnDrag, addr 0x5a57240, size 0x8c, virtual true, abstract: false, final false
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEndDrag, addr 0x5a52d00, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnEndDrag, addr 0x5a571bc, size 0x84, virtual true, abstract: false, final false
   inline void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x5a52be8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnInitializePotentialDrag, addr 0x5a570a4, size 0x8c, virtual true, abstract: false, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnScroll, addr 0x5a52b5c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnScroll, addr 0x5a57018, size 0x8c, virtual true, abstract: false, final false
   inline void OnScroll(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method .ctor, addr 0x5a52e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a572cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   PanelScrollRect(PanelScrollRect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

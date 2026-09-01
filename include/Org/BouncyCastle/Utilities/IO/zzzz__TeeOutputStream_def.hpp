@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/TeeOutputStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\TeeOutputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,15 +30,15 @@ public:
   /// @brief Field tee, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_tee, put = __cordl_internal_set_tee)) ::System::IO::Stream* tee;
 
-  /// @brief Method Close, addr 0x362c6f0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x36304b0, size 0x9c, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Utilities::IO::TeeOutputStream* New_ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
 
-  /// @brief Method Write, addr 0x362c78c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x363054c, size 0x68, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x362c7f4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x36305b4, size 0x50, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_output() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_tee(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x362c6c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3630484, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
 
 protected:

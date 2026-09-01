@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue/SimplePriorityQueue_2.hpp"
+// IWYU pragma private; include "Priority_Queue\SimplePriorityQueue_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,7 +101,7 @@ public:
   SimplePriorityQueue_2_SimpleNode(SimplePriorityQueue_2_SimpleNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20493 };
 
   /// @brief Field <Data>k__BackingField, offset: 0x28, size: 0x8, def value: None
   TItem ____Data_k__BackingField;
@@ -292,7 +292,7 @@ public:
   static constexpr int32_t INITIAL_QUEUE_SIZE{ static_cast<int32_t>(0xa) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20494 };
 
   /// @brief Field _queue, offset: 0x10, size: 0x8, def value: None
   ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>* ____queue;

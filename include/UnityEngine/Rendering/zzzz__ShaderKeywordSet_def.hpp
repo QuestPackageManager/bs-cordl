@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ShaderKeywordSet.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ShaderKeywordSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,16 +28,16 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ShaderKeywordSet {
 public:
   // Declarations
-  /// @brief Method CheckKeywordCompatible, addr 0x6b2668c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckKeywordCompatible, addr 0x6b2e210, size 0xc4, virtual false, abstract: false, final false
   inline void CheckKeywordCompatible(::UnityEngine::Rendering::ShaderKeyword keyword);
 
-  /// @brief Method IsEnabled, addr 0x6b26750, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x6b2e2d4, size 0x40, virtual false, abstract: false, final false
   inline bool IsEnabled(::UnityEngine::Rendering::ShaderKeyword keyword);
 
-  /// @brief Method IsKeywordNameEnabled, addr 0x6b26508, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsKeywordNameEnabled, addr 0x6b2e08c, size 0x140, virtual false, abstract: false, final false
   static inline bool IsKeywordNameEnabled(::UnityEngine::Rendering::ShaderKeywordSet state, ::StringW name);
 
-  /// @brief Method IsKeywordNameEnabled_Injected, addr 0x6b26648, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsKeywordNameEnabled_Injected, addr 0x6b2e1cc, size 0x44, virtual false, abstract: false, final false
   static inline bool IsKeywordNameEnabled_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet> state, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
   // Ctor Parameters []
@@ -49,7 +49,7 @@ public:
   constexpr ShaderKeywordSet(::System::IntPtr m_KeywordState, ::System::IntPtr m_Shader, ::System::IntPtr m_ComputeShader, uint64_t m_StateIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10894 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

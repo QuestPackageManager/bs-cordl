@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StaticJumpOffsetYProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\StaticJumpOffsetYProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_jumpyYOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x5979b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597d4b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t jumpyYOffset);
 
 protected:
@@ -98,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::StaticJumpOffsetYProvider_InitData* value);
 
-  /// @brief Method .ctor, addr 0x5979b18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597d4ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_jumpOffsetY, addr 0x5979b00, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_jumpOffsetY, addr 0x597d494, size 0x18, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
 
   /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/TeeInputStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\TeeInputStream.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseInputStream_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__TeeInputStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::TeeInputStream::*)(::System::IO::Stream*, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::IO::TeeInputStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x362c528;
+  constexpr static std::size_t addrs = 0x36302e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::TeeInputStream*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::TeeInputStream::*)()>(&::Org::BouncyCastle::Utilities::IO::TeeInputStream::Close)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x362c554;
+  constexpr static std::size_t addrs = 0x3630314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::TeeInputStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::IO::TeeInputStream::Read)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x362c5f0;
+  constexpr static std::size_t addrs = 0x36303b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::TeeInputStream::*)()>(&::Org::BouncyCastle::Utilities::IO::TeeInputStream::ReadByte)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x362c668;
+  constexpr static std::size_t addrs = 0x3630428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Dynamic/Utils/CacheDict_2.hpp"
+// IWYU pragma private; include "System\Dynamic\Utils\CacheDict_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
   CacheDict_2_Entry(CacheDict_2_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16674 };
 
   /// @brief Field _hash, offset: 0x10, size: 0x4, def value: None
   int32_t ____hash;
@@ -156,7 +156,7 @@ public:
   CacheDict_2(CacheDict_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16675 };
 
   /// @brief Field _mask, offset: 0x10, size: 0x4, def value: None
   int32_t ____mask;

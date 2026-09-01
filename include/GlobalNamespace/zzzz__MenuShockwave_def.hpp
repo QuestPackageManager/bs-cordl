@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MenuShockwave.hpp"
+// IWYU pragma private; include "GlobalNamespace\MenuShockwave.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,21 +43,21 @@ public:
   /// @brief Field _vrPointer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPointer, put = __cordl_internal_set__vrPointer)) ::UnityW<::VRUIControls::VRPointer> _vrPointer;
 
-  /// @brief Method Awake, addr 0x59fe5ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a066c0, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleButtonClickEvent, addr 0x59fe81c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClickEvent, addr 0x5a068f0, size 0x28, virtual false, abstract: false, final false
   inline void HandleButtonClickEvent();
 
   static inline ::GlobalNamespace::MenuShockwave* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59fe718, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a067ec, size 0x104, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59fe5fc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5a066d0, size 0x11c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SpawnShockwave, addr 0x59fe844, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x5a06918, size 0x88, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>> const& __cordl_internal_get__buttonClickEvents() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPointer(::UnityW<::VRUIControls::VRPointer> value);
 
-  /// @brief Method .ctor, addr 0x59fe8cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a069a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   MenuShockwave(MenuShockwave const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6341 };
 
   /// @brief Field _shockwavePS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____shockwavePS;

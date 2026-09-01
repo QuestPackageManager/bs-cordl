@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/ColorNoteData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\ColorNoteData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3759a40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375f6ac, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color, ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset);
 
-  /// @brief Method get_angleOffset, addr 0x3759a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleOffset, addr 0x375f694, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_angleOffset();
 
-  /// @brief Method get_color, addr 0x3759a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x375f69c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteColorType get_color();
 
-  /// @brief Method get_cutDirection, addr 0x3759a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x375f6a4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_layer, addr 0x3759a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x375f68c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x3759a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x375f684, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:
@@ -120,7 +120,7 @@ public:
   ColorNoteData(ColorNoteData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15372 };
 
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;

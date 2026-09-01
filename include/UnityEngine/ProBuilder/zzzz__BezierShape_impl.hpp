@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/BezierShape.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\BezierShape.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__BezierShape_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::get_isEditing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66acd2c;
+  constexpr static std::size_t addrs = 0x66b47a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BezierShape*>(), { "get_isEditing", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)(bool)>(&::UnityEngine::ProBuilder::BezierShape::set_isEditing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66acd34;
+  constexpr static std::size_t addrs = 0x66b47b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (::UnityEngine::ProBuilder::BezierShape::*)()>(
     &::UnityEngine::ProBuilder::BezierShape::get_mesh)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x66acd3c;
+  constexpr static std::size_t addrs = 0x66b47b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BezierShape*>(), { "get_mesh", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::BezierShape::set_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66acdd8;
+  constexpr static std::size_t addrs = 0x66b4854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::Init)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x66acde0;
+  constexpr static std::size_t addrs = 0x66b485c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BezierShape*>(), { "Init", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::Refresh)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x66ad048;
+  constexpr static std::size_t addrs = 0x66b4ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BezierShape*>(), { "Refresh", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x66ad120;
+  constexpr static std::size_t addrs = 0x66b4b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BezierShape*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EventInterestReflectionUtils.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EventInterestReflectionUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,14 +98,14 @@ public:
   __declspec(property(get = getStaticF_s_EventCategories,
                       put = setStaticF_s_EventCategories)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventCategory>* s_EventCategories;
 
-  /// @brief Method ComputeDefaultEventInterests, addr 0x6cc2e54, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method ComputeDefaultEventInterests, addr 0x6cca9d8, size 0x1f8, virtual false, abstract: false, final false
   static inline int32_t ComputeDefaultEventInterests(::System::Type* elementType, ::StringW methodName);
 
-  /// @brief Method GetDefaultEventInterests, addr 0x6cc2b30, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultEventInterests, addr 0x6cca6b4, size 0x324, virtual false, abstract: false, final false
   static inline void GetDefaultEventInterests(::System::Type* elementType, ::by_ref<int32_t> defaultActionCategories, ::by_ref<int32_t> defaultActionAtTargetCategories,
                                               ::by_ref<int32_t> handleEventTrickleDownCategories, ::by_ref<int32_t> handleEventBubbleUpCategories);
 
-  /// @brief Method GetEventCategory, addr 0x6cc304c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetEventCategory, addr 0x6ccabd0, size 0x224, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventCategory GetEventCategory(::System::Type* eventType);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>* getStaticF_s_DefaultEventInterests();

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BackgroundPropertyHelper.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BackgroundPropertyHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,16 +31,16 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE BackgroundPropertyHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertScaleModeToBackgroundPosition, addr 0x6c2784c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ConvertScaleModeToBackgroundPosition, addr 0x6c2f3d0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundPosition ConvertScaleModeToBackgroundPosition(::UnityEngine::ScaleMode scaleMode);
 
-  /// @brief Method ConvertScaleModeToBackgroundRepeat, addr 0x6c27d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConvertScaleModeToBackgroundRepeat, addr 0x6c2f8ac, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundRepeat ConvertScaleModeToBackgroundRepeat(::UnityEngine::ScaleMode scaleMode);
 
-  /// @brief Method ConvertScaleModeToBackgroundSize, addr 0x6c27d38, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ConvertScaleModeToBackgroundSize, addr 0x6c2f8bc, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundSize ConvertScaleModeToBackgroundSize(::UnityEngine::ScaleMode scaleMode);
 
-  /// @brief Method ResolveUnityBackgroundScaleMode, addr 0x6c27d8c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ResolveUnityBackgroundScaleMode, addr 0x6c2f910, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityEngine::ScaleMode ResolveUnityBackgroundScaleMode(::UnityEngine::UIElements::BackgroundPosition backgroundPositionX,
                                                                          ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY,
                                                                          ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize backgroundSize,

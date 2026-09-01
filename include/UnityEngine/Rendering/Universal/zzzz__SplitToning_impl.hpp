@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/SplitToning.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\SplitToning.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__SplitToning_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ClampedFloatParameter_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::SplitToning::*)()>(&::UnityEngine::Rendering::Universal::SplitToning::IsActive)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6877f28;
+  constexpr static std::size_t addrs = 0x687f9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SplitToning*>(), { "IsActive", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::SplitToning::*)()>(&::UnityEngine::Rendering::Universal::SplitToning::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6877fb4;
+  constexpr static std::size_t addrs = 0x687fa30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SplitToning*>(), { "IsTileCompatible", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::SplitToning::*)()>(&::UnityEngine::Rendering::Universal::SplitToning::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6877fbc;
+  constexpr static std::size_t addrs = 0x687fa38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::SplitToning*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/BeatmapSaveData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\BeatmapSaveData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__BasicEventTypesWithKeywords_def.hpp"
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVe
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>*, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>*,
     ::BeatmapSaveDataVersion3::FxEventsCollection*, ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*, bool)>(&::BeatmapSaveDataVersion3::BeatmapSaveData::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3758b58;
+  constexpr static std::size_t addrs = 0x375e7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

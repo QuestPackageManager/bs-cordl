@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/SimpleBlockResult.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\SimpleBlockResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__SimpleBlockResult_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockResult_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::SimpleBlockResult::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::SimpleBlockResult::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x349b984;
+  constexpr static std::size_t addrs = 0x349f744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::SimpleBlockResult::*)()>(&::Org::BouncyCastle::Crypto::SimpleBlockResult::get_Length)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x349b98c;
+  constexpr static std::size_t addrs = 0x349f74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::SimpleBlockResult*>(), { "get_Length", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::SimpleBlockResult::*)()>(&::Org::BouncyCastle::Crypto::SimpleBlockResult::Collect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x349b9a4;
+  constexpr static std::size_t addrs = 0x349f764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::SimpleBlockResult*>(), { "Collect", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::SimpleBlockResult::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::SimpleBlockResult::Collect)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x349b9ac;
+  constexpr static std::size_t addrs = 0x349f76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

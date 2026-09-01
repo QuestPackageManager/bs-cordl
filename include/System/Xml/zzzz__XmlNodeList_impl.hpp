@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlNodeList.hpp"
+// IWYU pragma private; include "System\Xml\XmlNodeList.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlNodeList_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNodeList::*)(int32_t)>(&::System::Xml::XmlNodeList::get_ItemOf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62c0d88;
+  constexpr static std::size_t addrs = 0x62c8804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlNodeList*>(), { ::i2c::class_of<::System::Xml::XmlNodeList*>(), 9 }));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62c0d94;
+  constexpr static std::size_t addrs = 0x62c8810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlNodeList*>(), { "System.IDisposable.Dispose", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::PrivateDisposeNodeList)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62c0da0;
+  constexpr static std::size_t addrs = 0x62c881c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlNodeList*>(), { ::i2c::class_of<::System::Xml::XmlNodeList*>(), 10 }));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62b2fc8;
+  constexpr static std::size_t addrs = 0x62baa44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlNodeList*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CoreGameHUDController.hpp"
+// IWYU pragma private; include "GlobalNamespace\CoreGameHUDController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_showEnergyPanel(bool value);
 
-  /// @brief Method .ctor, addr 0x59a3c50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ab4f8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
 
 protected:
@@ -82,7 +82,7 @@ public:
   CoreGameHUDController_InitData(CoreGameHUDController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6006 };
 
   /// @brief Field hide, offset: 0x10, size: 0x1, def value: None
   bool ___hide;
@@ -139,7 +139,7 @@ public:
 
   __declspec(property(get = get_songProgressPanelGO)) ::UnityW<::UnityEngine::GameObject> songProgressPanelGO;
 
-  /// @brief Method Initialize, addr 0x59a3bbc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x59ab464, size 0x90, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::CoreGameHUDController_InitData* initData);
 
   static inline ::GlobalNamespace::CoreGameHUDController* New_ctor();
@@ -174,22 +174,22 @@ public:
 
   constexpr void __cordl_internal_set__songProgressPanelGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x59a3c4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ab4f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_energyPanelGo, addr 0x59a3b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_energyPanelGo, addr 0x59ab444, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_energyPanelGo();
 
-  /// @brief Method get_immediateRankGo, addr 0x59a3b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_immediateRankGo, addr 0x59ab43c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_immediateRankGo();
 
-  /// @brief Method get_relativeScoreGo, addr 0x59a3b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeScoreGo, addr 0x59ab434, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_relativeScoreGo();
 
-  /// @brief Method get_songProgressPanelGO, addr 0x59a3b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songProgressPanelGO, addr 0x59ab42c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_songProgressPanelGO();
 
-  /// @brief Method set_alpha, addr 0x59a3ba4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x59ab44c, size 0x18, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
 protected:
@@ -207,7 +207,7 @@ public:
   CoreGameHUDController(CoreGameHUDController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6007 };
 
   /// @brief Field _songProgressPanelGO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____songProgressPanelGO;

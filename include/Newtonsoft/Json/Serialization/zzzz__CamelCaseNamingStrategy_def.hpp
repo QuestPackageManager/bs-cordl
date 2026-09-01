@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Serialization/CamelCaseNamingStrategy.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Serialization\CamelCaseNamingStrategy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,16 +26,16 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
-  /// @brief Method ResolvePropertyName, addr 0x5d30af8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x5d34fb4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x5d30af4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d34fb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5d30ad8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d34f94, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-  /// @brief Method .ctor, addr 0x5d30ae4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d34fa0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
 protected:
@@ -53,7 +53,7 @@ public:
   CamelCaseNamingStrategy(CamelCaseNamingStrategy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

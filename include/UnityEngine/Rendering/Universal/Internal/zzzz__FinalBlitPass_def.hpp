@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/FinalBlitPass.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\FinalBlitPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -141,7 +141,7 @@ public:
   static constexpr ::ConstString NearestSampler{ u"NearestDebugDraw" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -192,7 +192,7 @@ public:
   static ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType const HDR;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13097 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -224,7 +224,7 @@ public:
   constexpr FinalBlitPass_BlitMaterialData(::UnityW<::UnityEngine::Material> material, int32_t nearestSamplerPass, int32_t bilinearSamplerPass) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13098 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -332,7 +332,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68fc488, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6903f04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -350,7 +350,7 @@ public:
   FinalBlitPass_PassData(FinalBlitPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13099 };
 
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___source;
@@ -415,10 +415,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c* New_ctor();
 
-  /// @brief Method <Render>b__17_0, addr 0x68fde58, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__17_0, addr 0x69058d4, size 0x3d4, virtual false, abstract: false, final false
   inline void _Render_b__17_0(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x68fde54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69058d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c* getStaticF___9();
@@ -447,7 +447,7 @@ public:
   FinalBlitPass___c(FinalBlitPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13100 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -486,38 +486,38 @@ public:
   /// @brief Field s_CameraDepthTextureID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_CameraDepthTextureID, put = setStaticF_s_CameraDepthTextureID)) int32_t s_CameraDepthTextureID;
 
-  /// @brief Method Dispose, addr 0x68fc48c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6903f08, size 0x4, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Execute, addr 0x68fc6f4, size 0x9dc, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6904170, size 0x9dc, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x68fd160, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6904bdc, size 0x22c, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* data,
                                  ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method InitPassData, addr 0x68fd0d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6904b4c, size 0x90, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*> passData,
                            ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType blitType, bool enableAlphaOutput);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* blitMaterial,
                                                                                        ::UnityEngine::Material* blitHDRMaterial);
 
-  /// @brief Method OnCameraSetup, addr 0x68fc620, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x690409c, size 0xd4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Render, addr 0x68fd38c, size 0xa04, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6904e08, size 0xa04, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> src,
                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> dest, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture);
 
-  /// @brief Method Setup, addr 0x68fc4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6903f58, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::RenderTextureDescriptor baseDescriptor, ::UnityEngine::Rendering::RTHandle* colorHandle);
 
-  /// @brief Method Setup, addr 0x68fc490, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6903f0c, size 0x4c, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::RenderTextureDescriptor baseDescriptor, ::UnityEngine::Rendering::Universal::RenderTargetHandle colorHandle);
 
-  /// @brief Method SetupHDROutput, addr 0x68fc4e4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetupHDROutput, addr 0x6903f60, size 0x13c, virtual false, abstract: false, final false
   static inline void SetupHDROutput(::UnityEngine::ColorGamut hdrDisplayColorGamut, ::UnityEngine::Material* material, ::UnityEngine::Rendering::HDROutputUtils_Operation hdrOperation,
                                     ::UnityEngine::Vector4 hdrOutputParameters, bool rendersOverlayUI);
 
@@ -539,7 +539,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Source(::UnityEngine::Rendering::RTHandle* value);
 
-  /// @brief Method .ctor, addr 0x68fc280, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6903cfc, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* blitMaterial, ::UnityEngine::Material* blitHDRMaterial);
 
   static inline int32_t getStaticF_s_CameraDepthTextureID();
@@ -561,7 +561,7 @@ public:
   FinalBlitPass(FinalBlitPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13101 };
 
   /// @brief Field m_Source, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Rendering::RTHandle* ___m_Source;

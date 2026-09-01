@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "System/Data/Range.hpp"
+// IWYU pragma private; include "System\Data\Range.hpp"
 #include "System/Data/zzzz__Range_def.hpp"
 //  Writing Method size for method: ::System::Data::Range._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Range::*)(int32_t, int32_t)>(&::System::Data::Range::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x60439f4;
+  constexpr static std::size_t addrs = 0x604b470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Range::*)()>(&::System::Data::Range::get_Count)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x603e648;
+  constexpr static std::size_t addrs = 0x60460c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Range>(), { "get_Count", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::Range::*)()>(&::System::Data::Range::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x603e194;
+  constexpr static std::size_t addrs = 0x6045c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Range>(), { "get_IsNull", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Range::*)()>(&::System::Data::Range::get_Min)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x603e668;
+  constexpr static std::size_t addrs = 0x60460e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Range>(), { "get_Min", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Range::*)()>(&::System::Data::Range::CheckNull)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6043a3c;
+  constexpr static std::size_t addrs = 0x604b4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::Range>(), { "CheckNull", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/ValueTaskAwaiter.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\ValueTaskAwaiter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,10 +52,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::ValueTaskAwaiter___c* New_ctor();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x5b6cb28, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x5b70fe4, size 0x70, virtual false, abstract: false, final false
   inline void __cctor_b__9_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x5b6cb24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b70fe0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::CompilerServices::ValueTaskAwaiter___c* getStaticF___9();
@@ -105,21 +105,21 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x5b6c55c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x5b70a18, size 0x160, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x5b6c6bc, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x5b70b78, size 0x194, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x5b6c860, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x5b70d1c, size 0x194, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method .ctor, addr 0x5b6c408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b708c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_invokeActionDelegate();
 
-  /// @brief Method get_IsCompleted, addr 0x5b6c410, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x5b708cc, size 0x14c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"

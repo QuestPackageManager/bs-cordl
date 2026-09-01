@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Metadata/SoapMethodAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Metadata\SoapMethodAttribute.hpp"
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapAttribute_impl.hpp"
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapMethodAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(&::System::Runtime::Remoting::Metadata::SoapMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b39e68;
+  constexpr static std::size_t addrs = 0x5b3e324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_UseAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b39e6c;
+  constexpr static std::size_t addrs = 0x5b3e328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b39e74;
+  constexpr static std::size_t addrs = 0x5b3e330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::SetReflectionObject)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5b39e7c;
+  constexpr static std::size_t addrs = 0x5b3e338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Metadata::SoapMethodAttribute*>(),

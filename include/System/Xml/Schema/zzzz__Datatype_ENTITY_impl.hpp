@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_ENTITY.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_ENTITY.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_NCName_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_ENTITY_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_ENTITY::*)()>(&::System::Xml::Schema::Datatype_ENTITY::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c0218;
+  constexpr static std::size_t addrs = 0x61c7c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlTokenizedType (::System::Xml::Schema::Datatype_ENTITY::*)()>(&::System::Xml::Schema::Datatype_ENTITY::get_TokenizedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c0220;
+  constexpr static std::size_t addrs = 0x61c7c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_ENTITY::*)()>(&::System::Xml::Schema::Datatype_ENTITY::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61b8268;
+  constexpr static std::size_t addrs = 0x61bfce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_ENTITY*>(), { ".ctor", {}, {} })));

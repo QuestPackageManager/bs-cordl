@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaInclude.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaInclude.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaExternal_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaInclude_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotation_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInclude::*)()>(&::System::Xml::Schema::XmlSchemaInclude::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x622a07c;
+  constexpr static std::size_t addrs = 0x6231af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaInclude*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaInclude::*)(::System::Xml::Schema::XmlSchemaAnnotation*)>(
     &::System::Xml::Schema::XmlSchemaInclude::AddAnnotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622a088;
+  constexpr static std::size_t addrs = 0x6231b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

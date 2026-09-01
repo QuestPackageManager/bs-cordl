@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LightDelegateCreator.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LightDelegateCreator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +41,10 @@ public:
   /// @brief Field _lambda, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__lambda, put = __cordl_internal_set__lambda)) ::System::Linq::Expressions::LambdaExpression* _lambda;
 
-  /// @brief Method CreateDelegate, addr 0x5fa772c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x5faf1a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Delegate* CreateDelegate();
 
-  /// @brief Method CreateDelegate, addr 0x5fa7734, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x5faf1b0, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Delegate* CreateDelegate(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*> closure);
 
   static inline ::System::Linq::Expressions::Interpreter::LightDelegateCreator* New_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter,
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set__lambda(::System::Linq::Expressions::LambdaExpression* value);
 
-  /// @brief Method .ctor, addr 0x5fa771c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5faf198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter, ::System::Linq::Expressions::LambdaExpression* lambda);
 
-  /// @brief Method get_Interpreter, addr 0x5fa7724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Interpreter, addr 0x5faf1a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::Interpreter* get_Interpreter();
 
 protected:
@@ -83,7 +83,7 @@ public:
   LightDelegateCreator(LightDelegateCreator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16450 };
 
   /// @brief Field _lambda, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::LambdaExpression* ____lambda;

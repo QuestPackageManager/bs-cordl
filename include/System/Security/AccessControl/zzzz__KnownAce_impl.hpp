@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/KnownAce.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\KnownAce.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__KnownAce_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::KnownAce::*)(::System::Security::AccessControl::AceType, ::System::Security::AccessControl::AceFlags)>(
     &::System::Security::AccessControl::KnownAce::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b1ba84;
+  constexpr static std::size_t addrs = 0x5b1ff40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::KnownAce::*)(::ArrayW<uint8_t>, int32_t)>(&::System::Security::AccessControl::KnownAce::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b1ba88;
+  constexpr static std::size_t addrs = 0x5b1ff44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::AccessControl::KnownAce::*)()>(&::System::Security::AccessControl::KnownAce::get_AccessMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ba8c;
+  constexpr static std::size_t addrs = 0x5b1ff48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::KnownAce*>(), { "get_AccessMask", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::KnownAce::*)(int32_t)>(&::System::Security::AccessControl::KnownAce::set_AccessMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ba94;
+  constexpr static std::size_t addrs = 0x5b1ff50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Principal::SecurityIdentifier* (::System::Security::AccessControl::KnownAce::*)()>(
     &::System::Security::AccessControl::KnownAce::get_SecurityIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ba9c;
+  constexpr static std::size_t addrs = 0x5b1ff58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::KnownAce*>(), { "get_SecurityIdentifier", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::KnownAce::*)(::System::Security::Principal::SecurityIdentifier*)>(
     &::System::Security::AccessControl::KnownAce::set_SecurityIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1baa4;
+  constexpr static std::size_t addrs = 0x5b1ff60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ResourcePathAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ResourcePathAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::ResourcePathAttribute* New_ctor(::StringW path, ::UnityEngine::Rendering::SearchType location);
 
-  /// @brief Method .ctor, addr 0x6b038d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0b2e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::UnityEngine::Rendering::SearchType location);
 
 protected:
@@ -43,7 +43,7 @@ public:
   ResourcePathAttribute(ResourcePathAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10769 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

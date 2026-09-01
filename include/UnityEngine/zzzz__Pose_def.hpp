@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Pose.hpp"
+// IWYU pragma private; include "UnityEngine\Pose.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,30 +43,30 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Pose>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Pose>*();
 
-  /// @brief Method Equals, addr 0x6aec2a8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6af3cc0, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6aec370, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6af3d88, size 0x130, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Pose other);
 
-  /// @brief Method GetHashCode, addr 0x6aec4a0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6af3eb8, size 0xb0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTransformedBy, addr 0x6aec0c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetTransformedBy, addr 0x6af3adc, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose GetTransformedBy(::UnityEngine::Pose lhs);
 
-  /// @brief Method ToString, addr 0x6aebfb8, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6af39d0, size 0x10c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6aebfa4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af39bc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::Pose getStaticF_k_Identity();
 
-  /// @brief Method get_forward, addr 0x6aec1c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_forward, addr 0x6af3bd8, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_forward();
 
-  /// @brief Method get_identity, addr 0x6aec23c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x6af3c54, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose get_identity();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Pose>"
@@ -83,7 +83,7 @@ public:
   constexpr Pose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10415 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

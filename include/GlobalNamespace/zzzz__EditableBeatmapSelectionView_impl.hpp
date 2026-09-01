@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EditableBeatmapSelectionView.hpp"
+// IWYU pragma private; include "GlobalNamespace\EditableBeatmapSelectionView.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_impl.hpp"
 #include "GlobalNamespace/zzzz__EditableBeatmapSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::EditableBeatmapSelectionView::*)()>(
     &::GlobalNamespace::EditableBeatmapSelectionView::get_editButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5968624;
+  constexpr static std::size_t addrs = 0x596bf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableBeatmapSelectionView*>(), { "get_editButton", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::EditableBeatmapSelectionView::*)()>(
     &::GlobalNamespace::EditableBeatmapSelectionView::get_clearButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596862c;
+  constexpr static std::size_t addrs = 0x596bf24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableBeatmapSelectionView*>(), { "get_clearButton", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EditableBeatmapSelectionView::*)()>(&::GlobalNamespace::EditableBeatmapSelectionView::get_interactable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5968634;
+  constexpr static std::size_t addrs = 0x596bf2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableBeatmapSelectionView*>(), { "get_interactable", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)(bool)>(&::GlobalNamespace::EditableBeatmapSelectionView::set_interactable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x596863c;
+  constexpr static std::size_t addrs = 0x596bf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EditableBeatmapSelectionView::*)()>(&::GlobalNamespace::EditableBeatmapSelectionView::get_showClearButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596869c;
+  constexpr static std::size_t addrs = 0x596bf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableBeatmapSelectionView*>(), { "get_showClearButton", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)(bool)>(&::GlobalNamespace::EditableBeatmapSelectionView::set_showClearButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59686a4;
+  constexpr static std::size_t addrs = 0x596bf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)(bool)>(&::GlobalNamespace::EditableBeatmapSelectionView::SetVisibility)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59686ac;
+  constexpr static std::size_t addrs = 0x596bfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)(bool)>(&::GlobalNamespace::EditableBeatmapSelectionView::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59686d4;
+  constexpr static std::size_t addrs = 0x596bfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)(::by_ref<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::EditableBeatmapSelectionView::SetBeatmap)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x59686dc;
+  constexpr static std::size_t addrs = 0x596bfd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)()>(&::GlobalNamespace::EditableBeatmapSelectionView::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x596873c;
+  constexpr static std::size_t addrs = 0x596c034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditableBeatmapSelectionView*>(), { ".ctor", {}, {} })));

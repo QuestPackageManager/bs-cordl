@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlValueGetter.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlValueGetter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlValueGetter_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlValueGetter::*)(::System::Object*, ::System::IntPtr)>(&::System::Xml::Schema::XmlValueGetter::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6235388;
+  constexpr static std::size_t addrs = 0x623ce04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlValueGetter::*)()>(&::System::Xml::Schema::XmlValueGetter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62353f0;
+  constexpr static std::size_t addrs = 0x623ce6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

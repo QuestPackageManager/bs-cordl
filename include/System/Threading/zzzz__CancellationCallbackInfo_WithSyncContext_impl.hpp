@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/CancellationCallbackInfo_WithSyncContext.hpp"
+// IWYU pragma private; include "System\Threading\CancellationCallbackInfo_WithSyncContext.hpp"
 #include "System/Threading/zzzz__CancellationCallbackInfo_impl.hpp"
 #include "System/Threading/zzzz__CancellationCallbackInfo_WithSyncContext_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::ExecutionContext*, ::System::Threading::CancellationTokenSource*, ::System::Threading::SynchronizationContext*)>(
     &::GlobalNamespace::CancellationCallbackInfo_WithSyncContext::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ca7f58;
+  constexpr static std::size_t addrs = 0x5cac414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpKeyPair.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpKeyPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,23 +70,23 @@ public:
 
   constexpr void __cordl_internal_set_pub(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* value);
 
-  /// @brief Method .ctor, addr 0x357f8b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3583674, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* keyPair, ::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x357f8d0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3583690, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x357ff0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3583ccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* priv);
 
-  /// @brief Method get_KeyId, addr 0x357ff14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x3583cd4, size 0x18, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_PrivateKey, addr 0x357ff34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x3583cf4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* get_PrivateKey();
 
-  /// @brief Method get_PublicKey, addr 0x357ff2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x3583cec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* get_PublicKey();
 
 protected:

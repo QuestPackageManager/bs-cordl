@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/BlockLevelGameplayEventSender.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\BlockLevelGameplayEventSender.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::BlockLevelGameplayEventSender* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager,
                                                                                                         ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory);
 
-  /// @brief Method SendBlockLevelGameplayEvent, addr 0x326162c, size 0x334, virtual true, abstract: false, final true
+  /// @brief Method SendBlockLevelGameplayEvent, addr 0x3264938, size 0x334, virtual true, abstract: false, final true
   inline void SendBlockLevelGameplayEvent(::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData* levelData, ::StringW blockLevelJSON);
 
   constexpr ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* const& __cordl_internal_get__eventsBuilderFactory() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__eventsBuilderFactory(::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* value);
 
-  /// @brief Method .ctor, addr 0x32607ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3263aac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager, ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory);
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender"
@@ -72,7 +72,7 @@ public:
   BlockLevelGameplayEventSender(BlockLevelGameplayEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22249 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22267 };
 
   /// @brief Field _eventsBuilderFactory, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* ____eventsBuilderFactory;

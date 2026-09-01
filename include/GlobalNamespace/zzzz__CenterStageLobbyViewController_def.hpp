@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CenterStageLobbyViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\CenterStageLobbyViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::CenterStageLobbyViewController* New_ctor();
 
-  /// @brief Method SetLevelGameplaySetupData, addr 0x595cf54, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method SetLevelGameplaySetupData, addr 0x596081c, size 0x150, virtual false, abstract: false, final false
   inline void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::ModifiersSelectionView> value);
 
-  /// @brief Method .ctor, addr 0x595d0a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596096c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   CenterStageLobbyViewController(CenterStageLobbyViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6972 };
 
   /// @brief Field _beatmapSelectionView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapSelectionView> ____beatmapSelectionView;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/LocalizationImporter.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\LocalizationImporter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,14 +29,14 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizationImporter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ImportFromFiles, addr 0x3319320, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ImportFromFiles, addr 0x331d0e0, size 0x24c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>*
   ImportFromFiles(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* inputFiles);
 
-  /// @brief Method ImportTextFile, addr 0x331956c, size 0x650, virtual false, abstract: false, final false
+  /// @brief Method ImportTextFile, addr 0x331d32c, size 0x650, virtual false, abstract: false, final false
   static inline void ImportTextFile(::StringW text, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* result);
 
-  /// @brief Method IsLineBreak, addr 0x3319bbc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsLineBreak, addr 0x331d97c, size 0x60, virtual false, abstract: false, final false
   static inline bool IsLineBreak(::StringW currentString);
 
 protected:
@@ -54,7 +54,7 @@ public:
   LocalizationImporter(LocalizationImporter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

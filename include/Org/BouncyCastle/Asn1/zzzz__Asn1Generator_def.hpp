@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Generator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1Generator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__out(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x367d894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3681654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method get_Out, addr 0x367d89c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Out, addr 0x368165c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_Out();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/ReferenceConverter.hpp"
+// IWYU pragma private; include "System\ComponentModel\ReferenceConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x63bff00, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x63c797c, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* item1, ::System::Object* item2);
 
   static inline ::System::ComponentModel::ReferenceConverter_ReferenceComparer* New_ctor(::System::ComponentModel::ReferenceConverter* converter);
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__converter(::System::ComponentModel::ReferenceConverter* value);
 
-  /// @brief Method .ctor, addr 0x63bfe78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c78f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ReferenceConverter* converter);
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -86,7 +86,7 @@ public:
   ReferenceConverter_ReferenceComparer(ReferenceConverter_ReferenceComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11290 };
 
   /// @brief Field _converter, offset: 0x10, size: 0x8, def value: None
   ::System::ComponentModel::ReferenceConverter* ____converter;
@@ -114,26 +114,26 @@ public:
   /// @brief Field s_none, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_none, put = setStaticF_s_none)) ::StringW s_none;
 
-  /// @brief Method CanConvertFrom, addr 0x63beee0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x63c695c, size 0x84, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x63bef64, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x63c69e0, size 0x340, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x63bf2a4, size 0x414, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x63c6d20, size 0x414, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetStandardValues, addr 0x63bf6b8, size 0x7c0, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x63c7134, size 0x7c0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x63bfe80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x63c78fc, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x63bfe88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x63c7904, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method IsValueAllowed, addr 0x63bfe90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsValueAllowed, addr 0x63c790c, size 0x8, virtual true, abstract: false, final false
   inline bool IsValueAllowed(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
   static inline ::System::ComponentModel::ReferenceConverter* New_ctor(::System::Type* type);
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x63beed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c6954, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   static inline ::StringW getStaticF_s_none();
@@ -166,7 +166,7 @@ public:
   ReferenceConverter(ReferenceConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11291 };
 
   /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____type;

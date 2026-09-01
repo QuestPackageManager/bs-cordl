@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SimpleTemporalFiltering.hpp"
+// IWYU pragma private; include "GlobalNamespace\SimpleTemporalFiltering.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +41,10 @@ public:
   __declspec(property(get = __cordl_internal_get__temporalFilteringTextures, put = __cordl_internal_set__temporalFilteringTextures)) ::ArrayW<::UnityW<::UnityEngine::RenderTexture>>
       _temporalFilteringTextures;
 
-  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x5f47708, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x5f4f07c, size 0x298, virtual false, abstract: false, final false
   inline void CreateRenderTexturesIfNeeded(int32_t width, int32_t height);
 
-  /// @brief Method FilterTexture, addr 0x5f47594, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method FilterTexture, addr 0x5f4ef08, size 0x174, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> FilterTexture(::UnityEngine::RenderTexture* src);
 
   static inline ::GlobalNamespace::SimpleTemporalFiltering* New_ctor();
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__temporalFilteringTextures(::ArrayW<::UnityW<::UnityEngine::RenderTexture>> value);
 
-  /// @brief Method .ctor, addr 0x5f474d8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4ee4c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   SimpleTemporalFiltering(SimpleTemporalFiltering const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20695 };
 
   /// @brief Field _temporalFilteringTextures, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::RenderTexture>> ____temporalFilteringTextures;

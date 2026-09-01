@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/MonoChunkParser.hpp"
+// IWYU pragma private; include "System\Net\MonoChunkParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__MonoChunkParser_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkParser_Chunk::*)(::ArrayW<uint8_t>)>(&::System::Net::MonoChunkParser_Chunk::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63329f8;
+  constexpr static std::size_t addrs = 0x633a474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::MonoChunkParser_Chunk::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::MonoChunkParser_Chunk::Read)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6331ec0;
+  constexpr static std::size_t addrs = 0x633993c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkParser::*)(::System::Net::WebHeaderCollection*)>(&::System::Net::MonoChunkParser::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6331b24;
+  constexpr static std::size_t addrs = 0x63395a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::MonoChunkParser::Read)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6331bcc;
+  constexpr static std::size_t addrs = 0x6339648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::MonoChunkParser::ReadFromChunks)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x6331bd0;
+  constexpr static std::size_t addrs = 0x633964c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::MonoChunkParser::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6331f20;
+  constexpr static std::size_t addrs = 0x633999c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t>, ::by_ref<int32_t>, int32_t)>(&::System::Net::MonoChunkParser::InternalWrite)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6331f40;
+  constexpr static std::size_t addrs = 0x63399bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::MonoChunkParser::*)()>(&::System::Net::MonoChunkParser::get_WantMore)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x63328c4;
+  constexpr static std::size_t addrs = 0x633a340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::MonoChunkParser*>(), { "get_WantMore", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::MonoChunkParser::*)()>(&::System::Net::MonoChunkParser::get_DataAvailable)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x63328e8;
+  constexpr static std::size_t addrs = 0x633a364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::MonoChunkParser*>(), { "get_DataAvailable", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::MonoChunkParser::*)()>(&::System::Net::MonoChunkParser::get_ChunkLeft)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63329ec;
+  constexpr static std::size_t addrs = 0x633a468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::MonoChunkParser*>(), { "get_ChunkLeft", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::MonoChunkParser_State (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t>, ::by_ref<int32_t>, int32_t)>(
     &::System::Net::MonoChunkParser::ReadBody)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6332388;
+  constexpr static std::size_t addrs = 0x6339e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::MonoChunkParser_State (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t>, ::by_ref<int32_t>, int32_t)>(
     &::System::Net::MonoChunkParser::GetChunkSize)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x6332080;
+  constexpr static std::size_t addrs = 0x6339afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Net::MonoChunkParser::RemoveChunkExtension)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6332a50;
+  constexpr static std::size_t addrs = 0x633a4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::MonoChunkParser_State (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t>, ::by_ref<int32_t>, int32_t)>(
     &::System::Net::MonoChunkParser::ReadCRLF)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x63324b8;
+  constexpr static std::size_t addrs = 0x6339f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::MonoChunkParser_State (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t>, ::by_ref<int32_t>, int32_t)>(
     &::System::Net::MonoChunkParser::ReadTrailer)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x63325cc;
+  constexpr static std::size_t addrs = 0x633a048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Net::MonoChunkParser::ThrowProtocolViolation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6332a00;
+  constexpr static std::size_t addrs = 0x633a47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

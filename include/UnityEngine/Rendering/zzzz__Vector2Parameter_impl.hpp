@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Vector2Parameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Vector2Parameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__Vector2Parameter_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Vector2Parameter::*)(::UnityEngine::Vector2, bool)>(&::UnityEngine::Rendering::Vector2Parameter::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x67c598c;
+  constexpr static std::size_t addrs = 0x67cd408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Vector2Parameter::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t)>(
     &::UnityEngine::Rendering::Vector2Parameter::Interp)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67c59fc;
+  constexpr static std::size_t addrs = 0x67cd478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

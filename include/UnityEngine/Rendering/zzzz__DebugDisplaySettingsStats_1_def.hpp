@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DebugDisplaySettingsStats_1.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DebugDisplaySettingsStats_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +82,7 @@ public:
   DebugDisplaySettingsStats_1_StatsPanel(DebugDisplaySettingsStats_1_StatsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11953 };
 
   /// @brief Field m_Data, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplaySettingsStats_1<TProfileId>* ___m_Data;
@@ -157,7 +157,7 @@ public:
   DebugDisplaySettingsStats_1(DebugDisplaySettingsStats_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11954 };
 
   /// @brief Field <debugDisplayStats>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplayStats_1<TProfileId>* ____debugDisplayStats_k__BackingField;

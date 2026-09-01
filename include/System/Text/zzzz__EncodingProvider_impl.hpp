@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/EncodingProvider.hpp"
+// IWYU pragma private; include "System\Text\EncodingProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__EncodingProvider_def.hpp"
 #include "System/Text/zzzz__DecoderFallback_def.hpp"
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::System::Text::EncodingProvider::*)(int32_t, ::System::Text::EncoderFallback*, ::System::Text::DecoderFallback*)>(
     &::System::Text::EncodingProvider::GetEncoding)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5ad2538;
+  constexpr static std::size_t addrs = 0x5ad69f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)(int32_t)>(&::System::Text::EncodingProvider::GetEncodingFromProvider)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5ad2640;
+  constexpr static std::size_t addrs = 0x5ad6afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)(::StringW)>(&::System::Text::EncodingProvider::GetEncodingFromProvider)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5ad271c;
+  constexpr static std::size_t addrs = 0x5ad6bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)(int32_t, ::System::Text::EncoderFallback*, ::System::Text::DecoderFallback*)>(
     &::System::Text::EncodingProvider::GetEncodingFromProvider)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5ad27f8;
+  constexpr static std::size_t addrs = 0x5ad6cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

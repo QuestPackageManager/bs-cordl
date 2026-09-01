@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/WorldSpaceDataStore.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\WorldSpaceDataStore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__WorldSpaceDataStore_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::WorldSpaceData)>(
     &::UnityEngine::UIElements::WorldSpaceDataStore::SetWorldSpaceData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6cc9c20;
+  constexpr static std::size_t addrs = 0x6cd17a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::WorldSpaceData (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::WorldSpaceDataStore::GetWorldSpaceData)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6cc9ce8;
+  constexpr static std::size_t addrs = 0x6cd186c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceDataStore*>(),

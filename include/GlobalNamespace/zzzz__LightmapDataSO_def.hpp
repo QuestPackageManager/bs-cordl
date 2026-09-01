@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightmapDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightmapDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__lightmap2(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x58e1054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightmap1, addr 0x58e1034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmap1, addr 0x58e4648, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_lightmap1();
 
-  /// @brief Method get_lightmap2, addr 0x58e1044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmap2, addr 0x58e4658, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_lightmap2();
 
-  /// @brief Method set_lightmap1, addr 0x58e103c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmap1, addr 0x58e4650, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmap1(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_lightmap2, addr 0x58e104c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmap2, addr 0x58e4660, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmap2(::UnityEngine::Texture2D* value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   LightmapDataSO(LightmapDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6537 };
 
   /// @brief Field _lightmap1, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____lightmap1;

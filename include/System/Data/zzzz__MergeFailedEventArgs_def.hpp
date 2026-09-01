@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/MergeFailedEventArgs.hpp"
+// IWYU pragma private; include "System\Data\MergeFailedEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set__Table_k__BackingField(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x60405b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x604802c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW conflict);
 
-  /// @brief Method get_Conflict, addr 0x6040618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Conflict, addr 0x6048094, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Conflict();
 
 protected:
@@ -66,7 +66,7 @@ public:
   MergeFailedEventArgs(MergeFailedEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13833 };
 
   /// @brief Field <Table>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataTable* ____Table_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/MonoEventInfo.hpp"
+// IWYU pragma private; include "System\Reflection\MonoEventInfo.hpp"
 #include "System/Reflection/zzzz__EventAttributes_impl.hpp"
 #include "System/Reflection/zzzz__MethodInfo_impl.hpp"
 #include "System/Reflection/zzzz__MonoEventInfo_def.hpp"

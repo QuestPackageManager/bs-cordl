@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FinishTutorialAchievementHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace\FinishTutorialAchievementHandler.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FinishTutorialAchievementHandler_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::Start)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x36f7100;
+  constexpr static std::size_t addrs = 0x36fb350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FinishTutorialAchievementHandler*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x36f7198;
+  constexpr static std::size_t addrs = 0x36fb3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FinishTutorialAchievementHandler*>(), { "OnDestroy", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::HandleTutorialFinished)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x36f7224;
+  constexpr static std::size_t addrs = 0x36fb474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36f7428;
+  constexpr static std::size_t addrs = 0x36fb678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FinishTutorialAchievementHandler*>(), { ".ctor", {}, {} })));

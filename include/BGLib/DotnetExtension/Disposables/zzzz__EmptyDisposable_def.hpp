@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/Disposables/EmptyDisposable.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\Disposables\EmptyDisposable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +28,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x330ce48, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3310c44, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::BGLib::DotnetExtension::Disposables::EmptyDisposable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x330ce44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3310c40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::DotnetExtension::Disposables::EmptyDisposable* getStaticF_disposable();
@@ -58,7 +58,7 @@ public:
   EmptyDisposable(EmptyDisposable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20516 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

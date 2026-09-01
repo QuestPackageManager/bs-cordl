@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SongTimeToShaderWriter.hpp"
+// IWYU pragma private; include "GlobalNamespace\SongTimeToShaderWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::SongTimeToShaderWriter* New_ctor();
 
-  /// @brief Method Update, addr 0x5903088, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5906688, size 0x244, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method .ctor, addr 0x59032cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59068cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__songTimePropertyId();
@@ -62,7 +62,7 @@ public:
   SongTimeToShaderWriter(SongTimeToShaderWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6677 };
 
   /// @brief Field _audioTimeSource, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;

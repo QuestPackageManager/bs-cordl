@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TubeLightIntensityAsset.hpp"
+// IWYU pragma private; include "GlobalNamespace\TubeLightIntensityAsset.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeLightIntensityAsset_def.hpp"
 #include "GlobalNamespace/zzzz__TubeLightIntensityBehaviour_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::TubeLightIntensityAsset::*)()>(
     &::GlobalNamespace::TubeLightIntensityAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x590795c;
+  constexpr static std::size_t addrs = 0x590af48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeLightIntensityAsset*>(), { "get_clipCaps", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::GlobalNamespace::TubeLightIntensityAsset::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::GlobalNamespace::TubeLightIntensityAsset::CreatePlayable)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5907964;
+  constexpr static std::size_t addrs = 0x590af50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeLightIntensityAsset::*)()>(&::GlobalNamespace::TubeLightIntensityAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5907a18;
+  constexpr static std::size_t addrs = 0x590b004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeLightIntensityAsset*>(), { ".ctor", {}, {} })));

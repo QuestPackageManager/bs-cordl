@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightmappingGameplayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightmappingGameplayManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::LightmappingGameplayManager* New_ctor();
 
-  /// @brief Method Start, addr 0x59a1708, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59a9648, size 0x178, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  /// @brief Method .ctor, addr 0x59a1880, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a97c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   LightmappingGameplayManager(LightmappingGameplayManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5997 };
 
   /// @brief Field _beatmapCallbacksController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FileUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace\FileUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPlatformPersistentDataPath, addr 0x3312128, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPersistentDataPath, addr 0x3315f24, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPersistentDataPath(bool local);
 
 protected:
@@ -38,7 +38,7 @@ public:
   FileUtility(FileUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23271 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

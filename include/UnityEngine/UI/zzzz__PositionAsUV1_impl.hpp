@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UI/PositionAsUV1.hpp"
+// IWYU pragma private; include "UnityEngine\UI\PositionAsUV1.hpp"
 #include "UnityEngine/UI/zzzz__BaseMeshEffect_impl.hpp"
 #include "UnityEngine/UI/zzzz__PositionAsUV1_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::PositionAsUV1::*)()>(&::UnityEngine::UI::PositionAsUV1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e0c300;
+  constexpr static std::size_t addrs = 0x6e13e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::PositionAsUV1*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::PositionAsUV1::*)(::UnityEngine::UI::VertexHelper*)>(&::UnityEngine::UI::PositionAsUV1::ModifyMesh)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6e0c304;
+  constexpr static std::size_t addrs = 0x6e13e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

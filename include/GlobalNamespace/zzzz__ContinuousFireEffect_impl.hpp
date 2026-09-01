@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ContinuousFireEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\ContinuousFireEffect.hpp"
 #include "GlobalNamespace/zzzz__FireEffect_impl.hpp"
 #include "GlobalNamespace/zzzz__ContinuousFireEffect_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::Start)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58bf714;
+  constexpr static std::size_t addrs = 0x58bf0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bf7e4;
+  constexpr static std::size_t addrs = 0x58bf184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ContinuousFireEffect*>(), { "Update", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
     &::GlobalNamespace::ContinuousFireEffect::HandleColorChangeBeatmapEvent)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x58bf9c0;
+  constexpr static std::size_t addrs = 0x58bf360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::SetInitialValues)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x58bf73c;
+  constexpr static std::size_t addrs = 0x58bf0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ContinuousFireEffect*>(), { "SetInitialValues", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)(float_t, float_t)>(&::GlobalNamespace::ContinuousFireEffect::StartEffect)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x58bfb34;
+  constexpr static std::size_t addrs = 0x58bf4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::EndEffect)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58bfb10;
+  constexpr static std::size_t addrs = 0x58bf4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ContinuousFireEffect*>(), { "EndEffect", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::UpdateEffect)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x58bf7e8;
+  constexpr static std::size_t addrs = 0x58bf188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ContinuousFireEffect*>(), { "UpdateEffect", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)(float_t, float_t)>(&::GlobalNamespace::ContinuousFireEffect::UpdateRenderers)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x58bfc14;
+  constexpr static std::size_t addrs = 0x58bf5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,8 +110,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x58bfdfc;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x58bf79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ContinuousFireEffect*>(), { ".ctor", {}, {} })));

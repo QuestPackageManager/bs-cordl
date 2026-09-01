@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicCollection.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,10 +60,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapCharacteristicCollection___c* New_ctor();
 
-  /// @brief Method <.ctor>b__3_0, addr 0x370b0f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3_0, addr 0x370f514, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristic __ctor_b__3_0(::GlobalNamespace::BeatmapCharacteristicSO* c);
 
-  /// @brief Method .ctor, addr 0x370b0f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x370f510, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicCollection___c* getStaticF___9();
@@ -89,7 +89,7 @@ public:
   BeatmapCharacteristicCollection___c(BeatmapCharacteristicCollection___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14876 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -121,10 +121,10 @@ public:
       get = __cordl_internal_get_disabledBeatmapCharacteristics,
       put = __cordl_internal_set_disabledBeatmapCharacteristics)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>* disabledBeatmapCharacteristics;
 
-  /// @brief Method GetBeatmapCharacteristicBySerializedName, addr 0x370aeb0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapCharacteristicBySerializedName, addr 0x370f2d0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GetBeatmapCharacteristicBySerializedName(::StringW serializedName);
 
-  /// @brief Method GetBeatmapCharacteristicIcon, addr 0x370af30, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapCharacteristicIcon, addr 0x370f350, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> GetBeatmapCharacteristicIcon(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicCollection* New_ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection,
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set_disabledBeatmapCharacteristics(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
-  /// @brief Method .ctor, addr 0x370a650, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x370ea70, size 0x64c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection, ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings);
 
 protected:
@@ -166,7 +166,7 @@ public:
   BeatmapCharacteristicCollection(BeatmapCharacteristicCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14877 };
 
   /// @brief Field _beatmapCharacteristicsBySerializedName, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* ____beatmapCharacteristicsBySerializedName;

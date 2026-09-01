@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnterTextViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnterTextViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__EnterTextViewController_def.hpp"
 #include "GlobalNamespace/zzzz__VRTextEntryController_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*)>(
     &::GlobalNamespace::EnterTextViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a10f54;
+  constexpr static std::size_t addrs = 0x5a19060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*)>(
     &::GlobalNamespace::EnterTextViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a11014;
+  constexpr static std::size_t addrs = 0x5a19120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)(::StringW)>(&::GlobalNamespace::EnterTextViewController::Init)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a110d4;
+  constexpr static std::size_t addrs = 0x5a191e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)(bool, bool, bool)>(&::GlobalNamespace::EnterTextViewController::DidActivate)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5a110f4;
+  constexpr static std::size_t addrs = 0x5a19200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)()>(&::GlobalNamespace::EnterTextViewController::OkButtonPressed)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a111e0;
+  constexpr static std::size_t addrs = 0x5a192ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnterTextViewController*>(), { "OkButtonPressed", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnterTextViewController::*)()>(&::GlobalNamespace::EnterTextViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1128c;
+  constexpr static std::size_t addrs = 0x5a19398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnterTextViewController*>(), { ".ctor", {}, {} })));

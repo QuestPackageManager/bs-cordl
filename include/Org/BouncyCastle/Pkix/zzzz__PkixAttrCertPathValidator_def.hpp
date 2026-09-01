@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixAttrCertPathValidator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixAttrCertPathValidator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator* New_ctor();
 
-  /// @brief Method Validate, addr 0x35bbcc4, size 0x3d8, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x35bfa84, size 0x3d8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* Validate(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
-  /// @brief Method .ctor, addr 0x35bb370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bf130, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/Leaderboards/UpsertUserMutation.hpp"
+// IWYU pragma private; include "BeatSaber\Main\Leaderboards\UpsertUserMutation.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__MutationRequest_1_impl.hpp"
 #include "BeatSaber/Main/Leaderboards/zzzz__UpsertUserMutation_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguage_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::UpsertUserMutation::*)(::BGLib::Polyglot::LocalizationLanguage)>(
     &::BeatSaber::Main::Leaderboards::UpsertUserMutation::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x32a11c4;
+  constexpr static std::size_t addrs = 0x32a4fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionDataExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionDataExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MissionDataExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Name, addr 0x3750940, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x3756564, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::MissionObjective_ReferenceValueComparisonType comparisonType);
 
 protected:
@@ -41,7 +41,7 @@ public:
   MissionDataExtensions(MissionDataExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15264 };
 
   /// @brief Field kMaxMissionObjectiveTypeLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kMaxMissionObjectiveTypeLocalizationKey{ u"MAX_MISSION_OBJECTIVE_TYPE" };

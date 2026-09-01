@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ImageViewBase.hpp"
+// IWYU pragma private; include "HMUI\ImageViewBase.hpp"
 #include "UnityEngine/UI/zzzz__Image_impl.hpp"
 #include "HMUI/zzzz__ImageViewBase_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ImageViewBase::*)()>(&::HMUI::ImageViewBase::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5886744;
+  constexpr static std::size_t addrs = 0x588608c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ImageViewBase*>(), { ".ctor", {}, {} })));

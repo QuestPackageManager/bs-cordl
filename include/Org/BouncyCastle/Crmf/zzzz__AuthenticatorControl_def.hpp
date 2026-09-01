@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crmf/AuthenticatorControl.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crmf\AuthenticatorControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,18 +55,18 @@ public:
 
   constexpr void __cordl_internal_set_token(::Org::BouncyCastle::Asn1::DerUtf8String* value);
 
-  /// @brief Method .ctor, addr 0x36d3e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d7bd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
 
-  /// @brief Method .ctor, addr 0x36d3e20, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d7be0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_type();
 
-  /// @brief Method get_Type, addr 0x36d3e8c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x36d7c4c, size 0x5c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value, addr 0x36d3ee8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x36d7ca8, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"

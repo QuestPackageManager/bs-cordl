@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/MouseBinder.hpp"
+// IWYU pragma private; include "HMUI\MouseBinder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__MouseBinder_def.hpp"
 #include "HMUI/zzzz__MouseBinder_def.hpp"
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::MouseBinder::*)()>(&::HMUI::MouseBinder::get_enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5877c38;
+  constexpr static std::size_t addrs = 0x5877578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::MouseBinder*>(), { "get_enabled", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder::*)(bool)>(&::HMUI::MouseBinder::set_enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5877c40;
+  constexpr static std::size_t addrs = 0x5877580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::MouseBinder*>(), { "set_enabled", {}, { ::i2c::type_of<bool>() } })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder::*)()>(&::HMUI::MouseBinder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5877c48;
+  constexpr static std::size_t addrs = 0x5877588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::MouseBinder*>(), { ".ctor", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder::*)()>(&::HMUI::MouseBinder::Init)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5877c4c;
+  constexpr static std::size_t addrs = 0x587758c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::MouseBinder*>(), { "Init", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder::*)(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>*)>(
     &::HMUI::MouseBinder::AddScrollBindings)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5877d10;
+  constexpr static std::size_t addrs = 0x5877650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder::*)(::UnityEngine::Events::UnityAction_1<float_t>*)>(&::HMUI::MouseBinder::AddScrollBinding)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5877e14;
+  constexpr static std::size_t addrs = 0x5877754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder::*)(::UnityEngine::Events::UnityAction_1<float_t>*)>(&::HMUI::MouseBinder::RemoveScrollBinding)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5877ec8;
+  constexpr static std::size_t addrs = 0x5877808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder
     ::System::Collections::Generic::List_1<::System::Tuple_3<::HMUI::MouseBinder_ButtonType, ::HMUI::MouseBinder_MouseEventType, ::UnityEngine::Events::UnityAction*>*>*)>(
     &::HMUI::MouseBinder::AddButtonBindings)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5877f2c;
+  constexpr static std::size_t addrs = 0x587786c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder::*)(::HMUI::MouseBinder_ButtonType, ::HMUI::MouseBinder_MouseEventType, ::UnityEngine::Events::UnityAction*)>(
     &::HMUI::MouseBinder::AddButtonBinding)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5878080;
+  constexpr static std::size_t addrs = 0x58779c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder::*)(::HMUI::MouseBinder_ButtonType, ::HMUI::MouseBinder_MouseEventType, ::UnityEngine::Events::UnityAction*)>(
     &::HMUI::MouseBinder::RemoveButtonBinding)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5878164;
+  constexpr static std::size_t addrs = 0x5877aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder::*)()>(&::HMUI::MouseBinder::ClearBindings)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x58781f4;
+  constexpr static std::size_t addrs = 0x5877b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::MouseBinder*>(), { "ClearBindings", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::MouseBinder::*)()>(&::HMUI::MouseBinder::ManualUpdate)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x58782a8;
+  constexpr static std::size_t addrs = 0x5877be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::MouseBinder*>(), { "ManualUpdate", {}, {} })));

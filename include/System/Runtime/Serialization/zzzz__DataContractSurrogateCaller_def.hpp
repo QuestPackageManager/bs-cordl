@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/DataContractSurrogateCaller.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\DataContractSurrogateCaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,14 +28,14 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE DataContractSurrogateCaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDataContractType, addr 0x614ffcc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetDataContractType, addr 0x6157a48, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Type* GetDataContractType(::System::Runtime::Serialization::IDataContractSurrogate* surrogate, ::System::Type* type);
 
-  /// @brief Method GetDeserializedObject, addr 0x61501ac, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetDeserializedObject, addr 0x6157c28, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* GetDeserializedObject(::System::Runtime::Serialization::IDataContractSurrogate* surrogate, ::System::Object* obj, ::System::Type* objType,
                                                         ::System::Type* memberType);
 
-  /// @brief Method GetObjectToSerialize, addr 0x61500b8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetObjectToSerialize, addr 0x6157b34, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* GetObjectToSerialize(::System::Runtime::Serialization::IDataContractSurrogate* surrogate, ::System::Object* obj, ::System::Type* objType, ::System::Type* membertype);
 
 protected:
@@ -53,7 +53,7 @@ public:
   DataContractSurrogateCaller(DataContractSurrogateCaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/AssetBundleExtensions.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\AssetBundleExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
 
   static inline ::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <GetAwaiter>b__0, addr 0x3324598, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetAwaiter>b__0, addr 0x3328358, size 0x6c, virtual false, abstract: false, final false
   inline void _GetAwaiter_b__0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::UnityEngine::AssetBundleCreateRequest* const& __cordl_internal_get_assetBundleCreateRequest() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_loadAssetBundleTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>* value);
 
-  /// @brief Method .ctor, addr 0x3324450, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3328210, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,7 +98,7 @@ public:
   AssetBundleExtensions___c__DisplayClass0_0(AssetBundleExtensions___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20788 };
 
   /// @brief Field loadAssetBundleTaskSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>* ___loadAssetBundleTaskSource;
@@ -132,7 +132,7 @@ public:
 
   static inline ::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <GetAwaiter>b__0, addr 0x3324604, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <GetAwaiter>b__0, addr 0x33283c4, size 0x70, virtual false, abstract: false, final false
   inline void _GetAwaiter_b__0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::Object>>* const& __cordl_internal_get_loadResourceTaskSource() const;
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_resourceRequest(::UnityEngine::ResourceRequest* value);
 
-  /// @brief Method .ctor, addr 0x3324594, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3328354, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,7 +165,7 @@ public:
   AssetBundleExtensions___c__DisplayClass1_0(AssetBundleExtensions___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20789 };
 
   /// @brief Field loadResourceTaskSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::Object>>* ___loadResourceTaskSource;
@@ -194,10 +194,10 @@ public:
 
   using __c__DisplayClass1_0 = ::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0;
 
-  /// @brief Method GetAwaiter, addr 0x3324310, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x33280d0, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>> GetAwaiter(::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest);
 
-  /// @brief Method GetAwaiter, addr 0x3324454, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x3328214, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> GetAwaiter(::UnityEngine::ResourceRequest* resourceRequest);
 
 protected:
@@ -215,7 +215,7 @@ public:
   AssetBundleExtensions(AssetBundleExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20790 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

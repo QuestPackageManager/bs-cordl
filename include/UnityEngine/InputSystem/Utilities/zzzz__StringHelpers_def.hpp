@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/StringHelpers.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\StringHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,27 +115,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6502674, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x650a0f0, size 0x140, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x65027fc, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x650a278, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x65027b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x650a230, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x650289c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x650a318, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x65027bc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x650a238, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x65027f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x650a270, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6502670, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x650a0ec, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -192,7 +192,7 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6501d30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65097ac, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
@@ -225,7 +225,7 @@ public:
   StringHelpers__Split_d__9(StringHelpers__Split_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9201 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -326,28 +326,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x65028a4, size 0x1fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x650a320, size 0x1fc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.Utilities.Substring>.GetEnumerator, addr 0x6502b50, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.Utilities.Substring>.GetEnumerator, addr 0x650a5cc, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::Substring>*
   System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_Utilities_Substring__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.Utilities.Substring>.get_Current, addr 0x6502aac, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.Utilities.Substring>.get_Current, addr 0x650a528, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::Substring System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_Utilities_Substring__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6502be8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x650a664, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6502ab8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x650a534, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6502af0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x650a56c, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x65028a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x650a31c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -392,7 +392,7 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6501c94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6509710, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::Substring>"
@@ -427,7 +427,7 @@ public:
   StringHelpers__Tokenize_d__8(StringHelpers__Tokenize_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9202 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -481,34 +481,34 @@ public:
 
   using _Tokenize_d__8 = ::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8;
 
-  /// @brief Method CharacterSeparatedListsHaveAtLeastOneCommonElement, addr 0x6501d50, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method CharacterSeparatedListsHaveAtLeastOneCommonElement, addr 0x65097cc, size 0x294, virtual false, abstract: false, final false
   static inline bool CharacterSeparatedListsHaveAtLeastOneCommonElement(::StringW firstList, ::StringW secondList, char16_t separator);
 
-  /// @brief Method Contains, addr 0x6501660, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x65090dc, size 0x28, virtual false, abstract: false, final false
   static inline bool Contains(::StringW str, char16_t ch);
 
-  /// @brief Method Contains, addr 0x6501688, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6509104, size 0x28, virtual false, abstract: false, final false
   static inline bool Contains(::StringW str, ::StringW text, ::System::StringComparison comparison);
 
-  /// @brief Method CountOccurrences, addr 0x6501bb0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CountOccurrences, addr 0x650962c, size 0x74, virtual false, abstract: false, final false
   static inline int32_t CountOccurrences(::StringW str, char16_t ch);
 
-  /// @brief Method Escape, addr 0x6501334, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Escape, addr 0x6508db0, size 0x1a0, virtual false, abstract: false, final false
   static inline ::StringW Escape(::StringW str, ::StringW chars, ::StringW replacements);
 
-  /// @brief Method ExpandTemplateString, addr 0x6502484, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ExpandTemplateString, addr 0x6509f00, size 0x1ec, virtual false, abstract: false, final false
   static inline ::StringW ExpandTemplateString(::StringW _cordl_template, ::System::Func_2<::StringW, ::StringW>* mapFunc);
 
-  /// @brief Method FromNicifiedMemorySize, addr 0x6501a18, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method FromNicifiedMemorySize, addr 0x6509494, size 0x198, virtual false, abstract: false, final false
   static inline bool FromNicifiedMemorySize(::StringW text, ::by_ref<int64_t> result, int64_t defaultMultiplier);
 
-  /// @brief Method GetPlural, addr 0x65016b0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetPlural, addr 0x650912c, size 0x1c4, virtual false, abstract: false, final false
   static inline ::StringW GetPlural(::StringW str);
 
-  /// @brief Method InvariantEqualsIgnoreCase, addr 0x6502450, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InvariantEqualsIgnoreCase, addr 0x6509ecc, size 0x34, virtual false, abstract: false, final false
   static inline bool InvariantEqualsIgnoreCase(::StringW left, ::StringW right);
 
-  /// @brief Method IsPrintable, addr 0x6502304, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsPrintable, addr 0x6509d80, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsPrintable(char16_t ch);
 
   /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -521,34 +521,34 @@ public:
   template <typename TExisting>
   static inline ::StringW MakeUniqueName(::StringW baseName, ::System::Collections::Generic::IEnumerable_1<TExisting>* existingSet, ::System::Func_2<TExisting, ::StringW>* getNameFunc);
 
-  /// @brief Method NicifyMemorySize, addr 0x6501874, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method NicifyMemorySize, addr 0x65092f0, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW NicifyMemorySize(int64_t numBytes);
 
-  /// @brief Method ParseInt, addr 0x6501fe4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ParseInt, addr 0x6509a60, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t ParseInt(::StringW str, int32_t pos);
 
-  /// @brief Method ReadStringFromBuffer, addr 0x65021f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReadStringFromBuffer, addr 0x6509c6c, size 0x18, virtual false, abstract: false, final false
   static inline ::StringW ReadStringFromBuffer(::System::IntPtr buffer, int32_t bufferSize);
 
-  /// @brief Method ReadStringFromBuffer, addr 0x6502208, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadStringFromBuffer, addr 0x6509c84, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW ReadStringFromBuffer(::System::IntPtr buffer, int32_t bufferSize, ::by_ref<uint32_t> offset);
 
-  /// @brief Method Split, addr 0x6501cb4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x6509730, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* Split(::StringW str, ::System::Func_2<char16_t, bool>* predicate);
 
-  /// @brief Method Tokenize, addr 0x6501c24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Tokenize, addr 0x65096a0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::Substring>* Tokenize(::StringW str);
 
-  /// @brief Method Unescape, addr 0x65014d4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Unescape, addr 0x6508f50, size 0x18c, virtual false, abstract: false, final false
   static inline ::StringW Unescape(::StringW str, ::StringW chars, ::StringW replacements);
 
-  /// @brief Method WithAllWhitespaceStripped, addr 0x6502370, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WithAllWhitespaceStripped, addr 0x6509dec, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW WithAllWhitespaceStripped(::StringW str);
 
-  /// @brief Method WriteStringToBuffer, addr 0x6502060, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToBuffer, addr 0x6509adc, size 0x1c, virtual false, abstract: false, final false
   static inline bool WriteStringToBuffer(::StringW text, ::System::IntPtr buffer, int32_t bufferSizeInCharacters);
 
-  /// @brief Method WriteStringToBuffer, addr 0x650207c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToBuffer, addr 0x6509af8, size 0x174, virtual false, abstract: false, final false
   static inline bool WriteStringToBuffer(::StringW text, ::System::IntPtr buffer, int32_t bufferSizeInCharacters, ::by_ref<uint32_t> offset);
 
 protected:
@@ -566,7 +566,7 @@ public:
   StringHelpers(StringHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9203 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

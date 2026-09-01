@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionStageLockView.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionStageLockView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ public:
 
   static inline ::GlobalNamespace::MissionStageLockView* New_ctor();
 
-  /// @brief Method Update, addr 0x593a024, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x593daa8, size 0xf8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLocalPositionY, addr 0x5939f9c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalPositionY, addr 0x593da20, size 0x88, virtual false, abstract: false, final false
   inline void UpdateLocalPositionY(float_t dstPosY, bool animated, float_t animationDuration);
 
-  /// @brief Method UpdateStageLockText, addr 0x593a11c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockText, addr 0x593dba0, size 0x20, virtual false, abstract: false, final false
   inline void UpdateStageLockText(::StringW text);
 
   constexpr float_t const& __cordl_internal_get__animationDuration() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x593a13c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593dbc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   MissionStageLockView(MissionStageLockView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6880 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ____text;

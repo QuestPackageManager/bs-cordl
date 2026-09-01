@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BottleneckHistory.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BottleneckHistory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BottleneckHistogram_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BottleneckHistory_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BottleneckHistory::*)(int32_t)>(&::UnityEngine::Rendering::BottleneckHistory::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6759108;
+  constexpr static std::size_t addrs = 0x6760b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BottleneckHistory::*)(int32_t)>(&::UnityEngine::Rendering::BottleneckHistory::DiscardOldSamples)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6759788;
+  constexpr static std::size_t addrs = 0x6761204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BottleneckHistory::*)(::UnityEngine::Rendering::FrameTimeSample)>(
     &::UnityEngine::Rendering::BottleneckHistory::AddBottleneckFromAveragedSample)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6759838;
+  constexpr static std::size_t addrs = 0x67612b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BottleneckHistory::*)()>(&::UnityEngine::Rendering::BottleneckHistory::ComputeHistogram)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6759914;
+  constexpr static std::size_t addrs = 0x6761390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BottleneckHistory*>(), { "ComputeHistogram", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::PerformanceBottleneck (*)(::UnityEngine::Rendering::FrameTimeSample)>(
     &::UnityEngine::Rendering::BottleneckHistory::DetermineBottleneck)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6765908;
+  constexpr static std::size_t addrs = 0x676d384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BottleneckHistory*>(),
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BottleneckHistory::*)()>(&::UnityEngine::Rendering::BottleneckHistory::Clear)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x675b030;
+  constexpr static std::size_t addrs = 0x6762aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BottleneckHistory*>(), { "Clear", {}, {} })));

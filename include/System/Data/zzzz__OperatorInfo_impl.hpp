@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/OperatorInfo.hpp"
+// IWYU pragma private; include "System\Data\OperatorInfo.hpp"
 #include "System/Data/zzzz__Nodes_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__OperatorInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::OperatorInfo::*)(::System::Data::Nodes, int32_t, int32_t)>(&::System::Data::OperatorInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6039668;
+  constexpr static std::size_t addrs = 0x60410e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/OcspStatusRequest.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\OcspStatusRequest.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__OcspStatusRequest_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)(::System::Collections::IList*, ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3468270;
+  constexpr static std::size_t addrs = 0x346c030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::get_ResponderIDList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3468278;
+  constexpr static std::size_t addrs = 0x346c038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::get_RequestExtensions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3468280;
+  constexpr static std::size_t addrs = 0x346c040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::Encode)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x3468288;
+  constexpr static std::size_t addrs = 0x346c048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest*>(),
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* (*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::Parse)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x3468664;
+  constexpr static std::size_t addrs = 0x346c424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

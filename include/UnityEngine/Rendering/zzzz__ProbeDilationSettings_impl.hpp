@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeDilationSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeDilationSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeDilationSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeBakingProcessSettings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ProbeDilationSettings.SetDefaults
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeDilationSettings::*)()>(&::UnityEngine::Rendering::ProbeDilationSettings::SetDefaults)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x678a258;
+  constexpr static std::size_t addrs = 0x6791cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeDilationSettings>(), { "SetDefaults", {}, {} })));
@@ -21,7 +21,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                  ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion)>(
     &::UnityEngine::Rendering::ProbeDilationSettings::UpgradeFromTo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x678a278;
+  constexpr static std::size_t addrs = 0x6791cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeDilationSettings>(),

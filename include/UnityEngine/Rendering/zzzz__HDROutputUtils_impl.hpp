@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/HDROutputUtils.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\HDROutputUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderKeyword_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__HDROutputUtils_def.hpp"
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation::*)(int32_t, int32_t, int32_t, float_t)>(
     &::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x67be860;
+  constexpr static std::size_t addrs = 0x67c62dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ColorGamut, ::by_ref<int32_t>)>(&::UnityEngine::Rendering::HDROutputUtils::GetColorSpaceForGamut)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x67bdc14;
+  constexpr static std::size_t addrs = 0x67c5690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ColorGamut, ::by_ref<int32_t>)>(&::UnityEngine::Rendering::HDROutputUtils::GetColorEncodingForGamut)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x67bde68;
+  constexpr static std::size_t addrs = 0x67c58e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::ColorGamut, ::UnityEngine::Rendering::HDROutputUtils_Operation)>(
     &::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x67be014;
+  constexpr static std::size_t addrs = 0x67c5a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::ColorGamut)>(&::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x67be25c;
+  constexpr static std::size_t addrs = 0x67c5cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Rendering::HDROutputUtils_Operation)>(
     &::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x67be324;
+  constexpr static std::size_t addrs = 0x67c5da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ComputeShader*, ::UnityEngine::ColorGamut, ::UnityEngine::Rendering::HDROutputUtils_Operation)>(
     &::UnityEngine::Rendering::HDROutputUtils::ConfigureHDROutput)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x67be4a8;
+  constexpr static std::size_t addrs = 0x67c5f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::ShaderKeywordSet, bool)>(&::UnityEngine::Rendering::HDROutputUtils::IsShaderVariantValid)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x67be6f8;
+  constexpr static std::size_t addrs = 0x67c6174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

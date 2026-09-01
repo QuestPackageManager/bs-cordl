@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Services/TrackingServices.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Services\TrackingServices.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Services/zzzz__TrackingServices_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::Runtime::Remoting::ObjRef*)>(
     &::System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5b26c90;
+  constexpr static std::size_t addrs = 0x5b2b14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::Runtime::Remoting::ObjRef*)>(
     &::System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5b25ff4;
+  constexpr static std::size_t addrs = 0x5b2a4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Runtime::Remoting::Services::TrackingServices::NotifyDisconnectedObject)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x5b2a7a0;
+  constexpr static std::size_t addrs = 0x5b2ec5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BPMChangeBeatmapEventData.hpp"
+// IWYU pragma private; include "GlobalNamespace\BPMChangeBeatmapEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   __declspec(property(get = get_previousSameTypeEventData)) ::GlobalNamespace::BPMChangeBeatmapEventData* previousSameTypeEventData;
 
-  /// @brief Method GetCopy, addr 0x3256a98, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x3259d98, size 0x78, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x3256b10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x3259e10, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::BPMChangeBeatmapEventData* New_ctor(float_t time, float_t bpm);
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_bpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x3256a6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3259d6c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t bpm);
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x32569f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x3259cf0, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BPMChangeBeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x3256974, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x3259c74, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BPMChangeBeatmapEventData* get_previousSameTypeEventData();
 
 protected:
@@ -71,7 +71,7 @@ public:
   BPMChangeBeatmapEventData(BPMChangeBeatmapEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21242 };
 
   /// @brief Field bpm, offset: 0x38, size: 0x4, def value: None
   float_t ___bpm;

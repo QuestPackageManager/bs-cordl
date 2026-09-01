@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorSchemeView.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorSchemeView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeView_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                     ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(
     &::GlobalNamespace::ColorSchemeView::SetColors)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x591d038;
+  constexpr static std::size_t addrs = 0x592098c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeView::*)()>(&::GlobalNamespace::ColorSchemeView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x591d1f8;
+  constexpr static std::size_t addrs = 0x5920bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeView*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RendererList.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RendererList.hpp"
 #include "System/zzzz__UIntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RendererList_def.hpp"
 #include "System/zzzz__UIntPtr_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RendererList::*)()>(&::UnityEngine::Rendering::RendererList::get_isValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b1d120;
+  constexpr static std::size_t addrs = 0x6b24ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererList>(), { "get_isValid", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RendererList::*)(::System::UIntPtr, uint32_t)>(&::UnityEngine::Rendering::RendererList::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b1d15c;
+  constexpr static std::size_t addrs = 0x6b24ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

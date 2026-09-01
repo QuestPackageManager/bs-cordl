@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ReusableMultiColumnListViewItem.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ReusableMultiColumnListViewItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method Init, addr 0x6c4c10c, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6c53c90, size 0x3cc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* container, ::UnityEngine::UIElements::Columns* columns, bool usesAnimatedDrag);
 
-  /// @brief Method Init, addr 0x6c4e38c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6c55f10, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
   static inline ::UnityEngine::UIElements::ReusableMultiColumnListViewItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c4e390, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c55f14, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x6c4e384, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x6c55f08, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:

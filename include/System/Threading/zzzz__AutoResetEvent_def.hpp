@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/AutoResetEvent.hpp"
+// IWYU pragma private; include "System\Threading\AutoResetEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Threading::AutoResetEvent* New_ctor(bool initialState);
 
-  /// @brief Method .ctor, addr 0x5ca4724, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca8be0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool initialState);
 
 protected:

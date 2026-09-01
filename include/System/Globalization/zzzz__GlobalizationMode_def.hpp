@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/GlobalizationMode.hpp"
+// IWYU pragma private; include "System\Globalization\GlobalizationMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +22,12 @@ public:
   /// @brief Field <Invariant>k__BackingField, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__Invariant_k__BackingField, put = setStaticF__Invariant_k__BackingField)) bool _Invariant_k__BackingField;
 
-  /// @brief Method GetGlobalizationInvariantMode, addr 0x5bc0980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalizationInvariantMode, addr 0x5bc4e3c, size 0x8, virtual false, abstract: false, final false
   static inline bool GetGlobalizationInvariantMode();
 
   static inline bool getStaticF__Invariant_k__BackingField();
 
-  /// @brief Method get_Invariant, addr 0x5bc0924, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Invariant, addr 0x5bc4de0, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_Invariant();
 
   static inline void setStaticF__Invariant_k__BackingField(bool value);

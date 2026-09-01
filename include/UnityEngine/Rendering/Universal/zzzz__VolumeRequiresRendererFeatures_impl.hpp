@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/VolumeRequiresRendererFeatures.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\VolumeRequiresRendererFeatures.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__VolumeRequiresRendererFeatures_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures::*)(::ArrayW<::System::Type*>)>(
     &::UnityEngine::Rendering::Universal::VolumeRequiresRendererFeatures::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x68e1024;
+  constexpr static std::size_t addrs = 0x68e8aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

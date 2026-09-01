@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ColorUsageAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\ColorUsageAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_showAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x6ad0674, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad808c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool showAlpha);
 
-  /// @brief Method .ctor, addr 0x6ad0690, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad80a8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool showAlpha, bool hdr);
 
 protected:
@@ -99,7 +99,7 @@ public:
   ColorUsageAttribute(ColorUsageAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10285 };
 
   /// @brief Field showAlpha, offset: 0x15, size: 0x1, def value: None
   bool ___showAlpha;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerUnavailableReasonMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerUnavailableReasonMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerUnavailableReasonMethods_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguage_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerUnavailableReason)>(&::GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x37384d8;
+  constexpr static std::size_t addrs = 0x373e048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerUnavailableReason)>(&::GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x373857c;
+  constexpr static std::size_t addrs = 0x373e0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::MultiplayerStatusData*, ::by_ref<::GlobalNamespace::MultiplayerUnavailableReason>)>(
     &::GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3738610;
+  constexpr static std::size_t addrs = 0x373e180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerStatusData*, ::BGLib::Polyglot::LocalizationLanguage)>(
     &::GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3738934;
+  constexpr static std::size_t addrs = 0x373e4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW)>(&::GlobalNamespace::MultiplayerUnavailableReasonMethods::VersionLessThan)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3738778;
+  constexpr static std::size_t addrs = 0x373e2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>(),

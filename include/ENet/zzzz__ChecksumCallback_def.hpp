@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet/ChecksumCallback.hpp"
+// IWYU pragma private; include "ENet\ChecksumCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,18 +32,18 @@ namespace ENet {
 class CORDL_TYPE ChecksumCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x589210c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5891ad4, size 0x78, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr buffers, int32_t bufferCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5892184, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5891b4c, size 0x24, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x58920f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5891ac0, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::System::IntPtr buffers, int32_t bufferCount);
 
   static inline ::ENet::ChecksumCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x589208c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5891a54, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -61,7 +61,7 @@ public:
   ChecksumCallback(ChecksumCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21723 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

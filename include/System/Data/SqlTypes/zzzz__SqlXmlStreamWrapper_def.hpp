@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/SqlTypes/SqlXmlStreamWrapper.hpp"
+// IWYU pragma private; include "System\Data\SqlTypes\SqlXmlStreamWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,45 +47,45 @@ public:
   /// @brief Field _stream, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream)) ::System::IO::Stream* _stream;
 
-  /// @brief Method Dispose, addr 0x609560c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x609d088, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Flush, addr 0x60955f0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x609d06c, size 0x1c, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method IsStreamClosed, addr 0x6094a00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsStreamClosed, addr 0x609c47c, size 0x70, virtual false, abstract: false, final false
   inline bool IsStreamClosed();
 
   static inline ::System::Data::SqlTypes::SqlXmlStreamWrapper* New_ctor(::System::IO::Stream* stream);
 
-  /// @brief Method Read, addr 0x6094ed8, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x609c954, size 0x1c0, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x6095350, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x609cdcc, size 0x11c, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek, addr 0x6094d6c, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x609c7e8, size 0x16c, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x6095558, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x609cfd4, size 0x98, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method ThrowIfStreamCannotRead, addr 0x6095098, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfStreamCannotRead, addr 0x609cb14, size 0x7c, virtual false, abstract: false, final false
   inline void ThrowIfStreamCannotRead(::StringW method);
 
-  /// @brief Method ThrowIfStreamCannotSeek, addr 0x6094bb8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfStreamCannotSeek, addr 0x609c634, size 0x7c, virtual false, abstract: false, final false
   inline void ThrowIfStreamCannotSeek(::StringW method);
 
-  /// @brief Method ThrowIfStreamCannotWrite, addr 0x60952d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfStreamCannotWrite, addr 0x609cd50, size 0x7c, virtual false, abstract: false, final false
   inline void ThrowIfStreamCannotWrite(::StringW method);
 
-  /// @brief Method ThrowIfStreamClosed, addr 0x6094b50, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfStreamClosed, addr 0x609c5cc, size 0x68, virtual false, abstract: false, final false
   inline void ThrowIfStreamClosed(::StringW method);
 
-  /// @brief Method Write, addr 0x6095114, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x609cb90, size 0x1c0, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x609546c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x609cee8, size 0xec, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
   constexpr bool const& __cordl_internal_get__isClosed() const;
@@ -106,25 +106,25 @@ public:
 
   constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x60940ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x609bb28, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream);
 
-  /// @brief Method get_CanRead, addr 0x60949c8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x609c444, size 0x38, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x6094a70, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x609c4ec, size 0x38, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x6094aa8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x609c524, size 0x38, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x6094ae0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x609c55c, size 0x70, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x6094c34, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x609c6b0, size 0x60, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x6094c94, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x609c710, size 0xd8, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:
@@ -142,7 +142,7 @@ public:
   SqlXmlStreamWrapper(SqlXmlStreamWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13909 };
 
   /// @brief Field _stream, offset: 0x28, size: 0x8, def value: None
   ::System::IO::Stream* ____stream;

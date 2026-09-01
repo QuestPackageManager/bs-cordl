@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/IntegratedSubsystem.hpp"
+// IWYU pragma private; include "UnityEngine\IntegratedSubsystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ namespace UnityEngine {
 class CORDL_TYPE IntegratedSubsystem_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6bb0790, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6bb8314, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::IntegratedSubsystem* integratedSubsystem);
 
 protected:
@@ -55,7 +55,7 @@ public:
   IntegratedSubsystem_BindingsMarshaller(IntegratedSubsystem_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -85,33 +85,33 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x6bb04ac, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x6bb8030, size 0x8c, virtual true, abstract: false, final true
   inline void Destroy();
 
-  /// @brief Method IsRunning, addr 0x6bb0700, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsRunning, addr 0x6bb8284, size 0x50, virtual false, abstract: false, final false
   inline bool IsRunning();
 
-  /// @brief Method IsRunning_Injected, addr 0x6bb0750, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsRunning_Injected, addr 0x6bb82d4, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsRunning_Injected(::System::IntPtr _unity_self);
 
   static inline ::UnityEngine::IntegratedSubsystem* New_ctor();
 
-  /// @brief Method SetHandle, addr 0x6bb02f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x6bb7e7c, size 0x58, virtual false, abstract: false, final false
   inline void SetHandle(::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method SetHandle_Injected, addr 0x6bb0350, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetHandle_Injected, addr 0x6bb7ed4, size 0x44, virtual false, abstract: false, final false
   static inline void SetHandle_Injected(::System::IntPtr _unity_self, ::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method Start, addr 0x6bb0394, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x6bb7f18, size 0x50, virtual true, abstract: false, final true
   inline void Start();
 
-  /// @brief Method Start_Injected, addr 0x6bb03e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Start_Injected, addr 0x6bb7f68, size 0x3c, virtual false, abstract: false, final false
   static inline void Start_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method Stop, addr 0x6bb0420, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x6bb7fa4, size 0x50, virtual true, abstract: false, final true
   inline void Stop();
 
-  /// @brief Method Stop_Injected, addr 0x6bb0470, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Stop_Injected, addr 0x6bb7ff4, size 0x3c, virtual false, abstract: false, final false
   static inline void Stop_Injected(::System::IntPtr _unity_self);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -126,13 +126,13 @@ public:
 
   constexpr void __cordl_internal_set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor* value);
 
-  /// @brief Method .ctor, addr 0x6bb078c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb8310, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_running, addr 0x6bb06dc, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x6bb8260, size 0x14, virtual true, abstract: false, final true
   inline bool get_running();
 
-  /// @brief Method get_valid, addr 0x6bb06f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6bb8274, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
@@ -153,7 +153,7 @@ public:
   IntegratedSubsystem(IntegratedSubsystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22927 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

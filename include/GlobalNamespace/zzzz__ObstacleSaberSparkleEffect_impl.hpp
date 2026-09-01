@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ObstacleSaberSparkleEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\ObstacleSaberSparkleEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSaberSparkleEffect_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)(::UnityEngine::Color)>(&::GlobalNamespace::ObstacleSaberSparkleEffect::set_color)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x59890b8;
+  constexpr static std::size_t addrs = 0x599e5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)()>(&::GlobalNamespace::ObstacleSaberSparkleEffect::Awake)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5996618;
+  constexpr static std::size_t addrs = 0x599e648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffect*>(), { "Awake", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffect::SetPositionAndRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5989730;
+  constexpr static std::size_t addrs = 0x599e6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ObstacleSaberSparkleEffect::*)()>(&::GlobalNamespace::ObstacleSaberSparkleEffect::IsEmitting)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59893d8;
+  constexpr static std::size_t addrs = 0x599e748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffect*>(), { "IsEmitting", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)()>(&::GlobalNamespace::ObstacleSaberSparkleEffect::StartEmission)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x59897a8;
+  constexpr static std::size_t addrs = 0x599e784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffect*>(), { "StartEmission", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)()>(&::GlobalNamespace::ObstacleSaberSparkleEffect::StopEmission)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5989848;
+  constexpr static std::size_t addrs = 0x599e824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffect*>(), { "StopEmission", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffect::*)()>(&::GlobalNamespace::ObstacleSaberSparkleEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59966a0;
+  constexpr static std::size_t addrs = 0x599e8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffect*>(), { ".ctor", {}, {} })));

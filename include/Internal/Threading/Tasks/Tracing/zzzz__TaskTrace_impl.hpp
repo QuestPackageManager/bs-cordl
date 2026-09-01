@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal/Threading/Tasks/Tracing/TaskTrace.hpp"
+// IWYU pragma private; include "Internal\Threading\Tasks\Tracing\TaskTrace.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Threading/Tasks/Tracing/zzzz__TaskTrace_def.hpp"
 #include "Internal/Runtime/Augments/zzzz__TaskTraceCallbacks_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Internal::Threading::Tasks::Tracing::TaskTrace::get_Enabled)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5ac30e4;
+  constexpr static std::size_t addrs = 0x5ac75a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Internal::Threading::Tasks::Tracing::TaskTrace*>(), { "get_Enabled", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskWaitBegin_Asynchronous)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5ac3148;
+  constexpr static std::size_t addrs = 0x5ac7604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskWaitBegin_Synchronous)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5ac31d0;
+  constexpr static std::size_t addrs = 0x5ac768c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskWaitEnd)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5ac3258;
+  constexpr static std::size_t addrs = 0x5ac7714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskScheduled)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5ac32e0;
+  constexpr static std::size_t addrs = 0x5ac779c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

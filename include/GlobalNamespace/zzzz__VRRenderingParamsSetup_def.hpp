@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/VRRenderingParamsSetup.hpp"
+// IWYU pragma private; include "GlobalNamespace\VRRenderingParamsSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::VRRenderingParamsSetup* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x58fe95c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5901f2c, size 0xd8, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::GlobalNamespace::IRenderingParamsApplicator* const& __cordl_internal_get__applicator() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneType(::GlobalNamespace::SceneType value);
 
-  /// @brief Method .ctor, addr 0x58fea34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5902004, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   VRRenderingParamsSetup(VRRenderingParamsSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6669 };
 
   /// @brief Field _sceneType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::SceneType ____sceneType;

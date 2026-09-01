@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/Trace.hpp"
+// IWYU pragma private; include "System\Diagnostics\Trace.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ public:
 
   static inline ::System::Diagnostics::CorrelationManager* getStaticF_correlationManager();
 
-  /// @brief Method get_AutoFlush, addr 0x63905d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x6398050, size 0x50, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_CorrelationManager, addr 0x6390684, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_CorrelationManager, addr 0x6398100, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::CorrelationManager* get_CorrelationManager();
 
-  /// @brief Method get_Listeners, addr 0x63902e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x6397d60, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
   static inline void setStaticF_correlationManager(::System::Diagnostics::CorrelationManager* value);
@@ -56,7 +56,7 @@ public:
   Trace(Trace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11134 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

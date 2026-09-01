@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/EnumerationOptions.hpp"
+// IWYU pragma private; include "System\IO\EnumerationOptions.hpp"
 #include "System/IO/zzzz__FileAttributes_impl.hpp"
 #include "System/IO/zzzz__MatchCasing_impl.hpp"
 #include "System/IO/zzzz__MatchType_impl.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::EnumerationOptions* (*)()>(&::System::IO::EnumerationOptions::get_Compatible)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c030fc;
+  constexpr static std::size_t addrs = 0x5c075b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::EnumerationOptions*>(), { "get_Compatible", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::EnumerationOptions* (*)()>(&::System::IO::EnumerationOptions::get_CompatibleRecursive)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c03158;
+  constexpr static std::size_t addrs = 0x5c07614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::EnumerationOptions*>(), { "get_CompatibleRecursive", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::EnumerationOptions* (*)()>(&::System::IO::EnumerationOptions::get_Default)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c031b4;
+  constexpr static std::size_t addrs = 0x5c07670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::EnumerationOptions*>(), { "get_Default", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c03210;
+  constexpr static std::size_t addrs = 0x5c076cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::EnumerationOptions*>(), { ".ctor", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::EnumerationOptions* (*)(::System::IO::SearchOption)>(&::System::IO::EnumerationOptions::FromSearchOption)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5c02b70;
+  constexpr static std::size_t addrs = 0x5c0702c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::get_RecurseSubdirectories)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c03224;
+  constexpr static std::size_t addrs = 0x5c076e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::EnumerationOptions*>(), { "get_RecurseSubdirectories", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::EnumerationOptions::*)(bool)>(&::System::IO::EnumerationOptions::set_RecurseSubdirectories)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c0322c;
+  constexpr static std::size_t addrs = 0x5c076e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::get_IgnoreInaccessible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c03234;
+  constexpr static std::size_t addrs = 0x5c076f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::EnumerationOptions*>(), { "get_IgnoreInaccessible", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::EnumerationOptions::*)(bool)>(&::System::IO::EnumerationOptions::set_IgnoreInaccessible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c0323c;
+  constexpr static std::size_t addrs = 0x5c076f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::FileAttributes (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::get_AttributesToSkip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c03244;
+  constexpr static std::size_t addrs = 0x5c07700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::EnumerationOptions*>(), { "get_AttributesToSkip", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::EnumerationOptions::*)(::System::IO::FileAttributes)>(&::System::IO::EnumerationOptions::set_AttributesToSkip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c0324c;
+  constexpr static std::size_t addrs = 0x5c07708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::MatchType (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::get_MatchType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c03254;
+  constexpr static std::size_t addrs = 0x5c07710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::EnumerationOptions*>(), { "get_MatchType", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::EnumerationOptions::*)(::System::IO::MatchType)>(&::System::IO::EnumerationOptions::set_MatchType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c0325c;
+  constexpr static std::size_t addrs = 0x5c07718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::MatchCasing (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::get_MatchCasing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c03264;
+  constexpr static std::size_t addrs = 0x5c07720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::EnumerationOptions*>(), { "get_MatchCasing", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::get_ReturnSpecialDirectories)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c0326c;
+  constexpr static std::size_t addrs = 0x5c07728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::EnumerationOptions*>(), { "get_ReturnSpecialDirectories", {}, {} })));

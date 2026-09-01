@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlSerializerFactory.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlSerializerFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,19 +39,19 @@ public:
   /// @brief Field serializersBySource, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_serializersBySource, put = setStaticF_serializersBySource)) ::System::Collections::Hashtable* serializersBySource;
 
-  /// @brief Method CreateSerializer, addr 0x630a24c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateSerializer, addr 0x6311cc8, size 0x14, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type);
 
-  /// @brief Method CreateSerializer, addr 0x630a260, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method CreateSerializer, addr 0x6311cdc, size 0x278, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type, ::System::Xml::Serialization::XmlAttributeOverrides* overrides, ::ArrayW<::System::Type*> extraTypes,
                                                                        ::System::Xml::Serialization::XmlRootAttribute* root, ::StringW defaultNamespace);
 
-  /// @brief Method CreateSerializer, addr 0x630a4d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateSerializer, addr 0x6311f54, size 0x14, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root);
 
   static inline ::System::Xml::Serialization::XmlSerializerFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x630a248, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6311cc4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Hashtable* getStaticF_serializersBySource();
@@ -73,7 +73,7 @@ public:
   XmlSerializerFactory(XmlSerializerFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

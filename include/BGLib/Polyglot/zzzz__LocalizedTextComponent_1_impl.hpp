@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/LocalizedTextComponent_1.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\LocalizedTextComponent_1.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
 #include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"

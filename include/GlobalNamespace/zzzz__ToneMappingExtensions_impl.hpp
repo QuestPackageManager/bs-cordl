@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ToneMappingExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\ToneMappingExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GlobalKeyword_impl.hpp"
 #include "GlobalNamespace/zzzz__ToneMappingExtensions_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::ToneMapping)>(&::GlobalNamespace::ToneMappingExtensions::SetShaderKeyword)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x586845c;
+  constexpr static std::size_t addrs = 0x5867400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::ToneMapping, ::UnityEngine::Rendering::CommandBuffer*)>(
     &::GlobalNamespace::ToneMappingExtensions::SetShaderKeyword)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58661dc;
+  constexpr static std::size_t addrs = 0x5865160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

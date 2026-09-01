@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/RevocationKey.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\RevocationKey.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__RevocationKey_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::RevocationKey::*)(bool, bool, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::RevocationKey::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3691860;
+  constexpr static std::size_t addrs = 0x3695620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::RevocationKey*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::RevocationKey::*)(
     bool, ::Org::BouncyCastle::Bcpg::RevocationKeyTag, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::RevocationKey::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3691878;
+  constexpr static std::size_t addrs = 0x3695638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Bcpg::RevocationKeyTag, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::RevocationKey::CreateData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x36918b8;
+  constexpr static std::size_t addrs = 0x3695678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::RevocationKeyTag (::Org::BouncyCastle::Bcpg::RevocationKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RevocationKey::get_SignatureClass)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3691968;
+  constexpr static std::size_t addrs = 0x3695728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag (::Org::BouncyCastle::Bcpg::RevocationKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RevocationKey::get_Algorithm)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3691990;
+  constexpr static std::size_t addrs = 0x3695750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::RevocationKey::*)()>(&::Org::BouncyCastle::Bcpg::RevocationKey::GetFingerprint)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x36919bc;
+  constexpr static std::size_t addrs = 0x369577c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/RevAnnContent.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\RevAnnContent.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__RevAnnContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatusEncodable_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x334d0b8;
+  constexpr static std::size_t addrs = 0x3350e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x33487c0;
+  constexpr static std::size_t addrs = 0x334c580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::get_Status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334d218;
+  constexpr static std::size_t addrs = 0x3350fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::CertId* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::get_CertID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334d220;
+  constexpr static std::size_t addrs = 0x3350fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::get_WillBeRevokedAt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334d228;
+  constexpr static std::size_t addrs = 0x3350fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::get_BadSinceDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334d230;
+  constexpr static std::size_t addrs = 0x3350ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::get_CrlDetails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334d238;
+  constexpr static std::size_t addrs = 0x3350ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x334d240;
+  constexpr static std::size_t addrs = 0x3351000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

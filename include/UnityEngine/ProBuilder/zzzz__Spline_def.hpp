@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Spline.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Spline.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,27 +40,27 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE Spline : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Extrude, addr 0x66edca4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x66f5720, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, float_t radius, int32_t columns,
                                                                             int32_t rows, bool closeLoop, bool smooth);
 
-  /// @brief Method Extrude, addr 0x66edcbc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x66f5738, size 0xd4, virtual false, abstract: false, final false
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints, float_t radius, int32_t columns, int32_t rows, bool closeLoop, bool smooth,
                              ::by_ref<::UnityEngine::ProBuilder::ProBuilderMesh*> target);
 
-  /// @brief Method Extrude, addr 0x66ee2d0, size 0x994, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x66f5d4c, size 0x994, virtual false, abstract: false, final false
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t radius, int32_t radiusRows, bool closeLoop, bool smooth,
                              ::by_ref<::UnityEngine::ProBuilder::ProBuilderMesh*> target, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>* pointRotations);
 
-  /// @brief Method GetControlPoints, addr 0x66edd90, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method GetControlPoints, addr 0x66f580c, size 0x540, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints,
                                                                                                  int32_t subdivisionsPerSegment, bool closeLoop,
                                                                                                  ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations);
 
-  /// @brief Method GetRingRotation, addr 0x66eec64, size 0x8f0, virtual false, abstract: false, final false
+  /// @brief Method GetRingRotation, addr 0x66f66e0, size 0x8f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetRingRotation(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, int32_t i, bool closeLoop, ::by_ref<float_t> secant);
 
-  /// @brief Method VertexRing, addr 0x66ef554, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method VertexRing, addr 0x66f6fd0, size 0x25c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> VertexRing(::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 offset, float_t radius, int32_t segments);
 
 protected:
@@ -78,7 +78,7 @@ public:
   Spline(Spline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

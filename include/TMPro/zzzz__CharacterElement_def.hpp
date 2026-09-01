@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/CharacterElement.hpp"
+// IWYU pragma private; include "TMPro\CharacterElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ public:
   // Declarations
   __declspec(property(get = get_Unicode, put = set_Unicode)) uint32_t Unicode;
 
-  /// @brief Method .ctor, addr 0x699f004, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69a6a80, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_TextElement* textElement);
 
-  /// @brief Method get_Unicode, addr 0x699eff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unicode, addr 0x69a6a70, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Unicode();
 
-  /// @brief Method set_Unicode, addr 0x699effc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Unicode, addr 0x69a6a78, size 0x8, virtual false, abstract: false, final false
   inline void set_Unicode(uint32_t value);
 
   // Ctor Parameters []
@@ -43,7 +43,7 @@ public:
   constexpr CharacterElement(uint32_t m_Unicode, ::TMPro::TMP_TextElement* m_TextElement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16015 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

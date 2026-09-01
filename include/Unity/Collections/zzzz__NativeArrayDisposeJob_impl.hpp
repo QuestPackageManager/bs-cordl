@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/NativeArrayDisposeJob.hpp"
+// IWYU pragma private; include "Unity\Collections\NativeArrayDisposeJob.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDispose_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDisposeJob_def.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeArrayDisposeJob::*)()>(&::Unity::Collections::NativeArrayDisposeJob::Execute)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a58238;
+  constexpr static std::size_t addrs = 0x6a5fcb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArrayDisposeJob>(), { "Execute", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Collections::NativeArrayDisposeJob::RegisterNativeArrayDisposeJobReflectionData)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a5827c;
+  constexpr static std::size_t addrs = 0x6a5fcf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

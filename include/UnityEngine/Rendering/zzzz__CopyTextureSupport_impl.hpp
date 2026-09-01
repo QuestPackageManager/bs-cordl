@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CopyTextureSupport.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CopyTextureSupport.hpp"
 #include "UnityEngine/Rendering/zzzz__CopyTextureSupport_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::CopyTextureSupport::CopyTextureSupport(int32_t value__) noexcept {

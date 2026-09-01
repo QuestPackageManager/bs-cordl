@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/TypeHandleRefEqualityComparer.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\TypeHandleRefEqualityComparer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,15 +29,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::System::Runtime::Serialization::TypeHandleRef*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::System::Runtime::Serialization::TypeHandleRef*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x6143a58, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x614b4d4, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::System::Runtime::Serialization::TypeHandleRef* x, ::System::Runtime::Serialization::TypeHandleRef* y);
 
-  /// @brief Method GetHashCode, addr 0x6143a80, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x614b4fc, size 0x14, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Runtime::Serialization::TypeHandleRef* obj);
 
   static inline ::System::Runtime::Serialization::TypeHandleRefEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61402e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6147d64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::Runtime::Serialization::TypeHandleRef*>"
@@ -59,7 +59,7 @@ public:
   TypeHandleRefEqualityComparer(TypeHandleRefEqualityComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

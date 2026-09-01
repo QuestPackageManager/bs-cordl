@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SubContainerCreatorByNewGameObjectDynamicContext.hpp"
+// IWYU pragma private; include "Zenject\SubContainerCreatorByNewGameObjectDynamicContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   /// @brief Field _gameObjectBindInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo)) ::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
-  /// @brief Method CreateGameObject, addr 0x6e83140, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CreateGameObject, addr 0x6e8acc4, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::by_ref<bool> shouldMakeActive);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
 
-  /// @brief Method .ctor, addr 0x6e83130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8acb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
 protected:
@@ -60,7 +60,7 @@ public:
   SubContainerCreatorByNewGameObjectDynamicContext(SubContainerCreatorByNewGameObjectDynamicContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14609 };
 
   /// @brief Field _gameObjectBindInfo, offset: 0x18, size: 0x8, def value: None
   ::Zenject::GameObjectCreationParameters* ____gameObjectBindInfo;

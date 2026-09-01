@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonPropertyCollection.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonPropertyCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,21 +38,21 @@ public:
   /// @brief Field _type, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Type* _type;
 
-  /// @brief Method AddProperty, addr 0x5d34740, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method AddProperty, addr 0x5d38bfc, size 0x284, virtual false, abstract: false, final false
   inline void AddProperty(::Newtonsoft::Json::Serialization::JsonProperty* property);
 
-  /// @brief Method GetClosestMatchProperty, addr 0x5d349c4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetClosestMatchProperty, addr 0x5d38e80, size 0x40, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* GetClosestMatchProperty(::StringW propertyName);
 
-  /// @brief Method GetKeyForItem, addr 0x5d403ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetKeyForItem, addr 0x5d448a8, size 0x14, virtual true, abstract: false, final false
   inline ::StringW GetKeyForItem(::Newtonsoft::Json::Serialization::JsonProperty* item);
 
-  /// @brief Method GetProperty, addr 0x5d40400, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetProperty, addr 0x5d448bc, size 0xf8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* GetProperty(::StringW propertyName, ::System::StringComparison comparisonType);
 
   static inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* New_ctor(::System::Type* type);
 
-  /// @brief Method TryGetProperty, addr 0x5d404f8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TryGetProperty, addr 0x5d449b4, size 0xe8, virtual false, abstract: false, final false
   inline bool TryGetProperty(::StringW key, ::by_ref<::Newtonsoft::Json::Serialization::JsonProperty*> item);
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Serialization::JsonProperty*>* const& __cordl_internal_get__list() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5d345b0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d38a6c, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:
@@ -85,7 +85,7 @@ public:
   JsonPropertyCollection(JsonPropertyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13514 };
 
   /// @brief Field _type, offset: 0x30, size: 0x8, def value: None
   ::System::Type* ____type;

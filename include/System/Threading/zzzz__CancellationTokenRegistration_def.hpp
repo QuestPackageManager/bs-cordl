@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/CancellationTokenRegistration.hpp"
+// IWYU pragma private; include "System\Threading\CancellationTokenRegistration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,25 +51,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
   constexpr operator ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*();
 
-  /// @brief Method Dispose, addr 0x5ca7340, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5cab7fc, size 0x84, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x5ca7614, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method DisposeAsync, addr 0x5cabad0, size 0x94, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  /// @brief Method Equals, addr 0x5ca7470, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5cab92c, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5ca7504, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5cab9c0, size 0x98, virtual true, abstract: false, final true
   inline bool Equals(::System::Threading::CancellationTokenRegistration other);
 
-  /// @brief Method GetHashCode, addr 0x5ca759c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5caba58, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Unregister, addr 0x5ca72b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x5cab76c, size 0x90, virtual false, abstract: false, final false
   inline bool Unregister();
 
-  /// @brief Method .ctor, addr 0x5ca72a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cab760, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationCallbackInfo* callbackInfo, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> registrationInfo);
 
   /// @brief Convert to "::System::IAsyncDisposable"

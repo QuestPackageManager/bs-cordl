@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/InteractableController.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\InteractableController.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Controller_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__InteractableController_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHapticsClip_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::get_Hover)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a5a92c;
+  constexpr static std::size_t addrs = 0x5a5ede8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::set_Hover)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a5a934;
+  constexpr static std::size_t addrs = 0x5a5edf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::Setup)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5a55784;
+  constexpr static std::size_t addrs = 0x5a59c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::OnPointerEnter)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a5a958;
+  constexpr static std::size_t addrs = 0x5a5ee14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::OnPointerExit)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a5a978;
+  constexpr static std::size_t addrs = 0x5a5ee34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::OnPointerClick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a5a994;
+  constexpr static std::size_t addrs = 0x5a5ee50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::OnHoverChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a55368;
+  constexpr static std::size_t addrs = 0x5a59824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController*>(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::OnDisable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a59164;
+  constexpr static std::size_t addrs = 0x5a5d620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::*)(::GlobalNamespace::OVRHapticsClip*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::PlayHaptics)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5a5536c;
+  constexpr static std::size_t addrs = 0x5a59828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController*>(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::InteractableController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a554ac;
+  constexpr static std::size_t addrs = 0x5a59968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

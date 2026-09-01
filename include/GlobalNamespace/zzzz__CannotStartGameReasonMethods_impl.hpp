@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CannotStartGameReasonMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\CannotStartGameReasonMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CannotStartGameReasonMethods_def.hpp"
 #include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::CannotStartGameReason)>(&::GlobalNamespace::CannotStartGameReasonMethods::LocalizedKey)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3730bac;
+  constexpr static std::size_t addrs = 0x373671c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

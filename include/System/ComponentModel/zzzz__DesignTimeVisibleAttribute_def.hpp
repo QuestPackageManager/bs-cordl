@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/DesignTimeVisibleAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\DesignTimeVisibleAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ public:
   /// @brief Field <Visible>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Visible_k__BackingField, put = __cordl_internal_set__Visible_k__BackingField)) bool _Visible_k__BackingField;
 
-  /// @brief Method Equals, addr 0x63b87cc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x63c0248, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x63b8864, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x63c02e0, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x63b88ec, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x63c0368, size 0x84, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::DesignTimeVisibleAttribute* New_ctor(bool visible);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__Visible_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x63b87bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c0238, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool visible);
 
   static inline ::System::ComponentModel::DesignTimeVisibleAttribute* getStaticF_Default();
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::ComponentModel::DesignTimeVisibleAttribute* getStaticF_Yes();
 
-  /// @brief Method get_Visible, addr 0x63b87c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Visible, addr 0x63c0240, size 0x8, virtual false, abstract: false, final false
   inline bool get_Visible();
 
   static inline void setStaticF_Default(::System::ComponentModel::DesignTimeVisibleAttribute* value);
@@ -87,7 +87,7 @@ public:
   DesignTimeVisibleAttribute(DesignTimeVisibleAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11259 };
 
   /// @brief Field <Visible>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Visible_k__BackingField;

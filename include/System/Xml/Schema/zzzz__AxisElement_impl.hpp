@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/AxisElement.hpp"
+// IWYU pragma private; include "System\Xml\Schema\AxisElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__AxisElement_def.hpp"
 #include "System/Xml/Schema/zzzz__DoubleLinkAxis_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (::System::Xml::Schema::AxisElement::*)()>(&::System::Xml::Schema::AxisElement::get_CurNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x630f0c0;
+  constexpr static std::size_t addrs = 0x6316b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::AxisElement*>(), { "get_CurNode", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::AxisElement::*)(::System::Xml::Schema::DoubleLinkAxis*, int32_t)>(&::System::Xml::Schema::AxisElement::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x630f0c8;
+  constexpr static std::size_t addrs = 0x6316b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::AxisElement*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::AxisElement::*)(int32_t)>(&::System::Xml::Schema::AxisElement::SetDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x630f0d8;
+  constexpr static std::size_t addrs = 0x6316b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::AxisElement*>(), { "SetDepth", {}, { ::i2c::type_of<int32_t>() } })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::AxisElement::*)(int32_t, ::System::Xml::Schema::ForwardAxis*)>(&::System::Xml::Schema::AxisElement::MoveToParent)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x630f0e0;
+  constexpr static std::size_t addrs = 0x6316b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::AxisElement::*)(::StringW, ::StringW, int32_t, ::System::Xml::Schema::ForwardAxis*)>(
     &::System::Xml::Schema::AxisElement::MoveToChild)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x630f1f4;
+  constexpr static std::size_t addrs = 0x6316c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

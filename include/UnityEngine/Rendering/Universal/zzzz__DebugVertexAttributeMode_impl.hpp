@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugVertexAttributeMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugVertexAttributeMode.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugVertexAttributeMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::DebugVertexAttributeMode::DebugVertexAttributeMode(int32_t value__) noexcept {

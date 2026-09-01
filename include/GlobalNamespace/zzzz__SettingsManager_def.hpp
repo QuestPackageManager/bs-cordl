@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SettingsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\SettingsManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,19 +32,19 @@ public:
   /// @brief Field skipValidation, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_skipValidation, put = setStaticF_skipValidation)) bool skipValidation;
 
-  /// @brief Method AdjustPlatformSettings, addr 0x328af14, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AdjustPlatformSettings, addr 0x328ed10, size 0x108, virtual false, abstract: false, final false
   static inline void AdjustPlatformSettings(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::HardwareCategory platform);
 
-  /// @brief Method CreateInstanceWithCurrentPlatformPreset, addr 0x328dd50, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateInstanceWithCurrentPlatformPreset, addr 0x3291b4c, size 0x70, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SettingsManager* CreateInstanceWithCurrentPlatformPreset();
 
-  /// @brief Method CreateUninitialized, addr 0x328dd0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateUninitialized, addr 0x3291b08, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SettingsManager* CreateUninitialized();
 
-  /// @brief Method GetCurrentPlatformPreset, addr 0x328ddc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPlatformPreset, addr 0x3291bbc, size 0x10, virtual false, abstract: false, final false
   static inline ::by_ref<::BeatSaber::Settings::Settings> GetCurrentPlatformPreset();
 
-  /// @brief Method GetPlatformPreset, addr 0x328ad04, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPreset, addr 0x328eb00, size 0xe4, virtual false, abstract: false, final false
   static inline ::by_ref<::BeatSaber::Settings::Settings> GetPlatformPreset(::GlobalNamespace::HardwareCategory platform);
 
   static inline ::GlobalNamespace::SettingsManager* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::BeatSaber::Settings::Settings value);
 
-  /// @brief Method .ctor, addr 0x328dd08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3291b04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_skipValidation();
@@ -77,7 +77,7 @@ public:
   SettingsManager(SettingsManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22043 };
 
   /// @brief Field settings, offset: 0x10, size: 0xf0, def value: None
   ::BeatSaber::Settings::Settings ___settings;

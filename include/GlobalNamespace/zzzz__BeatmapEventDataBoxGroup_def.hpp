@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapEventDataBoxGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapEventDataBoxGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,16 +99,16 @@ public:
   /// @brief Field startBeat, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_startBeat, put = __cordl_internal_set_startBeat)) float_t startBeat;
 
-  /// @brief Method ConnectWithNext, addr 0x3711894, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ConnectWithNext, addr 0x3717718, size 0x10, virtual false, abstract: false, final false
   inline void ConnectWithNext(::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData* nextElementData);
 
-  /// @brief Method ConnectWithPrevious, addr 0x3711884, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ConnectWithPrevious, addr 0x3717708, size 0x10, virtual false, abstract: false, final false
   inline void ConnectWithPrevious(::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData* prevElementData);
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData* New_ctor(::GlobalNamespace::BeatmapEventDataBoxGroup* boxGroup, ::GlobalNamespace::BeatmapEventDataBox* eventBox,
                                                                                   int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat);
 
-  /// @brief Method ResetConnections, addr 0x371187c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetConnections, addr 0x3717700, size 0x8, virtual false, abstract: false, final false
   inline void ResetConnections();
 
   constexpr ::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData* const& __cordl_internal_get__next() const;
@@ -171,14 +171,14 @@ public:
 
   constexpr void __cordl_internal_set_startBeat(float_t value);
 
-  /// @brief Method .ctor, addr 0x3711218, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x371709c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapEventDataBoxGroup* boxGroup, ::GlobalNamespace::BeatmapEventDataBox* eventBox, int32_t elementId, int32_t durationOrderIndex,
                     int32_t distributionOrderIndex, float_t startBeat);
 
-  /// @brief Method get_next, addr 0x371186c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x37176f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData* get_next();
 
-  /// @brief Method get_previous, addr 0x3711874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previous, addr 0x37176f8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData* get_previous();
 
 protected:
@@ -196,7 +196,7 @@ public:
   BeatmapEventDataBoxGroup_ElementData(BeatmapEventDataBoxGroup_ElementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14913 };
 
   /// @brief Field startBeat, offset: 0x10, size: 0x4, def value: None
   float_t ___startBeat;
@@ -287,19 +287,19 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x3711800, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3717684, size 0x6c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::BeatmapEventDataBoxGroup* b);
 
-  /// @brief Method GetCopyWithNewBeat, addr 0x3711290, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetCopyWithNewBeat, addr 0x3717114, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBoxGroup* GetCopyWithNewBeat(float_t newBeat);
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroup* New_ctor(float_t beat,
                                                                       ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>* beatmapEventDataBoxList);
 
-  /// @brief Method RemoveBeatmapEventDataFromBeatmapData, addr 0x3711300, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RemoveBeatmapEventDataFromBeatmapData, addr 0x3717184, size 0x168, virtual false, abstract: false, final false
   inline void RemoveBeatmapEventDataFromBeatmapData(::GlobalNamespace::BeatmapData* beatmapData);
 
-  /// @brief Method SyncWithBeatmapData, addr 0x3711468, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method SyncWithBeatmapData, addr 0x37172ec, size 0x398, virtual false, abstract: false, final false
   inline void SyncWithBeatmapData(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
                                   ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter);
 
@@ -330,13 +330,13 @@ public:
 
   constexpr void __cordl_internal_set__unpackedBeatmapEventData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x3710ad4, size 0x6f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3716958, size 0x6f0, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>* beatmapEventDataBoxList);
 
-  /// @brief Method get_beatmapEventDataBoxList, addr 0x3710acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapEventDataBoxList, addr 0x3716950, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>* get_beatmapEventDataBoxList();
 
-  /// @brief Method get_elementDataDict, addr 0x3710ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elementDataDict, addr 0x3716948, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_3<int32_t, ::System::Type*, int32_t>, ::GlobalNamespace::BeatmapEventDataBoxGroup_ElementData*>*
   get_elementDataDict();
 
@@ -358,7 +358,7 @@ public:
   BeatmapEventDataBoxGroup(BeatmapEventDataBoxGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14914 };
 
   /// @brief Field _beat, offset: 0x10, size: 0x4, def value: None
   float_t ____beat;

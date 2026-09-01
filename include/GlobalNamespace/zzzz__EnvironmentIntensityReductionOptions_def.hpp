@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnvironmentIntensityReductionOptions.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnvironmentIntensityReductionOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   static ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType const RemoveWithStrobeFilter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14838 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -124,7 +124,7 @@ public:
   static ::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType const RemoveWithStrobeFilter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14839 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -176,13 +176,13 @@ public:
 
   constexpr void __cordl_internal_set__rotateRings(::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType value);
 
-  /// @brief Method .ctor, addr 0x37043d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37087f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compressExpand, addr 0x37043c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compressExpand, addr 0x37087e4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType get_compressExpand();
 
-  /// @brief Method get_rotateRings, addr 0x37043cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotateRings, addr 0x37087ec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentIntensityReductionOptions_RotateRingsReductionType get_rotateRings();
 
 protected:
@@ -200,7 +200,7 @@ public:
   EnvironmentIntensityReductionOptions(EnvironmentIntensityReductionOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14840 };
 
   /// @brief Field _compressExpand, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentIntensityReductionOptions_CompressExpandReductionType ____compressExpand;

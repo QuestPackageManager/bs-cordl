@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ExceptionHandler.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\ExceptionHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,13 +42,13 @@ public:
   /// @brief Field _exceptionType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__exceptionType, put = __cordl_internal_set__exceptionType)) ::System::Type* _exceptionType;
 
-  /// @brief Method Matches, addr 0x5f99304, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x5fa0d80, size 0x20, virtual false, abstract: false, final false
   inline bool Matches(::System::Type* exceptionType);
 
   static inline ::System::Linq::Expressions::Interpreter::ExceptionHandler* New_ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType,
                                                                                      ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
-  /// @brief Method ToString, addr 0x5f99324, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5fa0da0, size 0x114, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter* const& __cordl_internal_get_Filter() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__exceptionType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5f992f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fa0d6c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType, ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
 protected:
@@ -99,7 +99,7 @@ public:
   ExceptionHandler(ExceptionHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16434 };
 
   /// @brief Field _exceptionType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____exceptionType;

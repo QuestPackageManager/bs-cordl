@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/WhiteColorOrAlphaGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\WhiteColorOrAlphaGroupEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,10 +45,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE WhiteColorOrAlphaGroupEffect : public ::GlobalNamespace::LightColorGroupEffect {
 public:
   // Declarations
-  /// @brief Field _defaultColor, offset 0xac, size 0x10
+  /// @brief Field _defaultColor, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get__defaultColor, put = __cordl_internal_set__defaultColor)) ::UnityEngine::Color _defaultColor;
 
-  /// @brief Method GetColor, addr 0x5990c4c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x5999f78, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::UnityEngine::Color defaultColor,
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x5990c10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5999f3c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::UnityEngine::Color defaultColor, ::GlobalNamespace::LightWithIdManager* lightManager,
                     ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
                     ::GlobalNamespace::IBpmController* bpmController);
@@ -82,16 +82,16 @@ public:
   WhiteColorOrAlphaGroupEffect(WhiteColorOrAlphaGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5896 };
 
-  /// @brief Field _defaultColor, offset: 0xac, size: 0x10, def value: None
+  /// @brief Field _defaultColor, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ____defaultColor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffect, ____defaultColor) == 0xac, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffect, ____defaultColor) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::WhiteColorOrAlphaGroupEffect) == 0xc0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::WhiteColorOrAlphaGroupEffect) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace

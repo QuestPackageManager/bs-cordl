@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PosesPlayback.hpp"
+// IWYU pragma private; include "GlobalNamespace\PosesPlayback.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Transform_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesPlayback_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesPlayback::*)()>(&::GlobalNamespace::PosesPlayback::Update)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58e6630;
+  constexpr static std::size_t addrs = 0x58e9c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesPlayback*>(), { "Update", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesPlayback::*)(::ArrayW<::GlobalNamespace::PoseObject*>, ::GlobalNamespace::PosesRecordingData*,
                                                                                                   ::GlobalNamespace::IBeatSaberLogger*)>(&::GlobalNamespace::PosesPlayback::Init)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x58e46b8;
+  constexpr static std::size_t addrs = 0x58e7ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesPlayback::*)()>(&::GlobalNamespace::PosesPlayback::StartPlayback)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x58e4dd8;
+  constexpr static std::size_t addrs = 0x58e8408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesPlayback*>(), { "StartPlayback", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesPlayback::*)(float_t)>(&::GlobalNamespace::PosesPlayback::PlaybackTick)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x58e6648;
+  constexpr static std::size_t addrs = 0x58e9c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesPlayback::*)()>(&::GlobalNamespace::PosesPlayback::StopPlayback)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58e4d4c;
+  constexpr static std::size_t addrs = 0x58e837c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesPlayback*>(), { "StopPlayback", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesPlayback::*)()>(&::GlobalNamespace::PosesPlayback::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e69f0;
+  constexpr static std::size_t addrs = 0x58ea020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosesPlayback*>(), { ".ctor", {}, {} })));

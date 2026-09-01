@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/MessageBase.hpp"
+// IWYU pragma private; include "Mono\Security\Protocol\Ntlm\MessageBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
   /// @brief Field header, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_header, put = setStaticF_header)) ::ArrayW<uint8_t> header;
 
-  /// @brief Method CheckHeader, addr 0x5a98240, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CheckHeader, addr 0x5a9c6fc, size 0x114, virtual false, abstract: false, final false
   inline bool CheckHeader(::ArrayW<uint8_t> message);
 
-  /// @brief Method Decode, addr 0x5a980b8, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x5a9c574, size 0x188, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t> message);
 
   /// @brief Method GetBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -49,7 +49,7 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::MessageBase* New_ctor(int32_t messageType);
 
-  /// @brief Method PrepareMessage, addr 0x5a97fb0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method PrepareMessage, addr 0x5a9c46c, size 0x108, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> PrepareMessage(int32_t messageSize);
 
   constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags const& __cordl_internal_get__flags() const;
@@ -64,20 +64,20 @@ public:
 
   constexpr void __cordl_internal_set__type(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5a97f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9c44c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t messageType);
 
   static inline ::ArrayW<uint8_t> getStaticF_header();
 
-  /// @brief Method get_Flags, addr 0x5a97f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x5a9c454, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags();
 
-  /// @brief Method get_Type, addr 0x5a97fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5a9c464, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Type();
 
   static inline void setStaticF_header(::ArrayW<uint8_t> value);
 
-  /// @brief Method set_Flags, addr 0x5a97fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x5a9c45c, size 0x8, virtual false, abstract: false, final false
   inline void set_Flags(::Mono::Security::Protocol::Ntlm::NtlmFlags value);
 
 protected:
@@ -95,7 +95,7 @@ public:
   MessageBase(MessageBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19302 };
 
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   int32_t ____type;

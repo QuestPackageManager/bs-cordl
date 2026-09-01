@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/CVRIOBuffer.hpp"
+// IWYU pragma private; include "OVR\OpenVR\CVRIOBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,21 +34,21 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x28
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRIOBuffer FnTable;
 
-  /// @brief Method Close, addr 0x5e434cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x5e47988, size 0x20, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Close(uint64_t ulBuffer);
 
   static inline ::OVR::OpenVR::CVRIOBuffer* New_ctor(::System::IntPtr pInterface);
 
-  /// @brief Method Open, addr 0x5e434a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x5e47964, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Open(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ::by_ref<uint64_t> pulBuffer);
 
-  /// @brief Method PropertyContainer, addr 0x5e43530, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PropertyContainer, addr 0x5e479ec, size 0x20, virtual false, abstract: false, final false
   inline uint64_t PropertyContainer(uint64_t ulBuffer);
 
-  /// @brief Method Read, addr 0x5e434ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x5e479a8, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Read(uint64_t ulBuffer, ::System::IntPtr pDst, uint32_t unBytes, ::by_ref<uint32_t> punRead);
 
-  /// @brief Method Write, addr 0x5e43510, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x5e479cc, size 0x20, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Write(uint64_t ulBuffer, ::System::IntPtr pSrc, uint32_t unBytes);
 
   constexpr ::OVR::OpenVR::IVRIOBuffer const& __cordl_internal_get_FnTable() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRIOBuffer value);
 
-  /// @brief Method .ctor, addr 0x5e433ac, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e47868, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -75,7 +75,7 @@ public:
   CVRIOBuffer(CVRIOBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8395 };
 
   /// @brief Field FnTable, offset: 0x10, size: 0x28, def value: None
   ::OVR::OpenVR::IVRIOBuffer ___FnTable;

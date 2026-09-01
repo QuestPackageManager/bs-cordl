@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/NetDataContractSerializer.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\NetDataContractSerializer.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__XmlObjectSerializer_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::NetDataContractSerializer::get_UnsafeTypeForwardingEnabled)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6150640;
+  constexpr static std::size_t addrs = 0x61580bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::StreamingContext (::System::Runtime::Serialization::NetDataContractSerializer::*)()>(
     &::System::Runtime::Serialization::NetDataContractSerializer::get_Context)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6150720;
+  constexpr static std::size_t addrs = 0x615819c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::SerializationBinder* (::System::Runtime::Serialization::NetDataContractSerializer::*)()>(
     &::System::Runtime::Serialization::NetDataContractSerializer::get_Binder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x615072c;
+  constexpr static std::size_t addrs = 0x61581a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::NetDataContractSerializer*>(), { "get_Binder", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::ISurrogateSelector* (::System::Runtime::Serialization::NetDataContractSerializer::*)()>(
     &::System::Runtime::Serialization::NetDataContractSerializer::get_SurrogateSelector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6150734;
+  constexpr static std::size_t addrs = 0x61581b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::NetDataContractSerializer::*)()>(
     &::System::Runtime::Serialization::NetDataContractSerializer::get_MaxItemsInObjectGraph)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x615073c;
+  constexpr static std::size_t addrs = 0x61581b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::NetDataContractSerializer::*)()>(
     &::System::Runtime::Serialization::NetDataContractSerializer::get_IgnoreExtensionDataObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6150744;
+  constexpr static std::size_t addrs = 0x61581c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::NetDataContractSerializer::*)(::System::Xml::XmlDictionaryWriter*, ::System::Object*)>(
     &::System::Runtime::Serialization::NetDataContractSerializer::WriteStartObject)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x615074c;
+  constexpr static std::size_t addrs = 0x61581c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::NetDataContractSerializer*>(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::NetDataContractSerializer::*)(::System::Xml::XmlDictionaryWriter*, ::System::Object*)>(
     &::System::Runtime::Serialization::NetDataContractSerializer::WriteObjectContent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6150930;
+  constexpr static std::size_t addrs = 0x61583ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::NetDataContractSerializer*>(),
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Runtime::Serialization::DataContract*, ::System::Runtime::Serialization::SerializationBinder*)>(
         &::System::Runtime::Serialization::NetDataContractSerializer::WriteClrTypeInfo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6150ef4;
+  constexpr static std::size_t addrs = 0x6158970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Type*, ::System::Runtime::Serialization::SerializationBinder*,
                                                                 ::StringW, ::StringW)>(&::System::Runtime::Serialization::NetDataContractSerializer::WriteClrTypeInfo)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6151520;
+  constexpr static std::size_t addrs = 0x6158f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtim
                                                                 ::System::Runtime::Serialization::SerializationInfo*)>(
     &::System::Runtime::Serialization::NetDataContractSerializer::WriteClrTypeInfo)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x61515f0;
+  constexpr static std::size_t addrs = 0x615906c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Serialization::XmlWriterDelegator*, ::StringW, ::StringW)>(
     &::System::Runtime::Serialization::NetDataContractSerializer::WriteClrTypeInfo)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x61513f8;
+  constexpr static std::size_t addrs = 0x6158e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::NetDataContractSerializer::*)(::System::Xml::XmlDictionaryWriter*)>(
     &::System::Runtime::Serialization::NetDataContractSerializer::WriteEndObject)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6151740;
+  constexpr static std::size_t addrs = 0x61591bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::NetDataContractSerializer*>(),
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::NetDataContractSerializer::*)(::System::Xml::XmlDictionaryReader*, bool)>(
     &::System::Runtime::Serialization::NetDataContractSerializer::ReadObject)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x61518f8;
+  constexpr static std::size_t addrs = 0x6159374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::NetDataContractSerializer*>(),
@@ -236,7 +236,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serial
                                                                                                                       ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Serialization::NetDataContractSerializer::GetSurrogate)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x615197c;
+  constexpr static std::size_t addrs = 0x61593f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                     ::System::RuntimeTypeHandle, ::System::Type*, ::by_ref<::System::Collections::Hashtable*>)>(
         &::System::Runtime::Serialization::NetDataContractSerializer::GetDataContractFromSurrogateSelector)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x6151a50;
+  constexpr static std::size_t addrs = 0x61594cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::TypeInformation* (*)(::System::Type*)>(
     &::System::Runtime::Serialization::NetDataContractSerializer::GetTypeInformation)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6151088;
+  constexpr static std::size_t addrs = 0x6158b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW)>(&::System::Runtime::Serialization::NetDataContractSerializer::IsAssemblyNameForwardingSafe)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x615128c;
+  constexpr static std::size_t addrs = 0x6158d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::NetDataContractSerializer*>(),
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::System::Runtime::Serialization::NetDataContractSerializer::IsPublicKeyTokenForwardingSafe)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6151e04;
+  constexpr static std::size_t addrs = 0x6159880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

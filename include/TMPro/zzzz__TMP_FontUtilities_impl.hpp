@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_FontUtilities.hpp"
+// IWYU pragma private; include "TMPro\TMP_FontUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_FontUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (*)(::TMPro::TMP_FontAsset*, uint32_t, ::by_ref<::TMPro::TMP_Character*>)>(
     &::TMPro::TMP_FontUtilities::SearchForCharacter)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6955c34;
+  constexpr static std::size_t addrs = 0x695d6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (*)(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*, uint32_t,
                                                                                             ::by_ref<::TMPro::TMP_Character*>)>(&::TMPro::TMP_FontUtilities::SearchForCharacter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6956040;
+  constexpr static std::size_t addrs = 0x695dabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (*)(::TMPro::TMP_FontAsset*, uint32_t, ::by_ref<::TMPro::TMP_Character*>)>(
     &::TMPro::TMP_FontUtilities::SearchForCharacterInternal)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x6955d28;
+  constexpr static std::size_t addrs = 0x695d7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (*)(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*, uint32_t,
                                                                                             ::by_ref<::TMPro::TMP_Character*>)>(&::TMPro::TMP_FontUtilities::SearchForCharacterInternal)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6956044;
+  constexpr static std::size_t addrs = 0x695dac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

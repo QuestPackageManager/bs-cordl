@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlUTF8TextReader.hpp"
+// IWYU pragma private; include "System\Xml\XmlUTF8TextReader.hpp"
 #include "System/Xml/zzzz__XmlBaseReader_impl.hpp"
 #include "System/Xml/zzzz__XmlUTF8TextReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x612237c;
+  constexpr static std::size_t addrs = 0x6129df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)(::System::IO::Stream*, ::System::Text::Encoding*, ::System::Xml::XmlDictionaryReaderQuotas*,
                                                                                                   ::System::Xml::OnXmlDictionaryReaderClose*)>(&::System::Xml::XmlUTF8TextReader::SetInput)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6122444;
+  constexpr static std::size_t addrs = 0x6129ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)(::System::Xml::XmlDictionaryReaderQuotas*, ::System::Xml::OnXmlDictionaryReaderClose*)>(
     &::System::Xml::XmlUTF8TextReader::MoveToInitial)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x612252c;
+  constexpr static std::size_t addrs = 0x6129fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::Close)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6122568;
+  constexpr static std::size_t addrs = 0x6129fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::SkipWhitespace)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6122658;
+  constexpr static std::size_t addrs = 0x612a0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "SkipWhitespace", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::ReadDeclaration)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x6122728;
+  constexpr static std::size_t addrs = 0x612a1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadDeclaration", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)(::StringW)>(&::System::Xml::XmlUTF8TextReader::VerifyNCName)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x612327c;
+  constexpr static std::size_t addrs = 0x612acf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)(::System::Xml::PrefixHandle*, ::System::Xml::StringHandle*)>(
     &::System::Xml::XmlUTF8TextReader::ReadQualifiedName)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x6123638;
+  constexpr static std::size_t addrs = 0x612b0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlUTF8TextReader::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8TextReader::ReadAttributeText)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x61239ac;
+  constexpr static std::size_t addrs = 0x612b428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::ReadAttributes)> {
   constexpr static std::size_t size = 0x5e8;
-  constexpr static std::size_t addrs = 0x6122c38;
+  constexpr static std::size_t addrs = 0x612a6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadAttributes", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::ReadNonFFFE)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6123bac;
+  constexpr static std::size_t addrs = 0x612b628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadNonFFFE", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlUTF8TextReader::*)(::ArrayW<uint8_t>, int32_t)>(&::System::Xml::XmlUTF8TextReader::IsNextCharacterNonFFFE)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6123d2c;
+  constexpr static std::size_t addrs = 0x612b7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::BufferElement)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6122a70;
+  constexpr static std::size_t addrs = 0x612a4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "BufferElement", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::ReadStartElement)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x6123d90;
+  constexpr static std::size_t addrs = 0x612b80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadStartElement", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::ReadEndElement)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x6123f90;
+  constexpr static std::size_t addrs = 0x612ba0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadEndElement", {}, {} })));
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::ReadComment)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x6124224;
+  constexpr static std::size_t addrs = 0x612bca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadComment", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::ReadCData)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x612455c;
+  constexpr static std::size_t addrs = 0x612bfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadCData", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::ReadCharRef)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6123b10;
+  constexpr static std::size_t addrs = 0x612b58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadCharRef", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::ReadWhitespace)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6124804;
+  constexpr static std::size_t addrs = 0x612c280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadWhitespace", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlUTF8TextReader::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8TextReader::ReadWhitespace)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x61248cc;
+  constexpr static std::size_t addrs = 0x612c348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlUTF8TextReader::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8TextReader::ReadText)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6124a68;
+  constexpr static std::size_t addrs = 0x612c4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlUTF8TextReader::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::XmlUTF8TextReader::ReadTextAndWatchForInvalidCharacters)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6124b50;
+  constexpr static std::size_t addrs = 0x612c5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlUTF8TextReader::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlUTF8TextReader::BreakText)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x61249b4;
+  constexpr static std::size_t addrs = 0x612c430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)(bool)>(&::System::Xml::XmlUTF8TextReader::ReadText)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6124d00;
+  constexpr static std::size_t addrs = 0x612c77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadText", {}, { ::i2c::type_of<bool>() } })));
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::ReadEscapedText)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6124e88;
+  constexpr static std::size_t addrs = 0x612c904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "ReadEscapedText", {}, {} })));
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::Read)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x6124f58;
+  constexpr static std::size_t addrs = 0x612c9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::HasLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6125434;
+  constexpr static std::size_t addrs = 0x612ceb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "HasLineInfo", {}, {} })));
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::get_LineNumber)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x612543c;
+  constexpr static std::size_t addrs = 0x612ceb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "get_LineNumber", {}, {} })));
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlUTF8TextReader::*)()>(&::System::Xml::XmlUTF8TextReader::get_LinePosition)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x612551c;
+  constexpr static std::size_t addrs = 0x612cf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUTF8TextReader*>(), { "get_LinePosition", {}, {} })));
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUTF8TextReader::*)(::by_ref<int32_t>, ::by_ref<int32_t>)>(&::System::Xml::XmlUTF8TextReader::GetPosition)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x612545c;
+  constexpr static std::size_t addrs = 0x612ced8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

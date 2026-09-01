@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/HtmlEncodedRawTextWriterIndent.hpp"
+// IWYU pragma private; include "System\Xml\HtmlEncodedRawTextWriterIndent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,32 +42,32 @@ public:
   /// @brief Field newLineOnAttributes, offset 0x100, size 0x1
   __declspec(property(get = __cordl_internal_get_newLineOnAttributes, put = __cordl_internal_set_newLineOnAttributes)) bool newLineOnAttributes;
 
-  /// @brief Method FlushBuffer, addr 0x61a83dc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FlushBuffer, addr 0x61afe58, size 0x24, virtual true, abstract: false, final false
   inline void FlushBuffer();
 
-  /// @brief Method Init, addr 0x61a7fc8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x61afa44, size 0x24, virtual false, abstract: false, final false
   inline void Init(::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::HtmlEncodedRawTextWriterIndent* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::HtmlEncodedRawTextWriterIndent* New_ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method StartElementContent, addr 0x61a825c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method StartElementContent, addr 0x61afcd8, size 0x70, virtual true, abstract: false, final false
   inline void StartElementContent();
 
-  /// @brief Method WriteDocType, addr 0x61a8034, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteDocType, addr 0x61afab0, size 0x1c, virtual true, abstract: false, final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteEndElement, addr 0x61a82cc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x61afd48, size 0xa0, virtual true, abstract: false, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteIndent, addr 0x61a8214, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteIndent, addr 0x61afc90, size 0x48, virtual false, abstract: false, final false
   inline void WriteIndent();
 
-  /// @brief Method WriteStartAttribute, addr 0x61a836c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteStartAttribute, addr 0x61afde8, size 0x70, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartElement, addr 0x61a8050, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x61afacc, size 0x1c4, virtual true, abstract: false, final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
   constexpr int32_t const& __cordl_internal_get_endBlockPos() const;
@@ -94,10 +94,10 @@ public:
 
   constexpr void __cordl_internal_set_newLineOnAttributes(bool value);
 
-  /// @brief Method .ctor, addr 0x61a7fec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61afa68, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method .ctor, addr 0x61a7f80, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61af9fc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
 protected:
@@ -115,7 +115,7 @@ public:
   HtmlEncodedRawTextWriterIndent(HtmlEncodedRawTextWriterIndent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9269 };
 
   /// @brief Field indentLevel, offset: 0xec, size: 0x4, def value: None
   int32_t ___indentLevel;

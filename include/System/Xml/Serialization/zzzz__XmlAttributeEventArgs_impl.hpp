@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlAttributeEventArgs.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlAttributeEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlAttributeEventArgs_def.hpp"
 #include "System/Xml/zzzz__XmlAttribute_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlAttributeEventArgs::*)(::System::Xml::XmlAttribute*, int32_t, int32_t, ::System::Object*, ::StringW)>(
     &::System::Xml::Serialization::XmlAttributeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x62e3a20;
+  constexpr static std::size_t addrs = 0x62eb49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlAttributeEventArgs*>(),

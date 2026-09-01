@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNodeHelper.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\Cache\XPathNodeHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNodeHelper_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>, int32_t, ::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>)>(
     &::MS::Internal::Xml::Cache::XPathNodeHelper::GetLocalNamespaces)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x62733d0;
+  constexpr static std::size_t addrs = 0x627ae4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNodeHelper*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>, int32_t, ::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>)>(
     &::MS::Internal::Xml::Cache::XPathNodeHelper::GetInScopeNamespaces)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6273440;
+  constexpr static std::size_t addrs = 0x627aebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::Cache::XPathNodeHelper*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>, ::by_ref<int32_t>)>(
     &::MS::Internal::Xml::Cache::XPathNodeHelper::GetParent)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x627371c;
+  constexpr static std::size_t addrs = 0x627b198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::MS::Internal::Xml::Cache::XPathNode>, int32_t)>(&::MS::Internal::Xml::Cache::XPathNodeHelper::GetLocation)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6273b0c;
+  constexpr static std::size_t addrs = 0x627b588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>, ::by_ref<int32_t>, ::ArrayW<::MS::Internal::Xml::Cache::XPathNode>,
                                                                 int32_t)>(&::MS::Internal::Xml::Cache::XPathNodeHelper::GetTextFollowing)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6272f6c;
+  constexpr static std::size_t addrs = 0x627a9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>>, ::by_ref<int32_t>)>(
     &::MS::Internal::Xml::Cache::XPathNodeHelper::GetNonDescendant)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6272ef0;
+  constexpr static std::size_t addrs = 0x627a96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

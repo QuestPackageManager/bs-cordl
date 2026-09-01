@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/MethodCallExpressionN.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\MethodCallExpressionN.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetArgument, addr 0x5f7f57c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x5f86ff8, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::MethodCallExpressionN* New_ctor(::System::Reflection::MethodInfo* method,
                                                                              ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
 
-  /// @brief Method Rewrite, addr 0x5f7f6d4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x5f87150, size 0x78, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::MethodCallExpression* Rewrite(::System::Linq::Expressions::Expression* instance,
                                                                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
 
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method .ctor, addr 0x5f7f558, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f86fd4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* method, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
 
-  /// @brief Method get_ArgumentCount, addr 0x5f7f630, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x5f870ac, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -84,7 +84,7 @@ public:
   MethodCallExpressionN(MethodCallExpressionN const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16205 };
 
   /// @brief Field _arguments, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* ____arguments;

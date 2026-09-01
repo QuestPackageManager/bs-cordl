@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames/Analytics/NavigationEventSender.hpp"
+// IWYU pragma private; include "BeatGames\Analytics\NavigationEventSender.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatGames/Analytics/zzzz__NavigationEventSender_def.hpp"
 #include "OSCE/Analytics/zzzz__AnalyticsManager_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::NavigationEventSender::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatGames::Analytics::NavigationEventSender::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3254770;
+  constexpr static std::size_t addrs = 0x3257a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::NavigationEventSender::*)(::StringW)>(&::BeatGames::Analytics::NavigationEventSender::SendScreenImpression)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3254788;
+  constexpr static std::size_t addrs = 0x3257a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::NavigationEventSender::*)(::StringW, ::StringW)>(
     &::BeatGames::Analytics::NavigationEventSender::SendButtonClick)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x32548ec;
+  constexpr static std::size_t addrs = 0x3257bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

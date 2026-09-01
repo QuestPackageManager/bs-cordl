@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/Long64.hpp"
+// IWYU pragma private; include "Unity\Collections\Long64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
                    ::Unity::Collections::Long8 f5, ::Unity::Collections::Long8 f6, ::Unity::Collections::Long8 f7) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15561 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };

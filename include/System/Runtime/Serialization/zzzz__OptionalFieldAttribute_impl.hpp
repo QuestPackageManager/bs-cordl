@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/OptionalFieldAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\OptionalFieldAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__OptionalFieldAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::OptionalFieldAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::OptionalFieldAttribute::*)()>(&::System::Runtime::Serialization::OptionalFieldAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b50aa8;
+  constexpr static std::size_t addrs = 0x5b54f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::OptionalFieldAttribute*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::OptionalFieldAttribute::*)(int32_t)>(
     &::System::Runtime::Serialization::OptionalFieldAttribute::set_VersionAdded)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5b50ab4;
+  constexpr static std::size_t addrs = 0x5b54f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

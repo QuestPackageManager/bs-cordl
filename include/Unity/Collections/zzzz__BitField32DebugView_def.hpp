@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/BitField32DebugView.hpp"
+// IWYU pragma private; include "Unity\Collections\BitField32DebugView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_BitField(::Unity::Collections::BitField32 value);
 
-  /// @brief Method .ctor, addr 0x64a4094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64abb10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::BitField32 bitfield);
 
-  /// @brief Method get_Bits, addr 0x64a409c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Bits, addr 0x64abb18, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<bool> get_Bits();
 
 protected:
@@ -58,7 +58,7 @@ public:
   BitField32DebugView(BitField32DebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15553 };
 
   /// @brief Field BitField, offset: 0x10, size: 0x4, def value: None
   ::Unity::Collections::BitField32 ___BitField;

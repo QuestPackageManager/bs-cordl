@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrQuaternionf.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrQuaternionf.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrQuaternionf_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69ef418;
+  constexpr static std::size_t addrs = 0x69f6e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69ef42c;
+  constexpr static std::size_t addrs = 0x69f6ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

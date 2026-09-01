@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Dns.hpp"
+// IWYU pragma private; include "System\Net\Dns.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,18 +52,18 @@ namespace System::Net {
 class CORDL_TYPE Dns_GetHostAddressesCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x642475c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x642c1d8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW hostName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x642488c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x642c308, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::IPAddress*> EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6425354, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642cdd0, size 0x14, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::IPAddress*> Invoke(::StringW hostName);
 
   static inline ::System::Net::Dns_GetHostAddressesCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x64246e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642c15c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -81,7 +81,7 @@ public:
   Dns_GetHostAddressesCallback(Dns_GetHostAddressesCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11586 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -98,46 +98,46 @@ public:
   // Declarations
   using GetHostAddressesCallback = ::System::Net::Dns_GetHostAddressesCallback;
 
-  /// @brief Method BeginGetHostAddresses, addr 0x6424550, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method BeginGetHostAddresses, addr 0x642bfcc, size 0x190, virtual false, abstract: false, final false
   static inline ::System::IAsyncResult* BeginGetHostAddresses(::StringW hostNameOrAddress, ::System::AsyncCallback* requestCallback, ::System::Object* state);
 
-  /// @brief Method EndGetHostAddresses, addr 0x642477c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method EndGetHostAddresses, addr 0x642c1f8, size 0x110, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::IPAddress*> EndGetHostAddresses(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Error_11001, addr 0x64248a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Error_11001, addr 0x642c320, size 0x64, virtual false, abstract: false, final false
   static inline void Error_11001(::StringW hostName);
 
-  /// @brief Method GetHostAddresses, addr 0x6425024, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetHostAddresses, addr 0x642caa0, size 0x1e0, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::IPAddress*> GetHostAddresses(::StringW hostNameOrAddress);
 
-  /// @brief Method GetHostAddressesAsync, addr 0x6425228, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetHostAddressesAsync, addr 0x642cca4, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::ArrayW<::System::Net::IPAddress*>>* GetHostAddressesAsync(::StringW hostNameOrAddress);
 
-  /// @brief Method GetHostByAddr_icall, addr 0x642489c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetHostByAddr_icall, addr 0x642c318, size 0x4, virtual false, abstract: false, final false
   static inline bool GetHostByAddr_icall(::StringW addr, ::by_ref<::StringW> h_name, ::by_ref<::ArrayW<::StringW>> h_aliases, ::by_ref<::ArrayW<::StringW>> h_addr_list, int32_t hint);
 
-  /// @brief Method GetHostByAddressFromString, addr 0x6424c18, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetHostByAddressFromString, addr 0x642c694, size 0x13c, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetHostByAddressFromString(::StringW address, bool parse);
 
-  /// @brief Method GetHostByName, addr 0x6424f38, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetHostByName, addr 0x642c9b4, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetHostByName(::StringW hostName);
 
-  /// @brief Method GetHostByName_icall, addr 0x6424898, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetHostByName_icall, addr 0x642c314, size 0x4, virtual false, abstract: false, final false
   static inline bool GetHostByName_icall(::StringW host, ::by_ref<::StringW> h_name, ::by_ref<::ArrayW<::StringW>> h_aliases, ::by_ref<::ArrayW<::StringW>> h_addr_list, int32_t hint);
 
-  /// @brief Method GetHostEntry, addr 0x6424ed0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetHostEntry, addr 0x642c94c, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetHostEntry(::System::Net::IPAddress* address);
 
-  /// @brief Method GetHostEntry, addr 0x6424d54, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetHostEntry, addr 0x642c7d0, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetHostEntry(::StringW hostNameOrAddress);
 
-  /// @brief Method GetHostName, addr 0x6425204, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetHostName, addr 0x642cc80, size 0x24, virtual false, abstract: false, final false
   static inline ::StringW GetHostName();
 
-  /// @brief Method GetHostName_icall, addr 0x64248a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetHostName_icall, addr 0x642c31c, size 0x4, virtual false, abstract: false, final false
   static inline bool GetHostName_icall(::by_ref<::StringW> h_name);
 
-  /// @brief Method hostent_to_IPHostEntry, addr 0x6424908, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method hostent_to_IPHostEntry, addr 0x642c384, size 0x310, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* hostent_to_IPHostEntry(::StringW originalHostName, ::StringW h_name, ::ArrayW<::StringW> h_aliases, ::ArrayW<::StringW> h_addrlist);
 
 protected:
@@ -155,7 +155,7 @@ public:
   Dns(Dns const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11587 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

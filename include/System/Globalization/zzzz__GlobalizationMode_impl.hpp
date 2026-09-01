@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/GlobalizationMode.hpp"
+// IWYU pragma private; include "System\Globalization\GlobalizationMode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__GlobalizationMode_def.hpp"
 //  Writing Method size for method: ::System::Globalization::GlobalizationMode.get_Invariant
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Globalization::GlobalizationMode::get_Invariant)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bc0924;
+  constexpr static std::size_t addrs = 0x5bc4de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::GlobalizationMode*>(), { "get_Invariant", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Globalization::GlobalizationMode::GetGlobalizationInvariantMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bc0980;
+  constexpr static std::size_t addrs = 0x5bc4e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/BuildingBlocks/InstallationRoutineCheckpoint.hpp"
+// IWYU pragma private; include "Meta\XR\BuildingBlocks\InstallationRoutineCheckpoint.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__InstallationRoutineCheckpoint_def.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__VariantCheckpoint_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint::*)()>(
     &::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint::get_InstallationRoutineId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a37f80;
+  constexpr static std::size_t addrs = 0x5a3c43c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* (
     ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint::*)()>(&::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint::get_InstallationVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a37f88;
+  constexpr static std::size_t addrs = 0x5a3c444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint::*)(
     ::StringW, ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>*)>(&::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a37f90;
+  constexpr static std::size_t addrs = 0x5a3c44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

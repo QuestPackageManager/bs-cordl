@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataRowChangeEventHandler.hpp"
+// IWYU pragma private; include "System\Data\DataRowChangeEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Data/zzzz__DataRowChangeEventHandler_def.hpp"
 #include "System/Data/zzzz__DataRowChangeEventArgs_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRowChangeEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::Data::DataRowChangeEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6025e34;
+  constexpr static std::size_t addrs = 0x602d8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRowChangeEventHandler::*)(::System::Object*, ::System::Data::DataRowChangeEventArgs*)>(
     &::System::Data::DataRowChangeEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6025f7c;
+  constexpr static std::size_t addrs = 0x602d9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

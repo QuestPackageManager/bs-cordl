@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VFXManager.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VFXManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,53 +49,53 @@ public:
   /// @brief Field kDefaultCameraXRSettings, offset 0xffffffff, size 0xc
   __declspec(property(get = getStaticF_kDefaultCameraXRSettings, put = setStaticF_kDefaultCameraXRSettings)) ::UnityEngine::VFX::VFXCameraXRSettings kDefaultCameraXRSettings;
 
-  /// @brief Method Internal_ProcessCameraCommand, addr 0x6e253a8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Internal_ProcessCameraCommand, addr 0x6e2cf2c, size 0x10c, virtual false, abstract: false, final false
   static inline void Internal_ProcessCameraCommand(::UnityEngine::Camera* cam, ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings,
                                                    ::System::IntPtr cullResults);
 
-  /// @brief Method Internal_ProcessCameraCommand_Injected, addr 0x6e254b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Internal_ProcessCameraCommand_Injected, addr 0x6e2d038, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_ProcessCameraCommand_Injected(::System::IntPtr cam, ::System::IntPtr cmd, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings> camXRSettings, ::System::IntPtr cullResults);
 
-  /// @brief Method IsCameraBufferNeeded, addr 0x6e25510, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsCameraBufferNeeded, addr 0x6e2d094, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXCameraBufferTypes IsCameraBufferNeeded(::UnityEngine::Camera* cam);
 
-  /// @brief Method IsCameraBufferNeeded_Injected, addr 0x6e255dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsCameraBufferNeeded_Injected, addr 0x6e2d160, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXCameraBufferTypes IsCameraBufferNeeded_Injected(::System::IntPtr cam);
 
-  /// @brief Method PrepareCamera, addr 0x6e25190, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PrepareCamera, addr 0x6e2cd14, size 0x68, virtual false, abstract: false, final false
   static inline void PrepareCamera(::UnityEngine::Camera* cam);
 
-  /// @brief Method PrepareCamera, addr 0x6e251f8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method PrepareCamera, addr 0x6e2cd7c, size 0xe4, virtual false, abstract: false, final false
   static inline void PrepareCamera(::UnityEngine::Camera* cam, ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings);
 
-  /// @brief Method PrepareCamera_Injected, addr 0x6e252dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PrepareCamera_Injected, addr 0x6e2ce60, size 0x44, virtual false, abstract: false, final false
   static inline void PrepareCamera_Injected(::System::IntPtr cam, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings> camXRSettings);
 
-  /// @brief Method ProcessCameraCommand, addr 0x6e25320, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ProcessCameraCommand, addr 0x6e2cea4, size 0x88, virtual false, abstract: false, final false
   static inline void ProcessCameraCommand(::UnityEngine::Camera* cam, ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::VFX::VFXCameraXRSettings camXRSettings,
                                           ::UnityEngine::Rendering::CullingResults results);
 
-  /// @brief Method SetCameraBuffer, addr 0x6e25618, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetCameraBuffer, addr 0x6e2d19c, size 0x144, virtual false, abstract: false, final false
   static inline void SetCameraBuffer(::UnityEngine::Camera* cam, ::UnityEngine::VFX::VFXCameraBufferTypes type, ::UnityEngine::Texture* buffer, int32_t x, int32_t y, int32_t width, int32_t height);
 
-  /// @brief Method SetCameraBuffer_Injected, addr 0x6e2575c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetCameraBuffer_Injected, addr 0x6e2d2e0, size 0x84, virtual false, abstract: false, final false
   static inline void SetCameraBuffer_Injected(::System::IntPtr cam, ::UnityEngine::VFX::VFXCameraBufferTypes type, ::System::IntPtr buffer, int32_t x, int32_t y, int32_t width, int32_t height);
 
   static inline ::UnityEngine::VFX::VFXCameraXRSettings getStaticF_kDefaultCameraXRSettings();
 
-  /// @brief Method get_fixedTimeStep, addr 0x6e25118, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_fixedTimeStep, addr 0x6e2cc9c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_fixedTimeStep();
 
-  /// @brief Method get_maxDeltaTime, addr 0x6e25140, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_maxDeltaTime, addr 0x6e2ccc4, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_maxDeltaTime();
 
-  /// @brief Method get_maxScrubTime, addr 0x6e25168, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_maxScrubTime, addr 0x6e2ccec, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_maxScrubTime();
 
-  /// @brief Method get_runtimeResources, addr 0x6e24fb4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_runtimeResources, addr 0x6e2cb38, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> get_runtimeResources();
 
-  /// @brief Method get_runtimeResources_Injected, addr 0x6e250f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_runtimeResources_Injected, addr 0x6e2cc74, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_runtimeResources_Injected();
 
   static inline void setStaticF_kDefaultCameraXRSettings(::UnityEngine::VFX::VFXCameraXRSettings value);
@@ -115,7 +115,7 @@ public:
   VFXManager(VFXManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

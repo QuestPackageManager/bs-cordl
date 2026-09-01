@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/AspMvcActionAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\AspMvcActionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__AnonymousProperty_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e36574, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e0f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6e36578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e0fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW anonymousProperty);
 
-  /// @brief Method get_AnonymousProperty, addr 0x6e36580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnonymousProperty, addr 0x6e3e104, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AnonymousProperty();
 
-  /// @brief Method set_AnonymousProperty, addr 0x6e36588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnonymousProperty, addr 0x6e3e10c, size 0x8, virtual false, abstract: false, final false
   inline void set_AnonymousProperty(::StringW value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   AspMvcActionAttribute(AspMvcActionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22567 };
 
   /// @brief Field <AnonymousProperty>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____AnonymousProperty_k__BackingField;

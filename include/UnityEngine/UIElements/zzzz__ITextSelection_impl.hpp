@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ITextSelection.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ITextSelection.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextSelection_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"

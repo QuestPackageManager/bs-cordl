@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/SM2KeyExchangePrivateParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\SM2KeyExchangePrivateParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,23 +90,23 @@ public:
 
   constexpr void __cordl_internal_set_mStaticPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x3413678, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3417438, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(bool initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
                     ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
-  /// @brief Method get_EphemeralPrivateKey, addr 0x34138ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPrivateKey, addr 0x34176ac, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_EphemeralPrivateKey();
 
-  /// @brief Method get_EphemeralPublicPoint, addr 0x34138f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicPoint, addr 0x34176b4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_EphemeralPublicPoint();
 
-  /// @brief Method get_IsInitiator, addr 0x34138d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsInitiator, addr 0x3417694, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsInitiator();
 
-  /// @brief Method get_StaticPrivateKey, addr 0x34138dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPrivateKey, addr 0x341769c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_StaticPrivateKey();
 
-  /// @brief Method get_StaticPublicPoint, addr 0x34138e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPublicPoint, addr 0x34176a4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_StaticPublicPoint();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

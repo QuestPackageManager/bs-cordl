@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/UInt32Converter.hpp"
+// IWYU pragma private; include "System\ComponentModel\UInt32Converter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,21 +32,21 @@ public:
   // Declarations
   __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x63c2478, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x63c9ef4, size 0x34, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x63c23f0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x63c9e6c, size 0x88, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::UInt32Converter* New_ctor();
 
-  /// @brief Method ToString, addr 0x63c24ac, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63c9f28, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x63c2544, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c9fc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TargetType, addr 0x63c23c0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x63c9e3c, size 0x30, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:
@@ -64,7 +64,7 @@ public:
   UInt32Converter(UInt32Converter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11306 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

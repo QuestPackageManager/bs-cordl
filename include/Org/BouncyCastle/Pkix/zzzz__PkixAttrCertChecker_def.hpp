@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixAttrCertChecker.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixAttrCertChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35b89a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bc764, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

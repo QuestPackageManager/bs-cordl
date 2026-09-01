@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ServiceModel/Internals/LocalAppContextSwitches.hpp"
+// IWYU pragma private; include "System\ServiceModel\Internals\LocalAppContextSwitches.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ServiceModel/Internals/zzzz__LocalAppContextSwitches_def.hpp"
 inline void System::ServiceModel::Internals::LocalAppContextSwitches::setStaticF_IncludeNullExceptionMessageInETWTrace(bool value) {

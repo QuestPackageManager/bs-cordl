@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BaseStateTransition.hpp"
+// IWYU pragma private; include "GlobalNamespace\BaseStateTransition.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Tweening::TimeTweeningManager> (::GlobalNamespace::BaseStateTransition::*)()>(
     &::GlobalNamespace::BaseStateTransition::get_tweeningManager)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x643ab60;
+  constexpr static std::size_t addrs = 0x64425dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { "get_tweeningManager", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::SelectableStateController_ViewState)>(
     &::GlobalNamespace::BaseStateTransition::SetState)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x643ab78;
+  constexpr static std::size_t addrs = 0x64425f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::OnEnable)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x643ac00;
+  constexpr static std::size_t addrs = 0x644267c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { "OnEnable", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::OnDisable)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x643ad60;
+  constexpr static std::size_t addrs = 0x64427dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { "OnDisable", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::OnDestroy)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x643aeac;
+  constexpr static std::size_t addrs = 0x6442928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { "OnDestroy", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::SelectableStateController_ViewState, bool)>(
     &::GlobalNamespace::BaseStateTransition::HandleSelectableStateControllerStateDidChange)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x643af48;
+  constexpr static std::size_t addrs = 0x64429c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b014;
+  constexpr static std::size_t addrs = 0x6442a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b018;
+  constexpr static std::size_t addrs = 0x6442a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b01c;
+  constexpr static std::size_t addrs = 0x6442a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b020;
+  constexpr static std::size_t addrs = 0x6442a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b024;
+  constexpr static std::size_t addrs = 0x6442aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b028;
+  constexpr static std::size_t addrs = 0x6442aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b02c;
+  constexpr static std::size_t addrs = 0x6442aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b030;
+  constexpr static std::size_t addrs = 0x6442aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b034;
+  constexpr static std::size_t addrs = 0x6442ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b038;
+  constexpr static std::size_t addrs = 0x6442ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b03c;
+  constexpr static std::size_t addrs = 0x6442ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b040;
+  constexpr static std::size_t addrs = 0x6442abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b044;
+  constexpr static std::size_t addrs = 0x6442ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643b048;
+  constexpr static std::size_t addrs = 0x6442ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ".ctor", {}, {} })));

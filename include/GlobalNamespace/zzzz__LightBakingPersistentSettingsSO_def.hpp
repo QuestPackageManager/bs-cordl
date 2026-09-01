@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightBakingPersistentSettingsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightBakingPersistentSettingsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,7 +101,7 @@ public:
 
   __declspec(property(get = get_reflectionsCount, put = set_reflectionsCount)) int32_t reflectionsCount;
 
-  /// @brief Method ApplySettings, addr 0x58e0ef4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ApplySettings, addr 0x58e4508, size 0x7c, virtual false, abstract: false, final false
   inline void ApplySettings();
 
   static inline ::GlobalNamespace::LightBakingPersistentSettingsSO* New_ctor();
@@ -166,40 +166,40 @@ public:
 
   constexpr void __cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value);
 
-  /// @brief Method .ctor, addr 0x58e0f70, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4584, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakedLightDataLoaderPrefab, addr 0x58e0ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedLightDataLoaderPrefab, addr 0x58e44d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BakedLightDataLoader> get_bakedLightDataLoaderPrefab();
 
-  /// @brief Method get_bakedLightEditorColors, addr 0x58e0ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedLightEditorColors, addr 0x58e44d0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color> get_bakedLightEditorColors();
 
-  /// @brief Method get_bakedReflectionProbePrefab, addr 0x58e0ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedReflectionProbePrefab, addr 0x58e44e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BakedReflectionProbe> get_bakedReflectionProbePrefab();
 
-  /// @brief Method get_colorFromSchemeAlpha, addr 0x58e0eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorFromSchemeAlpha, addr 0x58e44c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_colorFromSchemeAlpha();
 
-  /// @brief Method get_defaultDepthOnlyWriteMaterialForFakeMirror, addr 0x58e0eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDepthOnlyWriteMaterialForFakeMirror, addr 0x58e4500, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultDepthOnlyWriteMaterialForFakeMirror();
 
-  /// @brief Method get_fakeMirrorObjectsInstallerPrefab, addr 0x58e0edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorObjectsInstallerPrefab, addr 0x58e44f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> get_fakeMirrorObjectsInstallerPrefab();
 
-  /// @brief Method get_fakeMirrorSettingsPrefab, addr 0x58e0ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorSettingsPrefab, addr 0x58e44f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::FakeMirrorSettings> get_fakeMirrorSettingsPrefab();
 
-  /// @brief Method get_lightmapLightsWithIds, addr 0x58e0ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapLightsWithIds, addr 0x58e44e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapLightsWithIds> get_lightmapLightsWithIds();
 
-  /// @brief Method get_reflectionsCount, addr 0x58e0e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionsCount, addr 0x58e44b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_reflectionsCount();
 
-  /// @brief Method set_colorFromSchemeAlpha, addr 0x58e0eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorFromSchemeAlpha, addr 0x58e44c8, size 0x8, virtual false, abstract: false, final false
   inline void set_colorFromSchemeAlpha(float_t value);
 
-  /// @brief Method set_reflectionsCount, addr 0x58e0ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionsCount, addr 0x58e44b8, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionsCount(int32_t value);
 
 protected:
@@ -217,7 +217,7 @@ public:
   LightBakingPersistentSettingsSO(LightBakingPersistentSettingsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6536 };
 
   /// @brief Field _settingsApplicator, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;

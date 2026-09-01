@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StateBuffer_3.hpp"
+// IWYU pragma private; include "GlobalNamespace\StateBuffer_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,7 +98,7 @@ public:
   constexpr StateBuffer_3_TimestampedStateTable(bool isValid, ::GlobalNamespace::SyncStateId id, int64_t time, TStateTable state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18296 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -157,7 +157,7 @@ public:
   StateBuffer_3_InterpolationDelegate(StateBuffer_3_InterpolationDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -201,7 +201,7 @@ public:
   StateBuffer_3_SmoothingDelegate(StateBuffer_3_SmoothingDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -299,7 +299,7 @@ public:
   StateBuffer_3(StateBuffer_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18299 };
 
   /// @brief Field _currentIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____currentIndex;

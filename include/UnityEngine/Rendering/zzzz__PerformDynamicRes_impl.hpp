@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/PerformDynamicRes.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\PerformDynamicRes.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__PerformDynamicRes_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::PerformDynamicRes::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::PerformDynamicRes::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x674fa4c;
+  constexpr static std::size_t addrs = 0x67574c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::PerformDynamicRes*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::PerformDynamicRes::*)()>(&::UnityEngine::Rendering::PerformDynamicRes::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x674fab4;
+  constexpr static std::size_t addrs = 0x6757530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::UnityEngine::Rendering::PerformDynamicRes::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::PerformDynamicRes::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x674fac8;
+  constexpr static std::size_t addrs = 0x6757544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::PerformDynamicRes::*)(::System::IAsyncResult*)>(&::UnityEngine::Rendering::PerformDynamicRes::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x674fae4;
+  constexpr static std::size_t addrs = 0x6757560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

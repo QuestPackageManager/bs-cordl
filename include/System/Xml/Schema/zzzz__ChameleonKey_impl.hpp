@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/ChameleonKey.hpp"
+// IWYU pragma private; include "System\Xml\Schema\ChameleonKey.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__ChameleonKey_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchema_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ChameleonKey::*)(::StringW, ::System::Xml::Schema::XmlSchema*)>(&::System::Xml::Schema::ChameleonKey::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6313a0c;
+  constexpr static std::size_t addrs = 0x631b488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ChameleonKey*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::ChameleonKey::*)()>(&::System::Xml::Schema::ChameleonKey::GetHashCode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6313a6c;
+  constexpr static std::size_t addrs = 0x631b4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::ChameleonKey::*)(::System::Object*)>(&::System::Xml::Schema::ChameleonKey::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6313af0;
+  constexpr static std::size_t addrs = 0x631b56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/Aes.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\Aes.hpp"
 #include "System/Security/Cryptography/zzzz__KeySizes_impl.hpp"
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__Aes_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::Aes::*)()>(&::System::Security::Cryptography::Aes::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5af4830;
+  constexpr static std::size_t addrs = 0x5af8cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::Aes*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::Aes* (*)()>(&::System::Security::Cryptography::Aes::Create)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5af48b8;
+  constexpr static std::size_t addrs = 0x5af8d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::Aes*>(), { "Create", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::Aes* (*)(::StringW)>(&::System::Security::Cryptography::Aes::Create)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5af4924;
+  constexpr static std::size_t addrs = 0x5af8de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

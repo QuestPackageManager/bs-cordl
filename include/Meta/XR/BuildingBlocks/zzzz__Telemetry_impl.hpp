@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/BuildingBlocks/Telemetry.hpp"
+// IWYU pragma private; include "Meta\XR\BuildingBlocks\Telemetry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__Telemetry_def.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetryMarker_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker, ::Meta::XR::BuildingBlocks::BuildingBlock*)>(
     &::Meta::XR::BuildingBlocks::Telemetry::AddBlockInfo)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5a2f430;
+  constexpr static std::size_t addrs = 0x5a338ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker, ::Meta::XR::BuildingBlocks::BuildingBlock*)>(
     &::Meta::XR::BuildingBlocks::Telemetry::AddBlockVariantInfo)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a37a88;
+  constexpr static std::size_t addrs = 0x5a3bf44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker, ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint*)>(
     &::Meta::XR::BuildingBlocks::Telemetry::AddInstallationRoutineInfo)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x5a37b48;
+  constexpr static std::size_t addrs = 0x5a3c004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker, ::UnityEngine::SceneManagement::Scene)>(
     &::Meta::XR::BuildingBlocks::Telemetry::AddSceneInfo)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5a37e74;
+  constexpr static std::size_t addrs = 0x5a3c330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

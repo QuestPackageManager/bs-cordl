@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Vector4Serializable.hpp"
+// IWYU pragma private; include "GlobalNamespace\Vector4Serializable.hpp"
 #include "GlobalNamespace/zzzz__Vector4Serializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Vector4Serializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::Vector4Serializable::Serialize)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x377c5a0;
+  constexpr static std::size_t addrs = 0x3782328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Vector4Serializable::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::Vector4Serializable::Deserialize)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x377c63c;
+  constexpr static std::size_t addrs = 0x37823c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Vector4Serializable::*)(::GlobalNamespace::Vector4Serializable)>(&::GlobalNamespace::Vector4Serializable::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x377c6c8;
+  constexpr static std::size_t addrs = 0x3782450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Vector4Serializable::*)(::GlobalNamespace::Vector4Serializable)>(
     &::GlobalNamespace::Vector4Serializable::Approximately)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x377c70c;
+  constexpr static std::size_t addrs = 0x3782494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Vector4Serializable::*)(::System::Object*)>(&::GlobalNamespace::Vector4Serializable::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x377c780;
+  constexpr static std::size_t addrs = 0x3782508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Vector4Serializable::*)()>(&::GlobalNamespace::Vector4Serializable::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x377c82c;
+  constexpr static std::size_t addrs = 0x37825b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::Vector4Serializable::*)()>(&::GlobalNamespace::Vector4Serializable::ToString)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x377c848;
+  constexpr static std::size_t addrs = 0x37825d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Vector4Serializable::*)()>(&::GlobalNamespace::Vector4Serializable::GetSize)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x377c9a8;
+  constexpr static std::size_t addrs = 0x3782730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector4Serializable>(), { "GetSize", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Vector4Serializable::*)(::UnityEngine::Vector4)>(&::GlobalNamespace::Vector4Serializable::_ctor)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x377ca74;
+  constexpr static std::size_t addrs = 0x37827fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Vector4Serializable::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::Vector4Serializable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x377cdec;
+  constexpr static std::size_t addrs = 0x3782b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::GlobalNamespace::Vector4Serializable)>(
     &::GlobalNamespace::Vector4Serializable::op_Implicit___UnityEngine__Vector4)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x377cdf4;
+  constexpr static std::size_t addrs = 0x3782b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Vector4Serializable (*)(::UnityEngine::Vector4)>(
     &::GlobalNamespace::Vector4Serializable::op_Implicit___GlobalNamespace__Vector4Serializable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x377ce28;
+  constexpr static std::size_t addrs = 0x3782bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Vector4Serializable (*)(::GlobalNamespace::Vector4Serializable, ::GlobalNamespace::Vector4Serializable)>(
     &::GlobalNamespace::Vector4Serializable::op_Addition)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x377ce4c;
+  constexpr static std::size_t addrs = 0x3782bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Vector4Serializable (*)(::GlobalNamespace::Vector4Serializable, ::GlobalNamespace::Vector4Serializable)>(
     &::GlobalNamespace::Vector4Serializable::op_Subtraction)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x377ce78;
+  constexpr static std::size_t addrs = 0x3782c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

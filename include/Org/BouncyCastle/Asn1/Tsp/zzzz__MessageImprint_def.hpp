@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Tsp/MessageImprint.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Tsp\MessageImprint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,17 +41,17 @@ public:
   /// @brief Field hashedMessage, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_hashedMessage, put = __cordl_internal_set_hashedMessage)) ::ArrayW<uint8_t> hashedMessage;
 
-  /// @brief Method GetHashedMessage, addr 0x354cb7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetHashedMessage, addr 0x355093c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetHashedMessage();
 
-  /// @brief Method GetInstance, addr 0x354c9e0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35507a0, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t> hashedMessage);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x354cb84, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3550944, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_hashAlgorithm() const;
@@ -66,13 +66,13 @@ public:
 
   constexpr void __cordl_internal_set_hashedMessage(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x354cb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355092c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t> hashedMessage);
 
-  /// @brief Method .ctor, addr 0x354ca80, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3550840, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_HashAlgorithm, addr 0x354cb74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x3550934, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
 protected:

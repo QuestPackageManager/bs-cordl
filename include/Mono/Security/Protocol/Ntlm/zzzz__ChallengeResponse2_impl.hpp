@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/ChallengeResponse2.hpp"
+// IWYU pragma private; include "Mono\Security\Protocol\Ntlm\ChallengeResponse2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__ChallengeResponse2_def.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__NtlmAuthLevel_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW, ::ArrayW<uint8_t>)>(&::Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_LM)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x5a96ab0;
+  constexpr static std::size_t addrs = 0x5a9af6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::ChallengeResponse2*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM_Password)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5a97260;
+  constexpr static std::size_t addrs = 0x5a9b71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW, ::ArrayW<uint8_t>)>(&::Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5a97368;
+  constexpr static std::size_t addrs = 0x5a9b824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::ChallengeResponse2*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<uint8_t>, ::by_ref<::ArrayW<uint8_t>>, ::by_ref<::ArrayW<uint8_t>>)>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2_Session)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5a973d8;
+  constexpr static std::size_t addrs = 0x5a9b894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Mono::Security::Protocol::Ntlm::Type2Message*, ::StringW, ::StringW, ::StringW)>(
     &::Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x5a975a4;
+  constexpr static std::size_t addrs = 0x5a9ba60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Security::Protocol::Ntlm::Type2Message*, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, ::StringW, ::StringW, ::StringW,
                                                                 ::by_ref<::ArrayW<uint8_t>>, ::by_ref<::ArrayW<uint8_t>>)>(&::Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x5a97ad8;
+  constexpr static std::size_t addrs = 0x5a9bf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Mono::Security::Protocol::Ntlm::ChallengeResponse2::GetResponse)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x5a96f5c;
+  constexpr static std::size_t addrs = 0x5a9b418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::ChallengeResponse2*>(),
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::Protocol::Ntlm::ChallengeResponse2::PrepareDESKey)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x5a97cbc;
+  constexpr static std::size_t addrs = 0x5a9c178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::ChallengeResponse2*>(),
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW, int32_t)>(&::Mono::Security::Protocol::Ntlm::ChallengeResponse2::PasswordToKey)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5a96de8;
+  constexpr static std::size_t addrs = 0x5a9b2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::ChallengeResponse2*>(),

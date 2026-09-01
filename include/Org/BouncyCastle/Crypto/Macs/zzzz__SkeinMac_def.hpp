@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/SkeinMac.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Macs\SkeinMac.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,26 +39,26 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x33ebb70, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x33ef930, size 0x18, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x33ebb88, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x33ef948, size 0x18, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method GetMacSize, addr 0x33ebb28, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0x33ef8e8, size 0x18, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x33eb8fc, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x33ef6bc, size 0x22c, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::SkeinMac* New_ctor(::Org::BouncyCastle::Crypto::Macs::SkeinMac* mac);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::SkeinMac* New_ctor(int32_t stateSizeBits, int32_t digestSizeBits);
 
-  /// @brief Method Reset, addr 0x33ebb40, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x33ef900, size 0x18, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x33ebb58, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x33ef918, size 0x18, virtual true, abstract: false, final true
   inline void Update(uint8_t inByte);
 
   constexpr ::Org::BouncyCastle::Crypto::Digests::SkeinEngine* const& __cordl_internal_get_engine() const;
@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::Digests::SkeinEngine* value);
 
-  /// @brief Method .ctor, addr 0x33eb6d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ef494, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Macs::SkeinMac* mac);
 
-  /// @brief Method .ctor, addr 0x33eb660, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ef420, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t stateSizeBits, int32_t digestSizeBits);
 
-  /// @brief Method get_AlgorithmName, addr 0x33eb74c, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x33ef50c, size 0x1b0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"

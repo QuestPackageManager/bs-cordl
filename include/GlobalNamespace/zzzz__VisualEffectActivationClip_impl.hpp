@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/VisualEffectActivationClip.hpp"
+// IWYU pragma private; include "GlobalNamespace\VisualEffectActivationClip.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__VisualEffectActivationClip_def.hpp"
 #include "GlobalNamespace/zzzz__VisualEffectActivationBehaviour_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::VisualEffectActivationClip::*)()>(
     &::GlobalNamespace::VisualEffectActivationClip::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c9a88;
+  constexpr static std::size_t addrs = 0x69d1504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VisualEffectActivationClip*>(), { "get_clipCaps", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::GlobalNamespace::VisualEffectActivationClip::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::GlobalNamespace::VisualEffectActivationClip::CreatePlayable)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x69c9a90;
+  constexpr static std::size_t addrs = 0x69d150c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VisualEffectActivationClip::*)()>(&::GlobalNamespace::VisualEffectActivationClip::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69c9b80;
+  constexpr static std::size_t addrs = 0x69d15fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VisualEffectActivationClip*>(), { ".ctor", {}, {} })));

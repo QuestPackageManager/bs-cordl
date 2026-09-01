@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CallbacksInTime.hpp"
+// IWYU pragma private; include "GlobalNamespace\CallbacksInTime.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CallbacksInTime_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CallbacksInTime::*)()>(&::GlobalNamespace::CallbacksInTime::get_isEmpty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58c47d8;
+  constexpr static std::size_t addrs = 0x58c4188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CallbacksInTime*>(), { "get_isEmpty", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(float_t)>(&::GlobalNamespace::CallbacksInTime::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x58c47f8;
+  constexpr static std::size_t addrs = 0x58c41a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CallbacksInTime*>(), { ".ctor", {}, { ::i2c::type_of<float_t>() } })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::GlobalNamespace::BeatmapDataCallbackWrapper*)>(
     &::GlobalNamespace::CallbacksInTime::AddCallback)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x58c48c4;
+  constexpr static std::size_t addrs = 0x58c4274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::GlobalNamespace::BeatmapDataCallbackWrapper*)>(
     &::GlobalNamespace::CallbacksInTime::RemoveCallback)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x58c4da8;
+  constexpr static std::size_t addrs = 0x58c4758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::GlobalNamespace::BeatmapDataItem*)>(&::GlobalNamespace::CallbacksInTime::CallCallbacks)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58c40cc;
+  constexpr static std::size_t addrs = 0x58c3a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(int32_t, ::GlobalNamespace::BeatmapDataItem*)>(
     &::GlobalNamespace::CallbacksInTime::CallCallbacks)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x58c51e8;
+  constexpr static std::size_t addrs = 0x58c4b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)()>(&::GlobalNamespace::CallbacksInTime::UpdateHasSubtypeCallbacks)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x58c50a8;
+  constexpr static std::size_t addrs = 0x58c4a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CallbacksInTime*>(), { "UpdateHasSubtypeCallbacks", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)()>(&::GlobalNamespace::CallbacksInTime::UpdateHasCallbacks)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x58c5148;
+  constexpr static std::size_t addrs = 0x58c4af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CallbacksInTime*>(), { "UpdateHasCallbacks", {}, {} })));

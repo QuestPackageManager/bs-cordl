@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Tsp/TspValidationException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Tsp\TspValidationException.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TspException_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TspValidationException_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::TspValidationException._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::TspValidationException::*)(::StringW)>(&::Org::BouncyCastle::Tsp::TspValidationException::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x361d494;
+  constexpr static std::size_t addrs = 0x3621254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::TspValidationException::*)(::StringW, int32_t)>(&::Org::BouncyCastle::Tsp::TspValidationException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x361c048;
+  constexpr static std::size_t addrs = 0x361fe08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Tsp::TspValidationException::*)()>(&::Org::BouncyCastle::Tsp::TspValidationException::get_FailureCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x362302c;
+  constexpr static std::size_t addrs = 0x3626dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TspValidationException*>(), { "get_FailureCode", {}, {} })));

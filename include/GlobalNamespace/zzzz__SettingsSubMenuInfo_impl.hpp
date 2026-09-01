@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SettingsSubMenuInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace\SettingsSubMenuInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SettingsSubMenuInfo_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::ViewController> (::GlobalNamespace::SettingsSubMenuInfo::*)()>(&::GlobalNamespace::SettingsSubMenuInfo::get_viewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a1290c;
+  constexpr static std::size_t addrs = 0x5a1aa18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsSubMenuInfo*>(), { "get_viewController", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SettingsSubMenuInfo::*)()>(&::GlobalNamespace::SettingsSubMenuInfo::get_localizedMenuName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a12914;
+  constexpr static std::size_t addrs = 0x5a1aa20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsSubMenuInfo*>(), { "get_localizedMenuName", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsSubMenuInfo::*)()>(&::GlobalNamespace::SettingsSubMenuInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a12920;
+  constexpr static std::size_t addrs = 0x5a1aa2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsSubMenuInfo*>(), { ".ctor", {}, {} })));

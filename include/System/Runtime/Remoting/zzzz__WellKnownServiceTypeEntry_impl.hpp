@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/WellKnownServiceTypeEntry.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\WellKnownServiceTypeEntry.hpp"
 #include "System/Runtime/Remoting/zzzz__TypeEntry_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__WellKnownObjectMode_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__WellKnownServiceTypeEntry_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::WellKnownServiceTypeEntry::*)(
     ::StringW, ::StringW, ::StringW, ::System::Runtime::Remoting::WellKnownObjectMode)>(&::System::Runtime::Remoting::WellKnownServiceTypeEntry::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5b2caf4;
+  constexpr static std::size_t addrs = 0x5b30fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::WellKnownObjectMode (::System::Runtime::Remoting::WellKnownServiceTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownServiceTypeEntry::get_Mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b2cbe8;
+  constexpr static std::size_t addrs = 0x5b310a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>(), { "get_Mode", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Remoting::WellKnownServiceTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownServiceTypeEntry::get_ObjectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b2cbf0;
+  constexpr static std::size_t addrs = 0x5b310ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>(), { "get_ObjectType", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::WellKnownServiceTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownServiceTypeEntry::get_ObjectUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b2cbf8;
+  constexpr static std::size_t addrs = 0x5b310b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>(), { "get_ObjectUri", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::WellKnownServiceTypeEntry::*)()>(&::System::Runtime::Remoting::WellKnownServiceTypeEntry::ToString)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5b2cc00;
+  constexpr static std::size_t addrs = 0x5b310bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>(),

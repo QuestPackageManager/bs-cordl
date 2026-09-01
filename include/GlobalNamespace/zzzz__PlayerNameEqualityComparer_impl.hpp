@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerNameEqualityComparer.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerNameEqualityComparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerNameEqualityComparer_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerNameEqualityComparer::*)(
     ::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*, ::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*)>(&::GlobalNamespace::PlayerNameEqualityComparer::Equals)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3750e68;
+  constexpr static std::size_t addrs = 0x3756a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::PlayerNameEqualityComparer::*)(::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*)>(
     &::GlobalNamespace::PlayerNameEqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3750e84;
+  constexpr static std::size_t addrs = 0x3756aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerNameEqualityComparer::*)()>(&::GlobalNamespace::PlayerNameEqualityComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3750ea8;
+  constexpr static std::size_t addrs = 0x3756acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerNameEqualityComparer*>(), { ".ctor", {}, {} })));

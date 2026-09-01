@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/UserAttributeSubpacketsParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\UserAttributeSubpacketsParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method ReadPacket, addr 0x369d988, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x36a1748, size 0x2b0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* ReadPacket();
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_input() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x369d894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a1654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
 protected:

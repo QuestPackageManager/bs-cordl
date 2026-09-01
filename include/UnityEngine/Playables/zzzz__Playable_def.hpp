@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/Playable.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\Playable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,27 +45,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x6afc6c0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6b040d8, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method Equals, addr 0x6afc8bc, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b042d4, size 0xa0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Playables::Playable other);
 
-  /// @brief Method GetHandle, addr 0x6afc7c0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6b041d8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method GetPlayableType, addr 0x6afc7cc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetPlayableType, addr 0x6b041e4, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Type* GetPlayableType();
 
   /// @brief Method IsPlayableOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsPlayableOfType();
 
-  /// @brief Method .ctor, addr 0x6afc7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b041d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Playables::Playable getStaticF_m_NullPlayable();
 
-  /// @brief Method get_Null, addr 0x6afc664, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x6b0407c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable get_Null();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::Playable>"
@@ -84,7 +84,7 @@ public:
   constexpr Playable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10671 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

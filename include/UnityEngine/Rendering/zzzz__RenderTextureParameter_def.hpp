@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderTextureParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderTextureParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,12 +23,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE RenderTextureParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::RenderTexture>> {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x67c6328, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67cdda4, size 0x108, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::RenderTextureParameter* New_ctor(::UnityEngine::RenderTexture* value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x67c62c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cdd40, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTexture* value, bool overrideState);
 
 protected:
@@ -46,7 +46,7 @@ public:
   RenderTextureParameter(RenderTextureParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

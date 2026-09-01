@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/ExceptionHelper.hpp"
+// IWYU pragma private; include "System\Net\ExceptionHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ExceptionHelper_def.hpp"
 #include "System/Net/zzzz__WebException_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::NotImplementedException* (*)()>(&::System::Net::ExceptionHelper::get_MethodNotImplementedException)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6404100;
+  constexpr static std::size_t addrs = 0x640bb7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_MethodNotImplementedException", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::NotImplementedException* (*)()>(&::System::Net::ExceptionHelper::get_PropertyNotImplementedException)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6404058;
+  constexpr static std::size_t addrs = 0x640bad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_PropertyNotImplementedException", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebException* (*)()>(&::System::Net::ExceptionHelper::get_TimeoutException)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x63fd9f8;
+  constexpr static std::size_t addrs = 0x6405474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_TimeoutException", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::NotSupportedException* (*)()>(&::System::Net::ExceptionHelper::get_PropertyNotSupportedException)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6402c90;
+  constexpr static std::size_t addrs = 0x640a70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_PropertyNotSupportedException", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebException* (*)()>(&::System::Net::ExceptionHelper::get_RequestAbortedException)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x63fb33c;
+  constexpr static std::size_t addrs = 0x6402db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ExceptionHelper*>(), { "get_RequestAbortedException", {}, {} })));

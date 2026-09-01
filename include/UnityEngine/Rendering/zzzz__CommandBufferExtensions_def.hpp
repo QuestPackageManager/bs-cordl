@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CommandBufferExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CommandBufferExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,25 +32,25 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE CommandBufferExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Internal_SwitchIntoFastMemory, addr 0x6b148b0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Internal_SwitchIntoFastMemory, addr 0x6b1c2c8, size 0xc8, virtual false, abstract: false, final false
   static inline void Internal_SwitchIntoFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt,
                                                    ::UnityEngine::Rendering::FastMemoryFlags fastMemoryFlags, float_t residency, bool copyContents);
 
-  /// @brief Method Internal_SwitchIntoFastMemory_Injected, addr 0x6b14978, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SwitchIntoFastMemory_Injected, addr 0x6b1c390, size 0x6c, virtual false, abstract: false, final false
   static inline void Internal_SwitchIntoFastMemory_Injected(::System::IntPtr cmd, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt,
                                                             ::UnityEngine::Rendering::FastMemoryFlags fastMemoryFlags, float_t residency, bool copyContents);
 
-  /// @brief Method Internal_SwitchOutOfFastMemory, addr 0x6b149e4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Internal_SwitchOutOfFastMemory, addr 0x6b1c3fc, size 0xa8, virtual false, abstract: false, final false
   static inline void Internal_SwitchOutOfFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt, bool copyContents);
 
-  /// @brief Method Internal_SwitchOutOfFastMemory_Injected, addr 0x6b14a8c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_SwitchOutOfFastMemory_Injected, addr 0x6b1c4a4, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_SwitchOutOfFastMemory_Injected(::System::IntPtr cmd, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt, bool copyContents);
 
-  /// @brief Method SwitchIntoFastMemory, addr 0x6b14ae0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SwitchIntoFastMemory, addr 0x6b1c4f8, size 0x4, virtual false, abstract: false, final false
   static inline void SwitchIntoFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier rid, ::UnityEngine::Rendering::FastMemoryFlags fastMemoryFlags,
                                           float_t residency, bool copyContents);
 
-  /// @brief Method SwitchOutOfFastMemory, addr 0x6b14ae4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SwitchOutOfFastMemory, addr 0x6b1c4fc, size 0x4, virtual false, abstract: false, final false
   static inline void SwitchOutOfFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier rid, bool copyContents);
 
 protected:
@@ -68,7 +68,7 @@ public:
   CommandBufferExtensions(CommandBufferExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10779 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

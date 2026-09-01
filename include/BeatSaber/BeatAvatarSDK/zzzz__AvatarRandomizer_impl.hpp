@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarRandomizer.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\AvatarRandomizer.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__RandomizeAvatarColorMap_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarRandomizer_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BeatSaber::BeatAvatarSDK::AvatarData*, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarRandomizer::RandomizeAll)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3277644;
+  constexpr static std::size_t addrs = 0x327b3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BeatSaber::BeatAvatarSDK::AvatarData*, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarRandomizer::RandomizeModels)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3278e48;
+  constexpr static std::size_t addrs = 0x327cbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BeatSaber::BeatAvatarSDK::AvatarData*)>(&::BeatSaber::BeatAvatarSDK::AvatarRandomizer::RandomizeColors)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x3278fdc;
+  constexpr static std::size_t addrs = 0x327cd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

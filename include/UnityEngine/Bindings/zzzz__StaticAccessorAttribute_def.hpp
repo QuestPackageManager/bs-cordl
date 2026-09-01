@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/StaticAccessorAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\StaticAccessorAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
 
-  /// @brief Method .ctor, addr 0x6bae9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb6544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6bae9c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb654c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
 
-  /// @brief Method set_Name, addr 0x6bae9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x6bb6534, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Type, addr 0x6bae9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x6bb653c, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::UnityEngine::Bindings::StaticAccessorType value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   StaticAccessorAttribute(StaticAccessorAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23122 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

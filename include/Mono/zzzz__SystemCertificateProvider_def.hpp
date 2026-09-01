@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/SystemCertificateProvider.hpp"
+// IWYU pragma private; include "Mono\SystemCertificateProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,36 +62,36 @@ public:
   /// @brief Convert operator to "::Mono::ISystemCertificateProvider"
   constexpr operator ::Mono::ISystemCertificateProvider*() noexcept;
 
-  /// @brief Method EnsureInitialized, addr 0x5fc7fc8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method EnsureInitialized, addr 0x5fcfa44, size 0x150, virtual false, abstract: false, final false
   static inline void EnsureInitialized();
 
-  /// @brief Method GetX509Pal, addr 0x5fc7f1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetX509Pal, addr 0x5fcf998, size 0x54, virtual false, abstract: false, final false
   static inline ::Mono::X509PalImpl* GetX509Pal();
 
-  /// @brief Method Import, addr 0x5fc84e4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x5fcff60, size 0x124, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert,
                                                                                           ::Mono::CertificateImportFlags importFlags);
 
-  /// @brief Method Import, addr 0x5fc83d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x5fcfe54, size 0x90, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                           ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags,
                                                                                           ::Mono::CertificateImportFlags importFlags);
 
-  /// @brief Method Import, addr 0x5fc8178, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Import, addr 0x5fcfbf4, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t> data, ::Mono::CertificateImportFlags importFlags);
 
-  /// @brief Method Mono.ISystemCertificateProvider.Import, addr 0x5fc84e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Mono.ISystemCertificateProvider.Import, addr 0x5fcff5c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Mono_ISystemCertificateProvider_Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert,
                                                                                                                          ::Mono::CertificateImportFlags importFlags);
 
-  /// @brief Method Mono.ISystemCertificateProvider.Import, addr 0x5fc83d4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Mono.ISystemCertificateProvider.Import, addr 0x5fcfe50, size 0x4, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*
   Mono_ISystemCertificateProvider_Import(::ArrayW<uint8_t> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                          ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags, ::Mono::CertificateImportFlags importFlags);
 
   static inline ::Mono::SystemCertificateProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5fc8608, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd0084, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_initialized();
@@ -100,7 +100,7 @@ public:
 
   static inline ::Mono::X509PalImpl* getStaticF_x509pal();
 
-  /// @brief Method get_X509Pal, addr 0x5fc8118, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_X509Pal, addr 0x5fcfb94, size 0x60, virtual false, abstract: false, final false
   inline ::Mono::X509PalImpl* get_X509Pal();
 
   /// @brief Convert to "::Mono::ISystemCertificateProvider"
@@ -127,7 +127,7 @@ public:
   SystemCertificateProvider(SystemCertificateProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

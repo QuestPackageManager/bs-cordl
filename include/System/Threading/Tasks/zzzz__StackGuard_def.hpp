@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/StackGuard.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\StackGuard.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,12 +23,12 @@ public:
   /// @brief Field m_inliningDepth, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_inliningDepth, put = __cordl_internal_set_m_inliningDepth)) int32_t m_inliningDepth;
 
-  /// @brief Method EndInliningScope, addr 0x5cc1a90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method EndInliningScope, addr 0x5cc5f4c, size 0x14, virtual false, abstract: false, final false
   inline void EndInliningScope();
 
   static inline ::System::Threading::Tasks::StackGuard* New_ctor();
 
-  /// @brief Method TryBeginInliningScope, addr 0x5cc1a78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TryBeginInliningScope, addr 0x5cc5f34, size 0x18, virtual false, abstract: false, final false
   inline bool TryBeginInliningScope();
 
   constexpr int32_t const& __cordl_internal_get_m_inliningDepth() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_m_inliningDepth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5cba9b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbee74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

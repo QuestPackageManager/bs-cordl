@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/PrimaryKeyTypeConverter.hpp"
+// IWYU pragma private; include "System\Data\PrimaryKeyTypeConverter.hpp"
 #include "System/ComponentModel/zzzz__ReferenceConverter_impl.hpp"
 #include "System/Data/zzzz__PrimaryKeyTypeConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::PrimaryKeyTypeConverter::*)()>(&::System::Data::PrimaryKeyTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6043448;
+  constexpr static std::size_t addrs = 0x604aec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::PrimaryKeyTypeConverter*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::PrimaryKeyTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::Data::PrimaryKeyTypeConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60434e4;
+  constexpr static std::size_t addrs = 0x604af60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::PrimaryKeyTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::Data::PrimaryKeyTypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60434ec;
+  constexpr static std::size_t addrs = 0x604af68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                       ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::Data::PrimaryKeyTypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x604356c;
+  constexpr static std::size_t addrs = 0x604afe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

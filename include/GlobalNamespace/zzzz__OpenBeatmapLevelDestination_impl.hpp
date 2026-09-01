@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OpenBeatmapLevelDestination.hpp"
+// IWYU pragma private; include "GlobalNamespace\OpenBeatmapLevelDestination.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__OpenBeatmapLevelDestination_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OpenBeatmapLevelDestination._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OpenBeatmapLevelDestination::*)(::StringW)>(&::GlobalNamespace::OpenBeatmapLevelDestination::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3703bc4;
+  constexpr static std::size_t addrs = 0x3707fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

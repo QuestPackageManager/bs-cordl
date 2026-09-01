@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/BufferUtils.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\BufferUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,13 +24,13 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE BufferUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnsureBufferSize, addr 0x5d258c8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method EnsureBufferSize, addr 0x5d29d84, size 0x144, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t> EnsureBufferSize(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t size, ::ArrayW<char16_t> buffer);
 
-  /// @brief Method RentBuffer, addr 0x5d2572c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RentBuffer, addr 0x5d29be8, size 0xdc, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t> RentBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t minSize);
 
-  /// @brief Method ReturnBuffer, addr 0x5d25808, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ReturnBuffer, addr 0x5d29cc4, size 0xc0, virtual false, abstract: false, final false
   static inline void ReturnBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t> buffer);
 
 protected:
@@ -48,7 +48,7 @@ public:
   BufferUtils(BufferUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

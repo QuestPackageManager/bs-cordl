@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/WaypointData.hpp"
+// IWYU pragma private; include "GlobalNamespace\WaypointData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ public:
 
   __declspec(property(get = get_offsetDirection, put = set_offsetDirection)) ::GlobalNamespace::OffsetDirection offsetDirection;
 
-  /// @brief Method GetCopy, addr 0x325ad04, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x325e004, size 0x94, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method Mirror, addr 0x325add4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0x325e0d4, size 0x20, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
-  /// @brief Method MirrorTransformOffsetDirection, addr 0x325adf4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MirrorTransformOffsetDirection, addr 0x325e0f4, size 0x24, virtual false, abstract: false, final false
   inline void MirrorTransformOffsetDirection();
 
   static inline ::GlobalNamespace::WaypointData* New_ctor(float_t time, float_t beat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer,
@@ -78,25 +78,25 @@ public:
 
   constexpr void __cordl_internal_set__offsetDirection_k__BackingField(::GlobalNamespace::OffsetDirection value);
 
-  /// @brief Method .ctor, addr 0x325ad98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325e098, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t beat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method get_lineIndex, addr 0x325ace4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x325dfe4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x325acf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x325dff4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_offsetDirection, addr 0x325acd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetDirection, addr 0x325dfd4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OffsetDirection get_offsetDirection();
 
-  /// @brief Method set_lineIndex, addr 0x325acec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x325dfec, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method set_lineLayer, addr 0x325acfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineLayer, addr 0x325dffc, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method set_offsetDirection, addr 0x325acdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offsetDirection, addr 0x325dfdc, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetDirection(::GlobalNamespace::OffsetDirection value);
 
 protected:
@@ -114,7 +114,7 @@ public:
   WaypointData(WaypointData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21279 };
 
   /// @brief Field <offsetDirection>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::OffsetDirection ____offsetDirection_k__BackingField;

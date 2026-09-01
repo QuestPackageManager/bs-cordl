@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/Task_DelayPromise.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\Task_DelayPromise.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
   /// @brief Field Token, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_Token, put = __cordl_internal_set_Token)) ::System::Threading::CancellationToken Token;
 
-  /// @brief Method Complete, addr 0x5cc12f0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x5cc57ac, size 0x188, virtual false, abstract: false, final false
   inline void Complete();
 
   static inline ::GlobalNamespace::Task_DelayPromise* New_ctor(::System::Threading::CancellationToken token);
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_Token(::System::Threading::CancellationToken value);
 
-  /// @brief Method .ctor, addr 0x5cbf6d4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc3b90, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken token);
 
 protected:

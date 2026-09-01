@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameplayCoreInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameplayCoreInstaller.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_impl.hpp"
 #include "BeatSaber/Automation/zzzz__PerformanceToolLauncherOverrideConfig_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
@@ -24,8 +24,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x1e10;
-  constexpr static std::size_t addrs = 0x59f3974;
+  constexpr static std::size_t size = 0x1e14;
+  constexpr static std::size_t addrs = 0x59fba48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59f5784;
+  constexpr static std::size_t addrs = 0x59fd85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayCoreInstaller*>(), { ".ctor", {}, {} })));

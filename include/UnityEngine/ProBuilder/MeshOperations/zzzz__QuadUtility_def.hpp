@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/QuadUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\QuadUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,15 +41,15 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class CORDL_TYPE QuadUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBestQuadConnection, addr 0x6731618, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method GetBestQuadConnection, addr 0x6739094, size 0x238, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* GetBestQuadConnection(::UnityEngine::ProBuilder::WingedEdge* wing,
                                                                        ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float_t>* connections);
 
-  /// @brief Method GetQuadScore, addr 0x6730f84, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method GetQuadScore, addr 0x6738a00, size 0x694, virtual false, abstract: false, final false
   static inline float_t GetQuadScore(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right,
                                      float_t normalThreshold);
 
-  /// @brief Method ToQuads, addr 0x672d260, size 0x800, virtual false, abstract: false, final false
+  /// @brief Method ToQuads, addr 0x6734cdc, size 0x800, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* ToQuads(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                   ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, bool smoothing);
 
@@ -68,7 +68,7 @@ public:
   QuadUtility(QuadUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16890 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

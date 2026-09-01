@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/SettingsBindableAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\SettingsBindableAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__SettingsBindableAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::SettingsBindableAttribute::*)(bool)>(&::System::ComponentModel::SettingsBindableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63c0e80;
+  constexpr static std::size_t addrs = 0x63c88fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::SettingsBindableAttribute::*)()>(&::System::ComponentModel::SettingsBindableAttribute::get_Bindable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63c0e88;
+  constexpr static std::size_t addrs = 0x63c8904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::SettingsBindableAttribute*>(), { "get_Bindable", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::SettingsBindableAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::SettingsBindableAttribute::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x63c0e90;
+  constexpr static std::size_t addrs = 0x63c890c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::SettingsBindableAttribute*>(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::SettingsBindableAttribute::*)()>(&::System::ComponentModel::SettingsBindableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x63c0f28;
+  constexpr static std::size_t addrs = 0x63c89a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::SettingsBindableAttribute*>(),

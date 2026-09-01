@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/JsonExtensionDataAttribute.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\JsonExtensionDataAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonExtensionDataAttribute_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonExtensionDataAttribute.get_WriteData
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::JsonExtensionDataAttribute::*)()>(&::Newtonsoft::Json::JsonExtensionDataAttribute::get_WriteData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd2fdc;
+  constexpr static std::size_t addrs = 0x5cd7498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonExtensionDataAttribute*>(), { "get_WriteData", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonExtensionDataAttribute::*)(bool)>(&::Newtonsoft::Json::JsonExtensionDataAttribute::set_WriteData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd2fe4;
+  constexpr static std::size_t addrs = 0x5cd74a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::JsonExtensionDataAttribute::*)()>(&::Newtonsoft::Json::JsonExtensionDataAttribute::get_ReadData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd2fec;
+  constexpr static std::size_t addrs = 0x5cd74a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonExtensionDataAttribute*>(), { "get_ReadData", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonExtensionDataAttribute::*)(bool)>(&::Newtonsoft::Json::JsonExtensionDataAttribute::set_ReadData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd2ff4;
+  constexpr static std::size_t addrs = 0x5cd74b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonExtensionDataAttribute::*)()>(&::Newtonsoft::Json::JsonExtensionDataAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cd2ffc;
+  constexpr static std::size_t addrs = 0x5cd74b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonExtensionDataAttribute*>(), { ".ctor", {}, {} })));

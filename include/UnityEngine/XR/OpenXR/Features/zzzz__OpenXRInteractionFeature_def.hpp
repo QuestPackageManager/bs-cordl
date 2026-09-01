@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Features/OpenXRInteractionFeature.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Features\OpenXRInteractionFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -134,7 +134,7 @@ public:
   static ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionType const Vibrate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18557 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -186,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_userPaths(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x69f4b48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69fc5c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -204,7 +204,7 @@ public:
   OpenXRInteractionFeature_ActionBinding(OpenXRInteractionFeature_ActionBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18558 };
 
   /// @brief Field interactionProfileName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___interactionProfileName;
@@ -291,7 +291,7 @@ public:
 
   constexpr void __cordl_internal_set_usages(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x69f4b4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69fc5c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -309,7 +309,7 @@ public:
   OpenXRInteractionFeature_ActionConfig(OpenXRInteractionFeature_ActionConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18559 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -374,7 +374,7 @@ public:
 
   constexpr void __cordl_internal_set_userPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x69f4b50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69fc5cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -392,7 +392,7 @@ public:
   OpenXRInteractionFeature_DeviceConfig(OpenXRInteractionFeature_DeviceConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18560 };
 
   /// @brief Field characteristics, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::XR::InputDeviceCharacteristics ___characteristics;
@@ -484,7 +484,7 @@ public:
 
   constexpr void __cordl_internal_set_serialNumber(::StringW value);
 
-  /// @brief Method .ctor, addr 0x69f4b54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69fc5d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -502,7 +502,7 @@ public:
   OpenXRInteractionFeature_ActionMapConfig(OpenXRInteractionFeature_ActionMapConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18561 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -567,7 +567,7 @@ public:
   OpenXRInteractionFeature_UserPaths(OpenXRInteractionFeature_UserPaths const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18562 };
 
   /// @brief Field gamepad offset 0xffffffff size 0x8
   static constexpr ::ConstString gamepad{ u"/user/gamepad" };
@@ -629,7 +629,7 @@ public:
   static ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_InteractionProfileType const XRController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18563 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -677,43 +677,43 @@ public:
   __declspec(property(get = getStaticF_m_InteractionProfileEnabledMaps, put = setStaticF_m_InteractionProfileEnabledMaps)) ::System::Collections::Generic::Dictionary_2<
       ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_InteractionProfileType, ::System::Collections::Generic::Dictionary_2<::StringW, bool>*>* m_InteractionProfileEnabledMaps;
 
-  /// @brief Method AddActionMap, addr 0x69f4900, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method AddActionMap, addr 0x69fc37c, size 0x178, virtual false, abstract: false, final false
   inline void AddActionMap(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig* map);
 
-  /// @brief Method AddAdditiveActions, addr 0x69f4a78, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddAdditiveActions, addr 0x69fc4f4, size 0x4, virtual true, abstract: false, final false
   inline void AddAdditiveActions(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>* actionMaps,
                                  ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig* additiveMap);
 
-  /// @brief Method CreateActionMaps, addr 0x69ef968, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateActionMaps, addr 0x69f73e4, size 0x8c, virtual false, abstract: false, final false
   inline void CreateActionMaps(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>* configs);
 
-  /// @brief Method GetDeviceLayoutName, addr 0x69f48bc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDeviceLayoutName, addr 0x69fc338, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetDeviceLayoutName();
 
-  /// @brief Method GetInteractionProfileType, addr 0x69f48b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetInteractionProfileType, addr 0x69fc330, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_InteractionProfileType GetInteractionProfileType();
 
   static inline ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature* New_ctor();
 
-  /// @brief Method OnEnabledChange, addr 0x69f4a7c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnabledChange, addr 0x69fc4f8, size 0x4, virtual true, abstract: false, final false
   inline void OnEnabledChange();
 
-  /// @brief Method OnInstanceCreate, addr 0x69f4894, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x69fc310, size 0x20, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrSession);
 
-  /// @brief Method RegisterActionMapsWithRuntime, addr 0x69f4890, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method RegisterActionMapsWithRuntime, addr 0x69fc30c, size 0x4, virtual true, abstract: false, final false
   inline void RegisterActionMapsWithRuntime();
 
-  /// @brief Method RegisterDeviceLayout, addr 0x69f4888, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method RegisterDeviceLayout, addr 0x69fc304, size 0x4, virtual true, abstract: false, final false
   inline void RegisterDeviceLayout();
 
-  /// @brief Method RegisterLayouts, addr 0x69ef6a8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method RegisterLayouts, addr 0x69f7124, size 0x108, virtual false, abstract: false, final false
   static inline void RegisterLayouts();
 
-  /// @brief Method UnregisterDeviceLayout, addr 0x69f488c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UnregisterDeviceLayout, addr 0x69fc308, size 0x4, virtual true, abstract: false, final false
   inline void UnregisterDeviceLayout();
 
-  /// @brief Method .ctor, addr 0x69f4a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69fc4fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>* getStaticF_m_CreatedActionMaps();
@@ -722,7 +722,7 @@ public:
                                                              ::System::Collections::Generic::Dictionary_2<::StringW, bool>*>*
   getStaticF_m_InteractionProfileEnabledMaps();
 
-  /// @brief Method get_IsAdditive, addr 0x69f4880, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsAdditive, addr 0x69fc2fc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsAdditive();
 
   static inline void setStaticF_m_CreatedActionMaps(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>* value);
@@ -745,7 +745,7 @@ public:
   OpenXRInteractionFeature(OpenXRInteractionFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18564 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

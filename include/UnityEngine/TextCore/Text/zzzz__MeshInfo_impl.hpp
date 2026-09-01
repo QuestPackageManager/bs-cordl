@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/MeshInfo.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\MeshInfo.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphRenderMode_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextCoreVertex_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__VertexDataLayout_impl.hpp"
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(int32_t, ::UnityEngine::TextCore::Text::VertexDataLayout, bool)>(
     &::UnityEngine::TextCore::Text::MeshInfo::_ctor)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x6bc11a4;
+  constexpr static std::size_t addrs = 0x6bc8d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(int32_t, bool)>(&::UnityEngine::TextCore::Text::MeshInfo::ResizeMeshInfo)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x6bc1650;
+  constexpr static std::size_t addrs = 0x6bc91d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(bool)>(&::UnityEngine::TextCore::Text::MeshInfo::Clear)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6bc1894;
+  constexpr static std::size_t addrs = 0x6bc9418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MeshInfo>(), { "Clear", {}, { ::i2c::type_of<bool>() } })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)()>(&::UnityEngine::TextCore::Text::MeshInfo::ClearUnusedVertices)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6bc1900;
+  constexpr static std::size_t addrs = 0x6bc9484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::MeshInfo>(), { "ClearUnusedVertices", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(::UnityEngine::TextCore::Text::VertexSortingOrder)>(
     &::UnityEngine::TextCore::Text::MeshInfo::SortGeometry)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6bc1984;
+  constexpr static std::size_t addrs = 0x6bc9508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(int32_t, int32_t)>(&::UnityEngine::TextCore::Text::MeshInfo::SwapVertexData)> {
   constexpr static std::size_t size = 0x72c;
-  constexpr static std::size_t addrs = 0x6bc1a3c;
+  constexpr static std::size_t addrs = 0x6bc95c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

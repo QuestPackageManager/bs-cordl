@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataRowChangeEventArgs.hpp"
+// IWYU pragma private; include "System\Data\DataRowChangeEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__Row_k__BackingField(::System::Data::DataRow* value);
 
-  /// @brief Method .ctor, addr 0x6025dc8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x602d844, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* row, ::System::Data::DataRowAction action);
 
 protected:
@@ -64,7 +64,7 @@ public:
   DataRowChangeEventArgs(DataRowChangeEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13780 };
 
   /// @brief Field <Row>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataRow* ____Row_k__BackingField;

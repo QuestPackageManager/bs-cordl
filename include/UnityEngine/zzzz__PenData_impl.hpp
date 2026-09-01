@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/PenData.hpp"
+// IWYU pragma private; include "UnityEngine\PenData.hpp"
 #include "UnityEngine/zzzz__PenEventType_impl.hpp"
 #include "UnityEngine/zzzz__PenStatus_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"

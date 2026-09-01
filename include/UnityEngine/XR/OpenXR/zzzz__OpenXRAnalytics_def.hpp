@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRAnalytics.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRAnalytics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
                                             ::ArrayW<::StringW> enabled_extensions, ::ArrayW<::StringW> enabled_features, ::ArrayW<::StringW> failed_features) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18498 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -144,25 +144,25 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRAnalytics___c* New_ctor();
 
-  /// @brief Method <CreateInitializeEvent>b__7_0, addr 0x69e6c88, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <CreateInitializeEvent>b__7_0, addr 0x69ee704, size 0xa4, virtual false, abstract: false, final false
   inline ::StringW _CreateInitializeEvent_b__7_0(::StringW ext);
 
-  /// @brief Method <CreateInitializeEvent>b__7_1, addr 0x69e6d30, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <CreateInitializeEvent>b__7_1, addr 0x69ee7ac, size 0xa4, virtual false, abstract: false, final false
   inline ::StringW _CreateInitializeEvent_b__7_1(::StringW ext);
 
-  /// @brief Method <CreateInitializeEvent>b__7_2, addr 0x69e6dd4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <CreateInitializeEvent>b__7_2, addr 0x69ee850, size 0x84, virtual false, abstract: false, final false
   inline bool _CreateInitializeEvent_b__7_2(::UnityEngine::XR::OpenXR::Features::OpenXRFeature* f);
 
-  /// @brief Method <CreateInitializeEvent>b__7_3, addr 0x69e6e58, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <CreateInitializeEvent>b__7_3, addr 0x69ee8d4, size 0x78, virtual false, abstract: false, final false
   inline ::StringW _CreateInitializeEvent_b__7_3(::UnityEngine::XR::OpenXR::Features::OpenXRFeature* f);
 
-  /// @brief Method <CreateInitializeEvent>b__7_4, addr 0x69e6ed0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <CreateInitializeEvent>b__7_4, addr 0x69ee94c, size 0x84, virtual false, abstract: false, final false
   inline bool _CreateInitializeEvent_b__7_4(::UnityEngine::XR::OpenXR::Features::OpenXRFeature* f);
 
-  /// @brief Method <CreateInitializeEvent>b__7_5, addr 0x69e6f54, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <CreateInitializeEvent>b__7_5, addr 0x69ee9d0, size 0x78, virtual false, abstract: false, final false
   inline ::StringW _CreateInitializeEvent_b__7_5(::UnityEngine::XR::OpenXR::Features::OpenXRFeature* f);
 
-  /// @brief Method .ctor, addr 0x69e6c84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ee700, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRAnalytics___c* getStaticF___9();
@@ -208,7 +208,7 @@ public:
   OpenXRAnalytics___c(OpenXRAnalytics___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18499 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -227,13 +227,13 @@ public:
 
   using __c = ::UnityEngine::XR::OpenXR::OpenXRAnalytics___c;
 
-  /// @brief Method CreateInitializeEvent, addr 0x69e6204, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method CreateInitializeEvent, addr 0x69edc80, size 0x544, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::OpenXRAnalytics_InitializeEvent CreateInitializeEvent(bool success);
 
-  /// @brief Method Initialize, addr 0x69e61f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x69edc74, size 0x8, virtual false, abstract: false, final false
   static inline bool Initialize();
 
-  /// @brief Method SendInitializeEvent, addr 0x69e6200, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SendInitializeEvent, addr 0x69edc7c, size 0x4, virtual false, abstract: false, final false
   static inline void SendInitializeEvent(bool success);
 
 protected:
@@ -251,7 +251,7 @@ public:
   OpenXRAnalytics(OpenXRAnalytics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18500 };
 
   /// @brief Field kEventInitialize offset 0xffffffff size 0x8
   static constexpr ::ConstString kEventInitialize{ u"openxr_initialize" };

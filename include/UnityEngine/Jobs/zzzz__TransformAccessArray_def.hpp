@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Jobs/TransformAccessArray.hpp"
+// IWYU pragma private; include "UnityEngine\Jobs\TransformAccessArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,70 +41,70 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Add, addr 0x6af4c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6afc640, size 0x8, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Transform* transform);
 
-  /// @brief Method Add, addr 0x6af4c30, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6afc648, size 0x90, virtual false, abstract: false, final false
   static inline void Add(::System::IntPtr transformArrayIntPtr, ::UnityEngine::Transform* transform);
 
-  /// @brief Method Add_Injected, addr 0x6af4d48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Add_Injected, addr 0x6afc760, size 0x44, virtual false, abstract: false, final false
   static inline void Add_Injected(::System::IntPtr transformArrayIntPtr, ::System::IntPtr transform);
 
-  /// @brief Method Allocate, addr 0x6af4860, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6afc278, size 0x88, virtual false, abstract: false, final false
   static inline void Allocate(int32_t capacity, int32_t desiredJobCount, ::by_ref<::UnityEngine::Jobs::TransformAccessArray> array);
 
-  /// @brief Method Create, addr 0x6af48e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6afc300, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(int32_t capacity, int32_t desiredJobCount);
 
-  /// @brief Method DestroyTransformAccessArray, addr 0x6af49b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroyTransformAccessArray, addr 0x6afc3cc, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyTransformAccessArray(::System::IntPtr transformArray);
 
-  /// @brief Method Dispose, addr 0x6af493c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6afc354, size 0x78, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetLength, addr 0x6af4bec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x6afc604, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLength(::System::IntPtr transformArrayIntPtr);
 
-  /// @brief Method GetSortedToUserIndex, addr 0x6af4dc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSortedToUserIndex, addr 0x6afc7e0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetSortedToUserIndex(::System::IntPtr transformArrayIntPtr);
 
-  /// @brief Method GetSortedTransformAccess, addr 0x6af4d8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSortedTransformAccess, addr 0x6afc7a4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetSortedTransformAccess(::System::IntPtr transformArrayIntPtr);
 
-  /// @brief Method GetTransform, addr 0x6af4a00, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetTransform, addr 0x6afc418, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetTransform(::System::IntPtr transformArrayIntPtr, int32_t index);
 
-  /// @brief Method GetTransformAccessArrayForSchedule, addr 0x6af49f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTransformAccessArrayForSchedule, addr 0x6afc408, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr GetTransformAccessArrayForSchedule();
 
-  /// @brief Method GetTransform_Injected, addr 0x6af4e04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransform_Injected, addr 0x6afc81c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetTransform_Injected(::System::IntPtr transformArrayIntPtr, int32_t index);
 
-  /// @brief Method RemoveAtSwapBack, addr 0x6af4cc0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveAtSwapBack, addr 0x6afc6d8, size 0x44, virtual false, abstract: false, final false
   inline void RemoveAtSwapBack(int32_t index);
 
-  /// @brief Method RemoveAtSwapBack, addr 0x6af4d04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveAtSwapBack, addr 0x6afc71c, size 0x44, virtual false, abstract: false, final false
   static inline void RemoveAtSwapBack(::System::IntPtr transformArrayIntPtr, int32_t index);
 
-  /// @brief Method SetCapacity, addr 0x6af4b6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x6afc584, size 0x44, virtual false, abstract: false, final false
   static inline void SetCapacity(::System::IntPtr transformArrayIntPtr, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x6af484c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6afc264, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, int32_t desiredJobCount);
 
-  /// @brief Method get_Item, addr 0x6af49f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6afc410, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Item(int32_t index);
 
-  /// @brief Method get_isCreated, addr 0x6af492c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isCreated, addr 0x6afc344, size 0x10, virtual false, abstract: false, final false
   inline bool get_isCreated();
 
-  /// @brief Method get_length, addr 0x6af4bb0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x6afc5c8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_capacity, addr 0x6af4b28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_capacity, addr 0x6afc540, size 0x44, virtual false, abstract: false, final false
   inline void set_capacity(int32_t value);
 
   // Ctor Parameters []
@@ -115,7 +115,7 @@ public:
   constexpr TransformAccessArray(::System::IntPtr m_TransformArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10438 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

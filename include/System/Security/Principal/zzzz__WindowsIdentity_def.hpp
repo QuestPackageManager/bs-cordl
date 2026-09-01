@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Principal/WindowsIdentity.hpp"
+// IWYU pragma private; include "System\Security\Principal\WindowsIdentity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,25 +97,25 @@ public:
   /// @brief Convert operator to "::System::Security::Principal::IIdentity"
   constexpr operator ::System::Security::Principal::IIdentity*() noexcept;
 
-  /// @brief Method CloneAsBase, addr 0x5b135e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloneAsBase, addr 0x5b17a9c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* CloneAsBase();
 
-  /// @brief Method Dispose, addr 0x5b1302c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5b174e8, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetCurrent, addr 0x5b13034, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x5b174f0, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WindowsIdentity* GetCurrent();
 
-  /// @brief Method GetCurrentToken, addr 0x5b130a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentToken, addr 0x5b17564, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetCurrentToken();
 
-  /// @brief Method GetTokenInternal, addr 0x5b1372c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTokenInternal, addr 0x5b17be8, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr GetTokenInternal();
 
-  /// @brief Method GetTokenName, addr 0x5b13178, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetTokenName, addr 0x5b17634, size 0xc, virtual false, abstract: false, final false
   static inline ::StringW GetTokenName(::System::IntPtr token);
 
-  /// @brief Method Impersonate, addr 0x5b130b0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Impersonate, addr 0x5b1756c, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Security::Principal::WindowsImpersonationContext* Impersonate();
 
   static inline ::System::Security::Principal::WindowsIdentity* New_ctor(::System::Security::Claims::ClaimsIdentity* claimsIdentity, ::System::IntPtr userToken);
@@ -124,13 +124,13 @@ public:
 
   static inline ::System::Security::Principal::WindowsIdentity* New_ctor(::System::IntPtr userToken, ::StringW type, ::System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
 
-  /// @brief Method SetToken, addr 0x5b12f14, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x5b173d0, size 0xa0, virtual false, abstract: false, final false
   inline void SetToken(::System::IntPtr token);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5b131bc, size 0x2c0, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5b17678, size 0x2c0, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5b1347c, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5b17938, size 0x164, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::System::Security::Principal::WindowsAccountType const& __cordl_internal_get__account() const;
@@ -169,24 +169,24 @@ public:
 
   constexpr void __cordl_internal_set__type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b12ff0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b174ac, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Claims::ClaimsIdentity* claimsIdentity, ::System::IntPtr userToken);
 
-  /// @brief Method .ctor, addr 0x5b12fb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b17470, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b12eb0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1736c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr userToken, ::StringW type, ::System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
 
   static inline ::System::IntPtr getStaticF_invalidWindows();
 
-  /// @brief Method get_AuthenticationType, addr 0x5b13108, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x5b175c4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Name, addr 0x5b13110, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5b175cc, size 0x68, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_User, addr 0x5b13184, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_User, addr 0x5b17640, size 0x38, virtual false, abstract: false, final false
   inline ::System::Security::Principal::SecurityIdentifier* get_User();
 
   /// @brief Convert to "::System::IDisposable"

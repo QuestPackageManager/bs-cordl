@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LODGroupDataPool.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LODGroupDataPool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeParallelHashMap_2_impl.hpp"
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> (
     ::UnityEngine::Rendering::LODGroupDataPool::*)()>(&::UnityEngine::Rendering::LODGroupDataPool::get_lodGroupDataHash)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6829e34;
+  constexpr static std::size_t addrs = 0x68318b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(), { "get_lodGroupDataHash", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupCullingData> (::UnityEngine::Rendering::LODGroupDataPool::*)()>(
     &::UnityEngine::Rendering::LODGroupDataPool::get_lodGroupCullingData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6829e40;
+  constexpr static std::size_t addrs = 0x68318bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(), { "get_lodGroupCullingData", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LODGroupDataPool::*)()>(&::UnityEngine::Rendering::LODGroupDataPool::get_crossfadedRendererCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6829e48;
+  constexpr static std::size_t addrs = 0x68318c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(), { "get_crossfadedRendererCount", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LODGroupDataPool::*)()>(&::UnityEngine::Rendering::LODGroupDataPool::get_activeLodGroupCount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6829e50;
+  constexpr static std::size_t addrs = 0x68318cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(), { "get_activeLodGroupCount", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPool::*)(::UnityEngine::Rendering::GPUResidentDrawerResources*, int32_t, bool)>(
     &::UnityEngine::Rendering::LODGroupDataPool::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6829eb4;
+  constexpr static std::size_t addrs = 0x6831930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPool::*)()>(&::UnityEngine::Rendering::LODGroupDataPool::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6829fd0;
+  constexpr static std::size_t addrs = 0x6831a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(), { "Dispose", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPool::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>)>(
     &::UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupTransformData)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x682a088;
+  constexpr static std::size_t addrs = 0x6831b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPool::*)(::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupData>)>(
     &::UnityEngine::Rendering::LODGroupDataPool::UpdateLODGroupData)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x682a204;
+  constexpr static std::size_t addrs = 0x6831c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPool::*)(::Unity::Collections::NativeArray_1<int32_t>)>(
     &::UnityEngine::Rendering::LODGroupDataPool::FreeLODGroupData)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x682a4ac;
+  constexpr static std::size_t addrs = 0x6831f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupDataPool*>(),

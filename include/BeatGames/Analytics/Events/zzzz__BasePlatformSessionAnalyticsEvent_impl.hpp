@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames/Analytics/Events/BasePlatformSessionAnalyticsEvent.hpp"
+// IWYU pragma private; include "BeatGames\Analytics\Events\BasePlatformSessionAnalyticsEvent.hpp"
 #include "OSCE/Analytics/zzzz__UserSessionAnalyticsEvent_impl.hpp"
 #include "BeatGames/Analytics/Events/zzzz__BasePlatformSessionAnalyticsEvent_def.hpp"
 #include "GlobalNamespace/zzzz__IDType_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IDType (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::GetIDType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3254a48;
+  constexpr static std::size_t addrs = 0x3257d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::EventRequiresAnalyticsID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3254a50;
+  constexpr static std::size_t addrs = 0x3257d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::ReturnedToPool)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3254a58;
+  constexpr static std::size_t addrs = 0x3257d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*, int32_t)>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::ApplyTime)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3254a74;
+  constexpr static std::size_t addrs = 0x3257d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::ApplyBasicFields)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3254ab4;
+  constexpr static std::size_t addrs = 0x3257db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::*)()>(
     &::BeatGames::Analytics::Events::BasePlatformSessionAnalyticsEvent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3254f9c;
+  constexpr static std::size_t addrs = 0x325829c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

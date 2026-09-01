@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LevelFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace\LevelFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,10 +116,10 @@ public:
 
   static inline ::GlobalNamespace::LevelFilter___c* New_ctor();
 
-  /// @brief Method <FilterLevelByText>b__15_0, addr 0x3726794, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelByText>b__15_0, addr 0x372c3f0, size 0x40, virtual false, abstract: false, final false
   inline int32_t _FilterLevelByText_b__15_0(::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*> x, ::System::ValueTuple_2<int32_t, ::GlobalNamespace::BeatmapLevel*> y);
 
-  /// @brief Method .ctor, addr 0x3726790, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372c3ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::LevelFilter___c* getStaticF___9();
@@ -145,7 +145,7 @@ public:
   LevelFilter___c(LevelFilter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15003 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -165,7 +165,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFilter___c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <FilterLevelsAsync>b__3, addr 0x37267d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>b__3, addr 0x372c430, size 0x70, virtual false, abstract: false, final false
   inline bool _FilterLevelsAsync_b__3(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
   constexpr ::StringW const& __cordl_internal_get_characteristicFilter() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set_characteristicFilter(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3726594, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372c1f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -192,7 +192,7 @@ public:
   LevelFilter___c__DisplayClass14_0(LevelFilter___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15004 };
 
   /// @brief Field characteristicFilter, offset: 0x10, size: 0x8, def value: None
   ::StringW ___characteristicFilter;
@@ -220,7 +220,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFilter___c__DisplayClass14_1* New_ctor();
 
-  /// @brief Method <FilterLevelsAsync>b__4, addr 0x3726844, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>b__4, addr 0x372c4a0, size 0xb0, virtual false, abstract: false, final false
   inline bool _FilterLevelsAsync_b__4(::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty> entry);
 
   constexpr ::StringW const& __cordl_internal_get_characteristicFilter() const;
@@ -235,7 +235,7 @@ public:
 
   constexpr void __cordl_internal_set_difficultyFilter(::GlobalNamespace::BeatmapDifficultyMask value);
 
-  /// @brief Method .ctor, addr 0x3726738, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372c394, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -253,7 +253,7 @@ public:
   LevelFilter___c__DisplayClass14_1(LevelFilter___c__DisplayClass14_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15005 };
 
   /// @brief Field difficultyFilter, offset: 0x10, size: 0x1, def value: None
   ::GlobalNamespace::BeatmapDifficultyMask ___difficultyFilter;
@@ -289,36 +289,36 @@ public:
   /// @brief Field bpmOptions, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_bpmOptions, put = setStaticF_bpmOptions)) ::ArrayW<float_t> bpmOptions;
 
-  /// @brief Method CleanText, addr 0x3725f20, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CleanText, addr 0x372bb74, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW CleanText(::StringW s);
 
-  /// @brief Method FilterLevelByText, addr 0x3725a24, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method FilterLevelByText, addr 0x372b678, size 0x4fc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* FilterLevelByText(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* levels,
                                                                                                             ::ArrayW<::StringW> searchTerms);
 
-  /// @brief Method FilterLevelsAsync, addr 0x372590c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FilterLevelsAsync, addr 0x372b560, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>*
   FilterLevelsAsync(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::GlobalNamespace::LevelFilter filter,
                     ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IEntitlementModel* levelsModel, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FilterLevelsAsync, addr 0x3725714, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method FilterLevelsAsync, addr 0x372b368, size 0x1f8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::ArrayW<::GlobalNamespace::BeatmapLevel*>>*
   FilterLevelsAsync(::ArrayW<::GlobalNamespace::BeatmapLevelPack*> packs, ::GlobalNamespace::LevelFilter filter, ::GlobalNamespace::PlayerDataModel* playerDataModel,
                     ::GlobalNamespace::IEntitlementModel* levelsModel, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method IsWithoutFilter, addr 0x3725678, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsWithoutFilter, addr 0x372b2cc, size 0x9c, virtual false, abstract: false, final false
   static inline bool IsWithoutFilter(::by_ref<::GlobalNamespace::LevelFilter> filter, bool ignoreFilterBySongs);
 
-  /// @brief Method <FilterLevelByText>g__CalculateMatchScore|15_1, addr 0x3725fb4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelByText>g__CalculateMatchScore|15_1, addr 0x372bc08, size 0x114, virtual false, abstract: false, final false
   static inline int32_t _FilterLevelByText_g__CalculateMatchScore_15_1(::StringW levelString, ::ArrayW<::StringW> searchTerms);
 
-  /// @brief Method <FilterLevelsAsync>g__HasPlayedAnyDifficulty|14_0, addr 0x3726160, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>g__HasPlayedAnyDifficulty|14_0, addr 0x372bdb4, size 0x314, virtual false, abstract: false, final false
   static inline bool _FilterLevelsAsync_g__HasPlayedAnyDifficulty_14_0(::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method <FilterLevelsAsync>g__MatchesCharacteristic|14_1, addr 0x3726470, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>g__MatchesCharacteristic|14_1, addr 0x372c0c8, size 0x128, virtual false, abstract: false, final false
   static inline bool _FilterLevelsAsync_g__MatchesCharacteristic_14_1(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW characteristicFilter);
 
-  /// @brief Method <FilterLevelsAsync>g__MatchesDifficulty|14_2, addr 0x3726598, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method <FilterLevelsAsync>g__MatchesDifficulty|14_2, addr 0x372c1f4, size 0x1a0, virtual false, abstract: false, final false
   static inline bool _FilterLevelsAsync_g__MatchesDifficulty_14_2(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficultyMask difficultyFilter,
                                                                   ::StringW characteristicFilter);
 
@@ -341,7 +341,7 @@ public:
                         ::ArrayW<::StringW> limitIds) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15007 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -418,10 +418,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x37268f4, size 0x964, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x372c550, size 0x964, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3727258, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x372ceb4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -448,7 +448,7 @@ public:
                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15006 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };

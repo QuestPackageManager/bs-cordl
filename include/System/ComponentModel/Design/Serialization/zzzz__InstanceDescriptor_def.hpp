@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/Design/Serialization/InstanceDescriptor.hpp"
+// IWYU pragma private; include "System\ComponentModel\Design\Serialization\InstanceDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
   /// @brief Field <MemberInfo>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__MemberInfo_k__BackingField, put = __cordl_internal_set__MemberInfo_k__BackingField)) ::System::Reflection::MemberInfo* _MemberInfo_k__BackingField;
 
-  /// @brief Method Invoke, addr 0x63e4e58, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x63ec8d4, size 0x398, virtual false, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set__MemberInfo_k__BackingField(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x63e490c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63ec388, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
 
-  /// @brief Method .ctor, addr 0x63e4914, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63ec390, size 0x534, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete);
 
-  /// @brief Method get_Arguments, addr 0x63e4e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x63ec8c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Arguments();
 
-  /// @brief Method get_MemberInfo, addr 0x63e4e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x63ec8cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
 protected:
@@ -93,7 +93,7 @@ public:
   InstanceDescriptor(InstanceDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11360 };
 
   /// @brief Field <Arguments>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ICollection* ____Arguments_k__BackingField;

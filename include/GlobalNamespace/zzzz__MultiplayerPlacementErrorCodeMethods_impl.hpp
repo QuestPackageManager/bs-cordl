@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerPlacementErrorCodeMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerPlacementErrorCodeMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlacementErrorCodeMethods_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ConnectionFailedReason (*)(::GlobalNamespace::MultiplayerPlacementErrorCode)>(
     &::GlobalNamespace::MultiplayerPlacementErrorCodeMethods::ToConnectionFailedReason)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32aabb0;
+  constexpr static std::size_t addrs = 0x32ae9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

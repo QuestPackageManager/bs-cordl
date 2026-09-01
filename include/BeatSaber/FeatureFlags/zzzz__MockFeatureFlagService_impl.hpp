@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/FeatureFlags/MockFeatureFlagService.hpp"
+// IWYU pragma private; include "BeatSaber\FeatureFlags\MockFeatureFlagService.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__MockFeatureFlagService_def.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__Feature_def.hpp"
@@ -12,8 +12,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::MockFeatureFlagService::*)()>(&::BeatSaber::FeatureFlags::MockFeatureFlagService::Initialize)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3289d50;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x328db3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::MockFeatureFlagService*>(), { "Initialize", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::MockFeatureFlagService::*)(::BeatSaber::FeatureFlags::Feature, bool)>(
     &::BeatSaber::FeatureFlags::MockFeatureFlagService::SetFeatureEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3289d78;
+  constexpr static std::size_t addrs = 0x328db74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<bool> (::BeatSaber::FeatureFlags::MockFeatureFlagService::*)(::BeatSaber::FeatureFlags::Feature)>(
     &::BeatSaber::FeatureFlags::MockFeatureFlagService::IsFeatureEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3289df4;
+  constexpr static std::size_t addrs = 0x328dbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BeatSaber::FeatureFlags::MockFeatureFlagService::*)(::BeatSaber::FeatureFlags::Feature)>(
     &::BeatSaber::FeatureFlags::MockFeatureFlagService::IsFeatureEnabledAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3289e8c;
+  constexpr static std::size_t addrs = 0x328dc88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::MockFeatureFlagService*>(),
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::MockFeatureFlagService::*)()>(&::BeatSaber::FeatureFlags::MockFeatureFlagService::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3289f40;
+  constexpr static std::size_t addrs = 0x328dd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::MockFeatureFlagService*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/RangeValuesTextSlider.hpp"
+// IWYU pragma private; include "HMUI\RangeValuesTextSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,33 +60,33 @@ public:
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent,
                       put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* valueDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x587ec64, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x587e5ac, size 0x250, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ConvertFromNormalizedValue, addr 0x587ea90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ConvertFromNormalizedValue, addr 0x587e3d8, size 0x18, virtual false, abstract: false, final false
   inline float_t ConvertFromNormalizedValue(float_t normalizedValue);
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x587ef4c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x587e894, size 0x34, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::TextSlider* slider, float_t normalizedValue);
 
   static inline ::HMUI::RangeValuesTextSlider* New_ctor();
 
-  /// @brief Method NormalizeValue, addr 0x587eac4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method NormalizeValue, addr 0x587e40c, size 0x18, virtual false, abstract: false, final false
   inline float_t NormalizeValue(float_t rangeValue);
 
-  /// @brief Method OnDestroy, addr 0x587eeb4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x587e7fc, size 0x98, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method TextForNormalizedValue, addr 0x587ef80, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method TextForNormalizedValue, addr 0x587e8c8, size 0x24, virtual true, abstract: false, final false
   inline ::StringW TextForNormalizedValue(float_t normalizedValue);
 
-  /// @brief Method TextForValue, addr 0x587efa4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x587e8ec, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
-  /// @brief Method <Awake>b__19_0, addr 0x587f010, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__19_0, addr 0x587e958, size 0x44, virtual false, abstract: false, final false
   inline void _Awake_b__19_0();
 
-  /// @brief Method <Awake>b__19_1, addr 0x587f05c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__19_1, addr 0x587e9a4, size 0x44, virtual false, abstract: false, final false
   inline void _Awake_b__19_1();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -125,34 +125,34 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
-  /// @brief Method .ctor, addr 0x587e824, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587e16c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x587eae4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x587e42c, size 0xc0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
-  /// @brief Method get_maxValue, addr 0x587e9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxValue, addr 0x587e324, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxValue();
 
-  /// @brief Method get_minValue, addr 0x587e950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minValue, addr 0x587e298, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minValue();
 
-  /// @brief Method get_value, addr 0x587ea68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x587e3b0, size 0x28, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x587eba4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x587e4ec, size 0xc0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
-  /// @brief Method set_interactable, addr 0x587e8e4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x587e22c, size 0x6c, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_maxValue, addr 0x587e9e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_maxValue, addr 0x587e32c, size 0x84, virtual false, abstract: false, final false
   inline void set_maxValue(float_t value);
 
-  /// @brief Method set_minValue, addr 0x587e958, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_minValue, addr 0x587e2a0, size 0x84, virtual false, abstract: false, final false
   inline void set_minValue(float_t value);
 
-  /// @brief Method set_value, addr 0x587eaa8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x587e3f0, size 0x1c, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:
@@ -170,7 +170,7 @@ public:
   RangeValuesTextSlider(RangeValuesTextSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19061 };
 
   /// @brief Field _minValue, offset: 0x144, size: 0x4, def value: None
   float_t ____minValue;

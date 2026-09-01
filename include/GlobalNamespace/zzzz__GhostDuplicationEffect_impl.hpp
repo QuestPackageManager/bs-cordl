@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GhostDuplicationEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\GhostDuplicationEffect.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_impl.hpp"
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5980b84;
+  constexpr static std::size_t addrs = 0x5984518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::*)(float_t)>(
     &::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::_Animate_b__0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5980e0c;
+  constexpr static std::size_t addrs = 0x59847a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::*)(float_t)>(
     &::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::_Animate_b__1)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5980e20;
+  constexpr static std::size_t addrs = 0x59847b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::_Animate_b__2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5980e4c;
+  constexpr static std::size_t addrs = 0x59847e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::*)(float_t)>(
     &::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::_Animate_b__3)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5980e9c;
+  constexpr static std::size_t addrs = 0x5984830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)(int32_t)>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5980bec;
+  constexpr static std::size_t addrs = 0x5984580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5980edc;
+  constexpr static std::size_t addrs = 0x5984870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::MoveNext)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5980ee0;
+  constexpr static std::size_t addrs = 0x5984874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5980fc8;
+  constexpr static std::size_t addrs = 0x598495c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8*>(),
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5980fd0;
+  constexpr static std::size_t addrs = 0x5984964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5981008;
+  constexpr static std::size_t addrs = 0x598499c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x59804ec;
+  constexpr static std::size_t addrs = 0x5983e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::Awake)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5980578;
+  constexpr static std::size_t addrs = 0x5983f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostDuplicationEffect*>(), { "Awake", {}, {} })));
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::Init)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5980588;
+  constexpr static std::size_t addrs = 0x5983f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostDuplicationEffect*>(), { "Init", {}, {} })));
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)(::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams)>(
     &::GlobalNamespace::GhostDuplicationEffect::Animate)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x5980680;
+  constexpr static std::size_t addrs = 0x5984014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostDuplicationEffect*>(),
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::GhostDuplicationEffect::*)(float_t)>(
     &::GlobalNamespace::GhostDuplicationEffect::HideRedundantWithDelay)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5980b88;
+  constexpr static std::size_t addrs = 0x598451c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)(float_t, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::GhostDuplicationEffect::SetDistances)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5980bf4;
+  constexpr static std::size_t addrs = 0x5984588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostDuplicationEffect*>(),
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)(bool)>(&::GlobalNamespace::GhostDuplicationEffect::set_hide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5980cdc;
+  constexpr static std::size_t addrs = 0x5984670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)(float_t)>(&::GlobalNamespace::GhostDuplicationEffect::set_size)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5980d08;
+  constexpr static std::size_t addrs = 0x598469c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -478,7 +478,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::get_size)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5980d80;
+  constexpr static std::size_t addrs = 0x5984714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostDuplicationEffect*>(), { "get_size", {}, {} })));
@@ -490,7 +490,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)(float_t)>(&::GlobalNamespace::GhostDuplicationEffect::set_alpha)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x598060c;
+  constexpr static std::size_t addrs = 0x5983fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -503,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::get_alpha)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5980dc8;
+  constexpr static std::size_t addrs = 0x598475c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostDuplicationEffect*>(), { "get_alpha", {}, {} })));
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5980e08;
+  constexpr static std::size_t addrs = 0x598479c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostDuplicationEffect*>(), { ".ctor", {}, {} })));

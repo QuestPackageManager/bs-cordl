@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/LightProbesQuery.hpp"
+// IWYU pragma private; include "UnityEngine\LightProbesQuery.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "UnityEngine/zzzz__LightProbesQuery_def.hpp"
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightProbesQuery_LightProbesQueryDispose::*)()>(&::UnityEngine::LightProbesQuery_LightProbesQueryDispose::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6a7d668;
+  constexpr static std::size_t addrs = 0x6a850e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbesQuery_LightProbesQueryDispose>(), { "Dispose", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightProbesQuery_LightProbesQueryDisposeJob::*)()>(&::UnityEngine::LightProbesQuery_LightProbesQueryDisposeJob::Execute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a7d6d8;
+  constexpr static std::size_t addrs = 0x6a85154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbesQuery_LightProbesQueryDisposeJob>(), { "Execute", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightProbesQuery::*)(::Unity::Collections::Allocator)>(&::UnityEngine::LightProbesQuery::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a7d140;
+  constexpr static std::size_t addrs = 0x6a84bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightProbesQuery::*)()>(&::UnityEngine::LightProbesQuery::Dispose)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6a7d1e8;
+  constexpr static std::size_t addrs = 0x6a84c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbesQuery>(), { "Dispose", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::LightProbesQuery::*)(::Unity::Jobs::JobHandle)>(&::UnityEngine::LightProbesQuery::Dispose)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6a7d330;
+  constexpr static std::size_t addrs = 0x6a84dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::LightProbesQuery::Create)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a7d1c0;
+  constexpr static std::size_t addrs = 0x6a84c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbesQuery>(), { "Create", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::LightProbesQuery::Destroy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a7d2f4;
+  constexpr static std::size_t addrs = 0x6a84d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Ligh
     ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>, ::Unity::Collections::NativeArray_1<int32_t>, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SphericalHarmonicsL2>,
     ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>)>(&::UnityEngine::LightProbesQuery::CalculateInterpolatedLightAndOcclusionProbes)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6a7d42c;
+  constexpr static std::size_t addrs = 0x6a84ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, int32_t)>(
     &::UnityEngine::LightProbesQuery::CalculateInterpolatedLightAndOcclusionProbes)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6a7d5f4;
+  constexpr static std::size_t addrs = 0x6a85070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

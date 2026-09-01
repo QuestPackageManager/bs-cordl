@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRGLTFAnimationNodeMorphTargetHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRGLTFAnimationNodeMorphTargetHandler.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshAttributes_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)(::GlobalNamespace::OVRMeshData)>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e4cdac;
+  constexpr static std::size_t addrs = 0x5e51268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(&::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::Update)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x5e4ce58;
+  constexpr static std::size_t addrs = 0x5e51314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>(), { "Update", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::MarkModified)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e4d0dc;
+  constexpr static std::size_t addrs = 0x5e51598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>(), { "MarkModified", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/VisualElementAsset.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\VisualElementAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,20 +88,20 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method IdsPathMatchesAttributeOverrideIdsPath, addr 0x6cb9efc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method IdsPathMatchesAttributeOverrideIdsPath, addr 0x6cc1a80, size 0x13c, virtual false, abstract: false, final false
   static inline bool IdsPathMatchesAttributeOverrideIdsPath(::System::Collections::Generic::List_1<int32_t>* idsPath, ::System::Collections::Generic::List_1<int32_t>* attributeOverrideIdsPath,
                                                             int32_t templateId);
 
-  /// @brief Method Instantiate, addr 0x6cb4750, size 0x56c, virtual true, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x6cbc2d4, size 0x56c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Instantiate(::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method OnAfterDeserialize, addr 0x6cb9d5c, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x6cc18e0, size 0x1a0, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x6cb9d58, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x6cc18dc, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method ToString, addr 0x6cba0fc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6cc1c80, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::StringW> const& __cordl_internal_get_m_Classes() const;
@@ -158,28 +158,28 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::StringW value);
 
-  /// @brief Method get_classes, addr 0x6cb9c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_classes, addr 0x6cc17a4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_classes();
 
-  /// @brief Method get_hasStylesheetPaths, addr 0x6cb9ca8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheetPaths, addr 0x6cc182c, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheetPaths();
 
-  /// @brief Method get_hasStylesheets, addr 0x6cb9d38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheets, addr 0x6cc18bc, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheets();
 
-  /// @brief Method get_ruleIndex, addr 0x6cb9c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ruleIndex, addr 0x6cc179c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ruleIndex();
 
-  /// @brief Method get_serializedData, addr 0x6cb9d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedData, addr 0x6cc18cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlSerializedData* get_serializedData();
 
-  /// @brief Method get_skipClone, addr 0x6cb9d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skipClone, addr 0x6cc18d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_skipClone();
 
-  /// @brief Method get_stylesheetPaths, addr 0x6cb9c28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheetPaths, addr 0x6cc17ac, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_stylesheetPaths();
 
-  /// @brief Method get_stylesheets, addr 0x6cb9cb8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheets, addr 0x6cc183c, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"

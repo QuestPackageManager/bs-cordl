@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/NoSuchAlgorithmException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\NoSuchAlgorithmException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::NoSuchAlgorithmException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x35fedcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3602b8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35fedd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3602b94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x35feddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3602b9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

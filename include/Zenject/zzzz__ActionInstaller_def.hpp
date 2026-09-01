@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ActionInstaller.hpp"
+// IWYU pragma private; include "Zenject\ActionInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
   /// @brief Field _installMethod, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installMethod;
 
-  /// @brief Method InstallBindings, addr 0x6e9375c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x6e9b2e0, size 0x24, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ActionInstaller* New_ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method __zenCreate, addr 0x6e93780, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e9b304, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e93864, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9b3e8, size 0x248, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e83370, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8aef4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
 
 protected:
@@ -70,7 +70,7 @@ public:
   ActionInstaller(ActionInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14700 };
 
   /// @brief Field _installMethod, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ____installMethod;

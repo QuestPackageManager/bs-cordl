@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/OpenXRDevice.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\OpenXRDevice.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/XR/OpenXR/Input/zzzz__OpenXRDevice_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::OpenXR::Input::OpenXRDevice.FinishSetup
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::OpenXRDevice::*)()>(&::UnityEngine::XR::OpenXR::Input::OpenXRDevice::FinishSetup)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x69ef4e8;
+  constexpr static std::size_t addrs = 0x69f6f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::OpenXRDevice::*)()>(&::UnityEngine::XR::OpenXR::Input::OpenXRDevice::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69ef5dc;
+  constexpr static std::size_t addrs = 0x69f7058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRDevice*>(), { ".ctor", {}, {} })));

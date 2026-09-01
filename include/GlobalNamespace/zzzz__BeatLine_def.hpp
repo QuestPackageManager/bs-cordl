@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatLine.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatLine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BeatLine_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58c08a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c0250, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,31 +85,31 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::BeatLine_Pool;
 
-  /// @brief Field _alphaMul, offset 0x50, size 0x4
+  /// @brief Field _alphaMul, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__alphaMul, put = __cordl_internal_set__alphaMul)) float_t _alphaMul;
 
-  /// @brief Field _arriveFadeCurve, offset 0x40, size 0x8
+  /// @brief Field _arriveFadeCurve, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__arriveFadeCurve, put = __cordl_internal_set__arriveFadeCurve)) ::UnityEngine::AnimationCurve* _arriveFadeCurve;
 
-  /// @brief Field _color, offset 0x68, size 0x10
+  /// @brief Field _color, offset 0x70, size 0x10
   __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
 
-  /// @brief Field _highlightTimes, offset 0x60, size 0x8
+  /// @brief Field _highlightTimes, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__highlightTimes, put = __cordl_internal_set__highlightTimes)) ::System::Collections::Generic::List_1<float_t>* _highlightTimes;
 
-  /// @brief Field _jumpFadeCurve, offset 0x48, size 0x8
+  /// @brief Field _jumpFadeCurve, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__jumpFadeCurve, put = __cordl_internal_set__jumpFadeCurve)) ::UnityEngine::AnimationCurve* _jumpFadeCurve;
 
-  /// @brief Field _maxAlpha, offset 0x54, size 0x4
+  /// @brief Field _maxAlpha, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__maxAlpha, put = __cordl_internal_set__maxAlpha)) float_t _maxAlpha;
 
-  /// @brief Field _rotation, offset 0x78, size 0x4
+  /// @brief Field _rotation, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get__rotation, put = __cordl_internal_set__rotation)) float_t _rotation;
 
-  /// @brief Field _tubeBloomPrePassLight, offset 0x38, size 0x8
+  /// @brief Field _tubeBloomPrePassLight, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
 
-  /// @brief Field _variableMovementDataProvider, offset 0x58, size 0x8
+  /// @brief Field _variableMovementDataProvider, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
                       put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::VariableMovementDataProvider* _variableMovementDataProvider;
 
@@ -117,16 +117,16 @@ public:
 
   __declspec(property(get = get_rotation)) float_t rotation;
 
-  /// @brief Method AddHighlight, addr 0x58c0598, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddHighlight, addr 0x58bff40, size 0xb4, virtual false, abstract: false, final false
   inline void AddHighlight(float_t noteTime);
 
-  /// @brief Method ColorWasSet, addr 0x58c058c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x58bff34, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method Init, addr 0x58c04c0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58bfe68, size 0xcc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 position, float_t rotation);
 
-  /// @brief Method ManualUpdate, addr 0x58c064c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x58bfff4, size 0x190, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t songTime);
 
   static inline ::GlobalNamespace::BeatLine* New_ctor();
@@ -185,13 +185,13 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x58c07dc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c0184, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFinished, addr 0x58c0460, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x58bfe08, size 0x58, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_rotation, addr 0x58c04b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x58bfe60, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:
@@ -211,54 +211,54 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5609 };
 
-  /// @brief Field _tubeBloomPrePassLight, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _tubeBloomPrePassLight, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
-  /// @brief Field _arriveFadeCurve, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _arriveFadeCurve, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____arriveFadeCurve;
 
-  /// @brief Field _jumpFadeCurve, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _jumpFadeCurve, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____jumpFadeCurve;
 
-  /// @brief Field _alphaMul, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field _alphaMul, offset: 0x58, size: 0x4, def value: None
   float_t ____alphaMul;
 
-  /// @brief Field _maxAlpha, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field _maxAlpha, offset: 0x5c, size: 0x4, def value: None
   float_t ____maxAlpha;
 
-  /// @brief Field _variableMovementDataProvider, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _variableMovementDataProvider, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::VariableMovementDataProvider* ____variableMovementDataProvider;
 
-  /// @brief Field _highlightTimes, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _highlightTimes, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<float_t>* ____highlightTimes;
 
-  /// @brief Field _color, offset: 0x68, size: 0x10, def value: None
+  /// @brief Field _color, offset: 0x70, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
-  /// @brief Field _rotation, offset: 0x78, size: 0x4, def value: None
+  /// @brief Field _rotation, offset: 0x80, size: 0x4, def value: None
   float_t ____rotation;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::BeatLine, ____tubeBloomPrePassLight) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatLine, ____tubeBloomPrePassLight) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatLine, ____arriveFadeCurve) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatLine, ____arriveFadeCurve) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatLine, ____jumpFadeCurve) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatLine, ____jumpFadeCurve) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatLine, ____alphaMul) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatLine, ____alphaMul) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatLine, ____maxAlpha) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatLine, ____maxAlpha) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatLine, ____variableMovementDataProvider) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatLine, ____variableMovementDataProvider) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatLine, ____highlightTimes) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatLine, ____highlightTimes) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatLine, ____color) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatLine, ____color) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatLine, ____rotation) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatLine, ____rotation) == 0x80, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::BeatLine) == 0x80, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::BeatLine) == 0x88, "Size mismatch!");
 
 } // namespace GlobalNamespace

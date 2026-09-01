@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_FontStyleStack.hpp"
+// IWYU pragma private; include "TMPro\TMP_FontStyleStack.hpp"
 #include "TMPro/zzzz__TMP_FontStyleStack_def.hpp"
 #include "TMPro/zzzz__FontStyles_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_FontStyleStack.Clear
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontStyleStack::*)()>(&::TMPro::TMP_FontStyleStack::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x699f4c0;
+  constexpr static std::size_t addrs = 0x69a6f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontStyleStack>(), { "Clear", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::TMPro::TMP_FontStyleStack::*)(::TMPro::FontStyles)>(&::TMPro::TMP_FontStyleStack::Add)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x699f4cc;
+  constexpr static std::size_t addrs = 0x69a6f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontStyleStack>(), { "Add", {}, { ::i2c::type_of<::TMPro::FontStyles>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::TMPro::TMP_FontStyleStack::*)(::TMPro::FontStyles)>(&::TMPro::TMP_FontStyleStack::Remove)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x699f5d0;
+  constexpr static std::size_t addrs = 0x69a704c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

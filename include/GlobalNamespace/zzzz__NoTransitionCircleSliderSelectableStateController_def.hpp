@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoTransitionCircleSliderSelectableStateController.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoTransitionCircleSliderSelectableStateController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,21 +25,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoTransitionCircleSliderSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionCircleSlider>> {
 public:
   // Declarations
-  /// @brief Method HandleSelectionStateDidChange, addr 0x643e4f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectionStateDidChange, addr 0x6445f70, size 0x8, virtual false, abstract: false, final false
   inline void HandleSelectionStateDidChange(::HMUI::NoTransitionCircleSlider_SelectionState state);
 
   static inline ::GlobalNamespace::NoTransitionCircleSliderSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x643e464, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6445ee0, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x643e36c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6445de8, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x643e414, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResolveSelectionState, addr 0x6445e90, size 0x50, virtual false, abstract: false, final false
   inline void ResolveSelectionState(::HMUI::NoTransitionCircleSlider_SelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x643e4fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6445f78, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   NoTransitionCircleSliderSelectableStateController(NoTransitionCircleSliderSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

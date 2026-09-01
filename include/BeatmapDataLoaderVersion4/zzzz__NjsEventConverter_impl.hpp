@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/NjsEventConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\NjsEventConverter.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__NoteJumpMovementSpeedEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__NjsEventConverter_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::NjsEventConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>, ::GlobalNamespace::IBeatToTimeConverter*)>(&::BeatmapDataLoaderVersion4::NjsEventConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375dd30;
+  constexpr static std::size_t addrs = 0x376399c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteJumpSpeedEventData* (::BeatmapDataLoaderVersion4::NjsEventConverter::*)(::BeatmapSaveDataVersion4::BeatIndex*)>(
     &::BeatmapDataLoaderVersion4::NjsEventConverter::Convert)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x375dd38;
+  constexpr static std::size_t addrs = 0x37639a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

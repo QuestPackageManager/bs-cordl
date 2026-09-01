@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VFXBatchedEffectInfo.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VFXBatchedEffectInfo.hpp"
 #include "UnityEngine/VFX/zzzz__VFXBatchedEffectInfo_def.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectAsset_def.hpp"
 // Ctor Parameters [CppParam { name: "vfxAsset", ty: "::UnityW<::UnityEngine::VFX::VisualEffectAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "activeBatchCount", ty: "uint32_t",

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SceneExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SceneExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SceneExtensions_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::SceneManagement::Scene)>(&::UnityEngine::Rendering::SceneExtensions::GetGUID)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6789df4;
+  constexpr static std::size_t addrs = 0x6791870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

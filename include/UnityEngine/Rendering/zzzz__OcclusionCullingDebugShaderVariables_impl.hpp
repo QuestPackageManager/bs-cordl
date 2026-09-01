@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingDebugShaderVariables.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingDebugShaderVariables.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionCullingDebugShaderVariables_def.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionCullingDebugShaderVariables_def.hpp"

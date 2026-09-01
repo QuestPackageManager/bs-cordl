@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/SqlTypes/SQLResource.hpp"
+// IWYU pragma private; include "System\Data\SqlTypes\SQLResource.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SQLResource_def.hpp"
 //  Writing Method size for method: ::System::Data::SqlTypes::SQLResource.get_NullString
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_NullString)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607bd04;
+  constexpr static std::size_t addrs = 0x6083780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_NullString", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_ArithOverflowMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607bd48;
+  constexpr static std::size_t addrs = 0x60837c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_ArithOverflowMessage", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_DivideByZeroMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607bd8c;
+  constexpr static std::size_t addrs = 0x6083808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_DivideByZeroMessage", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_NullValueMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607bdd0;
+  constexpr static std::size_t addrs = 0x608384c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_NullValueMessage", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_TruncationMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607be14;
+  constexpr static std::size_t addrs = 0x6083890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_TruncationMessage", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_DateTimeOverflowMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607be58;
+  constexpr static std::size_t addrs = 0x60838d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_DateTimeOverflowMessage", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_ConcatDiffCollationMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607be9c;
+  constexpr static std::size_t addrs = 0x6083918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_ConcatDiffCollationMessage", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_CompareDiffCollationMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607bee0;
+  constexpr static std::size_t addrs = 0x608395c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_CompareDiffCollationMessage", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_ConversionOverflowMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607bf24;
+  constexpr static std::size_t addrs = 0x60839a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_ConversionOverflowMessage", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_TimeZoneSpecifiedMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607bf68;
+  constexpr static std::size_t addrs = 0x60839e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_TimeZoneSpecifiedMessage", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_InvalidPrecScaleMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607bfac;
+  constexpr static std::size_t addrs = 0x6083a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_InvalidPrecScaleMessage", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Data::SqlTypes::SQLResource::get_FormatMessage)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x607bff0;
+  constexpr static std::size_t addrs = 0x6083a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SQLResource*>(), { "get_FormatMessage", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Data::SqlTypes::SQLResource::InvalidOpStreamClosed)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x607c034;
+  constexpr static std::size_t addrs = 0x6083ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Data::SqlTypes::SQLResource::InvalidOpStreamNonWritable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x607c084;
+  constexpr static std::size_t addrs = 0x6083b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Data::SqlTypes::SQLResource::InvalidOpStreamNonReadable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x607c0d4;
+  constexpr static std::size_t addrs = 0x6083b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Data::SqlTypes::SQLResource::InvalidOpStreamNonSeekable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x607c124;
+  constexpr static std::size_t addrs = 0x6083ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/PushbackStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\PushbackStream.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__FilterStream_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__PushbackStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::IO::PushbackStream::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x362bdcc;
+  constexpr static std::size_t addrs = 0x362fb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)()>(&::Org::BouncyCastle::Utilities::IO::PushbackStream::ReadByte)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x362bddc;
+  constexpr static std::size_t addrs = 0x362fb9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::IO::PushbackStream::Read)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x362be18;
+  constexpr static std::size_t addrs = 0x362fbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)(int32_t)>(&::Org::BouncyCastle::Utilities::IO::PushbackStream::Unread)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x362be84;
+  constexpr static std::size_t addrs = 0x362fc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

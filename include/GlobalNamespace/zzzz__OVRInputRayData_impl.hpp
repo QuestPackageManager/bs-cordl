@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRInputRayData.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRInputRayData.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRInputRayData_def.hpp"
 // Ctor Parameters [CppParam { name: "IsActive", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "ActivationStrength", ty: "float_t", modifiers: "", def_value: Some("{}") },

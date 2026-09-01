@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/InternalDecoderBestFitFallback.hpp"
+// IWYU pragma private; include "System\Text\InternalDecoderBestFitFallback.hpp"
 #include "System/Text/zzzz__DecoderFallback_impl.hpp"
 #include "System/Text/zzzz__InternalDecoderBestFitFallback_def.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::InternalDecoderBestFitFallback::*)(::System::Text::Encoding*)>(&::System::Text::InternalDecoderBestFitFallback::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cc72cc;
+  constexpr static std::size_t addrs = 0x5ccb788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::DecoderFallbackBuffer* (::System::Text::InternalDecoderBestFitFallback::*)()>(
     &::System::Text::InternalDecoderBestFitFallback::CreateFallbackBuffer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5cc72e0;
+  constexpr static std::size_t addrs = 0x5ccb79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::InternalDecoderBestFitFallback::*)()>(&::System::Text::InternalDecoderBestFitFallback::get_MaxCharCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc7454;
+  constexpr static std::size_t addrs = 0x5ccb910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::InternalDecoderBestFitFallback::*)(::System::Object*)>(&::System::Text::InternalDecoderBestFitFallback::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5cc745c;
+  constexpr static std::size_t addrs = 0x5ccb918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::InternalDecoderBestFitFallback::*)()>(&::System::Text::InternalDecoderBestFitFallback::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cc750c;
+  constexpr static std::size_t addrs = 0x5ccb9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

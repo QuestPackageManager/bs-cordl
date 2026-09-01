@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/INameTagSpawner.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\INameTagSpawner.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__INameTagSpawner_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Shared::INameTagSpawner.get_IsConnected
 template <>

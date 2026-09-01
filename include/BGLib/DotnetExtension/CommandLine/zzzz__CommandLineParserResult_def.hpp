@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/CommandLineParserResult.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\CommandLine\CommandLineParserResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
 
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <Contains>b__0, addr 0x331096c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <Contains>b__0, addr 0x3314768, size 0x70, virtual false, abstract: false, final false
   inline bool _Contains_b__0(::System::Collections::Generic::KeyValuePair_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW> keyValuePair);
 
   constexpr ::StringW const& __cordl_internal_get_identifier() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_identifier(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3310294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3314090, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   CommandLineParserResult___c__DisplayClass10_0(CommandLineParserResult___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20524 };
 
   /// @brief Field identifier, offset: 0x10, size: 0x8, def value: None
   ::StringW ___identifier;
@@ -124,10 +124,10 @@ public:
 
   constexpr void __cordl_internal_set_identifier(::StringW value);
 
-  /// @brief Method .ctor, addr 0x33100a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3313ea0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_Item>b__0, addr 0x33109dc, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method <get_Item>b__0, addr 0x33147d8, size 0x2bc, virtual false, abstract: false, final false
   inline bool _get_Item_b__0(::StringW optionIdentifier);
 
 protected:
@@ -145,7 +145,7 @@ public:
   CommandLineParserResult___c__DisplayClass7_0(CommandLineParserResult___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20525 };
 
   /// @brief Field identifier, offset: 0x10, size: 0x8, def value: None
   ::StringW ___identifier;
@@ -178,26 +178,26 @@ public:
 
   __declspec(property(get = get_Item)) ::StringW Item[];
 
-  /// @brief Method Contains, addr 0x3310180, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3313f7c, size 0x114, virtual false, abstract: false, final false
   inline bool Contains(::StringW identifier);
 
-  /// @brief Method Contains, addr 0x33100a8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3313ea4, size 0xd8, virtual false, abstract: false, final false
   inline bool Contains(::BGLib::DotnetExtension::CommandLine::ArgumentOption option);
 
-  /// @brief Method GetValueOrDefault, addr 0x330d2f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetValueOrDefault, addr 0x33110f0, size 0x70, virtual false, abstract: false, final false
   inline ::StringW GetValueOrDefault(::BGLib::DotnetExtension::CommandLine::ArgumentOption option);
 
-  /// @brief Method ToString, addr 0x3310298, size 0x6d4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3314094, size 0x6d4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x330f414, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3313210, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW applicationPath, ::System::Collections::Generic::IReadOnlyDictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>* parsed,
                     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* unexpectedArguments);
 
-  /// @brief Method get_Item, addr 0x330fc88, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3313a84, size 0x41c, virtual false, abstract: false, final false
   inline ::StringW get_Item(::StringW identifier);
 
-  /// @brief Method get_Item, addr 0x330fbb0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x33139ac, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW get_Item(::BGLib::DotnetExtension::CommandLine::ArgumentOption option);
 
   // Ctor Parameters []
@@ -211,7 +211,7 @@ public:
                                     ::System::Collections::Generic::IReadOnlyList_1<::StringW>* unexpectedArguments) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20526 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

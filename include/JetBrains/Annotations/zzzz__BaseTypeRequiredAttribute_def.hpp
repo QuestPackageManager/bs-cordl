@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/BaseTypeRequiredAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\BaseTypeRequiredAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__BaseType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6e36394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3df18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* baseType);
 
-  /// @brief Method get_BaseType, addr 0x6e3639c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x6e3df20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_BaseType();
 
-  /// @brief Method set_BaseType, addr 0x6e363a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x6e3df28, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::System::Type* value);
 
 protected:
@@ -59,7 +59,7 @@ public:
   BaseTypeRequiredAttribute(BaseTypeRequiredAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22548 };
 
   /// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____BaseType_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/IntrospectionExtensions.hpp"
+// IWYU pragma private; include "System\Reflection\IntrospectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__IntrospectionExtensions_def.hpp"
 #include "System/Reflection/zzzz__TypeInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::TypeInfo* (*)(::System::Type*)>(&::System::Reflection::IntrospectionExtensions::GetTypeInfo)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5b7a734;
+  constexpr static std::size_t addrs = 0x5b7ebf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Exceptions/ProviderException.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Exceptions\ProviderException.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__OperationException_impl.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ProviderException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::Exceptions::ProviderException::*)(
     ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::System::Exception*)>(&::UnityEngine::ResourceManagement::Exceptions::ProviderException::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x690a244;
+  constexpr static std::size_t addrs = 0x6911cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (
     ::UnityEngine::ResourceManagement::Exceptions::ProviderException::*)()>(&::UnityEngine::ResourceManagement::Exceptions::ProviderException::get_Location)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x690a26c;
+  constexpr static std::size_t addrs = 0x6911ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/GlyphAnchorPoint.hpp"
+// IWYU pragma private; include "TMPro\GlyphAnchorPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,16 +24,16 @@ public:
 
   __declspec(property(get = get_yCoordinate, put = set_yCoordinate)) float_t yCoordinate;
 
-  /// @brief Method get_xCoordinate, addr 0x692fe0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xCoordinate, addr 0x6937888, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xCoordinate();
 
-  /// @brief Method get_yCoordinate, addr 0x692fe1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yCoordinate, addr 0x6937898, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yCoordinate();
 
-  /// @brief Method set_xCoordinate, addr 0x692fe14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xCoordinate, addr 0x6937890, size 0x8, virtual false, abstract: false, final false
   inline void set_xCoordinate(float_t value);
 
-  /// @brief Method set_yCoordinate, addr 0x692fe24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yCoordinate, addr 0x69378a0, size 0x8, virtual false, abstract: false, final false
   inline void set_yCoordinate(float_t value);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr GlyphAnchorPoint(float_t m_XCoordinate, float_t m_YCoordinate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15849 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

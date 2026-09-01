@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorStyleSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorStyleSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorStyleSO_def.hpp"
 #include "GlobalNamespace/zzzz__ColorStyle_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IReadOnlyColorStyle* (::GlobalNamespace::ColorStyleSO::*)()>(&::GlobalNamespace::ColorStyleSO::get_colorStyle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f4544;
+  constexpr static std::size_t addrs = 0x36f85a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyleSO*>(), { "get_colorStyle", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStyleSO::*)()>(&::GlobalNamespace::ColorStyleSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f454c;
+  constexpr static std::size_t addrs = 0x36f85a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyleSO*>(), { ".ctor", {}, {} })));

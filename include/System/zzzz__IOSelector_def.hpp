@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IOSelector.hpp"
+// IWYU pragma private; include "System\IOSelector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ namespace System {
 class CORDL_TYPE IOSelector : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x6372dd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x637a84c, size 0x4, virtual false, abstract: false, final false
   static inline void Add(::System::IntPtr handle, ::System::IOSelectorJob* job);
 
 protected:
@@ -43,7 +43,7 @@ public:
   IOSelector(IOSelector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11088 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

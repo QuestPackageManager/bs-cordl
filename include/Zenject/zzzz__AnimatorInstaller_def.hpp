@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/AnimatorInstaller.hpp"
+// IWYU pragma private; include "Zenject\AnimatorInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   /// @brief Field _animator, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator)) ::UnityW<::UnityEngine::Animator> _animator;
 
-  /// @brief Method InstallBindings, addr 0x6e85d08, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x6e8d88c, size 0xbc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::AnimatorInstaller* New_ctor(::UnityEngine::Animator* animator);
@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method __zenCreate, addr 0x6e85dc4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e8d948, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e85eb4, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8da38, size 0x248, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e85cb8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8d83c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animator* animator);
 
 protected:
@@ -67,7 +67,7 @@ public:
   AnimatorInstaller(AnimatorInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14655 };
 
   /// @brief Field _animator, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;

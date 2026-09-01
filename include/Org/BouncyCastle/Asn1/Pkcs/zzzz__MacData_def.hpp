@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/MacData.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\MacData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,17 +49,17 @@ public:
   /// @brief Field salt, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_salt, put = __cordl_internal_set_salt)) ::ArrayW<uint8_t> salt;
 
-  /// @brief Method GetInstance, addr 0x345f2b8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3463078, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::MacData* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetSalt, addr 0x345f6b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetSalt, addr 0x3463478, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSalt();
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::MacData* New_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digInfo, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::MacData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x345f738, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x34634f8, size 0x1f4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::DigestInfo* const& __cordl_internal_get_digInfo() const;
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set_salt(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x345f5c4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3463384, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digInfo, ::ArrayW<uint8_t> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor, addr 0x345f43c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34631fc, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_IterationCount, addr 0x345f730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x34634f0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_IterationCount();
 
-  /// @brief Method get_Mac, addr 0x345f6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mac, addr 0x3463470, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* get_Mac();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/HSVColor.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\HSVColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,17 +33,17 @@ public:
   /// @brief Field v, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v)) float_t v;
 
-  /// @brief Method FromRGB, addr 0x66b1b28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x66b95a4, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::HSVColor* FromRGB(::UnityEngine::Color col);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
-  /// @brief Method SqrDistance, addr 0x66b1e4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SqrDistance, addr 0x66b98c8, size 0x44, virtual false, abstract: false, final false
   inline float_t SqrDistance(::UnityEngine::ProBuilder::HSVColor* InColor);
 
-  /// @brief Method ToString, addr 0x66b1d74, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x66b97f0, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_h() const;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_v(float_t value);
 
-  /// @brief Method .ctor, addr 0x66b1b08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66b9584, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v);
 
-  /// @brief Method .ctor, addr 0x66b1b14, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66b9590, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
 protected:
@@ -85,7 +85,7 @@ public:
   HSVColor(HSVColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16724 };
 
   /// @brief Field h, offset: 0x10, size: 0x4, def value: None
   float_t ___h;

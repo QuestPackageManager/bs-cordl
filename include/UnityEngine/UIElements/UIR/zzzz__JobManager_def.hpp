@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/JobManager.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\JobManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,28 +60,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x6cd3e1c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6cdb9a0, size 0x64, virtual false, abstract: false, final false
   inline void Add(::by_ref<::UnityEngine::UIElements::UIR::ConvertMeshJobData> job);
 
-  /// @brief Method Add, addr 0x6cd3efc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6cdba80, size 0x64, virtual false, abstract: false, final false
   inline void Add(::by_ref<::UnityEngine::UIElements::UIR::CopyMeshJobData> job);
 
-  /// @brief Method Add, addr 0x6cd5e80, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6cdda04, size 0x64, virtual false, abstract: false, final false
   inline void Add(::by_ref<::UnityEngine::UIElements::UIR::NudgeJobData> job);
 
-  /// @brief Method CompleteConvertMeshJobs, addr 0x6cd60c4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompleteConvertMeshJobs, addr 0x6cddc48, size 0x1e0, virtual false, abstract: false, final false
   inline void CompleteConvertMeshJobs();
 
-  /// @brief Method CompleteCopyMeshJobs, addr 0x6cd62a4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompleteCopyMeshJobs, addr 0x6cdde28, size 0x1e0, virtual false, abstract: false, final false
   inline void CompleteCopyMeshJobs();
 
-  /// @brief Method CompleteNudgeJobs, addr 0x6cd5ee4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompleteNudgeJobs, addr 0x6cdda68, size 0x1e0, virtual false, abstract: false, final false
   inline void CompleteNudgeJobs();
 
-  /// @brief Method Dispose, addr 0x6cd6494, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cde018, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cd64fc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6cde080, size 0xd8, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::JobManager* New_ctor();
@@ -116,16 +116,16 @@ public:
 
   constexpr void __cordl_internal_set_m_NudgeJobs(::UnityEngine::UIElements::UIR::NativePagedList_1<::UnityEngine::UIElements::UIR::NudgeJobData>* value);
 
-  /// @brief Method .ctor, addr 0x6cd65d4, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cde158, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disposed, addr 0x6cd6484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6cde008, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6cd648c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6cde010, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

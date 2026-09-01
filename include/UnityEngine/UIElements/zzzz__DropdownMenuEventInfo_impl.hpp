@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DropdownMenuEventInfo.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DropdownMenuEventInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DropdownMenuEventInfo::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::DropdownMenuEventInfo::_ctor)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x6d8be6c;
+  constexpr static std::size_t addrs = 0x6d939f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

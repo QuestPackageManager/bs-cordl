@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/PrefabGameObjectProvider.hpp"
+// IWYU pragma private; include "Zenject\PrefabGameObjectProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PrefabGameObjectProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::PrefabGameObjectProvider::*)(::Zenject::IPrefabInstantiator*)>(&::Zenject::PrefabGameObjectProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7f16c;
+  constexpr static std::size_t addrs = 0x6e86cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::PrefabGameObjectProvider::*)()>(&::Zenject::PrefabGameObjectProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7f174;
+  constexpr static std::size_t addrs = 0x6e86cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabGameObjectProvider*>(), { "get_IsCached", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::PrefabGameObjectProvider::*)()>(&::Zenject::PrefabGameObjectProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7f17c;
+  constexpr static std::size_t addrs = 0x6e86d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabGameObjectProvider*>(), { "get_TypeVariesBasedOnMemberType", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::PrefabGameObjectProvider::*)(::Zenject::InjectContext*)>(&::Zenject::PrefabGameObjectProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e7f184;
+  constexpr static std::size_t addrs = 0x6e86d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::PrefabGa
                                                                                                      ::by_ref<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::PrefabGameObjectProvider::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6e7f1e4;
+  constexpr static std::size_t addrs = 0x6e86d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Oculus/OculusPlatform.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Oculus\OculusPlatform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -112,10 +112,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f2f15c, size 0x430, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f33600, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5f2f64c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f33af0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -134,7 +134,7 @@ public:
                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22136 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -180,10 +180,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f2f6b8, size 0x94c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f33b5c, size 0x94c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5f30004, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f344a8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -206,7 +206,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter __u__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22137 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -305,36 +305,36 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ClearRichPresenceStatus, addr 0x5f2eadc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method ClearRichPresenceStatus, addr 0x5f32f80, size 0x8, virtual true, abstract: false, final true
   inline void ClearRichPresenceStatus();
 
-  /// @brief Method Dispose, addr 0x5f2ead4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5f32f78, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetAppVersion, addr 0x5f2eae8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetAppVersion, addr 0x5f32f8c, size 0x14, virtual true, abstract: false, final true
   inline ::StringW GetAppVersion();
 
-  /// @brief Method GetDestination, addr 0x5f2ed94, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method GetDestination, addr 0x5f33238, size 0xe4, virtual true, abstract: false, final true
   inline ::System::ValueTuple_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW> GetDestination();
 
-  /// @brief Method InitializeUserAsync, addr 0x5f2ee78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitializeUserAsync, addr 0x5f3331c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeUserAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
   static inline ::OculusStudios::Platform::Oculus::OculusPlatform* New_ctor();
 
-  /// @brief Method OculusStudios.Platform.Core.IPlatformInternal.InitializeAsync, addr 0x5f2ea10, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method OculusStudios.Platform.Core.IPlatformInternal.InitializeAsync, addr 0x5f32eb4, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* OculusStudios_Platform_Core_IPlatformInternal_InitializeAsync(::OculusStudios::Platform::Core::PlatformInitParams* initParams);
 
-  /// @brief Method OnJoinIntent, addr 0x5f2ef3c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnJoinIntent, addr 0x5f333e0, size 0x154, virtual false, abstract: false, final false
   inline void OnJoinIntent(::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>* message);
 
-  /// @brief Method SetRichPresenceStatus, addr 0x5f2eafc, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method SetRichPresenceStatus, addr 0x5f32fa0, size 0x298, virtual true, abstract: false, final true
   inline void SetRichPresenceStatus(::OculusStudios::Platform::Core::RichPresenceRuntimeInstance status);
 
-  /// @brief Method Tick, addr 0x5f2eae4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x5f32f88, size 0x4, virtual true, abstract: false, final true
   inline void Tick(float_t deltaTime);
 
-  /// @brief Method <GetDestination>b__25_0, addr 0x5f2f0a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <GetDestination>b__25_0, addr 0x5f3354c, size 0xb4, virtual false, abstract: false, final false
   inline bool _GetDestination_b__25_0(::OculusStudios::Platform::Core::IRichPresenceDefinition* x);
 
   constexpr ::OculusStudios::Platform::Oculus::Entitlements* const& __cordl_internal_get__entitlements() const;
@@ -379,25 +379,25 @@ public:
 
   constexpr void __cordl_internal_set_logger(::OculusStudios::Platform::Core::IPlatformLogger* value);
 
-  /// @brief Method .ctor, addr 0x5f2f090, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f33534, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_destinationRequestedEvent, addr 0x5f2e890, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_destinationRequestedEvent, addr 0x5f32d34, size 0xc0, virtual true, abstract: false, final true
   inline void add_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value);
 
-  /// @brief Method get_displayName, addr 0x5f2e7f0, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_displayName, addr 0x5f32c94, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_displayName();
 
-  /// @brief Method get_entitlements, addr 0x5f2e888, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_entitlements, addr 0x5f32d2c, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::Platform::Core::IPlatformEntitlements* get_entitlements();
 
-  /// @brief Method get_key, addr 0x5f2e834, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_key, addr 0x5f32cd8, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_key();
 
-  /// @brief Method get_user, addr 0x5f2e880, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_user, addr 0x5f32d24, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::Platform::Core::IPlatformUser* get_user();
 
-  /// @brief Method get_vendor, addr 0x5f2e878, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_vendor, addr 0x5f32d1c, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::Platform::Core::Vendor get_vendor();
 
   /// @brief Convert to "::OculusStudios::Platform::Core::IPlatform"
@@ -409,7 +409,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_destinationRequestedEvent, addr 0x5f2e950, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_destinationRequestedEvent, addr 0x5f32df4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_destinationRequestedEvent(::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* value);
 
 protected:
@@ -427,7 +427,7 @@ public:
   OculusPlatform(OculusPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22138 };
 
   /// @brief Field destinationRequestedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>* ___destinationRequestedEvent;

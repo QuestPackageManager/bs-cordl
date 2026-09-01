@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/LightRotationBaseData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\LightRotationBaseData.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__RotationDirection_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(&::BeatmapSaveDataVersion3::LightRotationBaseData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37598a4;
+  constexpr static std::size_t addrs = 0x375f510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightRotationBaseData*>(), { "get_beat", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightRotationBaseData::get_usePreviousEventRotationValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x37598ac;
+  constexpr static std::size_t addrs = 0x375f518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightRotationBaseData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37598bc;
+  constexpr static std::size_t addrs = 0x375f528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightRotationBaseData*>(), { "get_easeType", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(&::BeatmapSaveDataVersion3::LightRotationBaseData::get_loopsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37598c4;
+  constexpr static std::size_t addrs = 0x375f530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightRotationBaseData*>(), { "get_loopsCount", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(&::BeatmapSaveDataVersion3::LightRotationBaseData::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37598cc;
+  constexpr static std::size_t addrs = 0x375f538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightRotationBaseData*>(), { "get_rotation", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::RotationDirection (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightRotationBaseData::get_rotationDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37598d4;
+  constexpr static std::size_t addrs = 0x375f540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightRotationBaseData*>(), { "get_rotationDirection", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::LightRotationBaseData::*)(
     float_t, bool, ::BeatmapSaveDataCommon::EaseType, int32_t, float_t, ::BeatmapSaveDataCommon::RotationDirection)>(&::BeatmapSaveDataVersion3::LightRotationBaseData::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x37598dc;
+  constexpr static std::size_t addrs = 0x375f548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

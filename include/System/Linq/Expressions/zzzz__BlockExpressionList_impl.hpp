@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/BlockExpressionList.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\BlockExpressionList.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__BlockExpressionList_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::*)(int32_t)>(
     &::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f728b4;
+  constexpr static std::size_t addrs = 0x5f7a330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::*)()>(
     &::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f728c0;
+  constexpr static std::size_t addrs = 0x5f7a33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::*)()>(
     &::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::MoveNext)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5f728c4;
+  constexpr static std::size_t addrs = 0x5f7a340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::*)()>(
     &::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::System_Collections_Generic_IEnumerator_System_Linq_Expressions_Expression__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f72988;
+  constexpr static std::size_t addrs = 0x5f7a404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18*>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::*)()>(
     &::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f72990;
+  constexpr static std::size_t addrs = 0x5f7a40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::*)()>(
     &::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f729c8;
+  constexpr static std::size_t addrs = 0x5f7a444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BlockExpressionList::*)(
     ::System::Linq::Expressions::BlockExpression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::BlockExpressionList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f714c8;
+  constexpr static std::size_t addrs = 0x5f78f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::BlockExpressionList::*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::BlockExpressionList::IndexOf)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f724d4;
+  constexpr static std::size_t addrs = 0x5f79f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BlockExpressionList::*)(int32_t, ::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::BlockExpressionList::Insert)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f7255c;
+  constexpr static std::size_t addrs = 0x5f79fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BlockExpressionList::*)(int32_t)>(&::System::Linq::Expressions::BlockExpressionList::RemoveAt)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f72584;
+  constexpr static std::size_t addrs = 0x5f7a000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::BlockExpressionList::*)(int32_t)>(
     &::System::Linq::Expressions::BlockExpressionList::get_Item)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f725ac;
+  constexpr static std::size_t addrs = 0x5f7a028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BlockExpressionList::*)(int32_t, ::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::BlockExpressionList::set_Item)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f725d4;
+  constexpr static std::size_t addrs = 0x5f7a050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BlockExpressionList::*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::BlockExpressionList::Add)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f725fc;
+  constexpr static std::size_t addrs = 0x5f7a078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BlockExpressionList::*)()>(&::System::Linq::Expressions::BlockExpressionList::Clear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f72624;
+  constexpr static std::size_t addrs = 0x5f7a0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BlockExpressionList*>(), { "Clear", {}, {} })));
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::BlockExpressionList::*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::BlockExpressionList::Contains)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f7264c;
+  constexpr static std::size_t addrs = 0x5f7a0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::BlockExpressionList::*)(::ArrayW<::System::Linq::Expressions::Expression*>, int32_t)>(
     &::System::Linq::Expressions::BlockExpressionList::CopyTo)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5f72664;
+  constexpr static std::size_t addrs = 0x5f7a0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::BlockExpressionList::*)()>(&::System::Linq::Expressions::BlockExpressionList::get_Count)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f727f4;
+  constexpr static std::size_t addrs = 0x5f7a270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BlockExpressionList*>(), { "get_Count", {}, {} })));
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::BlockExpressionList::*)()>(&::System::Linq::Expressions::BlockExpressionList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f72810;
+  constexpr static std::size_t addrs = 0x5f7a28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BlockExpressionList*>(), { "get_IsReadOnly", {}, {} })));
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::BlockExpressionList::*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::BlockExpressionList::Remove)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f72838;
+  constexpr static std::size_t addrs = 0x5f7a2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Expression*>* (
     ::System::Linq::Expressions::BlockExpressionList::*)()>(&::System::Linq::Expressions::BlockExpressionList::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5f72860;
+  constexpr static std::size_t addrs = 0x5f7a2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::BlockExpressionList*>(), { "GetEnumerator", {}, {} })));
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Linq::Expressions::BlockExpressionList::*)()>(
     &::System::Linq::Expressions::BlockExpressionList::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f728bc;
+  constexpr static std::size_t addrs = 0x5f7a338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

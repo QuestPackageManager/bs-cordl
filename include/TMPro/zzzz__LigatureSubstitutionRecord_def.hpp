@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/LigatureSubstitutionRecord.hpp"
+// IWYU pragma private; include "TMPro\LigatureSubstitutionRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,22 +25,22 @@ public:
 
   __declspec(property(get = get_ligatureGlyphID, put = set_ligatureGlyphID)) uint32_t ligatureGlyphID;
 
-  /// @brief Method get_componentGlyphIDs, addr 0x692fef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_componentGlyphIDs, addr 0x6937970, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t> get_componentGlyphIDs();
 
-  /// @brief Method get_ligatureGlyphID, addr 0x692ff04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ligatureGlyphID, addr 0x6937980, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_ligatureGlyphID();
 
-  /// @brief Method op_Equality, addr 0x692ff14, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6937990, size 0x78, virtual false, abstract: false, final false
   static inline bool op_Equality(::TMPro::LigatureSubstitutionRecord lhs, ::TMPro::LigatureSubstitutionRecord rhs);
 
-  /// @brief Method op_Inequality, addr 0x692ff8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6937a08, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::TMPro::LigatureSubstitutionRecord lhs, ::TMPro::LigatureSubstitutionRecord rhs);
 
-  /// @brief Method set_componentGlyphIDs, addr 0x692fefc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_componentGlyphIDs, addr 0x6937978, size 0x8, virtual false, abstract: false, final false
   inline void set_componentGlyphIDs(::ArrayW<uint32_t> value);
 
-  /// @brief Method set_ligatureGlyphID, addr 0x692ff0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ligatureGlyphID, addr 0x6937988, size 0x8, virtual false, abstract: false, final false
   inline void set_ligatureGlyphID(uint32_t value);
 
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
   constexpr LigatureSubstitutionRecord(::ArrayW<uint32_t> m_ComponentGlyphIDs, uint32_t m_LigatureGlyphID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15856 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

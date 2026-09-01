@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MenuLightsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\MenuLightsManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager__Start_d__8::*)(int32_t)>(&::GlobalNamespace::MenuLightsManager__Start_d__8::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59816ac;
+  constexpr static std::size_t addrs = 0x5985040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager__Start_d__8::*)()>(&::GlobalNamespace::MenuLightsManager__Start_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5981f7c;
+  constexpr static std::size_t addrs = 0x5985910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MenuLightsManager__Start_d__8::*)()>(&::GlobalNamespace::MenuLightsManager__Start_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x5981f80;
+  constexpr static std::size_t addrs = 0x5985914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsManager__Start_d__8*>(), { "MoveNext", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MenuLightsManager__Start_d__8::*)()>(
     &::GlobalNamespace::MenuLightsManager__Start_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59821e0;
+  constexpr static std::size_t addrs = 0x5985b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager__Start_d__8::*)()>(
     &::GlobalNamespace::MenuLightsManager__Start_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59821e8;
+  constexpr static std::size_t addrs = 0x5985b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MenuLightsManager__Start_d__8::*)()>(
     &::GlobalNamespace::MenuLightsManager__Start_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5982220;
+  constexpr static std::size_t addrs = 0x5985bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5981658;
+  constexpr static std::size_t addrs = 0x5984fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsManager*>(), { "Start", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(int32_t, ::UnityEngine::Color)>(&::GlobalNamespace::MenuLightsManager::SetColor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59816b4;
+  constexpr static std::size_t addrs = 0x5985048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MenuLightsManager::*)(int32_t)>(&::GlobalNamespace::MenuLightsManager::CurrentColorForID)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59816cc;
+  constexpr static std::size_t addrs = 0x5985060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(float_t)>(&::GlobalNamespace::MenuLightsManager::UpdateColors)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x59816e8;
+  constexpr static std::size_t addrs = 0x598507c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::SetTargetColors)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x59818d0;
+  constexpr static std::size_t addrs = 0x5985264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsManager*>(), { "SetTargetColors", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::GetLightsCount)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5981814;
+  constexpr static std::size_t addrs = 0x59851a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsManager*>(), { "GetLightsCount", {}, {} })));
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<int32_t, ::UnityEngine::Color> (::GlobalNamespace::MenuLightsManager::*)(int32_t)>(
     &::GlobalNamespace::MenuLightsManager::GetLightForIndex)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5981838;
+  constexpr static std::size_t addrs = 0x59851cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::SaveOriginalColors)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5981948;
+  constexpr static std::size_t addrs = 0x59852dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsManager*>(), { "SaveOriginalColors", {}, {} })));
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(::GlobalNamespace::MenuLightsPresetSO*, bool)>(
     &::GlobalNamespace::MenuLightsManager::SetDefaultPreset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5981a3c;
+  constexpr static std::size_t addrs = 0x59853d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(bool)>(&::GlobalNamespace::MenuLightsManager::ResetColorPresetToDefault)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5981bbc;
+  constexpr static std::size_t addrs = 0x5985550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(::GlobalNamespace::MenuLightsPresetSO*, bool, float_t)>(
     &::GlobalNamespace::MenuLightsManager::SetColorPreset)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5981ae0;
+  constexpr static std::size_t addrs = 0x5985474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(float_t)>(&::GlobalNamespace::MenuLightsManager::StartLightAnimation)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5981c58;
+  constexpr static std::size_t addrs = 0x59855ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::HandleTweenFinished)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5981ce0;
+  constexpr static std::size_t addrs = 0x5985674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsManager*>(), { "HandleTweenFinished", {}, {} })));
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(float_t, bool, float_t)>(&::GlobalNamespace::MenuLightsManager::SetAlphaMultiplier)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5981d3c;
+  constexpr static std::size_t addrs = 0x59856d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::RefreshColors)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5981e48;
+  constexpr static std::size_t addrs = 0x59857dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsManager*>(), { "RefreshColors", {}, {} })));
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5981ed8;
+  constexpr static std::size_t addrs = 0x598586c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsManager*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ObjectIDGenerator.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ObjectIDGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,18 +39,18 @@ public:
   /// @brief Field sizes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_sizes, put = setStaticF_sizes)) ::ArrayW<int32_t> sizes;
 
-  /// @brief Method FindElement, addr 0x5b4b5e4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x5b4faa0, size 0xbc, virtual false, abstract: false, final false
   inline int32_t FindElement(::System::Object* obj, ::by_ref<bool> found);
 
-  /// @brief Method GetId, addr 0x5b4b6a0, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method GetId, addr 0x5b4fb5c, size 0x168, virtual true, abstract: false, final false
   inline int64_t GetId(::System::Object* obj, ::by_ref<bool> firstTime);
 
-  /// @brief Method HasId, addr 0x5b4bab8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method HasId, addr 0x5b4ff74, size 0xc8, virtual true, abstract: false, final false
   inline int64_t HasId(::System::Object* obj, ::by_ref<bool> firstTime);
 
   static inline ::System::Runtime::Serialization::ObjectIDGenerator* New_ctor();
 
-  /// @brief Method Rehash, addr 0x5b4b808, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Rehash, addr 0x5b4fcc4, size 0x2b0, virtual false, abstract: false, final false
   inline void Rehash();
 
   constexpr int32_t const& __cordl_internal_get_m_currentCount() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_m_objs(::ArrayW<::System::Object*> value);
 
-  /// @brief Method .ctor, addr 0x5b4b508, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4f9c4, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t> getStaticF_sizes();

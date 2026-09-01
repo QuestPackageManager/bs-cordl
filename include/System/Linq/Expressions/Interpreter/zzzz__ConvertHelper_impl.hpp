@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ConvertHelper.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\ConvertHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__ConvertHelper_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Object*)>(&::System::Linq::Expressions::Interpreter::ConvertHelper::ToInt32NoNull)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5f85984;
+  constexpr static std::size_t addrs = 0x5f8d400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

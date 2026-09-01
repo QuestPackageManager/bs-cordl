@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "AYellowpaper/SerializedCollections/DictionaryLookupTable_2.hpp"
+// IWYU pragma private; include "AYellowpaper\SerializedCollections\DictionaryLookupTable_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -124,7 +124,7 @@ public:
   DictionaryLookupTable_2___c(DictionaryLookupTable_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -222,7 +222,7 @@ public:
   DictionaryLookupTable_2(DictionaryLookupTable_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23372 };
 
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::AYellowpaper::SerializedCollections::SerializedDictionary_2<TKey, TValue>* ____dictionary;

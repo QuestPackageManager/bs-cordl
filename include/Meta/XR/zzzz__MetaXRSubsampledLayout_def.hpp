@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MetaXRSubsampledLayout.hpp"
+// IWYU pragma private; include "Meta\XR\MetaXRSubsampledLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +21,15 @@ namespace Meta::XR {
 class CORDL_TYPE MetaXRSubsampledLayout : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
   // Declarations
-  /// @brief Method MetaSetSubsampledLayout, addr 0x5e4c3b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MetaSetSubsampledLayout, addr 0x5e5086c, size 0x7c, virtual false, abstract: false, final false
   static inline void MetaSetSubsampledLayout(bool enabled);
 
   static inline ::Meta::XR::MetaXRSubsampledLayout* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x5e4c390, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x5e5084c, size 0x20, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method .ctor, addr 0x5e4c42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e508e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   MetaXRSubsampledLayout(MetaXRSubsampledLayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8565 };
 
   /// @brief Field extensionName offset 0xffffffff size 0x8
   static constexpr ::ConstString extensionName{ u"XR_META_vulkan_swapchain_create_info" };

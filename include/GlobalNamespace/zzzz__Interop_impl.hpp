@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Interop.hpp"
+// IWYU pragma private; include "GlobalNamespace\Interop.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Interop_def.hpp"
 #include "GlobalNamespace/zzzz__Interop_def.hpp"
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Interop_ErrorInfo::*)(int32_t)>(&::GlobalNamespace::Interop_ErrorInfo::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5aa8098;
+  constexpr static std::size_t addrs = 0x5aac554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_ErrorInfo>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Interop_ErrorInfo::*)(::GlobalNamespace::Interop_Error)>(&::GlobalNamespace::Interop_ErrorInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5aa8108;
+  constexpr static std::size_t addrs = 0x5aac5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Interop_Error (::GlobalNamespace::Interop_ErrorInfo::*)()>(&::GlobalNamespace::Interop_ErrorInfo::get_Error)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa8114;
+  constexpr static std::size_t addrs = 0x5aac5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_ErrorInfo>(), { "get_Error", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Interop_ErrorInfo::*)()>(&::GlobalNamespace::Interop_ErrorInfo::get_RawErrno)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5aa7f54;
+  constexpr static std::size_t addrs = 0x5aac410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_ErrorInfo>(), { "get_RawErrno", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::Interop_ErrorInfo::*)()>(&::GlobalNamespace::Interop_ErrorInfo::GetErrorMessage)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5aa7fc4;
+  constexpr static std::size_t addrs = 0x5aac480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_ErrorInfo>(), { "GetErrorMessage", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::Interop_ErrorInfo::*)()>(&::GlobalNamespace::Interop_ErrorInfo::ToString)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5aa820c;
+  constexpr static std::size_t addrs = 0x5aac6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (::GlobalNamespace::Sys_Interop_DirectoryEntry::*)(::System::Span_1<char16_t>)>(
     &::GlobalNamespace::Sys_Interop_DirectoryEntry::GetName)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5aa8bf4;
+  constexpr static std::size_t addrs = 0x5aad0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Interop_ErrorInfo (*)()>(&::GlobalNamespace::Interop_Sys::GetLastErrorInfo)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5aa7da4;
+  constexpr static std::size_t addrs = 0x5aac260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(), { "GetLastErrorInfo", {}, {} })));
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::GlobalNamespace::Interop_Sys::StrError)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5aa8120;
+  constexpr static std::size_t addrs = 0x5aac5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(), { "StrError", {}, { ::i2c::type_of<int32_t>() } })));
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Interop_Error (*)(int32_t)>(&::GlobalNamespace::Interop_Sys::ConvertErrorPlatformToPal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa8104;
+  constexpr static std::size_t addrs = 0x5aac5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::Interop_Error)>(&::GlobalNamespace::Interop_Sys::ConvertErrorPalToPlatform)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa811c;
+  constexpr static std::size_t addrs = 0x5aac5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (*)(int32_t, uint8_t*, int32_t)>(&::GlobalNamespace::Interop_Sys::StrErrorR)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5aa82f0;
+  constexpr static std::size_t addrs = 0x5aac7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(),
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int32_t)>(&::GlobalNamespace::Interop_Sys::GetNonCryptographicallySecureRandomBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa8094;
+  constexpr static std::size_t addrs = 0x5aac550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::StringW)>(&::GlobalNamespace::Interop_Sys::OpenDir)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5aa8304;
+  constexpr static std::size_t addrs = 0x5aac7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(), { "OpenDir", {}, { ::i2c::type_of<::StringW>() } })));
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::GlobalNamespace::Interop_Sys::GetReadDirRBufferSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa833c;
+  constexpr static std::size_t addrs = 0x5aac7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(), { "GetReadDirRBufferSize", {}, {} })));
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, uint8_t*, int32_t, ::by_ref<::GlobalNamespace::Sys_Interop_DirectoryEntry>)>(
     &::GlobalNamespace::Interop_Sys::ReadDirR)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa8344;
+  constexpr static std::size_t addrs = 0x5aac800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -426,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::GlobalNamespace::Interop_Sys::CloseDir)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5aa8348;
+  constexpr static std::size_t addrs = 0x5aac804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::ArrayW<uint8_t>, int32_t)>(&::GlobalNamespace::Interop_Sys::ReadLink)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5aa8364;
+  constexpr static std::size_t addrs = 0x5aac820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::Interop_Sys::ReadLink)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5aa83d4;
+  constexpr static std::size_t addrs = 0x5aac890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(), { "ReadLink", {}, { ::i2c::type_of<::StringW>() } })));
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::by_ref<::GlobalNamespace::Sys_Interop_FileStatus>)>(&::GlobalNamespace::Interop_Sys::Stat)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5aa8608;
+  constexpr static std::size_t addrs = 0x5aacac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::by_ref<::GlobalNamespace::Sys_Interop_FileStatus>)>(&::GlobalNamespace::Interop_Sys::LStat)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5aa8648;
+  constexpr static std::size_t addrs = 0x5aacb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -493,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::StringW)>(&::GlobalNamespace::Interop_Sys::Symlink)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5aa8688;
+  constexpr static std::size_t addrs = 0x5aacb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Microsoft::Win32::SafeHandles::SafeFileHandle*, ::Microsoft::Win32::SafeHandles::SafeFileHandle*)>(
     &::GlobalNamespace::Interop_Sys::CopyFile)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5aa86e4;
+  constexpr static std::size_t addrs = 0x5aacba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -522,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::GlobalNamespace::Interop_Sys::GetEGid)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa8798;
+  constexpr static std::size_t addrs = 0x5aacc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(), { "GetEGid", {}, {} })));
@@ -534,7 +534,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::GlobalNamespace::Interop_Sys::GetEUid)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa879c;
+  constexpr static std::size_t addrs = 0x5aacc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(), { "GetEUid", {}, {} })));
@@ -546,7 +546,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::GlobalNamespace::Interop_Sys::LChflagsCanSetHiddenFlag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa87a0;
+  constexpr static std::size_t addrs = 0x5aacc5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(), { "LChflagsCanSetHiddenFlag", {}, {} })));
@@ -558,7 +558,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::StringW)>(&::GlobalNamespace::Interop_Sys::Link)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5aa87a8;
+  constexpr static std::size_t addrs = 0x5aacc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -571,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::GlobalNamespace::Interop_Sys::MkDir)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5aa8804;
+  constexpr static std::size_t addrs = 0x5aaccc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -584,7 +584,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::StringW)>(&::GlobalNamespace::Interop_Sys::Rename)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5aa8844;
+  constexpr static std::size_t addrs = 0x5aacd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -597,7 +597,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::GlobalNamespace::Interop_Sys::RmDir)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5aa88a0;
+  constexpr static std::size_t addrs = 0x5aacd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(), { "RmDir", {}, { ::i2c::type_of<::StringW>() } })));
@@ -609,7 +609,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<uint8_t>, ::by_ref<::GlobalNamespace::Sys_Interop_FileStatus>)>(&::GlobalNamespace::Interop_Sys::Stat)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5aa88d8;
+  constexpr static std::size_t addrs = 0x5aacd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -623,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, ::by_ref<::GlobalNamespace::Sys_Interop_FileStatus>)>(&::GlobalNamespace::Interop_Sys::Stat)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5aa88f4;
+  constexpr static std::size_t addrs = 0x5aacdb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -637,7 +637,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<uint8_t>, ::by_ref<::GlobalNamespace::Sys_Interop_FileStatus>)>(&::GlobalNamespace::Interop_Sys::LStat)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5aa8a18;
+  constexpr static std::size_t addrs = 0x5aaced4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -651,7 +651,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, ::by_ref<::GlobalNamespace::Sys_Interop_FileStatus>)>(&::GlobalNamespace::Interop_Sys::LStat)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5aa8a34;
+  constexpr static std::size_t addrs = 0x5aacef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -665,7 +665,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::GlobalNamespace::Interop_Sys::Unlink)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5aa8b58;
+  constexpr static std::size_t addrs = 0x5aad014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Interop_Sys*>(), { "Unlink", {}, { ::i2c::type_of<::StringW>() } })));
@@ -677,7 +677,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(double_t, uint8_t*, uint8_t*, int32_t)>(&::GlobalNamespace::Interop_Sys::DoubleToString)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5aa8b90;
+  constexpr static std::size_t addrs = 0x5aad04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -851,7 +851,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::GlobalNamespace::Interop_ErrorInfo, ::StringW, bool, ::System::Func_2<::GlobalNamespace::Interop_ErrorInfo, ::GlobalNamespace::Interop_ErrorInfo>*)>(
         &::GlobalNamespace::Interop::ThrowExceptionForIoErrno)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5aa775c;
+  constexpr static std::size_t addrs = 0x5aabc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -869,7 +869,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t, ::StringW, bool, ::System::Func_2<::GlobalNamespace::Interop_ErrorInfo, ::GlobalNamespace::Interop_ErrorInfo>*)>(
     &::GlobalNamespace::Interop::CheckIo)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5aa7d18;
+  constexpr static std::size_t addrs = 0x5aac1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -887,7 +887,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::StringW, bool, ::System::Func_2<::GlobalNamespace::Interop_ErrorInfo, ::GlobalNamespace::Interop_ErrorInfo>*)>(
     &::GlobalNamespace::Interop::CheckIo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5aa7e0c;
+  constexpr static std::size_t addrs = 0x5aac2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -904,7 +904,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::GlobalNamespace::Interop_ErrorInfo, ::StringW, bool)>(&::GlobalNamespace::Interop::GetExceptionForIoErrno)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x5aa77b4;
+  constexpr static std::size_t addrs = 0x5aabc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -918,7 +918,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::GlobalNamespace::Interop_ErrorInfo)>(&::GlobalNamespace::Interop::GetIOException)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5aa7ecc;
+  constexpr static std::size_t addrs = 0x5aac388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -931,7 +931,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint8_t*, int32_t)>(&::GlobalNamespace::Interop::GetRandomBytes)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5aa802c;
+  constexpr static std::size_t addrs = 0x5aac4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

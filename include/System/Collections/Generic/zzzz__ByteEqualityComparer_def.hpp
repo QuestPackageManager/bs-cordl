@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Generic/ByteEqualityComparer.hpp"
+// IWYU pragma private; include "System\Collections\Generic\ByteEqualityComparer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,27 +24,27 @@ namespace System::Collections::Generic {
 class CORDL_TYPE ByteEqualityComparer : public ::System::Collections::Generic::EqualityComparer_1<uint8_t> {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x5bef5c8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5bf3a84, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5bef3dc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5bf3898, size 0x10, virtual true, abstract: false, final false
   inline bool Equals(uint8_t x, uint8_t y);
 
-  /// @brief Method GetHashCode, addr 0x5bef644, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5bf3b00, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x5bef3ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5bf38a8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode(uint8_t b);
 
-  /// @brief Method IndexOf, addr 0x5bef3f4, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x5bf38b0, size 0x178, virtual true, abstract: false, final false
   inline int32_t IndexOf(::ArrayW<uint8_t> array, uint8_t value, int32_t startIndex, int32_t count);
 
-  /// @brief Method LastIndexOf, addr 0x5bef56c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x5bf3a28, size 0x5c, virtual true, abstract: false, final false
   inline int32_t LastIndexOf(::ArrayW<uint8_t> array, uint8_t value, int32_t startIndex, int32_t count);
 
   static inline ::System::Collections::Generic::ByteEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5bef67c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf3b38, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

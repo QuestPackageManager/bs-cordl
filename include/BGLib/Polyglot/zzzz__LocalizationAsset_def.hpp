@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/LocalizationAsset.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\LocalizationAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x3318ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331cc8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextAsset* textAsset);
 
-  /// @brief Method get_TextAsset, addr 0x3318ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x331cc84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:
@@ -56,7 +56,7 @@ public:
   LocalizationAsset(LocalizationAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22206 };
 
   /// @brief Field textAsset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___textAsset;

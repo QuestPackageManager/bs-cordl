@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ShaderTagId.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ShaderTagId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,35 +35,35 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>*();
 
-  /// @brief Method Equals, addr 0x6b20580, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b28104, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b196a8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b2122c, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ShaderTagId other);
 
-  /// @brief Method GetHashCode, addr 0x6b1dc58, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b257dc, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6b20560, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b280e4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_none();
 
-  /// @brief Method get_id, addr 0x6b1922c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x6b20db0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>* i___System__IEquatable_1___UnityEngine__Rendering__ShaderTagId_();
 
-  /// @brief Method op_Equality, addr 0x6b1da40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b255c4, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::ShaderTagId tag1, ::UnityEngine::Rendering::ShaderTagId tag2);
 
-  /// @brief Method op_Inequality, addr 0x6b205fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6b28180, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::ShaderTagId tag1, ::UnityEngine::Rendering::ShaderTagId tag2);
 
   static inline void setStaticF_none(::UnityEngine::Rendering::ShaderTagId value);
 
-  /// @brief Method set_id, addr 0x6b19418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x6b20f9c, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
   // Ctor Parameters []
@@ -74,7 +74,7 @@ public:
   constexpr ShaderTagId(int32_t m_Id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10802 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10831 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

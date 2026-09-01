@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomPrePassRenderPass.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomPrePassRenderPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_tempTextures(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value);
 
-  /// @brief Method .ctor, addr 0x5865438, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58643e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,7 +136,7 @@ public:
   BloomPrePassRenderPass_PassData(BloomPrePassRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19474 };
 
   /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
@@ -191,10 +191,10 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassRenderPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__3_0, addr 0x5865494, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__3_0, addr 0x5864444, size 0xc, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__3_0(::GlobalNamespace::BloomPrePassRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method .ctor, addr 0x5865490, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5864440, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BloomPrePassRenderPass___c* getStaticF___9();
@@ -222,7 +222,7 @@ public:
   BloomPrePassRenderPass___c(BloomPrePassRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -244,12 +244,12 @@ public:
   /// @brief Field _effectOverride, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__effectOverride, put = __cordl_internal_set__effectOverride)) ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> _effectOverride;
 
-  /// @brief Method ExecutePass, addr 0x5864754, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x58636c8, size 0x19c, virtual false, abstract: false, final false
   static inline void ExecutePass(::GlobalNamespace::BloomPrePassRenderPass_PassData* passData, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
   static inline ::GlobalNamespace::BloomPrePassRenderPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::GlobalNamespace::BloomPrePassEffectSO* effectOverride);
 
-  /// @brief Method RecordRenderGraph, addr 0x5863f3c, size 0x818, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x5862eb0, size 0x818, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& __cordl_internal_get__effectOverride() const;
@@ -258,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set__effectOverride(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x5863ca0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5862c8c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::GlobalNamespace::BloomPrePassEffectSO* effectOverride);
 
 protected:
@@ -276,7 +276,7 @@ public:
   BloomPrePassRenderPass(BloomPrePassRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19476 };
 
   /// @brief Field _effectOverride, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> ____effectOverride;

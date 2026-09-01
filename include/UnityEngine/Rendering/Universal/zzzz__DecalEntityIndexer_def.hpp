@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalEntityIndexer.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalEntityIndexer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   constexpr DecalEntityIndexer_DecalEntityItem(int32_t chunkIndex, int32_t arrayIndex, int32_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12695 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -89,27 +89,27 @@ public:
   /// @brief Field m_FreeIndices, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FreeIndices, put = __cordl_internal_set_m_FreeIndices)) ::System::Collections::Generic::Queue_1<int32_t>* m_FreeIndices;
 
-  /// @brief Method Clear, addr 0x68545ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x685c028, size 0x90, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CreateDecalEntity, addr 0x685410c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method CreateDecalEntity, addr 0x685bb88, size 0x1a4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntity CreateDecalEntity(int32_t arrayIndex, int32_t chunkIndex);
 
-  /// @brief Method DestroyDecalEntity, addr 0x68542b0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DestroyDecalEntity, addr 0x685bd2c, size 0xc4, virtual false, abstract: false, final false
   inline void DestroyDecalEntity(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
-  /// @brief Method GetItem, addr 0x6854374, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetItem, addr 0x685bdf0, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem GetItem(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
-  /// @brief Method IsValid, addr 0x6854070, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x685baec, size 0x9c, virtual false, abstract: false, final false
   inline bool IsValid(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
   static inline ::UnityEngine::Rendering::Universal::DecalEntityIndexer* New_ctor();
 
-  /// @brief Method RemapChunkIndices, addr 0x6854484, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RemapChunkIndices, addr 0x685bf00, size 0x128, virtual false, abstract: false, final false
   inline void RemapChunkIndices(::System::Collections::Generic::List_1<int32_t>* remaper);
 
-  /// @brief Method UpdateIndex, addr 0x68543e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndex, addr 0x685be5c, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateIndex(::UnityEngine::Rendering::Universal::DecalEntity decalEntity, int32_t newArrayIndex);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem>* const& __cordl_internal_get_m_Entities() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FreeIndices(::System::Collections::Generic::Queue_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x685463c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685c0b8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,7 +142,7 @@ public:
   DecalEntityIndexer(DecalEntityIndexer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12696 };
 
   /// @brief Field m_Entities, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalEntityIndexer_DecalEntityItem>* ___m_Entities;

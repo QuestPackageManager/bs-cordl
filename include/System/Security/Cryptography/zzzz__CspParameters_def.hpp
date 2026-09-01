@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/CspParameters.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\CspParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_m_flags(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5af5084, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af9540, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5af50b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af956c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwTypeIn);
 
-  /// @brief Method .ctor, addr 0x5af509c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af9558, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn);
 
-  /// @brief Method .ctor, addr 0x5af50c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5af9580, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, ::System::Security::Cryptography::CspProviderFlags flags);
 
-  /// @brief Method get_Flags, addr 0x5af4fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x5af9460, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::CspProviderFlags get_Flags();
 
-  /// @brief Method set_Flags, addr 0x5af4fac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x5af9468, size 0xd8, virtual false, abstract: false, final false
   inline void set_Flags(::System::Security::Cryptography::CspProviderFlags value);
 
 protected:

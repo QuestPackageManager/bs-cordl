@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaException.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Schema\JsonSchemaException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,28 +73,28 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d5ecdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d63198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5d5ecf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d631b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5d5ece4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d631a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5d5ecec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d631a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5d5ecfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d631b8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::StringW path, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method get_LineNumber, addr 0x5d5ecc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x5d63180, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x5d5eccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x5d63188, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_Path, addr 0x5d5ecd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x5d63190, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -112,7 +112,7 @@ public:
   JsonSchemaException(JsonSchemaException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13546 };
 
   /// @brief Field <LineNumber>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   int32_t ____LineNumber_k__BackingField;

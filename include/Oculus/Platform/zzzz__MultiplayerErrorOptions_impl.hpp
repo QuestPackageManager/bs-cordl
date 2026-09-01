@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MultiplayerErrorOptions.hpp"
+// IWYU pragma private; include "Oculus\Platform\MultiplayerErrorOptions.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__MultiplayerErrorOptions_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MultiplayerErrorOptions::*)()>(&::Oculus::Platform::MultiplayerErrorOptions::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd94ac;
+  constexpr static std::size_t addrs = 0x5ddd968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::MultiplayerErrorOptions*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MultiplayerErrorOptions::*)(::Oculus::Platform::MultiplayerErrorErrorKey)>(
     &::Oculus::Platform::MultiplayerErrorOptions::SetErrorKey)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd9508;
+  constexpr static std::size_t addrs = 0x5ddd9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Oculus::Platform::MultiplayerErrorOptions*)>(
     &::Oculus::Platform::MultiplayerErrorOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dd9574;
+  constexpr static std::size_t addrs = 0x5ddda30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MultiplayerErrorOptions::*)()>(&::Oculus::Platform::MultiplayerErrorOptions::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5dd9580;
+  constexpr static std::size_t addrs = 0x5ddda3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

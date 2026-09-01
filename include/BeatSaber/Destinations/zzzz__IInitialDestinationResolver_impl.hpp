@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Destinations/IInitialDestinationResolver.hpp"
+// IWYU pragma private; include "BeatSaber\Destinations\IInitialDestinationResolver.hpp"
 #include "BeatSaber/Destinations/zzzz__IInitialDestinationResolver_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Destinations::IInitialDestinationResolver.InitializeScenesAsync

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ObjectDisposedException.hpp"
+// IWYU pragma private; include "System\ObjectDisposedException.hpp"
 #include "System/zzzz__InvalidOperationException_impl.hpp"
 #include "System/zzzz__ObjectDisposedException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5c531ec;
+  constexpr static std::size_t addrs = 0x5c576a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ObjectDisposedException*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ObjectDisposedException::*)(::StringW)>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c53280;
+  constexpr static std::size_t addrs = 0x5c5773c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ObjectDisposedException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ObjectDisposedException::*)(::StringW, ::StringW)>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5c5324c;
+  constexpr static std::size_t addrs = 0x5c57708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ObjectDisposedException::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                                    ::System::Runtime::Serialization::StreamingContext)>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5c532ec;
+  constexpr static std::size_t addrs = 0x5c577a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ObjectDisposedException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ObjectDisposedException::GetObjectData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5c5337c;
+  constexpr static std::size_t addrs = 0x5c57838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::get_Message)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5c534a0;
+  constexpr static std::size_t addrs = 0x5c5795c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::get_ObjectName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c53444;
+  constexpr static std::size_t addrs = 0x5c57900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ObjectDisposedException*>(), { "get_ObjectName", {}, {} })));

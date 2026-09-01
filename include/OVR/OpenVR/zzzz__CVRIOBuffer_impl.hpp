@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/CVRIOBuffer.hpp"
+// IWYU pragma private; include "OVR\OpenVR\CVRIOBuffer.hpp"
 #include "OVR/OpenVR/zzzz__IVRIOBuffer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRIOBuffer_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRIOBuffer::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRIOBuffer::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5e433ac;
+  constexpr static std::size_t addrs = 0x5e47868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRIOBuffer*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::CVRIOBuffer::*)(::StringW, ::OVR::OpenVR::EIOBufferMode, uint32_t, uint32_t, ::by_ref<uint64_t>)>(
     &::OVR::OpenVR::CVRIOBuffer::Open)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e434a8;
+  constexpr static std::size_t addrs = 0x5e47964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::CVRIOBuffer::*)(uint64_t)>(&::OVR::OpenVR::CVRIOBuffer::Close)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e434cc;
+  constexpr static std::size_t addrs = 0x5e47988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRIOBuffer*>(), { "Close", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::CVRIOBuffer::*)(uint64_t, ::System::IntPtr, uint32_t, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::CVRIOBuffer::Read)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e434ec;
+  constexpr static std::size_t addrs = 0x5e479a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::CVRIOBuffer::*)(uint64_t, ::System::IntPtr, uint32_t)>(&::OVR::OpenVR::CVRIOBuffer::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43510;
+  constexpr static std::size_t addrs = 0x5e479cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVR::OpenVR::CVRIOBuffer::*)(uint64_t)>(&::OVR::OpenVR::CVRIOBuffer::PropertyContainer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43530;
+  constexpr static std::size_t addrs = 0x5e479ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/BuildingBlocks/Telemetry.hpp"
+// IWYU pragma private; include "Meta\XR\BuildingBlocks\Telemetry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,16 +31,16 @@ namespace Meta::XR::BuildingBlocks {
 class CORDL_TYPE Telemetry : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddBlockInfo, addr 0x5a2f430, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method AddBlockInfo, addr 0x5a338ec, size 0x18c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddBlockInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::BuildingBlock* block);
 
-  /// @brief Method AddBlockVariantInfo, addr 0x5a37a88, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddBlockVariantInfo, addr 0x5a3bf44, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddBlockVariantInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::BuildingBlock* block);
 
-  /// @brief Method AddInstallationRoutineInfo, addr 0x5a37b48, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method AddInstallationRoutineInfo, addr 0x5a3c004, size 0x32c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddInstallationRoutineInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* checkpoint);
 
-  /// @brief Method AddSceneInfo, addr 0x5a37e74, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddSceneInfo, addr 0x5a3c330, size 0x10c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddSceneInfo(::GlobalNamespace::OVRTelemetryMarker marker, ::UnityEngine::SceneManagement::Scene scene);
 
 protected:
@@ -58,7 +58,7 @@ public:
   Telemetry(Telemetry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/SafeGPtrArrayHandle.hpp"
+// IWYU pragma private; include "Mono\SafeGPtrArrayHandle.hpp"
 #include "Mono/zzzz__RuntimeGPtrArrayHandle_impl.hpp"
 #include "Mono/zzzz__SafeGPtrArrayHandle_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::SafeGPtrArrayHandle::*)(::System::IntPtr)>(&::Mono::SafeGPtrArrayHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aa9c90;
+  constexpr static std::size_t addrs = 0x5aae14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::SafeGPtrArrayHandle>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::SafeGPtrArrayHandle::*)()>(&::Mono::SafeGPtrArrayHandle::Dispose)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5aa9c98;
+  constexpr static std::size_t addrs = 0x5aae154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::SafeGPtrArrayHandle>(), { "Dispose", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::SafeGPtrArrayHandle::*)()>(&::Mono::SafeGPtrArrayHandle::get_Length)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5aa9ce0;
+  constexpr static std::size_t addrs = 0x5aae19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::SafeGPtrArrayHandle>(), { "get_Length", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::Mono::SafeGPtrArrayHandle::*)(int32_t)>(&::Mono::SafeGPtrArrayHandle::get_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aa9cf8;
+  constexpr static std::size_t addrs = 0x5aae1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::SafeGPtrArrayHandle>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));

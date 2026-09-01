@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SliderMeshController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SliderMeshController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,11 +85,11 @@ public:
 
   __declspec(property(get = get_pathsHolder)) ::GlobalNamespace::PathsHolder* pathsHolder;
 
-  /// @brief Method CreateBezierPathAndMesh, addr 0x59735ac, size 0xaa4, virtual false, abstract: false, final false
+  /// @brief Method CreateBezierPathAndMesh, addr 0x5976e74, size 0xb70, virtual false, abstract: false, final false
   inline void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, int32_t headRotation, int32_t tailRotation,
                                       float_t jumpSpeed, float_t noteUniformScale);
 
-  /// @brief Method CutDirectionToControlPointPosition, addr 0x59789cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CutDirectionToControlPointPosition, addr 0x597c360, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection, float_t angleOffset);
 
   static inline ::GlobalNamespace::SliderMeshController* New_ctor();
@@ -160,16 +160,16 @@ public:
 
   constexpr void __cordl_internal_set__sliderMeshConstructor(::UnityW<::GlobalNamespace::SliderMeshConstructor> value);
 
-  /// @brief Method .ctor, addr 0x5978a74, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597c408, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x59789ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x597c340, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_pathLength, addr 0x5978988, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_pathLength, addr 0x597c31c, size 0x24, virtual false, abstract: false, final false
   inline float_t get_pathLength();
 
-  /// @brief Method get_pathsHolder, addr 0x59789c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pathsHolder, addr 0x597c358, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PathsHolder* get_pathsHolder();
 
 protected:

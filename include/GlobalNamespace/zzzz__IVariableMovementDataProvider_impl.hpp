@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IVariableMovementDataProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\IVariableMovementDataProvider.hpp"
 #include "GlobalNamespace/zzzz__IVariableMovementDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"

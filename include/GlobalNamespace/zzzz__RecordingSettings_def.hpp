@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RecordingSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace\RecordingSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,7 +137,7 @@ public:
            int32_t framerate, ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> playbackScreenshots, bool practice, float_t startSongTime, float_t songSpeedMultiplier,
            bool overrideEnvironments, ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat);
 
-  /// @brief Method ToString, addr 0x58faf44, size 0xcb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x58fe50c, size 0xcb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_addDateTimeSuffixToRecordingName() const;
@@ -278,7 +278,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x58fa188, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fd750, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
                     ::GlobalNamespace::BeatmapCharacteristic characteristic, bool runLevel, bool recordPerformance, ::GlobalNamespace::ObjectsMovementRecorder_Mode recordingMode,
                     ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth,
@@ -301,7 +301,7 @@ public:
   RecordingSettings(RecordingSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6640 };
 
   /// @brief Field gameMode, offset: 0x10, size: 0x8, def value: None
   ::StringW ___gameMode;

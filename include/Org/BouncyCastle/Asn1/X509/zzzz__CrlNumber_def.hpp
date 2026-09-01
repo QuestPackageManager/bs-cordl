@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/CrlNumber.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\CrlNumber.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +27,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlNumber* New_ctor(::Org::BouncyCastle::Math::BigInteger* number);
 
-  /// @brief Method ToString, addr 0x36564b0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x365a270, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x36564a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365a260, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* number);
 
-  /// @brief Method get_Number, addr 0x36564a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Number, addr 0x365a268, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Number();
 
 protected:

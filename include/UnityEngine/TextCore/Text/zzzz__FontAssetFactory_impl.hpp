@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/FontAssetFactory.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\FontAssetFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAssetFactory_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (*)(::UnityEngine::Font*, ::UnityEngine::Shader*)>(
     &::UnityEngine::TextCore::Text::FontAssetFactory::CreateDefaultEditorFontAsset)> {
   constexpr static std::size_t size = 0x834;
-  constexpr static std::size_t addrs = 0x6bf64f0;
+  constexpr static std::size_t addrs = 0x6bfe074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::Shader*)>(
     &::UnityEngine::TextCore::Text::FontAssetFactory::SetupFontAssetSettings)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6bf6d24;
+  constexpr static std::size_t addrs = 0x6bfe8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::TextCore::Text::FontAsset*)>(&::UnityEngine::TextCore::Text::FontAssetFactory::SetHideFlags)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6bf6dec;
+  constexpr static std::size_t addrs = 0x6bfe970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetFactory*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/ProxyConsoleLine.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\ProxyConsoleLine.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ProxyController_1_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/zzzz__ProxyConsoleLine_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/zzzz__ConsoleLine_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry* (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::get_Entry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a490a4;
+  constexpr static std::size_t addrs = 0x5a4d560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::*)(::Meta::XR::ImmersiveDebugger::UserInterface::LogEntry*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::set_Entry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a490ac;
+  constexpr static std::size_t addrs = 0x5a4d568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::Fill)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a490b4;
+  constexpr static std::size_t addrs = 0x5a4d570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5a49104;
+  constexpr static std::size_t addrs = 0x5a4d5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::ProxyConsoleLine*>(), { ".ctor", {}, {} })));

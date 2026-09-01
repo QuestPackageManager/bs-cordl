@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs12Entry.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkcs\Pkcs12Entry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Entry_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)(::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Pkcs::Pkcs12Entry::_ctor)> {
   constexpr static std::size_t size = 0x510;
-  constexpr static std::size_t addrs = 0x35a6f28;
+  constexpr static std::size_t addrs = 0x35aace8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::GetBagAttribute)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x35a7438;
+  constexpr static std::size_t addrs = 0x35ab1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Entry*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)(::StringW)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::GetBagAttribute)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x35a7544;
+  constexpr static std::size_t addrs = 0x35ab304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::GetBagAttributeKeys)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x35a7648;
+  constexpr static std::size_t addrs = 0x35ab408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Entry*>(), { "GetBagAttributeKeys", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::get_Item)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x35a7768;
+  constexpr static std::size_t addrs = 0x35ab528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)(::StringW)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::get_Item)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x35a7874;
+  constexpr static std::size_t addrs = 0x35ab634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::get_BagAttributeKeys)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x35a7978;
+  constexpr static std::size_t addrs = 0x35ab738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Entry*>(), { "get_BagAttributeKeys", {}, {} })));

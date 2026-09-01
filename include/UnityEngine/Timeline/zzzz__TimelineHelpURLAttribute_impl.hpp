@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/TimelineHelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\TimelineHelpURLAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineHelpURLAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimelineHelpURLAttribute::*)(::System::Type*)>(&::UnityEngine::Timeline::TimelineHelpURLAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b7998;
+  constexpr static std::size_t addrs = 0x69bf414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

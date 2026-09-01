@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/Tracing/EventAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\Tracing\EventAttribute.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventKeywords_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventLevel_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Tracing::EventAttribute::*)(int32_t)>(&::System::Diagnostics::Tracing::EventAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bde370;
+  constexpr static std::size_t addrs = 0x5be282c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Tracing::EventAttribute::*)(int32_t)>(&::System::Diagnostics::Tracing::EventAttribute::set_EventId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bde378;
+  constexpr static std::size_t addrs = 0x5be2834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Tracing::EventAttribute::*)(::System::Diagnostics::Tracing::EventLevel)>(
     &::System::Diagnostics::Tracing::EventAttribute::set_Level)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bde380;
+  constexpr static std::size_t addrs = 0x5be283c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Tracing::EventAttribute::*)(::System::Diagnostics::Tracing::EventKeywords)>(
     &::System::Diagnostics::Tracing::EventAttribute::set_Keywords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bde388;
+  constexpr static std::size_t addrs = 0x5be2844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::Tracing::EventAttribute*>(),
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::Tracing::EventAttribute::*)(::StringW)>(&::System::Diagnostics::Tracing::EventAttribute::set_Message)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bde390;
+  constexpr static std::size_t addrs = 0x5be284c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

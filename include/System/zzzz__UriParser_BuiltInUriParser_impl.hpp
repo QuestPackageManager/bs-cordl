@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/UriParser_BuiltInUriParser.hpp"
+// IWYU pragma private; include "System\UriParser_BuiltInUriParser.hpp"
 #include "System/zzzz__UriParser_impl.hpp"
 #include "System/zzzz__UriParser_BuiltInUriParser_def.hpp"
 #include "System/zzzz__UriSyntaxFlags_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UriParser_BuiltInUriParser::*)(::StringW, int32_t, ::System::UriSyntaxFlags)>(
     &::GlobalNamespace::UriParser_BuiltInUriParser::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63711d4;
+  constexpr static std::size_t addrs = 0x6378c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

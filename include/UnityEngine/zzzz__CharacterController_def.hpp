@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/CharacterController.hpp"
+// IWYU pragma private; include "UnityEngine\CharacterController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,153 +55,153 @@ public:
 
   __declspec(property(get = get_velocity)) ::UnityEngine::Vector3 velocity;
 
-  /// @brief Method Move, addr 0x6b7463c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x6b7c1c0, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::CollisionFlags Move(::UnityEngine::Vector3 motion);
 
-  /// @brief Method Move_Injected, addr 0x6b746d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Move_Injected, addr 0x6b7c258, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::CollisionFlags Move_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> motion);
 
   static inline ::UnityEngine::CharacterController* New_ctor();
 
-  /// @brief Method SimpleMove, addr 0x6b7455c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SimpleMove, addr 0x6b7c0e0, size 0x9c, virtual false, abstract: false, final false
   inline bool SimpleMove(::UnityEngine::Vector3 speed);
 
-  /// @brief Method SimpleMove_Injected, addr 0x6b745f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SimpleMove_Injected, addr 0x6b7c17c, size 0x44, virtual false, abstract: false, final false
   static inline bool SimpleMove_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> speed);
 
-  /// @brief Method .ctor, addr 0x6b758a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b7d424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x6b74ca4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x6b7c828, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x6b74d44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x6b7c8c8, size 0x44, virtual false, abstract: false, final false
   static inline void get_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_collisionFlags, addr 0x6b748b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_collisionFlags, addr 0x6b7c43c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::CollisionFlags get_collisionFlags();
 
-  /// @brief Method get_collisionFlags_Injected, addr 0x6b74938, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_collisionFlags_Injected, addr 0x6b7c4bc, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::CollisionFlags get_collisionFlags_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_detectCollisions, addr 0x6b754c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_detectCollisions, addr 0x6b7d048, size 0x80, virtual false, abstract: false, final false
   inline bool get_detectCollisions();
 
-  /// @brief Method get_detectCollisions_Injected, addr 0x6b75544, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_detectCollisions_Injected, addr 0x6b7d0c8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_detectCollisions_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_enableOverlapRecovery, addr 0x6b75654, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_enableOverlapRecovery, addr 0x6b7d1d8, size 0x80, virtual false, abstract: false, final false
   inline bool get_enableOverlapRecovery();
 
-  /// @brief Method get_enableOverlapRecovery_Injected, addr 0x6b756d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enableOverlapRecovery_Injected, addr 0x6b7d258, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_enableOverlapRecovery_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_height, addr 0x6b74b0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x6b7c690, size 0x80, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_height_Injected, addr 0x6b74b8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_height_Injected, addr 0x6b7c710, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_height_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_isGrounded, addr 0x6b747fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isGrounded, addr 0x6b7c380, size 0x80, virtual false, abstract: false, final false
   inline bool get_isGrounded();
 
-  /// @brief Method get_isGrounded_Injected, addr 0x6b7487c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isGrounded_Injected, addr 0x6b7c400, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isGrounded_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_isSupported, addr 0x6b757e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isSupported, addr 0x6b7d368, size 0x80, virtual false, abstract: false, final false
   inline bool get_isSupported();
 
-  /// @brief Method get_isSupported_Injected, addr 0x6b75864, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isSupported_Injected, addr 0x6b7d3e8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isSupported_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_minMoveDistance, addr 0x6b7532c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_minMoveDistance, addr 0x6b7ceb0, size 0x80, virtual false, abstract: false, final false
   inline float_t get_minMoveDistance();
 
-  /// @brief Method get_minMoveDistance_Injected, addr 0x6b753ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_minMoveDistance_Injected, addr 0x6b7cf30, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_minMoveDistance_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_radius, addr 0x6b74974, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x6b7c4f8, size 0x80, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method get_radius_Injected, addr 0x6b749f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_radius_Injected, addr 0x6b7c578, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_radius_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_skinWidth, addr 0x6b75194, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_skinWidth, addr 0x6b7cd18, size 0x80, virtual false, abstract: false, final false
   inline float_t get_skinWidth();
 
-  /// @brief Method get_skinWidth_Injected, addr 0x6b75214, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_skinWidth_Injected, addr 0x6b7cd98, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_skinWidth_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_slopeLimit, addr 0x6b74e64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_slopeLimit, addr 0x6b7c9e8, size 0x80, virtual false, abstract: false, final false
   inline float_t get_slopeLimit();
 
-  /// @brief Method get_slopeLimit_Injected, addr 0x6b74ee4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_slopeLimit_Injected, addr 0x6b7ca68, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_slopeLimit_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_stepOffset, addr 0x6b74ffc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_stepOffset, addr 0x6b7cb80, size 0x80, virtual false, abstract: false, final false
   inline float_t get_stepOffset();
 
-  /// @brief Method get_stepOffset_Injected, addr 0x6b7507c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_stepOffset_Injected, addr 0x6b7cc00, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_stepOffset_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_velocity, addr 0x6b74718, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_velocity, addr 0x6b7c29c, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_velocity();
 
-  /// @brief Method get_velocity_Injected, addr 0x6b747b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_velocity_Injected, addr 0x6b7c33c, size 0x44, virtual false, abstract: false, final false
   static inline void get_velocity_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method set_center, addr 0x6b74d88, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x6b7c90c, size 0x98, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x6b74e20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x6b7c9a4, size 0x44, virtual false, abstract: false, final false
   static inline void set_center_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_detectCollisions, addr 0x6b75580, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_detectCollisions, addr 0x6b7d104, size 0x90, virtual false, abstract: false, final false
   inline void set_detectCollisions(bool value);
 
-  /// @brief Method set_detectCollisions_Injected, addr 0x6b75610, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_detectCollisions_Injected, addr 0x6b7d194, size 0x44, virtual false, abstract: false, final false
   static inline void set_detectCollisions_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_enableOverlapRecovery, addr 0x6b75710, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_enableOverlapRecovery, addr 0x6b7d294, size 0x90, virtual false, abstract: false, final false
   inline void set_enableOverlapRecovery(bool value);
 
-  /// @brief Method set_enableOverlapRecovery_Injected, addr 0x6b757a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enableOverlapRecovery_Injected, addr 0x6b7d324, size 0x44, virtual false, abstract: false, final false
   static inline void set_enableOverlapRecovery_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_height, addr 0x6b74bc8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x6b7c74c, size 0x90, virtual false, abstract: false, final false
   inline void set_height(float_t value);
 
-  /// @brief Method set_height_Injected, addr 0x6b74c58, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_height_Injected, addr 0x6b7c7dc, size 0x4c, virtual false, abstract: false, final false
   static inline void set_height_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_minMoveDistance, addr 0x6b753e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_minMoveDistance, addr 0x6b7cf6c, size 0x90, virtual false, abstract: false, final false
   inline void set_minMoveDistance(float_t value);
 
-  /// @brief Method set_minMoveDistance_Injected, addr 0x6b75478, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_minMoveDistance_Injected, addr 0x6b7cffc, size 0x4c, virtual false, abstract: false, final false
   static inline void set_minMoveDistance_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_radius, addr 0x6b74a30, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x6b7c5b4, size 0x90, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
-  /// @brief Method set_radius_Injected, addr 0x6b74ac0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_radius_Injected, addr 0x6b7c644, size 0x4c, virtual false, abstract: false, final false
   static inline void set_radius_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_skinWidth, addr 0x6b75250, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_skinWidth, addr 0x6b7cdd4, size 0x90, virtual false, abstract: false, final false
   inline void set_skinWidth(float_t value);
 
-  /// @brief Method set_skinWidth_Injected, addr 0x6b752e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_skinWidth_Injected, addr 0x6b7ce64, size 0x4c, virtual false, abstract: false, final false
   static inline void set_skinWidth_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_slopeLimit, addr 0x6b74f20, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_slopeLimit, addr 0x6b7caa4, size 0x90, virtual false, abstract: false, final false
   inline void set_slopeLimit(float_t value);
 
-  /// @brief Method set_slopeLimit_Injected, addr 0x6b74fb0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_slopeLimit_Injected, addr 0x6b7cb34, size 0x4c, virtual false, abstract: false, final false
   static inline void set_slopeLimit_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_stepOffset, addr 0x6b750b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_stepOffset, addr 0x6b7cc3c, size 0x90, virtual false, abstract: false, final false
   inline void set_stepOffset(float_t value);
 
-  /// @brief Method set_stepOffset_Injected, addr 0x6b75148, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_stepOffset_Injected, addr 0x6b7cccc, size 0x4c, virtual false, abstract: false, final false
   static inline void set_stepOffset_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
@@ -219,7 +219,7 @@ public:
   CharacterController(CharacterController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

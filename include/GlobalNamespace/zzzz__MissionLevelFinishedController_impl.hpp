@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionLevelFinishedController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionLevelFinishedController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelFinishedController_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelFinishedController::*)()>(&::GlobalNamespace::MissionLevelFinishedController::Start)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5915a84;
+  constexpr static std::size_t addrs = 0x5918d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelFinishedController*>(), { "Start", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelFinishedController::*)()>(&::GlobalNamespace::MissionLevelFinishedController::OnDestroy)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5915b78;
+  constexpr static std::size_t addrs = 0x5918e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelFinishedController*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelFinishedController::*)()>(&::GlobalNamespace::MissionLevelFinishedController::HandleLevelFinished)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5915cb0;
+  constexpr static std::size_t addrs = 0x5918f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelFinishedController*>(), { "HandleLevelFinished", {}, {} })));
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelFinishedController::*)()>(&::GlobalNamespace::MissionLevelFinishedController::StartLevelFinished)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5915cb4;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5918f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelFinishedController*>(), { "StartLevelFinished", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelFinishedController::*)()>(&::GlobalNamespace::MissionLevelFinishedController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5915d68;
+  constexpr static std::size_t addrs = 0x591901c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelFinishedController*>(), { ".ctor", {}, {} })));

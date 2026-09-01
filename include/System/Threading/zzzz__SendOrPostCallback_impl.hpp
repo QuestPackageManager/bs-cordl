@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/SendOrPostCallback.hpp"
+// IWYU pragma private; include "System\Threading\SendOrPostCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__SendOrPostCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SendOrPostCallback::*)(::System::Object*, ::System::IntPtr)>(&::System::Threading::SendOrPostCallback::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5ca4ab0;
+  constexpr static std::size_t addrs = 0x5ca8f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SendOrPostCallback::*)(::System::Object*)>(&::System::Threading::SendOrPostCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ca4bf4;
+  constexpr static std::size_t addrs = 0x5ca90b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

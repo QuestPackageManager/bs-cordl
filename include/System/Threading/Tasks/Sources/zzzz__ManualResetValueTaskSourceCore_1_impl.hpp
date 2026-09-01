@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/Sources/ManualResetValueTaskSourceCore_1.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\Sources\ManualResetValueTaskSourceCore_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ManualResetValueTaskSourceCore_1_def.hpp"
 #include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlSerializationReader.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlSerializationReader.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializationGeneratedCode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializationReader_def.hpp"
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62f5f68;
+  constexpr static std::size_t addrs = 0x62fd9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::*)(
     ::System::Object*, ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback*, ::StringW)>(&::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62f9e44;
+  constexpr static std::size_t addrs = 0x63018c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* (
     ::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::*)()>(&::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::get_Callback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9e50;
+  constexpr static std::size_t addrs = 0x63018cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::get_Collection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9e58;
+  constexpr static std::size_t addrs = 0x63018d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9e60;
+  constexpr static std::size_t addrs = 0x63018dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::get_CollectionItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9e68;
+  constexpr static std::size_t addrs = 0x63018e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlSerializationReader_CollectionFixup::set_CollectionItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9e70;
+  constexpr static std::size_t addrs = 0x63018ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader_CollectionFixup*>(),
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader_Fixup::*)(
     ::System::Object*, ::System::Xml::Serialization::XmlSerializationFixupCallback*, int32_t)>(&::System::Xml::Serialization::XmlSerializationReader_Fixup::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x62f9e78;
+  constexpr static std::size_t addrs = 0x63018f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::XmlSerializationFixupCallback* (::System::Xml::Serialization::XmlSerializationReader_Fixup::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader_Fixup::get_Callback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9ef0;
+  constexpr static std::size_t addrs = 0x630196c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::System::Xml::Serialization::XmlSerializationReader_Fixup::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader_Fixup::get_Ids)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9ef8;
+  constexpr static std::size_t addrs = 0x6301974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader_Fixup*>(), { "get_Ids", {}, {} })));
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader_Fixup::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader_Fixup::get_Source)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9f00;
+  constexpr static std::size_t addrs = 0x630197c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader_Fixup*>(), { "get_Source", {}, {} })));
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup::*)(::System::Array*, int32_t, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62f8374;
+  constexpr static std::size_t addrs = 0x62ffdf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup::get_Collection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9f08;
+  constexpr static std::size_t addrs = 0x6301984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup::get_Index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9f10;
+  constexpr static std::size_t addrs = 0x630198c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f9f18;
+  constexpr static std::size_t addrs = 0x6301994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::XmlReader*, ::System::Xml::Serialization::XmlSerializer*)>(
     &::System::Xml::Serialization::XmlSerializationReader::Initialize)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x62f5894;
+  constexpr static std::size_t addrs = 0x62fd310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -527,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Collections::ArrayList*)>(
     &::System::Xml::Serialization::XmlSerializationReader::EnsureArrayList)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x62f5be8;
+  constexpr static std::size_t addrs = 0x62fd664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Hashtable* (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Collections::Hashtable*)>(
     &::System::Xml::Serialization::XmlSerializationReader::EnsureHashtable)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x62f5c48;
+  constexpr static std::size_t addrs = 0x62fd6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),
@@ -554,7 +554,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)()>(&::System::Xml::Serialization::XmlSerializationReader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62f5cac;
+  constexpr static std::size_t addrs = 0x62fd728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(), { ".ctor", {}, {} })));
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDocument* (::System::Xml::Serialization::XmlSerializationReader::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader::get_Document)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x62f5cb0;
+  constexpr static std::size_t addrs = 0x62fd72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(), { "get_Document", {}, {} })));
@@ -580,7 +580,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlReader* (::System::Xml::Serialization::XmlSerializationReader::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader::get_Reader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f5d40;
+  constexpr static std::size_t addrs = 0x62fd7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(), { "get_Reader", {}, {} })));
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::Serialization::XmlSerializationReader_CollectionFixup*)>(
     &::System::Xml::Serialization::XmlSerializationReader::AddFixup)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x62f5d48;
+  constexpr static std::size_t addrs = 0x62fd7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -608,7 +608,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::Serialization::XmlSerializationReader_Fixup*)>(
     &::System::Xml::Serialization::XmlSerializationReader::AddFixup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x62f5e00;
+  constexpr static std::size_t addrs = 0x62fd87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup*)>(
     &::System::Xml::Serialization::XmlSerializationReader::AddFixup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x62f5e44;
+  constexpr static std::size_t addrs = 0x62fd8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(
     ::StringW, ::StringW, ::System::Type*, ::System::Xml::Serialization::XmlSerializationReadCallback*)>(&::System::Xml::Serialization::XmlSerializationReader::AddReadCallback)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x62f5e88;
+  constexpr static std::size_t addrs = 0x62fd904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW, ::System::Object*)>(
     &::System::Xml::Serialization::XmlSerializationReader::AddTarget)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x62f5f6c;
+  constexpr static std::size_t addrs = 0x62fd9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),
@@ -667,7 +667,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlSerializationReader::*)()>(&::System::Xml::Serialization::XmlSerializationReader::CurrentTag)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x62f6014;
+  constexpr static std::size_t addrs = 0x62fda90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(), { "CurrentTag", {}, {} })));
@@ -680,7 +680,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW)>(
     &::System::Xml::Serialization::XmlSerializationReader::CreateReadOnlyCollectionException)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x62f61d8;
+  constexpr static std::size_t addrs = 0x62fdc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -695,7 +695,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW, ::System::Type*)>(
     &::System::Xml::Serialization::XmlSerializationReader::CreateUnknownConstantException)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x62f62a0;
+  constexpr static std::size_t addrs = 0x62fdd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -710,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Serialization::XmlSerializationReader::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader::CreateUnknownNodeException)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x62f6378;
+  constexpr static std::size_t addrs = 0x62fddf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -724,7 +724,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Serialization::XmlSerializationReader::CreateUnknownTypeException)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x62f6418;
+  constexpr static std::size_t addrs = 0x62fde94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),
@@ -738,7 +738,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Array*, int32_t, ::System::Type*)>(
     &::System::Xml::Serialization::XmlSerializationReader::EnsureArrayIndex)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x62f658c;
+  constexpr static std::size_t addrs = 0x62fe008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -752,7 +752,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlSerializationReader::*)()>(&::System::Xml::Serialization::XmlSerializationReader::GetNullAttr)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x62f6618;
+  constexpr static std::size_t addrs = 0x62fe094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(), { "GetNullAttr", {}, {} })));
@@ -765,7 +765,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW)>(
     &::System::Xml::Serialization::XmlSerializationReader::GetTarget)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x62f66c8;
+  constexpr static std::size_t addrs = 0x62fe144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -778,7 +778,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW)>(&::System::Xml::Serialization::XmlSerializationReader::TargetReady)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62f6790;
+  constexpr static std::size_t addrs = 0x62fe20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -792,7 +792,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Serialization::XmlSerializationReader::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader::GetXsiType)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x62f67ac;
+  constexpr static std::size_t addrs = 0x62fe228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(), { "GetXsiType", {}, {} })));
@@ -831,7 +831,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW)>(
     &::System::Xml::Serialization::XmlSerializationReader::IsXmlnsAttribute)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x62f69cc;
+  constexpr static std::size_t addrs = 0x62fe448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -845,7 +845,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::XmlAttribute*)>(
     &::System::Xml::Serialization::XmlSerializationReader::ParseWsdlArrayType)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x62f6a70;
+  constexpr static std::size_t addrs = 0x62fe4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -860,7 +860,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Serialization::XmlSerializationReader::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadElementQualifiedName)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x62f6c00;
+  constexpr static std::size_t addrs = 0x62fe67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -873,7 +873,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)()>(&::System::Xml::Serialization::XmlSerializationReader::ReadEndElement)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x62f6efc;
+  constexpr static std::size_t addrs = 0x62fe978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(), { "ReadEndElement", {}, {} })));
@@ -885,7 +885,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlSerializationReader::*)()>(&::System::Xml::Serialization::XmlSerializationReader::ReadNull)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x62f6fa4;
+  constexpr static std::size_t addrs = 0x62fea20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(), { "ReadNull", {}, {} })));
@@ -898,7 +898,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Serialization::XmlSerializationReader::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadNullableQualifiedName)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x62f70a8;
+  constexpr static std::size_t addrs = 0x62feb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -912,7 +912,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlSerializationReader::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadNullableString)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x62f70d0;
+  constexpr static std::size_t addrs = 0x62feb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -926,7 +926,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadReferencedElement)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x62f7118;
+  constexpr static std::size_t addrs = 0x62feb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -940,7 +940,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo* (
     ::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Serialization::XmlSerializationReader::GetCallbackInfo)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x62f743c;
+  constexpr static std::size_t addrs = 0x62feeb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -955,7 +955,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadReferencedElement)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x62f7170;
+  constexpr static std::size_t addrs = 0x62febec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),
@@ -969,7 +969,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlSerializationReader::*)(::by_ref<::System::Object*>)>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadList)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x62f752c;
+  constexpr static std::size_t addrs = 0x62fefa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -983,7 +983,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)()>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadReferencedElements)> {
   constexpr static std::size_t size = 0xd54;
-  constexpr static std::size_t addrs = 0x62f8384;
+  constexpr static std::size_t addrs = 0x62ffe00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -997,7 +997,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader::*)(::by_ref<::StringW>)>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadReferencingElement)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x62f9170;
+  constexpr static std::size_t addrs = 0x6300bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1012,7 +1012,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW, ::StringW, ::by_ref<::StringW>)>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadReferencingElement)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62f8368;
+  constexpr static std::size_t addrs = 0x62ffde4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1027,7 +1027,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW, ::StringW, bool, ::by_ref<::StringW>)>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadReferencingElement)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x62f91d4;
+  constexpr static std::size_t addrs = 0x6300c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1043,7 +1043,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::IXmlSerializable* (
     ::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::Serialization::IXmlSerializable*)>(&::System::Xml::Serialization::XmlSerializationReader::ReadSerializable)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x62f9504;
+  constexpr static std::size_t addrs = 0x6300f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),
@@ -1057,7 +1057,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadTypedPrimitive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f969c;
+  constexpr static std::size_t addrs = 0x6301118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),
@@ -1071,7 +1071,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::XmlQualifiedName*, bool)>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadTypedPrimitive)> {
   constexpr static std::size_t size = 0x950;
-  constexpr static std::size_t addrs = 0x62f7a18;
+  constexpr static std::size_t addrs = 0x62ff494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1086,7 +1086,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::Serialization::XmlSerializationReader::*)(bool)>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadXmlNode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x62f992c;
+  constexpr static std::size_t addrs = 0x63013a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1100,7 +1100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDocument* (::System::Xml::Serialization::XmlSerializationReader::*)(bool)>(
     &::System::Xml::Serialization::XmlSerializationReader::ReadXmlDocument)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x62f9994;
+  constexpr static std::size_t addrs = 0x6301410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1114,7 +1114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Array*, int32_t, ::System::Type*, bool)>(
     &::System::Xml::Serialization::XmlSerializationReader::ShrinkArray)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x62f9ab4;
+  constexpr static std::size_t addrs = 0x6301530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1129,7 +1129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW)>(
     &::System::Xml::Serialization::XmlSerializationReader::ToXmlQualifiedName)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x62f6cd0;
+  constexpr static std::size_t addrs = 0x62fe74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1143,7 +1143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Object*, ::System::Xml::XmlAttribute*, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializationReader::UnknownAttribute)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x62f9b44;
+  constexpr static std::size_t addrs = 0x63015c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1158,7 +1158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Object*, ::System::Xml::XmlElement*, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializationReader::UnknownElement)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x62f9ca8;
+  constexpr static std::size_t addrs = 0x6301724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1173,7 +1173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlSerializationReader::UnknownNode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x62f7074;
+  constexpr static std::size_t addrs = 0x62feaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1187,7 +1187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Object*, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializationReader::UnknownNode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x62f9e0c;
+  constexpr static std::size_t addrs = 0x6301888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),
@@ -1201,7 +1201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::System::Xml::XmlNode*, ::System::Object*, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializationReader::OnUnknownNode)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x62f96a4;
+  constexpr static std::size_t addrs = 0x6301120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1216,7 +1216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSerializationReader::*)(::StringW, ::System::Object*)>(
     &::System::Xml::Serialization::XmlSerializationReader::UnreferencedObject)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x62f90d8;
+  constexpr static std::size_t addrs = 0x6300b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSerializationReader*>(),

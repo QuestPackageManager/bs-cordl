@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Principal/GenericPrincipal.hpp"
+// IWYU pragma private; include "System\Security\Principal\GenericPrincipal.hpp"
 #include "System/Security/Claims/zzzz__ClaimsPrincipal_impl.hpp"
 #include "System/Security/Principal/zzzz__GenericPrincipal_def.hpp"
 #include "System/Security/Principal/zzzz__IIdentity_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::GenericPrincipal::*)(::System::Security::Principal::IIdentity*, ::ArrayW<::StringW>)>(
     &::System::Security::Principal::GenericPrincipal::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5b0f0fc;
+  constexpr static std::size_t addrs = 0x5b135b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

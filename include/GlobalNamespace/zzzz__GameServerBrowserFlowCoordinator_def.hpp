@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameServerBrowserFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameServerBrowserFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameServerBrowserFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
-  /// @brief Method DidActivate, addr 0x5926240, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5929664, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::GameServerBrowserFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5926244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5929668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   GameServerBrowserFlowCoordinator(GameServerBrowserFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6841 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

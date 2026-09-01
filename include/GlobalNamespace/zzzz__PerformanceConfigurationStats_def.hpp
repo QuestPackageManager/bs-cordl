@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationStats.hpp"
+// IWYU pragma private; include "GlobalNamespace\PerformanceConfigurationStats.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,10 +57,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE PerformanceConfigurationStats_BoolStats {
 public:
   // Declarations
-  /// @brief Method CreateLogValue, addr 0x58ef854, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x58f2e84, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x58ef838, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58f2e68, size 0x1c, virtual false, abstract: false, final false
   inline void Update(bool value);
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
   constexpr PerformanceConfigurationStats_BoolStats(int32_t off, int32_t on) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6607 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -102,10 +102,10 @@ public:
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial)) ::GlobalNamespace::PerformanceConfigurationStats_IntStats kInitial;
 
-  /// @brief Method CreateLogValue, addr 0x58ef904, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x58f2f34, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x58ef67c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58f2cac, size 0x7c, virtual false, abstract: false, final false
   inline void Update(int32_t value);
 
   static inline ::GlobalNamespace::PerformanceConfigurationStats_IntStats getStaticF_kInitial();
@@ -120,7 +120,7 @@ public:
   constexpr PerformanceConfigurationStats_IntStats(int32_t min, int32_t max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6608 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -151,10 +151,10 @@ public:
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial)) ::GlobalNamespace::PerformanceConfigurationStats_FloatStats kInitial;
 
-  /// @brief Method CreateLogValue, addr 0x58efa30, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x58f3060, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x58ef6f8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58f2d28, size 0x98, virtual false, abstract: false, final false
   inline void Update(float_t value);
 
   static inline ::GlobalNamespace::PerformanceConfigurationStats_FloatStats getStaticF_kInitial();
@@ -169,7 +169,7 @@ public:
   constexpr PerformanceConfigurationStats_FloatStats(float_t min, float_t max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6609 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -213,7 +213,7 @@ public:
   constexpr PerformanceConfigurationStats_EnumStats_1(int32_t flags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6610 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -273,7 +273,7 @@ public:
 
   static inline ::GlobalNamespace::PerformanceConfigurationStats* New_ctor();
 
-  /// @brief Method Update, addr 0x58ef4d8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58f2b08, size 0x1a4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::PerformanceConfigurationStats_FloatStats const& __cordl_internal_get_batteryLevel() const;
@@ -318,7 +318,7 @@ public:
 
   constexpr void __cordl_internal_set_processorFrequency(::GlobalNamespace::PerformanceConfigurationStats_IntStats value);
 
-  /// @brief Method .ctor, addr 0x58ef790, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f2dc0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -336,7 +336,7 @@ public:
   PerformanceConfigurationStats(PerformanceConfigurationStats const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6611 };
 
   /// @brief Field processorFrequency, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::PerformanceConfigurationStats_IntStats ___processorFrequency;

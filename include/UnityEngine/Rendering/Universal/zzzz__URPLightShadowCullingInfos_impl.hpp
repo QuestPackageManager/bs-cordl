@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/URPLightShadowCullingInfos.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\URPLightShadowCullingInfos.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShadowSliceData_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__URPLightShadowCullingInfos_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos::IsSliceValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68b3668;
+  constexpr static std::size_t addrs = 0x68bb0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

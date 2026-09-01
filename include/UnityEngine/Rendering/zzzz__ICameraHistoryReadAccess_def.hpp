@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ICameraHistoryReadAccess.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ICameraHistoryReadAccess.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,18 +42,18 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE ICameraHistoryReadAccess_HistoryRequestDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6745180, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x674cbfc, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Rendering::IPerFrameHistoryAccessTracker* historyAccess, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x67451a0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x674cc1c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x674516c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x674cbe8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Rendering::IPerFrameHistoryAccessTracker* historyAccess);
 
   static inline ::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6745028, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x674caa4, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -71,7 +71,7 @@ public:
   ICameraHistoryReadAccess_HistoryRequestDelegate(ICameraHistoryReadAccess_HistoryRequestDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -102,7 +102,7 @@ public:
   ICameraHistoryReadAccess(ICameraHistoryReadAccess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/GradientColorKey.hpp"
+// IWYU pragma private; include "UnityEngine\GradientColorKey.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__GradientColorKey_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GradientColorKey::*)(::UnityEngine::Color, float_t)>(&::UnityEngine::GradientColorKey::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ac45fc;
+  constexpr static std::size_t addrs = 0x6acc014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

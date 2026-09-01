@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/CollectionUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Collections\CollectionUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,30 +41,30 @@ namespace Org::BouncyCastle::Utilities::Collections {
 class CORDL_TYPE CollectionUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddRange, addr 0x3623034, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x3626df4, size 0x334, virtual false, abstract: false, final false
   static inline void AddRange(::System::Collections::IList* to, ::System::Collections::IEnumerable* range);
 
-  /// @brief Method CheckElementsAreOfType, addr 0x3623368, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method CheckElementsAreOfType, addr 0x3627128, size 0x2e0, virtual false, abstract: false, final false
   static inline bool CheckElementsAreOfType(::System::Collections::IEnumerable* e, ::System::Type* t);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::CollectionUtilities* New_ctor();
 
-  /// @brief Method ReadOnly, addr 0x3622020, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadOnly, addr 0x3625de0, size 0x50, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* ReadOnly(::Org::BouncyCastle::Utilities::Collections::ISet* s);
 
-  /// @brief Method ReadOnly, addr 0x3623648, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadOnly, addr 0x3627408, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* ReadOnly(::System::Collections::IDictionary* d);
 
-  /// @brief Method ReadOnly, addr 0x3622070, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadOnly, addr 0x3625e30, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* ReadOnly(::System::Collections::IList* l);
 
-  /// @brief Method RequireNext, addr 0x36236b0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method RequireNext, addr 0x3627470, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Object* RequireNext(::System::Collections::IEnumerator* e);
 
-  /// @brief Method ToString, addr 0x36237e4, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x36275a4, size 0x340, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Collections::IEnumerable* c);
 
-  /// @brief Method .ctor, addr 0x3623b24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36278e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

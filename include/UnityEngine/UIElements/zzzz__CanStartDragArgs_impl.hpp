@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/CanStartDragArgs.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\CanStartDragArgs.hpp"
 #include "UnityEngine/UIElements/zzzz__CanStartDragArgs_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CanStartDragArgs::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::UIElements::CanStartDragArgs::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d83f24;
+  constexpr static std::size_t addrs = 0x6d8baa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

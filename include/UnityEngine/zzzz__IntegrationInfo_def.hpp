@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/IntegrationInfo.hpp"
+// IWYU pragma private; include "UnityEngine\IntegrationInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,7 +113,7 @@ public:
   static ::UnityEngine::IntegrationInfo_SupportedUnityFeatures const VehicleSupport;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18659 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -145,7 +145,7 @@ public:
   constexpr IntegrationInfo__IntegrationVersion_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18660 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6 };
@@ -181,7 +181,7 @@ public:
   constexpr IntegrationInfo__SdkVersion_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18661 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6 };
@@ -217,7 +217,7 @@ public:
   constexpr IntegrationInfo__m_Desc_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18662 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xdc };
@@ -253,7 +253,7 @@ public:
   constexpr IntegrationInfo__m_Name_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18663 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -350,10 +350,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::UnityEngine::IntegrationInfo__m_Name_e__FixedBuffer value);
 
-  /// @brief Method get_Description, addr 0x6b8b2fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x6b92e80, size 0x58, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method get_Name, addr 0x6b8b2a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6b92e28, size 0x58, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   // Ctor Parameters []
@@ -460,7 +460,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18664 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };

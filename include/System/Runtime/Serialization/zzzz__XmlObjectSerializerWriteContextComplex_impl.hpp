@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/XmlObjectSerializerWriteContextComplex.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\XmlObjectSerializerWriteContextComplex.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationMode_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__XmlObjectSerializerWriteContext_impl.hpp"
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Runtime::Serialization::DataContractSerializer*, ::System::Runtime::Serialization::DataContract*, ::System::Runtime::Serialization::DataContractResolver*)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61661f8;
+  constexpr static std::size_t addrs = 0x616dc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(
     ::System::Runtime::Serialization::NetDataContractSerializer*, ::System::Collections::Hashtable*)>(&::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x61662a0;
+  constexpr static std::size_t addrs = 0x616dd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::SerializationMode (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)()>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::get_Mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6169cbc;
+  constexpr static std::size_t addrs = 0x6171738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(::System::RuntimeTypeHandle, ::System::Type*)>(
         &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::GetDataContract)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6169cc4;
+  constexpr static std::size_t addrs = 0x6171740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(int32_t, ::System::RuntimeTypeHandle)>(
         &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::GetDataContract)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6169e70;
+  constexpr static std::size_t addrs = 0x61718ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Serialization::DataContract* (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(int32_t, ::System::RuntimeTypeHandle, ::System::Type*)>(
         &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::GetDataContractSkipValidation)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x616a01c;
+  constexpr static std::size_t addrs = 0x6171a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::
                                                                                                                                           ::System::Runtime::Serialization::DataContract*)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteClrTypeInfo)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x616a1d0;
+  constexpr static std::size_t addrs = 0x6171c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Type*, ::StringW, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteClrTypeInfo)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x616a25c;
+  constexpr static std::size_t addrs = 0x6171cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Type*, ::System::Runtime::Serialization::SerializationInfo*)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteClrTypeInfo)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x616a300;
+  constexpr static std::size_t addrs = 0x6171d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*)>(&::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteAnyType)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x616a39c;
+  constexpr static std::size_t addrs = 0x6171e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::StringW)>(&::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteString)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x616a3f0;
+  constexpr static std::size_t addrs = 0x6171e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -194,7 +194,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::StringW, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteString)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x616a450;
+  constexpr static std::size_t addrs = 0x6171ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::ArrayW<uint8_t>)>(&::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteBase64)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x616a540;
+  constexpr static std::size_t addrs = 0x6171fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -223,7 +223,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::ArrayW<uint8_t>, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteBase64)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x616a598;
+  constexpr static std::size_t addrs = 0x6172014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Uri*)>(&::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteUri)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x616a6b4;
+  constexpr static std::size_t addrs = 0x6172130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -252,7 +252,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Uri*, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteUri)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x616a708;
+  constexpr static std::size_t addrs = 0x6172184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Xml::XmlQualifiedName*)>(&::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteQName)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x616a84c;
+  constexpr static std::size_t addrs = 0x61722c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -281,7 +281,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Xml::XmlQualifiedName*, ::System::Xml::XmlDictionaryString*, ::System::Xml::XmlDictionaryString*)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteQName)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x616a8a8;
+  constexpr static std::size_t addrs = 0x6172324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -296,7 +296,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*, bool, bool, int32_t, ::System::RuntimeTypeHandle)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::InternalSerialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x616aa38;
+  constexpr static std::size_t addrs = 0x61724b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*, bool)>(&::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::OnHandleReference)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x616ad94;
+  constexpr static std::size_t addrs = 0x6172810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*, bool)>(&::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::OnEndHandleReference)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x616af30;
+  constexpr static std::size_t addrs = 0x61729ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(::System::Type*)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::CheckIfTypeSerializableForSharedTypeMode)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x616af98;
+  constexpr static std::size_t addrs = 0x6172a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(::System::Type*, bool)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::CheckIfTypeSerializable)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x616b06c;
+  constexpr static std::size_t addrs = 0x6172ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(::System::Type*)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::GetSurrogatedType)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x616b1ac;
+  constexpr static std::size_t addrs = 0x6172c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),
@@ -381,7 +381,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Runtime::Serialization::XmlWriterDelegator*, ::System::Object*, bool, bool, int32_t, ::System::RuntimeTypeHandle)>(
     &::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::InternalSerializeWithSurrogate)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x616aa58;
+  constexpr static std::size_t addrs = 0x61724d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::*)(
     ::System::Runtime::Serialization::XmlWriterDelegator*, int32_t)>(&::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex::WriteArraySize)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x616b2cc;
+  constexpr static std::size_t addrs = 0x6172d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlObjectSerializerWriteContextComplex*>(),

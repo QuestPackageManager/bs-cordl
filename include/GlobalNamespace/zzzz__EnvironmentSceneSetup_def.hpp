@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnvironmentSceneSetup.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnvironmentSceneSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
   /// @brief Field trackLaneYPositionPropertyId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_trackLaneYPositionPropertyId, put = setStaticF_trackLaneYPositionPropertyId)) int32_t trackLaneYPositionPropertyId;
 
-  /// @brief Method InstallBindings, addr 0x590811c, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x590b708, size 0x1c4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::EnvironmentSceneSetup* New_ctor();
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::EnvironmentSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x59082e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590b8cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_trackLaneYPositionPropertyId();
@@ -74,7 +74,7 @@ public:
   EnvironmentSceneSetup(EnvironmentSceneSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6715 };
 
   /// @brief Field _environmentsList, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsList;

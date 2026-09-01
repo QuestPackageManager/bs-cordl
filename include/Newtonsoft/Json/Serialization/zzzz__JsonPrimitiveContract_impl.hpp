@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonPrimitiveContract.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Serialization\JsonPrimitiveContract.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonPrimitiveContract_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::PrimitiveTypeCode (::Newtonsoft::Json::Serialization::JsonPrimitiveContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonPrimitiveContract::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3fcb8;
+  constexpr static std::size_t addrs = 0x5d44174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonPrimitiveContract*>(), { "get_TypeCode", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonPrimitiveContract::*)(::Newtonsoft::Json::Utilities::PrimitiveTypeCode)>(
     &::Newtonsoft::Json::Serialization::JsonPrimitiveContract::set_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3fcc0;
+  constexpr static std::size_t addrs = 0x5d4417c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::JsonPrimitiveContract*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::JsonPrimitiveContract::*)(::System::Type*)>(
     &::Newtonsoft::Json::Serialization::JsonPrimitiveContract::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5d38acc;
+  constexpr static std::size_t addrs = 0x5d3cf88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

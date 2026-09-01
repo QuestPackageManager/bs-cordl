@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/CsvReader.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\CsvReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__CsvReader_def.hpp"
 #include "BGLib/Polyglot/zzzz__CsvReader_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(
     &::BGLib::Polyglot::CsvReader::Parse)> {
   constexpr static std::size_t size = 0x820;
-  constexpr static std::size_t addrs = 0x3319c1c;
+  constexpr static std::size_t addrs = 0x331d9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::CsvReader*>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::CsvReader::*)()>(&::BGLib::Polyglot::CsvReader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x331d2dc;
+  constexpr static std::size_t addrs = 0x332109c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::CsvReader*>(), { ".ctor", {}, {} })));

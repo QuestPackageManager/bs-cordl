@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteExecutionRating.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteExecutionRating.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRating_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteData_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteExecutionRating_def.hpp"
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteExecutionRating::*)(float_t, ::GlobalNamespace::NoteData_ScoringType, ::GlobalNamespace::NoteExecutionRating_Rating,
                                                                                                         int32_t, int32_t, int32_t, int32_t)>(&::GlobalNamespace::NoteExecutionRating::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3739660;
+  constexpr static std::size_t addrs = 0x373f1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

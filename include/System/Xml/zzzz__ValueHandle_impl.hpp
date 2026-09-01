@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/ValueHandle.hpp"
+// IWYU pragma private; include "System\Xml\ValueHandle.hpp"
 #include "System/Xml/zzzz__ValueHandleType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__ValueHandle_def.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ValueHandle::*)(::System::Xml::XmlBufferReader*)>(&::System::Xml::ValueHandle::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60fcd0c;
+  constexpr static std::size_t addrs = 0x6104788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Base64Encoding* (*)()>(&::System::Xml::ValueHandle::get_Base64Encoding)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x60fcd18;
+  constexpr static std::size_t addrs = 0x6104794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "get_Base64Encoding", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ValueHandle::*)(::System::Xml::ValueHandleType)>(&::System::Xml::ValueHandle::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60fcdec;
+  constexpr static std::size_t addrs = 0x6104868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ValueHandle::*)(int32_t)>(&::System::Xml::ValueHandle::SetDictionaryValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60fcdf4;
+  constexpr static std::size_t addrs = 0x6104870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ValueHandle::*)(int32_t)>(&::System::Xml::ValueHandle::SetCharValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60fce10;
+  constexpr static std::size_t addrs = 0x610488c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "SetCharValue", {}, { ::i2c::type_of<int32_t>() } })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ValueHandle::*)(int32_t, int32_t)>(&::System::Xml::ValueHandle::SetQNameValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60fce20;
+  constexpr static std::size_t addrs = 0x610489c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ValueHandle::*)(::System::Xml::ValueHandleType, int32_t, int32_t)>(&::System::Xml::ValueHandle::SetValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60fce04;
+  constexpr static std::size_t addrs = 0x6104880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::IsWhitespace)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x60fce30;
+  constexpr static std::size_t addrs = 0x61048ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "IsWhitespace", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToType)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x60fcfc4;
+  constexpr static std::size_t addrs = 0x6104a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToType", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToBoolean)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x60fd1f0;
+  constexpr static std::size_t addrs = 0x6104c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToBoolean", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToInt)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x60fd854;
+  constexpr static std::size_t addrs = 0x61052d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToInt", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToLong)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x60fda4c;
+  constexpr static std::size_t addrs = 0x61054c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToLong", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToULong)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x60fdbb4;
+  constexpr static std::size_t addrs = 0x6105630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToULong", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToSingle)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x60fdcc8;
+  constexpr static std::size_t addrs = 0x6105744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToSingle", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToDouble)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x60fde88;
+  constexpr static std::size_t addrs = 0x6105904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToDouble", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToDecimal)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x60fdff0;
+  constexpr static std::size_t addrs = 0x6105a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToDecimal", {}, {} })));
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToDateTime)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x60fe1c8;
+  constexpr static std::size_t addrs = 0x6105c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToDateTime", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::UniqueId* (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToUniqueId)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x60fe2c0;
+  constexpr static std::size_t addrs = 0x6105d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToUniqueId", {}, {} })));
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToTimeSpan)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x60fe3b0;
+  constexpr static std::size_t addrs = 0x6105e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToTimeSpan", {}, {} })));
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToGuid)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x60fe480;
+  constexpr static std::size_t addrs = 0x6105efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToGuid", {}, {} })));
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60fe570;
+  constexpr static std::size_t addrs = 0x6105fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { ::i2c::class_of<::System::Xml::ValueHandle*>(), 3 }));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToByteArray)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x60fe574;
+  constexpr static std::size_t addrs = 0x6105ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToByteArray", {}, {} })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetString)> {
   constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x60fd324;
+  constexpr static std::size_t addrs = 0x6104da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetString", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ValueHandle::*)(::StringW, bool)>(&::System::Xml::ValueHandle::Equals2)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x60fec0c;
+  constexpr static std::size_t addrs = 0x6106688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ValueHandle::*)(::System::Xml::XmlSigningNodeWriter*)>(&::System::Xml::ValueHandle::Sign)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x60fed44;
+  constexpr static std::size_t addrs = 0x61067c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToList)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60feb44;
+  constexpr static std::size_t addrs = 0x61065c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToList", {}, {} })));
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::ToObject)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x60fef40;
+  constexpr static std::size_t addrs = 0x61069bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "ToObject", {}, {} })));
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ValueHandle::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::by_ref<int32_t>)>(&::System::Xml::ValueHandle::TryReadBase64)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x60ff1ec;
+  constexpr static std::size_t addrs = 0x6106c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ValueHandle::*)(::ArrayW<char16_t>, int32_t, int32_t, ::by_ref<int32_t>)>(&::System::Xml::ValueHandle::TryReadChars)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x60ff40c;
+  constexpr static std::size_t addrs = 0x6106e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ValueHandle::*)(::ArrayW<char16_t>, int32_t, int32_t, ::by_ref<int32_t>)>(
     &::System::Xml::ValueHandle::TryReadUnicodeChars)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x60ff830;
+  constexpr static std::size_t addrs = 0x61072ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ValueHandle::*)(::by_ref<::System::Xml::XmlDictionaryString*>)>(&::System::Xml::ValueHandle::TryGetDictionaryString)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x60ff944;
+  constexpr static std::size_t addrs = 0x61073c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ValueHandle::*)(::by_ref<int32_t>)>(&::System::Xml::ValueHandle::TryGetByteArrayLength)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x60ff984;
+  constexpr static std::size_t addrs = 0x6107400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetCharsText)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x60fe974;
+  constexpr static std::size_t addrs = 0x61063f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetCharsText", {}, {} })));
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetUnicodeCharsText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fea08;
+  constexpr static std::size_t addrs = 0x6106484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetUnicodeCharsText", {}, {} })));
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetEscapedCharsText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fea28;
+  constexpr static std::size_t addrs = 0x61064a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetEscapedCharsText", {}, {} })));
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetCharText)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x60fea48;
+  constexpr static std::size_t addrs = 0x61064c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetCharText", {}, {} })));
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60ff9ac;
+  constexpr static std::size_t addrs = 0x6107428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetChar", {}, {} })));
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetInt8)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x60fd2fc;
+  constexpr static std::size_t addrs = 0x6104d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetInt8", {}, {} })));
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetInt16)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fd9d0;
+  constexpr static std::size_t addrs = 0x610544c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetInt16", {}, {} })));
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetInt32)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fd9f0;
+  constexpr static std::size_t addrs = 0x610546c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetInt32", {}, {} })));
@@ -521,7 +521,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetInt64)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fda10;
+  constexpr static std::size_t addrs = 0x610548c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetInt64", {}, {} })));
@@ -533,7 +533,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetUInt64)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x60fda30;
+  constexpr static std::size_t addrs = 0x61054ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetUInt64", {}, {} })));
@@ -545,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetSingle)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fde48;
+  constexpr static std::size_t addrs = 0x61058c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetSingle", {}, {} })));
@@ -557,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetDouble)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fde68;
+  constexpr static std::size_t addrs = 0x61058e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetDouble", {}, {} })));
@@ -569,7 +569,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetDecimal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fe1a8;
+  constexpr static std::size_t addrs = 0x6105c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetDecimal", {}, {} })));
@@ -581,7 +581,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::UniqueId* (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetUniqueId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fe390;
+  constexpr static std::size_t addrs = 0x6105e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetUniqueId", {}, {} })));
@@ -593,7 +593,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetGuid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fe550;
+  constexpr static std::size_t addrs = 0x6105fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetGuid", {}, {} })));
@@ -605,7 +605,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ValueHandle::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::ValueHandle::GetBase64)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x60fe944;
+  constexpr static std::size_t addrs = 0x61063c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -619,7 +619,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryString* (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetDictionaryString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60feb24;
+  constexpr static std::size_t addrs = 0x61065a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetDictionaryString", {}, {} })));
@@ -631,7 +631,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::ValueHandle::*)()>(&::System::Xml::ValueHandle::GetQNameDictionaryText)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60feb64;
+  constexpr static std::size_t addrs = 0x61065e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValueHandle*>(), { "GetQNameDictionaryText", {}, {} })));

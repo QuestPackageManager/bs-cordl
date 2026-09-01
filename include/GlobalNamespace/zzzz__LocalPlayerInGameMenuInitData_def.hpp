@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LocalPlayerInGameMenuInitData.hpp"
+// IWYU pragma private; include "GlobalNamespace\LocalPlayerInGameMenuInitData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_hasSong(bool value);
 
-  /// @brief Method .ctor, addr 0x59a804c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59af8f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
 
 protected:
@@ -61,7 +61,7 @@ public:
   LocalPlayerInGameMenuInitData(LocalPlayerInGameMenuInitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5997 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6025 };
 
   /// @brief Field beatmapKey, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;

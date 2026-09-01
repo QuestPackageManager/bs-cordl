@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ScrollToTopOnEnable.hpp"
+// IWYU pragma private; include "HMUI\ScrollToTopOnEnable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ public:
 
   static inline ::HMUI::ScrollToTopOnEnable* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5887e48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5887814, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::HMUI::ScrollView> const& __cordl_internal_get__scrollView() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__scrollView(::UnityW<::HMUI::ScrollView> value);
 
-  /// @brief Method .ctor, addr 0x5887f1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58878e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   ScrollToTopOnEnable(ScrollToTopOnEnable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19097 };
 
   /// @brief Field _scrollView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ScrollView> ____scrollView;

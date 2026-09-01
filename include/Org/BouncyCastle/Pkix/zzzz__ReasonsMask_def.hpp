@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/ReasonsMask.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\ReasonsMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
   /// @brief Field _reasons, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__reasons, put = __cordl_internal_set__reasons)) int32_t _reasons;
 
-  /// @brief Method AddReasons, addr 0x35e24f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AddReasons, addr 0x35e62b0, size 0x48, virtual false, abstract: false, final false
   inline void AddReasons(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
-  /// @brief Method HasNewReasons, addr 0x35e26c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HasNewReasons, addr 0x35e6484, size 0x54, virtual false, abstract: false, final false
   inline bool HasNewReasons(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
-  /// @brief Method Intersect, addr 0x35e2614, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Intersect, addr 0x35e63d4, size 0xb0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::ReasonsMask* Intersect(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
   static inline ::Org::BouncyCastle::Pkix::ReasonsMask* New_ctor();
@@ -52,18 +52,18 @@ public:
 
   constexpr void __cordl_internal_set__reasons(int32_t value);
 
-  /// @brief Method .ctor, addr 0x35e24e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e62a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35e24e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e62a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t reasons);
 
   static inline ::Org::BouncyCastle::Pkix::ReasonsMask* getStaticF_AllReasons();
 
-  /// @brief Method get_IsAllReasons, addr 0x35e259c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_IsAllReasons, addr 0x35e635c, size 0x78, virtual false, abstract: false, final false
   inline bool get_IsAllReasons();
 
-  /// @brief Method get_Reasons, addr 0x35e2538, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Reasons, addr 0x35e62f8, size 0x64, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* get_Reasons();
 
   static inline void setStaticF_AllReasons(::Org::BouncyCastle::Pkix::ReasonsMask* value);

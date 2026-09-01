@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/RijndaelManagedTransform.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\RijndaelManagedTransform.hpp"
 #include "System/Security/Cryptography/zzzz__CipherMode_impl.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManagedTransformMode_impl.hpp"
@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     ::ArrayW<uint8_t>, ::System::Security::Cryptography::CipherMode, ::ArrayW<uint8_t>, int32_t, int32_t, ::System::Security::Cryptography::PaddingMode,
     ::System::Security::Cryptography::RijndaelManagedTransformMode)>(&::System::Security::Cryptography::RijndaelManagedTransform::_ctor)> {
   constexpr static std::size_t size = 0x5f8;
-  constexpr static std::size_t addrs = 0x5af926c;
+  constexpr static std::size_t addrs = 0x5afd728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RijndaelManagedTransform::*)()>(&::System::Security::Cryptography::RijndaelManagedTransform::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5af9db4;
+  constexpr static std::size_t addrs = 0x5afe270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RijndaelManagedTransform*>(), { "Dispose", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RijndaelManagedTransform::*)(bool)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::Dispose)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5af9dbc;
+  constexpr static std::size_t addrs = 0x5afe278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::RijndaelManagedTransform::*)()>(
     &::System::Security::Cryptography::RijndaelManagedTransform::get_InputBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5af9e78;
+  constexpr static std::size_t addrs = 0x5afe334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::RijndaelManagedTransform::*)()>(
     &::System::Security::Cryptography::RijndaelManagedTransform::get_OutputBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5af9e80;
+  constexpr static std::size_t addrs = 0x5afe33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::RijndaelManagedTransform::*)()>(
     &::System::Security::Cryptography::RijndaelManagedTransform::get_CanTransformMultipleBlocks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5af9e88;
+  constexpr static std::size_t addrs = 0x5afe344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::RijndaelManagedTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::TransformBlock)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x5af9e90;
+  constexpr static std::size_t addrs = 0x5afe34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::RijndaelManagedTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::TransformFinalBlock)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x5afb844;
+  constexpr static std::size_t addrs = 0x5affd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RijndaelManagedTransform::*)()>(&::System::Security::Cryptography::RijndaelManagedTransform::Reset)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5afbaf8;
+  constexpr static std::size_t addrs = 0x5afffb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RijndaelManagedTransform*>(), { "Reset", {}, {} })));
@@ -149,7 +149,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Securi
                                                                                                                                int32_t, ::System::Security::Cryptography::PaddingMode, bool)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::EncryptData)> {
   constexpr static std::size_t size = 0xc18;
-  constexpr static std::size_t addrs = 0x5afa140;
+  constexpr static std::size_t addrs = 0x5afe5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Securi
                                                                                                                                int32_t, ::System::Security::Cryptography::PaddingMode, bool)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::DecryptData)> {
   constexpr static std::size_t size = 0xaec;
-  constexpr static std::size_t addrs = 0x5afad58;
+  constexpr static std::size_t addrs = 0x5aff214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RijndaelManagedTransform::*)(int32_t*, int32_t*, int32_t*, int32_t*, int32_t*, int32_t*)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::Enc)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5afbb58;
+  constexpr static std::size_t addrs = 0x5b00014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RijndaelManagedTransform*>(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RijndaelManagedTransform::*)(int32_t*, int32_t*, int32_t*, int32_t*, int32_t*, int32_t*)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::Dec)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5afbd28;
+  constexpr static std::size_t addrs = 0x5b001e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RijndaelManagedTransform*>(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RijndaelManagedTransform::*)(::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::GenerateKeyExpansion)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x5af9864;
+  constexpr static std::size_t addrs = 0x5afdd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::rot1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5afbffc;
+  constexpr static std::size_t addrs = 0x5b004b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::rot2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5afbff4;
+  constexpr static std::size_t addrs = 0x5b004b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::rot3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5afbf00;
+  constexpr static std::size_t addrs = 0x5b003bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::SubWord)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5afbf08;
+  constexpr static std::size_t addrs = 0x5b003c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::MulX)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5afbfd0;
+  constexpr static std::size_t addrs = 0x5b0048c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

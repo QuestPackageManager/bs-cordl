@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CubemapParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CubemapParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CubemapParameter_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CubemapParameter::*)(::UnityEngine::Texture*, bool)>(&::UnityEngine::Rendering::CubemapParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67c659c;
+  constexpr static std::size_t addrs = 0x67ce018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CubemapParameter::*)()>(&::UnityEngine::Rendering::CubemapParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x67c6600;
+  constexpr static std::size_t addrs = 0x67ce07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

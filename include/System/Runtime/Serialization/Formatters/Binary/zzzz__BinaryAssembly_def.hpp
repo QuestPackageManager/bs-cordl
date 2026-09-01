@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryAssembly.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\BinaryAssembly.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,18 +33,18 @@ public:
   /// @brief Field assemblyString, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString)) ::StringW assemblyString;
 
-  /// @brief Method Dump, addr 0x5b5406c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5b58528, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* New_ctor();
 
-  /// @brief Method Read, addr 0x5b5400c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5b584c8, size 0x60, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x5b53f90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5b5844c, size 0xc, virtual false, abstract: false, final false
   inline void Set(int32_t assemId, ::StringW assemblyString);
 
-  /// @brief Method Write, addr 0x5b53f9c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x5b58458, size 0x70, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_assemId() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_assemblyString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b53f8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b58448, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

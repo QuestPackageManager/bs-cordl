@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MockPlayerGamePoseGeneratorMirror.hpp"
+// IWYU pragma private; include "GlobalNamespace\MockPlayerGamePoseGeneratorMirror.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,44 +77,44 @@ public:
   /// @brief Field _onSongFinished, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__onSongFinished, put = __cordl_internal_set__onSongFinished)) ::System::Action* _onSongFinished;
 
-  /// @brief Method Dispose, addr 0x59c5384, size 0x514, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x59ccec0, size 0x514, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FindPlayerToMirror, addr 0x59c5964, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method FindPlayerToMirror, addr 0x59cd4a0, size 0x380, virtual false, abstract: false, final false
   inline void FindPlayerToMirror();
 
-  /// @brief Method HandleLevelFinished, addr 0x59c684c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x59ce388, size 0x178, virtual false, abstract: false, final false
   inline void HandleLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method HandleNoteWasCut, addr 0x59c6304, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x59cde40, size 0x188, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x59c617c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x59cdcb8, size 0x188, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x59c5ce4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x59cd820, size 0x188, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
 
-  /// @brief Method HandleObstacleWasSpawned, addr 0x59c5e6c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasSpawned, addr 0x59cd9a8, size 0x188, virtual false, abstract: false, final false
   inline void HandleObstacleWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
 
-  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x59c666c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x59ce1a8, size 0x1e0, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataReceived(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* optionalAvatarDataPacket, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandleScoreSyncStateUpdate, addr 0x59c648c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreSyncStateUpdate, addr 0x59cdfc8, size 0x1e0, virtual false, abstract: false, final false
   inline void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandleSliderWasSpawned, addr 0x59c5ff4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasSpawned, addr 0x59cdb30, size 0x188, virtual false, abstract: false, final false
   inline void HandleSliderWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
 
-  /// @brief Method Init, addr 0x59c5898, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x59cd3d4, size 0x8, virtual true, abstract: false, final false
   inline void Init(int64_t introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
 
   static inline ::GlobalNamespace::MockPlayerGamePoseGeneratorMirror* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                                                                                ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded,
                                                                                ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method Tick, addr 0x59c58a0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x59cd3dc, size 0xc4, virtual true, abstract: false, final false
   inline void Tick();
 
   constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__mirroredPlayer() const;
@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set__onSongFinished(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x59c493c, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59cc768, size 0x758, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded,
                     ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
@@ -154,7 +154,7 @@ public:
   MockPlayerGamePoseGeneratorMirror(MockPlayerGamePoseGeneratorMirror const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6116 };
 
   /// @brief Field _nodePoseSyncStateManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NodePoseSyncStateManager> ____nodePoseSyncStateManager;

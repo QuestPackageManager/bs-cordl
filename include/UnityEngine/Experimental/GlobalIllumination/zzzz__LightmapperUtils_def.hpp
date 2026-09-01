@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/LightmapperUtils.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\GlobalIllumination\LightmapperUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,37 +53,37 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 class CORDL_TYPE LightmapperUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyColorTemperature, addr 0x6b27b44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ApplyColorTemperature, addr 0x6b2f6c8, size 0x54, virtual false, abstract: false, final false
   static inline void ApplyColorTemperature(::UnityEngine::Color cct, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::LinearColor> lightColor);
 
-  /// @brief Method Extract, addr 0x6b27988, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2f50c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LightMode Extract(::UnityEngine::LightmapBakeType baketype);
 
-  /// @brief Method Extract, addr 0x6b2842c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2ffb0, size 0x148, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
 
-  /// @brief Method Extract, addr 0x6b27b98, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2f71c, size 0x19c, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> dir);
 
-  /// @brief Method Extract, addr 0x6b28278, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2fdfc, size 0x1b4, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::DiscLight> disc);
 
-  /// @brief Method Extract, addr 0x6b27d34, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2f8b8, size 0x1b4, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::PointLight> point);
 
-  /// @brief Method Extract, addr 0x6b280c4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2fc48, size 0x1b4, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::RectangleLight> rect);
 
-  /// @brief Method Extract, addr 0x6b27ee8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x6b2fa6c, size 0x1dc, virtual false, abstract: false, final false
   static inline void Extract(::UnityEngine::Light* l, ::by_ref<::UnityEngine::Experimental::GlobalIllumination::SpotLight> spot);
 
-  /// @brief Method ExtractColorTemperature, addr 0x6b27a70, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ExtractColorTemperature, addr 0x6b2f5f4, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ExtractColorTemperature(::UnityEngine::Light* l);
 
-  /// @brief Method ExtractIndirect, addr 0x6b279a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ExtractIndirect, addr 0x6b2f524, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor ExtractIndirect(::UnityEngine::Light* l);
 
-  /// @brief Method ExtractInnerCone, addr 0x6b27a1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExtractInnerCone, addr 0x6b2f5a0, size 0x54, virtual false, abstract: false, final false
   static inline float_t ExtractInnerCone(::UnityEngine::Light* l);
 
 protected:
@@ -101,7 +101,7 @@ public:
   LightmapperUtils(LightmapperUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10910 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

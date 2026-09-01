@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Cryptography/ARC4Managed.hpp"
+// IWYU pragma private; include "Mono\Security\Cryptography\ARC4Managed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,39 +56,39 @@ public:
   /// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
   constexpr operator ::System::Security::Cryptography::ICryptoTransform*() noexcept;
 
-  /// @brief Method CheckInput, addr 0x5a9a7a0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CheckInput, addr 0x5a9ec5c, size 0x13c, virtual false, abstract: false, final false
   inline void CheckInput(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
-  /// @brief Method CreateDecryptor, addr 0x5a9a668, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x5a9eb24, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgvIV);
 
-  /// @brief Method CreateEncryptor, addr 0x5a9a648, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x5a9eb04, size 0x20, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgvIV);
 
-  /// @brief Method Dispose, addr 0x5a9a348, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5a9e804, size 0xb0, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x5a9a2f8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5a9e7b4, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GenerateIV, addr 0x5a9a694, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x5a9eb50, size 0x60, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x5a9a6f4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x5a9ebb0, size 0x20, virtual true, abstract: false, final false
   inline void GenerateKey();
 
-  /// @brief Method InternalTransformBlock, addr 0x5a9aa38, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method InternalTransformBlock, addr 0x5a9eef4, size 0x138, virtual false, abstract: false, final false
   inline int32_t InternalTransformBlock(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t> outputBuffer, int32_t outputOffset);
 
-  /// @brief Method KeySetup, addr 0x5a9a568, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method KeySetup, addr 0x5a9ea24, size 0xe0, virtual false, abstract: false, final false
   inline void KeySetup(::ArrayW<uint8_t> key);
 
   static inline ::Mono::Security::Cryptography::ARC4Managed* New_ctor();
 
-  /// @brief Method TransformBlock, addr 0x5a9a8dc, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method TransformBlock, addr 0x5a9ed98, size 0x15c, virtual true, abstract: false, final true
   inline int32_t TransformBlock(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t> outputBuffer, int32_t outputOffset);
 
-  /// @brief Method TransformFinalBlock, addr 0x5a9ab70, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method TransformFinalBlock, addr 0x5a9f02c, size 0xa0, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t> TransformFinalBlock(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_key() const;
@@ -121,19 +121,19 @@ public:
 
   constexpr void __cordl_internal_set_y(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x5a9a1f0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9e6ac, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanTransformMultipleBlocks, addr 0x5a9a788, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanTransformMultipleBlocks, addr 0x5a9ec44, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanTransformMultipleBlocks();
 
-  /// @brief Method get_InputBlockSize, addr 0x5a9a790, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InputBlockSize, addr 0x5a9ec4c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_InputBlockSize();
 
-  /// @brief Method get_Key, addr 0x5a9a3f8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x5a9e8b4, size 0x94, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Key();
 
-  /// @brief Method get_OutputBlockSize, addr 0x5a9a798, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_OutputBlockSize, addr 0x5a9ec54, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_OutputBlockSize();
 
   /// @brief Convert to "::System::IDisposable"
@@ -142,7 +142,7 @@ public:
   /// @brief Convert to "::System::Security::Cryptography::ICryptoTransform"
   constexpr ::System::Security::Cryptography::ICryptoTransform* i___System__Security__Cryptography__ICryptoTransform() noexcept;
 
-  /// @brief Method set_Key, addr 0x5a9a48c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x5a9e948, size 0xdc, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t> value);
 
 protected:
@@ -160,7 +160,7 @@ public:
   ARC4Managed(ARC4Managed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19291 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19324 };
 
   /// @brief Field key, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<uint8_t> ___key;

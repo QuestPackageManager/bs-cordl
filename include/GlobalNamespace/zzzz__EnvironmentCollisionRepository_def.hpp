@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnvironmentCollisionRepository.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnvironmentCollisionRepository.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentCollisionRepository* New_ctor();
 
-  /// @brief Method RegisterColliderEventEffect, addr 0x5998a58, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RegisterColliderEventEffect, addr 0x59a0ca0, size 0x7c, virtual false, abstract: false, final false
   inline void RegisterColliderEventEffect(::GlobalNamespace::ColliderEventEffect* colliderEventEffect);
 
-  /// @brief Method TryGetColliderEventEffect, addr 0x5998ae8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method TryGetColliderEventEffect, addr 0x59a0d30, size 0xc0, virtual false, abstract: false, final false
   inline bool TryGetColliderEventEffect(::UnityEngine::Collider* collider, ::by_ref<::GlobalNamespace::ColliderEventEffect*> colliderEventEffect);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* const& __cordl_internal_get__colliders() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__colliders(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* value);
 
-  /// @brief Method .ctor, addr 0x5998ba8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a0df0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   EnvironmentCollisionRepository(EnvironmentCollisionRepository const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5941 };
 
   /// @brief Field _colliders, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* ____colliders;

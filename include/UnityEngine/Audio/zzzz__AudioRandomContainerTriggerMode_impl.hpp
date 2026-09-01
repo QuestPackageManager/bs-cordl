@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Audio/AudioRandomContainerTriggerMode.hpp"
+// IWYU pragma private; include "UnityEngine\Audio\AudioRandomContainerTriggerMode.hpp"
 #include "UnityEngine/Audio/zzzz__AudioRandomContainerTriggerMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Audio::AudioRandomContainerTriggerMode::AudioRandomContainerTriggerMode(int32_t value__) noexcept {

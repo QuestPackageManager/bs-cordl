@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/DefaultVerifierCalculator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Operators\DefaultVerifierCalculator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__DefaultVerifierCalculator_def.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__SignerSink_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::*)(::Org::BouncyCastle::Crypto::ISigner*)>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x34067d4;
+  constexpr static std::size_t addrs = 0x340a594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::get_Stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3407600;
+  constexpr static std::size_t addrs = 0x340b3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::GetResult)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3407608;
+  constexpr static std::size_t addrs = 0x340b3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

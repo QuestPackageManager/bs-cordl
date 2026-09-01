@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/ECDHWithKdfBasicAgreement.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\ECDHWithKdfBasicAgreement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
   /// @brief Field kdf, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_kdf, put = __cordl_internal_set_kdf)) ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
 
-  /// @brief Method BigIntToBytes, addr 0x36e0ae0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method BigIntToBytes, addr 0x36e48a0, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> BigIntToBytes(::Org::BouncyCastle::Math::BigInteger* r);
 
-  /// @brief Method CalculateAgreement, addr 0x36e086c, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x36e462c, size 0x274, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::ECDHWithKdfBasicAgreement* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_kdf(::Org::BouncyCastle::Crypto::IDerivationFunction* value);
 
-  /// @brief Method .ctor, addr 0x36e07ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e45ac, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
 
 protected:

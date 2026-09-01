@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EffectPoolsManualInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\EffectPoolsManualInstaller.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EffectPoolsManualInstaller::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::EffectPoolsManualInstaller::ManualInstallBindings)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x59f30f4;
+  constexpr static std::size_t addrs = 0x59fb1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EffectPoolsManualInstaller*>(),
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EffectPoolsManualInstaller::*)()>(&::GlobalNamespace::EffectPoolsManualInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59f3354;
+  constexpr static std::size_t addrs = 0x59fb428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EffectPoolsManualInstaller*>(), { ".ctor", {}, {} })));

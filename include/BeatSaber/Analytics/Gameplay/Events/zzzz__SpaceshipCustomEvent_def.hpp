@@ -1,11 +1,14 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipCustomEvent.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipCustomEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipUserEventBase_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(SpaceshipCustomEvent)
+namespace OSCE::Analytics {
+class AnalyticsManager;
+}
 // Forward declare root types
 namespace BeatSaber::Analytics::Gameplay::Events {
 class SpaceshipCustomEvent;
@@ -20,13 +23,23 @@ namespace BeatSaber::Analytics::Gameplay::Events {
 class CORDL_TYPE SpaceshipCustomEvent : public ::BeatSaber::Analytics::Gameplay::Events::SpaceshipUserEventBase {
 public:
   // Declarations
-  /// @brief Field event_type, offset 0x70, size 0x8
+  /// @brief Field build_version, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_build_version, put = __cordl_internal_set_build_version)) ::StringW build_version;
+
+  /// @brief Field event_type, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_event_type, put = __cordl_internal_set_event_type)) ::StringW event_type;
 
-  /// @brief Field payload, offset 0x68, size 0x8
+  /// @brief Field payload, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_payload, put = __cordl_internal_set_payload)) ::StringW payload;
 
+  /// @brief Method ApplyBasicFields, addr 0x32650f8, size 0x1c, virtual true, abstract: false, final false
+  inline void ApplyBasicFields(::OSCE::Analytics::AnalyticsManager* manager);
+
   static inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent* New_ctor();
+
+  constexpr ::StringW const& __cordl_internal_get_build_version() const;
+
+  constexpr ::StringW& __cordl_internal_get_build_version();
 
   constexpr ::StringW const& __cordl_internal_get_event_type() const;
 
@@ -36,11 +49,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_payload();
 
+  constexpr void __cordl_internal_set_build_version(::StringW value);
+
   constexpr void __cordl_internal_set_event_type(::StringW value);
 
   constexpr void __cordl_internal_set_payload(::StringW value);
 
-  /// @brief Method .ctor, addr 0x325f81c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3262b1c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,21 +73,26 @@ public:
   SpaceshipCustomEvent(SpaceshipCustomEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22276 };
 
-  /// @brief Field payload, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field build_version, offset: 0x68, size: 0x8, def value: None
+  ::StringW ___build_version;
+
+  /// @brief Field payload, offset: 0x70, size: 0x8, def value: None
   ::StringW ___payload;
 
-  /// @brief Field event_type, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field event_type, offset: 0x78, size: 0x8, def value: None
   ::StringW ___event_type;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent, ___payload) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent, ___build_version) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent, ___event_type) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent, ___payload) == 0x70, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent) == 0x78, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent, ___event_type) == 0x78, "Offset mismatch!");
+
+static_assert(sizeof(::BeatSaber::Analytics::Gameplay::Events::SpaceshipCustomEvent) == 0x80, "Size mismatch!");
 
 } // namespace BeatSaber::Analytics::Gameplay::Events

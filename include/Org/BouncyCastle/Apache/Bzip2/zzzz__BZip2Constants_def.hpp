@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Apache/Bzip2/BZip2Constants.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Apache\Bzip2\BZip2Constants.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::BZip2Constants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3653b84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3657944, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t> getStaticF_rNums();

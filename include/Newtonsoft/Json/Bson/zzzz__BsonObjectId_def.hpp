@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonObjectId.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonObjectId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x5da813c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dac5f8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> value);
 
-  /// @brief Method get_Value, addr 0x5da8134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5dac5f0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Value();
 
 protected:
@@ -55,7 +55,7 @@ public:
   BsonObjectId(BsonObjectId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13692 };
 
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____Value_k__BackingField;

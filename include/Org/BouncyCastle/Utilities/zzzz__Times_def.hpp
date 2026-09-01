@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Times.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Times.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,12 +23,12 @@ public:
   /// @brief Field NanosecondsPerTick, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_NanosecondsPerTick, put = setStaticF_NanosecondsPerTick)) int64_t NanosecondsPerTick;
 
-  /// @brief Method NanoTime, addr 0x363b024, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method NanoTime, addr 0x363ede4, size 0xa8, virtual false, abstract: false, final false
   static inline int64_t NanoTime();
 
   static inline ::Org::BouncyCastle::Utilities::Times* New_ctor();
 
-  /// @brief Method .ctor, addr 0x363b11c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363eedc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int64_t getStaticF_NanosecondsPerTick();

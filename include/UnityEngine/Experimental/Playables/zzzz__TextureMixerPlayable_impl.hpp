@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Playables/TextureMixerPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Playables\TextureMixerPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Experimental/Playables/zzzz__TextureMixerPlayable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Experimental::Playables::TextureMixerPlayable::*)()>(
     &::UnityEngine::Experimental::Playables::TextureMixerPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b28e28;
+  constexpr static std::size_t addrs = 0x6b309ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Playables::TextureMixerPlayable>(), { "GetHandle", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Playables::TextureMixerPlayable::*)(::UnityEngine::Experimental::Playables::TextureMixerPlayable)>(
     &::UnityEngine::Experimental::Playables::TextureMixerPlayable::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b28e34;
+  constexpr static std::size_t addrs = 0x6b309b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Playables::TextureMixerPlayable>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/CertificationRequest.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\CertificationRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,13 +52,13 @@ public:
   /// @brief Field sigBits, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_sigBits, put = __cordl_internal_set_sigBits)) ::Org::BouncyCastle::Asn1::DerBitString* sigBits;
 
-  /// @brief Method GetCertificationRequestInfo, addr 0x345c944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCertificationRequestInfo, addr 0x3460704, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* GetCertificationRequestInfo();
 
-  /// @brief Method GetInstance, addr 0x345c678, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3460438, size 0xd8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetSignatureOctets, addr 0x345c95c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureOctets, addr 0x346071c, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSignatureOctets();
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* New_ctor();
@@ -68,7 +68,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x345c978, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3460738, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* const& __cordl_internal_get_reqInfo() const;
@@ -89,20 +89,20 @@ public:
 
   constexpr void __cordl_internal_set_sigBits(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x345c894, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3460654, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x345c898, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3460658, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* requestInfo, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
                     ::Org::BouncyCastle::Asn1::DerBitString* signature);
 
-  /// @brief Method .ctor, addr 0x345c750, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3460510, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Signature, addr 0x345c954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x3460714, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Signature();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x345c94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x346070c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
 protected:

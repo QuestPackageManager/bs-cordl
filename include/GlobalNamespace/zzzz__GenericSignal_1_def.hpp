@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GenericSignal_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\GenericSignal_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   GenericSignal_1(GenericSignal_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21432 };
 
   /// @brief Field _floatEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<T>* ____floatEvent;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Cursor.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Cursor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,24 +68,24 @@ public:
   /// @brief Field _pressState, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__pressState, put = __cordl_internal_set__pressState)) ::UnityEngine::EventSystems::PointerEventData_FramePressState _pressState;
 
-  /// @brief Method Attach, addr 0x5a58db8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Attach, addr 0x5a5d274, size 0xdc, virtual false, abstract: false, final false
   inline void Attach(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel* panel);
 
-  /// @brief Method Awake, addr 0x5a5addc, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a5f298, size 0x1f4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x5a5b054, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5a5f510, size 0x194, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Cursor* New_ctor();
 
-  /// @brief Method SetClickState, addr 0x5a5b034, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetClickState, addr 0x5a5f4f0, size 0x20, virtual false, abstract: false, final false
   inline void SetClickState(::UnityEngine::EventSystems::PointerEventData_FramePressState state);
 
-  /// @brief Method SetCursorRay, addr 0x5a5aff4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method SetCursorRay, addr 0x5a5f4b0, size 0x40, virtual true, abstract: false, final false
   inline void SetCursorRay(::UnityEngine::Transform* t);
 
-  /// @brief Method SetCursorStartDest, addr 0x5a5afd0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetCursorStartDest, addr 0x5a5f48c, size 0x24, virtual true, abstract: false, final false
   inline void SetCursorStartDest(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 dest, ::UnityEngine::Vector3 normal);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__GameObject_k__BackingField() const;
@@ -136,19 +136,19 @@ public:
 
   constexpr void __cordl_internal_set__pressState(::UnityEngine::EventSystems::PointerEventData_FramePressState value);
 
-  /// @brief Method .ctor, addr 0x5a5b1e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5f6a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GameObject, addr 0x5a5adbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GameObject, addr 0x5a5f278, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_GameObject();
 
-  /// @brief Method get_Transform, addr 0x5a5adcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Transform, addr 0x5a5f288, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Transform();
 
-  /// @brief Method set_GameObject, addr 0x5a5adc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GameObject, addr 0x5a5f280, size 0x8, virtual false, abstract: false, final false
   inline void set_GameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_Transform, addr 0x5a5add4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Transform, addr 0x5a5f290, size 0x8, virtual false, abstract: false, final false
   inline void set_Transform(::UnityEngine::Transform* value);
 
 protected:
@@ -166,7 +166,7 @@ public:
   Cursor(Cursor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18415 };
 
   /// @brief Field _pressedScale offset 0xffffffff size 0x4
   static constexpr float_t _pressedScale{ static_cast<float_t>(0.8f) };

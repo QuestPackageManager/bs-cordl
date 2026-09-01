@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/ColorUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\ColorUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ColorUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t)>(&::UnityEngine::ProBuilder::ColorUtility::approx)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x66b25bc;
+  constexpr static std::size_t addrs = 0x66ba038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::ColorUtility::GetColor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x66b2624;
+  constexpr static std::size_t addrs = 0x66ba0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::XYZColor* (*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::ColorUtility::RGBToXYZ)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x66b1f1c;
+  constexpr static std::size_t addrs = 0x66b9998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::XYZColor* (*)(float_t, float_t, float_t)>(&::UnityEngine::ProBuilder::ColorUtility::RGBToXYZ)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x66b200c;
+  constexpr static std::size_t addrs = 0x66b9a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorUtility*>(),
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::CIELabColor* (*)(::UnityEngine::ProBuilder::XYZColor*)>(&::UnityEngine::ProBuilder::ColorUtility::XYZToCIE_Lab)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x66b22f0;
+  constexpr static std::size_t addrs = 0x66b9d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::ProBuilder::CIELabColor*, ::UnityEngine::ProBuilder::CIELabColor*)>(
     &::UnityEngine::ProBuilder::ColorUtility::DeltaE)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x66b2714;
+  constexpr static std::size_t addrs = 0x66ba190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::UnityEngine::ProBuilder::HSVColor*)>(&::UnityEngine::ProBuilder::ColorUtility::HSVtoRGB)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x66b2758;
+  constexpr static std::size_t addrs = 0x66ba1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(float_t, float_t, float_t)>(&::UnityEngine::ProBuilder::ColorUtility::HSVtoRGB)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x66b27d8;
+  constexpr static std::size_t addrs = 0x66ba254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorUtility*>(),
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::HSVColor* (*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::ColorUtility::RGBtoHSV)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x66b1ba8;
+  constexpr static std::size_t addrs = 0x66b9624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::ColorUtility::GetColorName)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x66b28cc;
+  constexpr static std::size_t addrs = 0x66ba348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::CIELabColor* (*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::ProBuilder::ColorUtility::CIELabFromRGB)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x66b2acc;
+  constexpr static std::size_t addrs = 0x66ba548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

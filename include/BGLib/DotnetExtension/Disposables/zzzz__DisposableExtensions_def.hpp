@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/Disposables/DisposableExtensions.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\Disposables\DisposableExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ namespace BGLib::DotnetExtension::Disposables {
 class CORDL_TYPE DisposableExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddTo, addr 0x330ce0c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddTo, addr 0x3310c08, size 0x1c, virtual false, abstract: false, final false
   static inline void AddTo(::System::IDisposable* disposable, ::BGLib::DotnetExtension::Disposables::CompositeDisposable* compositeDisposable);
 
-  /// @brief Method AddTo, addr 0x330ce28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddTo, addr 0x3310c24, size 0x1c, virtual false, abstract: false, final false
   static inline void AddTo(::System::IDisposable* disposable, ::BGLib::DotnetExtension::Disposables::ConcurrentCompositeDisposable* compositeDisposable);
 
 protected:
@@ -49,7 +49,7 @@ public:
   DisposableExtensions(DisposableExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20515 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

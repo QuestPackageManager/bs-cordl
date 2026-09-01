@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/TrackedDevice.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\TrackedDevice.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,7 @@ public:
 
   __declspec(property(get = get_trackingState, put = set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
-  /// @brief Method FinishSetup, addr 0x6561680, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x65690fc, size 0x13c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::TrackedDevice* New_ctor();
@@ -84,31 +84,31 @@ public:
 
   constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method .ctor, addr 0x65617bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6569238, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_devicePosition, addr 0x6561660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePosition, addr 0x65690dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
-  /// @brief Method get_deviceRotation, addr 0x6561670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceRotation, addr 0x65690ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
-  /// @brief Method get_isTracked, addr 0x6561650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x65690cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
-  /// @brief Method get_trackingState, addr 0x6561640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x65690bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
-  /// @brief Method set_devicePosition, addr 0x6561668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePosition, addr 0x65690e4, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceRotation, addr 0x6561678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceRotation, addr 0x65690f4, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_isTracked, addr 0x6561658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x65690d4, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_trackingState, addr 0x6561648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x65690c4, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
 protected:
@@ -126,7 +126,7 @@ public:
   TrackedDevice(TrackedDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8774 };
 
   /// @brief Field <trackingState>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::IntegerControl* ____trackingState_k__BackingField;

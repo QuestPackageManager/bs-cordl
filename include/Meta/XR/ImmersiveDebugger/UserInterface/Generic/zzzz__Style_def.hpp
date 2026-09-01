@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/Style.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\Style.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set__instantiated(bool value);
 
-  /// @brief Method .ctor, addr 0x5a5c91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a60dd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Instantiated, addr 0x5a5ca24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Instantiated, addr 0x5a60ee0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Instantiated();
 
 protected:
@@ -66,7 +66,7 @@ public:
   Style(Style const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18390 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18423 };
 
   /// @brief Field _instantiated, offset: 0x18, size: 0x1, def value: None
   bool ____instantiated;

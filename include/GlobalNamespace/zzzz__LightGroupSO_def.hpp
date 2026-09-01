@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightGroupSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightGroupSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(LightGroupSO)
 namespace GlobalNamespace {
 class ILightGroup;
+}
+namespace GlobalNamespace {
+class LightGroupTranslationLimits;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,6 +27,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE LightGroupSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
+  /// @brief Field _compositeLimits, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__compositeLimits, put = __cordl_internal_set__compositeLimits)) ::GlobalNamespace::LightGroupTranslationLimits* _compositeLimits;
+
   /// @brief Field _groupDescription, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__groupDescription, put = __cordl_internal_set__groupDescription)) ::StringW _groupDescription;
 
@@ -45,6 +51,8 @@ public:
   /// @brief Field _startLightId, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__startLightId, put = __cordl_internal_set__startLightId)) int32_t _startLightId;
 
+  __declspec(property(get = get_compositeLimits)) ::GlobalNamespace::LightGroupTranslationLimits* compositeLimits;
+
   __declspec(property(get = get_groupId)) int32_t groupId;
 
   __declspec(property(get = get_groupName)) ::StringW groupName;
@@ -61,6 +69,10 @@ public:
   constexpr operator ::GlobalNamespace::ILightGroup*() noexcept;
 
   static inline ::GlobalNamespace::LightGroupSO* New_ctor();
+
+  constexpr ::GlobalNamespace::LightGroupTranslationLimits* const& __cordl_internal_get__compositeLimits() const;
+
+  constexpr ::GlobalNamespace::LightGroupTranslationLimits*& __cordl_internal_get__compositeLimits();
 
   constexpr ::StringW const& __cordl_internal_get__groupDescription() const;
 
@@ -90,6 +102,8 @@ public:
 
   constexpr int32_t& __cordl_internal_get__startLightId();
 
+  constexpr void __cordl_internal_set__compositeLimits(::GlobalNamespace::LightGroupTranslationLimits* value);
+
   constexpr void __cordl_internal_set__groupDescription(::StringW value);
 
   constexpr void __cordl_internal_set__groupId(int32_t value);
@@ -104,25 +118,28 @@ public:
 
   constexpr void __cordl_internal_set__startLightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x586cc30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586bd74, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupId, addr 0x586cc08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_compositeLimits, addr 0x586bd6c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::LightGroupTranslationLimits* get_compositeLimits();
+
+  /// @brief Method get_groupId, addr 0x586bd44, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_groupName, addr 0x586cc00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupName, addr 0x586bd3c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_groupName();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x586cc28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x586bd64, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_numberOfElements, addr 0x586cc18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfElements, addr 0x586bd54, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x586cc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x586bd5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x586cc10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x586bd4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightGroup"
@@ -143,7 +160,7 @@ public:
   LightGroupSO(LightGroupSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19506 };
 
   /// @brief Field _groupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____groupName;
@@ -166,6 +183,9 @@ public:
   /// @brief Field _ignoreLightGroupEffectManager, offset: 0x38, size: 0x1, def value: None
   bool ____ignoreLightGroupEffectManager;
 
+  /// @brief Field _compositeLimits, offset: 0x40, size: 0x8, def value: None
+  ::GlobalNamespace::LightGroupTranslationLimits* ____compositeLimits;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -183,6 +203,8 @@ static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____sameIdElements) == 0
 
 static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____ignoreLightGroupEffectManager) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LightGroupSO) == 0x40, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____compositeLimits) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::LightGroupSO) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace

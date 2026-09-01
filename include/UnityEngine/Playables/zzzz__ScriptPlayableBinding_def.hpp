@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/ScriptPlayableBinding.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\ScriptPlayableBinding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ namespace UnityEngine::Playables {
 class CORDL_TYPE ScriptPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6afef2c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6b06944, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key, ::System::Type* type);
 
-  /// @brief Method CreateScriptOutput, addr 0x6afefec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptOutput, addr 0x6b06a04, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateScriptOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
 protected:
@@ -56,7 +56,7 @@ public:
   ScriptPlayableBinding(ScriptPlayableBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

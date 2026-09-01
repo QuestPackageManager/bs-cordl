@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TouchScreenTextEditorEventHandler.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TouchScreenTextEditorEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,36 +58,36 @@ public:
   __declspec(property(get = __cordl_internal_get_m_TouchKeyboardPoller,
                       put = __cordl_internal_set_m_TouchKeyboardPoller)) ::UnityEngine::UIElements::IVisualElementScheduledItem* m_TouchKeyboardPoller;
 
-  /// @brief Method CloseTouchScreenKeyboard, addr 0x6d45844, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CloseTouchScreenKeyboard, addr 0x6d4d3c8, size 0x134, virtual false, abstract: false, final false
   inline void CloseTouchScreenKeyboard();
 
-  /// @brief Method DoPollTouchScreenKeyboard, addr 0x6d44fc4, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method DoPollTouchScreenKeyboard, addr 0x6d4cb48, size 0x880, virtual false, abstract: false, final false
   inline void DoPollTouchScreenKeyboard();
 
-  /// @brief Method HandleEventBubbleUp, addr 0x6d460e4, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method HandleEventBubbleUp, addr 0x6d4dc68, size 0x1ec, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::TouchScreenTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
-  /// @brief Method OnFocusInEvent, addr 0x6d46484, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method OnFocusInEvent, addr 0x6d4e008, size 0x164, virtual false, abstract: false, final false
   inline void OnFocusInEvent();
 
-  /// @brief Method OnFocusOutEvent, addr 0x6d465e8, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method OnFocusOutEvent, addr 0x6d4e16c, size 0x3f4, virtual false, abstract: false, final false
   inline void OnFocusOutEvent(::UnityEngine::UIElements::FocusOutEvent* evt);
 
-  /// @brief Method OnPointerDownEvent, addr 0x6d462d0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDownEvent, addr 0x6d4de54, size 0x194, virtual false, abstract: false, final false
   inline void OnPointerDownEvent();
 
-  /// @brief Method OnPointerUpEvent, addr 0x6d46464, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUpEvent, addr 0x6d4dfe8, size 0x20, virtual false, abstract: false, final false
   inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OpenTouchScreenKeyboard, addr 0x6d45bc4, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method OpenTouchScreenKeyboard, addr 0x6d4d748, size 0x520, virtual false, abstract: false, final false
   inline void OpenTouchScreenKeyboard();
 
-  /// @brief Method PollTouchScreenKeyboard, addr 0x6d44d68, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method PollTouchScreenKeyboard, addr 0x6d4c8ec, size 0x25c, virtual false, abstract: false, final false
   inline void PollTouchScreenKeyboard();
 
-  /// @brief Method UpdateStringPositionFromKeyboard, addr 0x6d45978, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method UpdateStringPositionFromKeyboard, addr 0x6d4d4fc, size 0x24c, virtual false, abstract: false, final false
   inline void UpdateStringPositionFromKeyboard();
 
   constexpr bool const& __cordl_internal_get_m_IsClicking() const;
@@ -108,24 +108,24 @@ public:
 
   constexpr void __cordl_internal_set_m_TouchKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
 
-  /// @brief Method .ctor, addr 0x6d44d58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4c8dc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
   static inline int64_t getStaticF__Frame_k__BackingField();
 
   static inline ::UnityEngine::TouchScreenKeyboard* getStaticF__activeTouchScreenKeyboard_k__BackingField();
 
-  /// @brief Method get_Frame, addr 0x6d44c6c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Frame, addr 0x6d4c7f0, size 0x4c, virtual false, abstract: false, final false
   static inline int64_t get_Frame();
 
   static inline void setStaticF__Frame_k__BackingField(int64_t value);
 
   static inline void setStaticF__activeTouchScreenKeyboard_k__BackingField(::UnityEngine::TouchScreenKeyboard* value);
 
-  /// @brief Method set_Frame, addr 0x6d44cb8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_Frame, addr 0x6d4c83c, size 0x50, virtual false, abstract: false, final false
   static inline void set_Frame(int64_t value);
 
-  /// @brief Method set_activeTouchScreenKeyboard, addr 0x6d44d08, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_activeTouchScreenKeyboard, addr 0x6d4c88c, size 0x50, virtual false, abstract: false, final false
   static inline void set_activeTouchScreenKeyboard(::UnityEngine::TouchScreenKeyboard* value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/QuestSettingsApplicatorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\QuestSettingsApplicatorSO.hpp"
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_impl.hpp"
 #include "GlobalNamespace/zzzz__QuestSettingsApplicatorSO_def.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestSettingsApplicatorSO::*)(::by_ref<::BeatSaber::Settings::Settings>, ::GlobalNamespace::SceneType)>(
     &::GlobalNamespace::QuestSettingsApplicatorSO::ApplyGraphicSettings)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x58fdea8;
+  constexpr static std::size_t addrs = 0x5901470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuestSettingsApplicatorSO::*)()>(&::GlobalNamespace::QuestSettingsApplicatorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fe4f4;
+  constexpr static std::size_t addrs = 0x5901ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuestSettingsApplicatorSO*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MenuScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\MenuScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuScenesTransitionSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MenuScenesTransitionSetupData.Init
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuScenesTransitionSetupData::*)()>(&::GlobalNamespace::MenuScenesTransitionSetupData::Init)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x590bd3c;
+  constexpr static std::size_t addrs = 0x590f214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuScenesTransitionSetupData*>(), { "Init", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuScenesTransitionSetupData::*)()>(&::GlobalNamespace::MenuScenesTransitionSetupData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x590bdfc;
+  constexpr static std::size_t addrs = 0x590f2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuScenesTransitionSetupData*>(), { ".ctor", {}, {} })));

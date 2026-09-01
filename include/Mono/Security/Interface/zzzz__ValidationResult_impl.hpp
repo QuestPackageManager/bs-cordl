@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Interface/ValidationResult.hpp"
+// IWYU pragma private; include "Mono\Security\Interface\ValidationResult.hpp"
 #include "Mono/Security/Interface/zzzz__MonoSslPolicyErrors_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::ValidationResult::*)(
     bool, bool, int32_t, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors>)>(&::Mono::Security::Interface::ValidationResult::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a99a58;
+  constexpr static std::size_t addrs = 0x5a9df14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Interface::ValidationResult::*)()>(&::Mono::Security::Interface::ValidationResult::get_Trusted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a99a6c;
+  constexpr static std::size_t addrs = 0x5a9df28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::ValidationResult*>(), { "get_Trusted", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Interface::ValidationResult::*)()>(&::Mono::Security::Interface::ValidationResult::get_UserDenied)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a99a74;
+  constexpr static std::size_t addrs = 0x5a9df30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::ValidationResult*>(), { "get_UserDenied", {}, {} })));

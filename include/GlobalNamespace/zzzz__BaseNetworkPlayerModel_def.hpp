@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BaseNetworkPlayerModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\BaseNetworkPlayerModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  /// @brief Method .ctor, addr 0x5cc8f64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccd420, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,7 +146,7 @@ public:
   BaseNetworkPlayerModel_PartyConfig(BaseNetworkPlayerModel_PartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21573 };
 
   /// @brief Field selectionMask, offset: 0x10, size: 0x28, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask ___selectionMask;
@@ -204,27 +204,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5cc8f6c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ccd428, size 0x18, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::BaseNetworkPlayerModel__GetOtherPlayers_d__56* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator, addr 0x5cc8fcc, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator, addr 0x5ccd488, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current, addr 0x5cc8f84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current, addr 0x5ccd440, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5cc9058, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5ccd514, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5cc8f8c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ccd448, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5cc8fc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ccd480, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5cc8f68, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5ccd424, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -245,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5cc8cc4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccd180, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
@@ -278,7 +278,7 @@ public:
   BaseNetworkPlayerModel__GetOtherPlayers_d__56(BaseNetworkPlayerModel__GetOtherPlayers_d__56 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21574 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -336,27 +336,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5cc9060, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ccd51c, size 0x18, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::BaseNetworkPlayerModel__GetPartyPlayers_d__55* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator, addr 0x5cc90c0, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator, addr 0x5ccd57c, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current, addr 0x5cc9078, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current, addr 0x5ccd534, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5cc914c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5ccd608, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5cc9080, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ccd53c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5cc90b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ccd574, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5cc905c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5ccd518, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -377,7 +377,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5cc8c3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccd0f8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
@@ -410,7 +410,7 @@ public:
   BaseNetworkPlayerModel__GetPartyPlayers_d__55(BaseNetworkPlayerModel__GetPartyPlayers_d__55 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21575 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -501,13 +501,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModel"
   constexpr operator ::GlobalNamespace::INetworkPlayerModel*() noexcept;
 
-  /// @brief Method Connected, addr 0x5cc8d0c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Connected, addr 0x5ccd1c8, size 0x4, virtual true, abstract: false, final false
   inline void Connected();
 
-  /// @brief Method ConnectedPlayerManagerChanged, addr 0x5cc8d00, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ConnectedPlayerManagerChanged, addr 0x5ccd1bc, size 0x4, virtual true, abstract: false, final false
   inline void ConnectedPlayerManagerChanged();
 
-  /// @brief Method ConnectionFailed, addr 0x5cc8ce4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ConnectionFailed, addr 0x5ccd1a0, size 0x10, virtual true, abstract: false, final false
   inline void ConnectionFailed(::GlobalNamespace::ConnectionFailedReason reason);
 
   /// @brief Method CreateConnectedPlayerManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -516,48 +516,48 @@ public:
   /// @brief Method CreatePartyConnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline bool CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* createConfig);
 
-  /// @brief Method DestroyConnectedPlayerManager, addr 0x5cc86fc, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method DestroyConnectedPlayerManager, addr 0x5cccbb8, size 0x454, virtual false, abstract: false, final false
   inline void DestroyConnectedPlayerManager();
 
-  /// @brief Method DestroyPartyConnection, addr 0x5cc8d20, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method DestroyPartyConnection, addr 0x5ccd1dc, size 0x160, virtual true, abstract: false, final false
   inline void DestroyPartyConnection();
 
-  /// @brief Method Disconnected, addr 0x5cc8d10, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Disconnected, addr 0x5ccd1cc, size 0x10, virtual true, abstract: false, final false
   inline void Disconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method GetOtherPlayers, addr 0x5cc8c5c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetOtherPlayers, addr 0x5ccd118, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* GetOtherPlayers();
 
-  /// @brief Method GetPartyPlayers, addr 0x5cc8bd4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetPartyPlayers, addr 0x5ccd090, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* GetPartyPlayers();
 
-  /// @brief Method INetworkPlayerModel.get_otherPlayers, addr 0x5cc8688, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method INetworkPlayerModel.get_otherPlayers, addr 0x5cccb44, size 0x10, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* INetworkPlayerModel_get_otherPlayers();
 
-  /// @brief Method Log, addr 0x5cc8e80, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5ccd33c, size 0xdc, virtual false, abstract: false, final false
   inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::BaseNetworkPlayerModel* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5cc86f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5cccbb4, size 0x4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PartySizeChanged, addr 0x5cc8d08, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PartySizeChanged, addr 0x5ccd1c4, size 0x4, virtual true, abstract: false, final false
   inline void PartySizeChanged(int32_t currentPartySize);
 
-  /// @brief Method PlayerConnected, addr 0x5cc8cf4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PlayerConnected, addr 0x5ccd1b0, size 0x4, virtual true, abstract: false, final false
   inline void PlayerConnected(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
-  /// @brief Method PlayerDisconnected, addr 0x5cc8cf8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PlayerDisconnected, addr 0x5ccd1b4, size 0x4, virtual true, abstract: false, final false
   inline void PlayerDisconnected(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
-  /// @brief Method PlayerOrderChanged, addr 0x5cc8d04, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PlayerOrderChanged, addr 0x5ccd1c0, size 0x4, virtual true, abstract: false, final false
   inline void PlayerOrderChanged(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
-  /// @brief Method PlayerStateChanged, addr 0x5cc8cfc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PlayerStateChanged, addr 0x5ccd1b8, size 0x4, virtual true, abstract: false, final false
   inline void PlayerStateChanged(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
-  /// @brief Method Update, addr 0x5cc8b50, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x5ccd00c, size 0x84, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get__configuration() const;
@@ -602,88 +602,88 @@ public:
 
   constexpr void __cordl_internal_set_connectedPlayerManagerDestroyedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  /// @brief Method .ctor, addr 0x5cc8f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccd418, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_connectedPlayerManagerCreatedEvent, addr 0x5cc8358, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_connectedPlayerManagerCreatedEvent, addr 0x5ccc814, size 0xc0, virtual true, abstract: false, final true
   inline void add_connectedPlayerManagerCreatedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  /// @brief Method add_connectedPlayerManagerDestroyedEvent, addr 0x5cc84d8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_connectedPlayerManagerDestroyedEvent, addr 0x5ccc994, size 0xc0, virtual true, abstract: false, final true
   inline void add_connectedPlayerManagerDestroyedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  /// @brief Method add_inviteRequestedEvent, addr 0x5cc8670, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method add_inviteRequestedEvent, addr 0x5cccb2c, size 0x4, virtual true, abstract: false, final false
   inline void add_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method add_joinRequestedEvent, addr 0x5cc8668, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method add_joinRequestedEvent, addr 0x5cccb24, size 0x4, virtual true, abstract: false, final false
   inline void add_joinRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method add_partyChangedEvent, addr 0x5cc8658, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method add_partyChangedEvent, addr 0x5cccb14, size 0x4, virtual true, abstract: false, final false
   inline void add_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  /// @brief Method add_partySizeChangedEvent, addr 0x5cc8660, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method add_partySizeChangedEvent, addr 0x5cccb1c, size 0x4, virtual true, abstract: false, final false
   inline void add_partySizeChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method get_configuration, addr 0x5cc832c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_configuration, addr 0x5ccc7e8, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_connectedPlayerManager, addr 0x5cc8228, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_connectedPlayerManager, addr 0x5ccc6e4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatSaberConnectedPlayerManager* get_connectedPlayerManager();
 
-  /// @brief Method get_currentPartySize, addr 0x5cc8324, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_currentPartySize, addr 0x5ccc7e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_currentPartySize();
 
-  /// @brief Method get_discoveryEnabled, addr 0x5cc830c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_discoveryEnabled, addr 0x5ccc7c8, size 0x8, virtual true, abstract: false, final false
   inline bool get_discoveryEnabled();
 
-  /// @brief Method get_hasNetworkingFailed, addr 0x5cc831c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasNetworkingFailed, addr 0x5ccc7d8, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasNetworkingFailed();
 
-  /// @brief Method get_isClient, addr 0x5cc86c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_isClient, addr 0x5cccb84, size 0x30, virtual false, abstract: false, final false
   inline bool get_isClient();
 
-  /// @brief Method get_isConnectedOrConnecting, addr 0x5cc8240, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_isConnectedOrConnecting, addr 0x5ccc6fc, size 0x70, virtual false, abstract: false, final false
   inline bool get_isConnectedOrConnecting();
 
-  /// @brief Method get_isConnectionOwner, addr 0x5cc82b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_isConnectionOwner, addr 0x5ccc76c, size 0x5c, virtual false, abstract: false, final false
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isServer, addr 0x5cc86a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isServer, addr 0x5cccb5c, size 0x28, virtual false, abstract: false, final false
   inline bool get_isServer();
 
-  /// @brief Method get_localPlayerIsPartyOwner, addr 0x5cc8698, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_localPlayerIsPartyOwner, addr 0x5cccb54, size 0x8, virtual true, abstract: false, final false
   inline bool get_localPlayerIsPartyOwner();
 
-  /// @brief Method get_partyManager, addr 0x5cc8230, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_partyManager, addr 0x5ccc6ec, size 0x10, virtual false, abstract: false, final false
   inline ::GlobalNamespace::INetworkPlayerModel* get_partyManager();
 
-  /// @brief Method get_partyPlayers, addr 0x5cc8678, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_partyPlayers, addr 0x5cccb34, size 0x10, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_partyPlayers();
 
-  /// @brief Method get_selectionMask, addr 0x5cc8340, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_selectionMask, addr 0x5ccc7fc, size 0x18, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
   /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
   constexpr ::GlobalNamespace::INetworkPlayerModel* i___GlobalNamespace__INetworkPlayerModel() noexcept;
 
-  /// @brief Method remove_connectedPlayerManagerCreatedEvent, addr 0x5cc8418, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_connectedPlayerManagerCreatedEvent, addr 0x5ccc8d4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_connectedPlayerManagerCreatedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  /// @brief Method remove_connectedPlayerManagerDestroyedEvent, addr 0x5cc8598, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_connectedPlayerManagerDestroyedEvent, addr 0x5ccca54, size 0xc0, virtual true, abstract: false, final true
   inline void remove_connectedPlayerManagerDestroyedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  /// @brief Method remove_inviteRequestedEvent, addr 0x5cc8674, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method remove_inviteRequestedEvent, addr 0x5cccb30, size 0x4, virtual true, abstract: false, final false
   inline void remove_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method remove_joinRequestedEvent, addr 0x5cc866c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method remove_joinRequestedEvent, addr 0x5cccb28, size 0x4, virtual true, abstract: false, final false
   inline void remove_joinRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method remove_partyChangedEvent, addr 0x5cc865c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method remove_partyChangedEvent, addr 0x5cccb18, size 0x4, virtual true, abstract: false, final false
   inline void remove_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  /// @brief Method remove_partySizeChangedEvent, addr 0x5cc8664, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method remove_partySizeChangedEvent, addr 0x5cccb20, size 0x4, virtual true, abstract: false, final false
   inline void remove_partySizeChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method set_discoveryEnabled, addr 0x5cc8314, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_discoveryEnabled, addr 0x5ccc7d0, size 0x8, virtual true, abstract: false, final false
   inline void set_discoveryEnabled(bool value);
 
 protected:
@@ -701,7 +701,7 @@ public:
   BaseNetworkPlayerModel(BaseNetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21576 };
 
   /// @brief Field _connectedPlayerManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatSaberConnectedPlayerManager* ____connectedPlayerManager;

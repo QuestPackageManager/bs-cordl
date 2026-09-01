@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataCommonEventSource.hpp"
+// IWYU pragma private; include "System\Data\DataCommonEventSource.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/Data/zzzz__DataCommonEventSource_def.hpp"
 //  Writing Method size for method: ::System::Data::DataCommonEventSource.Trace
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataCommonEventSource::*)(::StringW)>(&::System::Data::DataCommonEventSource::Trace)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60156e8;
+  constexpr static std::size_t addrs = 0x601d164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Data::DataCommonEventSource::*)(::StringW)>(&::System::Data::DataCommonEventSource::EnterScope)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x60156f8;
+  constexpr static std::size_t addrs = 0x601d174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataCommonEventSource::*)(int64_t)>(&::System::Data::DataCommonEventSource::ExitScope)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6015760;
+  constexpr static std::size_t addrs = 0x601d1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataCommonEventSource::*)()>(&::System::Data::DataCommonEventSource::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6015770;
+  constexpr static std::size_t addrs = 0x601d1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataCommonEventSource*>(), { ".ctor", {}, {} })));

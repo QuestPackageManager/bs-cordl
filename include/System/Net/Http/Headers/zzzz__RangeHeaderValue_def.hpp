@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/RangeHeaderValue.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\RangeHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,23 +49,23 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x60e6c78, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60ee6f4, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x60e6d48, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60ee7c4, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::RangeHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::RangeHeaderValue* New_ctor(::System::Net::Http::Headers::RangeHeaderValue* source);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x60e6c1c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x60ee698, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x60e72ec, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60eed68, size 0x1d8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x60e6dc8, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60ee844, size 0x524, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::System::Net::Http::Headers::RangeHeaderValue*> parsedValue);
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* const& __cordl_internal_get_ranges() const;
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set_unit(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60e6974, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ee3f0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x60e69c0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ee43c, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::RangeHeaderValue* source);
 
-  /// @brief Method get_Ranges, addr 0x60e6b94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Ranges, addr 0x60ee610, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* get_Ranges();
 
-  /// @brief Method get_Unit, addr 0x60e6c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unit, addr 0x60ee690, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Unit();
 
   /// @brief Convert to "::System::ICloneable"
@@ -110,7 +110,7 @@ public:
   RangeHeaderValue(RangeHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20339 };
 
   /// @brief Field ranges, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* ___ranges;

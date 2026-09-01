@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRController.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRController.hpp"
 #include "UnityEngine/InputSystem/zzzz__TrackedDevice_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::XRController.get_leftHand
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::XRController* (*)()>(&::UnityEngine::InputSystem::XR::XRController::get_leftHand)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x657fcd0;
+  constexpr static std::size_t addrs = 0x658774c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRController*>(), { "get_leftHand", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::XRController* (*)()>(&::UnityEngine::InputSystem::XR::XRController::get_rightHand)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x657fd7c;
+  constexpr static std::size_t addrs = 0x65877f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRController*>(), { "get_rightHand", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::XRController::*)()>(&::UnityEngine::InputSystem::XR::XRController::FinishSetup)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x657fe28;
+  constexpr static std::size_t addrs = 0x65878a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::XRController::*)()>(&::UnityEngine::InputSystem::XR::XRController::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x657ff70;
+  constexpr static std::size_t addrs = 0x65879ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRController*>(), { ".ctor", {}, {} })));

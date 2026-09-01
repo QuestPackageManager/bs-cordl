@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SimpleColorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\SimpleColorSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::SimpleColorSO* New_ctor();
 
-  /// @brief Method SetColor, addr 0x36f4638, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x36f8888, size 0xc, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color c);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x36f4644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f8894, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x36f462c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x36f887c, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -60,7 +60,7 @@ public:
   SimpleColorSO(SimpleColorSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23165 };
 
   /// @brief Field _color, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ____color;

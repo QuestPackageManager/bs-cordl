@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteCutDirectionExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteCutDirectionExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,34 +35,34 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoteCutDirectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Direction, addr 0x325953c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Direction, addr 0x325c83c, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Direction(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method DirectionSign, addr 0x32594d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DirectionSign, addr 0x325c7d8, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int DirectionSign(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method IsMainDirection, addr 0x32595bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsMainDirection, addr 0x325c8bc, size 0xc, virtual false, abstract: false, final false
   static inline bool IsMainDirection(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method IsOnSamePlane, addr 0x3259684, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsOnSamePlane, addr 0x325c984, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsOnSamePlane(::GlobalNamespace::NoteCutDirection noteCutDirection1, ::GlobalNamespace::NoteCutDirection noteCutDirection2);
 
-  /// @brief Method MainNoteCutDirectionFromCutDirAngle, addr 0x32595c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MainNoteCutDirectionFromCutDirAngle, addr 0x325c8c8, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float_t angle);
 
-  /// @brief Method Mirrored, addr 0x3259650, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Mirrored, addr 0x325c950, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection Mirrored(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method NoteCutDirectionFromDirection, addr 0x325974c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method NoteCutDirectionFromDirection, addr 0x325ca4c, size 0x20c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection NoteCutDirectionFromDirection(::UnityEngine::Vector3 direction);
 
-  /// @brief Method Opposite, addr 0x325966c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Opposite, addr 0x325c96c, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection Opposite(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method Rotation, addr 0x3259584, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Rotation, addr 0x325c884, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Rotation(::GlobalNamespace::NoteCutDirection cutDirection, float_t offset);
 
-  /// @brief Method RotationAngle, addr 0x3259568, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RotationAngle, addr 0x325c868, size 0x1c, virtual false, abstract: false, final false
   static inline float_t RotationAngle(::GlobalNamespace::NoteCutDirection cutDirection);
 
 protected:
@@ -80,7 +80,7 @@ public:
   NoteCutDirectionExtensions(NoteCutDirectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21215 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

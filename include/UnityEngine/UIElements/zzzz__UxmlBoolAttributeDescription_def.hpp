@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlBoolAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlBoolAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,10 +46,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6cb7f40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6cbfac4, size 0xc, virtual false, abstract: false, final false
   inline bool _GetValueFromBag_b__3_0(::StringW s, bool b);
 
-  /// @brief Method .ctor, addr 0x6cb7f3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbfac0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c* getStaticF___9();
@@ -92,15 +92,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c;
 
-  /// @brief Method ConvertValueToBool, addr 0x6cb7e8c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToBool, addr 0x6cbfa10, size 0x5c, virtual false, abstract: false, final false
   static inline bool ConvertValueToBool(::StringW v, bool defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x6cb7cf0, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x6cbf874, size 0x19c, virtual true, abstract: false, final false
   inline bool GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6caad68, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb28ec, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

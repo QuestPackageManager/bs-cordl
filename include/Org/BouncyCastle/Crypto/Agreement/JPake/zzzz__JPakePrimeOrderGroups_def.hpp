@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/JPake/JPakePrimeOrderGroups.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\JPake\JPakePrimeOrderGroups.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups* New_ctor();
 
-  /// @brief Method .ctor, addr 0x36db70c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36df4cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* getStaticF_NIST_2048();

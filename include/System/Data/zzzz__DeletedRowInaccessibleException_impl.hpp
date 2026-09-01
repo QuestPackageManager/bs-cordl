@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DeletedRowInaccessibleException.hpp"
+// IWYU pragma private; include "System\Data\DeletedRowInaccessibleException.hpp"
 #include "System/Data/zzzz__DataException_impl.hpp"
 #include "System/Data/zzzz__DeletedRowInaccessibleException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DeletedRowInaccessibleException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Data::DeletedRowInaccessibleException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ffda10;
+  constexpr static std::size_t addrs = 0x600548c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DeletedRowInaccessibleException::*)()>(&::System::Data::DeletedRowInaccessibleException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ffda18;
+  constexpr static std::size_t addrs = 0x6005494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DeletedRowInaccessibleException*>(), { ".ctor", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DeletedRowInaccessibleException::*)(::StringW)>(&::System::Data::DeletedRowInaccessibleException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5ffda78;
+  constexpr static std::size_t addrs = 0x60054f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

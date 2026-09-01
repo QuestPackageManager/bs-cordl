@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteBasicCutInfoHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteBasicCutInfoHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteBasicCutInfoHelper_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::T
                                                                 ::UnityEngine::Vector3, float_t, ::by_ref<bool>, ::by_ref<bool>, ::by_ref<bool>, ::by_ref<float_t>, ::by_ref<float_t>)>(
     &::GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3778d6c;
+  constexpr static std::size_t addrs = 0x377eaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

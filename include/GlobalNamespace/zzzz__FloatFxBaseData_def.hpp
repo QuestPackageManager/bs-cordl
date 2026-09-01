@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatFxBaseData.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatFxBaseData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x3713624, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37194a8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
 protected:
@@ -62,7 +62,7 @@ public:
   FloatFxBaseData(FloatFxBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14924 };
 
   /// @brief Field value, offset: 0x18, size: 0x4, def value: None
   float_t ___value;

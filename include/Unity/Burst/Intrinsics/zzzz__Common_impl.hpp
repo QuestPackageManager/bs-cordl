@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Burst/Intrinsics/Common.hpp"
+// IWYU pragma private; include "Unity\Burst\Intrinsics\Common.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__Common_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::Intrinsics::Common.Pause
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Burst::Intrinsics::Common::Pause)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x648bdd4;
+  constexpr static std::size_t addrs = 0x6493850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::Common*>(), { "Pause", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t, ::by_ref<uint64_t>)>(&::Unity::Burst::Intrinsics::Common::umul128)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x648bdd8;
+  constexpr static std::size_t addrs = 0x6493854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

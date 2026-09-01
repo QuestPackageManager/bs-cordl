@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorStyle.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorStyle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -15,6 +15,9 @@ namespace GlobalNamespace {
 struct GradientDirection;
 }
 namespace GlobalNamespace {
+class GradientSO;
+}
+namespace GlobalNamespace {
 class IReadOnlyColorStyle;
 }
 namespace GlobalNamespace {
@@ -28,6 +31,9 @@ class Object;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class Gradient;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -73,11 +79,23 @@ public:
   /// @brief Field _gradientDirection, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get__gradientDirection, put = __cordl_internal_set__gradientDirection)) ::GlobalNamespace::GradientDirection _gradientDirection;
 
+  /// @brief Field _multiStepGradient, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiStepGradient, put = __cordl_internal_set__multiStepGradient)) ::UnityEngine::Gradient* _multiStepGradient;
+
+  /// @brief Field _multiStepGradientSo, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiStepGradientSo, put = __cordl_internal_set__multiStepGradientSo)) ::UnityW<::GlobalNamespace::GradientSO> _multiStepGradientSo;
+
+  /// @brief Field _useMultiStepGradient, offset 0x6d, size 0x1
+  __declspec(property(get = __cordl_internal_get__useMultiStepGradient, put = __cordl_internal_set__useMultiStepGradient)) bool _useMultiStepGradient;
+
   /// @brief Field _useScriptableObjectColor, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__useScriptableObjectColor, put = __cordl_internal_set__useScriptableObjectColor)) bool _useScriptableObjectColor;
 
   /// @brief Field _useScriptableObjectGradientColors, offset 0x35, size 0x1
   __declspec(property(get = __cordl_internal_get__useScriptableObjectGradientColors, put = __cordl_internal_set__useScriptableObjectGradientColors)) bool _useScriptableObjectGradientColors;
+
+  /// @brief Field _useScriptableObjectMultiStepGradient, offset 0x78, size 0x1
+  __declspec(property(get = __cordl_internal_get__useScriptableObjectMultiStepGradient, put = __cordl_internal_set__useScriptableObjectMultiStepGradient)) bool _useScriptableObjectMultiStepGradient;
 
   __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
 
@@ -93,6 +111,10 @@ public:
 
   __declspec(property(get = get_gradientDirection, put = set_gradientDirection)) ::GlobalNamespace::GradientDirection gradientDirection;
 
+  __declspec(property(get = get_multiStepGradient, put = set_multiStepGradient)) ::UnityEngine::Gradient* multiStepGradient;
+
+  __declspec(property(get = get_useMultiStepGradient, put = set_useMultiStepGradient)) bool useMultiStepGradient;
+
   __declspec(property(get = get_useScriptableObjectColor, put = set_useScriptableObjectColor)) bool useScriptableObjectColor;
 
   /// @brief Convert operator to "::GlobalNamespace::IReadOnlyColorStyle"
@@ -101,13 +123,16 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x36f4400, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x36f82dc, size 0xcc, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Copy, addr 0x36f44c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CloneGradient, addr 0x36f843c, size 0xe4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Gradient* CloneGradient(::UnityEngine::Gradient* gradient);
+
+  /// @brief Method Copy, addr 0x36f8520, size 0x80, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorStyle* Copy();
 
-  /// @brief Method Lerp, addr 0x36f3f38, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x36f7e14, size 0x4c8, virtual false, abstract: false, final false
   inline void Lerp(::GlobalNamespace::IReadOnlyColorStyle* from, ::GlobalNamespace::IReadOnlyColorStyle* to, float_t t, ::GlobalNamespace::LerpMask mask);
 
   static inline ::GlobalNamespace::ColorStyle* New_ctor();
@@ -152,6 +177,18 @@ public:
 
   constexpr ::GlobalNamespace::GradientDirection& __cordl_internal_get__gradientDirection();
 
+  constexpr ::UnityEngine::Gradient* const& __cordl_internal_get__multiStepGradient() const;
+
+  constexpr ::UnityEngine::Gradient*& __cordl_internal_get__multiStepGradient();
+
+  constexpr ::UnityW<::GlobalNamespace::GradientSO> const& __cordl_internal_get__multiStepGradientSo() const;
+
+  constexpr ::UnityW<::GlobalNamespace::GradientSO>& __cordl_internal_get__multiStepGradientSo();
+
+  constexpr bool const& __cordl_internal_get__useMultiStepGradient() const;
+
+  constexpr bool& __cordl_internal_get__useMultiStepGradient();
+
   constexpr bool const& __cordl_internal_get__useScriptableObjectColor() const;
 
   constexpr bool& __cordl_internal_get__useScriptableObjectColor();
@@ -159,6 +196,10 @@ public:
   constexpr bool const& __cordl_internal_get__useScriptableObjectGradientColors() const;
 
   constexpr bool& __cordl_internal_get__useScriptableObjectGradientColors();
+
+  constexpr bool const& __cordl_internal_get__useScriptableObjectMultiStepGradient() const;
+
+  constexpr bool& __cordl_internal_get__useScriptableObjectMultiStepGradient();
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
@@ -180,35 +221,49 @@ public:
 
   constexpr void __cordl_internal_set__gradientDirection(::GlobalNamespace::GradientDirection value);
 
+  constexpr void __cordl_internal_set__multiStepGradient(::UnityEngine::Gradient* value);
+
+  constexpr void __cordl_internal_set__multiStepGradientSo(::UnityW<::GlobalNamespace::GradientSO> value);
+
+  constexpr void __cordl_internal_set__useMultiStepGradient(bool value);
+
   constexpr void __cordl_internal_set__useScriptableObjectColor(bool value);
 
   constexpr void __cordl_internal_set__useScriptableObjectGradientColors(bool value);
 
-  /// @brief Method .ctor, addr 0x36f44ac, size 0x14, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__useScriptableObjectMultiStepGradient(bool value);
+
+  /// @brief Method .ctor, addr 0x36f83a8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x36f3d44, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_color, addr 0x36f7b04, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_color0, addr 0x36f3df8, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_color0, addr 0x36f7bb8, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color0();
 
-  /// @brief Method get_color1, addr 0x36f3e8c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_color1, addr 0x36f7c4c, size 0x88, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color1();
 
-  /// @brief Method get_flipGradientColors, addr 0x36f3f30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_flipGradientColors, addr 0x36f7cf0, size 0x8, virtual true, abstract: false, final true
   inline bool get_flipGradientColors();
 
-  /// @brief Method get_globalLightTintIntensity, addr 0x36f3dd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_globalLightTintIntensity, addr 0x36f7b98, size 0x8, virtual true, abstract: false, final true
   inline float_t get_globalLightTintIntensity();
 
-  /// @brief Method get_gradient, addr 0x36f3de8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gradient, addr 0x36f7ba8, size 0x8, virtual true, abstract: false, final true
   inline bool get_gradient();
 
-  /// @brief Method get_gradientDirection, addr 0x36f3f20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gradientDirection, addr 0x36f7ce0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GradientDirection get_gradientDirection();
 
-  /// @brief Method get_useScriptableObjectColor, addr 0x36f3d34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiStepGradient, addr 0x36f7d08, size 0x88, virtual true, abstract: false, final true
+  inline ::UnityEngine::Gradient* get_multiStepGradient();
+
+  /// @brief Method get_useMultiStepGradient, addr 0x36f7cf8, size 0x8, virtual true, abstract: false, final true
+  inline bool get_useMultiStepGradient();
+
+  /// @brief Method get_useScriptableObjectColor, addr 0x36f7af4, size 0x8, virtual true, abstract: false, final true
   inline bool get_useScriptableObjectColor();
 
   /// @brief Convert to "::GlobalNamespace::IReadOnlyColorStyle"
@@ -217,25 +272,31 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_color, addr 0x36f3dcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x36f7b8c, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_color0, addr 0x36f3e80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color0, addr 0x36f7c40, size 0xc, virtual false, abstract: false, final false
   inline void set_color0(::UnityEngine::Color value);
 
-  /// @brief Method set_color1, addr 0x36f3f14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color1, addr 0x36f7cd4, size 0xc, virtual false, abstract: false, final false
   inline void set_color1(::UnityEngine::Color value);
 
-  /// @brief Method set_globalLightTintIntensity, addr 0x36f3de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_globalLightTintIntensity, addr 0x36f7ba0, size 0x8, virtual false, abstract: false, final false
   inline void set_globalLightTintIntensity(float_t value);
 
-  /// @brief Method set_gradient, addr 0x36f3df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gradient, addr 0x36f7bb0, size 0x8, virtual false, abstract: false, final false
   inline void set_gradient(bool value);
 
-  /// @brief Method set_gradientDirection, addr 0x36f3f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gradientDirection, addr 0x36f7ce8, size 0x8, virtual false, abstract: false, final false
   inline void set_gradientDirection(::GlobalNamespace::GradientDirection value);
 
-  /// @brief Method set_useScriptableObjectColor, addr 0x36f3d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multiStepGradient, addr 0x36f7e0c, size 0x8, virtual false, abstract: false, final false
+  inline void set_multiStepGradient(::UnityEngine::Gradient* value);
+
+  /// @brief Method set_useMultiStepGradient, addr 0x36f7d00, size 0x8, virtual false, abstract: false, final false
+  inline void set_useMultiStepGradient(bool value);
+
+  /// @brief Method set_useScriptableObjectColor, addr 0x36f7afc, size 0x8, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColor(bool value);
 
 protected:
@@ -253,7 +314,7 @@ public:
   ColorStyle(ColorStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23153 };
 
   /// @brief Field _useScriptableObjectColor, offset: 0x10, size: 0x1, def value: None
   bool ____useScriptableObjectColor;
@@ -291,6 +352,18 @@ public:
   /// @brief Field _flipGradientColors, offset: 0x6c, size: 0x1, def value: None
   bool ____flipGradientColors;
 
+  /// @brief Field _useMultiStepGradient, offset: 0x6d, size: 0x1, def value: None
+  bool ____useMultiStepGradient;
+
+  /// @brief Field _multiStepGradient, offset: 0x70, size: 0x8, def value: None
+  ::UnityEngine::Gradient* ____multiStepGradient;
+
+  /// @brief Field _useScriptableObjectMultiStepGradient, offset: 0x78, size: 0x1, def value: None
+  bool ____useScriptableObjectMultiStepGradient;
+
+  /// @brief Field _multiStepGradientSo, offset: 0x80, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::GradientSO> ____multiStepGradientSo;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -318,6 +391,14 @@ static_assert(offsetof(::GlobalNamespace::ColorStyle, ____gradientDirection) == 
 
 static_assert(offsetof(::GlobalNamespace::ColorStyle, ____flipGradientColors) == 0x6c, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::ColorStyle) == 0x70, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColorStyle, ____useMultiStepGradient) == 0x6d, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorStyle, ____multiStepGradient) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorStyle, ____useScriptableObjectMultiStepGradient) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorStyle, ____multiStepGradientSo) == 0x80, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::ColorStyle) == 0x88, "Size mismatch!");
 
 } // namespace GlobalNamespace

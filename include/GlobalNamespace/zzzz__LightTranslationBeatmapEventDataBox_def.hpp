@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightTranslationBeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightTranslationBeatmapEventDataBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -177,27 +177,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x37160d4, size 0x838, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x371bf58, size 0x838, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::LightTranslationBeatmapEventDataBox__Unpack_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x3716abc, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x371c940, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x3716a74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x371c8f8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3716b94, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x371ca18, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3716a7c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x371c900, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3716ab4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x371c938, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3716028, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x371beac, size 0xac, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -350,13 +350,13 @@ public:
 
   constexpr void __cordl_internal_set_maxBeat(float_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x37169c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x371c844, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x371690c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x371c790, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x3716008, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x371be8c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>"
@@ -389,7 +389,7 @@ public:
   LightTranslationBeatmapEventDataBox__Unpack_d__9(LightTranslationBeatmapEventDataBox__Unpack_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14936 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -555,7 +555,7 @@ public:
            bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType,
            ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
-  /// @brief Method Unpack, addr 0x3715f3c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Unpack, addr 0x371bdc0, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex,
                                                                                                      int32_t distributionOrderIndex, float_t maxBeat,
                                                                                                      ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
@@ -585,16 +585,16 @@ public:
 
   constexpr void __cordl_internal_set__translationDirection(float_t value);
 
-  /// @brief Method .ctor, addr 0x3715ce8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x371bb6c, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,
                     ::GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType gapDistributionParamType,
                     bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType,
                     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
-  /// @brief Method get_beatStep, addr 0x3715ce0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x371bb64, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x3715cd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x371bb5c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:
@@ -612,7 +612,7 @@ public:
   LightTranslationBeatmapEventDataBox(LightTranslationBeatmapEventDataBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14937 };
 
   /// @brief Field _lightTranslationBaseDataList, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* ____lightTranslationBaseDataList;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBufferBuilder.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBufferBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddComponent, addr 0x6819400, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddComponent, addr 0x6820e7c, size 0x12c, virtual false, abstract: false, final false
   inline void AddComponent(int32_t propertyID, bool isOverriden, int32_t byteSize, bool isPerInstance, ::UnityEngine::Rendering::InstanceType instanceType,
                            ::UnityEngine::Rendering::InstanceComponentGroup componentGroup);
 
@@ -52,13 +52,13 @@ public:
   inline void AddComponent(int32_t propertyID, bool isOverriden, bool isPerInstance, ::UnityEngine::Rendering::InstanceType instanceType,
                            ::UnityEngine::Rendering::InstanceComponentGroup componentGroup);
 
-  /// @brief Method Build, addr 0x681952c, size 0x88c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x6820fa8, size 0x88c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::GPUInstanceDataBuffer* Build(::by_ref<::UnityEngine::Rendering::InstanceNumInfo> instanceNumInfo);
 
-  /// @brief Method CreateMetadataValue, addr 0x68193e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CreateMetadataValue, addr 0x6820e60, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::MetadataValue CreateMetadataValue(int32_t nameID, int32_t gpuAddress, bool isOverridden);
 
-  /// @brief Method Dispose, addr 0x6819db8, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6821834, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Convert to "::System::IDisposable"
@@ -72,7 +72,7 @@ public:
   constexpr GPUInstanceDataBufferBuilder(::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceComponentDesc> m_Components) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17681 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

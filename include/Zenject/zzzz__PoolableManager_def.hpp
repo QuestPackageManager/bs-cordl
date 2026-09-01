@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/PoolableManager.hpp"
+// IWYU pragma private; include "Zenject\PoolableManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ namespace Zenject {
 struct CORDL_TYPE PoolableManager_PoolableInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6e8e094, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e95c18, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IPoolable* poolable, int32_t priority);
 
   // Ctor Parameters []
@@ -89,7 +89,7 @@ public:
   constexpr PoolableManager_PoolableInfo(::Zenject::IPoolable* Poolable, int32_t Priority) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14681 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -131,22 +131,22 @@ public:
 
   static inline ::Zenject::PoolableManager___c* New_ctor();
 
-  /// @brief Method <CreatePoolableInfo>b__3_1, addr 0x6e8e758, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <CreatePoolableInfo>b__3_1, addr 0x6e962dc, size 0x54, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> _CreatePoolableInfo_b__3_1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <.ctor>b__2_1, addr 0x6e8e748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_1, addr 0x6e962cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t __ctor_b__2_1(::Zenject::PoolableManager_PoolableInfo x);
 
-  /// @brief Method <.ctor>b__2_2, addr 0x6e8e750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_2, addr 0x6e962d4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::IPoolable* __ctor_b__2_2(::Zenject::PoolableManager_PoolableInfo x);
 
-  /// @brief Method __zenCreate, addr 0x6e8e7ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e96330, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8e7f0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e96374, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e8e744, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e962c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::PoolableManager___c* getStaticF___9();
@@ -180,7 +180,7 @@ public:
   PoolableManager___c(PoolableManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -216,16 +216,16 @@ public:
 
   constexpr void __cordl_internal_set_priorities(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x6e8e984, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x6e96508, size 0x18, virtual false, abstract: false, final false
   inline ::Zenject::PoolableManager_PoolableInfo __ctor_b__0(::Zenject::IPoolable* x);
 
-  /// @brief Method __zenCreate, addr 0x6e8e99c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e96520, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8e9e0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e96564, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e8de78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e959fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -243,7 +243,7 @@ public:
   PoolableManager___c__DisplayClass2_0(PoolableManager___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14683 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::PoolableManager* _____4__this;
@@ -273,7 +273,7 @@ public:
 
   static inline ::Zenject::PoolableManager___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <CreatePoolableInfo>b__0, addr 0x6e8eb74, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <CreatePoolableInfo>b__0, addr 0x6e966f8, size 0x90, virtual false, abstract: false, final false
   inline bool _CreatePoolableInfo_b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
   constexpr ::Zenject::IPoolable* const& __cordl_internal_get_poolable() const;
@@ -282,13 +282,13 @@ public:
 
   constexpr void __cordl_internal_set_poolable(::Zenject::IPoolable* value);
 
-  /// @brief Method __zenCreate, addr 0x6e8ec04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e96788, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8ec48, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e967cc, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e8e090, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e95c14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -306,7 +306,7 @@ public:
   PoolableManager___c__DisplayClass3_0(PoolableManager___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14684 };
 
   /// @brief Field poolable, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IPoolable* ___poolable;
@@ -340,17 +340,17 @@ public:
   /// @brief Field _poolables, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__poolables, put = __cordl_internal_set__poolables)) ::System::Collections::Generic::List_1<::Zenject::IPoolable*>* _poolables;
 
-  /// @brief Method CreatePoolableInfo, addr 0x6e8de7c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method CreatePoolableInfo, addr 0x6e95a00, size 0x214, virtual false, abstract: false, final false
   inline ::Zenject::PoolableManager_PoolableInfo CreatePoolableInfo(::Zenject::IPoolable* poolable,
                                                                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
   static inline ::Zenject::PoolableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IPoolable*>* poolables,
                                                      ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
-  /// @brief Method TriggerOnDespawned, addr 0x6e8e1cc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method TriggerOnDespawned, addr 0x6e95d50, size 0x120, virtual false, abstract: false, final false
   inline void TriggerOnDespawned();
 
-  /// @brief Method TriggerOnSpawned, addr 0x6e8e0a0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method TriggerOnSpawned, addr 0x6e95c24, size 0x12c, virtual false, abstract: false, final false
   inline void TriggerOnSpawned();
 
   constexpr bool const& __cordl_internal_get__isSpawned() const;
@@ -365,13 +365,13 @@ public:
 
   constexpr void __cordl_internal_set__poolables(::System::Collections::Generic::List_1<::Zenject::IPoolable*>* value);
 
-  /// @brief Method __zenCreate, addr 0x6e8e2ec, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e95e70, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8e410, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e95f94, size 0x2e0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e8dbd0, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e95754, size 0x2a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IPoolable*>* poolables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
@@ -390,7 +390,7 @@ public:
   PoolableManager(PoolableManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14685 };
 
   /// @brief Field _poolables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::IPoolable*>* ____poolables;

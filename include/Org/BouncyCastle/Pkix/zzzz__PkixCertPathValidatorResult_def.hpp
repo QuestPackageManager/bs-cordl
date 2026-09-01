@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixCertPathValidatorResult.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixCertPathValidatorResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ public:
   /// @brief Field trustAnchor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_trustAnchor, put = __cordl_internal_set_trustAnchor)) ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor;
 
-  /// @brief Method Clone, addr 0x35c3e0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x35c7bcc, size 0x74, virtual false, abstract: false, final false
   inline ::System::Object* Clone();
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* New_ctor(::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                                                                                  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method ToString, addr 0x35c3e80, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x35c7c40, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode* const& __cordl_internal_get_policyTree() const;
@@ -74,16 +74,16 @@ public:
 
   constexpr void __cordl_internal_set_trustAnchor(::Org::BouncyCastle::Pkix::TrustAnchor* value);
 
-  /// @brief Method .ctor, addr 0x35c3d88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c7b48, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method get_PolicyTree, addr 0x35c3d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PolicyTree, addr 0x35c7b30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* get_PolicyTree();
 
-  /// @brief Method get_SubjectPublicKey, addr 0x35c3d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKey, addr 0x35c7b40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_SubjectPublicKey();
 
-  /// @brief Method get_TrustAnchor, addr 0x35c3d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAnchor, addr 0x35c7b38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::TrustAnchor* get_TrustAnchor();
 
 protected:

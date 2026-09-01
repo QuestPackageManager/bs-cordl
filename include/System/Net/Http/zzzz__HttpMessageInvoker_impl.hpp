@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/HttpMessageInvoker.hpp"
+// IWYU pragma private; include "System\Net\Http\HttpMessageInvoker.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpMessageInvoker_def.hpp"
 #include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpMessageInvoker::*)(::System::Net::Http::HttpMessageHandler*, bool)>(
     &::System::Net::Http::HttpMessageInvoker::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60d3bc0;
+  constexpr static std::size_t addrs = 0x60db63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpMessageInvoker*>(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpMessageInvoker::*)()>(&::System::Net::Http::HttpMessageInvoker::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60d7280;
+  constexpr static std::size_t addrs = 0x60decfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpMessageInvoker*>(), { "Dispose", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpMessageInvoker::*)(bool)>(&::System::Net::Http::HttpMessageInvoker::Dispose)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60d3df0;
+  constexpr static std::size_t addrs = 0x60db86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::HttpMessageInvoker::*)(::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken)>(&::System::Net::Http::HttpMessageInvoker::SendAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x60d485c;
+  constexpr static std::size_t addrs = 0x60dc2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/TraceFilter.hpp"
+// IWYU pragma private; include "System\Diagnostics\TraceFilter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceFilter_def.hpp"
 #include "System/Diagnostics/zzzz__TraceEventCache_def.hpp"
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::TraceFilter::*)(::System::Diagnostics::TraceEventCache*, ::StringW, ::System::Diagnostics::TraceEventType, int32_t,
                                                                                                     ::StringW)>(&::System::Diagnostics::TraceFilter::ShouldTrace)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6390dcc;
+  constexpr static std::size_t addrs = 0x6398848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

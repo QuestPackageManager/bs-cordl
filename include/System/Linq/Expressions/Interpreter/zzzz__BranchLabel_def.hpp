@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/BranchLabel.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\BranchLabel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,18 +50,18 @@ public:
   /// @brief Field _targetIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__targetIndex, put = __cordl_internal_set__targetIndex)) int32_t _targetIndex;
 
-  /// @brief Method AddBranch, addr 0x5f862a4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddBranch, addr 0x5f8dd20, size 0x134, virtual false, abstract: false, final false
   inline void AddBranch(::System::Linq::Expressions::Interpreter::InstructionList* instructions, int32_t branchIndex);
 
-  /// @brief Method FixupBranch, addr 0x5f8627c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FixupBranch, addr 0x5f8dcf8, size 0x28, virtual false, abstract: false, final false
   inline void FixupBranch(::System::Linq::Expressions::Interpreter::InstructionList* instructions, int32_t branchIndex);
 
-  /// @brief Method Mark, addr 0x5f86144, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Mark, addr 0x5f8dbc0, size 0x138, virtual false, abstract: false, final false
   inline void Mark(::System::Linq::Expressions::Interpreter::InstructionList* instructions);
 
   static inline ::System::Linq::Expressions::Interpreter::BranchLabel* New_ctor();
 
-  /// @brief Method ToRuntimeLabel, addr 0x5f86134, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToRuntimeLabel, addr 0x5f8dbb0, size 0x10, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::RuntimeLabel ToRuntimeLabel();
 
   constexpr int32_t const& __cordl_internal_get__LabelIndex_k__BackingField() const;
@@ -94,19 +94,19 @@ public:
 
   constexpr void __cordl_internal_set__targetIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5f863d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8de54, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasRuntimeLabel, addr 0x5f86118, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_HasRuntimeLabel, addr 0x5f8db94, size 0x14, virtual false, abstract: false, final false
   inline bool get_HasRuntimeLabel();
 
-  /// @brief Method get_LabelIndex, addr 0x5f86108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LabelIndex, addr 0x5f8db84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LabelIndex();
 
-  /// @brief Method get_TargetIndex, addr 0x5f8612c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetIndex, addr 0x5f8dba8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TargetIndex();
 
-  /// @brief Method set_LabelIndex, addr 0x5f86110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LabelIndex, addr 0x5f8db8c, size 0x8, virtual false, abstract: false, final false
   inline void set_LabelIndex(int32_t value);
 
 protected:
@@ -124,7 +124,7 @@ public:
   BranchLabel(BranchLabel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16270 };
 
   /// @brief Field _targetIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____targetIndex;

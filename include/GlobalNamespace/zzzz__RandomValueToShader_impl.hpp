@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RandomValueToShader.hpp"
+// IWYU pragma private; include "GlobalNamespace\RandomValueToShader.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomValueToShader_def.hpp"
 #include "GlobalNamespace/zzzz__IRandom_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::RandomValueToShader::SetRandom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5869768;
+  constexpr static std::size_t addrs = 0x586870c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)()>(&::GlobalNamespace::RandomValueToShader::SetRandomValueToShaders)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5869640;
+  constexpr static std::size_t addrs = 0x58685e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomValueToShader*>(), { "SetRandomValueToShaders", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)()>(&::GlobalNamespace::RandomValueToShader::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5869770;
+  constexpr static std::size_t addrs = 0x5868714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomValueToShader*>(), { ".ctor", {}, {} })));

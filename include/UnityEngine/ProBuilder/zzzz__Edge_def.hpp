@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Edge.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Edge.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,43 +42,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>*();
 
-  /// @brief Method Add, addr 0x66b2ecc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x66ba948, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge Add(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method Contains, addr 0x66b30e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x66bab60, size 0x24, virtual false, abstract: false, final false
   inline bool Contains(int32_t index);
 
-  /// @brief Method Contains, addr 0x66b3134, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x66babb0, size 0xa8, virtual false, abstract: false, final false
   inline bool Contains(int32_t index, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method Contains, addr 0x66b3108, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x66bab84, size 0x2c, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::ProBuilder::Edge other);
 
-  /// @brief Method Equals, addr 0x66b2c78, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x66ba6f4, size 0xd8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x66b2c34, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x66ba6b0, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::Edge other);
 
-  /// @brief Method Equals, addr 0x66b2fb4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x66baa30, size 0x130, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ProBuilder::Edge other, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method GetHashCode, addr 0x66b2d50, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x66ba7cc, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIndices, addr 0x66b31dc, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method GetIndices, addr 0x66bac58, size 0x3b0, virtual false, abstract: false, final false
   static inline void GetIndices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Collections::Generic::List_1<int32_t>* indices);
 
-  /// @brief Method IsValid, addr 0x66b2af8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x66ba574, size 0x24, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method Subtract, addr 0x66b2f40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x66ba9bc, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge Subtract(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method ToString, addr 0x66b2b1c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x66ba598, size 0x118, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x66b2af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ba56c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t a, int32_t b);
 
   static inline ::UnityEngine::ProBuilder::Edge getStaticF_Empty();
@@ -86,22 +86,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Edge>* i___System__IEquatable_1___UnityEngine__ProBuilder__Edge_();
 
-  /// @brief Method op_Addition, addr 0x66b2d74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x66ba7f0, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Addition(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Addition, addr 0x66b2da4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x66ba820, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Addition(::UnityEngine::ProBuilder::Edge a, int32_t b);
 
-  /// @brief Method op_Equality, addr 0x66b2dcc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x66ba848, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Inequality, addr 0x66b2e58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x66ba8d4, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Subtraction, addr 0x66b2d8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x66ba808, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Subtraction(::UnityEngine::ProBuilder::Edge a, ::UnityEngine::ProBuilder::Edge b);
 
-  /// @brief Method op_Subtraction, addr 0x66b2db8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x66ba834, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge op_Subtraction(::UnityEngine::ProBuilder::Edge a, int32_t b);
 
   static inline void setStaticF_Empty(::UnityEngine::ProBuilder::Edge value);
@@ -114,7 +114,7 @@ public:
   constexpr Edge(int32_t a, int32_t b) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16728 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

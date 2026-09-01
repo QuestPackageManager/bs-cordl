@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoTransitionButtonSelectableStateController.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoTransitionButtonSelectableStateController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,21 +25,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsButton>> {
 public:
   // Declarations
-  /// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x643e320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x6445d9c, size 0x8, virtual false, abstract: false, final false
   inline void HandleNoTransitionButtonSelectionStateDidChange(::HMUI::NoTransitionsButton_SelectionState state);
 
   static inline ::GlobalNamespace::NoTransitionButtonSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x643e290, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6445d0c, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x643e198, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6445c14, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x643e240, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResolveSelectionState, addr 0x6445cbc, size 0x50, virtual false, abstract: false, final false
   inline void ResolveSelectionState(::HMUI::NoTransitionsButton_SelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x643e328, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6445da4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   NoTransitionButtonSelectableStateController(NoTransitionButtonSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

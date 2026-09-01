@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/NativeQueueDisposeJob.hpp"
+// IWYU pragma private; include "Unity\Collections\NativeQueueDisposeJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x64bb7bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x64c3238, size 0x4, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -40,7 +40,7 @@ public:
   constexpr NativeQueueDisposeJob(::Unity::Collections::NativeQueueDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15682 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

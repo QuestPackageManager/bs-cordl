@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapLevelSelectionMask.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapLevelSelectionMask.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_impl.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::GlobalNamespace::BeatmapDifficultyMask, ::GlobalNamespace::GameplayModifierMask,
                                                                                                               ::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::BeatmapLevelSelectionMask::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32a2b7c;
+  constexpr static std::size_t addrs = 0x32a6978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::System::Object*)>(&::GlobalNamespace::BeatmapLevelSelectionMask::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x32a2b94;
+  constexpr static std::size_t addrs = 0x32a6990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::Equals)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x32a2c28;
+  constexpr static std::size_t addrs = 0x32a6a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapLevelSelectionMask::*)()>(&::GlobalNamespace::BeatmapLevelSelectionMask::GetHashCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x32a2d54;
+  constexpr static std::size_t addrs = 0x32a6b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::LiteNetLib::Utils::NetDataWriter*, uint32_t)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::Serialize)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32a2d90;
+  constexpr static std::size_t addrs = 0x32a6b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (*)(::LiteNetLib::Utils::NetDataReader*, uint32_t)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::Deserialize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x32a2ddc;
+  constexpr static std::size_t addrs = 0x32a6bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::op_Equality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32a2e60;
+  constexpr static std::size_t addrs = 0x32a6c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::op_Inequality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32a2ed4;
+  constexpr static std::size_t addrs = 0x32a6cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

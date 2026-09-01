@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_decimal.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_decimal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,18 +75,18 @@ public:
   /// @brief Field numeric10FacetsChecker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_numeric10FacetsChecker, put = setStaticF_numeric10FacetsChecker)) ::System::Xml::Schema::FacetsChecker* numeric10FacetsChecker;
 
-  /// @brief Method Compare, addr 0x61bdaa8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x61c5524, size 0xe8, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method CreateValueConverter, addr 0x61bd970, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x61c53ec, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_decimal* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x61bdb90, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x61c560c, size 0x180, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::by_ref<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x61b8128, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bfba4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
@@ -95,22 +95,22 @@ public:
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x61bda98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x61c5514, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0x61bd97c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x61c53f8, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_ListValueType, addr 0x61bda3c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x61c54b8, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TypeCode, addr 0x61bd9d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x61c5454, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValidRestrictionFlags, addr 0x61bdaa0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x61c551c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
 
-  /// @brief Method get_ValueType, addr 0x61bd9e0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x61c545c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);
@@ -134,7 +134,7 @@ public:
   Datatype_decimal(Datatype_decimal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9623 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/DecimalConstantAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\DecimalConstantAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__dec(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x5b6beac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b70368, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
 
-  /// @brief Method get_Value, addr 0x5b6bf20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5b703dc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Value();
 
 protected:

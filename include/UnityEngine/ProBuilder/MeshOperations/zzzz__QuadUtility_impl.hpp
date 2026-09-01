@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/QuadUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\QuadUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__QuadUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::QuadUtility::ToQuads)> {
   constexpr static std::size_t size = 0x800;
-  constexpr static std::size_t addrs = 0x672d260;
+  constexpr static std::size_t addrs = 0x6734cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::Face* (*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float_t>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::QuadUtility::GetBestQuadConnection)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6731618;
+  constexpr static std::size_t addrs = 0x6739094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*,
                                                                    float_t)>(&::UnityEngine::ProBuilder::MeshOperations::QuadUtility::GetQuadScore)> {
   constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x6730f84;
+  constexpr static std::size_t addrs = 0x6738a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

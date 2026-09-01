@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Utilities/AlgorithmIdentifierFactory.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Utilities\AlgorithmIdentifierFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ public:
   /// @brief Field rc2Table, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_rc2Table, put = setStaticF_rc2Table)) ::ArrayW<int16_t> rc2Table;
 
-  /// @brief Method GenerateEncryptionAlgID, addr 0x3495a30, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method GenerateEncryptionAlgID, addr 0x34997f0, size 0x530, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
                                                                                               ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3496088, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3499e48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_CAST5_CBC();

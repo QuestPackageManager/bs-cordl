@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/HierarchyIcons/HierarchyIconAttribute.hpp"
+// IWYU pragma private; include "OculusStudios\HierarchyIcons\HierarchyIconAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,11 +84,11 @@ public:
 
   constexpr void __cordl_internal_set_parentTooltip(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f297f4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2dcb4, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameObjectTooltip, ::OculusStudios::HierarchyIcons::Icon gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip,
                     ::OculusStudios::HierarchyIcons::Icon parentIconPath, ::StringW parentIconHex);
 
-  /// @brief Method .ctor, addr 0x5f29720, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2dbe0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameObjectTooltip, ::StringW gameObjectIconPath, ::StringW gameObjectIconHex, ::StringW parentTooltip, ::StringW parentIconPath, ::StringW parentIconHex);
 
 protected:
@@ -106,7 +106,7 @@ public:
   HierarchyIconAttribute(HierarchyIconAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23592 };
 
   /// @brief Field gameObjectTooltip, offset: 0x10, size: 0x8, def value: None
   ::StringW ___gameObjectTooltip;

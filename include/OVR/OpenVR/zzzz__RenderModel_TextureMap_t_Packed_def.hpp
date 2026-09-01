@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/RenderModel_TextureMap_t_Packed.hpp"
+// IWYU pragma private; include "OVR\OpenVR\RenderModel_TextureMap_t_Packed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_TextureMap_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x5e43c98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x5e48154, size 0x14, virtual false, abstract: false, final false
   inline void Unpack(::by_ref<::OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x5e43c84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e48140, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t unpacked);
 
   // Ctor Parameters []
@@ -40,7 +40,7 @@ public:
   constexpr RenderModel_TextureMap_t_Packed(uint16_t unWidth, uint16_t unHeight, ::System::IntPtr rubTextureMapData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8532 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

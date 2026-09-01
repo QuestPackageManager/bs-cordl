@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MaterialUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MaterialUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +32,10 @@ public:
   /// @brief Field s_MaterialArray, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_MaterialArray, put = setStaticF_s_MaterialArray)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* s_MaterialArray;
 
-  /// @brief Method GetMaterialCount, addr 0x66bc91c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialCount, addr 0x66c4398, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t GetMaterialCount(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method GetSharedMaterial, addr 0x66bca00, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetSharedMaterial, addr 0x66c447c, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetSharedMaterial(::UnityEngine::Renderer* renderer, int32_t index);
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* getStaticF_s_MaterialArray();
@@ -57,7 +57,7 @@ public:
   MaterialUtility(MaterialUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

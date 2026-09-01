@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/MonitoringDescriptionAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\MonitoringDescriptionAttribute.hpp"
 #include "System/ComponentModel/zzzz__DescriptionAttribute_impl.hpp"
 #include "System/Diagnostics/zzzz__MonitoringDescriptionAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::MonitoringDescriptionAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::MonitoringDescriptionAttribute::*)(::StringW)>(&::System::Diagnostics::MonitoringDescriptionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6398828;
+  constexpr static std::size_t addrs = 0x63a02a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Diagnostics::MonitoringDescriptionAttribute::*)()>(
     &::System::Diagnostics::MonitoringDescriptionAttribute::get_Description)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x639888c;
+  constexpr static std::size_t addrs = 0x63a0308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Diagnostics::MonitoringDescriptionAttribute*>(),

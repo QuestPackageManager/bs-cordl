@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Generic/ICollection_1.hpp"
+// IWYU pragma private; include "System\Collections\Generic\ICollection_1.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"

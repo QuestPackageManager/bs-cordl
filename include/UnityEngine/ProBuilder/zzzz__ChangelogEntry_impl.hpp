@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/ChangelogEntry.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\ChangelogEntry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ChangelogEntry_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SemVer_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::SemVer* (::UnityEngine::ProBuilder::ChangelogEntry::*)()>(
     &::UnityEngine::ProBuilder::ChangelogEntry::get_versionInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b05c0;
+  constexpr static std::size_t addrs = 0x66b803c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ChangelogEntry*>(), { "get_versionInfo", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::ChangelogEntry::*)()>(&::UnityEngine::ProBuilder::ChangelogEntry::get_releaseNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b05c8;
+  constexpr static std::size_t addrs = 0x66b8044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ChangelogEntry*>(), { "get_releaseNotes", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ChangelogEntry::*)(::UnityEngine::ProBuilder::SemVer*, ::StringW)>(
     &::UnityEngine::ProBuilder::ChangelogEntry::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b05d0;
+  constexpr static std::size_t addrs = 0x66b804c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ChangelogEntry*>(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::ChangelogEntry::*)()>(&::UnityEngine::ProBuilder::ChangelogEntry::ToString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x66b05d8;
+  constexpr static std::size_t addrs = 0x66b8054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

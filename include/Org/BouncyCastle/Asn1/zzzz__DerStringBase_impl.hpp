@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerStringBase.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerStringBase.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1String_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerStringBase::*)()>(&::Org::BouncyCastle::Asn1::DerStringBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x334937c;
+  constexpr static std::size_t addrs = 0x334d13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerStringBase*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerStringBase::*)()>(&::Org::BouncyCastle::Asn1::DerStringBase::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3349380;
+  constexpr static std::size_t addrs = 0x334d140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerStringBase::*)()>(&::Org::BouncyCastle::Asn1::DerStringBase::Asn1GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x334938c;
+  constexpr static std::size_t addrs = 0x334d14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

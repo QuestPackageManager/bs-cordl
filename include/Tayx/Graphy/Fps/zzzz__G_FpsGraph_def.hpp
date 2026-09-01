@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Fps/G_FpsGraph.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Fps\G_FpsGraph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,21 +66,21 @@ public:
   /// @brief Field m_shaderGraph, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_shaderGraph, put = __cordl_internal_set_m_shaderGraph)) ::Tayx::Graphy::G_GraphShader* m_shaderGraph;
 
-  /// @brief Method CreatePoints, addr 0x64385d0, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x644004c, size 0x154, virtual true, abstract: false, final false
   inline void CreatePoints();
 
-  /// @brief Method Init, addr 0x643823c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x643fcb8, size 0x120, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsGraph* New_ctor();
 
-  /// @brief Method Update, addr 0x6438134, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x643fbb0, size 0xc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGraph, addr 0x643835c, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x643fdd8, size 0x274, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method UpdateParameters, addr 0x6438140, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x643fbbc, size 0xfc, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shaderGraph(::Tayx::Graphy::G_GraphShader* value);
 
-  /// @brief Method .ctor, addr 0x6438724, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64401a0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,7 +161,7 @@ public:
   G_FpsGraph(G_FpsGraph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21498 };
 
   /// @brief Field m_imageGraph, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_imageGraph;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/VmpcRandomGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\VmpcRandomGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__VmpcRandomGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::*)()>(&::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x341ce50;
+  constexpr static std::size_t addrs = 0x3420c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::AddSeedMaterial)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x341ced8;
+  constexpr static std::size_t addrs = 0x3420c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::AddSeedMaterial)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x341cf9c;
+  constexpr static std::size_t addrs = 0x3420d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::NextBytes)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x341cfc8;
+  constexpr static std::size_t addrs = 0x3420d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::NextBytes)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x341cfe8;
+  constexpr static std::size_t addrs = 0x3420da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator*>(),

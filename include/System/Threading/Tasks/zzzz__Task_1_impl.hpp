@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/Task_1.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\Task_1.hpp"
 #include "System/Threading/Tasks/zzzz__Task_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
@@ -233,6 +233,18 @@ inline ::System::Threading::Tasks::Task* System::Threading::Tasks::Task_1<TResul
                        ::i2c::class_of<::System::Threading::Tasks::Task_1<TResult>*>(),
                        { "ContinueWith", {}, { ::i2c::type_of<::System::Action_1<::System::Threading::Tasks::Task_1<TResult>*>*>(), ::i2c::type_of<::System::Threading::Tasks::TaskScheduler*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, continuationAction, scheduler);
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::Task*
+System::Threading::Tasks::Task_1<TResult>::ContinueWith(::System::Action_1<::System::Threading::Tasks::Task_1<TResult>*>* continuationAction, ::System::Threading::CancellationToken cancellationToken,
+                                                        ::System::Threading::Tasks::TaskContinuationOptions continuationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::Task_1<TResult>*>(),
+                                              { "ContinueWith",
+                                                {},
+                                                { ::i2c::type_of<::System::Action_1<::System::Threading::Tasks::Task_1<TResult>*>*>(), ::i2c::type_of<::System::Threading::CancellationToken>(),
+                                                  ::i2c::type_of<::System::Threading::Tasks::TaskContinuationOptions>(), ::i2c::type_of<::System::Threading::Tasks::TaskScheduler*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method, continuationAction, cancellationToken, continuationOptions, scheduler);
 }
 template <typename TResult>
 inline ::System::Threading::Tasks::Task*

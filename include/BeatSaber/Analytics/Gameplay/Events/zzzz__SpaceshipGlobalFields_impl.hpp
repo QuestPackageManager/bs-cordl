@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipGlobalFields.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipGlobalFields.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipGlobalFields_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields.SetGlobalAppID
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t)>(&::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields::SetGlobalAppID)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3261fe0;
+  constexpr static std::size_t addrs = 0x32654f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields::get_buildVersion)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3262030;
+  constexpr static std::size_t addrs = 0x326523c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)()>(&::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields::get_appId)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3262084;
+  constexpr static std::size_t addrs = 0x3265544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields::get_userType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32620d0;
+  constexpr static std::size_t addrs = 0x3265590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

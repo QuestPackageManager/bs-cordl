@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue/GenericPriorityQueueNode_1.hpp"
+// IWYU pragma private; include "Priority_Queue\GenericPriorityQueueNode_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +93,7 @@ public:
   GenericPriorityQueueNode_1(GenericPriorityQueueNode_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20490 };
 
   /// @brief Field <Priority>k__BackingField, offset: 0x10, size: 0x8, def value: None
   TPriority ____Priority_k__BackingField;

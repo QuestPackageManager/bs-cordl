@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/WebRequestQueue.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\WebRequestQueue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,25 +49,25 @@ public:
   __declspec(property(get = getStaticF_s_QueuedOperations,
                       put = setStaticF_s_QueuedOperations)) ::System::Collections::Generic::Queue_1<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>* s_QueuedOperations;
 
-  /// @brief Method BeginWebRequest, addr 0x6909250, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method BeginWebRequest, addr 0x6910ccc, size 0x2b8, virtual false, abstract: false, final false
   static inline void BeginWebRequest(::UnityEngine::ResourceManagement::WebRequestQueueOperation* queueOperation);
 
-  /// @brief Method DequeueRequest, addr 0x6909a94, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DequeueRequest, addr 0x6911510, size 0xbc, virtual false, abstract: false, final false
   static inline void DequeueRequest(::UnityEngine::Networking::UnityWebRequestAsyncOperation* operation);
 
-  /// @brief Method OnWebAsyncOpComplete, addr 0x6909b50, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnWebAsyncOpComplete, addr 0x69115cc, size 0xac, virtual false, abstract: false, final false
   static inline void OnWebAsyncOpComplete(::UnityEngine::AsyncOperation* operation);
 
-  /// @brief Method OnWebAsyncOpComplete, addr 0x6909978, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnWebAsyncOpComplete, addr 0x69113f4, size 0x11c, virtual false, abstract: false, final false
   static inline void OnWebAsyncOpComplete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* operation);
 
-  /// @brief Method QueueRequest, addr 0x6909138, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method QueueRequest, addr 0x6910bb4, size 0x118, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* QueueRequest(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method SetMaxConcurrentRequests, addr 0x6909074, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetMaxConcurrentRequests, addr 0x6910af0, size 0xc4, virtual false, abstract: false, final false
   static inline void SetMaxConcurrentRequests(int32_t maxRequests);
 
-  /// @brief Method WaitForRequestToBeActive, addr 0x6909508, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method WaitForRequestToBeActive, addr 0x6910f84, size 0x3d0, virtual false, abstract: false, final false
   static inline void WaitForRequestToBeActive(::UnityEngine::ResourceManagement::WebRequestQueueOperation* request, int32_t millisecondsTimeout);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* getStaticF_s_ActiveRequests();
@@ -97,7 +97,7 @@ public:
   WebRequestQueue(WebRequestQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18715 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

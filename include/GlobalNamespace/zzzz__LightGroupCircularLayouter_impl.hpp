@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightGroupCircularLayouter.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightGroupCircularLayouter.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupCircularLayouter_def.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightGroupCircularLayouter::*)()>(&::GlobalNamespace::LightGroupCircularLayouter::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5991098;
+  constexpr static std::size_t addrs = 0x599a3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupCircularLayouter*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SelectLevelCategoryViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SelectLevelCategoryViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,7 +121,7 @@ public:
   static ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6943 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -173,7 +173,7 @@ public:
 
   constexpr void __cordl_internal_set_localizedKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5954290, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5958874, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -191,7 +191,7 @@ public:
   SelectLevelCategoryViewController_LevelCategoryInfo(SelectLevelCategoryViewController_LevelCategoryInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6944 };
 
   /// @brief Field levelCategory, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory ___levelCategory;
@@ -234,13 +234,13 @@ public:
 
   static inline ::GlobalNamespace::SelectLevelCategoryViewController___c* New_ctor();
 
-  /// @brief Method <Setup>b__12_1, addr 0x59542ec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__12_1, addr 0x59588d0, size 0x74, virtual false, abstract: false, final false
   inline ::HMUI::IconSegmentedControl_DataItem* _Setup_b__12_1(::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo* x);
 
-  /// @brief Method <Setup>b__12_2, addr 0x5954360, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__12_2, addr 0x5958944, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory _Setup_b__12_2(::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo* x);
 
-  /// @brief Method .ctor, addr 0x59542e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59588cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SelectLevelCategoryViewController___c* getStaticF___9();
@@ -271,7 +271,7 @@ public:
   SelectLevelCategoryViewController___c(SelectLevelCategoryViewController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -293,7 +293,7 @@ public:
 
   static inline ::GlobalNamespace::SelectLevelCategoryViewController___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <Setup>b__0, addr 0x5954374, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__0, addr 0x5958958, size 0x64, virtual false, abstract: false, final false
   inline bool _Setup_b__0(::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo* data);
 
   constexpr ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory> const& __cordl_internal_get_enabledLevelCategories() const;
@@ -302,7 +302,7 @@ public:
 
   constexpr void __cordl_internal_set_enabledLevelCategories(::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory> value);
 
-  /// @brief Method .ctor, addr 0x5953ebc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59584a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -320,7 +320,7 @@ public:
   SelectLevelCategoryViewController___c__DisplayClass12_0(SelectLevelCategoryViewController___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6946 };
 
   /// @brief Field enabledLevelCategories, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory> ___enabledLevelCategories;
@@ -375,18 +375,18 @@ public:
 
   __declspec(property(get = get_selectedLevelCategory)) ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory selectedLevelCategory;
 
-  /// @brief Method DidActivate, addr 0x5953ec0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x59584a4, size 0xb0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5953f70, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5958554, size 0xb0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method LevelFilterCategoryIconSegmentedControlDidSelectCell, addr 0x5954020, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method LevelFilterCategoryIconSegmentedControlDidSelectCell, addr 0x5958604, size 0x26c, virtual false, abstract: false, final false
   inline void LevelFilterCategoryIconSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t index);
 
   static inline ::GlobalNamespace::SelectLevelCategoryViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x594dd94, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x595269c, size 0x354, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory selectedCategory,
                     ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory> enabledLevelCategories);
 
@@ -429,17 +429,17 @@ public:
   constexpr void __cordl_internal_set_didSelectLevelCategoryEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
 
-  /// @brief Method .ctor, addr 0x595428c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5958870, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectLevelCategoryEvent, addr 0x594e554, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelCategoryEvent, addr 0x5952e50, size 0xc0, virtual false, abstract: false, final false
   inline void
   add_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
 
-  /// @brief Method get_selectedLevelCategory, addr 0x594d8c8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedLevelCategory, addr 0x59521d0, size 0x4c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory get_selectedLevelCategory();
 
-  /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x594ed88, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x5953674, size 0xc0, virtual false, abstract: false, final false
   inline void
   remove_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>* value);
 
@@ -458,7 +458,7 @@ public:
   SelectLevelCategoryViewController(SelectLevelCategoryViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6947 };
 
   /// @brief Field _allLevelCategoryInfos, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategoryInfo*> ____allLevelCategoryInfos;

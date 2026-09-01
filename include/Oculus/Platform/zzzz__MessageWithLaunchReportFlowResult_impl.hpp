@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithLaunchReportFlowResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithLaunchReportFlowResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLaunchReportFlowResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LaunchReportFlowResult_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithLaunchReportFlowResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLaunchReportFlowResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd6e94;
+  constexpr static std::size_t addrs = 0x5ddb350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LaunchReportFlowResult* (::Oculus::Platform::MessageWithLaunchReportFlowResult::*)()>(
     &::Oculus::Platform::MessageWithLaunchReportFlowResult::GetLaunchReportFlowResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd6ef0;
+  constexpr static std::size_t addrs = 0x5ddb3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithLaunchReportFlowResult*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LaunchReportFlowResult* (::Oculus::Platform::MessageWithLaunchReportFlowResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLaunchReportFlowResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd6f34;
+  constexpr static std::size_t addrs = 0x5ddb3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithLaunchReportFlowResult*>(),

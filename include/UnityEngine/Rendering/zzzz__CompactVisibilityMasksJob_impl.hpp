@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CompactVisibilityMasksJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CompactVisibilityMasksJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ParallelBitArray_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CompactVisibilityMasksJob_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CompactVisibilityMasksJob::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::CompactVisibilityMasksJob::Execute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6810e70;
+  constexpr static std::size_t addrs = 0x68188ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DifficultyTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace\DifficultyTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,12 +49,12 @@ public:
 
   __declspec(property(put = set_difficultyValue)) int32_t difficultyValue;
 
-  /// @brief Method HighlightDidChange, addr 0x591f0b8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x5922a74, size 0x40, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::DifficultyTableCell* New_ctor();
 
-  /// @brief Method SelectionDidChange, addr 0x591f020, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x59229dc, size 0x98, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -81,16 +81,16 @@ public:
 
   constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x591f0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5922ab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_difficultyText, addr 0x591ef84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyText, addr 0x5922940, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_difficultyText();
 
-  /// @brief Method set_difficultyText, addr 0x591ef64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_difficultyText, addr 0x5922920, size 0x20, virtual false, abstract: false, final false
   inline void set_difficultyText(::StringW value);
 
-  /// @brief Method set_difficultyValue, addr 0x591efa4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_difficultyValue, addr 0x5922960, size 0x38, virtual false, abstract: false, final false
   inline void set_difficultyValue(int32_t value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   DifficultyTableCell(DifficultyTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6817 };
 
   /// @brief Field _difficultyText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____difficultyText;

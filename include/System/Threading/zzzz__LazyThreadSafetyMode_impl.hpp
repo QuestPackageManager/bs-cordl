@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/LazyThreadSafetyMode.hpp"
+// IWYU pragma private; include "System\Threading\LazyThreadSafetyMode.hpp"
 #include "System/Threading/zzzz__LazyThreadSafetyMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Threading::LazyThreadSafetyMode::LazyThreadSafetyMode(int32_t value__) noexcept {

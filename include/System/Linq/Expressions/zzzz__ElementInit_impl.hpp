@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/ElementInit.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\ElementInit.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ElementInit_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::ElementInit::*)()>(&::System::Linq::Expressions::ElementInit::get_AddMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f73354;
+  constexpr static std::size_t addrs = 0x5f7add0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::ElementInit*>(), { "get_AddMethod", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* (
     ::System::Linq::Expressions::ElementInit::*)()>(&::System::Linq::Expressions::ElementInit::get_Arguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f7335c;
+  constexpr static std::size_t addrs = 0x5f7add8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::ElementInit*>(), { "get_Arguments", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ElementInit::*)(int32_t)>(
     &::System::Linq::Expressions::ElementInit::GetArgument)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f73364;
+  constexpr static std::size_t addrs = 0x5f7ade0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::ElementInit::*)()>(&::System::Linq::Expressions::ElementInit::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5f733c8;
+  constexpr static std::size_t addrs = 0x5f7ae44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::ElementInit*>(), { "get_ArgumentCount", {}, {} })));

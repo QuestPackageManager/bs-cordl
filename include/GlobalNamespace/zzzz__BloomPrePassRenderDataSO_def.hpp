@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomPrePassRenderDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomPrePassRenderDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -9,6 +9,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__TextureHandle_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 CORDL_MODULE_EXPORT(BloomPrePassRenderDataSO)
 namespace GlobalNamespace {
@@ -29,7 +30,7 @@ MARK_REF_T(::GlobalNamespace::BloomPrePassRenderDataSO*);
 MARK_REF_T(::GlobalNamespace::BloomPrePassRenderDataSO_Data*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BloomPrePassRenderDataSO*, "", "BloomPrePassRenderDataSO");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BloomPrePassRenderDataSO_Data*, "", "BloomPrePassRenderDataSO/Data");
-// Dependencies System.Object, ToneMapping, UnityEngine.Matrix4x4, UnityEngine.Rendering.RenderGraphModule.TextureHandle, UnityEngine.Vector2
+// Dependencies System.Object, ToneMapping, UnityEngine.Matrix4x4, UnityEngine.Rendering.RenderGraphModule.TextureHandle, UnityEngine.Vector2, UnityEngine.Vector4
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BloomPrePassRenderDataSO/Data
@@ -42,17 +43,17 @@ public:
   /// @brief Field projectionMatrix, offset 0x60, size 0x40
   __declspec(property(get = __cordl_internal_get_projectionMatrix, put = __cordl_internal_set_projectionMatrix)) ::UnityEngine::Matrix4x4 projectionMatrix;
 
-  /// @brief Field stereoCameraEyeOffsets, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_stereoCameraEyeOffsets, put = __cordl_internal_set_stereoCameraEyeOffsets)) ::UnityEngine::Vector2 stereoCameraEyeOffsets;
+  /// @brief Field stereoCameraEyeOffsets, offset 0xa0, size 0x10
+  __declspec(property(get = __cordl_internal_get_stereoCameraEyeOffsets, put = __cordl_internal_set_stereoCameraEyeOffsets)) ::UnityEngine::Vector4 stereoCameraEyeOffsets;
 
-  /// @brief Field tempTextureHandles, offset 0xb0, size 0x8
+  /// @brief Field tempTextureHandles, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_tempTextureHandles, put = __cordl_internal_set_tempTextureHandles)) ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>
       tempTextureHandles;
 
   /// @brief Field textureToScreenRatio, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_textureToScreenRatio, put = __cordl_internal_set_textureToScreenRatio)) ::UnityEngine::Vector2 textureToScreenRatio;
 
-  /// @brief Field toneMapping, offset 0xa8, size 0x4
+  /// @brief Field toneMapping, offset 0xb0, size 0x4
   __declspec(property(get = __cordl_internal_get_toneMapping, put = __cordl_internal_set_toneMapping)) ::GlobalNamespace::ToneMapping toneMapping;
 
   /// @brief Field viewMatrix, offset 0x20, size 0x40
@@ -68,9 +69,9 @@ public:
 
   constexpr ::UnityEngine::Matrix4x4& __cordl_internal_get_projectionMatrix();
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_stereoCameraEyeOffsets() const;
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_stereoCameraEyeOffsets() const;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_stereoCameraEyeOffsets();
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get_stereoCameraEyeOffsets();
 
   constexpr ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> const& __cordl_internal_get_tempTextureHandles() const;
 
@@ -92,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_projectionMatrix(::UnityEngine::Matrix4x4 value);
 
-  constexpr void __cordl_internal_set_stereoCameraEyeOffsets(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_stereoCameraEyeOffsets(::UnityEngine::Vector4 value);
 
   constexpr void __cordl_internal_set_tempTextureHandles(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value);
 
@@ -102,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x5860490, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x585f598, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,7 +121,7 @@ public:
   BloomPrePassRenderDataSO_Data(BloomPrePassRenderDataSO_Data const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19468 };
 
   /// @brief Field bloomPrePassRenderTexture, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ___bloomPrePassRenderTexture;
@@ -134,13 +135,13 @@ public:
   /// @brief Field projectionMatrix, offset: 0x60, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ___projectionMatrix;
 
-  /// @brief Field stereoCameraEyeOffsets, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::Vector2 ___stereoCameraEyeOffsets;
+  /// @brief Field stereoCameraEyeOffsets, offset: 0xa0, size: 0x10, def value: None
+  ::UnityEngine::Vector4 ___stereoCameraEyeOffsets;
 
-  /// @brief Field toneMapping, offset: 0xa8, size: 0x4, def value: None
+  /// @brief Field toneMapping, offset: 0xb0, size: 0x4, def value: None
   ::GlobalNamespace::ToneMapping ___toneMapping;
 
-  /// @brief Field tempTextureHandles, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field tempTextureHandles, offset: 0xb8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> ___tempTextureHandles;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -156,11 +157,11 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___proj
 
 static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___stereoCameraEyeOffsets) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___toneMapping) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___toneMapping) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___tempTextureHandles) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___tempTextureHandles) == 0xb8, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::BloomPrePassRenderDataSO_Data) == 0xb8, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::BloomPrePassRenderDataSO_Data) == 0xc0, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies PersistentScriptableObject
@@ -183,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::GlobalNamespace::BloomPrePassRenderDataSO_Data* value);
 
-  /// @brief Method .ctor, addr 0x58638e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58629ec, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -201,7 +202,7 @@ public:
   BloomPrePassRenderDataSO(BloomPrePassRenderDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19469 };
 
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BloomPrePassRenderDataSO_Data* ___data;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/SpecialEventsFilter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\SpecialEventsFilter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__SpecialEventsFilter_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__BasicEventTypesWithKeywords_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::SpecialEventsFilter::*)(
     ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*, ::GlobalNamespace::EnvironmentKeywords*)>(&::BeatmapDataLoaderVersion4::SpecialEventsFilter::_ctor)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x375de20;
+  constexpr static std::size_t addrs = 0x3763a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapDataLoaderVersion4::SpecialEventsFilter::*)(::BeatmapSaveDataCommon::BeatmapEventType)>(
     &::BeatmapDataLoaderVersion4::SpecialEventsFilter::IsEventValid)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x375e66c;
+  constexpr static std::size_t addrs = 0x37642d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::SpecialEventsFilter*>(),

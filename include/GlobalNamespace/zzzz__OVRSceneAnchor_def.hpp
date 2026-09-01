@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRSceneAnchor.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRSceneAnchor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,36 +88,36 @@ public:
   __declspec(property(get = __cordl_internal_get__supportedComponents,
                       put = __cordl_internal_set__supportedComponents)) ::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>* _supportedComponents;
 
-  /// @brief Method ClearPoseCache, addr 0x5ebb77c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearPoseCache, addr 0x5ebfc38, size 0x10, virtual false, abstract: false, final false
   inline void ClearPoseCache();
 
-  /// @brief Method GetSceneAnchors, addr 0x5ebbf88, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetSceneAnchors, addr 0x5ec0444, size 0x114, virtual false, abstract: false, final false
   static inline void GetSceneAnchors(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* anchors);
 
   /// @brief Method GetSceneAnchorsOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetSceneAnchorsOfType(::System::Collections::Generic::List_1<T>* anchors);
 
-  /// @brief Method Initialize, addr 0x5ebb78c, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5ebfc48, size 0x3d0, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method InitializeFrom, addr 0x5ebbea0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InitializeFrom, addr 0x5ec035c, size 0xe8, virtual false, abstract: false, final false
   inline void InitializeFrom(::GlobalNamespace::OVRSceneAnchor* other);
 
-  /// @brief Method IsComponentEnabled, addr 0x5ebb6d4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsComponentEnabled, addr 0x5ebfb90, size 0xa8, virtual false, abstract: false, final false
   inline bool IsComponentEnabled(::GlobalNamespace::OVRPlugin_SpaceComponentType spaceComponentType);
 
-  /// @brief Method IsComponentSupported, addr 0x5ebb5dc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsComponentSupported, addr 0x5ebfa98, size 0xf8, virtual false, abstract: false, final false
   inline bool IsComponentSupported(::GlobalNamespace::OVRPlugin_SpaceComponentType spaceComponentType);
 
   static inline ::GlobalNamespace::OVRSceneAnchor* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5ebc09c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5ec0558, size 0x21c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   /// @brief Method SyncComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SyncComponent(::GlobalNamespace::OVRPlugin_SpaceComponentType spaceComponentType);
 
-  /// @brief Method TryUpdateTransform, addr 0x5ebbb5c, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method TryUpdateTransform, addr 0x5ec0018, size 0x344, virtual false, abstract: false, final false
   inline bool TryUpdateTransform(bool useCache);
 
   constexpr ::GlobalNamespace::OVRAnchor const& __cordl_internal_get__Anchor_k__BackingField() const;
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set__supportedComponents(::System::Collections::Generic::List_1<::GlobalNamespace::OVRPlugin_SpaceComponentType>* value);
 
-  /// @brief Method .ctor, addr 0x5ebc2b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec0774, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace, int32_t>* getStaticF_AnchorReferenceCountDictionary();
@@ -173,16 +173,16 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* getStaticF_SceneAnchorsList();
 
-  /// @brief Method get_Anchor, addr 0x5ebb5a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Anchor, addr 0x5ebfa60, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRAnchor get_Anchor();
 
-  /// @brief Method get_IsTracked, addr 0x5ebb5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsTracked, addr 0x5ebfa88, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTracked();
 
-  /// @brief Method get_Space, addr 0x5ebb580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Space, addr 0x5ebfa3c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSpace get_Space();
 
-  /// @brief Method get_Uuid, addr 0x5ebb590, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Uuid, addr 0x5ebfa4c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_Uuid();
 
   static inline void setStaticF_AnchorReferenceCountDictionary(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpace, int32_t>* value);
@@ -193,16 +193,16 @@ public:
 
   static inline void setStaticF_SceneAnchorsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneAnchor>>* value);
 
-  /// @brief Method set_Anchor, addr 0x5ebb5b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_Anchor, addr 0x5ebfa74, size 0x14, virtual false, abstract: false, final false
   inline void set_Anchor(::GlobalNamespace::OVRAnchor value);
 
-  /// @brief Method set_IsTracked, addr 0x5ebb5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsTracked, addr 0x5ebfa90, size 0x8, virtual false, abstract: false, final false
   inline void set_IsTracked(bool value);
 
-  /// @brief Method set_Space, addr 0x5ebb588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Space, addr 0x5ebfa44, size 0x8, virtual false, abstract: false, final false
   inline void set_Space(::GlobalNamespace::OVRSpace value);
 
-  /// @brief Method set_Uuid, addr 0x5ebb59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Uuid, addr 0x5ebfa58, size 0x8, virtual false, abstract: false, final false
   inline void set_Uuid(::System::Guid value);
 
 protected:
@@ -220,7 +220,7 @@ public:
   OVRSceneAnchor(OVRSceneAnchor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7654 };
 
   /// @brief Field <Space>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRSpace ____Space_k__BackingField;

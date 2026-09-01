@@ -1,43 +1,34 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MirrorRendererGraphicsSettingsPresets.hpp"
+// IWYU pragma private; include "GlobalNamespace\MirrorRendererGraphicsSettingsPresets.hpp"
+#include "GlobalNamespace/zzzz__MirrorType_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedPresetsSO_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
 #include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_def.hpp"
-// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType(int32_t value__) noexcept {
-  this->value__ = value__;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType() {}
-constexpr ::GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType::FakeMirror{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType::RenderedMirror{ static_cast<int32_t>(
-    0x2) };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::*)()>(
     &::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x372ba88;
+  constexpr static std::size_t addrs = 0x37316ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType& GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::__cordl_internal_get_mirrorType() {
+constexpr ::GlobalNamespace::MirrorType& GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::__cordl_internal_get_mirrorType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mirrorType;
 }
-constexpr ::GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType const& GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::__cordl_internal_get_mirrorType() const {
+constexpr ::GlobalNamespace::MirrorType const& GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::__cordl_internal_get_mirrorType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mirrorType;
 }
-constexpr void GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::__cordl_internal_set_mirrorType(::GlobalNamespace::Preset_MirrorRendererGraphicsSettingsPresets_MirrorType value) {
+constexpr void GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::__cordl_internal_set_mirrorType(::GlobalNamespace::MirrorType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mirrorType = value;
 }
@@ -128,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*> (::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(
     &::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_presets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372ba70;
+  constexpr static std::size_t addrs = 0x37316d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*>(), { "get_presets", {}, {} })));
@@ -141,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::NamedPreset*> (::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(
     &::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_namedPresets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372ba78;
+  constexpr static std::size_t addrs = 0x37316dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*>(),
@@ -154,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(&::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372ba80;
+  constexpr static std::size_t addrs = 0x37316e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*>(), { ".ctor", {}, {} })));

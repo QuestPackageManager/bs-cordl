@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SetFrustumPlanes.hpp"
+// IWYU pragma private; include "GlobalNamespace\SetFrustumPlanes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
   /// @brief Field _pass, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__pass, put = __cordl_internal_set__pass)) ::GlobalNamespace::SetFrustumPlanesPass* _pass;
 
-  /// @brief Method AddRenderPasses, addr 0x5f46788, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x5f4e0fc, size 0x20, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x5f466a8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x5f4e01c, size 0x64, virtual true, abstract: false, final false
   inline void Create();
 
   static inline ::GlobalNamespace::SetFrustumPlanes* New_ctor();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__pass(::GlobalNamespace::SetFrustumPlanesPass* value);
 
-  /// @brief Method .ctor, addr 0x5f467a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4e11c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   SetFrustumPlanes(SetFrustumPlanes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20684 };
 
   /// @brief Field Visualise, offset: 0x19, size: 0x1, def value: None
   bool ___Visualise;

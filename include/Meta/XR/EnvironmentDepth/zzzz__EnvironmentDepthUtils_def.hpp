@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/EnvironmentDepth/EnvironmentDepthUtils.hpp"
+// IWYU pragma private; include "Meta\XR\EnvironmentDepth\EnvironmentDepthUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
   /// @brief Field _scalingVector3, offset 0xffffffff, size 0xc
   __declspec(property(get = getStaticF__scalingVector3, put = setStaticF__scalingVector3)) ::UnityEngine::Vector3 _scalingVector3;
 
-  /// @brief Method CalculateDepthCameraMatrices, addr 0x5a3acb8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CalculateDepthCameraMatrices, addr 0x5a3f174, size 0x1b8, virtual false, abstract: false, final false
   static inline void CalculateDepthCameraMatrices(::Meta::XR::EnvironmentDepth::DepthFrameDesc frameDesc, ::by_ref<::UnityEngine::Matrix4x4> projMatrix, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix);
 
-  /// @brief Method CalculateReprojection, addr 0x5a39934, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CalculateReprojection, addr 0x5a3ddf0, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 CalculateReprojection(::Meta::XR::EnvironmentDepth::DepthFrameDesc frameDesc);
 
-  /// @brief Method ComputeNdcToLinearDepthParameters, addr 0x5a398d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ComputeNdcToLinearDepthParameters, addr 0x5a3dd94, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 ComputeNdcToLinearDepthParameters(float_t near, float_t far);
 
   static inline ::UnityEngine::Vector3 getStaticF__scalingVector3();
@@ -61,7 +61,7 @@ public:
   EnvironmentDepthUtils(EnvironmentDepthUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23032 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

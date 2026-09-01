@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/EntryProcessor.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\EntryProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -273,50 +273,50 @@ public:
   /// @brief Field s_blitShader, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_blitShader, put = setStaticF_s_blitShader)) ::UnityW<::UnityEngine::Shader> s_blitShader;
 
-  /// @brief Method AppendCommand, addr 0x6cd3f60, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method AppendCommand, addr 0x6cdbae4, size 0x40, virtual false, abstract: false, final false
   inline void AppendCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* next);
 
-  /// @brief Method ClearReferences, addr 0x6cd2558, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ClearReferences, addr 0x6cda0dc, size 0x38, virtual false, abstract: false, final false
   inline void ClearReferences();
 
-  /// @brief Method CreateBlitShader, addr 0x6cd4090, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method CreateBlitShader, addr 0x6cdbc14, size 0x1fc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> CreateBlitShader(float_t colorConversion);
 
-  /// @brief Method CreateMeshDrawCommand, addr 0x6cd3e80, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshDrawCommand, addr 0x6cdba04, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* CreateMeshDrawCommand(::UnityEngine::UIElements::UIR::MeshHandle* mesh, int32_t indexCount, int32_t indexOffset,
                                                                                    ::UnityEngine::Material* material, ::UnityEngine::UIElements::TextureId texture);
 
-  /// @brief Method DrawReverseMask, addr 0x6cd37e0, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method DrawReverseMask, addr 0x6cdb364, size 0x2ac, virtual false, abstract: false, final false
   inline void DrawReverseMask();
 
-  /// @brief Method GetBlitMaterial, addr 0x6cd3a8c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetBlitMaterial, addr 0x6cdb610, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetBlitMaterial(::UnityEngine::UIElements::VisualElement_RenderTargetMode mode);
 
-  /// @brief Method Init, addr 0x6cd2308, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6cd9e8c, size 0x250, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::UIR::Entry* root, ::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::UIR::EntryProcessor* New_ctor();
 
-  /// @brief Method ProcessFirstAlloc, addr 0x6cd25f0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ProcessFirstAlloc, addr 0x6cda174, size 0x130, virtual false, abstract: false, final false
   inline void ProcessFirstAlloc(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::EntryPreProcessor_AllocSize>* allocList,
                                 ::by_ref<::UnityEngine::UIElements::UIR::MeshHandle*> mesh);
 
-  /// @brief Method ProcessHead, addr 0x6cd2590, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ProcessHead, addr 0x6cda114, size 0x60, virtual false, abstract: false, final false
   inline void ProcessHead();
 
-  /// @brief Method ProcessMeshEntry, addr 0x6cd31d0, size 0x610, virtual false, abstract: false, final false
+  /// @brief Method ProcessMeshEntry, addr 0x6cdad54, size 0x610, virtual false, abstract: false, final false
   inline void ProcessMeshEntry(::UnityEngine::UIElements::UIR::Entry* entry, ::UnityEngine::UIElements::TextureId textureId);
 
-  /// @brief Method ProcessNextAlloc, addr 0x6cd3cd0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ProcessNextAlloc, addr 0x6cdb854, size 0x14c, virtual false, abstract: false, final false
   inline void ProcessNextAlloc();
 
-  /// @brief Method ProcessRange, addr 0x6cd2720, size 0x994, virtual false, abstract: false, final false
+  /// @brief Method ProcessRange, addr 0x6cda2a4, size 0x994, virtual false, abstract: false, final false
   inline void ProcessRange(int32_t first, int32_t last);
 
-  /// @brief Method ProcessTail, addr 0x6cd30b4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ProcessTail, addr 0x6cdac38, size 0x11c, virtual false, abstract: false, final false
   inline void ProcessTail();
 
-  /// @brief Method UpdateOrAllocate, addr 0x6cd3fa0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateOrAllocate, addr 0x6cdbb24, size 0xf0, virtual false, abstract: false, final false
   static inline void UpdateOrAllocate(::by_ref<::UnityEngine::UIElements::UIR::MeshHandle*> data, int32_t vertexCount, int32_t indexCount, ::UnityEngine::UIElements::UIR::UIRenderDevice* device,
                                       ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> verts, ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>> indices,
                                       ::by_ref<uint16_t> indexOffset, ::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
@@ -549,7 +549,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VertsFilled(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cd428c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdbe10, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_s_blitMaterial_GammaToLinear();
@@ -560,16 +560,16 @@ public:
 
   static inline ::UnityW<::UnityEngine::Shader> getStaticF_s_blitShader();
 
-  /// @brief Method get_firstHeadCommand, addr 0x6cd22c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstHeadCommand, addr 0x6cd9e4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_firstHeadCommand();
 
-  /// @brief Method get_firstTailCommand, addr 0x6cd22e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstTailCommand, addr 0x6cd9e6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_firstTailCommand();
 
-  /// @brief Method get_lastHeadCommand, addr 0x6cd22d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastHeadCommand, addr 0x6cd9e5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastHeadCommand();
 
-  /// @brief Method get_lastTailCommand, addr 0x6cd22f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastTailCommand, addr 0x6cd9e7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastTailCommand();
 
   static inline void setStaticF_s_blitMaterial_GammaToLinear(::UnityW<::UnityEngine::Material> value);
@@ -580,16 +580,16 @@ public:
 
   static inline void setStaticF_s_blitShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method set_firstHeadCommand, addr 0x6cd22d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstHeadCommand, addr 0x6cd9e54, size 0x8, virtual false, abstract: false, final false
   inline void set_firstHeadCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
-  /// @brief Method set_firstTailCommand, addr 0x6cd22f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstTailCommand, addr 0x6cd9e74, size 0x8, virtual false, abstract: false, final false
   inline void set_firstTailCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
-  /// @brief Method set_lastHeadCommand, addr 0x6cd22e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastHeadCommand, addr 0x6cd9e64, size 0x8, virtual false, abstract: false, final false
   inline void set_lastHeadCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
-  /// @brief Method set_lastTailCommand, addr 0x6cd2300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastTailCommand, addr 0x6cd9e84, size 0x8, virtual false, abstract: false, final false
   inline void set_lastTailCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Cursor.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Cursor.hpp"
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
 #include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::Cursor::*)()>(&::UnityEngine::UIElements::Cursor::get_texture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7afdc;
+  constexpr static std::size_t addrs = 0x6d82b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Cursor>(), { "get_texture", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Cursor::*)(::UnityEngine::Texture2D*)>(&::UnityEngine::UIElements::Cursor::set_texture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7afe4;
+  constexpr static std::size_t addrs = 0x6d82b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::Cursor::*)()>(&::UnityEngine::UIElements::Cursor::get_hotspot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7afec;
+  constexpr static std::size_t addrs = 0x6d82b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Cursor>(), { "get_hotspot", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Cursor::*)(::UnityEngine::Vector2)>(&::UnityEngine::UIElements::Cursor::set_hotspot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7aff4;
+  constexpr static std::size_t addrs = 0x6d82b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Cursor::*)()>(&::UnityEngine::UIElements::Cursor::get_defaultCursorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7affc;
+  constexpr static std::size_t addrs = 0x6d82b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Cursor>(), { "get_defaultCursorId", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Cursor::*)(int32_t)>(&::UnityEngine::UIElements::Cursor::set_defaultCursorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b004;
+  constexpr static std::size_t addrs = 0x6d82b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Cursor::*)(::System::Object*)>(&::UnityEngine::UIElements::Cursor::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6d7b00c;
+  constexpr static std::size_t addrs = 0x6d82b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Cursor::*)(::UnityEngine::UIElements::Cursor)>(&::UnityEngine::UIElements::Cursor::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6d7b0a0;
+  constexpr static std::size_t addrs = 0x6d82c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Cursor::*)()>(&::UnityEngine::UIElements::Cursor::GetHashCode)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6d7b154;
+  constexpr static std::size_t addrs = 0x6d82cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Cursor, ::UnityEngine::UIElements::Cursor)>(&::UnityEngine::UIElements::Cursor::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6d7b218;
+  constexpr static std::size_t addrs = 0x6d82d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::Cursor::*)()>(&::UnityEngine::UIElements::Cursor::ToString)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6d7b248;
+  constexpr static std::size_t addrs = 0x6d82dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b58c;
+  constexpr static std::size_t addrs = 0x6d83110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>(),
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b594;
+  constexpr static std::size_t addrs = 0x6d83118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>(),
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::*)(
     ::by_ref<::UnityEngine::UIElements::Cursor>)>(&::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b59c;
+  constexpr static std::size_t addrs = 0x6d83120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>(),
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::*)(::by_ref<::UnityEngine::UIElements::Cursor>, ::UnityEngine::Texture2D*)>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b5a4;
+  constexpr static std::size_t addrs = 0x6d83128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>(),
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d7b460;
+  constexpr static std::size_t addrs = 0x6d82fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>(), { ".ctor", {}, {} })));
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b5ac;
+  constexpr static std::size_t addrs = 0x6d83130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>(),
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b5b4;
+  constexpr static std::size_t addrs = 0x6d83138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>(),
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::*)(::by_ref<::UnityEngine::UIElements::Cursor>)>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b5bc;
+  constexpr static std::size_t addrs = 0x6d83140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>(),
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::*)(::by_ref<::UnityEngine::UIElements::Cursor>, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b5c4;
+  constexpr static std::size_t addrs = 0x6d83148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>(),
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d7b4c4;
+  constexpr static std::size_t addrs = 0x6d83048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>(), { ".ctor", {}, {} })));
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b5cc;
+  constexpr static std::size_t addrs = 0x6d83150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>(),
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b5d4;
+  constexpr static std::size_t addrs = 0x6d83158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>(),
@@ -496,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::*)(::by_ref<::UnityEngine::UIElements::Cursor>)>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b5dc;
+  constexpr static std::size_t addrs = 0x6d83160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>(),
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::*)(::by_ref<::UnityEngine::UIElements::Cursor>, int32_t)>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d7b5e4;
+  constexpr static std::size_t addrs = 0x6d83168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>(),
@@ -524,7 +524,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d7b528;
+  constexpr static std::size_t addrs = 0x6d830ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -591,7 +591,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Cursor_PropertyBag::*)()>(&::UnityEngine::UIElements::Cursor_PropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6d7b2fc;
+  constexpr static std::size_t addrs = 0x6d82e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Cursor_PropertyBag*>(), { ".ctor", {}, {} })));

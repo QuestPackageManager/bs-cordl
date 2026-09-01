@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IReadOnlyColorStyle.hpp"
+// IWYU pragma private; include "GlobalNamespace\IReadOnlyColorStyle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -10,6 +10,9 @@ struct GradientDirection;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class Gradient;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,6 +42,10 @@ public:
 
   __declspec(property(get = get_gradientDirection)) ::GlobalNamespace::GradientDirection gradientDirection;
 
+  __declspec(property(get = get_multiStepGradient)) ::UnityEngine::Gradient* multiStepGradient;
+
+  __declspec(property(get = get_useMultiStepGradient)) bool useMultiStepGradient;
+
   __declspec(property(get = get_useScriptableObjectColor)) bool useScriptableObjectColor;
 
   /// @brief Method get_color, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -62,6 +69,12 @@ public:
   /// @brief Method get_gradientDirection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::GradientDirection get_gradientDirection();
 
+  /// @brief Method get_multiStepGradient, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::Gradient* get_multiStepGradient();
+
+  /// @brief Method get_useMultiStepGradient, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_useMultiStepGradient();
+
   /// @brief Method get_useScriptableObjectColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_useScriptableObjectColor();
 
@@ -70,7 +83,7 @@ public:
   IReadOnlyColorStyle(IReadOnlyColorStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

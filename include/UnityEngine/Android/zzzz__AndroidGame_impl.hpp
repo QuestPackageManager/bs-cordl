@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/AndroidGame.hpp"
+// IWYU pragma private; include "UnityEngine\Android\AndroidGame.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidGame_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Android::AndroidGame.StopLoading
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Android::AndroidGame::StopLoading)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a2bfac;
+  constexpr static std::size_t addrs = 0x6a33a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

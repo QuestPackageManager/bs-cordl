@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRMicrogestureEventSource.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRMicrogestureEventSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,12 +37,12 @@ public:
   /// @brief Field _hand, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__hand, put = __cordl_internal_set__hand)) ::UnityW<::GlobalNamespace::OVRHand> _hand;
 
-  /// @brief Method CheckForNewGesture, addr 0x5e6e7c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckForNewGesture, addr 0x5e72c7c, size 0x70, virtual false, abstract: false, final false
   inline void CheckForNewGesture(::GlobalNamespace::OVRHand_MicrogestureType gesture);
 
   static inline ::GlobalNamespace::OVRMicrogestureEventSource* New_ctor();
 
-  /// @brief Method Update, addr 0x5e6e780, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e72c3c, size 0x40, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Events::UnityEvent_1<::GlobalNamespace::OVRHand_MicrogestureType>* const& __cordl_internal_get_GestureRecognizedEvent() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__hand(::UnityW<::GlobalNamespace::OVRHand> value);
 
-  /// @brief Method .ctor, addr 0x5e6e830, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e72cec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Hand, addr 0x5e6e770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hand, addr 0x5e72c2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRHand> get_Hand();
 
-  /// @brief Method set_Hand, addr 0x5e6e778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Hand, addr 0x5e72c34, size 0x8, virtual false, abstract: false, final false
   inline void set_Hand(::GlobalNamespace::OVRHand* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   OVRMicrogestureEventSource(OVRMicrogestureEventSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7252 };
 
   /// @brief Field _hand, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRHand> ____hand;

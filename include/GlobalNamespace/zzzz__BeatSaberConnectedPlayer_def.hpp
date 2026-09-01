@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatSaberConnectedPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatSaberConnectedPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,13 +69,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
   constexpr operator ::GlobalNamespace::IConnectedPlayer*() noexcept;
 
-  /// @brief Method GetGameSpecificPlayerIdentityData, addr 0x32a303c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetGameSpecificPlayerIdentityData, addr 0x32a6e38, size 0x1c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatSaberPlayerIdentityPacketData GetGameSpecificPlayerIdentityData();
 
-  /// @brief Method GetPlayerAvatarPacket, addr 0x32a3070, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerAvatarPacket, addr 0x32a6e6c, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAvatarPacket* GetPlayerAvatarPacket();
 
-  /// @brief Method GetPlayerControllerDataPacket, addr 0x32a30e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerControllerDataPacket, addr 0x32a6edc, size 0x64, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerControllerDataPacket* GetPlayerControllerDataPacket();
 
   static inline ::GlobalNamespace::BeatSaberConnectedPlayer*
@@ -84,19 +84,19 @@ public:
            uint8_t connectionId, uint8_t remoteConnectionId, ::GlobalNamespace::IConnection* connection, ::GlobalNamespace::BeatSaberConnectedPlayer* parent, ::StringW userId, ::StringW userName,
            bool isConnectionOwner, bool isMe, ::ArrayW<uint8_t> publicEncryptionKey, ::ArrayW<uint8_t> random, ::StringW compatibilityVersion);
 
-  /// @brief Method SetActiveHand, addr 0x32a31f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetActiveHand, addr 0x32a6ff4, size 0x8, virtual false, abstract: false, final false
   inline void SetActiveHand(::GlobalNamespace::MultiplayerActiveHand newActiveHand);
 
-  /// @brief Method SetMultiplayerAvatarsData, addr 0x32a31cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetMultiplayerAvatarsData, addr 0x32a6fc8, size 0x14, virtual false, abstract: false, final false
   inline void SetMultiplayerAvatarsData(::GlobalNamespace::MultiplayerAvatarsData playerAvatars);
 
-  /// @brief Method UpdateAvatar, addr 0x32a31ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatar, addr 0x32a6fa8, size 0x20, virtual false, abstract: false, final false
   inline void UpdateAvatar(::GlobalNamespace::PlayerAvatarPacket* packet);
 
-  /// @brief Method UpdateIdentity, addr 0x32a3190, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UpdateIdentity, addr 0x32a6f8c, size 0x1c, virtual false, abstract: false, final false
   inline void UpdateIdentity(::GlobalNamespace::BeatSaberPlayerIdentityPacketData identityData);
 
-  /// @brief Method UpdatePlayerControllerData, addr 0x32a31e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method UpdatePlayerControllerData, addr 0x32a6fdc, size 0x18, virtual false, abstract: false, final false
   inline void UpdatePlayerControllerData(::GlobalNamespace::PlayerControllerDataPacket* packet);
 
   constexpr ::GlobalNamespace::MultiplayerActiveHand const& __cordl_internal_get__activeHand() const;
@@ -111,16 +111,16 @@ public:
 
   constexpr void __cordl_internal_set__playerAvatars(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method .ctor, addr 0x32a2f64, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a6d60, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectedPlayerManager_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                                 ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* manager,
                     uint8_t connectionId, uint8_t remoteConnectionId, ::GlobalNamespace::IConnection* connection, ::GlobalNamespace::BeatSaberConnectedPlayer* parent, ::StringW userId,
                     ::StringW userName, bool isConnectionOwner, bool isMe, ::ArrayW<uint8_t> publicEncryptionKey, ::ArrayW<uint8_t> random, ::StringW compatibilityVersion);
 
-  /// @brief Method get_activeHand, addr 0x32a2f5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_activeHand, addr 0x32a6d58, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerActiveHand get_activeHand();
 
-  /// @brief Method get_multiplayerAvatarsData, addr 0x32a2f48, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerAvatarsData, addr 0x32a6d44, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
 
   /// @brief Convert to "::GlobalNamespace::IBeatSaberConnectedPlayer"
@@ -144,7 +144,7 @@ public:
   BeatSaberConnectedPlayer(BeatSaberConnectedPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18836 };
 
   /// @brief Field _playerAvatars, offset: 0x90, size: 0x18, def value: None
   ::GlobalNamespace::MultiplayerAvatarsData ____playerAvatars;

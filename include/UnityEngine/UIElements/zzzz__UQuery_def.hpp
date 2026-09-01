@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UQuery.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UQuery.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -168,10 +168,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UQueryMatcher_UQuery___c* New_ctor();
 
-  /// @brief Method <TraverseRecursive>b__5_0, addr 0x6cb2d00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <TraverseRecursive>b__5_0, addr 0x6cba884, size 0x4, virtual false, abstract: false, final false
   inline void _TraverseRecursive_b__5_0(::UnityEngine::UIElements::VisualElement* e, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo i);
 
-  /// @brief Method .ctor, addr 0x6cb2cfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cba880, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UQueryMatcher_UQuery___c* getStaticF___9();
@@ -219,19 +219,19 @@ public:
 
   static inline ::UnityEngine::UIElements::UQuery_UQueryMatcher* New_ctor();
 
-  /// @brief Method NoProcessResult, addr 0x6cb2a7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NoProcessResult, addr 0x6cba600, size 0x4, virtual false, abstract: false, final false
   static inline void NoProcessResult(::UnityEngine::UIElements::VisualElement* e, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo i);
 
-  /// @brief Method OnRuleMatchedElement, addr 0x6cb2a74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnRuleMatchedElement, addr 0x6cba5f8, size 0x8, virtual true, abstract: false, final false
   inline bool OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Run, addr 0x6cb2c94, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x6cba818, size 0x14, virtual true, abstract: false, final false
   inline void Run(::UnityEngine::UIElements::VisualElement* root, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* matchers);
 
-  /// @brief Method Traverse, addr 0x6cb2a64, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Traverse, addr 0x6cba5e8, size 0x10, virtual true, abstract: false, final false
   inline void Traverse(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method TraverseRecursive, addr 0x6cb2a80, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method TraverseRecursive, addr 0x6cba604, size 0x214, virtual true, abstract: false, final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* const& __cordl_internal_get_m_Matchers() const;
@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Matchers(::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* value);
 
-  /// @brief Method .ctor, addr 0x6cb2a60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cba5e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -286,12 +286,12 @@ public:
   /// @brief Method CreateNew, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::UQuery_SingleQueryMatcher* CreateNew();
 
-  /// @brief Method IsInUse, addr 0x6cb2d3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInUse, addr 0x6cba8c0, size 0x10, virtual false, abstract: false, final false
   inline bool IsInUse();
 
   static inline ::UnityEngine::UIElements::UQuery_SingleQueryMatcher* New_ctor();
 
-  /// @brief Method Run, addr 0x6cb2d14, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x6cba898, size 0x28, virtual true, abstract: false, final false
   inline void Run(::UnityEngine::UIElements::VisualElement* root, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* matchers);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__match_k__BackingField() const;
@@ -300,13 +300,13 @@ public:
 
   constexpr void __cordl_internal_set__match_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6cb2d4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cba8d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_match, addr 0x6cb2d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_match, addr 0x6cba888, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_match();
 
-  /// @brief Method set_match, addr 0x6cb2d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_match, addr 0x6cba890, size 0x8, virtual false, abstract: false, final false
   inline void set_match(::UnityEngine::UIElements::VisualElement* value);
 
 protected:
@@ -347,15 +347,15 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::UnityEngine::UIElements::UQuery_FirstQueryMatcher* Instance;
 
-  /// @brief Method CreateNew, addr 0x6cb2d64, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method CreateNew, addr 0x6cba8e8, size 0x44, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::UQuery_SingleQueryMatcher* CreateNew();
 
   static inline ::UnityEngine::UIElements::UQuery_FirstQueryMatcher* New_ctor();
 
-  /// @brief Method OnRuleMatchedElement, addr 0x6cb2d50, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnRuleMatchedElement, addr 0x6cba8d4, size 0x14, virtual true, abstract: false, final false
   inline bool OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method .ctor, addr 0x6cb2da8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cba92c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UQuery_FirstQueryMatcher* getStaticF_Instance();

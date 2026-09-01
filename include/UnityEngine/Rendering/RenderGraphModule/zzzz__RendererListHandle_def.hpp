@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RendererListHandle.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RendererListHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,22 +29,22 @@ public:
   // Declarations
   __declspec(property(get = get_handle, put = set_handle)) int32_t handle;
 
-  /// @brief Method IsValid, addr 0x67e21fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x67e9c78, size 0x8, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method .ctor, addr 0x67e00e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e7b60, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType type);
 
-  /// @brief Method get_handle, addr 0x67e20d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x67e9b4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handle();
 
-  /// @brief Method op_Implicit, addr 0x67e20e0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x67e9b5c, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RendererList op_Implicit___UnityEngine__Rendering__RendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle rendererList);
 
-  /// @brief Method op_Implicit, addr 0x67dd6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x67e5148, size 0x8, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle handle);
 
-  /// @brief Method set_handle, addr 0x67e20d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_handle, addr 0x67e9b54, size 0x8, virtual false, abstract: false, final false
   inline void set_handle(int32_t value);
 
   // Ctor Parameters []
@@ -56,7 +56,7 @@ public:
   constexpr RendererListHandle(::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType type, bool m_IsValid, int32_t _handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12454 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

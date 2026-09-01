@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/PackedMatrix.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\PackedMatrix.hpp"
 #include "Unity/Mathematics/zzzz__float4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__PackedMatrix_def.hpp"
 #include "Unity/Mathematics/zzzz__float4x4_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::PackedMatrix (*)(::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Rendering::PackedMatrix::FromMatrix4x4)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x68201f0;
+  constexpr static std::size_t addrs = 0x6827c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::PackedMatrix (*)(::by_ref<::Unity::Mathematics::float4x4>)>(&::UnityEngine::Rendering::PackedMatrix::FromFloat4x4)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6820230;
+  constexpr static std::size_t addrs = 0x6827cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

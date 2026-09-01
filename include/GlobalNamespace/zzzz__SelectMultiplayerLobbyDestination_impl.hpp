@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SelectMultiplayerLobbyDestination.hpp"
+// IWYU pragma private; include "GlobalNamespace\SelectMultiplayerLobbyDestination.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectMultiplayerLobbyDestination_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SelectMultiplayerLobbyDestination._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectMultiplayerLobbyDestination::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::SelectMultiplayerLobbyDestination::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3703bb4;
+  constexpr static std::size_t addrs = 0x3707fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectMultiplayerLobbyDestination::*)(::StringW)>(&::GlobalNamespace::SelectMultiplayerLobbyDestination::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3703bbc;
+  constexpr static std::size_t addrs = 0x3707fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

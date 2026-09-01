@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/NoInterpIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\NoInterpIntParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpIntParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::NoInterpIntParameter._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpIntParameter::*)(int32_t, bool)>(&::UnityEngine::Rendering::NoInterpIntParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67c4e88;
+  constexpr static std::size_t addrs = 0x67cc904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

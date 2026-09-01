@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Categorization/CategoryInfoAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Categorization\CategoryInfoAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Categorization/zzzz__CategoryInfoAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Categorization::CategoryInfoAttribute.set_Order
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Categorization::CategoryInfoAttribute::*)(int32_t)>(&::UnityEngine::Categorization::CategoryInfoAttribute::set_Order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6af73ac;
+  constexpr static std::size_t addrs = 0x6afedc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Categorization::CategoryInfoAttribute::*)(::StringW)>(&::UnityEngine::Categorization::CategoryInfoAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6af73b4;
+  constexpr static std::size_t addrs = 0x6afedcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Categorization::CategoryInfoAttribute::*)()>(&::UnityEngine::Categorization::CategoryInfoAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6af73bc;
+  constexpr static std::size_t addrs = 0x6afedd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Categorization::CategoryInfoAttribute*>(), { ".ctor", {}, {} })));

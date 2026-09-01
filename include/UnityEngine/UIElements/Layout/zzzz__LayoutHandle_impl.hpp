@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutHandle.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutHandle.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Layout::LayoutHandle.get_Undefined
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Layout::LayoutHandle (*)()>(&::UnityEngine::UIElements::Layout::LayoutHandle::get_Undefined)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf62f4;
+  constexpr static std::size_t addrs = 0x6cfde78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutHandle>(), { "get_Undefined", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutHandle::*)(int32_t, int32_t)>(&::UnityEngine::UIElements::Layout::LayoutHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf6378;
+  constexpr static std::size_t addrs = 0x6cfdefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Layout::LayoutHandle::*)(::UnityEngine::UIElements::Layout::LayoutHandle)>(
     &::UnityEngine::UIElements::Layout::LayoutHandle::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6cf6380;
+  constexpr static std::size_t addrs = 0x6cfdf04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Layout::LayoutHandle::*)(::System::Object*)>(&::UnityEngine::UIElements::Layout::LayoutHandle::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6cf63a8;
+  constexpr static std::size_t addrs = 0x6cfdf2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Layout::LayoutHandle::*)()>(&::UnityEngine::UIElements::Layout::LayoutHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6cf6434;
+  constexpr static std::size_t addrs = 0x6cfdfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

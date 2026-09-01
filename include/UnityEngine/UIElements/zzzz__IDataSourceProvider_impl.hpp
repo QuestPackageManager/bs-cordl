@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/IDataSourceProvider.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\IDataSourceProvider.hpp"
 #include "UnityEngine/UIElements/zzzz__IDataSourceProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_def.hpp"

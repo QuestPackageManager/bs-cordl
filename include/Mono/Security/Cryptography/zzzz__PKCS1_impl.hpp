@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Cryptography/PKCS1.hpp"
+// IWYU pragma private; include "Mono\Security\Cryptography\PKCS1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__PKCS1_def.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::PKCS1::Compare)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5a9cd9c;
+  constexpr static std::size_t addrs = 0x5abd12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::Cryptography::PKCS1::I2OSP)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5a9ce0c;
+  constexpr static std::size_t addrs = 0x5abd19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::PKCS1::OS2IP)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5a9ce9c;
+  constexpr static std::size_t addrs = 0x5abd22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::Security::Cryptography::RSA*, ::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::PKCS1::RSAVP1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a9cf6c;
+  constexpr static std::size_t addrs = 0x5abd2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,10 +61,45 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::S
 //  Writing Method size for method: ::Mono::Security::Cryptography::PKCS1.Verify_v15
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::RSA*, ::System::Security::Cryptography::HashAlgorithm*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
+    &::Mono::Security::Cryptography::PKCS1::Verify_v15)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5abd314;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::PKCS1*>(),
+                                                             { "Verify_v15",
+                                                               {},
+                                                               { ::i2c::type_of<::System::Security::Cryptography::RSA*>(), ::i2c::type_of<::System::Security::Cryptography::HashAlgorithm*>(),
+                                                                 ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Security::Cryptography::PKCS1.Verify_v15
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::RSA*, ::StringW, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
+    &::Mono::Security::Cryptography::PKCS1::Verify_v15)> {
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x5abd5b0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::PKCS1*>(), { "Verify_v15",
+                                                                                                             {},
+                                                                                                             { ::i2c::type_of<::System::Security::Cryptography::RSA*>(), ::i2c::type_of<::StringW>(),
+                                                                                                               ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Security::Cryptography::PKCS1.Verify_v15
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::RSA*, ::System::Security::Cryptography::HashAlgorithm*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool)>(
     &::Mono::Security::Cryptography::PKCS1::Verify_v15)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5a9cf84;
+  constexpr static std::size_t addrs = 0x5abd398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::Security::Cryptography::HashAlgorithm*, ::ArrayW<uint8_t>, int32_t)>(
     &::Mono::Security::Cryptography::PKCS1::Encode_v15)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5a9d19c;
+  constexpr static std::size_t size = 0x308;
+  constexpr static std::size_t addrs = 0x5abdb80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,38 +127,12 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::S
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Mono::Security::Cryptography::PKCS1.HashNameFromOid
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, bool)>(&::Mono::Security::Cryptography::PKCS1::HashNameFromOid)> {
-  constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x5a9d4b8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::PKCS1*>(), { "HashNameFromOid", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Mono::Security::Cryptography::PKCS1.CreateFromOid
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(&::Mono::Security::Cryptography::PKCS1::CreateFromOid)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a9d914;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::PKCS1*>(), { "CreateFromOid", {}, { ::i2c::type_of<::StringW>() } })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::Mono::Security::Cryptography::PKCS1.CreateFromName
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(&::Mono::Security::Cryptography::PKCS1::CreateFromName)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x5a9d974;
+  constexpr static std::size_t addrs = 0x5abd744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,6 +187,24 @@ inline ::ArrayW<uint8_t> Mono::Security::Cryptography::PKCS1::RSAVP1(::System::S
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(nullptr, ___internal_method, rsa, s);
 }
 inline bool Mono::Security::Cryptography::PKCS1::Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t> hashValue,
+                                                            ::ArrayW<uint8_t> signature) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::PKCS1*>(),
+                                                           { "Verify_v15",
+                                                             {},
+                                                             { ::i2c::type_of<::System::Security::Cryptography::RSA*>(), ::i2c::type_of<::System::Security::Cryptography::HashAlgorithm*>(),
+                                                               ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, rsa, hash, hashValue, signature);
+}
+inline bool Mono::Security::Cryptography::PKCS1::Verify_v15(::System::Security::Cryptography::RSA* rsa, ::StringW hashName, ::ArrayW<uint8_t> hashValue, ::ArrayW<uint8_t> signature) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(
+          ::i2c::class_of<::Mono::Security::Cryptography::PKCS1*>(),
+          { "Verify_v15", {}, { ::i2c::type_of<::System::Security::Cryptography::RSA*>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<::ArrayW<uint8_t>>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, rsa, hashName, hashValue, signature);
+}
+inline bool Mono::Security::Cryptography::PKCS1::Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t> hashValue,
                                                             ::ArrayW<uint8_t> signature, bool tryNonStandardEncoding) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::PKCS1*>(),
@@ -193,16 +220,6 @@ inline ::ArrayW<uint8_t> Mono::Security::Cryptography::PKCS1::Encode_v15(::Syste
                    (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::PKCS1*>(),
                                        { "Encode_v15", {}, { ::i2c::type_of<::System::Security::Cryptography::HashAlgorithm*>(), ::i2c::type_of<::ArrayW<uint8_t>>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t>>(nullptr, ___internal_method, hash, hashValue, emLength);
-}
-inline ::StringW Mono::Security::Cryptography::PKCS1::HashNameFromOid(::StringW oid, bool throwOnError) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::PKCS1*>(), { "HashNameFromOid", {}, { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, oid, throwOnError);
-}
-inline ::System::Security::Cryptography::HashAlgorithm* Mono::Security::Cryptography::PKCS1::CreateFromOid(::StringW oid) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::PKCS1*>(), { "CreateFromOid", {}, { ::i2c::type_of<::StringW>() } })));
-  return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::HashAlgorithm*>(nullptr, ___internal_method, oid);
 }
 inline ::System::Security::Cryptography::HashAlgorithm* Mono::Security::Cryptography::PKCS1::CreateFromName(::StringW name) {
   static auto* ___internal_method =

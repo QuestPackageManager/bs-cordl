@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemGenerationException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\Pem\PemGenerationException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemGenerationException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x362b9cc;
+  constexpr static std::size_t addrs = 0x362f78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::*)(::StringW)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x362ba24;
+  constexpr static std::size_t addrs = 0x362f7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x362ba90;
+  constexpr static std::size_t addrs = 0x362f850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException*>(),

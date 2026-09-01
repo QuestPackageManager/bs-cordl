@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/SeedWrapEngine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\SeedWrapEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Engines::SeedWrapEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33bd8fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c16bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

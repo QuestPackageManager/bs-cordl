@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/CertConfirmContent.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\CertConfirmContent.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertConfirmContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertStatus_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3343398;
+  constexpr static std::size_t addrs = 0x3347158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x33433a0;
+  constexpr static std::size_t addrs = 0x3347160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertStatus*> (::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::ToCertStatusArray)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x334351c;
+  constexpr static std::size_t addrs = 0x33472dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3343798;
+  constexpr static std::size_t addrs = 0x3347558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

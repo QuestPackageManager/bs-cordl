@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_MeshInfo.hpp"
+// IWYU pragma private; include "TMPro\TMP_MeshInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,40 +62,40 @@ public:
   /// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent)) ::UnityEngine::Vector4 s_DefaultTangent;
 
-  /// @brief Method Clear, addr 0x69924ec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6999f68, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear, addr 0x6992594, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x699a010, size 0x138, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x69926cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x699a148, size 0x34, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ClearUnusedVertices, addr 0x6992700, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x699a17c, size 0x2c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(int32_t startIndex);
 
-  /// @brief Method ClearUnusedVertices, addr 0x699272c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x699a1a8, size 0xc8, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(int32_t startIndex, bool updateMesh);
 
-  /// @brief Method ResizeMeshInfo, addr 0x69917a0, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x699921c, size 0x474, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method ResizeMeshInfo, addr 0x6991c14, size 0x8d8, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x6999690, size 0x8d8, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size, bool isVolumetric);
 
-  /// @brief Method SortGeometry, addr 0x69927f4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x699a270, size 0xb8, virtual false, abstract: false, final false
   inline void SortGeometry(::TMPro::VertexSortingOrder order);
 
-  /// @brief Method SortGeometry, addr 0x6992e28, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x699a8a4, size 0x208, virtual false, abstract: false, final false
   inline void SortGeometry(::System::Collections::Generic::IList_1<int32_t>* sortingOrder);
 
-  /// @brief Method SwapVertexData, addr 0x69928ac, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x699a328, size 0x57c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x6990a98, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6998514, size 0x550, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size);
 
-  /// @brief Method .ctor, addr 0x6990fe8, size 0x7b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6998a64, size 0x7b8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size, bool isVolumetric);
 
   static inline ::UnityEngine::Bounds getStaticF_s_DefaultBounds();
@@ -129,7 +129,7 @@ public:
                          ::ArrayW<int32_t> triangles, ::UnityW<::UnityEngine::Material> material) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15964 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/QNameDataContract.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\QNameDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,25 +46,25 @@ public:
 
   static inline ::System::Runtime::Serialization::QNameDataContract* New_ctor();
 
-  /// @brief Method ReadXmlValue, addr 0x6157620, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x615f09c, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method WriteRootElement, addr 0x61576c0, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method WriteRootElement, addr 0x615f13c, size 0x100, virtual true, abstract: false, final false
   inline void WriteRootElement(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method WriteXmlValue, addr 0x615757c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x615eff8, size 0xa4, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
-  /// @brief Method .ctor, addr 0x615743c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615eeb8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsPrimitive, addr 0x6157574, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPrimitive, addr 0x615eff0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPrimitive();
 
-  /// @brief Method get_ReadMethodName, addr 0x6157530, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMethodName, addr 0x615efac, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ReadMethodName();
 
-  /// @brief Method get_WriteMethodName, addr 0x61574ec, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMethodName, addr 0x615ef68, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_WriteMethodName();
 
 protected:
@@ -82,7 +82,7 @@ public:
   QNameDataContract(QNameDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17109 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

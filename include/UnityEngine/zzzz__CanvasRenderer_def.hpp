@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/CanvasRenderer.hpp"
+// IWYU pragma private; include "UnityEngine\CanvasRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,157 +86,157 @@ public:
 
   __declspec(property(get = get_relativeDepth)) int32_t relativeDepth;
 
-  /// @brief Method AddUIVertexStream, addr 0x6de0dcc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddUIVertexStream, addr 0x6de8950, size 0x10c, virtual false, abstract: false, final false
   static inline void AddUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions,
                                        ::System::Collections::Generic::List_1<::UnityEngine::Color32>* colors, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv0S,
                                        ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv1S, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals,
                                        ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents);
 
-  /// @brief Method AddUIVertexStream, addr 0x6de0ed8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AddUIVertexStream, addr 0x6de8a5c, size 0x9c, virtual false, abstract: false, final false
   static inline void AddUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions,
                                        ::System::Collections::Generic::List_1<::UnityEngine::Color32>* colors, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv0S,
                                        ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv1S, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv2S,
                                        ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv3S, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals,
                                        ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents);
 
-  /// @brief Method Clear, addr 0x6de068c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6de8210, size 0x80, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear_Injected, addr 0x6de070c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Clear_Injected, addr 0x6de8290, size 0x3c, virtual false, abstract: false, final false
   static inline void Clear_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method CreateUIVertexStream, addr 0x6de0b84, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CreateUIVertexStream, addr 0x6de8708, size 0x110, virtual false, abstract: false, final false
   static inline void CreateUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Color32>* colors, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv0S,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv1S, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents, ::System::Collections::Generic::List_1<int32_t>* indices);
 
-  /// @brief Method CreateUIVertexStream, addr 0x6de0c94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreateUIVertexStream, addr 0x6de8818, size 0x9c, virtual false, abstract: false, final false
   static inline void CreateUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Color32>* colors, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv0S,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv1S, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv2S,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv3S, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents, ::System::Collections::Generic::List_1<int32_t>* indices);
 
-  /// @brief Method CreateUIVertexStreamInternal, addr 0x6de0d30, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreateUIVertexStreamInternal, addr 0x6de88b4, size 0x9c, virtual false, abstract: false, final false
   static inline void CreateUIVertexStreamInternal(::System::Object* verts, ::System::Object* positions, ::System::Object* colors, ::System::Object* uv0S, ::System::Object* uv1S,
                                                   ::System::Object* uv2S, ::System::Object* uv3S, ::System::Object* normals, ::System::Object* tangents, ::System::Object* indices);
 
-  /// @brief Method DisableRectClipping, addr 0x6ddfbc8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DisableRectClipping, addr 0x6de774c, size 0x80, virtual false, abstract: false, final false
   inline void DisableRectClipping();
 
-  /// @brief Method DisableRectClipping_Injected, addr 0x6ddfc48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DisableRectClipping_Injected, addr 0x6de77cc, size 0x3c, virtual false, abstract: false, final false
   static inline void DisableRectClipping_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method EnableRectClipping, addr 0x6ddf938, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method EnableRectClipping, addr 0x6de74bc, size 0x98, virtual false, abstract: false, final false
   inline void EnableRectClipping(::UnityEngine::Rect rect);
 
-  /// @brief Method EnableRectClipping_Injected, addr 0x6ddf9d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EnableRectClipping_Injected, addr 0x6de7554, size 0x44, virtual false, abstract: false, final false
   static inline void EnableRectClipping_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Rect> rect);
 
-  /// @brief Method GetAlpha, addr 0x6de0748, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetAlpha, addr 0x6de82cc, size 0x14, virtual false, abstract: false, final false
   inline float_t GetAlpha();
 
-  /// @brief Method GetColor, addr 0x6ddf858, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetColor, addr 0x6de73dc, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColor();
 
-  /// @brief Method GetColor_Injected, addr 0x6ddf8f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetColor_Injected, addr 0x6de7478, size 0x44, virtual false, abstract: false, final false
   static inline void GetColor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color> ret);
 
-  /// @brief Method GetInheritedAlpha, addr 0x6de0784, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetInheritedAlpha, addr 0x6de8308, size 0x80, virtual false, abstract: false, final false
   inline float_t GetInheritedAlpha();
 
-  /// @brief Method GetInheritedAlpha_Injected, addr 0x6de0804, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetInheritedAlpha_Injected, addr 0x6de8388, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetInheritedAlpha_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetMaterial, addr 0x6de08dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x6de8460, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial();
 
-  /// @brief Method GetMaterial, addr 0x6ddfda0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x6de7924, size 0x158, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(int32_t index);
 
-  /// @brief Method GetMaterial_Injected, addr 0x6ddfef8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetMaterial_Injected, addr 0x6de7a7c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMaterial_Injected(::System::IntPtr _unity_self, int32_t index);
 
-  /// @brief Method GetMesh, addr 0x6de0500, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetMesh, addr 0x6de8084, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> GetMesh();
 
-  /// @brief Method GetMesh_Injected, addr 0x6de0650, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetMesh_Injected, addr 0x6de81d4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMesh_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetPopMaterial, addr 0x6de0058, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetPopMaterial, addr 0x6de7bdc, size 0x158, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetPopMaterial(int32_t index);
 
-  /// @brief Method GetPopMaterial_Injected, addr 0x6de01b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPopMaterial_Injected, addr 0x6de7d34, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetPopMaterial_Injected(::System::IntPtr _unity_self, int32_t index);
 
   static inline ::UnityEngine::CanvasRenderer* New_ctor();
 
-  /// @brief Method SetAlpha, addr 0x6de075c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetAlpha, addr 0x6de82e0, size 0x28, virtual false, abstract: false, final false
   inline void SetAlpha(float_t alpha);
 
-  /// @brief Method SetAlphaTexture, addr 0x6de02f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetAlphaTexture, addr 0x6de7e7c, size 0xc0, virtual false, abstract: false, final false
   inline void SetAlphaTexture(::UnityEngine::Texture* texture);
 
-  /// @brief Method SetAlphaTexture_Injected, addr 0x6de03b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetAlphaTexture_Injected, addr 0x6de7f3c, size 0x44, virtual false, abstract: false, final false
   static inline void SetAlphaTexture_Injected(::System::IntPtr _unity_self, ::System::IntPtr texture);
 
-  /// @brief Method SetColor, addr 0x6ddf77c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x6de7300, size 0x98, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetColor_Injected, addr 0x6ddf814, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetColor_Injected, addr 0x6de7398, size 0x44, virtual false, abstract: false, final false
   static inline void SetColor_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Color> color);
 
-  /// @brief Method SetMaterial, addr 0x6ddfc84, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x6de7808, size 0xc8, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* material, int32_t index);
 
-  /// @brief Method SetMaterial, addr 0x6de0840, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x6de83c4, size 0x9c, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* material, ::UnityEngine::Texture* texture);
 
-  /// @brief Method SetMaterial_Injected, addr 0x6ddfd4c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial_Injected, addr 0x6de78d0, size 0x54, virtual false, abstract: false, final false
   static inline void SetMaterial_Injected(::System::IntPtr _unity_self, ::System::IntPtr material, int32_t index);
 
-  /// @brief Method SetMesh, addr 0x6de03fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetMesh, addr 0x6de7f80, size 0xc0, virtual false, abstract: false, final false
   inline void SetMesh(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method SetMesh_Injected, addr 0x6de04bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetMesh_Injected, addr 0x6de8040, size 0x44, virtual false, abstract: false, final false
   static inline void SetMesh_Injected(::System::IntPtr _unity_self, ::System::IntPtr mesh);
 
-  /// @brief Method SetPopMaterial, addr 0x6ddff3c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetPopMaterial, addr 0x6de7ac0, size 0xc8, virtual false, abstract: false, final false
   inline void SetPopMaterial(::UnityEngine::Material* material, int32_t index);
 
-  /// @brief Method SetPopMaterial_Injected, addr 0x6de0004, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetPopMaterial_Injected, addr 0x6de7b88, size 0x54, virtual false, abstract: false, final false
   static inline void SetPopMaterial_Injected(::System::IntPtr _unity_self, ::System::IntPtr material, int32_t index);
 
-  /// @brief Method SetTexture, addr 0x6de01f4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetTexture, addr 0x6de7d78, size 0xc0, virtual false, abstract: false, final false
   inline void SetTexture(::UnityEngine::Texture* texture);
 
-  /// @brief Method SetTexture_Injected, addr 0x6de02b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetTexture_Injected, addr 0x6de7e38, size 0x44, virtual false, abstract: false, final false
   static inline void SetTexture_Injected(::System::IntPtr _unity_self, ::System::IntPtr texture);
 
-  /// @brief Method SetVertices, addr 0x6de0ff8, size 0x9cc, virtual false, abstract: false, final false
+  /// @brief Method SetVertices, addr 0x6de8b7c, size 0x9cc, virtual false, abstract: false, final false
   inline void SetVertices(::ArrayW<::UnityEngine::UIVertex> vertices, int32_t size);
 
-  /// @brief Method SetVertices, addr 0x6de0f74, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetVertices, addr 0x6de8af8, size 0x84, virtual false, abstract: false, final false
   inline void SetVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* vertices);
 
-  /// @brief Method SplitIndicesStreamsInternal, addr 0x6de0b40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SplitIndicesStreamsInternal, addr 0x6de86c4, size 0x44, virtual false, abstract: false, final false
   static inline void SplitIndicesStreamsInternal(::System::Object* verts, ::System::Object* indices);
 
-  /// @brief Method SplitUIVertexStreams, addr 0x6de08e4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SplitUIVertexStreams, addr 0x6de8468, size 0xf0, virtual false, abstract: false, final false
   static inline void SplitUIVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Color32>* colors, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv0S,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv1S, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents, ::System::Collections::Generic::List_1<int32_t>* indices);
 
-  /// @brief Method SplitUIVertexStreams, addr 0x6de09d4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SplitUIVertexStreams, addr 0x6de8558, size 0xd0, virtual false, abstract: false, final false
   static inline void SplitUIVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Color32>* colors, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv0S,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv1S, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv2S,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uv3S, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* normals,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* tangents, ::System::Collections::Generic::List_1<int32_t>* indices);
 
-  /// @brief Method SplitUIVertexStreamsInternal, addr 0x6de0aa4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SplitUIVertexStreamsInternal, addr 0x6de8628, size 0x9c, virtual false, abstract: false, final false
   static inline void SplitUIVertexStreamsInternal(::System::Object* verts, ::System::Object* positions, ::System::Object* colors, ::System::Object* uv0S, ::System::Object* uv1S,
                                                   ::System::Object* uv2S, ::System::Object* uv3S, ::System::Object* normals, ::System::Object* tangents);
 
@@ -246,109 +246,109 @@ public:
 
   constexpr void __cordl_internal_set__isMask_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6de19c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6de9548, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_absoluteDepth, addr 0x6ddf15c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_absoluteDepth, addr 0x6de6ce0, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_absoluteDepth();
 
-  /// @brief Method get_absoluteDepth_Injected, addr 0x6ddf1dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_absoluteDepth_Injected, addr 0x6de6d60, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_absoluteDepth_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_clippingSoftness, addr 0x6ddfa14, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_clippingSoftness, addr 0x6de7598, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_clippingSoftness();
 
-  /// @brief Method get_clippingSoftness_Injected, addr 0x6ddfaac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_clippingSoftness_Injected, addr 0x6de7630, size 0x44, virtual false, abstract: false, final false
   static inline void get_clippingSoftness_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_cull, addr 0x6ddf5dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_cull, addr 0x6de7160, size 0x80, virtual false, abstract: false, final false
   inline bool get_cull();
 
-  /// @brief Method get_cullTransparentMesh, addr 0x6ddf2d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_cullTransparentMesh, addr 0x6de6e58, size 0x80, virtual false, abstract: false, final false
   inline bool get_cullTransparentMesh();
 
-  /// @brief Method get_cullTransparentMesh_Injected, addr 0x6ddf354, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_cullTransparentMesh_Injected, addr 0x6de6ed8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_cullTransparentMesh_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_cull_Injected, addr 0x6ddf65c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_cull_Injected, addr 0x6de71e0, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_cull_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_hasMoved, addr 0x6ddf218, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_hasMoved, addr 0x6de6d9c, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasMoved();
 
-  /// @brief Method get_hasMoved_Injected, addr 0x6ddf298, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasMoved_Injected, addr 0x6de6e1c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasMoved_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_hasPopInstruction, addr 0x6ddecac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_hasPopInstruction, addr 0x6de6830, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasPopInstruction();
 
-  /// @brief Method get_hasPopInstruction_Injected, addr 0x6dded2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasPopInstruction_Injected, addr 0x6de68b0, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasPopInstruction_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_hasRectClipping, addr 0x6ddf464, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_hasRectClipping, addr 0x6de6fe8, size 0x80, virtual false, abstract: false, final false
   inline bool get_hasRectClipping();
 
-  /// @brief Method get_hasRectClipping_Injected, addr 0x6ddf4e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasRectClipping_Injected, addr 0x6de7068, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_hasRectClipping_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_isMask, addr 0x6ddf76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isMask, addr 0x6de72f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMask();
 
-  /// @brief Method get_materialCount, addr 0x6ddee3c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_materialCount, addr 0x6de69c0, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_materialCount();
 
-  /// @brief Method get_materialCount_Injected, addr 0x6ddeebc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_materialCount_Injected, addr 0x6de6a40, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_materialCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_popMaterialCount, addr 0x6ddefcc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_popMaterialCount, addr 0x6de6b50, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_popMaterialCount();
 
-  /// @brief Method get_popMaterialCount_Injected, addr 0x6ddf04c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_popMaterialCount_Injected, addr 0x6de6bd0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_popMaterialCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_relativeDepth, addr 0x6ddf520, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_relativeDepth, addr 0x6de70a4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_relativeDepth();
 
-  /// @brief Method get_relativeDepth_Injected, addr 0x6ddf5a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_relativeDepth_Injected, addr 0x6de7124, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_relativeDepth_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_clippingSoftness, addr 0x6ddfaf0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_clippingSoftness, addr 0x6de7674, size 0x94, virtual false, abstract: false, final false
   inline void set_clippingSoftness(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_clippingSoftness_Injected, addr 0x6ddfb84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_clippingSoftness_Injected, addr 0x6de7708, size 0x44, virtual false, abstract: false, final false
   static inline void set_clippingSoftness_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector2> value);
 
-  /// @brief Method set_cull, addr 0x6ddf698, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_cull, addr 0x6de721c, size 0x90, virtual false, abstract: false, final false
   inline void set_cull(bool value);
 
-  /// @brief Method set_cullTransparentMesh, addr 0x6ddf390, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_cullTransparentMesh, addr 0x6de6f14, size 0x90, virtual false, abstract: false, final false
   inline void set_cullTransparentMesh(bool value);
 
-  /// @brief Method set_cullTransparentMesh_Injected, addr 0x6ddf420, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_cullTransparentMesh_Injected, addr 0x6de6fa4, size 0x44, virtual false, abstract: false, final false
   static inline void set_cullTransparentMesh_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_cull_Injected, addr 0x6ddf728, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_cull_Injected, addr 0x6de72ac, size 0x44, virtual false, abstract: false, final false
   static inline void set_cull_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_hasPopInstruction, addr 0x6dded68, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_hasPopInstruction, addr 0x6de68ec, size 0x90, virtual false, abstract: false, final false
   inline void set_hasPopInstruction(bool value);
 
-  /// @brief Method set_hasPopInstruction_Injected, addr 0x6ddedf8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_hasPopInstruction_Injected, addr 0x6de697c, size 0x44, virtual false, abstract: false, final false
   static inline void set_hasPopInstruction_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_isMask, addr 0x6ddf774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isMask, addr 0x6de72f8, size 0x8, virtual false, abstract: false, final false
   inline void set_isMask(bool value);
 
-  /// @brief Method set_materialCount, addr 0x6ddeef8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_materialCount, addr 0x6de6a7c, size 0x90, virtual false, abstract: false, final false
   inline void set_materialCount(int32_t value);
 
-  /// @brief Method set_materialCount_Injected, addr 0x6ddef88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_materialCount_Injected, addr 0x6de6b0c, size 0x44, virtual false, abstract: false, final false
   static inline void set_materialCount_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_popMaterialCount, addr 0x6ddf088, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_popMaterialCount, addr 0x6de6c0c, size 0x90, virtual false, abstract: false, final false
   inline void set_popMaterialCount(int32_t value);
 
-  /// @brief Method set_popMaterialCount_Injected, addr 0x6ddf118, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_popMaterialCount_Injected, addr 0x6de6c9c, size 0x44, virtual false, abstract: false, final false
   static inline void set_popMaterialCount_Injected(::System::IntPtr _unity_self, int32_t value);
 
 protected:
@@ -366,7 +366,7 @@ public:
   CanvasRenderer(CanvasRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22113 };
 
   /// @brief Field <isMask>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____isMask_k__BackingField;

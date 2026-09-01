@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ButtonSpriteSwapToggle.hpp"
+// IWYU pragma private; include "HMUI\ButtonSpriteSwapToggle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,12 +33,12 @@ public:
 
   __declspec(property(get = get_isToggled, put = set_isToggled)) bool isToggled;
 
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x5882400, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x5881d48, size 0x150, virtual true, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton_SelectionState state);
 
   static inline ::HMUI::ButtonSpriteSwapToggle* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x58823d4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5881d1c, size 0x2c, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr bool const& __cordl_internal_get__ignoreHighlight() const;
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set__resetToggleOnEnable(bool value);
 
-  /// @brief Method .ctor, addr 0x5882550, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5881e98, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isToggled, addr 0x5882394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isToggled, addr 0x5881cdc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isToggled();
 
-  /// @brief Method set_isToggled, addr 0x588239c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_isToggled, addr 0x5881ce4, size 0x38, virtual false, abstract: false, final false
   inline void set_isToggled(bool value);
 
 protected:
@@ -83,7 +83,7 @@ public:
   ButtonSpriteSwapToggle(ButtonSpriteSwapToggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19077 };
 
   /// @brief Field _resetToggleOnEnable, offset: 0x51, size: 0x1, def value: None
   bool ____resetToggleOnEnable;

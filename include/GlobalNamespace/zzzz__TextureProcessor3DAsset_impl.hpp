@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TextureProcessor3DAsset.hpp"
+// IWYU pragma private; include "GlobalNamespace\TextureProcessor3DAsset.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__TextureProcessor3DAsset_def.hpp"
 #include "GlobalNamespace/zzzz__TextureProcessor3DBehaviour_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::TextureProcessor3DAsset::*)()>(
     &::GlobalNamespace::TextureProcessor3DAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5905810;
+  constexpr static std::size_t addrs = 0x5908dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3DAsset*>(), { "get_clipCaps", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::GlobalNamespace::TextureProcessor3DAsset::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::GlobalNamespace::TextureProcessor3DAsset::CreatePlayable)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5905818;
+  constexpr static std::size_t addrs = 0x5908e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3DAsset::*)()>(&::GlobalNamespace::TextureProcessor3DAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59058cc;
+  constexpr static std::size_t addrs = 0x5908eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3DAsset*>(), { ".ctor", {}, {} })));

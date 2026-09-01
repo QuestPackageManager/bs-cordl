@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LobbyGameStateModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\LobbyGameStateModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ public:
 
   static inline ::GlobalNamespace::LobbyGameStateModel* New_ctor();
 
-  /// @brief Method SetGameState, addr 0x3731bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetGameState, addr 0x3737760, size 0x8, virtual false, abstract: false, final false
   inline void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method SetGameState, addr 0x3731bf8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetGameState, addr 0x3737768, size 0x70, virtual false, abstract: false, final false
   inline void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification);
 
-  /// @brief Method SetGameStateWithoutNotification, addr 0x3731c68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetGameStateWithoutNotification, addr 0x37377d8, size 0x2c, virtual false, abstract: false, final false
   inline void SetGameStateWithoutNotification(::GlobalNamespace::MultiplayerGameState newGameState);
 
   constexpr ::GlobalNamespace::MultiplayerGameState const& __cordl_internal_get__gameState() const;
@@ -68,22 +68,22 @@ public:
 
   constexpr void __cordl_internal_set_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method .ctor, addr 0x3731c94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3737804, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_gameStateDidChangeAlwaysSentEvent, addr 0x3731a70, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_gameStateDidChangeAlwaysSentEvent, addr 0x37375e0, size 0xc0, virtual false, abstract: false, final false
   inline void add_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method add_gameStateDidChangeEvent, addr 0x37318f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_gameStateDidChangeEvent, addr 0x3737460, size 0xc0, virtual false, abstract: false, final false
   inline void add_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method get_gameState, addr 0x37318e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameState, addr 0x3737458, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerGameState get_gameState();
 
-  /// @brief Method remove_gameStateDidChangeAlwaysSentEvent, addr 0x3731b30, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_gameStateDidChangeAlwaysSentEvent, addr 0x37376a0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method remove_gameStateDidChangeEvent, addr 0x37319b0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_gameStateDidChangeEvent, addr 0x3737520, size 0xc0, virtual false, abstract: false, final false
   inline void remove_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
 protected:
@@ -101,7 +101,7 @@ public:
   LobbyGameStateModel(LobbyGameStateModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15102 };
 
   /// @brief Field gameStateDidChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerGameState>* ___gameStateDidChangeEvent;

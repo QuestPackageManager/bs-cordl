@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ConsoleCancelEventArgs.hpp"
+// IWYU pragma private; include "System\ConsoleCancelEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::ConsoleSpecialKey value);
 
-  /// @brief Method .ctor, addr 0x5c640f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c685b4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c6408c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c68548, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::ConsoleSpecialKey type);
 
-  /// @brief Method get_Cancel, addr 0x5c640f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cancel, addr 0x5c685ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_Cancel();
 
 protected:

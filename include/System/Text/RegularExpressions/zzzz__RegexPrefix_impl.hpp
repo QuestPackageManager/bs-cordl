@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/RegexPrefix.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\RegexPrefix.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexPrefix_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::RegexPrefix._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexPrefix::*)(::StringW, bool)>(&::System::Text::RegularExpressions::RegexPrefix::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63827d8;
+  constexpr static std::size_t addrs = 0x638a254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::RegularExpressions::RegexPrefix::*)()>(&::System::Text::RegularExpressions::RegexPrefix::get_CaseInsensitive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x638c990;
+  constexpr static std::size_t addrs = 0x639440c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(), { "get_CaseInsensitive", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::RegularExpressions::RegexPrefix (*)()>(&::System::Text::RegularExpressions::RegexPrefix::get_Empty)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x638c998;
+  constexpr static std::size_t addrs = 0x6394414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(), { "get_Empty", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::RegexPrefix::*)()>(&::System::Text::RegularExpressions::RegexPrefix::get_Prefix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x638c9f4;
+  constexpr static std::size_t addrs = 0x6394470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::RegexPrefix>(), { "get_Prefix", {}, {} })));

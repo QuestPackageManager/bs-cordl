@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextEventManager.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextEventManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,7 +84,7 @@ public:
   /// @brief Field TMP_SETTINGS_PROPERTY_EVENT, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_TMP_SETTINGS_PROPERTY_EVENT, put = setStaticF_TMP_SETTINGS_PROPERTY_EVENT)) ::UnityEngine::TextCore::Text::FastAction* TMP_SETTINGS_PROPERTY_EVENT;
 
-  /// @brief Method ON_FONT_PROPERTY_CHANGED, addr 0x6bfc6d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ON_FONT_PROPERTY_CHANGED, addr 0x6c04254, size 0x98, virtual false, abstract: false, final false
   static inline void ON_FONT_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* font);
 
   static inline ::UnityEngine::TextCore::Text::FastAction_1<::UnityW<::UnityEngine::Object>>* getStaticF_COLOR_GRADIENT_PROPERTY_EVENT();
@@ -152,7 +152,7 @@ public:
   TextEventManager(TextEventManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/ForceAsyncAwaiter.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\ForceAsyncAwaiter.hpp"
 #include "System/Threading/Tasks/zzzz__ForceAsyncAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::ForceAsyncAwaiter::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::ForceAsyncAwaiter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb82a0;
+  constexpr static std::size_t addrs = 0x5cbc75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ForceAsyncAwaiter (::System::Threading::Tasks::ForceAsyncAwaiter::*)()>(
     &::System::Threading::Tasks::ForceAsyncAwaiter::GetAwaiter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb82a8;
+  constexpr static std::size_t addrs = 0x5cbc764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::ForceAsyncAwaiter>(), { "GetAwaiter", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Tasks::ForceAsyncAwaiter::*)()>(&::System::Threading::Tasks::ForceAsyncAwaiter::get_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb82b0;
+  constexpr static std::size_t addrs = 0x5cbc76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::ForceAsyncAwaiter>(), { "get_IsCompleted", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::ForceAsyncAwaiter::*)()>(&::System::Threading::Tasks::ForceAsyncAwaiter::GetResult)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cb82b8;
+  constexpr static std::size_t addrs = 0x5cbc774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::ForceAsyncAwaiter>(), { "GetResult", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::ForceAsyncAwaiter::*)(::System::Action*)>(&::System::Threading::Tasks::ForceAsyncAwaiter::OnCompleted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cb82cc;
+  constexpr static std::size_t addrs = 0x5cbc788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::ForceAsyncAwaiter::*)(::System::Action*)>(&::System::Threading::Tasks::ForceAsyncAwaiter::UnsafeOnCompleted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cb82e8;
+  constexpr static std::size_t addrs = 0x5cbc7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

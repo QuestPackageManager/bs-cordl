@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/GroupPresenceOptions.hpp"
+// IWYU pragma private; include "Oculus\Platform\GroupPresenceOptions.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__GroupPresenceOptions_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)()>(&::Oculus::Platform::GroupPresenceOptions::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd06b4;
+  constexpr static std::size_t addrs = 0x5dd4b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::GroupPresenceOptions*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&::Oculus::Platform::GroupPresenceOptions::SetDeeplinkMessageOverride)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd0710;
+  constexpr static std::size_t addrs = 0x5dd4bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&::Oculus::Platform::GroupPresenceOptions::SetDestinationApiName)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd077c;
+  constexpr static std::size_t addrs = 0x5dd4c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)(bool)>(&::Oculus::Platform::GroupPresenceOptions::SetIsJoinable)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd07e8;
+  constexpr static std::size_t addrs = 0x5dd4ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&::Oculus::Platform::GroupPresenceOptions::SetLobbySessionId)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd0854;
+  constexpr static std::size_t addrs = 0x5dd4d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&::Oculus::Platform::GroupPresenceOptions::SetMatchSessionId)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd08c0;
+  constexpr static std::size_t addrs = 0x5dd4d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Oculus::Platform::GroupPresenceOptions*)>(&::Oculus::Platform::GroupPresenceOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dd092c;
+  constexpr static std::size_t addrs = 0x5dd4de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)()>(&::Oculus::Platform::GroupPresenceOptions::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5dd0938;
+  constexpr static std::size_t addrs = 0x5dd4df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

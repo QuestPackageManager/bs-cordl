@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/VisualElementUtils.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\VisualElementUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementUtils___c::*)()>(&::UnityEngine::UIElements::VisualElementUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cc57e0;
+  constexpr static std::size_t addrs = 0x6ccd364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementUtils___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualElementUtils___c::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElementUtils___c::_AssignInspectorStyleIfNecessary_b__5_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6cc57e4;
+  constexpr static std::size_t addrs = 0x6ccd368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::UIElements::VisualElementUtils::GetUniqueName)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6cc5394;
+  constexpr static std::size_t addrs = 0x6cccf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::VisualElementUtils::GetFoldoutDepth)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6cc54bc;
+  constexpr static std::size_t addrs = 0x6ccd040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementUtils*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::StringW)>(
     &::UnityEngine::UIElements::VisualElementUtils::AssignInspectorStyleIfNecessary)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6cc557c;
+  constexpr static std::size_t addrs = 0x6ccd100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

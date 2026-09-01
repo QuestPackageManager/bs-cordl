@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/ConstrainedPointSet.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\ConstrainedPointSet.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PointSet_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__ConstrainedPointSet_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::get_EdgeIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a9c48;
+  constexpr static std::size_t addrs = 0x66b16c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*>(), { "get_EdgeIndex", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::*)(::ArrayW<int32_t>)>(
     &::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::set_EdgeIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a9c50;
+  constexpr static std::size_t addrs = 0x66b16cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*, ::ArrayW<int32_t>)>(&::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x66a9c58;
+  constexpr static std::size_t addrs = 0x66b16d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::get_TriangulationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a9d00;
+  constexpr static std::size_t addrs = 0x66b177c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::Prepare)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x66a9d08;
+  constexpr static std::size_t addrs = 0x66b1784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/MqvPublicParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\MqvPublicParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_staticPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x3410f18, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3414cd8, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* staticPublicKey, ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);
 
-  /// @brief Method get_EphemeralPublicKey, addr 0x3411008, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicKey, addr 0x3414dc8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_EphemeralPublicKey();
 
-  /// @brief Method get_StaticPublicKey, addr 0x3411000, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPublicKey, addr 0x3414dc0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_StaticPublicKey();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

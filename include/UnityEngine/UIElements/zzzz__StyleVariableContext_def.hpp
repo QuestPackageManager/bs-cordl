@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleVariableContext.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleVariableContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,26 +84,26 @@ public:
   /// @brief Field none, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_none, put = setStaticF_none)) ::UnityEngine::UIElements::StyleVariableContext* none;
 
-  /// @brief Method Add, addr 0x6c95aa4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6c9d628, size 0x354, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::StyleVariable sv);
 
-  /// @brief Method AddInitialRange, addr 0x6c95e04, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method AddInitialRange, addr 0x6c9d988, size 0x15c, virtual false, abstract: false, final false
   inline void AddInitialRange(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method Clear, addr 0x6c95f60, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c9dae4, size 0xc8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetVariableHash, addr 0x6c96304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVariableHash, addr 0x6c9de88, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetVariableHash();
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor();
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor(::UnityEngine::UIElements::StyleVariableContext* other);
 
-  /// @brief Method TryFindVariable, addr 0x6c96218, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryFindVariable, addr 0x6c9dd9c, size 0xec, virtual false, abstract: false, final false
   inline bool TryFindVariable(::StringW name, ::by_ref<::UnityEngine::UIElements::StyleVariable> v);
 
-  /// @brief Method <Add>g__ComputeOrderSensitiveHash|7_0, addr 0x6c95df8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <Add>g__ComputeOrderSensitiveHash|7_0, addr 0x6c9d97c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t _Add_g__ComputeOrderSensitiveHash_7_0(int32_t index, ::by_ref<::UnityEngine::UIElements::StyleVariableContext___c__DisplayClass7_0> _cordl_fixed_empty_name_whitespace);
 
   constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_SortedHash() const;
@@ -130,10 +130,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Variables(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* value);
 
-  /// @brief Method .ctor, addr 0x6c96028, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9dbac, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6c96108, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9dc8c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleVariableContext* other);
 
   static inline ::UnityEngine::UIElements::StyleVariableContext* getStaticF_none();

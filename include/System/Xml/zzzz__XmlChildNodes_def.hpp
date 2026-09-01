@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlChildNodes.hpp"
+// IWYU pragma private; include "System\Xml\XmlChildNodes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
   /// @brief Field container, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container)) ::System::Xml::XmlNode* container;
 
-  /// @brief Method GetEnumerator, addr 0x62b3074, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x62baaf0, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method Item, addr 0x62b2fcc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Item, addr 0x62baa48, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* Item(int32_t i);
 
   static inline ::System::Xml::XmlChildNodes* New_ctor(::System::Xml::XmlNode* container);
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_container(::System::Xml::XmlNode* value);
 
-  /// @brief Method .ctor, addr 0x62b2fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62baa3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method get_Count, addr 0x62b3028, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x62baaa4, size 0x4c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
 protected:
@@ -66,7 +66,7 @@ public:
   XmlChildNodes(XmlChildNodes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9382 };
 
   /// @brief Field container, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlNode* ___container;

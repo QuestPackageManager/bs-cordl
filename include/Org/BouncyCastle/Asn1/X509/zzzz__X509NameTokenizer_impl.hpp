@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/X509NameTokenizer.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\X509NameTokenizer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509NameTokenizer_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)(::StringW)>(&::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3670030;
+  constexpr static std::size_t addrs = 0x3673df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)(::StringW, char16_t)>(&::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x36701ec;
+  constexpr static std::size_t addrs = 0x3673fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)()>(&::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::HasMoreTokens)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3670268;
+  constexpr static std::size_t addrs = 0x3674028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>(), { "HasMoreTokens", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)()>(&::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::NextToken)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3670038;
+  constexpr static std::size_t addrs = 0x3673df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>(), { "NextToken", {}, {} })));

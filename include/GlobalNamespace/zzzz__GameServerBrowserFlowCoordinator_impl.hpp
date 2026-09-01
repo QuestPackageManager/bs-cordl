@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameServerBrowserFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameServerBrowserFlowCoordinator.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerBrowserFlowCoordinator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameServerBrowserFlowCoordinator.DidActivate
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerBrowserFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::GameServerBrowserFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5926240;
+  constexpr static std::size_t addrs = 0x5929664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameServerBrowserFlowCoordinator*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerBrowserFlowCoordinator::*)()>(&::GlobalNamespace::GameServerBrowserFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5926244;
+  constexpr static std::size_t addrs = 0x5929668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameServerBrowserFlowCoordinator*>(), { ".ctor", {}, {} })));

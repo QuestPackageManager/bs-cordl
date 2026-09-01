@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerBigAvatarInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerBigAvatarInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBigAvatarInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberConnectedPlayer_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarInstaller::*)()>(&::GlobalNamespace::MultiplayerBigAvatarInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x59c7dac;
+  constexpr static std::size_t addrs = 0x59cfd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarInstaller::*)()>(&::GlobalNamespace::MultiplayerBigAvatarInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c82c4;
+  constexpr static std::size_t addrs = 0x59d0238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBigAvatarInstaller*>(), { ".ctor", {}, {} })));

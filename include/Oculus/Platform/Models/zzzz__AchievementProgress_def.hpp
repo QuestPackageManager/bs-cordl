@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/AchievementProgress.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\AchievementProgress.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_UnlockTime(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x5de91e0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ded69c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -90,7 +90,7 @@ public:
   AchievementProgress(AchievementProgress const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18011 };
 
   /// @brief Field Bitfield, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Bitfield;

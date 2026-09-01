@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/HashAlgorithm.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\HashAlgorithm.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,21 +21,21 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE HashAlgorithm : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x346769c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x346b45c, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW GetName(uint8_t hashAlgorithm);
 
-  /// @brief Method GetText, addr 0x3467794, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x346b554, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW GetText(uint8_t hashAlgorithm);
 
-  /// @brief Method IsPrivate, addr 0x3467908, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPrivate, addr 0x346b6c8, size 0x10, virtual false, abstract: false, final false
   static inline bool IsPrivate(uint8_t hashAlgorithm);
 
-  /// @brief Method IsRecognized, addr 0x3467918, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsRecognized, addr 0x346b6d8, size 0x14, virtual false, abstract: false, final false
   static inline bool IsRecognized(uint8_t hashAlgorithm);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HashAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0x346792c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346b6ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

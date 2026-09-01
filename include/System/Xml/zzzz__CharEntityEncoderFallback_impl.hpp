@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/CharEntityEncoderFallback.hpp"
+// IWYU pragma private; include "System\Xml\CharEntityEncoderFallback.hpp"
 #include "System/Text/zzzz__EncoderFallback_impl.hpp"
 #include "System/Xml/zzzz__CharEntityEncoderFallback_def.hpp"
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::CharEntityEncoderFallback::*)()>(&::System::Xml::CharEntityEncoderFallback::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61a5054;
+  constexpr static std::size_t addrs = 0x61acad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::CharEntityEncoderFallback*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::EncoderFallbackBuffer* (::System::Xml::CharEntityEncoderFallback::*)()>(
     &::System::Xml::CharEntityEncoderFallback::CreateFallbackBuffer)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x61a5058;
+  constexpr static std::size_t addrs = 0x61acad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::CharEntityEncoderFallback::*)()>(&::System::Xml::CharEntityEncoderFallback::get_MaxCharCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a50ec;
+  constexpr static std::size_t addrs = 0x61acb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::CharEntityEncoderFallback::*)(int32_t)>(&::System::Xml::CharEntityEncoderFallback::set_StartOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a50f4;
+  constexpr static std::size_t addrs = 0x61acb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::CharEntityEncoderFallback::*)(::ArrayW<int32_t>, int32_t)>(&::System::Xml::CharEntityEncoderFallback::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61a50fc;
+  constexpr static std::size_t addrs = 0x61acb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::CharEntityEncoderFallback::*)(int32_t)>(&::System::Xml::CharEntityEncoderFallback::CanReplaceAt)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x61a5108;
+  constexpr static std::size_t addrs = 0x61acb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

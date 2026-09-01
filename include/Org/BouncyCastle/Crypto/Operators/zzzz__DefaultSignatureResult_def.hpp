@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/DefaultSignatureResult.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Operators\DefaultSignatureResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-  /// @brief Method Collect, addr 0x3407518, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x340b2d8, size 0xa8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t> Collect();
 
-  /// @brief Method Collect, addr 0x34075c0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x340b380, size 0x40, virtual true, abstract: false, final true
   inline int32_t Collect(::ArrayW<uint8_t> sig, int32_t sigOff);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  /// @brief Method .ctor, addr 0x3407510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340b2d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"

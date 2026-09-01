@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/HelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\HelpURLAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__HelpURLAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::HelpURLAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HelpURLAttribute::*)(::StringW)>(&::UnityEngine::HelpURLAttribute::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6ad3118;
+  constexpr static std::size_t addrs = 0x6adab30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HelpURLAttribute*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::HelpURLAttribute::*)()>(&::UnityEngine::HelpURLAttribute::get_URL)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ad3178;
+  constexpr static std::size_t addrs = 0x6adab90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

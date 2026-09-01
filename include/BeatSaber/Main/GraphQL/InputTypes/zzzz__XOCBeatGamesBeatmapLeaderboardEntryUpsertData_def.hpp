@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/GraphQL/InputTypes/XOCBeatGamesBeatmapLeaderboardEntryUpsertData.hpp"
+// IWYU pragma private; include "BeatSaber\Main\GraphQL\InputTypes\XOCBeatGamesBeatmapLeaderboardEntryUpsertData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,7 +88,7 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId*() noexcept;
 
-  /// @brief Method GetParams, addr 0x329dc98, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetParams, addr 0x32a1a94, size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* GetParams();
 
   static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData* New_ctor();
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__params(::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x329dca4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a1aa0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryUpsertData"
@@ -111,46 +111,46 @@ public:
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId* i___OculusStudios__GraphQL__ClientInterface__IGraphQLInputSupportsClientMutationId() noexcept;
 
-  /// @brief Method set_AccuracyScore, addr 0x329d3c8, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method set_AccuracyScore, addr 0x32a11c4, size 0xb8, virtual true, abstract: false, final true
   inline void set_AccuracyScore(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_BadCutsCount, addr 0x329d480, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method set_BadCutsCount, addr 0x32a127c, size 0x98, virtual true, abstract: false, final true
   inline void set_BadCutsCount(int64_t value);
 
-  /// @brief Method set_Characteristic, addr 0x329d518, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method set_Characteristic, addr 0x32a1314, size 0xac, virtual true, abstract: false, final true
   inline void set_Characteristic(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic value);
 
-  /// @brief Method set_ClientMutationId, addr 0x329d5c4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method set_ClientMutationId, addr 0x32a13c0, size 0x80, virtual true, abstract: false, final true
   inline void set_ClientMutationId(::StringW value);
 
-  /// @brief Method set_ClientSongId, addr 0x329d644, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method set_ClientSongId, addr 0x32a1440, size 0x80, virtual true, abstract: false, final true
   inline void set_ClientSongId(::StringW value);
 
-  /// @brief Method set_CutAngle, addr 0x329d6c4, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method set_CutAngle, addr 0x32a14c0, size 0xb8, virtual true, abstract: false, final true
   inline void set_CutAngle(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_Difficulty, addr 0x329d77c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method set_Difficulty, addr 0x32a1578, size 0xac, virtual true, abstract: false, final true
   inline void set_Difficulty(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty value);
 
-  /// @brief Method set_MaxPerfectCombo, addr 0x329d828, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method set_MaxPerfectCombo, addr 0x32a1624, size 0xb8, virtual true, abstract: false, final true
   inline void set_MaxPerfectCombo(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_MissedCutsCount, addr 0x329d8e0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method set_MissedCutsCount, addr 0x32a16dc, size 0x98, virtual true, abstract: false, final true
   inline void set_MissedCutsCount(int64_t value);
 
-  /// @brief Method set_ModifierMask, addr 0x329d978, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method set_ModifierMask, addr 0x32a1774, size 0x98, virtual true, abstract: false, final true
   inline void set_ModifierMask(int64_t value);
 
-  /// @brief Method set_PausesCount, addr 0x329da10, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method set_PausesCount, addr 0x32a180c, size 0xb8, virtual true, abstract: false, final true
   inline void set_PausesCount(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_PlayerRoot, addr 0x329dac8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method set_PlayerRoot, addr 0x32a18c4, size 0x80, virtual true, abstract: false, final true
   inline void set_PlayerRoot(::StringW value);
 
-  /// @brief Method set_Score, addr 0x329db48, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method set_Score, addr 0x32a1944, size 0x98, virtual true, abstract: false, final true
   inline void set_Score(int64_t value);
 
-  /// @brief Method set_SwingScore, addr 0x329dbe0, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method set_SwingScore, addr 0x32a19dc, size 0xb8, virtual true, abstract: false, final true
   inline void set_SwingScore(::System::Nullable_1<int64_t> value);
 
 protected:
@@ -168,7 +168,7 @@ public:
   XOCBeatGamesBeatmapLeaderboardEntryUpsertData(XOCBeatGamesBeatmapLeaderboardEntryUpsertData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20582 };
 
   /// @brief Field _params, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* ____params;

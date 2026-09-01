@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/Internal/ZenUtilInternal.hpp"
+// IWYU pragma private; include "Zenject\Internal\ZenUtilInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,19 +103,19 @@ public:
 
   static inline ::Zenject::Internal::ZenUtilInternal___c* New_ctor();
 
-  /// @brief Method <GetAllSceneContexts>b__3_0, addr 0x6e9eba8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <GetAllSceneContexts>b__3_0, addr 0x6ea672c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* _GetAllSceneContexts_b__3_0(::UnityEngine::GameObject* root);
 
-  /// @brief Method <GetRootGameObjects>b__10_0, addr 0x6e9ebfc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <GetRootGameObjects>b__10_0, addr 0x6ea6780, size 0x94, virtual false, abstract: false, final false
   inline bool _GetRootGameObjects_b__10_0(::UnityEngine::GameObject* x);
 
-  /// @brief Method __zenCreate, addr 0x6e9ec90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6ea6814, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9ecd4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6ea6858, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e9eba4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ea6728, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::Internal::ZenUtilInternal___c* getStaticF___9();
@@ -145,7 +145,7 @@ public:
   ZenUtilInternal___c(ZenUtilInternal___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -165,7 +165,7 @@ public:
 
   static inline ::Zenject::Internal::ZenUtilInternal___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <GetRootGameObjects>b__1, addr 0x6e9ee68, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <GetRootGameObjects>b__1, addr 0x6ea69ec, size 0x108, virtual false, abstract: false, final false
   inline bool _GetRootGameObjects_b__1(::UnityEngine::GameObject* x);
 
   constexpr ::UnityEngine::SceneManagement::Scene const& __cordl_internal_get_scene() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set_scene(::UnityEngine::SceneManagement::Scene value);
 
-  /// @brief Method .ctor, addr 0x6e9eb4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ea66d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -192,7 +192,7 @@ public:
   ZenUtilInternal___c__DisplayClass10_0(ZenUtilInternal___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14750 };
 
   /// @brief Field scene, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::SceneManagement::Scene ___scene;
@@ -244,27 +244,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6e9ef8c, size 0x48c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6ea6b10, size 0x48c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Zenject::Internal::ZenUtilInternal__GetAllSceneContexts_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.SceneContext>.GetEnumerator, addr 0x6e9f514, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.SceneContext>.GetEnumerator, addr 0x6ea7098, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>* System_Collections_Generic_IEnumerable_Zenject_SceneContext__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current, addr 0x6e9f4cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current, addr 0x6ea7050, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::Zenject::SceneContext> System_Collections_Generic_IEnumerator_Zenject_SceneContext__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6e9f5a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6ea7124, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6e9f4d4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6ea7058, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6e9f50c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6ea7090, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6e9ef70, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6ea6af4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -291,10 +291,10 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x6e9f418, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x6ea6f9c, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x6e9dd9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ea5920, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>"
@@ -327,7 +327,7 @@ public:
   ZenUtilInternal__GetAllSceneContexts_d__3(ZenUtilInternal__GetAllSceneContexts_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14751 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -368,39 +368,39 @@ public:
 
   using __c__DisplayClass10_0 = ::Zenject::Internal::ZenUtilInternal___c__DisplayClass10_0;
 
-  /// @brief Method AddStateMachineBehaviourAutoInjectersInScene, addr 0x6e9ddbc, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method AddStateMachineBehaviourAutoInjectersInScene, addr 0x6ea5940, size 0x2fc, virtual false, abstract: false, final false
   static inline void AddStateMachineBehaviourAutoInjectersInScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method AddStateMachineBehaviourAutoInjectersUnderGameObject, addr 0x6e9e2a0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method AddStateMachineBehaviourAutoInjectersUnderGameObject, addr 0x6ea5e24, size 0x158, virtual false, abstract: false, final false
   static inline void AddStateMachineBehaviourAutoInjectersUnderGameObject(::UnityEngine::GameObject* root);
 
-  /// @brief Method AreFunctionsEqual, addr 0x6e9db40, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AreFunctionsEqual, addr 0x6ea56c4, size 0xe0, virtual false, abstract: false, final false
   static inline bool AreFunctionsEqual(::System::Delegate* left, ::System::Delegate* right);
 
-  /// @brief Method GetAllSceneContexts, addr 0x6e9dd34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetAllSceneContexts, addr 0x6ea58b8, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* GetAllSceneContexts();
 
-  /// @brief Method GetInheritanceDelta, addr 0x6e9dc20, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetInheritanceDelta, addr 0x6ea57a4, size 0x114, virtual false, abstract: false, final false
   static inline int32_t GetInheritanceDelta(::System::Type* derived, ::System::Type* parent);
 
-  /// @brief Method GetInjectableMonoBehavioursInScene, addr 0x6e9e3f8, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursInScene, addr 0x6ea5f7c, size 0x304, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
-  /// @brief Method GetInjectableMonoBehavioursUnderGameObject, addr 0x6e9ea6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursUnderGameObject, addr 0x6ea65f0, size 0x4, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursUnderGameObject(::UnityEngine::GameObject* gameObject,
                                                                 ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents);
 
-  /// @brief Method GetInjectableMonoBehavioursUnderGameObjectInternal, addr 0x6e9e6fc, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursUnderGameObjectInternal, addr 0x6ea6280, size 0x370, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursUnderGameObjectInternal(::UnityEngine::GameObject* gameObject,
                                                                         ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents);
 
-  /// @brief Method GetRootGameObjects, addr 0x6e9e0b8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x6ea5c3c, size 0x1e8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method IsInjectableMonoBehaviourType, addr 0x6e9ea70, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method IsInjectableMonoBehaviourType, addr 0x6ea65f4, size 0xdc, virtual false, abstract: false, final false
   static inline bool IsInjectableMonoBehaviourType(::System::Type* type);
 
-  /// @brief Method IsNull, addr 0x6e9db24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6ea56a8, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNull(::System::Object* obj);
 
 protected:
@@ -418,7 +418,7 @@ public:
   ZenUtilInternal(ZenUtilInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

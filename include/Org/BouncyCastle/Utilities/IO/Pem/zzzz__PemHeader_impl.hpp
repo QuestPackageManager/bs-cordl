@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemHeader.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\Pem\PemHeader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemHeader_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x362bb04;
+  constexpr static std::size_t addrs = 0x362f8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(&::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x362bb0c;
+  constexpr static std::size_t addrs = 0x362f8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(&::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x362bb14;
+  constexpr static std::size_t addrs = 0x362f8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(&::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x362bb1c;
+  constexpr static std::size_t addrs = 0x362f8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::System::Object*)>(&::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::Equals)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x362bb80;
+  constexpr static std::size_t addrs = 0x362f940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::StringW)>(&::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x362bb6c;
+  constexpr static std::size_t addrs = 0x362f92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

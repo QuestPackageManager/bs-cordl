@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MenuScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\MenuScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE MenuScenesTransitionSetupData : public ::GlobalNamespace::ScenesTransitionSetupData {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x590bd3c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x590f214, size 0xc0, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MenuScenesTransitionSetupData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x590bdfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590f2d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   MenuScenesTransitionSetupData(MenuScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

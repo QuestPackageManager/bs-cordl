@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapDataStats.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapDataStats.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Range_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataStats_def.hpp"
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Span_1<int32_t> (*)(::ArrayW<::GlobalNamespace::BeatmapDataItem*>)>(&::GlobalNamespace::BeatmapDataStats::CountItems)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x58e8b14;
+  constexpr static std::size_t addrs = 0x58ec144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::GlobalNamespace::BeatmapDataItem*>, ::System::Span_1<int32_t>, ::System::Span_1<int32_t>)>(
     &::GlobalNamespace::BeatmapDataStats::CountItems)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x58e8cec;
+  constexpr static std::size_t addrs = 0x58ec31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Span_1<int32_t>)>(&::GlobalNamespace::BeatmapDataStats::SumCounts)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58e90dc;
+  constexpr static std::size_t addrs = 0x58ec70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Span_1<int32_t>)>(&::GlobalNamespace::BeatmapDataStats::GenerateReport)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x58e9150;
+  constexpr static std::size_t addrs = 0x58ec780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AssertExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\AssertExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AssertExtensions_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AssertExtensions.LessThan
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, ::StringW)>(&::GlobalNamespace::AssertExtensions::LessThan)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x331ddd4;
+  constexpr static std::size_t addrs = 0x3321b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AssertExtensions*>(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, ::StringW)>(&::GlobalNamespace::AssertExtensions::GreaterOrEqual)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x331ddd8;
+  constexpr static std::size_t addrs = 0x3321b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/CustomizableEnvironmentCommandLineArgsProvider.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\CustomizableEnvironmentCommandLineArgsProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ namespace BGLib::AppFlow::Initialization {
 class CORDL_TYPE CustomizableEnvironmentCommandLineArgsProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCommandLineArgs, addr 0x330607c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCommandLineArgs, addr 0x3309e78, size 0x10, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetCommandLineArgs();
 
 protected:
@@ -39,7 +39,7 @@ public:
   CustomizableEnvironmentCommandLineArgsProvider(CustomizableEnvironmentCommandLineArgsProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

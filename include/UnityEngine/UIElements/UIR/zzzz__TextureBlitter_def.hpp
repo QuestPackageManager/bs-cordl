@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureBlitter.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextureBlitter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,30 +152,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BeginBlit, addr 0x6ceadb8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method BeginBlit, addr 0x6cf293c, size 0x254, virtual false, abstract: false, final false
   inline void BeginBlit(::UnityEngine::RenderTexture* dst);
 
-  /// @brief Method BlitOneNow, addr 0x6cead40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BlitOneNow, addr 0x6cf28c4, size 0x78, virtual false, abstract: false, final false
   inline void BlitOneNow(::UnityEngine::RenderTexture* dst, ::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
-  /// @brief Method Commit, addr 0x6ceb768, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x6cf32ec, size 0x10c, virtual false, abstract: false, final false
   inline void Commit(::UnityEngine::RenderTexture* dst);
 
-  /// @brief Method Dispose, addr 0x6cea900, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cf2484, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cea970, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6cf24f4, size 0x88, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DoBlit, addr 0x6ceb00c, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method DoBlit, addr 0x6cf2b90, size 0x6dc, virtual false, abstract: false, final false
   inline void DoBlit(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>* blitInfos, int32_t startIndex);
 
-  /// @brief Method EndBlit, addr 0x6ceb6e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EndBlit, addr 0x6cf326c, size 0x80, virtual false, abstract: false, final false
   inline void EndBlit();
 
   static inline ::UnityEngine::UIElements::UIR::TextureBlitter* New_ctor(int32_t capacity);
 
-  /// @brief Method QueueBlit, addr 0x6ceabe4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method QueueBlit, addr 0x6cf2768, size 0x15c, virtual false, abstract: false, final false
   inline void QueueBlit(::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -220,14 +220,14 @@ public:
 
   constexpr void __cordl_internal_set_m_Viewport(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x6ceab34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf26b8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   static inline ::ArrayW<int32_t> getStaticF_k_TextureIds();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_CommitSampler();
 
-  /// @brief Method get_disposed, addr 0x6cea8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6cf2474, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
@@ -237,7 +237,7 @@ public:
 
   static inline void setStaticF_s_CommitSampler(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_disposed, addr 0x6cea8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6cf247c, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithUserReportID.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithUserReportID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUserReportID : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserReportID*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5dd91ac, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5ddd668, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserReportID* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetUserReportID, addr 0x5dd9168, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetUserReportID, addr 0x5ddd624, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserReportID* GetUserReportID();
 
   static inline ::Oculus::Platform::MessageWithUserReportID* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5dd910c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ddd5c8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithUserReportID(MessageWithUserReportID const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

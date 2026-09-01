@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsSessionImpl.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsSessionImpl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,10 +43,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSession"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSession*() noexcept;
 
-  /// @brief Method ExportSessionParameters, addr 0x348c8a8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ExportSessionParameters, addr 0x3490668, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* ExportSessionParameters();
 
-  /// @brief Method Invalidate, addr 0x348c984, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Invalidate, addr 0x3490744, size 0x1c, virtual true, abstract: false, final false
   inline void Invalidate();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl* New_ctor(::ArrayW<uint8_t> sessionID, ::Org::BouncyCastle::Crypto::Tls::SessionParameters* sessionParameters);
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set_mSessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters* value);
 
-  /// @brief Method .ctor, addr 0x348c770, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3490530, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> sessionID, ::Org::BouncyCastle::Crypto::Tls::SessionParameters* sessionParameters);
 
-  /// @brief Method get_IsResumable, addr 0x348c9a0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_IsResumable, addr 0x3490760, size 0x2c, virtual true, abstract: false, final false
   inline bool get_IsResumable();
 
-  /// @brief Method get_SessionID, addr 0x348c958, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_SessionID, addr 0x3490718, size 0x2c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_SessionID();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSession"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TubeLightIntensityBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace\TubeLightIntensityBehaviour.hpp"
 #include "GlobalNamespace/zzzz__DirectionalLight_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData,
                                                                                                                 ::System::Object*)>(&::GlobalNamespace::TubeLightIntensityBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x5907a20;
+  constexpr static std::size_t addrs = 0x590b00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)(bool)>(&::GlobalNamespace::TubeLightIntensityBehaviour::EnableObjects)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5907da0;
+  constexpr static std::size_t addrs = 0x590b38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::TubeLightIntensityBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5907e60;
+  constexpr static std::size_t addrs = 0x590b44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)()>(&::GlobalNamespace::TubeLightIntensityBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5907f30;
+  constexpr static std::size_t addrs = 0x590b51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeLightIntensityBehaviour*>(), { ".ctor", {}, {} })));

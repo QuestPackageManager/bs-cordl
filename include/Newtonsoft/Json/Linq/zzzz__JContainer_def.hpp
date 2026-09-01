@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Linq/JContainer.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Linq\JContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -204,27 +204,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d6d30c, size 0x4e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d717c8, size 0x4e4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Newtonsoft::Json::Linq::JContainer__GetDescendants_d__36* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x5d6d9a0, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x5d71e5c, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x5d6d958, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x5d71e14, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5d6da40, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5d71efc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d6d960, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d71e1c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d6d998, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d71e54, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d6d25c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d71718, size 0xb0, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -281,13 +281,13 @@ public:
 
   constexpr void __cordl_internal_set_self(bool value);
 
-  /// @brief Method <>m__Finally1, addr 0x5d6d8a4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5d71d60, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x5d6d7f0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x5d71cac, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x5d69f44, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6e400, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
@@ -320,7 +320,7 @@ public:
   JContainer__GetDescendants_d__36(JContainer__GetDescendants_d__36 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13581 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -384,10 +384,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d6da44, size 0x970, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d71f00, size 0x970, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5d6e3b4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d72870, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -411,7 +411,7 @@ public:
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13582 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -483,10 +483,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d6e420, size 0x564, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d728dc, size 0x564, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5d6e984, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d72e40, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -509,7 +509,7 @@ public:
                                                 ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13583 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -665,82 +665,82 @@ public:
   /// @brief Convert operator to "::System::ComponentModel::ITypedList"
   constexpr operator ::System::ComponentModel::ITypedList*() noexcept;
 
-  /// @brief Method Add, addr 0x5d6babc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x5d6ff78, size 0xdc, virtual true, abstract: false, final false
   inline void Add(::System::Object* content);
 
-  /// @brief Method AddAndSkipParentCheck, addr 0x5d6bc74, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddAndSkipParentCheck, addr 0x5d70130, size 0xdc, virtual false, abstract: false, final false
   inline void AddAndSkipParentCheck(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method AddFirst, addr 0x5d6bd50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AddFirst, addr 0x5d7020c, size 0x14, virtual false, abstract: false, final false
   inline void AddFirst(::System::Object* content);
 
-  /// @brief Method CheckReentrancy, addr 0x5d698a8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckReentrancy, addr 0x5d6dd64, size 0xa0, virtual false, abstract: false, final false
   inline void CheckReentrancy();
 
-  /// @brief Method Children, addr 0x5d69e3c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Children, addr 0x5d6e2f8, size 0x78, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JEnumerable_1<::Newtonsoft::Json::Linq::JToken*> Children();
 
-  /// @brief Method ClearItems, addr 0x5d6b068, size 0x3ec, virtual true, abstract: false, final false
+  /// @brief Method ClearItems, addr 0x5d6f524, size 0x3ec, virtual true, abstract: false, final false
   inline void ClearItems();
 
-  /// @brief Method ContainsItem, addr 0x5d6b4b8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ContainsItem, addr 0x5d6f974, size 0x24, virtual true, abstract: false, final false
   inline bool ContainsItem(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method ContentsEqual, addr 0x5d67580, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method ContentsEqual, addr 0x5d6ba3c, size 0x2d0, virtual false, abstract: false, final false
   inline bool ContentsEqual(::Newtonsoft::Json::Linq::JContainer* container);
 
-  /// @brief Method ContentsHashCode, addr 0x5d67c1c, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ContentsHashCode, addr 0x5d6c0d8, size 0x2ec, virtual false, abstract: false, final false
   inline int32_t ContentsHashCode();
 
-  /// @brief Method CopyItemsTo, addr 0x5d6b4dc, size 0x40c, virtual true, abstract: false, final false
+  /// @brief Method CopyItemsTo, addr 0x5d6f998, size 0x40c, virtual true, abstract: false, final false
   inline void CopyItemsTo(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method CreateChildrenCollection, addr 0x5d69948, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CreateChildrenCollection, addr 0x5d6de04, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* CreateChildrenCollection();
 
-  /// @brief Method CreateFromContent, addr 0x5d6bd64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateFromContent, addr 0x5d70220, size 0xbc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JToken* CreateFromContent(::System::Object* content);
 
-  /// @brief Method CreateWriter, addr 0x5d6be20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateWriter, addr 0x5d702dc, size 0x60, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonWriter* CreateWriter();
 
-  /// @brief Method Descendants, addr 0x5d69eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Descendants, addr 0x5d6e370, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Descendants();
 
-  /// @brief Method DescendantsAndSelf, addr 0x5d69f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DescendantsAndSelf, addr 0x5d6e3f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* DescendantsAndSelf();
 
-  /// @brief Method EnsureParentToken, addr 0x5d6a044, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EnsureParentToken, addr 0x5d6e500, size 0x114, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* EnsureParentToken(::Newtonsoft::Json::Linq::JToken* item, bool skipParentCheck, bool copyAnnotations);
 
-  /// @brief Method EnsureValue, addr 0x5d6cbf0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method EnsureValue, addr 0x5d710ac, size 0xc0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* EnsureValue(::System::Object* value);
 
-  /// @brief Method GetDescendants, addr 0x5d69ebc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetDescendants, addr 0x5d6e378, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* GetDescendants(bool self);
 
-  /// @brief Method GetItem, addr 0x5d6aa24, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetItem, addr 0x5d6eee0, size 0xc8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* GetItem(int32_t index);
 
   /// @brief Method IndexOfItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t IndexOfItem(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method InsertItem, addr 0x5d6a170, size 0x404, virtual true, abstract: false, final false
+  /// @brief Method InsertItem, addr 0x5d6e62c, size 0x404, virtual true, abstract: false, final false
   inline bool InsertItem(int32_t index, ::Newtonsoft::Json::Linq::JToken* item, bool skipParentCheck, bool copyAnnotations);
 
-  /// @brief Method IsMultiContent, addr 0x5d69f64, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsMultiContent, addr 0x5d6e420, size 0xe0, virtual false, abstract: false, final false
   inline bool IsMultiContent(::System::Object* content);
 
-  /// @brief Method IsTokenUnchanged, addr 0x5d6afa8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsTokenUnchanged, addr 0x5d6f464, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsTokenUnchanged(::Newtonsoft::Json::Linq::JToken* currentValue, ::Newtonsoft::Json::Linq::JToken* newValue);
 
-  /// @brief Method Merge, addr 0x5d6bed4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x5d70390, size 0x40, virtual false, abstract: false, final false
   inline void Merge(::System::Object* content);
 
-  /// @brief Method Merge, addr 0x5d6c05c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x5d70518, size 0x44, virtual false, abstract: false, final false
   inline void Merge(::System::Object* content, ::Newtonsoft::Json::Linq::JsonMergeSettings* settings);
 
-  /// @brief Method MergeEnumerableContent, addr 0x5d6611c, size 0xcbc, virtual false, abstract: false, final false
+  /// @brief Method MergeEnumerableContent, addr 0x5d6a5d8, size 0xcbc, virtual false, abstract: false, final false
   static inline void MergeEnumerableContent(::Newtonsoft::Json::Linq::JContainer* target, ::System::Collections::IEnumerable* content, ::Newtonsoft::Json::Linq::JsonMergeSettings* settings);
 
   /// @brief Method MergeItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -750,187 +750,187 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JContainer* New_ctor(::Newtonsoft::Json::Linq::JContainer* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method OnAddingNew, addr 0x5d699b8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnAddingNew, addr 0x5d6de74, size 0x28, virtual true, abstract: false, final false
   inline void OnAddingNew(::System::ComponentModel::AddingNewEventArgs* e);
 
-  /// @brief Method OnCollectionChanged, addr 0x5d69a68, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method OnCollectionChanged, addr 0x5d6df24, size 0x88, virtual true, abstract: false, final false
   inline void OnCollectionChanged(::System::Collections::Specialized::NotifyCollectionChangedEventArgs* e);
 
-  /// @brief Method OnListChanged, addr 0x5d699e0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method OnListChanged, addr 0x5d6de9c, size 0x88, virtual true, abstract: false, final false
   inline void OnListChanged(::System::ComponentModel::ListChangedEventArgs* e);
 
-  /// @brief Method ReadContentFrom, addr 0x5d6c0a0, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method ReadContentFrom, addr 0x5d7055c, size 0x440, virtual false, abstract: false, final false
   inline void ReadContentFrom(::Newtonsoft::Json::JsonReader* r, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings);
 
-  /// @brief Method ReadContentFromAsync, addr 0x5d69070, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReadContentFromAsync, addr 0x5d6d52c, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadContentFromAsync(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings,
                                                                 ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadProperty, addr 0x5d6c550, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ReadProperty, addr 0x5d70a0c, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JProperty* ReadProperty(::Newtonsoft::Json::JsonReader* r, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings, ::Newtonsoft::Json::IJsonLineInfo* lineInfo,
                                                                   ::Newtonsoft::Json::Linq::JContainer* parent);
 
-  /// @brief Method ReadTokenFrom, addr 0x5d682a8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ReadTokenFrom, addr 0x5d6c764, size 0x168, virtual false, abstract: false, final false
   inline void ReadTokenFrom(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* options);
 
-  /// @brief Method ReadTokenFromAsync, addr 0x5d68ab0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReadTokenFromAsync, addr 0x5d6cf6c, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadTokenFromAsync(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* options,
                                                               ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method RemoveAll, addr 0x5d6bec4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method RemoveAll, addr 0x5d70380, size 0x10, virtual false, abstract: false, final false
   inline void RemoveAll();
 
-  /// @brief Method RemoveItem, addr 0x5d6a9d0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method RemoveItem, addr 0x5d6ee8c, size 0x54, virtual true, abstract: false, final false
   inline bool RemoveItem(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method RemoveItemAt, addr 0x5d6a574, size 0x45c, virtual true, abstract: false, final false
+  /// @brief Method RemoveItemAt, addr 0x5d6ea30, size 0x45c, virtual true, abstract: false, final false
   inline void RemoveItemAt(int32_t index);
 
-  /// @brief Method ReplaceAll, addr 0x5d6be80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReplaceAll, addr 0x5d7033c, size 0x44, virtual false, abstract: false, final false
   inline void ReplaceAll(::System::Object* content);
 
-  /// @brief Method ReplaceItem, addr 0x5d6b454, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReplaceItem, addr 0x5d6f910, size 0x64, virtual true, abstract: false, final false
   inline void ReplaceItem(::Newtonsoft::Json::Linq::JToken* existing, ::Newtonsoft::Json::Linq::JToken* replacement);
 
-  /// @brief Method SetItem, addr 0x5d6aaec, size 0x4bc, virtual true, abstract: false, final false
+  /// @brief Method SetItem, addr 0x5d6efa8, size 0x4bc, virtual true, abstract: false, final false
   inline void SetItem(int32_t index, ::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Add, addr 0x5d6cb98, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Add, addr 0x5d71054, size 0x10, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_Newtonsoft_Json_Linq_JToken__Add(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Clear, addr 0x5d6cba8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Clear, addr 0x5d71064, size 0x10, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_Newtonsoft_Json_Linq_JToken__Clear();
 
-  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Contains, addr 0x5d6cbb8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Contains, addr 0x5d71074, size 0x10, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_Newtonsoft_Json_Linq_JToken__Contains(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.CopyTo, addr 0x5d6cbc8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.CopyTo, addr 0x5d71084, size 0x10, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_Newtonsoft_Json_Linq_JToken__CopyTo(::ArrayW<::Newtonsoft::Json::Linq::JToken*> array, int32_t arrayIndex);
 
-  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Remove, addr 0x5d6cbe0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.Remove, addr 0x5d7109c, size 0x10, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_Newtonsoft_Json_Linq_JToken__Remove(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.get_IsReadOnly, addr 0x5d6cbd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.ICollection<Newtonsoft.Json.Linq.JToken>.get_IsReadOnly, addr 0x5d71094, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_Newtonsoft_Json_Linq_JToken__get_IsReadOnly();
 
-  /// @brief Method System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.IndexOf, addr 0x5d6cb40, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.IndexOf, addr 0x5d70ffc, size 0x10, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IList_Newtonsoft_Json_Linq_JToken__IndexOf(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.Insert, addr 0x5d6cb50, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.Insert, addr 0x5d7100c, size 0x18, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_Newtonsoft_Json_Linq_JToken__Insert(int32_t index, ::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.RemoveAt, addr 0x5d6cb68, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.RemoveAt, addr 0x5d71024, size 0x10, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_Newtonsoft_Json_Linq_JToken__RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.get_Item, addr 0x5d6cb78, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.get_Item, addr 0x5d71034, size 0x10, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IList_Newtonsoft_Json_Linq_JToken__get_Item(int32_t index);
 
-  /// @brief Method System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.set_Item, addr 0x5d6cb88, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IList<Newtonsoft.Json.Linq.JToken>.set_Item, addr 0x5d71044, size 0x10, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_Newtonsoft_Json_Linq_JToken__set_Item(int32_t index, ::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x5d6ce58, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x5d71314, size 0x10, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x5d6ce68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x5d71324, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x5d6ce70, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x5d7132c, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IList.Add, addr 0x5d6ccb0, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Add, addr 0x5d7116c, size 0x44, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_Add(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Clear, addr 0x5d6ccf4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Clear, addr 0x5d711b0, size 0x10, virtual true, abstract: false, final true
   inline void System_Collections_IList_Clear();
 
-  /// @brief Method System.Collections.IList.Contains, addr 0x5d6cd04, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Contains, addr 0x5d711c0, size 0x34, virtual true, abstract: false, final true
   inline bool System_Collections_IList_Contains(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.IndexOf, addr 0x5d6cd38, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.IndexOf, addr 0x5d711f4, size 0x34, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_IndexOf(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Insert, addr 0x5d6cd6c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Insert, addr 0x5d71228, size 0x48, virtual true, abstract: false, final true
   inline void System_Collections_IList_Insert(int32_t index, ::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Remove, addr 0x5d6cdc4, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Remove, addr 0x5d71280, size 0x34, virtual true, abstract: false, final true
   inline void System_Collections_IList_Remove(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.RemoveAt, addr 0x5d6cdf8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.RemoveAt, addr 0x5d712b4, size 0x10, virtual true, abstract: false, final true
   inline void System_Collections_IList_RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x5d6cdb4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x5d71270, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsFixedSize();
 
-  /// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x5d6cdbc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x5d71278, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsReadOnly();
 
-  /// @brief Method System.Collections.IList.get_Item, addr 0x5d6ce08, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_Item, addr 0x5d712c4, size 0x10, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IList_get_Item(int32_t index);
 
-  /// @brief Method System.Collections.IList.set_Item, addr 0x5d6ce18, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.set_Item, addr 0x5d712d4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IList_set_Item(int32_t index, ::System::Object* value);
 
-  /// @brief Method System.ComponentModel.IBindingList.AddIndex, addr 0x5d6cedc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.AddIndex, addr 0x5d71398, size 0x4, virtual true, abstract: false, final true
   inline void System_ComponentModel_IBindingList_AddIndex(::System::ComponentModel::PropertyDescriptor* property);
 
-  /// @brief Method System.ComponentModel.IBindingList.AddNew, addr 0x5d6cee0, size 0x1c8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.AddNew, addr 0x5d7139c, size 0x1c8, virtual true, abstract: false, final true
   inline ::System::Object* System_ComponentModel_IBindingList_AddNew();
 
-  /// @brief Method System.ComponentModel.IBindingList.ApplySort, addr 0x5d6d0c0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.ApplySort, addr 0x5d7157c, size 0x38, virtual true, abstract: false, final true
   inline void System_ComponentModel_IBindingList_ApplySort(::System::ComponentModel::PropertyDescriptor* property, ::System::ComponentModel::ListSortDirection direction);
 
-  /// @brief Method System.ComponentModel.IBindingList.Find, addr 0x5d6d0f8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.Find, addr 0x5d715b4, size 0x38, virtual true, abstract: false, final true
   inline int32_t System_ComponentModel_IBindingList_Find(::System::ComponentModel::PropertyDescriptor* property, ::System::Object* key);
 
-  /// @brief Method System.ComponentModel.IBindingList.RemoveIndex, addr 0x5d6d138, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.RemoveIndex, addr 0x5d715f4, size 0x4, virtual true, abstract: false, final true
   inline void System_ComponentModel_IBindingList_RemoveIndex(::System::ComponentModel::PropertyDescriptor* property);
 
-  /// @brief Method System.ComponentModel.IBindingList.RemoveSort, addr 0x5d6d13c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.RemoveSort, addr 0x5d715f8, size 0x38, virtual true, abstract: false, final true
   inline void System_ComponentModel_IBindingList_RemoveSort();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_AllowEdit, addr 0x5d6d0a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_AllowEdit, addr 0x5d71564, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_AllowEdit();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_AllowNew, addr 0x5d6d0b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_AllowNew, addr 0x5d7156c, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_AllowNew();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_AllowRemove, addr 0x5d6d0b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_AllowRemove, addr 0x5d71574, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_AllowRemove();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_IsSorted, addr 0x5d6d130, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_IsSorted, addr 0x5d715ec, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_IsSorted();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_SortDirection, addr 0x5d6d174, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_SortDirection, addr 0x5d71630, size 0x8, virtual true, abstract: false, final true
   inline ::System::ComponentModel::ListSortDirection System_ComponentModel_IBindingList_get_SortDirection();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_SortProperty, addr 0x5d6d17c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_SortProperty, addr 0x5d71638, size 0x8, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptor* System_ComponentModel_IBindingList_get_SortProperty();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_SupportsChangeNotification, addr 0x5d6d184, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_SupportsChangeNotification, addr 0x5d71640, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_SupportsChangeNotification();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_SupportsSearching, addr 0x5d6d18c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_SupportsSearching, addr 0x5d71648, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_SupportsSearching();
 
-  /// @brief Method System.ComponentModel.IBindingList.get_SupportsSorting, addr 0x5d6d194, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.IBindingList.get_SupportsSorting, addr 0x5d71650, size 0x8, virtual true, abstract: false, final true
   inline bool System_ComponentModel_IBindingList_get_SupportsSorting();
 
-  /// @brief Method System.ComponentModel.ITypedList.GetItemProperties, addr 0x5d6c9d0, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ITypedList.GetItemProperties, addr 0x5d70e8c, size 0x170, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ITypedList_GetItemProperties(::ArrayW<::System::ComponentModel::PropertyDescriptor*> listAccessors);
 
-  /// @brief Method System.ComponentModel.ITypedList.GetListName, addr 0x5d6c9bc, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ITypedList.GetListName, addr 0x5d70e78, size 0x14, virtual true, abstract: false, final true
   inline ::StringW System_ComponentModel_ITypedList_GetListName(::ArrayW<::System::ComponentModel::PropertyDescriptor*> listAccessors);
 
-  /// @brief Method TryAdd, addr 0x5d6bb98, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method TryAdd, addr 0x5d70054, size 0xdc, virtual false, abstract: false, final false
   inline bool TryAdd(::System::Object* content);
 
-  /// @brief Method TryAddInternal, addr 0x5d69534, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method TryAddInternal, addr 0x5d6d9f0, size 0x374, virtual false, abstract: false, final false
   inline bool TryAddInternal(int32_t index, ::System::Object* content, bool skipParentCheck, bool copyAnnotations);
 
-  /// @brief Method ValidateContent, addr 0x5d6bf14, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ValidateContent, addr 0x5d703d0, size 0x148, virtual false, abstract: false, final false
   inline void ValidateContent(::System::Object* content);
 
-  /// @brief Method ValidateToken, addr 0x5d6b9a0, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ValidateToken, addr 0x5d6fe5c, size 0x11c, virtual true, abstract: false, final false
   inline void ValidateToken(::Newtonsoft::Json::Linq::JToken* o, ::Newtonsoft::Json::Linq::JToken* existing);
 
   /// @brief Method Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -966,34 +966,34 @@ public:
 
   constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5d66e64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6b320, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5d66f5c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6b418, size 0x348, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JContainer* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method add_AddingNew, addr 0x5d69264, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method add_AddingNew, addr 0x5d6d720, size 0x8c, virtual false, abstract: false, final false
   inline void add_AddingNew(::System::ComponentModel::AddingNewEventHandler* value);
 
-  /// @brief Method add_CollectionChanged, addr 0x5d6937c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method add_CollectionChanged, addr 0x5d6d838, size 0x8c, virtual true, abstract: false, final true
   inline void add_CollectionChanged(::System::Collections::Specialized::NotifyCollectionChangedEventHandler* value);
 
-  /// @brief Method add_ListChanged, addr 0x5d6914c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method add_ListChanged, addr 0x5d6d608, size 0x8c, virtual true, abstract: false, final true
   inline void add_ListChanged(::System::ComponentModel::ListChangedEventHandler* value);
 
   /// @brief Method get_ChildrenTokens, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_ChildrenTokens();
 
-  /// @brief Method get_Count, addr 0x5d6b8e8, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x5d6fda4, size 0xb8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_First, addr 0x5d69bb4, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method get_First, addr 0x5d6e070, size 0x144, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_First();
 
-  /// @brief Method get_HasValues, addr 0x5d69af0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method get_HasValues, addr 0x5d6dfac, size 0xc4, virtual true, abstract: false, final false
   inline bool get_HasValues();
 
-  /// @brief Method get_Last, addr 0x5d69cf8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method get_Last, addr 0x5d6e1b4, size 0x144, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_Last();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>"
@@ -1023,13 +1023,13 @@ public:
   /// @brief Convert to "::System::ComponentModel::ITypedList"
   constexpr ::System::ComponentModel::ITypedList* i___System__ComponentModel__ITypedList() noexcept;
 
-  /// @brief Method remove_AddingNew, addr 0x5d692f0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method remove_AddingNew, addr 0x5d6d7ac, size 0x8c, virtual false, abstract: false, final false
   inline void remove_AddingNew(::System::ComponentModel::AddingNewEventHandler* value);
 
-  /// @brief Method remove_CollectionChanged, addr 0x5d69408, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method remove_CollectionChanged, addr 0x5d6d8c4, size 0x8c, virtual true, abstract: false, final true
   inline void remove_CollectionChanged(::System::Collections::Specialized::NotifyCollectionChangedEventHandler* value);
 
-  /// @brief Method remove_ListChanged, addr 0x5d691d8, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method remove_ListChanged, addr 0x5d6d694, size 0x8c, virtual true, abstract: false, final true
   inline void remove_ListChanged(::System::ComponentModel::ListChangedEventHandler* value);
 
 protected:
@@ -1047,7 +1047,7 @@ public:
   JContainer(JContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13584 };
 
   /// @brief Field _listChanged, offset: 0x30, size: 0x8, def value: None
   ::System::ComponentModel::ListChangedEventHandler* ____listChanged;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ObstacleControllerBase.hpp"
+// IWYU pragma private; include "GlobalNamespace\ObstacleControllerBase.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__IVariableMovementDataProvider_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*)>(
     &::GlobalNamespace::ObstacleControllerBase::add_didInitEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58db1f8;
+  constexpr static std::size_t addrs = 0x58daba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*)>(
     &::GlobalNamespace::ObstacleControllerBase::remove_didInitEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58db2b8;
+  constexpr static std::size_t addrs = 0x58dac68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*)>(
     &::GlobalNamespace::ObstacleControllerBase::add_didStartDissolvingEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58da14c;
+  constexpr static std::size_t addrs = 0x58d9afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*)>(
     &::GlobalNamespace::ObstacleControllerBase::remove_didStartDissolvingEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58da08c;
+  constexpr static std::size_t addrs = 0x58d9a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(::GlobalNamespace::ObstacleControllerBase*)>(
     &::GlobalNamespace::ObstacleControllerBase::InvokeDidInitEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58da20c;
+  constexpr static std::size_t addrs = 0x58d9bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleControllerBase*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)(::GlobalNamespace::ObstacleControllerBase*, float_t)>(
     &::GlobalNamespace::ObstacleControllerBase::InvokeDidStartDissolvingEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58da248;
+  constexpr static std::size_t addrs = 0x58d9bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleControllerBase::*)()>(&::GlobalNamespace::ObstacleControllerBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58da268;
+  constexpr static std::size_t addrs = 0x58d9c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleControllerBase*>(), { ".ctor", {}, {} })));

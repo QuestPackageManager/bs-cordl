@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/LightData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\LightData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,40 +54,40 @@ public:
 
   __declspec(property(get = get_visibleLights)) ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights;
 
-  /// @brief Method .ctor, addr 0x68dbecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68e3948, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method get_additionalLightsCount, addr 0x68dbf88, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsCount, addr 0x68e3a04, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_additionalLightsCount();
 
-  /// @brief Method get_mainLightIndex, addr 0x68dbf28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightIndex, addr 0x68e39a4, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_mainLightIndex();
 
-  /// @brief Method get_maxPerObjectAdditionalLightsCount, addr 0x68dbfe8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_maxPerObjectAdditionalLightsCount, addr 0x68e3a64, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_maxPerObjectAdditionalLightsCount();
 
-  /// @brief Method get_reflectionProbeBlending, addr 0x68dc1c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeBlending, addr 0x68e3c44, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_reflectionProbeBlending();
 
-  /// @brief Method get_reflectionProbeBoxProjection, addr 0x68dc168, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeBoxProjection, addr 0x68e3be4, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_reflectionProbeBoxProjection();
 
-  /// @brief Method get_shadeAdditionalLightsPerVertex, addr 0x68dc0a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_shadeAdditionalLightsPerVertex, addr 0x68e3b24, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_shadeAdditionalLightsPerVertex();
 
-  /// @brief Method get_supportsAdditionalLights, addr 0x68dc288, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportsAdditionalLights, addr 0x68e3d04, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportsAdditionalLights();
 
-  /// @brief Method get_supportsLightLayers, addr 0x68dc228, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportsLightLayers, addr 0x68e3ca4, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportsLightLayers();
 
-  /// @brief Method get_supportsMixedLighting, addr 0x68dc108, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportsMixedLighting, addr 0x68e3b84, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportsMixedLighting();
 
-  /// @brief Method get_universalLightData, addr 0x68dbed4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_universalLightData, addr 0x68e3950, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalLightData* get_universalLightData();
 
-  /// @brief Method get_visibleLights, addr 0x68dc048, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_visibleLights, addr 0x68e3ac4, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>> get_visibleLights();
 
   // Ctor Parameters []
@@ -98,7 +98,7 @@ public:
   constexpr LightData(::UnityEngine::Rendering::ContextContainer* frameData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13037 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

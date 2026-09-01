@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Scripting/APIUpdating/MovedFromAttributeData.hpp"
+// IWYU pragma private; include "UnityEngine\Scripting\APIUpdating\MovedFromAttributeData.hpp"
 #include "UnityEngine/Scripting/APIUpdating/zzzz__MovedFromAttributeData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData.Set
 template <>
@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::*)(bool, ::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::Set)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6af7710;
+  constexpr static std::size_t addrs = 0x6aff128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

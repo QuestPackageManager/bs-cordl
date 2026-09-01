@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLeadPlayerProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLeadPlayerProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,27 +62,27 @@ public:
   /// @brief Field newLeaderWasSelectedEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_newLeaderWasSelectedEvent, put = __cordl_internal_set_newLeaderWasSelectedEvent)) ::System::Action_1<::StringW>* newLeaderWasSelectedEvent;
 
-  /// @brief Method HandleFirstPlayerDidChange, addr 0x59d3234, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HandleFirstPlayerDidChange, addr 0x59db318, size 0x104, virtual false, abstract: false, final false
   inline void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* firstPlayer);
 
-  /// @brief Method HandleStateChanged, addr 0x59d2d24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x59dae08, size 0x10, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerLeadPlayerProvider* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59d2d34, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59dae18, size 0x198, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59d2c70, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59dad54, size 0xb4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartProviding, addr 0x59d3194, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartProviding, addr 0x59db278, size 0xa0, virtual false, abstract: false, final false
   inline void StartProviding();
 
-  /// @brief Method StopProviding, addr 0x59d30f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method StopProviding, addr 0x59db1dc, size 0x9c, virtual false, abstract: false, final false
   inline void StopProviding();
 
-  /// @brief Method Update, addr 0x59d2f8c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59db070, size 0xb0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__currentLeadingPlayerStartTime() const;
@@ -133,13 +133,13 @@ public:
 
   constexpr void __cordl_internal_set_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x59d3460, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59db544, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_newLeaderWasSelectedEvent, addr 0x59cfbe4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_newLeaderWasSelectedEvent, addr 0x59d7d88, size 0xc0, virtual false, abstract: false, final false
   inline void add_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_newLeaderWasSelectedEvent, addr 0x59cf9d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_newLeaderWasSelectedEvent, addr 0x59d7b78, size 0xc0, virtual false, abstract: false, final false
   inline void remove_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
 protected:
@@ -157,7 +157,7 @@ public:
   MultiplayerLeadPlayerProvider(MultiplayerLeadPlayerProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6151 };
 
   /// @brief Field _timeToGainFirstLead, offset: 0x20, size: 0x4, def value: None
   float_t ____timeToGainFirstLead;

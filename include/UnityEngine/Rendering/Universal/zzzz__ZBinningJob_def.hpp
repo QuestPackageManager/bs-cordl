@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ZBinningJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ZBinningJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,16 +32,16 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method DecodeHeader, addr 0x68bfe30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DecodeHeader, addr 0x68c78ac, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<uint32_t, uint32_t> DecodeHeader(uint32_t zBin);
 
-  /// @brief Method EncodeHeader, addr 0x68bfe28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EncodeHeader, addr 0x68c78a4, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t EncodeHeader(uint32_t min, uint32_t max);
 
-  /// @brief Method Execute, addr 0x68bfe7c, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x68c78f8, size 0x114, virtual true, abstract: false, final true
   inline void Execute(int32_t jobIndex);
 
-  /// @brief Method FillZBins, addr 0x68bff90, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method FillZBins, addr 0x68c7a0c, size 0x22c, virtual false, abstract: false, final false
   inline void FillZBins(int32_t binStart, int32_t binEnd, int32_t itemStart, int32_t itemEnd, int32_t headerIndex, int32_t itemOffset, int32_t binOffset);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -61,7 +61,7 @@ public:
                         int32_t binCount, int32_t wordsPerTile, int32_t lightCount, int32_t reflectionProbeCount, int32_t batchCount, int32_t viewCount, bool isOrthographic) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12984 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

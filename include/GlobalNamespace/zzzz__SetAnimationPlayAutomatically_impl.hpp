@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SetAnimationPlayAutomatically.hpp"
+// IWYU pragma private; include "GlobalNamespace\SetAnimationPlayAutomatically.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetAnimationPlayAutomatically_def.hpp"
 #include "GlobalNamespace/zzzz__DeterminismConfig_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetAnimationPlayAutomatically::*)(::GlobalNamespace::DeterminismConfig*)>(
     &::GlobalNamespace::SetAnimationPlayAutomatically::Init)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5984f00;
+  constexpr static std::size_t addrs = 0x59888a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetAnimationPlayAutomatically::*)()>(&::GlobalNamespace::SetAnimationPlayAutomatically::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x598508c;
+  constexpr static std::size_t addrs = 0x5988a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetAnimationPlayAutomatically*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetAnimationPlayAutomatically::*)(bool)>(&::GlobalNamespace::SetAnimationPlayAutomatically::OnDeterminismSet)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x598515c;
+  constexpr static std::size_t addrs = 0x5988afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetAnimationPlayAutomatically::*)()>(&::GlobalNamespace::SetAnimationPlayAutomatically::OnValidate)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x598517c;
+  constexpr static std::size_t addrs = 0x5988b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetAnimationPlayAutomatically*>(), { "OnValidate", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetAnimationPlayAutomatically::*)()>(&::GlobalNamespace::SetAnimationPlayAutomatically::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5985210;
+  constexpr static std::size_t addrs = 0x5988bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetAnimationPlayAutomatically*>(), { ".ctor", {}, {} })));

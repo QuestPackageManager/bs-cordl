@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/MaxBytesExceededException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\MaxBytesExceededException.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__CryptoException_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__MaxBytesExceededException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::MaxBytesExceededException::*)()>(&::Org::BouncyCastle::Crypto::MaxBytesExceededException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x349b314;
+  constexpr static std::size_t addrs = 0x349f0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::MaxBytesExceededException*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::MaxBytesExceededException::*)(::StringW)>(&::Org::BouncyCastle::Crypto::MaxBytesExceededException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x349b318;
+  constexpr static std::size_t addrs = 0x349f0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::MaxBytesExceededException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Crypto::MaxBytesExceededException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x349b31c;
+  constexpr static std::size_t addrs = 0x349f0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::MaxBytesExceededException*>(),

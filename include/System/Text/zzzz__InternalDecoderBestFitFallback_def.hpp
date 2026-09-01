@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/InternalDecoderBestFitFallback.hpp"
+// IWYU pragma private; include "System\Text\InternalDecoderBestFitFallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ public:
   /// @brief Field _encoding, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding)) ::System::Text::Encoding* _encoding;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x5cc72e0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x5ccb79c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method Equals, addr 0x5cc745c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5ccb918, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x5cc750c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5ccb9c8, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Text::InternalDecoderBestFitFallback* New_ctor(::System::Text::Encoding* encoding);
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  /// @brief Method .ctor, addr 0x5cc72cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccb788, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method get_MaxCharCount, addr 0x5cc7454, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x5ccb910, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
 protected:

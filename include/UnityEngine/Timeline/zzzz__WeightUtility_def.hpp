@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/WeightUtility.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\WeightUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE WeightUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizeMixer, addr 0x69c9820, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method NormalizeMixer, addr 0x69d129c, size 0x198, virtual false, abstract: false, final false
   static inline float_t NormalizeMixer(::UnityEngine::Playables::Playable mixer);
 
 protected:
@@ -41,7 +41,7 @@ public:
   WeightUtility(WeightUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19268 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

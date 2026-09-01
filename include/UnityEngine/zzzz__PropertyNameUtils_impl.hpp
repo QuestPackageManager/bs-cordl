@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/PropertyNameUtils.hpp"
+// IWYU pragma private; include "UnityEngine\PropertyNameUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__PropertyNameUtils_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PropertyName (*)(::StringW)>(&::UnityEngine::PropertyNameUtils::PropertyNameFromString)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6ad06b4;
+  constexpr static std::size_t addrs = 0x6ad80cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::PropertyName>)>(
     &::UnityEngine::PropertyNameUtils::PropertyNameFromString_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ad07e8;
+  constexpr static std::size_t addrs = 0x6ad8200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

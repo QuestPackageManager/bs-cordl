@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TreeViewExpansionChangedArgs.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TreeViewExpansionChangedArgs.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeViewExpansionChangedArgs_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TreeViewExpansionChangedArgs.set_id
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewExpansionChangedArgs::*)(int32_t)>(&::UnityEngine::UIElements::TreeViewExpansionChangedArgs::set_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d24dc0;
+  constexpr static std::size_t addrs = 0x6d2c944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewExpansionChangedArgs::*)(bool)>(
     &::UnityEngine::UIElements::TreeViewExpansionChangedArgs::set_isExpanded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d24dc8;
+  constexpr static std::size_t addrs = 0x6d2c94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewExpansionChangedArgs::*)(bool)>(
     &::UnityEngine::UIElements::TreeViewExpansionChangedArgs::set_isAppliedToAllChildren)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d24dd0;
+  constexpr static std::size_t addrs = 0x6d2c954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewExpansionChangedArgs::*)()>(&::UnityEngine::UIElements::TreeViewExpansionChangedArgs::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d24dd8;
+  constexpr static std::size_t addrs = 0x6d2c95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>(), { ".ctor", {}, {} })));

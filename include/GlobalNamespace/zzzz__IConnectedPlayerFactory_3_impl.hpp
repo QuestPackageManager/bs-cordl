@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IConnectedPlayerFactory_3.hpp"
+// IWYU pragma private; include "GlobalNamespace\IConnectedPlayerFactory_3.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayerFactory_3_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_3_def.hpp"
 #include "GlobalNamespace/zzzz__IConnection_def.hpp"

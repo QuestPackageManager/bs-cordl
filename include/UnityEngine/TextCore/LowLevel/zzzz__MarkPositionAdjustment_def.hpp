@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/MarkPositionAdjustment.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\MarkPositionAdjustment.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,16 +24,16 @@ public:
 
   __declspec(property(get = get_yPositionAdjustment, put = set_yPositionAdjustment)) float_t yPositionAdjustment;
 
-  /// @brief Method get_xPositionAdjustment, addr 0x6bb903c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xPositionAdjustment, addr 0x6bc0bc0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xPositionAdjustment();
 
-  /// @brief Method get_yPositionAdjustment, addr 0x6bb904c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yPositionAdjustment, addr 0x6bc0bd0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yPositionAdjustment();
 
-  /// @brief Method set_xPositionAdjustment, addr 0x6bb9044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xPositionAdjustment, addr 0x6bc0bc8, size 0x8, virtual false, abstract: false, final false
   inline void set_xPositionAdjustment(float_t value);
 
-  /// @brief Method set_yPositionAdjustment, addr 0x6bb9054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yPositionAdjustment, addr 0x6bc0bd8, size 0x8, virtual false, abstract: false, final false
   inline void set_yPositionAdjustment(float_t value);
 
   // Ctor Parameters []
@@ -45,7 +45,7 @@ public:
   constexpr MarkPositionAdjustment(float_t m_XPositionAdjustment, float_t m_YPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21872 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

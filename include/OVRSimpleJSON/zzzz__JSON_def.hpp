@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVRSimpleJSON/JSON.hpp"
+// IWYU pragma private; include "OVRSimpleJSON\JSON.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace OVRSimpleJSON {
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x5e27474, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5e2b930, size 0x5c, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
 
 protected:
@@ -41,7 +41,7 @@ public:
   JSON(JSON const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8033 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

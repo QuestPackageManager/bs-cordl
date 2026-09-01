@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/CameraRenderType.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\CameraRenderType.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__CameraRenderType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::CameraRenderType::CameraRenderType(int32_t value__) noexcept {

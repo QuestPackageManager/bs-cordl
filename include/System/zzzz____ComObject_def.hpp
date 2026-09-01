@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/__ComObject.hpp"
+// IWYU pragma private; include "System\__ComObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::__ComObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5c9cff4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca14b0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/DerSequenceReader.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\DerSequenceReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DerSequenceReader_def.hpp"
 #include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DerSequenceReader___c::*)()>(&::System::Security::Cryptography::DerSequenceReader___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x639a488;
+  constexpr static std::size_t addrs = 0x63a1f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader___c*>(), { ".ctor", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::System::Security::Cryptography::DerSequenceReader___c::*)()>(
     &::System::Security::Cryptography::DerSequenceReader___c::_ReadT61String_b__45_0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x639a48c;
+  constexpr static std::size_t addrs = 0x63a1f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::System::Security::Cryptography::DerSequenceReader___c::*)()>(
     &::System::Security::Cryptography::DerSequenceReader___c::_ReadT61String_b__45_1)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x639a510;
+  constexpr static std::size_t addrs = 0x63a1f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::DateTimeFormatInfo* (::System::Security::Cryptography::DerSequenceReader___c::*)()>(
     &::System::Security::Cryptography::DerSequenceReader___c::_ReadTime_b__51_0)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x639a558;
+  constexpr static std::size_t addrs = 0x63a1fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)(int32_t)>(
     &::System::Security::Cryptography::DerSequenceReader::set_ContentLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6398ed8;
+  constexpr static std::size_t addrs = 0x63a0954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)(::ArrayW<uint8_t>)>(&::System::Security::Cryptography::DerSequenceReader::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6398ee0;
+  constexpr static std::size_t addrs = 0x63a095c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Security::Cryptography::DerSequenceReader::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6398f00;
+  constexpr static std::size_t addrs = 0x63a097c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)(::System::Security::Cryptography::DerSequenceReader_DerTag, ::ArrayW<uint8_t>,
                                                                                                                      int32_t, int32_t)>(&::System::Security::Cryptography::DerSequenceReader::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6398f14;
+  constexpr static std::size_t addrs = 0x63a0990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(),
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::get_HasData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6399090;
+  constexpr static std::size_t addrs = 0x63a0b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "get_HasData", {}, {} })));
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::PeekTag)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x63990a0;
+  constexpr static std::size_t addrs = 0x63a0b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "PeekTag", {}, {} })));
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::SkipValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6399134;
+  constexpr static std::size_t addrs = 0x63a0bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "SkipValue", {}, {} })));
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadNextEncodedValue)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6399184;
+  constexpr static std::size_t addrs = 0x63a0c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::ReadBoolean)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x639935c;
+  constexpr static std::size_t addrs = 0x63a0dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadBoolean", {}, {} })));
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::ReadInteger)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6399424;
+  constexpr static std::size_t addrs = 0x63a0ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadInteger", {}, {} })));
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadIntegerBytes)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x63994d4;
+  constexpr static std::size_t addrs = 0x63a0f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadIntegerBytes", {}, {} })));
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadBitString)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x63995a4;
+  constexpr static std::size_t addrs = 0x63a1020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadBitString", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadOctetString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x63996ec;
+  constexpr static std::size_t addrs = 0x63a1168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadOctetString", {}, {} })));
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::ReadOidAsString)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6399708;
+  constexpr static std::size_t addrs = 0x63a1184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadOidAsString", {}, {} })));
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::ReadUtf8String)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6399a2c;
+  constexpr static std::size_t addrs = 0x63a14a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadUtf8String", {}, {} })));
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::DerSequenceReader* (
     ::System::Security::Cryptography::DerSequenceReader::*)(::System::Security::Cryptography::DerSequenceReader_DerTag)>(&::System::Security::Cryptography::DerSequenceReader::ReadCollectionWithTag)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6399b00;
+  constexpr static std::size_t addrs = 0x63a157c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::DerSequenceReader* (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadSequence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6399c5c;
+  constexpr static std::size_t addrs = 0x63a16d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadSequence", {}, {} })));
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::DerSequenceReader* (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6399c64;
+  constexpr static std::size_t addrs = 0x63a16e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadSet", {}, {} })));
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadPrintableString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6399c6c;
+  constexpr static std::size_t addrs = 0x63a16e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::ReadIA5String)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6399cec;
+  constexpr static std::size_t addrs = 0x63a1768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadIA5String", {}, {} })));
@@ -402,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::ReadT61String)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x6399d6c;
+  constexpr static std::size_t addrs = 0x63a17e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadT61String", {}, {} })));
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadX509Date)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x639a04c;
+  constexpr static std::size_t addrs = 0x63a1ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadX509Date", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadUtcTime)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x639a0cc;
+  constexpr static std::size_t addrs = 0x63a1b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadUtcTime", {}, {} })));
@@ -441,7 +441,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadGeneralizedTime)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x639a11c;
+  constexpr static std::size_t addrs = 0x63a1b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -454,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::ReadBMPString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x639a3b4;
+  constexpr static std::size_t addrs = 0x63a1e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadBMPString", {}, {} })));
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Security::Cryptography::DerSequenceReader::TrimTrailingNulls)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6399aac;
+  constexpr static std::size_t addrs = 0x63a1528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Security::Cryptography::DerSequenceReader::*)(
     ::System::Security::Cryptography::DerSequenceReader_DerTag, ::StringW)>(&::System::Security::Cryptography::DerSequenceReader::ReadTime)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x639a16c;
+  constexpr static std::size_t addrs = 0x63a1be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadContentAsBytes)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x63994f0;
+  constexpr static std::size_t addrs = 0x63a0f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "ReadContentAsBytes", {}, {} })));
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)(::System::Security::Cryptography::DerSequenceReader_DerTag)>(
     &::System::Security::Cryptography::DerSequenceReader::EatTag)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6398fd4;
+  constexpr static std::size_t addrs = 0x63a0a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(),
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Security::Cryptography::DerSequenceReader_DerTag, ::ArrayW<uint8_t>, int32_t)>(
     &::System::Security::Cryptography::DerSequenceReader::CheckTag)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6399bc4;
+  constexpr static std::size_t addrs = 0x63a1640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -537,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::DerSequenceReader::*)()>(&::System::Security::Cryptography::DerSequenceReader::EatLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6399054;
+  constexpr static std::size_t addrs = 0x63a0ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DerSequenceReader*>(), { "EatLength", {}, {} })));
@@ -549,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, int32_t, ::by_ref<int32_t>)>(&::System::Security::Cryptography::DerSequenceReader::ScanContentLength)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x639923c;
+  constexpr static std::size_t addrs = 0x63a0cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

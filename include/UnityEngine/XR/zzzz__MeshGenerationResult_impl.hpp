@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/MeshGenerationResult.hpp"
+// IWYU pragma private; include "UnityEngine\XR\MeshGenerationResult.hpp"
 #include "UnityEngine/XR/zzzz__MeshGenerationStatus_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshId_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshVertexAttributes_impl.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::MeshId (::UnityEngine::XR::MeshGenerationResult::*)()>(&::UnityEngine::XR::MeshGenerationResult::get_MeshId)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e31e4c;
+  constexpr static std::size_t addrs = 0x6e399d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::MeshGenerationResult>(), { "get_MeshId", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::XR::MeshGenerationResult::*)()>(&::UnityEngine::XR::MeshGenerationResult::get_Mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e31e58;
+  constexpr static std::size_t addrs = 0x6e399dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::MeshGenerationResult>(), { "get_Mesh", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::MeshCollider> (::UnityEngine::XR::MeshGenerationResult::*)()>(
     &::UnityEngine::XR::MeshGenerationResult::get_MeshCollider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e31e60;
+  constexpr static std::size_t addrs = 0x6e399e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::MeshGenerationResult>(), { "get_MeshCollider", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::MeshGenerationStatus (::UnityEngine::XR::MeshGenerationResult::*)()>(&::UnityEngine::XR::MeshGenerationResult::get_Status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e31e68;
+  constexpr static std::size_t addrs = 0x6e399ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::MeshGenerationResult>(), { "get_Status", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::MeshVertexAttributes (::UnityEngine::XR::MeshGenerationResult::*)()>(
     &::UnityEngine::XR::MeshGenerationResult::get_Attributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e31e70;
+  constexpr static std::size_t addrs = 0x6e399f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::MeshGenerationResult>(), { "get_Attributes", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::XR::MeshGenerationResult::*)()>(&::UnityEngine::XR::MeshGenerationResult::get_Position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e31e78;
+  constexpr static std::size_t addrs = 0x6e399fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::MeshGenerationResult>(), { "get_Position", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::XR::MeshGenerationResult::*)()>(&::UnityEngine::XR::MeshGenerationResult::get_Rotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e31e84;
+  constexpr static std::size_t addrs = 0x6e39a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::MeshGenerationResult>(), { "get_Rotation", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::XR::MeshGenerationResult::*)()>(&::UnityEngine::XR::MeshGenerationResult::get_Scale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e31e90;
+  constexpr static std::size_t addrs = 0x6e39a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::MeshGenerationResult>(), { "get_Scale", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::MeshGenerationResult::*)(::System::Object*)>(&::UnityEngine::XR::MeshGenerationResult::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e31e9c;
+  constexpr static std::size_t addrs = 0x6e39a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::MeshGenerationResult::*)(::UnityEngine::XR::MeshGenerationResult)>(&::UnityEngine::XR::MeshGenerationResult::Equals)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6e31f30;
+  constexpr static std::size_t addrs = 0x6e39ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::MeshGenerationResult::*)()>(&::UnityEngine::XR::MeshGenerationResult::GetHashCode)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6e3209c;
+  constexpr static std::size_t addrs = 0x6e39c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

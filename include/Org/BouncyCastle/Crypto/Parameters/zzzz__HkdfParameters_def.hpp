@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/HkdfParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\HkdfParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,23 +41,23 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method DefaultParameters, addr 0x340ff84, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DefaultParameters, addr 0x3413d44, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* DefaultParameters(::ArrayW<uint8_t> ikm);
 
-  /// @brief Method GetIkm, addr 0x340ffec, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetIkm, addr 0x3413dac, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetIkm();
 
-  /// @brief Method GetInfo, addr 0x34100b4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetInfo, addr 0x3413e74, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetInfo();
 
-  /// @brief Method GetSalt, addr 0x3410054, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetSalt, addr 0x3413e14, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSalt();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* New_ctor(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* New_ctor(::ArrayW<uint8_t> ikm, bool skip, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info);
 
-  /// @brief Method SkipExtractParameters, addr 0x340ff10, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SkipExtractParameters, addr 0x3413cd0, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* SkipExtractParameters(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> info);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_ikm() const;
@@ -84,13 +84,13 @@ public:
 
   constexpr void __cordl_internal_set_skipExpand(bool value);
 
-  /// @brief Method .ctor, addr 0x340ff00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3413cc0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> ikm, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info);
 
-  /// @brief Method .ctor, addr 0x340fda8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3413b68, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> ikm, bool skip, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> info);
 
-  /// @brief Method get_SkipExtract, addr 0x341004c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SkipExtract, addr 0x3413e0c, size 0x8, virtual true, abstract: false, final false
   inline bool get_SkipExtract();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

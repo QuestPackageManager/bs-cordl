@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/Field/PrimeField.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\Field\PrimeField.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__PrimeField_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::Field::PrimeField::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Field::PrimeField::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352ee20;
+  constexpr static std::size_t addrs = 0x3532be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::Field::PrimeField::*)()>(
     &::Org::BouncyCastle::Math::Field::PrimeField::get_Characteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352f47c;
+  constexpr static std::size_t addrs = 0x353323c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::PrimeField::*)()>(&::Org::BouncyCastle::Math::Field::PrimeField::get_Dimension)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352f484;
+  constexpr static std::size_t addrs = 0x3533244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::Field::PrimeField::*)(::System::Object*)>(&::Org::BouncyCastle::Math::Field::PrimeField::Equals)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x352f48c;
+  constexpr static std::size_t addrs = 0x353324c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::PrimeField::*)()>(&::Org::BouncyCastle::Math::Field::PrimeField::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x352f548;
+  constexpr static std::size_t addrs = 0x3533308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

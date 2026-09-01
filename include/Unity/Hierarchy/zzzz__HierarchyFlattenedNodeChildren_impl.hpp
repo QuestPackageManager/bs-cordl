@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Hierarchy/HierarchyFlattenedNodeChildren.hpp"
+// IWYU pragma private; include "Unity\Hierarchy\HierarchyFlattenedNodeChildren.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNode_impl.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyFlattenedNodeChildren_def.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyFlattenedNodeChildren_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyFlattenedNodeChildren::*)(
     ::Unity::Hierarchy::HierarchyFlattened*, ::by_ref<::Unity::Hierarchy::HierarchyNode>)>(&::Unity::Hierarchy::HierarchyFlattenedNodeChildren::_ctor)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6b2de18;
+  constexpr static std::size_t addrs = 0x6b3599c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator (::Unity::Hierarchy::HierarchyFlattenedNodeChildren::*)()>(
     &::Unity::Hierarchy::HierarchyFlattenedNodeChildren::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b2e0ec;
+  constexpr static std::size_t addrs = 0x6b35c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNodeChildren>(), { "GetEnumerator", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyFlattenedNodeChildren::*)()>(&::Unity::Hierarchy::HierarchyFlattenedNodeChildren::ThrowIfVersionChanged)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b2e138;
+  constexpr static std::size_t addrs = 0x6b35cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator::*)(
     ::Unity::Hierarchy::HierarchyFlattenedNodeChildren, ::Unity::Hierarchy::HierarchyNode)>(&::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b2e110;
+  constexpr static std::size_t addrs = 0x6b35c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Hierarchy::HierarchyNode> (::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6b2e1a8;
+  constexpr static std::size_t addrs = 0x6b35d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6b2e280;
+  constexpr static std::size_t addrs = 0x6b35e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyFlattenedNodeChildren_Enumerator>(), { "MoveNext", {}, {} })));

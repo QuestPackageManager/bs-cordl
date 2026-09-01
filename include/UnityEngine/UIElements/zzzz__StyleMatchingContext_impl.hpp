@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleMatchingContext.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleMatchingContext.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleMatchingContext_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleMatchingContext::*)()>(&::UnityEngine::UIElements::StyleMatchingContext::get_styleSheetCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6cc7b40;
+  constexpr static std::size_t addrs = 0x6ccf6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleMatchingContext*>(), { "get_styleSheetCount", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleMatchingContext::*)(
     ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*)>(&::UnityEngine::UIElements::StyleMatchingContext::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6cc7b90;
+  constexpr static std::size_t addrs = 0x6ccf714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleMatchingContext::*)(::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::StyleMatchingContext::AddStyleSheet)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6cc7c7c;
+  constexpr static std::size_t addrs = 0x6ccf800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleMatchingContext::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::StyleMatchingContext::RemoveStyleSheetRange)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6cc7d6c;
+  constexpr static std::size_t addrs = 0x6ccf8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleMatchingContext*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::StyleSheet> (::UnityEngine::UIElements::StyleMatchingContext::*)(int32_t)>(
     &::UnityEngine::UIElements::StyleMatchingContext::GetStyleSheetAt)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6cc7dd8;
+  constexpr static std::size_t addrs = 0x6ccf95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/XPath/Root.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\XPath\Root.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ public:
 
   static inline ::MS::Internal::Xml::XPath::Root* New_ctor();
 
-  /// @brief Method .ctor, addr 0x626f4a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6276f24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReturnType, addr 0x626f4b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x6276f30, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x626f4ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x6276f28, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
@@ -55,7 +55,7 @@ public:
   Root(Root const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

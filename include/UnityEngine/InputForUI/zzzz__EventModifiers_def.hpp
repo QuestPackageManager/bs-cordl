@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/EventModifiers.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\EventModifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,7 +117,7 @@ public:
   static ::UnityEngine::InputForUI::EventModifiers_Modifiers const Shift;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21802 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -156,40 +156,40 @@ public:
 
   __declspec(property(get = get_isShiftPressed)) bool isShiftPressed;
 
-  /// @brief Method Append, addr 0x6b51a44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6b595c8, size 0x78, virtual false, abstract: false, final false
   static inline void Append(::by_ref<::StringW> str, ::StringW value);
 
-  /// @brief Method IsPressed, addr 0x6b519ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPressed, addr 0x6b59530, size 0x10, virtual false, abstract: false, final false
   inline bool IsPressed(::UnityEngine::InputForUI::EventModifiers_Modifiers mod);
 
-  /// @brief Method Reset, addr 0x6b51a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b595c0, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetPressed, addr 0x6b51a20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetPressed, addr 0x6b595a4, size 0x1c, virtual false, abstract: false, final false
   inline void SetPressed(::UnityEngine::InputForUI::EventModifiers_Modifiers modifier, bool pressed);
 
-  /// @brief Method ToString, addr 0x6b51098, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b58c1c, size 0x28c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_isAltPressed, addr 0x6b519dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isAltPressed, addr 0x6b59560, size 0x10, virtual false, abstract: false, final false
   inline bool get_isAltPressed();
 
-  /// @brief Method get_isCapsLockEnabled, addr 0x6b519fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isCapsLockEnabled, addr 0x6b59580, size 0xc, virtual false, abstract: false, final false
   inline bool get_isCapsLockEnabled();
 
-  /// @brief Method get_isCtrlPressed, addr 0x6b519cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isCtrlPressed, addr 0x6b59550, size 0x10, virtual false, abstract: false, final false
   inline bool get_isCtrlPressed();
 
-  /// @brief Method get_isFunctionKeyPressed, addr 0x6b51a08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isFunctionKeyPressed, addr 0x6b5958c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isFunctionKeyPressed();
 
-  /// @brief Method get_isMetaPressed, addr 0x6b519ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isMetaPressed, addr 0x6b59570, size 0x10, virtual false, abstract: false, final false
   inline bool get_isMetaPressed();
 
-  /// @brief Method get_isNumericPressed, addr 0x6b51a14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isNumericPressed, addr 0x6b59598, size 0xc, virtual false, abstract: false, final false
   inline bool get_isNumericPressed();
 
-  /// @brief Method get_isShiftPressed, addr 0x6b519bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isShiftPressed, addr 0x6b59540, size 0x10, virtual false, abstract: false, final false
   inline bool get_isShiftPressed();
 
   // Ctor Parameters []
@@ -200,7 +200,7 @@ public:
   constexpr EventModifiers(uint32_t _state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21803 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

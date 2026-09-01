@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DepthState.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DepthState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,22 +34,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::DepthState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::DepthState>*();
 
-  /// @brief Method Equals, addr 0x6b190bc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b20c40, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b19094, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b20c18, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::DepthState other);
 
-  /// @brief Method GetHashCode, addr 0x6b19148, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b20ccc, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6b1901c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b20ba0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool writeEnabled, ::UnityEngine::Rendering::CompareFunction compareFunction);
 
-  /// @brief Method get_compareFunction, addr 0x6b1908c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compareFunction, addr 0x6b20c10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CompareFunction get_compareFunction();
 
-  /// @brief Method get_defaultValue, addr 0x6b18ff8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6b20b7c, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DepthState get_defaultValue();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::DepthState>"
@@ -63,7 +63,7 @@ public:
   constexpr DepthState(uint8_t m_WriteEnabled, int8_t m_CompareFunction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10804 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

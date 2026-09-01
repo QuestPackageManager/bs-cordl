@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Monitor.hpp"
+// IWYU pragma private; include "System\Threading\Monitor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__Monitor_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Monitor::Enter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ca94a8;
+  constexpr static std::size_t addrs = 0x5cad964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::by_ref<bool>)>(&::System::Threading::Monitor::Enter)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ca6228;
+  constexpr static std::size_t addrs = 0x5caa6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Threading::Monitor::ThrowLockTakenException)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5cad768;
+  constexpr static std::size_t addrs = 0x5cb1c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Monitor*>(), { "ThrowLockTakenException", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Monitor::Exit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ca94ac;
+  constexpr static std::size_t addrs = 0x5cad968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Monitor*>(), { "Exit", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::by_ref<bool>)>(&::System::Threading::Monitor::TryEnter)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cad7d8;
+  constexpr static std::size_t addrs = 0x5cb1c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*, int32_t, bool)>(&::System::Threading::Monitor::Wait)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5cad888;
+  constexpr static std::size_t addrs = 0x5cb1d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*, int32_t)>(&::System::Threading::Monitor::Wait)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca6b5c;
+  constexpr static std::size_t addrs = 0x5cab018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Monitor::Pulse)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5caa554;
+  constexpr static std::size_t addrs = 0x5caea10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Monitor::PulseAll)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5ca6448;
+  constexpr static std::size_t addrs = 0x5caa904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*)>(&::System::Threading::Monitor::Monitor_test_synchronised)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cada54;
+  constexpr static std::size_t addrs = 0x5cb1f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Monitor::Monitor_pulse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cada58;
+  constexpr static std::size_t addrs = 0x5cb1f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Monitor::ObjPulse)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5cad994;
+  constexpr static std::size_t addrs = 0x5cb1e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Monitor::Monitor_pulse_all)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cada5c;
+  constexpr static std::size_t addrs = 0x5cb1f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Monitor::ObjPulseAll)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5cad9f4;
+  constexpr static std::size_t addrs = 0x5cb1eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object*, int32_t)>(&::System::Threading::Monitor::Monitor_wait)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cada60;
+  constexpr static std::size_t addrs = 0x5cb1f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool, int32_t, ::System::Object*)>(&::System::Threading::Monitor::ObjWait)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5cad8e4;
+  constexpr static std::size_t addrs = 0x5cb1da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, int32_t, ::by_ref<bool>)>(&::System::Threading::Monitor::try_enter_with_atomic_var)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cada64;
+  constexpr static std::size_t addrs = 0x5cb1f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, int32_t, ::by_ref<bool>)>(&::System::Threading::Monitor::ReliableEnterTimeout)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5cad7f4;
+  constexpr static std::size_t addrs = 0x5cb1cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::by_ref<bool>)>(&::System::Threading::Monitor::ReliableEnter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cad7cc;
+  constexpr static std::size_t addrs = 0x5cb1c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/BezierCurves/ObjectBasedBezierCurve.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\BezierCurves\ObjectBasedBezierCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_isReady)) bool isReady;
 
-  /// @brief Method GetBezierCurveData, addr 0x3328730, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetBezierCurveData, addr 0x332c4f0, size 0xf4, virtual true, abstract: false, final false
   inline ::BGLib::UnityExtension::BezierCurves::CurveData GetBezierCurveData();
 
   static inline ::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurve* New_ctor();
 
-  /// @brief Method SetBezierCurveData, addr 0x3328824, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SetBezierCurveData, addr 0x332c5e4, size 0x90, virtual true, abstract: false, final false
   inline void SetBezierCurveData(::BGLib::UnityExtension::BezierCurves::CurveData newValue);
 
-  /// @brief Method .ctor, addr 0x33288b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332c674, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isReady, addr 0x3328680, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_isReady, addr 0x332c440, size 0x14, virtual true, abstract: false, final false
   inline bool get_isReady();
 
 protected:
@@ -56,7 +56,7 @@ public:
   ObjectBasedBezierCurve(ObjectBasedBezierCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

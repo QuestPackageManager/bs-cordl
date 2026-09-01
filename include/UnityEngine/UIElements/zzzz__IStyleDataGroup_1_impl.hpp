@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/IStyleDataGroup_1.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\IStyleDataGroup_1.hpp"
 #include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 template <typename T> inline T UnityEngine::UIElements::IStyleDataGroup_1<T>::Copy() {
   auto* ___internal_method =

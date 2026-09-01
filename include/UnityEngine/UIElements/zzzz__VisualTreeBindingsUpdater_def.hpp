@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeBindingsUpdater.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\VisualTreeBindingsUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,48 +107,48 @@ public:
   __declspec(property(get = __cordl_internal_get_updatedBindings,
                       put = __cordl_internal_set_updatedBindings)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* updatedBindings;
 
-  /// @brief Method CurrentTime, addr 0x6c3dfe8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CurrentTime, addr 0x6c45b6c, size 0x54, virtual false, abstract: false, final false
   static inline int64_t CurrentTime();
 
-  /// @brief Method Dispose, addr 0x6c3eccc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c46850, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetAdditionalBinding, addr 0x6c3dabc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetAdditionalBinding, addr 0x6c45640, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IBinding* GetAdditionalBinding(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetBindingObjectFromElement, addr 0x6c3d97c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetBindingObjectFromElement, addr 0x6c45500, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IBinding* GetBindingObjectFromElement(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::VisualTreeBindingsUpdater* New_ctor();
 
-  /// @brief Method OnHierarchyChange, addr 0x6c3dfd0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnHierarchyChange, addr 0x6c45b54, size 0x18, virtual true, abstract: false, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);
 
-  /// @brief Method OnVersionChanged, addr 0x6c3dec4, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x6c45a48, size 0x10c, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method PerformTrackingOperations, addr 0x6c3e104, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method PerformTrackingOperations, addr 0x6c45c88, size 0x204, virtual false, abstract: false, final false
   inline void PerformTrackingOperations();
 
-  /// @brief Method ShouldProcessBindings, addr 0x6c3e03c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ShouldProcessBindings, addr 0x6c45bc0, size 0xc8, virtual false, abstract: false, final false
   static inline bool ShouldProcessBindings(int64_t startTime);
 
-  /// @brief Method StartTracking, addr 0x6c3db4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method StartTracking, addr 0x6c456d0, size 0x9c, virtual false, abstract: false, final false
   inline void StartTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StartTrackingRecursive, addr 0x6c3dc8c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingRecursive, addr 0x6c45810, size 0x128, virtual false, abstract: false, final false
   inline void StartTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTracking, addr 0x6c3dbe8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method StopTracking, addr 0x6c4576c, size 0x9c, virtual false, abstract: false, final false
   inline void StopTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTrackingRecursive, addr 0x6c3ddb4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method StopTrackingRecursive, addr 0x6c45938, size 0x110, virtual false, abstract: false, final false
   inline void StopTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update, addr 0x6c3e308, size 0x568, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6c45e8c, size 0x568, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateBindings, addr 0x6c3e870, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method UpdateBindings, addr 0x6c463f4, size 0x45c, virtual false, abstract: false, final false
   inline void UpdateBindings();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* const& __cordl_internal_get__temporaryObjectCache_k__BackingField() const;
@@ -193,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set_updatedBindings(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* value);
 
-  /// @brief Method .ctor, addr 0x6c3ecd0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c46854, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__disableBindingsThrottling_k__BackingField();
@@ -212,13 +212,13 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_disableBindingsThrottling, addr 0x6c3d920, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_disableBindingsThrottling, addr 0x6c454a4, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_disableBindingsThrottling();
 
-  /// @brief Method get_profilerMarker, addr 0x6c3d8c4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x6c45448, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_temporaryObjectCache, addr 0x6c3dc84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_temporaryObjectCache, addr 0x6c45808, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* get_temporaryObjectCache();
 
   static inline void setStaticF__disableBindingsThrottling_k__BackingField(bool value);

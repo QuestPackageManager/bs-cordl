@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Experimental/EventDebuggerLogCall.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Experimental\EventDebuggerLogCall.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__EventDebuggerLogCall_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::EventDebuggerLogCall::*)(::System::Delegate*, ::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::Experimental::EventDebuggerLogCall::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d16f68;
+  constexpr static std::size_t addrs = 0x6d1eaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::EventDebuggerLogCall::*)()>(
     &::UnityEngine::UIElements::Experimental::EventDebuggerLogCall::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d16f6c;
+  constexpr static std::size_t addrs = 0x6d1eaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::EventDebuggerLogCall>(), { "Dispose", {}, {} })));

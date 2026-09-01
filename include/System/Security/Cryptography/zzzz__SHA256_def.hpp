@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/SHA256.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\SHA256.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE SHA256 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x5affc0c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b040c8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::SHA256* Create();
 
   static inline ::System::Security::Cryptography::SHA256* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5affc00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b040bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/Asn1KeyWrapper.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Operators\Asn1KeyWrapper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__Asn1KeyWrapper_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockResult_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::*)(::StringW, ::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3401fb0;
+  constexpr static std::size_t addrs = 0x3405d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::get_AlgorithmDetails)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x340228c;
+  constexpr static std::size_t addrs = 0x340604c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBlockResult* (::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::Wrap)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3402330;
+  constexpr static std::size_t addrs = 0x34060f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

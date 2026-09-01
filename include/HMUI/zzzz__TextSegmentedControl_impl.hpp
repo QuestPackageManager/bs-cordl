@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/TextSegmentedControl.hpp"
+// IWYU pragma private; include "HMUI\TextSegmentedControl.hpp"
 #include "HMUI/zzzz__SegmentedControl_impl.hpp"
 #include "TMPro/zzzz__TextOverflowModes_impl.hpp"
 #include "HMUI/zzzz__TextSegmentedControl_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextSegmentedControl::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*,
                                                                                               ::System::Collections::Generic::HashSet_1<int32_t>*)>(&::HMUI::TextSegmentedControl::SetTexts)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f4f744;
+  constexpr static std::size_t addrs = 0x5f571c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::HMUI::TextSegmentedControl::*)()>(&::HMUI::TextSegmentedControl::NumberOfCells)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f4f75c;
+  constexpr static std::size_t addrs = 0x5f571d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextSegmentedControl*>(), { "NumberOfCells", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::SegmentedControlCell> (::HMUI::TextSegmentedControl::*)(int32_t)>(&::HMUI::TextSegmentedControl::CellForCellNumber)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x5f4f80c;
+  constexpr static std::size_t addrs = 0x5f57288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextSegmentedControl::*)()>(&::HMUI::TextSegmentedControl::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f4fd04;
+  constexpr static std::size_t addrs = 0x5f57780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextSegmentedControl*>(), { ".ctor", {}, {} })));

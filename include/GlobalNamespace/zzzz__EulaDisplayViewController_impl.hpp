@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EulaDisplayViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\EulaDisplayViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__EulaDisplayViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaDisplayViewController::*)(bool, bool, bool)>(&::GlobalNamespace::EulaDisplayViewController::DidActivate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a11290;
+  constexpr static std::size_t addrs = 0x5a1939c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaDisplayViewController::*)()>(&::GlobalNamespace::EulaDisplayViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a112d4;
+  constexpr static std::size_t addrs = 0x5a193e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EulaDisplayViewController*>(), { ".ctor", {}, {} })));

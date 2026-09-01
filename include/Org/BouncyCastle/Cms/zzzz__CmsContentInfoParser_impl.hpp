@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsContentInfoParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsContentInfoParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsContentInfoParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfoParser_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsContentInfoParser::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Cms::CmsContentInfoParser::_ctor)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x36a2d7c;
+  constexpr static std::size_t addrs = 0x36a6b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsContentInfoParser::*)()>(&::Org::BouncyCastle::Cms::CmsContentInfoParser::Close)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x36a2fe4;
+  constexpr static std::size_t addrs = 0x36a6da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsContentInfoParser*>(), { "Close", {}, {} })));

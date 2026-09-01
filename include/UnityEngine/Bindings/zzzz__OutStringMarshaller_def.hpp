@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/OutStringMarshaller.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\OutStringMarshaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ namespace UnityEngine::Bindings {
 struct CORDL_TYPE OutStringMarshaller {
 public:
   // Declarations
-  /// @brief Method GetStringAndDispose, addr 0x6af7564, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetStringAndDispose, addr 0x6afef7c, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW GetStringAndDispose(::UnityEngine::Bindings::ManagedSpanWrapper managedSpan);
 
   // Ctor Parameters []
@@ -32,7 +32,7 @@ public:
   constexpr OutStringMarshaller();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10477 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

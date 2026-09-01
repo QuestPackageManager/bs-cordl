@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithAppDownloadResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithAppDownloadResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAppDownloadResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AppDownloadResult_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithAppDownloadResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAppDownloadResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd2b3c;
+  constexpr static std::size_t addrs = 0x5dd6ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AppDownloadResult* (::Oculus::Platform::MessageWithAppDownloadResult::*)()>(
     &::Oculus::Platform::MessageWithAppDownloadResult::GetAppDownloadResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd5450;
+  constexpr static std::size_t addrs = 0x5dd990c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AppDownloadResult* (::Oculus::Platform::MessageWithAppDownloadResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAppDownloadResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5dd5494;
+  constexpr static std::size_t addrs = 0x5dd9950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

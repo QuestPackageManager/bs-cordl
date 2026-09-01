@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/RenderingLayerUtils.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\RenderingLayerUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingLayerUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(bool, int32_t, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event>)>(
         &::UnityEngine::Rendering::Universal::RenderingLayerUtils::CombineRendererEvents)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68aa15c;
+  constexpr static std::size_t addrs = 0x68b1bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          int32_t, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event>, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize>)>(
         &::UnityEngine::Rendering::Universal::RenderingLayerUtils::RequireRenderingLayers)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68aa190;
+  constexpr static std::size_t addrs = 0x68b1c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          int32_t, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event>, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize>)>(
         &::UnityEngine::Rendering::Universal::RenderingLayerUtils::RequireRenderingLayers)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x68aa200;
+  constexpr static std::size_t addrs = 0x68b1c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::SetupProperties)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68aa4f8;
+  constexpr static std::size_t addrs = 0x68b1f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::SetupProperties)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x68aa568;
+  constexpr static std::size_t addrs = 0x68b1fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::GetFormat)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x68aa680;
+  constexpr static std::size_t addrs = 0x68b20fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::RenderingLayerUtils::ToValidRenderingLayers)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x68aa724;
+  constexpr static std::size_t addrs = 0x68b21a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize (*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::GetMaskSize)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x68aa4c4;
+  constexpr static std::size_t addrs = 0x68b1f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::GetBits)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68aa634;
+  constexpr static std::size_t addrs = 0x68b20b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
                                                                                                                           ::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::Combine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68aa184;
+  constexpr static std::size_t addrs = 0x68b1c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingLayerUtils*>(),
@@ -207,7 +207,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
                                                                                                                              ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize)>(
     &::UnityEngine::Rendering::Universal::RenderingLayerUtils::Combine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68aa4b8;
+  constexpr static std::size_t addrs = 0x68b1f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RenderingLayerUtils*>(),

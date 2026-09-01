@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DetachFromPanelEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DetachFromPanelEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelChangedEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DetachFromPanelEvent___c::*)()>(&::UnityEngine::UIElements::DetachFromPanelEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d9ae8c;
+  constexpr static std::size_t addrs = 0x6da2a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DetachFromPanelEvent___c*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DetachFromPanelEvent* (::UnityEngine::UIElements::DetachFromPanelEvent___c::*)()>(
     &::UnityEngine::UIElements::DetachFromPanelEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9ae90;
+  constexpr static std::size_t addrs = 0x6da2a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DetachFromPanelEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DetachFromPanelEvent::*)()>(&::UnityEngine::UIElements::DetachFromPanelEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d9adec;
+  constexpr static std::size_t addrs = 0x6da2970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DetachFromPanelEvent*>(), { ".ctor", {}, {} })));

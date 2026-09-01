@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/VolumeComponentMenu.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\VolumeComponentMenu.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponentMenu_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeComponentMenu._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponentMenu::*)(::StringW)>(&::UnityEngine::Rendering::VolumeComponentMenu::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c3710;
+  constexpr static std::size_t addrs = 0x67cb18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

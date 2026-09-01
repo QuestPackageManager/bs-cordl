@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataViewSettingCollection.hpp"
+// IWYU pragma private; include "System\Data\DataViewSettingCollection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__DataViewSettingCollection_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataViewSetting* (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*)>(
     &::System::Data::DataViewSettingCollection::get_Item)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x602e0b4;
+  constexpr static std::size_t addrs = 0x6035b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*, ::System::Data::DataViewSetting*)>(
     &::System::Data::DataViewSettingCollection::set_Item)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x602e1d8;
+  constexpr static std::size_t addrs = 0x6035c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataViewSettingCollection::Remove)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x602e258;
+  constexpr static std::size_t addrs = 0x6035cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

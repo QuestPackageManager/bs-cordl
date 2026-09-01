@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/HttpUtilities.hpp"
+// IWYU pragma private; include "System\Net\Http\HttpUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpUtilities_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::HttpUtilities.IsSupportedSecureScheme
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::HttpUtilities::IsSupportedSecureScheme)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60ce88c;
+  constexpr static std::size_t addrs = 0x60d6308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::HttpUtilities::IsSecureWebSocketScheme)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x60ce8fc;
+  constexpr static std::size_t addrs = 0x60d6378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

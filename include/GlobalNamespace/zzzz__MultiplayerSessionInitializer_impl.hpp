@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerSessionInitializer.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerSessionInitializer.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSessionType_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSessionInitializer_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberConnectedPlayer_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSessionInitializer::*)(
     ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::GlobalNamespace::MultiplayerSessionType)>(&::GlobalNamespace::MultiplayerSessionInitializer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32b4c60;
+  constexpr static std::size_t addrs = 0x32b8a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSessionInitializer::*)()>(
     &::GlobalNamespace::MultiplayerSessionInitializer::InitializeLocalPlayerSessionState)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x32b4c6c;
+  constexpr static std::size_t addrs = 0x32b8a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

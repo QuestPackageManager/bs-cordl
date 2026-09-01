@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Ucs4Decoder2143.hpp"
+// IWYU pragma private; include "System\Xml\Ucs4Decoder2143.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ namespace System::Xml {
 class CORDL_TYPE Ucs4Decoder2143 : public ::System::Xml::Ucs4Decoder {
 public:
   // Declarations
-  /// @brief Method GetFullChars, addr 0x62dc9dc, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method GetFullChars, addr 0x62e4458, size 0x200, virtual true, abstract: false, final false
   inline int32_t GetFullChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   static inline ::System::Xml::Ucs4Decoder2143* New_ctor();
 
-  /// @brief Method .ctor, addr 0x62dbfac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e3a28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   Ucs4Decoder2143(Ucs4Decoder2143 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

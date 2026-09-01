@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerOctetStringParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerOctetStringParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,12 +43,12 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method GetOctetStream, addr 0x368cbec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetOctetStream, addr 0x36909ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* GetOctetStream();
 
   static inline ::Org::BouncyCastle::Asn1::DerOctetStringParser* New_ctor(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* stream);
 
-  /// @brief Method ToAsn1Object, addr 0x368cbf4, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x36909b4, size 0x160, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* const& __cordl_internal_get_stream() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_stream(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* value);
 
-  /// @brief Method .ctor, addr 0x3683c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3687a10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* stream);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"

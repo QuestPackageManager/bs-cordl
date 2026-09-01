@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Assertions/AssertionMessageUtil.hpp"
+// IWYU pragma private; include "UnityEngine\Assertions\AssertionMessageUtil.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,19 +23,19 @@ namespace UnityEngine::Assertions {
 class CORDL_TYPE AssertionMessageUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BooleanFailureMessage, addr 0x6aff4a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method BooleanFailureMessage, addr 0x6b06ec0, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW BooleanFailureMessage(bool expected);
 
-  /// @brief Method GetEqualityMessage, addr 0x6aff714, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetEqualityMessage, addr 0x6b0712c, size 0x220, virtual false, abstract: false, final false
   static inline ::StringW GetEqualityMessage(::System::Object* actual, ::System::Object* expected, bool expectEqual);
 
-  /// @brief Method GetMessage, addr 0x6affda4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x6b077bc, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(::StringW failureMessage);
 
-  /// @brief Method GetMessage, addr 0x6affe9c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x6b078b4, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(::StringW failureMessage, ::StringW expected);
 
-  /// @brief Method NullFailureMessage, addr 0x6aff9f8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method NullFailureMessage, addr 0x6b07410, size 0x180, virtual false, abstract: false, final false
   static inline ::StringW NullFailureMessage(::System::Object* value, bool expectNull);
 
 protected:
@@ -53,7 +53,7 @@ public:
   AssertionMessageUtil(AssertionMessageUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

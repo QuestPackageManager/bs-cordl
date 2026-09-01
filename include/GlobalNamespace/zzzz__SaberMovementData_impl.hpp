@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SaberMovementData.hpp"
+// IWYU pragma private; include "GlobalNamespace\SaberMovementData.hpp"
 #include "GlobalNamespace/zzzz__BladeMovementDataElement_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberMovementData_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberMovementData::*)()>(&::GlobalNamespace::SaberMovementData::get_bladeSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3706264;
+  constexpr static std::size_t addrs = 0x370a684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberMovementData*>(), { "get_bladeSpeed", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BladeMovementDataElement (::GlobalNamespace::SaberMovementData::*)()>(
     &::GlobalNamespace::SaberMovementData::get_lastAddedData)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x370626c;
+  constexpr static std::size_t addrs = 0x370a68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberMovementData*>(), { "get_lastAddedData", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BladeMovementDataElement (::GlobalNamespace::SaberMovementData::*)()>(
     &::GlobalNamespace::SaberMovementData::get_prevAddedData)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x37062c8;
+  constexpr static std::size_t addrs = 0x370a6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberMovementData*>(), { "get_prevAddedData", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberMovementData::*)()>(&::GlobalNamespace::SaberMovementData::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3706324;
+  constexpr static std::size_t addrs = 0x370a744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberMovementData*>(), { ".ctor", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberMovementData::*)(::GlobalNamespace::ISaberMovementDataProcessor*)>(
     &::GlobalNamespace::SaberMovementData::AddDataProcessor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x37063c4;
+  constexpr static std::size_t addrs = 0x370a7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberMovementData::*)(::GlobalNamespace::ISaberMovementDataProcessor*)>(
     &::GlobalNamespace::SaberMovementData::RemoveDataProcessor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3706428;
+  constexpr static std::size_t addrs = 0x370a848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberMovementData*>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberMovementData::*)(::GlobalNamespace::ISaberMovementDataProcessor*)>(
     &::GlobalNamespace::SaberMovementData::RequestLastDataProcessing)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x370648c;
+  constexpr static std::size_t addrs = 0x370a8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberMovementData::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::SaberMovementData::AddNewData)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x37065ec;
+  constexpr static std::size_t addrs = 0x370aa0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberMovementData::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, ::by_ref<::UnityEngine::Vector3>,
                                                                                                       ::by_ref<float_t>)>(&::GlobalNamespace::SaberMovementData::ComputeAdditionalData)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x3706a90;
+  constexpr static std::size_t addrs = 0x370aeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::SaberMovementData::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::SaberMovementData::ComputePlaneNormal)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3706ccc;
+  constexpr static std::size_t addrs = 0x370b0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::SaberMovementData::*)()>(&::GlobalNamespace::SaberMovementData::ComputeCutPlaneNormal)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3706e10;
+  constexpr static std::size_t addrs = 0x370b230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberMovementData*>(), { "ComputeCutPlaneNormal", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberMovementData::*)(float_t)>(&::GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3706ea4;
+  constexpr static std::size_t addrs = 0x370b2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberMovementData::*)()>(&::GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x370716c;
+  constexpr static std::size_t addrs = 0x370b58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberMovementData*>(), { "ComputeSwingRating", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberMovementData::*)(bool, float_t)>(&::GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x3706eac;
+  constexpr static std::size_t addrs = 0x370b2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

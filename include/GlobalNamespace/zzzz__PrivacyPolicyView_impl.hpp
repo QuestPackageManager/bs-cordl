@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PrivacyPolicyView.hpp"
+// IWYU pragma private; include "GlobalNamespace\PrivacyPolicyView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyView_def.hpp"
 #include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyView::*)(::HMUI::ButtonBinder*, bool)>(&::GlobalNamespace::PrivacyPolicyView::Activate)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5a15124;
+  constexpr static std::size_t addrs = 0x5a1d230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyView::*)()>(&::GlobalNamespace::PrivacyPolicyView::OpenLink)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5a1d058;
+  constexpr static std::size_t addrs = 0x5a25144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrivacyPolicyView*>(), { "OpenLink", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyView::*)(bool)>(&::GlobalNamespace::PrivacyPolicyView::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a1d0c8;
+  constexpr static std::size_t addrs = 0x5a251b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyView::*)()>(&::GlobalNamespace::PrivacyPolicyView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1d124;
+  constexpr static std::size_t addrs = 0x5a25210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrivacyPolicyView*>(), { ".ctor", {}, {} })));

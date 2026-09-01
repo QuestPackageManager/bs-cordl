@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Scripting/UsedByNativeCodeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Scripting\UsedByNativeCodeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bae9f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb657c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bae9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb6580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method set_Name, addr 0x6baea04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x6bb6588, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -59,7 +59,7 @@ public:
   UsedByNativeCodeAttribute(UsedByNativeCodeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23126 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

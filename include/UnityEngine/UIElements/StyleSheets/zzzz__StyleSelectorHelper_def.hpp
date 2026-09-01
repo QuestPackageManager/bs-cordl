@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleSelectorHelper.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleSelectorHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE StyleSelectorHelper_SelectorWorkItem {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6d0ff90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d17b14, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet_OrderedSelectorType type, ::StringW input);
 
   // Ctor Parameters []
@@ -103,23 +103,23 @@ public:
   // Declarations
   using SelectorWorkItem = ::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper_SelectorWorkItem;
 
-  /// @brief Method FastLookup, addr 0x6d0f810, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method FastLookup, addr 0x6d17394, size 0xf4, virtual false, abstract: false, final false
   static inline void FastLookup(::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* table,
                                 ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
                                 ::UnityEngine::UIElements::StyleMatchingContext* context, ::StringW input, ::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record);
 
-  /// @brief Method FindMatches, addr 0x6d0f904, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method FindMatches, addr 0x6d17488, size 0x68c, virtual false, abstract: false, final false
   static inline void FindMatches(::UnityEngine::UIElements::StyleMatchingContext* context,
                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors, int32_t parentSheetIndex);
 
-  /// @brief Method MatchRightToLeft, addr 0x6d0f568, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method MatchRightToLeft, addr 0x6d170ec, size 0x168, virtual false, abstract: false, final false
   static inline bool MatchRightToLeft(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector,
                                       ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method MatchesSelector, addr 0x6d0f30c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method MatchesSelector, addr 0x6d16e90, size 0x25c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::MatchResultInfo MatchesSelector(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSelector* selector);
 
-  /// @brief Method TestSelectorLinkedList, addr 0x6d0f6d0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method TestSelectorLinkedList, addr 0x6d17254, size 0x140, virtual false, abstract: false, final false
   static inline void TestSelectorLinkedList(::UnityEngine::UIElements::StyleComplexSelector* currentComplexSelector,
                                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
                                             ::UnityEngine::UIElements::StyleMatchingContext* context, ::by_ref<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record);

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SDFPoint.hpp"
+// IWYU pragma private; include "GlobalNamespace\SDFPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set__sqrtRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0x58739a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58732e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sqrtRadius, addr 0x5873994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sqrtRadius, addr 0x58732d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sqrtRadius();
 
-  /// @brief Method set_sqrtRadius, addr 0x587399c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sqrtRadius, addr 0x58732dc, size 0x8, virtual false, abstract: false, final false
   inline void set_sqrtRadius(float_t value);
 
 protected:
@@ -66,7 +66,7 @@ public:
   SDFPoint(SDFPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19586 };
 
   /// @brief Field _radius, offset: 0x20, size: 0x4, def value: None
   float_t ____radius;

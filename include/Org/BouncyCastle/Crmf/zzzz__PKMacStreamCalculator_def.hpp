@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crmf/PKMacStreamCalculator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crmf\PKMacStreamCalculator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCalculator*() noexcept;
 
-  /// @brief Method GetResult, addr 0x36d7df0, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetResult, addr 0x36dbbb0, size 0x74, virtual true, abstract: false, final true
   inline ::System::Object* GetResult();
 
   static inline ::Org::BouncyCastle::Crmf::PKMacStreamCalculator* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__stream(::Org::BouncyCastle::Crypto::IO::MacSink* value);
 
-  /// @brief Method .ctor, addr 0x36d7d7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36dbb3c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method get_Stream, addr 0x36d7de8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0x36dbba8, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"

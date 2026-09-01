@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderTargetBlendState.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderTargetBlendState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,21 +38,21 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetBlendState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetBlendState>*();
 
-  /// @brief Method Equals, addr 0x6b1d0a0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b24c24, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b1648c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b1dea4, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderTargetBlendState other);
 
-  /// @brief Method GetHashCode, addr 0x6b16850, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b1e268, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6b1d07c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b24c00, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ColorWriteMask writeMask, ::UnityEngine::Rendering::BlendMode sourceColorBlendMode, ::UnityEngine::Rendering::BlendMode destinationColorBlendMode,
                     ::UnityEngine::Rendering::BlendMode sourceAlphaBlendMode, ::UnityEngine::Rendering::BlendMode destinationAlphaBlendMode, ::UnityEngine::Rendering::BlendOp colorBlendOperation,
                     ::UnityEngine::Rendering::BlendOp alphaBlendOperation);
 
-  /// @brief Method get_defaultValue, addr 0x6b163b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6b1ddd0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetBlendState get_defaultValue();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetBlendState>"
@@ -70,7 +70,7 @@ public:
                                    uint8_t m_ColorBlendOperation, uint8_t m_AlphaBlendOperation, uint8_t m_Padding) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10825 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

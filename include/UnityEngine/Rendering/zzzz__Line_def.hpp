@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Line.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Line.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +26,13 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE Line {
 public:
   // Declarations
-  /// @brief Method LineOfPlaneIntersectingPlane, addr 0x6807bd0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LineOfPlaneIntersectingPlane, addr 0x680f64c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Line LineOfPlaneIntersectingPlane(::Unity::Mathematics::float4 a, ::Unity::Mathematics::float4 b);
 
-  /// @brief Method PlaneContainingLineAndPoint, addr 0x6807c30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PlaneContainingLineAndPoint, addr 0x680f6ac, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float4 PlaneContainingLineAndPoint(::UnityEngine::Rendering::Line a, ::Unity::Mathematics::float3 b);
 
-  /// @brief Method PlaneContainingLineWithNormalPerpendicularToVector, addr 0x6807c8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PlaneContainingLineWithNormalPerpendicularToVector, addr 0x680f708, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float4 PlaneContainingLineWithNormalPerpendicularToVector(::UnityEngine::Rendering::Line a, ::Unity::Mathematics::float3 b);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr Line(::Unity::Mathematics::float3 m, ::Unity::Mathematics::float3 t) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17608 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

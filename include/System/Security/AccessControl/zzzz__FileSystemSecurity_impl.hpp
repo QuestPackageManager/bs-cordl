@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/FileSystemSecurity.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\FileSystemSecurity.hpp"
 #include "System/Security/AccessControl/zzzz__NativeObjectSecurity_impl.hpp"
 #include "System/Security/AccessControl/zzzz__FileSystemSecurity_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlSections_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::FileSystemSecurity::*)(bool, ::StringW, ::System::Security::AccessControl::AccessControlSections)>(
     &::System::Security::AccessControl::FileSystemSecurity::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b1afdc;
+  constexpr static std::size_t addrs = 0x5b1f498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Acces
                                                               ::System::Security::AccessControl::PropagationFlags, ::System::Security::AccessControl::AccessControlType)>(
     &::System::Security::AccessControl::FileSystemSecurity::AccessRuleFactory)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5b1b1e8;
+  constexpr static std::size_t addrs = 0x5b1f6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

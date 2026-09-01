@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CommitmentTypeIndication.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\CommitmentTypeIndication.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
   /// @brief Field commitmentTypeQualifier, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_commitmentTypeQualifier, put = __cordl_internal_set_commitmentTypeQualifier)) ::Org::BouncyCastle::Asn1::Asn1Sequence* commitmentTypeQualifier;
 
-  /// @brief Method GetInstance, addr 0x336c394, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3370154, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeId);
@@ -51,7 +51,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x336c83c, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x33705fc, size 0x154, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_commitmentTypeId() const;
@@ -66,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set_commitmentTypeQualifier(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x336c7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3370584, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeId);
 
-  /// @brief Method .ctor, addr 0x336c7cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337058c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeId, ::Org::BouncyCastle::Asn1::Asn1Sequence* commitmentTypeQualifier);
 
-  /// @brief Method .ctor, addr 0x336c518, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33702d8, size 0x2ac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CommitmentTypeID, addr 0x336c82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CommitmentTypeID, addr 0x33705ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_CommitmentTypeID();
 
-  /// @brief Method get_CommitmentTypeQualifier, addr 0x336c834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CommitmentTypeQualifier, addr 0x33705f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_CommitmentTypeQualifier();
 
 protected:

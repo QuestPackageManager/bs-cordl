@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/RC5Parameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\RC5Parameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_rounds(int32_t value);
 
-  /// @brief Method .ctor, addr 0x34116e8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34154a8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> key, int32_t rounds);
 
-  /// @brief Method get_Rounds, addr 0x3411770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Rounds, addr 0x3415530, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Rounds();
 
 protected:

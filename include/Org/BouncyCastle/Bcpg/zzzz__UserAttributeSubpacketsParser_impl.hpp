@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/UserAttributeSubpacketsParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\UserAttributeSubpacketsParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacketsParser_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369d894;
+  constexpr static std::size_t addrs = 0x36a1654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* (::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::*)()>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::ReadPacket)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x369d988;
+  constexpr static std::size_t addrs = 0x36a1748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser*>(),

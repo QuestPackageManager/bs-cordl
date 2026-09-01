@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal/Runtime/Augments/RuntimeAugments.hpp"
+// IWYU pragma private; include "Internal\Runtime\Augments\RuntimeAugments.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Runtime/Augments/zzzz__RuntimeAugments_def.hpp"
 #include "Internal/Runtime/Augments/zzzz__ReflectionExecutionDomainCallbacks_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Exception*)>(&::Internal::Runtime::Augments::RuntimeAugments::ReportUnhandledException)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ac3384;
+  constexpr static std::size_t addrs = 0x5ac7840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* (*)()>(&::Internal::Runtime::Augments::RuntimeAugments::get_Callbacks)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ac33a0;
+  constexpr static std::size_t addrs = 0x5ac785c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Internal::Runtime::Augments::RuntimeAugments*>(), { "get_Callbacks", {}, {} })));

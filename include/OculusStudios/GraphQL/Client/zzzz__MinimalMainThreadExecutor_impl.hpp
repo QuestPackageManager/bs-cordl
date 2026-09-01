@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/MinimalMainThreadExecutor.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\MinimalMainThreadExecutor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__MinimalMainThreadExecutor_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::*)(::System::Collections::IEnumerator*, bool)>(
     &::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::StartOnMainThread)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f1d59c;
+  constexpr static std::size_t addrs = 0x5f21a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::*)(::System::Action*)>(
     &::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::RunOnMainThread)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5f1d5d4;
+  constexpr static std::size_t addrs = 0x5f21a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::*)()>(
     &::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::RunPendingActions)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x5f1afd0;
+  constexpr static std::size_t addrs = 0x5f1f490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::*)()>(&::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5f1bf94;
+  constexpr static std::size_t addrs = 0x5f20454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::MinimalMainThreadExecutor*>(), { ".ctor", {}, {} })));

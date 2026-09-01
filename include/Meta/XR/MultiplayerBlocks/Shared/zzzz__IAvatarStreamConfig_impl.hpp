@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/IAvatarStreamConfig.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\IAvatarStreamConfig.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__IAvatarStreamConfig_def.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__AvatarStreamLOD_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Shared::IAvatarStreamConfig.SetAvatarStreamLOD

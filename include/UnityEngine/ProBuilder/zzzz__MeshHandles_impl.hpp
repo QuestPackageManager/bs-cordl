@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshHandles.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshHandles.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__MeshHandles_def.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshHandles___c::*)()>(&::UnityEngine::ProBuilder::MeshHandles___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66c43ec;
+  constexpr static std::size_t addrs = 0x66cbe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshHandles___c*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::UnityEngine::ProBuilder::MeshHandles___c::*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::MeshHandles___c::_CreateFaceMesh_b__9_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66c43f0;
+  constexpr static std::size_t addrs = 0x66cbe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::UnityEngine::ProBuilder::MeshHandles___c::*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::MeshHandles___c::_CreateFaceMeshFromFaces_b__10_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66c4408;
+  constexpr static std::size_t addrs = 0x66cbe84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshHandles___c*>(),
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Mesh*)>(&::UnityEngine::ProBuilder::MeshHandles::CreateFaceMesh)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x66c0c0c;
+  constexpr static std::size_t addrs = 0x66c8688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*,
                                                                 ::UnityEngine::Mesh*)>(&::UnityEngine::ProBuilder::MeshHandles::CreateFaceMeshFromFaces)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x66c0d7c;
+  constexpr static std::size_t addrs = 0x66c87f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Mesh*)>(&::UnityEngine::ProBuilder::MeshHandles::CreateEdgeMesh)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x66c0edc;
+  constexpr static std::size_t addrs = 0x66c8958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::ProBuilder::Edge>)>(
     &::UnityEngine::ProBuilder::MeshHandles::CreateEdgeMesh)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x66c12e8;
+  constexpr static std::size_t addrs = 0x66c8d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshHandles*>(),
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Mesh*)>(&::UnityEngine::ProBuilder::MeshHandles::CreateVertexMesh)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x66c15cc;
+  constexpr static std::size_t addrs = 0x66c9048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Mesh*, ::System::Collections::Generic::IList_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::MeshHandles::CreateVertexMesh)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x66c179c;
+  constexpr static std::size_t addrs = 0x66c9218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshHandles*>(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::Vector3>, ::System::Collections::Generic::IList_1<int32_t>*, ::UnityEngine::Mesh*)>(
     &::UnityEngine::ProBuilder::MeshHandles::CreatePointMesh)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x66c1880;
+  constexpr static std::size_t addrs = 0x66c92fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::UnityEngine::Mesh*)>(
     &::UnityEngine::ProBuilder::MeshHandles::CreatePointBillboardMesh)> {
   constexpr static std::size_t size = 0x948;
-  constexpr static std::size_t addrs = 0x66c2404;
+  constexpr static std::size_t addrs = 0x66c9e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<int32_t>*,
                                                                 ::UnityEngine::Mesh*)>(&::UnityEngine::ProBuilder::MeshHandles::CreatePointBillboardMesh)> {
   constexpr static std::size_t size = 0x9d0;
-  constexpr static std::size_t addrs = 0x66c1a34;
+  constexpr static std::size_t addrs = 0x66c94b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Mesh*)>(&::UnityEngine::ProBuilder::MeshHandles::CreateEdgeBillboardMesh)> {
   constexpr static std::size_t size = 0x8d8;
-  constexpr static std::size_t addrs = 0x66c2d4c;
+  constexpr static std::size_t addrs = 0x66ca7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +267,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Mesh*, ::System::Collections::Generic::ICollection_1<::UnityEngine::ProBuilder::Edge>*)>(
         &::UnityEngine::ProBuilder::MeshHandles::CreateEdgeBillboardMesh)> {
   constexpr static std::size_t size = 0xbc8;
-  constexpr static std::size_t addrs = 0x66c3624;
+  constexpr static std::size_t addrs = 0x66cb0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshHandles*>(),

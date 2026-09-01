@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DepthFormat.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DepthFormat.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DepthFormat_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::DepthFormat::DepthFormat(int32_t value__) noexcept {

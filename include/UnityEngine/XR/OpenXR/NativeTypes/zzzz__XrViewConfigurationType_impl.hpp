@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrViewConfigurationType.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrViewConfigurationType.hpp"
 #include "UnityEngine/XR/OpenXR/NativeTypes/zzzz__XrViewConfigurationType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::XR::OpenXR::NativeTypes::XrViewConfigurationType::XrViewConfigurationType(int32_t value__) noexcept {

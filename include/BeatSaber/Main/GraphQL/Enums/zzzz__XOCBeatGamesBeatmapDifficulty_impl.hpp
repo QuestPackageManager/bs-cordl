@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/GraphQL/Enums/XOCBeatGamesBeatmapDifficulty.hpp"
+// IWYU pragma private; include "BeatSaber\Main\GraphQL\Enums\XOCBeatGamesBeatmapDifficulty.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/zzzz__XOCBeatGamesBeatmapDifficulty_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty::XOCBeatGamesBeatmapDifficulty(int32_t value__) noexcept {

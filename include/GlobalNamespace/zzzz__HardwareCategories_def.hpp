@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HardwareCategories.hpp"
+// IWYU pragma private; include "GlobalNamespace\HardwareCategories.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,19 +29,19 @@ public:
   /// @brief Field _platformOverride, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__platformOverride, put = setStaticF__platformOverride)) ::GlobalNamespace::HardwareCategory _platformOverride;
 
-  /// @brief Method ClearPlatformOverride, addr 0x328a180, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ClearPlatformOverride, addr 0x328df7c, size 0x4c, virtual false, abstract: false, final false
   static inline void ClearPlatformOverride();
 
-  /// @brief Method GetHardwareCategory, addr 0x328a1d0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategory, addr 0x328dfcc, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::HardwareCategory GetHardwareCategory();
 
-  /// @brief Method GetHardwareCategoryWithEditorOverride, addr 0x328a1cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategoryWithEditorOverride, addr 0x328dfc8, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::HardwareCategory GetHardwareCategoryWithEditorOverride();
 
-  /// @brief Method GetPlatformOverride, addr 0x328a0d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformOverride, addr 0x328decc, size 0x58, virtual false, abstract: false, final false
   static inline bool GetPlatformOverride(::by_ref<::GlobalNamespace::HardwareCategory> hardwareCategory);
 
-  /// @brief Method SetPlatformOverride, addr 0x328a128, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetPlatformOverride, addr 0x328df24, size 0x58, virtual false, abstract: false, final false
   static inline void SetPlatformOverride(::GlobalNamespace::HardwareCategory hardwareCategory);
 
   static inline bool getStaticF__isPlatformOverriden();
@@ -67,7 +67,7 @@ public:
   HardwareCategories(HardwareCategories const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22037 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

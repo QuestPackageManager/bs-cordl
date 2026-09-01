@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SpawnChevronObjectPoolsInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\SpawnChevronObjectPoolsInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnChevronObjectPoolsInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationChevron_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnChevronObjectPoolsInstaller::*)()>(&::GlobalNamespace::SpawnChevronObjectPoolsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x599e32c;
+  constexpr static std::size_t addrs = 0x59a6258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnChevronObjectPoolsInstaller*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnChevronObjectPoolsInstaller::*)()>(&::GlobalNamespace::SpawnChevronObjectPoolsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x599e3b4;
+  constexpr static std::size_t addrs = 0x59a62e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnChevronObjectPoolsInstaller*>(), { ".ctor", {}, {} })));

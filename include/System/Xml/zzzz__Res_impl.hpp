@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Res.hpp"
+// IWYU pragma private; include "System\Xml\Res.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__Res_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Res::GetString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62d40d8;
+  constexpr static std::size_t addrs = 0x62dbb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Res*>(), { "GetString", {}, { ::i2c::type_of<::StringW>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::ArrayW<::System::Object*>)>(&::System::Xml::Res::GetString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62d5780;
+  constexpr static std::size_t addrs = 0x62dd1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/CryptoApiRandomGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\CryptoApiRandomGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,20 +33,20 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
 
-  /// @brief Method AddSeedMaterial, addr 0x3419e48, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0x341dc08, size 0x4, virtual true, abstract: false, final false
   inline void AddSeedMaterial(::ArrayW<uint8_t> seed);
 
-  /// @brief Method AddSeedMaterial, addr 0x3419e4c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0x341dc0c, size 0x4, virtual true, abstract: false, final false
   inline void AddSeedMaterial(int64_t seed);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng);
 
-  /// @brief Method NextBytes, addr 0x3419e50, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x341dc10, size 0x1c, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method NextBytes, addr 0x3419e6c, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x341dc2c, size 0x178, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t> bytes, int32_t start, int32_t len);
 
   constexpr ::System::Security::Cryptography::RandomNumberGenerator* const& __cordl_internal_get_rndProv() const;
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_rndProv(::System::Security::Cryptography::RandomNumberGenerator* value);
 
-  /// @brief Method .ctor, addr 0x3419e24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x341dbe4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3419e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x341dc00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RandomNumberGenerator* rng);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"

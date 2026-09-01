@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapLineData.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapLineData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLineData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* (::GlobalNamespace::BeatmapLineData::*)()>(
     &::GlobalNamespace::BeatmapLineData::get_beatmapObjectsData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3259228;
+  constexpr static std::size_t addrs = 0x325c528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLineData*>(), { "get_beatmapObjectsData", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLineData::*)(int32_t)>(&::GlobalNamespace::BeatmapLineData::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3259230;
+  constexpr static std::size_t addrs = 0x325c530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLineData*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLineData::*)(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>*)>(
     &::GlobalNamespace::BeatmapLineData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32592b4;
+  constexpr static std::size_t addrs = 0x325c5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLineData::*)(::GlobalNamespace::BeatmapObjectData*)>(
     &::GlobalNamespace::BeatmapLineData::AddBeatmapObjectData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x32592bc;
+  constexpr static std::size_t addrs = 0x325c5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

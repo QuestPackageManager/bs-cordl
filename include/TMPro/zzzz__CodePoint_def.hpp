@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/CodePoint.hpp"
+// IWYU pragma private; include "TMPro\CodePoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,7 +95,7 @@ public:
   static constexpr uint32_t ZERO_WIDTH_SPACE{ static_cast<uint32_t>(0x200bu) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15971 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

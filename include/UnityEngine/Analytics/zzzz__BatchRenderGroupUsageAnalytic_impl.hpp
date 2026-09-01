@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Analytics/BatchRenderGroupUsageAnalytic.hpp"
+// IWYU pragma private; include "UnityEngine\Analytics\BatchRenderGroupUsageAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEngine/Analytics/zzzz__BatchRenderGroupUsageAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic::*)()>(&::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b00014;
+  constexpr static std::size_t addrs = 0x6b07a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic* (*)()>(
     &::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic::CreateBatchRenderGroupUsageAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b0008c;
+  constexpr static std::size_t addrs = 0x6b07aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

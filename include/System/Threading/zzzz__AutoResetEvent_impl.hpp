@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/AutoResetEvent.hpp"
+// IWYU pragma private; include "System\Threading\AutoResetEvent.hpp"
 #include "System/Threading/zzzz__EventWaitHandle_impl.hpp"
 #include "System/Threading/zzzz__AutoResetEvent_def.hpp"
 //  Writing Method size for method: ::System::Threading::AutoResetEvent._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::AutoResetEvent::*)(bool)>(&::System::Threading::AutoResetEvent::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ca4724;
+  constexpr static std::size_t addrs = 0x5ca8be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::AutoResetEvent*>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/ChallengeList.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\ChallengeList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalCount(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x5dea4f8, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dee9b4, size 0x21c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -55,7 +55,7 @@ public:
   ChallengeList(ChallengeList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18031 };
 
   /// @brief Field TotalCount, offset: 0x28, size: 0x8, def value: None
   uint64_t ___TotalCount;

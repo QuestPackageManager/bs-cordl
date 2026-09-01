@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceComponentDesc.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceComponentDesc.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceComponentGroup_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceType_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceComponentDesc_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceComponentDesc::*)(
     int32_t, int32_t, bool, bool, ::UnityEngine::Rendering::InstanceType, ::UnityEngine::Rendering::InstanceComponentGroup)>(&::UnityEngine::Rendering::GPUInstanceComponentDesc::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6818b2c;
+  constexpr static std::size_t addrs = 0x68205a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

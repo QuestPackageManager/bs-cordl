@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VisualEffectControlClip.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VisualEffectControlClip.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VisualEffectPlayableSerializedEventNoColor_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::ClipCaps (::UnityEngine::VFX::VisualEffectControlClip::*)()>(
     &::UnityEngine::VFX::VisualEffectControlClip::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca7e4;
+  constexpr static std::size_t addrs = 0x69d2260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlClip*>(), { "get_clipCaps", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::VFX::VisualEffectControlClip::*)()>(&::UnityEngine::VFX::VisualEffectControlClip::get_clipStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca7ec;
+  constexpr static std::size_t addrs = 0x69d2268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlClip*>(), { "get_clipStart", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlClip::*)(double_t)>(&::UnityEngine::VFX::VisualEffectControlClip::set_clipStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca7f4;
+  constexpr static std::size_t addrs = 0x69d2270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::VFX::VisualEffectControlClip::*)()>(&::UnityEngine::VFX::VisualEffectControlClip::get_clipEnd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca7fc;
+  constexpr static std::size_t addrs = 0x69d2278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlClip*>(), { "get_clipEnd", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlClip::*)(double_t)>(&::UnityEngine::VFX::VisualEffectControlClip::set_clipEnd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca804;
+  constexpr static std::size_t addrs = 0x69d2280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::VFX::VisualEffectControlClip::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::UnityEngine::VFX::VisualEffectControlClip::CreatePlayable)> {
   constexpr static std::size_t size = 0x604;
-  constexpr static std::size_t addrs = 0x69ca80c;
+  constexpr static std::size_t addrs = 0x69d2288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlClip::*)()>(&::UnityEngine::VFX::VisualEffectControlClip::_ctor)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x69cae30;
+  constexpr static std::size_t addrs = 0x69d28ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlClip*>(), { ".ctor", {}, {} })));

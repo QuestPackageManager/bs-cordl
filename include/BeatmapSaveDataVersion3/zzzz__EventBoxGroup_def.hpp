@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/EventBoxGroup.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\EventBoxGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set_g(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3758c60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375e8cc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId);
 
   /// @brief Method get_baseEventBoxes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* get_baseEventBoxes();
 
-  /// @brief Method get_groupId, addr 0x3758c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x375e8c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
 protected:
@@ -66,7 +66,7 @@ public:
   EventBoxGroup(EventBoxGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15348 };
 
   /// @brief Field g, offset: 0x14, size: 0x4, def value: None
   int32_t ___g;

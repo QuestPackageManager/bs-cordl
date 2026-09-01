@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ColorPage.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ColorPage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE ColorPage {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x6dcd374, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6dd4ef8, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ColorPage Init(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method ToNativeColorPage, addr 0x6dcd410, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToNativeColorPage, addr 0x6dd4f94, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage ToNativeColorPage();
 
   // Ctor Parameters []

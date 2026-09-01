@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TransformData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TransformData.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransformOrigin_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TransformData (::UnityEngine::UIElements::TransformData::*)()>(&::UnityEngine::UIElements::TransformData::Copy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c876d8;
+  constexpr static std::size_t addrs = 0x6c8f25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TransformData>(), { "Copy", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TransformData::*)(::by_ref<::UnityEngine::UIElements::TransformData>)>(
     &::UnityEngine::UIElements::TransformData::CopyFrom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c876e8;
+  constexpr static std::size_t addrs = 0x6c8f26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TransformData, ::UnityEngine::UIElements::TransformData)>(
     &::UnityEngine::UIElements::TransformData::op_Equality)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6c876f0;
+  constexpr static std::size_t addrs = 0x6c8f274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TransformData::*)(::UnityEngine::UIElements::TransformData)>(
     &::UnityEngine::UIElements::TransformData::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c87a40;
+  constexpr static std::size_t addrs = 0x6c8f5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TransformData::*)(::System::Object*)>(&::UnityEngine::UIElements::TransformData::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c87a84;
+  constexpr static std::size_t addrs = 0x6c8f608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::TransformData::*)()>(&::UnityEngine::UIElements::TransformData::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6c87b28;
+  constexpr static std::size_t addrs = 0x6c8f6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

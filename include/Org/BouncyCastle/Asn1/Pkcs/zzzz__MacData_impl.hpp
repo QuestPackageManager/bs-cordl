@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/MacData.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\MacData.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__MacData_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__DigestInfo_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::MacData* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Pkcs::MacData::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x345f2b8;
+  constexpr static std::size_t addrs = 0x3463078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::MacData::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x345f43c;
+  constexpr static std::size_t addrs = 0x34631fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)(::Org::BouncyCastle::Asn1::X509::DigestInfo*, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Asn1::Pkcs::MacData::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x345f5c4;
+  constexpr static std::size_t addrs = 0x3463384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::DigestInfo* (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::MacData::get_Mac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x345f6b0;
+  constexpr static std::size_t addrs = 0x3463470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::MacData*>(), { "get_Mac", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)()>(&::Org::BouncyCastle::Asn1::Pkcs::MacData::GetSalt)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x345f6b8;
+  constexpr static std::size_t addrs = 0x3463478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::MacData*>(), { "GetSalt", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::MacData::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x345f730;
+  constexpr static std::size_t addrs = 0x34634f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::MacData*>(), { "get_IterationCount", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::MacData::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::MacData::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x345f738;
+  constexpr static std::size_t addrs = 0x34634f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

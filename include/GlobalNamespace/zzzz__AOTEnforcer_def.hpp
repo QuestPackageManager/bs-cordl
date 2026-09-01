@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AOTEnforcer.hpp"
+// IWYU pragma private; include "GlobalNamespace\AOTEnforcer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE AOTEnforcer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x5852a60, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5851b68, size 0x6c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AOTEnforcer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5852acc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5851bd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   AOTEnforcer(AOTEnforcer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

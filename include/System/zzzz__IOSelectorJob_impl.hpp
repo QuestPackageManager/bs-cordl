@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IOSelectorJob.hpp"
+// IWYU pragma private; include "System\IOSelectorJob.hpp"
 #include "System/zzzz__IOOperation_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IOSelectorJob_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IOSelectorJob::*)(::System::IOOperation, ::System::IOAsyncCallback*, ::System::IOAsyncResult*)>(
     &::System::IOSelectorJob::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6372d80;
+  constexpr static std::size_t addrs = 0x637a7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IOSelectorJob::*)()>(&::System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6372d8c;
+  constexpr static std::size_t addrs = 0x637a808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IOSelectorJob::*)(::System::Threading::ThreadAbortException*)>(
     &::System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6372db0;
+  constexpr static std::size_t addrs = 0x637a82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IOSelectorJob::*)()>(&::System::IOSelectorJob::MarkDisposed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6372db4;
+  constexpr static std::size_t addrs = 0x637a830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IOSelectorJob*>(), { "MarkDisposed", {}, {} })));

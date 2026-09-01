@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapEditorSceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapEditorSceneSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_startLevel(::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> value);
 
-  /// @brief Method .ctor, addr 0x59097fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590cde8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool goStraightToEditor, ::StringW projectPath, bool ignoreTempFolder,
                     ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>> startLevel);
 
@@ -97,7 +97,7 @@ public:
   BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6719 };
 
   /// @brief Field goStraightToEditor, offset: 0x10, size: 0x1, def value: None
   bool ___goStraightToEditor;

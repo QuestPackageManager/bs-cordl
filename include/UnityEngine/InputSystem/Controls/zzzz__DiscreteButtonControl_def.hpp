@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Controls/DiscreteButtonControl.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Controls\DiscreteButtonControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   static ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode const WriteNullAndMaxValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9125 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,15 +102,15 @@ public:
   /// @brief Field writeMode, offset 0x150, size 0x4
   __declspec(property(get = __cordl_internal_get_writeMode, put = __cordl_internal_set_writeMode)) ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode writeMode;
 
-  /// @brief Method FinishSetup, addr 0x64f35a8, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x64fb024, size 0x100, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x64f36a8, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x64fb124, size 0x18c, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x64f3838, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x64fb2b4, size 0x140, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, void* statePtr);
 
   constexpr int32_t const& __cordl_internal_get_maxValue() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode value);
 
-  /// @brief Method .ctor, addr 0x64f397c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64fb3f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,7 +161,7 @@ public:
   DiscreteButtonControl(DiscreteButtonControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9126 };
 
   /// @brief Field minValue, offset: 0x140, size: 0x4, def value: None
   int32_t ___minValue;

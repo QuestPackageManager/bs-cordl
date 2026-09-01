@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPackUseMobileDataRequestResult.hpp"
+// IWYU pragma private; include "UnityEngine\Android\AndroidAssetPackUseMobileDataRequestResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__allowed_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6a2b7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a33234, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool allowed);
 
 protected:
@@ -48,7 +48,7 @@ public:
   AndroidAssetPackUseMobileDataRequestResult(AndroidAssetPackUseMobileDataRequestResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20169 };
 
   /// @brief Field <allowed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____allowed_k__BackingField;

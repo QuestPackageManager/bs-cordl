@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRSystemPerfMetrics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSystemPerfMetrics_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::*)()>(&::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::ToJSON)> {
   constexpr static std::size_t size = 0x72c;
-  constexpr static std::size_t addrs = 0x5f0fc78;
+  constexpr static std::size_t addrs = 0x5f14134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics*>(), { "ToJSON", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::*)(::StringW)>(&::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::LoadFromJSON)> {
   constexpr static std::size_t size = 0xb48;
-  constexpr static std::size_t addrs = 0x5f103a4;
+  constexpr static std::size_t addrs = 0x5f14860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::*)()>(&::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5f1196c;
+  constexpr static std::size_t addrs = 0x5f15e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics*>(), { ".ctor", {}, {} })));
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::OnEnable)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5f11a24;
+  constexpr static std::size_t addrs = 0x5f15ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::OnDisable)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f11b4c;
+  constexpr static std::size_t addrs = 0x5f16008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::Update)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f11bf8;
+  constexpr static std::size_t addrs = 0x5f160b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics* (::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::GatherPerfMetrics)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x5f11c78;
+  constexpr static std::size_t addrs = 0x5f16134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f11fec;
+  constexpr static std::size_t addrs = 0x5f164a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -570,7 +570,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics::*)()>(&::GlobalNamespace::OVRSystemPerfMetrics::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f0fc74;
+  constexpr static std::size_t addrs = 0x5f14130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSystemPerfMetrics*>(), { ".ctor", {}, {} })));

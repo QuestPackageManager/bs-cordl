@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CullingJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CullingJob.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(float_t)>(&::UnityEngine::Rendering::CullingJob::PackFloatToUint8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x680f258;
+  constexpr static std::size_t addrs = 0x6816cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, int32_t, ::UnityEngine::Rendering::InstanceFlags)>(
     &::UnityEngine::Rendering::CullingJob::CalculateLODVisibility)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x680f2b8;
+  constexpr static std::size_t addrs = 0x6816d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, int32_t, ::UnityEngine::Rendering::InstanceFlags)>(
     &::UnityEngine::Rendering::CullingJob::CalculateVisibilityMask)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x680f770;
+  constexpr static std::size_t addrs = 0x68171ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CullingJob::*)(int32_t)>(&::UnityEngine::Rendering::CullingJob::Execute)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x680f96c;
+  constexpr static std::size_t addrs = 0x68173e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(), { "Execute", {}, { ::i2c::type_of<int32_t>() } })));

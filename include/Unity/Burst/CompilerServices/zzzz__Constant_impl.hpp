@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Burst/CompilerServices/Constant.hpp"
+// IWYU pragma private; include "Unity\Burst\CompilerServices\Constant.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__Constant_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::Constant.IsConstantExpression
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(void*)>(&::Unity::Burst::CompilerServices::Constant::IsConstantExpression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649fb8c;
+  constexpr static std::size_t addrs = 0x64a7608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

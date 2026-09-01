@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Drawing/PointF.hpp"
+// IWYU pragma private; include "System\Drawing\PointF.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,28 +35,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::PointF>"
   constexpr operator ::System::IEquatable_1<::System::Drawing::PointF>*();
 
-  /// @brief Method Equals, addr 0x60cda84, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60d5500, size 0x84, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x60cdb08, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x60d5584, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::System::Drawing::PointF other);
 
-  /// @brief Method GetHashCode, addr 0x60cdb20, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60d559c, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x60cdba4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60d5620, size 0x118, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_X, addr 0x60cda64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x60d54e0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_X();
 
-  /// @brief Method get_Y, addr 0x60cda6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x60d54e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Y();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Drawing::PointF>"
   constexpr ::System::IEquatable_1<::System::Drawing::PointF>* i___System__IEquatable_1___System__Drawing__PointF_();
 
-  /// @brief Method op_Equality, addr 0x60cda74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x60d54f0, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Drawing::PointF left, ::System::Drawing::PointF right);
 
   // Ctor Parameters []
@@ -67,7 +67,7 @@ public:
   constexpr PointF(float_t x, float_t y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21620 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

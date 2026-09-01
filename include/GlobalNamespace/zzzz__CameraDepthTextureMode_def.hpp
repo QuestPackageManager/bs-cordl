@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CameraDepthTextureMode.hpp"
+// IWYU pragma private; include "GlobalNamespace\CameraDepthTextureMode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ public:
   /// @brief Field _depthTextureMode, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__depthTextureMode, put = __cordl_internal_set__depthTextureMode)) ::UnityEngine::DepthTextureMode _depthTextureMode;
 
-  /// @brief Method Awake, addr 0x5855f5c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5855064, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CameraDepthTextureMode* New_ctor();
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__depthTextureMode(::UnityEngine::DepthTextureMode value);
 
-  /// @brief Method .ctor, addr 0x5855fbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58550c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   CameraDepthTextureMode(CameraDepthTextureMode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21397 };
 
   /// @brief Field _depthTextureMode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::DepthTextureMode ____depthTextureMode;

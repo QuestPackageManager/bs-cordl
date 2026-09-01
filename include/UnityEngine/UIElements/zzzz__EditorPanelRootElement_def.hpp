@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EditorPanelRootElement.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EditorPanelRootElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::EditorPanelRootElement* New_ctor();
 
-  /// @brief Method OnEventCompletedAtAnyTarget, addr 0x6db3a08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnEventCompletedAtAnyTarget, addr 0x6dbb58c, size 0x3c, virtual false, abstract: false, final false
   inline void OnEventCompletedAtAnyTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method .ctor, addr 0x6db1bc4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6db9748, size 0x238, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

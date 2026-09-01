@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/DsaValidationParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\DsaValidationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,16 +37,16 @@ public:
   /// @brief Field usageIndex, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_usageIndex, put = __cordl_internal_set_usageIndex)) int32_t usageIndex;
 
-  /// @brief Method Equals, addr 0x340ba64, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x340f824, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x340bb18, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x340f8d8, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x340bbb8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x340f978, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSeed, addr 0x340b9dc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetSeed, addr 0x340f79c, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSeed();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* New_ctor(::ArrayW<uint8_t> seed, int32_t counter);
@@ -71,16 +71,16 @@ public:
 
   constexpr void __cordl_internal_set_usageIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x340b8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340f69c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> seed, int32_t counter);
 
-  /// @brief Method .ctor, addr 0x340b8e4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340f6a4, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> seed, int32_t counter, int32_t usageIndex);
 
-  /// @brief Method get_Counter, addr 0x340ba54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Counter, addr 0x340f814, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Counter();
 
-  /// @brief Method get_UsageIndex, addr 0x340ba5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UsageIndex, addr 0x340f81c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_UsageIndex();
 
 protected:

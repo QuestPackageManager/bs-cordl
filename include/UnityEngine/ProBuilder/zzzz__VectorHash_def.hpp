@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/VectorHash.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\VectorHash.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,16 +30,16 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE VectorHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x66f3934, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x66fb3b0, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x66debfc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x66e6678, size 0xac, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector3 v);
 
-  /// @brief Method GetHashCode, addr 0x66f39b0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x66fb42c, size 0xe0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector4 v);
 
-  /// @brief Method HashFloat, addr 0x66f38f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HashFloat, addr 0x66fb370, size 0x40, virtual false, abstract: false, final false
   static inline int32_t HashFloat(float_t f);
 
 protected:
@@ -60,7 +60,7 @@ public:
   static constexpr float_t FltCompareResolution{ static_cast<float_t>(1000.0f) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16826 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

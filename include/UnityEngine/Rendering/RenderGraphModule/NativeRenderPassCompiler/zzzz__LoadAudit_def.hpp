@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/LoadAudit.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\LoadAudit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   /// @brief Field LoadReasonMessages, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_LoadReasonMessages, put = setStaticF_LoadReasonMessages)) ::ArrayW<::StringW> LoadReasonMessages;
 
-  /// @brief Method .ctor, addr 0x67f2674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fa0f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::LoadReason setReason, int32_t setPassId);
 
   static inline ::ArrayW<::StringW> getStaticF_LoadReasonMessages();
@@ -45,7 +45,7 @@ public:
   constexpr LoadAudit(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::LoadReason reason, int32_t passId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12494 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SliderShaderHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\SliderShaderHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,41 +87,41 @@ public:
   /// @brief Field timeSinceHeadNoteJumpPropertyId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_timeSinceHeadNoteJumpPropertyId, put = setStaticF_timeSinceHeadNoteJumpPropertyId)) int32_t timeSinceHeadNoteJumpPropertyId;
 
-  /// @brief Method EnableSaberAttraction, addr 0x59762ec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EnableSaberAttraction, addr 0x5979c80, size 0x88, virtual false, abstract: false, final false
   static inline void EnableSaberAttraction(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, bool enableSaberAttraction);
 
-  /// @brief Method SetColor, addr 0x5979190, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x597cb24, size 0x9c, virtual false, abstract: false, final false
   static inline void SetColor(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::UnityEngine::Color color);
 
-  /// @brief Method SetHeadNoteJump, addr 0x59793dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetHeadNoteJump, addr 0x597cd70, size 0x7c, virtual false, abstract: false, final false
   static inline void SetHeadNoteJump(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, float_t halfJumpDuration, float_t headNoteGravity);
 
-  /// @brief Method SetInitialProperties, addr 0x597922c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method SetInitialProperties, addr 0x597cbc0, size 0x1b0, virtual false, abstract: false, final false
   static inline void SetInitialProperties(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::UnityEngine::Color sliderColor, float_t sliderZLength, float_t sliderLength, bool headFadeout,
                                           bool tailFadeout, bool hasHeadNote, bool hasTailNote, float_t randomValue);
 
-  /// @brief Method SetInitialProperties, addr 0x5974050, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetInitialProperties, addr 0x59779e4, size 0x12c, virtual false, abstract: false, final false
   static inline void SetInitialProperties(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method SetJumpSpeedAndDistance, addr 0x5979500, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetJumpSpeedAndDistance, addr 0x597ce94, size 0x98, virtual false, abstract: false, final false
   static inline void SetJumpSpeedAndDistance(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, float_t noteJumpSpeed, float_t noteJumpDistance);
 
-  /// @brief Method SetNoteJump, addr 0x5979458, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetNoteJump, addr 0x597cdec, size 0x2c, virtual false, abstract: false, final false
   static inline void SetNoteJump(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, int32_t propertyId, float_t halfJumpDuration, float_t noteGravity);
 
-  /// @brief Method SetSaberAttractionPoint, addr 0x59790f8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetSaberAttractionPoint, addr 0x597ca8c, size 0x98, virtual false, abstract: false, final false
   static inline void SetSaberAttractionPoint(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::UnityEngine::Vector3 attractPoint);
 
-  /// @brief Method SetTailHeadNoteJumpOffsetDifference, addr 0x597907c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetTailHeadNoteJumpOffsetDifference, addr 0x597ca10, size 0x7c, virtual false, abstract: false, final false
   static inline void SetTailHeadNoteJumpOffsetDifference(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, float_t tailHeadNoteJumpOffsetDifference);
 
-  /// @brief Method SetTailNoteJump, addr 0x5979484, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetTailNoteJump, addr 0x597ce18, size 0x7c, virtual false, abstract: false, final false
   static inline void SetTailNoteJump(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, float_t halfJumpDuration, float_t headNoteGravity);
 
-  /// @brief Method SetTimeSinceHeadNoteJump, addr 0x5979000, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetTimeSinceHeadNoteJump, addr 0x597c994, size 0x7c, virtual false, abstract: false, final false
   static inline void SetTimeSinceHeadNoteJump(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, float_t time);
 
-  /// @brief Method UpdateMaterialPropertyBlock, addr 0x5975678, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method UpdateMaterialPropertyBlock, addr 0x597900c, size 0x42c, virtual false, abstract: false, final false
   static inline void UpdateMaterialPropertyBlock(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::GlobalNamespace::SliderController* sliderController,
                                                  ::GlobalNamespace::IVariableMovementDataProvider* variableMovementDataProvider, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider,
                                                  ::GlobalNamespace::TimeHelper* timeHelper, float_t timeSinceHeadNoteJump);

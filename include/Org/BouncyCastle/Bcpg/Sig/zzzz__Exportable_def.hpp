@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/Exportable.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Sig\Exportable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,20 +21,20 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 class CORDL_TYPE Exportable : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method BooleanToByteArray, addr 0x369074c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BooleanToByteArray, addr 0x369450c, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> BooleanToByteArray(bool val);
 
-  /// @brief Method IsExportable, addr 0x369080c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsExportable, addr 0x36945cc, size 0x30, virtual false, abstract: false, final false
   inline bool IsExportable();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Exportable* New_ctor(bool critical, bool isExportable);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Exportable* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x36907d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3694594, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isExportable);
 
-  /// @brief Method .ctor, addr 0x36907bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369457c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
 protected:

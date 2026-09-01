@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlUtility.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::StringW)>(&::UnityEngine::UIElements::UxmlUtility::ParseStringListAttribute)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6cb9a9c;
+  constexpr static std::size_t addrs = 0x6cc1620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/Gcm/Tables1kGcmExponentiator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\Gcm\Tables1kGcmExponentiator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__Tables1kGcmExponentiator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__IGcmExponentiator_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x33edc94;
+  constexpr static std::size_t addrs = 0x33f1a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(int64_t, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::ExponentiateX)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x33edeb4;
+  constexpr static std::size_t addrs = 0x33f1c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::EnsureAvailable)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x33ee074;
+  constexpr static std::size_t addrs = 0x33f1e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33ee2f0;
+  constexpr static std::size_t addrs = 0x33f20b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

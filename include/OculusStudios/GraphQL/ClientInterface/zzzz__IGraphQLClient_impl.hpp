@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/IGraphQLClient.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\IGraphQLClient.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLClient_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__EmptyResponseObject_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLClientEvents_def.hpp"
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>* (
     ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::*)(::OculusStudios::GraphQL::ClientInterface::IQueryRequest*)>(&::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Query)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f282b8;
+  constexpr static std::size_t addrs = 0x5f2c778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*>* (
     ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::*)(::OculusStudios::GraphQL::ClientInterface::IMutationRequest*)>(&::OculusStudios::GraphQL::ClientInterface::IGraphQLClient::Mutate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f28378;
+  constexpr static std::size_t addrs = 0x5f2c838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/RareData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\RareData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,19 +41,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*();
 
-  /// @brief Method Copy, addr 0x6c873d0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x6c8ef54, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::RareData Copy();
 
-  /// @brief Method CopyFrom, addr 0x6c873e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x6c8ef64, size 0x8, virtual true, abstract: false, final true
   inline void CopyFrom(::by_ref<::UnityEngine::UIElements::RareData> other);
 
-  /// @brief Method Equals, addr 0x6c8754c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c8f0d0, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c87508, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c8f08c, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::RareData other);
 
-  /// @brief Method GetHashCode, addr 0x6c875f0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c8f174, size 0xe8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
@@ -62,7 +62,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__RareData_();
 
-  /// @brief Method op_Equality, addr 0x6c873e8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c8ef6c, size 0x120, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::RareData lhs, ::UnityEngine::UIElements::RareData rhs);
 
   // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/VertexEditing.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\VertexEditing.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__VertexEditing_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int32_t>, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::MergeVertices)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x673925c;
+  constexpr static std::size_t addrs = 0x6740cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::SplitVertices)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6739578;
+  constexpr static std::size_t addrs = 0x6740ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::SplitVertices)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x6739604;
+  constexpr static std::size_t addrs = 0x6741080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, float_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::WeldVertices)> {
   constexpr static std::size_t size = 0xce4;
-  constexpr static std::size_t addrs = 0x67399f4;
+  constexpr static std::size_t addrs = 0x6741470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                 float_t, ::by_ref<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*>)>(
         &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::ExplodeVertex)> {
   constexpr static std::size_t size = 0xc14;
-  constexpr static std::size_t addrs = 0x673a6d8;
+  constexpr static std::size_t addrs = 0x6742154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (*)(::UnityEngine::ProBuilder::EdgeLookup, int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::VertexEditing::AlignEdgeWithDirection)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x673b2ec;
+  constexpr static std::size_t addrs = 0x6742d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

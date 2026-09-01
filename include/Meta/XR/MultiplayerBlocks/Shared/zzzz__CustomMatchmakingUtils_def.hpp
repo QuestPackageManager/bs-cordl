@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/CustomMatchmakingUtils.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\CustomMatchmakingUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,16 +26,16 @@ namespace Meta::XR::MultiplayerBlocks::Shared {
 class CORDL_TYPE CustomMatchmakingUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DecodeMatchInfoWithStruct, addr 0x5a700e8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method DecodeMatchInfoWithStruct, addr 0x5a745a4, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Meta::XR::MultiplayerBlocks::Shared::MatchInfo DecodeMatchInfoWithStruct(::StringW matchInfoString);
 
-  /// @brief Method EncodeMatchInfoToSessionId, addr 0x5a704b4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EncodeMatchInfoToSessionId, addr 0x5a74970, size 0xd4, virtual false, abstract: false, final false
   static inline ::StringW EncodeMatchInfoToSessionId(::StringW roomId, ::StringW roomPassword);
 
-  /// @brief Method EncodeMatchInfoWithStruct, addr 0x5a70298, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EncodeMatchInfoWithStruct, addr 0x5a74754, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW EncodeMatchInfoWithStruct(::StringW roomId, ::StringW roomPassword, ::StringW extra);
 
-  /// @brief Method ExtractMatchInfoFromSessionId, addr 0x5a7035c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ExtractMatchInfoFromSessionId, addr 0x5a74818, size 0x158, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::StringW, ::StringW> ExtractMatchInfoFromSessionId(::StringW matchSessionId);
 
 protected:
@@ -53,7 +53,7 @@ public:
   CustomMatchmakingUtils(CustomMatchmakingUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20857 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

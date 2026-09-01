@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OcclusionCullingCommonShaderVariables.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OcclusionCullingCommonShaderVariables.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionCullingCommonShaderVariables_def.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceOcclusionTestSubviewSettings_def.hpp"
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::OccluderContext>, ::by_ref<::UnityEngine::Rendering::InstanceOcclusionTestSubviewSettings>, bool, bool)>(
     &::UnityEngine::Rendering::OcclusionCullingCommonShaderVariables::_ctor)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x682b76c;
+  constexpr static std::size_t addrs = 0x68331e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

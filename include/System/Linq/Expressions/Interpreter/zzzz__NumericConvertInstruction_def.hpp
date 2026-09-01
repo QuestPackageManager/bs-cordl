@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NumericConvertInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NumericConvertInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,10 +66,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NumericConvertInstruction* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method Run, addr 0x5fb1f34, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x5fb99b0, size 0x16c, virtual true, abstract: false, final true
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x5fb20f4, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5fb9b70, size 0x180, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::TypeCode const& __cordl_internal_get__from() const;
@@ -90,16 +90,16 @@ public:
 
   constexpr void __cordl_internal_set__to(::System::TypeCode value);
 
-  /// @brief Method .ctor, addr 0x5fb1f28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb99a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_ConsumedStack, addr 0x5fb20e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5fb9b60, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5fb20a0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fb9b1c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5fb20ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5fb9b68, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -117,7 +117,7 @@ public:
   NumericConvertInstruction(NumericConvertInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16556 };
 
   /// @brief Field _from, offset: 0x10, size: 0x4, def value: None
   ::System::TypeCode ____from;

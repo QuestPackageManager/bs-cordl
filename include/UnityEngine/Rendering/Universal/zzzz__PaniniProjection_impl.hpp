@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/PaniniProjection.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\PaniniProjection.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PaniniProjection_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ClampedFloatParameter_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::PaniniProjection::*)()>(&::UnityEngine::Rendering::Universal::PaniniProjection::IsActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68777d8;
+  constexpr static std::size_t addrs = 0x687f254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PaniniProjection*>(), { "IsActive", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::PaniniProjection::*)()>(&::UnityEngine::Rendering::Universal::PaniniProjection::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6877808;
+  constexpr static std::size_t addrs = 0x687f284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PaniniProjection*>(), { "IsTileCompatible", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PaniniProjection::*)()>(&::UnityEngine::Rendering::Universal::PaniniProjection::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6877810;
+  constexpr static std::size_t addrs = 0x687f28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PaniniProjection*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/InstanceAllocators.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\InstanceAllocators.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,31 +33,31 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE InstanceAllocators {
 public:
   // Declarations
-  /// @brief Method AllocateInstance, addr 0x681bfd4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AllocateInstance, addr 0x6823a50, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceHandle AllocateInstance(::UnityEngine::Rendering::InstanceType type);
 
-  /// @brief Method AllocateSharedInstance, addr 0x681c100, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AllocateSharedInstance, addr 0x6823b7c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SharedInstanceHandle AllocateSharedInstance();
 
-  /// @brief Method Dispose, addr 0x681bf04, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6823980, size 0x20, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FreeInstance, addr 0x681c068, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FreeInstance, addr 0x6823ae4, size 0x98, virtual false, abstract: false, final false
   inline void FreeInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method FreeSharedInstance, addr 0x681c168, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FreeSharedInstance, addr 0x6823be4, size 0x68, virtual false, abstract: false, final false
   inline void FreeSharedInstance(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method GetInstanceAllocator, addr 0x681bf24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceAllocator, addr 0x68239a0, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceAllocator GetInstanceAllocator(::UnityEngine::Rendering::InstanceType type);
 
-  /// @brief Method GetInstanceHandlesLength, addr 0x681bf8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceHandlesLength, addr 0x6823a08, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetInstanceHandlesLength(::UnityEngine::Rendering::InstanceType type);
 
-  /// @brief Method GetInstancesLength, addr 0x681bfb0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetInstancesLength, addr 0x6823a2c, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetInstancesLength(::UnityEngine::Rendering::InstanceType type);
 
-  /// @brief Method Initialize, addr 0x681bea4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6823920, size 0x60, virtual false, abstract: false, final false
   inline void Initialize();
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
                                ::UnityEngine::Rendering::InstanceAllocator m_SharedInstanceAlloc) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17693 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

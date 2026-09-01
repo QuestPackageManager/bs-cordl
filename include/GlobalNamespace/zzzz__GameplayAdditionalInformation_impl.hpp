@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameplayAdditionalInformation.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameplayAdditionalInformation.hpp"
 #include "GlobalNamespace/zzzz__PlaymodeOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayAdditionalInformation_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayAdditionalInformation::*)(::StringW, bool, bool, ::GlobalNamespace::PlaymodeOptions, ::StringW, bool,
                                                                                                                   ::StringW)>(&::GlobalNamespace::GameplayAdditionalInformation::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x37086e4;
+  constexpr static std::size_t addrs = 0x370cb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

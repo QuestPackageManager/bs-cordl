@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VFXSpawnerLoopState.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VFXSpawnerLoopState.hpp"
 #include "UnityEngine/VFX/zzzz__VFXSpawnerLoopState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::VFX::VFXSpawnerLoopState::VFXSpawnerLoopState(int32_t value__) noexcept {

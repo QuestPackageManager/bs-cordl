@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/EraInfo.hpp"
+// IWYU pragma private; include "System\Globalization\EraInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__EraInfo_def.hpp"
 //  Writing Method size for method: ::System::Globalization::EraInfo._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::EraInfo::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::Globalization::EraInfo::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5bc472c;
+  constexpr static std::size_t addrs = 0x5bc8be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::EraInfo::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, ::StringW, ::StringW, ::StringW)>(
     &::System::Globalization::EraInfo::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5bc4804;
+  constexpr static std::size_t addrs = 0x5bc8cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

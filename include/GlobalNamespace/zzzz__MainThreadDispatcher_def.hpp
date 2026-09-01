@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainThreadDispatcher.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainThreadDispatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,7 +115,7 @@ public:
   MainThreadDispatcher___c__DisplayClass2_0_1(MainThreadDispatcher___c__DisplayClass2_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22765 };
 
   /// @brief Field action, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<A>* ___action;
@@ -186,7 +186,7 @@ public:
   MainThreadDispatcher___c__DisplayClass3_0_2(MainThreadDispatcher___c__DisplayClass3_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22766 };
 
   /// @brief Field action, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<A, B>* ___action;
@@ -269,7 +269,7 @@ public:
   MainThreadDispatcher___c__DisplayClass4_0_3(MainThreadDispatcher___c__DisplayClass4_0_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22767 };
 
   /// @brief Field action, offset: 0x10, size: 0x8, def value: None
   ::System::Action_3<A, B, C>* ___action;
@@ -364,7 +364,7 @@ public:
   MainThreadDispatcher___c__DisplayClass5_0_4(MainThreadDispatcher___c__DisplayClass5_0_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22768 };
 
   /// @brief Field action, offset: 0x10, size: 0x8, def value: None
   ::System::Action_4<A, B, C, D>* ___action;
@@ -406,7 +406,7 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method DispatchOnMainThread, addr 0x5853b5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DispatchOnMainThread, addr 0x5852c64, size 0x64, virtual false, abstract: false, final false
   inline void DispatchOnMainThread(::System::Action* action);
 
   /// @brief Method DispatchOnMainThread, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -424,7 +424,7 @@ public:
 
   static inline ::GlobalNamespace::MainThreadDispatcher* New_ctor();
 
-  /// @brief Method Tick, addr 0x5853bc0, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x5852cc8, size 0x114, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* const& __cordl_internal_get__dispatchQueue() const;
@@ -433,7 +433,7 @@ public:
 
   constexpr void __cordl_internal_set__dispatchQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* value);
 
-  /// @brief Method .ctor, addr 0x5853cd4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5852ddc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::ITickable"
@@ -454,7 +454,7 @@ public:
   MainThreadDispatcher(MainThreadDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22769 };
 
   /// @brief Field _dispatchQueue, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* ____dispatchQueue;

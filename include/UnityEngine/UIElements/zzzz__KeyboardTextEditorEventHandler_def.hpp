@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/KeyboardTextEditorEventHandler.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\KeyboardTextEditorEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,30 +55,30 @@ public:
   /// @brief Field m_ImguiEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ImguiEvent, put = __cordl_internal_set_m_ImguiEvent)) ::UnityEngine::Event* m_ImguiEvent;
 
-  /// @brief Method HandleEventBubbleUp, addr 0x6d42598, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method HandleEventBubbleUp, addr 0x6d4a11c, size 0x304, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::KeyboardTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
-  /// @brief Method OnBlur, addr 0x6d4362c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnBlur, addr 0x6d4b1b0, size 0x74, virtual false, abstract: false, final false
   inline void OnBlur(::UnityEngine::UIElements::BlurEvent* _);
 
-  /// @brief Method OnExecuteCommandEvent, addr 0x6d432e4, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method OnExecuteCommandEvent, addr 0x6d4ae68, size 0x250, virtual false, abstract: false, final false
   inline void OnExecuteCommandEvent(::UnityEngine::UIElements::ExecuteCommandEvent* evt);
 
-  /// @brief Method OnFocus, addr 0x6d43534, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnFocus, addr 0x6d4b0b8, size 0xf8, virtual false, abstract: false, final false
   inline void OnFocus(::UnityEngine::UIElements::FocusEvent* _);
 
-  /// @brief Method OnKeyDown, addr 0x6d428a0, size 0x838, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x6d4a424, size 0x838, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
   /// @brief Method OnNavigationEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEvent> inline void OnNavigationEvent(::UnityEngine::UIElements::NavigationEventBase_1<TEvent>* evt);
 
-  /// @brief Method OnValidateCommandEvent, addr 0x6d430d8, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method OnValidateCommandEvent, addr 0x6d4ac5c, size 0x20c, virtual false, abstract: false, final false
   inline void OnValidateCommandEvent(::UnityEngine::UIElements::ValidateCommandEvent* evt);
 
-  /// @brief Method UpdateLabel, addr 0x6d436a0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method UpdateLabel, addr 0x6d4b224, size 0x280, virtual false, abstract: false, final false
   inline void UpdateLabel(bool generatePreview);
 
   constexpr bool const& __cordl_internal_get_m_Changed() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ImguiEvent(::UnityEngine::Event* value);
 
-  /// @brief Method .ctor, addr 0x6d42478, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d49ffc, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSequence.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSequence.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaGroupBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSequence_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectCollection_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchemaSequence::*)()>(
     &::System::Xml::Schema::XmlSchemaSequence::get_Items)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622c8b4;
+  constexpr static std::size_t addrs = 0x6234330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaSequence::*)()>(&::System::Xml::Schema::XmlSchemaSequence::get_IsEmpty)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x622c8bc;
+  constexpr static std::size_t addrs = 0x6234338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaSequence::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(
     &::System::Xml::Schema::XmlSchemaSequence::SetItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622c908;
+  constexpr static std::size_t addrs = 0x6234384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaSequence::*)()>(&::System::Xml::Schema::XmlSchemaSequence::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x622c910;
+  constexpr static std::size_t addrs = 0x623438c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaSequence*>(), { ".ctor", {}, {} })));

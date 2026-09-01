@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ConditionalImageMaterialSwitcher.hpp"
+// IWYU pragma private; include "GlobalNamespace\ConditionalImageMaterialSwitcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
   /// @brief Field _value, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::UnityW<::GlobalNamespace::BoolSO> _value;
 
-  /// @brief Method Awake, addr 0x58fda24, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5900fec, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalImageMaterialSwitcher* New_ctor();
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x58fdaa8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5901070, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   ConditionalImageMaterialSwitcher(ConditionalImageMaterialSwitcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6656 };
 
   /// @brief Field _material0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material0;

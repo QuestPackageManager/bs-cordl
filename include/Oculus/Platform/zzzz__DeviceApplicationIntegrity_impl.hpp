@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/DeviceApplicationIntegrity.hpp"
+// IWYU pragma private; include "Oculus\Platform\DeviceApplicationIntegrity.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__DeviceApplicationIntegrity_def.hpp"
 #include "Oculus/Platform/zzzz__Request_1_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::StringW>* (*)(::StringW)>(&::Oculus::Platform::DeviceApplicationIntegrity::GetIntegrityToken)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5de3844;
+  constexpr static std::size_t addrs = 0x5de7d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

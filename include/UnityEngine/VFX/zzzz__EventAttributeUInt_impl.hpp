@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/EventAttributeUInt.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\EventAttributeUInt.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributeValue_1_impl.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributeUInt_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::EventAttributeUInt___c::*)()>(&::UnityEngine::VFX::EventAttributeUInt___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69cbdd0;
+  constexpr static std::size_t addrs = 0x69d384c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::EventAttributeUInt___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::EventAttributeUInt___c::*)(::UnityEngine::VFX::VFXEventAttribute*, int32_t)>(
     &::UnityEngine::VFX::EventAttributeUInt___c::__ctor_b__0_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69cbdd4;
+  constexpr static std::size_t addrs = 0x69d3850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::EventAttributeUInt___c::*)(::UnityEngine::VFX::VFXEventAttribute*, int32_t, uint32_t)>(
     &::UnityEngine::VFX::EventAttributeUInt___c::__ctor_b__0_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69cbdf0;
+  constexpr static std::size_t addrs = 0x69d386c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::EventAttributeUInt::*)()>(&::UnityEngine::VFX::EventAttributeUInt::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x69cbbfc;
+  constexpr static std::size_t addrs = 0x69d3678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::EventAttributeUInt*>(), { ".ctor", {}, {} })));

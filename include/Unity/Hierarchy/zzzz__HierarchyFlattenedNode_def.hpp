@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Hierarchy/HierarchyFlattenedNode.hpp"
+// IWYU pragma private; include "Unity\Hierarchy\HierarchyFlattenedNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,39 +44,39 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>"
   constexpr operator ::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>*();
 
-  /// @brief Method Equals, addr 0x6b3266c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b3a1f0, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b324f4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b3a078, size 0x14, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Hierarchy::HierarchyFlattenedNode other);
 
-  /// @brief Method GetHashCode, addr 0x6b326e8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b3a26c, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetNodeByRef, addr 0x6b3277c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetNodeByRef, addr 0x6b3a300, size 0x4, virtual false, abstract: false, final false
   static inline ::by_ref<::Unity::Hierarchy::HierarchyNode> GetNodeByRef(::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> hierarchyFlattenedNode);
 
-  /// @brief Method ToString, addr 0x6b32508, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b3a08c, size 0x164, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::Unity::Hierarchy::HierarchyFlattenedNode getStaticF_s_Null();
 
-  /// @brief Method get_ChildrenCount, addr 0x6b324ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChildrenCount, addr 0x6b3a070, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ChildrenCount();
 
-  /// @brief Method get_NextSiblingOffset, addr 0x6b324e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextSiblingOffset, addr 0x6b3a068, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NextSiblingOffset();
 
-  /// @brief Method get_Node, addr 0x6b324dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Node, addr 0x6b3a060, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNode get_Node();
 
-  /// @brief Method get_Null, addr 0x6b2e4b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x6b36038, size 0x48, virtual false, abstract: false, final false
   static inline ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> get_Null();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>"
   constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyFlattenedNode>* i___System__IEquatable_1___Unity__Hierarchy__HierarchyFlattenedNode_();
 
-  /// @brief Method op_Equality, addr 0x6b2e4fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b36080, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Equality(::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> lhs, ::by_ref<::Unity::Hierarchy::HierarchyFlattenedNode> rhs);
 
   static inline void setStaticF_s_Null(::Unity::Hierarchy::HierarchyFlattenedNode value);
@@ -92,7 +92,7 @@ public:
                                    int32_t m_Depth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

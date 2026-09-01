@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerGroup.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerGroup* New_ctor();
 
-  /// @brief Method Next, addr 0x67fc0a4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x6803b20, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
 
-  /// @brief Method OnSelection, addr 0x67fbfe4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6803a60, size 0xc0, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x67fbef0, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x680396c, size 0xf4, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_header() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x67fc160, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6803bdc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   DebugUIHandlerGroup(DebugUIHandlerGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12522 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/ControllerSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\ControllerSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   constexpr ControllerSettings(::Unity::Mathematics::float3 position, ::Unity::Mathematics::float3 rotation, bool hapticFeedback, ::BeatSaber::Settings::SelectedProfile selectedProfile) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22088 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

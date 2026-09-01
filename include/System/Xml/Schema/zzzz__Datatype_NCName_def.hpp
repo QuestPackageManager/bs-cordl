@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_NCName.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_NCName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_NCName* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x61c00f8, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x61c7b74, size 0x100, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::by_ref<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x61b86a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c0120, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x61c00f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x61c7b6c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -63,7 +63,7 @@ public:
   Datatype_NCName(Datatype_NCName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

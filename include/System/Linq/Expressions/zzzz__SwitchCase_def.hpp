@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/SwitchCase.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\SwitchCase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__TestValues_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_Body, addr 0x5f81ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x5f89544, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_TestValues, addr 0x5f81ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TestValues, addr 0x5f8953c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_TestValues();
 
 protected:
@@ -70,7 +70,7 @@ public:
   SwitchCase(SwitchCase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16229 };
 
   /// @brief Field <TestValues>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* ____TestValues_k__BackingField;

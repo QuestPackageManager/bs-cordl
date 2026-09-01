@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XRView.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XRView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ namespace UnityEngine::Experimental::Rendering {
 struct CORDL_TYPE XRView {
 public:
   // Declarations
-  /// @brief Method ComputeEyeCenterUV, addr 0x6744f88, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ComputeEyeCenterUV, addr 0x674ca04, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ComputeEyeCenterUV(::UnityEngine::Matrix4x4 proj);
 
-  /// @brief Method .ctor, addr 0x6744d30, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x674c7ac, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Matrix4x4 projMatrix, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 prevViewMatrix, bool isPrevViewMatrixValid, ::UnityEngine::Rect viewport,
                     ::UnityEngine::Mesh* occlusionMesh, int32_t textureArraySlice);
 
@@ -55,7 +55,7 @@ public:
                    ::UnityW<::UnityEngine::Mesh> occlusionMesh, int32_t textureArraySlice, ::UnityEngine::Vector2 eyeCenterUV, bool isPrevViewMatrixValid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11862 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe8 };

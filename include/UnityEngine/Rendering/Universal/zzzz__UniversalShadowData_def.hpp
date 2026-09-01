@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalShadowData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalShadowData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,7 +104,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalShadowData* New_ctor();
 
-  /// @brief Method Reset, addr 0x68702e4, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6877d60, size 0x100, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get_additionalLightShadowsEnabled() const;
@@ -239,7 +239,7 @@ public:
 
   constexpr void __cordl_internal_set_visibleLightsShadowCullingInfos(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos> value);
 
-  /// @brief Method .ctor, addr 0x68703e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6877e60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -257,7 +257,7 @@ public:
   UniversalShadowData(UniversalShadowData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12761 };
 
   /// @brief Field supportsMainLightShadows, offset: 0x10, size: 0x1, def value: None
   bool ___supportsMainLightShadows;

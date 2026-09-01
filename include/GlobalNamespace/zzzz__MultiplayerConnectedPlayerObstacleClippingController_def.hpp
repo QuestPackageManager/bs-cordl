@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerObstacleClippingController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerConnectedPlayerObstacleClippingController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* New_ctor();
 
-  /// @brief Method SetClippingParams, addr 0x59b5d9c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method SetClippingParams, addr 0x59bdaa0, size 0x150, virtual false, abstract: false, final false
   inline void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> const& __cordl_internal_get__materialPropertyBlockControllers() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> value);
 
-  /// @brief Method .ctor, addr 0x59b5eec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59bdbf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__clippingPlaneNormalID();
@@ -73,7 +73,7 @@ public:
   MultiplayerConnectedPlayerObstacleClippingController(MultiplayerConnectedPlayerObstacleClippingController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6073 };
 
   /// @brief Field _materialPropertyBlockControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> ____materialPropertyBlockControllers;

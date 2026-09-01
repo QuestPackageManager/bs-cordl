@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PosesRecordingSaveData.hpp"
+// IWYU pragma private; include "GlobalNamespace\PosesRecordingSaveData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingSaveData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecordingSaveData_PoseSaveData::*)(float_t, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::PosesRecordingSaveData_PoseSaveData::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58e6db4;
+  constexpr static std::size_t addrs = 0x58ea3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecordingSaveData_TransformsSaveKeyframe::*)(
     ::ArrayW<::GlobalNamespace::PosesRecordingSaveData_PoseSaveData*>, float_t)>(&::GlobalNamespace::PosesRecordingSaveData_TransformsSaveKeyframe::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58e6dc8;
+  constexpr static std::size_t addrs = 0x58ea3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosesRecordingSaveData_ExternalCameraCalibrationSaveData::*)(float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::PosesRecordingSaveData_ExternalCameraCalibrationSaveData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58e6dd4;
+  constexpr static std::size_t addrs = 0x58ea404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::ArrayW<::StringW>, ::ArrayW<::GlobalNamespace::PosesRecordingSaveData_TransformsSaveKeyframe*>, ::GlobalNamespace::PosesRecordingSaveData_ExternalCameraCalibrationSaveData*)>(
     &::GlobalNamespace::PosesRecordingSaveData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58e6da8;
+  constexpr static std::size_t addrs = 0x58ea3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

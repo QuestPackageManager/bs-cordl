@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/InstantHandleAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\InstantHandleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__InstantHandleAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::InstantHandleAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::InstantHandleAttribute::*)()>(&::JetBrains::Annotations::InstantHandleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e36468;
+  constexpr static std::size_t addrs = 0x6e3dfec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::InstantHandleAttribute*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/AlignmentUtils.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\AlignmentUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__AlignmentUtils_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::AlignmentUtils::RoundToPixelGrid)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c265fc;
+  constexpr static std::size_t addrs = 0x6c2e180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::AlignmentUtils::CeilToPixelGrid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c26618;
+  constexpr static std::size_t addrs = 0x6c2e19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::UIElements::VisualElement*, float_t)>(&::UnityEngine::UIElements::AlignmentUtils::RoundToPanelPixelSize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6c2662c;
+  constexpr static std::size_t addrs = 0x6c2e1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

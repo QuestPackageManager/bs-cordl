@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsNullCipher.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsNullCipher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
 
-  /// @brief Method DecodeCiphertext, addr 0x3484eb0, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0x3488c70, size 0x188, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method EncodePlaintext, addr 0x3484d6c, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0x3488b2c, size 0x144, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method GetPlaintextLimit, addr 0x3484d40, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0x3488b00, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_writeMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
-  /// @brief Method .ctor, addr 0x3484740, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3488500, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method .ctor, addr 0x348474c, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x348850c, size 0x448, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"

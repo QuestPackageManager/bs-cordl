@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ResolveEventHandler.hpp"
+// IWYU pragma private; include "System\ResolveEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ResolveEventHandler_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ResolveEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::ResolveEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5c55dd0;
+  constexpr static std::size_t addrs = 0x5c5a28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Assembly* (::System::ResolveEventHandler::*)(::System::Object*, ::System::ResolveEventArgs*)>(
     &::System::ResolveEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c55f18;
+  constexpr static std::size_t addrs = 0x5c5a3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

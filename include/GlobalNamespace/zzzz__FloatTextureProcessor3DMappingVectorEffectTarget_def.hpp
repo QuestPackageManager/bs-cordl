@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DMappingVectorEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DMappingVectorEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,7 +97,7 @@ public:
   static ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DMapping const ZDisplacement;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5868 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -160,7 +160,7 @@ public:
   static ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DChannel const D;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5869 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -223,13 +223,13 @@ public:
 
   static inline ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x598c7a4, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x599653c, size 0x384, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x598c7a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5996538, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x598cb28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x59968c0, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::GlobalNamespace::FloatTextureProcessor3DMappingVectorEffectTarget_TextureProcessor3DChannel const& __cordl_internal_get__channel() const;
@@ -292,7 +292,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x598cb2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59968c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW> getStaticF__propertyStrings();
@@ -314,7 +314,7 @@ public:
   FloatTextureProcessor3DMappingVectorEffectTarget(FloatTextureProcessor3DMappingVectorEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5870 };
 
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;

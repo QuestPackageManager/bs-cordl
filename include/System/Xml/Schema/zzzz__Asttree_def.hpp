@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Asttree.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Asttree.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,24 +43,24 @@ public:
   /// @brief Field _xpathexpr, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__xpathexpr, put = __cordl_internal_set__xpathexpr)) ::StringW _xpathexpr;
 
-  /// @brief Method CompileXPath, addr 0x6310180, size 0x7b4, virtual false, abstract: false, final false
+  /// @brief Method CompileXPath, addr 0x6317bfc, size 0x7b4, virtual false, abstract: false, final false
   inline void CompileXPath(::StringW xPath, bool isField, ::System::Xml::XmlNamespaceManager* nsmgr);
 
-  /// @brief Method IsAttribute, addr 0x630f35c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsAttribute, addr 0x6316dd8, size 0x30, virtual false, abstract: false, final false
   static inline bool IsAttribute(::MS::Internal::Xml::XPath::Axis* ast);
 
-  /// @brief Method IsDescendantOrSelf, addr 0x6310964, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDescendantOrSelf, addr 0x63183e0, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsDescendantOrSelf(::MS::Internal::Xml::XPath::Axis* ast);
 
-  /// @brief Method IsNameTest, addr 0x6310934, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsNameTest, addr 0x63183b0, size 0x30, virtual false, abstract: false, final false
   static inline bool IsNameTest(::MS::Internal::Xml::XPath::Axis* ast);
 
-  /// @brief Method IsSelf, addr 0x631012c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsSelf, addr 0x6317ba8, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsSelf(::MS::Internal::Xml::XPath::Axis* ast);
 
   static inline ::System::Xml::Schema::Asttree* New_ctor(::StringW xPath, bool isField, ::System::Xml::XmlNamespaceManager* nsmgr);
 
-  /// @brief Method SetURN, addr 0x63109a0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetURN, addr 0x631841c, size 0xf4, virtual false, abstract: false, final false
   inline void SetURN(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::XmlNamespaceManager* nsmgr);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__fAxisArray() const;
@@ -87,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set__xpathexpr(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6310170, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6317bec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW xPath, bool isField, ::System::Xml::XmlNamespaceManager* nsmgr);
 
-  /// @brief Method get_SubtreeArray, addr 0x6310168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubtreeArray, addr 0x6317be4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_SubtreeArray();
 
 protected:
@@ -108,7 +108,7 @@ public:
   Asttree(Asttree const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9570 };
 
   /// @brief Field _fAxisArray, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____fAxisArray;

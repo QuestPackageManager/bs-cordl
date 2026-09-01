@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/InputActions/RuntimeSettings.hpp"
+// IWYU pragma private; include "Meta\XR\InputActions\RuntimeSettings.hpp"
 #include "GlobalNamespace/zzzz__OVRRuntimeAssetsBase_impl.hpp"
 #include "Meta/XR/InputActions/zzzz__RuntimeSettings_def.hpp"
 #include "Meta/XR/InputActions/zzzz__InputActionSet_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Meta::XR::InputActions::RuntimeSettings> (*)()>(&::Meta::XR::InputActions::RuntimeSettings::get_Instance)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5e4c910;
+  constexpr static std::size_t addrs = 0x5e50dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::InputActions::RuntimeSettings*>(), { "get_Instance", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::InputActions::RuntimeSettings::*)()>(&::Meta::XR::InputActions::RuntimeSettings::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5e4ca20;
+  constexpr static std::size_t addrs = 0x5e50edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::InputActions::RuntimeSettings*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/SelectObservable_2.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\SelectObservable_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,7 +98,7 @@ public:
   SelectObservable_2_Select(SelectObservable_2_Select const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9072 };
 
   /// @brief Field m_Observable, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* ___m_Observable;
@@ -168,7 +168,7 @@ public:
   SelectObservable_2(SelectObservable_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9073 };
 
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<TSource>* ___m_Source;

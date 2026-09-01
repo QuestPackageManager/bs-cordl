@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteJumpSpeedEventDataProcessor.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteJumpSpeedEventDataProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NoteJumpSpeedEventDataProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x3259108, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x325c408, size 0xe4, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x3259014, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0x325c314, size 0xf4, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method .ctor, addr 0x32591ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325c4ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   NoteJumpSpeedEventDataProcessor(NoteJumpSpeedEventDataProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

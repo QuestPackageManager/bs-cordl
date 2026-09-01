@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/EditorInstanceDataArrays.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\EditorInstanceDataArrays.hpp"
 #include "UnityEngine/Rendering/zzzz__EditorInstanceDataArrays_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CPUInstanceData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__EditorInstanceDataArrays_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::*)(::by_ref<::UnityEngine::Rendering::CPUInstanceData>)>(
     &::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681da04;
+  constexpr static std::size_t addrs = 0x6825480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly>(),
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t)>(&::UnityEngine::Rendering::EditorInstanceDataArrays::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681c5b8;
+  constexpr static std::size_t addrs = 0x6824034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)()>(&::UnityEngine::Rendering::EditorInstanceDataArrays::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681c6d4;
+  constexpr static std::size_t addrs = 0x6824150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::EditorInstanceDataArrays>(), { "Dispose", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t)>(&::UnityEngine::Rendering::EditorInstanceDataArrays::Grow)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681c900;
+  constexpr static std::size_t addrs = 0x682437c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::EditorInstanceDataArrays::Remove)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681d230;
+  constexpr static std::size_t addrs = 0x6824cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t)>(&::UnityEngine::Rendering::EditorInstanceDataArrays::SetDefault)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x681d308;
+  constexpr static std::size_t addrs = 0x6824d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

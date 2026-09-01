@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ColorUtils.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ColorUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,56 +42,56 @@ public:
   /// @brief Field s_LightMeterCalibrationConstant, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_LightMeterCalibrationConstant, put = setStaticF_s_LightMeterCalibrationConstant)) float_t s_LightMeterCalibrationConstant;
 
-  /// @brief Method CIExyToLMS, addr 0x67b54cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CIExyToLMS, addr 0x67bcf48, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 CIExyToLMS(float_t x, float_t y);
 
-  /// @brief Method ColorBalanceToLMSCoeffs, addr 0x67b555c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ColorBalanceToLMSCoeffs, addr 0x67bcfd8, size 0x160, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ColorBalanceToLMSCoeffs(float_t temperature, float_t tint);
 
-  /// @brief Method ComputeEV100, addr 0x67b5da0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ComputeEV100, addr 0x67bd81c, size 0x98, virtual false, abstract: false, final false
   static inline float_t ComputeEV100(float_t aperture, float_t shutterSpeed, float_t ISO);
 
-  /// @brief Method ComputeEV100FromAvgLuminance, addr 0x67b5f70, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ComputeEV100FromAvgLuminance, addr 0x67bd9ec, size 0xc8, virtual false, abstract: false, final false
   static inline float_t ComputeEV100FromAvgLuminance(float_t avgLuminance);
 
-  /// @brief Method ComputeISO, addr 0x67b6038, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ComputeISO, addr 0x67bdab4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t ComputeISO(float_t aperture, float_t shutterSpeed, float_t targetEV100);
 
-  /// @brief Method ConvertEV100ToExposure, addr 0x67b5e38, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ConvertEV100ToExposure, addr 0x67bd8b4, size 0x78, virtual false, abstract: false, final false
   static inline float_t ConvertEV100ToExposure(float_t EV100);
 
-  /// @brief Method ConvertExposureToEV100, addr 0x67b5eb0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ConvertExposureToEV100, addr 0x67bd92c, size 0xc0, virtual false, abstract: false, final false
   static inline float_t ConvertExposureToEV100(float_t exposure);
 
-  /// @brief Method Luminance, addr 0x67b5ce4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Luminance, addr 0x67bd760, size 0x30, virtual false, abstract: false, final false
   static inline float_t Luminance(::by_ref<::UnityEngine::Color> color);
 
-  /// @brief Method PrepareLiftGammaGain, addr 0x67b5954, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method PrepareLiftGammaGain, addr 0x67bd3d0, size 0x390, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4>
   PrepareLiftGammaGain(::by_ref<::UnityEngine::Vector4> inLift, ::by_ref<::UnityEngine::Vector4> inGamma, ::by_ref<::UnityEngine::Vector4> inGain);
 
-  /// @brief Method PrepareShadowsMidtonesHighlights, addr 0x67b56bc, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method PrepareShadowsMidtonesHighlights, addr 0x67bd138, size 0x298, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_3<::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4>
   PrepareShadowsMidtonesHighlights(::by_ref<::UnityEngine::Vector4> inShadows, ::by_ref<::UnityEngine::Vector4> inMidtones, ::by_ref<::UnityEngine::Vector4> inHighlights);
 
-  /// @brief Method PrepareSplitToning, addr 0x67b5d14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method PrepareSplitToning, addr 0x67bd790, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector4> PrepareSplitToning(::by_ref<::UnityEngine::Vector4> inShadows, ::by_ref<::UnityEngine::Vector4> inHighlights,
                                                                                                           float_t balance);
 
-  /// @brief Method StandardIlluminantY, addr 0x67b54a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method StandardIlluminantY, addr 0x67bcf1c, size 0x2c, virtual false, abstract: false, final false
   static inline float_t StandardIlluminantY(float_t x);
 
-  /// @brief Method ToHex, addr 0x67b6074, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToHex, addr 0x67bdaf0, size 0x70, virtual false, abstract: false, final false
   static inline uint32_t ToHex(::UnityEngine::Color c);
 
-  /// @brief Method ToRGBA, addr 0x67b60e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ToRGBA, addr 0x67bdb60, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ToRGBA(uint32_t hex);
 
   static inline float_t getStaticF_s_LensAttenuation();
 
   static inline float_t getStaticF_s_LightMeterCalibrationConstant();
 
-  /// @brief Method get_lensImperfectionExposureScale, addr 0x67b542c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_lensImperfectionExposureScale, addr 0x67bcea8, size 0x74, virtual false, abstract: false, final false
   static inline float_t get_lensImperfectionExposureScale();
 
   static inline void setStaticF_s_LensAttenuation(float_t value);
@@ -113,7 +113,7 @@ public:
   ColorUtils(ColorUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12272 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

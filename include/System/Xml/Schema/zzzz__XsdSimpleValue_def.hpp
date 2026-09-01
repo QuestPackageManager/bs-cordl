@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XsdSimpleValue.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XsdSimpleValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method .ctor, addr 0x61b49e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bc460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::System::Object* value);
 
-  /// @brief Method get_TypedValue, addr 0x61b49f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x61bc470, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_XmlType, addr 0x61b49ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x61bc468, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
 
 protected:
@@ -73,7 +73,7 @@ public:
   XsdSimpleValue(XsdSimpleValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9608 };
 
   /// @brief Field xmlType, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaSimpleType* ___xmlType;

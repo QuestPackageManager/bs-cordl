@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/ComCompatibleVersionAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\ComCompatibleVersionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__ComCompatibleVersionAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::ComCompatibleVersionAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::ComCompatibleVersionAttribute::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::System::Runtime::InteropServices::ComCompatibleVersionAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b68124;
+  constexpr static std::size_t addrs = 0x5b6c5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

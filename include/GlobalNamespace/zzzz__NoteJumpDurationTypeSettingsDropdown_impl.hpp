@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteJumpDurationTypeSettingsDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteJumpDurationTypeSettingsDropdown.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_impl.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettingsDropdown_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* (
     ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(&::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::GetNamedValues)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5a0d6f0;
+  constexpr static std::size_t addrs = 0x5a157fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(&::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a0d7e8;
+  constexpr static std::size_t addrs = 0x5a158f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>(), { ".ctor", {}, {} })));

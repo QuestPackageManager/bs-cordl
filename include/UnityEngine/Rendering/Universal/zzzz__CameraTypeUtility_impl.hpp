@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/CameraTypeUtility.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\CameraTypeUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__CameraTypeUtility_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__CameraRenderType_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Rendering::Universal::CameraRenderType)>(&::UnityEngine::Rendering::Universal::CameraTypeUtility::GetName)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x68c09f0;
+  constexpr static std::size_t addrs = 0x68c846c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::CameraTypeUtility*>(),

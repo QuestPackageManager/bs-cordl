@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/SafeAsciiDecoder.hpp"
+// IWYU pragma private; include "System\Xml\SafeAsciiDecoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,19 +21,19 @@ namespace System::Xml {
 class CORDL_TYPE SafeAsciiDecoder : public ::System::Text::Decoder {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x62db970, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x62e33ec, size 0x8c, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, bool flush, ::by_ref<int32_t> bytesUsed,
                       ::by_ref<int32_t> charsUsed, ::by_ref<bool> completed);
 
-  /// @brief Method GetCharCount, addr 0x62db8f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x62e3374, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0x62db900, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x62e337c, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   static inline ::System::Xml::SafeAsciiDecoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x62db8f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e3370, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   SafeAsciiDecoder(SafeAsciiDecoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

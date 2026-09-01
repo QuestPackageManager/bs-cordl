@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextStyle.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextStyle.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextStyle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextStyle.get_hashCode
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextStyle::*)()>(&::UnityEngine::TextCore::Text::TextStyle::get_hashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bfa764;
+  constexpr static std::size_t addrs = 0x6c022e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextStyle*>(), { "get_hashCode", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint32_t> (::UnityEngine::TextCore::Text::TextStyle::*)()>(&::UnityEngine::TextCore::Text::TextStyle::get_styleOpeningTagArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bfa76c;
+  constexpr static std::size_t addrs = 0x6c022f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextStyle*>(), { "get_styleOpeningTagArray", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint32_t> (::UnityEngine::TextCore::Text::TextStyle::*)()>(&::UnityEngine::TextCore::Text::TextStyle::get_styleClosingTagArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bfa774;
+  constexpr static std::size_t addrs = 0x6c022f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextStyle*>(), { "get_styleClosingTagArray", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextStyle::*)(::StringW, ::StringW, ::StringW)>(&::UnityEngine::TextCore::Text::TextStyle::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bfa77c;
+  constexpr static std::size_t addrs = 0x6c02300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextStyle::*)()>(&::UnityEngine::TextCore::Text::TextStyle::RefreshStyle)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6bfa7b8;
+  constexpr static std::size_t addrs = 0x6c0233c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextStyle*>(), { "RefreshStyle", {}, {} })));

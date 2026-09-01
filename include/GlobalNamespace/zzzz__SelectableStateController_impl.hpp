@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SelectableStateController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SelectableStateController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_def.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_def.hpp"
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableStateController::*)(::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>*)>(
     &::GlobalNamespace::SelectableStateController::add_stateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x643aca0;
+  constexpr static std::size_t addrs = 0x644271c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableStateController::*)(::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>*)>(
     &::GlobalNamespace::SelectableStateController::remove_stateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x643adec;
+  constexpr static std::size_t addrs = 0x6442868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Tweening::TimeTweeningManager> (::GlobalNamespace::SelectableStateController::*)()>(
     &::GlobalNamespace::SelectableStateController::get_tweeningManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643df50;
+  constexpr static std::size_t addrs = 0x64459cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectableStateController*>(), { "get_tweeningManager", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SelectableStateController_ViewState (::GlobalNamespace::SelectableStateController::*)()>(
     &::GlobalNamespace::SelectableStateController::get_currentViewState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643df58;
+  constexpr static std::size_t addrs = 0x64459d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectableStateController*>(), { "get_currentViewState", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableStateController::*)(::GlobalNamespace::SelectableStateController_ViewState)>(
     &::GlobalNamespace::SelectableStateController::set_currentViewState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643df60;
+  constexpr static std::size_t addrs = 0x64459dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableStateController::*)(::GlobalNamespace::SelectableStateController_ViewState, bool)>(
     &::GlobalNamespace::SelectableStateController::SetState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x643df68;
+  constexpr static std::size_t addrs = 0x64459e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectableStateController::*)()>(&::GlobalNamespace::SelectableStateController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x643df8c;
+  constexpr static std::size_t addrs = 0x6445a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectableStateController*>(), { ".ctor", {}, {} })));

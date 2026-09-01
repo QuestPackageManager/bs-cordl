@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LevelFailedTextEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\LevelFailedTextEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedTextEffect_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelFailedTextEffect::*)()>(&::GlobalNamespace::LevelFailedTextEffect::ShowEffect)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59815ec;
+  constexpr static std::size_t addrs = 0x5984f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFailedTextEffect*>(), { "ShowEffect", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelFailedTextEffect::*)()>(&::GlobalNamespace::LevelFailedTextEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5981628;
+  constexpr static std::size_t addrs = 0x5984fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelFailedTextEffect*>(), { ".ctor", {}, {} })));

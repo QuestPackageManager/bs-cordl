@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXInputButtonBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXInputButtonBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,18 +49,18 @@ public:
   /// @brief Field m_CachedSmoothValue, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CachedSmoothValue, put = __cordl_internal_set_m_CachedSmoothValue)) float_t m_CachedSmoothValue;
 
-  /// @brief Method IsValid, addr 0x69dc0cc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69e3b48, size 0x74, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXInputButtonBinder* New_ctor();
 
-  /// @brief Method Start, addr 0x69dc140, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x69e3bbc, size 0x34, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToString, addr 0x69dc260, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69e3cdc, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69dc174, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69e3bf0, size 0xec, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr ::StringW const& __cordl_internal_get_ButtonName() const;
@@ -99,19 +99,19 @@ public:
 
   constexpr void __cordl_internal_set_m_CachedSmoothValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x69dc300, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e3d7c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ButtonProperty, addr 0x69dc064, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ButtonProperty, addr 0x69e3ae0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_ButtonProperty();
 
-  /// @brief Method get_ButtonSmoothProperty, addr 0x69dc098, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ButtonSmoothProperty, addr 0x69e3b14, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_ButtonSmoothProperty();
 
-  /// @brief Method set_ButtonProperty, addr 0x69dc07c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_ButtonProperty, addr 0x69e3af8, size 0x1c, virtual false, abstract: false, final false
   inline void set_ButtonProperty(::StringW value);
 
-  /// @brief Method set_ButtonSmoothProperty, addr 0x69dc0b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_ButtonSmoothProperty, addr 0x69e3b2c, size 0x1c, virtual false, abstract: false, final false
   inline void set_ButtonSmoothProperty(::StringW value);
 
 protected:
@@ -129,7 +129,7 @@ public:
   VFXInputButtonBinder(VFXInputButtonBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19993 };
 
   /// @brief Field m_ButtonProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_ButtonProperty;

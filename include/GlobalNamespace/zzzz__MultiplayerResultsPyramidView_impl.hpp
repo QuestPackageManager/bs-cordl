@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerResultsPyramidView.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerResultsPyramidView.hpp"
 #include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Transform_impl.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>> (::GlobalNamespace::MultiplayerResultsPyramidView::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59dbeb0;
+  constexpr static std::size_t addrs = 0x59e3f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>> (::GlobalNamespace::MultiplayerResultsPyramidView::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidView::get_badgeTimelines)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59dbeb8;
+  constexpr static std::size_t addrs = 0x59e3f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsPyramidView*>(), { "get_badgeTimelines", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidView::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*)>(&::GlobalNamespace::MultiplayerResultsPyramidView::PrespawnAvatars)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x59da21c;
+  constexpr static std::size_t addrs = 0x59e2300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::MultiplayerResultsPyramidView::SetupResults)> {
   constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x59d9c08;
+  constexpr static std::size_t addrs = 0x59e1cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&::GlobalNamespace::MultiplayerResultsPyramidView::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x59dc8f4;
+  constexpr static std::size_t addrs = 0x59e49b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsPyramidView*>(), { ".ctor", {}, {} })));

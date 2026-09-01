@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/BeatAvatarPoseController.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\BeatAvatarPoseController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,10 +50,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController* New_ctor();
 
-  /// @brief Method UpdateBodyPosition, addr 0x327943c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateBodyPosition, addr 0x327d1cc, size 0x1b8, virtual false, abstract: false, final false
   inline void UpdateBodyPosition();
 
-  /// @brief Method UpdateTransforms, addr 0x3279370, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransforms, addr 0x327d100, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateTransforms(::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition, ::UnityEngine::Quaternion headRotation,
                                ::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation);
 
@@ -87,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set__rightHandTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x32795f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327d384, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bodyWorldPosition, addr 0x3279358, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_bodyWorldPosition, addr 0x327d0e8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyWorldPosition();
 
 protected:
@@ -108,7 +108,7 @@ public:
   BeatAvatarPoseController(BeatAvatarPoseController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22342 };
 
   /// @brief Field _headTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headTransform;

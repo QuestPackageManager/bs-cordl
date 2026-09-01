@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SpringJoint.hpp"
+// IWYU pragma private; include "UnityEngine\SpringJoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,67 +35,67 @@ public:
 
   static inline ::UnityEngine::SpringJoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b96698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9e21c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_damper, addr 0x6b96038, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_damper, addr 0x6b9dbbc, size 0x80, virtual false, abstract: false, final false
   inline float_t get_damper();
 
-  /// @brief Method get_damper_Injected, addr 0x6b960b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_damper_Injected, addr 0x6b9dc3c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_damper_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_maxDistance, addr 0x6b96368, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_maxDistance, addr 0x6b9deec, size 0x80, virtual false, abstract: false, final false
   inline float_t get_maxDistance();
 
-  /// @brief Method get_maxDistance_Injected, addr 0x6b963e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxDistance_Injected, addr 0x6b9df6c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_maxDistance_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_minDistance, addr 0x6b961d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_minDistance, addr 0x6b9dd54, size 0x80, virtual false, abstract: false, final false
   inline float_t get_minDistance();
 
-  /// @brief Method get_minDistance_Injected, addr 0x6b96250, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_minDistance_Injected, addr 0x6b9ddd4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_minDistance_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_spring, addr 0x6b95ea0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x6b9da24, size 0x80, virtual false, abstract: false, final false
   inline float_t get_spring();
 
-  /// @brief Method get_spring_Injected, addr 0x6b95f20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spring_Injected, addr 0x6b9daa4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_spring_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_tolerance, addr 0x6b96500, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_tolerance, addr 0x6b9e084, size 0x80, virtual false, abstract: false, final false
   inline float_t get_tolerance();
 
-  /// @brief Method get_tolerance_Injected, addr 0x6b96580, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_tolerance_Injected, addr 0x6b9e104, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_tolerance_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_damper, addr 0x6b960f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_damper, addr 0x6b9dc78, size 0x90, virtual false, abstract: false, final false
   inline void set_damper(float_t value);
 
-  /// @brief Method set_damper_Injected, addr 0x6b96184, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_damper_Injected, addr 0x6b9dd08, size 0x4c, virtual false, abstract: false, final false
   static inline void set_damper_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_maxDistance, addr 0x6b96424, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_maxDistance, addr 0x6b9dfa8, size 0x90, virtual false, abstract: false, final false
   inline void set_maxDistance(float_t value);
 
-  /// @brief Method set_maxDistance_Injected, addr 0x6b964b4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_maxDistance_Injected, addr 0x6b9e038, size 0x4c, virtual false, abstract: false, final false
   static inline void set_maxDistance_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_minDistance, addr 0x6b9628c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_minDistance, addr 0x6b9de10, size 0x90, virtual false, abstract: false, final false
   inline void set_minDistance(float_t value);
 
-  /// @brief Method set_minDistance_Injected, addr 0x6b9631c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_minDistance_Injected, addr 0x6b9dea0, size 0x4c, virtual false, abstract: false, final false
   static inline void set_minDistance_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_spring, addr 0x6b95f5c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_spring, addr 0x6b9dae0, size 0x90, virtual false, abstract: false, final false
   inline void set_spring(float_t value);
 
-  /// @brief Method set_spring_Injected, addr 0x6b95fec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_spring_Injected, addr 0x6b9db70, size 0x4c, virtual false, abstract: false, final false
   static inline void set_spring_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_tolerance, addr 0x6b965bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_tolerance, addr 0x6b9e140, size 0x90, virtual false, abstract: false, final false
   inline void set_tolerance(float_t value);
 
-  /// @brief Method set_tolerance_Injected, addr 0x6b9664c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_tolerance_Injected, addr 0x6b9e1d0, size 0x4c, virtual false, abstract: false, final false
   static inline void set_tolerance_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   SpringJoint(SpringJoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

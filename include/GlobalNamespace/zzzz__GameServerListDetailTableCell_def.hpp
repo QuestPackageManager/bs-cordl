@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameServerListDetailTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameServerListDetailTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
 
   static inline ::GlobalNamespace::GameServerListDetailTableCell* New_ctor();
 
-  /// @brief Method Start, addr 0x59f9788, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5a0185c, size 0xd0, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <Start>b__5_0, addr 0x59f98b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__5_0, addr 0x5a0198c, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__5_0();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -63,13 +63,13 @@ public:
 
   constexpr void __cordl_internal_set_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x59f9858, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0192c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x59f9630, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x5a01704, size 0xac, virtual false, abstract: false, final false
   inline void add_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x59f96dc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x5a017b0, size 0xac, virtual false, abstract: false, final false
   inline void remove_joinServerButtonWasPressedEvent(::System::Action* value);
 
 protected:
@@ -87,7 +87,7 @@ public:
   GameServerListDetailTableCell(GameServerListDetailTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6322 };
 
   /// @brief Field _joinServerButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____joinServerButton;

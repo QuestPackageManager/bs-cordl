@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/GameplayEventsDispatcher.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\GameplayEventsDispatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,10 +71,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x326011c, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x326341c, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3260308, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3263608, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -91,7 +91,7 @@ public:
                                                             ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22256 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -132,10 +132,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3260374, size 0x430, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3263674, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3260860, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3263b60, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -154,7 +154,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22257 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -234,13 +234,13 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x325ff94, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3263294, size 0x24, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x325ffb8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x32632b8, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
-  /// @brief Method InitializeInternalAsync, addr 0x3260068, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x3263368, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeInternalAsync();
 
   static inline ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* New_ctor(::BeatSaber::FeatureFlags::IFeatureFlagService* featureFlags,
@@ -282,16 +282,16 @@ public:
 
   constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x325fe90, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3263190, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::FeatureFlags::IFeatureFlagService* featureFlags, ::OSCE::Analytics::AnalyticsManager* analyticsManager, uint64_t appId);
 
-  /// @brief Method get_beatmapAttempt, addr 0x325fe60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapAttempt, addr 0x3263160, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* get_beatmapAttempt();
 
-  /// @brief Method get_blockLevel, addr 0x325fe70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_blockLevel, addr 0x3263170, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* get_blockLevel();
 
-  /// @brief Method get_hmdSession, addr 0x325fe80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hmdSession, addr 0x3263180, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* get_hmdSession();
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher"
@@ -300,13 +300,13 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  /// @brief Method set_beatmapAttempt, addr 0x325fe68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapAttempt, addr 0x3263168, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapAttempt(::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* value);
 
-  /// @brief Method set_blockLevel, addr 0x325fe78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockLevel, addr 0x3263178, size 0x8, virtual false, abstract: false, final false
   inline void set_blockLevel(::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* value);
 
-  /// @brief Method set_hmdSession, addr 0x325fe88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hmdSession, addr 0x3263188, size 0x8, virtual false, abstract: false, final false
   inline void set_hmdSession(::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* value);
 
 protected:
@@ -324,7 +324,7 @@ public:
   GameplayEventsDispatcher(GameplayEventsDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22258 };
 
   /// @brief Field <beatmapAttempt>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* ____beatmapAttempt_k__BackingField;

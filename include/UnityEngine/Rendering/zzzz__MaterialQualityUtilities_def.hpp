@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/MaterialQualityUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\MaterialQualityUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,22 +38,22 @@ public:
   /// @brief Field Keywords, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Keywords, put = setStaticF_Keywords)) ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> Keywords;
 
-  /// @brief Method FromIndex, addr 0x67bf82c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromIndex, addr 0x67c72a8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality FromIndex(int32_t index);
 
-  /// @brief Method GetClosestQuality, addr 0x67bf664, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetClosestQuality, addr 0x67c70e0, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality GetClosestQuality(::UnityEngine::Rendering::MaterialQuality availableLevels, ::UnityEngine::Rendering::MaterialQuality requestedLevel);
 
-  /// @brief Method GetHighestQuality, addr 0x67bf5d4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetHighestQuality, addr 0x67c7050, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::MaterialQuality GetHighestQuality(::UnityEngine::Rendering::MaterialQuality levels);
 
-  /// @brief Method SetGlobalShaderKeywords, addr 0x67bf838, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderKeywords, addr 0x67c72b4, size 0xfc, virtual false, abstract: false, final false
   static inline void SetGlobalShaderKeywords(::UnityEngine::Rendering::MaterialQuality level);
 
-  /// @brief Method SetGlobalShaderKeywords, addr 0x67bf934, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderKeywords, addr 0x67c73b0, size 0x118, virtual false, abstract: false, final false
   static inline void SetGlobalShaderKeywords(::UnityEngine::Rendering::MaterialQuality level, ::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method ToFirstIndex, addr 0x67bf79c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ToFirstIndex, addr 0x67c7218, size 0x90, virtual false, abstract: false, final false
   static inline int32_t ToFirstIndex(::UnityEngine::Rendering::MaterialQuality level);
 
   static inline ::ArrayW<::StringW> getStaticF_EnumNames();
@@ -83,7 +83,7 @@ public:
   MaterialQualityUtilities(MaterialQualityUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

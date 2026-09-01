@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/RevocationReason.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\RevocationReason.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,23 +25,23 @@ namespace Org::BouncyCastle::Bcpg {
 class CORDL_TYPE RevocationReason : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method CreateData, addr 0x3691aa0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x3695860, size 0xb0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CreateData(::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
-  /// @brief Method GetRevocationDescription, addr 0x3691b78, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetRevocationDescription, addr 0x3695938, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW GetRevocationDescription();
 
-  /// @brief Method GetRevocationReason, addr 0x3691b50, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetRevocationReason, addr 0x3695910, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::RevocationReasonTag GetRevocationReason();
 
   static inline ::Org::BouncyCastle::Bcpg::RevocationReason* New_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data);
 
   static inline ::Org::BouncyCastle::Bcpg::RevocationReason* New_ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x3691a4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369580c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x3691a64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3695824, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationReasonTag reason, ::StringW description);
 
 protected:

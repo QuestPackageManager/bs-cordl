@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarMeshPartSO.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\AvatarMeshPartSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3278180, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327bf10, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x327813c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x327becc, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:
@@ -47,7 +47,7 @@ public:
   AvatarMeshPartSO(AvatarMeshPartSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22331 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

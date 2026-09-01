@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/EncodingTable.hpp"
+// IWYU pragma private; include "System\Globalization\EncodingTable.hpp"
 #include "System/Globalization/zzzz__InternalCodePageDataItem_impl.hpp"
 #include "System/Globalization/zzzz__InternalEncodingDataItem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Globalization::EncodingTable::GetNumEncodingItems)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5bced44;
+  constexpr static std::size_t addrs = 0x5bd3200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::EncodingTable*>(), { "GetNumEncodingItems", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::InternalEncodingDataItem (*)(::StringW, uint16_t)>(&::System::Globalization::EncodingTable::ENC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bcedac;
+  constexpr static std::size_t addrs = 0x5bd3268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::InternalCodePageDataItem (*)(uint16_t, uint16_t, ::StringW, uint32_t)>(
     &::System::Globalization::EncodingTable::MapCodePageDataItem)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5bcedb4;
+  constexpr static std::size_t addrs = 0x5bd3270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::System::Globalization::EncodingTable::internalGetCodePageFromName)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x5bd4874;
+  constexpr static std::size_t addrs = 0x5bd8d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::System::Globalization::EncodingTable::GetCodePageFromName)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x5bd4acc;
+  constexpr static std::size_t addrs = 0x5bd8f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CodePageDataItem* (*)(int32_t)>(&::System::Globalization::EncodingTable::GetCodePageDataItem)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x5bd4d70;
+  constexpr static std::size_t addrs = 0x5bd922c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

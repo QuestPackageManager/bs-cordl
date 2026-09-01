@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightConstants.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightConstants.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LightConstants_def.hpp"
 #include "GlobalNamespace/zzzz__LightConstants_def.hpp"
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::LightConstants_BakeId)>(&::GlobalNamespace::LightConstants::GetLightmapLightBakeIdPropertyId)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x586df7c;
+  constexpr static std::size_t addrs = 0x586d104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::LightConstants_BakeId)>(&::GlobalNamespace::LightConstants::GetLightProbeLightBakeIdPropertyId)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x586e048;
+  constexpr static std::size_t addrs = 0x586d1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::GlobalNamespace::LightConstants::GetComputeFieldPropertyId)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x586e114;
+  constexpr static std::size_t addrs = 0x586d29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

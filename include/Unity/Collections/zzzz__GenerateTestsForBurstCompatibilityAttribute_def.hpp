@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/GenerateTestsForBurstCompatibilityAttribute.hpp"
+// IWYU pragma private; include "Unity\Collections\GenerateTestsForBurstCompatibilityAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +72,7 @@ public:
   static ::Unity::Collections::GenerateTestsForBurstCompatibilityAttribute_BurstCompatibleCompileTarget const PlayerAndEditor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15623 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -130,13 +130,13 @@ public:
 
   constexpr void __cordl_internal_set__GenericTypeArguments_k__BackingField(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x64ba5dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64c2058, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GenericTypeArguments, addr 0x64ba5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenericTypeArguments, addr 0x64c2048, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_GenericTypeArguments();
 
-  /// @brief Method set_GenericTypeArguments, addr 0x64ba5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GenericTypeArguments, addr 0x64c2050, size 0x8, virtual false, abstract: false, final false
   inline void set_GenericTypeArguments(::ArrayW<::System::Type*> value);
 
 protected:
@@ -154,7 +154,7 @@ public:
   GenerateTestsForBurstCompatibilityAttribute(GenerateTestsForBurstCompatibilityAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15624 };
 
   /// @brief Field <GenericTypeArguments>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*> ____GenericTypeArguments_k__BackingField;

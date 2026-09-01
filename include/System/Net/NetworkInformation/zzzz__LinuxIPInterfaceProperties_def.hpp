@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/LinuxIPInterfaceProperties.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\LinuxIPInterfaceProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ public:
   static inline ::System::Net::NetworkInformation::LinuxIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::LinuxNetworkInterface* iface,
                                                                                         ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method ParseRouteInfo, addr 0x634cbf0, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo, addr 0x635466c, size 0x484, virtual false, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::StringW iface);
 
-  /// @brief Method .ctor, addr 0x634cb88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6354604, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::LinuxNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method get_GatewayAddresses, addr 0x634d074, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x6354af0, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:
@@ -64,7 +64,7 @@ public:
   LinuxIPInterfaceProperties(LinuxIPInterfaceProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11691 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/ComCompatibleVersionAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\ComCompatibleVersionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__revision(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b68124, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6c5e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
 protected:

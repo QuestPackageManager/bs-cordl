@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/CancellationTokenSource_LinkedNCancellationTokenSource.hpp"
+// IWYU pragma private; include "System\Threading\CancellationTokenSource_LinkedNCancellationTokenSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   /// @brief Field s_linkedTokenCancelDelegate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_linkedTokenCancelDelegate, put = setStaticF_s_linkedTokenCancelDelegate)) ::System::Action_1<::System::Object*>* s_linkedTokenCancelDelegate;
 
-  /// @brief Method Dispose, addr 0x5ca8f70, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5cad42c, size 0x90, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::GlobalNamespace::CancellationTokenSource_LinkedNCancellationTokenSource* New_ctor(::ArrayW<::System::Threading::CancellationToken> tokens);
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__linkingRegistrations(::ArrayW<::System::Threading::CancellationTokenRegistration> value);
 
-  /// @brief Method .ctor, addr 0x5ca8bd8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cad094, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Threading::CancellationToken> tokens);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_linkedTokenCancelDelegate();

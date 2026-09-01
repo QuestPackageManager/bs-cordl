@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TimerEventScheduler.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TimerEventScheduler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,19 +63,19 @@ public:
 
   static inline ::UnityEngine::UIElements::TimerEventScheduler* New_ctor();
 
-  /// @brief Method PrivateUnSchedule, addr 0x6dd2228, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method PrivateUnSchedule, addr 0x6dd9dac, size 0xcc, virtual false, abstract: false, final false
   inline bool PrivateUnSchedule(::UnityEngine::UIElements::ScheduledItem* sItem);
 
-  /// @brief Method RemovedScheduledItemAt, addr 0x6dd1fe8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemovedScheduledItemAt, addr 0x6dd9b6c, size 0x88, virtual false, abstract: false, final false
   inline bool RemovedScheduledItemAt(int32_t index);
 
-  /// @brief Method Schedule, addr 0x6dd1e1c, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method Schedule, addr 0x6dd99a0, size 0x1cc, virtual true, abstract: false, final true
   inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method Unschedule, addr 0x6dd2070, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method Unschedule, addr 0x6dd9bf4, size 0x1b8, virtual true, abstract: false, final true
   inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method UpdateScheduledEvents, addr 0x6dd2304, size 0x380, virtual true, abstract: false, final true
+  /// @brief Method UpdateScheduledEvents, addr 0x6dd9e88, size 0x380, virtual true, abstract: false, final true
   inline void UpdateScheduledEvents();
 
   constexpr bool const& __cordl_internal_get_disableThrottling() const;
@@ -120,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set_m_UnscheduleTransactions(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* value);
 
-  /// @brief Method .ctor, addr 0x6dd2684, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dda208, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FrameCount, addr 0x6dd22f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_FrameCount, addr 0x6dd9e78, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_FrameCount();
 
   /// @brief Convert to "::UnityEngine::UIElements::IScheduler"
   constexpr ::UnityEngine::UIElements::IScheduler* i___UnityEngine__UIElements__IScheduler() noexcept;
 
-  /// @brief Method set_FrameCount, addr 0x6dd22fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FrameCount, addr 0x6dd9e80, size 0x8, virtual false, abstract: false, final false
   inline void set_FrameCount(int64_t value);
 
 protected:

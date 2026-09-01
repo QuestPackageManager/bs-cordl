@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/GPUBufferAllocator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\GPUBufferAllocator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GPUBufferAllocator_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GPUBufferAllocator::*)(uint32_t)>(&::UnityEngine::UIElements::UIR::GPUBufferAllocator::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6cf4448;
+  constexpr static std::size_t addrs = 0x6cfbfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::Alloc (::UnityEngine::UIElements::UIR::GPUBufferAllocator::*)(uint32_t, bool)>(
     &::UnityEngine::UIElements::UIR::GPUBufferAllocator::Allocate)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6cf44c8;
+  constexpr static std::size_t addrs = 0x6cfc04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GPUBufferAllocator::*)(::UnityEngine::UIElements::UIR::Alloc)>(
     &::UnityEngine::UIElements::UIR::GPUBufferAllocator::Free)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6cf462c;
+  constexpr static std::size_t addrs = 0x6cfc1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::GPUBufferAllocator::*)()>(&::UnityEngine::UIElements::UIR::GPUBufferAllocator::get_isEmpty)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6cf46a0;
+  constexpr static std::size_t addrs = 0x6cfc224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GPUBufferAllocator*>(), { "get_isEmpty", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::GPUBufferAllocator::*)()>(&::UnityEngine::UIElements::UIR::GPUBufferAllocator::HighLowCollide)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6cf45f4;
+  constexpr static std::size_t addrs = 0x6cfc178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GPUBufferAllocator*>(), { "HighLowCollide", {}, {} })));

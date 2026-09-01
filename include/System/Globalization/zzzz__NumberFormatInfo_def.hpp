@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/NumberFormatInfo.hpp"
+// IWYU pragma private; include "System\Globalization\NumberFormatInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -207,41 +207,41 @@ public:
   /// @brief Convert operator to "::System::IFormatProvider"
   constexpr operator ::System::IFormatProvider*() noexcept;
 
-  /// @brief Method Clone, addr 0x5bc8a58, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x5bccf14, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method GetFormat, addr 0x5bc8dd0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetFormat, addr 0x5bcd28c, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* GetFormat(::System::Type* formatType);
 
-  /// @brief Method GetInstance, addr 0x5bc87d4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x5bccc90, size 0x1a4, virtual false, abstract: false, final false
   static inline ::System::Globalization::NumberFormatInfo* GetInstance(::System::IFormatProvider* formatProvider);
 
   static inline ::System::Globalization::NumberFormatInfo* New_ctor();
 
   static inline ::System::Globalization::NumberFormatInfo* New_ctor(::System::Globalization::CultureData* cultureData);
 
-  /// @brief Method OnDeserialized, addr 0x5bc85a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x5bcca60, size 0x4, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserializing, addr 0x5bc85a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializing, addr 0x5bcca5c, size 0x4, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnSerializing, addr 0x5bc8530, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnSerializing, addr 0x5bcc9ec, size 0x70, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method ReadOnly, addr 0x5bc8704, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReadOnly, addr 0x5bccbc0, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Globalization::NumberFormatInfo* ReadOnly(::System::Globalization::NumberFormatInfo* nfi);
 
-  /// @brief Method ValidateParseStyleFloatingPoint, addr 0x5bc8f08, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ValidateParseStyleFloatingPoint, addr 0x5bcd3c4, size 0xb4, virtual false, abstract: false, final false
   static inline void ValidateParseStyleFloatingPoint(::System::Globalization::NumberStyles style);
 
-  /// @brief Method ValidateParseStyleInteger, addr 0x5bc8e4c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ValidateParseStyleInteger, addr 0x5bcd308, size 0xbc, virtual false, abstract: false, final false
   static inline void ValidateParseStyleInteger(::System::Globalization::NumberStyles style);
 
-  /// @brief Method VerifyGroupSeparator, addr 0x5bc85a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method VerifyGroupSeparator, addr 0x5bcca64, size 0x60, virtual false, abstract: false, final false
   static inline void VerifyGroupSeparator(::StringW groupSep, ::StringW propertyName);
 
-  /// @brief Method VerifyWritable, addr 0x5bc8608, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method VerifyWritable, addr 0x5bccac4, size 0x5c, virtual false, abstract: false, final false
   inline void VerifyWritable();
 
   constexpr ::StringW const& __cordl_internal_get_ansiCurrencySymbol() const;
@@ -448,96 +448,96 @@ public:
 
   constexpr void __cordl_internal_set_validForParseAsNumber(bool value);
 
-  /// @brief Method .ctor, addr 0x5bc80a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bcc560, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5bc80ac, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bcc568, size 0x484, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureData* cultureData);
 
   static inline ::System::Globalization::NumberFormatInfo* getStaticF_invariantInfo();
 
-  /// @brief Method get_CurrencyDecimalDigits, addr 0x5bc8ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrencyDecimalDigits, addr 0x5bccf80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrencyDecimalDigits();
 
-  /// @brief Method get_CurrencyDecimalSeparator, addr 0x5bc8acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrencyDecimalSeparator, addr 0x5bccf88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CurrencyDecimalSeparator();
 
-  /// @brief Method get_CurrencyGroupSeparator, addr 0x5bc8c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrencyGroupSeparator, addr 0x5bcd100, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CurrencyGroupSeparator();
 
-  /// @brief Method get_CurrencyGroupSizes, addr 0x5bc8adc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_CurrencyGroupSizes, addr 0x5bccf98, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_CurrencyGroupSizes();
 
-  /// @brief Method get_CurrencyNegativePattern, addr 0x5bc8ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrencyNegativePattern, addr 0x5bcd19c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrencyNegativePattern();
 
-  /// @brief Method get_CurrencyPositivePattern, addr 0x5bc8d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrencyPositivePattern, addr 0x5bcd24c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrencyPositivePattern();
 
-  /// @brief Method get_CurrencySymbol, addr 0x5bc8c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrencySymbol, addr 0x5bcd108, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CurrencySymbol();
 
-  /// @brief Method get_CurrentInfo, addr 0x5bc8978, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentInfo, addr 0x5bcce34, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Globalization::NumberFormatInfo* get_CurrentInfo();
 
-  /// @brief Method get_InvariantInfo, addr 0x5bc8664, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_InvariantInfo, addr 0x5bccb20, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Globalization::NumberFormatInfo* get_InvariantInfo();
 
-  /// @brief Method get_IsReadOnly, addr 0x5bc8ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x5bccf90, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_NaNSymbol, addr 0x5bc8c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NaNSymbol, addr 0x5bcd110, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NaNSymbol();
 
-  /// @brief Method get_NegativeInfinitySymbol, addr 0x5bc8d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NegativeInfinitySymbol, addr 0x5bcd1bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NegativeInfinitySymbol();
 
-  /// @brief Method get_NegativeSign, addr 0x5bc8d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NegativeSign, addr 0x5bcd1c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NegativeSign();
 
-  /// @brief Method get_NumberDecimalDigits, addr 0x5bc8d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumberDecimalDigits, addr 0x5bcd1cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NumberDecimalDigits();
 
-  /// @brief Method get_NumberDecimalSeparator, addr 0x5bc8d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumberDecimalSeparator, addr 0x5bcd1d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NumberDecimalSeparator();
 
-  /// @brief Method get_NumberGroupSeparator, addr 0x5bc8d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumberGroupSeparator, addr 0x5bcd1dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NumberGroupSeparator();
 
-  /// @brief Method get_NumberGroupSizes, addr 0x5bc8b54, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_NumberGroupSizes, addr 0x5bcd010, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_NumberGroupSizes();
 
-  /// @brief Method get_NumberNegativePattern, addr 0x5bc8ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumberNegativePattern, addr 0x5bcd1a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NumberNegativePattern();
 
-  /// @brief Method get_PerMilleSymbol, addr 0x5bc8dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PerMilleSymbol, addr 0x5bcd284, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PerMilleSymbol();
 
-  /// @brief Method get_PercentDecimalDigits, addr 0x5bc8da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PercentDecimalDigits, addr 0x5bcd264, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PercentDecimalDigits();
 
-  /// @brief Method get_PercentDecimalSeparator, addr 0x5bc8db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PercentDecimalSeparator, addr 0x5bcd26c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PercentDecimalSeparator();
 
-  /// @brief Method get_PercentGroupSeparator, addr 0x5bc8db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PercentGroupSeparator, addr 0x5bcd274, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PercentGroupSeparator();
 
-  /// @brief Method get_PercentGroupSizes, addr 0x5bc8bcc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_PercentGroupSizes, addr 0x5bcd088, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_PercentGroupSizes();
 
-  /// @brief Method get_PercentNegativePattern, addr 0x5bc8cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PercentNegativePattern, addr 0x5bcd1b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PercentNegativePattern();
 
-  /// @brief Method get_PercentPositivePattern, addr 0x5bc8cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PercentPositivePattern, addr 0x5bcd1ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PercentPositivePattern();
 
-  /// @brief Method get_PercentSymbol, addr 0x5bc8dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PercentSymbol, addr 0x5bcd27c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PercentSymbol();
 
-  /// @brief Method get_PositiveInfinitySymbol, addr 0x5bc8d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveInfinitySymbol, addr 0x5bcd254, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PositiveInfinitySymbol();
 
-  /// @brief Method get_PositiveSign, addr 0x5bc8da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveSign, addr 0x5bcd25c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PositiveSign();
 
   /// @brief Convert to "::System::ICloneable"
@@ -548,10 +548,10 @@ public:
 
   static inline void setStaticF_invariantInfo(::System::Globalization::NumberFormatInfo* value);
 
-  /// @brief Method set_NaNSymbol, addr 0x5bc8c5c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_NaNSymbol, addr 0x5bcd118, size 0x84, virtual false, abstract: false, final false
   inline void set_NaNSymbol(::StringW value);
 
-  /// @brief Method set_NumberGroupSeparator, addr 0x5bc8d28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_NumberGroupSeparator, addr 0x5bcd1e4, size 0x68, virtual false, abstract: false, final false
   inline void set_NumberGroupSeparator(::StringW value);
 
 protected:

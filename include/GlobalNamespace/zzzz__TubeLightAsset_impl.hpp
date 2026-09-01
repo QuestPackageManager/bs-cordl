@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TubeLightAsset.hpp"
+// IWYU pragma private; include "GlobalNamespace\TubeLightAsset.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeLightAsset_def.hpp"
 #include "GlobalNamespace/zzzz__TubeLightBehaviour_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::TubeLightAsset::*)()>(&::GlobalNamespace::TubeLightAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59073bc;
+  constexpr static std::size_t addrs = 0x590a9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeLightAsset*>(), { "get_clipCaps", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::GlobalNamespace::TubeLightAsset::*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(
     &::GlobalNamespace::TubeLightAsset::CreatePlayable)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x59073c4;
+  constexpr static std::size_t addrs = 0x590a9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeLightAsset::*)()>(&::GlobalNamespace::TubeLightAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5907478;
+  constexpr static std::size_t addrs = 0x590aa64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeLightAsset*>(), { ".ctor", {}, {} })));

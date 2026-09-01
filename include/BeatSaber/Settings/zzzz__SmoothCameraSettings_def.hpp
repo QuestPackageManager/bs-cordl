@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/SmoothCameraSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\SmoothCameraSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
                                  ::Unity::Mathematics::float3 thirdPersonRotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22090 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };

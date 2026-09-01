@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/FactoryFromBinder6Extensions.hpp"
+// IWYU pragma private; include "Zenject\FactoryFromBinder6Extensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,7 +140,7 @@ public:
   FactoryFromBinder6Extensions___c__1_7(FactoryFromBinder6Extensions___c__1_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -198,7 +198,7 @@ public:
   FactoryFromBinder6Extensions___c__3_7(FactoryFromBinder6Extensions___c__3_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -256,7 +256,7 @@ public:
   FactoryFromBinder6Extensions___c__5_8(FactoryFromBinder6Extensions___c__5_8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -309,7 +309,7 @@ public:
   FactoryFromBinder6Extensions___c__DisplayClass0_0_7(FactoryFromBinder6Extensions___c__DisplayClass0_0_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14131 };
 
   /// @brief Field factoryId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___factoryId;
@@ -365,7 +365,7 @@ public:
   FactoryFromBinder6Extensions___c__DisplayClass6_0_8(FactoryFromBinder6Extensions___c__DisplayClass6_0_8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14132 };
 
   /// @brief Field poolId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___poolId;
@@ -444,7 +444,7 @@ public:
   FactoryFromBinder6Extensions(FactoryFromBinder6Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/DecoderFallbackBuffer.hpp"
+// IWYU pragma private; include "System\Text\DecoderFallbackBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,24 +35,24 @@ public:
   /// @brief Method GetNextChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method InternalFallback, addr 0x5cc7bc8, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x5ccc084, size 0x160, virtual true, abstract: false, final false
   inline bool InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes, ::by_ref<char16_t*> chars);
 
-  /// @brief Method InternalFallback, addr 0x5cc7d28, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x5ccc1e4, size 0x140, virtual true, abstract: false, final false
   inline int32_t InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes);
 
-  /// @brief Method InternalInitialize, addr 0x5cc6198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalInitialize, addr 0x5cca654, size 0x8, virtual false, abstract: false, final false
   inline void InternalInitialize(uint8_t* byteStart, char16_t* charEnd);
 
-  /// @brief Method InternalReset, addr 0x5cc6440, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InternalReset, addr 0x5cca8fc, size 0x10, virtual false, abstract: false, final false
   inline void InternalReset();
 
   static inline ::System::Text::DecoderFallbackBuffer* New_ctor();
 
-  /// @brief Method Reset, addr 0x5cc7ba0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5ccc05c, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ThrowLastBytesRecursive, addr 0x5cc7e68, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method ThrowLastBytesRecursive, addr 0x5ccc324, size 0x3c0, virtual false, abstract: false, final false
   inline void ThrowLastBytesRecursive(::ArrayW<uint8_t> bytesUnknown);
 
   constexpr uint8_t* const& __cordl_internal_get_byteStart() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_charEnd(char16_t* value);
 
-  /// @brief Method .ctor, addr 0x5cc75c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccba7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Remaining, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

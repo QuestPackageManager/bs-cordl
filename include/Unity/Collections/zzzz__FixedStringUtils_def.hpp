@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/FixedStringUtils.hpp"
+// IWYU pragma private; include "Unity\Collections\FixedStringUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +93,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15620 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,10 +113,10 @@ public:
   // Declarations
   using UintFloatUnion = ::Unity::Collections::FixedStringUtils_UintFloatUnion;
 
-  /// @brief Method Base10ToBase2, addr 0x64ba374, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Base10ToBase2, addr 0x64c1df0, size 0xe4, virtual false, abstract: false, final false
   static inline ::Unity::Collections::ParseError Base10ToBase2(::by_ref<float_t> output, uint64_t mantissa10, int32_t exponent10);
 
-  /// @brief Method Base2ToBase10, addr 0x64ba458, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Base2ToBase10, addr 0x64c1ed4, size 0x170, virtual false, abstract: false, final false
   static inline void Base2ToBase10(::by_ref<uint64_t> mantissa10, ::by_ref<int32_t> exponent10, float_t input);
 
 protected:
@@ -134,7 +134,7 @@ public:
   FixedStringUtils(FixedStringUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15621 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/NativeArrayDisposeJob.hpp"
+// IWYU pragma private; include "Unity\Collections\NativeArrayDisposeJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6a58238, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6a5fcb4, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method RegisterNativeArrayDisposeJobReflectionData, addr 0x6a5827c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RegisterNativeArrayDisposeJobReflectionData, addr 0x6a5fcf8, size 0x44, virtual false, abstract: false, final false
   static inline void RegisterNativeArrayDisposeJobReflectionData();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -43,7 +43,7 @@ public:
   constexpr NativeArrayDisposeJob(::Unity::Collections::NativeArrayDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9998 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

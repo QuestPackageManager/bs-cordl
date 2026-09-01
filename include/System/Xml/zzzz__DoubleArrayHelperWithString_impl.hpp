@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/DoubleArrayHelperWithString.hpp"
+// IWYU pragma private; include "System\Xml\DoubleArrayHelperWithString.hpp"
 #include "System/Xml/zzzz__ArrayHelper_2_impl.hpp"
 #include "System/Xml/zzzz__DoubleArrayHelperWithString_def.hpp"
 #include "System/Xml/zzzz__XmlDictionaryReader_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::DoubleArrayHelperWithString::*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::ArrayW<double_t>, int32_t,
                                                                                                                int32_t)>(&::System::Xml::DoubleArrayHelperWithString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60f71e0;
+  constexpr static std::size_t addrs = 0x60fec5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DoubleArrayHelperWithString::*)(::System::Xml::XmlDictionaryWriter*, ::StringW, ::StringW, ::StringW, ::ArrayW<double_t>,
                                                                                                             int32_t, int32_t)>(&::System::Xml::DoubleArrayHelperWithString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60f7218;
+  constexpr static std::size_t addrs = 0x60fec94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DoubleArrayHelperWithString::*)()>(&::System::Xml::DoubleArrayHelperWithString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60f7254;
+  constexpr static std::size_t addrs = 0x60fecd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DoubleArrayHelperWithString*>(), { ".ctor", {}, {} })));

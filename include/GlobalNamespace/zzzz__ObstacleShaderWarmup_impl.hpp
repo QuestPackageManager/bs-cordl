@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ObstacleShaderWarmup.hpp"
+// IWYU pragma private; include "GlobalNamespace\ObstacleShaderWarmup.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleShaderWarmup_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleMaterialSetter_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleShaderWarmup::*)()>(&::GlobalNamespace::ObstacleShaderWarmup::Start)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58dbc54;
+  constexpr static std::size_t addrs = 0x58db604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleShaderWarmup*>(), { "Start", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleShaderWarmup::*)()>(&::GlobalNamespace::ObstacleShaderWarmup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58dbca4;
+  constexpr static std::size_t addrs = 0x58db654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleShaderWarmup*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TerrainUtils/TerrainMap.hpp"
+// IWYU pragma private; include "UnityEngine\TerrainUtils\TerrainMap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
 
   static inline ::UnityEngine::TerrainUtils::TerrainMap___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <CreateFromPlacement>b__0, addr 0x6bb3bd4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <CreateFromPlacement>b__0, addr 0x6bbb758, size 0x2c, virtual false, abstract: false, final false
   inline bool _CreateFromPlacement_b__0(::UnityEngine::Terrain* x);
 
   constexpr int32_t const& __cordl_internal_get_groupID() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_groupID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bb2cac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bba830, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   TerrainMap___c__DisplayClass3_0(TerrainMap___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22742 };
 
   /// @brief Field groupID, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupID;
@@ -115,29 +115,29 @@ public:
 
   __declspec(property(get = get_terrainTiles)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* terrainTiles;
 
-  /// @brief Method AddTerrainInternal, addr 0x6bb3374, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddTerrainInternal, addr 0x6bbaef8, size 0x130, virtual false, abstract: false, final false
   inline void AddTerrainInternal(int32_t x, int32_t z, ::UnityEngine::Terrain* terrain);
 
-  /// @brief Method CreateFromPlacement, addr 0x6bb2cb0, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method CreateFromPlacement, addr 0x6bba834, size 0x3dc, virtual false, abstract: false, final false
   static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize,
                                                                              ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>* filter, bool fullValidation);
 
-  /// @brief Method CreateFromPlacement, addr 0x6bb2a80, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method CreateFromPlacement, addr 0x6bba604, size 0x22c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Terrain* originTerrain, ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>* filter,
                                                                              bool fullValidation);
 
-  /// @brief Method GetTerrain, addr 0x6bb29fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetTerrain, addr 0x6bba580, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Terrain> GetTerrain(int32_t tileX, int32_t tileZ);
 
   static inline ::UnityEngine::TerrainUtils::TerrainMap* New_ctor();
 
-  /// @brief Method TryToAddTerrain, addr 0x6bb3128, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method TryToAddTerrain, addr 0x6bbacac, size 0x118, virtual false, abstract: false, final false
   inline bool TryToAddTerrain(int32_t tileX, int32_t tileZ, ::UnityEngine::Terrain* terrain);
 
-  /// @brief Method Validate, addr 0x6bb3240, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x6bbadc4, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::TerrainUtils::TerrainMapStatusCode Validate();
 
-  /// @brief Method ValidateTerrain, addr 0x6bb34a4, size 0x730, virtual false, abstract: false, final false
+  /// @brief Method ValidateTerrain, addr 0x6bbb028, size 0x730, virtual false, abstract: false, final false
   inline void ValidateTerrain(int32_t tileX, int32_t tileZ);
 
   constexpr ::UnityEngine::TerrainUtils::TerrainMapStatusCode const& __cordl_internal_get_m_errorCode() const;
@@ -158,10 +158,10 @@ public:
 
   constexpr void __cordl_internal_set_m_terrainTiles(::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* value);
 
-  /// @brief Method .ctor, addr 0x6bb308c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bbac10, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_terrainTiles, addr 0x6bb336c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_terrainTiles, addr 0x6bbaef0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* get_terrainTiles();
 
 protected:
@@ -179,7 +179,7 @@ public:
   TerrainMap(TerrainMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22743 };
 
   /// @brief Field m_patchSize, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_patchSize;

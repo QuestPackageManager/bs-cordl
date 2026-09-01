@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UI/SpriteState.hpp"
+// IWYU pragma private; include "UnityEngine\UI\SpriteState.hpp"
 #include "UnityEngine/UI/zzzz__SpriteState_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::UI::SpriteState::*)()>(&::UnityEngine::UI::SpriteState::get_highlightedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e053f8;
+  constexpr static std::size_t addrs = 0x6e0cf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::SpriteState>(), { "get_highlightedSprite", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::SpriteState::*)(::UnityEngine::Sprite*)>(&::UnityEngine::UI::SpriteState::set_highlightedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e05400;
+  constexpr static std::size_t addrs = 0x6e0cf84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::UI::SpriteState::*)()>(&::UnityEngine::UI::SpriteState::get_pressedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e05408;
+  constexpr static std::size_t addrs = 0x6e0cf8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::SpriteState>(), { "get_pressedSprite", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::SpriteState::*)(::UnityEngine::Sprite*)>(&::UnityEngine::UI::SpriteState::set_pressedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e05410;
+  constexpr static std::size_t addrs = 0x6e0cf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::UI::SpriteState::*)()>(&::UnityEngine::UI::SpriteState::get_selectedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e05418;
+  constexpr static std::size_t addrs = 0x6e0cf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::SpriteState>(), { "get_selectedSprite", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::SpriteState::*)(::UnityEngine::Sprite*)>(&::UnityEngine::UI::SpriteState::set_selectedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e05420;
+  constexpr static std::size_t addrs = 0x6e0cfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::UI::SpriteState::*)()>(&::UnityEngine::UI::SpriteState::get_disabledSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e05428;
+  constexpr static std::size_t addrs = 0x6e0cfac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::SpriteState>(), { "get_disabledSprite", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::SpriteState::*)(::UnityEngine::Sprite*)>(&::UnityEngine::UI::SpriteState::set_disabledSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e05430;
+  constexpr static std::size_t addrs = 0x6e0cfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::SpriteState::*)(::UnityEngine::UI::SpriteState)>(&::UnityEngine::UI::SpriteState::Equals)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6e05438;
+  constexpr static std::size_t addrs = 0x6e0cfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundColorsGradientTintColorWithLightId.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundColorsGradientTintColorWithLightId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
   /// @brief Field grayscaleFactor, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_grayscaleFactor, put = __cordl_internal_set_grayscaleFactor)) float_t grayscaleFactor;
 
-  /// @brief Method ColorWasSet, addr 0x586d1c0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x586c334, size 0x74, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId* New_ctor();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_grayscaleFactor(float_t value);
 
-  /// @brief Method .ctor, addr 0x586d234, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586c3a8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   BloomPrePassBackgroundColorsGradientTintColorWithLightId(BloomPrePassBackgroundColorsGradientTintColorWithLightId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19512 };
 
   /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> ____bloomPrePassBackgroundColorsGradient;

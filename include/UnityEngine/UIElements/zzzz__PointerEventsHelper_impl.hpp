@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PointerEventsHelper.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PointerEventsHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventsHelper_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IPointerEvent*,
                                                                 ::UnityEngine::Vector2, int32_t)>(&::UnityEngine::UIElements::PointerEventsHelper::SendOverOut)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x6d90104;
+  constexpr static std::size_t addrs = 0x6d97c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

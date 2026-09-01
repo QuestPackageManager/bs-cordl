@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509CertificateImpl.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509CertificateImpl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSA_def.hpp"
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImpl::ThrowIfContextInvalid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5b0e6d0;
+  constexpr static std::size_t addrs = 0x5b12b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImpl::GetHashCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5b0e790;
+  constexpr static std::size_t addrs = 0x5b12c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)(::System::Object*)>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImpl::Equals)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5b0e808;
+  constexpr static std::size_t addrs = 0x5b12cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImpl::Dispose)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5b0d23c;
+  constexpr static std::size_t addrs = 0x5b116f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)(bool)>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImpl::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b0e97c;
+  constexpr static std::size_t addrs = 0x5b12e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>(),
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImpl::Finalize)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5b0e980;
+  constexpr static std::size_t addrs = 0x5b12e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>(),
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509CertificateImpl::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509CertificateImpl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b0e9d4;
+  constexpr static std::size_t addrs = 0x5b12e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

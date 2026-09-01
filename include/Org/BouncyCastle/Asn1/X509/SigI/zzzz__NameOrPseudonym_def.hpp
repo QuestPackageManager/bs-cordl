@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/SigI/NameOrPseudonym.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\SigI\NameOrPseudonym.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,10 +52,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetGivenName, addr 0x35560d8, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method GetGivenName, addr 0x3559e98, size 0x30c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*> GetGivenName();
 
-  /// @brief Method GetInstance, addr 0x3555cdc, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3559a9c, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
@@ -66,7 +66,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
 
-  /// @brief Method ToAsn1Object, addr 0x35563e4, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x355a1a4, size 0x10c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_givenName() const;
@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set_surname(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method .ctor, addr 0x3555eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3559c78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
 
-  /// @brief Method .ctor, addr 0x3556058, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3559e18, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW pseudonym);
 
-  /// @brief Method .ctor, addr 0x3555ec0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3559c80, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x35560c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3559e80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
 
-  /// @brief Method get_Pseudonym, addr 0x35560c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pseudonym, addr 0x3559e88, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Pseudonym();
 
-  /// @brief Method get_Surname, addr 0x35560d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Surname, addr 0x3559e90, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Surname();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

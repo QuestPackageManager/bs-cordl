@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/InlineLinkAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\InlineLinkAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__InlineLinkAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InlineLinkAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InlineLinkAttribute::*)(::StringW)>(&::GlobalNamespace::InlineLinkAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5df2ffc;
+  constexpr static std::size_t addrs = 0x5df74b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

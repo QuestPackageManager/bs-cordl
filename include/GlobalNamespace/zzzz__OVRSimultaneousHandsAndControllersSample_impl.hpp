@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRSimultaneousHandsAndControllersSample.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRSimultaneousHandsAndControllersSample.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSimultaneousHandsAndControllersSample_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(&::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::Update)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5ecd038;
+  constexpr static std::size_t addrs = 0x5ed14f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSimultaneousHandsAndControllersSample*>(), { "Update", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::EnableSimultaneousHandsAndControllers)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ecd138;
+  constexpr static std::size_t addrs = 0x5ed15f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::DisableSimultaneousHandsAndControllers)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ecd1bc;
+  constexpr static std::size_t addrs = 0x5ed1678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::*)()>(&::GlobalNamespace::OVRSimultaneousHandsAndControllersSample::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ecd240;
+  constexpr static std::size_t addrs = 0x5ed16fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSimultaneousHandsAndControllersSample*>(), { ".ctor", {}, {} })));

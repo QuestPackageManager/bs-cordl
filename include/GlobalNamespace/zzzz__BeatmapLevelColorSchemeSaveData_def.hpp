@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapLevelColorSchemeSaveData.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapLevelColorSchemeSaveData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
   /// @brief Field useOverride, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_useOverride, put = __cordl_internal_set_useOverride)) bool useOverride;
 
-  /// @brief Method IsDefault, addr 0x374db10, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method IsDefault, addr 0x3753740, size 0x13c, virtual false, abstract: false, final false
   inline bool IsDefault();
 
   static inline ::GlobalNamespace::BeatmapLevelColorSchemeSaveData* New_ctor();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_useOverride(bool value);
 
-  /// @brief Method .ctor, addr 0x374dc4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375387c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   BeatmapLevelColorSchemeSaveData(BeatmapLevelColorSchemeSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15198 };
 
   /// @brief Field useOverride, offset: 0x10, size: 0x1, def value: None
   bool ___useOverride;

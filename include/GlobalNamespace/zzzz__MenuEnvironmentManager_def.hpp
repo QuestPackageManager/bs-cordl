@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MenuEnvironmentManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\MenuEnvironmentManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -126,13 +126,13 @@ public:
 
   constexpr void __cordl_internal_set__wrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x58c02e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bfc8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_menuEnvironmentType, addr 0x58c02d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menuEnvironmentType, addr 0x58bfc7c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType get_menuEnvironmentType();
 
-  /// @brief Method get_wrapper, addr 0x58c02dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapper, addr 0x58bfc84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_wrapper();
 
 protected:
@@ -188,10 +188,10 @@ public:
 
   static inline ::GlobalNamespace::MenuEnvironmentManager* New_ctor();
 
-  /// @brief Method ShowEnvironmentType, addr 0x58c0144, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ShowEnvironmentType, addr 0x58bfaec, size 0x18c, virtual false, abstract: false, final false
   inline void ShowEnvironmentType(::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType menuEnvironmentType);
 
-  /// @brief Method Start, addr 0x58c013c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58bfae4, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects*> const& __cordl_internal_get__data() const;
@@ -206,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set__prevMenuEnvironmentType(::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType value);
 
-  /// @brief Method .ctor, addr 0x58c02d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bfc78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

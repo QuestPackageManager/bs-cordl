@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/PathReferenceAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\PathReferenceAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__PathReferenceAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::PathReferenceAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::PathReferenceAttribute::*)()>(&::JetBrains::Annotations::PathReferenceAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e36490;
+  constexpr static std::size_t addrs = 0x6e3e014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::PathReferenceAttribute*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::PathReferenceAttribute::*)(::StringW)>(&::JetBrains::Annotations::PathReferenceAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36494;
+  constexpr static std::size_t addrs = 0x6e3e018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::PathReferenceAttribute::*)()>(&::JetBrains::Annotations::PathReferenceAttribute::get_BasePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3649c;
+  constexpr static std::size_t addrs = 0x6e3e020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::PathReferenceAttribute*>(), { "get_BasePath", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::PathReferenceAttribute::*)(::StringW)>(&::JetBrains::Annotations::PathReferenceAttribute::set_BasePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e364a4;
+  constexpr static std::size_t addrs = 0x6e3e028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/MaterialManager.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\MaterialManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MaterialManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(
     &::UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x6bbfb2c;
+  constexpr static std::size_t addrs = 0x6bc76b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::Material*, int32_t)>(
     &::UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6bc018c;
+  constexpr static std::size_t addrs = 0x6bc7d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(&::UnityEngine::TextCore::Text::MaterialManager::CopyMaterialPresetProperties)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x6bbff38;
+  constexpr static std::size_t addrs = 0x6bc7abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

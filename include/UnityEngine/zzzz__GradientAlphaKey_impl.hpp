@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/GradientAlphaKey.hpp"
+// IWYU pragma private; include "UnityEngine\GradientAlphaKey.hpp"
 #include "UnityEngine/zzzz__GradientAlphaKey_def.hpp"
 //  Writing Method size for method: ::UnityEngine::GradientAlphaKey._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GradientAlphaKey::*)(float_t, float_t)>(&::UnityEngine::GradientAlphaKey::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac460c;
+  constexpr static std::size_t addrs = 0x6acc024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/IInstallerRegistry.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\IInstallerRegistry.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__IInstallerRegistry_def.hpp"
 #include "Zenject/zzzz__IInstaller_def.hpp"
 //  Writing Method size for method: ::BGLib::AppFlow::Initialization::IInstallerRegistry.AddInstaller

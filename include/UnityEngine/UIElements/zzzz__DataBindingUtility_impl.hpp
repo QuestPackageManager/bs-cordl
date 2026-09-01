@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DataBindingUtility.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DataBindingUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DataBindingUtility_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(&::UnityEngine::UIElements::DataBindingUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c3d748;
+  constexpr static std::size_t addrs = 0x6c452cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Internal::TypePathVisitor* (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(
     &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c3d74c;
+  constexpr static std::size_t addrs = 0x6c452d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__23_0", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)(::UnityEngine::UIElements::Internal::TypePathVisitor*)>(
     &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c3d790;
+  constexpr static std::size_t addrs = 0x6c45314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Internal::AutoCompletePathVisitor* (::UnityEngine::UIElements::DataBindingUtility___c::*)()>(
     &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_2)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c3d7b8;
+  constexpr static std::size_t addrs = 0x6c4533c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingUtility___c*>(), { "<.cctor>b__23_2", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingUtility___c::*)(::UnityEngine::UIElements::Internal::AutoCompletePathVisitor*)>(
     &::UnityEngine::UIElements::DataBindingUtility___c::__cctor_b__23_3)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c3d810;
+  constexpr static std::size_t addrs = 0x6c45394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId>,
                                                                 ::by_ref<::UnityEngine::UIElements::BindingInfo>)>(&::UnityEngine::UIElements::DataBindingUtility::TryGetBinding)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6c3d260;
+  constexpr static std::size_t addrs = 0x6c44de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

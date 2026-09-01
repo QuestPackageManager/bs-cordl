@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ContactFilter2D.hpp"
+// IWYU pragma private; include "UnityEngine\ContactFilter2D.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "UnityEngine/zzzz__ContactFilter2D_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ContactFilter2D::*)()>(&::UnityEngine::ContactFilter2D::CheckConsistency)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b69244;
+  constexpr static std::size_t addrs = 0x6b70dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactFilter2D>(), { "CheckConsistency", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ContactFilter2D::*)(::UnityEngine::LayerMask)>(&::UnityEngine::ContactFilter2D::SetLayerMask)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b69280;
+  constexpr static std::size_t addrs = 0x6b70e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ContactFilter2D::*)(float_t, float_t)>(&::UnityEngine::ContactFilter2D::SetDepth)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6b69290;
+  constexpr static std::size_t addrs = 0x6b70e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ContactFilter2D (*)(int32_t, float_t, float_t)>(&::UnityEngine::ContactFilter2D::CreateLegacyFilter)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6b67af0;
+  constexpr static std::size_t addrs = 0x6b6f674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

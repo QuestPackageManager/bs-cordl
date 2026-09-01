@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/AutoIncrementValue.hpp"
+// IWYU pragma private; include "System\Data\AutoIncrementValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   /// @brief Field <Auto>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Auto_k__BackingField, put = __cordl_internal_set__Auto_k__BackingField)) bool _Auto_k__BackingField;
 
-  /// @brief Method Clone, addr 0x5ffbebc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x6003938, size 0x110, virtual false, abstract: false, final false
   inline ::System::Data::AutoIncrementValue* Clone();
 
   /// @brief Method MoveAfter, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set__Auto_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5ffcda4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6004820, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Auto, addr 0x5ffcd94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Auto, addr 0x6004810, size 0x8, virtual false, abstract: false, final false
   inline bool get_Auto();
 
   /// @brief Method get_Current, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -80,7 +80,7 @@ public:
   /// @brief Method get_Step, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int64_t get_Step();
 
-  /// @brief Method set_Auto, addr 0x5ffcd9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Auto, addr 0x6004818, size 0x8, virtual false, abstract: false, final false
   inline void set_Auto(bool value);
 
   /// @brief Method set_Current, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -107,7 +107,7 @@ public:
   AutoIncrementValue(AutoIncrementValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13728 };
 
   /// @brief Field <Auto>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Auto_k__BackingField;

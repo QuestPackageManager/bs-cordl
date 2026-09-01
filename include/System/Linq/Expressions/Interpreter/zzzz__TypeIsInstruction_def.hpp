@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/TypeIsInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\TypeIsInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::TypeIsInstruction* New_ctor(::System::Type* type);
 
-  /// @brief Method Run, addr 0x5fb7000, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fbea7c, size 0x60, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x5fb7060, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5fbeadc, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Type* const& __cordl_internal_get__type() const;
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5fb6fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbea20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_ConsumedStack, addr 0x5fb6fac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5fbea28, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5fb6fbc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fbea38, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5fb6fb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5fbea30, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -77,7 +77,7 @@ public:
   TypeIsInstruction(TypeIsInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16598 };
 
   /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____type;

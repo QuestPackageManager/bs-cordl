@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UQuery.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UQuery.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__HierarchyTraversal_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQuery_impl.hpp"
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UQueryMatcher_UQuery___c::*)()>(&::UnityEngine::UIElements::UQueryMatcher_UQuery___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cb2cfc;
+  constexpr static std::size_t addrs = 0x6cba880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQueryMatcher_UQuery___c*>(), { ".ctor", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UQueryMatcher_UQuery___c::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo)>(&::UnityEngine::UIElements::UQueryMatcher_UQuery___c::_TraverseRecursive_b__5_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cb2d00;
+  constexpr static std::size_t addrs = 0x6cba884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UQuery_UQueryMatcher::*)()>(&::UnityEngine::UIElements::UQuery_UQueryMatcher::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cb2a60;
+  constexpr static std::size_t addrs = 0x6cba5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_UQueryMatcher*>(), { ".ctor", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UQuery_UQueryMatcher::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UQuery_UQueryMatcher::Traverse)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6cb2a64;
+  constexpr static std::size_t addrs = 0x6cba5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UQuery_UQueryMatcher::*)(::UnityEngine::UIElements::RuleMatcher, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UQuery_UQueryMatcher::OnRuleMatchedElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cb2a74;
+  constexpr static std::size_t addrs = 0x6cba5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo)>(
     &::UnityEngine::UIElements::UQuery_UQueryMatcher::NoProcessResult)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cb2a7c;
+  constexpr static std::size_t addrs = 0x6cba600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UQuery_UQueryMatcher::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::UQuery_UQueryMatcher::TraverseRecursive)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6cb2a80;
+  constexpr static std::size_t addrs = 0x6cba604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UQuery_UQueryMatcher::*)(
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*)>(&::UnityEngine::UIElements::UQuery_UQueryMatcher::Run)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6cb2c94;
+  constexpr static std::size_t addrs = 0x6cba818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::UQuery_SingleQueryMatcher::*)()>(
     &::UnityEngine::UIElements::UQuery_SingleQueryMatcher::get_match)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cb2d04;
+  constexpr static std::size_t addrs = 0x6cba888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_SingleQueryMatcher*>(), { "get_match", {}, {} })));
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UQuery_SingleQueryMatcher::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UQuery_SingleQueryMatcher::set_match)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cb2d0c;
+  constexpr static std::size_t addrs = 0x6cba890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_SingleQueryMatcher*>(),
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UQuery_SingleQueryMatcher::*)(
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*)>(&::UnityEngine::UIElements::UQuery_SingleQueryMatcher::Run)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6cb2d14;
+  constexpr static std::size_t addrs = 0x6cba898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_SingleQueryMatcher*>(),
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UQuery_SingleQueryMatcher::*)()>(&::UnityEngine::UIElements::UQuery_SingleQueryMatcher::IsInUse)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6cb2d3c;
+  constexpr static std::size_t addrs = 0x6cba8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_SingleQueryMatcher*>(), { "IsInUse", {}, {} })));
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UQuery_SingleQueryMatcher::*)()>(&::UnityEngine::UIElements::UQuery_SingleQueryMatcher::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cb2d4c;
+  constexpr static std::size_t addrs = 0x6cba8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_SingleQueryMatcher*>(), { ".ctor", {}, {} })));
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UQuery_FirstQueryMatcher::*)(
     ::UnityEngine::UIElements::RuleMatcher, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UQuery_FirstQueryMatcher::OnRuleMatchedElement)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6cb2d50;
+  constexpr static std::size_t addrs = 0x6cba8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_FirstQueryMatcher*>(),
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UQuery_SingleQueryMatcher* (::UnityEngine::UIElements::UQuery_FirstQueryMatcher::*)()>(
     &::UnityEngine::UIElements::UQuery_FirstQueryMatcher::CreateNew)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6cb2d64;
+  constexpr static std::size_t addrs = 0x6cba8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_FirstQueryMatcher*>(),
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UQuery_FirstQueryMatcher::*)()>(&::UnityEngine::UIElements::UQuery_FirstQueryMatcher::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cb2da8;
+  constexpr static std::size_t addrs = 0x6cba92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UQuery_FirstQueryMatcher*>(), { ".ctor", {}, {} })));

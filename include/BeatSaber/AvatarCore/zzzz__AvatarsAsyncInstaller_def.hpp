@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarsAsyncInstaller.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarsAsyncInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,19 +31,19 @@ public:
   // Declarations
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x3267e1c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x326b680, size 0xfc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x3267f18, size 0x3d4, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x326b77c, size 0x3d4, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>>* adaptersInstallers,
                                          ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry);
 
   static inline ::BeatSaber::AvatarCore::AvatarsAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x32682ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326bb50, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x3267dd8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x326b63c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -61,7 +61,7 @@ public:
   AvatarsAsyncInstaller(AvatarsAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

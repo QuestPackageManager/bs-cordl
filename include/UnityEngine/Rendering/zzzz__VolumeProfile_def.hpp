@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/VolumeProfile.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\VolumeProfile.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,10 +49,10 @@ public:
 
   static inline ::UnityEngine::Rendering::VolumeProfile___c* New_ctor();
 
-  /// @brief Method <OnEnable>b__2_0, addr 0x67c75dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__2_0, addr 0x67cf058, size 0x60, virtual false, abstract: false, final false
   inline bool _OnEnable_b__2_0(::UnityEngine::Rendering::VolumeComponent* x);
 
-  /// @brief Method .ctor, addr 0x67c75d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cf054, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::VolumeProfile___c* getStaticF___9();
@@ -78,7 +78,7 @@ public:
   VolumeProfile___c(VolumeProfile___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -102,45 +102,45 @@ public:
   /// @brief Field isDirty, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_isDirty, put = __cordl_internal_set_isDirty)) bool isDirty;
 
-  /// @brief Method Add, addr 0x67c6d54, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x67ce7d0, size 0x184, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> Add(::System::Type* type, bool overrides);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Add(bool overrides);
 
-  /// @brief Method GetComponentListHashCode, addr 0x67c732c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetComponentListHashCode, addr 0x67ceda8, size 0xc4, virtual false, abstract: false, final false
   inline int32_t GetComponentListHashCode();
 
-  /// @brief Method GetHashCode, addr 0x67c7278, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67cecf4, size 0xb4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method Has, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool Has();
 
-  /// @brief Method Has, addr 0x67c6ed8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Has, addr 0x67ce954, size 0x148, virtual false, abstract: false, final false
   inline bool Has(::System::Type* type);
 
-  /// @brief Method HasSubclassOf, addr 0x67c712c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HasSubclassOf, addr 0x67ceba8, size 0x14c, virtual false, abstract: false, final false
   inline bool HasSubclassOf(::System::Type* type);
 
   static inline ::UnityEngine::Rendering::VolumeProfile* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x67c6c54, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x67ce6d0, size 0xf4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x67c6b48, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x67ce5c4, size 0x10c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Remove();
 
-  /// @brief Method Remove, addr 0x67c7020, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x67cea9c, size 0x10c, virtual false, abstract: false, final false
   inline void Remove(::System::Type* type);
 
-  /// @brief Method Reset, addr 0x67c6d48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x67ce7c4, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Sanitize, addr 0x67c73f0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Sanitize, addr 0x67cee6c, size 0x110, virtual false, abstract: false, final false
   inline void Sanitize();
 
   /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set_isDirty(bool value);
 
-  /// @brief Method .ctor, addr 0x67c7500, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cef7c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -185,7 +185,7 @@ public:
   VolumeProfile(VolumeProfile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12376 };
 
   /// @brief Field components, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::VolumeComponent>>* ___components;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalForwardEmissivePass.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalForwardEmissivePass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x684f7a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6857220, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,7 +121,7 @@ public:
   DecalForwardEmissivePass_PassData(DecalForwardEmissivePass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12678 };
 
   /// @brief Field drawSystem, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem* ___drawSystem;
@@ -156,10 +156,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__10_0, addr 0x6850314, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__10_0, addr 0x6857d90, size 0x50, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__10_0(::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x6850310, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6857d8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c* getStaticF___9();
@@ -188,7 +188,7 @@ public:
   DecalForwardEmissivePass___c(DecalForwardEmissivePass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12679 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -220,24 +220,24 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
-  /// @brief Method Execute, addr 0x684f7a8, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6857224, size 0x268, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x684fb60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x68575dc, size 0x60, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method InitPassData, addr 0x684fa10, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x685748c, size 0x1c, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*> passData);
 
-  /// @brief Method InitRendererListParams, addr 0x684fa2c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method InitRendererListParams, addr 0x68574a8, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererListParams InitRendererListParams(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
   static inline ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass* New_ctor(::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem* drawSystem);
 
-  /// @brief Method RecordRenderGraph, addr 0x684fbc0, size 0x6fc, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x685763c, size 0x6fc, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
   constexpr ::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem* const& __cordl_internal_get_m_DrawSystem() const;
@@ -264,7 +264,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method .ctor, addr 0x684f4c8, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6856f44, size 0x2dc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem* drawSystem);
 
 protected:
@@ -282,7 +282,7 @@ public:
   DecalForwardEmissivePass(DecalForwardEmissivePass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12680 };
 
   /// @brief Field m_FilteringSettings, offset: 0xb8, size: 0x20, def value: None
   ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;

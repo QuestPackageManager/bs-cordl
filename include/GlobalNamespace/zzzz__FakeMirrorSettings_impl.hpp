@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FakeMirrorSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace\FakeMirrorSettings.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__FakeMirrorSettings_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::get_fakeMirrorTransparency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3e0b4;
+  constexpr static std::size_t addrs = 0x5f42520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FakeMirrorSettings*>(), { "get_fakeMirrorTransparency", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)(float_t)>(&::GlobalNamespace::FakeMirrorSettings::set_fakeMirrorTransparency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3e0bc;
+  constexpr static std::size_t addrs = 0x5f42528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3e0c4;
+  constexpr static std::size_t addrs = 0x5f42530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FakeMirrorSettings*>(), { "Start", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3e278;
+  constexpr static std::size_t addrs = 0x5f426e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FakeMirrorSettings*>(), { "OnEnable", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3e27c;
+  constexpr static std::size_t addrs = 0x5f426e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FakeMirrorSettings*>(), { "OnValidate", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::SetGlobalParameters)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5f3e0c8;
+  constexpr static std::size_t addrs = 0x5f42534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FakeMirrorSettings*>(), { "SetGlobalParameters", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FakeMirrorSettings::*)()>(&::GlobalNamespace::FakeMirrorSettings::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f3e280;
+  constexpr static std::size_t addrs = 0x5f426ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FakeMirrorSettings*>(), { ".ctor", {}, {} })));

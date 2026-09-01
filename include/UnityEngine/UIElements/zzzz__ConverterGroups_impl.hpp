@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ConverterGroups.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ConverterGroups.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ConverterGroups_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ConverterGroups___c::*)()>(&::UnityEngine::UIElements::ConverterGroups___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c363f4;
+  constexpr static std::size_t addrs = 0x6c3df78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups___c*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c363f8;
+  constexpr static std::size_t addrs = 0x6c3df7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36408;
+  constexpr static std::size_t addrs = 0x6c3df8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36410;
+  constexpr static std::size_t addrs = 0x6c3df94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36418;
+  constexpr static std::size_t addrs = 0x6c3df9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36420;
+  constexpr static std::size_t addrs = 0x6c3dfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36428;
+  constexpr static std::size_t addrs = 0x6c3dfac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36430;
+  constexpr static std::size_t addrs = 0x6c3dfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36438;
+  constexpr static std::size_t addrs = 0x6c3dfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36440;
+  constexpr static std::size_t addrs = 0x6c3dfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36448;
+  constexpr static std::size_t addrs = 0x6c3dfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36454;
+  constexpr static std::size_t addrs = 0x6c3dfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt8Converters_b__17_11)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c36460;
+  constexpr static std::size_t addrs = 0x6c3dfe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c36534;
+  constexpr static std::size_t addrs = 0x6c3e0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36544;
+  constexpr static std::size_t addrs = 0x6c3e0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3654c;
+  constexpr static std::size_t addrs = 0x6c3e0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36554;
+  constexpr static std::size_t addrs = 0x6c3e0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3655c;
+  constexpr static std::size_t addrs = 0x6c3e0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36564;
+  constexpr static std::size_t addrs = 0x6c3e0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3656c;
+  constexpr static std::size_t addrs = 0x6c3e0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36574;
+  constexpr static std::size_t addrs = 0x6c3e0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3657c;
+  constexpr static std::size_t addrs = 0x6c3e100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36584;
+  constexpr static std::size_t addrs = 0x6c3e108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36590;
+  constexpr static std::size_t addrs = 0x6c3e114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt16Converters_b__18_11)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c3659c;
+  constexpr static std::size_t addrs = 0x6c3e120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c36670;
+  constexpr static std::size_t addrs = 0x6c3e1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36680;
+  constexpr static std::size_t addrs = 0x6c3e204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36688;
+  constexpr static std::size_t addrs = 0x6c3e20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36690;
+  constexpr static std::size_t addrs = 0x6c3e214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36698;
+  constexpr static std::size_t addrs = 0x6c3e21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c366a0;
+  constexpr static std::size_t addrs = 0x6c3e224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c366a8;
+  constexpr static std::size_t addrs = 0x6c3e22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c366b0;
+  constexpr static std::size_t addrs = 0x6c3e234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c366b8;
+  constexpr static std::size_t addrs = 0x6c3e23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c366c0;
+  constexpr static std::size_t addrs = 0x6c3e244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c366cc;
+  constexpr static std::size_t addrs = 0x6c3e250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -552,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt32Converters_b__19_11)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c366d8;
+  constexpr static std::size_t addrs = 0x6c3e25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c367ac;
+  constexpr static std::size_t addrs = 0x6c3e330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c367bc;
+  constexpr static std::size_t addrs = 0x6c3e340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -597,7 +597,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c367c4;
+  constexpr static std::size_t addrs = 0x6c3e348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c367cc;
+  constexpr static std::size_t addrs = 0x6c3e350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -627,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c367d4;
+  constexpr static std::size_t addrs = 0x6c3e358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c367dc;
+  constexpr static std::size_t addrs = 0x6c3e360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -657,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c367e4;
+  constexpr static std::size_t addrs = 0x6c3e368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -672,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c367ec;
+  constexpr static std::size_t addrs = 0x6c3e370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -687,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c367f4;
+  constexpr static std::size_t addrs = 0x6c3e378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -702,7 +702,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c367fc;
+  constexpr static std::size_t addrs = 0x6c3e380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36808;
+  constexpr static std::size_t addrs = 0x6c3e38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -732,7 +732,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterInt64Converters_b__20_11)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6c36814;
+  constexpr static std::size_t addrs = 0x6c3e398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -747,7 +747,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c368e4;
+  constexpr static std::size_t addrs = 0x6c3e468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -762,7 +762,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c368f4;
+  constexpr static std::size_t addrs = 0x6c3e478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -777,7 +777,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c368fc;
+  constexpr static std::size_t addrs = 0x6c3e480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -792,7 +792,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36904;
+  constexpr static std::size_t addrs = 0x6c3e488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -807,7 +807,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3690c;
+  constexpr static std::size_t addrs = 0x6c3e490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -822,7 +822,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36914;
+  constexpr static std::size_t addrs = 0x6c3e498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -837,7 +837,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3691c;
+  constexpr static std::size_t addrs = 0x6c3e4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -852,7 +852,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36924;
+  constexpr static std::size_t addrs = 0x6c3e4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -867,7 +867,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3692c;
+  constexpr static std::size_t addrs = 0x6c3e4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -882,7 +882,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36934;
+  constexpr static std::size_t addrs = 0x6c3e4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -897,7 +897,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36940;
+  constexpr static std::size_t addrs = 0x6c3e4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -912,7 +912,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint8_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_11)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c3694c;
+  constexpr static std::size_t addrs = 0x6c3e4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -927,7 +927,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt8Converters_b__21_12)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c36970;
+  constexpr static std::size_t addrs = 0x6c3e4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -942,7 +942,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c36a44;
+  constexpr static std::size_t addrs = 0x6c3e5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -957,7 +957,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36a54;
+  constexpr static std::size_t addrs = 0x6c3e5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -972,7 +972,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36a5c;
+  constexpr static std::size_t addrs = 0x6c3e5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -987,7 +987,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36a64;
+  constexpr static std::size_t addrs = 0x6c3e5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1002,7 +1002,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36a6c;
+  constexpr static std::size_t addrs = 0x6c3e5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1017,7 +1017,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36a74;
+  constexpr static std::size_t addrs = 0x6c3e5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1032,7 +1032,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36a7c;
+  constexpr static std::size_t addrs = 0x6c3e600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1047,7 +1047,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36a84;
+  constexpr static std::size_t addrs = 0x6c3e608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1062,7 +1062,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36a8c;
+  constexpr static std::size_t addrs = 0x6c3e610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1077,7 +1077,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36a94;
+  constexpr static std::size_t addrs = 0x6c3e618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1092,7 +1092,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36aa0;
+  constexpr static std::size_t addrs = 0x6c3e624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1107,7 +1107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt16Converters_b__22_11)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c36aac;
+  constexpr static std::size_t addrs = 0x6c3e630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1122,7 +1122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c36b80;
+  constexpr static std::size_t addrs = 0x6c3e704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1137,7 +1137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36b90;
+  constexpr static std::size_t addrs = 0x6c3e714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1152,7 +1152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36b98;
+  constexpr static std::size_t addrs = 0x6c3e71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1167,7 +1167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36ba0;
+  constexpr static std::size_t addrs = 0x6c3e724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1182,7 +1182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36ba8;
+  constexpr static std::size_t addrs = 0x6c3e72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1197,7 +1197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36bb0;
+  constexpr static std::size_t addrs = 0x6c3e734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1212,7 +1212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36bb8;
+  constexpr static std::size_t addrs = 0x6c3e73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1227,7 +1227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36bc0;
+  constexpr static std::size_t addrs = 0x6c3e744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1242,7 +1242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36bc8;
+  constexpr static std::size_t addrs = 0x6c3e74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1257,7 +1257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36bd0;
+  constexpr static std::size_t addrs = 0x6c3e754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1272,7 +1272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint32_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36bdc;
+  constexpr static std::size_t addrs = 0x6c3e760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1287,7 +1287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt32Converters_b__23_11)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c36be8;
+  constexpr static std::size_t addrs = 0x6c3e76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1302,7 +1302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c36cbc;
+  constexpr static std::size_t addrs = 0x6c3e840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1317,7 +1317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36ccc;
+  constexpr static std::size_t addrs = 0x6c3e850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1332,7 +1332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36cd4;
+  constexpr static std::size_t addrs = 0x6c3e858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1347,7 +1347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36cdc;
+  constexpr static std::size_t addrs = 0x6c3e860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1362,7 +1362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36ce4;
+  constexpr static std::size_t addrs = 0x6c3e868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1377,7 +1377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36cec;
+  constexpr static std::size_t addrs = 0x6c3e870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1392,7 +1392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36cf4;
+  constexpr static std::size_t addrs = 0x6c3e878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1407,7 +1407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36cfc;
+  constexpr static std::size_t addrs = 0x6c3e880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1422,7 +1422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c36d04;
+  constexpr static std::size_t addrs = 0x6c3e888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1437,7 +1437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_9)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c36d0c;
+  constexpr static std::size_t addrs = 0x6c3e890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1452,7 +1452,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<uint64_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36d1c;
+  constexpr static std::size_t addrs = 0x6c3e8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1467,7 +1467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterUInt64Converters_b__24_11)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6c36d28;
+  constexpr static std::size_t addrs = 0x6c3e8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1482,7 +1482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c36df8;
+  constexpr static std::size_t addrs = 0x6c3e97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1497,7 +1497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c36e08;
+  constexpr static std::size_t addrs = 0x6c3e98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1512,7 +1512,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c36e24;
+  constexpr static std::size_t addrs = 0x6c3e9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1527,7 +1527,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c36e38;
+  constexpr static std::size_t addrs = 0x6c3e9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1542,7 +1542,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_4)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c36e54;
+  constexpr static std::size_t addrs = 0x6c3e9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1557,7 +1557,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_5)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c36e74;
+  constexpr static std::size_t addrs = 0x6c3e9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1572,7 +1572,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_6)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c36e94;
+  constexpr static std::size_t addrs = 0x6c3ea18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1587,7 +1587,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_7)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c36ea8;
+  constexpr static std::size_t addrs = 0x6c3ea2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1602,7 +1602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_8)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c36ebc;
+  constexpr static std::size_t addrs = 0x6c3ea40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1617,7 +1617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c36ed4;
+  constexpr static std::size_t addrs = 0x6c3ea58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1632,7 +1632,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c36eec;
+  constexpr static std::size_t addrs = 0x6c3ea70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1647,7 +1647,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<float_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_11)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c36ef8;
+  constexpr static std::size_t addrs = 0x6c3ea7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1662,7 +1662,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterFloatConverters_b__25_12)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c36f60;
+  constexpr static std::size_t addrs = 0x6c3eae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1677,7 +1677,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c37034;
+  constexpr static std::size_t addrs = 0x6c3ebb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1692,7 +1692,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c37044;
+  constexpr static std::size_t addrs = 0x6c3ebc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1707,7 +1707,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c37060;
+  constexpr static std::size_t addrs = 0x6c3ebe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1722,7 +1722,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c37074;
+  constexpr static std::size_t addrs = 0x6c3ebf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1737,7 +1737,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_4)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c37090;
+  constexpr static std::size_t addrs = 0x6c3ec14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1752,7 +1752,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_5)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c370b0;
+  constexpr static std::size_t addrs = 0x6c3ec34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1767,7 +1767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_6)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c370d0;
+  constexpr static std::size_t addrs = 0x6c3ec54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1782,7 +1782,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_7)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c370e4;
+  constexpr static std::size_t addrs = 0x6c3ec68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1797,7 +1797,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_8)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c370f8;
+  constexpr static std::size_t addrs = 0x6c3ec7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1812,7 +1812,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c37110;
+  constexpr static std::size_t addrs = 0x6c3ec94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1827,7 +1827,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c37128;
+  constexpr static std::size_t addrs = 0x6c3ecac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1842,7 +1842,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<double_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_11)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c37134;
+  constexpr static std::size_t addrs = 0x6c3ecb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1857,7 +1857,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterDoubleConverters_b__26_12)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c3719c;
+  constexpr static std::size_t addrs = 0x6c3ed20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1872,7 +1872,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c371bc;
+  constexpr static std::size_t addrs = 0x6c3ed40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1887,7 +1887,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c371cc;
+  constexpr static std::size_t addrs = 0x6c3ed50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1902,7 +1902,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c371dc;
+  constexpr static std::size_t addrs = 0x6c3ed60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1917,7 +1917,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_3)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c371ec;
+  constexpr static std::size_t addrs = 0x6c3ed70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1932,7 +1932,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_4)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c371fc;
+  constexpr static std::size_t addrs = 0x6c3ed80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1947,7 +1947,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_5)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c3720c;
+  constexpr static std::size_t addrs = 0x6c3ed90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1962,7 +1962,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_6)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c3721c;
+  constexpr static std::size_t addrs = 0x6c3eda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1977,7 +1977,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_7)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c3722c;
+  constexpr static std::size_t addrs = 0x6c3edb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1992,7 +1992,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_8)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c3723c;
+  constexpr static std::size_t addrs = 0x6c3edc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2007,7 +2007,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c3724c;
+  constexpr static std::size_t addrs = 0x6c3edd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2022,7 +2022,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<bool>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_10)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c37264;
+  constexpr static std::size_t addrs = 0x6c3ede8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2037,7 +2037,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterBooleanConverters_b__27_11)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c3727c;
+  constexpr static std::size_t addrs = 0x6c3ee00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups___c*>(),
@@ -2051,7 +2051,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c3736c;
+  constexpr static std::size_t addrs = 0x6c3eef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2066,7 +2066,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3737c;
+  constexpr static std::size_t addrs = 0x6c3ef00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2081,7 +2081,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c37384;
+  constexpr static std::size_t addrs = 0x6c3ef08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2096,7 +2096,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3738c;
+  constexpr static std::size_t addrs = 0x6c3ef10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2111,7 +2111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c37394;
+  constexpr static std::size_t addrs = 0x6c3ef18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2126,7 +2126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3739c;
+  constexpr static std::size_t addrs = 0x6c3ef20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2141,7 +2141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c373a4;
+  constexpr static std::size_t addrs = 0x6c3ef28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2156,7 +2156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c373ac;
+  constexpr static std::size_t addrs = 0x6c3ef30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2171,7 +2171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c373b4;
+  constexpr static std::size_t addrs = 0x6c3ef38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2186,7 +2186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_9)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c373bc;
+  constexpr static std::size_t addrs = 0x6c3ef40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2201,7 +2201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<char16_t>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_10)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c373c8;
+  constexpr static std::size_t addrs = 0x6c3ef4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2216,7 +2216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterCharConverters_b__28_11)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6c373d4;
+  constexpr static std::size_t addrs = 0x6c3ef58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2231,7 +2231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::UnityEngine::Color>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterColorConverters_b__29_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c37408;
+  constexpr static std::size_t addrs = 0x6c3ef8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups___c*>(),
@@ -2245,7 +2245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::ConverterGroups___c::*)(::by_ref<::UnityEngine::Color32>)>(
     &::UnityEngine::UIElements::ConverterGroups___c::_RegisterColorConverters_b__29_1)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c37418;
+  constexpr static std::size_t addrs = 0x6c3ef9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups___c*>(),
@@ -4188,7 +4188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterPrimitivesConverter)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c2b370;
+  constexpr static std::size_t addrs = 0x6c32ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterPrimitivesConverter", {}, {} })));
@@ -4200,7 +4200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterInt8Converters)> {
   constexpr static std::size_t size = 0xe1c;
-  constexpr static std::size_t addrs = 0x6c2b3f0;
+  constexpr static std::size_t addrs = 0x6c32f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterInt8Converters", {}, {} })));
@@ -4212,7 +4212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterInt16Converters)> {
   constexpr static std::size_t size = 0xe1c;
-  constexpr static std::size_t addrs = 0x6c2c20c;
+  constexpr static std::size_t addrs = 0x6c33d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterInt16Converters", {}, {} })));
@@ -4224,7 +4224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterInt32Converters)> {
   constexpr static std::size_t size = 0xe1c;
-  constexpr static std::size_t addrs = 0x6c2d028;
+  constexpr static std::size_t addrs = 0x6c34bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterInt32Converters", {}, {} })));
@@ -4236,7 +4236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterInt64Converters)> {
   constexpr static std::size_t size = 0xe1c;
-  constexpr static std::size_t addrs = 0x6c2de44;
+  constexpr static std::size_t addrs = 0x6c359c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterInt64Converters", {}, {} })));
@@ -4248,7 +4248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterUInt8Converters)> {
   constexpr static std::size_t size = 0xf3c;
-  constexpr static std::size_t addrs = 0x6c2ec60;
+  constexpr static std::size_t addrs = 0x6c367e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterUInt8Converters", {}, {} })));
@@ -4260,7 +4260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterUInt16Converters)> {
   constexpr static std::size_t size = 0xe1c;
-  constexpr static std::size_t addrs = 0x6c2fb9c;
+  constexpr static std::size_t addrs = 0x6c37720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterUInt16Converters", {}, {} })));
@@ -4272,7 +4272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterUInt32Converters)> {
   constexpr static std::size_t size = 0xe1c;
-  constexpr static std::size_t addrs = 0x6c309b8;
+  constexpr static std::size_t addrs = 0x6c3853c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterUInt32Converters", {}, {} })));
@@ -4284,7 +4284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterUInt64Converters)> {
   constexpr static std::size_t size = 0xe1c;
-  constexpr static std::size_t addrs = 0x6c317d4;
+  constexpr static std::size_t addrs = 0x6c39358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterUInt64Converters", {}, {} })));
@@ -4296,7 +4296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterFloatConverters)> {
   constexpr static std::size_t size = 0xf3c;
-  constexpr static std::size_t addrs = 0x6c325f0;
+  constexpr static std::size_t addrs = 0x6c3a174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterFloatConverters", {}, {} })));
@@ -4308,7 +4308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterDoubleConverters)> {
   constexpr static std::size_t size = 0xf3c;
-  constexpr static std::size_t addrs = 0x6c3352c;
+  constexpr static std::size_t addrs = 0x6c3b0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterDoubleConverters", {}, {} })));
@@ -4320,7 +4320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterBooleanConverters)> {
   constexpr static std::size_t size = 0xe1c;
-  constexpr static std::size_t addrs = 0x6c34468;
+  constexpr static std::size_t addrs = 0x6c3bfec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterBooleanConverters", {}, {} })));
@@ -4332,7 +4332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterCharConverters)> {
   constexpr static std::size_t size = 0xe1c;
-  constexpr static std::size_t addrs = 0x6c35284;
+  constexpr static std::size_t addrs = 0x6c3ce08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterCharConverters", {}, {} })));
@@ -4344,7 +4344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::ConverterGroups::RegisterColorConverters)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x6c360a0;
+  constexpr static std::size_t addrs = 0x6c3dc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ConverterGroups*>(), { "RegisterColorConverters", {}, {} })));

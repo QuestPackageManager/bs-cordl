@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessParams.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE PostProcessParams {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x68a365c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x68ab0d8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::PostProcessParams Create();
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr PostProcessParams(::UnityW<::UnityEngine::Material> blitMaterial, ::UnityEngine::Experimental::Rendering::GraphicsFormat requestColorFormat) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12895 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

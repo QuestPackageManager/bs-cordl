@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/KdfCounterBytesGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\KdfCounterBytesGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__KdfCounterBytesGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)(::Org::BouncyCastle::Crypto::IMac*)>(
     &::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x33d7b0c;
+  constexpr static std::size_t addrs = 0x33db8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)(::Org::BouncyCastle::Crypto::IDerivationParameters*)>(
     &::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::Init)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x33d7bf4;
+  constexpr static std::size_t addrs = 0x33db9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IMac* (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::GetMac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33d7ea8;
+  constexpr static std::size_t addrs = 0x33dbc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::get_Digest)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x33d7eb0;
+  constexpr static std::size_t addrs = 0x33dbc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::GenerateBytes)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x33d7f3c;
+  constexpr static std::size_t addrs = 0x33dbcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator::generateNext)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x33d811c;
+  constexpr static std::size_t addrs = 0x33dbedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

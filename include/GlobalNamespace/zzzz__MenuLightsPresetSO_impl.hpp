@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MenuLightsPresetSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MenuLightsPresetSO.hpp"
 #include "GlobalNamespace/zzzz__LightIdColorPair_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::LightIdColorPair*> (::GlobalNamespace::MenuLightsPresetSO::*)()>(
     &::GlobalNamespace::MenuLightsPresetSO::get_lightIdColorPairs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2c488;
+  constexpr static std::size_t addrs = 0x5a30944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsPresetSO*>(), { "get_lightIdColorPairs", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsPresetSO::*)(::ArrayW<::GlobalNamespace::LightIdColorPair*>)>(
     &::GlobalNamespace::MenuLightsPresetSO::set_lightIdColorPairs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2c490;
+  constexpr static std::size_t addrs = 0x5a3094c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsPresetSO*>(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuLightsPresetSO::*)()>(&::GlobalNamespace::MenuLightsPresetSO::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5a2c498;
+  constexpr static std::size_t addrs = 0x5a30954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuLightsPresetSO*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/SignatureSubpacketsParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\SignatureSubpacketsParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacketsParser_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369c4b8;
+  constexpr static std::size_t addrs = 0x36a0278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::SignatureSubpacket* (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)()>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::ReadPacket)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x369c4c0;
+  constexpr static std::size_t addrs = 0x36a0280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser*>(), { "ReadPacket", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::StringW)>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::CheckData)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x369d4f8;
+  constexpr static std::size_t addrs = 0x36a12b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

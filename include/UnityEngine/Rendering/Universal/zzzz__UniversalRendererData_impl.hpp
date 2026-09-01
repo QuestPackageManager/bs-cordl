@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRendererData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRendererData.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__CopyDepthMode_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DepthFormat_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DepthPrimingMode_impl.hpp"
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::ScriptableRenderer* (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::Create)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x686c7b4;
+  constexpr static std::size_t addrs = 0x6874230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererData*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_opaqueLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686c860;
+  constexpr static std::size_t addrs = 0x68742dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(::UnityEngine::LayerMask)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_opaqueLayerMask)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686c868;
+  constexpr static std::size_t addrs = 0x68742e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererData*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_transparentLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686c878;
+  constexpr static std::size_t addrs = 0x68742f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(::UnityEngine::LayerMask)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_transparentLayerMask)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686c880;
+  constexpr static std::size_t addrs = 0x68742fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererData*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::StencilStateData* (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_defaultStencilState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686c890;
+  constexpr static std::size_t addrs = 0x687430c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(::UnityEngine::Rendering::Universal::StencilStateData*)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_defaultStencilState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686c898;
+  constexpr static std::size_t addrs = 0x6874314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_shadowTransparentReceive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686c8a8;
+  constexpr static std::size_t addrs = 0x6874324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_shadowTransparentReceive)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686c8b0;
+  constexpr static std::size_t addrs = 0x687432c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::RenderingMode (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_renderingMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686c8c0;
+  constexpr static std::size_t addrs = 0x687433c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(::UnityEngine::Rendering::Universal::RenderingMode)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_renderingMode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686c8c8;
+  constexpr static std::size_t addrs = 0x6874344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererData*>(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DepthPrimingMode (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_depthPrimingMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686c8d8;
+  constexpr static std::size_t addrs = 0x6874354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(::UnityEngine::Rendering::Universal::DepthPrimingMode)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_depthPrimingMode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686c8e0;
+  constexpr static std::size_t addrs = 0x687435c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::CopyDepthMode (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_copyDepthMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686c8f0;
+  constexpr static std::size_t addrs = 0x687436c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(::UnityEngine::Rendering::Universal::CopyDepthMode)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_copyDepthMode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686c8f8;
+  constexpr static std::size_t addrs = 0x6874374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererData*>(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DepthFormat (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_depthAttachmentFormat)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x686c908;
+  constexpr static std::size_t addrs = 0x6874384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(::UnityEngine::Rendering::Universal::DepthFormat)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_depthAttachmentFormat)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x686c9c4;
+  constexpr static std::size_t addrs = 0x6874440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DepthFormat (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_depthTextureFormat)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x686cab8;
+  constexpr static std::size_t addrs = 0x6874534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(::UnityEngine::Rendering::Universal::DepthFormat)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_depthTextureFormat)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686cbe8;
+  constexpr static std::size_t addrs = 0x6874664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererData*>(),
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_accurateGbufferNormals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686cbf8;
+  constexpr static std::size_t addrs = 0x6874674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_accurateGbufferNormals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686cc00;
+  constexpr static std::size_t addrs = 0x687467c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::IntermediateTextureMode (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::get_intermediateTextureMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686cc10;
+  constexpr static std::size_t addrs = 0x687468c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)(::UnityEngine::Rendering::Universal::IntermediateTextureMode)>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::set_intermediateTextureMode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686cc18;
+  constexpr static std::size_t addrs = 0x6874694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(&::UnityEngine::Rendering::Universal::UniversalRendererData::OnEnable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x686cc28;
+  constexpr static std::size_t addrs = 0x68746a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererData*>(),
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::ReloadAllNullProperties)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x686c85c;
+  constexpr static std::size_t addrs = 0x68742d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x686cc34;
+  constexpr static std::size_t addrs = 0x68746b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRendererData::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x686cc40;
+  constexpr static std::size_t addrs = 0x68746bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRendererData::*)()>(&::UnityEngine::Rendering::Universal::UniversalRendererData::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x686cc5c;
+  constexpr static std::size_t addrs = 0x68746d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRendererData*>(), { ".ctor", {}, {} })));

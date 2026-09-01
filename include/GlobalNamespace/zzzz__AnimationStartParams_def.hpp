@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AnimationStartParams.hpp"
+// IWYU pragma private; include "GlobalNamespace\AnimationStartParams.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::AnimationStartParams* New_ctor();
 
-  /// @brief Method Start, addr 0x331db1c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x33218dc, size 0x2ac, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__timeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x331ddc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3321b88, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   AnimationStartParams(AnimationStartParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20717 };
 
   /// @brief Field _timeOffset, offset: 0x20, size: 0x4, def value: None
   float_t ____timeOffset;

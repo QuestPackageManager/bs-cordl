@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithLivestreamingStatus.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithLivestreamingStatus.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLivestreamingStatus_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LivestreamingStatus_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithLivestreamingStatus::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithLivestreamingStatus::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd35a8;
+  constexpr static std::size_t addrs = 0x5dd7a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LivestreamingStatus* (::Oculus::Platform::MessageWithLivestreamingStatus::*)()>(
     &::Oculus::Platform::MessageWithLivestreamingStatus::GetLivestreamingStatus)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd75c8;
+  constexpr static std::size_t addrs = 0x5ddba84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LivestreamingStatus* (::Oculus::Platform::MessageWithLivestreamingStatus::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLivestreamingStatus::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd760c;
+  constexpr static std::size_t addrs = 0x5ddbac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

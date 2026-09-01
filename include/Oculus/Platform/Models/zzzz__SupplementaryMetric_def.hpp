@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/SupplementaryMetric.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\SupplementaryMetric.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x5dec0ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df05a8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -61,7 +61,7 @@ public:
   SupplementaryMetric(SupplementaryMetric const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18095 };
 
   /// @brief Field ID, offset: 0x10, size: 0x8, def value: None
   uint64_t ____cordl_ID;

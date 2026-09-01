@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/RuntimeInitializeOnLoadMethodAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\RuntimeInitializeOnLoadMethodAttribute.hpp"
 #include "UnityEngine/Scripting/zzzz__PreserveAttribute_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeInitializeLoadType_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeInitializeOnLoadMethodAttribute_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::*)()>(&::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ade29c;
+  constexpr static std::size_t addrs = 0x6ae5cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::*)(::UnityEngine::RuntimeInitializeLoadType)>(
     &::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ade2ac;
+  constexpr static std::size_t addrs = 0x6ae5cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::*)(::UnityEngine::RuntimeInitializeLoadType)>(
     &::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::set_loadType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ade2a4;
+  constexpr static std::size_t addrs = 0x6ae5cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshGenerationDeferrer.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\MeshGenerationDeferrer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -127,25 +127,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddMeshGenerationCallback, addr 0x6cd6c6c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method AddMeshGenerationCallback, addr 0x6cde7f0, size 0x148, virtual false, abstract: false, final false
   inline void AddMeshGenerationCallback(::UnityEngine::UIElements::UIR::MeshGenerationCallback* callback, ::System::Object* userData,
                                         ::UnityEngine::UIElements::MeshGenerationCallbackType callbackType, bool isJobDependent);
 
-  /// @brief Method AddMeshGenerationJob, addr 0x6cd6c00, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddMeshGenerationJob, addr 0x6cde784, size 0x6c, virtual false, abstract: false, final false
   inline void AddMeshGenerationJob(::Unity::Jobs::JobHandle jobHandle);
 
-  /// @brief Method Dispose, addr 0x6cd7230, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cdedb4, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cd7298, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6cdee1c, size 0x38, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Invoke, addr 0x6cd7048, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6cdebcc, size 0x1d8, virtual false, abstract: false, final false
   static inline void Invoke(::UnityEngine::UIElements::UIR::MeshGenerationDeferrer_CallbackInfo ci, Il2CppObject* mgc);
 
   static inline ::UnityEngine::UIElements::UIR::MeshGenerationDeferrer* New_ctor();
 
-  /// @brief Method ProcessDeferredWork, addr 0x6cd6db4, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ProcessDeferredWork, addr 0x6cde938, size 0x294, virtual false, abstract: false, final false
   inline void ProcessDeferredWork(Il2CppObject* meshGenerationContext);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -202,16 +202,16 @@ public:
 
   constexpr void __cordl_internal_set_m_WorkThenFork(::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::UIR::MeshGenerationDeferrer_CallbackInfo>* value);
 
-  /// @brief Method .ctor, addr 0x6cd72d0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdee54, size 0x188, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disposed, addr 0x6cd7220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6cdeda4, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6cd7228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6cdedac, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

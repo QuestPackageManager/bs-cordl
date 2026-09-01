@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Misc/NetscapeRevocationUrl.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Misc\NetscapeRevocationUrl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-  /// @brief Method ToString, addr 0x3453c40, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3457a00, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3453c08, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34579c8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
 protected:

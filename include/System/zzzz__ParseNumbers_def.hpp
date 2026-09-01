@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ParseNumbers.hpp"
+// IWYU pragma private; include "System\ParseNumbers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,46 +24,46 @@ namespace System {
 class CORDL_TYPE ParseNumbers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EatWhiteSpace, addr 0x5c53ed0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method EatWhiteSpace, addr 0x5c5838c, size 0xc0, virtual false, abstract: false, final false
   static inline void EatWhiteSpace(::System::ReadOnlySpan_1<char16_t> s, ::by_ref<int32_t> i);
 
-  /// @brief Method GrabInts, addr 0x5c54528, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GrabInts, addr 0x5c589e4, size 0x1f8, virtual false, abstract: false, final false
   static inline int32_t GrabInts(int32_t radix, ::System::ReadOnlySpan_1<char16_t> s, ::by_ref<int32_t> i, bool isUnsigned);
 
-  /// @brief Method GrabLongs, addr 0x5c53f90, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GrabLongs, addr 0x5c5844c, size 0x1c0, virtual false, abstract: false, final false
   static inline int64_t GrabLongs(int32_t radix, ::System::ReadOnlySpan_1<char16_t> s, ::by_ref<int32_t> i, bool isUnsigned);
 
-  /// @brief Method IntToString, addr 0x5c54720, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method IntToString, addr 0x5c58bdc, size 0x34c, virtual false, abstract: false, final false
   static inline ::StringW IntToString(int32_t n, int32_t radix, int32_t width, char16_t paddingChar, int32_t flags);
 
-  /// @brief Method IsDigit, addr 0x5c54f40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x5c593fc, size 0x54, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t c, int32_t radix, ::by_ref<int32_t> result);
 
-  /// @brief Method LongToString, addr 0x5c54a6c, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method LongToString, addr 0x5c58f28, size 0x3b4, virtual false, abstract: false, final false
   static inline ::StringW LongToString(int64_t n, int32_t radix, int32_t width, char16_t paddingChar, int32_t flags);
 
-  /// @brief Method StringToInt, addr 0x5c54150, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StringToInt, addr 0x5c5860c, size 0x18, virtual false, abstract: false, final false
   static inline int32_t StringToInt(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags);
 
-  /// @brief Method StringToInt, addr 0x5c54168, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method StringToInt, addr 0x5c58624, size 0x3c0, virtual false, abstract: false, final false
   static inline int32_t StringToInt(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ::by_ref<int32_t> currPos);
 
-  /// @brief Method StringToLong, addr 0x5c53b50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StringToLong, addr 0x5c5800c, size 0x18, virtual false, abstract: false, final false
   static inline int64_t StringToLong(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags);
 
-  /// @brief Method StringToLong, addr 0x5c53b68, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method StringToLong, addr 0x5c58024, size 0x368, virtual false, abstract: false, final false
   static inline int64_t StringToLong(::System::ReadOnlySpan_1<char16_t> s, int32_t radix, int32_t flags, ::by_ref<int32_t> currPos);
 
-  /// @brief Method ThrowOverflowInt32Exception, addr 0x5c54eb0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowInt32Exception, addr 0x5c5936c, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowOverflowInt32Exception();
 
-  /// @brief Method ThrowOverflowInt64Exception, addr 0x5c54e20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowInt64Exception, addr 0x5c592dc, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowOverflowInt64Exception();
 
-  /// @brief Method ThrowOverflowUInt32Exception, addr 0x5c54ef8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowUInt32Exception, addr 0x5c593b4, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowOverflowUInt32Exception();
 
-  /// @brief Method ThrowOverflowUInt64Exception, addr 0x5c54e68, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowOverflowUInt64Exception, addr 0x5c59324, size 0x48, virtual false, abstract: false, final false
   static inline void ThrowOverflowUInt64Exception();
 
 protected:

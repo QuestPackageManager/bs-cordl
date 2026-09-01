@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXAudioSpectrumBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXAudioSpectrumBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
   static ::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder_AudioSourceMode const AudioSource;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19985 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -134,18 +134,18 @@ public:
   /// @brief Field m_TextureProperty, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextureProperty, put = __cordl_internal_set_m_TextureProperty)) ::UnityEngine::VFX::Utility::ExposedProperty* m_TextureProperty;
 
-  /// @brief Method IsValid, addr 0x69da8d4, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69e2350, size 0xe0, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder* New_ctor();
 
-  /// @brief Method ToString, addr 0x69daca8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69e2724, size 0xd0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69dac34, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69e26b0, size 0x74, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
-  /// @brief Method UpdateTexture, addr 0x69da9b4, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method UpdateTexture, addr 0x69e2430, size 0x280, virtual false, abstract: false, final false
   inline void UpdateTexture();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_AudioSource() const;
@@ -202,19 +202,19 @@ public:
 
   constexpr void __cordl_internal_set_m_TextureProperty(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69dad78, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e27f4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CountProperty, addr 0x69da86c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_CountProperty, addr 0x69e22e8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_CountProperty();
 
-  /// @brief Method get_TextureProperty, addr 0x69da8a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TextureProperty, addr 0x69e231c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_TextureProperty();
 
-  /// @brief Method set_CountProperty, addr 0x69da884, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_CountProperty, addr 0x69e2300, size 0x1c, virtual false, abstract: false, final false
   inline void set_CountProperty(::StringW value);
 
-  /// @brief Method set_TextureProperty, addr 0x69da8b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_TextureProperty, addr 0x69e2334, size 0x1c, virtual false, abstract: false, final false
   inline void set_TextureProperty(::StringW value);
 
 protected:
@@ -232,7 +232,7 @@ public:
   VFXAudioSpectrumBinder(VFXAudioSpectrumBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19986 };
 
   /// @brief Field m_CountProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_CountProperty;

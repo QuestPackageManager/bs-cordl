@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ocsp/ServiceLocator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ocsp\ServiceLocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,10 +44,10 @@ public:
   /// @brief Field locator, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_locator, put = __cordl_internal_set_locator)) ::Org::BouncyCastle::Asn1::Asn1Object* locator;
 
-  /// @brief Method GetInstance, addr 0x345a0f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x345deb0, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x345a104, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x345dec4, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
@@ -56,7 +56,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x345a3d0, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x345e190, size 0x154, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Name* const& __cordl_internal_get_issuer() const;
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_locator(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x345a360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345e120, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method .ctor, addr 0x345a368, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345e128, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer, ::Org::BouncyCastle::Asn1::Asn1Object* locator);
 
-  /// @brief Method .ctor, addr 0x345a288, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345e048, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Issuer, addr 0x345a3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x345e180, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_Locator, addr 0x345a3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Locator, addr 0x345e188, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Locator();
 
 protected:

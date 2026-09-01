@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/LineInfoAnnotation.hpp"
+// IWYU pragma private; include "System\Xml\Linq\LineInfoAnnotation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__LineInfoAnnotation_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::LineInfoAnnotation._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::LineInfoAnnotation::*)(int32_t, int32_t)>(&::System::Xml::Linq::LineInfoAnnotation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x619b748;
+  constexpr static std::size_t addrs = 0x61a31c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

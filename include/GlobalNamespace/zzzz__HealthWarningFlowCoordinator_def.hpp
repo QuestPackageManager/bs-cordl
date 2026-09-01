@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HealthWarningFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace\HealthWarningFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -192,10 +192,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a01d2c, size 0x33c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a09e00, size 0x33c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a02068, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0a13c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -214,7 +214,7 @@ public:
                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EulaViewController_ButtonType> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6354 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -255,10 +255,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a020d4, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0a1a8, size 0x27c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a02350, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0a424, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -276,7 +276,7 @@ public:
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6355 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -317,10 +317,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a023bc, size 0x598, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0a490, size 0x598, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a02954, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0aa28, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -340,7 +340,7 @@ public:
                                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6356 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -386,10 +386,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a029c0, size 0x710, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0aa94, size 0x710, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a030d0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0b1a4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -406,7 +406,7 @@ public:
                                                          ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6357 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -447,10 +447,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a0313c, size 0x414, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0b210, size 0x414, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a03550, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0b624, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -469,7 +469,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6358 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -515,10 +515,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a035bc, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0b690, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a03968, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0ba3c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -538,7 +538,7 @@ public:
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6359 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -584,10 +584,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a039d4, size 0x5ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0baa8, size 0x5ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a03f80, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0c054, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -608,7 +608,7 @@ public:
                                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerSensitivityFlag> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6360 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -659,10 +659,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a03fec, size 0x258, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0c0c0, size 0x258, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a04244, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0c318, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -680,7 +680,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6361 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -721,10 +721,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a042b0, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0c384, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a0465c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0c730, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -742,7 +742,7 @@ public:
                                                                                       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6362 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -784,10 +784,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a046c8, size 0x670, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0c79c, size 0x670, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a04d38, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0ce0c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -811,7 +811,7 @@ public:
                                                                ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6335 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6363 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -961,54 +961,54 @@ public:
   __declspec(property(get = __cordl_internal_get__viewControllerTitles,
                       put = __cordl_internal_set__viewControllerTitles)) ::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* _viewControllerTitles;
 
-  /// @brief Method AgreeToEulaAsync, addr 0x5a019d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AgreeToEulaAsync, addr 0x5a09aac, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* AgreeToEulaAsync();
 
-  /// @brief Method AgreeToPrivacyPolicyAsync, addr 0x5a01928, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AgreeToPrivacyPolicyAsync, addr 0x5a099fc, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* AgreeToPrivacyPolicyAsync();
 
-  /// @brief Method DidActivate, addr 0x5a01064, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a09138, size 0x370, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method FilterExcludedSongsAsync, addr 0x5a014dc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FilterExcludedSongsAsync, addr 0x5a095b0, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FilterExcludedSongsAsync();
 
   static inline ::GlobalNamespace::HealthWarningFlowCoordinator* New_ctor();
 
-  /// @brief Method RunAsync, addr 0x5a01660, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RunAsync, addr 0x5a09734, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RunAsync();
 
-  /// @brief Method SelectLanguageAsync, addr 0x5a01710, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SelectLanguageAsync, addr 0x5a097e4, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SelectLanguageAsync();
 
-  /// @brief Method SelectRegionAsync, addr 0x5a01874, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SelectRegionAsync, addr 0x5a09948, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SelectRegionAsync();
 
-  /// @brief Method ShowExplicitContentWarningAsync, addr 0x5a01b38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowExplicitContentWarningAsync, addr 0x5a09c0c, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ShowExplicitContentWarningAsync();
 
-  /// @brief Method ShowHealthWarningAsync, addr 0x5a01a88, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowHealthWarningAsync, addr 0x5a09b5c, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ShowHealthWarningAsync();
 
-  /// @brief Method ShowSelectLanguageViewControllerAsync, addr 0x5a017c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowSelectLanguageViewControllerAsync, addr 0x5a09898, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ShowSelectLanguageViewControllerAsync();
 
-  /// @brief Method ShowTopViewController, addr 0x5a013d4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ShowTopViewController, addr 0x5a094a8, size 0x108, virtual false, abstract: false, final false
   inline void ShowTopViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method ShowTopViewControllerAsync, addr 0x5a01590, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShowTopViewControllerAsync, addr 0x5a09664, size 0x44, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ShowTopViewControllerAsync(::GlobalNamespace::CompletableViewController* viewController);
 
   /// @brief Method ShowTopViewControllerAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Threading::Tasks::Task_1<T>* ShowTopViewControllerAsync(::GlobalNamespace::CompletableViewController_1<T>* viewController);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x5a015d4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x5a096a8, size 0x8c, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method UpdateUacAsync, addr 0x5a01be8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UpdateUacAsync, addr 0x5a09cbc, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateUacAsync();
 
-  /// @brief Method <ShowSelectLanguageViewControllerAsync>g__HandleDidChangeLanguage|34_0, addr 0x5a01ca4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <ShowSelectLanguageViewControllerAsync>g__HandleDidChangeLanguage|34_0, addr 0x5a09d78, size 0x88, virtual false, abstract: false, final false
   inline void _ShowSelectLanguageViewControllerAsync_g__HandleDidChangeLanguage_34_0(::BGLib::Polyglot::LocalizationLanguage language);
 
   constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel* const& __cordl_internal_get__beatmapEntitlementModel() const;
@@ -1131,7 +1131,7 @@ public:
 
   constexpr void __cordl_internal_set__viewControllerTitles(::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5a01c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a09d70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1149,7 +1149,7 @@ public:
   HealthWarningFlowCoordinator(HealthWarningFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6364 };
 
   /// @brief Field kEulaTitleLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kEulaTitleLocalizationKey{ u"EULA_TITLE" };

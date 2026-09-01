@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/JsonExtension/Vector3Converter.hpp"
+// IWYU pragma private; include "BGLib\JsonExtension\Vector3Converter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "BGLib/JsonExtension/zzzz__Vector3Converter_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::BGLib::JsonExtension::Vector3Converter::*)(
     ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::UnityEngine::Vector3, bool, ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::Vector3Converter::ReadJson)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3312c90;
+  constexpr static std::size_t addrs = 0x3316a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::JsonExtension::Vector3Converter::*)(::Newtonsoft::Json::JsonWriter*, ::UnityEngine::Vector3,
                                                                                                           ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::Vector3Converter::WriteJson)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3312d4c;
+  constexpr static std::size_t addrs = 0x3316b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::JsonExtension::Vector3Converter::*)()>(&::BGLib::JsonExtension::Vector3Converter::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3312e98;
+  constexpr static std::size_t addrs = 0x3316c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::JsonExtension::Vector3Converter*>(), { ".ctor", {}, {} })));

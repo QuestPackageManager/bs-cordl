@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/FileInfo.hpp"
+// IWYU pragma private; include "System\IO\FileInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method AppendText, addr 0x5c055f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method AppendText, addr 0x5c09ab0, size 0x64, virtual false, abstract: false, final false
   inline ::System::IO::StreamWriter* AppendText();
 
-  /// @brief Method CreateText, addr 0x5c05590, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateText, addr 0x5c09a4c, size 0x64, virtual false, abstract: false, final false
   inline ::System::IO::StreamWriter* CreateText();
 
   static inline ::System::IO::FileInfo* New_ctor();
@@ -51,25 +51,25 @@ public:
 
   static inline ::System::IO::FileInfo* New_ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-  /// @brief Method OpenRead, addr 0x5c05658, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OpenRead, addr 0x5c09b14, size 0x80, virtual false, abstract: false, final false
   inline ::System::IO::FileStream* OpenRead();
 
-  /// @brief Method .ctor, addr 0x5c054f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c099ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c054f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c099b4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName);
 
-  /// @brief Method .ctor, addr 0x5c056d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c09b94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5bf1efc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf63b8, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-  /// @brief Method get_Length, addr 0x5c05508, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x5c099c4, size 0x88, virtual false, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Name, addr 0x5c056e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5c09b9c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:

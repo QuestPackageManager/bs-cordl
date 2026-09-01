@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OneTimeLightColorEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\OneTimeLightColorEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OneTimeLightColorEffect_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OneTimeLightColorEffect::*)()>(&::GlobalNamespace::OneTimeLightColorEffect::Update)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5982a70;
+  constexpr static std::size_t addrs = 0x5986404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OneTimeLightColorEffect*>(), { "Update", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OneTimeLightColorEffect::*)()>(&::GlobalNamespace::OneTimeLightColorEffect::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5982acc;
+  constexpr static std::size_t addrs = 0x5986460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OneTimeLightColorEffect*>(), { ".ctor", {}, {} })));

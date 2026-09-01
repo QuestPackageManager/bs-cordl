@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Box.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Box.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Box_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d307a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d3832c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Box* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d306a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d38228, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();

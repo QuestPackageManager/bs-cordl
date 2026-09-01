@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/Enumeration/FileSystemName.hpp"
+// IWYU pragma private; include "System\IO\Enumeration\FileSystemName.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemName_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::IO::Enumeration::FileSystemName::TranslateWin32Expression)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x5c1f438;
+  constexpr static std::size_t addrs = 0x5c238f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool)>(
     &::System::IO::Enumeration::FileSystemName::MatchesWin32Expression)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5c1faa0;
+  constexpr static std::size_t addrs = 0x5c23f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool)>(
     &::System::IO::Enumeration::FileSystemName::MatchesSimpleExpression)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5c1fa14;
+  constexpr static std::size_t addrs = 0x5c23ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool, bool)>(
     &::System::IO::Enumeration::FileSystemName::MatchPattern)> {
   constexpr static std::size_t size = 0x7ac;
-  constexpr static std::size_t addrs = 0x5c2038c;
+  constexpr static std::size_t addrs = 0x5c24848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

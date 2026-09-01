@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassRandomWriteData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassRandomWriteData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE PassRandomWriteData {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x67f1a54, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67f94d0, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters []
@@ -34,7 +34,7 @@ public:
   constexpr PassRandomWriteData(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle resource, int32_t index, bool preserveCounterValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12489 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

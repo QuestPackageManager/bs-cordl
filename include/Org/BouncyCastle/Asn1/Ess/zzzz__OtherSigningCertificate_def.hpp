@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ess/OtherSigningCertificate.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ess\OtherSigningCertificate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,20 +41,20 @@ public:
   /// @brief Field policies, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_policies, put = __cordl_internal_set_policies)) ::Org::BouncyCastle::Asn1::Asn1Sequence* policies;
 
-  /// @brief Method GetCerts, addr 0x3377e80, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetCerts, addr 0x337bc40, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Ess::OtherCertID*> GetCerts();
 
-  /// @brief Method GetInstance, addr 0x3377b54, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x337b914, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate* GetInstance(::System::Object* o);
 
-  /// @brief Method GetPolicies, addr 0x3377f94, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetPolicies, addr 0x337bd54, size 0x11c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*> GetPolicies();
 
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate* New_ctor(::Org::BouncyCastle::Asn1::Ess::OtherCertID* otherCertID);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x33780b0, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x337be70, size 0x154, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_certs() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_policies(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x3377e18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337bbd8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::OtherCertID* otherCertID);
 
-  /// @brief Method .ctor, addr 0x3377cdc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337ba9c, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

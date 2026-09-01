@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderGlobalKeywords.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderGlobalKeywords.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -252,7 +252,7 @@ public:
   /// @brief Field _SURFACE_TYPE_TRANSPARENT, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF__SURFACE_TYPE_TRANSPARENT, put = setStaticF__SURFACE_TYPE_TRANSPARENT)) ::UnityEngine::Rendering::GlobalKeyword _SURFACE_TYPE_TRANSPARENT;
 
-  /// @brief Method InitializeShaderGlobalKeywords, addr 0x68df7a0, size 0x1090, virtual false, abstract: false, final false
+  /// @brief Method InitializeShaderGlobalKeywords, addr 0x68e721c, size 0x1090, virtual false, abstract: false, final false
   static inline void InitializeShaderGlobalKeywords();
 
   static inline ::UnityEngine::Rendering::GlobalKeyword getStaticF_AdditionalLightShadows();
@@ -578,7 +578,7 @@ public:
   ShaderGlobalKeywords(ShaderGlobalKeywords const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13045 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

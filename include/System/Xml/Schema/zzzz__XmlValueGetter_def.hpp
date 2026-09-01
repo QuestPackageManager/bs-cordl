@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlValueGetter.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlValueGetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlValueGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x62353f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x623ce6c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::Xml::Schema::XmlValueGetter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6235388, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x623ce04, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -48,7 +48,7 @@ public:
   XmlValueGetter(XmlValueGetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9824 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

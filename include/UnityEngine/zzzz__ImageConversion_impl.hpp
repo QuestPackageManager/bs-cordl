@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ImageConversion.hpp"
+// IWYU pragma private; include "UnityEngine\ImageConversion.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ImageConversion_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::UnityEngine::Texture2D*)>(&::UnityEngine::ImageConversion::EncodeToTGA)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6b35330;
+  constexpr static std::size_t addrs = 0x6b3ceb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::UnityEngine::Texture2D*)>(&::UnityEngine::ImageConversion::EncodeToPNG)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6b354c0;
+  constexpr static std::size_t addrs = 0x6b3d044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::UnityEngine::Texture2D*, int32_t)>(&::UnityEngine::ImageConversion::EncodeToJPG)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6b35650;
+  constexpr static std::size_t addrs = 0x6b3d1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::UnityEngine::Texture2D*)>(&::UnityEngine::ImageConversion::EncodeToJPG)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b35804;
+  constexpr static std::size_t addrs = 0x6b3d388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::UnityEngine::Texture2D*, ::UnityEngine::Texture2D_EXRFlags)>(&::UnityEngine::ImageConversion::EncodeToEXR)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6b3580c;
+  constexpr static std::size_t addrs = 0x6b3d390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Texture2D*, ::ArrayW<uint8_t>, bool)>(&::UnityEngine::ImageConversion::LoadImage)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6b359c0;
+  constexpr static std::size_t addrs = 0x6b3d544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Texture2D*, ::ArrayW<uint8_t>)>(&::UnityEngine::ImageConversion::LoadImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b35b48;
+  constexpr static std::size_t addrs = 0x6b3d6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ImageConversion*>(),
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::ImageConversion::EncodeToTGA_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b3547c;
+  constexpr static std::size_t addrs = 0x6b3d000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::ImageConversion::EncodeToPNG_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b3560c;
+  constexpr static std::size_t addrs = 0x6b3d190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
     &::UnityEngine::ImageConversion::EncodeToJPG_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b357b0;
+  constexpr static std::size_t addrs = 0x6b3d334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Texture2D_EXRFlags, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
     &::UnityEngine::ImageConversion::EncodeToEXR_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b3596c;
+  constexpr static std::size_t addrs = 0x6b3d4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, bool)>(&::UnityEngine::ImageConversion::LoadImage_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b35af4;
+  constexpr static std::size_t addrs = 0x6b3d678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NullAllowedIfAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\NullAllowedIfAttribute.hpp"
 #include "GlobalNamespace/zzzz__ComparisonOperation_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowedAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowedIfAttribute_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NullAllowedIfAttribute::*)(::StringW, ::System::Object*, ::GlobalNamespace::NullAllowedContext)>(
     &::GlobalNamespace::NullAllowedIfAttribute::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3307690;
+  constexpr static std::size_t addrs = 0x330b48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NullAllowedIfAttribute::*)(::StringW, ::GlobalNamespace::ComparisonOperation, ::System::Object*,
                                                                                                            ::GlobalNamespace::NullAllowedContext)>(&::GlobalNamespace::NullAllowedIfAttribute::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x33076a4;
+  constexpr static std::size_t addrs = 0x330b4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NullAllowedIfAttribute*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NullAllowedIfAttribute::*)(::System::Object*, ::GlobalNamespace::NullAllowedContext)>(
     &::GlobalNamespace::NullAllowedIfAttribute::IsNullAllowedForValue)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x33076b8;
+  constexpr static std::size_t addrs = 0x330b4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

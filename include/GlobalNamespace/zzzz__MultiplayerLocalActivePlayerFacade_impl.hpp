@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerFacade.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalActivePlayerFacade.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerStartState_impl.hpp"
 #include "UnityEngine/zzzz__GameObject_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -18,6 +18,7 @@
 #include "GlobalNamespace/zzzz__MultiplayerLocalActivePlayerIntroAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalActivePlayerFacade_Factory._ctor
 template <>
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade_Factory::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade_Factory::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59be444;
+  constexpr static std::size_t addrs = 0x59c6144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade_Factory*>(), { ".ctor", {}, {} })));
@@ -47,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator> (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::get_introAnimator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59be004;
+  constexpr static std::size_t addrs = 0x59c5b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::get_outroAnimator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59be00c;
+  constexpr static std::size_t addrs = 0x59c5b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IStartSeekSongController* (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::get_songController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59be014;
+  constexpr static std::size_t addrs = 0x59c5ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,11 +90,39 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LevelCompletionResults* (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::get_currentLocalPlayerLevelCompletionResult)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59be01c;
+  constexpr static std::size_t addrs = 0x59c5ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(), { "get_currentLocalPlayerLevelCompletionResult", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalActivePlayerFacade.add_playerWillBeInactivatedEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)(::System::Action*)>(
+    &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::add_playerWillBeInactivatedEvent)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x59c5bc8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(),
+                                                                                           { "add_playerWillBeInactivatedEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalActivePlayerFacade.remove_playerWillBeInactivatedEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)(::System::Action*)>(
+    &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::remove_playerWillBeInactivatedEvent)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x59c5c74;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(),
+                                                                                           { "remove_playerWillBeInactivatedEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
     return ___internal_method;
   }
 };
@@ -103,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::add_playerDidFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59be03c;
+  constexpr static std::size_t addrs = 0x59c5d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::remove_playerDidFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59be0fc;
+  constexpr static std::size_t addrs = 0x59c5de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::add_playerNetworkDidFailedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59be1bc;
+  constexpr static std::size_t addrs = 0x59c5ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::remove_playerNetworkDidFailedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59be27c;
+  constexpr static std::size_t addrs = 0x59c5f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::ReportPlayerDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59be33c;
+  constexpr static std::size_t addrs = 0x59c6020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::ReportPlayerNetworkDidFailed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59be358;
+  constexpr static std::size_t addrs = 0x59c603c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,15 +216,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalActivePlayerFacade.DisablePlayer
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalActivePlayerFacade.InactivatePlayer
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(&::GlobalNamespace::MultiplayerLocalActivePlayerFacade::DisablePlayer)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x59be374;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(&::GlobalNamespace::MultiplayerLocalActivePlayerFacade::InactivatePlayer)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x59c6058;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(), { "DisablePlayer", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(), { "InactivatePlayer", {}, {} })));
     return ___internal_method;
   }
 };
@@ -204,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(&::GlobalNamespace::MultiplayerLocalActivePlayerFacade::PauseSpawning)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59be3cc;
+  constexpr static std::size_t addrs = 0x59c60cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(), { "PauseSpawning", {}, {} })));
@@ -216,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(&::GlobalNamespace::MultiplayerLocalActivePlayerFacade::ResumeSpawning)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59be3e8;
+  constexpr static std::size_t addrs = 0x59c60e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(), { "ResumeSpawning", {}, {} })));
@@ -228,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(&::GlobalNamespace::MultiplayerLocalActivePlayerFacade::__ForceStopSong)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x59be404;
+  constexpr static std::size_t addrs = 0x59c6104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(), { "__ForceStopSong", {}, {} })));
@@ -241,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>> (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerFacade::__GetActiveOnlyGameObjects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59be438;
+  constexpr static std::size_t addrs = 0x59c6138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(&::GlobalNamespace::MultiplayerLocalActivePlayerFacade::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59be440;
+  constexpr static std::size_t addrs = 0x59c6140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(), { ".ctor", {}, {} })));
@@ -357,6 +386,18 @@ constexpr void GlobalNamespace::MultiplayerLocalActivePlayerFacade::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapCallbacksUpdater = value;
 }
+constexpr ::System::Action*& GlobalNamespace::MultiplayerLocalActivePlayerFacade::__cordl_internal_get_playerWillBeInactivatedEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___playerWillBeInactivatedEvent;
+}
+constexpr ::System::Action* const& GlobalNamespace::MultiplayerLocalActivePlayerFacade::__cordl_internal_get_playerWillBeInactivatedEvent() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___playerWillBeInactivatedEvent;
+}
+constexpr void GlobalNamespace::MultiplayerLocalActivePlayerFacade::__cordl_internal_set_playerWillBeInactivatedEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___playerWillBeInactivatedEvent = value;
+}
 constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& GlobalNamespace::MultiplayerLocalActivePlayerFacade::__cordl_internal_get_playerDidFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerDidFinishEvent;
@@ -399,6 +440,16 @@ inline ::GlobalNamespace::LevelCompletionResults* GlobalNamespace::MultiplayerLo
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(), { "get_currentLocalPlayerLevelCompletionResult", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LevelCompletionResults*>(this, ___internal_method);
 }
+inline void GlobalNamespace::MultiplayerLocalActivePlayerFacade::add_playerWillBeInactivatedEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(),
+                                                                                         { "add_playerWillBeInactivatedEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void GlobalNamespace::MultiplayerLocalActivePlayerFacade::remove_playerWillBeInactivatedEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(),
+                                                                                         { "remove_playerWillBeInactivatedEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 inline void GlobalNamespace::MultiplayerLocalActivePlayerFacade::add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(),
@@ -435,8 +486,8 @@ inline void GlobalNamespace::MultiplayerLocalActivePlayerFacade::ReportPlayerNet
                                                            { "ReportPlayerNetworkDidFailed", {}, { ::i2c::type_of<::GlobalNamespace::MultiplayerLevelCompletionResults*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, results);
 }
-inline void GlobalNamespace::MultiplayerLocalActivePlayerFacade::DisablePlayer() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(), { "DisablePlayer", {}, {} })));
+inline void GlobalNamespace::MultiplayerLocalActivePlayerFacade::InactivatePlayer() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerFacade*>(), { "InactivatePlayer", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerLocalActivePlayerFacade::PauseSpawning() {

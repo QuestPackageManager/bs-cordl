@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames/Analytics/Events/FunctionalLogger.hpp"
+// IWYU pragma private; include "BeatGames\Analytics\Events\FunctionalLogger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatGames/Analytics/Events/zzzz__FunctionalLogger_def.hpp"
 inline void BeatGames::Analytics::Events::FunctionalLogger::setStaticF_Navigation(::StringW value) {

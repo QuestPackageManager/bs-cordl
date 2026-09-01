@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/WebRequestPrefixElement.hpp"
+// IWYU pragma private; include "System\Net\WebRequestPrefixElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__WebRequestPrefixElement_def.hpp"
 #include "System/Net/zzzz__IWebRequestCreate_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IWebRequestCreate* (::System::Net::WebRequestPrefixElement::*)()>(&::System::Net::WebRequestPrefixElement::get_Creator)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x64069c0;
+  constexpr static std::size_t addrs = 0x640e43c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequestPrefixElement*>(), { "get_Creator", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequestPrefixElement::*)(::System::Net::IWebRequestCreate*)>(&::System::Net::WebRequestPrefixElement::set_Creator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6406ba8;
+  constexpr static std::size_t addrs = 0x640e624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequestPrefixElement::*)(::StringW, ::System::Net::IWebRequestCreate*)>(
     &::System::Net::WebRequestPrefixElement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6406bb0;
+  constexpr static std::size_t addrs = 0x640e62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequestPrefixElement*>(),

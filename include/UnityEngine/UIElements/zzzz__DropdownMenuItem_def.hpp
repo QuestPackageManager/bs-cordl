@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DropdownMenuItem.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DropdownMenuItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::DropdownMenuItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d8c2c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d93e44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

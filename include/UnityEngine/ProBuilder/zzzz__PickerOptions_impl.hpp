@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/PickerOptions.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\PickerOptions.hpp"
 #include "UnityEngine/ProBuilder/zzzz__RectSelectMode_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PickerOptions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::PickerOptions::*)()>(&::UnityEngine::ProBuilder::PickerOptions::get_depthTest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66dbbf4;
+  constexpr static std::size_t addrs = 0x66e3670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PickerOptions>(), { "get_depthTest", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PickerOptions::*)(bool)>(&::UnityEngine::ProBuilder::PickerOptions::set_depthTest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66dbbfc;
+  constexpr static std::size_t addrs = 0x66e3678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::RectSelectMode (::UnityEngine::ProBuilder::PickerOptions::*)()>(
     &::UnityEngine::ProBuilder::PickerOptions::get_rectSelectMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66dbc04;
+  constexpr static std::size_t addrs = 0x66e3680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PickerOptions>(), { "get_rectSelectMode", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PickerOptions::*)(::UnityEngine::ProBuilder::RectSelectMode)>(
     &::UnityEngine::ProBuilder::PickerOptions::set_rectSelectMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66dbc0c;
+  constexpr static std::size_t addrs = 0x66e3688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::PickerOptions (*)()>(&::UnityEngine::ProBuilder::PickerOptions::get_Default)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66dbc14;
+  constexpr static std::size_t addrs = 0x66e3690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PickerOptions>(), { "get_Default", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::PickerOptions::*)(::System::Object*)>(&::UnityEngine::ProBuilder::PickerOptions::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x66dbc70;
+  constexpr static std::size_t addrs = 0x66e36ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::PickerOptions::*)(::UnityEngine::ProBuilder::PickerOptions)>(
     &::UnityEngine::ProBuilder::PickerOptions::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x66dbd24;
+  constexpr static std::size_t addrs = 0x66e37a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::PickerOptions::*)()>(&::UnityEngine::ProBuilder::PickerOptions::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x66dbdc8;
+  constexpr static std::size_t addrs = 0x66e3844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::PickerOptions, ::UnityEngine::ProBuilder::PickerOptions)>(
     &::UnityEngine::ProBuilder::PickerOptions::op_Equality)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66dbe44;
+  constexpr static std::size_t addrs = 0x66e38c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::PickerOptions, ::UnityEngine::ProBuilder::PickerOptions)>(
     &::UnityEngine::ProBuilder::PickerOptions::op_Inequality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x66dbeb4;
+  constexpr static std::size_t addrs = 0x66e3930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

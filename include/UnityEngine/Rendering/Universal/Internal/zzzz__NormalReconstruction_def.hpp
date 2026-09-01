@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/NormalReconstruction.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\NormalReconstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,16 +40,16 @@ public:
   /// @brief Field s_NormalReconstructionMatrixID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_NormalReconstructionMatrixID, put = setStaticF_s_NormalReconstructionMatrixID)) int32_t s_NormalReconstructionMatrixID;
 
-  /// @brief Method SetupProperties, addr 0x68f0d68, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x68f87e4, size 0xa8, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method SetupProperties, addr 0x68f09bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x68f8438, size 0xa4, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method SetupProperties, addr 0x68f0a60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x68f84dc, size 0x90, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method SetupProperties, addr 0x68f0af0, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x68f856c, size 0x278, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4> getStaticF_s_NormalReconstructionMatrix();
@@ -75,7 +75,7 @@ public:
   NormalReconstruction(NormalReconstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13069 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

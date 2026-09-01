@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/InputFeatureUsage.hpp"
+// IWYU pragma private; include "UnityEngine\XR\InputFeatureUsage.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,19 +38,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>*();
 
-  /// @brief Method Equals, addr 0x6e2f754, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e372d8, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e2f7dc, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e37360, size 0x3c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::InputFeatureUsage other);
 
-  /// @brief Method GetHashCode, addr 0x6e2f818, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e3739c, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_internalType, addr 0x6e2f74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_internalType, addr 0x6e372d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::InputFeatureType get_internalType();
 
-  /// @brief Method get_name, addr 0x6e2f744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6e372c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>"
@@ -65,7 +65,7 @@ public:
   constexpr InputFeatureUsage(::StringW m_Name, ::UnityEngine::XR::InputFeatureType m_InternalType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22164 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScoreMultiplierCounter.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScoreMultiplierCounter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +66,7 @@ public:
   static ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType const Positive;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15250 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -106,10 +106,10 @@ public:
 
   static inline ::GlobalNamespace::ScoreMultiplierCounter* New_ctor();
 
-  /// @brief Method ProcessMultiplierEvent, addr 0x374f854, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ProcessMultiplierEvent, addr 0x3755484, size 0x90, virtual false, abstract: false, final false
   inline bool ProcessMultiplierEvent(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType multiplierEventType);
 
-  /// @brief Method Reset, addr 0x374f83c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x375546c, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__multiplier() const;
@@ -130,13 +130,13 @@ public:
 
   constexpr void __cordl_internal_set__multiplierIncreaseProgress(int32_t value);
 
-  /// @brief Method .ctor, addr 0x374fea0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3755ad0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_multiplier, addr 0x374ff88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x3755bb8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multiplier();
 
-  /// @brief Method get_normalizedProgress, addr 0x374ff90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedProgress, addr 0x3755bc0, size 0x14, virtual false, abstract: false, final false
   inline float_t get_normalizedProgress();
 
 protected:
@@ -154,7 +154,7 @@ public:
   ScoreMultiplierCounter(ScoreMultiplierCounter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15251 };
 
   /// @brief Field _multiplier, offset: 0x10, size: 0x4, def value: None
   int32_t ____multiplier;

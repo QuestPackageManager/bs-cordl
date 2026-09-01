@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/ChameleonKey.hpp"
+// IWYU pragma private; include "System\Xml\Schema\ChameleonKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +42,10 @@ public:
   /// @brief Field targetNS, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_targetNS, put = __cordl_internal_set_targetNS)) ::StringW targetNS;
 
-  /// @brief Method Equals, addr 0x6313af0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x631b56c, size 0xe0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x6313a6c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x631b4e8, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Xml::Schema::ChameleonKey* New_ctor(::StringW ns, ::System::Xml::Schema::XmlSchema* originalSchema);
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_targetNS(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6313a0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631b488, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW ns, ::System::Xml::Schema::XmlSchema* originalSchema);
 
 protected:
@@ -92,7 +92,7 @@ public:
   ChameleonKey(ChameleonKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9575 };
 
   /// @brief Field targetNS, offset: 0x10, size: 0x8, def value: None
   ::StringW ___targetNS;

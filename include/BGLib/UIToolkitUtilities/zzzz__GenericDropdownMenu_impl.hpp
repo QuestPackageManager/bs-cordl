@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UIToolkitUtilities/GenericDropdownMenu.hpp"
+// IWYU pragma private; include "BGLib\UIToolkitUtilities\GenericDropdownMenu.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/UIToolkitUtilities/zzzz__GenericDropdownMenu_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)()>(&::BGLib::UIToolkitUtilities::GenericDropdownMenu::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c10f18;
+  constexpr static std::size_t addrs = 0x6c18a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UIToolkitUtilities::GenericDropdownMenu*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::StringW, bool, ::System::Action*)>(
     &::BGLib::UIToolkitUtilities::GenericDropdownMenu::AddItem)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6c10f74;
+  constexpr static std::size_t addrs = 0x6c18af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::StringW, bool, ::System::Action_1<::System::Object*>*, ::System::Object*)>(
     &::BGLib::UIToolkitUtilities::GenericDropdownMenu::AddItem)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c10fa8;
+  constexpr static std::size_t addrs = 0x6c18b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::StringW, bool)>(
     &::BGLib::UIToolkitUtilities::GenericDropdownMenu::AddDisabledItem)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c10fd8;
+  constexpr static std::size_t addrs = 0x6c18b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::StringW)>(&::BGLib::UIToolkitUtilities::GenericDropdownMenu::AddSeparator)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c10ff8;
+  constexpr static std::size_t addrs = 0x6c18b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*, bool)>(
     &::BGLib::UIToolkitUtilities::GenericDropdownMenu::DropDown)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c11010;
+  constexpr static std::size_t addrs = 0x6c18b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::StringW, bool)>(&::BGLib::UIToolkitUtilities::GenericDropdownMenu::UpdateItem)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c1102c;
+  constexpr static std::size_t addrs = 0x6c18bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

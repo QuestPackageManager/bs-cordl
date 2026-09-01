@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SaberBurnMarkArea.hpp"
+// IWYU pragma private; include "GlobalNamespace\SaberBurnMarkArea.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,6 +58,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE SaberBurnMarkArea : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _anyActive, offset 0x9c, size 0x1
+  __declspec(property(get = __cordl_internal_get__anyActive, put = __cordl_internal_set__anyActive)) bool _anyActive;
+
   /// @brief Field _aspectShaderPropertyID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__aspectShaderPropertyID, put = setStaticF__aspectShaderPropertyID)) int32_t _aspectShaderPropertyID;
 
@@ -67,8 +70,8 @@ public:
   /// @brief Field _bounds, offset 0x40, size 0x18
   __declspec(property(get = __cordl_internal_get__bounds, put = __cordl_internal_set__bounds)) ::UnityEngine::Bounds _bounds;
 
-  /// @brief Field _burnMarksFadeOutStrength, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__burnMarksFadeOutStrength, put = __cordl_internal_set__burnMarksFadeOutStrength)) float_t _burnMarksFadeOutStrength;
+  /// @brief Field _burnMarksFadeOutDurationSeconds, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__burnMarksFadeOutDurationSeconds, put = __cordl_internal_set__burnMarksFadeOutDurationSeconds)) float_t _burnMarksFadeOutDurationSeconds;
 
   /// @brief Field _disableBlitTimer, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get__disableBlitTimer, put = __cordl_internal_set__disableBlitTimer)) float_t _disableBlitTimer;
@@ -118,23 +121,27 @@ public:
   /// @brief Field kBufferNames, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_kBufferNames, put = __cordl_internal_set_kBufferNames)) ::ArrayW<::StringW> kBufferNames;
 
-  /// @brief Method GetBurnMarkPos, addr 0x59836e0, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x5987084, size 0x32c, virtual false, abstract: false, final false
   static inline bool GetBurnMarkPos(::UnityEngine::Transform* transform, ::by_ref<::UnityEngine::Bounds> bounds, ::by_ref<::UnityEngine::Plane> plane, ::UnityEngine::Vector3 bladeBottomPos,
                                     ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method Initialize, addr 0x5982ad8, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x598646c, size 0x444, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::SaberManager* saberManager, ::GlobalNamespace::ColorManager* colorManager);
 
-  /// @brief Method LateUpdate, addr 0x5983074, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5986a08, size 0x67c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkArea* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5982f1c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59868b0, size 0x158, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method WorldToNormalized, addr 0x5983a0c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WorldToNormalized, addr 0x59873b0, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 WorldToNormalized(::UnityEngine::Vector3 worldPos);
+
+  constexpr bool const& __cordl_internal_get__anyActive() const;
+
+  constexpr bool& __cordl_internal_get__anyActive();
 
   constexpr float_t const& __cordl_internal_get__aspectXZ() const;
 
@@ -144,9 +151,9 @@ public:
 
   constexpr ::UnityEngine::Bounds& __cordl_internal_get__bounds();
 
-  constexpr float_t const& __cordl_internal_get__burnMarksFadeOutStrength() const;
+  constexpr float_t const& __cordl_internal_get__burnMarksFadeOutDurationSeconds() const;
 
-  constexpr float_t& __cordl_internal_get__burnMarksFadeOutStrength();
+  constexpr float_t& __cordl_internal_get__burnMarksFadeOutDurationSeconds();
 
   constexpr float_t const& __cordl_internal_get__disableBlitTimer() const;
 
@@ -196,11 +203,13 @@ public:
 
   constexpr ::ArrayW<::StringW>& __cordl_internal_get_kBufferNames();
 
+  constexpr void __cordl_internal_set__anyActive(bool value);
+
   constexpr void __cordl_internal_set__aspectXZ(float_t value);
 
   constexpr void __cordl_internal_set__bounds(::UnityEngine::Bounds value);
 
-  constexpr void __cordl_internal_set__burnMarksFadeOutStrength(float_t value);
+  constexpr void __cordl_internal_set__burnMarksFadeOutDurationSeconds(float_t value);
 
   constexpr void __cordl_internal_set__disableBlitTimer(float_t value);
 
@@ -226,7 +235,7 @@ public:
 
   constexpr void __cordl_internal_set_kBufferNames(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x5983a70, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5987414, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__aspectShaderPropertyID();
@@ -269,9 +278,6 @@ public:
   /// @brief Field kBufferCount offset 0xffffffff size 0x4
   static constexpr int32_t kBufferCount{ static_cast<int32_t>(0x2) };
 
-  /// @brief Field kDisableBlitAfterSecondsThreshold offset 0xffffffff size 0x4
-  static constexpr float_t kDisableBlitAfterSecondsThreshold{ static_cast<float_t>(5.0f) };
-
   /// @brief Field kSaberCount offset 0xffffffff size 0x4
   static constexpr int32_t kSaberCount{ static_cast<int32_t>(0x2) };
 
@@ -284,8 +290,8 @@ public:
   /// @brief Field _textureHeight, offset: 0x24, size: 0x4, def value: None
   int32_t ____textureHeight;
 
-  /// @brief Field _burnMarksFadeOutStrength, offset: 0x28, size: 0x4, def value: None
-  float_t ____burnMarksFadeOutStrength;
+  /// @brief Field _burnMarksFadeOutDurationSeconds, offset: 0x28, size: 0x4, def value: None
+  float_t ____burnMarksFadeOutDurationSeconds;
 
   /// @brief Field _fadeOutShader, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____fadeOutShader;
@@ -323,6 +329,9 @@ public:
   /// @brief Field _disableBlitTimer, offset: 0x98, size: 0x4, def value: None
   float_t ____disableBlitTimer;
 
+  /// @brief Field _anyActive, offset: 0x9c, size: 0x1, def value: None
+  bool ____anyActive;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -330,7 +339,7 @@ static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____textureWidth) =
 
 static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____textureHeight) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____burnMarksFadeOutStrength) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____burnMarksFadeOutDurationSeconds) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____fadeOutShader) == 0x30, "Offset mismatch!");
 
@@ -355,6 +364,8 @@ static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____prevBurnMarkPos
 static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____renderTextures) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____disableBlitTimer) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____anyActive) == 0x9c, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::SaberBurnMarkArea) == 0xa0, "Size mismatch!");
 

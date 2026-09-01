@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/TypeHandleRef.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\TypeHandleRef.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__RuntimeTypeHandle_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__TypeHandleRef_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::TypeHandleRef::*)()>(&::System::Runtime::Serialization::TypeHandleRef::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61402e4;
+  constexpr static std::size_t addrs = 0x6147d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::TypeHandleRef*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::TypeHandleRef::*)(::System::RuntimeTypeHandle)>(
     &::System::Runtime::Serialization::TypeHandleRef::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6140f0c;
+  constexpr static std::size_t addrs = 0x6148988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::RuntimeTypeHandle (::System::Runtime::Serialization::TypeHandleRef::*)()>(
     &::System::Runtime::Serialization::TypeHandleRef::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6143a94;
+  constexpr static std::size_t addrs = 0x614b510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::TypeHandleRef*>(), { "get_Value", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::TypeHandleRef::*)(::System::RuntimeTypeHandle)>(
     &::System::Runtime::Serialization::TypeHandleRef::set_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6143a9c;
+  constexpr static std::size_t addrs = 0x614b518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelMultiHashMap_2.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelMultiHashMap_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -231,7 +231,7 @@ public:
   constexpr UnsafeParallelMultiHashMap_2(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer, ::Unity::Collections::AllocatorManager_AllocatorHandle m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15812 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -306,7 +306,7 @@ public:
                                                     ::Unity::Collections::NativeParallelMultiHashMapIterator_1<TKey> iterator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15808 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -356,7 +356,7 @@ public:
   constexpr UnsafeParallelMultiHashMap_2_ParallelWriter(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData* m_Buffer, int32_t m_ThreadIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15809 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -426,7 +426,7 @@ public:
   constexpr UnsafeParallelMultiHashMap_2_KeyValueEnumerator(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator m_Enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15810 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -518,7 +518,7 @@ public:
   constexpr UnsafeParallelMultiHashMap_2_ReadOnly(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelMultiHashMap_2<TKey, TValue> m_MultiHashMapData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15811 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

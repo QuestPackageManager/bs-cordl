@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/HMDDeviceDetector.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\HMDDeviceDetector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,7 @@ namespace BeatSaber::Analytics::Gameplay {
 class CORDL_TYPE HMDDeviceDetector : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DetectHMDPlatform, addr 0x32607b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DetectHMDPlatform, addr 0x3263ab4, size 0xa0, virtual false, abstract: false, final false
   static inline ::StringW DetectHMDPlatform();
 
 protected:
@@ -38,7 +38,7 @@ public:
   HMDDeviceDetector(HMDDeviceDetector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

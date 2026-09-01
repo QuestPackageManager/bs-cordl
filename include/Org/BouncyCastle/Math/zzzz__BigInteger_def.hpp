@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/BigInteger.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\BigInteger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,177 +132,177 @@ public:
   /// @brief Field sign, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_sign, put = __cordl_internal_set_sign)) int32_t sign;
 
-  /// @brief Method Abs, addr 0x3564c4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x3568a0c, size 0x10, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Abs();
 
-  /// @brief Method Add, addr 0x356416c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3567f2c, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Add(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method AddMagnitudes, addr 0x3564ccc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddMagnitudes, addr 0x3568a8c, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> AddMagnitudes(::ArrayW<int32_t> a, ::ArrayW<int32_t> b);
 
-  /// @brief Method AddToMagnitude, addr 0x3564ec4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AddToMagnitude, addr 0x3568c84, size 0x174, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* AddToMagnitude(::ArrayW<int32_t> magToAdd);
 
-  /// @brief Method And, addr 0x3565038, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method And, addr 0x3568df8, size 0x280, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* And(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method AndNot, addr 0x35652d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AndNot, addr 0x3569090, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* AndNot(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method AppendZeroExtendedString, addr 0x356ad34, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AppendZeroExtendedString, addr 0x356eaf4, size 0x50, virtual false, abstract: false, final false
   static inline void AppendZeroExtendedString(::System::Text::StringBuilder* sb, ::StringW s, int32_t minLength);
 
-  /// @brief Method Arbitrary, addr 0x3563750, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Arbitrary, addr 0x3567510, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* Arbitrary(int32_t sizeInBits);
 
-  /// @brief Method BitCnt, addr 0x3565400, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method BitCnt, addr 0x35691c0, size 0x34, virtual false, abstract: false, final false
   static inline int32_t BitCnt(int32_t i);
 
-  /// @brief Method BitLen, addr 0x3565568, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method BitLen, addr 0x3569328, size 0x150, virtual false, abstract: false, final false
   static inline int32_t BitLen(int32_t w);
 
-  /// @brief Method CalcBitLength, addr 0x3565434, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CalcBitLength, addr 0x35691f4, size 0x134, virtual false, abstract: false, final false
   static inline int32_t CalcBitLength(int32_t sign, int32_t indx, ::ArrayW<int32_t> mag);
 
-  /// @brief Method CheckProbablePrime, addr 0x3564a68, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CheckProbablePrime, addr 0x3568828, size 0x1e4, virtual false, abstract: false, final false
   inline bool CheckProbablePrime(int32_t certainty, ::System::Random* random, bool randomlySelected);
 
-  /// @brief Method ClearBit, addr 0x356b69c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ClearBit, addr 0x356f45c, size 0x12c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ClearBit(int32_t n);
 
-  /// @brief Method CompareNoLeadingZeroes, addr 0x3565924, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CompareNoLeadingZeroes, addr 0x35696e4, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t CompareNoLeadingZeroes(int32_t xIndx, ::ArrayW<int32_t> x, int32_t yIndx, ::ArrayW<int32_t> y);
 
-  /// @brief Method CompareTo, addr 0x35656dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x356949c, size 0x90, virtual false, abstract: false, final false
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method CompareTo, addr 0x356576c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x356952c, size 0xb8, virtual false, abstract: false, final false
   inline int32_t CompareTo(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method CompareTo, addr 0x3565824, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x35695e4, size 0x100, virtual false, abstract: false, final false
   static inline int32_t CompareTo(int32_t xIndx, ::ArrayW<int32_t> x, int32_t yIndx, ::ArrayW<int32_t> y);
 
-  /// @brief Method CreateUValueOf, addr 0x3563354, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateUValueOf, addr 0x3567114, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CreateUValueOf(uint64_t value);
 
-  /// @brief Method CreateValueOf, addr 0x356b01c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateValueOf, addr 0x356eddc, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CreateValueOf(int64_t value);
 
-  /// @brief Method CreateWindowEntry, addr 0x3569758, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CreateWindowEntry, addr 0x356d518, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t CreateWindowEntry(int32_t mult, int32_t zeroes);
 
-  /// @brief Method Divide, addr 0x35659c8, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0x3569788, size 0x4dc, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> Divide(::ArrayW<int32_t> x, ::ArrayW<int32_t> y);
 
-  /// @brief Method Divide, addr 0x3566288, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0x356a048, size 0x1e8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Divide(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method DivideAndRemainder, addr 0x3566470, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method DivideAndRemainder, addr 0x356a230, size 0x32c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*> DivideAndRemainder(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method DivideWords, addr 0x3568be0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DivideWords, addr 0x356c9a0, size 0xf8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* DivideWords(int32_t w);
 
-  /// @brief Method Equals, addr 0x35668f0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x356a6b0, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method ExtEuclid, addr 0x3567f8c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ExtEuclid, addr 0x356bd4c, size 0x118, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ExtEuclid(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b,
                                                                  ::by_ref<::Org::BouncyCastle::Math::BigInteger*> u1Out);
 
-  /// @brief Method FlipBit, addr 0x356b7c8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method FlipBit, addr 0x356f588, size 0x108, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* FlipBit(int32_t n);
 
-  /// @brief Method FlipExistingBit, addr 0x356b5a8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method FlipExistingBit, addr 0x356f368, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* FlipExistingBit(int32_t n);
 
-  /// @brief Method Gcd, addr 0x3566a28, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Gcd, addr 0x356a7e8, size 0x5c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Gcd(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method GetByteLength, addr 0x3563738, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x35674f8, size 0x18, virtual false, abstract: false, final false
   static inline int32_t GetByteLength(int32_t nBits);
 
-  /// @brief Method GetHashCode, addr 0x3566b10, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x356a8d0, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetLowestSetBit, addr 0x356b0d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLowestSetBit, addr 0x356ee90, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetLowestSetBit();
 
-  /// @brief Method GetLowestSetBitMaskFirst, addr 0x35672b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetLowestSetBitMaskFirst, addr 0x356b078, size 0x94, virtual false, abstract: false, final false
   inline int32_t GetLowestSetBitMaskFirst(int32_t firstWordMask);
 
-  /// @brief Method GetMQuote, addr 0x3568dac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetMQuote, addr 0x356cb6c, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetMQuote();
 
-  /// @brief Method GetWindowList, addr 0x35689d4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetWindowList, addr 0x356c794, size 0x20c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> GetWindowList(::ArrayW<int32_t> mag, int32_t extraBits);
 
-  /// @brief Method Inc, addr 0x3566b60, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Inc, addr 0x356a920, size 0x104, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Inc();
 
-  /// @brief Method IsEqualMagnitude, addr 0x35669ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsEqualMagnitude, addr 0x356a76c, size 0x7c, virtual false, abstract: false, final false
   inline bool IsEqualMagnitude(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method IsProbablePrime, addr 0x3566d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsProbablePrime, addr 0x356ab4c, size 0x8, virtual false, abstract: false, final false
   inline bool IsProbablePrime(int32_t certainty);
 
-  /// @brief Method IsProbablePrime, addr 0x3566d94, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method IsProbablePrime, addr 0x356ab54, size 0x130, virtual false, abstract: false, final false
   inline bool IsProbablePrime(int32_t certainty, bool randomlySelected);
 
-  /// @brief Method LastNBits, addr 0x356679c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method LastNBits, addr 0x356a55c, size 0x154, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> LastNBits(int32_t n);
 
-  /// @brief Method MakeMagnitude, addr 0x356448c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method MakeMagnitude, addr 0x356824c, size 0x198, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> MakeMagnitude(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length);
 
-  /// @brief Method Max, addr 0x3567bc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x356b980, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Max(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method Min, addr 0x3567be8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x356b9a8, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Min(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method Mod, addr 0x3566a84, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x356a844, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Mod(::Org::BouncyCastle::Math::BigInteger* m);
 
-  /// @brief Method ModInverse, addr 0x3567c10, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ModInverse, addr 0x356b9d0, size 0x168, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModInverse(::Org::BouncyCastle::Math::BigInteger* m);
 
-  /// @brief Method ModInverse32, addr 0x35680dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ModInverse32, addr 0x356be9c, size 0x30, virtual false, abstract: false, final false
   static inline int32_t ModInverse32(int32_t d);
 
-  /// @brief Method ModInverse64, addr 0x35680a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ModInverse64, addr 0x356be64, size 0x38, virtual false, abstract: false, final false
   static inline int64_t ModInverse64(int64_t d);
 
-  /// @brief Method ModInversePow2, addr 0x3567d78, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ModInversePow2, addr 0x356bb38, size 0x214, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModInversePow2(::Org::BouncyCastle::Math::BigInteger* m);
 
-  /// @brief Method ModPow, addr 0x3568128, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method ModPow, addr 0x356bee8, size 0x21c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ModPow(::Org::BouncyCastle::Math::BigInteger* e, ::Org::BouncyCastle::Math::BigInteger* m);
 
-  /// @brief Method ModPowBarrett, addr 0x3568344, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method ModPowBarrett, addr 0x356c104, size 0x448, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ModPowBarrett(::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* e, ::Org::BouncyCastle::Math::BigInteger* m);
 
-  /// @brief Method ModPowMonty, addr 0x356759c, size 0x5bc, virtual false, abstract: false, final false
+  /// @brief Method ModPowMonty, addr 0x356b35c, size 0x5bc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ModPowMonty(::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* e, ::Org::BouncyCastle::Math::BigInteger* m,
                                                                    bool convert);
 
-  /// @brief Method MontgomeryReduce, addr 0x35695fc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method MontgomeryReduce, addr 0x356d3bc, size 0x15c, virtual false, abstract: false, final false
   static inline void MontgomeryReduce(::ArrayW<int32_t> x, ::ArrayW<int32_t> m, uint32_t mDash);
 
-  /// @brief Method Multiply, addr 0x3569900, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x356d6c0, size 0xdc, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> Multiply(::ArrayW<int32_t> x, ::ArrayW<int32_t> y, ::ArrayW<int32_t> z);
 
-  /// @brief Method Multiply, addr 0x3563f9c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x3567d5c, size 0x1d0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Multiply(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method MultiplyMonty, addr 0x3569298, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method MultiplyMonty, addr 0x356d058, size 0x364, virtual false, abstract: false, final false
   static inline void MultiplyMonty(::ArrayW<int32_t> a, ::ArrayW<int32_t> x, ::ArrayW<int32_t> y, ::ArrayW<int32_t> m, uint32_t mDash, bool smallMontyModulus);
 
-  /// @brief Method MultiplyMontyNIsOne, addr 0x35699dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method MultiplyMontyNIsOne, addr 0x356d79c, size 0x2c, virtual false, abstract: false, final false
   static inline uint32_t MultiplyMontyNIsOne(uint32_t x, uint32_t y, uint32_t m, uint32_t mDash);
 
-  /// @brief Method Negate, addr 0x3564c5c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Negate, addr 0x3568a1c, size 0x70, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Negate();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* New_ctor(int32_t bitLength, int32_t certainty, ::System::Random* random);
@@ -323,110 +323,110 @@ public:
 
   static inline ::Org::BouncyCastle::Math::BigInteger* New_ctor(::StringW value);
 
-  /// @brief Method NextProbablePrime, addr 0x3569a08, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method NextProbablePrime, addr 0x356d7c8, size 0x154, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextProbablePrime();
 
-  /// @brief Method Not, addr 0x35652b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Not, addr 0x3569078, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Not();
 
-  /// @brief Method Or, addr 0x356b0e8, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Or, addr 0x356eea8, size 0x264, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Or(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method Pow, addr 0x3563570, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Pow, addr 0x3567330, size 0x1c8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Pow(int32_t exp);
 
-  /// @brief Method ProbablePrime, addr 0x3569c88, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ProbablePrime, addr 0x356da48, size 0x70, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ProbablePrime(int32_t bitLength, ::System::Random* random);
 
-  /// @brief Method QuickPow2Check, addr 0x35656b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method QuickPow2Check, addr 0x3569478, size 0x24, virtual false, abstract: false, final false
   inline bool QuickPow2Check();
 
-  /// @brief Method RabinMillerTest, addr 0x35672b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RabinMillerTest, addr 0x356b070, size 0x8, virtual false, abstract: false, final false
   inline bool RabinMillerTest(int32_t certainty, ::System::Random* random);
 
-  /// @brief Method RabinMillerTest, addr 0x3567004, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method RabinMillerTest, addr 0x356adc4, size 0x2ac, virtual false, abstract: false, final false
   inline bool RabinMillerTest(int32_t certainty, ::System::Random* random, bool randomlySelected);
 
-  /// @brief Method ReduceBarrett, addr 0x35688c4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReduceBarrett, addr 0x356c684, size 0x110, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ReduceBarrett(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* m, ::Org::BouncyCastle::Math::BigInteger* mr,
                                                                      ::Org::BouncyCastle::Math::BigInteger* yu);
 
-  /// @brief Method Remainder, addr 0x3569cf8, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method Remainder, addr 0x356dab8, size 0x3b0, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> Remainder(::ArrayW<int32_t> x, ::ArrayW<int32_t> y);
 
-  /// @brief Method Remainder, addr 0x356734c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Remainder, addr 0x356b10c, size 0x250, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Remainder(::Org::BouncyCastle::Math::BigInteger* n);
 
-  /// @brief Method Remainder, addr 0x3566f9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Remainder, addr 0x356ad5c, size 0x68, virtual false, abstract: false, final false
   inline int32_t Remainder(int32_t m);
 
-  /// @brief Method RemainderWords, addr 0x3568cd8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RemainderWords, addr 0x356ca98, size 0xd4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* RemainderWords(int32_t w);
 
-  /// @brief Method SetBit, addr 0x3569b5c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetBit, addr 0x356d91c, size 0x12c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* SetBit(int32_t n);
 
-  /// @brief Method ShiftLeft, addr 0x3565ea4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0x3569c64, size 0x18c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> ShiftLeft(::ArrayW<int32_t> mag, int32_t n);
 
-  /// @brief Method ShiftLeft, addr 0x3563e64, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0x3567c24, size 0x138, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ShiftLeft(int32_t n);
 
-  /// @brief Method ShiftLeftOneInPlace, addr 0x356a0a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeftOneInPlace, addr 0x356de68, size 0x58, virtual false, abstract: false, final false
   static inline int32_t ShiftLeftOneInPlace(::ArrayW<int32_t> x, int32_t carry);
 
-  /// @brief Method ShiftRight, addr 0x355dd38, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0x3561af8, size 0x1f4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ShiftRight(int32_t n);
 
-  /// @brief Method ShiftRightInPlace, addr 0x356616c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ShiftRightInPlace, addr 0x3569f2c, size 0x11c, virtual false, abstract: false, final false
   static inline void ShiftRightInPlace(int32_t start, ::ArrayW<int32_t> mag, int32_t n);
 
-  /// @brief Method ShiftRightOneInPlace, addr 0x35660d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ShiftRightOneInPlace, addr 0x3569e90, size 0x9c, virtual false, abstract: false, final false
   static inline void ShiftRightOneInPlace(int32_t start, ::ArrayW<int32_t> mag);
 
-  /// @brief Method Square, addr 0x3569774, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x356d534, size 0x18c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> Square(::ArrayW<int32_t> w, ::ArrayW<int32_t> x);
 
-  /// @brief Method Square, addr 0x356878c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x356c54c, size 0x138, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Square();
 
-  /// @brief Method SquareMonty, addr 0x3568e60, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method SquareMonty, addr 0x356cc20, size 0x438, virtual false, abstract: false, final false
   static inline void SquareMonty(::ArrayW<int32_t> a, ::ArrayW<int32_t> x, ::ArrayW<int32_t> m, uint32_t mDash, bool smallMontyModulus);
 
-  /// @brief Method Subtract, addr 0x3566030, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x3569df0, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> Subtract(int32_t xStart, ::ArrayW<int32_t> x, int32_t yStart, ::ArrayW<int32_t> y);
 
-  /// @brief Method Subtract, addr 0x3564d70, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x3568b30, size 0x154, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Subtract(::Org::BouncyCastle::Math::BigInteger* n);
 
-  /// @brief Method TestBit, addr 0x3566ec4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method TestBit, addr 0x356ac84, size 0xd8, virtual false, abstract: false, final false
   inline bool TestBit(int32_t n);
 
-  /// @brief Method ToByteArray, addr 0x356a108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToByteArray, addr 0x356dec8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ToByteArray();
 
-  /// @brief Method ToByteArray, addr 0x356a110, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method ToByteArray, addr 0x356ded0, size 0x3e8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ToByteArray(bool _cordl_unsigned);
 
-  /// @brief Method ToByteArrayUnsigned, addr 0x356a4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToByteArrayUnsigned, addr 0x356e2b8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> ToByteArrayUnsigned();
 
-  /// @brief Method ToString, addr 0x356a500, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x356e2c0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x356a508, size 0x82c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x356e2c8, size 0x82c, virtual false, abstract: false, final false
   inline ::StringW ToString(int32_t radix);
 
-  /// @brief Method ToString, addr 0x356ad84, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x356eb44, size 0x298, virtual false, abstract: false, final false
   static inline void ToString(::System::Text::StringBuilder* sb, int32_t radix, ::System::Collections::IList* moduli, int32_t scale, ::Org::BouncyCastle::Math::BigInteger* pos);
 
-  /// @brief Method ValueOf, addr 0x3563494, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ValueOf, addr 0x3567254, size 0xdc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ValueOf(int64_t value);
 
-  /// @brief Method Xor, addr 0x356b34c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x356f10c, size 0x25c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Xor(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method ZeroOut, addr 0x356810c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ZeroOut, addr 0x356becc, size 0x1c, virtual false, abstract: false, final false
   static inline void ZeroOut(::ArrayW<int32_t> x);
 
   constexpr int32_t const& __cordl_internal_get_mQuote() const;
@@ -459,34 +459,34 @@ public:
 
   constexpr void __cordl_internal_set_sign(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3564754, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3568514, size 0x314, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitLength, int32_t certainty, ::System::Random* random);
 
-  /// @brief Method .ctor, addr 0x35641f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3567fb8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method .ctor, addr 0x3564210, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3567fd0, size 0x27c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> bytes, int32_t offset, int32_t length);
 
-  /// @brief Method .ctor, addr 0x3560554, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3564314, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t sign, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method .ctor, addr 0x3564624, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35683e4, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(int32_t sign, ::ArrayW<uint8_t> bytes, int32_t offset, int32_t length);
 
-  /// @brief Method .ctor, addr 0x3563208, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3566fc8, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(int32_t signum, ::ArrayW<int32_t> mag, bool checkMag);
 
-  /// @brief Method .ctor, addr 0x35637c8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3567588, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(int32_t sizeInBits, ::System::Random* random);
 
-  /// @brief Method .ctor, addr 0x356396c, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356772c, size 0x4f8, virtual false, abstract: false, final false
   inline void _ctor(::StringW str, int32_t radix);
 
-  /// @brief Method .ctor, addr 0x3563964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3567724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method doSubBigLil, addr 0x3566c64, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method doSubBigLil, addr 0x356aa24, size 0xc0, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> doSubBigLil(::ArrayW<int32_t> bigMag, ::ArrayW<int32_t> lilMag);
 
   static inline ::ArrayW<uint8_t> getStaticF_BitLengthTable();
@@ -533,25 +533,25 @@ public:
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_radix8E();
 
-  /// @brief Method get_BitCount, addr 0x35652f8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_BitCount, addr 0x35690b8, size 0x108, virtual false, abstract: false, final false
   inline int32_t get_BitCount();
 
-  /// @brief Method get_BitLength, addr 0x355dc64, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_BitLength, addr 0x3561a24, size 0x88, virtual false, abstract: false, final false
   inline int32_t get_BitLength();
 
-  /// @brief Method get_IntValue, addr 0x355dcec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IntValue, addr 0x3561aac, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_IntValue();
 
-  /// @brief Method get_IntValueExact, addr 0x3566d24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_IntValueExact, addr 0x356aae4, size 0x68, virtual false, abstract: false, final false
   inline int32_t get_IntValueExact();
 
-  /// @brief Method get_LongValue, addr 0x355dfec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_LongValue, addr 0x3561dac, size 0x64, virtual false, abstract: false, final false
   inline int64_t get_LongValue();
 
-  /// @brief Method get_LongValueExact, addr 0x3567b58, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_LongValueExact, addr 0x356b918, size 0x68, virtual false, abstract: false, final false
   inline int64_t get_LongValueExact();
 
-  /// @brief Method get_SignValue, addr 0x356a100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignValue, addr 0x356dec0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SignValue();
 
   static inline void setStaticF_BitLengthTable(::ArrayW<uint8_t> value);

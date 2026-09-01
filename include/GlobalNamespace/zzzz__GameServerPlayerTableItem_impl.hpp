@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameServerPlayerTableItem.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameServerPlayerTableItem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerPlayerTableItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameServerPlayerTableItem._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableItem::*)(::StringW, ::StringW, ::StringW, bool)>(
     &::GlobalNamespace::GameServerPlayerTableItem::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x593fdc8;
+  constexpr static std::size_t addrs = 0x594384c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

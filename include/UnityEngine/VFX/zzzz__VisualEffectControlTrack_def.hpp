@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VisualEffectControlTrack.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VisualEffectControlTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,7 +99,7 @@ public:
   static ::UnityEngine::VFX::VisualEffectControlTrack_ReinitMode const OnBindingEnableOrDisable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19959 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -130,10 +130,10 @@ public:
 
   static inline ::UnityEngine::VFX::VisualEffectControlTrack___c* New_ctor();
 
-  /// @brief Method <OnBeforeTrackSerialize>b__5_0, addr 0x69cd528, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <OnBeforeTrackSerialize>b__5_0, addr 0x69d4fa4, size 0x88, virtual false, abstract: false, final false
   inline bool _OnBeforeTrackSerialize_b__5_0(::UnityEngine::Timeline::TimelineClip* x);
 
-  /// @brief Method .ctor, addr 0x69cd524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d4fa0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::VFX::VisualEffectControlTrack___c* getStaticF___9();
@@ -159,7 +159,7 @@ public:
   VisualEffectControlTrack___c(VisualEffectControlTrack___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19960 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -184,18 +184,18 @@ public:
   /// @brief Field reinit, offset 0xa4, size 0x4
   __declspec(property(get = __cordl_internal_get_reinit, put = __cordl_internal_set_reinit)) ::UnityEngine::VFX::VisualEffectControlTrack_ReinitMode reinit;
 
-  /// @brief Method CreateTrackMixer, addr 0x69ccf70, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method CreateTrackMixer, addr 0x69d49ec, size 0x434, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
 
-  /// @brief Method GatherProperties, addr 0x69cd3b0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method GatherProperties, addr 0x69d4e2c, size 0xbc, virtual true, abstract: false, final false
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
-  /// @brief Method IsUpToDate, addr 0x69cce3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsUpToDate, addr 0x69d48b8, size 0x10, virtual false, abstract: false, final false
   inline bool IsUpToDate();
 
   static inline ::UnityEngine::VFX::VisualEffectControlTrack* New_ctor();
 
-  /// @brief Method OnBeforeTrackSerialize, addr 0x69cce4c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeTrackSerialize, addr 0x69d48c8, size 0x124, virtual true, abstract: false, final false
   inline void OnBeforeTrackSerialize();
 
   constexpr int32_t const& __cordl_internal_get_m_VFXVersion() const;
@@ -210,7 +210,7 @@ public:
 
   constexpr void __cordl_internal_set_reinit(::UnityEngine::VFX::VisualEffectControlTrack_ReinitMode value);
 
-  /// @brief Method .ctor, addr 0x69cd46c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d4ee8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -228,7 +228,7 @@ public:
   VisualEffectControlTrack(VisualEffectControlTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19961 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x4
   static constexpr int32_t kCurrentVersion{ static_cast<int32_t>(0x1) };

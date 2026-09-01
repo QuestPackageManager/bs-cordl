@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RTHandleStaticHelpers.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RTHandleStaticHelpers.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandleStaticHelpers_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RTHandle_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderTargetIdentifier)>(&::UnityEngine::Rendering::RTHandleStaticHelpers::SetRTHandleStaticWrapper)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x67a3418;
+  constexpr static std::size_t addrs = 0x67aae94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::RTHandle*>, ::UnityEngine::Rendering::RenderTargetIdentifier)>(
     &::UnityEngine::Rendering::RTHandleStaticHelpers::SetRTHandleUserManagedWrapper)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x67a3588;
+  constexpr static std::size_t addrs = 0x67ab004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RangeKey.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RangeKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RangeKey>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RangeKey>*();
 
-  /// @brief Method Equals, addr 0x680efa4, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6816a20, size 0x84, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RangeKey other);
 
-  /// @brief Method GetHashCode, addr 0x680f028, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6816aa4, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RangeKey>"
@@ -49,7 +49,7 @@ public:
                      bool staticShadowCaster, int32_t rendererPriority, bool supportsIndirect) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17640 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

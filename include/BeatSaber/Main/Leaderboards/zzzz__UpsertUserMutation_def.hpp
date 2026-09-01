@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/Leaderboards/UpsertUserMutation.hpp"
+// IWYU pragma private; include "BeatSaber\Main\Leaderboards\UpsertUserMutation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ public:
   // Declarations
   static inline ::BeatSaber::Main::Leaderboards::UpsertUserMutation* New_ctor(::BGLib::Polyglot::LocalizationLanguage language);
 
-  /// @brief Method .ctor, addr 0x32a11c4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a4fc0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::BGLib::Polyglot::LocalizationLanguage language);
 
 protected:
@@ -45,7 +45,7 @@ public:
   UpsertUserMutation(UpsertUserMutation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20608 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

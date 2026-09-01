@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/XMLDiffLoader.hpp"
+// IWYU pragma private; include "System\Data\XMLDiffLoader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__XMLDiffLoader_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ::System::Xml::XmlReader*)>(&::System::Data::XMLDiffLoader::LoadDiffGram)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x604ea90;
+  constexpr static std::size_t addrs = 0x605650c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Data::DataTable*)>(&::System::Data::XMLDiffLoader::CreateTablesHierarchy)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x604f2b8;
+  constexpr static std::size_t addrs = 0x6056d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Data::DataTable*, ::System::Xml::XmlReader*)>(&::System::Data::XMLDiffLoader::LoadDiffGram)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x604f610;
+  constexpr static std::size_t addrs = 0x605708c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ::System::Xml::XmlReader*)>(&::System::Data::XMLDiffLoader::ProcessDiffs)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x604ec1c;
+  constexpr static std::size_t addrs = 0x6056698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Collections::ArrayList*, ::System::Xml::XmlReader*)>(
     &::System::Data::XMLDiffLoader::ProcessDiffs)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x604f7f8;
+  constexpr static std::size_t addrs = 0x6057274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ::System::Xml::XmlReader*)>(&::System::Data::XMLDiffLoader::ProcessErrors)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x604ef04;
+  constexpr static std::size_t addrs = 0x6056980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Collections::ArrayList*, ::System::Xml::XmlReader*)>(
     &::System::Data::XMLDiffLoader::ProcessErrors)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x604fad4;
+  constexpr static std::size_t addrs = 0x6057550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::XMLDiffLoader::*)(::StringW, ::StringW)>(&::System::Data::XMLDiffLoader::GetTable)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6050ddc;
+  constexpr static std::size_t addrs = 0x6058858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::XMLDiffLoader::*)(::System::Data::DataSet*, ::by_ref<::System::Data::DataTable*>, ::by_ref<int32_t>,
                                                                                                   ::System::Xml::XmlReader*)>(&::System::Data::XMLDiffLoader::ReadOldRowData)> {
   constexpr static std::size_t size = 0xde4;
-  constexpr static std::size_t addrs = 0x604fff8;
+  constexpr static std::size_t addrs = 0x6057a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XMLDiffLoader::*)(::System::Xml::XmlReader*)>(&::System::Data::XMLDiffLoader::SkipWhitespaces)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x604ff98;
+  constexpr static std::size_t addrs = 0x6057a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XMLDiffLoader::*)()>(&::System::Data::XMLDiffLoader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6050fa8;
+  constexpr static std::size_t addrs = 0x6058a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::XMLDiffLoader*>(), { ".ctor", {}, {} })));

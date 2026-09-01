@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlAttributeDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -157,11 +157,11 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlAttributeDescription* New_ctor();
 
-  /// @brief Method TryFindValueInAttributeOverrides, addr 0x6cb5aec, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method TryFindValueInAttributeOverrides, addr 0x6cbd670, size 0x288, virtual false, abstract: false, final false
   inline bool TryFindValueInAttributeOverrides(::StringW elementName, ::UnityEngine::UIElements::CreationContext cc,
                                                ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* attributeOverrides, ::by_ref<::StringW> value);
 
-  /// @brief Method TryGetAttributeOverrideValueFromBagAsString, addr 0x6cb60f4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method TryGetAttributeOverrideValueFromBagAsString, addr 0x6cbdc78, size 0x244, virtual false, abstract: false, final false
   inline bool TryGetAttributeOverrideValueFromBagAsString(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::by_ref<::StringW> value,
                                                           ::by_ref<::UnityEngine::UIElements::VisualTreeAsset*> sourceAsset);
 
@@ -170,14 +170,14 @@ public:
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::System::Func_3<::StringW, T, T>* converterFunc, T defaultValue,
                                  ::by_ref<T> value);
 
-  /// @brief Method TryGetValueFromBagAsString, addr 0x6cb5d74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueFromBagAsString, addr 0x6cbd8f8, size 0x3c, virtual false, abstract: false, final false
   inline bool TryGetValueFromBagAsString(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::by_ref<::StringW> value);
 
-  /// @brief Method TryGetValueFromBagAsString, addr 0x6cb5db0, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueFromBagAsString, addr 0x6cbd934, size 0x344, virtual false, abstract: false, final false
   inline bool TryGetValueFromBagAsString(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::by_ref<::StringW> value,
                                          ::by_ref<::UnityEngine::UIElements::VisualTreeAsset*> sourceAsset);
 
-  /// @brief Method ValidateName, addr 0x6cb6338, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ValidateName, addr 0x6cbdebc, size 0x9c, virtual false, abstract: false, final false
   inline bool ValidateName();
 
   constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
@@ -216,28 +216,28 @@ public:
 
   constexpr void __cordl_internal_set_m_ObsoleteNames(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6cb5a24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbd5a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x6cb5a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6cbd5b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x6cb5a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x6cbd5c0, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_obsoleteNames, addr 0x6cb5a44, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_obsoleteNames, addr 0x6cbd5c8, size 0x88, virtual false, abstract: false, final false
   inline void set_obsoleteNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method set_restriction, addr 0x6cb5ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_restriction, addr 0x6cbd668, size 0x8, virtual false, abstract: false, final false
   inline void set_restriction(::UnityEngine::UIElements::UxmlTypeRestriction* value);
 
-  /// @brief Method set_type, addr 0x6cb5acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x6cbd650, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::StringW value);
 
-  /// @brief Method set_typeNamespace, addr 0x6cb5ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_typeNamespace, addr 0x6cbd658, size 0x8, virtual false, abstract: false, final false
   inline void set_typeNamespace(::StringW value);
 
-  /// @brief Method set_use, addr 0x6cb5adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_use, addr 0x6cbd660, size 0x8, virtual false, abstract: false, final false
   inline void set_use(::UnityEngine::UIElements::UxmlAttributeDescription_Use value);
 
 protected:

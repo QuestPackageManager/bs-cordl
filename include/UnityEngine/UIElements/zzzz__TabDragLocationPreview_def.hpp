@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TabDragLocationPreview.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TabDragLocationPreview.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Preview(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6d6cd7c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d74900, size 0x108, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_horizontalUssClassName();
@@ -59,7 +59,7 @@ public:
 
   static inline ::StringW getStaticF_visualUssClassName();
 
-  /// @brief Method get_preview, addr 0x6d6cd74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_preview, addr 0x6d748f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_preview();
 
   static inline void setStaticF_horizontalUssClassName(::StringW value);

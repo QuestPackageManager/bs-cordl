@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithInvitePanelResultInfo.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithInvitePanelResultInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithInvitePanelResultInfo : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::InvitePanelResultInfo*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5dd6b58, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5ddb014, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::InvitePanelResultInfo* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetInvitePanelResultInfo, addr 0x5dd6b14, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetInvitePanelResultInfo, addr 0x5ddafd0, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::InvitePanelResultInfo* GetInvitePanelResultInfo();
 
   static inline ::Oculus::Platform::MessageWithInvitePanelResultInfo* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5dd326c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd7728, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithInvitePanelResultInfo(MessageWithInvitePanelResultInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

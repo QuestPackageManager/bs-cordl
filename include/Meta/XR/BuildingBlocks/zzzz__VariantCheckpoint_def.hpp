@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/BuildingBlocks/VariantCheckpoint.hpp"
+// IWYU pragma private; include "Meta\XR\BuildingBlocks\VariantCheckpoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a37fa8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a3c464, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW memberName, ::StringW value);
 
-  /// @brief Method get_MemberName, addr 0x5a37f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x5a3c454, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
-  /// @brief Method get_Value, addr 0x5a37fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5a3c45c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:
@@ -68,7 +68,7 @@ public:
   VariantCheckpoint(VariantCheckpoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21383 };
 
   /// @brief Field _memberName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____memberName;

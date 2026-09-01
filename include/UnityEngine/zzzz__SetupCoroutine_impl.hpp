@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SetupCoroutine.hpp"
+// IWYU pragma private; include "UnityEngine\SetupCoroutine.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SetupCoroutine_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::IEnumerator*, ::System::IntPtr)>(&::UnityEngine::SetupCoroutine::InvokeMoveNext)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6ad6a28;
+  constexpr static std::size_t addrs = 0x6ade440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Object*, ::StringW, ::System::Object*)>(&::UnityEngine::SetupCoroutine::InvokeMember)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6ad6b40;
+  constexpr static std::size_t addrs = 0x6ade558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

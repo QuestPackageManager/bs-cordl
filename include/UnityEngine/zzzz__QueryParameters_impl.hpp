@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/QueryParameters.hpp"
+// IWYU pragma private; include "UnityEngine\QueryParameters.hpp"
 #include "UnityEngine/zzzz__QueryTriggerInteraction_impl.hpp"
 #include "UnityEngine/zzzz__QueryParameters_def.hpp"
 #include "UnityEngine/zzzz__QueryTriggerInteraction_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::QueryParameters::*)(int32_t, bool, ::UnityEngine::QueryTriggerInteraction, bool)>(&::UnityEngine::QueryParameters::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b8e304;
+  constexpr static std::size_t addrs = 0x6b95e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::QueryParameters (*)()>(&::UnityEngine::QueryParameters::get_Default)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b8e318;
+  constexpr static std::size_t addrs = 0x6b95e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::QueryParameters>(), { "get_Default", {}, {} })));

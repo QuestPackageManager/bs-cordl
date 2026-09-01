@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/NetSyncSessionsChangedNotification.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\NetSyncSessionsChangedNotification.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncSessionsChangedNotification_def.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncSessionList_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::NetSyncSessionsChangedNotification::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::NetSyncSessionsChangedNotification::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5deccdc;
+  constexpr static std::size_t addrs = 0x5df1198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

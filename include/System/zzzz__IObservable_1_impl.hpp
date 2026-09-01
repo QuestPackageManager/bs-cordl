@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IObservable_1.hpp"
+// IWYU pragma private; include "System\IObservable_1.hpp"
 #include "System/zzzz__IObservable_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IObserver_1_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/UseSrtpData.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\UseSrtpData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_mProtectionProfiles(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x348ebd0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3492990, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t> protectionProfiles, ::ArrayW<uint8_t> mki);
 
-  /// @brief Method get_Mki, addr 0x3495a28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mki, addr 0x34997e8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Mki();
 
-  /// @brief Method get_ProtectionProfiles, addr 0x3495a20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProtectionProfiles, addr 0x34997e0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t> get_ProtectionProfiles();
 
 protected:

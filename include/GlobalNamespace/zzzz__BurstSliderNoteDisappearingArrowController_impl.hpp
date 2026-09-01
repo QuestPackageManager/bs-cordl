@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BurstSliderNoteDisappearingArrowController.hpp"
+// IWYU pragma private; include "GlobalNamespace\BurstSliderNoteDisappearingArrowController.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BurstSliderNoteDisappearingArrowController_def.hpp"
 #include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BurstSliderGameNoteController> (::GlobalNamespace::BurstSliderNoteDisappearingArrowController::*)()>(
     &::GlobalNamespace::BurstSliderNoteDisappearingArrowController::get_gameNoteController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58d1534;
+  constexpr static std::size_t addrs = 0x58d0ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderNoteDisappearingArrowController*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderNoteDisappearingArrowController::*)()>(
     &::GlobalNamespace::BurstSliderNoteDisappearingArrowController::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58d153c;
+  constexpr static std::size_t addrs = 0x58d0eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderNoteDisappearingArrowController*>(), { ".ctor", {}, {} })));

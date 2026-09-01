@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CutoutAnimateEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\CutoutAnimateEffect.hpp"
 #include "GlobalNamespace/zzzz__CutoutEffect_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::*)(int32_t)>(
     &::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597cf3c;
+  constexpr static std::size_t addrs = 0x59808d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::*)()>(
     &::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x597cfd4;
+  constexpr static std::size_t addrs = 0x5980968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::*)()>(
     &::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x597cfd8;
+  constexpr static std::size_t addrs = 0x598096c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::*)()>(
     &::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597d0ec;
+  constexpr static std::size_t addrs = 0x5980a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::*)()>(
     &::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x597d0f4;
+  constexpr static std::size_t addrs = 0x5980a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::*)()>(
     &::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597d12c;
+  constexpr static std::size_t addrs = 0x5980ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CutoutAnimateEffect::*)()>(&::GlobalNamespace::CutoutAnimateEffect::get_animating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597ce4c;
+  constexpr static std::size_t addrs = 0x59807e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutoutAnimateEffect*>(), { "get_animating", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)(bool)>(&::GlobalNamespace::CutoutAnimateEffect::set_animating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597ce54;
+  constexpr static std::size_t addrs = 0x59807e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)()>(&::GlobalNamespace::CutoutAnimateEffect::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597ce5c;
+  constexpr static std::size_t addrs = 0x59807f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutoutAnimateEffect*>(), { "Start", {}, {} })));
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::CutoutAnimateEffect::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::CutoutAnimateEffect::AnimateToCutoutCoroutine)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x597cec4;
+  constexpr static std::size_t addrs = 0x5980858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)(float_t)>(&::GlobalNamespace::CutoutAnimateEffect::SetCutout)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x597ce64;
+  constexpr static std::size_t addrs = 0x59807f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)()>(&::GlobalNamespace::CutoutAnimateEffect::ResetEffect)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x59733b4;
+  constexpr static std::size_t addrs = 0x5976c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutoutAnimateEffect*>(), { "ResetEffect", {}, {} })));
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)(float_t, float_t, float_t)>(&::GlobalNamespace::CutoutAnimateEffect::AnimateCutout)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5976b24;
+  constexpr static std::size_t addrs = 0x597a4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)()>(&::GlobalNamespace::CutoutAnimateEffect::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x597cfa0;
+  constexpr static std::size_t addrs = 0x5980934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutoutAnimateEffect*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngineInternal/WebRequestUtils.hpp"
+// IWYU pragma private; include "UnityEngineInternal\WebRequestUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngineInternal/zzzz__WebRequestUtils_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngineInternal::WebRequestUtils::RedirectTo)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6e1f510;
+  constexpr static std::size_t addrs = 0x6e27094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngineInternal::WebRequestUtils::MakeInitialUrl)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x6e1f5f8;
+  constexpr static std::size_t addrs = 0x6e2717c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Uri*, ::StringW, bool)>(&::UnityEngineInternal::WebRequestUtils::MakeUriString)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x6e1f984;
+  constexpr static std::size_t addrs = 0x6e27508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngineInternal::WebRequestUtils::URLDecode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6e1fdb4;
+  constexpr static std::size_t addrs = 0x6e27938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

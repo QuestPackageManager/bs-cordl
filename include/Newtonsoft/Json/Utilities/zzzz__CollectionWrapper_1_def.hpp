@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/CollectionWrapper_1.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\CollectionWrapper_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -227,7 +227,7 @@ public:
   CollectionWrapper_1(CollectionWrapper_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13379 };
 
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ____list;

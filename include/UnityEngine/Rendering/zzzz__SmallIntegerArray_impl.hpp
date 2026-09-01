@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SmallIntegerArray.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SmallIntegerArray.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeList_1_impl.hpp"
 #include "Unity/Collections/zzzz__FixedList32Bytes_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SmallIntegerArray_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SmallIntegerArray::*)()>(&::UnityEngine::Rendering::SmallIntegerArray::get_Valid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x681fefc;
+  constexpr static std::size_t addrs = 0x6827978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SmallIntegerArray>(), { "get_Valid", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SmallIntegerArray::*)(bool)>(&::UnityEngine::Rendering::SmallIntegerArray::set_Valid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x681ff04;
+  constexpr static std::size_t addrs = 0x6827980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SmallIntegerArray::*)(int32_t, ::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::SmallIntegerArray::_ctor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x681ff0c;
+  constexpr static std::size_t addrs = 0x6827988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SmallIntegerArray>(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SmallIntegerArray::*)(int32_t)>(&::UnityEngine::Rendering::SmallIntegerArray::get_Item)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68200c8;
+  constexpr static std::size_t addrs = 0x6827b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SmallIntegerArray::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::SmallIntegerArray::set_Item)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6820158;
+  constexpr static std::size_t addrs = 0x6827bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SmallIntegerArray::*)()>(&::UnityEngine::Rendering::SmallIntegerArray::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x681e424;
+  constexpr static std::size_t addrs = 0x6825ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SmallIntegerArray>(), { "Dispose", {}, {} })));

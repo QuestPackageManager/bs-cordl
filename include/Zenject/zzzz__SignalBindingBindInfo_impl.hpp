@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SignalBindingBindInfo.hpp"
+// IWYU pragma private; include "Zenject\SignalBindingBindInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SignalBindingBindInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalBindingBindInfo::*)(::System::Type*)>(&::Zenject::SignalBindingBindInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3e604;
+  constexpr static std::size_t addrs = 0x6e46188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::SignalBindingBindInfo::*)()>(&::Zenject::SignalBindingBindInfo::get_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3e60c;
+  constexpr static std::size_t addrs = 0x6e46190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalBindingBindInfo*>(), { "get_Identifier", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalBindingBindInfo::*)(::System::Object*)>(&::Zenject::SignalBindingBindInfo::set_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3e614;
+  constexpr static std::size_t addrs = 0x6e46198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::SignalBindingBindInfo::*)()>(&::Zenject::SignalBindingBindInfo::get_SignalType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3e61c;
+  constexpr static std::size_t addrs = 0x6e461a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalBindingBindInfo*>(), { "get_SignalType", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalBindingBindInfo::*)(::System::Type*)>(&::Zenject::SignalBindingBindInfo::set_SignalType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3e624;
+  constexpr static std::size_t addrs = 0x6e461a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightRotationGroupEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightRotationGroupEffectManager.hpp"
 #include "GlobalNamespace/zzzz__LightRotationGroup_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationGroupEffectManager_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationGroupEffectManager::*)()>(&::GlobalNamespace::LightRotationGroupEffectManager::Start)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x5991a40;
+  constexpr static std::size_t addrs = 0x599a874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationGroupEffectManager*>(), { "Start", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationGroupEffectManager::*)()>(&::GlobalNamespace::LightRotationGroupEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5991f88;
+  constexpr static std::size_t addrs = 0x599adbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationGroupEffectManager*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationGroupEffectManager::*)()>(&::GlobalNamespace::LightRotationGroupEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x599208c;
+  constexpr static std::size_t addrs = 0x599aec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightRotationGroupEffectManager*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/IPlatformFactory.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\IPlatformFactory.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatformFactory_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PlatformInitParams_def.hpp"

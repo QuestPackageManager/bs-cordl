@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithChallenge.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithChallenge.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithChallenge_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Challenge_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithChallenge::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithChallenge::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd2f30;
+  constexpr static std::size_t addrs = 0x5dd73ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::Challenge* (::Oculus::Platform::MessageWithChallenge::*)()>(
     &::Oculus::Platform::MessageWithChallenge::GetChallenge)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd61f8;
+  constexpr static std::size_t addrs = 0x5dda6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::Challenge* (::Oculus::Platform::MessageWithChallenge::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithChallenge::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd623c;
+  constexpr static std::size_t addrs = 0x5dda6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

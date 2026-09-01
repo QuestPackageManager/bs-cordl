@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerSpecificSettingsNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerSpecificSettingsNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x32b57c8, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x32b95c4, size 0xb4, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* New_ctor();
@@ -68,7 +68,7 @@ public:
                                                                                    ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                                                                                    ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method Serialize, addr 0x32b55d4, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x32b93d0, size 0x8c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr bool const& __cordl_internal_get_automaticPlayerHeight() const;
@@ -113,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32b57c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b95c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x32b587c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b9678, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, ::UnityEngine::Color saberAColor,
                     ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
@@ -139,7 +139,7 @@ public:
   PlayerSpecificSettingsNetSerializable(PlayerSpecificSettingsNetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18968 };
 
   /// @brief Field userId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___userId;

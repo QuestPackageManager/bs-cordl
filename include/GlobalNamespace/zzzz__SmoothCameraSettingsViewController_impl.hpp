@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SmoothCameraSettingsViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SmoothCameraSettingsViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SmoothCameraSettingsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__FormattedFloatListSettingsController_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SmoothCameraSettingsViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5a1a7c4;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x5a228b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraSettingsViewController*>(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::SmoothCameraSettingsViewController::DidDeactivate)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5a1a968;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5a22a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraSettingsViewController*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)()>(&::GlobalNamespace::SmoothCameraSettingsViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a1a9f8;
+  constexpr static std::size_t addrs = 0x5a22ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraSettingsViewController*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)(bool)>(
     &::GlobalNamespace::SmoothCameraSettingsViewController::HandleEnabledChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a1aa20;
+  constexpr static std::size_t addrs = 0x5a22b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)(::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(
     &::GlobalNamespace::SmoothCameraSettingsViewController::HandleFovChanged)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a1aa3c;
+  constexpr static std::size_t addrs = 0x5a22b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraSettingsViewController::*)()>(&::GlobalNamespace::SmoothCameraSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1aa54;
+  constexpr static std::size_t addrs = 0x5a22b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraSettingsViewController*>(), { ".ctor", {}, {} })));

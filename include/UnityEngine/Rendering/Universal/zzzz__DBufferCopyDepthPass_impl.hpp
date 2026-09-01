@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DBufferCopyDepthPass.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DBufferCopyDepthPass.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__CopyDepthPass_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DBufferCopyDepthPass_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraph_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DBufferCopyDepthPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Shader*, bool, bool, bool)>(&::UnityEngine::Rendering::Universal::DBufferCopyDepthPass::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x684bbc8;
+  constexpr static std::size_t addrs = 0x6853644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DBufferCopyDepthPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::UnityEngine::Rendering::Universal::DBufferCopyDepthPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x684bbd4;
+  constexpr static std::size_t addrs = 0x6853650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DBufferCopyDepthPass*>(),

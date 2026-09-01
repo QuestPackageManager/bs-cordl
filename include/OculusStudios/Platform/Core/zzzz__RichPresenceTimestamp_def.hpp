@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/RichPresenceTimestamp.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\RichPresenceTimestamp.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +28,13 @@ public:
 
   __declspec(property(get = get_type)) ::OculusStudios::Platform::Core::RichPresenceTimestampType type;
 
-  /// @brief Method .ctor, addr 0x5f29fb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e474, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW timestamp, ::OculusStudios::Platform::Core::RichPresenceTimestampType type);
 
-  /// @brief Method get_timestamp, addr 0x5f29fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timestamp, addr 0x5f2e464, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_timestamp();
 
-  /// @brief Method get_type, addr 0x5f29fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x5f2e46c, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::RichPresenceTimestampType get_type();
 
   // Ctor Parameters []
@@ -46,7 +46,7 @@ public:
   constexpr RichPresenceTimestamp(::StringW _timestamp_k__BackingField, ::OculusStudios::Platform::Core::RichPresenceTimestampType _type_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22444 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

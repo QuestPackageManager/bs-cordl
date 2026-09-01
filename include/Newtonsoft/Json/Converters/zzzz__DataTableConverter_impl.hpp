@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/DataTableConverter.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\DataTableConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__DataTableConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::DataTableConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::DataTableConverter::WriteJson)> {
   constexpr static std::size_t size = 0x798;
-  constexpr static std::size_t addrs = 0x5d934a0;
+  constexpr static std::size_t addrs = 0x5d9795c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::DataTableConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::DataTableConverter::ReadJson)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x5d93c38;
+  constexpr static std::size_t addrs = 0x5d980f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Newtonsoft::Json::JsonReader*, ::System::Data::DataTable*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::Newtonsoft::Json::Converters::DataTableConverter::CreateRow)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x5d93f14;
+  constexpr static std::size_t addrs = 0x5d983d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::Newtonsoft::Json::JsonReader*)>(&::Newtonsoft::Json::Converters::DataTableConverter::GetColumnDataType)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5d9446c;
+  constexpr static std::size_t addrs = 0x5d98928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::DataTableConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::DataTableConverter::CanConvert)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5d94638;
+  constexpr static std::size_t addrs = 0x5d98af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::DataTableConverter::*)()>(&::Newtonsoft::Json::Converters::DataTableConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d93144;
+  constexpr static std::size_t addrs = 0x5d97600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::DataTableConverter*>(), { ".ctor", {}, {} })));

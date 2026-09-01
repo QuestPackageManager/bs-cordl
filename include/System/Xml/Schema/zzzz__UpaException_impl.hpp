@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/UpaException.hpp"
+// IWYU pragma private; include "System\Xml\Schema\UpaException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Xml/Schema/zzzz__UpaException_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::UpaException::*)(::System::Object*, ::System::Object*)>(&::System::Xml::Schema::UpaException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x631580c;
+  constexpr static std::size_t addrs = 0x631d288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::UpaException::*)()>(&::System::Xml::Schema::UpaException::get_Particle1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x631587c;
+  constexpr static std::size_t addrs = 0x631d2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::UpaException*>(), { "get_Particle1", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::UpaException::*)()>(&::System::Xml::Schema::UpaException::get_Particle2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6315884;
+  constexpr static std::size_t addrs = 0x631d300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::UpaException*>(), { "get_Particle2", {}, {} })));

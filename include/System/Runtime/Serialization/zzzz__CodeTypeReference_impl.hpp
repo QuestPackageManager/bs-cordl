@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/CodeTypeReference.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\CodeTypeReference.hpp"
 #include "System/Runtime/Serialization/zzzz__CodeTypeReferenceOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__CodeTypeReference_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CodeTypeReference::*)(::StringW, ::System::Runtime::Serialization::CodeTypeReferenceOptions)>(
     &::System::Runtime::Serialization::CodeTypeReference::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x617497c;
+  constexpr static std::size_t addrs = 0x617c3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CodeTypeReference::*)(::StringW)>(&::System::Runtime::Serialization::CodeTypeReference::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61751b8;
+  constexpr static std::size_t addrs = 0x617cc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CodeTypeReference::*)(::StringW)>(&::System::Runtime::Serialization::CodeTypeReference::Initialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61751c0;
+  constexpr static std::size_t addrs = 0x617cc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CodeTypeReference::*)(::StringW, ::System::Runtime::Serialization::CodeTypeReferenceOptions)>(
     &::System::Runtime::Serialization::CodeTypeReference::Initialize)> {
   constexpr static std::size_t size = 0x838;
-  constexpr static std::size_t addrs = 0x6174980;
+  constexpr static std::size_t addrs = 0x617c3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CodeTypeReference::*)(::System::Runtime::Serialization::CodeTypeReference*, int32_t)>(
     &::System::Runtime::Serialization::CodeTypeReference::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6175450;
+  constexpr static std::size_t addrs = 0x617cecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CodeTypeReference::*)()>(&::System::Runtime::Serialization::CodeTypeReference::get_BaseType)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6175460;
+  constexpr static std::size_t addrs = 0x617cedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CodeTypeReference*>(), { "get_BaseType", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::CodeTypeReferenceOptions (::System::Runtime::Serialization::CodeTypeReference::*)()>(
     &::System::Runtime::Serialization::CodeTypeReference::get_Options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61755a4;
+  constexpr static std::size_t addrs = 0x617d020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CodeTypeReference*>(), { "get_Options", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CodeTypeReference::*)(::System::Runtime::Serialization::CodeTypeReferenceOptions)>(
     &::System::Runtime::Serialization::CodeTypeReference::set_Options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61755ac;
+  constexpr static std::size_t addrs = 0x617d028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CodeTypeReference*>(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::System::Runtime::Serialization::CodeTypeReference*>* (
     ::System::Runtime::Serialization::CodeTypeReference::*)()>(&::System::Runtime::Serialization::CodeTypeReference::get_TypeArguments)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61753a8;
+  constexpr static std::size_t addrs = 0x617ce24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::CodeTypeReference*>(), { "get_TypeArguments", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::CodeTypeReference::*)(::StringW)>(
     &::System::Runtime::Serialization::CodeTypeReference::RipOffAssemblyInformationFromTypeName)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x61751c8;
+  constexpr static std::size_t addrs = 0x617cc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataCommon/EaseTypeConvertor.hpp"
+// IWYU pragma private; include "BeatmapSaveDataCommon\EaseTypeConvertor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseTypeConvertor_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseType_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::EaseType (*)(::GlobalNamespace::EaseType)>(&::BeatmapSaveDataCommon::EaseTypeConvertor::Convert)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x375a224;
+  constexpr static std::size_t addrs = 0x375fe90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

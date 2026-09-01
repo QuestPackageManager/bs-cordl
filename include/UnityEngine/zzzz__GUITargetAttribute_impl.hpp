@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/GUITargetAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\GUITargetAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__GUITargetAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Type*, ::StringW)>(&::UnityEngine::GUITargetAttribute::GetGUITargetAttrValue)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6b445b0;
+  constexpr static std::size_t addrs = 0x6b4c134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

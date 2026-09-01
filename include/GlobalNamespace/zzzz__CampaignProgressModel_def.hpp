@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CampaignProgressModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\CampaignProgressModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,36 +44,36 @@ public:
 
   __declspec(property(get = get_numberOfClearedMissions)) int32_t numberOfClearedMissions;
 
-  /// @brief Method Awake, addr 0x375035c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3755f88, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IsMissionCleared, addr 0x37504b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsMissionCleared, addr 0x37560dc, size 0x2c, virtual false, abstract: false, final false
   inline bool IsMissionCleared(::StringW missionId);
 
-  /// @brief Method IsMissionFinal, addr 0x37504e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsMissionFinal, addr 0x3756108, size 0x8, virtual false, abstract: false, final false
   inline bool IsMissionFinal(::StringW missionId);
 
-  /// @brief Method IsMissionRegistered, addr 0x37503d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsMissionRegistered, addr 0x3755ffc, size 0x64, virtual false, abstract: false, final false
   inline bool IsMissionRegistered(::StringW missionId);
 
   static inline ::GlobalNamespace::CampaignProgressModel* New_ctor();
 
-  /// @brief Method RegisterMissionId, addr 0x3750434, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RegisterMissionId, addr 0x3756060, size 0x7c, virtual false, abstract: false, final false
   inline void RegisterMissionId(::StringW missionId);
 
-  /// @brief Method SetFinalMissionId, addr 0x37504e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetFinalMissionId, addr 0x3756110, size 0x8, virtual false, abstract: false, final false
   inline void SetFinalMissionId(::StringW missionId);
 
-  /// @brief Method SetMissionCleared, addr 0x3750534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMissionCleared, addr 0x375615c, size 0x8, virtual false, abstract: false, final false
   inline void SetMissionCleared(::StringW missionId);
 
-  /// @brief Method UpdateNumberOfClearedMissions, addr 0x3750210, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method UpdateNumberOfClearedMissions, addr 0x3755e40, size 0x148, virtual false, abstract: false, final false
   inline int32_t UpdateNumberOfClearedMissions();
 
-  /// @brief Method WillFinishGameAfterThisMission, addr 0x37504f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WillFinishGameAfterThisMission, addr 0x3756118, size 0x44, virtual false, abstract: false, final false
   inline bool WillFinishGameAfterThisMission(::StringW missionId);
 
-  /// @brief Method __SetMissionCleared, addr 0x375053c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method __SetMissionCleared, addr 0x3756164, size 0x48, virtual false, abstract: false, final false
   inline void __SetMissionCleared(::StringW missionId, bool cleared);
 
   constexpr ::StringW const& __cordl_internal_get__finalMissionId() const;
@@ -106,10 +106,10 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x3750588, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37561ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_numberOfClearedMissions, addr 0x37501e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfClearedMissions, addr 0x3755e18, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_numberOfClearedMissions();
 
 protected:
@@ -127,7 +127,7 @@ public:
   CampaignProgressModel(CampaignProgressModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15255 };
 
   /// @brief Field _playerDataModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;

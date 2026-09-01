@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlaymodeOptionsExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlaymodeOptionsExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlaymodeOptionsExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsRecorderActive, addr 0x37087b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsRecorderActive, addr 0x370cbd4, size 0x10, virtual false, abstract: false, final false
   static inline bool IsRecorderActive(::GlobalNamespace::PlaymodeOptions playmodeOptions);
 
 protected:
@@ -40,7 +40,7 @@ public:
   PlaymodeOptionsExtensions(PlaymodeOptionsExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14868 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

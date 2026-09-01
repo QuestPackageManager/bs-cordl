@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IBitArray.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IBitArray.hpp"
 #include "UnityEngine/Rendering/zzzz__IBitArray_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IBitArray.get_capacity
 template <>

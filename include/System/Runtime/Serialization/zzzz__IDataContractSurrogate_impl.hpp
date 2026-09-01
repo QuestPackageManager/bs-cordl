@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/IDataContractSurrogate.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\IDataContractSurrogate.hpp"
 #include "System/Runtime/Serialization/zzzz__IDataContractSurrogate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"

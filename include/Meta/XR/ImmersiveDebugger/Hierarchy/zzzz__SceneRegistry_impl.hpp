@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Hierarchy/SceneRegistry.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Hierarchy\SceneRegistry.hpp"
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/zzzz__ItemWithChildren_3_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/zzzz__SceneRegistry_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::BuildHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a663d8;
+  constexpr static std::size_t addrs = 0x5a6a894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene)>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::CompareChildren)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a663e4;
+  constexpr static std::size_t addrs = 0x5a6a8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*>(),
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(&::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::Unregister)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a663f0;
+  constexpr static std::size_t addrs = 0x5a6a8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)(::Meta::XR::ImmersiveDebugger::Hierarchy::Item*)>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::Register)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a663f4;
+  constexpr static std::size_t addrs = 0x5a6a8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*>(),
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(&::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::get_Label)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a663f8;
+  constexpr static std::size_t addrs = 0x5a6a8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*>(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(&::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::get_Valid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a66400;
+  constexpr static std::size_t addrs = 0x5a6a8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::SceneManagement::Scene> (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::FetchExpectedChildren)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5a66408;
+  constexpr static std::size_t addrs = 0x5a6a8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*>(),
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::*)()>(&::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5a66530;
+  constexpr static std::size_t addrs = 0x5a6a9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry*>(), { ".ctor", {}, {} })));

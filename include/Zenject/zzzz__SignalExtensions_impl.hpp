@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SignalExtensions.hpp"
+// IWYU pragma private; include "Zenject\SignalExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SignalExtensions_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::SignalDeclarationBindInfo* (*)(::Zenject::DiContainer*, ::System::Type*)>(
     &::Zenject::SignalExtensions::CreateDefaultSignalDeclarationBindInfo)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e3e964;
+  constexpr static std::size_t addrs = 0x6e464e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

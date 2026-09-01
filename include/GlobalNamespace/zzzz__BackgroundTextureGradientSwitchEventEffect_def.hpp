@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BackgroundTextureGradientSwitchEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\BackgroundTextureGradientSwitchEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,15 +47,15 @@ public:
   __declspec(property(get = __cordl_internal_get__defaultTextureGradient, put = __cordl_internal_set__defaultTextureGradient)) ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient>
       _defaultTextureGradient;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x598a330, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x598da20, size 0x50, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
   static inline ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x598a314, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x598da04, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x598a264, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x598d954, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultTextureGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> value);
 
-  /// @brief Method .ctor, addr 0x598a380, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598da70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

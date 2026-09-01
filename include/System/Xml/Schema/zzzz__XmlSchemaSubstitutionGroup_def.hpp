@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSubstitutionGroup.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSubstitutionGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set_membersList(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x6234820, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x623c29c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Examplar, addr 0x6234810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Examplar, addr 0x623c28c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Examplar();
 
-  /// @brief Method get_Members, addr 0x6234808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x623c284, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Members();
 
-  /// @brief Method set_Examplar, addr 0x6234818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Examplar, addr 0x623c294, size 0x8, virtual false, abstract: false, final false
   inline void set_Examplar(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   XmlSchemaSubstitutionGroup(XmlSchemaSubstitutionGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9819 };
 
   /// @brief Field membersList, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::ArrayList* ___membersList;

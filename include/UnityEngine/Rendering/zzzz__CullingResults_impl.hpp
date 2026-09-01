@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CullingResults.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CullingResults.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingResults_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Rendering::CullingResults::GetLightIndexCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b18510;
+  constexpr static std::size_t addrs = 0x6b20094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Rendering::CullingResults::GetReflectionProbeIndexCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b1854c;
+  constexpr static std::size_t addrs = 0x6b200d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::ComputeBuffer*)>(&::UnityEngine::Rendering::CullingResults::FillLightAndReflectionProbeIndices)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6b18588;
+  constexpr static std::size_t addrs = 0x6b2010c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Rendering::CullingResults::GetLightIndexMapSize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b1861c;
+  constexpr static std::size_t addrs = 0x6b201a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(&::UnityEngine::Rendering::CullingResults::FillLightIndexMap)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b18658;
+  constexpr static std::size_t addrs = 0x6b201dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(&::UnityEngine::Rendering::CullingResults::SetLightIndexMap)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b186ac;
+  constexpr static std::size_t addrs = 0x6b20230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Bounds>)>(&::UnityEngine::Rendering::CullingResults::GetShadowCasterBounds)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b18700;
+  constexpr static std::size_t addrs = 0x6b20284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::System::IntPtr, int32_t, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
         &::UnityEngine::Rendering::CullingResults::ComputeSpotShadowMatricesAndCullingPrimitives)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6b18754;
+  constexpr static std::size_t addrs = 0x6b202d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
                                                                 ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
     &::UnityEngine::Rendering::CullingResults::ComputePointShadowMatricesAndCullingPrimitives)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6b187c0;
+  constexpr static std::size_t addrs = 0x6b20344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
                                                                 ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
     &::UnityEngine::Rendering::CullingResults::ComputeDirectionalShadowMatricesAndCullingPrimitives)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6b18844;
+  constexpr static std::size_t addrs = 0x6b203c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> (::UnityEngine::Rendering::CullingResults::*)()>(
     &::UnityEngine::Rendering::CullingResults::get_visibleLights)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b189a8;
+  constexpr static std::size_t addrs = 0x6b2052c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingResults>(), { "get_visibleLights", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> (::UnityEngine::Rendering::CullingResults::*)()>(
     &::UnityEngine::Rendering::CullingResults::get_visibleReflectionProbes)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b18a18;
+  constexpr static std::size_t addrs = 0x6b2059c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingResults>(), { "get_visibleReflectionProbes", {}, {} })));
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CullingResults::*)()>(&::UnityEngine::Rendering::CullingResults::get_lightAndReflectionProbeIndexCount)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b18a88;
+  constexpr static std::size_t addrs = 0x6b2060c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CullingResults::*)(::UnityEngine::ComputeBuffer*)>(
     &::UnityEngine::Rendering::CullingResults::FillLightAndReflectionProbeIndices)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6b18b00;
+  constexpr static std::size_t addrs = 0x6b20684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingResults>(),
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<int32_t> (::UnityEngine::Rendering::CullingResults::*)(::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::CullingResults::GetLightIndexMap)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6b18b50;
+  constexpr static std::size_t addrs = 0x6b206d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CullingResults::*)(::Unity::Collections::NativeArray_1<int32_t>)>(
     &::UnityEngine::Rendering::CullingResults::SetLightIndexMap)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b18c48;
+  constexpr static std::size_t addrs = 0x6b207cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CullingResults::*)(int32_t, ::by_ref<::UnityEngine::Bounds>)>(
     &::UnityEngine::Rendering::CullingResults::GetShadowCasterBounds)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b18cc8;
+  constexpr static std::size_t addrs = 0x6b2084c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
                                                                                                           ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
     &::UnityEngine::Rendering::CullingResults::ComputeSpotShadowMatricesAndCullingPrimitives)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6b18d1c;
+  constexpr static std::size_t addrs = 0x6b208a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
                                                                                                           ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
     &::UnityEngine::Rendering::CullingResults::ComputePointShadowMatricesAndCullingPrimitives)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6b18d88;
+  constexpr static std::size_t addrs = 0x6b2090c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     int32_t, int32_t, int32_t, ::UnityEngine::Vector3, int32_t, float_t, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
     &::UnityEngine::Rendering::CullingResults::ComputeDirectionalShadowMatricesAndCullingPrimitives)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6b18e0c;
+  constexpr static std::size_t addrs = 0x6b20990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CullingResults::*)(::UnityEngine::Rendering::CullingResults)>(
     &::UnityEngine::Rendering::CullingResults::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b18ec4;
+  constexpr static std::size_t addrs = 0x6b20a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CullingResults::*)(::System::Object*)>(&::UnityEngine::Rendering::CullingResults::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b18f34;
+  constexpr static std::size_t addrs = 0x6b20ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CullingResults::*)()>(&::UnityEngine::Rendering::CullingResults::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b18fb4;
+  constexpr static std::size_t addrs = 0x6b20b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::CullingResults, ::UnityEngine::Rendering::CullingResults)>(
     &::UnityEngine::Rendering::CullingResults::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6b18fcc;
+  constexpr static std::size_t addrs = 0x6b20b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::Rendering::CullingResults::FillLightAndReflectionProbeIndices_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b185d8;
+  constexpr static std::size_t addrs = 0x6b2015c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -404,7 +404,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
                                                                 ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Rendering::ShadowSplitData>)>(
     &::UnityEngine::Rendering::CullingResults::ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6b188fc;
+  constexpr static std::size_t addrs = 0x6b20480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

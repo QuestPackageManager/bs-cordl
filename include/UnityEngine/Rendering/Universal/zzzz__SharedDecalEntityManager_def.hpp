@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/SharedDecalEntityManager.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\SharedDecalEntityManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,30 +38,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x68a6378, size 0x1e4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68addf4, size 0x1e4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Get, addr 0x68a609c, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x68adb18, size 0x2c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntityManager* Get();
 
   static inline ::UnityEngine::Rendering::Universal::SharedDecalEntityManager* New_ctor();
 
-  /// @brief Method OnAllDecalPropertyChange, addr 0x68a6638, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnAllDecalPropertyChange, addr 0x68ae0b4, size 0x18, virtual false, abstract: false, final false
   inline void OnAllDecalPropertyChange();
 
-  /// @brief Method OnDecalAdd, addr 0x68a655c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDecalAdd, addr 0x68adfd8, size 0x58, virtual false, abstract: false, final false
   inline void OnDecalAdd(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
-  /// @brief Method OnDecalMaterialChange, addr 0x68a6650, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDecalMaterialChange, addr 0x68ae0cc, size 0x28, virtual false, abstract: false, final false
   inline void OnDecalMaterialChange(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
-  /// @brief Method OnDecalPropertyChange, addr 0x68a65d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDecalPropertyChange, addr 0x68ae054, size 0x60, virtual false, abstract: false, final false
   inline void OnDecalPropertyChange(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
-  /// @brief Method OnDecalRemove, addr 0x68a65b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDecalRemove, addr 0x68ae030, size 0x24, virtual false, abstract: false, final false
   inline void OnDecalRemove(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
-  /// @brief Method Release, addr 0x68a635c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x68addd8, size 0x1c, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::Rendering::Universal::DecalEntityManager* decalEntityManager);
 
   constexpr ::UnityEngine::Rendering::Universal::DecalEntityManager* const& __cordl_internal_get_m_DecalEntityManager() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ReferenceCounter(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68a6678, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68ae0f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -97,7 +97,7 @@ public:
   SharedDecalEntityManager(SharedDecalEntityManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12911 };
 
   /// @brief Field m_DecalEntityManager, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalEntityManager* ___m_DecalEntityManager;

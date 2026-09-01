@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/LightTranslationBaseDataConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\LightTranslationBaseDataConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__LightTranslationBaseDataConverter_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__LightTranslationEvent_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightTranslationBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::LightTranslationEvent)>(
     &::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter::Convert)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x375f488;
+  constexpr static std::size_t addrs = 0x37650f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

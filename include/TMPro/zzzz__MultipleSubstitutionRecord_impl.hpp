@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "TMPro/MultipleSubstitutionRecord.hpp"
+// IWYU pragma private; include "TMPro\MultipleSubstitutionRecord.hpp"
 #include "TMPro/zzzz__MultipleSubstitutionRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::MultipleSubstitutionRecord.get_targetGlyphID
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::MultipleSubstitutionRecord::*)()>(&::TMPro::MultipleSubstitutionRecord::get_targetGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692fed4;
+  constexpr static std::size_t addrs = 0x6937950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MultipleSubstitutionRecord>(), { "get_targetGlyphID", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MultipleSubstitutionRecord::*)(uint32_t)>(&::TMPro::MultipleSubstitutionRecord::set_targetGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692fedc;
+  constexpr static std::size_t addrs = 0x6937958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint32_t> (::TMPro::MultipleSubstitutionRecord::*)()>(&::TMPro::MultipleSubstitutionRecord::get_substituteGlyphIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692fee4;
+  constexpr static std::size_t addrs = 0x6937960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MultipleSubstitutionRecord>(), { "get_substituteGlyphIDs", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MultipleSubstitutionRecord::*)(::ArrayW<uint32_t>)>(&::TMPro::MultipleSubstitutionRecord::set_substituteGlyphIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692feec;
+  constexpr static std::size_t addrs = 0x6937968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

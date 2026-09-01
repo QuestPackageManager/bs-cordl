@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/SystemException.hpp"
+// IWYU pragma private; include "System\SystemException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,16 +37,16 @@ public:
 
   static inline ::System::SystemException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5c5a4a8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5e964, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c536c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c57b7c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c535f4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c57ab0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5c5a530, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5e9ec, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/SpawnOverDistance.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\SpawnOverDistance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_VelocityThreshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x69ca750, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d21cc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   SpawnOverDistance_InputProperties(SpawnOverDistance_InputProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19926 };
 
   /// @brief Field Position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___Position;
@@ -156,13 +156,13 @@ public:
 
   static inline ::UnityEngine::VFX::SpawnOverDistance* New_ctor();
 
-  /// @brief Method OnPlay, addr 0x69ca2bc, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method OnPlay, addr 0x69d1d38, size 0x88, virtual true, abstract: false, final true
   inline void OnPlay(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method OnStop, addr 0x69ca5d0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnStop, addr 0x69d204c, size 0x4, virtual true, abstract: false, final true
   inline void OnStop(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method OnUpdate, addr 0x69ca344, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method OnUpdate, addr 0x69d1dc0, size 0x28c, virtual true, abstract: false, final true
   inline void OnUpdate(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_OldPosition() const;
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_m_OldPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x69ca5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d2050, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_clampToOnePropertyId();
@@ -213,7 +213,7 @@ public:
   SpawnOverDistance(SpawnOverDistance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19927 };
 
   /// @brief Field m_OldPosition, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_OldPosition;

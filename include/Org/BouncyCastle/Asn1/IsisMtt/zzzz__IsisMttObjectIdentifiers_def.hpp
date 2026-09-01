@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/IsisMtt/IsisMttObjectIdentifiers.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\IsisMtt\IsisMttObjectIdentifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,7 +88,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::IsisMttObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x34521b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3455f70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIsisMtt();

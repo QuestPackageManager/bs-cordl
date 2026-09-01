@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/Task_WhenAllPromise.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\Task_WhenAllPromise.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
 
-  /// @brief Method Invoke, addr 0x5cc1478, size 0x334, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x5cc5934, size 0x334, virtual true, abstract: false, final true
   inline void Invoke(::System::Threading::Tasks::Task* ignored);
 
   static inline ::GlobalNamespace::Task_WhenAllPromise* New_ctor(::ArrayW<::System::Threading::Tasks::Task*> tasks);
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_m_tasks(::ArrayW<::System::Threading::Tasks::Task*> value);
 
-  /// @brief Method .ctor, addr 0x5cc02fc, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc47b8, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Threading::Tasks::Task*> tasks);
 
-  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x5cc1824, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x5cc5ce0, size 0x8, virtual true, abstract: false, final true
   inline bool get_InvokeMayRunArbitraryCode();
 
-  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x5cc17ac, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x5cc5c68, size 0x78, virtual true, abstract: false, final false
   inline bool get_ShouldNotifyDebuggerOfWaitCompletion();
 
   /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"

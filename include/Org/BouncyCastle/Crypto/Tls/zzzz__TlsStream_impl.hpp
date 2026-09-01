@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsStream_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsProtocol_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)(::Org::BouncyCastle::Crypto::Tls::TlsProtocol*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsStream::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x348ecfc;
+  constexpr static std::size_t addrs = 0x3492abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::get_CanRead)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x348ed60;
+  constexpr static std::size_t addrs = 0x3492b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x348ed90;
+  constexpr static std::size_t addrs = 0x3492b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x348ed98;
+  constexpr static std::size_t addrs = 0x3492b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::Close)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x348edc8;
+  constexpr static std::size_t addrs = 0x3492b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x348edfc;
+  constexpr static std::size_t addrs = 0x3492bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::get_Length)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x348ee1c;
+  constexpr static std::size_t addrs = 0x3492bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::get_Position)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x348ee54;
+  constexpr static std::size_t addrs = 0x3492c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)(int64_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::set_Position)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x348ee8c;
+  constexpr static std::size_t addrs = 0x3492c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsStream::Read)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x348eec4;
+  constexpr static std::size_t addrs = 0x3492c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::ReadByte)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x348eee4;
+  constexpr static std::size_t addrs = 0x3492ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsStream::Seek)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x348ef80;
+  constexpr static std::size_t addrs = 0x3492d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)(int64_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::SetLength)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x348efb8;
+  constexpr static std::size_t addrs = 0x3492d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsStream::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x348eff0;
+  constexpr static std::size_t addrs = 0x3492db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsStream::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsStream::WriteByte)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x348f010;
+  constexpr static std::size_t addrs = 0x3492dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

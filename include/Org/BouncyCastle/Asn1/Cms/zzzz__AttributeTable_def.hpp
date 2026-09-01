@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/AttributeTable.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\AttributeTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,16 +51,16 @@ public:
   /// @brief Field attributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::System::Collections::IDictionary* attributes;
 
-  /// @brief Method Add, addr 0x3350778, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3354538, size 0xd4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* Add(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType, ::Org::BouncyCastle::Asn1::Asn1Encodable* attrValue);
 
-  /// @brief Method AddAttribute, addr 0x334f058, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x3352e18, size 0x35c, virtual false, abstract: false, final false
   inline void AddAttribute(::Org::BouncyCastle::Asn1::Cms::Attribute* a);
 
-  /// @brief Method Get, addr 0x334f6bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x335347c, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attribute* Get(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetAll, addr 0x334f6c0, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method GetAll, addr 0x3353480, size 0x4ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* GetAll(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Cms::Attributes* attrs);
@@ -73,19 +73,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method Remove, addr 0x335084c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x335460c, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* Remove(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType);
 
-  /// @brief Method ToAsn1EncodableVector, addr 0x335008c, size 0x680, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1EncodableVector, addr 0x3353e4c, size 0x680, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ToAsn1EncodableVector();
 
-  /// @brief Method ToAttributes, addr 0x335070c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ToAttributes, addr 0x33544cc, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attributes* ToAttributes();
 
-  /// @brief Method ToDictionary, addr 0x334ffc4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToDictionary, addr 0x3353d84, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* ToDictionary();
 
-  /// @brief Method ToHashtable, addr 0x3350024, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToHashtable, addr 0x3353de4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* ToHashtable();
 
   constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_attributes() const;
@@ -94,25 +94,25 @@ public:
 
   constexpr void __cordl_internal_set_attributes(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x334f49c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335325c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::Attributes* attrs);
 
-  /// @brief Method .ctor, addr 0x334ec90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3352a50, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* attrs);
 
-  /// @brief Method .ctor, addr 0x334ed00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3352ac0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* attrs);
 
-  /// @brief Method .ctor, addr 0x334f3b4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3353174, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* s);
 
-  /// @brief Method .ctor, addr 0x334ed70, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3352b30, size 0x2e8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method get_Count, addr 0x334fb6c, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x335392c, size 0x458, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x334f4d8, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3353298, size 0x1e4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attribute* get_Item(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
 protected:

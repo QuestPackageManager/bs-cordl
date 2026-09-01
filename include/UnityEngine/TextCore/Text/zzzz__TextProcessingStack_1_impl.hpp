@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextProcessingStack_1.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextProcessingStack_1.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_def.hpp"
 template <typename T> inline void UnityEngine::TextCore::Text::TextProcessingStack_1<T>::_ctor(::ArrayW<T> stack) {
   static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Mathematics/Geometry/Math.hpp"
+// IWYU pragma private; include "Unity\Mathematics\Geometry\Math.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ namespace Unity::Mathematics::Geometry {
 class CORDL_TYPE Math : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Transform, addr 0x6615b44, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x661d5c0, size 0x2d4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::RigidTransform transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method Transform, addr 0x6615fbc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x661da38, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float3x3 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method Transform, addr 0x6615e18, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x661d894, size 0x1a4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float4x4 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
 protected:
@@ -55,7 +55,7 @@ public:
   Math(Math const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

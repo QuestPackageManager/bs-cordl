@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/KdfCounterParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\KdfCounterParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,25 +78,25 @@ public:
 
   constexpr void __cordl_internal_set_r(int32_t value);
 
-  /// @brief Method .ctor, addr 0x341016c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3413f2c, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputDataCounterPrefix, ::ArrayW<uint8_t> fixedInputDataCounterSuffix, int32_t r);
 
-  /// @brief Method .ctor, addr 0x341015c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3413f1c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputDataCounterSuffix, int32_t r);
 
-  /// @brief Method get_FixedInputData, addr 0x34102fc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputData, addr 0x34140bc, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_FixedInputData();
 
-  /// @brief Method get_FixedInputDataCounterPrefix, addr 0x341035c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputDataCounterPrefix, addr 0x341411c, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_FixedInputDataCounterPrefix();
 
-  /// @brief Method get_FixedInputDataCounterSuffix, addr 0x34103bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputDataCounterSuffix, addr 0x341417c, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_FixedInputDataCounterSuffix();
 
-  /// @brief Method get_Ki, addr 0x34102f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ki, addr 0x34140b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Ki();
 
-  /// @brief Method get_R, addr 0x341041c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R, addr 0x34141dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_R();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

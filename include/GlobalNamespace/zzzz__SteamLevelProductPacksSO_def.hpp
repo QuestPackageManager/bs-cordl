@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SteamLevelProductPacksSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\SteamLevelProductPacksSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
   constexpr operator ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData*,
                                                                          ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*() noexcept;
 
-  /// @brief Method ILevelPackProductDataContainer<SteamLevelProductCollectionModel.LevelPackProductData,SteamLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x373fc64,
+  /// @brief Method ILevelPackProductDataContainer<SteamLevelProductCollectionModel.LevelPackProductData,SteamLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x37457d4,
   /// size 0x8, virtual true, abstract: false, final true
   inline void ILevelPackProductDataContainer_SteamLevelProductCollectionModel_LevelPackProductData_SteamLevelProductCollectionModel_LevelProductData__SetLevelPackProductData(
       ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData* newLevelPackProductData);
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__levelPackRedirectionData(::ArrayW<::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData*> value);
 
-  /// @brief Method .ctor, addr 0x373fc6c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37457dc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPackProductData, addr 0x373fc54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelPackProductData, addr 0x37457c4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData* get_levelPackProductData();
 
-  /// @brief Method get_levelPackRedirectionData, addr 0x373fc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackRedirectionData, addr 0x37457cc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData*> get_levelPackRedirectionData();
 
   /// @brief Convert to
@@ -100,7 +100,7 @@ public:
   SteamLevelProductPacksSO(SteamLevelProductPacksSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15147 };
 
   /// @brief Field _levelPackProductData, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData* ____levelPackProductData;

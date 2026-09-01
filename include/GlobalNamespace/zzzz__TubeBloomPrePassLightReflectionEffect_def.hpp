@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLightReflectionEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\TubeBloomPrePassLightReflectionEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,13 +81,13 @@ public:
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint* New_ctor();
 
-  /// @brief Method SetActive, addr 0x5999134, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x59a137c, size 0xbc, virtual false, abstract: false, final false
   inline void SetActive(bool enabled, ::UnityEngine::Color mainLightColor);
 
-  /// @brief Method SetCollisionLength, addr 0x59992e0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method SetCollisionLength, addr 0x59a1528, size 0x224, virtual false, abstract: false, final false
   inline void SetCollisionLength(bool rayHitGeometry, ::UnityEngine::RaycastHit hit);
 
-  /// @brief Method SetData, addr 0x59991f0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x59a1438, size 0xf0, virtual false, abstract: false, final false
   inline void SetData(float_t remainingLength, float_t startAlpha, ::UnityEngine::Vector3 hitWorldPosition, ::UnityEngine::Vector3 hitReflection);
 
   constexpr bool const& __cordl_internal_get__hitPointState() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_showHitPoint(bool value);
 
-  /// @brief Method .ctor, addr 0x5999508, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a1750, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,7 +150,7 @@ public:
   TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint(TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5942 };
 
   /// @brief Field light, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ___light;
@@ -221,15 +221,15 @@ public:
                       put = __cordl_internal_set__tubeBloomPrePassLightBounces)) ::ArrayW<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint*>
       _tubeBloomPrePassLightBounces;
 
-  /// @brief Method Awake, addr 0x5998c40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59a0e88, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x5998cbc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59a0f04, size 0x1c8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightReflectionEffect* New_ctor();
 
-  /// @brief Method RaycastAndSetLightLength, addr 0x5998e84, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method RaycastAndSetLightLength, addr 0x59a10cc, size 0x2b0, virtual false, abstract: false, final false
   inline bool RaycastAndSetLightLength(::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint* bounce, ::UnityEngine::Vector3 rayWorldOrigin,
                                        ::UnityEngine::Vector3 rayDirection, ::by_ref<::UnityEngine::Vector3> hitWorldPosition, ::by_ref<::UnityEngine::Vector3> hitReflection, ::by_ref<float_t> length,
                                        ::by_ref<float_t> endAlpha);
@@ -264,7 +264,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLightBounces(::ArrayW<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint*> value);
 
-  /// @brief Method .ctor, addr 0x5999504, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a174c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -282,7 +282,7 @@ public:
   TubeBloomPrePassLightReflectionEffect(TubeBloomPrePassLightReflectionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5943 };
 
   /// @brief Field _mainTubeBloomPrePassLight, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint* ____mainTubeBloomPrePassLight;

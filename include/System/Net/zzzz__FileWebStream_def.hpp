@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/FileWebStream.hpp"
+// IWYU pragma private; include "System\Net\FileWebStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,22 +55,22 @@ public:
   /// @brief Convert operator to "::System::Net::ICloseEx"
   constexpr operator ::System::Net::ICloseEx*() noexcept;
 
-  /// @brief Method BeginRead, addr 0x641c8b8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x6424334, size 0xdc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWrite, addr 0x641ca30, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x64244ac, size 0xdc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method CheckError, addr 0x641c774, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CheckError, addr 0x64241f0, size 0x80, virtual false, abstract: false, final false
   inline void CheckError();
 
-  /// @brief Method Dispose, addr 0x641c5c0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x642403c, size 0xac, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x641c994, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x6424410, size 0x9c, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* ar);
 
-  /// @brief Method EndWrite, addr 0x641cb0c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x6424588, size 0x9c, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* ar);
 
   static inline ::System::Net::FileWebStream* New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access,
@@ -79,13 +79,13 @@ public:
   static inline ::System::Net::FileWebStream* New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access,
                                                        ::System::IO::FileShare sharing, int32_t length, bool async);
 
-  /// @brief Method Read, addr 0x641c6b0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x642412c, size 0xc4, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x641c66c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x64240e8, size 0x44, virtual true, abstract: false, final true
   inline void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
 
-  /// @brief Method Write, addr 0x641c7f4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x6424270, size 0xc4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
   constexpr ::System::Net::FileWebRequest* const& __cordl_internal_get_m_request() const;
@@ -94,10 +94,10 @@ public:
 
   constexpr void __cordl_internal_set_m_request(::System::Net::FileWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x641b878, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64232f4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare sharing);
 
-  /// @brief Method .ctor, addr 0x641c4f8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6423f74, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare sharing, int32_t length, bool async);
 
   /// @brief Convert to "::System::Net::ICloseEx"
@@ -118,7 +118,7 @@ public:
   FileWebStream(FileWebStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11560 };
 
   /// @brief Field m_request, offset: 0x70, size: 0x8, def value: None
   ::System::Net::FileWebRequest* ___m_request;

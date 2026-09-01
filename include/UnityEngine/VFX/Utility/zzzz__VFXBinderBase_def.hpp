@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXBinderBase.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXBinderBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   /// @brief Field binder, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::UnityW<::UnityEngine::VFX::Utility::VFXPropertyBinder> binder;
 
-  /// @brief Method Awake, addr 0x69e1758, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x69e91d4, size 0x54, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method IsValid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -37,16 +37,16 @@ public:
 
   static inline ::UnityEngine::VFX::Utility::VFXBinderBase* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x69e17ac, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x69e9228, size 0xa4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x69dddc0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x69e583c, size 0xec, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Reset, addr 0x69e1754, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x69e91d0, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ToString, addr 0x69e1850, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69e92cc, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method UpdateBinding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_binder(::UnityW<::UnityEngine::VFX::Utility::VFXPropertyBinder> value);
 
-  /// @brief Method .ctor, addr 0x69ddda4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e5820, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   VFXBinderBase(VFXBinderBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20015 };
 
   /// @brief Field binder, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::VFX::Utility::VFXPropertyBinder> ___binder;

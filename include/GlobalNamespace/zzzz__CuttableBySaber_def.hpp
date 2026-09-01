@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CuttableBySaber.hpp"
+// IWYU pragma private; include "GlobalNamespace\CuttableBySaber.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,19 +50,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE CuttableBySaber_WasCutBySaberDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x59e64e4, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x59ee750, size 0xf4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x59e65d8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x59ee844, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x59e64c0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x59ee72c, size 0x24, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
   static inline ::GlobalNamespace::CuttableBySaber_WasCutBySaberDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x59e6378, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ee5e4, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -80,7 +80,7 @@ public:
   CuttableBySaber_WasCutBySaberDelegate(CuttableBySaber_WasCutBySaberDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6220 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -104,7 +104,7 @@ public:
   /// @brief Field wasCutBySaberEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_wasCutBySaberEvent, put = __cordl_internal_set_wasCutBySaberEvent)) ::GlobalNamespace::CuttableBySaber_WasCutBySaberDelegate* wasCutBySaberEvent;
 
-  /// @brief Method CallWasCutBySaberEvent, addr 0x59e6194, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CallWasCutBySaberEvent, addr 0x59ee400, size 0x2c, virtual false, abstract: false, final false
   inline void CallWasCutBySaberEvent(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
   /// @brief Method Cut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -118,10 +118,10 @@ public:
 
   constexpr void __cordl_internal_set_wasCutBySaberEvent(::GlobalNamespace::CuttableBySaber_WasCutBySaberDelegate* value);
 
-  /// @brief Method .ctor, addr 0x59e621c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ee488, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_wasCutBySaberEvent, addr 0x59e6220, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_wasCutBySaberEvent, addr 0x59ee48c, size 0xac, virtual false, abstract: false, final false
   inline void add_wasCutBySaberEvent(::GlobalNamespace::CuttableBySaber_WasCutBySaberDelegate* value);
 
   /// @brief Method get_canBeCut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -130,7 +130,7 @@ public:
   /// @brief Method get_radius, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method remove_wasCutBySaberEvent, addr 0x59e62cc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_wasCutBySaberEvent, addr 0x59ee538, size 0xac, virtual false, abstract: false, final false
   inline void remove_wasCutBySaberEvent(::GlobalNamespace::CuttableBySaber_WasCutBySaberDelegate* value);
 
   /// @brief Method set_canBeCut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -151,7 +151,7 @@ public:
   CuttableBySaber(CuttableBySaber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6221 };
 
   /// @brief Field wasCutBySaberEvent, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::CuttableBySaber_WasCutBySaberDelegate* ___wasCutBySaberEvent;

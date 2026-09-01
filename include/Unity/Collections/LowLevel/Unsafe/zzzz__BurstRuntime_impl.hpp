@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/BurstRuntime.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\BurstRuntime.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstRuntime_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstRuntime_def.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::StringW)>(&::Unity::Collections::LowLevel::Unsafe::BurstRuntime::HashStringWithFNV1A64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6a58374;
+  constexpr static std::size_t addrs = 0x6a5fdf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

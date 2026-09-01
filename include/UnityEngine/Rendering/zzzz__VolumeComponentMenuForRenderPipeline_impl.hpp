@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/VolumeComponentMenuForRenderPipeline.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\VolumeComponentMenuForRenderPipeline.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponentMenu_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeComponentMenuForRenderPipeline_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline::*)()>(
     &::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline::get_pipelineTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c3718;
+  constexpr static std::size_t addrs = 0x67cb194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline::*)(::StringW, ::ArrayW<::System::Type*>)>(
     &::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline::_ctor)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x67c3720;
+  constexpr static std::size_t addrs = 0x67cb19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VolumeComponentMenuForRenderPipeline*>(),

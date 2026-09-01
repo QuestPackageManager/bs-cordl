@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BaseViewControllersInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\BaseViewControllersInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseViewControllersInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__SafeAreaFocusedSimpleDialogPromptViewController_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseViewControllersInstaller::*)()>(&::GlobalNamespace::BaseViewControllersInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x59f2af8;
+  constexpr static std::size_t addrs = 0x59fabcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseViewControllersInstaller::*)()>(&::GlobalNamespace::BaseViewControllersInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59f2bc0;
+  constexpr static std::size_t addrs = 0x59fac94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseViewControllersInstaller*>(), { ".ctor", {}, {} })));

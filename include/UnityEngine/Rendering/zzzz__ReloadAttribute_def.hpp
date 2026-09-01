@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ReloadAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ReloadAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   static ::UnityEngine::Rendering::ReloadAttribute_Package const Root;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11936 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -98,13 +98,13 @@ public:
 
   static inline ::UnityEngine::Rendering::ReloadAttribute* New_ctor(::ArrayW<::StringW> paths, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
-  /// @brief Method .ctor, addr 0x6751804, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6759280, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
-  /// @brief Method .ctor, addr 0x675186c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67592e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW pathFormat, int32_t rangeMin, int32_t rangeMax, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
-  /// @brief Method .ctor, addr 0x6751800, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x675927c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> paths, ::UnityEngine::Rendering::ReloadAttribute_Package package);
 
 protected:
@@ -122,7 +122,7 @@ public:
   ReloadAttribute(ReloadAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11937 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/UnsafeQueueBlockPoolData.hpp"
+// IWYU pragma private; include "Unity\Collections\UnsafeQueueBlockPoolData.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueBlockPoolData_def.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueBlockHeader_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::UnsafeQueueBlockHeader* (::Unity::Collections::UnsafeQueueBlockPoolData::*)()>(
     &::Unity::Collections::UnsafeQueueBlockPoolData::AllocateBlock)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x64c168c;
+  constexpr static std::size_t addrs = 0x64c9108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::UnsafeQueueBlockPoolData>(), { "AllocateBlock", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::UnsafeQueueBlockPoolData::*)(::Unity::Collections::UnsafeQueueBlockHeader*)>(
     &::Unity::Collections::UnsafeQueueBlockPoolData::FreeBlock)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x64c1738;
+  constexpr static std::size_t addrs = 0x64c91b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

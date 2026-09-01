@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ArrayExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ArrayExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ArrayExtensions_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Jobs::TransformAccessArray>, int32_t)>(&::UnityEngine::Rendering::ArrayExtensions::ResizeArray)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x67ad52c;
+  constexpr static std::size_t addrs = 0x67b4fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

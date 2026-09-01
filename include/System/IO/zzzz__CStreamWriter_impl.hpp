@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/CStreamWriter.hpp"
+// IWYU pragma private; include "System\IO\CStreamWriter.hpp"
 #include "System/IO/zzzz__StreamWriter_impl.hpp"
 #include "System/IO/zzzz__CStreamWriter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::CStreamWriter::*)(::System::IO::Stream*, ::System::Text::Encoding*, bool)>(&::System::IO::CStreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5c1df10;
+  constexpr static std::size_t addrs = 0x5c223cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::CStreamWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::IO::CStreamWriter::Write)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x5c1e048;
+  constexpr static std::size_t addrs = 0x5c22504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::CStreamWriter*>(), { ::i2c::class_of<::System::IO::CStreamWriter*>(), 18 }));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::CStreamWriter::*)(char16_t)>(&::System::IO::CStreamWriter::Write)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5c1e418;
+  constexpr static std::size_t addrs = 0x5c228d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::CStreamWriter*>(), { ::i2c::class_of<::System::IO::CStreamWriter*>(), 16 }));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::CStreamWriter::*)(::StringW)>(&::System::IO::CStreamWriter::InternalWriteString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c1e658;
+  constexpr static std::size_t addrs = 0x5c22b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::CStreamWriter::*)(char16_t)>(&::System::IO::CStreamWriter::InternalWriteChar)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c1e5d0;
+  constexpr static std::size_t addrs = 0x5c22a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::CStreamWriter::*)(::ArrayW<char16_t>, int32_t)>(&::System::IO::CStreamWriter::InternalWriteChars)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5c1e6e0;
+  constexpr static std::size_t addrs = 0x5c22b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::CStreamWriter::*)(::ArrayW<char16_t>)>(&::System::IO::CStreamWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c1e770;
+  constexpr static std::size_t addrs = 0x5c22c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::CStreamWriter*>(), { ::i2c::class_of<::System::IO::CStreamWriter*>(), 17 }));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::CStreamWriter::*)(::StringW)>(&::System::IO::CStreamWriter::Write)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5c1e794;
+  constexpr static std::size_t addrs = 0x5c22c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::CStreamWriter*>(), { ::i2c::class_of<::System::IO::CStreamWriter*>(), 19 }));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::CStreamWriter::*)(::StringW)>(&::System::IO::CStreamWriter::WriteLine)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5c1e864;
+  constexpr static std::size_t addrs = 0x5c22d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::CStreamWriter*>(), { ::i2c::class_of<::System::IO::CStreamWriter*>(), 23 }));

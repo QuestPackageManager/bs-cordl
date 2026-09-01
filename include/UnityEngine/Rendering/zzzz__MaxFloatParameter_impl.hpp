@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/MaxFloatParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\MaxFloatParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__FloatParameter_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MaxFloatParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::MaxFloatParameter.get_value
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::MaxFloatParameter::*)()>(&::UnityEngine::Rendering::MaxFloatParameter::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c534c;
+  constexpr static std::size_t addrs = 0x67ccdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MaxFloatParameter::*)(float_t)>(&::UnityEngine::Rendering::MaxFloatParameter::set_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c5354;
+  constexpr static std::size_t addrs = 0x67ccdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MaxFloatParameter::*)(float_t, float_t, bool)>(&::UnityEngine::Rendering::MaxFloatParameter::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67c5368;
+  constexpr static std::size_t addrs = 0x67ccde4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MaxFloatParameter*>(),

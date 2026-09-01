@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/PassFragmentData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\PassFragmentData.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__AccessFlags_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__PassFragmentData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::GetHashCode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67f192c;
+  constexpr static std::size_t addrs = 0x67f93a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity
                                                                 ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData>)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData::SameSubResource)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x67f19b8;
+  constexpr static std::size_t addrs = 0x67f9434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlImageAttributeDescription.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlImageAttributeDescription.hpp"
 #include "UnityEngine/UIElements/zzzz__Background_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlAttributeDescription_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlImageAttributeDescription_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlImageAttributeDescription::*)()>(&::UnityEngine::UIElements::UxmlImageAttributeDescription::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6cb8210;
+  constexpr static std::size_t addrs = 0x6cbfd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlImageAttributeDescription*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlImageAttributeDescription::*)(::UnityEngine::UIElements::Background)>(
     &::UnityEngine::UIElements::UxmlImageAttributeDescription::set_defaultValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6cb8290;
+  constexpr static std::size_t addrs = 0x6cbfe14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlImageAttributeDescription*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Background (::UnityEngine::UIElements::UxmlImageAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlImageAttributeDescription::GetValueFromBag)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6cb82a0;
+  constexpr static std::size_t addrs = 0x6cbfe24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

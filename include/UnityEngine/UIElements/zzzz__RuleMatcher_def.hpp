@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/RuleMatcher.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\RuleMatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE RuleMatcher {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x6cb2a44, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6cba5c8, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

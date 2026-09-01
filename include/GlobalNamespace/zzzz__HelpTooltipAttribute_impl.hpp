@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HelpTooltipAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\HelpTooltipAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpTooltipAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HelpTooltipAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpTooltipAttribute::*)(::StringW)>(&::GlobalNamespace::HelpTooltipAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x330765c;
+  constexpr static std::size_t addrs = 0x330b458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

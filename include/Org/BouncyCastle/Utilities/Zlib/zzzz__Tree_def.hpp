@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/Tree.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\Tree.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_stat_desc(::Org::BouncyCastle::Utilities::Zlib::StaticTree* value);
 
-  /// @brief Method .ctor, addr 0x3635994, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3639754, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method bi_reverse, addr 0x36356f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method bi_reverse, addr 0x36394b4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t bi_reverse(int32_t code, int32_t len);
 
-  /// @brief Method build_tree, addr 0x36350f8, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method build_tree, addr 0x3638eb8, size 0x470, virtual false, abstract: false, final false
   inline void build_tree(::Org::BouncyCastle::Utilities::Zlib::Deflate* s);
 
-  /// @brief Method d_code, addr 0x3634d8c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method d_code, addr 0x3638b4c, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t d_code(int32_t dist);
 
-  /// @brief Method gen_bitlen, addr 0x3634e48, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method gen_bitlen, addr 0x3638c08, size 0x2b0, virtual false, abstract: false, final false
   inline void gen_bitlen(::Org::BouncyCastle::Utilities::Zlib::Deflate* s);
 
-  /// @brief Method gen_codes, addr 0x3635568, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method gen_codes, addr 0x3639328, size 0x18c, virtual false, abstract: false, final false
   static inline void gen_codes(::ArrayW<int16_t> tree, int32_t max_code, ::ArrayW<int16_t> bl_count);
 
   static inline ::ArrayW<uint8_t> getStaticF__dist_code();

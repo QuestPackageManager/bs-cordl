@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/UIKeyboardKey.hpp"
+// IWYU pragma private; include "HMUI\UIKeyboardKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,12 +46,14 @@ public:
 
   __declspec(property(get = get_keyCode)) ::UnityEngine::KeyCode keyCode;
 
-  /// @brief Method Awake, addr 0x587c2b4, size 0xa4, virtual false, abstract: false, final false
+  __declspec(property(get = get_textComponent)) ::UnityW<::TMPro::TextMeshProUGUI> textComponent;
+
+  /// @brief Method Awake, addr 0x587bbfc, size 0xa4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::UIKeyboardKey* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x587c358, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x587bca0, size 0xe4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr bool const& __cordl_internal_get__canBeUppercase() const;
@@ -84,14 +86,17 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x587c43c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587bd84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeUppercase, addr 0x587c2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_canBeUppercase, addr 0x587bbec, size 0x8, virtual false, abstract: false, final false
   inline bool get_canBeUppercase();
 
-  /// @brief Method get_keyCode, addr 0x587c2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x587bbe4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::KeyCode get_keyCode();
+
+  /// @brief Method get_textComponent, addr 0x587bbf4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::TMPro::TextMeshProUGUI> get_textComponent();
 
 protected:
   // Ctor Parameters []
@@ -108,7 +113,7 @@ public:
   UIKeyboardKey(UIKeyboardKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19050 };
 
   /// @brief Field _keyCode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode;

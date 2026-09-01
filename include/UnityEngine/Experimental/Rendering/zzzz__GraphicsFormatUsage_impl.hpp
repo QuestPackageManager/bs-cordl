@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Rendering/GraphicsFormatUsage.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Rendering\GraphicsFormatUsage.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormatUsage_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Experimental::Rendering::GraphicsFormatUsage::GraphicsFormatUsage(int32_t value__) noexcept {

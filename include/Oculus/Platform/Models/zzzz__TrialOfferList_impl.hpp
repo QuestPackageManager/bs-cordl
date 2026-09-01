@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/TrialOfferList.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\TrialOfferList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__TrialOfferList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__TrialOffer_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::TrialOfferList::*)(::System::IntPtr)>(&::Oculus::Platform::Models::TrialOfferList::_ctor)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5de9a34;
+  constexpr static std::size_t addrs = 0x5dedef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

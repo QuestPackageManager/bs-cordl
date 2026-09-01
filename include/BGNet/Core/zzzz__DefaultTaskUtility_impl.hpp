@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet/Core/DefaultTaskUtility.hpp"
+// IWYU pragma private; include "BGNet\Core\DefaultTaskUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGNet/Core/zzzz__DefaultTaskUtility_def.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BGNet::Core::DefaultTaskUtility::*)(::System::TimeSpan, ::System::Threading::CancellationToken)>(
     &::BGNet::Core::DefaultTaskUtility::Delay)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x333f460;
+  constexpr static std::size_t addrs = 0x3343220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::CancellationToken (::BGNet::Core::DefaultTaskUtility::*)(::System::TimeSpan)>(
     &::BGNet::Core::DefaultTaskUtility::CancellationTokenWithDelay)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x333f4cc;
+  constexpr static std::size_t addrs = 0x334328c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::DefaultTaskUtility::*)(::System::Threading::Tasks::Task*)>(&::BGNet::Core::DefaultTaskUtility::Wait)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x333f53c;
+  constexpr static std::size_t addrs = 0x33432fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BGNet::Core::DefaultTaskUtility::*)(::System::Action*, ::System::Threading::CancellationToken)>(
     &::BGNet::Core::DefaultTaskUtility::Run)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x333f558;
+  constexpr static std::size_t addrs = 0x3343318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::BGNet::Core::DefaultTaskUtility::*)(::System::Func_1<::System::Threading::Tasks::Task*>*, ::System::Threading::CancellationToken)>(&::BGNet::Core::DefaultTaskUtility::Run)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x333f5c4;
+  constexpr static std::size_t addrs = 0x3343384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGNet::Core::DefaultTaskUtility::*)()>(&::BGNet::Core::DefaultTaskUtility::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x333f630;
+  constexpr static std::size_t addrs = 0x33433f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGNet::Core::DefaultTaskUtility*>(), { ".ctor", {}, {} })));

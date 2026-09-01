@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerGenerator.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Generator_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGenerator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerGenerator::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::DerGenerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x368c05c;
+  constexpr static std::size_t addrs = 0x368fe1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerGenerator::*)(::System::IO::Stream*, int32_t, bool)>(&::Org::BouncyCastle::Asn1::DerGenerator::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x368c068;
+  constexpr static std::size_t addrs = 0x368fe28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*, int32_t)>(&::Org::BouncyCastle::Asn1::DerGenerator::WriteLength)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x368c080;
+  constexpr static std::size_t addrs = 0x368fe40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*, int32_t, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::DerGenerator::WriteDerEncoded)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x368c13c;
+  constexpr static std::size_t addrs = 0x368fefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerGenerator::*)(int32_t, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::DerGenerator::WriteDerEncoded)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x368c19c;
+  constexpr static std::size_t addrs = 0x368ff5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*, int32_t, ::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::DerGenerator::WriteDerEncoded)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x368c27c;
+  constexpr static std::size_t addrs = 0x369003c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

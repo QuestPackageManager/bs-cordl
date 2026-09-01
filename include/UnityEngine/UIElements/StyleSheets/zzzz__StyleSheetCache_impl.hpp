@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleSheetCache.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleSheetCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StyleSheetCache_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey::*)(::UnityEngine::UIElements::StyleSheet*, int32_t)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6d0ff9c;
+  constexpr static std::size_t addrs = 0x6d17b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey>(),
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey, ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer::Equals)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d10280;
+  constexpr static std::size_t addrs = 0x6d17e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer::*)(
     ::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKey)>(&::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer::GetHashCode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d1028c;
+  constexpr static std::size_t addrs = 0x6d17e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetCache_SheetHandleKeyComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d1027c;
+  constexpr static std::size_t addrs = 0x6d17e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId> (*)(::UnityEngine::UIElements::StyleSheet*, int32_t)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetCache::GetPropertyIds)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6d0ae54;
+  constexpr static std::size_t addrs = 0x6d129d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId> (*)(::UnityEngine::UIElements::StyleRule*)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetCache::GetPropertyIds)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6d100b0;
+  constexpr static std::size_t addrs = 0x6d17c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::StyleSheetCache*>(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleSheets::StylePropertyId (*)(::UnityEngine::UIElements::StyleRule*, int32_t)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetCache::GetPropertyId)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6d0ffd0;
+  constexpr static std::size_t addrs = 0x6d17b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

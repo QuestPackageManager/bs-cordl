@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/CryptographicOperations.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\CryptographicOperations.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__CryptographicOperations_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Span_1<uint8_t>)>(&::System::Security::Cryptography::CryptographicOperations::ZeroMemory)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5af2a68;
+  constexpr static std::size_t addrs = 0x5af6f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

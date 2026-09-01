@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/TransferCodingWithQualityHeaderValue.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\TransferCodingWithQualityHeaderValue.hpp"
 #include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__TransferCodingWithQualityHeaderValue_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60e8ca0;
+  constexpr static std::size_t addrs = 0x60f071c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::StringW, int32_t, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*>)>(
         &::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60e8ca4;
+  constexpr static std::size_t addrs = 0x60f0720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ::by_ref<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>,
                                                                 ::by_ref<::System::Net::Http::Headers::Token>)>(&::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TryParseElement)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x60e8d58;
+  constexpr static std::size_t addrs = 0x60f07d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

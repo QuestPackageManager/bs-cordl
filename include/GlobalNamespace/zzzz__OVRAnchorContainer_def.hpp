@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRAnchorContainer.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRAnchorContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,55 +76,55 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRAnchorContainer>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRAnchorContainer>*();
 
-  /// @brief Method Equals, addr 0x5e125d8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5e16a94, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5e12488, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5e16944, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRAnchorContainer other);
 
-  /// @brief Method FetchAnchorsAsync, addr 0x5e12934, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FetchAnchorsAsync, addr 0x5e16df0, size 0xc0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchAnchorsAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
-  /// @brief Method FetchChildrenAsync, addr 0x5e12888, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method FetchChildrenAsync, addr 0x5e16d44, size 0xac, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> FetchChildrenAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
-  /// @brief Method GetHashCode, addr 0x5e12668, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5e16b24, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRAnchorContainer>.FromAnchor, addr 0x5e1225c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRAnchorContainer>.FromAnchor, addr 0x5e16718, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRAnchorContainer IOVRAnchorComponent_OVRAnchorContainer__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRAnchorContainer>.SetEnabledAsync, addr 0x5e1243c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRAnchorContainer>.SetEnabledAsync, addr 0x5e168f8, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> IOVRAnchorComponent_OVRAnchorContainer__SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method IOVRAnchorComponent<OVRAnchorContainer>.get_Handle, addr 0x5e12204, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRAnchorContainer>.get_Handle, addr 0x5e166c0, size 0x58, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRAnchorContainer__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRAnchorContainer>.get_Type, addr 0x5e121a8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRAnchorContainer>.get_Type, addr 0x5e16664, size 0x54, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRAnchorContainer__get_Type();
 
-  /// @brief Method ToString, addr 0x5e126d4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5e16b90, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x5e1228c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e16748, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRAnchorContainer getStaticF_Null();
 
-  /// @brief Method get_Handle, addr 0x5e12794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5e16c50, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x5e12354, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x5e16810, size 0xe8, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x5e122f4, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x5e167b0, size 0x60, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Type, addr 0x5e121fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5e166b8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
-  /// @brief Method get_Uuids, addr 0x5e1279c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_Uuids, addr 0x5e16c58, size 0xec, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Guid> get_Uuids();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRAnchorContainer>"
@@ -133,10 +133,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRAnchorContainer>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRAnchorContainer>* i___System__IEquatable_1___GlobalNamespace__OVRAnchorContainer_();
 
-  /// @brief Method op_Equality, addr 0x5e124f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5e169b0, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRAnchorContainer lhs, ::GlobalNamespace::OVRAnchorContainer rhs);
 
-  /// @brief Method op_Inequality, addr 0x5e12564, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5e16a20, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRAnchorContainer lhs, ::GlobalNamespace::OVRAnchorContainer rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRAnchorContainer value);
@@ -149,7 +149,7 @@ public:
   constexpr OVRAnchorContainer(uint64_t _Handle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7114 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

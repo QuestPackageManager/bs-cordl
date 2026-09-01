@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DefaultTlsSignerCredentials.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\DefaultTlsSignerCredentials.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
   /// @brief Field mSigner, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_mSigner, put = __cordl_internal_set_mSigner)) ::Org::BouncyCastle::Crypto::Tls::TlsSigner* mSigner;
 
-  /// @brief Method GenerateCertificateSignature, addr 0x343cd10, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method GenerateCertificateSignature, addr 0x3440ad0, size 0x240, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GenerateCertificateSignature(::ArrayW<uint8_t> hash);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials*
@@ -97,17 +97,17 @@ public:
 
   constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner* value);
 
-  /// @brief Method .ctor, addr 0x343c910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34406d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor, addr 0x343c918, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34406d8, size 0x3f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                     ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* signatureAndHashAlgorithm);
 
-  /// @brief Method get_Certificate, addr 0x343cd08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x3440ac8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
-  /// @brief Method get_SignatureAndHashAlgorithm, addr 0x343cf50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureAndHashAlgorithm, addr 0x3440d10, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_SignatureAndHashAlgorithm();
 
 protected:

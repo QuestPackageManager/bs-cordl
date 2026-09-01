@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PathsHolder.hpp"
+// IWYU pragma private; include "GlobalNamespace\PathsHolder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PathsHolder_def.hpp"
 #include "GlobalNamespace/zzzz__BezierPath_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BezierPath* (::GlobalNamespace::PathsHolder::*)()>(&::GlobalNamespace::PathsHolder::get_bezierPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5900e34;
+  constexpr static std::size_t addrs = 0x5904404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PathsHolder*>(), { "get_bezierPath", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VertexPath* (::GlobalNamespace::PathsHolder::*)()>(&::GlobalNamespace::PathsHolder::get_vertexPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5900e3c;
+  constexpr static std::size_t addrs = 0x590440c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PathsHolder*>(), { "get_vertexPath", {}, {} })));
@@ -32,8 +32,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Vertex
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PathsHolder::*)(int32_t, bool)>(&::GlobalNamespace::PathsHolder::_ctor)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5900e44;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5904414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PathsHolder::*)()>(&::GlobalNamespace::PathsHolder::UpdateVertexPathByBezierPath)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59014c4;
+  constexpr static std::size_t addrs = 0x5904aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PathsHolder*>(), { "UpdateVertexPathByBezierPath", {}, {} })));

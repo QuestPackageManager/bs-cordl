@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/XmlObjectSerializerWriteContext.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\XmlObjectSerializerWriteContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,12 +137,12 @@ public:
   __declspec(property(get = __cordl_internal_get_xmlSerializableWriter,
                       put = __cordl_internal_set_xmlSerializableWriter)) ::System::Runtime::Serialization::XmlSerializableWriter* xmlSerializableWriter;
 
-  /// @brief Method CreateContext, addr 0x61660a8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateContext, addr 0x616db24, size 0x104, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* CreateContext(::System::Runtime::Serialization::DataContractSerializer* serializer,
                                                                                                  ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
                                                                                                  ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method CreateContext, addr 0x6166234, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateContext, addr 0x616dcb0, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* CreateContext(::System::Runtime::Serialization::NetDataContractSerializer* serializer,
                                                                                                  ::System::Collections::Hashtable* surrogateDataContracts);
 
@@ -155,30 +155,30 @@ public:
   /// @brief Method GetNullableValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetNullableValue(::System::Nullable_1<T> value);
 
-  /// @brief Method GetObjectData, addr 0x6167db8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x616f834, size 0xc8, virtual false, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::ISerializable* obj, ::System::Runtime::Serialization::SerializationInfo* serInfo,
                             ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method HandleGraphAtTopLevel, addr 0x61675bc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HandleGraphAtTopLevel, addr 0x616f038, size 0x124, virtual false, abstract: false, final false
   inline void HandleGraphAtTopLevel(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::DataContract* contract);
 
-  /// @brief Method IncrementArrayCount, addr 0x6167904, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IncrementArrayCount, addr 0x616f380, size 0x58, virtual false, abstract: false, final false
   inline void IncrementArrayCount(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Array* array);
 
-  /// @brief Method IncrementCollectionCount, addr 0x616799c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IncrementCollectionCount, addr 0x616f418, size 0xe0, virtual false, abstract: false, final false
   inline void IncrementCollectionCount(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Collections::ICollection* collection);
 
-  /// @brief Method IncrementCollectionCount, addr 0x616795c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IncrementCollectionCount, addr 0x616f3d8, size 0x40, virtual false, abstract: false, final false
   inline void IncrementCollectionCount(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, int32_t size);
 
   /// @brief Method IncrementCollectionCountGeneric, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void IncrementCollectionCountGeneric(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Collections::Generic::ICollection_1<T>* collection);
 
-  /// @brief Method InternalSerialize, addr 0x6166494, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method InternalSerialize, addr 0x616df10, size 0x1fc, virtual true, abstract: false, final false
   inline void InternalSerialize(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, bool isDeclaredType, bool writeXsiType, int32_t declaredTypeID,
                                 ::System::RuntimeTypeHandle declaredTypeHandle);
 
-  /// @brief Method InternalSerializeReference, addr 0x61663f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InternalSerializeReference, addr 0x616de70, size 0xa0, virtual false, abstract: false, final false
   inline void InternalSerializeReference(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, bool isDeclaredType, bool writeXsiType, int32_t declaredTypeID,
                                          ::System::RuntimeTypeHandle declaredTypeHandle);
 
@@ -188,150 +188,150 @@ public:
 
   static inline ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* New_ctor(::System::Runtime::Serialization::NetDataContractSerializer* serializer);
 
-  /// @brief Method OnEndHandleReference, addr 0x6167890, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnEndHandleReference, addr 0x616f30c, size 0x2c, virtual true, abstract: false, final false
   inline void OnEndHandleReference(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, bool canContainCyclicReference);
 
-  /// @brief Method OnHandleIsReference, addr 0x6166768, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method OnHandleIsReference, addr 0x616e1e4, size 0x298, virtual false, abstract: false, final false
   inline bool OnHandleIsReference(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::DataContract* contract, ::System::Object* obj);
 
-  /// @brief Method OnHandleReference, addr 0x61676e0, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method OnHandleReference, addr 0x616f15c, size 0x1b0, virtual true, abstract: false, final false
   inline bool OnHandleReference(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, bool canContainCyclicReference);
 
-  /// @brief Method ResolveType, addr 0x6168008, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ResolveType, addr 0x616fa84, size 0x1e8, virtual false, abstract: false, final false
   inline bool ResolveType(::System::Type* objectType, ::System::Type* declaredType, ::by_ref<::System::Xml::XmlDictionaryString*> typeName,
                           ::by_ref<::System::Xml::XmlDictionaryString*> typeNamespace);
 
-  /// @brief Method SerializeAndVerifyType, addr 0x6166b58, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method SerializeAndVerifyType, addr 0x616e5d4, size 0x1c4, virtual false, abstract: false, final false
   inline void SerializeAndVerifyType(::System::Runtime::Serialization::DataContract* dataContract, ::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj,
                                      bool verifyKnownType, ::System::RuntimeTypeHandle declaredTypeHandle, ::System::Type* declaredType);
 
-  /// @brief Method SerializeWithXsiType, addr 0x6166d1c, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method SerializeWithXsiType, addr 0x616e798, size 0x304, virtual true, abstract: false, final false
   inline void SerializeWithXsiType(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::RuntimeTypeHandle objectTypeHandle, ::System::Type* objectType,
                                    int32_t declaredTypeID, ::System::RuntimeTypeHandle declaredTypeHandle, ::System::Type* declaredType);
 
-  /// @brief Method SerializeWithXsiTypeAtTopLevel, addr 0x6166a00, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method SerializeWithXsiTypeAtTopLevel, addr 0x616e47c, size 0xf4, virtual true, abstract: false, final false
   inline void SerializeWithXsiTypeAtTopLevel(::System::Runtime::Serialization::DataContract* dataContract, ::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj,
                                              ::System::RuntimeTypeHandle originalDeclaredTypeHandle, ::System::Type* graphType);
 
-  /// @brief Method SerializeWithoutXsiType, addr 0x6166690, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SerializeWithoutXsiType, addr 0x616e10c, size 0xd8, virtual false, abstract: false, final false
   inline void SerializeWithoutXsiType(::System::Runtime::Serialization::DataContract* dataContract, ::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj,
                                       ::System::RuntimeTypeHandle declaredTypeHandle);
 
-  /// @brief Method StoreIsGetOnlyCollection, addr 0x61663e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StoreIsGetOnlyCollection, addr 0x616de64, size 0xc, virtual false, abstract: false, final false
   inline void StoreIsGetOnlyCollection();
 
-  /// @brief Method ThrowRequiredMemberMustBeEmitted, addr 0x6167a80, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ThrowRequiredMemberMustBeEmitted, addr 0x616f4fc, size 0xd8, virtual false, abstract: false, final false
   static inline void ThrowRequiredMemberMustBeEmitted(::StringW memberName, ::System::Type* type);
 
-  /// @brief Method TryWriteDeserializedExtensionData, addr 0x61698cc, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method TryWriteDeserializedExtensionData, addr 0x6171348, size 0x1a8, virtual false, abstract: false, final false
   inline bool TryWriteDeserializedExtensionData(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::IDataNode* dataNode);
 
-  /// @brief Method WriteAnyType, addr 0x6167038, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteAnyType, addr 0x616eab4, size 0x1c, virtual true, abstract: false, final false
   inline void WriteAnyType(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* value);
 
-  /// @brief Method WriteArraySize, addr 0x6167a7c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteArraySize, addr 0x616f4f8, size 0x4, virtual true, abstract: false, final false
   inline void WriteArraySize(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, int32_t size);
 
-  /// @brief Method WriteBase64, addr 0x61671d0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteBase64, addr 0x616ec4c, size 0x24, virtual true, abstract: false, final false
   inline void WriteBase64(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::ArrayW<uint8_t> value);
 
-  /// @brief Method WriteBase64, addr 0x61671f4, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method WriteBase64, addr 0x616ec70, size 0xf8, virtual true, abstract: false, final false
   inline void WriteBase64(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::ArrayW<uint8_t> value, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method WriteClrTypeInfo, addr 0x6167020, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method WriteClrTypeInfo, addr 0x616ea9c, size 0x8, virtual true, abstract: false, final false
   inline bool WriteClrTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::DataContract* dataContract);
 
-  /// @brief Method WriteClrTypeInfo, addr 0x6167028, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method WriteClrTypeInfo, addr 0x616eaa4, size 0x8, virtual true, abstract: false, final false
   inline bool WriteClrTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Type* dataContractType, ::StringW clrTypeName, ::StringW clrAssemblyName);
 
-  /// @brief Method WriteClrTypeInfo, addr 0x6167030, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method WriteClrTypeInfo, addr 0x616eaac, size 0x8, virtual true, abstract: false, final false
   inline bool WriteClrTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Type* dataContractType, ::System::Runtime::Serialization::SerializationInfo* serInfo);
 
-  /// @brief Method WriteDataContractValue, addr 0x6169a74, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method WriteDataContractValue, addr 0x61714f0, size 0x2c, virtual true, abstract: false, final false
   inline void WriteDataContractValue(::System::Runtime::Serialization::DataContract* dataContract, ::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj,
                                      ::System::RuntimeTypeHandle declaredTypeHandle);
 
-  /// @brief Method WriteExtensionClassData, addr 0x6168dac, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method WriteExtensionClassData, addr 0x6170828, size 0x18c, virtual false, abstract: false, final false
   inline void WriteExtensionClassData(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::ClassDataNode* dataNode);
 
-  /// @brief Method WriteExtensionCollectionData, addr 0x6168f38, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method WriteExtensionCollectionData, addr 0x61709b4, size 0x1d0, virtual false, abstract: false, final false
   inline void WriteExtensionCollectionData(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::CollectionDataNode* dataNode);
 
-  /// @brief Method WriteExtensionData, addr 0x61681f0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method WriteExtensionData, addr 0x616fc6c, size 0x18c, virtual false, abstract: false, final false
   inline void WriteExtensionData(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::ExtensionDataObject* extensionData, int32_t memberIndex);
 
-  /// @brief Method WriteExtensionDataMember, addr 0x616837c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method WriteExtensionDataMember, addr 0x616fdf8, size 0x5c, virtual false, abstract: false, final false
   inline void WriteExtensionDataMember(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::ExtensionDataMember* member);
 
-  /// @brief Method WriteExtensionDataTypeInfo, addr 0x6168adc, size 0x2d0, virtual true, abstract: false, final false
+  /// @brief Method WriteExtensionDataTypeInfo, addr 0x6170558, size 0x2d0, virtual true, abstract: false, final false
   inline void WriteExtensionDataTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::IDataNode* dataNode);
 
-  /// @brief Method WriteExtensionDataValue, addr 0x61683d8, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method WriteExtensionDataValue, addr 0x616fe54, size 0x704, virtual false, abstract: false, final false
   inline void WriteExtensionDataValue(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::IDataNode* dataNode);
 
-  /// @brief Method WriteExtensionISerializableData, addr 0x6169688, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method WriteExtensionISerializableData, addr 0x6171104, size 0x244, virtual false, abstract: false, final false
   inline void WriteExtensionISerializableData(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::ISerializableDataNode* dataNode);
 
-  /// @brief Method WriteExtensionXmlData, addr 0x6169108, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method WriteExtensionXmlData, addr 0x6170b84, size 0x580, virtual false, abstract: false, final false
   inline void WriteExtensionXmlData(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::XmlDataNode* dataNode);
 
-  /// @brief Method WriteISerializable, addr 0x6167e80, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method WriteISerializable, addr 0x616f8fc, size 0x188, virtual false, abstract: false, final false
   inline void WriteISerializable(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Runtime::Serialization::ISerializable* obj);
 
-  /// @brief Method WriteIXmlSerializable, addr 0x615ab58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WriteIXmlSerializable, addr 0x61625d4, size 0x74, virtual false, abstract: false, final false
   inline void WriteIXmlSerializable(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj);
 
-  /// @brief Method WriteIXmlSerializable, addr 0x6167b58, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method WriteIXmlSerializable, addr 0x616f5d4, size 0x260, virtual false, abstract: false, final false
   static inline void WriteIXmlSerializable(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj,
                                            ::System::Runtime::Serialization::XmlSerializableWriter* xmlSerializableWriter);
 
-  /// @brief Method WriteNull, addr 0x6169aa0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method WriteNull, addr 0x617151c, size 0x8, virtual true, abstract: false, final false
   inline void WriteNull(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter);
 
-  /// @brief Method WriteNull, addr 0x61678bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteNull, addr 0x616f338, size 0x48, virtual false, abstract: false, final false
   inline void WriteNull(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Type* memberType, bool isMemberTypeSerializable);
 
-  /// @brief Method WriteNull, addr 0x6167150, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteNull, addr 0x616ebcc, size 0x80, virtual false, abstract: false, final false
   inline void WriteNull(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Type* memberType, bool isMemberTypeSerializable, ::System::Xml::XmlDictionaryString* name,
                         ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method WriteQName, addr 0x6167428, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WriteQName, addr 0x616eea4, size 0x28, virtual true, abstract: false, final false
   inline void WriteQName(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method WriteQName, addr 0x6167450, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method WriteQName, addr 0x616eecc, size 0x16c, virtual true, abstract: false, final false
   inline void WriteQName(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Xml::XmlQualifiedName* value, ::System::Xml::XmlDictionaryString* name,
                          ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method WriteResolvedTypeInfo, addr 0x6166af4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WriteResolvedTypeInfo, addr 0x616e570, size 0x64, virtual false, abstract: false, final false
   inline void WriteResolvedTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Type* objectType, ::System::Type* declaredType);
 
-  /// @brief Method WriteRootIXmlSerializable, addr 0x615aaf4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WriteRootIXmlSerializable, addr 0x6162570, size 0x64, virtual false, abstract: false, final false
   static inline void WriteRootIXmlSerializable(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj);
 
-  /// @brief Method WriteSerializationInfo, addr 0x61593c8, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method WriteSerializationInfo, addr 0x6160e44, size 0x2ec, virtual false, abstract: false, final false
   inline void WriteSerializationInfo(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Type* objType, ::System::Runtime::Serialization::SerializationInfo* serInfo);
 
-  /// @brief Method WriteString, addr 0x6167054, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteString, addr 0x616ead0, size 0x30, virtual true, abstract: false, final false
   inline void WriteString(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::StringW value);
 
-  /// @brief Method WriteString, addr 0x6167084, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method WriteString, addr 0x616eb00, size 0xcc, virtual true, abstract: false, final false
   inline void WriteString(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::StringW value, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method WriteTypeInfo, addr 0x6169aa8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method WriteTypeInfo, addr 0x6171524, size 0xc4, virtual true, abstract: false, final false
   inline bool WriteTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Runtime::Serialization::DataContract* contract,
                             ::System::Runtime::Serialization::DataContract* declaredContract);
 
-  /// @brief Method WriteTypeInfo, addr 0x6169b6c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method WriteTypeInfo, addr 0x61715e8, size 0xa8, virtual true, abstract: false, final false
   inline void WriteTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::StringW dataContractName, ::StringW dataContractNamespace);
 
-  /// @brief Method WriteTypeInfo, addr 0x6169c14, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method WriteTypeInfo, addr 0x6171690, size 0xa8, virtual true, abstract: false, final false
   inline void WriteTypeInfo(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Xml::XmlDictionaryString* dataContractName,
                             ::System::Xml::XmlDictionaryString* dataContractNamespace);
 
-  /// @brief Method WriteUri, addr 0x61672ec, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteUri, addr 0x616ed68, size 0x1c, virtual true, abstract: false, final false
   inline void WriteUri(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Uri* value);
 
-  /// @brief Method WriteUri, addr 0x6167308, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method WriteUri, addr 0x616ed84, size 0x120, virtual true, abstract: false, final false
   inline void WriteUri(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Uri* value, ::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
   constexpr ::System::Runtime::Serialization::ObjectReferenceStack const& __cordl_internal_get_byValObjectsInScope() const;
@@ -376,26 +376,26 @@ public:
 
   constexpr void __cordl_internal_set_xmlSerializableWriter(::System::Runtime::Serialization::XmlSerializableWriter* value);
 
-  /// @brief Method .ctor, addr 0x61661ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x616dc28, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::DataContractSerializer* serializer, ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
                     ::System::Runtime::Serialization::DataContractResolver* resolver);
 
-  /// @brief Method .ctor, addr 0x61662ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x616dd68, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::NetDataContractSerializer* serializer);
 
-  /// @brief Method get_IsGetOnlyCollection, addr 0x61663c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsGetOnlyCollection, addr 0x616de44, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsGetOnlyCollection();
 
-  /// @brief Method get_SerializeReadOnlyTypes, addr 0x61663d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializeReadOnlyTypes, addr 0x616de54, size 0x8, virtual false, abstract: false, final false
   inline bool get_SerializeReadOnlyTypes();
 
-  /// @brief Method get_SerializedObjects, addr 0x6166364, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_SerializedObjects, addr 0x616dde0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectToIdCache* get_SerializedObjects();
 
-  /// @brief Method get_UnsafeTypeForwardingEnabled, addr 0x61663e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnsafeTypeForwardingEnabled, addr 0x616de5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UnsafeTypeForwardingEnabled();
 
-  /// @brief Method set_IsGetOnlyCollection, addr 0x61663d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IsGetOnlyCollection, addr 0x616de4c, size 0x8, virtual true, abstract: false, final false
   inline void set_IsGetOnlyCollection(bool value);
 
 protected:
@@ -413,7 +413,7 @@ public:
   XmlObjectSerializerWriteContext(XmlObjectSerializerWriteContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17143 };
 
   /// @brief Field byValObjectsInScope, offset: 0x78, size: 0x20, def value: None
   ::System::Runtime::Serialization::ObjectReferenceStack ___byValObjectsInScope;

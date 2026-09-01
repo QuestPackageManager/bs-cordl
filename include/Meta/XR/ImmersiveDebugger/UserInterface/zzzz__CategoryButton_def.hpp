@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/CategoryButton.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\CategoryButton.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::CategoryButton* New_ctor();
 
-  /// @brief Method Setup, addr 0x5a44c50, size 0x2d8, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a4910c, size 0x2d8, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::Meta::XR::ImmersiveDebugger::Manager::Category const& __cordl_internal_get__category() const;
@@ -87,19 +87,19 @@ public:
 
   constexpr void __cordl_internal_set__subLabel(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Label> value);
 
-  /// @brief Method .ctor, addr 0x5a45004, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a494c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Category, addr 0x5a44a5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Category, addr 0x5a48f18, size 0xc, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Category get_Category();
 
-  /// @brief Method get_Counter, addr 0x5a44b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Counter, addr 0x5a48fbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Counter();
 
-  /// @brief Method set_Category, addr 0x5a44a68, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_Category, addr 0x5a48f24, size 0x98, virtual false, abstract: false, final false
   inline void set_Category(::Meta::XR::ImmersiveDebugger::Manager::Category value);
 
-  /// @brief Method set_Counter, addr 0x5a44b08, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_Counter, addr 0x5a48fc4, size 0x148, virtual false, abstract: false, final false
   inline void set_Counter(int32_t value);
 
 protected:
@@ -117,7 +117,7 @@ public:
   CategoryButton(CategoryButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18359 };
 
   /// @brief Field _category, offset: 0xb8, size: 0x10, def value: None
   ::Meta::XR::ImmersiveDebugger::Manager::Category ____category;

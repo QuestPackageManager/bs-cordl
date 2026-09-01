@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NclUtilities.hpp"
+// IWYU pragma private; include "System\Net\NclUtilities.hpp"
 #include "System/Net/zzzz__IPAddress_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NclUtilities_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Exception*)>(&::System::Net::NclUtilities::IsFatal)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x64060c0;
+  constexpr static std::size_t addrs = 0x640db3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Net::IPAddress*)>(&::System::Net::NclUtilities::IsAddressLocal)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6406198;
+  constexpr static std::size_t addrs = 0x640dc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPHostEntry* (*)()>(&::System::Net::NclUtilities::GetLocalHost)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64066d4;
+  constexpr static std::size_t addrs = 0x640e150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NclUtilities*>(), { "GetLocalHost", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Net::IPAddress*> (*)()>(&::System::Net::NclUtilities::get_LocalAddresses)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x6406224;
+  constexpr static std::size_t addrs = 0x640dca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NclUtilities*>(), { "get_LocalAddresses", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)()>(&::System::Net::NclUtilities::get_LocalAddressesLock)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x64066ec;
+  constexpr static std::size_t addrs = 0x640e168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NclUtilities*>(), { "get_LocalAddressesLock", {}, {} })));

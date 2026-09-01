@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/IRasterRenderGraphBuilder.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\IRasterRenderGraphBuilder.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__IRasterRenderGraphBuilder_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__AccessFlags_def.hpp"
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, int32_t, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags)>(
     &::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetRenderAttachment)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x67c9458;
+  constexpr static std::size_t addrs = 0x67d0ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*>(),
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, int32_t, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags)>(
     &::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetInputAttachment)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x67c952c;
+  constexpr static std::size_t addrs = 0x67d0fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*>(),
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                         ::UnityEngine::Rendering::RenderGraphModule::AccessFlags)>(
     &::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder::SetRenderAttachmentDepth)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x67c9600;
+  constexpr static std::size_t addrs = 0x67d107c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*>(),

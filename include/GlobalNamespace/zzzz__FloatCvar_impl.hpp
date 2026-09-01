@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatCvar.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatCvar.hpp"
 #include "GlobalNamespace/zzzz__Cvar_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatCvar_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatCvar.Init
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::FloatCvar::Init)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3323fe8;
+  constexpr static std::size_t addrs = 0x3327da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatCvar*>(), { "Init", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatCvar::*)(::StringW, float_t)>(&::GlobalNamespace::FloatCvar::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3324054;
+  constexpr static std::size_t addrs = 0x3327e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

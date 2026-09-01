@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/AssemblyCopyrightAttribute.hpp"
+// IWYU pragma private; include "System\Reflection\AssemblyCopyrightAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set__Copyright_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b79450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b7d90c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW copyright);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/XPath/XPathScanner.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\XPath\XPathScanner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -180,7 +180,7 @@ public:
   static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Union;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9877 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -253,25 +253,25 @@ public:
 
   static inline ::MS::Internal::Xml::XPath::XPathScanner* New_ctor(::StringW xpathExpr);
 
-  /// @brief Method NextChar, addr 0x6272904, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NextChar, addr 0x627a380, size 0x64, virtual false, abstract: false, final false
   inline bool NextChar();
 
-  /// @brief Method NextLex, addr 0x627131c, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method NextLex, addr 0x6278d98, size 0x400, virtual false, abstract: false, final false
   inline bool NextLex();
 
-  /// @brief Method ScanFraction, addr 0x62729d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ScanFraction, addr 0x627a454, size 0xb4, virtual false, abstract: false, final false
   inline double_t ScanFraction();
 
-  /// @brief Method ScanName, addr 0x6272c1c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ScanName, addr 0x627a698, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW ScanName();
 
-  /// @brief Method ScanNumber, addr 0x6272b3c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ScanNumber, addr 0x627a5b8, size 0xe0, virtual false, abstract: false, final false
   inline double_t ScanNumber();
 
-  /// @brief Method ScanString, addr 0x6272a8c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ScanString, addr 0x627a508, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW ScanString();
 
-  /// @brief Method SkipSpace, addr 0x62729a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SkipSpace, addr 0x627a424, size 0x30, virtual false, abstract: false, final false
   inline void SkipSpace();
 
   constexpr bool const& __cordl_internal_get__canBeFunction() const;
@@ -334,31 +334,31 @@ public:
 
   constexpr void __cordl_internal_set__xpathExprIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x626f5ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6277028, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW xpathExpr);
 
-  /// @brief Method get_CanBeFunction, addr 0x62729a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CanBeFunction, addr 0x627a41c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CanBeFunction();
 
-  /// @brief Method get_CurrentChar, addr 0x6272970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentChar, addr 0x627a3ec, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_CurrentChar();
 
-  /// @brief Method get_Kind, addr 0x6272978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x627a3f4, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::XPathScanner_LexKind get_Kind();
 
-  /// @brief Method get_Name, addr 0x6272980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x627a3fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NumberValue, addr 0x6272998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumberValue, addr 0x627a414, size 0x8, virtual false, abstract: false, final false
   inline double_t get_NumberValue();
 
-  /// @brief Method get_Prefix, addr 0x6272988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x627a404, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SourceText, addr 0x6272968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceText, addr 0x627a3e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SourceText();
 
-  /// @brief Method get_StringValue, addr 0x6272990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StringValue, addr 0x627a40c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_StringValue();
 
 protected:
@@ -376,7 +376,7 @@ public:
   XPathScanner(XPathScanner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9878 };
 
   /// @brief Field _xpathExpr, offset: 0x10, size: 0x8, def value: None
   ::StringW ____xpathExpr;

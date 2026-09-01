@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/PskTlsClient.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\PskTlsClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,16 +42,16 @@ public:
   /// @brief Field mPskIdentity, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_mPskIdentity, put = __cordl_internal_set_mPskIdentity)) ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* mPskIdentity;
 
-  /// @brief Method CreatePskKeyExchange, addr 0x3469368, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method CreatePskKeyExchange, addr 0x346d128, size 0xac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreatePskKeyExchange(int32_t keyExchange);
 
-  /// @brief Method GetAuthentication, addr 0x346932c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAuthentication, addr 0x346d0ec, size 0x3c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* GetAuthentication();
 
-  /// @brief Method GetCipherSuites, addr 0x34691f0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0x346cfb0, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t> GetCipherSuites();
 
-  /// @brief Method GetKeyExchange, addr 0x3469268, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0x346d028, size 0xc4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsClient* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
@@ -74,14 +74,14 @@ public:
 
   constexpr void __cordl_internal_set_mPskIdentity(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* value);
 
-  /// @brief Method .ctor, addr 0x34691e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346cfa4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                     ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity);
 
-  /// @brief Method .ctor, addr 0x3469174, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346cf34, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity);
 
-  /// @brief Method .ctor, addr 0x3469110, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346ced0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity);
 
 protected:

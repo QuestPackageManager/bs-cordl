@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/GPUBufferAllocator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\GPUBufferAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ public:
   /// @brief Field m_Low, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Low, put = __cordl_internal_set_m_Low)) ::UnityEngine::UIElements::UIR::BestFitAllocator* m_Low;
 
-  /// @brief Method Allocate, addr 0x6cf44c8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6cfc04c, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size, bool shortLived);
 
-  /// @brief Method Free, addr 0x6cf462c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6cfc1b0, size 0x74, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
 
-  /// @brief Method HighLowCollide, addr 0x6cf45f4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HighLowCollide, addr 0x6cfc178, size 0x38, virtual false, abstract: false, final false
   inline bool HighLowCollide();
 
   static inline ::UnityEngine::UIElements::UIR::GPUBufferAllocator* New_ctor(uint32_t maxSize);
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Low(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
 
-  /// @brief Method .ctor, addr 0x6cf4448, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfbfcc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint32_t maxSize);
 
-  /// @brief Method get_isEmpty, addr 0x6cf46a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x6cfc224, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:

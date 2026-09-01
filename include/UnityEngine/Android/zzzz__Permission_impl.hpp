@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/Permission.hpp"
+// IWYU pragma private; include "UnityEngine\Android\Permission.hpp"
 #include "UnityEngine/Android/zzzz__Permission_def.hpp"
 #include "UnityEngine/Android/zzzz__PermissionCallbacks_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AndroidJavaObject* (*)()>(&::UnityEngine::Android::Permission::GetUnityPermissions)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6a2cdbc;
+  constexpr static std::size_t addrs = 0x6a34838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::Permission>(), { "GetUnityPermissions", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::Android::Permission::HasUserAuthorizedPermission)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6a2ce68;
+  constexpr static std::size_t addrs = 0x6a348e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::Android::PermissionCallbacks*)>(&::UnityEngine::Android::Permission::RequestUserPermission)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6a2cf94;
+  constexpr static std::size_t addrs = 0x6a34a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::StringW>, ::UnityEngine::Android::PermissionCallbacks*)>(&::UnityEngine::Android::Permission::RequestUserPermissions)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6a2d020;
+  constexpr static std::size_t addrs = 0x6a34a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

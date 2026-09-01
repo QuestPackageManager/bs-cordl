@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/DateTimeRawInfo.hpp"
+// IWYU pragma private; include "System\DateTimeRawInfo.hpp"
 #include "System/zzzz__DateTimeParse_impl.hpp"
 #include "System/zzzz__DateTimeRawInfo_def.hpp"
 //  Writing Method size for method: ::System::DateTimeRawInfo.Init
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeRawInfo::*)(int32_t*)>(&::System::DateTimeRawInfo::Init)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c3c240;
+  constexpr static std::size_t addrs = 0x5c406fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeRawInfo>(), { "Init", {}, { ::i2c::type_of<int32_t*>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeRawInfo::*)(int32_t)>(&::System::DateTimeRawInfo::AddNumber)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5c3c260;
+  constexpr static std::size_t addrs = 0x5c4071c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeRawInfo>(), { "AddNumber", {}, { ::i2c::type_of<int32_t>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeRawInfo::*)(int32_t)>(&::System::DateTimeRawInfo::GetNumber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c3c278;
+  constexpr static std::size_t addrs = 0x5c40734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeRawInfo>(), { "GetNumber", {}, { ::i2c::type_of<int32_t>() } })));

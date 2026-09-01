@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/GamepadState.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\GamepadState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithButton, addr 0x65a6718, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x65ae194, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::GamepadState WithButton(::UnityEngine::InputSystem::LowLevel::GamepadButton button, bool value);
 
   constexpr uint32_t const& __cordl_internal_get_buttons() const;
@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set_rightTrigger(float_t value);
 
-  /// @brief Method .ctor, addr 0x65a6668, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ae0e4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton> buttons);
 
-  /// @brief Method get_Format, addr 0x65a6650, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x65ae0cc, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x65a665c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x65ae0d8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -197,7 +197,7 @@ public:
   static constexpr ::ConstString ButtonWestShortDisplayName{ u"X" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8986 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

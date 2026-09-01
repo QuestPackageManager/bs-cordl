@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/PlatformRequiresAppRestartException.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\PlatformRequiresAppRestartException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::OculusStudios::Platform::Core::PlatformRequiresAppRestartException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5f2a3e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e8a4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f2a43c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e8fc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5f2a4a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2e968, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -53,7 +53,7 @@ public:
   PlatformRequiresAppRestartException(PlatformRequiresAppRestartException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

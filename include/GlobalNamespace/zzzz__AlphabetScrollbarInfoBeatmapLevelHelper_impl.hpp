@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AlphabetScrollbarInfoBeatmapLevelHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\AlphabetScrollbarInfoBeatmapLevelHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AlphabetScrollbarInfoBeatmapLevelHelper_def.hpp"
 #include "GlobalNamespace/zzzz__AlphabetScrollInfo_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::*)()>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a078a0;
+  constexpr static std::size_t addrs = 0x5a0f9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::_CreateData_b__4_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a078a4;
+  constexpr static std::size_t addrs = 0x5a0f9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c*>(),
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                                                                       ::by_ref<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*>)>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
   constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x5a071fc;
+  constexpr static std::size_t addrs = 0x5a0f308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::IsNumericOrSpecial)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5a077bc;
+  constexpr static std::size_t addrs = 0x5a0f8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

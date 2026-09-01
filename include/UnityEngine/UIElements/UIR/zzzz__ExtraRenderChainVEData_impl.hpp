@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/ExtraRenderChainVEData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\ExtraRenderChainVEData.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ExtraRenderChainVEData_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BasicNode_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::ExtraRenderChainVEData::*)()>(&::UnityEngine::UIElements::UIR::ExtraRenderChainVEData::Reset)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6ce4930;
+  constexpr static std::size_t addrs = 0x6cec4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::ExtraRenderChainVEData*>(), { "Reset", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::ExtraRenderChainVEData::*)()>(&::UnityEngine::UIElements::UIR::ExtraRenderChainVEData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ce48e0;
+  constexpr static std::size_t addrs = 0x6cec464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::ExtraRenderChainVEData*>(), { ".ctor", {}, {} })));

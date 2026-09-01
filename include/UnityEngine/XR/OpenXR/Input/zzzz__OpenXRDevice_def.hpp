@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/Input/OpenXRDevice.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\Input\OpenXRDevice.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace UnityEngine::XR::OpenXR::Input {
 class CORDL_TYPE OpenXRDevice : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations
-  /// @brief Method FinishSetup, addr 0x69ef4e8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69f6f64, size 0xf4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::OpenXR::Input::OpenXRDevice* New_ctor();
 
-  /// @brief Method .ctor, addr 0x69ef5dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f7058, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   OpenXRDevice(OpenXRDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

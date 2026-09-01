@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryAssemblyInfo.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\BinaryAssemblyInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   /// @brief Field assemblyString, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString)) ::StringW assemblyString;
 
-  /// @brief Method GetAssembly, addr 0x5b53bd8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetAssembly, addr 0x5b58094, size 0x118, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* GetAssembly();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* New_ctor(::StringW assemblyString);
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_assemblyString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b53bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b58084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyString);
 
-  /// @brief Method .ctor, addr 0x5b53bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5808c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyString, ::System::Reflection::Assembly* assembly);
 
 protected:

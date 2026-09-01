@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/UnmanagedFunctionPointerAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\UnmanagedFunctionPointerAttribute.hpp"
 #include "System/Runtime/InteropServices/zzzz__CallingConvention_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__UnmanagedFunctionPointerAttribute_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::*)(::System::Runtime::InteropServices::CallingConvention)>(
     &::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b67f9c;
+  constexpr static std::size_t addrs = 0x5b6c458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::CallingConvention (::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::*)()>(
     &::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::get_CallingConvention)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b67fa4;
+  constexpr static std::size_t addrs = 0x5b6c460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlCanonicalWriter.hpp"
+// IWYU pragma private; include "System\Xml\XmlCanonicalWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,12 +81,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x6113a34, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x611b4b0, size 0x94, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* obj1, ::System::Object* obj2);
 
   static inline ::System::Xml::XmlCanonicalWriter_AttributeSorter* New_ctor(::System::Xml::XmlCanonicalWriter* writer);
 
-  /// @brief Method Sort, addr 0x61134ec, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x611af68, size 0x1cc, virtual false, abstract: false, final false
   inline void Sort();
 
   constexpr ::System::Xml::XmlCanonicalWriter* const& __cordl_internal_get_writer() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_writer(::System::Xml::XmlCanonicalWriter* value);
 
-  /// @brief Method .ctor, addr 0x61134e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x611af60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlCanonicalWriter* writer);
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -116,7 +116,7 @@ public:
   XmlCanonicalWriter_AttributeSorter(XmlCanonicalWriter_AttributeSorter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16973 };
 
   /// @brief Field writer, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlCanonicalWriter* ___writer;
@@ -144,7 +144,7 @@ public:
   constexpr XmlCanonicalWriter_Scope(int32_t xmlnsAttributeCount, int32_t xmlnsOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16974 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -181,7 +181,7 @@ public:
   constexpr XmlCanonicalWriter_Element(int32_t prefixOffset, int32_t prefixLength, int32_t localNameOffset, int32_t localNameLength) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16975 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -231,7 +231,7 @@ public:
                                          int32_t length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16976 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -299,7 +299,7 @@ public:
   constexpr XmlCanonicalWriter_XmlnsAttribute(int32_t prefixOffset, int32_t prefixLength, int32_t nsOffset, int32_t nsLength, bool referred) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16977 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -409,112 +409,112 @@ public:
   /// @brief Field xmlnsOffset, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get_xmlnsOffset, put = __cordl_internal_set_xmlnsOffset)) int32_t xmlnsOffset;
 
-  /// @brief Method AddAttribute, addr 0x61129dc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x611a458, size 0x108, virtual false, abstract: false, final false
   inline void AddAttribute(::by_ref<::System::Xml::XmlCanonicalWriter_Attribute> attribute);
 
-  /// @brief Method AddXmlnsAttribute, addr 0x6111c94, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method AddXmlnsAttribute, addr 0x6119710, size 0x23c, virtual false, abstract: false, final false
   inline void AddXmlnsAttribute(::by_ref<::System::Xml::XmlCanonicalWriter_XmlnsAttribute> xmlnsAttribute);
 
-  /// @brief Method Close, addr 0x6111798, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6119214, size 0xac, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Compare, addr 0x611346c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x611aee8, size 0x78, virtual false, abstract: false, final false
   inline int32_t Compare(::by_ref<::System::Xml::XmlCanonicalWriter_Attribute> attribute1, ::by_ref<::System::Xml::XmlCanonicalWriter_Attribute> attribute2);
 
-  /// @brief Method Compare, addr 0x611382c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x611b2a8, size 0x20, virtual false, abstract: false, final false
   inline int32_t Compare(::ArrayW<uint8_t> buffer, int32_t offset1, int32_t length1, int32_t offset2, int32_t length2);
 
-  /// @brief Method Compare, addr 0x611384c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x611b2c8, size 0x110, virtual false, abstract: false, final false
   inline int32_t Compare(::ArrayW<uint8_t> buffer1, int32_t offset1, int32_t length1, ::ArrayW<uint8_t> buffer2, int32_t offset2, int32_t length2);
 
-  /// @brief Method Compare, addr 0x61136b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x611b134, size 0x2c, virtual false, abstract: false, final false
   inline int32_t Compare(::by_ref<::System::Xml::XmlCanonicalWriter_XmlnsAttribute> xmlnsAttribute1, ::by_ref<::System::Xml::XmlCanonicalWriter_XmlnsAttribute> xmlnsAttribute2);
 
-  /// @brief Method EndElement, addr 0x61119b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EndElement, addr 0x611942c, size 0x44, virtual false, abstract: false, final false
   inline void EndElement();
 
-  /// @brief Method EnsureXmlnsBuffer, addr 0x6112514, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method EnsureXmlnsBuffer, addr 0x6119f90, size 0x108, virtual false, abstract: false, final false
   inline void EnsureXmlnsBuffer(int32_t byteCount);
 
-  /// @brief Method Equals, addr 0x6112210, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6119c8c, size 0xa4, virtual false, abstract: false, final false
   inline bool Equals(::ArrayW<uint8_t> buffer1, int32_t offset1, int32_t length1, ::ArrayW<uint8_t> buffer2, int32_t offset2, int32_t length2);
 
-  /// @brief Method Flush, addr 0x6111760, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x61191dc, size 0x24, virtual false, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method IsInclusivePrefix, addr 0x6111bc4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsInclusivePrefix, addr 0x6119640, size 0xd0, virtual false, abstract: false, final false
   inline bool IsInclusivePrefix(::by_ref<::System::Xml::XmlCanonicalWriter_XmlnsAttribute> xmlnsAttribute);
 
-  /// @brief Method ResolvePrefix, addr 0x6113810, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ResolvePrefix, addr 0x611b28c, size 0x1c, virtual false, abstract: false, final false
   inline void ResolvePrefix(::by_ref<::System::Xml::XmlCanonicalWriter_Attribute> attribute);
 
-  /// @brief Method ResolvePrefix, addr 0x61136e4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ResolvePrefix, addr 0x611b160, size 0x12c, virtual false, abstract: false, final false
   inline void ResolvePrefix(int32_t prefixOffset, int32_t prefixLength, ::by_ref<int32_t> nsOffset, ::by_ref<int32_t> nsLength);
 
-  /// @brief Method ResolvePrefixes, addr 0x611217c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ResolvePrefixes, addr 0x6119bf8, size 0x94, virtual false, abstract: false, final false
   inline void ResolvePrefixes();
 
-  /// @brief Method SortAttributes, addr 0x61122f4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method SortAttributes, addr 0x6119d70, size 0x1a8, virtual false, abstract: false, final false
   inline void SortAttributes();
 
-  /// @brief Method StartElement, addr 0x61118b4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method StartElement, addr 0x6119330, size 0xfc, virtual false, abstract: false, final false
   inline void StartElement();
 
-  /// @brief Method ThrowClosed, addr 0x6113408, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ThrowClosed, addr 0x611ae84, size 0x64, virtual false, abstract: false, final false
   inline void ThrowClosed();
 
-  /// @brief Method ThrowIfClosed, addr 0x6111784, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfClosed, addr 0x6119200, size 0x14, virtual false, abstract: false, final false
   inline void ThrowIfClosed();
 
-  /// @brief Method WriteCharEntity, addr 0x6112ae4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WriteCharEntity, addr 0x611a560, size 0xb4, virtual false, abstract: false, final false
   inline void WriteCharEntity(int32_t ch);
 
-  /// @brief Method WriteComment, addr 0x6111848, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteComment, addr 0x61192c4, size 0x6c, virtual false, abstract: false, final false
   inline void WriteComment(::StringW value);
 
-  /// @brief Method WriteDeclaration, addr 0x6111844, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteDeclaration, addr 0x61192c0, size 0x4, virtual false, abstract: false, final false
   inline void WriteDeclaration();
 
-  /// @brief Method WriteEndAttribute, addr 0x611295c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteEndAttribute, addr 0x611a3d8, size 0x80, virtual false, abstract: false, final false
   inline void WriteEndAttribute();
 
-  /// @brief Method WriteEndElement, addr 0x611249c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x6119f18, size 0x78, virtual false, abstract: false, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName);
 
-  /// @brief Method WriteEndStartElement, addr 0x6111ed0, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method WriteEndStartElement, addr 0x611994c, size 0x2ac, virtual false, abstract: false, final false
   inline void WriteEndStartElement(bool isEmpty);
 
-  /// @brief Method WriteEscapedText, addr 0x6112b98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method WriteEscapedText, addr 0x611a614, size 0x54, virtual false, abstract: false, final false
   inline void WriteEscapedText(::ArrayW<char16_t> chars, int32_t offset, int32_t count);
 
-  /// @brief Method WriteEscapedText, addr 0x6112ca8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method WriteEscapedText, addr 0x611a724, size 0x254, virtual false, abstract: false, final false
   inline void WriteEscapedText(::ArrayW<uint8_t> chars, int32_t offset, int32_t count);
 
-  /// @brief Method WriteEscapedText, addr 0x6112c20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WriteEscapedText, addr 0x611a69c, size 0x88, virtual false, abstract: false, final false
   inline void WriteEscapedText(::StringW value);
 
-  /// @brief Method WriteStartAttribute, addr 0x6112834, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method WriteStartAttribute, addr 0x611a2b0, size 0x128, virtual false, abstract: false, final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName);
 
-  /// @brief Method WriteStartElement, addr 0x61119f4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x6119470, size 0x1d0, virtual false, abstract: false, final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName);
 
-  /// @brief Method WriteText, addr 0x6112bec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WriteText, addr 0x611a668, size 0x34, virtual false, abstract: false, final false
   inline void WriteText(int32_t ch);
 
-  /// @brief Method WriteText, addr 0x61131cc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method WriteText, addr 0x611ac48, size 0x23c, virtual false, abstract: false, final false
   inline void WriteText(::ArrayW<char16_t> chars, int32_t offset, int32_t count);
 
-  /// @brief Method WriteText, addr 0x6112efc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method WriteText, addr 0x611a978, size 0x23c, virtual false, abstract: false, final false
   inline void WriteText(::ArrayW<uint8_t> chars, int32_t offset, int32_t count);
 
-  /// @brief Method WriteText, addr 0x6113138, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method WriteText, addr 0x611abb4, size 0x94, virtual false, abstract: false, final false
   inline void WriteText(::StringW value);
 
-  /// @brief Method WriteXmlnsAttribute, addr 0x611261c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method WriteXmlnsAttribute, addr 0x611a098, size 0x218, virtual false, abstract: false, final false
   inline void WriteXmlnsAttribute(::StringW prefix, ::StringW ns);
 
-  /// @brief Method WriteXmlnsAttribute, addr 0x61122b4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method WriteXmlnsAttribute, addr 0x6119d30, size 0x40, virtual false, abstract: false, final false
   inline void WriteXmlnsAttribute(::by_ref<::System::Xml::XmlCanonicalWriter_XmlnsAttribute> xmlnsAttribute);
 
   constexpr ::System::Xml::XmlCanonicalWriter_Attribute const& __cordl_internal_get_attribute() const;
@@ -642,7 +642,7 @@ public:
   XmlCanonicalWriter(XmlCanonicalWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16978 };
 
   /// @brief Field writer, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlUTF8NodeWriter* ___writer;

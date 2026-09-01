@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AudioConfiguration.hpp"
+// IWYU pragma private; include "UnityEngine\AudioConfiguration.hpp"
 #include "UnityEngine/zzzz__AudioSpeakerMode_impl.hpp"
 #include "UnityEngine/zzzz__AudioConfiguration_def.hpp"
 // Ctor Parameters [CppParam { name: "speakerMode", ty: "::UnityEngine::AudioSpeakerMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "dspBufferSize", ty: "int32_t", modifiers: "",

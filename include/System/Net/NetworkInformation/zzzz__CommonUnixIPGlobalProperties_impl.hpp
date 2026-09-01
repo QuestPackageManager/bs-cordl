@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/CommonUnixIPGlobalProperties.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\CommonUnixIPGlobalProperties.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPGlobalProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__CommonUnixIPGlobalProperties_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties.getdomainname
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t)>(&::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x634f1c4;
+  constexpr static std::size_t addrs = 0x6356c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::CommonUnixIPGlobalProperties*>(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::*)()>(
     &::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::get_DomainName)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x634f250;
+  constexpr static std::size_t addrs = 0x6356ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::CommonUnixIPGlobalProperties*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::*)()>(
     &::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x634f3f0;
+  constexpr static std::size_t addrs = 0x6356e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::CommonUnixIPGlobalProperties*>(), { ".ctor", {}, {} })));

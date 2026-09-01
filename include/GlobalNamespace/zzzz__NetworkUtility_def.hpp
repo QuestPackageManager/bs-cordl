@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NetworkUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace\NetworkUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,19 +28,19 @@ public:
   /// @brief Field _nameEncryptionKey, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__nameEncryptionKey, put = setStaticF__nameEncryptionKey)) ::ArrayW<uint8_t> _nameEncryptionKey;
 
-  /// @brief Method DecryptName, addr 0x3337db0, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method DecryptName, addr 0x333bb70, size 0x38c, virtual false, abstract: false, final false
   static inline ::StringW DecryptName(::StringW text);
 
-  /// @brief Method EncryptName, addr 0x3337a2c, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method EncryptName, addr 0x333b7ec, size 0x384, virtual false, abstract: false, final false
   static inline ::StringW EncryptName(::StringW text);
 
-  /// @brief Method GenerateId, addr 0x333813c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GenerateId, addr 0x333befc, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW GenerateId();
 
-  /// @brief Method GetHashBase64, addr 0x33381d8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetHashBase64, addr 0x333bf98, size 0x1c4, virtual false, abstract: false, final false
   static inline ::StringW GetHashBase64(::StringW input);
 
-  /// @brief Method Init, addr 0x3337944, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x333b704, size 0xe8, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::ArrayW<uint8_t> getStaticF__nameEncryptionIv();
@@ -66,7 +66,7 @@ public:
   NetworkUtility(NetworkUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18238 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ParticleSystemJobs/NativeParticleData.hpp"
+// IWYU pragma private; include "UnityEngine\ParticleSystemJobs\NativeParticleData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   constexpr NativeParticleData_Array3(float_t* x, float_t* y, float_t* z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21155 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -88,7 +88,7 @@ public:
   constexpr NativeParticleData_Array4(float_t* x, float_t* y, float_t* z, float_t* w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21156 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -150,7 +150,7 @@ public:
                                ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData2, void* meshIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21157 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };

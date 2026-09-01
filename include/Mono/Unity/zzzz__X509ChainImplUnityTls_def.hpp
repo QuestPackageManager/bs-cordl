@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Unity/X509ChainImplUnityTls.hpp"
+// IWYU pragma private; include "Mono\Unity\X509ChainImplUnityTls.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,20 +74,20 @@ public:
   /// @brief Field reverseOrder, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_reverseOrder, put = __cordl_internal_set_reverseOrder)) bool reverseOrder;
 
-  /// @brief Method AddStatus, addr 0x5fce99c, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method AddStatus, addr 0x5fd6418, size 0x11c, virtual true, abstract: false, final false
   inline void AddStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags error);
 
-  /// @brief Method Build, addr 0x5fceac0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0x5fd653c, size 0x8, virtual true, abstract: false, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Dispose, addr 0x5fceb48, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5fd65c4, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::UnityTls_unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
   static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::UnityTls_unitytls_x509list* ownedList, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState, bool reverseOrder);
 
-  /// @brief Method Reset, addr 0x5fceac8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5fd6544, size 0x80, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>* const& __cordl_internal_get_chainStatusList() const;
@@ -126,22 +126,22 @@ public:
 
   constexpr void __cordl_internal_set_reverseOrder(bool value);
 
-  /// @brief Method .ctor, addr 0x5fcd01c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd4a98, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Unity::UnityTls_unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
-  /// @brief Method .ctor, addr 0x5fce460, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd5edc, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Unity::UnityTls_unitytls_x509list* ownedList, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState, bool reverseOrder);
 
-  /// @brief Method get_ChainElements, addr 0x5fce6dc, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method get_ChainElements, addr 0x5fd6158, size 0x2c0, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
 
-  /// @brief Method get_ChainPolicy, addr 0x5fceab8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChainPolicy, addr 0x5fd6534, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
 
-  /// @brief Method get_IsValid, addr 0x5fce6ac, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x5fd6128, size 0x28, virtual true, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_NativeCertificateChain, addr 0x5fce6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeCertificateChain, addr 0x5fd6150, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509list_ref get_NativeCertificateChain();
 
 protected:
@@ -159,7 +159,7 @@ public:
   X509ChainImplUnityTls(X509ChainImplUnityTls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11005 };
 
   /// @brief Field elements, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* ___elements;

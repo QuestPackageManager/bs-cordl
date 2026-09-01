@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/CustomFormatRangeValuesSlider.hpp"
+// IWYU pragma private; include "HMUI\CustomFormatRangeValuesSlider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
 
   static inline ::HMUI::CustomFormatRangeValuesSlider* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x587e7bc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x587e104, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
   constexpr ::StringW const& __cordl_internal_get__formatString() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__formatString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x587e818, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587e160, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   CustomFormatRangeValuesSlider(CustomFormatRangeValuesSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19059 };
 
   /// @brief Field _formatString, offset: 0x170, size: 0x8, def value: None
   ::StringW ____formatString;

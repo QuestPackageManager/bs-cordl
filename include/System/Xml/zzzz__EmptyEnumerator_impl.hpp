@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/EmptyEnumerator.hpp"
+// IWYU pragma private; include "System\Xml\EmptyEnumerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__EmptyEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::EmptyEnumerator::*)()>(&::System::Xml::EmptyEnumerator::System_Collections_IEnumerator_MoveNext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62c5da0;
+  constexpr static std::size_t addrs = 0x62cd81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::EmptyEnumerator*>(), { "System.Collections.IEnumerator.MoveNext", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::EmptyEnumerator::*)()>(&::System::Xml::EmptyEnumerator::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62c5da8;
+  constexpr static std::size_t addrs = 0x62cd824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::EmptyEnumerator*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::EmptyEnumerator::*)()>(&::System::Xml::EmptyEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x62c5dac;
+  constexpr static std::size_t addrs = 0x62cd828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::EmptyEnumerator::*)()>(&::System::Xml::EmptyEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62c5dfc;
+  constexpr static std::size_t addrs = 0x62cd878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::EmptyEnumerator*>(), { ".ctor", {}, {} })));

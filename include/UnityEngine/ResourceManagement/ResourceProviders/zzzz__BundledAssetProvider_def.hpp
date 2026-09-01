@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/BundledAssetProvider.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\BundledAssetProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,28 +71,28 @@ public:
   /// @brief Field subObjectName, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_subObjectName, put = __cordl_internal_set_subObjectName)) ::StringW subObjectName;
 
-  /// @brief Method ActionComplete, addr 0x6917138, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ActionComplete, addr 0x691ebb4, size 0x184, virtual false, abstract: false, final false
   inline void ActionComplete(::UnityEngine::AsyncOperation* obj);
 
-  /// @brief Method BeginAssetLoad, addr 0x6916d58, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method BeginAssetLoad, addr 0x691e7d4, size 0x3e0, virtual false, abstract: false, final false
   inline void BeginAssetLoad();
 
-  /// @brief Method CompleteOperation, addr 0x6917c88, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CompleteOperation, addr 0x691f704, size 0x188, virtual false, abstract: false, final false
   inline void CompleteOperation();
 
-  /// @brief Method GetArrayResult, addr 0x6917aa4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetArrayResult, addr 0x691f520, size 0x30, virtual false, abstract: false, final false
   inline void GetArrayResult(::ArrayW<::UnityEngine::Object*> allAssets);
 
-  /// @brief Method GetAssetResult, addr 0x6917b04, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetAssetResult, addr 0x691f580, size 0xc4, virtual false, abstract: false, final false
   inline void GetAssetResult(::UnityEngine::Object* asset);
 
-  /// @brief Method GetAssetSubObjectResult, addr 0x6917bc8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetSubObjectResult, addr 0x691f644, size 0xc0, virtual false, abstract: false, final false
   inline void GetAssetSubObjectResult(::ArrayW<::UnityEngine::Object*> allAssets);
 
-  /// @brief Method GetListResult, addr 0x6917ad4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetListResult, addr 0x691f550, size 0x30, virtual false, abstract: false, final false
   inline void GetListResult(::ArrayW<::UnityEngine::Object*> allAssets);
 
-  /// @brief Method IsDownloadOnly, addr 0x6916994, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method IsDownloadOnly, addr 0x691e410, size 0x304, virtual false, abstract: false, final false
   static inline bool IsDownloadOnly(::System::Collections::Generic::IList_1<::System::Object*>* results);
 
   /// @brief Method LoadBundleFromDependecies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -100,16 +100,16 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp* New_ctor();
 
-  /// @brief Method ProgressCallback, addr 0x6917e10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ProgressCallback, addr 0x691f88c, size 0x18, virtual false, abstract: false, final false
   inline float_t ProgressCallback();
 
-  /// @brief Method Start, addr 0x69165c4, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x691e040, size 0x3cc, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x691799c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x691f418, size 0x108, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method <Start>b__8_0, addr 0x6917e28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__8_0, addr 0x691f8a4, size 0x4, virtual false, abstract: false, final false
   inline void _Start_b__8_0(::UnityEngine::AsyncOperation* operation);
 
   constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_AssetBundle() const;
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set_subObjectName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x69165c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691e03c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -166,7 +166,7 @@ public:
   BundledAssetProvider_InternalOp(BundledAssetProvider_InternalOp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18774 };
 
   /// @brief Field m_AssetBundle, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AssetBundle> ___m_AssetBundle;
@@ -215,10 +215,10 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x691654c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x691dfc8, size 0x74, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method .ctor, addr 0x6916990, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691e40c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -236,7 +236,7 @@ public:
   BundledAssetProvider(BundledAssetProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18775 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

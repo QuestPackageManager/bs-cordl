@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/CsvWriter.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\CsvWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,22 +30,22 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE CsvWriter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendCSVLine, addr 0x331d9a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AppendCSVLine, addr 0x3321768, size 0x2c, virtual false, abstract: false, final false
   static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, ::ArrayW<::StringW> values);
 
-  /// @brief Method AppendCSVLine, addr 0x331d97c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AppendCSVLine, addr 0x332173c, size 0x2c, virtual false, abstract: false, final false
   static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
-  /// @brief Method AppendElement, addr 0x331d8e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AppendElement, addr 0x33216a8, size 0x94, virtual false, abstract: false, final false
   static inline void AppendElement(::System::Text::StringBuilder* buffer, ::StringW element);
 
-  /// @brief Method AppendRow, addr 0x331d2e0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method AppendRow, addr 0x33210a0, size 0x1d0, virtual false, abstract: false, final false
   static inline void AppendRow(::StringW filePath, ::System::Collections::Generic::List_1<::StringW>* row);
 
-  /// @brief Method AppendRowInternal, addr 0x331d4b0, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method AppendRowInternal, addr 0x3321270, size 0x35c, virtual false, abstract: false, final false
   static inline void AppendRowInternal(::System::Text::StringBuilder* buffer, ::System::Collections::Generic::IEnumerable_1<::StringW>* row);
 
-  /// @brief Method HasEscapeChars, addr 0x331d80c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HasEscapeChars, addr 0x33215cc, size 0xdc, virtual false, abstract: false, final false
   static inline bool HasEscapeChars(::StringW element);
 
 protected:
@@ -63,7 +63,7 @@ public:
   CsvWriter(CsvWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22215 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

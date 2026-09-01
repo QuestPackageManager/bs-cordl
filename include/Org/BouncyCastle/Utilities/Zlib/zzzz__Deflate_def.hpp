@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/Deflate.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Zlib\Deflate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_nice_length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3630668, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3634428, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain, int32_t func);
 
 protected:
@@ -655,129 +655,129 @@ public:
 
   constexpr void __cordl_internal_set_window_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x362d660, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3631420, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method _tr_align, addr 0x362e458, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method _tr_align, addr 0x3632218, size 0xe4, virtual false, abstract: false, final false
   inline void _tr_align();
 
-  /// @brief Method _tr_flush_block, addr 0x362ed5c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method _tr_flush_block, addr 0x3632b1c, size 0x1d8, virtual false, abstract: false, final false
   inline void _tr_flush_block(int32_t buf, int32_t stored_len, bool eof);
 
-  /// @brief Method _tr_stored_block, addr 0x362f260, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method _tr_stored_block, addr 0x3633020, size 0x44, virtual false, abstract: false, final false
   inline void _tr_stored_block(int32_t buf, int32_t stored_len, bool eof);
 
-  /// @brief Method _tr_tally, addr 0x362e60c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method _tr_tally, addr 0x36323cc, size 0x2a4, virtual false, abstract: false, final false
   inline bool _tr_tally(int32_t dist, int32_t lc);
 
-  /// @brief Method bi_flush, addr 0x362e53c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method bi_flush, addr 0x36322fc, size 0xd0, virtual false, abstract: false, final false
   inline void bi_flush();
 
-  /// @brief Method bi_windup, addr 0x362ebe8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method bi_windup, addr 0x36329a8, size 0xb0, virtual false, abstract: false, final false
   inline void bi_windup();
 
-  /// @brief Method build_bl_tree, addr 0x362de08, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method build_bl_tree, addr 0x3631bc8, size 0x120, virtual false, abstract: false, final false
   inline int32_t build_bl_tree();
 
-  /// @brief Method compress_block, addr 0x362e8b0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method compress_block, addr 0x3632670, size 0x274, virtual false, abstract: false, final false
   inline void compress_block(::ArrayW<int16_t> ltree, ::ArrayW<int16_t> dtree);
 
-  /// @brief Method copy_block, addr 0x362ec98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method copy_block, addr 0x3632a58, size 0x80, virtual false, abstract: false, final false
   inline void copy_block(int32_t buf, int32_t len, bool header);
 
-  /// @brief Method deflate, addr 0x36302a0, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method deflate, addr 0x3634060, size 0x3c8, virtual false, abstract: false, final false
   inline int32_t deflate(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t flush);
 
-  /// @brief Method deflateEnd, addr 0x362ff60, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method deflateEnd, addr 0x3633d20, size 0x44, virtual false, abstract: false, final false
   inline int32_t deflateEnd();
 
-  /// @brief Method deflateInit, addr 0x362fed8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x3633c98, size 0x14, virtual false, abstract: false, final false
   inline int32_t deflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t level);
 
-  /// @brief Method deflateInit, addr 0x362fd10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x3633ad0, size 0x14, virtual false, abstract: false, final false
   inline int32_t deflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t level, int32_t bits);
 
-  /// @brief Method deflateInit2, addr 0x362fd24, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method deflateInit2, addr 0x3633ae4, size 0x1b4, virtual false, abstract: false, final false
   inline int32_t deflateInit2(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t level, int32_t method, int32_t windowBits, int32_t memLevel, int32_t strategy);
 
-  /// @brief Method deflateParams, addr 0x362ffa4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method deflateParams, addr 0x3633d64, size 0x184, virtual false, abstract: false, final false
   inline int32_t deflateParams(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, int32_t _level, int32_t _strategy);
 
-  /// @brief Method deflateReset, addr 0x362feec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method deflateReset, addr 0x3633cac, size 0x74, virtual false, abstract: false, final false
   inline int32_t deflateReset(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm);
 
-  /// @brief Method deflateSetDictionary, addr 0x3630128, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method deflateSetDictionary, addr 0x3633ee8, size 0x178, virtual false, abstract: false, final false
   inline int32_t deflateSetDictionary(::Org::BouncyCastle::Utilities::Zlib::ZStream* strm, ::ArrayW<uint8_t> dictionary, int32_t dictLength);
 
-  /// @brief Method deflate_fast, addr 0x362f2a4, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method deflate_fast, addr 0x3633064, size 0x31c, virtual false, abstract: false, final false
   inline int32_t deflate_fast(int32_t flush);
 
-  /// @brief Method deflate_slow, addr 0x362f964, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method deflate_slow, addr 0x3633724, size 0x3ac, virtual false, abstract: false, final false
   inline int32_t deflate_slow(int32_t flush);
 
-  /// @brief Method deflate_stored, addr 0x362ef34, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method deflate_stored, addr 0x3632cf4, size 0x16c, virtual false, abstract: false, final false
   inline int32_t deflate_stored(int32_t flush);
 
-  /// @brief Method fill_window, addr 0x362f0a0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method fill_window, addr 0x3632e60, size 0x1c0, virtual false, abstract: false, final false
   inline void fill_window();
 
-  /// @brief Method flush_block_only, addr 0x362ed18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method flush_block_only, addr 0x3632ad8, size 0x44, virtual false, abstract: false, final false
   inline void flush_block_only(bool eof);
 
   static inline ::ArrayW<::Org::BouncyCastle::Utilities::Zlib::Deflate_Config*> getStaticF_config_table();
 
   static inline ::ArrayW<::StringW> getStaticF_z_errmsg();
 
-  /// @brief Method init_block, addr 0x362d94c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method init_block, addr 0x363170c, size 0xdc, virtual false, abstract: false, final false
   inline void init_block();
 
-  /// @brief Method lm_init, addr 0x362d790, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method lm_init, addr 0x3631550, size 0x104, virtual false, abstract: false, final false
   inline void lm_init();
 
-  /// @brief Method longest_match, addr 0x362f5c0, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method longest_match, addr 0x3633380, size 0x3a4, virtual false, abstract: false, final false
   inline int32_t longest_match(int32_t cur_match);
 
-  /// @brief Method pqdownheap, addr 0x362da28, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method pqdownheap, addr 0x36317e8, size 0x1a4, virtual false, abstract: false, final false
   inline void pqdownheap(::ArrayW<int16_t> tree, int32_t k);
 
-  /// @brief Method putShortMSB, addr 0x362e3f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method putShortMSB, addr 0x36321b0, size 0x68, virtual false, abstract: false, final false
   inline void putShortMSB(int32_t b);
 
-  /// @brief Method put_byte, addr 0x362e34c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method put_byte, addr 0x363210c, size 0x3c, virtual false, abstract: false, final false
   inline void put_byte(uint8_t c);
 
-  /// @brief Method put_byte, addr 0x362e304, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method put_byte, addr 0x36320c4, size 0x48, virtual false, abstract: false, final false
   inline void put_byte(::ArrayW<uint8_t> p, int32_t start, int32_t len);
 
-  /// @brief Method put_short, addr 0x362e388, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method put_short, addr 0x3632148, size 0x68, virtual false, abstract: false, final false
   inline void put_short(int32_t w);
 
-  /// @brief Method scan_tree, addr 0x362dc58, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method scan_tree, addr 0x3631a18, size 0x1b0, virtual false, abstract: false, final false
   inline void scan_tree(::ArrayW<int16_t> tree, int32_t max_code);
 
-  /// @brief Method send_all_trees, addr 0x362df28, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method send_all_trees, addr 0x3631ce8, size 0x140, virtual false, abstract: false, final false
   inline void send_all_trees(int32_t lcodes, int32_t dcodes, int32_t blcodes);
 
-  /// @brief Method send_bits, addr 0x362e068, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method send_bits, addr 0x3631e28, size 0xb8, virtual false, abstract: false, final false
   inline void send_bits(int32_t val, int32_t length);
 
-  /// @brief Method send_code, addr 0x362e2c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method send_code, addr 0x3632080, size 0x44, virtual false, abstract: false, final false
   inline void send_code(int32_t c, ::ArrayW<int16_t> tree);
 
-  /// @brief Method send_tree, addr 0x362e120, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method send_tree, addr 0x3631ee0, size 0x1a0, virtual false, abstract: false, final false
   inline void send_tree(::ArrayW<int16_t> tree, int32_t max_code);
 
   static inline void setStaticF_config_table(::ArrayW<::Org::BouncyCastle::Utilities::Zlib::Deflate_Config*> value);
 
   static inline void setStaticF_z_errmsg(::ArrayW<::StringW> value);
 
-  /// @brief Method set_data_type, addr 0x362eb24, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method set_data_type, addr 0x36328e4, size 0xc4, virtual false, abstract: false, final false
   inline void set_data_type();
 
-  /// @brief Method smaller, addr 0x362dbcc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method smaller, addr 0x363198c, size 0x8c, virtual false, abstract: false, final false
   static inline bool smaller(::ArrayW<int16_t> tree, int32_t n, int32_t m, ::ArrayW<uint8_t> depth);
 
-  /// @brief Method tr_init, addr 0x362d894, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method tr_init, addr 0x3631654, size 0xb8, virtual false, abstract: false, final false
   inline void tr_init();
 
 protected:

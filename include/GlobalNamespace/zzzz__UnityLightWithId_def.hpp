@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/UnityLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace\UnityLightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,18 +26,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE UnityLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _intensity, offset 0x40, size 0x4
+  /// @brief Field _intensity, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
 
-  /// @brief Field _light, offset 0x38, size 0x8
+  /// @brief Field _light, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__light, put = __cordl_internal_set__light)) ::UnityW<::UnityEngine::Light> _light;
 
-  /// @brief Field _minAlpha, offset 0x44, size 0x4
+  /// @brief Field _minAlpha, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__minAlpha, put = __cordl_internal_set__minAlpha)) float_t _minAlpha;
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x5871704, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x587103c, size 0x4c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::UnityLightWithId* New_ctor();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set__minAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x5871750, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5871088, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x58716ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x5871024, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -81,26 +81,26 @@ public:
   UnityLightWithId(UnityLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19562 };
 
-  /// @brief Field _light, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _light, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Light> ____light;
 
-  /// @brief Field _intensity, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _intensity, offset: 0x48, size: 0x4, def value: None
   float_t ____intensity;
 
-  /// @brief Field _minAlpha, offset: 0x44, size: 0x4, def value: None
+  /// @brief Field _minAlpha, offset: 0x4c, size: 0x4, def value: None
   float_t ____minAlpha;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::UnityLightWithId, ____light) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::UnityLightWithId, ____light) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::UnityLightWithId, ____intensity) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::UnityLightWithId, ____intensity) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::UnityLightWithId, ____minAlpha) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::UnityLightWithId, ____minAlpha) == 0x4c, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::UnityLightWithId) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::UnityLightWithId) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace

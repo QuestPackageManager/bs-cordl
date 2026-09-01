@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/ValidatingReaderNodeData.hpp"
+// IWYU pragma private; include "System\Xml\ValidatingReaderNodeData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,29 +87,29 @@ public:
   /// @brief Field rawValue, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_rawValue, put = __cordl_internal_set_rawValue)) ::StringW rawValue;
 
-  /// @brief Method Clear, addr 0x61aba1c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x61b3498, size 0x48, virtual false, abstract: false, final false
   inline void Clear(::System::Xml::XmlNodeType nodeType);
 
-  /// @brief Method GetAtomizedNameWPrefix, addr 0x61aba98, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetAtomizedNameWPrefix, addr 0x61b3514, size 0xa0, virtual false, abstract: false, final false
   inline ::StringW GetAtomizedNameWPrefix(::System::Xml::XmlNameTable* nameTable);
 
   static inline ::System::Xml::ValidatingReaderNodeData* New_ctor();
 
   static inline ::System::Xml::ValidatingReaderNodeData* New_ctor(::System::Xml::XmlNodeType nodeType);
 
-  /// @brief Method SetItemData, addr 0x61abcac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetItemData, addr 0x61b3728, size 0x24, virtual false, abstract: false, final false
   inline void SetItemData(::StringW localName, ::StringW prefix, ::StringW ns, int32_t depth);
 
-  /// @brief Method SetItemData, addr 0x61abcd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetItemData, addr 0x61b374c, size 0x8, virtual false, abstract: false, final false
   inline void SetItemData(::StringW value);
 
-  /// @brief Method SetItemData, addr 0x61abcd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetItemData, addr 0x61b3754, size 0x8, virtual false, abstract: false, final false
   inline void SetItemData(::StringW value, ::StringW originalStringValue);
 
-  /// @brief Method SetLineInfo, addr 0x61abb98, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetLineInfo, addr 0x61b3614, size 0x114, virtual false, abstract: false, final false
   inline void SetLineInfo(::System::Xml::IXmlLineInfo* lineInfo);
 
-  /// @brief Method SetLineInfo, addr 0x61abb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLineInfo, addr 0x61b360c, size 0x8, virtual false, abstract: false, final false
   inline void SetLineInfo(int32_t lineNo, int32_t linePos);
 
   constexpr ::System::Xml::AttributePSVIInfo* const& __cordl_internal_get_attributePSVIInfo() const;
@@ -178,61 +178,61 @@ public:
 
   constexpr void __cordl_internal_set_rawValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61aba14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b3490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x61aba64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b34e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNodeType nodeType);
 
-  /// @brief Method get_AttInfo, addr 0x61abb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttInfo, addr 0x61b35ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::AttributePSVIInfo* get_AttInfo();
 
-  /// @brief Method get_Depth, addr 0x61abb38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x61b35b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_LineNumber, addr 0x61abb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x61b35fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x61abb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x61b3604, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_LocalName, addr 0x61aba68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x61b34e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Namespace, addr 0x61aba78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x61b34f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_NodeType, addr 0x61abb60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x61b35dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_OriginalStringValue, addr 0x61abb58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalStringValue, addr 0x61b35d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_OriginalStringValue();
 
-  /// @brief Method get_Prefix, addr 0x61aba88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x61b3504, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_RawValue, addr 0x61abb48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RawValue, addr 0x61b35c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_RawValue();
 
-  /// @brief Method set_AttInfo, addr 0x61abb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttInfo, addr 0x61b35f4, size 0x8, virtual false, abstract: false, final false
   inline void set_AttInfo(::System::Xml::AttributePSVIInfo* value);
 
-  /// @brief Method set_Depth, addr 0x61abb40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Depth, addr 0x61b35bc, size 0x8, virtual false, abstract: false, final false
   inline void set_Depth(int32_t value);
 
-  /// @brief Method set_LocalName, addr 0x61aba70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalName, addr 0x61b34ec, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalName(::StringW value);
 
-  /// @brief Method set_Namespace, addr 0x61aba80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x61b34fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
-  /// @brief Method set_NodeType, addr 0x61abb68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NodeType, addr 0x61b35e4, size 0x8, virtual false, abstract: false, final false
   inline void set_NodeType(::System::Xml::XmlNodeType value);
 
-  /// @brief Method set_Prefix, addr 0x61aba90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Prefix, addr 0x61b350c, size 0x8, virtual false, abstract: false, final false
   inline void set_Prefix(::StringW value);
 
-  /// @brief Method set_RawValue, addr 0x61abb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RawValue, addr 0x61b35cc, size 0x8, virtual false, abstract: false, final false
   inline void set_RawValue(::StringW value);
 
 protected:
@@ -250,7 +250,7 @@ public:
   ValidatingReaderNodeData(ValidatingReaderNodeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9299 };
 
   /// @brief Field localName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___localName;

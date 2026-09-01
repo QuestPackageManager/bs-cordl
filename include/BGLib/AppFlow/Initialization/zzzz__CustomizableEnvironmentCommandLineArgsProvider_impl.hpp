@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/CustomizableEnvironmentCommandLineArgsProvider.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\CustomizableEnvironmentCommandLineArgsProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__CustomizableEnvironmentCommandLineArgsProvider_def.hpp"
 //  Writing Method size for method: ::BGLib::AppFlow::Initialization::CustomizableEnvironmentCommandLineArgsProvider.GetCommandLineArgs
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)()>(&::BGLib::AppFlow::Initialization::CustomizableEnvironmentCommandLineArgsProvider::GetCommandLineArgs)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x330607c;
+  constexpr static std::size_t addrs = 0x3309e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

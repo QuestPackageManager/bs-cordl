@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Activation/ConstructionLevelActivator.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Activation\ConstructionLevelActivator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__ConstructionLevelActivator_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (::System::Runtime::Remoting::Activation::ConstructionLevelActivator::*)()>(
     &::System::Runtime::Remoting::Activation::ConstructionLevelActivator::get_NextActivator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b39234;
+  constexpr static std::size_t addrs = 0x5b3d6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoti
     ::System::Runtime::Remoting::Activation::ConstructionLevelActivator::*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
     &::System::Runtime::Remoting::Activation::ConstructionLevelActivator::Activate)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5b3923c;
+  constexpr static std::size_t addrs = 0x5b3d6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Activation::ConstructionLevelActivator::*)()>(
     &::System::Runtime::Remoting::Activation::ConstructionLevelActivator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b38844;
+  constexpr static std::size_t addrs = 0x5b3cd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

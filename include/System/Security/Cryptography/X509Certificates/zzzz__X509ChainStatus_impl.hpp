@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509ChainStatus.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509ChainStatus.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatus_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainStatus::*)(
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&::System::Security::Cryptography::X509Certificates::X509ChainStatus::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63a7d60;
+  constexpr static std::size_t addrs = 0x63af7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags (
     ::System::Security::Cryptography::X509Certificates::X509ChainStatus::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainStatus::get_Status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a7efc;
+  constexpr static std::size_t addrs = 0x63af978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainStatus::*)(
     ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&::System::Security::Cryptography::X509Certificates::X509ChainStatus::set_Status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a7f04;
+  constexpr static std::size_t addrs = 0x63af980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainStatus::*)(::StringW)>(
     &::System::Security::Cryptography::X509Certificates::X509ChainStatus::set_StatusInformation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a7f0c;
+  constexpr static std::size_t addrs = 0x63af988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(
     &::System::Security::Cryptography::X509Certificates::X509ChainStatus::GetInformation)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x63a7d80;
+  constexpr static std::size_t addrs = 0x63af7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

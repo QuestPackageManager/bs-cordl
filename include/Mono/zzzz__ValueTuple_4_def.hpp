@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/ValueTuple_4.hpp"
+// IWYU pragma private; include "Mono\ValueTuple_4.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/InvariantComparer.hpp"
+// IWYU pragma private; include "System\InvariantComparer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x636d4c0, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x6374f3c, size 0xe0, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   static inline ::System::InvariantComparer* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_m_compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x636d44c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6374ec8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::InvariantComparer* getStaticF_Default();
@@ -74,7 +74,7 @@ public:
   InvariantComparer(InvariantComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11059 };
 
   /// @brief Field m_compareInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Globalization::CompareInfo* ___m_compareInfo;

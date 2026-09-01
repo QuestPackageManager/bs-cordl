@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MirroredBombNoteController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MirroredBombNoteController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MirroredBombNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58d2dc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d2770, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
 
   static inline ::GlobalNamespace::MirroredBombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58d2d74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d2724, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

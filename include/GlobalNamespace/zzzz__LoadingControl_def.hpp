@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LoadingControl.hpp"
+// IWYU pragma private; include "GlobalNamespace\LoadingControl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,27 +71,27 @@ public:
 
   __declspec(property(get = get_isLoading)) bool isLoading;
 
-  /// @brief Method Awake, addr 0x59fb21c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a032f0, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Hide, addr 0x59fb4e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x5a035b8, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::LoadingControl* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59fb2e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a033b8, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShowDownloadingProgress, addr 0x59fb438, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ShowDownloadingProgress, addr 0x5a0350c, size 0xac, virtual false, abstract: false, final false
   inline void ShowDownloadingProgress(::StringW text, float_t downloadingProgress);
 
-  /// @brief Method ShowLoading, addr 0x59fb2fc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ShowLoading, addr 0x5a033d0, size 0x8c, virtual false, abstract: false, final false
   inline void ShowLoading(::StringW text);
 
-  /// @brief Method ShowText, addr 0x59fb388, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowText, addr 0x5a0345c, size 0xb0, virtual false, abstract: false, final false
   inline void ShowText(::StringW text, bool showRefreshButton);
 
-  /// @brief Method <Awake>b__14_0, addr 0x59fb50c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__14_0, addr 0x5a035e0, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__14_0();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -154,16 +154,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressRefreshButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x59fb508, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a035dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressRefreshButtonEvent, addr 0x59fb0ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didPressRefreshButtonEvent, addr 0x5a03180, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressRefreshButtonEvent(::System::Action* value);
 
-  /// @brief Method get_isLoading, addr 0x59fb204, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_isLoading, addr 0x5a032d8, size 0x18, virtual false, abstract: false, final false
   inline bool get_isLoading();
 
-  /// @brief Method remove_didPressRefreshButtonEvent, addr 0x59fb158, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressRefreshButtonEvent, addr 0x5a0322c, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressRefreshButtonEvent(::System::Action* value);
 
 protected:
@@ -181,7 +181,7 @@ public:
   LoadingControl(LoadingControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6301 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6329 };
 
   /// @brief Field _loadingContainer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____loadingContainer;

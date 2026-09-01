@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree/TypeStringFormatter.hpp"
+// IWYU pragma private; include "ModestTree\TypeStringFormatter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,10 +45,10 @@ public:
 
   static inline ::ModestTree::TypeStringFormatter___c* New_ctor();
 
-  /// @brief Method <PrettyNameInternal>b__3_0, addr 0x6e3a804, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <PrettyNameInternal>b__3_0, addr 0x6e42388, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _PrettyNameInternal_b__3_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x6e3a800, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e42384, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ModestTree::TypeStringFormatter___c* getStaticF___9();
@@ -74,7 +74,7 @@ public:
   TypeStringFormatter___c(TypeStringFormatter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13975 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -94,16 +94,16 @@ public:
   /// @brief Field _prettyNameCache, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__prettyNameCache, put = setStaticF__prettyNameCache)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* _prettyNameCache;
 
-  /// @brief Method GetCSharpTypeName, addr 0x6e3a36c, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method GetCSharpTypeName, addr 0x6e41ef0, size 0x38c, virtual false, abstract: false, final false
   static inline ::StringW GetCSharpTypeName(::StringW typeName);
 
-  /// @brief Method NoDomainReloadInit, addr 0x6e39e0c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x6e41990, size 0xc4, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method PrettyName, addr 0x6e3829c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method PrettyName, addr 0x6e3fe20, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW PrettyName(::System::Type* type);
 
-  /// @brief Method PrettyNameInternal, addr 0x6e39ed0, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method PrettyNameInternal, addr 0x6e41a54, size 0x49c, virtual false, abstract: false, final false
   static inline ::StringW PrettyNameInternal(::System::Type* type);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* getStaticF__prettyNameCache();
@@ -125,7 +125,7 @@ public:
   TypeStringFormatter(TypeStringFormatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13976 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

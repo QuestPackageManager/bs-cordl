@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightConstants.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightConstants.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,7 +81,7 @@ public:
   static ::GlobalNamespace::LightConstants_BakeId const F;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19531 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -109,13 +109,13 @@ public:
   /// @brief Field allBakeIds, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_allBakeIds, put = setStaticF_allBakeIds)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>* allBakeIds;
 
-  /// @brief Method GetComputeFieldPropertyId, addr 0x586e114, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetComputeFieldPropertyId, addr 0x586d29c, size 0x54, virtual false, abstract: false, final false
   static inline int32_t GetComputeFieldPropertyId(::StringW fieldName);
 
-  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x586e048, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x586d1d0, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t GetLightProbeLightBakeIdPropertyId(::GlobalNamespace::LightConstants_BakeId bakeId);
 
-  /// @brief Method GetLightmapLightBakeIdPropertyId, addr 0x586df7c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetLightmapLightBakeIdPropertyId, addr 0x586d104, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t GetLightmapLightBakeIdPropertyId(::GlobalNamespace::LightConstants_BakeId bakeId);
 
   static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>* getStaticF_allBakeIds();
@@ -137,7 +137,7 @@ public:
   LightConstants(LightConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19532 };
 
   /// @brief Field kBaseLightId offset 0xffffffff size 0x4
   static constexpr int32_t kBaseLightId{ static_cast<int32_t>(0x19) };

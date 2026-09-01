@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Cryptography/RSAManaged.hpp"
+// IWYU pragma private; include "Mono\Security\Cryptography\RSAManaged.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,12 +46,12 @@ namespace Mono::Security::Cryptography {
 class CORDL_TYPE RSAManaged_KeyGeneratedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5abc050, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5ac050c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
   static inline ::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5abbf08, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac03c4, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -129,30 +129,30 @@ public:
   /// @brief Field qInv, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_qInv, put = __cordl_internal_set_qInv)) ::Mono::Math::BigInteger* qInv;
 
-  /// @brief Method Dispose, addr 0x5abb4d4, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5abf990, size 0x208, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EncryptValue, addr 0x5aba784, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method EncryptValue, addr 0x5abec40, size 0x114, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> EncryptValue(::ArrayW<uint8_t> rgb);
 
-  /// @brief Method ExportParameters, addr 0x5abac34, size 0x32c, virtual true, abstract: false, final false
+  /// @brief Method ExportParameters, addr 0x5abf0f0, size 0x32c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method Finalize, addr 0x5ab9d18, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5abe1d4, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GenerateKeyPair, addr 0x5ab9d68, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0x5abe224, size 0x26c, virtual false, abstract: false, final false
   inline void GenerateKeyPair();
 
-  /// @brief Method GetPaddedValue, addr 0x5abab24, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetPaddedValue, addr 0x5abefe0, size 0xbc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetPaddedValue(::Mono::Math::BigInteger* value, int32_t length);
 
-  /// @brief Method ImportParameters, addr 0x5abb0a0, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method ImportParameters, addr 0x5abf55c, size 0x434, virtual true, abstract: false, final false
   inline void ImportParameters(::System::Security::Cryptography::RSAParameters parameters);
 
   static inline ::Mono::Security::Cryptography::RSAManaged* New_ctor(int32_t keySize);
 
-  /// @brief Method ToXmlString, addr 0x5abb834, size 0x6d4, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x5abfcf0, size 0x6d4, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
   constexpr ::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* const& __cordl_internal_get_KeyGenerated() const;
@@ -233,19 +233,19 @@ public:
 
   constexpr void __cordl_internal_set_qInv(::Mono::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x5ab9c50, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5abe10c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(int32_t keySize);
 
-  /// @brief Method add_KeyGenerated, addr 0x5abb6dc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_KeyGenerated, addr 0x5abfb98, size 0xac, virtual false, abstract: false, final false
   inline void add_KeyGenerated(::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* value);
 
-  /// @brief Method get_KeySize, addr 0x5aba590, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x5abea4c, size 0x94, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly, addr 0x5aba624, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_PublicOnly, addr 0x5abeae0, size 0xa4, virtual false, abstract: false, final false
   inline bool get_PublicOnly();
 
-  /// @brief Method remove_KeyGenerated, addr 0x5abb788, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_KeyGenerated, addr 0x5abfc44, size 0xac, virtual false, abstract: false, final false
   inline void remove_KeyGenerated(::Mono::Security::Cryptography::RSAManaged_KeyGeneratedEventHandler* value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/AssemblyMetadataAttribute.hpp"
+// IWYU pragma private; include "System\Reflection\AssemblyMetadataAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Reflection/zzzz__AssemblyMetadataAttribute_def.hpp"
 //  Writing Method size for method: ::System::Reflection::AssemblyMetadataAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::AssemblyMetadataAttribute::*)(::StringW, ::StringW)>(&::System::Reflection::AssemblyMetadataAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b794d8;
+  constexpr static std::size_t addrs = 0x5b7d994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

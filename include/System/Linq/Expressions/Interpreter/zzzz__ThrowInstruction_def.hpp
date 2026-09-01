@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ThrowInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\ThrowInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +56,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* New_ctor(bool hasResult, bool isRethrow);
 
-  /// @brief Method Run, addr 0x5f89860, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f912dc, size 0x8c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method WrapThrownObject, addr 0x5f898ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WrapThrownObject, addr 0x5f91368, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Exception* WrapThrownObject(::System::Object* thrown);
 
   constexpr bool const& __cordl_internal_get__hasResult() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__rethrow(bool value);
 
-  /// @brief Method .ctor, addr 0x5f89800, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f9127c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool hasResult, bool isRethrow);
 
   static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_Rethrow();
@@ -85,13 +85,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_VoidThrow();
 
-  /// @brief Method get_ConsumedStack, addr 0x5f89858, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5f912d4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5f8980c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f91288, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5f89850, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f912cc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Rethrow(::System::Linq::Expressions::Interpreter::ThrowInstruction* value);
@@ -117,7 +117,7 @@ public:
   ThrowInstruction(ThrowInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16291 };
 
   /// @brief Field _hasResult, offset: 0x10, size: 0x1, def value: None
   bool ____hasResult;

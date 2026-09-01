@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerDataModelHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerDataModelHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModelHelper_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData* (*)(::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData*)>(
     &::GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3746380;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x374c0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData* (*)(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerAllOverallStatsData*)>(
     &::GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3746a28;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x374c714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* (*)(::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData*)>(
     &::GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x374804c;
+  constexpr static std::size_t addrs = 0x374dd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* (*)(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerOverallStatsData*)>(
     &::GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3748114;
+  constexpr static std::size_t addrs = 0x374dde4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData* (*)(::GlobalNamespace::PlayerAllOverallStatsData*)>(
     &::GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3744264;
+  constexpr static std::size_t addrs = 0x3749fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData* (*)(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*)>(
     &::GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStatsData)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x374825c;
+  constexpr static std::size_t addrs = 0x374df2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

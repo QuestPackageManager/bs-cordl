@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Haptics/UnsupportedAdvancedHapticsPlayer.hpp"
+// IWYU pragma private; include "BeatSaber\Haptics\UnsupportedAdvancedHapticsPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +31,15 @@ public:
   /// @brief Convert operator to "::BeatSaber::Haptics::IHapticFeedbackPlayer"
   constexpr operator ::BeatSaber::Haptics::IHapticFeedbackPlayer*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x32953f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x32991f4, size 0x8, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::BeatSaber::Haptics::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
   static inline ::BeatSaber::Haptics::UnsupportedAdvancedHapticsPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x32953f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x32991f0, size 0x4, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::BeatSaber::Haptics::HapticPresetSO* hapticPreset);
 
-  /// @brief Method .ctor, addr 0x3295400, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32991fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Haptics::IHapticFeedbackPlayer"
@@ -60,7 +60,7 @@ public:
   UnsupportedAdvancedHapticsPlayer(UnsupportedAdvancedHapticsPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23194 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

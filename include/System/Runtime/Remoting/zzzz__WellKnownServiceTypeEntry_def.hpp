@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/WellKnownServiceTypeEntry.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\WellKnownServiceTypeEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   static inline ::System::Runtime::Remoting::WellKnownServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri,
                                                                                  ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method ToString, addr 0x5b2cc00, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5b310bc, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Runtime::Remoting::WellKnownObjectMode const& __cordl_internal_get_obj_mode() const;
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_obj_uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b2caf4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b30fb0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method get_Mode, addr 0x5b2cbe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x5b310a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::WellKnownObjectMode get_Mode();
 
-  /// @brief Method get_ObjectType, addr 0x5b2cbf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x5b310ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUri, addr 0x5b2cbf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUri, addr 0x5b310b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUri();
 
 protected:

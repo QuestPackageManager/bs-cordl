@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteJumpDurationTypeSettingsDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteJumpDurationTypeSettingsDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,12 +30,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoteJumpDurationTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::NoteJumpDurationTypeSettings> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x5a0d6f0, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x5a157fc, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a0d7e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a158f4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   NoteJumpDurationTypeSettingsDropdown(NoteJumpDurationTypeSettingsDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6410 };
 
   /// @brief Field kNoteJumpDurationTypeDynamicLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kNoteJumpDurationTypeDynamicLocalizationKey{ u"PLAYER_SETTINGS_NOTE_JUMP_DURATION_TYPE_DYNAMIC" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/PlayerPrefsException.hpp"
+// IWYU pragma private; include "UnityEngine\PlayerPrefsException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::PlayerPrefsException* New_ctor(::StringW error);
 
-  /// @brief Method .ctor, addr 0x6acfa1c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad7434, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW error);
 
 protected:
@@ -40,7 +40,7 @@ public:
   PlayerPrefsException(PlayerPrefsException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10274 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

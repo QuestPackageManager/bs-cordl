@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SimpleValueMissionObjectiveChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace\SimpleValueMissionObjectiveChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE SimpleValueMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
   // Declarations
-  /// @brief Method CheckAndUpdateStatus, addr 0x59161d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CheckAndUpdateStatus, addr 0x5919760, size 0xfc, virtual false, abstract: false, final false
   inline void CheckAndUpdateStatus();
 
   static inline ::GlobalNamespace::SimpleValueMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59162d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5919860, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   SimpleValueMissionObjectiveChecker(SimpleValueMissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6800 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

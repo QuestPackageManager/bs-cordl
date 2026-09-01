@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/Cast6Engine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\Cast6Engine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,27 +39,27 @@ public:
   /// @brief Field _workingKey, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__workingKey, put = __cordl_internal_set__workingKey)) ::ArrayW<uint32_t> _workingKey;
 
-  /// @brief Method CAST_Decipher, addr 0x33a47fc, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method CAST_Decipher, addr 0x33a85bc, size 0x34c, virtual false, abstract: false, final false
   inline void CAST_Decipher(uint32_t A, uint32_t B, uint32_t C, uint32_t D, ::ArrayW<uint32_t> result);
 
-  /// @brief Method CAST_Encipher, addr 0x33a433c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method CAST_Encipher, addr 0x33a80fc, size 0x348, virtual false, abstract: false, final false
   inline void CAST_Encipher(uint32_t A, uint32_t B, uint32_t C, uint32_t D, ::ArrayW<uint32_t> result);
 
-  /// @brief Method DecryptBlock, addr 0x33a4684, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x33a8444, size 0x178, virtual true, abstract: false, final false
   inline int32_t DecryptBlock(::ArrayW<uint8_t> src, int32_t srcIndex, ::ArrayW<uint8_t> dst, int32_t dstIndex);
 
-  /// @brief Method EncryptBlock, addr 0x33a41c4, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x33a7f84, size 0x178, virtual true, abstract: false, final false
   inline int32_t EncryptBlock(::ArrayW<uint8_t> src, int32_t srcIndex, ::ArrayW<uint8_t> dst, int32_t dstIndex);
 
-  /// @brief Method GetBlockSize, addr 0x33a37fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x33a75bc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Cast6Engine* New_ctor();
 
-  /// @brief Method Reset, addr 0x33a37f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x33a75b8, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetKey, addr 0x33a3804, size 0x9c0, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x33a75c4, size 0x9c0, virtual true, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t> key);
 
   constexpr ::ArrayW<uint32_t> const& __cordl_internal_get__Km() const;
@@ -92,10 +92,10 @@ public:
 
   constexpr void __cordl_internal_set__workingKey(::ArrayW<uint32_t> value);
 
-  /// @brief Method .ctor, addr 0x33a36c8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a7488, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x33a37b4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x33a7574, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

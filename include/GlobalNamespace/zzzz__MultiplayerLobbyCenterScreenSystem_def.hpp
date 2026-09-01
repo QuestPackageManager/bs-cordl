@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyCenterScreenSystem.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyCenterScreenSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerLobbyCenterScreenSystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a080f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a10204, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   MultiplayerLobbyCenterScreenSystem(MultiplayerLobbyCenterScreenSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/XContainerWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\XContainerWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,12 +42,12 @@ public:
   /// @brief Field _childNodes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__childNodes, put = __cordl_internal_set__childNodes)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _childNodes;
 
-  /// @brief Method AppendChild, addr 0x5d9cdec, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method AppendChild, addr 0x5da12a8, size 0xdc, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
   static inline ::Newtonsoft::Json::Converters::XContainerWrapper* New_ctor(::System::Xml::Linq::XContainer* container);
 
-  /// @brief Method WrapNode, addr 0x5d9cfe4, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method WrapNode, addr 0x5da14a0, size 0x34c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Converters::IXmlNode* WrapNode(::System::Xml::Linq::XObject* node);
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* const& __cordl_internal_get__childNodes() const;
@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set__childNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 
-  /// @brief Method .ctor, addr 0x5d9bfdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da0498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XContainer* container);
 
-  /// @brief Method get_ChildNodes, addr 0x5d9c160, size 0x3e4, virtual true, abstract: false, final false
+  /// @brief Method get_ChildNodes, addr 0x5da061c, size 0x3e4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
 
-  /// @brief Method get_Container, addr 0x5d9d538, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x5da19f4, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XContainer* get_Container();
 
-  /// @brief Method get_HasChildNodes, addr 0x5d9c580, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_HasChildNodes, addr 0x5da0a3c, size 0x28, virtual true, abstract: false, final false
   inline bool get_HasChildNodes();
 
-  /// @brief Method get_ParentNode, addr 0x5d9d5b4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x5da1a70, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
 protected:
@@ -86,7 +86,7 @@ public:
   XContainerWrapper(XContainerWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13685 };
 
   /// @brief Field _childNodes, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* ____childNodes;

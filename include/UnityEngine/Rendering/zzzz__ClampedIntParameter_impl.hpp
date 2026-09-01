@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ClampedIntParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ClampedIntParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__IntParameter_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ClampedIntParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ClampedIntParameter.get_value
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ClampedIntParameter::*)()>(&::UnityEngine::Rendering::ClampedIntParameter::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c509c;
+  constexpr static std::size_t addrs = 0x67ccb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ClampedIntParameter::*)(int32_t)>(&::UnityEngine::Rendering::ClampedIntParameter::set_value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x67c50a4;
+  constexpr static std::size_t addrs = 0x67ccb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ClampedIntParameter::*)(int32_t, int32_t, int32_t, bool)>(
     &::UnityEngine::Rendering::ClampedIntParameter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67c50c0;
+  constexpr static std::size_t addrs = 0x67ccb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

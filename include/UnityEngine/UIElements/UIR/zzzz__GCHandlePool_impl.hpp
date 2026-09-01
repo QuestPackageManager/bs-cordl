@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/GCHandlePool.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\GCHandlePool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GCHandlePool_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)(int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::GCHandlePool::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6ccb09c;
+  constexpr static std::size_t addrs = 0x6cd2c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::GCHandle (::UnityEngine::UIElements::UIR::GCHandlePool::*)(::System::Object*)>(
     &::UnityEngine::UIElements::UIR::GCHandlePool::Get)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6ccb128;
+  constexpr static std::size_t addrs = 0x6cd2cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::UIElements::UIR::GCHandlePool::*)(::System::Object*)>(
     &::UnityEngine::UIElements::UIR::GCHandlePool::GetIntPtr)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ccb308;
+  constexpr static std::size_t addrs = 0x6cd2e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)()>(&::UnityEngine::UIElements::UIR::GCHandlePool::ReturnAll)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6ccb318;
+  constexpr static std::size_t addrs = 0x6cd2e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(), { "ReturnAll", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::GCHandlePool::*)()>(&::UnityEngine::UIElements::UIR::GCHandlePool::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ccb3f0;
+  constexpr static std::size_t addrs = 0x6cd2f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(), { "get_disposed", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)(bool)>(&::UnityEngine::UIElements::UIR::GCHandlePool::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ccb3f8;
+  constexpr static std::size_t addrs = 0x6cd2f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)()>(&::UnityEngine::UIElements::UIR::GCHandlePool::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6ccb400;
+  constexpr static std::size_t addrs = 0x6cd2f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::GCHandlePool*>(), { "Dispose", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::GCHandlePool::*)(bool)>(&::UnityEngine::UIElements::UIR::GCHandlePool::Dispose)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6ccb468;
+  constexpr static std::size_t addrs = 0x6cd2fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

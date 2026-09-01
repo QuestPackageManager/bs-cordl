@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/UIExtensionMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\UIExtensionMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UIExtensionMethods_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*)>(&::GlobalNamespace::UIExtensionMethods::CopySizeAndPositionFrom)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5859530;
+  constexpr static std::size_t addrs = 0x5858638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::RectTransform*)>(&::GlobalNamespace::UIExtensionMethods::GetWorldRect)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x58595fc;
+  constexpr static std::size_t addrs = 0x5858704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

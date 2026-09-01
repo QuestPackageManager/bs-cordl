@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/Compute_DT_EventArgs.hpp"
+// IWYU pragma private; include "TMPro\Compute_DT_EventArgs.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__Compute_DistanceTransform_EventTypes_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::Compute_DT_EventArgs::*)(::TMPro::Compute_DistanceTransform_EventTypes, float_t)>(&::TMPro::Compute_DT_EventArgs::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6941184;
+  constexpr static std::size_t addrs = 0x6948c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::Compute_DT_EventArgs::*)(::TMPro::Compute_DistanceTransform_EventTypes, ::ArrayW<::UnityEngine::Color>)>(
     &::TMPro::Compute_DT_EventArgs::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6941190;
+  constexpr static std::size_t addrs = 0x6948c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

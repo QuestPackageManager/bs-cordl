@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/GraphQL/Models/LeaderboardEntryWithRankModel.hpp"
+// IWYU pragma private; include "BeatSaber\Main\GraphQL\Models\LeaderboardEntryWithRankModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,19 +87,19 @@ public:
 
   constexpr void __cordl_internal_set__Id_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x329d1dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0fd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Alias, addr 0x329d1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Alias, addr 0x32a0fd0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Alias();
 
-  /// @brief Method get_Id, addr 0x329d1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x32a0fc0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method set_Alias, addr 0x329d1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Alias, addr 0x32a0fc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Alias(::StringW value);
 
-  /// @brief Method set_Id, addr 0x329d1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x32a0fb8, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
 protected:
@@ -118,7 +118,7 @@ public:
       delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20537 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20573 };
 
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Id_k__BackingField;
@@ -166,13 +166,13 @@ public:
   constexpr void __cordl_internal_set__Nodes_k__BackingField(
       ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* value);
 
-  /// @brief Method .ctor, addr 0x329d1b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0fb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Nodes, addr 0x329d1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Nodes, addr 0x32a0fac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* get_Nodes();
 
-  /// @brief Method set_Nodes, addr 0x329d1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Nodes, addr 0x32a0fa4, size 0x8, virtual false, abstract: false, final false
   inline void
   set_Nodes(::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* value);
 
@@ -191,7 +191,7 @@ public:
   FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel(FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20574 };
 
   /// @brief Field <Nodes>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>* ____Nodes_k__BackingField;
@@ -229,13 +229,13 @@ public:
 
   constexpr void __cordl_internal_set__Owners_k__BackingField(::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel* value);
 
-  /// @brief Method .ctor, addr 0x329d1a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0fa0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Owners, addr 0x329d19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Owners, addr 0x32a0f98, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel* get_Owners();
 
-  /// @brief Method set_Owners, addr 0x329d194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Owners, addr 0x32a0f90, size 0x8, virtual false, abstract: false, final false
   inline void set_Owners(::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel* value);
 
 protected:
@@ -253,7 +253,7 @@ public:
   UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel(UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20575 };
 
   /// @brief Field <Owners>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel* ____Owners_k__BackingField;
@@ -302,19 +302,19 @@ public:
 
   constexpr void __cordl_internal_set__Id_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x329d190, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0f8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FirstPartyXplatformUser, addr 0x329d188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FirstPartyXplatformUser, addr 0x32a0f84, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel* get_FirstPartyXplatformUser();
 
-  /// @brief Method get_Id, addr 0x329d178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x32a0f74, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method set_FirstPartyXplatformUser, addr 0x329d180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FirstPartyXplatformUser, addr 0x32a0f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_FirstPartyXplatformUser(::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel* value);
 
-  /// @brief Method set_Id, addr 0x329d170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x32a0f6c, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
 protected:
@@ -332,7 +332,7 @@ public:
   LeaderboardEntryWithRankModel_UserModel(LeaderboardEntryWithRankModel_UserModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20576 };
 
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Id_k__BackingField;
@@ -395,25 +395,25 @@ public:
 
   constexpr void __cordl_internal_set__User_k__BackingField(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel* value);
 
-  /// @brief Method .ctor, addr 0x329d16c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a0f68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Rank, addr 0x329d160, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Rank, addr 0x32a0f5c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_Rank();
 
-  /// @brief Method get_Score, addr 0x329d14c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Score, addr 0x32a0f48, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_Score();
 
-  /// @brief Method get_User, addr 0x329d13c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_User, addr 0x32a0f38, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel* get_User();
 
-  /// @brief Method set_Rank, addr 0x329d158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Rank, addr 0x32a0f54, size 0x8, virtual false, abstract: false, final false
   inline void set_Rank(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_Score, addr 0x329d144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Score, addr 0x32a0f40, size 0x8, virtual false, abstract: false, final false
   inline void set_Score(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_User, addr 0x329d134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_User, addr 0x32a0f30, size 0x8, virtual false, abstract: false, final false
   inline void set_User(::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel* value);
 
 protected:
@@ -431,7 +431,7 @@ public:
   LeaderboardEntryWithRankModel(LeaderboardEntryWithRankModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20577 };
 
   /// @brief Field <User>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel* ____User_k__BackingField;

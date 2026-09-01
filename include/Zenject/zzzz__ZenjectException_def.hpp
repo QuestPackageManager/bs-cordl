@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ZenjectException.hpp"
+// IWYU pragma private; include "Zenject\ZenjectException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ public:
 
   static inline ::Zenject::ZenjectException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x6e96e78, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e9e9fc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x6e96ee4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e9ea68, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -48,7 +48,7 @@ public:
   ZenjectException(ZenjectException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14715 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

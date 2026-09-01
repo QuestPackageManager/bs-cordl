@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnHeaderColumnSortIndicator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnHeaderColumnSortIndicator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IndexLabel(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x6d22498, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2a01c, size 0x178, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_arrowUssClassName();
@@ -60,7 +60,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_sortOrderLabel, addr 0x6d22478, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_sortOrderLabel, addr 0x6d29ffc, size 0x20, virtual false, abstract: false, final false
   inline void set_sortOrderLabel(::StringW value);
 
 protected:

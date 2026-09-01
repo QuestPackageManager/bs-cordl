@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ConvertHelper.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\ConvertHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace System::Linq::Expressions::Interpreter {
 class CORDL_TYPE ConvertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToInt32NoNull, addr 0x5f85984, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ToInt32NoNull, addr 0x5f8d400, size 0x154, virtual false, abstract: false, final false
   static inline int32_t ToInt32NoNull(::System::Object* val);
 
 protected:
@@ -41,7 +41,7 @@ public:
   ConvertHelper(ConvertHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16235 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16268 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

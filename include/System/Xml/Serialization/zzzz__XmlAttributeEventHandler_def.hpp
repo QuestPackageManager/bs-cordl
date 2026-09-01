@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlAttributeEventHandler.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlAttributeEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +28,12 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlAttributeEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x62e3a0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62eb488, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Xml::Serialization::XmlAttributeEventArgs* e);
 
   static inline ::System::Xml::Serialization::XmlAttributeEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x62e38c4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62eb340, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -51,7 +51,7 @@ public:
   XmlAttributeEventHandler(XmlAttributeEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9477 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

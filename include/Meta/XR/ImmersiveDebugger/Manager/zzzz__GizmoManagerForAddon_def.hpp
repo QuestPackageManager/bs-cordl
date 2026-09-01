@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/GizmoManagerForAddon.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\GizmoManagerForAddon.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,10 +59,10 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <RegisterSpecialisedWidget>g__GetState|1, addr 0x5a640a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterSpecialisedWidget>g__GetState|1, addr 0x5a6855c, size 0x6c, virtual false, abstract: false, final false
   inline bool _RegisterSpecialisedWidget_g__GetState_1();
 
-  /// @brief Method <RegisterSpecialisedWidget>g__OnStateChanged|0, addr 0x5a64024, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <RegisterSpecialisedWidget>g__OnStateChanged|0, addr 0x5a684e0, size 0x7c, virtual false, abstract: false, final false
   inline void _RegisterSpecialisedWidget_g__OnStateChanged_0(bool state);
 
   constexpr ::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon* const& __cordl_internal_get___4__this() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_memberInfo(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x5a63f40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a683fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   GizmoManagerForAddon___c__DisplayClass1_0(GizmoManagerForAddon___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18460 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon* _____4__this;
@@ -141,7 +141,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::GizmoManagerForAddon* New_ctor();
 
-  /// @brief Method RegisterSpecialisedWidget, addr 0x5a63848, size 0x6f8, virtual true, abstract: false, final false
+  /// @brief Method RegisterSpecialisedWidget, addr 0x5a67d04, size 0x6f8, virtual true, abstract: false, final false
   inline bool RegisterSpecialisedWidget(::Meta::XR::ImmersiveDebugger::UserInterface::IMember* member, ::System::Reflection::MemberInfo* memberInfo,
                                         ::Meta::XR::ImmersiveDebugger::DebugMember* memberAttribute, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle handle);
 
@@ -154,10 +154,10 @@ public:
   constexpr void __cordl_internal_set__memberToGizmoRendererManagerDict(
       ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager>>* value);
 
-  /// @brief Method .ctor, addr 0x5a63f88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a68444, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TelemetryAnnotation, addr 0x5a63f44, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_TelemetryAnnotation, addr 0x5a68400, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_TelemetryAnnotation();
 
 protected:
@@ -175,7 +175,7 @@ public:
   GizmoManagerForAddon(GizmoManagerForAddon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18461 };
 
   /// @brief Field _memberToGizmoRendererManagerDict, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Reflection::MemberInfo*, ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::GizmoRendererManager>>* ____memberToGizmoRendererManagerDict;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RecordingToolSceneSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\RecordingToolSceneSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x590a7cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590dca4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   RecordingToolSceneSetupData(RecordingToolSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6726 };
 
   /// @brief Field taskCompletionSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<bool>* ___taskCompletionSource;

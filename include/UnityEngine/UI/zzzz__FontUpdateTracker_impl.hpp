@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UI/FontUpdateTracker.hpp"
+// IWYU pragma private; include "UnityEngine\UI\FontUpdateTracker.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__FontUpdateTracker_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&::UnityEngine::UI::FontUpdateTracker::TrackText)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x6c1ba08;
+  constexpr static std::size_t addrs = 0x6c2358c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Font*)>(&::UnityEngine::UI::FontUpdateTracker::RebuildForFont)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6c1bc84;
+  constexpr static std::size_t addrs = 0x6c23808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&::UnityEngine::UI::FontUpdateTracker::UntrackText)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6c1bdf0;
+  constexpr static std::size_t addrs = 0x6c23974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

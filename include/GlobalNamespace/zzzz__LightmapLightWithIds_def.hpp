@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightmapLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightmapLightWithIds.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set__probeHighlightsIntensityMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x586ec70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586ddf8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity, float_t probeMultiplier);
 
-  /// @brief Method get_intensity, addr 0x586ec60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x586dde8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x586ec68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x586ddf0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_probeHighlightsIntensityMultiplier();
 
 protected:
@@ -99,7 +99,7 @@ public:
   LightmapLightWithIds_LightIntensitiesWithId(LightmapLightWithIds_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19535 };
 
   /// @brief Field _intensity, offset: 0x30, size: 0x4, def value: None
   float_t ____intensity;
@@ -176,27 +176,27 @@ public:
 
   __declspec(property(get = get_normalizerWeight, put = set_normalizerWeight)) float_t normalizerWeight;
 
-  /// @brief Method Awake, addr 0x586e660, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x586d7e8, size 0x50, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetBakedLightsNormalizer, addr 0x586e6e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetBakedLightsNormalizer, addr 0x586d870, size 0x94, virtual false, abstract: false, final false
   inline void GetBakedLightsNormalizer();
 
-  /// @brief Method GetLightWithIds, addr 0x586ec44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x586ddcc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::LightmapLightWithIds* New_ctor();
 
-  /// @brief Method ProcessNewColorData, addr 0x586e84c, size 0x3f8, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x586d9d4, size 0x3f8, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method SetChannelColorDirect, addr 0x586e844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetChannelColorDirect, addr 0x586d9cc, size 0x8, virtual false, abstract: false, final false
   inline void SetChannelColorDirect(::UnityEngine::Color channelColor);
 
-  /// @brief Method SetDataToShaders, addr 0x586e7f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetDataToShaders, addr 0x586d980, size 0x4c, virtual false, abstract: false, final false
   inline void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
 
-  /// @brief Method SetShaderProperties, addr 0x586e77c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetShaderProperties, addr 0x586d904, size 0x7c, virtual false, abstract: false, final false
   inline void SetShaderProperties();
 
   constexpr ::GlobalNamespace::LightConstants_BakeId const& __cordl_internal_get__bakeId() const;
@@ -277,28 +277,28 @@ public:
 
   constexpr void __cordl_internal_set__probeIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x586ec4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586ddd4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakeId, addr 0x586e658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakeId, addr 0x586d7e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightConstants_BakeId get_bakeId();
 
-  /// @brief Method get_calculatedColorPreNormalization, addr 0x586e64c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_calculatedColorPreNormalization, addr 0x586d7d4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_calculatedColorPreNormalization();
 
-  /// @brief Method get_intensity, addr 0x586e62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x586d7b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_mixType, addr 0x586e624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mixType, addr 0x586d7ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_mixType();
 
-  /// @brief Method get_normalizerWeight, addr 0x586e63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizerWeight, addr 0x586d7c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizerWeight();
 
-  /// @brief Method set_intensity, addr 0x586e634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x586d7bc, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
-  /// @brief Method set_normalizerWeight, addr 0x586e644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_normalizerWeight, addr 0x586d7cc, size 0x8, virtual false, abstract: false, final false
   inline void set_normalizerWeight(float_t value);
 
 protected:
@@ -316,7 +316,7 @@ public:
   LightmapLightWithIds(LightmapLightWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19536 };
 
   /// @brief Field _bakeId, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::LightConstants_BakeId ____bakeId;

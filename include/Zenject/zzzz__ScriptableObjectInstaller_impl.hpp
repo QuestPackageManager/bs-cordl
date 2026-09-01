@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ScriptableObjectInstaller.hpp"
+// IWYU pragma private; include "Zenject\ScriptableObjectInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstallerBase_impl.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ScriptableObjectInstaller::*)()>(&::Zenject::ScriptableObjectInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6e7f0;
+  constexpr static std::size_t addrs = 0x6e76374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ScriptableObjectInstaller*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::ScriptableObjectInstaller::__zenCreate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e6e800;
+  constexpr static std::size_t addrs = 0x6e76384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ScriptableObjectInstaller::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6e6e858;
+  constexpr static std::size_t addrs = 0x6e763dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ScriptableObjectInstaller*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

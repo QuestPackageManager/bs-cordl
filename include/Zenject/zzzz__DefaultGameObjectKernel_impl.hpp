@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/DefaultGameObjectKernel.hpp"
+// IWYU pragma private; include "Zenject\DefaultGameObjectKernel.hpp"
 #include "Zenject/zzzz__MonoKernel_impl.hpp"
 #include "Zenject/zzzz__DefaultGameObjectKernel_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::DefaultGameObjectKernel::*)()>(&::Zenject::DefaultGameObjectKernel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e8b940;
+  constexpr static std::size_t addrs = 0x6e934c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DefaultGameObjectKernel*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::DefaultGameObjectKernel::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6e8b948;
+  constexpr static std::size_t addrs = 0x6e934cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::DefaultGameObjectKernel*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

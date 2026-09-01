@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BatchDrawCommand.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BatchDrawCommand.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommandFlags_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchID_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchMaterialID_impl.hpp"

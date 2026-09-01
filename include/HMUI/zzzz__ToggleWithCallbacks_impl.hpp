@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ToggleWithCallbacks.hpp"
+// IWYU pragma private; include "HMUI\ToggleWithCallbacks.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleWithCallbacks::*)(::System::Action_1<::HMUI::ToggleWithCallbacks_SelectionState>*)>(
     &::HMUI::ToggleWithCallbacks::add_stateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588cd90;
+  constexpr static std::size_t addrs = 0x588c758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleWithCallbacks::*)(::System::Action_1<::HMUI::ToggleWithCallbacks_SelectionState>*)>(
     &::HMUI::ToggleWithCallbacks::remove_stateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588d104;
+  constexpr static std::size_t addrs = 0x588cacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::ToggleWithCallbacks_SelectionState (::HMUI::ToggleWithCallbacks::*)()>(&::HMUI::ToggleWithCallbacks::get_selectionState)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x588d1cc;
+  constexpr static std::size_t addrs = 0x588cb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleWithCallbacks*>(), { "get_selectionState", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleWithCallbacks::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(&::HMUI::ToggleWithCallbacks::DoStateTransition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x58917c4;
+  constexpr static std::size_t addrs = 0x589118c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::ToggleWithCallbacks*>(), { ::i2c::class_of<::HMUI::ToggleWithCallbacks*>(), 26 }));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ToggleWithCallbacks::*)()>(&::HMUI::ToggleWithCallbacks::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x589180c;
+  constexpr static std::size_t addrs = 0x58911d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ToggleWithCallbacks*>(), { ".ctor", {}, {} })));

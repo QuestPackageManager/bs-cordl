@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/XDocumentType.hpp"
+// IWYU pragma private; include "System\Xml\Linq\XDocumentType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,14 +51,14 @@ public:
   /// @brief Field _systemId, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__systemId, put = __cordl_internal_set__systemId)) ::StringW _systemId;
 
-  /// @brief Method CloneNode, addr 0x61a0e68, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x61a88e4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 
   static inline ::System::Xml::Linq::XDocumentType* New_ctor(::System::Xml::Linq::XDocumentType* other);
 
-  /// @brief Method WriteTo, addr 0x61a0dfc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x61a8878, size 0x6c, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get__internalSubset() const;
@@ -85,25 +85,25 @@ public:
 
   constexpr void __cordl_internal_set__systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x619ff18, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a7994, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 
-  /// @brief Method .ctor, addr 0x61a0d70, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a87ec, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDocumentType* other);
 
-  /// @brief Method get_InternalSubset, addr 0x61a0dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSubset, addr 0x61a8850, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_Name, addr 0x61a0ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x61a8858, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x61a0de4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x61a8860, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_PublicId, addr 0x61a0dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicId, addr 0x61a8868, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PublicId();
 
-  /// @brief Method get_SystemId, addr 0x61a0df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemId, addr 0x61a8870, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemId();
 
 protected:
@@ -121,7 +121,7 @@ public:
   XDocumentType(XDocumentType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21974 };
 
   /// @brief Field _name, offset: 0x28, size: 0x8, def value: None
   ::StringW ____name;

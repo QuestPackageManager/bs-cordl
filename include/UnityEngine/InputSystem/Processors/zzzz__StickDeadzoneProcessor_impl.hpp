@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Processors/StickDeadzoneProcessor.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Processors\StickDeadzoneProcessor.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__StickDeadzoneProcessor_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::get_minOrDefault)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x65b7984;
+  constexpr static std::size_t addrs = 0x65bf400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::get_maxOrDefault)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x65b79f8;
+  constexpr static std::size_t addrs = 0x65bf474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)(
     ::UnityEngine::Vector2, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::Process)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x65b7a6c;
+  constexpr static std::size_t addrs = 0x65bf4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)(float_t)>(
     &::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::GetDeadZoneAdjustedValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x65b7b44;
+  constexpr static std::size_t addrs = 0x65bf5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::ToString)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x65b7bb4;
+  constexpr static std::size_t addrs = 0x65bf630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor*>(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65b7c70;
+  constexpr static std::size_t addrs = 0x65bf6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor*>(), { ".ctor", {}, {} })));

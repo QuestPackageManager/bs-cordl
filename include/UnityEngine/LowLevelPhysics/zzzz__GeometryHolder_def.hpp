@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/LowLevelPhysics/GeometryHolder.hpp"
+// IWYU pragma private; include "UnityEngine\LowLevelPhysics\GeometryHolder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   constexpr GeometryHolder__m_Blob_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18695 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -81,7 +81,7 @@ public:
                            ::UnityEngine::LowLevelPhysics::GeometryHolder__m_Blob_e__FixedBuffer m_Blob) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18696 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

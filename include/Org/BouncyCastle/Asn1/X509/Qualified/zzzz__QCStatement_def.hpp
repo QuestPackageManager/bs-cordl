@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/Qualified/QCStatement.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\Qualified\QCStatement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   /// @brief Field qcStatementInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_qcStatementInfo, put = __cordl_internal_set_qcStatementInfo)) ::Org::BouncyCastle::Asn1::Asn1Encodable* qcStatementInfo;
 
-  /// @brief Method GetInstance, addr 0x3554f10, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3558cd0, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::QCStatement* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::QCStatement* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* qcStatementId);
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::QCStatement* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3555158, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3558f18, size 0x154, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_qcStatementId() const;
@@ -69,19 +69,19 @@ public:
 
   constexpr void __cordl_internal_set_qcStatementInfo(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x3555138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3558ef8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* qcStatementId);
 
-  /// @brief Method .ctor, addr 0x3555140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3558f00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* qcStatementId, ::Org::BouncyCastle::Asn1::Asn1Encodable* qcStatementInfo);
 
-  /// @brief Method .ctor, addr 0x3555074, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3558e34, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_StatementId, addr 0x3555148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatementId, addr 0x3558f08, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_StatementId();
 
-  /// @brief Method get_StatementInfo, addr 0x3555150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatementInfo, addr 0x3558f10, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_StatementInfo();
 
 protected:

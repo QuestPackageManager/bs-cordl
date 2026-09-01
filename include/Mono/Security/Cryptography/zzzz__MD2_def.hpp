@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Cryptography/MD2.hpp"
+// IWYU pragma private; include "Mono\Security\Cryptography\MD2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace Mono::Security::Cryptography {
 class CORDL_TYPE MD2 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x5a9b738, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5abbac8, size 0x54, virtual false, abstract: false, final false
   static inline ::Mono::Security::Cryptography::MD2* Create();
 
   static inline ::Mono::Security::Cryptography::MD2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a9b72c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5abbabc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   MD2(MD2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

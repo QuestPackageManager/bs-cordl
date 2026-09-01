@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/MetaRemoteAssets/Platform/SupportedPlatforms.hpp"
+// IWYU pragma private; include "BGLib\MetaRemoteAssets\Platform\SupportedPlatforms.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   static constexpr ::ConstString Windows{ u"WIN_64" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22499 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

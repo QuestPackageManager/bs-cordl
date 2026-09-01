@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/DeferredConfig.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\DeferredConfig.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__DeferredConfig_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::Universal::Internal::DeferredConfig.get_IsOpenGL
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::Internal::DeferredConfig::get_IsOpenGL)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68e17b4;
+  constexpr static std::size_t addrs = 0x68e9230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::Universal::Internal::DeferredConfig::set_IsOpenGL)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68e1800;
+  constexpr static std::size_t addrs = 0x68e927c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::Internal::DeferredConfig::get_IsDX10)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68e1854;
+  constexpr static std::size_t addrs = 0x68e92d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::Universal::Internal::DeferredConfig::set_IsDX10)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68e18a0;
+  constexpr static std::size_t addrs = 0x68e931c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

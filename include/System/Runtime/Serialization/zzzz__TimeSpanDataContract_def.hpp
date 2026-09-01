@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/TimeSpanDataContract.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\TimeSpanDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,22 +46,22 @@ public:
 
   static inline ::System::Runtime::Serialization::TimeSpanDataContract* New_ctor(::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method ReadXmlValue, addr 0x6156d9c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x615e818, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method WriteXmlValue, addr 0x6156d14, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x615e790, size 0x88, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
-  /// @brief Method .ctor, addr 0x6156b9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615e618, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6156c04, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615e680, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDictionaryString* name, ::System::Xml::XmlDictionaryString* ns);
 
-  /// @brief Method get_ReadMethodName, addr 0x6156cd0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMethodName, addr 0x615e74c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ReadMethodName();
 
-  /// @brief Method get_WriteMethodName, addr 0x6156c8c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMethodName, addr 0x615e708, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_WriteMethodName();
 
 protected:
@@ -79,7 +79,7 @@ public:
   TimeSpanDataContract(TimeSpanDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17104 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

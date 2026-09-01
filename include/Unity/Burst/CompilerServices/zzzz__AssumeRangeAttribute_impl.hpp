@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Burst/CompilerServices/AssumeRangeAttribute.hpp"
+// IWYU pragma private; include "Unity\Burst\CompilerServices\AssumeRangeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__AssumeRangeAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::AssumeRangeAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::CompilerServices::AssumeRangeAttribute::*)(int64_t, int64_t)>(
     &::Unity::Burst::CompilerServices::AssumeRangeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649fb84;
+  constexpr static std::size_t addrs = 0x64a7600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::CompilerServices::AssumeRangeAttribute::*)(uint64_t, uint64_t)>(
     &::Unity::Burst::CompilerServices::AssumeRangeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649fb88;
+  constexpr static std::size_t addrs = 0x64a7604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

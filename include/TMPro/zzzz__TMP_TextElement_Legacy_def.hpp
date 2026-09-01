@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_TextElement_Legacy.hpp"
+// IWYU pragma private; include "TMPro\TMP_TextElement_Legacy.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_yOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x6997e20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x699f89c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
   TMP_TextElement_Legacy(TMP_TextElement_Legacy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16011 };
 
   /// @brief Field id, offset: 0x10, size: 0x4, def value: None
   int32_t ___id;

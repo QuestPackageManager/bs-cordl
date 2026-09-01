@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion4/SpawnRotation.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion4\SpawnRotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   constexpr SpawnRotation(::BeatmapSaveDataCommon::ExecutionTime t, float_t r) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15338 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ReflectionProbeMinMaxZJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ReflectionProbeMinMaxZJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Mathematics/zzzz__float2_impl.hpp"
 #include "Unity/Mathematics/zzzz__float4x4_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeMinMaxZJob::Execute)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x68ba434;
+  constexpr static std::size_t addrs = 0x68c1eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

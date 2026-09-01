@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRSystemPerfMetrics.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRSystemPerfMetrics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -138,12 +138,12 @@ public:
   /// @brief Field systemGpuUtilPercentage_IsValid, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get_systemGpuUtilPercentage_IsValid, put = __cordl_internal_set_systemGpuUtilPercentage_IsValid)) bool systemGpuUtilPercentage_IsValid;
 
-  /// @brief Method LoadFromJSON, addr 0x5f103a4, size 0xb48, virtual false, abstract: false, final false
+  /// @brief Method LoadFromJSON, addr 0x5f14860, size 0xb48, virtual false, abstract: false, final false
   inline bool LoadFromJSON(::StringW json);
 
   static inline ::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics* New_ctor();
 
-  /// @brief Method ToJSON, addr 0x5f0fc78, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method ToJSON, addr 0x5f14134, size 0x72c, virtual false, abstract: false, final false
   inline ::StringW ToJSON();
 
   constexpr float_t const& __cordl_internal_get_appCpuTime() const;
@@ -332,7 +332,7 @@ public:
 
   constexpr void __cordl_internal_set_systemGpuUtilPercentage_IsValid(bool value);
 
-  /// @brief Method .ctor, addr 0x5f1196c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f15e28, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -350,7 +350,7 @@ public:
   OVRSystemPerfMetrics_PerfMetrics(OVRSystemPerfMetrics_PerfMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7997 };
 
   /// @brief Field frameCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___frameCount;
@@ -529,18 +529,18 @@ public:
   /// @brief Field tcpServer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_tcpServer, put = __cordl_internal_set_tcpServer)) ::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer* tcpServer;
 
-  /// @brief Method GatherPerfMetrics, addr 0x5f11c78, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method GatherPerfMetrics, addr 0x5f16134, size 0x374, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics* GatherPerfMetrics();
 
   static inline ::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5f11b4c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5f16008, size 0xac, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5f11a24, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5f15ee0, size 0x128, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x5f11bf8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5f160b4, size 0x80, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get_listeningPort() const;
@@ -555,7 +555,7 @@ public:
 
   constexpr void __cordl_internal_set_tcpServer(::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer* value);
 
-  /// @brief Method .ctor, addr 0x5f11fec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f164a8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer> getStaticF_singleton();
@@ -577,7 +577,7 @@ public:
   OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer(OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7998 };
 
   /// @brief Field tcpServer, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer* ___tcpServer;
@@ -608,7 +608,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSystemPerfMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5f0fc74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f14130, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -638,7 +638,7 @@ public:
   static constexpr int32_t TcpListeningPort{ static_cast<int32_t>(0x7ea3) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7999 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

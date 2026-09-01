@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalInactivePlayerInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLocalInactivePlayerInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerInstaller_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataSender_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x59c0438;
+  constexpr static std::size_t addrs = 0x59c8138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::*)()>(&::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c08f4;
+  constexpr static std::size_t addrs = 0x59c85f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller*>(), { ".ctor", {}, {} })));

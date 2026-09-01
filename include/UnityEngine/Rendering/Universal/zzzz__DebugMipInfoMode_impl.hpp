@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugMipInfoMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugMipInfoMode.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugMipInfoMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::DebugMipInfoMode::DebugMipInfoMode(int32_t value__) noexcept {

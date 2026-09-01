@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/BinHexDecoder.hpp"
+// IWYU pragma private; include "System\Xml\BinHexDecoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,25 +47,25 @@ public:
   /// @brief Field startIndex, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_startIndex, put = __cordl_internal_set_startIndex)) int32_t startIndex;
 
-  /// @brief Method Decode, addr 0x618b670, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x61930ec, size 0x1dc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Decode(::ArrayW<char16_t> chars, bool allowOddChars);
 
-  /// @brief Method Decode, addr 0x618b174, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x6192bf0, size 0x150, virtual true, abstract: false, final false
   inline int32_t Decode(::ArrayW<char16_t> chars, int32_t startPos, int32_t len);
 
-  /// @brief Method Decode, addr 0x618b470, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x6192eec, size 0x14c, virtual true, abstract: false, final false
   inline int32_t Decode(::StringW str, int32_t startPos, int32_t len);
 
-  /// @brief Method Decode, addr 0x618b2c4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x6192d40, size 0x1ac, virtual false, abstract: false, final false
   static inline void Decode(char16_t* pChars, char16_t* pCharsEndPos, uint8_t* pBytes, uint8_t* pBytesEndPos, ::by_ref<bool> hasHalfByteCached, ::by_ref<uint8_t> cachedHalfByte,
                             ::by_ref<int32_t> charsDecoded, ::by_ref<int32_t> bytesDecoded);
 
   static inline ::System::Xml::BinHexDecoder* New_ctor();
 
-  /// @brief Method Reset, addr 0x618b5bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6193038, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetNextOutputBuffer, addr 0x618b5c4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method SetNextOutputBuffer, addr 0x6193040, size 0xac, virtual true, abstract: false, final false
   inline void SetNextOutputBuffer(::System::Array* buffer, int32_t index, int32_t count);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_buffer() const;
@@ -104,13 +104,13 @@ public:
 
   constexpr void __cordl_internal_set_startIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x618b84c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61932c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DecodedCount, addr 0x618b158, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_DecodedCount, addr 0x6192bd4, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_DecodedCount();
 
-  /// @brief Method get_IsFull, addr 0x618b164, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_IsFull, addr 0x6192be0, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsFull();
 
 protected:
@@ -128,7 +128,7 @@ public:
   BinHexDecoder(BinHexDecoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9246 };
 
   /// @brief Field buffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ___buffer;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ScrollView.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ScrollView.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__InteractableController_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ScrollView_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Controller_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::ScrollRect> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::get_ScrollRect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a59180;
+  constexpr static std::size_t addrs = 0x5a5d63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex> (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::get_Flex)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a59188;
+  constexpr static std::size_t addrs = 0x5a5d644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::get_Progress)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a5721c;
+  constexpr static std::size_t addrs = 0x5a5b6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)(float_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::set_Progress)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a571f8;
+  constexpr static std::size_t addrs = 0x5a5b6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::Setup)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5a591a0;
+  constexpr static std::size_t addrs = 0x5a5d65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::RefreshLayoutPreChildren)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5a592e0;
+  constexpr static std::size_t addrs = 0x5a5d79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::RefreshLayoutPostChildren)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5a59310;
+  constexpr static std::size_t addrs = 0x5a5d7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView*>(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollView::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a5934c;
+  constexpr static std::size_t addrs = 0x5a5d808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncSceneContext.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncSceneContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -147,7 +147,7 @@ public:
   static ::BGLib::AppFlow::Initialization::AsyncSceneContext_State const NotInitialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21553 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -180,11 +180,11 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext___c* New_ctor();
 
-  /// @brief Method <LoadInstallersAsync>b__15_2, addr 0x3305070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <LoadInstallersAsync>b__15_2, addr 0x3308e6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task*
   _LoadInstallersAsync_b__15_2(::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*> loadingRequest);
 
-  /// @brief Method .ctor, addr 0x330506c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3308e68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext___c* getStaticF___9();
@@ -212,7 +212,7 @@ public:
   AsyncSceneContext___c(AsyncSceneContext___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -240,7 +240,7 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method <LoadInstallersAsync>b__0, addr 0x330507c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <LoadInstallersAsync>b__0, addr 0x3308e78, size 0x68, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*>
   _LoadInstallersAsync_b__0(::BGLib::AppFlow::Initialization::AsyncLoader* asyncLoader);
 
@@ -267,7 +267,7 @@ public:
 
   constexpr void __cordl_internal_set_registry(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* value);
 
-  /// @brief Method .ctor, addr 0x3305078, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3308e74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -285,7 +285,7 @@ public:
   AsyncSceneContext___c__DisplayClass15_0(AsyncSceneContext___c__DisplayClass15_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21555 };
 
   /// @brief Field registry, offset: 0x10, size: 0x8, def value: None
   ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* ___registry;
@@ -321,7 +321,7 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass15_1* New_ctor();
 
-  /// @brief Method <LoadInstallersAsync>b__1, addr 0x33050e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <LoadInstallersAsync>b__1, addr 0x3308ee4, size 0x38, virtual false, abstract: false, final false
   inline bool _LoadInstallersAsync_b__1(::System::ValueTuple_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncLoader>, ::System::Threading::Tasks::Task*> loadingRequest);
 
   constexpr ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep const& __cordl_internal_get_syncStep() const;
@@ -330,7 +330,7 @@ public:
 
   constexpr void __cordl_internal_set_syncStep(::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep value);
 
-  /// @brief Method .ctor, addr 0x33050e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3308ee0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -348,7 +348,7 @@ public:
   AsyncSceneContext___c__DisplayClass15_1(AsyncSceneContext___c__DisplayClass15_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21556 };
 
   /// @brief Field syncStep, offset: 0x10, size: 0x4, def value: None
   ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep ___syncStep;
@@ -371,10 +371,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3305120, size 0xa80, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3308f1c, size 0xa80, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3305ba0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x330999c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -401,7 +401,7 @@ public:
       int32_t _count_5__5, int32_t _loadersEndStepIndex_5__6, int32_t _i_5__7, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21557 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -477,10 +477,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3305c20, size 0x3d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3309a1c, size 0x3d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3305ff8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3309df4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -499,7 +499,7 @@ public:
                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21558 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -570,21 +570,21 @@ public:
 
   __declspec(property(get = get_telemetryLoadersDurationMS, put = set_telemetryLoadersDurationMS)) int32_t telemetryLoadersDurationMS;
 
-  /// @brief Method GetOrCreateContainerForLoading, addr 0x32fcc5c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateContainerForLoading, addr 0x3300a58, size 0xac, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* GetOrCreateContainerForLoading();
 
-  /// @brief Method InstallInstallers, addr 0x3304e44, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method InstallInstallers, addr 0x3308c40, size 0x1c4, virtual true, abstract: false, final false
   inline void InstallInstallers();
 
-  /// @brief Method LoadInstallersAsync, addr 0x3304d64, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method LoadInstallersAsync, addr 0x3308b60, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>* LoadInstallersAsync();
 
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext* New_ctor();
 
-  /// @brief Method Run, addr 0x3304ce4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x3308ae0, size 0x80, virtual true, abstract: false, final false
   inline void Run();
 
-  /// @brief Method RunAsync, addr 0x32fcd64, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RunAsync, addr 0x3300b60, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RunAsync();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__containerForLoading() const;
@@ -617,22 +617,22 @@ public:
 
   constexpr void __cordl_internal_set__telemetryLoadersDurationMS_k__BackingField(int32_t value);
 
-  /// @brief Method <>n__0, addr 0x3305010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x3308e0c, size 0x8, virtual false, abstract: false, final false
   inline void __n__0();
 
-  /// @brief Method .ctor, addr 0x3305008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3308e04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_telemetryInstallersDurationMS, addr 0x3304cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_telemetryInstallersDurationMS, addr 0x3308ad0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_telemetryInstallersDurationMS();
 
-  /// @brief Method get_telemetryLoadersDurationMS, addr 0x3304cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_telemetryLoadersDurationMS, addr 0x3308ac0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_telemetryLoadersDurationMS();
 
-  /// @brief Method set_telemetryInstallersDurationMS, addr 0x3304cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_telemetryInstallersDurationMS, addr 0x3308ad8, size 0x8, virtual false, abstract: false, final false
   inline void set_telemetryInstallersDurationMS(int32_t value);
 
-  /// @brief Method set_telemetryLoadersDurationMS, addr 0x3304ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_telemetryLoadersDurationMS, addr 0x3308ac8, size 0x8, virtual false, abstract: false, final false
   inline void set_telemetryLoadersDurationMS(int32_t value);
 
 protected:
@@ -650,7 +650,7 @@ public:
   AsyncSceneContext(AsyncSceneContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21559 };
 
   /// @brief Field _state, offset: 0xbc, size: 0x4, def value: None
   ::BGLib::AppFlow::Initialization::AsyncSceneContext_State ____state;

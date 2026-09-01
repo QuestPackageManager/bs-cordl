@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/BooleanSwitch.hpp"
+// IWYU pragma private; include "System\Diagnostics\BooleanSwitch.hpp"
 #include "System/Diagnostics/zzzz__Switch_impl.hpp"
 #include "System/Diagnostics/zzzz__BooleanSwitch_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::BooleanSwitch._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::BooleanSwitch::*)(::StringW, ::StringW)>(&::System::Diagnostics::BooleanSwitch::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x638f3a0;
+  constexpr static std::size_t addrs = 0x6396e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::BooleanSwitch::*)()>(&::System::Diagnostics::BooleanSwitch::OnValueChanged)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x638f474;
+  constexpr static std::size_t addrs = 0x6396ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

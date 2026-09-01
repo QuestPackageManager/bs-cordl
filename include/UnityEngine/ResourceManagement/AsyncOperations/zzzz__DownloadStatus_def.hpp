@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/DownloadStatus.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\AsyncOperations\DownloadStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_Percent)) float_t Percent;
 
-  /// @brief Method get_Percent, addr 0x691f66c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_Percent, addr 0x69270e8, size 0x38, virtual false, abstract: false, final false
   inline float_t get_Percent();
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr DownloadStatus(int64_t TotalBytes, int64_t DownloadedBytes, bool IsDone) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18822 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

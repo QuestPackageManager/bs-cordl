@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/AutoWebProxyScriptEngine.hpp"
+// IWYU pragma private; include "System\Net\AutoWebProxyScriptEngine.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__AutoWebProxyScriptEngine_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::AutoWebProxyScriptEngine::*)(::System::Uri*, ::by_ref<::System::Collections::Generic::IList_1<::StringW>*>)>(
     &::System::Net::AutoWebProxyScriptEngine::GetProxies)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x641e398;
+  constexpr static std::size_t addrs = 0x6425e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::AutoWebProxyScriptEngine::*)(::System::Uri*, ::by_ref<::System::Collections::Generic::IList_1<::StringW>*>,
                                                                                                          ::by_ref<int32_t>)>(&::System::Net::AutoWebProxyScriptEngine::GetProxies)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x641e71c;
+  constexpr static std::size_t addrs = 0x6426198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

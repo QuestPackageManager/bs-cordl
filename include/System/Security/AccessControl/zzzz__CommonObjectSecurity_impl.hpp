@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/CommonObjectSecurity.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\CommonObjectSecurity.hpp"
 #include "System/Security/AccessControl/zzzz__ObjectSecurity_impl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonObjectSecurity_def.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRuleCollection_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::CommonObjectSecurity::*)(bool)>(&::System::Security::AccessControl::CommonObjectSecurity::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1a884;
+  constexpr static std::size_t addrs = 0x5b1ed40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::AuthorizationRuleCollection* (
     ::System::Security::AccessControl::CommonObjectSecurity::*)(bool, bool, ::System::Type*)>(&::System::Security::AccessControl::CommonObjectSecurity::GetAccessRules)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b1a970;
+  constexpr static std::size_t addrs = 0x5b1ee2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

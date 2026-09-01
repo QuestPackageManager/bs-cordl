@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/KeyedFactoryBase_2.hpp"
+// IWYU pragma private; include "Zenject\KeyedFactoryBase_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,7 +119,7 @@ public:
   KeyedFactoryBase_2___c(KeyedFactoryBase_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -249,7 +249,7 @@ public:
   KeyedFactoryBase_2(KeyedFactoryBase_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14349 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

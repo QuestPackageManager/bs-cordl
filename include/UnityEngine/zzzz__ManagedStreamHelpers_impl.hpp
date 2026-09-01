@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ManagedStreamHelpers.hpp"
+// IWYU pragma private; include "UnityEngine\ManagedStreamHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ManagedStreamHelpers_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*)>(&::UnityEngine::ManagedStreamHelpers::ValidateLoadFromStream)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6adc4c4;
+  constexpr static std::size_t addrs = 0x6ae3edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::IO::Stream*, ::System::IntPtr)>(
     &::UnityEngine::ManagedStreamHelpers::ManagedStreamRead)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6adc5c8;
+  constexpr static std::size_t addrs = 0x6ae3fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int64_t, uint32_t, ::System::IO::Stream*, ::System::IntPtr)>(&::UnityEngine::ManagedStreamHelpers::ManagedStreamSeek)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6adc68c;
+  constexpr static std::size_t addrs = 0x6ae40a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*, ::System::IntPtr)>(&::UnityEngine::ManagedStreamHelpers::ManagedStreamLength)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6adc748;
+  constexpr static std::size_t addrs = 0x6ae4160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

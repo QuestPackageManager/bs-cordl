@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/IL2CPP/Metadata/__Il2CppFullySharedGenericType.hpp"
+// IWYU pragma private; include "Unity\IL2CPP\Metadata\__Il2CppFullySharedGenericType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   __Il2CppFullySharedGenericType(__Il2CppFullySharedGenericType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23793 };
 
   /// @brief Size padding 0x8 - 0x10 = 0x8, packed as 0x8
   uint8_t _cordl_size_padding[0x8];

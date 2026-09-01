@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/Samples/SampleMetadata.hpp"
+// IWYU pragma private; include "Meta\XR\Samples\SampleMetadata.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,21 +24,21 @@ public:
   /// @brief Field _timestampOpen, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__timestampOpen, put = __cordl_internal_set__timestampOpen)) float_t _timestampOpen;
 
-  /// @brief Method Awake, addr 0x5e4c44c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e50908, size 0x40, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Meta::XR::Samples::SampleMetadata* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5e4c48c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e50948, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEditorShutdown, addr 0x5e4c86c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEditorShutdown, addr 0x5e50d28, size 0xc, virtual false, abstract: false, final false
   inline void OnEditorShutdown();
 
-  /// @brief Method SendEvent, addr 0x5e4c520, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method SendEvent, addr 0x5e509dc, size 0x34c, virtual false, abstract: false, final false
   inline void SendEvent(int32_t eventType);
 
-  /// @brief Method Start, addr 0x5e4c490, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e5094c, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__timestampOpen() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__timestampOpen(float_t value);
 
-  /// @brief Method .ctor, addr 0x5e4c878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e50d34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   SampleMetadata(SampleMetadata const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8567 };
 
   /// @brief Field _timestampOpen, offset: 0x20, size: 0x4, def value: None
   float_t ____timestampOpen;

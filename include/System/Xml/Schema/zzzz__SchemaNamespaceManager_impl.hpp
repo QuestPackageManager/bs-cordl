@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/SchemaNamespaceManager.hpp"
+// IWYU pragma private; include "System\Xml\Schema\SchemaNamespaceManager.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaNamespaceManager_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObject_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::SchemaNamespaceManager::*)(::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::SchemaNamespaceManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6203578;
+  constexpr static std::size_t addrs = 0x620aff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::SchemaNamespaceManager::*)(::StringW)>(&::System::Xml::Schema::SchemaNamespaceManager::LookupNamespace)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6203580;
+  constexpr static std::size_t addrs = 0x620affc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::SchemaNamespaceManager::*)(::StringW)>(&::System::Xml::Schema::SchemaNamespaceManager::LookupPrefix)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x62036a4;
+  constexpr static std::size_t addrs = 0x620b120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

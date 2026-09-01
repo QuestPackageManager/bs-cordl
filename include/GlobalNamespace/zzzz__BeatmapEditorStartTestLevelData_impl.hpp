@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapEditorStartTestLevelData.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapEditorStartTestLevelData.hpp"
 #include "GlobalNamespace/zzzz__VRControllersRecorder_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorStartTestLevelData_def.hpp"

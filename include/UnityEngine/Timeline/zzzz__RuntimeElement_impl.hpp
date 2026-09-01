@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/RuntimeElement.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\RuntimeElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::RuntimeElement::*)()>(&::UnityEngine::Timeline::RuntimeElement::get_intervalBit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69be09c;
+  constexpr static std::size_t addrs = 0x69c5b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::RuntimeElement*>(), { "get_intervalBit", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)(int32_t)>(&::UnityEngine::Timeline::RuntimeElement::set_intervalBit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69be0a4;
+  constexpr static std::size_t addrs = 0x69c5b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)()>(&::UnityEngine::Timeline::RuntimeElement::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69bd6e4;
+  constexpr static std::size_t addrs = 0x69c5160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::RuntimeElement*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/VisualElementExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\VisualElementExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,25 +31,25 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE VisualElementExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddManipulator, addr 0x6cc2018, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AddManipulator, addr 0x6cc9b9c, size 0xbc, virtual false, abstract: false, final false
   static inline void AddManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
 
-  /// @brief Method ChangeCoordinatesTo, addr 0x6cc2430, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ChangeCoordinatesTo, addr 0x6cc9fb4, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ChangeCoordinatesTo(::UnityEngine::UIElements::VisualElement* src, ::UnityEngine::UIElements::VisualElement* dest, ::UnityEngine::Vector2 point);
 
-  /// @brief Method LocalToWorld, addr 0x6cc2264, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method LocalToWorld, addr 0x6cc9de8, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 LocalToWorld(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
 
-  /// @brief Method RemoveManipulator, addr 0x6cc20d4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method RemoveManipulator, addr 0x6cc9c58, size 0xac, virtual false, abstract: false, final false
   static inline void RemoveManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
 
-  /// @brief Method StretchToParentSize, addr 0x6cc1d5c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method StretchToParentSize, addr 0x6cc98e0, size 0x2bc, virtual false, abstract: false, final false
   static inline void StretchToParentSize(::UnityEngine::UIElements::VisualElement* elem);
 
-  /// @brief Method WorldToLocal, addr 0x6cc2344, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method WorldToLocal, addr 0x6cc9ec8, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Rect r);
 
-  /// @brief Method WorldToLocal, addr 0x6cc2180, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method WorldToLocal, addr 0x6cc9d04, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
 
 protected:

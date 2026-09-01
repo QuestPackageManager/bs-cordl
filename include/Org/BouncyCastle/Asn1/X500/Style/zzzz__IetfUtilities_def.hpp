@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X500/Style/IetfUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X500\Style\IetfUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,30 +32,30 @@ namespace Org::BouncyCastle::Asn1::X500::Style {
 class CORDL_TYPE IetfUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AtvAreEqual, addr 0x35530e4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AtvAreEqual, addr 0x3556ea4, size 0xcc, virtual false, abstract: false, final false
   static inline bool AtvAreEqual(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv1, ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv2);
 
-  /// @brief Method CanonicalString, addr 0x3552fe4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CanonicalString, addr 0x3556da4, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW CanonicalString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method Canonicalize, addr 0x3552acc, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Canonicalize, addr 0x355688c, size 0x27c, virtual false, abstract: false, final false
   static inline ::StringW Canonicalize(::StringW s);
 
-  /// @brief Method DecodeObject, addr 0x3552d48, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method DecodeObject, addr 0x3556b08, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* DecodeObject(::StringW oValue);
 
   static inline ::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities* New_ctor();
 
-  /// @brief Method RdnAreEqual, addr 0x3552ff4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RdnAreEqual, addr 0x3556db4, size 0xf0, virtual false, abstract: false, final false
   static inline bool RdnAreEqual(::Org::BouncyCastle::Asn1::X500::Rdn* rdn1, ::Org::BouncyCastle::Asn1::X500::Rdn* rdn2);
 
-  /// @brief Method StripInternalSpaces, addr 0x3552e98, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method StripInternalSpaces, addr 0x3556c58, size 0x14c, virtual false, abstract: false, final false
   static inline ::StringW StripInternalSpaces(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x35525d8, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x3556398, size 0x4f4, virtual false, abstract: false, final false
   static inline ::StringW ValueToString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x35531b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3556f70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

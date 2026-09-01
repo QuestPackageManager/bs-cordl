@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/Player.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\Player.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__Player_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Colocation::Player._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::Player::*)(uint64_t, uint64_t, uint32_t)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::Player::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a77c60;
+  constexpr static std::size_t addrs = 0x5a7c11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Player>(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MultiplayerBlocks::Colocation::Player::*)(::Meta::XR::MultiplayerBlocks::Colocation::Player)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::Player::Equals)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5a79d1c;
+  constexpr static std::size_t addrs = 0x5a7e1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Player>(),

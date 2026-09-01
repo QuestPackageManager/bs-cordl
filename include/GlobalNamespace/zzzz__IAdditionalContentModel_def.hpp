@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IAdditionalContentModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\IAdditionalContentModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +57,7 @@ public:
   IAdditionalContentModel(IAdditionalContentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23681 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

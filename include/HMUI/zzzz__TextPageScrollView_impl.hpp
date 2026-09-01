@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/TextPageScrollView.hpp"
+// IWYU pragma private; include "HMUI\TextPageScrollView.hpp"
 #include "HMUI/zzzz__ScrollView_impl.hpp"
 #include "HMUI/zzzz__TextPageScrollView_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextPageScrollView::*)(::StringW)>(&::HMUI::TextPageScrollView::SetText)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58916b4;
+  constexpr static std::size_t addrs = 0x589107c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextPageScrollView*>(), { "SetText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextPageScrollView::*)(::StringW)>(&::HMUI::TextPageScrollView::AddText)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5891734;
+  constexpr static std::size_t addrs = 0x58910fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextPageScrollView*>(), { "AddText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextPageScrollView::*)()>(&::HMUI::TextPageScrollView::UpdateMeshes)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58916e4;
+  constexpr static std::size_t addrs = 0x58910ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextPageScrollView*>(), { "UpdateMeshes", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextPageScrollView::*)()>(&::HMUI::TextPageScrollView::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5891798;
+  constexpr static std::size_t addrs = 0x5891160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextPageScrollView*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ScreenSystem.hpp"
+// IWYU pragma private; include "HMUI\ScreenSystem.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScreenSystem_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::TitleViewController> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_titleViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f24b8;
+  constexpr static std::size_t addrs = 0x32f62b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenSystem*>(), { "get_titleViewController", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_mainScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f24c0;
+  constexpr static std::size_t addrs = 0x32f62bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenSystem*>(), { "get_mainScreen", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_leftScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f24c8;
+  constexpr static std::size_t addrs = 0x32f62c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenSystem*>(), { "get_leftScreen", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_rightScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f24d0;
+  constexpr static std::size_t addrs = 0x32f62cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenSystem*>(), { "get_rightScreen", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_bottomScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f24d8;
+  constexpr static std::size_t addrs = 0x32f62d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenSystem*>(), { "get_bottomScreen", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_topScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f24e0;
+  constexpr static std::size_t addrs = 0x32f62dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenSystem*>(), { "get_topScreen", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenSystem::*)(::System::Action*)>(&::HMUI::ScreenSystem::add_backButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32ef69c;
+  constexpr static std::size_t addrs = 0x32f3498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenSystem::*)(::System::Action*)>(&::HMUI::ScreenSystem::remove_backButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32ef748;
+  constexpr static std::size_t addrs = 0x32f3544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::Awake)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x32f24e8;
+  constexpr static std::size_t addrs = 0x32f62e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenSystem*>(), { "Awake", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32f25b0;
+  constexpr static std::size_t addrs = 0x32f63ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenSystem*>(), { "OnDestroy", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenSystem::*)(bool, bool)>(&::HMUI::ScreenSystem::SetBackButton)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x32edec0;
+  constexpr static std::size_t addrs = 0x32f1cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f25c8;
+  constexpr static std::size_t addrs = 0x32f63c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenSystem*>(), { ".ctor", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::_Awake_b__24_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32f25cc;
+  constexpr static std::size_t addrs = 0x32f63c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenSystem*>(), { "<Awake>b__24_0", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/BufferDesc.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\BufferDesc.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__BufferDesc_def.hpp"
 #include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::BufferDesc::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferDesc::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67dcc40;
+  constexpr static std::size_t addrs = 0x67e46bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::BufferDesc::*)(int32_t, int32_t, ::UnityEngine::GraphicsBuffer_Target)>(
     &::UnityEngine::Rendering::RenderGraphModule::BufferDesc::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x67dcc58;
+  constexpr static std::size_t addrs = 0x67e46d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::BufferDesc::*)()>(&::UnityEngine::Rendering::RenderGraphModule::BufferDesc::GetHashCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67dcc68;
+  constexpr static std::size_t addrs = 0x67e46e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::BufferDesc>(),

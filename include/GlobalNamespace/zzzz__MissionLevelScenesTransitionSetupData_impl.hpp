@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionLevelScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionLevelScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupData_def.hpp"
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>*)>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupData::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x596ee54;
+  constexpr static std::size_t addrs = 0x597271c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*>*)>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupData::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x596ef14;
+  constexpr static std::size_t addrs = 0x59727dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MissionLevelScenesTransitionSetupData::*)()>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupData::get_missionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596efd4;
+  constexpr static std::size_t addrs = 0x597289c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelScenesTransitionSetupData*>(), { "get_missionId", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelScenesTransitionSetupData::*)(::StringW)>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupData::set_missionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596efdc;
+  constexpr static std::size_t addrs = 0x59728a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::MissionLevelScenesTransitionSetupData::*)()>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupData::get_beatmapKey)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x596efe4;
+  constexpr static std::size_t addrs = 0x59728ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelScenesTransitionSetupData::*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupData::set_beatmapKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596eff0;
+  constexpr static std::size_t addrs = 0x59728b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::SettingsManager*, ::GlobalNamespace::GameplayAdditionalInformation*, ::GlobalNamespace::BeatmapDataLoader*, ::StringW,
     ::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::IBeatmapLevelData*)>(&::GlobalNamespace::MissionLevelScenesTransitionSetupData::Init)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x596eff8;
+  constexpr static std::size_t addrs = 0x59728c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelScenesTransitionSetupData::*)(::GlobalNamespace::MissionCompletionResults*)>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupData::Finish)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x596f3f4;
+  constexpr static std::size_t addrs = 0x5972cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelScenesTransitionSetupData*>(),
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelScenesTransitionSetupData::*)()>(&::GlobalNamespace::MissionLevelScenesTransitionSetupData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596f41c;
+  constexpr static std::size_t addrs = 0x5972ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelScenesTransitionSetupData*>(), { ".ctor", {}, {} })));

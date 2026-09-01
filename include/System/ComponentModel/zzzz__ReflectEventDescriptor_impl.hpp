@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/ReflectEventDescriptor.hpp"
+// IWYU pragma private; include "System\ComponentModel\ReflectEventDescriptor.hpp"
 #include "System/ComponentModel/zzzz__EventDescriptor_impl.hpp"
 #include "System/ComponentModel/zzzz__ReflectEventDescriptor_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ReflectEventDescriptor::*)(::System::Type*, ::System::Reflection::EventInfo*)>(
     &::System::ComponentModel::ReflectEventDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x63bffb8;
+  constexpr static std::size_t addrs = 0x63c7a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ReflectEventDescriptor::*)(::System::Collections::IList*)>(
     &::System::ComponentModel::ReflectEventDescriptor::FillAttributes)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x63c0118;
+  constexpr static std::size_t addrs = 0x63c7b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ReflectEventDescriptor::*)(::System::Reflection::EventInfo*, ::System::Collections::IList*)>(
     &::System::ComponentModel::ReflectEventDescriptor::FillEventInfoAttribute)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x63c0540;
+  constexpr static std::size_t addrs = 0x63c7fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ReflectEventDescriptor::*)()>(&::System::ComponentModel::ReflectEventDescriptor::FillMethods)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x63c0170;
+  constexpr static std::size_t addrs = 0x63c7bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::ReflectEventDescriptor*>(), { "FillMethods", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ReflectEventDescriptor::*)(::System::Reflection::MethodInfo*, ::System::Collections::IList*)>(
     &::System::ComponentModel::ReflectEventDescriptor::FillSingleMethodAttribute)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x63c0830;
+  constexpr static std::size_t addrs = 0x63c82ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

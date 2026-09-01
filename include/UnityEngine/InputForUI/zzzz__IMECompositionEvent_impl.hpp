@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/IMECompositionEvent.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\IMECompositionEvent.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventSource_impl.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::IMECompositionEvent::*)(::Unity::IntegerTime::DiscreteTime)>(
     &::UnityEngine::InputForUI::IMECompositionEvent::set_timestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b51abc;
+  constexpr static std::size_t addrs = 0x6b59640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventSource (::UnityEngine::InputForUI::IMECompositionEvent::*)()>(
     &::UnityEngine::InputForUI::IMECompositionEvent::get_eventSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b51ac4;
+  constexpr static std::size_t addrs = 0x6b59648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::IMECompositionEvent>(), { "get_eventSource", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::IMECompositionEvent::*)(::UnityEngine::InputForUI::EventSource)>(
     &::UnityEngine::InputForUI::IMECompositionEvent::set_eventSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b51acc;
+  constexpr static std::size_t addrs = 0x6b59650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::IMECompositionEvent::*)(uint32_t)>(&::UnityEngine::InputForUI::IMECompositionEvent::set_playerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b51ad4;
+  constexpr static std::size_t addrs = 0x6b59658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventModifiers (::UnityEngine::InputForUI::IMECompositionEvent::*)()>(
     &::UnityEngine::InputForUI::IMECompositionEvent::get_eventModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b51adc;
+  constexpr static std::size_t addrs = 0x6b59660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::IMECompositionEvent>(), { "get_eventModifiers", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::IMECompositionEvent::*)(::UnityEngine::InputForUI::EventModifiers)>(
     &::UnityEngine::InputForUI::IMECompositionEvent::set_eventModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b51ae4;
+  constexpr static std::size_t addrs = 0x6b59668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::IMECompositionEvent>(),
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputForUI::IMECompositionEvent::*)()>(&::UnityEngine::InputForUI::IMECompositionEvent::ToString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6b51aec;
+  constexpr static std::size_t addrs = 0x6b59670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

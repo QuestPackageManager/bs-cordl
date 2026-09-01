@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/DataPlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\DataPlayableOutput.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_impl.hpp"
 #include "UnityEngine/Playables/zzzz__DataPlayableOutput_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::DataPlayableOutput::*)(::UnityEngine::Playables::PlayableOutputHandle)>(
     &::UnityEngine::Playables::DataPlayableOutput::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6b2af80;
+  constexpr static std::size_t addrs = 0x6b32b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutputHandle (::UnityEngine::Playables::DataPlayableOutput::*)()>(
     &::UnityEngine::Playables::DataPlayableOutput::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b2b094;
+  constexpr static std::size_t addrs = 0x6b32c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::DataPlayableOutput>(), { "GetHandle", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Playables::PlayableOutputHandle, ::System::Object*, ::System::Object*)>(
     &::UnityEngine::Playables::DataPlayableOutput::Internal_CallOnPlayerChanged)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6b2b0a0;
+  constexpr static std::size_t addrs = 0x6b32c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

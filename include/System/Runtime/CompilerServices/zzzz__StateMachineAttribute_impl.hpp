@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/StateMachineAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\StateMachineAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__StateMachineAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::StateMachineAttribute::*)(::System::Type*)>(
     &::System::Runtime::CompilerServices::StateMachineAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6b400;
+  constexpr static std::size_t addrs = 0x5b6f8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::CompilerServices::StateMachineAttribute::*)()>(
     &::System::Runtime::CompilerServices::StateMachineAttribute::get_StateMachineType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6c338;
+  constexpr static std::size_t addrs = 0x5b707f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

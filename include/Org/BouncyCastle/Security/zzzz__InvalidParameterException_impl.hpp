@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/InvalidParameterException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\InvalidParameterException.hpp"
 #include "Org/BouncyCastle/Security/zzzz__KeyException_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__InvalidParameterException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::InvalidParameterException::*)()>(&::Org::BouncyCastle::Security::InvalidParameterException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35fc060;
+  constexpr static std::size_t addrs = 0x35ffe20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::InvalidParameterException*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::InvalidParameterException::*)(::StringW)>(
     &::Org::BouncyCastle::Security::InvalidParameterException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35fc068;
+  constexpr static std::size_t addrs = 0x35ffe28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::InvalidParameterException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Security::InvalidParameterException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35fc070;
+  constexpr static std::size_t addrs = 0x35ffe30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::InvalidParameterException*>(),

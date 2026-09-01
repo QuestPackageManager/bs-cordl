@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Profiling/Memory/MemorySnapshotMetadata.hpp"
+// IWYU pragma private; include "Unity\Profiling\Memory\MemorySnapshotMetadata.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__Description_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6a56cf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5e774, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Data, addr 0x6a56cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x6a5e76c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Data();
 
-  /// @brief Method get_Description, addr 0x6a56ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x6a5e75c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method set_Description, addr 0x6a56ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Description, addr 0x6a5e764, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   MemorySnapshotMetadata(MemorySnapshotMetadata const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9962 };
 
   /// @brief Field <Description>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Description_k__BackingField;

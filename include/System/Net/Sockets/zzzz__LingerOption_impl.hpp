@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Sockets/LingerOption.hpp"
+// IWYU pragma private; include "System\Net\Sockets\LingerOption.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Sockets/zzzz__LingerOption_def.hpp"
 //  Writing Method size for method: ::System::Net::Sockets::LingerOption._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::LingerOption::*)(bool, int32_t)>(&::System::Net::Sockets::LingerOption::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6362658;
+  constexpr static std::size_t addrs = 0x636a0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::LingerOption::*)(bool)>(&::System::Net::Sockets::LingerOption::set_Enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6362664;
+  constexpr static std::size_t addrs = 0x636a0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::LingerOption::*)(int32_t)>(&::System::Net::Sockets::LingerOption::set_LingerTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636266c;
+  constexpr static std::size_t addrs = 0x636a0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteCutInfo.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteCutInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,7 +91,7 @@ public:
   static ::GlobalNamespace::NoteCutInfo_FailReason const WrongDirection;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21196 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -122,19 +122,19 @@ public:
 
   __declspec(property(get = get_failReason)) ::GlobalNamespace::NoteCutInfo_FailReason failReason;
 
-  /// @brief Method .ctor, addr 0x3778fb4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x377ed3c, size 0x244, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float_t saberSpeed, ::UnityEngine::Vector3 saberDir,
                     ::GlobalNamespace::SaberType saberType, float_t timeDeviation, float_t cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                     float_t cutDistanceToCenter, float_t cutAngle, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation,
                     ::UnityEngine::Vector3 notePosition, ::GlobalNamespace::ISaberMovementData* saberMovementData);
 
-  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x3778f48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x377ecd0, size 0x28, virtual false, abstract: false, final false
   inline bool get_allExceptSaberTypeIsOK();
 
-  /// @brief Method get_allIsOK, addr 0x3778f18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_allIsOK, addr 0x377eca0, size 0x30, virtual false, abstract: false, final false
   inline bool get_allIsOK();
 
-  /// @brief Method get_failReason, addr 0x3778f70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_failReason, addr 0x377ecf8, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutInfo_FailReason get_failReason();
 
   // Ctor Parameters []
@@ -157,7 +157,7 @@ public:
                         ::UnityEngine::Vector3 notePosition, ::GlobalNamespace::ISaberMovementData* saberMovementData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21197 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

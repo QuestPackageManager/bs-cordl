@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidSensorState.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Android\LowLevel\AndroidSensorState.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidSensorState_def.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidSensorState_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState (::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::*)(
     ::ArrayW<float_t>)>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::WithData)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x65a560c;
+  constexpr static std::size_t addrs = 0x65ad088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::get_format)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x65a56cc;
+  constexpr static std::size_t addrs = 0x65ad148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

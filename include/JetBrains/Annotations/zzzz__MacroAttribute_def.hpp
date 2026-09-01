@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/MacroAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\MacroAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,25 +56,25 @@ public:
 
   constexpr void __cordl_internal_set__Target_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e364e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e064, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Editable, addr 0x6e364c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Editable, addr 0x6e3e044, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Editable();
 
-  /// @brief Method get_Expression, addr 0x6e364b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x6e3e034, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method get_Target, addr 0x6e364d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x6e3e054, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
-  /// @brief Method set_Editable, addr 0x6e364c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Editable, addr 0x6e3e04c, size 0x8, virtual false, abstract: false, final false
   inline void set_Editable(int32_t value);
 
-  /// @brief Method set_Expression, addr 0x6e364b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expression, addr 0x6e3e03c, size 0x8, virtual false, abstract: false, final false
   inline void set_Expression(::StringW value);
 
-  /// @brief Method set_Target, addr 0x6e364d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Target, addr 0x6e3e05c, size 0x8, virtual false, abstract: false, final false
   inline void set_Target(::StringW value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   MacroAttribute(MacroAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22560 };
 
   /// @brief Field <Expression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Expression_k__BackingField;

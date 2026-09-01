@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/CursorManager.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\CursorManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::CursorManager* New_ctor();
 
-  /// @brief Method ResetCursor, addr 0x6d7b6f8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method ResetCursor, addr 0x6d8327c, size 0x6c, virtual true, abstract: false, final true
   inline void ResetCursor();
 
-  /// @brief Method SetCursor, addr 0x6d7b5fc, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method SetCursor, addr 0x6d83180, size 0xfc, virtual true, abstract: false, final true
   inline void SetCursor(::UnityEngine::UIElements::Cursor cursor);
 
   constexpr bool const& __cordl_internal_get__isCursorOverriden_k__BackingField() const;
@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__isCursorOverriden_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6d7b764, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d832e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isCursorOverriden, addr 0x6d7b5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isCursorOverriden, addr 0x6d83170, size 0x8, virtual false, abstract: false, final false
   inline bool get_isCursorOverriden();
 
   /// @brief Convert to "::UnityEngine::UIElements::ICursorManager"
   constexpr ::UnityEngine::UIElements::ICursorManager* i___UnityEngine__UIElements__ICursorManager() noexcept;
 
-  /// @brief Method set_isCursorOverriden, addr 0x6d7b5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isCursorOverriden, addr 0x6d83178, size 0x8, virtual false, abstract: false, final false
   inline void set_isCursorOverriden(bool value);
 
 protected:

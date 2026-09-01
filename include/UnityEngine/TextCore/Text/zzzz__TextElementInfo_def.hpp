@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextElementInfo.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextElementInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE TextElementInfo {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x6bfaf5c, size 0x1774, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c02ae0, size 0x1774, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -85,7 +85,7 @@ public:
                             ::UnityEngine::TextCore::Text::HighlightState highlightState, ::UnityEngine::TextCore::Text::FontStyles style, bool isVisible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17213 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17246 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x188 };

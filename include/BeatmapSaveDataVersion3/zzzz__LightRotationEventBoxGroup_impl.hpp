@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/LightRotationEventBoxGroup.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\LightRotationEventBoxGroup.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__EventBoxGroup_1_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__LightRotationEventBoxGroup_def.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__LightRotationEventBox_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::LightRotationEventBoxGroup::*)(
     float_t, int32_t, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBox*>*)>(&::BeatmapSaveDataVersion3::LightRotationEventBoxGroup::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x37591a0;
+  constexpr static std::size_t addrs = 0x375ee0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup* (
     ::BeatmapSaveDataVersion3::LightRotationEventBoxGroup::*)(::System::Nullable_1<float_t>, ::System::Nullable_1<int32_t>)>(&::BeatmapSaveDataVersion3::LightRotationEventBoxGroup::CopyWith)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3759208;
+  constexpr static std::size_t addrs = 0x375ee74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

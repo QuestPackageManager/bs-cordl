@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/INotifyValueChanged_1.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\INotifyValueChanged_1.hpp"
 #include "UnityEngine/UIElements/zzzz__INotifyValueChanged_1_def.hpp"
 template <typename T> inline T UnityEngine::UIElements::INotifyValueChanged_1<T>::get_value() {
   auto* ___internal_method =

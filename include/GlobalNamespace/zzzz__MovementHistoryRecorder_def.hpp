@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MovementHistoryRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace\MovementHistoryRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
 
   __declspec(property(get = get_averagingValueRecorer)) ::GlobalNamespace::AveragingValueRecorder* averagingValueRecorer;
 
-  /// @brief Method AddMovement, addr 0x59e6f4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AddMovement, addr 0x59ef1b8, size 0x28, virtual false, abstract: false, final false
   inline void AddMovement(float_t distance);
 
-  /// @brief Method ManualUpdate, addr 0x59e6f74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x59ef1e0, size 0x3c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::MovementHistoryRecorder* New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__increaseSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x59e6ec0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ef12c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
 
-  /// @brief Method get_averagingValueRecorer, addr 0x59e6eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_averagingValueRecorer, addr 0x59ef124, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
 
 protected:
@@ -90,7 +90,7 @@ public:
   MovementHistoryRecorder(MovementHistoryRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6223 };
 
   /// @brief Field _averagingValueRecorer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::AveragingValueRecorder* ____averagingValueRecorer;

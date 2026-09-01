@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CopyPosition.hpp"
+// IWYU pragma private; include "GlobalNamespace\CopyPosition.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,10 +40,10 @@ public:
   /// @brief Field _instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::UnityW<::GlobalNamespace::CopyPosition_CopyPositionUpdater> _instance;
 
-  /// @brief Method Add, addr 0x58569d4, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5855adc, size 0x210, virtual false, abstract: false, final false
   static inline void Add(::GlobalNamespace::CopyPosition* copyPosition);
 
-  /// @brief Method LateUpdate, addr 0x5856be8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5855cf0, size 0x1c0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::CopyPosition_CopyPositionUpdater* New_ctor();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__copyPositions(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::CopyPosition>>* value);
 
-  /// @brief Method .ctor, addr 0x5856da8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5855eb0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::CopyPosition_CopyPositionUpdater> getStaticF__instance();
@@ -76,7 +76,7 @@ public:
   CopyPosition_CopyPositionUpdater(CopyPosition_CopyPositionUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21401 };
 
   /// @brief Field _copyPositions, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::CopyPosition>>* ____copyPositions;
@@ -101,12 +101,12 @@ public:
   /// @brief Field source, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::UnityW<::UnityEngine::Transform> source;
 
-  /// @brief Method Awake, addr 0x58569d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5855ad8, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CopyPosition* New_ctor();
 
-  /// @brief Method Refresh, addr 0x5856990, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5855a98, size 0x40, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_source() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_source(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5856be4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5855cec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
   CopyPosition(CopyPosition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21402 };
 
   /// @brief Field source, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___source;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/ShapeFactory.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\ShapeFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ShapeFactory_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(::System::Type*, ::UnityEngine::ProBuilder::PivotLocation)>(
     &::UnityEngine::ProBuilder::ShapeFactory::Instantiate)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x66e2120;
+  constexpr static std::size_t addrs = 0x66e9b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::ShapeFactory::Instantiate)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x66e2388;
+  constexpr static std::size_t addrs = 0x66e9e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

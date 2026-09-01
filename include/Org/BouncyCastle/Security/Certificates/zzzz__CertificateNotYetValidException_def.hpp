@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/Certificates/CertificateNotYetValidException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\Certificates\CertificateNotYetValidException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateNotYetValidException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x35eb8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ef6b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35eb8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ef6bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x35eb904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ef6c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

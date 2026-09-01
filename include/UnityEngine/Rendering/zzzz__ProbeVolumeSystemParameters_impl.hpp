@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeSystemParameters.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeSystemParameters.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeBlendingTextureMemoryBudget_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeSHBands_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeTextureMemoryBudget_impl.hpp"

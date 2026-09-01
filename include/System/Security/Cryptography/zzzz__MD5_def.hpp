@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/MD5.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\MD5.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE MD5 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x5af8768, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5afcc24, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::MD5* Create();
 
   static inline ::System::Security::Cryptography::MD5* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5af875c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5afcc18, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/XObjectChangeEventArgs.hpp"
+// IWYU pragma private; include "System\Xml\Linq\XObjectChangeEventArgs.hpp"
 #include "System/Xml/Linq/zzzz__XObjectChange_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/Linq/zzzz__XObjectChangeEventArgs_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XObjectChangeEventArgs::*)(::System::Xml::Linq::XObjectChange)>(
     &::System::Xml::Linq::XObjectChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x61a3f2c;
+  constexpr static std::size_t addrs = 0x61ab9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

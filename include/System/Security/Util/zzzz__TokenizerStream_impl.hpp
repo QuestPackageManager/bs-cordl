@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Util/TokenizerStream.hpp"
+// IWYU pragma private; include "System\Security\Util\TokenizerStream.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Util/zzzz__TokenizerStream_def.hpp"
 #include "System/Security/Util/zzzz__TokenizerShortBlock_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::TokenizerStream::*)()>(&::System::Security::Util::TokenizerStream::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5aef384;
+  constexpr static std::size_t addrs = 0x5af3840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::TokenizerStream*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::TokenizerStream::*)(int16_t)>(&::System::Security::Util::TokenizerStream::AddToken)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5aef6cc;
+  constexpr static std::size_t addrs = 0x5af3b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::TokenizerStream::*)(::StringW)>(&::System::Security::Util::TokenizerStream::AddString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5aef7d0;
+  constexpr static std::size_t addrs = 0x5af3c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::TokenizerStream::*)()>(&::System::Security::Util::TokenizerStream::Reset)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5aef41c;
+  constexpr static std::size_t addrs = 0x5af38d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::TokenizerStream*>(), { "Reset", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::System::Security::Util::TokenizerStream::*)()>(&::System::Security::Util::TokenizerStream::GetNextFullToken)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5aef438;
+  constexpr static std::size_t addrs = 0x5af38f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::TokenizerStream*>(), { "GetNextFullToken", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::System::Security::Util::TokenizerStream::*)()>(&::System::Security::Util::TokenizerStream::GetNextToken)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5aee3b0;
+  constexpr static std::size_t addrs = 0x5af286c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::TokenizerStream*>(), { "GetNextToken", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Util::TokenizerStream::*)()>(&::System::Security::Util::TokenizerStream::GetNextString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5aee43c;
+  constexpr static std::size_t addrs = 0x5af28f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::TokenizerStream*>(), { "GetNextString", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::TokenizerStream::*)()>(&::System::Security::Util::TokenizerStream::ThrowAwayNextString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aee3c4;
+  constexpr static std::size_t addrs = 0x5af2880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::TokenizerStream*>(), { "ThrowAwayNextString", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::TokenizerStream::*)(int16_t)>(&::System::Security::Util::TokenizerStream::TagLastToken)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5aee3c8;
+  constexpr static std::size_t addrs = 0x5af2884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Util::TokenizerStream::*)()>(&::System::Security::Util::TokenizerStream::GetTokenCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aefb4c;
+  constexpr static std::size_t addrs = 0x5af4008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::TokenizerStream*>(), { "GetTokenCount", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::TokenizerStream::*)(int32_t)>(&::System::Security::Util::TokenizerStream::GoToPosition)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5aeee14;
+  constexpr static std::size_t addrs = 0x5af32d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

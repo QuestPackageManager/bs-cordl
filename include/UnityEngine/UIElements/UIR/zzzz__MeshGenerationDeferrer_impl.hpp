@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshGenerationDeferrer.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\MeshGenerationDeferrer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__MeshGenerationDeferrer_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::*)(::Unity::Jobs::JobHandle)>(
     &::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::AddMeshGenerationJob)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6cd6c00;
+  constexpr static std::size_t addrs = 0x6cde784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                                                                                                                         ::UnityEngine::UIElements::MeshGenerationCallbackType, bool)>(
     &::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::AddMeshGenerationCallback)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6cd6c6c;
+  constexpr static std::size_t addrs = 0x6cde7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::ProcessDeferredWork)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x6cd6db4;
+  constexpr static std::size_t addrs = 0x6cde938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::MeshGenerationDeferrer_CallbackInfo, Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::Invoke)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6cd7048;
+  constexpr static std::size_t addrs = 0x6cdebcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::*)()>(&::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cd7220;
+  constexpr static std::size_t addrs = 0x6cdeda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::MeshGenerationDeferrer*>(), { "get_disposed", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::*)(bool)>(&::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cd7228;
+  constexpr static std::size_t addrs = 0x6cdedac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::*)()>(&::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6cd7230;
+  constexpr static std::size_t addrs = 0x6cdedb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::MeshGenerationDeferrer*>(), { "Dispose", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::*)(bool)>(&::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::Dispose)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6cd7298;
+  constexpr static std::size_t addrs = 0x6cdee1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::*)()>(&::UnityEngine::UIElements::UIR::MeshGenerationDeferrer::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6cd72d0;
+  constexpr static std::size_t addrs = 0x6cdee54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::MeshGenerationDeferrer*>(), { ".ctor", {}, {} })));

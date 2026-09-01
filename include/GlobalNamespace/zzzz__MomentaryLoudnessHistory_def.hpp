@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MomentaryLoudnessHistory.hpp"
+// IWYU pragma private; include "GlobalNamespace\MomentaryLoudnessHistory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
   /// @brief Field _rmsValues, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__rmsValues, put = __cordl_internal_set__rmsValues)) ::ArrayW<float_t> _rmsValues;
 
-  /// @brief Method Add, addr 0x3263338, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x32666d0, size 0x50, virtual false, abstract: false, final false
   inline void Add(float_t momentaryLoudness);
 
-  /// @brief Method GetAverageLoudness, addr 0x32633bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetAverageLoudness, addr 0x3266754, size 0x78, virtual false, abstract: false, final false
   inline float_t GetAverageLoudness();
 
   static inline ::GlobalNamespace::MomentaryLoudnessHistory* New_ctor(int32_t length);
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__rmsValues(::ArrayW<float_t> value);
 
-  /// @brief Method .ctor, addr 0x32634fc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3266894, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t length);
 
 protected:
@@ -75,7 +75,7 @@ public:
   MomentaryLoudnessHistory(MomentaryLoudnessHistory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22630 };
 
   /// @brief Field _rmsValues, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<float_t> ____rmsValues;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/HtmlAttributeValueAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\HtmlAttributeValueAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__HtmlAttributeValueAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::HtmlAttributeValueAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::HtmlAttributeValueAttribute::*)(::StringW)>(&::JetBrains::Annotations::HtmlAttributeValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36610;
+  constexpr static std::size_t addrs = 0x6e3e194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::HtmlAttributeValueAttribute::*)()>(&::JetBrains::Annotations::HtmlAttributeValueAttribute::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36618;
+  constexpr static std::size_t addrs = 0x6e3e19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::HtmlAttributeValueAttribute*>(), { "get_Name", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::HtmlAttributeValueAttribute::*)(::StringW)>(&::JetBrains::Annotations::HtmlAttributeValueAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36620;
+  constexpr static std::size_t addrs = 0x6e3e1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

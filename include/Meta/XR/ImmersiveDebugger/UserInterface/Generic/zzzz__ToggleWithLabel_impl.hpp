@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ToggleWithLabel.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ToggleWithLabel.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ButtonWithLabel_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ToggleWithLabel_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::get_State)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a5a750;
+  constexpr static std::size_t addrs = 0x5a5ec0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::set_State)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a5a758;
+  constexpr static std::size_t addrs = 0x5a5ec14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action_1<bool>* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::get_StateChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a5a7ac;
+  constexpr static std::size_t addrs = 0x5a5ec68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::*)(::System::Action_1<bool>*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::set_StateChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a5a7b4;
+  constexpr static std::size_t addrs = 0x5a5ec70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::OnStateChanged)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a5a774;
+  constexpr static std::size_t addrs = 0x5a5ec30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::UpdateBackground)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5a5a7bc;
+  constexpr static std::size_t addrs = 0x5a5ec78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel*>(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ToggleWithLabel::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a5a920;
+  constexpr static std::size_t addrs = 0x5a5eddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

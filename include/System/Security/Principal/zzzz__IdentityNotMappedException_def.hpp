@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Principal/IdentityNotMappedException.hpp"
+// IWYU pragma private; include "System\Security\Principal\IdentityNotMappedException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,17 +26,17 @@ namespace System::Security::Principal {
 class CORDL_TYPE IdentityNotMappedException : public ::System::SystemException {
 public:
   // Declarations
-  /// @brief Method GetObjectData, addr 0x5b0f31c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5b137d8, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor();
 
   static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5b0f2c4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b13780, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b0f314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b137d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

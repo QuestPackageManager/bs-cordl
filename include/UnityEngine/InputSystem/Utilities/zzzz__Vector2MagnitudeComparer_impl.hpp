@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Vector2MagnitudeComparer.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\Vector2MagnitudeComparer.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Vector2MagnitudeComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::Compare)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64f925c;
+  constexpr static std::size_t addrs = 0x6500cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer>(),

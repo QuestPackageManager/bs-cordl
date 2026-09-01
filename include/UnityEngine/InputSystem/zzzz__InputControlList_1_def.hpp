@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/InputControlList_1.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\InputControlList_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,7 +116,7 @@ public:
   constexpr InputControlList_1_Enumerator(uint64_t* m_Indices, int32_t m_Count, int32_t m_Current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8707 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -300,7 +300,7 @@ public:
   constexpr InputControlList_1(int32_t m_Count, ::Unity::Collections::NativeArray_1<uint64_t> m_Indices, ::Unity::Collections::Allocator m_Allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

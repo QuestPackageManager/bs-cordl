@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureEntry.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextureEntry.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TextureEntry_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"

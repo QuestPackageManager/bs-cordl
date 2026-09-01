@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/Internal/IAttributes.hpp"
+// IWYU pragma private; include "Unity\Properties\Internal\IAttributes.hpp"
 #include "Unity/Properties/Internal/zzzz__IAttributes_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

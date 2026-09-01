@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/Certificates/CertificateParsingException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\Certificates\CertificateParsingException.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateException_impl.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateParsingException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CertificateParsingException::*)()>(
     &::Org::BouncyCastle::Security::Certificates::CertificateParsingException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35eb90c;
+  constexpr static std::size_t addrs = 0x35ef6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CertificateParsingException::*)(::StringW)>(
     &::Org::BouncyCastle::Security::Certificates::CertificateParsingException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35eb914;
+  constexpr static std::size_t addrs = 0x35ef6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CertificateParsingException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Security::Certificates::CertificateParsingException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35eb91c;
+  constexpr static std::size_t addrs = 0x35ef6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::Certificates::CertificateParsingException*>(),

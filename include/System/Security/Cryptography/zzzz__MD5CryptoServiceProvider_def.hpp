@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/MD5CryptoServiceProvider.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\MD5CryptoServiceProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,30 +39,30 @@ public:
   /// @brief Field count, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) uint64_t count;
 
-  /// @brief Method AddLength, addr 0x5b09e7c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddLength, addr 0x5b0e338, size 0xf0, virtual false, abstract: false, final false
   inline void AddLength(uint64_t length, ::ArrayW<uint8_t> buffer, int32_t position);
 
-  /// @brief Method Dispose, addr 0x5b08d8c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5b0d248, size 0x70, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x5b08d3c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5b0d1f8, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HashCore, addr 0x5b08dfc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x5b0d2b8, size 0x100, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x5b09b70, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x5b0e02c, size 0xdc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> HashFinal();
 
-  /// @brief Method Initialize, addr 0x5b09e08, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5b0e2c4, size 0x74, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Security::Cryptography::MD5CryptoServiceProvider* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x5b08efc, size 0xc74, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x5b0d3b8, size 0xc74, virtual false, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset);
 
-  /// @brief Method ProcessFinalBlock, addr 0x5b09c4c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ProcessFinalBlock, addr 0x5b0e108, size 0x1bc, virtual false, abstract: false, final false
   inline void ProcessFinalBlock(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   constexpr ::ArrayW<uint32_t> const& __cordl_internal_get__H() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_count(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x5b06744, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b0ac00, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint32_t> getStaticF_K();

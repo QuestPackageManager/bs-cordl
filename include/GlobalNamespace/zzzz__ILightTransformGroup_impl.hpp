@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ILightTransformGroup.hpp"
+// IWYU pragma private; include "GlobalNamespace\ILightTransformGroup.hpp"
 #include "GlobalNamespace/zzzz__ILightTransformGroup_def.hpp"
 #include "GlobalNamespace/zzzz__ILightGroup_def.hpp"
 #include "GlobalNamespace/zzzz__LightTransformGroupType_def.hpp"

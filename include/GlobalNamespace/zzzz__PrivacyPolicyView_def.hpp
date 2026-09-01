@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PrivacyPolicyView.hpp"
+// IWYU pragma private; include "GlobalNamespace\PrivacyPolicyView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,15 +58,15 @@ public:
   /// @brief Field _settingsManager, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method Activate, addr 0x5a15124, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x5a1d230, size 0x178, virtual false, abstract: false, final false
   inline void Activate(::HMUI::ButtonBinder* buttonBinder, bool firstActivation);
 
   static inline ::GlobalNamespace::PrivacyPolicyView* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x5a1d0c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x5a251b4, size 0x5c, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool focus);
 
-  /// @brief Method OpenLink, addr 0x5a1d058, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OpenLink, addr 0x5a25144, size 0x70, virtual false, abstract: false, final false
   inline void OpenLink();
 
   constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset> const& __cordl_internal_get__koreanLocalizedTextAsset() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x5a1d124, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a25210, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   PrivacyPolicyView(PrivacyPolicyView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6492 };
 
   /// @brief Field kPrivacyPolicyURL offset 0xffffffff size 0x8
   static constexpr ::ConstString kPrivacyPolicyURL{ u"https://www.meta.com/legal/privacy-policy/" };

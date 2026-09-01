@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/JsonConverterCollection.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\JsonConverterCollection.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverterCollection_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonConverterCollection::*)()>(&::Newtonsoft::Json::JsonConverterCollection::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5cd29f4;
+  constexpr static std::size_t addrs = 0x5cd6eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonConverterCollection*>(), { ".ctor", {}, {} })));

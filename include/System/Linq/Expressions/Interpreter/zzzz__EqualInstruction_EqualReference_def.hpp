@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/EqualInstruction_EqualReference.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\EqualInstruction_EqualReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::EqualInstruction_EqualReference* New_ctor();
 
-  /// @brief Method Run, addr 0x5f8c05c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f93ad8, size 0x54, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5f8b878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f932f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   EqualInstruction_EqualReference(EqualInstruction_EqualReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

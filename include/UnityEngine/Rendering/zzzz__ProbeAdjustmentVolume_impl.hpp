@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeAdjustmentVolume.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeAdjustmentVolume.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeAdjustmentVolume_def.hpp"
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(&::UnityEngine::Rendering::ProbeAdjustmentVolume::Awake)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6780880;
+  constexpr static std::size_t addrs = 0x67882fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeAdjustmentVolume*>(), { "Awake", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(
     &::UnityEngine::Rendering::ProbeAdjustmentVolume::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67808b8;
+  constexpr static std::size_t addrs = 0x6788334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(
     &::UnityEngine::Rendering::ProbeAdjustmentVolume::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67808d0;
+  constexpr static std::size_t addrs = 0x678834c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(&::UnityEngine::Rendering::ProbeAdjustmentVolume::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x67808e4;
+  constexpr static std::size_t addrs = 0x6788360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeAdjustmentVolume*>(), { ".ctor", {}, {} })));

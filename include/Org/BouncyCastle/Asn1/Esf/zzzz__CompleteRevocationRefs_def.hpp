@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CompleteRevocationRefs.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Esf\CompleteRevocationRefs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
   /// @brief Field crlOcspRefs, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_crlOcspRefs, put = __cordl_internal_set_crlOcspRefs)) ::Org::BouncyCastle::Asn1::Asn1Sequence* crlOcspRefs;
 
-  /// @brief Method GetCrlOcspRefs, addr 0x336e114, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetCrlOcspRefs, addr 0x3371ed4, size 0x124, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> GetCrlOcspRefs();
 
-  /// @brief Method GetInstance, addr 0x336d8b8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3371678, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> crlOcspRefs);
@@ -50,7 +50,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x336e238, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3371ff8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_crlOcspRefs() const;
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_crlOcspRefs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x336ded8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3371c98, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*> crlOcspRefs);
 
-  /// @brief Method .ctor, addr 0x336df8c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3371d4c, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* crlOcspRefs);
 
-  /// @brief Method .ctor, addr 0x336da3c, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33717fc, size 0x318, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

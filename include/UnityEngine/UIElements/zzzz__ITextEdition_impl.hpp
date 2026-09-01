@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ITextEdition.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ITextEdition.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextEdition_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ITextEdition::*)()>(&::UnityEngine::UIElements::ITextEdition::get_autoCorrection)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6caae08;
+  constexpr static std::size_t addrs = 0x6cb298c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(bool)>(&::UnityEngine::UIElements::ITextEdition::set_autoCorrection)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6caaedc;
+  constexpr static std::size_t addrs = 0x6cb2a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ITextEdition::*)()>(&::UnityEngine::UIElements::ITextEdition::get_hideMobileInput)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6caafa8;
+  constexpr static std::size_t addrs = 0x6cb2b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(bool)>(&::UnityEngine::UIElements::ITextEdition::set_hideMobileInput)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6cab07c;
+  constexpr static std::size_t addrs = 0x6cb2c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TouchScreenKeyboardType (::UnityEngine::UIElements::ITextEdition::*)()>(
     &::UnityEngine::UIElements::ITextEdition::get_keyboardType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6cab148;
+  constexpr static std::size_t addrs = 0x6cb2ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -499,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ITextEdition::*)(::UnityEngine::TouchScreenKeyboardType)>(
     &::UnityEngine::UIElements::ITextEdition::set_keyboardType)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6cab21c;
+  constexpr static std::size_t addrs = 0x6cb2da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

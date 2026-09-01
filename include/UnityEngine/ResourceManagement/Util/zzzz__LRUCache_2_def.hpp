@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/LRUCache_2.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Util\LRUCache_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   constexpr LRUCache_2_Entry(::System::Collections::Generic::LinkedListNode_1<TKey>* lruNode, TValue Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18736 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -116,7 +116,7 @@ public:
                        ::System::Collections::Generic::LinkedList_1<TKey>* lru, ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<TKey>* nodeCache) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18737 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

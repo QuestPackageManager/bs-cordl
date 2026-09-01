@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugMaterialValidationMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugMaterialValidationMode.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugMaterialValidationMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::DebugMaterialValidationMode::DebugMaterialValidationMode(int32_t value__) noexcept {

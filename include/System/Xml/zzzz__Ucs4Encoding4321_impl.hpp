@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Ucs4Encoding4321.hpp"
+// IWYU pragma private; include "System\Xml\Ucs4Encoding4321.hpp"
 #include "System/Xml/zzzz__Ucs4Encoding_impl.hpp"
 #include "System/Xml/zzzz__Ucs4Encoding4321_def.hpp"
 //  Writing Method size for method: ::System::Xml::Ucs4Encoding4321._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Ucs4Encoding4321::*)()>(&::System::Xml::Ucs4Encoding4321::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x62dbb44;
+  constexpr static std::size_t addrs = 0x62e35c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding4321*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Ucs4Encoding4321::*)()>(&::System::Xml::Ucs4Encoding4321::get_EncodingName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x62dbef0;
+  constexpr static std::size_t addrs = 0x62e396c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::Ucs4Encoding4321::*)()>(&::System::Xml::Ucs4Encoding4321::GetPreamble)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x62dbf34;
+  constexpr static std::size_t addrs = 0x62e39b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

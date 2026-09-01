@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXPlaneBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXPlaneBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXSpaceableBinder_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXPlaneBinder_def.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__ExposedProperty_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXPlaneBinder::*)()>(&::UnityEngine::VFX::Utility::VFXPlaneBinder::get_Property)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69de5c4;
+  constexpr static std::size_t addrs = 0x69e6040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXPlaneBinder*>(), { "get_Property", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXPlaneBinder::*)(::StringW)>(&::UnityEngine::VFX::Utility::VFXPlaneBinder::set_Property)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69de5dc;
+  constexpr static std::size_t addrs = 0x69e6058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXPlaneBinder::*)()>(&::UnityEngine::VFX::Utility::VFXPlaneBinder::OnEnable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69de6ac;
+  constexpr static std::size_t addrs = 0x69e6128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXPlaneBinder::*)()>(&::UnityEngine::VFX::Utility::VFXPlaneBinder::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69de6c4;
+  constexpr static std::size_t addrs = 0x69e6140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXPlaneBinder*>(), { "OnValidate", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXPlaneBinder::*)()>(&::UnityEngine::VFX::Utility::VFXPlaneBinder::UpdateSubProperties)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69de604;
+  constexpr static std::size_t addrs = 0x69e6080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXPlaneBinder*>(), { "UpdateSubProperties", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXPlaneBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXPlaneBinder::IsValid)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69de6c8;
+  constexpr static std::size_t addrs = 0x69e6144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXPlaneBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXPlaneBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69de794;
+  constexpr static std::size_t addrs = 0x69e6210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXPlaneBinder::*)()>(&::UnityEngine::VFX::Utility::VFXPlaneBinder::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69de9b8;
+  constexpr static std::size_t addrs = 0x69e6434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXPlaneBinder::*)()>(&::UnityEngine::VFX::Utility::VFXPlaneBinder::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69deab4;
+  constexpr static std::size_t addrs = 0x69e6530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXPlaneBinder*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Bits.hpp"
+// IWYU pragma private; include "System\Xml\Bits.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__Bits_def.hpp"
 //  Writing Method size for method: ::System::Xml::Bits.Count
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint32_t)>(&::System::Xml::Bits::Count)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x61a4d5c;
+  constexpr static std::size_t addrs = 0x61ac7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Bits*>(), { "Count", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint32_t)>(&::System::Xml::Bits::LeastPosition)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61a4dfc;
+  constexpr static std::size_t addrs = 0x61ac878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Bits*>(), { "LeastPosition", {}, { ::i2c::type_of<uint32_t>() } })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/CustomRenderTextureManager.hpp"
+// IWYU pragma private; include "UnityEngine\CustomRenderTextureManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CustomRenderTextureManager_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::CustomRenderTexture*)>(&::UnityEngine::CustomRenderTextureManager::InvokeOnTextureLoaded_Internal)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6a7c7a4;
+  constexpr static std::size_t addrs = 0x6a84220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CustomRenderTextureManager*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::CustomRenderTexture*)>(&::UnityEngine::CustomRenderTextureManager::InvokeOnTextureUnloaded_Internal)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6a7c814;
+  constexpr static std::size_t addrs = 0x6a84290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CustomRenderTextureManager*>(),

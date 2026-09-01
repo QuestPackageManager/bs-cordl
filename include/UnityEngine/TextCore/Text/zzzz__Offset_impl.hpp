@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/Offset.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\Offset.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Offset_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::Offset.get_left
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::Text::Offset::*)()>(&::UnityEngine::TextCore::Text::Offset::get_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bffdec;
+  constexpr static std::size_t addrs = 0x6c07970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::Offset>(), { "get_left", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::Text::Offset::*)()>(&::UnityEngine::TextCore::Text::Offset::get_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bffdf4;
+  constexpr static std::size_t addrs = 0x6c07978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::Offset>(), { "get_right", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::Text::Offset::*)()>(&::UnityEngine::TextCore::Text::Offset::get_top)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bffdfc;
+  constexpr static std::size_t addrs = 0x6c07980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::Offset>(), { "get_top", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::Text::Offset::*)()>(&::UnityEngine::TextCore::Text::Offset::get_bottom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bffe04;
+  constexpr static std::size_t addrs = 0x6c07988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::Offset>(), { "get_bottom", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::Text::Offset (*)()>(&::UnityEngine::TextCore::Text::Offset::get_zero)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6bffe0c;
+  constexpr static std::size_t addrs = 0x6c07990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::Offset>(), { "get_zero", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::Offset::*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::TextCore::Text::Offset::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6bffe6c;
+  constexpr static std::size_t addrs = 0x6c079f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextCore::Text::Offset, ::UnityEngine::TextCore::Text::Offset)>(&::UnityEngine::TextCore::Text::Offset::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6bffe78;
+  constexpr static std::size_t addrs = 0x6c079fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::Text::Offset (*)(::UnityEngine::TextCore::Text::Offset, float_t)>(
     &::UnityEngine::TextCore::Text::Offset::op_Multiply)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bffea0;
+  constexpr static std::size_t addrs = 0x6c07a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::Text::Offset::*)()>(&::UnityEngine::TextCore::Text::Offset::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6bffeb4;
+  constexpr static std::size_t addrs = 0x6c07a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::Text::Offset::*)(::System::Object*)>(&::UnityEngine::TextCore::Text::Offset::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bfff18;
+  constexpr static std::size_t addrs = 0x6c07a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

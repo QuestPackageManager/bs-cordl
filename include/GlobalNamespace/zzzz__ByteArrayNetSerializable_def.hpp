@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ByteArrayNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace\ByteArrayNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,35 +56,35 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Clear, addr 0x3329328, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x332d0e8, size 0x78, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CopyTo, addr 0x3329440, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x332d200, size 0x1c, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<uint8_t> destination);
 
-  /// @brief Method CopyTo, addr 0x3329a48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x332d808, size 0x3c, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<uint8_t> destination, ::by_ref<int32_t> length);
 
-  /// @brief Method Deserialize, addr 0x3329540, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x332d300, size 0x228, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method GetData, addr 0x3328fe4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x332cda4, size 0x104, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetData(bool emptyAsNull);
 
   static inline ::GlobalNamespace::ByteArrayNetSerializable* New_ctor(::StringW name, int32_t minLength, int32_t maxLength, bool allowEmpty);
 
   static inline ::GlobalNamespace::ByteArrayNetSerializable* New_ctor(::StringW name, int32_t size, bool allowEmpty);
 
-  /// @brief Method Resize, addr 0x33293a0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x332d160, size 0xa0, virtual false, abstract: false, final false
   inline void Resize(int32_t length);
 
-  /// @brief Method Serialize, addr 0x332945c, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x332d21c, size 0xe4, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetData, addr 0x33290ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x332ceac, size 0x24, virtual false, abstract: false, final false
   inline void SetData(::ArrayW<uint8_t> value);
 
-  /// @brief Method SetData, addr 0x3329138, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x332cef8, size 0x1f0, virtual false, abstract: false, final false
   inline void SetData(::ArrayW<uint8_t> value, int32_t offset, int32_t length);
 
   constexpr bool const& __cordl_internal_get__allowEmpty() const;
@@ -123,25 +123,25 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3329110, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332ced0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, int32_t minLength, int32_t maxLength, bool allowEmpty);
 
-  /// @brief Method .ctor, addr 0x3329124, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332cee4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, int32_t size, bool allowEmpty);
 
-  /// @brief Method get_data, addr 0x3328fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x332cd9c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_data();
 
-  /// @brief Method get_length, addr 0x3328fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x332cd94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  /// @brief Method op_Implicit, addr 0x3329a34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x332d7f4, size 0x14, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> op_Implicit___ArrayW_uint8_t_(::GlobalNamespace::ByteArrayNetSerializable* byteArrayNetSerializable);
 
-  /// @brief Method set_data, addr 0x33290e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_data, addr 0x332cea8, size 0x4, virtual false, abstract: false, final false
   inline void set_data(::ArrayW<uint8_t> value);
 
 protected:
@@ -159,7 +159,7 @@ public:
   ByteArrayNetSerializable(ByteArrayNetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18118 };
 
   /// @brief Field _data, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ____data;

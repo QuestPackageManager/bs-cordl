@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/SerializationException.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\SerializationException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,16 +41,16 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5b47750, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4bc0c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b47810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4bccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b477c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4bc84, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5b477ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4bca8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::StringW getStaticF_s_nullMessage();

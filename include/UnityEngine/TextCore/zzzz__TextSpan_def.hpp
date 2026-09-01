@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/TextSpan.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\TextSpan.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ namespace UnityEngine::TextCore {
 struct CORDL_TYPE TextSpan {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x6bba65c, size 0x4a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6bc21e0, size 0x4a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -40,7 +40,7 @@ public:
                      ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, int32_t linkID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17186 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

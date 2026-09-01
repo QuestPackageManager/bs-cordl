@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/ProxyCameraRig.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\ProxyCameraRig.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/zzzz__ProxyCameraRig_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::get_Camera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a52e18;
+  constexpr static std::size_t addrs = 0x5a572d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)(::UnityEngine::Camera*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::set_Camera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a52e20;
+  constexpr static std::size_t addrs = 0x5a572dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::get_CameraTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a52e28;
+  constexpr static std::size_t addrs = 0x5a572e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)(::UnityEngine::Transform*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::set_CameraTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a52e30;
+  constexpr static std::size_t addrs = 0x5a572ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::Refresh)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5a52e38;
+  constexpr static std::size_t addrs = 0x5a572f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig*>(), { "Refresh", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::SearchForCamera)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5a52ef0;
+  constexpr static std::size_t addrs = 0x5a573ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a53050;
+  constexpr static std::size_t addrs = 0x5a5750c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig*>(), { ".ctor", {}, {} })));

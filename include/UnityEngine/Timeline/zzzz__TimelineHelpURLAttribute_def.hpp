@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/TimelineHelpURLAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\TimelineHelpURLAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Timeline::TimelineHelpURLAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x69b7998, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69bf414, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:
@@ -42,7 +42,7 @@ public:
   TimelineHelpURLAttribute(TimelineHelpURLAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

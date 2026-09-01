@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LessThanInstruction_LessThanByte.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\LessThanInstruction_LessThanByte.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LessThanInstruction_LessThanByte* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x5f9874c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fa01c8, size 0xa4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5f983e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f9fe64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:
@@ -49,7 +49,7 @@ public:
   LessThanInstruction_LessThanByte(LessThanInstruction_LessThanByte const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

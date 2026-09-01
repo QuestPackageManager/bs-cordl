@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/EnumDataUtility.hpp"
+// IWYU pragma private; include "UnityEngine\EnumDataUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__EnumDataUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EnumDataUtility___c::*)()>(&::UnityEngine::EnumDataUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ad8400;
+  constexpr static std::size_t addrs = 0x6adfe18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EnumDataUtility___c*>(), { ".ctor", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::EnumDataUtility___c::*)(::System::Reflection::FieldInfo*)>(
     &::UnityEngine::EnumDataUtility___c::_GetCachedEnumData_b__2_5)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ad8404;
+  constexpr static std::size_t addrs = 0x6adfe1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::EnumDataUtility___c::*)(::System::Reflection::FieldInfo*)>(
     &::UnityEngine::EnumDataUtility___c::_GetCachedEnumData_b__2_1)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6ad8428;
+  constexpr static std::size_t addrs = 0x6adfe40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Enum* (::UnityEngine::EnumDataUtility___c::*)(::System::Reflection::FieldInfo*)>(
     &::UnityEngine::EnumDataUtility___c::_GetCachedEnumData_b__2_2)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6ad8480;
+  constexpr static std::size_t addrs = 0x6adfe98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::EnumDataUtility___c::*)(::System::Enum*)>(&::UnityEngine::EnumDataUtility___c::_GetCachedEnumData_b__2_3)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6ad84e4;
+  constexpr static std::size_t addrs = 0x6adfefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::EnumDataUtility___c::*)(::System::Enum*)>(&::UnityEngine::EnumDataUtility___c::_GetCachedEnumData_b__2_4)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6ad8544;
+  constexpr static std::size_t addrs = 0x6adff5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EnumDataUtility___c__DisplayClass2_0::*)()>(&::UnityEngine::EnumDataUtility___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ad79d4;
+  constexpr static std::size_t addrs = 0x6adf3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EnumDataUtility___c__DisplayClass2_0*>(), { ".ctor", {}, {} })));
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::EnumDataUtility___c__DisplayClass2_0::*)(::System::Reflection::FieldInfo*)>(
     &::UnityEngine::EnumDataUtility___c__DisplayClass2_0::_GetCachedEnumData_b__0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6ad85a4;
+  constexpr static std::size_t addrs = 0x6adffbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EnumDataUtility___c__DisplayClass2_0*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EnumData (*)(::System::Type*, ::UnityEngine::EnumDataUtility_CachedType, ::System::Func_2<::StringW, ::StringW>*)>(
     &::UnityEngine::EnumDataUtility::GetCachedEnumData)> {
   constexpr static std::size_t size = 0xd80;
-  constexpr static std::size_t addrs = 0x6ad6c54;
+  constexpr static std::size_t addrs = 0x6ade66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::by_ref<::UnityEngine::EnumData>)>(&::UnityEngine::EnumDataUtility::HandleInspectorOrderAttribute)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x6ad7af4;
+  constexpr static std::size_t addrs = 0x6adf50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::FieldInfo*, ::UnityEngine::EnumDataUtility_CachedType)>(&::UnityEngine::EnumDataUtility::CheckObsoleteAddition)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6ad79d8;
+  constexpr static std::size_t addrs = 0x6adf3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Reflection::FieldInfo*)>(&::UnityEngine::EnumDataUtility::EnumTooltipFromEnumField)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6ad7fa0;
+  constexpr static std::size_t addrs = 0x6adf9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Reflection::FieldInfo*, ::System::Func_2<::StringW, ::StringW>*)>(
     &::UnityEngine::EnumDataUtility::EnumNameFromEnumField)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6ad80bc;
+  constexpr static std::size_t addrs = 0x6adfad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::UnityEngine::EnumDataUtility___c__DisplayClass8_0>)>(
     &::UnityEngine::EnumDataUtility::_EnumNameFromEnumField_g__NicifyName_8_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ad82ac;
+  constexpr static std::size_t addrs = 0x6adfcc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

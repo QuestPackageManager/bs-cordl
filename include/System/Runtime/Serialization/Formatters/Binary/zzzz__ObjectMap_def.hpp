@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/ObjectMap.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\ObjectMap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,18 +82,18 @@ public:
   /// @brief Field typeInformationA, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_typeInformationA, put = __cordl_internal_set_typeInformationA)) ::ArrayW<::System::Object*> typeInformationA;
 
-  /// @brief Method Create, addr 0x5b55dc0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b5a27c, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap*
   Create(::StringW name, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayW<::System::Object*> typeInformationA,
          ::ArrayW<int32_t> memberAssemIds, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
          ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
 
-  /// @brief Method Create, addr 0x5b55d24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b5a1e0, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create(::StringW name, ::System::Type* objectType, ::ArrayW<::StringW> memberNames,
                                                                                         ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
                                                                                         ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
 
-  /// @brief Method CreateObjectInfo, addr 0x5b55ce0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectInfo, addr 0x5b5a19c, size 0x44, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateObjectInfo(::by_ref<::System::Runtime::Serialization::SerializationInfo*> si,
                                                                                                 ::by_ref<::ArrayW<::System::Object*>> memberData);
 
@@ -172,12 +172,12 @@ public:
 
   constexpr void __cordl_internal_set_typeInformationA(::ArrayW<::System::Object*> value);
 
-  /// @brief Method .ctor, addr 0x5b559ec, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b59ea8, size 0x2f4, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::ArrayW<::StringW> memberNames, ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA,
                     ::ArrayW<::System::Object*> typeInformationA, ::ArrayW<int32_t> memberAssemIds, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
                     ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
 
-  /// @brief Method .ctor, addr 0x5b55834, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b59cf0, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::System::Type* objectType, ::ArrayW<::StringW> memberNames, ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader,
                     int32_t objectId, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
 

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ImageStyle.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ImageStyle.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Style_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ImageStyle_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a5c8f8;
+  constexpr static std::size_t addrs = 0x5a60db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

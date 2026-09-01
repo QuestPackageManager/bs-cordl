@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/RangeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\RangeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x6ad0630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad8048, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t min, float_t max);
 
 protected:
@@ -58,7 +58,7 @@ public:
   RangeAttribute(RangeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10281 };
 
   /// @brief Field min, offset: 0x18, size: 0x4, def value: None
   float_t ___min;

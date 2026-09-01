@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRKeyboard.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRKeyboard.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRKeyboard_TrackedKeyboardState (*)()>(&::GlobalNamespace::OVRKeyboard::GetKeyboardState)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5edb48c;
+  constexpr static std::size_t addrs = 0x5edf948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRKeyboard*>(), { "GetKeyboardState", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags, ::by_ref<::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo>)>(
     &::GlobalNamespace::OVRKeyboard::GetSystemKeyboardInfo)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5edb55c;
+  constexpr static std::size_t addrs = 0x5edfa18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo)>(&::GlobalNamespace::OVRKeyboard::StopKeyboardTracking)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5edb650;
+  constexpr static std::size_t addrs = 0x5edfb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRKeyboard*>(),

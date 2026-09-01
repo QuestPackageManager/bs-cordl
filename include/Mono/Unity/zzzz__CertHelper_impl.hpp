@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Unity/CertHelper.hpp"
+// IWYU pragma private; include "Mono\Unity\CertHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Unity/zzzz__CertHelper_def.hpp"
 #include "Mono/Unity/zzzz__UnityTls_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Unity::UnityTls_unitytls_x509list*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*,
                                                                 ::Mono::Unity::UnityTls_unitytls_errorstate*)>(&::Mono::Unity::CertHelper::AddCertificatesToNativeChain)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5fc9130;
+  constexpr static std::size_t addrs = 0x5fd0bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Mono::Unity::UnityTls_unitytls_x509list*, ::System::Security::Cryptography::X509Certificates::X509Certificate*,
                                                                 ::Mono::Unity::UnityTls_unitytls_errorstate*)>(&::Mono::Unity::CertHelper::AddCertificateToNativeChain)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5fc92d0;
+  constexpr static std::size_t addrs = 0x5fd0d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

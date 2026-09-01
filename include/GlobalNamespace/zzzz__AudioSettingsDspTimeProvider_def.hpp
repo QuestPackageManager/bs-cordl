@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioSettingsDspTimeProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioSettingsDspTimeProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
 
   static inline ::GlobalNamespace::AudioSettingsDspTimeProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58b8424, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b7d8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_dspTime, addr 0x58b83fc, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_dspTime, addr 0x58b7d64, size 0x28, virtual true, abstract: false, final true
   inline double_t get_dspTime();
 
   /// @brief Convert to "::GlobalNamespace::IDspTimeProvider"

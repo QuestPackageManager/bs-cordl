@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/Field/GF2Polynomial.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\Field\GF2Polynomial.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__GF2Polynomial_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IPolynomial_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)(::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::Field::GF2Polynomial::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x352ec34;
+  constexpr static std::size_t addrs = 0x35329f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(&::Org::BouncyCastle::Math::Field::GF2Polynomial::get_Degree)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x352f2a8;
+  constexpr static std::size_t addrs = 0x3533068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::GetExponentsPresent)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x352f2dc;
+  constexpr static std::size_t addrs = 0x353309c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)(::System::Object*)>(&::Org::BouncyCastle::Math::Field::GF2Polynomial::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x352f33c;
+  constexpr static std::size_t addrs = 0x35330fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(&::Org::BouncyCastle::Math::Field::GF2Polynomial::GetHashCode)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x352f41c;
+  constexpr static std::size_t addrs = 0x35331dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

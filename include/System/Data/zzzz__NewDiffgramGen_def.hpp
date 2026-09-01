@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/NewDiffgramGen.hpp"
+// IWYU pragma private; include "System\Data\NewDiffgramGen.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,38 +74,38 @@ public:
   /// @brief Field _xmlw, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xmlw, put = __cordl_internal_set__xmlw)) ::System::Xml::XmlWriter* _xmlw;
 
-  /// @brief Method CreateTableHierarchy, addr 0x6075bdc, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method CreateTableHierarchy, addr 0x607d658, size 0x358, virtual false, abstract: false, final false
   inline void CreateTableHierarchy(::System::Data::DataTable* dt);
 
-  /// @brief Method DoAssignments, addr 0x60758a0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method DoAssignments, addr 0x607d31c, size 0x25c, virtual false, abstract: false, final false
   inline void DoAssignments(::System::Collections::ArrayList* tables);
 
-  /// @brief Method EmptyData, addr 0x6075f34, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method EmptyData, addr 0x607d9b0, size 0xf8, virtual false, abstract: false, final false
   inline bool EmptyData();
 
-  /// @brief Method GenerateColumn, addr 0x6077d6c, size 0x9ec, virtual false, abstract: false, final false
+  /// @brief Method GenerateColumn, addr 0x607f7e8, size 0x9ec, virtual false, abstract: false, final false
   inline void GenerateColumn(::System::Data::DataRow* row, ::System::Data::DataColumn* col, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GenerateRow, addr 0x607762c, size 0x688, virtual false, abstract: false, final false
+  /// @brief Method GenerateRow, addr 0x607f0a8, size 0x688, virtual false, abstract: false, final false
   inline void GenerateRow(::System::Data::DataRow* row);
 
-  /// @brief Method GenerateTable, addr 0x6076fa4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GenerateTable, addr 0x607ea20, size 0x7c, virtual false, abstract: false, final false
   inline void GenerateTable(::System::Data::DataTable* table);
 
-  /// @brief Method GenerateTableErrors, addr 0x6077020, size 0x60c, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableErrors, addr 0x607ea9c, size 0x60c, virtual false, abstract: false, final false
   inline void GenerateTableErrors(::System::Data::DataTable* table);
 
   static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataSet* ds);
 
   static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataTable* dt, bool writeHierarchy);
 
-  /// @brief Method QualifiedName, addr 0x607571c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method QualifiedName, addr 0x607d198, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW QualifiedName(::StringW prefix, ::StringW name);
 
-  /// @brief Method Save, addr 0x607602c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x607daa8, size 0x8, virtual false, abstract: false, final false
   inline void Save(::System::Xml::XmlWriter* xmlw);
 
-  /// @brief Method Save, addr 0x6076034, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x607dab0, size 0x430, virtual false, abstract: false, final false
   inline void Save(::System::Xml::XmlWriter* xmlw, ::System::Data::DataTable* table);
 
   constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get__doc() const;
@@ -162,10 +162,10 @@ public:
 
   constexpr void __cordl_internal_set__xmlw(::System::Xml::XmlWriter* value);
 
-  /// @brief Method .ctor, addr 0x6075794, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x607d210, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* ds);
 
-  /// @brief Method .ctor, addr 0x6075afc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x607d578, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* dt, bool writeHierarchy);
 
 protected:
@@ -183,7 +183,7 @@ public:
   NewDiffgramGen(NewDiffgramGen const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13880 };
 
   /// @brief Field _doc, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlDocument* ____doc;

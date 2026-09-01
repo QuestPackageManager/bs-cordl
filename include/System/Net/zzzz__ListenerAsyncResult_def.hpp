@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/ListenerAsyncResult.hpp"
+// IWYU pragma private; include "System\Net\ListenerAsyncResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,19 +90,19 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method Complete, addr 0x6330b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x6338608, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method Complete, addr 0x6330b94, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x6338610, size 0x570, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context, bool synch);
 
-  /// @brief Method Complete, addr 0x6330824, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x63382a0, size 0x210, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* exc);
 
-  /// @brief Method GetContext, addr 0x6331104, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetContext, addr 0x6338b80, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* GetContext();
 
-  /// @brief Method InvokeCallback, addr 0x6330a34, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x63384b0, size 0x158, virtual false, abstract: false, final false
   static inline void InvokeCallback(::System::Object* o);
 
   static inline ::System::Net::ListenerAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
@@ -173,21 +173,21 @@ public:
 
   constexpr void __cordl_internal_set_synch(bool value);
 
-  /// @brief Method .ctor, addr 0x63307c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x633823c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
   static inline ::System::Threading::WaitCallback* getStaticF_InvokeCB();
 
-  /// @brief Method get_AsyncState, addr 0x6331140, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x6338bbc, size 0x14, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x6331154, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x6338bd0, size 0x134, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x6331288, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x6338d04, size 0x14, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x633129c, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x6338d18, size 0xdc, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -210,7 +210,7 @@ public:
   ListenerAsyncResult(ListenerAsyncResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11613 };
 
   /// @brief Field handle, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ManualResetEvent* ___handle;

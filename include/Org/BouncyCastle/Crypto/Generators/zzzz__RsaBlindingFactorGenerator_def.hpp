@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/RsaBlindingFactorGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\RsaBlindingFactorGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
   /// @brief Field random, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
 
-  /// @brief Method GenerateBlindingFactor, addr 0x33e0054, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GenerateBlindingFactor, addr 0x33e3e14, size 0x178, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* GenerateBlindingFactor();
 
-  /// @brief Method Init, addr 0x33dfe64, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x33e3c24, size 0x1f0, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator* New_ctor();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x33e01cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e3f8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/MonoInstaller.hpp"
+// IWYU pragma private; include "Zenject\MonoInstaller.hpp"
 #include "Zenject/zzzz__MonoInstallerBase_impl.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MonoInstaller::*)()>(&::Zenject::MonoInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e6e2f4;
+  constexpr static std::size_t addrs = 0x6e75e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MonoInstaller*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::MonoInstaller::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6e6e2fc;
+  constexpr static std::size_t addrs = 0x6e75e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MonoInstaller*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TooltipEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TooltipEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
 
   static inline ::UnityEngine::UIElements::TooltipEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9ec04, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6da6788, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TooltipEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9ec00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da6784, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::TooltipEvent___c* getStaticF___9();
@@ -90,10 +90,10 @@ public:
 
   __declspec(property(put = set_tooltip)) ::StringW tooltip;
 
-  /// @brief Method Init, addr 0x6d9ea80, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6da6604, size 0x70, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d9eaf0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6da6674, size 0x24, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::TooltipEvent* New_ctor();
@@ -110,13 +110,13 @@ public:
 
   constexpr void __cordl_internal_set__tooltip_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d9eb14, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da6698, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_rect, addr 0x6d9ea74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rect, addr 0x6da65f8, size 0xc, virtual false, abstract: false, final false
   inline void set_rect(::UnityEngine::Rect value);
 
-  /// @brief Method set_tooltip, addr 0x6d9ea6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tooltip, addr 0x6da65f0, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonCloneSettings.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonCloneSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JsonCloneSettings_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonCloneSettings._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonCloneSettings::*)()>(&::Newtonsoft::Json::Linq::JsonCloneSettings::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d76858;
+  constexpr static std::size_t addrs = 0x5d7ad14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonCloneSettings*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JsonCloneSettings::*)()>(&::Newtonsoft::Json::Linq::JsonCloneSettings::get_CopyAnnotations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d76864;
+  constexpr static std::size_t addrs = 0x5d7ad20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonCloneSettings*>(), { "get_CopyAnnotations", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonCloneSettings::*)(bool)>(&::Newtonsoft::Json::Linq::JsonCloneSettings::set_CopyAnnotations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d7686c;
+  constexpr static std::size_t addrs = 0x5d7ad28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

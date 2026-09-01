@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ToggleButtonGroupState.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ToggleButtonGroupState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,40 +45,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::ToggleButtonGroupState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::ToggleButtonGroupState>*();
 
-  /// @brief Method CompareTo, addr 0x6d7314c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6d7acd0, size 0x1c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::UIElements::ToggleButtonGroupState other);
 
-  /// @brief Method Equals, addr 0x6d7319c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6d7ad20, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6d73178, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6d7acfc, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::ToggleButtonGroupState other);
 
-  /// @brief Method GetActiveOptions, addr 0x6d70eb4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetActiveOptions, addr 0x6d78a38, size 0x188, virtual false, abstract: false, final false
   inline ::System::Span_1<int32_t> GetActiveOptions(::System::Span_1<int32_t> activeOptionsIndices);
 
-  /// @brief Method GetHashCode, addr 0x6d73228, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6d7adac, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ResetAllOptions, addr 0x6d7103c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetAllOptions, addr 0x6d78bc0, size 0x8, virtual false, abstract: false, final false
   inline void ResetAllOptions();
 
-  /// @brief Method ResetOptions, addr 0x6d7309c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ResetOptions, addr 0x6d7ac20, size 0x98, virtual false, abstract: false, final false
   inline void ResetOptions(int32_t startingIndex);
 
-  /// @brief Method ToString, addr 0x6d732a8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6d7ae2c, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6d71338, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d78ebc, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(uint64_t optionsBitMask, int32_t length);
 
-  /// @brief Method get_Item, addr 0x6d7294c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6d7a4d0, size 0xd4, virtual false, abstract: false, final false
   inline bool get_Item(int32_t index);
 
-  /// @brief Method get_data, addr 0x6d73144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x6d7acc8, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_data();
 
-  /// @brief Method get_length, addr 0x6d73134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x6d7acb8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::UIElements::ToggleButtonGroupState>"
@@ -87,16 +87,16 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::ToggleButtonGroupState>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::ToggleButtonGroupState>* i___System__IEquatable_1___UnityEngine__UIElements__ToggleButtonGroupState_();
 
-  /// @brief Method op_Equality, addr 0x6d73168, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6d7acec, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::ToggleButtonGroupState lhs, ::UnityEngine::UIElements::ToggleButtonGroupState rhs);
 
-  /// @brief Method op_Inequality, addr 0x6d7293c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6d7a4c0, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::ToggleButtonGroupState lhs, ::UnityEngine::UIElements::ToggleButtonGroupState rhs);
 
-  /// @brief Method set_Item, addr 0x6d71044, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6d78bc8, size 0xe8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, bool value);
 
-  /// @brief Method set_length, addr 0x6d7313c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_length, addr 0x6d7acc0, size 0x8, virtual false, abstract: false, final false
   inline void set_length(int32_t value);
 
   // Ctor Parameters []

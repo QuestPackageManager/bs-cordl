@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BadCutsMissionObjectiveChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace\BadCutsMissionObjectiveChecker.hpp"
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_impl.hpp"
 #include "GlobalNamespace/zzzz__BadCutsMissionObjectiveChecker_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BadCutsMissionObjectiveChecker::*)()>(&::GlobalNamespace::BadCutsMissionObjectiveChecker::Init)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5915edc;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x5919198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BadCutsMissionObjectiveChecker::*)()>(&::GlobalNamespace::BadCutsMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5916064;
+  constexpr static std::size_t addrs = 0x59192c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BadCutsMissionObjectiveChecker*>(), { "OnDestroy", {}, {} })));
@@ -35,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BadCutsMissionObjectiveChecker::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo>)>(
     &::GlobalNamespace::BadCutsMissionObjectiveChecker::HandleNoteWasCut)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x59160fc;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x591935c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BadCutsMissionObjectiveChecker::*)()>(&::GlobalNamespace::BadCutsMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59162d0;
+  constexpr static std::size_t addrs = 0x59193fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BadCutsMissionObjectiveChecker*>(), { ".ctor", {}, {} })));

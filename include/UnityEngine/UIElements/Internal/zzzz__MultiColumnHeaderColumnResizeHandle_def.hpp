@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnHeaderColumnResizeHandle.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Internal\MultiColumnHeaderColumnResizeHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,14 +42,14 @@ public:
 
   constexpr void __cordl_internal_set__dragArea_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6d1f020, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d26ba4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_dragAreaUssClassName();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_dragArea, addr 0x6d23fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragArea, addr 0x6d2bb6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragArea();
 
   static inline void setStaticF_dragAreaUssClassName(::StringW value);

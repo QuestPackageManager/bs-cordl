@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonMergeSettings.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonMergeSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,25 +66,25 @@ public:
 
   constexpr void __cordl_internal_set__propertyNameComparison(::System::StringComparison value);
 
-  /// @brief Method .ctor, addr 0x5d76a0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7aec8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MergeArrayHandling, addr 0x5d76a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeArrayHandling, addr 0x5d7aed4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::MergeArrayHandling get_MergeArrayHandling();
 
-  /// @brief Method get_MergeNullValueHandling, addr 0x5d76a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeNullValueHandling, addr 0x5d7af38, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::MergeNullValueHandling get_MergeNullValueHandling();
 
-  /// @brief Method get_PropertyNameComparison, addr 0x5d76ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNameComparison, addr 0x5d7af9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::StringComparison get_PropertyNameComparison();
 
-  /// @brief Method set_MergeArrayHandling, addr 0x5d76a20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_MergeArrayHandling, addr 0x5d7aedc, size 0x5c, virtual false, abstract: false, final false
   inline void set_MergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value);
 
-  /// @brief Method set_MergeNullValueHandling, addr 0x5d76a84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_MergeNullValueHandling, addr 0x5d7af40, size 0x5c, virtual false, abstract: false, final false
   inline void set_MergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value);
 
-  /// @brief Method set_PropertyNameComparison, addr 0x5d76ae8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyNameComparison, addr 0x5d7afa4, size 0x5c, virtual false, abstract: false, final false
   inline void set_PropertyNameComparison(::System::StringComparison value);
 
 protected:
@@ -102,7 +102,7 @@ public:
   JsonMergeSettings(JsonMergeSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13604 };
 
   /// @brief Field _mergeArrayHandling, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::MergeArrayHandling ____mergeArrayHandling;

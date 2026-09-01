@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/SystemAcl.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\SystemAcl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace System::Security::AccessControl {
 class CORDL_TYPE SystemAcl : public ::System::Security::AccessControl::CommonAcl {
 public:
   // Declarations
-  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x5b1c618, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x5b20ad4, size 0x20, virtual true, abstract: false, final false
   inline void ApplyCanonicalSortToExplicitAces();
 
-  /// @brief Method GetAceInsertPosition, addr 0x5b1c638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAceInsertPosition, addr 0x5b20af4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
 
 protected:

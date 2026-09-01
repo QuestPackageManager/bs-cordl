@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/RSA.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\RSA.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,16 +25,16 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE RSA : public ::System::Security::Cryptography::AsymmetricAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x5afdce8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b021a4, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* Create();
 
-  /// @brief Method EncryptValue, addr 0x5afdd60, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method EncryptValue, addr 0x5b0221c, size 0x50, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> EncryptValue(::ArrayW<uint8_t> rgb);
 
   /// @brief Method ExportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method FromXmlString, addr 0x5afddb0, size 0x584, virtual true, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x5b0226c, size 0x584, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
   /// @brief Method ImportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -42,10 +42,10 @@ public:
 
   static inline ::System::Security::Cryptography::RSA* New_ctor();
 
-  /// @brief Method ToXmlString, addr 0x5afe34c, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x5b02808, size 0x46c, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
-  /// @brief Method .ctor, addr 0x5afdce4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b021a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

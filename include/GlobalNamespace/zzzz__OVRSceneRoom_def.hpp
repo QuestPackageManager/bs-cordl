@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRSceneRoom.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRSceneRoom.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,10 +70,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5eca704, size 0x11a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ecebc0, size 0x11a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5ecb8a8, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ecfd64, size 0x3c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -100,7 +100,7 @@ public:
                                          ::GlobalNamespace::OVRTask_1_Awaiter<::System::Collections::Generic::List_1<bool>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7692 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
@@ -219,33 +219,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Method Awake, addr 0x5ec9ed0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5ece38c, size 0x138, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x5eca008, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method IOVRSceneComponent.Initialize, addr 0x5ece4c4, size 0x11c, virtual true, abstract: false, final true
   inline void IOVRSceneComponent_Initialize();
 
-  /// @brief Method LoadRoom, addr 0x5ec5f08, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LoadRoom, addr 0x5eca3c4, size 0xf4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> LoadRoom(::System::Guid floor, ::System::Guid ceiling, ::ArrayW<::System::Guid> walls);
 
-  /// @brief Method Log, addr 0x5eca1e0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5ece69c, size 0xac, virtual false, abstract: false, final false
   inline void Log(::StringW message);
 
-  /// @brief Method LogError, addr 0x5eca338, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x5ece7f4, size 0xac, virtual false, abstract: false, final false
   inline void LogError(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x5eca28c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x5ece748, size 0xac, virtual false, abstract: false, final false
   inline void LogWarning(::StringW message);
 
   static inline ::GlobalNamespace::OVRSceneRoom* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5eca124, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5ece5e0, size 0xbc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <LoadRoom>g__GetPlane|19_1, addr 0x5eca684, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <LoadRoom>g__GetPlane|19_1, addr 0x5eceb40, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRScenePlane> _LoadRoom_g__GetPlane_19_1(::System::Guid uuid);
 
-  /// @brief Method <LoadRoom>g__TryGetPlane|19_0, addr 0x5eca58c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method <LoadRoom>g__TryGetPlane|19_0, addr 0x5ecea48, size 0xf8, virtual false, abstract: false, final false
   static inline bool _LoadRoom_g__TryGetPlane_19_0(::System::Guid uuid, ::by_ref<::GlobalNamespace::OVRScenePlane*> plane);
 
   constexpr ::UnityW<::GlobalNamespace::OVRScenePlane> const& __cordl_internal_get__Ceiling_k__BackingField() const;
@@ -284,20 +284,20 @@ public:
 
   constexpr void __cordl_internal_set__uuid(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x5eca3e4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ece8a0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSceneRoom>>* getStaticF_SceneRooms();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* getStaticF_SceneRoomsList();
 
-  /// @brief Method get_Ceiling, addr 0x5ec9eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ceiling, addr 0x5ece36c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRScenePlane> get_Ceiling();
 
-  /// @brief Method get_Floor, addr 0x5ec9ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Floor, addr 0x5ece35c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRScenePlane> get_Floor();
 
-  /// @brief Method get_Walls, addr 0x5ec9ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Walls, addr 0x5ece37c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>> get_Walls();
 
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
@@ -307,13 +307,13 @@ public:
 
   static inline void setStaticF_SceneRoomsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSceneRoom>>* value);
 
-  /// @brief Method set_Ceiling, addr 0x5ec9eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Ceiling, addr 0x5ece374, size 0x8, virtual false, abstract: false, final false
   inline void set_Ceiling(::GlobalNamespace::OVRScenePlane* value);
 
-  /// @brief Method set_Floor, addr 0x5ec9ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Floor, addr 0x5ece364, size 0x8, virtual false, abstract: false, final false
   inline void set_Floor(::GlobalNamespace::OVRScenePlane* value);
 
-  /// @brief Method set_Walls, addr 0x5ec9ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Walls, addr 0x5ece384, size 0x8, virtual false, abstract: false, final false
   inline void set_Walls(::ArrayW<::GlobalNamespace::OVRScenePlane*> value);
 
 protected:
@@ -331,7 +331,7 @@ public:
   OVRSceneRoom(OVRSceneRoom const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7693 };
 
   /// @brief Field <Floor>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRScenePlane> ____Floor_k__BackingField;

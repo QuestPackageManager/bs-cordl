@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Smime/SmimeEncryptionKeyPreferenceAttribute.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Smime\SmimeEncryptionKeyPreferenceAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sKeyID);
 
-  /// @brief Method .ctor, addr 0x35488f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354c6b8, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issAndSer);
 
-  /// @brief Method .ctor, addr 0x35489c8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354c788, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID);
 
-  /// @brief Method .ctor, addr 0x3548a98, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354c858, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sKeyID);
 
 protected:

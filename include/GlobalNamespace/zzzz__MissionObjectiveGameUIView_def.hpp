@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionObjectiveGameUIView.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionObjectiveGameUIView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,21 +79,21 @@ public:
   /// @brief Field _valueText, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__valueText, put = __cordl_internal_set__valueText)) ::UnityW<::TMPro::TextMeshProUGUI> _valueText;
 
-  /// @brief Method HandleMissionObjectiveCheckedValueDidChange, addr 0x5914df8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckedValueDidChange, addr 0x5918388, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckedValueDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method HandleMissionObjectiveStatusDidChange, addr 0x5914df4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveStatusDidChange, addr 0x5918384, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
   static inline ::GlobalNamespace::MissionObjectiveGameUIView* New_ctor();
 
-  /// @brief Method RefreshIcon, addr 0x5914c98, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RefreshIcon, addr 0x5918228, size 0x104, virtual false, abstract: false, final false
   inline void RefreshIcon();
 
-  /// @brief Method RefreshValue, addr 0x5914d9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RefreshValue, addr 0x591832c, size 0x58, virtual false, abstract: false, final false
   inline void RefreshValue();
 
-  /// @brief Method SetMissionObjectiveChecker, addr 0x5914854, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method SetMissionObjectiveChecker, addr 0x5917f5c, size 0x2cc, virtual false, abstract: false, final false
   inline void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__clearedIcon() const;
@@ -180,7 +180,7 @@ public:
 
   constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5914dfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591838c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -198,7 +198,7 @@ public:
   MissionObjectiveGameUIView(MissionObjectiveGameUIView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6780 };
 
   /// @brief Field _notFailedIcon, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____notFailedIcon;

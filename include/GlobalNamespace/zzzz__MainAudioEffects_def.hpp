@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainAudioEffects.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainAudioEffects.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,18 +33,18 @@ public:
   /// @brief Field _targetFrequency, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__targetFrequency, put = __cordl_internal_set__targetFrequency)) float_t _targetFrequency;
 
-  /// @brief Method LateUpdate, addr 0x58b845c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x58b7dc4, size 0xe0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MainAudioEffects* New_ctor();
 
-  /// @brief Method ResumeNormalSound, addr 0x58b853c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ResumeNormalSound, addr 0x58b7ea4, size 0x28, virtual false, abstract: false, final false
   inline void ResumeNormalSound();
 
-  /// @brief Method Start, addr 0x58b8428, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58b7d90, size 0x34, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TriggerLowPass, addr 0x58b8564, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TriggerLowPass, addr 0x58b7ecc, size 0x3c, virtual false, abstract: false, final false
   inline void TriggerLowPass();
 
   constexpr ::UnityW<::UnityEngine::AudioLowPassFilter> const& __cordl_internal_get__audioLowPassFilter() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__targetFrequency(float_t value);
 
-  /// @brief Method .ctor, addr 0x58b85a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b7f08, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

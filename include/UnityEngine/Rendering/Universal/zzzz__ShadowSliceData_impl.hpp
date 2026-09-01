@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShadowSliceData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShadowSliceData.hpp"
 #include "UnityEngine/Rendering/zzzz__ShadowSplitData_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ShadowSliceData_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ShadowSliceData::*)()>(&::UnityEngine::Rendering::Universal::ShadowSliceData::Clear)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68b4498;
+  constexpr static std::size_t addrs = 0x68bbf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ShadowSliceData>(), { "Clear", {}, {} })));

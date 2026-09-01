@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ContextMenu.hpp"
+// IWYU pragma private; include "UnityEngine\ContextMenu.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_validate(bool value);
 
-  /// @brief Method .ctor, addr 0x6ad30cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adaae4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName);
 
-  /// @brief Method .ctor, addr 0x6ad30e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adaafc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction);
 
-  /// @brief Method .ctor, addr 0x6ad30fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adab14, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
 protected:
@@ -78,7 +78,7 @@ public:
   ContextMenu(ContextMenu const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10306 };
 
   /// @brief Field menuItem, offset: 0x10, size: 0x8, def value: None
   ::StringW ___menuItem;

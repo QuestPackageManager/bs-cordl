@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/MontgomeryLadderMultiplier.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\MontgomeryLadderMultiplier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE MontgomeryLadderMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
-  /// @brief Method MultiplyPositive, addr 0x350aab8, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x350e878, size 0x204, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x350acbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350ea7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

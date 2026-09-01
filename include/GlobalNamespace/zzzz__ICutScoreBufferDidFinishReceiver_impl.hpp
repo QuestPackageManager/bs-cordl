@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ICutScoreBufferDidFinishReceiver.hpp"
+// IWYU pragma private; include "GlobalNamespace\ICutScoreBufferDidFinishReceiver.hpp"
 #include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ICutScoreBufferDidFinishReceiver.HandleCutScoreBufferDidFinish

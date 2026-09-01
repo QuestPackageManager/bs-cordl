@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/IncrementStripIndexOnStart.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\IncrementStripIndexOnStart.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_StripMaxCount(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x69c9e64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d18e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   IncrementStripIndexOnStart_InputProperties(IncrementStripIndexOnStart_InputProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19921 };
 
   /// @brief Field StripMaxCount, offset: 0x10, size: 0x4, def value: None
   uint32_t ___StripMaxCount;
@@ -100,13 +100,13 @@ public:
 
   static inline ::UnityEngine::VFX::IncrementStripIndexOnStart* New_ctor();
 
-  /// @brief Method OnPlay, addr 0x69c9ca4, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method OnPlay, addr 0x69d1720, size 0x108, virtual true, abstract: false, final false
   inline void OnPlay(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method OnStop, addr 0x69c9dac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnStop, addr 0x69d1828, size 0x8, virtual true, abstract: false, final false
   inline void OnStop(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method OnUpdate, addr 0x69c9db4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x69d1830, size 0x4, virtual true, abstract: false, final false
   inline void OnUpdate(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
   constexpr uint32_t const& __cordl_internal_get_m_Index() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Index(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x69c9db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d1834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_stripIndexID();
@@ -141,7 +141,7 @@ public:
   IncrementStripIndexOnStart(IncrementStripIndexOnStart const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19922 };
 
   /// @brief Field m_Index, offset: 0x18, size: 0x4, def value: None
   uint32_t ___m_Index;

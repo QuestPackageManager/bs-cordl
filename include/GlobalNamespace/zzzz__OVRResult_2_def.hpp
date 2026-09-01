@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRResult_2.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRResult_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,7 +100,7 @@ public:
   constexpr OVRResult_2(bool _initialized, TValue _value, int32_t _statusCode, TStatus _status) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7829 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

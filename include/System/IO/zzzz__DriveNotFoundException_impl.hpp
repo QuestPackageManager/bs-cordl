@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/DriveNotFoundException.hpp"
+// IWYU pragma private; include "System\IO\DriveNotFoundException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "System/IO/zzzz__DriveNotFoundException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::DriveNotFoundException::*)()>(&::System::IO::DriveNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5c02520;
+  constexpr static std::size_t addrs = 0x5c069dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::DriveNotFoundException*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::DriveNotFoundException::*)(::StringW)>(&::System::IO::DriveNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c02580;
+  constexpr static std::size_t addrs = 0x5c06a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::DriveNotFoundException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::IO::DriveNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c025a4;
+  constexpr static std::size_t addrs = 0x5c06a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

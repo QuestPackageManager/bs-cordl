@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WTauNafMultiplier.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\WTauNafMultiplier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier_WTauNafCallback* New_ctor(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
 
-  /// @brief Method Precompute, addr 0x350e430, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Precompute, addr 0x35121f0, size 0xec, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   constexpr int8_t const& __cordl_internal_get_m_a() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_m_p(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* value);
 
-  /// @brief Method .ctor, addr 0x350e3b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3512178, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
@@ -126,19 +126,19 @@ public:
   /// @brief Field PRECOMP_NAME, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_PRECOMP_NAME, put = setStaticF_PRECOMP_NAME)) ::StringW PRECOMP_NAME;
 
-  /// @brief Method MultiplyFromWTnaf, addr 0x350df6c, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method MultiplyFromWTnaf, addr 0x3511d2c, size 0x44c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromWTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::ArrayW<int8_t> u);
 
-  /// @brief Method MultiplyPositive, addr 0x350dc30, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x35119f0, size 0x1ec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* point, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method MultiplyWTnaf, addr 0x350de1c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method MultiplyWTnaf, addr 0x3511bdc, size 0x150, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyWTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t a,
                                                                         int8_t mu);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x350e42c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35121ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_PRECOMP_NAME();

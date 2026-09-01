@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/CodeAnalysis/DoesNotReturnAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\CodeAnalysis\DoesNotReturnAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Diagnostics::CodeAnalysis::DoesNotReturnAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5bdeb34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be2ff0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

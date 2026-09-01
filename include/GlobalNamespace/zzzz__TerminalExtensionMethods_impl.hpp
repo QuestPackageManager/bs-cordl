@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TerminalExtensionMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\TerminalExtensionMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TerminalExtensionMethods_def.hpp"
 #include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ConsoleMessage (*)(::StringW, ::UnityEngine::LogType)>(&::GlobalNamespace::TerminalExtensionMethods::ToConsoleMessage)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x32deab8;
+  constexpr static std::size_t addrs = 0x32e28b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalExtensionMethods*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::CommandNode* (*)(::GlobalNamespace::CommandNode*)>(&::GlobalNamespace::TerminalExtensionMethods::Duplicate)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x32e769c;
+  constexpr static std::size_t addrs = 0x32eb498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::CommandNode* (*)(::GlobalNamespace::ConsoleCommandBase*)>(
     &::GlobalNamespace::TerminalExtensionMethods::ConvertToCommandNode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x32e79dc;
+  constexpr static std::size_t addrs = 0x32eb7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalExtensionMethods*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::CommandNode* (*)(::GlobalNamespace::CommandNode*, ::ArrayW<::GlobalNamespace::ArgumentBase*>)>(
     &::GlobalNamespace::TerminalExtensionMethods::AddArguments)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x32e7a64;
+  constexpr static std::size_t addrs = 0x32eb860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

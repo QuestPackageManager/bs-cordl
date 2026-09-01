@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/SemaphoreFullException.hpp"
+// IWYU pragma private; include "System\Threading\SemaphoreFullException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Threading/zzzz__SemaphoreFullException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreFullException::*)()>(&::System::Threading::SemaphoreFullException::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5ca4a58;
+  constexpr static std::size_t addrs = 0x5ca8f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreFullException*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreFullException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Threading::SemaphoreFullException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca4aa8;
+  constexpr static std::size_t addrs = 0x5ca8f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

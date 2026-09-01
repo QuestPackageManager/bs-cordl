@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryMethodCall.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\BinaryMethodCall.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__MessageEnum_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Write)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5b541b8;
+  constexpr static std::size_t addrs = 0x5b58674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Dump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b542dc;
+  constexpr static std::size_t addrs = 0x5b58798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b542e0;
+  constexpr static std::size_t addrs = 0x5b5879c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

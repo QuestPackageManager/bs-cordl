@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/ProductDefinitionSO.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\ProductDefinitionSO.hpp"
 #include "OculusStudios/Platform/Core/zzzz__OwnershipRequirement_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__ProductDefinitionSO_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Core::ProductDefinitionSO::*)()>(&::OculusStudios::Platform::Core::ProductDefinitionSO::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f29f24;
+  constexpr static std::size_t addrs = 0x5f2e3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinitionSO*>(), { "get_id", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::AYellowpaper::SerializedCollections::SerializedDictionary_2<::OculusStudios::Platform::Core::Vendor, ::StringW>* (
     ::OculusStudios::Platform::Core::ProductDefinitionSO::*)()>(&::OculusStudios::Platform::Core::ProductDefinitionSO::get_idForVendor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f29f2c;
+  constexpr static std::size_t addrs = 0x5f2e3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinitionSO*>(), { "get_idForVendor", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::OculusStudios::Platform::Core::IProductDefinition*>* (
     ::OculusStudios::Platform::Core::ProductDefinitionSO::*)()>(&::OculusStudios::Platform::Core::ProductDefinitionSO::get_children)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f29f34;
+  constexpr static std::size_t addrs = 0x5f2e3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinitionSO*>(), { "get_children", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::OwnershipRequirement (::OculusStudios::Platform::Core::ProductDefinitionSO::*)()>(
     &::OculusStudios::Platform::Core::ProductDefinitionSO::get_ownershipRequirement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f29f3c;
+  constexpr static std::size_t addrs = 0x5f2e3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::ProductDefinitionSO::*)()>(&::OculusStudios::Platform::Core::ProductDefinitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f29f44;
+  constexpr static std::size_t addrs = 0x5f2e404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::ProductDefinitionSO*>(), { ".ctor", {}, {} })));

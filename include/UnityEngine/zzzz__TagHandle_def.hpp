@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TagHandle.hpp"
+// IWYU pragma private; include "UnityEngine\TagHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,13 +24,13 @@ namespace UnityEngine {
 struct CORDL_TYPE TagHandle {
 public:
   // Declarations
-  /// @brief Method TagToString, addr 0x6adf440, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method TagToString, addr 0x6ae6e58, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW TagToString(uint32_t tagIndex);
 
-  /// @brief Method TagToString_Injected, addr 0x6adf50c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TagToString_Injected, addr 0x6ae6f24, size 0x44, virtual false, abstract: false, final false
   static inline void TagToString_Injected(uint32_t tagIndex, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method ToString, addr 0x6adf438, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ae6e50, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr TagHandle(uint32_t _tagIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10367 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

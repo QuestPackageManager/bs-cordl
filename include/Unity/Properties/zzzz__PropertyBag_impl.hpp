@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/PropertyBag.hpp"
+// IWYU pragma private; include "Unity\Properties\PropertyBag.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/zzzz__PropertyBag_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (*)(::System::Type*)>(&::Unity::Properties::PropertyBag::GetPropertyBag)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b9a230;
+  constexpr static std::size_t addrs = 0x6ba1db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

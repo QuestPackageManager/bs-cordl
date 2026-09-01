@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/InstanceCullingBatcher.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\InstanceCullingBatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -144,71 +144,71 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BuildBatch, addr 0x68187b4, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method BuildBatch, addr 0x6820230, size 0x210, virtual false, abstract: false, final false
   inline void BuildBatch(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances, ::Unity::Collections::NativeArray_1<int32_t> usedMaterialIDs,
                          ::Unity::Collections::NativeArray_1<int32_t> usedMeshIDs, ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData, bool registerMaterialsAndMeshes);
 
-  /// @brief Method DestroyDrawInstances, addr 0x6817894, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DestroyDrawInstances, addr 0x681f310, size 0x1c, virtual false, abstract: false, final false
   inline void DestroyDrawInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method DestroyMaterials, addr 0x68178b0, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method DestroyMaterials, addr 0x681f32c, size 0x2b4, virtual false, abstract: false, final false
   inline void DestroyMaterials(::Unity::Collections::NativeArray_1<int32_t> destroyedMaterials);
 
-  /// @brief Method DestroyMeshes, addr 0x6817b64, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method DestroyMeshes, addr 0x681f5e0, size 0x1b0, virtual false, abstract: false, final false
   inline void DestroyMeshes(::Unity::Collections::NativeArray_1<int32_t> destroyedMeshes);
 
-  /// @brief Method Dispose, addr 0x6816fd4, size 0x2e8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x681ea50, size 0x2e8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetBatchID, addr 0x6816d98, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method GetBatchID, addr 0x681e814, size 0x23c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::BatchID GetBatchID(::UnityEngine::Rendering::InstanceComponentGroup componentsOverriden);
 
-  /// @brief Method GetCompactedVisibilityMasks, addr 0x68189e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetCompactedVisibilityMasks, addr 0x682045c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ParallelBitArray GetCompactedVisibilityMasks(bool syncCullingJobs);
 
-  /// @brief Method GetDrawInstanceData, addr 0x6817524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDrawInstanceData, addr 0x681efa0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CPUDrawInstanceData* GetDrawInstanceData();
 
-  /// @brief Method InstanceOccludersUpdated, addr 0x68189c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InstanceOccludersUpdated, addr 0x6820440, size 0x10, virtual false, abstract: false, final false
   inline void InstanceOccludersUpdated(int32_t viewInstanceID, int32_t subviewMask);
 
   static inline ::UnityEngine::Rendering::InstanceCullingBatcher* New_ctor(::UnityEngine::Rendering::RenderersBatchersContext* batcherContext,
                                                                            ::UnityEngine::Rendering::InstanceCullingBatcherDesc desc,
                                                                            ::UnityEngine::Rendering::BatchRendererGroup_OnFinishedCulling* onFinishedCulling);
 
-  /// @brief Method OnBeginCameraRendering, addr 0x6818afc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnBeginCameraRendering, addr 0x6820578, size 0x18, virtual false, abstract: false, final false
   inline void OnBeginCameraRendering(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnEndCameraRendering, addr 0x6818b14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnEndCameraRendering, addr 0x6820590, size 0x18, virtual false, abstract: false, final false
   inline void OnEndCameraRendering(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnEndContextRendering, addr 0x6818a48, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnEndContextRendering, addr 0x68204c4, size 0xb4, virtual false, abstract: false, final false
   inline void OnEndContextRendering();
 
-  /// @brief Method OnFinishedCulling, addr 0x6817888, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnFinishedCulling, addr 0x681f304, size 0xc, virtual false, abstract: false, final false
   inline void OnFinishedCulling(::System::IntPtr customCullingResult);
 
-  /// @brief Method OnPerformCulling, addr 0x681752c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method OnPerformCulling, addr 0x681efa8, size 0x35c, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle OnPerformCulling(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup, ::UnityEngine::Rendering::BatchCullingContext cc,
                                                    ::UnityEngine::Rendering::BatchCullingOutput cullingOutput, ::System::IntPtr userContext);
 
-  /// @brief Method PostCullBeginCameraRendering, addr 0x6817d14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PostCullBeginCameraRendering, addr 0x681f790, size 0x4, virtual false, abstract: false, final false
   inline void PostCullBeginCameraRendering(::UnityEngine::Rendering::RenderRequestBatcherContext context);
 
-  /// @brief Method RegisterBatchMaterials, addr 0x68181ac, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method RegisterBatchMaterials, addr 0x681fc28, size 0x510, virtual false, abstract: false, final false
   inline void RegisterBatchMaterials(::by_ref<::Unity::Collections::NativeArray_1<int32_t>> usedMaterialIDs);
 
-  /// @brief Method RegisterBatchMeshes, addr 0x6817d18, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method RegisterBatchMeshes, addr 0x681f794, size 0x494, virtual false, abstract: false, final false
   inline void RegisterBatchMeshes(::Unity::Collections::NativeArray_1<int32_t> meshIDs);
 
-  /// @brief Method SchedulePackedMaterialCacheUpdate, addr 0x68186bc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SchedulePackedMaterialCacheUpdate, addr 0x6820138, size 0xf8, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle SchedulePackedMaterialCacheUpdate(::Unity::Collections::NativeArray_1<int32_t> materialIDs,
                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> packedMaterialDatas);
 
-  /// @brief Method UpdateFrame, addr 0x68189d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrame, addr 0x6820450, size 0xc, virtual false, abstract: false, final false
   inline void UpdateFrame();
 
-  /// @brief Method UpdateInstanceDataBufferLayoutVersion, addr 0x68172bc, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceDataBufferLayoutVersion, addr 0x681ed38, size 0x268, virtual false, abstract: false, final false
   inline void UpdateInstanceDataBufferLayoutVersion();
 
   constexpr ::UnityEngine::Rendering::BatchRendererGroup* const& __cordl_internal_get_m_BRG() const;
@@ -271,17 +271,17 @@ public:
 
   constexpr void __cordl_internal_set_m_PackedMaterialHash(::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> value);
 
-  /// @brief Method .ctor, addr 0x6816a80, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681e4fc, size 0x318, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderersBatchersContext* batcherContext, ::UnityEngine::Rendering::InstanceCullingBatcherDesc desc,
                     ::UnityEngine::Rendering::BatchRendererGroup_OnFinishedCulling* onFinishedCulling);
 
-  /// @brief Method get_batchMaterialHash, addr 0x6816a68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_batchMaterialHash, addr 0x681e4e4, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::BatchMaterialID> get_batchMaterialHash();
 
-  /// @brief Method get_culler, addr 0x68141d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_culler, addr 0x681bc50, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::InstanceCuller> get_culler();
 
-  /// @brief Method get_packedMaterialHash, addr 0x6816a74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_packedMaterialHash, addr 0x681e4f0, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUDrivenPackedMaterialData> get_packedMaterialHash();
 
   /// @brief Convert to "::System::IDisposable"
@@ -302,7 +302,7 @@ public:
   InstanceCullingBatcher(InstanceCullingBatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17676 };
 
   /// @brief Field m_BatchersContext, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::RenderersBatchersContext* ___m_BatchersContext;

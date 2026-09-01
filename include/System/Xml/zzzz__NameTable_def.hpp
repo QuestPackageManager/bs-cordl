@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/NameTable.hpp"
+// IWYU pragma private; include "System\Xml\NameTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62c6c9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ce718, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW str, int32_t hashCode, ::System::Xml::NameTable_Entry* next);
 
 protected:
@@ -78,7 +78,7 @@ public:
   NameTable_Entry(NameTable_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9420 };
 
   /// @brief Field str, offset: 0x10, size: 0x8, def value: None
   ::StringW ___str;
@@ -122,27 +122,27 @@ public:
   /// @brief Field mask, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_mask, put = __cordl_internal_set_mask)) int32_t mask;
 
-  /// @brief Method Add, addr 0x62c683c, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x62ce2b8, size 0x154, virtual true, abstract: false, final false
   inline ::StringW Add(::ArrayW<char16_t> key, int32_t start, int32_t len);
 
-  /// @brief Method Add, addr 0x62c65d8, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x62ce054, size 0x160, virtual true, abstract: false, final false
   inline ::StringW Add(::StringW key);
 
-  /// @brief Method AddEntry, addr 0x62c6738, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddEntry, addr 0x62ce1b4, size 0x104, virtual false, abstract: false, final false
   inline ::StringW AddEntry(::StringW str, int32_t hashCode);
 
-  /// @brief Method Get, addr 0x62c6b7c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x62ce5f8, size 0x120, virtual true, abstract: false, final false
   inline ::StringW Get(::ArrayW<char16_t> key, int32_t start, int32_t len);
 
-  /// @brief Method Get, addr 0x62c6a40, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x62ce4bc, size 0x13c, virtual true, abstract: false, final false
   inline ::StringW Get(::StringW value);
 
-  /// @brief Method Grow, addr 0x62c6cac, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x62ce728, size 0x12c, virtual false, abstract: false, final false
   inline void Grow();
 
   static inline ::System::Xml::NameTable* New_ctor();
 
-  /// @brief Method TextEquals, addr 0x62c6990, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TextEquals, addr 0x62ce40c, size 0xb0, virtual false, abstract: false, final false
   static inline bool TextEquals(::StringW str1, ::ArrayW<char16_t> str2, int32_t str2Start, int32_t str2Length);
 
   constexpr int32_t const& __cordl_internal_get_count() const;
@@ -169,7 +169,7 @@ public:
 
   constexpr void __cordl_internal_set_mask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x62c6574, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62cdff0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -187,7 +187,7 @@ public:
   NameTable(NameTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9421 };
 
   /// @brief Field entries, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Xml::NameTable_Entry*> ___entries;

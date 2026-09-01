@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/GetFromGameObjectComponentProvider.hpp"
+// IWYU pragma private; include "Zenject\GetFromGameObjectComponentProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__GetFromGameObjectComponentProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::GetFromGameObjectComponentProvider::*)(::System::Type*, ::UnityEngine::GameObject*, bool)>(
     &::Zenject::GetFromGameObjectComponentProvider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e7e680;
+  constexpr static std::size_t addrs = 0x6e86204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::GetFromGameObjectComponentProvider::*)()>(&::Zenject::GetFromGameObjectComponentProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7e68c;
+  constexpr static std::size_t addrs = 0x6e86210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::GetFromGameObjectComponentProvider*>(), { "get_IsCached", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::GetFromGameObjectComponentProvider::*)()>(&::Zenject::GetFromGameObjectComponentProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7e694;
+  constexpr static std::size_t addrs = 0x6e86218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::GetFromGameObjectComponentProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::GetFromGameObjectComponentProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7e69c;
+  constexpr static std::size_t addrs = 0x6e86220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::GetFromG
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::by_ref<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::GetFromGameObjectComponentProvider::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6e7e6a4;
+  constexpr static std::size_t addrs = 0x6e86228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

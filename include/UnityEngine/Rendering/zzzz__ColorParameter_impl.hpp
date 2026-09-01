@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ColorParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ColorParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ColorParameter_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ColorParameter::*)(::UnityEngine::Color, bool)>(&::UnityEngine::Rendering::ColorParameter::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67c56ac;
+  constexpr static std::size_t addrs = 0x67cd128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ColorParameter::*)(::UnityEngine::Color, bool, bool, bool, bool)>(
     &::UnityEngine::Rendering::ColorParameter::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x67c5738;
+  constexpr static std::size_t addrs = 0x67cd1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ColorParameter::*)(::UnityEngine::Color, ::UnityEngine::Color, float_t)>(
     &::UnityEngine::Rendering::ColorParameter::Interp)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x67c5804;
+  constexpr static std::size_t addrs = 0x67cd280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

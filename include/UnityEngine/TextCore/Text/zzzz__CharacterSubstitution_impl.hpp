@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/CharacterSubstitution.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\CharacterSubstitution.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__CharacterSubstitution_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::CharacterSubstitution._ctor
 template <>
@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::CharacterSubstitution::*)(int32_t, uint32_t)>(
     &::UnityEngine::TextCore::Text::CharacterSubstitution::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bffde4;
+  constexpr static std::size_t addrs = 0x6c07968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

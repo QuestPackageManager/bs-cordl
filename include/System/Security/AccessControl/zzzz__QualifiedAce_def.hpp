@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/QualifiedAce.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\QualifiedAce.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,14 +39,14 @@ public:
   /// @brief Field opaque, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_opaque, put = __cordl_internal_set_opaque)) ::ArrayW<uint8_t> opaque;
 
-  /// @brief Method GetOpaque, addr 0x5b18df4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetOpaque, addr 0x5b1d2b0, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetOpaque();
 
   static inline ::System::Security::AccessControl::QualifiedAce* New_ctor(::ArrayW<uint8_t> binaryForm, int32_t offset);
 
   static inline ::System::Security::AccessControl::QualifiedAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque);
 
-  /// @brief Method SetOpaque, addr 0x5b18b5c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetOpaque, addr 0x5b1d018, size 0x9c, virtual false, abstract: false, final false
   inline void SetOpaque(::ArrayW<uint8_t> opaque);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_opaque() const;
@@ -55,19 +55,19 @@ public:
 
   constexpr void __cordl_internal_set_opaque(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x5b18aa8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1cf64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x5b1888c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1cd48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags, ::ArrayW<uint8_t> opaque);
 
-  /// @brief Method get_AceQualifier, addr 0x5b19898, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_AceQualifier, addr 0x5b1dd54, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AceQualifier get_AceQualifier();
 
-  /// @brief Method get_IsCallback, addr 0x5b1a0e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsCallback, addr 0x5b1e5a0, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsCallback();
 
-  /// @brief Method get_OpaqueLength, addr 0x5b18c30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_OpaqueLength, addr 0x5b1d0ec, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_OpaqueLength();
 
 protected:

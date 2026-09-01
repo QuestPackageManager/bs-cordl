@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ILightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace\ILightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,6 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE ILightWithId {
 public:
   // Declarations
+  __declspec(property(get = get_elementId)) int32_t elementId;
+
+  __declspec(property(get = get_groupId)) int32_t groupId;
+
   __declspec(property(get = get_isRegistered)) bool isRegistered;
 
   __declspec(property(get = get_lightId)) int32_t lightId;
@@ -35,6 +39,12 @@ public:
   /// @brief Method __SetIsUnRegistered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void __SetIsUnRegistered();
 
+  /// @brief Method get_elementId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_elementId();
+
+  /// @brief Method get_groupId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_groupId();
+
   /// @brief Method get_isRegistered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isRegistered();
 
@@ -46,7 +56,7 @@ public:
   ILightWithId(ILightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19528 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PageControlElement.hpp"
+// IWYU pragma private; include "GlobalNamespace\PageControlElement.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PageControlElement_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::GlobalNamespace::PageControlElement::*)()>(
     &::GlobalNamespace::PageControlElement::get_rectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596b61c;
+  constexpr static std::size_t addrs = 0x596ef14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PageControlElement*>(), { "get_rectTransform", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PageControlElement::*)(bool)>(&::GlobalNamespace::PageControlElement::SetSelected)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x596b4b4;
+  constexpr static std::size_t addrs = 0x596edac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PageControlElement::*)()>(&::GlobalNamespace::PageControlElement::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x596b624;
+  constexpr static std::size_t addrs = 0x596ef1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PageControlElement*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioHelpers.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,10 +20,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE AudioHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DBToNormalizedVolume, addr 0x331de60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DBToNormalizedVolume, addr 0x3321c20, size 0x18, virtual false, abstract: false, final false
   static inline float_t DBToNormalizedVolume(float_t db);
 
-  /// @brief Method NormalizedVolumeToDB, addr 0x331dddc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method NormalizedVolumeToDB, addr 0x3321b9c, size 0x84, virtual false, abstract: false, final false
   static inline float_t NormalizedVolumeToDB(float_t normalizedVolume);
 
 protected:
@@ -41,7 +41,7 @@ public:
   AudioHelpers(AudioHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

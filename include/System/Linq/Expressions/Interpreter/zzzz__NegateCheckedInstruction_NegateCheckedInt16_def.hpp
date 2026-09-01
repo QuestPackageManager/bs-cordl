@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NegateCheckedInstruction_NegateCheckedInt16.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NegateCheckedInstruction_NegateCheckedInt16.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x5faf4d0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fb6f4c, size 0xbc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5faf404, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb6e80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   NegateCheckedInstruction_NegateCheckedInt16(NegateCheckedInstruction_NegateCheckedInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16512 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

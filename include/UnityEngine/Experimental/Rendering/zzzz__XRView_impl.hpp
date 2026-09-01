@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XRView.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XRView.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::XRView::*)(
     ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, bool, ::UnityEngine::Rect, ::UnityEngine::Mesh*, int32_t)>(&::UnityEngine::Experimental::Rendering::XRView::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6744d30;
+  constexpr static std::size_t addrs = 0x674c7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Matrix4x4)>(&::UnityEngine::Experimental::Rendering::XRView::ComputeEyeCenterUV)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6744f88;
+  constexpr static std::size_t addrs = 0x674ca04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

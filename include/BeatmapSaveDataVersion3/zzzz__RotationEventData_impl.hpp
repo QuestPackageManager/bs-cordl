@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/RotationEventData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\RotationEventData.hpp"
 #include "BeatmapSaveDataCommon/zzzz__ExecutionTime_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveDataItem_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__RotationEventData_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::ExecutionTime (::BeatmapSaveDataVersion3::RotationEventData::*)()>(
     &::BeatmapSaveDataVersion3::RotationEventData::get_executionTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37599f8;
+  constexpr static std::size_t addrs = 0x375f664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::RotationEventData*>(), { "get_executionTime", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::RotationEventData::*)()>(&::BeatmapSaveDataVersion3::RotationEventData::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759a00;
+  constexpr static std::size_t addrs = 0x375f66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::RotationEventData*>(), { "get_rotation", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::RotationEventData::*)(float_t, ::BeatmapSaveDataCommon::ExecutionTime, float_t)>(
     &::BeatmapSaveDataVersion3::RotationEventData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3759a08;
+  constexpr static std::size_t addrs = 0x375f674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

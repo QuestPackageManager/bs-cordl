@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Messaging/ServerObjectTerminatorSink.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Messaging\ServerObjectTerminatorSink.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x5b46b3c, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x5b4aff8, size 0x1cc, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
-  /// @brief Method SyncProcessMessage, addr 0x5b469bc, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x5b4ae78, size 0x180, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* const& __cordl_internal_get__nextSink() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__nextSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x5b469b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4ae70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"

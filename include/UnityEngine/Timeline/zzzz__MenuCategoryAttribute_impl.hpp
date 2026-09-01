@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/MenuCategoryAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\MenuCategoryAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__MenuCategoryAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::MenuCategoryAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::MenuCategoryAttribute::*)(::StringW)>(&::UnityEngine::Timeline::MenuCategoryAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69c39e4;
+  constexpr static std::size_t addrs = 0x69cb460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

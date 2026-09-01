@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs12Store.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkcs\Pkcs12Store.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Store_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__EncryptedPrivateKeyInfo_def.hpp"
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x35b5888;
+  constexpr static std::size_t addrs = 0x35b9648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b58b8;
+  constexpr static std::size_t addrs = 0x35b9678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b58c0;
+  constexpr static std::size_t addrs = 0x35b9680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId*>(), { "get_Id", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId::GetHashCode)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x35b58c8;
+  constexpr static std::size_t addrs = 0x35b9688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId::*)(::System::Object*)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store_CertId::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x35b5928;
+  constexpr static std::size_t addrs = 0x35b96e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::Clear)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x35b5a08;
+  constexpr static std::size_t addrs = 0x35b97c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable*>(), { "Clear", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::GetEnumerator)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x35b5b14;
+  constexpr static std::size_t addrs = 0x35b98d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::get_Keys)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x35b5bbc;
+  constexpr static std::size_t addrs = 0x35b997c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable*>(), { "get_Keys", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::*)(::StringW)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::Remove)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x35b5c64;
+  constexpr static std::size_t addrs = 0x35b9a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::*)(::StringW)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::get_Item)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x35b5ebc;
+  constexpr static std::size_t addrs = 0x35b9c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::*)(::StringW, ::System::Object*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::set_Item)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x35b6040;
+  constexpr static std::size_t addrs = 0x35b9e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable*>(),
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::get_Values)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x35b629c;
+  constexpr static std::size_t addrs = 0x35ba05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable*>(), { "get_Values", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::get_Count)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x35b6344;
+  constexpr static std::size_t addrs = 0x35ba104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable*>(), { "get_Count", {}, {} })));
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35b63ec;
+  constexpr static std::size_t addrs = 0x35ba1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store_IgnoresCaseHashtable*>(), { ".ctor", {}, {} })));
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* (*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store::CreateSubjectKeyID)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x35ad15c;
+  constexpr static std::size_t addrs = 0x35b0f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store*>(),
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35ad1d4;
+  constexpr static std::size_t addrs = 0x35b0f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*,
     bool)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x35ad2c8;
+  constexpr static std::size_t addrs = 0x35b1088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35ad3cc;
+  constexpr static std::size_t addrs = 0x35b118c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store*>(), { ".ctor", {}, {} })));
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::System::IO::Stream*, ::ArrayW<char16_t>)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x35ad438;
+  constexpr static std::size_t addrs = 0x35b11f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store*>(),
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, ::Org::BouncyCastle::Asn1::Asn1Set*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store::LoadKeyBag)> {
   constexpr static std::size_t size = 0x86c;
-  constexpr static std::size_t addrs = 0x35aedc0;
+  constexpr static std::size_t addrs = 0x35b2b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*, ::Org::BouncyCastle::Asn1::Asn1Set*,
                                                                                                         ::ArrayW<char16_t>, bool)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::LoadPkcs8ShroudedKeyBag)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x35af62c;
+  constexpr static std::size_t addrs = 0x35b33ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::System::IO::Stream*, ::ArrayW<char16_t>)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::Load)> {
   constexpr static std::size_t size = 0x1958;
-  constexpr static std::size_t addrs = 0x35ad468;
+  constexpr static std::size_t addrs = 0x35b1228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store*>(),
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::StringW)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store::GetKey)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x35afa5c;
+  constexpr static std::size_t addrs = 0x35b381c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::StringW)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::IsCertificateEntry)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x35afb44;
+  constexpr static std::size_t addrs = 0x35b3904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::StringW)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::IsKeyEntry)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35afbe0;
+  constexpr static std::size_t addrs = 0x35b39a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -488,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionary* (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::GetAliasesTable)> {
   constexpr static std::size_t size = 0x710;
-  constexpr static std::size_t addrs = 0x35afc54;
+  constexpr static std::size_t addrs = 0x35b3a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store*>(), { "GetAliasesTable", {}, {} })));
@@ -500,7 +500,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::get_Aliases)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x35b0364;
+  constexpr static std::size_t addrs = 0x35b4124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store*>(), { "get_Aliases", {}, {} })));
@@ -512,7 +512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::StringW)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::ContainsAlias)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x35b0454;
+  constexpr static std::size_t addrs = 0x35b4214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Pkcs::X509CertificateEntry* (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::StringW)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store::GetCertificate)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x35b04ac;
+  constexpr static std::size_t addrs = 0x35b426c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store::GetCertificateAlias)> {
   constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x35b0700;
+  constexpr static std::size_t addrs = 0x35b44c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store*>(),
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Pkcs::X509CertificateEntry*> (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::StringW)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store::GetCertificateChain)> {
   constexpr static std::size_t size = 0xa9c;
-  constexpr static std::size_t addrs = 0x35b0de0;
+  constexpr static std::size_t addrs = 0x35b4ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::StringW, ::Org::BouncyCastle::Pkcs::X509CertificateEntry*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store::SetCertificateEntry)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x35b187c;
+  constexpr static std::size_t addrs = 0x35b563c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -583,7 +583,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(
     ::StringW, ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*, ::ArrayW<::Org::BouncyCastle::Pkcs::X509CertificateEntry*>)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::SetKeyEntry)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x35b1a98;
+  constexpr static std::size_t addrs = 0x35b5858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -600,7 +600,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::StringW)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::DeleteEntry)> {
   constexpr static std::size_t size = 0x560;
-  constexpr static std::size_t addrs = 0x35b1d1c;
+  constexpr static std::size_t addrs = 0x35b5adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -613,7 +613,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::StringW, ::System::Type*)>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::IsEntryOfType)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x35b227c;
+  constexpr static std::size_t addrs = 0x35b603c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -627,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::Size)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35b2380;
+  constexpr static std::size_t addrs = 0x35b6140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store*>(), { "Size", {}, {} })));
@@ -639,7 +639,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)()>(&::Org::BouncyCastle::Pkcs::Pkcs12Store::get_Count)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x35b2384;
+  constexpr static std::size_t addrs = 0x35b6144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store*>(), { "get_Count", {}, {} })));
@@ -652,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Store::*)(::System::IO::Stream*, ::ArrayW<char16_t>, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store::Save)> {
   constexpr static std::size_t size = 0x3454;
-  constexpr static std::size_t addrs = 0x35b2434;
+  constexpr static std::size_t addrs = 0x35b61f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::ArrayW<uint8_t>, int32_t, ::ArrayW<char16_t>, bool, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store::CalculatePbeMac)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x35af678;
+  constexpr static std::size_t addrs = 0x35b3438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -686,7 +686,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(bool, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::ArrayW<char16_t>, bool, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Store::CryptPbeData)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x35af808;
+  constexpr static std::size_t addrs = 0x35b35c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs12Store*>(),

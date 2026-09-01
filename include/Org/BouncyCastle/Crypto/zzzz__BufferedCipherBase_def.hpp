@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/BufferedCipherBase.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\BufferedCipherBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,19 +39,19 @@ public:
   /// @brief Method DoFinal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DoFinal();
 
-  /// @brief Method DoFinal, addr 0x33f42a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x33f8060, size 0x24, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input);
 
   /// @brief Method DoFinal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal, addr 0x33f43a4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x33f8164, size 0x5c, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0x33f4378, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x33f8138, size 0x2c, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0x33f42c4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x33f8084, size 0xb4, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff);
 
   /// @brief Method GetBlockSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -71,25 +71,25 @@ public:
   /// @brief Method ProcessByte, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessByte(uint8_t input);
 
-  /// @brief Method ProcessByte, addr 0x33f40f0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x33f7eb0, size 0xb0, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x33f41a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x33f7f60, size 0x24, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessBytes(::ArrayW<uint8_t> input);
 
   /// @brief Method ProcessBytes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessBytes(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
-  /// @brief Method ProcessBytes, addr 0x33f41f0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x33f7fb0, size 0xb0, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x33f41c4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x33f7f84, size 0x2c, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output, int32_t outOff);
 
   /// @brief Method Reset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method .ctor, addr 0x33f4470, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f8230, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t> getStaticF_EmptyBuffer();

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeDilationSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeDilationSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +24,10 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ProbeDilationSettings {
 public:
   // Declarations
-  /// @brief Method SetDefaults, addr 0x678a258, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetDefaults, addr 0x6791cd4, size 0x20, virtual false, abstract: false, final false
   inline void SetDefaults();
 
-  /// @brief Method UpgradeFromTo, addr 0x678a278, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpgradeFromTo, addr 0x6791cf4, size 0x4, virtual false, abstract: false, final false
   inline void UpgradeFromTo(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion from, ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion to);
 
   // Ctor Parameters []
@@ -40,7 +40,7 @@ public:
   constexpr ProbeDilationSettings(bool enableDilation, float_t dilationDistance, float_t dilationValidityThreshold, int32_t dilationIterations, bool squaredDistWeighting) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12128 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

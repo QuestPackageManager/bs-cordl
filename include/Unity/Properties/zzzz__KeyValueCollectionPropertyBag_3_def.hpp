@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/KeyValueCollectionPropertyBag_3.hpp"
+// IWYU pragma private; include "Unity\Properties\KeyValueCollectionPropertyBag_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -175,7 +175,7 @@ public:
   KeyValueCollectionPropertyBag_3_KeyValuePairProperty(KeyValueCollectionPropertyBag_3_KeyValuePairProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19657 };
 
   /// @brief Field <Key>k__BackingField, offset: 0x18, size: 0x8, def value: None
   TKey ____Key_k__BackingField;
@@ -298,7 +298,7 @@ public:
   Enumerable_KeyValueCollectionPropertyBag_3_Enumerator(Enumerable_KeyValueCollectionPropertyBag_3_Enumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19658 };
 
   /// @brief Field m_Dictionary, offset: 0x10, size: 0x8, def value: None
   TDictionary ___m_Dictionary;
@@ -362,7 +362,7 @@ public:
                                                        ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* m_Property) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19659 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -479,7 +479,7 @@ public:
   KeyValueCollectionPropertyBag_3(KeyValueCollectionPropertyBag_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19660 };
 
   /// @brief Field m_KeyValuePairProperty, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::KeyValueCollectionPropertyBag_3_KeyValuePairProperty<TDictionary, TKey, TValue>* ___m_KeyValuePairProperty;

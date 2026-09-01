@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RasterGraphContext.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RasterGraphContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,15 +44,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*();
 
-  /// @brief Method FromInternalContext, addr 0x67d42e0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method FromInternalContext, addr 0x67dbd5c, size 0xa4, virtual true, abstract: false, final true
   inline void FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* context);
 
   static inline ::UnityEngine::Rendering::RasterCommandBuffer* getStaticF_rastercmd();
 
-  /// @brief Method get_defaultResources, addr 0x67d42b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultResources, addr 0x67dbd2c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* get_defaultResources();
 
-  /// @brief Method get_renderGraphPool, addr 0x67d42c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderGraphPool, addr 0x67dbd44, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* get_renderGraphPool();
 
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
@@ -69,7 +69,7 @@ public:
   constexpr RasterGraphContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* wrappedContext, ::UnityEngine::Rendering::RasterCommandBuffer* cmd) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12412 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

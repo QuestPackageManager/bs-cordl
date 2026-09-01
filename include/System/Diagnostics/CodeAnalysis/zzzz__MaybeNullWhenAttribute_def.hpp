@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/CodeAnalysis/MaybeNullWhenAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\CodeAnalysis\MaybeNullWhenAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__ReturnValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5bdeb24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be2fe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool returnValue);
 
 protected:

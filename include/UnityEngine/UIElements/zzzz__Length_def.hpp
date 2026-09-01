@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Length.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Length.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,64 +140,64 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Length>*();
 
-  /// @brief Method Auto, addr 0x6c896e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x6c91268, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length Auto();
 
-  /// @brief Method Equals, addr 0x6c897f8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c9137c, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c897d4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c91358, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Length other);
 
-  /// @brief Method GetHashCode, addr 0x6c86b28, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c8e6ac, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsAuto, addr 0x6c89750, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAuto, addr 0x6c912d4, size 0x10, virtual false, abstract: false, final false
   inline bool IsAuto();
 
-  /// @brief Method IsNone, addr 0x6c89760, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNone, addr 0x6c912e4, size 0x10, virtual false, abstract: false, final false
   inline bool IsNone();
 
-  /// @brief Method None, addr 0x6c89710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x6c91294, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length None();
 
-  /// @brief Method Percent, addr 0x6c8969c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Percent, addr 0x6c91220, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length Percent(float_t value);
 
-  /// @brief Method ToString, addr 0x6c8988c, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c91410, size 0x1cc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c89770, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c912f4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x6c896c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c91244, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::LengthUnit unit);
 
-  /// @brief Method .ctor, addr 0x6c896ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c91270, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::Length_Unit unit);
 
-  /// @brief Method get_unit, addr 0x6c89740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unit, addr 0x6c912c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::LengthUnit get_unit();
 
-  /// @brief Method get_value, addr 0x6c89718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6c9129c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Length>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Length>* i___System__IEquatable_1___UnityEngine__UIElements__Length_();
 
-  /// @brief Method op_Equality, addr 0x6c86764, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c8e2e8, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs);
 
-  /// @brief Method op_Implicit, addr 0x6c89794, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c91318, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length op_Implicit___UnityEngine__UIElements__Length(float_t value);
 
-  /// @brief Method op_Inequality, addr 0x6c897b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6c91338, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Length lhs, ::UnityEngine::UIElements::Length rhs);
 
-  /// @brief Method set_unit, addr 0x6c89748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unit, addr 0x6c912cc, size 0x8, virtual false, abstract: false, final false
   inline void set_unit(::UnityEngine::UIElements::LengthUnit value);
 
-  /// @brief Method set_value, addr 0x6c89720, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x6c912a4, size 0x20, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
   // Ctor Parameters []
@@ -250,12 +250,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c89c44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c917c8, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::by_ref<::UnityEngine::UIElements::Length> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Length_ValueProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c89c4c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c917d0, size 0x20, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Length> container, float_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -270,13 +270,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c89b6c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c916f0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c89c3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c917c0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c89c34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c917b8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -329,12 +329,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c89c7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c91800, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::LengthUnit GetValue(::by_ref<::UnityEngine::UIElements::Length> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Length_UnitProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c89c84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c91808, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Length> container, ::UnityEngine::UIElements::LengthUnit value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -349,13 +349,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c89bd0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c91754, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c89c74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c917f8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c89c6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c917f0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -404,7 +404,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Length_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c89a58, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c915dc, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

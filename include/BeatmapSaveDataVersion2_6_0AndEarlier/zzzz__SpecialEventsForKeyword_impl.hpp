@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/SpecialEventsForKeyword.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier\SpecialEventsForKeyword.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__SpecialEventsForKeyword_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__BeatmapEventType_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375a0e8;
+  constexpr static std::size_t addrs = 0x375fd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword::get_specialEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375a0f0;
+  constexpr static std::size_t addrs = 0x375fd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword::*)(
     ::StringW, ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>*)>(&::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375a0f8;
+  constexpr static std::size_t addrs = 0x375fd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

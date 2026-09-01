@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/LowLevel/PlayerLoopSystem.hpp"
+// IWYU pragma private; include "UnityEngine\LowLevel\PlayerLoopSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,12 +40,12 @@ namespace UnityEngine::LowLevel {
 class CORDL_TYPE PlayerLoopSystem_UpdateFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6af9aa4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6b014bc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6af9a3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b01454, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -63,7 +63,7 @@ public:
   PlayerLoopSystem_UpdateFunction(PlayerLoopSystem_UpdateFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -80,7 +80,7 @@ public:
   // Declarations
   using UpdateFunction = ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction;
 
-  /// @brief Method ToString, addr 0x6af9a20, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b01438, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -94,7 +94,7 @@ public:
                              ::System::IntPtr updateFunction, ::System::IntPtr loopConditionFunction) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10495 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

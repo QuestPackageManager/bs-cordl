@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GeometryTools.hpp"
+// IWYU pragma private; include "GlobalNamespace\GeometryTools.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,11 +27,11 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GeometryTools* New_ctor();
 
-  /// @brief Method ThreePointsToBox, addr 0x3321808, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method ThreePointsToBox, addr 0x33255c8, size 0x4a4, virtual false, abstract: false, final false
   static inline bool ThreePointsToBox(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::by_ref<::UnityEngine::Vector3> center,
                                       ::by_ref<::UnityEngine::Vector3> halfSize, ::by_ref<::UnityEngine::Quaternion> orientation);
 
-  /// @brief Method .ctor, addr 0x3321cac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3325a6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   GeometryTools(GeometryTools const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

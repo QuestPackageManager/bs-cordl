@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet/FreeCallback.hpp"
+// IWYU pragma private; include "ENet\FreeCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,18 +31,18 @@ namespace ENet {
 class CORDL_TYPE FreeCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5891cb8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5891680, size 0x54, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr memory, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5891d0c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x58916d4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5891ca4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x589166c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IntPtr memory);
 
   static inline ::ENet::FreeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5891c38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5891600, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,7 +60,7 @@ public:
   FreeCallback(FreeCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

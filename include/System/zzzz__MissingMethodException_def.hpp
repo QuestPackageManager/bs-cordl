@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/MissingMethodException.hpp"
+// IWYU pragma private; include "System\MissingMethodException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,19 +36,19 @@ public:
 
   static inline ::System::MissingMethodException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5c46b28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c4afe4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c46bac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c4b068, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW methodName);
 
-  /// @brief Method .ctor, addr 0x5c46bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c4b094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c46b88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c4b044, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x5c46be0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5c4b09c, size 0xf0, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

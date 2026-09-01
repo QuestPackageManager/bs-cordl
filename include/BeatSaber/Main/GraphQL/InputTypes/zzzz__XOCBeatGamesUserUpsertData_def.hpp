@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/GraphQL/InputTypes/XOCBeatGamesUserUpsertData.hpp"
+// IWYU pragma private; include "BeatSaber\Main\GraphQL\InputTypes\XOCBeatGamesUserUpsertData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId*() noexcept;
 
-  /// @brief Method GetParams, addr 0x329df80, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetParams, addr 0x32a1d7c, size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* GetParams();
 
   static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData* New_ctor();
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__params(::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x329df8c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a1d88, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesUserUpsertData"
@@ -90,16 +90,16 @@ public:
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLInputSupportsClientMutationId* i___OculusStudios__GraphQL__ClientInterface__IGraphQLInputSupportsClientMutationId() noexcept;
 
-  /// @brief Method set_ClientMutationId, addr 0x329dd28, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method set_ClientMutationId, addr 0x32a1b24, size 0x80, virtual true, abstract: false, final true
   inline void set_ClientMutationId(::StringW value);
 
-  /// @brief Method set_CountryCode, addr 0x329dda8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method set_CountryCode, addr 0x32a1ba4, size 0xac, virtual true, abstract: false, final true
   inline void set_CountryCode(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::ISOCountryCode> value);
 
-  /// @brief Method set_Locale, addr 0x329de54, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method set_Locale, addr 0x32a1c50, size 0x80, virtual true, abstract: false, final true
   inline void set_Locale(::StringW value);
 
-  /// @brief Method set_TimezoneId, addr 0x329ded4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method set_TimezoneId, addr 0x32a1cd0, size 0xac, virtual true, abstract: false, final true
   inline void set_TimezoneId(::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum> value);
 
 protected:
@@ -117,7 +117,7 @@ public:
   XOCBeatGamesUserUpsertData(XOCBeatGamesUserUpsertData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20583 };
 
   /// @brief Field _params, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedDictionary_2<::StringW, ::System::Object*>* ____params;

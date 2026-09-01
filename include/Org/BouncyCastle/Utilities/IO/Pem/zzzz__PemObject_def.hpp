@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemObject.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\IO\Pem\PemObject.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept;
 
-  /// @brief Method Generate, addr 0x362bd94, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x362fb54, size 0x4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* New_ctor(::StringW type, ::ArrayW<uint8_t> content);
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x362bc7c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362fa3c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::ArrayW<uint8_t> content);
 
-  /// @brief Method .ctor, addr 0x362bcf8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362fab8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::System::Collections::IList* headers, ::ArrayW<uint8_t> content);
 
-  /// @brief Method get_Content, addr 0x362bd8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x362fb4c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Content();
 
-  /// @brief Method get_Headers, addr 0x362bd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x362fb44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Headers();
 
-  /// @brief Method get_Type, addr 0x362bd7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x362fb3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"

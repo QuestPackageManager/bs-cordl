@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/AuthenticatedSafe.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\AuthenticatedSafe.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,20 +39,20 @@ public:
   /// @brief Field isBer, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_isBer, put = __cordl_internal_set_isBer)) bool isBer;
 
-  /// @brief Method Copy, addr 0x345bf94, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x345fd54, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> Copy(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> info);
 
-  /// @brief Method GetContentInfo, addr 0x345c2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetContentInfo, addr 0x346007c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> GetContentInfo();
 
-  /// @brief Method GetInstance, addr 0x345c00c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x345fdcc, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> info);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x345c2c4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3460084, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> const& __cordl_internal_get_info() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_isBer(bool value);
 
-  /// @brief Method .ctor, addr 0x345c298, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3460058, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*> info);
 
-  /// @brief Method .ctor, addr 0x345c0ac, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345fe6c, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/RsaPublicBcpgKey.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\RsaPublicBcpgKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,10 +52,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Method Encode, addr 0x369b68c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x369f44c, size 0xd8, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x369b604, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x369f3c4, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -74,19 +74,19 @@ public:
 
   constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  /// @brief Method .ctor, addr 0x369b180, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369ef40, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x369b50c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369f2cc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method get_Format, addr 0x369b5c0, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x369f380, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method get_Modulus, addr 0x369b5a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x369f368, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_PublicExponent, addr 0x369b590, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PublicExponent, addr 0x369f350, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"

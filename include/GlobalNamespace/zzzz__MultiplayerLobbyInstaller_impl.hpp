@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarController_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyInstaller::*)()>(&::GlobalNamespace::MultiplayerLobbyInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x59f65bc;
+  constexpr static std::size_t addrs = 0x59fe694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyInstaller::*)()>(&::GlobalNamespace::MultiplayerLobbyInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59f66c8;
+  constexpr static std::size_t addrs = 0x59fe7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyInstaller*>(), { ".ctor", {}, {} })));

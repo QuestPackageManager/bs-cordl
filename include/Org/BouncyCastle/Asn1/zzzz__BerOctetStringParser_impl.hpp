@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerOctetStringParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerOctetStringParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerOctetStringParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetStringParser::*)(::Org::BouncyCastle::Asn1::Asn1StreamParser*)>(
     &::Org::BouncyCastle::Asn1::BerOctetStringParser::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3680008;
+  constexpr static std::size_t addrs = 0x3683dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::BerOctetStringParser::*)()>(
     &::Org::BouncyCastle::Asn1::BerOctetStringParser::GetOctetStream)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3686eb8;
+  constexpr static std::size_t addrs = 0x368ac78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerOctetStringParser*>(), { "GetOctetStream", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::BerOctetStringParser::*)()>(
     &::Org::BouncyCastle::Asn1::BerOctetStringParser::ToAsn1Object)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3680010;
+  constexpr static std::size_t addrs = 0x3683dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerOctetStringParser*>(), { "ToAsn1Object", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpEncryptedData.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpEncryptedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,18 +48,18 @@ public:
   /// @brief Field lookAhead, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_lookAhead, put = __cordl_internal_set_lookAhead)) ::ArrayW<uint8_t> lookAhead;
 
-  /// @brief Method FillBuffer, addr 0x357bb84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FillBuffer, addr 0x357f944, size 0x58, virtual false, abstract: false, final false
   inline int32_t FillBuffer();
 
-  /// @brief Method GetLookAhead, addr 0x357ba38, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLookAhead, addr 0x357f7f8, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetLookAhead();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData_TruncatedStream* New_ctor(::System::IO::Stream* inStr);
 
-  /// @brief Method Read, addr 0x357bc40, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x357fa00, size 0xb8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
-  /// @brief Method ReadByte, addr 0x357bbdc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x357f99c, size 0x64, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
   constexpr int32_t const& __cordl_internal_get_bufEnd() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_lookAhead(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x357bab0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357f870, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStr);
 
 protected:
@@ -159,15 +159,15 @@ public:
   /// @brief Field truncStream, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_truncStream, put = __cordl_internal_set_truncStream)) ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData_TruncatedStream* truncStream;
 
-  /// @brief Method GetInputStream, addr 0x357b748, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x357f508, size 0x18, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method IsIntegrityProtected, addr 0x357b760, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsIntegrityProtected, addr 0x357f520, size 0x80, virtual false, abstract: false, final false
   inline bool IsIntegrityProtected();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* New_ctor(::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
 
-  /// @brief Method Verify, addr 0x357b7e0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x357f5a0, size 0x258, virtual false, abstract: false, final false
   inline bool Verify();
 
   constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket* const& __cordl_internal_get_encData() const;
@@ -188,7 +188,7 @@ public:
 
   constexpr void __cordl_internal_set_truncStream(::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData_TruncatedStream* value);
 
-  /// @brief Method .ctor, addr 0x357b740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357f500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
 
 protected:

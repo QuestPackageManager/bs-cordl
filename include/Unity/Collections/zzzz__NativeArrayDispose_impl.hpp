@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/NativeArrayDispose.hpp"
+// IWYU pragma private; include "Unity\Collections\NativeArrayDispose.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::NativeArrayDispose.Dispose
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::NativeArrayDispose::*)()>(&::Unity::Collections::NativeArrayDispose::Dispose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a581b0;
+  constexpr static std::size_t addrs = 0x6a5fc2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::NativeArrayDispose>(), { "Dispose", {}, {} })));

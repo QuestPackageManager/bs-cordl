@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/MonoLinqHelper.hpp"
+// IWYU pragma private; include "System\IO\MonoLinqHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__MonoLinqHelper_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

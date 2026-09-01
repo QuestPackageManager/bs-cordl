@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/InstanceOcclusionEventStats.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\InstanceOcclusionEventStats.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceOcclusionEventType_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__OcclusionTest_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__InstanceOcclusionEventStats_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarShadowController.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarShadowController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,15 +56,15 @@ public:
   /// @brief Field _transform, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method FollowPosition, addr 0x3268b8c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FollowPosition, addr 0x326c3f0, size 0xe4, virtual false, abstract: false, final false
   inline void FollowPosition(::UnityEngine::Vector3 followPosition);
 
   static inline ::BeatSaber::AvatarCore::AvatarShadowController* New_ctor();
 
-  /// @brief Method Start, addr 0x3268ac4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x326c328, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3268ae0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x326c344, size 0xac, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3268c70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326c4d4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
   AvatarShadowController(AvatarShadowController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21644 };
 
   /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;

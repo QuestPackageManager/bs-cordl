@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/AddingNewEventHandler.hpp"
+// IWYU pragma private; include "System\ComponentModel\AddingNewEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +28,12 @@ namespace System::ComponentModel {
 class CORDL_TYPE AddingNewEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x63ad664, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x63b50e0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::AddingNewEventArgs* e);
 
   static inline ::System::ComponentModel::AddingNewEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x63ad51c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b4f98, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -51,7 +51,7 @@ public:
   AddingNewEventHandler(AddingNewEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11235 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

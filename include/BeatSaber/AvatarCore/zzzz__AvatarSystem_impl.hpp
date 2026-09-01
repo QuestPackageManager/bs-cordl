@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarSystem.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\AvatarSystem.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystem_def.hpp"
@@ -14,6 +14,7 @@
 #include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystem._ctor
 template <>
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystem::*)(
     ::BeatSaber::AvatarCore::AvatarSystemIdentifier, bool, bool, int32_t, ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*)>(&::BeatSaber::AvatarCore::AvatarSystem::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3268c7c;
+  constexpr static std::size_t addrs = 0x326c4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,13 +34,39 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Avatar
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystem.add_avatarDidChangeEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystem::*)(::System::Action*)>(&::BeatSaber::AvatarCore::AvatarSystem::add_avatarDidChangeEvent)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x326c4f8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "add_avatarDidChangeEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystem.remove_avatarDidChangeEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystem::*)(::System::Action*)>(&::BeatSaber::AvatarCore::AvatarSystem::remove_avatarDidChangeEvent)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x326c5a4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "remove_avatarDidChangeEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystem.get_typeIdentifier
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::AvatarCore::AvatarSystemIdentifier (::BeatSaber::AvatarCore::AvatarSystem::*)()>(
     &::BeatSaber::AvatarCore::AvatarSystem::get_typeIdentifier)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3268c94;
+  constexpr static std::size_t addrs = 0x326c650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "get_typeIdentifier", {}, {} })));
@@ -51,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::AvatarCore::AvatarSystem::*)()>(&::BeatSaber::AvatarCore::AvatarSystem::get_selectableByUser)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3268ca0;
+  constexpr static std::size_t addrs = 0x326c65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "get_selectableByUser", {}, {} })));
@@ -63,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::AvatarCore::AvatarSystem::*)()>(&::BeatSaber::AvatarCore::AvatarSystem::get_isFallbackSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3268ca8;
+  constexpr static std::size_t addrs = 0x326c664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "get_isFallbackSystem", {}, {} })));
@@ -75,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatSaber::AvatarCore::AvatarSystem::*)()>(&::BeatSaber::AvatarCore::AvatarSystem::get_selectionSortOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3268cb0;
+  constexpr static std::size_t addrs = 0x326c66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "get_selectionSortOrder", {}, {} })));
@@ -88,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* (::BeatSaber::AvatarCore::AvatarSystem::*)()>(
     &::BeatSaber::AvatarCore::AvatarSystem::get_supportedOptionalAvatarDataTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3268cb8;
+  constexpr static std::size_t addrs = 0x326c674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +133,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 18 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 20 }));
     return ___internal_method;
   }
 };
@@ -120,7 +147,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 19 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 21 }));
     return ___internal_method;
   }
 };
@@ -134,7 +161,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 20 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 22 }));
     return ___internal_method;
   }
 };
@@ -148,7 +175,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 21 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 23 }));
     return ___internal_method;
   }
 };
@@ -162,7 +189,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 22 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 24 }));
     return ___internal_method;
   }
 };
@@ -176,7 +203,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::AvatarCore::
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 23 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 25 }));
     return ___internal_method;
   }
 };
@@ -190,7 +217,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 24 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 26 }));
     return ___internal_method;
   }
 };
@@ -204,7 +231,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 25 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 27 }));
     return ___internal_method;
   }
 };
@@ -217,10 +244,34 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Avatar
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 26 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 28 }));
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::BeatSaber::AvatarCore::AvatarSystem.RaiseAvatarDidChangeEvent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystem::*)()>(&::BeatSaber::AvatarCore::AvatarSystem::RaiseAvatarDidChangeEvent)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x326c67c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "RaiseAvatarDidChangeEvent", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Action*& BeatSaber::AvatarCore::AvatarSystem::__cordl_internal_get_avatarDidChangeEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___avatarDidChangeEvent;
+}
+constexpr ::System::Action* const& BeatSaber::AvatarCore::AvatarSystem::__cordl_internal_get_avatarDidChangeEvent() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___avatarDidChangeEvent;
+}
+constexpr void BeatSaber::AvatarCore::AvatarSystem::__cordl_internal_set_avatarDidChangeEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___avatarDidChangeEvent = value;
+}
 constexpr ::BeatSaber::AvatarCore::AvatarSystemIdentifier& BeatSaber::AvatarCore::AvatarSystem::__cordl_internal_get__typeIdentifier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeIdentifier;
@@ -291,6 +342,16 @@ inline void BeatSaber::AvatarCore::AvatarSystem::_ctor(::BeatSaber::AvatarCore::
                                                                ::i2c::type_of<int32_t>(), ::i2c::type_of<::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, identifier, isFallbackSystem, selectableByUser, selectionSortOrder, supportedOptionalAvatarDataTypes);
 }
+inline void BeatSaber::AvatarCore::AvatarSystem::add_avatarDidChangeEvent(::System::Action* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "add_avatarDidChangeEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline void BeatSaber::AvatarCore::AvatarSystem::remove_avatarDidChangeEvent(::System::Action* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "remove_avatarDidChangeEvent", {}, { ::i2c::type_of<::System::Action*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
 inline ::BeatSaber::AvatarCore::AvatarSystemIdentifier BeatSaber::AvatarCore::AvatarSystem::get_typeIdentifier() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "get_typeIdentifier", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::AvatarCore::AvatarSystemIdentifier>(this, ___internal_method);
@@ -313,42 +374,46 @@ inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* BeatSabe
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task_1<bool>* BeatSaber::AvatarCore::AvatarSystem::get_avatarCreated() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 18 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 20 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>*
 BeatSaber::AvatarCore::AvatarSystem::InstantiateAvatar(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext, int32_t levelOfDetail, ::Zenject::DiContainer* container) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 19 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 21 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>*>(this, ___internal_method, avatarDisplayContext, levelOfDetail, container);
 }
 inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>*
 BeatSaber::AvatarCore::AvatarSystem::InstantiateAvatarEditorUI(::Zenject::DiContainer* container) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 20 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 22 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>*>(this, ___internal_method, container);
 }
 inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>>*
 BeatSaber::AvatarCore::AvatarSystem::InstantiateAvatarSelectionView(::Zenject::DiContainer* container) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 21 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 23 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>>*>(this, ___internal_method, container);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* BeatSaber::AvatarCore::AvatarSystem::GetMultiplayerAvatarsData() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 22 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 24 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>*>(this, ___internal_method);
 }
 inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* BeatSaber::AvatarCore::AvatarSystem::GetMultiplayerAvatarOptionalDataProvider() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 23 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 25 })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task_1<bool>* BeatSaber::AvatarCore::AvatarSystem::CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 24 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 26 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* BeatSaber::AvatarCore::AvatarSystem::__GetRandomizedMultiplayerAvatarsData() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 25 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 27 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>*>(this, ___internal_method);
 }
 inline void BeatSaber::AvatarCore::AvatarSystem::DeleteUserCreatedAvatar() {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 26 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), 28 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void BeatSaber::AvatarCore::AvatarSystem::RaiseAvatarDidChangeEvent() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarSystem*>(), { "RaiseAvatarDidChangeEvent", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::BeatSaber::AvatarCore::AvatarSystem* BeatSaber::AvatarCore::AvatarSystem::New_ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser,

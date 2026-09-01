@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/InheritedData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\InheritedData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,19 +50,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*();
 
-  /// @brief Method Copy, addr 0x6c864c4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x6c8e048, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::InheritedData Copy();
 
-  /// @brief Method CopyFrom, addr 0x6c864d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x6c8e058, size 0x8, virtual true, abstract: false, final true
   inline void CopyFrom(::by_ref<::UnityEngine::UIElements::InheritedData> other);
 
-  /// @brief Method Equals, addr 0x6c867d0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c8e354, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c86784, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c8e308, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::InheritedData other);
 
-  /// @brief Method GetHashCode, addr 0x6c86874, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c8e3f8, size 0x2b4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
@@ -71,7 +71,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__InheritedData_();
 
-  /// @brief Method op_Equality, addr 0x6c864dc, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c8e060, size 0x288, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::InheritedData lhs, ::UnityEngine::UIElements::InheritedData rhs);
 
   // Ctor Parameters []

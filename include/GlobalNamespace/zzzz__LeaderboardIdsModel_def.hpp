@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LeaderboardIdsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\LeaderboardIdsModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::LeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
 
-  /// @brief Method TryGetPlatformLeaderboardId, addr 0x3751490, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TryGetPlatformLeaderboardId, addr 0x37570b4, size 0x7c, virtual false, abstract: false, final false
   inline bool TryGetPlatformLeaderboardId(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::by_ref<::StringW> platformLeaderboardId);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* const& __cordl_internal_get__leaderboardIds() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3750eac, size 0x5e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3756ad0, size 0x5e4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
 
 protected:
@@ -64,7 +64,7 @@ public:
   LeaderboardIdsModel(LeaderboardIdsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15277 };
 
   /// @brief Field _leaderboardIds, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ____leaderboardIds;

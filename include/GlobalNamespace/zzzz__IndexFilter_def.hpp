@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IndexFilter.hpp"
+// IWYU pragma private; include "GlobalNamespace\IndexFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,7 +118,7 @@ public:
   static ::GlobalNamespace::IndexFilter_IndexFilterRandomType const RandomElements;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14925 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -177,7 +177,7 @@ public:
   static ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14926 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -240,22 +240,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x37138a8, size 0x4a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x371972c, size 0x4a8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::IndexFilter__GetEnumerator_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current, addr 0x3713e04, size 0x10, virtual true,
+  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current, addr 0x3719c88, size 0x10, virtual true,
   /// abstract: false, final true
   inline ::System::ValueTuple_3<int32_t, int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3713e14, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3719c98, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3713e4c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3719cd0, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x371388c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3719710, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -306,10 +306,10 @@ public:
 
   constexpr void __cordl_internal_set__localChunkIndex_5__6(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x3713d50, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x3719bd4, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x37137f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3719674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
@@ -337,7 +337,7 @@ public:
   IndexFilter__GetEnumerator_d__23(IndexFilter__GetEnumerator_d__23 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14927 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -429,27 +429,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3713eb8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3719d3c, size 0x80, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::IndexFilter__GetValues_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x3713f9c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x3719e20, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x3713f38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x3719dbc, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3714034, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3719eb8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3713f40, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3719dc4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3713f78, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3719dfc, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3713eb4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3719d38, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -488,7 +488,7 @@ public:
 
   constexpr void __cordl_internal_set__value_5__2(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3713868, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37196ec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
@@ -521,7 +521,7 @@ public:
   IndexFilter__GetValues_d__24(IndexFilter__GetValues_d__24 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14928 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -621,10 +621,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x37111c4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3717048, size 0x54, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>* GetEnumerator();
 
-  /// @brief Method GetValues, addr 0x37137f8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetValues, addr 0x371967c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetValues();
 
   static inline ::GlobalNamespace::IndexFilter* New_ctor(int32_t start, int32_t end, int32_t groupSize, ::GlobalNamespace::IndexFilter_IndexFilterRandomType random, int32_t seed, int32_t chunkSize,
@@ -633,7 +633,7 @@ public:
   static inline ::GlobalNamespace::IndexFilter* New_ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, ::GlobalNamespace::IndexFilter_IndexFilterRandomType random, int32_t seed,
                                                          int32_t chunkSize, float_t limit, ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3713888, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x371970c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr int32_t const& __cordl_internal_get__chunkSize() const;
@@ -690,27 +690,27 @@ public:
 
   constexpr void __cordl_internal_set__visibleCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3713714, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3719598, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end, int32_t groupSize, ::GlobalNamespace::IndexFilter_IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit,
                     ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method .ctor, addr 0x371365c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37194e0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, ::GlobalNamespace::IndexFilter_IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit,
                     ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method get_Count, addr 0x3713638, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x37194bc, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_VisibleCount, addr 0x3713640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VisibleCount, addr 0x37194c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_VisibleCount();
 
-  /// @brief Method get_limitAlsoAffectType, addr 0x3713648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limitAlsoAffectType, addr 0x37194cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType get_limitAlsoAffectType();
 
-  /// @brief Method get_limitsDistribution, addr 0x3710990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_limitsDistribution, addr 0x3716814, size 0xc, virtual false, abstract: false, final false
   inline bool get_limitsDistribution();
 
-  /// @brief Method get_limitsDuration, addr 0x3713650, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_limitsDuration, addr 0x37194d4, size 0xc, virtual false, abstract: false, final false
   inline bool get_limitsDuration();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
@@ -739,7 +739,7 @@ public:
   IndexFilter(IndexFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14929 };
 
   /// @brief Field _random, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::IndexFilter_IndexFilterRandomType ____random;

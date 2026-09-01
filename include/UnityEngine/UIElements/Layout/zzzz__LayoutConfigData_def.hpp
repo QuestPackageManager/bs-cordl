@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutConfigData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutConfigData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,7 @@ namespace UnityEngine::UIElements::Layout {
 struct CORDL_TYPE LayoutConfigData {
 public:
   // Declarations
-  /// @brief Method get_Default, addr 0x6cf749c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6cff020, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutConfigData get_Default();
 
   // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRMesh.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRMesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
   OVRMesh_IOVRMeshDataProvider(OVRMesh_IOVRMeshDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,7 +108,7 @@ public:
   static ::GlobalNamespace::OVRMesh_MeshType const XRHandRight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7927 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -154,24 +154,24 @@ public:
   /// @brief Field _meshType, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__meshType, put = __cordl_internal_set__meshType)) ::GlobalNamespace::OVRMesh_MeshType _meshType;
 
-  /// @brief Method Awake, addr 0x5efc97c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5f00e38, size 0x110, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetMeshType, addr 0x5efc96c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMeshType, addr 0x5f00e28, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMesh_MeshType GetMeshType();
 
-  /// @brief Method Initialize, addr 0x5efcab4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5f00f70, size 0xc0, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::OVRMesh_MeshType meshType);
 
   static inline ::GlobalNamespace::OVRMesh* New_ctor();
 
-  /// @brief Method SetMeshType, addr 0x5efc974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMeshType, addr 0x5f00e30, size 0x8, virtual false, abstract: false, final false
   inline void SetMeshType(::GlobalNamespace::OVRMesh_MeshType type);
 
-  /// @brief Method ShouldInitialize, addr 0x5efca8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x5f00f48, size 0x28, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method TransformOvrpMesh, addr 0x5efcb74, size 0xa58, virtual false, abstract: false, final false
+  /// @brief Method TransformOvrpMesh, addr 0x5f01030, size 0xa58, virtual false, abstract: false, final false
   inline void TransformOvrpMesh(::GlobalNamespace::OVRPlugin_Mesh* ovrpMesh, ::UnityEngine::Mesh* mesh);
 
   constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
@@ -204,16 +204,16 @@ public:
 
   constexpr void __cordl_internal_set__meshType(::GlobalNamespace::OVRMesh_MeshType value);
 
-  /// @brief Method .ctor, addr 0x5efd5cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f01a88, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x5efc954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x5f00e10, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_Mesh, addr 0x5efc964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mesh, addr 0x5f00e20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_Mesh();
 
-  /// @brief Method set_IsInitialized, addr 0x5efc95c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x5f00e18, size 0x8, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
 protected:
@@ -231,7 +231,7 @@ public:
   OVRMesh(OVRMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7928 };
 
   /// @brief Field _dataProvider, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::OVRMesh_IOVRMeshDataProvider* ____dataProvider;

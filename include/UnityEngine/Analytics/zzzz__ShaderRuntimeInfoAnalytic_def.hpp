@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Analytics/ShaderRuntimeInfoAnalytic.hpp"
+// IWYU pragma private; include "UnityEngine\Analytics\ShaderRuntimeInfoAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,7 +77,7 @@ public:
   /// @brief Field VariantsWarmupTimeTotal, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_VariantsWarmupTimeTotal, put = __cordl_internal_set_VariantsWarmupTimeTotal)) int32_t VariantsWarmupTimeTotal;
 
-  /// @brief Method CreateShaderRuntimeInfoAnalytic, addr 0x6b00240, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateShaderRuntimeInfoAnalytic, addr 0x6b07c58, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic* CreateShaderRuntimeInfoAnalytic();
 
   static inline ::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic* New_ctor();
@@ -196,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set_VariantsWarmupTimeTotal(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6b001ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b07bc4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -214,7 +214,7 @@ public:
   ShaderRuntimeInfoAnalytic(ShaderRuntimeInfoAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10668 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10697 };
 
   /// @brief Field VariantsRequested, offset: 0x30, size: 0x8, def value: None
   int64_t ___VariantsRequested;

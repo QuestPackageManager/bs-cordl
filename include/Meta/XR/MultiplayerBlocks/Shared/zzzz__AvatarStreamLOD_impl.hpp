@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/AvatarStreamLOD.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\AvatarStreamLOD.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__AvatarStreamLOD_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Meta::XR::MultiplayerBlocks::Shared::AvatarStreamLOD::AvatarStreamLOD(int32_t value__) noexcept {

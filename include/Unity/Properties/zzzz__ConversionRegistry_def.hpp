@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/ConversionRegistry.hpp"
+// IWYU pragma private; include "Unity\Properties\ConversionRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,15 +52,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry_ConverterKey>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry_ConverterKey>*() noexcept;
 
-  /// @brief Method Equals, addr 0x6b9a878, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ba23fc, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Properties::ConversionRegistry_ConverterKey x, ::Unity::Properties::ConversionRegistry_ConverterKey y);
 
-  /// @brief Method GetHashCode, addr 0x6b9a8e0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x6ba2464, size 0x80, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::Unity::Properties::ConversionRegistry_ConverterKey obj);
 
   static inline ::Unity::Properties::ConversionRegistry_ConverterKeyComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6b9a874, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba23f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry_ConverterKey>"
@@ -82,7 +82,7 @@ public:
   ConversionRegistry_ConverterKeyComparer(ConversionRegistry_ConverterKeyComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19690 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -97,7 +97,7 @@ namespace Unity::Properties {
 struct CORDL_TYPE ConversionRegistry_ConverterKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6b9a6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba223c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* source, ::System::Type* destination);
 
   // Ctor Parameters []
@@ -109,7 +109,7 @@ public:
   constexpr ConversionRegistry_ConverterKey(::System::Type* SourceType, ::System::Type* DestinationType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19691 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -147,25 +147,25 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConversionRegistry>*();
 
-  /// @brief Method Create, addr 0x6b9a514, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6ba2098, size 0xcc, virtual false, abstract: false, final false
   static inline ::Unity::Properties::ConversionRegistry Create();
 
-  /// @brief Method Equals, addr 0x6b9a7dc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ba2360, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Properties::ConversionRegistry x, ::Unity::Properties::ConversionRegistry y);
 
-  /// @brief Method GetConverter, addr 0x6b9a6c0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x6ba2244, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Delegate* GetConverter(::System::Type* source, ::System::Type* destination);
 
-  /// @brief Method GetHashCode, addr 0x6b9a7e8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x6ba236c, size 0x20, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::Unity::Properties::ConversionRegistry obj);
 
-  /// @brief Method Register, addr 0x6b9a5e0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6ba2164, size 0xd8, virtual false, abstract: false, final false
   inline void Register(::System::Type* source, ::System::Type* destination, ::System::Delegate* converter);
 
-  /// @brief Method TryGetConverter, addr 0x6b9a74c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetConverter, addr 0x6ba22d0, size 0x90, virtual false, abstract: false, final false
   inline bool TryGetConverter(::System::Type* source, ::System::Type* destination, ::by_ref<::System::Delegate*> converter);
 
-  /// @brief Method .ctor, addr 0x6b9a50c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba2090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConversionRegistry_ConverterKey, ::System::Delegate*>* storage);
 
   static inline ::Unity::Properties::ConversionRegistry_ConverterKeyComparer* getStaticF_Comparer();
@@ -185,7 +185,7 @@ public:
   constexpr ConversionRegistry(::System::Collections::Generic::Dictionary_2<::Unity::Properties::ConversionRegistry_ConverterKey, ::System::Delegate*>* m_Converters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19692 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/TextSpan.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\TextSpan.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_impl.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::TextSpan::*)()>(&::UnityEngine::TextCore::TextSpan::ToString)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x6bba65c;
+  constexpr static std::size_t addrs = 0x6bc21e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

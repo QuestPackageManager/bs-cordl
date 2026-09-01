@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PackedPlayModeBuildLogs.hpp"
+// IWYU pragma private; include "GlobalNamespace\PackedPlayModeBuildLogs.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LogType_impl.hpp"
 #include "GlobalNamespace/zzzz__PackedPlayModeBuildLogs_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog::*)(::UnityEngine::LogType, ::StringW)>(
     &::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64425bc;
+  constexpr static std::size_t addrs = 0x644a038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog>* (
     ::GlobalNamespace::PackedPlayModeBuildLogs::*)()>(&::GlobalNamespace::PackedPlayModeBuildLogs::get_RuntimeBuildLogs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6442538;
+  constexpr static std::size_t addrs = 0x6449fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackedPlayModeBuildLogs*>(), { "get_RuntimeBuildLogs", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackedPlayModeBuildLogs::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog>*)>(&::GlobalNamespace::PackedPlayModeBuildLogs::set_RuntimeBuildLogs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6442540;
+  constexpr static std::size_t addrs = 0x6449fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackedPlayModeBuildLogs::*)()>(&::GlobalNamespace::PackedPlayModeBuildLogs::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6442548;
+  constexpr static std::size_t addrs = 0x6449fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackedPlayModeBuildLogs*>(), { ".ctor", {}, {} })));

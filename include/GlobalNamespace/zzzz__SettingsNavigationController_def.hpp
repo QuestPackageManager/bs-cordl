@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SettingsNavigationController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SettingsNavigationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   static ::GlobalNamespace::SettingsNavigationController_FinishAction const Ok;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6473 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -109,21 +109,21 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x5a1a57c, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a22670, size 0x1c0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleFinishButton, addr 0x5a1a73c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleFinishButton, addr 0x5a22830, size 0x1c, virtual false, abstract: false, final false
   inline void HandleFinishButton(::GlobalNamespace::SettingsNavigationController_FinishAction finishAction);
 
   static inline ::GlobalNamespace::SettingsNavigationController* New_ctor();
 
-  /// @brief Method <DidActivate>b__7_0, addr 0x5a1a764, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_0, addr 0x5a22858, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
-  /// @brief Method <DidActivate>b__7_1, addr 0x5a1a784, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_1, addr 0x5a22878, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
-  /// @brief Method <DidActivate>b__7_2, addr 0x5a1a7a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_2, addr 0x5a22898, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__applyButton() const;
@@ -150,13 +150,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* value);
 
-  /// @brief Method .ctor, addr 0x5a1a758, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2284c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x5a1a3fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5a224f0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x5a1a4bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5a225b0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* value);
 
 protected:
@@ -174,7 +174,7 @@ public:
   SettingsNavigationController(SettingsNavigationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6474 };
 
   /// @brief Field _okButton, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;

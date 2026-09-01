@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/LogHelper.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\LogHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__LogHelper_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGLib::UnityExtension::LogHelper::LogBuildOnly)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3325158;
+  constexpr static std::size_t addrs = 0x3328f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::Object*)>(&::BGLib::UnityExtension::LogHelper::LogBuildOnly)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x33251b4;
+  constexpr static std::size_t addrs = 0x3328f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/LinuxNetworkInterface.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\LinuxNetworkInterface.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__LinuxNetworkInterface_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<bool>)>(&::System::Net::NetworkInformation::LinuxNetworkInterface::unitydroid_get_network_interface_up_state)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x634dd80;
+  constexpr static std::size_t addrs = 0x63557fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(
     &::System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x634dd84;
+  constexpr static std::size_t addrs = 0x6355800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::LinuxNetworkInterface*>(), { "get_IfacePath", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::LinuxNetworkInterface::*)(::StringW)>(
     &::System::Net::NetworkInformation::LinuxNetworkInterface::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x634dc98;
+  constexpr static std::size_t addrs = 0x6355714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::IPInterfaceProperties* (::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(
     &::System::Net::NetworkInformation::LinuxNetworkInterface::GetIPProperties)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x634dd8c;
+  constexpr static std::size_t addrs = 0x6355808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::LinuxNetworkInterface*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::OperationalStatus (::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(
     &::System::Net::NetworkInformation::LinuxNetworkInterface::get_OperationalStatus)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x634ddfc;
+  constexpr static std::size_t addrs = 0x6355878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::LinuxNetworkInterface*>(),
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x634e140;
+  constexpr static std::size_t addrs = 0x6355bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

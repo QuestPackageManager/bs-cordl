@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PrepareLevelCompletionResults.hpp"
+// IWYU pragma private; include "GlobalNamespace\PrepareLevelCompletionResults.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +86,7 @@ public:
   /// @brief Field _scoreController, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController)) ::GlobalNamespace::IScoreController* _scoreController;
 
-  /// @brief Method FillLevelCompletionResults, addr 0x59e4468, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method FillLevelCompletionResults, addr 0x59ec6d4, size 0x2d4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResults* FillLevelCompletionResults(::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType,
                                                                                ::GlobalNamespace::LevelCompletionResults_LevelEndAction levelEndAction);
 
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x59e476c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ec9d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -164,7 +164,7 @@ public:
   PrepareLevelCompletionResults(PrepareLevelCompletionResults const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6208 };
 
   /// @brief Field _gameplayModifiersModelSO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModelSO;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/LeaderboardEntryList.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\LeaderboardEntryList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalCount(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x5dec16c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df0628, size 0x21c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -55,7 +55,7 @@ public:
   LeaderboardEntryList(LeaderboardEntryList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18059 };
 
   /// @brief Field TotalCount, offset: 0x28, size: 0x8, def value: None
   uint64_t ___TotalCount;

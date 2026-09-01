@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/Design/Serialization/InstanceDescriptor.hpp"
+// IWYU pragma private; include "System\ComponentModel\Design\Serialization\InstanceDescriptor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/Design/Serialization/zzzz__InstanceDescriptor_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)(
     ::System::Reflection::MemberInfo*, ::System::Collections::ICollection*)>(&::System::ComponentModel::Design::Serialization::InstanceDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e490c;
+  constexpr static std::size_t addrs = 0x63ec388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)(
     ::System::Reflection::MemberInfo*, ::System::Collections::ICollection*, bool)>(&::System::ComponentModel::Design::Serialization::InstanceDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x63e4914;
+  constexpr static std::size_t addrs = 0x63ec390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)()>(
     &::System::ComponentModel::Design::Serialization::InstanceDescriptor::get_Arguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e4e48;
+  constexpr static std::size_t addrs = 0x63ec8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MemberInfo* (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)()>(
     &::System::ComponentModel::Design::Serialization::InstanceDescriptor::get_MemberInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e4e50;
+  constexpr static std::size_t addrs = 0x63ec8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)()>(
     &::System::ComponentModel::Design::Serialization::InstanceDescriptor::Invoke)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x63e4e58;
+  constexpr static std::size_t addrs = 0x63ec8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

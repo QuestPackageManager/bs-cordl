@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPackInfo.hpp"
+// IWYU pragma private; include "UnityEngine\Android\AndroidAssetPackInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
   /// @brief Field <transferProgress>k__BackingField, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__transferProgress_k__BackingField, put = __cordl_internal_set__transferProgress_k__BackingField)) float_t _transferProgress_k__BackingField;
 
-  /// @brief Method DownloadInProgress, addr 0x6a2b790, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DownloadInProgress, addr 0x6a3320c, size 0x1c, virtual false, abstract: false, final false
   static inline bool DownloadInProgress(::UnityEngine::Android::AndroidAssetPackStatus status);
 
   static inline ::UnityEngine::Android::AndroidAssetPackInfo* New_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded,
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__transferProgress_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x6a2b778, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a331f4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress,
                     ::UnityEngine::Android::AndroidAssetPackError error);
 
@@ -109,7 +109,7 @@ public:
   AndroidAssetPackInfo(AndroidAssetPackInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20167 };
 
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;

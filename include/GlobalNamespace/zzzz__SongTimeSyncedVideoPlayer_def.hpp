@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SongTimeSyncedVideoPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace\SongTimeSyncedVideoPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,21 +89,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5902e24, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5906424, size 0x21c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5903040, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5906640, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5903048, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5906648, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5903080, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5906680, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5902e20, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5906420, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> value);
 
-  /// @brief Method .ctor, addr 0x5902c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5906204, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -151,7 +151,7 @@ public:
   SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20(SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6675 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -183,22 +183,22 @@ public:
   // Declarations
   using _WaitForDependenciesAndPlay_d__20 = ::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20;
 
-  /// @brief Field _audioTimeSource, offset 0x48, size 0x8
+  /// @brief Field _audioTimeSource, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-  /// @brief Field _color, offset 0x5c, size 0x10
+  /// @brief Field _color, offset 0x64, size 0x10
   __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
 
   /// @brief Field _colorId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__colorId, put = setStaticF__colorId)) int32_t _colorId;
 
-  /// @brief Field _environmentContext, offset 0x58, size 0x4
+  /// @brief Field _environmentContext, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__environmentContext, put = __cordl_internal_set__environmentContext)) ::GlobalNamespace::EnvironmentContext _environmentContext;
 
-  /// @brief Field _gamePause, offset 0x50, size 0x8
+  /// @brief Field _gamePause, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause)) ::GlobalNamespace::IGamePause* _gamePause;
 
-  /// @brief Field _materialPropertyBlockController, offset 0x40, size 0x8
+  /// @brief Field _materialPropertyBlockController, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
                       put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       _materialPropertyBlockController;
@@ -209,49 +209,49 @@ public:
   /// @brief Field _textureStId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__textureStId, put = setStaticF__textureStId)) int32_t _textureStId;
 
-  /// @brief Field _videoPlayer, offset 0x38, size 0x8
+  /// @brief Field _videoPlayer, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__videoPlayer, put = __cordl_internal_set__videoPlayer)) ::UnityW<::UnityEngine::Video::VideoPlayer> _videoPlayer;
 
-  /// @brief Field _waitForDependenciesAndPlayCoroutine, offset 0x70, size 0x8
+  /// @brief Field _waitForDependenciesAndPlayCoroutine, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__waitForDependenciesAndPlayCoroutine,
                       put = __cordl_internal_set__waitForDependenciesAndPlayCoroutine)) ::UnityEngine::Coroutine* _waitForDependenciesAndPlayCoroutine;
 
-  /// @brief Method ColorWasSet, addr 0x5902890, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x5905e88, size 0x8, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method HandleGamePauseDidPause, addr 0x5902bdc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidPause, addr 0x59061d4, size 0x18, virtual false, abstract: false, final false
   inline void HandleGamePauseDidPause();
 
-  /// @brief Method HandleGamePauseDidResume, addr 0x5902bf4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidResume, addr 0x59061ec, size 0x18, virtual false, abstract: false, final false
   inline void HandleGamePauseDidResume();
 
-  /// @brief Method LateUpdate, addr 0x59027f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5905dec, size 0x9c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SongTimeSyncedVideoPlayer* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x590233c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5905934, size 0x1dc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetSpriteAndStopVideo, addr 0x59029e0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method SetSpriteAndStopVideo, addr 0x5905fd8, size 0x1fc, virtual false, abstract: false, final false
   inline void SetSpriteAndStopVideo(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method SetVideoClip, addr 0x5902898, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SetVideoClip, addr 0x5905e90, size 0x148, virtual false, abstract: false, final false
   inline void SetVideoClip(::UnityEngine::Video::VideoClip* videoClip);
 
-  /// @brief Method Start, addr 0x59020d8, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x59056d0, size 0x210, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopVideoPlayer, addr 0x5902518, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method StopVideoPlayer, addr 0x5905b10, size 0xd4, virtual false, abstract: false, final false
   inline void StopVideoPlayer();
 
-  /// @brief Method Update, addr 0x59025ec, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5905be4, size 0x208, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method WaitForDependenciesAndPlay, addr 0x59022e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method WaitForDependenciesAndPlay, addr 0x59058e0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitForDependenciesAndPlay();
 
-  /// @brief Method <WaitForDependenciesAndPlay>b__20_0, addr 0x5902d00, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method <WaitForDependenciesAndPlay>b__20_0, addr 0x5906300, size 0x120, virtual false, abstract: false, final false
   inline bool _WaitForDependenciesAndPlay_b__20_0();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -296,7 +296,7 @@ public:
 
   constexpr void __cordl_internal_set__waitForDependenciesAndPlayCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method .ctor, addr 0x5902c14, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590620c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorId();
@@ -326,46 +326,46 @@ public:
   SongTimeSyncedVideoPlayer(SongTimeSyncedVideoPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6676 };
 
-  /// @brief Field _videoPlayer, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _videoPlayer, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Video::VideoPlayer> ____videoPlayer;
 
-  /// @brief Field _materialPropertyBlockController, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _materialPropertyBlockController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
-  /// @brief Field _audioTimeSource, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _audioTimeSource, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
-  /// @brief Field _gamePause, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _gamePause, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 
-  /// @brief Field _environmentContext, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field _environmentContext, offset: 0x60, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentContext ____environmentContext;
 
-  /// @brief Field _color, offset: 0x5c, size: 0x10, def value: None
+  /// @brief Field _color, offset: 0x64, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
-  /// @brief Field _waitForDependenciesAndPlayCoroutine, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _waitForDependenciesAndPlayCoroutine, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ____waitForDependenciesAndPlayCoroutine;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____videoPlayer) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____videoPlayer) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____materialPropertyBlockController) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____materialPropertyBlockController) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____audioTimeSource) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____audioTimeSource) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____gamePause) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____gamePause) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____environmentContext) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____environmentContext) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____color) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____color) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____waitForDependenciesAndPlayCoroutine) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeSyncedVideoPlayer, ____waitForDependenciesAndPlayCoroutine) == 0x78, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SongTimeSyncedVideoPlayer) == 0x78, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SongTimeSyncedVideoPlayer) == 0x80, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/BMPAlloc.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\BMPAlloc.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__OwnedState_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::BMPAlloc.Equals
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::BMPAlloc::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::BMPAlloc::Equals)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6ce812c;
+  constexpr static std::size_t addrs = 0x6cefcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::BMPAlloc::*)()>(&::UnityEngine::UIElements::UIR::BMPAlloc::IsValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ce4a1c;
+  constexpr static std::size_t addrs = 0x6cec5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BMPAlloc>(), { "IsValid", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::UIR::BMPAlloc::*)()>(&::UnityEngine::UIElements::UIR::BMPAlloc::ToString)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6cec2f0;
+  constexpr static std::size_t addrs = 0x6cf3e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

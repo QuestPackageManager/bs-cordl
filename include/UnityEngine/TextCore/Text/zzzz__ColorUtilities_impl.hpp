@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/ColorUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\ColorUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__ColorUtilities_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(&::UnityEngine::TextCore::Text::ColorUtilities::CompareColors)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bbec08;
+  constexpr static std::size_t addrs = 0x6bc678c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(&::UnityEngine::TextCore::Text::ColorUtilities::MultiplyColors)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6bbec18;
+  constexpr static std::size_t addrs = 0x6bc679c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

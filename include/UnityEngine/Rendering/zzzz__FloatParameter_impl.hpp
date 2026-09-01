@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/FloatParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\FloatParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FloatParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::FloatParameter._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FloatParameter::*)(float_t, bool)>(&::UnityEngine::Rendering::FloatParameter::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x67c518c;
+  constexpr static std::size_t addrs = 0x67ccc08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FloatParameter::*)(float_t, float_t, float_t)>(&::UnityEngine::Rendering::FloatParameter::Interp)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c51f8;
+  constexpr static std::size_t addrs = 0x67ccc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FloatParameter*>(),

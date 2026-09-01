@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalUpdateCullingGroupSystem.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalUpdateCullingGroupSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalUpdateCullingGroupSystem_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalCachedChunk_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem::*)()>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem::get_boundingDistance)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6858b9c;
+  constexpr static std::size_t addrs = 0x6860618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem::*)(float_t)>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem::set_boundingDistance)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6858bc4;
+  constexpr static std::size_t addrs = 0x6860640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem::*)(::UnityEngine::Rendering::Universal::DecalEntityManager*, float_t)>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6858bec;
+  constexpr static std::size_t addrs = 0x6860668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem::*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem::Execute)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6858cc4;
+  constexpr static std::size_t addrs = 0x6860740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                     ::UnityEngine::Rendering::Universal::DecalCulledChunk*, int32_t)>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem::Execute)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6858e40;
+  constexpr static std::size_t addrs = 0x68608bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem::GetSceneCullingMaskFromCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6858fa0;
+  constexpr static std::size_t addrs = 0x6860a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem*>(),

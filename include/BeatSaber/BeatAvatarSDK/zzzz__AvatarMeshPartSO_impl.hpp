@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarMeshPartSO.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\AvatarMeshPartSO.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartSO_1_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarMeshPartSO_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO::get_mesh)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x327813c;
+  constexpr static std::size_t addrs = 0x327becc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>(), { "get_mesh", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3278180;
+  constexpr static std::size_t addrs = 0x327bf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO*>(), { ".ctor", {}, {} })));

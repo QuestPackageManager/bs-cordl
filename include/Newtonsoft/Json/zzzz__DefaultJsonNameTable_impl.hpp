@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/DefaultJsonNameTable.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\DefaultJsonNameTable.hpp"
 #include "Newtonsoft/Json/zzzz__JsonNameTable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/zzzz__DefaultJsonNameTable_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::DefaultJsonNameTable_Entry::*)(::StringW, int32_t, ::Newtonsoft::Json::DefaultJsonNameTable_Entry*)>(
     &::Newtonsoft::Json::DefaultJsonNameTable_Entry::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cceb34;
+  constexpr static std::size_t addrs = 0x5cd2ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::DefaultJsonNameTable::*)()>(&::Newtonsoft::Json::DefaultJsonNameTable::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5cce600;
+  constexpr static std::size_t addrs = 0x5cd2abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::DefaultJsonNameTable*>(), { ".ctor", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::Newtonsoft::Json::DefaultJsonNameTable::Get)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5cce660;
+  constexpr static std::size_t addrs = 0x5cd2b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::StringW)>(&::Newtonsoft::Json::DefaultJsonNameTable::Add)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5cce898;
+  constexpr static std::size_t addrs = 0x5cd2d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::StringW, int32_t)>(&::Newtonsoft::Json::DefaultJsonNameTable::AddEntry)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5ccea2c;
+  constexpr static std::size_t addrs = 0x5cd2ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::DefaultJsonNameTable::*)()>(&::Newtonsoft::Json::DefaultJsonNameTable::Grow)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5cceb44;
+  constexpr static std::size_t addrs = 0x5cd3000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::DefaultJsonNameTable*>(), { "Grow", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t>, int32_t, int32_t)>(&::Newtonsoft::Json::DefaultJsonNameTable::TextEquals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5cce7e8;
+  constexpr static std::size_t addrs = 0x5cd2ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

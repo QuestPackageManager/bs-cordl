@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Hierarchy/HierarchyNodeType.hpp"
+// IWYU pragma private; include "Unity\Hierarchy\HierarchyNodeType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,30 +35,30 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyNodeType>"
   constexpr operator ::System::IEquatable_1<::Unity::Hierarchy::HierarchyNodeType>*();
 
-  /// @brief Method Equals, addr 0x6b32b54, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b3a6d8, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b32a2c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b3a5b0, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Hierarchy::HierarchyNodeType other);
 
-  /// @brief Method GetHashCode, addr 0x6b32bd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b3a754, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6b32a3c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b3a5c0, size 0x118, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::Unity::Hierarchy::HierarchyNodeType getStaticF_s_Null();
 
-  /// @brief Method get_Id, addr 0x6b32a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x6b3a594, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Id();
 
-  /// @brief Method get_Null, addr 0x6b329c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x6b3a54c, size 0x48, virtual false, abstract: false, final false
   static inline ::by_ref<::Unity::Hierarchy::HierarchyNodeType> get_Null();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Hierarchy::HierarchyNodeType>"
   constexpr ::System::IEquatable_1<::Unity::Hierarchy::HierarchyNodeType>* i___System__IEquatable_1___Unity__Hierarchy__HierarchyNodeType_();
 
-  /// @brief Method op_Equality, addr 0x6b32a18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b3a59c, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Equality(::by_ref<::Unity::Hierarchy::HierarchyNodeType> lhs, ::by_ref<::Unity::Hierarchy::HierarchyNodeType> rhs);
 
   static inline void setStaticF_s_Null(::Unity::Hierarchy::HierarchyNodeType value);
@@ -71,7 +71,7 @@ public:
   constexpr HierarchyNodeType(int32_t m_Id) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21948 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

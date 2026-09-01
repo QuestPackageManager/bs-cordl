@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapLevelsEntitlementModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapLevelsEntitlementModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsEntitlementModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::GlobalNamespace::IAdditionalContentEntitlementModel*)>(
     &::GlobalNamespace::BeatmapLevelsEntitlementModel::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3721cd8;
+  constexpr static std::size_t addrs = 0x3727994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelsEntitlementModel*>(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::GlobalNamespace::PackDefinitionSO*)>(
     &::GlobalNamespace::BeatmapLevelsEntitlementModel::AddAlwaysOwnedPack)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x3721d74;
+  constexpr static std::size_t addrs = 0x3727a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelsEntitlementModel*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x37220a8;
+  constexpr static std::size_t addrs = 0x3727d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetPackEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x37221ec;
+  constexpr static std::size_t addrs = 0x3727ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelDataVersionAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3722334;
+  constexpr static std::size_t addrs = 0x37129b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (
     ::GlobalNamespace::BeatmapLevelsEntitlementModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelsEntitlementModel::GetExcludedLevelIdsAsync)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x37223f4;
+  constexpr static std::size_t addrs = 0x3727ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelsEntitlementModel*>(),

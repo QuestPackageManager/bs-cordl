@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainEffectGraphicsSettingsPresetsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainEffectGraphicsSettingsPresetsSO.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedPresetsSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset::*)()>(
     &::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x372ba6c;
+  constexpr static std::size_t addrs = 0x37316d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*>(), { ".ctor", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO_Preset*> (::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::*)()>(
     &::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_presets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372ba54;
+  constexpr static std::size_t addrs = 0x37316b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>(), { "get_presets", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::NamedPreset*> (::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::*)()>(
     &::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_namedPresets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372ba5c;
+  constexpr static std::size_t addrs = 0x37316c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>(),
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::*)()>(&::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372ba64;
+  constexpr static std::size_t addrs = 0x37316c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>(), { ".ctor", {}, {} })));

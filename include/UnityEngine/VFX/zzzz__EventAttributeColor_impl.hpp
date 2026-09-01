@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/EventAttributeColor.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\EventAttributeColor.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributeVector3_impl.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributeColor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::VFX::EventAttributeColor._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::EventAttributeColor::*)()>(&::UnityEngine::VFX::EventAttributeColor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69cb7d4;
+  constexpr static std::size_t addrs = 0x69d3250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::EventAttributeColor*>(), { ".ctor", {}, {} })));

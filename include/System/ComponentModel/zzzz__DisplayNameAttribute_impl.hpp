@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/DisplayNameAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\DisplayNameAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__DisplayNameAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DisplayNameAttribute::*)()>(&::System::ComponentModel::DisplayNameAttribute::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x63acf08;
+  constexpr static std::size_t addrs = 0x63b4984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::DisplayNameAttribute*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DisplayNameAttribute::*)(::StringW)>(&::System::ComponentModel::DisplayNameAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63acf20;
+  constexpr static std::size_t addrs = 0x63b499c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::DisplayNameAttribute::*)()>(&::System::ComponentModel::DisplayNameAttribute::get_DisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63acf28;
+  constexpr static std::size_t addrs = 0x63b49a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::DisplayNameAttribute::*)()>(&::System::ComponentModel::DisplayNameAttribute::get_DisplayNameValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63acf30;
+  constexpr static std::size_t addrs = 0x63b49ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::DisplayNameAttribute*>(), { "get_DisplayNameValue", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DisplayNameAttribute::*)(::StringW)>(&::System::ComponentModel::DisplayNameAttribute::set_DisplayNameValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63acf38;
+  constexpr static std::size_t addrs = 0x63b49b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DisplayNameAttribute::*)(::System::Object*)>(&::System::ComponentModel::DisplayNameAttribute::Equals)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x63acf40;
+  constexpr static std::size_t addrs = 0x63b49bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::DisplayNameAttribute::*)()>(&::System::ComponentModel::DisplayNameAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63ad00c;
+  constexpr static std::size_t addrs = 0x63b4a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DisplayNameAttribute::*)()>(&::System::ComponentModel::DisplayNameAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63ad034;
+  constexpr static std::size_t addrs = 0x63b4ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

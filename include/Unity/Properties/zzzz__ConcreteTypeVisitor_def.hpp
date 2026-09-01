@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/ConcreteTypeVisitor.hpp"
+// IWYU pragma private; include "Unity\Properties\ConcreteTypeVisitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
   /// @brief Method VisitContainer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename TContainer> inline void VisitContainer(::by_ref<TContainer> container);
 
-  /// @brief Method .ctor, addr 0x6b9a480, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba2004, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Unity::Properties::IPropertyBagVisitor"
@@ -57,7 +57,7 @@ public:
   ConcreteTypeVisitor(ConcreteTypeVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19673 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

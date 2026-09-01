@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataCommon/IBeat.hpp"
+// IWYU pragma private; include "BeatmapSaveDataCommon\IBeat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
 
-  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x375a248, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x375feb4, size 0x168, virtual true, abstract: false, final true
   inline int32_t System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo(::BeatmapSaveDataCommon::IBeat* other);
 
   /// @brief Method get_beat, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -42,7 +42,7 @@ public:
   IBeat(IBeat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

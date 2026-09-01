@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/DateTimeParser.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\DateTimeParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,28 +64,28 @@ public:
   /// @brief Field Power10, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Power10, put = setStaticF_Power10)) ::ArrayW<int32_t> Power10;
 
-  /// @brief Method Parse, addr 0x5d1cf10, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5d213cc, size 0xf4, virtual false, abstract: false, final false
   inline bool Parse(::ArrayW<char16_t> text, int32_t startIndex, int32_t length);
 
-  /// @brief Method Parse2Digit, addr 0x5d1d37c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Parse2Digit, addr 0x5d21838, size 0x98, virtual false, abstract: false, final false
   inline bool Parse2Digit(int32_t start, ::by_ref<int32_t> num);
 
-  /// @brief Method Parse4Digit, addr 0x5d1d298, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Parse4Digit, addr 0x5d21754, size 0xe4, virtual false, abstract: false, final false
   inline bool Parse4Digit(int32_t start, ::by_ref<int32_t> num);
 
-  /// @brief Method ParseChar, addr 0x5d1d1ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ParseChar, addr 0x5d21668, size 0x4c, virtual false, abstract: false, final false
   inline bool ParseChar(int32_t start, char16_t ch);
 
-  /// @brief Method ParseDate, addr 0x5d1d004, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ParseDate, addr 0x5d214c0, size 0x1a8, virtual false, abstract: false, final false
   inline bool ParseDate(int32_t start);
 
-  /// @brief Method ParseTime, addr 0x5d1d414, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ParseTime, addr 0x5d218d0, size 0x2c8, virtual false, abstract: false, final false
   inline bool ParseTime(::by_ref<int32_t> start);
 
-  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x5d1d1f8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x5d216b4, size 0xa0, virtual false, abstract: false, final false
   inline bool ParseTimeAndZoneAndWhitespace(int32_t start);
 
-  /// @brief Method ParseZone, addr 0x5d1d6dc, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ParseZone, addr 0x5d21b98, size 0x1fc, virtual false, abstract: false, final false
   inline bool ParseZone(int32_t start);
 
   static inline int32_t getStaticF_LzHH();
@@ -161,7 +161,7 @@ public:
   static constexpr int16_t MaxFractionDigits{ static_cast<int16_t>(0x7) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

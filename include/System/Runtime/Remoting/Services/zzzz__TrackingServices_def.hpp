@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Services/TrackingServices.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Services\TrackingServices.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +31,13 @@ public:
   /// @brief Field _handlers, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__handlers, put = setStaticF__handlers)) ::System::Collections::ArrayList* _handlers;
 
-  /// @brief Method NotifyDisconnectedObject, addr 0x5b2a7a0, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method NotifyDisconnectedObject, addr 0x5b2ec5c, size 0x308, virtual false, abstract: false, final false
   static inline void NotifyDisconnectedObject(::System::Object* obj);
 
-  /// @brief Method NotifyMarshaledObject, addr 0x5b26c90, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method NotifyMarshaledObject, addr 0x5b2b14c, size 0x31c, virtual false, abstract: false, final false
   static inline void NotifyMarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method NotifyUnmarshaledObject, addr 0x5b25ff4, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method NotifyUnmarshaledObject, addr 0x5b2a4b0, size 0x31c, virtual false, abstract: false, final false
   static inline void NotifyUnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
   static inline ::System::Collections::ArrayList* getStaticF__handlers();

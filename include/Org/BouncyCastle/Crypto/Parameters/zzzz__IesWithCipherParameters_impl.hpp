@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/IesWithCipherParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\IesWithCipherParameters.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__IesParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__IesWithCipherParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3410138;
+  constexpr static std::size_t addrs = 0x3413ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::get_CipherKeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3410144;
+  constexpr static std::size_t addrs = 0x3413f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

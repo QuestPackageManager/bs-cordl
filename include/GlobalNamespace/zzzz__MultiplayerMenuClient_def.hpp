@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerMenuClient.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerMenuClient.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager)) ::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  /// @brief Method LateUpdate, addr 0x593fdd8, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x594385c, size 0x338, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerMenuClient* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x5940110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5943b94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   MultiplayerMenuClient(MultiplayerMenuClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6900 };
 
   /// @brief Field _menuPlayerController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuPlayerController> ____menuPlayerController;

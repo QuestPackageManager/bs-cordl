@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardTableView.hpp"
+// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardTableView.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardTableView_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardTableView_def.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardTableView::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>*, int32_t, int32_t)>(&::GlobalNamespace::LocalLeaderboardTableView::SetScores)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x596b104;
+  constexpr static std::size_t addrs = 0x596e9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardTableView::*)()>(&::GlobalNamespace::LocalLeaderboardTableView::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x596b3ac;
+  constexpr static std::size_t addrs = 0x596eca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardTableView*>(), { ".ctor", {}, {} })));

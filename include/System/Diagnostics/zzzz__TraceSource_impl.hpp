@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/TraceSource.hpp"
+// IWYU pragma private; include "System\Diagnostics\TraceSource.hpp"
 #include "System/Diagnostics/zzzz__SourceLevels_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceSource_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSource::*)(::StringW)>(&::System::Diagnostics::TraceSource::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6392a30;
+  constexpr static std::size_t addrs = 0x639a4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceSource*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSource::*)(::StringW, ::System::Diagnostics::SourceLevels)>(&::System::Diagnostics::TraceSource::_ctor)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6392a38;
+  constexpr static std::size_t addrs = 0x639a4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceSource*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Diagnostics::TraceSource::_pruneCachedTraceSources)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x6392cb0;
+  constexpr static std::size_t addrs = 0x639a72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceSource*>(), { "_pruneCachedTraceSources", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSource::*)()>(&::System::Diagnostics::TraceSource::Initialize)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x63931bc;
+  constexpr static std::size_t addrs = 0x639ac38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceSource*>(), { "Initialize", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSource::*)()>(&::System::Diagnostics::TraceSource::NoConfigInit)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x63932a4;
+  constexpr static std::size_t addrs = 0x639ad20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceSource*>(), { "NoConfigInit", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceSource::*)()>(&::System::Diagnostics::TraceSource::Flush)> {
   constexpr static std::size_t size = 0x6ec;
-  constexpr static std::size_t addrs = 0x6393414;
+  constexpr static std::size_t addrs = 0x639ae90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceSource*>(), { "Flush", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::TraceListenerCollection* (::System::Diagnostics::TraceSource::*)()>(&::System::Diagnostics::TraceSource::get_Listeners)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6393b00;
+  constexpr static std::size_t addrs = 0x639b57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceSource*>(), { "get_Listeners", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::SourceSwitch* (::System::Diagnostics::TraceSource::*)()>(&::System::Diagnostics::TraceSource::get_Switch)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6393b1c;
+  constexpr static std::size_t addrs = 0x639b598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceSource*>(), { "get_Switch", {}, {} })));

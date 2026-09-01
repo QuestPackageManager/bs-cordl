@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/HashMapHelper_1.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\HashMapHelper_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
   constexpr HashMapHelper_1_Enumerator(::Unity::Collections::LowLevel::Unsafe::HashMapHelper_1<TKey>* m_Data, int32_t m_Index, int32_t m_BucketIndex, int32_t m_NextIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15763 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -195,7 +195,7 @@ public:
                             int32_t FirstFreeIdx, int32_t SizeOfTValue, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15764 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

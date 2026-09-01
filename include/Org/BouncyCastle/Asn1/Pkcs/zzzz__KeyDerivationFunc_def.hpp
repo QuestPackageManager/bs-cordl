@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/KeyDerivationFunc.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\KeyDerivationFunc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +32,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x345f2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3463070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x345f2ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346306c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

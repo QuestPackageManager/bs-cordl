@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/NetSyncOptions.hpp"
+// IWYU pragma private; include "Oculus\Platform\NetSyncOptions.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__NetSyncOptions_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::NetSyncOptions::*)()>(&::Oculus::Platform::NetSyncOptions::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd9614;
+  constexpr static std::size_t addrs = 0x5dddad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::NetSyncOptions*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::NetSyncOptions::*)(::StringW)>(&::Oculus::Platform::NetSyncOptions::SetVoipGroup)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd9670;
+  constexpr static std::size_t addrs = 0x5dddb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::NetSyncOptions::*)(::Oculus::Platform::NetSyncVoipStreamMode)>(
     &::Oculus::Platform::NetSyncOptions::SetVoipStreamDefault)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd96dc;
+  constexpr static std::size_t addrs = 0x5dddb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::NetSyncOptions::*)(::StringW)>(&::Oculus::Platform::NetSyncOptions::SetZoneId)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd9748;
+  constexpr static std::size_t addrs = 0x5dddc04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Oculus::Platform::NetSyncOptions*)>(&::Oculus::Platform::NetSyncOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dd97b4;
+  constexpr static std::size_t addrs = 0x5dddc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::NetSyncOptions::*)()>(&::Oculus::Platform::NetSyncOptions::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5dd97c0;
+  constexpr static std::size_t addrs = 0x5dddc7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

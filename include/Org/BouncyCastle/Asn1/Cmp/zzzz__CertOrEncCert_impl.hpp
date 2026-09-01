@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/CertOrEncCert.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\CertOrEncCert.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertOrEncCert_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CmpCertificate_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3343d64;
+  constexpr static std::size_t addrs = 0x3347b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x33438ac;
+  constexpr static std::size_t addrs = 0x334766c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3343e54;
+  constexpr static std::size_t addrs = 0x3347c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3343eac;
+  constexpr static std::size_t addrs = 0x3347c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::get_Certificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3343f04;
+  constexpr static std::size_t addrs = 0x3347cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::get_EncryptedCert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3343f0c;
+  constexpr static std::size_t addrs = 0x3347ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert::ToAsn1Object)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3343f14;
+  constexpr static std::size_t addrs = 0x3347cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

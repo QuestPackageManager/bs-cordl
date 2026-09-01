@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SpawnRotationChevron.hpp"
+// IWYU pragma private; include "GlobalNamespace\SpawnRotationChevron.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevron_Pool::*)()>(&::GlobalNamespace::SpawnRotationChevron_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x599e444;
+  constexpr static std::size_t addrs = 0x59a6378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevron_Pool*>(), { ".ctor", {}, {} })));
@@ -33,11 +33,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevron::*)(::UnityEngine::Color)>(&::GlobalNamespace::SpawnRotationChevron::ColorWasSet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x599e3b8;
+  constexpr static std::size_t addrs = 0x59a62e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevron*>(), { ::i2c::class_of<::GlobalNamespace::SpawnRotationChevron*>(), 9 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevron*>(), { ::i2c::class_of<::GlobalNamespace::SpawnRotationChevron*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevron::*)(float_t)>(&::GlobalNamespace::SpawnRotationChevron::SetLightAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x599e430;
+  constexpr static std::size_t addrs = 0x59a635c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevron::*)()>(&::GlobalNamespace::SpawnRotationChevron::UpdateLights)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x599e3c4;
+  constexpr static std::size_t addrs = 0x59a62f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevron*>(), { "UpdateLights", {}, {} })));
@@ -70,8 +70,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevron::*)()>(&::GlobalNamespace::SpawnRotationChevron::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x599e438;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x59a6364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevron*>(), { ".ctor", {}, {} })));
@@ -115,7 +115,7 @@ constexpr void GlobalNamespace::SpawnRotationChevron::__cordl_internal_set__ligh
   this->____lightAmount = value;
 }
 inline void GlobalNamespace::SpawnRotationChevron::ColorWasSet(::UnityEngine::Color color) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SpawnRotationChevron*>(), 9 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SpawnRotationChevron*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
 inline void GlobalNamespace::SpawnRotationChevron::SetLightAmount(float_t amount) {

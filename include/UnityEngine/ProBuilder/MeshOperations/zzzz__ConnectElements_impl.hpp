@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/ConnectElements.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshOperations\ConnectElements.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__ConnectElements_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x671c0a8;
+  constexpr static std::size_t addrs = 0x6723b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c*>(), { ".ctor", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* (
     ::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_Connect_b__0_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x671c0ac;
+  constexpr static std::size_t addrs = 0x6723b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_Connect_b__2_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x671c0cc;
+  constexpr static std::size_t addrs = 0x6723b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c*>(),
@@ -67,7 +67,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::FaceRebuildData* (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(
         &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_Connect_b__2_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x671c0e0;
+  constexpr static std::size_t addrs = 0x6723b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_Connect_b__3_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x671c0f4;
+  constexpr static std::size_t addrs = 0x6723b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c*>(),
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::FaceRebuildData* (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(
         &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_Connect_b__3_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x671c108;
+  constexpr static std::size_t addrs = 0x6723b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_Connect_b__3_2)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x671c11c;
+  constexpr static std::size_t addrs = 0x6723b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(::UnityEngine::ProBuilder::EdgeLookup)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_Connect_b__3_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x671c154;
+  constexpr static std::size_t addrs = 0x6723bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c*>(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* (
     ::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_ConnectEdgesInFace_b__5_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x671c15c;
+  constexpr static std::size_t addrs = 0x6723bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_ConnectEdgesInFace_b__5_1)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x671c1cc;
+  constexpr static std::size_t addrs = 0x6723c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_ConnectEdgesInFace_b__5_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x671c23c;
+  constexpr static std::size_t addrs = 0x6723cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c*>(),
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_InsertVertices_b__6_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x671c250;
+  constexpr static std::size_t addrs = 0x6723ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c*>(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* (
     ::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_ConnectIndexesPerFace_b__8_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x671c264;
+  constexpr static std::size_t addrs = 0x6723ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_ConnectIndexesPerFace_b__8_1)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x671c2d4;
+  constexpr static std::size_t addrs = 0x6723d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::*)(int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c::_ConnectIndexesPerFace_b__8_2)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x671c344;
+  constexpr static std::size_t addrs = 0x6723dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -469,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass2_0::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6719578;
+  constexpr static std::size_t addrs = 0x6720ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass2_0::*)(int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass2_0::_Connect_b__0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x671c3b4;
+  constexpr static std::size_t addrs = 0x6723e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass2_0::*)(int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass2_0::_Connect_b__3)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x671c418;
+  constexpr static std::size_t addrs = 0x6723e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass3_0::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x671c050;
+  constexpr static std::size_t addrs = 0x6723acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass3_0::*)(::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass3_0::_Connect_b__3)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x671c45c;
+  constexpr static std::size_t addrs = 0x6723ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::ConnectElements___c__DisplayClass3_0*>(),
@@ -615,7 +615,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::ArrayW<::UnityEngine::ProBuilder::Face*> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x67168f8;
+  constexpr static std::size_t addrs = 0x671e374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -633,7 +633,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6718450;
+  constexpr static std::size_t addrs = 0x671fecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -650,7 +650,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
   constexpr static std::size_t size = 0x10a8;
-  constexpr static std::size_t addrs = 0x67184d0;
+  constexpr static std::size_t addrs = 0x671ff4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -668,7 +668,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                  ::by_ref<::ArrayW<::UnityEngine::ProBuilder::Face*>>, ::by_ref<::ArrayW<::UnityEngine::ProBuilder::Edge>>, bool, bool,
                                                  ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
   constexpr static std::size_t size = 0x1880;
-  constexpr static std::size_t addrs = 0x6716bd0;
+  constexpr static std::size_t addrs = 0x671e64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -690,7 +690,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
                                                                              ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectEdgesInFace)> {
   constexpr static std::size_t size = 0x7ec;
-  constexpr static std::size_t addrs = 0x671b864;
+  constexpr static std::size_t addrs = 0x67232e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -711,7 +711,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
                                                                              ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectEdgesInFace)> {
   constexpr static std::size_t size = 0xa0c;
-  constexpr static std::size_t addrs = 0x671ae58;
+  constexpr static std::size_t addrs = 0x67228d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -731,7 +731,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(
     ::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*,
     ::by_ref<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::InsertVertices)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x671a8b8;
+  constexpr static std::size_t addrs = 0x6722334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -754,7 +754,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                                                                                     ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace)> {
   constexpr static std::size_t size = 0x8e0;
-  constexpr static std::size_t addrs = 0x6719fd8;
+  constexpr static std::size_t addrs = 0x6721a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>(),
@@ -775,7 +775,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                                                                                     ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*, int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace)> {
   constexpr static std::size_t size = 0xa5c;
-  constexpr static std::size_t addrs = 0x671957c;
+  constexpr static std::size_t addrs = 0x6720ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

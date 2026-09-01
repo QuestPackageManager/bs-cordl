@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/ExcludeFromBurstCompatTestingAttribute.hpp"
+// IWYU pragma private; include "Unity\Collections\ExcludeFromBurstCompatTestingAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Collections/zzzz__ExcludeFromBurstCompatTestingAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::ExcludeFromBurstCompatTestingAttribute.get_Reason
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::*)()>(
     &::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::get_Reason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64ba5e0;
+  constexpr static std::size_t addrs = 0x64c205c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::*)(::StringW)>(
     &::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::set_Reason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64ba5e8;
+  constexpr static std::size_t addrs = 0x64c2064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::*)(::StringW)>(
     &::Unity::Collections::ExcludeFromBurstCompatTestingAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64ba5f0;
+  constexpr static std::size_t addrs = 0x64c206c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

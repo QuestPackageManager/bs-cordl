@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LODGroupCullingData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LODGroupCullingData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +55,7 @@ public:
   constexpr LODGroupCullingData__percentageFlags_e__FixedBuffer(bool FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17753 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -91,7 +91,7 @@ public:
   constexpr LODGroupCullingData__sqrDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17754 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -127,7 +127,7 @@ public:
   constexpr LODGroupCullingData__transitionDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17755 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -174,7 +174,7 @@ public:
                                 ::UnityEngine::Rendering::LODGroupCullingData__percentageFlags_e__FixedBuffer percentageFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17756 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5c };

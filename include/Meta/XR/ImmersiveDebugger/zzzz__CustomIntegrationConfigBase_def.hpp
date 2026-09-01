@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/CustomIntegrationConfigBase.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\CustomIntegrationConfigBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,18 +28,18 @@ public:
   /// @brief Convert operator to "::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig"
   constexpr operator ::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig*() noexcept;
 
-  /// @brief Method Awake, addr 0x5a54d40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a591fc, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetCamera, addr 0x5a54d48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCamera, addr 0x5a59204, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> GetCamera();
 
   static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfigBase* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a54d44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a59200, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method .ctor, addr 0x5a54d50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5920c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig"
@@ -60,7 +60,7 @@ public:
   CustomIntegrationConfigBase(CustomIntegrationConfigBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

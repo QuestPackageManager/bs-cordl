@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/ShapeFactory.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\ShapeFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method Instantiate, addr 0x66e2388, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x66e9e04, size 0x240, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method Instantiate, addr 0x66e2120, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x66e9b9c, size 0x268, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::System::Type* shapeType, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
 protected:
@@ -55,7 +55,7 @@ public:
   ShapeFactory(ShapeFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16807 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

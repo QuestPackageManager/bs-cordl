@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameServerLobbyFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameServerLobbyFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -178,7 +178,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerLobbyFlowCoordinator___c__DisplayClass103_0* New_ctor();
 
-  /// @brief Method <HandleServerPlayerListViewControllerKickPlayer>b__0, addr 0x592e30c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <HandleServerPlayerListViewControllerKickPlayer>b__0, addr 0x5931444, size 0xe4, virtual false, abstract: false, final false
   inline void _HandleServerPlayerListViewControllerKickPlayer_b__0(int32_t btnId);
 
   constexpr ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -193,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set_userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x592c74c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x592f884, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -211,7 +211,7 @@ public:
   GameServerLobbyFlowCoordinator___c__DisplayClass103_0(GameServerLobbyFlowCoordinator___c__DisplayClass103_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6842 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> _____4__this;
@@ -247,7 +247,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerLobbyFlowCoordinator___c__DisplayClass87_0* New_ctor();
 
-  /// @brief Method <Finish>b__0, addr 0x592e3f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <Finish>b__0, addr 0x5931528, size 0x70, virtual false, abstract: false, final false
   inline void _Finish_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -268,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x592b3c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x592e524, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -286,7 +286,7 @@ public:
   GameServerLobbyFlowCoordinator___c__DisplayClass87_0(GameServerLobbyFlowCoordinator___c__DisplayClass87_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6843 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> _____4__this;
@@ -467,172 +467,172 @@ public:
   /// @brief Field willFinishEvent, offset 0x1a8, size 0x8
   __declspec(property(get = __cordl_internal_get_willFinishEvent, put = __cordl_internal_set_willFinishEvent)) ::System::Action* willFinishEvent;
 
-  /// @brief Method BackButtonWasPressed, addr 0x592ad20, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x592de7c, size 0x170, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DidActivate, addr 0x5926c8c, size 0x147c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x592a0b0, size 0x1484, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5928a44, size 0x1088, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x592bd04, size 0x1090, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method DismissViewControllersAndCoordinators, addr 0x592b3cc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method DismissViewControllersAndCoordinators, addr 0x592e528, size 0xfc, virtual false, abstract: false, final false
   inline void DismissViewControllersAndCoordinators();
 
-  /// @brief Method Finish, addr 0x592b198, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x592e2f4, size 0x230, virtual false, abstract: false, final false
   inline void Finish(::System::Action* finishedCallback, bool withFadeOut);
 
-  /// @brief Method GetInitialGameState, addr 0x5929d18, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetInitialGameState, addr 0x592ce74, size 0x150, virtual false, abstract: false, final false
   inline void GetInitialGameState();
 
-  /// @brief Method GetLobbyType, addr 0x5926c3c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetLobbyType, addr 0x592a060, size 0x50, virtual true, abstract: false, final false
   inline ::GlobalNamespace::GameServerLobbyFlowCoordinatorBase_LobbyType GetLobbyType();
 
-  /// @brief Method GetLocalizedTitle, addr 0x592dcf0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetLocalizedTitle, addr 0x5930e28, size 0xb8, virtual false, abstract: false, final false
   inline ::StringW GetLocalizedTitle();
 
-  /// @brief Method HandleLobbyGameBeforeSceneSwitchCallback, addr 0x592dda8, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameBeforeSceneSwitchCallback, addr 0x5930ee0, size 0x234, virtual false, abstract: false, final false
   inline void HandleLobbyGameBeforeSceneSwitchCallback();
 
-  /// @brief Method HandleLobbyGameStateControllerCancelStartTime, addr 0x592d394, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerCancelStartTime, addr 0x59304cc, size 0x38, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerCancelStartTime();
 
-  /// @brief Method HandleLobbyGameStateControllerCountdownCancelled, addr 0x592c9e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerCountdownCancelled, addr 0x592fb1c, size 0x38, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerCountdownCancelled();
 
-  /// @brief Method HandleLobbyGameStateControllerCountdownStarted, addr 0x592c750, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerCountdownStarted, addr 0x592f888, size 0x294, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerCountdownStarted();
 
-  /// @brief Method HandleLobbyGameStateControllerGameStarted, addr 0x592ca1c, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerGameStarted, addr 0x592fb54, size 0x2d4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerGameStarted(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method HandleLobbyGameStateControllerGameStartedPresentView, addr 0x592d3cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerGameStartedPresentView, addr 0x5930504, size 0xb0, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerGameStartedPresentView(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method HandleLobbyGameStateControllerGameStateChanged, addr 0x592c090, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerGameStateChanged, addr 0x592f1c8, size 0x160, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerGameStateChanged(::GlobalNamespace::MultiplayerLobbyState state);
 
-  /// @brief Method HandleLobbyGameStateControllerLevelDidGetDisconnected, addr 0x592d8b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerLevelDidGetDisconnected, addr 0x59309f0, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerLevelDidGetDisconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method HandleLobbyGameStateControllerLevelFinished, addr 0x592d47c, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerLevelFinished, addr 0x59305b4, size 0x43c, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerLevelFinished(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* multiplayerLevelScenesTransitionSetupData,
                                                           ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
 
-  /// @brief Method HandleLobbyGameStateControllerLobbyDisconnected, addr 0x592bb4c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerLobbyDisconnected, addr 0x592ec84, size 0xb4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerLobbyDisconnected();
 
-  /// @brief Method HandleLobbyGameStateControllerSongStillDownloading, addr 0x592cee4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerSongStillDownloading, addr 0x593001c, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerSongStillDownloading();
 
-  /// @brief Method HandleLobbyGameStateControllerStartTimeChanged, addr 0x592ccf0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateControllerStartTimeChanged, addr 0x592fe28, size 0x1f4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerStartTimeChanged();
 
-  /// @brief Method HandleLobbyGameStateStartButtonEnabled, addr 0x592dfdc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateStartButtonEnabled, addr 0x5931114, size 0x34, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateStartButtonEnabled(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
-  /// @brief Method HandleLobbyPlayerPermissionsModelPermissionsChanged, addr 0x592e0f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayerPermissionsModelPermissionsChanged, addr 0x5931228, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyPlayerPermissionsModelPermissionsChanged();
 
-  /// @brief Method HandleLobbyPlayersDataModelDidChange, addr 0x592b4c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayersDataModelDidChange, addr 0x592e624, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyPlayersDataModelDidChange(::StringW userId);
 
-  /// @brief Method HandleLobbySetupViewControllerCancelGameOrUnready, addr 0x592d218, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerCancelGameOrUnready, addr 0x5930350, size 0x17c, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerCancelGameOrUnready();
 
-  /// @brief Method HandleLobbySetupViewControllerClearSelectedBeatmap, addr 0x592bf40, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerClearSelectedBeatmap, addr 0x592f078, size 0xa8, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerClearSelectedBeatmap();
 
-  /// @brief Method HandleLobbySetupViewControllerClearSelectedModifiers, addr 0x592bfe8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerClearSelectedModifiers, addr 0x592f120, size 0xa8, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerClearSelectedModifiers();
 
-  /// @brief Method HandleLobbySetupViewControllerSelectBeatmap, addr 0x592b4e8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerSelectBeatmap, addr 0x592e644, size 0x1d0, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerSelectBeatmap();
 
-  /// @brief Method HandleLobbySetupViewControllerSelectModifiers, addr 0x592bd38, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerSelectModifiers, addr 0x592ee70, size 0x208, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerSelectModifiers();
 
-  /// @brief Method HandleLobbySetupViewControllerStartGameOrReady, addr 0x592cee8, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbySetupViewControllerStartGameOrReady, addr 0x5930020, size 0x330, virtual false, abstract: false, final false
   inline void HandleLobbySetupViewControllerStartGameOrReady();
 
-  /// @brief Method HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel, addr 0x592e010, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel, addr 0x5931148, size 0xe0, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
 
-  /// @brief Method HandleMultiplayerLevelSelectionFlowCoordinatorCancelSelectLevel, addr 0x592bd00, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelSelectionFlowCoordinatorCancelSelectLevel, addr 0x592ee38, size 0x38, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelSelectionFlowCoordinatorCancelSelectLevel();
 
-  /// @brief Method HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel, addr 0x592bc00, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel, addr 0x592ed38, size 0x40, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel(::GlobalNamespace::LevelSelectionFlowCoordinator_State* state);
 
-  /// @brief Method HandleMultiplayerResultsViewControllerBackToLobbyPressed, addr 0x592d8bc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerResultsViewControllerBackToLobbyPressed, addr 0x59309f4, size 0x150, virtual false, abstract: false, final false
   inline void HandleMultiplayerResultsViewControllerBackToLobbyPressed(::GlobalNamespace::MultiplayerResultsViewController* viewController);
 
-  /// @brief Method HandleMultiplayerResultsViewControllerBackToMenuPressed, addr 0x592da0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerResultsViewControllerBackToMenuPressed, addr 0x5930b44, size 0xc, virtual false, abstract: false, final false
   inline void HandleMultiplayerResultsViewControllerBackToMenuPressed(::GlobalNamespace::MultiplayerResultsViewController* viewController);
 
-  /// @brief Method HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged, addr 0x592b6dc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged, addr 0x592e814, size 0x23c, virtual false, abstract: false, final false
   inline void HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged(bool isActive);
 
-  /// @brief Method HandleServerPlayerListViewControllerDidOpenInvitePanel, addr 0x592b4cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleServerPlayerListViewControllerDidOpenInvitePanel, addr 0x592e628, size 0x1c, virtual false, abstract: false, final false
   inline void HandleServerPlayerListViewControllerDidOpenInvitePanel();
 
-  /// @brief Method HandleServerPlayerListViewControllerKickPlayer, addr 0x592c3e4, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method HandleServerPlayerListViewControllerKickPlayer, addr 0x592f51c, size 0x368, virtual false, abstract: false, final false
   inline void HandleServerPlayerListViewControllerKickPlayer(::StringW userId);
 
-  /// @brief Method HandleServerPlayerListViewControllerSelectSuggestedBeatmap, addr 0x592c1f0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method HandleServerPlayerListViewControllerSelectSuggestedBeatmap, addr 0x592f328, size 0x13c, virtual false, abstract: false, final false
   inline void HandleServerPlayerListViewControllerSelectSuggestedBeatmap(::GlobalNamespace::BeatmapKey beatmapKey);
 
-  /// @brief Method HandleServerPlayerListViewControllerSelectSuggestedGameplayModifiers, addr 0x592c32c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleServerPlayerListViewControllerSelectSuggestedGameplayModifiers, addr 0x592f464, size 0xb8, virtual false, abstract: false, final false
   inline void HandleServerPlayerListViewControllerSelectSuggestedGameplayModifiers(::GlobalNamespace::GameplayModifiers* modifiers);
 
-  /// @brief Method InitialViewControllerWasPresented, addr 0x5929c38, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method InitialViewControllerWasPresented, addr 0x592cd94, size 0xe0, virtual true, abstract: false, final false
   inline void InitialViewControllerWasPresented();
 
   static inline ::GlobalNamespace::GameServerLobbyFlowCoordinator* New_ctor();
 
-  /// @brief Method PresentBackButtonConfirmationDialog, addr 0x592ae90, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method PresentBackButtonConfirmationDialog, addr 0x592dfec, size 0x308, virtual false, abstract: false, final false
   inline void PresentBackButtonConfirmationDialog();
 
-  /// @brief Method SetLobbyPlayerDataToViews, addr 0x5928274, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method SetLobbyPlayerDataToViews, addr 0x592b534, size 0x218, virtual false, abstract: false, final false
   inline void SetLobbyPlayerDataToViews(::StringW userId);
 
-  /// @brief Method SetLocalPlayerSelectedLevel, addr 0x592bc40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerSelectedLevel, addr 0x592ed78, size 0xc0, virtual false, abstract: false, final false
   inline void SetLocalPlayerSelectedLevel(::GlobalNamespace::LevelSelectionFlowCoordinator_State* state);
 
-  /// @brief Method SetPlayersMissingLevelText, addr 0x592da18, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method SetPlayersMissingLevelText, addr 0x5930b50, size 0x2d8, virtual false, abstract: false, final false
   inline void SetPlayersMissingLevelText();
 
-  /// @brief Method SetTitle, addr 0x592abdc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetTitle, addr 0x592dd38, size 0x144, virtual false, abstract: false, final false
   inline void SetTitle(::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method SetupLobbyWithPermissions, addr 0x592848c, size 0x5b8, virtual false, abstract: false, final false
+  /// @brief Method SetupLobbyWithPermissions, addr 0x592b74c, size 0x5b8, virtual false, abstract: false, final false
   inline void SetupLobbyWithPermissions();
 
-  /// @brief Method ShowBackButton, addr 0x592abd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShowBackButton, addr 0x592dd30, size 0x8, virtual false, abstract: false, final false
   inline void ShowBackButton(bool show);
 
-  /// @brief Method ShowDisconnectDialogAndFinish, addr 0x592a5bc, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method ShowDisconnectDialogAndFinish, addr 0x592d718, size 0x508, virtual false, abstract: false, final false
   inline void ShowDisconnectDialogAndFinish(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method ShowSideViewControllers, addr 0x592ab74, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShowSideViewControllers, addr 0x592dcd0, size 0x60, virtual false, abstract: false, final false
   inline void ShowSideViewControllers(bool showSideViewControllers, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x592aac4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x592dc20, size 0xb0, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method TransitionDidFinish, addr 0x592a048, size 0x574, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidFinish, addr 0x592d1a4, size 0x574, virtual true, abstract: false, final false
   inline void TransitionDidFinish();
 
-  /// @brief Method TransitionDidStart, addr 0x5929e68, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidStart, addr 0x592cfc4, size 0x1e0, virtual true, abstract: false, final false
   inline void TransitionDidStart();
 
-  /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x592b918, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x592ea50, size 0x234, virtual false, abstract: false, final false
   inline void UpdateLocalPlayerIsActiveState(bool isActive);
 
-  /// @brief Method <PresentBackButtonConfirmationDialog>b__86_0, addr 0x592e1a0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method <PresentBackButtonConfirmationDialog>b__86_0, addr 0x59312d8, size 0x160, virtual false, abstract: false, final false
   inline void _PresentBackButtonConfirmationDialog_b__86_0(int32_t btnIndex);
 
-  /// @brief Method <ShowDisconnectDialogAndFinish>b__123_0, addr 0x592e300, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <ShowDisconnectDialogAndFinish>b__123_0, addr 0x5931438, size 0xc, virtual false, abstract: false, final false
   inline void _ShowDisconnectDialogAndFinish_b__123_0();
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__ambienceAudioClip() const;
@@ -857,58 +857,58 @@ public:
 
   constexpr void __cordl_internal_set_willFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x592e0f4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593122c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x59266cc, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5929af0, size 0xac, virtual true, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method add_didOpenInvitePanelEvent, addr 0x5926ad4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method add_didOpenInvitePanelEvent, addr 0x5929ef8, size 0xac, virtual true, abstract: false, final false
   inline void add_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method add_didSetupEvent, addr 0x592697c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method add_didSetupEvent, addr 0x5929da0, size 0xac, virtual true, abstract: false, final false
   inline void add_didSetupEvent(::System::Action* value);
 
-  /// @brief Method add_startGameOrReadyEvent, addr 0x5926824, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method add_startGameOrReadyEvent, addr 0x5929c48, size 0xac, virtual true, abstract: false, final false
   inline void add_startGameOrReadyEvent(::System::Action* value);
 
-  /// @brief Method add_willFinishEvent, addr 0x5926574, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method add_willFinishEvent, addr 0x5929998, size 0xac, virtual true, abstract: false, final false
   inline void add_willFinishEvent(::System::Action* value);
 
-  /// @brief Method get_isManaged, addr 0x5926328, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_isManaged, addr 0x592974c, size 0xc4, virtual false, abstract: false, final false
   inline bool get_isManaged();
 
-  /// @brief Method get_isPartyOwner, addr 0x592624c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_isPartyOwner, addr 0x5929670, size 0x18, virtual false, abstract: false, final false
   inline bool get_isPartyOwner();
 
-  /// @brief Method get_isPublicGame, addr 0x5926264, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_isPublicGame, addr 0x5929688, size 0xc4, virtual false, abstract: false, final false
   inline bool get_isPublicGame();
 
-  /// @brief Method get_isQuickPlayServer, addr 0x59264b0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_isQuickPlayServer, addr 0x59298d4, size 0xc4, virtual false, abstract: false, final false
   inline bool get_isQuickPlayServer();
 
-  /// @brief Method get_isQuickStartServer, addr 0x59263ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_isQuickStartServer, addr 0x5929810, size 0xc4, virtual false, abstract: false, final false
   inline bool get_isQuickStartServer();
 
-  /// @brief Method get_rejoinQuickPlay, addr 0x5926c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rejoinQuickPlay, addr 0x592a050, size 0x8, virtual false, abstract: false, final false
   inline bool get_rejoinQuickPlay();
 
-  /// @brief Method remove_didFinishEvent, addr 0x5926778, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5929b9c, size 0xac, virtual true, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didOpenInvitePanelEvent, addr 0x5926b80, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method remove_didOpenInvitePanelEvent, addr 0x5929fa4, size 0xac, virtual true, abstract: false, final false
   inline void remove_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method remove_didSetupEvent, addr 0x5926a28, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method remove_didSetupEvent, addr 0x5929e4c, size 0xac, virtual true, abstract: false, final false
   inline void remove_didSetupEvent(::System::Action* value);
 
-  /// @brief Method remove_startGameOrReadyEvent, addr 0x59268d0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method remove_startGameOrReadyEvent, addr 0x5929cf4, size 0xac, virtual true, abstract: false, final false
   inline void remove_startGameOrReadyEvent(::System::Action* value);
 
-  /// @brief Method remove_willFinishEvent, addr 0x5926620, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method remove_willFinishEvent, addr 0x5929a44, size 0xac, virtual true, abstract: false, final false
   inline void remove_willFinishEvent(::System::Action* value);
 
-  /// @brief Method set_rejoinQuickPlay, addr 0x5926c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rejoinQuickPlay, addr 0x592a058, size 0x8, virtual false, abstract: false, final false
   inline void set_rejoinQuickPlay(bool value);
 
 protected:
@@ -926,7 +926,7 @@ public:
   GameServerLobbyFlowCoordinator(GameServerLobbyFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6844 };
 
   /// @brief Field kButtonCancelLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kButtonCancelLocalizationKey{ u"BUTTON_CANCEL" };

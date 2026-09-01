@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DisallowSmallMeshCulling.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DisallowSmallMeshCulling.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,21 +30,21 @@ public:
   /// @brief Field m_applyToChildrenRecursively, offset 0x21, size 0x1
   __declspec(property(get = __cordl_internal_get_m_applyToChildrenRecursively, put = __cordl_internal_set_m_applyToChildrenRecursively)) bool m_applyToChildrenRecursively;
 
-  /// @brief Method AllowSmallMeshCulling, addr 0x68030dc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AllowSmallMeshCulling, addr 0x680ab58, size 0xc4, virtual false, abstract: false, final false
   static inline void AllowSmallMeshCulling(::UnityEngine::Transform* transform, bool allow);
 
-  /// @brief Method AllowSmallMeshCullingRecursively, addr 0x6802da8, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method AllowSmallMeshCullingRecursively, addr 0x680a824, size 0x334, virtual false, abstract: false, final false
   static inline void AllowSmallMeshCullingRecursively(::UnityEngine::Transform* transform, bool allow);
 
   static inline ::UnityEngine::Rendering::DisallowSmallMeshCulling* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6802d54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x680a7d0, size 0x28, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6802d7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x680a7f8, size 0x2c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x68031a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x680ac1c, size 0x18, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr bool const& __cordl_internal_get_m_AppliedRecursively() const;
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_m_applyToChildrenRecursively(bool value);
 
-  /// @brief Method .ctor, addr 0x68031b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x680ac34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_applyToChildrenRecursively, addr 0x6802d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_applyToChildrenRecursively, addr 0x680a7ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_applyToChildrenRecursively();
 
-  /// @brief Method set_applyToChildrenRecursively, addr 0x6802d38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_applyToChildrenRecursively, addr 0x680a7b4, size 0x1c, virtual false, abstract: false, final false
   inline void set_applyToChildrenRecursively(bool value);
 
 protected:
@@ -83,7 +83,7 @@ public:
   DisallowSmallMeshCulling(DisallowSmallMeshCulling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17597 };
 
   /// @brief Field m_AppliedRecursively, offset: 0x20, size: 0x1, def value: None
   bool ___m_AppliedRecursively;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/LikeNode.hpp"
+// IWYU pragma private; include "System\Data\LikeNode.hpp"
 #include "System/Data/zzzz__BinaryNode_impl.hpp"
 #include "System/Data/zzzz__LikeNode_def.hpp"
 #include "System/Data/zzzz__DataRowVersion_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::LikeNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*, ::System::Data::ExpressionNode*)>(
     &::System::Data::LikeNode::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6036dec;
+  constexpr static std::size_t addrs = 0x603e868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::LikeNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&::System::Data::LikeNode::Eval)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x6036dfc;
+  constexpr static std::size_t addrs = 0x603e878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::LikeNode*>(), { ::i2c::class_of<::System::Data::LikeNode*>(), 7 }));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::LikeNode::*)(::StringW)>(&::System::Data::LikeNode::AnalyzePattern)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x6037300;
+  constexpr static std::size_t addrs = 0x603ed7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::LikeNode*>(), { "AnalyzePattern", {}, { ::i2c::type_of<::StringW>() } })));

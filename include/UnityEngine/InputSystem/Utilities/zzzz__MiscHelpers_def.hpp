@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/MiscHelpers.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\MiscHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -228,7 +228,7 @@ public:
   MiscHelpers__EveryNth_d__1_1(MiscHelpers__EveryNth_d__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9173 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -300,7 +300,7 @@ public:
   MiscHelpers(MiscHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

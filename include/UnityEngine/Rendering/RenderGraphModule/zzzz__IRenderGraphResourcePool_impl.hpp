@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/IRenderGraphResourcePool.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\IRenderGraphResourcePool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__IRenderGraphResourcePool_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphLogger_def.hpp"
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67dd1cc;
+  constexpr static std::size_t addrs = 0x67e4c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

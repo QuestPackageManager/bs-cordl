@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/IntSizedArray.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\IntSizedArray.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__IntSizedArray_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b5fb24;
+  constexpr static std::size_t addrs = 0x5b63fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::*)(
     ::System::Runtime::Serialization::Formatters::Binary::IntSizedArray*)>(&::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5b66ad8;
+  constexpr static std::size_t addrs = 0x5b6af94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::Clone)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b66bb0;
+  constexpr static std::size_t addrs = 0x5b6b06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::*)(int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::get_Item)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5b5fb8c;
+  constexpr static std::size_t addrs = 0x5b64048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::*)(int32_t, int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::set_Item)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5b5fc04;
+  constexpr static std::size_t addrs = 0x5b640c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::IntSizedArray*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::*)(int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::IntSizedArray::IncreaseCapacity)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5b66c0c;
+  constexpr static std::size_t addrs = 0x5b6b0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

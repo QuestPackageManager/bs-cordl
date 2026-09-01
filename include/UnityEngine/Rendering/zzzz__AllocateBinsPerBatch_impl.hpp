@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/AllocateBinsPerBatch.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\AllocateBinsPerBatch.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BinningConfig_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AllocateBinsPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::AllocateBinsPerBatch::IsInstanceFlipped)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x680fb38;
+  constexpr static std::size_t addrs = 0x68175b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AllocateBinsPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::AllocateBinsPerBatch::Execute)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x680fbd8;
+  constexpr static std::size_t addrs = 0x6817654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

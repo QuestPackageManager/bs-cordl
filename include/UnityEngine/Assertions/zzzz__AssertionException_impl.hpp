@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Assertions/AssertionException.hpp"
+// IWYU pragma private; include "UnityEngine\Assertions\AssertionException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/Assertions/zzzz__AssertionException_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Assertions::AssertionException._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Assertions::AssertionException::*)(::StringW, ::StringW)>(&::UnityEngine::Assertions::AssertionException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6aff33c;
+  constexpr static std::size_t addrs = 0x6b06d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Assertions::AssertionException::*)()>(&::UnityEngine::Assertions::AssertionException::get_Message)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6affd2c;
+  constexpr static std::size_t addrs = 0x6b07744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

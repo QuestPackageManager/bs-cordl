@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenPackedMaterialData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenPackedMaterialData.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenPackedMaterialData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenPackedMaterialData.get_isTransparent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(&::UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isTransparent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b2519c;
+  constexpr static std::size_t addrs = 0x6b2cd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>(), { "get_isTransparent", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isMotionVectorsPassEnabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b251a8;
+  constexpr static std::size_t addrs = 0x6b2cd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isIndirectSupported)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b251b4;
+  constexpr static std::size_t addrs = 0x6b2cd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(&::UnityEngine::Rendering::GPUDrivenPackedMaterialData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b251c0;
+  constexpr static std::size_t addrs = 0x6b2cd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>(), { ".ctor", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)(::UnityEngine::Rendering::GPUDrivenPackedMaterialData)>(
     &::UnityEngine::Rendering::GPUDrivenPackedMaterialData::Equals)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b251c8;
+  constexpr static std::size_t addrs = 0x6b2cd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>(),

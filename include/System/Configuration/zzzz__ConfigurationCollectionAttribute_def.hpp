@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Configuration/ConfigurationCollectionAttribute.hpp"
+// IWYU pragma private; include "System\Configuration\ConfigurationCollectionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::System::Configuration::ConfigurationCollectionAttribute* New_ctor(::System::Type* itemType);
 
-  /// @brief Method .ctor, addr 0x5f4ff6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f579e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* itemType);
 
 protected:
@@ -42,7 +42,7 @@ public:
   ConfigurationCollectionAttribute(ConfigurationCollectionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23776 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

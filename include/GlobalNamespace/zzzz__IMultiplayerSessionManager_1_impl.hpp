@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IMultiplayerSessionManager_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\IMultiplayerSessionManager_1.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_1_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"

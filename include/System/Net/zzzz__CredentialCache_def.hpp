@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/CredentialCache.hpp"
+// IWYU pragma private; include "System\Net\CredentialCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ namespace System::Net {
 class CORDL_TYPE CredentialCache : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_DefaultCredentials, addr 0x6403eec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultCredentials, addr 0x640b968, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Net::ICredentials* get_DefaultCredentials();
 
-  /// @brief Method get_DefaultNetworkCredentials, addr 0x6403f48, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultNetworkCredentials, addr 0x640b9c4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkCredential* get_DefaultNetworkCredentials();
 
 protected:
@@ -46,7 +46,7 @@ public:
   CredentialCache(CredentialCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11483 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

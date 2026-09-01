@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/LocalAppContext.hpp"
+// IWYU pragma private; include "System\LocalAppContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,10 +43,10 @@ public:
 
   static inline ::System::LocalAppContext___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5ff5e18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ffd894, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_DisableCaching>b__6_0, addr 0x5ff5e1c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <get_DisableCaching>b__6_0, addr 0x5ffd898, size 0x80, virtual false, abstract: false, final false
   inline bool _get_DisableCaching_b__6_0();
 
   static inline ::System::LocalAppContext___c* getStaticF___9();
@@ -72,7 +72,7 @@ public:
   LocalAppContext___c(LocalAppContext___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13725 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -98,10 +98,10 @@ public:
   /// @brief Field s_syncObject, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_syncObject, put = setStaticF_s_syncObject)) ::System::Object* s_syncObject;
 
-  /// @brief Method GetCachedSwitchValue, addr 0x5ff5be8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSwitchValue, addr 0x5ffd664, size 0x20, virtual false, abstract: false, final false
   static inline bool GetCachedSwitchValue(::StringW switchName, ::by_ref<int32_t> switchValue);
 
-  /// @brief Method GetCachedSwitchValueInternal, addr 0x5ff5c08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSwitchValueInternal, addr 0x5ffd684, size 0x98, virtual false, abstract: false, final false
   static inline bool GetCachedSwitchValueInternal(::StringW switchName, ::by_ref<int32_t> switchValue);
 
   static inline bool getStaticF_s_disableCaching();
@@ -110,7 +110,7 @@ public:
 
   static inline ::System::Object* getStaticF_s_syncObject();
 
-  /// @brief Method get_DisableCaching, addr 0x5ff5ca0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_DisableCaching, addr 0x5ffd71c, size 0x124, virtual false, abstract: false, final false
   static inline bool get_DisableCaching();
 
   static inline void setStaticF_s_disableCaching(bool value);
@@ -134,7 +134,7 @@ public:
   LocalAppContext(LocalAppContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13726 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

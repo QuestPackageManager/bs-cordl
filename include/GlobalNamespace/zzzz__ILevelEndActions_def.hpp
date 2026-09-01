@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ILevelEndActions.hpp"
+// IWYU pragma private; include "GlobalNamespace\ILevelEndActions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   ILevelEndActions(ILevelEndActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5995 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

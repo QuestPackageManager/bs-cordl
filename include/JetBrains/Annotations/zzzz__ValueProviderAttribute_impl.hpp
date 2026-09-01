@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/ValueProviderAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\ValueProviderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__ValueProviderAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::ValueProviderAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::ValueProviderAttribute::*)(::StringW)>(&::JetBrains::Annotations::ValueProviderAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e362fc;
+  constexpr static std::size_t addrs = 0x6e3de80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::ValueProviderAttribute::*)()>(&::JetBrains::Annotations::ValueProviderAttribute::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36304;
+  constexpr static std::size_t addrs = 0x6e3de88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::ValueProviderAttribute*>(), { "get_Name", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::ValueProviderAttribute::*)(::StringW)>(&::JetBrains::Annotations::ValueProviderAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3630c;
+  constexpr static std::size_t addrs = 0x6e3de90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

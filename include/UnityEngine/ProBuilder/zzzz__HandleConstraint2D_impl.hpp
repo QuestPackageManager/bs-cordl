@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/HandleConstraint2D.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\HandleConstraint2D.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__HandleConstraint2D_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::HandleConstraint2D::*)(int32_t, int32_t)>(&::UnityEngine::ProBuilder::HandleConstraint2D::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6ef8;
+  constexpr static std::size_t addrs = 0x66be974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::HandleConstraint2D* (::UnityEngine::ProBuilder::HandleConstraint2D::*)()>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::Inverse)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x66b6f00;
+  constexpr static std::size_t addrs = 0x66be97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::HandleConstraint2D*>(), { "Inverse", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::ProBuilder::HandleConstraint2D::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::Mask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66b6f68;
+  constexpr static std::size_t addrs = 0x66be9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::ProBuilder::HandleConstraint2D::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::InverseMask)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x66b6f80;
+  constexpr static std::size_t addrs = 0x66be9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::HandleConstraint2D*, ::UnityEngine::ProBuilder::HandleConstraint2D*)>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::op_Equality)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x66b6fa4;
+  constexpr static std::size_t addrs = 0x66bea20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::HandleConstraint2D*, ::UnityEngine::ProBuilder::HandleConstraint2D*)>(
     &::UnityEngine::ProBuilder::HandleConstraint2D::op_Inequality)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x66b6fe4;
+  constexpr static std::size_t addrs = 0x66bea60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::HandleConstraint2D::*)()>(&::UnityEngine::ProBuilder::HandleConstraint2D::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66b7024;
+  constexpr static std::size_t addrs = 0x66beaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::HandleConstraint2D::*)(::System::Object*)>(&::UnityEngine::ProBuilder::HandleConstraint2D::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x66b7038;
+  constexpr static std::size_t addrs = 0x66beab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::HandleConstraint2D::*)()>(&::UnityEngine::ProBuilder::HandleConstraint2D::ToString)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x66b70c4;
+  constexpr static std::size_t addrs = 0x66beb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

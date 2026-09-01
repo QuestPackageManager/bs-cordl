@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/SortJobDefer_2.hpp"
+// IWYU pragma private; include "Unity\Collections\SortJobDefer_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   constexpr SortJobDefer_2_SegmentSort(::Unity::Collections::NativeList_1<T> DataRO, ::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* Data, U Comp, int32_t SegmentWidth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15696 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -118,7 +118,7 @@ public:
   constexpr SortJobDefer_2_SegmentSortMerge(::Unity::Collections::NativeList_1<T> Data, U Comp, int32_t SegmentWidth) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15697 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -160,7 +160,7 @@ public:
   constexpr SortJobDefer_2(::Unity::Collections::NativeList_1<T> Data, U Comp) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15698 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

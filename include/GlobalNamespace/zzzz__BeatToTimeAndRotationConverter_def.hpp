@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatToTimeAndRotationConverter.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatToTimeAndRotationConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
   /// @brief Field _rotationTimeProcessor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__rotationTimeProcessor, put = __cordl_internal_set__rotationTimeProcessor)) ::GlobalNamespace::RotationTimeProcessor* _rotationTimeProcessor;
 
-  /// @brief Method BeatToRotation, addr 0x370fc00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method BeatToRotation, addr 0x3715a84, size 0x14, virtual false, abstract: false, final false
   inline int32_t BeatToRotation(float_t beat);
 
   static inline ::GlobalNamespace::BeatToTimeAndRotationConverter* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set__rotationTimeProcessor(::GlobalNamespace::RotationTimeProcessor* value);
 
-  /// @brief Method .ctor, addr 0x370fbf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3715a7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -59,7 +59,7 @@ public:
   BeatToTimeAndRotationConverter(BeatToTimeAndRotationConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14903 };
 
   /// @brief Field _rotationTimeProcessor, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::RotationTimeProcessor* ____rotationTimeProcessor;

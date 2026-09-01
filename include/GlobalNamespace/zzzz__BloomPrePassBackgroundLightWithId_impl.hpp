@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundLightWithId_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundColor_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::BloomPrePassBackgroundLightWithId::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundLightWithId::get_color)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x586d284;
+  constexpr static std::size_t addrs = 0x586c3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>(), { "get_color", {}, {} })));
@@ -23,11 +23,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundLightWithId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::BloomPrePassBackgroundLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x586d2a0;
+  constexpr static std::size_t addrs = 0x586c408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>(), 9 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundLightWithId::*)()>(&::GlobalNamespace::BloomPrePassBackgroundLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x586d2bc;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x586c424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>(), { ".ctor", {}, {} })));
@@ -61,7 +61,7 @@ inline ::UnityEngine::Color GlobalNamespace::BloomPrePassBackgroundLightWithId::
 }
 inline void GlobalNamespace::BloomPrePassBackgroundLightWithId::ColorWasSet(::UnityEngine::Color newColor) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newColor);
 }
 inline void GlobalNamespace::BloomPrePassBackgroundLightWithId::_ctor() {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/DebugMember.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\DebugMember.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,10 +121,10 @@ public:
 
   constexpr void __cordl_internal_set_Tweakable(bool value);
 
-  /// @brief Method .ctor, addr 0x5a54d54, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a59210, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::ImmersiveDebugger::DebugColor color);
 
-  /// @brief Method .ctor, addr 0x5a54e08, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a592c4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW colorString);
 
   static inline ::System::Collections::Generic::Dictionary_2<::Meta::XR::ImmersiveDebugger::DebugColor, ::UnityEngine::Color>* getStaticF_ParsedColors();
@@ -149,7 +149,7 @@ public:
   static constexpr ::ConstString DisplayNameTooltip{ u"Optional name override to be used in the Inspector Panel" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23579 };
 
   /// @brief Field GizmoType, offset: 0x10, size: 0x4, def value: None
   ::Meta::XR::ImmersiveDebugger::DebugGizmoType ___GizmoType;

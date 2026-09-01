@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/RazorInjectionAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\RazorInjectionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__RazorInjectionAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::RazorInjectionAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::RazorInjectionAttribute::*)(::StringW, ::StringW)>(&::JetBrains::Annotations::RazorInjectionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e366f8;
+  constexpr static std::size_t addrs = 0x6e3e27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::RazorInjectionAttribute::*)()>(&::JetBrains::Annotations::RazorInjectionAttribute::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36700;
+  constexpr static std::size_t addrs = 0x6e3e284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::RazorInjectionAttribute*>(), { "get_Type", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::RazorInjectionAttribute::*)(::StringW)>(&::JetBrains::Annotations::RazorInjectionAttribute::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36708;
+  constexpr static std::size_t addrs = 0x6e3e28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::RazorInjectionAttribute::*)()>(&::JetBrains::Annotations::RazorInjectionAttribute::get_FieldName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36710;
+  constexpr static std::size_t addrs = 0x6e3e294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::RazorInjectionAttribute*>(), { "get_FieldName", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::RazorInjectionAttribute::*)(::StringW)>(&::JetBrains::Annotations::RazorInjectionAttribute::set_FieldName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36718;
+  constexpr static std::size_t addrs = 0x6e3e29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

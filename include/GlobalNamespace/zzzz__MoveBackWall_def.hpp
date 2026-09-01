@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MoveBackWall.hpp"
+// IWYU pragma private; include "GlobalNamespace\MoveBackWall.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,10 +49,10 @@ public:
 
   static inline ::GlobalNamespace::MoveBackWall* New_ctor();
 
-  /// @brief Method Start, addr 0x59e364c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59ebc10, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59e369c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59ebc60, size 0xbc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__fadeInRegion() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__thisZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x59e3758, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ebd1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,7 +109,7 @@ public:
   MoveBackWall(MoveBackWall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6204 };
 
   /// @brief Field _fadeInRegion, offset: 0x20, size: 0x4, def value: None
   float_t ____fadeInRegion;

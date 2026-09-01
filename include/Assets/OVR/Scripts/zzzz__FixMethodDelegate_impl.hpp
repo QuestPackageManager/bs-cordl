@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Assets/OVR/Scripts/FixMethodDelegate.hpp"
+// IWYU pragma private; include "Assets\OVR\Scripts\FixMethodDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Assets/OVR/Scripts/zzzz__FixMethodDelegate_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Assets::OVR::Scripts::FixMethodDelegate::*)(::System::Object*, ::System::IntPtr)>(&::Assets::OVR::Scripts::FixMethodDelegate::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5e457a0;
+  constexpr static std::size_t addrs = 0x5e49c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Assets::OVR::Scripts::FixMethodDelegate::*)(::UnityEngine::Object*, bool, int32_t)>(
     &::Assets::OVR::Scripts::FixMethodDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e458e8;
+  constexpr static std::size_t addrs = 0x5e49da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::Assets::OVR::Scripts::FixMethodDelegate::*)(::UnityEngine::Object*, bool, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::Assets::OVR::Scripts::FixMethodDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e458fc;
+  constexpr static std::size_t addrs = 0x5e49db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Assets::OVR::Scripts::FixMethodDelegate::*)(::System::IAsyncResult*)>(&::Assets::OVR::Scripts::FixMethodDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e45978;
+  constexpr static std::size_t addrs = 0x5e49e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

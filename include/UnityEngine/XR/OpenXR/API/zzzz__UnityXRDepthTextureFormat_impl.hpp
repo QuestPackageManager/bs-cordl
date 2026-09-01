@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/API/UnityXRDepthTextureFormat.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\API\UnityXRDepthTextureFormat.hpp"
 #include "UnityEngine/XR/OpenXR/API/zzzz__UnityXRDepthTextureFormat_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::XR::OpenXR::API::UnityXRDepthTextureFormat::UnityXRDepthTextureFormat(int32_t value__) noexcept {

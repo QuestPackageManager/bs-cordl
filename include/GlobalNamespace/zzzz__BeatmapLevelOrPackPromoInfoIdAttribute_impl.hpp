@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapLevelOrPackPromoInfoIdAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapLevelOrPackPromoInfoIdAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelOrPackPromoInfoIdAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelOrPackPromoInfoIdAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelOrPackPromoInfoIdAttribute::*)(bool)>(&::GlobalNamespace::BeatmapLevelOrPackPromoInfoIdAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3748930;
+  constexpr static std::size_t addrs = 0x374e58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

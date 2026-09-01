@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Date/DateTimeUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Date\DateTimeUtilities.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeUtilities_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::*)()>(&::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3627830;
+  constexpr static std::size_t addrs = 0x362b5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::DateTime)>(&::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::DateTimeToUnixMs)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3627834;
+  constexpr static std::size_t addrs = 0x362b5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (*)(int64_t)>(&::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::UnixMsToDateTime)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x36279c0;
+  constexpr static std::size_t addrs = 0x362b780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)()>(&::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::CurrentUnixMs)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3627a80;
+  constexpr static std::size_t addrs = 0x362b840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Date::DateTimeUtilities*>(), { "CurrentUnixMs", {}, {} })));

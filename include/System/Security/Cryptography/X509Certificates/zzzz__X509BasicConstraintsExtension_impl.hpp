@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509BasicConstraintsExtension.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509BasicConstraintsExtension.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_impl.hpp"
 #include "System/Security/Cryptography/zzzz__AsnDecodeStatus_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509BasicConstraintsExtension_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x639d5b4;
+  constexpr static std::size_t addrs = 0x63a5030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)(
     ::System::Security::Cryptography::AsnEncodedData*, bool)>(&::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x639c0a8;
+  constexpr static std::size_t addrs = 0x63a3b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)(bool, bool, int32_t, bool)>(
     &::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x639d818;
+  constexpr static std::size_t addrs = 0x63a5294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::get_CertificateAuthority)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x639da7c;
+  constexpr static std::size_t addrs = 0x63a54f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::get_HasPathLengthConstraint)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x639dae0;
+  constexpr static std::size_t addrs = 0x63a555c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::get_PathLengthConstraint)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x639db44;
+  constexpr static std::size_t addrs = 0x63a55c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)(::System::Security::Cryptography::AsnEncodedData*)>(
     &::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::CopyFrom)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x639dba8;
+  constexpr static std::size_t addrs = 0x63a5624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::AsnDecodeStatus (::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)(
     ::ArrayW<uint8_t>)>(&::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::Decode)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x639d640;
+  constexpr static std::size_t addrs = 0x63a50bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension*>(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::Encode)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x639d940;
+  constexpr static std::size_t addrs = 0x63a53bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)(bool)>(
     &::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::ToString)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x639dd68;
+  constexpr static std::size_t addrs = 0x63a57e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

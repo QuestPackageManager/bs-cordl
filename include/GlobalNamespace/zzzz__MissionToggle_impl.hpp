@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionToggle.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionToggle.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionToggle_def.hpp"
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*)>(
     &::GlobalNamespace::MissionToggle::add_selectionDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5939bcc;
+  constexpr static std::size_t addrs = 0x593d650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*)>(
     &::GlobalNamespace::MissionToggle::remove_selectionDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5939dc8;
+  constexpr static std::size_t addrs = 0x593d84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(bool)>(&::GlobalNamespace::MissionToggle::set_missionCleared)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593a314;
+  constexpr static std::size_t addrs = 0x593dd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::get_selected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593a31c;
+  constexpr static std::size_t addrs = 0x593dda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionToggle*>(), { "get_selected", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(bool)>(&::GlobalNamespace::MissionToggle::set_selected)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5939b00;
+  constexpr static std::size_t addrs = 0x593d584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionToggle*>(), { "set_selected", {}, { ::i2c::type_of<bool>() } })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::get_interactable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593a324;
+  constexpr static std::size_t addrs = 0x593dda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionToggle*>(), { "get_interactable", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(bool)>(&::GlobalNamespace::MissionToggle::set_interactable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939c8c;
+  constexpr static std::size_t addrs = 0x593d710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::get_highlighted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593a5d8;
+  constexpr static std::size_t addrs = 0x593e05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionToggle*>(), { "get_highlighted", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593a5e0;
+  constexpr static std::size_t addrs = 0x593e064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(bool, bool, bool)>(&::GlobalNamespace::MissionToggle::ChangeSelection)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5939efc;
+  constexpr static std::size_t addrs = 0x593d980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(bool, bool)>(&::GlobalNamespace::MissionToggle::ChangeHighlight)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x593a5e4;
+  constexpr static std::size_t addrs = 0x593e068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::StringW)>(&::GlobalNamespace::MissionToggle::SetText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5939e88;
+  constexpr static std::size_t addrs = 0x593d90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionToggle*>(), { "SetText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::InternalToggle)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x593a604;
+  constexpr static std::size_t addrs = 0x593e088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionToggle*>(), { "InternalToggle", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::RefreshUI)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x593a32c;
+  constexpr static std::size_t addrs = 0x593ddb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionToggle*>(), { "RefreshUI", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::GlobalNamespace::MissionToggle::OnPointerClick)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x593a634;
+  constexpr static std::size_t addrs = 0x593e0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::GlobalNamespace::MissionToggle::OnSubmit)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x593a6ec;
+  constexpr static std::size_t addrs = 0x593e170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::GlobalNamespace::MissionToggle::OnPointerEnter)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x593a788;
+  constexpr static std::size_t addrs = 0x593e20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::GlobalNamespace::MissionToggle::OnPointerExit)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x593a7a8;
+  constexpr static std::size_t addrs = 0x593e22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x593a7c4;
+  constexpr static std::size_t addrs = 0x593e248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionToggle*>(), { ".ctor", {}, {} })));

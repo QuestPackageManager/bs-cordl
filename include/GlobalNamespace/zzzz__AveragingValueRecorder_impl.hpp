@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AveragingValueRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace\AveragingValueRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AveragingValueRecorder_AverageValueData::*)()>(
     &::GlobalNamespace::AveragingValueRecorder_AverageValueData::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20b98;
+  constexpr static std::size_t addrs = 0x58dcb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AveragingValueRecorder_AverageValueData>(), { "get_value", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AveragingValueRecorder_AverageValueData::*)(float_t)>(
     &::GlobalNamespace::AveragingValueRecorder_AverageValueData::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20ba0;
+  constexpr static std::size_t addrs = 0x58dcb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AveragingValueRecorder_AverageValueData::*)()>(
     &::GlobalNamespace::AveragingValueRecorder_AverageValueData::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20ba8;
+  constexpr static std::size_t addrs = 0x58dcb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AveragingValueRecorder_AverageValueData>(), { "get_time", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AveragingValueRecorder_AverageValueData::*)(float_t)>(
     &::GlobalNamespace::AveragingValueRecorder_AverageValueData::set_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20bb0;
+  constexpr static std::size_t addrs = 0x58dcb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AveragingValueRecorder_AverageValueData::*)(float_t, float_t)>(
     &::GlobalNamespace::AveragingValueRecorder_AverageValueData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20b78;
+  constexpr static std::size_t addrs = 0x58dcb14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AveragingValueRecorder::*)(float_t, float_t, float_t)>(&::GlobalNamespace::AveragingValueRecorder::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5a207c8;
+  constexpr static std::size_t addrs = 0x58dc764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AveragingValueRecorder*>(),
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AveragingValueRecorder::*)(float_t, float_t)>(&::GlobalNamespace::AveragingValueRecorder::Update)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x5a208f0;
+  constexpr static std::size_t addrs = 0x58dc88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AveragingValueRecorder::*)()>(&::GlobalNamespace::AveragingValueRecorder::GetAverageValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20b80;
+  constexpr static std::size_t addrs = 0x58dcb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AveragingValueRecorder*>(), { "GetAverageValue", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AveragingValueRecorder::*)()>(&::GlobalNamespace::AveragingValueRecorder::GetLastValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20b88;
+  constexpr static std::size_t addrs = 0x58dcb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AveragingValueRecorder*>(), { "GetLastValue", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Queue_1<float_t>* (::GlobalNamespace::AveragingValueRecorder::*)()>(
     &::GlobalNamespace::AveragingValueRecorder::GetHistoryValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20b90;
+  constexpr static std::size_t addrs = 0x58dcb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AveragingValueRecorder*>(), { "GetHistoryValues", {}, {} })));

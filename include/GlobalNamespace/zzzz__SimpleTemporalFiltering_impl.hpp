@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SimpleTemporalFiltering.hpp"
+// IWYU pragma private; include "GlobalNamespace\SimpleTemporalFiltering.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__RenderTexture_impl.hpp"
 #include "GlobalNamespace/zzzz__SimpleTemporalFiltering_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleTemporalFiltering::*)()>(&::GlobalNamespace::SimpleTemporalFiltering::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5f474d8;
+  constexpr static std::size_t addrs = 0x5f4ee4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleTemporalFiltering*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::GlobalNamespace::SimpleTemporalFiltering::*)(::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::SimpleTemporalFiltering::FilterTexture)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5f47594;
+  constexpr static std::size_t addrs = 0x5f4ef08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleTemporalFiltering::*)(int32_t, int32_t)>(
     &::GlobalNamespace::SimpleTemporalFiltering::CreateRenderTexturesIfNeeded)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x5f47708;
+  constexpr static std::size_t addrs = 0x5f4f07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleTemporalFiltering*>(),

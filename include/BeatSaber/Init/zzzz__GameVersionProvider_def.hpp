@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Init/GameVersionProvider.hpp"
+// IWYU pragma private; include "BeatSaber\Init\GameVersionProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,21 +43,21 @@ public:
   /// @brief Field _versionTask, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__versionTask, put = __cordl_internal_set__versionTask)) ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* _versionTask;
 
-  /// @brief Method GetBuildId, addr 0x329874c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetBuildId, addr 0x329c548, size 0x98, virtual false, abstract: false, final false
   static inline uint64_t GetBuildId();
 
-  /// @brief Method GetBuildTimeGameVersion, addr 0x32987e4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetBuildTimeGameVersion, addr 0x329c5e0, size 0x19c, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion* GetBuildTimeGameVersion();
 
-  /// @brief Method GetContentVersion, addr 0x3298644, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetContentVersion, addr 0x329c440, size 0x108, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_Content GetContentVersion();
 
-  /// @brief Method GetVersion, addr 0x3298980, size 0x7d8, virtual false, abstract: false, final false
+  /// @brief Method GetVersion, addr 0x329c77c, size 0x7d8, virtual false, abstract: false, final false
   inline ::BeatSaber::Init::GameVersion* GetVersion();
 
   static inline ::BeatSaber::Init::GameVersionProvider* New_ctor();
 
-  /// @brief Method NoDomainReloadInit, addr 0x32985f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x329c3f4, size 0x4c, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   constexpr ::OculusStudios::Platform::Core::IPlatform* const& __cordl_internal_get__platform() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__versionTask(::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* value);
 
-  /// @brief Method .ctor, addr 0x3299158, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x329cf54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Nullable_1<::BeatSaber::Init::GameVersion_Content> getStaticF__contentVersion();
@@ -94,7 +94,7 @@ public:
   GameVersionProvider(GameVersionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22714 };
 
   /// @brief Field _versionTask, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* ____versionTask;

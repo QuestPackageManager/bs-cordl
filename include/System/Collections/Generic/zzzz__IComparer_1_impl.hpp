@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Generic/IComparer_1.hpp"
+// IWYU pragma private; include "System\Collections\Generic\IComparer_1.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 template <typename T> inline int32_t System::Collections::Generic::IComparer_1<T>::Compare(T x, T y) {
   auto* ___internal_method =

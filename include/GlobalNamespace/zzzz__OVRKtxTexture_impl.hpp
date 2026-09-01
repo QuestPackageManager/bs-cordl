@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRKtxTexture.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRKtxTexture.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRKtxTexture_def.hpp"
 #include "GlobalNamespace/zzzz__OVRTextureData_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>, ::by_ref<::GlobalNamespace::OVRTextureData>)>(&::GlobalNamespace::OVRKtxTexture::Load)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x5e5e274;
+  constexpr static std::size_t addrs = 0x5e62730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRKtxTexture::*)()>(&::GlobalNamespace::OVRKtxTexture::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e5e4d8;
+  constexpr static std::size_t addrs = 0x5e62994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRKtxTexture*>(), { ".ctor", {}, {} })));

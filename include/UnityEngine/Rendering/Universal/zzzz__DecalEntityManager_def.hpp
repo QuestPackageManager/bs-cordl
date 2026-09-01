@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalEntityManager.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalEntityManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +92,7 @@ public:
                                               int32_t previousChunkIndex, bool valid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12699 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -148,10 +148,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DecalEntityManager___c* New_ctor();
 
-  /// @brief Method <Update>b__26_0, addr 0x6856f28, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__26_0, addr 0x685e9a4, size 0xa8, virtual false, abstract: false, final false
   inline int32_t _Update_b__26_0(::UnityEngine::Rendering::Universal::DecalEntityManager_CombinedChunks a, ::UnityEngine::Rendering::Universal::DecalEntityManager_CombinedChunks b);
 
-  /// @brief Method .ctor, addr 0x6856f24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685e9a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DecalEntityManager___c* getStaticF___9();
@@ -177,7 +177,7 @@ public:
   DecalEntityManager___c(DecalEntityManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12700 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -251,30 +251,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateChunkIndex, addr 0x68550dc, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method CreateChunkIndex, addr 0x685cb58, size 0x594, virtual false, abstract: false, final false
   inline int32_t CreateChunkIndex(::UnityEngine::Material* material);
 
-  /// @brief Method CreateDecalEntity, addr 0x6854c1c, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method CreateDecalEntity, addr 0x685c698, size 0x4c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DecalEntity CreateDecalEntity(::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
-  /// @brief Method DestroyDecalEntity, addr 0x6855b48, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method DestroyDecalEntity, addr 0x685d5c4, size 0x1e8, virtual false, abstract: false, final false
   inline void DestroyDecalEntity(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
-  /// @brief Method Dispose, addr 0x6856738, size 0x798, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x685e1b4, size 0x798, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method IsValid, addr 0x6854c08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x685c684, size 0x14, virtual false, abstract: false, final false
   inline bool IsValid(::UnityEngine::Rendering::Universal::DecalEntity decalEntity);
 
   static inline ::UnityEngine::Rendering::Universal::DecalEntityManager* New_ctor();
 
-  /// @brief Method Update, addr 0x6855d30, size 0xa08, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x685d7ac, size 0xa08, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateAllDecalEntitiesData, addr 0x6855970, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllDecalEntitiesData, addr 0x685d3ec, size 0x1d8, virtual false, abstract: false, final false
   inline void UpdateAllDecalEntitiesData();
 
-  /// @brief Method UpdateDecalEntityData, addr 0x6855670, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDecalEntityData, addr 0x685d0ec, size 0x2f8, virtual false, abstract: false, final false
   inline void UpdateDecalEntityData(::UnityEngine::Rendering::Universal::DecalEntity decalEntity, ::UnityEngine::Rendering::Universal::DecalProjector* decalProjector);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalCachedChunk*>* const& __cordl_internal_get_cachedChunks() const;
@@ -361,13 +361,13 @@ public:
 
   constexpr void __cordl_internal_set_m_SortChunks(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x68548e0, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685c35c, size 0x328, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_decalProjectorMesh, addr 0x68536d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_decalProjectorMesh, addr 0x685b14c, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_decalProjectorMesh();
 
-  /// @brief Method get_errorMaterial, addr 0x6850478, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_errorMaterial, addr 0x6857ef4, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_errorMaterial();
 
   /// @brief Convert to "::System::IDisposable"
@@ -388,7 +388,7 @@ public:
   DecalEntityManager(DecalEntityManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12672 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12701 };
 
   /// @brief Field entityChunks, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::Universal::DecalEntityChunk*>* ___entityChunks;

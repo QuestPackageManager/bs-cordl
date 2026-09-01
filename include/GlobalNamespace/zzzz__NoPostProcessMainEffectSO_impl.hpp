@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoPostProcessMainEffectSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoPostProcessMainEffectSO.hpp"
 #include "GlobalNamespace/zzzz__MainEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__NoPostProcessMainEffectSO_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IBaseCommandBuffer_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NoPostProcessMainEffectSO::*)()>(&::GlobalNamespace::NoPostProcessMainEffectSO::get_hasPostProcessEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f40a04;
+  constexpr static std::size_t addrs = 0x5f45b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)()>(&::GlobalNamespace::NoPostProcessMainEffectSO::OnEnable)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5f40a0c;
+  constexpr static std::size_t addrs = 0x5f45b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)()>(&::GlobalNamespace::NoPostProcessMainEffectSO::OnDisable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f40d04;
+  constexpr static std::size_t addrs = 0x5f45e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoPostProcessMainEffectSO*>(), { "OnDisable", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)(::UnityEngine::Rendering::IBaseCommandBuffer*)>(
     &::GlobalNamespace::NoPostProcessMainEffectSO::PreRender)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5f40d34;
+  constexpr static std::size_t addrs = 0x5f45e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)(::UnityEngine::Rendering::RasterCommandBuffer*, float_t)>(
     &::GlobalNamespace::NoPostProcessMainEffectSO::PostRender)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5f40dac;
+  constexpr static std::size_t addrs = 0x5f45ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)()>(&::GlobalNamespace::NoPostProcessMainEffectSO::InitTriangleMeshIfNeeded)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5f40b40;
+  constexpr static std::size_t addrs = 0x5f45c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoPostProcessMainEffectSO*>(), { "InitTriangleMeshIfNeeded", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(float_t)>(&::GlobalNamespace::NoPostProcessMainEffectSO::CreateFullScreenTriangleVertexPosition)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f40f14;
+  constexpr static std::size_t addrs = 0x5f46010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)()>(&::GlobalNamespace::NoPostProcessMainEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f40fc8;
+  constexpr static std::size_t addrs = 0x5f460c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoPostProcessMainEffectSO*>(), { ".ctor", {}, {} })));

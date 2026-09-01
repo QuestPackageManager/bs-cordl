@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScreenshotRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScreenshotRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,7 +88,7 @@ public:
   static ::GlobalNamespace::ScreenshotRecorder_RecordingType const Stereo360Sequence;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21421 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -169,27 +169,27 @@ public:
 
   __declspec(property(get = get_directory, put = set_directory)) ::StringW directory;
 
-  /// @brief Method ConvertRenderTexture, addr 0x5859258, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ConvertRenderTexture, addr 0x5858360, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
-  /// @brief Method LateUpdate, addr 0x5859078, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5858180, size 0x140, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::ScreenshotRecorder* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x5859240, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x5858348, size 0x18, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDisable, addr 0x5858fb0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58580b8, size 0xc8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5858dfc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5857f04, size 0x1b4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SaveCameraScreenshot, addr 0x58591b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SaveCameraScreenshot, addr 0x58582c0, size 0x88, virtual false, abstract: false, final false
   inline void SaveCameraScreenshot();
 
-  /// @brief Method SaveTextureScreenshot, addr 0x5859354, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SaveTextureScreenshot, addr 0x585845c, size 0x158, virtual false, abstract: false, final false
   inline void SaveTextureScreenshot(::UnityEngine::Texture2D* tex);
 
   constexpr int32_t const& __cordl_internal_get__antiAlias() const;
@@ -300,13 +300,13 @@ public:
 
   constexpr void __cordl_internal_set__screenshotWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x58594ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58585b4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_directory, addr 0x5858dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_directory, addr 0x5857ef4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_directory();
 
-  /// @brief Method set_directory, addr 0x5858df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directory, addr 0x5857efc, size 0x8, virtual false, abstract: false, final false
   inline void set_directory(::StringW value);
 
 protected:
@@ -324,7 +324,7 @@ public:
   ScreenshotRecorder(ScreenshotRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21422 };
 
   /// @brief Field _directory, offset: 0x20, size: 0x8, def value: None
   ::StringW ____directory;

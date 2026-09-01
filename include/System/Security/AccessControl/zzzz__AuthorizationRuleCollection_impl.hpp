@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/AuthorizationRuleCollection.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\AuthorizationRuleCollection.hpp"
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRuleCollection_def.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::AuthorizationRuleCollection::*)(::ArrayW<::System::Security::AccessControl::AuthorizationRule*>)>(
     &::System::Security::AccessControl::AuthorizationRuleCollection::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5b186f0;
+  constexpr static std::size_t addrs = 0x5b1cbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::AuthorizationRuleCollection*>(),

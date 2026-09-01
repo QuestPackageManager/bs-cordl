@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Security/LocalCertificateSelectionCallback.hpp"
+// IWYU pragma private; include "System\Net\Security\LocalCertificateSelectionCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/Security/zzzz__LocalCertificateSelectionCallback_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::LocalCertificateSelectionCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Net::Security::LocalCertificateSelectionCallback::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6368fb8;
+  constexpr static std::size_t addrs = 0x6370a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Security::LocalCertificateSelectionCallback*>(),
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Crypt
                                                                    ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>)>(
     &::System::Net::Security::LocalCertificateSelectionCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6369100;
+  constexpr static std::size_t addrs = 0x6370b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Security::LocalCertificateSelectionCallback*>(),

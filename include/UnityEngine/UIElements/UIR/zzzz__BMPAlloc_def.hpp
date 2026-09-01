@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/BMPAlloc.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\BMPAlloc.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +25,13 @@ public:
   /// @brief Field Invalid, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Invalid, put = setStaticF_Invalid)) ::UnityEngine::UIElements::UIR::BMPAlloc Invalid;
 
-  /// @brief Method Equals, addr 0x6ce812c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6cefcb0, size 0x38, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UIR::BMPAlloc other);
 
-  /// @brief Method IsValid, addr 0x6ce4a1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6cec5a0, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method ToString, addr 0x6cec2f0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6cf3e74, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_Invalid();

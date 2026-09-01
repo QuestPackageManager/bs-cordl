@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/SkinColorSetSO.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\SkinColorSetSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__colors(::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>> value);
 
-  /// @brief Method .ctor, addr 0x327a9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327e74c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colors, addr 0x327a9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colors, addr 0x327e744, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>> get_colors();
 
 protected:
@@ -58,7 +58,7 @@ public:
   SkinColorSetSO(SkinColorSetSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22350 };
 
   /// @brief Field _colors, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>> ____colors;

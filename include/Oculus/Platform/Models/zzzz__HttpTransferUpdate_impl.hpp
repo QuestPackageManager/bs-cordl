@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/HttpTransferUpdate.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\HttpTransferUpdate.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__HttpTransferUpdate_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::HttpTransferUpdate::*)(::System::IntPtr)>(&::Oculus::Platform::Models::HttpTransferUpdate::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5deb4f8;
+  constexpr static std::size_t addrs = 0x5def9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

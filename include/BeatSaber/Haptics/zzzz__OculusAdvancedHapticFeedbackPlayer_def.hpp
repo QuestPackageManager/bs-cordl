@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Haptics/OculusAdvancedHapticFeedbackPlayer.hpp"
+// IWYU pragma private; include "BeatSaber\Haptics\OculusAdvancedHapticFeedbackPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set_player(::Oculus::Haptics::HapticClipPlayer* value);
 
-  /// @brief Method .ctor, addr 0x3294384, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3298180, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,7 +109,7 @@ public:
   OculusAdvancedHapticFeedbackPlayer_HapticPlayerState(OculusAdvancedHapticFeedbackPlayer_HapticPlayerState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23190 };
 
   /// @brief Field player, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Haptics::HapticClipPlayer* ___player;
@@ -170,30 +170,30 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x32943c0, size 0x1d4, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x32981bc, size 0x1d4, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::BeatSaber::Haptics::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method Dispose, addr 0x3294720, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x329851c, size 0x1ec, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetHapticClip, addr 0x3294388, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetHapticClip, addr 0x3298184, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityW<::Oculus::Haptics::HapticClip> GetHapticClip(::UnityEngine::XR::XRNode node, ::BeatSaber::Haptics::HapticPresetSO* hapticPreset);
 
-  /// @brief Method HandleApplicationQuitting, addr 0x3294b48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationQuitting, addr 0x3298944, size 0x70, virtual false, abstract: false, final false
   inline void HandleApplicationQuitting();
 
-  /// @brief Method Initialize, addr 0x3294678, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3298474, size 0xa8, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method IsOculusTouchController, addr 0x3294ac0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsOculusTouchController, addr 0x32988bc, size 0x88, virtual false, abstract: false, final false
   static inline bool IsOculusTouchController(::UnityEngine::XR::XRNode node);
 
   static inline ::BeatSaber::Haptics::OculusAdvancedHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x32940a8, size 0x2dc, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x3297ea4, size 0x2dc, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::BeatSaber::Haptics::HapticPresetSO* hapticPreset);
 
-  /// @brief Method Tick, addr 0x329490c, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3298708, size 0x1b4, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::BeatSaber::Haptics::HapticPresetSO>, ::UnityEngine::XR::XRNode>,
@@ -232,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x3294bb8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32989b4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Haptics::IHapticFeedbackPlayer"
@@ -262,7 +262,7 @@ public:
   OculusAdvancedHapticFeedbackPlayer(OculusAdvancedHapticFeedbackPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23191 };
 
   /// @brief Field _vrPlatformHelper, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;

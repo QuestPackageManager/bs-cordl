@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/SceneSetup.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\SceneSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,10 +19,10 @@ namespace Meta::XR::ImmersiveDebugger {
 class CORDL_TYPE SceneSetup : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OnLoad, addr 0x5a3e9dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnLoad, addr 0x5a42e98, size 0x5c, virtual false, abstract: false, final false
   static inline void OnLoad();
 
-  /// @brief Method SetupImmersiveDebugger, addr 0x5a3ea38, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method SetupImmersiveDebugger, addr 0x5a42ef4, size 0x34c, virtual false, abstract: false, final false
   static inline void SetupImmersiveDebugger();
 
 protected:
@@ -40,7 +40,7 @@ public:
   SceneSetup(SceneSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18336 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

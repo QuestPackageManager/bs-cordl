@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Destinations/GameStageExtensions.hpp"
+// IWYU pragma private; include "BeatSaber\Destinations\GameStageExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace BeatSaber::Destinations {
 class CORDL_TYPE GameStageExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RequiresShaderWarmup, addr 0x327d6c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RequiresShaderWarmup, addr 0x3281458, size 0x30, virtual false, abstract: false, final false
   static inline bool RequiresShaderWarmup(::BeatSaber::Destinations::DestinationTarget stage);
 
 protected:
@@ -40,7 +40,7 @@ public:
   GameStageExtensions(GameStageExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23069 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

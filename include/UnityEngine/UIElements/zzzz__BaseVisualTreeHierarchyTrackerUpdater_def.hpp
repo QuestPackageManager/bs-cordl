@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BaseVisualTreeHierarchyTrackerUpdater.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BaseVisualTreeHierarchyTrackerUpdater.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,19 +113,19 @@ public:
   /// @brief Method OnHierarchyChange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);
 
-  /// @brief Method OnVersionChanged, addr 0x6cc6798, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x6cce31c, size 0x2c, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method ProcessAddOrMove, addr 0x6cc687c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ProcessAddOrMove, addr 0x6cce400, size 0xbc, virtual false, abstract: false, final false
   inline void ProcessAddOrMove(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ProcessNewChange, addr 0x6cc67c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ProcessNewChange, addr 0x6cce348, size 0x60, virtual false, abstract: false, final false
   inline void ProcessNewChange(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ProcessRemove, addr 0x6cc6824, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ProcessRemove, addr 0x6cce3a8, size 0x58, virtual false, abstract: false, final false
   inline void ProcessRemove(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update, addr 0x6cc6938, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6cce4bc, size 0x98, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_CurrentChangeElement() const;
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set_m_State(::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater_State value);
 
-  /// @brief Method .ctor, addr 0x6cc69d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cce554, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

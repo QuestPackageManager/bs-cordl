@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/RSAPKCS1SignatureDescription.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\RSAPKCS1SignatureDescription.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set__hashAlgorithm(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b02844, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b06d00, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm);
 
 protected:

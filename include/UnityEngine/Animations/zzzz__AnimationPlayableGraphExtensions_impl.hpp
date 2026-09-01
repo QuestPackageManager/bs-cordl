@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableGraphExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Animations\AnimationPlayableGraphExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableGraphExtensions_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::StringW, ::by_ref<::UnityEngine::Playables::PlayableOutputHandle>)>(
     &::UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6a41a18;
+  constexpr static std::size_t addrs = 0x6a49494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationPlayableGraphExtensions*>(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Playables::PlayableOutputHandle>)>(
         &::UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a41b60;
+  constexpr static std::size_t addrs = 0x6a495dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

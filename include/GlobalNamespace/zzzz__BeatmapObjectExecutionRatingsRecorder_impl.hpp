@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapObjectExecutionRatingsRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapObjectExecutionRatingsRecorder.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRatingsRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* (
     ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(&::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::get_beatmapObjectExecutionRatings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58c544c;
+  constexpr static std::size_t addrs = 0x58c4dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(&::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::Start)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x58c5454;
+  constexpr static std::size_t addrs = 0x58c4e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>(), { "Start", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(&::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::OnDestroy)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x58c56c0;
+  constexpr static std::size_t addrs = 0x58c5070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>(), { "OnDestroy", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(::GlobalNamespace::ScoringElement*)>(
     &::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleScoringForNoteDidFinish)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x58c597c;
+  constexpr static std::size_t addrs = 0x58c532c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandlePlayerHeadDidEnterObstacle)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x58c5d68;
+  constexpr static std::size_t addrs = 0x58c5718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleObstacleDidPassAvoidedMark)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x58c5e9c;
+  constexpr static std::size_t addrs = 0x58c584c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>(),
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(&::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x58c6008;
+  constexpr static std::size_t addrs = 0x58c59b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>(), { ".ctor", {}, {} })));

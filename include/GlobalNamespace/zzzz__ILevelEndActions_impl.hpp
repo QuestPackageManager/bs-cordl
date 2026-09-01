@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ILevelEndActions.hpp"
+// IWYU pragma private; include "GlobalNamespace\ILevelEndActions.hpp"
 #include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ILevelEndActions.add_levelFinishedEvent

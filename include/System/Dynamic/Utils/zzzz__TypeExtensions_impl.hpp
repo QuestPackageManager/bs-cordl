@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Dynamic/Utils/TypeExtensions.hpp"
+// IWYU pragma private; include "System\Dynamic\Utils\TypeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Dynamic/Utils/zzzz__TypeExtensions_def.hpp"
 #include "System/Dynamic/Utils/zzzz__CacheDict_2_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Type*>)>(
     &::System::Dynamic::Utils::TypeExtensions::GetAnyStaticMethodValidated)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5fc2a54;
+  constexpr static std::size_t addrs = 0x5fca4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::MethodInfo*, ::ArrayW<::System::Type*>)>(&::System::Dynamic::Utils::TypeExtensions::MatchesArgumentTypes)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5fc2afc;
+  constexpr static std::size_t addrs = 0x5fca578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Reflection::MethodBase*)>(&::System::Dynamic::Utils::TypeExtensions::GetReturnType)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5fc2c40;
+  constexpr static std::size_t addrs = 0x5fca6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TypeCode (*)(::System::Type*)>(&::System::Dynamic::Utils::TypeExtensions::GetTypeCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5fc2cf4;
+  constexpr static std::size_t addrs = 0x5fca770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*> (*)(::System::Reflection::MethodBase*)>(
     &::System::Dynamic::Utils::TypeExtensions::GetParametersCached)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5fc2168;
+  constexpr static std::size_t addrs = 0x5fc9be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

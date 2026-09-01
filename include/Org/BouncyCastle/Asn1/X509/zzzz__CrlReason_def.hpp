@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/CrlReason.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\CrlReason.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlReason* New_ctor(int32_t reason);
 
-  /// @brief Method ToString, addr 0x36565fc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x365a3bc, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x365657c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365a33c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerEnumerated* reason);
 
-  /// @brief Method .ctor, addr 0x3656510, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365a2d0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t reason);
 
   static inline ::ArrayW<::StringW> getStaticF_ReasonString();

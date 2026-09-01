@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/SpriteCharacter.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\SpriteCharacter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bf9770, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c012f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x6bf886c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6c003f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:
@@ -54,7 +54,7 @@ public:
   SpriteCharacter(SpriteCharacter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17233 };
 
   /// @brief Field m_Name, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_Name;

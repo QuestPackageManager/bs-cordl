@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/IPlatformEntitlements.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\IPlatformEntitlements.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatformEntitlements_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IProductDefinition_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__Product_def.hpp"

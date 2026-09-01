@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DebugShapes.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DebugShapes.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugShapes_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugShapes* (*)()>(&::UnityEngine::Rendering::DebugShapes::get_instance)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x67600a4;
+  constexpr static std::size_t addrs = 0x6767b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugShapes*>(), { "get_instance", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)(::by_ref<::UnityEngine::Mesh*>, float_t, uint32_t, uint32_t)>(
     &::UnityEngine::Rendering::DebugShapes::BuildSphere)> {
   constexpr static std::size_t size = 0x720;
-  constexpr static std::size_t addrs = 0x6760118;
+  constexpr static std::size_t addrs = 0x6767b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)(::by_ref<::UnityEngine::Mesh*>, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::DebugShapes::BuildBox)> {
   constexpr static std::size_t size = 0x7b4;
-  constexpr static std::size_t addrs = 0x6760838;
+  constexpr static std::size_t addrs = 0x67682b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)(::by_ref<::UnityEngine::Mesh*>, float_t, float_t, float_t, int32_t)>(
     &::UnityEngine::Rendering::DebugShapes::BuildCone)> {
   constexpr static std::size_t size = 0x928;
-  constexpr static std::size_t addrs = 0x6760fec;
+  constexpr static std::size_t addrs = 0x6768a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)(::by_ref<::UnityEngine::Mesh*>, float_t, float_t, float_t)>(
     &::UnityEngine::Rendering::DebugShapes::BuildPyramid)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x6761914;
+  constexpr static std::size_t addrs = 0x6769390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)()>(&::UnityEngine::Rendering::DebugShapes::BuildShapes)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6761c14;
+  constexpr static std::size_t addrs = 0x6769690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugShapes*>(), { "BuildShapes", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)()>(&::UnityEngine::Rendering::DebugShapes::RebuildResources)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6761d08;
+  constexpr static std::size_t addrs = 0x6769784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugShapes*>(), { "RebuildResources", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::DebugShapes::*)()>(&::UnityEngine::Rendering::DebugShapes::RequestSphereMesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6761dfc;
+  constexpr static std::size_t addrs = 0x6769878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugShapes*>(), { "RequestSphereMesh", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::DebugShapes::*)(float_t, uint32_t, uint32_t)>(
     &::UnityEngine::Rendering::DebugShapes::BuildCustomSphereMesh)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6761e14;
+  constexpr static std::size_t addrs = 0x6769890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::DebugShapes::*)()>(&::UnityEngine::Rendering::DebugShapes::RequestBoxMesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6761ea8;
+  constexpr static std::size_t addrs = 0x6769924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugShapes*>(), { "RequestBoxMesh", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::DebugShapes::*)()>(&::UnityEngine::Rendering::DebugShapes::RequestConeMesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6761ec0;
+  constexpr static std::size_t addrs = 0x676993c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugShapes*>(), { "RequestConeMesh", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::DebugShapes::*)()>(&::UnityEngine::Rendering::DebugShapes::RequestPyramidMesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6761ed8;
+  constexpr static std::size_t addrs = 0x6769954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugShapes*>(), { "RequestPyramidMesh", {}, {} })));
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugShapes::*)()>(&::UnityEngine::Rendering::DebugShapes::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6760114;
+  constexpr static std::size_t addrs = 0x6767b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugShapes*>(), { ".ctor", {}, {} })));

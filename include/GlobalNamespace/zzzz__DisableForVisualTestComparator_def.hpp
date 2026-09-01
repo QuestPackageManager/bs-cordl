@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DisableForVisualTestComparator.hpp"
+// IWYU pragma private; include "GlobalNamespace\DisableForVisualTestComparator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,15 +38,15 @@ public:
   __declspec(property(get = __cordl_internal_get__disableSpecificComponents,
                       put = __cordl_internal_set__disableSpecificComponents)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* _disableSpecificComponents;
 
-  /// @brief Method Init, addr 0x597d398, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5980d2c, size 0x9c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DeterminismConfig* determinismConfig);
 
   static inline ::GlobalNamespace::DisableForVisualTestComparator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x597d434, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5980dc8, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDeterminismSet, addr 0x597d504, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnDeterminismSet, addr 0x5980e98, size 0x254, virtual false, abstract: false, final false
   inline void OnDeterminismSet(bool isDeterministic);
 
   constexpr ::GlobalNamespace::DeterminismConfig* const& __cordl_internal_get__determinismConfig() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__disableSpecificComponents(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* value);
 
-  /// @brief Method .ctor, addr 0x597d758, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59810ec, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

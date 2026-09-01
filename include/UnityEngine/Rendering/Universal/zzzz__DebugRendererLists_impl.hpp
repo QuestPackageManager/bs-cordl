@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DebugRendererLists.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DebugRendererLists.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FilteringSettings_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DebugRendererLists_def.hpp"
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(
     ::UnityEngine::Rendering::Universal::DebugHandler*, ::UnityEngine::Rendering::FilteringSettings)>(&::UnityEngine::Rendering::Universal::DebugRendererLists::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6848708;
+  constexpr static std::size_t addrs = 0x6850184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::FilteringSettings)>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::CreateDebugRenderSetups)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x684990c;
+  constexpr static std::size_t addrs = 0x6851388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)()>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::DisposeDebugRenderLists)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6849a6c;
+  constexpr static std::size_t addrs = 0x68514e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::FilteringSettings>, ::by_ref<::UnityEngine::Rendering::RenderStateBlock>)>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x6848838;
+  constexpr static std::size_t addrs = 0x68502b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::FilteringSettings>, ::by_ref<::UnityEngine::Rendering::RenderStateBlock>)>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x6848c9c;
+  constexpr static std::size_t addrs = 0x6850718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*)>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::PrepareRendererListForRasterPass)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6849f70;
+  constexpr static std::size_t addrs = 0x68519ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::DrawWithRendererList)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x684a10c;
+  constexpr static std::size_t addrs = 0x6851b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),

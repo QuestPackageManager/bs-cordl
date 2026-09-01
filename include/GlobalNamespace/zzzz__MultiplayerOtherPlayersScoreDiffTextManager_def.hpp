@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerOtherPlayersScoreDiffTextManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerOtherPlayersScoreDiffTextManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,10 +64,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c* New_ctor();
 
-  /// @brief Method <Update>b__10_0, addr 0x59d8978, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__10_0, addr 0x59e0a5c, size 0x14, virtual false, abstract: false, final false
   inline bool _Update_b__10_0(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* p);
 
-  /// @brief Method .ctor, addr 0x59d8974, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e0a58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c* getStaticF___9();
@@ -93,7 +93,7 @@ public:
   MultiplayerOtherPlayersScoreDiffTextManager___c(MultiplayerOtherPlayersScoreDiffTextManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6168 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,24 +132,24 @@ public:
   /// @brief Field _timeToNextUpdate, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__timeToNextUpdate, put = __cordl_internal_set__timeToNextUpdate)) float_t _timeToNextUpdate;
 
-  /// @brief Method HandleStateChanged, addr 0x59d8798, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x59e087c, size 0x184, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State newState);
 
-  /// @brief Method HideAll, addr 0x59d7f34, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method HideAll, addr 0x59e0018, size 0x39c, virtual false, abstract: false, final false
   inline void HideAll();
 
-  /// @brief Method InitLeftRightPositions, addr 0x59d82d0, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method InitLeftRightPositions, addr 0x59e03b4, size 0x4c8, virtual false, abstract: false, final false
   inline void InitLeftRightPositions();
 
   static inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59d7a04, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59dfae8, size 0x110, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59d7910, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59df9f4, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59d7b14, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59dfbf8, size 0x420, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::CoreGameHUDController_InitData* const& __cordl_internal_get__initData() const;
@@ -194,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set__timeToNextUpdate(float_t value);
 
-  /// @brief Method .ctor, addr 0x59d891c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e0a00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -212,7 +212,7 @@ public:
   MultiplayerOtherPlayersScoreDiffTextManager(MultiplayerOtherPlayersScoreDiffTextManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6169 };
 
   /// @brief Field kUpdateInterval offset 0xffffffff size 0x4
   static constexpr float_t kUpdateInterval{ static_cast<float_t>(0.5f) };

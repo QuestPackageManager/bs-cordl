@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameplayModifiersConfiguration.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameplayModifiersConfiguration.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
   GameplayModifiersConfiguration_SongSpeed(GameplayModifiersConfiguration_SongSpeed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21175 };
 
   /// @brief Field kFaster offset 0xffffffff size 0x4
   static constexpr float_t kFaster{ static_cast<float_t>(1.2f) };
@@ -101,7 +101,7 @@ public:
   GameplayModifiersConfiguration_CutAngleTolerance(GameplayModifiersConfiguration_CutAngleTolerance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21176 };
 
   /// @brief Field kDefault offset 0xffffffff size 0x4
   static constexpr float_t kDefault{ static_cast<float_t>(60.0f) };
@@ -137,7 +137,7 @@ public:
   GameplayModifiersConfiguration_NoteUniformScale(GameplayModifiersConfiguration_NoteUniformScale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21177 };
 
   /// @brief Field kDefault offset 0xffffffff size 0x4
   static constexpr float_t kDefault{ static_cast<float_t>(1.0f) };
@@ -179,7 +179,7 @@ public:
   GameplayModifiersConfiguration(GameplayModifiersConfiguration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

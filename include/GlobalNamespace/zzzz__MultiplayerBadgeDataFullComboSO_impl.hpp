@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataFullComboSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeDataFullComboSO.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataFullComboSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Multip
     ::GlobalNamespace::MultiplayerBadgeDataFullComboSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, ::GlobalNamespace::PlayerDataModel*,
                                                            ::by_ref<::GlobalNamespace::BeatmapKey>, float_t)>(&::GlobalNamespace::MultiplayerBadgeDataFullComboSO::CalculateBadgeData)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x372d518;
+  constexpr static std::size_t addrs = 0x373317c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataFullComboSO::*)()>(&::GlobalNamespace::MultiplayerBadgeDataFullComboSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x372d970;
+  constexpr static std::size_t addrs = 0x37335d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBadgeDataFullComboSO*>(), { ".ctor", {}, {} })));

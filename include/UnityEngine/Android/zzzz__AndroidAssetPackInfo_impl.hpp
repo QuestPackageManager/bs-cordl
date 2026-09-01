@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPackInfo.hpp"
+// IWYU pragma private; include "UnityEngine\Android\AndroidAssetPackInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackError_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackStatus_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Android::AndroidAssetPackInfo::*)(
     ::StringW, ::UnityEngine::Android::AndroidAssetPackStatus, uint64_t, uint64_t, float_t, ::UnityEngine::Android::AndroidAssetPackError)>(&::UnityEngine::Android::AndroidAssetPackInfo::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6a2b778;
+  constexpr static std::size_t addrs = 0x6a331f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Android::AndroidAssetPackStatus)>(&::UnityEngine::Android::AndroidAssetPackInfo::DownloadInProgress)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6a2b790;
+  constexpr static std::size_t addrs = 0x6a3320c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidAssetPackInfo*>(),

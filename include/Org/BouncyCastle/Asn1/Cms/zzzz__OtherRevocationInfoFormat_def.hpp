@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/OtherRevocationInfoFormat.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\OtherRevocationInfoFormat.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,10 +47,10 @@ public:
   /// @brief Field otherRevInfoFormat, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_otherRevInfoFormat, put = __cordl_internal_set_otherRevInfoFormat)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat;
 
-  /// @brief Method GetInstance, addr 0x335a484, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x335e244, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x335a498, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x335e258, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat,
@@ -58,7 +58,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x335a548, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x335e308, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_otherRevInfo() const;
@@ -73,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_otherRevInfoFormat(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x335a3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335e190, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevInfo);
 
-  /// @brief Method .ctor, addr 0x335a3d8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x335e198, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Info, addr 0x335a540, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Info, addr 0x335e300, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Info();
 
-  /// @brief Method get_InfoFormat, addr 0x335a538, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InfoFormat, addr 0x335e2f8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_InfoFormat();
 
 protected:

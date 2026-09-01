@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PerformanceRecorder.hpp"
+// IWYU pragma private; include "GlobalNamespace\PerformanceRecorder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -179,30 +179,30 @@ public:
   /// @brief Field _songTimes, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__songTimes, put = __cordl_internal_set__songTimes)) ::System::Collections::Generic::List_1<float_t>* _songTimes;
 
-  /// @brief Method Awake, addr 0x58f241c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58f5a4c, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ClearRecordingData, addr 0x58f242c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ClearRecordingData, addr 0x58f5a5c, size 0x12c, virtual false, abstract: false, final false
   inline void ClearRecordingData();
 
-  /// @brief Method CollectFrameData, addr 0x58f2d70, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method CollectFrameData, addr 0x58f6394, size 0x2bc, virtual false, abstract: false, final false
   inline void CollectFrameData();
 
-  /// @brief Method GenerateReports, addr 0x58f2560, size 0x80c, virtual false, abstract: false, final false
+  /// @brief Method GenerateReports, addr 0x58f5b8c, size 0x804, virtual false, abstract: false, final false
   inline void GenerateReports();
 
   static inline ::GlobalNamespace::PerformanceRecorder* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x58f255c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58f5b88, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x58f2428, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x58f5a58, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x58f2d6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58f6390, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method WriteFileReport, addr 0x58f3740, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WriteFileReport, addr 0x58f6d5c, size 0x34, virtual false, abstract: false, final false
   static inline void WriteFileReport(::StringW path, ::StringW contents);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__CallbackController_k__BackingField() const;
@@ -343,73 +343,73 @@ public:
 
   constexpr void __cordl_internal_set__songTimes(::System::Collections::Generic::List_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x58f3d54, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f7370, size 0x120, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CallbackController, addr 0x58f23fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CallbackController, addr 0x58f5a2c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCallbacksController* get_CallbackController();
 
-  /// @brief Method get_GamePause, addr 0x58f23cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GamePause, addr 0x58f59fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IGamePause* get_GamePause();
 
-  /// @brief Method get_GameplayModifiers, addr 0x58f23ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GameplayModifiers, addr 0x58f59dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifierMask get_GameplayModifiers();
 
-  /// @brief Method get_ObjectManager, addr 0x58f23ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectManager, addr 0x58f5a1c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectManager* get_ObjectManager();
 
-  /// @brief Method get_PlayerSpecificSettings, addr 0x58f239c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PlayerSpecificSettings, addr 0x58f59cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_PlayerSpecificSettings();
 
-  /// @brief Method get_RecPlayState, addr 0x58f23bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecPlayState, addr 0x58f59ec, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Automation::RecPlayBehaviourState* get_RecPlayState();
 
-  /// @brief Method get_ReportDescriptor, addr 0x58f236c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReportDescriptor, addr 0x58f599c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReportDescriptor();
 
-  /// @brief Method get_SceneSetupData, addr 0x58f23dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SceneSetupData, addr 0x58f5a0c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_SceneSetupData();
 
-  /// @brief Method get_SettingsManager, addr 0x58f238c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SettingsManager, addr 0x58f59bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SettingsManager* get_SettingsManager();
 
-  /// @brief Method get_StartEnabled, addr 0x58f237c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartEnabled, addr 0x58f59ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_StartEnabled();
 
-  /// @brief Method get_TimeSync, addr 0x58f240c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeSync, addr 0x58f5a3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::AudioTimeSyncController> get_TimeSync();
 
-  /// @brief Method set_CallbackController, addr 0x58f2404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CallbackController, addr 0x58f5a34, size 0x8, virtual false, abstract: false, final false
   inline void set_CallbackController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  /// @brief Method set_GamePause, addr 0x58f23d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GamePause, addr 0x58f5a04, size 0x8, virtual false, abstract: false, final false
   inline void set_GamePause(::GlobalNamespace::IGamePause* value);
 
-  /// @brief Method set_GameplayModifiers, addr 0x58f23b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GameplayModifiers, addr 0x58f59e4, size 0x8, virtual false, abstract: false, final false
   inline void set_GameplayModifiers(::GlobalNamespace::GameplayModifierMask value);
 
-  /// @brief Method set_ObjectManager, addr 0x58f23f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectManager, addr 0x58f5a24, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method set_PlayerSpecificSettings, addr 0x58f23a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PlayerSpecificSettings, addr 0x58f59d4, size 0x8, virtual false, abstract: false, final false
   inline void set_PlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method set_RecPlayState, addr 0x58f23c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RecPlayState, addr 0x58f59f4, size 0x8, virtual false, abstract: false, final false
   inline void set_RecPlayState(::BeatSaber::Automation::RecPlayBehaviourState* value);
 
-  /// @brief Method set_ReportDescriptor, addr 0x58f2374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReportDescriptor, addr 0x58f59a4, size 0x8, virtual false, abstract: false, final false
   inline void set_ReportDescriptor(::StringW value);
 
-  /// @brief Method set_SceneSetupData, addr 0x58f23e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SceneSetupData, addr 0x58f5a14, size 0x8, virtual false, abstract: false, final false
   inline void set_SceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method set_SettingsManager, addr 0x58f2394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SettingsManager, addr 0x58f59c4, size 0x8, virtual false, abstract: false, final false
   inline void set_SettingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method set_StartEnabled, addr 0x58f2384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StartEnabled, addr 0x58f59b4, size 0x8, virtual false, abstract: false, final false
   inline void set_StartEnabled(bool value);
 
-  /// @brief Method set_TimeSync, addr 0x58f2414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TimeSync, addr 0x58f5a44, size 0x8, virtual false, abstract: false, final false
   inline void set_TimeSync(::GlobalNamespace::AudioTimeSyncController* value);
 
 protected:
@@ -427,7 +427,7 @@ public:
   PerformanceRecorder(PerformanceRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6613 };
 
   /// @brief Field kFramesCapacity offset 0xffffffff size 0x4
   static constexpr int32_t kFramesCapacity{ static_cast<int32_t>(0x11940) };

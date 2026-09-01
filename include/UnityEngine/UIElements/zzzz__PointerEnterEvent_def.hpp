@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PointerEnterEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PointerEnterEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerEnterEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9dce0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6da5864, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerEnterEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9dcdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da5860, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerEnterEvent___c* getStaticF___9();
@@ -81,21 +81,21 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerEnterEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6d9dbe8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6da576c, size 0x4, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method Init, addr 0x6d9db2c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6da56b0, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d9db84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6da5708, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerEnterEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x6d9dbec, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6da5770, size 0x9c, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6d9db90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da5714, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

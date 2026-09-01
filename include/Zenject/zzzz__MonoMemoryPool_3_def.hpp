@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/MonoMemoryPool_3.hpp"
+// IWYU pragma private; include "Zenject\MonoMemoryPool_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,7 +78,7 @@ public:
   MonoMemoryPool_3(MonoMemoryPool_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14406 };
 
   /// @brief Field _originalParent, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____originalParent;

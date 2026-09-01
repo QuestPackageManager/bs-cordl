@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MomentaryLoudnessBuffer.hpp"
+// IWYU pragma private; include "GlobalNamespace\MomentaryLoudnessBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MomentaryLoudnessBuffer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MomentaryLoudnessBuffer.get_isNextReadingIntervalReady
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MomentaryLoudnessBuffer::*)()>(&::GlobalNamespace::MomentaryLoudnessBuffer::get_isNextReadingIntervalReady)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3262b9c;
+  constexpr static std::size_t addrs = 0x3265f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (::GlobalNamespace::MomentaryLoudnessBuffer::*)()>(&::GlobalNamespace::MomentaryLoudnessBuffer::get_buffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3263d80;
+  constexpr static std::size_t addrs = 0x3267118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MomentaryLoudnessBuffer*>(), { "get_buffer", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MomentaryLoudnessBuffer::*)(int32_t, int32_t, float_t, int32_t)>(&::GlobalNamespace::MomentaryLoudnessBuffer::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3262aa4;
+  constexpr static std::size_t addrs = 0x3265e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MomentaryLoudnessBuffer::*)(float_t)>(&::GlobalNamespace::MomentaryLoudnessBuffer::AddSample)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3262b58;
+  constexpr static std::size_t addrs = 0x3265ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

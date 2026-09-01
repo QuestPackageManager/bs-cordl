@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsAeadCipher.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsAeadCipher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,16 +57,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
 
-  /// @brief Method DecodeCiphertext, addr 0x346f560, size 0x554, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0x3473320, size 0x554, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method EncodePlaintext, addr 0x346f010, size 0x550, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0x3472dd0, size 0x550, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method GetAdditionalData, addr 0x346fab4, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method GetAdditionalData, addr 0x3473874, size 0x170, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetAdditionalData(int64_t seqNo, uint8_t type, int32_t len);
 
-  /// @brief Method GetPlaintextLimit, addr 0x346f000, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0x3472dc0, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
@@ -126,11 +126,11 @@ public:
 
   constexpr void __cordl_internal_set_record_iv_length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x346eb40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3472900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,
                     ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize);
 
-  /// @brief Method .ctor, addr 0x346eb48, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3472908, size 0x4b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,
                     ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode);
 

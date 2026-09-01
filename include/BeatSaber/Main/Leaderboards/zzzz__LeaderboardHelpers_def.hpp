@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/Leaderboards/LeaderboardHelpers.hpp"
+// IWYU pragma private; include "BeatSaber\Main\Leaderboards\LeaderboardHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ namespace BeatSaber::Main::Leaderboards {
 class CORDL_TYPE LeaderboardHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertCharacteristic, addr 0x32a1b3c, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method ConvertCharacteristic, addr 0x32a5938, size 0x308, virtual false, abstract: false, final false
   static inline ::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic ConvertCharacteristic(::StringW characteristicName);
 
-  /// @brief Method ConvertDifficulty, addr 0x32a1e84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ConvertDifficulty, addr 0x32a5c80, size 0xc, virtual false, abstract: false, final false
   static inline ::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty ConvertDifficulty(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:
@@ -50,7 +50,7 @@ public:
   LeaderboardHelpers(LeaderboardHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20606 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

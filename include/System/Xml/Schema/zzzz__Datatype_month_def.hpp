@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_month.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_month.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_month* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61b85e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61c0064, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x61bed30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x61c67ac, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -47,7 +47,7 @@ public:
   Datatype_month(Datatype_month const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crmf/PkiArchiveControlBuilder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crmf\PkiArchiveControlBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,10 +46,10 @@ public:
   /// @brief Field keyContent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_keyContent, put = __cordl_internal_set_keyContent)) ::Org::BouncyCastle::Cms::CmsProcessableByteArray* keyContent;
 
-  /// @brief Method AddRecipientGenerator, addr 0x36d7c6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AddRecipientGenerator, addr 0x36dba2c, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* AddRecipientGenerator(::Org::BouncyCastle::Cms::RecipientInfoGenerator* recipientGen);
 
-  /// @brief Method Build, addr 0x36d7c94, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x36dba54, size 0xe8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* Build(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* contentEncryptor);
 
   static inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo,
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_keyContent(::Org::BouncyCastle::Cms::CmsProcessableByteArray* value);
 
-  /// @brief Method .ctor, addr 0x36d7aa0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36db860, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName);
 
 protected:

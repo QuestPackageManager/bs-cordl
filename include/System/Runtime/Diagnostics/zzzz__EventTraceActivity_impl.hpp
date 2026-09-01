@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Diagnostics/EventTraceActivity.hpp"
+// IWYU pragma private; include "System\Runtime\Diagnostics\EventTraceActivity.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Diagnostics/zzzz__EventTraceActivity_def.hpp"

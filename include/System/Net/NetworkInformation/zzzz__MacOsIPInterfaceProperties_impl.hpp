@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/MacOsIPInterfaceProperties.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\MacOsIPInterfaceProperties.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__MacOsIPInterfaceProperties_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Netw
                                                                                                                                ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*)>(
     &::System::Net::NetworkInformation::MacOsIPInterfaceProperties::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x634e3b4;
+  constexpr static std::size_t addrs = 0x6355e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::ArrayW<::StringW>>)>(&::System::Net::NetworkInformation::MacOsIPInterfaceProperties::ParseRouteInfo_icall)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x634e41c;
+  constexpr static std::size_t addrs = 0x6355e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (::System::Net::NetworkInformation::MacOsIPInterfaceProperties::*)()>(
     &::System::Net::NetworkInformation::MacOsIPInterfaceProperties::get_GatewayAddresses)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x634e41c;
+  constexpr static std::size_t addrs = 0x6355e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::MacOsIPInterfaceProperties*>(),

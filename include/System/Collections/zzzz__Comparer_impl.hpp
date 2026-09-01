@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Comparer.hpp"
+// IWYU pragma private; include "System\Collections\Comparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__Comparer_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Comparer::*)(::System::Globalization::CultureInfo*)>(&::System::Collections::Comparer::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5bdeb38;
+  constexpr static std::size_t addrs = 0x5be2ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Comparer::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                                  ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Comparer::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5bdebac;
+  constexpr static std::size_t addrs = 0x5be3068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Comparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Comparer::GetObjectData)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5bded10;
+  constexpr static std::size_t addrs = 0x5be31cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Comparer::*)(::System::Object*, ::System::Object*)>(&::System::Collections::Comparer::Compare)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x5bdedbc;
+  constexpr static std::size_t addrs = 0x5be3278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

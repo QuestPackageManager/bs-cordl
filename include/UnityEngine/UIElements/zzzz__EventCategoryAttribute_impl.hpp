@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EventCategoryAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EventCategoryAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCategory_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCategoryAttribute_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EventCategoryAttribute::*)(::UnityEngine::UIElements::EventCategory)>(
     &::UnityEngine::UIElements::EventCategoryAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc33b4;
+  constexpr static std::size_t addrs = 0x6ccaf38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

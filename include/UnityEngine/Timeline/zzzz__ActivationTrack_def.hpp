@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/ActivationTrack.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\ActivationTrack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,7 +90,7 @@ public:
   static ::UnityEngine::Timeline::ActivationTrack_PostPlaybackState const Revert;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19150 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -123,21 +123,21 @@ public:
 
   __declspec(property(get = get_postPlaybackState, put = set_postPlaybackState)) ::UnityEngine::Timeline::ActivationTrack_PostPlaybackState postPlaybackState;
 
-  /// @brief Method CanCompileClips, addr 0x69a4a88, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CanCompileClips, addr 0x69ac504, size 0x64, virtual true, abstract: false, final false
   inline bool CanCompileClips();
 
-  /// @brief Method CreateTrackMixer, addr 0x69a4bdc, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method CreateTrackMixer, addr 0x69ac658, size 0xe8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
 
-  /// @brief Method GatherProperties, addr 0x69a4cc4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method GatherProperties, addr 0x69ac740, size 0x138, virtual true, abstract: false, final false
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
   static inline ::UnityEngine::Timeline::ActivationTrack* New_ctor();
 
-  /// @brief Method OnCreateClip, addr 0x69a4f80, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method OnCreateClip, addr 0x69ac9fc, size 0x54, virtual true, abstract: false, final false
   inline void OnCreateClip(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method UpdateTrackMode, addr 0x69a4bc8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method UpdateTrackMode, addr 0x69ac644, size 0x14, virtual false, abstract: false, final false
   inline void UpdateTrackMode();
 
   constexpr ::UnityEngine::Timeline::ActivationMixerPlayable* const& __cordl_internal_get_m_ActivationMixer() const;
@@ -152,13 +152,13 @@ public:
 
   constexpr void __cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::ActivationTrack_PostPlaybackState value);
 
-  /// @brief Method .ctor, addr 0x69a4fd8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69aca54, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_postPlaybackState, addr 0x69a4bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_postPlaybackState, addr 0x69ac628, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::ActivationTrack_PostPlaybackState get_postPlaybackState();
 
-  /// @brief Method set_postPlaybackState, addr 0x69a4bb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_postPlaybackState, addr 0x69ac630, size 0x14, virtual false, abstract: false, final false
   inline void set_postPlaybackState(::UnityEngine::Timeline::ActivationTrack_PostPlaybackState value);
 
 protected:
@@ -176,7 +176,7 @@ public:
   ActivationTrack(ActivationTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19151 };
 
   /// @brief Field m_PostPlaybackState, offset: 0xa0, size: 0x4, def value: None
   ::UnityEngine::Timeline::ActivationTrack_PostPlaybackState ___m_PostPlaybackState;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Hierarchy/ItemWithChildren_3.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Hierarchy\ItemWithChildren_3.hpp"
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/zzzz__Item_1_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/zzzz__ItemWithChildren_3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

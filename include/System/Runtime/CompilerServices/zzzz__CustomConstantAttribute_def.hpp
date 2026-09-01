@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/CustomConstantAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\CustomConstantAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::CustomConstantAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5b6be48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b70304, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

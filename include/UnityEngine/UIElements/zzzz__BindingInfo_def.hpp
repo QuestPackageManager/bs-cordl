@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BindingInfo.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BindingInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,17 +37,17 @@ public:
   // Declarations
   __declspec(property(get = get_binding)) ::UnityEngine::UIElements::Binding* binding;
 
-  /// @brief Method FromBindingData, addr 0x6c3d1f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FromBindingData, addr 0x6c44d78, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingInfo FromBindingData(::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*> bindingData);
 
-  /// @brief Method FromRequest, addr 0x6c3d144, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FromRequest, addr 0x6c44cc8, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BindingInfo FromRequest(::UnityEngine::UIElements::VisualElement* target, ::by_ref<::Unity::Properties::PropertyPath> targetPath,
                                                                    ::UnityEngine::UIElements::Binding* binding);
 
-  /// @brief Method .ctor, addr 0x6c3d114, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c44c98, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* targetElement, ::by_ref<::UnityEngine::UIElements::BindingId> bindingId, ::UnityEngine::UIElements::Binding* binding);
 
-  /// @brief Method get_binding, addr 0x6c3d10c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_binding, addr 0x6c44c90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Binding* get_binding();
 
   // Ctor Parameters []

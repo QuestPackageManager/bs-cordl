@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Jobs/IJobParallelForDeferExtensions.hpp"
+// IWYU pragma private; include "Unity\Jobs\IJobParallelForDeferExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +94,7 @@ public:
   JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction(JobParallelForDeferProducer_1_IJobParallelForDeferExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15516 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,7 +130,7 @@ public:
   constexpr IJobParallelForDeferExtensions_JobParallelForDeferProducer_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15517 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -185,7 +185,7 @@ public:
   IJobParallelForDeferExtensions(IJobParallelForDeferExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15518 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/CryptographicUnexpectedOperationException.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\CryptographicUnexpectedOperationException.hpp"
 #include "System/Security/Cryptography/zzzz__CryptographicException_impl.hpp"
 #include "System/Security/Cryptography/zzzz__CryptographicUnexpectedOperationException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CryptographicUnexpectedOperationException::*)()>(
     &::System::Security::Cryptography::CryptographicUnexpectedOperationException::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5af4f7c;
+  constexpr static std::size_t addrs = 0x5af9438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CryptographicUnexpectedOperationException::*)(::StringW)>(
     &::System::Security::Cryptography::CryptographicUnexpectedOperationException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5af3ee0;
+  constexpr static std::size_t addrs = 0x5af839c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::CryptographicUnexpectedOperationException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::Cryptography::CryptographicUnexpectedOperationException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5af4f9c;
+  constexpr static std::size_t addrs = 0x5af9458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

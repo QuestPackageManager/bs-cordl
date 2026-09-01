@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HealthWarningViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\HealthWarningViewController.hpp"
 #include "GlobalNamespace/zzzz__CompletableViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningViewController_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::*)(int32_t)>(
     &::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a124b0;
+  constexpr static std::size_t addrs = 0x5a1a5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::*)()>(
     &::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a124bc;
+  constexpr static std::size_t addrs = 0x5a1a5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::*)()>(
     &::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::MoveNext)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a124c0;
+  constexpr static std::size_t addrs = 0x5a1a5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::*)()>(
     &::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a1256c;
+  constexpr static std::size_t addrs = 0x5a1a678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11*>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::*)()>(
     &::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a12574;
+  constexpr static std::size_t addrs = 0x5a1a680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::*)()>(
     &::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a125ac;
+  constexpr static std::size_t addrs = 0x5a1a6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)(bool, bool, bool)>(&::GlobalNamespace::HealthWarningViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5a121a0;
+  constexpr static std::size_t addrs = 0x5a1a2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)(bool, bool)>(&::GlobalNamespace::HealthWarningViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5a123d4;
+  constexpr static std::size_t addrs = 0x5a1a4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)(bool)>(&::GlobalNamespace::HealthWarningViewController::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a124a8;
+  constexpr static std::size_t addrs = 0x5a1a5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::HealthWarningViewController::*)()>(
     &::GlobalNamespace::HealthWarningViewController::DismissHealthAndSafety)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5a12380;
+  constexpr static std::size_t addrs = 0x5a1a48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningViewController*>(), { "DismissHealthAndSafety", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)()>(&::GlobalNamespace::HealthWarningViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a124b8;
+  constexpr static std::size_t addrs = 0x5a1a5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HealthWarningViewController*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerEnumField.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerEnumField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,16 +24,16 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerEnumField* New_ctor();
 
-  /// @brief Method OnDecrement, addr 0x67fad00, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x680277c, size 0x1d8, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnIncrement, addr 0x67fab64, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x68025e0, size 0x19c, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method UpdateValueLabel, addr 0x67faed8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x6802954, size 0xa4, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
-  /// @brief Method .ctor, addr 0x67faf7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68029f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   DebugUIHandlerEnumField(DebugUIHandlerEnumField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12516 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

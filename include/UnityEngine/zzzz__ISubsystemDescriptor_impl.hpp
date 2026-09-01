@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ISubsystemDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine\ISubsystemDescriptor.hpp"
 #include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
 #include "UnityEngine/zzzz__ISubsystem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ISubsystemDescriptor.get_id

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/AbstractECLookupTable.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\AbstractECLookupTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractECLookupTable_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::AbstractECLookupTable::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::AbstractECLookupTable::LookupVar)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x34a144c;
+  constexpr static std::size_t addrs = 0x34a520c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::AbstractECLookupTable*>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::AbstractECLookupTable::*)()>(&::Org::BouncyCastle::Math::EC::AbstractECLookupTable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34a104c;
+  constexpr static std::size_t addrs = 0x34a4e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::AbstractECLookupTable*>(), { ".ctor", {}, {} })));

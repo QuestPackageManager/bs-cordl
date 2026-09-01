@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRMixedRealityCaptureTest.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRMixedRealityCaptureTest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   static ::GlobalNamespace::OVRMixedRealityCaptureTest_CameraMode const ThirdPerson;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7941 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -106,18 +106,18 @@ public:
   /// @brief Field inited, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_inited, put = __cordl_internal_set_inited)) bool inited;
 
-  /// @brief Method Initialize, addr 0x5eff934, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5f03df0, size 0x21c, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRMixedRealityCaptureTest* New_ctor();
 
-  /// @brief Method Start, addr 0x5eff878, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5f03d34, size 0xbc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5efffb4, size 0x6e8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5f04470, size 0x6e8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDefaultExternalCamera, addr 0x5effb50, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefaultExternalCamera, addr 0x5f0400c, size 0x464, virtual false, abstract: false, final false
   inline void UpdateDefaultExternalCamera();
 
   constexpr ::GlobalNamespace::OVRMixedRealityCaptureTest_CameraMode const& __cordl_internal_get_currentMode() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_inited(bool value);
 
-  /// @brief Method .ctor, addr 0x5f0069c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f04b58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,7 +162,7 @@ public:
   OVRMixedRealityCaptureTest(OVRMixedRealityCaptureTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7942 };
 
   /// @brief Field inited, offset: 0x20, size: 0x1, def value: None
   bool ___inited;

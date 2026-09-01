@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/TransformUtility.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\TransformUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,16 +33,16 @@ public:
   __declspec(property(get = getStaticF_s_ChildStack,
                       put = setStaticF_s_ChildStack)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>>>* s_ChildStack;
 
-  /// @brief Method InverseTransformVertex, addr 0x66f0c18, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformVertex, addr 0x66f8694, size 0x1b4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* InverseTransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method ReparentChildren, addr 0x66f091c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ReparentChildren, addr 0x66f8398, size 0x140, virtual false, abstract: false, final false
   static inline void ReparentChildren(::UnityEngine::Transform* t);
 
-  /// @brief Method TransformVertex, addr 0x66f0a5c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method TransformVertex, addr 0x66f84d8, size 0x1bc, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* TransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method UnparentChildren, addr 0x66f079c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method UnparentChildren, addr 0x66f8218, size 0x180, virtual false, abstract: false, final false
   static inline void UnparentChildren(::UnityEngine::Transform* t);
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>>>* getStaticF_s_ChildStack();
@@ -64,7 +64,7 @@ public:
   TransformUtility(TransformUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

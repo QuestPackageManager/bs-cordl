@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/PanelInputModule.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\PanelInputModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,12 +64,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::EventSystems::RaycastResult>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::EventSystems::RaycastResult>*() noexcept;
 
-  /// @brief Method Compare, addr 0x5a52810, size 0x234, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x5a56ccc, size 0x234, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::EventSystems::RaycastResult lhs, ::UnityEngine::EventSystems::RaycastResult rhs);
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule_RaycastComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a5280c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a56cc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::EventSystems::RaycastResult>"
@@ -91,7 +91,7 @@ public:
   PanelInputModule_RaycastComparer(PanelInputModule_RaycastComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -128,45 +128,45 @@ public:
   __declspec(property(get = getStaticF__raycasters,
                       put = setStaticF__raycasters)) ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster>>* _raycasters;
 
-  /// @brief Method Awake, addr 0x5a51868, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a55d24, size 0xac, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ChooseBestController, addr 0x5a5236c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ChooseBestController, addr 0x5a56828, size 0x128, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRInput_Controller ChooseBestController(::GlobalNamespace::OVRInput_Controller previousController);
 
-  /// @brief Method ComputeControllerState, addr 0x5a521c4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ComputeControllerState, addr 0x5a56680, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::PointerEventData_FramePressState ComputeControllerState(::GlobalNamespace::OVRInput_Controller controller);
 
-  /// @brief Method GetMouseStateFromRaycast, addr 0x5a51c7c, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method GetMouseStateFromRaycast, addr 0x5a56138, size 0x548, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::PointerInputModule_MouseState* GetMouseStateFromRaycast(::GlobalNamespace::OVRInput_Controller controller, ::UnityEngine::Transform* rayOrigin);
 
-  /// @brief Method IsModuleSupported, addr 0x5a5191c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsModuleSupported, addr 0x5a55dd8, size 0x8, virtual true, abstract: false, final false
   inline bool IsModuleSupported();
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::PanelInputModule* New_ctor();
 
-  /// @brief Method Process, addr 0x5a52294, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x5a56750, size 0xd8, virtual true, abstract: false, final false
   inline void Process();
 
-  /// @brief Method Raycast, addr 0x5a519bc, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x5a55e78, size 0x244, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::EventSystems::PointerEventData* data, ::by_ref<::UnityEngine::EventSystems::RaycastResult> raycast);
 
-  /// @brief Method RegisterRaycaster, addr 0x5a51668, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method RegisterRaycaster, addr 0x5a55b24, size 0x11c, virtual false, abstract: false, final false
   static inline void RegisterRaycaster(::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster* raycaster);
 
-  /// @brief Method SetDebugInterface, addr 0x5a51860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDebugInterface, addr 0x5a55d1c, size 0x8, virtual false, abstract: false, final false
   inline void SetDebugInterface(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface* debugInterface);
 
-  /// @brief Method ShouldActivateModule, addr 0x5a51914, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldActivateModule, addr 0x5a55dd0, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldActivateModule();
 
-  /// @brief Method UnregisterRaycaster, addr 0x5a51784, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UnregisterRaycaster, addr 0x5a55c40, size 0xdc, virtual false, abstract: false, final false
   static inline void UnregisterRaycaster(::Meta::XR::ImmersiveDebugger::UserInterface::PanelRaycaster* raycaster);
 
-  /// @brief Method Update, addr 0x5a51924, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a55de0, size 0x98, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateRayTransform, addr 0x5a52494, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method UpdateRayTransform, addr 0x5a56950, size 0x234, virtual false, abstract: false, final false
   inline void UpdateRayTransform(::UnityEngine::Transform* rayTransform, ::GlobalNamespace::OVRInput_Controller controller);
 
   constexpr ::GlobalNamespace::OVRInput_Controller const& __cordl_internal_get__controller() const;
@@ -181,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set__debugInterface(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface> value);
 
-  /// @brief Method .ctor, addr 0x5a526c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a56b84, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_Processing();
@@ -215,7 +215,7 @@ public:
   PanelInputModule(PanelInputModule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18380 };
 
   /// @brief Field _debugInterface, offset: 0x108, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Interface> ____debugInterface;

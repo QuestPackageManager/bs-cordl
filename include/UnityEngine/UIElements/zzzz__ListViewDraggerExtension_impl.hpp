@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ListViewDraggerExtension.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ListViewDraggerExtension.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewDraggerExtension_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (*)(::UnityEngine::UIElements::BaseVerticalCollectionView*, int32_t)>(
     &::UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromId)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x6d87fa4;
+  constexpr static std::size_t addrs = 0x6d8fb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (*)(::UnityEngine::UIElements::BaseVerticalCollectionView*, int32_t)>(
     &::UnityEngine::UIElements::ListViewDraggerExtension::GetRecycledItemFromIndex)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x6d882a0;
+  constexpr static std::size_t addrs = 0x6d8fe24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

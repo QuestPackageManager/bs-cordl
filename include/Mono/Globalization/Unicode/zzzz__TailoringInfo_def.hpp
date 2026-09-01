@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Globalization/Unicode/TailoringInfo.hpp"
+// IWYU pragma private; include "Mono\Globalization\Unicode\TailoringInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_TailoringIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5aac2c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab0784, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ContactFilter2D.hpp"
+// IWYU pragma private; include "UnityEngine\ContactFilter2D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,16 +25,16 @@ namespace UnityEngine {
 struct CORDL_TYPE ContactFilter2D {
 public:
   // Declarations
-  /// @brief Method CheckConsistency, addr 0x6b69244, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency, addr 0x6b70dc8, size 0x3c, virtual false, abstract: false, final false
   inline void CheckConsistency();
 
-  /// @brief Method CreateLegacyFilter, addr 0x6b67af0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CreateLegacyFilter, addr 0x6b6f674, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ContactFilter2D CreateLegacyFilter(int32_t layerMask, float_t minDepth, float_t maxDepth);
 
-  /// @brief Method SetDepth, addr 0x6b69290, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetDepth, addr 0x6b70e14, size 0x48, virtual false, abstract: false, final false
   inline void SetDepth(float_t minDepth, float_t maxDepth);
 
-  /// @brief Method SetLayerMask, addr 0x6b69280, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetLayerMask, addr 0x6b70e04, size 0x10, virtual false, abstract: false, final false
   inline void SetLayerMask(::UnityEngine::LayerMask layerMask);
 
   // Ctor Parameters []
@@ -50,7 +50,7 @@ public:
                             float_t minDepth, float_t maxDepth, float_t minNormalAngle, float_t maxNormalAngle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22810 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

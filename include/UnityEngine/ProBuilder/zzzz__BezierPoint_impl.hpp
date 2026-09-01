@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/BezierPoint.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\BezierPoint.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__BezierPoint_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::BezierPoint::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3,
                                                                                                         ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::BezierPoint::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x66abe48;
+  constexpr static std::size_t addrs = 0x66b38c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::BezierPoint::*)(
     ::UnityEngine::ProBuilder::BezierTangentDirection, ::UnityEngine::ProBuilder::BezierTangentMode)>(&::UnityEngine::ProBuilder::BezierPoint::EnforceTangentMode)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x66abe74;
+  constexpr static std::size_t addrs = 0x66b38f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::BezierPoint::*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::BezierPoint::SetPosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x66ac180;
+  constexpr static std::size_t addrs = 0x66b3bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::BezierPoint::*)(::UnityEngine::Vector3, ::UnityEngine::ProBuilder::BezierTangentMode)>(
     &::UnityEngine::ProBuilder::BezierPoint::SetTangentIn)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66ac1c8;
+  constexpr static std::size_t addrs = 0x66b3c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::BezierPoint::*)(::UnityEngine::Vector3, ::UnityEngine::ProBuilder::BezierTangentMode)>(
     &::UnityEngine::ProBuilder::BezierPoint::SetTangentOut)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66ac1dc;
+  constexpr static std::size_t addrs = 0x66b3c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::BezierPoint, ::UnityEngine::ProBuilder::BezierPoint, float_t)>(
     &::UnityEngine::ProBuilder::BezierPoint::QuadraticPosition)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x66ac1f0;
+  constexpr static std::size_t addrs = 0x66b3c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::BezierPoint, ::UnityEngine::ProBuilder::BezierPoint, float_t)>(
     &::UnityEngine::ProBuilder::BezierPoint::CubicPosition)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x66ac250;
+  constexpr static std::size_t addrs = 0x66b3ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, int32_t, int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::BezierPoint::GetLookDirection)> {
   constexpr static std::size_t size = 0xa38;
-  constexpr static std::size_t addrs = 0x66ac2f4;
+  constexpr static std::size_t addrs = 0x66b3d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BezierPoint>(),

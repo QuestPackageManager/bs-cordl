@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableBinding.hpp"
+// IWYU pragma private; include "UnityEngine\Animations\AnimationPlayableBinding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableBinding_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableBinding (*)(::StringW, ::UnityEngine::Object*)>(
     &::UnityEngine::Animations::AnimationPlayableBinding::Create)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6a3f760;
+  constexpr static std::size_t addrs = 0x6a471dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationPlayableBinding*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Playables::PlayableGraph, ::StringW)>(
     &::UnityEngine::Animations::AnimationPlayableBinding::CreateAnimationOutput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a3f85c;
+  constexpr static std::size_t addrs = 0x6a472d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

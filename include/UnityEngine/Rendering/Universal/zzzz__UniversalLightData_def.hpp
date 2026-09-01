@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalLightData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalLightData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +54,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalLightData* New_ctor();
 
-  /// @brief Method Reset, addr 0x686f1f4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6876c70, size 0x18, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_additionalLightsCount() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set_visibleLights(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> value);
 
-  /// @brief Method .ctor, addr 0x686f20c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6876c88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +135,7 @@ public:
   UniversalLightData(UniversalLightData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12755 };
 
   /// @brief Field mainLightIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___mainLightIndex;

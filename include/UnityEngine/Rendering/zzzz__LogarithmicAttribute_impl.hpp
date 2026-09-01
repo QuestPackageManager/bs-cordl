@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LogarithmicAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LogarithmicAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LogarithmicAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::LogarithmicAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LogarithmicAttribute::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::LogarithmicAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x678a3a0;
+  constexpr static std::size_t addrs = 0x6791e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/RefreshRate.hpp"
+// IWYU pragma private; include "UnityEngine\RefreshRate.hpp"
 #include "UnityEngine/zzzz__RefreshRate_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::RefreshRate::*)()>(&::UnityEngine::RefreshRate::get_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a7d6dc;
+  constexpr static std::size_t addrs = 0x6a85158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RefreshRate>(), { "get_value", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::RefreshRate::*)(::UnityEngine::RefreshRate)>(&::UnityEngine::RefreshRate::Equals)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a7d6f0;
+  constexpr static std::size_t addrs = 0x6a8516c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RefreshRate::*)(::UnityEngine::RefreshRate)>(&::UnityEngine::RefreshRate::CompareTo)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a7d72c;
+  constexpr static std::size_t addrs = 0x6a851a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::RefreshRate::*)()>(&::UnityEngine::RefreshRate::ToString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6a7d770;
+  constexpr static std::size_t addrs = 0x6a851ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::RefreshRate>(), { ::i2c::class_of<::UnityEngine::RefreshRate>(), 3 }));

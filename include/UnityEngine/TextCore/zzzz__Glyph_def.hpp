@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Glyph.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Glyph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,43 +104,43 @@ public:
 
   constexpr void __cordl_internal_set_m_Scale(float_t value);
 
-  /// @brief Method .ctor, addr 0x6bb49c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bbc548, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bb49d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bbc55c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct);
 
-  /// @brief Method .ctor, addr 0x6bb4a34, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bbc5b8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
-  /// @brief Method get_atlasIndex, addr 0x6bb49b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasIndex, addr 0x6bbc538, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_atlasIndex();
 
-  /// @brief Method get_glyphRect, addr 0x6bb4990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glyphRect, addr 0x6bbc514, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::GlyphRect get_glyphRect();
 
-  /// @brief Method get_index, addr 0x6bb4958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x6bbc4dc, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_index();
 
-  /// @brief Method get_metrics, addr 0x6bb4968, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_metrics, addr 0x6bbc4ec, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::GlyphMetrics get_metrics();
 
-  /// @brief Method get_scale, addr 0x6bb49a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scale, addr 0x6bbc528, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scale();
 
-  /// @brief Method set_atlasIndex, addr 0x6bb49bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlasIndex, addr 0x6bbc540, size 0x8, virtual false, abstract: false, final false
   inline void set_atlasIndex(int32_t value);
 
-  /// @brief Method set_glyphRect, addr 0x6bb499c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphRect, addr 0x6bbc520, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphRect(::UnityEngine::TextCore::GlyphRect value);
 
-  /// @brief Method set_index, addr 0x6bb4960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_index, addr 0x6bbc4e4, size 0x8, virtual false, abstract: false, final false
   inline void set_index(uint32_t value);
 
-  /// @brief Method set_metrics, addr 0x6bb497c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_metrics, addr 0x6bbc500, size 0x14, virtual false, abstract: false, final false
   inline void set_metrics(::UnityEngine::TextCore::GlyphMetrics value);
 
-  /// @brief Method set_scale, addr 0x6bb49ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scale, addr 0x6bbc530, size 0x8, virtual false, abstract: false, final false
   inline void set_scale(float_t value);
 
 protected:
@@ -158,7 +158,7 @@ public:
   Glyph(Glyph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21858 };
 
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   uint32_t ___m_Index;

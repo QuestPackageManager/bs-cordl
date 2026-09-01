@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/DiscretionaryAcl.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\DiscretionaryAcl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAcl_impl.hpp"
 #include "System/Security/AccessControl/zzzz__DiscretionaryAcl_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::DiscretionaryAcl::*)(bool, bool, int32_t)>(
     &::System::Security::AccessControl::DiscretionaryAcl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b1ae78;
+  constexpr static std::size_t addrs = 0x5b1f334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::DiscretionaryAcl*>(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     ::System::Security::AccessControl::AccessControlType, ::System::Security::Principal::SecurityIdentifier*, int32_t, ::System::Security::AccessControl::InheritanceFlags,
     ::System::Security::AccessControl::PropagationFlags)>(&::System::Security::AccessControl::DiscretionaryAcl::AddAccess)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5b1ae7c;
+  constexpr static std::size_t addrs = 0x5b1f338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::DiscretionaryAcl::*)()>(
     &::System::Security::AccessControl::DiscretionaryAcl::ApplyCanonicalSortToExplicitAces)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5b1b048;
+  constexpr static std::size_t addrs = 0x5b1f504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::DiscretionaryAcl*>(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::AccessControl::DiscretionaryAcl::*)(::System::Security::AccessControl::AceQualifier)>(
     &::System::Security::AccessControl::DiscretionaryAcl::GetAceInsertPosition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b1b090;
+  constexpr static std::size_t addrs = 0x5b1f54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::DiscretionaryAcl*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::AceQualifier (*)(::System::Security::AccessControl::AccessControlType)>(
     &::System::Security::AccessControl::DiscretionaryAcl::GetAceQualifier)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5b1aff0;
+  constexpr static std::size_t addrs = 0x5b1f4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::DiscretionaryAcl*>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::AccessControl::DiscretionaryAcl::*)(::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::DiscretionaryAcl::IsAceMeaningless)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5b1b0a0;
+  constexpr static std::size_t addrs = 0x5b1f55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::DiscretionaryAcl*>(),

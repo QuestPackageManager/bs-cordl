@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/HashUnsafeUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\HashUnsafeUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__HashUnsafeUtilities_def.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, uint64_t, uint64_t*, uint64_t*)>(&::UnityEngine::HashUnsafeUtilities::ComputeHash128)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ac06f4;
+  constexpr static std::size_t addrs = 0x6ac810c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, uint64_t, ::UnityEngine::Hash128*)>(&::UnityEngine::HashUnsafeUtilities::ComputeHash128)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ac06b8;
+  constexpr static std::size_t addrs = 0x6ac80d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

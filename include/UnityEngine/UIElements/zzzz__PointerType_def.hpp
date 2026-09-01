@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PointerType.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PointerType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
   /// @brief Field unknown, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_unknown, put = setStaticF_unknown)) ::StringW unknown;
 
-  /// @brief Method GetPointerType, addr 0x6d9b984, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetPointerType, addr 0x6da3508, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW GetPointerType(int32_t pointerId);
 
-  /// @brief Method IsDirectManipulationDevice, addr 0x6d9ba7c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsDirectManipulationDevice, addr 0x6da3600, size 0x90, virtual false, abstract: false, final false
   static inline bool IsDirectManipulationDevice(::StringW pointerType);
 
   static inline ::StringW getStaticF_mouse();

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StylePropertyNameCollection.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StylePropertyNameCollection.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyNameCollection_def.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)(
     ::System::Collections::Generic::List_1_Enumerator<::UnityEngine::UIElements::StylePropertyName>)>(&::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d9ecc8;
+  constexpr static std::size_t addrs = 0x6da684c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d9ed9c;
+  constexpr static std::size_t addrs = 0x6da6920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StylePropertyName (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6d9ede8;
+  constexpr static std::size_t addrs = 0x6da696c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d9ee2c;
+  constexpr static std::size_t addrs = 0x6da69b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d9eeb4;
+  constexpr static std::size_t addrs = 0x6da6a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator>(), { "Reset", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::Dispose)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6d9eeb8;
+  constexpr static std::size_t addrs = 0x6da6a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyNameCollection::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*)>(&::UnityEngine::UIElements::StylePropertyNameCollection::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d9ec58;
+  constexpr static std::size_t addrs = 0x6da67dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator (::UnityEngine::UIElements::StylePropertyNameCollection::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d9ec60;
+  constexpr static std::size_t addrs = 0x6da67e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyNameCollection>(), { "GetEnumerator", {}, {} })));
@@ -192,7 +192,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>* (::UnityEngine::UIElements::StylePropertyNameCollection::*)()>(
         &::UnityEngine::UIElements::StylePropertyNameCollection::System_Collections_Generic_IEnumerable_UnityEngine_UIElements_StylePropertyName__GetEnumerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d9ecd4;
+  constexpr static std::size_t addrs = 0x6da6858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::StylePropertyNameCollection::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d9ed38;
+  constexpr static std::size_t addrs = 0x6da68bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

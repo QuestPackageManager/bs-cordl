@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BoolCvar.hpp"
+// IWYU pragma private; include "GlobalNamespace\BoolCvar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,12 +20,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE BoolCvar : public ::GlobalNamespace::Cvar_1<bool> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3323ef0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3327cb0, size 0x6c, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::GlobalNamespace::BoolCvar* New_ctor(::StringW name, bool initialValue);
 
-  /// @brief Method .ctor, addr 0x3323f5c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3327d1c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool initialValue);
 
 protected:
@@ -43,7 +43,7 @@ public:
   BoolCvar(BoolCvar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20771 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/CachingEventHandler.hpp"
+// IWYU pragma private; include "System\Xml\CachingEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +28,12 @@ namespace System::Xml {
 class CORDL_TYPE CachingEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x62a5120, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62acb9c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::XsdCachingReader* cachingReader);
 
   static inline ::System::Xml::CachingEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x62a4fdc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62aca58, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -51,7 +51,7 @@ public:
   CachingEventHandler(CachingEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

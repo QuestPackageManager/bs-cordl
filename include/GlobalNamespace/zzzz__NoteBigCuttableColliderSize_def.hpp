@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteBigCuttableColliderSize.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteBigCuttableColliderSize.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,15 +44,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x58d36bc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58d306c, size 0xd4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x58d389c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x58d324c, size 0x74, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
   static inline ::GlobalNamespace::NoteBigCuttableColliderSize* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58d3790, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58d3140, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::BoxCollider> const& __cordl_internal_get__boxCollider() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteController> value);
 
-  /// @brief Method .ctor, addr 0x58d3910, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d32c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"

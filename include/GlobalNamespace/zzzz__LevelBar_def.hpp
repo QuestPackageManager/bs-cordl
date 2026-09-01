@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LevelBar.hpp"
+// IWYU pragma private; include "GlobalNamespace\LevelBar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,10 +95,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a1bfd8, size 0x1c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a240c4, size 0x1c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a1c198, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a24284, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -116,7 +116,7 @@ public:
                                   ::GlobalNamespace::BeatmapKey beatmapKey, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6484 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -162,10 +162,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a1c1a0, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a2428c, size 0x18c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a1c32c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a24418, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -185,7 +185,7 @@ public:
                                   ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6485 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -242,10 +242,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a1c334, size 0x794, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a24420, size 0x794, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a1cac8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a24bb4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -267,7 +267,7 @@ public:
                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6486 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -391,16 +391,16 @@ public:
 
   static inline ::GlobalNamespace::LevelBar* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a1bfa8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a24094, size 0x2c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Setup, addr 0x5a14744, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a1c850, size 0xb8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapKey beatmapKey);
 
-  /// @brief Method Setup, addr 0x5a1be0c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a23ef8, size 0xc4, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
-  /// @brief Method SetupData, addr 0x5a1bed0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetupData, addr 0x5a23fbc, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SetupData(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                                      ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
@@ -512,10 +512,10 @@ public:
 
   constexpr void __cordl_internal_set__useArtworkBackground(bool value);
 
-  /// @brief Method .ctor, addr 0x5a1bfd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a240c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x5a1bde0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x5a23ecc, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -533,7 +533,7 @@ public:
   LevelBar(LevelBar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6487 };
 
   /// @brief Field _songArtworkImageView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____songArtworkImageView;

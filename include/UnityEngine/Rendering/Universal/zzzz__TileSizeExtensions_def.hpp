@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/TileSizeExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\TileSizeExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE TileSizeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x68ba7e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x68c225c, size 0x20, virtual false, abstract: false, final false
   static inline bool IsValid(::UnityEngine::Rendering::Universal::TileSize tileSize);
 
 protected:
@@ -40,7 +40,7 @@ public:
   TileSizeExtensions(TileSizeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

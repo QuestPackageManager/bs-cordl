@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DeterminismConfig.hpp"
+// IWYU pragma private; include "GlobalNamespace\DeterminismConfig.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::DeterminismConfig* New_ctor(bool initialDeterminism, ::GlobalNamespace::TimeHelper* timeHelper);
 
-  /// @brief Method SetDeterminism, addr 0x3322730, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetDeterminism, addr 0x33264f0, size 0x84, virtual false, abstract: false, final false
   inline void SetDeterminism(bool isDeterministic);
 
   constexpr bool const& __cordl_internal_get__isDeterministic_k__BackingField() const;
@@ -59,19 +59,19 @@ public:
 
   constexpr void __cordl_internal_set_determinismSetEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3322728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33264e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool initialDeterminism, ::GlobalNamespace::TimeHelper* timeHelper);
 
-  /// @brief Method add_determinismSetEvent, addr 0x33225a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_determinismSetEvent, addr 0x3326368, size 0xc0, virtual false, abstract: false, final false
   inline void add_determinismSetEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method get_isDeterministic, addr 0x3322598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDeterministic, addr 0x3326358, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDeterministic();
 
-  /// @brief Method remove_determinismSetEvent, addr 0x3322668, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_determinismSetEvent, addr 0x3326428, size 0xc0, virtual false, abstract: false, final false
   inline void remove_determinismSetEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method set_isDeterministic, addr 0x33225a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isDeterministic, addr 0x3326360, size 0x8, virtual false, abstract: false, final false
   inline void set_isDeterministic(bool value);
 
 protected:
@@ -89,7 +89,7 @@ public:
   DeterminismConfig(DeterminismConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20750 };
 
   /// @brief Field <isDeterministic>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____isDeterministic_k__BackingField;

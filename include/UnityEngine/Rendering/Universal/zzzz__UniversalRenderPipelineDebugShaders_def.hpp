@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineDebugShaders.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineDebugShaders.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugShaders* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68af5c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68b7040, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_DebugReplacementPS() const;
@@ -81,19 +81,19 @@ public:
 
   constexpr void __cordl_internal_set_m_ProbeVolumeSamplingDebugComputeShader(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x68af734, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b71b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_debugReplacementPS, addr 0x68af5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugReplacementPS, addr 0x68b7048, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_debugReplacementPS();
 
-  /// @brief Method get_hdrDebugViewPS, addr 0x68af644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hdrDebugViewPS, addr 0x68b70c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_hdrDebugViewPS();
 
-  /// @brief Method get_probeVolumeSamplingDebugComputeShader, addr 0x68af6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeVolumeSamplingDebugComputeShader, addr 0x68b7138, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_probeVolumeSamplingDebugComputeShader();
 
-  /// @brief Method get_version, addr 0x68af5bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x68b7038, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -102,13 +102,13 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_debugReplacementPS, addr 0x68af5d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_debugReplacementPS, addr 0x68b7050, size 0x70, virtual false, abstract: false, final false
   inline void set_debugReplacementPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_hdrDebugViewPS, addr 0x68af64c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_hdrDebugViewPS, addr 0x68b70c8, size 0x70, virtual false, abstract: false, final false
   inline void set_hdrDebugViewPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_probeVolumeSamplingDebugComputeShader, addr 0x68af6c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_probeVolumeSamplingDebugComputeShader, addr 0x68b7140, size 0x70, virtual false, abstract: false, final false
   inline void set_probeVolumeSamplingDebugComputeShader(::UnityEngine::ComputeShader* value);
 
 protected:
@@ -126,7 +126,7 @@ public:
   UniversalRenderPipelineDebugShaders(UniversalRenderPipelineDebugShaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12941 };
 
   /// @brief Field m_DebugReplacementPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_DebugReplacementPS;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsProcessableFile.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsProcessableFile.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessableFile_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableFile::*)(::System::IO::FileInfo*)>(&::Org::BouncyCastle::Cms::CmsProcessableFile::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x36ac74c;
+  constexpr static std::size_t addrs = 0x36b050c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableFile::*)(::System::IO::FileInfo*, int32_t)>(
     &::Org::BouncyCastle::Cms::CmsProcessableFile::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36ac75c;
+  constexpr static std::size_t addrs = 0x36b051c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Cms::CmsProcessableFile::*)()>(&::Org::BouncyCastle::Cms::CmsProcessableFile::GetInputStream)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x36ac768;
+  constexpr static std::size_t addrs = 0x36b0528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableFile::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Cms::CmsProcessableFile::Write)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x36ac808;
+  constexpr static std::size_t addrs = 0x36b05c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Cms::CmsProcessableFile::*)()>(&::Org::BouncyCastle::Cms::CmsProcessableFile::GetContent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36ac8a0;
+  constexpr static std::size_t addrs = 0x36b0660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

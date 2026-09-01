@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/RangeInt.hpp"
+// IWYU pragma private; include "UnityEngine\RangeInt.hpp"
 #include "UnityEngine/zzzz__RangeInt_def.hpp"
 //  Writing Method size for method: ::UnityEngine::RangeInt.get_end
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RangeInt::*)()>(&::UnityEngine::RangeInt::get_end)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ade288;
+  constexpr static std::size_t addrs = 0x6ae5ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RangeInt>(), { "get_end", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RangeInt::*)(int32_t, int32_t)>(&::UnityEngine::RangeInt::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ade294;
+  constexpr static std::size_t addrs = 0x6ae5cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithAchievementProgressList.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithAchievementProgressList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAchievementProgressList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*> {
 public:
   // Declarations
-  /// @brief Method GetAchievementProgressList, addr 0x5dd4ecc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementProgressList, addr 0x5dd9388, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementProgressList* GetAchievementProgressList();
 
-  /// @brief Method GetDataFromMessage, addr 0x5dd4f10, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5dd93cc, size 0x98, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementProgressList* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAchievementProgressList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5dd2a28, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd6ee4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithAchievementProgressList(MessageWithAchievementProgressList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

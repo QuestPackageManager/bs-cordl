@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/SafeStringMarshal.hpp"
+// IWYU pragma private; include "Mono\SafeStringMarshal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,22 +32,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x5aa9d60, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5aae21c, size 0x28, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GFree, addr 0x5aa9d14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GFree, addr 0x5aae1d0, size 0xc, virtual false, abstract: false, final false
   static inline void GFree(::System::IntPtr ptr);
 
-  /// @brief Method StringToUtf8, addr 0x5aa9d00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method StringToUtf8, addr 0x5aae1bc, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr StringToUtf8(::StringW str);
 
-  /// @brief Method StringToUtf8_icall, addr 0x5aa9cfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method StringToUtf8_icall, addr 0x5aae1b8, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr StringToUtf8_icall(::by_ref<::StringW> str);
 
-  /// @brief Method .ctor, addr 0x5aa9af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aadfb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method get_Value, addr 0x5aa9d20, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5aae1dc, size 0x40, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Value();
 
   /// @brief Convert to "::System::IDisposable"

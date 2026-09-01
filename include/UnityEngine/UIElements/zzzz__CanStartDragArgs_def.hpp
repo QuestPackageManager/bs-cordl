@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/CanStartDragArgs.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\CanStartDragArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE CanStartDragArgs {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6d83f24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d8baa8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* draggedElement, int32_t id, ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds);
 
   // Ctor Parameters []

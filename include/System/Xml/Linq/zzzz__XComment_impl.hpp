@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/XComment.hpp"
+// IWYU pragma private; include "System\Xml\Linq\XComment.hpp"
 #include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/Xml/Linq/zzzz__XComment_def.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XComment::*)(::StringW)>(&::System::Xml::Linq::XComment::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x619c9c4;
+  constexpr static std::size_t addrs = 0x61a4440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XComment*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XComment::*)(::System::Xml::Linq::XComment*)>(&::System::Xml::Linq::XComment::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x619ca20;
+  constexpr static std::size_t addrs = 0x61a449c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeType (::System::Xml::Linq::XComment::*)()>(&::System::Xml::Linq::XComment::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x619ca7c;
+  constexpr static std::size_t addrs = 0x61a44f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XComment*>(), { ::i2c::class_of<::System::Xml::Linq::XComment*>(), 7 }));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Linq::XComment::*)()>(&::System::Xml::Linq::XComment::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x619ca84;
+  constexpr static std::size_t addrs = 0x61a4500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XComment*>(), { "get_Value", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XComment::*)(::StringW)>(&::System::Xml::Linq::XComment::set_Value)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x619ca8c;
+  constexpr static std::size_t addrs = 0x61a4508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XComment*>(), { "set_Value", {}, { ::i2c::type_of<::StringW>() } })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XComment::*)(::System::Xml::XmlWriter*)>(&::System::Xml::Linq::XComment::WriteTo)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x619cb8c;
+  constexpr static std::size_t addrs = 0x61a4608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XComment*>(), { ::i2c::class_of<::System::Xml::Linq::XComment*>(), 8 }));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Linq::XNode* (::System::Xml::Linq::XComment::*)()>(&::System::Xml::Linq::XComment::CloneNode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x619cbf8;
+  constexpr static std::size_t addrs = 0x61a4674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

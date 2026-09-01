@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ShaderDebugPrintInput.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ShaderDebugPrintInput.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderDebugPrintInput_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Rendering::ShaderDebugPrintInput::*)()>(&::UnityEngine::Rendering::ShaderDebugPrintInput::get_pos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6768014;
+  constexpr static std::size_t addrs = 0x676fa90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "get_pos", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShaderDebugPrintInput::*)(::UnityEngine::Vector2)>(&::UnityEngine::Rendering::ShaderDebugPrintInput::set_pos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676801c;
+  constexpr static std::size_t addrs = 0x676fa98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShaderDebugPrintInput::*)()>(&::UnityEngine::Rendering::ShaderDebugPrintInput::get_leftDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6768024;
+  constexpr static std::size_t addrs = 0x676faa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "get_leftDown", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShaderDebugPrintInput::*)(bool)>(&::UnityEngine::Rendering::ShaderDebugPrintInput::set_leftDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676802c;
+  constexpr static std::size_t addrs = 0x676faa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShaderDebugPrintInput::*)()>(&::UnityEngine::Rendering::ShaderDebugPrintInput::get_rightDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6768034;
+  constexpr static std::size_t addrs = 0x676fab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "get_rightDown", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShaderDebugPrintInput::*)(bool)>(&::UnityEngine::Rendering::ShaderDebugPrintInput::set_rightDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676803c;
+  constexpr static std::size_t addrs = 0x676fab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShaderDebugPrintInput::*)()>(&::UnityEngine::Rendering::ShaderDebugPrintInput::get_middleDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6768044;
+  constexpr static std::size_t addrs = 0x676fac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "get_middleDown", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShaderDebugPrintInput::*)(bool)>(&::UnityEngine::Rendering::ShaderDebugPrintInput::set_middleDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676804c;
+  constexpr static std::size_t addrs = 0x676fac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::ShaderDebugPrintInput::*)()>(&::UnityEngine::Rendering::ShaderDebugPrintInput::String)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6768054;
+  constexpr static std::size_t addrs = 0x676fad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShaderDebugPrintInput>(), { "String", {}, {} })));

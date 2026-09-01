@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/RandomizeAvatarColorMap.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\RandomizeAvatarColorMap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,14 +47,14 @@ public:
 
   constexpr void __cordl_internal_set__totalIndices_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3278cd0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327ca60, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex, int32_t glassesColorIndex, int32_t facialHairColorIndex, int32_t handsColorIndex,
                     int32_t clothesPrimaryColorIndex, int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex);
 
-  /// @brief Method get_colorIndices, addr 0x32792c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorIndices, addr 0x327d054, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> get_colorIndices();
 
-  /// @brief Method get_totalIndices, addr 0x32792bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalIndices, addr 0x327d04c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalIndices();
 
 protected:
@@ -72,7 +72,7 @@ public:
   RandomizeAvatarColorMap(RandomizeAvatarColorMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22339 };
 
   /// @brief Field <totalIndices>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____totalIndices_k__BackingField;

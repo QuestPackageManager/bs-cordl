@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Messaging/RemotingSurrogateSelector.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Messaging\RemotingSurrogateSelector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +52,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
   constexpr operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept;
 
-  /// @brief Method GetSurrogate, addr 0x5b45ecc, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method GetSurrogate, addr 0x5b4a388, size 0x1a8, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
                                                                                  ::by_ref<::System::Runtime::Serialization::ISurrogateSelector*> ssout);
 
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__next(::System::Runtime::Serialization::ISurrogateSelector* value);
 
-  /// @brief Method .ctor, addr 0x5b45ec8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4a384, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Remoting::Messaging::ObjRefSurrogate* getStaticF__objRefSurrogate();

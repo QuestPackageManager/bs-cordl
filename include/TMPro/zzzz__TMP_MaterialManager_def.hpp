@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_MaterialManager.hpp"
+// IWYU pragma private; include "TMPro\TMP_MaterialManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set_sourceMaterialCRC(int32_t value);
 
-  /// @brief Method .ctor, addr 0x698ff3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69979b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,7 +154,7 @@ public:
   TMP_MaterialManager_FallbackMaterial(TMP_MaterialManager_FallbackMaterial const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15956 };
 
   /// @brief Field fallbackID, offset: 0x10, size: 0x8, def value: None
   int64_t ___fallbackID;
@@ -232,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x698e414, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6995e90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -250,7 +250,7 @@ public:
   TMP_MaterialManager_MaskingMaterial(TMP_MaterialManager_MaskingMaterial const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15957 };
 
   /// @brief Field baseMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___baseMaterial;
@@ -290,7 +290,7 @@ public:
 
   static inline ::TMPro::TMP_MaterialManager___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <AddMaskingMaterial>b__0, addr 0x69908a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <AddMaskingMaterial>b__0, addr 0x6998324, size 0x7c, virtual false, abstract: false, final false
   inline bool _AddMaskingMaterial_b__0(::TMPro::TMP_MaterialManager_MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
@@ -299,7 +299,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x698eae8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6996564, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -317,7 +317,7 @@ public:
   TMP_MaterialManager___c__DisplayClass11_0(TMP_MaterialManager___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15958 };
 
   /// @brief Field stencilMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___stencilMaterial;
@@ -342,7 +342,7 @@ public:
 
   static inline ::TMPro::TMP_MaterialManager___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <RemoveStencilMaterial>b__0, addr 0x6990924, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <RemoveStencilMaterial>b__0, addr 0x69983a0, size 0x7c, virtual false, abstract: false, final false
   inline bool _RemoveStencilMaterial_b__0(::TMPro::TMP_MaterialManager_MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
@@ -351,7 +351,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x698ec58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69966d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -369,7 +369,7 @@ public:
   TMP_MaterialManager___c__DisplayClass12_0(TMP_MaterialManager___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15959 };
 
   /// @brief Field stencilMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___stencilMaterial;
@@ -394,7 +394,7 @@ public:
 
   static inline ::TMPro::TMP_MaterialManager___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <ReleaseBaseMaterial>b__0, addr 0x69909a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <ReleaseBaseMaterial>b__0, addr 0x699841c, size 0x7c, virtual false, abstract: false, final false
   inline bool _ReleaseBaseMaterial_b__0(::TMPro::TMP_MaterialManager_MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_baseMaterial() const;
@@ -403,7 +403,7 @@ public:
 
   constexpr void __cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x698f13c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6996bb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -421,7 +421,7 @@ public:
   TMP_MaterialManager___c__DisplayClass13_0(TMP_MaterialManager___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15960 };
 
   /// @brief Field baseMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___baseMaterial;
@@ -446,7 +446,7 @@ public:
 
   static inline ::TMPro::TMP_MaterialManager___c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <GetBaseMaterial>b__0, addr 0x6990a1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <GetBaseMaterial>b__0, addr 0x6998498, size 0x7c, virtual false, abstract: false, final false
   inline bool _GetBaseMaterial_b__0(::TMPro::TMP_MaterialManager_MaskingMaterial* item);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
@@ -455,7 +455,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x698e7b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6996230, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -473,7 +473,7 @@ public:
   TMP_MaterialManager___c__DisplayClass9_0(TMP_MaterialManager___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15961 };
 
   /// @brief Field stencilMaterial, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___stencilMaterial;
@@ -522,61 +522,61 @@ public:
   /// @brief Field m_materialList, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_materialList, put = setStaticF_m_materialList)) ::System::Collections::Generic::List_1<::TMPro::TMP_MaterialManager_MaskingMaterial*>* m_materialList;
 
-  /// @brief Method AddFallbackMaterialReference, addr 0x6990364, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddFallbackMaterialReference, addr 0x6997de0, size 0x154, virtual false, abstract: false, final false
   static inline void AddFallbackMaterialReference(::UnityEngine::Material* targetMaterial);
 
-  /// @brief Method AddMaskingMaterial, addr 0x698e870, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method AddMaskingMaterial, addr 0x69962ec, size 0x278, virtual false, abstract: false, final false
   static inline void AddMaskingMaterial(::UnityEngine::Material* baseMaterial, ::UnityEngine::Material* stencilMaterial, int32_t stencilID);
 
-  /// @brief Method CleanupFallbackMaterials, addr 0x698d048, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CleanupFallbackMaterials, addr 0x6994ac4, size 0x254, virtual false, abstract: false, final false
   static inline void CleanupFallbackMaterials();
 
-  /// @brief Method ClearMaterials, addr 0x698f140, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ClearMaterials, addr 0x6996bbc, size 0x1fc, virtual false, abstract: false, final false
   static inline void ClearMaterials();
 
-  /// @brief Method CopyMaterialPresetProperties, addr 0x698fce8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CopyMaterialPresetProperties, addr 0x6997764, size 0x254, virtual false, abstract: false, final false
   static inline void CopyMaterialPresetProperties(::UnityEngine::Material* source, ::UnityEngine::Material* destination);
 
-  /// @brief Method FindRootSortOverrideCanvas, addr 0x698f624, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindRootSortOverrideCanvas, addr 0x69970a0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
 
-  /// @brief Method GetBaseMaterial, addr 0x698e644, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetBaseMaterial, addr 0x69960c0, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetBaseMaterial(::UnityEngine::Material* stencilMaterial);
 
-  /// @brief Method GetFallbackMaterial, addr 0x698fa04, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x6997480, size 0x2e4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
 
-  /// @brief Method GetFallbackMaterial, addr 0x698ff40, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x69979bc, size 0x424, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
 
-  /// @brief Method GetMaterialForRendering, addr 0x698f7e4, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialForRendering, addr 0x6997260, size 0x220, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetMaterialForRendering(::UnityEngine::UI::MaskableGraphic* graphic, ::UnityEngine::Material* baseMaterial);
 
-  /// @brief Method GetStencilID, addr 0x698f33c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method GetStencilID, addr 0x6996db8, size 0x2e8, virtual false, abstract: false, final false
   static inline int32_t GetStencilID(::UnityEngine::GameObject* obj);
 
-  /// @brief Method GetStencilMaterial, addr 0x698d29c, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method GetStencilMaterial, addr 0x6994d18, size 0x3b4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetStencilMaterial(::UnityEngine::Material* baseMaterial, int32_t stencilID);
 
-  /// @brief Method OnPreRender, addr 0x698cfcc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnPreRender, addr 0x6994a48, size 0x7c, virtual false, abstract: false, final false
   static inline void OnPreRender();
 
-  /// @brief Method ReleaseBaseMaterial, addr 0x698ec5c, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBaseMaterial, addr 0x69966d8, size 0x4e0, virtual false, abstract: false, final false
   static inline void ReleaseBaseMaterial(::UnityEngine::Material* baseMaterial);
 
-  /// @brief Method ReleaseFallbackMaterial, addr 0x69906a4, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ReleaseFallbackMaterial, addr 0x6998120, size 0x204, virtual false, abstract: false, final false
   static inline void ReleaseFallbackMaterial(::UnityEngine::Material* fallbackMaterial);
 
-  /// @brief Method ReleaseStencilMaterial, addr 0x698e418, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseStencilMaterial, addr 0x6995e94, size 0x22c, virtual false, abstract: false, final false
   static inline void ReleaseStencilMaterial(::UnityEngine::Material* stencilMaterial);
 
-  /// @brief Method RemoveFallbackMaterialReference, addr 0x69904b8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method RemoveFallbackMaterialReference, addr 0x6997f34, size 0x1ec, virtual false, abstract: false, final false
   static inline void RemoveFallbackMaterialReference(::UnityEngine::Material* targetMaterial);
 
-  /// @brief Method RemoveStencilMaterial, addr 0x698eaec, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method RemoveStencilMaterial, addr 0x6996568, size 0x16c, virtual false, abstract: false, final false
   static inline void RemoveStencilMaterial(::UnityEngine::Material* stencilMaterial);
 
-  /// @brief Method SetStencil, addr 0x698e7b8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SetStencil, addr 0x6996234, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> SetStencil(::UnityEngine::Material* material, int32_t stencilID);
 
   static inline bool getStaticF_isFallbackListDirty();
@@ -614,7 +614,7 @@ public:
   TMP_MaterialManager(TMP_MaterialManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15962 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

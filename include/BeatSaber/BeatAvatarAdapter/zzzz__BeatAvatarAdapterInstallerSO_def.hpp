@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/BeatAvatarAdapterInstallerSO.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarAdapter\BeatAvatarAdapterInstallerSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +56,10 @@ public:
   /// @brief Field _skinColorSet, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__skinColorSet, put = __cordl_internal_set__skinColorSet)) ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> _skinColorSet;
 
-  /// @brief Method InstallBindings, addr 0x3270f80, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3274b94, size 0x10, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallBindings, addr 0x3270f90, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3274ba4, size 0x284, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO* New_ctor();
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__skinColorSet(::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> value);
 
-  /// @brief Method .ctor, addr 0x3271214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3274e28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +112,7 @@ public:
   BeatAvatarAdapterInstallerSO(BeatAvatarAdapterInstallerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21685 };
 
   /// @brief Field _avatarPartsModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO> ____avatarPartsModel;

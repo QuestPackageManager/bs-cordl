@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/DateTimeOffsetConverter.hpp"
+// IWYU pragma private; include "System\ComponentModel\DateTimeOffsetConverter.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__DateTimeOffsetConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DateTimeOffsetConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::ComponentModel::DateTimeOffsetConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63c3d88;
+  constexpr static std::size_t addrs = 0x63cb804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DateTimeOffsetConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::ComponentModel::DateTimeOffsetConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63c3e54;
+  constexpr static std::size_t addrs = 0x63cb8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::ComponentModel::DateTimeOffsetConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::DateTimeOffsetConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x63c3f20;
+  constexpr static std::size_t addrs = 0x63cb99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
     ::System::ComponentModel::DateTimeOffsetConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::DateTimeOffsetConverter::ConvertTo)> {
   constexpr static std::size_t size = 0xb80;
-  constexpr static std::size_t addrs = 0x63c42e8;
+  constexpr static std::size_t addrs = 0x63cbd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DateTimeOffsetConverter::*)()>(&::System::ComponentModel::DateTimeOffsetConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63c4e68;
+  constexpr static std::size_t addrs = 0x63cc8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::DateTimeOffsetConverter*>(), { ".ctor", {}, {} })));

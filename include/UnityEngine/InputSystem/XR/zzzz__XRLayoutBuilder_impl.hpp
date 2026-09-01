@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRLayoutBuilder.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRLayoutBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__FeatureType_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRLayoutBuilder_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::XRLayoutBuilder___c__DisplayClass5_0::*)()>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65820ac;
+  constexpr static std::size_t addrs = 0x6589b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Layouts::InputControlLayout* (::UnityEngine::InputSystem::XR::XRLayoutBuilder___c__DisplayClass5_0::*)()>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder___c__DisplayClass5_0::_OnFindLayoutForDevice_b__0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x658309c;
+  constexpr static std::size_t addrs = 0x658ab18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::UnityEngine::InputSystem::XR::XRFeatureDescriptor)>(&::UnityEngine::InputSystem::XR::XRLayoutBuilder::GetSizeOfFeature)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6581aa4;
+  constexpr static std::size_t addrs = 0x6589520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRLayoutBuilder*>(),
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, bool)>(&::UnityEngine::InputSystem::XR::XRLayoutBuilder::SanitizeString)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6581b58;
+  constexpr static std::size_t addrs = 0x65895d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::StringW (*)(::by_ref<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>, ::StringW, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*)>(
         &::UnityEngine::InputSystem::XR::XRLayoutBuilder::OnFindLayoutForDevice)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x6581cb8;
+  constexpr static std::size_t addrs = 0x6589734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::InputSystem::Layouts::InputControlLayout*, ::StringW)>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder::ConvertPotentialAliasToName)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x65820b4;
+  constexpr static std::size_t addrs = 0x6589b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::XR::XRLayoutBuilder::*)(::StringW)>(&::UnityEngine::InputSystem::XR::XRLayoutBuilder::IsSubControl)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6582238;
+  constexpr static std::size_t addrs = 0x6589cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::XR::XRLayoutBuilder::*)(::StringW)>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder::GetParentControlName)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6582268;
+  constexpr static std::size_t addrs = 0x6589ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::XR::XRLayoutBuilder::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*, int32_t)>(&::UnityEngine::InputSystem::XR::XRLayoutBuilder::IsPoseControl)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x65822a4;
+  constexpr static std::size_t addrs = 0x6589d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Layouts::InputControlLayout* (::UnityEngine::InputSystem::XR::XRLayoutBuilder::*)()>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder::Build)> {
   constexpr static std::size_t size = 0xacc;
-  constexpr static std::size_t addrs = 0x658240c;
+  constexpr static std::size_t addrs = 0x6589e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRLayoutBuilder*>(), { "Build", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::XRLayoutBuilder::*)()>(&::UnityEngine::InputSystem::XR::XRLayoutBuilder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65820b0;
+  constexpr static std::size_t addrs = 0x6589b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRLayoutBuilder*>(), { ".ctor", {}, {} })));

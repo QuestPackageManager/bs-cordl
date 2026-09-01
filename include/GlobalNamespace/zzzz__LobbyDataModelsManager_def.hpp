@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LobbyDataModelsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\LobbyDataModelsManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,10 +52,10 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager)) ::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  /// @brief Method Activate, addr 0x3731324, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x3736e94, size 0x224, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x3731640, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x37371b0, size 0x1ac, virtual false, abstract: false, final false
   inline void Deactivate();
 
   static inline ::GlobalNamespace::LobbyDataModelsManager* New_ctor();
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x37318e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3737454, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   LobbyDataModelsManager(LobbyDataModelsManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15101 };
 
   /// @brief Field _lobbyStateDataModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsContentInfoParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsContentInfoParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   /// @brief Field data, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::System::IO::Stream* data;
 
-  /// @brief Method Close, addr 0x36a2fe4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x36a6da4, size 0x70, virtual false, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Cms::CmsContentInfoParser* New_ctor(::System::IO::Stream* data);
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x36a2d7c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a6b3c, size 0x268, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* data);
 
 protected:

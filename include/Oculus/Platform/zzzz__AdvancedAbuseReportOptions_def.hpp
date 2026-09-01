@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/AdvancedAbuseReportOptions.hpp"
+// IWYU pragma private; include "Oculus\Platform\AdvancedAbuseReportOptions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,30 +34,30 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method AddSuggestedUser, addr 0x5dafd64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddSuggestedUser, addr 0x5db4220, size 0x6c, virtual false, abstract: false, final false
   inline void AddSuggestedUser(uint64_t userID);
 
-  /// @brief Method ClearDeveloperDefinedContext, addr 0x5dafa8c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ClearDeveloperDefinedContext, addr 0x5db3f48, size 0x5c, virtual false, abstract: false, final false
   inline void ClearDeveloperDefinedContext();
 
-  /// @brief Method ClearSuggestedUsers, addr 0x5dafe54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ClearSuggestedUsers, addr 0x5db4310, size 0x5c, virtual false, abstract: false, final false
   inline void ClearSuggestedUsers();
 
-  /// @brief Method Finalize, addr 0x5db0028, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5db44e4, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::AdvancedAbuseReportOptions* New_ctor();
 
-  /// @brief Method SetDeveloperDefinedContext, addr 0x5daf958, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetDeveloperDefinedContext, addr 0x5db3e14, size 0x74, virtual false, abstract: false, final false
   inline void SetDeveloperDefinedContext(::StringW key, ::StringW value);
 
-  /// @brief Method SetObjectType, addr 0x5dafb64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetObjectType, addr 0x5db4020, size 0x6c, virtual false, abstract: false, final false
   inline void SetObjectType(::StringW value);
 
-  /// @brief Method SetReportType, addr 0x5dafc74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetReportType, addr 0x5db4130, size 0x6c, virtual false, abstract: false, final false
   inline void SetReportType(::Oculus::Platform::AbuseReportType value);
 
-  /// @brief Method SetVideoMode, addr 0x5daff2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetVideoMode, addr 0x5db43e8, size 0x6c, virtual false, abstract: false, final false
   inline void SetVideoMode(::Oculus::Platform::AbuseReportVideoMode value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -66,10 +66,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x5daf898, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db3d54, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x5db001c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x5db44d8, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::AdvancedAbuseReportOptions* options);
 
 protected:
@@ -87,7 +87,7 @@ public:
   AdvancedAbuseReportOptions(AdvancedAbuseReportOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17818 };
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XPath/XPathException.hpp"
+// IWYU pragma private; include "System\Xml\XPath\XPathException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XPath::XPathException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Xml::XPath::XPathException::_ctor)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x62e0328;
+  constexpr static std::size_t addrs = 0x62e7da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XPath::XPathException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Xml::XPath::XPathException::GetObjectData)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x62e06dc;
+  constexpr static std::size_t addrs = 0x62e8158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XPath::XPathException::*)()>(&::System::Xml::XPath::XPathException::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62e07dc;
+  constexpr static std::size_t addrs = 0x62e8258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XPath::XPathException*>(), { ".ctor", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XPath::XPathException::*)(::StringW, ::System::Exception*)>(&::System::Xml::XPath::XPathException::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x62e07f4;
+  constexpr static std::size_t addrs = 0x62e8270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathException* (*)(::StringW)>(&::System::Xml::XPath::XPathException::Create)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x62e0918;
+  constexpr static std::size_t addrs = 0x62e8394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathException* (*)(::StringW, ::StringW)>(&::System::Xml::XPath::XPathException::Create)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x62e09ec;
+  constexpr static std::size_t addrs = 0x62e8468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathException* (*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::XPath::XPathException::Create)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x62e0abc;
+  constexpr static std::size_t addrs = 0x62e8538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XPath::XPathException::*)(::StringW, ::ArrayW<::StringW>)>(&::System::Xml::XPath::XPathException::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x62e099c;
+  constexpr static std::size_t addrs = 0x62e8418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XPath::XPathException::*)(::StringW, ::ArrayW<::StringW>, ::System::Exception*)>(
     &::System::Xml::XPath::XPathException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62e08bc;
+  constexpr static std::size_t addrs = 0x62e8338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::ArrayW<::StringW>)>(&::System::Xml::XPath::XPathException::CreateMessage)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x62e058c;
+  constexpr static std::size_t addrs = 0x62e8008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XPath::XPathException::*)()>(&::System::Xml::XPath::XPathException::get_Message)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62e0b9c;
+  constexpr static std::size_t addrs = 0x62e8618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

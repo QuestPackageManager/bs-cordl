@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/BindStatement.hpp"
+// IWYU pragma private; include "Zenject\BindStatement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__BindStatement_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e584c8;
+  constexpr static std::size_t addrs = 0x6e6004c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::BindStatement*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindingInheritanceMethods (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::get_BindingInheritanceMethod)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e58694;
+  constexpr static std::size_t addrs = 0x6e60218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::BindStatement*>(), { "get_BindingInheritanceMethod", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::get_HasFinalizer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e58780;
+  constexpr static std::size_t addrs = 0x6e60304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::BindStatement*>(), { "get_HasFinalizer", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::BindStatement::*)(::Zenject::IBindingFinalizer*)>(&::Zenject::BindStatement::SetFinalizer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e58790;
+  constexpr static std::size_t addrs = 0x6e60314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::AssertHasFinalizer)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6e58740;
+  constexpr static std::size_t addrs = 0x6e602c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::BindStatement*>(), { "AssertHasFinalizer", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::BindStatement::*)(::System::IDisposable*)>(&::Zenject::BindStatement::AddDisposable)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e58798;
+  constexpr static std::size_t addrs = 0x6e6031c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindInfo* (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::SpawnBindInfo)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e5884c;
+  constexpr static std::size_t addrs = 0x6e603d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::BindStatement*>(), { "SpawnBindInfo", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::BindStatement::*)(::Zenject::DiContainer*)>(&::Zenject::BindStatement::FinalizeBinding)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e588bc;
+  constexpr static std::size_t addrs = 0x6e60440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::Reset)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6e58540;
+  constexpr static std::size_t addrs = 0x6e600c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::BindStatement*>(), { "Reset", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e5897c;
+  constexpr static std::size_t addrs = 0x6e60500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::BindStatement*>(), { "Dispose", {}, {} })));

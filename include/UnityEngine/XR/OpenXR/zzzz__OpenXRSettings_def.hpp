@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/OpenXRSettings.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\OpenXRSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -123,7 +123,7 @@ public:
   constexpr OpenXRSettings_ColorSubmissionModeGroup(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18490 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set_m_List(::ArrayW<::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup> value);
 
-  /// @brief Method .ctor, addr 0x69e6134, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69edbb0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -190,7 +190,7 @@ public:
   OpenXRSettings_ColorSubmissionModeList(OpenXRSettings_ColorSubmissionModeList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18491 };
 
   /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup> ___m_List;
@@ -242,7 +242,7 @@ public:
   static ::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode const SinglePassInstanced;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18492 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -301,7 +301,7 @@ public:
   static ::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18493 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -356,7 +356,7 @@ public:
   static ::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi const SRPFoveation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18494 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -411,7 +411,7 @@ public:
   static ::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat const RGBA16f;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18495 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -448,16 +448,16 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRSettings___c* New_ctor();
 
-  /// @brief Method <ApplyRenderSettings>b__44_0, addr 0x69e61f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ApplyRenderSettings>b__44_0, addr 0x69edc6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t _ApplyRenderSettings_b__44_0(::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup e);
 
-  /// @brief Method .ctor, addr 0x69e61dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69edc58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_colorSubmissionModes>b__25_0, addr 0x69e61e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <get_colorSubmissionModes>b__25_0, addr 0x69edc5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup _get_colorSubmissionModes_b__25_0(int32_t i);
 
-  /// @brief Method <set_colorSubmissionModes>b__26_0, addr 0x69e61e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <set_colorSubmissionModes>b__26_0, addr 0x69edc64, size 0x8, virtual false, abstract: false, final false
   inline int32_t _set_colorSubmissionModes_b__26_0(::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup e);
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRSettings___c* getStaticF___9();
@@ -491,7 +491,7 @@ public:
   OpenXRSettings___c(OpenXRSettings___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -583,117 +583,117 @@ public:
 
   __declspec(property(get = get_symmetricProjection, put = set_symmetricProjection)) bool symmetricProjection;
 
-  /// @brief Method ApplyRenderSettings, addr 0x69e5370, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method ApplyRenderSettings, addr 0x69ecdec, size 0x2b0, virtual false, abstract: false, final false
   inline void ApplyRenderSettings();
 
-  /// @brief Method ApplySettings, addr 0x69e5e0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ApplySettings, addr 0x69ed888, size 0x4, virtual false, abstract: false, final false
   inline void ApplySettings();
 
-  /// @brief Method Awake, addr 0x69e5dbc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x69ed838, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetFeature, addr 0x69e3ce4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetFeature, addr 0x69eb760, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature> GetFeature(::System::Type* featureType);
 
   /// @brief Method GetFeature, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TFeature> inline TFeature GetFeature();
 
-  /// @brief Method GetFeatures, addr 0x69e4054, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetFeatures, addr 0x69ebad0, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>> GetFeatures();
 
   /// @brief Method GetFeatures, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TFeature> inline ::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>> GetFeatures();
 
-  /// @brief Method GetFeatures, addr 0x69e3d70, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetFeatures, addr 0x69eb7ec, size 0x17c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>> GetFeatures(::System::Type* featureType);
 
-  /// @brief Method GetFeatures, addr 0x69e3eec, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetFeatures, addr 0x69eb968, size 0x168, virtual false, abstract: false, final false
   inline int32_t GetFeatures(::System::Type* featureType, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>>* featuresOut);
 
-  /// @brief Method GetFeatures, addr 0x69e40e4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetFeatures, addr 0x69ebb60, size 0xd0, virtual false, abstract: false, final false
   inline int32_t GetFeatures(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>>* featuresOut);
 
   /// @brief Method GetFeatures, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TFeature> inline int32_t GetFeatures(::System::Collections::Generic::List_1<TFeature>* featuresOut);
 
-  /// @brief Method GetInstance, addr 0x69e4b1c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x69ec598, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRSettings> GetInstance(bool useActiveBuildTarget);
 
-  /// @brief Method Internal_GetAllowRecentering, addr 0x69e5f1c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetAllowRecentering, addr 0x69ed998, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_GetAllowRecentering();
 
-  /// @brief Method Internal_GetColorSubmissionModes, addr 0x69e4728, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetColorSubmissionModes, addr 0x69ec1a4, size 0xe8, virtual false, abstract: false, final false
   static inline int32_t Internal_GetColorSubmissionModes(::by_ref<::ArrayW<int32_t>> colorSubmissionMode, int32_t arraySize);
 
-  /// @brief Method Internal_GetDepthSubmissionMode, addr 0x69e4d40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetDepthSubmissionMode, addr 0x69ec7bc, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode Internal_GetDepthSubmissionMode();
 
-  /// @brief Method Internal_GetFloorOffset, addr 0x69e5f8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetFloorOffset, addr 0x69eda08, size 0x64, virtual false, abstract: false, final false
   static inline float_t Internal_GetFloorOffset();
 
-  /// @brief Method Internal_GetHasEyeTrackingPermissions, addr 0x69e5c60, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetHasEyeTrackingPermissions, addr 0x69ed6dc, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_GetHasEyeTrackingPermissions();
 
-  /// @brief Method Internal_GetIsUsingLegacyXRDisplay, addr 0x69e5d50, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetIsUsingLegacyXRDisplay, addr 0x69ed7cc, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_GetIsUsingLegacyXRDisplay();
 
-  /// @brief Method Internal_GetRenderMode, addr 0x69e42a8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetRenderMode, addr 0x69ebd24, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode Internal_GetRenderMode();
 
-  /// @brief Method Internal_GetSpaceWarpMotionVectorTextureFormat, addr 0x69e5010, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetSpaceWarpMotionVectorTextureFormat, addr 0x69eca8c, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat Internal_GetSpaceWarpMotionVectorTextureFormat();
 
-  /// @brief Method Internal_GetUsedFoveatedRenderingApi, addr 0x69e5a84, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetUsedFoveatedRenderingApi, addr 0x69ed500, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi Internal_GetUsedFoveatedRenderingApi();
 
-  /// @brief Method Internal_HasRequestedEyeTrackingPermissions, addr 0x69e5718, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_HasRequestedEyeTrackingPermissions, addr 0x69ed194, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_HasRequestedEyeTrackingPermissions();
 
-  /// @brief Method Internal_RegenerateTrackingOrigin, addr 0x69e5eb4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_RegenerateTrackingOrigin, addr 0x69ed930, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_RegenerateTrackingOrigin();
 
-  /// @brief Method Internal_SetAllowRecentering, addr 0x69e5e24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetAllowRecentering, addr 0x69ed8a0, size 0x8c, virtual false, abstract: false, final false
   static inline void Internal_SetAllowRecentering(bool active, float_t height);
 
-  /// @brief Method Internal_SetColorSubmissionMode, addr 0x69e5ccc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetColorSubmissionMode, addr 0x69ed748, size 0x84, virtual false, abstract: false, final false
   static inline void Internal_SetColorSubmissionMode(::ArrayW<::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup> colorSubmissionMode);
 
-  /// @brief Method Internal_SetColorSubmissionModes, addr 0x69e4a0c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetColorSubmissionModes, addr 0x69ec488, size 0x8c, virtual false, abstract: false, final false
   static inline void Internal_SetColorSubmissionModes(::ArrayW<int32_t> colorSubmissionMode, int32_t arraySize);
 
-  /// @brief Method Internal_SetDepthSubmissionMode, addr 0x69e4ea0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetDepthSubmissionMode, addr 0x69ec91c, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetDepthSubmissionMode(::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode depthSubmissionMode);
 
-  /// @brief Method Internal_SetHasEyeTrackingPermissions, addr 0x69e4bd0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetHasEyeTrackingPermissions, addr 0x69ec64c, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetHasEyeTrackingPermissions(bool value);
 
-  /// @brief Method Internal_SetOptimizeBufferDiscards, addr 0x69e52f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetOptimizeBufferDiscards, addr 0x69ecd70, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetOptimizeBufferDiscards(bool enabled);
 
-  /// @brief Method Internal_SetOptimizeMultiviewRenderRegions, addr 0x69e5be4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetOptimizeMultiviewRenderRegions, addr 0x69ed660, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetOptimizeMultiviewRenderRegions(bool enabled);
 
-  /// @brief Method Internal_SetRenderMode, addr 0x69e4408, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetRenderMode, addr 0x69ebe84, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetRenderMode(::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode renderMode);
 
-  /// @brief Method Internal_SetSpaceWarpMotionVectorTextureFormat, addr 0x69e5170, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetSpaceWarpMotionVectorTextureFormat, addr 0x69ecbec, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetSpaceWarpMotionVectorTextureFormat(::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat spaceWarpMotionVectorTextureFormat);
 
-  /// @brief Method Internal_SetSymmetricProjection, addr 0x69e5620, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetSymmetricProjection, addr 0x69ed09c, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetSymmetricProjection(bool enabled);
 
-  /// @brief Method Internal_SetUsedFoveatedRenderingApi, addr 0x69e569c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetUsedFoveatedRenderingApi, addr 0x69ed118, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetUsedFoveatedRenderingApi(::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi api);
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRSettings* New_ctor();
 
-  /// @brief Method PermissionGrantedCallback, addr 0x69e4a98, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method PermissionGrantedCallback, addr 0x69ec514, size 0x84, virtual false, abstract: false, final false
   static inline void PermissionGrantedCallback(::StringW permissionName);
 
-  /// @brief Method RefreshRecenterSpace, addr 0x69e5eb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RefreshRecenterSpace, addr 0x69ed92c, size 0x4, virtual false, abstract: false, final false
   static inline void RefreshRecenterSpace();
 
-  /// @brief Method SetAllowRecentering, addr 0x69e5e20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetAllowRecentering, addr 0x69ed89c, size 0x4, virtual false, abstract: false, final false
   static inline void SetAllowRecentering(bool allowRecentering, float_t floorOffset);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>> const& __cordl_internal_get_features() const;
@@ -756,78 +756,78 @@ public:
 
   constexpr void __cordl_internal_set_m_symmetricProjection(bool value);
 
-  /// @brief Method .ctor, addr 0x69e5ff0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69eda6c, size 0x144, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup getStaticF_kDefaultColorMode();
 
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRSettings> getStaticF_s_RuntimeInstance();
 
-  /// @brief Method get_ActiveBuildTargetInstance, addr 0x69e5e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveBuildTargetInstance, addr 0x69ed88c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRSettings> get_ActiveBuildTargetInstance();
 
-  /// @brief Method get_AllowRecentering, addr 0x69e5f18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_AllowRecentering, addr 0x69ed994, size 0x4, virtual false, abstract: false, final false
   static inline bool get_AllowRecentering();
 
-  /// @brief Method get_FloorOffset, addr 0x69e5f88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_FloorOffset, addr 0x69eda04, size 0x4, virtual false, abstract: false, final false
   static inline float_t get_FloorOffset();
 
-  /// @brief Method get_Instance, addr 0x69e5e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x69ed894, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::XR::OpenXR::OpenXRSettings> get_Instance();
 
-  /// @brief Method get_autoColorSubmissionMode, addr 0x69e4484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoColorSubmissionMode, addr 0x69ebf00, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoColorSubmissionMode();
 
-  /// @brief Method get_colorSubmissionModes, addr 0x69e4494, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method get_colorSubmissionModes, addr 0x69ebf10, size 0x294, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup> get_colorSubmissionModes();
 
-  /// @brief Method get_depthSubmissionMode, addr 0x69e4c4c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_depthSubmissionMode, addr 0x69ec6c8, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode get_depthSubmissionMode();
 
-  /// @brief Method get_featureCount, addr 0x69e3ccc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_featureCount, addr 0x69eb748, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_featureCount();
 
-  /// @brief Method get_foveatedRenderingApi, addr 0x69e5990, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingApi, addr 0x69ed40c, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi get_foveatedRenderingApi();
 
-  /// @brief Method get_optimizeBufferDiscards, addr 0x69e51ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_optimizeBufferDiscards, addr 0x69ecc68, size 0x8, virtual false, abstract: false, final false
   inline bool get_optimizeBufferDiscards();
 
-  /// @brief Method get_renderMode, addr 0x69e41b4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_renderMode, addr 0x69ebc30, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode get_renderMode();
 
-  /// @brief Method get_spacewarpMotionVectorTextureFormat, addr 0x69e4f1c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_spacewarpMotionVectorTextureFormat, addr 0x69ec998, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat get_spacewarpMotionVectorTextureFormat();
 
-  /// @brief Method get_symmetricProjection, addr 0x69e5888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_symmetricProjection, addr 0x69ed304, size 0x8, virtual false, abstract: false, final false
   inline bool get_symmetricProjection();
 
   static inline void setStaticF_kDefaultColorMode(::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup value);
 
   static inline void setStaticF_s_RuntimeInstance(::UnityW<::UnityEngine::XR::OpenXR::OpenXRSettings> value);
 
-  /// @brief Method set_autoColorSubmissionMode, addr 0x69e448c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_autoColorSubmissionMode, addr 0x69ebf08, size 0x8, virtual false, abstract: false, final false
   inline void set_autoColorSubmissionMode(bool value);
 
-  /// @brief Method set_colorSubmissionModes, addr 0x69e4810, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method set_colorSubmissionModes, addr 0x69ec28c, size 0x1fc, virtual false, abstract: false, final false
   inline void set_colorSubmissionModes(::ArrayW<::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup> value);
 
-  /// @brief Method set_depthSubmissionMode, addr 0x69e4da4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_depthSubmissionMode, addr 0x69ec820, size 0xfc, virtual false, abstract: false, final false
   inline void set_depthSubmissionMode(::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode value);
 
-  /// @brief Method set_foveatedRenderingApi, addr 0x69e5ae8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_foveatedRenderingApi, addr 0x69ed564, size 0xfc, virtual false, abstract: false, final false
   inline void set_foveatedRenderingApi(::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi value);
 
-  /// @brief Method set_optimizeBufferDiscards, addr 0x69e51f4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_optimizeBufferDiscards, addr 0x69ecc70, size 0x100, virtual false, abstract: false, final false
   inline void set_optimizeBufferDiscards(bool value);
 
-  /// @brief Method set_renderMode, addr 0x69e430c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_renderMode, addr 0x69ebd88, size 0xfc, virtual false, abstract: false, final false
   inline void set_renderMode(::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode value);
 
-  /// @brief Method set_spacewarpMotionVectorTextureFormat, addr 0x69e5074, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_spacewarpMotionVectorTextureFormat, addr 0x69ecaf0, size 0xfc, virtual false, abstract: false, final false
   inline void set_spacewarpMotionVectorTextureFormat(::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat value);
 
-  /// @brief Method set_symmetricProjection, addr 0x69e5890, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_symmetricProjection, addr 0x69ed30c, size 0x100, virtual false, abstract: false, final false
   inline void set_symmetricProjection(bool value);
 
 protected:
@@ -848,7 +848,7 @@ public:
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18497 };
 
   /// @brief Field features, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>> ___features;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/HumanLimit.hpp"
+// IWYU pragma private; include "UnityEngine\HumanLimit.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   constexpr HumanLimit(::UnityEngine::Vector3 m_Min, ::UnityEngine::Vector3 m_Max, ::UnityEngine::Vector3 m_Center, float_t m_AxisLength, int32_t m_UseDefaultValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20233 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };

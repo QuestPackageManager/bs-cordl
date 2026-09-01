@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapBoxConverterNoConvert.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapBoxConverterNoConvert.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapBoxConverterNoConvert_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__LightRotationEventBox_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapBoxConverterNoConvert::*)(
     ::System::Collections::Generic::List_1<::System::ValueTuple_2<int32_t, int32_t>>*, int32_t, int32_t)>(&::GlobalNamespace::BeatmapBoxConverterNoConvert::ConvertBoxEventGroupId)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x372a2e4;
+  constexpr static std::size_t addrs = 0x372ff48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightR
     ::GlobalNamespace::BeatmapBoxConverterNoConvert::*)(float_t, ::BeatmapSaveDataVersion4::LightRotationEvent, ::BeatmapSaveDataVersion4::LightRotationEventBox)>(
     &::GlobalNamespace::BeatmapBoxConverterNoConvert::ConvertRotationEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x372a3ac;
+  constexpr static std::size_t addrs = 0x3730010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapBoxConverterNoConvert::*)()>(&::GlobalNamespace::BeatmapBoxConverterNoConvert::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x372a448;
+  constexpr static std::size_t addrs = 0x37300ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapBoxConverterNoConvert*>(), { ".ctor", {}, {} })));

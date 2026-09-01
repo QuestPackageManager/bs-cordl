@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/InspectedMember.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\InspectedMember.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__InspectedItemBase_impl.hpp"
 #include "System/Reflection/zzzz__BindingFlags_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__InspectedMember_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* (::Meta::XR::ImmersiveDebugger::InspectedMember::*)()>(
     &::Meta::XR::ImmersiveDebugger::InspectedMember::get_SupportedGizmos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3d760;
+  constexpr static std::size_t addrs = 0x5a41c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedMember*>(), { "get_SupportedGizmos", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedMember::*)(
     ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*)>(&::Meta::XR::ImmersiveDebugger::InspectedMember::set_SupportedGizmos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3d768;
+  constexpr static std::size_t addrs = 0x5a41c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MemberInfo* (::Meta::XR::ImmersiveDebugger::InspectedMember::*)()>(
     &::Meta::XR::ImmersiveDebugger::InspectedMember::get_MemberInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3d770;
+  constexpr static std::size_t addrs = 0x5a41c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedMember*>(), { "get_MemberInfo", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedMember::*)(::System::Reflection::MemberInfo*)>(
     &::Meta::XR::ImmersiveDebugger::InspectedMember::set_MemberInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3d778;
+  constexpr static std::size_t addrs = 0x5a41c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedMember::*)(::System::Reflection::MemberInfo*)>(
     &::Meta::XR::ImmersiveDebugger::InspectedMember::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5a3d6a4;
+  constexpr static std::size_t addrs = 0x5a41b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedMember::*)()>(&::Meta::XR::ImmersiveDebugger::InspectedMember::Initialize)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5a3cdc8;
+  constexpr static std::size_t addrs = 0x5a41284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedMember*>(), { "Initialize", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedMember::*)(
     ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*)>(&::Meta::XR::ImmersiveDebugger::InspectedMember::PopulateSupportedGizmos)> {
   constexpr static std::size_t size = 0x5ec;
-  constexpr static std::size_t addrs = 0x5a3d780;
+  constexpr static std::size_t addrs = 0x5a41c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SetChildrenLightId.hpp"
+// IWYU pragma private; include "GlobalNamespace\SetChildrenLightId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::SetChildrenLightId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58712ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5870c0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   SetChildrenLightId(SetChildrenLightId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

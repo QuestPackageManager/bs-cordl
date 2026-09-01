@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/NetPacketReader.hpp"
+// IWYU pragma private; include "LiteNetLib\NetPacketReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +39,13 @@ public:
 
   static inline ::LiteNetLib::NetPacketReader* New_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt);
 
-  /// @brief Method Recycle, addr 0x589e3b8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Recycle, addr 0x589dd80, size 0x68, virtual false, abstract: false, final false
   inline void Recycle();
 
-  /// @brief Method RecycleInternal, addr 0x589e12c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RecycleInternal, addr 0x589daf4, size 0x44, virtual false, abstract: false, final false
   inline void RecycleInternal();
 
-  /// @brief Method SetSource, addr 0x589e084, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetSource, addr 0x589da4c, size 0x40, virtual false, abstract: false, final false
   inline void SetSource(::LiteNetLib::NetPacket* packet);
 
   constexpr ::LiteNetLib::NetEvent* const& __cordl_internal_get__evt() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__packet(::LiteNetLib::NetPacket* value);
 
-  /// @brief Method .ctor, addr 0x589e07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x589da44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt);
 
 protected:
@@ -84,7 +84,7 @@ public:
   NetPacketReader(NetPacketReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20060 };
 
   /// @brief Field _packet, offset: 0x28, size: 0x8, def value: None
   ::LiteNetLib::NetPacket* ____packet;

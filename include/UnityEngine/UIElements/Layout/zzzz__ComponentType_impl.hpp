@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/ComponentType.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\ComponentType.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__ComponentType_def.hpp"
 template <typename T> inline ::UnityEngine::UIElements::Layout::ComponentType UnityEngine::UIElements::Layout::ComponentType::Create() {
   static auto* ___internal_method_base =

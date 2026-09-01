@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/NativeTextGenerationSettings.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\NativeTextGenerationSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,10 +58,10 @@ public:
 
   static inline ::UnityEngine::TextCore::NativeTextGenerationSettings___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bbab50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc26d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_hasLink>b__20_0, addr 0x6bbab54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <get_hasLink>b__20_0, addr 0x6bc26d8, size 0x10, virtual false, abstract: false, final false
   inline bool _get_hasLink_b__20_0(::UnityEngine::TextCore::TextSpan span);
 
   static inline ::UnityEngine::TextCore::NativeTextGenerationSettings___c* getStaticF___9();
@@ -87,7 +87,7 @@ public:
   NativeTextGenerationSettings___c(NativeTextGenerationSettings___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17184 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,16 +107,16 @@ public:
 
   __declspec(property(get = get_hasLink)) bool hasLink;
 
-  /// @brief Method CreateTextSpan, addr 0x6bb9ad4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CreateTextSpan, addr 0x6bc1658, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::TextSpan CreateTextSpan();
 
-  /// @brief Method ToString, addr 0x6bb9b44, size 0xb18, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6bc16c8, size 0xb18, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Default, addr 0x6bb9af8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6bc167c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::NativeTextGenerationSettings get_Default();
 
-  /// @brief Method get_hasLink, addr 0x6bb99b8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method get_hasLink, addr 0x6bc153c, size 0x11c, virtual false, abstract: false, final false
   inline bool get_hasLink();
 
   // Ctor Parameters []
@@ -141,7 +141,7 @@ public:
                                          int32_t paragraphSpacing) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17185 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

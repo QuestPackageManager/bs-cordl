@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Comparer.hpp"
+// IWYU pragma private; include "System\Collections\Comparer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +56,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Compare, addr 0x5bdedbc, size 0x1fc, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x5be3278, size 0x1fc, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method GetObjectData, addr 0x5bded10, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5be31cc, size 0xac, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Collections::Comparer* New_ctor(::System::Globalization::CultureInfo* culture);
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x5bdeb38, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be2ff4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor, addr 0x5bdebac, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be3068, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Collections::Comparer* getStaticF_Default();

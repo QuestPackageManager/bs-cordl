@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithUser.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithUser.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithUser_def.hpp"
 #include "Oculus/Platform/Models/zzzz__User_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithUser::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithUser::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd3c20;
+  constexpr static std::size_t addrs = 0x5dd80dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::User* (::Oculus::Platform::MessageWithUser::*)()>(&::Oculus::Platform::MessageWithUser::GetUser)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd8cac;
+  constexpr static std::size_t addrs = 0x5ddd168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::User* (::Oculus::Platform::MessageWithUser::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithUser::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd8cf0;
+  constexpr static std::size_t addrs = 0x5ddd1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

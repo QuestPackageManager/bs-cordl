@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StandaloneThreadContext.hpp"
+// IWYU pragma private; include "GlobalNamespace\StandaloneThreadContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::StandaloneThreadContext* New_ctor();
 
-  /// @brief Method Run, addr 0x333e00c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x3341dcc, size 0x4, virtual true, abstract: false, final true
   inline void Run(::GlobalNamespace::IStandaloneThreadRunnable* runnable);
 
-  /// @brief Method .ctor, addr 0x333e010, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3341dd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::StandaloneThreadContext* getStaticF_instance();
@@ -61,7 +61,7 @@ public:
   StandaloneThreadContext(StandaloneThreadContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18290 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

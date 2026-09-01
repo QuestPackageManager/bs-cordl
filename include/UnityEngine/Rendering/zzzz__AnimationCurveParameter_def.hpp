@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/AnimationCurveParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\AnimationCurveParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,21 +30,21 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE AnimationCurveParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::AnimationCurve*> {
 public:
   // Declarations
-  /// @brief Method Clone, addr 0x67c6984, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x67ce400, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method GetHashCode, addr 0x67c6a6c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67ce4e8, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Interp, addr 0x67c68d8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Interp, addr 0x67ce354, size 0xc, virtual true, abstract: false, final false
   inline void Interp(::UnityEngine::AnimationCurve* lhsCurve, ::UnityEngine::AnimationCurve* rhsCurve, float_t t);
 
   static inline ::UnityEngine::Rendering::AnimationCurveParameter* New_ctor(::UnityEngine::AnimationCurve* value, bool overrideState);
 
-  /// @brief Method SetValue, addr 0x67c68e4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x67ce360, size 0xa0, virtual true, abstract: false, final false
   inline void SetValue(::UnityEngine::Rendering::VolumeParameter* parameter);
 
-  /// @brief Method .ctor, addr 0x67c6874, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ce2f0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AnimationCurve* value, bool overrideState);
 
 protected:
@@ -62,7 +62,7 @@ public:
   AnimationCurveParameter(AnimationCurveParameter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12373 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

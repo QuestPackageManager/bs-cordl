@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/AspMvcViewLocationFormatAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\AspMvcViewLocationFormatAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AspMvcViewLocationFormatAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::AspMvcViewLocationFormatAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3655c;
+  constexpr static std::size_t addrs = 0x6e3e0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::*)()>(
     &::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e36564;
+  constexpr static std::size_t addrs = 0x6e3e0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::AspMvcViewLocationFormatAttribute*>(), { "get_Format", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::set_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3656c;
+  constexpr static std::size_t addrs = 0x6e3e0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

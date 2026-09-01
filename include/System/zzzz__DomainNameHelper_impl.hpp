@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/DomainNameHelper.hpp"
+// IWYU pragma private; include "System\DomainNameHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__DomainNameHelper_def.hpp"
 //  Writing Method size for method: ::System::DomainNameHelper.ParseCanonicalName
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t, int32_t, ::by_ref<bool>)>(&::System::DomainNameHelper::ParseCanonicalName)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6371658;
+  constexpr static std::size_t addrs = 0x63790d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*, uint16_t, ::by_ref<int32_t>, ::by_ref<bool>, bool)>(&::System::DomainNameHelper::IsValid)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x63717e8;
+  constexpr static std::size_t addrs = 0x6379264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*, uint16_t, ::by_ref<int32_t>, ::by_ref<bool>, bool)>(&::System::DomainNameHelper::IsValidByIri)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x63719e4;
+  constexpr static std::size_t addrs = 0x6379460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(char16_t*, int32_t, int32_t, ::by_ref<bool>, ::by_ref<bool>)>(&::System::DomainNameHelper::IdnEquivalent)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x6371bd0;
+  constexpr static std::size_t addrs = 0x637964c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(char16_t*, int32_t, int32_t, ::by_ref<bool>, ::by_ref<::StringW>)>(&::System::DomainNameHelper::IdnEquivalent)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6371e58;
+  constexpr static std::size_t addrs = 0x63798d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t)>(&::System::DomainNameHelper::IsIdnAce)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6372094;
+  constexpr static std::size_t addrs = 0x6379b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*, int32_t)>(&::System::DomainNameHelper::IsIdnAce)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6372048;
+  constexpr static std::size_t addrs = 0x6379ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, char16_t*, int32_t, int32_t)>(&::System::DomainNameHelper::UnicodeEquivalent)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6372124;
+  constexpr static std::size_t addrs = 0x6379ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(char16_t*, int32_t, int32_t, ::by_ref<bool>, ::by_ref<bool>)>(&::System::DomainNameHelper::UnicodeEquivalent)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x6372240;
+  constexpr static std::size_t addrs = 0x6379cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t, ::by_ref<bool>)>(&::System::DomainNameHelper::IsASCIILetterOrDigit)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x637195c;
+  constexpr static std::size_t addrs = 0x63793d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t, ::by_ref<bool>)>(&::System::DomainNameHelper::IsValidDomainLabelCharacter)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6371998;
+  constexpr static std::size_t addrs = 0x6379414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Audio/AudioPlayableBinding.hpp"
+// IWYU pragma private; include "UnityEngine\Audio\AudioPlayableBinding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Audio/zzzz__AudioPlayableBinding_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableBinding (*)(::StringW, ::UnityEngine::Object*)>(&::UnityEngine::Audio::AudioPlayableBinding::Create)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6a50e5c;
+  constexpr static std::size_t addrs = 0x6a588d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Playables::PlayableGraph, ::StringW)>(
     &::UnityEngine::Audio::AudioPlayableBinding::CreateAudioOutput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a50f58;
+  constexpr static std::size_t addrs = 0x6a589d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

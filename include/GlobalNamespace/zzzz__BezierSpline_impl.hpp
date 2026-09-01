@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BezierSpline.hpp"
+// IWYU pragma private; include "GlobalNamespace\BezierSpline.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BezierSpline_def.hpp"
 #include "GlobalNamespace/zzzz__BezierCurve_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSpline_ComputeControlPointsResults::*)(::ArrayW<float_t>, ::ArrayW<float_t>)>(
     &::GlobalNamespace::BezierSpline_ComputeControlPointsResults::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3283d64;
+  constexpr static std::size_t addrs = 0x3287af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierSpline_ComputeControlPointsResults>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSpline___c::*)()>(&::GlobalNamespace::BezierSpline___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3283dc0;
+  constexpr static std::size_t addrs = 0x3287b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierSpline___c*>(), { ".ctor", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BezierSpline___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::BezierSpline___c::_SortSourceData_b__6_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3283dc4;
+  constexpr static std::size_t addrs = 0x3287b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BezierSpline___c::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::BezierSpline___c::_ComputeControlPoints_b__8_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3283e1c;
+  constexpr static std::size_t addrs = 0x3287bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BezierSpline___c::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::BezierSpline___c::_ComputeControlPoints_b__8_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3283e20;
+  constexpr static std::size_t addrs = 0x3287bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BezierSpline___c::*)(::UnityEngine::Vector3)>(&::GlobalNamespace::BezierSpline___c::_ComputeControlPoints_b__8_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3283e28;
+  constexpr static std::size_t addrs = 0x3287bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* (::GlobalNamespace::BezierSpline::*)()>(
     &::GlobalNamespace::BezierSpline::get_segments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32836c4;
+  constexpr static std::size_t addrs = 0x3287454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierSpline*>(), { "get_segments", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSpline::*)(float_t, ::UnityEngine::Vector2)>(&::GlobalNamespace::BezierSpline::AddPoint)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x327fdec;
+  constexpr static std::size_t addrs = 0x3283b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSpline::*)()>(&::GlobalNamespace::BezierSpline::SortSourceData)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x32836cc;
+  constexpr static std::size_t addrs = 0x328745c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierSpline*>(), { "SortSourceData", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSpline::*)()>(&::GlobalNamespace::BezierSpline::AddArtificialStartAndFinishPoint)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x327fec8;
+  constexpr static std::size_t addrs = 0x3283c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierSpline*>(), { "AddArtificialStartAndFinishPoint", {}, {} })));
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSpline::*)()>(&::GlobalNamespace::BezierSpline::ComputeControlPoints)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x32800dc;
+  constexpr static std::size_t addrs = 0x3283e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierSpline*>(), { "ComputeControlPoints", {}, {} })));
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSpline::*)()>(&::GlobalNamespace::BezierSpline::Clear)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3283ce4;
+  constexpr static std::size_t addrs = 0x3287a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierSpline*>(), { "Clear", {}, {} })));
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BezierSpline_ComputeControlPointsResults (::GlobalNamespace::BezierSpline::*)(
     ::System::Collections::Generic::List_1<float_t>*)>(&::GlobalNamespace::BezierSpline::ComputeControlPoints)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x32837d8;
+  constexpr static std::size_t addrs = 0x3287568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BezierSpline::*)()>(&::GlobalNamespace::BezierSpline::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x327fb78;
+  constexpr static std::size_t addrs = 0x3283908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BezierSpline*>(), { ".ctor", {}, {} })));

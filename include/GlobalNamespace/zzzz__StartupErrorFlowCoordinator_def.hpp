@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StartupErrorFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace\StartupErrorFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
   __declspec(property(get = __cordl_internal_get__startupErrorViewController, put = __cordl_internal_set__startupErrorViewController)) ::UnityW<::GlobalNamespace::StartupErrorViewController>
       _startupErrorViewController;
 
-  /// @brief Method DidActivate, addr 0x5a06ffc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a0f108, size 0x98, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::StartupErrorFlowCoordinator* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__startupErrorViewController(::UnityW<::GlobalNamespace::StartupErrorViewController> value);
 
-  /// @brief Method .ctor, addr 0x5a07094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0f1a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   StartupErrorFlowCoordinator(StartupErrorFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6372 };
 
   /// @brief Field _startupErrorViewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StartupErrorViewController> ____startupErrorViewController;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Drawing/KnownColorTable.hpp"
+// IWYU pragma private; include "System\Drawing\KnownColorTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Drawing/zzzz__KnownColorTable_def.hpp"
 #include "System/Drawing/zzzz__KnownColor_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::EnsureColorTable)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60cac5c;
+  constexpr static std::size_t addrs = 0x60d26d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::KnownColorTable*>(), { "EnsureColorTable", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::InitColorTable)> {
   constexpr static std::size_t size = 0xab8;
-  constexpr static std::size_t addrs = 0x60cacb8;
+  constexpr static std::size_t addrs = 0x60d2734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::KnownColorTable*>(), { "InitColorTable", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::EnsureColorNameTable)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60cb8a4;
+  constexpr static std::size_t addrs = 0x60d3320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::KnownColorTable*>(), { "EnsureColorNameTable", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Drawing::KnownColorTable::InitColorNameTable)> {
   constexpr static std::size_t size = 0x18ec;
-  constexpr static std::size_t addrs = 0x60cb900;
+  constexpr static std::size_t addrs = 0x60d337c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::KnownColorTable*>(), { "InitColorNameTable", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Drawing::KnownColor)>(&::System::Drawing::KnownColorTable::KnownColorToArgb)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60cd1ec;
+  constexpr static std::size_t addrs = 0x60d4c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Drawing::KnownColor)>(&::System::Drawing::KnownColorTable::KnownColorToName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60cd260;
+  constexpr static std::size_t addrs = 0x60d4cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int32_t>)>(&::System::Drawing::KnownColorTable::UpdateSystemColors)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x60cb770;
+  constexpr static std::size_t addrs = 0x60d31ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

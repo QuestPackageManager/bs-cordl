@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteDebrisPoolInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteDebrisPoolInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisPoolInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteDebrisPoolInstaller::*)()>(&::GlobalNamespace::NoteDebrisPoolInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x59f6a10;
+  constexpr static std::size_t addrs = 0x59feae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteDebrisPoolInstaller::*)()>(&::GlobalNamespace::NoteDebrisPoolInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59f6c18;
+  constexpr static std::size_t addrs = 0x59fecf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteDebrisPoolInstaller*>(), { ".ctor", {}, {} })));

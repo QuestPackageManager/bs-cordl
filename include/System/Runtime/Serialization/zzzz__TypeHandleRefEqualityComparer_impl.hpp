@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/TypeHandleRefEqualityComparer.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\TypeHandleRefEqualityComparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__TypeHandleRefEqualityComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::TypeHandleRefEqualityComparer::*)(
     ::System::Runtime::Serialization::TypeHandleRef*, ::System::Runtime::Serialization::TypeHandleRef*)>(&::System::Runtime::Serialization::TypeHandleRefEqualityComparer::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6143a58;
+  constexpr static std::size_t addrs = 0x614b4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::TypeHandleRefEqualityComparer::*)(::System::Runtime::Serialization::TypeHandleRef*)>(
     &::System::Runtime::Serialization::TypeHandleRefEqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6143a80;
+  constexpr static std::size_t addrs = 0x614b4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::TypeHandleRefEqualityComparer*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::TypeHandleRefEqualityComparer::*)()>(
     &::System::Runtime::Serialization::TypeHandleRefEqualityComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61402e8;
+  constexpr static std::size_t addrs = 0x6147d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::TypeHandleRefEqualityComparer*>(), { ".ctor", {}, {} })));

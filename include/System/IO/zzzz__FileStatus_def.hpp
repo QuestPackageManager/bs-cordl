@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/FileStatus.hpp"
+// IWYU pragma private; include "System\IO\FileStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,37 +32,37 @@ public:
   // Declarations
   __declspec(property(get = get_InitiallyDirectory, put = set_InitiallyDirectory)) bool InitiallyDirectory;
 
-  /// @brief Method EnsureStatInitialized, addr 0x5c057f0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EnsureStatInitialized, addr 0x5c09cac, size 0xb8, virtual false, abstract: false, final false
   inline void EnsureStatInitialized(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method GetAttributes, addr 0x5c058a8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x5c09d64, size 0xf0, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes GetAttributes(::System::ReadOnlySpan_1<char16_t> path, ::System::ReadOnlySpan_1<char16_t> fileName);
 
-  /// @brief Method GetExists, addr 0x5c05998, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetExists, addr 0x5c09e54, size 0x44, virtual false, abstract: false, final false
   inline bool GetExists(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method GetLastWriteTime, addr 0x5c05b70, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetLastWriteTime, addr 0x5c0a02c, size 0xac, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset GetLastWriteTime(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method GetLength, addr 0x5c05cd4, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x5c0a190, size 0x2c4, virtual false, abstract: false, final false
   inline int64_t GetLength(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method Initialize, addr 0x5c056f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5c09bb4, size 0x10, virtual false, abstract: false, final false
   static inline void Initialize(::by_ref<::System::IO::FileStatus> status, bool isDirectory);
 
-  /// @brief Method IsReadOnly, addr 0x5c05708, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsReadOnly, addr 0x5c09bc4, size 0xe8, virtual false, abstract: false, final false
   inline bool IsReadOnly(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method Refresh, addr 0x5c059dc, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5c09e98, size 0x194, virtual false, abstract: false, final false
   inline void Refresh(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method UnixTimeToDateTimeOffset, addr 0x5c05c1c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UnixTimeToDateTimeOffset, addr 0x5c0a0d8, size 0xb8, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset UnixTimeToDateTimeOffset(int64_t seconds, int64_t nanoseconds);
 
-  /// @brief Method get_InitiallyDirectory, addr 0x5c056e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitiallyDirectory, addr 0x5c09ba4, size 0x8, virtual false, abstract: false, final false
   inline bool get_InitiallyDirectory();
 
-  /// @brief Method set_InitiallyDirectory, addr 0x5c056f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitiallyDirectory, addr 0x5c09bac, size 0x8, virtual false, abstract: false, final false
   inline void set_InitiallyDirectory(bool value);
 
   // Ctor Parameters []

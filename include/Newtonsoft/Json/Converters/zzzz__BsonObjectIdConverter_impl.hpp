@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/BsonObjectIdConverter.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\BsonObjectIdConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__BsonObjectIdConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::BsonObjectIdConverter::WriteJson)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5d929c8;
+  constexpr static std::size_t addrs = 0x5d96e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::BsonObjectIdConverter*>(),
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::BsonObjectIdConverter::ReadJson)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5d92ad0;
+  constexpr static std::size_t addrs = 0x5d96f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::BsonObjectIdConverter*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::BsonObjectIdConverter::CanConvert)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5d92c60;
+  constexpr static std::size_t addrs = 0x5d9711c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::BsonObjectIdConverter*>(),
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::BsonObjectIdConverter::*)()>(&::Newtonsoft::Json::Converters::BsonObjectIdConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d92cd0;
+  constexpr static std::size_t addrs = 0x5d9718c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::BsonObjectIdConverter*>(), { ".ctor", {}, {} })));

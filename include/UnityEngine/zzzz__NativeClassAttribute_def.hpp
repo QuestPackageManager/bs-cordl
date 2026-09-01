@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/NativeClassAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\NativeClassAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__QualifiedNativeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bae2ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb5e70, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName);
 
-  /// @brief Method .ctor, addr 0x6bae354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb5ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName, ::StringW declaration);
 
-  /// @brief Method set_Declaration, addr 0x6bae2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Declaration, addr 0x6bb5e68, size 0x8, virtual false, abstract: false, final false
   inline void set_Declaration(::StringW value);
 
-  /// @brief Method set_QualifiedNativeName, addr 0x6bae2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QualifiedNativeName, addr 0x6bb5e60, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedNativeName(::StringW value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   NativeClassAttribute(NativeClassAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23105 };
 
   /// @brief Field <QualifiedNativeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____QualifiedNativeName_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundSpriteRenderer.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomPrePassBackgroundSpriteRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x5862728, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5861830, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x5862720, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x5861828, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -59,7 +59,7 @@ public:
   BloomPrePassBackgroundSpriteRenderer(BloomPrePassBackgroundSpriteRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19458 };
 
   /// @brief Field _spriteRenderer, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;

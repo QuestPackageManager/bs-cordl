@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DefaultValueTypeConverter.hpp"
+// IWYU pragma private; include "System\Data\DefaultValueTypeConverter.hpp"
 #include "System/ComponentModel/zzzz__StringConverter_impl.hpp"
 #include "System/Data/zzzz__DefaultValueTypeConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DefaultValueTypeConverter::*)()>(&::System::Data::DefaultValueTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x602e278;
+  constexpr static std::size_t addrs = 0x6035cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DefaultValueTypeConverter*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                         ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::Data::DefaultValueTypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x602e27c;
+  constexpr static std::size_t addrs = 0x6035cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::Data::DefaultValueTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::Data::DefaultValueTypeConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x602e400;
+  constexpr static std::size_t addrs = 0x6035e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

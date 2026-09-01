@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Networking/UnityWebRequestTexture.hpp"
+// IWYU pragma private; include "UnityEngine\Networking\UnityWebRequestTexture.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UnityWebRequestTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTexture, addr 0x6e23d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x6e2b8dc, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri);
 
-  /// @brief Method GetTexture, addr 0x6e23d60, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x6e2b8e4, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri, bool nonReadable);
 
 protected:
@@ -44,7 +44,7 @@ public:
   UnityWebRequestTexture(UnityWebRequestTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23317 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

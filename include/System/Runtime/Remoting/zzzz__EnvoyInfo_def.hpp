@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/EnvoyInfo.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\EnvoyInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_envoySinks(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x5b1cb08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b20fc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks);
 
-  /// @brief Method get_EnvoySinks, addr 0x5b1cb10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_EnvoySinks, addr 0x5b20fcc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
 
   /// @brief Convert to "::System::Runtime::Remoting::IEnvoyInfo"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRSupport.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRSupport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,7 @@ namespace UnityEngine::InputSystem::XR {
 class CORDL_TYPE XRSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x6583a04, size 0xad8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x658b480, size 0xad8, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -37,7 +37,7 @@ public:
   XRSupport(XRSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

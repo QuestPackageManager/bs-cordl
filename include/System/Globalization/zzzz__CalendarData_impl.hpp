@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/CalendarData.hpp"
+// IWYU pragma private; include "System\Globalization\CalendarData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__CalendarData_def.hpp"
 //  Writing Method size for method: ::System::Globalization::CalendarData._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CalendarData::*)()>(&::System::Globalization::CalendarData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bc1314;
+  constexpr static std::size_t addrs = 0x5bc57d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CalendarData*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CalendarData::*)(::StringW, int32_t, bool)>(&::System::Globalization::CalendarData::_ctor)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x5bc2070;
+  constexpr static std::size_t addrs = 0x5bc652c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CalendarData*>(),
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CalendarData::*)(::StringW, int32_t)>(&::System::Globalization::CalendarData::InitializeEraNames)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x5bc2620;
+  constexpr static std::size_t addrs = 0x5bc6adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)()>(&::System::Globalization::CalendarData::GetJapaneseEraNames)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5bc2e04;
+  constexpr static std::size_t addrs = 0x5bc72c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CalendarData*>(), { "GetJapaneseEraNames", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)()>(&::System::Globalization::CalendarData::GetJapaneseEnglishEraNames)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5bc2d10;
+  constexpr static std::size_t addrs = 0x5bc71cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CalendarData*>(), { "GetJapaneseEnglishEraNames", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::CalendarData::*)(::StringW, int32_t)>(&::System::Globalization::CalendarData::InitializeAbbreviatedEraNames)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x5bc2a1c;
+  constexpr static std::size_t addrs = 0x5bc6ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::CalendarData*>(),
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CalendarData* (*)(int32_t)>(&::System::Globalization::CalendarData::GetCalendarData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5bc0c2c;
+  constexpr static std::size_t addrs = 0x5bc50e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::System::Globalization::CalendarData::CalendarIdToCultureName)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5bc30b0;
+  constexpr static std::size_t addrs = 0x5bc756c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Globalization::CalendarData::nativeGetTwoDigitYearMax)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bc130c;
+  constexpr static std::size_t addrs = 0x5bc57c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Globalization::CalendarData*, ::StringW, int32_t)>(&::System::Globalization::CalendarData::nativeGetCalendarData)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5bc2568;
+  constexpr static std::size_t addrs = 0x5bc6a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::CalendarData::*)(::StringW, int32_t)>(&::System::Globalization::CalendarData::fill_calendar_data)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bc31cc;
+  constexpr static std::size_t addrs = 0x5bc7688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

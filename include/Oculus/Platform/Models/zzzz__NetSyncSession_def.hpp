@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/NetSyncSession.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\NetSyncSession.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_VoipGroup(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5deca4c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df0f08, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -89,7 +89,7 @@ public:
   NetSyncSession(NetSyncSession const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18069 };
 
   /// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionId;

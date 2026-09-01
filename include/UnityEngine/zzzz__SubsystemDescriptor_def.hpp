@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SubsystemDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine\SubsystemDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
 
   static inline ::UnityEngine::SubsystemDescriptor* New_ctor();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x6bb0a14, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x6bb8598, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   constexpr ::StringW const& __cordl_internal_get__id_k__BackingField() const;
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__id_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bb0a20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb85a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x6bb0a0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x6bb8590, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
   /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
@@ -72,7 +72,7 @@ public:
   SubsystemDescriptor(SubsystemDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22934 };
 
   /// @brief Field <id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Android/AndroidColorModeWideColorGamut.hpp"
+// IWYU pragma private; include "UnityEngine\Android\AndroidColorModeWideColorGamut.hpp"
 #include "UnityEngine/Android/zzzz__AndroidColorModeWideColorGamut_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Android::AndroidColorModeWideColorGamut::AndroidColorModeWideColorGamut(int32_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeAwardData.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeAwardData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x372f720, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3735290, size 0x124, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   static inline ::GlobalNamespace::MultiplayerBadgeAwardData* New_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle,
@@ -113,22 +113,22 @@ public:
 
   constexpr void __cordl_internal_set__weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x372d94c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37335b0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData);
 
-  /// @brief Method get_awardedPlayer, addr 0x372f6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_awardedPlayer, addr 0x3735258, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* get_awardedPlayer();
 
-  /// @brief Method get_icon, addr 0x372f718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x3735288, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_subtitle, addr 0x372f710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subtitle, addr 0x3735280, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subtitle();
 
-  /// @brief Method get_title, addr 0x372f708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x3735278, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_titleLocalizationKey, addr 0x372f6f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_titleLocalizationKey, addr 0x3735260, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_titleLocalizationKey();
 
   /// @brief Convert to "::System::IComparable"
@@ -149,7 +149,7 @@ public:
   MultiplayerBadgeAwardData(MultiplayerBadgeAwardData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15083 };
 
   /// @brief Field _awardedPlayer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____awardedPlayer;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/VerticalAlignment.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\VerticalAlignment.hpp"
 #include "UnityEngine/TextCore/zzzz__VerticalAlignment_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::VerticalAlignment::VerticalAlignment(int32_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/Disposables/CompositeDisposable.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\Disposables\CompositeDisposable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/Disposables/zzzz__CompositeDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::Disposables::CompositeDisposable::*)(int32_t)>(
     &::BGLib::DotnetExtension::Disposables::CompositeDisposable::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x330bb10;
+  constexpr static std::size_t addrs = 0x330f90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::Disposables::CompositeDisposable::*)(::ArrayW<::System::IDisposable*>)>(
     &::BGLib::DotnetExtension::Disposables::CompositeDisposable::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x330bb94;
+  constexpr static std::size_t addrs = 0x330f990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::Disposables::CompositeDisposable::*)(::System::IDisposable*)>(
     &::BGLib::DotnetExtension::Disposables::CompositeDisposable::Add)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x330bbf4;
+  constexpr static std::size_t addrs = 0x330f9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::Disposables::CompositeDisposable::*)(::ArrayW<::System::IDisposable*>)>(
     &::BGLib::DotnetExtension::Disposables::CompositeDisposable::Add)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x330bcf4;
+  constexpr static std::size_t addrs = 0x330faf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::Disposables::CompositeDisposable::*)()>(&::BGLib::DotnetExtension::Disposables::CompositeDisposable::Dispose)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x330bdd8;
+  constexpr static std::size_t addrs = 0x330fbd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Disposables::CompositeDisposable*>(), { "Dispose", {}, {} })));

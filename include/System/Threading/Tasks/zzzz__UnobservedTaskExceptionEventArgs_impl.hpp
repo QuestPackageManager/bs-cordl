@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/UnobservedTaskExceptionEventArgs.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\UnobservedTaskExceptionEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Threading/Tasks/zzzz__UnobservedTaskExceptionEventArgs_def.hpp"
 #include "System/zzzz__AggregateException_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::UnobservedTaskExceptionEventArgs::*)(::System::AggregateException*)>(
     &::System::Threading::Tasks::UnobservedTaskExceptionEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5cc3038;
+  constexpr static std::size_t addrs = 0x5cc74f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

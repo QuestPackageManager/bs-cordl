@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/CVRSpatialAnchors.hpp"
+// IWYU pragma private; include "OVR\OpenVR\CVRSpatialAnchors.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,17 +40,17 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x20
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRSpatialAnchors FnTable;
 
-  /// @brief Method CreateSpatialAnchorFromDescriptor, addr 0x5e43644, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CreateSpatialAnchorFromDescriptor, addr 0x5e47b00, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError CreateSpatialAnchorFromDescriptor(::StringW pchDescriptor, ::by_ref<uint32_t> pHandleOut);
 
-  /// @brief Method CreateSpatialAnchorFromPose, addr 0x5e43668, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CreateSpatialAnchorFromPose, addr 0x5e47b24, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError CreateSpatialAnchorFromPose(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ::by_ref<::OVR::OpenVR::SpatialAnchorPose_t> pPose,
                                                                           ::by_ref<uint32_t> pHandleOut);
 
-  /// @brief Method GetSpatialAnchorDescriptor, addr 0x5e436ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetSpatialAnchorDescriptor, addr 0x5e47b68, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorDescriptor(uint32_t unHandle, ::System::Text::StringBuilder* pchDescriptorOut, ::by_ref<uint32_t> punDescriptorBufferLenInOut);
 
-  /// @brief Method GetSpatialAnchorPose, addr 0x5e4368c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSpatialAnchorPose, addr 0x5e47b48, size 0x20, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRSpatialAnchorError GetSpatialAnchorPose(uint32_t unHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ::by_ref<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut);
 
   static inline ::OVR::OpenVR::CVRSpatialAnchors* New_ctor(::System::IntPtr pInterface);
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRSpatialAnchors value);
 
-  /// @brief Method .ctor, addr 0x5e43550, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e47a0c, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -79,7 +79,7 @@ public:
   CVRSpatialAnchors(CVRSpatialAnchors const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8396 };
 
   /// @brief Field FnTable, offset: 0x10, size: 0x20, def value: None
   ::OVR::OpenVR::IVRSpatialAnchors ___FnTable;

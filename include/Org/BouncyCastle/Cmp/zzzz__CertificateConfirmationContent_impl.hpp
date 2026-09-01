@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cmp/CertificateConfirmationContent.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cmp\CertificateConfirmationContent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cmp/zzzz__CertificateConfirmationContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertConfirmContent_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*)>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369dcd8;
+  constexpr static std::size_t addrs = 0x36a1a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cmp::CertificateConfirmationContent*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)(
     ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*, ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*)>(&::Org::BouncyCastle::Cmp::CertificateConfirmationContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369dce0;
+  constexpr static std::size_t addrs = 0x36a1aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContent::ToAsn1Structure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369dce8;
+  constexpr static std::size_t addrs = 0x36a1aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Cmp::CertificateStatus*> (::Org::BouncyCastle::Cmp::CertificateConfirmationContent::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContent::GetStatusMessages)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x369dcf0;
+  constexpr static std::size_t addrs = 0x36a1ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

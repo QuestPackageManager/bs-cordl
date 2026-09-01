@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/Character.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\Character.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x6bbebac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc6730, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bbebc0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc6744, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x6bbebec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc6770, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
 protected:
@@ -56,7 +56,7 @@ public:
   Character(Character const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17202 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

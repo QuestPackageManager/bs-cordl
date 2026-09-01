@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/TraceLevelHelper.hpp"
+// IWYU pragma private; include "System\Runtime\TraceLevelHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
   /// @brief Field EtwLevelToTraceEventType, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_EtwLevelToTraceEventType, put = setStaticF_EtwLevelToTraceEventType)) ::ArrayW<::System::Diagnostics::TraceEventType> EtwLevelToTraceEventType;
 
-  /// @brief Method GetTraceEventType, addr 0x617ff54, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetTraceEventType, addr 0x61879d0, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Runtime::TraceEventLevel level);
 
-  /// @brief Method LookupSeverity, addr 0x617ffd4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method LookupSeverity, addr 0x6187a50, size 0x1ec, virtual false, abstract: false, final false
   static inline ::StringW LookupSeverity(::System::Runtime::TraceEventLevel level, ::System::Runtime::TraceEventOpcode opcode);
 
   static inline ::ArrayW<::System::Diagnostics::TraceEventType> getStaticF_EtwLevelToTraceEventType();
@@ -59,7 +59,7 @@ public:
   TraceLevelHelper(TraceLevelHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21259 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21311 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

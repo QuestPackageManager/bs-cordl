@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerSequenceGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerSequenceGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
   /// @brief Field _bOut, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__bOut, put = __cordl_internal_set__bOut)) ::System::IO::MemoryStream* _bOut;
 
-  /// @brief Method AddObject, addr 0x368d2dc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method AddObject, addr 0x369109c, size 0x84, virtual true, abstract: false, final false
   inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Close, addr 0x368d368, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3691128, size 0x38, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetRawOutputStream, addr 0x368d360, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetRawOutputStream, addr 0x3691120, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetRawOutputStream();
 
   static inline ::Org::BouncyCastle::Asn1::DerSequenceGenerator* New_ctor(::System::IO::Stream* outStream);
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__bOut(::System::IO::MemoryStream* value);
 
-  /// @brief Method .ctor, addr 0x368d1dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3690f9c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x368d24c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369100c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:

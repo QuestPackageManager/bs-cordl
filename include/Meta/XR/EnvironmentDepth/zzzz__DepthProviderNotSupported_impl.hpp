@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/EnvironmentDepth/DepthProviderNotSupported.hpp"
+// IWYU pragma private; include "Meta\XR\EnvironmentDepth\DepthProviderNotSupported.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/EnvironmentDepth/zzzz__DepthProviderNotSupported_def.hpp"
 #include "Meta/XR/EnvironmentDepth/zzzz__DepthFrameDesc_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::*)()>(
     &::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::Meta_XR_EnvironmentDepth_IDepthProvider_get_IsSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3ae70;
+  constexpr static std::size_t addrs = 0x5a3f32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::*)(bool)>(
     &::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::Meta_XR_EnvironmentDepth_IDepthProvider_set_RemoveHands)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a3ae78;
+  constexpr static std::size_t addrs = 0x5a3f334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::DepthProviderNotSupported*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::*)(bool, bool)>(
     &::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::Meta_XR_EnvironmentDepth_IDepthProvider_SetDepthEnabled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a3ae7c;
+  constexpr static std::size_t addrs = 0x5a3f338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::*)(::by_ref<::UnityEngine::RenderTexture*>, ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc>)>(
         &::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::Meta_XR_EnvironmentDepth_IDepthProvider_TryGetUpdatedDepthTexture)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a3ae80;
+  constexpr static std::size_t addrs = 0x5a3f33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::*)()>(&::Meta::XR::EnvironmentDepth::DepthProviderNotSupported::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a385e8;
+  constexpr static std::size_t addrs = 0x5a3caa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::DepthProviderNotSupported*>(), { ".ctor", {}, {} })));

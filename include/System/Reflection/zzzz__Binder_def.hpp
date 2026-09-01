@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/Binder.hpp"
+// IWYU pragma private; include "System\Reflection\Binder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,7 +70,7 @@ public:
   inline ::System::Reflection::PropertyInfo* SelectProperty(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::PropertyInfo*> match, ::System::Type* returnType,
                                                             ::ArrayW<::System::Type*> indexes, ::ArrayW<::System::Reflection::ParameterModifier> modifiers);
 
-  /// @brief Method .ctor, addr 0x5b794f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b7d9b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

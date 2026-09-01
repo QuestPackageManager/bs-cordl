@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ICameraHistoryWriteAccess.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ICameraHistoryWriteAccess.hpp"
 #include "UnityEngine/Rendering/zzzz__ICameraHistoryWriteAccess_def.hpp"
 template <typename Type> inline bool UnityEngine::Rendering::ICameraHistoryWriteAccess::IsAccessRequested() {
   auto* ___internal_method_base =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/STP.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\STP.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -223,7 +223,7 @@ public:
                               ::UnityEngine::Matrix4x4 lastView, ::UnityEngine::Matrix4x4 lastLastView) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12216 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x180 };
@@ -298,7 +298,7 @@ public:
                        ::ArrayW<::UnityEngine::Rendering::STP_PerViewConfig> perViewConfigs) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12217 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb8 };
@@ -480,7 +480,7 @@ public:
   static ::UnityEngine::Rendering::STP_HistoryTextureType const Luma;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12218 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -512,7 +512,7 @@ public:
   constexpr STP_HistoryUpdateInfo(::UnityEngine::Vector2Int preUpscaleSize, ::UnityEngine::Vector2Int postUpscaleSize, bool useHwDrs, bool useTexArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12219 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -559,18 +559,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x679f964, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x67a73e0, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetCurrentHistoryTexture, addr 0x679f134, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentHistoryTexture, addr 0x67a6bb0, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCurrentHistoryTexture(::UnityEngine::Rendering::STP_HistoryTextureType historyType, int32_t frameIndex);
 
-  /// @brief Method GetPreviousHistoryTexture, addr 0x679f0f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousHistoryTexture, addr 0x67a6b74, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetPreviousHistoryTexture(::UnityEngine::Rendering::STP_HistoryTextureType historyType, int32_t frameIndex);
 
   static inline ::UnityEngine::Rendering::STP_HistoryContext* New_ctor();
 
-  /// @brief Method Update, addr 0x679f5c4, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x67a7040, size 0x3a0, virtual false, abstract: false, final false
   inline bool Update(::by_ref<::UnityEngine::Rendering::STP_HistoryUpdateInfo> info);
 
   constexpr ::UnityEngine::Hash128 const& __cordl_internal_get_m_hash() const;
@@ -585,7 +585,7 @@ public:
 
   constexpr void __cordl_internal_set_m_textures(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
 
-  /// @brief Method .ctor, addr 0x679f9ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a7468, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -606,7 +606,7 @@ public:
   STP_HistoryContext(STP_HistoryContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12220 };
 
   /// @brief Field m_textures, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Rendering::RTHandle*> ___m_textures;
@@ -659,7 +659,7 @@ public:
   static ::UnityEngine::Rendering::STP_StpSetupPerViewConstants const Count;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12221 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -691,7 +691,7 @@ public:
   constexpr StpConstantBufferData_STP___StpSetupPerViewConstants_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12222 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -740,7 +740,7 @@ public:
                                       ::UnityEngine::Vector4 _StpTaaConstants3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12223 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c0 };
@@ -971,7 +971,7 @@ public:
   STP_ShaderResources(STP_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1029,7 +1029,7 @@ public:
   STP_ShaderKeywords(STP_ShaderKeywords const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1087,19 +1087,19 @@ public:
 
   constexpr void __cordl_internal_set_m_taaCS(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x67a00a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a7b20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_preTaaCS, addr 0x679ffb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_preTaaCS, addr 0x67a7a30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_preTaaCS();
 
-  /// @brief Method get_setupCS, addr 0x679ff3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_setupCS, addr 0x67a79b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_setupCS();
 
-  /// @brief Method get_taaCS, addr 0x67a002c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_taaCS, addr 0x67a7aa8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_taaCS();
 
-  /// @brief Method get_version, addr 0x679ff34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x67a79b0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -1108,13 +1108,13 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_preTaaCS, addr 0x679ffbc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_preTaaCS, addr 0x67a7a38, size 0x70, virtual false, abstract: false, final false
   inline void set_preTaaCS(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_setupCS, addr 0x679ff44, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_setupCS, addr 0x67a79c0, size 0x70, virtual false, abstract: false, final false
   inline void set_setupCS(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_taaCS, addr 0x67a0034, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_taaCS, addr 0x67a7ab0, size 0x70, virtual false, abstract: false, final false
   inline void set_taaCS(::UnityEngine::ComputeShader* value);
 
 protected:
@@ -1132,7 +1132,7 @@ public:
   STP_RuntimeResources(STP_RuntimeResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12226 };
 
   /// @brief Field m_setupCS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___m_setupCS;
@@ -1198,7 +1198,7 @@ public:
   static ::UnityEngine::Rendering::STP_ProfileId const StpTaa;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12227 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1395,7 +1395,7 @@ public:
 
   constexpr void __cordl_internal_set_viewCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67a00a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a7b24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1413,7 +1413,7 @@ public:
   STP_SetupData(STP_SetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12228 };
 
   /// @brief Field cs, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___cs;
@@ -1616,7 +1616,7 @@ public:
 
   constexpr void __cordl_internal_set_viewCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67a00ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a7b28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1634,7 +1634,7 @@ public:
   STP_PreTaaData(STP_PreTaaData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12229 };
 
   /// @brief Field cs, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___cs;
@@ -1818,7 +1818,7 @@ public:
 
   constexpr void __cordl_internal_set_viewCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67a00b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a7b2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1836,7 +1836,7 @@ public:
   STP_TaaData(STP_TaaData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12230 };
 
   /// @brief Field cs, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ___cs;
@@ -1936,16 +1936,16 @@ public:
 
   static inline ::UnityEngine::Rendering::STP___c* New_ctor();
 
-  /// @brief Method <Execute>b__38_0, addr 0x67a010c, size 0x5a4, virtual false, abstract: false, final false
+  /// @brief Method <Execute>b__38_0, addr 0x67a7b88, size 0x5a4, virtual false, abstract: false, final false
   inline void _Execute_b__38_0(::UnityEngine::Rendering::STP_SetupData* data, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* ctx);
 
-  /// @brief Method <Execute>b__38_1, addr 0x67a06b0, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method <Execute>b__38_1, addr 0x67a812c, size 0x2f8, virtual false, abstract: false, final false
   inline void _Execute_b__38_1(::UnityEngine::Rendering::STP_PreTaaData* data, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* ctx);
 
-  /// @brief Method <Execute>b__38_2, addr 0x67a09a8, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method <Execute>b__38_2, addr 0x67a8424, size 0x370, virtual false, abstract: false, final false
   inline void _Execute_b__38_2(::UnityEngine::Rendering::STP_TaaData* data, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* ctx);
 
-  /// @brief Method .ctor, addr 0x67a0108, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a7b84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::STP___c* getStaticF___9();
@@ -1985,7 +1985,7 @@ public:
   STP___c(STP___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12231 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2042,35 +2042,35 @@ public:
   /// @brief Field s_PerViewConfigs, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_PerViewConfigs, put = setStaticF_s_PerViewConfigs)) ::ArrayW<::UnityEngine::Rendering::STP_PerViewConfig> s_PerViewConfigs;
 
-  /// @brief Method CalculateConvergenceTextureSize, addr 0x679c508, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CalculateConvergenceTextureSize, addr 0x67a3f84, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int CalculateConvergenceTextureSize(::UnityEngine::Vector2Int historyTextureSize);
 
-  /// @brief Method CalculateMotionScale, addr 0x679c58c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CalculateMotionScale, addr 0x67a4008, size 0x98, virtual false, abstract: false, final false
   static inline float_t CalculateMotionScale(float_t deltaTime, float_t lastDeltaTime);
 
-  /// @brief Method ComputeHistoryHash, addr 0x679c454, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ComputeHistoryHash, addr 0x67a3ed0, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128 ComputeHistoryHash(::by_ref<::UnityEngine::Rendering::STP_HistoryUpdateInfo> info);
 
-  /// @brief Method Execute, addr 0x679d25c, size 0x1e9c, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x67a4cd8, size 0x1e9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle Execute(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                    ::by_ref<::UnityEngine::Rendering::STP_Config> config);
 
-  /// @brief Method ExtractRotation, addr 0x679c624, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ExtractRotation, addr 0x67a40a0, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 ExtractRotation(::UnityEngine::Matrix4x4 input);
 
-  /// @brief Method IsSupported, addr 0x679c1e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsSupported, addr 0x67a3c5c, size 0x68, virtual false, abstract: false, final false
   static inline bool IsSupported();
 
-  /// @brief Method Jit16, addr 0x679c248, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Jit16, addr 0x67a3cc4, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Jit16(int32_t frameIndex);
 
-  /// @brief Method PackVector2ToInt, addr 0x679c640, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PackVector2ToInt, addr 0x67a40bc, size 0x78, virtual false, abstract: false, final false
   static inline int32_t PackVector2ToInt(::UnityEngine::Vector2 value);
 
-  /// @brief Method PopulateConstantData, addr 0x679c6b8, size 0xadc, virtual false, abstract: false, final false
+  /// @brief Method PopulateConstantData, addr 0x67a4134, size 0xadc, virtual false, abstract: false, final false
   static inline void PopulateConstantData(::by_ref<::UnityEngine::Rendering::STP_Config> config, ::by_ref<::UnityEngine::Rendering::STP_StpConstantBufferData> constants);
 
-  /// @brief Method UseTexture, addr 0x679d194, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method UseTexture, addr 0x67a4c10, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle UseTexture(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder,
                                                                                       ::UnityEngine::Rendering::RenderGraphModule::TextureHandle texture,
                                                                                       ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
@@ -2083,13 +2083,13 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Rendering::STP_PerViewConfig> getStaticF_s_PerViewConfigs();
 
-  /// @brief Method get_debugViewDescriptions, addr 0x679c2e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_debugViewDescriptions, addr 0x67a3d5c, size 0x5c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::GUIContent*> get_debugViewDescriptions();
 
-  /// @brief Method get_debugViewIndices, addr 0x679c33c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_debugViewIndices, addr 0x67a3db8, size 0x5c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> get_debugViewIndices();
 
-  /// @brief Method get_perViewConfigs, addr 0x679c398, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_perViewConfigs, addr 0x67a3e14, size 0x5c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rendering::STP_PerViewConfig> get_perViewConfigs();
 
   static inline void setStaticF_kQualcommVendorId(int32_t value);
@@ -2100,7 +2100,7 @@ public:
 
   static inline void setStaticF_s_PerViewConfigs(::ArrayW<::UnityEngine::Rendering::STP_PerViewConfig> value);
 
-  /// @brief Method set_perViewConfigs, addr 0x679c3f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_perViewConfigs, addr 0x67a3e70, size 0x60, virtual false, abstract: false, final false
   static inline void set_perViewConfigs(::ArrayW<::UnityEngine::Rendering::STP_PerViewConfig> value);
 
 protected:
@@ -2118,7 +2118,7 @@ public:
   STP(STP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12232 };
 
   /// @brief Field kMaxPerViewConfigs offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPerViewConfigs{ static_cast<int32_t>(0x2) };

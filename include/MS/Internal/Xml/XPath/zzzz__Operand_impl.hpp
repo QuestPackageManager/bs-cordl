@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/XPath/Operand.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\XPath\Operand.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathResultType_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Operand_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Operand::*)(::StringW)>(&::MS::Internal::Xml::XPath::Operand::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x626f388;
+  constexpr static std::size_t addrs = 0x6276e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::Operand*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::Operand::*)(double_t)>(&::MS::Internal::Xml::XPath::Operand::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x626f398;
+  constexpr static std::size_t addrs = 0x6276e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::Operand*>(), { ".ctor", {}, { ::i2c::type_of<double_t>() } })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::Operand::*)()>(&::MS::Internal::Xml::XPath::Operand::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x626f3cc;
+  constexpr static std::size_t addrs = 0x6276e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Operand::*)()>(&::MS::Internal::Xml::XPath::Operand::get_ReturnType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x626f3d4;
+  constexpr static std::size_t addrs = 0x6276e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IVRInputModule.hpp"
+// IWYU pragma private; include "GlobalNamespace\IVRInputModule.hpp"
 #include "GlobalNamespace/zzzz__IVRInputModule_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"

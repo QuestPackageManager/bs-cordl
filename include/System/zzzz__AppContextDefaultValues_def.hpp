@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/AppContextDefaultValues.hpp"
+// IWYU pragma private; include "System\AppContextDefaultValues.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ public:
   /// @brief Field SwitchFormatJapaneseFirstYearAsANumber, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_SwitchFormatJapaneseFirstYearAsANumber, put = setStaticF_SwitchFormatJapaneseFirstYearAsANumber)) ::StringW SwitchFormatJapaneseFirstYearAsANumber;
 
-  /// @brief Method PopulateDefaultValues, addr 0x5c87de0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PopulateDefaultValues, addr 0x5c8c29c, size 0x4, virtual false, abstract: false, final false
   static inline void PopulateDefaultValues();
 
-  /// @brief Method TryGetSwitchOverride, addr 0x5c87de4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TryGetSwitchOverride, addr 0x5c8c2a0, size 0xc, virtual false, abstract: false, final false
   static inline bool TryGetSwitchOverride(::StringW switchName, ::by_ref<bool> overrideValue);
 
   static inline ::StringW getStaticF_SwitchEnforceJapaneseEraYearRanges();

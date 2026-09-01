@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/OnXmlDictionaryReaderClose.hpp"
+// IWYU pragma private; include "System\Xml\OnXmlDictionaryReaderClose.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/zzzz__OnXmlDictionaryReaderClose_def.hpp"
 #include "System/Xml/zzzz__XmlDictionaryReader_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::OnXmlDictionaryReaderClose::*)(::System::Object*, ::System::IntPtr)>(&::System::Xml::OnXmlDictionaryReaderClose::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x61188f4;
+  constexpr static std::size_t addrs = 0x6120370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::OnXmlDictionaryReaderClose::*)(::System::Xml::XmlDictionaryReader*)>(&::System::Xml::OnXmlDictionaryReaderClose::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6118a38;
+  constexpr static std::size_t addrs = 0x61204b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

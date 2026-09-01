@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardsInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsSettingsSO_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsInstaller::*)()>(&::GlobalNamespace::LocalLeaderboardsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x37702b0;
+  constexpr static std::size_t addrs = 0x3775f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardsInstaller::*)()>(&::GlobalNamespace::LocalLeaderboardsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x377038c;
+  constexpr static std::size_t addrs = 0x3775ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardsInstaller*>(), { ".ctor", {}, {} })));

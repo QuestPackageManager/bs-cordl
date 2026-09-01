@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/XRPassUniversal.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\XRPassUniversal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,12 +46,12 @@ public:
 
   __declspec(property(get = get_isLateLatchEnabled, put = set_isLateLatchEnabled)) bool isLateLatchEnabled;
 
-  /// @brief Method Create, addr 0x68e112c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x68e8ba8, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::XRPass* Create(::UnityEngine::Experimental::Rendering::XRPassCreateInfo createInfo);
 
   static inline ::UnityEngine::Rendering::Universal::XRPassUniversal* New_ctor();
 
-  /// @brief Method Release, addr 0x68e1218, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x68e8c94, size 0x74, virtual true, abstract: false, final false
   inline void Release();
 
   constexpr bool const& __cordl_internal_get__canFoveateIntermediatePasses_k__BackingField() const;
@@ -78,31 +78,31 @@ public:
 
   constexpr void __cordl_internal_set__isLateLatchEnabled_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x68e12cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68e8d48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canFoveateIntermediatePasses, addr 0x68e12bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_canFoveateIntermediatePasses, addr 0x68e8d38, size 0x8, virtual false, abstract: false, final false
   inline bool get_canFoveateIntermediatePasses();
 
-  /// @brief Method get_canMarkLateLatch, addr 0x68e129c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_canMarkLateLatch, addr 0x68e8d18, size 0x8, virtual false, abstract: false, final false
   inline bool get_canMarkLateLatch();
 
-  /// @brief Method get_hasMarkedLateLatch, addr 0x68e12ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasMarkedLateLatch, addr 0x68e8d28, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasMarkedLateLatch();
 
-  /// @brief Method get_isLateLatchEnabled, addr 0x68e128c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isLateLatchEnabled, addr 0x68e8d08, size 0x8, virtual false, abstract: false, final false
   inline bool get_isLateLatchEnabled();
 
-  /// @brief Method set_canFoveateIntermediatePasses, addr 0x68e12c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_canFoveateIntermediatePasses, addr 0x68e8d40, size 0x8, virtual false, abstract: false, final false
   inline void set_canFoveateIntermediatePasses(bool value);
 
-  /// @brief Method set_canMarkLateLatch, addr 0x68e12a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_canMarkLateLatch, addr 0x68e8d20, size 0x8, virtual false, abstract: false, final false
   inline void set_canMarkLateLatch(bool value);
 
-  /// @brief Method set_hasMarkedLateLatch, addr 0x68e12b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasMarkedLateLatch, addr 0x68e8d30, size 0x8, virtual false, abstract: false, final false
   inline void set_hasMarkedLateLatch(bool value);
 
-  /// @brief Method set_isLateLatchEnabled, addr 0x68e1294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isLateLatchEnabled, addr 0x68e8d10, size 0x8, virtual false, abstract: false, final false
   inline void set_isLateLatchEnabled(bool value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   XRPassUniversal(XRPassUniversal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13050 };
 
   /// @brief Field <isLateLatchEnabled>k__BackingField, offset: 0x734, size: 0x1, def value: None
   bool ____isLateLatchEnabled_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/GuidArrayHelperWithString.hpp"
+// IWYU pragma private; include "System\Xml\GuidArrayHelperWithString.hpp"
 #include "System/Xml/zzzz__ArrayHelper_2_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/Xml/zzzz__GuidArrayHelperWithString_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::GuidArrayHelperWithString::*)(::System::Xml::XmlDictionaryReader*, ::StringW, ::StringW, ::ArrayW<::System::Guid>,
                                                                                                              int32_t, int32_t)>(&::System::Xml::GuidArrayHelperWithString::ReadArray)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60f7930;
+  constexpr static std::size_t addrs = 0x60ff3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::GuidArrayHelperWithString::*)(
     ::System::Xml::XmlDictionaryWriter*, ::StringW, ::StringW, ::StringW, ::ArrayW<::System::Guid>, int32_t, int32_t)>(&::System::Xml::GuidArrayHelperWithString::WriteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60f7968;
+  constexpr static std::size_t addrs = 0x60ff3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::GuidArrayHelperWithString::*)()>(&::System::Xml::GuidArrayHelperWithString::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x60f79a4;
+  constexpr static std::size_t addrs = 0x60ff420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::GuidArrayHelperWithString*>(), { ".ctor", {}, {} })));

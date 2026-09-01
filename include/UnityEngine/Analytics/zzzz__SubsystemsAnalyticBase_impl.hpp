@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Analytics/SubsystemsAnalyticBase.hpp"
+// IWYU pragma private; include "UnityEngine\Analytics\SubsystemsAnalyticBase.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEngine/Analytics/zzzz__SubsystemsAnalyticBase_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Analytics::SubsystemsAnalyticBase._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Analytics::SubsystemsAnalyticBase::*)(::StringW)>(&::UnityEngine::Analytics::SubsystemsAnalyticBase::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6e1cbd0;
+  constexpr static std::size_t addrs = 0x6e24754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

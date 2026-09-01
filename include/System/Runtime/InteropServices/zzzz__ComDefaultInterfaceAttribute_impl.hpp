@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/ComDefaultInterfaceAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\ComDefaultInterfaceAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__ComDefaultInterfaceAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::ComDefaultInterfaceAttribute::*)(::System::Type*)>(
     &::System::Runtime::InteropServices::ComDefaultInterfaceAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b67fb4;
+  constexpr static std::size_t addrs = 0x5b6c470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

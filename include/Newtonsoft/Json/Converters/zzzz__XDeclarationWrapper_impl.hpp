@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/XDeclarationWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\XDeclarationWrapper.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XDeclarationWrapper_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Linq::XDeclaration* (::Newtonsoft::Json::Converters::XDeclarationWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XDeclarationWrapper::get_Declaration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d9be14;
+  constexpr static std::size_t addrs = 0x5da02d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDeclarationWrapper*>(), { "get_Declaration", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::XDeclarationWrapper::*)(::System::Xml::Linq::XDeclaration*)>(
     &::Newtonsoft::Json::Converters::XDeclarationWrapper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d9be1c;
+  constexpr static std::size_t addrs = 0x5da02d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeType (::Newtonsoft::Json::Converters::XDeclarationWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XDeclarationWrapper::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d9be2c;
+  constexpr static std::size_t addrs = 0x5da02e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDeclarationWrapper*>(),
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Converters::XDeclarationWrapper::*)()>(&::Newtonsoft::Json::Converters::XDeclarationWrapper::get_Version)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d9be34;
+  constexpr static std::size_t addrs = 0x5da02f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDeclarationWrapper*>(), { "get_Version", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Converters::XDeclarationWrapper::*)()>(&::Newtonsoft::Json::Converters::XDeclarationWrapper::get_Encoding)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d9be4c;
+  constexpr static std::size_t addrs = 0x5da0308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDeclarationWrapper*>(), { "get_Encoding", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::XDeclarationWrapper::*)(::StringW)>(&::Newtonsoft::Json::Converters::XDeclarationWrapper::set_Encoding)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d9be64;
+  constexpr static std::size_t addrs = 0x5da0320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Converters::XDeclarationWrapper::*)()>(&::Newtonsoft::Json::Converters::XDeclarationWrapper::get_Standalone)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d9be7c;
+  constexpr static std::size_t addrs = 0x5da0338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDeclarationWrapper*>(), { "get_Standalone", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::XDeclarationWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XDeclarationWrapper::set_Standalone)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d9be94;
+  constexpr static std::size_t addrs = 0x5da0350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

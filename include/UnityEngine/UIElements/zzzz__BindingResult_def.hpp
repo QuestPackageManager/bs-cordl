@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BindingResult.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BindingResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +28,13 @@ public:
 
   __declspec(property(get = get_status)) ::UnityEngine::UIElements::BindingStatus status;
 
-  /// @brief Method .ctor, addr 0x6c28fe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c30b68, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BindingStatus status, ::StringW message);
 
-  /// @brief Method get_message, addr 0x6c28fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_message, addr 0x6c30b60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_message();
 
-  /// @brief Method get_status, addr 0x6c28fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x6c30b58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingStatus get_status();
 
   // Ctor Parameters []

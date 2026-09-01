@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Profiling/ProfilerMarker.hpp"
+// IWYU pragma private; include "Unity\Profiling\ProfilerMarker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +41,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6a55a9c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6a5d518, size 0x4c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6a55a18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5d494, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr markerPtr);
 
   /// @brief Convert to "::System::IDisposable"
@@ -58,7 +58,7 @@ public:
   constexpr ProfilerMarker_AutoScope(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9944 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -85,16 +85,16 @@ public:
 
   __declspec(property(get = get_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Auto, addr 0x6a559d0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x6a5d44c, size 0x48, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker_AutoScope Auto();
 
-  /// @brief Method .ctor, addr 0x6a559ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5d428, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Profiling::ProfilerCategory category, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x6a55830, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5d2ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Handle, addr 0x6a55828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x6a5d2a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Handle();
 
   // Ctor Parameters []
@@ -105,7 +105,7 @@ public:
   constexpr ProfilerMarker(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

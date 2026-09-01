@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ObsoleteAttribute.hpp"
+// IWYU pragma private; include "System\ObsoleteAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5c53554, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c57a10, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c53560, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c57a1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5c5356c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c57a28, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, bool error);
 
-  /// @brief Method get_IsError, addr 0x5c53580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsError, addr 0x5c57a3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsError();
 
-  /// @brief Method get_Message, addr 0x5c53578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5c57a34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

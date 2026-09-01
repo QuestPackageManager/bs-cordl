@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/GameAnalyticsGameplayModifiers.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\GameAnalyticsGameplayModifiers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set_zenMode(bool value);
 
-  /// @brief Method .ctor, addr 0x3261624, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3264930, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -192,7 +192,7 @@ public:
   GameAnalyticsGameplayModifiers(GameAnalyticsGameplayModifiers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22265 };
 
   /// @brief Field none, offset: 0x10, size: 0x1, def value: None
   bool ___none;

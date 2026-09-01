@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Diagnostics/TraceUtility.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Diagnostics\TraceUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +36,13 @@ public:
   /// @brief Field traceCodes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_traceCodes, put = setStaticF_traceCodes)) ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* traceCodes;
 
-  /// @brief Method Trace, addr 0x617c114, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Trace, addr 0x6183b90, size 0x74, virtual false, abstract: false, final false
   static inline void Trace(::System::Diagnostics::TraceEventType severity, int32_t traceCode, ::StringW traceDescription);
 
-  /// @brief Method Trace, addr 0x617c188, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Trace, addr 0x6183c04, size 0x84, virtual false, abstract: false, final false
   static inline void Trace(::System::Diagnostics::TraceEventType severity, int32_t traceCode, ::StringW traceDescription, ::System::Runtime::Diagnostics::TraceRecord* record);
 
-  /// @brief Method Trace, addr 0x617c20c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Trace, addr 0x6183c88, size 0x1e0, virtual false, abstract: false, final false
   static inline void Trace(::System::Diagnostics::TraceEventType severity, int32_t traceCode, ::StringW traceDescription, ::System::Runtime::Diagnostics::TraceRecord* record,
                            ::System::Exception* exception);
 
@@ -65,7 +65,7 @@ public:
   TraceUtility(TraceUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17164 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

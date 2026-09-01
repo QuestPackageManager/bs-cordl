@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EmitParticles.hpp"
+// IWYU pragma private; include "GlobalNamespace\EmitParticles.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EmitParticles_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EmitParticles::*)(int32_t)>(&::GlobalNamespace::EmitParticles::Emit)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x597d7d8;
+  constexpr static std::size_t addrs = 0x598116c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EmitParticles*>(), { "Emit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EmitParticles::*)()>(&::GlobalNamespace::EmitParticles::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x597d7ec;
+  constexpr static std::size_t addrs = 0x5981180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EmitParticles*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BindablePropertyChangedEventArgs.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BindablePropertyChangedEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // Declarations
   __declspec(property(get = get_propertyName)) ::UnityEngine::UIElements::BindingId propertyName;
 
-  /// @brief Method .ctor, addr 0x6c3d8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c45430, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::UIElements::BindingId> propertyName);
 
-  /// @brief Method get_propertyName, addr 0x6c3d8b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_propertyName, addr 0x6c45438, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingId get_propertyName();
 
   // Ctor Parameters []

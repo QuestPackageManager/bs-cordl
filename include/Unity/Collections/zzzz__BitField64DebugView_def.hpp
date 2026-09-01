@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/BitField64DebugView.hpp"
+// IWYU pragma private; include "Unity\Collections\BitField64DebugView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_Data(::Unity::Collections::BitField64 value);
 
-  /// @brief Method .ctor, addr 0x64a4388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64abe04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::BitField64 data);
 
-  /// @brief Method get_Bits, addr 0x64a4390, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Bits, addr 0x64abe0c, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<bool> get_Bits();
 
 protected:
@@ -58,7 +58,7 @@ public:
   BitField64DebugView(BitField64DebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15555 };
 
   /// @brief Field Data, offset: 0x10, size: 0x8, def value: None
   ::Unity::Collections::BitField64 ___Data;

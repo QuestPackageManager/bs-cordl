@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IDspTimeProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\IDspTimeProvider.hpp"
 #include "GlobalNamespace/zzzz__IDspTimeProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IDspTimeProvider.get_dspTime
 template <>

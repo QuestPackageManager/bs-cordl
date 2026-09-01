@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Assets/OVR/Scripts/RangedRecord.hpp"
+// IWYU pragma private; include "Assets\OVR\Scripts\RangedRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x5e4578c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e49c48, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal);
 
 protected:
@@ -69,7 +69,7 @@ public:
   RangedRecord(RangedRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8550 };
 
   /// @brief Field value, offset: 0x28, size: 0x4, def value: None
   float_t ___value;

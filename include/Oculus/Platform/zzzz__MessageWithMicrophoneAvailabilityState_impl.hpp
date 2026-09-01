@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithMicrophoneAvailabilityState.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithMicrophoneAvailabilityState.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithMicrophoneAvailabilityState_def.hpp"
 #include "Oculus/Platform/Models/zzzz__MicrophoneAvailabilityState_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithMicrophoneAvailabilityState::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithMicrophoneAvailabilityState::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd3604;
+  constexpr static std::size_t addrs = 0x5dd7ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::MicrophoneAvailabilityState* (::Oculus::Platform::MessageWithMicrophoneAvailabilityState::*)()>(
     &::Oculus::Platform::MessageWithMicrophoneAvailabilityState::GetMicrophoneAvailabilityState)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd77e4;
+  constexpr static std::size_t addrs = 0x5ddbca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithMicrophoneAvailabilityState*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::MicrophoneAvailabilityState* (::Oculus::Platform::MessageWithMicrophoneAvailabilityState::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithMicrophoneAvailabilityState::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd7828;
+  constexpr static std::size_t addrs = 0x5ddbce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithMicrophoneAvailabilityState*>(),

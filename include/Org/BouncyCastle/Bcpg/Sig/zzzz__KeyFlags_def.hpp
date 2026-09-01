@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/KeyFlags.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Sig\KeyFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,20 +23,20 @@ public:
   // Declarations
   __declspec(property(get = get_Flags)) int32_t Flags;
 
-  /// @brief Method IntToByteArray, addr 0x3690f20, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IntToByteArray, addr 0x3694ce0, size 0xd0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> IntToByteArray(int32_t v);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::KeyFlags* New_ctor(bool critical, int32_t flags);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::KeyFlags* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
-  /// @brief Method .ctor, addr 0x3691008, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3694dc8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int32_t flags);
 
-  /// @brief Method .ctor, addr 0x3690ff0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3694db0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t> data);
 
-  /// @brief Method get_Flags, addr 0x3691040, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x3694e00, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_Flags();
 
 protected:

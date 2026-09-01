@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/CertificatePair.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\CertificatePair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
   /// @brief Field reverse, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_reverse, put = __cordl_internal_set_reverse)) ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* reverse;
 
-  /// @brief Method GetInstance, addr 0x355a80c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x355e5cc, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePair* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePair* New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* forward,
@@ -49,7 +49,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePair* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x355ada4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x355eb64, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* const& __cordl_internal_get_forward() const;
@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_reverse(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* value);
 
-  /// @brief Method .ctor, addr 0x355ad9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355eb5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* forward, ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* reverse);
 
-  /// @brief Method .ctor, addr 0x355a990, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355e750, size 0x40c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Forward, addr 0x355ae64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Forward, addr 0x355ec24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* get_Forward();
 
-  /// @brief Method get_Reverse, addr 0x355ae6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reverse, addr 0x355ec2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* get_Reverse();
 
 protected:

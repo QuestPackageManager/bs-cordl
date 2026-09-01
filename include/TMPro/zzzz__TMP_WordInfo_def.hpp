@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_WordInfo.hpp"
+// IWYU pragma private; include "TMPro\TMP_WordInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ namespace TMPro {
 struct CORDL_TYPE TMP_WordInfo {
 public:
   // Declarations
-  /// @brief Method GetWord, addr 0x6941e2c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetWord, addr 0x69498a8, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW GetWord();
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr TMP_WordInfo(::UnityW<::TMPro::TMP_Text> textComponent, int32_t firstCharacterIndex, int32_t lastCharacterIndex, int32_t characterCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15876 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/ITransferOwnership.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\ITransferOwnership.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__ITransferOwnership_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Shared::ITransferOwnership.TransferOwnershipToLocalPlayer
 template <>

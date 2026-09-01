@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/GraphQLUtils.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\GraphQLUtils.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Object*)>(&::OculusStudios::GraphQL::Client::GraphQLUtils::ConvertObject2Json)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5f1e3f8;
+  constexpr static std::size_t addrs = 0x5f228b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* (*)(::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>*)>(
         &::OculusStudios::GraphQL::Client::GraphQLUtils::Convert4Json)> {
   constexpr static std::size_t size = 0x824;
-  constexpr static std::size_t addrs = 0x5f1d834;
+  constexpr static std::size_t addrs = 0x5f21cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

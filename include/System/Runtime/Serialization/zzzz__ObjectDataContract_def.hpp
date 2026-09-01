@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ObjectDataContract.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ObjectDataContract.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,25 +45,25 @@ public:
 
   static inline ::System::Runtime::Serialization::ObjectDataContract* New_ctor();
 
-  /// @brief Method ReadXmlValue, addr 0x6156944, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x615e3c0, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method WriteXmlValue, addr 0x6156940, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x615e3bc, size 0x4, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
-  /// @brief Method .ctor, addr 0x615681c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615e298, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanContainReferences, addr 0x6156b8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanContainReferences, addr 0x615e608, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanContainReferences();
 
-  /// @brief Method get_IsPrimitive, addr 0x6156b94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPrimitive, addr 0x615e610, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPrimitive();
 
-  /// @brief Method get_ReadMethodName, addr 0x61568fc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMethodName, addr 0x615e378, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_ReadMethodName();
 
-  /// @brief Method get_WriteMethodName, addr 0x61568b8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMethodName, addr 0x615e334, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_WriteMethodName();
 
 protected:
@@ -81,7 +81,7 @@ public:
   ObjectDataContract(ObjectDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17103 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

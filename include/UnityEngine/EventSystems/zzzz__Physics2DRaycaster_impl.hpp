@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/EventSystems/Physics2DRaycaster.hpp"
+// IWYU pragma private; include "UnityEngine\EventSystems\Physics2DRaycaster.hpp"
 #include "UnityEngine/EventSystems/zzzz__PhysicsRaycaster_impl.hpp"
 #include "UnityEngine/zzzz__RaycastHit2D_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__Physics2DRaycaster_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::Physics2DRaycaster::*)()>(&::UnityEngine::EventSystems::Physics2DRaycaster::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e1b9d0;
+  constexpr static std::size_t addrs = 0x6e23554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::Physics2DRaycaster*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::Physics2DRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::UnityEngine::EventSystems::Physics2DRaycaster::Raycast)> {
   constexpr static std::size_t size = 0x658;
-  constexpr static std::size_t addrs = 0x6e1b9e8;
+  constexpr static std::size_t addrs = 0x6e2356c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

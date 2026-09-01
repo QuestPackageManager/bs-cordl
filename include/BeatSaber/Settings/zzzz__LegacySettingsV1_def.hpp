@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/LegacySettingsV1.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\LegacySettingsV1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -172,7 +172,7 @@ public:
   /// @brief Field windowResolutionWidth, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_windowResolutionWidth, put = __cordl_internal_set_windowResolutionWidth)) int32_t windowResolutionWidth;
 
-  /// @brief Method ApplyTo, addr 0x32c2254, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x32c6050, size 0x14c, virtual false, abstract: false, final false
   inline void ApplyTo(::by_ref<::BeatSaber::Settings::Settings> settings);
 
   static inline ::BeatSaber::Settings::LegacySettingsV1* New_ctor();
@@ -471,7 +471,7 @@ public:
 
   constexpr void __cordl_internal_set_windowResolutionWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32c23a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c619c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -489,7 +489,7 @@ public:
   LegacySettingsV1(LegacySettingsV1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22068 };
 
   /// @brief Field roomCenterX, offset: 0x10, size: 0x4, def value: None
   float_t ___roomCenterX;

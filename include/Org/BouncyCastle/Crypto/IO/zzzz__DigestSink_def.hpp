@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/IO/DigestSink.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\IO\DigestSink.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::IO::DigestSink* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Write, addr 0x33e22bc, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x33e607c, size 0xec, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x33e2204, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x33e5fc4, size 0xb8, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_mDigest() const;
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  /// @brief Method .ctor, addr 0x33e21d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e5f94, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_Digest, addr 0x33e21fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x33e5fbc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/StackedController.hpp"
+// IWYU pragma private; include "HMUI\StackedController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
 
   static inline ::HMUI::StackedController___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x32f2af4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x32f68f0, size 0x70, virtual false, abstract: false, final false
   inline void _PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*> viewControllers,
                                                          ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* removingViewControllers);
 
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_numberOfViewControllersToPop(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32f2a5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f6858, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   StackedController___c__DisplayClass5_0(StackedController___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20965 };
 
   /// @brief Field numberOfViewControllersToPop, offset: 0x10, size: 0x4, def value: None
   int32_t ___numberOfViewControllersToPop;
@@ -100,30 +100,30 @@ public:
 
   __declspec(property(get = get_topStackedViewController)) ::UnityW<::HMUI::ViewController> topStackedViewController;
 
-  /// @brief Method LayoutViewControllers, addr 0x32f266c, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method LayoutViewControllers, addr 0x32f6468, size 0xf4, virtual true, abstract: false, final false
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
   static inline ::HMUI::StackedController* New_ctor();
 
-  /// @brief Method PopViewController, addr 0x32f2854, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PopViewController, addr 0x32f6650, size 0x10, virtual false, abstract: false, final false
   inline void PopViewController(::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PopViewControllers, addr 0x32f2864, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method PopViewControllers, addr 0x32f6660, size 0x1f8, virtual false, abstract: false, final false
   inline void PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PushViewController, addr 0x32f27ac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method PushViewController, addr 0x32f65a8, size 0xa8, virtual false, abstract: false, final false
   inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method SetupViewControllerRect, addr 0x32f2760, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetupViewControllerRect, addr 0x32f655c, size 0x28, virtual false, abstract: false, final false
   static inline void SetupViewControllerRect(::HMUI::ViewController* viewController, int32_t index);
 
-  /// @brief Method <PushViewController>g__AnimationLayouter|3_0, addr 0x32f2a64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <PushViewController>g__AnimationLayouter|3_0, addr 0x32f6860, size 0x90, virtual false, abstract: false, final false
   static inline void _PushViewController_g__AnimationLayouter_3_0(float_t t, ::ArrayW<::HMUI::ViewController*> viewControllers);
 
-  /// @brief Method .ctor, addr 0x32f2a60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f685c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_topStackedViewController, addr 0x32f25e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_topStackedViewController, addr 0x32f63e4, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_topStackedViewController();
 
 protected:
@@ -141,7 +141,7 @@ public:
   StackedController(StackedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20966 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ILightshowColorScheme.hpp"
+// IWYU pragma private; include "GlobalNamespace\ILightshowColorScheme.hpp"
 #include "GlobalNamespace/zzzz__ILightshowColorScheme_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ILightshowColorScheme.get_overrideLights

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Dynamic/DeleteMemberBinder.hpp"
+// IWYU pragma private; include "System\Dynamic\DeleteMemberBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x5fbb350, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x5fc2dcc, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> args);
 
-  /// @brief Method FallbackDeleteMember, addr 0x5fbb340, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackDeleteMember, addr 0x5fc2dbc, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackDeleteMember(::System::Dynamic::DynamicMetaObject* target);
 
   /// @brief Method FallbackDeleteMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method get_IgnoreCase, addr 0x5fbb338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreCase, addr 0x5fc2db4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
-  /// @brief Method get_Name, addr 0x5fbb330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5fc2dac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -76,7 +76,7 @@ public:
   DeleteMemberBinder(DeleteMemberBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16650 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

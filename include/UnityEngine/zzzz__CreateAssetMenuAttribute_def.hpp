@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/CreateAssetMenuAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\CreateAssetMenuAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6ad30c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adaae0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_fileName, addr 0x6ad30b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fileName, addr 0x6adaad0, size 0x8, virtual false, abstract: false, final false
   inline void set_fileName(::StringW value);
 
-  /// @brief Method set_menuName, addr 0x6ad30b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menuName, addr 0x6adaac8, size 0x8, virtual false, abstract: false, final false
   inline void set_menuName(::StringW value);
 
-  /// @brief Method set_order, addr 0x6ad30c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_order, addr 0x6adaad8, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
 protected:
@@ -83,7 +83,7 @@ public:
   CreateAssetMenuAttribute(CreateAssetMenuAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10305 };
 
   /// @brief Field <menuName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____menuName_k__BackingField;

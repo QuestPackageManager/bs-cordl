@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Analytics/AnalyticsScribeConverter.hpp"
+// IWYU pragma private; include "OSCE\Analytics\AnalyticsScribeConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
 
   static inline ::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <CacheAndWriteTypePropertiesForType>b__0, addr 0x5f38ef8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <CacheAndWriteTypePropertiesForType>b__0, addr 0x5f3d364, size 0x60, virtual false, abstract: false, final false
   inline bool _CacheAndWriteTypePropertiesForType_b__0(::System::Reflection::PropertyInfo* prop);
 
   constexpr ::System::Type* const& __cordl_internal_get_type() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5f38e3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3d2a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   AnalyticsScribeConverter___c__DisplayClass4_0(AnalyticsScribeConverter___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21910 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
@@ -115,22 +115,22 @@ public:
   __declspec(property(get = getStaticF__cachedPropertyInfoByType, put = setStaticF__cachedPropertyInfoByType)) ::System::Collections::Generic::Dictionary_2<
       ::System::Type*, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::System::Reflection::PropertyInfo*>*>*>* _cachedPropertyInfoByType;
 
-  /// @brief Method CacheAndWriteTypePropertiesForType, addr 0x5f38804, size 0x638, virtual false, abstract: false, final false
+  /// @brief Method CacheAndWriteTypePropertiesForType, addr 0x5f3cc70, size 0x638, virtual false, abstract: false, final false
   inline void CacheAndWriteTypePropertiesForType(::OSCE::Analytics::BaseAnalyticsEvent* baseAnalyticsEvent, ::ArrayW<::System::Type*> typesForScribeObject, ::StringW scribeTypeString,
                                                  ::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method CanConvert, addr 0x5f3854c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x5f3c9b8, size 0x8, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::OSCE::Analytics::AnalyticsScribeConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x5f38554, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x5f3c9c0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x5f3858c, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x5f3c9f8, size 0x278, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x5f38e40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3d2ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*,
@@ -156,7 +156,7 @@ public:
   AnalyticsScribeConverter(AnalyticsScribeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21911 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

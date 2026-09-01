@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/DependencyInjector.hpp"
+// IWYU pragma private; include "Mono\DependencyInjector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,17 +31,17 @@ public:
   /// @brief Field systemDependency, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_systemDependency, put = setStaticF_systemDependency)) ::Mono::ISystemDependencyProvider* systemDependency;
 
-  /// @brief Method ReflectionLoad, addr 0x5aa9148, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ReflectionLoad, addr 0x5aad604, size 0x118, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* ReflectionLoad();
 
-  /// @brief Method Register, addr 0x5aa9260, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x5aad71c, size 0x190, virtual false, abstract: false, final false
   static inline void Register(::Mono::ISystemDependencyProvider* provider);
 
   static inline ::System::Object* getStaticF_locker();
 
   static inline ::Mono::ISystemDependencyProvider* getStaticF_systemDependency();
 
-  /// @brief Method get_SystemProvider, addr 0x5aa8f3c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method get_SystemProvider, addr 0x5aad3f8, size 0x20c, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* get_SystemProvider();
 
   static inline void setStaticF_locker(::System::Object* value);

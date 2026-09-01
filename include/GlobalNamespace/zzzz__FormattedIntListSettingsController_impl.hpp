@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FormattedIntListSettingsController.hpp"
+// IWYU pragma private; include "GlobalNamespace\FormattedIntListSettingsController.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__FormattedIntListSettingsController_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::FormattedIntListSettingsController::*)()>(&::GlobalNamespace::FormattedIntListSettingsController::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a0c5e8;
+  constexpr static std::size_t addrs = 0x5a146fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FormattedIntListSettingsController*>(), { "get_value", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FormattedIntListSettingsController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>*)>(&::GlobalNamespace::FormattedIntListSettingsController::add_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a0c5f0;
+  constexpr static std::size_t addrs = 0x5a14704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FormattedIntListSettingsController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>*)>(&::GlobalNamespace::FormattedIntListSettingsController::remove_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a0c6b0;
+  constexpr static std::size_t addrs = 0x5a147c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FormattedIntListSettingsController::*)(int32_t, bool)>(
     &::GlobalNamespace::FormattedIntListSettingsController::SetValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a0c770;
+  constexpr static std::size_t addrs = 0x5a14884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FormattedIntListSettingsController::*)(::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::GlobalNamespace::FormattedIntListSettingsController::GetInitValues)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a0c784;
+  constexpr static std::size_t addrs = 0x5a14898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FormattedIntListSettingsController*>(),
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FormattedIntListSettingsController::*)(int32_t)>(&::GlobalNamespace::FormattedIntListSettingsController::ApplyValue)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5a0c7ac;
+  constexpr static std::size_t addrs = 0x5a148c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FormattedIntListSettingsController*>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::FormattedIntListSettingsController::*)(int32_t)>(
     &::GlobalNamespace::FormattedIntListSettingsController::TextForValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5a0c7dc;
+  constexpr static std::size_t addrs = 0x5a148f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FormattedIntListSettingsController*>(),
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FormattedIntListSettingsController::*)()>(&::GlobalNamespace::FormattedIntListSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a0c840;
+  constexpr static std::size_t addrs = 0x5a14954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FormattedIntListSettingsController*>(), { ".ctor", {}, {} })));

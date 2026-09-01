@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/DomNameTable.hpp"
+// IWYU pragma private; include "System\Xml\DomNameTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,13 +50,13 @@ public:
   /// @brief Field ownerDocument, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_ownerDocument, put = __cordl_internal_set_ownerDocument)) ::System::Xml::XmlDocument* ownerDocument;
 
-  /// @brief Method AddName, addr 0x62adf18, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x62b5994, size 0x23c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlName* AddName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method GetName, addr 0x62add74, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x62b57f0, size 0x138, virtual false, abstract: false, final false
   inline ::System::Xml::XmlName* GetName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method Grow, addr 0x62ae23c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x62b5cb8, size 0x12c, virtual false, abstract: false, final false
   inline void Grow();
 
   static inline ::System::Xml::DomNameTable* New_ctor(::System::Xml::XmlDocument* document);
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set_ownerDocument(::System::Xml::XmlDocument* value);
 
-  /// @brief Method .ctor, addr 0x62adcf0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62b576c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* document);
 
 protected:
@@ -109,7 +109,7 @@ public:
   DomNameTable(DomNameTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9376 };
 
   /// @brief Field entries, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Xml::XmlName*> ___entries;

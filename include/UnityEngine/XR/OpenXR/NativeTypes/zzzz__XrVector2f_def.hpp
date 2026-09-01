@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/NativeTypes/XrVector2f.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\NativeTypes\XrVector2f.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace UnityEngine::XR::OpenXR::NativeTypes {
 struct CORDL_TYPE XrVector2f {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x69ef3f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f6e6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x69ef3e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69f6e64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr XrVector2f(float_t X, float_t Y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18535 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

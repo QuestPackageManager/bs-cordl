@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/DHParameter.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Pkcs\DHParameter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::DHParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x345da84, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3461844, size 0x180, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_g() const;
@@ -72,19 +72,19 @@ public:
 
   constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x345d5c0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3461380, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, int32_t l);
 
-  /// @brief Method .ctor, addr 0x345d678, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3461438, size 0x3c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_G, addr 0x345da58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x3461818, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_L, addr 0x345da70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_L, addr 0x3461830, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_L();
 
-  /// @brief Method get_P, addr 0x345da40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x3461800, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
 protected:

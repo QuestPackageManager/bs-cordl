@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/AccessViolationException.hpp"
+// IWYU pragma private; include "System\AccessViolationException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__AccessViolationException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AccessViolationException::*)()>(&::System::AccessViolationException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ba886c;
+  constexpr static std::size_t addrs = 0x5bacd28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::AccessViolationException*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AccessViolationException::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                                     ::System::Runtime::Serialization::StreamingContext)>(&::System::AccessViolationException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ba88cc;
+  constexpr static std::size_t addrs = 0x5bacd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

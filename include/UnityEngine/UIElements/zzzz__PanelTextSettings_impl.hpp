@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PanelTextSettings.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PanelTextSettings.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelTextSettings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PanelTextSettings.get_defaultPanelTextSettings
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::PanelTextSettings> (*)()>(&::UnityEngine::UIElements::PanelTextSettings::get_defaultPanelTextSettings)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6c9c1c0;
+  constexpr static std::size_t addrs = 0x6ca3d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::PanelTextSettings::InitializeDefaultPanelTextSettingsIfNull)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c9c210;
+  constexpr static std::size_t addrs = 0x6ca3d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelTextSettings::*)()>(&::UnityEngine::UIElements::PanelTextSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9c2c4;
+  constexpr static std::size_t addrs = 0x6ca3e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelTextSettings*>(), { ".ctor", {}, {} })));

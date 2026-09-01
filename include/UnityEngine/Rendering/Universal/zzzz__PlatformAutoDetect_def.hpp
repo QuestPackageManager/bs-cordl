@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/PlatformAutoDetect.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\PlatformAutoDetect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ public:
   /// @brief Field isRunningOnPowerVRGPU, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_isRunningOnPowerVRGPU, put = setStaticF_isRunningOnPowerVRGPU)) bool isRunningOnPowerVRGPU;
 
-  /// @brief Method Initialize, addr 0x68e0830, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x68e82ac, size 0x1c8, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method IsRunningXRMobile, addr 0x68e09f8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method IsRunningXRMobile, addr 0x68e8474, size 0x1a4, virtual false, abstract: false, final false
   static inline bool IsRunningXRMobile();
 
-  /// @brief Method ShAutoDetect, addr 0x68e0ddc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ShAutoDetect, addr 0x68e8858, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::ShEvalMode ShAutoDetect(::UnityEngine::Rendering::Universal::ShEvalMode mode);
 
   static inline bool getStaticF__isShaderAPIMobileDefined_k__BackingField();
@@ -59,13 +59,13 @@ public:
 
   static inline bool getStaticF_isRunningOnPowerVRGPU();
 
-  /// @brief Method get_isShaderAPIMobileDefined, addr 0x68e0c5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_isShaderAPIMobileDefined, addr 0x68e86d8, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_isShaderAPIMobileDefined();
 
-  /// @brief Method get_isSwitch, addr 0x68e0d1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_isSwitch, addr 0x68e8798, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_isSwitch();
 
-  /// @brief Method get_isXRMobile, addr 0x68e0b9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_isXRMobile, addr 0x68e8618, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_isXRMobile();
 
   static inline void setStaticF__isShaderAPIMobileDefined_k__BackingField(bool value);
@@ -78,13 +78,13 @@ public:
 
   static inline void setStaticF_isRunningOnPowerVRGPU(bool value);
 
-  /// @brief Method set_isShaderAPIMobileDefined, addr 0x68e0cb8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_isShaderAPIMobileDefined, addr 0x68e8734, size 0x64, virtual false, abstract: false, final false
   static inline void set_isShaderAPIMobileDefined(bool value);
 
-  /// @brief Method set_isSwitch, addr 0x68e0d78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_isSwitch, addr 0x68e87f4, size 0x64, virtual false, abstract: false, final false
   static inline void set_isSwitch(bool value);
 
-  /// @brief Method set_isXRMobile, addr 0x68e0bf8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_isXRMobile, addr 0x68e8674, size 0x64, virtual false, abstract: false, final false
   static inline void set_isXRMobile(bool value);
 
 protected:
@@ -102,7 +102,7 @@ public:
   PlatformAutoDetect(PlatformAutoDetect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

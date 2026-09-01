@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/NamespaceCache.hpp"
+// IWYU pragma private; include "System\Xml\Linq\NamespaceCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace System::Xml::Linq {
 struct CORDL_TYPE NamespaceCache {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x619fd84, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x61a7800, size 0x34, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr NamespaceCache(::System::Xml::Linq::XNamespace* _ns, ::StringW _namespaceName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21981 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

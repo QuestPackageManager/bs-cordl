@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/GraphQL/InputTypes/IXOCBeatGamesBeatmapLeaderboardEntryOrder.hpp"
+// IWYU pragma private; include "BeatSaber\Main\GraphQL\InputTypes\IXOCBeatGamesBeatmapLeaderboardEntryOrder.hpp"
 #include "BeatSaber/Main/GraphQL/InputTypes/zzzz__IXOCBeatGamesBeatmapLeaderboardEntryOrder_def.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/zzzz__XOCBeatGamesBeatmapLeaderboardEntryOrderBySubject_def.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/zzzz__IGraphQLInputObject_def.hpp"

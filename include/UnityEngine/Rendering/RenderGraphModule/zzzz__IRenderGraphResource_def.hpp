@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/IRenderGraphResource.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\IRenderGraphResource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,54 +60,54 @@ public:
   /// @brief Field writeCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_writeCount, put = __cordl_internal_set_writeCount)) uint32_t writeCount;
 
-  /// @brief Method CreateGraphicsResource, addr 0x67e2560, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CreateGraphicsResource, addr 0x67e9fdc, size 0x4, virtual true, abstract: false, final false
   inline void CreateGraphicsResource();
 
-  /// @brief Method CreatePooledGraphicsResource, addr 0x67e255c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CreatePooledGraphicsResource, addr 0x67e9fd8, size 0x4, virtual true, abstract: false, final false
   inline void CreatePooledGraphicsResource();
 
-  /// @brief Method GetDescHashCode, addr 0x67e2580, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDescHashCode, addr 0x67e9ffc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDescHashCode();
 
-  /// @brief Method GetName, addr 0x67e24bc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetName, addr 0x67e9f38, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetName();
 
-  /// @brief Method GetSortIndex, addr 0x67e2578, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetSortIndex, addr 0x67e9ff4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetSortIndex();
 
-  /// @brief Method IncrementReadCount, addr 0x67e2518, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method IncrementReadCount, addr 0x67e9f94, size 0x10, virtual true, abstract: false, final false
   inline void IncrementReadCount();
 
-  /// @brief Method IncrementWriteCount, addr 0x67e2508, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method IncrementWriteCount, addr 0x67e9f84, size 0x10, virtual true, abstract: false, final false
   inline void IncrementWriteCount();
 
-  /// @brief Method IsCreated, addr 0x67e2500, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsCreated, addr 0x67e9f7c, size 0x8, virtual true, abstract: false, final false
   inline bool IsCreated();
 
-  /// @brief Method LogCreation, addr 0x67e2570, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LogCreation, addr 0x67e9fec, size 0x4, virtual true, abstract: false, final false
   inline void LogCreation(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
 
-  /// @brief Method LogRelease, addr 0x67e2574, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LogRelease, addr 0x67e9ff0, size 0x4, virtual true, abstract: false, final false
   inline void LogRelease(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
 
-  /// @brief Method NeedsFallBack, addr 0x67e253c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method NeedsFallBack, addr 0x67e9fb8, size 0x20, virtual true, abstract: false, final false
   inline bool NeedsFallBack();
 
-  /// @brief Method NewVersion, addr 0x67e2528, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method NewVersion, addr 0x67e9fa4, size 0x14, virtual true, abstract: false, final false
   inline int32_t NewVersion();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* New_ctor();
 
-  /// @brief Method ReleaseGraphicsResource, addr 0x67e256c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReleaseGraphicsResource, addr 0x67e9fe8, size 0x4, virtual true, abstract: false, final false
   inline void ReleaseGraphicsResource();
 
-  /// @brief Method ReleasePooledGraphicsResource, addr 0x67e2568, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReleasePooledGraphicsResource, addr 0x67e9fe4, size 0x4, virtual true, abstract: false, final false
   inline void ReleasePooledGraphicsResource(int32_t frameIndex);
 
-  /// @brief Method Reset, addr 0x67e249c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x67e9f18, size 0x20, virtual true, abstract: false, final false
   inline void Reset(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool* _);
 
-  /// @brief Method UpdateGraphicsResource, addr 0x67e2564, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraphicsResource, addr 0x67e9fe0, size 0x4, virtual true, abstract: false, final false
   inline void UpdateGraphicsResource();
 
   constexpr int32_t const& __cordl_internal_get_cachedHash() const;
@@ -176,7 +176,7 @@ public:
 
   constexpr void __cordl_internal_set_writeCount(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x67e2588, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ea004, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -194,7 +194,7 @@ public:
   IRenderGraphResource(IRenderGraphResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12459 };
 
   /// @brief Field imported, offset: 0x10, size: 0x1, def value: None
   bool ___imported;

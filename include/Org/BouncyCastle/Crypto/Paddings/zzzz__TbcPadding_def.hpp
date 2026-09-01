@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Paddings/TbcPadding.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Paddings\TbcPadding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,21 +33,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Method AddPadding, addr 0x3408938, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method AddPadding, addr 0x340c6f8, size 0x78, virtual true, abstract: false, final false
   inline int32_t AddPadding(::ArrayW<uint8_t> input, int32_t inOff);
 
-  /// @brief Method Init, addr 0x3408934, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x340c6f4, size 0x4, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::TbcPadding* New_ctor();
 
-  /// @brief Method PadCount, addr 0x34089b0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method PadCount, addr 0x340c770, size 0x70, virtual true, abstract: false, final false
   inline int32_t PadCount(::ArrayW<uint8_t> input);
 
-  /// @brief Method .ctor, addr 0x3408a20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340c7e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PaddingName, addr 0x34088f0, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_PaddingName, addr 0x340c6b0, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_PaddingName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"

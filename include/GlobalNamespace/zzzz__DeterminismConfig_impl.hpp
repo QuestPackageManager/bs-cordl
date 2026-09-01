@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DeterminismConfig.hpp"
+// IWYU pragma private; include "GlobalNamespace\DeterminismConfig.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DeterminismConfig_def.hpp"
 #include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DeterminismConfig::*)()>(&::GlobalNamespace::DeterminismConfig::get_isDeterministic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3322598;
+  constexpr static std::size_t addrs = 0x3326358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeterminismConfig*>(), { "get_isDeterministic", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeterminismConfig::*)(bool)>(&::GlobalNamespace::DeterminismConfig::set_isDeterministic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33225a0;
+  constexpr static std::size_t addrs = 0x3326360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeterminismConfig::*)(::System::Action_1<bool>*)>(&::GlobalNamespace::DeterminismConfig::add_determinismSetEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x33225a8;
+  constexpr static std::size_t addrs = 0x3326368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeterminismConfig::*)(::System::Action_1<bool>*)>(&::GlobalNamespace::DeterminismConfig::remove_determinismSetEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3322668;
+  constexpr static std::size_t addrs = 0x3326428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeterminismConfig::*)(bool, ::GlobalNamespace::TimeHelper*)>(&::GlobalNamespace::DeterminismConfig::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3322728;
+  constexpr static std::size_t addrs = 0x33264e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeterminismConfig::*)(bool)>(&::GlobalNamespace::DeterminismConfig::SetDeterminism)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3322730;
+  constexpr static std::size_t addrs = 0x33264f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/VectorImageRenderInfo.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\VectorImageRenderInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x6cee2b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6cf5e34, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::UIR::GradientRemap* const& __cordl_internal_get_firstGradientRemap() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_useCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cee258, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf5ddc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

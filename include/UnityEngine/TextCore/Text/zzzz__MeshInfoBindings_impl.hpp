@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/MeshInfoBindings.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\MeshInfoBindings.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextCoreVertex_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MeshInfoBindings_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextCoreVertex_def.hpp"

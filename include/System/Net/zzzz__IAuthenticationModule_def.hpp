@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/IAuthenticationModule.hpp"
+// IWYU pragma private; include "System\Net\IAuthenticationModule.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   IAuthenticationModule(IAuthenticationModule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

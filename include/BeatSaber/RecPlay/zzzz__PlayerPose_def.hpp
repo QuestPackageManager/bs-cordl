@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/RecPlay/PlayerPose.hpp"
+// IWYU pragma private; include "BeatSaber\RecPlay\PlayerPose.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   constexpr PlayerPose(::UnityEngine::Pose head, ::UnityEngine::Pose leftHand, ::UnityEngine::Pose rightHand) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23290 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };

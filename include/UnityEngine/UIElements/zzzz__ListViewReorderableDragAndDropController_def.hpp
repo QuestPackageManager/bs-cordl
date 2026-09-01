@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ListViewReorderableDragAndDropController.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ListViewReorderableDragAndDropController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,12 +31,12 @@ public:
   /// @brief Field m_ListView, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ListView, put = __cordl_internal_set_m_ListView)) ::UnityEngine::UIElements::BaseListView* m_ListView;
 
-  /// @brief Method HandleDragAndDrop, addr 0x6d89f28, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method HandleDragAndDrop, addr 0x6d91aac, size 0x13c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
   static inline ::UnityEngine::UIElements::ListViewReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::BaseListView* view);
 
-  /// @brief Method OnDrop, addr 0x6d8a064, size 0x2f4, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x6d91be8, size 0x2f4, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
   constexpr ::UnityEngine::UIElements::BaseListView* const& __cordl_internal_get_m_ListView() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ListView(::UnityEngine::UIElements::BaseListView* value);
 
-  /// @brief Method .ctor, addr 0x6d89f00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d91a84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseListView* view);
 
 protected:

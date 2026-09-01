@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerBigAvatarInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerBigAvatarInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   /// @brief Field _saberManagerInitData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__saberManagerInitData, put = __cordl_internal_set__saberManagerInitData)) ::GlobalNamespace::SaberManager_InitData* _saberManagerInitData;
 
-  /// @brief Method InstallBindings, addr 0x59c7dac, size 0x518, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59cfd20, size 0x518, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerBigAvatarInstaller* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__saberManagerInitData(::GlobalNamespace::SaberManager_InitData* value);
 
-  /// @brief Method .ctor, addr 0x59c82c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d0238, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   MultiplayerBigAvatarInstaller(MultiplayerBigAvatarInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6127 };
 
   /// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____connectedPlayer;

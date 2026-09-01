@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/SendInvitesResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\SendInvitesResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__SendInvitesResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__ApplicationInviteList_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::SendInvitesResult::*)(::System::IntPtr)>(&::Oculus::Platform::Models::SendInvitesResult::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5dee1b4;
+  constexpr static std::size_t addrs = 0x5df2670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

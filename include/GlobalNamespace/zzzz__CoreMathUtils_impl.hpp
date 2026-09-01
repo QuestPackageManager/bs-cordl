@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CoreMathUtils.hpp"
+// IWYU pragma private; include "GlobalNamespace\CoreMathUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CoreMathUtils_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CoreMathUtils.CalculateHalfJumpDurationInBeats
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t, float_t, float_t)>(&::GlobalNamespace::CoreMathUtils::CalculateHalfJumpDurationInBeats)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x36f470c;
+  constexpr static std::size_t addrs = 0x36f895c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoreMathUtils::*)()>(&::GlobalNamespace::CoreMathUtils::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36f4750;
+  constexpr static std::size_t addrs = 0x36f89a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreMathUtils*>(), { ".ctor", {}, {} })));

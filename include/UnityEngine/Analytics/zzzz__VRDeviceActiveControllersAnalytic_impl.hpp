@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Analytics/VRDeviceActiveControllersAnalytic.hpp"
+// IWYU pragma private; include "UnityEngine\Analytics\VRDeviceActiveControllersAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__VRDeviceAnalyticBase_impl.hpp"
 #include "UnityEngine/Analytics/zzzz__VRDeviceActiveControllersAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Analytics::VRDeviceActiveControllersAnalytic.CreateVRDeviceActiveControllersAnalytic
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Analytics::VRDeviceActiveControllersAnalytic* (*)()>(
     &::UnityEngine::Analytics::VRDeviceActiveControllersAnalytic::CreateVRDeviceActiveControllersAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e1d070;
+  constexpr static std::size_t addrs = 0x6e24bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Analytics::VRDeviceActiveControllersAnalytic::*)()>(&::UnityEngine::Analytics::VRDeviceActiveControllersAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e1d0c4;
+  constexpr static std::size_t addrs = 0x6e24c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Analytics::VRDeviceActiveControllersAnalytic*>(), { ".ctor", {}, {} })));

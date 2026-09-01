@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BinaryReadWriteExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\BinaryReadWriteExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BinaryReadWriteExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Color)>(&::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x331ed94;
+  constexpr static std::size_t addrs = 0x3322b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::BinaryReadWriteExtensions::ReadColor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x331ee1c;
+  constexpr static std::size_t addrs = 0x3322bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Vector3)>(&::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x331eeac;
+  constexpr static std::size_t addrs = 0x3322c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::BinaryReadWriteExtensions::ReadVector3)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x331ef10;
+  constexpr static std::size_t addrs = 0x3322cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Quaternion)>(&::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x331ef7c;
+  constexpr static std::size_t addrs = 0x3322d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::BinaryReadWriteExtensions::ReadQuaternion)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x331f004;
+  constexpr static std::size_t addrs = 0x3322dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Pose)>(&::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x331f094;
+  constexpr static std::size_t addrs = 0x3322e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BinaryReadWriteExtensions*>(),
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::BinaryReadWriteExtensions::ReadPose)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x331f0c8;
+  constexpr static std::size_t addrs = 0x3322e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

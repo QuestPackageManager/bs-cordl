@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/DoubleLinkAxis.hpp"
+// IWYU pragma private; include "System\Xml\Schema\DoubleLinkAxis.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Axis_impl.hpp"
 #include "System/Xml/Schema/zzzz__DoubleLinkAxis_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Axis_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::Axis* (::System::Xml::Schema::DoubleLinkAxis::*)()>(&::System::Xml::Schema::DoubleLinkAxis::get_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x630febc;
+  constexpr static std::size_t addrs = 0x6317938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DoubleLinkAxis*>(), { "get_Next", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DoubleLinkAxis::*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::DoubleLinkAxis::set_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x630fec4;
+  constexpr static std::size_t addrs = 0x6317940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DoubleLinkAxis::*)(::MS::Internal::Xml::XPath::Axis*, ::System::Xml::Schema::DoubleLinkAxis*)>(
     &::System::Xml::Schema::DoubleLinkAxis::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x630fecc;
+  constexpr static std::size_t addrs = 0x6317948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::DoubleLinkAxis::ConvertTree)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x630ff24;
+  constexpr static std::size_t addrs = 0x63179a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

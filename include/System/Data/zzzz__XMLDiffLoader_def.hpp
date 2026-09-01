@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/XMLDiffLoader.hpp"
+// IWYU pragma private; include "System\Data\XMLDiffLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,36 +42,36 @@ public:
   /// @brief Field _tables, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tables, put = __cordl_internal_set__tables)) ::System::Collections::ArrayList* _tables;
 
-  /// @brief Method CreateTablesHierarchy, addr 0x604f2b8, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method CreateTablesHierarchy, addr 0x6056d34, size 0x358, virtual false, abstract: false, final false
   inline void CreateTablesHierarchy(::System::Data::DataTable* dt);
 
-  /// @brief Method GetTable, addr 0x6050ddc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetTable, addr 0x6058858, size 0x1cc, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* GetTable(::StringW tableName, ::StringW ns);
 
-  /// @brief Method LoadDiffGram, addr 0x604ea90, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method LoadDiffGram, addr 0x605650c, size 0x18c, virtual false, abstract: false, final false
   inline void LoadDiffGram(::System::Data::DataSet* ds, ::System::Xml::XmlReader* dataTextReader);
 
-  /// @brief Method LoadDiffGram, addr 0x604f610, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method LoadDiffGram, addr 0x605708c, size 0x1e8, virtual false, abstract: false, final false
   inline void LoadDiffGram(::System::Data::DataTable* dt, ::System::Xml::XmlReader* dataTextReader);
 
   static inline ::System::Data::XMLDiffLoader* New_ctor();
 
-  /// @brief Method ProcessDiffs, addr 0x604ec1c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method ProcessDiffs, addr 0x6056698, size 0x2e8, virtual false, abstract: false, final false
   inline void ProcessDiffs(::System::Data::DataSet* ds, ::System::Xml::XmlReader* ssync);
 
-  /// @brief Method ProcessDiffs, addr 0x604f7f8, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method ProcessDiffs, addr 0x6057274, size 0x2dc, virtual false, abstract: false, final false
   inline void ProcessDiffs(::System::Collections::ArrayList* tableList, ::System::Xml::XmlReader* ssync);
 
-  /// @brief Method ProcessErrors, addr 0x604ef04, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method ProcessErrors, addr 0x6056980, size 0x3b4, virtual false, abstract: false, final false
   inline void ProcessErrors(::System::Data::DataSet* ds, ::System::Xml::XmlReader* ssync);
 
-  /// @brief Method ProcessErrors, addr 0x604fad4, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method ProcessErrors, addr 0x6057550, size 0x4c4, virtual false, abstract: false, final false
   inline void ProcessErrors(::System::Collections::ArrayList* dt, ::System::Xml::XmlReader* ssync);
 
-  /// @brief Method ReadOldRowData, addr 0x604fff8, size 0xde4, virtual false, abstract: false, final false
+  /// @brief Method ReadOldRowData, addr 0x6057a74, size 0xde4, virtual false, abstract: false, final false
   inline int32_t ReadOldRowData(::System::Data::DataSet* ds, ::by_ref<::System::Data::DataTable*> table, ::by_ref<int32_t> pos, ::System::Xml::XmlReader* row);
 
-  /// @brief Method SkipWhitespaces, addr 0x604ff98, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespaces, addr 0x6057a14, size 0x60, virtual false, abstract: false, final false
   inline void SkipWhitespaces(::System::Xml::XmlReader* reader);
 
   constexpr ::System::Data::DataSet* const& __cordl_internal_get__dataSet() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__tables(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x6050fa8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6058a24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   XMLDiffLoader(XMLDiffLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13865 };
 
   /// @brief Field _tables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____tables;

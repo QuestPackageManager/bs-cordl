@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/ShaderPropertyIDAttribute.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\ShaderPropertyIDAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyIDAttribute_def.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyAttributeFilter_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::ShaderPropertyIDAttribute::*)(::StringW, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType)>(
     &::BGLib::UnityExtension::ShaderPropertyIDAttribute::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3326c60;
+  constexpr static std::size_t addrs = 0x332aa20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

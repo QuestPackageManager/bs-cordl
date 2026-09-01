@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HardwareCategories.hpp"
+// IWYU pragma private; include "GlobalNamespace\HardwareCategories.hpp"
 #include "GlobalNamespace/zzzz__HardwareCategory_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__HardwareCategories_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::GlobalNamespace::HardwareCategory>)>(&::GlobalNamespace::HardwareCategories::GetPlatformOverride)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x328a0d0;
+  constexpr static std::size_t addrs = 0x328decc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::HardwareCategory)>(&::GlobalNamespace::HardwareCategories::SetPlatformOverride)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x328a128;
+  constexpr static std::size_t addrs = 0x328df24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::HardwareCategories::ClearPlatformOverride)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x328a180;
+  constexpr static std::size_t addrs = 0x328df7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(), { "ClearPlatformOverride", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::HardwareCategory (*)()>(&::GlobalNamespace::HardwareCategories::GetHardwareCategoryWithEditorOverride)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328a1cc;
+  constexpr static std::size_t addrs = 0x328dfc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::HardwareCategory (*)()>(&::GlobalNamespace::HardwareCategories::GetHardwareCategory)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x328a1d0;
+  constexpr static std::size_t addrs = 0x328dfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HardwareCategories*>(), { "GetHardwareCategory", {}, {} })));

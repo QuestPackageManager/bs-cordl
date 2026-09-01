@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ocsp/SingleResponse.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ocsp\SingleResponse.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,10 +68,10 @@ public:
   /// @brief Field thisUpdate, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_thisUpdate, put = __cordl_internal_set_thisUpdate)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate;
 
-  /// @brief Method GetInstance, addr 0x345acf4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x345eab4, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x345ad08, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x345eac8, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID* certID, ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* certStatus,
@@ -80,7 +80,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x345aeb4, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x345ec74, size 0x188, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertID* const& __cordl_internal_get_certID() const;
@@ -113,26 +113,26 @@ public:
 
   constexpr void __cordl_internal_set_thisUpdate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0x345aa20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345e7e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID* certID, ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* certStatus, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate,
                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleExtensions);
 
-  /// @brief Method .ctor, addr 0x345aa30, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x345e7f0, size 0x2c4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertId, addr 0x345ae8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertId, addr 0x345ec4c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* get_CertId();
 
-  /// @brief Method get_CertStatus, addr 0x345ae94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertStatus, addr 0x345ec54, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* get_CertStatus();
 
-  /// @brief Method get_NextUpdate, addr 0x345aea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x345ec64, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NextUpdate();
 
-  /// @brief Method get_SingleExtensions, addr 0x345aeac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SingleExtensions, addr 0x345ec6c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleExtensions();
 
-  /// @brief Method get_ThisUpdate, addr 0x345ae9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ThisUpdate, addr 0x345ec5c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_ThisUpdate();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/InvalidBeatmapDataException.hpp"
+// IWYU pragma private; include "GlobalNamespace\InvalidBeatmapDataException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "GlobalNamespace/zzzz__InvalidBeatmapDataException_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InvalidBeatmapDataException._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InvalidBeatmapDataException::*)(::StringW)>(&::GlobalNamespace::InvalidBeatmapDataException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32aeeb4;
+  constexpr static std::size_t addrs = 0x32b2cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

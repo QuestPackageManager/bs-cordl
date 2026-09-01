@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRGrabber.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRGrabber.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,57 +113,57 @@ public:
   /// @brief Field m_prevFlex, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get_m_prevFlex, put = __cordl_internal_set_m_prevFlex)) float_t m_prevFlex;
 
-  /// @brief Method Awake, addr 0x5ef7f24, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5efc3e0, size 0x150, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckForGrabOrRelease, addr 0x5ef8540, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CheckForGrabOrRelease, addr 0x5efc9fc, size 0x3c, virtual false, abstract: false, final false
   inline void CheckForGrabOrRelease(float_t prevFlex);
 
-  /// @brief Method ForceRelease, addr 0x5ef7bf0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ForceRelease, addr 0x5efc0ac, size 0xb4, virtual false, abstract: false, final false
   inline void ForceRelease(::GlobalNamespace::OVRGrabbable* grabbable);
 
-  /// @brief Method GrabBegin, addr 0x5ef88e0, size 0x6a0, virtual true, abstract: false, final false
+  /// @brief Method GrabBegin, addr 0x5efcd9c, size 0x6a0, virtual true, abstract: false, final false
   inline void GrabBegin();
 
-  /// @brief Method GrabEnd, addr 0x5ef7cb8, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GrabEnd, addr 0x5efc174, size 0x26c, virtual false, abstract: false, final false
   inline void GrabEnd();
 
-  /// @brief Method GrabVolumeEnable, addr 0x5ef91fc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GrabVolumeEnable, addr 0x5efd6b8, size 0xc4, virtual true, abstract: false, final false
   inline void GrabVolumeEnable(bool enabled);
 
-  /// @brief Method GrabbableRelease, addr 0x5ef91a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GrabbableRelease, addr 0x5efd664, size 0x54, virtual false, abstract: false, final false
   inline void GrabbableRelease(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
 
-  /// @brief Method MoveGrabbedObject, addr 0x5ef8f80, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method MoveGrabbedObject, addr 0x5efd43c, size 0x228, virtual true, abstract: false, final false
   inline void MoveGrabbedObject(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot, bool forceTeleport);
 
   static inline ::GlobalNamespace::OVRGrabber* New_ctor();
 
-  /// @brief Method OffhandGrabbed, addr 0x5ef92c0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OffhandGrabbed, addr 0x5efd77c, size 0xd4, virtual true, abstract: false, final false
   inline void OffhandGrabbed(::GlobalNamespace::OVRGrabbable* grabbable);
 
-  /// @brief Method OnDestroy, addr 0x5ef857c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5efca38, size 0x7c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnTriggerEnter, addr 0x5ef85f8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerEnter, addr 0x5efcab4, size 0x154, virtual false, abstract: false, final false
   inline void OnTriggerEnter(::UnityEngine::Collider* otherCollider);
 
-  /// @brief Method OnTriggerExit, addr 0x5ef874c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerExit, addr 0x5efcc08, size 0x194, virtual false, abstract: false, final false
   inline void OnTriggerExit(::UnityEngine::Collider* otherCollider);
 
-  /// @brief Method OnUpdatedAnchors, addr 0x5ef8314, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method OnUpdatedAnchors, addr 0x5efc7d0, size 0x22c, virtual false, abstract: false, final false
   inline void OnUpdatedAnchors();
 
-  /// @brief Method SetPlayerIgnoreCollision, addr 0x5ef8158, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerIgnoreCollision, addr 0x5efc614, size 0x1ac, virtual false, abstract: false, final false
   inline void SetPlayerIgnoreCollision(::UnityEngine::GameObject* grabbable, bool ignore);
 
-  /// @brief Method Start, addr 0x5ef8074, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5efc530, size 0xe4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5ef8304, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x5efc7c0, size 0x10, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <Awake>b__23_0, addr 0x5ef9448, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__23_0, addr 0x5efd904, size 0x4, virtual false, abstract: false, final false
   inline void _Awake_b__23_0(::GlobalNamespace::OVRCameraRig* r);
 
   constexpr float_t const& __cordl_internal_get_grabBegin() const;
@@ -286,10 +286,10 @@ public:
 
   constexpr void __cordl_internal_set_m_prevFlex(float_t value);
 
-  /// @brief Method .ctor, addr 0x5ef9394, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5efd850, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_grabbedObject, addr 0x5ef7cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grabbedObject, addr 0x5efc16c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRGrabbable> get_grabbedObject();
 
 protected:
@@ -307,7 +307,7 @@ public:
   OVRGrabber(OVRGrabber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7915 };
 
   /// @brief Field grabBegin, offset: 0x20, size: 0x4, def value: None
   float_t ___grabBegin;

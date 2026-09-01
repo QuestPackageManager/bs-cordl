@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeProcessHandle.hpp"
+// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafeProcessHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(::System::IntPtr handle);
 
-  /// @brief Method ReleaseHandle, addr 0x5fdcb9c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x5fe4618, size 0x9c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x5fdc94c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fe43c8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x5fdcb3c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fe45b8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr handle);
 
   static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* getStaticF_InvalidHandle();
@@ -57,7 +57,7 @@ public:
   SafeProcessHandle(SafeProcessHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

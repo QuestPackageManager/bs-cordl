@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HowToPlayViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\HowToPlayViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +67,7 @@ public:
   static ::GlobalNamespace::HowToPlayViewController_HowToPlayOptions const HowToPlay;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6444 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,15 +102,15 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x5a12740, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a1a84c, size 0x140, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::HowToPlayViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__6_0, addr 0x5a12884, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__6_0, addr 0x5a1a990, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_0();
 
-  /// @brief Method <DidActivate>b__6_1, addr 0x5a128a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__6_1, addr 0x5a1a9b0, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_1();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__creditsButton() const;
@@ -131,13 +131,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* value);
 
-  /// @brief Method .ctor, addr 0x5a12880, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a1a98c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x5a125c0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5a1a6cc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x5a12680, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5a1a78c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>* value);
 
 protected:
@@ -155,7 +155,7 @@ public:
   HowToPlayViewController(HowToPlayViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6445 };
 
   /// @brief Field _tutorialButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____tutorialButton;

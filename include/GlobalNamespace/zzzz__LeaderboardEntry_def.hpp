@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LeaderboardEntry.hpp"
+// IWYU pragma private; include "GlobalNamespace\LeaderboardEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::LeaderboardEntry* New_ctor();
 
-  /// @brief Method SetScore, addr 0x5936438, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SetScore, addr 0x5939ebc, size 0x1a0, virtual false, abstract: false, final false
   inline void SetScore(int32_t score, ::StringW playerName, int32_t rank, bool highlighted, bool showSeparator);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x59365d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593a05c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   LeaderboardEntry(LeaderboardEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6863 };
 
   /// @brief Field _scoreText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;

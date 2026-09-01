@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRAudioSourceTest.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRAudioSourceTest.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRAudioSourceTest_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRAudioSourceTest.Start
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAudioSourceTest::*)()>(&::GlobalNamespace::OVRAudioSourceTest::Start)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5eed1cc;
+  constexpr static std::size_t addrs = 0x5ef1688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAudioSourceTest*>(), { "Start", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAudioSourceTest::*)()>(&::GlobalNamespace::OVRAudioSourceTest::Update)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x5eed2e0;
+  constexpr static std::size_t addrs = 0x5ef179c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAudioSourceTest*>(), { "Update", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRAudioSourceTest::*)()>(&::GlobalNamespace::OVRAudioSourceTest::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5eed4c8;
+  constexpr static std::size_t addrs = 0x5ef1984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRAudioSourceTest*>(), { ".ctor", {}, {} })));

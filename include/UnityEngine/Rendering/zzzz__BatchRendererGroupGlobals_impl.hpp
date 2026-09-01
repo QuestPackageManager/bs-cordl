@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BatchRendererGroupGlobals.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BatchRendererGroupGlobals.hpp"
 #include "UnityEngine/Rendering/zzzz__SHCoefficients_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchRendererGroupGlobals_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::BatchRendererGroupGlobals (*)()>(&::UnityEngine::Rendering::BatchRendererGroupGlobals::get_Default)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x67add68;
+  constexpr static std::size_t addrs = 0x67b57e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroupGlobals>(), { "get_Default", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BatchRendererGroupGlobals::*)(::UnityEngine::Rendering::BatchRendererGroupGlobals)>(
     &::UnityEngine::Rendering::BatchRendererGroupGlobals::Equals)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x67adec8;
+  constexpr static std::size_t addrs = 0x67b5944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BatchRendererGroupGlobals>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BatchRendererGroupGlobals::*)(::System::Object*)>(
     &::UnityEngine::Rendering::BatchRendererGroupGlobals::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x67adfe8;
+  constexpr static std::size_t addrs = 0x67b5a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::BatchRendererGroupGlobals::*)()>(&::UnityEngine::Rendering::BatchRendererGroupGlobals::GetHashCode)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x67ae08c;
+  constexpr static std::size_t addrs = 0x67b5b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::BatchRendererGroupGlobals, ::UnityEngine::Rendering::BatchRendererGroupGlobals)>(
     &::UnityEngine::Rendering::BatchRendererGroupGlobals::op_Equality)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x67ae1a4;
+  constexpr static std::size_t addrs = 0x67b5c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::BatchRendererGroupGlobals, ::UnityEngine::Rendering::BatchRendererGroupGlobals)>(
     &::UnityEngine::Rendering::BatchRendererGroupGlobals::op_Inequality)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67ae22c;
+  constexpr static std::size_t addrs = 0x67b5ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

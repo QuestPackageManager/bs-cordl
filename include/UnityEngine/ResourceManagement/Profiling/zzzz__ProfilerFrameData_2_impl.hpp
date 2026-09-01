@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/Profiling/ProfilerFrameData_2.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\Profiling\ProfilerFrameData_2.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

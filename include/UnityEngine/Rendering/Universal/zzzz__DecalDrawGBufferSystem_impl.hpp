@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalDrawGBufferSystem.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalDrawGBufferSystem.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawSystem_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalDrawGBufferSystem_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__DecalCachedChunk_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem::*)(::UnityEngine::Rendering::Universal::DecalEntityManager*)>(
     &::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6858fa8;
+  constexpr static std::size_t addrs = 0x6860a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem::*)(::UnityEngine::Rendering::Universal::DecalCachedChunk*)>(
     &::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem::GetPassIndex)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x685902c;
+  constexpr static std::size_t addrs = 0x6860aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem*>(),

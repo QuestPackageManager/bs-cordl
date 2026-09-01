@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ArgumentException.hpp"
+// IWYU pragma private; include "System\ArgumentException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   /// @brief Field _paramName, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__paramName, put = __cordl_internal_set__paramName)) ::StringW _paramName;
 
-  /// @brief Method GetObjectData, addr 0x5baa3c4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5bae880, size 0xc0, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ArgumentException* New_ctor();
@@ -55,25 +55,25 @@ public:
 
   constexpr void __cordl_internal_set__paramName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5baa274, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bae730, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5baa330, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bae7ec, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5ba8fd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bad494, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5baa2d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bae790, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5ba28cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ba6d88, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW paramName);
 
-  /// @brief Method .ctor, addr 0x5baa2f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bae7b4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW paramName, ::System::Exception* innerException);
 
-  /// @brief Method get_Message, addr 0x5baa484, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5bae940, size 0x9c, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

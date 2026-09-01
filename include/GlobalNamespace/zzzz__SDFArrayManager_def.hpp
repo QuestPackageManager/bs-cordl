@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SDFArrayManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\SDFArrayManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,15 +35,15 @@ public:
   /// @brief Field _sdfPointsArray, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__sdfPointsArray, put = setStaticF__sdfPointsArray)) int32_t _sdfPointsArray;
 
-  /// @brief Method Awake, addr 0x58737a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58730e0, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x58737a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x58730e4, size 0x70, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::SDFArrayManager* New_ctor();
 
-  /// @brief Method Update, addr 0x5873814, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5873154, size 0x10c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__sdfPointArray(::ArrayW<::UnityW<::GlobalNamespace::SDFPoint>> value);
 
-  /// @brief Method .ctor, addr 0x5873920, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5873260, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__sdfPointsArray();
@@ -86,7 +86,7 @@ public:
   SDFArrayManager(SDFArrayManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19585 };
 
   /// @brief Field _sdfPointArray, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::SDFPoint>> ____sdfPointArray;

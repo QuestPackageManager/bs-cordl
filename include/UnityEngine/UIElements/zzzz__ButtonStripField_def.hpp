@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ButtonStripField.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ButtonStripField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ButtonStripField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d318bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d39440, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ButtonStripField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d31924, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d394a8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,10 +122,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ButtonStripField* New_ctor();
 
-  /// @brief Method RefreshButtonsState, addr 0x6d317d4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method RefreshButtonsState, addr 0x6d39358, size 0xe8, virtual false, abstract: false, final false
   inline void RefreshButtonsState();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x6d3173c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x6d392c0, size 0x98, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(int32_t newValue);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* const& __cordl_internal_get_m_Buttons() const;
@@ -134,7 +134,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* value);
 
-  /// @brief Method .ctor, addr 0x6d3167c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d39200, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

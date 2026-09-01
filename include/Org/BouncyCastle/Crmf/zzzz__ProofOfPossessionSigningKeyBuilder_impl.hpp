@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crmf/ProofOfPossessionSigningKeyBuilder.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crmf\ProofOfPossessionSigningKeyBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__ProofOfPossessionSigningKeyBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertRequest_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::*)(::Org::BouncyCastle::Asn1::Crmf::CertRequest*)>(
     &::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36d65e0;
+  constexpr static std::size_t addrs = 0x36da3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::*)(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*)>(
     &::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36d5b48;
+  constexpr static std::size_t addrs = 0x36d9908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* (
     ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::SetSender)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36d5b50;
+  constexpr static std::size_t addrs = 0x36d9910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder*>(),
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf
     ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::*)(::Org::BouncyCastle::Crmf::PKMacBuilder*, ::ArrayW<char16_t>)>(
     &::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::SetPublicKeyMac)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x36d5b58;
+  constexpr static std::size_t addrs = 0x36d9918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* (
     ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*)>(&::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::Build)> {
   constexpr static std::size_t size = 0x5cc;
-  constexpr static std::size_t addrs = 0x36d6014;
+  constexpr static std::size_t addrs = 0x36d9dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder*>(),

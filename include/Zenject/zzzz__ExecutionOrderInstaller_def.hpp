@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ExecutionOrderInstaller.hpp"
+// IWYU pragma private; include "Zenject\ExecutionOrderInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
   /// @brief Field _typeOrder, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__typeOrder, put = __cordl_internal_set__typeOrder)) ::System::Collections::Generic::List_1<::System::Type*>* _typeOrder;
 
-  /// @brief Method InstallBindings, addr 0x6e94cbc, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x6e9c840, size 0x12c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ExecutionOrderInstaller* New_ctor(::System::Collections::Generic::List_1<::System::Type*>* typeOrder);
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__typeOrder(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  /// @brief Method __zenCreate, addr 0x6e94de8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e9c96c, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e94ed8, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9ca5c, size 0x248, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e94c6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e9c7f0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Type*>* typeOrder);
 
 protected:
@@ -70,7 +70,7 @@ public:
   ExecutionOrderInstaller(ExecutionOrderInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14705 };
 
   /// @brief Field _typeOrder, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Type*>* ____typeOrder;

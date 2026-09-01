@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/ManagedSpanWrapper.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\ManagedSpanWrapper.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::ManagedSpanWrapper._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::ManagedSpanWrapper::*)(void*, int32_t)>(&::UnityEngine::Bindings::ManagedSpanWrapper::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6aec7cc;
+  constexpr static std::size_t addrs = 0x6af41e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

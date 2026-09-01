@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HeadInObstacleHapticEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\HeadInObstacleHapticEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HeadInObstacleHapticEffect_def.hpp"
 #include "BeatSaber/Haptics/zzzz__HapticFeedbackManager_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(&::GlobalNamespace::HeadInObstacleHapticEffect::Start)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x5981010;
+  constexpr static std::size_t addrs = 0x59849a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadInObstacleHapticEffect*>(), { "Start", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(&::GlobalNamespace::HeadInObstacleHapticEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5981224;
+  constexpr static std::size_t addrs = 0x5984bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadInObstacleHapticEffect*>(), { "OnDestroy", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(&::GlobalNamespace::HeadInObstacleHapticEffect::Update)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x598148c;
+  constexpr static std::size_t addrs = 0x5984e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadInObstacleHapticEffect*>(), { "Update", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(&::GlobalNamespace::HeadInObstacleHapticEffect::HandleAnyGameplayLevelDidFinish)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5981544;
+  constexpr static std::size_t addrs = 0x5984ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(&::GlobalNamespace::HeadInObstacleHapticEffect::HandleDidResumeEvent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5981558;
+  constexpr static std::size_t addrs = 0x5984eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadInObstacleHapticEffect*>(), { "HandleDidResumeEvent", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(&::GlobalNamespace::HeadInObstacleHapticEffect::HandleDidPauseEvent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5981570;
+  constexpr static std::size_t addrs = 0x5984f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadInObstacleHapticEffect*>(), { "HandleDidPauseEvent", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(&::GlobalNamespace::HeadInObstacleHapticEffect::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5981584;
+  constexpr static std::size_t addrs = 0x5984f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadInObstacleHapticEffect*>(), { ".ctor", {}, {} })));

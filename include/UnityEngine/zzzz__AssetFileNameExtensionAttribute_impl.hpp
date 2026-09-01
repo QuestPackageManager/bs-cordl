@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AssetFileNameExtensionAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\AssetFileNameExtensionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__AssetFileNameExtensionAttribute_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AssetFileNameExtensionAttribute::*)(::StringW, ::ArrayW<::StringW>)>(
     &::UnityEngine::AssetFileNameExtensionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bae2c8;
+  constexpr static std::size_t addrs = 0x6bb5e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

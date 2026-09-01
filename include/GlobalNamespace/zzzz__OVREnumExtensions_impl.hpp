@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVREnumExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVREnumExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVREnumExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHandSkeletonVersion_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRSkeleton_SkeletonType)>(&::GlobalNamespace::OVREnumExtensions::IsHand)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ef68b4;
+  constexpr static std::size_t addrs = 0x5efad70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRSkeleton_SkeletonType)>(&::GlobalNamespace::OVREnumExtensions::IsOpenXRHandSkeleton)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ef68c4;
+  constexpr static std::size_t addrs = 0x5efad80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRSkeleton_SkeletonType)>(&::GlobalNamespace::OVREnumExtensions::IsOVRHandSkeleton)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ef68d4;
+  constexpr static std::size_t addrs = 0x5efad90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRSkeleton_SkeletonType)>(&::GlobalNamespace::OVREnumExtensions::IsLeft)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ef68e0;
+  constexpr static std::size_t addrs = 0x5efad9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRHand_Hand (*)(::GlobalNamespace::OVRSkeleton_SkeletonType)>(&::GlobalNamespace::OVREnumExtensions::AsHandType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ef68ec;
+  constexpr static std::size_t addrs = 0x5efada8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRSkeleton_SkeletonType (*)(::GlobalNamespace::OVRHand_Hand)>(&::GlobalNamespace::OVREnumExtensions::AsSkeletonType)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ef690c;
+  constexpr static std::size_t addrs = 0x5efadc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRSkeleton_SkeletonType (*)(::GlobalNamespace::OVRHand_Hand, ::GlobalNamespace::OVRHandSkeletonVersion)>(
     &::GlobalNamespace::OVREnumExtensions::AsSkeletonType)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5ef6920;
+  constexpr static std::size_t addrs = 0x5efaddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRMesh_MeshType (*)(::GlobalNamespace::OVRHand_Hand)>(&::GlobalNamespace::OVREnumExtensions::AsMeshType)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ef694c;
+  constexpr static std::size_t addrs = 0x5efae08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRMesh_MeshType)>(&::GlobalNamespace::OVREnumExtensions::IsOpenXRHandMesh)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ef6960;
+  constexpr static std::size_t addrs = 0x5efae1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRMesh_MeshType)>(&::GlobalNamespace::OVREnumExtensions::IsOVRHandMesh)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ef6970;
+  constexpr static std::size_t addrs = 0x5efae2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRMesh_MeshType (*)(::GlobalNamespace::OVRHand_Hand, ::GlobalNamespace::OVRHandSkeletonVersion)>(
     &::GlobalNamespace::OVREnumExtensions::AsMeshType)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5ef697c;
+  constexpr static std::size_t addrs = 0x5efae38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRMesh_MeshType)>(&::GlobalNamespace::OVREnumExtensions::IsLeft)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ef69a8;
+  constexpr static std::size_t addrs = 0x5efae64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRMesh_MeshType)>(&::GlobalNamespace::OVREnumExtensions::IsHand)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ef69b4;
+  constexpr static std::size_t addrs = 0x5efae70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRHand_Hand (*)(::GlobalNamespace::OVRMesh_MeshType)>(&::GlobalNamespace::OVREnumExtensions::AsHandType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ef69c4;
+  constexpr static std::size_t addrs = 0x5efae80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/CancellationCallbackInfo_WithSyncContext.hpp"
+// IWYU pragma private; include "System\Threading\CancellationCallbackInfo_WithSyncContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetSyncContext(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method .ctor, addr 0x5ca7f58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cac414, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource, ::System::Threading::SynchronizationContext* targetSyncContext);
 

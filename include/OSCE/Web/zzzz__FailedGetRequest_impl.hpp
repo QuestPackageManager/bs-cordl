@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Web/FailedGetRequest.hpp"
+// IWYU pragma private; include "OSCE\Web\FailedGetRequest.hpp"
 #include "OSCE/Web/zzzz__FailedGetRequest_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 // Ctor Parameters [CppParam { name: "Path", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Query", ty:

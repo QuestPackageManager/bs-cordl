@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlatformLoader.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlatformLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -128,10 +128,10 @@ public:
 
   static inline ::GlobalNamespace::PlatformLoader___c* New_ctor();
 
-  /// @brief Method <GetPlatformInitParams>b__12_0, addr 0x3772704, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetPlatformInitParams>b__12_0, addr 0x3778370, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _GetPlatformInitParams_b__12_0(::GlobalNamespace::AchievementSO* x);
 
-  /// @brief Method .ctor, addr 0x3772700, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x377836c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PlatformLoader___c* getStaticF___9();
@@ -157,7 +157,7 @@ public:
   PlatformLoader___c(PlatformLoader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21034 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -175,10 +175,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3772718, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3778384, size 0x374, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3772a8c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x37786f8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -199,7 +199,7 @@ public:
                                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21035 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -250,10 +250,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3772af8, size 0x318, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3778764, size 0x318, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3772e18, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3778a84, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -271,7 +271,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21036 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -312,10 +312,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3772e84, size 0x588, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3778af0, size 0x588, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x377340c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3779078, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -337,7 +337,7 @@ public:
                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::IPlatform*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21037 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -398,10 +398,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3773478, size 0x550, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x37790e4, size 0x550, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x37739c8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3779634, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -421,7 +421,7 @@ public:
                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21038 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -515,23 +515,23 @@ public:
 
   __declspec(property(get = get_synchronizationStep)) ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep synchronizationStep;
 
-  /// @brief Method FindOrCreateAnalyticsManager, addr 0x37724c0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FindOrCreateAnalyticsManager, addr 0x377812c, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityW<::OSCE::Analytics::AnalyticsManager> FindOrCreateAnalyticsManager();
 
-  /// @brief Method GetPlatformInitParams, addr 0x3772178, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformInitParams, addr 0x3777de4, size 0x298, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::PlatformInitParams* GetPlatformInitParams();
 
-  /// @brief Method InitializeAnalyticsEventsDispatcherAsync, addr 0x37725e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitializeAnalyticsEventsDispatcherAsync, addr 0x3778250, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* InitializeAnalyticsEventsDispatcherAsync(::Analytics::Model::TelemetryModel* telemetry, ::OculusStudios::Platform::Core::IPlatform* platform,
                                                                                            ::OSCE::Analytics::AnalyticsManager* analyticsManager);
 
-  /// @brief Method InitializeMockedPlatformAsync, addr 0x3772410, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitializeMockedPlatformAsync, addr 0x377807c, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeMockedPlatformAsync();
 
-  /// @brief Method InitializePlatformAsync, addr 0x37720a8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method InitializePlatformAsync, addr 0x3777d14, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializePlatformAsync(bool useMock, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadInternalAsync, addr 0x3771fe0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method LoadInternalAsync, addr 0x3777c4c, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadInternalAsync(::BGLib::AppFlow::Initialization::IInstallerRegistry* registry, ::Zenject::DiContainer* container,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
@@ -585,10 +585,10 @@ public:
 
   constexpr void __cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value);
 
-  /// @brief Method .ctor, addr 0x37726a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3778314, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_synchronizationStep, addr 0x3771fd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_synchronizationStep, addr 0x3777c44, size 0x8, virtual true, abstract: false, final false
   inline ::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep get_synchronizationStep();
 
 protected:
@@ -606,7 +606,7 @@ public:
   PlatformLoader(PlatformLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21039 };
 
   /// @brief Field _appIdentification, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AppIdentificationSO> ____appIdentification;

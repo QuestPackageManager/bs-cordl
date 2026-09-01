@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/UserAccountAgeCategory.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\UserAccountAgeCategory.hpp"
 #include "Oculus/Platform/zzzz__AccountAgeCategory_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__UserAccountAgeCategory_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::UserAccountAgeCategory::*)(::System::IntPtr)>(&::Oculus::Platform::Models::UserAccountAgeCategory::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5dee420;
+  constexpr static std::size_t addrs = 0x5df28dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

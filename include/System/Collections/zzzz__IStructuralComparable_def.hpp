@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/IStructuralComparable.hpp"
+// IWYU pragma private; include "System\Collections\IStructuralComparable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT

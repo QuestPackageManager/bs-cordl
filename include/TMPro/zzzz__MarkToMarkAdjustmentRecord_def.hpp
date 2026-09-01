@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/MarkToMarkAdjustmentRecord.hpp"
+// IWYU pragma private; include "TMPro\MarkToMarkAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,28 +36,28 @@ public:
 
   __declspec(property(get = get_combiningMarkPositionAdjustment, put = set_combiningMarkPositionAdjustment)) ::TMPro::MarkPositionAdjustment combiningMarkPositionAdjustment;
 
-  /// @brief Method get_baseMarkGlyphAnchorPoint, addr 0x692fea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseMarkGlyphAnchorPoint, addr 0x6937920, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::GlyphAnchorPoint get_baseMarkGlyphAnchorPoint();
 
-  /// @brief Method get_baseMarkGlyphID, addr 0x692fe94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseMarkGlyphID, addr 0x6937910, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_baseMarkGlyphID();
 
-  /// @brief Method get_combiningMarkGlyphID, addr 0x692feb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_combiningMarkGlyphID, addr 0x6937930, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_combiningMarkGlyphID();
 
-  /// @brief Method get_combiningMarkPositionAdjustment, addr 0x692fec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_combiningMarkPositionAdjustment, addr 0x6937940, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::MarkPositionAdjustment get_combiningMarkPositionAdjustment();
 
-  /// @brief Method set_baseMarkGlyphAnchorPoint, addr 0x692feac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseMarkGlyphAnchorPoint, addr 0x6937928, size 0x8, virtual false, abstract: false, final false
   inline void set_baseMarkGlyphAnchorPoint(::TMPro::GlyphAnchorPoint value);
 
-  /// @brief Method set_baseMarkGlyphID, addr 0x692fe9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseMarkGlyphID, addr 0x6937918, size 0x8, virtual false, abstract: false, final false
   inline void set_baseMarkGlyphID(uint32_t value);
 
-  /// @brief Method set_combiningMarkGlyphID, addr 0x692febc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_combiningMarkGlyphID, addr 0x6937938, size 0x8, virtual false, abstract: false, final false
   inline void set_combiningMarkGlyphID(uint32_t value);
 
-  /// @brief Method set_combiningMarkPositionAdjustment, addr 0x692fecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_combiningMarkPositionAdjustment, addr 0x6937948, size 0x8, virtual false, abstract: false, final false
   inline void set_combiningMarkPositionAdjustment(::TMPro::MarkPositionAdjustment value);
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
                                        ::TMPro::MarkPositionAdjustment m_CombiningMarkPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15852 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

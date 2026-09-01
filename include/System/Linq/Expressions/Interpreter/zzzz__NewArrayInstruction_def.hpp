@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NewArrayInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NewArrayInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NewArrayInstruction* New_ctor(::System::Type* elementType);
 
-  /// @brief Method Run, addr 0x5f858e4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5f8d360, size 0xa0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__elementType() const;
@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__elementType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5f85888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8d304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType);
 
-  /// @brief Method get_ConsumedStack, addr 0x5f85890, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5f8d30c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5f858a0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5f8d31c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5f85898, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5f8d314, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -74,7 +74,7 @@ public:
   NewArrayInstruction(NewArrayInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16263 };
 
   /// @brief Field _elementType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____elementType;

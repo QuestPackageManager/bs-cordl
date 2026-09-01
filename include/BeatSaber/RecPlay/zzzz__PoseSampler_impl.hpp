@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/RecPlay/PoseSampler.hpp"
+// IWYU pragma private; include "BeatSaber\RecPlay\PoseSampler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseSampler_def.hpp"
 #include "BeatSaber/RecPlay/zzzz__FrameSample_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame>, float_t, ::by_ref<int32_t>)>(
     &::BeatSaber::RecPlay::PoseSampler::SamplePose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x32c16e8;
+  constexpr static std::size_t addrs = 0x32c54e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::RecPlay::FrameSample (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame>, float_t, int32_t)>(
     &::BeatSaber::RecPlay::PoseSampler::FindPoseSample)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x32c1960;
+  constexpr static std::size_t addrs = 0x32c575c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame>, ::by_ref<::BeatSaber::RecPlay::FrameSample>)>(
     &::BeatSaber::RecPlay::PoseSampler::InterpolatePoseSample)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x32c1aa8;
+  constexpr static std::size_t addrs = 0x32c58a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/RecPlay/PlayerPoseIO.hpp"
+// IWYU pragma private; include "BeatSaber\RecPlay\PlayerPoseIO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,19 +33,19 @@ namespace BeatSaber::RecPlay {
 class CORDL_TYPE PlayerPoseIO : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clamp, addr 0x32c1474, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x32c5270, size 0x164, virtual false, abstract: false, final false
   static inline bool Clamp(::by_ref<::System::ReadOnlySpan_1<char16_t>> s, char16_t start, char16_t end);
 
-  /// @brief Method DeserializeFromText, addr 0x32c0ae8, size 0x7ec, virtual false, abstract: false, final false
+  /// @brief Method DeserializeFromText, addr 0x32c48e4, size 0x7ec, virtual false, abstract: false, final false
   static inline bool DeserializeFromText(::StringW text, ::by_ref<::BeatSaber::RecPlay::PlayerPoseFrames> playerPoseFrames, ::by_ref<::StringW> log);
 
-  /// @brief Method NextToken, addr 0x32c12d4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x32c50d0, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> NextToken(::by_ref<::System::ReadOnlySpan_1<char16_t>> s);
 
-  /// @brief Method SerializeAsText, addr 0x32c02f8, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method SerializeAsText, addr 0x32c40f4, size 0x3d8, virtual false, abstract: false, final false
   static inline ::StringW SerializeAsText(::BeatSaber::RecPlay::PlayerPoseFrames frames);
 
-  /// @brief Method <SerializeAsText>g__WriteFrames|0_0, addr 0x32c06d0, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method <SerializeAsText>g__WriteFrames|0_0, addr 0x32c44cc, size 0x418, virtual false, abstract: false, final false
   static inline void _SerializeAsText_g__WriteFrames_0_0(::System::Text::StringBuilder* sb, ::StringW name, ::ArrayW<::BeatSaber::RecPlay::PoseFrame> frames);
 
 protected:
@@ -63,7 +63,7 @@ public:
   PlayerPoseIO(PlayerPoseIO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

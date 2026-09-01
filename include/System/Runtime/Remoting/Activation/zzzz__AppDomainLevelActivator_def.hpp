@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Activation/AppDomainLevelActivator.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Activation\AppDomainLevelActivator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x5b38d64, size 0x4c8, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x5b3d220, size 0x4c8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
   static inline ::System::Runtime::Remoting::Activation::AppDomainLevelActivator* New_ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next);
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set__next(::System::Runtime::Remoting::Activation::IActivator* value);
 
-  /// @brief Method .ctor, addr 0x5b38a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b3cee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method get_NextActivator, addr 0x5b38d5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x5b3d218, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"

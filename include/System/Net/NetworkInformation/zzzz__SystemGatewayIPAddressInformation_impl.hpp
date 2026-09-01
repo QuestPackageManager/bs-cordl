@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/SystemGatewayIPAddressInformation.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\SystemGatewayIPAddressInformation.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__SystemGatewayIPAddressInformation_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::SystemGatewayIPAddressInformation::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::SystemGatewayIPAddressInformation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x634ab38;
+  constexpr static std::size_t addrs = 0x63525b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (*)(::System::Net::NetworkInformation::IPAddressCollection*)>(
     &::System::Net::NetworkInformation::SystemGatewayIPAddressInformation::ToGatewayIpAddressInformationCollection)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x634ab40;
+  constexpr static std::size_t addrs = 0x63525bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/FloatFxEventBaseData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\FloatFxEventBaseData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_v(float_t value);
 
-  /// @brief Method .ctor, addr 0x3759570, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375f1dc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::BeatmapSaveDataCommon::EaseType easeType);
 
-  /// @brief Method get_beat, addr 0x3759548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x375f1b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x3759568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x375f1d4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_usePreviousEventValue, addr 0x3759550, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventValue, addr 0x375f1bc, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventValue();
 
-  /// @brief Method get_value, addr 0x3759560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x375f1cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
 protected:
@@ -101,7 +101,7 @@ public:
   FloatFxEventBaseData(FloatFxEventBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15360 };
 
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;

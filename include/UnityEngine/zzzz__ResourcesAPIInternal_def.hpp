@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourcesAPIInternal.hpp"
+// IWYU pragma private; include "UnityEngine\ResourcesAPIInternal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,25 +36,25 @@ namespace UnityEngine {
 class CORDL_TYPE ResourcesAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindObjectsOfTypeAll, addr 0x6ad11fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x6ad8c14, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeAll(::System::Type* type);
 
-  /// @brief Method FindShaderByName, addr 0x6ad1238, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method FindShaderByName, addr 0x6ad8c50, size 0x274, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-  /// @brief Method FindShaderByName_Injected, addr 0x6ad14ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindShaderByName_Injected, addr 0x6ad8ec4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr FindShaderByName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
-  /// @brief Method Load, addr 0x6ad14e8, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6ad8f00, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll, addr 0x6ad17b8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x6ad91d0, size 0x188, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll_Injected, addr 0x6ad1940, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadAll_Injected, addr 0x6ad9358, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method Load_Injected, addr 0x6ad1774, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Load_Injected, addr 0x6ad918c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Load_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path, ::System::Type* systemTypeInstance);
 
 protected:
@@ -72,7 +72,7 @@ public:
   ResourcesAPIInternal(ResourcesAPIInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

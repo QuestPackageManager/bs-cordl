@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BatchFilterSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BatchFilterSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,22 +38,22 @@ public:
 
   __declspec(property(put = set_staticShadowCaster)) bool staticShadowCaster;
 
-  /// @brief Method set_allDepthSorted, addr 0x6b22d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_allDepthSorted, addr 0x6b2a910, size 0x8, virtual false, abstract: false, final false
   inline void set_allDepthSorted(bool value);
 
-  /// @brief Method set_batchLayer, addr 0x6b22d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_batchLayer, addr 0x6b2a8e8, size 0x8, virtual false, abstract: false, final false
   inline void set_batchLayer(uint8_t value);
 
-  /// @brief Method set_motionMode, addr 0x6b22d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_motionMode, addr 0x6b2a8f0, size 0x8, virtual false, abstract: false, final false
   inline void set_motionMode(::UnityEngine::MotionVectorGenerationMode value);
 
-  /// @brief Method set_receiveShadows, addr 0x6b22d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_receiveShadows, addr 0x6b2a900, size 0x8, virtual false, abstract: false, final false
   inline void set_receiveShadows(bool value);
 
-  /// @brief Method set_shadowCastingMode, addr 0x6b22d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shadowCastingMode, addr 0x6b2a8f8, size 0x8, virtual false, abstract: false, final false
   inline void set_shadowCastingMode(::UnityEngine::Rendering::ShadowCastingMode value);
 
-  /// @brief Method set_staticShadowCaster, addr 0x6b22d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_staticShadowCaster, addr 0x6b2a908, size 0x8, virtual false, abstract: false, final false
   inline void set_staticShadowCaster(bool value);
 
   // Ctor Parameters []
@@ -70,7 +70,7 @@ public:
                                 uint8_t m_receiveShadows, uint8_t m_staticShadowCaster, uint8_t m_allDepthSorted, uint8_t m_isSceneCullingMaskSet) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10861 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

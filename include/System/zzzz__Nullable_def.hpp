@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Nullable.hpp"
+// IWYU pragma private; include "System\Nullable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace System {
 class CORDL_TYPE Nullable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetUnderlyingType, addr 0x5c46f04, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingType, addr 0x5c4b3c0, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Type* GetUnderlyingType(::System::Type* nullableType);
 
 protected:

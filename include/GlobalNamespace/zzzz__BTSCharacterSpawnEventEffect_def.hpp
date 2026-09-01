@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BTSCharacterSpawnEventEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\BTSCharacterSpawnEventEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,26 +122,26 @@ public:
   __declspec(property(get = __cordl_internal_get_startCharacterAnimationEvent,
                       put = __cordl_internal_set_startCharacterAnimationEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* startCharacterAnimationEvent;
 
-  /// @brief Method CleanupAddressables, addr 0x328311c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method CleanupAddressables, addr 0x3286eac, size 0x15c, virtual false, abstract: false, final false
   inline void CleanupAddressables();
 
-  /// @brief Method GetCharacterWithAnimationClip, addr 0x3282f90, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterWithAnimationClip, addr 0x3286d20, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Tuple_2<::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>*
   GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* charDictionary,
                                 ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* animDictionary, int32_t prefabId, int32_t animationId);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x32832a0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3287030, size 0x17c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LoadAddressables, addr 0x328273c, size 0x844, virtual false, abstract: false, final false
+  /// @brief Method LoadAddressables, addr 0x32864cc, size 0x844, virtual false, abstract: false, final false
   inline void LoadAddressables();
 
   static inline ::GlobalNamespace::BTSCharacterSpawnEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3283278, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3287008, size 0x28, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3282198, size 0x5a4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3285f28, size 0x5a4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__animationStartAheadTime() const;
@@ -228,16 +228,16 @@ public:
 
   constexpr void __cordl_internal_set_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  /// @brief Method .ctor, addr 0x3283424, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32871b4, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_startCharacterAnimationEvent, addr 0x32819d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_startCharacterAnimationEvent, addr 0x3285768, size 0xc0, virtual false, abstract: false, final false
   inline void add_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  /// @brief Method get_isInitialized, addr 0x3282190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x3285f20, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method remove_startCharacterAnimationEvent, addr 0x3281f44, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_startCharacterAnimationEvent, addr 0x3285cd4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
 protected:
@@ -255,7 +255,7 @@ public:
   BTSCharacterSpawnEventEffect(BTSCharacterSpawnEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22014 };
 
   /// @brief Field kCharacterDisplayEventType value: I32(40)
   static ::GlobalNamespace::BasicBeatmapEventType const kCharacterDisplayEventType;

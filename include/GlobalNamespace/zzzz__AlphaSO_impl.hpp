@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AlphaSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\AlphaSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AlphaSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AlphaSO.op_Implicit_float_t
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::GlobalNamespace::AlphaSO*)>(&::GlobalNamespace::AlphaSO::op_Implicit_float_t)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36f2eac;
+  constexpr static std::size_t addrs = 0x36f6c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaSO::*)()>(&::GlobalNamespace::AlphaSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f2ec0;
+  constexpr static std::size_t addrs = 0x36f6c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlphaSO*>(), { ".ctor", {}, {} })));

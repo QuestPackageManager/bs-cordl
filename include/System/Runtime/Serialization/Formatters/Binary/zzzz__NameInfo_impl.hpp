@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/NameInfo.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\NameInfo.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalArrayTypeE_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalPrimitiveTypeE_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b62ec4;
+  constexpr static std::size_t addrs = 0x5b67380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::Init)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b62ea4;
+  constexpr static std::size_t addrs = 0x5b67360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::NameInfo*>(), { "Init", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::get_IsSealed)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5b62c3c;
+  constexpr static std::size_t addrs = 0x5b670f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::get_NIname)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b66eb8;
+  constexpr static std::size_t addrs = 0x5b6b374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)(::StringW)>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::set_NIname)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b66ef0;
+  constexpr static std::size_t addrs = 0x5b6b3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

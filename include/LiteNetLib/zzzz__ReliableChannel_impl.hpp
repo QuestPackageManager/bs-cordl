@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/ReliableChannel.hpp"
+// IWYU pragma private; include "LiteNetLib\ReliableChannel.hpp"
 #include "LiteNetLib/zzzz__BaseChannel_impl.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_impl.hpp"
 #include "LiteNetLib/zzzz__NetPacket_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::LiteNetLib::ReliableChannel_PendingPacket::*)()>(&::LiteNetLib::ReliableChannel_PendingPacket::ToString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58a9430;
+  constexpr static std::size_t addrs = 0x58a8df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ReliableChannel_PendingPacket::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel_PendingPacket::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58a8f0c;
+  constexpr static std::size_t addrs = 0x58a88d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ReliableChannel_PendingPacket::*)(int64_t, ::LiteNetLib::NetPeer*)>(&::LiteNetLib::ReliableChannel_PendingPacket::TrySend)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58a8f18;
+  constexpr static std::size_t addrs = 0x58a88e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::LiteNetLib::ReliableChannel_PendingPacket::*)(::LiteNetLib::NetPeer*)>(&::LiteNetLib::ReliableChannel_PendingPacket::Clear)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x58a8a88;
+  constexpr static std::size_t addrs = 0x58a8450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPeer*, bool, uint8_t)>(&::LiteNetLib::ReliableChannel::_ctor)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x58a5120;
+  constexpr static std::size_t addrs = 0x58a4ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel::ProcessAck)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x58a8764;
+  constexpr static std::size_t addrs = 0x58a812c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ReliableChannel::*)()>(&::LiteNetLib::ReliableChannel::SendNextPackets)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x58a8ac8;
+  constexpr static std::size_t addrs = 0x58a8490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::ReliableChannel*>(), { ::i2c::class_of<::LiteNetLib::ReliableChannel*>(), 4 }));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel::ProcessPacket)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x58a8f90;
+  constexpr static std::size_t addrs = 0x58a8958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::ReliableChannel*>(), { ::i2c::class_of<::LiteNetLib::ReliableChannel*>(), 5 }));

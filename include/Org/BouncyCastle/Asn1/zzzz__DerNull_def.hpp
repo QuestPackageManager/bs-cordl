@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerNull.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerNull.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
   /// @brief Field zeroBytes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_zeroBytes, put = __cordl_internal_set_zeroBytes)) ::ArrayW<uint8_t> zeroBytes;
 
-  /// @brief Method Asn1Equals, addr 0x368587c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x368963c, size 0x7c, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x36858f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x36896b8, size 0x8, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x3685860, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3689620, size 0x1c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::DerNull* New_ctor();
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_zeroBytes(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x36857b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3689578, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x368580c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36895cc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t dummy);
 
   static inline ::Org::BouncyCastle::Asn1::DerNull* getStaticF_Instance();

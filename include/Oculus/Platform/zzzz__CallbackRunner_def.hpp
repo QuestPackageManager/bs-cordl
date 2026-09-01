@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/CallbackRunner.hpp"
+// IWYU pragma private; include "Oculus\Platform\CallbackRunner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,18 +22,18 @@ public:
   /// @brief Field IsPersistantBetweenSceneLoads, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_IsPersistantBetweenSceneLoads, put = __cordl_internal_set_IsPersistantBetweenSceneLoads)) bool IsPersistantBetweenSceneLoads;
 
-  /// @brief Method Awake, addr 0x5db1734, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5db5bf0, size 0x110, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Oculus::Platform::CallbackRunner* New_ctor();
 
-  /// @brief Method OnApplicationQuit, addr 0x5db18c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x5db5d7c, size 0x50, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method OnDestroy, addr 0x5db18bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5db5d78, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x5db1844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5db5d00, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_IsPersistantBetweenSceneLoads() const;
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_IsPersistantBetweenSceneLoads(bool value);
 
-  /// @brief Method .ctor, addr 0x5db1910, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db5dcc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ovr_UnityResetTestPlatform, addr 0x5db16d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovr_UnityResetTestPlatform, addr 0x5db5b8c, size 0x64, virtual false, abstract: false, final false
   static inline void ovr_UnityResetTestPlatform();
 
 protected:
@@ -63,7 +63,7 @@ public:
   CallbackRunner(CallbackRunner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17828 };
 
   /// @brief Field IsPersistantBetweenSceneLoads, offset: 0x20, size: 0x1, def value: None
   bool ___IsPersistantBetweenSceneLoads;

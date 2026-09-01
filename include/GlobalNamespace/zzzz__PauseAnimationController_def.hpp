@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PauseAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace\PauseAnimationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,21 +32,21 @@ public:
   __declspec(property(get = __cordl_internal_get_resumeFromPauseAnimationDidFinishEvent,
                       put = __cordl_internal_set_resumeFromPauseAnimationDidFinishEvent)) ::System::Action* resumeFromPauseAnimationDidFinishEvent;
 
-  /// @brief Method Awake, addr 0x327b0e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x327ee70, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method EnterPauseAnimationDidFinish, addr 0x327b200, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnterPauseAnimationDidFinish, addr 0x327ef90, size 0x30, virtual false, abstract: false, final false
   inline void EnterPauseAnimationDidFinish();
 
   static inline ::GlobalNamespace::PauseAnimationController* New_ctor();
 
-  /// @brief Method ResumeFromPauseAnimationDidFinish, addr 0x327b230, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResumeFromPauseAnimationDidFinish, addr 0x327efc0, size 0x50, virtual false, abstract: false, final false
   inline void ResumeFromPauseAnimationDidFinish();
 
-  /// @brief Method StartEnterPauseAnimation, addr 0x327b110, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartEnterPauseAnimation, addr 0x327eea0, size 0x78, virtual false, abstract: false, final false
   inline void StartEnterPauseAnimation();
 
-  /// @brief Method StartResumeFromPauseAnimation, addr 0x327b188, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartResumeFromPauseAnimation, addr 0x327ef18, size 0x78, virtual false, abstract: false, final false
   inline void StartResumeFromPauseAnimation();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x327b280, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327f010, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_resumeFromPauseAnimationDidFinishEvent, addr 0x327af88, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_resumeFromPauseAnimationDidFinishEvent, addr 0x327ed18, size 0xac, virtual false, abstract: false, final false
   inline void add_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_resumeFromPauseAnimationDidFinishEvent, addr 0x327b034, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_resumeFromPauseAnimationDidFinishEvent, addr 0x327edc4, size 0xac, virtual false, abstract: false, final false
   inline void remove_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   PauseAnimationController(PauseAnimationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23551 };
 
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;

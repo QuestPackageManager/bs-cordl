@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/NavigationEventRepeatHelper.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\NavigationEventRepeatHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__NavigationEvent_impl.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::NavigationEventRepeatHelper::*)()>(&::UnityEngine::InputForUI::NavigationEventRepeatHelper::Reset)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b58928;
+  constexpr static std::size_t addrs = 0x6b604ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::NavigationEventRepeatHelper*>(), { "Reset", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::NavigationEventRepeatHelper::*)(
     ::Unity::IntegerTime::DiscreteTime, ::UnityEngine::InputForUI::NavigationEvent_Direction, bool)>(&::UnityEngine::InputForUI::NavigationEventRepeatHelper::ShouldSendMoveEvent)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6b58990;
+  constexpr static std::size_t addrs = 0x6b60514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::NavigationEventRepeatHelper::*)()>(&::UnityEngine::InputForUI::NavigationEventRepeatHelper::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6b55f64;
+  constexpr static std::size_t addrs = 0x6b5dae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::NavigationEventRepeatHelper*>(), { ".ctor", {}, {} })));

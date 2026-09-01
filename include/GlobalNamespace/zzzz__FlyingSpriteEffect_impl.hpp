@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FlyingSpriteEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\FlyingSpriteEffect.hpp"
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingSpriteEffect_Pool::*)()>(&::GlobalNamespace::FlyingSpriteEffect_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5980364;
+  constexpr static std::size_t addrs = 0x5983cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingSpriteEffect_Pool*>(), { ".ctor", {}, {} })));
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                        ::UnityEngine::Material*, ::UnityEngine::Color, bool)>(
     &::GlobalNamespace::FlyingSpriteEffect::InitAndPresent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5980220;
+  constexpr static std::size_t addrs = 0x5983bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingSpriteEffect::*)(float_t)>(&::GlobalNamespace::FlyingSpriteEffect::ManualUpdate)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59802d4;
+  constexpr static std::size_t addrs = 0x5983c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingSpriteEffect::*)()>(&::GlobalNamespace::FlyingSpriteEffect::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5980330;
+  constexpr static std::size_t addrs = 0x5983cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingSpriteEffect*>(), { ".ctor", {}, {} })));

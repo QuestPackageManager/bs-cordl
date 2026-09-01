@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/RequireComponent.hpp"
+// IWYU pragma private; include "UnityEngine\RequireComponent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type2(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6ad3088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adaaa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent);
 
-  /// @brief Method .ctor, addr 0x6ad3090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6adaaa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
 protected:
@@ -74,7 +74,7 @@ public:
   RequireComponent(RequireComponent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10303 };
 
   /// @brief Field m_Type0, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___m_Type0;

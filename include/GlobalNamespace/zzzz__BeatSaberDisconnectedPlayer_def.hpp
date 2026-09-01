@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatSaberDisconnectedPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatSaberDisconnectedPlayer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method .ctor, addr 0x32a4388, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a8184, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
 
-  /// @brief Method get_activeHand, addr 0x32a43a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_activeHand, addr 0x32a81a4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerActiveHand get_activeHand();
 
-  /// @brief Method get_multiplayerAvatarsData, addr 0x32a4394, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerAvatarsData, addr 0x32a8190, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
 
   /// @brief Convert to "::GlobalNamespace::IBeatSaberConnectedPlayer"
@@ -97,7 +97,7 @@ public:
   BeatSaberDisconnectedPlayer(BeatSaberDisconnectedPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18842 };
 
   /// @brief Field <multiplayerAvatarsData>k__BackingField, offset: 0x28, size: 0x18, def value: None
   ::GlobalNamespace::MultiplayerAvatarsData ____multiplayerAvatarsData_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ClothRandomFluctuation.hpp"
+// IWYU pragma private; include "GlobalNamespace\ClothRandomFluctuation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  /// @brief Method .ctor, addr 0x58aff7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58af944, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,15 +126,15 @@ public:
   /// @brief Field _useLocalRandomFluctuations, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__useLocalRandomFluctuations, put = __cordl_internal_set__useLocalRandomFluctuations)) bool _useLocalRandomFluctuations;
 
-  /// @brief Method FluctuateCloth, addr 0x58afca4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method FluctuateCloth, addr 0x58af66c, size 0x1c4, virtual false, abstract: false, final false
   inline void FluctuateCloth(::UnityEngine::Cloth* cloth);
 
-  /// @brief Method GetNoise, addr 0x58afe68, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetNoise, addr 0x58af830, size 0x110, virtual false, abstract: false, final false
   inline float_t GetNoise(float_t time, float_t offset);
 
   static inline ::GlobalNamespace::ClothRandomFluctuation* New_ctor();
 
-  /// @brief Method Update, addr 0x58afc9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58af664, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
@@ -185,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set__useLocalRandomFluctuations(bool value);
 
-  /// @brief Method .ctor, addr 0x58aff78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58af940, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

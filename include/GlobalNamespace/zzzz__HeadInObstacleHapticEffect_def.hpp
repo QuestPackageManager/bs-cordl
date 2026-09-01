@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HeadInObstacleHapticEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\HeadInObstacleHapticEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,24 +75,24 @@ public:
   /// @brief Field _wasHeadInWallLastFrame, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__wasHeadInWallLastFrame, put = __cordl_internal_set__wasHeadInWallLastFrame)) bool _wasHeadInWallLastFrame;
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x5981544, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x5984ed8, size 0x14, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
-  /// @brief Method HandleDidPauseEvent, addr 0x5981570, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPauseEvent, addr 0x5984f04, size 0x14, virtual false, abstract: false, final false
   inline void HandleDidPauseEvent();
 
-  /// @brief Method HandleDidResumeEvent, addr 0x5981558, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleDidResumeEvent, addr 0x5984eec, size 0x18, virtual false, abstract: false, final false
   inline void HandleDidResumeEvent();
 
   static inline ::GlobalNamespace::HeadInObstacleHapticEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5981224, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5984bb8, size 0x268, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5981010, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59849a4, size 0x214, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x598148c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5984e20, size 0xb8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IGamePause* const& __cordl_internal_get__gamePause() const;
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set__wasHeadInWallLastFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x5981584, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5984f18, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

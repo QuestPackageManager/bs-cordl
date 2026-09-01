@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ObjectiveValueFormatterSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\ObjectiveValueFormatterSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ObjectiveValueFormatterSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Method FormatValue, addr 0x3750d44, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method FormatValue, addr 0x3756968, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW FormatValue(int32_t value);
 
   static inline ::GlobalNamespace::ObjectiveValueFormatterSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3750630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3756254, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   ObjectiveValueFormatterSO(ObjectiveValueFormatterSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15271 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

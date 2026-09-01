@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Animations/AnimationStream.hpp"
+// IWYU pragma private; include "UnityEngine\Animations\AnimationStream.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationStream_def.hpp"
 // Ctor Parameters [CppParam { name: "m_AnimatorBindingsVersion", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "constant", ty: "::System::IntPtr", modifiers: "", def_value:

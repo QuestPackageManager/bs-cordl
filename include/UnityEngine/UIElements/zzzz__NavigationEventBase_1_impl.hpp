@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/NavigationEventBase_1.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\NavigationEventBase_1.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationDeviceType_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"

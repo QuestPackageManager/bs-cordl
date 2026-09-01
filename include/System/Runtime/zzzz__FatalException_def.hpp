@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/FatalException.hpp"
+// IWYU pragma private; include "System\Runtime\FatalException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ public:
 
   static inline ::System::Runtime::FatalException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x617df0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6185988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x617df2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61859a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x617df1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6185998, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -59,7 +59,7 @@ public:
   FatalException(FatalException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21249 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21301 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

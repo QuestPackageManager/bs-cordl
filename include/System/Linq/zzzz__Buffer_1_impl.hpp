@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Buffer_1.hpp"
+// IWYU pragma private; include "System\Linq\Buffer_1.hpp"
 #include "System/Linq/zzzz__Buffer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 template <typename TElement> inline void System::Linq::Buffer_1<TElement>::_ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source) {

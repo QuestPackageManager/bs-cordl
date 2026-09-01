@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Haptics/HapticPresetSO.hpp"
+// IWYU pragma private; include "BeatSaber\Haptics\HapticPresetSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -144,13 +144,13 @@ public:
 
   constexpr void __cordl_internal_set__useAdvancedHapticsOnSupportedPlatforms(bool value);
 
-  /// @brief Method .ctor, addr 0x32958d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32996cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOculusHapticsClip, addr 0x3294594, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasOculusHapticsClip, addr 0x3298390, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasOculusHapticsClip();
 
-  /// @brief Method get_hasPS5HapticsClip, addr 0x32957ec, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasPS5HapticsClip, addr 0x32995e8, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasPS5HapticsClip();
 
 protected:
@@ -168,7 +168,7 @@ public:
   HapticPresetSO(HapticPresetSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23199 };
 
   /// @brief Field _duration, offset: 0x18, size: 0x4, def value: None
   float_t ____duration;

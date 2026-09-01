@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AchievementSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\AchievementSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AchievementSO.get_achievementId
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::AchievementSO::*)()>(&::GlobalNamespace::AchievementSO::get_achievementId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f70f0;
+  constexpr static std::size_t addrs = 0x36fb340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AchievementSO*>(), { "get_achievementId", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AchievementSO::*)()>(&::GlobalNamespace::AchievementSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f70f8;
+  constexpr static std::size_t addrs = 0x36fb348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AchievementSO*>(), { ".ctor", {}, {} })));

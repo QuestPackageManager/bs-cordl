@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/ThreadStart.hpp"
+// IWYU pragma private; include "System\Threading\ThreadStart.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__ThreadStart_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadStart::*)(::System::Object*, ::System::IntPtr)>(&::System::Threading::ThreadStart::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5ca4c94;
+  constexpr static std::size_t addrs = 0x5ca9150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadStart::*)()>(&::System::Threading::ThreadStart::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ca4cfc;
+  constexpr static std::size_t addrs = 0x5ca91b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

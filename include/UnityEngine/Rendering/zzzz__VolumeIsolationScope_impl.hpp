@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/VolumeIsolationScope.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\VolumeIsolationScope.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeIsolationScope_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::VolumeIsolationScope._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeIsolationScope::*)(bool)>(&::UnityEngine::Rendering::VolumeIsolationScope::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67c4c1c;
+  constexpr static std::size_t addrs = 0x67cc698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VolumeIsolationScope::*)()>(&::UnityEngine::Rendering::VolumeIsolationScope::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67c4c20;
+  constexpr static std::size_t addrs = 0x67cc69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapLevelsPromoModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapLevelsPromoModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,16 +48,16 @@ public:
   __declspec(property(get = __cordl_internal_get__updatedBeatmapLevelsSet,
                       put = __cordl_internal_set__updatedBeatmapLevelsSet)) ::System::Collections::Generic::HashSet_1<::StringW>* _updatedBeatmapLevelsSet;
 
-  /// @brief Method IsBeatmapLevelPackPromoted, addr 0x3748b30, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsBeatmapLevelPackPromoted, addr 0x374e78c, size 0x68, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelPackPromoted(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
-  /// @brief Method IsBeatmapLevelPackUpdated, addr 0x3748b98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsBeatmapLevelPackUpdated, addr 0x374e7f4, size 0x68, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelPackUpdated(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
-  /// @brief Method IsBeatmapLevelPromoted, addr 0x3748c00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsBeatmapLevelPromoted, addr 0x374e85c, size 0x68, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelPromoted(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method IsBeatmapLevelUpdated, addr 0x3748c68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsBeatmapLevelUpdated, addr 0x374e8c4, size 0x68, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelUpdated(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   static inline ::GlobalNamespace::BeatmapLevelsPromoModel* New_ctor(::GlobalNamespace::BeatmapLevelsPromoDataSO* promoDataSO);
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__updatedBeatmapLevelsSet(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3748978, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x374e5d4, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsPromoDataSO* promoDataSO);
 
 protected:
@@ -104,7 +104,7 @@ public:
   BeatmapLevelsPromoModel(BeatmapLevelsPromoModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15180 };
 
   /// @brief Field _promotedBeatmapLevelPacksSet, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::StringW>* ____promotedBeatmapLevelPacksSet;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/MethodCallExpression0.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\MethodCallExpression0.hpp"
 #include "System/Linq/Expressions/zzzz__MethodCallExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__MethodCallExpression0_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::MethodCallExpression0::*)(::System::Reflection::MethodInfo*)>(
     &::System::Linq::Expressions::MethodCallExpression0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f7f94c;
+  constexpr static std::size_t addrs = 0x5f873c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::MethodCallExpression0::*)(int32_t)>(
     &::System::Linq::Expressions::MethodCallExpression0::GetArgument)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5f7f950;
+  constexpr static std::size_t addrs = 0x5f873cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::MethodCallExpression0::*)()>(&::System::Linq::Expressions::MethodCallExpression0::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f7f99c;
+  constexpr static std::size_t addrs = 0x5f87418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
     ::System::Linq::Expressions::MethodCallExpression0::*)(::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(
     &::System::Linq::Expressions::MethodCallExpression0::Rewrite)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5f7f9a4;
+  constexpr static std::size_t addrs = 0x5f87420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

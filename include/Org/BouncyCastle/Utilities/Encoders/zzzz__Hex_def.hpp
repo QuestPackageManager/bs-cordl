@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Encoders/Hex.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Encoders\Hex.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,42 +31,42 @@ public:
   /// @brief Field encoder, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_encoder, put = setStaticF_encoder)) ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* encoder;
 
-  /// @brief Method Decode, addr 0x3629dfc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x362dbbc, size 0xd8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Decode(::ArrayW<uint8_t> data);
 
-  /// @brief Method Decode, addr 0x362a1ec, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x362dfac, size 0xd0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Decode(::StringW data);
 
-  /// @brief Method Decode, addr 0x362a5b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x362e370, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t Decode(::StringW data, ::System::IO::Stream* outStream);
 
-  /// @brief Method DecodeStrict, addr 0x362a62c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method DecodeStrict, addr 0x362e3ec, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> DecodeStrict(::StringW str);
 
-  /// @brief Method DecodeStrict, addr 0x362a8d4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DecodeStrict, addr 0x362e694, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> DecodeStrict(::StringW str, int32_t off, int32_t len);
 
-  /// @brief Method Encode, addr 0x3629b68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x362d928, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Encode(::ArrayW<uint8_t> data);
 
-  /// @brief Method Encode, addr 0x3629a98, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x362d858, size 0xd0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Encode(::ArrayW<uint8_t> data, int32_t off, int32_t length);
 
-  /// @brief Method Encode, addr 0x3629d68, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x362db28, size 0x94, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x3629ce0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x362daa0, size 0x88, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t> data, ::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::Hex* New_ctor();
 
-  /// @brief Method ToHexString, addr 0x36299b8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToHexString, addr 0x362d778, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW ToHexString(::ArrayW<uint8_t> data);
 
-  /// @brief Method ToHexString, addr 0x3629a20, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ToHexString, addr 0x362d7e0, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW ToHexString(::ArrayW<uint8_t> data, int32_t off, int32_t length);
 
-  /// @brief Method .ctor, addr 0x36299b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362d774, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* getStaticF_encoder();

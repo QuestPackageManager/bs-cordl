@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIElementsInitialization.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIElementsInitialization.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,10 +19,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UIElementsInitialization : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InitializeUIElementsManaged, addr 0x6cab990, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeUIElementsManaged, addr 0x6cb3514, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeUIElementsManaged();
 
-  /// @brief Method RegisterBuiltInPropertyBags, addr 0x6cab994, size 0x15f8, virtual false, abstract: false, final false
+  /// @brief Method RegisterBuiltInPropertyBags, addr 0x6cb3518, size 0x15f8, virtual false, abstract: false, final false
   static inline void RegisterBuiltInPropertyBags();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/QualifiedAce.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\QualifiedAce.hpp"
 #include "System/Security/AccessControl/zzzz__KnownAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__QualifiedAce_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(
     ::System::Security::AccessControl::AceType, ::System::Security::AccessControl::AceFlags, ::ArrayW<uint8_t>)>(&::System::Security::AccessControl::QualifiedAce::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5b1888c;
+  constexpr static std::size_t addrs = 0x5b1cd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(::ArrayW<uint8_t>, int32_t)>(
     &::System::Security::AccessControl::QualifiedAce::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b18aa8;
+  constexpr static std::size_t addrs = 0x5b1cf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::AceQualifier (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::get_AceQualifier)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5b19898;
+  constexpr static std::size_t addrs = 0x5b1dd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::QualifiedAce*>(), { "get_AceQualifier", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::AccessControl::QualifiedAce::*)()>(&::System::Security::AccessControl::QualifiedAce::get_IsCallback)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b1a0e4;
+  constexpr static std::size_t addrs = 0x5b1e5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::QualifiedAce*>(), { "get_IsCallback", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::AccessControl::QualifiedAce::*)()>(&::System::Security::AccessControl::QualifiedAce::get_OpaqueLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b18c30;
+  constexpr static std::size_t addrs = 0x5b1d0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::QualifiedAce*>(), { "get_OpaqueLength", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::AccessControl::QualifiedAce::*)()>(&::System::Security::AccessControl::QualifiedAce::GetOpaque)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5b18df4;
+  constexpr static std::size_t addrs = 0x5b1d2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::QualifiedAce*>(), { "GetOpaque", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(::ArrayW<uint8_t>)>(&::System::Security::AccessControl::QualifiedAce::SetOpaque)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5b18b5c;
+  constexpr static std::size_t addrs = 0x5b1d018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

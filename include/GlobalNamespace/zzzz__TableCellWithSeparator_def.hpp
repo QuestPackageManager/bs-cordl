@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TableCellWithSeparator.hpp"
+// IWYU pragma private; include "GlobalNamespace\TableCellWithSeparator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::TableCellWithSeparator* New_ctor();
 
-  /// @brief Method TableViewSetup, addr 0x58741b8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method TableViewSetup, addr 0x5873af8, size 0xdc, virtual true, abstract: false, final false
   inline void TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__separator() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__separator(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x5874294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5873bd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   TableCellWithSeparator(TableCellWithSeparator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19011 };
 
   /// @brief Field _separator, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____separator;

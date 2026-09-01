@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/IdRefNode.hpp"
+// IWYU pragma private; include "System\Xml\Schema\IdRefNode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__IdRefNode_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::IdRefNode._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::IdRefNode::*)(::System::Xml::Schema::IdRefNode*, ::StringW, int32_t, int32_t)>(
     &::System::Xml::Schema::IdRefNode::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6235404;
+  constexpr static std::size_t addrs = 0x623ce80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

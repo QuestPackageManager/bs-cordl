@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameplayModifierToggle.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameplayModifierToggle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
 
   static inline ::GlobalNamespace::GameplayModifierToggle* New_ctor();
 
-  /// @brief Method Start, addr 0x5a2c7a0, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a30c5c, size 0x3cc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> const& __cordl_internal_get__gameplayModifier() const;
@@ -107,13 +107,13 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x5a2cb6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a31028, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayModifier, addr 0x5a2c798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifier, addr 0x5a30c54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> get_gameplayModifier();
 
-  /// @brief Method get_toggle, addr 0x5a2c790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x5a30c4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
 protected:
@@ -131,7 +131,7 @@ public:
   GameplayModifierToggle(GameplayModifierToggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23640 };
 
   /// @brief Field _gameplayModifier, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____gameplayModifier;

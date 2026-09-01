@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GlobalShaderColorLightWithIds.hpp"
+// IWYU pragma private; include "GlobalNamespace\GlobalShaderColorLightWithIds.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__GlobalShaderColorLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__GlobalShaderColorLightWithIds_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId::get_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586dd04;
+  constexpr static std::size_t addrs = 0x586ce84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId::*)(float_t)>(
     &::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId::set_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586dd0c;
+  constexpr static std::size_t addrs = 0x586ce8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId::*)(int32_t, float_t)>(
     &::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x586dd14;
+  constexpr static std::size_t addrs = 0x586ce94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId*>(),
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GlobalShaderColorLightWithIds::*)()>(&::GlobalNamespace::GlobalShaderColorLightWithIds::ProcessNewColorData)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x586db54;
+  constexpr static std::size_t addrs = 0x586ccd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* (
     ::GlobalNamespace::GlobalShaderColorLightWithIds::*)()>(&::GlobalNamespace::GlobalShaderColorLightWithIds::GetLightWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586dc80;
+  constexpr static std::size_t addrs = 0x586ce00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GlobalShaderColorLightWithIds::*)()>(&::GlobalNamespace::GlobalShaderColorLightWithIds::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x586dc88;
+  constexpr static std::size_t addrs = 0x586ce08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GlobalShaderColorLightWithIds*>(), { ".ctor", {}, {} })));

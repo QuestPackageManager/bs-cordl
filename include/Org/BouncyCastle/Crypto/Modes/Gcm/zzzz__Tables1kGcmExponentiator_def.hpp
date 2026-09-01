@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/Gcm/Tables1kGcmExponentiator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Modes\Gcm\Tables1kGcmExponentiator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +33,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*() noexcept;
 
-  /// @brief Method EnsureAvailable, addr 0x33ee074, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method EnsureAvailable, addr 0x33f1e34, size 0x27c, virtual false, abstract: false, final false
   inline void EnsureAvailable(int32_t bit);
 
-  /// @brief Method ExponentiateX, addr 0x33edeb4, size 0x1c0, virtual true, abstract: false, final true
+  /// @brief Method ExponentiateX, addr 0x33f1c74, size 0x1c0, virtual true, abstract: false, final true
   inline void ExponentiateX(int64_t pow, ::ArrayW<uint8_t> output);
 
-  /// @brief Method Init, addr 0x33edc94, size 0x220, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x33f1a54, size 0x220, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t> x);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_lookupPowX2(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x33ee2f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33f20b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"

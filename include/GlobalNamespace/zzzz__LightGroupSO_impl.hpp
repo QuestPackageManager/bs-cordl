@@ -1,14 +1,15 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightGroupSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightGroupSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 #include "GlobalNamespace/zzzz__ILightGroup_def.hpp"
+#include "GlobalNamespace/zzzz__LightGroupTranslationLimits_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightGroupSO.get_groupName
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_groupName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586cc00;
+  constexpr static std::size_t addrs = 0x586bd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { "get_groupName", {}, {} })));
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_groupId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586cc08;
+  constexpr static std::size_t addrs = 0x586bd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { "get_groupId", {}, {} })));
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_startLightId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586cc10;
+  constexpr static std::size_t addrs = 0x586bd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { "get_startLightId", {}, {} })));
@@ -44,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_numberOfElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586cc18;
+  constexpr static std::size_t addrs = 0x586bd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { "get_numberOfElements", {}, {} })));
@@ -56,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_sameIdElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586cc20;
+  constexpr static std::size_t addrs = 0x586bd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { "get_sameIdElements", {}, {} })));
@@ -68,10 +69,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_ignoreLightGroupEffectManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586cc28;
+  constexpr static std::size_t addrs = 0x586bd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { "get_ignoreLightGroupEffectManager", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::LightGroupSO.get_compositeLimits
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightGroupTranslationLimits* (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_compositeLimits)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x586bd6c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { "get_compositeLimits", {}, {} })));
     return ___internal_method;
   }
 };
@@ -80,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x586cc30;
+  constexpr static std::size_t addrs = 0x586bd74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { ".ctor", {}, {} })));
@@ -171,6 +184,18 @@ constexpr void GlobalNamespace::LightGroupSO::__cordl_internal_set__ignoreLightG
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoreLightGroupEffectManager = value;
 }
+constexpr ::GlobalNamespace::LightGroupTranslationLimits*& GlobalNamespace::LightGroupSO::__cordl_internal_get__compositeLimits() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____compositeLimits;
+}
+constexpr ::GlobalNamespace::LightGroupTranslationLimits* const& GlobalNamespace::LightGroupSO::__cordl_internal_get__compositeLimits() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____compositeLimits;
+}
+constexpr void GlobalNamespace::LightGroupSO::__cordl_internal_set__compositeLimits(::GlobalNamespace::LightGroupTranslationLimits* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____compositeLimits = value;
+}
 inline ::StringW GlobalNamespace::LightGroupSO::get_groupName() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { "get_groupName", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
@@ -194,6 +219,10 @@ inline int32_t GlobalNamespace::LightGroupSO::get_sameIdElements() {
 inline bool GlobalNamespace::LightGroupSO::get_ignoreLightGroupEffectManager() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { "get_ignoreLightGroupEffectManager", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LightGroupTranslationLimits* GlobalNamespace::LightGroupSO::get_compositeLimits() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { "get_compositeLimits", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LightGroupTranslationLimits*>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightGroupSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightGroupSO*>(), { ".ctor", {}, {} })));

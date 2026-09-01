@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/EnumConverter_1.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\EnumConverter_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
   EnumConverter_1(EnumConverter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20395 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

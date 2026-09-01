@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUInstanceDataBufferBuilder.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUInstanceDataBufferBuilder.hpp"
 #include "Unity/Collections/zzzz__NativeList_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceComponentDesc_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUInstanceDataBufferBuilder_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::MetadataValue (::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::*)(int32_t, int32_t, bool)>(
     &::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::CreateMetadataValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68193e4;
+  constexpr static std::size_t addrs = 0x6820e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::*)(
     int32_t, bool, int32_t, bool, ::UnityEngine::Rendering::InstanceType, ::UnityEngine::Rendering::InstanceComponentGroup)>(&::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::AddComponent)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6819400;
+  constexpr static std::size_t addrs = 0x6820e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUInstanceDataBuffer* (
     ::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::*)(::by_ref<::UnityEngine::Rendering::InstanceNumInfo>)>(&::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Build)> {
   constexpr static std::size_t size = 0x88c;
-  constexpr static std::size_t addrs = 0x681952c;
+  constexpr static std::size_t addrs = 0x6820fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferBuilder>(),
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::*)()>(&::UnityEngine::Rendering::GPUInstanceDataBufferBuilder::Dispose)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6819db8;
+  constexpr static std::size_t addrs = 0x6821834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUInstanceDataBufferBuilder>(), { "Dispose", {}, {} })));

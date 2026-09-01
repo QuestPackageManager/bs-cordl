@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/DigestInfo.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\DigestInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,20 +44,20 @@ public:
   /// @brief Field digest, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::ArrayW<uint8_t> digest;
 
-  /// @brief Method GetDigest, addr 0x3656ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x365a960, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetDigest();
 
-  /// @brief Method GetInstance, addr 0x365690c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x365a6cc, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x3656920, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x365a6e0, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t> digest);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3656ba8, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x365a968, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algID() const;
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x3656b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365a950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t> digest);
 
-  /// @brief Method .ctor, addr 0x3656aa4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365a864, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AlgorithmID, addr 0x3656b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmID, addr 0x365a958, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID();
 
 protected:

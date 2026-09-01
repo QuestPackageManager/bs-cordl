@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/XRSystemUniversal.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\XRSystemUniversal.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,16 +33,16 @@ public:
   /// @brief Field s_projMatrix, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_projMatrix, put = setStaticF_s_projMatrix)) ::ArrayW<::UnityEngine::Matrix4x4> s_projMatrix;
 
-  /// @brief Method BeginLateLatching, addr 0x68e12d4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BeginLateLatching, addr 0x68e8d50, size 0xdc, virtual false, abstract: false, final false
   static inline void BeginLateLatching(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
-  /// @brief Method EndLateLatching, addr 0x68e13b0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method EndLateLatching, addr 0x68e8e2c, size 0xc8, virtual false, abstract: false, final false
   static inline void EndLateLatching(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
-  /// @brief Method MarkShaderProperties, addr 0x68e1504, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method MarkShaderProperties, addr 0x68e8f80, size 0x240, virtual false, abstract: false, final false
   static inline void MarkShaderProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass, bool renderIntoTexture);
 
-  /// @brief Method UnmarkShaderProperties, addr 0x68e1478, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UnmarkShaderProperties, addr 0x68e8ef4, size 0x8c, virtual false, abstract: false, final false
   static inline void UnmarkShaderProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4> getStaticF_s_projMatrix();
@@ -64,7 +64,7 @@ public:
   XRSystemUniversal(XRSystemUniversal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

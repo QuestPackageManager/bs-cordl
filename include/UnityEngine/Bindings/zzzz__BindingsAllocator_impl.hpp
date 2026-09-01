@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/BindingsAllocator.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\BindingsAllocator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__BindingsAllocator_def.hpp"
 #include "UnityEngine/Bindings/zzzz__BindingsAllocator_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*)>(&::UnityEngine::Bindings::BindingsAllocator::Free)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6af7410;
+  constexpr static std::size_t addrs = 0x6afee28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*)>(&::UnityEngine::Bindings::BindingsAllocator::FreeNativeOwnedMemory)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6af744c;
+  constexpr static std::size_t addrs = 0x6afee64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*)>(&::UnityEngine::Bindings::BindingsAllocator::GetNativeOwnedDataPointer)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6af7488;
+  constexpr static std::size_t addrs = 0x6afeea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

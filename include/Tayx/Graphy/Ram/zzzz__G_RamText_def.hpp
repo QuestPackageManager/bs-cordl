@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Ram/G_RamText.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Ram\G_RamText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,18 +52,18 @@ public:
   /// @brief Field m_updateRate, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_m_updateRate, put = __cordl_internal_set_m_updateRate)) float_t m_updateRate;
 
-  /// @brief Method Awake, addr 0x6437fa8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x643fa24, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x6437d08, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x643f784, size 0x118, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamText* New_ctor();
 
-  /// @brief Method Update, addr 0x6437fac, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x643fa28, size 0x17c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x6437c68, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x643f6e4, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_allocatedSystemMemorySizeText() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_m_updateRate(float_t value);
 
-  /// @brief Method .ctor, addr 0x6438128, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x643fba4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   G_RamText(G_RamText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21496 };
 
   /// @brief Field m_allocatedSystemMemorySizeText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_allocatedSystemMemorySizeText;

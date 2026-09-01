@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/DefaultSignedAttributeTableGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\DefaultSignedAttributeTableGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Method DoCreateStandardAttributeTable, addr 0x36c7ca4, size 0x6e0, virtual false, abstract: false, final false
+  /// @brief Method DoCreateStandardAttributeTable, addr 0x36cba64, size 0x6e0, virtual false, abstract: false, final false
   inline void DoCreateStandardAttributeTable(::System::Collections::IDictionary* parameters, ::System::Collections::IDictionary* std);
 
-  /// @brief Method GetAttributes, addr 0x36c8384, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x36cc144, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator* New_ctor();
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x36b16e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36b54a4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36b1bc4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36b5984, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
-  /// @brief Method createStandardAttributeTable, addr 0x36c7c24, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method createStandardAttributeTable, addr 0x36cb9e4, size 0x80, virtual true, abstract: false, final false
   inline ::System::Collections::Hashtable* createStandardAttributeTable(::System::Collections::IDictionary* parameters);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"

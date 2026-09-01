@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/NativeSortExtension.hpp"
+// IWYU pragma private; include "Unity\Collections\NativeSortExtension.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeSortExtension_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"

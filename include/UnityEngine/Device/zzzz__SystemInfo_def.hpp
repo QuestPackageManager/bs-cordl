@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Device/SystemInfo.hpp"
+// IWYU pragma private; include "UnityEngine\Device\SystemInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace UnityEngine::Device {
 class CORDL_TYPE SystemInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_deviceModel, addr 0x6aff1e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_deviceModel, addr 0x6b06bf8, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW get_deviceModel();
 
-  /// @brief Method get_deviceType, addr 0x6aff1e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_deviceType, addr 0x6b06bfc, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::DeviceType get_deviceType();
 
 protected:
@@ -44,7 +44,7 @@ public:
   SystemInfo(SystemInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10689 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/WrappedGeneratorStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\WrappedGeneratorStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
   /// @brief Field gen, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_gen, put = __cordl_internal_set_gen)) ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen;
 
-  /// @brief Method Close, addr 0x35a17c0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x35a5580, size 0xa4, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen, ::System::IO::Stream* str);
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_gen(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* value);
 
-  /// @brief Method .ctor, addr 0x35a1794, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a5554, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen, ::System::IO::Stream* str);
 
 protected:

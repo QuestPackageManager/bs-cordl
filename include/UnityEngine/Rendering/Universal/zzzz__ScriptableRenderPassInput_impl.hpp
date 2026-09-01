@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScriptableRenderPassInput.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScriptableRenderPassInput.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderPassInput_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::ScriptableRenderPassInput::ScriptableRenderPassInput(int32_t value__) noexcept {

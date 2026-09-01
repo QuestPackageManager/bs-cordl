@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Device/SystemInfo.hpp"
+// IWYU pragma private; include "UnityEngine\Device\SystemInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Device/zzzz__SystemInfo_def.hpp"
 #include "UnityEngine/zzzz__DeviceType_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::Device::SystemInfo::get_deviceModel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6aff1e0;
+  constexpr static std::size_t addrs = 0x6b06bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Device::SystemInfo*>(), { "get_deviceModel", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::DeviceType (*)()>(&::UnityEngine::Device::SystemInfo::get_deviceType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6aff1e4;
+  constexpr static std::size_t addrs = 0x6b06bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Device::SystemInfo*>(), { "get_deviceType", {}, {} })));

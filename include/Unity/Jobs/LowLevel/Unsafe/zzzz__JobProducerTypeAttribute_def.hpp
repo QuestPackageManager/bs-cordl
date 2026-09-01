@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Jobs/LowLevel/Unsafe/JobProducerTypeAttribute.hpp"
+// IWYU pragma private; include "Unity\Jobs\LowLevel\Unsafe\JobProducerTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__ProducerType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6a5423c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5bcb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* producerType);
 
 protected:
@@ -51,7 +51,7 @@ public:
   JobProducerTypeAttribute(JobProducerTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9930 };
 
   /// @brief Field <ProducerType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____ProducerType_k__BackingField;

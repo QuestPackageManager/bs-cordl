@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DataSourceContext.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DataSourceContext.hpp"
 #include "Unity/Properties/zzzz__PropertyPath_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DataSourceContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::DataSourceContext::*)()>(&::UnityEngine::UIElements::DataSourceContext::get_dataSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c3d828;
+  constexpr static std::size_t addrs = 0x6c453ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataSourceContext>(), { "get_dataSource", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (::UnityEngine::UIElements::DataSourceContext::*)()>(
     &::UnityEngine::UIElements::DataSourceContext::get_dataSourcePath)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c3d830;
+  constexpr static std::size_t addrs = 0x6c453b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataSourceContext>(), { "get_dataSourcePath", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataSourceContext::*)(::System::Object*, ::by_ref<::Unity::Properties::PropertyPath>)>(
     &::UnityEngine::UIElements::DataSourceContext::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c3d840;
+  constexpr static std::size_t addrs = 0x6c453c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

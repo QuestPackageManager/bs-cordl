@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/AssemblyLoadEventArgs.hpp"
+// IWYU pragma private; include "System\AssemblyLoadEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/zzzz__AssemblyLoadEventArgs_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AssemblyLoadEventArgs::*)(::System::Reflection::Assembly*)>(&::System::AssemblyLoadEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5baa9cc;
+  constexpr static std::size_t addrs = 0x5baee88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

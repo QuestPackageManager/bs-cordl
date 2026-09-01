@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Mozilla/PublicKeyAndChallenge.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Mozilla\PublicKeyAndChallenge.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Mozilla/zzzz__PublicKeyAndChallenge_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3453d40;
+  constexpr static std::size_t addrs = 0x3457b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3453ec8;
+  constexpr static std::size_t addrs = 0x3457c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::*)()>(
     &::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3453f2c;
+  constexpr static std::size_t addrs = 0x3457cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* (::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::*)()>(
     &::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::get_SubjectPublicKeyInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3453f34;
+  constexpr static std::size_t addrs = 0x3457cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerIA5String* (::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::*)()>(
     &::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::get_Challenge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3453f3c;
+  constexpr static std::size_t addrs = 0x3457cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

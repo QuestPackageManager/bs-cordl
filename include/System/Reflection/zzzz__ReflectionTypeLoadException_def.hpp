@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/ReflectionTypeLoadException.hpp"
+// IWYU pragma private; include "System\Reflection\ReflectionTypeLoadException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,17 +54,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CreateString, addr 0x5b7cedc, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x5b81398, size 0x194, virtual false, abstract: false, final false
   inline ::StringW CreateString(bool isMessage);
 
-  /// @brief Method GetObjectData, addr 0x5b7cd9c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5b81258, size 0x128, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Reflection::ReflectionTypeLoadException* New_ctor(::ArrayW<::System::Type*> classes, ::ArrayW<::System::Exception*> exceptions);
 
   static inline ::System::Reflection::ReflectionTypeLoadException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x5b7d070, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5b8152c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::System::Exception*> const& __cordl_internal_get__LoaderExceptions_k__BackingField() const;
@@ -79,19 +79,19 @@ public:
 
   constexpr void __cordl_internal_set__Types_k__BackingField(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x5b7cc38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b810f4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Type*> classes, ::ArrayW<::System::Exception*> exceptions);
 
-  /// @brief Method .ctor, addr 0x5b7cc74, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b81130, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_LoaderExceptions, addr 0x5b7cecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoaderExceptions, addr 0x5b81388, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Exception*> get_LoaderExceptions();
 
-  /// @brief Method get_Message, addr 0x5b7ced4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5b81390, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Types, addr 0x5b7cec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Types, addr 0x5b81380, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_Types();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

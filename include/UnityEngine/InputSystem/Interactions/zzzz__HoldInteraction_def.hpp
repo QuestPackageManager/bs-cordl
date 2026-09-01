@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Interactions/HoldInteraction.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Interactions\HoldInteraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT

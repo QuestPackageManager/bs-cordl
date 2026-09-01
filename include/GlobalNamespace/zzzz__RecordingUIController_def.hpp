@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RecordingUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace\RecordingUIController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_recordingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x59a56c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59acf6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool recordingEnabled);
 
 protected:
@@ -61,7 +61,7 @@ public:
   RecordingUIController_InitData(RecordingUIController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6013 };
 
   /// @brief Field recordingEnabled, offset: 0x10, size: 0x1, def value: None
   bool ___recordingEnabled;
@@ -95,12 +95,12 @@ public:
   /// @brief Field _updateTimeSpan, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__updateTimeSpan, put = __cordl_internal_set__updateTimeSpan)) float_t _updateTimeSpan;
 
-  /// @brief Method Init, addr 0x59a5578, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59ace20, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::RecordingUIController* New_ctor();
 
-  /// @brief Method Update, addr 0x59a561c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59acec4, size 0x9c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__circle() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__updateTimeSpan(float_t value);
 
-  /// @brief Method .ctor, addr 0x59a56b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59acf60, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,7 +145,7 @@ public:
   RecordingUIController(RecordingUIController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6014 };
 
   /// @brief Field _circle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____circle;

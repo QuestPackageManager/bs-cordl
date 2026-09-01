@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/JsonWriterException.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\JsonWriterException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
   /// @brief Field <Path>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField)) ::StringW _Path_k__BackingField;
 
-  /// @brief Method Create, addr 0x5d15b5c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5d1a018, size 0xbc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonWriterException* Create(::StringW path, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method Create, addr 0x5d14e04, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5d192c0, size 0x34, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonWriterException* Create(::Newtonsoft::Json::JsonWriter* writer, ::StringW message, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::JsonWriterException* New_ctor();
@@ -59,22 +59,22 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d15b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d19fcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5d15b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d19fe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5d15b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d19fd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5d15b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d19fdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x5d15b30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d19fec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW path, ::System::Exception* innerException);
 
-  /// @brief Method get_Path, addr 0x5d15b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x5d19fc4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -92,7 +92,7 @@ public:
   JsonWriterException(JsonWriterException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13352 };
 
   /// @brief Field <Path>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::StringW ____Path_k__BackingField;

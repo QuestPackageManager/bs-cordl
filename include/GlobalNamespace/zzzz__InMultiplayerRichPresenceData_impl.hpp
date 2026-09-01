@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/InMultiplayerRichPresenceData.hpp"
+// IWYU pragma private; include "GlobalNamespace\InMultiplayerRichPresenceData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__InMultiplayerRichPresenceData_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerRichPresenceData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&::GlobalNamespace::InMultiplayerRichPresenceData::get_apiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fbea8;
+  constexpr static std::size_t addrs = 0x58ff470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InMultiplayerRichPresenceData*>(), { "get_apiName", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW)>(&::GlobalNamespace::InMultiplayerRichPresenceData::set_apiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fbeb0;
+  constexpr static std::size_t addrs = 0x58ff478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::get_localizedDescription)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fbeb8;
+  constexpr static std::size_t addrs = 0x58ff480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW)>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::set_localizedDescription)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fbec0;
+  constexpr static std::size_t addrs = 0x58ff488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&::GlobalNamespace::InMultiplayerRichPresenceData::get_multiplayerSecret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fbec8;
+  constexpr static std::size_t addrs = 0x58ff490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InMultiplayerRichPresenceData*>(), { "get_multiplayerSecret", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW)>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::set_multiplayerSecret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fbed0;
+  constexpr static std::size_t addrs = 0x58ff498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&::GlobalNamespace::InMultiplayerRichPresenceData::get_atMaxPartySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fbed8;
+  constexpr static std::size_t addrs = 0x58ff4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InMultiplayerRichPresenceData*>(), { "get_atMaxPartySize", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(bool)>(&::GlobalNamespace::InMultiplayerRichPresenceData::set_atMaxPartySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fbee0;
+  constexpr static std::size_t addrs = 0x58ff4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&::GlobalNamespace::InMultiplayerRichPresenceData::get_canInvite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fbee8;
+  constexpr static std::size_t addrs = 0x58ff4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InMultiplayerRichPresenceData*>(), { "get_canInvite", {}, {} })));
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(bool)>(&::GlobalNamespace::InMultiplayerRichPresenceData::set_canInvite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fbef0;
+  constexpr static std::size_t addrs = 0x58ff4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&::GlobalNamespace::InMultiplayerRichPresenceData::get_isJoinable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58fbef8;
+  constexpr static std::size_t addrs = 0x58ff4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InMultiplayerRichPresenceData*>(), { "get_isJoinable", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW, bool, bool)>(&::GlobalNamespace::InMultiplayerRichPresenceData::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x58fbf28;
+  constexpr static std::size_t addrs = 0x58ff4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InMultiplayerRichPresenceData*>(),

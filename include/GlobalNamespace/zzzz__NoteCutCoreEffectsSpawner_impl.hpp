@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteCutCoreEffectsSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteCutCoreEffectsSpawner.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutCoreEffectsSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)()>(&::GlobalNamespace::NoteCutCoreEffectsSpawner::Start)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5987164;
+  constexpr static std::size_t addrs = 0x598ab04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutCoreEffectsSpawner*>(), { "Start", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)()>(&::GlobalNamespace::NoteCutCoreEffectsSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5987308;
+  constexpr static std::size_t addrs = 0x598aca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutCoreEffectsSpawner*>(), { "OnDestroy", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo>)>(
     &::GlobalNamespace::NoteCutCoreEffectsSpawner::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x59873a0;
+  constexpr static std::size_t addrs = 0x598ad40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(::GlobalNamespace::NoteCutInfo, ::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::NoteCutCoreEffectsSpawner::PlayHitNoteHapticEffect)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5987828;
+  constexpr static std::size_t addrs = 0x598b1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(::GlobalNamespace::NoteCutInfo, bool)>(
     &::GlobalNamespace::NoteCutCoreEffectsSpawner::PlayHitChainNoteHapticEffect)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5987980;
+  constexpr static std::size_t addrs = 0x598b320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(::by_ref<::GlobalNamespace::NoteCutInfo>, ::GlobalNamespace::NoteController*, int32_t,
                                                                                                               int32_t)>(&::GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnNoteCutEffect)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x598753c;
+  constexpr static std::size_t addrs = 0x598aedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(::by_ref<::GlobalNamespace::NoteCutInfo>, ::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnBombCutEffect)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x598792c;
+  constexpr static std::size_t addrs = 0x598b2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)(::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::NoteCutCoreEffectsSpawner::IsArcHapticsCurrentlyActive)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x59879ec;
+  constexpr static std::size_t addrs = 0x598b38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutCoreEffectsSpawner::*)()>(&::GlobalNamespace::NoteCutCoreEffectsSpawner::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x598835c;
+  constexpr static std::size_t addrs = 0x598bcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutCoreEffectsSpawner*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/SignatureSubpacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\SignatureSubpacket.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacketTag_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::SignatureSubpacket::*)(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, bool, bool, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacket::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3690568;
+  constexpr static std::size_t addrs = 0x3694328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::SignatureSubpacketTag (::Org::BouncyCastle::Bcpg::SignatureSubpacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacket::get_SubpacketType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369057c;
+  constexpr static std::size_t addrs = 0x369433c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>(), { "get_SubpacketType", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::SignatureSubpacket::*)()>(&::Org::BouncyCastle::Bcpg::SignatureSubpacket::IsCritical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3690584;
+  constexpr static std::size_t addrs = 0x3694344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>(), { "IsCritical", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::SignatureSubpacket::*)()>(&::Org::BouncyCastle::Bcpg::SignatureSubpacket::IsLongLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369058c;
+  constexpr static std::size_t addrs = 0x369434c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>(), { "IsLongLength", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::SignatureSubpacket::*)()>(&::Org::BouncyCastle::Bcpg::SignatureSubpacket::GetData)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3690594;
+  constexpr static std::size_t addrs = 0x3694354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>(), { "GetData", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::SignatureSubpacket::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Bcpg::SignatureSubpacket::Encode)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x369060c;
+  constexpr static std::size_t addrs = 0x36943cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

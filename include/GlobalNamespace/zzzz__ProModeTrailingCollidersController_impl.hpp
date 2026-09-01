@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ProModeTrailingCollidersController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ProModeTrailingCollidersController.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ProModeTrailingCollidersController_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProModeTrailingCollidersController::*)()>(&::GlobalNamespace::ProModeTrailingCollidersController::Start)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x58d8ed8;
+  constexpr static std::size_t addrs = 0x58d8888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProModeTrailingCollidersController*>(), { "Start", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProModeTrailingCollidersController::*)()>(&::GlobalNamespace::ProModeTrailingCollidersController::OnDestroy)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x58d8f78;
+  constexpr static std::size_t addrs = 0x58d8928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProModeTrailingCollidersController*>(), { "OnDestroy", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProModeTrailingCollidersController::*)()>(
     &::GlobalNamespace::ProModeTrailingCollidersController::HandleNoteDidMoveInJumpPhase)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x58d9084;
+  constexpr static std::size_t addrs = 0x58d8a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProModeTrailingCollidersController::*)()>(&::GlobalNamespace::ProModeTrailingCollidersController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58d91e0;
+  constexpr static std::size_t addrs = 0x58d8b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProModeTrailingCollidersController*>(), { ".ctor", {}, {} })));

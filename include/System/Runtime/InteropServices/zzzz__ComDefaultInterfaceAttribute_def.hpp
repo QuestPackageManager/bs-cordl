@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/InteropServices/ComDefaultInterfaceAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\InteropServices\ComDefaultInterfaceAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__val(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5b67fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b6c470, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* defaultInterface);
 
 protected:

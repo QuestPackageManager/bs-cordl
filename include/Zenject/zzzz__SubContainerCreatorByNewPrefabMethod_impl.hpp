@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SubContainerCreatorByNewPrefabMethod.hpp"
+// IWYU pragma private; include "Zenject\SubContainerCreatorByNewPrefabMethod.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabDynamicContext_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabMethod_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubConta
     ::Zenject::DiContainer*, ::Zenject::IPrefabProvider*, ::Zenject::GameObjectCreationParameters*, ::System::Action_1<::Zenject::DiContainer*>*)>(
     &::Zenject::SubContainerCreatorByNewPrefabMethod::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e840ac;
+  constexpr static std::size_t addrs = 0x6e8bc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubContainerCreatorByNewPrefabMethod::*)(
     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::GameObjectContext*)>(&::Zenject::SubContainerCreatorByNewPrefabMethod::AddInstallers)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6e840b8;
+  constexpr static std::size_t addrs = 0x6e8bc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

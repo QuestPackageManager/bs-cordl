@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TableCellWithSeparator.hpp"
+// IWYU pragma private; include "GlobalNamespace\TableCellWithSeparator.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_def.hpp"
 #include "HMUI/zzzz__ITableCellOwner_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TableCellWithSeparator::*)(::HMUI::ITableCellOwner*, int32_t)>(
     &::GlobalNamespace::TableCellWithSeparator::TableViewSetup)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x58741b8;
+  constexpr static std::size_t addrs = 0x5873af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TableCellWithSeparator::*)()>(&::GlobalNamespace::TableCellWithSeparator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5874294;
+  constexpr static std::size_t addrs = 0x5873bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TableCellWithSeparator*>(), { ".ctor", {}, {} })));

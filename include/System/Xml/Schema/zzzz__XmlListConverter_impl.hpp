@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlListConverter.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlListConverter.hpp"
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlListConverter_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlListConverter::*)(::System::Xml::Schema::XmlBaseConverter*)>(&::System::Xml::Schema::XmlListConverter::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6258a2c;
+  constexpr static std::size_t addrs = 0x62604a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlListConverter::*)(::System::Xml::Schema::XmlBaseConverter*, ::System::Type*)>(
     &::System::Xml::Schema::XmlListConverter::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x624f88c;
+  constexpr static std::size_t addrs = 0x6257308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlListConverter::*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::XmlListConverter::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x624f77c;
+  constexpr static std::size_t addrs = 0x62571f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlValueConverter* (*)(::System::Xml::Schema::XmlValueConverter*)>(&::System::Xml::Schema::XmlListConverter::Create)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6258e18;
+  constexpr static std::size_t addrs = 0x6260894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlListConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlListConverter::ChangeType)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6258fd4;
+  constexpr static std::size_t addrs = 0x6260a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlListConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlListConverter::ChangeListType)> {
   constexpr static std::size_t size = 0xcdc;
-  constexpr static std::size_t addrs = 0x6254cb8;
+  constexpr static std::size_t addrs = 0x625c734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlListConverter::*)(::System::Type*)>(&::System::Xml::Schema::XmlListConverter::IsListType)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x62590a0;
+  constexpr static std::size_t addrs = 0x6260b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::System::Xml::Schema::XmlListConverter::*)(::System::Object*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlListConverter::ToList)> {
   constexpr static std::size_t size = 0x640;
-  constexpr static std::size_t addrs = 0x6259898;
+  constexpr static std::size_t addrs = 0x6261314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::System::Xml::Schema::XmlListConverter::*)(::StringW)>(
     &::System::Xml::Schema::XmlListConverter::StringAsList)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x62597e4;
+  constexpr static std::size_t addrs = 0x6261260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlListConverter::*)(::System::Collections::IEnumerable*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlListConverter::ListAsString)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x6259460;
+  constexpr static std::size_t addrs = 0x6260edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::XmlListConverter::*)(::System::Type*, ::System::Type*)>(
     &::System::Xml::Schema::XmlListConverter::CreateInvalidClrMappingException)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x62591fc;
+  constexpr static std::size_t addrs = 0x6260c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

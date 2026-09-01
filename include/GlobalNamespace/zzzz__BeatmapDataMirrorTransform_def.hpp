@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapDataMirrorTransform.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapDataMirrorTransform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapDataMirrorTransform___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x3701510, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x3705760, size 0x94, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   constexpr int32_t const& __cordl_internal_get_numberOfLines() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_numberOfLines(int32_t value);
 
-  /// @brief Method .ctor, addr 0x370150c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x370575c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   BeatmapDataMirrorTransform___c__DisplayClass0_0(BeatmapDataMirrorTransform___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14798 };
 
   /// @brief Field numberOfLines, offset: 0x10, size: 0x4, def value: None
   int32_t ___numberOfLines;
@@ -88,7 +88,7 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::BeatmapDataMirrorTransform___c__DisplayClass0_0;
 
-  /// @brief Method CreateTransformedData, addr 0x3701384, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x37055d4, size 0x188, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
 protected:
@@ -106,7 +106,7 @@ public:
   BeatmapDataMirrorTransform(BeatmapDataMirrorTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14799 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

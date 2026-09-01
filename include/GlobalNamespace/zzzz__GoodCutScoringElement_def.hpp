@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GoodCutScoringElement.hpp"
+// IWYU pragma private; include "GlobalNamespace\GoodCutScoringElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GoodCutScoringElement_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59ee624, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f66f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   GoodCutScoringElement_Pool(GoodCutScoringElement_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -106,15 +106,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept;
 
-  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x59ee5ac, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x59f6680, size 0x20, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method Init, addr 0x59edd8c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59f5e60, size 0x70, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteCutInfo noteCutInfo);
 
   static inline ::GlobalNamespace::GoodCutScoringElement* New_ctor();
 
-  /// @brief Method Reinitialize, addr 0x59ee594, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x59f6668, size 0x18, virtual true, abstract: false, final false
   inline void Reinitialize();
 
   constexpr ::GlobalNamespace::CutScoreBuffer* const& __cordl_internal_get__cutScoreBuffer() const;
@@ -135,22 +135,22 @@ public:
 
   constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType value);
 
-  /// @brief Method .ctor, addr 0x59ee5cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f66a0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cutScore, addr 0x59ee508, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_cutScore, addr 0x59f65dc, size 0x3c, virtual true, abstract: false, final false
   inline int32_t get_cutScore();
 
-  /// @brief Method get_cutScoreBuffer, addr 0x59ee554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutScoreBuffer, addr 0x59f6628, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyCutScoreBuffer* get_cutScoreBuffer();
 
-  /// @brief Method get_executionOrder, addr 0x59ee55c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x59f6630, size 0x38, virtual true, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_multiplierEventType, addr 0x59ee54c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_multiplierEventType, addr 0x59f6620, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x59ee544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x59f6618, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
 
   /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
@@ -171,7 +171,7 @@ public:
   GoodCutScoringElement(GoodCutScoringElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6267 };
 
   /// @brief Field _cutScoreBuffer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::CutScoreBuffer* ____cutScoreBuffer;

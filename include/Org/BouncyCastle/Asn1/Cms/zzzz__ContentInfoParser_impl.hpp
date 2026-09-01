@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/ContentInfoParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cms\ContentInfoParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfoParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1SequenceParser_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::ContentInfoParser::*)(::Org::BouncyCastle::Asn1::Asn1SequenceParser*)>(
     &::Org::BouncyCastle::Asn1::Cms::ContentInfoParser::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3352288;
+  constexpr static std::size_t addrs = 0x3356048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Cms::ContentInfoParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::ContentInfoParser::get_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3354ca0;
+  constexpr static std::size_t addrs = 0x3358a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*>(), { "get_ContentType", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible* (::Org::BouncyCastle::Asn1::Cms::ContentInfoParser::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::Cms::ContentInfoParser::GetContent)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3354ca8;
+  constexpr static std::size_t addrs = 0x3358a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

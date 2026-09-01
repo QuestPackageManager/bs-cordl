@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/ExceptionServices/ExceptionDispatchInfo.hpp"
+// IWYU pragma private; include "System\Runtime\ExceptionServices\ExceptionDispatchInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)(::System::Exception*)>(
     &::System::Runtime::ExceptionServices::ExceptionDispatchInfo::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5b6b19c;
+  constexpr static std::size_t addrs = 0x5b6f658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(
     &::System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_BinaryStackTraceArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6b2b8;
+  constexpr static std::size_t addrs = 0x5b6f774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::ExceptionServices::ExceptionDispatchInfo* (*)(::System::Exception*)>(
     &::System::Runtime::ExceptionServices::ExceptionDispatchInfo::Capture)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5b6b2c0;
+  constexpr static std::size_t addrs = 0x5b6f77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(
     &::System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_SourceException)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6b37c;
+  constexpr static std::size_t addrs = 0x5b6f838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(&::System::Runtime::ExceptionServices::ExceptionDispatchInfo::Throw)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5b6b384;
+  constexpr static std::size_t addrs = 0x5b6f840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>(), { "Throw", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Exception*)>(&::System::Runtime::ExceptionServices::ExceptionDispatchInfo::Throw)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b6b3c8;
+  constexpr static std::size_t addrs = 0x5b6f884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

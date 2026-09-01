@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/OutputLengthException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\OutputLengthException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::OutputLengthException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x349b320, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x349f0e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x349b1c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x349ef80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x349b324, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x349f0e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

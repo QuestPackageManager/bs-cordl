@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,16 +31,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x357b660, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357f420, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3577708, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357b4c8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x357b6b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357f478, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method get_UnderlyingException, addr 0x357b72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnderlyingException, addr 0x357f4ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_UnderlyingException();
 
 protected:

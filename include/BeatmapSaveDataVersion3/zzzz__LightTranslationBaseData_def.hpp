@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/LightTranslationBaseData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\LightTranslationBaseData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_t(float_t value);
 
-  /// @brief Method .ctor, addr 0x3759998, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375f604, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation);
 
-  /// @brief Method get_beat, addr 0x3759970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x375f5dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x3759988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x375f5f4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_translation, addr 0x3759990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translation, addr 0x375f5fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translation();
 
-  /// @brief Method get_usePreviousEventTranslationValue, addr 0x3759978, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventTranslationValue, addr 0x375f5e4, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventTranslationValue();
 
 protected:
@@ -101,7 +101,7 @@ public:
   LightTranslationBaseData(LightTranslationBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15367 };
 
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;

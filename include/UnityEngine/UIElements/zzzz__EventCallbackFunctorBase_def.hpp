@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EventCallbackFunctorBase.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EventCallbackFunctorBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_invokePolicy(::UnityEngine::UIElements::InvokePolicy value);
 
-  /// @brief Method .ctor, addr 0x6d90ea0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d98a24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

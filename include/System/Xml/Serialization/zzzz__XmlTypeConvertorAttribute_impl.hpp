@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlTypeConvertorAttribute.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlTypeConvertorAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeConvertorAttribute_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlTypeConvertorAttribute.get_Method
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlTypeConvertorAttribute::*)()>(
     &::System::Xml::Serialization::XmlTypeConvertorAttribute::get_Method)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62e532c;
+  constexpr static std::size_t addrs = 0x62ecda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlTypeConvertorAttribute*>(), { "get_Method", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeConvertorAttribute::*)(::StringW)>(
     &::System::Xml::Serialization::XmlTypeConvertorAttribute::set_Method)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62e5334;
+  constexpr static std::size_t addrs = 0x62ecdb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlTypeConvertorAttribute::*)(::StringW)>(&::System::Xml::Serialization::XmlTypeConvertorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62e533c;
+  constexpr static std::size_t addrs = 0x62ecdb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

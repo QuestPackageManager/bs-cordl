@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/Capture.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\Capture.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,17 +41,17 @@ public:
   /// @brief Field <Text>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Text_k__BackingField, put = __cordl_internal_set__Text_k__BackingField)) ::StringW _Text_k__BackingField;
 
-  /// @brief Method GetLeftSubstring, addr 0x6374748, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetLeftSubstring, addr 0x637c1c4, size 0x84, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> GetLeftSubstring();
 
-  /// @brief Method GetRightSubstring, addr 0x63747cc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetRightSubstring, addr 0x637c248, size 0x98, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> GetRightSubstring();
 
   static inline ::System::Text::RegularExpressions::Capture* New_ctor();
 
   static inline ::System::Text::RegularExpressions::Capture* New_ctor(::StringW text, int32_t index, int32_t length);
 
-  /// @brief Method ToString, addr 0x6374744, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x637c1c0, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__Index_k__BackingField() const;
@@ -72,31 +72,31 @@ public:
 
   constexpr void __cordl_internal_set__Text_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6374864, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637c2e0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x63746e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637c164, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, int32_t index, int32_t length);
 
-  /// @brief Method get_Index, addr 0x63746f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x637c170, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_Length, addr 0x6374704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x637c180, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Text, addr 0x6374714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x637c190, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Text();
 
-  /// @brief Method get_Value, addr 0x6374724, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x637c1a0, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Index, addr 0x63746fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Index, addr 0x637c178, size 0x8, virtual false, abstract: false, final false
   inline void set_Index(int32_t value);
 
-  /// @brief Method set_Length, addr 0x637470c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Length, addr 0x637c188, size 0x8, virtual false, abstract: false, final false
   inline void set_Length(int32_t value);
 
-  /// @brief Method set_Text, addr 0x637471c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Text, addr 0x637c198, size 0x8, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
 protected:
@@ -114,7 +114,7 @@ public:
   Capture(Capture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11093 };
 
   /// @brief Field <Index>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____Index_k__BackingField;

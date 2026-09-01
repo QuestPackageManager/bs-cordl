@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayAudioOnGameEventController.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayAudioOnGameEventController.hpp"
 #include "GlobalNamespace/zzzz__LocalizedAudioClipSO_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::*)(::GlobalNamespace::AudioClipQueue*)>(
     &::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::Init)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x58ba3ac;
+  constexpr static std::size_t addrs = 0x58b9d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::Deinit)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x58ba4fc;
+  constexpr static std::size_t addrs = 0x58b9e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::HandleGameEvent)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x58ba58c;
+  constexpr static std::size_t addrs = 0x58b9ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58ba654;
+  constexpr static std::size_t addrs = 0x58b9fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController::*)()>(&::GlobalNamespace::PlayAudioOnGameEventController::Awake)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x58ba34c;
+  constexpr static std::size_t addrs = 0x58b9cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayAudioOnGameEventController*>(), { "Awake", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController::*)()>(&::GlobalNamespace::PlayAudioOnGameEventController::OnDestroy)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58ba4ac;
+  constexpr static std::size_t addrs = 0x58b9e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayAudioOnGameEventController*>(), { "OnDestroy", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController::*)()>(&::GlobalNamespace::PlayAudioOnGameEventController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58ba588;
+  constexpr static std::size_t addrs = 0x58b9ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayAudioOnGameEventController*>(), { ".ctor", {}, {} })));

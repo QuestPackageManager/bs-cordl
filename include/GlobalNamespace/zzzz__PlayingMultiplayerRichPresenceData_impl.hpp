@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayingMultiplayerRichPresenceData.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayingMultiplayerRichPresenceData.hpp"
 #include "GlobalNamespace/zzzz__InMultiplayerRichPresenceData_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayingMultiplayerRichPresenceData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayingMultiplayerRichPresenceData._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayingMultiplayerRichPresenceData::*)(bool)>(&::GlobalNamespace::PlayingMultiplayerRichPresenceData::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x58fbfc8;
+  constexpr static std::size_t addrs = 0x58ff590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

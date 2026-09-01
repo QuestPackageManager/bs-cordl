@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ENet/FreeCallback.hpp"
+// IWYU pragma private; include "ENet\FreeCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "ENet/zzzz__FreeCallback_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::FreeCallback::*)(::System::Object*, ::System::IntPtr)>(&::ENet::FreeCallback::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5891c38;
+  constexpr static std::size_t addrs = 0x5891600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::FreeCallback::*)(::System::IntPtr)>(&::ENet::FreeCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5891ca4;
+  constexpr static std::size_t addrs = 0x589166c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::FreeCallback*>(), { ::i2c::class_of<::ENet::FreeCallback*>(), 13 }));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::ENet::FreeCallback::*)(::System::IntPtr, ::System::AsyncCallback*, ::System::Object*)>(
     &::ENet::FreeCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5891cb8;
+  constexpr static std::size_t addrs = 0x5891680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::FreeCallback*>(), { ::i2c::class_of<::ENet::FreeCallback*>(), 14 }));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::FreeCallback::*)(::System::IAsyncResult*)>(&::ENet::FreeCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5891d0c;
+  constexpr static std::size_t addrs = 0x58916d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::FreeCallback*>(), { ::i2c::class_of<::ENet::FreeCallback*>(), 15 }));

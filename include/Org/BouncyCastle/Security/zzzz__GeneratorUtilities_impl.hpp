@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/GeneratorUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\GeneratorUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__GeneratorUtilities_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::GeneratorUtilities::*)()>(&::Org::BouncyCastle::Security::GeneratorUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35f7b64;
+  constexpr static std::size_t addrs = 0x35fb924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::GeneratorUtilities*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::ArrayW<::StringW>)>(&::Org::BouncyCastle::Security::GeneratorUtilities::AddDefaultKeySizeEntries)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x35fb0e0;
+  constexpr static std::size_t addrs = 0x35feea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::GeneratorUtilities*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::Org::BouncyCastle::Security::GeneratorUtilities::AddKgAlgorithm)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x35fa8f8;
+  constexpr static std::size_t addrs = 0x35fe6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::GeneratorUtilities*>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::Org::BouncyCastle::Security::GeneratorUtilities::AddKpgAlgorithm)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x35faeac;
+  constexpr static std::size_t addrs = 0x35fec6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::GeneratorUtilities*>(),
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*>)>(&::Org::BouncyCastle::Security::GeneratorUtilities::AddHMacKeyGenerator)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x35fab2c;
+  constexpr static std::size_t addrs = 0x35fe8ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Security::GeneratorUtilities::GetCanonicalKeyGeneratorAlgorithm)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x35fb23c;
+  constexpr static std::size_t addrs = 0x35feffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Security::GeneratorUtilities::GetCanonicalKeyPairGeneratorAlgorithm)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x35fb370;
+  constexpr static std::size_t addrs = 0x35ff130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::CipherKeyGenerator* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::GetKeyGenerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x35fb4a4;
+  constexpr static std::size_t addrs = 0x35ff264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::GeneratorUtilities*>(),
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::CipherKeyGenerator* (*)(::StringW)>(&::Org::BouncyCastle::Security::GeneratorUtilities::GetKeyGenerator)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x35fb508;
+  constexpr static std::size_t addrs = 0x35ff2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::GetKeyPairGenerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x35fb92c;
+  constexpr static std::size_t addrs = 0x35ff6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::GeneratorUtilities*>(),
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* (*)(::StringW)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::GetKeyPairGenerator)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x35fb990;
+  constexpr static std::size_t addrs = 0x35ff750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x35fbe3c;
+  constexpr static std::size_t addrs = 0x35ffbfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::GeneratorUtilities*>(),
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x35fbea0;
+  constexpr static std::size_t addrs = 0x35ffc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::Org::BouncyCastle::Security::GeneratorUtilities::FindDefaultKeySize)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x35fb794;
+  constexpr static std::size_t addrs = 0x35ff554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

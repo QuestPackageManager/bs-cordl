@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/NetworkInterface.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\NetworkInterface.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,24 +36,24 @@ public:
 
   __declspec(property(get = get_OperationalStatus)) ::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x634a904, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetAllNetworkInterfaces, addr 0x6352380, size 0x50, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
 
-  /// @brief Method GetIPProperties, addr 0x634aa8c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x6352508, size 0x38, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::NetworkInterface* New_ctor();
 
-  /// @brief Method .ctor, addr 0x634ab34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63525b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x634aa54, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x63524d0, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NetworkInterfaceType, addr 0x634aafc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_NetworkInterfaceType, addr 0x6352578, size 0x38, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
-  /// @brief Method get_OperationalStatus, addr 0x634aac4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x6352540, size 0x38, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
 protected:
@@ -71,7 +71,7 @@ public:
   NetworkInterface(NetworkInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

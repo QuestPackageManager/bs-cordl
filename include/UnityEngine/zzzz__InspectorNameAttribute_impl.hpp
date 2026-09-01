@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InspectorNameAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\InspectorNameAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__InspectorNameAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InspectorNameAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InspectorNameAttribute::*)(::StringW)>(&::UnityEngine::InspectorNameAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ad05f0;
+  constexpr static std::size_t addrs = 0x6ad8008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

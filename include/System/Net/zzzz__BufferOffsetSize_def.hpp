@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/BufferOffsetSize.hpp"
+// IWYU pragma private; include "System\Net\BufferOffsetSize.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_Size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x640dcc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6415740, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> buffer, bool copyBuffer);
 
-  /// @brief Method .ctor, addr 0x640dc20, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x641569c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, bool copyBuffer);
 
 protected:
@@ -73,7 +73,7 @@ public:
   BufferOffsetSize(BufferOffsetSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11524 };
 
   /// @brief Field Buffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ___Buffer;

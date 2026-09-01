@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/XCommentWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\XCommentWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,19 +34,19 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XCommentWrapper* New_ctor(::System::Xml::Linq::XComment* text);
 
-  /// @brief Method .ctor, addr 0x5d9d3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da1868, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XComment* text);
 
-  /// @brief Method get_ParentNode, addr 0x5d9d408, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x5da18c4, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
-  /// @brief Method get_Text, addr 0x5d9d330, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x5da17ec, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XComment* get_Text();
 
-  /// @brief Method get_Value, addr 0x5d9d3b4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5da1870, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x5d9d3d0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5da188c, size 0x38, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -64,7 +64,7 @@ public:
   XCommentWrapper(XCommentWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

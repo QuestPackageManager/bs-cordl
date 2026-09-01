@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/CustomServerSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\CustomServerSettings.hpp"
 #include "BeatSaber/Settings/zzzz__CustomServerSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "useCustomEnvironment", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "forceGameLiftEnvironment", ty: "bool", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "hostName", ty: "::StringW", modifiers: "", def_value: Some("{}") }]

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/ResourceVersionedData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\ResourceVersionedData.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/zzzz__ResourceVersionedData_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__ResourceHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData.SetWritingPass
@@ -9,7 +9,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData::SetWritingPass)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x67f552c;
+  constexpr static std::size_t addrs = 0x67fcfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle, int32_t, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData::RegisterReadingPass)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x67f553c;
+  constexpr static std::size_t addrs = 0x67fcfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData::RemoveReadingPass)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x67f56d0;
+  constexpr static std::size_t addrs = 0x67fd14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

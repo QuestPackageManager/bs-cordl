@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QuerySamplingFrequencyCommand.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\QuerySamplingFrequencyCommand.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QuerySamplingFrequencyCommand_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand::get_Type)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a64e0;
+  constexpr static std::size_t addrs = 0x65adf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a64ec;
+  constexpr static std::size_t addrs = 0x65adf68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand::Create)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65a64f8;
+  constexpr static std::size_t addrs = 0x65adf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

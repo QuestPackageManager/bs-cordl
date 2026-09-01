@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/XPath/AstNode.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\XPath\AstNode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::AstNode::*)()>(&::MS::Internal::Xml::XPath::AstNode::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x626ef4c;
+  constexpr static std::size_t addrs = 0x62769c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::AstNode*>(), { ".ctor", {}, {} })));

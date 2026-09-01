@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceLensFlareResolutionParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceLensFlareResolutionParameter.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceLensFlareResolution_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceLensFlareResolutionParameter_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceLensFlareResolutionParameter::*)(
     ::UnityEngine::Rendering::Universal::ScreenSpaceLensFlareResolution, bool)>(&::UnityEngine::Rendering::Universal::ScreenSpaceLensFlareResolutionParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6877c38;
+  constexpr static std::size_t addrs = 0x687f6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

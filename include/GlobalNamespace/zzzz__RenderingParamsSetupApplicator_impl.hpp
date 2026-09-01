@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RenderingParamsSetupApplicator.hpp"
+// IWYU pragma private; include "GlobalNamespace\RenderingParamsSetupApplicator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RenderingParamsSetupApplicator_def.hpp"
 #include "GlobalNamespace/zzzz__IRenderingParamsApplicator_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RenderingParamsSetupApplicator::*)(::GlobalNamespace::SceneType, ::StringW)>(
     &::GlobalNamespace::RenderingParamsSetupApplicator::Apply)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58fe504;
+  constexpr static std::size_t addrs = 0x5901ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RenderingParamsSetupApplicator*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RenderingParamsSetupApplicator::*)()>(&::GlobalNamespace::RenderingParamsSetupApplicator::ApplyMainSettings)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58fe54c;
+  constexpr static std::size_t addrs = 0x5901b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RenderingParamsSetupApplicator*>(), { "ApplyMainSettings", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RenderingParamsSetupApplicator::*)(::GlobalNamespace::SceneType, ::StringW)>(
     &::GlobalNamespace::RenderingParamsSetupApplicator::ApplyGraphicsSettings)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58fe51c;
+  constexpr static std::size_t addrs = 0x5901aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RenderingParamsSetupApplicator::*)()>(&::GlobalNamespace::RenderingParamsSetupApplicator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58fe67c;
+  constexpr static std::size_t addrs = 0x5901c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RenderingParamsSetupApplicator*>(), { ".ctor", {}, {} })));

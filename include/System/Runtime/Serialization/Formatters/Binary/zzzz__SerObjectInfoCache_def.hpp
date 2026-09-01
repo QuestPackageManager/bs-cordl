@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/SerObjectInfoCache.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\SerObjectInfoCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,10 +84,10 @@ public:
 
   constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x5b5abb4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5f070, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x5b5ac38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5f0f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
 
 protected:

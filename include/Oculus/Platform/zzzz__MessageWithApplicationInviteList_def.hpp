@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithApplicationInviteList.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithApplicationInviteList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithApplicationInviteList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationInviteList*> {
 public:
   // Declarations
-  /// @brief Method GetApplicationInviteList, addr 0x5dd55a4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationInviteList, addr 0x5dd9a60, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationInviteList* GetApplicationInviteList();
 
-  /// @brief Method GetDataFromMessage, addr 0x5dd55e8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5dd9aa4, size 0x98, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationInviteList* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithApplicationInviteList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5dd2b98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd7054, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithApplicationInviteList(MessageWithApplicationInviteList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

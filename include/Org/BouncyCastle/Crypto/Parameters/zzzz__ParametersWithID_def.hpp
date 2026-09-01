@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ParametersWithID.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ParametersWithID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetID, addr 0x3411248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetID, addr 0x3415008, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetID();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithID* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> id);
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::ICipherParameters* value);
 
-  /// @brief Method .ctor, addr 0x34111a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3414f60, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> id);
 
-  /// @brief Method .ctor, addr 0x34111b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3414f78, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> id, int32_t idOff, int32_t idLen);
 
-  /// @brief Method get_Parameters, addr 0x3411250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x3415010, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

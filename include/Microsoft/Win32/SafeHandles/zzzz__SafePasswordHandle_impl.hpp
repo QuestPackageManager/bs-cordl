@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafePasswordHandle.hpp"
+// IWYU pragma private; include "Microsoft\Win32\SafeHandles\SafePasswordHandle.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_impl.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)(::StringW)>(
     &::Microsoft::Win32::SafeHandles::SafePasswordHandle::CreateHandle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ac2d64;
+  constexpr static std::size_t addrs = 0x5ac7220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)()>(&::Microsoft::Win32::SafeHandles::SafePasswordHandle::FreeHandle)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ac2dc0;
+  constexpr static std::size_t addrs = 0x5ac727c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Microsoft::Win32::SafeHandles::SafePasswordHandle*>(), { "FreeHandle", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)(::StringW)>(&::Microsoft::Win32::SafeHandles::SafePasswordHandle::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ac2e20;
+  constexpr static std::size_t addrs = 0x5ac72dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)()>(&::Microsoft::Win32::SafeHandles::SafePasswordHandle::ReleaseHandle)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5ac2e90;
+  constexpr static std::size_t addrs = 0x5ac734c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Microsoft::Win32::SafeHandles::SafePasswordHandle*>(),
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)(bool)>(&::Microsoft::Win32::SafeHandles::SafePasswordHandle::Dispose)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5ac2ebc;
+  constexpr static std::size_t addrs = 0x5ac7378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Microsoft::Win32::SafeHandles::SafePasswordHandle*>(),
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)()>(&::Microsoft::Win32::SafeHandles::SafePasswordHandle::get_IsInvalid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ac2f3c;
+  constexpr static std::size_t addrs = 0x5ac73f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Microsoft::Win32::SafeHandles::SafePasswordHandle*>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)()>(
     &::Microsoft::Win32::SafeHandles::SafePasswordHandle::Mono_DangerousGetString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ac2f4c;
+  constexpr static std::size_t addrs = 0x5ac7408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

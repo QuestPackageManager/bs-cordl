@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScoreModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScoreModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapBasicData_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ScoreModel_NoteScoreDefinition::*)()>(&::GlobalNamespace::ScoreModel_NoteScoreDefinition::get_maxCutScore)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x374eda8;
+  constexpr static std::size_t addrs = 0x37549d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScoreModel_NoteScoreDefinition*>(), { "get_maxCutScore", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ScoreModel_NoteScoreDefinition::*)()>(&::GlobalNamespace::ScoreModel_NoteScoreDefinition::get_executionOrder)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x374feb4;
+  constexpr static std::size_t addrs = 0x3755ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScoreModel_NoteScoreDefinition*>(), { "get_executionOrder", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScoreModel_NoteScoreDefinition::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::ScoreModel_NoteScoreDefinition::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x374fe90;
+  constexpr static std::size_t addrs = 0x3755ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScoreModel_MaxScoreCounterElement::*)(::GlobalNamespace::NoteData_ScoringType, float_t)>(
     &::GlobalNamespace::ScoreModel_MaxScoreCounterElement::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x374f7c0;
+  constexpr static std::size_t addrs = 0x37553f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScoreModel_MaxScoreCounterElement*>(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ScoreModel_MaxScoreCounterElement::*)(::GlobalNamespace::ScoreModel_MaxScoreCounterElement*)>(
     &::GlobalNamespace::ScoreModel_MaxScoreCounterElement::CompareTo)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x374fed0;
+  constexpr static std::size_t addrs = 0x3755b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScoreModel_MaxScoreCounterElement*>(),
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ScoreModel_NoteScoreDefinition* (*)(::GlobalNamespace::NoteData_ScoringType)>(
     &::GlobalNamespace::ScoreModel::GetNoteScoreDefinition)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x374ec68;
+  constexpr static std::size_t addrs = 0x3754898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::BeatmapBasicData*)>(&::GlobalNamespace::ScoreModel::ComputeQuickInaccurateMaxMultipliedScoreForBeatmap)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x374ecf0;
+  constexpr static std::size_t addrs = 0x3754920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(&::GlobalNamespace::ScoreModel::ComputeMaxMultipliedScoreForBeatmap)> {
   constexpr static std::size_t size = 0x9fc;
-  constexpr static std::size_t addrs = 0x374edc4;
+  constexpr static std::size_t addrs = 0x37549f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, float_t)>(&::GlobalNamespace::ScoreModel::GetModifiedScoreForGameplayModifiersScoreMultiplier)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x374f8e4;
+  constexpr static std::size_t addrs = 0x3755514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScoreModel::*)()>(&::GlobalNamespace::ScoreModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x374f968;
+  constexpr static std::size_t addrs = 0x3755598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScoreModel*>(), { ".ctor", {}, {} })));

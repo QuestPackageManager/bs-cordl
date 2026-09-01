@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RenderGraphObjectPool.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RenderGraphObjectPool.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,12 +77,12 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE RenderGraphObjectPool_SharedObjectPoolBase : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x67d9710, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x67e118c, size 0x4, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67d970c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e1188, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   RenderGraphObjectPool_SharedObjectPoolBase(RenderGraphObjectPool_SharedObjectPoolBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12423 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -154,7 +154,7 @@ public:
   SharedObjectPool_1_RenderGraphObjectPool___c(SharedObjectPool_1_RenderGraphObjectPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -210,7 +210,7 @@ public:
   RenderGraphObjectPool_SharedObjectPool_1(RenderGraphObjectPool_SharedObjectPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12425 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -245,7 +245,7 @@ public:
       get = getStaticF_s_AllocatedPools,
       put = setStaticF_s_AllocatedPools)) ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase*>* s_AllocatedPools;
 
-  /// @brief Method Cleanup, addr 0x67d94d8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x67e0f54, size 0x1a4, virtual false, abstract: false, final false
   inline void Cleanup();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -254,7 +254,7 @@ public:
   /// @brief Method GetTempArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T> GetTempArray(int32_t size);
 
-  /// @brief Method GetTempMaterialPropertyBlock, addr 0x67d90e0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetTempMaterialPropertyBlock, addr 0x67e0b5c, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* GetTempMaterialPropertyBlock();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* New_ctor();
@@ -262,7 +262,7 @@ public:
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Release(T value);
 
-  /// @brief Method ReleaseAllTempAlloc, addr 0x67d91dc, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseAllTempAlloc, addr 0x67e0c58, size 0x2fc, virtual false, abstract: false, final false
   inline void ReleaseAllTempAlloc();
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Object*, ::System::ValueTuple_2<::System::Type*, int32_t>>>* const& __cordl_internal_get_m_AllocatedArrays() const;
@@ -286,7 +286,7 @@ public:
   constexpr void
   __cordl_internal_set_m_ArrayPool(::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::Stack_1<::System::Object*>*>* value);
 
-  /// @brief Method .ctor, addr 0x67d8fb8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e0a34, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool_SharedObjectPoolBase*>* getStaticF_s_AllocatedPools();
@@ -308,7 +308,7 @@ public:
   RenderGraphObjectPool(RenderGraphObjectPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12426 };
 
   /// @brief Field m_ArrayPool, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::Stack_1<::System::Object*>*>* ___m_ArrayPool;

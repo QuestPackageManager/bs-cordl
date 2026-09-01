@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Ucs4Encoding1234.hpp"
+// IWYU pragma private; include "System\Xml\Ucs4Encoding1234.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +24,15 @@ public:
   // Declarations
   __declspec(property(get = get_EncodingName)) ::StringW EncodingName;
 
-  /// @brief Method GetPreamble, addr 0x62dbe70, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetPreamble, addr 0x62e38ec, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetPreamble();
 
   static inline ::System::Xml::Ucs4Encoding1234* New_ctor();
 
-  /// @brief Method .ctor, addr 0x62dbc0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e3688, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EncodingName, addr 0x62dbe2c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_EncodingName, addr 0x62e38a8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_EncodingName();
 
 protected:
@@ -50,7 +50,7 @@ public:
   Ucs4Encoding1234(Ucs4Encoding1234 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

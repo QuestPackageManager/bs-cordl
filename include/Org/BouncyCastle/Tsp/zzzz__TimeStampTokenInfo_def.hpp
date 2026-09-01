@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampTokenInfo.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Tsp\TimeStampTokenInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,10 +72,10 @@ public:
   /// @brief Field tstInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tstInfo, put = __cordl_internal_set_tstInfo)) ::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo;
 
-  /// @brief Method GetEncoded, addr 0x3620278, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x3624038, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method GetMessageImprintDigest, addr 0x361d4b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetMessageImprintDigest, addr 0x3621270, size 0x24, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetMessageImprintDigest();
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* New_ctor(::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo);
@@ -92,40 +92,40 @@ public:
 
   constexpr void __cordl_internal_set_tstInfo(::Org::BouncyCastle::Asn1::Tsp::TstInfo* value);
 
-  /// @brief Method .ctor, addr 0x361ee64, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3622c24, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo);
 
-  /// @brief Method get_Accuracy, addr 0x362018c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Accuracy, addr 0x3623f4c, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* get_Accuracy();
 
-  /// @brief Method get_GenTime, addr 0x36201a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenTime, addr 0x3623f64, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_GenTime();
 
-  /// @brief Method get_GenTimeAccuracy, addr 0x36201ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_GenTimeAccuracy, addr 0x3623f6c, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* get_GenTimeAccuracy();
 
-  /// @brief Method get_HashAlgorithm, addr 0x3620254, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x3624014, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_IsOrdered, addr 0x3620160, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_IsOrdered, addr 0x3623f20, size 0x2c, virtual false, abstract: false, final false
   inline bool get_IsOrdered();
 
-  /// @brief Method get_MessageImprintAlgOid, addr 0x361d4d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_MessageImprintAlgOid, addr 0x3621294, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_MessageImprintAlgOid();
 
-  /// @brief Method get_Nonce, addr 0x361d470, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x3621230, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Nonce();
 
-  /// @brief Method get_Policy, addr 0x361d528, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x36212e8, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_Policy();
 
-  /// @brief Method get_SerialNumber, addr 0x3620218, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x3623fd8, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_Tsa, addr 0x362023c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Tsa, addr 0x3623ffc, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Tsa();
 
-  /// @brief Method get_TstInfo, addr 0x3620290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TstInfo, addr 0x3624050, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::TstInfo* get_TstInfo();
 
 protected:

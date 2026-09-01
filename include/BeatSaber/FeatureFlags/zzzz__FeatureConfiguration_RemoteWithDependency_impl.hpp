@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureConfiguration_RemoteWithDependency.hpp"
+// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureConfiguration_RemoteWithDependency.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureConfiguration_Remote_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__Feature_impl.hpp"
 #include "BeatSaber/FeatureFlags/zzzz__FeatureConfiguration_RemoteWithDependency_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FeatureConfiguration_RemoteWithDependency::*)(::StringW, bool, ::BeatSaber::FeatureFlags::Feature)>(
     &::GlobalNamespace::FeatureConfiguration_RemoteWithDependency::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x32879f4;
+  constexpr static std::size_t addrs = 0x328b78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

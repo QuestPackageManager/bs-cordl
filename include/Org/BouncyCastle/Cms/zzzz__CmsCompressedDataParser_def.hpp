@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsCompressedDataParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsCompressedDataParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,17 +27,17 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsCompressedDataParser : public ::Org::BouncyCastle::Cms::CmsContentInfoParser {
 public:
   // Declarations
-  /// @brief Method GetContent, addr 0x36a575c, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x36a951c, size 0x30c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContent();
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::ArrayW<uint8_t> compressedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::System::IO::Stream* compressedData);
 
-  /// @brief Method .ctor, addr 0x36a56e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a94a4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> compressedData);
 
-  /// @brief Method .ctor, addr 0x36a5758, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a9518, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* compressedData);
 
 protected:

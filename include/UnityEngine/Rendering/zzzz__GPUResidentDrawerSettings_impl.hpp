@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUResidentDrawerSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUResidentDrawerSettings.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUResidentDrawerMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUResidentDrawerSettings_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"

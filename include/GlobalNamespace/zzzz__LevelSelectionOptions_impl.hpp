@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LevelSelectionOptions.hpp"
+// IWYU pragma private; include "GlobalNamespace\LevelSelectionOptions.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"

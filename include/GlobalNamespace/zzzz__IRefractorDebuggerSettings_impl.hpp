@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IRefractorDebuggerSettings.hpp"
+// IWYU pragma private; include "GlobalNamespace\IRefractorDebuggerSettings.hpp"
 #include "GlobalNamespace/zzzz__IRefractorDebuggerSettings_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IRefractorDebuggerSettings.get_addMissingLightActions
 template <>

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/ContextCallback.hpp"
+// IWYU pragma private; include "System\Threading\ContextCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ namespace System::Threading {
 class CORDL_TYPE ContextCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5cac0cc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5cb0588, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state);
 
   static inline ::System::Threading::ContextCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5ca91ac, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cad668, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

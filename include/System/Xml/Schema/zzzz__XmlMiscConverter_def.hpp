@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlMiscConverter.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlMiscConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,27 +35,27 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlMiscConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x624dc24, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x62556a0, size 0x4fc, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x624e270, size 0xbf8, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x6255cec, size 0xbf8, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeTypeWildcardDestination, addr 0x624dafc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ChangeTypeWildcardDestination, addr 0x6255578, size 0x128, virtual false, abstract: false, final false
   inline ::System::Object* ChangeTypeWildcardDestination(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeTypeWildcardSource, addr 0x624e120, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ChangeTypeWildcardSource, addr 0x6255b9c, size 0x150, virtual false, abstract: false, final false
   inline ::System::Object* ChangeTypeWildcardSource(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x624d5ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6255028, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlMiscConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToString, addr 0x624d608, size 0x4f4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6255084, size 0x4f4, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x624d540, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6254fbc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:
@@ -73,7 +73,7 @@ public:
   XmlMiscConverter(XmlMiscConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

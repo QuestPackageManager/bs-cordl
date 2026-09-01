@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerIndirectToggle.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerIndirectToggle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,24 +56,24 @@ public:
   /// @brief Field valueToggle, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_valueToggle, put = __cordl_internal_set_valueToggle)) ::UnityW<::UnityEngine::UI::Toggle> valueToggle;
 
-  /// @brief Method Init, addr 0x67f6b78, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x67fe5f4, size 0xf0, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerIndirectToggle* New_ctor();
 
-  /// @brief Method OnAction, addr 0x67fc6f0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method OnAction, addr 0x680416c, size 0x5c, virtual true, abstract: false, final false
   inline void OnAction();
 
-  /// @brief Method OnDeselection, addr 0x67fc6a0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x680411c, size 0x50, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnSelection, addr 0x67fc648, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x68040c4, size 0x58, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method OnToggleValueChanged, addr 0x67fc61c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnToggleValueChanged, addr 0x6804098, size 0x2c, virtual false, abstract: false, final false
   inline void OnToggleValueChanged(bool value);
 
-  /// @brief Method UpdateValueLabel, addr 0x67f6fc8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x67fea44, size 0xac, virtual false, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_checkmarkImage() const;
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_valueToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x67fc74c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68041c8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,7 +130,7 @@ public:
   DebugUIHandlerIndirectToggle(DebugUIHandlerIndirectToggle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12525 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

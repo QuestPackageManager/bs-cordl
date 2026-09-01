@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRSupport.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRSupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRSupport_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::XRSupport.Initialize
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::XR::XRSupport::Initialize)> {
   constexpr static std::size_t size = 0xad8;
-  constexpr static std::size_t addrs = 0x6583a04;
+  constexpr static std::size_t addrs = 0x658b480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRSupport*>(), { "Initialize", {}, {} })));

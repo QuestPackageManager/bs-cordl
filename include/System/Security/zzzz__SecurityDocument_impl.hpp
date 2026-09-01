@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/SecurityDocument.hpp"
+// IWYU pragma private; include "System\Security\SecurityDocument.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/zzzz__SecurityDocument_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecurityDocument::*)(int32_t)>(&::System::Security::SecurityDocument::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ae9d7c;
+  constexpr static std::size_t addrs = 0x5aee238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::SecurityDocument*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecurityDocument::*)(int32_t)>(&::System::Security::SecurityDocument::GuaranteeSize)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5ae9ddc;
+  constexpr static std::size_t addrs = 0x5aee298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecurityDocument::*)(::StringW, ::by_ref<int32_t>)>(&::System::Security::SecurityDocument::AddString)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5ae9e8c;
+  constexpr static std::size_t addrs = 0x5aee348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecurityDocument::*)(::StringW, ::by_ref<int32_t>)>(&::System::Security::SecurityDocument::AppendString)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5ae9fd0;
+  constexpr static std::size_t addrs = 0x5aee48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::System::Security::SecurityDocument::EncodedStringSize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5aea05c;
+  constexpr static std::size_t addrs = 0x5aee518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::SecurityDocument::*)(::by_ref<int32_t>, bool)>(&::System::Security::SecurityDocument::GetString)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x5aea078;
+  constexpr static std::size_t addrs = 0x5aee534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::SecurityDocument::*)(uint8_t, ::by_ref<int32_t>)>(&::System::Security::SecurityDocument::AddToken)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5aea578;
+  constexpr static std::size_t addrs = 0x5aeea34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::SecurityElement* (::System::Security::SecurityDocument::*)()>(&::System::Security::SecurityDocument::GetRootElement)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5aea5d4;
+  constexpr static std::size_t addrs = 0x5aeea90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::SecurityDocument*>(), { "GetRootElement", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::SecurityElement* (::System::Security::SecurityDocument::*)(int32_t, bool)>(
     &::System::Security::SecurityDocument::GetElement)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5aea5f0;
+  constexpr static std::size_t addrs = 0x5aeeaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::SecurityElement* (::System::Security::SecurityDocument::*)(::by_ref<int32_t>, bool)>(
     &::System::Security::SecurityDocument::InternalGetElement)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5aea608;
+  constexpr static std::size_t addrs = 0x5aeeac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

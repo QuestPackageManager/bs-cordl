@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/IEventProperties.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\IEventProperties.hpp"
 #include "UnityEngine/InputForUI/zzzz__IEventProperties_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventSource_def.hpp"

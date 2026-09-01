@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LeaderboardUploadData.hpp"
+// IWYU pragma private; include "GlobalNamespace\LeaderboardUploadData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardUploadData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                           ::StringW, ::StringW, ::System::Collections::Generic::List_1<::StringW>*)>(
     &::GlobalNamespace::LeaderboardUploadData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3750e34;
+  constexpr static std::size_t addrs = 0x3756a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

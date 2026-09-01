@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryUserIdCommand.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\QueryUserIdCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
   constexpr QueryUserIdCommand__idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8979 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -86,10 +86,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x65a6544, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x65adfc0, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand Create();
 
-  /// @brief Method ReadId, addr 0x65a6518, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadId, addr 0x65adf94, size 0x20, virtual false, abstract: false, final false
   inline ::StringW ReadId();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -104,10 +104,10 @@ public:
 
   constexpr void __cordl_internal_set_idBuffer(::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x65a650c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x65adf88, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x65a6538, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x65adfb4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -157,7 +157,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8980 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x208 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ReadOnlyHierarchyViewModelList.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ReadOnlyHierarchyViewModelList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,16 +56,16 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
-  /// @brief Method MoveNext, addr 0x6c466e8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6c4e26c, size 0x20, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x6c46708, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x6c4e28c, size 0x2c, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method .ctor, addr 0x6c464c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4e04c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::HierarchyViewModel* hierarchyViewModel);
 
-  /// @brief Method get_Current, addr 0x6c4667c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x6c4e200, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -134,33 +134,33 @@ public:
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
-  /// @brief Method Add, addr 0x6c46564, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x6c4e0e8, size 0x38, virtual true, abstract: false, final true
   inline int32_t Add(::System::Object* value);
 
-  /// @brief Method Clear, addr 0x6c4659c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x6c4e120, size 0x38, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x6c46188, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x6c4dd0c, size 0x90, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* value);
 
-  /// @brief Method CopyTo, addr 0x6c46390, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x6c4df14, size 0xbc, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x6c4644c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x6c4dfd0, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method IndexOf, addr 0x6c46218, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method IndexOf, addr 0x6c4dd9c, size 0xbc, virtual true, abstract: false, final true
   inline int32_t IndexOf(::System::Object* value);
 
-  /// @brief Method Insert, addr 0x6c465d4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Insert, addr 0x6c4e158, size 0x38, virtual true, abstract: false, final true
   inline void Insert(int32_t index, ::System::Object* value);
 
   static inline ::UnityEngine::UIElements::ReadOnlyHierarchyViewModelList* New_ctor(::Unity::Hierarchy::HierarchyViewModel* viewModel);
 
-  /// @brief Method Remove, addr 0x6c4660c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x6c4e190, size 0x38, virtual true, abstract: false, final true
   inline void Remove(::System::Object* value);
 
-  /// @brief Method RemoveAt, addr 0x6c46644, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method RemoveAt, addr 0x6c4e1c8, size 0x38, virtual true, abstract: false, final true
   inline void RemoveAt(int32_t index);
 
   constexpr ::Unity::Hierarchy::HierarchyViewModel* const& __cordl_internal_get_m_HierarchyViewModel() const;
@@ -169,25 +169,25 @@ public:
 
   constexpr void __cordl_internal_set_m_HierarchyViewModel(::Unity::Hierarchy::HierarchyViewModel* value);
 
-  /// @brief Method .ctor, addr 0x6c462d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4de58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Hierarchy::HierarchyViewModel* viewModel);
 
-  /// @brief Method get_Count, addr 0x6c46170, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x6c4dcf4, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x6c46160, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsFixedSize, addr 0x6c4dce4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c46168, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x6c4dcec, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x6c464f4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x6c4e078, size 0x38, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x6c462dc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x6c4de60, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x6c4652c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x6c4e0b0, size 0x38, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -199,7 +199,7 @@ public:
   /// @brief Convert to "::System::Collections::IList"
   constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  /// @brief Method set_Item, addr 0x6c46358, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x6c4dedc, size 0x38, virtual true, abstract: false, final true
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:

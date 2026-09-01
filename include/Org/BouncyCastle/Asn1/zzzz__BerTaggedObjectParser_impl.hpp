@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerTaggedObjectParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\BerTaggedObjectParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerTaggedObjectParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)(int32_t, int32_t, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Asn1::BerTaggedObjectParser::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3688dec;
+  constexpr static std::size_t addrs = 0x368cbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)(bool, int32_t, ::Org::BouncyCastle::Asn1::Asn1StreamParser*)>(
     &::Org::BouncyCastle::Asn1::BerTaggedObjectParser::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x367ff00;
+  constexpr static std::size_t addrs = 0x3683cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)()>(&::Org::BouncyCastle::Asn1::BerTaggedObjectParser::get_IsConstructed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3688e80;
+  constexpr static std::size_t addrs = 0x368cc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>(), { "get_IsConstructed", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)()>(&::Org::BouncyCastle::Asn1::BerTaggedObjectParser::get_TagNo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3688e88;
+  constexpr static std::size_t addrs = 0x368cc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>(), { "get_TagNo", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible* (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)(int32_t, bool)>(
     &::Org::BouncyCastle::Asn1::BerTaggedObjectParser::GetObjectParser)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3688e90;
+  constexpr static std::size_t addrs = 0x368cc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::BerTaggedObjectParser::*)()>(
     &::Org::BouncyCastle::Asn1::BerTaggedObjectParser::ToAsn1Object)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x367ff10;
+  constexpr static std::size_t addrs = 0x3683cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerTaggedObjectParser*>(), { "ToAsn1Object", {}, {} })));

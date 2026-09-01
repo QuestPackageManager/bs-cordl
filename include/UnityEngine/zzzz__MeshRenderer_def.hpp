@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/MeshRenderer.hpp"
+// IWYU pragma private; include "UnityEngine\MeshRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,42 +32,42 @@ public:
 
   __declspec(property(get = get_subMeshStartIndex)) int32_t subMeshStartIndex;
 
-  /// @brief Method DontStripMeshRenderer, addr 0x6a9ea68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshRenderer, addr 0x6aa6480, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshRenderer();
 
   static inline ::UnityEngine::MeshRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a9f048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aa6a60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_additionalVertexStreams, addr 0x6a9ea6c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams, addr 0x6aa6484, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_additionalVertexStreams();
 
-  /// @brief Method get_additionalVertexStreams_Injected, addr 0x6a9ebbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams_Injected, addr 0x6aa65d4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_additionalVertexStreams_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_enlightenVertexStream, addr 0x6a9ecfc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenVertexStream, addr 0x6aa6714, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_enlightenVertexStream();
 
-  /// @brief Method get_enlightenVertexStream_Injected, addr 0x6a9ee4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenVertexStream_Injected, addr 0x6aa6864, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_enlightenVertexStream_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_subMeshStartIndex, addr 0x6a9ef8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshStartIndex, addr 0x6aa69a4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_subMeshStartIndex();
 
-  /// @brief Method get_subMeshStartIndex_Injected, addr 0x6a9f00c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshStartIndex_Injected, addr 0x6aa6a24, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_subMeshStartIndex_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_additionalVertexStreams, addr 0x6a9ebf8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_additionalVertexStreams, addr 0x6aa6610, size 0xc0, virtual false, abstract: false, final false
   inline void set_additionalVertexStreams(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_additionalVertexStreams_Injected, addr 0x6a9ecb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_additionalVertexStreams_Injected, addr 0x6aa66d0, size 0x44, virtual false, abstract: false, final false
   static inline void set_additionalVertexStreams_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_enlightenVertexStream, addr 0x6a9ee88, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_enlightenVertexStream, addr 0x6aa68a0, size 0xc0, virtual false, abstract: false, final false
   inline void set_enlightenVertexStream(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_enlightenVertexStream_Injected, addr 0x6a9ef48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enlightenVertexStream_Injected, addr 0x6aa6960, size 0x44, virtual false, abstract: false, final false
   static inline void set_enlightenVertexStream_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   MeshRenderer(MeshRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10211 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

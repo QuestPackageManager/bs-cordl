@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlLinkedNode.hpp"
+// IWYU pragma private; include "System\Xml\XmlLinkedNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set_next(::System::Xml::XmlLinkedNode* value);
 
-  /// @brief Method .ctor, addr 0x62b2c5c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ba6d8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_NextSibling, addr 0x62bafc8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_NextSibling, addr 0x62c2a44, size 0x50, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_NextSibling();
 
-  /// @brief Method get_PreviousSibling, addr 0x62baf60, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_PreviousSibling, addr 0x62c29dc, size 0x68, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_PreviousSibling();
 
 protected:
@@ -64,7 +64,7 @@ public:
   XmlLinkedNode(XmlLinkedNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9393 };
 
   /// @brief Field next, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::XmlLinkedNode* ___next;

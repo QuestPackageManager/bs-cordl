@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ButtonForAction.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ButtonForAction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__hook(::Meta::XR::ImmersiveDebugger::Manager::ActionHook* value);
 
-  /// @brief Method .ctor, addr 0x5a53b14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a57fd0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Action, addr 0x5a53b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Action, addr 0x5a57fc8, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::ActionHook* get_Action();
 
-  /// @brief Method set_Action, addr 0x5a506b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Action, addr 0x5a54b70, size 0x1c, virtual false, abstract: false, final false
   inline void set_Action(::Meta::XR::ImmersiveDebugger::Manager::ActionHook* value);
 
 protected:
@@ -59,7 +59,7 @@ public:
   ButtonForAction(ButtonForAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18388 };
 
   /// @brief Field _hook, offset: 0xa0, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Manager::ActionHook* ____hook;

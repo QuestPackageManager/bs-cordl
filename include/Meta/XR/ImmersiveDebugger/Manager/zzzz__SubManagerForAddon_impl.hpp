@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/SubManagerForAddon.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\SubManagerForAddon.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Manager/zzzz__SubManagerForAddon_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/Hierarchy/zzzz__Item_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::IDebugUIPanel*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache*)>(&::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a6265c;
+  constexpr static std::size_t addrs = 0x5a66b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::*)(::System::Type*)>(
     &::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::ProcessType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a62664;
+  constexpr static std::size_t addrs = 0x5a66b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Immersi
     ::System::Type*, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle, ::System::Reflection::MemberInfo*, ::Meta::XR::ImmersiveDebugger::DebugMember*)>(
     &::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::ProcessTypeFromInspector)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x5a6269c;
+  constexpr static std::size_t addrs = 0x5a66b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::*)(
     ::Meta::XR::ImmersiveDebugger::Hierarchy::Item*, ::System::Reflection::MemberInfo*)>(&::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::ProcessTypeFromHierarchy)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x5a629bc;
+  constexpr static std::size_t addrs = 0x5a66e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::*)(::System::Type*)>(
     &::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::GetCountPerType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5a62d0c;
+  constexpr static std::size_t addrs = 0x5a671c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5a62da4;
+  constexpr static std::size_t addrs = 0x5a67260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::SubManagerForAddon*>(), { ".ctor", {}, {} })));

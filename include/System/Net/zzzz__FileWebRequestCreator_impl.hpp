@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/FileWebRequestCreator.hpp"
+// IWYU pragma private; include "System\Net\FileWebRequestCreator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__FileWebRequestCreator_def.hpp"
 #include "System/Net/zzzz__IWebRequestCreate_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FileWebRequestCreator::*)()>(&::System::Net::FileWebRequestCreator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x641c498;
+  constexpr static std::size_t addrs = 0x6423f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FileWebRequestCreator*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebRequest* (::System::Net::FileWebRequestCreator::*)(::System::Uri*)>(&::System::Net::FileWebRequestCreator::Create)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x641c49c;
+  constexpr static std::size_t addrs = 0x6423f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

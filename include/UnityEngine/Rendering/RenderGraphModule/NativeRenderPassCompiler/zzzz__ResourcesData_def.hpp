@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/NativeRenderPassCompiler/ResourcesData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\NativeRenderPassCompiler\ResourcesData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,19 +68,19 @@ public:
       put = __cordl_internal_set_versionedData)) ::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData>>
       versionedData;
 
-  /// @brief Method Clear, addr 0x67f5cb0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x67fd72c, size 0x170, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x67f6634, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x67fe0b0, size 0x104, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Index, addr 0x67f654c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Index, addr 0x67fdfc8, size 0x70, virtual false, abstract: false, final false
   inline int32_t Index(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h);
 
-  /// @brief Method IndexReader, addr 0x67f65bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IndexReader, addr 0x67fe038, size 0x78, virtual false, abstract: false, final false
   inline int32_t IndexReader(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h, int32_t readerID);
 
-  /// @brief Method Initialize, addr 0x67f5e20, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x67fd89c, size 0x72c, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourcesData* New_ctor();
@@ -124,10 +124,10 @@ public:
 
   constexpr void __cordl_internal_set_versionedData(::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData>> value);
 
-  /// @brief Method .ctor, addr 0x67f59ec, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fd468, size 0x2c4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x67f40f8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x67fbb74, size 0x150, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceVersionedData> get_Item(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle h);
 
 protected:
@@ -145,7 +145,7 @@ public:
   ResourcesData(ResourcesData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12503 };
 
   /// @brief Field unversionedData, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData>> ___unversionedData;

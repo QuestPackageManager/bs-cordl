@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "VRUIControls/ButtonState.hpp"
+// IWYU pragma private; include "VRUIControls\ButtonState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,25 +62,25 @@ public:
 
   constexpr void __cordl_internal_set__pressedValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x6e32a4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3a5d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x6e32a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x6e3a5b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::PointerEventData_InputButton get_button();
 
-  /// @brief Method get_eventData, addr 0x6e32a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventData, addr 0x6e3a5a0, size 0x8, virtual false, abstract: false, final false
   inline ::VRUIControls::MouseButtonEventData* get_eventData();
 
-  /// @brief Method get_pressedValue, addr 0x6e32a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedValue, addr 0x6e3a5c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedValue();
 
-  /// @brief Method set_button, addr 0x6e32a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x6e3a5b8, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::EventSystems::PointerEventData_InputButton value);
 
-  /// @brief Method set_eventData, addr 0x6e32a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventData, addr 0x6e3a5a8, size 0x8, virtual false, abstract: false, final false
   inline void set_eventData(::VRUIControls::MouseButtonEventData* value);
 
-  /// @brief Method set_pressedValue, addr 0x6e32a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedValue, addr 0x6e3a5c8, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedValue(float_t value);
 
 protected:
@@ -98,7 +98,7 @@ public:
   ButtonState(ButtonState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22820 };
 
   /// @brief Field _button, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::EventSystems::PointerEventData_InputButton ____button;

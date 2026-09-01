@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/TimeZone.hpp"
+// IWYU pragma private; include "System\TimeZone.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeZone_def.hpp"
 #include "System/Globalization/zzzz__DaylightTime_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)()>(&::System::TimeZone::get_InternalSyncObject)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5c5b608;
+  constexpr static std::size_t addrs = 0x5c5fac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TimeZone*>(), { "get_InternalSyncObject", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TimeZone::*)()>(&::System::TimeZone::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c5b6a0;
+  constexpr static std::size_t addrs = 0x5c5fb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TimeZone*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeZone* (*)()>(&::System::TimeZone::get_CurrentTimeZone)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5c5b6a4;
+  constexpr static std::size_t addrs = 0x5c5fb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TimeZone*>(), { "get_CurrentTimeZone", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::TimeZone::*)(::System::DateTime)>(&::System::TimeZone::ToLocalTime)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5c5b804;
+  constexpr static std::size_t addrs = 0x5c5fcc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::TimeZone*>(), { ::i2c::class_of<::System::TimeZone*>(), 5 }));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (*)(::System::DateTime, ::System::Globalization::DaylightTime*)>(&::System::TimeZone::CalculateUtcOffset)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x5c5b928;
+  constexpr static std::size_t addrs = 0x5c5fde4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

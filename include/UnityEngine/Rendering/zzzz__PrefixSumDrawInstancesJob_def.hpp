@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/PrefixSumDrawInstancesJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\PrefixSumDrawInstancesJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6814360, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x681bddc, size 0x300, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -52,7 +52,7 @@ public:
                                       ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch> drawBatches, ::Unity::Collections::NativeArray_1<int32_t> drawBatchIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17666 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

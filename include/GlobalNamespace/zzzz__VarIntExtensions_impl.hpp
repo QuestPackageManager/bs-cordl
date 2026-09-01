@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/VarIntExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\VarIntExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__VarIntExtensions_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::LiteNetLib::Utils::NetDataWriter*, int32_t)>(&::GlobalNamespace::VarIntExtensions::PutVarInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3778068;
+  constexpr static std::size_t addrs = 0x377ddf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VarIntExtensions*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::VarIntExtensions::GetVarInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3778420;
+  constexpr static std::size_t addrs = 0x377e1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::LiteNetLib::Utils::NetDataWriter*, uint32_t)>(&::GlobalNamespace::VarIntExtensions::PutVarUInt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3775018;
+  constexpr static std::size_t addrs = 0x377ac84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::VarIntExtensions::GetVarUInt)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3774f98;
+  constexpr static std::size_t addrs = 0x377ac04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::LiteNetLib::Utils::NetDataWriter*, int64_t)>(&::GlobalNamespace::VarIntExtensions::PutVarLong)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x377f6a8;
+  constexpr static std::size_t addrs = 0x3785430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::VarIntExtensions::GetVarLong)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x377f6c4;
+  constexpr static std::size_t addrs = 0x378544c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::LiteNetLib::Utils::NetDataWriter*, uint64_t)>(&::GlobalNamespace::VarIntExtensions::PutVarULong)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x377f6e0;
+  constexpr static std::size_t addrs = 0x3785468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::VarIntExtensions::GetVarULong)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x377f730;
+  constexpr static std::size_t addrs = 0x37854b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::LiteNetLib::Utils::NetDataReader*, ::by_ref<uint32_t>)>(&::GlobalNamespace::VarIntExtensions::TryGetVarUInt)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x377f7a4;
+  constexpr static std::size_t addrs = 0x378552c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::LiteNetLib::Utils::NetDataReader*, ::by_ref<uint64_t>)>(&::GlobalNamespace::VarIntExtensions::TryGetVarULong)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x377f7e4;
+  constexpr static std::size_t addrs = 0x378556c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::VarIntExtensions::GetSize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x377c25c;
+  constexpr static std::size_t addrs = 0x3781fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VarIntExtensions*>(), { "GetSize", {}, { ::i2c::type_of<int32_t>() } })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint32_t)>(&::GlobalNamespace::VarIntExtensions::GetSize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x377f894;
+  constexpr static std::size_t addrs = 0x378561c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int64_t)>(&::GlobalNamespace::VarIntExtensions::GetSize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x377f85c;
+  constexpr static std::size_t addrs = 0x37855e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VarIntExtensions*>(), { "GetSize", {}, { ::i2c::type_of<int64_t>() } })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t)>(&::GlobalNamespace::VarIntExtensions::GetSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x377f8b8;
+  constexpr static std::size_t addrs = 0x3785640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRDeviceDescriptor.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\XR\XRDeviceDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,12 +47,12 @@ public:
   /// @brief Field serialNumber, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber)) ::StringW serialNumber;
 
-  /// @brief Method FromJson, addr 0x657ff24, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x65879a0, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* FromJson(::StringW json);
 
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* New_ctor();
 
-  /// @brief Method ToJson, addr 0x65830b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x658ab2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
   constexpr ::UnityEngine::XR::InputDeviceCharacteristics const& __cordl_internal_get_characteristics() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set_serialNumber(::StringW value);
 
-  /// @brief Method .ctor, addr 0x65830b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x658ab34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,7 +109,7 @@ public:
   XRDeviceDescriptor(XRDeviceDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8824 };
 
   /// @brief Field deviceName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___deviceName;

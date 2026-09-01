@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Media.hpp"
+// IWYU pragma private; include "Oculus\Platform\Media.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Media : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShareToFacebook, addr 0x5de5fbc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ShareToFacebook, addr 0x5dea478, size 0x180, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath,
                                                                                                               ::Oculus::Platform::MediaContentType contentType);
 
@@ -48,7 +48,7 @@ public:
   Media(Media const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17962 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/IncrementStripIndexOnStart.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\IncrementStripIndexOnStart.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VFXSpawnerCallbacks_impl.hpp"
 #include "UnityEngine/VFX/zzzz__IncrementStripIndexOnStart_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::IncrementStripIndexOnStart_InputProperties::*)()>(
     &::UnityEngine::VFX::IncrementStripIndexOnStart_InputProperties::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69c9e64;
+  constexpr static std::size_t addrs = 0x69d18e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::IncrementStripIndexOnStart_InputProperties*>(), { ".ctor", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::IncrementStripIndexOnStart::*)(
     ::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*, ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::IncrementStripIndexOnStart::OnPlay)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x69c9ca4;
+  constexpr static std::size_t addrs = 0x69d1720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::IncrementStripIndexOnStart::*)(
     ::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*, ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::IncrementStripIndexOnStart::OnStop)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c9dac;
+  constexpr static std::size_t addrs = 0x69d1828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::IncrementStripIndexOnStart::*)(
     ::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*, ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::IncrementStripIndexOnStart::OnUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69c9db4;
+  constexpr static std::size_t addrs = 0x69d1830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::IncrementStripIndexOnStart::*)()>(&::UnityEngine::VFX::IncrementStripIndexOnStart::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c9db8;
+  constexpr static std::size_t addrs = 0x69d1834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::IncrementStripIndexOnStart*>(), { ".ctor", {}, {} })));

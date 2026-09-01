@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/EnumInfo.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\EnumInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__EnumInfo_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumInfo._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::EnumInfo::*)(bool, ::ArrayW<uint64_t>, ::ArrayW<::StringW>, ::ArrayW<::StringW>)>(
     &::Newtonsoft::Json::Utilities::EnumInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d21eb4;
+  constexpr static std::size_t addrs = 0x5d26370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

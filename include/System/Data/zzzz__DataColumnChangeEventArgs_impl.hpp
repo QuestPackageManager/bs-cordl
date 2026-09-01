@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/DataColumnChangeEventArgs.hpp"
+// IWYU pragma private; include "System\Data\DataColumnChangeEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Data/zzzz__DataColumnChangeEventArgs_def.hpp"
 #include "System/Data/zzzz__DataColumn_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnChangeEventArgs::*)(::System::Data::DataRow*)>(&::System::Data::DataColumnChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6018b88;
+  constexpr static std::size_t addrs = 0x6020604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnChangeEventArgs::*)(::System::Data::DataRow*, ::System::Data::DataColumn*, ::System::Object*)>(
     &::System::Data::DataColumnChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6018bec;
+  constexpr static std::size_t addrs = 0x6020668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::DataColumnChangeEventArgs::*)()>(&::System::Data::DataColumnChangeEventArgs::get_ProposedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6018c64;
+  constexpr static std::size_t addrs = 0x60206e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnChangeEventArgs*>(), { "get_ProposedValue", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnChangeEventArgs::*)(::System::Object*)>(&::System::Data::DataColumnChangeEventArgs::set_ProposedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6018c6c;
+  constexpr static std::size_t addrs = 0x60206e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnChangeEventArgs::*)(::System::Data::DataColumn*, ::System::Object*)>(
     &::System::Data::DataColumnChangeEventArgs::InitializeColumnChangeEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6018c74;
+  constexpr static std::size_t addrs = 0x60206f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

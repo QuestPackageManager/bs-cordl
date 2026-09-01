@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/LightRenderingMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\LightRenderingMode.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__LightRenderingMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::LightRenderingMode::LightRenderingMode(int32_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "IgnoranceCore/IgnoranceServer.hpp"
+// IWYU pragma private; include "IgnoranceCore\IgnoranceServer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
                                             ::StringW Address, bool UseSsl, ::StringW CertificatePath, ::StringW Certificate, ::StringW PrivateKeyPath, ::StringW PrivateKey) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21737 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -240,16 +240,16 @@ public:
 
   static inline ::IgnoranceCore::IgnoranceServer* New_ctor();
 
-  /// @brief Method SetupRingBuffersIfNull, addr 0x58982a4, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method SetupRingBuffersIfNull, addr 0x5897c6c, size 0x258, virtual false, abstract: false, final false
   inline void SetupRingBuffersIfNull();
 
-  /// @brief Method Start, addr 0x5897eb4, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x589787c, size 0x3f0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x58984fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x5897ec4, size 0xa4, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method ThreadWorker, addr 0x58985a0, size 0x1494, virtual false, abstract: false, final false
+  /// @brief Method ThreadWorker, addr 0x5897f68, size 0x1494, virtual false, abstract: false, final false
   inline void ThreadWorker(::System::Object* parameters);
 
   constexpr ::StringW const& __cordl_internal_get_BindAddress() const;
@@ -402,10 +402,10 @@ public:
 
   constexpr void __cordl_internal_set_WorkerThread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x5899a34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58993fc, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsAlive, addr 0x5897ea0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x5897868, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsAlive();
 
 protected:
@@ -423,7 +423,7 @@ public:
   IgnoranceServer(IgnoranceServer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21738 };
 
   /// @brief Field BindAddress, offset: 0x10, size: 0x8, def value: None
   ::StringW ___BindAddress;

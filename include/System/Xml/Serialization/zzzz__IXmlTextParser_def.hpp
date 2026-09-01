@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/IXmlTextParser.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\IXmlTextParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   IXmlTextParser(IXmlTextParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

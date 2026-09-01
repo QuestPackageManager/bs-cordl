@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ObstacleShaderWarmup.hpp"
+// IWYU pragma private; include "GlobalNamespace\ObstacleShaderWarmup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::ObstacleShaderWarmup* New_ctor();
 
-  /// @brief Method Start, addr 0x58dbc54, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58db604, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ObstacleMaterialSetter> const& __cordl_internal_get__obstacleMaterialSetter() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x58dbca4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58db654, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapObjectSpawnCenter.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapObjectSpawnCenter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::get_playerCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ca33c;
+  constexpr static std::size_t addrs = 0x58c9cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::get_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ca344;
+  constexpr static std::size_t addrs = 0x58c9cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58ca34c;
+  constexpr static std::size_t addrs = 0x58c9cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnCenter::*)()>(&::GlobalNamespace::BeatmapObjectSpawnCenter::get_spawnCenterDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58c9ffc;
+  constexpr static std::size_t addrs = 0x58c99ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectSpawnCenter*>(), { "get_spawnCenterDistance", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapObjectSpawnCenter::*)()>(&::GlobalNamespace::BeatmapObjectSpawnCenter::get_spawnCenterDistanceWasFound)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ca004;
+  constexpr static std::size_t addrs = 0x58c99b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnCenter::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter::add_spawnCenterDistanceWasFoundEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58ca00c;
+  constexpr static std::size_t addrs = 0x58c99bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectSpawnCenter*>(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnCenter::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter::remove_spawnCenterDistanceWasFoundEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58ca0cc;
+  constexpr static std::size_t addrs = 0x58c9a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectSpawnCenter*>(),
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnCenter::*)(int32_t)>(&::GlobalNamespace::BeatmapObjectSpawnCenter::CalculateSpawnCenterPosition)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x58ca18c;
+  constexpr static std::size_t addrs = 0x58c9b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnCenter::*)(float_t)>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter::ReportAndSaveSpawnCenterDistance)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58ca308;
+  constexpr static std::size_t addrs = 0x58c9cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnCenter::*)()>(&::GlobalNamespace::BeatmapObjectSpawnCenter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58ca330;
+  constexpr static std::size_t addrs = 0x58c9ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectSpawnCenter*>(), { ".ctor", {}, {} })));

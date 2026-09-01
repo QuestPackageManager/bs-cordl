@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameServerListTableCell.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameServerListTableCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerListTableCell* New_ctor();
 
-  /// @brief Method SetData, addr 0x59f98d4, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5a019a8, size 0x428, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::INetworkPlayer* player);
 
   constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__difficultiesText() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  /// @brief Method .ctor, addr 0x59f9cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a01dd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   GameServerListTableCell(GameServerListTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6323 };
 
   /// @brief Field _serverName, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____serverName;

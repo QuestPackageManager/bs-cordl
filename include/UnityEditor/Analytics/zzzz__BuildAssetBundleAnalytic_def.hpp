@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor/Analytics/BuildAssetBundleAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor\Analytics\BuildAssetBundleAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   /// @brief Field success, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get_success, put = __cordl_internal_set_success)) bool success;
 
-  /// @brief Method CreateBuildAssetBundleAnalytic, addr 0x6e1d20c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateBuildAssetBundleAnalytic, addr 0x6e24d90, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::BuildAssetBundleAnalytic* CreateBuildAssetBundleAnalytic();
 
   static inline ::UnityEditor::Analytics::BuildAssetBundleAnalytic* New_ctor();
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_success(bool value);
 
-  /// @brief Method .ctor, addr 0x6e1d194, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e24d18, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   BuildAssetBundleAnalytic(BuildAssetBundleAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23000 };
 
   /// @brief Field success, offset: 0x2c, size: 0x1, def value: None
   bool ___success;

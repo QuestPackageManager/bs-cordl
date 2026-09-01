@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Assets/OVR/Scripts/FixRecord.hpp"
+// IWYU pragma private; include "Assets\OVR\Scripts\FixRecord.hpp"
 #include "Assets/OVR/Scripts/zzzz__Record_impl.hpp"
 #include "Assets/OVR/Scripts/zzzz__FixRecord_def.hpp"
 #include "Assets/OVR/Scripts/zzzz__FixMethodDelegate_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Assets::OVR::Scripts::FixRecord::*)(int32_t, ::StringW, ::StringW, ::Assets::OVR::Scripts::FixMethodDelegate*, ::UnityEngine::Object*,
                                                                                                    bool, ::ArrayW<::StringW>)>(&::Assets::OVR::Scripts::FixRecord::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e45984;
+  constexpr static std::size_t addrs = 0x5e49e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

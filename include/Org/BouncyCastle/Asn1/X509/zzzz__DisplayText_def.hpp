@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/DisplayText.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\DisplayText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +42,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x3656ecc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x365ac8c, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DisplayText* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetString, addr 0x36570ac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x365ae6c, size 0xa4, virtual false, abstract: false, final false
   inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::X509::DisplayText* New_ctor(::Org::BouncyCastle::Asn1::IAsn1String* contents);
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::DisplayText* New_ctor(int32_t type, ::StringW text);
 
-  /// @brief Method ToAsn1Object, addr 0x3657030, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x365adf0, size 0x7c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr int32_t const& __cordl_internal_get_contentType() const;
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set_contents(::Org::BouncyCastle::Asn1::IAsn1String* value);
 
-  /// @brief Method .ctor, addr 0x3656ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365ac84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::IAsn1String* contents);
 
-  /// @brief Method .ctor, addr 0x3656e24, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365abe4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x3656cc4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365aa84, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::StringW text);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

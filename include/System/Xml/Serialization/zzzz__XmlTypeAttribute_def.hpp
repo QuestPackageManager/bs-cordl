@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlTypeAttribute.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   /// @brief Field typeName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method AddKeyHash, addr 0x630a694, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x6312110, size 0xac, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr bool const& __cordl_internal_get_includeInSchema() const;
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method get_IncludeInSchema, addr 0x630a664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeInSchema, addr 0x63120e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeInSchema();
 
-  /// @brief Method get_Namespace, addr 0x630a66c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x63120e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_TypeName, addr 0x630a674, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x63120f0, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:
@@ -83,7 +83,7 @@ public:
   XmlTypeAttribute(XmlTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9545 };
 
   /// @brief Field includeInSchema, offset: 0x10, size: 0x1, def value: None
   bool ___includeInSchema;

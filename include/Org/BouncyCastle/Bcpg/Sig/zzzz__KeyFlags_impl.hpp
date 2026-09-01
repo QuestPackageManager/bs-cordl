@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/KeyFlags.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Sig\KeyFlags.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Sig/zzzz__KeyFlags_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::Sig::KeyFlags.IntToByteArray
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int32_t)>(&::Org::BouncyCastle::Bcpg::Sig::KeyFlags::IntToByteArray)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3690f20;
+  constexpr static std::size_t addrs = 0x3694ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::KeyFlags::*)(bool, bool, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::Sig::KeyFlags::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3690ff0;
+  constexpr static std::size_t addrs = 0x3694db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::KeyFlags*>(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::KeyFlags::*)(bool, int32_t)>(&::Org::BouncyCastle::Bcpg::Sig::KeyFlags::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3691008;
+  constexpr static std::size_t addrs = 0x3694dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::Sig::KeyFlags::*)()>(&::Org::BouncyCastle::Bcpg::Sig::KeyFlags::get_Flags)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3691040;
+  constexpr static std::size_t addrs = 0x3694e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::KeyFlags*>(), { "get_Flags", {}, {} })));

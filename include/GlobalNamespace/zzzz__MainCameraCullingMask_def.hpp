@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MainCameraCullingMask.hpp"
+// IWYU pragma private; include "GlobalNamespace\MainCameraCullingMask.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_showDebris(bool value);
 
-  /// @brief Method .ctor, addr 0x5f3e534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f429a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool showDebris);
 
 protected:
@@ -60,7 +60,7 @@ public:
   MainCameraCullingMask_InitData(MainCameraCullingMask_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20629 };
 
   /// @brief Field showDebris, offset: 0x10, size: 0x1, def value: None
   bool ___showDebris;
@@ -90,7 +90,7 @@ public:
 
   static inline ::GlobalNamespace::MainCameraCullingMask* New_ctor();
 
-  /// @brief Method Start, addr 0x5f3e3e8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5f42854, size 0xec, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::MainCameraCullingMask_InitData* value);
 
-  /// @brief Method .ctor, addr 0x5f3e4d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f42940, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   MainCameraCullingMask(MainCameraCullingMask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20630 };
 
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;

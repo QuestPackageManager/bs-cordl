@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/SafeSerializationEventArgs.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\SafeSerializationEventArgs.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SafeSerializationEventArgs_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::SafeSerializationEventArgs::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Serialization::SafeSerializationEventArgs::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5b4fa80;
+  constexpr static std::size_t addrs = 0x5b53f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::SafeSerializationEventArgs*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<::System::Object*>* (::System::Runtime::Serialization::SafeSerializationEventArgs::*)()>(
     &::System::Runtime::Serialization::SafeSerializationEventArgs::get_SerializedStates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b4fb30;
+  constexpr static std::size_t addrs = 0x5b53fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

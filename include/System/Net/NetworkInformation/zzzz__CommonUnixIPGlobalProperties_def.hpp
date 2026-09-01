@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/CommonUnixIPGlobalProperties.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\CommonUnixIPGlobalProperties.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +26,13 @@ public:
 
   static inline ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x634f3f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6356e6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DomainName, addr 0x634f250, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method get_DomainName, addr 0x6356ccc, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW get_DomainName();
 
-  /// @brief Method getdomainname, addr 0x634f1c4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method getdomainname, addr 0x6356c40, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t getdomainname(::ArrayW<uint8_t> name, int32_t len);
 
 protected:
@@ -50,7 +50,7 @@ public:
   CommonUnixIPGlobalProperties(CommonUnixIPGlobalProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

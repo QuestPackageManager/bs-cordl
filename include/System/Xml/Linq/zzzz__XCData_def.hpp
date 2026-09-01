@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/XCData.hpp"
+// IWYU pragma private; include "System\Xml\Linq\XCData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,23 +31,23 @@ public:
   // Declarations
   __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  /// @brief Method CloneNode, addr 0x619c968, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x61a43e4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XCData* New_ctor(::System::Xml::Linq::XCData* other);
 
   static inline ::System::Xml::Linq::XCData* New_ctor(::StringW value);
 
-  /// @brief Method WriteTo, addr 0x619c8fc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x61a4378, size 0x6c, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method .ctor, addr 0x619c894, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a4310, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XCData* other);
 
-  /// @brief Method .ctor, addr 0x619c838, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a42b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_NodeType, addr 0x619c8f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x61a4370, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
 protected:
@@ -65,7 +65,7 @@ public:
   XCData(XCData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

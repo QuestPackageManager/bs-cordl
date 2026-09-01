@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/Utils/InvalidTypeException.hpp"
+// IWYU pragma private; include "LiteNetLib\Utils\InvalidTypeException.hpp"
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__InvalidTypeException_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::Utils::InvalidTypeException._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::InvalidTypeException::*)(::StringW)>(&::LiteNetLib::Utils::InvalidTypeException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58ace58;
+  constexpr static std::size_t addrs = 0x58ac820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

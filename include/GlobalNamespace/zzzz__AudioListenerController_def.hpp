@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioListenerController.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioListenerController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,18 +24,18 @@ public:
 
   __declspec(property(get = get_isPaused)) bool isPaused;
 
-  /// @brief Method Awake, addr 0x58b500c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58b4974, size 0x44, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AudioListenerController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58b5050, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58b49b8, size 0x40, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x58b5090, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x58b49f8, size 0x30, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x58b50c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x58b4a28, size 0x30, virtual false, abstract: false, final false
   inline void Resume();
 
   constexpr bool const& __cordl_internal_get__startAudioListenerPauseState() const;
@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set__startAudioListenerPauseState(bool value);
 
-  /// @brief Method .ctor, addr 0x58b50f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b4a58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isPaused, addr 0x58b4fe4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isPaused, addr 0x58b494c, size 0x28, virtual false, abstract: false, final false
   inline bool get_isPaused();
 
 protected:

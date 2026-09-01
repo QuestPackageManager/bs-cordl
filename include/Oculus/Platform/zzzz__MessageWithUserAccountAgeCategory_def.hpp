@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithUserAccountAgeCategory.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithUserAccountAgeCategory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUserAccountAgeCategory : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5dd8dd0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5ddd28c, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserAccountAgeCategory* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetUserAccountAgeCategory, addr 0x5dd8d8c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetUserAccountAgeCategory, addr 0x5ddd248, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserAccountAgeCategory* GetUserAccountAgeCategory();
 
   static inline ::Oculus::Platform::MessageWithUserAccountAgeCategory* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5dd3c7c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd8138, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithUserAccountAgeCategory(MessageWithUserAccountAgeCategory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17922 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

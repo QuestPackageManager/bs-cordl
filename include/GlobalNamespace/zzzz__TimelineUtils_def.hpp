@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TimelineUtils.hpp"
+// IWYU pragma private; include "GlobalNamespace\TimelineUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE TimelineUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindTrackAssetByName, addr 0x5906ff0, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method FindTrackAssetByName, addr 0x590a5dc, size 0x3cc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::TrackAsset> FindTrackAssetByName(::UnityEngine::Timeline::TimelineAsset* timeline, ::StringW name);
 
 protected:
@@ -44,7 +44,7 @@ public:
   TimelineUtils(TimelineUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6705 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

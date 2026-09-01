@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "LufsMetering/LoudnessData.hpp"
+// IWYU pragma private; include "LufsMetering\LoudnessData.hpp"
 #include "LufsMetering/zzzz__LoudnessData_def.hpp"
 //  Writing Method size for method: ::LufsMetering::LoudnessData._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LufsMetering::LoudnessData::*)(float_t, ::ArrayW<float_t>, float_t)>(&::LufsMetering::LoudnessData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3264ec8;
+  constexpr static std::size_t addrs = 0x3268260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

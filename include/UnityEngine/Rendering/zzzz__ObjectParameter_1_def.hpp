@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ObjectParameter_1.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ObjectParameter_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,7 +91,7 @@ public:
   ObjectParameter_1___c(ObjectParameter_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -169,7 +169,7 @@ public:
   ObjectParameter_1(ObjectParameter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12372 };
 
   /// @brief Field <parameters>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* ____parameters_k__BackingField;

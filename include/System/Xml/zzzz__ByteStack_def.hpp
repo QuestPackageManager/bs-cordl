@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/ByteStack.hpp"
+// IWYU pragma private; include "System\Xml\ByteStack.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
 
   static inline ::System::Xml::ByteStack* New_ctor(int32_t growthRate);
 
-  /// @brief Method Pop, addr 0x61a500c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x61aca88, size 0x48, virtual false, abstract: false, final false
   inline uint8_t Pop();
 
-  /// @brief Method Push, addr 0x61a4f30, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x61ac9ac, size 0xdc, virtual false, abstract: false, final false
   inline void Push(uint8_t data);
 
   constexpr int32_t const& __cordl_internal_get_growthRate() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_top(int32_t value);
 
-  /// @brief Method .ctor, addr 0x61a4ec8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ac944, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t growthRate);
 
 protected:
@@ -83,7 +83,7 @@ public:
   ByteStack(ByteStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9262 };
 
   /// @brief Field stack, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ___stack;

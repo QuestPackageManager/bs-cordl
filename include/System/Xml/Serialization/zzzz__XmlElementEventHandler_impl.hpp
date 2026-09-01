@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlElementEventHandler.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlElementEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlElementEventHandler_def.hpp"
 #include "System/Xml/Serialization/zzzz__XmlElementEventArgs_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlElementEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::Serialization::XmlElementEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x62e3aac;
+  constexpr static std::size_t addrs = 0x62eb528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlElementEventHandler*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlElementEventHandler::*)(::System::Object*, ::System::Xml::Serialization::XmlElementEventArgs*)>(
     &::System::Xml::Serialization::XmlElementEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62e3bf4;
+  constexpr static std::size_t addrs = 0x62eb670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlElementEventHandler*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SaberClashChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace\SaberClashChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,15 +46,15 @@ public:
   /// @brief Field _sabersAreClashing, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__sabersAreClashing, put = __cordl_internal_set__sabersAreClashing)) bool _sabersAreClashing;
 
-  /// @brief Method AreSabersClashing, addr 0x59e7ecc, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method AreSabersClashing, addr 0x59eb5e8, size 0x198, virtual false, abstract: false, final false
   inline bool AreSabersClashing(::by_ref<::UnityEngine::Vector3> clashingPoint);
 
-  /// @brief Method Init, addr 0x59e7eb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59f0120, size 0x18, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SaberManager* saberManager);
 
   static inline ::GlobalNamespace::SaberClashChecker* New_ctor();
 
-  /// @brief Method SegmentToSegmentDist, addr 0x59e8064, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method SegmentToSegmentDist, addr 0x59f0138, size 0x278, virtual false, abstract: false, final false
   inline float_t SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB,
                                       ::by_ref<::UnityEngine::Vector3> inbetweenPoint);
 
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__sabersAreClashing(bool value);
 
-  /// @brief Method .ctor, addr 0x59e82dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f03b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
   SaberClashChecker(SaberClashChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6229 };
 
   /// @brief Field kIgnoredTime offset 0xffffffff size 0x4
   static constexpr float_t kIgnoredTime{ static_cast<float_t>(0.1f) };

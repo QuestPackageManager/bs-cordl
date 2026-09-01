@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnableOnVisible.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnableOnVisible.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,15 +30,15 @@ public:
   /// @brief Field _components, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__components, put = __cordl_internal_set__components)) ::ArrayW<::UnityW<::UnityEngine::Behaviour>> _components;
 
-  /// @brief Method Awake, addr 0x5857434, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x585653c, size 0x58, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::EnableOnVisible* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x5857508, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x5856610, size 0x7c, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x585748c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x5856594, size 0x7c, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
   constexpr ::System::Action_1<bool>* const& __cordl_internal_get_VisibilityChangedEvent() const;
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__components(::ArrayW<::UnityW<::UnityEngine::Behaviour>> value);
 
-  /// @brief Method .ctor, addr 0x5857584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x585668c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_VisibilityChangedEvent, addr 0x58572b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_VisibilityChangedEvent, addr 0x58563bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_VisibilityChangedEvent, addr 0x5857374, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_VisibilityChangedEvent, addr 0x585647c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   EnableOnVisible(EnableOnVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21408 };
 
   /// @brief Field VisibilityChangedEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<bool>* ___VisibilityChangedEvent;

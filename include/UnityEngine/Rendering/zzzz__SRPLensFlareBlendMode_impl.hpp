@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SRPLensFlareBlendMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SRPLensFlareBlendMode.hpp"
 #include "UnityEngine/Rendering/zzzz__SRPLensFlareBlendMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::SRPLensFlareBlendMode::SRPLensFlareBlendMode(int32_t value__) noexcept {

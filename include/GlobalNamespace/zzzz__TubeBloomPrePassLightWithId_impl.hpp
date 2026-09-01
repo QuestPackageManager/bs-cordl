@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace\TubeBloomPrePassLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLightWithId_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::TubeBloomPrePassLightWithId::*)()>(&::GlobalNamespace::TubeBloomPrePassLightWithId::get_color)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x587166c;
+  constexpr static std::size_t addrs = 0x5870f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightWithId*>(), { "get_color", {}, {} })));
@@ -21,11 +21,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightWithId::*)(::UnityEngine::Color)>(&::GlobalNamespace::TubeBloomPrePassLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5871688;
+  constexpr static std::size_t addrs = 0x5870fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightWithId*>(), { ::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightWithId*>(), 9 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightWithId*>(), { ::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightWithId*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightWithId::*)()>(&::GlobalNamespace::TubeBloomPrePassLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58716e0;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5871010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightWithId*>(), { ".ctor", {}, {} })));
@@ -83,7 +83,7 @@ inline ::UnityEngine::Color GlobalNamespace::TubeBloomPrePassLightWithId::get_co
 }
 inline void GlobalNamespace::TubeBloomPrePassLightWithId::ColorWasSet(::UnityEngine::Color color) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightWithId*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightWithId*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
 inline void GlobalNamespace::TubeBloomPrePassLightWithId::_ctor() {

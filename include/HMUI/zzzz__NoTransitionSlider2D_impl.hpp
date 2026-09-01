@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/NoTransitionSlider2D.hpp"
+// IWYU pragma private; include "HMUI\NoTransitionSlider2D.hpp"
 #include "HMUI/zzzz__Slider2D_impl.hpp"
 #include "HMUI/zzzz__NoTransitionSlider2D_def.hpp"
 #include "HMUI/zzzz__NoTransitionSlider2D_def.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::NoTransitionSlider2D_SelectionState (::HMUI::NoTransitionSlider2D::*)()>(&::HMUI::NoTransitionSlider2D::get_selectionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588c814;
+  constexpr static std::size_t addrs = 0x588c1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionSlider2D*>(), { "get_selectionState", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionSlider2D::*)(::System::Action_1<::HMUI::NoTransitionSlider2D_SelectionState>*)>(
     &::HMUI::NoTransitionSlider2D::add_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588c81c;
+  constexpr static std::size_t addrs = 0x588c1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionSlider2D::*)(::System::Action_1<::HMUI::NoTransitionSlider2D_SelectionState>*)>(
     &::HMUI::NoTransitionSlider2D::remove_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588c8dc;
+  constexpr static std::size_t addrs = 0x588c2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionSlider2D::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(&::HMUI::NoTransitionSlider2D::DoStateTransition)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x588c99c;
+  constexpr static std::size_t addrs = 0x588c364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionSlider2D*>(), { ::i2c::class_of<::HMUI::NoTransitionSlider2D*>(), 26 }));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionSlider2D::*)()>(&::HMUI::NoTransitionSlider2D::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588c9dc;
+  constexpr static std::size_t addrs = 0x588c3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionSlider2D*>(), { ".ctor", {}, {} })));

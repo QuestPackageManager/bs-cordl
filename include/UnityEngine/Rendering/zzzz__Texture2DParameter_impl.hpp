@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Texture2DParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Texture2DParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__Texture2DParameter_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Texture2DParameter::*)(::UnityEngine::Texture*, bool)>(&::UnityEngine::Rendering::Texture2DParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67c5fec;
+  constexpr static std::size_t addrs = 0x67cda68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Texture2DParameter::*)()>(&::UnityEngine::Rendering::Texture2DParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x67c6050;
+  constexpr static std::size_t addrs = 0x67cdacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

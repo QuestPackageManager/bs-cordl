@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/RendererListHandle.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderGraphModule\RendererListHandle.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandleType_impl.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandle_def.hpp"
 #include "UnityEngine/Rendering/RenderGraphModule/zzzz__RendererListHandleType_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::get_handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67e20d0;
+  constexpr static std::size_t addrs = 0x67e9b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::set_handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67e20d8;
+  constexpr static std::size_t addrs = 0x67e9b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)(
     int32_t, ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType)>(&::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67e00e4;
+  constexpr static std::size_t addrs = 0x67e7b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::op_Implicit_int32_t)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67dd6cc;
+  constexpr static std::size_t addrs = 0x67e5148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RendererList (*)(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle)>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::op_Implicit___UnityEngine__Rendering__RendererList)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x67e20e0;
+  constexpr static std::size_t addrs = 0x67e9b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RendererListHandle::IsValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67e21fc;
+  constexpr static std::size_t addrs = 0x67e9c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>(), { "IsValid", {}, {} })));

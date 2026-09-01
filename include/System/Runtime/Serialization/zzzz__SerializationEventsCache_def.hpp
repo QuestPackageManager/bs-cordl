@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/SerializationEventsCache.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\SerializationEventsCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,10 +47,10 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationEventsCache___c* New_ctor();
 
-  /// @brief Method <GetSerializationEventsForType>b__1_0, addr 0x5b48a7c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <GetSerializationEventsForType>b__1_0, addr 0x5b4cf38, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationEvents* _GetSerializationEventsForType_b__1_0(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x5b48a78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4cf34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::SerializationEventsCache___c* getStaticF___9();
@@ -97,7 +97,7 @@ public:
   __declspec(property(get = getStaticF_s_cache,
                       put = setStaticF_s_cache)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* s_cache;
 
-  /// @brief Method GetSerializationEventsForType, addr 0x5b48850, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationEventsForType, addr 0x5b4cd0c, size 0x144, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(::System::Type* t);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* getStaticF_s_cache();

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/PathInternal.hpp"
+// IWYU pragma private; include "System\IO\PathInternal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__PathInternal_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::IO::PathInternal::GetRootLength)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5bf1294;
+  constexpr static std::size_t addrs = 0x5bf5750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::IO::PathInternal::IsDirectorySeparator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5bf1260;
+  constexpr static std::size_t addrs = 0x5bf571c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::IO::PathInternal::EndsInDirectorySeparator)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5bf11cc;
+  constexpr static std::size_t addrs = 0x5bf5688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::IO::PathInternal::StartsWithDirectorySeparator)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5bf5b8c;
+  constexpr static std::size_t addrs = 0x5bfa048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::IO::PathInternal::TrimEndingDirectorySeparator)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5bf09d4;
+  constexpr static std::size_t addrs = 0x5bf4e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::IO::PathInternal::TrimEndingDirectorySeparator)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5bf1d7c;
+  constexpr static std::size_t addrs = 0x5bf6238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::IO::PathInternal::IsRoot)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5bf5c1c;
+  constexpr static std::size_t addrs = 0x5bfa0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::IO::PathInternal::get_IsCaseSensitive)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bf5ca4;
+  constexpr static std::size_t addrs = 0x5bfa160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::PathInternal*>(), { "get_IsCaseSensitive", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::IO::PathInternal::GetIsCaseSensitive)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x5bf5d00;
+  constexpr static std::size_t addrs = 0x5bfa1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::PathInternal*>(), { "GetIsCaseSensitive", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::IO::PathInternal::IsPartiallyQualified)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf6194;
+  constexpr static std::size_t addrs = 0x5bfa650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

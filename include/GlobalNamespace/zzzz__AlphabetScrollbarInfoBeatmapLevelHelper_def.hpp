@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AlphabetScrollbarInfoBeatmapLevelHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\AlphabetScrollbarInfoBeatmapLevelHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,10 +49,10 @@ public:
 
   static inline ::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c* New_ctor();
 
-  /// @brief Method <CreateData>b__4_0, addr 0x5a078a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <CreateData>b__4_0, addr 0x5a0f9b0, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _CreateData_b__4_0(::GlobalNamespace::BeatmapLevel* x);
 
-  /// @brief Method .ctor, addr 0x5a078a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0f9ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c* getStaticF___9();
@@ -78,7 +78,7 @@ public:
   AlphabetScrollbarInfoBeatmapLevelHelper___c(AlphabetScrollbarInfoBeatmapLevelHelper___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -95,12 +95,12 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c;
 
-  /// @brief Method CreateData, addr 0x5a071fc, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x5a0f308, size 0x5c0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::AlphabetScrollInfo_Data*>*
   CreateData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, bool sortBeatmapLevels,
              ::by_ref<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*> sortedBeatmapLevels);
 
-  /// @brief Method IsNumericOrSpecial, addr 0x5a077bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsNumericOrSpecial, addr 0x5a0f8c8, size 0x90, virtual false, abstract: false, final false
   static inline bool IsNumericOrSpecial(::StringW comparedChar);
 
 protected:
@@ -118,7 +118,7 @@ public:
   AlphabetScrollbarInfoBeatmapLevelHelper(AlphabetScrollbarInfoBeatmapLevelHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6376 };
 
   /// @brief Field kFirstAlphabet offset 0xffffffff size 0x8
   static constexpr ::ConstString kFirstAlphabet{ u"A" };

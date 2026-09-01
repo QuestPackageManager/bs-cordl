@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipelineRuntimeTextures.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipelineRuntimeTextures.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +59,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68afb14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x68b7590, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_BayerMatrixTex() const;
@@ -86,19 +86,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68afc84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b7700, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bayerMatrixTex, addr 0x68afb94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bayerMatrixTex, addr 0x68b7610, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_bayerMatrixTex();
 
-  /// @brief Method get_blueNoise64LTex, addr 0x68afb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blueNoise64LTex, addr 0x68b7598, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_blueNoise64LTex();
 
-  /// @brief Method get_debugFontTexture, addr 0x68afc0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugFontTexture, addr 0x68b7688, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_debugFontTexture();
 
-  /// @brief Method get_version, addr 0x68afb0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x68b7588, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -107,13 +107,13 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_bayerMatrixTex, addr 0x68afb9c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_bayerMatrixTex, addr 0x68b7618, size 0x70, virtual false, abstract: false, final false
   inline void set_bayerMatrixTex(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_blueNoise64LTex, addr 0x68afb24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_blueNoise64LTex, addr 0x68b75a0, size 0x70, virtual false, abstract: false, final false
   inline void set_blueNoise64LTex(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_debugFontTexture, addr 0x68afc14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_debugFontTexture, addr 0x68b7690, size 0x70, virtual false, abstract: false, final false
   inline void set_debugFontTexture(::UnityEngine::Texture2D* value);
 
 protected:
@@ -131,7 +131,7 @@ public:
   UniversalRenderPipelineRuntimeTextures(UniversalRenderPipelineRuntimeTextures const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12943 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;

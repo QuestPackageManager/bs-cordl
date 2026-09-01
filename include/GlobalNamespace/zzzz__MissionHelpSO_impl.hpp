@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionHelpSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionHelpSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionHelpSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionHelpSO.get_missionHelpId
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MissionHelpSO::*)()>(&::GlobalNamespace::MissionHelpSO::get_missionHelpId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3750700;
+  constexpr static std::size_t addrs = 0x3756324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionHelpSO*>(), { "get_missionHelpId", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionHelpSO::*)()>(&::GlobalNamespace::MissionHelpSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3750708;
+  constexpr static std::size_t addrs = 0x375632c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionHelpSO*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Ocsp/RespData.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Ocsp\RespData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +45,13 @@ public:
   /// @brief Field data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data;
 
-  /// @brief Method GetResponderId, addr 0x3576d60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetResponderId, addr 0x357ab20, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::RespID* GetResponderId();
 
-  /// @brief Method GetResponses, addr 0x3576de4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetResponses, addr 0x357aba4, size 0x130, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Ocsp::SingleResp*> GetResponses();
 
-  /// @brief Method GetX509Extensions, addr 0x3576f2c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x357acec, size 0x18, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::Ocsp::RespData* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data);
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* value);
 
-  /// @brief Method .ctor, addr 0x356e6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3572490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data);
 
-  /// @brief Method get_ProducedAt, addr 0x3576dc0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_ProducedAt, addr 0x357ab80, size 0x24, virtual false, abstract: false, final false
   inline ::System::DateTime get_ProducedAt();
 
-  /// @brief Method get_ResponseExtensions, addr 0x3576f14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseExtensions, addr 0x357acd4, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_ResponseExtensions();
 
-  /// @brief Method get_Version, addr 0x3576d34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x357aaf4, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

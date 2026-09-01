@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Net/Security/MonoTlsProviderFactory.hpp"
+// IWYU pragma private; include "Mono\Net\Security\MonoTlsProviderFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,28 +62,28 @@ public:
   __declspec(property(get = getStaticF_providerRegistration,
                       put = setStaticF_providerRegistration)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>* providerRegistration;
 
-  /// @brief Method CreateDefaultProviderImpl, addr 0x5fd5c60, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultProviderImpl, addr 0x5fdd6dc, size 0x188, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* CreateDefaultProviderImpl();
 
-  /// @brief Method GetProvider, addr 0x5fd65ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x5fde028, size 0x50, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProvider();
 
-  /// @brief Method GetProviderInternal, addr 0x5fd12f0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetProviderInternal, addr 0x5fd8d6c, size 0x118, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProviderInternal();
 
-  /// @brief Method InitializeInternal, addr 0x5fd5608, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternal, addr 0x5fdd084, size 0x414, virtual false, abstract: false, final false
   static inline void InitializeInternal();
 
-  /// @brief Method InitializeProviderRegistration, addr 0x5fd5a1c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method InitializeProviderRegistration, addr 0x5fdd498, size 0x244, virtual false, abstract: false, final false
   static inline void InitializeProviderRegistration();
 
-  /// @brief Method LookupProvider, addr 0x5fd5de8, size 0x5e4, virtual false, abstract: false, final false
+  /// @brief Method LookupProvider, addr 0x5fdd864, size 0x5e4, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* LookupProvider(::StringW name, bool throwOnError);
 
-  /// @brief Method PopulateProviders, addr 0x5fd6534, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PopulateProviders, addr 0x5fddfb0, size 0x78, virtual false, abstract: false, final false
   static inline void PopulateProviders();
 
-  /// @brief Method PopulateUnityProviders, addr 0x5fd63cc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method PopulateUnityProviders, addr 0x5fdde48, size 0x168, virtual false, abstract: false, final false
   static inline void PopulateUnityProviders();
 
   static inline ::System::Guid getStaticF_AppleTlsId();
@@ -133,7 +133,7 @@ public:
   MonoTlsProviderFactory(MonoTlsProviderFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11033 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

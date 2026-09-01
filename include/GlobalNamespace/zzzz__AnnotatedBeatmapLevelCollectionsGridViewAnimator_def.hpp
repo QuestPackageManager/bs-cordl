@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AnnotatedBeatmapLevelCollectionsGridViewAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace\AnnotatedBeatmapLevelCollectionsGridViewAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,54 +79,54 @@ public:
   /// @brief Field _visibleColumnCount, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__visibleColumnCount, put = __cordl_internal_set__visibleColumnCount)) int32_t _visibleColumnCount;
 
-  /// @brief Method AnimateClose, addr 0x59663f0, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method AnimateClose, addr 0x5969ce8, size 0x44c, virtual false, abstract: false, final false
   inline void AnimateClose(int32_t selectedColumn, int32_t selectedRow, bool animated);
 
-  /// @brief Method AnimateOpen, addr 0x5965f40, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method AnimateOpen, addr 0x5969838, size 0x488, virtual false, abstract: false, final false
   inline void AnimateOpen(bool animated);
 
-  /// @brief Method DespawnAllActiveTweens, addr 0x5966fac, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method DespawnAllActiveTweens, addr 0x596a8a4, size 0xd0, virtual false, abstract: false, final false
   inline void DespawnAllActiveTweens();
 
-  /// @brief Method GetContentXOffset, addr 0x5966f28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetContentXOffset, addr 0x596a820, size 0x54, virtual false, abstract: false, final false
   inline float_t GetContentXOffset();
 
-  /// @brief Method GetContentYOffset, addr 0x5966f7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetContentYOffset, addr 0x596a874, size 0x2c, virtual false, abstract: false, final false
   inline float_t GetContentYOffset();
 
-  /// @brief Method Init, addr 0x59651d4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5968acc, size 0xdc, virtual false, abstract: false, final false
   inline void Init(float_t columnWidth, float_t rowHeight, int32_t columnCount, int32_t rowCount, int32_t visibleColumnCount);
 
   static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5966fa8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x596a8a0, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ScrollToRowIdxInstant, addr 0x5965e48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ScrollToRowIdxInstant, addr 0x5969740, size 0x84, virtual false, abstract: false, final false
   inline void ScrollToRowIdxInstant(int32_t selectedColumn, int32_t selectedRow);
 
-  /// @brief Method <AnimateClose>b__19_0, addr 0x59671e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AnimateClose>b__19_0, addr 0x596aae0, size 0x18, virtual false, abstract: false, final false
   inline void _AnimateClose_b__19_0(::UnityEngine::Vector2 size);
 
-  /// @brief Method <AnimateClose>b__19_1, addr 0x5967200, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <AnimateClose>b__19_1, addr 0x596aaf8, size 0x90, virtual false, abstract: false, final false
   inline void _AnimateClose_b__19_1();
 
-  /// @brief Method <AnimateClose>b__19_2, addr 0x5967290, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AnimateClose>b__19_2, addr 0x596ab88, size 0x18, virtual false, abstract: false, final false
   inline void _AnimateClose_b__19_2(::UnityEngine::Vector2 pos);
 
-  /// @brief Method <AnimateClose>b__19_3, addr 0x59672a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <AnimateClose>b__19_3, addr 0x596aba0, size 0x90, virtual false, abstract: false, final false
   inline void _AnimateClose_b__19_3();
 
-  /// @brief Method <AnimateOpen>b__18_0, addr 0x5967098, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AnimateOpen>b__18_0, addr 0x596a990, size 0x18, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__18_0(::UnityEngine::Vector2 size);
 
-  /// @brief Method <AnimateOpen>b__18_1, addr 0x59670b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <AnimateOpen>b__18_1, addr 0x596a9a8, size 0x90, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__18_1();
 
-  /// @brief Method <AnimateOpen>b__18_2, addr 0x5967140, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <AnimateOpen>b__18_2, addr 0x596aa38, size 0x18, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__18_2(::UnityEngine::Vector2 pos);
 
-  /// @brief Method <AnimateOpen>b__18_3, addr 0x5967158, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <AnimateOpen>b__18_3, addr 0x596aa50, size 0x90, virtual false, abstract: false, final false
   inline void _AnimateOpen_b__18_3();
 
   constexpr int32_t const& __cordl_internal_get__columnCount() const;
@@ -219,7 +219,7 @@ public:
 
   constexpr void __cordl_internal_set__visibleColumnCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x596707c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596a974, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -237,7 +237,7 @@ public:
   AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6998 };
 
   /// @brief Field _viewportTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____viewportTransform;

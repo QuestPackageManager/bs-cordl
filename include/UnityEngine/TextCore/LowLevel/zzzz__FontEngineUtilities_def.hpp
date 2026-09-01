@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/FontEngineUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\LowLevel\FontEngineUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ namespace UnityEngine::TextCore::LowLevel {
 struct CORDL_TYPE FontEngineUtilities {
 public:
   // Declarations
-  /// @brief Method MaxValue, addr 0x6bb6d34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MaxValue, addr 0x6bbe8b8, size 0x14, virtual false, abstract: false, final false
   static inline int32_t MaxValue(int32_t a, int32_t b, int32_t c);
 
   // Ctor Parameters []
@@ -29,7 +29,7 @@ public:
   constexpr FontEngineUtilities();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21865 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

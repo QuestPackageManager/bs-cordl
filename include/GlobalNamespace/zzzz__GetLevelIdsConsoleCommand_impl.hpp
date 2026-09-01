@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GetLevelIdsConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\GetLevelIdsConsoleCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__GetLevelIdsConsoleCommand_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GetLevelIdsConsoleCommand::*)()>(&::GlobalNamespace::GetLevelIdsConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32d84e0;
+  constexpr static std::size_t addrs = 0x32dc2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GetLevelIdsConsoleCommand::*)()>(&::GlobalNamespace::GetLevelIdsConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32d8524;
+  constexpr static std::size_t addrs = 0x32dc320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GetLevelIdsConsoleCommand::*)()>(&::GlobalNamespace::GetLevelIdsConsoleCommand::Initialize)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x32d8568;
+  constexpr static std::size_t addrs = 0x32dc364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::GetLevelIdsConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::GetLevelIdsConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x32d894c;
+  constexpr static std::size_t addrs = 0x32dc748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GetLevelIdsConsoleCommand::*)()>(&::GlobalNamespace::GetLevelIdsConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32d8cc4;
+  constexpr static std::size_t addrs = 0x32dcac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GetLevelIdsConsoleCommand*>(), { ".ctor", {}, {} })));

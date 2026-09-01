@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceAmbientOcclusion.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceAmbientOcclusion.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "UnityEngine/zzzz__Texture2D_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScreenSpaceAmbientOcclusion_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> (
     ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::*)()>(&::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::get_settings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a7f30;
+  constexpr static std::size_t addrs = 0x68af9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::Create)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x68a7f38;
+  constexpr static std::size_t addrs = 0x68af9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion*>(),
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                   ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::AddRenderPasses)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x68a7fe8;
+  constexpr static std::size_t addrs = 0x68afa64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::*)(bool)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x68a82c0;
+  constexpr static std::size_t addrs = 0x68afd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::GetMaterials)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x68a81d0;
+  constexpr static std::size_t addrs = 0x68afc4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68a8330;
+  constexpr static std::size_t addrs = 0x68afdac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusion*>(), { ".ctor", {}, {} })));

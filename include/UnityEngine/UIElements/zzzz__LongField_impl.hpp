@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/LongField.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\LongField.hpp"
 #include "UnityEngine/UIElements/zzzz__TextValueFieldTraits_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextValueField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LongField_UxmlFactory::*)()>(&::UnityEngine::UIElements::LongField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d48714;
+  constexpr static std::size_t addrs = 0x6d50298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LongField_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LongField_UxmlTraits::*)()>(&::UnityEngine::UIElements::LongField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d4877c;
+  constexpr static std::size_t addrs = 0x6d50300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LongField_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::LongField* (::UnityEngine::UIElements::LongField_LongInput::*)()>(
     &::UnityEngine::UIElements::LongField_LongInput::get_parentLongField)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6d487c8;
+  constexpr static std::size_t addrs = 0x6d5034c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LongField_LongInput*>(), { "get_parentLongField", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LongField_LongInput::*)()>(&::UnityEngine::UIElements::LongField_LongInput::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6d48518;
+  constexpr static std::size_t addrs = 0x6d5009c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LongField_LongInput*>(), { ".ctor", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::LongField_LongInput::*)()>(&::UnityEngine::UIElements::LongField_LongInput::get_allowedCharacters)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d48844;
+  constexpr static std::size_t addrs = 0x6d503c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LongField_LongInput::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int64_t)>(
     &::UnityEngine::UIElements::LongField_LongInput::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x6d488a0;
+  constexpr static std::size_t addrs = 0x6d50424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::LongField_LongInput::*)(int64_t, int64_t)>(
     &::UnityEngine::UIElements::LongField_LongInput::ClampMinMaxLongValue)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d48b08;
+  constexpr static std::size_t addrs = 0x6d5068c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LongField_LongInput*>(),
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::LongField_LongInput::*)(int64_t)>(&::UnityEngine::UIElements::LongField_LongInput::ValueToString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d48bac;
+  constexpr static std::size_t addrs = 0x6d50730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::LongField_LongInput::*)(::StringW)>(&::UnityEngine::UIElements::LongField_LongInput::StringToValue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6d48c08;
+  constexpr static std::size_t addrs = 0x6d5078c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::LongField_LongInput* (::UnityEngine::UIElements::LongField::*)()>(
     &::UnityEngine::UIElements::LongField::get_longInput)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6d4815c;
+  constexpr static std::size_t addrs = 0x6d4fce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LongField*>(), { "get_longInput", {}, {} })));
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::LongField::*)(int64_t)>(&::UnityEngine::UIElements::LongField::ValueToString)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6d481ec;
+  constexpr static std::size_t addrs = 0x6d4fd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::LongField::*)(::StringW)>(&::UnityEngine::UIElements::LongField::StringToValue)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6d482ac;
+  constexpr static std::size_t addrs = 0x6d4fe30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LongField::*)()>(&::UnityEngine::UIElements::LongField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d4838c;
+  constexpr static std::size_t addrs = 0x6d4ff10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::LongField*>(), { ".ctor", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LongField::*)(::StringW, int32_t)>(&::UnityEngine::UIElements::LongField::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6d48398;
+  constexpr static std::size_t addrs = 0x6d4ff1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::LongField::*)(::StringW)>(&::UnityEngine::UIElements::LongField::CanTryParse)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d485b4;
+  constexpr static std::size_t addrs = 0x6d50138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::LongField::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int64_t)>(
     &::UnityEngine::UIElements::LongField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6d485d4;
+  constexpr static std::size_t addrs = 0x6d50158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

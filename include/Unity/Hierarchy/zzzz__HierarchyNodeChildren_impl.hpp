@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Hierarchy/HierarchyNodeChildren.hpp"
+// IWYU pragma private; include "Unity\Hierarchy\HierarchyNodeChildren.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNodeChildren_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNodeChildren_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyNodeChildren::*)(::Unity::Hierarchy::Hierarchy*, ::System::IntPtr)>(
     &::Unity::Hierarchy::HierarchyNodeChildren::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6b2e510;
+  constexpr static std::size_t addrs = 0x6b36094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeChildren>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::HierarchyNodeChildren_Enumerator (::Unity::Hierarchy::HierarchyNodeChildren::*)()>(
     &::Unity::Hierarchy::HierarchyNodeChildren::GetEnumerator)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b2e688;
+  constexpr static std::size_t addrs = 0x6b3620c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeChildren>(), { "GetEnumerator", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyNodeChildren::*)()>(&::Unity::Hierarchy::HierarchyNodeChildren::ThrowIfVersionChanged)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6b2e6bc;
+  constexpr static std::size_t addrs = 0x6b36240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeChildren>(), { "ThrowIfVersionChanged", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyNodeChildren_Enumerator::*)(::by_ref<::Unity::Hierarchy::HierarchyNodeChildren>)>(
     &::Unity::Hierarchy::HierarchyNodeChildren_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b2e6a0;
+  constexpr static std::size_t addrs = 0x6b36224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeChildren_Enumerator>(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Hierarchy::HierarchyNode> (::Unity::Hierarchy::HierarchyNodeChildren_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyNodeChildren_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b2e730;
+  constexpr static std::size_t addrs = 0x6b362b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeChildren_Enumerator>(), { "get_Current", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyNodeChildren_Enumerator::*)()>(&::Unity::Hierarchy::HierarchyNodeChildren_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b2e7b0;
+  constexpr static std::size_t addrs = 0x6b36334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeChildren_Enumerator>(), { "MoveNext", {}, {} })));

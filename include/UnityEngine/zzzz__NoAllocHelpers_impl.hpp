@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/NoAllocHelpers.hpp"
+// IWYU pragma private; include "UnityEngine\NoAllocHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__NoAllocHelpers_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Array*)>(&::UnityEngine::NoAllocHelpers::SafeLength)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ade278;
+  constexpr static std::size_t addrs = 0x6ae5c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

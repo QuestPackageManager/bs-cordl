@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoUserAgeWarningViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoUserAgeWarningViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   /// @brief Field _confirmButton, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__confirmButton, put = __cordl_internal_set__confirmButton)) ::UnityW<::UnityEngine::UI::Button> _confirmButton;
 
-  /// @brief Method DidActivate, addr 0x5a1408c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a1c194, size 0xec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5a14178, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5a1c280, size 0x34, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::NoUserAgeWarningViewController* New_ctor();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__confirmButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x5a141ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a1c2b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   NoUserAgeWarningViewController(NoUserAgeWarningViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6452 };
 
   /// @brief Field _confirmButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____confirmButton;

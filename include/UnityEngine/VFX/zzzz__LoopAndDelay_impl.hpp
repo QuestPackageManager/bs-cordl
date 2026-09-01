@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/LoopAndDelay.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\LoopAndDelay.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/zzzz__VFXSpawnerCallbacks_impl.hpp"
 #include "UnityEngine/VFX/zzzz__LoopAndDelay_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::LoopAndDelay_InputProperties::*)()>(&::UnityEngine::VFX::LoopAndDelay_InputProperties::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69ca180;
+  constexpr static std::size_t addrs = 0x69d1bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::LoopAndDelay_InputProperties*>(), { ".ctor", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::LoopAndDelay::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                   ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::LoopAndDelay::OnPlay)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69c9e70;
+  constexpr static std::size_t addrs = 0x69d18ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::LoopAndDelay::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                   ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::LoopAndDelay::OnUpdate)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x69c9f3c;
+  constexpr static std::size_t addrs = 0x69d19b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::LoopAndDelay::*)(::UnityEngine::VFX::VFXSpawnerState*, ::UnityEngine::VFX::VFXExpressionValues*,
                                                                                                   ::UnityEngine::VFX::VisualEffect*)>(&::UnityEngine::VFX::LoopAndDelay::OnStop)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69ca094;
+  constexpr static std::size_t addrs = 0x69d1b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::LoopAndDelay::*)()>(&::UnityEngine::VFX::LoopAndDelay::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ca0a0;
+  constexpr static std::size_t addrs = 0x69d1b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::LoopAndDelay*>(), { ".ctor", {}, {} })));

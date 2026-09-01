@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/Kdf/DHKekGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Agreement\Kdf\DHKekGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,10 +53,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Method GenerateBytes, addr 0x36dcbe8, size 0x6e8, virtual true, abstract: false, final false
+  /// @brief Method GenerateBytes, addr 0x36e09a8, size 0x6e8, virtual true, abstract: false, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t> outBytes, int32_t outOff, int32_t len);
 
-  /// @brief Method Init, addr 0x36dcb3c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x36e08fc, size 0xa4, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
@@ -91,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set_z(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x36dcb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e08f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_Digest, addr 0x36dcbe0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x36e09a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Destinations/LevelStartDestinationParameters.hpp"
+// IWYU pragma private; include "BeatSaber\Destinations\LevelStartDestinationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,10 +100,10 @@ public:
 
   constexpr void __cordl_internal_set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
 
-  /// @brief Method .ctor, addr 0x327d480, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3281210, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x327d540, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32812d0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Destinations::GameMode gameMode, ::GlobalNamespace::BeatmapKey beatmapKey, ::BeatSaber::Destinations::GameplayEnvironmentOverride* environmentOverride,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* customPlayerSpecificSettings,
                     ::GlobalNamespace::PracticeSettings* practiceSettings);
@@ -123,7 +123,7 @@ public:
   LevelStartDestinationParameters(LevelStartDestinationParameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23064 };
 
   /// @brief Field gameMode, offset: 0x10, size: 0x4, def value: None
   ::BeatSaber::Destinations::GameMode ___gameMode;

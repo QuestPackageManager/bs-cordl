@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BindingResult.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BindingResult.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingStatus_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingResult_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingStatus_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingStatus (::UnityEngine::UIElements::BindingResult::*)()>(
     &::UnityEngine::UIElements::BindingResult::get_status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c28fd4;
+  constexpr static std::size_t addrs = 0x6c30b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingResult>(), { "get_status", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::BindingResult::*)()>(&::UnityEngine::UIElements::BindingResult::get_message)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c28fdc;
+  constexpr static std::size_t addrs = 0x6c30b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BindingResult>(), { "get_message", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BindingResult::*)(::UnityEngine::UIElements::BindingStatus, ::StringW)>(
     &::UnityEngine::UIElements::BindingResult::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c28fe4;
+  constexpr static std::size_t addrs = 0x6c30b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

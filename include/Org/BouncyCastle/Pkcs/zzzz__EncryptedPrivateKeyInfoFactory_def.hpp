@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkcs/EncryptedPrivateKeyInfoFactory.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkcs\EncryptedPrivateKeyInfoFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,32 +37,32 @@ namespace Org::BouncyCastle::Pkcs {
 class CORDL_TYPE EncryptedPrivateKeyInfoFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x35a7c08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x35ab9c8, size 0x54, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::ArrayW<char16_t> passPhrase,
                                                                                                         ::ArrayW<uint8_t> salt, int32_t iterationCount,
                                                                                                         ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x35a6df0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x35aabb0, size 0x4c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::StringW algorithm, ::ArrayW<char16_t> passPhrase, ::ArrayW<uint8_t> salt,
                                                                                                         int32_t iterationCount, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x35a7c5c, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x35aba1c, size 0x298, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* CreateEncryptedPrivateKeyInfo(::StringW algorithm, ::ArrayW<char16_t> passPhrase, ::ArrayW<uint8_t> salt,
                                                                                                         int32_t iterationCount, ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x35a7ef4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x35abcb4, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*
   CreateEncryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::DerObjectIdentifier* cipherAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* prfAlgorithm, ::ArrayW<char16_t> passPhrase,
                                 ::ArrayW<uint8_t> salt, int32_t iterationCount, ::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x35a7f58, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method CreateEncryptedPrivateKeyInfo, addr 0x35abd18, size 0x2e8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*
   CreateEncryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::DerObjectIdentifier* cipherAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* prfAlgorithm, ::ArrayW<char16_t> passPhrase,
                                 ::ArrayW<uint8_t> salt, int32_t iterationCount, ::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo);
 
   static inline ::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35a7c04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ab9c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/AvatarCore/BinaryReadWriteHelper.hpp"
+// IWYU pragma private; include "BeatSaber\AvatarCore\BinaryReadWriteHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__BinaryReadWriteHelper_def.hpp"
 #include "System/IO/zzzz__BinaryReader_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Color)>(&::BeatSaber::AvatarCore::BinaryReadWriteHelper::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x326b0c8;
+  constexpr static std::size_t addrs = 0x326eccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::System::IO::BinaryReader*)>(&::BeatSaber::AvatarCore::BinaryReadWriteHelper::ReadColor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x326b150;
+  constexpr static std::size_t addrs = 0x326ed54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

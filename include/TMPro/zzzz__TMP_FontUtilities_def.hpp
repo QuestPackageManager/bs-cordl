@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_FontUtilities.hpp"
+// IWYU pragma private; include "TMPro\TMP_FontUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,17 +32,17 @@ public:
   /// @brief Field k_searchedFontAssets, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_searchedFontAssets, put = setStaticF_k_searchedFontAssets)) ::System::Collections::Generic::List_1<int32_t>* k_searchedFontAssets;
 
-  /// @brief Method SearchForCharacter, addr 0x6955c34, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacter, addr 0x695d6b0, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::TMPro::TMP_FontAsset* font, uint32_t unicode, ::by_ref<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacter, addr 0x6956040, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacter, addr 0x695dabc, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fonts, uint32_t unicode,
                                                                     ::by_ref<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacterInternal, addr 0x6955d28, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacterInternal, addr 0x695d7a4, size 0x318, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::TMPro::TMP_FontAsset* font, uint32_t unicode, ::by_ref<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacterInternal, addr 0x6956044, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacterInternal, addr 0x695dac0, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fonts, uint32_t unicode,
                                                                             ::by_ref<::TMPro::TMP_Character*> character);
 
@@ -65,7 +65,7 @@ public:
   TMP_FontUtilities(TMP_FontUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

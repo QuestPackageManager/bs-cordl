@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Vector3TransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\Vector3TransitionSO.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector3TransitionSO_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(&::GlobalNamespace::Vector3TransitionSO::get_normalState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x643f0b0;
+  constexpr static std::size_t addrs = 0x6446b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3TransitionSO*>(), { "get_normalState", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(&::GlobalNamespace::Vector3TransitionSO::get_highlightedState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x643f0bc;
+  constexpr static std::size_t addrs = 0x6446b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3TransitionSO*>(), { "get_highlightedState", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(&::GlobalNamespace::Vector3TransitionSO::get_pressedState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x643f0c8;
+  constexpr static std::size_t addrs = 0x6446b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3TransitionSO*>(), { "get_pressedState", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(&::GlobalNamespace::Vector3TransitionSO::get_disabledState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x643f0d4;
+  constexpr static std::size_t addrs = 0x6446b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3TransitionSO*>(), { "get_disabledState", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(&::GlobalNamespace::Vector3TransitionSO::get_selectedState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x643f0e0;
+  constexpr static std::size_t addrs = 0x6446b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3TransitionSO*>(), { "get_selectedState", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(
     &::GlobalNamespace::Vector3TransitionSO::get_selectedAndHighlightedState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x643f0ec;
+  constexpr static std::size_t addrs = 0x6446b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3TransitionSO*>(), { "get_selectedAndHighlightedState", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Vector3TransitionSO::*)()>(&::GlobalNamespace::Vector3TransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643f0f8;
+  constexpr static std::size_t addrs = 0x6446b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector3TransitionSO*>(), { ".ctor", {}, {} })));

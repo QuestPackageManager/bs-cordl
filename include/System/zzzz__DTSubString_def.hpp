@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/DTSubString.hpp"
+// IWYU pragma private; include "System\DTSubString.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_Item)) char16_t Item[];
 
-  /// @brief Method get_Item, addr 0x5c3c218, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5c406d4, size 0x28, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t relativeIndex);
 
   // Ctor Parameters []

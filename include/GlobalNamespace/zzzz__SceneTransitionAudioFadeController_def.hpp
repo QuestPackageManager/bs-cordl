@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SceneTransitionAudioFadeController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SceneTransitionAudioFadeController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,17 +53,17 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x58ba8d0, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x58ba238, size 0x12c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleTransitionDidFinish, addr 0x58baa34, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleTransitionDidFinish, addr 0x58ba39c, size 0x34, virtual false, abstract: false, final false
   inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupData* transitionSetupData,
                                         ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method HandleTransitionDidStart, addr 0x58ba9fc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleTransitionDidStart, addr 0x58ba364, size 0x38, virtual false, abstract: false, final false
   inline void HandleTransitionDidStart(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, float_t duration);
 
-  /// @brief Method Initialize, addr 0x58ba7a4, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x58ba10c, size 0x12c, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::SceneTransitionAudioFadeController* New_ctor();
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x58baa68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ba3d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Security/CertificateHelper.hpp"
+// IWYU pragma private; include "System\Net\Security\CertificateHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,24 +34,24 @@ namespace System::Net::Security {
 class CORDL_TYPE CertificateHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEligibleClientCertificate, addr 0x6368948, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x63703c4, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate();
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x63686dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x6370158, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* candidateCerts);
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x6368638, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x63700b4, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* candidateCerts);
 
-  /// @brief Method IsValidClientCertificate, addr 0x6368780, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method IsValidClientCertificate, addr 0x63701fc, size 0x104, virtual false, abstract: false, final false
   static inline bool IsValidClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* cert);
 
-  /// @brief Method IsValidForClientAuthenticationEKU, addr 0x6368884, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsValidForClientAuthenticationEKU, addr 0x6370300, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsValidForClientAuthenticationEKU(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* eku);
 
-  /// @brief Method IsValidForDigitalSignatureUsage, addr 0x6368928, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValidForDigitalSignatureUsage, addr 0x63703a4, size 0x20, virtual false, abstract: false, final false
   static inline bool IsValidForDigitalSignatureUsage(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* ku);
 
 protected:
@@ -69,7 +69,7 @@ public:
   CertificateHelper(CertificateHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11797 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

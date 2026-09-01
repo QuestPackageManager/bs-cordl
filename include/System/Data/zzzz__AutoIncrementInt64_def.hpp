@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/AutoIncrementInt64.hpp"
+// IWYU pragma private; include "System\Data\AutoIncrementInt64.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,18 +49,18 @@ public:
   /// @brief Field _step, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__step, put = __cordl_internal_set__step)) int64_t _step;
 
-  /// @brief Method BoundaryCheck, addr 0x5ffcee0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method BoundaryCheck, addr 0x600495c, size 0xd8, virtual false, abstract: false, final false
   inline bool BoundaryCheck(::System::Numerics::BigInteger value);
 
-  /// @brief Method MoveAfter, addr 0x5ffd084, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method MoveAfter, addr 0x6004b00, size 0x14, virtual true, abstract: false, final false
   inline void MoveAfter();
 
   static inline ::System::Data::AutoIncrementInt64* New_ctor();
 
-  /// @brief Method SetCurrent, addr 0x5ffd098, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x6004b14, size 0x78, virtual true, abstract: false, final false
   inline void SetCurrent(::System::Object* value, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method SetCurrentAndIncrement, addr 0x5ffd110, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method SetCurrentAndIncrement, addr 0x6004b8c, size 0x13c, virtual true, abstract: false, final false
   inline void SetCurrentAndIncrement(::System::Object* value);
 
   constexpr int64_t const& __cordl_internal_get__current() const;
@@ -81,28 +81,28 @@ public:
 
   constexpr void __cordl_internal_set__step(int64_t value);
 
-  /// @brief Method .ctor, addr 0x5ff8110, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fffb8c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Current, addr 0x5ffcda8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6004824, size 0x20, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_DataType, addr 0x5ffce0c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x6004888, size 0x30, virtual true, abstract: false, final false
   inline ::System::Type* get_DataType();
 
-  /// @brief Method get_Seed, addr 0x5ffce3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Seed, addr 0x60048b8, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_Seed();
 
-  /// @brief Method get_Step, addr 0x5ffcfb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Step, addr 0x6004a34, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_Step();
 
-  /// @brief Method set_Current, addr 0x5ffcdc8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method set_Current, addr 0x6004844, size 0x44, virtual true, abstract: false, final false
   inline void set_Current(::System::Object* value);
 
-  /// @brief Method set_Seed, addr 0x5ffce44, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method set_Seed, addr 0x60048c0, size 0x9c, virtual true, abstract: false, final false
   inline void set_Seed(int64_t value);
 
-  /// @brief Method set_Step, addr 0x5ffcfc0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method set_Step, addr 0x6004a3c, size 0x80, virtual true, abstract: false, final false
   inline void set_Step(int64_t value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   AutoIncrementInt64(AutoIncrementInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13729 };
 
   /// @brief Field _current, offset: 0x18, size: 0x8, def value: None
   int64_t ____current;

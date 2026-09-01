@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IriHelper.hpp"
+// IWYU pragma private; include "System\IriHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IriHelper_def.hpp"
 #include "System/zzzz__UriComponents_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t, bool)>(&::System::IriHelper::CheckIriUnicodeRange)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x636d5fc;
+  constexpr static std::size_t addrs = 0x6375078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t, char16_t, ::by_ref<bool>, bool)>(&::System::IriHelper::CheckIriUnicodeRange)> {
   constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x636d654;
+  constexpr static std::size_t addrs = 0x63750d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t, ::System::UriComponents)>(&::System::IriHelper::CheckIsReserved)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x636dd04;
+  constexpr static std::size_t addrs = 0x6375780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(char16_t*, int32_t, int32_t, ::System::UriComponents)>(&::System::IriHelper::EscapeUnescapeIri)> {
   constexpr static std::size_t size = 0x830;
-  constexpr static std::size_t addrs = 0x636de3c;
+  constexpr static std::size_t addrs = 0x63758b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

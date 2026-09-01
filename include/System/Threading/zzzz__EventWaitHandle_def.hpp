@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/EventWaitHandle.hpp"
+// IWYU pragma private; include "System\Threading\EventWaitHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,16 +27,16 @@ public:
 
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
-  /// @brief Method Reset, addr 0x5ca64dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5caa998, size 0x58, virtual false, abstract: false, final false
   inline bool Reset();
 
-  /// @brief Method Set, addr 0x5ca6244, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5caa700, size 0x58, virtual false, abstract: false, final false
   inline bool Set();
 
-  /// @brief Method .ctor, addr 0x5ca4730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ca8bec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode);
 
-  /// @brief Method .ctor, addr 0x5cabdd4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb0290, size 0x2f8, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
 protected:

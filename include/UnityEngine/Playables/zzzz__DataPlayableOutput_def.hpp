@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/DataPlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\DataPlayableOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method GetHandle, addr 0x6b2b094, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6b32c18, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
-  /// @brief Method Internal_CallOnPlayerChanged, addr 0x6b2b0a0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Internal_CallOnPlayerChanged, addr 0x6b32c24, size 0x184, virtual false, abstract: false, final false
   static inline void Internal_CallOnPlayerChanged(::UnityEngine::Playables::PlayableOutputHandle handle, ::System::Object* previousPlayer, ::System::Object* currentPlayer);
 
-  /// @brief Method .ctor, addr 0x6b2af80, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b32b04, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
@@ -52,7 +52,7 @@ public:
   constexpr DataPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22562 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22614 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

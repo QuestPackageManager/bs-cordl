@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RandomAnimationStartTime.hpp"
+// IWYU pragma private; include "GlobalNamespace\RandomAnimationStartTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::RandomAnimationStartTime* New_ctor();
 
-  /// @brief Method PlayAnimation, addr 0x58587f0, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method PlayAnimation, addr 0x58578f8, size 0x2bc, virtual false, abstract: false, final false
   inline void PlayAnimation();
 
-  /// @brief Method Start, addr 0x58587ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58578f4, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__random(::GlobalNamespace::IRandom* value);
 
-  /// @brief Method .ctor, addr 0x5858aac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5857bb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   RandomAnimationStartTime(RandomAnimationStartTime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21418 };
 
   /// @brief Field _animation, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animation> ____animation;

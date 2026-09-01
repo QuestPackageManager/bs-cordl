@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BoolParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BoolParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BoolParameter_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BoolParameter_def.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BoolParameter::*)(bool, bool)>(&::UnityEngine::Rendering::BoolParameter::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x67c4c44;
+  constexpr static std::size_t addrs = 0x67cc6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BoolParameter::*)(bool, ::UnityEngine::Rendering::BoolParameter_DisplayType, bool)>(
     &::UnityEngine::Rendering::BoolParameter::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x67c4cac;
+  constexpr static std::size_t addrs = 0x67cc728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

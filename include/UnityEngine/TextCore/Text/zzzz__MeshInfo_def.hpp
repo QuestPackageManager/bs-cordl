@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/MeshInfo.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\MeshInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,22 +62,22 @@ public:
   /// @brief Field k_DefaultTangent, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_k_DefaultTangent, put = setStaticF_k_DefaultTangent)) ::UnityEngine::Vector4 k_DefaultTangent;
 
-  /// @brief Method Clear, addr 0x6bc1894, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6bc9418, size 0x6c, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x6bc1900, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x6bc9484, size 0x84, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ResizeMeshInfo, addr 0x6bc1650, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x6bc91d4, size 0x244, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size, bool isIMGUI);
 
-  /// @brief Method SortGeometry, addr 0x6bc1984, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x6bc9508, size 0xb8, virtual false, abstract: false, final false
   inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
 
-  /// @brief Method SwapVertexData, addr 0x6bc1a3c, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x6bc95c0, size 0x72c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x6bc11a4, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc8d28, size 0x4ac, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, ::UnityEngine::TextCore::Text::VertexDataLayout layout, bool isIMGUI);
 
   static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();
@@ -110,7 +110,7 @@ public:
                      bool applySDF, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode glyphRenderMode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17220 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

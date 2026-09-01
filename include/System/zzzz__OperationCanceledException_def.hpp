@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/OperationCanceledException.hpp"
+// IWYU pragma private; include "System\OperationCanceledException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,22 +49,22 @@ public:
 
   constexpr void __cordl_internal_set__cancellationToken(::System::Threading::CancellationToken value);
 
-  /// @brief Method .ctor, addr 0x5c53598, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c57a54, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c536bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c57b78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c5366c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c57b28, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5c5368c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c57b48, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Threading::CancellationToken token);
 
-  /// @brief Method get_CancellationToken, addr 0x5c53588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CancellationToken, addr 0x5c57a44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationToken get_CancellationToken();
 
-  /// @brief Method set_CancellationToken, addr 0x5c53590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CancellationToken, addr 0x5c57a4c, size 0x8, virtual false, abstract: false, final false
   inline void set_CancellationToken(::System::Threading::CancellationToken value);
 
 protected:

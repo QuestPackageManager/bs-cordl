@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AppInitScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\AppInitScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupData_def.hpp"
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType (
     ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData::*)()>(&::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData::get_appInitOverrideStartType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33044e0;
+  constexpr static std::size_t addrs = 0x33082dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData::*)(
     ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType)>(&::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData::set_appInitOverrideStartType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33044e8;
+  constexpr static std::size_t addrs = 0x33082e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData::*)(
     ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType)>(&::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3304348;
+  constexpr static std::size_t addrs = 0x3308144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupData::*)()>(&::GlobalNamespace::AppInitScenesTransitionSetupData::InitDirectlyToMenu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3304254;
+  constexpr static std::size_t addrs = 0x3308050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInitScenesTransitionSetupData*>(), { "InitDirectlyToMenu", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupData::*)()>(&::GlobalNamespace::AppInitScenesTransitionSetupData::InitAsDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3304340;
+  constexpr static std::size_t addrs = 0x330813c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInitScenesTransitionSetupData*>(), { "InitAsDefault", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupData::*)(::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType)>(
     &::GlobalNamespace::AppInitScenesTransitionSetupData::Init)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x330425c;
+  constexpr static std::size_t addrs = 0x3308058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupData::*)()>(&::GlobalNamespace::AppInitScenesTransitionSetupData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33043cc;
+  constexpr static std::size_t addrs = 0x33081c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AppInitScenesTransitionSetupData*>(), { ".ctor", {}, {} })));

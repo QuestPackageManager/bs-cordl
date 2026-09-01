@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AlertViewHUD.hpp"
+// IWYU pragma private; include "GlobalNamespace\AlertViewHUD.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::AlertViewHUD> (*)()>(&::GlobalNamespace::AlertViewHUD::get_Instance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5a2cc30;
+  constexpr static std::size_t addrs = 0x5a310ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "get_Instance", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::AlertViewHUD*)>(&::GlobalNamespace::AlertViewHUD::set_Instance)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a2cc7c;
+  constexpr static std::size_t addrs = 0x5a31138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::get_HideAfterSec)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2cccc;
+  constexpr static std::size_t addrs = 0x5a31188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "get_HideAfterSec", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)(int32_t)>(&::GlobalNamespace::AlertViewHUD::set_HideAfterSec)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2ccd4;
+  constexpr static std::size_t addrs = 0x5a31190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::get_CenterInCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2ccdc;
+  constexpr static std::size_t addrs = 0x5a31198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "get_CenterInCamera", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)(bool)>(&::GlobalNamespace::AlertViewHUD::set_CenterInCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a2cce4;
+  constexpr static std::size_t addrs = 0x5a311a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::get_Hidden)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a2ccec;
+  constexpr static std::size_t addrs = 0x5a311a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "get_Hidden", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::Awake)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5a2cd14;
+  constexpr static std::size_t addrs = 0x5a311d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "Awake", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::GlobalNamespace::AlertViewHUD_MessageType)>(&::GlobalNamespace::AlertViewHUD::PostMessage)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5a2ce64;
+  constexpr static std::size_t addrs = 0x5a31320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)(::StringW, ::GlobalNamespace::AlertViewHUD_MessageType)>(&::GlobalNamespace::AlertViewHUD::Post)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5a2cf60;
+  constexpr static std::size_t addrs = 0x5a3141c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::ClearMessage)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a2d11c;
+  constexpr static std::size_t addrs = 0x5a315d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "ClearMessage", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::Update)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a2d17c;
+  constexpr static std::size_t addrs = 0x5a31638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "Update", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::CalculateHideAfterMessage)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5a2d194;
+  constexpr static std::size_t addrs = 0x5a31650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "CalculateHideAfterMessage", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::Reset)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5a2d0c8;
+  constexpr static std::size_t addrs = 0x5a31584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "Reset", {}, {} })));
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::Hide)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a2ce48;
+  constexpr static std::size_t addrs = 0x5a31304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "Hide", {}, {} })));
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::FollowCamera)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x5a2d208;
+  constexpr static std::size_t addrs = 0x5a316c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { "FollowCamera", {}, {} })));
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlertViewHUD::*)()>(&::GlobalNamespace::AlertViewHUD::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a2d4e0;
+  constexpr static std::size_t addrs = 0x5a3199c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlertViewHUD*>(), { ".ctor", {}, {} })));

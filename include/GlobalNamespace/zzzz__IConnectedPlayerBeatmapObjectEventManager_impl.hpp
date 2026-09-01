@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IConnectedPlayerBeatmapObjectEventManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\IConnectedPlayerBeatmapObjectEventManager.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayerBeatmapObjectEventManager_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfoNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteMissInfoNetSerializable_def.hpp"

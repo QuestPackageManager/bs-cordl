@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/NaccacheSternKeyGenerationParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\NaccacheSternKeyGenerationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,19 +53,19 @@ public:
 
   constexpr void __cordl_internal_set_countSmallPrimes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3411010, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3414dd0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes);
 
-  /// @brief Method .ctor, addr 0x34110b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3414e78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug);
 
-  /// @brief Method get_Certainty, addr 0x34110bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certainty, addr 0x3414e7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_CountSmallPrimes, addr 0x34110c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CountSmallPrimes, addr 0x3414e84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CountSmallPrimes();
 
-  /// @brief Method get_IsDebug, addr 0x34110cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDebug, addr 0x3414e8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDebug();
 
 protected:

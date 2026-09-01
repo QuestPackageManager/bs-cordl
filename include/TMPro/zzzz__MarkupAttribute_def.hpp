@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/MarkupAttribute.hpp"
+// IWYU pragma private; include "TMPro\MarkupAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,28 +28,28 @@ public:
 
   __declspec(property(get = get_ValueStartIndex, put = set_ValueStartIndex)) int32_t ValueStartIndex;
 
-  /// @brief Method get_NameHashCode, addr 0x699f020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameHashCode, addr 0x69a6a9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NameHashCode();
 
-  /// @brief Method get_ValueHashCode, addr 0x699f030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueHashCode, addr 0x69a6aac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ValueHashCode();
 
-  /// @brief Method get_ValueLength, addr 0x699f050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueLength, addr 0x69a6acc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ValueLength();
 
-  /// @brief Method get_ValueStartIndex, addr 0x699f040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueStartIndex, addr 0x69a6abc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ValueStartIndex();
 
-  /// @brief Method set_NameHashCode, addr 0x699f028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NameHashCode, addr 0x69a6aa4, size 0x8, virtual false, abstract: false, final false
   inline void set_NameHashCode(int32_t value);
 
-  /// @brief Method set_ValueHashCode, addr 0x699f038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ValueHashCode, addr 0x69a6ab4, size 0x8, virtual false, abstract: false, final false
   inline void set_ValueHashCode(int32_t value);
 
-  /// @brief Method set_ValueLength, addr 0x699f058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ValueLength, addr 0x69a6ad4, size 0x8, virtual false, abstract: false, final false
   inline void set_ValueLength(int32_t value);
 
-  /// @brief Method set_ValueStartIndex, addr 0x699f048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ValueStartIndex, addr 0x69a6ac4, size 0x8, virtual false, abstract: false, final false
   inline void set_ValueStartIndex(int32_t value);
 
   // Ctor Parameters []
@@ -61,7 +61,7 @@ public:
   constexpr MarkupAttribute(int32_t m_NameHashCode, int32_t m_ValueHashCode, int32_t m_ValueStartIndex, int32_t m_ValueLength) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16016 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

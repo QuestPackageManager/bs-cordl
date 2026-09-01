@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MakeRunEnvFileCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\MakeRunEnvFileCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method GetAllEnvironmentsSongsFromPack, addr 0x32dbd5c, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method GetAllEnvironmentsSongsFromPack, addr 0x32dfb58, size 0x470, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*>*
   GetAllEnvironmentsSongsFromPack(::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapDifficulty difficulty, ::StringW characteristic);
 
   static inline ::GlobalNamespace::MakeRunEnvFileCommand* New_ctor();
 
-  /// @brief Method TryGetLevelsToPlay, addr 0x32db3bc, size 0x9a0, virtual true, abstract: false, final false
+  /// @brief Method TryGetLevelsToPlay, addr 0x32df1b8, size 0x9a0, virtual true, abstract: false, final false
   inline bool TryGetLevelsToPlay(int32_t desiredNumberOfLevels, ::StringW characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty,
                                  ::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*> messages,
                                  ::by_ref<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*> levelsToPlay);
@@ -66,13 +66,13 @@ public:
 
   constexpr void __cordl_internal_set__envId(::GlobalNamespace::RequiredArgument_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x32dc1cc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32dffc8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32db334, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x32df130, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32db378, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x32df174, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -90,7 +90,7 @@ public:
   MakeRunEnvFileCommand(MakeRunEnvFileCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19405 };
 
   /// @brief Field _envId, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::RequiredArgument_1<::StringW>* ____envId;

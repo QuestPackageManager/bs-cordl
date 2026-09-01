@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/Universal2DResourceData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\Universal2DResourceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,17 +58,17 @@ public:
 
   __declspec(property(get = get_upscaleTexture, put = set_upscaleTexture)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle upscaleTexture;
 
-  /// @brief Method CheckAndGetTextureHandle, addr 0x686d564, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CheckAndGetTextureHandle, addr 0x6874fe0, size 0x13c, virtual false, abstract: false, final false
   inline ::ArrayW<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>
   CheckAndGetTextureHandle(::by_ref<::ArrayW<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>> handle);
 
-  /// @brief Method CheckAndSetTextureHandle, addr 0x686d734, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CheckAndSetTextureHandle, addr 0x68751b0, size 0xe4, virtual false, abstract: false, final false
   inline void CheckAndSetTextureHandle(::by_ref<::ArrayW<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>> handle,
                                        ::ArrayW<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> newHandle);
 
   static inline ::UnityEngine::Rendering::Universal::Universal2DResourceData* New_ctor();
 
-  /// @brief Method Reset, addr 0x686dbb8, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6875634, size 0x380, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> const& __cordl_internal_get__cameraNormalsTexture() const;
@@ -107,43 +107,43 @@ public:
 
   constexpr void __cordl_internal_set__upscaleTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x686df38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68759b4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cameraSortingLayerTexture, addr 0x686db84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraSortingLayerTexture, addr 0x6875600, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_cameraSortingLayerTexture();
 
-  /// @brief Method get_lightTextures, addr 0x686d818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightTextures, addr 0x6875294, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> get_lightTextures();
 
-  /// @brief Method get_normalsTexture, addr 0x686d82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalsTexture, addr 0x68752a8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> get_normalsTexture();
 
-  /// @brief Method get_shadowDepth, addr 0x686da40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadowDepth, addr 0x68754bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_shadowDepth();
 
-  /// @brief Method get_shadowTextures, addr 0x686da2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadowTextures, addr 0x68754a8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> get_shadowTextures();
 
-  /// @brief Method get_upscaleTexture, addr 0x686db50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_upscaleTexture, addr 0x68755cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle get_upscaleTexture();
 
-  /// @brief Method set_cameraSortingLayerTexture, addr 0x686db8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_cameraSortingLayerTexture, addr 0x6875608, size 0x2c, virtual false, abstract: false, final false
   inline void set_cameraSortingLayerTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_lightTextures, addr 0x686d820, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_lightTextures, addr 0x687529c, size 0xc, virtual false, abstract: false, final false
   inline void set_lightTextures(::ArrayW<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> value);
 
-  /// @brief Method set_normalsTexture, addr 0x686d934, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_normalsTexture, addr 0x68753b0, size 0xc, virtual false, abstract: false, final false
   inline void set_normalsTexture(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value);
 
-  /// @brief Method set_shadowDepth, addr 0x686daf8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_shadowDepth, addr 0x6875574, size 0x2c, virtual false, abstract: false, final false
   inline void set_shadowDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method set_shadowTextures, addr 0x686da34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_shadowTextures, addr 0x68754b0, size 0xc, virtual false, abstract: false, final false
   inline void set_shadowTextures(::ArrayW<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> value);
 
-  /// @brief Method set_upscaleTexture, addr 0x686db58, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_upscaleTexture, addr 0x68755d4, size 0x2c, virtual false, abstract: false, final false
   inline void set_upscaleTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
 protected:
@@ -161,7 +161,7 @@ public:
   Universal2DResourceData(Universal2DResourceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12753 };
 
   /// @brief Field _lightTextures, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>> ____lightTextures;

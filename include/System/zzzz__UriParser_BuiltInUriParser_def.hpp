@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/UriParser_BuiltInUriParser.hpp"
+// IWYU pragma private; include "System\UriParser_BuiltInUriParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::UriParser_BuiltInUriParser* New_ctor(::StringW lwrCaseScheme, int32_t defaultPort, ::System::UriSyntaxFlags syntaxFlags);
 
-  /// @brief Method .ctor, addr 0x63711d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6378c50, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW lwrCaseScheme, int32_t defaultPort, ::System::UriSyntaxFlags syntaxFlags);
 
 protected:
@@ -44,7 +44,7 @@ public:
   UriParser_BuiltInUriParser(UriParser_BuiltInUriParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11077 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

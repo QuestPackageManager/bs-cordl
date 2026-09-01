@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SignalListener.hpp"
+// IWYU pragma private; include "GlobalNamespace\SignalListener.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +31,15 @@ public:
   /// @brief Field _unityEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__unityEvent, put = __cordl_internal_set__unityEvent)) ::UnityEngine::Events::UnityEvent* _unityEvent;
 
-  /// @brief Method HandleEvent, addr 0x5859e64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent, addr 0x5858f6c, size 0x18, virtual false, abstract: false, final false
   inline void HandleEvent();
 
   static inline ::GlobalNamespace::SignalListener* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5859dd8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5858ee0, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5859d40, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5858e48, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__signal() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__unityEvent(::UnityEngine::Events::UnityEvent* value);
 
-  /// @brief Method .ctor, addr 0x5859e7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5858f84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   SignalListener(SignalListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21434 };
 
   /// @brief Field _signal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____signal;

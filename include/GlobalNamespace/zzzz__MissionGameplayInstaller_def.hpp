@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionGameplayInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionGameplayInstaller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +25,7 @@ public:
   /// @brief Field _sceneSetupData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::MissionGameplaySceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x591b650, size 0x50c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x591f00c, size 0x50c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MissionGameplayInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::MissionGameplaySceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x591bb5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591f518, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   MissionGameplayInstaller(MissionGameplayInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6808 };
 
   /// @brief Field _sceneSetupData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MissionGameplaySceneSetupData* ____sceneSetupData;

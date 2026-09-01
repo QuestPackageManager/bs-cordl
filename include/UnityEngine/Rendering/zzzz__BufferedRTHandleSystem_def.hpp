@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BufferedRTHandleSystem.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BufferedRTHandleSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,7 @@ public:
   constexpr BufferedRTHandleSystem___c__DisplayClass12_0(::UnityEngine::Rendering::BufferedRTHandleSystem* __4__this, ::UnityEngine::Experimental::Rendering::GraphicsFormat format) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12233 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -124,49 +124,49 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AllocBuffer, addr 0x67a1004, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method AllocBuffer, addr 0x67a8a80, size 0x194, virtual false, abstract: false, final false
   inline void AllocBuffer(int32_t bufferId, ::System::Func_3<::UnityEngine::Rendering::RTHandleSystem*, int32_t, ::UnityEngine::Rendering::RTHandle*>* allocator, int32_t bufferCount);
 
-  /// @brief Method AllocBuffer, addr 0x67a1198, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method AllocBuffer, addr 0x67a8c14, size 0x228, virtual false, abstract: false, final false
   inline void AllocBuffer(int32_t bufferId, int32_t bufferCount, ::by_ref<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::FilterMode filterMode,
                           ::UnityEngine::TextureWrapMode wrapMode, bool isShadowMap, int32_t anisoLevel, float_t mipMapBias, ::StringW name);
 
-  /// @brief Method CalculateRatioAgainstMaxSize, addr 0x67a1a30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CalculateRatioAgainstMaxSize, addr 0x67a94ac, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculateRatioAgainstMaxSize(int32_t width, int32_t height);
 
-  /// @brief Method ClearBuffers, addr 0x67a0e38, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ClearBuffers, addr 0x67a88b4, size 0x1cc, virtual false, abstract: false, final false
   inline void ClearBuffers(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method Dispose, addr 0x67a1cdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x67a9758, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x67a1a5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x67a94d8, size 0x44, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetFrameRT, addr 0x67a0d6c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetFrameRT, addr 0x67a87e8, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetFrameRT(int32_t bufferId, int32_t frameIndex);
 
-  /// @brief Method GetNumFramesAllocated, addr 0x67a197c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetNumFramesAllocated, addr 0x67a93f8, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetNumFramesAllocated(int32_t bufferId);
 
   static inline ::UnityEngine::Rendering::BufferedRTHandleSystem* New_ctor();
 
-  /// @brief Method ReleaseAll, addr 0x67a1aa0, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseAll, addr 0x67a951c, size 0x23c, virtual false, abstract: false, final false
   inline void ReleaseAll();
 
-  /// @brief Method ReleaseBuffer, addr 0x67a1474, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBuffer, addr 0x67a8ef0, size 0xf4, virtual false, abstract: false, final false
   inline void ReleaseBuffer(int32_t bufferId);
 
-  /// @brief Method ResetReferenceSize, addr 0x67a1960, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ResetReferenceSize, addr 0x67a93dc, size 0x1c, virtual false, abstract: false, final false
   inline void ResetReferenceSize(int32_t width, int32_t height);
 
-  /// @brief Method Swap, addr 0x67a15a4, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x67a9020, size 0x3bc, virtual false, abstract: false, final false
   inline void Swap();
 
-  /// @brief Method SwapAndSetReferenceSize, addr 0x67a1568, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SwapAndSetReferenceSize, addr 0x67a8fe4, size 0x3c, virtual false, abstract: false, final false
   inline void SwapAndSetReferenceSize(int32_t width, int32_t height);
 
-  /// @brief Method <AllocBuffer>g__Alloc|12_0, addr 0x67a13c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <AllocBuffer>g__Alloc|12_0, addr 0x67a8e3c, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* _AllocBuffer_g__Alloc_12_0(::by_ref<::UnityEngine::RenderTextureDescriptor> d, ::UnityEngine::FilterMode fMode, ::UnityEngine::TextureWrapMode wMode,
                                                                         bool isShadow, int32_t aniso, float_t mipBias, ::StringW n,
                                                                         ::by_ref<::UnityEngine::Rendering::BufferedRTHandleSystem___c__DisplayClass12_0> _cordl_fixed_empty_name_whitespace);
@@ -189,16 +189,16 @@ public:
 
   constexpr void __cordl_internal_set_m_RTHandles(::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::UnityEngine::Rendering::RTHandle*>>* value);
 
-  /// @brief Method .ctor, addr 0x67a1ce4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a9760, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxHeight, addr 0x67a0d30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_maxHeight, addr 0x67a87ac, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_maxHeight();
 
-  /// @brief Method get_maxWidth, addr 0x67a0d18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_maxWidth, addr 0x67a8794, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_maxWidth();
 
-  /// @brief Method get_rtHandleProperties, addr 0x67a0d48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_rtHandleProperties, addr 0x67a87c4, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandleProperties get_rtHandleProperties();
 
   /// @brief Convert to "::System::IDisposable"
@@ -219,7 +219,7 @@ public:
   BufferedRTHandleSystem(BufferedRTHandleSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12234 };
 
   /// @brief Field m_RTHandles, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::UnityEngine::Rendering::RTHandle*>>* ___m_RTHandles;

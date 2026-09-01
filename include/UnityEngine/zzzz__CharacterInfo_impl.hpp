@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/CharacterInfo.hpp"
+// IWYU pragma private; include "UnityEngine\CharacterInfo.hpp"
 #include "UnityEngine/zzzz__FontStyle_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__CharacterInfo_def.hpp"

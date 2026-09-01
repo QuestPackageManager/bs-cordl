@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LocalizedTextAsset.hpp"
+// IWYU pragma private; include "GlobalNamespace\LocalizedTextAsset.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationLanguage_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalizedTextAsset_TextInfo::*)()>(&::GlobalNamespace::LocalizedTextAsset_TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e1920;
+  constexpr static std::size_t addrs = 0x58e4f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalizedTextAsset_TextInfo*>(), { ".ctor", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalizedTextAsset___c::*)()>(&::GlobalNamespace::LocalizedTextAsset___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e1978;
+  constexpr static std::size_t addrs = 0x58e4fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalizedTextAsset___c*>(), { ".ctor", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LocalizedTextAsset___c::*)(::GlobalNamespace::LocalizedTextAsset_TextInfo*)>(
     &::GlobalNamespace::LocalizedTextAsset___c::_get_localizedText_b__6_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58e197c;
+  constexpr static std::size_t addrs = 0x58e4fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::*)()>(&::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e18c8;
+  constexpr static std::size_t addrs = 0x58e4f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::*)(::GlobalNamespace::LocalizedTextAsset_TextInfo*)>(
     &::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::_get_localizedText_b__1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58e1998;
+  constexpr static std::size_t addrs = 0x58e4fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0*>(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*> (::GlobalNamespace::LocalizedTextAsset::*)()>(
     &::GlobalNamespace::LocalizedTextAsset::get_textInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e1574;
+  constexpr static std::size_t addrs = 0x58e4bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalizedTextAsset*>(), { "get_textInfos", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LocalizedTextAsset::*)()>(&::GlobalNamespace::LocalizedTextAsset::get_localizedText)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x58e157c;
+  constexpr static std::size_t addrs = 0x58e4bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalizedTextAsset*>(), { "get_localizedText", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalizedTextAsset::*)()>(&::GlobalNamespace::LocalizedTextAsset::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x58e18cc;
+  constexpr static std::size_t addrs = 0x58e4f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalizedTextAsset*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerGraphicString.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerGraphicString.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGraphicString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerGraphicString* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::DerGraphicString::GetInstance)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x368c2b0;
+  constexpr static std::size_t addrs = 0x3690070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerGraphicString* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::DerGraphicString::GetInstance)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x368c4d8;
+  constexpr static std::size_t addrs = 0x3690298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerGraphicString::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::DerGraphicString::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3680b84;
+  constexpr static std::size_t addrs = 0x3684944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerGraphicString::*)()>(&::Org::BouncyCastle::Asn1::DerGraphicString::GetString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x368c5f8;
+  constexpr static std::size_t addrs = 0x36903b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::DerGraphicString::*)()>(&::Org::BouncyCastle::Asn1::DerGraphicString::GetOctets)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x368c604;
+  constexpr static std::size_t addrs = 0x36903c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerGraphicString*>(), { "GetOctets", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerGraphicString::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerGraphicString::Encode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x368c664;
+  constexpr static std::size_t addrs = 0x3690424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerGraphicString::*)()>(&::Org::BouncyCastle::Asn1::DerGraphicString::Asn1GetHashCode)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x368c680;
+  constexpr static std::size_t addrs = 0x3690440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::DerGraphicString::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerGraphicString::Asn1Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x368c6e0;
+  constexpr static std::size_t addrs = 0x36904a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

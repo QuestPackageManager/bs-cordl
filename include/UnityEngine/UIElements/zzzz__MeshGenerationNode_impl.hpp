@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MeshGenerationNode.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MeshGenerationNode.hpp"
 #include "UnityEngine/UIElements/zzzz__UnsafeMeshGenerationNode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshGenerationNode_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::InteropServices::GCHandle, ::by_ref<::UnityEngine::UIElements::MeshGenerationNode>)>(
     &::UnityEngine::UIElements::MeshGenerationNode::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dcdea8;
+  constexpr static std::size_t addrs = 0x6dd5a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::Entry* (::UnityEngine::UIElements::MeshGenerationNode::*)()>(
     &::UnityEngine::UIElements::MeshGenerationNode::GetParentEntry)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dcdeb0;
+  constexpr static std::size_t addrs = 0x6dd5a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshGenerationNode>(), { "GetParentEntry", {}, {} })));

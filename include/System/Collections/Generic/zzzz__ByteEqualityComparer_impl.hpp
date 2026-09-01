@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Generic/ByteEqualityComparer.hpp"
+// IWYU pragma private; include "System\Collections\Generic\ByteEqualityComparer.hpp"
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__ByteEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Generic::ByteEqualityComparer::*)(uint8_t, uint8_t)>(
     &::System::Collections::Generic::ByteEqualityComparer::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5bef3dc;
+  constexpr static std::size_t addrs = 0x5bf3898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ByteEqualityComparer*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Generic::ByteEqualityComparer::*)(uint8_t)>(
     &::System::Collections::Generic::ByteEqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bef3ec;
+  constexpr static std::size_t addrs = 0x5bf38a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ByteEqualityComparer*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Generic::ByteEqualityComparer::*)(::ArrayW<uint8_t>, uint8_t, int32_t, int32_t)>(
     &::System::Collections::Generic::ByteEqualityComparer::IndexOf)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5bef3f4;
+  constexpr static std::size_t addrs = 0x5bf38b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ByteEqualityComparer*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Generic::ByteEqualityComparer::*)(::ArrayW<uint8_t>, uint8_t, int32_t, int32_t)>(
     &::System::Collections::Generic::ByteEqualityComparer::LastIndexOf)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bef56c;
+  constexpr static std::size_t addrs = 0x5bf3a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ByteEqualityComparer*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Generic::ByteEqualityComparer::*)(::System::Object*)>(
     &::System::Collections::Generic::ByteEqualityComparer::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5bef5c8;
+  constexpr static std::size_t addrs = 0x5bf3a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ByteEqualityComparer*>(),
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Generic::ByteEqualityComparer::*)()>(&::System::Collections::Generic::ByteEqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5bef644;
+  constexpr static std::size_t addrs = 0x5bf3b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ByteEqualityComparer*>(),
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Generic::ByteEqualityComparer::*)()>(&::System::Collections::Generic::ByteEqualityComparer::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5bef67c;
+  constexpr static std::size_t addrs = 0x5bf3b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::ByteEqualityComparer*>(), { ".ctor", {}, {} })));

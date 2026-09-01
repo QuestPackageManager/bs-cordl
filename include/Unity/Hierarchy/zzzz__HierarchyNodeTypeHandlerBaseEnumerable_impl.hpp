@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Hierarchy/HierarchyNodeTypeHandlerBaseEnumerable.hpp"
+// IWYU pragma private; include "Unity\Hierarchy\HierarchyNodeTypeHandlerBaseEnumerable.hpp"
 #include "Unity/Hierarchy/zzzz__HierarchyNodeTypeHandlerBaseEnumerable_def.hpp"
 #include "System/Buffers/zzzz__IMemoryOwner_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::*)(::Unity::Hierarchy::Hierarchy*)>(
     &::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6b300a0;
+  constexpr static std::size_t addrs = 0x6b37c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::Dispose)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b3039c;
+  constexpr static std::size_t addrs = 0x6b37f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::HierarchyNodeTypeHandlerBase* (::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6b30440;
+  constexpr static std::size_t addrs = 0x6b37fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::*)()>(
     &::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b305ec;
+  constexpr static std::size_t addrs = 0x6b38170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable::*)(::Unity::Hierarchy::Hierarchy*)>(
     &::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b30070;
+  constexpr static std::size_t addrs = 0x6b37bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable_Enumerator (::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable::*)()>(
     &::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable::GetEnumerator)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b30078;
+  constexpr static std::size_t addrs = 0x6b37bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ObjectDispatcher.hpp"
+// IWYU pragma private; include "UnityEngine\ObjectDispatcher.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,7 +120,7 @@ public:
   static ::UnityEngine::ObjectDispatcher_TransformTrackingType const LocalTRS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10265 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -187,7 +187,7 @@ public:
   static ::UnityEngine::ObjectDispatcher_TypeTrackingFlags const SceneObjects;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10266 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -215,15 +215,15 @@ public:
 
   static inline ::UnityEngine::ObjectDispatcher___c* New_ctor();
 
-  /// @brief Method <.cctor>b__64_0, addr 0x6ace598, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__64_0, addr 0x6ad5fb0, size 0xa4, virtual false, abstract: false, final false
   inline void __cctor_b__64_0(::ArrayW<::UnityEngine::Object*> changed, ::System::IntPtr changedID, ::System::IntPtr destroyedID, int32_t changedCount, int32_t destroyedCount,
                               ::System::Action_1<::UnityEngine::TypeDispatchData>* callback);
 
-  /// @brief Method <.cctor>b__64_1, addr 0x6ace63c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__64_1, addr 0x6ad6054, size 0x120, virtual false, abstract: false, final false
   inline void __cctor_b__64_1(::System::IntPtr transformed, ::System::IntPtr parents, ::System::IntPtr localToWorldMatrices, ::System::IntPtr positions, ::System::IntPtr rotations,
                               ::System::IntPtr scales, int32_t count, ::System::Action_1<::UnityEngine::TransformDispatchData>* callback);
 
-  /// @brief Method .ctor, addr 0x6ace594, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad5fac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ObjectDispatcher___c* getStaticF___9();
@@ -245,7 +245,7 @@ public:
   ObjectDispatcher___c(ObjectDispatcher___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -306,90 +306,90 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateDispatchSystemHandle, addr 0x6accfb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateDispatchSystemHandle, addr 0x6ad49cc, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateDispatchSystemHandle();
 
-  /// @brief Method DestroyDispatchSystemHandle, addr 0x6acd114, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroyDispatchSystemHandle, addr 0x6ad4b2c, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyDispatchSystemHandle(::System::IntPtr ptr);
 
-  /// @brief Method DispatchCallback, addr 0x6acd578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DispatchCallback, addr 0x6ad4f90, size 0x8, virtual false, abstract: false, final false
   inline void DispatchCallback(::ArrayW<::UnityEngine::Component*> components);
 
-  /// @brief Method DispatchCallback, addr 0x6acd3fc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method DispatchCallback, addr 0x6ad4e14, size 0x17c, virtual false, abstract: false, final false
   inline void DispatchCallback(::UnityEngine::TransformDispatchData data);
 
-  /// @brief Method DispatchCallback, addr 0x6acd350, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method DispatchCallback, addr 0x6ad4d68, size 0xac, virtual false, abstract: false, final false
   inline void DispatchCallback(::UnityEngine::TypeDispatchData data);
 
-  /// @brief Method DispatchTransformChangesAndClear, addr 0x6acd6c0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DispatchTransformChangesAndClear, addr 0x6ad50d8, size 0xc4, virtual false, abstract: false, final false
   inline void DispatchTransformChangesAndClear(::System::Type* type, ::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType,
                                                ::System::Action_1<::UnityEngine::TransformDispatchData>* callback);
 
-  /// @brief Method DispatchTransformDataChangesAndClear, addr 0x6acd784, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DispatchTransformDataChangesAndClear, addr 0x6ad519c, size 0x6c, virtual false, abstract: false, final false
   static inline void DispatchTransformDataChangesAndClear(::System::IntPtr ptr, ::System::Type* type, ::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType,
                                                           ::System::Action_8<::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, int32_t,
                                                                              ::System::Action_1<::UnityEngine::TransformDispatchData>*>* callback,
                                                           ::System::Action_1<::UnityEngine::TransformDispatchData>* param);
 
-  /// @brief Method DispatchTypeChangesAndClear, addr 0x6acd64c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DispatchTypeChangesAndClear, addr 0x6ad5064, size 0x74, virtual false, abstract: false, final false
   static inline void DispatchTypeChangesAndClear(
       ::System::IntPtr ptr, ::System::Type* type,
       ::System::Action_6<::ArrayW<::UnityW<::UnityEngine::Object>>, ::System::IntPtr, ::System::IntPtr, int32_t, int32_t, ::System::Action_1<::UnityEngine::TypeDispatchData>*>* callback,
       bool sortByInstanceID, bool noScriptingArray, ::System::Action_1<::UnityEngine::TypeDispatchData>* param);
 
-  /// @brief Method DispatchTypeChangesAndClear, addr 0x6acd580, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DispatchTypeChangesAndClear, addr 0x6ad4f98, size 0xcc, virtual false, abstract: false, final false
   inline void DispatchTypeChangesAndClear(::System::Type* type, ::System::Action_1<::UnityEngine::TypeDispatchData>* callback, bool sortByInstanceID, bool noScriptingArray);
 
-  /// @brief Method Dispose, addr 0x6acd0ac, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6ad4ac4, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6acd024, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6ad4a3c, size 0x88, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnableTransformTracking, addr 0x6acdac0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EnableTransformTracking, addr 0x6ad54d8, size 0x54, virtual false, abstract: false, final false
   static inline void EnableTransformTracking(::System::IntPtr ptr, ::System::Type* type, ::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType);
 
   /// @brief Method EnableTransformTracking, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void EnableTransformTracking(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType);
 
-  /// @brief Method EnableTransformTracking, addr 0x6acd9bc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method EnableTransformTracking, addr 0x6ad53d4, size 0x104, virtual false, abstract: false, final false
   inline void EnableTransformTracking(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType, ::ArrayW<::System::Type*> types);
 
-  /// @brief Method EnableTypeTracking, addr 0x6acd968, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EnableTypeTracking, addr 0x6ad5380, size 0x54, virtual false, abstract: false, final false
   static inline void EnableTypeTracking(::System::IntPtr ptr, ::System::Type* type, ::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask);
 
   /// @brief Method EnableTypeTracking, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void EnableTypeTracking(::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask);
 
-  /// @brief Method EnableTypeTracking, addr 0x6acd864, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method EnableTypeTracking, addr 0x6ad527c, size 0x104, virtual false, abstract: false, final false
   inline void EnableTypeTracking(::UnityEngine::ObjectDispatcher_TypeTrackingFlags typeTrackingMask, ::ArrayW<::System::Type*> types);
 
-  /// @brief Method Finalize, addr 0x6accfdc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6ad49f4, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method GetTransformChangesAndClear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   inline ::UnityEngine::TransformDispatchData GetTransformChangesAndClear(::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method GetTransformChangesAndClear, addr 0x6acd82c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetTransformChangesAndClear, addr 0x6ad5244, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::TransformDispatchData GetTransformChangesAndClear(::System::Type* type, ::UnityEngine::ObjectDispatcher_TransformTrackingType trackingType,
                                                                           ::Unity::Collections::Allocator allocator);
 
   /// @brief Method GetTypeChangesAndClear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::UnityEngine::TypeDispatchData GetTypeChangesAndClear(::Unity::Collections::Allocator allocator, bool sortByInstanceID, bool noScriptingArray);
 
-  /// @brief Method GetTypeChangesAndClear, addr 0x6acd7f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeChangesAndClear, addr 0x6ad5208, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::TypeDispatchData GetTypeChangesAndClear(::System::Type* type, ::Unity::Collections::Allocator allocator, bool sortByInstanceID, bool noScriptingArray);
 
   static inline ::UnityEngine::ObjectDispatcher* New_ctor();
 
-  /// @brief Method ValidateComponentTypeAndThrow, addr 0x6acd27c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ValidateComponentTypeAndThrow, addr 0x6ad4c94, size 0xd4, virtual false, abstract: false, final false
   inline void ValidateComponentTypeAndThrow(::System::Type* type);
 
-  /// @brief Method ValidateSystemHandleAndThrow, addr 0x6acd150, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ValidateSystemHandleAndThrow, addr 0x6ad4b68, size 0x58, virtual false, abstract: false, final false
   inline void ValidateSystemHandleAndThrow();
 
-  /// @brief Method ValidateTypeAndThrow, addr 0x6acd1a8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ValidateTypeAndThrow, addr 0x6ad4bc0, size 0xd4, virtual false, abstract: false, final false
   inline void ValidateTypeAndThrow(::System::Type* type);
 
   constexpr ::Unity::Collections::Allocator const& __cordl_internal_get_m_DispatchAllocator() const;
@@ -440,7 +440,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TypeDispatchData(::UnityEngine::TypeDispatchData value);
 
-  /// @brief Method .ctor, addr 0x6accdcc, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ad47e4, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Action_8<::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, int32_t,
@@ -450,7 +450,7 @@ public:
   static inline ::System::Action_6<::ArrayW<::UnityW<::UnityEngine::Object>>, ::System::IntPtr, ::System::IntPtr, int32_t, int32_t, ::System::Action_1<::UnityEngine::TypeDispatchData>*>*
   getStaticF_s_TypeDispatch();
 
-  /// @brief Method get_valid, addr 0x6accdbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6ad47d4, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::System::IDisposable"
@@ -477,7 +477,7 @@ public:
   ObjectDispatcher(ObjectDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10268 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

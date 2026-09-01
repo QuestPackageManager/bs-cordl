@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/InitializeLocalInstruction_MutableBox.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\InitializeLocalInstruction_MutableBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::InitializeLocalInstruction_MutableBox* New_ctor(int32_t index, ::System::Type* type);
 
-  /// @brief Method Run, addr 0x5fabc54, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fb36d0, size 0x150, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__type() const;
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5fabc04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb3680, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::System::Type* type);
 
-  /// @brief Method get_InstructionName, addr 0x5fabda4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fb3820, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -64,7 +64,7 @@ public:
   InitializeLocalInstruction_MutableBox(InitializeLocalInstruction_MutableBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16473 };
 
   /// @brief Field _type, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____type;

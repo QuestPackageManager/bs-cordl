@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Diagnostics/Tracing/EventSourceAttribute.hpp"
+// IWYU pragma private; include "System\Diagnostics\Tracing\EventSourceAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5bdeb14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5be2fd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Guid, addr 0x5bdeb04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Guid, addr 0x5be2fc0, size 0x8, virtual false, abstract: false, final false
   inline void set_Guid(::StringW value);
 
-  /// @brief Method set_Name, addr 0x5bdeb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x5be2fc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:

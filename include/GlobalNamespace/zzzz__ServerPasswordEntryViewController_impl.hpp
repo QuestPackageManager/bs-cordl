@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ServerPasswordEntryViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ServerPasswordEntryViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerPasswordEntryViewController_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*)>(
     &::GlobalNamespace::ServerPasswordEntryViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59606b0;
+  constexpr static std::size_t addrs = 0x5963fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*)>(
     &::GlobalNamespace::ServerPasswordEntryViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5960770;
+  constexpr static std::size_t addrs = 0x5964068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)(::GlobalNamespace::INetworkPlayer*)>(
     &::GlobalNamespace::ServerPasswordEntryViewController::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5960830;
+  constexpr static std::size_t addrs = 0x5964128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ServerPasswordEntryViewController::DidActivate)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5960838;
+  constexpr static std::size_t addrs = 0x5964130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ServerPasswordEntryViewController*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)(bool, bool)>(
     &::GlobalNamespace::ServerPasswordEntryViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5960940;
+  constexpr static std::size_t addrs = 0x5964238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ServerPasswordEntryViewController*>(),
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)()>(&::GlobalNamespace::ServerPasswordEntryViewController::HandleJoinClicked)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5960a04;
+  constexpr static std::size_t addrs = 0x59642fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ServerPasswordEntryViewController*>(), { "HandleJoinClicked", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)()>(
     &::GlobalNamespace::ServerPasswordEntryViewController::HandleUIKeyboardOkButtonWasPressed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5960a3c;
+  constexpr static std::size_t addrs = 0x5964334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerPasswordEntryViewController::*)()>(&::GlobalNamespace::ServerPasswordEntryViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5960a74;
+  constexpr static std::size_t addrs = 0x596436c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ServerPasswordEntryViewController*>(), { ".ctor", {}, {} })));

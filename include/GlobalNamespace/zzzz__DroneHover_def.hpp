@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/DroneHover.hpp"
+// IWYU pragma private; include "GlobalNamespace\DroneHover.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  /// @brief Method .ctor, addr 0x58b05d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58aff9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -139,21 +139,21 @@ public:
   __declspec(property(get = __cordl_internal_get__tiltTransforms,
                       put = __cordl_internal_set__tiltTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _tiltTransforms;
 
-  /// @brief Method GetNoise, addr 0x58b04bc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetNoise, addr 0x58afe84, size 0x100, virtual false, abstract: false, final false
   inline float_t GetNoise(float_t time, float_t offset);
 
-  /// @brief Method GetNoiseVec3, addr 0x58b0120, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetNoiseVec3, addr 0x58afae8, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetNoiseVec3(float_t time);
 
   static inline ::GlobalNamespace::DroneHover* New_ctor();
 
-  /// @brief Method Start, addr 0x58aff80, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58af948, size 0x30, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x58affb0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58af978, size 0x170, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTiltTransform, addr 0x58b01a0, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTiltTransform, addr 0x58afb68, size 0x31c, virtual false, abstract: false, final false
   inline void UpdateTiltTransform();
 
   constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
@@ -216,7 +216,7 @@ public:
 
   constexpr void __cordl_internal_set__tiltTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method .ctor, addr 0x58b05bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58aff84, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

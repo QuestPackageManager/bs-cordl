@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaContent.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaContent.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContent_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaContent._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaContent::*)()>(&::System::Xml::Schema::XmlSchemaContent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6226648;
+  constexpr static std::size_t addrs = 0x622e0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaContent*>(), { ".ctor", {}, {} })));

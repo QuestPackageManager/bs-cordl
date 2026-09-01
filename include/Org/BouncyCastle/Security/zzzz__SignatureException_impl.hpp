@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/SignatureException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\SignatureException.hpp"
 #include "Org/BouncyCastle/Security/zzzz__GeneralSecurityException_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SignatureException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::SignatureException::*)()>(&::Org::BouncyCastle::Security::SignatureException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x360d150;
+  constexpr static std::size_t addrs = 0x3610f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::SignatureException*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::SignatureException::*)(::StringW)>(&::Org::BouncyCastle::Security::SignatureException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x360d158;
+  constexpr static std::size_t addrs = 0x3610f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::SignatureException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Security::SignatureException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x360d160;
+  constexpr static std::size_t addrs = 0x3610f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::SignatureException*>(),

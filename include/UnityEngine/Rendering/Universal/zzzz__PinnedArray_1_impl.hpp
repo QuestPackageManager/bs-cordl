@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/PinnedArray_1.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\PinnedArray_1.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PinnedArray_1_def.hpp"

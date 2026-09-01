@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/SchemaNotation.hpp"
+// IWYU pragma private; include "System\Xml\Schema\SchemaNotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,22 +58,22 @@ public:
 
   constexpr void __cordl_internal_set_systemLiteral(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6203a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x620b508, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method get_Name, addr 0x6203a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x620b510, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  /// @brief Method get_Pubid, addr 0x6203aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pubid, addr 0x620b528, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pubid();
 
-  /// @brief Method get_SystemLiteral, addr 0x6203a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemLiteral, addr 0x620b518, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemLiteral();
 
-  /// @brief Method set_Pubid, addr 0x6203ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pubid, addr 0x620b530, size 0x8, virtual false, abstract: false, final false
   inline void set_Pubid(::StringW value);
 
-  /// @brief Method set_SystemLiteral, addr 0x6203aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SystemLiteral, addr 0x620b520, size 0x8, virtual false, abstract: false, final false
   inline void set_SystemLiteral(::StringW value);
 
 protected:
@@ -91,7 +91,7 @@ public:
   SchemaNotation(SchemaNotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9717 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___name;

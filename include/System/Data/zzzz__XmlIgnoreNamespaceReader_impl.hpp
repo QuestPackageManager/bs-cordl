@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/XmlIgnoreNamespaceReader.hpp"
+// IWYU pragma private; include "System\Data\XmlIgnoreNamespaceReader.hpp"
 #include "System/Xml/zzzz__XmlNodeReader_impl.hpp"
 #include "System/Data/zzzz__XmlIgnoreNamespaceReader_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlIgnoreNamespaceReader::*)(::System::Xml::XmlDocument*, ::ArrayW<::StringW>)>(
     &::System::Data::XmlIgnoreNamespaceReader::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x60608e4;
+  constexpr static std::size_t addrs = 0x6068360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::XmlIgnoreNamespaceReader*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlIgnoreNamespaceReader::*)()>(&::System::Data::XmlIgnoreNamespaceReader::MoveToFirstAttribute)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x606097c;
+  constexpr static std::size_t addrs = 0x60683f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlIgnoreNamespaceReader::*)()>(&::System::Data::XmlIgnoreNamespaceReader::MoveToNextAttribute)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6060a90;
+  constexpr static std::size_t addrs = 0x606850c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

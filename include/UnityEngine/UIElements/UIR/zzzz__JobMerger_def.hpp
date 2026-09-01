@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/JobMerger.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\JobMerger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,16 +42,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x6cd68c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6cde448, size 0x6c, virtual false, abstract: false, final false
   inline void Add(::Unity::Jobs::JobHandle job);
 
-  /// @brief Method Dispose, addr 0x6cd69cc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cde550, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cd6a34, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6cde5b8, size 0x70, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method MergeAndReset, addr 0x6cd6930, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MergeAndReset, addr 0x6cde4b4, size 0x8c, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle MergeAndReset();
 
   static inline ::UnityEngine::UIElements::UIR::JobMerger* New_ctor(int32_t capacity);
@@ -74,16 +74,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Jobs(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> value);
 
-  /// @brief Method .ctor, addr 0x6cd6810, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cde394, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method get_disposed, addr 0x6cd69bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6cde540, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6cd69c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6cde548, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

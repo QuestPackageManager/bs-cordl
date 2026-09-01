@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/RsaPublicKeyStructure.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\RsaPublicKeyStructure.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,17 +44,17 @@ public:
   /// @brief Field publicExponent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_publicExponent, put = __cordl_internal_set_publicExponent)) ::Org::BouncyCastle::Math::BigInteger* publicExponent;
 
-  /// @brief Method GetInstance, addr 0x36610bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3664e7c, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x36610d0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3664e90, size 0x170, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* New_ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent);
 
   static inline ::Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3661480, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3665240, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_modulus() const;
@@ -69,16 +69,16 @@ public:
 
   constexpr void __cordl_internal_set_publicExponent(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x3661358, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3665118, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent);
 
-  /// @brief Method .ctor, addr 0x3661240, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3665000, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Modulus, addr 0x3661470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x3665230, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_PublicExponent, addr 0x3661478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicExponent, addr 0x3665238, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
 protected:

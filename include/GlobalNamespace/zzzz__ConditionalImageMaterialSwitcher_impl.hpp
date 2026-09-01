@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ConditionalImageMaterialSwitcher.hpp"
+// IWYU pragma private; include "GlobalNamespace\ConditionalImageMaterialSwitcher.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ConditionalImageMaterialSwitcher_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConditionalImageMaterialSwitcher::*)()>(&::GlobalNamespace::ConditionalImageMaterialSwitcher::Awake)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x58fda24;
+  constexpr static std::size_t addrs = 0x5900fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConditionalImageMaterialSwitcher*>(), { "Awake", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConditionalImageMaterialSwitcher::*)()>(&::GlobalNamespace::ConditionalImageMaterialSwitcher::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58fdaa8;
+  constexpr static std::size_t addrs = 0x5901070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConditionalImageMaterialSwitcher*>(), { ".ctor", {}, {} })));

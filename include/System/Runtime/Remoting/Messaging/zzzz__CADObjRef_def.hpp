@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CADObjRef.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Messaging\CADObjRef.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_objref(::System::Runtime::Remoting::ObjRef* value);
 
-  /// @brief Method .ctor, addr 0x5b3bc44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b40100, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
 protected:

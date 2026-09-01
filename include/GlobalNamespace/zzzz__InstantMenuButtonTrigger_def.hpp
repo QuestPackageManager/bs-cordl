@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/InstantMenuButtonTrigger.hpp"
+// IWYU pragma private; include "GlobalNamespace\InstantMenuButtonTrigger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::InstantMenuButtonTrigger* New_ctor();
 
-  /// @brief Method Tick, addr 0x327aeb4, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x327ec44, size 0xd0, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x327af84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327ed14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x327ad5c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x327eaec, size 0xac, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
@@ -72,7 +72,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x327ae08, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x327eb98, size 0xac, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   InstantMenuButtonTrigger(InstantMenuButtonTrigger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23550 };
 
   /// @brief Field _vrPlatformHelper, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TextureProcessor3DMixerBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace\TextureProcessor3DMixerBehaviour.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextureProcessor3DMixerBehaviour_def.hpp"
 #include "GlobalNamespace/zzzz__TextureProcessor3D_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3DMixerBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::TextureProcessor3DMixerBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0xa5c;
-  constexpr static std::size_t addrs = 0x5906484;
+  constexpr static std::size_t addrs = 0x5909a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3DMixerBehaviour*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3DMixerBehaviour::*)()>(&::GlobalNamespace::TextureProcessor3DMixerBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5906ee0;
+  constexpr static std::size_t addrs = 0x590a4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3DMixerBehaviour*>(), { ".ctor", {}, {} })));

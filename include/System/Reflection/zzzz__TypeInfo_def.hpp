@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/TypeInfo.hpp"
+// IWYU pragma private; include "System\Reflection\TypeInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ public:
 
   static inline ::System::Reflection::TypeInfo* New_ctor();
 
-  /// @brief Method System.Reflection.IReflectableType.GetTypeInfo, addr 0x5b800c0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Reflection.IReflectableType.GetTypeInfo, addr 0x5b8457c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Reflection::TypeInfo* System_Reflection_IReflectableType_GetTypeInfo();
 
-  /// @brief Method .ctor, addr 0x5b7fa4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b83f08, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ImplementedInterfaces, addr 0x5b800c4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_ImplementedInterfaces, addr 0x5b84580, size 0x10, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ImplementedInterfaces();
 
   /// @brief Convert to "::System::Reflection::IReflectableType"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/TextInputEvent.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\TextInputEvent.hpp"
 #include "Unity/IntegerTime/zzzz__DiscreteTime_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventSource_impl.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::TextInputEvent::*)(::Unity::IntegerTime::DiscreteTime)>(
     &::UnityEngine::InputForUI::TextInputEvent::set_timestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b53258;
+  constexpr static std::size_t addrs = 0x6b5addc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventSource (::UnityEngine::InputForUI::TextInputEvent::*)()>(
     &::UnityEngine::InputForUI::TextInputEvent::get_eventSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b53260;
+  constexpr static std::size_t addrs = 0x6b5ade4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::TextInputEvent>(), { "get_eventSource", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::TextInputEvent::*)(::UnityEngine::InputForUI::EventSource)>(
     &::UnityEngine::InputForUI::TextInputEvent::set_eventSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b53268;
+  constexpr static std::size_t addrs = 0x6b5adec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::TextInputEvent::*)(uint32_t)>(&::UnityEngine::InputForUI::TextInputEvent::set_playerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b53270;
+  constexpr static std::size_t addrs = 0x6b5adf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventModifiers (::UnityEngine::InputForUI::TextInputEvent::*)()>(
     &::UnityEngine::InputForUI::TextInputEvent::get_eventModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b53278;
+  constexpr static std::size_t addrs = 0x6b5adfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::TextInputEvent>(), { "get_eventModifiers", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::TextInputEvent::*)(::UnityEngine::InputForUI::EventModifiers)>(
     &::UnityEngine::InputForUI::TextInputEvent::set_eventModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b53280;
+  constexpr static std::size_t addrs = 0x6b5ae04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputForUI::TextInputEvent::*)()>(&::UnityEngine::InputForUI::TextInputEvent::ToString)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6b53288;
+  constexpr static std::size_t addrs = 0x6b5ae0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

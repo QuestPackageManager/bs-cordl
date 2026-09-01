@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/CVRExtendedDisplay.hpp"
+// IWYU pragma private; include "OVR\OpenVR\CVRExtendedDisplay.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x18
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRExtendedDisplay FnTable;
 
-  /// @brief Method GetDXGIOutputInfo, addr 0x5e3f9f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDXGIOutputInfo, addr 0x5e43eb4, size 0x28, virtual false, abstract: false, final false
   inline void GetDXGIOutputInfo(::by_ref<int32_t> pnAdapterIndex, ::by_ref<int32_t> pnAdapterOutputIndex);
 
-  /// @brief Method GetEyeOutputViewport, addr 0x5e3f9c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetEyeOutputViewport, addr 0x5e43e84, size 0x30, virtual false, abstract: false, final false
   inline void GetEyeOutputViewport(::OVR::OpenVR::EVREye eEye, ::by_ref<uint32_t> pnX, ::by_ref<uint32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight);
 
-  /// @brief Method GetWindowBounds, addr 0x5e3f998, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetWindowBounds, addr 0x5e43e54, size 0x30, virtual false, abstract: false, final false
   inline void GetWindowBounds(::by_ref<int32_t> pnX, ::by_ref<int32_t> pnY, ::by_ref<uint32_t> pnWidth, ::by_ref<uint32_t> pnHeight);
 
   static inline ::OVR::OpenVR::CVRExtendedDisplay* New_ctor(::System::IntPtr pInterface);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRExtendedDisplay value);
 
-  /// @brief Method .ctor, addr 0x5e3f89c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e43d58, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -65,7 +65,7 @@ public:
   CVRExtendedDisplay(CVRExtendedDisplay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8377 };
 
   /// @brief Field FnTable, offset: 0x10, size: 0x18, def value: None
   ::OVR::OpenVR::IVRExtendedDisplay ___FnTable;

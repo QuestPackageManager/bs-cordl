@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StartupErrorViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\StartupErrorViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__StartupErrorViewController_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartupErrorViewController::*)(bool, bool, bool)>(&::GlobalNamespace::StartupErrorViewController::DidActivate)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5a1b254;
+  constexpr static std::size_t addrs = 0x5a23340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartupErrorViewController::*)(::StringW)>(&::GlobalNamespace::StartupErrorViewController::SetMessage)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1b30c;
+  constexpr static std::size_t addrs = 0x5a233f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartupErrorViewController::*)()>(&::GlobalNamespace::StartupErrorViewController::HandleQuitButtonPressed)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5a1b32c;
+  constexpr static std::size_t addrs = 0x5a23418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StartupErrorViewController*>(), { "HandleQuitButtonPressed", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartupErrorViewController::*)()>(&::GlobalNamespace::StartupErrorViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1b380;
+  constexpr static std::size_t addrs = 0x5a2346c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StartupErrorViewController*>(), { ".ctor", {}, {} })));

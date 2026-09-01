@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/RsaSecretBcpgKey.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\RsaSecretBcpgKey.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__RsaSecretBcpgKey_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::_ctor)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x369b764;
+  constexpr static std::size_t addrs = 0x369f524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::_ctor)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x369b8fc;
+  constexpr static std::size_t addrs = 0x369f6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::get_Modulus)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x369bae8;
+  constexpr static std::size_t addrs = 0x369f8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey*>(), { "get_Modulus", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::get_PrivateExponent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x369bb18;
+  constexpr static std::size_t addrs = 0x369f8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey*>(), { "get_PrivateExponent", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::get_PrimeP)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x369bb30;
+  constexpr static std::size_t addrs = 0x369f8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey*>(), { "get_PrimeP", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::get_PrimeQ)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x369bb48;
+  constexpr static std::size_t addrs = 0x369f908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey*>(), { "get_PrimeQ", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::get_PrimeExponentP)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369bb60;
+  constexpr static std::size_t addrs = 0x369f920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey*>(), { "get_PrimeExponentP", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::get_PrimeExponentQ)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369bb68;
+  constexpr static std::size_t addrs = 0x369f928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey*>(), { "get_PrimeExponentQ", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::get_CrtCoefficient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369bb70;
+  constexpr static std::size_t addrs = 0x369f930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey*>(), { "get_CrtCoefficient", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)()>(&::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::get_Format)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x369bb78;
+  constexpr static std::size_t addrs = 0x369f938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey*>(), { "get_Format", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)()>(&::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::GetEncoded)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x369bbbc;
+  constexpr static std::size_t addrs = 0x369f97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey::Encode)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x369bc44;
+  constexpr static std::size_t addrs = 0x369fa04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

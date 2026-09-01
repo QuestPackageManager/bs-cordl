@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/IPanelRenderer.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\IPanelRenderer.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanelRenderer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IPanelRenderer.get_forceGammaRendering
 template <>

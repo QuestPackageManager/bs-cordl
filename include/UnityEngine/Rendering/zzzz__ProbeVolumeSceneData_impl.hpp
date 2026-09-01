@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumeSceneData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumeSceneData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumeSceneData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SerializedDictionary_2_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeSceneData::*)(::UnityEngine::Object*)>(&::UnityEngine::Rendering::ProbeVolumeSceneData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67903d4;
+  constexpr static std::size_t addrs = 0x6797e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumeSceneData::*)(::UnityEngine::Object*)>(
     &::UnityEngine::Rendering::ProbeVolumeSceneData::SetParentObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67903dc;
+  constexpr static std::size_t addrs = 0x6797e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

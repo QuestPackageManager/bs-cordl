@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/VREvent_Keyboard_t.hpp"
+// IWYU pragma private; include "OVR\OpenVR\VREvent_Keyboard_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_cNewInput)) ::StringW cNewInput;
 
-  /// @brief Method get_cNewInput, addr 0x5e43b64, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_cNewInput, addr 0x5e48020, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW get_cNewInput();
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
                                uint64_t uUserValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8492 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

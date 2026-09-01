@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames/Analytics/Events/NavigationEvent.hpp"
+// IWYU pragma private; include "BeatGames\Analytics\Events\NavigationEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +34,13 @@ public:
 
   static inline ::BeatGames::Analytics::Events::NavigationEvent* New_ctor();
 
-  /// @brief Method ReturnEventToPool, addr 0x32553b0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReturnEventToPool, addr 0x32586b0, size 0x74, virtual true, abstract: false, final false
   inline void ReturnEventToPool();
 
-  /// @brief Method ReturnedToPool, addr 0x3255360, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method ReturnedToPool, addr 0x3258660, size 0x50, virtual true, abstract: false, final false
   inline void ReturnedToPool();
 
-  /// @brief Method SetEventData, addr 0x32548e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetEventData, addr 0x3257be0, size 0xc, virtual false, abstract: false, final false
   inline void SetEventData(::StringW buttonID, ::StringW screenID, ::StringW contentID, ::StringW eventType);
 
   constexpr ::StringW const& __cordl_internal_get_button_id() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_screen_id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32552d8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32585d8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   NavigationEvent(NavigationEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23328 };
 
   /// @brief Field button_id, offset: 0x78, size: 0x8, def value: None
   ::StringW ___button_id;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RenderingParamsSetupApplicator.hpp"
+// IWYU pragma private; include "GlobalNamespace\RenderingParamsSetupApplicator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRenderingParamsApplicator"
   constexpr operator ::GlobalNamespace::IRenderingParamsApplicator*() noexcept;
 
-  /// @brief Method Apply, addr 0x58fe504, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Apply, addr 0x5901ad4, size 0x18, virtual true, abstract: false, final true
   inline void Apply(::GlobalNamespace::SceneType sceneType, ::StringW optionalEnvironmentSerializedName);
 
-  /// @brief Method ApplyGraphicsSettings, addr 0x58fe51c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ApplyGraphicsSettings, addr 0x5901aec, size 0x30, virtual false, abstract: false, final false
   inline void ApplyGraphicsSettings(::GlobalNamespace::SceneType sceneType, ::StringW optionalEnvironmentSerializedName);
 
-  /// @brief Method ApplyMainSettings, addr 0x58fe54c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ApplyMainSettings, addr 0x5901b1c, size 0x24, virtual false, abstract: false, final false
   inline void ApplyMainSettings();
 
   static inline ::GlobalNamespace::RenderingParamsSetupApplicator* New_ctor();
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x58fe67c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5901c4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IRenderingParamsApplicator"
@@ -85,7 +85,7 @@ public:
   RenderingParamsSetupApplicator(RenderingParamsSetupApplicator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6665 };
 
   /// @brief Field _settingsManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RecordingConverter.hpp"
+// IWYU pragma private; include "GlobalNamespace\RecordingConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingConverter::*)(::GlobalNamespace::IBeatSaberLogger*)>(&::GlobalNamespace::RecordingConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e6f0c;
+  constexpr static std::size_t addrs = 0x58ea53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingConverter::*)(::StringW, ::GlobalNamespace::PosesRecordingData*)>(
     &::GlobalNamespace::RecordingConverter::SaveToOldFormat)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x58e8010;
+  constexpr static std::size_t addrs = 0x58eb640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

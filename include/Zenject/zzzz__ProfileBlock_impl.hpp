@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ProfileBlock.hpp"
+// IWYU pragma private; include "Zenject\ProfileBlock.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ProfileBlock_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ProfileBlock::*)(::StringW, bool)>(&::Zenject::ProfileBlock::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e95120;
+  constexpr static std::size_t addrs = 0x6e9cca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ProfileBlock::*)(::StringW)>(&::Zenject::ProfileBlock::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e95124;
+  constexpr static std::size_t addrs = 0x6e9cca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProfileBlock*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::RegularExpressions::Regex* (*)()>(&::Zenject::ProfileBlock::get_ProfilePattern)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e95128;
+  constexpr static std::size_t addrs = 0x6e9ccac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProfileBlock*>(), { "get_ProfilePattern", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::RegularExpressions::Regex*)>(&::Zenject::ProfileBlock::set_ProfilePattern)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e95174;
+  constexpr static std::size_t addrs = 0x6e9ccf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ProfileBlock* (*)()>(&::Zenject::ProfileBlock::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e951c4;
+  constexpr static std::size_t addrs = 0x6e9cd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProfileBlock*>(), { "Start", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ProfileBlock* (*)(::StringW, ::System::Object*, ::System::Object*)>(&::Zenject::ProfileBlock::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e951cc;
+  constexpr static std::size_t addrs = 0x6e9cd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ProfileBlock* (*)(::StringW, ::System::Object*)>(&::Zenject::ProfileBlock::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e951d4;
+  constexpr static std::size_t addrs = 0x6e9cd58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ProfileBlock* (*)(::StringW)>(&::Zenject::ProfileBlock::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e951dc;
+  constexpr static std::size_t addrs = 0x6e9cd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProfileBlock*>(), { "Start", {}, { ::i2c::type_of<::StringW>() } })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ProfileBlock::*)()>(&::Zenject::ProfileBlock::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e951e4;
+  constexpr static std::size_t addrs = 0x6e9cd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ProfileBlock*>(), { "Dispose", {}, {} })));

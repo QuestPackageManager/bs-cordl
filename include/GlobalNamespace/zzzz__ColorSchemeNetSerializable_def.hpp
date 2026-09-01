@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorSchemeNetSerializable.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorSchemeNetSerializable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method Deserialize, addr 0x32a4e2c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x32a8c28, size 0x80, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x32a4dac, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x32a8ba8, size 0x80, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method .ctor, addr 0x32a4d70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a8b6c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0,
                     ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
@@ -63,7 +63,7 @@ public:
                                        ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18848 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/BlittableListWrapper.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\BlittableListWrapper.hpp"
 #include "UnityEngine/Bindings/zzzz__BlittableArrayWrapper_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__BlittableListWrapper_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::BlittableListWrapper::*)(::UnityEngine::Bindings::BlittableArrayWrapper, int32_t)>(
     &::UnityEngine::Bindings::BlittableListWrapper::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6af74a8;
+  constexpr static std::size_t addrs = 0x6afeec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

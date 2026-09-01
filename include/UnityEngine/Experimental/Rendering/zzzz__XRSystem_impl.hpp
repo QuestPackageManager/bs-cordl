@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Rendering/XRSystem.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Rendering\XRSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FoveatedRenderingCaps_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__MSAASamples_impl.hpp"
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<Il2CppObject* (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::GetActiveDisplay)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6743158;
+  constexpr static std::size_t addrs = 0x674abd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "GetActiveDisplay", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::get_displayActive)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x673e8fc;
+  constexpr static std::size_t addrs = 0x6746378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "get_displayActive", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::get_isHDRDisplayOutputActive)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x67431b4;
+  constexpr static std::size_t addrs = 0x674ac30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::get_singlePassAllowed)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x674325c;
+  constexpr static std::size_t addrs = 0x674acd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "get_singlePassAllowed", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Experimental::Rendering::XRSystem::set_singlePassAllowed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67432b8;
+  constexpr static std::size_t addrs = 0x674ad34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::FoveatedRenderingCaps (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::get_foveatedRenderingCaps)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x674331c;
+  constexpr static std::size_t addrs = 0x674ad98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::FoveatedRenderingCaps)>(&::UnityEngine::Experimental::Rendering::XRSystem::set_foveatedRenderingCaps)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6743378;
+  constexpr static std::size_t addrs = 0x674adf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::get_dumpDebugInfo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67433d8;
+  constexpr static std::size_t addrs = 0x674ae54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "get_dumpDebugInfo", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Experimental::Rendering::XRSystem::set_dumpDebugInfo)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6743434;
+  constexpr static std::size_t addrs = 0x674aeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Func_2<::UnityEngine::Experimental::Rendering::XRPassCreateInfo, ::UnityEngine::Experimental::Rendering::XRPass*>*,
                                                                 ::UnityEngine::Shader*, ::UnityEngine::Shader*)>(&::UnityEngine::Experimental::Rendering::XRSystem::Initialize)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x6743498;
+  constexpr static std::size_t addrs = 0x674af14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::MSAASamples)>(&::UnityEngine::Experimental::Rendering::XRSystem::SetDisplayMSAASamples)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6743bf0;
+  constexpr static std::size_t addrs = 0x674b66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(),
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::MSAASamples (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::GetDisplayMSAASamples)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6743dc8;
+  constexpr static std::size_t addrs = 0x674b844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "GetDisplayMSAASamples", {}, {} })));
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::Experimental::Rendering::XRSystem::SetOcclusionMeshScale)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6743e24;
+  constexpr static std::size_t addrs = 0x674b8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::GetOcclusionMeshScale)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6743e8c;
+  constexpr static std::size_t addrs = 0x674b908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "GetOcclusionMeshScale", {}, {} })));
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Experimental::Rendering::XRSystem::SetMirrorViewMode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6743ee8;
+  constexpr static std::size_t addrs = 0x674b964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::GetMirrorViewMode)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6743f84;
+  constexpr static std::size_t addrs = 0x674ba00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "GetMirrorViewMode", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::Experimental::Rendering::XRSystem::SetRenderScale)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x674401c;
+  constexpr static std::size_t addrs = 0x674ba98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::GetRenderViewportScale)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x67441bc;
+  constexpr static std::size_t addrs = 0x674bc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::XRLayout* (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::NewLayout)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6744224;
+  constexpr static std::size_t addrs = 0x674bca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "NewLayout", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::EndLayout)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x674428c;
+  constexpr static std::size_t addrs = 0x674bd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "EndLayout", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Camera*)>(
     &::UnityEngine::Experimental::Rendering::XRSystem::RenderMirrorView)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6744370;
+  constexpr static std::size_t addrs = 0x674bdec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::Dispose)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x674441c;
+  constexpr static std::size_t addrs = 0x674be98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "Dispose", {}, {} })));
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t)>(&::UnityEngine::Experimental::Rendering::XRSystem::SetDisplayZRange)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x673e998;
+  constexpr static std::size_t addrs = 0x6746414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_2<::UnityEngine::Experimental::Rendering::XRLayout*, ::UnityW<::UnityEngine::Camera>>*)>(
     &::UnityEngine::Experimental::Rendering::XRSystem::SetLayoutOverride)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x67445ac;
+  constexpr static std::size_t addrs = 0x674c028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::XRSystemInit)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x674460c;
+  constexpr static std::size_t addrs = 0x674c088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "XRSystemInit", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Experimental::Rendering::XRSystem::RefreshDeviceInfo)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x67438d8;
+  constexpr static std::size_t addrs = 0x674b354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::XRSystem*>(), { "RefreshDeviceInfo", {}, {} })));
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Experimental::Rendering::XRLayout*)>(
     &::UnityEngine::Experimental::Rendering::XRSystem::CreateDefaultLayout)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x673ea60;
+  constexpr static std::size_t addrs = 0x67464dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Experimental::Rendering::XRPass*, ::UnityEngine::Camera*)>(
     &::UnityEngine::Experimental::Rendering::XRSystem::ReconfigurePass)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x673f0a8;
+  constexpr static std::size_t addrs = 0x6746b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Camera*, ::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass)>(
     &::UnityEngine::Experimental::Rendering::XRSystem::CanUseSinglePass)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x67446dc;
+  constexpr static std::size_t addrs = 0x674c158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::XRView (*)(
     ::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, ::UnityEngine::XR::XRDisplaySubsystem_XRRenderParameter)>(&::UnityEngine::Experimental::Rendering::XRSystem::BuildView)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6744be0;
+  constexpr static std::size_t addrs = 0x674c65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RenderTextureDescriptor (*)(::UnityEngine::RenderTextureDescriptor)>(
     &::UnityEngine::Experimental::Rendering::XRSystem::XrRenderTextureDescToUnityRenderTextureDesc)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6744da8;
+  constexpr static std::size_t addrs = 0x674c824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -449,7 +449,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experiment
     ::UnityEngine::XR::XRDisplaySubsystem_XRRenderPass, ::UnityEngine::Rendering::ScriptableCullingParameters, ::UnityEngine::Experimental::Rendering::XRLayout*)>(
     &::UnityEngine::Experimental::Rendering::XRSystem::BuildPass)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x674484c;
+  constexpr static std::size_t addrs = 0x674c2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -468,7 +468,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::E
                                                                 ::by_ref<::UnityEngine::Experimental::Rendering::XRSystem___c__DisplayClass44_0>)>(
     &::UnityEngine::Experimental::Rendering::XRSystem::_CreateDefaultLayout_g__AddViewToPass_44_0)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6744aec;
+  constexpr static std::size_t addrs = 0x674c568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

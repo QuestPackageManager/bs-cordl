@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsNullCompression.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsNullCompression.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,15 +28,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
 
-  /// @brief Method Compress, addr 0x3485038, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Compress, addr 0x3488df8, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 
-  /// @brief Method Decompress, addr 0x3485040, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Decompress, addr 0x3488e00, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCompression* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3485048, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3488e08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"

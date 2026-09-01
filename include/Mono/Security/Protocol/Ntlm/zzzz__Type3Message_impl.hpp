@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/Type3Message.hpp"
+// IWYU pragma private; include "Mono\Security\Protocol\Ntlm\Type3Message.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_impl.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__NtlmAuthLevel_impl.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__Type3Message_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::Mono::Security::Protocol::Ntlm::Type2Message*)>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::_ctor)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x5a98c98;
+  constexpr static std::size_t addrs = 0x5a9d154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type3Message::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5a98e80;
+  constexpr static std::size_t addrs = 0x5a9d33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(&::Mono::Security::Protocol::Ntlm::Type3Message::set_Domain)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5a98f14;
+  constexpr static std::size_t addrs = 0x5a9d3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(&::Mono::Security::Protocol::Ntlm::Type3Message::set_Password)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a98f98;
+  constexpr static std::size_t addrs = 0x5a9d454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(&::Mono::Security::Protocol::Ntlm::Type3Message::set_Username)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a98fa0;
+  constexpr static std::size_t addrs = 0x5a9d45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::ArrayW<uint8_t>)>(&::Mono::Security::Protocol::Ntlm::Type3Message::Decode)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x5a98fa8;
+  constexpr static std::size_t addrs = 0x5a9d464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::DecodeString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5a991cc;
+  constexpr static std::size_t addrs = 0x5a9d688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::EncodeString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a99224;
+  constexpr static std::size_t addrs = 0x5a9d6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Protocol::Ntlm::Type3Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type3Message::GetBytes)> {
   constexpr static std::size_t size = 0x610;
-  constexpr static std::size_t addrs = 0x5a992c4;
+  constexpr static std::size_t addrs = 0x5a9d780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

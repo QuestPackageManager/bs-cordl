@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/BatchCullingContext.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\BatchCullingContext.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingFlags_impl.hpp"
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::BatchCullingViewType, ::UnityEngine::Rendering::BatchCullingProjectionType, ::UnityEngine::Rendering::BatchCullingFlags, uint64_t, uint32_t,
     uint64_t, uint8_t, int32_t, int32_t, ::System::IntPtr)>(&::UnityEngine::Rendering::BatchCullingContext::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b22d94;
+  constexpr static std::size_t addrs = 0x6b2a918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

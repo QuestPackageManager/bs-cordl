@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Locale.hpp"
+// IWYU pragma private; include "GlobalNamespace\Locale.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Locale_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::Locale::GetText)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a84704;
+  constexpr static std::size_t addrs = 0x5aad200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Locale*>(), { "GetText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::ArrayW<::System::Object*>)>(&::GlobalNamespace::Locale::GetText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a84708;
+  constexpr static std::size_t addrs = 0x5aad204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

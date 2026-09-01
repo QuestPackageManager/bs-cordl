@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/Type2Message.hpp"
+// IWYU pragma private; include "Mono\Security\Protocol\Ntlm\Type2Message.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_impl.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__Type2Message_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Protocol::Ntlm::Type2Message._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type2Message::*)(::ArrayW<uint8_t>)>(&::Mono::Security::Protocol::Ntlm::Type2Message::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5a9895c;
+  constexpr static std::size_t addrs = 0x5a9ce18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type2Message::Finalize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5a98a00;
+  constexpr static std::size_t addrs = 0x5a9cebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type2Message::get_Nonce)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5a97a60;
+  constexpr static std::size_t addrs = 0x5a9bf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::Type2Message*>(), { "get_Nonce", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type2Message::get_TargetName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a98a58;
+  constexpr static std::size_t addrs = 0x5a9cf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::Type2Message*>(), { "get_TargetName", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type2Message::get_TargetInfo)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5a979e8;
+  constexpr static std::size_t addrs = 0x5a9bea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::Type2Message*>(), { "get_TargetInfo", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type2Message::*)(::ArrayW<uint8_t>)>(&::Mono::Security::Protocol::Ntlm::Type2Message::Decode)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5a98a60;
+  constexpr static std::size_t addrs = 0x5a9cf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type2Message::GetBytes)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a98be4;
+  constexpr static std::size_t addrs = 0x5a9d0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

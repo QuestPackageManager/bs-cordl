@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/FaceRebuildData.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\FaceRebuildData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__FaceRebuildData_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::FaceRebuildData::*)()>(&::UnityEngine::ProBuilder::FaceRebuildData::Offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b66ec;
+  constexpr static std::size_t addrs = 0x66be168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::FaceRebuildData*>(), { "Offset", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::FaceRebuildData::*)()>(&::UnityEngine::ProBuilder::FaceRebuildData::ToString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x66b66f4;
+  constexpr static std::size_t addrs = 0x66be170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collec
                                                                 ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*,
                                                                 ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*)>(&::UnityEngine::ProBuilder::FaceRebuildData::Apply)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x66b67e8;
+  constexpr static std::size_t addrs = 0x66be264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*,
                          ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(&::UnityEngine::ProBuilder::FaceRebuildData::Apply)> {
   constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x66b6974;
+  constexpr static std::size_t addrs = 0x66be3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::FaceRebuildData::*)()>(&::UnityEngine::ProBuilder::FaceRebuildData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66b6ef4;
+  constexpr static std::size_t addrs = 0x66be970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::FaceRebuildData*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UI/Misc.hpp"
+// IWYU pragma private; include "UnityEngine\UI\Misc.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__Misc_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::UnityEngine::UI::Misc::Destroy)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6df9bd4;
+  constexpr static std::size_t addrs = 0x6e01758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::UnityEngine::UI::Misc::DestroyImmediate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6df9d1c;
+  constexpr static std::size_t addrs = 0x6e018a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

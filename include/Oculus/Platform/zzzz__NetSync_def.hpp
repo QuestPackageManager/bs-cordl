@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/NetSync.hpp"
+// IWYU pragma private; include "Oculus\Platform\NetSync.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +28,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE NetSync : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x5de613c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x5dea5f8, size 0x7c, virtual false, abstract: false, final false
   static inline void SetConnectionStatusChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncConnection*>* callback);
 
-  /// @brief Method SetSessionsChangedNotificationCallback, addr 0x5de61b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetSessionsChangedNotificationCallback, addr 0x5dea674, size 0x7c, virtual false, abstract: false, final false
   static inline void SetSessionsChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>* callback);
 
 protected:
@@ -49,7 +49,7 @@ public:
   NetSync(NetSync const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17963 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

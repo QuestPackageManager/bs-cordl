@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,16 +37,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method WriteDerEncoded, addr 0x368c27c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x369003c, size 0x34, virtual false, abstract: false, final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStr, int32_t tag, ::System::IO::Stream* inStr);
 
-  /// @brief Method WriteDerEncoded, addr 0x368c13c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x368fefc, size 0x60, virtual false, abstract: false, final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStream, int32_t tag, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteDerEncoded, addr 0x368c19c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x368ff5c, size 0xe0, virtual false, abstract: false, final false
   inline void WriteDerEncoded(int32_t tag, ::ArrayW<uint8_t> bytes);
 
-  /// @brief Method WriteLength, addr 0x368c080, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WriteLength, addr 0x368fe40, size 0xbc, virtual false, abstract: false, final false
   static inline void WriteLength(::System::IO::Stream* outStr, int32_t length);
 
   constexpr bool const& __cordl_internal_get__isExplicit() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set__tagged(bool value);
 
-  /// @brief Method .ctor, addr 0x368c05c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368fe1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x368c068, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368fe28, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:

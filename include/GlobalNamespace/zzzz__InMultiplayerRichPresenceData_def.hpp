@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/InMultiplayerRichPresenceData.hpp"
+// IWYU pragma private; include "GlobalNamespace\InMultiplayerRichPresenceData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,25 +92,25 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSecret_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x58fbf28, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ff4f0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize);
 
-  /// @brief Method get_apiName, addr 0x58fbea8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x58ff470, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_atMaxPartySize, addr 0x58fbed8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_atMaxPartySize, addr 0x58ff4a0, size 0x8, virtual true, abstract: false, final true
   inline bool get_atMaxPartySize();
 
-  /// @brief Method get_canInvite, addr 0x58fbee8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_canInvite, addr 0x58ff4b0, size 0x8, virtual true, abstract: false, final true
   inline bool get_canInvite();
 
-  /// @brief Method get_isJoinable, addr 0x58fbef8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_isJoinable, addr 0x58ff4c0, size 0x30, virtual true, abstract: false, final true
   inline bool get_isJoinable();
 
-  /// @brief Method get_localizedDescription, addr 0x58fbeb8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x58ff480, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
-  /// @brief Method get_multiplayerSecret, addr 0x58fbec8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerSecret, addr 0x58ff490, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerSecret();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerRichPresenceData"
@@ -119,19 +119,19 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
   constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
 
-  /// @brief Method set_apiName, addr 0x58fbeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_apiName, addr 0x58ff478, size 0x8, virtual false, abstract: false, final false
   inline void set_apiName(::StringW value);
 
-  /// @brief Method set_atMaxPartySize, addr 0x58fbee0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_atMaxPartySize, addr 0x58ff4a8, size 0x8, virtual true, abstract: false, final true
   inline void set_atMaxPartySize(bool value);
 
-  /// @brief Method set_canInvite, addr 0x58fbef0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_canInvite, addr 0x58ff4b8, size 0x8, virtual true, abstract: false, final true
   inline void set_canInvite(bool value);
 
-  /// @brief Method set_localizedDescription, addr 0x58fbec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_localizedDescription, addr 0x58ff488, size 0x8, virtual false, abstract: false, final false
   inline void set_localizedDescription(::StringW value);
 
-  /// @brief Method set_multiplayerSecret, addr 0x58fbed0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_multiplayerSecret, addr 0x58ff498, size 0x8, virtual true, abstract: false, final true
   inline void set_multiplayerSecret(::StringW value);
 
 protected:
@@ -149,7 +149,7 @@ public:
   InMultiplayerRichPresenceData(InMultiplayerRichPresenceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6644 };
 
   /// @brief Field kInMultiplayerLobbyRichPresenceLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kInMultiplayerLobbyRichPresenceLocalizationKey{ u"IN_MULTIPLAYER_LOBBY_PRESENCE" };

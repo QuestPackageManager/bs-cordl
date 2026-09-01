@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureSlotManager.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\TextureSlotManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,28 +71,28 @@ public:
   /// @brief Field textureTableId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_textureTableId, put = setStaticF_textureTableId)) int32_t textureTableId;
 
-  /// @brief Method Bind, addr 0x6cec064, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x6cf3be8, size 0x28c, virtual false, abstract: false, final false
   inline void Bind(::UnityEngine::UIElements::TextureId id, float_t sdfScale, float_t sharpness, int32_t slot, ::UnityEngine::MaterialPropertyBlock* mat,
                    ::UnityEngine::UIElements::UIR::CommandList* commandList);
 
-  /// @brief Method FindOldestSlot, addr 0x6cebf98, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FindOldestSlot, addr 0x6cf3b1c, size 0xcc, virtual false, abstract: false, final false
   inline int32_t FindOldestSlot();
 
-  /// @brief Method IndexOf, addr 0x6cebe44, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x6cf39c8, size 0xec, virtual false, abstract: false, final false
   inline int32_t IndexOf(::UnityEngine::UIElements::TextureId id);
 
-  /// @brief Method MarkUsed, addr 0x6cebf30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MarkUsed, addr 0x6cf3ab4, size 0x58, virtual false, abstract: false, final false
   inline void MarkUsed(int32_t slotIndex);
 
   static inline ::UnityEngine::UIElements::UIR::TextureSlotManager* New_ctor();
 
-  /// @brief Method Reset, addr 0x6cebb7c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6cf3700, size 0x128, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetGpuData, addr 0x6cebca4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetGpuData, addr 0x6cf3828, size 0x130, virtual false, abstract: false, final false
   inline void SetGpuData(int32_t slotIndex, ::UnityEngine::UIElements::TextureId id, int32_t textureWidth, int32_t textureHeight, float_t sdfScale, float_t sharpness);
 
-  /// @brief Method StartNewBatch, addr 0x6cebdd4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartNewBatch, addr 0x6cf3958, size 0x70, virtual false, abstract: false, final false
   inline void StartNewBatch();
 
   constexpr int32_t const& __cordl_internal_get__FreeSlots_k__BackingField() const;
@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set_textureRegistry(::UnityEngine::UIElements::TextureRegistry* value);
 
-  /// @brief Method .ctor, addr 0x6ceb9fc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf3580, size 0x180, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_k_SlotCount();
@@ -148,7 +148,7 @@ public:
 
   static inline int32_t getStaticF_textureTableId();
 
-  /// @brief Method get_FreeSlots, addr 0x6cebf88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FreeSlots, addr 0x6cf3b0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FreeSlots();
 
   static inline void setStaticF_k_SlotCount(int32_t value);
@@ -159,7 +159,7 @@ public:
 
   static inline void setStaticF_textureTableId(int32_t value);
 
-  /// @brief Method set_FreeSlots, addr 0x6cebf90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FreeSlots, addr 0x6cf3b14, size 0x8, virtual false, abstract: false, final false
   inline void set_FreeSlots(int32_t value);
 
 protected:

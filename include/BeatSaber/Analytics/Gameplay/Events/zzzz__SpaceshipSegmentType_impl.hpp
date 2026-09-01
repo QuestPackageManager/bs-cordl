@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipSegmentType.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipSegmentType.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipSegmentType_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType.get_Value
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3262644;
+  constexpr static std::size_t addrs = 0x32659dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326264c;
+  constexpr static std::size_t addrs = 0x32659e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3262654;
+  constexpr static std::size_t addrs = 0x32659ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*>(),

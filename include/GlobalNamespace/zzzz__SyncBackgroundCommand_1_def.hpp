@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SyncBackgroundCommand_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\SyncBackgroundCommand_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
   SyncBackgroundCommand_1(SyncBackgroundCommand_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20728 };
 
   /// @brief Field _taskCompletionSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ____taskCompletionSource;

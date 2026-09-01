@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor/Analytics/PackageManagerAddPackageAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor\Analytics\PackageManagerAddPackageAnalytic.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerBaseAnalytic_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerAddPackageAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::PackageManagerAddPackageAnalytic._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::PackageManagerAddPackageAnalytic::*)()>(&::UnityEditor::Analytics::PackageManagerAddPackageAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e1d85c;
+  constexpr static std::size_t addrs = 0x6e253e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEditor::Analytics::PackageManagerAddPackageAnalytic*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::PackageManagerAddPackageAnalytic* (*)()>(
     &::UnityEditor::Analytics::PackageManagerAddPackageAnalytic::CreatePackageManagerAddPackageAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e1d8f0;
+  constexpr static std::size_t addrs = 0x6e25474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/Challenge.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\Challenge.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,12 +45,12 @@ public:
   /// @brief Field witness, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_witness, put = __cordl_internal_set_witness)) ::Org::BouncyCastle::Asn1::Asn1OctetString* witness;
 
-  /// @brief Method GetInstance, addr 0x33450b0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3348e70, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x334523c, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3348ffc, size 0x184, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_challenge() const;
@@ -71,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set_witness(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x3345004, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3348dc4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Owf, addr 0x3345234, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Owf, addr 0x3348ff4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Owf();
 
 protected:

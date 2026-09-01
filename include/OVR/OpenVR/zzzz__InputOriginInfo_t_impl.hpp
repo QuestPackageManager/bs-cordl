@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/InputOriginInfo_t.hpp"
+// IWYU pragma private; include "OVR\OpenVR\InputOriginInfo_t.hpp"
 #include "OVR/OpenVR/zzzz__InputOriginInfo_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::InputOriginInfo_t.get_rchRenderModelComponentName
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OVR::OpenVR::InputOriginInfo_t::*)()>(&::OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName)> {
   constexpr static std::size_t size = 0x870;
-  constexpr static std::size_t addrs = 0x5e43cfc;
+  constexpr static std::size_t addrs = 0x5e481b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::InputOriginInfo_t>(), { "get_rchRenderModelComponentName", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SettingsApplicatorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\SettingsApplicatorSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,18 +96,18 @@ public:
   /// @brief Field roomTransformOffsetDidUpdateEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_roomTransformOffsetDidUpdateEvent, put = __cordl_internal_set_roomTransformOffsetDidUpdateEvent)) ::System::Action* roomTransformOffsetDidUpdateEvent;
 
-  /// @brief Method ApplyGameSettings, addr 0x58fe570, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ApplyGameSettings, addr 0x5901b40, size 0x10c, virtual false, abstract: false, final false
   inline void ApplyGameSettings(::by_ref<::BeatSaber::Settings::Settings> settings);
 
-  /// @brief Method ApplyGraphicSettings, addr 0x58fe14c, size 0x3a8, virtual true, abstract: false, final false
+  /// @brief Method ApplyGraphicSettings, addr 0x5901714, size 0x3b0, virtual true, abstract: false, final false
   inline void ApplyGraphicSettings(::by_ref<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
 
-  /// @brief Method ApplyWindowSettings, addr 0x58fe7f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ApplyWindowSettings, addr 0x5901dc4, size 0x4, virtual true, abstract: false, final false
   inline void ApplyWindowSettings(::by_ref<::BeatSaber::Settings::WindowSettings> settings);
 
   static inline ::GlobalNamespace::SettingsApplicatorSO* New_ctor();
 
-  /// @brief Method NotifyRoomTransformOffsetWasUpdated, addr 0x58fe7d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NotifyRoomTransformOffsetWasUpdated, addr 0x5901da8, size 0x1c, virtual false, abstract: false, final false
   inline void NotifyRoomTransformOffsetWasUpdated();
 
   constexpr ::GlobalNamespace::AudioManager* const& __cordl_internal_get__audioManager() const;
@@ -170,13 +170,13 @@ public:
 
   constexpr void __cordl_internal_set_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x58fe4fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5901acc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x58fe680, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x5901c50, size 0xac, virtual false, abstract: false, final false
   inline void add_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x58fe72c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x5901cfc, size 0xac, virtual false, abstract: false, final false
   inline void remove_roomTransformOffsetDidUpdateEvent(::System::Action* value);
 
 protected:
@@ -194,7 +194,7 @@ public:
   SettingsApplicatorSO(SettingsApplicatorSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6667 };
 
   /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> ____mirrorRendererGraphicsSettingsPresets;

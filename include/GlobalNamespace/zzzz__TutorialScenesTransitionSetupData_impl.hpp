@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TutorialScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\TutorialScenesTransitionSetupData.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayAdditionalInformation_def.hpp"
@@ -22,7 +22,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupData*, ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType>*)>(
     &::GlobalNamespace::TutorialScenesTransitionSetupData::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x590d4c8;
+  constexpr static std::size_t addrs = 0x5910fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupData*, ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType>*)>(
     &::GlobalNamespace::TutorialScenesTransitionSetupData::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x590c074;
+  constexpr static std::size_t addrs = 0x590f54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialScenesTransitionSetupData::*)(
     ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayAdditionalInformation*)>(&::GlobalNamespace::TutorialScenesTransitionSetupData::Init)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x590d588;
+  constexpr static std::size_t addrs = 0x591107c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialScenesTransitionSetupData::*)(::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType)>(
     &::GlobalNamespace::TutorialScenesTransitionSetupData::Finish)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x590ed90;
+  constexpr static std::size_t addrs = 0x5912738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialScenesTransitionSetupData::*)()>(&::GlobalNamespace::TutorialScenesTransitionSetupData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x590edb8;
+  constexpr static std::size_t addrs = 0x5912760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialScenesTransitionSetupData*>(), { ".ctor", {}, {} })));

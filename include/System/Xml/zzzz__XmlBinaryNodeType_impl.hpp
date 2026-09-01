@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlBinaryNodeType.hpp"
+// IWYU pragma private; include "System\Xml\XmlBinaryNodeType.hpp"
 #include "System/Xml/zzzz__XmlBinaryNodeType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::XmlBinaryNodeType::XmlBinaryNodeType(int32_t value__) noexcept {

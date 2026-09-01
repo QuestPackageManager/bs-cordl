@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/X509/Extensions/AuthorityKeyIdentifierExtension.hpp"
+// IWYU pragma private; include "Mono\Security\X509\Extensions\AuthorityKeyIdentifierExtension.hpp"
 #include "Mono/Security/X509/zzzz__X509Extension_impl.hpp"
 #include "Mono/Security/X509/Extensions/zzzz__AuthorityKeyIdentifierExtension_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Extension_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)(::Mono::Security::X509::X509Extension*)>(
     &::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a953e8;
+  constexpr static std::size_t addrs = 0x5a998a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)()>(
     &::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::Decode)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5a953ec;
+  constexpr static std::size_t addrs = 0x5a998a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)()>(
     &::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::Encode)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5a95504;
+  constexpr static std::size_t addrs = 0x5a999c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)()>(
     &::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::get_Identifier)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5a955f4;
+  constexpr static std::size_t addrs = 0x5a99ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)()>(
     &::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::ToString)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5a95668;
+  constexpr static std::size_t addrs = 0x5a99b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*>(),

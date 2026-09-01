@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SelectLanguageViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SelectLanguageViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,15 +42,15 @@ public:
   __declspec(property(get = __cordl_internal_get_didChangeLanguageEvent,
                       put = __cordl_internal_set_didChangeLanguageEvent)) ::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* didChangeLanguageEvent;
 
-  /// @brief Method DidActivate, addr 0x5963bf0, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x59674e8, size 0x138, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x5963e44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x596773c, size 0x30, virtual false, abstract: false, final false
   inline void HandleLanguageSettingsControllerOndropDownValueDidChange();
 
   static inline ::GlobalNamespace::SelectLanguageViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5963d28, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5967620, size 0x11c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* value);
 
-  /// @brief Method .ctor, addr 0x5963e74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596776c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeLanguageEvent, addr 0x5963a70, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeLanguageEvent, addr 0x5967368, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* value);
 
-  /// @brief Method remove_didChangeLanguageEvent, addr 0x5963b30, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeLanguageEvent, addr 0x5967428, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>* value);
 
 protected:
@@ -95,7 +95,7 @@ public:
   SelectLanguageViewController(SelectLanguageViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6992 };
 
   /// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;

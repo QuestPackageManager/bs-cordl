@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/BrowsableAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\BrowsableAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ public:
   /// @brief Field <Browsable>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Browsable_k__BackingField, put = __cordl_internal_set__Browsable_k__BackingField)) bool _Browsable_k__BackingField;
 
-  /// @brief Method Equals, addr 0x63abf20, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x63b399c, size 0xe0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x63ac000, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x63b3a7c, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x63ac02c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x63b3aa8, size 0x6c, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::BrowsableAttribute* New_ctor(bool browsable);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__Browsable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x63abf10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b398c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool browsable);
 
   static inline ::System::ComponentModel::BrowsableAttribute* getStaticF_Default();
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::ComponentModel::BrowsableAttribute* getStaticF_Yes();
 
-  /// @brief Method get_Browsable, addr 0x63abf18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Browsable, addr 0x63b3994, size 0x8, virtual false, abstract: false, final false
   inline bool get_Browsable();
 
   static inline void setStaticF_Default(::System::ComponentModel::BrowsableAttribute* value);
@@ -87,7 +87,7 @@ public:
   BrowsableAttribute(BrowsableAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11219 };
 
   /// @brief Field <Browsable>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Browsable_k__BackingField;

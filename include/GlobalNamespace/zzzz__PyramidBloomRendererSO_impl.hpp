@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PyramidBloomRendererSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\PyramidBloomRendererSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GlobalKeyword_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeyword_impl.hpp"
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::OnEnable)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x585e8d0;
+  constexpr static std::size_t addrs = 0x585d9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x585ec44;
+  constexpr static std::size_t addrs = 0x585dd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomRendererSO*>(), { "OnDisable", {}, {} })));
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::PyramidBloomRendererSO_TextureType, float_t, bool, ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>)>(
     &::GlobalNamespace::PyramidBloomRendererSO::SetupTempTextureHandles)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x585ec58;
+  constexpr static std::size_t addrs = 0x585dd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::PyramidBloomRendererSO_Pass, ::GlobalNamespace::PyramidBloomRendererSO_Pass, ::GlobalNamespace::PyramidBloomRendererSO_Pass, ::GlobalNamespace::PyramidBloomRendererSO_Pass,
     bool, bool)>(&::GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
   constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x585f0e8;
+  constexpr static std::size_t addrs = 0x585e1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x585f77c;
+  constexpr static std::size_t addrs = 0x585e884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PyramidBloomRendererSO*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/PrefixHandle.hpp"
+// IWYU pragma private; include "System\Xml\PrefixHandle.hpp"
 #include "System/Xml/zzzz__PrefixHandleType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__PrefixHandle_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::PrefixHandle::*)(::System::Xml::XmlBufferReader*)>(&::System::Xml::PrefixHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60fa2a4;
+  constexpr static std::size_t addrs = 0x6101d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::PrefixHandle::*)(::System::Xml::PrefixHandleType)>(&::System::Xml::PrefixHandle::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60fa2ac;
+  constexpr static std::size_t addrs = 0x6101d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::PrefixHandle::*)(::System::Xml::PrefixHandle*)>(&::System::Xml::PrefixHandle::SetValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fa2b4;
+  constexpr static std::size_t addrs = 0x6101d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::PrefixHandle::*)(int32_t, int32_t)>(&::System::Xml::PrefixHandle::SetValue)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x60fa2d4;
+  constexpr static std::size_t addrs = 0x6101d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::PrefixHandle::*)()>(&::System::Xml::PrefixHandle::get_IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60fa39c;
+  constexpr static std::size_t addrs = 0x6101e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::PrefixHandle*>(), { "get_IsEmpty", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::PrefixHandle::*)()>(&::System::Xml::PrefixHandle::get_IsXmlns)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x60fa3ac;
+  constexpr static std::size_t addrs = 0x6101e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::PrefixHandle*>(), { "get_IsXmlns", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::PrefixHandle::*)()>(&::System::Xml::PrefixHandle::get_IsXml)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x60fa480;
+  constexpr static std::size_t addrs = 0x6101efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::PrefixHandle*>(), { "get_IsXml", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::PrefixHandle::*)(::by_ref<::System::Xml::PrefixHandleType>)>(&::System::Xml::PrefixHandle::TryGetShortPrefix)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60fa51c;
+  constexpr static std::size_t addrs = 0x6101f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Xml::PrefixHandleType)>(&::System::Xml::PrefixHandle::GetString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60fa530;
+  constexpr static std::size_t addrs = 0x6101fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::PrefixHandleType (*)(int32_t)>(&::System::Xml::PrefixHandle::GetAlphaPrefix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60fa394;
+  constexpr static std::size_t addrs = 0x6101e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::PrefixHandle*>(), { "GetAlphaPrefix", {}, { ::i2c::type_of<int32_t>() } })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::Xml::PrefixHandleType, ::by_ref<int32_t>, ::by_ref<int32_t>)>(&::System::Xml::PrefixHandle::GetString)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x60fa5b0;
+  constexpr static std::size_t addrs = 0x610202c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::PrefixHandle::*)(::System::Xml::XmlNameTable*)>(&::System::Xml::PrefixHandle::GetString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x60fa640;
+  constexpr static std::size_t addrs = 0x61020bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::PrefixHandle::*)()>(&::System::Xml::PrefixHandle::GetString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x60fa6d8;
+  constexpr static std::size_t addrs = 0x6102154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::PrefixHandle*>(), { "GetString", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::PrefixHandle::*)(::by_ref<int32_t>, ::by_ref<int32_t>)>(&::System::Xml::PrefixHandle::GetString)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x60fa75c;
+  constexpr static std::size_t addrs = 0x61021d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::PrefixHandle::*)(::System::Xml::PrefixHandle*)>(&::System::Xml::PrefixHandle::CompareTo)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x60fa808;
+  constexpr static std::size_t addrs = 0x6102284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::PrefixHandle::*)(::System::Xml::PrefixHandle*)>(&::System::Xml::PrefixHandle::Equals2)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x60fa848;
+  constexpr static std::size_t addrs = 0x61022c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::PrefixHandle::*)(::StringW)>(&::System::Xml::PrefixHandle::Equals2)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x60fa8d0;
+  constexpr static std::size_t addrs = 0x610234c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::PrefixHandle*>(), { "Equals2", {}, { ::i2c::type_of<::StringW>() } })));
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::PrefixHandle::*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::PrefixHandle::Equals2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60fa970;
+  constexpr static std::size_t addrs = 0x61023ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::PrefixHandle*, ::StringW)>(&::System::Xml::PrefixHandle::op_Equality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60fa984;
+  constexpr static std::size_t addrs = 0x6102400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::PrefixHandle*, ::System::Xml::XmlDictionaryString*)>(&::System::Xml::PrefixHandle::op_Equality)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x60fa994;
+  constexpr static std::size_t addrs = 0x6102410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::PrefixHandle*, ::System::Xml::PrefixHandle*)>(&::System::Xml::PrefixHandle::op_Equality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60fa9b0;
+  constexpr static std::size_t addrs = 0x610242c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::PrefixHandle::*)(::System::Object*)>(&::System::Xml::PrefixHandle::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x60fa9c0;
+  constexpr static std::size_t addrs = 0x610243c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::PrefixHandle*>(), { ::i2c::class_of<::System::Xml::PrefixHandle*>(), 0 }));
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::PrefixHandle::*)()>(&::System::Xml::PrefixHandle::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60faa70;
+  constexpr static std::size_t addrs = 0x61024ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::PrefixHandle*>(), { ::i2c::class_of<::System::Xml::PrefixHandle*>(), 3 }));
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::PrefixHandle::*)()>(&::System::Xml::PrefixHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60faa74;
+  constexpr static std::size_t addrs = 0x61024f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::PrefixHandle*>(), { ::i2c::class_of<::System::Xml::PrefixHandle*>(), 2 }));

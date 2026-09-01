@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PointerCaptureEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PointerCaptureEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerCaptureEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d8e5d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6d9615c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerCaptureEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d8e5d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d96158, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerCaptureEvent___c* getStaticF___9();
@@ -80,10 +80,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerCaptureEvent* New_ctor();
 
-  /// @brief Method PreDispatch, addr 0x6d8e4d0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6d96054, size 0x64, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6d8e534, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d960b8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

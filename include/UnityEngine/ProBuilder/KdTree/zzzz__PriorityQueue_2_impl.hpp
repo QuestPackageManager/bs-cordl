@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/PriorityQueue_2.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\KdTree\PriorityQueue_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ItemPriority_2_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__PriorityQueue_2_def.hpp"

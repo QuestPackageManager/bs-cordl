@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Ocsp/CertificateID.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Ocsp\CertificateID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,26 +47,26 @@ public:
   /// @brief Field id, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::Org::BouncyCastle::Asn1::Ocsp::CertID* id;
 
-  /// @brief Method CreateCertID, addr 0x357126c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method CreateCertID, addr 0x357502c, size 0x288, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* CreateCertID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlg, ::Org::BouncyCastle::X509::X509Certificate* issuerCert,
                                                                       ::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method DeriveCertificateID, addr 0x35716ec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DeriveCertificateID, addr 0x35754ac, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Ocsp::CertificateID* DeriveCertificateID(::Org::BouncyCastle::Ocsp::CertificateID* original, ::Org::BouncyCastle::Math::BigInteger* newSerialNumber);
 
-  /// @brief Method Equals, addr 0x35715d8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3575398, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x35716c0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3575480, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIssuerKeyHash, addr 0x3571550, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerKeyHash, addr 0x3575310, size 0x28, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetIssuerKeyHash();
 
-  /// @brief Method GetIssuerNameHash, addr 0x3571528, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerNameHash, addr 0x35752e8, size 0x28, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetIssuerNameHash();
 
-  /// @brief Method MatchesIssuer, addr 0x357159c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method MatchesIssuer, addr 0x357535c, size 0x34, virtual false, abstract: false, final false
   inline bool MatchesIssuer(::Org::BouncyCastle::X509::X509Certificate* issuerCert);
 
   static inline ::Org::BouncyCastle::Ocsp::CertificateID* New_ctor(::StringW hashAlgorithm, ::Org::BouncyCastle::X509::X509Certificate* issuerCert,
@@ -74,7 +74,7 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::CertificateID* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID* id);
 
-  /// @brief Method ToAsn1Object, addr 0x35715d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3575390, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertID* const& __cordl_internal_get_id() const;
@@ -83,16 +83,16 @@ public:
 
   constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Ocsp::CertID* value);
 
-  /// @brief Method .ctor, addr 0x3571154, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3574f14, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::StringW hashAlgorithm, ::Org::BouncyCastle::X509::X509Certificate* issuerCert, ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method .ctor, addr 0x35710fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3574ebc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID* id);
 
-  /// @brief Method get_HashAlgOid, addr 0x35714f4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgOid, addr 0x35752b4, size 0x34, virtual false, abstract: false, final false
   inline ::StringW get_HashAlgOid();
 
-  /// @brief Method get_SerialNumber, addr 0x3571578, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x3575338, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
 protected:

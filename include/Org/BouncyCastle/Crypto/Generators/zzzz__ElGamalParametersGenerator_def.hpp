@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/ElGamalParametersGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\ElGamalParametersGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +35,10 @@ public:
   /// @brief Field size, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
-  /// @brief Method GenerateParameters, addr 0x33d4e54, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0x33d8c14, size 0xd8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* GenerateParameters();
 
-  /// @brief Method Init, addr 0x33d4e48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x33d8c08, size 0xc, virtual false, abstract: false, final false
   inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x33d4f2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d8cec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

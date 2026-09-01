@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlRawWriterBase64Encoder.hpp"
+// IWYU pragma private; include "System\Xml\XmlRawWriterBase64Encoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
 
   static inline ::System::Xml::XmlRawWriterBase64Encoder* New_ctor(::System::Xml::XmlRawWriter* rawWriter);
 
-  /// @brief Method WriteChars, addr 0x618b0fc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x6192b78, size 0x20, virtual true, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t> chars, int32_t index, int32_t count);
 
   constexpr ::System::Xml::XmlRawWriter* const& __cordl_internal_get_rawWriter() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_rawWriter(::System::Xml::XmlRawWriter* value);
 
-  /// @brief Method .ctor, addr 0x618b0d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6192b54, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlRawWriter* rawWriter);
 
 protected:
@@ -56,7 +56,7 @@ public:
   XmlRawWriterBase64Encoder(XmlRawWriterBase64Encoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9215 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9244 };
 
   /// @brief Field rawWriter, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlRawWriter* ___rawWriter;

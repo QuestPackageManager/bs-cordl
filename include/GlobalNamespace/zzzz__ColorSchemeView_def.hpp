@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorSchemeView.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorSchemeView.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,7 @@ public:
 
   static inline ::GlobalNamespace::ColorSchemeView* New_ctor();
 
-  /// @brief Method SetColors, addr 0x591d038, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x592098c, size 0x1b8, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__saberBColorImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x591d1f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5920bd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,7 +114,7 @@ public:
   ColorSchemeView(ColorSchemeView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6813 };
 
   /// @brief Field _saberAColorImage, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____saberAColorImage;

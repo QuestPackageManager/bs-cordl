@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/XRGraphicsAutomatedTests.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\XRGraphicsAutomatedTests.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,17 +31,17 @@ public:
   /// @brief Field running, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_running, put = setStaticF_running)) bool running;
 
-  /// @brief Method OverrideLayout, addr 0x67c7b60, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method OverrideLayout, addr 0x67cf5dc, size 0x51c, virtual false, abstract: false, final false
   static inline void OverrideLayout(::UnityEngine::Experimental::Rendering::XRLayout* layout, ::UnityEngine::Camera* camera);
 
   static inline bool getStaticF__enabled_k__BackingField();
 
   static inline bool getStaticF_running();
 
-  /// @brief Method get_activatedFromCommandLine, addr 0x67c7afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activatedFromCommandLine, addr 0x67cf578, size 0x8, virtual false, abstract: false, final false
   static inline bool get_activatedFromCommandLine();
 
-  /// @brief Method get_enabled, addr 0x67c7b04, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x67cf580, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
   static inline void setStaticF__enabled_k__BackingField(bool value);
@@ -63,7 +63,7 @@ public:
   XRGraphicsAutomatedTests(XRGraphicsAutomatedTests const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

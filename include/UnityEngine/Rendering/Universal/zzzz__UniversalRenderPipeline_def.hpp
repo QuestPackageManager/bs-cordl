@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderPipeline.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderPipeline.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -283,7 +283,7 @@ public:
 
   constexpr void __cordl_internal_set_sampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x68dada0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68e281c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -301,7 +301,7 @@ public:
   CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry(CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13021 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -336,7 +336,7 @@ public:
   __declspec(property(get = getStaticF_s_MetadataCache, put = setStaticF_s_MetadataCache)) ::System::Collections::Generic::Dictionary_2<
       int32_t, ::UnityEngine::Rendering::Universal::CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry*>* s_MetadataCache;
 
-  /// @brief Method GetCached, addr 0x68dabd8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetCached, addr 0x68e2654, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry* GetCached(::UnityEngine::Camera* camera);
 
   static inline ::UnityEngine::Rendering::Universal::CameraMetadataCache_UniversalRenderPipeline_CameraMetadataCacheEntry* getStaticF_k_NoAllocEntry();
@@ -364,7 +364,7 @@ public:
   UniversalRenderPipeline_CameraMetadataCache(UniversalRenderPipeline_CameraMetadataCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13022 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -408,7 +408,7 @@ public:
   Pipeline_Profiling_UniversalRenderPipeline_Renderer(Pipeline_Profiling_UniversalRenderPipeline_Renderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13023 };
 
   /// @brief Field k_Name offset 0xffffffff size 0x8
   static constexpr ::ConstString k_Name{ u"ScriptableRenderer" };
@@ -448,7 +448,7 @@ public:
   Pipeline_Profiling_UniversalRenderPipeline_Context(Pipeline_Profiling_UniversalRenderPipeline_Context const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13024 };
 
   /// @brief Field k_Name offset 0xffffffff size 0x8
   static constexpr ::ConstString k_Name{ u"ScriptableRenderContext" };
@@ -563,7 +563,7 @@ public:
   Profiling_UniversalRenderPipeline_Pipeline(Profiling_UniversalRenderPipeline_Pipeline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12996 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13025 };
 
   /// @brief Field k_Name offset 0xffffffff size 0x8
   static constexpr ::ConstString k_Name{ u"UniversalRenderPipeline" };
@@ -598,7 +598,7 @@ public:
   UniversalRenderPipeline_Profiling(UniversalRenderPipeline_Profiling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12997 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -622,10 +622,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x68db3e0, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68e2e5c, size 0x94, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x68db334, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68e2db0, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_beginCameraRenderingSampler();
@@ -648,7 +648,7 @@ public:
   constexpr UniversalRenderPipeline_CameraRenderingScope(::UnityEngine::Rendering::ScriptableRenderContext m_Context, ::UnityW<::UnityEngine::Camera> m_Camera) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13027 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -685,10 +685,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x68db5f8, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68e3074, size 0x94, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x68db544, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68e2fc0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_beginContextRenderingSampler();
@@ -712,7 +712,7 @@ public:
                                                           ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* m_Cameras) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13028 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -778,7 +778,7 @@ public:
 
   constexpr void __cordl_internal_set_slice(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68db75c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68e31d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -796,7 +796,7 @@ public:
   UniversalRenderPipeline_SingleCameraRequest(UniversalRenderPipeline_SingleCameraRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13029 };
 
   /// @brief Field destination, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ___destination;
@@ -839,13 +839,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c* New_ctor();
 
-  /// @brief Method <.cctor>b__122_0, addr 0x68db828, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__122_0, addr 0x68e32a4, size 0x408, virtual false, abstract: false, final false
   inline void __cctor_b__122_0(::ArrayW<::UnityEngine::Light*> requests, ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
 
-  /// @brief Method <.ctor>b__47_0, addr 0x68db7c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__47_0, addr 0x68e323c, size 0x68, virtual false, abstract: false, final false
   inline int32_t __ctor_b__47_0(::UnityEngine::Camera* camera1, ::UnityEngine::Camera* camera2);
 
-  /// @brief Method .ctor, addr 0x68db7bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68e3238, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipeline___c* getStaticF___9();
@@ -871,7 +871,7 @@ public:
   UniversalRenderPipeline___c(UniversalRenderPipeline___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13030 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -970,137 +970,137 @@ public:
   /// @brief Field useRenderGraph, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_useRenderGraph, put = setStaticF_useRenderGraph)) bool useRenderGraph;
 
-  /// @brief Method AdjustUIOverlayOwnership, addr 0x68d2668, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AdjustUIOverlayOwnership, addr 0x68da0e4, size 0xc8, virtual false, abstract: false, final false
   static inline void AdjustUIOverlayOwnership(int32_t cameraCount);
 
-  /// @brief Method ApplyTaaRenderingDebugOverrides, addr 0x68d9ae4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ApplyTaaRenderingDebugOverrides, addr 0x68e1560, size 0xc0, virtual false, abstract: false, final false
   static inline void ApplyTaaRenderingDebugOverrides(::by_ref<::UnityEngine::Rendering::Universal::TemporalAA_Settings> taaSettings);
 
-  /// @brief Method BuildAdditionalLightsShadowAtlasLayout, addr 0x68d85b8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method BuildAdditionalLightsShadowAtlasLayout, addr 0x68e0034, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout BuildAdditionalLightsShadowAtlasLayout(::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                                                                                                                               ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
                                                                                                                               ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method CheckAndApplyDebugSettings, addr 0x68d80c8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method CheckAndApplyDebugSettings, addr 0x68dfb44, size 0x230, virtual false, abstract: false, final false
   static inline void CheckAndApplyDebugSettings(::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method CheckPostProcessForDepth, addr 0x68d87cc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CheckPostProcessForDepth, addr 0x68e0248, size 0xec, virtual false, abstract: false, final false
   static inline bool CheckPostProcessForDepth();
 
-  /// @brief Method CheckPostProcessForDepth, addr 0x68d8d9c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CheckPostProcessForDepth, addr 0x68e0818, size 0x94, virtual false, abstract: false, final false
   static inline bool CheckPostProcessForDepth(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method CreateCameraData, addr 0x68d4a1c, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method CreateCameraData, addr 0x68dc498, size 0x53c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::UniversalCameraData* CreateCameraData(::UnityEngine::Rendering::ContextContainer* frameData, ::UnityEngine::Camera* camera,
                                                                                            ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* additionalCameraData,
                                                                                            bool resolveFinalTarget);
 
-  /// @brief Method CreateLightData, addr 0x68d6e74, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreateLightData, addr 0x68de8f0, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::UniversalLightData* CreateLightData(::UnityEngine::Rendering::ContextContainer* frameData,
                                                                                          ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* settings,
                                                                                          ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights);
 
-  /// @brief Method CreatePostProcessingData, addr 0x68d7e84, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreatePostProcessingData, addr 0x68df900, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* CreatePostProcessingData(::UnityEngine::Rendering::ContextContainer* frameData,
                                                                                                            ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* settings);
 
-  /// @brief Method CreateRenderTextureDescriptor, addr 0x68d94e4, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderTextureDescriptor, addr 0x68e0f60, size 0x300, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureDescriptor CreateRenderTextureDescriptor(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                                      bool isHdrEnabled, ::UnityEngine::Rendering::Universal::HDRColorBufferPrecision requestHDRColorBufferPrecision,
                                                                                      int32_t msaaSamples, bool needsAlpha, bool requiresOpaqueTexture);
 
-  /// @brief Method CreateRenderingData, addr 0x68d7f64, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderingData, addr 0x68df9e0, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderingData* CreateRenderingData(::UnityEngine::Rendering::ContextContainer* frameData,
                                                                                                  ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* settings,
                                                                                                  ::UnityEngine::Rendering::CommandBuffer* cmd, bool isForwardPlus,
                                                                                                  ::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer);
 
-  /// @brief Method CreateShadowAtlasAndCullShadowCasters, addr 0x68d82f8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CreateShadowAtlasAndCullShadowCasters, addr 0x68dfd74, size 0x130, virtual false, abstract: false, final false
   static inline void CreateShadowAtlasAndCullShadowCasters(::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
                                                            ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                                            ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> context);
 
-  /// @brief Method CreateShadowData, addr 0x68d70b8, size 0xdcc, virtual false, abstract: false, final false
+  /// @brief Method CreateShadowData, addr 0x68deb34, size 0xdcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::UniversalShadowData* CreateShadowData(::UnityEngine::Rendering::ContextContainer* frameData,
                                                                                            ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* urpAsset, bool isForwardPlus);
 
-  /// @brief Method CreateUniversalResourceData, addr 0x68d6e20, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateUniversalResourceData, addr 0x68de89c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::UniversalResourceData* CreateUniversalResourceData(::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Dispose, addr 0x68d1b60, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x68d95dc, size 0x300, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DisposeAdditionalCameraData, addr 0x68d1e60, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DisposeAdditionalCameraData, addr 0x68d98dc, size 0xbc, virtual false, abstract: false, final false
   inline void DisposeAdditionalCameraData();
 
-  /// @brief Method GetHDROutputGradingParameters, addr 0x68da0b8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetHDROutputGradingParameters, addr 0x68e1b34, size 0xc8, virtual false, abstract: false, final false
   static inline void GetHDROutputGradingParameters(::UnityEngine::Rendering::Universal::Tonemapping* tonemapping, ::by_ref<::UnityEngine::Vector4> hdrOutputParameters);
 
-  /// @brief Method GetHDROutputLuminanceParameters, addr 0x68d9fc8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetHDROutputLuminanceParameters, addr 0x68e1a44, size 0xf0, virtual false, abstract: false, final false
   static inline void GetHDROutputLuminanceParameters(::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation hdrDisplayInformation, ::UnityEngine::ColorGamut hdrDisplayColorGamut,
                                                      ::UnityEngine::Rendering::Universal::Tonemapping* tonemapping, ::by_ref<::UnityEngine::Vector4> hdrOutputParameters);
 
-  /// @brief Method GetLightAttenuationAndSpotDirection, addr 0x68da1c8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetLightAttenuationAndSpotDirection, addr 0x68e1c44, size 0x14c, virtual false, abstract: false, final false
   static inline void GetLightAttenuationAndSpotDirection(::UnityEngine::LightType lightType, float_t lightRange, ::UnityEngine::Matrix4x4 lightLocalToWorldMatrix, float_t spotAngle,
                                                          ::System::Nullable_1<float_t> innerSpotAngle, ::by_ref<::UnityEngine::Vector4> lightAttenuation,
                                                          ::by_ref<::UnityEngine::Vector4> lightSpotDir);
 
-  /// @brief Method GetMainLightCascadeSplit, addr 0x68d9c9c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetMainLightCascadeSplit, addr 0x68e1718, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetMainLightCascadeSplit(int32_t mainLightShadowCascadesCount, ::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* urpAsset);
 
-  /// @brief Method GetMainLightIndex, addr 0x68d9cfc, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetMainLightIndex, addr 0x68e1778, size 0x21c, virtual false, abstract: false, final false
   static inline int32_t GetMainLightIndex(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* settings,
                                           ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights);
 
-  /// @brief Method GetPerObjectLightFlags, addr 0x68d9ba4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetPerObjectLightFlags, addr 0x68e1620, size 0xf8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::PerObjectData GetPerObjectLightFlags(int32_t additionalLightsCount, bool isForwardPlus, bool reflectionProbeBlending);
 
-  /// @brief Method GetPunctualLightDistanceAttenuation, addr 0x68da314, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPunctualLightDistanceAttenuation, addr 0x68e1d90, size 0x3c, virtual false, abstract: false, final false
   static inline void GetPunctualLightDistanceAttenuation(float_t lightRange, ::by_ref<::UnityEngine::Vector4> lightAttenuation);
 
-  /// @brief Method GetRenderer, addr 0x68d492c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetRenderer, addr 0x68dc3a8, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* GetRenderer(::UnityEngine::Camera* camera,
                                                                                      ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* additionalCameraData);
 
-  /// @brief Method GetSpotAngleAttenuation, addr 0x68da384, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetSpotAngleAttenuation, addr 0x68e1e00, size 0x108, virtual false, abstract: false, final false
   static inline void GetSpotAngleAttenuation(float_t spotAngle, ::System::Nullable_1<float_t> innerSpotAngle, ::by_ref<::UnityEngine::Vector4> lightAttenuation);
 
-  /// @brief Method GetSpotDirection, addr 0x68da350, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetSpotDirection, addr 0x68e1dcc, size 0x34, virtual false, abstract: false, final false
   static inline void GetSpotDirection(::by_ref<::UnityEngine::Matrix4x4> lightLocalToWorldMatrix, ::by_ref<::UnityEngine::Vector4> lightSpotDir);
 
-  /// @brief Method HDROutputForAnyDisplayIsActive, addr 0x68d9f18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HDROutputForAnyDisplayIsActive, addr 0x68e1994, size 0xb0, virtual false, abstract: false, final false
   static inline bool HDROutputForAnyDisplayIsActive();
 
-  /// @brief Method HDROutputForMainDisplayIsActive, addr 0x68d86cc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HDROutputForMainDisplayIsActive, addr 0x68e0148, size 0x100, virtual false, abstract: false, final false
   static inline bool HDROutputForMainDisplayIsActive();
 
-  /// @brief Method InitializeAdditionalCameraData, addr 0x68d4f58, size 0x7a8, virtual false, abstract: false, final false
+  /// @brief Method InitializeAdditionalCameraData, addr 0x68dc9d4, size 0x7a8, virtual false, abstract: false, final false
   static inline void InitializeAdditionalCameraData(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* additionalCameraData, bool resolveFinalTarget,
                                                     ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method InitializeLightConstants_Common, addr 0x68da48c, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method InitializeLightConstants_Common, addr 0x68e1f08, size 0x370, virtual false, abstract: false, final false
   static inline void InitializeLightConstants_Common(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights, int32_t lightIndex, ::by_ref<::UnityEngine::Vector4> lightPos,
                                                      ::by_ref<::UnityEngine::Vector4> lightColor, ::by_ref<::UnityEngine::Vector4> lightAttenuation, ::by_ref<::UnityEngine::Vector4> lightSpotDir,
                                                      ::by_ref<::UnityEngine::Vector4> lightOcclusionProbeChannel);
 
-  /// @brief Method InitializeMainLightShadowResolution, addr 0x68d850c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitializeMainLightShadowResolution, addr 0x68dff88, size 0xac, virtual false, abstract: false, final false
   static inline void InitializeMainLightShadowResolution(::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method InitializeStackedCameraData, addr 0x68d8e30, size 0x6b4, virtual false, abstract: false, final false
+  /// @brief Method InitializeStackedCameraData, addr 0x68e08ac, size 0x6b4, virtual false, abstract: false, final false
   static inline void InitializeStackedCameraData(::UnityEngine::Camera* baseCamera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* baseAdditionalCameraData,
                                                  ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method IsGameCamera, addr 0x68d2bdc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsGameCamera, addr 0x68da658, size 0xe0, virtual false, abstract: false, final false
   static inline bool IsGameCamera(::UnityEngine::Camera* camera);
 
   /// @brief Method IsRenderRequestSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename RequestData> inline bool IsRenderRequestSupported(::UnityEngine::Camera* camera, RequestData data);
 
-  /// @brief Method MakeRenderTextureGraphicsFormat, addr 0x68c3738, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method MakeRenderTextureGraphicsFormat, addr 0x68cb1b4, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat
   MakeRenderTextureGraphicsFormat(bool isHdrEnabled, ::UnityEngine::Rendering::Universal::HDRColorBufferPrecision requestHDRColorBufferPrecision, bool needsAlpha);
 
-  /// @brief Method MakeUnormRenderTextureGraphicsFormat, addr 0x68da180, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MakeUnormRenderTextureGraphicsFormat, addr 0x68e1bfc, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat MakeUnormRenderTextureGraphicsFormat();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipeline* New_ctor(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* asset);
@@ -1108,79 +1108,79 @@ public:
   /// @brief Method ProcessRenderRequests, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename RequestData> inline void ProcessRenderRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera, RequestData renderRequest);
 
-  /// @brief Method RecordAndExecuteRenderGraph, addr 0x68d8428, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method RecordAndExecuteRenderGraph, addr 0x68dfea4, size 0xe4, virtual false, abstract: false, final false
   static inline void RecordAndExecuteRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                                  ::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Camera* camera,
                                                  ::StringW cameraName);
 
-  /// @brief Method RecordRenderGraph, addr 0x68da7fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x68e2278, size 0x24, virtual false, abstract: false, final false
   static inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                        ::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer);
 
-  /// @brief Method Render, addr 0x68d1f1c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x68d9998, size 0x98, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext renderContext, ::ArrayW<::UnityEngine::Camera*> cameras);
 
-  /// @brief Method Render, addr 0x68d1fb4, size 0x554, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x68d9a30, size 0x554, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext renderContext, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
-  /// @brief Method RenderCameraStack, addr 0x68d2cbc, size 0x14b8, virtual false, abstract: false, final false
+  /// @brief Method RenderCameraStack, addr 0x68da738, size 0x14b8, virtual false, abstract: false, final false
   static inline void RenderCameraStack(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* baseCamera);
 
-  /// @brief Method RenderSingleCamera, addr 0x68d44f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RenderSingleCamera, addr 0x68dbf6c, size 0x68, virtual false, abstract: false, final false
   static inline void RenderSingleCamera(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method RenderSingleCamera, addr 0x68d5700, size 0x1130, virtual false, abstract: false, final false
+  /// @brief Method RenderSingleCamera, addr 0x68dd17c, size 0x1130, virtual false, abstract: false, final false
   static inline void RenderSingleCamera(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method RenderSingleCameraInternal, addr 0x68d4424, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RenderSingleCameraInternal, addr 0x68dbea0, size 0xcc, virtual false, abstract: false, final false
   static inline void RenderSingleCameraInternal(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method RenderSingleCameraInternal, addr 0x68d4558, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method RenderSingleCameraInternal, addr 0x68dbfd4, size 0x3d4, virtual false, abstract: false, final false
   static inline void RenderSingleCameraInternal(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera,
                                                 ::by_ref<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData*> additionalCameraData);
 
-  /// @brief Method ResolveUpscalingFilterSelection, addr 0x68d97e4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ResolveUpscalingFilterSelection, addr 0x68e1260, size 0x1cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::ImageUpscalingFilter
   ResolveUpscalingFilterSelection(::UnityEngine::Vector2 imageSize, float_t renderScale, ::UnityEngine::Rendering::Universal::UpscalingFilterSelection selection, bool enableRenderGraph);
 
-  /// @brief Method SetHDRState, addr 0x68d2508, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetHDRState, addr 0x68d9f84, size 0x160, virtual false, abstract: false, final false
   inline void SetHDRState(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
-  /// @brief Method SetSupportedRenderingFeatures, addr 0x68d1adc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetSupportedRenderingFeatures, addr 0x68d9558, size 0x84, virtual false, abstract: false, final false
   static inline void SetSupportedRenderingFeatures(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* pipelineAsset);
 
-  /// @brief Method SetupPerCameraShaderConstants, addr 0x68d69a4, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method SetupPerCameraShaderConstants, addr 0x68de420, size 0x35c, virtual false, abstract: false, final false
   static inline void SetupPerCameraShaderConstants(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method SetupPerFrameShaderConstants, addr 0x68d2840, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method SetupPerFrameShaderConstants, addr 0x68da2bc, size 0x308, virtual false, abstract: false, final false
   inline void SetupPerFrameShaderConstants();
 
-  /// @brief Method SetupScreenMSAASamplesState, addr 0x68d2730, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetupScreenMSAASamplesState, addr 0x68da1ac, size 0x110, virtual false, abstract: false, final false
   static inline void SetupScreenMSAASamplesState(int32_t cameraCount);
 
-  /// @brief Method SortCameras, addr 0x68d2b48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SortCameras, addr 0x68da5c4, size 0x94, virtual false, abstract: false, final false
   inline void SortCameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
-  /// @brief Method ToString, addr 0x68d1154, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x68d8bd0, size 0x18, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetCullingParameters, addr 0x68d6830, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method TryGetCullingParameters, addr 0x68de2ac, size 0x174, virtual false, abstract: false, final false
   static inline bool TryGetCullingParameters(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParams);
 
-  /// @brief Method UpdateCameraData, addr 0x68d8a2c, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method UpdateCameraData, addr 0x68e04a8, size 0x370, virtual false, abstract: false, final false
   static inline void UpdateCameraData(::UnityEngine::Rendering::Universal::UniversalCameraData* baseCameraData, ::by_ref<::UnityEngine::Experimental::Rendering::XRPass*> xr);
 
-  /// @brief Method UpdateCameraStereoMatrices, addr 0x68d88b8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method UpdateCameraStereoMatrices, addr 0x68e0334, size 0x174, virtual false, abstract: false, final false
   static inline void UpdateCameraStereoMatrices(::UnityEngine::Camera* camera, ::UnityEngine::Experimental::Rendering::XRPass* xr);
 
-  /// @brief Method UpdateTemporalAAData, addr 0x68d99b0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method UpdateTemporalAAData, addr 0x68e142c, size 0x134, virtual false, abstract: false, final false
   static inline void UpdateTemporalAAData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                           ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* additionalCameraData);
 
-  /// @brief Method UpdateTemporalAATargets, addr 0x68d6d00, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method UpdateTemporalAATargets, addr 0x68de77c, size 0x120, virtual false, abstract: false, final false
   static inline void UpdateTemporalAATargets(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method UpdateVolumeFramework, addr 0x68d4174, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method UpdateVolumeFramework, addr 0x68dbbf0, size 0x2b0, virtual false, abstract: false, final false
   static inline void UpdateVolumeFramework(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData* additionalCameraData);
 
   constexpr ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures* const& __cordl_internal_get__runtimeTextures_k__BackingField() const;
@@ -1225,7 +1225,7 @@ public:
 
   constexpr void __cordl_internal_set_pipelineAsset(::UnityW<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset> value);
 
-  /// @brief Method .ctor, addr 0x68d116c, size 0x970, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68d8be8, size 0x970, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset* asset);
 
   static inline bool getStaticF__canOptimizeScreenMSAASamples_k__BackingField();
@@ -1256,49 +1256,49 @@ public:
 
   static inline bool getStaticF_useRenderGraph();
 
-  /// @brief Method get_asset, addr 0x68c3690, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x68cb10c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::Universal::UniversalRenderPipelineAsset> get_asset();
 
-  /// @brief Method get_canOptimizeScreenMSAASamples, addr 0x68d0fd8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_canOptimizeScreenMSAASamples, addr 0x68d8a54, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_canOptimizeScreenMSAASamples();
 
-  /// @brief Method get_defaultSettings, addr 0x68d0fd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultSettings, addr 0x68d8a4c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::RenderPipelineGlobalSettings> get_defaultSettings();
 
-  /// @brief Method get_lightsPerTile, addr 0x68d0e88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lightsPerTile, addr 0x68d8904, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_lightsPerTile();
 
-  /// @brief Method get_maxNumIterationsEnclosingSphere, addr 0x68d0e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxNumIterationsEnclosingSphere, addr 0x68d88f4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_maxNumIterationsEnclosingSphere();
 
-  /// @brief Method get_maxPerObjectLights, addr 0x68d0e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxPerObjectLights, addr 0x68d88fc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_maxPerObjectLights();
 
-  /// @brief Method get_maxRenderScale, addr 0x68d0e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxRenderScale, addr 0x68d88ec, size 0x8, virtual false, abstract: false, final false
   static inline float_t get_maxRenderScale();
 
-  /// @brief Method get_maxShadowBias, addr 0x68d0e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxShadowBias, addr 0x68d88d8, size 0x8, virtual false, abstract: false, final false
   static inline float_t get_maxShadowBias();
 
-  /// @brief Method get_maxTileWords, addr 0x68d0ee8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_maxTileWords, addr 0x68d8964, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_maxTileWords();
 
-  /// @brief Method get_maxVisibleAdditionalLights, addr 0x68c87c0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method get_maxVisibleAdditionalLights, addr 0x68d023c, size 0x140, virtual false, abstract: false, final false
   static inline int32_t get_maxVisibleAdditionalLights();
 
-  /// @brief Method get_maxVisibleReflectionProbes, addr 0x68d0f40, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_maxVisibleReflectionProbes, addr 0x68d89bc, size 0x80, virtual false, abstract: false, final false
   static inline int32_t get_maxVisibleReflectionProbes();
 
-  /// @brief Method get_maxZBinWords, addr 0x68d0ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxZBinWords, addr 0x68d895c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_maxZBinWords();
 
-  /// @brief Method get_minRenderScale, addr 0x68d0e64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_minRenderScale, addr 0x68d88e0, size 0xc, virtual false, abstract: false, final false
   static inline float_t get_minRenderScale();
 
-  /// @brief Method get_runtimeTextures, addr 0x68d0fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_runtimeTextures, addr 0x68d8a3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures* get_runtimeTextures();
 
-  /// @brief Method get_startFrameScreenMSAASamples, addr 0x68d1098, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_startFrameScreenMSAASamples, addr 0x68d8b14, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_startFrameScreenMSAASamples();
 
   static inline void setStaticF__canOptimizeScreenMSAASamples_k__BackingField(bool value);
@@ -1329,13 +1329,13 @@ public:
 
   static inline void setStaticF_useRenderGraph(bool value);
 
-  /// @brief Method set_canOptimizeScreenMSAASamples, addr 0x68d1034, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_canOptimizeScreenMSAASamples, addr 0x68d8ab0, size 0x64, virtual false, abstract: false, final false
   static inline void set_canOptimizeScreenMSAASamples(bool value);
 
-  /// @brief Method set_runtimeTextures, addr 0x68d0fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_runtimeTextures, addr 0x68d8a44, size 0x8, virtual false, abstract: false, final false
   inline void set_runtimeTextures(::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeTextures* value);
 
-  /// @brief Method set_startFrameScreenMSAASamples, addr 0x68d10f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_startFrameScreenMSAASamples, addr 0x68d8b70, size 0x60, virtual false, abstract: false, final false
   static inline void set_startFrameScreenMSAASamples(int32_t value);
 
 protected:
@@ -1353,7 +1353,7 @@ public:
   UniversalRenderPipeline(UniversalRenderPipeline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13031 };
 
   /// @brief Field k_DefaultRenderingLayerMask offset 0xffffffff size 0x4
   static constexpr int32_t k_DefaultRenderingLayerMask{ static_cast<int32_t>(0x1) };

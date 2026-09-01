@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ZenAutoInjecter.hpp"
+// IWYU pragma private; include "Zenject\ZenAutoInjecter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +75,7 @@ public:
   static ::Zenject::ZenAutoInjecter_ContainerSources const SearchHierarchy;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14713 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -108,16 +108,16 @@ public:
   /// @brief Field _hasInjected, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get__hasInjected, put = __cordl_internal_set__hasInjected)) bool _hasInjected;
 
-  /// @brief Method Awake, addr 0x6e9699c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6e9e520, size 0x48, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Construct, addr 0x6e9695c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x6e9e4e0, size 0x40, virtual false, abstract: false, final false
   inline void Construct();
 
-  /// @brief Method GetContainerForCurrentScene, addr 0x6e96b28, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetContainerForCurrentScene, addr 0x6e9e6ac, size 0x94, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* GetContainerForCurrentScene();
 
-  /// @brief Method LookupContainer, addr 0x6e969e4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method LookupContainer, addr 0x6e9e568, size 0x144, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* LookupContainer();
 
   static inline ::Zenject::ZenAutoInjecter* New_ctor();
@@ -134,19 +134,19 @@ public:
 
   constexpr void __cordl_internal_set__hasInjected(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e96c4c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9e7d0, size 0x22c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x6e96bc8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x6e9e74c, size 0x84, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*> P_1);
 
-  /// @brief Method .ctor, addr 0x6e96bbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e9e740, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ContainerSource, addr 0x6e9694c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContainerSource, addr 0x6e9e4d0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ZenAutoInjecter_ContainerSources get_ContainerSource();
 
-  /// @brief Method set_ContainerSource, addr 0x6e96954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContainerSource, addr 0x6e9e4d8, size 0x8, virtual false, abstract: false, final false
   inline void set_ContainerSource(::Zenject::ZenAutoInjecter_ContainerSources value);
 
 protected:
@@ -164,7 +164,7 @@ public:
   ZenAutoInjecter(ZenAutoInjecter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14714 };
 
   /// @brief Field _containerSource, offset: 0x20, size: 0x4, def value: None
   ::Zenject::ZenAutoInjecter_ContainerSources ____containerSource;

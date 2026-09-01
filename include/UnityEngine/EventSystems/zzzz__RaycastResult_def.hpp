@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/EventSystems/RaycastResult.hpp"
+// IWYU pragma private; include "UnityEngine\EventSystems\RaycastResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,19 +34,19 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  /// @brief Method Clear, addr 0x6e1ca8c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6e24610, size 0xc4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ToString, addr 0x6e1122c, size 0x460, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e18db0, size 0x460, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_gameObject, addr 0x6e1c9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x6e24564, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_isValid, addr 0x6e1c9f0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x6e24574, size 0x9c, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method set_gameObject, addr 0x6e1c9e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameObject, addr 0x6e2456c, size 0x8, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
   // Ctor Parameters []
@@ -65,7 +65,7 @@ public:
                           ::UnityEngine::Vector2 screenPosition, int32_t displayIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17582 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

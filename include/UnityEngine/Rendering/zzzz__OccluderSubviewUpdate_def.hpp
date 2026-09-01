@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OccluderSubviewUpdate.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OccluderSubviewUpdate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE OccluderSubviewUpdate {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x680eb9c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6816618, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(int32_t subviewIndex);
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
                                   ::UnityEngine::Matrix4x4 gpuProjMatrix, ::UnityEngine::Vector3 viewOffsetWorldSpace) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17635 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xdc };

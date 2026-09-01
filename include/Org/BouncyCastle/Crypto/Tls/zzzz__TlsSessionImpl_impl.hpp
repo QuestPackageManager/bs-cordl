@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsSessionImpl.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsSessionImpl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSessionImpl_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SessionParameters_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)(::ArrayW<uint8_t>, ::Org::BouncyCastle::Crypto::Tls::SessionParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x348c770;
+  constexpr static std::size_t addrs = 0x3490530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::SessionParameters* (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::ExportSessionParameters)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x348c8a8;
+  constexpr static std::size_t addrs = 0x3490668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::get_SessionID)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x348c958;
+  constexpr static std::size_t addrs = 0x3490718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::Invalidate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x348c984;
+  constexpr static std::size_t addrs = 0x3490744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::get_IsResumable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x348c9a0;
+  constexpr static std::size_t addrs = 0x3490760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

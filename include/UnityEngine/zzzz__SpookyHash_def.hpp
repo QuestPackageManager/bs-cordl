@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SpookyHash.hpp"
+// IWYU pragma private; include "UnityEngine\SpookyHash.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_p8(uint8_t* value);
 
-  /// @brief Method .ctor, addr 0x6ac0eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac88c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint16_t* p8);
 
   // Ctor Parameters []
@@ -139,7 +139,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10236 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -162,39 +162,39 @@ public:
   /// @brief Field AllowUnalignedRead, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_AllowUnalignedRead, put = setStaticF_AllowUnalignedRead)) bool AllowUnalignedRead;
 
-  /// @brief Method AttemptDetectAllowUnalignedRead, addr 0x6ac0ae4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AttemptDetectAllowUnalignedRead, addr 0x6ac84fc, size 0x84, virtual false, abstract: false, final false
   static inline bool AttemptDetectAllowUnalignedRead();
 
-  /// @brief Method End, addr 0x6ac1398, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x6ac8db0, size 0x258, virtual false, abstract: false, final false
   static inline void End(uint64_t* data, ::by_ref<uint64_t> h0, ::by_ref<uint64_t> h1, ::by_ref<uint64_t> h2, ::by_ref<uint64_t> h3, ::by_ref<uint64_t> h4, ::by_ref<uint64_t> h5,
                          ::by_ref<uint64_t> h6, ::by_ref<uint64_t> h7, ::by_ref<uint64_t> h8, ::by_ref<uint64_t> h9, ::by_ref<uint64_t> h10, ::by_ref<uint64_t> h11);
 
-  /// @brief Method EndPartial, addr 0x6ac15f0, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method EndPartial, addr 0x6ac9008, size 0x290, virtual false, abstract: false, final false
   static inline void EndPartial(::by_ref<uint64_t> h0, ::by_ref<uint64_t> h1, ::by_ref<uint64_t> h2, ::by_ref<uint64_t> h3, ::by_ref<uint64_t> h4, ::by_ref<uint64_t> h5, ::by_ref<uint64_t> h6,
                                 ::by_ref<uint64_t> h7, ::by_ref<uint64_t> h8, ::by_ref<uint64_t> h9, ::by_ref<uint64_t> h10, ::by_ref<uint64_t> h11);
 
-  /// @brief Method Hash, addr 0x6ac0774, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method Hash, addr 0x6ac818c, size 0x370, virtual false, abstract: false, final false
   static inline void Hash(void* message, uint64_t length, uint64_t* hash1, uint64_t* hash2);
 
-  /// @brief Method Mix, addr 0x6ac0eb8, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method Mix, addr 0x6ac88d0, size 0x444, virtual false, abstract: false, final false
   static inline void Mix(uint64_t* data, ::by_ref<uint64_t> s0, ::by_ref<uint64_t> s1, ::by_ref<uint64_t> s2, ::by_ref<uint64_t> s3, ::by_ref<uint64_t> s4, ::by_ref<uint64_t> s5,
                          ::by_ref<uint64_t> s6, ::by_ref<uint64_t> s7, ::by_ref<uint64_t> s8, ::by_ref<uint64_t> s9, ::by_ref<uint64_t> s10, ::by_ref<uint64_t> s11);
 
-  /// @brief Method Rot64, addr 0x6ac1880, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Rot64, addr 0x6ac9298, size 0x14, virtual false, abstract: false, final false
   static inline void Rot64(::by_ref<uint64_t> x, int32_t k);
 
-  /// @brief Method Short, addr 0x6ac0b68, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Short, addr 0x6ac8580, size 0x348, virtual false, abstract: false, final false
   static inline void Short(void* message, uint64_t length, uint64_t* hash1, uint64_t* hash2);
 
-  /// @brief Method ShortEnd, addr 0x6ac1ab4, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method ShortEnd, addr 0x6ac94cc, size 0x200, virtual false, abstract: false, final false
   static inline void ShortEnd(::by_ref<uint64_t> h0, ::by_ref<uint64_t> h1, ::by_ref<uint64_t> h2, ::by_ref<uint64_t> h3);
 
-  /// @brief Method ShortMix, addr 0x6ac1894, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ShortMix, addr 0x6ac92ac, size 0x220, virtual false, abstract: false, final false
   static inline void ShortMix(::by_ref<uint64_t> h0, ::by_ref<uint64_t> h1, ::by_ref<uint64_t> h2, ::by_ref<uint64_t> h3);
 
   static inline bool getStaticF_AllowUnalignedRead();
 
-  /// @brief Method memset, addr 0x6ac12fc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method memset, addr 0x6ac8d14, size 0x9c, virtual false, abstract: false, final false
   static inline void memset(void* dst, int32_t value, uint64_t numberOfBytes);
 
   static inline void setStaticF_AllowUnalignedRead(bool value);
@@ -214,7 +214,7 @@ public:
   SpookyHash(SpookyHash const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

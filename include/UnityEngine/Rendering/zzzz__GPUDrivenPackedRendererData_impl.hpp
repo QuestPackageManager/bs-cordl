@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenPackedRendererData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUDrivenPackedRendererData.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenPackedRendererData_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LightProbeUsage_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ShadowCastingMode_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_staticShadowCaster)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b25134;
+  constexpr static std::size_t addrs = 0x6b2ccb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(&::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_lodMask)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b25140;
+  constexpr static std::size_t addrs = 0x6b2ccc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenPackedRendererData>(), { "get_lodMask", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ShadowCastingMode (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_shadowCastingMode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b2514c;
+  constexpr static std::size_t addrs = 0x6b2ccd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::LightProbeUsage (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_lightProbeUsage)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b25158;
+  constexpr static std::size_t addrs = 0x6b2ccdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::MotionVectorGenerationMode (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_motionVecGenMode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b25164;
+  constexpr static std::size_t addrs = 0x6b2cce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_isPartOfStaticBatch)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b25170;
+  constexpr static std::size_t addrs = 0x6b2ccf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(&::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_hasTree)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b2517c;
+  constexpr static std::size_t addrs = 0x6b2cd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenPackedRendererData>(), { "get_hasTree", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(
     &::UnityEngine::Rendering::GPUDrivenPackedRendererData::get_smallMeshCulling)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b25188;
+  constexpr static std::size_t addrs = 0x6b2cd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUDrivenPackedRendererData::*)()>(&::UnityEngine::Rendering::GPUDrivenPackedRendererData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25194;
+  constexpr static std::size_t addrs = 0x6b2cd18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUDrivenPackedRendererData>(), { ".ctor", {}, {} })));

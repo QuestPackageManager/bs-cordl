@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/PropertyContainer.hpp"
+// IWYU pragma private; include "Unity\Properties\PropertyContainer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,13 +79,13 @@ public:
 
   static inline ::Unity::Properties::GetPropertyVisitor_PropertyContainer___c* New_ctor();
 
-  /// @brief Method <.cctor>b__5_0, addr 0x6b968f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__5_0, addr 0x6b9e47c, size 0x44, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyContainer_GetPropertyVisitor* __cctor_b__5_0();
 
-  /// @brief Method <.cctor>b__5_1, addr 0x6b9693c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__5_1, addr 0x6b9e4c0, size 0x20, virtual false, abstract: false, final false
   inline void __cctor_b__5_1(::Unity::Properties::PropertyContainer_GetPropertyVisitor* v);
 
-  /// @brief Method .ctor, addr 0x6b968f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9e478, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Properties::GetPropertyVisitor_PropertyContainer___c* getStaticF___9();
@@ -107,7 +107,7 @@ public:
   GetPropertyVisitor_PropertyContainer___c(GetPropertyVisitor_PropertyContainer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19605 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,7 +132,7 @@ public:
 
   static inline ::Unity::Properties::PropertyContainer_GetPropertyVisitor* New_ctor();
 
-  /// @brief Method Reset, addr 0x6b966a8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b9e22c, size 0x34, virtual true, abstract: false, final false
   inline void Reset();
 
   /// @brief Method VisitPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_Property(::Unity::Properties::IProperty* value);
 
-  /// @brief Method .ctor, addr 0x6b96708, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9e28c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Pool::ObjectPool_1<::Unity::Properties::PropertyContainer_GetPropertyVisitor*>* getStaticF_Pool();
@@ -166,7 +166,7 @@ public:
   PropertyContainer_GetPropertyVisitor(PropertyContainer_GetPropertyVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19606 };
 
   /// @brief Field Property, offset: 0xb8, size: 0x8, def value: None
   ::Unity::Properties::IProperty* ___Property;
@@ -221,7 +221,7 @@ public:
   GetValueVisitor_1_PropertyContainer___c(GetValueVisitor_1_PropertyContainer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19607 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -280,7 +280,7 @@ public:
   PropertyContainer_GetValueVisitor_1(PropertyContainer_GetValueVisitor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19608 };
 
   /// @brief Field Value, offset: 0xb8, size: 0x8, def value: None
   TSrcValue ___Value;
@@ -342,7 +342,7 @@ public:
   PropertyContainer(PropertyContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19609 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

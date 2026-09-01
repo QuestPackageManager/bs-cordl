@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/AnimatorIkHandlerManager.hpp"
+// IWYU pragma private; include "Zenject\AnimatorIkHandlerManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__AnimatorIkHandlerManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::AnimatorIkHandlerManager::*)(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*)>(
     &::Zenject::AnimatorIkHandlerManager::Construct)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e85778;
+  constexpr static std::size_t addrs = 0x6e8d2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::AnimatorIkHandlerManager::*)()>(&::Zenject::AnimatorIkHandlerManager::OnAnimatorIk)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6e85780;
+  constexpr static std::size_t addrs = 0x6e8d304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::AnimatorIkHandlerManager*>(), { "OnAnimatorIk", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::AnimatorIkHandlerManager::*)()>(&::Zenject::AnimatorIkHandlerManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e858f0;
+  constexpr static std::size_t addrs = 0x6e8d474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::AnimatorIkHandlerManager*>(), { ".ctor", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::ArrayW<::System::Object*>)>(&::Zenject::AnimatorIkHandlerManager::__zenInjectMethod0)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6e858f4;
+  constexpr static std::size_t addrs = 0x6e8d478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::AnimatorIkHandlerManager::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x6e859e0;
+  constexpr static std::size_t addrs = 0x6e8d564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::AnimatorIkHandlerManager*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

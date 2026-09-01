@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TrailElement.hpp"
+// IWYU pragma private; include "GlobalNamespace\TrailElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,18 +39,18 @@ public:
   /// @brief Field time, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
-  /// @brief Method CopyFrom, addr 0x5f4d65c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x5f550d8, size 0x3c, virtual false, abstract: false, final false
   inline void CopyFrom(::GlobalNamespace::TrailElement* other);
 
   static inline ::GlobalNamespace::TrailElement* New_ctor();
 
-  /// @brief Method SetData, addr 0x5f4d61c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5f55098, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
 
-  /// @brief Method SetDistance, addr 0x5f4d698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDistance, addr 0x5f55114, size 0x8, virtual false, abstract: false, final false
   inline void SetDistance(float_t value);
 
-  /// @brief Method UpdateLocalDistance, addr 0x5f4d6a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalDistance, addr 0x5f5511c, size 0x9c, virtual false, abstract: false, final false
   inline void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
 
   constexpr float_t const& __cordl_internal_get_distance() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x5f4d73c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f551b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   TrailElement(TrailElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23207 };
 
   /// @brief Field position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___position;

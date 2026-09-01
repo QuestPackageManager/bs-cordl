@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FlyingTextEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\FlyingTextEffect.hpp"
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingTextEffect_Pool::*)()>(&::GlobalNamespace::FlyingTextEffect_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59804b0;
+  constexpr static std::size_t addrs = 0x5983e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingTextEffect_Pool*>(), { ".ctor", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingTextEffect::*)(::StringW, float_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Color,
                                                                                                      float_t, bool)>(&::GlobalNamespace::FlyingTextEffect::InitAndPresent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x59803a0;
+  constexpr static std::size_t addrs = 0x5983d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingTextEffect::*)(float_t)>(&::GlobalNamespace::FlyingTextEffect::ManualUpdate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5980418;
+  constexpr static std::size_t addrs = 0x5983dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingTextEffect::*)()>(&::GlobalNamespace::FlyingTextEffect::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x598047c;
+  constexpr static std::size_t addrs = 0x5983e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingTextEffect*>(), { ".ctor", {}, {} })));

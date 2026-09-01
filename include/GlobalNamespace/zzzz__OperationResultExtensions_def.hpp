@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OperationResultExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\OperationResultExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +22,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE OperationResultExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsError, addr 0x5ed9cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsError, addr 0x5ede1b4, size 0x8, virtual false, abstract: false, final false
   static inline bool IsError(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
-  /// @brief Method IsSuccess, addr 0x5ed9cec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSuccess, addr 0x5ede1a8, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSuccess(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
-  /// @brief Method IsWarning, addr 0x5ed9d00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsWarning, addr 0x5ede1bc, size 0xc, virtual false, abstract: false, final false
   static inline bool IsWarning(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
 protected:
@@ -46,7 +46,7 @@ public:
   OperationResultExtensions(OperationResultExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7727 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

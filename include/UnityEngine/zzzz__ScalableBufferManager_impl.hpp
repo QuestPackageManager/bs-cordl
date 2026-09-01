@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ScalableBufferManager.hpp"
+// IWYU pragma private; include "UnityEngine\ScalableBufferManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScalableBufferManager_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ScalableBufferManager.get_widthScaleFactor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::ScalableBufferManager::get_widthScaleFactor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a81bc8;
+  constexpr static std::size_t addrs = 0x6a895e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ScalableBufferManager*>(), { "get_widthScaleFactor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::ScalableBufferManager::get_heightScaleFactor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a81bf0;
+  constexpr static std::size_t addrs = 0x6a89608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ScalableBufferManager*>(), { "get_heightScaleFactor", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t)>(&::UnityEngine::ScalableBufferManager::ResizeBuffers)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6a81c18;
+  constexpr static std::size_t addrs = 0x6a89630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

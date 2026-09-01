@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/PointerSpec.hpp"
+// IWYU pragma private; include "System\PointerSpec.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__PointerSpec_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::PointerSpec::*)(int32_t)>(&::System::PointerSpec::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9a564;
+  constexpr static std::size_t addrs = 0x5c9ea20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::PointerSpec*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::PointerSpec::*)(::System::Type*)>(&::System::PointerSpec::Resolve)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c9a56c;
+  constexpr static std::size_t addrs = 0x5c9ea28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::PointerSpec*>(), { "Resolve", {}, { ::i2c::type_of<::System::Type*>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::StringBuilder* (::System::PointerSpec::*)(::System::Text::StringBuilder*)>(&::System::PointerSpec::Append)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c9a5c0;
+  constexpr static std::size_t addrs = 0x5c9ea7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::PointerSpec::*)()>(&::System::PointerSpec::ToString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c9a5e0;
+  constexpr static std::size_t addrs = 0x5c9ea9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::PointerSpec*>(), { ::i2c::class_of<::System::PointerSpec*>(), 3 }));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ZenjectSafeBehaviour.hpp"
+// IWYU pragma private; include "GlobalNamespace\ZenjectSafeBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,18 +32,18 @@ public:
   /// @brief Field _wasOnEnableCalled, offset 0x21, size 0x1
   __declspec(property(get = __cordl_internal_get__wasOnEnableCalled, put = __cordl_internal_set__wasOnEnableCalled)) bool _wasOnEnableCalled;
 
-  /// @brief Method Inject, addr 0x5f4af18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x5f5288c, size 0x20, virtual false, abstract: false, final false
   inline void Inject();
 
   static inline ::GlobalNamespace::ZenjectSafeBehaviour* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5f4af58, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5f528cc, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnEnablePostInjection, addr 0x5f4af78, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnablePostInjection, addr 0x5f528ec, size 0x4, virtual true, abstract: false, final false
   inline void OnEnablePostInjection();
 
-  /// @brief Method TryInvokeOnEnablePostInjection, addr 0x5f4af38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TryInvokeOnEnablePostInjection, addr 0x5f528ac, size 0x20, virtual false, abstract: false, final false
   inline void TryInvokeOnEnablePostInjection();
 
   constexpr bool const& __cordl_internal_get__isInjected() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__wasOnEnableCalled(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x5f4b020, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x5f52994, size 0x22c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x5f4af7c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x5f528f0, size 0xa4, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*> P_1);
 
-  /// @brief Method .ctor, addr 0x5f3ddc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4222c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,7 +82,7 @@ public:
   ZenjectSafeBehaviour(ZenjectSafeBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20704 };
 
   /// @brief Field _isInjected, offset: 0x20, size: 0x1, def value: None
   bool ____isInjected;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/DeserializationEventHandler.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\DeserializationEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE DeserializationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5b47bfc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5b4c0b8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender);
 
   static inline ::System::Runtime::Serialization::DeserializationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5b47ab8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4bf74, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

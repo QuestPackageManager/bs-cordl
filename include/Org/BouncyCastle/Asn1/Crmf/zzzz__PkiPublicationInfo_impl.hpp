@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/PkiPublicationInfo.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Crmf\PkiPublicationInfo.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__PkiPublicationInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__SinglePubInfo_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x33642ac;
+  constexpr static std::size_t addrs = 0x336806c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x336430c;
+  constexpr static std::size_t addrs = 0x33680cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo::get_Action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3364490;
+  constexpr static std::size_t addrs = 0x3368250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Crmf::SinglePubInfo*> (::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo::GetPubInfos)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3364498;
+  constexpr static std::size_t addrs = 0x3368258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x336471c;
+  constexpr static std::size_t addrs = 0x33684dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/RefreshEventArgs.hpp"
+// IWYU pragma private; include "System\ComponentModel\RefreshEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__TypeChanged_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x63c0b3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c85b8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* typeChanged);
 
 protected:
@@ -51,7 +51,7 @@ public:
   RefreshEventArgs(RefreshEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11293 };
 
   /// @brief Field <TypeChanged>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____TypeChanged_k__BackingField;

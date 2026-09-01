@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DelegateUtility.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DelegateUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DelegateUtility_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Delegate* (*)(::System::Delegate*, ::System::Type*)>(&::UnityEngine::Rendering::DelegateUtility::Cast)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x67bacd4;
+  constexpr static std::size_t addrs = 0x67c2750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

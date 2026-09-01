@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue/StablePriorityQueue_1.hpp"
+// IWYU pragma private; include "Priority_Queue\StablePriorityQueue_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -149,7 +149,7 @@ public:
   StablePriorityQueue_1__GetEnumerator_d__22(StablePriorityQueue_1__GetEnumerator_d__22 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20496 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -309,7 +309,7 @@ public:
   StablePriorityQueue_1(StablePriorityQueue_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20497 };
 
   /// @brief Field _numNodes, offset: 0x10, size: 0x4, def value: None
   int32_t ____numNodes;

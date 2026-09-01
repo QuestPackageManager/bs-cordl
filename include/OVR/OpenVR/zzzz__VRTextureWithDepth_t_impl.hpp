@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/VRTextureWithDepth_t.hpp"
+// IWYU pragma private; include "OVR\OpenVR\VRTextureWithDepth_t.hpp"
 #include "OVR/OpenVR/zzzz__VRTextureDepthInfo_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VRTextureWithDepth_t_def.hpp"
 // Ctor Parameters [CppParam { name: "depth", ty: "::OVR::OpenVR::VRTextureDepthInfo_t", modifiers: "", def_value: Some("{}") }]

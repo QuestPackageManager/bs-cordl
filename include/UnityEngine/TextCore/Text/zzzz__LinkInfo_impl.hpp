@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/LinkInfo.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\LinkInfo.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__LinkInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::LinkInfo.SetLinkId
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::LinkInfo::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::UnityEngine::TextCore::Text::LinkInfo::SetLinkId)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6bbf930;
+  constexpr static std::size_t addrs = 0x6bc74b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::Text::LinkInfo::*)(::UnityEngine::TextCore::Text::TextInfo*)>(
     &::UnityEngine::TextCore::Text::LinkInfo::GetLinkText)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6bbfa20;
+  constexpr static std::size_t addrs = 0x6bc75a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::Text::LinkInfo::*)()>(&::UnityEngine::TextCore::Text::LinkInfo::GetLinkId)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6bbfaf8;
+  constexpr static std::size_t addrs = 0x6bc767c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::LinkInfo>(), { "GetLinkId", {}, {} })));

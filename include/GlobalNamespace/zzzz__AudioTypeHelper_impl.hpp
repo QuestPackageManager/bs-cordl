@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioTypeHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioTypeHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioTypeHelper_def.hpp"
 #include "UnityEngine/zzzz__AudioType_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AudioType (*)(::StringW)>(&::GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x331e2d0;
+  constexpr static std::size_t addrs = 0x3322090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

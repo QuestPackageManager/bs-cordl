@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Generic/InternalStringComparer.hpp"
+// IWYU pragma private; include "System\Collections\Generic\InternalStringComparer.hpp"
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__InternalStringComparer_def.hpp"
 //  Writing Method size for method: ::System::Collections::Generic::InternalStringComparer.GetHashCode
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Generic::InternalStringComparer::*)(::StringW)>(
     &::System::Collections::Generic::InternalStringComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5bef6b8;
+  constexpr static std::size_t addrs = 0x5bf3b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Generic::InternalStringComparer*>(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Generic::InternalStringComparer::*)(::StringW, ::StringW)>(
     &::System::Collections::Generic::InternalStringComparer::Equals)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5bef6d8;
+  constexpr static std::size_t addrs = 0x5bf3b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Generic::InternalStringComparer*>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Generic::InternalStringComparer::*)(::ArrayW<::StringW>, ::StringW, int32_t, int32_t)>(
     &::System::Collections::Generic::InternalStringComparer::IndexOf)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5bef708;
+  constexpr static std::size_t addrs = 0x5bf3bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Generic::InternalStringComparer*>(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Generic::InternalStringComparer::*)()>(&::System::Collections::Generic::InternalStringComparer::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5bef76c;
+  constexpr static std::size_t addrs = 0x5bf3c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Generic::InternalStringComparer*>(), { ".ctor", {}, {} })));

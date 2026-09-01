@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SpatialTracking/PoseDataSource.hpp"
+// IWYU pragma private; include "UnityEngine\SpatialTracking\PoseDataSource.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__PoseDataSource_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpatialTracking::PoseDataFlags (*)(::UnityEngine::XR::XRNode, ::by_ref<::UnityEngine::Pose>)>(
     &::UnityEngine::SpatialTracking::PoseDataSource::GetNodePoseData)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6baf43c;
+  constexpr static std::size_t addrs = 0x6bb6fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose, ::by_ref<::UnityEngine::Pose>)>(
     &::UnityEngine::SpatialTracking::PoseDataSource::TryGetDataFromSource)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6baf644;
+  constexpr static std::size_t addrs = 0x6bb71c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SpatialTracking::PoseDataFlags (*)(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose, ::by_ref<::UnityEngine::Pose>)>(
     &::UnityEngine::SpatialTracking::PoseDataSource::GetDataFromSource)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x6baf6b8;
+  constexpr static std::size_t addrs = 0x6bb723c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

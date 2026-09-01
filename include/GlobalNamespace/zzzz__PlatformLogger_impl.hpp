@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlatformLogger.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlatformLogger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformLogger_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatformLogger_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3772e10;
+  constexpr static std::size_t addrs = 0x3778a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLogger*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::LogError)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3773a34;
+  constexpr static std::size_t addrs = 0x37796a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::LogInfo)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3773aec;
+  constexpr static std::size_t addrs = 0x3779758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLogger*>(), { "LogInfo", {}, { ::i2c::type_of<::StringW>() } })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::LogVerbose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3773ba4;
+  constexpr static std::size_t addrs = 0x3779810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::LogSensitive)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3773ba8;
+  constexpr static std::size_t addrs = 0x3779814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLogger::*)(::StringW)>(&::GlobalNamespace::PlatformLogger::LogWarning)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3773bac;
+  constexpr static std::size_t addrs = 0x3779818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

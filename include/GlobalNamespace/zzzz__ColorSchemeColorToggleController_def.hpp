@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorSchemeColorToggleController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorSchemeColorToggleController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x591c5b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591ff74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x591bcf4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x591f6b0, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_toggle, addr 0x591c5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x591ff6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
-  /// @brief Method set_color, addr 0x591bd40, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x591f6fc, size 0x8c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -78,7 +78,7 @@ public:
   ColorSchemeColorToggleController(ColorSchemeColorToggleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6810 };
 
   /// @brief Field _colorGraphics, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>> ____colorGraphics;

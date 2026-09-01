@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/DecoderFallbackBuffer.hpp"
+// IWYU pragma private; include "System\Text\DecoderFallbackBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 //  Writing Method size for method: ::System::Text::DecoderFallbackBuffer.Fallback
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::DecoderFallbackBuffer::*)()>(&::System::Text::DecoderFallbackBuffer::Reset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cc7ba0;
+  constexpr static std::size_t addrs = 0x5ccc05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::DecoderFallbackBuffer::*)()>(&::System::Text::DecoderFallbackBuffer::InternalReset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cc6440;
+  constexpr static std::size_t addrs = 0x5cca8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::DecoderFallbackBuffer*>(), { "InternalReset", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::DecoderFallbackBuffer::*)(uint8_t*, char16_t*)>(&::System::Text::DecoderFallbackBuffer::InternalInitialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc6198;
+  constexpr static std::size_t addrs = 0x5cca654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::DecoderFallbackBuffer::*)(::ArrayW<uint8_t>, uint8_t*, ::by_ref<char16_t*>)>(
     &::System::Text::DecoderFallbackBuffer::InternalFallback)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5cc7bc8;
+  constexpr static std::size_t addrs = 0x5ccc084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::DecoderFallbackBuffer::*)(::ArrayW<uint8_t>, uint8_t*)>(&::System::Text::DecoderFallbackBuffer::InternalFallback)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5cc7d28;
+  constexpr static std::size_t addrs = 0x5ccc1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::DecoderFallbackBuffer::*)(::ArrayW<uint8_t>)>(&::System::Text::DecoderFallbackBuffer::ThrowLastBytesRecursive)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x5cc7e68;
+  constexpr static std::size_t addrs = 0x5ccc324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::DecoderFallbackBuffer::*)()>(&::System::Text::DecoderFallbackBuffer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cc75c0;
+  constexpr static std::size_t addrs = 0x5ccba7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::DecoderFallbackBuffer*>(), { ".ctor", {}, {} })));

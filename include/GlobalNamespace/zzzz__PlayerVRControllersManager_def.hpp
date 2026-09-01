@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerVRControllersManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerVRControllersManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,12 +32,12 @@ public:
 
   __declspec(property(get = get_rightHandVRController)) ::UnityW<::GlobalNamespace::VRController> rightHandVRController;
 
-  /// @brief Method DisableAutoplayForAllControllers, addr 0x59e4e2c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method DisableAutoplayForAllControllers, addr 0x59ed098, size 0x48, virtual false, abstract: false, final false
   inline void DisableAutoplayForAllControllers();
 
   static inline ::GlobalNamespace::PlayerVRControllersManager* New_ctor();
 
-  /// @brief Method SetupAutoplayForAllControllers, addr 0x59e4de0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetupAutoplayForAllControllers, addr 0x59ed04c, size 0x4c, virtual false, abstract: false, final false
   inline void SetupAutoplayForAllControllers();
 
   constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__leftHandVRController() const;
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__rightHandVRController(::UnityW<::GlobalNamespace::VRController> value);
 
-  /// @brief Method .ctor, addr 0x59e4e74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ed0e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_leftHandVRController, addr 0x59e4dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandVRController, addr 0x59ed03c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_leftHandVRController();
 
-  /// @brief Method get_rightHandVRController, addr 0x59e4dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandVRController, addr 0x59ed044, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_rightHandVRController();
 
 protected:
@@ -76,7 +76,7 @@ public:
   PlayerVRControllersManager(PlayerVRControllersManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6213 };
 
   /// @brief Field _leftHandVRController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____leftHandVRController;

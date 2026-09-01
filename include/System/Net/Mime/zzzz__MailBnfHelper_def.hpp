@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Mime/MailBnfHelper.hpp"
+// IWYU pragma private; include "System\Net\Mime\MailBnfHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,25 +94,25 @@ public:
   /// @brief Field s_months, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_months, put = setStaticF_s_months)) ::ArrayW<::StringW> s_months;
 
-  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x6365b88, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x636d604, size 0x1e4, virtual false, abstract: false, final false
   static inline ::ArrayW<bool> CreateCharactersAllowedInAtoms();
 
-  /// @brief Method CreateCharactersAllowedInComments, addr 0x63661ac, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInComments, addr 0x636dc28, size 0x174, virtual false, abstract: false, final false
   static inline ::ArrayW<bool> CreateCharactersAllowedInComments();
 
-  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x6365eac, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x636d928, size 0x140, virtual false, abstract: false, final false
   static inline ::ArrayW<bool> CreateCharactersAllowedInDomainLiterals();
 
-  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x6365fec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x636da68, size 0xc4, virtual false, abstract: false, final false
   static inline ::ArrayW<bool> CreateCharactersAllowedInHeaderNames();
 
-  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x6365d6c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x636d7e8, size 0x140, virtual false, abstract: false, final false
   static inline ::ArrayW<bool> CreateCharactersAllowedInQuotedStrings();
 
-  /// @brief Method CreateCharactersAllowedInTokens, addr 0x63660b0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInTokens, addr 0x636db2c, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<bool> CreateCharactersAllowedInTokens();
 
-  /// @brief Method IsAllowedWhiteSpace, addr 0x6366320, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedWhiteSpace, addr 0x636dd9c, size 0xd4, virtual false, abstract: false, final false
   static inline bool IsAllowedWhiteSpace(char16_t c);
 
   static inline int32_t getStaticF_Ascii7bitMaxValue();
@@ -226,7 +226,7 @@ public:
   MailBnfHelper(MailBnfHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11788 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

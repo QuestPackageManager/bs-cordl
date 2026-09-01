@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Unity/UnityTlsStream.hpp"
+// IWYU pragma private; include "Mono\Unity\UnityTlsStream.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsStream_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Unity::Unit
                                                                                                ::Mono::Security::Interface::MonoTlsSettings*, ::Mono::Net::Security::MobileTlsProvider*)>(
     &::Mono::Unity::UnityTlsStream::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5fcdb38;
+  constexpr static std::size_t addrs = 0x5fd55b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsContext* (::Mono::Unity::UnityTlsStream::*)(::Mono::Net::Security::MonoSslAuthenticationOptions*)>(
     &::Mono::Unity::UnityTlsStream::CreateContext)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5fce640;
+  constexpr static std::size_t addrs = 0x5fd60bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

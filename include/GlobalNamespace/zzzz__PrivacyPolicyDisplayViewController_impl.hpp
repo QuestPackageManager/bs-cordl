@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PrivacyPolicyDisplayViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\PrivacyPolicyDisplayViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyDisplayViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyView_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyDisplayViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::PrivacyPolicyDisplayViewController::DidActivate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a15100;
+  constexpr static std::size_t addrs = 0x5a1d20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrivacyPolicyDisplayViewController*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrivacyPolicyDisplayViewController::*)()>(&::GlobalNamespace::PrivacyPolicyDisplayViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1529c;
+  constexpr static std::size_t addrs = 0x5a1d3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrivacyPolicyDisplayViewController*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/AmbiguousImplementationException.hpp"
+// IWYU pragma private; include "System\Runtime\AmbiguousImplementationException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Runtime::AmbiguousImplementationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5b1c640, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b20afc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b1c740, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b20bfc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b1c6c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b20b84, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixAttrCertChecker.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Pkix\PkixAttrCertChecker.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixAttrCertChecker_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixAttrCertChecker::*)()>(&::Org::BouncyCastle::Pkix::PkixAttrCertChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35b89a4;
+  constexpr static std::size_t addrs = 0x35bc764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixAttrCertChecker*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/CowatchViewerList.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\CowatchViewerList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__CowatchViewerList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__CowatchViewer_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::CowatchViewerList::*)(::System::IntPtr)>(&::Oculus::Platform::Models::CowatchViewerList::_ctor)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x5deae70;
+  constexpr static std::size_t addrs = 0x5def32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

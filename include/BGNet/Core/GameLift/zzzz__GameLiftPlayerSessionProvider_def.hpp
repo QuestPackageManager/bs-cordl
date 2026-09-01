@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGNet/Core/GameLift/GameLiftPlayerSessionProvider.hpp"
+// IWYU pragma private; include "BGNet\Core\GameLift\GameLiftPlayerSessionProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -191,16 +191,16 @@ public:
 
   static inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c* New_ctor();
 
-  /// @brief Method <GetAverageLatencies>b__25_0, addr 0x32bc4c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <GetAverageLatencies>b__25_0, addr 0x32c02c4, size 0x54, virtual false, abstract: false, final false
   inline bool _GetAverageLatencies_b__25_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
 
-  /// @brief Method <GetAverageLatencies>b__25_1, addr 0x32bc51c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <GetAverageLatencies>b__25_1, addr 0x32c0318, size 0x44, virtual false, abstract: false, final false
   inline ::StringW _GetAverageLatencies_b__25_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
 
-  /// @brief Method <GetAverageLatencies>b__25_2, addr 0x32bc560, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <GetAverageLatencies>b__25_2, addr 0x32c035c, size 0x64, virtual false, abstract: false, final false
   inline int64_t _GetAverageLatencies_b__25_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
 
-  /// @brief Method .ctor, addr 0x32bc4c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c02c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c* getStaticF___9();
@@ -234,7 +234,7 @@ public:
   GameLiftPlayerSessionProvider___c(GameLiftPlayerSessionProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18987 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -254,10 +254,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32bc5c4, size 0x15a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32c03c0, size 0x15a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32bdb68, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32c1964, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -293,7 +293,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse> __u__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18988 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x118 };
@@ -419,10 +419,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32bdbe8, size 0x3c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32c19e4, size 0x3c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32bdfa8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32c1da4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -440,7 +440,7 @@ public:
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerStatusData*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18989 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -481,10 +481,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32be014, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32c1e10, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32be3a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32c219c, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -503,7 +503,7 @@ public:
                                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::ValueTuple_2<::StringW, int64_t>>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18990 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -544,10 +544,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32be3a8, size 0x3b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32c21a4, size 0x3b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32be75c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32c2558, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -566,7 +566,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18991 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -607,10 +607,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32be764, size 0x344, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32c2560, size 0x344, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32beaa8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32c28a4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -628,7 +628,7 @@ public:
                                                                  ::StringW awsRegion, ::System::Runtime::CompilerServices::TaskAwaiter_1<int64_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18992 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -670,10 +670,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32beb28, size 0x9dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32c2924, size 0x9dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32bf504, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32c3300, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -697,7 +697,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Sockets::UdpReceiveResult> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18993 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -822,51 +822,51 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x32bc078, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x32bfe74, size 0x144, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetAverageLatencies, addr 0x32bba0c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method GetAverageLatencies, addr 0x32bf808, size 0x260, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* GetAverageLatencies();
 
-  /// @brief Method GetAwsGameLiftRegionEndpoint, addr 0x32bbd48, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetAwsGameLiftRegionEndpoint, addr 0x32bfb44, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW GetAwsGameLiftRegionEndpoint(::StringW awsRegion);
 
-  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x32bb8c0, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x32bf6bc, size 0x14c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*
   GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                                ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetGameLiftUdpPingBeaconEndpoint, addr 0x32bbea8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetGameLiftUdpPingBeaconEndpoint, addr 0x32bfca4, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW GetGameLiftUdpPingBeaconEndpoint(::StringW awsRegion);
 
-  /// @brief Method GetMultiplayerStatusData, addr 0x32bb5dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetMultiplayerStatusData, addr 0x32bf3d8, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GetMultiplayerStatusData();
 
-  /// @brief Method GetXPlatformAccessToken, addr 0x32bbf14, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetXPlatformAccessToken, addr 0x32bfd10, size 0x164, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
                                                                                                                   ::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
   static inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IMultiplayerStatusModel* multiplayerStatusModel);
 
-  /// @brief Method PingAllAwsGameLiftRegions, addr 0x32bb81c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PingAllAwsGameLiftRegions, addr 0x32bf618, size 0xa4, virtual false, abstract: false, final false
   inline void PingAllAwsGameLiftRegions();
 
-  /// @brief Method PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons, addr 0x32bb778, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons, addr 0x32bf574, size 0xa4, virtual false, abstract: false, final false
   inline void PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons();
 
-  /// @brief Method PingRegionAsync, addr 0x32bbc6c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method PingRegionAsync, addr 0x32bfa68, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* PingRegionAsync(::StringW awsRegion);
 
-  /// @brief Method PingRegionUsingGameLiftUdpPingBeaconAsync, addr 0x32bbdb4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method PingRegionUsingGameLiftUdpPingBeaconAsync, addr 0x32bfbb0, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>* PingRegionUsingGameLiftUdpPingBeaconAsync(::StringW awsRegion);
 
-  /// @brief Method PollUpdate, addr 0x32bb68c, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x32bf488, size 0xec, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method <PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons>b__28_0, addr 0x32bc46c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons>b__28_0, addr 0x32c0268, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>* _PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_b__28_0(::StringW region);
 
-  /// @brief Method <PingAllAwsGameLiftRegions>b__24_0, addr 0x32bc468, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <PingAllAwsGameLiftRegions>b__24_0, addr 0x32c0264, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* _PingAllAwsGameLiftRegions_b__24_0(::StringW region);
 
   constexpr bool const& __cordl_internal_get__disposeInitiated() const;
@@ -935,7 +935,7 @@ public:
 
   constexpr void __cordl_internal_set__useGameLiftUdpPingBeacons(bool value);
 
-  /// @brief Method .ctor, addr 0x32bb238, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32bf034, size 0x3a4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IMultiplayerStatusModel* multiplayerStatusModel);
 
   static inline ::ArrayW<::StringW> getStaticF__awsGameLiftRegions();
@@ -966,7 +966,7 @@ public:
   GameLiftPlayerSessionProvider(GameLiftPlayerSessionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18994 };
 
   /// @brief Field kCancelMatchmakingRequestTimeoutSeconds offset 0xffffffff size 0x4
   static constexpr int32_t kCancelMatchmakingRequestTimeoutSeconds{ static_cast<int32_t>(0x5) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeAtomicCounter32.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeAtomicCounter32.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,22 +20,22 @@ namespace Unity::Collections::LowLevel::Unsafe {
 struct CORDL_TYPE UnsafeAtomicCounter32 {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x64c616c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x64cdbe8, size 0x5c, virtual false, abstract: false, final false
   inline int32_t Add(int32_t value);
 
-  /// @brief Method AddSat, addr 0x64c6224, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddSat, addr 0x64cdca0, size 0x90, virtual false, abstract: false, final false
   inline int32_t AddSat(int32_t value, int32_t max);
 
-  /// @brief Method Reset, addr 0x64c6160, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x64cdbdc, size 0xc, virtual false, abstract: false, final false
   inline void Reset(int32_t value);
 
-  /// @brief Method Sub, addr 0x64c61c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Sub, addr 0x64cdc44, size 0x5c, virtual false, abstract: false, final false
   inline int32_t Sub(int32_t value);
 
-  /// @brief Method SubSat, addr 0x64c62b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SubSat, addr 0x64cdd30, size 0x90, virtual false, abstract: false, final false
   inline int32_t SubSat(int32_t value, int32_t min);
 
-  /// @brief Method .ctor, addr 0x64c6158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64cdbd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* ptr);
 
   // Ctor Parameters []
@@ -46,7 +46,7 @@ public:
   constexpr UnsafeAtomicCounter32(int32_t* Counter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15758 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

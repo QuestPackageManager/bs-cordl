@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissedNoteEffectSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissedNoteEffectSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,15 +52,15 @@ public:
   /// @brief Field _spawnPosZ, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__spawnPosZ, put = __cordl_internal_set__spawnPosZ)) float_t _spawnPosZ;
 
-  /// @brief Method HandleNoteWasMissed, addr 0x5986fdc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x598a97c, size 0x184, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
   static inline ::GlobalNamespace::MissedNoteEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5986f44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x598a8e4, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5986e6c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x598a80c, size 0xd8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnPosZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x5987160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598ab00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

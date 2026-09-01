@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/XPath/Operand.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\XPath\Operand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,16 +57,16 @@ public:
 
   constexpr void __cordl_internal_set__val(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x626f388, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6276e04, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW val);
 
-  /// @brief Method .ctor, addr 0x626f398, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6276e14, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(double_t val);
 
-  /// @brief Method get_ReturnType, addr 0x626f3d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x6276e50, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x626f3cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x6276e48, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
@@ -84,7 +84,7 @@ public:
   Operand(Operand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9870 };
 
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::XPath::XPathResultType ____type;

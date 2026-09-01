@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ScreenSpaceShadows.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ScreenSpaceShadows.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x68a8b70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b05ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,7 +165,7 @@ public:
   ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12928 };
 
   /// @brief Field target, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___target;
@@ -204,11 +204,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__11_0, addr 0x68a986c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__11_0, addr 0x68b12e8, size 0x88, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__11_0(::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData* data,
                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x68a9868, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b12e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows___c* getStaticF___9();
@@ -237,7 +237,7 @@ public:
   ScreenSpaceShadowsPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPass_ScreenSpaceShadows___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12929 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -272,28 +272,28 @@ public:
   /// @brief Field m_ScreenSpaceShadowmapTextureID, offset 0xd0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ScreenSpaceShadowmapTextureID, put = __cordl_internal_set_m_ScreenSpaceShadowmapTextureID)) int32_t m_ScreenSpaceShadowmapTextureID;
 
-  /// @brief Method Dispose, addr 0x68a8afc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x68b0578, size 0x14, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Execute, addr 0x68a9604, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x68b1080, size 0x210, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x68a94c4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x68b0f40, size 0x140, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData* data,
                                  ::UnityEngine::Rendering::RTHandle* target);
 
-  /// @brief Method InitPassData, addr 0x68a8cf0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x68b076c, size 0x30, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPass_ScreenSpaceShadows_PassData*> passData);
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPass* New_ctor();
 
-  /// @brief Method OnCameraSetup, addr 0x68a8b74, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x68b05f0, size 0x17c, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method RecordRenderGraph, addr 0x68a8d20, size 0x7a4, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x68b079c, size 0x7a4, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Setup, addr 0x68a8a04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x68b0480, size 0x7c, virtual false, abstract: false, final false
   inline bool Setup(::UnityEngine::Rendering::Universal::ScreenSpaceShadowsSettings* featureSettings, ::UnityEngine::Material* material);
 
   constexpr ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsSettings* const& __cordl_internal_get_m_CurrentSettings() const;
@@ -326,7 +326,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ScreenSpaceShadowmapTextureID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68a8480, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68afefc, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -344,7 +344,7 @@ public:
   ScreenSpaceShadows_ScreenSpaceShadowsPass(ScreenSpaceShadows_ScreenSpaceShadowsPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12930 };
 
   /// @brief Field m_Material, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_Material;
@@ -404,7 +404,7 @@ public:
 
   constexpr void __cordl_internal_set_shadowData(::UnityEngine::Rendering::Universal::UniversalShadowData* value);
 
-  /// @brief Method .ctor, addr 0x68aa08c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b1b08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -422,7 +422,7 @@ public:
   ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData(ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12931 };
 
   /// @brief Field pass, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass* ___pass;
@@ -456,11 +456,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__6_0, addr 0x68aa0e8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__6_0, addr 0x68b1b64, size 0x74, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__6_0(::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows_PassData* data,
                                         ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x68aa0e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b1b60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c* getStaticF___9();
@@ -489,7 +489,7 @@ public:
   ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c(ScreenSpaceShadowsPostPass_ScreenSpaceShadows___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -511,21 +511,21 @@ public:
   /// @brief Field k_CurrentActive, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_CurrentActive, put = setStaticF_k_CurrentActive)) ::UnityEngine::Rendering::RTHandle* k_CurrentActive;
 
-  /// @brief Method Configure, addr 0x68a98f4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Configure, addr 0x68b1370, size 0x68, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
-  /// @brief Method Execute, addr 0x68a9a20, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x68b149c, size 0x140, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x68a995c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x68b13d8, size 0xc4, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadows_ScreenSpaceShadowsPostPass* New_ctor();
 
-  /// @brief Method RecordRenderGraph, addr 0x68a9b60, size 0x484, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x68b15dc, size 0x484, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x68a85b0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b002c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::RTHandle* getStaticF_k_CurrentActive();
@@ -547,7 +547,7 @@ public:
   ScreenSpaceShadows_ScreenSpaceShadowsPostPass(ScreenSpaceShadows_ScreenSpaceShadowsPostPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -583,16 +583,16 @@ public:
   /// @brief Field m_Shader, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Shader, put = __cordl_internal_set_m_Shader)) ::UnityW<::UnityEngine::Shader> m_Shader;
 
-  /// @brief Method AddRenderPasses, addr 0x68a87c4, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x68b0240, size 0x240, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x68a83c0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x68afe3c, size 0xc0, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x68a8a80, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x68b04fc, size 0x7c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method LoadMaterial, addr 0x68a8664, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method LoadMaterial, addr 0x68b00e0, size 0x160, virtual false, abstract: false, final false
   inline bool LoadMaterial();
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceShadows* New_ctor();
@@ -627,7 +627,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Shader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x68a8b10, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b058c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -645,7 +645,7 @@ public:
   ScreenSpaceShadows(ScreenSpaceShadows const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12934 };
 
   /// @brief Field k_ShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_ShaderName{ u"Hidden/Universal Render Pipeline/ScreenSpaceShadows" };

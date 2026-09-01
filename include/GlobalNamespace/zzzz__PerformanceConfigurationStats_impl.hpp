@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationStats.hpp"
+// IWYU pragma private; include "GlobalNamespace\PerformanceConfigurationStats.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__BatteryStatus_impl.hpp"
 #include "UnityEngine/zzzz__NetworkReachability_impl.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceConfigurationStats_BoolStats::*)(bool)>(
     &::GlobalNamespace::PerformanceConfigurationStats_BoolStats::Update)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58ef838;
+  constexpr static std::size_t addrs = 0x58f2e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceConfigurationStats_BoolStats::*)()>(
     &::GlobalNamespace::PerformanceConfigurationStats_BoolStats::CreateLogValue)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58ef854;
+  constexpr static std::size_t addrs = 0x58f2e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceConfigurationStats_IntStats::*)(int32_t)>(
     &::GlobalNamespace::PerformanceConfigurationStats_IntStats::Update)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x58ef67c;
+  constexpr static std::size_t addrs = 0x58f2cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceConfigurationStats_IntStats::*)()>(
     &::GlobalNamespace::PerformanceConfigurationStats_IntStats::CreateLogValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x58ef904;
+  constexpr static std::size_t addrs = 0x58f2f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceConfigurationStats_FloatStats::*)(float_t)>(
     &::GlobalNamespace::PerformanceConfigurationStats_FloatStats::Update)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x58ef6f8;
+  constexpr static std::size_t addrs = 0x58f2d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceConfigurationStats_FloatStats::*)()>(
     &::GlobalNamespace::PerformanceConfigurationStats_FloatStats::CreateLogValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x58efa30;
+  constexpr static std::size_t addrs = 0x58f3060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceConfigurationStats::*)()>(&::GlobalNamespace::PerformanceConfigurationStats::Update)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x58ef4d8;
+  constexpr static std::size_t addrs = 0x58f2b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationStats*>(), { "Update", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceConfigurationStats::*)()>(&::GlobalNamespace::PerformanceConfigurationStats::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x58ef790;
+  constexpr static std::size_t addrs = 0x58f2dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationStats*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/CreatePropertyAttribute.hpp"
+// IWYU pragma private; include "Unity\Properties\CreatePropertyAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__ReadOnly_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6b9696c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9e4f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReadOnly, addr 0x6b9695c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadOnly, addr 0x6b9e4e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadOnly();
 
-  /// @brief Method set_ReadOnly, addr 0x6b96964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadOnly, addr 0x6b9e4e8, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadOnly(bool value);
 
 protected:
@@ -56,7 +56,7 @@ public:
   CreatePropertyAttribute(CreatePropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19412 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19611 };
 
   /// @brief Field <ReadOnly>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ReadOnly_k__BackingField;

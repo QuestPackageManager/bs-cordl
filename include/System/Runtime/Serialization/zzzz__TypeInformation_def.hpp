@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/TypeInformation.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\TypeInformation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool value);
 
-  /// @brief Method .ctor, addr 0x6151df8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6159874, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom);
 
-  /// @brief Method get_AssemblyString, addr 0x6159fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyString, addr 0x6161a48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyString();
 
-  /// @brief Method get_FullTypeName, addr 0x6159fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FullTypeName, addr 0x6161a40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FullTypeName();
 
 protected:
@@ -77,7 +77,7 @@ public:
   TypeInformation(TypeInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17117 };
 
   /// @brief Field fullTypeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___fullTypeName;

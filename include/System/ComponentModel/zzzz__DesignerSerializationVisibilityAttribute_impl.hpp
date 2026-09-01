@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/DesignerSerializationVisibilityAttribute.hpp"
+// IWYU pragma private; include "System\ComponentModel\DesignerSerializationVisibilityAttribute.hpp"
 #include "System/ComponentModel/zzzz__DesignerSerializationVisibility_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__DesignerSerializationVisibilityAttribute_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)(::System::ComponentModel::DesignerSerializationVisibility)>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63acd18;
+  constexpr static std::size_t addrs = 0x63b4794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::DesignerSerializationVisibilityAttribute*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::DesignerSerializationVisibility (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)()>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::get_Visibility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63acd20;
+  constexpr static std::size_t addrs = 0x63b479c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x63acd28;
+  constexpr static std::size_t addrs = 0x63b47a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DesignerSerializationVisibilityAttribute*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)()>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ace00;
+  constexpr static std::size_t addrs = 0x63b487c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DesignerSerializationVisibilityAttribute*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)()>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63ace08;
+  constexpr static std::size_t addrs = 0x63b4884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DesignerSerializationVisibilityAttribute*>(),

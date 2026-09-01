@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/ShaderPropertyIDFromPropertyAttribute.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\ShaderPropertyIDFromPropertyAttribute.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyIDFromRendererAttribute_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyIDFromPropertyAttribute_def.hpp"
 #include "BGLib/UnityExtension/zzzz__ShaderPropertyAttributeFilter_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute::*)(
     ::StringW, ::StringW, ::StringW, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType)>(&::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3326d48;
+  constexpr static std::size_t addrs = 0x332ab08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute::*)()>(
     &::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute::GetTargetName)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3326d78;
+  constexpr static std::size_t addrs = 0x332ab38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LocalizedTextAsset.hpp"
+// IWYU pragma private; include "GlobalNamespace\LocalizedTextAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_localizedText(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x58e1920, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4f58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   LocalizedTextAsset_TextInfo(LocalizedTextAsset_TextInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6548 };
 
   /// @brief Field language, offset: 0x10, size: 0x4, def value: None
   ::BGLib::Polyglot::LocalizationLanguage ___language;
@@ -124,10 +124,10 @@ public:
 
   static inline ::GlobalNamespace::LocalizedTextAsset___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58e1978, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4fb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedText>b__6_0, addr 0x58e197c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedText>b__6_0, addr 0x58e4fb4, size 0x1c, virtual false, abstract: false, final false
   inline bool _get_localizedText_b__6_0(::GlobalNamespace::LocalizedTextAsset_TextInfo* t);
 
   static inline ::GlobalNamespace::LocalizedTextAsset___c* getStaticF___9();
@@ -153,7 +153,7 @@ public:
   LocalizedTextAsset___c(LocalizedTextAsset___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6549 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,10 +179,10 @@ public:
 
   constexpr void __cordl_internal_set_language(::BGLib::Polyglot::LocalizationLanguage value);
 
-  /// @brief Method .ctor, addr 0x58e18c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4f00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedText>b__1, addr 0x58e1998, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedText>b__1, addr 0x58e4fd0, size 0x20, virtual false, abstract: false, final false
   inline bool _get_localizedText_b__1(::GlobalNamespace::LocalizedTextAsset_TextInfo* t);
 
 protected:
@@ -200,7 +200,7 @@ public:
   LocalizedTextAsset___c__DisplayClass6_0(LocalizedTextAsset___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6550 };
 
   /// @brief Field language, offset: 0x10, size: 0x4, def value: None
   ::BGLib::Polyglot::LocalizationLanguage ___language;
@@ -250,13 +250,13 @@ public:
 
   constexpr void __cordl_internal_set__textInfos(::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*> value);
 
-  /// @brief Method .ctor, addr 0x58e18cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4f04, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedText, addr 0x58e157c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method get_localizedText, addr 0x58e4bb4, size 0x34c, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
-  /// @brief Method get_textInfos, addr 0x58e1574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textInfos, addr 0x58e4bac, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*> get_textInfos();
 
 protected:
@@ -274,7 +274,7 @@ public:
   LocalizedTextAsset(LocalizedTextAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6551 };
 
   /// @brief Field _textInfos, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*> ____textInfos;

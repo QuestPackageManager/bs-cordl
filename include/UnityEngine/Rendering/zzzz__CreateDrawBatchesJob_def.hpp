@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CreateDrawBatchesJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CreateDrawBatchesJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,16 +57,16 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method EditDrawBatch, addr 0x681540c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method EditDrawBatch, addr 0x681ce88, size 0x1ac, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::DrawBatch> EditDrawBatch(::by_ref<::UnityEngine::Rendering::DrawKey> key, ::by_ref<::UnityEngine::Rendering::SubMeshDescriptor> subMeshDescriptor);
 
-  /// @brief Method EditDrawRange, addr 0x6815294, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method EditDrawRange, addr 0x681cd10, size 0x178, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::DrawRange> EditDrawRange(::by_ref<::UnityEngine::Rendering::RangeKey> key);
 
-  /// @brief Method Execute, addr 0x6815c54, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x681d6d0, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method ProcessRenderer, addr 0x68155b8, size 0x69c, virtual false, abstract: false, final false
+  /// @brief Method ProcessRenderer, addr 0x681d034, size 0x69c, virtual false, abstract: false, final false
   inline void ProcessRenderer(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -99,7 +99,7 @@ public:
                                  ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance> drawInstances) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17674 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x240 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRSimultaneousHandsAndControllersSample.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRSimultaneousHandsAndControllersSample.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,15 +34,15 @@ public:
   /// @brief Field enableButton, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_enableButton, put = __cordl_internal_set_enableButton)) ::UnityW<::UnityEngine::UI::Button> enableButton;
 
-  /// @brief Method DisableSimultaneousHandsAndControllers, addr 0x5ecd1bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DisableSimultaneousHandsAndControllers, addr 0x5ed1678, size 0x84, virtual false, abstract: false, final false
   inline void DisableSimultaneousHandsAndControllers();
 
-  /// @brief Method EnableSimultaneousHandsAndControllers, addr 0x5ecd138, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EnableSimultaneousHandsAndControllers, addr 0x5ed15f4, size 0x84, virtual false, abstract: false, final false
   inline void EnableSimultaneousHandsAndControllers();
 
   static inline ::GlobalNamespace::OVRSimultaneousHandsAndControllersSample* New_ctor();
 
-  /// @brief Method Update, addr 0x5ecd038, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ed14f4, size 0x100, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_disableButton() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_enableButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x5ecd240, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed16fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   OVRSimultaneousHandsAndControllersSample(OVRSimultaneousHandsAndControllersSample const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7702 };
 
   /// @brief Field enableButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___enableButton;

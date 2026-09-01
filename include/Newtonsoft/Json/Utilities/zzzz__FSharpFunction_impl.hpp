@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/FSharpFunction.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\FSharpFunction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__FSharpFunction_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__MethodCall_2_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpFunction::*)(
     ::System::Object*, ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpFunction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d23568;
+  constexpr static std::size_t addrs = 0x5d27a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Utilities::FSharpFunction::*)(::ArrayW<::System::Object*>)>(
     &::Newtonsoft::Json::Utilities::FSharpFunction::Invoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d23570;
+  constexpr static std::size_t addrs = 0x5d27a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

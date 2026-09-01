@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteTrailEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteTrailEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,21 +40,21 @@ public:
   /// @brief Field _particlesPerFrame, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__particlesPerFrame, put = __cordl_internal_set__particlesPerFrame)) int32_t _particlesPerFrame;
 
-  /// @brief Method Awake, addr 0x59962bc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x599e244, size 0x13c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x59965fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x599e584, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump();
 
-  /// @brief Method HandleNoteMovementDidInit, addr 0x59965f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteMovementDidInit, addr 0x599e578, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteMovementDidInit();
 
   static inline ::GlobalNamespace::NoteTrailEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59963f8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x599e380, size 0x194, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x599658c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x599e514, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__maxSpawnDistance() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__particlesPerFrame(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5996608, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599e590, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   NoteTrailEffect(NoteTrailEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5928 };
 
   /// @brief Field _particlesPerFrame, offset: 0x20, size: 0x4, def value: None
   int32_t ____particlesPerFrame;

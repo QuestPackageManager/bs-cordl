@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/SchemaNames.hpp"
+// IWYU pragma private; include "System\Xml\Schema\SchemaNames.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaNames_def.hpp"
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::SchemaNames::*)(::System::Xml::XmlNameTable*)>(&::System::Xml::Schema::SchemaNames::_ctor)> {
   constexpr static std::size_t size = 0x2cac;
-  constexpr static std::size_t addrs = 0x61fee74;
+  constexpr static std::size_t addrs = 0x62068f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::SchemaNames::*)()>(&::System::Xml::Schema::SchemaNames::CreateTokenToQNameTable)> {
   constexpr static std::size_t size = 0x1968;
-  constexpr static std::size_t addrs = 0x6201b20;
+  constexpr static std::size_t addrs = 0x620959c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::SchemaNames*>(), { "CreateTokenToQNameTable", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::SchemaType (::System::Xml::Schema::SchemaNames::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::SchemaNames::SchemaTypeFromRoot)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6203488;
+  constexpr static std::size_t addrs = 0x620af04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::SchemaNames::*)(::StringW, ::StringW)>(&::System::Xml::Schema::SchemaNames::IsXSDRoot)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x62034e8;
+  constexpr static std::size_t addrs = 0x620af64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::SchemaNames::*)(::StringW, ::StringW)>(&::System::Xml::Schema::SchemaNames::IsXDRRoot)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6203530;
+  constexpr static std::size_t addrs = 0x620afac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SliderMeshConstructorCrossedStrips.hpp"
+// IWYU pragma private; include "GlobalNamespace\SliderMeshConstructorCrossedStrips.hpp"
 #include "GlobalNamespace/zzzz__SliderMeshConstructor_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderMeshConstructorCrossedStrips_def.hpp"
 #include "GlobalNamespace/zzzz__VertexPath_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderMeshConstructorCrossedStrips::*)(::GlobalNamespace::VertexPath*, float_t, ::by_ref<::UnityEngine::Bounds>)>(
     &::GlobalNamespace::SliderMeshConstructorCrossedStrips::CreateSliderMeshInternal)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x59784a0;
+  constexpr static std::size_t addrs = 0x597be34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMeshConstructorCrossedStrips*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SliderMeshConstructorCrossedStrips::*)(::GlobalNamespace::VertexPath*)>(
     &::GlobalNamespace::SliderMeshConstructorCrossedStrips::GetVertexCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59788d0;
+  constexpr static std::size_t addrs = 0x597c264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMeshConstructorCrossedStrips*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SliderMeshConstructorCrossedStrips::*)(::GlobalNamespace::VertexPath*)>(
     &::GlobalNamespace::SliderMeshConstructorCrossedStrips::GetTrianglesCount)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59788e8;
+  constexpr static std::size_t addrs = 0x597c27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMeshConstructorCrossedStrips*>(),
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderMeshConstructorCrossedStrips::*)()>(&::GlobalNamespace::SliderMeshConstructorCrossedStrips::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5978908;
+  constexpr static std::size_t addrs = 0x597c29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMeshConstructorCrossedStrips*>(), { ".ctor", {}, {} })));

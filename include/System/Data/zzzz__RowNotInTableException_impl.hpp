@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/RowNotInTableException.hpp"
+// IWYU pragma private; include "System\Data\RowNotInTableException.hpp"
 #include "System/Data/zzzz__DataException_impl.hpp"
 #include "System/Data/zzzz__RowNotInTableException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RowNotInTableException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Data::RowNotInTableException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ffdd58;
+  constexpr static std::size_t addrs = 0x60057d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RowNotInTableException::*)()>(&::System::Data::RowNotInTableException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ffdd60;
+  constexpr static std::size_t addrs = 0x60057dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::RowNotInTableException*>(), { ".ctor", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::RowNotInTableException::*)(::StringW)>(&::System::Data::RowNotInTableException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5ffddc0;
+  constexpr static std::size_t addrs = 0x600583c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncInstallerRegistry.hpp"
+// IWYU pragma private; include "BGLib\AppFlow\Initialization\AsyncInstallerRegistry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstallerRegistry_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__IInstallerRegistry_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstallerRegistry::*)(::Zenject::IInstaller*)>(
     &::BGLib::AppFlow::Initialization::AsyncInstallerRegistry::AddInstaller)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3304a50;
+  constexpr static std::size_t addrs = 0x330884c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstallerRegistry::*)()>(&::BGLib::AppFlow::Initialization::AsyncInstallerRegistry::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3304b04;
+  constexpr static std::size_t addrs = 0x3308900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>(), { ".ctor", {}, {} })));

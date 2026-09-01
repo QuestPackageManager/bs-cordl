@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/IAvatarBehaviour.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\IAvatarBehaviour.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
   IAvatarBehaviour(IAvatarBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20876 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

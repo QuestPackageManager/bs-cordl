@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Extension.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\X509Certificates\X509Extension.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
   /// @brief Field _critical, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__critical, put = __cordl_internal_set__critical)) bool _critical;
 
-  /// @brief Method CopyFrom, addr 0x63a8c4c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x63b06c8, size 0x128, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method FormatUnkownData, addr 0x63a8b00, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FormatUnkownData, addr 0x63b057c, size 0x114, virtual false, abstract: false, final false
   inline ::StringW FormatUnkownData(::ArrayW<uint8_t> data);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Extension* New_ctor();
@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__critical(bool value);
 
-  /// @brief Method .ctor, addr 0x63a7fa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63afa1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x63a8c14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b0690, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::ArrayW<uint8_t> rawData, bool critical);
 
-  /// @brief Method get_Critical, addr 0x63a8c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Critical, addr 0x63b06b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Critical();
 
-  /// @brief Method set_Critical, addr 0x63a8c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Critical, addr 0x63b06c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Critical(bool value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   X509Extension(X509Extension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11209 };
 
   /// @brief Field _critical, offset: 0x20, size: 0x1, def value: None
   bool ____critical;

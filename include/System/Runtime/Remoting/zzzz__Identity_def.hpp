@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Identity.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Identity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,10 +77,10 @@ public:
 
   static inline ::System::Runtime::Remoting::Identity* New_ctor(::StringW objectUri);
 
-  /// @brief Method NotifyClientDynamicSinks, addr 0x5b1cc10, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NotifyClientDynamicSinks, addr 0x5b210cc, size 0x88, virtual false, abstract: false, final false
   inline void NotifyClientDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
 
-  /// @brief Method NotifyServerDynamicSinks, addr 0x5b1cc98, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NotifyServerDynamicSinks, addr 0x5b21154, size 0x88, virtual false, abstract: false, final false
   inline void NotifyServerDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* const& __cordl_internal_get__channelSink() const;
@@ -125,37 +125,37 @@ public:
 
   constexpr void __cordl_internal_set__serverDynamicProperties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
 
-  /// @brief Method .ctor, addr 0x5b1cb18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b20fd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri);
 
-  /// @brief Method get_ChannelSink, addr 0x5b1cb20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelSink, addr 0x5b20fdc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_ChannelSink();
 
-  /// @brief Method get_ClientDynamicProperties, addr 0x5b1cb68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ClientDynamicProperties, addr 0x5b21024, size 0x68, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* get_ClientDynamicProperties();
 
-  /// @brief Method get_Disposed, addr 0x5b1cb58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Disposed, addr 0x5b21014, size 0x8, virtual false, abstract: false, final false
   inline bool get_Disposed();
 
-  /// @brief Method get_EnvoySink, addr 0x5b1cb30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnvoySink, addr 0x5b20fec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySink();
 
-  /// @brief Method get_HasServerDynamicSinks, addr 0x5b1cbd0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_HasServerDynamicSinks, addr 0x5b2108c, size 0x40, virtual false, abstract: false, final false
   inline bool get_HasServerDynamicSinks();
 
-  /// @brief Method get_IsConnected, addr 0x5b1cb48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsConnected, addr 0x5b21004, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsConnected();
 
-  /// @brief Method get_ObjectUri, addr 0x5b1cb38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUri, addr 0x5b20ff4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUri();
 
-  /// @brief Method set_ChannelSink, addr 0x5b1cb28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ChannelSink, addr 0x5b20fe4, size 0x8, virtual false, abstract: false, final false
   inline void set_ChannelSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method set_Disposed, addr 0x5b1cb60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Disposed, addr 0x5b2101c, size 0x8, virtual false, abstract: false, final false
   inline void set_Disposed(bool value);
 
-  /// @brief Method set_ObjectUri, addr 0x5b1cb40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectUri, addr 0x5b20ffc, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectUri(::StringW value);
 
 protected:

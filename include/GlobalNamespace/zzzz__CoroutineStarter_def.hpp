@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CoroutineStarter.hpp"
+// IWYU pragma private; include "GlobalNamespace\CoroutineStarter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +31,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICoroutineStarter"
   constexpr operator ::GlobalNamespace::ICoroutineStarter*() noexcept;
 
-  /// @brief Method ICoroutineStarter.StartCoroutine, addr 0x331fc0c, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method ICoroutineStarter.StartCoroutine, addr 0x33239cc, size 0xe0, virtual true, abstract: false, final true
   inline ::UnityEngine::Coroutine* ICoroutineStarter_StartCoroutine(::System::Collections::IEnumerator* routine);
 
-  /// @brief Method ICoroutineStarter.StopCoroutine, addr 0x331fcec, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method ICoroutineStarter.StopCoroutine, addr 0x3323aac, size 0xd8, virtual true, abstract: false, final true
   inline void ICoroutineStarter_StopCoroutine(::UnityEngine::Coroutine* routine);
 
   static inline ::GlobalNamespace::CoroutineStarter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x331fdc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3323b84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICoroutineStarter"
@@ -60,7 +60,7 @@ public:
   CoroutineStarter(CoroutineStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20738 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

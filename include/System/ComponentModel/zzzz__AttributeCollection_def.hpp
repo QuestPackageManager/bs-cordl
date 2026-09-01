@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/AttributeCollection.hpp"
+// IWYU pragma private; include "System\ComponentModel\AttributeCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   constexpr AttributeCollection_AttributeEntry(::System::Type* type, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11239 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -130,30 +130,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Contains, addr 0x63ae87c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x63b62f8, size 0x60, virtual false, abstract: false, final false
   inline bool Contains(::System::Attribute* attribute);
 
-  /// @brief Method CopyTo, addr 0x63ae938, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x63b63b4, size 0x6c, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetDefaultAttribute, addr 0x63ae2ec, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultAttribute, addr 0x63b5d68, size 0x590, virtual false, abstract: false, final false
   inline ::System::Attribute* GetDefaultAttribute(::System::Type* attributeType);
 
-  /// @brief Method GetEnumerator, addr 0x63ae8dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x63b6358, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::ComponentModel::AttributeCollection* New_ctor(::ArrayW<::System::Attribute*> attributes);
 
-  /// @brief Method System.Collections.ICollection.get_Count, addr 0x63ae910, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x63b638c, size 0x24, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x63ae900, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x63b637c, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x63ae908, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x63b6384, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x63ae934, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x63b63b0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::ArrayW<::System::Attribute*> const& __cordl_internal_get__attributes() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x63adcfc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63b5778, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Attribute*> attributes);
 
   static inline ::System::ComponentModel::AttributeCollection* getStaticF_Empty();
@@ -183,13 +183,13 @@ public:
 
   static inline ::System::Object* getStaticF_s_internalSyncObject();
 
-  /// @brief Method get_Attributes, addr 0x63ade38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x63b58b4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Attribute*> get_Attributes();
 
-  /// @brief Method get_Count, addr 0x63ade40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x63b58bc, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x63ade64, size 0x488, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x63b58e0, size 0x488, virtual true, abstract: false, final false
   inline ::System::Attribute* get_Item(::System::Type* attributeType);
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -219,7 +219,7 @@ public:
   AttributeCollection(AttributeCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11240 };
 
   /// @brief Field _attributes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Attribute*> ____attributes;

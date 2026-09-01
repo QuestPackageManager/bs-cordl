@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Configuration/DefaultProxySection.hpp"
+// IWYU pragma private; include "System\Net\Configuration\DefaultProxySection.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_impl.hpp"
 #include "System/Net/Configuration/zzzz__DefaultProxySection_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Configuration::DefaultProxySection::*)()>(&::System::Net::Configuration::DefaultProxySection::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x636a1c0;
+  constexpr static std::size_t addrs = 0x6371c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Configuration::DefaultProxySection*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Net::Configuration::DefaultProxySection::*)()>(
     &::System::Net::Configuration::DefaultProxySection::get_Properties)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x636a1fc;
+  constexpr static std::size_t addrs = 0x6371c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Configuration::DefaultProxySection::*)(::System::Configuration::ConfigurationElement*)>(
     &::System::Net::Configuration::DefaultProxySection::Reset)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x636a238;
+  constexpr static std::size_t addrs = 0x6371cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/WaitOrTimerCallback.hpp"
+// IWYU pragma private; include "System\Threading\WaitOrTimerCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__WaitOrTimerCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitOrTimerCallback::*)(::System::Object*, ::System::IntPtr)>(&::System::Threading::WaitOrTimerCallback::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5cb018c;
+  constexpr static std::size_t addrs = 0x5cb4648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitOrTimerCallback::*)(::System::Object*, bool)>(&::System::Threading::WaitOrTimerCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cb02d4;
+  constexpr static std::size_t addrs = 0x5cb4790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

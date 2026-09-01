@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/SimpleLookupTable.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\SimpleLookupTable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ public:
   /// @brief Field points, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_points, put = __cordl_internal_set_points)) ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points;
 
-  /// @brief Method Copy, addr 0x352e900, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x35326c0, size 0x104, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> Copy(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int32_t off, int32_t len);
 
-  /// @brief Method Lookup, addr 0x352ea40, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Lookup, addr 0x3532800, size 0x4c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x352ea8c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x353284c, size 0x30, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::SimpleLookupTable* New_ctor(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int32_t off, int32_t len);
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_points(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> value);
 
-  /// @brief Method .ctor, addr 0x352ea04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35327c4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> points, int32_t off, int32_t len);
 
-  /// @brief Method get_Size, addr 0x352ea28, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x35327e8, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

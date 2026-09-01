@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CommandBufferGrabPass.hpp"
+// IWYU pragma private; include "GlobalNamespace\CommandBufferGrabPass.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGrabPass_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CommandBuffer* (::GlobalNamespace::CommandBufferGrabPass::*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::CommandBufferGrabPass::CreateCommandBuffer)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x5f3cd84;
+  constexpr static std::size_t addrs = 0x5f411f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* (
     ::GlobalNamespace::CommandBufferGrabPass::*)()>(&::GlobalNamespace::CommandBufferGrabPass::CamerasDict)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f3cfbc;
+  constexpr static std::size_t addrs = 0x5f41428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CameraEvent (::GlobalNamespace::CommandBufferGrabPass::*)()>(
     &::GlobalNamespace::CommandBufferGrabPass::CommandBufferCameraEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3d018;
+  constexpr static std::size_t addrs = 0x5f41484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandBufferGrabPass::*)()>(&::GlobalNamespace::CommandBufferGrabPass::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f3d020;
+  constexpr static std::size_t addrs = 0x5f4148c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandBufferGrabPass*>(), { ".ctor", {}, {} })));

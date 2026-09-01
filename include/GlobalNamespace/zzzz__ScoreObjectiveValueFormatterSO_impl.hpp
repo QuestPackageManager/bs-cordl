@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScoreObjectiveValueFormatterSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScoreObjectiveValueFormatterSO.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveValueFormatterSO_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreObjectiveValueFormatterSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ScoreObjectiveValueFormatterSO.FormatValue
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ScoreObjectiveValueFormatterSO::*)(int32_t)>(&::GlobalNamespace::ScoreObjectiveValueFormatterSO::FormatValue)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3750d60;
+  constexpr static std::size_t addrs = 0x3756984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScoreObjectiveValueFormatterSO::*)()>(&::GlobalNamespace::ScoreObjectiveValueFormatterSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3750db8;
+  constexpr static std::size_t addrs = 0x37569dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScoreObjectiveValueFormatterSO*>(), { ".ctor", {}, {} })));

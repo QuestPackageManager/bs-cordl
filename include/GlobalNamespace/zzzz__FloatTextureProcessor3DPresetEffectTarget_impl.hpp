@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatTextureProcessor3DPresetEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatTextureProcessor3DPresetEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatTextureProcessor3DPresetEffectTarget_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x598dbd8;
+  constexpr static std::size_t addrs = 0x5997970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x598dd0c;
+  constexpr static std::size_t addrs = 0x5997aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget::*)(float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x598dbdc;
+  constexpr static std::size_t addrs = 0x5997974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x598dd10;
+  constexpr static std::size_t addrs = 0x5997aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTextureProcessor3DPresetEffectTarget*>(), { ".ctor", {}, {} })));

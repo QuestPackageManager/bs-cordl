@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/PackingAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\PackingAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__FieldPacking_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__PackingAttribute_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::PackingAttribute::*)(
     ::ArrayW<::StringW>, ::UnityEngine::Rendering::FieldPacking, int32_t, int32_t, float_t, float_t, bool, bool, bool, ::StringW)>(&::UnityEngine::Rendering::PackingAttribute::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x679b8dc;
+  constexpr static std::size_t addrs = 0x67a3358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::PackingAttribute::*)(::StringW, ::UnityEngine::Rendering::FieldPacking, int32_t, int32_t, float_t, float_t, bool,
                                                                                                             bool, bool, ::StringW)>(&::UnityEngine::Rendering::PackingAttribute::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x679b9cc;
+  constexpr static std::size_t addrs = 0x67a3448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

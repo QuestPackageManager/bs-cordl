@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ResolveProvider.hpp"
+// IWYU pragma private; include "Zenject\ResolveProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,14 +72,14 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6e81750, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6e892d4, size 0x1a0, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::by_ref<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x6e81748, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x6e892cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetSubContext, addr 0x6e818f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSubContext, addr 0x6e89474, size 0x44, virtual false, abstract: false, final false
   inline ::Zenject::InjectContext* GetSubContext(::Zenject::InjectContext* parent);
 
   static inline ::Zenject::ResolveProvider* New_ctor(::System::Type* contractType, ::Zenject::DiContainer* container, ::System::Object* identifier, bool isOptional, ::Zenject::InjectSources source,
@@ -121,13 +121,13 @@ public:
 
   constexpr void __cordl_internal_set__source(::Zenject::InjectSources value);
 
-  /// @brief Method .ctor, addr 0x6e81720, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e892a4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* contractType, ::Zenject::DiContainer* container, ::System::Object* identifier, bool isOptional, ::Zenject::InjectSources source, bool matchAll);
 
-  /// @brief Method get_IsCached, addr 0x6e81738, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x6e892bc, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6e81740, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6e892c4, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -148,7 +148,7 @@ public:
   ResolveProvider(ResolveProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14589 };
 
   /// @brief Field _identifier, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____identifier;

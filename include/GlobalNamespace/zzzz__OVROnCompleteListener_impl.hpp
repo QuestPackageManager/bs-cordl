@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVROnCompleteListener.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVROnCompleteListener.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_impl.hpp"
 #include "GlobalNamespace/zzzz__OVROnCompleteListener_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVROnCompleteListener._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROnCompleteListener::*)()>(&::GlobalNamespace::OVROnCompleteListener::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5e6f4b8;
+  constexpr static std::size_t addrs = 0x5e73974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROnCompleteListener*>(), { ".ctor", {}, {} })));

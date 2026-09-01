@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/TrackBindingTypeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\TrackBindingTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x69c3990, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cb40c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x69c39a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cb41c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags);
 
 protected:
@@ -69,7 +69,7 @@ public:
   TrackBindingTypeAttribute(TrackBindingTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19242 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;

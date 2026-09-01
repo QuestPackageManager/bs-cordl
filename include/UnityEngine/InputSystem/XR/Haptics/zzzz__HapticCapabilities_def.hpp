@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/HapticCapabilities.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\HapticCapabilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,28 +32,28 @@ public:
 
   __declspec(property(get = get_supportsImpulse)) bool supportsImpulse;
 
-  /// @brief Method .ctor, addr 0x65848d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x658c354, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, uint32_t frequencyHz, uint32_t maxBufferSize);
 
-  /// @brief Method .ctor, addr 0x65848c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x658c33c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, bool supportsImpulse, bool supportsBuffer, uint32_t frequencyHz, uint32_t maxBufferSize, uint32_t optimalBufferSize);
 
-  /// @brief Method get_frequencyHz, addr 0x6584904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frequencyHz, addr 0x658c380, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_frequencyHz();
 
-  /// @brief Method get_maxBufferSize, addr 0x658490c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxBufferSize, addr 0x658c388, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxBufferSize();
 
-  /// @brief Method get_numChannels, addr 0x65848ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numChannels, addr 0x658c368, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_numChannels();
 
-  /// @brief Method get_optimalBufferSize, addr 0x6584914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_optimalBufferSize, addr 0x658c390, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_optimalBufferSize();
 
-  /// @brief Method get_supportsBuffer, addr 0x65848fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsBuffer, addr 0x658c378, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsBuffer();
 
-  /// @brief Method get_supportsImpulse, addr 0x65848f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsImpulse, addr 0x658c370, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsImpulse();
 
   // Ctor Parameters []
@@ -68,7 +68,7 @@ public:
                                uint32_t _maxBufferSize_k__BackingField, uint32_t _optimalBufferSize_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8833 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

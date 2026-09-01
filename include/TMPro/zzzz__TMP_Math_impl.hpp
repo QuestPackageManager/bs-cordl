@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_Math.hpp"
+// IWYU pragma private; include "TMPro\TMP_Math.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/zzzz__TMP_Math_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t)>(&::TMPro::TMP_Math::Approximately)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6941ad8;
+  constexpr static std::size_t addrs = 0x6949554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::TMPro::TMP_Math::Mod)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6941b00;
+  constexpr static std::size_t addrs = 0x694957c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

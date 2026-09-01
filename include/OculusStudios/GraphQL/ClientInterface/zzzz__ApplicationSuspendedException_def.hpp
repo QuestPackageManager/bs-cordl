@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/ClientInterface/ApplicationSuspendedException.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\ClientInterface\ApplicationSuspendedException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::OculusStudios::GraphQL::ClientInterface::ApplicationSuspendedException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x5f27da4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c264, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f27dfc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c2bc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5f27e68, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f2c328, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -53,7 +53,7 @@ public:
   ApplicationSuspendedException(ApplicationSuspendedException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

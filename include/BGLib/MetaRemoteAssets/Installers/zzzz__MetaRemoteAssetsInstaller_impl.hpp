@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/MetaRemoteAssets/Installers/MetaRemoteAssetsInstaller.hpp"
+// IWYU pragma private; include "BGLib\MetaRemoteAssets\Installers\MetaRemoteAssetsInstaller.hpp"
 #include "Zenject/zzzz__Installer_1_impl.hpp"
 #include "BGLib/MetaRemoteAssets/Installers/zzzz__MetaRemoteAssetsInstaller_def.hpp"
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)(bool)>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x33175f0;
+  constexpr static std::size_t addrs = 0x331b3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3317644;
+  constexpr static std::size_t addrs = 0x331b404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::GetPlatform)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33177f4;
+  constexpr static std::size_t addrs = 0x331b5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallRemoteCatalogLoader)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3317838;
+  constexpr static std::size_t addrs = 0x331b5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

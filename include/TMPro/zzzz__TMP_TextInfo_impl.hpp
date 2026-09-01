@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_TextInfo.hpp"
+// IWYU pragma private; include "TMPro\TMP_TextInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_CharacterInfo_impl.hpp"
 #include "TMPro/zzzz__TMP_LineInfo_impl.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x699da94;
+  constexpr static std::size_t addrs = 0x69a5510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)(int32_t)>(&::TMPro::TMP_TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x699dbc4;
+  constexpr static std::size_t addrs = 0x69a5640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x699dd00;
+  constexpr static std::size_t addrs = 0x69a577c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { ".ctor", {}, { ::i2c::type_of<::TMPro::TMP_Text*>() } })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::Clear)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x699de7c;
+  constexpr static std::size_t addrs = 0x69a58f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { "Clear", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::ClearAllData)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x699ded0;
+  constexpr static std::size_t addrs = 0x69a594c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { "ClearAllData", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)(bool)>(&::TMPro::TMP_TextInfo::ClearMeshInfo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x699e00c;
+  constexpr static std::size_t addrs = 0x69a5a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { "ClearMeshInfo", {}, { ::i2c::type_of<bool>() } })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::ClearAllMeshInfo)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x699e0c8;
+  constexpr static std::size_t addrs = 0x69a5b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { "ClearAllMeshInfo", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)(bool)>(&::TMPro::TMP_TextInfo::ResetVertexLayout)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x699e180;
+  constexpr static std::size_t addrs = 0x69a5bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { "ResetVertexLayout", {}, { ::i2c::type_of<bool>() } })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)(::ArrayW<::TMPro::MaterialReference>)>(&::TMPro::TMP_TextInfo::ClearUnusedVertices)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x699e240;
+  constexpr static std::size_t addrs = 0x69a5cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::ClearLineInfo)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x699e2f8;
+  constexpr static std::size_t addrs = 0x69a5d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { "ClearLineInfo", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::ClearPageInfo)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x699e480;
+  constexpr static std::size_t addrs = 0x69a5efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { "ClearPageInfo", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::TMPro::TMP_MeshInfo> (::TMPro::TMP_TextInfo::*)()>(&::TMPro::TMP_TextInfo::CopyMeshInfoVertexData)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x699e51c;
+  constexpr static std::size_t addrs = 0x69a5f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_TextInfo*>(), { "CopyMeshInfoVertexData", {}, {} })));

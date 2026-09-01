@@ -1,11 +1,11 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomPrePassRendererFeature.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomPrePassRendererFeature.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Rendering/Universal/zzzz__RenderPassEvent_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRendererFeature_def.hpp"
-#include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRenderPass_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRendererFeature_def.hpp"
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle::*)()>(
     &::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5863dfc;
+  constexpr static std::size_t addrs = 0x5862de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle*>(), { ".ctor", {}, {} })));
@@ -50,127 +50,108 @@ inline ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle* GlobalNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle::BloomPrePassRendererFeature_IterationHandle() {}
-template <typename T> constexpr ::System::Action_1<T>*& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::__cordl_internal_get_onLoadFinished() {
+template <typename T> constexpr ::System::Action_1<T>*& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_get_onLoadFinished() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onLoadFinished;
 }
-template <typename T> constexpr ::System::Action_1<T>* const& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::__cordl_internal_get_onLoadFinished() const {
+template <typename T> constexpr ::System::Action_1<T>* const& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_get_onLoadFinished() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onLoadFinished;
 }
-template <typename T> constexpr void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::__cordl_internal_set_onLoadFinished(::System::Action_1<T>* value) {
+template <typename T> constexpr void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_set_onLoadFinished(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onLoadFinished = value;
 }
-template <typename T> inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::_ctor() {
+template <typename T> inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::_LoadAssetAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> handle) {
+inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::_LoadAssetAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> handle) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>*>(),
                                                            { "<LoadAssetAsync>b__0", {}, { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, handle);
 }
-template <typename T> inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>* GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>*>());
+template <typename T> inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>* GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::BloomPrePassRendererFeature___c__DisplayClass11_0_1() {}
-//  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0._ctor
+template <typename T> constexpr ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::BloomPrePassRendererFeature___c__DisplayClass10_0_1() {}
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::*)()>(
-    &::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::*)()>(
+    &::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5863b48;
+  constexpr static std::size_t addrs = 0x5862bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0._Create_b__0
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0._Create_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::*)(::GlobalNamespace::BloomFogSO*)>(
-    &::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::_Create_b__0)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5863e00;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::*)(::GlobalNamespace::BloomPrePassEffectSO*)>(
+    &::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::_Create_b__0)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5862dec;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*>(),
-                                                                                           { "<Create>b__0", {}, { ::i2c::type_of<::GlobalNamespace::BloomFogSO*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0*>(),
+                                                                                           { "<Create>b__0", {}, { ::i2c::type_of<::GlobalNamespace::BloomPrePassEffectSO*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0._Create_b__1
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::*)(::GlobalNamespace::BloomPrePassEffectSO*)>(
-    &::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::_Create_b__1)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5863e7c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*>(),
-                                                                                           { "<Create>b__1", {}, { ::i2c::type_of<::GlobalNamespace::BloomPrePassEffectSO*>() } })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Guid& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::__cordl_internal_get_currentGuid() {
+constexpr ::System::Guid& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::__cordl_internal_get_currentGuid() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentGuid;
 }
-constexpr ::System::Guid const& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::__cordl_internal_get_currentGuid() const {
+constexpr ::System::Guid const& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::__cordl_internal_get_currentGuid() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentGuid;
 }
-constexpr void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::__cordl_internal_set_currentGuid(::System::Guid value) {
+constexpr void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::__cordl_internal_set_currentGuid(::System::Guid value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentGuid = value;
 }
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererFeature>& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererFeature>& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererFeature> const& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererFeature> const& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::BloomPrePassRendererFeature> value) {
+constexpr void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::BloomPrePassRendererFeature> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::_ctor() {
+inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::_Create_b__0(::GlobalNamespace::BloomFogSO* bloomFog) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*>(),
-                                                                                         { "<Create>b__0", {}, { ::i2c::type_of<::GlobalNamespace::BloomFogSO*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, bloomFog);
-}
-inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::_Create_b__1(::GlobalNamespace::BloomPrePassEffectSO* effectOverride) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*>(),
-                                                                                         { "<Create>b__1", {}, { ::i2c::type_of<::GlobalNamespace::BloomPrePassEffectSO*>() } })));
+inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::_Create_b__0(::GlobalNamespace::BloomPrePassEffectSO* effectOverride) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0*>(),
+                                                                                         { "<Create>b__0", {}, { ::i2c::type_of<::GlobalNamespace::BloomPrePassEffectSO*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, effectOverride);
 }
-inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0* GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*>());
+inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0* GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::BloomPrePassRendererFeature___c__DisplayClass7_0() {}
+constexpr ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass6_0::BloomPrePassRendererFeature___c__DisplayClass6_0() {}
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererFeature.Create
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature::*)()>(&::GlobalNamespace::BloomPrePassRendererFeature::Create)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5863940;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x5862a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::BloomPrePassRendererFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5863d18;
+  constexpr static std::size_t addrs = 0x5862d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BloomPrePass> (*)(::UnityEngine::Camera*)>(&::GlobalNamespace::BloomPrePassRendererFeature::ResolveBloomPrePass)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5863d40;
+  constexpr static std::size_t addrs = 0x5862d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature::*)(bool)>(&::GlobalNamespace::BloomPrePassRendererFeature::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5863d94;
+  constexpr static std::size_t addrs = 0x5862d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,8 +203,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature::*)()>(&::GlobalNamespace::BloomPrePassRendererFeature::ReleaseHandles)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5863b4c;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5862bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature*>(), { "ReleaseHandles", {}, {} })));
@@ -235,24 +216,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature::*)()>(&::GlobalNamespace::BloomPrePassRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5863d9c;
+  constexpr static std::size_t addrs = 0x5862d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BloomFogSO>>*& GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__bloomFogRef() {
+constexpr ::UnityEngine::Rendering::Universal::RenderPassEvent& GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__renderPassEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomFogRef;
+  return this->____renderPassEvent;
 }
-constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BloomFogSO>>* const& GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__bloomFogRef() const {
+constexpr ::UnityEngine::Rendering::Universal::RenderPassEvent const& GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__renderPassEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomFogRef;
+  return this->____renderPassEvent;
 }
-constexpr void GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_set__bloomFogRef(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BloomFogSO>>* value) {
+constexpr void GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_set__renderPassEvent(::UnityEngine::Rendering::Universal::RenderPassEvent value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____bloomFogRef = value;
+  this->____renderPassEvent = value;
 }
 constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>>*&
 GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__effectOverrideRef() {
@@ -268,36 +249,6 @@ constexpr void
 GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_set__effectOverrideRef(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____effectOverrideRef = value;
-}
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomFogSO>>&
-GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__bloomFogLoadHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomFogLoadHandle;
-}
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomFogSO>> const&
-GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__bloomFogLoadHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomFogLoadHandle;
-}
-constexpr void GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_set__bloomFogLoadHandle(
-    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomFogSO>> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____bloomFogLoadHandle = value;
-}
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>>&
-GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__effectOverrideLoadHandle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____effectOverrideLoadHandle;
-}
-constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>> const&
-GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__effectOverrideLoadHandle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____effectOverrideLoadHandle;
-}
-constexpr void GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_set__effectOverrideLoadHandle(
-    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____effectOverrideLoadHandle = value;
 }
 constexpr ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle*& GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__iterationHandle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -322,6 +273,21 @@ constexpr ::GlobalNamespace::BloomPrePassRenderPass* const& GlobalNamespace::Blo
 constexpr void GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_set__pass(::GlobalNamespace::BloomPrePassRenderPass* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pass = value;
+}
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>>&
+GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__effectOverrideLoadHandle() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____effectOverrideLoadHandle;
+}
+constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>> const&
+GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_get__effectOverrideLoadHandle() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____effectOverrideLoadHandle;
+}
+constexpr void GlobalNamespace::BloomPrePassRendererFeature::__cordl_internal_set__effectOverrideLoadHandle(
+    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomPrePassEffectSO>> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____effectOverrideLoadHandle = value;
 }
 inline void GlobalNamespace::BloomPrePassRendererFeature::Create() {
   auto* ___internal_method =

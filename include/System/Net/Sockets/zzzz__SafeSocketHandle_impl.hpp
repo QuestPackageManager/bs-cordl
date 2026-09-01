@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Sockets/SafeSocketHandle.hpp"
+// IWYU pragma private; include "System\Net\Sockets\SafeSocketHandle.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleMinusOneIsInvalid_impl.hpp"
 #include "System/Net/Sockets/zzzz__SafeSocketHandle_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SafeSocketHandle::*)(::System::IntPtr, bool)>(&::System::Net::Sockets::SafeSocketHandle::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x636491c;
+  constexpr static std::size_t addrs = 0x636c398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SafeSocketHandle::*)()>(&::System::Net::Sockets::SafeSocketHandle::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6364a14;
+  constexpr static std::size_t addrs = 0x636c490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SafeSocketHandle*>(), { ".ctor", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Sockets::SafeSocketHandle::*)()>(&::System::Net::Sockets::SafeSocketHandle::ReleaseHandle)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x6364a6c;
+  constexpr static std::size_t addrs = 0x636c4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SafeSocketHandle::*)()>(&::System::Net::Sockets::SafeSocketHandle::RegisterForBlockingSyscall)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6364f78;
+  constexpr static std::size_t addrs = 0x636c9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SafeSocketHandle*>(), { "RegisterForBlockingSyscall", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SafeSocketHandle::*)()>(&::System::Net::Sockets::SafeSocketHandle::UnRegisterForBlockingSyscall)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x63650e0;
+  constexpr static std::size_t addrs = 0x636cb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SafeSocketHandle*>(), { "UnRegisterForBlockingSyscall", {}, {} })));

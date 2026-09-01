@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRScene.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRScene.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRScene_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSemanticLabels_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (*)(::StringW)>(&::GlobalNamespace::OVRScene::RequestSpaceSetup)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5e13bd8;
+  constexpr static std::size_t addrs = 0x5e18094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (*)()>(&::GlobalNamespace::OVRScene::RequestSpaceSetup)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5e13cdc;
+  constexpr static std::size_t addrs = 0x5e18198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScene*>(), { "RequestSpaceSetup", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSemanticLabels_Classification>*)>(
     &::GlobalNamespace::OVRScene::RequestSpaceSetup)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e13de4;
+  constexpr static std::size_t addrs = 0x5e182a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::StringW>*, ::StringW)>(&::GlobalNamespace::OVRScene::ValidateRequestString)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x5e13e40;
+  constexpr static std::size_t addrs = 0x5e182fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

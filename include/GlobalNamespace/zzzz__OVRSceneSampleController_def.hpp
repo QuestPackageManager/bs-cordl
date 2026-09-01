@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRSceneSampleController.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRSceneSampleController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,24 +58,24 @@ public:
   /// @brief Field visionMode, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_visionMode, put = __cordl_internal_set_visionMode)) bool visionMode;
 
-  /// @brief Method Awake, addr 0x5f0891c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5f0cdd8, size 0x1cc, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRSceneSampleController* New_ctor();
 
-  /// @brief Method Start, addr 0x5f08ae8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5f0cfa4, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5f08c10, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5f0d0cc, size 0x174, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateRecenterPose, addr 0x5f08d84, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdateRecenterPose, addr 0x5f0d240, size 0xd8, virtual false, abstract: false, final false
   inline void UpdateRecenterPose();
 
-  /// @brief Method UpdateSpeedAndRotationScaleMultiplier, addr 0x5f08f4c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpeedAndRotationScaleMultiplier, addr 0x5f0d408, size 0x118, virtual false, abstract: false, final false
   inline void UpdateSpeedAndRotationScaleMultiplier();
 
-  /// @brief Method UpdateVisionMode, addr 0x5f08e5c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisionMode, addr 0x5f0d318, size 0xf0, virtual false, abstract: false, final false
   inline void UpdateVisionMode();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraController() const;
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_visionMode(bool value);
 
-  /// @brief Method .ctor, addr 0x5f09064, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f0d520, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,7 +144,7 @@ public:
   OVRSceneSampleController(OVRSceneSampleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7978 };
 
   /// @brief Field quitKey, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ___quitKey;

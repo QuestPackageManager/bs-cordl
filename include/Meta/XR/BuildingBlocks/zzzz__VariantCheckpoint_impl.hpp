@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/BuildingBlocks/VariantCheckpoint.hpp"
+// IWYU pragma private; include "Meta\XR\BuildingBlocks\VariantCheckpoint.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/BuildingBlocks/zzzz__VariantCheckpoint_def.hpp"
 //  Writing Method size for method: ::Meta::XR::BuildingBlocks::VariantCheckpoint.get_MemberName
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::BuildingBlocks::VariantCheckpoint::*)()>(&::Meta::XR::BuildingBlocks::VariantCheckpoint::get_MemberName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a37f98;
+  constexpr static std::size_t addrs = 0x5a3c454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::VariantCheckpoint*>(), { "get_MemberName", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::BuildingBlocks::VariantCheckpoint::*)()>(&::Meta::XR::BuildingBlocks::VariantCheckpoint::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a37fa0;
+  constexpr static std::size_t addrs = 0x5a3c45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::BuildingBlocks::VariantCheckpoint*>(), { "get_Value", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::BuildingBlocks::VariantCheckpoint::*)(::StringW, ::StringW)>(&::Meta::XR::BuildingBlocks::VariantCheckpoint::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5a37fa8;
+  constexpr static std::size_t addrs = 0x5a3c464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

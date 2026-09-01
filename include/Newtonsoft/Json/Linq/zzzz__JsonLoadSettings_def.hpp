@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonLoadSettings.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonLoadSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,25 +67,25 @@ public:
 
   constexpr void __cordl_internal_set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
-  /// @brief Method .ctor, addr 0x5d768cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7ad88, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CommentHandling, addr 0x5d768e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CommentHandling, addr 0x5d7ad9c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();
 
-  /// @brief Method get_DuplicatePropertyNameHandling, addr 0x5d769a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DuplicatePropertyNameHandling, addr 0x5d7ae64, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling get_DuplicatePropertyNameHandling();
 
-  /// @brief Method get_LineInfoHandling, addr 0x5d76944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineInfoHandling, addr 0x5d7ae00, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::LineInfoHandling get_LineInfoHandling();
 
-  /// @brief Method set_CommentHandling, addr 0x5d768e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_CommentHandling, addr 0x5d7ada4, size 0x5c, virtual false, abstract: false, final false
   inline void set_CommentHandling(::Newtonsoft::Json::Linq::CommentHandling value);
 
-  /// @brief Method set_DuplicatePropertyNameHandling, addr 0x5d769b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_DuplicatePropertyNameHandling, addr 0x5d7ae6c, size 0x5c, virtual false, abstract: false, final false
   inline void set_DuplicatePropertyNameHandling(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling value);
 
-  /// @brief Method set_LineInfoHandling, addr 0x5d7694c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_LineInfoHandling, addr 0x5d7ae08, size 0x5c, virtual false, abstract: false, final false
   inline void set_LineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   JsonLoadSettings(JsonLoadSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13603 };
 
   /// @brief Field _commentHandling, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::CommentHandling ____commentHandling;

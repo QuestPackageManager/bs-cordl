@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/CollectionVirtualizationController.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\CollectionVirtualizationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
-  /// @brief Method .ctor, addr 0x6c4d650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c551d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
   /// @brief Method get_activeItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

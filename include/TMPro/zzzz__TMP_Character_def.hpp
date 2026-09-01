@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_Character.hpp"
+// IWYU pragma private; include "TMPro\TMP_Character.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,16 +34,16 @@ public:
 
   static inline ::TMPro::TMP_Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x6942514, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6949f90, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6942554, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6949fd0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x6942528, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6949fa4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x6942580, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6949ffc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
 protected:
@@ -61,7 +61,7 @@ public:
   TMP_Character(TMP_Character const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15884 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

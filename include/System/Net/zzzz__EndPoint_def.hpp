@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/EndPoint.hpp"
+// IWYU pragma private; include "System\Net\EndPoint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_AddressFamily)) ::System::Net::Sockets::AddressFamily AddressFamily;
 
-  /// @brief Method Create, addr 0x6404184, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x640bc00, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
 
   static inline ::System::Net::EndPoint* New_ctor();
 
-  /// @brief Method Serialize, addr 0x64040dc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x640bb58, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::SocketAddress* Serialize();
 
-  /// @brief Method .ctor, addr 0x64041a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x640bc24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressFamily, addr 0x6404034, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_AddressFamily, addr 0x640bab0, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
 
 protected:
@@ -56,7 +56,7 @@ public:
   EndPoint(EndPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11485 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

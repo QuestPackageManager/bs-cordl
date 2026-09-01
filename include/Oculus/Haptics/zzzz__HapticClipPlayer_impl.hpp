@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Haptics/HapticClipPlayer.hpp"
+// IWYU pragma private; include "Oculus\Haptics\HapticClipPlayer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Haptics/zzzz__HapticClipPlayer_def.hpp"
 #include "Oculus/Haptics/zzzz__Controller_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5dabd1c;
+  constexpr static std::size_t addrs = 0x5db01d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)(::Oculus::Haptics::HapticClip*)>(&::Oculus::Haptics::HapticClipPlayer::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5dabd94;
+  constexpr static std::size_t addrs = 0x5db0250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::SetHaptics)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dabe68;
+  constexpr static std::size_t addrs = 0x5db0324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)(::Oculus::Haptics::Controller)>(&::Oculus::Haptics::HapticClipPlayer::Play)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5dabf28;
+  constexpr static std::size_t addrs = 0x5db03e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::Pause)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dac048;
+  constexpr static std::size_t addrs = 0x5db0504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { "Pause", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::Resume)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dac154;
+  constexpr static std::size_t addrs = 0x5db0610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { "Resume", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::Stop)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dac260;
+  constexpr static std::size_t addrs = 0x5db071c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { "Stop", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)(float_t)>(&::Oculus::Haptics::HapticClipPlayer::Seek)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dac36c;
+  constexpr static std::size_t addrs = 0x5db0828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { "Seek", {}, { ::i2c::type_of<float_t>() } })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::get_isLooping)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dac520;
+  constexpr static std::size_t addrs = 0x5db09dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { "get_isLooping", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)(bool)>(&::Oculus::Haptics::HapticClipPlayer::set_isLooping)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5dac5d8;
+  constexpr static std::size_t addrs = 0x5db0a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::get_clipDuration)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dac690;
+  constexpr static std::size_t addrs = 0x5db0b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { "get_clipDuration", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::get_amplitude)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dac748;
+  constexpr static std::size_t addrs = 0x5db0c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { "get_amplitude", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)(float_t)>(&::Oculus::Haptics::HapticClipPlayer::set_amplitude)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dac804;
+  constexpr static std::size_t addrs = 0x5db0cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::get_frequencyShift)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dac960;
+  constexpr static std::size_t addrs = 0x5db0e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { "get_frequencyShift", {}, {} })));
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)(float_t)>(&::Oculus::Haptics::HapticClipPlayer::set_frequencyShift)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5daca18;
+  constexpr static std::size_t addrs = 0x5db0ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::get_priority)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dacb74;
+  constexpr static std::size_t addrs = 0x5db1030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { "get_priority", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)(uint32_t)>(&::Oculus::Haptics::HapticClipPlayer::set_priority)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5dacc44;
+  constexpr static std::size_t addrs = 0x5db1100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)(::Oculus::Haptics::HapticClip*)>(&::Oculus::Haptics::HapticClipPlayer::set_clip)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dabdfc;
+  constexpr static std::size_t addrs = 0x5db02b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5dacf54;
+  constexpr static std::size_t addrs = 0x5db1410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticClipPlayer*>(), { "Dispose", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)(bool)>(&::Oculus::Haptics::HapticClipPlayer::Dispose)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5dacfc4;
+  constexpr static std::size_t addrs = 0x5db1480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticClipPlayer::*)()>(&::Oculus::Haptics::HapticClipPlayer::Finalize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5dad09c;
+  constexpr static std::size_t addrs = 0x5db1558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

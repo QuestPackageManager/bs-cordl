@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/RewindableAllocator.hpp"
+// IWYU pragma private; include "Unity\Collections\RewindableAllocator.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::RewindableAllocator_Union::*)()>(&::Unity::Collections::RewindableAllocator_Union::get_m_current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64bffa8;
+  constexpr static std::size_t addrs = 0x64c7a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator_Union>(), { "get_m_current", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator_Union::*)(int64_t)>(&::Unity::Collections::RewindableAllocator_Union::set_m_current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64bffb4;
+  constexpr static std::size_t addrs = 0x64c7a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::RewindableAllocator_Union::*)()>(&::Unity::Collections::RewindableAllocator_Union::get_m_allocCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64bffc4;
+  constexpr static std::size_t addrs = 0x64c7a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator_Union>(), { "get_m_allocCount", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator_Union::*)(int64_t)>(&::Unity::Collections::RewindableAllocator_Union::set_m_allocCount)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64bffd0;
+  constexpr static std::size_t addrs = 0x64c7a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator_MemoryBlock::*)(int64_t)>(&::Unity::Collections::RewindableAllocator_MemoryBlock::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x64bf69c;
+  constexpr static std::size_t addrs = 0x64c7118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator_MemoryBlock::*)()>(&::Unity::Collections::RewindableAllocator_MemoryBlock::Rewind)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64bf940;
+  constexpr static std::size_t addrs = 0x64c73bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator_MemoryBlock>(), { "Rewind", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator_MemoryBlock::*)()>(&::Unity::Collections::RewindableAllocator_MemoryBlock::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64bf8e4;
+  constexpr static std::size_t addrs = 0x64c7360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator_MemoryBlock>(), { "Dispose", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::RewindableAllocator_MemoryBlock::*)(::System::IntPtr)>(
     &::Unity::Collections::RewindableAllocator_MemoryBlock::Contains)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64bfea8;
+  constexpr static std::size_t addrs = 0x64c7924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64bffe0;
+  constexpr static std::size_t addrs = 0x64c7a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(
     ::System::IntPtr, ::by_ref<::Unity::Collections::AllocatorManager_Block>)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64c004c;
+  constexpr static std::size_t addrs = 0x64c7ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>(),
@@ -213,7 +213,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(::System::IntPtr, ::by_ref<::Unity::Collections::AllocatorManager_Block>, ::System::AsyncCallback*,
                                                                                     ::System::Object*)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x64c0060;
+  constexpr static std::size_t addrs = 0x64c7adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>(),
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
     &::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64c0108;
+  constexpr static std::size_t addrs = 0x64c7b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator_Try_000009DE$PostfixBurstDelegate*>(),
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(&::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x64c012c;
+  constexpr static std::size_t addrs = 0x64c7ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall*>(),
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64c0238;
+  constexpr static std::size_t addrs = 0x64c7cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Collections::AllocatorManager_Block>)>(
     &::Unity::Collections::RewindableAllocator_Try_000009DE$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x64bfed4;
+  constexpr static std::size_t addrs = 0x64c7950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator::*)(int32_t, bool)>(&::Unity::Collections::RewindableAllocator::Initialize)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64bf5b8;
+  constexpr static std::size_t addrs = 0x64c7034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +349,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_EnableBlockFree)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64bf6dc;
+  constexpr static std::size_t addrs = 0x64c7158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_EnableBlockFree", {}, {} })));
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator::*)(bool)>(&::Unity::Collections::RewindableAllocator::set_EnableBlockFree)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64bf6ec;
+  constexpr static std::size_t addrs = 0x64c7168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_BlocksAllocated)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64bf6f4;
+  constexpr static std::size_t addrs = 0x64c7170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_BlocksAllocated", {}, {} })));
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_InitialSizeInBytes)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64bf700;
+  constexpr static std::size_t addrs = 0x64c717c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_InitialSizeInBytes", {}, {} })));
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_MaxMemoryBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64bf748;
+  constexpr static std::size_t addrs = 0x64c71c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_MaxMemoryBlockSize", {}, {} })));
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_BytesAllocated)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x64bf750;
+  constexpr static std::size_t addrs = 0x64c71cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_BytesAllocated", {}, {} })));
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::Rewind)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x64bf7cc;
+  constexpr static std::size_t addrs = 0x64c7248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "Rewind", {}, {} })));
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::Dispose)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x64bf948;
+  constexpr static std::size_t addrs = 0x64c73c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "Dispose", {}, {} })));
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::AllocatorManager_TryFunction* (::Unity::Collections::RewindableAllocator::*)()>(
     &::Unity::Collections::RewindableAllocator::get_Function)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x64bfa38;
+  constexpr static std::size_t addrs = 0x64c74b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_Function", {}, {} })));
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)(::by_ref<::Unity::Collections::AllocatorManager_Block>, int32_t, int32_t, int64_t,
                                                                                                               int64_t)>(&::Unity::Collections::RewindableAllocator::TryAllocate)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x64bfab0;
+  constexpr static std::size_t addrs = 0x64c752c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(),
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::RewindableAllocator::*)(::by_ref<::Unity::Collections::AllocatorManager_Block>)>(
     &::Unity::Collections::RewindableAllocator::Try)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x64bfc24;
+  constexpr static std::size_t addrs = 0x64c76a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -491,7 +491,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Collections::AllocatorManager_Block>)>(&::Unity::Collections::RewindableAllocator::Try)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64bf5b4;
+  constexpr static std::size_t addrs = 0x64c7030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::AllocatorManager_AllocatorHandle (::Unity::Collections::RewindableAllocator::*)()>(
     &::Unity::Collections::RewindableAllocator::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64bff74;
+  constexpr static std::size_t addrs = 0x64c79f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_Handle", {}, {} })));
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::RewindableAllocator::*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::RewindableAllocator::set_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64bff7c;
+  constexpr static std::size_t addrs = 0x64c79f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(),
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Allocator (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_ToAllocator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64bff84;
+  constexpr static std::size_t addrs = 0x64c7a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_ToAllocator", {}, {} })));
@@ -544,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_IsCustomAllocator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64bff8c;
+  constexpr static std::size_t addrs = 0x64c7a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_IsCustomAllocator", {}, {} })));
@@ -556,7 +556,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::RewindableAllocator::*)()>(&::Unity::Collections::RewindableAllocator::get_IsAutoDispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64bff9c;
+  constexpr static std::size_t addrs = 0x64c7a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::RewindableAllocator>(), { "get_IsAutoDispose", {}, {} })));
@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Collections::AllocatorManager_Block>)>(
     &::Unity::Collections::RewindableAllocator::Try$BurstManaged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64bffa4;
+  constexpr static std::size_t addrs = 0x64c7a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

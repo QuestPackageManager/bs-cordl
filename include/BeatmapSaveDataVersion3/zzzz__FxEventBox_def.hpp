@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/FxEventBox.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\FxEventBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,24 +98,24 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
 
-  /// @brief Method .ctor, addr 0x37594f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375f164, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
                     float_t vfxDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType vfxDistributionParamType, ::BeatmapSaveDataCommon::EaseType vfxDistributionEaseType,
                     bool vfxDistributionShouldAffectFirstBaseEvent, ::System::Collections::Generic::List_1<int32_t>* effectsBaseDataList);
 
-  /// @brief Method get_vfxBaseDataList, addr 0x37594f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vfxBaseDataList, addr 0x375f15c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<int32_t>* get_vfxBaseDataList();
 
-  /// @brief Method get_vfxDistributionEaseType, addr 0x37594d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vfxDistributionEaseType, addr 0x375f144, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_vfxDistributionEaseType();
 
-  /// @brief Method get_vfxDistributionParam, addr 0x37594c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vfxDistributionParam, addr 0x375f134, size 0x8, virtual false, abstract: false, final false
   inline float_t get_vfxDistributionParam();
 
-  /// @brief Method get_vfxDistributionParamType, addr 0x37594d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vfxDistributionParamType, addr 0x375f13c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_vfxDistributionParamType();
 
-  /// @brief Method get_vfxDistributionShouldAffectFirstBaseEvent, addr 0x37594e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_vfxDistributionShouldAffectFirstBaseEvent, addr 0x375f14c, size 0x10, virtual false, abstract: false, final false
   inline bool get_vfxDistributionShouldAffectFirstBaseEvent();
 
 protected:
@@ -133,7 +133,7 @@ public:
   FxEventBox(FxEventBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15358 };
 
   /// @brief Field l, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___l;

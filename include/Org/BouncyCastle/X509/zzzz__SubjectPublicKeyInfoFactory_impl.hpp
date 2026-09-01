@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/SubjectPublicKeyInfoFactory.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\SubjectPublicKeyInfoFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__SubjectPublicKeyInfoFactory_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectPublicKeyInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory::*)()>(&::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36415f0;
+  constexpr static std::size_t addrs = 0x36453b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* (*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory::CreateSubjectPublicKeyInfo)> {
   constexpr static std::size_t size = 0xdf0;
-  constexpr static std::size_t addrs = 0x36415f4;
+  constexpr static std::size_t addrs = 0x36453b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory::ExtractBytes)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x36424f8;
+  constexpr static std::size_t addrs = 0x36462b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, int32_t, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory::ExtractBytes)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x36423e4;
+  constexpr static std::size_t addrs = 0x36461a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/NamespaceListV1Compat.hpp"
+// IWYU pragma private; include "System\Xml\Schema\NamespaceListV1Compat.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceList_impl.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceListV1Compat_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::NamespaceListV1Compat._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::NamespaceListV1Compat::*)(::StringW, ::StringW)>(&::System::Xml::Schema::NamespaceListV1Compat::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61d7c88;
+  constexpr static std::size_t addrs = 0x61df704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::NamespaceListV1Compat::*)(::StringW)>(&::System::Xml::Schema::NamespaceListV1Compat::Allows)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x61d7c8c;
+  constexpr static std::size_t addrs = 0x61df708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

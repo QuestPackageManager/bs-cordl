@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Resources/ResourceLocator.hpp"
+// IWYU pragma private; include "System\Resources\ResourceLocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,19 +30,19 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value)) ::System::Object* Value;
 
-  /// @brief Method CanCache, addr 0x5b70620, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanCache, addr 0x5b74adc, size 0xc, virtual false, abstract: false, final false
   static inline bool CanCache(::System::Resources::ResourceTypeCode value);
 
-  /// @brief Method .ctor, addr 0x5b7062c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b74ae8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataPos, ::System::Object* value);
 
-  /// @brief Method get_DataPosition, addr 0x5b75a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataPosition, addr 0x5b79f08, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Value, addr 0x5b75a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5b79f10, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x5b75a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5b79f18, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
   // Ctor Parameters []

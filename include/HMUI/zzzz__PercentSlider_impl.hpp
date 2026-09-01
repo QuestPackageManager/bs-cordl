@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/PercentSlider.hpp"
+// IWYU pragma private; include "HMUI\PercentSlider.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_impl.hpp"
 #include "HMUI/zzzz__PercentSlider_def.hpp"
 //  Writing Method size for method: ::HMUI::PercentSlider.TextForValue
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::HMUI::PercentSlider::*)(float_t)>(&::HMUI::PercentSlider::TextForValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x587e830;
+  constexpr static std::size_t addrs = 0x587e178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::PercentSlider*>(), { ::i2c::class_of<::HMUI::PercentSlider*>(), 55 }));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::PercentSlider::*)()>(&::HMUI::PercentSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x587e8d8;
+  constexpr static std::size_t addrs = 0x587e220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::PercentSlider*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Base64Encoder.hpp"
+// IWYU pragma private; include "System\Xml\Base64Encoder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
   /// @brief Field leftOverBytesCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_leftOverBytesCount, put = __cordl_internal_set_leftOverBytesCount)) int32_t leftOverBytesCount;
 
-  /// @brief Method Encode, addr 0x618ace4, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x6192760, size 0x348, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Flush, addr 0x618b02c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x6192aa8, size 0xac, virtual false, abstract: false, final false
   inline void Flush();
 
   static inline ::System::Xml::Base64Encoder* New_ctor();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_leftOverBytesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x618ac90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x619270c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   Base64Encoder(Base64Encoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9243 };
 
   /// @brief Field leftOverBytes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t> ___leftOverBytes;

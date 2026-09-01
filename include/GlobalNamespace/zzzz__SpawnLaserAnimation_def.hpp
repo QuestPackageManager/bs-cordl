@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SpawnLaserAnimation.hpp"
+// IWYU pragma private; include "GlobalNamespace\SpawnLaserAnimation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,10 +53,10 @@ public:
   /// @brief Field _rightHorizontalLaser, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__rightHorizontalLaser, put = __cordl_internal_set__rightHorizontalLaser)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _rightHorizontalLaser;
 
-  /// @brief Method InitIfNeeded, addr 0x59857a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x5989148, size 0xc4, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method LateUpdate, addr 0x598586c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x598920c, size 0xf0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SpawnLaserAnimation* New_ctor();
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__rightHorizontalLaser(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x598595c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59892fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

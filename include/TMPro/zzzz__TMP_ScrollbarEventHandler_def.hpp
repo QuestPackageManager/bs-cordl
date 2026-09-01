@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_ScrollbarEventHandler.hpp"
+// IWYU pragma private; include "TMPro\TMP_ScrollbarEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +54,13 @@ public:
 
   static inline ::TMPro::TMP_ScrollbarEventHandler* New_ctor();
 
-  /// @brief Method OnDeselect, addr 0x699431c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method OnDeselect, addr 0x699bd98, size 0x7c, virtual true, abstract: false, final true
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnPointerClick, addr 0x699422c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method OnPointerClick, addr 0x699bca8, size 0x70, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSelect, addr 0x699429c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method OnSelect, addr 0x699bd18, size 0x80, virtual true, abstract: false, final true
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   constexpr bool const& __cordl_internal_get_isSelected() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_isSelected(bool value);
 
-  /// @brief Method .ctor, addr 0x6994398, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x699be14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
@@ -99,7 +99,7 @@ public:
   TMP_ScrollbarEventHandler(TMP_ScrollbarEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15972 };
 
   /// @brief Field isSelected, offset: 0x20, size: 0x1, def value: None
   bool ___isSelected;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Platform.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Platform.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,69 +54,69 @@ public:
   /// @brief Field NewLine, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_NewLine, put = setStaticF_NewLine)) ::StringW NewLine;
 
-  /// @brief Method CreateArrayList, addr 0x363a250, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayList, addr 0x363e010, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateArrayList();
 
-  /// @brief Method CreateArrayList, addr 0x363a2a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayList, addr 0x363e068, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateArrayList(int32_t capacity);
 
-  /// @brief Method CreateArrayList, addr 0x363a308, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayList, addr 0x363e0c8, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateArrayList(::System::Collections::ICollection* collection);
 
-  /// @brief Method CreateArrayList, addr 0x363a368, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayList, addr 0x363e128, size 0x2fc, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateArrayList(::System::Collections::IEnumerable* collection);
 
-  /// @brief Method CreateHashtable, addr 0x363a664, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateHashtable, addr 0x363e424, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateHashtable();
 
-  /// @brief Method CreateHashtable, addr 0x363a6c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateHashtable, addr 0x363e480, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateHashtable(int32_t capacity);
 
-  /// @brief Method CreateHashtable, addr 0x363a720, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateHashtable, addr 0x363e4e0, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateHashtable(::System::Collections::IDictionary* dictionary);
 
-  /// @brief Method CreateNotImplementedException, addr 0x363a1e4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateNotImplementedException, addr 0x363dfa4, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateNotImplementedException(::StringW message);
 
-  /// @brief Method Dispose, addr 0x3636420, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x363a1e0, size 0x1c, virtual false, abstract: false, final false
   static inline void Dispose(::System::IO::Stream* s);
 
-  /// @brief Method Dispose, addr 0x363a7f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x363e5b4, size 0x18, virtual false, abstract: false, final false
   static inline void Dispose(::System::IO::TextWriter* t);
 
-  /// @brief Method EndsWith, addr 0x363a9a8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x363e768, size 0x88, virtual false, abstract: false, final false
   static inline bool EndsWith(::StringW source, ::StringW suffix);
 
-  /// @brief Method EqualsIgnoreCase, addr 0x363a070, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EqualsIgnoreCase, addr 0x363de30, size 0x7c, virtual false, abstract: false, final false
   static inline bool EqualsIgnoreCase(::StringW a, ::StringW b);
 
-  /// @brief Method GetEnvironmentVariable, addr 0x363a15c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentVariable, addr 0x363df1c, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW GetEnvironmentVariable(::StringW variable);
 
-  /// @brief Method GetNewLine, addr 0x363a068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetNewLine, addr 0x363de28, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetNewLine();
 
-  /// @brief Method GetTypeName, addr 0x363aa30, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetTypeName, addr 0x363e7f0, size 0x30, virtual false, abstract: false, final false
   static inline ::StringW GetTypeName(::System::Object* obj);
 
-  /// @brief Method IndexOf, addr 0x363a80c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x363e5cc, size 0x88, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::StringW source, ::StringW value);
 
-  /// @brief Method LastIndexOf, addr 0x363a894, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x363e654, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t LastIndexOf(::StringW source, ::StringW value);
 
   static inline ::Org::BouncyCastle::Utilities::Platform* New_ctor();
 
-  /// @brief Method StartsWith, addr 0x363a920, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x363e6e0, size 0x88, virtual false, abstract: false, final false
   static inline bool StartsWith(::StringW source, ::StringW prefix);
 
-  /// @brief Method ToLowerInvariant, addr 0x363a784, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToLowerInvariant, addr 0x363e544, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToLowerInvariant(::StringW s);
 
-  /// @brief Method ToUpperInvariant, addr 0x363a0ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToUpperInvariant, addr 0x363deac, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToUpperInvariant(::StringW s);
 
-  /// @brief Method .ctor, addr 0x363ab04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363e8c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Globalization::CompareInfo* getStaticF_InvariantCompareInfo();

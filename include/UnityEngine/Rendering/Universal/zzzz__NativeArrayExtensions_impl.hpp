@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/NativeArrayExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\NativeArrayExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__NativeArrayExtensions_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"

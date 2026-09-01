@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DigestInputBuffer.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\DigestInputBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer_DigStream* New_ctor(::Org::BouncyCastle::Crypto::IDigest* d);
 
-  /// @brief Method Write, addr 0x343f5c4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3443384, size 0xd0, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x343f50c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x34432cc, size 0xb8, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_d() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_d(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  /// @brief Method .ctor, addr 0x343f4e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34432a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* d);
 
 protected:
@@ -92,10 +92,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer* New_ctor();
 
-  /// @brief Method UpdateDigest, addr 0x343db0c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UpdateDigest, addr 0x34418cc, size 0x84, virtual false, abstract: false, final false
   inline void UpdateDigest(::Org::BouncyCastle::Crypto::IDigest* d);
 
-  /// @brief Method .ctor, addr 0x343d850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3441610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Haptics/IHapticImpulseTransmitter.hpp"
+// IWYU pragma private; include "BeatSaber\Haptics\IHapticImpulseTransmitter.hpp"
 #include "BeatSaber/Haptics/zzzz__IHapticImpulseTransmitter_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Haptics::IHapticImpulseTransmitter.TriggerHapticPulse

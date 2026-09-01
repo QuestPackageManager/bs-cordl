@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ResolveEventArgs.hpp"
+// IWYU pragma private; include "System\ResolveEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/zzzz__ResolveEventArgs_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ResolveEventArgs::*)(::StringW)>(&::System::ResolveEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5c55d04;
+  constexpr static std::size_t addrs = 0x5c5a1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ResolveEventArgs*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ResolveEventArgs::*)(::StringW, ::System::Reflection::Assembly*)>(&::System::ResolveEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5c55d68;
+  constexpr static std::size_t addrs = 0x5c5a224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

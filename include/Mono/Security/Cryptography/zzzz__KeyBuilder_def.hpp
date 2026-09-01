@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Security/Cryptography/KeyBuilder.hpp"
+// IWYU pragma private; include "Mono\Security\Cryptography\KeyBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,12 +27,15 @@ public:
   /// @brief Field rng, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_rng, put = setStaticF_rng)) ::System::Security::Cryptography::RandomNumberGenerator* rng;
 
-  /// @brief Method Key, addr 0x5a9a714, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IV, addr 0x5aba09c, size 0x74, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t> IV(int32_t size);
+
+  /// @brief Method Key, addr 0x5aba028, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Key(int32_t size);
 
   static inline ::System::Security::Cryptography::RandomNumberGenerator* getStaticF_rng();
 
-  /// @brief Method get_Rng, addr 0x5a9b6c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Rng, addr 0x5ab9fbc, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RandomNumberGenerator* get_Rng();
 
   static inline void setStaticF_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
@@ -52,7 +55,7 @@ public:
   KeyBuilder(KeyBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2275 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

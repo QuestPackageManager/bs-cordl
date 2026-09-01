@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/PostProcessParams.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\PostProcessParams.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__GraphicsFormat_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__PostProcessParams_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::PostProcessParams (*)()>(&::UnityEngine::Rendering::Universal::PostProcessParams::Create)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68a365c;
+  constexpr static std::size_t addrs = 0x68ab0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PostProcessParams>(), { "Create", {}, {} })));

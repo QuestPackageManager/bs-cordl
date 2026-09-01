@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/TileLayoutUtils.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\TileLayoutUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__TileLayoutUtils_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::RectInt, uint32_t, ::by_ref<::UnityEngine::RectInt>, ::by_ref<::UnityEngine::RectInt>, ::by_ref<::UnityEngine::RectInt>,
                                                                 ::by_ref<::UnityEngine::RectInt>)>(&::UnityEngine::Rendering::TileLayoutUtils::TryLayoutByTiles)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67c1860;
+  constexpr static std::size_t addrs = 0x67c92dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::RectInt, uint32_t, ::by_ref<::UnityEngine::RectInt>, ::by_ref<::UnityEngine::RectInt>)>(
     &::UnityEngine::Rendering::TileLayoutUtils::TryLayoutByRow)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x67c18ec;
+  constexpr static std::size_t addrs = 0x67c9368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::RectInt, uint32_t, ::by_ref<::UnityEngine::RectInt>, ::by_ref<::UnityEngine::RectInt>)>(
     &::UnityEngine::Rendering::TileLayoutUtils::TryLayoutByCol)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x67c194c;
+  constexpr static std::size_t addrs = 0x67c93c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,8 +1,9 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TrackLaneRingsManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\TrackLaneRingsManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__EnvironmentContext_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRing_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
@@ -28,7 +29,7 @@ class TrackLaneRingsManager;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TrackLaneRingsManager*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TrackLaneRingsManager*, "", "TrackLaneRingsManager");
-// Dependencies TrackLaneRing, UnityEngine.MonoBehaviour
+// Dependencies EnvironmentContext, TrackLaneRing, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TrackLaneRingsManager
@@ -37,12 +38,15 @@ public:
   // Declarations
   __declspec(property(get = get_Rings)) ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>> Rings;
 
-  /// @brief Field _audioTimeSyncController, offset 0x48, size 0x8
+  /// @brief Field _audioTimeSyncController, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>
       _audioTimeSyncController;
 
   /// @brief Field _container, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
+
+  /// @brief Field _environmentContext, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get__environmentContext, put = __cordl_internal_set__environmentContext)) ::GlobalNamespace::EnvironmentContext _environmentContext;
 
   /// @brief Field _ringCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__ringCount, put = __cordl_internal_set__ringCount)) int32_t _ringCount;
@@ -50,7 +54,7 @@ public:
   /// @brief Field _ringPositionStep, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__ringPositionStep, put = __cordl_internal_set__ringPositionStep)) float_t _ringPositionStep;
 
-  /// @brief Field _rings, offset 0x50, size 0x8
+  /// @brief Field _rings, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__rings, put = __cordl_internal_set__rings)) ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>> _rings;
 
   /// @brief Field _spawnAsChildren, offset 0x30, size 0x1
@@ -64,18 +68,18 @@ public:
 
   __declspec(property(get = get_ringPositionStep)) float_t ringPositionStep;
 
-  /// @brief Method FixedUpdate, addr 0x59a08e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x59a8814, size 0x68, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x59a0948, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59a887c, size 0x88, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::TrackLaneRingsManager* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x59a09c4, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x59a8904, size 0x27c, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method Start, addr 0x59a061c, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59a8550, size 0x2c4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -85,6 +89,10 @@ public:
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+
+  constexpr ::GlobalNamespace::EnvironmentContext const& __cordl_internal_get__environmentContext() const;
+
+  constexpr ::GlobalNamespace::EnvironmentContext& __cordl_internal_get__environmentContext();
 
   constexpr int32_t const& __cordl_internal_get__ringCount() const;
 
@@ -114,6 +122,8 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
+  constexpr void __cordl_internal_set__environmentContext(::GlobalNamespace::EnvironmentContext value);
+
   constexpr void __cordl_internal_set__ringCount(int32_t value);
 
   constexpr void __cordl_internal_set__ringPositionStep(float_t value);
@@ -126,13 +136,13 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneRingPrefab(::UnityW<::GlobalNamespace::TrackLaneRing> value);
 
-  /// @brief Method .ctor, addr 0x59a0c40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a8b80, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Rings, addr 0x59a0614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Rings, addr 0x59a8548, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>> get_Rings();
 
-  /// @brief Method get_ringPositionStep, addr 0x59a060c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ringPositionStep, addr 0x59a8540, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ringPositionStep();
 
 protected:
@@ -150,7 +160,7 @@ public:
   TrackLaneRingsManager(TrackLaneRingsManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5989 };
 
   /// @brief Field _trackLaneRingPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRing> ____trackLaneRingPrefab;
@@ -170,10 +180,13 @@ public:
   /// @brief Field _timeHelper, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 
-  /// @brief Field _audioTimeSyncController, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _environmentContext, offset: 0x48, size: 0x4, def value: None
+  ::GlobalNamespace::EnvironmentContext ____environmentContext;
+
+  /// @brief Field _audioTimeSyncController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
-  /// @brief Field _rings, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _rings, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>> ____rings;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -191,10 +204,12 @@ static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____container) 
 
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____timeHelper) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____audioTimeSyncController) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____environmentContext) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____rings) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____audioTimeSyncController) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::TrackLaneRingsManager) == 0x58, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____rings) == 0x58, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::TrackLaneRingsManager) == 0x60, "Size mismatch!");
 
 } // namespace GlobalNamespace

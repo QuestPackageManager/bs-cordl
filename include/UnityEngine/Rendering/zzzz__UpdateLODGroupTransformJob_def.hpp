@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UpdateLODGroupTransformJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UpdateLODGroupTransformJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x682945c, size 0x1d4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6830ed8, size 0x1d4, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -61,7 +61,7 @@ public:
                                        ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 atomicUpdateCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17757 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

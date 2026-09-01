@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/RotationEventData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\RotationEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x3759a08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375f674, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation);
 
-  /// @brief Method get_executionTime, addr 0x37599f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionTime, addr 0x375f664, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::ExecutionTime get_executionTime();
 
-  /// @brief Method get_rotation, addr 0x3759a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x375f66c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:
@@ -72,7 +72,7 @@ public:
   RotationEventData(RotationEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15371 };
 
   /// @brief Field e, offset: 0x14, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::ExecutionTime ___e;

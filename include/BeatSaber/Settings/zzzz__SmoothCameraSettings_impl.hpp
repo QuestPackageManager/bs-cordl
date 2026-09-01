@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/SmoothCameraSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\SmoothCameraSettings.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "BeatSaber/Settings/zzzz__SmoothCameraSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:

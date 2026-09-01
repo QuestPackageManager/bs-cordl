@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AutomaticSFXVolumeParamsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\AutomaticSFXVolumeParamsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,31 +110,31 @@ public:
 
   constexpr void __cordl_internal_set__volumeSmooth(float_t value);
 
-  /// @brief Method .ctor, addr 0x58b68c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b6228, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_attackTime, addr 0x58b6898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attackTime, addr 0x58b6200, size 0x8, virtual false, abstract: false, final false
   inline float_t get_attackTime();
 
-  /// @brief Method get_impact, addr 0x58b6890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_impact, addr 0x58b61f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_impact();
 
-  /// @brief Method get_maxVolume, addr 0x58b68b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVolume, addr 0x58b6218, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
-  /// @brief Method get_minVolume, addr 0x58b68a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minVolume, addr 0x58b6210, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minVolume();
 
-  /// @brief Method get_musicVolumeMultiplier, addr 0x58b6880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_musicVolumeMultiplier, addr 0x58b61e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_musicVolumeMultiplier();
 
-  /// @brief Method get_releaseTime, addr 0x58b68a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_releaseTime, addr 0x58b6208, size 0x8, virtual false, abstract: false, final false
   inline float_t get_releaseTime();
 
-  /// @brief Method get_threshold, addr 0x58b6888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_threshold, addr 0x58b61f0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_threshold();
 
-  /// @brief Method get_volumeSmooth, addr 0x58b68b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeSmooth, addr 0x58b6220, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeSmooth();
 
 protected:

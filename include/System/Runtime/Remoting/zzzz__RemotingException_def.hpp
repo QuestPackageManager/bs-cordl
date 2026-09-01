@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/RemotingException.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\RemotingException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,16 +37,16 @@ public:
 
   static inline ::System::Runtime::Remoting::RemotingException* New_ctor(::StringW message, ::System::Exception* InnerException);
 
-  /// @brief Method .ctor, addr 0x5b24dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b2927c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b24dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b2928c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5b24dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b29284, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5b24dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b29294, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* InnerException);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/AppDomainSetup.hpp"
+// IWYU pragma private; include "System\AppDomainSetup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -261,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set_shadow_copy_files(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5c8a7f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c8ecb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

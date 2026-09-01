@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoTransitionToggleSelectableStateController.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoTransitionToggleSelectableStateController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,21 +25,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsToggle>> {
 public:
   // Declarations
-  /// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x643eab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoTransitionToggleSelectionStateDidChange, addr 0x644652c, size 0x8, virtual false, abstract: false, final false
   inline void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state);
 
   static inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x643ea20, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x644649c, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x643e8e8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6446364, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x643e990, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ResolveSelectionState, addr 0x644640c, size 0x90, virtual false, abstract: false, final false
   inline void ResolveSelectionState(::HMUI::UISelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x643eab8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6446534, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22291 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

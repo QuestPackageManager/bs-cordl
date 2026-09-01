@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/UIKeyboardKey.hpp"
+// IWYU pragma private; include "HMUI\UIKeyboardKey.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__UIKeyboardKey_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::KeyCode (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::get_keyCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587c2a4;
+  constexpr static std::size_t addrs = 0x587bbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "get_keyCode", {}, {} })));
@@ -22,10 +22,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::get_canBeUppercase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587c2ac;
+  constexpr static std::size_t addrs = 0x587bbec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "get_canBeUppercase", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::UIKeyboardKey.get_textComponent
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TextMeshProUGUI> (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::get_textComponent)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x587bbf4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "get_textComponent", {}, {} })));
     return ___internal_method;
   }
 };
@@ -34,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::Awake)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x587c2b4;
+  constexpr static std::size_t addrs = 0x587bbfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "Awake", {}, {} })));
@@ -46,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::OnValidate)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x587c358;
+  constexpr static std::size_t addrs = 0x587bca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "OnValidate", {}, {} })));
@@ -58,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587c43c;
+  constexpr static std::size_t addrs = 0x587bd84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { ".ctor", {}, {} })));
@@ -132,6 +144,10 @@ inline ::UnityEngine::KeyCode HMUI::UIKeyboardKey::get_keyCode() {
 inline bool HMUI::UIKeyboardKey::get_canBeUppercase() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "get_canBeUppercase", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline ::UnityW<::TMPro::TextMeshProUGUI> HMUI::UIKeyboardKey::get_textComponent() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "get_textComponent", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::TMPro::TextMeshProUGUI>>(this, ___internal_method);
 }
 inline void HMUI::UIKeyboardKey::Awake() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "Awake", {}, {} })));

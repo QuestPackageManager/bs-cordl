@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/UnitySpecificRandomExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\UnitySpecificRandomExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE UnitySpecificRandomExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InsideUnitSphere, addr 0x3323cb8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method InsideUnitSphere, addr 0x3327a78, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 InsideUnitSphere(::GlobalNamespace::IRandom* random);
 
-  /// @brief Method OnUnitSphere, addr 0x3323d4c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnUnitSphere, addr 0x3327b0c, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 OnUnitSphere(::GlobalNamespace::IRandom* random);
 
 protected:
@@ -46,7 +46,7 @@ public:
   UnitySpecificRandomExtensions(UnitySpecificRandomExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20769 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

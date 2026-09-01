@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/EnhancedTouch/EnhancedTouchSupport.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\EnhancedTouch\EnhancedTouchSupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputSettings_impl.hpp"
 #include "UnityEngine/InputSystem/EnhancedTouch/zzzz__EnhancedTouchSupport_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::get_enabled)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x659df78;
+  constexpr static std::size_t addrs = 0x65a59f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::Enable)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x659dfcc;
+  constexpr static std::size_t addrs = 0x65a5a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport*>(), { "Enable", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::Disable)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x659e314;
+  constexpr static std::size_t addrs = 0x65a5d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::Reset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x659e65c;
+  constexpr static std::size_t addrs = 0x65a60d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport*>(), { "Reset", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::SetUpState)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x659e14c;
+  constexpr static std::size_t addrs = 0x65a5bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::TearDownState)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x659e4bc;
+  constexpr static std::size_t addrs = 0x65a5f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange)>(
     &::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::OnDeviceChange)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x659e784;
+  constexpr static std::size_t addrs = 0x65a6200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::OnSettingsChange)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x659ea24;
+  constexpr static std::size_t addrs = 0x65a64a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::CheckEnabled)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x659eac4;
+  constexpr static std::size_t addrs = 0x65a6540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/LaunchBlockFlowResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\LaunchBlockFlowResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__LaunchBlockFlowResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::LaunchBlockFlowResult::*)(::System::IntPtr)>(&::Oculus::Platform::Models::LaunchBlockFlowResult::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5deb9b0;
+  constexpr static std::size_t addrs = 0x5defe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

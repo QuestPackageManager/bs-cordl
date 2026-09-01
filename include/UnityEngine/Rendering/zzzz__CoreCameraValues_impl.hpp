@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/CoreCameraValues.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\CoreCameraValues.hpp"
 #include "UnityEngine/Rendering/zzzz__CoreCameraValues_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CoreCameraValues::*)(::UnityEngine::Rendering::CoreCameraValues)>(
     &::UnityEngine::Rendering::CoreCameraValues::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6b168a4;
+  constexpr static std::size_t addrs = 0x6b1e2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CoreCameraValues::*)(::System::Object*)>(&::UnityEngine::Rendering::CoreCameraValues::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b168d8;
+  constexpr static std::size_t addrs = 0x6b1e2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CoreCameraValues::*)()>(&::UnityEngine::Rendering::CoreCameraValues::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b16974;
+  constexpr static std::size_t addrs = 0x6b1e38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

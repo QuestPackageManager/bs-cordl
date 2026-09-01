@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerHeadAndObstacleInteraction.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerHeadAndObstacleInteraction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,10 +73,10 @@ public:
 
   static inline ::GlobalNamespace::PlayerHeadAndObstacleInteraction* New_ctor();
 
-  /// @brief Method RefreshIntersectingObstacles, addr 0x59e3fec, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method RefreshIntersectingObstacles, addr 0x59ec258, size 0x368, virtual false, abstract: false, final false
   inline void RefreshIntersectingObstacles(::UnityEngine::Vector3 worldPos);
 
-  /// @brief Method Update, addr 0x59e4354, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59ec5c0, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -127,28 +127,28 @@ public:
 
   constexpr void __cordl_internal_set_headDidLeaveObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method .ctor, addr 0x59e43e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ec654, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_headDidEnterObstacleEvent, addr 0x59e3c94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_headDidEnterObstacleEvent, addr 0x59eae78, size 0xc0, virtual false, abstract: false, final false
   inline void add_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method add_headDidEnterObstaclesEvent, addr 0x59e3b3c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_headDidEnterObstaclesEvent, addr 0x59ec100, size 0xac, virtual false, abstract: false, final false
   inline void add_headDidEnterObstaclesEvent(::System::Action* value);
 
-  /// @brief Method add_headDidLeaveObstacleEvent, addr 0x59e3e14, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_headDidLeaveObstacleEvent, addr 0x59eaf38, size 0xc0, virtual false, abstract: false, final false
   inline void add_headDidLeaveObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method get_playerHeadIsInObstacle, addr 0x59e3f94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_playerHeadIsInObstacle, addr 0x59eb4a4, size 0x58, virtual false, abstract: false, final false
   inline bool get_playerHeadIsInObstacle();
 
-  /// @brief Method remove_headDidEnterObstacleEvent, addr 0x59e3d54, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidEnterObstacleEvent, addr 0x59eb214, size 0xc0, virtual false, abstract: false, final false
   inline void remove_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method remove_headDidEnterObstaclesEvent, addr 0x59e3be8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidEnterObstaclesEvent, addr 0x59ec1ac, size 0xac, virtual false, abstract: false, final false
   inline void remove_headDidEnterObstaclesEvent(::System::Action* value);
 
-  /// @brief Method remove_headDidLeaveObstacleEvent, addr 0x59e3ed4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidLeaveObstacleEvent, addr 0x59eb2d4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_headDidLeaveObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
 protected:
@@ -166,7 +166,7 @@ public:
   PlayerHeadAndObstacleInteraction(PlayerHeadAndObstacleInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6207 };
 
   /// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;

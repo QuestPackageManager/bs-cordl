@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/DefaultAuthenticatedAttributeTableGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\DefaultAuthenticatedAttributeTableGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Method CreateStandardAttributeTable, addr 0x36c768c, size 0x510, virtual true, abstract: false, final false
+  /// @brief Method CreateStandardAttributeTable, addr 0x36cb44c, size 0x510, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* CreateStandardAttributeTable(::System::Collections::IDictionary* parameters);
 
-  /// @brief Method GetAttributes, addr 0x36c7b9c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x36cb95c, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor();
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x36c75ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36cb36c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36c760c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36cb3cc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"

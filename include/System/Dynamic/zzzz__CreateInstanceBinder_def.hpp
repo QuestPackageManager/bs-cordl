@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Dynamic/CreateInstanceBinder.hpp"
+// IWYU pragma private; include "System\Dynamic\CreateInstanceBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace System::Dynamic {
 class CORDL_TYPE CreateInstanceBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x5fbb19c, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x5fc2c18, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> args);
 
-  /// @brief Method FallbackCreateInstance, addr 0x5fbb18c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackCreateInstance, addr 0x5fc2c08, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackCreateInstance(::System::Dynamic::DynamicMetaObject* target, ::ArrayW<::System::Dynamic::DynamicMetaObject*> args);
 
   /// @brief Method FallbackCreateInstance, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -48,7 +48,7 @@ public:
   CreateInstanceBinder(CreateInstanceBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16648 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

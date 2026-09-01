@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal/Runtime/Augments/ReflectionExecutionDomainCallbacks.hpp"
+// IWYU pragma private; include "Internal\Runtime\Augments\ReflectionExecutionDomainCallbacks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ namespace Internal::Runtime::Augments {
 class CORDL_TYPE ReflectionExecutionDomainCallbacks : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateMissingMetadataException, addr 0x5ac346c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateMissingMetadataException, addr 0x5ac7928, size 0x58, virtual false, abstract: false, final false
   inline ::System::Exception* CreateMissingMetadataException(::System::Type* attributeType);
 
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5ac3468, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac7924, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

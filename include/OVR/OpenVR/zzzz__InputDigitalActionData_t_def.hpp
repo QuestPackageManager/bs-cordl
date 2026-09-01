@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OVR/OpenVR/InputDigitalActionData_t.hpp"
+// IWYU pragma private; include "OVR\OpenVR\InputDigitalActionData_t.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   constexpr InputDigitalActionData_t(bool bActive, uint64_t activeOrigin, bool bState, bool bChanged, float_t fUpdateTime) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8539 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

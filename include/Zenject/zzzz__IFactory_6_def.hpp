@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/IFactory_6.hpp"
+// IWYU pragma private; include "Zenject\IFactory_6.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
   IFactory_6(IFactory_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14342 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

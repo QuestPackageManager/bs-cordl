@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/XRSystemData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\XRSystemData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_xrOcclusionMeshPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x686c7b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687422c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   XRSystemData_ShaderResources(XRSystemData_ShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12741 };
 
   /// @brief Field xrOcclusionMeshPS, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___xrOcclusionMeshPS;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_shaders(::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources* value);
 
-  /// @brief Method .ctor, addr 0x686c7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6874224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,7 +125,7 @@ public:
   XRSystemData(XRSystemData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12742 };
 
   /// @brief Field shaders, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::XRSystemData_ShaderResources* ___shaders;

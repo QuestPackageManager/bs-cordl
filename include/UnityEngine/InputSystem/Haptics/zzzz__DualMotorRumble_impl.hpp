@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Haptics/DualMotorRumble.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Haptics\DualMotorRumble.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__DualMotorRumble_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Haptics::DualMotorRumble.get_lowFrequencyMotorSpeed
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)()>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::get_lowFrequencyMotorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5844;
+  constexpr static std::size_t addrs = 0x65ad2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(float_t)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::set_lowFrequencyMotorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a584c;
+  constexpr static std::size_t addrs = 0x65ad2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)()>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::get_highFrequencyMotorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a5854;
+  constexpr static std::size_t addrs = 0x65ad2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(float_t)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::set_highFrequencyMotorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a585c;
+  constexpr static std::size_t addrs = 0x65ad2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)()>(&::UnityEngine::InputSystem::Haptics::DualMotorRumble::get_isRumbling)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x65a5864;
+  constexpr static std::size_t addrs = 0x65ad2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Haptics::DualMotorRumble>(), { "get_isRumbling", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::PauseHaptics)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x65a5920;
+  constexpr static std::size_t addrs = 0x65ad39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Haptics::DualMotorRumble>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::ResumeHaptics)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x65a5a38;
+  constexpr static std::size_t addrs = 0x65ad4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Haptics::DualMotorRumble>(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::ResetHaptics)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x65a5be4;
+  constexpr static std::size_t addrs = 0x65ad660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Haptics::DualMotorRumble>(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Haptics::DualMotorRumble::*)(::UnityEngine::InputSystem::InputDevice*, float_t, float_t)>(
     &::UnityEngine::InputSystem::Haptics::DualMotorRumble::SetMotorSpeeds)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x65a5ac0;
+  constexpr static std::size_t addrs = 0x65ad53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

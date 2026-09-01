@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IBeatmapLightEventConverter.hpp"
+// IWYU pragma private; include "GlobalNamespace\IBeatmapLightEventConverter.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLightEventConverter_def.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Jobs/LowLevel/Unsafe/JobProducerTypeAttribute.hpp"
+// IWYU pragma private; include "Unity\Jobs\LowLevel\Unsafe\JobProducerTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobProducerTypeAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::*)(::System::Type*)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a5423c;
+  constexpr static std::size_t addrs = 0x6a5bcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

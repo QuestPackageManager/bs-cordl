@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEvent.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\LowLevel\InputEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,17 +47,17 @@ public:
 
   __declspec(property(get = get_type, put = set_type)) ::UnityEngine::InputSystem::Utilities::FourCC type;
 
-  /// @brief Method Equals, addr 0x65a8144, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x65afbc0, size 0x90, virtual false, abstract: false, final false
   static inline bool Equals(::UnityEngine::InputSystem::LowLevel::InputEvent* first, ::UnityEngine::InputSystem::LowLevel::InputEvent* second);
 
-  /// @brief Method GetNextInMemory, addr 0x65a7fd0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetNextInMemory, addr 0x65afa4c, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEvent* GetNextInMemory(::UnityEngine::InputSystem::LowLevel::InputEvent* currentPtr);
 
-  /// @brief Method GetNextInMemoryChecked, addr 0x65a7fec, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetNextInMemoryChecked, addr 0x65afa68, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEvent* GetNextInMemoryChecked(::UnityEngine::InputSystem::LowLevel::InputEvent* currentPtr,
                                                                                          ::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> buffer);
 
-  /// @brief Method ToString, addr 0x65a7d90, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x65af80c, size 0x240, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngineInternal::Input::NativeInputEvent const& __cordl_internal_get_m_Event() const;
@@ -66,49 +66,49 @@ public:
 
   constexpr void __cordl_internal_set_m_Event(::UnityEngineInternal::Input::NativeInputEvent value);
 
-  /// @brief Method .ctor, addr 0x65a7644, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65af0c0, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes, int32_t deviceId, double_t time);
 
-  /// @brief Method get_deviceId, addr 0x65a7c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x65af708, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_deviceId();
 
-  /// @brief Method get_eventId, addr 0x65a7c6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_eventId, addr 0x65af6e8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_eventId();
 
-  /// @brief Method get_handled, addr 0x65a7d68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_handled, addr 0x65af7e4, size 0xc, virtual false, abstract: false, final false
   inline bool get_handled();
 
-  /// @brief Method get_internalTime, addr 0x65a7d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_internalTime, addr 0x65af7d4, size 0x8, virtual false, abstract: false, final false
   inline double_t get_internalTime();
 
-  /// @brief Method get_sizeInBytes, addr 0x65a6e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBytes, addr 0x65ae8d8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBytes();
 
-  /// @brief Method get_time, addr 0x65a7c9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x65af718, size 0x58, virtual false, abstract: false, final false
   inline double_t get_time();
 
-  /// @brief Method get_type, addr 0x65a7bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x65af640, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_type();
 
-  /// @brief Method set_deviceId, addr 0x65a7c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceId, addr 0x65af710, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceId(int32_t value);
 
-  /// @brief Method set_eventId, addr 0x65a7c78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_eventId, addr 0x65af6f4, size 0x14, virtual false, abstract: false, final false
   inline void set_eventId(int32_t value);
 
-  /// @brief Method set_handled, addr 0x65a7d74, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_handled, addr 0x65af7f0, size 0x1c, virtual false, abstract: false, final false
   inline void set_handled(bool value);
 
-  /// @brief Method set_internalTime, addr 0x65a7d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_internalTime, addr 0x65af7dc, size 0x8, virtual false, abstract: false, final false
   inline void set_internalTime(double_t value);
 
-  /// @brief Method set_sizeInBytes, addr 0x65a7bd4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_sizeInBytes, addr 0x65af650, size 0x98, virtual false, abstract: false, final false
   inline void set_sizeInBytes(uint32_t value);
 
-  /// @brief Method set_time, addr 0x65a7cf4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x65af770, size 0x64, virtual false, abstract: false, final false
   inline void set_time(double_t value);
 
-  /// @brief Method set_type, addr 0x65a7bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x65af648, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::InputSystem::Utilities::FourCC value);
 
   // Ctor Parameters []
@@ -142,7 +142,7 @@ public:
   static constexpr int32_t InvalidEventId{ static_cast<int32_t>(0x0) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9024 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

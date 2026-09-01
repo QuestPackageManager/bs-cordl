@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithAppDownloadProgressResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithAppDownloadProgressResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAppDownloadProgressResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AppDownloadProgressResult_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithAppDownloadProgressResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAppDownloadProgressResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd2ae0;
+  constexpr static std::size_t addrs = 0x5dd6f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (::Oculus::Platform::MessageWithAppDownloadProgressResult::*)()>(
     &::Oculus::Platform::MessageWithAppDownloadProgressResult::GetAppDownloadProgressResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd52f0;
+  constexpr static std::size_t addrs = 0x5dd97ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithAppDownloadProgressResult*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (::Oculus::Platform::MessageWithAppDownloadProgressResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAppDownloadProgressResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5dd5334;
+  constexpr static std::size_t addrs = 0x5dd97f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithAppDownloadProgressResult*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/MeshFilter.hpp"
+// IWYU pragma private; include "UnityEngine\MeshFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,36 +29,36 @@ public:
 
   __declspec(property(get = get_sharedMesh, put = set_sharedMesh)) ::UnityW<::UnityEngine::Mesh> sharedMesh;
 
-  /// @brief Method DontStripMeshFilter, addr 0x6a9d0c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshFilter, addr 0x6aa4adc, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshFilter();
 
   static inline ::UnityEngine::MeshFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a9d5e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aa5000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x6a9d358, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x6aa4d70, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_mesh_Injected, addr 0x6a9d4a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh_Injected, addr 0x6aa4ec0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_mesh_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_sharedMesh, addr 0x6a9d0c8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh, addr 0x6aa4ae0, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
 
-  /// @brief Method get_sharedMesh_Injected, addr 0x6a9d218, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh_Injected, addr 0x6aa4c30, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_sharedMesh_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_mesh, addr 0x6a9d4e4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x6aa4efc, size 0xc0, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_mesh_Injected, addr 0x6a9d5a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mesh_Injected, addr 0x6aa4fbc, size 0x44, virtual false, abstract: false, final false
   static inline void set_mesh_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_sharedMesh, addr 0x6a9d254, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh, addr 0x6aa4c6c, size 0xc0, virtual false, abstract: false, final false
   inline void set_sharedMesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_sharedMesh_Injected, addr 0x6a9d314, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh_Injected, addr 0x6aa4d2c, size 0x44, virtual false, abstract: false, final false
   static inline void set_sharedMesh_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   MeshFilter(MeshFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10170 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

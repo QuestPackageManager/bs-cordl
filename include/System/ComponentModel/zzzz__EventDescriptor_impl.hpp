@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/EventDescriptor.hpp"
+// IWYU pragma private; include "System\ComponentModel\EventDescriptor.hpp"
 #include "System/ComponentModel/zzzz__MemberDescriptor_impl.hpp"
 #include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptor::*)(::StringW, ::ArrayW<::System::Attribute*>)>(
     &::System::ComponentModel::EventDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b8d8c;
+  constexpr static std::size_t addrs = 0x63c0808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptor*>(),

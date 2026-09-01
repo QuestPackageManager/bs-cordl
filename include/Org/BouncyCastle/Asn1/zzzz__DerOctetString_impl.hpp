@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerOctetString.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerOctetString.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerOctetString::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::DerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x367b9d4;
+  constexpr static std::size_t addrs = 0x367f794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerOctetString::*)(::Org::BouncyCastle::Asn1::IAsn1Convertible*)>(
     &::Org::BouncyCastle::Asn1::DerOctetString::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3685b4c;
+  constexpr static std::size_t addrs = 0x368990c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerOctetString::*)(::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::DerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3685c04;
+  constexpr static std::size_t addrs = 0x36899c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerOctetString::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerOctetString::Encode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3685c74;
+  constexpr static std::size_t addrs = 0x3689a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::Asn1::DerOutputStream*, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Asn1::DerOctetString::Encode)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3685c90;
+  constexpr static std::size_t addrs = 0x3689a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

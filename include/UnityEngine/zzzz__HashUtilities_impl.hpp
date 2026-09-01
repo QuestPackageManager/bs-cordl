@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/HashUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\HashUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__HashUtilities_def.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Hash128>, ::by_ref<::UnityEngine::Hash128>)>(&::UnityEngine::HashUtilities::AppendHash)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ac06ac;
+  constexpr static std::size_t addrs = 0x6ac80c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

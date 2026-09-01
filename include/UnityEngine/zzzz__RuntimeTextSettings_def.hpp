@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/RuntimeTextSettings.hpp"
+// IWYU pragma private; include "UnityEngine\RuntimeTextSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,25 +36,25 @@ public:
       get = getStaticF_s_FallbackOSFontAssetIMGUIInternal,
       put = setStaticF_s_FallbackOSFontAssetIMGUIInternal)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* s_FallbackOSFontAssetIMGUIInternal;
 
-  /// @brief Method GetFontShader, addr 0x6b49f54, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetFontShader, addr 0x6b51ad8, size 0x54, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> GetFontShader();
 
-  /// @brief Method GetStaticFallbackOSFontAsset, addr 0x6b49fa8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetStaticFallbackOSFontAsset, addr 0x6b51b2c, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* GetStaticFallbackOSFontAsset();
 
   static inline ::UnityEngine::RuntimeTextSettings* New_ctor();
 
-  /// @brief Method SetStaticFallbackOSFontAsset, addr 0x6b49ff4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method SetStaticFallbackOSFontAsset, addr 0x6b51b78, size 0x50, virtual true, abstract: false, final false
   inline void SetStaticFallbackOSFontAsset(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fontAssets);
 
-  /// @brief Method .ctor, addr 0x6b4a044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b51bc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::RuntimeTextSettings> getStaticF_s_DefaultTextSettings();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* getStaticF_s_FallbackOSFontAssetIMGUIInternal();
 
-  /// @brief Method get_defaultTextSettings, addr 0x6b49e94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTextSettings, addr 0x6b51a18, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RuntimeTextSettings> get_defaultTextSettings();
 
   static inline void setStaticF_s_DefaultTextSettings(::UnityW<::UnityEngine::RuntimeTextSettings> value);
@@ -76,7 +76,7 @@ public:
   RuntimeTextSettings(RuntimeTextSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

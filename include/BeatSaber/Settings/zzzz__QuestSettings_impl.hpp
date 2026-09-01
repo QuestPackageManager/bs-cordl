@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/QuestSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\QuestSettings.hpp"
 #include "BeatSaber/Settings/zzzz__QuestSettings_def.hpp"
 #include "BeatSaber/Settings/zzzz__QuestSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

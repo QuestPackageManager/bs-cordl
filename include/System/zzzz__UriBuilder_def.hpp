@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/UriBuilder.hpp"
+// IWYU pragma private; include "System\UriBuilder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,13 +72,13 @@ public:
   /// @brief Field _username, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__username, put = __cordl_internal_set__username)) ::StringW _username;
 
-  /// @brief Method Equals, addr 0x636cacc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6374548, size 0x5c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* rparam);
 
-  /// @brief Method GetHashCode, addr 0x636cb28, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x63745a4, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Init, addr 0x636c1f0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6373c6c, size 0x178, virtual false, abstract: false, final false
   inline void Init(::System::Uri* uri);
 
   static inline ::System::UriBuilder* New_ctor();
@@ -87,10 +87,10 @@ public:
 
   static inline ::System::UriBuilder* New_ctor(::System::Uri* uri);
 
-  /// @brief Method SetFieldsFromUri, addr 0x636c4bc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SetFieldsFromUri, addr 0x6373f38, size 0x174, virtual false, abstract: false, final false
   inline void SetFieldsFromUri(::System::Uri* uri);
 
-  /// @brief Method ToString, addr 0x636cb48, size 0x3b8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63745c4, size 0x3b8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get__changed() const;
@@ -159,31 +159,31 @@ public:
 
   constexpr void __cordl_internal_set__username(::StringW value);
 
-  /// @brief Method .ctor, addr 0x636bf80, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63739fc, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x636c074, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6373af0, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::StringW uri);
 
-  /// @brief Method .ctor, addr 0x636c368, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6373de4, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri);
 
-  /// @brief Method get_Uri, addr 0x636ca38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_Uri, addr 0x63744b4, size 0x94, virtual false, abstract: false, final false
   inline ::System::Uri* get_Uri();
 
-  /// @brief Method set_Host, addr 0x636c630, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method set_Host, addr 0x63740ac, size 0xf4, virtual false, abstract: false, final false
   inline void set_Host(::StringW value);
 
-  /// @brief Method set_Path, addr 0x636c724, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x63741a0, size 0xc4, virtual false, abstract: false, final false
   inline void set_Path(::StringW value);
 
-  /// @brief Method set_Port, addr 0x636c7e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Port, addr 0x6374264, size 0x68, virtual false, abstract: false, final false
   inline void set_Port(int32_t value);
 
-  /// @brief Method set_Query, addr 0x636c850, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_Query, addr 0x63742cc, size 0xa4, virtual false, abstract: false, final false
   inline void set_Query(::StringW value);
 
-  /// @brief Method set_Scheme, addr 0x636c8f4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method set_Scheme, addr 0x6374370, size 0x144, virtual false, abstract: false, final false
   inline void set_Scheme(::StringW value);
 
 protected:
@@ -201,7 +201,7 @@ public:
   UriBuilder(UriBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11057 };
 
   /// @brief Field _changed, offset: 0x10, size: 0x1, def value: None
   bool ____changed;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FileSystemPreviewMediaData.hpp"
+// IWYU pragma private; include "GlobalNamespace\FileSystemPreviewMediaData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FileSystemPreviewMediaData_def.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileSystemPreviewMediaData::*)(
     ::GlobalNamespace::SpriteAsyncLoader*, ::GlobalNamespace::AudioClipAsyncLoader*, ::StringW, ::StringW, ::StringW)>(&::GlobalNamespace::FileSystemPreviewMediaData::_ctor)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x37252b8;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x372adcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (::GlobalNamespace::FileSystemPreviewMediaData::*)()>(
     &::GlobalNamespace::FileSystemPreviewMediaData::GetCoverSpriteAsync)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3725414;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x372af50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileSystemPreviewMediaData*>(), { "GetCoverSpriteAsync", {}, {} })));
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (::GlobalNamespace::FileSystemPreviewMediaData::*)()>(
     &::GlobalNamespace::FileSystemPreviewMediaData::GetPreviewAudioClip)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3725434;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x372aff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileSystemPreviewMediaData*>(), { "GetPreviewAudioClip", {}, {} })));
@@ -56,8 +56,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileSystemPreviewMediaData::*)()>(&::GlobalNamespace::FileSystemPreviewMediaData::UnloadPreviewAudioClip)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3725454;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x372b090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileSystemPreviewMediaData*>(), { "UnloadPreviewAudioClip", {}, {} })));
@@ -68,8 +68,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileSystemPreviewMediaData::*)()>(&::GlobalNamespace::FileSystemPreviewMediaData::UnloadCoverSprite)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3725474;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x372b0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileSystemPreviewMediaData*>(), { "UnloadCoverSprite", {}, {} })));

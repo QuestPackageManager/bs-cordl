@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/OccluderParameters.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\OccluderParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE OccluderParameters {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x680eca4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6816720, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(int32_t viewInstanceID);
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
                                bool depthIsArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17636 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

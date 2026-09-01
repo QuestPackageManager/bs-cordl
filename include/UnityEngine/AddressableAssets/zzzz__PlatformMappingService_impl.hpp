@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AddressableAssets/PlatformMappingService.hpp"
+// IWYU pragma private; include "UnityEngine\AddressableAssets\PlatformMappingService.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__PlatformMappingService_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AddressablesPlatform (*)(::UnityEngine::RuntimePlatform)>(
     &::UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformInternal)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x645d020;
+  constexpr static std::size_t addrs = 0x6464a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::PlatformMappingService*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::RuntimePlatform)>(&::UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformPathInternal)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x645d10c;
+  constexpr static std::size_t addrs = 0x6464b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::PlatformMappingService*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::AddressableAssets::PlatformMappingService::GetPlatformPathSubFolder)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64503a4;
+  constexpr static std::size_t addrs = 0x6457e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::PlatformMappingService::*)()>(&::UnityEngine::AddressableAssets::PlatformMappingService::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x645d250;
+  constexpr static std::size_t addrs = 0x6464ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::PlatformMappingService*>(), { ".ctor", {}, {} })));

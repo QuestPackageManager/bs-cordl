@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/EnumUtils.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\EnumUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__EnumUtils_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__CamelCaseNamingStrategy_def.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::EnumUtils___c::*)()>(&::Newtonsoft::Json::Utilities::EnumUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d23550;
+  constexpr static std::size_t addrs = 0x5d27a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::EnumUtils___c*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Utilities::EnumUtils___c::*)(::System::Runtime::Serialization::EnumMemberAttribute*)>(
     &::Newtonsoft::Json::Utilities::EnumUtils___c::_InitializeValuesAndNames_b__3_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d23554;
+  constexpr static std::size_t addrs = 0x5d27a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Newtonsoft::Json::Utilities::EnumInfo* (*)(::Newtonsoft::Json::Utilities::StructMultiKey_2<::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*>)>(
         &::Newtonsoft::Json::Utilities::EnumUtils::InitializeValuesAndNames)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x5d21ec4;
+  constexpr static std::size_t addrs = 0x5d26380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Object*, bool, ::by_ref<::StringW>)>(&::Newtonsoft::Json::Utilities::EnumUtils::TryToString)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d22620;
+  constexpr static std::size_t addrs = 0x5d26adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Object*, ::Newtonsoft::Json::Serialization::NamingStrategy*, ::by_ref<::StringW>)>(
     &::Newtonsoft::Json::Utilities::EnumUtils::TryToString)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5d226c4;
+  constexpr static std::size_t addrs = 0x5d26b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Newtonsoft::Json::Utilities::EnumInfo*, uint64_t)>(&::Newtonsoft::Json::Utilities::EnumUtils::InternalFlagsFormat)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5d2282c;
+  constexpr static std::size_t addrs = 0x5d26ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::EnumInfo* (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::EnumUtils::GetEnumValuesAndNames)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5d229d8;
+  constexpr static std::size_t addrs = 0x5d26e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::System::Object*)>(&::Newtonsoft::Json::Utilities::EnumUtils::ToUInt64)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x5d223a0;
+  constexpr static std::size_t addrs = 0x5d2685c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Type*, ::Newtonsoft::Json::Serialization::NamingStrategy*, ::StringW, bool)>(
     &::Newtonsoft::Json::Utilities::EnumUtils::ParseEnum)> {
   constexpr static std::size_t size = 0x7a0;
-  constexpr static std::size_t addrs = 0x5d22a78;
+  constexpr static std::size_t addrs = 0x5d26f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<int32_t> (*)(::StringW, ::ArrayW<::StringW>, ::ArrayW<::StringW>, int32_t, int32_t, ::System::StringComparison)>(
     &::Newtonsoft::Json::Utilities::EnumUtils::MatchName)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5d23300;
+  constexpr static std::size_t addrs = 0x5d277bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<int32_t> (*)(::ArrayW<::StringW>, ::StringW, int32_t, int32_t, ::System::StringComparison)>(
     &::Newtonsoft::Json::Utilities::EnumUtils::FindIndexByName)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5d23218;
+  constexpr static std::size_t addrs = 0x5d276d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::EnumUtils*>(),

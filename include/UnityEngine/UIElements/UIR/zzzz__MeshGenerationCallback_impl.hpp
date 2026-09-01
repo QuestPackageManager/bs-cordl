@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshGenerationCallback.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\MeshGenerationCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__MeshGenerationCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::MeshGenerationCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::UIR::MeshGenerationCallback::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6cd6aa4;
+  constexpr static std::size_t addrs = 0x6cde628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::MeshGenerationCallback*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::MeshGenerationCallback::*)(Il2CppObject*, ::System::Object*)>(
     &::UnityEngine::UIElements::UIR::MeshGenerationCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6cd6bec;
+  constexpr static std::size_t addrs = 0x6cde770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::MeshGenerationCallback*>(),

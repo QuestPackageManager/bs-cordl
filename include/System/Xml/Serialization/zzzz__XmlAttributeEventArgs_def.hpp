@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlAttributeEventArgs.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlAttributeEventArgs.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_qnames(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62e3a20, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62eb49c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlAttribute* attr, int32_t lineNumber, int32_t linePosition, ::System::Object* o, ::StringW qnames);
 
 protected:
@@ -92,7 +92,7 @@ public:
   XmlAttributeEventArgs(XmlAttributeEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9478 };
 
   /// @brief Field o, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___o;

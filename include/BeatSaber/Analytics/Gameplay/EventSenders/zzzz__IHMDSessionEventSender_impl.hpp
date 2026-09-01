@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventSenders/IHMDSessionEventSender.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventSenders\IHMDSessionEventSender.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__IHMDSessionEventSender_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender.SendHMDSessionStart
 template <>

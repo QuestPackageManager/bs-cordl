@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/Hook.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\Hook.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,7 @@ public:
   /// @brief Field _memberInfo, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__memberInfo, put = __cordl_internal_set__memberInfo)) ::System::Reflection::MemberInfo* _memberInfo;
 
-  /// @brief Method Matches, addr 0x5a5d2b8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x5a61774, size 0x68, virtual false, abstract: false, final false
   inline bool Matches(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instance);
 
   static inline ::Meta::XR::ImmersiveDebugger::Manager::Hook* New_ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle,
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set__memberInfo(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x5a60134, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a645f0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
 
-  /// @brief Method get_Attribute, addr 0x5a60210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attribute, addr 0x5a646cc, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::DebugMember* get_Attribute();
 
-  /// @brief Method get_MemberInfo, addr 0x5a60218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x5a646d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
-  /// @brief Method get_Valid, addr 0x5a58498, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x5a5c954, size 0xc, virtual false, abstract: false, final false
   inline bool get_Valid();
 
 protected:
@@ -107,7 +107,7 @@ public:
   Hook(Hook const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18438 };
 
   /// @brief Field _instanceHandle, offset: 0x10, size: 0x18, def value: None
   ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle ____instanceHandle;

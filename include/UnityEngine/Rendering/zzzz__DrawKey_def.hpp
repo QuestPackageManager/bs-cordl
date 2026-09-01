@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DrawKey.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DrawKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::DrawKey>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::DrawKey>*();
 
-  /// @brief Method Equals, addr 0x680f06c, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6816ae8, size 0x158, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::DrawKey other);
 
-  /// @brief Method GetHashCode, addr 0x680f1c4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6816c40, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::DrawKey>"
@@ -52,7 +52,7 @@ public:
                     int32_t transparentInstanceId, uint32_t overridenComponents, ::UnityEngine::Rendering::RangeKey range, int32_t lightmapIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17642 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

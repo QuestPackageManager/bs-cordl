@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataGoodCutsSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeDataGoodCutsSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,12 +23,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerBadgeDataGoodCutsSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x372d988, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x37335ec, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x372d9b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3733614, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   MultiplayerBadgeDataGoodCutsSO(MultiplayerBadgeDataGoodCutsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

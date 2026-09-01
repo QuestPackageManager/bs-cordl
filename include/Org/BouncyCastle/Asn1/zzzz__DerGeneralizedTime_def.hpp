@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerGeneralizedTime.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\DerGeneralizedTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,34 +44,34 @@ public:
   /// @brief Field time, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) ::StringW time;
 
-  /// @brief Method Asn1Equals, addr 0x368bc38, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x368f9f8, size 0xa8, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x368bce0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x368faa0, size 0x14, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method CalculateGmtOffset, addr 0x368b550, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method CalculateGmtOffset, addr 0x368f310, size 0x2ec, virtual false, abstract: false, final false
   inline ::StringW CalculateGmtOffset();
 
-  /// @brief Method Convert, addr 0x368b83c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x368f5fc, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW Convert(int32_t time);
 
-  /// @brief Method Encode, addr 0x368bc08, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x368f9c8, size 0x30, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FString, addr 0x368b908, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FString, addr 0x368f6c8, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW FString(int32_t count);
 
-  /// @brief Method GetInstance, addr 0x368ad54, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x368eb14, size 0x130, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x368ac54, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x368ea14, size 0x100, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOctets, addr 0x368bbfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x368f9bc, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetOctets();
 
-  /// @brief Method GetTime, addr 0x368b2dc, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x368f09c, size 0x274, virtual false, abstract: false, final false
   inline ::StringW GetTime();
 
   static inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* New_ctor(::ArrayW<uint8_t> bytes);
@@ -80,10 +80,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* New_ctor(::System::DateTime time);
 
-  /// @brief Method ParseDateString, addr 0x368b994, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method ParseDateString, addr 0x368f754, size 0x268, virtual false, abstract: false, final false
   inline ::System::DateTime ParseDateString(::StringW s, ::StringW format, bool makeUniversal);
 
-  /// @brief Method ToDateTime, addr 0x368af84, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x368ed44, size 0x2c4, virtual false, abstract: false, final false
   inline ::System::DateTime ToDateTime();
 
   constexpr ::StringW const& __cordl_internal_get_time() const;
@@ -92,19 +92,19 @@ public:
 
   constexpr void __cordl_internal_set_time(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3680b40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3684900, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method .ctor, addr 0x368ae84, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368ec44, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::StringW time);
 
-  /// @brief Method .ctor, addr 0x368b248, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368f008, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime time);
 
-  /// @brief Method get_HasFractionalSeconds, addr 0x368b8d4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_HasFractionalSeconds, addr 0x368f694, size 0x34, virtual false, abstract: false, final false
   inline bool get_HasFractionalSeconds();
 
-  /// @brief Method get_TimeString, addr 0x368b2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeString, addr 0x368f094, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TimeString();
 
 protected:

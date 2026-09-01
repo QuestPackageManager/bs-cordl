@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IPacketPool_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\IPacketPool_1.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
 template <typename T> inline T GlobalNamespace::IPacketPool_1<T>::Obtain() {

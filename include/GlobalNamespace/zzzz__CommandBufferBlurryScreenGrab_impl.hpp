@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CommandBufferBlurryScreenGrab.hpp"
+// IWYU pragma private; include "GlobalNamespace\CommandBufferBlurryScreenGrab.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_impl.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_impl.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CommandBuffer* (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::CommandBufferBlurryScreenGrab::CreateCommandBuffer)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5f3cb54;
+  constexpr static std::size_t addrs = 0x5f40fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* (
     ::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(&::GlobalNamespace::CommandBufferBlurryScreenGrab::CamerasDict)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f3cc58;
+  constexpr static std::size_t addrs = 0x5f410c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CameraEvent (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(
     &::GlobalNamespace::CommandBufferBlurryScreenGrab::CommandBufferCameraEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3ccb4;
+  constexpr static std::size_t addrs = 0x5f41120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(&::GlobalNamespace::CommandBufferBlurryScreenGrab::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f3ccbc;
+  constexpr static std::size_t addrs = 0x5f41128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandBufferBlurryScreenGrab*>(), { ".ctor", {}, {} })));

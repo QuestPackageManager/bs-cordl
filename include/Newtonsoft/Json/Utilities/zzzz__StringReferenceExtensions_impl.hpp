@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringReferenceExtensions.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\StringReferenceExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringReferenceExtensions_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringReference_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Newtonsoft::Json::Utilities::StringReference, char16_t, int32_t, int32_t)>(
     &::Newtonsoft::Json::Utilities::StringReferenceExtensions::IndexOf)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5d2f3e0;
+  constexpr static std::size_t addrs = 0x5d3389c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ::StringW)>(&::Newtonsoft::Json::Utilities::StringReferenceExtensions::StartsWith)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5d2f468;
+  constexpr static std::size_t addrs = 0x5d33924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ::StringW)>(&::Newtonsoft::Json::Utilities::StringReferenceExtensions::EndsWith)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d2f508;
+  constexpr static std::size_t addrs = 0x5d339c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

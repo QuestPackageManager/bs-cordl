@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/OriginatorInformation.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\OriginatorInformation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,15 +28,15 @@ public:
   /// @brief Field originatorInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_originatorInfo, put = __cordl_internal_set_originatorInfo)) ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo;
 
-  /// @brief Method GetCertificates, addr 0x36cdcac, size 0x508, virtual true, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x36d1a6c, size 0x508, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates();
 
-  /// @brief Method GetCrls, addr 0x36ce1b4, size 0x508, virtual true, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x36d1f74, size 0x508, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls();
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 
-  /// @brief Method ToAsn1Structure, addr 0x36ce6bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x36d247c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* ToAsn1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* const& __cordl_internal_get_originatorInfo() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
 
-  /// @brief Method .ctor, addr 0x36cdca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d1a64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 
 protected:

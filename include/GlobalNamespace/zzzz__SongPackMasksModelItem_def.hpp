@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SongPackMasksModelItem.hpp"
+// IWYU pragma private; include "GlobalNamespace\SongPackMasksModelItem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,10 +50,10 @@ public:
 
   static inline ::GlobalNamespace::SongPackMasksModelItem___c* New_ctor();
 
-  /// @brief Method <GetSongPackMask>b__7_0, addr 0x3739628, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GetSongPackMask>b__7_0, addr 0x373f198, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _GetSongPackMask_b__7_0(::GlobalNamespace::PackDefinitionSO* pack);
 
-  /// @brief Method .ctor, addr 0x3739624, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x373f194, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SongPackMasksModelItem___c* getStaticF___9();
@@ -79,7 +79,7 @@ public:
   SongPackMasksModelItem___c(SongPackMasksModelItem___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15119 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -115,7 +115,7 @@ public:
 
   __declspec(property(get = get_serializedName)) ::StringW serializedName;
 
-  /// @brief Method GetSongPackMask, addr 0x3739158, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetSongPackMask, addr 0x373ecc8, size 0x198, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SongPackMask GetSongPackMask(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
   static inline ::GlobalNamespace::SongPackMasksModelItem* New_ctor();
@@ -150,13 +150,13 @@ public:
 
   constexpr void __cordl_internal_set__type(::GlobalNamespace::SongPackDataType value);
 
-  /// @brief Method .ctor, addr 0x37395cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x373f13c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_containsMultiplePacks, addr 0x37392f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_containsMultiplePacks, addr 0x373ee60, size 0x10, virtual false, abstract: false, final false
   inline bool get_containsMultiplePacks();
 
-  /// @brief Method get_serializedName, addr 0x373913c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_serializedName, addr 0x373ecac, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_serializedName();
 
 protected:
@@ -174,7 +174,7 @@ public:
   SongPackMasksModelItem(SongPackMasksModelItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15120 };
 
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::SongPackDataType ____type;

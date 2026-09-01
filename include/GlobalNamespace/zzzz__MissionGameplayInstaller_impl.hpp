@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionGameplayInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionGameplayInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionGameplayInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__MissionGameplaySceneSetupData_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionGameplayInstaller::*)()>(&::GlobalNamespace::MissionGameplayInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x591b650;
+  constexpr static std::size_t addrs = 0x591f00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionGameplayInstaller::*)()>(&::GlobalNamespace::MissionGameplayInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x591bb5c;
+  constexpr static std::size_t addrs = 0x591f518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionGameplayInstaller*>(), { ".ctor", {}, {} })));

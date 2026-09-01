@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/IDebugPanelChangeReceiver.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\IDebugPanelChangeReceiver.hpp"
 #include "UnityEngine/UIElements/zzzz__IDebugPanelChangeReceiver_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"

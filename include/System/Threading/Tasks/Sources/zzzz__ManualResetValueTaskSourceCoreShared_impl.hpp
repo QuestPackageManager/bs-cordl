@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/Sources/ManualResetValueTaskSourceCoreShared.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\Sources\ManualResetValueTaskSourceCoreShared.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ManualResetValueTaskSourceCoreShared_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCoreShared::ThrowInvalidOperationException)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5cc46d4;
+  constexpr static std::size_t addrs = 0x5cc8b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCoreShared::CompletionSentinel)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5cc470c;
+  constexpr static std::size_t addrs = 0x5cc8bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::Sources::ManualResetValueTaskSourceCoreShared*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerFoldout.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerFoldout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,28 +52,28 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerFoldout* New_ctor();
 
-  /// @brief Method Next, addr 0x67fbe0c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x6803888, size 0xcc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
 
-  /// @brief Method OnAction, addr 0x67fbdec, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnAction, addr 0x6803868, size 0x20, virtual true, abstract: false, final false
   inline void OnAction();
 
-  /// @brief Method OnDecrement, addr 0x67fbdd4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x6803850, size 0x18, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnDeselection, addr 0x67fbd8c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6803808, size 0x2c, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnIncrement, addr 0x67fbdb8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x6803834, size 0x1c, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method OnSelection, addr 0x67fbca0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x680371c, size 0xec, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x67fb910, size 0x368, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x680338c, size 0x368, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValue, addr 0x67fbc78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UpdateValue, addr 0x68036f4, size 0x28, virtual false, abstract: false, final false
   inline void UpdateValue();
 
   constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> const& __cordl_internal_get_m_Container() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_valueToggle(::UnityW<::UnityEngine::Rendering::UI::UIFoldout> value);
 
-  /// @brief Method .ctor, addr 0x67fbed8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6803954, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +118,7 @@ public:
   DebugUIHandlerFoldout(DebugUIHandlerFoldout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12521 };
 
   /// @brief Field k_FoldoutXOffset offset 0xffffffff size 0x4
   static constexpr float_t k_FoldoutXOffset{ static_cast<float_t>(215.0f) };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/SerializableDictionary_3.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\SerializableDictionary_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   SerializableDictionary_3(SerializableDictionary_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

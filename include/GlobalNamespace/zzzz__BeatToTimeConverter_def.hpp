@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatToTimeConverter.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatToTimeConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   /// @brief Field _bpmTimeProcessor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bpmTimeProcessor, put = __cordl_internal_set__bpmTimeProcessor)) ::GlobalNamespace::IBeatToTimeConverter* _bpmTimeProcessor;
 
-  /// @brief Method BeatToTime, addr 0x370fb44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method BeatToTime, addr 0x37159c8, size 0xb4, virtual false, abstract: false, final false
   inline float_t BeatToTime(float_t beat);
 
   static inline ::GlobalNamespace::BeatToTimeConverter* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__bpmTimeProcessor(::GlobalNamespace::IBeatToTimeConverter* value);
 
-  /// @brief Method .ctor, addr 0x370fb3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37159c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:
@@ -55,7 +55,7 @@ public:
   BeatToTimeConverter(BeatToTimeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14902 };
 
   /// @brief Field _bpmTimeProcessor, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatToTimeConverter* ____bpmTimeProcessor;

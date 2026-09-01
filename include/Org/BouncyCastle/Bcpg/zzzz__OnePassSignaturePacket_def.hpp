@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OnePassSignaturePacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OnePassSignaturePacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +60,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  /// @brief Method Encode, addr 0x369ace4, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x369eaa4, size 0x178, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -104,22 +104,22 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3697344, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369b104, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x369aca4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369ea64, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t sigType, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, int64_t keyId, bool isNested);
 
-  /// @brief Method get_HashAlgorithm, addr 0x369acd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x369ea94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x369accc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAlgorithm, addr 0x369ea8c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm();
 
-  /// @brief Method get_KeyId, addr 0x369acdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x369ea9c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_SignatureType, addr 0x369acc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureType, addr 0x369ea84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SignatureType();
 
 protected:

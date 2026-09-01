@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/SafeGPtrArrayHandle.hpp"
+// IWYU pragma private; include "Mono\SafeGPtrArrayHandle.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,16 +34,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x5aa9c98, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5aae154, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x5aa9c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aae14c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Item, addr 0x5aa9cf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5aae1b4, size 0x4, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x5aa9ce0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x5aae19c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::IDisposable"

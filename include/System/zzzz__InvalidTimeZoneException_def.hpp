@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/InvalidTimeZoneException.hpp"
+// IWYU pragma private; include "System\InvalidTimeZoneException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::InvalidTimeZoneException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5c44750, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c48c0c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c44814, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c48cd0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c447a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c48c64, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

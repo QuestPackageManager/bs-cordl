@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RunSongConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\RunSongConsoleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,10 +119,10 @@ public:
 
   static inline ::GlobalNamespace::RunSongConsoleCommand___c* New_ctor();
 
-  /// @brief Method <ExecuteAsync>b__26_0, addr 0x32e087c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteAsync>b__26_0, addr 0x32e4678, size 0x68, virtual false, abstract: false, final false
   inline ::StringW _ExecuteAsync_b__26_0(::GlobalNamespace::BeatmapDifficulty x);
 
-  /// @brief Method .ctor, addr 0x32e0878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e4674, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::RunSongConsoleCommand___c* getStaticF___9();
@@ -148,7 +148,7 @@ public:
   RunSongConsoleCommand___c(RunSongConsoleCommand___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19412 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,10 +167,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32e08e4, size 0x1340, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32e46e0, size 0x1340, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32e1c24, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32e5a20, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -197,7 +197,7 @@ public:
                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19413 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -297,21 +297,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x32e1ca8, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32e5aa4, size 0x148, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32e1df0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x32e5bec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32e1df8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x32e5bf4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32e1e30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x32e5c2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x32e1ca4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x32e5aa0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -332,7 +332,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::RunSongConsoleCommand* value);
 
-  /// @brief Method .ctor, addr 0x32dfeec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e3ce8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -359,7 +359,7 @@ public:
   RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29(RunSongConsoleCommand__WaitUntilSongQueueEmptyCoroutine_d__29 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19414 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -456,27 +456,27 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32dfb40, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x32e393c, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method Initialize, addr 0x32df5e8, size 0x558, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x32e33e4, size 0x558, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::RunSongConsoleCommand* New_ctor();
 
-  /// @brief Method TryGetLevelCharacteristic, addr 0x32dfc34, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method TryGetLevelCharacteristic, addr 0x32e3a30, size 0x118, virtual false, abstract: false, final false
   inline bool TryGetLevelCharacteristic(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW characteristic, ::by_ref<::GlobalNamespace::BeatmapCharacteristic> characteristicEnum);
 
-  /// @brief Method WaitUntilSongQueueEmpty, addr 0x32dfd4c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilSongQueueEmpty, addr 0x32e3b48, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitUntilSongQueueEmpty();
 
-  /// @brief Method WaitUntilSongQueueEmptyCoroutine, addr 0x32dfe98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilSongQueueEmptyCoroutine, addr 0x32e3c94, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitUntilSongQueueEmptyCoroutine();
 
-  /// @brief Method <WaitUntilSongQueueEmptyCoroutine>b__29_0, addr 0x32e07d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <WaitUntilSongQueueEmptyCoroutine>b__29_0, addr 0x32e45cc, size 0x54, virtual false, abstract: false, final false
   inline bool _WaitUntilSongQueueEmptyCoroutine_b__29_0();
 
-  /// @brief Method <WaitUntilSongQueueEmpty>b__28_0, addr 0x32e07a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <WaitUntilSongQueueEmpty>b__28_0, addr 0x32e45a4, size 0x28, virtual false, abstract: false, final false
   inline bool _WaitUntilSongQueueEmpty_b__28_0();
 
   constexpr ::GlobalNamespace::OptionalArgument_1<bool>* const& __cordl_internal_get__advancedHud() const;
@@ -593,13 +593,13 @@ public:
 
   constexpr void __cordl_internal_set__zenMode(::GlobalNamespace::OptionalArgument_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x32dfef4, size 0x8b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e3cf0, size 0x8b4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32df560, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x32e335c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32df5a4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x32e33a0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -617,7 +617,7 @@ public:
   RunSongConsoleCommand(RunSongConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19415 };
 
   /// @brief Field kSkipSongQueueCommand offset 0xffffffff size 0x8
   static constexpr ::ConstString kSkipSongQueueCommand{ u"skip" };

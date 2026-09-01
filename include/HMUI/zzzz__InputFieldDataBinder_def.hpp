@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/InputFieldDataBinder.hpp"
+// IWYU pragma private; include "HMUI\InputFieldDataBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -99,7 +99,7 @@ public:
   InputFieldDataBinder___c__3_1(InputFieldDataBinder___c__3_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -176,7 +176,7 @@ public:
   InputFieldDataBinder___c__DisplayClass2_0_2(InputFieldDataBinder___c__DisplayClass2_0_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19024 };
 
   /// @brief Field toValueConvertor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::StringW, T1>* ___toValueConvertor;
@@ -217,7 +217,7 @@ public:
   /// @brief Method AddStringBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x5876ac0, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x5876400, size 0x2cc, virtual false, abstract: false, final false
   inline void ClearBindings();
 
   static inline ::HMUI::InputFieldDataBinder* New_ctor();
@@ -233,7 +233,7 @@ public:
   constexpr void __cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*,
                                                                                                          ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* value);
 
-  /// @brief Method .ctor, addr 0x5876a4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587638c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -251,7 +251,7 @@ public:
   InputFieldDataBinder(InputFieldDataBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19025 };
 
   /// @brief Field _bindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<

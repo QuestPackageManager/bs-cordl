@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\LocalLeaderboardViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,10 +73,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5946c58, size 0x2e8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x594a5c8, size 0x2e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5946f40, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x594a8b0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -94,7 +94,7 @@ public:
                                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6917 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -178,45 +178,45 @@ public:
 
   __declspec(property(get = get_leaderboardsModel)) ::GlobalNamespace::LocalLeaderboardsModel* leaderboardsModel;
 
-  /// @brief Method ClearLeaderboardsAsync, addr 0x5946a08, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ClearLeaderboardsAsync, addr 0x594a378, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ClearLeaderboardsAsync();
 
-  /// @brief Method DidActivate, addr 0x5946258, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5949bc8, size 0x1f0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5946858, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x594a1c8, size 0x114, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleNewScoreWasAddedToLeaderboard, addr 0x5946b34, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleNewScoreWasAddedToLeaderboard, addr 0x594a4a4, size 0xa8, virtual false, abstract: false, final false
   inline void HandleNewScoreWasAddedToLeaderboard(::StringW leaderboardID, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType leaderboardType);
 
-  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x594670c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x594a07c, size 0x14c, virtual false, abstract: false, final false
   inline void HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   static inline ::GlobalNamespace::LocalLeaderboardViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x594696c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x594a2dc, size 0x9c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x59460e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5949a54, size 0x84, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Refresh, addr 0x59461f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5949b60, size 0x68, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method RefreshScopeSegmentedControl, addr 0x5946448, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method RefreshScopeSegmentedControl, addr 0x5949db8, size 0x2c4, virtual false, abstract: false, final false
   inline void RefreshScopeSegmentedControl();
 
-  /// @brief Method SetContent, addr 0x5946ab8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x594a428, size 0x7c, virtual false, abstract: false, final false
   inline void SetContent(::StringW leaderboardID, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType leaderboardType);
 
-  /// @brief Method SetData, addr 0x5946170, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method SetData, addr 0x5949ae0, size 0x80, virtual true, abstract: false, final false
   inline void SetData(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method Setup, addr 0x5946168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5949ad8, size 0x8, virtual false, abstract: false, final false
   inline void Setup(bool enableClear);
 
-  /// @brief Method <DidActivate>b__22_0, addr 0x5946be8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__22_0, addr 0x594a558, size 0x70, virtual false, abstract: false, final false
   inline void _DidActivate_b__22_0();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__allTimeLeaderboardIcon() const;
@@ -297,12 +297,12 @@ public:
 
   constexpr void __cordl_internal_set__todayLeaderboardIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x5946bdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x594a54c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType getStaticF__leaderboardType();
 
-  /// @brief Method get_leaderboardsModel, addr 0x59460dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leaderboardsModel, addr 0x5949a4c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LocalLeaderboardsModel* get_leaderboardsModel();
 
   static inline void setStaticF__leaderboardType(::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType value);
@@ -322,7 +322,7 @@ public:
   LocalLeaderboardViewController(LocalLeaderboardViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6918 };
 
   /// @brief Field kButtonHighscoresAllTimeLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kButtonHighscoresAllTimeLocalizationKey{ u"BUTTON_HIGHSCORES_ALL_TIME" };

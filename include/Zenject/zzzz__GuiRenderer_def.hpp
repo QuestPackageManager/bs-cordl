@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/GuiRenderer.hpp"
+// IWYU pragma private; include "Zenject\GuiRenderer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,12 +32,12 @@ public:
   /// @brief Field _renderableManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__renderableManager, put = __cordl_internal_set__renderableManager)) ::Zenject::GuiRenderableManager* _renderableManager;
 
-  /// @brief Method Construct, addr 0x6e89ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x6e91b74, size 0x8, virtual false, abstract: false, final false
   inline void Construct(::Zenject::GuiRenderableManager* renderableManager);
 
   static inline ::Zenject::GuiRenderer* New_ctor();
 
-  /// @brief Method OnGUI, addr 0x6e89ff8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnGUI, addr 0x6e91b7c, size 0x14, virtual false, abstract: false, final false
   inline void OnGUI();
 
   constexpr ::Zenject::GuiRenderableManager* const& __cordl_internal_get__renderableManager() const;
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__renderableManager(::Zenject::GuiRenderableManager* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e8a0fc, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e91c80, size 0x2cc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x6e8a010, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x6e91b94, size 0xec, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*> P_1);
 
-  /// @brief Method .ctor, addr 0x6e8a00c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e91b90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   GuiRenderer(GuiRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14670 };
 
   /// @brief Field _renderableManager, offset: 0x20, size: 0x8, def value: None
   ::Zenject::GuiRenderableManager* ____renderableManager;

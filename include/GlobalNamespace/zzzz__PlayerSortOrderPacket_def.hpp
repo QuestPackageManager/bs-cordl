@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerSortOrderPacket.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerSortOrderPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,18 +48,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x3329eb8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x332dc78, size 0x50, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x3329f60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x332dd20, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSortOrderPacket* Init(::StringW userId, int32_t sortIndex);
 
   static inline ::GlobalNamespace::PlayerSortOrderPacket* New_ctor();
 
-  /// @brief Method Release, addr 0x3329f08, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x332dcc8, size 0x58, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x3329e64, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x332dc24, size 0x54, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr int32_t const& __cordl_internal_get_sortIndex() const;
@@ -74,10 +74,10 @@ public:
 
   constexpr void __cordl_internal_set_userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3329f6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332dd2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0x3329e20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x332dbe0, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PlayerSortOrderPacket*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -101,7 +101,7 @@ public:
   PlayerSortOrderPacket(PlayerSortOrderPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18129 };
 
   /// @brief Field userId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___userId;

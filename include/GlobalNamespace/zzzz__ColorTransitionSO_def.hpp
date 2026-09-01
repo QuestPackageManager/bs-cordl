@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorTransitionSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,25 +94,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x643efa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6446a1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor, addr 0x643ef7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor, addr 0x64469f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor();
 
-  /// @brief Method get_highlightedColor, addr 0x643ef64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedColor, addr 0x64469e0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightedColor();
 
-  /// @brief Method get_normalColor, addr 0x643ef58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor, addr 0x64469d4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor();
 
-  /// @brief Method get_pressedColor, addr 0x643ef70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor, addr 0x64469ec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor();
 
-  /// @brief Method get_selectedAndHighlightedColor, addr 0x643ef94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor, addr 0x6446a10, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor();
 
-  /// @brief Method get_selectedColor, addr 0x643ef88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor, addr 0x6446a04, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor();
 
 protected:
@@ -130,7 +130,7 @@ public:
   ColorTransitionSO(ColorTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22379 };
 
   /// @brief Field _normalColor, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____normalColor;

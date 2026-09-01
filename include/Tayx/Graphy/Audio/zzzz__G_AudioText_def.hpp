@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Audio/G_AudioText.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Audio\G_AudioText.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,18 +45,18 @@ public:
   /// @brief Field m_updateRate, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_m_updateRate, put = __cordl_internal_set_m_updateRate)) int32_t m_updateRate;
 
-  /// @brief Method Awake, addr 0x643a5a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6442024, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x6439ff4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6441a70, size 0x11c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioText* New_ctor();
 
-  /// @brief Method Update, addr 0x643a5ac, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6442028, size 0x118, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x6439fd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x6441a54, size 0x1c, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_DBText() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_updateRate(int32_t value);
 
-  /// @brief Method .ctor, addr 0x643a6c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6442140, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   G_AudioText(G_AudioText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21506 };
 
   /// @brief Field m_DBText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_DBText;

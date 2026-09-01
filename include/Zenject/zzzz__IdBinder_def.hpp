@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/IdBinder.hpp"
+// IWYU pragma private; include "Zenject\IdBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
 
   static inline ::Zenject::IdBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithId, addr 0x6e550a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x6e5cc28, size 0x18, virtual false, abstract: false, final false
   inline void WithId(::System::Object* identifier);
 
   constexpr ::Zenject::BindInfo* const& __cordl_internal_get__bindInfo() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__bindInfo(::Zenject::BindInfo* value);
 
-  /// @brief Method .ctor, addr 0x6e5509c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e5cc20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -57,7 +57,7 @@ public:
   IdBinder(IdBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14274 };
 
   /// @brief Field _bindInfo, offset: 0x10, size: 0x8, def value: None
   ::Zenject::BindInfo* ____bindInfo;

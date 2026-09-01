@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ConnectionFailedReasonMethods.hpp"
+// IWYU pragma private; include "GlobalNamespace\ConnectionFailedReasonMethods.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +23,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConnectionFailedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ErrorCode, addr 0x3730dd8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x3736948, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method LocalizedKey, addr 0x3730ca8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x3736818, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
 protected:
@@ -44,7 +44,7 @@ public:
   ConnectionFailedReasonMethods(ConnectionFailedReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15087 };
 
   /// @brief Field kConnectionFailedConnectionCanceled offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedConnectionCanceled{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };

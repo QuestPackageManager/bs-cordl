@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SHCoefficients.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SHCoefficients.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,37 +36,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::SHCoefficients>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::SHCoefficients>*();
 
-  /// @brief Method Equals, addr 0x67adaec, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x67b5568, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x67ad8e0, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x67b535c, size 0x20c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::SHCoefficients other);
 
-  /// @brief Method GetHashCode, addr 0x67adb80, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x67b55fc, size 0x17c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSHA, addr 0x67ad738, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetSHA, addr 0x67b51b4, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetSHA(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, int32_t i);
 
-  /// @brief Method GetSHB, addr 0x67ad7e0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetSHB, addr 0x67b525c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetSHB(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, int32_t i);
 
-  /// @brief Method GetSHC, addr 0x67ad874, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetSHC, addr 0x67b52f0, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetSHC(::UnityEngine::Rendering::SphericalHarmonicsL2 sh);
 
-  /// @brief Method .ctor, addr 0x67ad5e0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b505c, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::SphericalHarmonicsL2 sh);
 
-  /// @brief Method .ctor, addr 0x67ad888, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b5304, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::SphericalHarmonicsL2 sh, ::UnityEngine::Vector4 probesOcclusion);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::SHCoefficients>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SHCoefficients>* i___System__IEquatable_1___UnityEngine__Rendering__SHCoefficients_();
 
-  /// @brief Method op_Equality, addr 0x67adcfc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x67b5778, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::SHCoefficients left, ::UnityEngine::Rendering::SHCoefficients right);
 
-  /// @brief Method op_Inequality, addr 0x67add30, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x67b57ac, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::SHCoefficients left, ::UnityEngine::Rendering::SHCoefficients right);
 
   // Ctor Parameters []
@@ -81,7 +81,7 @@ public:
                            ::UnityEngine::Vector4 SHC, ::UnityEngine::Vector4 ProbesOcclusion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12255 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };

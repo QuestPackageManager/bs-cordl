@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/Field/PrimeField.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\Field\PrimeField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
-  /// @brief Method Equals, addr 0x352f48c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x353324c, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x352f548, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3533308, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Math::Field::PrimeField* New_ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_characteristic(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x352ee20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3532be0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
-  /// @brief Method get_Characteristic, addr 0x352f47c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Characteristic, addr 0x353323c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
 
-  /// @brief Method get_Dimension, addr 0x352f484, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Dimension, addr 0x3533244, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Dimension();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"

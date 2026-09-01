@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/UnixNetworkInterface.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\UnixNetworkInterface.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,12 +54,12 @@ public:
   /// @brief Field type, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Net::NetworkInformation::NetworkInterfaceType type;
 
-  /// @brief Method AddAddress, addr 0x634c8d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddAddress, addr 0x6354354, size 0xb4, virtual false, abstract: false, final false
   inline void AddAddress(::System::Net::IPAddress* address);
 
   static inline ::System::Net::NetworkInformation::UnixNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method SetLinkLayerInfo, addr 0x634c98c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLinkLayerInfo, addr 0x6354408, size 0xc, virtual false, abstract: false, final false
   inline void SetLinkLayerInfo(int32_t index, ::ArrayW<uint8_t> macAddress, ::System::Net::NetworkInformation::NetworkInterfaceType type);
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* const& __cordl_internal_get_addresses() const;
@@ -92,13 +92,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Net::NetworkInformation::NetworkInterfaceType value);
 
-  /// @brief Method .ctor, addr 0x634c9a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635441c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x634f92c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x63573a8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NetworkInterfaceType, addr 0x634f934, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NetworkInterfaceType, addr 0x63573b0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
 protected:
@@ -116,7 +116,7 @@ public:
   UnixNetworkInterface(UnixNetworkInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11716 };
 
   /// @brief Field ipproperties, offset: 0x10, size: 0x8, def value: None
   ::System::Net::NetworkInformation::IPInterfaceProperties* ___ipproperties;

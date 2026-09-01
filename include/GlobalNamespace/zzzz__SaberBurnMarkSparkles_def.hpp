@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SaberBurnMarkSparkles.hpp"
+// IWYU pragma private; include "GlobalNamespace\SaberBurnMarkSparkles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,24 +85,24 @@ public:
   /// @brief Field kRenderOffset, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_kRenderOffset, put = __cordl_internal_set_kRenderOffset)) ::UnityEngine::Vector3 kRenderOffset;
 
-  /// @brief Method GetBurnMarkPos, addr 0x5984640, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x5987fe0, size 0x45c, virtual false, abstract: false, final false
   inline bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method LateUpdate, addr 0x5984a9c, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x598843c, size 0x450, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkSparkles* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5984250, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5987bf0, size 0xf8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x598455c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5987efc, size 0xe4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5984348, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5987ce8, size 0x214, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x5983e30, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59877d0, size 0x420, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityEngine::ParticleSystem_EmissionModule> const& __cordl_internal_get__burnMarksEmissionModules() const;
@@ -189,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set_kRenderOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x5984eec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598888c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

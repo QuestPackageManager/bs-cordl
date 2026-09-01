@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/ExposedProperty.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\ExposedProperty.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__ExposedProperty_def.hpp"
 //  Writing Method size for method: ::UnityEngine::VFX::Utility::ExposedProperty.op_Implicit___UnityEngine__VFX__Utility__ExposedProperty_
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::Utility::ExposedProperty* (*)(::StringW)>(
     &::UnityEngine::VFX::Utility::ExposedProperty::op_Implicit___UnityEngine__VFX__Utility__ExposedProperty_)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x69c9a30;
+  constexpr static std::size_t addrs = 0x69d14ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::VFX::Utility::ExposedProperty*)>(&::UnityEngine::VFX::Utility::ExposedProperty::op_Explicit___StringW)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69da7bc;
+  constexpr static std::size_t addrs = 0x69e2238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::ExposedProperty*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::VFX::Utility::ExposedProperty*)>(&::UnityEngine::VFX::Utility::ExposedProperty::op_Implicit_int32_t)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x69cf940;
+  constexpr static std::size_t addrs = 0x69d73bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::ExposedProperty*>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::Utility::ExposedProperty* (*)(::UnityEngine::VFX::Utility::ExposedProperty*, ::UnityEngine::VFX::Utility::ExposedProperty*)>(
     &::UnityEngine::VFX::Utility::ExposedProperty::op_Addition)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x69da7d0;
+  constexpr static std::size_t addrs = 0x69e224c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::ExposedProperty::*)()>(&::UnityEngine::VFX::Utility::ExposedProperty::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69da858;
+  constexpr static std::size_t addrs = 0x69e22d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::ExposedProperty*>(), { ".ctor", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::ExposedProperty::*)(::StringW)>(&::UnityEngine::VFX::Utility::ExposedProperty::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69da7ac;
+  constexpr static std::size_t addrs = 0x69e2228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::ExposedProperty::*)()>(&::UnityEngine::VFX::Utility::ExposedProperty::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69da864;
+  constexpr static std::size_t addrs = 0x69e22e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

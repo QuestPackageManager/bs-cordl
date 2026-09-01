@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SignalCallbackWrapper.hpp"
+// IWYU pragma private; include "Zenject\SignalCallbackWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,12 +56,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6e3df44, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e45ac8, size 0xb0, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::SignalCallbackWrapper* New_ctor(::Zenject::SignalBindingBindInfo* bindInfo, ::System::Action_1<::System::Object*>* action, ::Zenject::SignalBus* signalBus);
 
-  /// @brief Method OnSignalFired, addr 0x6e3df24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnSignalFired, addr 0x6e45aa8, size 0x20, virtual false, abstract: false, final false
   inline void OnSignalFired(::System::Object* signal);
 
   constexpr ::System::Action_1<::System::Object*>* const& __cordl_internal_get__action() const;
@@ -88,13 +88,13 @@ public:
 
   constexpr void __cordl_internal_set__signalType(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x6e3dff4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6e45b78, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e3e178, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e45cfc, size 0x360, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x6e3de58, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e459dc, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalBindingBindInfo* bindInfo, ::System::Action_1<::System::Object*>* action, ::Zenject::SignalBus* signalBus);
 
   /// @brief Convert to "::System::IDisposable"
@@ -115,7 +115,7 @@ public:
   SignalCallbackWrapper(SignalCallbackWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14002 };
 
   /// @brief Field _signalBus, offset: 0x10, size: 0x8, def value: None
   ::Zenject::SignalBus* ____signalBus;

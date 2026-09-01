@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlatformAuthenticationTokenProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlatformAuthenticationTokenProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,10 +67,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f3c468, size 0x368, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f408d4, size 0x368, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5f3c7d0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f40c3c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -90,7 +90,7 @@ public:
                                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23599 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -162,10 +162,10 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAuthenticationTokenProvider"
   constexpr operator ::GlobalNamespace::IAuthenticationTokenProvider*() noexcept;
 
-  /// @brief Method GetTokenPlatform, addr 0x5f3c36c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTokenPlatform, addr 0x5f407d8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken_PlatformType GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
-  /// @brief Method GetXPlatformAccessToken, addr 0x5f3c374, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method GetXPlatformAccessToken, addr 0x5f407e0, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCacheRead);
 
   static inline ::GlobalNamespace::PlatformAuthenticationTokenProvider* New_ctor(::OculusStudios::Platform::Core::IPlatform* platform, ::GlobalNamespace::UserInfo* userInfo);
@@ -200,16 +200,16 @@ public:
 
   constexpr void __cordl_internal_set__userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f3c314, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f40780, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::Platform::Core::IPlatform* platform, ::GlobalNamespace::UserInfo* userInfo);
 
-  /// @brief Method get_hashedUserId, addr 0x5f3c2fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hashedUserId, addr 0x5f40768, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_hashedUserId();
 
-  /// @brief Method get_platformType, addr 0x5f3c30c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_platformType, addr 0x5f40778, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken_PlatformType get_platformType();
 
-  /// @brief Method get_userName, addr 0x5f3c304, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x5f40770, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::BGNet::Core::IPlatformAccessTokenFetcher"
@@ -233,7 +233,7 @@ public:
   PlatformAuthenticationTokenProvider(PlatformAuthenticationTokenProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23600 };
 
   /// @brief Field _platform, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::Platform::Core::IPlatform* ____platform;

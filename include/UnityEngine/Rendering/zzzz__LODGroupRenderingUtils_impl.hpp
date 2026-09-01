@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LODGroupRenderingUtils.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LODGroupRenderingUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LODGroupRenderingUtils_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateFOVHalfAngle)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x682a6f4;
+  constexpr static std::size_t addrs = 0x6832170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Rendering::LODParameters, float_t)>(
     &::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateScreenRelativeMetric)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x682a70c;
+  constexpr static std::size_t addrs = 0x6832188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::UnityEngine::Rendering::LODGroupRenderingUtils::CalculatePerspectiveDistance)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x682a760;
+  constexpr static std::size_t addrs = 0x68321dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateSqrPerspectiveDistance)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x682a78c;
+  constexpr static std::size_t addrs = 0x6832208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldReferencePoint)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x682a7b4;
+  constexpr static std::size_t addrs = 0x6832230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceScale)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x682a7f8;
+  constexpr static std::size_t addrs = 0x6832274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::GetWorldSpaceSize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x682a83c;
+  constexpr static std::size_t addrs = 0x68322b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LODGroupRenderingUtils::CalculateLODDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6829630;
+  constexpr static std::size_t addrs = 0x68310ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LODGroupRenderingUtils*>(),

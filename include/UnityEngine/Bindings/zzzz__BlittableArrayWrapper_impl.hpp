@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/BlittableArrayWrapper.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\BlittableArrayWrapper.hpp"
 #include "UnityEngine/Bindings/zzzz__BlittableArrayWrapper_def.hpp"
 #include "UnityEngine/Bindings/zzzz__BlittableArrayWrapper_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::BlittableArrayWrapper::*)(void*, int32_t)>(&::UnityEngine::Bindings::BlittableArrayWrapper::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6af749c;
+  constexpr static std::size_t addrs = 0x6afeeb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

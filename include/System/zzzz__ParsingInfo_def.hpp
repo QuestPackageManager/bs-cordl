@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ParsingInfo.hpp"
+// IWYU pragma private; include "System\ParsingInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ namespace System {
 struct CORDL_TYPE ParsingInfo {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x5c3c418, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5c408d4, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters []

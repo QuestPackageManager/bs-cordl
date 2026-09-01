@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NullAllowedAttribute.hpp"
+// IWYU pragma private; include "GlobalNamespace\NullAllowedAttribute.hpp"
 #include "GlobalNamespace/zzzz__NullAllowedContext_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowedAttribute_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NullAllowedAttribute::*)(::GlobalNamespace::NullAllowedContext)>(&::GlobalNamespace::NullAllowedAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3307670;
+  constexpr static std::size_t addrs = 0x330b46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NullAllowedAttribute::*)(::GlobalNamespace::NullAllowedContext)>(
     &::GlobalNamespace::NullAllowedAttribute::IsNullAllowedFor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x330767c;
+  constexpr static std::size_t addrs = 0x330b478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

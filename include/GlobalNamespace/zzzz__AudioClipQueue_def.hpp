@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioClipQueue.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioClipQueue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x58b4dc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b4730, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t delay);
 
 protected:
@@ -109,15 +109,15 @@ public:
   /// @brief Field _queue, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__queue, put = __cordl_internal_set__queue)) ::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>* _queue;
 
-  /// @brief Method Awake, addr 0x58b4a84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58b43ec, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AudioClipQueue* New_ctor();
 
-  /// @brief Method PlayAudioClipWithDelay, addr 0x58b4cd8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PlayAudioClipWithDelay, addr 0x58b4640, size 0xf0, virtual false, abstract: false, final false
   inline void PlayAudioClipWithDelay(::UnityEngine::AudioClip* audioClip, float_t delay);
 
-  /// @brief Method Update, addr 0x58b4aa0, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58b4408, size 0x238, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__queue(::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>* value);
 
-  /// @brief Method .ctor, addr 0x58b4dd4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b473c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

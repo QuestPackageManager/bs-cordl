@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightsAnimator.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightsAnimator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,21 +82,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x59b6568, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59be26c, size 0xf4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::LightsAnimator__DisableDirectionalLightsCoroutine_d__11* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59b665c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59be360, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59b6664, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59be368, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59b669c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59be3a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x59b6564, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59be268, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x59b6558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59be25c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -150,7 +150,7 @@ public:
   LightsAnimator__DisableDirectionalLightsCoroutine_d__11(LightsAnimator__DisableDirectionalLightsCoroutine_d__11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6078 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -199,30 +199,30 @@ public:
   /// @brief Field _tweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method AnimateToColor, addr 0x59b3614, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AnimateToColor, addr 0x59bb314, size 0x110, virtual false, abstract: false, final false
   inline void AnimateToColor(::UnityEngine::Color color, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method Awake, addr 0x59b6268, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59bdf6c, size 0xe0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DisableDirectionalLights, addr 0x59b64c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisableDirectionalLights, addr 0x59be1c4, size 0x34, virtual false, abstract: false, final false
   inline void DisableDirectionalLights(float_t delay);
 
-  /// @brief Method DisableDirectionalLightsCoroutine, addr 0x59b64f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DisableDirectionalLightsCoroutine, addr 0x59be1f8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DisableDirectionalLightsCoroutine(float_t delay);
 
   static inline ::GlobalNamespace::LightsAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59b6348, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59be04c, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0x59b63d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x59be0d8, size 0x1c, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetLightsColor, addr 0x59b63f0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetLightsColor, addr 0x59be0f4, size 0xd0, virtual false, abstract: false, final false
   inline void SetLightsColor(::UnityEngine::Color color);
 
-  /// @brief Method SetLightsWidth, addr 0x59b3ac0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetLightsWidth, addr 0x59bb7c4, size 0x4c, virtual false, abstract: false, final false
   inline void SetLightsWidth(float_t width);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>> const& __cordl_internal_get__directionalLights() const;
@@ -249,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x59b6560, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59be264, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -267,7 +267,7 @@ public:
   LightsAnimator(LightsAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6079 };
 
   /// @brief Field _lights, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> ____lights;

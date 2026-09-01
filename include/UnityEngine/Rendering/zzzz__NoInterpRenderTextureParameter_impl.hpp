@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/NoInterpRenderTextureParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\NoInterpRenderTextureParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__NoInterpRenderTextureParameter_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::NoInterpRenderTextureParameter::*)(::UnityEngine::RenderTexture*, bool)>(
     &::UnityEngine::Rendering::NoInterpRenderTextureParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67c6430;
+  constexpr static std::size_t addrs = 0x67cdeac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpRenderTextureParameter*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::NoInterpRenderTextureParameter::*)()>(
     &::UnityEngine::Rendering::NoInterpRenderTextureParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x67c6494;
+  constexpr static std::size_t addrs = 0x67cdf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::NoInterpRenderTextureParameter*>(),

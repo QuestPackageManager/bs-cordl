@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/IPointerOrMouseEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\IPointerOrMouseEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerOrMouseEvent_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IPointerOrMouseEvent.get_pointerId

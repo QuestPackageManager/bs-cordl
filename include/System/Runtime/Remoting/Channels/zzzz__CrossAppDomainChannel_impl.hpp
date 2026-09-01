@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Channels/CrossAppDomainChannel.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Channels\CrossAppDomainChannel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__CrossAppDomainChannel_def.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__IChannelReceiver_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Remoting::Channels::CrossAppDomainChannel::RegisterCrossAppDomainChannel)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5b297e8;
+  constexpr static std::size_t addrs = 0x5b2dca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::get_ChannelName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5b37518;
+  constexpr static std::size_t addrs = 0x5b3b9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::CrossAppDomainChannel*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::get_ChannelPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b3755c;
+  constexpr static std::size_t addrs = 0x5b3ba18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::CrossAppDomainChannel*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::get_ChannelData)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5b37564;
+  constexpr static std::size_t addrs = 0x5b3ba20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::CrossAppDomainChannel*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::StartListening)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b375c4;
+  constexpr static std::size_t addrs = 0x5b3ba80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::CrossAppDomainChannel*>(),
@@ -83,7 +83,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)(::StringW, ::System::Object*, ::by_ref<::StringW>)>(
         &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::CreateMessageSink)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5b375c8;
+  constexpr static std::size_t addrs = 0x5b3ba84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::CrossAppDomainChannel*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainChannel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b37514;
+  constexpr static std::size_t addrs = 0x5b3b9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::CrossAppDomainChannel*>(), { ".ctor", {}, {} })));

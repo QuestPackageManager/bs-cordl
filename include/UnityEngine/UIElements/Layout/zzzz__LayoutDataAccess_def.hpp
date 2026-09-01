@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutDataAccess.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutDataAccess.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,25 +56,25 @@ public:
   // Declarations
   __declspec(property(get = get_IsValid)) bool IsValid;
 
-  /// @brief Method GetBaselineFunction, addr 0x6cfb5c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetBaselineFunction, addr 0x6d03144, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutBaselineFunction* GetBaselineFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetComputedData, addr 0x6cfb30c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetComputedData, addr 0x6d02e90, size 0x64, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutComputedData> GetComputedData(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetConfigData, addr 0x6cfb370, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetConfigData, addr 0x6d02ef4, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutConfigData> GetConfigData(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetMeasureFunction, addr 0x6cfb3d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMeasureFunction, addr 0x6d02f54, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* GetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetNodeData, addr 0x6cfb248, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetNodeData, addr 0x6d02dcc, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutNodeData> GetNodeData(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetOwner, addr 0x6cfb4c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetOwner, addr 0x6d0304c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetOwner(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetStyleData, addr 0x6cfb2a8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetStyleData, addr 0x6d02e2c, size 0x64, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutStyleData> GetStyleData(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
   /// @brief Method GetTypedConfigDataRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -83,16 +83,16 @@ public:
   /// @brief Method GetTypedNodeDataRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::by_ref<T> GetTypedNodeDataRef(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::Layout::LayoutNodeDataType type);
 
-  /// @brief Method SetMeasureFunction, addr 0x6cfb448, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetMeasureFunction, addr 0x6d02fcc, size 0x80, virtual false, abstract: false, final false
   inline void SetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* value);
 
-  /// @brief Method SetOwner, addr 0x6cfb540, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetOwner, addr 0x6d030c4, size 0x80, virtual false, abstract: false, final false
   inline void SetOwner(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x6cf7468, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfefec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t manager, ::UnityEngine::UIElements::Layout::LayoutDataStore nodes, ::UnityEngine::UIElements::Layout::LayoutDataStore configs);
 
-  /// @brief Method get_IsValid, addr 0x6cf7e20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x6cff9a4, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
   // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidGamepadWithDpadButtons.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidGamepadWithDpadButtons.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidGamepad_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidGamepadWithDpadButtons_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a3ff4;
+  constexpr static std::size_t addrs = 0x65aba70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

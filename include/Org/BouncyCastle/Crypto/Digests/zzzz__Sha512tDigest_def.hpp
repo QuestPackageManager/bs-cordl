@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Sha512tDigest.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\Sha512tDigest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,29 +54,29 @@ public:
   /// @brief Field digestLength, offset 0x84, size 0x4
   __declspec(property(get = __cordl_internal_get_digestLength, put = __cordl_internal_set_digestLength)) int32_t digestLength;
 
-  /// @brief Method Copy, addr 0x3381f40, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x3385d00, size 0x5c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x3381cdc, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x3385a9c, size 0xfc, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method GetDigestSize, addr 0x3381cd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x3385a94, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha512tDigest* New_ctor(int32_t bitLength);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha512tDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha512tDigest* t);
 
-  /// @brief Method Reset, addr 0x3381e3c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3385bfc, size 0x38, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x3381f9c, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3385d5c, size 0x114, virtual true, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method UInt32_To_BE, addr 0x3381e74, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_BE, addr 0x3385c34, size 0xcc, virtual false, abstract: false, final false
   static inline void UInt32_To_BE(uint32_t n, ::ArrayW<uint8_t> bs, int32_t off, int32_t max);
 
-  /// @brief Method UInt64_To_BE, addr 0x3381dd8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_BE, addr 0x3385b98, size 0x64, virtual false, abstract: false, final false
   static inline void UInt64_To_BE(uint64_t n, ::ArrayW<uint8_t> bs, int32_t off, int32_t max);
 
   constexpr uint64_t const& __cordl_internal_get_H1t() const;
@@ -133,16 +133,16 @@ public:
 
   constexpr void __cordl_internal_set_digestLength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x33818f0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33856b0, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitLength);
 
-  /// @brief Method .ctor, addr 0x3381bc8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3385988, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha512tDigest* t);
 
-  /// @brief Method get_AlgorithmName, addr 0x3381c5c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3385a1c, size 0x78, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method tIvGenerate, addr 0x3381a44, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method tIvGenerate, addr 0x3385804, size 0x184, virtual false, abstract: false, final false
   inline void tIvGenerate(int32_t bitLength);
 
 protected:

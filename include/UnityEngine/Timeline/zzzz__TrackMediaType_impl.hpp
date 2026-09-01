@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/TrackMediaType.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\TrackMediaType.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackMediaType_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackMediaType::*)(::UnityEngine::Timeline::TimelineAsset_MediaType)>(
     &::UnityEngine::Timeline::TrackMediaType::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c396c;
+  constexpr static std::size_t addrs = 0x69cb3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

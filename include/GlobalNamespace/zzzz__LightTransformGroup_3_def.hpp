@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightTransformGroup_3.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightTransformGroup_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -189,7 +189,7 @@ public:
   LightTransformGroup_3(LightTransformGroup_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5916 };
 
   /// @brief Field _mirrorX, offset: 0x28, size: 0x1, def value: None
   bool ____mirrorX;

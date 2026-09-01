@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Telemetry.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Telemetry.hpp"
 #include "GlobalNamespace/zzzz__OVRTelemetryMarker_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__Telemetry_def.hpp"
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache*, ::Meta::XR::ImmersiveDebugger::Manager::DebugManager*)>(
         &::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::Init)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5a3f68c;
+  constexpr static std::size_t addrs = 0x5a43b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Immersi
     ::Meta::XR::ImmersiveDebugger::Telemetry_Method, ::System::Collections::Generic::IEnumerable_1<::Meta::XR::ImmersiveDebugger::Manager::IDebugManager*>*,
     ::Meta::XR::ImmersiveDebugger::Utils::InstanceCache*)>(&::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::_ctor)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5a3f7b4;
+  constexpr static std::size_t addrs = 0x5a43c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::*)()>(&::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::OnStart)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5a3f968;
+  constexpr static std::size_t addrs = 0x5a43e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker*>(), { "OnStart", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::*)()>(
     &::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::OnFocusLost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a403b0;
+  constexpr static std::size_t addrs = 0x5a4486c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker*>(), { "OnFocusLost", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::*)()>(&::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::OnDisable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a403b8;
+  constexpr static std::size_t addrs = 0x5a44874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker*>(), { "OnDisable", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::*)()>(&::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::SendStart)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a3f998;
+  constexpr static std::size_t addrs = 0x5a43e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker*>(), { "SendStart", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::*)(::Meta::XR::ImmersiveDebugger::Telemetry_State)>(
     &::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker::SendComponentTracked)> {
   constexpr static std::size_t size = 0x9f4;
-  constexpr static std::size_t addrs = 0x5a3f9bc;
+  constexpr static std::size_t addrs = 0x5a43e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Telemetry_TelemetryTracker*>(),
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Telemetry::GetTypeHash)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5a3ed84;
+  constexpr static std::size_t addrs = 0x5a43240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Meta::XR::ImmersiveDebugger::Telemetry::IsTypeCustom)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5a3edec;
+  constexpr static std::size_t addrs = 0x5a432a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel*)>(&::Meta::XR::ImmersiveDebugger::Telemetry::OnPanelActiveStateChanged)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5a3ef78;
+  constexpr static std::size_t addrs = 0x5a43434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Button*)>(&::Meta::XR::ImmersiveDebugger::Telemetry::OnButtonClicked)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x5a3f144;
+  constexpr static std::size_t addrs = 0x5a43600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Panel> (*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(
     &::Meta::XR::ImmersiveDebugger::Telemetry::FetchPanel)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5a3f3f8;
+  constexpr static std::size_t addrs = 0x5a438b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

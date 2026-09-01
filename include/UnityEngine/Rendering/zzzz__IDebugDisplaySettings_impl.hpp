@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IDebugDisplaySettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IDebugDisplaySettings.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettings_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsData_def.hpp"
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsData* (
     ::UnityEngine::Rendering::IDebugDisplaySettings::*)(::UnityEngine::Rendering::IDebugDisplaySettingsData*)>(&::UnityEngine::Rendering::IDebugDisplaySettings::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6765da8;
+  constexpr static std::size_t addrs = 0x676d824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

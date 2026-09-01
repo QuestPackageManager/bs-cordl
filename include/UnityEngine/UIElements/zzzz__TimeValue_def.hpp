@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TimeValue.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TimeValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,46 +67,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>*();
 
-  /// @brief Method Equals, addr 0x6c8d86c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c953f0, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c8d848, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c953cc, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TimeValue other);
 
-  /// @brief Method GetHashCode, addr 0x6c8d900, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c95484, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6c8d924, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c954a8, size 0xf8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c8d7e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9536c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x6c8d7f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c95378, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::TimeUnit unit);
 
-  /// @brief Method get_unit, addr 0x6c8d7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unit, addr 0x6c9535c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeUnit get_unit();
 
-  /// @brief Method get_value, addr 0x6c8d7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6c9534c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimeValue>* i___System__IEquatable_1___UnityEngine__UIElements__TimeValue_();
 
-  /// @brief Method op_Equality, addr 0x6c8d808, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c9538c, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TimeValue lhs, ::UnityEngine::UIElements::TimeValue rhs);
 
-  /// @brief Method op_Implicit, addr 0x6c8d800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c95384, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TimeValue op_Implicit___UnityEngine__UIElements__TimeValue(float_t value);
 
-  /// @brief Method op_Inequality, addr 0x6c8d828, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6c953ac, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TimeValue lhs, ::UnityEngine::UIElements::TimeValue rhs);
 
-  /// @brief Method set_unit, addr 0x6c8d7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unit, addr 0x6c95364, size 0x8, virtual false, abstract: false, final false
   inline void set_unit(::UnityEngine::UIElements::TimeUnit value);
 
-  /// @brief Method set_value, addr 0x6c8d7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x6c95354, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
   // Ctor Parameters []
@@ -156,12 +156,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c8dc08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c9578c, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::by_ref<::UnityEngine::UIElements::TimeValue> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c8dc10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c95794, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TimeValue> container, float_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -176,13 +176,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c8db30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c956b4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c8dc00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c95784, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c8dbf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c9577c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -235,12 +235,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x6c8dc28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6c957ac, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeUnit GetValue(::by_ref<::UnityEngine::UIElements::TimeValue> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x6c8dc30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c957b4, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TimeValue> container, ::UnityEngine::UIElements::TimeUnit value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -255,13 +255,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6c8db94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c95718, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsReadOnly, addr 0x6c8dc20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x6c957a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x6c8dc18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6c9579c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -310,7 +310,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TimeValue_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c8da1c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c955a0, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

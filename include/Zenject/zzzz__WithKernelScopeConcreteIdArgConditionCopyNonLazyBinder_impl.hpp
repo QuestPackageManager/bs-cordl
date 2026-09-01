@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject\WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Zenject::SubContainerCreatorBindInfo*, ::Zenject::BindInfo*)>(
     &::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e58250;
+  constexpr static std::size_t addrs = 0x6e5fdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(
     &::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e5825c;
+  constexpr static std::size_t addrs = 0x6e5fde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRNativeList_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRNativeList_1.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRNativeList_1_def.hpp"

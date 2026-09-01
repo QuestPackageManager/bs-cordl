@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatSaberMultiplayerSessionManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatSaberMultiplayerSessionManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,13 +79,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerSessionMessageProcessor_2<::GlobalNamespace::NetworkMessageType,::GlobalNamespace::IBeatSaberConnectedPlayer*>"
   constexpr operator ::GlobalNamespace::IMultiplayerSessionMessageProcessor_2<::GlobalNamespace::NetworkMessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>*() noexcept;
 
-  /// @brief Method HandlePlayerAvatarChanged, addr 0x32a4868, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerAvatarChanged, addr 0x32a8664, size 0x94, virtual false, abstract: false, final false
   inline void HandlePlayerAvatarChanged(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerControllerDataChanged, addr 0x32a48fc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerControllerDataChanged, addr 0x32a86f8, size 0x94, virtual false, abstract: false, final false
   inline void HandlePlayerControllerDataChanged(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
-  /// @brief Method IMultiplayerSessionManager<BeatSaberConnectedPlayerManager,IBeatSaberConnectedPlayer,BeatSaberConnectedPlayer,BeatSaberPlayerIdentityPacketData>.StartSession, addr 0x32a49dc, size
+  /// @brief Method IMultiplayerSessionManager<BeatSaberConnectedPlayerManager,IBeatSaberConnectedPlayer,BeatSaberConnectedPlayer,BeatSaberPlayerIdentityPacketData>.StartSession, addr 0x32a87d8, size
   /// 0x64, virtual true, abstract: false, final true
   inline void IMultiplayerSessionManager_BeatSaberConnectedPlayerManager_IBeatSaberConnectedPlayer_BeatSaberConnectedPlayer_BeatSaberPlayerIdentityPacketData__StartSession(
       ::GlobalNamespace::BeatSaberConnectedPlayerManager* connectedPlayerManager,
@@ -93,10 +93,10 @@ public:
 
   static inline ::GlobalNamespace::BeatSaberMultiplayerSessionManager* New_ctor();
 
-  /// @brief Method RegisterGameSpecificEventHandlers, addr 0x32a46b0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method RegisterGameSpecificEventHandlers, addr 0x32a84ac, size 0xdc, virtual true, abstract: false, final false
   inline void RegisterGameSpecificEventHandlers();
 
-  /// @brief Method UnregisterGameSpecificEventHandlers, addr 0x32a478c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method UnregisterGameSpecificEventHandlers, addr 0x32a8588, size 0xdc, virtual true, abstract: false, final false
   inline void UnregisterGameSpecificEventHandlers();
 
   constexpr ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* const& __cordl_internal_get_playerAvatarChangedEvent() const;
@@ -111,13 +111,13 @@ public:
 
   constexpr void __cordl_internal_set_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
-  /// @brief Method .ctor, addr 0x32a4990, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32a878c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerAvatarChangedEvent, addr 0x32a43b0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_playerAvatarChangedEvent, addr 0x32a81ac, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
-  /// @brief Method add_playerControllerDataChangedEvent, addr 0x32a4530, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_playerControllerDataChangedEvent, addr 0x32a832c, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
   /// @brief Convert to "::GlobalNamespace::IBeatSaberMultiplayerSessionManager"
@@ -137,10 +137,10 @@ public:
   constexpr ::GlobalNamespace::IMultiplayerSessionMessageProcessor_2<::GlobalNamespace::NetworkMessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>*
   i___GlobalNamespace__IMultiplayerSessionMessageProcessor_2___GlobalNamespace__NetworkMessageType___GlobalNamespace__IBeatSaberConnectedPlayer__() noexcept;
 
-  /// @brief Method remove_playerAvatarChangedEvent, addr 0x32a4470, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerAvatarChangedEvent, addr 0x32a826c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerControllerDataChangedEvent, addr 0x32a45f0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerControllerDataChangedEvent, addr 0x32a83ec, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
 protected:
@@ -158,7 +158,7 @@ public:
   BeatSaberMultiplayerSessionManager(BeatSaberMultiplayerSessionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18843 };
 
   /// @brief Field playerAvatarChangedEvent, offset: 0xb8, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* ___playerAvatarChangedEvent;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleSheetExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\StyleSheetExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ namespace UnityEngine::UIElements::StyleSheets {
 class CORDL_TYPE StyleSheetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsVarFunction, addr 0x6d0ecc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsVarFunction, addr 0x6d16844, size 0x14, virtual false, abstract: false, final false
   static inline bool IsVarFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadAsString, addr 0x6d0b738, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x6d132bc, size 0x344, virtual false, abstract: false, final false
   static inline ::StringW ReadAsString(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleValueHandle handle);
 
 protected:

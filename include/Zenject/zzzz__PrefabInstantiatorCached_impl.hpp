@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/PrefabInstantiatorCached.hpp"
+// IWYU pragma private; include "Zenject\PrefabInstantiatorCached.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PrefabInstantiatorCached_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::PrefabInstantiatorCached::*)(::Zenject::IPrefabInstantiator*)>(&::Zenject::PrefabInstantiatorCached::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e81114;
+  constexpr static std::size_t addrs = 0x6e88c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* (::Zenject::PrefabInstantiatorCached::*)()>(
     &::Zenject::PrefabInstantiatorCached::get_ExtraArguments)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6e8111c;
+  constexpr static std::size_t addrs = 0x6e88ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabInstantiatorCached*>(), { "get_ExtraArguments", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::PrefabInstantiatorCached::*)()>(&::Zenject::PrefabInstantiatorCached::get_ArgumentTarget)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6e811c4;
+  constexpr static std::size_t addrs = 0x6e88d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabInstantiatorCached*>(), { "get_ArgumentTarget", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::GameObjectCreationParameters* (::Zenject::PrefabInstantiatorCached::*)()>(
     &::Zenject::PrefabInstantiatorCached::get_GameObjectCreationParameters)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6e81268;
+  constexpr static std::size_t addrs = 0x6e88dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabInstantiatorCached*>(), { "get_GameObjectCreationParameters", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::Zenject::PrefabInstantiatorCached::*)()>(&::Zenject::PrefabInstantiatorCached::GetPrefab)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6e81310;
+  constexpr static std::size_t addrs = 0x6e88e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabInstantiatorCached*>(), { "GetPrefab", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::PrefabInstantiatorCached::*)(
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::by_ref<::System::Action*>)>(&::Zenject::PrefabInstantiatorCached::Instantiate)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6e813b8;
+  constexpr static std::size_t addrs = 0x6e88f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

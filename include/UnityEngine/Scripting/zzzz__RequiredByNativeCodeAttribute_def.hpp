@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Scripting/RequiredByNativeCodeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Scripting\RequiredByNativeCodeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,22 +59,22 @@ public:
 
   constexpr void __cordl_internal_set__Optional_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6baea0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb6590, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6baea10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb6594, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6baea18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb659c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool optional);
 
-  /// @brief Method set_GenerateProxy, addr 0x6baea30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateProxy, addr 0x6bb65b4, size 0x8, virtual false, abstract: false, final false
   inline void set_GenerateProxy(bool value);
 
-  /// @brief Method set_Name, addr 0x6baea20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x6bb65a4, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Optional, addr 0x6baea28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x6bb65ac, size 0x8, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   RequiredByNativeCodeAttribute(RequiredByNativeCodeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23127 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MeshGenerationNodeManager.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MeshGenerationNodeManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,24 +58,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateImpl, addr 0x6dce560, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method CreateImpl, addr 0x6dd60e4, size 0x19c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshGenerationNodeImpl* CreateImpl(::UnityEngine::UIElements::UIR::Entry* parentEntry, bool safe);
 
-  /// @brief Method CreateNode, addr 0x6dcd854, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateNode, addr 0x6dd53d8, size 0x28, virtual false, abstract: false, final false
   inline void CreateNode(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::by_ref<::UnityEngine::UIElements::MeshGenerationNode> node);
 
-  /// @brief Method CreateUnsafeNode, addr 0x6dcd8c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateUnsafeNode, addr 0x6dd5448, size 0x28, virtual false, abstract: false, final false
   inline void CreateUnsafeNode(::UnityEngine::UIElements::UIR::Entry* parentEntry, ::by_ref<::UnityEngine::UIElements::UnsafeMeshGenerationNode> node);
 
-  /// @brief Method Dispose, addr 0x6dce794, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6dd6318, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6dce7fc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6dd6380, size 0x10c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::MeshGenerationNodeManager* New_ctor(::UnityEngine::UIElements::UIR::EntryRecorder* entryRecorder);
 
-  /// @brief Method ResetAll, addr 0x6dce6fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ResetAll, addr 0x6dd6280, size 0x88, virtual false, abstract: false, final false
   inline void ResetAll();
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -102,16 +102,16 @@ public:
 
   constexpr void __cordl_internal_set_m_UsedCounter(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6dce4d8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6dd605c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIR::EntryRecorder* entryRecorder);
 
-  /// @brief Method get_disposed, addr 0x6dce784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6dd6308, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x6dce78c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6dd6310, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor/Analytics/PackageManagerRemovePackageAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor\Analytics\PackageManagerRemovePackageAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace UnityEditor::Analytics {
 class CORDL_TYPE PackageManagerRemovePackageAnalytic : public ::UnityEditor::Analytics::PackageManagerBaseAnalytic {
 public:
   // Declarations
-  /// @brief Method CreatePackageManagerRemovePackageAnalytic, addr 0x6e1dac0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreatePackageManagerRemovePackageAnalytic, addr 0x6e25644, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* CreatePackageManagerRemovePackageAnalytic();
 
   static inline ::UnityEditor::Analytics::PackageManagerRemovePackageAnalytic* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6e1da2c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e255b0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   PackageManagerRemovePackageAnalytic(PackageManagerRemovePackageAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23011 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

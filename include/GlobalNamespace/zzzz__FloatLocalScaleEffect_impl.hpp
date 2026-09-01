@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatLocalScaleEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatLocalScaleEffect.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "UnityEngine/zzzz__Transform_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatLocalScaleEffect::*)()>(&::GlobalNamespace::FloatLocalScaleEffect::Awake)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x598c1cc;
+  constexpr static std::size_t addrs = 0x5995f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatLocalScaleEffect*>(), { "Awake", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatLocalScaleEffect::*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::FloatLocalScaleEffect::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x598c234;
+  constexpr static std::size_t addrs = 0x5995fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatLocalScaleEffect::*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::FloatLocalScaleEffect::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x598c2cc;
+  constexpr static std::size_t addrs = 0x5996064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatLocalScaleEffect::*)(float_t)>(&::GlobalNamespace::FloatLocalScaleEffect::Move)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x598c238;
+  constexpr static std::size_t addrs = 0x5995fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatLocalScaleEffect::*)()>(&::GlobalNamespace::FloatLocalScaleEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x598c2d0;
+  constexpr static std::size_t addrs = 0x5996068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatLocalScaleEffect*>(), { ".ctor", {}, {} })));

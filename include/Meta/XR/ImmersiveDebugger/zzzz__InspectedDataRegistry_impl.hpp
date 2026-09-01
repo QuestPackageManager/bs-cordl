@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/InspectedDataRegistry.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\InspectedDataRegistry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__InspectedDataRegistry_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/zzzz__DebugMember_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::Meta::XR::ImmersiveDebugger::InspectedMember*)>(&::Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Add)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5a3cef0;
+  constexpr static std::size_t addrs = 0x5a413ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::InspectedDataRegistry::Reset)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5a3d12c;
+  constexpr static std::size_t addrs = 0x5a415e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedDataRegistry*>(), { "Reset", {}, {} })));

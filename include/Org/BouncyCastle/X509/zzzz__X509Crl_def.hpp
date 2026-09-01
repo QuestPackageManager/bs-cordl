@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/X509Crl.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\X509Crl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,51 +93,51 @@ public:
   /// @brief Field sigAlgParams, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_sigAlgParams, put = __cordl_internal_set_sigAlgParams)) ::ArrayW<uint8_t> sigAlgParams;
 
-  /// @brief Method CheckSignature, addr 0x3647954, size 0x400, virtual true, abstract: false, final false
+  /// @brief Method CheckSignature, addr 0x364b714, size 0x400, virtual true, abstract: false, final false
   inline void CheckSignature(::Org::BouncyCastle::Crypto::IVerifierFactory* verifier);
 
-  /// @brief Method Equals, addr 0x3648930, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x364c6f0, size 0x114, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetEncoded, addr 0x364771c, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x364b4dc, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method GetHashCode, addr 0x3648a44, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x364c804, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetRevokedCertificate, addr 0x36482bc, size 0x3f0, virtual true, abstract: false, final false
+  /// @brief Method GetRevokedCertificate, addr 0x364c07c, size 0x3f0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CrlEntry* GetRevokedCertificate(::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method GetRevokedCertificates, addr 0x36486ac, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method GetRevokedCertificates, addr 0x364c46c, size 0xbc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetRevokedCertificates();
 
-  /// @brief Method GetSigAlgParams, addr 0x36488d0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetSigAlgParams, addr 0x364c690, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSigAlgParams();
 
-  /// @brief Method GetSignature, addr 0x364886c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x364c62c, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSignature();
 
-  /// @brief Method GetTbsCertList, addr 0x3648768, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetTbsCertList, addr 0x364c528, size 0x104, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetTbsCertList();
 
-  /// @brief Method GetX509Extensions, addr 0x36476d0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x364b490, size 0x4c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
-  /// @brief Method IsRevoked, addr 0x3649a28, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method IsRevoked, addr 0x364d7e8, size 0xd0, virtual true, abstract: false, final false
   inline bool IsRevoked(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method LoadCrlEntries, addr 0x3647e44, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method LoadCrlEntries, addr 0x364bc04, size 0x454, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* LoadCrlEntries();
 
   static inline ::Org::BouncyCastle::X509::X509Crl* New_ctor(::Org::BouncyCastle::Asn1::X509::CertificateList* c);
 
-  /// @brief Method ToString, addr 0x3648a90, size 0xf98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x364c850, size 0xf98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Verify, addr 0x3647810, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Verify, addr 0x364b5d0, size 0x70, virtual true, abstract: false, final false
   inline void Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method Verify, addr 0x3647880, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Verify, addr 0x364b640, size 0xd4, virtual true, abstract: false, final false
   inline void Verify(::Org::BouncyCastle::Crypto::IVerifierFactoryProvider* verifierProvider);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::CertificateList* const& __cordl_internal_get_c() const;
@@ -176,28 +176,28 @@ public:
 
   constexpr void __cordl_internal_set_sigAlgParams(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x3647510, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364b2d0, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::CertificateList* c);
 
-  /// @brief Method get_IsIndirectCrl, addr 0x3649af8, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method get_IsIndirectCrl, addr 0x364d8b8, size 0x170, virtual true, abstract: false, final false
   inline bool get_IsIndirectCrl();
 
-  /// @brief Method get_IssuerDN, addr 0x3647d78, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IssuerDN, addr 0x364bb38, size 0x24, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_IssuerDN();
 
-  /// @brief Method get_NextUpdate, addr 0x3647dc8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x364bb88, size 0x7c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_NextUpdate();
 
-  /// @brief Method get_SigAlgName, addr 0x3648894, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SigAlgName, addr 0x364c654, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_SigAlgName();
 
-  /// @brief Method get_SigAlgOid, addr 0x364889c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_SigAlgOid, addr 0x364c65c, size 0x34, virtual true, abstract: false, final false
   inline ::StringW get_SigAlgOid();
 
-  /// @brief Method get_ThisUpdate, addr 0x3647d9c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_ThisUpdate, addr 0x364bb5c, size 0x2c, virtual true, abstract: false, final false
   inline ::System::DateTime get_ThisUpdate();
 
-  /// @brief Method get_Version, addr 0x3647d54, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0x364bb14, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

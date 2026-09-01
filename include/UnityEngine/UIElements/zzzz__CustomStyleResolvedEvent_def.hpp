@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/CustomStyleResolvedEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\CustomStyleResolvedEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d9e928, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6da64ac, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CustomStyleResolvedEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9e924, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da64a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent___c* getStaticF___9();
@@ -82,10 +82,10 @@ public:
 
   static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d9e85c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da63e0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customStyle, addr 0x6d9e848, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_customStyle, addr 0x6da63cc, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ICustomStyle* get_customStyle();
 
 protected:

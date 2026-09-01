@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HeadsetHapticSettingsSampleController.hpp"
+// IWYU pragma private; include "GlobalNamespace\HeadsetHapticSettingsSampleController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,18 +53,18 @@ public:
   /// @brief Field _nextHapticSamplePlayTimeEnd, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__nextHapticSamplePlayTimeEnd, put = __cordl_internal_set__nextHapticSamplePlayTimeEnd)) float_t _nextHapticSamplePlayTimeEnd;
 
-  /// @brief Method HandleHapticSettingValueDidChange, addr 0x5a0d350, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleHapticSettingValueDidChange, addr 0x5a1545c, size 0x74, virtual false, abstract: false, final false
   inline void HandleHapticSettingValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* controller, float_t newValue);
 
   static inline ::GlobalNamespace::HeadsetHapticSettingsSampleController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a0d1d0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a152e0, size 0xd8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5a0d130, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5a15244, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5a0d2ac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a153b8, size 0xa4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__formattedFloatListSettingsController() const;
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set__nextHapticSamplePlayTimeEnd(float_t value);
 
-  /// @brief Method .ctor, addr 0x5a0d3c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a154d0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   HeadsetHapticSettingsSampleController(HeadsetHapticSettingsSampleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6408 };
 
   /// @brief Field _formattedFloatListSettingsController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____formattedFloatListSettingsController;

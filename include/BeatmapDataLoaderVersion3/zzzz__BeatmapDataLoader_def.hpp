@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion3/BeatmapDataLoader.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion3\BeatmapDataLoader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -377,10 +377,10 @@ public:
   /// @brief Field _rotationTimeProcessor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__rotationTimeProcessor, put = __cordl_internal_set__rotationTimeProcessor)) ::GlobalNamespace::RotationTimeProcessor* _rotationTimeProcessor;
 
-  /// @brief Method BeatToRotation, addr 0x37644e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BeatToRotation, addr 0x376a150, size 0x18, virtual false, abstract: false, final false
   inline int32_t BeatToRotation(float_t beat);
 
-  /// @brief Method BeatToTime, addr 0x37644cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BeatToTime, addr 0x376a138, size 0x18, virtual false, abstract: false, final false
   inline float_t BeatToTime(float_t beat);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BeatmapDataItemConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
@@ -398,7 +398,7 @@ public:
 
   constexpr void __cordl_internal_set__rotationTimeProcessor(::GlobalNamespace::RotationTimeProcessor* value);
 
-  /// @brief Method .ctor, addr 0x3764454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376a0c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -416,7 +416,7 @@ public:
   BeatmapDataLoader_BeatmapDataItemConverter(BeatmapDataLoader_BeatmapDataItemConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15452 };
 
   /// @brief Field _bpmTimeProcessor, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BpmTimeProcessor* ____bpmTimeProcessor;
@@ -445,7 +445,7 @@ public:
   __declspec(property(get = __cordl_internal_get__specialEventsFilter,
                       put = __cordl_internal_set__specialEventsFilter)) ::BeatmapDataLoaderVersion3::BeatmapDataLoader_SpecialEventsFilter* _specialEventsFilter;
 
-  /// @brief Method Convert, addr 0x3762a54, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x37686c0, size 0xc4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion3::BasicEventData* basicEventSaveData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BasicEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
@@ -458,7 +458,7 @@ public:
 
   constexpr void __cordl_internal_set__specialEventsFilter(::BeatmapDataLoaderVersion3::BeatmapDataLoader_SpecialEventsFilter* value);
 
-  /// @brief Method .ctor, addr 0x3762a40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37686ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor,
                     ::BeatmapDataLoaderVersion3::BeatmapDataLoader_SpecialEventsFilter* specialEventsFilter);
 
@@ -477,7 +477,7 @@ public:
   BeatmapDataLoader_BasicEventConverter(BeatmapDataLoader_BasicEventConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15451 };
 
   /// @brief Field _specialEventsFilter, offset: 0x20, size: 0x8, def value: None
   ::BeatmapDataLoaderVersion3::BeatmapDataLoader_SpecialEventsFilter* ____specialEventsFilter;
@@ -497,13 +497,13 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_BombNoteConverter : public ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BeatmapDataItemConverter {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3760bfc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3766868, size 0x84, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::BombNoteData* bombNoteSaveData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BombNoteConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
                                                                                            ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x3760afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3766768, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -521,7 +521,7 @@ public:
   BeatmapDataLoader_BombNoteConverter(BeatmapDataLoader_BombNoteConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -536,13 +536,13 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_BpmEventConverter : public ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BeatmapDataItemConverter {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3761178, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3766de4, size 0xa0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BPMChangeBeatmapEventData* Convert(::BeatmapSaveDataVersion3::BpmChangeEventData* bpmChangeEventSaveData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BpmEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
                                                                                            ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x3761170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3766ddc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -560,7 +560,7 @@ public:
   BeatmapDataLoader_BpmEventConverter(BeatmapDataLoader_BpmEventConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -575,13 +575,13 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_ColorBoostEventConverter : public ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BeatmapDataItemConverter {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3762b18, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3768784, size 0xa0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion3::ColorBoostEventData* colorBoostEventSaveData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_ColorBoostEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
                                                                                                   ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x3762a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37686b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -599,7 +599,7 @@ public:
   BeatmapDataLoader_ColorBoostEventConverter(BeatmapDataLoader_ColorBoostEventConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15455 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -614,13 +614,13 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_ColorNoteConverter : public ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BeatmapDataItemConverter {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3760b24, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3766790, size 0xd8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::ColorNoteData* colorNoteSaveData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_ColorNoteConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
                                                                                             ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x3760af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3766760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -638,7 +638,7 @@ public:
   BeatmapDataLoader_ColorNoteConverter(BeatmapDataLoader_ColorNoteConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15456 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -656,7 +656,7 @@ public:
   /// @brief Field _fxEventsCollection, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__fxEventsCollection, put = __cordl_internal_set__fxEventsCollection)) ::BeatmapSaveDataVersion3::FxEventsCollection* _fxEventsCollection;
 
-  /// @brief Method Convert, addr 0x3763f04, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3769b70, size 0x54c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::FxEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroup);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_IntVfxEventBoxConverter* New_ctor(::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection);
@@ -667,7 +667,7 @@ public:
 
   constexpr void __cordl_internal_set__fxEventsCollection(::BeatmapSaveDataVersion3::FxEventsCollection* value);
 
-  /// @brief Method .ctor, addr 0x37639b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376961c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection);
 
 protected:
@@ -685,7 +685,7 @@ public:
   BeatmapDataLoader_IntVfxEventBoxConverter(BeatmapDataLoader_IntVfxEventBoxConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15457 };
 
   /// @brief Field _fxEventsCollection, offset: 0x10, size: 0x8, def value: None
   ::BeatmapSaveDataVersion3::FxEventsCollection* ____fxEventsCollection;
@@ -708,7 +708,7 @@ public:
   /// @brief Field _fxEventsCollection, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__fxEventsCollection, put = __cordl_internal_set__fxEventsCollection)) ::BeatmapSaveDataVersion3::FxEventsCollection* _fxEventsCollection;
 
-  /// @brief Method Convert, addr 0x37639b8, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3769624, size 0x54c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::FxEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroup);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_FloatVfxEventBoxConverter* New_ctor(::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection);
@@ -719,7 +719,7 @@ public:
 
   constexpr void __cordl_internal_set__fxEventsCollection(::BeatmapSaveDataVersion3::FxEventsCollection* value);
 
-  /// @brief Method .ctor, addr 0x37639a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3769614, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection);
 
 protected:
@@ -737,7 +737,7 @@ public:
   BeatmapDataLoader_FloatVfxEventBoxConverter(BeatmapDataLoader_FloatVfxEventBoxConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15458 };
 
   /// @brief Field _fxEventsCollection, offset: 0x10, size: 0x8, def value: None
   ::BeatmapSaveDataVersion3::FxEventsCollection* ____fxEventsCollection;
@@ -757,7 +757,7 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_IntVfxBaseDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x37648c0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x376a52c, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IntFxBaseData* Convert(int32_t vfxEventBaseData, ::BeatmapSaveDataVersion3::FxEventsCollection* collection);
 
 protected:
@@ -775,7 +775,7 @@ public:
   BeatmapDataLoader_IntVfxBaseDataConvertor(BeatmapDataLoader_IntVfxBaseDataConvertor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -790,7 +790,7 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_FloatVfxBaseDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x37649c4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x376a630, size 0x120, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::FloatFxBaseData* Convert(int32_t vfxEventBaseData, ::BeatmapSaveDataVersion3::FxEventsCollection* collection);
 
 protected:
@@ -808,7 +808,7 @@ public:
   BeatmapDataLoader_FloatVfxBaseDataConvertor(BeatmapDataLoader_FloatVfxBaseDataConvertor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15460 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -823,7 +823,7 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_IndexFilterConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x37644fc, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x376a168, size 0x3c4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IndexFilter* Convert(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, int32_t groupSize);
 
 protected:
@@ -841,7 +841,7 @@ public:
   BeatmapDataLoader_IndexFilterConverter(BeatmapDataLoader_IndexFilterConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -856,12 +856,12 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_LightColorEventBoxConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3762bb8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3768824, size 0x320, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::LightColorEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroupData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_LightColorEventBoxConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3764bac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376a818, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -879,7 +879,7 @@ public:
   BeatmapDataLoader_LightColorEventBoxConverter(BeatmapDataLoader_LightColorEventBoxConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15462 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -894,7 +894,7 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_LightColoBaseDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3764ae4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x376a750, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightColorBaseData* Convert(::BeatmapSaveDataVersion3::LightColorBaseData* saveData);
 
 protected:
@@ -912,7 +912,7 @@ public:
   BeatmapDataLoader_LightColoBaseDataConvertor(BeatmapDataLoader_LightColoBaseDataConvertor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -927,12 +927,12 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_LightRotationEventBoxConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3762ed8, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3768b44, size 0x568, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::LightRotationEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroupData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_LightRotationEventBoxConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3764c60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376a8cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -950,7 +950,7 @@ public:
   BeatmapDataLoader_LightRotationEventBoxConverter(BeatmapDataLoader_LightRotationEventBoxConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15464 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -965,7 +965,7 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_LightRotationBaseDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3764bb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x376a81c, size 0xb0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightRotationBaseData* Convert(::BeatmapSaveDataVersion3::LightRotationBaseData* saveData);
 
 protected:
@@ -983,7 +983,7 @@ public:
   BeatmapDataLoader_LightRotationBaseDataConvertor(BeatmapDataLoader_LightRotationBaseDataConvertor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -998,12 +998,12 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_LightTranslationEventBoxConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3763440, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x37690ac, size 0x568, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::LightTranslationEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroupData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_LightTranslationEventBoxConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3764cf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376a960, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1021,7 +1021,7 @@ public:
   BeatmapDataLoader_LightTranslationEventBoxConverter(BeatmapDataLoader_LightTranslationEventBoxConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1036,7 +1036,7 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_LightTranslationBaseDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3764c64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x376a8d0, size 0x90, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightTranslationBaseData* Convert(::BeatmapSaveDataVersion3::LightTranslationBaseData* saveData);
 
 protected:
@@ -1054,7 +1054,7 @@ public:
   BeatmapDataLoader_LightTranslationBaseDataConvertor(BeatmapDataLoader_LightTranslationBaseDataConvertor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15467 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1069,16 +1069,16 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_ObstacleConverter : public ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BeatmapDataItemConverter {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3760c80, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x37668ec, size 0x118, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::ObstacleData* obstacleSaveData);
 
-  /// @brief Method GetNoteLineLayer, addr 0x3764cf8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNoteLineLayer, addr 0x376a964, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteLineLayer GetNoteLineLayer(int32_t lineLayer);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_ObstacleConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
                                                                                            ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x3760b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3766770, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -1096,7 +1096,7 @@ public:
   BeatmapDataLoader_ObstacleConverter(BeatmapDataLoader_ObstacleConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1111,13 +1111,13 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_SliderConverter : public ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BeatmapDataItemConverter {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3760d98, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3766a04, size 0x190, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::SliderData* sliderSaveData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_SliderConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
                                                                                          ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x3760b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3766778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -1135,7 +1135,7 @@ public:
   BeatmapDataLoader_SliderConverter(BeatmapDataLoader_SliderConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1150,13 +1150,13 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_BurstSliderConverter : public ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BeatmapDataItemConverter {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3760f28, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3766b94, size 0x15c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::BurstSliderData* sliderSaveData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BurstSliderConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
                                                                                               ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x3760b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3766780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -1174,7 +1174,7 @@ public:
   BeatmapDataLoader_BurstSliderConverter(BeatmapDataLoader_BurstSliderConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1193,7 +1193,7 @@ public:
   __declspec(property(get = __cordl_internal_get__eventTypesToFilter,
                       put = __cordl_internal_set__eventTypesToFilter)) ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* _eventTypesToFilter;
 
-  /// @brief Method IsEventValid, addr 0x376445c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsEventValid, addr 0x376a0c8, size 0x70, virtual false, abstract: false, final false
   inline bool IsEventValid(::BeatmapSaveDataCommon::BeatmapEventType basicBeatmapEventType);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_SpecialEventsFilter* New_ctor(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords,
@@ -1205,7 +1205,7 @@ public:
 
   constexpr void __cordl_internal_set__eventTypesToFilter(::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* value);
 
-  /// @brief Method .ctor, addr 0x3762810, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376847c, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
 
 protected:
@@ -1223,7 +1223,7 @@ public:
   BeatmapDataLoader_SpecialEventsFilter(BeatmapDataLoader_SpecialEventsFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15471 };
 
   /// @brief Field _eventTypesToFilter, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* ____eventTypesToFilter;
@@ -1243,13 +1243,13 @@ namespace BeatmapDataLoaderVersion3 {
 class CORDL_TYPE BeatmapDataLoader_WaypointConverter : public ::BeatmapDataLoaderVersion3::BeatmapDataLoader_BeatmapDataItemConverter {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x3761084, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x3766cf0, size 0xec, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::WaypointData* waypointSaveData);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader_WaypointConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
                                                                                            ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x3760b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3766788, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -1267,7 +1267,7 @@ public:
   BeatmapDataLoader_WaypointConverter(BeatmapDataLoader_WaypointConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1290,10 +1290,10 @@ public:
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader___c* New_ctor();
 
-  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJson>b__5_0, addr 0x3764d64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJson>b__5_0, addr 0x376a9d0, size 0x18, virtual false, abstract: false, final false
   inline int32_t _GetBeatmapDataBasicInfoFromSaveDataJson_b__5_0(::BeatmapSaveDataVersion3::BurstSliderData* bs);
 
-  /// @brief Method .ctor, addr 0x3764d60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376a9cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader___c* getStaticF___9();
@@ -1319,7 +1319,7 @@ public:
   BeatmapDataLoader___c(BeatmapDataLoader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15473 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1363,7 +1363,7 @@ public:
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <GetBeatmapDataFromSaveDataJsonAsync>b__0, addr 0x3764d7c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <GetBeatmapDataFromSaveDataJsonAsync>b__0, addr 0x376a9e8, size 0x38, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapData* _GetBeatmapDataFromSaveDataJsonAsync_b__0();
 
   constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_beatmapDifficulty() const;
@@ -1420,7 +1420,7 @@ public:
 
   constexpr void __cordl_internal_set_startBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x375fac8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3765734, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1438,7 +1438,7 @@ public:
   BeatmapDataLoader___c__DisplayClass3_0(BeatmapDataLoader___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15474 };
 
   /// @brief Field beatmapJson, offset: 0x10, size: 0x8, def value: None
   ::StringW ___beatmapJson;
@@ -1503,7 +1503,7 @@ public:
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJsonAsync>b__0, addr 0x3764db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJsonAsync>b__0, addr 0x376aa20, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataBasicInfo* _GetBeatmapDataBasicInfoFromSaveDataJsonAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_beatmapJson() const;
@@ -1512,7 +1512,7 @@ public:
 
   constexpr void __cordl_internal_set_beatmapJson(::StringW value);
 
-  /// @brief Method .ctor, addr 0x375fbf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3765860, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1530,7 +1530,7 @@ public:
   BeatmapDataLoader___c__DisplayClass4_0(BeatmapDataLoader___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15475 };
 
   /// @brief Field beatmapJson, offset: 0x10, size: 0x8, def value: None
   ::StringW ___beatmapJson;
@@ -1600,35 +1600,35 @@ public:
 
   using __c__DisplayClass4_0 = ::BeatmapDataLoaderVersion3::BeatmapDataLoader___c__DisplayClass4_0;
 
-  /// @brief Method ConvertBasicEvents, addr 0x3761218, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method ConvertBasicEvents, addr 0x3766e84, size 0x5b4, virtual false, abstract: false, final false
   static inline void ConvertBasicEvents(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
                                         ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
 
-  /// @brief Method ConvertEventBoxGroups, addr 0x37617cc, size 0x1044, virtual false, abstract: false, final false
+  /// @brief Method ConvertEventBoxGroups, addr 0x3767438, size 0x1044, virtual false, abstract: false, final false
   static inline void ConvertEventBoxGroups(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData,
                                            ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups,
                                            ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter);
 
-  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJson, addr 0x375fbf8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJson, addr 0x3765864, size 0x1ec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataBasicInfo* GetBeatmapDataBasicInfoFromSaveDataJson(::StringW beatmapJson);
 
-  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJsonAsync, addr 0x375facc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJsonAsync, addr 0x3765738, size 0x128, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoFromSaveDataJsonAsync(::StringW beatmapJson);
 
-  /// @brief Method GetBeatmapDataFromSaveData, addr 0x375ff28, size 0xbcc, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataFromSaveData, addr 0x3765b94, size 0xbcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveData(
       ::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData, ::BeatmapSaveDataVersion4::LightshowSaveData* defaultLightshowSaveData, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
       float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups,
       ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter, ::System::Diagnostics::Stopwatch* stopwatch);
 
-  /// @brief Method GetBeatmapDataFromSaveDataJson, addr 0x375fde4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataFromSaveDataJson, addr 0x3765a50, size 0x144, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveDataJson(::StringW beatmapJson, ::StringW defaultLightshowJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                                                                float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                                                                                ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                                                                ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter);
 
-  /// @brief Method GetBeatmapDataFromSaveDataJsonAsync, addr 0x375f93c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataFromSaveDataJsonAsync, addr 0x37655a8, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapData*>*
   GetBeatmapDataFromSaveDataJsonAsync(::StringW beatmapJson, ::StringW defaultLightshowJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm,
                                       bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
@@ -1636,7 +1636,7 @@ public:
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3764450, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376a0bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1654,7 +1654,7 @@ public:
   BeatmapDataLoader(BeatmapDataLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15476 };
 
   /// @brief Field kDefaultNumberOfLines offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultNumberOfLines{ static_cast<int32_t>(0x4) };

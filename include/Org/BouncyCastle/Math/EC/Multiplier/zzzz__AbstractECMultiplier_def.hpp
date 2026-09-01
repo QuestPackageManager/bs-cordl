@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/AbstractECMultiplier.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\EC\Multiplier\AbstractECMultiplier.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +31,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*() noexcept;
 
-  /// @brief Method CheckResult, addr 0x35095cc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CheckResult, addr 0x350d38c, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CheckResult(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method Multiply, addr 0x3509500, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x350d2c0, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   /// @brief Method MultiplyPositive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -42,7 +42,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35095d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350d398, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"

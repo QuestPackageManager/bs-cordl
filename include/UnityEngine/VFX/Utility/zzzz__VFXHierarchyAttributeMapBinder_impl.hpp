@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXHierarchyAttributeMapBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXHierarchyAttributeMapBinder.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXBinderBase_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXHierarchyAttributeMapBinder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69db0e0;
+  constexpr static std::size_t addrs = 0x69e2b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder*>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69db204;
+  constexpr static std::size_t addrs = 0x69e2c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder*>(), { "OnValidate", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::UpdateHierarchy)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x69db0fc;
+  constexpr static std::size_t addrs = 0x69e2b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder_Bone>* (
     ::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::*)(::UnityEngine::Transform*, uint32_t)>(&::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::ChildrenOf)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x69db208;
+  constexpr static std::size_t addrs = 0x69e2c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder*>(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::UpdateData)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x69db678;
+  constexpr static std::size_t addrs = 0x69e30f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder*>(), { "UpdateData", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::IsValid)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69dba88;
+  constexpr static std::size_t addrs = 0x69e3504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder*>(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x69dbb84;
+  constexpr static std::size_t addrs = 0x69e3600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder*>(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::ToString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x69dbc54;
+  constexpr static std::size_t addrs = 0x69e36d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder*>(),
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::*)()>(&::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x69dbd48;
+  constexpr static std::size_t addrs = 0x69e37c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXHierarchyAttributeMapBinder*>(), { ".ctor", {}, {} })));

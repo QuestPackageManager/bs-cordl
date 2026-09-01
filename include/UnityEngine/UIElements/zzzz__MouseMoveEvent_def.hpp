@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MouseMoveEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MouseMoveEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseMoveEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d97810, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6d9f394, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseMoveEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d9780c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d9f390, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseMoveEvent___c* getStaticF___9();
@@ -78,18 +78,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseMoveEvent___c;
 
-  /// @brief Method GetPooled, addr 0x6d9776c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6d9f2f0, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseMoveEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
 
-  /// @brief Method Init, addr 0x6d976b0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6d9f234, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d97708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6d9f28c, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseMoveEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d97714, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d9f298, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

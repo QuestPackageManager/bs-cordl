@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ATGTextEventHandler.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ATGTextEventHandler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,54 +82,54 @@ public:
   /// @brief Field m_TextElement, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextElement, put = __cordl_internal_set_m_TextElement)) ::UnityEngine::UIElements::TextElement* m_TextElement;
 
-  /// @brief Method AllocateHyperlinkCallbacks, addr 0x6c97cf4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AllocateHyperlinkCallbacks, addr 0x6c9f878, size 0x174, virtual false, abstract: false, final false
   inline void AllocateHyperlinkCallbacks();
 
-  /// @brief Method AllocateLinkCallbacks, addr 0x6c97b70, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AllocateLinkCallbacks, addr 0x6c9f6f4, size 0x174, virtual false, abstract: false, final false
   inline void AllocateLinkCallbacks();
 
-  /// @brief Method HasAllocatedHyperlinkCallbacks, addr 0x6c97ce4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasAllocatedHyperlinkCallbacks, addr 0x6c9f868, size 0x10, virtual false, abstract: false, final false
   inline bool HasAllocatedHyperlinkCallbacks();
 
-  /// @brief Method HasAllocatedLinkCallbacks, addr 0x6c97b60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasAllocatedLinkCallbacks, addr 0x6c9f6e4, size 0x10, virtual false, abstract: false, final false
   inline bool HasAllocatedLinkCallbacks();
 
-  /// @brief Method HyperlinkOnPointerMove, addr 0x6c98124, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method HyperlinkOnPointerMove, addr 0x6c9fca8, size 0x270, virtual false, abstract: false, final false
   inline void HyperlinkOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* pme);
 
-  /// @brief Method HyperlinkOnPointerOut, addr 0x6c98394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HyperlinkOnPointerOut, addr 0x6c9ff18, size 0x8, virtual false, abstract: false, final false
   inline void HyperlinkOnPointerOut(::UnityEngine::UIElements::PointerOutEvent* evt);
 
-  /// @brief Method HyperlinkOnPointerOver, addr 0x6c9811c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HyperlinkOnPointerOver, addr 0x6c9fca0, size 0x8, virtual false, abstract: false, final false
   inline void HyperlinkOnPointerOver(::UnityEngine::UIElements::PointerOverEvent* _);
 
-  /// @brief Method HyperlinkOnPointerUp, addr 0x6c97e68, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method HyperlinkOnPointerUp, addr 0x6c9f9ec, size 0x13c, virtual false, abstract: false, final false
   inline void HyperlinkOnPointerUp(::UnityEngine::UIElements::PointerUpEvent* pue);
 
-  /// @brief Method LinkTagOnPointerDown, addr 0x6c9839c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerDown, addr 0x6c9ff20, size 0x21c, virtual false, abstract: false, final false
   inline void LinkTagOnPointerDown(::UnityEngine::UIElements::PointerDownEvent* pde);
 
-  /// @brief Method LinkTagOnPointerMove, addr 0x6c987d4, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerMove, addr 0x6ca0358, size 0x468, virtual false, abstract: false, final false
   inline void LinkTagOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* pme);
 
-  /// @brief Method LinkTagOnPointerOut, addr 0x6c98c3c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerOut, addr 0x6ca07c0, size 0x1b4, virtual false, abstract: false, final false
   inline void LinkTagOnPointerOut(::UnityEngine::UIElements::PointerOutEvent* poe);
 
-  /// @brief Method LinkTagOnPointerUp, addr 0x6c985b8, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerUp, addr 0x6ca013c, size 0x21c, virtual false, abstract: false, final false
   inline void LinkTagOnPointerUp(::UnityEngine::UIElements::PointerUpEvent* pue);
 
   static inline ::UnityEngine::UIElements::ATGTextEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method RegisterHyperlinkCallbacks, addr 0x6c98ffc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method RegisterHyperlinkCallbacks, addr 0x6ca0b80, size 0x19c, virtual false, abstract: false, final false
   inline void RegisterHyperlinkCallbacks();
 
-  /// @brief Method RegisterLinkTagCallbacks, addr 0x6c98df0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RegisterLinkTagCallbacks, addr 0x6ca0974, size 0x110, virtual false, abstract: false, final false
   inline void RegisterLinkTagCallbacks();
 
-  /// @brief Method UnRegisterHyperlinkCallbacks, addr 0x6c99198, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterHyperlinkCallbacks, addr 0x6ca0d1c, size 0x190, virtual false, abstract: false, final false
   inline void UnRegisterHyperlinkCallbacks();
 
-  /// @brief Method UnRegisterLinkTagCallbacks, addr 0x6c98f00, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterLinkTagCallbacks, addr 0x6ca0a84, size 0xfc, virtual false, abstract: false, final false
   inline void UnRegisterLinkTagCallbacks();
 
   constexpr int32_t const& __cordl_internal_get_currentLinkIDHash() const;
@@ -198,7 +198,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x6c97ac4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9f648, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement);
 
 protected:

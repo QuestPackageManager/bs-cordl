@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/FrameData.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\FrameData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +92,7 @@ public:
   static ::UnityEngine::Playables::FrameData_Flags const SeekOccured;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10661 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -147,7 +147,7 @@ public:
   static ::UnityEngine::Playables::FrameData_EvaluationType const Playback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10662 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -190,31 +190,31 @@ public:
 
   __declspec(property(get = get_timeLooped)) bool timeLooped;
 
-  /// @brief Method HasFlags, addr 0x6afc098, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasFlags, addr 0x6b03ab0, size 0x10, virtual false, abstract: false, final false
   inline bool HasFlags(::UnityEngine::Playables::FrameData_Flags flag);
 
-  /// @brief Method get_deltaTime, addr 0x6afc0a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x6b03ac0, size 0xc, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_effectivePlayState, addr 0x6afc0fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_effectivePlayState, addr 0x6b03b14, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayState get_effectivePlayState();
 
-  /// @brief Method get_effectiveSpeed, addr 0x6afc0b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveSpeed, addr 0x6b03acc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_effectiveSpeed();
 
-  /// @brief Method get_evaluationType, addr 0x6afc0bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_evaluationType, addr 0x6b03ad4, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::FrameData_EvaluationType get_evaluationType();
 
-  /// @brief Method get_output, addr 0x6afc0f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_output, addr 0x6b03b08, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput get_output();
 
-  /// @brief Method get_seekOccurred, addr 0x6afc0cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_seekOccurred, addr 0x6b03ae4, size 0xc, virtual false, abstract: false, final false
   inline bool get_seekOccurred();
 
-  /// @brief Method get_timeHeld, addr 0x6afc0e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_timeHeld, addr 0x6b03afc, size 0xc, virtual false, abstract: false, final false
   inline bool get_timeHeld();
 
-  /// @brief Method get_timeLooped, addr 0x6afc0d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_timeLooped, addr 0x6b03af0, size 0xc, virtual false, abstract: false, final false
   inline bool get_timeLooped();
 
   // Ctor Parameters []
@@ -230,7 +230,7 @@ public:
                       ::UnityEngine::Playables::FrameData_Flags m_Flags, ::UnityEngine::Playables::PlayableOutput m_Output) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10663 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

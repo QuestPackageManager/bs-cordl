@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SingleProviderBindingFinalizer.hpp"
+// IWYU pragma private; include "Zenject\SingleProviderBindingFinalizer.hpp"
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__SingleProviderBindingFinalizer_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SingleProviderBindingFinalizer::*)(
     ::Zenject::BindInfo*, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*)>(&::Zenject::SingleProviderBindingFinalizer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e5fe10;
+  constexpr static std::size_t addrs = 0x6e67994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SingleProviderBindingFinalizer::*)(::Zenject::DiContainer*)>(&::Zenject::SingleProviderBindingFinalizer::OnFinalizeBinding)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6e5fe18;
+  constexpr static std::size_t addrs = 0x6e6799c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

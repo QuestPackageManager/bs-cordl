@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/InstantiationParameters.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\InstantiationParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,25 +43,25 @@ public:
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> inline TObject Instantiate(TObject source);
 
-  /// @brief Method .ctor, addr 0x6917e5c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691f8d8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
-  /// @brief Method .ctor, addr 0x6917f14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x691f990, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
-  /// @brief Method get_InstantiateInWorldPosition, addr 0x6917e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateInWorldPosition, addr 0x691f8c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateInWorldPosition();
 
-  /// @brief Method get_Parent, addr 0x6917e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x691f8c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Parent();
 
-  /// @brief Method get_Position, addr 0x6917e2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x691f8a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Rotation, addr 0x6917e38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x691f8b4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_Rotation();
 
-  /// @brief Method get_SetPositionRotation, addr 0x6917e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SetPositionRotation, addr 0x691f8d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_SetPositionRotation();
 
   // Ctor Parameters []
@@ -75,7 +75,7 @@ public:
                                     bool m_SetPositionRotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18776 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

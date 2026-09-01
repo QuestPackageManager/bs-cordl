@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryCrossAppDomainMap.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\BinaryCrossAppDomainMap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,12 +26,12 @@ public:
   /// @brief Field crossAppDomainArrayIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_crossAppDomainArrayIndex, put = __cordl_internal_set_crossAppDomainArrayIndex)) int32_t crossAppDomainArrayIndex;
 
-  /// @brief Method Dump, addr 0x5b54658, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5b58b14, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap* New_ctor();
 
-  /// @brief Method Read, addr 0x5b54624, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5b58ae0, size 0x34, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
   constexpr int32_t const& __cordl_internal_get_crossAppDomainArrayIndex() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_crossAppDomainArrayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b54620, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b58adc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

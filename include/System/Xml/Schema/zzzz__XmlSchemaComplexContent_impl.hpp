@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaComplexContent.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaComplexContent.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContentModel_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaComplexContent_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContent_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(&::System::Xml::Schema::XmlSchemaComplexContent::get_IsMixed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62264b0;
+  constexpr static std::size_t addrs = 0x622df2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaComplexContent*>(), { "get_IsMixed", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContent::*)(bool)>(&::System::Xml::Schema::XmlSchemaComplexContent::set_IsMixed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62264b8;
+  constexpr static std::size_t addrs = 0x622df34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaContent* (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContent::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62264c8;
+  constexpr static std::size_t addrs = 0x622df44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContent::*)(::System::Xml::Schema::XmlSchemaContent*)>(
     &::System::Xml::Schema::XmlSchemaComplexContent::set_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62264d0;
+  constexpr static std::size_t addrs = 0x622df4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(&::System::Xml::Schema::XmlSchemaComplexContent::get_HasMixedAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62264d8;
+  constexpr static std::size_t addrs = 0x622df54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaComplexContent*>(), { "get_HasMixedAttribute", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(&::System::Xml::Schema::XmlSchemaComplexContent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62264e0;
+  constexpr static std::size_t addrs = 0x622df5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaComplexContent*>(), { ".ctor", {}, {} })));

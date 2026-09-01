@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/FileStreamAsyncResult.hpp"
+// IWYU pragma private; include "System\IO\FileStreamAsyncResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +73,7 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method CBWrapper, addr 0x5c1a02c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CBWrapper, addr 0x5c1e4e8, size 0xa4, virtual false, abstract: false, final false
   static inline void CBWrapper(::System::IAsyncResult* ares);
 
   static inline ::System::IO::FileStreamAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
@@ -132,19 +132,19 @@ public:
 
   constexpr void __cordl_internal_set_wh(::System::Threading::ManualResetEvent* value);
 
-  /// @brief Method .ctor, addr 0x5c190d0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c1d58c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method get_AsyncState, addr 0x5c1a0d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x5c1e58c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x5c1a0e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x5c1e59c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x5c1a0d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x5c1e594, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x5c1a0e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x5c1e5a4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/OriginatorInfoGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\OriginatorInfoGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
   /// @brief Field origCrls, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_origCrls, put = __cordl_internal_set_origCrls)) ::System::Collections::IList* origCrls;
 
-  /// @brief Method Generate, addr 0x36cdc2c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x36d19ec, size 0x78, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* Generate();
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_origCrls(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x36cdac4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d1884, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
 
-  /// @brief Method .ctor, addr 0x36cdbd0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d1990, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
 
-  /// @brief Method .ctor, addr 0x36cdbec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36d19ac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
 
 protected:

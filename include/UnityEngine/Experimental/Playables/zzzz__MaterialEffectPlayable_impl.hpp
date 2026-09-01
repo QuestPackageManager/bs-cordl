@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Experimental/Playables/MaterialEffectPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Experimental\Playables\MaterialEffectPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Experimental/Playables/zzzz__MaterialEffectPlayable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)()>(
     &::UnityEngine::Experimental::Playables::MaterialEffectPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b28da0;
+  constexpr static std::size_t addrs = 0x6b30924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)(::UnityEngine::Experimental::Playables::MaterialEffectPlayable)>(
     &::UnityEngine::Experimental::Playables::MaterialEffectPlayable::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b28dac;
+  constexpr static std::size_t addrs = 0x6b30930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Playables::MaterialEffectPlayable>(),

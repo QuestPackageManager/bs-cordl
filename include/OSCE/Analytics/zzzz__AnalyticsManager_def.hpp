@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Analytics/AnalyticsManager.hpp"
+// IWYU pragma private; include "OSCE\Analytics\AnalyticsManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,109 +140,109 @@ public:
   __declspec(property(get = __cordl_internal_get__unsentEvents,
                       put = __cordl_internal_set__unsentEvents)) ::System::Collections::Generic::List_1<::OSCE::Analytics::BaseAnalyticsEvent*>* _unsentEvents;
 
-  /// @brief Method CheckIfIDPresent, addr 0x5f367e8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CheckIfIDPresent, addr 0x5f3ac54, size 0x100, virtual false, abstract: false, final false
   inline bool CheckIfIDPresent(::OSCE::Analytics::BaseAnalyticsEvent* analyticsEvent, bool hasPlatformRID, bool hasSpecificRID, bool hasPlatformID, bool hasGameSpecificID);
 
-  /// @brief Method CheckToQueueEvents, addr 0x5f36230, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CheckToQueueEvents, addr 0x5f3a69c, size 0xb4, virtual false, abstract: false, final false
   inline void CheckToQueueEvents();
 
-  /// @brief Method CheckToSendNextBatch, addr 0x5f362e4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckToSendNextBatch, addr 0x5f3a750, size 0xac, virtual false, abstract: false, final false
   inline void CheckToSendNextBatch();
 
-  /// @brief Method CreateNewSessionId, addr 0x5f35a90, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateNewSessionId, addr 0x5f39efc, size 0x50, virtual false, abstract: false, final false
   inline void CreateNewSessionId();
 
-  /// @brief Method Deinitialize, addr 0x5f36078, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x5f3a4e4, size 0x4, virtual false, abstract: false, final false
   inline void Deinitialize();
 
-  /// @brief Method FixedUpdate, addr 0x5f3616c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x5f3a5d8, size 0xc4, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method FlushAllEvents, addr 0x5f36d04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FlushAllEvents, addr 0x5f3b170, size 0x58, virtual false, abstract: false, final false
   inline void FlushAllEvents();
 
-  /// @brief Method GetActiveMode, addr 0x5f36c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetActiveMode, addr 0x5f3b0a4, size 0x8, virtual false, abstract: false, final false
   inline ::OSCE::Analytics::AnalyticsSystemModeEnum GetActiveMode();
 
-  /// @brief Method GetDefaultLogger, addr 0x5f36da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultLogger, addr 0x5f3b20c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetDefaultLogger();
 
-  /// @brief Method GetGameSpecificID, addr 0x5f36dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetGameSpecificID, addr 0x5f3b22c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetGameSpecificID();
 
-  /// @brief Method GetGameSpecificRID, addr 0x5f36db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetGameSpecificRID, addr 0x5f3b224, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetGameSpecificRID();
 
-  /// @brief Method GetGraphAPIUrl, addr 0x5f347c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetGraphAPIUrl, addr 0x5f38c30, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetGraphAPIUrl();
 
-  /// @brief Method GetPlatformRID, addr 0x5f36db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformRID, addr 0x5f3b21c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetPlatformRID();
 
-  /// @brief Method GetPlatformUserID, addr 0x5f36dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformUserID, addr 0x5f3b234, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetPlatformUserID();
 
-  /// @brief Method GetSessionId, addr 0x5f36da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSessionId, addr 0x5f3b214, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetSessionId();
 
-  /// @brief Method GetSessionOrder, addr 0x5f370f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSessionOrder, addr 0x5f3b564, size 0x8, virtual false, abstract: false, final false
   inline uint32_t GetSessionOrder();
 
-  /// @brief Method GetSessionTimeMS, addr 0x5f355e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetSessionTimeMS, addr 0x5f39a50, size 0x18, virtual false, abstract: false, final false
   inline int64_t GetSessionTimeMS();
 
-  /// @brief Method IncrementSessionOrder, addr 0x5f355fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IncrementSessionOrder, addr 0x5f39a68, size 0x10, virtual false, abstract: false, final false
   inline void IncrementSessionOrder();
 
-  /// @brief Method InitializeAnalytics, addr 0x5f358e0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method InitializeAnalytics, addr 0x5f39d4c, size 0x1b0, virtual false, abstract: false, final false
   inline void InitializeAnalytics(::StringW oculusAuthToken, ::StringW defaultLogger, int32_t secondsBetweenSends, ::OSCE::Analytics::AnalyticsSystemModeEnum startingMode,
                                   ::OSCE::Web::IRequestSender* requestSender, ::StringW environment, ::StringW buildIdentifier);
 
   static inline ::OSCE::Analytics::AnalyticsManager* New_ctor();
 
-  /// @brief Method OnAnalyticsIDRetrieveSuccess, addr 0x5f37104, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method OnAnalyticsIDRetrieveSuccess, addr 0x5f3b570, size 0x210, virtual false, abstract: false, final false
   inline void OnAnalyticsIDRetrieveSuccess(::StringW result, ::OSCE::Analytics::LoggerAnalyticsBatch* _);
 
-  /// @brief Method OnAnalyticsIdRetrieveFailed, addr 0x5f37314, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnAnalyticsIdRetrieveFailed, addr 0x5f3b780, size 0x114, virtual false, abstract: false, final false
   inline void OnAnalyticsIdRetrieveFailed(::System::Exception* e, ::OSCE::Web::FailedPostRequest failedRequest);
 
-  /// @brief Method OnApplicationQuit, addr 0x5f37100, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x5f3b56c, size 0x4, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method OnBatchFailed, addr 0x5f375b8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method OnBatchFailed, addr 0x5f3ba24, size 0x17c, virtual false, abstract: false, final false
   inline void OnBatchFailed(::System::Exception* e, ::OSCE::Web::FailedPostRequest request);
 
-  /// @brief Method OnBatchSuccess, addr 0x5f37428, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method OnBatchSuccess, addr 0x5f3b894, size 0x190, virtual false, abstract: false, final false
   inline void OnBatchSuccess(::StringW result, ::OSCE::Analytics::LoggerAnalyticsBatch* batch);
 
-  /// @brief Method QueueIdRequest, addr 0x5f35ae0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method QueueIdRequest, addr 0x5f39f4c, size 0xf4, virtual false, abstract: false, final false
   inline void QueueIdRequest(bool isResettingId);
 
-  /// @brief Method ResetAnalyticsId, addr 0x5f36cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetAnalyticsId, addr 0x5f3b168, size 0x8, virtual false, abstract: false, final false
   inline void ResetAnalyticsId();
 
   /// @brief Method SendAnalyticsEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SendAnalyticsEvent(T newEvent, bool isThreaded, int32_t timestampToApply);
 
-  /// @brief Method SendBatch, addr 0x5f36f30, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SendBatch, addr 0x5f3b39c, size 0x1c8, virtual false, abstract: false, final false
   inline void SendBatch(::OSCE::Analytics::LoggerAnalyticsBatch* batch);
 
-  /// @brief Method SendIdRequest, addr 0x5f35dd8, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method SendIdRequest, addr 0x5f3a244, size 0x2a0, virtual false, abstract: false, final false
   inline void SendIdRequest();
 
   /// @brief Method SendMultipleEventsWithSameTimestamp, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SendMultipleEventsWithSameTimestamp(::System::Collections::Generic::List_1<T>* newEvents, bool isThreaded);
 
-  /// @brief Method SetOculusAuthToken, addr 0x5f35db0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetOculusAuthToken, addr 0x5f3a21c, size 0x28, virtual false, abstract: false, final false
   inline void SetOculusAuthToken(::StringW oculusAuthToken);
 
-  /// @brief Method SetSystemMode, addr 0x5f36c40, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetSystemMode, addr 0x5f3b0ac, size 0xbc, virtual false, abstract: false, final false
   inline void SetSystemMode(::OSCE::Analytics::AnalyticsSystemModeEnum newMode);
 
-  /// @brief Method Shutdown, addr 0x5f3607c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x5f3a4e8, size 0xf0, virtual false, abstract: false, final false
   inline void Shutdown();
 
-  /// @brief Method TryGetNextBatch, addr 0x5f36390, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method TryGetNextBatch, addr 0x5f3a7fc, size 0x318, virtual false, abstract: false, final false
   inline bool TryGetNextBatch(::by_ref<::OSCE::Analytics::LoggerAnalyticsBatch*> nextBatch);
 
   constexpr ::StringW const& __cordl_internal_get_EditorOnlyGraphUrl() const;
@@ -377,30 +377,30 @@ public:
 
   constexpr void __cordl_internal_set__unsentEvents(::System::Collections::Generic::List_1<::OSCE::Analytics::BaseAnalyticsEvent*>* value);
 
-  /// @brief Method .ctor, addr 0x5f357a0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f39c0c, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::OSCE::Analytics::AnalyticsManager> getStaticF_Instance();
 
-  /// @brief Method get_BuildID, addr 0x5f35790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BuildID, addr 0x5f39bfc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BuildID();
 
-  /// @brief Method get_Environment, addr 0x5f35798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Environment, addr 0x5f39c04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Environment();
 
-  /// @brief Method get_GameSpecificRID, addr 0x5f35770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GameSpecificRID, addr 0x5f39bdc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_GameSpecificRID();
 
-  /// @brief Method get_GameSpecificUserID, addr 0x5f35778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GameSpecificUserID, addr 0x5f39be4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_GameSpecificUserID();
 
-  /// @brief Method get_OculusAuthToken, addr 0x5f35788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OculusAuthToken, addr 0x5f39bf4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_OculusAuthToken();
 
-  /// @brief Method get_PlatformRID, addr 0x5f35768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PlatformRID, addr 0x5f39bd4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PlatformRID();
 
-  /// @brief Method get_PlatformUserID, addr 0x5f35780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PlatformUserID, addr 0x5f39bec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PlatformUserID();
 
   static inline void setStaticF_Instance(::UnityW<::OSCE::Analytics::AnalyticsManager> value);
@@ -429,7 +429,7 @@ public:
   static constexpr int32_t MAX_QUEUE_SIZE{ static_cast<int32_t>(0x1e) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21903 };
 
   /// @brief Field EditorOnlyGraphUrl, offset: 0x20, size: 0x8, def value: None
   ::StringW ___EditorOnlyGraphUrl;

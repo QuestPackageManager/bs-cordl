@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Gen2GcCallback.hpp"
+// IWYU pragma private; include "System\Gen2GcCallback.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__Gen2GcCallback_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Gen2GcCallback::*)()>(&::System::Gen2GcCallback::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c2c3d0;
+  constexpr static std::size_t addrs = 0x5c3088c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Gen2GcCallback*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Func_2<::System::Object*, bool>*, ::System::Object*)>(&::System::Gen2GcCallback::Register)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5c2c3d4;
+  constexpr static std::size_t addrs = 0x5c30890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Gen2GcCallback::*)(::System::Func_2<::System::Object*, bool>*, ::System::Object*)>(&::System::Gen2GcCallback::Setup)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c2c450;
+  constexpr static std::size_t addrs = 0x5c3090c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Gen2GcCallback::*)()>(&::System::Gen2GcCallback::Finalize)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5c2c478;
+  constexpr static std::size_t addrs = 0x5c30934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Gen2GcCallback*>(), { ::i2c::class_of<::System::Gen2GcCallback*>(), 1 }));

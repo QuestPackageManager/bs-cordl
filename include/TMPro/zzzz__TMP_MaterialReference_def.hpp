@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_MaterialReference.hpp"
+// IWYU pragma private; include "TMPro\TMP_MaterialReference.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +32,7 @@ public:
   constexpr TMP_MaterialReference(::UnityW<::UnityEngine::Material> material, int32_t referenceCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15859 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

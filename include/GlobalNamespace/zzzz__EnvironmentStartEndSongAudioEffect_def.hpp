@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnvironmentStartEndSongAudioEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnvironmentStartEndSongAudioEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,27 +80,27 @@ public:
   /// @brief Field _songStartAudioClips, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__songStartAudioClips, put = __cordl_internal_set__songStartAudioClips)) ::ArrayW<::UnityW<::UnityEngine::AudioClip>> _songStartAudioClips;
 
-  /// @brief Method HandleGamePauseDidPause, addr 0x58b83c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidPause, addr 0x58b7d30, size 0x24, virtual false, abstract: false, final false
   inline void HandleGamePauseDidPause();
 
-  /// @brief Method HandleGamePauseDidResume, addr 0x58b83a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidResume, addr 0x58b7d0c, size 0x24, virtual false, abstract: false, final false
   inline void HandleGamePauseDidResume();
 
-  /// @brief Method HandleLevelFailed, addr 0x58b82e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFailed, addr 0x58b7c50, size 0xbc, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method LevelWillFinishWithinAheadTime, addr 0x58b8264, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LevelWillFinishWithinAheadTime, addr 0x58b7bcc, size 0x84, virtual false, abstract: false, final false
   inline void LevelWillFinishWithinAheadTime();
 
   static inline ::GlobalNamespace::EnvironmentStartEndSongAudioEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58b7ccc, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58b7634, size 0x2c8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x58b77e0, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58b7148, size 0x4ec, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x58b7f94, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58b78fc, size 0x2d0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> const& __cordl_internal_get__audioEffectsPlayer() const;
@@ -193,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set__songStartAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>> value);
 
-  /// @brief Method .ctor, addr 0x58b83ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b7d54, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

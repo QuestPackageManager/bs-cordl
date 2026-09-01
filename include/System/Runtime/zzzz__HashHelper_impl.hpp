@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/HashHelper.hpp"
+// IWYU pragma private; include "System\Runtime\HashHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/zzzz__HashHelper_def.hpp"
 //  Writing Method size for method: ::System::Runtime::HashHelper.ComputeHash
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::System::Runtime::HashHelper::ComputeHash)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x617fa04;
+  constexpr static std::size_t addrs = 0x6187480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

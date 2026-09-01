@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Tuple.hpp"
+// IWYU pragma private; include "System\Tuple.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Tuple_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Tuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c5bc04;
+  constexpr static std::size_t addrs = 0x5c600c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::System::Tuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c5bc10;
+  constexpr static std::size_t addrs = 0x5c600cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t)>(&::System::Tuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c5bc24;
+  constexpr static std::size_t addrs = 0x5c600e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

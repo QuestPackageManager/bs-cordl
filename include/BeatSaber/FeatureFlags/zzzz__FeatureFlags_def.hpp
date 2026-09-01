@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureFlags.hpp"
+// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureFlags.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::BeatSaber::FeatureFlags::IFeatureFlags"
   constexpr operator ::BeatSaber::FeatureFlags::IFeatureFlags*() noexcept;
 
-  /// @brief Method GetConfiguration, addr 0x3287a04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetConfiguration, addr 0x328b79c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyDictionary_2<::BeatSaber::FeatureFlags::Feature, ::BeatSaber::FeatureFlags::FeatureConfiguration*>* GetConfiguration();
 
   static inline ::BeatSaber::FeatureFlags::FeatureFlags* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__configurations(::System::Collections::Generic::Dictionary_2<::BeatSaber::FeatureFlags::Feature, ::BeatSaber::FeatureFlags::FeatureConfiguration*>* value);
 
-  /// @brief Method .ctor, addr 0x3287a0c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x328b7a4, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::FeatureFlags::IFeatureFlags"
@@ -74,7 +74,7 @@ public:
   FeatureFlags(FeatureFlags const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22908 };
 
   /// @brief Field _configurations, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::BeatSaber::FeatureFlags::Feature, ::BeatSaber::FeatureFlags::FeatureConfiguration*>* ____configurations;

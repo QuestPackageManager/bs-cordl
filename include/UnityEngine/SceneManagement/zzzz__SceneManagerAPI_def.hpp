@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SceneManagement/SceneManagerAPI.hpp"
+// IWYU pragma private; include "UnityEngine\SceneManagement\SceneManagerAPI.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,29 +33,29 @@ public:
   /// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_DefaultAPI, put = setStaticF_s_DefaultAPI)) ::UnityEngine::SceneManagement::SceneManagerAPI* s_DefaultAPI;
 
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x6af8418, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetNumScenesInBuildSettings, addr 0x6affe30, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetNumScenesInBuildSettings();
 
-  /// @brief Method LoadFirstScene, addr 0x6af8454, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method LoadFirstScene, addr 0x6affe6c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* LoadFirstScene(bool mustLoadAsync);
 
-  /// @brief Method LoadSceneAsyncByNameOrIndex, addr 0x6af8440, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method LoadSceneAsyncByNameOrIndex, addr 0x6affe58, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* LoadSceneAsyncByNameOrIndex(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                     bool mustCompleteNextFrame);
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6af8414, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6affe2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF__overrideAPI_k__BackingField();
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF_s_DefaultAPI();
 
-  /// @brief Method get_ActiveAPI, addr 0x6af8304, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveAPI, addr 0x6affd1c, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_ActiveAPI();
 
-  /// @brief Method get_overrideAPI, addr 0x6af83b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_overrideAPI, addr 0x6affdd0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_overrideAPI();
 
   static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::SceneManagement::SceneManagerAPI* value);
@@ -77,7 +77,7 @@ public:
   SceneManagerAPI(SceneManagerAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

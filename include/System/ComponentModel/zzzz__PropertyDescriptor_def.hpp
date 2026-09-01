@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/PropertyDescriptor.hpp"
+// IWYU pragma private; include "System\ComponentModel\PropertyDescriptor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,22 +74,22 @@ public:
   /// @brief Method CanResetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method CreateInstance, addr 0x63bc9a8, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x63c4424, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Object* CreateInstance(::System::Type* type);
 
-  /// @brief Method Equals, addr 0x63bcb9c, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x63c4618, size 0x1d0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method FillAttributes, addr 0x63bcd6c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x63c47e8, size 0x14, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributeList);
 
-  /// @brief Method GetHashCode, addr 0x63bcd80, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x63c47fc, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationTarget, addr 0x63bcdd4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetInvocationTarget, addr 0x63c4850, size 0xec, virtual true, abstract: false, final false
   inline ::System::Object* GetInvocationTarget(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetTypeFromName, addr 0x63bc7d0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromName, addr 0x63c424c, size 0x1d8, virtual false, abstract: false, final false
   inline ::System::Type* GetTypeFromName(::StringW typeName);
 
   /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -99,7 +99,7 @@ public:
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*> attrs);
 
-  /// @brief Method OnValueChanged, addr 0x63bcec0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x63c493c, size 0xb4, virtual true, abstract: false, final false
   inline void OnValueChanged(::System::Object* component, ::System::EventArgs* e);
 
   /// @brief Method ResetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -141,16 +141,16 @@ public:
 
   constexpr void __cordl_internal_set__valueChangedHandlers(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x63ba19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c1c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::MemberDescriptor* descr, ::ArrayW<::System::Attribute*> attrs);
 
-  /// @brief Method .ctor, addr 0x63bc574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c3ff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*> attrs);
 
   /// @brief Method get_ComponentType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_Converter, addr 0x63bc57c, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method get_Converter, addr 0x63c3ff8, size 0x254, virtual true, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* get_Converter();
 
   /// @brief Method get_IsReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -174,7 +174,7 @@ public:
   PropertyDescriptor(PropertyDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11286 };
 
   /// @brief Field _converter, offset: 0x60, size: 0x8, def value: None
   ::System::ComponentModel::TypeConverter* ____converter;

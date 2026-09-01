@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_DefaultControls.hpp"
+// IWYU pragma private; include "TMPro\TMP_DefaultControls.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::Vector2)>(&::TMPro::TMP_DefaultControls::CreateUIElementRoot)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6943254;
+  constexpr static std::size_t addrs = 0x694acd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::GameObject*)>(&::TMPro::TMP_DefaultControls::CreateUIObject)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6943304;
+  constexpr static std::size_t addrs = 0x694ad80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_DefaultControls::SetDefaultTextValues)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69434d8;
+  constexpr static std::size_t addrs = 0x694af54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::Selectable*)>(&::TMPro::TMP_DefaultControls::SetDefaultColorTransitionValues)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6943564;
+  constexpr static std::size_t addrs = 0x694afe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(&::TMPro::TMP_DefaultControls::SetParentAndAlign)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x69433d0;
+  constexpr static std::size_t addrs = 0x694ae4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, int32_t)>(&::TMPro::TMP_DefaultControls::SetLayerRecursively)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x69435c8;
+  constexpr static std::size_t addrs = 0x694b044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateScrollbar)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x69436b0;
+  constexpr static std::size_t addrs = 0x694b12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateButton)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x69439a0;
+  constexpr static std::size_t addrs = 0x694b41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateText)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6943cc8;
+  constexpr static std::size_t addrs = 0x694b744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateInputField)> {
   constexpr static std::size_t size = 0x7d8;
-  constexpr static std::size_t addrs = 0x6943d6c;
+  constexpr static std::size_t addrs = 0x694b7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(&::TMPro::TMP_DefaultControls::CreateDropdown)> {
   constexpr static std::size_t size = 0xe84;
-  constexpr static std::size_t addrs = 0x6944544;
+  constexpr static std::size_t addrs = 0x694bfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

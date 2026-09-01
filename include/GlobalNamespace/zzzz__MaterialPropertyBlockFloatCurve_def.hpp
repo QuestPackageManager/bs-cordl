@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockFloatCurve.hpp"
+// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockFloatCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockFloatCurve* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x5872a28, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x5872368, size 0xb0, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__curve() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__valueMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x5872ad8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5872418, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurve const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19573 };
 
   /// @brief Field _curve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____curve;

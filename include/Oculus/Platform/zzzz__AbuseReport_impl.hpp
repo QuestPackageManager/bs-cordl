@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/AbuseReport.hpp"
+// IWYU pragma private; include "Oculus\Platform\AbuseReport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__AbuseReport_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(::Oculus::Platform::ReportRequestResponse)>(&::Oculus::Platform::AbuseReport::ReportRequestHandled)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5ddf95c;
+  constexpr static std::size_t addrs = 0x5de3e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::AbuseReport::SetReportButtonPressedNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5ddfab0;
+  constexpr static std::size_t addrs = 0x5de3f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

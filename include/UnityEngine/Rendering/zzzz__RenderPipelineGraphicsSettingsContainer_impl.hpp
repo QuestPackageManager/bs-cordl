@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RenderPipelineGraphicsSettingsContainer.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RenderPipelineGraphicsSettingsContainer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineGraphicsSettingsContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* (
     ::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::*)()>(&::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::get_settingsList)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x679b424;
+  constexpr static std::size_t addrs = 0x67a2ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x679b43c;
+  constexpr static std::size_t addrs = 0x67a2eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x679b440;
+  constexpr static std::size_t addrs = 0x67a2ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::*)()>(
     &::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x679b444;
+  constexpr static std::size_t addrs = 0x67a2ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

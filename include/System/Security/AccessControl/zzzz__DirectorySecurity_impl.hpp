@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/DirectorySecurity.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\DirectorySecurity.hpp"
 #include "System/Security/AccessControl/zzzz__FileSystemSecurity_impl.hpp"
 #include "System/Security/AccessControl/zzzz__DirectorySecurity_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlSections_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::DirectorySecurity::*)(::StringW, ::System::Security::AccessControl::AccessControlSections)>(
     &::System::Security::AccessControl::DirectorySecurity::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b1afc4;
+  constexpr static std::size_t addrs = 0x5b1f480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

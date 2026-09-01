@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultySegmentedControlController.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapDifficultySegmentedControlController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,21 +59,21 @@ public:
 
   __declspec(property(get = get_selectedDifficulty)) ::GlobalNamespace::BeatmapDifficulty selectedDifficulty;
 
-  /// @brief Method Awake, addr 0x5941124, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5944ba8, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetClosestDifficultyIndex, addr 0x5941290, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetClosestDifficultyIndex, addr 0x5944d14, size 0x118, virtual false, abstract: false, final false
   inline int32_t GetClosestDifficultyIndex(::GlobalNamespace::BeatmapDifficulty searchDifficulty);
 
-  /// @brief Method HandleDifficultySegmentedControlDidSelectCell, addr 0x59413a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleDifficultySegmentedControlDidSelectCell, addr 0x5944e2c, size 0x98, virtual false, abstract: false, final false
   inline void HandleDifficultySegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::BeatmapDifficultySegmentedControlController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59411b4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5944c38, size 0xdc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetData, addr 0x5941440, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5944ec4, size 0x4f8, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapDifficulty>* difficultyBeatmaps, ::GlobalNamespace::BeatmapDifficulty selectedDifficulty,
                       ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask);
 
@@ -103,16 +103,16 @@ public:
   constexpr void
   __cordl_internal_set_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method .ctor, addr 0x5941938, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59453bc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectDifficultyEvent, addr 0x5940f9c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectDifficultyEvent, addr 0x5944a20, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method get_selectedDifficulty, addr 0x594111c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedDifficulty, addr 0x5944ba0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
 
-  /// @brief Method remove_didSelectDifficultyEvent, addr 0x594105c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectDifficultyEvent, addr 0x5944ae0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
 protected:
@@ -130,7 +130,7 @@ public:
   BeatmapDifficultySegmentedControlController(BeatmapDifficultySegmentedControlController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6906 };
 
   /// @brief Field _difficultySegmentedControl, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____difficultySegmentedControl;

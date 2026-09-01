@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/RandomizeAvatarColorMap.hpp"
+// IWYU pragma private; include "BeatSaber\BeatAvatarSDK\RandomizeAvatarColorMap.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__RandomizeAvatarColorMap_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap.get_totalIndices
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::*)()>(&::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::get_totalIndices)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32792bc;
+  constexpr static std::size_t addrs = 0x327d04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>(), { "get_totalIndices", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::*)()>(
     &::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::get_colorIndices)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32792c4;
+  constexpr static std::size_t addrs = 0x327d054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>(), { "get_colorIndices", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3278cd0;
+  constexpr static std::size_t addrs = 0x327ca60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

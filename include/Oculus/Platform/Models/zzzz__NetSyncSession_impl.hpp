@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/NetSyncSession.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\NetSyncSession.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncSession_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::NetSyncSession::*)(::System::IntPtr)>(&::Oculus::Platform::Models::NetSyncSession::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5deca4c;
+  constexpr static std::size_t addrs = 0x5df0f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

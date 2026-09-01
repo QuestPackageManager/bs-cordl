@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/X509Attribute.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\X509Attribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   /// @brief Field attr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attr, put = __cordl_internal_set_attr)) ::Org::BouncyCastle::Asn1::X509::AttributeX509* attr;
 
-  /// @brief Method GetValues, addr 0x3643298, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetValues, addr 0x3647058, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*> GetValues();
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
@@ -47,7 +47,7 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method ToAsn1Object, addr 0x36433ac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x364716c, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AttributeX509* const& __cordl_internal_get_attr() const;
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set_attr(::Org::BouncyCastle::Asn1::X509::AttributeX509* value);
 
-  /// @brief Method .ctor, addr 0x36430cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3646e8c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
 
-  /// @brief Method .ctor, addr 0x36430ec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3646eac, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x36431ac, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3646f6c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  /// @brief Method get_Oid, addr 0x3643274, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Oid, addr 0x3647034, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_Oid();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RectangleFakeGlowLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace\RectangleFakeGlowLightWithId.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,18 +26,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE RectangleFakeGlowLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _alphaMul, offset 0x38, size 0x4
+  /// @brief Field _alphaMul, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__alphaMul, put = __cordl_internal_set__alphaMul)) float_t _alphaMul;
 
-  /// @brief Field _minAlpha, offset 0x34, size 0x4
+  /// @brief Field _minAlpha, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__minAlpha, put = __cordl_internal_set__minAlpha)) float_t _minAlpha;
 
-  /// @brief Field _rectangleFakeGlow, offset 0x40, size 0x8
+  /// @brief Field _rectangleFakeGlow, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__rectangleFakeGlow, put = __cordl_internal_set__rectangleFakeGlow)) ::UnityW<::GlobalNamespace::RectangleFakeGlow> _rectangleFakeGlow;
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x599dffc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x59a5f20, size 0x28, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::RectangleFakeGlowLightWithId* New_ctor();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set__rectangleFakeGlow(::UnityW<::GlobalNamespace::RectangleFakeGlow> value);
 
-  /// @brief Method .ctor, addr 0x599e024, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a5f48, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x599dfe0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x59a5f04, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -81,26 +81,26 @@ public:
   RectangleFakeGlowLightWithId(RectangleFakeGlowLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5974 };
 
-  /// @brief Field _minAlpha, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _minAlpha, offset: 0x3c, size: 0x4, def value: None
   float_t ____minAlpha;
 
-  /// @brief Field _alphaMul, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _alphaMul, offset: 0x40, size: 0x4, def value: None
   float_t ____alphaMul;
 
-  /// @brief Field _rectangleFakeGlow, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _rectangleFakeGlow, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RectangleFakeGlow> ____rectangleFakeGlow;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::RectangleFakeGlowLightWithId, ____minAlpha) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RectangleFakeGlowLightWithId, ____minAlpha) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RectangleFakeGlowLightWithId, ____alphaMul) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RectangleFakeGlowLightWithId, ____alphaMul) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RectangleFakeGlowLightWithId, ____rectangleFakeGlow) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RectangleFakeGlowLightWithId, ____rectangleFakeGlow) == 0x48, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::RectangleFakeGlowLightWithId) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::RectangleFakeGlowLightWithId) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace

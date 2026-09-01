@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PackBuyOption.hpp"
+// IWYU pragma private; include "GlobalNamespace\PackBuyOption.hpp"
 #include "GlobalNamespace/zzzz__PackBuyOption_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::PackBuyOption::PackBuyOption(int32_t value__) noexcept {

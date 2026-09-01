@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlChoiceIdentifierAttribute.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlChoiceIdentifierAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlChoiceIdentifierAttribute_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlChoiceIdentifierAttribute::*)()>(
     &::System::Xml::Serialization::XmlChoiceIdentifierAttribute::get_MemberName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62ec2a0;
+  constexpr static std::size_t addrs = 0x62f3d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlChoiceIdentifierAttribute::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::Serialization::XmlChoiceIdentifierAttribute::AddKeyHash)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x62ec2c0;
+  constexpr static std::size_t addrs = 0x62f3d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

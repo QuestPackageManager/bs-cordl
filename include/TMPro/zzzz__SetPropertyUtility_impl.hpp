@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/SetPropertyUtility.hpp"
+// IWYU pragma private; include "TMPro\SetPropertyUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__SetPropertyUtility_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Color>, ::UnityEngine::Color)>(&::TMPro::SetPropertyUtility::SetColor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x698cd5c;
+  constexpr static std::size_t addrs = 0x69947d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

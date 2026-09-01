@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Diagnostics/StringTraceRecord.hpp"
+// IWYU pragma private; include "System\Runtime\Diagnostics\StringTraceRecord.hpp"
 #include "System/Runtime/Diagnostics/zzzz__TraceRecord_impl.hpp"
 #include "System/Runtime/Diagnostics/zzzz__StringTraceRecord_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::StringTraceRecord::*)(::StringW, ::StringW)>(&::System::Runtime::Diagnostics::StringTraceRecord::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x618a15c;
+  constexpr static std::size_t addrs = 0x6191bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::StringTraceRecord::*)(::System::Xml::XmlWriter*)>(
     &::System::Runtime::Diagnostics::StringTraceRecord::WriteTo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x618a164;
+  constexpr static std::size_t addrs = 0x6191be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

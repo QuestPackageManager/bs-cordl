@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/GenericParameterDataContract.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\GenericParameterDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContract_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__GenericParameterDataContract_def.hpp"
 #include "System/Runtime/Serialization/zzzz__GenericParameterDataContract_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::GenericParameterDataContract_GenericParameterDataContractCriticalHelper::*)(::System::Type*)>(
     &::System::Runtime::Serialization::GenericParameterDataContract_GenericParameterDataContractCriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x614de60;
+  constexpr static std::size_t addrs = 0x61558dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::GenericParameterDataContract::*)(::System::Type*)>(
     &::System::Runtime::Serialization::GenericParameterDataContract::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6140fcc;
+  constexpr static std::size_t addrs = 0x6148a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::GenericParameterDataContract::*)()>(
     &::System::Runtime::Serialization::GenericParameterDataContract::get_IsBuiltInDataContract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x614df04;
+  constexpr static std::size_t addrs = 0x6155980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::GenericParameterDataContract*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/RijndaelManaged.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\RijndaelManaged.hpp"
 #include "System/Security/Cryptography/zzzz__Rijndael_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManaged_def.hpp"
 #include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RijndaelManaged::*)()>(&::System::Security::Cryptography::RijndaelManaged::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5af9054;
+  constexpr static std::size_t addrs = 0x5afd510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RijndaelManaged*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::ICryptoTransform* (
     ::System::Security::Cryptography::RijndaelManaged::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::System::Security::Cryptography::RijndaelManaged::CreateEncryptor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5af90e0;
+  constexpr static std::size_t addrs = 0x5afd59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::ICryptoTransform* (
     ::System::Security::Cryptography::RijndaelManaged::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::System::Security::Cryptography::RijndaelManaged::CreateDecryptor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5af91f8;
+  constexpr static std::size_t addrs = 0x5afd6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RijndaelManaged::*)()>(&::System::Security::Cryptography::RijndaelManaged::GenerateKey)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5af920c;
+  constexpr static std::size_t addrs = 0x5afd6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RijndaelManaged::*)()>(&::System::Security::Cryptography::RijndaelManaged::GenerateIV)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5af923c;
+  constexpr static std::size_t addrs = 0x5afd6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Crypt
     ::System::Security::Cryptography::RijndaelManaged::*)(::ArrayW<uint8_t>, ::System::Security::Cryptography::CipherMode, ::ArrayW<uint8_t>, int32_t,
                                                           ::System::Security::Cryptography::RijndaelManagedTransformMode)>(&::System::Security::Cryptography::RijndaelManaged::NewEncryptor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5af90f4;
+  constexpr static std::size_t addrs = 0x5afd5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

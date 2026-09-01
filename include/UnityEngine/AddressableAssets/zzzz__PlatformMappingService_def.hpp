@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AddressableAssets/PlatformMappingService.hpp"
+// IWYU pragma private; include "UnityEngine\AddressableAssets\PlatformMappingService.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,18 +34,18 @@ public:
                       put = setStaticF_s_RuntimeTargetMapping)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>*
       s_RuntimeTargetMapping;
 
-  /// @brief Method GetAddressablesPlatformInternal, addr 0x645d020, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformInternal, addr 0x6464a9c, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x645d10c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x6464b88, size 0x144, virtual false, abstract: false, final false
   static inline ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetPlatformPathSubFolder, addr 0x64503a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPathSubFolder, addr 0x6457e20, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPathSubFolder();
 
   static inline ::UnityEngine::AddressableAssets::PlatformMappingService* New_ctor();
 
-  /// @brief Method .ctor, addr 0x645d250, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6464ccc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* getStaticF_s_RuntimeTargetMapping();
@@ -67,7 +67,7 @@ public:
   PlatformMappingService(PlatformMappingService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

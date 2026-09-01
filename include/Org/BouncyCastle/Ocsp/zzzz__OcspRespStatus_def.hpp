@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Ocsp/OcspRespStatus.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Ocsp\OcspRespStatus.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Ocsp::OcspRespStatus* New_ctor();
 
-  /// @brief Method .ctor, addr 0x357471c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35784dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/InteractableTiltEffect.hpp"
+// IWYU pragma private; include "HMUI\InteractableTiltEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,15 +68,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerMoveHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerMoveHandler*() noexcept;
 
-  /// @brief Method ComputeNewTargetRotation, addr 0x5882878, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ComputeNewTargetRotation, addr 0x58821c0, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ComputeNewTargetRotation(::UnityEngine::Vector2 localPoint);
 
   static inline ::HMUI::InteractableTiltEffect* New_ctor();
 
-  /// @brief Method OnPointerEnter, addr 0x588290c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x5882254, size 0x50, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerMove, addr 0x588295c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method OnPointerMove, addr 0x58822a4, size 0x50, virtual true, abstract: false, final true
   inline void OnPointerMove(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr float_t const& __cordl_internal_get__effectStrengthMultiplier() const;
@@ -109,10 +109,10 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x58829ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58822f4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_effectStrengthMultiplier, addr 0x5882904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectStrengthMultiplier, addr 0x588224c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_effectStrengthMultiplier();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -124,7 +124,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerMoveHandler"
   constexpr ::UnityEngine::EventSystems::IPointerMoveHandler* i___UnityEngine__EventSystems__IPointerMoveHandler() noexcept;
 
-  /// @brief Method set_effectStrengthMultiplier, addr 0x5882848, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_effectStrengthMultiplier, addr 0x5882190, size 0x30, virtual false, abstract: false, final false
   inline void set_effectStrengthMultiplier(float_t value);
 
 protected:
@@ -142,7 +142,7 @@ public:
   InteractableTiltEffect(InteractableTiltEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19079 };
 
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;

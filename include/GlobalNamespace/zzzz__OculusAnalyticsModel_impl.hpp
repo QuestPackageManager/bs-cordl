@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OculusAnalyticsModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\OculusAnalyticsModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusAnalyticsModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberSessionEventType_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OculusAnalyticsModel::*)()>(&::GlobalNamespace::OculusAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32bf6f0;
+  constexpr static std::size_t addrs = 0x32c34ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)()>(&::GlobalNamespace::OculusAnalyticsModel::OpenDataPrivacyPage)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32bf6f8;
+  constexpr static std::size_t addrs = 0x32c34f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusAnalyticsModel*>(), { "OpenDataPrivacyPage", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::OculusAnalyticsModel::LogEvent)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x32bf6fc;
+  constexpr static std::size_t addrs = 0x32c34f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(::GlobalNamespace::BeatSaberSessionEventType, int32_t)>(
     &::GlobalNamespace::OculusAnalyticsModel::LogSessionEvent)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x32bf848;
+  constexpr static std::size_t addrs = 0x32c3644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::OculusAnalyticsModel::LogEditAvatarEvent)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x32bfa98;
+  constexpr static std::size_t addrs = 0x32c3894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::OculusAnalyticsModel::LogClick)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x32bfbe4;
+  constexpr static std::size_t addrs = 0x32c39e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::OculusAnalyticsModel::LogImpression)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x32bfc98;
+  constexpr static std::size_t addrs = 0x32c3a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::OculusAnalyticsModel::LogExposure)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x32bfd4c;
+  constexpr static std::size_t addrs = 0x32c3b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)()>(&::GlobalNamespace::OculusAnalyticsModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32bfe00;
+  constexpr static std::size_t addrs = 0x32c3bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusAnalyticsModel*>(), { ".ctor", {}, {} })));

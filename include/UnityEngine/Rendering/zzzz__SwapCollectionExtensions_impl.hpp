@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SwapCollectionExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SwapCollectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SwapCollectionExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"

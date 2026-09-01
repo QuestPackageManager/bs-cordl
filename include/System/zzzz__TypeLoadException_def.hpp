@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/TypeLoadException.hpp"
+// IWYU pragma private; include "System\TypeLoadException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +47,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x5c86688, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5c8ab44, size 0x1bc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::TypeLoadException* New_ctor();
@@ -60,7 +60,7 @@ public:
 
   static inline ::System::TypeLoadException* New_ctor(::StringW message);
 
-  /// @brief Method SetMessageField, addr 0x5c86358, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetMessageField, addr 0x5c8a814, size 0x134, virtual false, abstract: false, final false
   inline void SetMessageField();
 
   constexpr ::StringW const& __cordl_internal_get_AssemblyName() const;
@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set_ResourceId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5c862bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c8a778, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c8648c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c8a948, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW assemblyName);
 
-  /// @brief Method .ctor, addr 0x5c864d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c8a990, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId);
 
-  /// @brief Method .ctor, addr 0x5c8652c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c8a9e8, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c8631c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c8a7d8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x5c86340, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5c8a7fc, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/Punycode.hpp"
+// IWYU pragma private; include "System\Globalization\Punycode.hpp"
 #include "System/Globalization/zzzz__Bootstring_impl.hpp"
 #include "System/Globalization/zzzz__Punycode_def.hpp"
 //  Writing Method size for method: ::System::Globalization::Punycode._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::Punycode::*)()>(&::System::Globalization::Punycode::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5bda9ac;
+  constexpr static std::size_t addrs = 0x5bdee68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::Punycode*>(), { ".ctor", {}, {} })));

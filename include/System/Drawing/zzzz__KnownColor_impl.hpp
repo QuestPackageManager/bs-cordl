@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Drawing/KnownColor.hpp"
+// IWYU pragma private; include "System\Drawing\KnownColor.hpp"
 #include "System/Drawing/zzzz__KnownColor_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Drawing::KnownColor::KnownColor(int32_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/KeyPurposeID.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\KeyPurposeID.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyPurposeID* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x365cfd8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3660d98, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyPurposeID* getStaticF_AnyExtendedKeyUsage();

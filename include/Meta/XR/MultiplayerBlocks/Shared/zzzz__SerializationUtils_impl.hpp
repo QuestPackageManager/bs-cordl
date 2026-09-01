@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/SerializationUtils.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\SerializationUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__SerializationUtils_def.hpp"
 template <typename T> inline ::StringW Meta::XR::MultiplayerBlocks::Shared::SerializationUtils::SerializeToString(T obj) {

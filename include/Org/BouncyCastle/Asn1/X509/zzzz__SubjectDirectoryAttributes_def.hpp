@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/SubjectDirectoryAttributes.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\SubjectDirectoryAttributes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +42,7 @@ public:
   /// @brief Field attributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::System::Collections::IList* attributes;
 
-  /// @brief Method GetInstance, addr 0x36615c4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3665384, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* New_ctor(::System::Collections::ArrayList* attributes);
@@ -51,7 +51,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3661ae0, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x36658a0, size 0x2cc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::System::Collections::IList* const& __cordl_internal_get_attributes() const;
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_attributes(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x3661a6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366582c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* attributes);
 
-  /// @brief Method .ctor, addr 0x3661a70, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3665830, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* attributes);
 
-  /// @brief Method .ctor, addr 0x3661748, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3665508, size 0x324, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Attributes, addr 0x3661dac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x3665b6c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_Attributes();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BloomPrePassEffectSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\BloomPrePassEffectSO.hpp"
 #include "GlobalNamespace/zzzz__TextureEffectSO_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::TextureEffectSO> (::GlobalNamespace::BloomPrePassEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassEffectSO::get_textureEffect)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5862e5c;
+  constexpr static std::size_t addrs = 0x5861f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassEffectSO*>(), { "get_textureEffect", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BloomPrePassEffectSO::*)()>(&::GlobalNamespace::BloomPrePassEffectSO::get_textureWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5862e60;
+  constexpr static std::size_t addrs = 0x5861f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassEffectSO*>(), { "get_textureWidth", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BloomPrePassEffectSO::*)()>(&::GlobalNamespace::BloomPrePassEffectSO::get_textureHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5862e68;
+  constexpr static std::size_t addrs = 0x5861f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassEffectSO*>(), { "get_textureHeight", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::BloomPrePassEffectSO::*)()>(&::GlobalNamespace::BloomPrePassEffectSO::get_fov)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5862e70;
+  constexpr static std::size_t addrs = 0x5861f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassEffectSO*>(), { "get_fov", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BloomPrePassEffectSO::*)()>(&::GlobalNamespace::BloomPrePassEffectSO::get_linesWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5862e78;
+  constexpr static std::size_t addrs = 0x5861f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassEffectSO*>(), { "get_linesWidth", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ToneMapping (::GlobalNamespace::BloomPrePassEffectSO::*)()>(&::GlobalNamespace::BloomPrePassEffectSO::get_toneMapping)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5862e80;
+  constexpr static std::size_t addrs = 0x5861f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassEffectSO::*)()>(&::GlobalNamespace::BloomPrePassEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5862e88;
+  constexpr static std::size_t addrs = 0x5861f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassEffectSO*>(), { ".ctor", {}, {} })));

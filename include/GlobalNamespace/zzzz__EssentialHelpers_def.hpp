@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EssentialHelpers.hpp"
+// IWYU pragma private; include "GlobalNamespace\EssentialHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ public:
   /// @brief Method GetOrAddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetOrAddComponent(::UnityEngine::GameObject* go);
 
-  /// @brief Method SafeDestroy, addr 0x33206ec, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x33244ac, size 0xf8, virtual false, abstract: false, final false
   static inline void SafeDestroy(::UnityEngine::Object* obj);
 
-  /// @brief Method get_CurrentTimeStamp, addr 0x3320610, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentTimeStamp, addr 0x33243d0, size 0xdc, virtual false, abstract: false, final false
   static inline double_t get_CurrentTimeStamp();
 
 protected:
@@ -50,7 +50,7 @@ public:
   EssentialHelpers(EssentialHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20740 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

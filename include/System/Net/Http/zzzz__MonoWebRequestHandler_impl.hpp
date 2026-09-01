@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/MonoWebRequestHandler.hpp"
+// IWYU pragma private; include "System\Net\Http\MonoWebRequestHandler.hpp"
 #include "System/Net/Security/zzzz__AuthenticationLevel_impl.hpp"
 #include "System/Net/zzzz__DecompressionMethods_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler___c::*)()>(&::System::Net::Http::MonoWebRequestHandler___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60d0e8c;
+  constexpr static std::size_t addrs = 0x60d8908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MonoWebRequestHandler___c*>(), { ".ctor", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::MonoWebRequestHandler___c::*)(::StringW)>(
     &::System::Net::Http::MonoWebRequestHandler___c::_GetConnectionKeepAlive_b__95_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x60d0e90;
+  constexpr static std::size_t addrs = 0x60d890c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::MonoWebRequestHandler___c::*)(::StringW)>(
     &::System::Net::Http::MonoWebRequestHandler___c::_CreateWebRequest_b__96_1)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x60d0ee4;
+  constexpr static std::size_t addrs = 0x60d8960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler___c::*)(::System::Object*)>(
     &::System::Net::Http::MonoWebRequestHandler___c::_SendAsync_b__99_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x60d0f3c;
+  constexpr static std::size_t addrs = 0x60d89b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99::*)()>(
     &::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99::MoveNext)> {
   constexpr static std::size_t size = 0x1860;
-  constexpr static std::size_t addrs = 0x60d0fc8;
+  constexpr static std::size_t addrs = 0x60d8a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99>(), { "MoveNext", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60d2c00;
+  constexpr static std::size_t addrs = 0x60da67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99>(),
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler::*)()>(&::System::Net::Http::MonoWebRequestHandler::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x60ce9a4;
+  constexpr static std::size_t addrs = 0x60d6420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MonoWebRequestHandler*>(), { ".ctor", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler::*)()>(&::System::Net::Http::MonoWebRequestHandler::EnsureModifiability)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x60cf544;
+  constexpr static std::size_t addrs = 0x60d6fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MonoWebRequestHandler*>(), { "EnsureModifiability", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler::*)(bool)>(&::System::Net::Http::MonoWebRequestHandler::set_AllowAutoRedirect)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60cf59c;
+  constexpr static std::size_t addrs = 0x60d7018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::CookieContainer* (::System::Net::Http::MonoWebRequestHandler::*)()>(
     &::System::Net::Http::MonoWebRequestHandler::get_CookieContainer)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x60cf5c0;
+  constexpr static std::size_t addrs = 0x60d703c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MonoWebRequestHandler*>(), { "get_CookieContainer", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::Http::MonoWebRequestHandler::*)()>(&::System::Net::Http::MonoWebRequestHandler::get_MaxRequestContentBufferSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60cf628;
+  constexpr static std::size_t addrs = 0x60d70a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler::*)(bool)>(&::System::Net::Http::MonoWebRequestHandler::set_UseProxy)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60cf630;
+  constexpr static std::size_t addrs = 0x60d70ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Security::SslClientAuthenticationOptions* (::System::Net::Http::MonoWebRequestHandler::*)()>(
     &::System::Net::Http::MonoWebRequestHandler::get_SslOptions)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60cf654;
+  constexpr static std::size_t addrs = 0x60d70d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MonoWebRequestHandler*>(), { "get_SslOptions", {}, {} })));
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler::*)(::System::Net::Security::SslClientAuthenticationOptions*)>(
     &::System::Net::Http::MonoWebRequestHandler::set_SslOptions)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60cf6b4;
+  constexpr static std::size_t addrs = 0x60d7130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MonoWebRequestHandler*>(),
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler::*)()>(&::System::Net::Http::MonoWebRequestHandler::Dispose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60cf6d8;
+  constexpr static std::size_t addrs = 0x60d7154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MonoWebRequestHandler*>(), { "Dispose", {}, {} })));
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler::*)(bool)>(&::System::Net::Http::MonoWebRequestHandler::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x60cf6ec;
+  constexpr static std::size_t addrs = 0x60d7168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::MonoWebRequestHandler::*)(::System::Net::Http::Headers::HttpRequestHeaders*)>(
     &::System::Net::Http::MonoWebRequestHandler::GetConnectionKeepAlive)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x60cf780;
+  constexpr static std::size_t addrs = 0x60d71fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MonoWebRequestHandler*>(),
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::HttpWebRequest* (::System::Net::Http::MonoWebRequestHandler::*)(::System::Net::Http::HttpRequestMessage*)>(
     &::System::Net::Http::MonoWebRequestHandler::CreateWebRequest)> {
   constexpr static std::size_t size = 0x8c8;
-  constexpr static std::size_t addrs = 0x60cf904;
+  constexpr static std::size_t addrs = 0x60d7380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -386,7 +386,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::Http
     ::System::Net::Http::MonoWebRequestHandler::*)(::System::Net::HttpWebResponse*, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken)>(
     &::System::Net::Http::MonoWebRequestHandler::CreateResponseMessage)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x60d06a0;
+  constexpr static std::size_t addrs = 0x60d811c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Net::Http::HttpMethod*)>(&::System::Net::Http::MonoWebRequestHandler::MethodHasBody)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x60d0b70;
+  constexpr static std::size_t addrs = 0x60d85ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::MonoWebRequestHandler::*)(::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken)>(&::System::Net::Http::MonoWebRequestHandler::SendAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x60d0c7c;
+  constexpr static std::size_t addrs = 0x60d86f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MonoWebRequestHandler::*)(::System::TimeSpan)>(
     &::System::Net::Http::MonoWebRequestHandler::System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60d0d74;
+  constexpr static std::size_t addrs = 0x60d87f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -449,7 +449,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Crypt
                                                    ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>)>(
     &::System::Net::Http::MonoWebRequestHandler::_CreateWebRequest_b__96_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x60d0dd4;
+  constexpr static std::size_t addrs = 0x60d8850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

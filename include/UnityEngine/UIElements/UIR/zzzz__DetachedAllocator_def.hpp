@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/DetachedAllocator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\DetachedAllocator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,10 +54,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6cce118, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6cd5c9c, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6cce180, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6cd5d04, size 0xa0, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::DetachedAllocator* New_ctor();
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VertsPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x6ccdff4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd5b78, size 0x124, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

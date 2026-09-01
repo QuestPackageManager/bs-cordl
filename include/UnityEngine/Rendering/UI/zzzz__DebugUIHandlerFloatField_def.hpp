@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerFloatField.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerFloatField.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,27 +41,27 @@ public:
   /// @brief Field valueLabel, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_valueLabel, put = __cordl_internal_set_valueLabel)) ::UnityW<::UnityEngine::UI::Text> valueLabel;
 
-  /// @brief Method ChangeValue, addr 0x67fb83c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ChangeValue, addr 0x68032b8, size 0xb4, virtual false, abstract: false, final false
   inline void ChangeValue(bool fast, float_t multiplier);
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerFloatField* New_ctor();
 
-  /// @brief Method OnDecrement, addr 0x67fb8f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x680336c, size 0x8, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnDeselection, addr 0x67fb7e4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6803260, size 0x50, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnIncrement, addr 0x67fb834, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x68032b0, size 0x8, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method OnSelection, addr 0x67fb78c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6803208, size 0x58, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x67fb620, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x680309c, size 0x90, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method UpdateValueLabel, addr 0x67fb6b0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x680312c, size 0xdc, virtual false, abstract: false, final false
   inline void UpdateValueLabel();
 
   constexpr ::UnityEngine::Rendering::DebugUI_FloatField* const& __cordl_internal_get_m_Field() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x67fb8f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6803374, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   DebugUIHandlerFloatField(DebugUIHandlerFloatField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12520 };
 
   /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___nameLabel;

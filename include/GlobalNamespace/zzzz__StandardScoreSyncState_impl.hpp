@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StandardScoreSyncState.hpp"
+// IWYU pragma private; include "GlobalNamespace\StandardScoreSyncState.hpp"
 #include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
 #include "GlobalNamespace/zzzz__IEquatableByReference_1_def.hpp"
 #include "GlobalNamespace/zzzz__IStateTable_3_def.hpp"
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardScoreSyncState::*)(::GlobalNamespace::StandardScoreSyncState_Score, int32_t)>(
     &::GlobalNamespace::StandardScoreSyncState::SetState)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x32ba95c;
+  constexpr static std::size_t addrs = 0x32be758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
     &::GlobalNamespace::StandardScoreSyncState::GetDelta)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x32ba9ac;
+  constexpr static std::size_t addrs = 0x32be7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
     &::GlobalNamespace::StandardScoreSyncState::ApplyDelta)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x32ba9d0;
+  constexpr static std::size_t addrs = 0x32be7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StandardScoreSyncState::*)(::GlobalNamespace::StandardScoreSyncState_Score)>(
     &::GlobalNamespace::StandardScoreSyncState::GetState)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x32ba9f4;
+  constexpr static std::size_t addrs = 0x32be7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardScoreSyncState::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::StandardScoreSyncState::Serialize)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x32baa4c;
+  constexpr static std::size_t addrs = 0x32be848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardScoreSyncState::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::StandardScoreSyncState::Deserialize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x32bab08;
+  constexpr static std::size_t addrs = 0x32be904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
     &::GlobalNamespace::StandardScoreSyncState::Equals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32babb0;
+  constexpr static std::size_t addrs = 0x32be9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StandardScoreSyncState::*)()>(&::GlobalNamespace::StandardScoreSyncState::GetSize)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x32bac0c;
+  constexpr static std::size_t addrs = 0x32bea08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardScoreSyncState>(), { "GetSize", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
     &::GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x32bad08;
+  constexpr static std::size_t addrs = 0x32beb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
     &::GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x32bad2c;
+  constexpr static std::size_t addrs = 0x32beb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandardScoreSyncState::*)(::by_ref<::GlobalNamespace::StandardScoreSyncState>)>(
     &::GlobalNamespace::StandardScoreSyncState::IEquatableByReference_StandardScoreSyncState__Equals)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32bad50;
+  constexpr static std::size_t addrs = 0x32beb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

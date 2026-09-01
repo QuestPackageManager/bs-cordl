@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/TrackDefinitions/LightGroupDuplicationGroup.hpp"
+// IWYU pragma private; include "BeatSaber\TrackDefinitions\LightGroupDuplicationGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>> value);
 
-  /// @brief Method .ctor, addr 0x32e8b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ec974, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duplicationGroupName, addr 0x32e8b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duplicationGroupName, addr 0x32ec964, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_duplicationGroupName();
 
-  /// @brief Method get_lightGroups, addr 0x32e8b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x32ec96c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>> get_lightGroups();
 
 protected:
@@ -73,7 +73,7 @@ public:
   LightGroupDuplicationGroup(LightGroupDuplicationGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22957 };
 
   /// @brief Field _duplicationGroupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____duplicationGroupName;

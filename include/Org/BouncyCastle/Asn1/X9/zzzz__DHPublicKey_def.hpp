@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/DHPublicKey.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\DHPublicKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,15 +36,15 @@ public:
   /// @brief Field y, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) ::Org::BouncyCastle::Asn1::DerInteger* y;
 
-  /// @brief Method GetInstance, addr 0x3673108, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3676ec8, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x367311c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3676edc, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHPublicKey* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* y);
 
-  /// @brief Method ToAsn1Object, addr 0x36732f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x36770b8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_y() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x3673298, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3677058, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* y);
 
-  /// @brief Method get_Y, addr 0x36732f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x36770b0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Y();
 
 protected:

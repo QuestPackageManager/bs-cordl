@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/HighlightState.hpp"
+// IWYU pragma private; include "TMPro\HighlightState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,22 +31,22 @@ namespace TMPro {
 struct CORDL_TYPE HighlightState {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x6942b04, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x694a580, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6942b7c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x694a5f8, size 0x9c, virtual false, abstract: false, final false
   inline bool Equals(::TMPro::HighlightState other);
 
-  /// @brief Method GetHashCode, addr 0x6942a98, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x694a514, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6942994, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x694a410, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color32 color, ::TMPro::TMP_Offset padding);
 
-  /// @brief Method op_Equality, addr 0x69429a4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x694a420, size 0xac, virtual false, abstract: false, final false
   static inline bool op_Equality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs);
 
-  /// @brief Method op_Inequality, addr 0x6942a50, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x694a4cc, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs);
 
   // Ctor Parameters []
@@ -57,7 +57,7 @@ public:
   constexpr HighlightState(::UnityEngine::Color32 color, ::TMPro::TMP_Offset padding) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15887 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/VisualMetronome.hpp"
+// IWYU pragma private; include "GlobalNamespace\VisualMetronome.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,21 +80,21 @@ public:
 
   __declspec(property(get = get_zeroOffset, put = set_zeroOffset)) float_t zeroOffset;
 
-  /// @brief Method Awake, addr 0x59f8780, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5a00854, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::VisualMetronome* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59f8860, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5a00934, size 0x48, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59f8818, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5a008ec, size 0x48, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x59f8a08, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x5a00adc, size 0xa8, virtual false, abstract: false, final false
   inline void SetMovingTickerNormalizedPosition(float_t t);
 
-  /// @brief Method Update, addr 0x59f88a8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5a0097c, size 0x160, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -193,13 +193,13 @@ public:
 
   constexpr void __cordl_internal_set__zeroOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x59f8ab0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a00b84, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_zeroOffset, addr 0x59f8778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zeroOffset, addr 0x5a0084c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_zeroOffset();
 
-  /// @brief Method set_zeroOffset, addr 0x59f8768, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_zeroOffset, addr 0x5a0083c, size 0x10, virtual false, abstract: false, final false
   inline void set_zeroOffset(float_t value);
 
 protected:
@@ -217,7 +217,7 @@ public:
   VisualMetronome(VisualMetronome const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6318 };
 
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;

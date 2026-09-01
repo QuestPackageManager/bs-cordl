@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AchievementIdsModelSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\AchievementIdsModelSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__achievementsIds(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* value);
 
-  /// @brief Method .ctor, addr 0x36f4a08, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f8c58, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_achievementsIds, addr 0x36f4a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_achievementsIds, addr 0x36f8c50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* get_achievementsIds();
 
 protected:
@@ -60,7 +60,7 @@ public:
   AchievementIdsModelSO(AchievementIdsModelSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14760 };
 
   /// @brief Field _achievementsIds, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* ____achievementsIds;

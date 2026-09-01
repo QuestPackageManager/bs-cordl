@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalRenderingData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalRenderingData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +66,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderingData* New_ctor();
 
-  /// @brief Method Reset, addr 0x686f2d8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6876d54, size 0x1c, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__opaqueLayerMask_k__BackingField() const;
@@ -111,28 +111,28 @@ public:
 
   constexpr void __cordl_internal_set_supportsDynamicBatching(bool value);
 
-  /// @brief Method .ctor, addr 0x686f2f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6876d70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandBuffer, addr 0x686f224, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_commandBuffer, addr 0x6876ca0, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* get_commandBuffer();
 
-  /// @brief Method get_opaqueLayerMask, addr 0x686f2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opaqueLayerMask, addr 0x6876d34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_opaqueLayerMask();
 
-  /// @brief Method get_renderingMode, addr 0x686f2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingMode, addr 0x6876d24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderingMode get_renderingMode();
 
-  /// @brief Method get_transparentLayerMask, addr 0x686f2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transparentLayerMask, addr 0x6876d44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_transparentLayerMask();
 
-  /// @brief Method set_opaqueLayerMask, addr 0x686f2c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_opaqueLayerMask, addr 0x6876d3c, size 0x8, virtual false, abstract: false, final false
   inline void set_opaqueLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_renderingMode, addr 0x686f2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderingMode, addr 0x6876d2c, size 0x8, virtual false, abstract: false, final false
   inline void set_renderingMode(::UnityEngine::Rendering::Universal::RenderingMode value);
 
-  /// @brief Method set_transparentLayerMask, addr 0x686f2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_transparentLayerMask, addr 0x6876d4c, size 0x8, virtual false, abstract: false, final false
   inline void set_transparentLayerMask(::UnityEngine::LayerMask value);
 
 protected:
@@ -150,7 +150,7 @@ public:
   UniversalRenderingData(UniversalRenderingData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12757 };
 
   /// @brief Field m_CommandBuffer, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::CommandBuffer* ___m_CommandBuffer;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/FileSystemAccessRule.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\FileSystemAccessRule.hpp"
 #include "System/Security/AccessControl/zzzz__AccessRule_impl.hpp"
 #include "System/Security/AccessControl/zzzz__FileSystemAccessRule_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     ::System::Security::Principal::IdentityReference*, ::System::Security::AccessControl::FileSystemRights, bool, ::System::Security::AccessControl::InheritanceFlags,
     ::System::Security::AccessControl::PropagationFlags, ::System::Security::AccessControl::AccessControlType)>(&::System::Security::AccessControl::FileSystemAccessRule::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b1b1d0;
+  constexpr static std::size_t addrs = 0x5b1f68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::FileSystemRights (::System::Security::AccessControl::FileSystemAccessRule::*)()>(
     &::System::Security::AccessControl::FileSystemAccessRule::get_FileSystemRights)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1b1d4;
+  constexpr static std::size_t addrs = 0x5b1f690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

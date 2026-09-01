@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Hierarchy/Manager.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Hierarchy\Manager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +35,13 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::Manager* New_ctor();
 
-  /// @brief Method ProcessItem, addr 0x5a656b4, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method ProcessItem, addr 0x5a69b70, size 0x3c8, virtual false, abstract: false, final false
   inline void ProcessItem(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item);
 
-  /// @brief Method Refresh, addr 0x5a66584, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5a6aa40, size 0x48, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method UnprocessItem, addr 0x5a654cc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method UnprocessItem, addr 0x5a69988, size 0x168, virtual false, abstract: false, final false
   inline void UnprocessItem(::Meta::XR::ImmersiveDebugger::Hierarchy::Item* item);
 
   constexpr ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* const& __cordl_internal_get__sceneRegistry() const;
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__sceneRegistry(::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* value);
 
-  /// @brief Method .ctor, addr 0x5a665cc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a6aa88, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Method, addr 0x5a6657c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Method, addr 0x5a6aa38, size 0x8, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Telemetry_Method get_Method();
 
 protected:
@@ -71,7 +71,7 @@ public:
   Manager(Manager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18473 };
 
   /// @brief Field _sceneRegistry, offset: 0x20, size: 0x8, def value: None
   ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneRegistry* ____sceneRegistry;

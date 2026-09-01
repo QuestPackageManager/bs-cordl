@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/RichPresenceRuntimeInstance.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\RichPresenceRuntimeInstance.hpp"
 #include "OculusStudios/Platform/Core/zzzz__PartyInfo_impl.hpp"
 #include "OculusStudios/Platform/Core/zzzz__RichPresenceTimestamp_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::IRichPresenceDefinition* (::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::*)()>(
     &::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::get_definition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f29fec;
+  constexpr static std::size_t addrs = 0x5f2e4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::*)()>(
     &::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::get_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f29ff4;
+  constexpr static std::size_t addrs = 0x5f2e4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::RichPresenceRuntimeInstance>(), { "get_state", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo> (::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::*)()>(
     &::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::get_partyInfo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f29ffc;
+  constexpr static std::size_t addrs = 0x5f2e4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp> (
     ::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::*)()>(&::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::get_timestamp)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f2a008;
+  constexpr static std::size_t addrs = 0x5f2e4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Pl
     ::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW, ::System::Nullable_1<::OculusStudios::Platform::Core::PartyInfo>,
     ::System::Nullable_1<::OculusStudios::Platform::Core::RichPresenceTimestamp>)>(&::OculusStudios::Platform::Core::RichPresenceRuntimeInstance::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f2a01c;
+  constexpr static std::size_t addrs = 0x5f2e4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::RichPresenceRuntimeInstance>(),

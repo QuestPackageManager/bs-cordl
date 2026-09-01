@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NullableMethodCallInstruction_GetValueOrDefault1.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NullableMethodCallInstruction_GetValueOrDefault1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +27,13 @@ public:
 
   static inline ::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault1* New_ctor();
 
-  /// @brief Method Run, addr 0x5fb7898, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fbf314, size 0x54, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5fb770c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbf188, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConsumedStack, addr 0x5fb7890, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5fbf30c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
 protected:
@@ -51,7 +51,7 @@ public:
   NullableMethodCallInstruction_GetValueOrDefault1(NullableMethodCallInstruction_GetValueOrDefault1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

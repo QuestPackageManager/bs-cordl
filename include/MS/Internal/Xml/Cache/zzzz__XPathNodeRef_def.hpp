@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNodeRef.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\Cache\XPathNodeRef.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,16 +29,16 @@ public:
 
   __declspec(property(get = get_Page)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> Page;
 
-  /// @brief Method GetHashCode, addr 0x6273afc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x627b578, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6273ae0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x627b55c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> page, int32_t idx);
 
-  /// @brief Method get_Index, addr 0x6273af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x627b570, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_Page, addr 0x6273aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Page, addr 0x627b568, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> get_Page();
 
   // Ctor Parameters []
@@ -50,7 +50,7 @@ public:
   constexpr XPathNodeRef(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> _page, int32_t _idx) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9881 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

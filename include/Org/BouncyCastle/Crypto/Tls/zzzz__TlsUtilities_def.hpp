@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsUtilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\TlsUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,406 +97,406 @@ public:
   /// @brief Field SSL_SERVER, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_SSL_SERVER, put = setStaticF_SSL_SERVER)) ::ArrayW<uint8_t> SSL_SERVER;
 
-  /// @brief Method AddSignatureAlgorithmsExtension, addr 0x3491f5c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddSignatureAlgorithmsExtension, addr 0x3495d1c, size 0x10c, virtual false, abstract: false, final false
   static inline void AddSignatureAlgorithmsExtension(::System::Collections::IDictionary* extensions, ::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method CalculateKeyBlock, addr 0x3484b94, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method CalculateKeyBlock, addr 0x3488954, size 0x1ac, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CalculateKeyBlock(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t size);
 
-  /// @brief Method CalculateKeyBlock_Ssl, addr 0x349330c, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method CalculateKeyBlock_Ssl, addr 0x34970cc, size 0x544, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CalculateKeyBlock_Ssl(::ArrayW<uint8_t> master_secret, ::ArrayW<uint8_t> random, int32_t size);
 
-  /// @brief Method CalculateMasterSecret, addr 0x3493850, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method CalculateMasterSecret, addr 0x3497610, size 0x228, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CalculateMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::ArrayW<uint8_t> pre_master_secret);
 
-  /// @brief Method CalculateMasterSecret_Ssl, addr 0x3493a78, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method CalculateMasterSecret_Ssl, addr 0x3497838, size 0x508, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CalculateMasterSecret_Ssl(::ArrayW<uint8_t> pre_master_secret, ::ArrayW<uint8_t> random);
 
-  /// @brief Method CalculateVerifyData, addr 0x3493f80, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CalculateVerifyData, addr 0x3497d40, size 0x160, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CalculateVerifyData(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::StringW asciiLabel, ::ArrayW<uint8_t> handshakeHash);
 
-  /// @brief Method CheckUint16, addr 0x3483654, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CheckUint16, addr 0x3487414, size 0x90, virtual false, abstract: false, final false
   static inline void CheckUint16(int32_t i);
 
-  /// @brief Method CheckUint16, addr 0x348fef4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CheckUint16, addr 0x3493cb4, size 0x90, virtual false, abstract: false, final false
   static inline void CheckUint16(int64_t i);
 
-  /// @brief Method CheckUint24, addr 0x348ff90, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CheckUint24, addr 0x3493d50, size 0x90, virtual false, abstract: false, final false
   static inline void CheckUint24(int32_t i);
 
-  /// @brief Method CheckUint24, addr 0x3490030, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CheckUint24, addr 0x3493df0, size 0x90, virtual false, abstract: false, final false
   static inline void CheckUint24(int64_t i);
 
-  /// @brief Method CheckUint32, addr 0x34900d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CheckUint32, addr 0x3493e90, size 0x90, virtual false, abstract: false, final false
   static inline void CheckUint32(int64_t i);
 
-  /// @brief Method CheckUint48, addr 0x3490170, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CheckUint48, addr 0x3493f30, size 0x90, virtual false, abstract: false, final false
   static inline void CheckUint48(int64_t i);
 
-  /// @brief Method CheckUint64, addr 0x3490210, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckUint64, addr 0x3493fd0, size 0x58, virtual false, abstract: false, final false
   static inline void CheckUint64(int64_t i);
 
-  /// @brief Method CheckUint8, addr 0x348fdb0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CheckUint8, addr 0x3493b70, size 0x90, virtual false, abstract: false, final false
   static inline void CheckUint8(int32_t i);
 
-  /// @brief Method CheckUint8, addr 0x348fe4c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CheckUint8, addr 0x3493c0c, size 0x90, virtual false, abstract: false, final false
   static inline void CheckUint8(int64_t i);
 
-  /// @brief Method CloneHash, addr 0x34940e0, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method CloneHash, addr 0x3497ea0, size 0x348, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* CloneHash(uint8_t hashAlgorithm, ::Org::BouncyCastle::Crypto::IDigest* hash);
 
-  /// @brief Method ClonePrfHash, addr 0x34944d8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ClonePrfHash, addr 0x3498298, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* ClonePrfHash(int32_t prfAlgorithm, ::Org::BouncyCastle::Crypto::IDigest* hash);
 
-  /// @brief Method Concat, addr 0x3492c7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Concat, addr 0x3496a3c, size 0xb0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> Concat(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
 
-  /// @brief Method CreateHash, addr 0x34817c4, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CreateHash, addr 0x3485584, size 0x1e4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* CreateHash(uint8_t hashAlgorithm);
 
-  /// @brief Method CreateHash, addr 0x3480fd4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CreateHash, addr 0x3484d94, size 0xb0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* CreateHash(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* signatureAndHashAlgorithm);
 
-  /// @brief Method CreatePrfHash, addr 0x3492eec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreatePrfHash, addr 0x3496cac, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* CreatePrfHash(int32_t prfAlgorithm);
 
-  /// @brief Method CreateSignatureAlgorithmsExtension, addr 0x3492068, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateSignatureAlgorithmsExtension, addr 0x3495e28, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> CreateSignatureAlgorithmsExtension(::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method CreateTlsSigner, addr 0x348a8e8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateTlsSigner, addr 0x348e6a8, size 0x134, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSigner* CreateTlsSigner(uint8_t clientCertificateType);
 
-  /// @brief Method DecodeUint8, addr 0x34838d8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method DecodeUint8, addr 0x3487698, size 0xdc, virtual false, abstract: false, final false
   static inline uint8_t DecodeUint8(::ArrayW<uint8_t> buf);
 
-  /// @brief Method DecodeUint8ArrayWithUint8Length, addr 0x3483768, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method DecodeUint8ArrayWithUint8Length, addr 0x3487528, size 0x170, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> DecodeUint8ArrayWithUint8Length(::ArrayW<uint8_t> buf);
 
-  /// @brief Method EncodeOpaque8, addr 0x348e6ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method EncodeOpaque8, addr 0x349246c, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> EncodeOpaque8(::ArrayW<uint8_t> buf);
 
-  /// @brief Method EncodeSupportedSignatureAlgorithms, addr 0x349228c, size 0x5bc, virtual false, abstract: false, final false
+  /// @brief Method EncodeSupportedSignatureAlgorithms, addr 0x349604c, size 0x5bc, virtual false, abstract: false, final false
   static inline void EncodeSupportedSignatureAlgorithms(::System::Collections::IList* supportedSignatureAlgorithms, bool allowAnonymous, ::System::IO::Stream* output);
 
-  /// @brief Method EncodeUint16ArrayWithUint16Length, addr 0x3490d00, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method EncodeUint16ArrayWithUint16Length, addr 0x3494ac0, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> EncodeUint16ArrayWithUint16Length(::ArrayW<int32_t> uints);
 
-  /// @brief Method EncodeUint8, addr 0x3483560, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method EncodeUint8, addr 0x3487320, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> EncodeUint8(uint8_t val);
 
-  /// @brief Method EncodeUint8ArrayWithUint8Length, addr 0x34834c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method EncodeUint8ArrayWithUint8Length, addr 0x3487280, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> EncodeUint8ArrayWithUint8Length(::ArrayW<uint8_t> uints);
 
-  /// @brief Method GenSsl3Const, addr 0x34945c8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GenSsl3Const, addr 0x3498388, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::ArrayW<uint8_t>> GenSsl3Const();
 
-  /// @brief Method GetAllSignatureAlgorithms, addr 0x3491754, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method GetAllSignatureAlgorithms, addr 0x3495514, size 0x274, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetAllSignatureAlgorithms();
 
-  /// @brief Method GetCipherType, addr 0x34946c0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetCipherType, addr 0x3498480, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t GetCipherType(int32_t ciphersuite);
 
-  /// @brief Method GetClientCertificateType, addr 0x3489b00, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method GetClientCertificateType, addr 0x348d8c0, size 0x310, virtual false, abstract: false, final false
   static inline int16_t GetClientCertificateType(::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate, ::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method GetDefaultDssSignatureAlgorithms, addr 0x34919c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultDssSignatureAlgorithms, addr 0x3495788, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetDefaultDssSignatureAlgorithms();
 
-  /// @brief Method GetDefaultECDsaSignatureAlgorithms, addr 0x3491b38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultECDsaSignatureAlgorithms, addr 0x34958f8, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetDefaultECDsaSignatureAlgorithms();
 
-  /// @brief Method GetDefaultRsaSignatureAlgorithms, addr 0x3491bc0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultRsaSignatureAlgorithms, addr 0x3495980, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetDefaultRsaSignatureAlgorithms();
 
-  /// @brief Method GetDefaultSupportedSignatureAlgorithms, addr 0x3491c48, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultSupportedSignatureAlgorithms, addr 0x3495a08, size 0x224, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetDefaultSupportedSignatureAlgorithms();
 
-  /// @brief Method GetEncryptionAlgorithm, addr 0x3494778, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptionAlgorithm, addr 0x3498538, size 0x11c, virtual false, abstract: false, final false
   static inline int32_t GetEncryptionAlgorithm(int32_t ciphersuite);
 
-  /// @brief Method GetExtensionData, addr 0x3482a28, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionData, addr 0x34867e8, size 0x10c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetExtensionData(::System::Collections::IDictionary* extensions, int32_t extensionType);
 
-  /// @brief Method GetHashAlgorithmForPrfAlgorithm, addr 0x3494428, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetHashAlgorithmForPrfAlgorithm, addr 0x34981e8, size 0xb0, virtual false, abstract: false, final false
   static inline uint8_t GetHashAlgorithmForPrfAlgorithm(int32_t prfAlgorithm);
 
-  /// @brief Method GetKeyExchangeAlgorithm, addr 0x3494894, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetKeyExchangeAlgorithm, addr 0x3498654, size 0x138, virtual false, abstract: false, final false
   static inline int32_t GetKeyExchangeAlgorithm(int32_t ciphersuite);
 
-  /// @brief Method GetMacAlgorithm, addr 0x34949cc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetMacAlgorithm, addr 0x349878c, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t GetMacAlgorithm(int32_t ciphersuite);
 
-  /// @brief Method GetMinimumVersion, addr 0x3494a88, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetMinimumVersion, addr 0x3498848, size 0x118, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* GetMinimumVersion(int32_t ciphersuite);
 
-  /// @brief Method GetOidForHashAlgorithm, addr 0x3487b48, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetOidForHashAlgorithm, addr 0x348b908, size 0x1d8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOidForHashAlgorithm(uint8_t hashAlgorithm);
 
-  /// @brief Method GetSignatureAlgorithmsExtension, addr 0x3492110, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureAlgorithmsExtension, addr 0x3495ed0, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetSignatureAlgorithmsExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method GetSignatureAndHashAlgorithm, addr 0x3480eac, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureAndHashAlgorithm, addr 0x3484c6c, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* GetSignatureAndHashAlgorithm(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
                                                                                                           ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* signerCredentials);
 
-  /// @brief Method GetUsableSignatureAlgorithms, addr 0x3494fc4, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method GetUsableSignatureAlgorithms, addr 0x3498d84, size 0x524, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetUsableSignatureAlgorithms(::System::Collections::IList* sigHashAlgs);
 
-  /// @brief Method HMacHash, addr 0x3492f88, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method HMacHash, addr 0x3496d48, size 0x2e8, virtual false, abstract: false, final false
   static inline void HMacHash(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t> secret, ::ArrayW<uint8_t> seed, ::ArrayW<uint8_t> output);
 
-  /// @brief Method HasExpectedEmptyExtensionData, addr 0x348c454, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HasExpectedEmptyExtensionData, addr 0x3490214, size 0xb8, virtual false, abstract: false, final false
   static inline bool HasExpectedEmptyExtensionData(::System::Collections::IDictionary* extensions, int32_t extensionType, uint8_t alertDescription);
 
-  /// @brief Method HasSigningCapability, addr 0x348c758, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasSigningCapability, addr 0x3490518, size 0x18, virtual false, abstract: false, final false
   static inline bool HasSigningCapability(uint8_t clientCertificateType);
 
-  /// @brief Method ImportSession, addr 0x3491e6c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ImportSession, addr 0x3495c2c, size 0x6c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSession* ImportSession(::ArrayW<uint8_t> sessionID, ::Org::BouncyCastle::Crypto::Tls::SessionParameters* sessionParameters);
 
-  /// @brief Method IsAeadCipherSuite, addr 0x3494ba0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsAeadCipherSuite, addr 0x3498960, size 0x64, virtual false, abstract: false, final false
   static inline bool IsAeadCipherSuite(int32_t ciphersuite);
 
-  /// @brief Method IsBlockCipherSuite, addr 0x3494c04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsBlockCipherSuite, addr 0x34989c4, size 0x64, virtual false, abstract: false, final false
   static inline bool IsBlockCipherSuite(int32_t ciphersuite);
 
-  /// @brief Method IsSignatureAlgorithmsExtensionAllowed, addr 0x3491ed8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsSignatureAlgorithmsExtensionAllowed, addr 0x3495c98, size 0x84, virtual false, abstract: false, final false
   static inline bool IsSignatureAlgorithmsExtensionAllowed(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* clientVersion);
 
-  /// @brief Method IsSsl, addr 0x3483e28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsSsl, addr 0x3487be8, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsSsl(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method IsStreamCipherSuite, addr 0x3494c68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsStreamCipherSuite, addr 0x3498a28, size 0x64, virtual false, abstract: false, final false
   static inline bool IsStreamCipherSuite(int32_t ciphersuite);
 
-  /// @brief Method IsTimeout, addr 0x34954e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsTimeout, addr 0x34992a8, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsTimeout(::System::Net::Sockets::SocketException* e);
 
-  /// @brief Method IsTlsV11, addr 0x34902f4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method IsTlsV11, addr 0x34940b4, size 0xdc, virtual false, abstract: false, final false
   static inline bool IsTlsV11(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method IsTlsV11, addr 0x3490270, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsTlsV11, addr 0x3494030, size 0x84, virtual false, abstract: false, final false
   static inline bool IsTlsV11(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* version);
 
-  /// @brief Method IsTlsV12, addr 0x3487a6c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method IsTlsV12, addr 0x348b82c, size 0xdc, virtual false, abstract: false, final false
   static inline bool IsTlsV12(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method IsTlsV12, addr 0x34903d0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsTlsV12, addr 0x3494190, size 0x84, virtual false, abstract: false, final false
   static inline bool IsTlsV12(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* version);
 
-  /// @brief Method IsValidCipherSuiteForSignatureAlgorithms, addr 0x3494ccc, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method IsValidCipherSuiteForSignatureAlgorithms, addr 0x3498a8c, size 0x2f8, virtual false, abstract: false, final false
   static inline bool IsValidCipherSuiteForSignatureAlgorithms(int32_t cipherSuite, ::System::Collections::IList* sigAlgs);
 
-  /// @brief Method IsValidCipherSuiteForVersion, addr 0x348c34c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsValidCipherSuiteForVersion, addr 0x349010c, size 0x90, virtual false, abstract: false, final false
   static inline bool IsValidCipherSuiteForVersion(int32_t cipherSuite, ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* serverVersion);
 
-  /// @brief Method IsValidUint16, addr 0x348fee8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValidUint16, addr 0x3493ca8, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValidUint16(int32_t i);
 
-  /// @brief Method IsValidUint16, addr 0x348ff84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValidUint16, addr 0x3493d44, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValidUint16(int64_t i);
 
-  /// @brief Method IsValidUint24, addr 0x3490020, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValidUint24, addr 0x3493de0, size 0x10, virtual false, abstract: false, final false
   static inline bool IsValidUint24(int32_t i);
 
-  /// @brief Method IsValidUint24, addr 0x34900c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValidUint24, addr 0x3493e80, size 0x10, virtual false, abstract: false, final false
   static inline bool IsValidUint24(int64_t i);
 
-  /// @brief Method IsValidUint32, addr 0x3490160, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValidUint32, addr 0x3493f20, size 0x10, virtual false, abstract: false, final false
   static inline bool IsValidUint32(int64_t i);
 
-  /// @brief Method IsValidUint48, addr 0x3490200, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValidUint48, addr 0x3493fc0, size 0x10, virtual false, abstract: false, final false
   static inline bool IsValidUint48(int64_t i);
 
-  /// @brief Method IsValidUint64, addr 0x3490268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsValidUint64, addr 0x3494028, size 0x8, virtual false, abstract: false, final false
   static inline bool IsValidUint64(int64_t i);
 
-  /// @brief Method IsValidUint8, addr 0x348fe40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValidUint8, addr 0x3493c00, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValidUint8(int32_t i);
 
-  /// @brief Method IsValidUint8, addr 0x348fedc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValidUint8, addr 0x3493c9c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValidUint8(int64_t i);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsUtilities* New_ctor();
 
-  /// @brief Method PRF, addr 0x3492a18, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method PRF, addr 0x34967d8, size 0x264, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> PRF(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::ArrayW<uint8_t> secret, ::StringW asciiLabel, ::ArrayW<uint8_t> seed, int32_t size);
 
-  /// @brief Method PRF_legacy, addr 0x3493270, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method PRF_legacy, addr 0x3497030, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> PRF_legacy(::ArrayW<uint8_t> secret, ::StringW asciiLabel, ::ArrayW<uint8_t> seed, int32_t size);
 
-  /// @brief Method PRF_legacy, addr 0x3492d2c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method PRF_legacy, addr 0x3496aec, size 0x1c0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> PRF_legacy(::ArrayW<uint8_t> secret, ::ArrayW<uint8_t> label, ::ArrayW<uint8_t> labelSeed, int32_t size);
 
-  /// @brief Method ParseSupportedSignatureAlgorithms, addr 0x3492848, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ParseSupportedSignatureAlgorithms, addr 0x3496608, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* ParseSupportedSignatureAlgorithms(bool allowAnonymous, ::System::IO::Stream* input);
 
-  /// @brief Method ReadAllOrNothing, addr 0x3491110, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ReadAllOrNothing, addr 0x3494ed0, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadAllOrNothing(int32_t length, ::System::IO::Stream* input);
 
-  /// @brief Method ReadAsn1Object, addr 0x349143c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ReadAsn1Object, addr 0x34951fc, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* ReadAsn1Object(::ArrayW<uint8_t> encoding);
 
-  /// @brief Method ReadDerObject, addr 0x349155c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ReadDerObject, addr 0x349531c, size 0x100, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* ReadDerObject(::ArrayW<uint8_t> encoding);
 
-  /// @brief Method ReadFully, addr 0x348b148, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x348ef08, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadFully(int32_t length, ::System::IO::Stream* input);
 
-  /// @brief Method ReadFully, addr 0x3491208, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x3494fc8, size 0x70, virtual false, abstract: false, final false
   static inline void ReadFully(::ArrayW<uint8_t> buf, ::System::IO::Stream* input);
 
-  /// @brief Method ReadOpaque16, addr 0x3485b74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ReadOpaque16, addr 0x3489934, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadOpaque16(::System::IO::Stream* input);
 
-  /// @brief Method ReadOpaque24, addr 0x3491278, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadOpaque24, addr 0x3495038, size 0x60, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadOpaque24(::System::IO::Stream* input);
 
-  /// @brief Method ReadOpaque8, addr 0x3480360, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ReadOpaque8, addr 0x3484120, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadOpaque8(::System::IO::Stream* input);
 
-  /// @brief Method ReadSignatureAlgorithmsExtension, addr 0x3492198, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadSignatureAlgorithmsExtension, addr 0x3495f58, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* ReadSignatureAlgorithmsExtension(::ArrayW<uint8_t> extensionData);
 
-  /// @brief Method ReadUint16, addr 0x3490da4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ReadUint16, addr 0x3494b64, size 0x40, virtual false, abstract: false, final false
   static inline int32_t ReadUint16(::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method ReadUint16, addr 0x348b234, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadUint16, addr 0x348eff4, size 0x84, virtual false, abstract: false, final false
   static inline int32_t ReadUint16(::System::IO::Stream* input);
 
-  /// @brief Method ReadUint16Array, addr 0x348b2b8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadUint16Array, addr 0x348f078, size 0xd8, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t> ReadUint16Array(int32_t count, ::System::IO::Stream* input);
 
-  /// @brief Method ReadUint24, addr 0x3490e88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadUint24, addr 0x3494c48, size 0x58, virtual false, abstract: false, final false
   static inline int32_t ReadUint24(::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method ReadUint24, addr 0x3490de4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ReadUint24, addr 0x3494ba4, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t ReadUint24(::System::IO::Stream* input);
 
-  /// @brief Method ReadUint32, addr 0x3490fa8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ReadUint32, addr 0x3494d68, size 0x6c, virtual false, abstract: false, final false
   static inline int64_t ReadUint32(::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method ReadUint32, addr 0x3490ee0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ReadUint32, addr 0x3494ca0, size 0xc8, virtual false, abstract: false, final false
   static inline int64_t ReadUint32(::System::IO::Stream* input);
 
-  /// @brief Method ReadUint48, addr 0x3491088, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ReadUint48, addr 0x3494e48, size 0x88, virtual false, abstract: false, final false
   static inline int64_t ReadUint48(::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method ReadUint48, addr 0x3491014, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadUint48, addr 0x3494dd4, size 0x74, virtual false, abstract: false, final false
   static inline int64_t ReadUint48(::System::IO::Stream* input);
 
-  /// @brief Method ReadUint8, addr 0x3490cd4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ReadUint8, addr 0x3494a94, size 0x2c, virtual false, abstract: false, final false
   static inline uint8_t ReadUint8(::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method ReadUint8, addr 0x348b390, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadUint8, addr 0x348f150, size 0x5c, virtual false, abstract: false, final false
   static inline uint8_t ReadUint8(::System::IO::Stream* input);
 
-  /// @brief Method ReadUint8Array, addr 0x348b3ec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadUint8Array, addr 0x348f1ac, size 0xd8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ReadUint8Array(int32_t count, ::System::IO::Stream* input);
 
-  /// @brief Method ReadVersion, addr 0x34912d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadVersion, addr 0x3495098, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ReadVersion(::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method ReadVersion, addr 0x348b078, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReadVersion, addr 0x348ee38, size 0xd0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ReadVersion(::System::IO::Stream* input);
 
-  /// @brief Method ReadVersionRaw, addr 0x3491378, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ReadVersionRaw, addr 0x3495138, size 0x40, virtual false, abstract: false, final false
   static inline int32_t ReadVersionRaw(::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method ReadVersionRaw, addr 0x34913b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadVersionRaw, addr 0x3495178, size 0x84, virtual false, abstract: false, final false
   static inline int32_t ReadVersionRaw(::System::IO::Stream* input);
 
-  /// @brief Method TrackHashAlgorithms, addr 0x34892fc, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method TrackHashAlgorithms, addr 0x348d0bc, size 0x3a8, virtual false, abstract: false, final false
   static inline void TrackHashAlgorithms(::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* handshakeHash, ::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method ValidateKeyUsage, addr 0x347ffc0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ValidateKeyUsage, addr 0x3483d80, size 0xfc, virtual false, abstract: false, final false
   static inline void ValidateKeyUsage(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c, int32_t keyUsageBits);
 
-  /// @brief Method VectorOfOne, addr 0x3491a50, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method VectorOfOne, addr 0x3495810, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* VectorOfOne(::System::Object* obj);
 
-  /// @brief Method VerifySupportedSignatureAlgorithm, addr 0x348a388, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method VerifySupportedSignatureAlgorithm, addr 0x348e148, size 0x560, virtual false, abstract: false, final false
   static inline void VerifySupportedSignatureAlgorithm(::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* signatureAlgorithm);
 
-  /// @brief Method WriteGmtUnixTime, addr 0x349165c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method WriteGmtUnixTime, addr 0x349541c, size 0xf8, virtual false, abstract: false, final false
   static inline void WriteGmtUnixTime(::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteOpaque16, addr 0x34856d8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method WriteOpaque16, addr 0x3489498, size 0x94, virtual false, abstract: false, final false
   static inline void WriteOpaque16(::ArrayW<uint8_t> buf, ::System::IO::Stream* output);
 
-  /// @brief Method WriteOpaque24, addr 0x3490804, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method WriteOpaque24, addr 0x34945c4, size 0x94, virtual false, abstract: false, final false
   static inline void WriteOpaque24(::ArrayW<uint8_t> buf, ::System::IO::Stream* output);
 
-  /// @brief Method WriteOpaque8, addr 0x348c2ac, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteOpaque8, addr 0x349006c, size 0xa0, virtual false, abstract: false, final false
   static inline void WriteOpaque8(::ArrayW<uint8_t> buf, ::System::IO::Stream* output);
 
-  /// @brief Method WriteUint16, addr 0x3484360, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteUint16, addr 0x3488120, size 0x48, virtual false, abstract: false, final false
   static inline void WriteUint16(int32_t i, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteUint16, addr 0x348c3dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteUint16, addr 0x349019c, size 0x50, virtual false, abstract: false, final false
   static inline void WriteUint16(int32_t i, ::System::IO::Stream* output);
 
-  /// @brief Method WriteUint16Array, addr 0x3490b7c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WriteUint16Array, addr 0x349493c, size 0xc0, virtual false, abstract: false, final false
   static inline void WriteUint16Array(::ArrayW<int32_t> uints, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteUint16Array, addr 0x3490ac8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WriteUint16Array, addr 0x3494888, size 0xb4, virtual false, abstract: false, final false
   static inline void WriteUint16Array(::ArrayW<int32_t> uints, ::System::IO::Stream* output);
 
-  /// @brief Method WriteUint16ArrayWithUint16Length, addr 0x3490c3c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WriteUint16ArrayWithUint16Length, addr 0x34949fc, size 0x98, virtual false, abstract: false, final false
   static inline void WriteUint16ArrayWithUint16Length(::ArrayW<int32_t> uints, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteUint16ArrayWithUint16Length, addr 0x348eb44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method WriteUint16ArrayWithUint16Length, addr 0x3492904, size 0x8c, virtual false, abstract: false, final false
   static inline void WriteUint16ArrayWithUint16Length(::ArrayW<int32_t> uints, ::System::IO::Stream* output);
 
-  /// @brief Method WriteUint24, addr 0x348c5d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WriteUint24, addr 0x3490394, size 0x64, virtual false, abstract: false, final false
   static inline void WriteUint24(int32_t i, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteUint24, addr 0x3490454, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WriteUint24, addr 0x3494214, size 0x68, virtual false, abstract: false, final false
   static inline void WriteUint24(int32_t i, ::System::IO::Stream* output);
 
-  /// @brief Method WriteUint32, addr 0x349053c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteUint32, addr 0x34942fc, size 0x80, virtual false, abstract: false, final false
   static inline void WriteUint32(int64_t i, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteUint32, addr 0x34904bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteUint32, addr 0x349427c, size 0x80, virtual false, abstract: false, final false
   static inline void WriteUint32(int64_t i, ::System::IO::Stream* output);
 
-  /// @brief Method WriteUint48, addr 0x349066c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method WriteUint48, addr 0x349442c, size 0xb8, virtual false, abstract: false, final false
   static inline void WriteUint48(int64_t i, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteUint48, addr 0x34905bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WriteUint48, addr 0x349437c, size 0xb0, virtual false, abstract: false, final false
   static inline void WriteUint48(int64_t i, ::System::IO::Stream* output);
 
-  /// @brief Method WriteUint64, addr 0x34841f0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method WriteUint64, addr 0x3487fb0, size 0xf0, virtual false, abstract: false, final false
   static inline void WriteUint64(int64_t i, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteUint64, addr 0x3490724, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteUint64, addr 0x34944e4, size 0xe0, virtual false, abstract: false, final false
   static inline void WriteUint64(int64_t i, ::System::IO::Stream* output);
 
-  /// @brief Method WriteUint8, addr 0x34842e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WriteUint8, addr 0x34880a0, size 0x2c, virtual false, abstract: false, final false
   static inline void WriteUint8(uint8_t i, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteUint8, addr 0x348c42c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method WriteUint8, addr 0x34901ec, size 0x28, virtual false, abstract: false, final false
   static inline void WriteUint8(uint8_t i, ::System::IO::Stream* output);
 
-  /// @brief Method WriteUint8Array, addr 0x34908d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WriteUint8Array, addr 0x3494690, size 0xc0, virtual false, abstract: false, final false
   static inline void WriteUint8Array(::ArrayW<uint8_t> uints, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteUint8Array, addr 0x3490898, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method WriteUint8Array, addr 0x3494658, size 0x38, virtual false, abstract: false, final false
   static inline void WriteUint8Array(::ArrayW<uint8_t> uints, ::System::IO::Stream* output);
 
-  /// @brief Method WriteUint8ArrayWithUint8Length, addr 0x3490a38, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WriteUint8ArrayWithUint8Length, addr 0x34947f8, size 0x90, virtual false, abstract: false, final false
   static inline void WriteUint8ArrayWithUint8Length(::ArrayW<uint8_t> uints, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteUint8ArrayWithUint8Length, addr 0x3490990, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method WriteUint8ArrayWithUint8Length, addr 0x3494750, size 0xa8, virtual false, abstract: false, final false
   static inline void WriteUint8ArrayWithUint8Length(::ArrayW<uint8_t> uints, ::System::IO::Stream* output);
 
-  /// @brief Method WriteVersion, addr 0x348430c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method WriteVersion, addr 0x34880cc, size 0x54, virtual false, abstract: false, final false
   static inline void WriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* version, ::ArrayW<uint8_t> buf, int32_t offset);
 
-  /// @brief Method WriteVersion, addr 0x348c254, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method WriteVersion, addr 0x3490014, size 0x58, virtual false, abstract: false, final false
   static inline void WriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* version, ::System::IO::Stream* output);
 
-  /// @brief Method .ctor, addr 0x34956b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3499470, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t> getStaticF_EmptyBytes();

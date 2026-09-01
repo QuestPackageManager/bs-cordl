@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/TigerDigest.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\TigerDigest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,59 +72,59 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x33869b0, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x338a770, size 0x104, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Copy, addr 0x33871d4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x338af94, size 0x5c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x3387174, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x338af34, size 0x60, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method Finish, addr 0x338712c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x338aeec, size 0x48, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method GetByteLength, addr 0x3386438, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x338a1f8, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x3386430, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0x338a1f0, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method KeySchedule, addr 0x3386f44, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method KeySchedule, addr 0x338ad04, size 0xcc, virtual false, abstract: false, final false
   inline void KeySchedule();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::TigerDigest* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::TigerDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest* t);
 
-  /// @brief Method ProcessBlock, addr 0x338655c, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x338a31c, size 0x3e4, virtual false, abstract: false, final false
   inline void ProcessBlock();
 
-  /// @brief Method ProcessLength, addr 0x3387100, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ProcessLength, addr 0x338aec0, size 0x2c, virtual false, abstract: false, final false
   inline void ProcessLength(int64_t bitLength);
 
-  /// @brief Method ProcessWord, addr 0x3386440, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ProcessWord, addr 0x338a200, size 0x11c, virtual false, abstract: false, final false
   inline void ProcessWord(::ArrayW<uint8_t> b, int32_t off);
 
-  /// @brief Method Reset, addr 0x33861bc, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x3389f7c, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x33862f8, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x338a0b8, size 0xf4, virtual true, abstract: false, final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method RoundABC, addr 0x3386ab4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method RoundABC, addr 0x338a874, size 0x188, virtual false, abstract: false, final false
   inline void RoundABC(int64_t x, int64_t mul);
 
-  /// @brief Method RoundBCA, addr 0x3386c3c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RoundBCA, addr 0x338a9fc, size 0x184, virtual false, abstract: false, final false
   inline void RoundBCA(int64_t x, int64_t mul);
 
-  /// @brief Method RoundCAB, addr 0x3386dc0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RoundCAB, addr 0x338ab80, size 0x184, virtual false, abstract: false, final false
   inline void RoundCAB(int64_t x, int64_t mul);
 
-  /// @brief Method UnpackWord, addr 0x3387010, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UnpackWord, addr 0x338add0, size 0xf0, virtual false, abstract: false, final false
   inline void UnpackWord(int64_t r, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method Update, addr 0x3386940, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x338a700, size 0x70, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_Buffer() const;
@@ -175,10 +175,10 @@ public:
 
   constexpr void __cordl_internal_set_xOff(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3386134, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3389ef4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3386260, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x338a020, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest* t);
 
   static inline ::ArrayW<int64_t> getStaticF_t1();
@@ -189,7 +189,7 @@ public:
 
   static inline ::ArrayW<int64_t> getStaticF_t4();
 
-  /// @brief Method get_AlgorithmName, addr 0x33863ec, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x338a1ac, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"

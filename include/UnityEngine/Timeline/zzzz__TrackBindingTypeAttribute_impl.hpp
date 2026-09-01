@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/TrackBindingTypeAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\TrackBindingTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackBindingFlags_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackBindingTypeAttribute_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackBindingTypeAttribute::*)(::System::Type*)>(&::UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69c3990;
+  constexpr static std::size_t addrs = 0x69cb40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackBindingTypeAttribute::*)(::System::Type*, ::UnityEngine::Timeline::TrackBindingFlags)>(
     &::UnityEngine::Timeline::TrackBindingTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69c39a0;
+  constexpr static std::size_t addrs = 0x69cb41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

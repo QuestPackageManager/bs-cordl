@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/Internal/DrawObjectsWithRenderingLayersPass.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\Internal\DrawObjectsWithRenderingLayersPass.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/Universal/Internal/zzzz__DrawObjectsPass_impl.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingLayerUtils_impl.hpp"
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass_RenderingLayersPassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass_RenderingLayersPassData::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x68fc004;
+  constexpr static std::size_t addrs = 0x6903a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68fc0a8;
+  constexpr static std::size_t addrs = 0x6903b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass_RenderingLayersPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass___c::_Render_b__7_0)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x68fc0ac;
+  constexpr static std::size_t addrs = 0x6903b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::URPProfileId, bool, ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Rendering::RenderQueueRange, ::UnityEngine::LayerMask,
     ::UnityEngine::Rendering::StencilState, int32_t)>(&::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x68faf34;
+  constexpr static std::size_t addrs = 0x69029b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass::Setup)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x68fb010;
+  constexpr static std::size_t addrs = 0x6902a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTextureDescriptor)>(&::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass::Configure)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68fb170;
+  constexpr static std::size_t addrs = 0x6902bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
     &::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass::Execute)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x68fb17c;
+  constexpr static std::size_t addrs = 0x6902bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize, uint32_t)>(
     &::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass::Render)> {
   constexpr static std::size_t size = 0xdd8;
-  constexpr static std::size_t addrs = 0x68fb22c;
+  constexpr static std::size_t addrs = 0x6902ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Diagnostics/StringTraceRecord.hpp"
+// IWYU pragma private; include "System\Runtime\Diagnostics\StringTraceRecord.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Runtime::Diagnostics::StringTraceRecord* New_ctor(::StringW elementName, ::StringW content);
 
-  /// @brief Method WriteTo, addr 0x618a164, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x6191be0, size 0x20, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get_content() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_elementName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x618a15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6191bd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName, ::StringW content);
 
 protected:
@@ -64,7 +64,7 @@ public:
   StringTraceRecord(StringTraceRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21331 };
 
   /// @brief Field elementName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___elementName;

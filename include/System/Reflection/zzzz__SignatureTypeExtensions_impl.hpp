@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/SignatureTypeExtensions.hpp"
+// IWYU pragma private; include "System\Reflection\SignatureTypeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__SignatureTypeExtensions_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Reflection::ParameterInfo*)>(&::System::Reflection::SignatureTypeExtensions::MatchesParameterTypeExactly)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5b7ed58;
+  constexpr static std::size_t addrs = 0x5b83214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::SignatureType*, ::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::MatchesExactly)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x5b7ee24;
+  constexpr static std::size_t addrs = 0x5b832e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Reflection::SignatureType*, ::System::Reflection::MethodInfo*)>(
     &::System::Reflection::SignatureTypeExtensions::TryResolveAgainstGenericMethod)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b7f1c0;
+  constexpr static std::size_t addrs = 0x5b8367c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Reflection::SignatureType*, ::ArrayW<::System::Type*>)>(
     &::System::Reflection::SignatureTypeExtensions::TryResolve)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x5b7f1f8;
+  constexpr static std::size_t addrs = 0x5b836b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakeArrayType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5b7f5ac;
+  constexpr static std::size_t addrs = 0x5b83a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*, int32_t)>(&::System::Reflection::SignatureTypeExtensions::TryMakeArrayType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5b7f644;
+  constexpr static std::size_t addrs = 0x5b83b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakeByRefType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5b7f6dc;
+  constexpr static std::size_t addrs = 0x5b83b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakePointerType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5b7f774;
+  constexpr static std::size_t addrs = 0x5b83c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*, ::ArrayW<::System::Type*>)>(&::System::Reflection::SignatureTypeExtensions::TryMakeGenericType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5b7f80c;
+  constexpr static std::size_t addrs = 0x5b83cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

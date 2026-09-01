@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/FlowCoordinator.hpp"
+// IWYU pragma private; include "HMUI\FlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -165,10 +165,10 @@ public:
 
   static inline ::HMUI::FlowCoordinator___c__DisplayClass39_0* New_ctor();
 
-  /// @brief Method <PresentFlowCoordinator>b__0, addr 0x32efe98, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <PresentFlowCoordinator>b__0, addr 0x32f3c94, size 0x78, virtual false, abstract: false, final false
   inline void _PresentFlowCoordinator_b__0();
 
-  /// @brief Method <PresentFlowCoordinator>b__1, addr 0x32efe20, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <PresentFlowCoordinator>b__1, addr 0x32f3c1c, size 0x78, virtual false, abstract: false, final false
   inline void _PresentFlowCoordinator_b__1();
 
   constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -189,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set_flowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
-  /// @brief Method .ctor, addr 0x32ede04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f1c00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -207,7 +207,7 @@ public:
   FlowCoordinator___c__DisplayClass39_0(FlowCoordinator___c__DisplayClass39_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20941 };
 
   /// @brief Field finishedCallback, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___finishedCallback;
@@ -254,7 +254,7 @@ public:
 
   static inline ::HMUI::FlowCoordinator___c__DisplayClass40_0* New_ctor();
 
-  /// @brief Method <DismissFlowCoordinator>b__0, addr 0x32eff10, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <DismissFlowCoordinator>b__0, addr 0x32f3d0c, size 0x9c, virtual false, abstract: false, final false
   inline void _DismissFlowCoordinator_b__0();
 
   constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -287,7 +287,7 @@ public:
 
   constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x32ee4a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f22a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -305,7 +305,7 @@ public:
   FlowCoordinator___c__DisplayClass40_0(FlowCoordinator___c__DisplayClass40_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20942 };
 
   /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
   bool ___immediately;
@@ -359,7 +359,7 @@ public:
 
   static inline ::HMUI::FlowCoordinator___c__DisplayClass43_0* New_ctor();
 
-  /// @brief Method <ReplaceChildFlowCoordinator>b__0, addr 0x32effac, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <ReplaceChildFlowCoordinator>b__0, addr 0x32f3da8, size 0xa0, virtual false, abstract: false, final false
   inline void _ReplaceChildFlowCoordinator_b__0();
 
   constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -386,7 +386,7 @@ public:
 
   constexpr void __cordl_internal_set_flowCoordinatorToReplace(::UnityW<::HMUI::FlowCoordinator> value);
 
-  /// @brief Method .ctor, addr 0x32ee9a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f279c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -404,7 +404,7 @@ public:
   FlowCoordinator___c__DisplayClass43_0(FlowCoordinator___c__DisplayClass43_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20943 };
 
   /// @brief Field finishedCallback, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___finishedCallback;
@@ -453,7 +453,7 @@ public:
 
   static inline ::HMUI::FlowCoordinator___c__DisplayClass44_0* New_ctor();
 
-  /// @brief Method <PresentViewController>b__0, addr 0x32f004c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <PresentViewController>b__0, addr 0x32f3e48, size 0x80, virtual false, abstract: false, final false
   inline void _PresentViewController_b__0();
 
   constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -480,7 +480,7 @@ public:
 
   constexpr void __cordl_internal_set_topViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x32ee9a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f27a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -498,7 +498,7 @@ public:
   FlowCoordinator___c__DisplayClass44_0(FlowCoordinator___c__DisplayClass44_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20944 };
 
   /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
   bool ___immediately;
@@ -551,7 +551,7 @@ public:
 
   static inline ::HMUI::FlowCoordinator___c__DisplayClass45_0* New_ctor();
 
-  /// @brief Method <DismissViewController>b__0, addr 0x32f00cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <DismissViewController>b__0, addr 0x32f3ec8, size 0xc0, virtual false, abstract: false, final false
   inline void _DismissViewController_b__0();
 
   constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -584,7 +584,7 @@ public:
 
   constexpr void __cordl_internal_set_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x32eed24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f2b20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -602,7 +602,7 @@ public:
   FlowCoordinator___c__DisplayClass45_0(FlowCoordinator___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20945 };
 
   /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
   bool ___immediately;
@@ -656,7 +656,7 @@ public:
 
   static inline ::HMUI::FlowCoordinator___c__DisplayClass47_0* New_ctor();
 
-  /// @brief Method <ReplaceTopViewController>b__0, addr 0x32f018c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <ReplaceTopViewController>b__0, addr 0x32f3f88, size 0x80, virtual false, abstract: false, final false
   inline void _ReplaceTopViewController_b__0();
 
   constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -683,7 +683,7 @@ public:
 
   constexpr void __cordl_internal_set_originalTopViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x32eee08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f2c04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -701,7 +701,7 @@ public:
   FlowCoordinator___c__DisplayClass47_0(FlowCoordinator___c__DisplayClass47_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20946 };
 
   /// @brief Field animationType, offset: 0x10, size: 0x4, def value: None
   ::HMUI::ViewController_AnimationType ___animationType;
@@ -750,7 +750,7 @@ public:
 
   static inline ::HMUI::FlowCoordinator___c__DisplayClass48_0* New_ctor();
 
-  /// @brief Method <PushViewControllerToNavigationController>b__0, addr 0x32f020c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <PushViewControllerToNavigationController>b__0, addr 0x32f4008, size 0x80, virtual false, abstract: false, final false
   inline void _PushViewControllerToNavigationController_b__0();
 
   constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -777,7 +777,7 @@ public:
 
   constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x32eef8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f2d88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -795,7 +795,7 @@ public:
   FlowCoordinator___c__DisplayClass48_0(FlowCoordinator___c__DisplayClass48_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20947 };
 
   /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
   bool ___immediately;
@@ -844,7 +844,7 @@ public:
 
   static inline ::HMUI::FlowCoordinator___c__DisplayClass51_0* New_ctor();
 
-  /// @brief Method <PopViewControllerFromNavigationController>b__0, addr 0x32f028c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <PopViewControllerFromNavigationController>b__0, addr 0x32f4088, size 0x80, virtual false, abstract: false, final false
   inline void _PopViewControllerFromNavigationController_b__0();
 
   constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -871,7 +871,7 @@ public:
 
   constexpr void __cordl_internal_set_navigationController(::UnityW<::HMUI::NavigationController> value);
 
-  /// @brief Method .ctor, addr 0x32ef230, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f302c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -889,7 +889,7 @@ public:
   FlowCoordinator___c__DisplayClass51_0(FlowCoordinator___c__DisplayClass51_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20948 };
 
   /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
   bool ___immediately;
@@ -938,7 +938,7 @@ public:
 
   static inline ::HMUI::FlowCoordinator___c__DisplayClass52_0* New_ctor();
 
-  /// @brief Method <PopViewControllersFromNavigationController>b__0, addr 0x32f030c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <PopViewControllersFromNavigationController>b__0, addr 0x32f4108, size 0x80, virtual false, abstract: false, final false
   inline void _PopViewControllersFromNavigationController_b__0();
 
   constexpr ::UnityW<::HMUI::FlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -965,7 +965,7 @@ public:
 
   constexpr void __cordl_internal_set_navigationController(::UnityW<::HMUI::NavigationController> value);
 
-  /// @brief Method .ctor, addr 0x32ef3a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f31a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -983,7 +983,7 @@ public:
   FlowCoordinator___c__DisplayClass52_0(FlowCoordinator___c__DisplayClass52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20949 };
 
   /// @brief Field immediately, offset: 0x10, size: 0x1, def value: None
   bool ___immediately;
@@ -1021,10 +1021,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32f038c, size 0x340, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32f4188, size 0x340, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32f06cc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32f44c8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1043,7 +1043,7 @@ public:
                                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20950 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1089,10 +1089,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32f0738, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32f4534, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32f0988, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32f4784, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1111,7 +1111,7 @@ public:
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20951 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1261,129 +1261,129 @@ public:
 
   __declspec(property(get = get_topViewController)) ::UnityW<::HMUI::ViewController> topViewController;
 
-  /// @brief Method Activate, addr 0x32ed1c0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x32f0fbc, size 0xcc, virtual false, abstract: false, final false
   inline void Activate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method BackButtonWasPressed, addr 0x32efd48, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x32f3b44, size 0x4, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method CanPressBackButton, addr 0x32efc34, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CanPressBackButton, addr 0x32f3a30, size 0xf4, virtual false, abstract: false, final false
   inline bool CanPressBackButton();
 
-  /// @brief Method Deactivate, addr 0x32ede08, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x32f1c04, size 0xb8, virtual false, abstract: false, final false
   inline void Deactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   /// @brief Method DidActivate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x32efd28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x32f3b24, size 0x4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method DismissChildFlowCoordinatorsRecursively, addr 0x32ee4e8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DismissChildFlowCoordinatorsRecursively, addr 0x32f22e4, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DismissChildFlowCoordinatorsRecursively(bool immediately);
 
-  /// @brief Method DismissChildViewControllersRecursively, addr 0x32ee5b0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DismissChildViewControllersRecursively, addr 0x32f23ac, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DismissChildViewControllersRecursively(bool immediately);
 
-  /// @brief Method DismissFlowCoordinator, addr 0x32ee160, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method DismissFlowCoordinator, addr 0x32f1f5c, size 0x348, virtual false, abstract: false, final false
   inline void DismissFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::HMUI::ViewController_AnimationDirection animationDirection, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method DismissViewController, addr 0x32eea9c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method DismissViewController, addr 0x32f2898, size 0x288, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DismissViewController(::HMUI::ViewController* viewController, ::HMUI::ViewController_AnimationDirection animationDirection,
                                                                  ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method HandleScreenSystemBackButtonWasPressed, addr 0x32efbfc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleScreenSystemBackButtonWasPressed, addr 0x32f39f8, size 0x38, virtual false, abstract: false, final false
   inline void HandleScreenSystemBackButtonWasPressed();
 
-  /// @brief Method InitialViewControllerWasPresented, addr 0x32efd44, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InitialViewControllerWasPresented, addr 0x32f3b40, size 0x4, virtual true, abstract: false, final false
   inline void InitialViewControllerWasPresented();
 
-  /// @brief Method IsFlowCoordinatorInHierarchy, addr 0x32ecf10, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsFlowCoordinatorInHierarchy, addr 0x32f0d0c, size 0xa4, virtual false, abstract: false, final false
   inline bool IsFlowCoordinatorInHierarchy(::HMUI::FlowCoordinator* flowCoordinator);
 
-  /// @brief Method Log, addr 0x32efd4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x32f3b48, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
   static inline ::HMUI::FlowCoordinator* New_ctor();
 
-  /// @brief Method PopViewControllerFromNavigationController, addr 0x32ef0d4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method PopViewControllerFromNavigationController, addr 0x32f2ed0, size 0x15c, virtual false, abstract: false, final false
   inline void PopViewControllerFromNavigationController(::HMUI::NavigationController* navigationController, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PopViewControllersFromNavigationController, addr 0x32ef244, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method PopViewControllersFromNavigationController, addr 0x32f3040, size 0x160, virtual false, abstract: false, final false
   inline void PopViewControllersFromNavigationController(::HMUI::NavigationController* navigationController, int32_t numberOfControllers, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PresentFlowCoordinator, addr 0x32ed9d8, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method PresentFlowCoordinator, addr 0x32f17d4, size 0x42c, virtual false, abstract: false, final false
   inline void PresentFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately,
                                      bool replaceTopViewController);
 
-  /// @brief Method PresentTitle, addr 0x32ecfb4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method PresentTitle, addr 0x32f0db0, size 0x74, virtual false, abstract: false, final false
   inline void PresentTitle(::StringW title, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method PresentViewController, addr 0x32ed5ec, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method PresentViewController, addr 0x32f13e8, size 0x3ec, virtual false, abstract: false, final false
   inline void PresentViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately);
 
-  /// @brief Method ProvideInitialViewControllers, addr 0x32ef684, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ProvideInitialViewControllers, addr 0x32f3480, size 0x18, virtual false, abstract: false, final false
   inline void ProvideInitialViewControllers(::HMUI::ViewController* mainViewController, ::HMUI::ViewController* leftScreenViewController, ::HMUI::ViewController* rightScreenViewController,
                                             ::HMUI::ViewController* bottomScreenViewController, ::HMUI::ViewController* topScreenViewController);
 
-  /// @brief Method PushViewControllerToNavigationController, addr 0x32eee2c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method PushViewControllerToNavigationController, addr 0x32f2c28, size 0x160, virtual false, abstract: false, final false
   inline void PushViewControllerToNavigationController(::HMUI::NavigationController* navigationController, ::HMUI::ViewController* viewController, ::System::Action* finishedCallback,
                                                        bool immediately);
 
-  /// @brief Method ReplaceChildFlowCoordinator, addr 0x32ee678, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method ReplaceChildFlowCoordinator, addr 0x32f2474, size 0x328, virtual false, abstract: false, final false
   inline void ReplaceChildFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator, ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationDirection animationDirection, bool immediately);
 
-  /// @brief Method ReplaceTopViewController, addr 0x32eed28, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReplaceTopViewController, addr 0x32f2b24, size 0xe0, virtual false, abstract: false, final false
   inline void ReplaceTopViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationType animationType,
                                        ::HMUI::ViewController_AnimationDirection animationDirection);
 
-  /// @brief Method ReplaceTopViewController, addr 0x32edef0, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method ReplaceTopViewController, addr 0x32f1cec, size 0x270, virtual false, abstract: false, final false
   inline void ReplaceTopViewController(::HMUI::ViewController* viewController, ::HMUI::FlowCoordinator* originalOwnerFlowCoordinator, ::HMUI::FlowCoordinator* newOwnerFlowCoordinator,
                                        ::System::Action* finishedCallback, ::HMUI::ViewController_AnimationType animationType, ::HMUI::ViewController_AnimationDirection animationDirection);
 
-  /// @brief Method SetBottomScreenViewController, addr 0x32ed43c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetBottomScreenViewController, addr 0x32f1238, size 0xd8, virtual false, abstract: false, final false
   inline void SetBottomScreenViewController(::HMUI::ViewController* viewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method SetGlobalUserInteraction, addr 0x32ee4ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalUserInteraction, addr 0x32f22a8, size 0x1c, virtual false, abstract: false, final false
   inline void SetGlobalUserInteraction(bool value);
 
-  /// @brief Method SetLeftScreenViewController, addr 0x32ed28c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetLeftScreenViewController, addr 0x32f1088, size 0xd8, virtual false, abstract: false, final false
   inline void SetLeftScreenViewController(::HMUI::ViewController* viewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method SetRightScreenViewController, addr 0x32ed364, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetRightScreenViewController, addr 0x32f1160, size 0xd8, virtual false, abstract: false, final false
   inline void SetRightScreenViewController(::HMUI::ViewController* viewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method SetTitle, addr 0x32ecec0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetTitle, addr 0x32f0cbc, size 0x50, virtual false, abstract: false, final false
   inline void SetTitle(::StringW value, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method SetTopScreenViewController, addr 0x32ed514, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetTopScreenViewController, addr 0x32f1310, size 0xd8, virtual false, abstract: false, final false
   inline void SetTopScreenViewController(::HMUI::ViewController* viewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method SetViewControllerToNavigationController, addr 0x32ef0bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetViewControllerToNavigationController, addr 0x32f2eb8, size 0x18, virtual false, abstract: false, final false
   inline void SetViewControllerToNavigationController(::HMUI::NavigationController* navigationController, ::HMUI::ViewController* viewController);
 
-  /// @brief Method SetViewControllersToNavigationController, addr 0x32ef0a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetViewControllersToNavigationController, addr 0x32f2ea0, size 0x18, virtual false, abstract: false, final false
   inline void SetViewControllersToNavigationController(::HMUI::NavigationController* navigationController, ::ArrayW<::HMUI::ViewController*> viewControllers);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x32efd40, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x32f3b3c, size 0x4, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method TransitionDidFinish, addr 0x32efd38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidFinish, addr 0x32f3b34, size 0x8, virtual true, abstract: false, final false
   inline void TransitionDidFinish();
 
-  /// @brief Method TransitionDidStart, addr 0x32efd2c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TransitionDidStart, addr 0x32f3b28, size 0xc, virtual true, abstract: false, final false
   inline void TransitionDidStart();
 
-  /// @brief Method YoungestChildFlowCoordinatorOrSelf, addr 0x32ef604, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method YoungestChildFlowCoordinatorOrSelf, addr 0x32f3400, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::FlowCoordinator> YoungestChildFlowCoordinatorOrSelf();
 
-  /// @brief Method __ExternalActivate, addr 0x32ef7f4, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method __ExternalActivate, addr 0x32f35f0, size 0x1fc, virtual false, abstract: false, final false
   inline void __ExternalActivate();
 
-  /// @brief Method __ExternalDeactivate, addr 0x32ef9f0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method __ExternalDeactivate, addr 0x32f37ec, size 0x20c, virtual false, abstract: false, final false
   inline void __ExternalDeactivate();
 
-  /// @brief Method __StartOnScreenSystem, addr 0x32ed038, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method __StartOnScreenSystem, addr 0x32f0e34, size 0x188, virtual false, abstract: false, final false
   inline void __StartOnScreenSystem(::HMUI::ScreenSystem* screenSystem);
 
   constexpr ::UnityW<::UnityEngine::EventSystems::BaseInputModule> const& __cordl_internal_get__baseInputModule() const;
@@ -1518,31 +1518,31 @@ public:
 
   constexpr void __cordl_internal_set__wasActivatedBefore(bool value);
 
-  /// @brief Method .ctor, addr 0x32efda8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f3ba4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childFlowCoordinator, addr 0x32ecea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childFlowCoordinator, addr 0x32f0c9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::FlowCoordinator> get_childFlowCoordinator();
 
-  /// @brief Method get_isActivated, addr 0x32ecea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActivated, addr 0x32f0ca4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActivated();
 
-  /// @brief Method get_isInTransition, addr 0x32eceb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInTransition, addr 0x32f0cac, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInTransition();
 
-  /// @brief Method get_rightScreenViewController, addr 0x32ece98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightScreenViewController, addr 0x32f0c94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_rightScreenViewController();
 
-  /// @brief Method get_showBackButton, addr 0x32ed030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showBackButton, addr 0x32f0e2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_showBackButton();
 
-  /// @brief Method get_title, addr 0x32eceb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x32f0cb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_topViewController, addr 0x32ece14, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_topViewController, addr 0x32f0c10, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_topViewController();
 
-  /// @brief Method set_showBackButton, addr 0x32ed028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_showBackButton, addr 0x32f0e24, size 0x8, virtual false, abstract: false, final false
   inline void set_showBackButton(bool value);
 
 protected:
@@ -1560,7 +1560,7 @@ public:
   FlowCoordinator(FlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20952 };
 
   /// @brief Field _baseInputModule, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::BaseInputModule> ____baseInputModule;

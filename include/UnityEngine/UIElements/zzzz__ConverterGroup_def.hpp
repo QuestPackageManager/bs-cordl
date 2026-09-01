@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ConverterGroup.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ConverterGroup.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set__registry_k__BackingField(::UnityEngine::UIElements::TypeConverterRegistry value);
 
-  /// @brief Method .ctor, addr 0x6c2abc8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c3274c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::StringW displayName, ::StringW description);
 
-  /// @brief Method get_registry, addr 0x6c2abc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_registry, addr 0x6c32744, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TypeConverterRegistry get_registry();
 
 protected:

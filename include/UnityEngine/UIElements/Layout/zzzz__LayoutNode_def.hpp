@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutNode.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -221,301 +221,301 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Layout::LayoutNode>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Layout::LayoutNode>*();
 
-  /// @brief Method CalculateLayout, addr 0x6cfa764, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayout, addr 0x6d022e8, size 0xa0, virtual false, abstract: false, final false
   inline void CalculateLayout(float_t width, float_t height);
 
-  /// @brief Method Clear, addr 0x6cf8c6c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6d007f0, size 0xcc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CopyFromComputedStyle, addr 0x6cfa220, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method CopyFromComputedStyle, addr 0x6d01da4, size 0x408, virtual false, abstract: false, final false
   inline void CopyFromComputedStyle(::UnityEngine::UIElements::ComputedStyle style);
 
-  /// @brief Method Equals, addr 0x6cfa6c4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6d02248, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6cfa698, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6d0221c, size 0x2c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Layout::LayoutNode other);
 
-  /// @brief Method GetHashCode, addr 0x6cfa750, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6d022d4, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetLayoutValue, addr 0x6cf8650, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetLayoutValue, addr 0x6d001d4, size 0x60, virtual false, abstract: false, final false
   inline float_t GetLayoutValue(float_t* buffer, ::UnityEngine::UIElements::Layout::LayoutEdge edge);
 
-  /// @brief Method GetOwner, addr 0x6cfa0b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetOwner, addr 0x6d01c3c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetOwner();
 
-  /// @brief Method Insert, addr 0x6cf8898, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x6d0041c, size 0x134, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::UnityEngine::UIElements::Layout::LayoutNode child);
 
-  /// @brief Method MarkDirty, addr 0x6cf89cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MarkDirty, addr 0x6d00550, size 0x74, virtual false, abstract: false, final false
   inline void MarkDirty();
 
-  /// @brief Method MarkLayoutSeen, addr 0x6cfa218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MarkLayoutSeen, addr 0x6d01d9c, size 0x8, virtual false, abstract: false, final false
   inline void MarkLayoutSeen();
 
-  /// @brief Method RemoveAt, addr 0x6cf8a40, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x6d005c4, size 0x22c, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method SetOwner, addr 0x6cfa038, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetOwner, addr 0x6d01bbc, size 0x80, virtual false, abstract: false, final false
   inline void SetOwner(::UnityEngine::UIElements::VisualElement* func);
 
-  /// @brief Method SetStyleEdgeMargin, addr 0x6cf9628, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SetStyleEdgeMargin, addr 0x6d011ac, size 0x174, virtual false, abstract: false, final false
   inline void SetStyleEdgeMargin(::UnityEngine::UIElements::Layout::LayoutEdge edge, ::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method SetStyleEdgePadding, addr 0x6cf97cc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetStyleEdgePadding, addr 0x6d01350, size 0x13c, virtual false, abstract: false, final false
   inline void SetStyleEdgePadding(::UnityEngine::UIElements::Layout::LayoutEdge edge, ::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method SetStyleEdgePosition, addr 0x6cf94c0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SetStyleEdgePosition, addr 0x6d01044, size 0x138, virtual false, abstract: false, final false
   inline void SetStyleEdgePosition(::UnityEngine::UIElements::Layout::LayoutEdge edge, ::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method SetStyleValue, addr 0x6cf92ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x6d00e70, size 0x50, virtual false, abstract: false, final false
   inline void SetStyleValue(::by_ref<::UnityEngine::UIElements::Layout::LayoutValue> currentValue, ::UnityEngine::UIElements::Layout::LayoutValue newValue);
 
-  /// @brief Method SetStyleValueAuto, addr 0x6cf9bdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValueAuto, addr 0x6d01760, size 0x20, virtual false, abstract: false, final false
   inline void SetStyleValueAuto(::by_ref<::UnityEngine::UIElements::Layout::LayoutValue> currentValue);
 
-  /// @brief Method SetStyleValuePercent, addr 0x6cf9b24, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValuePercent, addr 0x6d016a8, size 0x40, virtual false, abstract: false, final false
   inline void SetStyleValuePercent(::by_ref<::UnityEngine::UIElements::Layout::LayoutValue> currentValue, ::UnityEngine::UIElements::Layout::LayoutValue newValue);
 
-  /// @brief Method SetStyleValuePoint, addr 0x6cf9b64, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValuePoint, addr 0x6d016e8, size 0x78, virtual false, abstract: false, final false
   inline void SetStyleValuePoint(::by_ref<::UnityEngine::UIElements::Layout::LayoutValue> currentValue, ::UnityEngine::UIElements::Layout::LayoutValue newValue);
 
-  /// @brief Method SetStyleValueUnit, addr 0x6cf9150, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValueUnit, addr 0x6d00cd4, size 0x70, virtual false, abstract: false, final false
   inline void SetStyleValueUnit(::by_ref<::UnityEngine::UIElements::Layout::LayoutValue> currentValue, ::UnityEngine::UIElements::Layout::LayoutValue newValue);
 
-  /// @brief Method SetValue, addr 0x6cf906c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6d00bf0, size 0x44, virtual false, abstract: false, final false
   inline void SetValue(::by_ref<float_t> currentValue, float_t newValue);
 
-  /// @brief Method SoftReset, addr 0x6cfa628, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SoftReset, addr 0x6d021ac, size 0x70, virtual false, abstract: false, final false
   inline void SoftReset();
 
-  /// @brief Method StyleEdgeSetAuto, addr 0x6cf9c68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method StyleEdgeSetAuto, addr 0x6d017ec, size 0x20, virtual false, abstract: false, final false
   inline void StyleEdgeSetAuto(::by_ref<::UnityEngine::UIElements::Layout::LayoutValue> value);
 
-  /// @brief Method StyleEdgeSetPercent, addr 0x6cf9c28, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method StyleEdgeSetPercent, addr 0x6d017ac, size 0x40, virtual false, abstract: false, final false
   inline void StyleEdgeSetPercent(::by_ref<::UnityEngine::UIElements::Layout::LayoutValue> value, float_t newValue);
 
-  /// @brief Method StyleEdgeSetPoint, addr 0x6cf9990, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method StyleEdgeSetPoint, addr 0x6d01514, size 0x68, virtual false, abstract: false, final false
   inline void StyleEdgeSetPoint(::by_ref<::UnityEngine::UIElements::Layout::LayoutValue> value, float_t newValue);
 
-  /// @brief Method .ctor, addr 0x6cf7adc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cff660, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Layout::LayoutDataAccess access, ::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method get_Baseline, addr 0x6cfa130, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Baseline, addr 0x6d01cb4, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutBaselineFunction* get_Baseline();
 
-  /// @brief Method get_Children, addr 0x6cf87b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Children, addr 0x6d00334, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutList_1<::UnityEngine::UIElements::Layout::LayoutHandle> get_Children();
 
-  /// @brief Method get_ComputedFlexBasis, addr 0x6cf863c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_ComputedFlexBasis, addr 0x6d001c0, size 0x14, virtual false, abstract: false, final false
   inline float_t get_ComputedFlexBasis();
 
-  /// @brief Method get_Count, addr 0x6cf881c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6d003a0, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Handle, addr 0x6cf9cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x6d01834, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutHandle get_Handle();
 
-  /// @brief Method get_HasNewLayout, addr 0x6cf9db4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_HasNewLayout, addr 0x6d01938, size 0x6c, virtual false, abstract: false, final false
   inline bool get_HasNewLayout();
 
-  /// @brief Method get_IsDirty, addr 0x6cf9cb8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_IsDirty, addr 0x6d0183c, size 0x6c, virtual false, abstract: false, final false
   inline bool get_IsDirty();
 
-  /// @brief Method get_IsMeasureDefined, addr 0x6cf9ed0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_IsMeasureDefined, addr 0x6d01a54, size 0x70, virtual false, abstract: false, final false
   inline bool get_IsMeasureDefined();
 
-  /// @brief Method get_IsUndefined, addr 0x6cf7e00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsUndefined, addr 0x6cff984, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsUndefined();
 
-  /// @brief Method get_Layout, addr 0x6cf8364, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Layout, addr 0x6cffee8, size 0x64, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutComputedData> get_Layout();
 
-  /// @brief Method get_LayoutBorderBottom, addr 0x6cf8628, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutBorderBottom, addr 0x6d001ac, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutBorderBottom();
 
-  /// @brief Method get_LayoutBorderLeft, addr 0x6cf858c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutBorderLeft, addr 0x6d00110, size 0x44, virtual false, abstract: false, final false
   inline float_t get_LayoutBorderLeft();
 
-  /// @brief Method get_LayoutBorderRight, addr 0x6cf85e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutBorderRight, addr 0x6d00168, size 0x44, virtual false, abstract: false, final false
   inline float_t get_LayoutBorderRight();
 
-  /// @brief Method get_LayoutBorderTop, addr 0x6cf85d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutBorderTop, addr 0x6d00154, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutBorderTop();
 
-  /// @brief Method get_LayoutBottom, addr 0x6cf83f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutBottom, addr 0x6cfff74, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutBottom();
 
-  /// @brief Method get_LayoutHeight, addr 0x6cf8418, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutHeight, addr 0x6cfff9c, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutHeight();
 
-  /// @brief Method get_LayoutMarginBottom, addr 0x6cf84c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutMarginBottom, addr 0x6d0004c, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutMarginBottom();
 
-  /// @brief Method get_LayoutMarginLeft, addr 0x6cf842c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutMarginLeft, addr 0x6cfffb0, size 0x44, virtual false, abstract: false, final false
   inline float_t get_LayoutMarginLeft();
 
-  /// @brief Method get_LayoutMarginRight, addr 0x6cf8484, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutMarginRight, addr 0x6d00008, size 0x44, virtual false, abstract: false, final false
   inline float_t get_LayoutMarginRight();
 
-  /// @brief Method get_LayoutMarginTop, addr 0x6cf8470, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutMarginTop, addr 0x6cffff4, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutMarginTop();
 
-  /// @brief Method get_LayoutPaddingBottom, addr 0x6cf8578, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutPaddingBottom, addr 0x6d000fc, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutPaddingBottom();
 
-  /// @brief Method get_LayoutPaddingLeft, addr 0x6cf84dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutPaddingLeft, addr 0x6d00060, size 0x44, virtual false, abstract: false, final false
   inline float_t get_LayoutPaddingLeft();
 
-  /// @brief Method get_LayoutPaddingRight, addr 0x6cf8534, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutPaddingRight, addr 0x6d000b8, size 0x44, virtual false, abstract: false, final false
   inline float_t get_LayoutPaddingRight();
 
-  /// @brief Method get_LayoutPaddingTop, addr 0x6cf8520, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutPaddingTop, addr 0x6d000a4, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutPaddingTop();
 
-  /// @brief Method get_LayoutRight, addr 0x6cf83dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutRight, addr 0x6cfff60, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutRight();
 
-  /// @brief Method get_LayoutWidth, addr 0x6cf8404, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutWidth, addr 0x6cfff88, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutWidth();
 
-  /// @brief Method get_LayoutX, addr 0x6cf8350, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutX, addr 0x6cffed4, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutX();
 
-  /// @brief Method get_LayoutY, addr 0x6cf83c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutY, addr 0x6cfff4c, size 0x14, virtual false, abstract: false, final false
   inline float_t get_LayoutY();
 
-  /// @brief Method get_Measure, addr 0x6cf9f40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Measure, addr 0x6d01ac4, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* get_Measure();
 
-  /// @brief Method get_Parent, addr 0x6cf86b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x6d00234, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutNode get_Parent();
 
-  /// @brief Method get_Style, addr 0x6cf8d84, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Style, addr 0x6d00908, size 0x64, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::UIElements::Layout::LayoutStyleData> get_Style();
 
-  /// @brief Method get_Undefined, addr 0x6cf7e40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Undefined, addr 0x6cff9c4, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutNode get_Undefined();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Layout::LayoutNode>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Layout::LayoutNode>* i___System__IEquatable_1___UnityEngine__UIElements__Layout__LayoutNode_();
 
-  /// @brief Method set_AlignContent, addr 0x6cf8f18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_AlignContent, addr 0x6d00a9c, size 0x4c, virtual false, abstract: false, final false
   inline void set_AlignContent(::UnityEngine::UIElements::Layout::LayoutAlign value);
 
-  /// @brief Method set_AlignItems, addr 0x6cf8e80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_AlignItems, addr 0x6d00a04, size 0x4c, virtual false, abstract: false, final false
   inline void set_AlignItems(::UnityEngine::UIElements::Layout::LayoutAlign value);
 
-  /// @brief Method set_AlignSelf, addr 0x6cf8ecc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_AlignSelf, addr 0x6d00a50, size 0x4c, virtual false, abstract: false, final false
   inline void set_AlignSelf(::UnityEngine::UIElements::Layout::LayoutAlign value);
 
-  /// @brief Method set_BorderBottomWidth, addr 0x6cf9ac0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_BorderBottomWidth, addr 0x6d01644, size 0x64, virtual false, abstract: false, final false
   inline void set_BorderBottomWidth(float_t value);
 
-  /// @brief Method set_BorderLeftWidth, addr 0x6cf992c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_BorderLeftWidth, addr 0x6d014b0, size 0x64, virtual false, abstract: false, final false
   inline void set_BorderLeftWidth(float_t value);
 
-  /// @brief Method set_BorderRightWidth, addr 0x6cf9a5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_BorderRightWidth, addr 0x6d015e0, size 0x64, virtual false, abstract: false, final false
   inline void set_BorderRightWidth(float_t value);
 
-  /// @brief Method set_BorderTopWidth, addr 0x6cf99f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_BorderTopWidth, addr 0x6d0157c, size 0x64, virtual false, abstract: false, final false
   inline void set_BorderTopWidth(float_t value);
 
-  /// @brief Method set_Bottom, addr 0x6cf9610, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Bottom, addr 0x6d01194, size 0xc, virtual false, abstract: false, final false
   inline void set_Bottom(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_Config, addr 0x6cfa1a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_Config, addr 0x6d01d2c, size 0x70, virtual false, abstract: false, final false
   inline void set_Config(::UnityEngine::UIElements::Layout::LayoutConfig value);
 
-  /// @brief Method set_Display, addr 0x6cf8e34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Display, addr 0x6d009b8, size 0x4c, virtual false, abstract: false, final false
   inline void set_Display(::UnityEngine::UIElements::Layout::LayoutDisplay value);
 
-  /// @brief Method set_FlexBasis, addr 0x6cf9120, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_FlexBasis, addr 0x6d00ca4, size 0x30, virtual false, abstract: false, final false
   inline void set_FlexBasis(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_FlexDirection, addr 0x6cf8d38, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_FlexDirection, addr 0x6d008bc, size 0x4c, virtual false, abstract: false, final false
   inline void set_FlexDirection(::UnityEngine::UIElements::Layout::LayoutFlexDirection value);
 
-  /// @brief Method set_FlexGrow, addr 0x6cf8ffc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_FlexGrow, addr 0x6d00b80, size 0x70, virtual false, abstract: false, final false
   inline void set_FlexGrow(float_t value);
 
-  /// @brief Method set_FlexShrink, addr 0x6cf90b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_FlexShrink, addr 0x6d00c34, size 0x70, virtual false, abstract: false, final false
   inline void set_FlexShrink(float_t value);
 
-  /// @brief Method set_HasNewLayout, addr 0x6cf9e2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_HasNewLayout, addr 0x6d019b0, size 0x84, virtual false, abstract: false, final false
   inline void set_HasNewLayout(bool value);
 
-  /// @brief Method set_Height, addr 0x6cf9224, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_Height, addr 0x6d00da8, size 0x64, virtual false, abstract: false, final false
   inline void set_Height(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_IsDirty, addr 0x6cf9d30, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_IsDirty, addr 0x6d018b4, size 0x74, virtual false, abstract: false, final false
   inline void set_IsDirty(bool value);
 
-  /// @brief Method set_JustifyContent, addr 0x6cf8de8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_JustifyContent, addr 0x6d0096c, size 0x4c, virtual false, abstract: false, final false
   inline void set_JustifyContent(::UnityEngine::UIElements::Layout::LayoutJustify value);
 
-  /// @brief Method set_Left, addr 0x6cf94b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Left, addr 0x6d01038, size 0xc, virtual false, abstract: false, final false
   inline void set_Left(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_MarginBottom, addr 0x6cf97b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MarginBottom, addr 0x6d01338, size 0xc, virtual false, abstract: false, final false
   inline void set_MarginBottom(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_MarginLeft, addr 0x6cf961c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MarginLeft, addr 0x6d011a0, size 0xc, virtual false, abstract: false, final false
   inline void set_MarginLeft(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_MarginRight, addr 0x6cf97a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MarginRight, addr 0x6d0132c, size 0xc, virtual false, abstract: false, final false
   inline void set_MarginRight(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_MarginTop, addr 0x6cf979c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MarginTop, addr 0x6d01320, size 0xc, virtual false, abstract: false, final false
   inline void set_MarginTop(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_MaxHeight, addr 0x6cf933c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_MaxHeight, addr 0x6d00ec0, size 0x64, virtual false, abstract: false, final false
   inline void set_MaxHeight(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_MaxWidth, addr 0x6cf9288, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_MaxWidth, addr 0x6d00e0c, size 0x64, virtual false, abstract: false, final false
   inline void set_MaxWidth(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_Measure, addr 0x6cf9fb8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Measure, addr 0x6d01b3c, size 0x80, virtual false, abstract: false, final false
   inline void set_Measure(::UnityEngine::UIElements::Layout::LayoutMeasureFunction* value);
 
-  /// @brief Method set_MinHeight, addr 0x6cf9404, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_MinHeight, addr 0x6d00f88, size 0x64, virtual false, abstract: false, final false
   inline void set_MinHeight(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_MinWidth, addr 0x6cf93a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_MinWidth, addr 0x6d00f24, size 0x64, virtual false, abstract: false, final false
   inline void set_MinWidth(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_Overflow, addr 0x6cf9468, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Overflow, addr 0x6d00fec, size 0x4c, virtual false, abstract: false, final false
   inline void set_Overflow(::UnityEngine::UIElements::Layout::LayoutOverflow value);
 
-  /// @brief Method set_PaddingBottom, addr 0x6cf9920, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PaddingBottom, addr 0x6d014a4, size 0xc, virtual false, abstract: false, final false
   inline void set_PaddingBottom(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_PaddingLeft, addr 0x6cf97c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PaddingLeft, addr 0x6d01344, size 0xc, virtual false, abstract: false, final false
   inline void set_PaddingLeft(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_PaddingRight, addr 0x6cf9914, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PaddingRight, addr 0x6d01498, size 0xc, virtual false, abstract: false, final false
   inline void set_PaddingRight(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_PaddingTop, addr 0x6cf9908, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PaddingTop, addr 0x6d0148c, size 0xc, virtual false, abstract: false, final false
   inline void set_PaddingTop(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_Parent, addr 0x6cf8740, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_Parent, addr 0x6d002c4, size 0x70, virtual false, abstract: false, final false
   inline void set_Parent(::UnityEngine::UIElements::Layout::LayoutNode value);
 
-  /// @brief Method set_PositionType, addr 0x6cf8f64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_PositionType, addr 0x6d00ae8, size 0x4c, virtual false, abstract: false, final false
   inline void set_PositionType(::UnityEngine::UIElements::Layout::LayoutPositionType value);
 
-  /// @brief Method set_Right, addr 0x6cf9604, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Right, addr 0x6d01188, size 0xc, virtual false, abstract: false, final false
   inline void set_Right(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_Top, addr 0x6cf95f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Top, addr 0x6d0117c, size 0xc, virtual false, abstract: false, final false
   inline void set_Top(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_Width, addr 0x6cf91c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_Width, addr 0x6d00d44, size 0x64, virtual false, abstract: false, final false
   inline void set_Width(::UnityEngine::UIElements::Layout::LayoutValue value);
 
-  /// @brief Method set_Wrap, addr 0x6cf8fb0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Wrap, addr 0x6d00b34, size 0x4c, virtual false, abstract: false, final false
   inline void set_Wrap(::UnityEngine::UIElements::Layout::LayoutWrap value);
 
   // Ctor Parameters []

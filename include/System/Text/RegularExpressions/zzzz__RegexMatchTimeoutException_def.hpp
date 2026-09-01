@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/RegexMatchTimeoutException.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\RegexMatchTimeoutException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x6385f44, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x638d9c0, size 0x114, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::StringW const& __cordl_internal_get__Input_k__BackingField() const;
@@ -79,22 +79,22 @@ public:
 
   constexpr void __cordl_internal_set__Pattern_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6385da0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638d81c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6385e18, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638d894, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x6385cdc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638d758, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method get_Input, addr 0x6386058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Input, addr 0x638dad4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Input();
 
-  /// @brief Method get_MatchTimeout, addr 0x6386068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MatchTimeout, addr 0x638dae4, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_MatchTimeout();
 
-  /// @brief Method get_Pattern, addr 0x6386060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x638dadc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pattern();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -115,7 +115,7 @@ public:
   RegexMatchTimeoutException(RegexMatchTimeoutException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11117 };
 
   /// @brief Field <Input>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::StringW ____Input_k__BackingField;

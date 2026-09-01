@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ILevelPackProductDataContainer_2.hpp"
+// IWYU pragma private; include "GlobalNamespace\ILevelPackProductDataContainer_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
   ILevelPackProductDataContainer_2(ILevelPackProductDataContainer_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15126 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RemoteMultiplayerSyncState_3.hpp"
+// IWYU pragma private; include "GlobalNamespace\RemoteMultiplayerSyncState_3.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +94,7 @@ public:
   RemoteMultiplayerSyncState_3(RemoteMultiplayerSyncState_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21587 };
 
   /// @brief Field _player, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberConnectedPlayer* ____player;

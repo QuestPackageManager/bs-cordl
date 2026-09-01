@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/Datatype_unsignedLong.hpp"
+// IWYU pragma private; include "System\Xml\Schema\Datatype_unsignedLong.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_nonNegativeInteger_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_unsignedLong_def.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_unsignedLong::*)()>(
     &::System::Xml::Schema::Datatype_unsignedLong::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61c1b6c;
+  constexpr static std::size_t addrs = 0x61c95e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_unsignedLong::*)()>(
     &::System::Xml::Schema::Datatype_unsignedLong::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c1bc8;
+  constexpr static std::size_t addrs = 0x61c9644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::Datatype_unsignedLong::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::Datatype_unsignedLong::Compare)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x61c1bd0;
+  constexpr static std::size_t addrs = 0x61c964c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_unsignedLong::*)()>(&::System::Xml::Schema::Datatype_unsignedLong::get_ValueType)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61c1c24;
+  constexpr static std::size_t addrs = 0x61c96a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_unsignedLong::*)()>(&::System::Xml::Schema::Datatype_unsignedLong::get_ListValueType)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61c1c80;
+  constexpr static std::size_t addrs = 0x61c96fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Exception* (::System::Xml::Schema::Datatype_unsignedLong::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::by_ref<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_unsignedLong::TryParseValue)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x61c1cdc;
+  constexpr static std::size_t addrs = 0x61c9758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_unsignedLong::*)()>(&::System::Xml::Schema::Datatype_unsignedLong::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61b8ab0;
+  constexpr static std::size_t addrs = 0x61c052c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_unsignedLong*>(), { ".ctor", {}, {} })));

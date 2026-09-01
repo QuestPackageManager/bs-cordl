@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionNodeSelectionManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionNodeSelectionManager.hpp"
 #include "GlobalNamespace/zzzz__MissionNode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeSelectionManager_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeSelectionManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*)>(
     &::GlobalNamespace::MissionNodeSelectionManager::add_didSelectMissionNodeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59384f0;
+  constexpr static std::size_t addrs = 0x593bf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeSelectionManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*)>(
     &::GlobalNamespace::MissionNodeSelectionManager::remove_didSelectMissionNodeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59385b0;
+  constexpr static std::size_t addrs = 0x593c034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeSelectionManager::*)()>(&::GlobalNamespace::MissionNodeSelectionManager::DeselectSelectedNode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5938670;
+  constexpr static std::size_t addrs = 0x593c0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeSelectionManager*>(), { "DeselectSelectedNode", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeSelectionManager::*)()>(&::GlobalNamespace::MissionNodeSelectionManager::Start)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x593871c;
+  constexpr static std::size_t addrs = 0x593c1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeSelectionManager*>(), { "Start", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeSelectionManager::*)()>(&::GlobalNamespace::MissionNodeSelectionManager::OnDestroy)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x59389d4;
+  constexpr static std::size_t addrs = 0x593c458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeSelectionManager*>(), { "OnDestroy", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeSelectionManager::*)(::GlobalNamespace::MissionNodeVisualController*)>(
     &::GlobalNamespace::MissionNodeSelectionManager::HandleNodeWasSelect)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5938ccc;
+  constexpr static std::size_t addrs = 0x593c750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeSelectionManager*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeSelectionManager::*)(::GlobalNamespace::MissionNodeVisualController*)>(
     &::GlobalNamespace::MissionNodeSelectionManager::HandleNodeWasDisplayed)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5938d84;
+  constexpr static std::size_t addrs = 0x593c808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeSelectionManager*>(),
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeSelectionManager::*)()>(&::GlobalNamespace::MissionNodeSelectionManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5938e08;
+  constexpr static std::size_t addrs = 0x593c88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeSelectionManager*>(), { ".ctor", {}, {} })));

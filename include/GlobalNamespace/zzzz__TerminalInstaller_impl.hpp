@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TerminalInstaller.hpp"
+// IWYU pragma private; include "GlobalNamespace\TerminalInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TerminalInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TerminalInstaller.InstallBindings
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalInstaller::*)()>(&::GlobalNamespace::TerminalInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x32e7bd0;
+  constexpr static std::size_t addrs = 0x32eb9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalInstaller::*)()>(&::GlobalNamespace::TerminalInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e7c8c;
+  constexpr static std::size_t addrs = 0x32eba88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalInstaller*>(), { ".ctor", {}, {} })));

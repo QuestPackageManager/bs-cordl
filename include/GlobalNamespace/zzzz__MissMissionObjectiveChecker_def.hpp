@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissMissionObjectiveChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissMissionObjectiveChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,15 +28,15 @@ public:
   /// @brief Field _beatmapObjectManager, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-  /// @brief Method HandleNoteWasMissed, addr 0x5917ec4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x591b880, size 0x70, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method Init, addr 0x5917ce0, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x591b69c, size 0x14c, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MissMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5917e2c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x591b7e8, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method .ctor, addr 0x5917f34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591b8f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   MissMissionObjectiveChecker(MissMissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6798 };
 
   /// @brief Field _beatmapObjectManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;

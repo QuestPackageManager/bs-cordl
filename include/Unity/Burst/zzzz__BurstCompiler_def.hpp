@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Burst/BurstCompiler.hpp"
+// IWYU pragma private; include "Unity\Burst\BurstCompiler.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -126,21 +126,21 @@ public:
   /// @brief Field _hasArgs, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__hasArgs, put = __cordl_internal_set__hasArgs)) bool _hasArgs;
 
-  /// @brief Method And, addr 0x6469c84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method And, addr 0x6471700, size 0x28, virtual false, abstract: false, final false
   inline ::Unity::Burst::BurstCompiler_CommandBuilder* And(char16_t sep);
 
-  /// @brief Method Begin, addr 0x64684d8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x646ff54, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Burst::BurstCompiler_CommandBuilder* Begin(::StringW cmd);
 
   static inline ::Unity::Burst::BurstCompiler_CommandBuilder* New_ctor();
 
-  /// @brief Method SendToCompiler, addr 0x64699ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SendToCompiler, addr 0x6471468, size 0x78, virtual false, abstract: false, final false
   inline ::StringW SendToCompiler();
 
-  /// @brief Method With, addr 0x6469990, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method With, addr 0x647140c, size 0x5c, virtual false, abstract: false, final false
   inline ::Unity::Burst::BurstCompiler_CommandBuilder* With(::StringW arg);
 
-  /// @brief Method With, addr 0x6469bac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method With, addr 0x6471628, size 0xd8, virtual false, abstract: false, final false
   inline ::Unity::Burst::BurstCompiler_CommandBuilder* With(::System::IntPtr arg);
 
   constexpr ::System::Text::StringBuilder* const& __cordl_internal_get__builder() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set__hasArgs(bool value);
 
-  /// @brief Method .ctor, addr 0x6468478, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x646fef4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,7 +173,7 @@ public:
   BurstCompiler_CommandBuilder(BurstCompiler_CommandBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17299 };
 
   /// @brief Field _builder, offset: 0x10, size: 0x8, def value: None
   ::System::Text::StringBuilder* ____builder;
@@ -209,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set_reinitType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6469cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6471728, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* toReinit);
 
 protected:
@@ -227,7 +227,7 @@ public:
   BurstCompiler_StaticTypeReinitAttribute(BurstCompiler_StaticTypeReinitAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17300 };
 
   /// @brief Field reinitType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___reinitType;
@@ -247,18 +247,18 @@ namespace Unity::Burst {
 class CORDL_TYPE BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6469ee4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6471960, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6469f00, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x647197c, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6469ed0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x647194c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::Unity::Burst::BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6469e68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64718e4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -276,7 +276,7 @@ public:
   BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate(BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17301 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -299,13 +299,13 @@ public:
   /// @brief Field IsBurstGenerated, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_IsBurstGenerated, put = setStaticF_IsBurstGenerated)) bool IsBurstGenerated;
 
-  /// @brief Method DiscardedMethod, addr 0x6469d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DiscardedMethod, addr 0x6471784, size 0x8, virtual false, abstract: false, final false
   static inline void DiscardedMethod(::by_ref<bool> value);
 
-  /// @brief Method IsBurstEnabled, addr 0x6469cb4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsBurstEnabled, addr 0x6471730, size 0x54, virtual false, abstract: false, final false
   static inline bool IsBurstEnabled();
 
-  /// @brief Method IsCompiledByBurst, addr 0x6469d10, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsCompiledByBurst, addr 0x647178c, size 0x60, virtual false, abstract: false, final false
   static inline bool IsCompiledByBurst(::System::Delegate* del);
 
   static inline ::Unity::Burst::BurstCompilerHelper_BurstCompiler_IsBurstEnabledDelegate* getStaticF_IsBurstEnabledImpl();
@@ -331,7 +331,7 @@ public:
   BurstCompiler_BurstCompilerHelper(BurstCompiler_BurstCompilerHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17302 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -359,10 +359,10 @@ public:
 
   constexpr void __cordl_internal_set__Method_k__BackingField(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method .ctor, addr 0x64687d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x647024c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method get_Method, addr 0x6469f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x64719a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Method();
 
 protected:
@@ -380,7 +380,7 @@ public:
   BurstCompiler_FakeDelegate(BurstCompiler_FakeDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17303 };
 
   /// @brief Field <Method>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____Method_k__BackingField;
@@ -411,13 +411,13 @@ public:
 
   static inline ::Unity::Burst::BurstCompiler___c* New_ctor();
 
-  /// @brief Method <Compile>b__22_0, addr 0x6469f84, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Compile>b__22_0, addr 0x6471a00, size 0x78, virtual false, abstract: false, final false
   inline bool _Compile_b__22_0(::System::Attribute* s);
 
-  /// @brief Method <TriggerUnsafeStaticMethodRecompilation>b__29_0, addr 0x6469ffc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <TriggerUnsafeStaticMethodRecompilation>b__29_0, addr 0x6471a78, size 0x70, virtual false, abstract: false, final false
   inline bool _TriggerUnsafeStaticMethodRecompilation_b__29_0(::System::Attribute* x);
 
-  /// @brief Method .ctor, addr 0x6469f80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64719fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Burst::BurstCompiler___c* getStaticF___9();
@@ -447,7 +447,7 @@ public:
   BurstCompiler___c(BurstCompiler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17304 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -487,19 +487,19 @@ public:
   /// @brief Field _cmdBuilder, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__cmdBuilder, put = setStaticF__cmdBuilder)) ::Unity::Burst::BurstCompiler_CommandBuilder* _cmdBuilder;
 
-  /// @brief Method AotCompilation, addr 0x6469890, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AotCompilation, addr 0x647130c, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW AotCompilation(::ArrayW<::StringW> assemblyFolders, ::ArrayW<::StringW> assemblyRoots, ::StringW options);
 
-  /// @brief Method BeginCompilerCommand, addr 0x6468328, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method BeginCompilerCommand, addr 0x646fda4, size 0x150, virtual false, abstract: false, final false
   static inline ::Unity::Burst::BurstCompiler_CommandBuilder* BeginCompilerCommand(::StringW cmd);
 
-  /// @brief Method Cancel, addr 0x6468f84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x6470a00, size 0x4, virtual false, abstract: false, final false
   static inline void Cancel();
 
-  /// @brief Method Compile, addr 0x6468d90, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Compile, addr 0x647080c, size 0x128, virtual false, abstract: false, final false
   static inline void* Compile(::System::Object* delegateObj, bool isFunctionPointer);
 
-  /// @brief Method Compile, addr 0x64687d8, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method Compile, addr 0x6470254, size 0x4a8, virtual false, abstract: false, final false
   static inline void* Compile(::System::Object* delegateObj, ::System::Reflection::MethodInfo* methodInfo, bool isFunctionPointer, bool isILPostProcessing);
 
   /// @brief Method CompileDelegate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -508,88 +508,88 @@ public:
   /// @brief Method CompileFunctionPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Burst::FunctionPointer_1<T> CompileFunctionPointer(T delegateMethod);
 
-  /// @brief Method CompileILPPMethod, addr 0x646862c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CompileILPPMethod, addr 0x64700a8, size 0x38, virtual false, abstract: false, final false
   static inline ::System::IntPtr CompileILPPMethod(::System::RuntimeMethodHandle burstMethodHandle, ::System::RuntimeMethodHandle managedMethodHandle, ::System::RuntimeTypeHandle delegateTypeHandle);
 
-  /// @brief Method CompileILPPMethod2, addr 0x6468664, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method CompileILPPMethod2, addr 0x64700e0, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CompileILPPMethod2(::System::RuntimeMethodHandle burstMethodHandle);
 
-  /// @brief Method CompileUnsafeStaticMethod, addr 0x6468d58, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CompileUnsafeStaticMethod, addr 0x64707d4, size 0x38, virtual false, abstract: false, final false
   static inline void* CompileUnsafeStaticMethod(::System::RuntimeMethodHandle handle);
 
-  /// @brief Method Disable, addr 0x6468f94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x6470a10, size 0x4, virtual false, abstract: false, final false
   static inline void Disable();
 
-  /// @brief Method DummyMethod, addr 0x6469a64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DummyMethod, addr 0x64714e0, size 0x4, virtual false, abstract: false, final false
   static inline void DummyMethod();
 
-  /// @brief Method Enable, addr 0x6468f90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x6470a0c, size 0x4, virtual false, abstract: false, final false
   static inline void Enable();
 
-  /// @brief Method GetExecutionMode, addr 0x6468604, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetExecutionMode, addr 0x6470080, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Burst::BurstExecutionEnvironment GetExecutionMode();
 
-  /// @brief Method GetILPPMethodFunctionPointer, addr 0x6468c80, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetILPPMethodFunctionPointer, addr 0x64706fc, size 0x38, virtual false, abstract: false, final false
   static inline void* GetILPPMethodFunctionPointer(::System::IntPtr ilppMethod);
 
-  /// @brief Method GetILPPMethodFunctionPointer2, addr 0x6468cb8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetILPPMethodFunctionPointer2, addr 0x6470734, size 0xa0, virtual false, abstract: false, final false
   static inline void* GetILPPMethodFunctionPointer2(::System::IntPtr ilppMethod, ::System::RuntimeMethodHandle managedMethodHandle, ::System::RuntimeTypeHandle delegateTypeHandle);
 
-  /// @brief Method InitialiseDebuggerHooks, addr 0x64695f8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method InitialiseDebuggerHooks, addr 0x6471074, size 0xe4, virtual false, abstract: false, final false
   static inline void InitialiseDebuggerHooks();
 
-  /// @brief Method Initialize, addr 0x646987c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x64712f8, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize(::ArrayW<::StringW> assemblyFolders, ::ArrayW<::StringW> ignoreAssemblies);
 
-  /// @brief Method IsApiAvailable, addr 0x6468294, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsApiAvailable, addr 0x646fd10, size 0x94, virtual false, abstract: false, final false
   static inline bool IsApiAvailable(::StringW apiName);
 
-  /// @brief Method IsCurrentCompilationDone, addr 0x6468f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsCurrentCompilationDone, addr 0x6470a04, size 0x8, virtual false, abstract: false, final false
   static inline bool IsCurrentCompilationDone();
 
-  /// @brief Method IsHostEditorArm, addr 0x6468f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsHostEditorArm, addr 0x6470a14, size 0x8, virtual false, abstract: false, final false
   static inline bool IsHostEditorArm();
 
-  /// @brief Method IsLoadAdditionalLibrarySupported, addr 0x6468228, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsLoadAdditionalLibrarySupported, addr 0x646fca4, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsLoadAdditionalLibrarySupported();
 
-  /// @brief Method NotifyAssemblyCompilationFinished, addr 0x6469888, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyAssemblyCompilationFinished, addr 0x6471304, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyAssemblyCompilationFinished(::StringW assemblyName, ::ArrayW<::StringW> defines);
 
-  /// @brief Method NotifyAssemblyCompilationNotRequired, addr 0x6469884, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyAssemblyCompilationNotRequired, addr 0x6471300, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyAssemblyCompilationNotRequired(::StringW assemblyName);
 
-  /// @brief Method NotifyCompilationFinished, addr 0x646988c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyCompilationFinished, addr 0x6471308, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyCompilationFinished();
 
-  /// @brief Method NotifyCompilationStarted, addr 0x6469880, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyCompilationStarted, addr 0x64712fc, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyCompilationStarted(::ArrayW<::StringW> assemblyFolders, ::ArrayW<::StringW> ignoreAssemblies);
 
-  /// @brief Method RequestSetProtocolVersion, addr 0x64696dc, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method RequestSetProtocolVersion, addr 0x6471158, size 0x1a0, virtual false, abstract: false, final false
   static inline int32_t RequestSetProtocolVersion(int32_t version);
 
-  /// @brief Method SendCommandToCompiler, addr 0x646951c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SendCommandToCompiler, addr 0x6470f98, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW SendCommandToCompiler(::StringW commandName, ::StringW commandArgs);
 
-  /// @brief Method SendRawCommandToCompiler, addr 0x64698d8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SendRawCommandToCompiler, addr 0x6471354, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW SendRawCommandToCompiler(::StringW command);
 
-  /// @brief Method SetExecutionMode, addr 0x64685c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetExecutionMode, addr 0x6470044, size 0x3c, virtual false, abstract: false, final false
   static inline void SetExecutionMode(::Unity::Burst::BurstExecutionEnvironment mode);
 
-  /// @brief Method SetProfilerCallbacks, addr 0x64698d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetProfilerCallbacks, addr 0x6471350, size 0x4, virtual false, abstract: false, final false
   static inline void SetProfilerCallbacks();
 
-  /// @brief Method Shutdown, addr 0x6468f80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x64709fc, size 0x4, virtual false, abstract: false, final false
   static inline void Shutdown();
 
-  /// @brief Method TriggerRecompilation, addr 0x64694a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TriggerRecompilation, addr 0x6470f24, size 0x4, virtual false, abstract: false, final false
   static inline void TriggerRecompilation();
 
-  /// @brief Method TriggerUnsafeStaticMethodRecompilation, addr 0x6468fa0, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method TriggerUnsafeStaticMethodRecompilation, addr 0x6470a1c, size 0x508, virtual false, abstract: false, final false
   static inline void TriggerUnsafeStaticMethodRecompilation();
 
-  /// @brief Method UnloadAdditionalLibraries, addr 0x64694ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UnloadAdditionalLibraries, addr 0x6470f28, size 0x70, virtual false, abstract: false, final false
   static inline void UnloadAdditionalLibraries();
 
   /// @brief Method VerifyDelegateHasCorrectUnmanagedFunctionPointerAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -608,7 +608,7 @@ public:
 
   static inline ::Unity::Burst::BurstCompiler_CommandBuilder* getStaticF__cmdBuilder();
 
-  /// @brief Method get_IsEnabled, addr 0x6468524, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_IsEnabled, addr 0x646ffa0, size 0xa4, virtual false, abstract: false, final false
   static inline bool get_IsEnabled();
 
   static inline void setStaticF_DummyMethodInfo(::System::Reflection::MethodInfo* value);
@@ -636,7 +636,7 @@ public:
   BurstCompiler(BurstCompiler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17305 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/LinkedDictionary.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\Collections\LinkedDictionary.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__LinkedDictionary_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3624c38;
+  constexpr static std::size_t addrs = 0x36289f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Object*, ::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::Add)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3624ca4;
+  constexpr static std::size_t addrs = 0x3628a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::Clear)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3624de4;
+  constexpr static std::size_t addrs = 0x3628ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::Contains)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3624f08;
+  constexpr static std::size_t addrs = 0x3628cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Array*, int32_t)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::CopyTo)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x3624fc0;
+  constexpr static std::size_t addrs = 0x3628d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_Count)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3625330;
+  constexpr static std::size_t addrs = 0x36290f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x36253d8;
+  constexpr static std::size_t addrs = 0x3629198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::GetEnumerator)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x36253e8;
+  constexpr static std::size_t addrs = 0x36291a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::Remove)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3625450;
+  constexpr static std::size_t addrs = 0x3629210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3625588;
+  constexpr static std::size_t addrs = 0x3629348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3625590;
+  constexpr static std::size_t addrs = 0x3629350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3625598;
+  constexpr static std::size_t addrs = 0x3629358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_SyncRoot)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x36255a0;
+  constexpr static std::size_t addrs = 0x3629360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_Keys)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x36255c0;
+  constexpr static std::size_t addrs = 0x3629380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_Values)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x3625620;
+  constexpr static std::size_t addrs = 0x36293e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_Item)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3625aa8;
+  constexpr static std::size_t addrs = 0x3629868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Object*, ::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::set_Item)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3625b5c;
+  constexpr static std::size_t addrs = 0x362991c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*>(),

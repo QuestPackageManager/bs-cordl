@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/BigIntegers.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\BigIntegers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__BigIntegers_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Utilities::BigIntegers::AsUnsignedByteArray)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36396c4;
+  constexpr static std::size_t addrs = 0x363d484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::BigIntegers*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int32_t, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Utilities::BigIntegers::AsUnsignedByteArray)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x36396d8;
+  constexpr static std::size_t addrs = 0x363d498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::BigIntegers::AsUnsignedByteArray)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x36397ec;
+  constexpr static std::size_t addrs = 0x363d5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(int32_t, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Utilities::BigIntegers::CreateRandomBigInteger)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3639930;
+  constexpr static std::size_t addrs = 0x363d6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*)>(
         &::Org::BouncyCastle::Utilities::BigIntegers::CreateRandomInRange)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x36399a0;
+  constexpr static std::size_t addrs = 0x363d760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Utilities::BigIntegers::GetUnsignedByteLength)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3639bb8;
+  constexpr static std::size_t addrs = 0x363d978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::BigIntegers*>(),
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::BigIntegers::*)()>(&::Org::BouncyCastle::Utilities::BigIntegers::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3639be8;
+  constexpr static std::size_t addrs = 0x363d9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::BigIntegers*>(), { ".ctor", {}, {} })));

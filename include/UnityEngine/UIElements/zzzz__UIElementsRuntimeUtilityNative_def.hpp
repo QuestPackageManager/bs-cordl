@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIElementsRuntimeUtilityNative.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIElementsRuntimeUtilityNative.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,22 +34,22 @@ public:
   /// @brief Field UpdatePanelsCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_UpdatePanelsCallback, put = setStaticF_UpdatePanelsCallback)) ::System::Action* UpdatePanelsCallback;
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x6dafa04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RegisterPlayerloopCallback, addr 0x6db7588, size 0x28, virtual false, abstract: false, final false
   static inline void RegisterPlayerloopCallback();
 
-  /// @brief Method RenderOffscreenPanels, addr 0x6daf99c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RenderOffscreenPanels, addr 0x6db7520, size 0x68, virtual false, abstract: false, final false
   static inline void RenderOffscreenPanels();
 
-  /// @brief Method RepaintPanels, addr 0x6daf92c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RepaintPanels, addr 0x6db74b0, size 0x70, virtual false, abstract: false, final false
   static inline void RepaintPanels(bool onlyOffscreen);
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x6dafa2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnregisterPlayerloopCallback, addr 0x6db75b0, size 0x28, virtual false, abstract: false, final false
   static inline void UnregisterPlayerloopCallback();
 
-  /// @brief Method UpdatePanels, addr 0x6daf8c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdatePanels, addr 0x6db7448, size 0x68, virtual false, abstract: false, final false
   static inline void UpdatePanels();
 
-  /// @brief Method VisualElementCreation, addr 0x6dafa54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method VisualElementCreation, addr 0x6db75d8, size 0x28, virtual false, abstract: false, final false
   static inline void VisualElementCreation();
 
   static inline ::System::Action* getStaticF_RenderOffscreenPanelsCallback();

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/TypeTranslator.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\TypeTranslator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__TypeTranslator_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::TypeData* (*)(::System::Type*)>(&::System::Xml::Serialization::TypeTranslator::GetTypeData)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x62e4a24;
+  constexpr static std::size_t addrs = 0x62ec4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::TypeData* (*)(::System::Type*, ::StringW, bool)>(&::System::Xml::Serialization::TypeTranslator::GetTypeData)> {
   constexpr static std::size_t size = 0x910;
-  constexpr static std::size_t addrs = 0x62e99b0;
+  constexpr static std::size_t addrs = 0x62f142c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::TypeData* (*)(::StringW)>(&::System::Xml::Serialization::TypeTranslator::GetPrimitiveTypeData)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62ea2c0;
+  constexpr static std::size_t addrs = 0x62f1d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::TypeData* (*)(::StringW, bool)>(&::System::Xml::Serialization::TypeTranslator::GetPrimitiveTypeData)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x62ea31c;
+  constexpr static std::size_t addrs = 0x62f1d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::TypeData* (*)(::StringW)>(&::System::Xml::Serialization::TypeTranslator::FindPrimitiveTypeData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x62ea52c;
+  constexpr static std::size_t addrs = 0x62f1fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Serialization::TypeTranslator::GetArrayName)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x62e57b4;
+  constexpr static std::size_t addrs = 0x62ed230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::StringW>, ::by_ref<::StringW>, ::by_ref<::StringW>)>(
     &::System::Xml::Serialization::TypeTranslator::ParseArrayType)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x62ea5f4;
+  constexpr static std::size_t addrs = 0x62f2070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

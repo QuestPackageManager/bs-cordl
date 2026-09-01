@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/ArcItemConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\ArcItemConverter.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Arc_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ColorNote_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::ArcItemConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::ColorNote>, ::ArrayW<::BeatmapSaveDataVersion4::Arc>, ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::ArcItemConverter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x375d6a8;
+  constexpr static std::size_t addrs = 0x3763314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapObjectData* (::BeatmapDataLoaderVersion4::ArcItemConverter::*)(::BeatmapSaveDataVersion4::ArcBeatIndex*)>(
     &::BeatmapDataLoaderVersion4::ArcItemConverter::Convert)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x375da88;
+  constexpr static std::size_t addrs = 0x37636f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

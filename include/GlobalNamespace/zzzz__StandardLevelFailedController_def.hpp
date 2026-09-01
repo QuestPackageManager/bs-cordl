@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StandardLevelFailedController.hpp"
+// IWYU pragma private; include "GlobalNamespace\StandardLevelFailedController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_autoRestart(bool value);
 
-  /// @brief Method .ctor, addr 0x59aebf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b6b58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool autoRestart);
 
 protected:
@@ -105,7 +105,7 @@ public:
   StandardLevelFailedController_InitData(StandardLevelFailedController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6040 };
 
   /// @brief Field autoRestart, offset: 0x10, size: 0x1, def value: None
   bool ___autoRestart;
@@ -151,21 +151,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x59aec00, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59b6b64, size 0x158, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59aed58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59b6cbc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59aed60, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59b6cc4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59aed98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59b6cfc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x59aebfc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59b6b60, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -192,7 +192,7 @@ public:
 
   constexpr void __cordl_internal_set__levelCompletionResults_5__2(::GlobalNamespace::LevelCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x59aebe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b6b4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -219,7 +219,7 @@ public:
   StandardLevelFailedController__LevelFailedCoroutine_d__13(StandardLevelFailedController__LevelFailedCoroutine_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6041 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -289,18 +289,18 @@ public:
   __declspec(property(get = __cordl_internal_get__standardLevelSceneSetupData,
                       put = __cordl_internal_set__standardLevelSceneSetupData)) ::GlobalNamespace::StandardLevelScenesTransitionSetupData* _standardLevelSceneSetupData;
 
-  /// @brief Method HandleLevelFailed, addr 0x59aeb74, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFailed, addr 0x59b6ad8, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method LevelFailedCoroutine, addr 0x59aeb94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LevelFailedCoroutine, addr 0x59b6af8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LevelFailedCoroutine();
 
   static inline ::GlobalNamespace::StandardLevelFailedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59aea3c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59b69a0, size 0x138, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59ae944, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59b68a8, size 0xf8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -357,7 +357,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x59aebf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b6b54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -375,7 +375,7 @@ public:
   StandardLevelFailedController(StandardLevelFailedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6042 };
 
   /// @brief Field _levelFailedTextEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelFailedTextEffect> ____levelFailedTextEffect;

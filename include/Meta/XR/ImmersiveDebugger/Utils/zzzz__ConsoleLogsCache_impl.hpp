@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Utils/ConsoleLogsCache.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Utils\ConsoleLogsCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LogType_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/Utils/zzzz__ConsoleLogsCache_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache___c__DisplayClass7_0::*)()>(
     &::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a42300;
+  constexpr static std::size_t addrs = 0x5a467bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache___c__DisplayClass7_0::*)(::System::Object*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache___c__DisplayClass7_0::_EnqueueLogEntry_b__0)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5a42394;
+  constexpr static std::size_t addrs = 0x5a46850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache___c__DisplayClass7_0*>(),
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache::OnApplicationQuitting)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5a41c94;
+  constexpr static std::size_t addrs = 0x5a46150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache::OnLoad)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5a41d38;
+  constexpr static std::size_t addrs = 0x5a461f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache*>(), { "OnLoad", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache::StartCachingLogs)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5a41ec4;
+  constexpr static std::size_t addrs = 0x5a46380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_3<::StringW, ::StringW, ::UnityEngine::LogType>*)>(
     &::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache::ConsumeStartupLogs)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5a4204c;
+  constexpr static std::size_t addrs = 0x5a46508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW, ::UnityEngine::LogType)>(&::Meta::XR::ImmersiveDebugger::Utils::ConsoleLogsCache::EnqueueLogEntry)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5a421f8;
+  constexpr static std::size_t addrs = 0x5a466b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

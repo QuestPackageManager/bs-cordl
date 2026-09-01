@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/IPoolable_9.hpp"
+// IWYU pragma private; include "Zenject\IPoolable_9.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   IPoolable_9(IPoolable_9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

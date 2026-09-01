@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/SecretKeyPacket.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\SecretKeyPacket.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,16 +63,16 @@ public:
   /// @brief Field secKeyData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_secKeyData, put = __cordl_internal_set_secKeyData)) ::ArrayW<uint8_t> secKeyData;
 
-  /// @brief Method Encode, addr 0x369c458, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x36a0218, size 0x2c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncodedContents, addr 0x369c2f0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetEncodedContents, addr 0x36a00b0, size 0x168, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncodedContents();
 
-  /// @brief Method GetIV, addr 0x369c278, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0x36a0038, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetIV();
 
-  /// @brief Method GetSecretKeyData, addr 0x369c2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSecretKeyData, addr 0x36a00a8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetSecretKeyData();
 
   static inline ::Org::BouncyCastle::Bcpg::SecretKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -119,27 +119,27 @@ public:
 
   constexpr void __cordl_internal_set_secKeyData(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x36974d4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369b294, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x369c118, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369fed8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                     ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData);
 
-  /// @brief Method .ctor, addr 0x369c1c4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369ff84, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                     ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData);
 
-  /// @brief Method get_EncAlgorithm, addr 0x369c268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncAlgorithm, addr 0x36a0028, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag get_EncAlgorithm();
 
-  /// @brief Method get_PublicKeyPacket, addr 0x369c2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyPacket, addr 0x36a00a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* get_PublicKeyPacket();
 
-  /// @brief Method get_S2k, addr 0x369c2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_S2k, addr 0x36a0098, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::S2k* get_S2k();
 
-  /// @brief Method get_S2kUsage, addr 0x369c270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_S2kUsage, addr 0x36a0030, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_S2kUsage();
 
 protected:

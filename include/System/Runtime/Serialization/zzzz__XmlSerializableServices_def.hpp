@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/XmlSerializableServices.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\XmlSerializableServices.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +36,10 @@ public:
   /// @brief Field WriteNodesMethodName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_WriteNodesMethodName, put = setStaticF_WriteNodesMethodName)) ::StringW WriteNodesMethodName;
 
-  /// @brief Method IsValidAttribute, addr 0x6170cac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsValidAttribute, addr 0x6178728, size 0xf8, virtual false, abstract: false, final false
   static inline bool IsValidAttribute(::System::Xml::XmlReader* xmlReader);
 
-  /// @brief Method ReadNodes, addr 0x6170928, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method ReadNodes, addr 0x61783a4, size 0x324, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Xml::XmlNode*> ReadNodes(::System::Xml::XmlReader* xmlReader);
 
   static inline ::StringW getStaticF_AddDefaultSchemaMethodName();
@@ -69,7 +69,7 @@ public:
   XmlSerializableServices(XmlSerializableServices const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17147 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AOTEnforcer.hpp"
+// IWYU pragma private; include "GlobalNamespace\AOTEnforcer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AOTEnforcer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AOTEnforcer.Awake
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AOTEnforcer::*)()>(&::GlobalNamespace::AOTEnforcer::Awake)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5852a60;
+  constexpr static std::size_t addrs = 0x5851b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AOTEnforcer*>(), { "Awake", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AOTEnforcer::*)()>(&::GlobalNamespace::AOTEnforcer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5852acc;
+  constexpr static std::size_t addrs = 0x5851bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AOTEnforcer*>(), { ".ctor", {}, {} })));

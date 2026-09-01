@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/TlsStream.hpp"
+// IWYU pragma private; include "System\Net\TlsStream.hpp"
 #include "System/Net/Sockets/zzzz__NetworkStream_impl.hpp"
 #include "System/Net/zzzz__TlsStream_def.hpp"
 #include "System/Net/Security/zzzz__SslStream_def.hpp"
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TlsS
                                                                                           ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(
     &::System::Net::TlsStream::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x63f1e0c;
+  constexpr static std::size_t addrs = 0x63f9888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TlsStream::*)()>(&::System::Net::TlsStream::AuthenticateAsClient)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x63f1ee4;
+  constexpr static std::size_t addrs = 0x63f9960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::TlsStream*>(), { "AuthenticateAsClient", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::TlsStream::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::TlsStream::BeginAuthenticateAsClient)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x63f2008;
+  constexpr static std::size_t addrs = 0x63f9a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TlsStream::*)(::System::IAsyncResult*)>(&::System::Net::TlsStream::EndAuthenticateAsClient)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63f2144;
+  constexpr static std::size_t addrs = 0x63f9bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::TlsStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::TlsStream::BeginWrite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63f2164;
+  constexpr static std::size_t addrs = 0x63f9be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::TlsStream*>(), { ::i2c::class_of<::System::Net::TlsStream*>(), 29 }));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TlsStream::*)(::System::IAsyncResult*)>(&::System::Net::TlsStream::EndWrite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63f2184;
+  constexpr static std::size_t addrs = 0x63f9c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::TlsStream*>(), { ::i2c::class_of<::System::Net::TlsStream*>(), 30 }));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TlsStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::TlsStream::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63f21a4;
+  constexpr static std::size_t addrs = 0x63f9c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::TlsStream*>(), { ::i2c::class_of<::System::Net::TlsStream*>(), 38 }));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::TlsStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::TlsStream::Read)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63f21c4;
+  constexpr static std::size_t addrs = 0x63f9c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::TlsStream*>(), { ::i2c::class_of<::System::Net::TlsStream*>(), 35 }));
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::TlsStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::TlsStream::BeginRead)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63f21e4;
+  constexpr static std::size_t addrs = 0x63f9c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::TlsStream*>(), { ::i2c::class_of<::System::Net::TlsStream*>(), 25 }));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::TlsStream::*)(::System::IAsyncResult*)>(&::System::Net::TlsStream::EndRead)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63f2204;
+  constexpr static std::size_t addrs = 0x63f9c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::TlsStream*>(), { ::i2c::class_of<::System::Net::TlsStream*>(), 26 }));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::TlsStream::*)()>(&::System::Net::TlsStream::Close)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x63f2224;
+  constexpr static std::size_t addrs = 0x63f9ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::TlsStream*>(), { ::i2c::class_of<::System::Net::TlsStream*>(), 21 }));

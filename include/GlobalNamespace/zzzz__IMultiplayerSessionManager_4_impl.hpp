@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IMultiplayerSessionManager_4.hpp"
+// IWYU pragma private; include "GlobalNamespace\IMultiplayerSessionManager_4.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_4_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_1_def.hpp"
 template <typename TConnectedPlayerManager, typename TConnectedPlayer, typename TConnectedPlayerImpl, typename TGameSpecificIdentityData>

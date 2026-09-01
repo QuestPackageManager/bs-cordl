@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/FormattableStringFactory.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\FormattableStringFactory.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,15 +50,15 @@ public:
   /// @brief Field _format, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__format, put = __cordl_internal_set__format)) ::StringW _format;
 
-  /// @brief Method GetArgument, addr 0x5b6c048, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x5b70504, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* GetArgument(int32_t index);
 
-  /// @brief Method GetArguments, addr 0x5b6c028, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x5b704e4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetArguments();
 
   static inline ::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString* New_ctor(::StringW format, ::ArrayW<::System::Object*> arguments);
 
-  /// @brief Method ToString, addr 0x5b6c078, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5b70534, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
   constexpr ::ArrayW<::System::Object*> const& __cordl_internal_get__arguments() const;
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set__format(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b6c018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b704d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW format, ::ArrayW<::System::Object*> arguments);
 
-  /// @brief Method get_ArgumentCount, addr 0x5b6c030, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x5b704ec, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Format, addr 0x5b6c020, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Format, addr 0x5b704dc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Format();
 
 protected:
@@ -124,7 +124,7 @@ public:
   // Declarations
   using ConcreteFormattableString = ::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString;
 
-  /// @brief Method Create, addr 0x5b6bf4c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5b70408, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::FormattableString* Create(::StringW format, ::ArrayW<::System::Object*> arguments);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/AutoUnwrapSettings.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\AutoUnwrapSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,7 +106,7 @@ public:
   static ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor const UpperRight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16709 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -165,7 +165,7 @@ public:
   static ::UnityEngine::ProBuilder::AutoUnwrapSettings_Fill const Tile;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16710 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -210,79 +210,79 @@ public:
 
   __declspec(property(get = get_useWorldSpace, put = set_useWorldSpace)) bool useWorldSpace;
 
-  /// @brief Method Reset, addr 0x66ab968, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x66b33e4, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ToString, addr 0x66abab4, size 0x394, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x66b3530, size 0x394, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x66aba10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66b348c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
 
-  /// @brief Method get_anchor, addr 0x66aba00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_anchor, addr 0x66b347c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor get_anchor();
 
-  /// @brief Method get_defaultAutoUnwrapSettings, addr 0x66ab950, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultAutoUnwrapSettings, addr 0x66b33cc, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_defaultAutoUnwrapSettings();
 
-  /// @brief Method get_fill, addr 0x66ab9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fill, addr 0x66b343c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::AutoUnwrapSettings_Fill get_fill();
 
-  /// @brief Method get_fit, addr 0x66aba84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_fit, addr 0x66b3500, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_fit();
 
-  /// @brief Method get_flipU, addr 0x66ab990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flipU, addr 0x66b340c, size 0x8, virtual false, abstract: false, final false
   inline bool get_flipU();
 
-  /// @brief Method get_flipV, addr 0x66ab9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flipV, addr 0x66b341c, size 0x8, virtual false, abstract: false, final false
   inline bool get_flipV();
 
-  /// @brief Method get_offset, addr 0x66ab9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offset, addr 0x66b345c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_offset();
 
-  /// @brief Method get_rotation, addr 0x66ab9f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x66b346c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
-  /// @brief Method get_scale, addr 0x66ab9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scale, addr 0x66b344c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_scale();
 
-  /// @brief Method get_stretch, addr 0x66aba9c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_stretch, addr 0x66b3518, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_stretch();
 
-  /// @brief Method get_swapUV, addr 0x66ab9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_swapUV, addr 0x66b342c, size 0x8, virtual false, abstract: false, final false
   inline bool get_swapUV();
 
-  /// @brief Method get_tile, addr 0x66aba6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_tile, addr 0x66b34e8, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_tile();
 
-  /// @brief Method get_useWorldSpace, addr 0x66ab980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useWorldSpace, addr 0x66b33fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_useWorldSpace();
 
-  /// @brief Method set_anchor, addr 0x66aba08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_anchor, addr 0x66b3484, size 0x8, virtual false, abstract: false, final false
   inline void set_anchor(::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor value);
 
-  /// @brief Method set_fill, addr 0x66ab9c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fill, addr 0x66b3444, size 0x8, virtual false, abstract: false, final false
   inline void set_fill(::UnityEngine::ProBuilder::AutoUnwrapSettings_Fill value);
 
-  /// @brief Method set_flipU, addr 0x66ab998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flipU, addr 0x66b3414, size 0x8, virtual false, abstract: false, final false
   inline void set_flipU(bool value);
 
-  /// @brief Method set_flipV, addr 0x66ab9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flipV, addr 0x66b3424, size 0x8, virtual false, abstract: false, final false
   inline void set_flipV(bool value);
 
-  /// @brief Method set_offset, addr 0x66ab9e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offset, addr 0x66b3464, size 0x8, virtual false, abstract: false, final false
   inline void set_offset(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_rotation, addr 0x66ab9f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x66b3474, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(float_t value);
 
-  /// @brief Method set_scale, addr 0x66ab9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scale, addr 0x66b3454, size 0x8, virtual false, abstract: false, final false
   inline void set_scale(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_swapUV, addr 0x66ab9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_swapUV, addr 0x66b3434, size 0x8, virtual false, abstract: false, final false
   inline void set_swapUV(bool value);
 
-  /// @brief Method set_useWorldSpace, addr 0x66ab988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useWorldSpace, addr 0x66b3404, size 0x8, virtual false, abstract: false, final false
   inline void set_useWorldSpace(bool value);
 
   // Ctor Parameters []
@@ -298,7 +298,7 @@ public:
                                ::UnityEngine::Vector2 m_Offset, float_t m_Rotation, ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor m_Anchor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16711 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

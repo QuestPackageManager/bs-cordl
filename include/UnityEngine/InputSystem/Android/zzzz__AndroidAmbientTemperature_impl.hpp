@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidAmbientTemperature.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidAmbientTemperature.hpp"
 #include "UnityEngine/InputSystem/zzzz__AmbientTemperatureSensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidAmbientTemperature_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidAmbientTemperature._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidAmbientTemperature::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidAmbientTemperature::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a41b4;
+  constexpr static std::size_t addrs = 0x65abc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Android::AndroidAmbientTemperature*>(), { ".ctor", {}, {} })));

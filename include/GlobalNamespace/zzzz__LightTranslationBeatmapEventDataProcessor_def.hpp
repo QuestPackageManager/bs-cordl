@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightTranslationBeatmapEventDataProcessor.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightTranslationBeatmapEventDataProcessor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightTranslationBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x3258ef4, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x325c1f4, size 0xe4, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x3258e00, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0x325c100, size 0xf4, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method .ctor, addr 0x3258fd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x325c2d8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   LightTranslationBeatmapEventDataProcessor(LightTranslationBeatmapEventDataProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

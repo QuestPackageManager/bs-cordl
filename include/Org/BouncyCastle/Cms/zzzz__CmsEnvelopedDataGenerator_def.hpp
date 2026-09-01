@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsEnvelopedDataGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsEnvelopedDataGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,26 +36,26 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsEnvelopedDataGenerator : public ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x36a6f94, size 0xc98, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36aad54, size 0xc98, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* cipherBuilder);
 
-  /// @brief Method Generate, addr 0x36a6de4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36aaba4, size 0x1b0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid);
 
-  /// @brief Method Generate, addr 0x36a61ec, size 0xbf8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36a9fac, size 0xbf8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method Generate, addr 0x36a7c2c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36ab9ec, size 0x1ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid, int32_t keySize);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x36a612c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a9eec, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36a6184, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a9f44, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Ocsp/OcspResp.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Ocsp\OcspResp.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,16 +38,16 @@ public:
   /// @brief Field resp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp)) ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* resp;
 
-  /// @brief Method Equals, addr 0x3574358, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3578118, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEncoded, addr 0x3574340, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x3578100, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method GetHashCode, addr 0x3574410, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35781d0, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetResponseObject, addr 0x3574170, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetResponseObject, addr 0x3577f30, size 0x1d0, virtual false, abstract: false, final false
   inline ::System::Object* GetResponseObject();
 
   static inline ::Org::BouncyCastle::Ocsp::OcspResp* New_ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
@@ -64,19 +64,19 @@ public:
 
   constexpr void __cordl_internal_set_resp(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* value);
 
-  /// @brief Method .ctor, addr 0x3573fa8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3577d68, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
 
-  /// @brief Method .ctor, addr 0x35740d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3577e90, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStr);
 
-  /// @brief Method .ctor, addr 0x3573f38, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3577cf8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> resp);
 
-  /// @brief Method .ctor, addr 0x3573f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3577cf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* resp);
 
-  /// @brief Method get_Status, addr 0x357414c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x3577f0c, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
 protected:

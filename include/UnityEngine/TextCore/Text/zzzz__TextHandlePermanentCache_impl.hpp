@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextHandlePermanentCache.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextHandlePermanentCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextHandlePermanentCache_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandlePermanentCache::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
     &::UnityEngine::TextCore::Text::TextHandlePermanentCache::AddTextInfoToCache)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6c08ed4;
+  constexpr static std::size_t addrs = 0x6c10a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandlePermanentCache::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
     &::UnityEngine::TextCore::Text::TextHandlePermanentCache::RemoveTextInfoFromCache)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6c09108;
+  constexpr static std::size_t addrs = 0x6c10c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandlePermanentCache::*)()>(&::UnityEngine::TextCore::Text::TextHandlePermanentCache::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6c09234;
+  constexpr static std::size_t addrs = 0x6c10db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandlePermanentCache*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TimerState.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TimerState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,31 +35,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TimerState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>*();
 
-  /// @brief Method Equals, addr 0x6dd1a78, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6dd95fc, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6dd1b04, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6dd9688, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TimerState other);
 
-  /// @brief Method GetHashCode, addr 0x6dd1b28, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6dd96ac, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_deltaTime, addr 0x6dd1a6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x6dd95f0, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_deltaTime();
 
-  /// @brief Method get_now, addr 0x6dd1a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_now, addr 0x6dd95e0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_now();
 
-  /// @brief Method get_start, addr 0x6dd1a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_start, addr 0x6dd95d0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_start();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimerState>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>* i___System__IEquatable_1___UnityEngine__UIElements__TimerState_();
 
-  /// @brief Method set_now, addr 0x6dd1a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_now, addr 0x6dd95e8, size 0x8, virtual false, abstract: false, final false
   inline void set_now(int64_t value);
 
-  /// @brief Method set_start, addr 0x6dd1a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_start, addr 0x6dd95d8, size 0x8, virtual false, abstract: false, final false
   inline void set_start(int64_t value);
 
   // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/RejoinDialogResult.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\RejoinDialogResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_RejoinSelected(bool value);
 
-  /// @brief Method .ctor, addr 0x5dedee4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df23a0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -51,7 +51,7 @@ public:
   RejoinDialogResult(RejoinDialogResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18090 };
 
   /// @brief Field RejoinSelected, offset: 0x10, size: 0x1, def value: None
   bool ___RejoinSelected;

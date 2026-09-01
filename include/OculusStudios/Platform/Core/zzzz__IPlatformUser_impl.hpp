@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/IPlatformUser.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\IPlatformUser.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatformUser_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__UserAgeCategory_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshHandles.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshHandles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,13 +74,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshHandles___c* New_ctor();
 
-  /// @brief Method <CreateFaceMeshFromFaces>b__10_0, addr 0x66c4408, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateFaceMeshFromFaces>b__10_0, addr 0x66cbe84, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _CreateFaceMeshFromFaces_b__10_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <CreateFaceMesh>b__9_0, addr 0x66c43f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateFaceMesh>b__9_0, addr 0x66cbe6c, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _CreateFaceMesh_b__9_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x66c43ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66cbe68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshHandles___c* getStaticF___9();
@@ -110,7 +110,7 @@ public:
   MeshHandles___c(MeshHandles___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -154,40 +154,40 @@ public:
   /// @brief Field s_Vector4List, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Vector4List, put = setStaticF_s_Vector4List)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* s_Vector4List;
 
-  /// @brief Method CreateEdgeBillboardMesh, addr 0x66c2d4c, size 0x8d8, virtual false, abstract: false, final false
+  /// @brief Method CreateEdgeBillboardMesh, addr 0x66ca7c8, size 0x8d8, virtual false, abstract: false, final false
   static inline void CreateEdgeBillboardMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateEdgeBillboardMesh, addr 0x66c3624, size 0xbc8, virtual false, abstract: false, final false
+  /// @brief Method CreateEdgeBillboardMesh, addr 0x66cb0a0, size 0xbc8, virtual false, abstract: false, final false
   static inline void CreateEdgeBillboardMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target,
                                              ::System::Collections::Generic::ICollection_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method CreateEdgeMesh, addr 0x66c0edc, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method CreateEdgeMesh, addr 0x66c8958, size 0x40c, virtual false, abstract: false, final false
   static inline void CreateEdgeMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateEdgeMesh, addr 0x66c12e8, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method CreateEdgeMesh, addr 0x66c8d64, size 0x2e4, virtual false, abstract: false, final false
   static inline void CreateEdgeMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target, ::ArrayW<::UnityEngine::ProBuilder::Edge> edges);
 
-  /// @brief Method CreateFaceMesh, addr 0x66c0c0c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method CreateFaceMesh, addr 0x66c8688, size 0x170, virtual false, abstract: false, final false
   static inline void CreateFaceMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateFaceMeshFromFaces, addr 0x66c0d7c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CreateFaceMeshFromFaces, addr 0x66c87f8, size 0x160, virtual false, abstract: false, final false
   static inline void CreateFaceMeshFromFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
                                              ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreatePointBillboardMesh, addr 0x66c1a34, size 0x9d0, virtual false, abstract: false, final false
+  /// @brief Method CreatePointBillboardMesh, addr 0x66c94b0, size 0x9d0, virtual false, abstract: false, final false
   static inline void CreatePointBillboardMesh(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                               ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreatePointBillboardMesh, addr 0x66c2404, size 0x948, virtual false, abstract: false, final false
+  /// @brief Method CreatePointBillboardMesh, addr 0x66c9e80, size 0x948, virtual false, abstract: false, final false
   static inline void CreatePointBillboardMesh(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreatePointMesh, addr 0x66c1880, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method CreatePointMesh, addr 0x66c92fc, size 0x1b4, virtual false, abstract: false, final false
   static inline void CreatePointMesh(::ArrayW<::UnityEngine::Vector3> positions, ::System::Collections::Generic::IList_1<int32_t>* indexes, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateVertexMesh, addr 0x66c15cc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method CreateVertexMesh, addr 0x66c9048, size 0x1d0, virtual false, abstract: false, final false
   static inline void CreateVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateVertexMesh, addr 0x66c179c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CreateVertexMesh, addr 0x66c9218, size 0xe4, virtual false, abstract: false, final false
   static inline void CreateVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
   static inline ::UnityEngine::Vector2 getStaticF_k_Billboard0();
@@ -241,7 +241,7 @@ public:
   MeshHandles(MeshHandles const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16753 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

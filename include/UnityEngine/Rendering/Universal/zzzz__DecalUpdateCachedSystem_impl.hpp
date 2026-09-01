@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalUpdateCachedSystem.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalUpdateCachedSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::*)(
     ::Unity::Mathematics::quaternion, ::Unity::Mathematics::quaternion)>(&::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::DistanceBetweenQuaternions)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6857eb4;
+  constexpr static std::size_t addrs = 0x685f930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::*)(int32_t, ::UnityEngine::Jobs::TransformAccess)>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::Execute)> {
   constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x6857ee4;
+  constexpr static std::size_t addrs = 0x685f960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::BoundingSphere (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::*)(::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob::GetDecalProjectBoundingSphere)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6858474;
+  constexpr static std::size_t addrs = 0x685fef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem_UpdateTransformsJob>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::*)(::UnityEngine::Rendering::Universal::DecalEntityManager*)>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x68579f0;
+  constexpr static std::size_t addrs = 0x685f46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem*>(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::*)()>(
     &::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::Execute)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6857aac;
+  constexpr static std::size_t addrs = 0x685f528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem*>(), { "Execute", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::*)(
     ::UnityEngine::Rendering::Universal::DecalEntityChunk*, ::UnityEngine::Rendering::Universal::DecalCachedChunk*, int32_t)>(&::UnityEngine::Rendering::Universal::DecalUpdateCachedSystem::Execute)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6857c1c;
+  constexpr static std::size_t addrs = 0x685f698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

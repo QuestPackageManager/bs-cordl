@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioLatencyViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioLatencyViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,30 +82,30 @@ public:
   __declspec(property(get = __cordl_internal_get__volumeSettingsList, put = __cordl_internal_set__volumeSettingsList)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>
       _volumeSettingsList;
 
-  /// @brief Method DidActivate, addr 0x5a177f4, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a1f900, size 0x32c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5a17bdc, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5a1fce0, size 0xf4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAmbientVolumeChanged, addr 0x5a17df8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleAmbientVolumeChanged, addr 0x5a1fef4, size 0x18, virtual false, abstract: false, final false
   inline void HandleAmbientVolumeChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
-  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x5a17e40, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x5a1ff3c, size 0x50, virtual false, abstract: false, final false
   inline void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
 
-  /// @brief Method HandleVolumeChanged, addr 0x5a17dc4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleVolumeChanged, addr 0x5a1fec0, size 0x34, virtual false, abstract: false, final false
   inline void HandleVolumeChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
   static inline ::GlobalNamespace::AudioLatencyViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a17cd8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a1fdd4, size 0xec, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x5a17b28, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x5a1fc2c, size 0xb4, virtual false, abstract: false, final false
   inline void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
 
-  /// @brief Method SliderValueDidChange, addr 0x5a17e10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SliderValueDidChange, addr 0x5a1ff0c, size 0x30, virtual false, abstract: false, final false
   inline void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__ambientSettingsList() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set__volumeSettingsList(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  /// @brief Method .ctor, addr 0x5a17e90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a1ff8c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -192,7 +192,7 @@ public:
   AudioLatencyViewController(AudioLatencyViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6463 };
 
   /// @brief Field _setupCanvasGroup, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____setupCanvasGroup;

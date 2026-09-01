@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StartMiddleEndButtonBackgroundController.hpp"
+// IWYU pragma private; include "GlobalNamespace\StartMiddleEndButtonBackgroundController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StartMiddleEndButtonBackgroundController_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x591f4c8;
+  constexpr static std::size_t addrs = 0x5922e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetMiddleSprite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x591f4e8;
+  constexpr static std::size_t addrs = 0x5922ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetEndSprite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x591f508;
+  constexpr static std::size_t addrs = 0x5922ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&::GlobalNamespace::StartMiddleEndButtonBackgroundController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x591f528;
+  constexpr static std::size_t addrs = 0x5922ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StartMiddleEndButtonBackgroundController*>(), { ".ctor", {}, {} })));

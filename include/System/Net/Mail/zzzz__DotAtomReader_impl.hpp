@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Mail/DotAtomReader.hpp"
+// IWYU pragma private; include "System\Net\Mail\DotAtomReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Mail/zzzz__DotAtomReader_def.hpp"
 //  Writing Method size for method: ::System::Net::Mail::DotAtomReader.ReadReverse
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::Mail::DotAtomReader::ReadReverse)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x6366cd4;
+  constexpr static std::size_t addrs = 0x636e750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

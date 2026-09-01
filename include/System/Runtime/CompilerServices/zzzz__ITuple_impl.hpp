@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/ITuple.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\ITuple.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::ITuple.get_Length
 template <>

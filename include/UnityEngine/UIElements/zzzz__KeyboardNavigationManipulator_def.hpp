@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/KeyboardNavigationManipulator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\KeyboardNavigationManipulator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,31 +86,31 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Action,
                       put = __cordl_internal_set_m_Action)) ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* m_Action;
 
-  /// @brief Method Invoke, addr 0x6dae584, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6db6108, size 0x1c, virtual false, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::KeyboardNavigationOperation operation, ::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::KeyboardNavigationManipulator*
   New_ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* action);
 
-  /// @brief Method OnKeyDown, addr 0x6dae440, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x6db5fc4, size 0x54, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method OnNavigationCancel, addr 0x6dae5a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationCancel, addr 0x6db6124, size 0x24, virtual false, abstract: false, final false
   inline void OnNavigationCancel(::UnityEngine::UIElements::NavigationCancelEvent* evt);
 
-  /// @brief Method OnNavigationMove, addr 0x6dae5e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationMove, addr 0x6db616c, size 0x8c, virtual false, abstract: false, final false
   inline void OnNavigationMove(::UnityEngine::UIElements::NavigationMoveEvent* evt);
 
-  /// @brief Method OnNavigationSubmit, addr 0x6dae5c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x6db6148, size 0x24, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x6dadfe0, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x6db5b64, size 0x22c, virtual true, abstract: false, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6dae214, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6db5d98, size 0x22c, virtual true, abstract: false, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method <OnKeyDown>g__GetOperation|4_0, addr 0x6dae494, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <OnKeyDown>g__GetOperation|4_0, addr 0x6db6018, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::KeyboardNavigationOperation
   _OnKeyDown_g__GetOperation_4_0(::by_ref<::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0> _cordl_fixed_empty_name_whitespace);
 
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Action(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* value);
 
-  /// @brief Method .ctor, addr 0x6dadfd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6db5b58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>* action);
 
 protected:

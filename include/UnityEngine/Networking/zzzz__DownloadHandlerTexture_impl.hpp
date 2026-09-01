@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerTexture.hpp"
+// IWYU pragma private; include "UnityEngine\Networking\DownloadHandlerTexture.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerTexture*)>(
     &::UnityEngine::Networking::DownloadHandlerTexture_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e23d44;
+  constexpr static std::size_t addrs = 0x6e2b8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerTexture_BindingsMarshaller*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerTexture*, ::UnityEngine::Networking::DownloadedTextureParams)>(
     &::UnityEngine::Networking::DownloadHandlerTexture::Create)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6e239d0;
+  constexpr static std::size_t addrs = 0x6e2b554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerTexture::*)(::UnityEngine::Networking::DownloadedTextureParams)>(
     &::UnityEngine::Networking::DownloadHandlerTexture::InternalCreateTexture)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e23a5c;
+  constexpr static std::size_t addrs = 0x6e2b5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerTexture*>(),
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerTexture::*)(bool)>(&::UnityEngine::Networking::DownloadHandlerTexture::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e23aa8;
+  constexpr static std::size_t addrs = 0x6e2b62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (::UnityEngine::Networking::DownloadHandlerTexture::*)()>(
     &::UnityEngine::Networking::DownloadHandlerTexture::GetNativeData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e23b04;
+  constexpr static std::size_t addrs = 0x6e2b688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerTexture::*)()>(&::UnityEngine::Networking::DownloadHandlerTexture::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e23b10;
+  constexpr static std::size_t addrs = 0x6e2b694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::Networking::DownloadHandlerTexture::*)()>(
     &::UnityEngine::Networking::DownloadHandlerTexture::get_texture)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e23b70;
+  constexpr static std::size_t addrs = 0x6e2b6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerTexture*>(), { "get_texture", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::Networking::DownloadHandlerTexture::*)()>(
     &::UnityEngine::Networking::DownloadHandlerTexture::InternalGetTextureNative)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6e23b74;
+  constexpr static std::size_t addrs = 0x6e2b6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::Networking::DownloadHandlerTexture::GetContent)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e23cec;
+  constexpr static std::size_t addrs = 0x6e2b870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerTexture*>(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerTexture*, ::by_ref<::UnityEngine::Networking::DownloadedTextureParams>)>(
     &::UnityEngine::Networking::DownloadHandlerTexture::Create_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e23a18;
+  constexpr static std::size_t addrs = 0x6e2b59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Networking::DownloadHandlerTexture::InternalGetTextureNative_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e23cb0;
+  constexpr static std::size_t addrs = 0x6e2b834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

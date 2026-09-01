@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/BurstSliderData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\BurstSliderData.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BaseSliderData_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BurstSliderData_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteColorType_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::BurstSliderData::*)()>(&::BeatmapSaveDataVersion3::BurstSliderData::get_sliceCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759b30;
+  constexpr static std::size_t addrs = 0x375f79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BurstSliderData*>(), { "get_sliceCount", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::BurstSliderData::*)()>(&::BeatmapSaveDataVersion3::BurstSliderData::get_cuttableSlicesCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3759b38;
+  constexpr static std::size_t addrs = 0x375f7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BurstSliderData*>(), { "get_cuttableSlicesCount", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::BurstSliderData::*)()>(&::BeatmapSaveDataVersion3::BurstSliderData::get_squishAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759b44;
+  constexpr static std::size_t addrs = 0x375f7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BurstSliderData*>(), { "get_squishAmount", {}, {} })));
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVe
                                                                                                             ::BeatmapSaveDataCommon::NoteCutDirection, float_t, int32_t, int32_t, int32_t, float_t)>(
     &::BeatmapSaveDataVersion3::BurstSliderData::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3759b4c;
+  constexpr static std::size_t addrs = 0x375f7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

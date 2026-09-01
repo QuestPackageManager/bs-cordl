@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeVolumePositioning.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeVolumePositioning.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ProbeVolumePositioning_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>, ::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>)>(
     &::UnityEngine::Rendering::ProbeVolumePositioning::OBBIntersect)> {
   constexpr static std::size_t size = 0x6dc;
-  constexpr static std::size_t addrs = 0x678f4cc;
+  constexpr static std::size_t addrs = 0x6796f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePositioning*>(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::ProbeVolumePositioning::OBBContains)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x678fc90;
+  constexpr static std::size_t addrs = 0x679770c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>, ::by_ref<::UnityEngine::Bounds>, ::by_ref<::UnityEngine::Bounds>)>(
     &::UnityEngine::Rendering::ProbeVolumePositioning::OBBAABBIntersect)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x678fd68;
+  constexpr static std::size_t addrs = 0x67977e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::ProbeVolumePositioning::ProjectOBB)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x678fba8;
+  constexpr static std::size_t addrs = 0x6797624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::by_ref<::ArrayW<::UnityEngine::Vector3>>, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::ProbeVolumePositioning::ProjectAABB)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x67902ac;
+  constexpr static std::size_t addrs = 0x6797d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

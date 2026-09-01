@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/WeightUtility.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\WeightUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__WeightUtility_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Playables::Playable)>(&::UnityEngine::Timeline::WeightUtility::NormalizeMixer)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x69c9820;
+  constexpr static std::size_t addrs = 0x69d129c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

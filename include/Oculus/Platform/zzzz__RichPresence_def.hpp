@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/RichPresence.hpp"
+// IWYU pragma private; include "Oculus\Platform\RichPresence.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,16 +31,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE RichPresence : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x5de66b4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5deab70, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Clear();
 
-  /// @brief Method GetDestinations, addr 0x5de67f8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetDestinations, addr 0x5deacb4, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations();
 
-  /// @brief Method GetNextDestinationListPage, addr 0x5de6ab8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GetNextDestinationListPage, addr 0x5deaf74, size 0x1f0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList* list);
 
-  /// @brief Method Set, addr 0x5de6950, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5deae0c, size 0x15c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions* richPresenceOptions);
 
 protected:
@@ -58,7 +58,7 @@ public:
   RichPresence(RichPresence const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

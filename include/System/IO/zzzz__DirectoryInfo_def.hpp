@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/DirectoryInfo.hpp"
+// IWYU pragma private; include "System\IO\DirectoryInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ namespace System::IO {
 class CORDL_TYPE DirectoryInfo : public ::System::IO::FileSystemInfo {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x5c02e78, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5c07334, size 0x27c, virtual false, abstract: false, final false
   inline void Init(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
   static inline ::System::IO::DirectoryInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
@@ -35,13 +35,13 @@ public:
 
   static inline ::System::IO::DirectoryInfo* New_ctor(::StringW path);
 
-  /// @brief Method .ctor, addr 0x5c030f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c075b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c026f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c06bb4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-  /// @brief Method .ctor, addr 0x5bf151c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bf59d8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ClampedFloatParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ClampedFloatParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__FloatParameter_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ClampedFloatParameter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ClampedFloatParameter.get_value
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ClampedFloatParameter::*)()>(&::UnityEngine::Rendering::ClampedFloatParameter::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c5420;
+  constexpr static std::size_t addrs = 0x67cce9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ClampedFloatParameter::*)(float_t)>(&::UnityEngine::Rendering::ClampedFloatParameter::set_value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x67c5428;
+  constexpr static std::size_t addrs = 0x67ccea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ClampedFloatParameter::*)(float_t, float_t, float_t, bool)>(
     &::UnityEngine::Rendering::ClampedFloatParameter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x67c5444;
+  constexpr static std::size_t addrs = 0x67ccec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X9Curve.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\X9Curve.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9Curve_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9FieldID_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9Curve::*)(::Org::BouncyCastle::Math::EC::ECCurve*)>(&::Org::BouncyCastle::Asn1::X9::X9Curve::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3679938;
+  constexpr static std::size_t addrs = 0x367d6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9Curve::*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Asn1::X9::X9Curve::_ctor)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3679940;
+  constexpr static std::size_t addrs = 0x367d700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9Curve::*)(::Org::BouncyCastle::Asn1::X9::X9FieldID*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X9::X9Curve::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3679ad0;
+  constexpr static std::size_t addrs = 0x367d890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
                                                                                                         ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X9::X9Curve::_ctor)> {
   constexpr static std::size_t size = 0x714;
-  constexpr static std::size_t addrs = 0x3679ae0;
+  constexpr static std::size_t addrs = 0x367d8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (::Org::BouncyCastle::Asn1::X9::X9Curve::*)()>(&::Org::BouncyCastle::Asn1::X9::X9Curve::get_Curve)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x367a4ec;
+  constexpr static std::size_t addrs = 0x367e2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9Curve*>(), { "get_Curve", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::X9::X9Curve::*)()>(&::Org::BouncyCastle::Asn1::X9::X9Curve::GetSeed)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x367a4f4;
+  constexpr static std::size_t addrs = 0x367e2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::X9Curve*>(), { "GetSeed", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X9::X9Curve::*)()>(&::Org::BouncyCastle::Asn1::X9::X9Curve::ToAsn1Object)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x367a554;
+  constexpr static std::size_t addrs = 0x367e314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

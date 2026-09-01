@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/NonSerializedAttribute.hpp"
+// IWYU pragma private; include "System\NonSerializedAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::NonSerializedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5c46d5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c4b218, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

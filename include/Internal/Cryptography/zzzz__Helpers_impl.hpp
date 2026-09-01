@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal/Cryptography/Helpers.hpp"
+// IWYU pragma private; include "Internal\Cryptography\Helpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Cryptography/zzzz__Helpers_def.hpp"
 //  Writing Method size for method: ::Internal::Cryptography::Helpers.CloneByteArray
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::Internal::Cryptography::Helpers::CloneByteArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5ac3610;
+  constexpr static std::size_t addrs = 0x5ac7acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (*)(::ArrayW<uint8_t>)>(&::Internal::Cryptography::Helpers::ToHexArrayUpper)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5ac3688;
+  constexpr static std::size_t addrs = 0x5ac7b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&::Internal::Cryptography::Helpers::ToHexStringUpper)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ac3784;
+  constexpr static std::size_t addrs = 0x5ac7c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(uint8_t)>(&::Internal::Cryptography::Helpers::NibbleToHex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ac3768;
+  constexpr static std::size_t addrs = 0x5ac7c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

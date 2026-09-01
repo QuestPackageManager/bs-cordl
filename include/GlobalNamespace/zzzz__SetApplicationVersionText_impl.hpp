@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SetApplicationVersionText.hpp"
+// IWYU pragma private; include "GlobalNamespace\SetApplicationVersionText.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetApplicationVersionText_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetApplicationVersionText::*)()>(&::GlobalNamespace::SetApplicationVersionText::Start)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x59a6758;
+  constexpr static std::size_t addrs = 0x59ae000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetApplicationVersionText*>(), { "Start", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetApplicationVersionText::*)(::BeatSaber::Init::GameVersion*)>(
     &::GlobalNamespace::SetApplicationVersionText::SetText)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x59a686c;
+  constexpr static std::size_t addrs = 0x59ae114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetApplicationVersionText::*)()>(&::GlobalNamespace::SetApplicationVersionText::ToggleVersionColor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x59a6b6c;
+  constexpr static std::size_t addrs = 0x59ae414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetApplicationVersionText*>(), { "ToggleVersionColor", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetApplicationVersionText::*)()>(&::GlobalNamespace::SetApplicationVersionText::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59a6c00;
+  constexpr static std::size_t addrs = 0x59ae4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetApplicationVersionText*>(), { ".ctor", {}, {} })));

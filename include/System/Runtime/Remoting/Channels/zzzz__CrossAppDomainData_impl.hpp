@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Channels/CrossAppDomainData.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Channels\CrossAppDomainData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__CrossAppDomainData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainData::*)(int32_t)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainData::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5b37478;
+  constexpr static std::size_t addrs = 0x5b3b934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Remoting::Channels::CrossAppDomainData::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainData::get_DomainID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b37504;
+  constexpr static std::size_t addrs = 0x5b3b9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::CrossAppDomainData*>(), { "get_DomainID", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Channels::CrossAppDomainData::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainData::get_ProcessID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b3750c;
+  constexpr static std::size_t addrs = 0x5b3b9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

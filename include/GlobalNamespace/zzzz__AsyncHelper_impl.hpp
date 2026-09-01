@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AsyncHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\AsyncHelper.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2::*)()>(&::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2::MoveNext)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x3307b84;
+  constexpr static std::size_t addrs = 0x330b980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2>(), { "MoveNext", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3307ee8;
+  constexpr static std::size_t addrs = 0x330bce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2>(),
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Func_1<::System::Threading::Tasks::Task*>*)>(&::GlobalNamespace::AsyncHelper::RunSync)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3307a40;
+  constexpr static std::size_t addrs = 0x330b83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>*)>(
     &::GlobalNamespace::AsyncHelper::AnyTaskTrueNonAlloc)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3307aa8;
+  constexpr static std::size_t addrs = 0x330b8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

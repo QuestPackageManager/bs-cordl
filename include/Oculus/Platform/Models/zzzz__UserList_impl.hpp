@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/UserList.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\UserList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__UserList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__User_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::UserList::*)(::System::IntPtr)>(&::Oculus::Platform::Models::UserList::_ctor)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x5dea21c;
+  constexpr static std::size_t addrs = 0x5dee6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

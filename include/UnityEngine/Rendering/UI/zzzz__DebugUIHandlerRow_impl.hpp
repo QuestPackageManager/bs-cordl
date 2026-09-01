@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerRow.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerRow.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerFoldout_impl.hpp"
 #include "UnityEngine/Rendering/UI/zzzz__DebugUIHandlerRow_def.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugUI_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerRow::OnEnable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67fe268;
+  constexpr static std::size_t addrs = 0x6805ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)(int32_t)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerRow::GetChild)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x67fe270;
+  constexpr static std::size_t addrs = 0x6805cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)(int32_t, ::by_ref<::UnityEngine::GameObject*>)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerRow::TryGetChild)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x67fe3a4;
+  constexpr static std::size_t addrs = 0x6805e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)(::UnityEngine::Rendering::DebugUI_Table*, int32_t, ::UnityEngine::GameObject*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerRow::IsActive)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x67fe428;
+  constexpr static std::size_t addrs = 0x6805ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerRow::Update)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x67fe568;
+  constexpr static std::size_t addrs = 0x6805fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerRow*>(), { "Update", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerRow::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerRow::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67fe964;
+  constexpr static std::size_t addrs = 0x68063e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerRow*>(), { ".ctor", {}, {} })));

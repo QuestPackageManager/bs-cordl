@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/ChunkedInputStream.hpp"
+// IWYU pragma private; include "System\Net\ChunkedInputStream.hpp"
 #include "System/Net/zzzz__RequestStream_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ChunkedInputStream_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ChunkedInputStream_ReadBufferState::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Net::HttpStreamAsyncResult*)>(
     &::System::Net::ChunkedInputStream_ReadBufferState::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x642157c;
+  constexpr static std::size_t addrs = 0x6428ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ChunkedInputStream::*)(::System::Net::HttpListenerContext*, ::System::IO::Stream*, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Net::ChunkedInputStream::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6421124;
+  constexpr static std::size_t addrs = 0x6428ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::ChunkedInputStream::*)(::by_ref<::ArrayW<uint8_t>>, int32_t, int32_t)>(&::System::Net::ChunkedInputStream::Read)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6421234;
+  constexpr static std::size_t addrs = 0x6428cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::ChunkedInputStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*,
                                                                                                                       ::System::Object*)>(&::System::Net::ChunkedInputStream::BeginRead)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x6421270;
+  constexpr static std::size_t addrs = 0x6428cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ChunkedInputStream::*)(::System::IAsyncResult*)>(&::System::Net::ChunkedInputStream::OnRead)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x6421590;
+  constexpr static std::size_t addrs = 0x642900c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::ChunkedInputStream::*)(::System::IAsyncResult*)>(&::System::Net::ChunkedInputStream::EndRead)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x6421b90;
+  constexpr static std::size_t addrs = 0x642960c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ChunkedInputStream::*)()>(&::System::Net::ChunkedInputStream::Close)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6421e2c;
+  constexpr static std::size_t addrs = 0x64298a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

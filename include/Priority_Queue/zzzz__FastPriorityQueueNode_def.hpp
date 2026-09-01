@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Priority_Queue/FastPriorityQueueNode.hpp"
+// IWYU pragma private; include "Priority_Queue\FastPriorityQueueNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,19 +45,19 @@ public:
 
   constexpr void __cordl_internal_set__QueueIndex_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x330b2e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330f0e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Priority, addr 0x330b2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x330f0c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Priority();
 
-  /// @brief Method get_QueueIndex, addr 0x330b2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QueueIndex, addr 0x330f0d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_QueueIndex();
 
-  /// @brief Method set_Priority, addr 0x330b2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Priority, addr 0x330f0cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Priority(float_t value);
 
-  /// @brief Method set_QueueIndex, addr 0x330b2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QueueIndex, addr 0x330f0dc, size 0x8, virtual false, abstract: false, final false
   inline void set_QueueIndex(int32_t value);
 
 protected:
@@ -75,7 +75,7 @@ public:
   FastPriorityQueueNode(FastPriorityQueueNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20487 };
 
   /// @brief Field <Priority>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____Priority_k__BackingField;

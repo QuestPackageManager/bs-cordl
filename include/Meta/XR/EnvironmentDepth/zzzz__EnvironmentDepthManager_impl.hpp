@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/EnvironmentDepth/EnvironmentDepthManager.hpp"
+// IWYU pragma private; include "Meta\XR\EnvironmentDepth\EnvironmentDepthManager.hpp"
 #include "Meta/XR/EnvironmentDepth/zzzz__DepthFrameDesc_impl.hpp"
 #include "Meta/XR/EnvironmentDepth/zzzz__OcclusionShadersMode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::*)(int32_t, int32_t, float_t)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::_ctor)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x5a39abc;
+  constexpr static std::size_t addrs = 0x5a3df78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>(),
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::R
     ::UnityEngine::RenderTexture*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*, ::UnityEngine::Matrix4x4, ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc>)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::ApplyMask)> {
   constexpr static std::size_t size = 0x928;
-  constexpr static std::size_t addrs = 0x5a39d00;
+  constexpr static std::size_t addrs = 0x5a3e1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask::Dispose)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5a390d4;
+  constexpr static std::size_t addrs = 0x5a3d590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*>(), { "Dispose", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_MaskMeshFilters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a380e8;
+  constexpr static std::size_t addrs = 0x5a3c5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_MaskMeshFilters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a380f0;
+  constexpr static std::size_t addrs = 0x5a3c5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::add_onDepthTextureUpdate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a380f8;
+  constexpr static std::size_t addrs = 0x5a3c5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::remove_onDepthTextureUpdate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a381b8;
+  constexpr static std::size_t addrs = 0x5a3c674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::EnvironmentDepth::IDepthProvider* (*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_provider)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5a38278;
+  constexpr static std::size_t addrs = 0x5a3c734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "get_provider", {}, {} })));
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::EnvironmentDepth::IDepthProvider* (*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::CreateProvider)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x5a382fc;
+  constexpr static std::size_t addrs = 0x5a3c7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "CreateProvider", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_IsSupported)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5a385ec;
+  constexpr static std::size_t addrs = 0x5a3caa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "get_IsSupported", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_IsDepthAvailable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a386b8;
+  constexpr static std::size_t addrs = 0x5a3cb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(bool)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_IsDepthAvailable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a386c0;
+  constexpr static std::size_t addrs = 0x5a3cb7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::EnvironmentDepth::OcclusionShadersMode (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_OcclusionShadersMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a386c8;
+  constexpr static std::size_t addrs = 0x5a3cb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::Meta::XR::EnvironmentDepth::OcclusionShadersMode)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_OcclusionShadersMode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5a386d0;
+  constexpr static std::size_t addrs = 0x5a3cb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_RemoveHands)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a3890c;
+  constexpr static std::size_t addrs = 0x5a3cdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "get_RemoveHands", {}, {} })));
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(bool)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_RemoveHands)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5a38914;
+  constexpr static std::size_t addrs = 0x5a3cdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::get_MaskBias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a38a44;
+  constexpr static std::size_t addrs = 0x5a3cf00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "get_MaskBias", {}, {} })));
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(float_t)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::set_MaskBias)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5a38a4c;
+  constexpr static std::size_t addrs = 0x5a3cf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::Awake)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5a38ae8;
+  constexpr static std::size_t addrs = 0x5a3cfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "Awake", {}, {} })));
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnEnable)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x5a38ba4;
+  constexpr static std::size_t addrs = 0x5a3d060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "OnEnable", {}, {} })));
@@ -386,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::ResetDepthTextureIfAvailable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5a38dc0;
+  constexpr static std::size_t addrs = 0x5a3d27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnDisable)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5a38e5c;
+  constexpr static std::size_t addrs = 0x5a3d318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "OnDisable", {}, {} })));
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnDestroy)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5a38fec;
+  constexpr static std::size_t addrs = 0x5a3d4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "OnDestroy", {}, {} })));
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::OnBeforeRender)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x5a39160;
+  constexpr static std::size_t addrs = 0x5a3d61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "OnBeforeRender", {}, {} })));
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::CacheCameraRig)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a39a1c;
+  constexpr static std::size_t addrs = 0x5a3ded8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { "CacheCameraRig", {}, {} })));
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::EnvironmentDepth::OcclusionShadersMode)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::SetOcclusionShaderKeywords)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5a3875c;
+  constexpr static std::size_t addrs = 0x5a3cc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::UnityEngine::Matrix4x4)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::TryFetchDepthTexture)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x5a395f4;
+  constexpr static std::size_t addrs = 0x5a3dab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::GetTrackingSpaceWorldToLocalMatrix)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5a394b0;
+  constexpr static std::size_t addrs = 0x5a3d96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)(::UnityEngine::RenderTexture*)>(
     &::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::PreprocessDepthTexture)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x5a3a628;
+  constexpr static std::size_t addrs = 0x5a3eae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(),
@@ -505,7 +505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LogType, ::StringW)>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::Log)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5a3a90c;
+  constexpr static std::size_t addrs = 0x5a3edc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(),
@@ -518,7 +518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::*)()>(&::Meta::XR::EnvironmentDepth::EnvironmentDepthManager::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5a3aa30;
+  constexpr static std::size_t addrs = 0x5a3eeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*>(), { ".ctor", {}, {} })));

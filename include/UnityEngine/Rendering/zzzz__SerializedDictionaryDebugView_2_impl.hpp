@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SerializedDictionaryDebugView_2.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SerializedDictionaryDebugView_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SerializedDictionaryDebugView_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"

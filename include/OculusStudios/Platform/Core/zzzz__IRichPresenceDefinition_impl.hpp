@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/Platform/Core/IRichPresenceDefinition.hpp"
+// IWYU pragma private; include "OculusStudios\Platform\Core\IRichPresenceDefinition.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IRichPresenceDefinition_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__RichPresenceRuntimeInstance_def.hpp"
 //  Writing Method size for method: ::OculusStudios::Platform::Core::IRichPresenceDefinition.get_id

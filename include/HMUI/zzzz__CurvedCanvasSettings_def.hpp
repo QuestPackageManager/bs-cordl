@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/CurvedCanvasSettings.hpp"
+// IWYU pragma private; include "HMUI\CurvedCanvasSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,19 +42,19 @@ public:
 
   static inline ::HMUI::CurvedCanvasSettings* New_ctor();
 
-  /// @brief Method OnPopulateMesh, addr 0x58791e8, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x5878b28, size 0x194, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
-  /// @brief Method RebuildAndSetup, addr 0x5879050, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RebuildAndSetup, addr 0x5878990, size 0xf8, virtual false, abstract: false, final false
   static inline void RebuildAndSetup(::UnityEngine::Transform* t);
 
-  /// @brief Method SetRadius, addr 0x5879038, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetRadius, addr 0x5878978, size 0x18, virtual false, abstract: false, final false
   inline void SetRadius(float_t value);
 
-  /// @brief Method Start, addr 0x5879148, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5878a88, size 0xa0, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TransformPointFromCanvasTo3D, addr 0x587937c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method TransformPointFromCanvasTo3D, addr 0x5878cbc, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 TransformPointFromCanvasTo3D(::UnityEngine::Vector2 point);
 
   constexpr float_t const& __cordl_internal_get__radius() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__useFlatInEditMode(bool value);
 
-  /// @brief Method .ctor, addr 0x58793bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5878cfc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_radius, addr 0x5879030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x5878970, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();
 
 protected:
@@ -90,7 +90,7 @@ public:
   CurvedCanvasSettings(CurvedCanvasSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19036 };
 
   /// @brief Field kMaxElementWidth offset 0xffffffff size 0x4
   static constexpr float_t kMaxElementWidth{ static_cast<float_t>(10.0f) };

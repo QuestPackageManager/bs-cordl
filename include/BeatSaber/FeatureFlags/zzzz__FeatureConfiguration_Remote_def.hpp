@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/FeatureFlags/FeatureConfiguration_Remote.hpp"
+// IWYU pragma private; include "BeatSaber\FeatureFlags\FeatureConfiguration_Remote.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_feature(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32879e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x328b780, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW feature, bool defaultValue);
 
 protected:
@@ -58,7 +58,7 @@ public:
   FeatureConfiguration_Remote(FeatureConfiguration_Remote const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22905 };
 
   /// @brief Field feature, offset: 0x10, size: 0x8, def value: None
   ::StringW ___feature;

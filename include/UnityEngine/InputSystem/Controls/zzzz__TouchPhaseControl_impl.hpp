@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Controls/TouchPhaseControl.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Controls\TouchPhaseControl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__TouchPhase_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__TouchPhaseControl_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)()>(&::UnityEngine::InputSystem::Controls::TouchPhaseControl::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64f5564;
+  constexpr static std::size_t addrs = 0x64fcfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::TouchPhaseControl*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::TouchPhase (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::TouchPhaseControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64f55e8;
+  constexpr static std::size_t addrs = 0x64fd064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::TouchPhaseControl*>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)(::UnityEngine::InputSystem::TouchPhase, void*)>(
     &::UnityEngine::InputSystem::Controls::TouchPhaseControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64f5668;
+  constexpr static std::size_t addrs = 0x64fd0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::TouchPhaseControl*>(),

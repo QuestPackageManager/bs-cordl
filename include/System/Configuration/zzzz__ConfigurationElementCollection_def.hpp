@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Configuration/ConfigurationElementCollection.hpp"
+// IWYU pragma private; include "System\Configuration\ConfigurationElementCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +34,7 @@ public:
   ConfigurationElementCollection(ConfigurationElementCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23775 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IVRPlatformHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\IVRPlatformHelper.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"

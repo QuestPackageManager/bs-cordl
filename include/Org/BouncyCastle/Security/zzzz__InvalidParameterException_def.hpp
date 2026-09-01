@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/InvalidParameterException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\InvalidParameterException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::InvalidParameterException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x35fc060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ffe20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35fc068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ffe28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x35fc070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ffe30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

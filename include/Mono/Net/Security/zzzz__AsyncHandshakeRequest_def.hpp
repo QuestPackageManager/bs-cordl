@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Net/Security/AsyncHandshakeRequest.hpp"
+// IWYU pragma private; include "Mono\Net\Security\AsyncHandshakeRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::Mono::Net::Security::AsyncHandshakeRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method Run, addr 0x5fd0630, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fd80ac, size 0x18, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method .ctor, addr 0x5fd062c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd80a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
 protected:
@@ -48,7 +48,7 @@ public:
   AsyncHandshakeRequest(AsyncHandshakeRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11014 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

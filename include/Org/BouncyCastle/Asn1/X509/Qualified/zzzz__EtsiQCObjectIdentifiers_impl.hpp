@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/Qualified/EtsiQCObjectIdentifiers.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\Qualified\EtsiQCObjectIdentifiers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/Qualified/zzzz__EtsiQCObjectIdentifiers_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Qualified::EtsiQCObjectIdentifiers::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::EtsiQCObjectIdentifiers::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3554430;
+  constexpr static std::size_t addrs = 0x35581f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

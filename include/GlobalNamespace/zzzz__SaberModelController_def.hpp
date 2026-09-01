@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SaberModelController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SaberModelController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,10 +60,10 @@ public:
   /// @brief Field _setSaberGlowColors, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__setSaberGlowColors, put = __cordl_internal_set__setSaberGlowColors)) ::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>> _setSaberGlowColors;
 
-  /// @brief Method Init, addr 0x59e8690, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59f0764, size 0x238, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber, ::UnityEngine::Color trailTintColor, ::StringW modelName);
 
-  /// @brief Method InitColor, addr 0x59e88e4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method InitColor, addr 0x59f09b8, size 0x164, virtual false, abstract: false, final false
   inline void InitColor(::GlobalNamespace::SaberType saberType);
 
   static inline ::GlobalNamespace::SaberModelController* New_ctor();
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__setSaberGlowColors(::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>> value);
 
-  /// @brief Method .ctor, addr 0x59e8a60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f0b34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   SaberModelController(SaberModelController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6234 };
 
   /// @brief Field _saberTrail, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTrail> ____saberTrail;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Configuration/ServicePointManagerElement.hpp"
+// IWYU pragma private; include "System\Net\Configuration\ServicePointManagerElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Net::Configuration::ServicePointManagerElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x636a508, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6371f84, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x636a544, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x6371fc0, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -47,7 +47,7 @@ public:
   ServicePointManagerElement(ServicePointManagerElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

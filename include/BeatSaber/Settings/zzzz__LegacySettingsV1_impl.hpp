@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/LegacySettingsV1.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\LegacySettingsV1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Settings/zzzz__LegacySettingsV1_def.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV1::*)(::by_ref<::BeatSaber::Settings::Settings>)>(
     &::BeatSaber::Settings::LegacySettingsV1::ApplyTo)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x32c2254;
+  constexpr static std::size_t addrs = 0x32c6050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV1::*)()>(&::BeatSaber::Settings::LegacySettingsV1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c23a0;
+  constexpr static std::size_t addrs = 0x32c619c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV1*>(), { ".ctor", {}, {} })));

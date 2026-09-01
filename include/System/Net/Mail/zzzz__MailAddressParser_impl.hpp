@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Mail/MailAddressParser.hpp"
+// IWYU pragma private; include "System\Net\Mail\MailAddressParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Mail/zzzz__MailAddressParser_def.hpp"
 #include "System/Net/Mail/zzzz__MailAddress_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Mail::MailAddress* (*)(::StringW)>(&::System::Net::Mail::MailAddressParser::ParseAddress)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6366f04;
+  constexpr static std::size_t addrs = 0x636e980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Mail::MailAddress* (*)(::StringW, bool, ::by_ref<int32_t>)>(&::System::Net::Mail::MailAddressParser::ParseAddress)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x6366f30;
+  constexpr static std::size_t addrs = 0x636e9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::Mail::MailAddressParser::ReadCfwsAndThrowIfIncomplete)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6367298;
+  constexpr static std::size_t addrs = 0x636ed14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mail::MailAddressParser*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::by_ref<int32_t>)>(&::System::Net::Mail::MailAddressParser::ParseDomain)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x63672f4;
+  constexpr static std::size_t addrs = 0x636ed70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::by_ref<int32_t>, bool, bool)>(&::System::Net::Mail::MailAddressParser::ParseLocalPart)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x63673f0;
+  constexpr static std::size_t addrs = 0x636ee6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::by_ref<int32_t>, bool)>(&::System::Net::Mail::MailAddressParser::ParseDisplayName)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x63676b0;
+  constexpr static std::size_t addrs = 0x636f12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Net::Mail::MailAddressParser::NormalizeOrThrow)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6367bd8;
+  constexpr static std::size_t addrs = 0x636f654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

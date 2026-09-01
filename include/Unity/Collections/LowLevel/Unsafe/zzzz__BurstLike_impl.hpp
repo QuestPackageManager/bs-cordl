@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/BurstLike.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\BurstLike.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstLike_def.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstLike_def.hpp"
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(int64_t, int64_t, uint32_t, uint32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic::GetOrCreateSharedStaticInternal)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6a582c0;
+  constexpr static std::size_t addrs = 0x6a5fd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

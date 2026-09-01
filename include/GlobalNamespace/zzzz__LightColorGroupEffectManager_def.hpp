@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightColorGroupEffectManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightColorGroupEffectManager.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,15 +65,15 @@ public:
 
   __declspec(property(get = get_lightGroups)) ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* lightGroups;
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x5990a74, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x5999d98, size 0x128, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
   static inline ::GlobalNamespace::LightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x599095c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5999c80, size 0x118, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59906c4, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59999e8, size 0x298, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -106,10 +106,10 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroup>> value);
 
-  /// @brief Method .ctor, addr 0x5990b94, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5999ec0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightGroups, addr 0x59906bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x59999e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* get_lightGroups();
 
 protected:
@@ -127,7 +127,7 @@ public:
   LightColorGroupEffectManager(LightColorGroupEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5894 };
 
   /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>> ____lightGroups;

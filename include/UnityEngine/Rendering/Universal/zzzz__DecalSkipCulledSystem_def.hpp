@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DecalSkipCulledSystem.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DecalSkipCulledSystem.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,13 +41,13 @@ public:
   /// @brief Field m_Sampler, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Sampler, put = __cordl_internal_set_m_Sampler)) ::UnityEngine::Rendering::ProfilingSampler* m_Sampler;
 
-  /// @brief Method Execute, addr 0x6857058, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x685ead4, size 0x124, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Camera* camera);
 
-  /// @brief Method Execute, addr 0x685717c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x685ebf8, size 0xd4, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::Universal::DecalCulledChunk* culledChunk, int32_t count);
 
-  /// @brief Method GetSceneCullingMaskFromCamera, addr 0x6857250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSceneCullingMaskFromCamera, addr 0x685eccc, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t GetSceneCullingMaskFromCamera(::UnityEngine::Camera* camera);
 
   static inline ::UnityEngine::Rendering::Universal::DecalSkipCulledSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Sampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x6856fd0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685ea4c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
 protected:
@@ -88,7 +88,7 @@ public:
   DecalSkipCulledSystem(DecalSkipCulledSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12702 };
 
   /// @brief Field m_EntityManager, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalEntityManager* ___m_EntityManager;

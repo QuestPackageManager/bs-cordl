@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1InputStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1InputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,25 +47,25 @@ public:
   /// @brief Field tmpBuffers, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_tmpBuffers, put = __cordl_internal_set_tmpBuffers)) ::ArrayW<::ArrayW<uint8_t>> tmpBuffers;
 
-  /// @brief Method BuildObject, addr 0x367dd78, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method BuildObject, addr 0x3681b38, size 0x480, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* BuildObject(int32_t tag, int32_t tagNo, int32_t length);
 
-  /// @brief Method CreateDerSequence, addr 0x367f738, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CreateDerSequence, addr 0x36834f8, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSequence* CreateDerSequence(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
-  /// @brief Method CreateDerSet, addr 0x367f84c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CreateDerSet, addr 0x368360c, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSet* CreateDerSet(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
-  /// @brief Method CreatePrimitiveDerObject, addr 0x367ec44, size 0x5f4, virtual false, abstract: false, final false
+  /// @brief Method CreatePrimitiveDerObject, addr 0x3682a04, size 0x5f4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* CreatePrimitiveDerObject(int32_t tagNo, ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn, ::ArrayW<::ArrayW<uint8_t>> tmpBuffers);
 
-  /// @brief Method FindLimit, addr 0x367db14, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method FindLimit, addr 0x36818d4, size 0x140, virtual false, abstract: false, final false
   static inline int32_t FindLimit(::System::IO::Stream* input);
 
-  /// @brief Method GetBmpCharBuffer, addr 0x368068c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method GetBmpCharBuffer, addr 0x368444c, size 0x338, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t> GetBmpCharBuffer(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn);
 
-  /// @brief Method GetBuffer, addr 0x3680278, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0x3684038, size 0xc8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetBuffer(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn, ::ArrayW<::ArrayW<uint8_t>> tmpBuffers);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1InputStream* New_ctor(::ArrayW<uint8_t> input);
@@ -74,16 +74,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1InputStream* New_ctor(::System::IO::Stream* inputStream, int32_t limit);
 
-  /// @brief Method ReadLength, addr 0x367fa9c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method ReadLength, addr 0x368385c, size 0x2b0, virtual false, abstract: false, final false
   static inline int32_t ReadLength(::System::IO::Stream* s, int32_t limit, bool isParsing);
 
-  /// @brief Method ReadObject, addr 0x367f330, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x36830f0, size 0x408, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ReadObject();
 
-  /// @brief Method ReadTagNumber, addr 0x367f97c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ReadTagNumber, addr 0x368373c, size 0x120, virtual false, abstract: false, final false
   static inline int32_t ReadTagNumber(::System::IO::Stream* s, int32_t tag);
 
-  /// @brief Method ReadVector, addr 0x367f238, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ReadVector, addr 0x3682ff8, size 0xf8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
   constexpr int32_t const& __cordl_internal_get_limit() const;
@@ -98,16 +98,16 @@ public:
 
   constexpr void __cordl_internal_set_tmpBuffers(::ArrayW<::ArrayW<uint8_t>> value);
 
-  /// @brief Method .ctor, addr 0x367dcf8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3681ab8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> input);
 
-  /// @brief Method .ctor, addr 0x367dc54, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3681a14, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor, addr 0x367dc84, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3681a44, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream, int32_t limit);
 
-  /// @brief Method get_Limit, addr 0x3680270, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Limit, addr 0x3684030, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Limit();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IPerFrameHistoryAccessTracker.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IPerFrameHistoryAccessTracker.hpp"
 #include "UnityEngine/Rendering/zzzz__IPerFrameHistoryAccessTracker_def.hpp"
 template <typename Type> inline void UnityEngine::Rendering::IPerFrameHistoryAccessTracker::RequestAccess() {
   auto* ___internal_method_base =

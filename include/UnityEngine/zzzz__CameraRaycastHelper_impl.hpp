@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/CameraRaycastHelper.hpp"
+// IWYU pragma private; include "UnityEngine\CameraRaycastHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CameraRaycastHelper_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Camera*, ::UnityEngine::Ray, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6b59664;
+  constexpr static std::size_t addrs = 0x6b611e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Camera*, ::UnityEngine::Ray, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry2D)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6b59838;
+  constexpr static std::size_t addrs = 0x6b613bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Ray>, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry_Injected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6b597d4;
+  constexpr static std::size_t addrs = 0x6b61358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Ray>, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6b599a8;
+  constexpr static std::size_t addrs = 0x6b6152c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

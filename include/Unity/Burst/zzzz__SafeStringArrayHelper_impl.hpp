@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Burst/SafeStringArrayHelper.hpp"
+// IWYU pragma private; include "Unity\Burst\SafeStringArrayHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/zzzz__SafeStringArrayHelper_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::SafeStringArrayHelper.SerialiseStringArraySafe
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<::StringW>)>(&::Unity::Burst::SafeStringArrayHelper::SerialiseStringArraySafe)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x646a118;
+  constexpr static std::size_t addrs = 0x6471b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW)>(&::Unity::Burst::SafeStringArrayHelper::DeserialiseStringArraySafe)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x646a32c;
+  constexpr static std::size_t addrs = 0x6471da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/InternetConnectionChecker.hpp"
+// IWYU pragma private; include "GlobalNamespace\InternetConnectionChecker.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,10 +43,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a2555c, size 0x2dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a299c4, size 0x2dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a25838, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a29ca0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -63,7 +63,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22846 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -98,12 +98,12 @@ public:
   // Declarations
   using _IsConnectedToInternetAsync_d__0 = ::GlobalNamespace::InternetConnectionChecker__IsConnectedToInternetAsync_d__0;
 
-  /// @brief Method IsConnectedToInternetAsync, addr 0x5a25480, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsConnectedToInternetAsync, addr 0x5a298e8, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::InternetConnectionChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5a25558, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a299c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,7 +121,7 @@ public:
   InternetConnectionChecker(InternetConnectionChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

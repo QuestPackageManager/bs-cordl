@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/WhiteColorOrAlphaGroupEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\WhiteColorOrAlphaGroupEffect.hpp"
 #include "GlobalNamespace/zzzz__LightColorGroupEffect_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__WhiteColorOrAlphaGroupEffect_def.hpp"
@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::LightColorGroupEffect_InitData*, ::UnityEngine::Color, ::GlobalNamespace::LightWithIdManager*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::ColorManager*,
     ::GlobalNamespace::BeatmapCallbacksController*, ::GlobalNamespace::IBpmController*)>(&::GlobalNamespace::WhiteColorOrAlphaGroupEffect::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5990c10;
+  constexpr static std::size_t addrs = 0x5999f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::WhiteColorOrAlphaGroupEffect::*)(::GlobalNamespace::EnvironmentColorType, bool, float_t)>(
     &::GlobalNamespace::WhiteColorOrAlphaGroupEffect::GetColor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5990c4c;
+  constexpr static std::size_t addrs = 0x5999f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

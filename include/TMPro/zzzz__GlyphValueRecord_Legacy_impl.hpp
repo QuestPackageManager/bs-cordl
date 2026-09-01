@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/GlyphValueRecord_Legacy.hpp"
+// IWYU pragma private; include "TMPro\GlyphValueRecord_Legacy.hpp"
 #include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::GlyphValueRecord_Legacy._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::GlyphValueRecord_Legacy::*)(::UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&::TMPro::GlyphValueRecord_Legacy::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x695508c;
+  constexpr static std::size_t addrs = 0x695cb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::GlyphValueRecord_Legacy (*)(::TMPro::GlyphValueRecord_Legacy, ::TMPro::GlyphValueRecord_Legacy)>(
     &::TMPro::GlyphValueRecord_Legacy::op_Addition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6955098;
+  constexpr static std::size_t addrs = 0x695cb14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

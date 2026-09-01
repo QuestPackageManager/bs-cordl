@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/Layers/PacketLayerBase.hpp"
+// IWYU pragma private; include "LiteNetLib\Layers\PacketLayerBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Layers/zzzz__PacketLayerBase_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Layers::PacketLayerBase::*)(int32_t)>(&::LiteNetLib::Layers::PacketLayerBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ae29c;
+  constexpr static std::size_t addrs = 0x58adc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Layers::PacketLayerBase*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));

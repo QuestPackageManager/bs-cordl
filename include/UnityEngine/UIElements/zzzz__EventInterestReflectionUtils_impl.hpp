@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EventInterestReflectionUtils.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EventInterestReflectionUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventInterestReflectionUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::GetDefaultEventInterests)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6cc2b30;
+  constexpr static std::size_t addrs = 0x6cca6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Type*, ::StringW)>(&::UnityEngine::UIElements::EventInterestReflectionUtils::ComputeDefaultEventInterests)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6cc2e54;
+  constexpr static std::size_t addrs = 0x6cca9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventCategory (*)(::System::Type*)>(&::UnityEngine::UIElements::EventInterestReflectionUtils::GetEventCategory)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6cc304c;
+  constexpr static std::size_t addrs = 0x6ccabd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

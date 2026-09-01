@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryArray.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\BinaryArray.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,14 +76,14 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method Read, addr 0x5b551f4, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5b596b0, size 0x3cc, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x5b54ed0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5b5938c, size 0x40, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, int32_t rank, ::ArrayW<int32_t> lengthA, ::ArrayW<int32_t> lowerBoundA, ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum,
                   ::System::Object* typeInformation, ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int32_t assemId);
 
-  /// @brief Method Write, addr 0x5b54f10, size 0x2e4, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x5b593cc, size 0x2e4, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_assemId() const;
@@ -140,10 +140,10 @@ public:
 
   constexpr void __cordl_internal_set_typeInformation(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5b54ec4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b59380, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b54ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b59384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
 protected:

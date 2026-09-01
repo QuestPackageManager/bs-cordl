@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/NetSyncSessionsChangedNotification.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\NetSyncSessionsChangedNotification.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_Sessions(::Oculus::Platform::Models::NetSyncSessionList* value);
 
-  /// @brief Method .ctor, addr 0x5deccdc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5df1198, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -64,7 +64,7 @@ public:
   NetSyncSessionsChangedNotification(NetSyncSessionsChangedNotification const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18071 };
 
   /// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionId;

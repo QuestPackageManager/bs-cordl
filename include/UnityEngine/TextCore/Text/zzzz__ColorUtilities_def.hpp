@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/ColorUtilities.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\ColorUtilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,10 +22,10 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE ColorUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CompareColors, addr 0x6bbec08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CompareColors, addr 0x6bc678c, size 0x10, virtual false, abstract: false, final false
   static inline bool CompareColors(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
 
-  /// @brief Method MultiplyColors, addr 0x6bbec18, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method MultiplyColors, addr 0x6bc679c, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 MultiplyColors(::UnityEngine::Color32 c1, ::UnityEngine::Color32 c2);
 
 protected:
@@ -43,7 +43,7 @@ public:
   ColorUtilities(ColorUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17203 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

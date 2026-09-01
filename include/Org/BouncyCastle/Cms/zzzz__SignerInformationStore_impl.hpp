@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/SignerInformationStore.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\SignerInformationStore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__SignerInformationStore_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__SignerID_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::SignerInformationStore::*)(::Org::BouncyCastle::Cms::SignerInformation*)>(
     &::Org::BouncyCastle::Cms::SignerInformationStore::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x36d3318;
+  constexpr static std::size_t addrs = 0x36d70d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::SignerInformationStore::*)(::System::Collections::ICollection*)>(
     &::Org::BouncyCastle::Cms::SignerInformationStore::_ctor)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x36d34a4;
+  constexpr static std::size_t addrs = 0x36d7264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cms::SignerInformation* (::Org::BouncyCastle::Cms::SignerInformationStore::*)(::Org::BouncyCastle::Cms::SignerID*)>(
     &::Org::BouncyCastle::Cms::SignerInformationStore::GetFirstSigner)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x36d3a14;
+  constexpr static std::size_t addrs = 0x36d77d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Cms::SignerInformationStore::*)()>(&::Org::BouncyCastle::Cms::SignerInformationStore::get_Count)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x36d3bb0;
+  constexpr static std::size_t addrs = 0x36d7970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::SignerInformationStore*>(), { "get_Count", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Cms::SignerInformationStore::*)()>(
     &::Org::BouncyCastle::Cms::SignerInformationStore::GetSigners)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x36d3c58;
+  constexpr static std::size_t addrs = 0x36d7a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::SignerInformationStore*>(), { "GetSigners", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Cms::SignerInformationStore::*)(::Org::BouncyCastle::Cms::SignerID*)>(
     &::Org::BouncyCastle::Cms::SignerInformationStore::GetSigners)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x36d3cb8;
+  constexpr static std::size_t addrs = 0x36d7a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

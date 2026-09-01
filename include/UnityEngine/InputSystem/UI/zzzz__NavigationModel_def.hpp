@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/UI/NavigationModel.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\UI\NavigationModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ namespace UnityEngine::InputSystem::UI {
 struct CORDL_TYPE NavigationModel {
 public:
   // Declarations
-  /// @brief Method Reset, addr 0x658f9ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6597468, size 0x54, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
                             ::UnityEngine::EventSystems::AxisEventData* eventData, ::UnityEngine::InputSystem::InputDevice* device) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8868 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

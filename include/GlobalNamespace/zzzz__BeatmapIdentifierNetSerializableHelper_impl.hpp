@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapIdentifierNetSerializableHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapIdentifierNetSerializableHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapIdentifierNetSerializableHelper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKeyNetSerializable_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (*)(::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::BeatmapIdentifierNetSerializableHelper::ToBeatmapKey)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x371af54;
+  constexpr static std::size_t addrs = 0x3720dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapIdentifierNetSerializableHelper*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKeyNetSerializable* (*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::BeatmapIdentifierNetSerializableHelper::ToIdentifier)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x371b01c;
+  constexpr static std::size_t addrs = 0x3720ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

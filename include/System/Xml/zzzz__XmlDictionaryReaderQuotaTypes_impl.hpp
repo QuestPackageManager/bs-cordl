@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlDictionaryReaderQuotaTypes.hpp"
+// IWYU pragma private; include "System\Xml\XmlDictionaryReaderQuotaTypes.hpp"
 #include "System/Xml/zzzz__XmlDictionaryReaderQuotaTypes_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::XmlDictionaryReaderQuotaTypes::XmlDictionaryReaderQuotaTypes(int32_t value__) noexcept {

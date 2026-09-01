@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ScreenModeSO.hpp"
+// IWYU pragma private; include "HMUI\ScreenModeSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HMUI/zzzz__ScreenModeSO_def.hpp"
 #include "HMUI/zzzz__ScreenModeData_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::ScreenModeData* (::HMUI::ScreenModeSO::*)()>(&::HMUI::ScreenModeSO::get_data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f24a8;
+  constexpr static std::size_t addrs = 0x32f62a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenModeSO*>(), { "get_data", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ScreenModeSO::*)()>(&::HMUI::ScreenModeSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f24b0;
+  constexpr static std::size_t addrs = 0x32f62ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ScreenModeSO*>(), { ".ctor", {}, {} })));

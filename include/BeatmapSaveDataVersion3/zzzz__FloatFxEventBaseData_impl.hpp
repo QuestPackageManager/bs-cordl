@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/FloatFxEventBaseData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\FloatFxEventBaseData.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__FloatFxEventBaseData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::FloatFxEventBaseData::*)()>(&::BeatmapSaveDataVersion3::FloatFxEventBaseData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759548;
+  constexpr static std::size_t addrs = 0x375f1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>(), { "get_beat", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapSaveDataVersion3::FloatFxEventBaseData::*)()>(&::BeatmapSaveDataVersion3::FloatFxEventBaseData::get_usePreviousEventValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3759550;
+  constexpr static std::size_t addrs = 0x375f1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::FloatFxEventBaseData::*)()>(&::BeatmapSaveDataVersion3::FloatFxEventBaseData::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759560;
+  constexpr static std::size_t addrs = 0x375f1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>(), { "get_value", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::FloatFxEventBaseData::*)()>(
     &::BeatmapSaveDataVersion3::FloatFxEventBaseData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759568;
+  constexpr static std::size_t addrs = 0x375f1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>(), { "get_easeType", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::FloatFxEventBaseData::*)(float_t, bool, float_t, ::BeatmapSaveDataCommon::EaseType)>(
     &::BeatmapSaveDataVersion3::FloatFxEventBaseData::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3759570;
+  constexpr static std::size_t addrs = 0x375f1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

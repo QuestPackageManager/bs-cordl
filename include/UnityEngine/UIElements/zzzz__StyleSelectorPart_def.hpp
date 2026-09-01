@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSelectorPart.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSelectorPart.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,25 +31,25 @@ public:
 
   __declspec(property(get = get_value)) ::StringW value;
 
-  /// @brief Method CreateClass, addr 0x6c9419c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateClass, addr 0x6c9bd20, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateClass(::StringW className);
 
-  /// @brief Method CreateId, addr 0x6c941b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateId, addr 0x6c9bd38, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateId(::StringW Id);
 
-  /// @brief Method CreatePredicate, addr 0x6c941cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreatePredicate, addr 0x6c9bd50, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreatePredicate(::System::Object* predicate);
 
-  /// @brief Method ToString, addr 0x6c9407c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c9bc00, size 0x118, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_type, addr 0x6c93624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6c9b1a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorType get_type();
 
-  /// @brief Method get_value, addr 0x6c9362c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6c9b1b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_value();
 
-  /// @brief Method set_type, addr 0x6c94194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x6c9bd18, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSelectorType value);
 
   // Ctor Parameters []

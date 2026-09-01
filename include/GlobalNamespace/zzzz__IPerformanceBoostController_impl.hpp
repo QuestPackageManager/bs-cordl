@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IPerformanceBoostController.hpp"
+// IWYU pragma private; include "GlobalNamespace\IPerformanceBoostController.hpp"
 #include "GlobalNamespace/zzzz__IPerformanceBoostController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IPerformanceBoostController.AskForBoost
 template <>

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatSaberDisconnectedPlayer.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatSaberDisconnectedPlayer.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedPlayer_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerActiveHand_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_impl.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberDisconnectedPlayer::*)(::StringW, ::StringW, int32_t)>(
     &::GlobalNamespace::BeatSaberDisconnectedPlayer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32a4388;
+  constexpr static std::size_t addrs = 0x32a8184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberDisconnectedPlayer*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (::GlobalNamespace::BeatSaberDisconnectedPlayer::*)()>(
     &::GlobalNamespace::BeatSaberDisconnectedPlayer::get_multiplayerAvatarsData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32a4394;
+  constexpr static std::size_t addrs = 0x32a8190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerActiveHand (::GlobalNamespace::BeatSaberDisconnectedPlayer::*)()>(
     &::GlobalNamespace::BeatSaberDisconnectedPlayer::get_activeHand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a43a8;
+  constexpr static std::size_t addrs = 0x32a81a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberDisconnectedPlayer*>(), { "get_activeHand", {}, {} })));

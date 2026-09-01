@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/ReflectedMemberProperty_2.hpp"
+// IWYU pragma private; include "Unity\Properties\ReflectedMemberProperty_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +87,7 @@ public:
   ReflectedMemberProperty_2_GetStructValueAction(ReflectedMemberProperty_2_GetStructValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,7 +125,7 @@ public:
   ReflectedMemberProperty_2_SetStructValueAction(ReflectedMemberProperty_2_SetStructValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -163,7 +163,7 @@ public:
   ReflectedMemberProperty_2_GetClassValueAction(ReflectedMemberProperty_2_GetClassValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -201,7 +201,7 @@ public:
   ReflectedMemberProperty_2_SetClassValueAction(ReflectedMemberProperty_2_SetClassValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -336,7 +336,7 @@ public:
   ReflectedMemberProperty_2(ReflectedMemberProperty_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19637 };
 
   /// @brief Field m_Info, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::IMemberInfo* ___m_Info;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/ActivationPlayableAsset.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\ActivationPlayableAsset.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationPlayableAsset_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::ClipCaps (::UnityEngine::Timeline::ActivationPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ActivationPlayableAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a4a08;
+  constexpr static std::size_t addrs = 0x69ac484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::ActivationPlayableAsset*>(), { "get_clipCaps", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::ActivationPlayableAsset::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::ActivationPlayableAsset::CreatePlayable)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69a4a10;
+  constexpr static std::size_t addrs = 0x69ac48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ActivationPlayableAsset::*)()>(&::UnityEngine::Timeline::ActivationPlayableAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a4a80;
+  constexpr static std::size_t addrs = 0x69ac4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::ActivationPlayableAsset*>(), { ".ctor", {}, {} })));

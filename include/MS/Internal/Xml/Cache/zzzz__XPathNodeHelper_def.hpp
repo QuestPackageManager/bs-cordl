@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNodeHelper.hpp"
+// IWYU pragma private; include "MS\Internal\Xml\Cache\XPathNodeHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,22 +24,22 @@ namespace MS::Internal::Xml::Cache {
 class CORDL_TYPE XPathNodeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInScopeNamespaces, addr 0x6273440, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetInScopeNamespaces, addr 0x627aebc, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t GetInScopeNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageElem, int32_t idxElem, ::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
 
-  /// @brief Method GetLocalNamespaces, addr 0x62733d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetLocalNamespaces, addr 0x627ae4c, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetLocalNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageElem, int32_t idxElem, ::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNmsp);
 
-  /// @brief Method GetLocation, addr 0x6273b0c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetLocation, addr 0x627b588, size 0x38, virtual false, abstract: false, final false
   static inline int32_t GetLocation(::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageNode, int32_t idxNode);
 
-  /// @brief Method GetNonDescendant, addr 0x6272ef0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetNonDescendant, addr 0x627a96c, size 0x7c, virtual false, abstract: false, final false
   static inline bool GetNonDescendant(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode, ::by_ref<int32_t> idxNode);
 
-  /// @brief Method GetParent, addr 0x627371c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetParent, addr 0x627b198, size 0x5c, virtual false, abstract: false, final false
   static inline bool GetParent(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageNode, ::by_ref<int32_t> idxNode);
 
-  /// @brief Method GetTextFollowing, addr 0x6272f6c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetTextFollowing, addr 0x627a9e8, size 0x168, virtual false, abstract: false, final false
   static inline bool GetTextFollowing(::by_ref<::ArrayW<::MS::Internal::Xml::Cache::XPathNode>> pageCurrent, ::by_ref<int32_t> idxCurrent, ::ArrayW<::MS::Internal::Xml::Cache::XPathNode> pageEnd,
                                       int32_t idxEnd);
 
@@ -58,7 +58,7 @@ public:
   XPathNodeHelper(XPathNodeHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9882 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

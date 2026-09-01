@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/OverlayCanvasPanel.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\OverlayCanvasPanel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvasPanel* New_ctor();
 
-  /// @brief Method Setup, addr 0x5a585bc, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a5ca78, size 0xa4, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvas> const& __cordl_internal_get__overlayCanvas() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__overlayCanvas(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvas> value);
 
-  /// @brief Method .ctor, addr 0x5a587bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5cc78, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   OverlayCanvasPanel(OverlayCanvasPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18402 };
 
   /// @brief Field _overlayCanvas, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::OverlayCanvas> ____overlayCanvas;

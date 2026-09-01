@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MeshGenerationNode.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MeshGenerationNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +26,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE MeshGenerationNode {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6dcdea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6dd5a2c, size 0x8, virtual false, abstract: false, final false
   static inline void Create(::System::Runtime::InteropServices::GCHandle handle, ::by_ref<::UnityEngine::UIElements::MeshGenerationNode> node);
 
-  /// @brief Method GetParentEntry, addr 0x6dcdeb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetParentEntry, addr 0x6dd5a34, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* GetParentEntry();
 
   // Ctor Parameters []

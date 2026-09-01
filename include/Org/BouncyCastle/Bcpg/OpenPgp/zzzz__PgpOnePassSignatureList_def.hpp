@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpOnePassSignatureList.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpOnePassSignatureList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +36,7 @@ public:
   /// @brief Field sigs, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_sigs, put = __cordl_internal_set_sigs)) ::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*> sigs;
 
-  /// @brief Method Get, addr 0x3584258, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3588018, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* Get(int32_t index);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* sig);
@@ -49,22 +49,22 @@ public:
 
   constexpr void __cordl_internal_set_sigs(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*> value);
 
-  /// @brief Method .ctor, addr 0x3584188, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3587f48, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* sig);
 
-  /// @brief Method .ctor, addr 0x358339c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358715c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*> sigs);
 
-  /// @brief Method get_Count, addr 0x3584274, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3588034, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x358428c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x358804c, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Item, addr 0x3584228, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3587fe8, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* get_Item(int32_t index);
 
-  /// @brief Method get_Size, addr 0x358425c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x358801c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

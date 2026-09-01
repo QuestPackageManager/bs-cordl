@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/WhereObservable_1.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\WhereObservable_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,7 +98,7 @@ public:
   WhereObservable_1_Where(WhereObservable_1_Where const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9188 };
 
   /// @brief Field m_Observable, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* ___m_Observable;
@@ -168,7 +168,7 @@ public:
   WhereObservable_1(WhereObservable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9189 };
 
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<TValue>* ___m_Source;

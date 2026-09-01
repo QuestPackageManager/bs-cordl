@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LookDev/StageRuntimeInterface.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LookDev\StageRuntimeInterface.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/LookDev/zzzz__StageRuntimeInterface_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::System::Func_2<bool, ::UnityW<::UnityEngine::GameObject>>*, ::System::Func_1<::UnityW<::UnityEngine::Camera>>*, ::System::Func_1<::UnityW<::UnityEngine::Light>>*)>(
     &::UnityEngine::Rendering::LookDev::StageRuntimeInterface::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67f6738;
+  constexpr static std::size_t addrs = 0x67fe1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Rendering::LookDev::StageRuntimeInterface::*)(bool)>(
     &::UnityEngine::Rendering::LookDev::StageRuntimeInterface::AddGameObject)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67f6744;
+  constexpr static std::size_t addrs = 0x67fe1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::Rendering::LookDev::StageRuntimeInterface::*)()>(
     &::UnityEngine::Rendering::LookDev::StageRuntimeInterface::get_camera)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67f6768;
+  constexpr static std::size_t addrs = 0x67fe1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LookDev::StageRuntimeInterface*>(), { "get_camera", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Light> (::UnityEngine::Rendering::LookDev::StageRuntimeInterface::*)()>(
     &::UnityEngine::Rendering::LookDev::StageRuntimeInterface::get_sunLight)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x67f6788;
+  constexpr static std::size_t addrs = 0x67fe204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LookDev::StageRuntimeInterface*>(), { "get_sunLight", {}, {} })));

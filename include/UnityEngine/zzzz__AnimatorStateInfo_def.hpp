@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AnimatorStateInfo.hpp"
+// IWYU pragma private; include "UnityEngine\AnimatorStateInfo.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_normalizedTime)) float_t normalizedTime;
 
-  /// @brief Method get_normalizedTime, addr 0x6a33aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedTime, addr 0x6a3b524, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedTime();
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
                               int32_t m_Loop) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20223 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

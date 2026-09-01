@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioSettingsDspTimeProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioSettingsDspTimeProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioSettingsDspTimeProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IDspTimeProvider_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::GlobalNamespace::AudioSettingsDspTimeProvider::*)()>(&::GlobalNamespace::AudioSettingsDspTimeProvider::get_dspTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58b83fc;
+  constexpr static std::size_t addrs = 0x58b7d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioSettingsDspTimeProvider*>(), { "get_dspTime", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioSettingsDspTimeProvider::*)()>(&::GlobalNamespace::AudioSettingsDspTimeProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b8424;
+  constexpr static std::size_t addrs = 0x58b7d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioSettingsDspTimeProvider*>(), { ".ctor", {}, {} })));

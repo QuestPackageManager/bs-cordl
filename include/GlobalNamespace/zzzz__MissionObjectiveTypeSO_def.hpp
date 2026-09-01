@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionObjectiveTypeSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionObjectiveTypeSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,19 +61,19 @@ public:
 
   constexpr void __cordl_internal_set__objectiveValueFormater(::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> value);
 
-  /// @brief Method .ctor, addr 0x3750d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x375693c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_noConditionValue, addr 0x3750d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noConditionValue, addr 0x375692c, size 0x8, virtual false, abstract: false, final false
   inline bool get_noConditionValue();
 
-  /// @brief Method get_objectiveName, addr 0x3750cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveName, addr 0x3756918, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_objectiveName();
 
-  /// @brief Method get_objectiveNameLocalized, addr 0x3750cfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveNameLocalized, addr 0x3756920, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_objectiveNameLocalized();
 
-  /// @brief Method get_objectiveValueFormater, addr 0x3750d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectiveValueFormater, addr 0x3756934, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> get_objectiveValueFormater();
 
 protected:
@@ -91,7 +91,7 @@ public:
   MissionObjectiveTypeSO(MissionObjectiveTypeSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15269 };
 
   /// @brief Field _objectiveName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____objectiveName;

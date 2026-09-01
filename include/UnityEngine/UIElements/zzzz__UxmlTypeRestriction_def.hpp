@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlTypeRestriction.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlTypeRestriction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x6cb9868, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6cc13ec, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlTypeRestriction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cb9874, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc13f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"

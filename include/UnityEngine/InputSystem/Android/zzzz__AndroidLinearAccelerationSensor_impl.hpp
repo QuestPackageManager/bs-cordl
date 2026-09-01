@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidLinearAccelerationSensor.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidLinearAccelerationSensor.hpp"
 #include "UnityEngine/InputSystem/zzzz__LinearAccelerationSensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidLinearAccelerationSensor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidLinearAccelerationSensor._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidLinearAccelerationSensor::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidLinearAccelerationSensor::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a4154;
+  constexpr static std::size_t addrs = 0x65abbd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

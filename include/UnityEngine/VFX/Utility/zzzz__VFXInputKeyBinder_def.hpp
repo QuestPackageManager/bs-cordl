@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXInputKeyBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXInputKeyBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,18 +50,18 @@ public:
   /// @brief Field m_KeySmoothProperty, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_KeySmoothProperty, put = __cordl_internal_set_m_KeySmoothProperty)) ::UnityEngine::VFX::Utility::ExposedProperty* m_KeySmoothProperty;
 
-  /// @brief Method IsValid, addr 0x69dc410, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69e3e8c, size 0x74, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXInputKeyBinder* New_ctor();
 
-  /// @brief Method Start, addr 0x69dc484, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x69e3f00, size 0x60, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToString, addr 0x69dc5f4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69e4070, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69dc4e4, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69e3f60, size 0x110, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr ::UnityEngine::KeyCode const& __cordl_internal_get_Key() const;
@@ -100,19 +100,19 @@ public:
 
   constexpr void __cordl_internal_set_m_KeySmoothProperty(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69dc6b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e4130, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_KeyProperty, addr 0x69dc3a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_KeyProperty, addr 0x69e3e24, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_KeyProperty();
 
-  /// @brief Method get_KeySmoothProperty, addr 0x69dc3dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_KeySmoothProperty, addr 0x69e3e58, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_KeySmoothProperty();
 
-  /// @brief Method set_KeyProperty, addr 0x69dc3c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_KeyProperty, addr 0x69e3e3c, size 0x1c, virtual false, abstract: false, final false
   inline void set_KeyProperty(::StringW value);
 
-  /// @brief Method set_KeySmoothProperty, addr 0x69dc3f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_KeySmoothProperty, addr 0x69e3e70, size 0x1c, virtual false, abstract: false, final false
   inline void set_KeySmoothProperty(::StringW value);
 
 protected:
@@ -130,7 +130,7 @@ public:
   VFXInputKeyBinder(VFXInputKeyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19994 };
 
   /// @brief Field m_KeyProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_KeyProperty;

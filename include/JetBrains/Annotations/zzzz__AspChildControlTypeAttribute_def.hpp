@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/AspChildControlTypeAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\AspChildControlTypeAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,19 +47,19 @@ public:
 
   constexpr void __cordl_internal_set__TagName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e3667c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e200, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW tagName, ::System::Type* controlType);
 
-  /// @brief Method get_ControlType, addr 0x6e36694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ControlType, addr 0x6e3e218, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ControlType();
 
-  /// @brief Method get_TagName, addr 0x6e36684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TagName, addr 0x6e3e208, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TagName();
 
-  /// @brief Method set_ControlType, addr 0x6e3669c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ControlType, addr 0x6e3e220, size 0x8, virtual false, abstract: false, final false
   inline void set_ControlType(::System::Type* value);
 
-  /// @brief Method set_TagName, addr 0x6e3668c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TagName, addr 0x6e3e210, size 0x8, virtual false, abstract: false, final false
   inline void set_TagName(::StringW value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   AspChildControlTypeAttribute(AspChildControlTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22596 };
 
   /// @brief Field <TagName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____TagName_k__BackingField;

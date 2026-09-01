@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IBeatmapDataAssetFileModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\IBeatmapDataAssetFileModel.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"

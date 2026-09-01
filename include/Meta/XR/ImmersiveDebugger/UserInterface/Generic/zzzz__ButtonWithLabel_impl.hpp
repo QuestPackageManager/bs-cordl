@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ButtonWithLabel.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ButtonWithLabel.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Button_impl.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__ButtonWithLabel_def.hpp"
 #include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/zzzz__Background_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> (
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)()>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::get_Background)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a55c34;
+  constexpr static std::size_t addrs = 0x5a5a0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::set_BackgroundStyle)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5a55c3c;
+  constexpr static std::size_t addrs = 0x5a5a0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::set_TextStyle)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a55cd0;
+  constexpr static std::size_t addrs = 0x5a5a18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::set_LabelLayoutStyle)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a55d64;
+  constexpr static std::size_t addrs = 0x5a5a220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::get_Label)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a55d7c;
+  constexpr static std::size_t addrs = 0x5a5a238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)(::StringW)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::set_Label)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a55dc8;
+  constexpr static std::size_t addrs = 0x5a5a284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::Setup)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5a55e14;
+  constexpr static std::size_t addrs = 0x5a5a2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel*>(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::OnHoverChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a55f58;
+  constexpr static std::size_t addrs = 0x5a5a414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel*>(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::RefreshStyle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a55cc4;
+  constexpr static std::size_t addrs = 0x5a5a180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::OnTransparencyChanged)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5a55f78;
+  constexpr static std::size_t addrs = 0x5a5a434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel*>(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::UpdateBackground)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5a56004;
+  constexpr static std::size_t addrs = 0x5a5a4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel*>(),
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a56180;
+  constexpr static std::size_t addrs = 0x5a5a63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

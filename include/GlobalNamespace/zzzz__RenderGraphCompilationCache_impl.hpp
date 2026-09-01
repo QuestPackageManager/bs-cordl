@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RenderGraphCompilationCache.hpp"
+// IWYU pragma private; include "GlobalNamespace\RenderGraphCompilationCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RenderGraphCompilationCache_def.hpp"
 #include "GlobalNamespace/zzzz__RenderGraphCompilationCache_def.hpp"
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RenderGraphCompilationCache::*)()>(&::GlobalNamespace::RenderGraphCompilationCache::_ctor)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x673b9e4;
+  constexpr static std::size_t addrs = 0x6743460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RenderGraphCompilationCache*>(), { ".ctor", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RenderGraphCompilationCache::*)(
     int32_t, int32_t, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_CompiledGraph*>)>(&::GlobalNamespace::RenderGraphCompilationCache::GetCompilationCache)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x673bc14;
+  constexpr static std::size_t addrs = 0x6743690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RenderGraphCompilationCache::*)(int32_t, int32_t, ::by_ref<Il2CppObject*>)>(
     &::GlobalNamespace::RenderGraphCompilationCache::GetCompilationCache)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x673bccc;
+  constexpr static std::size_t addrs = 0x6743748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RenderGraphCompilationCache::*)()>(&::GlobalNamespace::RenderGraphCompilationCache::Clear)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x673bd84;
+  constexpr static std::size_t addrs = 0x6743800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RenderGraphCompilationCache*>(), { "Clear", {}, {} })));

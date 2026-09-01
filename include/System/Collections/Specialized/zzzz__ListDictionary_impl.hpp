@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Specialized/ListDictionary.hpp"
+// IWYU pragma private; include "System\Collections\Specialized\ListDictionary.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Specialized/zzzz__ListDictionary_def.hpp"
 #include "System/Collections/Specialized/zzzz__ListDictionary_def.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)(::System::Collections::Specialized::ListDictionary*)>(
     &::System::Collections::Specialized::ListDictionary_NodeEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63e5eec;
+  constexpr static std::size_t addrs = 0x63ed968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary_NodeEnumerator*>(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
     &::System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x63e6114;
+  constexpr static std::size_t addrs = 0x63edb90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::DictionaryEntry (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
     &::System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63e617c;
+  constexpr static std::size_t addrs = 0x63edbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
     &::System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Key)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63e61d8;
+  constexpr static std::size_t addrs = 0x63edc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
     &::System::Collections::Specialized::ListDictionary_NodeEnumerator::get_Value)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63e6234;
+  constexpr static std::size_t addrs = 0x63edcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
     &::System::Collections::Specialized::ListDictionary_NodeEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x63e6290;
+  constexpr static std::size_t addrs = 0x63edd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary_NodeEnumerator::*)()>(
     &::System::Collections::Specialized::ListDictionary_NodeEnumerator::Reset)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x63e632c;
+  constexpr static std::size_t addrs = 0x63edda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::*)(
     ::System::Collections::Specialized::ListDictionary*, bool)>(&::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x63e65b4;
+  constexpr static std::size_t addrs = 0x63ee030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::*)()>(
     &::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x63e65e0;
+  constexpr static std::size_t addrs = 0x63ee05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::*)()>(
     &::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x63e6650;
+  constexpr static std::size_t addrs = 0x63ee0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::*)()>(
     &::System::Collections::Specialized::NodeKeyValueCollection_ListDictionary_NodeKeyValueEnumerator::Reset)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x63e66ec;
+  constexpr static std::size_t addrs = 0x63ee168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)(::System::Collections::Specialized::ListDictionary*, bool)>(
     &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63e587c;
+  constexpr static std::size_t addrs = 0x63ed2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)(::System::Array*, int32_t)>(
     &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x63e63a8;
+  constexpr static std::size_t addrs = 0x63ede24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)()>(
     &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_get_Count)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63e64e8;
+  constexpr static std::size_t addrs = 0x63edf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)()>(
     &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e6520;
+  constexpr static std::size_t addrs = 0x63edf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection*>(),
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)()>(
     &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63e6528;
+  constexpr static std::size_t addrs = 0x63edfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::*)()>(
     &::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x63e653c;
+  constexpr static std::size_t addrs = 0x63edfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary_DictionaryNode::*)()>(
     &::System::Collections::Specialized::ListDictionary_DictionaryNode::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63e5818;
+  constexpr static std::size_t addrs = 0x63ed294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -603,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)()>(&::System::Collections::Specialized::ListDictionary::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63e54f0;
+  constexpr static std::size_t addrs = 0x63ecf6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(), { ".ctor", {}, {} })));
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)(::System::Collections::IComparer*)>(
     &::System::Collections::Specialized::ListDictionary::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e54f4;
+  constexpr static std::size_t addrs = 0x63ecf70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::ListDictionary::get_Item)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x63e54fc;
+  constexpr static std::size_t addrs = 0x63ecf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::Specialized::ListDictionary::set_Item)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x63e565c;
+  constexpr static std::size_t addrs = 0x63ed0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(),
@@ -657,7 +657,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Specialized::ListDictionary::*)()>(&::System::Collections::Specialized::ListDictionary::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e581c;
+  constexpr static std::size_t addrs = 0x63ed298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(), { "get_Count", {}, {} })));
@@ -670,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::get_Keys)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x63e5824;
+  constexpr static std::size_t addrs = 0x63ed2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(), { "get_Keys", {}, {} })));
@@ -682,7 +682,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Specialized::ListDictionary::*)()>(&::System::Collections::Specialized::ListDictionary::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e5888;
+  constexpr static std::size_t addrs = 0x63ed304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(), { "get_IsReadOnly", {}, {} })));
@@ -694,7 +694,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Specialized::ListDictionary::*)()>(&::System::Collections::Specialized::ListDictionary::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e5890;
+  constexpr static std::size_t addrs = 0x63ed30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(), { "get_IsFixedSize", {}, {} })));
@@ -706,7 +706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Specialized::ListDictionary::*)()>(&::System::Collections::Specialized::ListDictionary::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e5898;
+  constexpr static std::size_t addrs = 0x63ed314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(), { "get_IsSynchronized", {}, {} })));
@@ -719,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::get_SyncRoot)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63e58a0;
+  constexpr static std::size_t addrs = 0x63ed31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(), { "get_SyncRoot", {}, {} })));
@@ -732,7 +732,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::get_Values)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x63e590c;
+  constexpr static std::size_t addrs = 0x63ed388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(), { "get_Values", {}, {} })));
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::Specialized::ListDictionary::Add)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x63e5960;
+  constexpr static std::size_t addrs = 0x63ed3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(),
@@ -758,7 +758,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)()>(&::System::Collections::Specialized::ListDictionary::Clear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63e5b68;
+  constexpr static std::size_t addrs = 0x63ed5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(), { "Clear", {}, {} })));
@@ -771,7 +771,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Specialized::ListDictionary::*)(::System::Object*)>(
     &::System::Collections::Specialized::ListDictionary::Contains)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x63e5b7c;
+  constexpr static std::size_t addrs = 0x63ed5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)(::System::Array*, int32_t)>(
     &::System::Collections::Specialized::ListDictionary::CopyTo)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x63e5cd0;
+  constexpr static std::size_t addrs = 0x63ed74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -800,7 +800,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::GetEnumerator)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63e5e80;
+  constexpr static std::size_t addrs = 0x63ed8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Specialized::ListDictionary*>(), { "GetEnumerator", {}, {} })));
@@ -813,7 +813,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Specialized::ListDictionary::*)()>(
     &::System::Collections::Specialized::ListDictionary::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63e5f14;
+  constexpr static std::size_t addrs = 0x63ed990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -826,7 +826,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Specialized::ListDictionary::*)(::System::Object*)>(&::System::Collections::Specialized::ListDictionary::Remove)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x63e5f80;
+  constexpr static std::size_t addrs = 0x63ed9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

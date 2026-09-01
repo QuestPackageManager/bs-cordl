@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TutorialScenesTransitionSetupData.hpp"
+// IWYU pragma private; include "GlobalNamespace\TutorialScenesTransitionSetupData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +74,7 @@ public:
   static ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType const ReturnToMenu;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6754 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -104,10 +104,10 @@ public:
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupData*,
                                                                                      ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType>* didFinishEvent;
 
-  /// @brief Method Finish, addr 0x590ed90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5912738, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType endState);
 
-  /// @brief Method Init, addr 0x590d588, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x591107c, size 0x258, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::GameplayAdditionalInformation* gameplayAdditionalInformation);
 
   static inline ::GlobalNamespace::TutorialScenesTransitionSetupData* New_ctor();
@@ -121,13 +121,13 @@ public:
   constexpr void
   __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupData*, ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType>* value);
 
-  /// @brief Method .ctor, addr 0x590edb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5912760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x590d4c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5910fbc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupData*, ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x590c074, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x590f54c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupData*, ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType>* value);
 
 protected:
@@ -145,7 +145,7 @@ public:
   TutorialScenesTransitionSetupData(TutorialScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6755 };
 
   /// @brief Field didFinishEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupData*, ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType>* ___didFinishEvent;

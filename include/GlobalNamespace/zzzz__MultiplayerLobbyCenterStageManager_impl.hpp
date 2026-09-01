@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyCenterStageManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyCenterStageManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyCenterStageManager_def.hpp"
 #include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageManager::*)(float_t, float_t)>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageManager::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a083b8;
+  constexpr static std::size_t addrs = 0x5a104c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageManager::ActivateCenterStageManager)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a083c0;
+  constexpr static std::size_t addrs = 0x5a104cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageManager::DeactivateCenterStageManager)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a08514;
+  constexpr static std::size_t addrs = 0x5a10620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(
     &::GlobalNamespace::MultiplayerLobbyCenterStageManager::RecalculateCenterPosition)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5a083e4;
+  constexpr static std::size_t addrs = 0x5a104f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(&::GlobalNamespace::MultiplayerLobbyCenterStageManager::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5a08538;
+  constexpr static std::size_t addrs = 0x5a10644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>(), { ".ctor", {}, {} })));

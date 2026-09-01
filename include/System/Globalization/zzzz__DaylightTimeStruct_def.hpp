@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/DaylightTimeStruct.hpp"
+// IWYU pragma private; include "System\Globalization\DaylightTimeStruct.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ namespace System::Globalization {
 struct CORDL_TYPE DaylightTimeStruct {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5bb8994, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bbce50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
   // Ctor Parameters []

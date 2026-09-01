@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/UniversalAdditionalLightData.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\UniversalAdditionalLightData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -132,13 +132,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalAdditionalLightData* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x68c1d94, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x68c9810, size 0xe8, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x68c1d90, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x68c980c, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method SyncLightAndShadowLayers, addr 0x68c1c60, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SyncLightAndShadowLayers, addr 0x68c96dc, size 0xac, virtual false, abstract: false, final false
   inline void SyncLightAndShadowLayers();
 
   constexpr int32_t const& __cordl_internal_get_m_AdditionalLightsShadowResolutionTier() const;
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68c1e7c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68c98f8, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_AdditionalLightsShadowDefaultCustomResolution();
@@ -230,40 +230,40 @@ public:
 
   static inline int32_t getStaticF_AdditionalLightsShadowResolutionTierMedium();
 
-  /// @brief Method get_additionalLightsShadowResolutionTier, addr 0x68c1c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsShadowResolutionTier, addr 0x68c96a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_additionalLightsShadowResolutionTier();
 
-  /// @brief Method get_customShadowLayers, addr 0x68c1d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customShadowLayers, addr 0x68c9788, size 0x8, virtual false, abstract: false, final false
   inline bool get_customShadowLayers();
 
-  /// @brief Method get_light, addr 0x68c1b90, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_light, addr 0x68c960c, size 0x98, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Light> get_light();
 
-  /// @brief Method get_lightCookieOffset, addr 0x68c1d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightCookieOffset, addr 0x68c97ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_lightCookieOffset();
 
-  /// @brief Method get_lightCookieSize, addr 0x68c1d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightCookieSize, addr 0x68c97dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_lightCookieSize();
 
-  /// @brief Method get_lightLayerMask, addr 0x68c1c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightLayerMask, addr 0x68c96ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::LightLayerEnum get_lightLayerMask();
 
-  /// @brief Method get_renderingLayers, addr 0x68c1c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingLayers, addr 0x68c96bc, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_renderingLayers();
 
-  /// @brief Method get_shadowLayerMask, addr 0x68c1d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadowLayerMask, addr 0x68c97ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::LightLayerEnum get_shadowLayerMask();
 
-  /// @brief Method get_shadowRenderingLayers, addr 0x68c1d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadowRenderingLayers, addr 0x68c97bc, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_shadowRenderingLayers();
 
-  /// @brief Method get_softShadowQuality, addr 0x68c1d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_softShadowQuality, addr 0x68c97fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::SoftShadowQuality get_softShadowQuality();
 
-  /// @brief Method get_usePipelineSettings, addr 0x68c1b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usePipelineSettings, addr 0x68c95fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_usePipelineSettings();
 
-  /// @brief Method get_version, addr 0x68c1b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x68c95f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -286,31 +286,31 @@ public:
 
   static inline void setStaticF_AdditionalLightsShadowResolutionTierMedium(int32_t value);
 
-  /// @brief Method set_customShadowLayers, addr 0x68c1d14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_customShadowLayers, addr 0x68c9790, size 0x1c, virtual false, abstract: false, final false
   inline void set_customShadowLayers(bool value);
 
-  /// @brief Method set_lightCookieOffset, addr 0x68c1d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightCookieOffset, addr 0x68c97f4, size 0x8, virtual false, abstract: false, final false
   inline void set_lightCookieOffset(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_lightCookieSize, addr 0x68c1d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightCookieSize, addr 0x68c97e4, size 0x8, virtual false, abstract: false, final false
   inline void set_lightCookieSize(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_lightLayerMask, addr 0x68c1c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightLayerMask, addr 0x68c96b4, size 0x8, virtual false, abstract: false, final false
   inline void set_lightLayerMask(::UnityEngine::Rendering::Universal::LightLayerEnum value);
 
-  /// @brief Method set_renderingLayers, addr 0x68c1c48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_renderingLayers, addr 0x68c96c4, size 0x18, virtual false, abstract: false, final false
   inline void set_renderingLayers(uint32_t value);
 
-  /// @brief Method set_shadowLayerMask, addr 0x68c1d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shadowLayerMask, addr 0x68c97b4, size 0x8, virtual false, abstract: false, final false
   inline void set_shadowLayerMask(::UnityEngine::Rendering::Universal::LightLayerEnum value);
 
-  /// @brief Method set_shadowRenderingLayers, addr 0x68c1d48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_shadowRenderingLayers, addr 0x68c97c4, size 0x18, virtual false, abstract: false, final false
   inline void set_shadowRenderingLayers(uint32_t value);
 
-  /// @brief Method set_softShadowQuality, addr 0x68c1d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_softShadowQuality, addr 0x68c9804, size 0x8, virtual false, abstract: false, final false
   inline void set_softShadowQuality(::UnityEngine::Rendering::Universal::SoftShadowQuality value);
 
-  /// @brief Method set_usePipelineSettings, addr 0x68c1b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usePipelineSettings, addr 0x68c9604, size 0x8, virtual false, abstract: false, final false
   inline void set_usePipelineSettings(bool value);
 
 protected:
@@ -328,7 +328,7 @@ public:
   UniversalAdditionalLightData(UniversalAdditionalLightData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12996 };
 
   /// @brief Field m_Version, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_Version;

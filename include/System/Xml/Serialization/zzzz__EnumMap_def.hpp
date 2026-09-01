@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/EnumMap.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\EnumMap.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,16 +69,16 @@ public:
 
   constexpr void __cordl_internal_set__xmlName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x630ec78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63166f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW xmlName, ::StringW enumName, int64_t value);
 
-  /// @brief Method get_EnumName, addr 0x630ec8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnumName, addr 0x6316708, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EnumName();
 
-  /// @brief Method get_Value, addr 0x630ec94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x6316710, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Value();
 
-  /// @brief Method get_XmlName, addr 0x630ec84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlName, addr 0x6316700, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlName();
 
 protected:
@@ -96,7 +96,7 @@ public:
   EnumMap_EnumMapMember(EnumMap_EnumMapMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9561 };
 
   /// @brief Field _xmlName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____xmlName;
@@ -151,10 +151,10 @@ public:
   /// @brief Field _xmlNames, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xmlNames, put = __cordl_internal_set__xmlNames)) ::ArrayW<::StringW> _xmlNames;
 
-  /// @brief Method GetEnumName, addr 0x630e9bc, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetEnumName, addr 0x6316438, size 0x2bc, virtual false, abstract: false, final false
   inline ::StringW GetEnumName(::StringW typeName, ::StringW xmlName);
 
-  /// @brief Method GetXmlName, addr 0x6308dd0, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method GetXmlName, addr 0x631084c, size 0x36c, virtual false, abstract: false, final false
   inline ::StringW GetXmlName(::StringW typeName, ::System::Object* enumValue);
 
   static inline ::System::Xml::Serialization::EnumMap* New_ctor(::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*> members, bool isFlags);
@@ -189,19 +189,19 @@ public:
 
   constexpr void __cordl_internal_set__xmlNames(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x630e858, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63162d4, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*> members, bool isFlags);
 
-  /// @brief Method get_EnumNames, addr 0x630e9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnumNames, addr 0x6316420, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_EnumNames();
 
-  /// @brief Method get_IsFlags, addr 0x630e99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsFlags, addr 0x6316418, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsFlags();
 
-  /// @brief Method get_Values, addr 0x630e9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x6316430, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int64_t> get_Values();
 
-  /// @brief Method get_XmlNames, addr 0x630e9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlNames, addr 0x6316428, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_XmlNames();
 
 protected:
@@ -219,7 +219,7 @@ public:
   EnumMap(EnumMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9562 };
 
   /// @brief Field _members, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Xml::Serialization::EnumMap_EnumMapMember*> ____members;

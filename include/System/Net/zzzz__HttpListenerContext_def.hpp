@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/HttpListenerContext.hpp"
+// IWYU pragma private; include "System\Net\HttpListenerContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,10 +74,10 @@ public:
 
   static inline ::System::Net::HttpListenerContext* New_ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method ParseAuthentication, addr 0x642d7e8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ParseAuthentication, addr 0x6435264, size 0x138, virtual false, abstract: false, final false
   inline void ParseAuthentication(::System::Net::AuthenticationSchemes expectedSchemes);
 
-  /// @brief Method ParseBasicAuthentication, addr 0x642dc7c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ParseBasicAuthentication, addr 0x64356f8, size 0x258, virtual false, abstract: false, final false
   inline ::System::Security::Principal::IPrincipal* ParseBasicAuthentication(::StringW authData);
 
   constexpr ::System::Net::HttpListener* const& __cordl_internal_get_Listener() const;
@@ -122,31 +122,31 @@ public:
 
   constexpr void __cordl_internal_set_user(::System::Security::Principal::IPrincipal* value);
 
-  /// @brief Method .ctor, addr 0x6429a74, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64314f0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method get_Connection, addr 0x642dc64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Connection, addr 0x64356e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpConnection* get_Connection();
 
-  /// @brief Method get_ErrorMessage, addr 0x642dc54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorMessage, addr 0x64356d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ErrorMessage();
 
-  /// @brief Method get_ErrorStatus, addr 0x642dc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorStatus, addr 0x64356c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ErrorStatus();
 
-  /// @brief Method get_HaveError, addr 0x642a648, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HaveError, addr 0x64320c4, size 0x10, virtual false, abstract: false, final false
   inline bool get_HaveError();
 
-  /// @brief Method get_Request, addr 0x642dc6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x64356e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerRequest* get_Request();
 
-  /// @brief Method get_Response, addr 0x642dc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Response, addr 0x64356f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerResponse* get_Response();
 
-  /// @brief Method set_ErrorMessage, addr 0x642dc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorMessage, addr 0x64356d8, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorMessage(::StringW value);
 
-  /// @brief Method set_ErrorStatus, addr 0x642dc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorStatus, addr 0x64356c8, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorStatus(int32_t value);
 
 protected:
@@ -164,7 +164,7 @@ public:
   HttpListenerContext(HttpListenerContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11597 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::System::Net::HttpListenerRequest* ___request;

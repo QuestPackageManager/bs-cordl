@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/OutStringMarshaller.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\OutStringMarshaller.hpp"
 #include "UnityEngine/Bindings/zzzz__OutStringMarshaller_def.hpp"
 #include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::OutStringMarshaller.GetStringAndDispose
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Bindings::ManagedSpanWrapper)>(&::UnityEngine::Bindings::OutStringMarshaller::GetStringAndDispose)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6af7564;
+  constexpr static std::size_t addrs = 0x6afef7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::OutStringMarshaller>(),

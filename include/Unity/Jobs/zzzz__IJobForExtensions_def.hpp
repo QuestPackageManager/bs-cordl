@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Jobs/IJobForExtensions.hpp"
+// IWYU pragma private; include "Unity\Jobs\IJobForExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,7 +77,7 @@ public:
   ForJobStruct_1_IJobForExtensions_ExecuteJobFunction(ForJobStruct_1_IJobForExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9920 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -113,7 +113,7 @@ public:
   constexpr IJobForExtensions_ForJobStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9921 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -156,7 +156,7 @@ public:
   IJobForExtensions(IJobForExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9922 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

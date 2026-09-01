@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/IesWithCipherParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\IesWithCipherParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_cipherKeySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3410138, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3413ef8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> derivation, ::ArrayW<uint8_t> encoding, int32_t macKeySize, int32_t cipherKeySize);
 
-  /// @brief Method get_CipherKeySize, addr 0x3410144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CipherKeySize, addr 0x3413f04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CipherKeySize();
 
 protected:

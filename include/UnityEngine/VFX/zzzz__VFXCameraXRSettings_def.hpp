@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VFXCameraXRSettings.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VFXCameraXRSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   constexpr VFXCameraXRSettings(uint32_t viewTotal, uint32_t viewCount, uint32_t viewOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22400 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

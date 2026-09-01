@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/CallSite.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\CallSite.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set__match(bool value);
 
-  /// @brief Method .ctor, addr 0x5fb9cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc1738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::CallSiteBinder* binder);
 
-  /// @brief Method get_Binder, addr 0x5fb9cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Binder, addr 0x5fc1740, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::CallSiteBinder* get_Binder();
 
 protected:
@@ -65,7 +65,7 @@ public:
   CallSite(CallSite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16625 };
 
   /// @brief Field _binder, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::CallSiteBinder* ____binder;

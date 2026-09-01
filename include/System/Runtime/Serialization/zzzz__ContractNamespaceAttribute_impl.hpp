@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ContractNamespaceAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ContractNamespaceAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ContractNamespaceAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::ContractNamespaceAttribute.get_ClrNamespace
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::ContractNamespaceAttribute::*)()>(
     &::System::Runtime::Serialization::ContractNamespaceAttribute::get_ClrNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61377a0;
+  constexpr static std::size_t addrs = 0x613f21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::ContractNamespaceAttribute::*)()>(
     &::System::Runtime::Serialization::ContractNamespaceAttribute::get_ContractNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61377a8;
+  constexpr static std::size_t addrs = 0x613f224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

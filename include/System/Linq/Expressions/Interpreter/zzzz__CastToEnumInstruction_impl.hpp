@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/CastToEnumInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\CastToEnumInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__CastInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__CastToEnumInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::CastToEnumInstruction::*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::CastToEnumInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fb8348;
+  constexpr static std::size_t addrs = 0x5fbfdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CastToEnumInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::System::Linq::Expressions::Interpreter::CastToEnumInstruction::Run)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5fb8350;
+  constexpr static std::size_t addrs = 0x5fbfdcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::CastToEnumInstruction*>(),

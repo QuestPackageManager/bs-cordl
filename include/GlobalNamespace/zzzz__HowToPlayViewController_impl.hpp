@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/HowToPlayViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\HowToPlayViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
 #include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)(::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>*)>(
     &::GlobalNamespace::HowToPlayViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a125c0;
+  constexpr static std::size_t addrs = 0x5a1a6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)(::System::Action_1<::GlobalNamespace::HowToPlayViewController_HowToPlayOptions>*)>(
     &::GlobalNamespace::HowToPlayViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a12680;
+  constexpr static std::size_t addrs = 0x5a1a78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)(bool, bool, bool)>(&::GlobalNamespace::HowToPlayViewController::DidActivate)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5a12740;
+  constexpr static std::size_t addrs = 0x5a1a84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)()>(&::GlobalNamespace::HowToPlayViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a12880;
+  constexpr static std::size_t addrs = 0x5a1a98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HowToPlayViewController*>(), { ".ctor", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)()>(&::GlobalNamespace::HowToPlayViewController::_DidActivate_b__6_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a12884;
+  constexpr static std::size_t addrs = 0x5a1a990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HowToPlayViewController*>(), { "<DidActivate>b__6_0", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HowToPlayViewController::*)()>(&::GlobalNamespace::HowToPlayViewController::_DidActivate_b__6_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a128a4;
+  constexpr static std::size_t addrs = 0x5a1a9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HowToPlayViewController*>(), { "<DidActivate>b__6_1", {}, {} })));

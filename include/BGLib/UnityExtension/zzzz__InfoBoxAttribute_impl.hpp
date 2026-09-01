@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/InfoBoxAttribute.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\InfoBoxAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__InfoBoxAttribute_def.hpp"
 #include "BGLib/UnityExtension/zzzz__InfoBoxAttribute_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::InfoBoxAttribute::*)(::StringW, ::BGLib::UnityExtension::InfoBoxAttribute_Type)>(
     &::BGLib::UnityExtension::InfoBoxAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3325148;
+  constexpr static std::size_t addrs = 0x3328f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

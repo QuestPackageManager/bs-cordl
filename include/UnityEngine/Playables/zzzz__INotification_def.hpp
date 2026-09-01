@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/INotification.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\INotification.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   INotification(INotification const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10665 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

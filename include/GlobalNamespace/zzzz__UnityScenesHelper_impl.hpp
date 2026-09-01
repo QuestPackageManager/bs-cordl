@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/UnityScenesHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\UnityScenesHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityScenesHelper_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::SceneManagement::Scene, bool)>(&::GlobalNamespace::UnityScenesHelper::SetRootObjectsActive)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3323c14;
+  constexpr static std::size_t addrs = 0x33279d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

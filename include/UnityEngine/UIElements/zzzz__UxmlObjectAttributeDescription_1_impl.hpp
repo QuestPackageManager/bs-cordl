@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlObjectAttributeDescription_1.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlObjectAttributeDescription_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlObjectAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"

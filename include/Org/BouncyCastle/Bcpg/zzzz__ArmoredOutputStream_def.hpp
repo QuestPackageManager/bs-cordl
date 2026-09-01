@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/ArmoredOutputStream.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\ArmoredOutputStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -91,41 +91,41 @@ public:
   /// @brief Field type, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::StringW type;
 
-  /// @brief Method AddHeader, addr 0x3694280, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method AddHeader, addr 0x3698040, size 0x224, virtual false, abstract: false, final false
   inline void AddHeader(::StringW name, ::StringW val);
 
-  /// @brief Method BeginClearText, addr 0x36946d8, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method BeginClearText, addr 0x3698498, size 0x210, virtual false, abstract: false, final false
   inline void BeginClearText(::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method Close, addr 0x369542c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x36991ec, size 0x38, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method DoClose, addr 0x3695464, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method DoClose, addr 0x3699224, size 0x19c, virtual false, abstract: false, final false
   inline void DoClose();
 
-  /// @brief Method DoWrite, addr 0x36948e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DoWrite, addr 0x36986a8, size 0x44, virtual false, abstract: false, final false
   inline void DoWrite(::StringW s);
 
-  /// @brief Method Encode, addr 0x3693670, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3697430, size 0x2f8, virtual false, abstract: false, final false
   static inline void Encode(::System::IO::Stream* outStream, ::ArrayW<int32_t> data, int32_t len);
 
-  /// @brief Method EndClearText, addr 0x369492c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EndClearText, addr 0x36986ec, size 0x8, virtual false, abstract: false, final false
   inline void EndClearText();
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredOutputStream* New_ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredOutputStream* New_ctor(::System::IO::Stream* outStream, ::System::Collections::IDictionary* headers);
 
-  /// @brief Method ResetHeaders, addr 0x36944a4, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ResetHeaders, addr 0x3698264, size 0x234, virtual false, abstract: false, final false
   inline void ResetHeaders();
 
-  /// @brief Method SetHeader, addr 0x3693a94, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method SetHeader, addr 0x3697854, size 0x2d4, virtual false, abstract: false, final false
   inline void SetHeader(::StringW name, ::StringW val);
 
-  /// @brief Method WriteByte, addr 0x3694934, size 0xa54, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x36986f4, size 0xa54, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method WriteHeaderEntry, addr 0x3695388, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method WriteHeaderEntry, addr 0x3699148, size 0xa4, virtual false, abstract: false, final false
   inline void WriteHeaderEntry(::StringW name, ::StringW v);
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get_buf() const;
@@ -194,10 +194,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3693968, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3697728, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x3693d68, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3697b28, size 0x518, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, ::System::Collections::IDictionary* headers);
 
   static inline ::StringW getStaticF_HeaderVersion();

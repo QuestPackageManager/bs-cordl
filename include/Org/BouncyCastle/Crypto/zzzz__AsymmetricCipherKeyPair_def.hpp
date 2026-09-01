@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/AsymmetricCipherKeyPair.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\AsymmetricCipherKeyPair.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_publicParameter(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x349846c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x349c22c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter);
 
-  /// @brief Method get_Private, addr 0x3498534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Private, addr 0x349c2f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
 
-  /// @brief Method get_Public, addr 0x349852c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Public, addr 0x349c2ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();
 
 protected:

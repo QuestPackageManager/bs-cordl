@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoUserAgeWarningViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoUserAgeWarningViewController.hpp"
 #include "GlobalNamespace/zzzz__CompletableViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__NoUserAgeWarningViewController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoUserAgeWarningViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::NoUserAgeWarningViewController::DidActivate)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5a1408c;
+  constexpr static std::size_t addrs = 0x5a1c194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoUserAgeWarningViewController::*)(bool, bool)>(&::GlobalNamespace::NoUserAgeWarningViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5a14178;
+  constexpr static std::size_t addrs = 0x5a1c280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoUserAgeWarningViewController::*)()>(&::GlobalNamespace::NoUserAgeWarningViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a141ac;
+  constexpr static std::size_t addrs = 0x5a1c2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoUserAgeWarningViewController*>(), { ".ctor", {}, {} })));

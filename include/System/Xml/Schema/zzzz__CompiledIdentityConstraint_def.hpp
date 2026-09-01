@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/CompiledIdentityConstraint.hpp"
+// IWYU pragma private; include "System\Xml\Schema\CompiledIdentityConstraint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +79,7 @@ public:
   static ::System::Xml::Schema::CompiledIdentityConstraint_ConstraintRole const Unique;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9576 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -162,21 +162,21 @@ public:
 
   constexpr void __cordl_internal_set_selector(::System::Xml::Schema::Asttree* value);
 
-  /// @brief Method .ctor, addr 0x6313be8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631b664, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6313c50, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631b6cc, size 0x4b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint, ::System::Xml::XmlNamespaceManager* nsmgr);
 
   static inline ::System::Xml::Schema::CompiledIdentityConstraint* getStaticF_Empty();
 
-  /// @brief Method get_Fields, addr 0x6313be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Fields, addr 0x631b65c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::Schema::Asttree*> get_Fields();
 
-  /// @brief Method get_Role, addr 0x6313bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Role, addr 0x631b64c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::CompiledIdentityConstraint_ConstraintRole get_Role();
 
-  /// @brief Method get_Selector, addr 0x6313bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Selector, addr 0x631b654, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Asttree* get_Selector();
 
   static inline void setStaticF_Empty(::System::Xml::Schema::CompiledIdentityConstraint* value);
@@ -196,7 +196,7 @@ public:
   CompiledIdentityConstraint(CompiledIdentityConstraint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9577 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___name;

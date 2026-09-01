@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionNodeGizmos.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionNodeGizmos.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__missionProgressModel(::UnityW<::GlobalNamespace::CampaignProgressModel> value);
 
-  /// @brief Method .ctor, addr 0x59384e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593bf6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   MissionNodeGizmos(MissionNodeGizmos const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6873 };
 
   /// @brief Field _missionNode, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;

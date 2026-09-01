@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/Logger.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\Logger.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,31 +38,31 @@ public:
   /// @brief Field _isWarningLogVisible, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__isWarningLogVisible, put = setStaticF__isWarningLogVisible)) bool _isWarningLogVisible;
 
-  /// @brief Method GetPrefixMessage, addr 0x5a7df08, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixMessage, addr 0x5a823c4, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW GetPrefixMessage(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel);
 
-  /// @brief Method Log, addr 0x5a6db20, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x5a71fdc, size 0xf4, virtual false, abstract: false, final false
   static inline void Log(::StringW message, ::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel);
 
-  /// @brief Method LogError, addr 0x5a7ddb0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x5a8226c, size 0xac, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
-  /// @brief Method LogInfo, addr 0x5a7dc58, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogInfo, addr 0x5a82114, size 0xac, virtual false, abstract: false, final false
   static inline void LogInfo(::StringW message);
 
-  /// @brief Method LogSharedSpatialAnchorsError, addr 0x5a7de5c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogSharedSpatialAnchorsError, addr 0x5a82318, size 0xac, virtual false, abstract: false, final false
   static inline void LogSharedSpatialAnchorsError(::StringW message);
 
-  /// @brief Method LogVerbose, addr 0x5a7dbac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogVerbose, addr 0x5a82068, size 0xac, virtual false, abstract: false, final false
   static inline void LogVerbose(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x5a7dd04, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x5a821c0, size 0xac, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message);
 
-  /// @brief Method SetAllLogsVisibility, addr 0x5a6cd70, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetAllLogsVisibility, addr 0x5a7122c, size 0x60, virtual false, abstract: false, final false
   static inline void SetAllLogsVisibility(bool value);
 
-  /// @brief Method SetLogLevelVisibility, addr 0x5a6cdd0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SetLogLevelVisibility, addr 0x5a7128c, size 0x180, virtual false, abstract: false, final false
   static inline void SetLogLevelVisibility(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel, bool value);
 
   static inline bool getStaticF__isErrorLogVisible();
@@ -100,7 +100,7 @@ public:
   Logger(Logger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/Base64Encoding.hpp"
+// IWYU pragma private; include "System\Text\Base64Encoding.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,39 +31,39 @@ public:
   /// @brief Field val2char, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_val2char, put = setStaticF_val2char)) ::StringW val2char;
 
-  /// @brief Method GetByteCount, addr 0x61294ec, size 0x49c, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x6130f68, size 0x49c, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::ArrayW<char16_t> chars, int32_t index, int32_t count);
 
-  /// @brief Method GetBytes, addr 0x6129988, size 0x62c, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x6131404, size 0x62c, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<char16_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
-  /// @brief Method GetBytes, addr 0x6129fb4, size 0x614, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x6131a30, size 0x614, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<uint8_t> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t> bytes, int32_t byteIndex);
 
-  /// @brief Method GetCharCount, addr 0x612a6fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x6132178, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0x612a710, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x613218c, size 0x4fc, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
-  /// @brief Method GetChars, addr 0x61276f4, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method GetChars, addr 0x612f170, size 0x4fc, virtual false, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<uint8_t> chars, int32_t charIndex);
 
-  /// @brief Method GetMaxByteCount, addr 0x612939c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method GetMaxByteCount, addr 0x6130e18, size 0x120, virtual true, abstract: false, final false
   inline int32_t GetMaxByteCount(int32_t charCount);
 
-  /// @brief Method GetMaxCharCount, addr 0x612a5c8, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method GetMaxCharCount, addr 0x6132044, size 0x134, virtual true, abstract: false, final false
   inline int32_t GetMaxCharCount(int32_t byteCount);
 
-  /// @brief Method IsValidLeadBytes, addr 0x61294bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsValidLeadBytes, addr 0x6130f38, size 0x1c, virtual false, abstract: false, final false
   inline bool IsValidLeadBytes(int32_t v1, int32_t v2, int32_t v3, int32_t v4);
 
-  /// @brief Method IsValidTailBytes, addr 0x61294d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValidTailBytes, addr 0x6130f54, size 0x14, virtual false, abstract: false, final false
   inline bool IsValidTailBytes(int32_t v3, int32_t v4);
 
   static inline ::System::Text::Base64Encoding* New_ctor();
 
-  /// @brief Method .ctor, addr 0x612ac0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6132688, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t> getStaticF_char2val();
@@ -93,7 +93,7 @@ public:
   Base64Encoding(Base64Encoding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

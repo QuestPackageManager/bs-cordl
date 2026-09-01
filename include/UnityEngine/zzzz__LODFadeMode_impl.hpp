@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/LODFadeMode.hpp"
+// IWYU pragma private; include "UnityEngine\LODFadeMode.hpp"
 #include "UnityEngine/zzzz__LODFadeMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::LODFadeMode::LODFadeMode(int32_t value__) noexcept {

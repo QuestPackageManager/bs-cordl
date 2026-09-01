@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonCloneSettings.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonCloneSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,17 +35,17 @@ public:
 
   constexpr void __cordl_internal_set__CopyAnnotations_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5d76858, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7ad14, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::JsonCloneSettings* getStaticF_SkipCopyAnnotations();
 
-  /// @brief Method get_CopyAnnotations, addr 0x5d76864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyAnnotations, addr 0x5d7ad20, size 0x8, virtual false, abstract: false, final false
   inline bool get_CopyAnnotations();
 
   static inline void setStaticF_SkipCopyAnnotations(::Newtonsoft::Json::Linq::JsonCloneSettings* value);
 
-  /// @brief Method set_CopyAnnotations, addr 0x5d7686c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CopyAnnotations, addr 0x5d7ad28, size 0x8, virtual false, abstract: false, final false
   inline void set_CopyAnnotations(bool value);
 
 protected:
@@ -63,7 +63,7 @@ public:
   JsonCloneSettings(JsonCloneSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13602 };
 
   /// @brief Field <CopyAnnotations>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____CopyAnnotations_k__BackingField;

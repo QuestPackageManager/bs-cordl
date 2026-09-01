@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyAnalytics.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyAnalytics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,30 +40,30 @@ public:
                       put = __cordl_internal_set__gameServerLobbyFlowCoordinator)) ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinatorBase>
       _gameServerLobbyFlowCoordinator;
 
-  /// @brief Method Awake, addr 0x58b33f0, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58b2d54, size 0x228, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetEventTypeFromLobbyType, addr 0x58b3a70, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetEventTypeFromLobbyType, addr 0x58b33d4, size 0xa0, virtual false, abstract: false, final false
   inline ::StringW GetEventTypeFromLobbyType(::GlobalNamespace::GameServerLobbyFlowCoordinatorBase_LobbyType lobbyType);
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidFinish, addr 0x58b3b10, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidFinish, addr 0x58b3474, size 0x168, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidFinish();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel, addr 0x58b3ec0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel, addr 0x58b3824, size 0x168, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidSetupEvent, addr 0x58b38bc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidSetupEvent, addr 0x58b3220, size 0x1b4, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidSetupEvent();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorStartGameOrReady, addr 0x58b3d58, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorStartGameOrReady, addr 0x58b36bc, size 0x168, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorStartGameOrReady();
 
-  /// @brief Method LogClick, addr 0x58b3c78, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method LogClick, addr 0x58b35dc, size 0xe0, virtual false, abstract: false, final false
   inline void LogClick(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
   static inline ::GlobalNamespace::MultiplayerLobbyAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58b3618, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58b2f7c, size 0x2a4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__gameServerLobbyFlowCoordinator(::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinatorBase> value);
 
-  /// @brief Method .ctor, addr 0x58b4028, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b398c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

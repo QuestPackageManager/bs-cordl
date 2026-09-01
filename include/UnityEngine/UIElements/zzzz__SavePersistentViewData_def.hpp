@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/SavePersistentViewData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\SavePersistentViewData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE SavePersistentViewData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6db0f68, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6db8aec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::UIElements::SavePersistentViewData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6db0f00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6db8a84, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

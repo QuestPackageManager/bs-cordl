@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TempMeshAllocator.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TempMeshAllocator.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TempMeshAllocator_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::InteropServices::GCHandle, ::by_ref<::UnityEngine::UIElements::TempMeshAllocator>)>(
     &::UnityEngine::UIElements::TempMeshAllocator::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dd0168;
+  constexpr static std::size_t addrs = 0x6dd7cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     int32_t, int32_t, ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>, ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>>)>(
     &::UnityEngine::UIElements::TempMeshAllocator::AllocateTempMesh)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6dcf15c;
+  constexpr static std::size_t addrs = 0x6dd6ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

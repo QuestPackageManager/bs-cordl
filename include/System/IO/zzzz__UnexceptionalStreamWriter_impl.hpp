@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/UnexceptionalStreamWriter.hpp"
+// IWYU pragma private; include "System\IO\UnexceptionalStreamWriter.hpp"
 #include "System/IO/zzzz__StreamWriter_impl.hpp"
 #include "System/IO/zzzz__UnexceptionalStreamWriter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)(::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::IO::UnexceptionalStreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5c1d670;
+  constexpr static std::size_t addrs = 0x5c21b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::UnexceptionalStreamWriter*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)()>(&::System::IO::UnexceptionalStreamWriter::Flush)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5c1d6ec;
+  constexpr static std::size_t addrs = 0x5c21ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::IO::UnexceptionalStreamWriter::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c1d784;
+  constexpr static std::size_t addrs = 0x5c21c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)(char16_t)>(&::System::IO::UnexceptionalStreamWriter::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c1d80c;
+  constexpr static std::size_t addrs = 0x5c21cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)(::ArrayW<char16_t>)>(&::System::IO::UnexceptionalStreamWriter::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c1d894;
+  constexpr static std::size_t addrs = 0x5c21d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnexceptionalStreamWriter::*)(::StringW)>(&::System::IO::UnexceptionalStreamWriter::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c1d91c;
+  constexpr static std::size_t addrs = 0x5c21dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

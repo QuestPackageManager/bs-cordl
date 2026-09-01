@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/IntegerTime/DiscreteTime.hpp"
+// IWYU pragma private; include "Unity\IntegerTime\DiscreteTime.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,34 +61,34 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method CompareTo, addr 0x6a54e74, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6a5c8f0, size 0x14, virtual true, abstract: false, final true
   inline int32_t CompareTo(::Unity::IntegerTime::DiscreteTime other);
 
-  /// @brief Method Equals, addr 0x6a54cb4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a5c730, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x6a54ca4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a5c720, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::Unity::IntegerTime::DiscreteTime rhs);
 
-  /// @brief Method FromTicks, addr 0x6a54b88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromTicks, addr 0x6a5c604, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::IntegerTime::DiscreteTime FromTicks(int64_t v);
 
-  /// @brief Method GetHashCode, addr 0x6a54d50, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a5c7cc, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6a54d5c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6a5c7d8, size 0x80, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x6a54ddc, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6a5c858, size 0x98, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6a54a90, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5c50c, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(double_t v);
 
-  /// @brief Method .ctor, addr 0x6a5499c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5c418, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(float_t v);
 
-  /// @brief Method .ctor, addr 0x6a54b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5c5fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t v, int32_t _);
 
   static inline ::Unity::IntegerTime::DiscreteTime getStaticF_MaxValue();
@@ -110,25 +110,25 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Addition, addr 0x6a54bdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x6a5c658, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::IntegerTime::DiscreteTime op_Addition(::Unity::IntegerTime::DiscreteTime lhs, ::Unity::IntegerTime::DiscreteTime rhs);
 
-  /// @brief Method op_Explicit, addr 0x6a54ba4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6a5c620, size 0x14, virtual false, abstract: false, final false
   static inline double_t op_Explicit_double_t(::Unity::IntegerTime::DiscreteTime d);
 
-  /// @brief Method op_Explicit, addr 0x6a54b8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x6a5c608, size 0x18, virtual false, abstract: false, final false
   static inline float_t op_Explicit_float_t(::Unity::IntegerTime::DiscreteTime d);
 
-  /// @brief Method op_GreaterThan, addr 0x6a54bc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x6a5c640, size 0xc, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::Unity::IntegerTime::DiscreteTime lhs, ::Unity::IntegerTime::DiscreteTime rhs);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x6a54bd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x6a5c64c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_GreaterThanOrEqual(::Unity::IntegerTime::DiscreteTime lhs, ::Unity::IntegerTime::DiscreteTime rhs);
 
-  /// @brief Method op_Inequality, addr 0x6a54bb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6a5c634, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Unity::IntegerTime::DiscreteTime lhs, ::Unity::IntegerTime::DiscreteTime rhs);
 
-  /// @brief Method op_Subtraction, addr 0x6a54c40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x6a5c6bc, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::IntegerTime::DiscreteTime op_Subtraction(::Unity::IntegerTime::DiscreteTime lhs, ::Unity::IntegerTime::DiscreteTime rhs);
 
   static inline void setStaticF_MaxValue(::Unity::IntegerTime::DiscreteTime value);
@@ -149,7 +149,7 @@ public:
   constexpr DiscreteTime(int64_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9936 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

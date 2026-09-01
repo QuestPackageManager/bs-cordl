@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MetaXRFoveationFeature.hpp"
+// IWYU pragma private; include "Meta\XR\MetaXRFoveationFeature.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,21 +34,21 @@ public:
   /// @brief Field _xrSession, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__xrSession, put = setStaticF__xrSession)) uint64_t _xrSession;
 
-  /// @brief Method FBGetFoveationDynamic, addr 0x5e4c154, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FBGetFoveationDynamic, addr 0x5e50610, size 0x7c, virtual false, abstract: false, final false
   static inline void FBGetFoveationDynamic(::by_ref<uint32_t> dynamic);
 
-  /// @brief Method FBGetFoveationLevel, addr 0x5e4bf48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FBGetFoveationLevel, addr 0x5e50404, size 0x7c, virtual false, abstract: false, final false
   static inline void FBGetFoveationLevel(::by_ref<uint32_t> level);
 
-  /// @brief Method FBSetFoveationLevel, addr 0x5e4c02c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FBSetFoveationLevel, addr 0x5e504e8, size 0xa4, virtual false, abstract: false, final false
   static inline void FBSetFoveationLevel(uint64_t session, uint32_t level, float_t verticalOffset, uint32_t dynamic);
 
   static inline ::Meta::XR::MetaXRFoveationFeature* New_ctor();
 
-  /// @brief Method OnSessionCreate, addr 0x5e4bedc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnSessionCreate, addr 0x5e50398, size 0x50, virtual true, abstract: false, final false
   inline void OnSessionCreate(uint64_t xrSession);
 
-  /// @brief Method .ctor, addr 0x5e4c1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e5068c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint32_t getStaticF__foveatedRenderingLevel();
@@ -57,10 +57,10 @@ public:
 
   static inline uint64_t getStaticF__xrSession();
 
-  /// @brief Method get_foveatedRenderingLevel, addr 0x5e4bf2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingLevel, addr 0x5e503e8, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_FoveatedRenderingLevel get_foveatedRenderingLevel();
 
-  /// @brief Method get_useDynamicFoveatedRendering, addr 0x5e4c0d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicFoveatedRendering, addr 0x5e5058c, size 0x24, virtual false, abstract: false, final false
   static inline bool get_useDynamicFoveatedRendering();
 
   static inline void setStaticF__foveatedRenderingLevel(uint32_t value);
@@ -69,10 +69,10 @@ public:
 
   static inline void setStaticF__xrSession(uint64_t value);
 
-  /// @brief Method set_foveatedRenderingLevel, addr 0x5e4bfc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_foveatedRenderingLevel, addr 0x5e50480, size 0x68, virtual false, abstract: false, final false
   static inline void set_foveatedRenderingLevel(::GlobalNamespace::OVRManager_FoveatedRenderingLevel value);
 
-  /// @brief Method set_useDynamicFoveatedRendering, addr 0x5e4c0f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicFoveatedRendering, addr 0x5e505b0, size 0x60, virtual false, abstract: false, final false
   static inline void set_useDynamicFoveatedRendering(bool value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   MetaXRFoveationFeature(MetaXRFoveationFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8563 };
 
   /// @brief Field extensionList offset 0xffffffff size 0x8
   static constexpr ::ConstString extensionList{ u"XR_FB_foveation XR_FB_foveation_configuration XR_FB_foveation_vulkan " };

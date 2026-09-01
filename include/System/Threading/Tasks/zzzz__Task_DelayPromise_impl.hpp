@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/Task_DelayPromise.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\Task_DelayPromise.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/Threading/Tasks/zzzz__VoidTaskResult_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Task_DelayPromise::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::Task_DelayPromise::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5cbf6d4;
+  constexpr static std::size_t addrs = 0x5cc3b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Task_DelayPromise::*)()>(&::GlobalNamespace::Task_DelayPromise::Complete)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5cc12f0;
+  constexpr static std::size_t addrs = 0x5cc57ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Task_DelayPromise*>(), { "Complete", {}, {} })));

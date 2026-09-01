@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/NativeTextElementInfo.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\NativeTextElementInfo.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextCoreVertex_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__NativeTextElementInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "glyphID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomLeft", ty: "::UnityEngine::TextCore::Text::TextCoreVertex", modifiers:

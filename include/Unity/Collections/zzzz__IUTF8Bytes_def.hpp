@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/IUTF8Bytes.hpp"
+// IWYU pragma private; include "Unity\Collections\IUTF8Bytes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   IUTF8Bytes(IUTF8Bytes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15619 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

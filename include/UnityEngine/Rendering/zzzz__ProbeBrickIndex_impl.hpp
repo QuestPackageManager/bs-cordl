@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ProbeBrickIndex.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ProbeBrickIndex.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3Int_impl.hpp"
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex_Brick::*)(::UnityEngine::Vector3Int, int32_t)>(
     &::UnityEngine::Rendering::ProbeBrickIndex_Brick::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6781e58;
+  constexpr static std::size_t addrs = 0x67898d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex_Brick>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeBrickIndex_Brick::*)(::UnityEngine::Rendering::ProbeBrickIndex_Brick)>(
     &::UnityEngine::Rendering::ProbeBrickIndex_Brick::Equals)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6781e64;
+  constexpr static std::size_t addrs = 0x67898e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeBrickIndex_Brick::*)(::UnityEngine::Bounds)>(
     &::UnityEngine::Rendering::ProbeBrickIndex_Brick::IntersectArea)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6781eac;
+  constexpr static std::size_t addrs = 0x6789928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeBrickIndex_CellIndexUpdateInfo::*)()>(
     &::UnityEngine::Rendering::ProbeBrickIndex_CellIndexUpdateInfo::GetNumberOfChunks)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x678204c;
+  constexpr static std::size_t addrs = 0x6789ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeBrickIndex::*)()>(&::UnityEngine::Rendering::ProbeBrickIndex::get_estimatedVMemCost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67809ac;
+  constexpr static std::size_t addrs = 0x6788428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(), { "get_estimatedVMemCost", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)(int32_t)>(&::UnityEngine::Rendering::ProbeBrickIndex::set_estimatedVMemCost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67809b4;
+  constexpr static std::size_t addrs = 0x6788430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ComputeBuffer* (::UnityEngine::Rendering::ProbeBrickIndex::*)()>(
     &::UnityEngine::Rendering::ProbeBrickIndex::GetDebugFragmentationBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67809bc;
+  constexpr static std::size_t addrs = 0x6788438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(), { "GetDebugFragmentationBuffer", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeBrickIndex::*)()>(&::UnityEngine::Rendering::ProbeBrickIndex::get_fragmentationRate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67809c4;
+  constexpr static std::size_t addrs = 0x6788440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(), { "get_fragmentationRate", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)(float_t)>(&::UnityEngine::Rendering::ProbeBrickIndex::set_fragmentationRate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67809cc;
+  constexpr static std::size_t addrs = 0x6788448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeBrickIndex::*)(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget)>(
     &::UnityEngine::Rendering::ProbeBrickIndex::SizeOfPhysicalIndexFromBudget)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67809d4;
+  constexpr static std::size_t addrs = 0x6788450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget)>(
     &::UnityEngine::Rendering::ProbeBrickIndex::_ctor)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6780a1c;
+  constexpr static std::size_t addrs = 0x6788498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(),
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeBrickIndex::*)()>(&::UnityEngine::Rendering::ProbeBrickIndex::GetRemainingChunkCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6780ccc;
+  constexpr static std::size_t addrs = 0x6788748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(), { "GetRemainingChunkCount", {}, {} })));
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)()>(&::UnityEngine::Rendering::ProbeBrickIndex::UploadIndexData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6780cd4;
+  constexpr static std::size_t addrs = 0x6788750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(), { "UploadIndexData", {}, {} })));
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)()>(&::UnityEngine::Rendering::ProbeBrickIndex::UpdateDebugData)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6780d50;
+  constexpr static std::size_t addrs = 0x67887cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(), { "UpdateDebugData", {}, {} })));
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)()>(&::UnityEngine::Rendering::ProbeBrickIndex::Clear)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6780c14;
+  constexpr static std::size_t addrs = 0x6788690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(), { "Clear", {}, {} })));
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources>)>(
     &::UnityEngine::Rendering::ProbeBrickIndex::GetRuntimeResources)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6780ec8;
+  constexpr static std::size_t addrs = 0x6788944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)()>(&::UnityEngine::Rendering::ProbeBrickIndex::Cleanup)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6780fbc;
+  constexpr static std::size_t addrs = 0x6788a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(), { "Cleanup", {}, {} })));
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)()>(&::UnityEngine::Rendering::ProbeBrickIndex::ComputeFragmentationRate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6781058;
+  constexpr static std::size_t addrs = 0x6788ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(), { "ComputeFragmentationRate", {}, {} })));
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeBrickIndex::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::ProbeBrickIndex::MergeIndex)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67810bc;
+  constexpr static std::size_t addrs = 0x6788b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeBrickIndex::*)(int32_t)>(&::UnityEngine::Rendering::ProbeBrickIndex::GetNumberOfChunks)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x67810c8;
+  constexpr static std::size_t addrs = 0x6788b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeBrickIndex::*)(::by_ref<::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo>>)>(
     &::UnityEngine::Rendering::ProbeBrickIndex::FindSlotsForEntries)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x6781148;
+  constexpr static std::size_t addrs = 0x6788bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeBrickIndex::*)(::ArrayW<::UnityEngine::Rendering::ProbeBrickIndex_IndirectionEntryUpdateInfo>, bool)>(
     &::UnityEngine::Rendering::ProbeBrickIndex::ReserveChunks)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x67814cc;
+  constexpr static std::size_t addrs = 0x6788f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int)>(
     &::UnityEngine::Rendering::ProbeBrickIndex::BrickOverlapEntry)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6781618;
+  constexpr static std::size_t addrs = 0x6789094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeBrickIndex*>(),
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, ::UnityEngine::Vector3Int)>(&::UnityEngine::Rendering::ProbeBrickIndex::LocationToIndex)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6781664;
+  constexpr static std::size_t addrs = 0x67890e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                            ::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int, int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::ProbeBrickIndex::MarkBrickInPhysicalBuffer)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x6781674;
+  constexpr static std::size_t addrs = 0x67890f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -430,7 +430,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo*, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>,
     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>*, int32_t, int32_t, int32_t)>(&::UnityEngine::Rendering::ProbeBrickIndex::AddBricks)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x67819a8;
+  constexpr static std::size_t addrs = 0x6789424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeBrickIndex::*)(::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo*)>(
     &::UnityEngine::Rendering::ProbeBrickIndex::RemoveBricks)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6781d90;
+  constexpr static std::size_t addrs = 0x678980c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

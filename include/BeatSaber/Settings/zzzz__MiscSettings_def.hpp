@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/MiscSettings.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\MiscSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   static ::BeatSaber::Settings::MiscSettings_ResponseLevel const Long;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22092 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -95,7 +95,7 @@ public:
   constexpr MiscSettings(int32_t region, ::StringW language, ::BeatSaber::Settings::MiscSettings_ResponseLevel pauseButtonResponse) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22093 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

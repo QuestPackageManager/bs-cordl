@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerConditionalActiveByLayout.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerConditionalActiveByLayout.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
   static ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition const ShowIf;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6130 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,12 +102,12 @@ public:
   /// @brief Field _layoutProvider, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider)) ::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
-  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x59c90c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x59d132c, size 0x58, virtual false, abstract: false, final false
   inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t playersCount);
 
   static inline ::GlobalNamespace::MultiplayerConditionalActiveByLayout* New_ctor();
 
-  /// @brief Method Start, addr 0x59c8fe4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59d1250, size 0xdc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition const& __cordl_internal_get__condition() const;
@@ -128,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
-  /// @brief Method .ctor, addr 0x59c91d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d1384, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,7 +146,7 @@ public:
   MultiplayerConditionalActiveByLayout(MultiplayerConditionalActiveByLayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6131 };
 
   /// @brief Field _condition, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition ____condition;

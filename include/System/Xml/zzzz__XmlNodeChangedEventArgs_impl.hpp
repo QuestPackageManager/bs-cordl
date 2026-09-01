@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlNodeChangedEventArgs.hpp"
+// IWYU pragma private; include "System\Xml\XmlNodeChangedEventArgs.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedAction_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedEventArgs_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNodeChangedEventArgs::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*, ::System::Xml::XmlNode*, ::StringW, ::StringW,
                                                                                                         ::System::Xml::XmlNodeChangedAction)>(&::System::Xml::XmlNodeChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x62b79e8;
+  constexpr static std::size_t addrs = 0x62bf464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeChangedAction (::System::Xml::XmlNodeChangedEventArgs::*)()>(&::System::Xml::XmlNodeChangedEventArgs::get_Action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62c0c24;
+  constexpr static std::size_t addrs = 0x62c86a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlNodeChangedEventArgs*>(), { "get_Action", {}, {} })));

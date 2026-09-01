@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Linq/LineInfoEndElementAnnotation.hpp"
+// IWYU pragma private; include "System\Xml\Linq\LineInfoEndElementAnnotation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Xml::Linq::LineInfoEndElementAnnotation* New_ctor(int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x619b750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61a31cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, int32_t linePosition);
 
 protected:
@@ -40,7 +40,7 @@ public:
   LineInfoEndElementAnnotation(LineInfoEndElementAnnotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

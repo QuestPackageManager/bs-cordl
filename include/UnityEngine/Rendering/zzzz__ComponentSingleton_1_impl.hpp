@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ComponentSingleton_1.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ComponentSingleton_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ComponentSingleton_1_def.hpp"
 template <typename TType> inline void UnityEngine::Rendering::ComponentSingleton_1<TType>::setStaticF_s_Instance(TType value) {

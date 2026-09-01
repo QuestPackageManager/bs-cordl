@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VisualEffectPlayableSerializedEventNoColor.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VisualEffectPlayableSerializedEventNoColor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ namespace UnityEngine::VFX {
 struct CORDL_TYPE VisualEffectPlayableSerializedEventNoColor {
 public:
   // Declarations
-  /// @brief Method op_Implicit, addr 0x69cae10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x69d288c, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VisualEffectPlayableSerializedEvent
   op_Implicit___UnityEngine__VFX__VisualEffectPlayableSerializedEvent(::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor evt);
 
@@ -43,7 +43,7 @@ public:
                                                        ::UnityEngine::VFX::EventAttributes eventAttributes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19957 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

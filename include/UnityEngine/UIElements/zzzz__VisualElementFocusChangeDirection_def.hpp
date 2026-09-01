@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/VisualElementFocusChangeDirection.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\VisualElementFocusChangeDirection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,17 +31,17 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* New_ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cc3474, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccaff8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* getStaticF_s_Left();
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* getStaticF_s_Right();
 
-  /// @brief Method get_left, addr 0x6cc33bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x6ccaf40, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_left();
 
-  /// @brief Method get_right, addr 0x6cc3418, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x6ccaf9c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_right();
 
   static inline void setStaticF_s_Left(::UnityEngine::UIElements::VisualElementFocusChangeDirection* value);

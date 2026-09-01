@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/CodeInterpreter.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\CodeInterpreter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__CodeInterpreter_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Object*, ::System::Type*, ::System::Type*)>(&::System::Runtime::Serialization::CodeInterpreter::ConvertValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6174358;
+  constexpr static std::size_t addrs = 0x617bdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::TypeCode)>(&::System::Runtime::Serialization::CodeInterpreter::CanConvert)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x61745b8;
+  constexpr static std::size_t addrs = 0x617c034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Object*, ::System::Type*, ::System::Type*, bool)>(
     &::System::Runtime::Serialization::CodeInterpreter::InternalConvert)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6174360;
+  constexpr static std::size_t addrs = 0x617bddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Reflection::MemberInfo*, ::System::Object*)>(&::System::Runtime::Serialization::CodeInterpreter::GetMember)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x61745c8;
+  constexpr static std::size_t addrs = 0x617c044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Reflection::MemberInfo*, ::System::Object*, ::System::Object*)>(
     &::System::Runtime::Serialization::CodeInterpreter::SetMember)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x61746c4;
+  constexpr static std::size_t addrs = 0x617c140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

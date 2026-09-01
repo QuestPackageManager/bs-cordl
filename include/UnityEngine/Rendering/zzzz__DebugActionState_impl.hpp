@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DebugActionState.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DebugActionState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__DebugActionState_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugActionState::*)()>(&::UnityEngine::Rendering::DebugActionState::get_runningAction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x675fedc;
+  constexpr static std::size_t addrs = 0x6767958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugActionState*>(), { "get_runningAction", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)(bool)>(&::UnityEngine::Rendering::DebugActionState::set_runningAction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x675fee4;
+  constexpr static std::size_t addrs = 0x6767960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::DebugActionState::*)()>(&::UnityEngine::Rendering::DebugActionState::get_actionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x675feec;
+  constexpr static std::size_t addrs = 0x6767968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugActionState*>(), { "get_actionState", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)(float_t)>(&::UnityEngine::Rendering::DebugActionState::set_actionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x675fef4;
+  constexpr static std::size_t addrs = 0x6767970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)(int32_t, float_t)>(&::UnityEngine::Rendering::DebugActionState::Trigger)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x675fefc;
+  constexpr static std::size_t addrs = 0x6767978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)(::UnityEngine::InputSystem::InputAction*, float_t)>(
     &::UnityEngine::Rendering::DebugActionState::TriggerWithButton)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x675bd64;
+  constexpr static std::size_t addrs = 0x67637e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)()>(&::UnityEngine::Rendering::DebugActionState::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x675ffb0;
+  constexpr static std::size_t addrs = 0x6767a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugActionState*>(), { "Reset", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)(::UnityEngine::Rendering::DebugActionDesc*)>(
     &::UnityEngine::Rendering::DebugActionState::Update)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x675be44;
+  constexpr static std::size_t addrs = 0x67638c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugActionState::*)()>(&::UnityEngine::Rendering::DebugActionState::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x675bc14;
+  constexpr static std::size_t addrs = 0x6763690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugActionState*>(), { ".ctor", {}, {} })));

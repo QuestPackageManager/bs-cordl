@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IXRSystemState.hpp"
+// IWYU pragma private; include "GlobalNamespace\IXRSystemState.hpp"
 #include "GlobalNamespace/zzzz__IXRSystemState_def.hpp"
 #include "GlobalNamespace/zzzz__XRSystemEventType_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

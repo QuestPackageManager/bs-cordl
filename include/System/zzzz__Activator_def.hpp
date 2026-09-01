@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Activator.hpp"
+// IWYU pragma private; include "System\Activator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,27 +35,27 @@ namespace System {
 class CORDL_TYPE Activator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateInstance, addr 0x5c6e39c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5c72858, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type);
 
-  /// @brief Method CreateInstance, addr 0x5c6e36c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5c72828, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*> args);
 
-  /// @brief Method CreateInstance, addr 0x5c6e384, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5c72840, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*> args, ::ArrayW<::System::Object*> activationAttributes);
 
-  /// @brief Method CreateInstance, addr 0x5c6d7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5c71c5c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> args,
                                                  ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method CreateInstance, addr 0x5c6d7a8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5c71c64, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> args,
                                                  ::System::Globalization::CultureInfo* culture, ::ArrayW<::System::Object*> activationAttributes);
 
-  /// @brief Method CreateInstance, addr 0x5c6e3a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5c72864, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic);
 
-  /// @brief Method CreateInstance, addr 0x5c6e3b0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x5c7286c, size 0x174, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic, bool wrapExceptions);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

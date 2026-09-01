@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ArgConditionCopyNonLazyBinder.hpp"
+// IWYU pragma private; include "Zenject\ArgConditionCopyNonLazyBinder.hpp"
 #include "Zenject/zzzz__InstantiateCallbackConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__ArgConditionCopyNonLazyBinder_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ArgConditionCopyNonLazyBinder::*)(::Zenject::BindInfo*)>(&::Zenject::ArgConditionCopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e427f0;
+  constexpr static std::size_t addrs = 0x6e4a374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (::Zenject::ArgConditionCopyNonLazyBinder::*)(::ArrayW<::System::Object*>)>(
     &::Zenject::ArgConditionCopyNonLazyBinder::WithArguments)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6e427f8;
+  constexpr static std::size_t addrs = 0x6e4a37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (
     ::Zenject::ArgConditionCopyNonLazyBinder::*)(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>*)>(&::Zenject::ArgConditionCopyNonLazyBinder::WithArgumentsExplicit)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x6e4297c;
+  constexpr static std::size_t addrs = 0x6e4a500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

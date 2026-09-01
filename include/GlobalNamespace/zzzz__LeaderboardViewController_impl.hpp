@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LeaderboardViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\LeaderboardViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardViewController::*)()>(&::GlobalNamespace::LeaderboardViewController::RefreshLevelStats)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59460d4;
+  constexpr static std::size_t addrs = 0x5949a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardViewController::*)()>(&::GlobalNamespace::LeaderboardViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59460d8;
+  constexpr static std::size_t addrs = 0x5949a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardViewController*>(), { ".ctor", {}, {} })));

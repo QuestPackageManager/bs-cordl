@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/UnicastIPAddressInformationCollection.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\UnicastIPAddressInformationCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,30 +59,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x634af2c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x63529a8, size 0x50, virtual true, abstract: false, final false
   inline void Add(::System::Net::NetworkInformation::UnicastIPAddressInformation* address);
 
-  /// @brief Method Clear, addr 0x634b0f8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x6352b74, size 0x50, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x634afe0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x6352a5c, size 0x64, virtual true, abstract: false, final false
   inline bool Contains(::System::Net::NetworkInformation::UnicastIPAddressInformation* address);
 
-  /// @brief Method CopyTo, addr 0x634ae64, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x63528e0, size 0x6c, virtual true, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Net::NetworkInformation::UnicastIPAddressInformation*> array, int32_t offset);
 
-  /// @brief Method GetEnumerator, addr 0x634b054, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6352ad0, size 0x54, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>* GetEnumerator();
 
-  /// @brief Method InternalAdd, addr 0x634af7c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InternalAdd, addr 0x63529f8, size 0x64, virtual false, abstract: false, final false
   inline void InternalAdd(::System::Net::NetworkInformation::UnicastIPAddressInformation* address);
 
   static inline ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* New_ctor();
 
-  /// @brief Method Remove, addr 0x634b0a8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x6352b24, size 0x50, virtual true, abstract: false, final false
   inline bool Remove(::System::Net::NetworkInformation::UnicastIPAddressInformation* address);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x634b044, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6352ac0, size 0x10, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>* const& __cordl_internal_get_addresses() const;
@@ -91,13 +91,13 @@ public:
 
   constexpr void __cordl_internal_set_addresses(::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>* value);
 
-  /// @brief Method .ctor, addr 0x634adf0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635286c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x634aed0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x635294c, size 0x54, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x634af24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x63529a0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>"
@@ -126,7 +126,7 @@ public:
   UnicastIPAddressInformationCollection(UnicastIPAddressInformationCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11681 };
 
   /// @brief Field addresses, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation*>* ___addresses;

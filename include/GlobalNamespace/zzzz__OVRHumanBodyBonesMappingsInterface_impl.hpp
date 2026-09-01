@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRHumanBodyBonesMappingsInterface.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRHumanBodyBonesMappingsInterface.hpp"
 #include "GlobalNamespace/zzzz__OVRHumanBodyBonesMappingsInterface_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 #include "GlobalNamespace/zzzz__OVRUnityHumanoidSkeletonRetargeter_def.hpp"

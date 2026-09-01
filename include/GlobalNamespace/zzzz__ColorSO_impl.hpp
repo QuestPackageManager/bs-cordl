@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ColorSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\ColorSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::GlobalNamespace::ColorSO*)>(&::GlobalNamespace::ColorSO::op_Implicit___UnityEngine__Color)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x36f3c9c;
+  constexpr static std::size_t addrs = 0x36f7a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSO::*)()>(&::GlobalNamespace::ColorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f2f14;
+  constexpr static std::size_t addrs = 0x36f6cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSO*>(), { ".ctor", {}, {} })));

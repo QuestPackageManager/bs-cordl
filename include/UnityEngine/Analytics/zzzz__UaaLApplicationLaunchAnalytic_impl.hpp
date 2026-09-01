@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Analytics/UaaLApplicationLaunchAnalytic.hpp"
+// IWYU pragma private; include "UnityEngine\Analytics\UaaLApplicationLaunchAnalytic.hpp"
 #include "UnityEngine/Analytics/zzzz__AnalyticsEventBase_impl.hpp"
 #include "UnityEngine/Analytics/zzzz__UaaLApplicationLaunchAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic::*)()>(&::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b000e0;
+  constexpr static std::size_t addrs = 0x6b07af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic* (*)()>(
     &::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic::CreateUaaLApplicationLaunchAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b00158;
+  constexpr static std::size_t addrs = 0x6b07b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

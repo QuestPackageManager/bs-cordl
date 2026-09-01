@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/PlaceholderFactoryBindingFinalizer_1.hpp"
+// IWYU pragma private; include "Zenject\PlaceholderFactoryBindingFinalizer_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +62,7 @@ public:
   PlaceholderFactoryBindingFinalizer_1(PlaceholderFactoryBindingFinalizer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14217 };
 
   /// @brief Field _factoryBindInfo, offset: 0x20, size: 0x8, def value: None
   ::Zenject::FactoryBindInfo* ____factoryBindInfo;

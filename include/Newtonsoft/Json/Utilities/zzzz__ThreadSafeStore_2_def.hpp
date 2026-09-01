@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/ThreadSafeStore_2.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\ThreadSafeStore_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ public:
   ThreadSafeStore_2(ThreadSafeStore_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13466 };
 
   /// @brief Field _concurrentStore, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* ____concurrentStore;

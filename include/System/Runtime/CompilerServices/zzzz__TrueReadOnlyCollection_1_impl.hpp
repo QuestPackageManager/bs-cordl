@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/TrueReadOnlyCollection_1.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\TrueReadOnlyCollection_1.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TrueReadOnlyCollection_1_def.hpp"
 template <typename T> inline void System::Runtime::CompilerServices::TrueReadOnlyCollection_1<T>::_ctor(::ArrayW<T> list) {

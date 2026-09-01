@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/Headers/AuthenticationHeaderValue.hpp"
+// IWYU pragma private; include "System\Net\Http\Headers\AuthenticationHeaderValue.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,29 +49,29 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x60da8e0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60e235c, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x60da994, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60e2410, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::AuthenticationHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::AuthenticationHeaderValue* New_ctor(::StringW scheme, ::StringW parameter);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x60da8dc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x60e2358, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x60db140, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60e2bbc, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x60dac3c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60e26b8, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::AuthenticationHeaderValue*>*> result);
 
-  /// @brief Method TryParse, addr 0x60daa00, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x60e247c, size 0xc0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue);
 
-  /// @brief Method TryParseElement, addr 0x60daac8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x60e2544, size 0x174, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::by_ref<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue,
                                      ::by_ref<::System::Net::Http::Headers::Token> t);
 
@@ -87,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__Scheme_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60da8b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e2334, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x60da88c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e2308, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW scheme, ::StringW parameter);
 
-  /// @brief Method get_Parameter, addr 0x60da8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameter, addr 0x60e2338, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Parameter();
 
-  /// @brief Method get_Scheme, addr 0x60da8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scheme, addr 0x60e2348, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Scheme();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Parameter, addr 0x60da8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Parameter, addr 0x60e2340, size 0x8, virtual false, abstract: false, final false
   inline void set_Parameter(::StringW value);
 
-  /// @brief Method set_Scheme, addr 0x60da8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Scheme, addr 0x60e2350, size 0x8, virtual false, abstract: false, final false
   inline void set_Scheme(::StringW value);
 
 protected:
@@ -123,7 +123,7 @@ public:
   AuthenticationHeaderValue(AuthenticationHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20293 };
 
   /// @brief Field <Parameter>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Parameter_k__BackingField;

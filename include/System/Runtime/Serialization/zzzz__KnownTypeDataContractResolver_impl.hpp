@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/KnownTypeDataContractResolver.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\KnownTypeDataContractResolver.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContractResolver_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__KnownTypeDataContractResolver_def.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContractResolver_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::KnownTypeDataContractResolver::*)(::System::Runtime::Serialization::XmlObjectSerializerContext*)>(
     &::System::Runtime::Serialization::KnownTypeDataContractResolver::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61503f8;
+  constexpr static std::size_t addrs = 0x6157e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::KnownTypeDataContractResolver*>(),
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::
     ::System::Type*, ::System::Type*, ::System::Runtime::Serialization::DataContractResolver*, ::by_ref<::System::Xml::XmlDictionaryString*>, ::by_ref<::System::Xml::XmlDictionaryString*>)>(
     &::System::Runtime::Serialization::KnownTypeDataContractResolver::TryResolveType)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6150400;
+  constexpr static std::size_t addrs = 0x6157e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::KnownTypeDataContractResolver*>(),
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Type* (::System::Runtime::Serialization::KnownTypeDataContractResolver::*)(::StringW, ::StringW, ::System::Type*, ::System::Runtime::Serialization::DataContractResolver*)>(
         &::System::Runtime::Serialization::KnownTypeDataContractResolver::ResolveName)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6150584;
+  constexpr static std::size_t addrs = 0x6158000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::KnownTypeDataContractResolver*>(),

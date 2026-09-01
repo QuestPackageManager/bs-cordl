@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/CertificateStatusRequest.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\CertificateStatusRequest.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateStatusRequest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__OcspStatusRequest_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::*)(uint8_t, ::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3437100;
+  constexpr static std::size_t addrs = 0x343aec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::get_StatusType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3437284;
+  constexpr static std::size_t addrs = 0x343b044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::get_Request)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x343728c;
+  constexpr static std::size_t addrs = 0x343b04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* (::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::GetOcspStatusRequest)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3437294;
+  constexpr static std::size_t addrs = 0x343b054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::Encode)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3437368;
+  constexpr static std::size_t addrs = 0x343b128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest* (*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::Parse)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3437488;
+  constexpr static std::size_t addrs = 0x343b248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint8_t, ::System::Object*)>(&::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest::IsCorrectType)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3437194;
+  constexpr static std::size_t addrs = 0x343af54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest*>(),

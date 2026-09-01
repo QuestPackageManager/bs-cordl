@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SpawnRotationChevronManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\SpawnRotationChevronManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationChevronManager_def.hpp"
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager_DirectionData::*)()>(
     &::GlobalNamespace::SpawnRotationChevronManager_DirectionData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x599f0dc;
+  constexpr static std::size_t addrs = 0x59a7010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager_DirectionData*>(), { ".ctor", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData::*)(float_t, float_t, int32_t)>(
     &::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x599f0d0;
+  constexpr static std::size_t addrs = 0x59a7004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData>(),
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(&::GlobalNamespace::SpawnRotationChevronManager::Update)> {
   constexpr static std::size_t size = 0x7a0;
-  constexpr static std::size_t addrs = 0x599e480;
+  constexpr static std::size_t addrs = 0x59a63b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { "Update", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(&::GlobalNamespace::SpawnRotationChevronManager::OnDestroy)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x599efcc;
+  constexpr static std::size_t addrs = 0x59a6f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { "OnDestroy", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)(::GlobalNamespace::BeatmapObjectData*)>(
     &::GlobalNamespace::SpawnRotationChevronManager::HandleBeatmapObjectCallback)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x599f00c;
+  constexpr static std::size_t addrs = 0x59a6f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)(float_t, float_t, int32_t)>(
     &::GlobalNamespace::SpawnRotationChevronManager::SpawnDirectionData)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x599ec20;
+  constexpr static std::size_t addrs = 0x59a6b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnRotationChevronManager::*)()>(&::GlobalNamespace::SpawnRotationChevronManager::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x599f0e0;
+  constexpr static std::size_t addrs = 0x59a7014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnRotationChevronManager*>(), { ".ctor", {}, {} })));

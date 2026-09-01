@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/TitleViewController.hpp"
+// IWYU pragma private; include "HMUI\TitleViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
 
   static inline ::HMUI::TitleViewController* New_ctor();
 
-  /// @brief Method SetText, addr 0x32ef5e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x32f33e0, size 0x20, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x32f2b64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f6960, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   TitleViewController(TitleViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20967 };
 
   /// @brief Field _text, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

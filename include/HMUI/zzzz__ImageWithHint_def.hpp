@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/ImageWithHint.hpp"
+// IWYU pragma private; include "HMUI\ImageWithHint.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ImageWithHint)
 namespace HMUI {
 class HoverHint;
+}
+namespace HMUI {
+class ImageViewBase;
 }
 namespace UnityEngine::UI {
 class Image;
@@ -42,6 +45,8 @@ public:
 
   __declspec(property(get = get_imageColor, put = set_imageColor)) ::UnityEngine::Color imageColor;
 
+  __declspec(property(get = get_imageViewBase)) ::UnityW<::HMUI::ImageViewBase> imageViewBase;
+
   __declspec(property(get = get_sprite, put = set_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
 
   static inline ::HMUI::ImageWithHint* New_ctor();
@@ -58,22 +63,25 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x5886854, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x588621c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_imageColor, addr 0x5886814, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_imageColor, addr 0x588615c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_imageColor();
 
-  /// @brief Method get_sprite, addr 0x58867e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_imageViewBase, addr 0x588619c, size 0x80, virtual false, abstract: false, final false
+  inline ::UnityW<::HMUI::ImageViewBase> get_imageViewBase();
+
+  /// @brief Method get_sprite, addr 0x588612c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hintText, addr 0x58867fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x5886144, size 0x18, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_imageColor, addr 0x5886834, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_imageColor, addr 0x588617c, size 0x20, virtual false, abstract: false, final false
   inline void set_imageColor(::UnityEngine::Color value);
 
-  /// @brief Method set_sprite, addr 0x58867cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x5886114, size 0x18, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -91,7 +99,7 @@ public:
   ImageWithHint(ImageWithHint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19086 };
 
   /// @brief Field _image, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____image;

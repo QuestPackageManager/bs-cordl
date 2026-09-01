@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CustomControlTrack.hpp"
+// IWYU pragma private; include "GlobalNamespace\CustomControlTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlTrack_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomControlTrack_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomControlTrack._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomControlTrack::*)()>(&::GlobalNamespace::CustomControlTrack::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5904314;
+  constexpr static std::size_t addrs = 0x5907900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomControlTrack*>(), { ".ctor", {}, {} })));

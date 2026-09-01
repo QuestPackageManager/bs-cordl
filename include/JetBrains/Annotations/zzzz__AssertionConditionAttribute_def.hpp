@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "JetBrains/Annotations/AssertionConditionAttribute.hpp"
+// IWYU pragma private; include "JetBrains\Annotations\AssertionConditionAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__ConditionType_k__BackingField(::JetBrains::Annotations::AssertionConditionType value);
 
-  /// @brief Method .ctor, addr 0x6e36648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3e1cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::AssertionConditionType conditionType);
 
-  /// @brief Method get_ConditionType, addr 0x6e36650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConditionType, addr 0x6e3e1d4, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::AssertionConditionType get_ConditionType();
 
-  /// @brief Method set_ConditionType, addr 0x6e36658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ConditionType, addr 0x6e3e1dc, size 0x8, virtual false, abstract: false, final false
   inline void set_ConditionType(::JetBrains::Annotations::AssertionConditionType value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   AssertionConditionAttribute(AssertionConditionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22587 };
 
   /// @brief Field <ConditionType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::AssertionConditionType ____ConditionType_k__BackingField;

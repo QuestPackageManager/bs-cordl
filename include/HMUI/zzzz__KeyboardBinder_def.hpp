@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/KeyboardBinder.hpp"
+// IWYU pragma private; include "HMUI\KeyboardBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,7 +83,7 @@ public:
   static ::HMUI::KeyboardBinder_KeyBindingType const KeyUp;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19027 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -124,19 +124,19 @@ public:
 
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
-  /// @brief Method AddBinding, addr 0x587773c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x587707c, size 0x130, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::KeyCode keyCode, ::HMUI::KeyboardBinder_KeyBindingType keyBindingType, ::System::Action_1<bool>* action);
 
-  /// @brief Method AddBindings, addr 0x5877914, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x5877254, size 0x154, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x5877a68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x58773a8, size 0x78, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Init, addr 0x5877670, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5876fb0, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method ManualUpdate, addr 0x5877ae0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x5877420, size 0x158, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::HMUI::KeyboardBinder* New_ctor();
@@ -176,19 +176,19 @@ public:
 
   constexpr void __cordl_internal_set__shouldClearBindings(bool value);
 
-  /// @brief Method .ctor, addr 0x58775d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5876f14, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x587786c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58771ac, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method .ctor, addr 0x587767c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5876fbc, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::KeyCode keycode, ::HMUI::KeyboardBinder_KeyBindingType keyBindingType, ::System::Action_1<bool>* action);
 
-  /// @brief Method get_enabled, addr 0x58775c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x5876f04, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method set_enabled, addr 0x58775cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x5876f0c, size 0x8, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:
@@ -206,7 +206,7 @@ public:
   KeyboardBinder(KeyboardBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19028 };
 
   /// @brief Field <enabled>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____enabled_k__BackingField;

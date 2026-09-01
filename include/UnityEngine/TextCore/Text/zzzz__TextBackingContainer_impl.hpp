@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextBackingContainer.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextBackingContainer.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextBackingContainer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextBackingContainer.get_Capacity
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextBackingContainer::*)()>(&::UnityEngine::TextCore::Text::TextBackingContainer::get_Capacity)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bffc58;
+  constexpr static std::size_t addrs = 0x6c077dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), { "get_Capacity", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextBackingContainer::*)()>(&::UnityEngine::TextCore::Text::TextBackingContainer::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bffc70;
+  constexpr static std::size_t addrs = 0x6c077f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextBackingContainer>(), { "get_Count", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextBackingContainer::*)(int32_t)>(&::UnityEngine::TextCore::Text::TextBackingContainer::set_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bffc78;
+  constexpr static std::size_t addrs = 0x6c077fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::Text::TextBackingContainer::*)(int32_t)>(&::UnityEngine::TextCore::Text::TextBackingContainer::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6bffc80;
+  constexpr static std::size_t addrs = 0x6c07804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextBackingContainer::*)(int32_t, uint32_t)>(
     &::UnityEngine::TextCore::Text::TextBackingContainer::set_Item)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6bffcb0;
+  constexpr static std::size_t addrs = 0x6c07834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextBackingContainer::*)(int32_t)>(&::UnityEngine::TextCore::Text::TextBackingContainer::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6bffd80;
+  constexpr static std::size_t addrs = 0x6c07904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextBackingContainer::*)(int32_t)>(&::UnityEngine::TextCore::Text::TextBackingContainer::Resize)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bffd10;
+  constexpr static std::size_t addrs = 0x6c07894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

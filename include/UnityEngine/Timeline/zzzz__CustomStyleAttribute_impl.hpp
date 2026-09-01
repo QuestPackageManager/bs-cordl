@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/CustomStyleAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\CustomStyleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__CustomStyleAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::CustomStyleAttribute._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::CustomStyleAttribute::*)(::StringW)>(&::UnityEngine::Timeline::CustomStyleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c39dc;
+  constexpr static std::size_t addrs = 0x69cb458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

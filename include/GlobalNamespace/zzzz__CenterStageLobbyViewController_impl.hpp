@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CenterStageLobbyViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\CenterStageLobbyViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__CenterStageLobbyViewController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageLobbyViewController::*)(::GlobalNamespace::ILevelGameplaySetupData*)>(
     &::GlobalNamespace::CenterStageLobbyViewController::SetLevelGameplaySetupData)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x595cf54;
+  constexpr static std::size_t addrs = 0x596081c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CenterStageLobbyViewController*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CenterStageLobbyViewController::*)()>(&::GlobalNamespace::CenterStageLobbyViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x595d0a4;
+  constexpr static std::size_t addrs = 0x596096c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CenterStageLobbyViewController*>(), { ".ctor", {}, {} })));

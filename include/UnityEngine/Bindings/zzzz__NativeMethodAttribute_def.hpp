@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Bindings/NativeMethodAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Bindings\NativeMethodAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -83,31 +83,31 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6bae650, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb61d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6bae654, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb61d8, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x6bae74c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb62d0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction);
 
-  /// @brief Method .ctor, addr 0x6bae770, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb62f4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction, bool isThreadSafe);
 
-  /// @brief Method set_HasExplicitThis, addr 0x6bae648, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_HasExplicitThis, addr 0x6bb61cc, size 0x8, virtual true, abstract: false, final true
   inline void set_HasExplicitThis(bool value);
 
-  /// @brief Method set_IsFreeFunction, addr 0x6bae638, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_IsFreeFunction, addr 0x6bb61bc, size 0x8, virtual true, abstract: false, final true
   inline void set_IsFreeFunction(bool value);
 
-  /// @brief Method set_IsThreadSafe, addr 0x6bae630, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_IsThreadSafe, addr 0x6bb61b4, size 0x8, virtual true, abstract: false, final true
   inline void set_IsThreadSafe(bool value);
 
-  /// @brief Method set_Name, addr 0x6bae628, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Name, addr 0x6bb61ac, size 0x8, virtual true, abstract: false, final true
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_ThrowsException, addr 0x6bae640, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x6bb61c4, size 0x8, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
 protected:
@@ -125,7 +125,7 @@ public:
   NativeMethodAttribute(NativeMethodAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23111 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

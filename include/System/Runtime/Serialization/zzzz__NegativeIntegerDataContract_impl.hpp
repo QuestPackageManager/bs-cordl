@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/NegativeIntegerDataContract.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\NegativeIntegerDataContract.hpp"
 #include "System/Runtime/Serialization/zzzz__LongDataContract_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__NegativeIntegerDataContract_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::NegativeIntegerDataContract._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::NegativeIntegerDataContract::*)()>(
     &::System::Runtime::Serialization::NegativeIntegerDataContract::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6154f74;
+  constexpr static std::size_t addrs = 0x615c9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::NegativeIntegerDataContract*>(), { ".ctor", {}, {} })));

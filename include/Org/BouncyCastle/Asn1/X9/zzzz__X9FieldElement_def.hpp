@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X9FieldElement.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X9\X9FieldElement.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +43,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method ToAsn1Object, addr 0x367bc74, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x367fa34, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement* const& __cordl_internal_get_f() const;
@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set_f(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  /// @brief Method .ctor, addr 0x367a75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367e51c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f);
 
-  /// @brief Method .ctor, addr 0x367bb7c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367f93c, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method .ctor, addr 0x367baa8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367f868, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method get_Value, addr 0x367bc6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x367fa2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_Value();
 
 protected:

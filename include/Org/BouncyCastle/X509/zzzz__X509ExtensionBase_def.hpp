@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/X509ExtensionBase.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\X509ExtensionBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,19 +38,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::IX509Extension"
   constexpr operator ::Org::BouncyCastle::X509::IX509Extension*() noexcept;
 
-  /// @brief Method GetCriticalExtensionOids, addr 0x356dfdc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetCriticalExtensionOids, addr 0x3571d9c, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetCriticalExtensionOids();
 
-  /// @brief Method GetExtensionOids, addr 0x356dbf4, size 0x3d8, virtual true, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x35719b4, size 0x3d8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetExtensionOids(bool critical);
 
-  /// @brief Method GetExtensionValue, addr 0x356e064, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetExtensionValue, addr 0x3571e24, size 0x38, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtensionValue, addr 0x356dfec, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method GetExtensionValue, addr 0x3571dac, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::StringW oid);
 
-  /// @brief Method GetNonCriticalExtensionOids, addr 0x356dfcc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetNonCriticalExtensionOids, addr 0x3571d8c, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNonCriticalExtensionOids();
 
   /// @brief Method GetX509Extensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -58,7 +58,7 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509ExtensionBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x356e09c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3571e5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::X509::IX509Extension"

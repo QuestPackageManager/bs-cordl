@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/DisposeBlock.hpp"
+// IWYU pragma private; include "Zenject\DisposeBlock.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,7 +84,7 @@ public:
   constexpr DisposeBlock_SpawnedObjectPoolPair(::Zenject::IMemoryPool* Pool, ::System::Object* Object) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14703 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -127,33 +127,33 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x6e948d0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6e9c454, size 0xf8, virtual false, abstract: false, final false
   inline void Add(::System::IDisposable* disposable);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddRange(::System::Collections::Generic::IList_1<T>* disposables);
 
-  /// @brief Method Dispose, addr 0x6e94ab0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e9c634, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LazyInitializeDisposableList, addr 0x6e947c0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeDisposableList, addr 0x6e9c344, size 0x110, virtual false, abstract: false, final false
   inline void LazyInitializeDisposableList();
 
   static inline ::Zenject::DisposeBlock* New_ctor();
 
-  /// @brief Method NoDomainReloadInit, addr 0x6e9429c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x6e9be20, size 0x140, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method OnDespawned, addr 0x6e94408, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x6e9bf8c, size 0x3b8, virtual false, abstract: false, final false
   static inline void OnDespawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method OnSpawned, addr 0x6e943dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnSpawned, addr 0x6e9bf60, size 0x2c, virtual false, abstract: false, final false
   static inline void OnSpawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method Remove, addr 0x6e949c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6e9c54c, size 0x68, virtual false, abstract: false, final false
   inline void Remove(::System::IDisposable* disposable);
 
-  /// @brief Method Spawn, addr 0x6e94a30, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Spawn, addr 0x6e9c5b4, size 0x80, virtual false, abstract: false, final false
   static inline ::Zenject::DisposeBlock* Spawn();
 
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set__objectPoolPairs(::System::Collections::Generic::List_1<::Zenject::DisposeBlock_SpawnedObjectPoolPair>* value);
 
-  /// @brief Method .ctor, addr 0x6e94b38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e9c6bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* getStaticF__pool();
@@ -232,7 +232,7 @@ public:
   DisposeBlock(DisposeBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14704 };
 
   /// @brief Field _disposables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::IDisposable*>* ____disposables;

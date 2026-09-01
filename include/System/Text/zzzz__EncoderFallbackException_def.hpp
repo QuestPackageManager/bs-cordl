@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/EncoderFallbackException.hpp"
+// IWYU pragma private; include "System\Text\EncoderFallbackException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5acfd40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ad41fc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5acf92c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ad3de8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x5acfb80, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ad403c, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method .ctor, addr 0x5acfda0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ad425c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:

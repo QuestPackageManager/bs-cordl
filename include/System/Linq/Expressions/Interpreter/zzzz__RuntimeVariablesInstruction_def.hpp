@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/RuntimeVariablesInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\RuntimeVariablesInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction* New_ctor(int32_t count);
 
-  /// @brief Method Run, addr 0x5fabe44, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fb38c0, size 0x13c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__count(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5fabde8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb3864, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t count);
 
-  /// @brief Method get_ConsumedStack, addr 0x5fabdf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5fb3874, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5fabe00, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fb387c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5fabdf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5fb386c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -71,7 +71,7 @@ public:
   RuntimeVariablesInstruction(RuntimeVariablesInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16475 };
 
   /// @brief Field _count, offset: 0x10, size: 0x4, def value: None
   int32_t ____count;

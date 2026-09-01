@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerBadgeDataSO.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,16 +79,16 @@ public:
 
   constexpr void __cordl_internal_set__titleLocalizationKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x372d980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37335e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_icon, addr 0x372f6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x3735228, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_subtitleLocalizationKey, addr 0x372f6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subtitleLocalizationKey, addr 0x3735238, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subtitleLocalizationKey();
 
-  /// @brief Method get_titleLocalizationKey, addr 0x372f6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleLocalizationKey, addr 0x3735230, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_titleLocalizationKey();
 
 protected:
@@ -106,7 +106,7 @@ public:
   MultiplayerBadgeDataSO(MultiplayerBadgeDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15080 };
 
   /// @brief Field _titleLocalizationKey, offset: 0x18, size: 0x8, def value: None
   ::StringW ____titleLocalizationKey;

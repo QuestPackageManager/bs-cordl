@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Converters/XProcessingInstructionWrapper.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Converters\XProcessingInstructionWrapper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,19 +31,19 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper* New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
-  /// @brief Method .ctor, addr 0x5d9c9e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da0ea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
-  /// @brief Method get_LocalName, addr 0x5d9d4c8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x5da1984, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_ProcessingInstruction, addr 0x5d9d44c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessingInstruction, addr 0x5da1908, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction();
 
-  /// @brief Method get_Value, addr 0x5d9d4e4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5da19a0, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x5d9d500, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5da19bc, size 0x38, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   XProcessingInstructionWrapper(XProcessingInstructionWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13684 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpPrivateKey.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\OpenPgp\PgpPrivateKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_publicKeyPacket(::Org::BouncyCastle::Bcpg::PublicKeyPacket* value);
 
-  /// @brief Method .ctor, addr 0x357fe84, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3583c44, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int64_t keyID, ::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method get_Key, addr 0x3584eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3588c78, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Key();
 
-  /// @brief Method get_KeyId, addr 0x3584ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x3588c68, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_PublicKeyPacket, addr 0x3584eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyPacket, addr 0x3588c70, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* get_PublicKeyPacket();
 
 protected:

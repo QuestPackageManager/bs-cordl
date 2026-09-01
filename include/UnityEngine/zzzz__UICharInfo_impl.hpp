@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UICharInfo.hpp"
+// IWYU pragma private; include "UnityEngine\UICharInfo.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__UICharInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "cursorPos", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "charWidth", ty: "float_t", modifiers: "", def_value:

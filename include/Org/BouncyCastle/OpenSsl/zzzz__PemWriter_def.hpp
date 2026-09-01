@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemWriter.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\OpenSsl\PemWriter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +32,13 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::OpenSsl::PemWriter* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method WriteObject, addr 0x35a6974, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x35aa734, size 0x15c, virtual false, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method WriteObject, addr 0x35a6ad0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x35aa890, size 0x7c, virtual false, abstract: false, final false
   inline void WriteObject(::System::Object* obj, ::StringW algorithm, ::ArrayW<char16_t> password, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x35a6970, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35aa730, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
 protected:

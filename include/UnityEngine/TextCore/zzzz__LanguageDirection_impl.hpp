@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/LanguageDirection.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\LanguageDirection.hpp"
 #include "UnityEngine/TextCore/zzzz__LanguageDirection_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::LanguageDirection::LanguageDirection(int32_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EssentialHelpers.hpp"
+// IWYU pragma private; include "GlobalNamespace\EssentialHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EssentialHelpers_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::GlobalNamespace::EssentialHelpers::get_CurrentTimeStamp)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3320610;
+  constexpr static std::size_t addrs = 0x33243d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EssentialHelpers*>(), { "get_CurrentTimeStamp", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::GlobalNamespace::EssentialHelpers::SafeDestroy)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x33206ec;
+  constexpr static std::size_t addrs = 0x33244ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

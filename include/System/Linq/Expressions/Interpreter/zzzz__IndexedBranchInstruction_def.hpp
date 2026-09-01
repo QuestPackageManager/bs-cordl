@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/IndexedBranchInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\IndexedBranchInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,16 +39,16 @@ public:
   /// @brief Field _labelIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__labelIndex, put = __cordl_internal_set__labelIndex)) int32_t _labelIndex;
 
-  /// @brief Method GetLabel, addr 0x5f87fe8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetLabel, addr 0x5f8fa64, size 0x48, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::RuntimeLabel GetLabel(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   static inline ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction* New_ctor(int32_t labelIndex);
 
-  /// @brief Method ToDebugString, addr 0x5f88030, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x5f8faac, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
-  /// @brief Method ToString, addr 0x5f88110, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5f8fb8c, size 0x94, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__labelIndex() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__labelIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5f87fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8fa5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex);
 
 protected:
@@ -75,7 +75,7 @@ public:
   IndexedBranchInstruction(IndexedBranchInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16279 };
 
   /// @brief Field _labelIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____labelIndex;

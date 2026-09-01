@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/FriendAccessAllowedAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\FriendAccessAllowedAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__FriendAccessAllowedAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::FriendAccessAllowedAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::FriendAccessAllowedAttribute::*)()>(
     &::System::Runtime::CompilerServices::FriendAccessAllowedAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6e9a4;
+  constexpr static std::size_t addrs = 0x5b72e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

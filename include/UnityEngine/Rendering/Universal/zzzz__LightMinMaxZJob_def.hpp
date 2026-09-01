@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/LightMinMaxZJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\LightMinMaxZJob.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Execute, addr 0x68b9ff4, size 0x440, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x68c1a70, size 0x440, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -48,7 +48,7 @@ public:
                             ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> lights, ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float2> minMaxZs) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12976 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };

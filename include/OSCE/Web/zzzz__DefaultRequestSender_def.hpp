@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OSCE/Web/DefaultRequestSender.hpp"
+// IWYU pragma private; include "OSCE\Web\DefaultRequestSender.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,11 +49,11 @@ public:
 
   static inline ::OSCE::Web::DefaultRequestSender* New_ctor(::OSCE::Analytics::AnalyticsManager* instance);
 
-  /// @brief Method SendBatchRequest, addr 0x5f32e18, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method SendBatchRequest, addr 0x5f37284, size 0x11c, virtual true, abstract: false, final true
   inline void SendBatchRequest(::StringW oculusGraphURL, ::StringW endpoint, ::OSCE::Analytics::LoggerAnalyticsBatch* batch,
                                ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed, ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail);
 
-  /// @brief Method SendIdRequest, addr 0x5f33028, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method SendIdRequest, addr 0x5f37494, size 0x118, virtual true, abstract: false, final true
   inline void SendIdRequest(::StringW oculusGraphURL, ::StringW endpoint, ::OSCE::Analytics::GetIdParams idRequest, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>* onSucceed,
                             ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>* onFail);
 
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__instance(::UnityW<::OSCE::Analytics::AnalyticsManager> value);
 
-  /// @brief Method .ctor, addr 0x5f32e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3727c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* instance);
 
   /// @brief Convert to "::OSCE::Web::IRequestSender"
@@ -84,7 +84,7 @@ public:
   DefaultRequestSender(DefaultRequestSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21885 };
 
   /// @brief Field _instance, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::OSCE::Analytics::AnalyticsManager> ____instance;

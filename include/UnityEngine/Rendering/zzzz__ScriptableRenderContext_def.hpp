@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/ScriptableRenderContext.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\ScriptableRenderContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,7 +119,7 @@ public:
                                                              ::UnityEngine::Rendering::LightShadowCasterCullingInfo* perLightInfos, int32_t perLightInfoCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10829 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -170,236 +170,236 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>*();
 
-  /// @brief Method BeginRenderPass, addr 0x6b1f0d4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BeginRenderPass, addr 0x6b26c58, size 0xdc, virtual false, abstract: false, final false
   inline void BeginRenderPass(int32_t width, int32_t height, int32_t samples, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::AttachmentDescriptor> attachments,
                               int32_t depthAttachmentIndex);
 
-  /// @brief Method BeginRenderPass_Internal, addr 0x6b1dcbc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method BeginRenderPass_Internal, addr 0x6b25840, size 0x8c, virtual false, abstract: false, final false
   static inline void BeginRenderPass_Internal(::System::IntPtr self, int32_t width, int32_t height, int32_t volumeDepth, int32_t samples, ::System::IntPtr colors, int32_t colorCount,
                                               int32_t depthAttachmentIndex);
 
-  /// @brief Method BeginSubPass, addr 0x6b1f1b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method BeginSubPass, addr 0x6b26d34, size 0xd4, virtual false, abstract: false, final false
   inline void BeginSubPass(::Unity::Collections::NativeArray_1<int32_t> colors, ::Unity::Collections::NativeArray_1<int32_t> inputs, bool isDepthStencilReadOnly);
 
-  /// @brief Method BeginSubPass, addr 0x6b1f284, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method BeginSubPass, addr 0x6b26e08, size 0xc4, virtual false, abstract: false, final false
   inline void BeginSubPass(::Unity::Collections::NativeArray_1<int32_t> colors, bool isDepthStencilReadOnly);
 
-  /// @brief Method BeginSubPass_Internal, addr 0x6b1dd48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method BeginSubPass_Internal, addr 0x6b258cc, size 0x84, virtual false, abstract: false, final false
   static inline void BeginSubPass_Internal(::System::IntPtr self, ::System::IntPtr colors, int32_t colorCount, ::System::IntPtr inputs, int32_t inputCount, bool isDepthReadOnly,
                                            bool isStencilReadOnly);
 
-  /// @brief Method CreateGizmoRendererList, addr 0x6b20168, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateGizmoRendererList, addr 0x6b27cec, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateGizmoRendererList(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::GizmoSubset gizmoSubset);
 
-  /// @brief Method CreateGizmoRendererList_Internal, addr 0x6b1eb88, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CreateGizmoRendererList_Internal, addr 0x6b2670c, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateGizmoRendererList_Internal(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::GizmoSubset gizmoSubset);
 
-  /// @brief Method CreateGizmoRendererList_Internal_Injected, addr 0x6b1ec9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateGizmoRendererList_Internal_Injected, addr 0x6b26820, size 0x5c, virtual false, abstract: false, final false
   static inline void CreateGizmoRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera,
                                                                ::UnityEngine::Rendering::GizmoSubset gizmoSubset, ::by_ref<::UnityEngine::Rendering::RendererList> ret);
 
-  /// @brief Method CreateRendererList, addr 0x6b1fb68, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererList, addr 0x6b276ec, size 0x128, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateRendererList(::by_ref<::UnityEngine::Rendering::RendererListParams> param);
 
-  /// @brief Method CreateRendererList_Internal, addr 0x6b1e708, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererList_Internal, addr 0x6b2628c, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateRendererList_Internal(::System::IntPtr cullResults, ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings,
                                                                             ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings, ::UnityEngine::Rendering::ShaderTagId tagName,
                                                                             bool isPassTagName, ::System::IntPtr tagValues, ::System::IntPtr stateBlocks, int32_t stateCount);
 
-  /// @brief Method CreateRendererList_Internal_Injected, addr 0x6b1e80c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererList_Internal_Injected, addr 0x6b26390, size 0xa4, virtual false, abstract: false, final false
   static inline void CreateRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr cullResults,
                                                           ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings, ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                                           ::by_ref<::UnityEngine::Rendering::ShaderTagId> tagName, bool isPassTagName, ::System::IntPtr tagValues, ::System::IntPtr stateBlocks,
                                                           int32_t stateCount, ::by_ref<::UnityEngine::Rendering::RendererList> ret);
 
-  /// @brief Method CreateShadowRendererList, addr 0x6b1fc90, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateShadowRendererList, addr 0x6b27814, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateShadowRendererList(::by_ref<::UnityEngine::Rendering::ShadowDrawingSettings> settings);
 
-  /// @brief Method CreateShadowRendererList_Internal, addr 0x6b1e8b0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateShadowRendererList_Internal, addr 0x6b26434, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateShadowRendererList_Internal(::System::IntPtr shadowDrawinSettings);
 
-  /// @brief Method CreateShadowRendererList_Internal_Injected, addr 0x6b1e964, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateShadowRendererList_Internal_Injected, addr 0x6b264e8, size 0x54, virtual false, abstract: false, final false
   static inline void CreateShadowRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr shadowDrawinSettings,
                                                                 ::by_ref<::UnityEngine::Rendering::RendererList> ret);
 
-  /// @brief Method CreateSkyboxRendererList, addr 0x6b1fff8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyboxRendererList, addr 0x6b27b7c, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList(::UnityEngine::Camera* camera);
 
-  /// @brief Method CreateSkyboxRendererList, addr 0x6b1fe7c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyboxRendererList, addr 0x6b27a00, size 0x17c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList(::UnityEngine::Camera* camera, ::UnityEngine::Matrix4x4 projectionMatrix, ::UnityEngine::Matrix4x4 viewMatrix);
 
-  /// @brief Method CreateSkyboxRendererList, addr 0x6b1fd24, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyboxRendererList, addr 0x6b278a8, size 0x158, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList(::UnityEngine::Camera* camera, ::UnityEngine::Matrix4x4 projectionMatrixL, ::UnityEngine::Matrix4x4 viewMatrixL,
                                                                          ::UnityEngine::Matrix4x4 projectionMatrixR, ::UnityEngine::Matrix4x4 viewMatrixR);
 
-  /// @brief Method CreateSkyboxRendererList_Internal, addr 0x6b1e9b8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyboxRendererList_Internal, addr 0x6b2653c, size 0x144, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateSkyboxRendererList_Internal(::UnityEngine::Camera* camera, int32_t mode, ::UnityEngine::Matrix4x4 proj, ::UnityEngine::Matrix4x4 view,
                                                                                   ::UnityEngine::Matrix4x4 projR, ::UnityEngine::Matrix4x4 viewR);
 
-  /// @brief Method CreateSkyboxRendererList_Internal_Injected, addr 0x6b1eafc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyboxRendererList_Internal_Injected, addr 0x6b26680, size 0x8c, virtual false, abstract: false, final false
   static inline void CreateSkyboxRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera, int32_t mode,
                                                                 ::by_ref<::UnityEngine::Matrix4x4> proj, ::by_ref<::UnityEngine::Matrix4x4> view, ::by_ref<::UnityEngine::Matrix4x4> projR,
                                                                 ::by_ref<::UnityEngine::Matrix4x4> viewR, ::by_ref<::UnityEngine::Rendering::RendererList> ret);
 
-  /// @brief Method CreateUIOverlayRendererList, addr 0x6b20208, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CreateUIOverlayRendererList, addr 0x6b27d8c, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateUIOverlayRendererList(::UnityEngine::Camera* camera);
 
-  /// @brief Method CreateUIOverlayRendererList, addr 0x6b202a0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateUIOverlayRendererList, addr 0x6b27e24, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateUIOverlayRendererList(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::UISubset uiSubset);
 
-  /// @brief Method CreateUIOverlayRendererList_Internal, addr 0x6b1ecf8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CreateUIOverlayRendererList_Internal, addr 0x6b2687c, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateUIOverlayRendererList_Internal(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::UISubset uiSubset);
 
-  /// @brief Method CreateUIOverlayRendererList_Internal_Injected, addr 0x6b1ee0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateUIOverlayRendererList_Internal_Injected, addr 0x6b26990, size 0x5c, virtual false, abstract: false, final false
   static inline void CreateUIOverlayRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera,
                                                                    ::UnityEngine::Rendering::UISubset uiSubset, ::by_ref<::UnityEngine::Rendering::RendererList> ret);
 
-  /// @brief Method CreateWireOverlayRendererList, addr 0x6b20340, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateWireOverlayRendererList, addr 0x6b27ec4, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateWireOverlayRendererList(::UnityEngine::Camera* camera);
 
-  /// @brief Method CreateWireOverlayRendererList_Internal, addr 0x6b1ee68, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateWireOverlayRendererList_Internal, addr 0x6b269ec, size 0x108, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererList CreateWireOverlayRendererList_Internal(::UnityEngine::Camera* camera);
 
-  /// @brief Method CreateWireOverlayRendererList_Internal_Injected, addr 0x6b1ef70, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateWireOverlayRendererList_Internal_Injected, addr 0x6b26af4, size 0x54, virtual false, abstract: false, final false
   static inline void CreateWireOverlayRendererList_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera,
                                                                      ::by_ref<::UnityEngine::Rendering::RendererList> ret);
 
-  /// @brief Method Cull, addr 0x6b1f8e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Cull, addr 0x6b27464, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CullingResults Cull(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> parameters);
 
-  /// @brief Method CullShadowCasters, addr 0x6b1f964, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CullShadowCasters, addr 0x6b274e8, size 0xc8, virtual false, abstract: false, final false
   inline void CullShadowCasters(::UnityEngine::Rendering::CullingResults cullingResults, ::UnityEngine::Rendering::ShadowCastersCullingInfos infos);
 
-  /// @brief Method DrawWireOverlay, addr 0x6b1f878, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DrawWireOverlay, addr 0x6b273fc, size 0x68, virtual false, abstract: false, final false
   inline void DrawWireOverlay(::UnityEngine::Camera* camera);
 
-  /// @brief Method DrawWireOverlay_Impl, addr 0x6b1e5e0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method DrawWireOverlay_Impl, addr 0x6b26164, size 0xdc, virtual false, abstract: false, final false
   inline void DrawWireOverlay_Impl(::UnityEngine::Camera* camera);
 
-  /// @brief Method DrawWireOverlay_Impl_Injected, addr 0x6b1e6bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DrawWireOverlay_Impl_Injected, addr 0x6b26240, size 0x44, virtual false, abstract: false, final false
   static inline void DrawWireOverlay_Impl_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera);
 
-  /// @brief Method EmitGeometryForCamera, addr 0x6b1e1ec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EmitGeometryForCamera, addr 0x6b25d70, size 0xa8, virtual false, abstract: false, final false
   static inline void EmitGeometryForCamera(::UnityEngine::Camera* camera);
 
-  /// @brief Method EmitGeometryForCamera_Injected, addr 0x6b1e294, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EmitGeometryForCamera_Injected, addr 0x6b25e18, size 0x3c, virtual false, abstract: false, final false
   static inline void EmitGeometryForCamera_Injected(::System::IntPtr camera);
 
-  /// @brief Method EndRenderPass, addr 0x6b1f3c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EndRenderPass, addr 0x6b26f48, size 0x7c, virtual false, abstract: false, final false
   inline void EndRenderPass();
 
-  /// @brief Method EndRenderPass_Internal, addr 0x6b1de08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndRenderPass_Internal, addr 0x6b2598c, size 0x3c, virtual false, abstract: false, final false
   static inline void EndRenderPass_Internal(::System::IntPtr self);
 
-  /// @brief Method EndSubPass, addr 0x6b1f348, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EndSubPass, addr 0x6b26ecc, size 0x7c, virtual false, abstract: false, final false
   inline void EndSubPass();
 
-  /// @brief Method EndSubPass_Internal, addr 0x6b1ddcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSubPass_Internal, addr 0x6b25950, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSubPass_Internal(::System::IntPtr self);
 
-  /// @brief Method Equals, addr 0x6b1fa84, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b27608, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b1fa2c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b275b0, size 0x58, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ScriptableRenderContext other);
 
-  /// @brief Method ExecuteCommandBuffer, addr 0x6b1f59c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommandBuffer, addr 0x6b27120, size 0xf0, virtual false, abstract: false, final false
   inline void ExecuteCommandBuffer(::UnityEngine::Rendering::CommandBuffer* commandBuffer);
 
-  /// @brief Method ExecuteCommandBufferAsync, addr 0x6b1f68c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommandBufferAsync, addr 0x6b27210, size 0xf8, virtual false, abstract: false, final false
   inline void ExecuteCommandBufferAsync(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Rendering::ComputeQueueType queueType);
 
-  /// @brief Method ExecuteCommandBufferAsync_Internal, addr 0x6b1e3a4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommandBufferAsync_Internal, addr 0x6b25f28, size 0x98, virtual false, abstract: false, final false
   inline void ExecuteCommandBufferAsync_Internal(::UnityEngine::Rendering::CommandBuffer* commandBuffer, ::UnityEngine::Rendering::ComputeQueueType queueType);
 
-  /// @brief Method ExecuteCommandBufferAsync_Internal_Injected, addr 0x6b1e43c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommandBufferAsync_Internal_Injected, addr 0x6b25fc0, size 0x54, virtual false, abstract: false, final false
   static inline void ExecuteCommandBufferAsync_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr commandBuffer,
                                                                  ::UnityEngine::Rendering::ComputeQueueType queueType);
 
-  /// @brief Method ExecuteCommandBuffer_Internal, addr 0x6b1e2d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommandBuffer_Internal, addr 0x6b25e54, size 0x90, virtual false, abstract: false, final false
   inline void ExecuteCommandBuffer_Internal(::UnityEngine::Rendering::CommandBuffer* commandBuffer);
 
-  /// @brief Method ExecuteCommandBuffer_Internal_Injected, addr 0x6b1e360, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommandBuffer_Internal_Injected, addr 0x6b25ee4, size 0x44, virtual false, abstract: false, final false
   static inline void ExecuteCommandBuffer_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr commandBuffer);
 
-  /// @brief Method GetCameras, addr 0x6b1c6ec, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetCameras, addr 0x6b24270, size 0xd0, virtual false, abstract: false, final false
   inline void GetCameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* results);
 
-  /// @brief Method GetCameras_Internal, addr 0x6b1e198, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCameras_Internal, addr 0x6b25d1c, size 0x54, virtual false, abstract: false, final false
   inline void GetCameras_Internal(::System::Type* listType, ::System::Object* resultList);
 
-  /// @brief Method GetHashCode, addr 0x6b1fb60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b276e4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method HasInvokeOnRenderObjectCallbacks, addr 0x6b1f530, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HasInvokeOnRenderObjectCallbacks, addr 0x6b270b4, size 0x6c, virtual false, abstract: false, final false
   inline bool HasInvokeOnRenderObjectCallbacks();
 
-  /// @brief Method HasInvokeOnRenderObjectCallbacks_Internal, addr 0x6b1de44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasInvokeOnRenderObjectCallbacks_Internal, addr 0x6b259c8, size 0x28, virtual false, abstract: false, final false
   static inline bool HasInvokeOnRenderObjectCallbacks_Internal();
 
-  /// @brief Method InitializeSortSettings, addr 0x6b1e024, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method InitializeSortSettings, addr 0x6b25ba8, size 0xb8, virtual false, abstract: false, final false
   static inline void InitializeSortSettings(::UnityEngine::Camera* camera, ::by_ref<::UnityEngine::Rendering::SortingSettings> sortingSettings);
 
-  /// @brief Method InitializeSortSettings_Injected, addr 0x6b1e0dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InitializeSortSettings_Injected, addr 0x6b25c60, size 0x44, virtual false, abstract: false, final false
   static inline void InitializeSortSettings_Injected(::System::IntPtr camera, ::by_ref<::UnityEngine::Rendering::SortingSettings> sortingSettings);
 
-  /// @brief Method Internal_Cull, addr 0x6b1de6c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Internal_Cull, addr 0x6b259f0, size 0x94, virtual false, abstract: false, final false
   static inline void Internal_Cull(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> parameters, ::UnityEngine::Rendering::ScriptableRenderContext renderLoop, ::System::IntPtr results);
 
-  /// @brief Method Internal_CullShadowCasters, addr 0x6b1df54, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_CullShadowCasters, addr 0x6b25ad8, size 0x8c, virtual false, abstract: false, final false
   static inline void Internal_CullShadowCasters(::UnityEngine::Rendering::ScriptableRenderContext renderLoop, ::System::IntPtr context);
 
-  /// @brief Method Internal_CullShadowCasters_Injected, addr 0x6b1dfe0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_CullShadowCasters_Injected, addr 0x6b25b64, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_CullShadowCasters_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> renderLoop, ::System::IntPtr context);
 
-  /// @brief Method Internal_Cull_Injected, addr 0x6b1df00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_Cull_Injected, addr 0x6b25a84, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_Cull_Injected(::by_ref<::UnityEngine::Rendering::ScriptableCullingParameters> parameters, ::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> renderLoop,
                                             ::System::IntPtr results);
 
-  /// @brief Method Internal_GetPtr, addr 0x6b1e700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPtr, addr 0x6b26284, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr Internal_GetPtr();
 
-  /// @brief Method PrepareRendererListsAsync, addr 0x6b203d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PrepareRendererListsAsync, addr 0x6b27f58, size 0x88, virtual false, abstract: false, final false
   inline void PrepareRendererListsAsync(::System::Collections::Generic::List_1<::UnityEngine::Rendering::RendererList>* rendererLists);
 
-  /// @brief Method PrepareRendererListsAsync_Internal, addr 0x6b1efc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PrepareRendererListsAsync_Internal, addr 0x6b26b48, size 0x44, virtual false, abstract: false, final false
   inline void PrepareRendererListsAsync_Internal(::System::Object* rendererLists);
 
-  /// @brief Method QueryRendererListStatus, addr 0x6b2045c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method QueryRendererListStatus, addr 0x6b27fe0, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererListStatus QueryRendererListStatus(::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method QueryRendererListStatus_Internal, addr 0x6b1f008, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method QueryRendererListStatus_Internal, addr 0x6b26b8c, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererListStatus QueryRendererListStatus_Internal(::UnityEngine::Rendering::RendererList handle);
 
-  /// @brief Method QueryRendererListStatus_Internal_Injected, addr 0x6b1f090, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method QueryRendererListStatus_Internal_Injected, addr 0x6b26c14, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RendererListStatus QueryRendererListStatus_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self,
                                                                                                        ::by_ref<::UnityEngine::Rendering::RendererList> handle);
 
-  /// @brief Method SetupCameraProperties, addr 0x6b1f784, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetupCameraProperties, addr 0x6b27308, size 0x74, virtual false, abstract: false, final false
   inline void SetupCameraProperties(::UnityEngine::Camera* camera, bool stereoSetup);
 
-  /// @brief Method SetupCameraProperties, addr 0x6b1f7f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetupCameraProperties, addr 0x6b2737c, size 0x80, virtual false, abstract: false, final false
   inline void SetupCameraProperties(::UnityEngine::Camera* camera, bool stereoSetup, int32_t eye);
 
-  /// @brief Method SetupCameraProperties_Internal, addr 0x6b1e490, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetupCameraProperties_Internal, addr 0x6b26014, size 0xf4, virtual false, abstract: false, final false
   inline void SetupCameraProperties_Internal(::UnityEngine::Camera* camera, bool stereoSetup, int32_t eye);
 
-  /// @brief Method SetupCameraProperties_Internal_Injected, addr 0x6b1e584, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetupCameraProperties_Internal_Injected, addr 0x6b26108, size 0x5c, virtual false, abstract: false, final false
   static inline void SetupCameraProperties_Internal_Injected(::by_ref<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::IntPtr camera, bool stereoSetup, int32_t eye);
 
-  /// @brief Method Submit, addr 0x6b1f440, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Submit, addr 0x6b26fc4, size 0x78, virtual false, abstract: false, final false
   inline void Submit();
 
-  /// @brief Method SubmitForRenderPassValidation, addr 0x6b1f4b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SubmitForRenderPassValidation, addr 0x6b2703c, size 0x78, virtual false, abstract: false, final false
   inline bool SubmitForRenderPassValidation();
 
-  /// @brief Method SubmitForRenderPassValidation_Internal, addr 0x6b1e15c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SubmitForRenderPassValidation_Internal, addr 0x6b25ce0, size 0x3c, virtual false, abstract: false, final false
   inline bool SubmitForRenderPassValidation_Internal();
 
-  /// @brief Method Submit_Internal, addr 0x6b1e120, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Submit_Internal, addr 0x6b25ca4, size 0x3c, virtual false, abstract: false, final false
   inline void Submit_Internal();
 
-  /// @brief Method .ctor, addr 0x6b1c6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b24268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_kRenderTypeTag();
@@ -417,10 +417,13 @@ public:
   constexpr ScriptableRenderContext(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10830 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+
+  /// @brief Field deprecateDrawXmethods offset 0xffffffff size 0x1
+  static constexpr bool deprecateDrawXmethods{ false };
 
   /// @brief Field m_Ptr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_Ptr;

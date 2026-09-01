@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/ZenjectStateMachineBehaviourAutoInjecter.hpp"
+// IWYU pragma private; include "Zenject\ZenjectStateMachineBehaviourAutoInjecter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,12 +38,12 @@ public:
   /// @brief Field _container, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
-  /// @brief Method Construct, addr 0x6e97c98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x6e9f81c, size 0x68, virtual false, abstract: false, final false
   inline void Construct(::Zenject::DiContainer* container);
 
   static inline ::Zenject::ZenjectStateMachineBehaviourAutoInjecter* New_ctor();
 
-  /// @brief Method Start, addr 0x6e97d00, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6e9f884, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e97eec, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6e9fa70, size 0x2cc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x6e97df4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x6e9f978, size 0xf8, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*> P_1);
 
-  /// @brief Method .ctor, addr 0x6e97df0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e9f974, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,7 +82,7 @@ public:
   ZenjectStateMachineBehaviourAutoInjecter(ZenjectStateMachineBehaviourAutoInjecter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14718 };
 
   /// @brief Field _container, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/TwoPaneSplitView.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\TwoPaneSplitView.hpp"
 #include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TwoPaneSplitViewOrientation_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView_UxmlFactory::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d7768c;
+  constexpr static std::size_t addrs = 0x6d7f210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6d776f4;
+  constexpr static std::size_t addrs = 0x6d7f278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits*>(),
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6d7789c;
+  constexpr static std::size_t addrs = 0x6d7f420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_fixedPane)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d73f38;
+  constexpr static std::size_t addrs = 0x6d7babc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { "get_fixedPane", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_flexedPane)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d73f40;
+  constexpr static std::size_t addrs = 0x6d7bac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { "get_flexedPane", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_dragLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d73f48;
+  constexpr static std::size_t addrs = 0x6d7bacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { "get_dragLine", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView::get_fixedPaneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d73f50;
+  constexpr static std::size_t addrs = 0x6d7bad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { "get_fixedPaneIndex", {}, {} })));
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(int32_t)>(&::UnityEngine::UIElements::TwoPaneSplitView::set_fixedPaneIndex)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d73f58;
+  constexpr static std::size_t addrs = 0x6d7badc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView::get_fixedPaneInitialDimension)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d74004;
+  constexpr static std::size_t addrs = 0x6d7bb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(float_t)>(&::UnityEngine::UIElements::TwoPaneSplitView::set_fixedPaneInitialDimension)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6d7400c;
+  constexpr static std::size_t addrs = 0x6d7bb90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TwoPaneSplitViewOrientation (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_orientation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d740bc;
+  constexpr static std::size_t addrs = 0x6d7bc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { "get_orientation", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(::UnityEngine::UIElements::TwoPaneSplitViewOrientation)>(
     &::UnityEngine::UIElements::TwoPaneSplitView::set_orientation)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6d740c4;
+  constexpr static std::size_t addrs = 0x6d7bc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(),
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView::get_fixedPaneDimension)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6d74174;
+  constexpr static std::size_t addrs = 0x6d7bcf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { "get_fixedPaneDimension", {}, {} })));
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(float_t)>(&::UnityEngine::UIElements::TwoPaneSplitView::set_fixedPaneDimension)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6d74198;
+  constexpr static std::size_t addrs = 0x6d7bd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6d741b4;
+  constexpr static std::size_t addrs = 0x6d7bd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { ".ctor", {}, {} })));
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView::SetupSplitView)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6d74250;
+  constexpr static std::size_t addrs = 0x6d7bdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { "SetupSplitView", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(int32_t)>(&::UnityEngine::UIElements::TwoPaneSplitView::CollapseChild)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x6d74440;
+  constexpr static std::size_t addrs = 0x6d7bfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(int32_t, float_t, ::UnityEngine::UIElements::TwoPaneSplitViewOrientation)>(
     &::UnityEngine::UIElements::TwoPaneSplitView::Init)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x6d74a10;
+  constexpr static std::size_t addrs = 0x6d7c594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::TwoPaneSplitView::OnPostDisplaySetup)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6d75f70;
+  constexpr static std::size_t addrs = 0x6d7daf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(),
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView::ReplacePanesBasedOnAnchor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6d760b0;
+  constexpr static std::size_t addrs = 0x6d7dc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { "ReplacePanesBasedOnAnchor", {}, {} })));
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView::IdentifyLeftAndRightPane)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6d76238;
+  constexpr static std::size_t addrs = 0x6d7ddbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { "IdentifyLeftAndRightPane", {}, {} })));
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView::PostDisplaySetup)> {
   constexpr static std::size_t size = 0x1248;
-  constexpr static std::size_t addrs = 0x6d74d28;
+  constexpr static std::size_t addrs = 0x6d7c8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(), { "PostDisplaySetup", {}, {} })));
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::TwoPaneSplitView::OnSizeChange)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d76380;
+  constexpr static std::size_t addrs = 0x6d7df04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TwoPaneSplitView*>(),
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(bool, bool)>(&::UnityEngine::UIElements::TwoPaneSplitView::UpdateLayout)> {
   constexpr static std::size_t size = 0xc8c;
-  constexpr static std::size_t addrs = 0x6d7638c;
+  constexpr static std::size_t addrs = 0x6d7df10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_contentContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d772e0;
+  constexpr static std::size_t addrs = 0x6d7ee64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView::OnViewDataReady)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6d772e8;
+  constexpr static std::size_t addrs = 0x6d7ee6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -418,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(float_t)>(&::UnityEngine::UIElements::TwoPaneSplitView::SetDragLineOffset)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6d77018;
+  constexpr static std::size_t addrs = 0x6d7eb9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(float_t)>(&::UnityEngine::UIElements::TwoPaneSplitView::SetFixedPaneDimension)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6d7717c;
+  constexpr static std::size_t addrs = 0x6d7ed00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

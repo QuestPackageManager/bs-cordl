@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshGenerationCallback.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIR\MeshGenerationCallback.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +25,12 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE MeshGenerationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6cd6bec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6cde770, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(Il2CppObject* meshGenerationContext, ::System::Object* userData);
 
   static inline ::UnityEngine::UIElements::UIR::MeshGenerationCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6cd6aa4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cde628, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

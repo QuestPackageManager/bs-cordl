@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionStagesManager.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionStagesManager.hpp"
 #include "GlobalNamespace/zzzz__MissionStage_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStagesManager___c::*)()>(&::GlobalNamespace::MissionStagesManager___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593a2fc;
+  constexpr static std::size_t addrs = 0x593dd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionStagesManager___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MissionStagesManager___c::*)(::GlobalNamespace::MissionStage*)>(
     &::GlobalNamespace::MissionStagesManager___c::_InitStages_b__6_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x593a300;
+  constexpr static std::size_t addrs = 0x593dd84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionStage> (::GlobalNamespace::MissionStagesManager::*)()>(
     &::GlobalNamespace::MissionStagesManager::get_firstLockedMissionStage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593a140;
+  constexpr static std::size_t addrs = 0x593dbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionStagesManager*>(), { "get_firstLockedMissionStage", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)(int32_t)>(&::GlobalNamespace::MissionStagesManager::UpdateFirtsLockedMissionStage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x593981c;
+  constexpr static std::size_t addrs = 0x593d2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)()>(&::GlobalNamespace::MissionStagesManager::InitStages)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x593a148;
+  constexpr static std::size_t addrs = 0x593dbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionStagesManager*>(), { "InitStages", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)()>(&::GlobalNamespace::MissionStagesManager::UpdateStageLockPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5939ab0;
+  constexpr static std::size_t addrs = 0x593d534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionStagesManager*>(), { "UpdateStageLockPosition", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)(bool, float_t)>(&::GlobalNamespace::MissionStagesManager::UpdateStageLockPositionAnimated)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5937fe0;
+  constexpr static std::size_t addrs = 0x593ba64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionStagesManager*>(),
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)(int32_t)>(&::GlobalNamespace::MissionStagesManager::UpdateStageLockText)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x59398a0;
+  constexpr static std::size_t addrs = 0x593d324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)()>(&::GlobalNamespace::MissionStagesManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593a2a4;
+  constexpr static std::size_t addrs = 0x593dd28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionStagesManager*>(), { ".ctor", {}, {} })));

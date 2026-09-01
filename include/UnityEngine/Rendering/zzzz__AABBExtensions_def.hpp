@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/AABBExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\AABBExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE AABBExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToAABB, addr 0x6802824, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToAABB, addr 0x680a2a0, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::AABB ToAABB(::UnityEngine::Bounds bounds);
 
-  /// @brief Method ToBounds, addr 0x6802838, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToBounds, addr 0x680a2b4, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Bounds ToBounds(::UnityEngine::Rendering::AABB aabb);
 
 protected:
@@ -46,7 +46,7 @@ public:
   AABBExtensions(AABBExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

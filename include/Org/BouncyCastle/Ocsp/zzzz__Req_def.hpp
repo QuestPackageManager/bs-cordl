@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Ocsp/Req.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Ocsp\Req.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
   /// @brief Field req, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_req, put = __cordl_internal_set_req)) ::Org::BouncyCastle::Asn1::Ocsp::Request* req;
 
-  /// @brief Method GetCertID, addr 0x3576c98, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetCertID, addr 0x357aa58, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
 
-  /// @brief Method GetX509Extensions, addr 0x3576d1c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x357aadc, size 0x18, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::Ocsp::Req* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Ocsp::Request* value);
 
-  /// @brief Method .ctor, addr 0x3571db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3575b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 
-  /// @brief Method get_SingleRequestExtensions, addr 0x3576d04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_SingleRequestExtensions, addr 0x357aac4, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleRequestExtensions();
 
 protected:

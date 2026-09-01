@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Serialization/FormerlySerializedAsAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\Serialization\FormerlySerializedAsAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Serialization/zzzz__FormerlySerializedAsAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Serialization::FormerlySerializedAsAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Serialization::FormerlySerializedAsAttribute::*)(::StringW)>(
     &::UnityEngine::Serialization::FormerlySerializedAsAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6af738c;
+  constexpr static std::size_t addrs = 0x6afeda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SignalOnUIButtonClick.hpp"
+// IWYU pragma private; include "GlobalNamespace\SignalOnUIButtonClick.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::SignalOnUIButtonClick* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x585a19c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58592a4, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x585a0d8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58591e0, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__buttonClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x585a2a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58593b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   SignalOnUIButtonClick(SignalOnUIButtonClick const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21437 };
 
   /// @brief Field _buttonClickedSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____buttonClickedSignal;

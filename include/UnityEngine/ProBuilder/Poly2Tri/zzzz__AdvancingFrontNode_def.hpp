@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/AdvancingFrontNode.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Poly2Tri\AdvancingFrontNode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set_Value(double_t value);
 
-  /// @brief Method .ctor, addr 0x66a5b5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ad5d8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method get_HasNext, addr 0x66a5b78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasNext, addr 0x66ad5f4, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasNext();
 
-  /// @brief Method get_HasPrev, addr 0x66a5b88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasPrev, addr 0x66ad604, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasPrev();
 
 protected:
@@ -101,7 +101,7 @@ public:
   AdvancingFrontNode(AdvancingFrontNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21762 };
 
   /// @brief Field Next, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* ___Next;

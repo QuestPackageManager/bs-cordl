@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/IconAndTextSegmentedControlCell.hpp"
+// IWYU pragma private; include "HMUI\IconAndTextSegmentedControlCell.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
 
   static inline ::HMUI::IconAndTextSegmentedControlCell* New_ctor();
 
-  /// @brief Method SetTextActive, addr 0x5f4e3bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetTextActive, addr 0x5f55e38, size 0x30, virtual false, abstract: false, final false
   inline void SetTextActive(bool active);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5f4e670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f560ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x5f4e638, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x5f560b4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_text, addr 0x5f4e650, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x5f560cc, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_sprite, addr 0x5f4e080, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x5f55afc, size 0x18, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_text, addr 0x5f4e098, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x5f55b14, size 0x20, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   IconAndTextSegmentedControlCell(IconAndTextSegmentedControlCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23133 };
 
   /// @brief Field _icon, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____icon;

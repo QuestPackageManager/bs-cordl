@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/PanelTextSettings.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\PanelTextSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,17 +22,17 @@ public:
   /// @brief Field s_DefaultPanelTextSettings, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_DefaultPanelTextSettings, put = setStaticF_s_DefaultPanelTextSettings)) ::UnityW<::UnityEngine::UIElements::PanelTextSettings> s_DefaultPanelTextSettings;
 
-  /// @brief Method InitializeDefaultPanelTextSettingsIfNull, addr 0x6c9c210, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitializeDefaultPanelTextSettingsIfNull, addr 0x6ca3d94, size 0xb4, virtual false, abstract: false, final false
   static inline void InitializeDefaultPanelTextSettingsIfNull();
 
   static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c9c2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ca3e48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings();
 
-  /// @brief Method get_defaultPanelTextSettings, addr 0x6c9c1c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPanelTextSettings, addr 0x6ca3d44, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
 
   static inline void setStaticF_s_DefaultPanelTextSettings(::UnityW<::UnityEngine::UIElements::PanelTextSettings> value);

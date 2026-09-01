@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Blake2sDigest.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Digests\Blake2sDigest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,34 +75,34 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x36e58d8, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x36e9698, size 0x140, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t> message, int32_t offset, int32_t len);
 
-  /// @brief Method ClearKey, addr 0x36e5cd4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ClearKey, addr 0x36e9a94, size 0x48, virtual true, abstract: false, final false
   inline void ClearKey();
 
-  /// @brief Method ClearSalt, addr 0x36e5d1c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ClearSalt, addr 0x36e9adc, size 0x1c, virtual true, abstract: false, final false
   inline void ClearSalt();
 
-  /// @brief Method Compress, addr 0x36e533c, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method Compress, addr 0x36e90fc, size 0x59c, virtual false, abstract: false, final false
   inline void Compress(::ArrayW<uint8_t> message, int32_t messagePos);
 
-  /// @brief Method DoFinal, addr 0x36e5a18, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x36e97d8, size 0x130, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOffset);
 
-  /// @brief Method G, addr 0x36e5bac, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method G, addr 0x36e996c, size 0xcc, virtual false, abstract: false, final false
   inline void G(uint32_t m1, uint32_t m2, int32_t posA, int32_t posB, int32_t posC, int32_t posD);
 
-  /// @brief Method GetByteLength, addr 0x36e5ccc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x36e9a8c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x36e5cc4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x36e9a84, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method Init, addr 0x36e4af8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x36e88b8, size 0x29c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method InitializeInternalState, addr 0x36e5144, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternalState, addr 0x36e8f04, size 0x140, virtual false, abstract: false, final false
   inline void InitializeInternalState();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Blake2sDigest* New_ctor();
@@ -115,10 +115,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Blake2sDigest* New_ctor(::ArrayW<uint8_t> key, int32_t digestBytes, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> personalization);
 
-  /// @brief Method Reset, addr 0x36e5b48, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x36e9908, size 0x64, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x36e5284, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x36e9044, size 0xb8, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_buffer() const;
@@ -193,32 +193,32 @@ public:
 
   constexpr void __cordl_internal_set_t1(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x36e48d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e8690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36e49e8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e87a8, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Blake2sDigest* digest);
 
-  /// @brief Method .ctor, addr 0x36e48d8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e8698, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(int32_t digestBits);
 
-  /// @brief Method .ctor, addr 0x36e4d94, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e8b54, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> key);
 
-  /// @brief Method .ctor, addr 0x36e4ef0, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36e8cb0, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> key, int32_t digestBytes, ::ArrayW<uint8_t> salt, ::ArrayW<uint8_t> personalization);
 
   static inline ::ArrayW<uint32_t> getStaticF_blake2s_IV();
 
   static inline ::System::Object* getStaticF_blake2s_sigma();
 
-  /// @brief Method get_AlgorithmName, addr 0x36e5c80, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x36e9a40, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
-  /// @brief Method rotr32, addr 0x36e5c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method rotr32, addr 0x36e9a38, size 0x8, virtual false, abstract: false, final false
   inline uint32_t rotr32(uint32_t x, int32_t rot);
 
   static inline void setStaticF_blake2s_IV(::ArrayW<uint32_t> value);

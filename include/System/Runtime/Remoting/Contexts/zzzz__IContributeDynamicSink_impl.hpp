@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Contexts/IContributeDynamicSink.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Contexts\IContributeDynamicSink.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IContributeDynamicSink_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IDynamicMessageSink_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Contexts::IContributeDynamicSink.GetDynamicSink

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/AutoIncrementValue.hpp"
+// IWYU pragma private; include "System\Data\AutoIncrementValue.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__AutoIncrementValue_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::AutoIncrementValue::*)()>(&::System::Data::AutoIncrementValue::get_Auto)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ffcd94;
+  constexpr static std::size_t addrs = 0x6004810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::AutoIncrementValue*>(), { "get_Auto", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AutoIncrementValue::*)(bool)>(&::System::Data::AutoIncrementValue::set_Auto)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ffcd9c;
+  constexpr static std::size_t addrs = 0x6004818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::AutoIncrementValue*>(), { "set_Auto", {}, { ::i2c::type_of<bool>() } })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::AutoIncrementValue* (::System::Data::AutoIncrementValue::*)()>(&::System::Data::AutoIncrementValue::Clone)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5ffbebc;
+  constexpr static std::size_t addrs = 0x6003938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::AutoIncrementValue*>(), { "Clone", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AutoIncrementValue::*)()>(&::System::Data::AutoIncrementValue::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ffcda4;
+  constexpr static std::size_t addrs = 0x6004820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::AutoIncrementValue*>(), { ".ctor", {}, {} })));

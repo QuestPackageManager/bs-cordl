@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ParticleSystemLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace\ParticleSystemLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__ParticleSystemLightWithId_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ParticleSystemLightWithId::*)()>(&::GlobalNamespace::ParticleSystemLightWithId::get_color)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58707b8;
+  constexpr static std::size_t addrs = 0x58700b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemLightWithId*>(), { "get_color", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemLightWithId::*)()>(&::GlobalNamespace::ParticleSystemLightWithId::Awake)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x58707e4;
+  constexpr static std::size_t addrs = 0x58700e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemLightWithId*>(), { "Awake", {}, {} })));
@@ -34,11 +34,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemLightWithId::*)(::UnityEngine::Color)>(&::GlobalNamespace::ParticleSystemLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5870878;
+  constexpr static std::size_t addrs = 0x5870178;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemLightWithId*>(), { ::i2c::class_of<::GlobalNamespace::ParticleSystemLightWithId*>(), 9 }));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemLightWithId*>(), { ::i2c::class_of<::GlobalNamespace::ParticleSystemLightWithId*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemLightWithId::*)()>(&::GlobalNamespace::ParticleSystemLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58709f8;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x58702f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemLightWithId*>(), { ".ctor", {}, {} })));
@@ -148,7 +148,7 @@ inline void GlobalNamespace::ParticleSystemLightWithId::Awake() {
 }
 inline void GlobalNamespace::ParticleSystemLightWithId::ColorWasSet(::UnityEngine::Color color) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ParticleSystemLightWithId*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ParticleSystemLightWithId*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
 inline void GlobalNamespace::ParticleSystemLightWithId::_ctor() {

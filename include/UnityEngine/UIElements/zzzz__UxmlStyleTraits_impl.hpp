@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlStyleTraits.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlStyleTraits.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTraits_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStyleTraits_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlStyleTraits::*)()>(&::UnityEngine::UIElements::UxmlStyleTraits::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6cb3acc;
+  constexpr static std::size_t addrs = 0x6cbb650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlStyleTraits*>(), { ".ctor", {}, {} })));

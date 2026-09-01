@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/NjsEventConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\NjsEventConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
   __declspec(property(get = __cordl_internal_get__noteJumpMovementSpeedEvents, put = __cordl_internal_set__noteJumpMovementSpeedEvents)) ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>
       _noteJumpMovementSpeedEvents;
 
-  /// @brief Method Convert, addr 0x375dd38, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x37639a4, size 0xe8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteJumpSpeedEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::NjsEventConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent> noteJumpMovementSpeedEvents,
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__noteJumpMovementSpeedEvents(::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent> value);
 
-  /// @brief Method .ctor, addr 0x375dd30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376399c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent> noteJumpMovementSpeedEvents, ::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:
@@ -67,7 +67,7 @@ public:
   NjsEventConverter(NjsEventConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15435 };
 
   /// @brief Field _noteJumpMovementSpeedEvents, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent> ____noteJumpMovementSpeedEvents;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/JsonAssetProvider.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\JsonAssetProvider.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__TextDataProvider_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__JsonAssetProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::*)(::System::Type*, ::StringW)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::Convert)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69188ac;
+  constexpr static std::size_t addrs = 0x6920328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69188b8;
+  constexpr static std::size_t addrs = 0x6920334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

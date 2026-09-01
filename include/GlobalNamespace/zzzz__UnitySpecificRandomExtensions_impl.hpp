@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/UnitySpecificRandomExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\UnitySpecificRandomExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UnitySpecificRandomExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__IRandom_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::UnitySpecificRandomExtensions::InsideUnitSphere)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3323cb8;
+  constexpr static std::size_t addrs = 0x3327a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::UnitySpecificRandomExtensions::OnUnitSphere)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3323d4c;
+  constexpr static std::size_t addrs = 0x3327b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

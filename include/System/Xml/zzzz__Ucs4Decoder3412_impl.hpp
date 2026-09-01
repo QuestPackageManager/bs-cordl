@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Ucs4Decoder3412.hpp"
+// IWYU pragma private; include "System\Xml\Ucs4Decoder3412.hpp"
 #include "System/Xml/zzzz__Ucs4Decoder_impl.hpp"
 #include "System/Xml/zzzz__Ucs4Decoder3412_def.hpp"
 //  Writing Method size for method: ::System::Xml::Ucs4Decoder3412.GetFullChars
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Ucs4Decoder3412::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<char16_t>, int32_t)>(
     &::System::Xml::Ucs4Decoder3412::GetFullChars)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x62dcbdc;
+  constexpr static std::size_t addrs = 0x62e4658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Ucs4Decoder3412::*)()>(&::System::Xml::Ucs4Decoder3412::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62dc070;
+  constexpr static std::size_t addrs = 0x62e3aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Decoder3412*>(), { ".ctor", {}, {} })));

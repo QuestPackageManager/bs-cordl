@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/GraphQL/Queries/BSLeaderboardTopN.hpp"
+// IWYU pragma private; include "BeatSaber\Main\GraphQL\Queries\BSLeaderboardTopN.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLQueryOperation_impl.hpp"
 #include "BeatSaber/Main/GraphQL/Queries/zzzz__BSLeaderboardTopN_def.hpp"
 #include "BeatSaber/Main/GraphQL/Enums/zzzz__XOCBeatGamesBeatmapCharacteristic_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::GetVariableNames)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x329b5fc;
+  constexpr static std::size_t addrs = 0x329f3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)(::StringW)>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::set_EnvironmentPlayerRootId)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x329b968;
+  constexpr static std::size_t addrs = 0x329f764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::get_EnvironmentPlayerRootId)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x329b9e8;
+  constexpr static std::size_t addrs = 0x329f7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)(::StringW)>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::set_SongClientId)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x329ba78;
+  constexpr static std::size_t addrs = 0x329f874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::get_SongClientId)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x329baf8;
+  constexpr static std::size_t addrs = 0x329f8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic)>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::set_Characteristic)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x329bb88;
+  constexpr static std::size_t addrs = 0x329f984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::get_Characteristic)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x329bc34;
+  constexpr static std::size_t addrs = 0x329fa30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty)>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::set_Difficulty)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x329bce4;
+  constexpr static std::size_t addrs = 0x329fae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::get_Difficulty)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x329bd90;
+  constexpr static std::size_t addrs = 0x329fb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN*>(), { "get_Difficulty", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)(int64_t)>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::set_ModifierMask)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x329be40;
+  constexpr static std::size_t addrs = 0x329fc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::get_ModifierMask)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x329bed8;
+  constexpr static std::size_t addrs = 0x329fcd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)(
     ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryOrder*)>(&::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::set_Order)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x329bf74;
+  constexpr static std::size_t addrs = 0x329fd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryOrder* (
     ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)()>(&::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::get_Order)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x329bff4;
+  constexpr static std::size_t addrs = 0x329fdf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN*>(), { "get_Order", {}, {} })));
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)(::System::Nullable_1<int64_t>)>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::set_First)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x329c0a4;
+  constexpr static std::size_t addrs = 0x329fea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<int64_t> (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::get_First)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x329c15c;
+  constexpr static std::size_t addrs = 0x329ff58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN*>(), { "get_First", {}, {} })));
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)()>(
     &::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::GetPersistedQueryID)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x329c2c0;
+  constexpr static std::size_t addrs = 0x32a00bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN*>(),
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::*)()>(&::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329c2d4;
+  constexpr static std::size_t addrs = 0x32a00d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN*>(), { ".ctor", {}, {} })));

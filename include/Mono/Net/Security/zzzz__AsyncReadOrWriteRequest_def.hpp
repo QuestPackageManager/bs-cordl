@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Net/Security/AsyncReadOrWriteRequest.hpp"
+// IWYU pragma private; include "Mono\Net\Security\AsyncReadOrWriteRequest.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +41,7 @@ public:
 
   static inline ::Mono::Net::Security::AsyncReadOrWriteRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ToString, addr 0x5fd0adc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5fd8558, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__CurrentSize_k__BackingField() const;
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set__UserBuffer_k__BackingField(::Mono::Net::Security::BufferOffsetSize* value);
 
-  /// @brief Method .ctor, addr 0x5fd0a3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd84b8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method get_CurrentSize, addr 0x5fd0a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSize, addr 0x5fd84a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrentSize();
 
-  /// @brief Method get_UserBuffer, addr 0x5fd0a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserBuffer, addr 0x5fd84a0, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::BufferOffsetSize* get_UserBuffer();
 
-  /// @brief Method set_CurrentSize, addr 0x5fd0a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentSize, addr 0x5fd84b0, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentSize(int32_t value);
 
 protected:
@@ -83,7 +83,7 @@ public:
   AsyncReadOrWriteRequest(AsyncReadOrWriteRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11015 };
 
   /// @brief Field <UserBuffer>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::Mono::Net::Security::BufferOffsetSize* ____UserBuffer_k__BackingField;

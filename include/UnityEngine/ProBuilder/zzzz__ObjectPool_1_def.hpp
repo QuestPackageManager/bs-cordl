@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/ObjectPool_1.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\ObjectPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,7 +121,7 @@ public:
   ObjectPool_1(ObjectPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16758 };
 
   /// @brief Field m_IsDisposed, offset: 0x10, size: 0x1, def value: None
   bool ___m_IsDisposed;

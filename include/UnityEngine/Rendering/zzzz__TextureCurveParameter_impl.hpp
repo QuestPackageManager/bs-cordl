@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/TextureCurveParameter.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\TextureCurveParameter.hpp"
 #include "UnityEngine/Rendering/zzzz__VolumeParameter_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureCurveParameter_def.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureCurve_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurveParameter::*)(::UnityEngine::Rendering::TextureCurve*, bool)>(
     &::UnityEngine::Rendering::TextureCurveParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67c0e58;
+  constexpr static std::size_t addrs = 0x67c88d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurveParameter*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurveParameter::*)()>(&::UnityEngine::Rendering::TextureCurveParameter::Release)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c0ebc;
+  constexpr static std::size_t addrs = 0x67c8938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightRotationBaseData.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightRotationBaseData.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationDirection_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightRotationBaseData::*)(
     float_t, bool, ::GlobalNamespace::EaseType, float_t, int32_t, ::GlobalNamespace::LightRotationDirection)>(&::GlobalNamespace::LightRotationBaseData::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3715cc0;
+  constexpr static std::size_t addrs = 0x371bb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

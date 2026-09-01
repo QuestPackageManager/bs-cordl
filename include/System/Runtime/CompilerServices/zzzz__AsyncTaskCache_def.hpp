@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncTaskCache.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncTaskCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +37,7 @@ public:
   /// @brief Method CreateCacheableTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::System::Threading::Tasks::Task_1<TResult>* CreateCacheableTask(TResult result);
 
-  /// @brief Method CreateInt32Tasks, addr 0x5b6d8f8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CreateInt32Tasks, addr 0x5b71db4, size 0x10c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Threading::Tasks::Task_1<int32_t>*> CreateInt32Tasks();
 
   static inline ::System::Threading::Tasks::Task_1<bool>* getStaticF_FalseTask();

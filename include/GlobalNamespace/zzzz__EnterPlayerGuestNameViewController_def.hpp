@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnterPlayerGuestNameViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnterPlayerGuestNameViewController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,18 +80,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE EnterPlayerGuestNameViewController_FinishDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5a10d94, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5a18ea0, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5a10dbc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5a18ec8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5a10d80, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5a18e8c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName);
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5a10c38, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a18d44, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -109,7 +109,7 @@ public:
   EnterPlayerGuestNameViewController_FinishDelegate(EnterPlayerGuestNameViewController_FinishDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,7 +132,7 @@ public:
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <DidActivate>b__0, addr 0x5a10dc8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__0, addr 0x5a18ed4, size 0x150, virtual false, abstract: false, final false
   inline void _DidActivate_b__0(int32_t idx, ::GlobalNamespace::GuestNameButtonsListItem* item);
 
   constexpr ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> const& __cordl_internal_get___4__this() const;
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_guestPlayerNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5a10a8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a18b98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,7 +165,7 @@ public:
   EnterPlayerGuestNameViewController___c__DisplayClass11_0(EnterPlayerGuestNameViewController___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6430 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> _____4__this;
@@ -199,7 +199,7 @@ public:
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_1* New_ctor();
 
-  /// @brief Method <DidActivate>b__1, addr 0x5a10f1c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__1, addr 0x5a19028, size 0x38, virtual false, abstract: false, final false
   inline void _DidActivate_b__1();
 
   constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass11_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -214,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set_guestPlayerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a10f18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a19024, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -232,7 +232,7 @@ public:
   EnterPlayerGuestNameViewController___c__DisplayClass11_1(EnterPlayerGuestNameViewController___c__DisplayClass11_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6431 };
 
   /// @brief Field guestPlayerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___guestPlayerName;
@@ -284,18 +284,18 @@ public:
   /// @brief Field _uiKeyboard, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard)) ::UnityW<::HMUI::UIKeyboard> _uiKeyboard;
 
-  /// @brief Method DidActivate, addr 0x5a10824, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a18930, size 0x268, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5a10a90, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5a18b9c, size 0xbc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x5a1081c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5a18928, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* didFinishCallback);
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController* New_ctor();
 
-  /// @brief Method OkButtonPressed, addr 0x5a10b4c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x5a18c58, size 0xe8, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
   constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* const& __cordl_internal_get__didFinishCallback() const;
@@ -334,7 +334,7 @@ public:
 
   constexpr void __cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard> value);
 
-  /// @brief Method .ctor, addr 0x5a10c34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a18d40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -352,7 +352,7 @@ public:
   EnterPlayerGuestNameViewController(EnterPlayerGuestNameViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6432 };
 
   /// @brief Field kMaxPlayerNameCompoundLength offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPlayerNameCompoundLength{ static_cast<int32_t>(0x28) };

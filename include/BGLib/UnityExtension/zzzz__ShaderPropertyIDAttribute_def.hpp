@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/UnityExtension/ShaderPropertyIDAttribute.hpp"
+// IWYU pragma private; include "BGLib\UnityExtension\ShaderPropertyIDAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_filter(::BGLib::UnityExtension::ShaderPropertyAttributeFilter* value);
 
-  /// @brief Method .ctor, addr 0x3326c60, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332aa20, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
 protected:
@@ -58,7 +58,7 @@ public:
   ShaderPropertyIDAttribute(ShaderPropertyIDAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20815 };
 
   /// @brief Field filter, offset: 0x18, size: 0x8, def value: None
   ::BGLib::UnityExtension::ShaderPropertyAttributeFilter* ___filter;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ExecuteCommandsFromFileConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\ExecuteCommandsFromFileConsoleCommand.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32cd480, size 0x328, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x32d127c, size 0x328, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   static inline ::GlobalNamespace::ExecuteCommandsFromFileConsoleCommand* New_ctor();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__filePath(::GlobalNamespace::RequiredArgument_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x32cd7a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32d15a4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32cd3f8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x32d11f4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32cd43c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x32d1238, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -74,7 +74,7 @@ public:
   ExecuteCommandsFromFileConsoleCommand(ExecuteCommandsFromFileConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19391 };
 
   /// @brief Field _filePath, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::RequiredArgument_1<::StringW>* ____filePath;

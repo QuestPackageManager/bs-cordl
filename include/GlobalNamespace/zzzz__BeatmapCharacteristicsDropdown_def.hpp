@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicsDropdown.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapCharacteristicsDropdown.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,10 +61,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* New_ctor();
 
-  /// @brief Method <OnEnable>b__7_0, addr 0x593b700, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__7_0, addr 0x593f184, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW _OnEnable_b__7_0(::GlobalNamespace::BeatmapCharacteristic x);
 
-  /// @brief Method .ctor, addr 0x593b6fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593f180, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* getStaticF___9();
@@ -90,7 +90,7 @@ public:
   BeatmapCharacteristicsDropdown___c(BeatmapCharacteristicsDropdown___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,27 +126,27 @@ public:
   __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent,
                       put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* didSelectCellWithIdxEvent;
 
-  /// @brief Method GetSelectedBeatmapCharacteristic, addr 0x593b364, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedBeatmapCharacteristic, addr 0x593ede8, size 0x60, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristic GetSelectedBeatmapCharacteristic();
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x593b574, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x593eff8, size 0x90, virtual false, abstract: false, final false
   inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x593b27c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x593ed00, size 0xdc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x593b06c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x593eaf0, size 0x210, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x593b3c4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x593ee48, size 0x98, virtual false, abstract: false, final false
   inline void SelectCellWithBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
-  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x593b45c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x593eee0, size 0x118, virtual false, abstract: false, final false
   inline void SelectCellWithBeatmapCharacteristic(::StringW serializedName);
 
-  /// @brief Method SetNotAllowedCharacteristics, addr 0x593b358, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetNotAllowedCharacteristics, addr 0x593eddc, size 0xc, virtual false, abstract: false, final false
   inline void SetNotAllowedCharacteristics(::by_ref<::ArrayW<::GlobalNamespace::BeatmapCharacteristic>> notAllowedCharacteristics);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
@@ -179,13 +179,13 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
-  /// @brief Method .ctor, addr 0x593b604, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593f088, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x593aeec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x593e970, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x593afac, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x593ea30, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristic>* value);
 
 protected:
@@ -203,7 +203,7 @@ public:
   BeatmapCharacteristicsDropdown(BeatmapCharacteristicsDropdown const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6888 };
 
   /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;

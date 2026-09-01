@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ShaderKeywordStrings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ShaderKeywordStrings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -344,7 +344,7 @@ public:
   static constexpr ::ConstString _SURFACE_TYPE_TRANSPARENT{ u"_SURFACE_TYPE_TRANSPARENT" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13046 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

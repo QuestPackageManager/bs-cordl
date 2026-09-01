@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/StringReader.hpp"
+// IWYU pragma private; include "System\IO\StringReader.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,30 +34,30 @@ public:
   /// @brief Field _s, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__s, put = __cordl_internal_set__s)) ::StringW _s;
 
-  /// @brief Method Close, addr 0x5c144e8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x5c189a4, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x5c144f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5c189b4, size 0x8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::IO::StringReader* New_ctor(::StringW s);
 
-  /// @brief Method Peek, addr 0x5c14500, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x5c189bc, size 0x48, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x5c14548, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5c18a04, size 0x50, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x5c14598, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5c18a54, size 0x188, virtual true, abstract: false, final false
   inline int32_t Read(::by_ref<::ArrayW<char16_t>> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadAsync, addr 0x5c1486c, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x5c18d28, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x5c1475c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x5c18c18, size 0x110, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x5c14720, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x5c18bdc, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
   constexpr int32_t const& __cordl_internal_get__length() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__s(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5c14430, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c188ec, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:

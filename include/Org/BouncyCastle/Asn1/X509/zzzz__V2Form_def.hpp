@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/V2Form.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\X509\V2Form.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,10 +55,10 @@ public:
   /// @brief Field objectDigestInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_objectDigestInfo, put = __cordl_internal_set_objectDigestInfo)) ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo;
 
-  /// @brief Method GetInstance, addr 0x3665f8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3669d4c, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::V2Form* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x3665fa0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3669d60, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::V2Form* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::V2Form* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* issuerName);
@@ -72,7 +72,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::V2Form* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3666298, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x366a058, size 0x13c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial* const& __cordl_internal_get_baseCertificateID() const;
@@ -93,29 +93,29 @@ public:
 
   constexpr void __cordl_internal_set_objectDigestInfo(::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* value);
 
-  /// @brief Method .ctor, addr 0x3666250, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366a010, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* issuerName);
 
-  /// @brief Method .ctor, addr 0x3666268, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366a028, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* issuerName, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* baseCertificateID);
 
-  /// @brief Method .ctor, addr 0x366625c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366a01c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* issuerName, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* baseCertificateID,
                     ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo);
 
-  /// @brief Method .ctor, addr 0x3666274, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366a034, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* issuerName, ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo);
 
-  /// @brief Method .ctor, addr 0x3666040, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3669e00, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_BaseCertificateID, addr 0x3666288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseCertificateID, addr 0x366a048, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_BaseCertificateID();
 
-  /// @brief Method get_IssuerName, addr 0x3666280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x366a040, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_IssuerName();
 
-  /// @brief Method get_ObjectDigestInfo, addr 0x3666290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectDigestInfo, addr 0x366a050, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* get_ObjectDigestInfo();
 
 protected:

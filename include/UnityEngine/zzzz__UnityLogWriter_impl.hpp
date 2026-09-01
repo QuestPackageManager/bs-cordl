@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UnityLogWriter.hpp"
+// IWYU pragma private; include "UnityEngine\UnityLogWriter.hpp"
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "UnityEngine/zzzz__UnityLogWriter_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::UnityLogWriter::WriteStringToUnityLog)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ac27d8;
+  constexpr static std::size_t addrs = 0x6aca1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::UnityLogWriter::WriteStringToUnityLogImpl)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6ac27e4;
+  constexpr static std::size_t addrs = 0x6aca1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UnityLogWriter::Init)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6ac2944;
+  constexpr static std::size_t addrs = 0x6aca35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UnityLogWriter*>(), { "Init", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::UnityEngine::UnityLogWriter::*)()>(&::UnityEngine::UnityLogWriter::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac2a68;
+  constexpr static std::size_t addrs = 0x6aca480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UnityLogWriter::*)(char16_t)>(&::UnityEngine::UnityLogWriter::Write)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ac2a70;
+  constexpr static std::size_t addrs = 0x6aca488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UnityLogWriter::*)(::StringW)>(&::UnityEngine::UnityLogWriter::Write)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ac2aac;
+  constexpr static std::size_t addrs = 0x6aca4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UnityLogWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::UnityEngine::UnityLogWriter::Write)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6ac2abc;
+  constexpr static std::size_t addrs = 0x6aca4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UnityLogWriter::*)()>(&::UnityEngine::UnityLogWriter::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ac2a0c;
+  constexpr static std::size_t addrs = 0x6aca424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UnityLogWriter*>(), { ".ctor", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::UnityLogWriter::WriteStringToUnityLogImpl_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ac2908;
+  constexpr static std::size_t addrs = 0x6aca320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

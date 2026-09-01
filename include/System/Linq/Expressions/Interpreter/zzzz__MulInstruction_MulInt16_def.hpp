@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/MulInstruction_MulInt16.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\MulInstruction_MulInt16.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MulInstruction_MulInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x5fad95c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fb53d8, size 0x10c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x5fad93c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb53b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   MulInstruction_MulInt16(MulInstruction_MulInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

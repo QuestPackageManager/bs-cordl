@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/Disposables/EmptyDisposable.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\Disposables\EmptyDisposable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/Disposables/zzzz__EmptyDisposable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::Disposables::EmptyDisposable::*)()>(&::BGLib::DotnetExtension::Disposables::EmptyDisposable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x330ce44;
+  constexpr static std::size_t addrs = 0x3310c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Disposables::EmptyDisposable*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::DotnetExtension::Disposables::EmptyDisposable::*)()>(&::BGLib::DotnetExtension::Disposables::EmptyDisposable::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x330ce48;
+  constexpr static std::size_t addrs = 0x3310c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::Disposables::EmptyDisposable*>(), { "Dispose", {}, {} })));

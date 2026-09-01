@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/BindingActivationContext.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\BindingActivationContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE BindingActivationContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c28f50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c30ad4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element, ::by_ref<::UnityEngine::UIElements::BindingId> property);
 
   // Ctor Parameters []

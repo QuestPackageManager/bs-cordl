@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXLightBinder.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXLightBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,15 +56,15 @@ public:
   /// @brief Field m_RadiusProperty, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RadiusProperty, put = __cordl_internal_set_m_RadiusProperty)) ::UnityEngine::VFX::Utility::ExposedProperty* m_RadiusProperty;
 
-  /// @brief Method IsValid, addr 0x69dd99c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69e5418, size 0x120, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXLightBinder* New_ctor();
 
-  /// @brief Method ToString, addr 0x69ddbec, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69e5668, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69ddabc, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69e5538, size 0x130, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr bool const& __cordl_internal_get_BindBrightness() const;
@@ -109,25 +109,25 @@ public:
 
   constexpr void __cordl_internal_set_m_RadiusProperty(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69ddcec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e5768, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BrightnessProperty, addr 0x69dd92c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BrightnessProperty, addr 0x69e53a8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_BrightnessProperty();
 
-  /// @brief Method get_ColorProperty, addr 0x69dd8f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ColorProperty, addr 0x69e5370, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_ColorProperty();
 
-  /// @brief Method get_RadiusProperty, addr 0x69dd964, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_RadiusProperty, addr 0x69e53e0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_RadiusProperty();
 
-  /// @brief Method set_BrightnessProperty, addr 0x69dd944, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_BrightnessProperty, addr 0x69e53c0, size 0x20, virtual false, abstract: false, final false
   inline void set_BrightnessProperty(::StringW value);
 
-  /// @brief Method set_ColorProperty, addr 0x69dd90c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_ColorProperty, addr 0x69e5388, size 0x20, virtual false, abstract: false, final false
   inline void set_ColorProperty(::StringW value);
 
-  /// @brief Method set_RadiusProperty, addr 0x69dd97c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_RadiusProperty, addr 0x69e53f8, size 0x20, virtual false, abstract: false, final false
   inline void set_RadiusProperty(::StringW value);
 
 protected:
@@ -145,7 +145,7 @@ public:
   VFXLightBinder(VFXLightBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19998 };
 
   /// @brief Field m_ColorProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_ColorProperty;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/SignalCopyBinder.hpp"
+// IWYU pragma private; include "Zenject\SignalCopyBinder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,26 +31,26 @@ public:
   /// @brief Field _bindInfos, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bindInfos, put = __cordl_internal_set__bindInfos)) ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _bindInfos;
 
-  /// @brief Method AddCopyBindInfo, addr 0x6e3e7ec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddCopyBindInfo, addr 0x6e46370, size 0xb4, virtual false, abstract: false, final false
   inline void AddCopyBindInfo(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method CopyIntoAllSubContainers, addr 0x6e3e8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyIntoAllSubContainers, addr 0x6e46424, size 0x8, virtual false, abstract: false, final false
   inline void CopyIntoAllSubContainers();
 
-  /// @brief Method CopyIntoDirectSubContainers, addr 0x6e3e94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyIntoDirectSubContainers, addr 0x6e464d0, size 0x8, virtual false, abstract: false, final false
   inline void CopyIntoDirectSubContainers();
 
-  /// @brief Method MoveIntoAllSubContainers, addr 0x6e3e954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MoveIntoAllSubContainers, addr 0x6e464d8, size 0x8, virtual false, abstract: false, final false
   inline void MoveIntoAllSubContainers();
 
-  /// @brief Method MoveIntoDirectSubContainers, addr 0x6e3e95c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MoveIntoDirectSubContainers, addr 0x6e464e0, size 0x8, virtual false, abstract: false, final false
   inline void MoveIntoDirectSubContainers();
 
   static inline ::Zenject::SignalCopyBinder* New_ctor();
 
   static inline ::Zenject::SignalCopyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method SetInheritanceMethod, addr 0x6e3e8a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetInheritanceMethod, addr 0x6e4642c, size 0xa4, virtual false, abstract: false, final false
   inline void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* const& __cordl_internal_get__bindInfos() const;
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__bindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x6e3e684, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e46208, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6e3e6f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e4627c, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -80,7 +80,7 @@ public:
   SignalCopyBinder(SignalCopyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14008 };
 
   /// @brief Field _bindInfos, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* ____bindInfos;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Sensor.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Sensor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,13 +24,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Sensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x655df68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65659e4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_samplingFrequency, addr 0x655ddbc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_samplingFrequency, addr 0x6565838, size 0x108, virtual false, abstract: false, final false
   inline float_t get_samplingFrequency();
 
-  /// @brief Method set_samplingFrequency, addr 0x655dec4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_samplingFrequency, addr 0x6565940, size 0xa4, virtual false, abstract: false, final false
   inline void set_samplingFrequency(float_t value);
 
 protected:
@@ -48,7 +48,7 @@ public:
   Sensor(Sensor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8758 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

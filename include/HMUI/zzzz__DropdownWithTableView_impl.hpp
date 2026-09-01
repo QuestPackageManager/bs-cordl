@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/DropdownWithTableView.hpp"
+// IWYU pragma private; include "HMUI\DropdownWithTableView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "HMUI/zzzz__ModalViewBase_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*)>(
     &::HMUI::DropdownWithTableView::add_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5882a10;
+  constexpr static std::size_t addrs = 0x5882358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*)>(
     &::HMUI::DropdownWithTableView::remove_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5882ad0;
+  constexpr static std::size_t addrs = 0x5882418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::TableView_IDataSource* (::HMUI::DropdownWithTableView::*)()>(&::HMUI::DropdownWithTableView::get_tableViewDataSource)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5882b90;
+  constexpr static std::size_t addrs = 0x58824d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { "get_tableViewDataSource", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::HMUI::DropdownWithTableView::*)()>(&::HMUI::DropdownWithTableView::get_selectedIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5882ba8;
+  constexpr static std::size_t addrs = 0x58824f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { "get_selectedIndex", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)(int32_t)>(&::HMUI::DropdownWithTableView::set_selectedIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5882bb0;
+  constexpr static std::size_t addrs = 0x58824f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::DropdownWithTableView::*)()>(&::HMUI::DropdownWithTableView::get_interactable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5882bb8;
+  constexpr static std::size_t addrs = 0x5882500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { "get_interactable", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)(bool)>(&::HMUI::DropdownWithTableView::set_interactable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5882bd0;
+  constexpr static std::size_t addrs = 0x5882518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { "set_interactable", {}, { ::i2c::type_of<bool>() } })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)(::HMUI::TableView_IDataSource*)>(&::HMUI::DropdownWithTableView::Init)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5882bec;
+  constexpr static std::size_t addrs = 0x5882534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)()>(&::HMUI::DropdownWithTableView::ReloadData)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5882c10;
+  constexpr static std::size_t addrs = 0x5882558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { "ReloadData", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)(int32_t)>(&::HMUI::DropdownWithTableView::SelectCellWithIdx)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5882c54;
+  constexpr static std::size_t addrs = 0x588259c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { ::i2c::class_of<::HMUI::DropdownWithTableView*>(), 4 }));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)()>(&::HMUI::DropdownWithTableView::Awake)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x5882c78;
+  constexpr static std::size_t addrs = 0x58825c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { ::i2c::class_of<::HMUI::DropdownWithTableView*>(), 5 }));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)()>(&::HMUI::DropdownWithTableView::OnDisable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5882e64;
+  constexpr static std::size_t addrs = 0x58827ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { "OnDisable", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)()>(&::HMUI::DropdownWithTableView::OnDestroy)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x5882eac;
+  constexpr static std::size_t addrs = 0x58827f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { ::i2c::class_of<::HMUI::DropdownWithTableView*>(), 6 }));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)(::HMUI::TableView_IDataSource*)>(&::HMUI::DropdownWithTableView::RefreshSize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5883120;
+  constexpr static std::size_t addrs = 0x5882a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { ::i2c::class_of<::HMUI::DropdownWithTableView*>(), 7 }));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::DropdownWithTableView::*)(::HMUI::TableView_IDataSource*)>(&::HMUI::DropdownWithTableView::GetNewTableViewRectSize)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5883148;
+  constexpr static std::size_t addrs = 0x5882a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)()>(&::HMUI::DropdownWithTableView::OnButtonClick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58832a4;
+  constexpr static std::size_t addrs = 0x5882bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { "OnButtonClick", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)(::HMUI::TableView*, int32_t)>(&::HMUI::DropdownWithTableView::HandleTableViewDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5883330;
+  constexpr static std::size_t addrs = 0x5882c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)(bool)>(&::HMUI::DropdownWithTableView::Hide)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5882e6c;
+  constexpr static std::size_t addrs = 0x58827b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { "Hide", {}, { ::i2c::type_of<bool>() } })));
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)(bool)>(&::HMUI::DropdownWithTableView::Show)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x58832ac;
+  constexpr static std::size_t addrs = 0x5882bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { "Show", {}, { ::i2c::type_of<bool>() } })));
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)()>(&::HMUI::DropdownWithTableView::HandleModalViewBlockerClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5883378;
+  constexpr static std::size_t addrs = 0x5882cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { "HandleModalViewBlockerClicked", {}, {} })));
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::DropdownWithTableView::*)()>(&::HMUI::DropdownWithTableView::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5883380;
+  constexpr static std::size_t addrs = 0x5882cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::DropdownWithTableView*>(), { ".ctor", {}, {} })));

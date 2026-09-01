@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/Tasks/TaskContinuation.hpp"
+// IWYU pragma private; include "System\Threading\Tasks\TaskContinuation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ namespace System::Threading::Tasks {
 class CORDL_TYPE TaskContinuation : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InlineIfPossibleOrElseQueue, addr 0x5cc1b7c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method InlineIfPossibleOrElseQueue, addr 0x5cc6038, size 0x148, virtual false, abstract: false, final false
   static inline void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* task, bool needsProtection);
 
   static inline ::System::Threading::Tasks::TaskContinuation* New_ctor();
@@ -30,7 +30,7 @@ public:
   /// @brief Method Run, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
 
-  /// @brief Method .ctor, addr 0x5cc1cc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc6180, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

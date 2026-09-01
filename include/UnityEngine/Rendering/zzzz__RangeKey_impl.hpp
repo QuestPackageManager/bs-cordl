@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/RangeKey.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\RangeKey.hpp"
 #include "UnityEngine/Rendering/zzzz__ShadowCastingMode_impl.hpp"
 #include "UnityEngine/zzzz__MotionVectorGenerationMode_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RangeKey_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RangeKey::*)(::UnityEngine::Rendering::RangeKey)>(&::UnityEngine::Rendering::RangeKey::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x680efa4;
+  constexpr static std::size_t addrs = 0x6816a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RangeKey::*)()>(&::UnityEngine::Rendering::RangeKey::GetHashCode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x680f028;
+  constexpr static std::size_t addrs = 0x6816aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

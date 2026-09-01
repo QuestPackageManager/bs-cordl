@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UpdateLODGroupDataJob.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UpdateLODGroupDataJob.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeAtomicCounter32_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenLODGroupData_impl.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UpdateLODGroupDataJob::*)(int32_t)>(&::UnityEngine::Rendering::UpdateLODGroupDataJob::Execute)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x6829904;
+  constexpr static std::size_t addrs = 0x6831380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

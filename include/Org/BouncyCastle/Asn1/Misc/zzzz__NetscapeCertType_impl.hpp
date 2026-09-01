@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Misc/NetscapeCertType.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Misc\NetscapeCertType.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Misc/zzzz__NetscapeCertType_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)(int32_t)>(&::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3453770;
+  constexpr static std::size_t addrs = 0x3457530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)(::Org::BouncyCastle::Asn1::DerBitString*)>(
     &::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x34537dc;
+  constexpr static std::size_t addrs = 0x345759c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)()>(&::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::ToString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x345387c;
+  constexpr static std::size_t addrs = 0x345763c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

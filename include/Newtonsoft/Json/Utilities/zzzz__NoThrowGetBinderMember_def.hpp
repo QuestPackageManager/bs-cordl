@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/NoThrowGetBinderMember.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\NoThrowGetBinderMember.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
   /// @brief Field _innerBinder, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__innerBinder, put = __cordl_internal_set__innerBinder)) ::System::Dynamic::GetMemberBinder* _innerBinder;
 
-  /// @brief Method FallbackGetMember, addr 0x5d21a78, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method FallbackGetMember, addr 0x5d25f34, size 0x14c, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
   static inline ::Newtonsoft::Json::Utilities::NoThrowGetBinderMember* New_ctor(::System::Dynamic::GetMemberBinder* innerBinder);
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__innerBinder(::System::Dynamic::GetMemberBinder* value);
 
-  /// @brief Method .ctor, addr 0x5d21a40, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d25efc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::GetMemberBinder* innerBinder);
 
 protected:
@@ -57,7 +57,7 @@ public:
   NoThrowGetBinderMember(NoThrowGetBinderMember const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13412 };
 
   /// @brief Field _innerBinder, offset: 0x28, size: 0x8, def value: None
   ::System::Dynamic::GetMemberBinder* ____innerBinder;

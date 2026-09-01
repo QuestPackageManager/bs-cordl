@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Main/Leaderboards/GraphQLErrorCode.hpp"
+// IWYU pragma private; include "BeatSaber\Main\Leaderboards\GraphQLErrorCode.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,10 +21,10 @@ namespace BeatSaber::Main::Leaderboards {
 class CORDL_TYPE GraphQLErrorCode : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsBeatGamesErrorCode, addr 0x32a1acc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsBeatGamesErrorCode, addr 0x32a58c8, size 0x70, virtual false, abstract: false, final false
   static inline bool IsBeatGamesErrorCode(::StringW code);
 
-  /// @brief Method IsBeatGamesErrorCode, addr 0x32a0418, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsBeatGamesErrorCode, addr 0x32a4214, size 0x14, virtual false, abstract: false, final false
   static inline bool IsBeatGamesErrorCode(int32_t code);
 
 protected:
@@ -72,7 +72,7 @@ public:
   static constexpr int32_t MIN_ERROR_CODE{ static_cast<int32_t>(0x39d0cb) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20605 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

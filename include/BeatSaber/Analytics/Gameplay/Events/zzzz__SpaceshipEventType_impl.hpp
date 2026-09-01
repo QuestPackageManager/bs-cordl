@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/Events/SpaceshipEventType.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\Events\SpaceshipEventType.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Analytics/Gameplay/Events/zzzz__SpaceshipEventType_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType.get_Value
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3261de4;
+  constexpr static std::size_t addrs = 0x3265290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>(), { "get_Value", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3261dec;
+  constexpr static std::size_t addrs = 0x3265298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3261df4;
+  constexpr static std::size_t addrs = 0x32652a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>(),
@@ -110,6 +110,20 @@ inline void BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::setStati
 }
 inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::getStaticF_Update() {
   return ::cordl_internals::getStaticField<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*, "Update", ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>();
+}
+inline void BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::setStaticF_ColorsOverride(::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*, "ColorsOverride", ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>(
+      std::forward<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>(value));
+}
+inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::getStaticF_ColorsOverride() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*, "ColorsOverride", ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>();
+}
+inline void BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::setStaticF_EnvironmentOverride(::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* value) {
+  ::cordl_internals::setStaticField<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*, "EnvironmentOverride", ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>(
+      std::forward<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>(value));
+}
+inline ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::getStaticF_EnvironmentOverride() {
+  return ::cordl_internals::getStaticField<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*, "EnvironmentOverride", ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>();
 }
 inline ::StringW BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType::get_Value() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType*>(), { "get_Value", {}, {} })));

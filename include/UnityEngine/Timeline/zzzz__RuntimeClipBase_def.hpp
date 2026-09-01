@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/RuntimeClipBase.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\RuntimeClipBase.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,16 +31,16 @@ public:
 
   static inline ::UnityEngine::Timeline::RuntimeClipBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x69bd998, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69c5414, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_duration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_intervalEnd, addr 0x69be014, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_intervalEnd, addr 0x69c5a90, size 0x88, virtual true, abstract: false, final false
   inline int64_t get_intervalEnd();
 
-  /// @brief Method get_intervalStart, addr 0x69bdfa0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_intervalStart, addr 0x69c5a1c, size 0x74, virtual true, abstract: false, final false
   inline int64_t get_intervalStart();
 
   /// @brief Method get_start, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -61,7 +61,7 @@ public:
   RuntimeClipBase(RuntimeClipBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

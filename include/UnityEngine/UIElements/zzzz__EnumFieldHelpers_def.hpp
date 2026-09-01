@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EnumFieldHelpers.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EnumFieldHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +49,7 @@ public:
   /// @brief Field value, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_value, put = setStaticF_value)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* value;
 
-  /// @brief Method ExtractValue, addr 0x6d36fc0, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method ExtractValue, addr 0x6d3eb44, size 0x368, virtual false, abstract: false, final false
   static inline bool ExtractValue(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::by_ref<::System::Type*> resEnumType,
                                   ::by_ref<::System::Enum*> resEnumValue, ::by_ref<bool> resIncludeObsoleteValues);
 

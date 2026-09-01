@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSubstitutionGroup.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaSubstitutionGroup.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObject_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSubstitutionGroup_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::XmlSchemaSubstitutionGroup::*)()>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroup::get_Members)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6234808;
+  constexpr static std::size_t addrs = 0x623c284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaSubstitutionGroup*>(), { "get_Members", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaSubstitutionGroup::*)()>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroup::get_Examplar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6234810;
+  constexpr static std::size_t addrs = 0x623c28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaSubstitutionGroup*>(), { "get_Examplar", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaSubstitutionGroup::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroup::set_Examplar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6234818;
+  constexpr static std::size_t addrs = 0x623c294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaSubstitutionGroup::*)()>(&::System::Xml::Schema::XmlSchemaSubstitutionGroup::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6234820;
+  constexpr static std::size_t addrs = 0x623c29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaSubstitutionGroup*>(), { ".ctor", {}, {} })));

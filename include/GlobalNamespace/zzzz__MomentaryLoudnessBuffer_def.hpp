@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MomentaryLoudnessBuffer.hpp"
+// IWYU pragma private; include "GlobalNamespace\MomentaryLoudnessBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
   /// @brief Field nextDataIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_nextDataIndex, put = __cordl_internal_set_nextDataIndex)) int32_t nextDataIndex;
 
-  /// @brief Method AddSample, addr 0x3262b58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddSample, addr 0x3265ef0, size 0x44, virtual false, abstract: false, final false
   inline void AddSample(float_t data);
 
   static inline ::GlobalNamespace::MomentaryLoudnessBuffer* New_ctor(int32_t numChannels, int32_t sampleFrequency, float_t momentaryWindowDuration, int32_t readingsPerBuffer);
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_nextDataIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3262aa4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3265e3c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t numChannels, int32_t sampleFrequency, float_t momentaryWindowDuration, int32_t readingsPerBuffer);
 
-  /// @brief Method get_buffer, addr 0x3263d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buffer, addr 0x3267118, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_buffer();
 
-  /// @brief Method get_isNextReadingIntervalReady, addr 0x3262b9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_isNextReadingIntervalReady, addr 0x3265f34, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isNextReadingIntervalReady();
 
 protected:
@@ -82,7 +82,7 @@ public:
   MomentaryLoudnessBuffer(MomentaryLoudnessBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22629 };
 
   /// @brief Field nextDataIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___nextDataIndex;

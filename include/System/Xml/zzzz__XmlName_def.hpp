@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlName.hpp"
+// IWYU pragma private; include "System\Xml\XmlName.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,14 +92,14 @@ public:
   /// @brief Convert operator to "::System::Xml::Schema::IXmlSchemaInfo"
   constexpr operator ::System::Xml::Schema::IXmlSchemaInfo*() noexcept;
 
-  /// @brief Method Create, addr 0x62ae154, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x62b5bd0, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlName* Create(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next,
                                                ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method Equals, addr 0x62beb2c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x62c65a8, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method GetHashCode, addr 0x62adeac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x62b5928, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::StringW name);
 
   static inline ::System::Xml::XmlName* New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next);
@@ -146,46 +146,46 @@ public:
 
   constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62be6ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62c6168, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next);
 
-  /// @brief Method get_HashCode, addr 0x62beae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashCode, addr 0x62c6560, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_HashCode();
 
-  /// @brief Method get_IsDefault, addr 0x62beafc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDefault, addr 0x62c6578, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDefault();
 
-  /// @brief Method get_IsNil, addr 0x62beb04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNil, addr 0x62c6580, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNil();
 
-  /// @brief Method get_LocalName, addr 0x62beacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x62c6548, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_MemberType, addr 0x62beb0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x62c6588, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
 
-  /// @brief Method get_Name, addr 0x62ae7f8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x62b6274, size 0x1b8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NamespaceURI, addr 0x62bead4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceURI, addr 0x62c6550, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceURI();
 
-  /// @brief Method get_OwnerDocument, addr 0x62beaec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OwnerDocument, addr 0x62c6568, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDocument* get_OwnerDocument();
 
-  /// @brief Method get_Prefix, addr 0x62beadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x62c6558, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SchemaAttribute, addr 0x62beb24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SchemaAttribute, addr 0x62c65a0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
 
-  /// @brief Method get_SchemaElement, addr 0x62beb1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SchemaElement, addr 0x62c6598, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
 
-  /// @brief Method get_SchemaType, addr 0x62beb14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SchemaType, addr 0x62c6590, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
 
-  /// @brief Method get_Validity, addr 0x62beaf4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Validity, addr 0x62c6570, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaValidity get_Validity();
 
   /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
@@ -206,7 +206,7 @@ public:
   XmlName(XmlName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9395 };
 
   /// @brief Field prefix, offset: 0x10, size: 0x8, def value: None
   ::StringW ___prefix;

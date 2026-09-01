@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/TextReader_NullTextReader.hpp"
+// IWYU pragma private; include "System\IO\TextReader_NullTextReader.hpp"
 #include "System/IO/zzzz__TextReader_impl.hpp"
 #include "System/IO/zzzz__TextReader_NullTextReader_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TextReader_NullTextReader._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextReader_NullTextReader::*)()>(&::GlobalNamespace::TextReader_NullTextReader::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5bff224;
+  constexpr static std::size_t addrs = 0x5c036e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextReader_NullTextReader*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextReader_NullTextReader::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::GlobalNamespace::TextReader_NullTextReader::Read)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bff27c;
+  constexpr static std::size_t addrs = 0x5c03738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::TextReader_NullTextReader::*)()>(&::GlobalNamespace::TextReader_NullTextReader::ReadLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bff284;
+  constexpr static std::size_t addrs = 0x5c03740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

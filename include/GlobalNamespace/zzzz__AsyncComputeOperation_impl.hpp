@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AsyncComputeOperation.hpp"
+// IWYU pragma private; include "GlobalNamespace\AsyncComputeOperation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_def.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::GlobalNamespace::AsyncComputeOperation::*)()>(&::GlobalNamespace::AsyncComputeOperation::get_elapsedTime)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3328d2c;
+  constexpr static std::size_t addrs = 0x332caec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AsyncComputeOperation*>(), { "get_elapsedTime", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AsyncComputeOperation::*)()>(&::GlobalNamespace::AsyncComputeOperation::get_hasTimedOut)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3328db4;
+  constexpr static std::size_t addrs = 0x332cb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AsyncComputeOperation*>(), { "get_hasTimedOut", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AsyncComputeOperation::*)(int32_t)>(&::GlobalNamespace::AsyncComputeOperation::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3328de4;
+  constexpr static std::size_t addrs = 0x332cba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

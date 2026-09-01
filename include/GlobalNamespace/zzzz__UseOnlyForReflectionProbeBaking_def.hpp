@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/UseOnlyForReflectionProbeBaking.hpp"
+// IWYU pragma private; include "GlobalNamespace\UseOnlyForReflectionProbeBaking.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE UseOnlyForReflectionProbeBaking : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x58e13fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58e4a34, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::UseOnlyForReflectionProbeBaking* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58e1420, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4a58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   UseOnlyForReflectionProbeBaking(UseOnlyForReflectionProbeBaking const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

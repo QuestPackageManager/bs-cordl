@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/ConstrainedExecution/PrePrepareMethodAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\ConstrainedExecution\PrePrepareMethodAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__PrePrepareMethodAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute::*)()>(
     &::System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6b3e4;
+  constexpr static std::size_t addrs = 0x5b6f8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

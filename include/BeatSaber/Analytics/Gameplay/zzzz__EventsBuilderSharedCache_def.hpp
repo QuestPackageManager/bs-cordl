@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Analytics/Gameplay/EventsBuilderSharedCache.hpp"
+// IWYU pragma private; include "BeatSaber\Analytics\Gameplay\EventsBuilderSharedCache.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,34 +46,34 @@ public:
   /// @brief Field _segmentNameToId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__segmentNameToId, put = __cordl_internal_set__segmentNameToId)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _segmentNameToId;
 
-  /// @brief Method AddSegment, addr 0x325edc4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AddSegment, addr 0x32620c4, size 0xf4, virtual false, abstract: false, final false
   inline void AddSegment(::StringW segmentId, ::StringW segmentName, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType* type,
                          ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings);
 
-  /// @brief Method Clear, addr 0x325fdbc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x32630bc, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetSegmentState, addr 0x325f080, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetSegmentState, addr 0x3262380, size 0x74, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Gameplay::SegmentState* GetSegmentState(::StringW segmentId);
 
-  /// @brief Method IsSegmentFinished, addr 0x325ed60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsSegmentFinished, addr 0x3262060, size 0x64, virtual false, abstract: false, final false
   inline bool IsSegmentFinished(::StringW segmentId);
 
-  /// @brief Method MarkSegmentAsFinished, addr 0x325fb2c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method MarkSegmentAsFinished, addr 0x3262e2c, size 0x70, virtual false, abstract: false, final false
   inline void MarkSegmentAsFinished(::StringW segmentId);
 
   static inline ::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache* New_ctor();
 
-  /// @brief Method RemoveSegment, addr 0x325fa6c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RemoveSegment, addr 0x3262d6c, size 0xc0, virtual false, abstract: false, final false
   inline bool RemoveSegment(::StringW segmentName);
 
-  /// @brief Method TryGetSegmentId, addr 0x325ecf4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetSegmentId, addr 0x3261ff4, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetSegmentId(::StringW segmentName, ::by_ref<::StringW> segmentId);
 
-  /// @brief Method UpdateSeqNum, addr 0x325f9f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UpdateSeqNum, addr 0x3262cf8, size 0x74, virtual false, abstract: false, final false
   inline void UpdateSeqNum(::StringW segmentId, int32_t seqNum);
 
-  /// @brief Method UpdateSettings, addr 0x325e944, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSettings, addr 0x3261c44, size 0x1c, virtual false, abstract: false, final false
   inline void UpdateSettings(::StringW segmentId, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField* settings);
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__finishedSegmentIds() const;
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__segmentNameToId(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x325fc68, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3262f68, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +112,7 @@ public:
   EventsBuilderSharedCache(EventsBuilderSharedCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22237 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22255 };
 
   /// @brief Field _segmentNameToId, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ____segmentNameToId;

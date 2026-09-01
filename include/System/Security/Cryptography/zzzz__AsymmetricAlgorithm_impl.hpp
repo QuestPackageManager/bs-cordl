@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Cryptography/AsymmetricAlgorithm.hpp"
+// IWYU pragma private; include "System\Security\Cryptography\AsymmetricAlgorithm.hpp"
 #include "System/Security/Cryptography/zzzz__KeySizes_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(&::System::Security::Cryptography::AsymmetricAlgorithm::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5af4b3c;
+  constexpr static std::size_t addrs = 0x5af8ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsymmetricAlgorithm*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(&::System::Security::Cryptography::AsymmetricAlgorithm::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5af4b40;
+  constexpr static std::size_t addrs = 0x5af8ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsymmetricAlgorithm*>(), { "Dispose", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(&::System::Security::Cryptography::AsymmetricAlgorithm::Clear)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5af4b44;
+  constexpr static std::size_t addrs = 0x5af9000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsymmetricAlgorithm*>(), { "Clear", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)(bool)>(&::System::Security::Cryptography::AsymmetricAlgorithm::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5af4bb4;
+  constexpr static std::size_t addrs = 0x5af9070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsymmetricAlgorithm*>(),
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(&::System::Security::Cryptography::AsymmetricAlgorithm::get_KeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5af4bb8;
+  constexpr static std::size_t addrs = 0x5af9074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsymmetricAlgorithm*>(),
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)(int32_t)>(&::System::Security::Cryptography::AsymmetricAlgorithm::set_KeySize)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5af4bc0;
+  constexpr static std::size_t addrs = 0x5af907c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsymmetricAlgorithm*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)(::StringW)>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::FromXmlString)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5af4cc0;
+  constexpr static std::size_t addrs = 0x5af917c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsymmetricAlgorithm*>(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::AsymmetricAlgorithm::*)(bool)>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::ToXmlString)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5af4cf8;
+  constexpr static std::size_t addrs = 0x5af91b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::AsymmetricAlgorithm*>(),

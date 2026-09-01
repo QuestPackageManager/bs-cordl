@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Experimental/EventDebuggerLogIMGUICall.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Experimental\EventDebuggerLogIMGUICall.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +29,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6d16f74, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6d1eaf8, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6d16f70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1eaf4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* evt);
 
   /// @brief Convert to "::System::IDisposable"

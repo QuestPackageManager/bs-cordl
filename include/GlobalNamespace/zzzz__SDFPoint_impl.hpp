@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SDFPoint.hpp"
+// IWYU pragma private; include "GlobalNamespace\SDFPoint.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SDFPoint_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SDFPoint.get_sqrtRadius
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SDFPoint::*)()>(&::GlobalNamespace::SDFPoint::get_sqrtRadius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5873994;
+  constexpr static std::size_t addrs = 0x58732d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SDFPoint*>(), { "get_sqrtRadius", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SDFPoint::*)(float_t)>(&::GlobalNamespace::SDFPoint::set_sqrtRadius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587399c;
+  constexpr static std::size_t addrs = 0x58732dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SDFPoint*>(), { "set_sqrtRadius", {}, { ::i2c::type_of<float_t>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SDFPoint::*)()>(&::GlobalNamespace::SDFPoint::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58739a4;
+  constexpr static std::size_t addrs = 0x58732e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SDFPoint*>(), { ".ctor", {}, {} })));

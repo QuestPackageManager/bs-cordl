@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/MessageWithSdkAccountList.hpp"
+// IWYU pragma private; include "Oculus\Platform\MessageWithSdkAccountList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,15 +25,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithSdkAccountList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SdkAccountList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5dd88d4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5ddcd90, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SdkAccountList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetSdkAccountList, addr 0x5dd8890, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetSdkAccountList, addr 0x5ddcd4c, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SdkAccountList* GetSdkAccountList();
 
   static inline ::Oculus::Platform::MessageWithSdkAccountList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x5dd3a54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd7f10, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -51,7 +51,7 @@ public:
   MessageWithSdkAccountList(MessageWithSdkAccountList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

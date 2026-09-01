@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Configuration/IgnoreSection.hpp"
+// IWYU pragma private; include "System\Configuration\IgnoreSection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,27 +34,27 @@ public:
   // Declarations
   __declspec(property(get = get_Properties)) ::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method DeserializeSection, addr 0x5f4ffe8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DeserializeSection, addr 0x5f57a64, size 0x3c, virtual true, abstract: false, final false
   inline void DeserializeSection(::System::Xml::XmlReader* xmlReader);
 
-  /// @brief Method IsModified, addr 0x5f50024, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x5f57aa0, size 0x3c, virtual true, abstract: false, final false
   inline bool IsModified();
 
   static inline ::System::Configuration::IgnoreSection* New_ctor();
 
-  /// @brief Method Reset, addr 0x5f50060, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x5f57adc, size 0x3c, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentSection);
 
-  /// @brief Method ResetModified, addr 0x5f5009c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x5f57b18, size 0x3c, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method SerializeSection, addr 0x5f500d8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method SerializeSection, addr 0x5f57b54, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentSection, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
 
-  /// @brief Method .ctor, addr 0x5f4ff70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f579ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x5f4ffac, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x5f57a28, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -72,7 +72,7 @@ public:
   IgnoreSection(IgnoreSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

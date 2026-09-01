@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ObjectHolderListEnumerator.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ObjectHolderListEnumerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectHolderListEnumerator_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectHolderList_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectHolderListEnumerator::*)(::System::Runtime::Serialization::ObjectHolderList*, bool)>(
     &::System::Runtime::Serialization::ObjectHolderListEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5b4fa38;
+  constexpr static std::size_t addrs = 0x5b53ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::ObjectHolderListEnumerator::*)()>(
     &::System::Runtime::Serialization::ObjectHolderListEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5b4e9b8;
+  constexpr static std::size_t addrs = 0x5b52e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ObjectHolderListEnumerator*>(), { "MoveNext", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::ObjectHolder* (::System::Runtime::Serialization::ObjectHolderListEnumerator::*)()>(
     &::System::Runtime::Serialization::ObjectHolderListEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5b4e964;
+  constexpr static std::size_t addrs = 0x5b52e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

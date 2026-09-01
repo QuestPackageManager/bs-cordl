@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/CancellationTokenSource_Linked1CancellationTokenSource.hpp"
+// IWYU pragma private; include "System\Threading\CancellationTokenSource_Linked1CancellationTokenSource.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_Linked1CancellationTokenSource_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CancellationTokenSource_Linked1CancellationTokenSource::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::CancellationTokenSource_Linked1CancellationTokenSource::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5ca878c;
+  constexpr static std::size_t addrs = 0x5cacc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CancellationTokenSource_Linked1CancellationTokenSource*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CancellationTokenSource_Linked1CancellationTokenSource::*)(bool)>(
     &::GlobalNamespace::CancellationTokenSource_Linked1CancellationTokenSource::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5ca8f00;
+  constexpr static std::size_t addrs = 0x5cad3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::CancellationTokenSource_Linked1CancellationTokenSource*>(),

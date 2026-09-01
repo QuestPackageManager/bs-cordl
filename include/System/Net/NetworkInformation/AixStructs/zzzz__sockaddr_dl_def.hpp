@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/sockaddr_dl.hpp"
+// IWYU pragma private; include "System\Net\NetworkInformation\AixStructs\sockaddr_dl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +24,7 @@ namespace System::Net::NetworkInformation::AixStructs {
 struct CORDL_TYPE sockaddr_dl {
 public:
   // Declarations
-  /// @brief Method Read, addr 0x634c778, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x63541f4, size 0x138, virtual false, abstract: false, final false
   inline void Read(::System::IntPtr ptr);
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr sockaddr_dl(uint8_t sdl_len, uint8_t sdl_family, uint16_t sdl_index, uint8_t sdl_type, uint8_t sdl_nlen, uint8_t sdl_alen, uint8_t sdl_slen, ::ArrayW<uint8_t> sdl_data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11706 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11735 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

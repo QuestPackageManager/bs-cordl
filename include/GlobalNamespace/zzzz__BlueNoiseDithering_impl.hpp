@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BlueNoiseDithering.hpp"
+// IWYU pragma private; include "GlobalNamespace\BlueNoiseDithering.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BlueNoiseDithering_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlueNoiseDithering::*)(int32_t, int32_t)>(&::GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x586924c;
+  constexpr static std::size_t addrs = 0x58681f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlueNoiseDithering::*)()>(&::GlobalNamespace::BlueNoiseDithering::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5869334;
+  constexpr static std::size_t addrs = 0x58682d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlueNoiseDithering*>(), { ".ctor", {}, {} })));

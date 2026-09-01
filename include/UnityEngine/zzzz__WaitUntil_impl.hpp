@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/WaitUntil.hpp"
+// IWYU pragma private; include "UnityEngine\WaitUntil.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_impl.hpp"
 #include "UnityEngine/zzzz__WaitTimeoutMode_impl.hpp"
 #include "UnityEngine/zzzz__WaitUntil_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::WaitUntil::*)()>(&::UnityEngine::WaitUntil::get_keepWaiting)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6ae456c;
+  constexpr static std::size_t addrs = 0x6aebf84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::WaitUntil*>(), { ::i2c::class_of<::UnityEngine::WaitUntil*>(), 7 }));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::WaitUntil::*)(::System::Func_1<bool>*)>(&::UnityEngine::WaitUntil::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ae4630;
+  constexpr static std::size_t addrs = 0x6aec048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::WaitUntil::*)()>(&::UnityEngine::WaitUntil::GetTime)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ae4640;
+  constexpr static std::size_t addrs = 0x6aec058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::WaitUntil*>(), { "GetTime", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IndirectBufferContextHandles.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IndirectBufferContextHandles.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE IndirectBufferContextHandles {
 public:
   // Declarations
-  /// @brief Method UseForOcclusionTest, addr 0x68282b8, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UseForOcclusionTest, addr 0x682fd34, size 0x208, virtual false, abstract: false, final false
   inline void UseForOcclusionTest(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
                                          ::UnityEngine::Rendering::RenderGraphModule::BufferHandle argsBuffer, ::UnityEngine::Rendering::RenderGraphModule::BufferHandle drawInfoBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17747 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

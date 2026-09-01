@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockRandomValueSetter.hpp"
+// IWYU pragma private; include "GlobalNamespace\MaterialPropertyBlockRandomValueSetter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,18 +43,18 @@ public:
   /// @brief Field _renderers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__renderers, put = __cordl_internal_set__renderers)) ::ArrayW<::UnityW<::UnityEngine::Renderer>> _renderers;
 
-  /// @brief Method ApplyParams, addr 0x5872bf8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x5872538, size 0x1f8, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockRandomValueSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x5872df0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5872730, size 0x28, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x5872e18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x5872758, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method Start, addr 0x5872bf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5872534, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityEngine::MaterialPropertyBlock*> const& __cordl_internal_get__materialPropertyBlocks() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>> value);
 
-  /// @brief Method .ctor, addr 0x5872e38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5872778, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,7 +111,7 @@ public:
   MaterialPropertyBlockRandomValueSetter(MaterialPropertyBlockRandomValueSetter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19576 };
 
   /// @brief Field _renderers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Renderer>> ____renderers;

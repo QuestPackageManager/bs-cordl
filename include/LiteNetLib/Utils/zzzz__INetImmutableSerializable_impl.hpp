@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "LiteNetLib/Utils/INetImmutableSerializable.hpp"
+// IWYU pragma private; include "LiteNetLib\Utils\INetImmutableSerializable.hpp"
 #include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::Utils::INetImmutableSerializable.Serialize

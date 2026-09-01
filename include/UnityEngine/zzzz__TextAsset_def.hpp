@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextAsset.hpp"
+// IWYU pragma private; include "UnityEngine\TextAsset.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,7 +88,7 @@ public:
   static ::UnityEngine::TextAsset_CreateOptions const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10368 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -141,7 +141,7 @@ public:
   TextAsset_EncodingUtility(TextAsset_EncodingUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -166,43 +166,43 @@ public:
 
   __declspec(property(get = get_text)) ::StringW text;
 
-  /// @brief Method DecodeString, addr 0x6adfaf4, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method DecodeString, addr 0x6ae750c, size 0x294, virtual false, abstract: false, final false
   static inline ::StringW DecodeString(::ArrayW<uint8_t> bytes);
 
   /// @brief Method GetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Unity::Collections::NativeArray_1<T> GetData();
 
-  /// @brief Method GetDataPtr, addr 0x6adf944, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetDataPtr, addr 0x6ae735c, size 0x80, virtual false, abstract: false, final false
   inline ::System::IntPtr GetDataPtr();
 
-  /// @brief Method GetDataPtr_Injected, addr 0x6adf9c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDataPtr_Injected, addr 0x6ae73dc, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetDataPtr_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetDataSize, addr 0x6adfa00, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetDataSize, addr 0x6ae7418, size 0x80, virtual false, abstract: false, final false
   inline int64_t GetDataSize();
 
-  /// @brief Method GetDataSize_Injected, addr 0x6adfa80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDataSize_Injected, addr 0x6ae7498, size 0x3c, virtual false, abstract: false, final false
   static inline int64_t GetDataSize_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetPreview, addr 0x6adfed4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPreview, addr 0x6ae78ec, size 0x14, virtual false, abstract: false, final false
   inline ::StringW GetPreview(int32_t maxChars);
 
-  /// @brief Method GetPreviewBytes, addr 0x6adf60c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetPreviewBytes, addr 0x6ae7024, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetPreviewBytes(int32_t maxByteCount);
 
-  /// @brief Method GetPreviewBytes_Injected, addr 0x6adf69c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPreviewBytes_Injected, addr 0x6ae70b4, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetPreviewBytes_Injected(::System::IntPtr _unity_self, int32_t maxByteCount);
 
-  /// @brief Method Internal_CreateInstance, addr 0x6adf6e0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateInstance, addr 0x6ae70f8, size 0x134, virtual false, abstract: false, final false
   static inline void Internal_CreateInstance(::UnityEngine::TextAsset* self, ::StringW text);
 
-  /// @brief Method Internal_CreateInstanceFromBytes, addr 0x6adf858, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateInstanceFromBytes, addr 0x6ae7270, size 0xa8, virtual false, abstract: false, final false
   static inline void Internal_CreateInstanceFromBytes(::UnityEngine::TextAsset* self, ::System::ReadOnlySpan_1<uint8_t> bytes);
 
-  /// @brief Method Internal_CreateInstanceFromBytes_Injected, addr 0x6adf900, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateInstanceFromBytes_Injected, addr 0x6ae7318, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_CreateInstanceFromBytes_Injected(::UnityEngine::TextAsset* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> bytes);
 
-  /// @brief Method Internal_CreateInstance_Injected, addr 0x6adf814, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateInstance_Injected, addr 0x6ae722c, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_CreateInstance_Injected(::UnityEngine::TextAsset* self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> text);
 
   static inline ::UnityEngine::TextAsset* New_ctor();
@@ -215,34 +215,34 @@ public:
 
   static inline ::UnityEngine::TextAsset* New_ctor(::StringW text);
 
-  /// @brief Method ToString, addr 0x6adfd8c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6ae77a4, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6adfd90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae77a8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6adfe2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae7844, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::ReadOnlySpan_1<uint8_t> bytes);
 
-  /// @brief Method .ctor, addr 0x6adfe3c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae7854, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextAsset_CreateOptions options, ::System::ReadOnlySpan_1<uint8_t> bytes);
 
-  /// @brief Method .ctor, addr 0x6adfd9c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae77b4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextAsset_CreateOptions options, ::StringW text);
 
-  /// @brief Method .ctor, addr 0x6adfe20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae7838, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
-  /// @brief Method get_bytes, addr 0x6adf550, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_bytes, addr 0x6ae6f68, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_bytes();
 
-  /// @brief Method get_bytes_Injected, addr 0x6adf5d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bytes_Injected, addr 0x6ae6fe8, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> get_bytes_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_dataSize, addr 0x6adfd88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_dataSize, addr 0x6ae77a0, size 0x4, virtual false, abstract: false, final false
   inline int64_t get_dataSize();
 
-  /// @brief Method get_text, addr 0x6adfabc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x6ae74d4, size 0x38, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
 protected:
@@ -260,7 +260,7 @@ public:
   TextAsset(TextAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10370 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

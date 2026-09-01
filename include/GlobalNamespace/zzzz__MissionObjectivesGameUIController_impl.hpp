@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MissionObjectivesGameUIController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MissionObjectivesGameUIController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectivesGameUIController_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectivesGameUIController::*)()>(&::GlobalNamespace::MissionObjectivesGameUIController::Start)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5914e08;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5918398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectivesGameUIController*>(), { "Start", {}, {} })));
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectivesGameUIController::*)()>(&::GlobalNamespace::MissionObjectivesGameUIController::OnDestroy)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x59152b0;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5918798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectivesGameUIController*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectivesGameUIController::*)()>(
     &::GlobalNamespace::MissionObjectivesGameUIController::HandleMissionObjectiveCheckersManagerObjectivesListDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5915468;
+  constexpr static std::size_t addrs = 0x59188a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectivesGameUIController::*)()>(&::GlobalNamespace::MissionObjectivesGameUIController::CreateUIElements)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x5914f48;
+  constexpr static std::size_t addrs = 0x5918430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectivesGameUIController*>(), { "CreateUIElements", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectivesGameUIController::*)()>(&::GlobalNamespace::MissionObjectivesGameUIController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x591546c;
+  constexpr static std::size_t addrs = 0x59188ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectivesGameUIController*>(), { ".ctor", {}, {} })));

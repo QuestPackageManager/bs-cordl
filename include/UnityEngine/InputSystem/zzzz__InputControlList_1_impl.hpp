@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/InputControlList_1.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\InputControlList_1.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/AssetDetails.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\AssetDetails.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_Metadata(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5dd5ad0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd9f8c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -119,7 +119,7 @@ public:
   AssetDetails(AssetDetails const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18019 };
 
   /// @brief Field AssetId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___AssetId;

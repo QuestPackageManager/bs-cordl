@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TutorialNoteCutEffectSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace\TutorialNoteCutEffectSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,15 +38,15 @@ public:
   /// @brief Field _failFlyingTextSpawner, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__failFlyingTextSpawner, put = __cordl_internal_set__failFlyingTextSpawner)) ::UnityW<::GlobalNamespace::FlyingTextSpawner> _failFlyingTextSpawner;
 
-  /// @brief Method HandleNoteWasCut, addr 0x59f0828, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x59f88fc, size 0x278, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::by_ref<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::TutorialNoteCutEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59f0790, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59f8864, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59f0700, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59f87d4, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__failFlyingTextSpawner(::UnityW<::GlobalNamespace::FlyingTextSpawner> value);
 
-  /// @brief Method .ctor, addr 0x59f0aa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f8b74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   TutorialNoteCutEffectSpawner(TutorialNoteCutEffectSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6284 };
 
   /// @brief Field kCutHarderFlyingTextLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kCutHarderFlyingTextLocalizationKey{ u"CUT_HARDER_FLYING_TEXT" };

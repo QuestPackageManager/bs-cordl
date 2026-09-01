@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/FieldInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\FieldInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +28,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::FieldInstruction* New_ctor(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method ToString, addr 0x5f8d57c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5f94ff8, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Reflection::FieldInfo* const& __cordl_internal_get__field() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__field(::System::Reflection::FieldInfo* value);
 
-  /// @brief Method .ctor, addr 0x5f8d570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f94fec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* field);
 
 protected:
@@ -55,7 +55,7 @@ public:
   FieldInstruction(FieldInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16349 };
 
   /// @brief Field _field, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ____field;

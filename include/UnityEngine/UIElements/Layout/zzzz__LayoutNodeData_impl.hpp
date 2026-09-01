@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutNodeData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutNodeData.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__FixedBuffer2_1_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutHandle_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutList_1_impl.hpp"
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Layout::LayoutNodeData::*)()>(&::UnityEngine::UIElements::Layout::LayoutNodeData::get_HasNewLayout)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cf9e20;
+  constexpr static std::size_t addrs = 0x6d019a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutNodeData>(), { "get_HasNewLayout", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutNodeData::*)(bool)>(&::UnityEngine::UIElements::Layout::LayoutNodeData::set_HasNewLayout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6cf9eb0;
+  constexpr static std::size_t addrs = 0x6d01a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Layout::LayoutNodeData::*)()>(&::UnityEngine::UIElements::Layout::LayoutNodeData::get_IsDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cf9d24;
+  constexpr static std::size_t addrs = 0x6d018a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutNodeData>(), { "get_IsDirty", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutNodeData::*)(bool)>(&::UnityEngine::UIElements::Layout::LayoutNodeData::set_IsDirty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6cf9da4;
+  constexpr static std::size_t addrs = 0x6d01928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

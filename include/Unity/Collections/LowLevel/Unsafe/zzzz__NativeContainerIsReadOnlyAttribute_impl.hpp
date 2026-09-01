@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeContainerIsReadOnlyAttribute.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\NativeContainerIsReadOnlyAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__NativeContainerIsReadOnlyAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a583d8;
+  constexpr static std::size_t addrs = 0x6a5fe54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

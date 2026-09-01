@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/Internal/PropertiesInitialization.hpp"
+// IWYU pragma private; include "Unity\Properties\Internal\PropertiesInitialization.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Properties/Internal/zzzz__PropertiesInitialization_def.hpp"
 //  Writing Method size for method: ::Unity::Properties::Internal::PropertiesInitialization.InitializeProperties
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Properties::Internal::PropertiesInitialization::InitializeProperties)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x6baa208;
+  constexpr static std::size_t addrs = 0x6bb1d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

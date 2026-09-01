@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/ShareAndLocalizeParams.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\ShareAndLocalizeParams.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__ShareAndLocalizeParams_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::*)(uint64_t, uint64_t, ::System::Guid)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a773a4;
+  constexpr static std::size_t addrs = 0x5a7b860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::*)(uint64_t, uint64_t, ::System::Guid, bool)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5a79d58;
+  constexpr static std::size_t addrs = 0x5a7e214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams::ToString)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x5a79d68;
+  constexpr static std::size_t addrs = 0x5a7e224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams>(),

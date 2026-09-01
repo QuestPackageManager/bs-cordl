@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/IXmlDictionary.hpp"
+// IWYU pragma private; include "System\Xml\IXmlDictionary.hpp"
 #include "System/Xml/zzzz__IXmlDictionary_def.hpp"
 #include "System/Xml/zzzz__XmlDictionaryString_def.hpp"
 //  Writing Method size for method: ::System::Xml::IXmlDictionary.TryLookup

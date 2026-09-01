@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/DiagnosticReport.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\DiagnosticReport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,42 +27,42 @@ public:
   /// @brief Field k_NullSection, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_NullSection, put = setStaticF_k_NullSection)) uint64_t k_NullSection;
 
-  /// @brief Method AddEventEntry, addr 0x69e71f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddEventEntry, addr 0x69eec6c, size 0xac, virtual false, abstract: false, final false
   static inline void AddEventEntry(::StringW eventName, ::StringW eventData);
 
-  /// @brief Method AddSectionBreak, addr 0x69e717c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AddSectionBreak, addr 0x69eebf8, size 0x74, virtual false, abstract: false, final false
   static inline void AddSectionBreak(uint64_t sectionHandle);
 
-  /// @brief Method AddSectionEntry, addr 0x69e70c0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AddSectionEntry, addr 0x69eeb3c, size 0xbc, virtual false, abstract: false, final false
   static inline void AddSectionEntry(uint64_t sectionHandle, ::StringW sectionEntry, ::StringW sectionBody);
 
-  /// @brief Method DumpReport, addr 0x69e7500, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DumpReport, addr 0x69eef7c, size 0x4, virtual false, abstract: false, final false
   static inline void DumpReport(::StringW reason);
 
-  /// @brief Method GenerateReport, addr 0x69e7470, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GenerateReport, addr 0x69eeeec, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW GenerateReport();
 
-  /// @brief Method GetSection, addr 0x69e7030, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetSection, addr 0x69eeaac, size 0x90, virtual false, abstract: false, final false
   static inline uint64_t GetSection(::StringW sectionName);
 
-  /// @brief Method Internal_DumpReport, addr 0x69e729c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_DumpReport, addr 0x69eed18, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_DumpReport();
 
-  /// @brief Method Internal_DumpReport, addr 0x69e7300, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Internal_DumpReport, addr 0x69eed7c, size 0x90, virtual false, abstract: false, final false
   static inline void Internal_DumpReport(::StringW reason);
 
-  /// @brief Method Internal_GenerateReport, addr 0x69e7390, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GenerateReport, addr 0x69eee0c, size 0x64, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_GenerateReport();
 
-  /// @brief Method Internal_ReleaseReport, addr 0x69e73f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_ReleaseReport, addr 0x69eee70, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_ReleaseReport(::System::IntPtr report);
 
   static inline ::UnityEngine::XR::OpenXR::DiagnosticReport* New_ctor();
 
-  /// @brief Method StartReport, addr 0x69e6fcc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method StartReport, addr 0x69eea48, size 0x64, virtual false, abstract: false, final false
   static inline void StartReport();
 
-  /// @brief Method .ctor, addr 0x69e7504, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69eef80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint64_t getStaticF_k_NullSection();
@@ -87,7 +87,7 @@ public:
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18469 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18502 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

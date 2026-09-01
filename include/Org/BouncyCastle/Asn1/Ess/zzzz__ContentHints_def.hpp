@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ess/ContentHints.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Ess\ContentHints.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +44,7 @@ public:
   /// @brief Field contentType, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType;
 
-  /// @brief Method GetInstance, addr 0x33761e8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3379fa8, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType);
@@ -53,7 +53,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentHints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3376518, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x337a2d8, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerUtf8String* const& __cordl_internal_get_contentDescription() const;
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set_contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x33764f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337a2b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType);
 
-  /// @brief Method .ctor, addr 0x3376500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337a2c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::DerUtf8String* contentDescription);
 
-  /// @brief Method .ctor, addr 0x3376370, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337a130, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ContentDescription, addr 0x3376510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentDescription, addr 0x337a2d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_ContentDescription();
 
-  /// @brief Method get_ContentType, addr 0x3376508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x337a2c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
 protected:

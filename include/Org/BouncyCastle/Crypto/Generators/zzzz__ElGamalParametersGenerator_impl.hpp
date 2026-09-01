@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/ElGamalParametersGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Generators\ElGamalParametersGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__ElGamalParametersGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalParameters_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::*)(int32_t, int32_t, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33d4e48;
+  constexpr static std::size_t addrs = 0x33d8c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* (::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::GenerateParameters)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x33d4e54;
+  constexpr static std::size_t addrs = 0x33d8c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33d4f2c;
+  constexpr static std::size_t addrs = 0x33d8cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

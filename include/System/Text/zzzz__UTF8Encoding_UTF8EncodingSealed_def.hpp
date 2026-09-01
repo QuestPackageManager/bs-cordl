@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/UTF8Encoding_UTF8EncodingSealed.hpp"
+// IWYU pragma private; include "System\Text\UTF8Encoding_UTF8EncodingSealed.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +27,10 @@ public:
 
   static inline ::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed* New_ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method .ctor, addr 0x5adf2a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ae3760, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method get_Preamble, addr 0x5adf330, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method get_Preamble, addr 0x5ae37ec, size 0xf8, virtual true, abstract: false, final false
   inline ::System::ReadOnlySpan_1<uint8_t> get_Preamble();
 
 protected:

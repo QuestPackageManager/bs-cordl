@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Request_1.hpp"
+// IWYU pragma private; include "Oculus\Platform\Request_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +63,7 @@ public:
   Request_1(Request_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17978 };
 
   /// @brief Field callback_, offset: 0x20, size: 0x8, def value: None
   ::Oculus::Platform::Message_1_Callback<T>* ___callback_;

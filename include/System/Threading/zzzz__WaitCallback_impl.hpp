@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Threading/WaitCallback.hpp"
+// IWYU pragma private; include "System\Threading\WaitCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitCallback::*)(::System::Object*, ::System::IntPtr)>(&::System::Threading::WaitCallback::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5cb0034;
+  constexpr static std::size_t addrs = 0x5cb44f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitCallback::*)(::System::Object*)>(&::System::Threading::WaitCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cb0178;
+  constexpr static std::size_t addrs = 0x5cb4634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

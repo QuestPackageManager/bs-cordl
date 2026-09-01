@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/UserInterface/Generic/ButtonWithIcon.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\UserInterface\Generic\ButtonWithIcon.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,22 +55,22 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithIcon* New_ctor();
 
-  /// @brief Method OnHoverChanged, addr 0x5a55804, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnHoverChanged, addr 0x5a59cc0, size 0x30, virtual true, abstract: false, final false
   inline void OnHoverChanged();
 
-  /// @brief Method OnTransparencyChanged, addr 0x5a55b5c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x5a5a018, size 0xcc, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method RefreshStyle, addr 0x5a555cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyle, addr 0x5a59a88, size 0x28, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
-  /// @brief Method Setup, addr 0x5a55640, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a59afc, size 0x144, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
-  /// @brief Method UpdateBackground, addr 0x5a55834, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method UpdateBackground, addr 0x5a59cf0, size 0x150, virtual true, abstract: false, final false
   inline void UpdateBackground();
 
-  /// @brief Method UpdateIcon, addr 0x5a55984, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method UpdateIcon, addr 0x5a59e40, size 0x194, virtual true, abstract: false, final false
   inline void UpdateIcon();
 
   constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Background> const& __cordl_internal_get__background() const;
@@ -97,19 +97,19 @@ public:
 
   constexpr void __cordl_internal_set__iconStyle(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> value);
 
-  /// @brief Method .ctor, addr 0x5a55c28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5a0e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BackgroundStyle, addr 0x5a554b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BackgroundStyle, addr 0x5a59974, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle> get_BackgroundStyle();
 
-  /// @brief Method set_BackgroundStyle, addr 0x5a554c0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method set_BackgroundStyle, addr 0x5a5997c, size 0x10c, virtual false, abstract: false, final false
   inline void set_BackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
-  /// @brief Method set_Icon, addr 0x5a55624, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Icon, addr 0x5a59ae0, size 0x1c, virtual false, abstract: false, final false
   inline void set_Icon(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_IconStyle, addr 0x5a555f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_IconStyle, addr 0x5a59ab0, size 0x30, virtual false, abstract: false, final false
   inline void set_IconStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
 protected:
@@ -127,7 +127,7 @@ public:
   ButtonWithIcon(ButtonWithIcon const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18393 };
 
   /// @brief Field _icon, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Icon> ____icon;

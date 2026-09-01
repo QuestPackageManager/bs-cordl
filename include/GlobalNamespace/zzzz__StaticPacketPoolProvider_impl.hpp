@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StaticPacketPoolProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\StaticPacketPoolProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticPacketPoolProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::GlobalNamespace::IPacketPool*>)>(&::GlobalNamespace::StaticPacketPoolProvider::TryGetPacketPool)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3332388;
+  constexpr static std::size_t addrs = 0x3336148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

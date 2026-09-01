@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/Text/TextElementInfo.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\Text\TextElementInfo.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__HighlightState_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElementType_impl.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::Text::TextElementInfo::*)()>(&::UnityEngine::TextCore::Text::TextElementInfo::ToString)> {
   constexpr static std::size_t size = 0x1774;
-  constexpr static std::size_t addrs = 0x6bfaf5c;
+  constexpr static std::size_t addrs = 0x6c02ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

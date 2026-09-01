@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/NamedCurve.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\NamedCurve.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,15 +20,15 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE NamedCurve : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x34680f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x346beb8, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsValid(int32_t namedCurve);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::NamedCurve* New_ctor();
 
-  /// @brief Method RefersToASpecificNamedCurve, addr 0x3468114, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RefersToASpecificNamedCurve, addr 0x346bed4, size 0x14, virtual false, abstract: false, final false
   static inline bool RefersToASpecificNamedCurve(int32_t namedCurve);
 
-  /// @brief Method .ctor, addr 0x3468128, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346bee8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

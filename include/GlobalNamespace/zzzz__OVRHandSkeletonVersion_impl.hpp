@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRHandSkeletonVersion.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRHandSkeletonVersion.hpp"
 #include "GlobalNamespace/zzzz__OVRHandSkeletonVersion_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::OVRHandSkeletonVersion::OVRHandSkeletonVersion(int32_t value__) noexcept {

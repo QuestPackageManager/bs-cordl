@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NewInstruction.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\Interpreter\NewInstruction.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,15 +43,15 @@ public:
   /// @brief Field _constructor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__constructor, put = __cordl_internal_set__constructor)) ::System::Reflection::ConstructorInfo* _constructor;
 
-  /// @brief Method GetArgs, addr 0x5faf80c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetArgs, addr 0x5fb7288, size 0x184, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetArgs(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, int32_t first);
 
   static inline ::System::Linq::Expressions::Interpreter::NewInstruction* New_ctor(::System::Reflection::ConstructorInfo* constructor, int32_t argumentCount);
 
-  /// @brief Method Run, addr 0x5faf6c8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5fb7144, size 0x144, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x5faf990, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5fb740c, size 0x138, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__argumentCount() const;
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set__constructor(::System::Reflection::ConstructorInfo* value);
 
-  /// @brief Method .ctor, addr 0x5faf668, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb70e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ConstructorInfo* constructor, int32_t argumentCount);
 
-  /// @brief Method get_ConsumedStack, addr 0x5faf674, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5fb70f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x5faf684, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5fb7100, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x5faf67c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5fb70f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -93,7 +93,7 @@ public:
   NewInstruction(NewInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16515 };
 
   /// @brief Field _constructor, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ____constructor;

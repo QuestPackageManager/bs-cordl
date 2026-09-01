@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatingTransformEffect.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatingTransformEffect.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -113,18 +113,18 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method GetPoint, addr 0x597eda8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x598273c, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(float_t time);
 
   static inline ::GlobalNamespace::FloatingTransformEffect* New_ctor();
 
-  /// @brief Method Refresh, addr 0x597eae0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5982474, size 0x168, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Start, addr 0x597eaa8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x598243c, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Tick, addr 0x597ec48, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x59825dc, size 0x160, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__amplitudeX() const;
@@ -271,7 +271,7 @@ public:
 
   constexpr void __cordl_internal_set__zFrequency(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x597ee34, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59827c8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::ITickable"

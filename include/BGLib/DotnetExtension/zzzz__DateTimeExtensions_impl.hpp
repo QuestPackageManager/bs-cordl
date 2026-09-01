@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/DotnetExtension/DateTimeExtensions.hpp"
+// IWYU pragma private; include "BGLib\DotnetExtension\DateTimeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/zzzz__DateTimeExtensions_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::DateTime>)>(&::BGLib::DotnetExtension::DateTimeExtensions::TryParse)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x330b300;
+  constexpr static std::size_t addrs = 0x330f0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::DateTimeExtensions*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::DateTime, ::System::DateTime)>(&::BGLib::DotnetExtension::DateTimeExtensions::IsAfter)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x330b3c8;
+  constexpr static std::size_t addrs = 0x330f1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::DotnetExtension::DateTimeExtensions*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::DateTime, ::StringW, bool)>(&::BGLib::DotnetExtension::DateTimeExtensions::IsAfterOrDefault)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x330b434;
+  constexpr static std::size_t addrs = 0x330f230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

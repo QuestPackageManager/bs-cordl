@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/CAKeyUpdAnnContent.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\CAKeyUpdAnnContent.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CAKeyUpdAnnContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CmpCertificate_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3342e90;
+  constexpr static std::size_t addrs = 0x3346c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x33430e0;
+  constexpr static std::size_t addrs = 0x3346ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* (::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::get_OldWithNew)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3343264;
+  constexpr static std::size_t addrs = 0x3347024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* (::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::get_NewWithOld)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334326c;
+  constexpr static std::size_t addrs = 0x334702c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* (::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::get_NewWithNew)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3343274;
+  constexpr static std::size_t addrs = 0x3347034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x334327c;
+  constexpr static std::size_t addrs = 0x334703c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

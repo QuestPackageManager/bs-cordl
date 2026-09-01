@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/GraphQL/BSClientProviderInitializationState.hpp"
+// IWYU pragma private; include "BeatSaber\GraphQL\BSClientProviderInitializationState.hpp"
 #include "BeatSaber/GraphQL/zzzz__BSClientProviderInitializationState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatSaber::GraphQL::BSClientProviderInitializationState::BSClientProviderInitializationState(int32_t value__) noexcept {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapDataLoaderVersion4/LightTranslationEventBoxGroupConverter.hpp"
+// IWYU pragma private; include "BeatmapDataLoaderVersion4\LightTranslationEventBoxGroupConverter.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__EventBoxGroupConverter_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__LightTranslationEventBoxGroupConverter_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__EventBox_def.hpp"
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoader
     ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::IEnvironmentLightGroups*, ::GlobalNamespace::IBeatmapBoxConverter*)>(
     &::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x375e2a0;
+  constexpr static std::size_t addrs = 0x3763f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::BeatmapEventDataBox* (::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::*)(::BeatmapSaveDataVersion4::EventBox, ::GlobalNamespace::IndexFilter*)>(
         &::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::ConvertEvents)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x375f26c;
+  constexpr static std::size_t addrs = 0x3764ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter*>(),

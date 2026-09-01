@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ParametersWithIV.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ParametersWithIV.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +35,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetIV, addr 0x341134c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0x341510c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetIV();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> iv);
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::ICipherParameters* value);
 
-  /// @brief Method .ctor, addr 0x3411258, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3415018, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> iv);
 
-  /// @brief Method .ctor, addr 0x3411270, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3415030, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t> iv, int32_t ivOff, int32_t ivLen);
 
-  /// @brief Method get_Parameters, addr 0x34113c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x3415184, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

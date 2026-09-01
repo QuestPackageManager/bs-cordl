@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UIRenderer.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UIRenderer.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIRenderer_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRenderer::*)(int32_t, int32_t, ::UnityEngine::Material*)>(
     &::UnityEngine::UIElements::UIRenderer::SetNativeData)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6daf6b4;
+  constexpr static std::size_t addrs = 0x6db7238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIRenderer*, int32_t, int32_t)>(&::UnityEngine::UIElements::UIRenderer::OnRenderNodeExecute)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6daf7e8;
+  constexpr static std::size_t addrs = 0x6db736c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRenderer::*)()>(&::UnityEngine::UIElements::UIRenderer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6daf8bc;
+  constexpr static std::size_t addrs = 0x6db7440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRenderer*>(), { ".ctor", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, int32_t, ::System::IntPtr)>(&::UnityEngine::UIElements::UIRenderer::SetNativeData_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6daf78c;
+  constexpr static std::size_t addrs = 0x6db7310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

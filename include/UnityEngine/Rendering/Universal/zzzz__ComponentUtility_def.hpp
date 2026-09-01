@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/ComponentUtility.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\ComponentUtility.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +25,10 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE ComponentUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUniversalCamera, addr 0x6835420, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsUniversalCamera, addr 0x683ce9c, size 0x94, virtual false, abstract: false, final false
   static inline bool IsUniversalCamera(::UnityEngine::Camera* camera);
 
-  /// @brief Method IsUniversalLight, addr 0x68354b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsUniversalLight, addr 0x683cf30, size 0x94, virtual false, abstract: false, final false
   static inline bool IsUniversalLight(::UnityEngine::Light* light);
 
 protected:
@@ -46,7 +46,7 @@ public:
   ComponentUtility(ComponentUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12574 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

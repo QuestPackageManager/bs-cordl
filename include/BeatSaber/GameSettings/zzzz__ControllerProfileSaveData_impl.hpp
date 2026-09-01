@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfileSaveData.hpp"
+// IWYU pragma private; include "BeatSaber\GameSettings\ControllerProfileSaveData.hpp"
 #include "BeatSaber/GameSettings/zzzz__Controller_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfileSaveData_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfileSaveData::*)(
     bool, ::BeatSaber::GameSettings::Controller, ::BeatSaber::GameSettings::Controller)>(&::BeatSaber::GameSettings::ControllerProfileSaveData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x328fb38;
+  constexpr static std::size_t addrs = 0x3293934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

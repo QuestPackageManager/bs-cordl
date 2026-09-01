@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Audio/G_AudioGraph.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Audio\G_AudioGraph.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,24 +73,24 @@ public:
   /// @brief Field m_shaderGraphHighestValues, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_shaderGraphHighestValues, put = __cordl_internal_set_m_shaderGraphHighestValues)) ::Tayx::Graphy::G_GraphShader* m_shaderGraphHighestValues;
 
-  /// @brief Method CreatePoints, addr 0x6439c78, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x64416f4, size 0x22c, virtual true, abstract: false, final false
   inline void CreatePoints();
 
-  /// @brief Method Init, addr 0x64395fc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6441078, size 0x140, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioGraph* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x6439368, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6440de4, size 0x54, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x64393bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6440e38, size 0x38, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGraph, addr 0x643973c, size 0x4f4, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x64411b8, size 0x4f4, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method UpdateParameters, addr 0x6439458, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x6440ed4, size 0x1a4, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
@@ -165,7 +165,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shaderGraphHighestValues(::Tayx::Graphy::G_GraphShader* value);
 
-  /// @brief Method .ctor, addr 0x6439ea4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6441920, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -183,7 +183,7 @@ public:
   G_AudioGraph(G_AudioGraph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21503 };
 
   /// @brief Field m_imageGraph, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_imageGraph;

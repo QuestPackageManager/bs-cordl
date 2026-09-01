@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/IPacketPool.hpp"
+// IWYU pragma private; include "GlobalNamespace\IPacketPool.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IPacketPool.Release

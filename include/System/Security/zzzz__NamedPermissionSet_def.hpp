@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/NamedPermissionSet.hpp"
+// IWYU pragma private; include "System\Security\NamedPermissionSet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
   /// @brief Field name, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
-  /// @brief Method Equals, addr 0x5aeb444, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5aef900, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5aeb66c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5aefb28, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Security::NamedPermissionSet* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   static inline ::System::Security::NamedPermissionSet* New_ctor(::StringW name, ::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method ToXml, addr 0x5aeaf70, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x5aef42c, size 0x94, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
   constexpr ::StringW const& __cordl_internal_get_description() const;
@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5aead70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aef22c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5aeaf60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aef41c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x5aeae24, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aef2e0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method get_Name, addr 0x5aeaf68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5aef424, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x5aeaed8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x5aef394, size 0x88, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:

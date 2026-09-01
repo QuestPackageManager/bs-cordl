@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/StringConverter.hpp"
+// IWYU pragma private; include "System\ComponentModel\StringConverter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +31,15 @@ namespace System::ComponentModel {
 class CORDL_TYPE StringConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x63c119c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x63c8c18, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x63c121c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x63c8c98, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
   static inline ::System::ComponentModel::StringConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x63c124c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63c8cc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   StringConverter(StringConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

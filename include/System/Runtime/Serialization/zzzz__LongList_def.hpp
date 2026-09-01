@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/LongList.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\LongList.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,23 +37,23 @@ public:
   /// @brief Field m_values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_values, put = __cordl_internal_set_m_values)) ::ArrayW<int64_t> m_values;
 
-  /// @brief Method Add, addr 0x5b4f55c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5b53a18, size 0x84, virtual false, abstract: false, final false
   inline void Add(int64_t value);
 
-  /// @brief Method EnlargeArray, addr 0x5b4f83c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x5b53cf8, size 0x8c, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
-  /// @brief Method MoveNext, addr 0x5b4d8d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x5b51d94, size 0x80, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor();
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor(int32_t startingSize);
 
-  /// @brief Method RemoveElement, addr 0x5b4f4a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RemoveElement, addr 0x5b53960, size 0x90, virtual false, abstract: false, final false
   inline bool RemoveElement(int64_t value);
 
-  /// @brief Method StartEnumeration, addr 0x5b4d88c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StartEnumeration, addr 0x5b51d48, size 0xc, virtual false, abstract: false, final false
   inline void StartEnumeration();
 
   constexpr int32_t const& __cordl_internal_get_m_count() const;
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set_m_values(::ArrayW<int64_t> value);
 
-  /// @brief Method .ctor, addr 0x5b4f554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b53a10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b4f7d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b53c94, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method get_Count, addr 0x5b4f8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x5b53d84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Current, addr 0x5b4d898, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x5b51d54, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_Current();
 
 protected:

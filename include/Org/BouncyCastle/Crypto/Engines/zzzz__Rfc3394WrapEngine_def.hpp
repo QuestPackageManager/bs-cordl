@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/Rfc3394WrapEngine.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Engines\Rfc3394WrapEngine.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,15 +51,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method Init, addr 0x3399298, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x339d058, size 0x228, virtual true, abstract: false, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine);
 
-  /// @brief Method Unwrap, addr 0x3399928, size 0x448, virtual true, abstract: false, final false
+  /// @brief Method Unwrap, addr 0x339d6e8, size 0x448, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> Unwrap(::ArrayW<uint8_t> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method Wrap, addr 0x3399564, size 0x3c4, virtual true, abstract: false, final false
+  /// @brief Method Wrap, addr 0x339d324, size 0x3c4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> Wrap(::ArrayW<uint8_t> input, int32_t inOff, int32_t inLen);
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& __cordl_internal_get_engine() const;
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x339920c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x339cfcc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine);
 
-  /// @brief Method get_AlgorithmName, addr 0x33994c0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x339d280, size 0xa4, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"

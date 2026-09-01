@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/TextureCurve.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\TextureCurve.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureCurve_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::TextureCurve::*)()>(&::UnityEngine::Rendering::TextureCurve::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c06c8;
+  constexpr static std::size_t addrs = 0x67c8144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "get_length", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)(int32_t)>(&::UnityEngine::Rendering::TextureCurve::set_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c06d0;
+  constexpr static std::size_t addrs = 0x67c814c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Keyframe (::UnityEngine::Rendering::TextureCurve::*)(int32_t)>(&::UnityEngine::Rendering::TextureCurve::get_Item)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67c06d8;
+  constexpr static std::size_t addrs = 0x67c8154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)(::UnityEngine::AnimationCurve*, float_t, bool, ::by_ref<::UnityEngine::Vector2>)>(
     &::UnityEngine::Rendering::TextureCurve::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x67c0714;
+  constexpr static std::size_t addrs = 0x67c8190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)(::ArrayW<::UnityEngine::Keyframe>, float_t, bool, ::by_ref<::UnityEngine::Vector2>)>(
     &::UnityEngine::Rendering::TextureCurve::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x67c0764;
+  constexpr static std::size_t addrs = 0x67c81e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)()>(&::UnityEngine::Rendering::TextureCurve::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67c0864;
+  constexpr static std::size_t addrs = 0x67c82e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "Dispose", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)()>(&::UnityEngine::Rendering::TextureCurve::Release)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x67c0868;
+  constexpr static std::size_t addrs = 0x67c82e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "Release", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)()>(&::UnityEngine::Rendering::TextureCurve::SetDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67c0910;
+  constexpr static std::size_t addrs = 0x67c838c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "SetDirty", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)()>(&::UnityEngine::Rendering::TextureCurve::GetTextureFormat)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x67c091c;
+  constexpr static std::size_t addrs = 0x67c8398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "GetTextureFormat", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::Rendering::TextureCurve::*)()>(&::UnityEngine::Rendering::TextureCurve::GetTexture)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x67c09a0;
+  constexpr static std::size_t addrs = 0x67c841c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(), { "GetTexture", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::TextureCurve::*)(float_t)>(&::UnityEngine::Rendering::TextureCurve::Evaluate)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x67c0b90;
+  constexpr static std::size_t addrs = 0x67c860c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::TextureCurve::*)(float_t, float_t)>(&::UnityEngine::Rendering::TextureCurve::AddKey)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67c0d80;
+  constexpr static std::size_t addrs = 0x67c87fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::TextureCurve::*)(int32_t, ::by_ref<::UnityEngine::Keyframe>)>(
     &::UnityEngine::Rendering::TextureCurve::MoveKey)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67c0db8;
+  constexpr static std::size_t addrs = 0x67c8834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::TextureCurve*>(),
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)(int32_t)>(&::UnityEngine::Rendering::TextureCurve::RemoveKey)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67c0e00;
+  constexpr static std::size_t addrs = 0x67c887c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::TextureCurve::*)(int32_t, float_t)>(&::UnityEngine::Rendering::TextureCurve::SmoothTangents)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x67c0e2c;
+  constexpr static std::size_t addrs = 0x67c88a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

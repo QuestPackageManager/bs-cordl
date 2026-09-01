@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/UI/DebugUIHandlerRow.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\UI\DebugUIHandlerRow.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,21 +30,21 @@ public:
   /// @brief Field m_Timer, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Timer, put = __cordl_internal_set_m_Timer)) float_t m_Timer;
 
-  /// @brief Method GetChild, addr 0x67fe270, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetChild, addr 0x6805cec, size 0x134, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetChild(int32_t index);
 
-  /// @brief Method IsActive, addr 0x67fe428, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x6805ea4, size 0x140, virtual false, abstract: false, final false
   inline bool IsActive(::UnityEngine::Rendering::DebugUI_Table* table, int32_t index, ::UnityEngine::GameObject* child);
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerRow* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x67fe268, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6805ce4, size 0x8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method TryGetChild, addr 0x67fe3a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TryGetChild, addr 0x6805e20, size 0x84, virtual false, abstract: false, final false
   inline bool TryGetChild(int32_t index, ::by_ref<::UnityEngine::GameObject*> child);
 
-  /// @brief Method Update, addr 0x67fe568, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6805fe4, size 0x3fc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_m_Timer() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Timer(float_t value);
 
-  /// @brief Method .ctor, addr 0x67fe964, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68063e0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   DebugUIHandlerRow(DebugUIHandlerRow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12536 };
 
   /// @brief Field m_Timer, offset: 0x80, size: 0x4, def value: None
   float_t ___m_Timer;

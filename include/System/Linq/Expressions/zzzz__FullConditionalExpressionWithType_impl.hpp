@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Linq/Expressions/FullConditionalExpressionWithType.hpp"
+// IWYU pragma private; include "System\Linq\Expressions\FullConditionalExpressionWithType.hpp"
 #include "System/Linq/Expressions/zzzz__FullConditionalExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__FullConditionalExpressionWithType_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
     ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::FullConditionalExpressionWithType::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f72f34;
+  constexpr static std::size_t addrs = 0x5f7a9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Linq::Expressions::FullConditionalExpressionWithType::*)()>(
     &::System::Linq::Expressions::FullConditionalExpressionWithType::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f7312c;
+  constexpr static std::size_t addrs = 0x5f7aba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

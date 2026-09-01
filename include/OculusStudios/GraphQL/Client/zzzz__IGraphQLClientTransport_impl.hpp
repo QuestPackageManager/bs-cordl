@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "OculusStudios/GraphQL/Client/IGraphQLClientTransport.hpp"
+// IWYU pragma private; include "OculusStudios\GraphQL\Client\IGraphQLClientTransport.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__IGraphQLClientTransport_def.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLRequest_def.hpp"
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLResponseStream_def.hpp"

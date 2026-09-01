@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAttributeTableGenerationException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsAttributeTableGenerationException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* New_ctor(::StringW name, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x36a0bcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a498c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36a0bd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a4990, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x36a0bd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a4994, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Exception* e);
 
 protected:

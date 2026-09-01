@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/DisposeHelper.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\DisposeHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DisposeHelper_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IDisposable*)>(&::UnityEngine::UIElements::DisposeHelper::NotifyDisposedUsed)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6d81824;
+  constexpr static std::size_t addrs = 0x6d893a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

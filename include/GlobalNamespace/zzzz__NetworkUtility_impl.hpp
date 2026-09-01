@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NetworkUtility.hpp"
+// IWYU pragma private; include "GlobalNamespace\NetworkUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkUtility_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NetworkUtility.Init
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::NetworkUtility::Init)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3337944;
+  constexpr static std::size_t addrs = 0x333b704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkUtility*>(), { "Init", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::NetworkUtility::EncryptName)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x3337a2c;
+  constexpr static std::size_t addrs = 0x333b7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::NetworkUtility::DecryptName)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x3337db0;
+  constexpr static std::size_t addrs = 0x333bb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::GlobalNamespace::NetworkUtility::GenerateId)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x333813c;
+  constexpr static std::size_t addrs = 0x333befc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkUtility*>(), { "GenerateId", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::NetworkUtility::GetHashBase64)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x33381d8;
+  constexpr static std::size_t addrs = 0x333bf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

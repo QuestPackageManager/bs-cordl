@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/LaunchDetails.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\LaunchDetails.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_UsersOptional(::Oculus::Platform::Models::UserList* value);
 
-  /// @brief Method .ctor, addr 0x5deba38, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5defef4, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -128,7 +128,7 @@ public:
   LaunchDetails(LaunchDetails const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18051 };
 
   /// @brief Field DeeplinkMessage, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DeeplinkMessage;

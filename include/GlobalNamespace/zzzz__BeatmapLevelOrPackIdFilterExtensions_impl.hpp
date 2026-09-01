@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BeatmapLevelOrPackIdFilterExtensions.hpp"
+// IWYU pragma private; include "GlobalNamespace\BeatmapLevelOrPackIdFilterExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelOrPackIdFilterExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelOrPackIdFilter_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37488f4;
+  constexpr static std::size_t addrs = 0x374e550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowLevels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3748908;
+  constexpr static std::size_t addrs = 0x374e564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x374891c;
+  constexpr static std::size_t addrs = 0x374e578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),

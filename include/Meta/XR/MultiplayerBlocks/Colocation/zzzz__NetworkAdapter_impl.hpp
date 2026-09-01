@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/NetworkAdapter.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\NetworkAdapter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__NetworkAdapter_def.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__INetworkData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* (*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkData)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5a792c8;
+  constexpr static std::size_t addrs = 0x5a7d784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkData)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a79314;
+  constexpr static std::size_t addrs = 0x5a7d7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* (*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::get_NetworkMessenger)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5a79364;
+  constexpr static std::size_t addrs = 0x5a7d820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::set_NetworkMessenger)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a793b0;
+  constexpr static std::size_t addrs = 0x5a7d86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::NetworkAdapter::SetConfig)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5a6e498;
+  constexpr static std::size_t addrs = 0x5a72954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

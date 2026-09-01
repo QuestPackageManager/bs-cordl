@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/EnableMemoryTrackerConsoleCommand.hpp"
+// IWYU pragma private; include "GlobalNamespace\EnableMemoryTrackerConsoleCommand.hpp"
 #include "GlobalNamespace/zzzz__ConsoleCommandBase_impl.hpp"
 #include "GlobalNamespace/zzzz__EnableMemoryTrackerConsoleCommand_def.hpp"
 #include "GlobalNamespace/zzzz__ConsoleMessage_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnableMemoryTrackerConsoleCommand::*)()>(&::GlobalNamespace::EnableMemoryTrackerConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32cd18c;
+  constexpr static std::size_t addrs = 0x32d0f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableMemoryTrackerConsoleCommand*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnableMemoryTrackerConsoleCommand::*)()>(&::GlobalNamespace::EnableMemoryTrackerConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32cd1d0;
+  constexpr static std::size_t addrs = 0x32d0fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableMemoryTrackerConsoleCommand*>(),
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::EnableMemoryTrackerConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
         &::GlobalNamespace::EnableMemoryTrackerConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32cd214;
+  constexpr static std::size_t addrs = 0x32d1010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableMemoryTrackerConsoleCommand*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableMemoryTrackerConsoleCommand::*)()>(&::GlobalNamespace::EnableMemoryTrackerConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x32cd2c4;
+  constexpr static std::size_t addrs = 0x32d10c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableMemoryTrackerConsoleCommand*>(), { ".ctor", {}, {} })));

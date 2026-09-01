@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/GameLiftClientConnectionRequestHandler.hpp"
+// IWYU pragma private; include "GlobalNamespace\GameLiftClientConnectionRequestHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameLiftClientConnectionRequestHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameLiftClientConnectionRequestHandler::*)()>(
     &::GlobalNamespace::GameLiftClientConnectionRequestHandler::get_playerSessionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a595c;
+  constexpr static std::size_t addrs = 0x32a9758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftClientConnectionRequestHandler::*)(::StringW)>(
     &::GlobalNamespace::GameLiftClientConnectionRequestHandler::set_playerSessionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a5964;
+  constexpr static std::size_t addrs = 0x32a9760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftClientConnectionRequestHandler::*)(::LiteNetLib::Utils::NetDataWriter*, ::StringW, ::StringW, bool, ::StringW)>(
     &::GlobalNamespace::GameLiftClientConnectionRequestHandler::GetConnectionMessage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x32a596c;
+  constexpr static std::size_t addrs = 0x32a9768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftClientConnectionRequestHandler*>(),
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
                                                                                                                            ::by_ref<::StringW>, ::by_ref<bool>, ::by_ref<::StringW>)>(
     &::GlobalNamespace::GameLiftClientConnectionRequestHandler::ValidateConnectionMessage)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x32a59f0;
+  constexpr static std::size_t addrs = 0x32a97ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftClientConnectionRequestHandler::*)()>(&::GlobalNamespace::GameLiftClientConnectionRequestHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32a5a68;
+  constexpr static std::size_t addrs = 0x32a9864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftClientConnectionRequestHandler*>(), { ".ctor", {}, {} })));

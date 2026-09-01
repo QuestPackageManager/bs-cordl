@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CADArgHolder.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\Messaging\CADArgHolder.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5b3bc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b400f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t i);
 
 protected:

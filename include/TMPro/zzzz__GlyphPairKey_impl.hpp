@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/GlyphPairKey.hpp"
+// IWYU pragma private; include "TMPro\GlyphPairKey.hpp"
 #include "TMPro/zzzz__GlyphPairKey_def.hpp"
 #include "TMPro/zzzz__TMP_GlyphPairAdjustmentRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::GlyphPairKey._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::GlyphPairKey::*)(uint32_t, uint32_t)>(&::TMPro::GlyphPairKey::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x695759c;
+  constexpr static std::size_t addrs = 0x695f018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::GlyphPairKey::*)(::TMPro::TMP_GlyphPairAdjustmentRecord*)>(&::TMPro::GlyphPairKey::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x69575ac;
+  constexpr static std::size_t addrs = 0x695f028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

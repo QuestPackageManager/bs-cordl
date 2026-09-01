@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TextureProcessor3DTrack.hpp"
+// IWYU pragma private; include "GlobalNamespace\TextureProcessor3DTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__TextureProcessor3DTrack_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::GlobalNamespace::TextureProcessor3DTrack::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, int32_t)>(&::GlobalNamespace::TextureProcessor3DTrack::CreateTrackMixer)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5906ee4;
+  constexpr static std::size_t addrs = 0x590a4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3DTrack::*)()>(&::GlobalNamespace::TextureProcessor3DTrack::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5906f90;
+  constexpr static std::size_t addrs = 0x590a57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3DTrack*>(), { ".ctor", {}, {} })));

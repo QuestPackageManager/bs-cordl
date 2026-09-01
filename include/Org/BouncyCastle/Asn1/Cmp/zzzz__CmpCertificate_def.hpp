@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/CmpCertificate.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\CmpCertificate.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,14 +49,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x3342f08, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3346cc8, size 0x1d8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* x509v2AttrCert);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* x509v3PKCert);
 
-  /// @brief Method ToAsn1Object, addr 0x3345480, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3349240, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* const& __cordl_internal_get_x509v2AttrCert() const;
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_x509v3PKCert(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* value);
 
-  /// @brief Method .ctor, addr 0x33453c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3349180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* x509v2AttrCert);
 
-  /// @brief Method .ctor, addr 0x33453c8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3349188, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* x509v3PKCert);
 
-  /// @brief Method get_IsX509v3PKCert, addr 0x3345460, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_IsX509v3PKCert, addr 0x3349220, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsX509v3PKCert();
 
-  /// @brief Method get_X509v2AttrCert, addr 0x3345478, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_X509v2AttrCert, addr 0x3349238, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* get_X509v2AttrCert();
 
-  /// @brief Method get_X509v3PKCert, addr 0x3345470, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_X509v3PKCert, addr 0x3349230, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* get_X509v3PKCert();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

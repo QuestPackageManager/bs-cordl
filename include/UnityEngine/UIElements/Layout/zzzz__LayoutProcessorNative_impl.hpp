@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutProcessorNative.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutProcessorNative.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutState_impl.hpp"
 #include "UnityEngine/UIElements/Layout/zzzz__LayoutProcessorNative_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                                                                                                                           ::UnityEngine::UIElements::Layout::LayoutDirection)>(
     &::UnityEngine::UIElements::Layout::LayoutProcessorNative::UnityEngine_UIElements_Layout_ILayoutProcessor_CalculateLayout)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6cfc440;
+  constexpr static std::size_t addrs = 0x6d03fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutProcessorNative*>(),
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutProcessorNative::*)()>(&::UnityEngine::UIElements::Layout::LayoutProcessorNative::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6cfa9c4;
+  constexpr static std::size_t addrs = 0x6d02548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Layout::LayoutProcessorNative*>(), { ".ctor", {}, {} })));

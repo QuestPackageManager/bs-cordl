@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/ByteStack.hpp"
+// IWYU pragma private; include "System\Xml\ByteStack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__ByteStack_def.hpp"
 //  Writing Method size for method: ::System::Xml::ByteStack._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ByteStack::*)(int32_t)>(&::System::Xml::ByteStack::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x61a4ec8;
+  constexpr static std::size_t addrs = 0x61ac944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ByteStack*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ByteStack::*)(uint8_t)>(&::System::Xml::ByteStack::Push)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x61a4f30;
+  constexpr static std::size_t addrs = 0x61ac9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ByteStack*>(), { "Push", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Xml::ByteStack::*)()>(&::System::Xml::ByteStack::Pop)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x61a500c;
+  constexpr static std::size_t addrs = 0x61aca88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ByteStack*>(), { "Pop", {}, {} })));

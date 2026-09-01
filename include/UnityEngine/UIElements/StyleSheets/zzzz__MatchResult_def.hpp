@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/MatchResult.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleSheets\MatchResult.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_success)) bool success;
 
-  /// @brief Method get_success, addr 0x6d128dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_success, addr 0x6d1a460, size 0x10, virtual false, abstract: false, final false
   inline bool get_success();
 
   // Ctor Parameters []

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Reflection/TypeFilter.hpp"
+// IWYU pragma private; include "System\Reflection\TypeFilter.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +28,12 @@ namespace System::Reflection {
 class CORDL_TYPE TypeFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5b800ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5b84568, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Type* m, ::System::Object* filterCriteria);
 
   static inline ::System::Reflection::TypeFilter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5b7c218, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b806d4, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

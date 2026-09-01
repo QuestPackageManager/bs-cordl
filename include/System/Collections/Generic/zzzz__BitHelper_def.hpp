@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Collections/Generic/BitHelper.hpp"
+// IWYU pragma private; include "System\Collections\Generic\BitHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,17 +33,17 @@ public:
   /// @brief Field _useStackAlloc, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__useStackAlloc, put = __cordl_internal_set__useStackAlloc)) bool _useStackAlloc;
 
-  /// @brief Method IsMarked, addr 0x63ec47c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsMarked, addr 0x63f3ef8, size 0x84, virtual false, abstract: false, final false
   inline bool IsMarked(int32_t bitPosition);
 
-  /// @brief Method MarkBit, addr 0x63ec400, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MarkBit, addr 0x63f3e7c, size 0x7c, virtual false, abstract: false, final false
   inline void MarkBit(int32_t bitPosition);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t> bitArray, int32_t length);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(int32_t* bitArrayPtr, int32_t length);
 
-  /// @brief Method ToIntArrayLength, addr 0x63ec500, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToIntArrayLength, addr 0x63f3f7c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ToIntArrayLength(int32_t n);
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get__array() const;
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set__useStackAlloc(bool value);
 
-  /// @brief Method .ctor, addr 0x63ec3f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f3e70, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t> bitArray, int32_t length);
 
-  /// @brief Method .ctor, addr 0x63ec3e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f3e5c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t* bitArrayPtr, int32_t length);
 
 protected:
@@ -91,7 +91,7 @@ public:
   BitHelper(BitHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11392 };
 
   /// @brief Field _length, offset: 0x10, size: 0x4, def value: None
   int32_t ____length;

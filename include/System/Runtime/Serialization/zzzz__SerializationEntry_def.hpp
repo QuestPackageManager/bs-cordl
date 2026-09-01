@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/SerializationEntry.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\SerializationEntry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +30,13 @@ public:
 
   __declspec(property(get = get_Value)) ::System::Object* Value;
 
-  /// @brief Method .ctor, addr 0x5b47880, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b4bd3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW entryName, ::System::Object* entryValue, ::System::Type* entryType);
 
-  /// @brief Method get_Name, addr 0x5b47894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5b4bd50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value, addr 0x5b4788c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5b4bd48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
   // Ctor Parameters []

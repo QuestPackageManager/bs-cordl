@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/CombineGroupIdToVector4FloatFxGroupEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace\CombineGroupIdToVector4FloatFxGroupEffectTarget.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +66,7 @@ public:
   constexpr CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex(::UnityW<::GlobalNamespace::LightGroupSO> lightGroup, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5851 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -107,13 +107,13 @@ public:
 
   static inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* New_ctor();
 
-  /// @brief Method <Awake>b__10_0, addr 0x598b268, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__10_0, addr 0x5995228, size 0x14, virtual false, abstract: false, final false
   inline int32_t _Awake_b__10_0(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex item);
 
-  /// @brief Method <Awake>b__10_1, addr 0x598b27c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__10_1, addr 0x599523c, size 0x8, virtual false, abstract: false, final false
   inline int32_t _Awake_b__10_1(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex item);
 
-  /// @brief Method .ctor, addr 0x598b264, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5995224, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* getStaticF___9();
@@ -143,7 +143,7 @@ public:
   CombineGroupIdToVector4FloatFxGroupEffectTarget___c(CombineGroupIdToVector4FloatFxGroupEffectTarget___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5852 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -194,24 +194,24 @@ public:
   /// @brief Field _propertyName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
 
-  /// @brief Method Awake, addr 0x598ac6c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5994c2c, size 0x1ac, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x598b1b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x5995174, size 0x58, virtual false, abstract: false, final false
   inline void HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame();
 
   static inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x598aea8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5994e68, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetValue, addr 0x598af74, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5994f34, size 0x120, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method Start, addr 0x598ae18, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5994dd8, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TriggerValue, addr 0x598b094, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x5995054, size 0x120, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -268,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x598b20c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59951cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -286,7 +286,7 @@ public:
   CombineGroupIdToVector4FloatFxGroupEffectTarget(CombineGroupIdToVector4FloatFxGroupEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5853 };
 
   /// @brief Field _propertyName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____propertyName;

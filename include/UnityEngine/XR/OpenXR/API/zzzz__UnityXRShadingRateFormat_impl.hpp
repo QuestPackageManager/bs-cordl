@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/API/UnityXRShadingRateFormat.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\API\UnityXRShadingRateFormat.hpp"
 #include "UnityEngine/XR/OpenXR/API/zzzz__UnityXRShadingRateFormat_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::XR::OpenXR::API::UnityXRShadingRateFormat::UnityXRShadingRateFormat(int32_t value__) noexcept {

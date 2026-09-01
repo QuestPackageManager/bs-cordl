@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SignalOnUIButtonClick.hpp"
+// IWYU pragma private; include "GlobalNamespace\SignalOnUIButtonClick.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SignalOnUIButtonClick_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SignalOnUIButtonClick::*)()>(&::GlobalNamespace::SignalOnUIButtonClick::Start)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x585a0d8;
+  constexpr static std::size_t addrs = 0x58591e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SignalOnUIButtonClick*>(), { "Start", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SignalOnUIButtonClick::*)()>(&::GlobalNamespace::SignalOnUIButtonClick::OnDestroy)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x585a19c;
+  constexpr static std::size_t addrs = 0x58592a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SignalOnUIButtonClick*>(), { "OnDestroy", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SignalOnUIButtonClick::*)()>(&::GlobalNamespace::SignalOnUIButtonClick::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585a2a8;
+  constexpr static std::size_t addrs = 0x58593b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SignalOnUIButtonClick*>(), { ".ctor", {}, {} })));

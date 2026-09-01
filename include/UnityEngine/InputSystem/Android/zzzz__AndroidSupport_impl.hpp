@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidSupport.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidSupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidSupport_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Android::AndroidSupport::Initialize)> {
   constexpr static std::size_t size = 0x974;
-  constexpr static std::size_t addrs = 0x65a4234;
+  constexpr static std::size_t addrs = 0x65abcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Android::AndroidSupport*>(), { "Initialize", {}, {} })));
@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::StringW (*)(::by_ref<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>, ::StringW, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*)>(
         &::UnityEngine::InputSystem::Android::AndroidSupport::OnFindLayoutForDevice)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x65a4ba8;
+  constexpr static std::size_t addrs = 0x65ac624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidSupport::*)()>(&::UnityEngine::InputSystem::Android::AndroidSupport::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65a4ec4;
+  constexpr static std::size_t addrs = 0x65ac940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Android::AndroidSupport*>(), { ".ctor", {}, {} })));

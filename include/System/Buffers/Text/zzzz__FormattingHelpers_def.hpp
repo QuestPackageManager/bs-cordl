@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Buffers/Text/FormattingHelpers.hpp"
+// IWYU pragma private; include "System\Buffers\Text\FormattingHelpers.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,13 +20,13 @@ namespace System::Buffers::Text {
 class CORDL_TYPE FormattingHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountDigits, addr 0x5befc8c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x5bf4148, size 0x68, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint32_t value);
 
-  /// @brief Method CountDigits, addr 0x5befbb0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x5bf406c, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint64_t value);
 
-  /// @brief Method CountHexDigits, addr 0x5befcf4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CountHexDigits, addr 0x5bf41b0, size 0x48, virtual false, abstract: false, final false
   static inline int32_t CountHexDigits(uint64_t value);
 
 protected:

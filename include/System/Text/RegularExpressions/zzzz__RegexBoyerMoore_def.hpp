@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Text/RegularExpressions/RegexBoyerMoore.hpp"
+// IWYU pragma private; include "System\Text\RegularExpressions\RegexBoyerMoore.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,15 +52,15 @@ public:
   /// @brief Field _culture, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture)) ::System::Globalization::CultureInfo* _culture;
 
-  /// @brief Method IsMatch, addr 0x637b0bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x6382b38, size 0x6c, virtual false, abstract: false, final false
   inline bool IsMatch(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
-  /// @brief Method MatchPattern, addr 0x637af80, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method MatchPattern, addr 0x63829fc, size 0x13c, virtual false, abstract: false, final false
   inline bool MatchPattern(::StringW text, int32_t index);
 
   static inline ::System::Text::RegularExpressions::RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Scan, addr 0x637b128, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x6382ba4, size 0x32c, virtual false, abstract: false, final false
   inline int32_t Scan(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
   constexpr bool const& __cordl_internal_get_CaseInsensitive() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method .ctor, addr 0x637ab30, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63825ac, size 0x450, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
 protected:
@@ -135,7 +135,7 @@ public:
   RegexBoyerMoore(RegexBoyerMoore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11108 };
 
   /// @brief Field Positive, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ___Positive;

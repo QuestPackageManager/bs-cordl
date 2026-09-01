@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/IDebugDisplaySettingsQuery.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\IDebugDisplaySettingsQuery.hpp"
 #include "UnityEngine/Rendering/zzzz__IDebugDisplaySettingsQuery_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::IDebugDisplaySettingsQuery.get_AreAnySettingsActive
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IDebugDisplaySettingsQuery::*)()>(
     &::UnityEngine::Rendering::IDebugDisplaySettingsQuery::get_IsPostProcessingAllowed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6765db0;
+  constexpr static std::size_t addrs = 0x676d82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IDebugDisplaySettingsQuery::*)()>(&::UnityEngine::Rendering::IDebugDisplaySettingsQuery::get_IsLightingActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6765db8;
+  constexpr static std::size_t addrs = 0x676d834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::IDebugDisplaySettingsQuery::*)(::by_ref<::UnityEngine::Color>)>(
     &::UnityEngine::Rendering::IDebugDisplaySettingsQuery::TryGetScreenClearColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6765dc0;
+  constexpr static std::size_t addrs = 0x676d83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::IDebugDisplaySettingsQuery*>(),

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TextureProcessor3D.hpp"
+// IWYU pragma private; include "GlobalNamespace\TextureProcessor3D.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -149,7 +149,7 @@ public:
   static ::GlobalNamespace::TextureProcessor3D_ComputeKernel const WaveRipple;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20702 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -184,7 +184,7 @@ public:
                                              float_t _param1, float_t _param2, float_t _outputOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20698 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -253,7 +253,7 @@ public:
                                             ::GlobalNamespace::TextureProcessor3D_ChannelParams channelC, ::GlobalNamespace::TextureProcessor3D_ChannelParams channelD) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20699 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -305,7 +305,7 @@ public:
                                                             ::System::Nullable_1<float_t> _param1, ::System::Nullable_1<float_t> _param2, ::System::Nullable_1<float_t> _outputOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20700 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -377,7 +377,7 @@ public:
                                                            ::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention channelD) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20701 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -617,54 +617,54 @@ public:
 
   __declspec(property(get = get_speedD, put = set_speedD)) float_t speedD;
 
-  /// @brief Method AnimateChannel, addr 0x5f4a2b8, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method AnimateChannel, addr 0x5f51c2c, size 0x28c, virtual false, abstract: false, final false
   inline void AnimateChannel(::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams> channel, ::UnityEngine::RenderTexture* outputTexture);
 
-  /// @brief Method AnimateTextures, addr 0x5f49c38, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method AnimateTextures, addr 0x5f515ac, size 0x354, virtual false, abstract: false, final false
   inline void AnimateTextures();
 
-  /// @brief Method ApplyIntention, addr 0x5f4a210, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ApplyIntention, addr 0x5f51b84, size 0xa8, virtual false, abstract: false, final false
   inline void ApplyIntention();
 
-  /// @brief Method Awake, addr 0x5f49978, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5f512ec, size 0x108, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateTexture, addr 0x5f49f94, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture, addr 0x5f51908, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> CreateTexture(int32_t sizeX, int32_t sizeY, int32_t sizeZ);
 
-  /// @brief Method GetKernelName, addr 0x5f4a544, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetKernelName, addr 0x5f51eb8, size 0x138, virtual false, abstract: false, final false
   inline ::StringW GetKernelName(::GlobalNamespace::TextureProcessor3D_ComputeKernel kernel);
 
-  /// @brief Method LateUpdate, addr 0x5f49bf4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5f51568, size 0x44, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method ModifyGridSize, addr 0x5f4a84c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ModifyGridSize, addr 0x5f521c0, size 0xa0, virtual false, abstract: false, final false
   inline void ModifyGridSize(int32_t rowSizeDelta, int32_t columnSizeDelta, int32_t depthSizeDelta);
 
   static inline ::GlobalNamespace::TextureProcessor3D* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5f4a848, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5f521bc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5f4a844, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5f521b8, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5f49f8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5f51900, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x5f49f90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5f51904, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method ReleaseTextures, addr 0x5f4a0b0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ReleaseTextures, addr 0x5f51a24, size 0x160, virtual false, abstract: false, final false
   inline void ReleaseTextures();
 
-  /// @brief Method Step, addr 0x5f4a8ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Step, addr 0x5f52260, size 0x4, virtual false, abstract: false, final false
   inline void Step();
 
-  /// @brief Method UpdateBuffers, addr 0x5f49a80, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method UpdateBuffers, addr 0x5f513f4, size 0x174, virtual false, abstract: false, final false
   inline void UpdateBuffers();
 
-  /// @brief Method <ApplyIntention>g__ApplyChannelIntention|163_0, addr 0x5f4a67c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method <ApplyIntention>g__ApplyChannelIntention|163_0, addr 0x5f51ff0, size 0x1c8, virtual false, abstract: false, final false
   static inline void _ApplyIntention_g__ApplyChannelIntention_163_0(::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParams> channel,
                                                                     ::by_ref<::GlobalNamespace::TextureProcessor3D_ChannelParamsChangeIntention> channelIntention);
 
@@ -797,7 +797,7 @@ public:
 
   constexpr void __cordl_internal_set__writeTexturesCompute(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x5f4a8f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f52264, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW> getStaticF__kernelStrings();
@@ -836,115 +836,115 @@ public:
 
   static inline int32_t getStaticF_kSpeed();
 
-  /// @brief Method get__activePreset, addr 0x5f47d48, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get__activePreset, addr 0x5f4f6bc, size 0x34, virtual false, abstract: false, final false
   inline ::by_ref<::GlobalNamespace::TextureProcessor3D_MotionPreset> get__activePreset();
 
-  /// @brief Method get_activePresetIndex, addr 0x5f47cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activePresetIndex, addr 0x5f4f638, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_activePresetIndex();
 
-  /// @brief Method get_columnSize, addr 0x5f49958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnSize, addr 0x5f512cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnSize();
 
-  /// @brief Method get_computeKernelA, addr 0x5f47cd4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_computeKernelA, addr 0x5f4f648, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TextureProcessor3D_ComputeKernel get_computeKernelA();
 
-  /// @brief Method get_computeKernelB, addr 0x5f47e7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_computeKernelB, addr 0x5f4f7f0, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TextureProcessor3D_ComputeKernel get_computeKernelB();
 
-  /// @brief Method get_computeKernelC, addr 0x5f47ff0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_computeKernelC, addr 0x5f4f964, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TextureProcessor3D_ComputeKernel get_computeKernelC();
 
-  /// @brief Method get_computeKernelD, addr 0x5f4816c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_computeKernelD, addr 0x5f4fae0, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::TextureProcessor3D_ComputeKernel get_computeKernelD();
 
-  /// @brief Method get_depthSize, addr 0x5f49968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthSize, addr 0x5f512dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_depthSize();
 
-  /// @brief Method get_inputTextureIndexA, addr 0x5f482e8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_inputTextureIndexA, addr 0x5f4fc5c, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_inputTextureIndexA();
 
-  /// @brief Method get_inputTextureIndexB, addr 0x5f483b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_inputTextureIndexB, addr 0x5f4fd28, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_inputTextureIndexB();
 
-  /// @brief Method get_inputTextureIndexC, addr 0x5f48480, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_inputTextureIndexC, addr 0x5f4fdf4, size 0x78, virtual false, abstract: false, final false
   inline int32_t get_inputTextureIndexC();
 
-  /// @brief Method get_inputTextureIndexD, addr 0x5f48554, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_inputTextureIndexD, addr 0x5f4fec8, size 0x78, virtual false, abstract: false, final false
   inline int32_t get_inputTextureIndexD();
 
-  /// @brief Method get_outputOffsetA, addr 0x5f49618, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_outputOffsetA, addr 0x5f50f8c, size 0x74, virtual false, abstract: false, final false
   inline float_t get_outputOffsetA();
 
-  /// @brief Method get_outputOffsetB, addr 0x5f496e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_outputOffsetB, addr 0x5f51058, size 0x74, virtual false, abstract: false, final false
   inline float_t get_outputOffsetB();
 
-  /// @brief Method get_outputOffsetC, addr 0x5f497b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_outputOffsetC, addr 0x5f51124, size 0x74, virtual false, abstract: false, final false
   inline float_t get_outputOffsetC();
 
-  /// @brief Method get_outputOffsetD, addr 0x5f4987c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_outputOffsetD, addr 0x5f511f0, size 0x74, virtual false, abstract: false, final false
   inline float_t get_outputOffsetD();
 
-  /// @brief Method get_param1A, addr 0x5f48fb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param1A, addr 0x5f5092c, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param1A();
 
-  /// @brief Method get_param1B, addr 0x5f49084, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param1B, addr 0x5f509f8, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param1B();
 
-  /// @brief Method get_param1C, addr 0x5f49150, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param1C, addr 0x5f50ac4, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param1C();
 
-  /// @brief Method get_param1D, addr 0x5f4921c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param1D, addr 0x5f50b90, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param1D();
 
-  /// @brief Method get_param2A, addr 0x5f492e8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param2A, addr 0x5f50c5c, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param2A();
 
-  /// @brief Method get_param2B, addr 0x5f493b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param2B, addr 0x5f50d28, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param2B();
 
-  /// @brief Method get_param2C, addr 0x5f49480, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param2C, addr 0x5f50df4, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param2C();
 
-  /// @brief Method get_param2D, addr 0x5f4954c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_param2D, addr 0x5f50ec0, size 0x74, virtual false, abstract: false, final false
   inline float_t get_param2D();
 
-  /// @brief Method get_phaseA, addr 0x5f48c88, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_phaseA, addr 0x5f505fc, size 0x74, virtual false, abstract: false, final false
   inline float_t get_phaseA();
 
-  /// @brief Method get_phaseB, addr 0x5f48d54, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_phaseB, addr 0x5f506c8, size 0x74, virtual false, abstract: false, final false
   inline float_t get_phaseB();
 
-  /// @brief Method get_phaseC, addr 0x5f48e20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_phaseC, addr 0x5f50794, size 0x74, virtual false, abstract: false, final false
   inline float_t get_phaseC();
 
-  /// @brief Method get_phaseD, addr 0x5f48eec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_phaseD, addr 0x5f50860, size 0x74, virtual false, abstract: false, final false
   inline float_t get_phaseD();
 
-  /// @brief Method get_rowSize, addr 0x5f49948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rowSize, addr 0x5f512bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rowSize();
 
-  /// @brief Method get_spatialScaleA, addr 0x5f48958, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_spatialScaleA, addr 0x5f502cc, size 0x74, virtual false, abstract: false, final false
   inline float_t get_spatialScaleA();
 
-  /// @brief Method get_spatialScaleB, addr 0x5f48a24, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_spatialScaleB, addr 0x5f50398, size 0x74, virtual false, abstract: false, final false
   inline float_t get_spatialScaleB();
 
-  /// @brief Method get_spatialScaleC, addr 0x5f48af0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_spatialScaleC, addr 0x5f50464, size 0x74, virtual false, abstract: false, final false
   inline float_t get_spatialScaleC();
 
-  /// @brief Method get_spatialScaleD, addr 0x5f48bbc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_spatialScaleD, addr 0x5f50530, size 0x74, virtual false, abstract: false, final false
   inline float_t get_spatialScaleD();
 
-  /// @brief Method get_speedA, addr 0x5f48628, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_speedA, addr 0x5f4ff9c, size 0x74, virtual false, abstract: false, final false
   inline float_t get_speedA();
 
-  /// @brief Method get_speedB, addr 0x5f486f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_speedB, addr 0x5f50068, size 0x74, virtual false, abstract: false, final false
   inline float_t get_speedB();
 
-  /// @brief Method get_speedC, addr 0x5f487c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_speedC, addr 0x5f50134, size 0x74, virtual false, abstract: false, final false
   inline float_t get_speedC();
 
-  /// @brief Method get_speedD, addr 0x5f4888c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_speedD, addr 0x5f50200, size 0x74, virtual false, abstract: false, final false
   inline float_t get_speedD();
 
   static inline void setStaticF__kernelStrings(::ArrayW<::StringW> value);
@@ -983,112 +983,112 @@ public:
 
   static inline void setStaticF_kSpeed(int32_t value);
 
-  /// @brief Method set_activePresetIndex, addr 0x5f47ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activePresetIndex, addr 0x5f4f640, size 0x8, virtual false, abstract: false, final false
   inline void set_activePresetIndex(int32_t value);
 
-  /// @brief Method set_columnSize, addr 0x5f49960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_columnSize, addr 0x5f512d4, size 0x8, virtual false, abstract: false, final false
   inline void set_columnSize(int32_t value);
 
-  /// @brief Method set_computeKernelA, addr 0x5f47d7c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_computeKernelA, addr 0x5f4f6f0, size 0x100, virtual false, abstract: false, final false
   inline void set_computeKernelA(::GlobalNamespace::TextureProcessor3D_ComputeKernel value);
 
-  /// @brief Method set_computeKernelB, addr 0x5f47ef0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_computeKernelB, addr 0x5f4f864, size 0x100, virtual false, abstract: false, final false
   inline void set_computeKernelB(::GlobalNamespace::TextureProcessor3D_ComputeKernel value);
 
-  /// @brief Method set_computeKernelC, addr 0x5f48068, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_computeKernelC, addr 0x5f4f9dc, size 0x104, virtual false, abstract: false, final false
   inline void set_computeKernelC(::GlobalNamespace::TextureProcessor3D_ComputeKernel value);
 
-  /// @brief Method set_computeKernelD, addr 0x5f481e4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_computeKernelD, addr 0x5f4fb58, size 0x104, virtual false, abstract: false, final false
   inline void set_computeKernelD(::GlobalNamespace::TextureProcessor3D_ComputeKernel value);
 
-  /// @brief Method set_depthSize, addr 0x5f49970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_depthSize, addr 0x5f512e4, size 0x8, virtual false, abstract: false, final false
   inline void set_depthSize(int32_t value);
 
-  /// @brief Method set_inputTextureIndexA, addr 0x5f4835c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_inputTextureIndexA, addr 0x5f4fcd0, size 0x58, virtual false, abstract: false, final false
   inline void set_inputTextureIndexA(int32_t value);
 
-  /// @brief Method set_inputTextureIndexB, addr 0x5f48428, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_inputTextureIndexB, addr 0x5f4fd9c, size 0x58, virtual false, abstract: false, final false
   inline void set_inputTextureIndexB(int32_t value);
 
-  /// @brief Method set_inputTextureIndexC, addr 0x5f484f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_inputTextureIndexC, addr 0x5f4fe6c, size 0x5c, virtual false, abstract: false, final false
   inline void set_inputTextureIndexC(int32_t value);
 
-  /// @brief Method set_inputTextureIndexD, addr 0x5f485cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_inputTextureIndexD, addr 0x5f4ff40, size 0x5c, virtual false, abstract: false, final false
   inline void set_inputTextureIndexD(int32_t value);
 
-  /// @brief Method set_outputOffsetA, addr 0x5f4968c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_outputOffsetA, addr 0x5f51000, size 0x58, virtual false, abstract: false, final false
   inline void set_outputOffsetA(float_t value);
 
-  /// @brief Method set_outputOffsetB, addr 0x5f49758, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_outputOffsetB, addr 0x5f510cc, size 0x58, virtual false, abstract: false, final false
   inline void set_outputOffsetB(float_t value);
 
-  /// @brief Method set_outputOffsetC, addr 0x5f49824, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_outputOffsetC, addr 0x5f51198, size 0x58, virtual false, abstract: false, final false
   inline void set_outputOffsetC(float_t value);
 
-  /// @brief Method set_outputOffsetD, addr 0x5f498f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_outputOffsetD, addr 0x5f51264, size 0x58, virtual false, abstract: false, final false
   inline void set_outputOffsetD(float_t value);
 
-  /// @brief Method set_param1A, addr 0x5f4902c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param1A, addr 0x5f509a0, size 0x58, virtual false, abstract: false, final false
   inline void set_param1A(float_t value);
 
-  /// @brief Method set_param1B, addr 0x5f490f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param1B, addr 0x5f50a6c, size 0x58, virtual false, abstract: false, final false
   inline void set_param1B(float_t value);
 
-  /// @brief Method set_param1C, addr 0x5f491c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param1C, addr 0x5f50b38, size 0x58, virtual false, abstract: false, final false
   inline void set_param1C(float_t value);
 
-  /// @brief Method set_param1D, addr 0x5f49290, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param1D, addr 0x5f50c04, size 0x58, virtual false, abstract: false, final false
   inline void set_param1D(float_t value);
 
-  /// @brief Method set_param2A, addr 0x5f4935c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param2A, addr 0x5f50cd0, size 0x58, virtual false, abstract: false, final false
   inline void set_param2A(float_t value);
 
-  /// @brief Method set_param2B, addr 0x5f49428, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param2B, addr 0x5f50d9c, size 0x58, virtual false, abstract: false, final false
   inline void set_param2B(float_t value);
 
-  /// @brief Method set_param2C, addr 0x5f494f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param2C, addr 0x5f50e68, size 0x58, virtual false, abstract: false, final false
   inline void set_param2C(float_t value);
 
-  /// @brief Method set_param2D, addr 0x5f495c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_param2D, addr 0x5f50f34, size 0x58, virtual false, abstract: false, final false
   inline void set_param2D(float_t value);
 
-  /// @brief Method set_phaseA, addr 0x5f48cfc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_phaseA, addr 0x5f50670, size 0x58, virtual false, abstract: false, final false
   inline void set_phaseA(float_t value);
 
-  /// @brief Method set_phaseB, addr 0x5f48dc8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_phaseB, addr 0x5f5073c, size 0x58, virtual false, abstract: false, final false
   inline void set_phaseB(float_t value);
 
-  /// @brief Method set_phaseC, addr 0x5f48e94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_phaseC, addr 0x5f50808, size 0x58, virtual false, abstract: false, final false
   inline void set_phaseC(float_t value);
 
-  /// @brief Method set_phaseD, addr 0x5f48f60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_phaseD, addr 0x5f508d4, size 0x58, virtual false, abstract: false, final false
   inline void set_phaseD(float_t value);
 
-  /// @brief Method set_rowSize, addr 0x5f49950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rowSize, addr 0x5f512c4, size 0x8, virtual false, abstract: false, final false
   inline void set_rowSize(int32_t value);
 
-  /// @brief Method set_spatialScaleA, addr 0x5f489cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_spatialScaleA, addr 0x5f50340, size 0x58, virtual false, abstract: false, final false
   inline void set_spatialScaleA(float_t value);
 
-  /// @brief Method set_spatialScaleB, addr 0x5f48a98, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_spatialScaleB, addr 0x5f5040c, size 0x58, virtual false, abstract: false, final false
   inline void set_spatialScaleB(float_t value);
 
-  /// @brief Method set_spatialScaleC, addr 0x5f48b64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_spatialScaleC, addr 0x5f504d8, size 0x58, virtual false, abstract: false, final false
   inline void set_spatialScaleC(float_t value);
 
-  /// @brief Method set_spatialScaleD, addr 0x5f48c30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_spatialScaleD, addr 0x5f505a4, size 0x58, virtual false, abstract: false, final false
   inline void set_spatialScaleD(float_t value);
 
-  /// @brief Method set_speedA, addr 0x5f4869c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_speedA, addr 0x5f50010, size 0x58, virtual false, abstract: false, final false
   inline void set_speedA(float_t value);
 
-  /// @brief Method set_speedB, addr 0x5f48768, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_speedB, addr 0x5f500dc, size 0x58, virtual false, abstract: false, final false
   inline void set_speedB(float_t value);
 
-  /// @brief Method set_speedC, addr 0x5f48834, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_speedC, addr 0x5f501a8, size 0x58, virtual false, abstract: false, final false
   inline void set_speedC(float_t value);
 
-  /// @brief Method set_speedD, addr 0x5f48900, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_speedD, addr 0x5f50274, size 0x58, virtual false, abstract: false, final false
   inline void set_speedD(float_t value);
 
 protected:
@@ -1106,7 +1106,7 @@ public:
   TextureProcessor3D(TextureProcessor3D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20703 };
 
   /// @brief Field _textureGenCompute, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ComputeShader> ____textureGenCompute;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Remoting/ClientIdentity.hpp"
+// IWYU pragma private; include "System\Runtime\Remoting\ClientIdentity.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +39,7 @@ public:
   /// @brief Field _proxyReference, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__proxyReference, put = __cordl_internal_set__proxyReference)) ::System::WeakReference* _proxyReference;
 
-  /// @brief Method CreateObjRef, addr 0x5b1cf18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CreateObjRef, addr 0x5b213d4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
   static inline ::System::Runtime::Remoting::ClientIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::ObjRef* objRef);
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__proxyReference(::System::WeakReference* value);
 
-  /// @brief Method .ctor, addr 0x5b1cd20, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b211dc, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::ObjRef* objRef);
 
-  /// @brief Method get_ClientProxy, addr 0x5b1ce14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_ClientProxy, addr 0x5b212d0, size 0x8c, virtual false, abstract: false, final false
   inline ::System::MarshalByRefObject* get_ClientProxy();
 
-  /// @brief Method get_TargetUri, addr 0x5b1cf20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_TargetUri, addr 0x5b213dc, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_TargetUri();
 
-  /// @brief Method set_ClientProxy, addr 0x5b1cea0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_ClientProxy, addr 0x5b2135c, size 0x78, virtual false, abstract: false, final false
   inline void set_ClientProxy(::System::MarshalByRefObject* value);
 
 protected:

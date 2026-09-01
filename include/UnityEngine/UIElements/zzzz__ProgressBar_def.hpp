@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ProgressBar.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ProgressBar.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +33,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ProgressBar_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d5cfe4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d64b68, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ProgressBar* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d5cf8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d64b10, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

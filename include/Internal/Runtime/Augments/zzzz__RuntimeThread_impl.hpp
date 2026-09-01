@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Internal/Runtime/Augments/RuntimeThread.hpp"
+// IWYU pragma private; include "Internal\Runtime\Augments\RuntimeThread.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Runtime/Augments/zzzz__RuntimeThread_def.hpp"
 #include "System/Threading/zzzz__ParameterizedThreadStart_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(::System::Threading::Thread*)>(&::Internal::Runtime::Augments::RuntimeThread::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ac34c4;
+  constexpr static std::size_t addrs = 0x5ac7980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Internal::Runtime::Augments::RuntimeThread* (*)(::System::Threading::ParameterizedThreadStart*, int32_t)>(
     &::Internal::Runtime::Augments::RuntimeThread::Create)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5ac34cc;
+  constexpr static std::size_t addrs = 0x5ac7988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(bool)>(&::Internal::Runtime::Augments::RuntimeThread::set_IsBackground)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ac355c;
+  constexpr static std::size_t addrs = 0x5ac7a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Internal::Runtime::Augments::RuntimeThread::*)(::System::Object*)>(&::Internal::Runtime::Augments::RuntimeThread::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ac3578;
+  constexpr static std::size_t addrs = 0x5ac7a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Internal::Runtime::Augments::RuntimeThread::Sleep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ac3590;
+  constexpr static std::size_t addrs = 0x5ac7a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Internal::Runtime::Augments::RuntimeThread::Yield)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ac3598;
+  constexpr static std::size_t addrs = 0x5ac7a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Internal::Runtime::Augments::RuntimeThread*>(), { "Yield", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::Internal::Runtime::Augments::RuntimeThread::SpinWait)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ac35b0;
+  constexpr static std::size_t addrs = 0x5ac7a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Internal::Runtime::Augments::RuntimeThread::GetCurrentProcessorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ac35b8;
+  constexpr static std::size_t addrs = 0x5ac7a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Internal::Runtime::Augments::RuntimeThread*>(), { "GetCurrentProcessorId", {}, {} })));

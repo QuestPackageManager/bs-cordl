@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteDebrisSimplePhysics.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteDebrisSimplePhysics.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,13 +52,13 @@ public:
 
   __declspec(property(get = get_currentLinearVelocity)) ::UnityEngine::Vector3 currentLinearVelocity;
 
-  /// @brief Method Awake, addr 0x58d5c40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58d55f0, size 0x78, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x58d5cb8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x58d5668, size 0xb4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity, bool forceOnlySimplePhysics);
 
-  /// @brief Method LateUpdate, addr 0x58d5950, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x58d5300, size 0x18c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::NoteDebrisSimplePhysics* New_ctor();
@@ -105,13 +105,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x58d5d6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d571c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentAngularVelocityDegrees, addr 0x58d5c34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentAngularVelocityDegrees, addr 0x58d55e4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentAngularVelocityDegrees();
 
-  /// @brief Method get_currentLinearVelocity, addr 0x58d5c28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentLinearVelocity, addr 0x58d55d8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentLinearVelocity();
 
 protected:

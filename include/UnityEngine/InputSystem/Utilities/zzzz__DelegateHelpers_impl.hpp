@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/DelegateHelpers.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\DelegateHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__DelegateHelpers_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>>, ::Unity::Profiling::ProfilerMarker, ::StringW,
                                                                 ::System::Object*)>(&::UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x64f9768;
+  constexpr static std::size_t addrs = 0x65011e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

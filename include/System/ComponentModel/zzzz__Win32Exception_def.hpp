@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/Win32Exception.hpp"
+// IWYU pragma private; include "System\ComponentModel\Win32Exception.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetErrorMessage, addr 0x63e24e0, size 0xb9c, virtual false, abstract: false, final false
+  /// @brief Method GetErrorMessage, addr 0x63e9f5c, size 0xb9c, virtual false, abstract: false, final false
   static inline ::StringW GetErrorMessage(int32_t error);
 
-  /// @brief Method GetObjectData, addr 0x63e3150, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x63eabcc, size 0xd4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ComponentModel::Win32Exception* New_ctor();
@@ -58,19 +58,19 @@ public:
 
   constexpr void __cordl_internal_set_nativeErrorCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x63e241c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63e9e98, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x63e249c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63e9f18, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t error);
 
-  /// @brief Method .ctor, addr 0x63e307c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63eaaf8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t error, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x63e30b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63eab30, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_NativeErrorCode, addr 0x63e3148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeErrorCode, addr 0x63eabc4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NativeErrorCode();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -91,7 +91,7 @@ public:
   Win32Exception(Win32Exception const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11341 };
 
   /// @brief Field nativeErrorCode, offset: 0x8c, size: 0x4, def value: None
   int32_t ___nativeErrorCode;

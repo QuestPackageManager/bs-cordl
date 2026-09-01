@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsSignedDataGenerator.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Cms\CmsSignedDataGenerator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -125,7 +125,7 @@ public:
   New_ctor(::Org::BouncyCastle::Cms::CmsSignedGenerator* outer, ::Org::BouncyCastle::Crypto::ISignatureFactory* sigCalc, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* signerIdentifier,
            ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* sAttr, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* baseSignedTable);
 
-  /// @brief Method ToSignerInfo, addr 0x36b34ec, size 0xbb4, virtual false, abstract: false, final false
+  /// @brief Method ToSignerInfo, addr 0x36b72ac, size 0xbb4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::SignerInfo* ToSignerInfo(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Cms::CmsProcessable* content,
                                                                   ::Org::BouncyCastle::Security::SecureRandom* random);
 
@@ -177,23 +177,23 @@ public:
 
   constexpr void __cordl_internal_set_unsAttr(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  /// @brief Method .ctor, addr 0x36b2418, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36b61d8, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsSignedGenerator* outer, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* signerIdentifier,
                     ::StringW digestOID, ::StringW encOID, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* sAttr, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsAttr,
                     ::Org::BouncyCastle::Asn1::Cms::AttributeTable* baseSignedTable);
 
-  /// @brief Method .ctor, addr 0x36b2204, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36b5fc4, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsSignedGenerator* outer, ::Org::BouncyCastle::Crypto::ISignatureFactory* sigCalc, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* signerIdentifier,
                     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* sAttr, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsAttr,
                     ::Org::BouncyCastle::Asn1::Cms::AttributeTable* baseSignedTable);
 
-  /// @brief Method get_DigestAlgorithmID, addr 0x36b3434, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithmID, addr 0x36b71f4, size 0xb8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithmID();
 
-  /// @brief Method get_SignedAttributes, addr 0x36b4a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignedAttributes, addr 0x36b87cc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* get_SignedAttributes();
 
-  /// @brief Method get_UnsignedAttributes, addr 0x36b4a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnsignedAttributes, addr 0x36b87d4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* get_UnsignedAttributes();
 
 protected:
@@ -274,63 +274,63 @@ public:
   /// @brief Field signerInfs, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_signerInfs, put = __cordl_internal_set_signerInfs)) ::System::Collections::IList* signerInfs;
 
-  /// @brief Method AddSigner, addr 0x36b105c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b4e1c, size 0xa4, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID);
 
-  /// @brief Method AddSigner, addr 0x36b19f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b57b8, size 0xbc, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID,
                         ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method AddSigner, addr 0x36b1e10, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b5bd0, size 0xbc, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID,
                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedAttrGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedAttrGen);
 
-  /// @brief Method AddSigner, addr 0x36b160c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b53cc, size 0xd8, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW encryptionOID, ::StringW digestOID);
 
-  /// @brief Method AddSigner, addr 0x36b1ab4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b5874, size 0x110, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW encryptionOID, ::StringW digestOID,
                         ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method AddSigner, addr 0x36b1ecc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b5c8c, size 0xb8, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW encryptionOID, ::StringW digestOID,
                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedAttrGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedAttrGen);
 
-  /// @brief Method AddSigner, addr 0x36b187c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b563c, size 0xa4, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t> subjectKeyID, ::StringW digestOID);
 
-  /// @brief Method AddSigner, addr 0x36b1c44, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b5a04, size 0xbc, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t> subjectKeyID, ::StringW digestOID,
                         ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method AddSigner, addr 0x36b1f84, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b5d44, size 0xbc, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t> subjectKeyID, ::StringW digestOID,
                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedAttrGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedAttrGen);
 
-  /// @brief Method AddSigner, addr 0x36b1920, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b56e0, size 0xd8, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t> subjectKeyID, ::StringW encryptionOID, ::StringW digestOID);
 
-  /// @brief Method AddSigner, addr 0x36b1d00, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b5ac0, size 0x110, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t> subjectKeyID, ::StringW encryptionOID, ::StringW digestOID,
                         ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method AddSigner, addr 0x36b2040, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x36b5e00, size 0xb8, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t> subjectKeyID, ::StringW encryptionOID, ::StringW digestOID,
                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedAttrGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedAttrGen);
 
-  /// @brief Method AddSignerInfoGenerator, addr 0x36b20f8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddSignerInfoGenerator, addr 0x36b5eb8, size 0x10c, virtual false, abstract: false, final false
   inline void AddSignerInfoGenerator(::Org::BouncyCastle::Cms::SignerInfoGenerator* signerInfoGenerator);
 
-  /// @brief Method Generate, addr 0x36b255c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36b631c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsSignedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content);
 
-  /// @brief Method Generate, addr 0x36b2564, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36b6324, size 0x7c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsSignedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, bool encapsulate);
 
-  /// @brief Method Generate, addr 0x36b25e0, size 0xe54, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x36b63a0, size 0xe54, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsSignedData* Generate(::StringW signedContentType, ::Org::BouncyCastle::Cms::CmsProcessable* content, bool encapsulate);
 
-  /// @brief Method GenerateCounterSigners, addr 0x36b4420, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GenerateCounterSigners, addr 0x36b81e0, size 0x94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::SignerInformationStore* GenerateCounterSigners(::Org::BouncyCastle::Cms::SignerInformation* signer);
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedDataGenerator* New_ctor();
@@ -343,13 +343,13 @@ public:
 
   constexpr void __cordl_internal_set_signerInfs(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x36b0f2c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36b4cec, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36b0fbc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36b4d7c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method doAddSigner, addr 0x36b1744, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method doAddSigner, addr 0x36b5504, size 0x138, virtual false, abstract: false, final false
   inline void doAddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* signerIdentifier, ::StringW encryptionOID,
                           ::StringW digestOID, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedAttrGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedAttrGen,
                           ::Org::BouncyCastle::Asn1::Cms::AttributeTable* baseSignedTable);

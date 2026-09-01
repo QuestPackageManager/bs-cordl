@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Math/Raw/Nat384.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Math\Raw\Nat384.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +21,15 @@ namespace Org::BouncyCastle::Math::Raw {
 class CORDL_TYPE Nat384 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Mul, addr 0x3560bec, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Mul, addr 0x35649ac, size 0x170, virtual false, abstract: false, final false
   static inline void Mul(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> y, ::ArrayW<uint32_t> zz);
 
   static inline ::Org::BouncyCastle::Math::Raw::Nat384* New_ctor();
 
-  /// @brief Method Square, addr 0x3560d5c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x3564b1c, size 0x11c, virtual false, abstract: false, final false
   static inline void Square(::ArrayW<uint32_t> x, ::ArrayW<uint32_t> zz);
 
-  /// @brief Method .ctor, addr 0x3560e78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3564c38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

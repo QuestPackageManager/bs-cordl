@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AlertLevel.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\AlertLevel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +21,15 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE AlertLevel : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x343413c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x3437efc, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetName(uint8_t alertDescription);
 
-  /// @brief Method GetText, addr 0x34341f8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x3437fb8, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW GetText(uint8_t alertDescription);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AlertLevel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x343436c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x343812c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

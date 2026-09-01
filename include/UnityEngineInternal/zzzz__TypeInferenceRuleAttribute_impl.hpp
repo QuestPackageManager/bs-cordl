@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngineInternal/TypeInferenceRuleAttribute.hpp"
+// IWYU pragma private; include "UnityEngineInternal\TypeInferenceRuleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngineInternal/zzzz__TypeInferenceRuleAttribute_def.hpp"
 #include "UnityEngineInternal/zzzz__TypeInferenceRules_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngineInternal::TypeInferenceRuleAttribute::*)(::UnityEngineInternal::TypeInferenceRules)>(
     &::UnityEngineInternal::TypeInferenceRuleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6a53e34;
+  constexpr static std::size_t addrs = 0x6a5b8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngineInternal::TypeInferenceRuleAttribute::*)(::StringW)>(&::UnityEngineInternal::TypeInferenceRuleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a53eac;
+  constexpr static std::size_t addrs = 0x6a5b928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngineInternal::TypeInferenceRuleAttribute::*)()>(&::UnityEngineInternal::TypeInferenceRuleAttribute::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a53eb4;
+  constexpr static std::size_t addrs = 0x6a5b930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

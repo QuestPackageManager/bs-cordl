@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Base64Encoder.hpp"
+// IWYU pragma private; include "System\Xml\Base64Encoder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__Base64Encoder_def.hpp"
 //  Writing Method size for method: ::System::Xml::Base64Encoder._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Base64Encoder::*)()>(&::System::Xml::Base64Encoder::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x618ac90;
+  constexpr static std::size_t addrs = 0x619270c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Base64Encoder*>(), { ".ctor", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Base64Encoder::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::Base64Encoder::Encode)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x618ace4;
+  constexpr static std::size_t addrs = 0x6192760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Base64Encoder::*)()>(&::System::Xml::Base64Encoder::Flush)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x618b02c;
+  constexpr static std::size_t addrs = 0x6192aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Base64Encoder*>(), { "Flush", {}, {} })));

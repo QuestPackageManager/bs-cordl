@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Buffers/Binary/BinaryPrimitives.hpp"
+// IWYU pragma private; include "System\Buffers\Binary\BinaryPrimitives.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,13 +20,13 @@ namespace System::Buffers::Binary {
 class CORDL_TYPE BinaryPrimitives : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReverseEndianness, addr 0x5befb94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x5bf4050, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReverseEndianness(int32_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x5befb9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x5bf4058, size 0xc, virtual false, abstract: false, final false
   static inline uint16_t ReverseEndianness(uint16_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x5befba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x5bf4064, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ReverseEndianness(uint32_t value);
 
 protected:

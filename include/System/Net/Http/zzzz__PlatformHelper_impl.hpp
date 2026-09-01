@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/PlatformHelper.hpp"
+// IWYU pragma private; include "System\Net\Http\PlatformHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__PlatformHelper_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::PlatformHelper::IsContentHeader)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x60d08d0;
+  constexpr static std::size_t addrs = 0x60d834c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::System::Net::Http::PlatformHelper::GetSingleHeaderString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x60d0638;
+  constexpr static std::size_t addrs = 0x60d80b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::StreamContent* (*)(::System::IO::Stream*, ::System::Threading::CancellationToken)>(
     &::System::Net::Http::PlatformHelper::CreateStreamContent)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60d0860;
+  constexpr static std::size_t addrs = 0x60d82dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AlphaFloatFxGroupEffectTarget.hpp"
+// IWYU pragma private; include "GlobalNamespace\AlphaFloatFxGroupEffectTarget.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::AlphaFloatFxGroupEffectTarget::Awake)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x598ab00;
+  constexpr static std::size_t addrs = 0x5994ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlphaFloatFxGroupEffectTarget*>(), { "Awake", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::AlphaFloatFxGroupEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x598ab68;
+  constexpr static std::size_t addrs = 0x5994b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::AlphaFloatFxGroupEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x598ac4c;
+  constexpr static std::size_t addrs = 0x5994c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)(::UnityEngine::Color)>(&::GlobalNamespace::AlphaFloatFxGroupEffectTarget::SetColor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x598ab80;
+  constexpr static std::size_t addrs = 0x5994b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::AlphaFloatFxGroupEffectTarget::InitIfNeeded)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x598ab34;
+  constexpr static std::size_t addrs = 0x5994af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlphaFloatFxGroupEffectTarget*>(), { "InitIfNeeded", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::AlphaFloatFxGroupEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x598ac64;
+  constexpr static std::size_t addrs = 0x5994c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlphaFloatFxGroupEffectTarget*>(), { ".ctor", {}, {} })));

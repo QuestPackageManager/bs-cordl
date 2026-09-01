@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapSaveDataVersion3/LightTranslationBaseData.hpp"
+// IWYU pragma private; include "BeatmapSaveDataVersion3\LightTranslationBaseData.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__LightTranslationBaseData_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(&::BeatmapSaveDataVersion3::LightTranslationBaseData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759970;
+  constexpr static std::size_t addrs = 0x375f5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightTranslationBaseData*>(), { "get_beat", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::get_usePreviousEventTranslationValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3759978;
+  constexpr static std::size_t addrs = 0x375f5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759988;
+  constexpr static std::size_t addrs = 0x375f5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightTranslationBaseData*>(), { "get_easeType", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(&::BeatmapSaveDataVersion3::LightTranslationBaseData::get_translation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3759990;
+  constexpr static std::size_t addrs = 0x375f5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightTranslationBaseData*>(), { "get_translation", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)(float_t, bool, ::BeatmapSaveDataCommon::EaseType, float_t)>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3759998;
+  constexpr static std::size_t addrs = 0x375f604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

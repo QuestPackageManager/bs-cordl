@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/BufferedRumble.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\XR\Haptics\BufferedRumble.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,22 +32,22 @@ public:
 
   __declspec(property(get = get_device, put = set_device)) ::UnityEngine::InputSystem::InputDevice* device;
 
-  /// @brief Method EnqueueRumble, addr 0x6584678, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EnqueueRumble, addr 0x658c0f4, size 0xc4, virtual false, abstract: false, final false
   inline void EnqueueRumble(::ArrayW<uint8_t> samples);
 
-  /// @brief Method .ctor, addr 0x6584514, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x658bf90, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method get_capabilities, addr 0x65844dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x658bf58, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method get_device, addr 0x6584504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x658bf80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
-  /// @brief Method set_capabilities, addr 0x65844f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_capabilities, addr 0x658bf6c, size 0x14, virtual false, abstract: false, final false
   inline void set_capabilities(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities value);
 
-  /// @brief Method set_device, addr 0x658450c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x658bf88, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   constexpr BufferedRumble(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities _capabilities_k__BackingField, ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8830 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatTransitionSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatTransitionSO.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatTransitionSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatTransitionSO.get_normalState
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_normalState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643efe0;
+  constexpr static std::size_t addrs = 0x6446a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTransitionSO*>(), { "get_normalState", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_highlightedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643efe8;
+  constexpr static std::size_t addrs = 0x6446a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTransitionSO*>(), { "get_highlightedState", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_pressedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643eff0;
+  constexpr static std::size_t addrs = 0x6446a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTransitionSO*>(), { "get_pressedState", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_disabledState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643eff8;
+  constexpr static std::size_t addrs = 0x6446a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTransitionSO*>(), { "get_disabledState", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_selectedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643f000;
+  constexpr static std::size_t addrs = 0x6446a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTransitionSO*>(), { "get_selectedState", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::get_selectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643f008;
+  constexpr static std::size_t addrs = 0x6446a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTransitionSO*>(), { "get_selectedAndHighlightedState", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTransitionSO::*)()>(&::GlobalNamespace::FloatTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643f010;
+  constexpr static std::size_t addrs = 0x6446a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTransitionSO*>(), { ".ctor", {}, {} })));

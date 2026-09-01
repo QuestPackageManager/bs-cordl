@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/XRNodeState.hpp"
+// IWYU pragma private; include "UnityEngine\XR\XRNodeState.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,40 +42,40 @@ public:
 
   __declspec(property(put = set_uniqueID)) uint64_t uniqueID;
 
-  /// @brief Method TryGet, addr 0x6e2f678, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TryGet, addr 0x6e371fc, size 0x7c, virtual false, abstract: false, final false
   inline bool TryGet(::UnityEngine::Quaternion inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ::by_ref<::UnityEngine::Quaternion> outValue);
 
-  /// @brief Method TryGet, addr 0x6e2f5e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TryGet, addr 0x6e3716c, size 0x7c, virtual false, abstract: false, final false
   inline bool TryGet(::UnityEngine::Vector3 inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ::by_ref<::UnityEngine::Vector3> outValue);
 
-  /// @brief Method TryGetAcceleration, addr 0x6e2f71c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetAcceleration, addr 0x6e372a0, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAcceleration(::by_ref<::UnityEngine::Vector3> acceleration);
 
-  /// @brief Method TryGetAngularAcceleration, addr 0x6e2f730, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetAngularAcceleration, addr 0x6e372b4, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAngularAcceleration(::by_ref<::UnityEngine::Vector3> angularAcceleration);
 
-  /// @brief Method TryGetAngularVelocity, addr 0x6e2f708, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetAngularVelocity, addr 0x6e3728c, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAngularVelocity(::by_ref<::UnityEngine::Vector3> angularVelocity);
 
-  /// @brief Method TryGetPosition, addr 0x6e2f5d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetPosition, addr 0x6e37158, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetPosition(::by_ref<::UnityEngine::Vector3> position);
 
-  /// @brief Method TryGetRotation, addr 0x6e2f664, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetRotation, addr 0x6e371e8, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetRotation(::by_ref<::UnityEngine::Quaternion> rotation);
 
-  /// @brief Method TryGetVelocity, addr 0x6e2f6f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetVelocity, addr 0x6e37278, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetVelocity(::by_ref<::UnityEngine::Vector3> velocity);
 
-  /// @brief Method get_nodeType, addr 0x6e2f5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nodeType, addr 0x6e37150, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRNode get_nodeType();
 
-  /// @brief Method set_nodeType, addr 0x6e2f2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nodeType, addr 0x6e36e74, size 0x8, virtual false, abstract: false, final false
   inline void set_nodeType(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method set_tracked, addr 0x6e2f2f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tracked, addr 0x6e36e7c, size 0xc, virtual false, abstract: false, final false
   inline void set_tracked(bool value);
 
-  /// @brief Method set_uniqueID, addr 0x6e2f2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_uniqueID, addr 0x6e36e6c, size 0x8, virtual false, abstract: false, final false
   inline void set_uniqueID(uint64_t value);
 
   // Ctor Parameters []
@@ -93,7 +93,7 @@ public:
                         int32_t m_Tracked, uint64_t m_UniqueID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22159 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

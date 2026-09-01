@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/LookDev/IDataProvider.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\LookDev\IDataProvider.hpp"
 #include "UnityEngine/Rendering/LookDev/zzzz__IDataProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/Rendering/LookDev/zzzz__Sky_def.hpp"

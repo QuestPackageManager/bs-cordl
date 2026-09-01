@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/ECSecretBcpgKey.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\ECSecretBcpgKey.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,10 +47,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Method Encode, addr 0x369a398, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x369e158, size 0x24, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x369a310, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x369e0d0, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::ECSecretBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  /// @brief Method .ctor, addr 0x369a1fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369dfbc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x369a264, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369e024, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method get_Format, addr 0x369a2cc, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x369e08c, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method get_X, addr 0x369a3bc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_X, addr 0x369e17c, size 0x18, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"

@@ -1,12 +1,12 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AnimatorStateInfo.hpp"
+// IWYU pragma private; include "UnityEngine\AnimatorStateInfo.hpp"
 #include "UnityEngine/zzzz__AnimatorStateInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AnimatorStateInfo.get_normalizedTime
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::AnimatorStateInfo::*)()>(&::UnityEngine::AnimatorStateInfo::get_normalizedTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a33aa8;
+  constexpr static std::size_t addrs = 0x6a3b524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AnimatorStateInfo>(), { "get_normalizedTime", {}, {} })));

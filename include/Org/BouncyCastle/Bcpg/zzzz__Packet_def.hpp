@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Packet.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\Packet.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::Packet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3699258, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369d018, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

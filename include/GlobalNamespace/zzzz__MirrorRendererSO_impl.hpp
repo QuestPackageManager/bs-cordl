@@ -1,163 +1,101 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MirrorRendererSO.hpp"
+// IWYU pragma private; include "GlobalNamespace\MirrorRendererSO.hpp"
+#include "GlobalNamespace/zzzz__MirrorType_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
-#include "UnityEngine/zzzz__Plane_impl.hpp"
-#include "UnityEngine/zzzz__Quaternion_impl.hpp"
-#include "UnityEngine/zzzz__Rect_impl.hpp"
-#include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorCamera_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__Camera_def.hpp"
+#include "GlobalNamespace/zzzz__MirrorType_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__RenderTexture_def.hpp"
-#include "UnityEngine/zzzz__Shader_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "UnityEngine/zzzz__Vector4_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO_CameraTransformData.Equals
+//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.get_mirrorType
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MirrorRendererSO_CameraTransformData::*)(::GlobalNamespace::MirrorRendererSO_CameraTransformData)>(
-    &::GlobalNamespace::MirrorRendererSO_CameraTransformData::Equals)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5f43424;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MirrorType (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::get_mirrorType)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f4afd8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(),
-                                                                                           { "Equals", {}, { ::i2c::type_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_mirrorType", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO_CameraTransformData.Equals
+//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.get_reflectLayers
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MirrorRendererSO_CameraTransformData::*)(::System::Object*)>(
-    &::GlobalNamespace::MirrorRendererSO_CameraTransformData::Equals)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5f43508;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::get_reflectLayers)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f4afe0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(), 0 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_reflectLayers", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO_CameraTransformData.GetHashCode
+//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.get_stereoTextureWidth
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MirrorRendererSO_CameraTransformData::*)()>(&::GlobalNamespace::MirrorRendererSO_CameraTransformData::GetHashCode)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5f435a4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::get_stereoTextureWidth)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f4afe8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(), 2 }));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_stereoTextureWidth", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO_CameraTransformData.op_Equality
+//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.get_stereoTextureHeight
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::MirrorRendererSO_CameraTransformData, ::GlobalNamespace::MirrorRendererSO_CameraTransformData)>(
-    &::GlobalNamespace::MirrorRendererSO_CameraTransformData::op_Equality)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f436fc;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::get_stereoTextureHeight)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f4aff0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(),
-            { "op_Equality", {}, { ::i2c::type_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(), ::i2c::type_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_stereoTextureHeight", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO_CameraTransformData.op_Inequality
+//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.get_monoTextureWidth
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::MirrorRendererSO_CameraTransformData, ::GlobalNamespace::MirrorRendererSO_CameraTransformData)>(
-    &::GlobalNamespace::MirrorRendererSO_CameraTransformData::op_Inequality)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f43734;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::get_monoTextureWidth)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f4aff8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(),
-            { "op_Inequality", {}, { ::i2c::type_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(), ::i2c::type_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>() } })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_monoTextureWidth", {}, {} })));
     return ___internal_method;
   }
 };
-inline bool GlobalNamespace::MirrorRendererSO_CameraTransformData::Equals(::GlobalNamespace::MirrorRendererSO_CameraTransformData other) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(),
-                                                                                         { "Equals", {}, { ::i2c::type_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
-}
-inline bool GlobalNamespace::MirrorRendererSO_CameraTransformData::Equals(::System::Object* obj) {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(), 0 })));
-  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, obj);
-}
-inline int32_t GlobalNamespace::MirrorRendererSO_CameraTransformData::GetHashCode() {
-  auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(), 2 })));
-  return ::cordl_internals::RunMethodRethrow<int32_t>(*this, ___internal_method);
-}
-inline bool GlobalNamespace::MirrorRendererSO_CameraTransformData::op_Equality(::GlobalNamespace::MirrorRendererSO_CameraTransformData left,
-                                                                               ::GlobalNamespace::MirrorRendererSO_CameraTransformData right) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(),
-          { "op_Equality", {}, { ::i2c::type_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(), ::i2c::type_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, left, right);
-}
-inline bool GlobalNamespace::MirrorRendererSO_CameraTransformData::op_Inequality(::GlobalNamespace::MirrorRendererSO_CameraTransformData left,
-                                                                                 ::GlobalNamespace::MirrorRendererSO_CameraTransformData right) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(),
-          { "op_Inequality", {}, { ::i2c::type_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>(), ::i2c::type_of<::GlobalNamespace::MirrorRendererSO_CameraTransformData>() } })));
-  return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, left, right);
-}
-/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::MirrorRendererSO_CameraTransformData>"
-constexpr GlobalNamespace::MirrorRendererSO_CameraTransformData::operator ::System::IEquatable_1<::GlobalNamespace::MirrorRendererSO_CameraTransformData>*() {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::MirrorRendererSO_CameraTransformData>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::MirrorRendererSO_CameraTransformData>"
-constexpr ::System::IEquatable_1<::GlobalNamespace::MirrorRendererSO_CameraTransformData>*
-GlobalNamespace::MirrorRendererSO_CameraTransformData::i___System__IEquatable_1___GlobalNamespace__MirrorRendererSO_CameraTransformData_() {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::MirrorRendererSO_CameraTransformData>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "stereoEnabled", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "reflectionPlane", ty: "::UnityEngine::Plane", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::MirrorRendererSO_CameraTransformData::MirrorRendererSO_CameraTransformData(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t fov,
-                                                                                                        bool stereoEnabled, ::UnityEngine::Plane reflectionPlane) noexcept {
-  this->position = position;
-  this->rotation = rotation;
-  this->fov = fov;
-  this->stereoEnabled = stereoEnabled;
-  this->reflectionPlane = reflectionPlane;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::MirrorRendererSO_CameraTransformData::MirrorRendererSO_CameraTransformData() {}
+//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.get_monoTextureHeight
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::get_monoTextureHeight)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f4b000;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_monoTextureHeight", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.get_antiAliasing
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::get_antiAliasing)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f4b008;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_antiAliasing", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.OnValidate
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f42854;
+  constexpr static std::size_t addrs = 0x5f4b010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "OnValidate", {}, {} })));
@@ -169,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f428f0;
+  constexpr static std::size_t addrs = 0x5f4b0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "Awake", {}, {} })));
@@ -181,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::ValidateParams)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f42858;
+  constexpr static std::size_t addrs = 0x5f4b014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "ValidateParams", {}, {} })));
@@ -191,134 +129,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.Init
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::LayerMask, int32_t, int32_t, int32_t, int32_t, int32_t)>(
-    &::GlobalNamespace::MirrorRendererSO::Init)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f428f4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "Init",
-                                                                                                    {},
-                                                                                                    { ::i2c::type_of<::UnityEngine::LayerMask>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
-                                                                                                      ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.PrepareForNextFrame
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::PrepareForNextFrame)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5f41a10;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "PrepareForNextFrame", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.RenderMirrorTexture
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture> (::GlobalNamespace::MirrorRendererSO::*)(
-    ::UnityEngine::Camera*, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MirrorRendererSO::RenderMirrorTexture)> {
-  constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x5f41f00;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(),
-                            { "RenderMirrorTexture", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.RenderMirror
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Matrix4x4, ::UnityEngine::Rect,
-                                                                                                     ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
-    &::GlobalNamespace::MirrorRendererSO::RenderMirror)> {
-  constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x5f42be8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::GlobalNamespace::MirrorType, ::UnityEngine::LayerMask, int32_t, int32_t, int32_t, int32_t,
+                                                                                                     int32_t)>(&::GlobalNamespace::MirrorRendererSO::Init)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5f4b0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(),
-                                                             { "RenderMirror",
+                                                             { "Init",
                                                                {},
-                                                               { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(),
-                                                                 ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.OnDisable
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::OnDisable)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5f431b0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "OnDisable", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.CreateOrUpdateMirrorCamera
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::Camera*, ::UnityEngine::RenderTexture*)>(
-    &::GlobalNamespace::MirrorRendererSO::CreateOrUpdateMirrorCamera)> {
-  constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x5f42904;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(),
-                                                             { "CreateOrUpdateMirrorCamera", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::RenderTexture*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.Plane
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MirrorRendererSO::Plane)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5f42f54;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(),
-                                                                                           { "Plane", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.CameraSpacePlane
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
-    &::GlobalNamespace::MirrorRendererSO::CameraSpacePlane)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5f43074;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(),
-                            { "CameraSpacePlane", {}, { ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.CalculateReflectionMatrix
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector4)>(&::GlobalNamespace::MirrorRendererSO::CalculateReflectionMatrix)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5f42f80;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "CalculateReflectionMatrix", {}, { ::i2c::type_of<::UnityEngine::Vector4>() } })));
+                                                               { ::i2c::type_of<::GlobalNamespace::MirrorType>(), ::i2c::type_of<::UnityEngine::LayerMask>(), ::i2c::type_of<int32_t>(),
+                                                                 ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -326,8 +148,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::_ctor)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5f43354;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5f4b0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { ".ctor", {}, {} })));
@@ -406,53 +228,17 @@ constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__maxAntiA
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxAntiAliasing = value;
 }
-constexpr bool& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__disableDepthTexture() {
+constexpr ::GlobalNamespace::MirrorType& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__mirrorType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____disableDepthTexture;
+  return this->____mirrorType;
 }
-constexpr bool const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__disableDepthTexture() const {
+constexpr ::GlobalNamespace::MirrorType const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__mirrorType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____disableDepthTexture;
+  return this->____mirrorType;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__disableDepthTexture(bool value) {
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__mirrorType(::GlobalNamespace::MirrorType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____disableDepthTexture = value;
-}
-constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__clearDepthShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____clearDepthShader;
-}
-constexpr ::UnityW<::UnityEngine::Shader> const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__clearDepthShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____clearDepthShader;
-}
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__clearDepthShader(::UnityW<::UnityEngine::Shader> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____clearDepthShader = value;
-}
-constexpr ::UnityW<::UnityEngine::Camera>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__mirrorCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorCamera;
-}
-constexpr ::UnityW<::UnityEngine::Camera> const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__mirrorCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorCamera;
-}
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__mirrorCamera(::UnityW<::UnityEngine::Camera> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____mirrorCamera = value;
-}
-constexpr ::UnityW<::GlobalNamespace::MirrorCamera>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__mirrorCameraComponent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorCameraComponent;
-}
-constexpr ::UnityW<::GlobalNamespace::MirrorCamera> const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__mirrorCameraComponent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorCameraComponent;
-}
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__mirrorCameraComponent(::UnityW<::GlobalNamespace::MirrorCamera> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____mirrorCameraComponent = value;
+  this->____mirrorType = value;
 }
 constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__antialiasing() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -466,56 +252,33 @@ constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__antialia
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____antialiasing = value;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MirrorRendererSO_CameraTransformData, ::UnityW<::UnityEngine::RenderTexture>>*&
-GlobalNamespace::MirrorRendererSO::__cordl_internal_get__renderTextures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____renderTextures;
+inline ::GlobalNamespace::MirrorType GlobalNamespace::MirrorRendererSO::get_mirrorType() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_mirrorType", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MirrorType>(this, ___internal_method);
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MirrorRendererSO_CameraTransformData, ::UnityW<::UnityEngine::RenderTexture>>* const&
-GlobalNamespace::MirrorRendererSO::__cordl_internal_get__renderTextures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____renderTextures;
+inline ::UnityEngine::LayerMask GlobalNamespace::MirrorRendererSO::get_reflectLayers() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_reflectLayers", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask>(this, ___internal_method);
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__renderTextures(
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::MirrorRendererSO_CameraTransformData, ::UnityW<::UnityEngine::RenderTexture>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____renderTextures = value;
+inline int32_t GlobalNamespace::MirrorRendererSO::get_stereoTextureWidth() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_stereoTextureWidth", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kLeftRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kLeftRect;
+inline int32_t GlobalNamespace::MirrorRendererSO::get_stereoTextureHeight() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_stereoTextureHeight", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-constexpr ::UnityEngine::Rect const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kLeftRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kLeftRect;
+inline int32_t GlobalNamespace::MirrorRendererSO::get_monoTextureWidth() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_monoTextureWidth", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set_kLeftRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___kLeftRect = value;
+inline int32_t GlobalNamespace::MirrorRendererSO::get_monoTextureHeight() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_monoTextureHeight", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
-constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kRightRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kRightRect;
-}
-constexpr ::UnityEngine::Rect const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kRightRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kRightRect;
-}
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set_kRightRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___kRightRect = value;
-}
-constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kFullRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kFullRect;
-}
-constexpr ::UnityEngine::Rect const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kFullRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kFullRect;
-}
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set_kFullRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___kFullRect = value;
+inline int32_t GlobalNamespace::MirrorRendererSO::get_antiAliasing() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "get_antiAliasing", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
 }
 inline void GlobalNamespace::MirrorRendererSO::OnValidate() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "OnValidate", {}, {} })));
@@ -529,64 +292,15 @@ inline void GlobalNamespace::MirrorRendererSO::ValidateParams() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "ValidateParams", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MirrorRendererSO::Init(::UnityEngine::LayerMask reflectLayers, int32_t stereoTextureWidth, int32_t stereoTextureHeight, int32_t monoTextureWidth,
-                                                    int32_t monoTextureHeight, int32_t maxAntiAliasing) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "Init",
-                                                                                                  {},
-                                                                                                  { ::i2c::type_of<::UnityEngine::LayerMask>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(),
-                                                                                                    ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, reflectLayers, stereoTextureWidth, stereoTextureHeight, monoTextureWidth, monoTextureHeight, maxAntiAliasing);
-}
-inline void GlobalNamespace::MirrorRendererSO::PrepareForNextFrame() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "PrepareForNextFrame", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::UnityW<::UnityEngine::Texture> GlobalNamespace::MirrorRendererSO::RenderMirrorTexture(::UnityEngine::Camera* currentCamera, ::UnityEngine::Vector3 reflectionPlanePos,
-                                                                                               ::UnityEngine::Vector3 reflectionPlaneNormal) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(),
-                          { "RenderMirrorTexture", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture>>(this, ___internal_method, currentCamera, reflectionPlanePos, reflectionPlaneNormal);
-}
-inline void GlobalNamespace::MirrorRendererSO::RenderMirror(::UnityEngine::Vector3 camPosition, ::UnityEngine::Quaternion camRotation, ::UnityEngine::Matrix4x4 camProjectionMatrix,
-                                                            ::UnityEngine::Rect screenRect, ::UnityEngine::Vector3 reclectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal) {
+inline void GlobalNamespace::MirrorRendererSO::Init(::GlobalNamespace::MirrorType mirrorType, ::UnityEngine::LayerMask reflectLayers, int32_t stereoTextureWidth, int32_t stereoTextureHeight,
+                                                    int32_t monoTextureWidth, int32_t monoTextureHeight, int32_t maxAntiAliasing) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(),
-                                                           { "RenderMirror",
+                                                           { "Init",
                                                              {},
-                                                             { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Quaternion>(), ::i2c::type_of<::UnityEngine::Matrix4x4>(),
-                                                               ::i2c::type_of<::UnityEngine::Rect>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, camPosition, camRotation, camProjectionMatrix, screenRect, reclectionPlanePos, reflectionPlaneNormal);
-}
-inline void GlobalNamespace::MirrorRendererSO::OnDisable() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "OnDisable", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::MirrorRendererSO::CreateOrUpdateMirrorCamera(::UnityEngine::Camera* currentCamera, ::UnityEngine::RenderTexture* renderTexture) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(),
-                                                           { "CreateOrUpdateMirrorCamera", {}, { ::i2c::type_of<::UnityEngine::Camera*>(), ::i2c::type_of<::UnityEngine::RenderTexture*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, currentCamera, renderTexture);
-}
-inline ::UnityEngine::Vector4 GlobalNamespace::MirrorRendererSO::Plane(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(),
-                                                                                         { "Plane", {}, { ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(nullptr, ___internal_method, pos, normal);
-}
-inline ::UnityEngine::Vector4 GlobalNamespace::MirrorRendererSO::CameraSpacePlane(::UnityEngine::Matrix4x4 worldToCameraMatrix, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(),
-                          { "CameraSpacePlane", {}, { ::i2c::type_of<::UnityEngine::Matrix4x4>(), ::i2c::type_of<::UnityEngine::Vector3>(), ::i2c::type_of<::UnityEngine::Vector3>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4>(nullptr, ___internal_method, worldToCameraMatrix, pos, normal);
-}
-inline ::UnityEngine::Matrix4x4 GlobalNamespace::MirrorRendererSO::CalculateReflectionMatrix(::UnityEngine::Vector4 plane) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { "CalculateReflectionMatrix", {}, { ::i2c::type_of<::UnityEngine::Vector4>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4>(nullptr, ___internal_method, plane);
+                                                             { ::i2c::type_of<::GlobalNamespace::MirrorType>(), ::i2c::type_of<::UnityEngine::LayerMask>(), ::i2c::type_of<int32_t>(),
+                                                               ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<int32_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, mirrorType, reflectLayers, stereoTextureWidth, stereoTextureHeight, monoTextureWidth, monoTextureHeight, maxAntiAliasing);
 }
 inline void GlobalNamespace::MirrorRendererSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererSO*>(), { ".ctor", {}, {} })));

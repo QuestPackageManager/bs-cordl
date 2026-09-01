@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputForUI/EventConsumer.hpp"
+// IWYU pragma private; include "UnityEngine\InputForUI\EventConsumer.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/InputForUI/zzzz__EventConsumer_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::EventConsumer::*)(::System::Object*, ::System::IntPtr)>(&::UnityEngine::InputForUI::EventConsumer::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b547fc;
+  constexpr static std::size_t addrs = 0x6b5c380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::EventConsumer::*)(::by_ref<::UnityEngine::InputForUI::Event>)>(
     &::UnityEngine::InputForUI::EventConsumer::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b54878;
+  constexpr static std::size_t addrs = 0x6b5c3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

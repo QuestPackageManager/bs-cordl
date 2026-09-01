@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Profiling/ProfilerCounterValue_1.hpp"
+// IWYU pragma private; include "Unity\Profiling\ProfilerCounterValue_1.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCounterValue_1_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCategory_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCounterOptions_def.hpp"

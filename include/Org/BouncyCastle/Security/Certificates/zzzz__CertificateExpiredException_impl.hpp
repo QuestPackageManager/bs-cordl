@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Security/Certificates/CertificateExpiredException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Security\Certificates\CertificateExpiredException.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateException_impl.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateExpiredException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::*)()>(
     &::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35eb8dc;
+  constexpr static std::size_t addrs = 0x35ef69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::*)(::StringW)>(
     &::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35eb8e4;
+  constexpr static std::size_t addrs = 0x35ef6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35eb8ec;
+  constexpr static std::size_t addrs = 0x35ef6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::Certificates::CertificateExpiredException*>(),

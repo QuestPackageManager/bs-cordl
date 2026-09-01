@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/StyleComplexSelector.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\StyleComplexSelector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +69,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE StyleComplexSelector_PseudoStateData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c93610, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9b194, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::PseudoStates state, bool negate);
 
   // Ctor Parameters []
@@ -120,13 +120,13 @@ public:
 
   static inline ::UnityEngine::UIElements::StyleComplexSelector___c* New_ctor();
 
-  /// @brief Method <CalculateHashes>b__27_0, addr 0x6c93e70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CalculateHashes>b__27_0, addr 0x6c9b9f4, size 0x18, virtual false, abstract: false, final false
   inline bool _CalculateHashes_b__27_0(::UnityEngine::UIElements::StyleSelectorPart p);
 
-  /// @brief Method <ToString>b__24_0, addr 0x6c93e50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__24_0, addr 0x6c9b9d4, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__24_0(::UnityEngine::UIElements::StyleSelector* x);
 
-  /// @brief Method .ctor, addr 0x6c93e4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9b9d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::StyleComplexSelector___c* getStaticF___9();
@@ -217,24 +217,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method CachePseudoStateMasks, addr 0x6c9305c, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method CachePseudoStateMasks, addr 0x6c9abe0, size 0x5b4, virtual false, abstract: false, final false
   inline void CachePseudoStateMasks();
 
-  /// @brief Method CalculateHashes, addr 0x6c93828, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashes, addr 0x6c9b3ac, size 0x53c, virtual false, abstract: false, final false
   inline void CalculateHashes();
 
   static inline ::UnityEngine::UIElements::StyleComplexSelector* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x6c93038, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnAfterDeserialize, addr 0x6c9abbc, size 0x24, virtual true, abstract: false, final false
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x6c93034, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x6c9abb8, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method StyleSelectorPartCompare, addr 0x6c937e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StyleSelectorPartCompare, addr 0x6c9b368, size 0x44, virtual false, abstract: false, final false
   static inline int32_t StyleSelectorPartCompare(::UnityEngine::UIElements::StyleSelectorPart x, ::UnityEngine::UIElements::StyleSelectorPart y);
 
-  /// @brief Method ToString, addr 0x6c93634, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c9b1b8, size 0x1b0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::UIElements::StyleRule* const& __cordl_internal_get__rule_k__BackingField() const;
@@ -285,23 +285,23 @@ public:
 
   constexpr void __cordl_internal_set_ruleIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c93d64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9b8e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* getStaticF_m_HashList();
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>* getStaticF_s_PseudoStates();
 
-  /// @brief Method get_isSimple, addr 0x6c93000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isSimple, addr 0x6c9ab84, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSimple();
 
-  /// @brief Method get_rule, addr 0x6c92ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rule, addr 0x6c9ab74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRule* get_rule();
 
-  /// @brief Method get_selectors, addr 0x6c93008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectors, addr 0x6c9ab8c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleSelector*> get_selectors();
 
-  /// @brief Method get_specificity, addr 0x6c92fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specificity, addr 0x6c9ab6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_specificity();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -311,10 +311,10 @@ public:
 
   static inline void setStaticF_s_PseudoStates(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>* value);
 
-  /// @brief Method set_rule, addr 0x6c92ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rule, addr 0x6c9ab7c, size 0x8, virtual false, abstract: false, final false
   inline void set_rule(::UnityEngine::UIElements::StyleRule* value);
 
-  /// @brief Method set_selectors, addr 0x6c93010, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_selectors, addr 0x6c9ab94, size 0x24, virtual false, abstract: false, final false
   inline void set_selectors(::ArrayW<::UnityEngine::UIElements::StyleSelector*> value);
 
 protected:

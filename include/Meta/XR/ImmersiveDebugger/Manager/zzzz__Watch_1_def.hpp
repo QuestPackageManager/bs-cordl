@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/ImmersiveDebugger/Manager/Watch_1.hpp"
+// IWYU pragma private; include "Meta\XR\ImmersiveDebugger\Manager\Watch_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -95,7 +95,7 @@ public:
   Watch_1_ToDisplayStringSignature(Watch_1_ToDisplayStringSignature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -151,7 +151,7 @@ public:
   Watch_1___c__DisplayClass20_0(Watch_1___c__DisplayClass20_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18449 };
 
   /// @brief Field memberInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ___memberInfo;
@@ -265,7 +265,7 @@ public:
   Watch_1(Watch_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18450 };
 
   /// @brief Field _getter, offset: 0x40, size: 0x8, def value: None
   ::System::Func_1<T>* ____getter;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/StringComparer.hpp"
+// IWYU pragma private; include "System\StringComparer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,27 +75,27 @@ public:
   /// @brief Method Compare, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Compare, addr 0x5c59610, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x5c5dacc, size 0x180, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method Create, addr 0x5c59500, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5c5d9bc, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::StringComparer* Create(::System::Globalization::CultureInfo* culture, bool ignoreCase);
 
   /// @brief Method Equals, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x5c59790, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5c5dc4c, size 0x60, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* x, ::System::Object* y);
 
   /// @brief Method GetHashCode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method GetHashCode, addr 0x5c597f0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x5c5dcac, size 0x80, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   static inline ::System::StringComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5c59870, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c5dd2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::CultureAwareComparer* getStaticF_s_invariantCulture();
@@ -106,13 +106,13 @@ public:
 
   static inline ::System::OrdinalIgnoreCaseComparer* getStaticF_s_ordinalIgnoreCase();
 
-  /// @brief Method get_InvariantCultureIgnoreCase, addr 0x5c593ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_InvariantCultureIgnoreCase, addr 0x5c5d8a8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_InvariantCultureIgnoreCase();
 
-  /// @brief Method get_Ordinal, addr 0x5c59448, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Ordinal, addr 0x5c5d904, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_Ordinal();
 
-  /// @brief Method get_OrdinalIgnoreCase, addr 0x5c594a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_OrdinalIgnoreCase, addr 0x5c5d960, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_OrdinalIgnoreCase();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::StringW>"

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAll.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaAll.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaGroupBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAll_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectCollection_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchemaAll::*)()>(&::System::Xml::Schema::XmlSchemaAll::get_Items)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6224274;
+  constexpr static std::size_t addrs = 0x622bcf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaAll::*)()>(&::System::Xml::Schema::XmlSchemaAll::get_IsEmpty)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x622427c;
+  constexpr static std::size_t addrs = 0x622bcf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaAll::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(
     &::System::Xml::Schema::XmlSchemaAll::SetItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62242cc;
+  constexpr static std::size_t addrs = 0x622bd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaAll::*)()>(&::System::Xml::Schema::XmlSchemaAll::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x62242d4;
+  constexpr static std::size_t addrs = 0x622bd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaAll*>(), { ".ctor", {}, {} })));

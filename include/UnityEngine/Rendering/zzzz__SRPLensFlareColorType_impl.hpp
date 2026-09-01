@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SRPLensFlareColorType.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SRPLensFlareColorType.hpp"
 #include "UnityEngine/Rendering/zzzz__SRPLensFlareColorType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::SRPLensFlareColorType::SRPLensFlareColorType(int32_t value__) noexcept {

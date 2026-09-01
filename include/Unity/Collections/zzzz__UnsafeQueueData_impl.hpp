@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/UnsafeQueueData.hpp"
+// IWYU pragma private; include "Unity\Collections\UnsafeQueueData.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Collections/zzzz__UnsafeQueueData_def.hpp"
 #include "Unity/Collections/zzzz__AllocatorManager_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::UnsafeQueueBlockHeader* (::Unity::Collections::UnsafeQueueData::*)(int32_t)>(
     &::Unity::Collections::UnsafeQueueData::GetCurrentWriteBlockTLS)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64c1b44;
+  constexpr static std::size_t addrs = 0x64c95c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::UnsafeQueueData::*)(int32_t, ::Unity::Collections::UnsafeQueueBlockHeader*)>(
     &::Unity::Collections::UnsafeQueueData::SetCurrentWriteBlockTLS)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64c1b54;
+  constexpr static std::size_t addrs = 0x64c95d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::UnsafeQueueData*, ::Unity::Collections::UnsafeQueueBlockPoolData*,
                                                                 ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::UnsafeQueueData::DeallocateQueue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64c1b64;
+  constexpr static std::size_t addrs = 0x64c95e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

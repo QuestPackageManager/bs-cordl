@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/TermInfoDriver.hpp"
+// IWYU pragma private; include "System\TermInfoDriver.hpp"
 #include "System/zzzz__ConsoleColor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TermInfoDriver_def.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::TermInfoDriver::TryTermInfoDir)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5c94864;
+  constexpr static std::size_t addrs = 0x5c98d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::TermInfoDriver::SearchTerminfo)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5c949ac;
+  constexpr static std::size_t addrs = 0x5c98e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "SearchTerminfo", {}, { ::i2c::type_of<::StringW>() } })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)(::StringW)>(&::System::TermInfoDriver::WriteConsole)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c94b04;
+  constexpr static std::size_t addrs = 0x5c98fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "WriteConsole", {}, { ::i2c::type_of<::StringW>() } })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)(::StringW)>(&::System::TermInfoDriver::_ctor)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x5c8bec8;
+  constexpr static std::size_t addrs = 0x5c90384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::get_Initialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c94e38;
+  constexpr static std::size_t addrs = 0x5c992f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "get_Initialized", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::Init)> {
   constexpr static std::size_t size = 0x7fc;
-  constexpr static std::size_t addrs = 0x5c94e40;
+  constexpr static std::size_t addrs = 0x5c992fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "Init", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::IncrementX)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c959a8;
+  constexpr static std::size_t addrs = 0x5c99e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "IncrementX", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)(::System::ConsoleKeyInfo)>(&::System::TermInfoDriver::WriteSpecialKey)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5c95a6c;
+  constexpr static std::size_t addrs = 0x5c99f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)(char16_t)>(&::System::TermInfoDriver::WriteSpecialKey)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5c95d3c;
+  constexpr static std::size_t addrs = 0x5c9a1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "WriteSpecialKey", {}, { ::i2c::type_of<char16_t>() } })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::TermInfoDriver::*)(::System::ConsoleKeyInfo)>(&::System::TermInfoDriver::IsSpecialKey)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5c95ef0;
+  constexpr static std::size_t addrs = 0x5c9a3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::TermInfoDriver::*)(char16_t)>(&::System::TermInfoDriver::IsSpecialKey)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5c95f7c;
+  constexpr static std::size_t addrs = 0x5c9a438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "IsSpecialKey", {}, { ::i2c::type_of<char16_t>() } })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::GetCursorPosition)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x5c95710;
+  constexpr static std::size_t addrs = 0x5c99bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "GetCursorPosition", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::CheckWindowDimensions)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5c96098;
+  constexpr static std::size_t addrs = 0x5c9a554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "CheckWindowDimensions", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::get_WindowHeight)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5c95a40;
+  constexpr static std::size_t addrs = 0x5c99efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "get_WindowHeight", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::get_WindowWidth)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5c95a14;
+  constexpr static std::size_t addrs = 0x5c99ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "get_WindowWidth", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)(int32_t)>(&::System::TermInfoDriver::AddToBuffer)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5c95fa8;
+  constexpr static std::size_t addrs = 0x5c9a464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "AddToBuffer", {}, { ::i2c::type_of<int32_t>() } })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::AdjustBuffer)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c961bc;
+  constexpr static std::size_t addrs = 0x5c9a678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "AdjustBuffer", {}, {} })));
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ConsoleKeyInfo (::System::TermInfoDriver::*)(int32_t, bool)>(&::System::TermInfoDriver::CreateKeyInfoFromInt)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5c95d68;
+  constexpr static std::size_t addrs = 0x5c9a224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::TermInfoDriver::*)(bool)>(&::System::TermInfoDriver::GetKeyFromBuffer)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x5c961d0;
+  constexpr static std::size_t addrs = 0x5c9a68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "GetKeyFromBuffer", {}, { ::i2c::type_of<bool>() } })));
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ConsoleKeyInfo (::System::TermInfoDriver::*)(::by_ref<bool>)>(&::System::TermInfoDriver::ReadKeyInternal)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5c9692c;
+  constexpr static std::size_t addrs = 0x5c9ade8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::InputPending)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5c96c60;
+  constexpr static std::size_t addrs = 0x5c9b11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "InputPending", {}, {} })));
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)(char16_t)>(&::System::TermInfoDriver::QueueEcho)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5c96c94;
+  constexpr static std::size_t addrs = 0x5c9b150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "QueueEcho", {}, { ::i2c::type_of<char16_t>() } })));
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)(::System::ConsoleKeyInfo)>(&::System::TermInfoDriver::Echo)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c96d84;
+  constexpr static std::size_t addrs = 0x5c9b240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::EchoFlush)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5c96dd8;
+  constexpr static std::size_t addrs = 0x5c9b294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "EchoFlush", {}, {} })));
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::TermInfoDriver::*)(::by_ref<::ArrayW<char16_t>>, int32_t, int32_t)>(&::System::TermInfoDriver::Read)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x5c96e0c;
+  constexpr static std::size_t addrs = 0x5c9b2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ConsoleKeyInfo (::System::TermInfoDriver::*)(bool)>(&::System::TermInfoDriver::ReadKey)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5c970f8;
+  constexpr static std::size_t addrs = 0x5c9b5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "ReadKey", {}, { ::i2c::type_of<bool>() } })));
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::ReadLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9715c;
+  constexpr static std::size_t addrs = 0x5c9b618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "ReadLine", {}, {} })));
@@ -349,7 +349,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::ReadToEnd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c97338;
+  constexpr static std::size_t addrs = 0x5c9b7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "ReadToEnd", {}, {} })));
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::TermInfoDriver::*)(bool)>(&::System::TermInfoDriver::ReadUntilConditionInternal)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5c97164;
+  constexpr static std::size_t addrs = 0x5c9b620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)(int32_t, int32_t)>(&::System::TermInfoDriver::SetCursorPosition)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5c95b94;
+  constexpr static std::size_t addrs = 0x5c9a050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::CreateKeyMap)> {
   constexpr static std::size_t size = 0x1554;
-  constexpr static std::size_t addrs = 0x5c974f4;
+  constexpr static std::size_t addrs = 0x5c9b9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "CreateKeyMap", {}, {} })));
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::InitKeys)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5c96ae8;
+  constexpr static std::size_t addrs = 0x5c9afa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::TermInfoDriver*>(), { "InitKeys", {}, {} })));
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::TermInfoDriver::*)(::System::TermInfoStrings)>(&::System::TermInfoDriver::AddStringMapping)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c98ac4;
+  constexpr static std::size_t addrs = 0x5c9cf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

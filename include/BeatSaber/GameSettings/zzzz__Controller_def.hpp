@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/GameSettings/Controller.hpp"
+// IWYU pragma private; include "BeatSaber\GameSettings\Controller.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +20,7 @@ namespace BeatSaber::GameSettings {
 struct CORDL_TYPE Controller {
 public:
   // Declarations
-  /// @brief Method HasDefaultValues, addr 0x328fb60, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HasDefaultValues, addr 0x329395c, size 0xc8, virtual false, abstract: false, final false
   inline bool HasDefaultValues();
 
   // Ctor Parameters []
@@ -32,7 +32,7 @@ public:
   constexpr Controller(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22054 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/XPlatformAccessTokenData.hpp"
+// IWYU pragma private; include "GlobalNamespace\XPlatformAccessTokenData.hpp"
 #include "GlobalNamespace/zzzz__PlatformEnvironment_impl.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::XPlatformAccessTokenData::*)(::StringW, ::GlobalNamespace::PlatformEnvironment)>(
     &::GlobalNamespace::XPlatformAccessTokenData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x333b744;
+  constexpr static std::size_t addrs = 0x333f504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::XPlatformAccessTokenData::*)()>(&::GlobalNamespace::XPlatformAccessTokenData::IsValid)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x333b750;
+  constexpr static std::size_t addrs = 0x333f510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::XPlatformAccessTokenData>(), { "IsValid", {}, {} })));

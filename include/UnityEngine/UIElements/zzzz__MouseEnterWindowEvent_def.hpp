@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/MouseEnterWindowEvent.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\MouseEnterWindowEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseEnterWindowEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6d98d08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6da088c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseEnterWindowEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x6d98d04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da0888, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseEnterWindowEvent___c* getStaticF___9();
@@ -81,21 +81,21 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseEnterWindowEvent___c;
 
-  /// @brief Method Dispatch, addr 0x6d98c24, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6da07a8, size 0x8c, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method Init, addr 0x6d989fc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6da0580, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x6d98a54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6da05d8, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseEnterWindowEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x6d98ab8, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6da063c, size 0x16c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x6d98a60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6da05e4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

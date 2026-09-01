@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/UxmlObjectAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\UxmlObjectAttribute.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::UxmlObjectAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cb81f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbfd78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FloatFxBeatmapEventDataBox.hpp"
+// IWYU pragma private; include "GlobalNamespace\FloatFxBeatmapEventDataBox.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +50,7 @@ public:
 
   __declspec(property(get = get_subtypeIdentifier)) int32_t subtypeIdentifier;
 
-  /// @brief Method CreateVfxBeatmapEventData, addr 0x3713558, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method CreateVfxBeatmapEventData, addr 0x37193dc, size 0xb0, virtual true, abstract: false, final false
   inline ::GlobalNamespace::FloatFxBeatmapEventData* CreateVfxBeatmapEventData(::GlobalNamespace::FloatFxBaseData* data, float_t time, int32_t groupId, int32_t elementId, float_t distributionOffset);
 
   static inline ::GlobalNamespace::FloatFxBeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter,
@@ -71,15 +71,15 @@ public:
 
   constexpr void __cordl_internal_set__vfxBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* value);
 
-  /// @brief Method .ctor, addr 0x37134ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3719330, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType, float_t beatDistributionParam,
                     ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType eventDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* fxBaseDataList);
 
-  /// @brief Method get_beatStep, addr 0x37134a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x3719328, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x371349c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x3719320, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:
@@ -97,7 +97,7 @@ public:
   FloatFxBeatmapEventDataBox(FloatFxBeatmapEventDataBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14921 };
 
   /// @brief Field _vfxBaseDataList, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* ____vfxBaseDataList;

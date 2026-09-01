@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PopoDecKeyChallContent.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\PopoDecKeyChallContent.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PopoDecKeyChallContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__Challenge_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyChallContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyChallContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334cb6c;
+  constexpr static std::size_t addrs = 0x335092c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyChallContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyChallContent::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x33481c8;
+  constexpr static std::size_t addrs = 0x334bf88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Cmp::Challenge*> (::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyChallContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyChallContent::ToChallengeArray)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x334cb74;
+  constexpr static std::size_t addrs = 0x3350934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyChallContent*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyChallContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyChallContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x334cc6c;
+  constexpr static std::size_t addrs = 0x3350a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cmp::PopoDecKeyChallContent*>(),

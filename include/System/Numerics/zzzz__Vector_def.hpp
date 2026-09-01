@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Numerics/Vector.hpp"
+// IWYU pragma private; include "System\Numerics\Vector.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +29,7 @@ public:
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Numerics::Vector_1<T> Equals(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
-  /// @brief Method get_IsHardwareAccelerated, addr 0x5b8fb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsHardwareAccelerated, addr 0x5b9403c, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsHardwareAccelerated();
 
 protected:

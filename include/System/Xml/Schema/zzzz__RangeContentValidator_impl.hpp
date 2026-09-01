@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/RangeContentValidator.hpp"
+// IWYU pragma private; include "System\Xml\Schema\RangeContentValidator.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_impl.hpp"
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__RangeContentValidator_def.hpp"
@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Sche
     ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*>, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*, int32_t,
     ::System::Xml::Schema::XmlSchemaContentType, bool, ::System::Xml::Schema::BitSet*, int32_t)>(&::System::Xml::Schema::RangeContentValidator::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x61b2dc0;
+  constexpr static std::size_t addrs = 0x61ba83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::RangeContentValidator::InitValidation)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x61b2e78;
+  constexpr static std::size_t addrs = 0x61ba8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ::by_ref<int32_t>)>(
         &::System::Xml::Schema::RangeContentValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x864;
-  constexpr static std::size_t addrs = 0x61b3038;
+  constexpr static std::size_t addrs = 0x61baab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::RangeContentValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61b389c;
+  constexpr static std::size_t addrs = 0x61bb318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::Schema::ValidationState*, bool)>(
     &::System::Xml::Schema::RangeContentValidator::ExpectedElements)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x61b38b0;
+  constexpr static std::size_t addrs = 0x61bb32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::RangeContentValidator::*)(::System::Xml::Schema::ValidationState*, bool, ::System::Xml::Schema::XmlSchemaSet*)>(
         &::System::Xml::Schema::RangeContentValidator::ExpectedParticles)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x61b3b3c;
+  constexpr static std::size_t addrs = 0x61bb5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

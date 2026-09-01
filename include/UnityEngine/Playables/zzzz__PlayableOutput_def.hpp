@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Playables/PlayableOutput.hpp"
+// IWYU pragma private; include "UnityEngine\Playables\PlayableOutput.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,21 +38,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method Equals, addr 0x6afe4dc, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b05ef4, size 0xa0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Playables::PlayableOutput other);
 
-  /// @brief Method GetHandle, addr 0x6afe4d0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6b05ee8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   /// @brief Method IsPlayableOutputOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsPlayableOutputOfType();
 
-  /// @brief Method .ctor, addr 0x6afe4c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b05ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
   static inline ::UnityEngine::Playables::PlayableOutput getStaticF_m_NullPlayableOutput();
 
-  /// @brief Method get_Null, addr 0x6afcd40, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x6b04758, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput get_Null();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::PlayableOutput>"
@@ -71,7 +71,7 @@ public:
   constexpr PlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10683 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

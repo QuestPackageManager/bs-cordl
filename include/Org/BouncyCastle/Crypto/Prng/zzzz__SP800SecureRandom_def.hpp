@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/SP800SecureRandom.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Prng\SP800SecureRandom.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,25 +48,25 @@ public:
   /// @brief Field mRandomSource, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_mRandomSource, put = __cordl_internal_set_mRandomSource)) ::Org::BouncyCastle::Security::SecureRandom* mRandomSource;
 
-  /// @brief Method GenerateSeed, addr 0x341c1b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x341ff74, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GenerateSeed(int32_t numBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* New_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                                                                                ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* drbgProvider, bool predictionResistant);
 
-  /// @brief Method NextBytes, addr 0x341c118, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x341fed8, size 0x9c, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
-  /// @brief Method NextBytes, addr 0x341be44, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x341fc04, size 0x2d4, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method Reseed, addr 0x341c1bc, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method Reseed, addr 0x341ff7c, size 0x1c8, virtual true, abstract: false, final false
   inline void Reseed(::ArrayW<uint8_t> additionalInput);
 
-  /// @brief Method SetSeed, addr 0x341bcfc, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method SetSeed, addr 0x341fabc, size 0xa4, virtual true, abstract: false, final false
   inline void SetSeed(::ArrayW<uint8_t> seed);
 
-  /// @brief Method SetSeed, addr 0x341bda0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method SetSeed, addr 0x341fb60, size 0xa4, virtual true, abstract: false, final false
   inline void SetSeed(int64_t seed);
 
   constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* const& __cordl_internal_get_mDrbg() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_mRandomSource(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x341bc6c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x341fa2c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* drbgProvider, bool predictionResistant);
 

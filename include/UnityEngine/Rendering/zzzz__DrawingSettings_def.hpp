@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/DrawingSettings.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\DrawingSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +61,7 @@ public:
   constexpr DrawingSettings__shaderPassNames_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10806 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -113,22 +113,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>*();
 
-  /// @brief Method Equals, addr 0x6b198d0, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6b21454, size 0x100, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6b19568, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6b210ec, size 0x140, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::DrawingSettings other);
 
-  /// @brief Method GetHashCode, addr 0x6b199d0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6b21554, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetShaderPassName, addr 0x6b192dc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPassName, addr 0x6b20e60, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderTagId GetShaderPassName(int32_t index);
 
-  /// @brief Method SetShaderPassName, addr 0x6b19420, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SetShaderPassName, addr 0x6b20fa4, size 0x148, virtual false, abstract: false, final false
   inline void SetShaderPassName(int32_t index, ::UnityEngine::Rendering::ShaderTagId shaderPassName);
 
-  /// @brief Method .ctor, addr 0x6b19164, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b20ce8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ShaderTagId shaderPassName, ::UnityEngine::Rendering::SortingSettings sortingSettings);
 
   static inline int32_t getStaticF_maxShaderPasses();
@@ -136,33 +136,33 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::DrawingSettings>* i___System__IEquatable_1___UnityEngine__Rendering__DrawingSettings_();
 
-  /// @brief Method op_Equality, addr 0x6b19af4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6b21678, size 0xc0, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::DrawingSettings left, ::UnityEngine::Rendering::DrawingSettings right);
 
   static inline void setStaticF_maxShaderPasses(int32_t value);
 
-  /// @brief Method set_enableDynamicBatching, addr 0x6b1923c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_enableDynamicBatching, addr 0x6b20dc0, size 0x10, virtual false, abstract: false, final false
   inline void set_enableDynamicBatching(bool value);
 
-  /// @brief Method set_enableInstancing, addr 0x6b1924c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_enableInstancing, addr 0x6b20dd0, size 0x20, virtual false, abstract: false, final false
   inline void set_enableInstancing(bool value);
 
-  /// @brief Method set_mainLightIndex, addr 0x6b192d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mainLightIndex, addr 0x6b20e58, size 0x8, virtual false, abstract: false, final false
   inline void set_mainLightIndex(int32_t value);
 
-  /// @brief Method set_overrideMaterial, addr 0x6b1926c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_overrideMaterial, addr 0x6b20df0, size 0x2c, virtual false, abstract: false, final false
   inline void set_overrideMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_overrideMaterialPassIndex, addr 0x6b192c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideMaterialPassIndex, addr 0x6b20e48, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideMaterialPassIndex(int32_t value);
 
-  /// @brief Method set_overrideShader, addr 0x6b19298, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_overrideShader, addr 0x6b20e1c, size 0x2c, virtual false, abstract: false, final false
   inline void set_overrideShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_overrideShaderPassIndex, addr 0x6b192cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideShaderPassIndex, addr 0x6b20e50, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideShaderPassIndex(int32_t value);
 
-  /// @brief Method set_perObjectData, addr 0x6b19234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_perObjectData, addr 0x6b20db8, size 0x8, virtual false, abstract: false, final false
   inline void set_perObjectData(::UnityEngine::Rendering::PerObjectData value);
 
   // Ctor Parameters []
@@ -182,7 +182,7 @@ public:
                             int32_t m_UseSrpBatcher) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10807 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc4 };

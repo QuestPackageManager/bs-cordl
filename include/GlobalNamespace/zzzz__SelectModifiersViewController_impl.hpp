@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SelectModifiersViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SelectModifiersViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectModifiersViewController_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::SelectModifiersViewController::*)()>(
     &::GlobalNamespace::SelectModifiersViewController::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5960128;
+  constexpr static std::size_t addrs = 0x5963a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectModifiersViewController*>(), { "get_gameplayModifiers", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectModifiersViewController::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::SelectModifiersViewController::Setup)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5960140;
+  constexpr static std::size_t addrs = 0x5963a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectModifiersViewController::*)(bool, bool, bool)>(&::GlobalNamespace::SelectModifiersViewController::DidActivate)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5960158;
+  constexpr static std::size_t addrs = 0x5963a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectModifiersViewController::*)()>(&::GlobalNamespace::SelectModifiersViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59601fc;
+  constexpr static std::size_t addrs = 0x5963af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectModifiersViewController*>(), { ".ctor", {}, {} })));

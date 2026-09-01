@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoExperimentModel.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoExperimentModel.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +31,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IExperimentModel"
   constexpr operator ::GlobalNamespace::IExperimentModel*() noexcept;
 
-  /// @brief Method IsEmployee, addr 0x3705c20, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method IsEmployee, addr 0x370a040, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
 
-  /// @brief Method IsInTest, addr 0x3705c90, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method IsInTest, addr 0x370a0b0, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
 
   static inline ::GlobalNamespace::NoExperimentModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3705d00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x370a120, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IExperimentModel"
@@ -60,7 +60,7 @@ public:
   NoExperimentModel(NoExperimentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14858 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

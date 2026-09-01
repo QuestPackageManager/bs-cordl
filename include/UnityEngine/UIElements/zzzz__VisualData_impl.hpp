@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/VisualData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\VisualData.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPosition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundRepeat_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundSize_impl.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualData (::UnityEngine::UIElements::VisualData::*)()>(&::UnityEngine::UIElements::VisualData::Copy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c88284;
+  constexpr static std::size_t addrs = 0x6c8fe08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualData>(), { "Copy", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualData::*)(::by_ref<::UnityEngine::UIElements::VisualData>)>(
     &::UnityEngine::UIElements::VisualData::CopyFrom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c88294;
+  constexpr static std::size_t addrs = 0x6c8fe18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualData, ::UnityEngine::UIElements::VisualData)>(&::UnityEngine::UIElements::VisualData::op_Equality)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x6c8829c;
+  constexpr static std::size_t addrs = 0x6c8fe20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualData::*)(::UnityEngine::UIElements::VisualData)>(&::UnityEngine::UIElements::VisualData::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c88614;
+  constexpr static std::size_t addrs = 0x6c90198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualData::*)(::System::Object*)>(&::UnityEngine::UIElements::VisualData::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c88660;
+  constexpr static std::size_t addrs = 0x6c901e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualData::*)()>(&::UnityEngine::UIElements::VisualData::GetHashCode)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x6c88704;
+  constexpr static std::size_t addrs = 0x6c90288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

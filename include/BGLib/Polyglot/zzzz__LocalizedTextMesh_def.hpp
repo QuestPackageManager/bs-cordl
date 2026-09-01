@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BGLib/Polyglot/LocalizedTextMesh.hpp"
+// IWYU pragma private; include "BGLib\Polyglot\LocalizedTextMesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,24 +46,24 @@ public:
   /// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
   constexpr operator ::BGLib::Polyglot::ILocalize*() noexcept;
 
-  /// @brief Method IsAlignmentLeft, addr 0x3318740, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0x331c500, size 0xc, virtual false, abstract: false, final false
   inline bool IsAlignmentLeft(::UnityEngine::TextAlignment alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0x3318734, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0x331c4f4, size 0xc, virtual false, abstract: false, final false
   inline bool IsAlignmentRight(::UnityEngine::TextAlignment alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0x331870c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0x331c4cc, size 0x28, virtual false, abstract: false, final false
   inline bool IsOppositeDirection(::UnityEngine::TextAlignment alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMesh* New_ctor();
 
-  /// @brief Method OnLocalize, addr 0x3318240, size 0x1c8, virtual true, abstract: false, final true
+  /// @brief Method OnLocalize, addr 0x331c000, size 0x1c8, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method Reset, addr 0x33181d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x331bf94, size 0x54, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Start, addr 0x3318228, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x331bfe8, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::StringW const& __cordl_internal_get_key() const;
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_text(::UnityW<::UnityEngine::TextMesh> value);
 
-  /// @brief Method .ctor, addr 0x331874c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331c50c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Key, addr 0x33181cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x331bf8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Key();
 
   /// @brief Convert to "::BGLib::Polyglot::ILocalize"
@@ -102,7 +102,7 @@ public:
   LocalizedTextMesh(LocalizedTextMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22200 };
 
   /// @brief Field text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextMesh> ___text;

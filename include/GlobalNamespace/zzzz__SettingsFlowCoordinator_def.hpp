@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SettingsFlowCoordinator.hpp"
+// IWYU pragma private; include "GlobalNamespace\SettingsFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -145,7 +145,7 @@ public:
   static ::GlobalNamespace::SettingsFlowCoordinator_FinishAction const Ok;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6367 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -171,10 +171,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a062e8, size 0x444, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0e3bc, size 0x47c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a0672c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0e838, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -191,7 +191,7 @@ public:
                                                               ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6368 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -232,10 +232,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a06798, size 0x3bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0e8a4, size 0x3bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a06b54, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0ec60, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -252,7 +252,7 @@ public:
                                                                ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6369 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -293,10 +293,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5a06bc0, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5a0eccc, size 0x434, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5a06ff4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5a0f100, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -316,7 +316,7 @@ public:
                                                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6370 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -413,36 +413,36 @@ public:
   /// @brief Field fileStorage, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage)) ::GlobalNamespace::IFileStorage* fileStorage;
 
-  /// @brief Method ApplySettingsAsync, addr 0x5a060dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ApplySettingsAsync, addr 0x5a0e1b0, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ApplySettingsAsync();
 
-  /// @brief Method CancelSettingsAsync, addr 0x5a0618c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CancelSettingsAsync, addr 0x5a0e260, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CancelSettingsAsync();
 
-  /// @brief Method DidActivate, addr 0x5a057e8, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5a0d8bc, size 0x360, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5a05b48, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5a0dc1c, size 0x1b8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleDidSelectSettingsSubMenu, addr 0x5a05da0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectSettingsSubMenu, addr 0x5a0de74, size 0x70, virtual false, abstract: false, final false
   inline void HandleDidSelectSettingsSubMenu(::GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int32_t idx);
 
-  /// @brief Method HandleRequestToSelectProfileToCopyFrom, addr 0x5a05e10, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method HandleRequestToSelectProfileToCopyFrom, addr 0x5a0dee4, size 0x21c, virtual false, abstract: false, final false
   inline void HandleRequestToSelectProfileToCopyFrom(::ArrayW<::System::ValueTuple_2<::StringW, int32_t>> profilesToCopyFrom);
 
-  /// @brief Method HandleSettingsNavigationControllerDidFinishAsync, addr 0x5a0602c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HandleSettingsNavigationControllerDidFinishAsync, addr 0x5a0e100, size 0xb0, virtual false, abstract: false, final false
   inline void HandleSettingsNavigationControllerDidFinishAsync(::GlobalNamespace::SettingsNavigationController_FinishAction finishAction);
 
   static inline ::GlobalNamespace::SettingsFlowCoordinator* New_ctor();
 
-  /// @brief Method ReplaceViewController, addr 0x5a05d00, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReplaceViewController, addr 0x5a0ddd4, size 0x9c, virtual false, abstract: false, final false
   inline void ReplaceViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method ShowSecretViewController, addr 0x5a05d9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ShowSecretViewController, addr 0x5a0de70, size 0x4, virtual false, abstract: false, final false
   inline void ShowSecretViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method <HandleRequestToSelectProfileToCopyFrom>b__26_0, addr 0x5a06244, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <HandleRequestToSelectProfileToCopyFrom>b__26_0, addr 0x5a0e318, size 0xa4, virtual false, abstract: false, final false
   inline void _HandleRequestToSelectProfileToCopyFrom_b__26_0(::System::ValueTuple_2<int32_t, int32_t> arguments);
 
   constexpr ::BeatSaber::GameSettings::ControllerProfilesModel* const& __cordl_internal_get__controllerProfilesModel() const;
@@ -511,15 +511,15 @@ public:
 
   constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
 
-  /// @brief Method .ctor, addr 0x5a0623c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0e310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x5a05668, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5a0d73c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
 
   static inline int32_t getStaticF__selectedSettingsSubMenuInfoIdx();
 
-  /// @brief Method remove_didFinishEvent, addr 0x5a05728, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5a0d7fc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
 
   static inline void setStaticF__selectedSettingsSubMenuInfoIdx(int32_t value);
@@ -539,7 +539,7 @@ public:
   SettingsFlowCoordinator(SettingsFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6371 };
 
   /// @brief Field kButtonCancelLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kButtonCancelLocalizationKey{ u"BUTTON_CANCEL" };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Schema/XmlSchemaComplexContent.hpp"
+// IWYU pragma private; include "System\Xml\Schema\XmlSchemaComplexContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,22 +57,22 @@ public:
 
   constexpr void __cordl_internal_set_isMixed(bool value);
 
-  /// @brief Method .ctor, addr 0x62264e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x622df5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x62264c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x622df44, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContent* get_Content();
 
-  /// @brief Method get_HasMixedAttribute, addr 0x62264d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasMixedAttribute, addr 0x622df54, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasMixedAttribute();
 
-  /// @brief Method get_IsMixed, addr 0x62264b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsMixed, addr 0x622df2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsMixed();
 
-  /// @brief Method set_Content, addr 0x62264d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Content, addr 0x622df4c, size 0x8, virtual true, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaContent* value);
 
-  /// @brief Method set_IsMixed, addr 0x62264b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_IsMixed, addr 0x622df34, size 0x10, virtual false, abstract: false, final false
   inline void set_IsMixed(bool value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   XmlSchemaComplexContent(XmlSchemaComplexContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9754 };
 
   /// @brief Field content, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaContent* ___content;

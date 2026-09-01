@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AudioFading.hpp"
+// IWYU pragma private; include "GlobalNamespace\AudioFading.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,18 +35,18 @@ public:
   /// @brief Field _targetVolume, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__targetVolume, put = __cordl_internal_set__targetVolume)) float_t _targetVolume;
 
-  /// @brief Method FadeIn, addr 0x58b4ea8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x58b4810, size 0x24, virtual false, abstract: false, final false
   inline void FadeIn();
 
-  /// @brief Method FadeOut, addr 0x58b4fb8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x58b4920, size 0x20, virtual false, abstract: false, final false
   inline void FadeOut();
 
   static inline ::GlobalNamespace::AudioFading* New_ctor();
 
-  /// @brief Method Start, addr 0x58b4e4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58b47b4, size 0x5c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x58b4ecc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58b4834, size 0xec, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__targetVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x58b4fd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b4940, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

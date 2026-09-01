@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/PemParser.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\PemParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,10 +40,10 @@ public:
 
   static inline ::Org::BouncyCastle::X509::PemParser* New_ctor(::StringW type);
 
-  /// @brief Method ReadLine, addr 0x3640f9c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x3644d5c, size 0xe4, virtual false, abstract: false, final false
   inline ::StringW ReadLine(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadPemObject, addr 0x3641080, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ReadPemObject, addr 0x3644e40, size 0x224, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(::System::IO::Stream* inStream);
 
   constexpr ::StringW const& __cordl_internal_get__footer1() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__header2(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3640e80, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3644c40, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::StringW type);
 
 protected:

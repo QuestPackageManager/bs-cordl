@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Zenject/PoolableStaticMemoryPool_1.hpp"
+// IWYU pragma private; include "Zenject\PoolableStaticMemoryPool_1.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_1_impl.hpp"
 #include "Zenject/zzzz__PoolableStaticMemoryPool_1_def.hpp"
 template <typename TValue> inline void Zenject::PoolableStaticMemoryPool_1<TValue>::_ctor() {

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/TlsStream.hpp"
+// IWYU pragma private; include "System\Net\TlsStream.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,37 +53,37 @@ public:
   /// @brief Field _sslStream, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__sslStream, put = __cordl_internal_set__sslStream)) ::System::Net::Security::SslStream* _sslStream;
 
-  /// @brief Method AuthenticateAsClient, addr 0x63f1ee4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method AuthenticateAsClient, addr 0x63f9960, size 0x124, virtual false, abstract: false, final false
   inline void AuthenticateAsClient();
 
-  /// @brief Method BeginAuthenticateAsClient, addr 0x63f2008, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method BeginAuthenticateAsClient, addr 0x63f9a84, size 0x13c, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginAuthenticateAsClient(::System::AsyncCallback* asyncCallback, ::System::Object* state);
 
-  /// @brief Method BeginRead, addr 0x63f21e4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x63f9c60, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWrite, addr 0x63f2164, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x63f9be0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method Close, addr 0x63f2224, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x63f9ca0, size 0x34, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method EndAuthenticateAsClient, addr 0x63f2144, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EndAuthenticateAsClient, addr 0x63f9bc0, size 0x20, virtual false, abstract: false, final false
   inline void EndAuthenticateAsClient(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndRead, addr 0x63f2204, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x63f9c80, size 0x20, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x63f2184, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x63f9c00, size 0x20, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* result);
 
   static inline ::System::Net::TlsStream* New_ctor(::System::Net::Sockets::NetworkStream* stream, ::System::Net::Sockets::Socket* socket, ::StringW host,
                                                    ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates);
 
-  /// @brief Method Read, addr 0x63f21c4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x63f9c40, size 0x20, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method Write, addr 0x63f21a4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x63f9c20, size 0x20, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* const& __cordl_internal_get__clientCertificates() const;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set__sslStream(::System::Net::Security::SslStream* value);
 
-  /// @brief Method .ctor, addr 0x63f1e0c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63f9888, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::NetworkStream* stream, ::System::Net::Sockets::Socket* socket, ::StringW host,
                     ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates);
 
@@ -123,7 +123,7 @@ public:
   TlsStream(TlsStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11450 };
 
   /// @brief Field _sslStream, offset: 0x48, size: 0x8, def value: None
   ::System::Net::Security::SslStream* ____sslStream;

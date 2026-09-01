@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoTransitionSlider2DSelectableStateController.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoTransitionSlider2DSelectableStateController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,21 +25,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoTransitionSlider2DSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionSlider2D>> {
 public:
   // Declarations
-  /// @brief Method HandleSelectionStateDidChange, addr 0x643e6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectionStateDidChange, addr 0x6446144, size 0x8, virtual false, abstract: false, final false
   inline void HandleSelectionStateDidChange(::HMUI::NoTransitionSlider2D_SelectionState state);
 
   static inline ::GlobalNamespace::NoTransitionSlider2DSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x643e638, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x64460b4, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x643e540, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6445fbc, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x643e5e8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResolveSelectionState, addr 0x6446064, size 0x50, virtual false, abstract: false, final false
   inline void ResolveSelectionState(::HMUI::NoTransitionSlider2D_SelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x643e6d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x644614c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   NoTransitionSlider2DSelectableStateController(NoTransitionSlider2DSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22373 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

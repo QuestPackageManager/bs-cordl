@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/X509/X509Utilities.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\X509\X509Utilities.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,25 +58,25 @@ public:
   /// @brief Field noParams, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_noParams, put = setStaticF_noParams)) ::Org::BouncyCastle::Utilities::Collections::ISet* noParams;
 
-  /// @brief Method CreatePssParams, addr 0x364dd84, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreatePssParams, addr 0x3651b44, size 0x104, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
-  /// @brief Method GetAlgNames, addr 0x364e3bc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetAlgNames, addr 0x365217c, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* GetAlgNames();
 
-  /// @brief Method GetAlgorithmOid, addr 0x364de88, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmOid, addr 0x3651c48, size 0x21c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW algorithmName);
 
-  /// @brief Method GetSigAlgID, addr 0x364e0a4, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method GetSigAlgID, addr 0x3651e64, size 0x318, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid, ::StringW algorithmName);
 
-  /// @brief Method GetSignatureForObject, addr 0x364e4d0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureForObject, addr 0x3652290, size 0x2c8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> GetSignatureForObject(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid, ::StringW sigName, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                         ::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Asn1::Asn1Encodable* ae);
 
   static inline ::Org::BouncyCastle::X509::X509Utilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x364e798, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3652558, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();

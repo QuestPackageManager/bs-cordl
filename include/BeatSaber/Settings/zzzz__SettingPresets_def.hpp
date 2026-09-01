@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/Settings/SettingPresets.hpp"
+// IWYU pragma private; include "BeatSaber\Settings\SettingPresets.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,22 +57,22 @@ public:
   /// @brief Field kStandalone, offset 0xffffffff, size 0xf0
   __declspec(property(get = getStaticF_kStandalone, put = setStaticF_kStandalone)) ::BeatSaber::Settings::Settings kStandalone;
 
-  /// @brief Method DefaultAudioSettingsWithLatency, addr 0x32c2bc8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DefaultAudioSettingsWithLatency, addr 0x32c69c4, size 0x14, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::AudioSettings DefaultAudioSettingsWithLatency(float_t latency);
 
-  /// @brief Method DefaultControllerSettings, addr 0x32c2c44, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DefaultControllerSettings, addr 0x32c6a40, size 0x90, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::ControllerSettings DefaultControllerSettings();
 
-  /// @brief Method DefaultMiscSettings, addr 0x32c2bdc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DefaultMiscSettings, addr 0x32c69d8, size 0x50, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::MiscSettings DefaultMiscSettings();
 
-  /// @brief Method DefaultQuestSettings, addr 0x32c2c2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DefaultQuestSettings, addr 0x32c6a28, size 0xc, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::QuestSettings DefaultQuestSettings();
 
-  /// @brief Method DefaultSmoothCameraSettings, addr 0x32c2b44, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DefaultSmoothCameraSettings, addr 0x32c6940, size 0x84, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::SmoothCameraSettings DefaultSmoothCameraSettings();
 
-  /// @brief Method DefaultWindowSettings, addr 0x32c2c38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DefaultWindowSettings, addr 0x32c6a34, size 0xc, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::WindowSettings DefaultWindowSettings();
 
   static inline ::BeatSaber::Settings::Settings getStaticF_kLightBaking();
@@ -114,7 +114,7 @@ public:
   SettingPresets(SettingPresets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

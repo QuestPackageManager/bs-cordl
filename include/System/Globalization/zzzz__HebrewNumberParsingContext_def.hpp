@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Globalization/HebrewNumberParsingContext.hpp"
+// IWYU pragma private; include "System\Globalization\HebrewNumberParsingContext.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +21,7 @@ namespace System::Globalization {
 struct CORDL_TYPE HebrewNumberParsingContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5bb89a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bbce5c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
   // Ctor Parameters []

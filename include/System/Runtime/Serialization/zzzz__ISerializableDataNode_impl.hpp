@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/ISerializableDataNode.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\ISerializableDataNode.hpp"
 #include "System/Runtime/Serialization/zzzz__DataNode_1_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializableDataNode_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ISerializableDataNode::*)()>(&::System::Runtime::Serialization::ISerializableDataNode::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6149260;
+  constexpr static std::size_t addrs = 0x6150cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ISerializableDataNode*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::ISerializableDataNode::*)()>(
     &::System::Runtime::Serialization::ISerializableDataNode::get_FactoryTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61493dc;
+  constexpr static std::size_t addrs = 0x6150e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ISerializableDataNode::*)(::StringW)>(
     &::System::Runtime::Serialization::ISerializableDataNode::set_FactoryTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61493e4;
+  constexpr static std::size_t addrs = 0x6150e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::ISerializableDataNode::*)()>(
     &::System::Runtime::Serialization::ISerializableDataNode::get_FactoryTypeNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61493ec;
+  constexpr static std::size_t addrs = 0x6150e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ISerializableDataNode::*)(::StringW)>(
     &::System::Runtime::Serialization::ISerializableDataNode::set_FactoryTypeNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61493f4;
+  constexpr static std::size_t addrs = 0x6150e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ISerializableDataMember*>* (
     ::System::Runtime::Serialization::ISerializableDataNode::*)()>(&::System::Runtime::Serialization::ISerializableDataNode::get_Members)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61493fc;
+  constexpr static std::size_t addrs = 0x6150e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ISerializableDataNode*>(), { "get_Members", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ISerializableDataNode::*)(
     ::System::Collections::Generic::IList_1<::System::Runtime::Serialization::ISerializableDataMember*>*)>(&::System::Runtime::Serialization::ISerializableDataNode::set_Members)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6149404;
+  constexpr static std::size_t addrs = 0x6150e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ISerializableDataNode::*)(::System::Runtime::Serialization::ElementData*)>(
     &::System::Runtime::Serialization::ISerializableDataNode::GetData)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x614940c;
+  constexpr static std::size_t addrs = 0x6150e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ISerializableDataNode*>(),
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ISerializableDataNode::*)()>(&::System::Runtime::Serialization::ISerializableDataNode::Clear)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6149500;
+  constexpr static std::size_t addrs = 0x6150f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ISerializableDataNode*>(),

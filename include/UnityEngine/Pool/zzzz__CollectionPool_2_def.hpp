@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Pool/CollectionPool_2.hpp"
+// IWYU pragma private; include "UnityEngine\Pool\CollectionPool_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +68,7 @@ public:
   CollectionPool_2___c(CollectionPool_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -116,7 +116,7 @@ public:
   CollectionPool_2(CollectionPool_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10640 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

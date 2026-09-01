@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/NoteCutScoreSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace\NoteCutScoreSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,15 +34,15 @@ public:
   /// @brief Field _scoreController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController)) ::GlobalNamespace::IScoreController* _scoreController;
 
-  /// @brief Method HandleScoringForNoteStarted, addr 0x59885fc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleScoringForNoteStarted, addr 0x598bf9c, size 0xc8, virtual false, abstract: false, final false
   inline void HandleScoringForNoteStarted(::GlobalNamespace::ScoringElement* scoringElement);
 
   static inline ::GlobalNamespace::NoteCutScoreSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59884fc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x598be9c, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5988404, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x598bda4, size 0xf8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FlyingScoreSpawner> const& __cordl_internal_get__flyingScoreSpawner() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x59886c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598c064, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

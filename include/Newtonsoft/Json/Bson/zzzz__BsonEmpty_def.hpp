@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonEmpty.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Bson\BsonEmpty.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,14 +45,14 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::Newtonsoft::Json::Bson::BsonType value);
 
-  /// @brief Method .ctor, addr 0x5daa218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dae6d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Bson::BsonType type);
 
   static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Null();
 
   static inline ::Newtonsoft::Json::Bson::BsonToken* getStaticF_Undefined();
 
-  /// @brief Method get_Type, addr 0x5daa220, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5dae6dc, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
   static inline void setStaticF_Null(::Newtonsoft::Json::Bson::BsonToken* value);
@@ -74,7 +74,7 @@ public:
   BsonEmpty(BsonEmpty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13699 };
 
   /// @brief Field <Type>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   ::Newtonsoft::Json::Bson::BsonType ____Type_k__BackingField;

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LayerMasks.hpp"
+// IWYU pragma private; include "GlobalNamespace\LayerMasks.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,18 +43,18 @@ public:
   /// @brief Field saberLayerMask, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_saberLayerMask, put = setStaticF_saberLayerMask)) ::UnityEngine::LayerMask saberLayerMask;
 
-  /// @brief Method GetLayer, addr 0x36f477c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLayer, addr 0x36f89cc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetLayer(::StringW layerName);
 
-  /// @brief Method GetLayerMask, addr 0x36f4754, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x36f89a4, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
 
-  /// @brief Method GetLayerMask, addr 0x36f4770, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x36f89c0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetLayerMask(int32_t layerNum);
 
   static inline ::GlobalNamespace::LayerMasks* New_ctor();
 
-  /// @brief Method .ctor, addr 0x36f4784, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36f89d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_cutEffectParticlesLayer();
@@ -96,7 +96,7 @@ public:
   LayerMasks(LayerMasks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23661 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

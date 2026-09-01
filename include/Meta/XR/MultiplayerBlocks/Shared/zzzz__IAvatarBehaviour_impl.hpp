@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Shared/IAvatarBehaviour.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Shared\IAvatarBehaviour.hpp"
 #include "Meta/XR/MultiplayerBlocks/Shared/zzzz__IAvatarBehaviour_def.hpp"
 //  Writing Method size for method: ::Meta::XR::MultiplayerBlocks::Shared::IAvatarBehaviour.get_OculusId
 template <>

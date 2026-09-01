@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/CAKeyUpdAnnContent.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\CAKeyUpdAnnContent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,12 +46,12 @@ public:
   /// @brief Field oldWithNew, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_oldWithNew, put = __cordl_internal_set_oldWithNew)) ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* oldWithNew;
 
-  /// @brief Method GetInstance, addr 0x33430e0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3346ea0, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x334327c, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x334703c, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* const& __cordl_internal_get_newWithNew() const;
@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_oldWithNew(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
 
-  /// @brief Method .ctor, addr 0x3342e90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3346c50, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_NewWithNew, addr 0x3343274, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NewWithNew, addr 0x3347034, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_NewWithNew();
 
-  /// @brief Method get_NewWithOld, addr 0x334326c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NewWithOld, addr 0x334702c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_NewWithOld();
 
-  /// @brief Method get_OldWithNew, addr 0x3343264, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_OldWithNew, addr 0x3347024, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_OldWithNew();
 
 protected:

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/InheritedData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\InheritedData.hpp"
 #include "UnityEngine/UIElements/zzzz__EditorTextRenderingMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::InheritedData (::UnityEngine::UIElements::InheritedData::*)()>(&::UnityEngine::UIElements::InheritedData::Copy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c864c4;
+  constexpr static std::size_t addrs = 0x6c8e048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::InheritedData>(), { "Copy", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::InheritedData::*)(::by_ref<::UnityEngine::UIElements::InheritedData>)>(
     &::UnityEngine::UIElements::InheritedData::CopyFrom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c864d4;
+  constexpr static std::size_t addrs = 0x6c8e058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::InheritedData, ::UnityEngine::UIElements::InheritedData)>(
     &::UnityEngine::UIElements::InheritedData::op_Equality)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x6c864dc;
+  constexpr static std::size_t addrs = 0x6c8e060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::InheritedData::*)(::UnityEngine::UIElements::InheritedData)>(
     &::UnityEngine::UIElements::InheritedData::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6c86784;
+  constexpr static std::size_t addrs = 0x6c8e308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::InheritedData::*)(::System::Object*)>(&::UnityEngine::UIElements::InheritedData::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c867d0;
+  constexpr static std::size_t addrs = 0x6c8e354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::InheritedData::*)()>(&::UnityEngine::UIElements::InheritedData::GetHashCode)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x6c86874;
+  constexpr static std::size_t addrs = 0x6c8e3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

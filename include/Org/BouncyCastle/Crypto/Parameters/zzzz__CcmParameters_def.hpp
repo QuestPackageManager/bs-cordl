@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/CcmParameters.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\CcmParameters.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +27,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::CcmParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t> nonce,
                                                                                  ::ArrayW<uint8_t> associatedText);
 
-  /// @brief Method .ctor, addr 0x3408ce4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340caa4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> associatedText);
 
 protected:

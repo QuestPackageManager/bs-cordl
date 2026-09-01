@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/MsaaQuality.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\MsaaQuality.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__MsaaQuality_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::Universal::MsaaQuality::MsaaQuality(int32_t value__) noexcept {

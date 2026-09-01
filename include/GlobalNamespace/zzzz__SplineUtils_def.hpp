@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SplineUtils.hpp"
+// IWYU pragma private; include "GlobalNamespace\SplineUtils.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SplineUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x5f4d4fc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x5f54f78, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 t0, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 t1, float_t f);
 
 protected:
@@ -41,7 +41,7 @@ public:
   SplineUtils(SplineUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ConnectionErrorDialogViewController.hpp"
+// IWYU pragma private; include "GlobalNamespace\ConnectionErrorDialogViewController.hpp"
 #include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ConnectionErrorDialogViewController_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass2_0::*)()>(
     &::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a0fcdc;
+  constexpr static std::size_t addrs = 0x5a17de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass2_0::*)(int32_t)>(
     &::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass2_0::_Init_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a0fcf8;
+  constexpr static std::size_t addrs = 0x5a17e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController::*)(::GlobalNamespace::DisconnectedReason, ::System::Action*)>(
     &::GlobalNamespace::ConnectionErrorDialogViewController::Init)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5a0fb08;
+  constexpr static std::size_t addrs = 0x5a17c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController::*)()>(&::GlobalNamespace::ConnectionErrorDialogViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a0fcf0;
+  constexpr static std::size_t addrs = 0x5a17dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConnectionErrorDialogViewController*>(), { ".ctor", {}, {} })));

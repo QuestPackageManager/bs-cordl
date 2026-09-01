@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/OVRBounded3D.hpp"
+// IWYU pragma private; include "GlobalNamespace\OVRBounded3D.hpp"
 #include "GlobalNamespace/zzzz__OVRBounded3D_def.hpp"
 #include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceComponentType (::GlobalNamespace::OVRBounded3D::*)()>(
     &::GlobalNamespace::OVRBounded3D::IOVRAnchorComponent_OVRBounded3D__get_Type)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e0ef44;
+  constexpr static std::size_t addrs = 0x5e13400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::IOVRAnchorComponent_OVRBounded3D__get_Handle)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5e0efa0;
+  constexpr static std::size_t addrs = 0x5e1345c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRBounded3D (::GlobalNamespace::OVRBounded3D::*)(::GlobalNamespace::OVRAnchor)>(
     &::GlobalNamespace::OVRBounded3D::IOVRAnchorComponent_OVRBounded3D__FromAnchor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5e0eff8;
+  constexpr static std::size_t addrs = 0x5e134b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::get_IsNull)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5e0f090;
+  constexpr static std::size_t addrs = 0x5e1354c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRBounded3D>(), { "get_IsNull", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::get_IsEnabled)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5e0f0f0;
+  constexpr static std::size_t addrs = 0x5e135ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRBounded3D>(), { "get_IsEnabled", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (::GlobalNamespace::OVRBounded3D::*)(bool, double_t)>(
     &::GlobalNamespace::OVRBounded3D::IOVRAnchorComponent_OVRBounded3D__SetEnabledAsync)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5e0f1d8;
+  constexpr static std::size_t addrs = 0x5e13694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRBounded3D::*)(::GlobalNamespace::OVRBounded3D)>(&::GlobalNamespace::OVRBounded3D::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e0f224;
+  constexpr static std::size_t addrs = 0x5e136e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRBounded3D, ::GlobalNamespace::OVRBounded3D)>(&::GlobalNamespace::OVRBounded3D::op_Equality)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e0f290;
+  constexpr static std::size_t addrs = 0x5e1374c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRBounded3D, ::GlobalNamespace::OVRBounded3D)>(&::GlobalNamespace::OVRBounded3D::op_Inequality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5e0f300;
+  constexpr static std::size_t addrs = 0x5e137bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRBounded3D::*)(::System::Object*)>(&::GlobalNamespace::OVRBounded3D::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e0f374;
+  constexpr static std::size_t addrs = 0x5e13830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e0f404;
+  constexpr static std::size_t addrs = 0x5e138c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::ToString)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e0f470;
+  constexpr static std::size_t addrs = 0x5e1392c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_SpaceComponentType (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0ef98;
+  constexpr static std::size_t addrs = 0x5e13454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRBounded3D>(), { "get_Type", {}, {} })));
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0f530;
+  constexpr static std::size_t addrs = 0x5e139ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRBounded3D>(), { "get_Handle", {}, {} })));
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRBounded3D::*)(::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRBounded3D::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e0f028;
+  constexpr static std::size_t addrs = 0x5e134e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::GlobalNamespace::OVRBounded3D::*)()>(&::GlobalNamespace::OVRBounded3D::get_BoundingBox)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5e0f538;
+  constexpr static std::size_t addrs = 0x5e139f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRBounded3D>(), { "get_BoundingBox", {}, {} })));
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::GlobalNamespace::OVRBounded3D::*)(::GlobalNamespace::OVRPlugin_Boundsf)>(
     &::GlobalNamespace::OVRBounded3D::ConvertBounds)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5e0f69c;
+  constexpr static std::size_t addrs = 0x5e13b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

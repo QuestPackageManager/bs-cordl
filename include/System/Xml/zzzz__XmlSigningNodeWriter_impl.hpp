@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlSigningNodeWriter.hpp"
+// IWYU pragma private; include "System\Xml\XmlSigningNodeWriter.hpp"
 #include "System/Xml/zzzz__XmlNodeWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlSigningNodeWriter_def.hpp"
 #include "System/Xml/zzzz__UniqueId_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)()>(&::System::Xml::XmlSigningNodeWriter::Flush)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6120758;
+  constexpr static std::size_t addrs = 0x61281d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)()>(&::System::Xml::XmlSigningNodeWriter::Close)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x61207a0;
+  constexpr static std::size_t addrs = 0x612821c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)()>(&::System::Xml::XmlSigningNodeWriter::WriteDeclaration)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x61207d0;
+  constexpr static std::size_t addrs = 0x612824c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW)>(&::System::Xml::XmlSigningNodeWriter::WriteComment)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6120800;
+  constexpr static std::size_t addrs = 0x612827c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW)>(&::System::Xml::XmlSigningNodeWriter::WriteCData)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6120840;
+  constexpr static std::size_t addrs = 0x61282bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlSigningNodeWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6120880;
+  constexpr static std::size_t addrs = 0x61282fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlSigningNodeWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x61208c8;
+  constexpr static std::size_t addrs = 0x6128344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(bool)>(&::System::Xml::XmlSigningNodeWriter::WriteEndStartElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6120914;
+  constexpr static std::size_t addrs = 0x6128390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlSigningNodeWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6120958;
+  constexpr static std::size_t addrs = 0x61283d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlSigningNodeWriter::WriteXmlnsAttribute)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x61209a4;
+  constexpr static std::size_t addrs = 0x6128420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlSigningNodeWriter::WriteXmlnsAttribute)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61209f0;
+  constexpr static std::size_t addrs = 0x612846c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlSigningNodeWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6120a40;
+  constexpr static std::size_t addrs = 0x61284bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlSigningNodeWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6120a8c;
+  constexpr static std::size_t addrs = 0x6128508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)()>(&::System::Xml::XmlSigningNodeWriter::WriteEndAttribute)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6120adc;
+  constexpr static std::size_t addrs = 0x6128558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(int32_t)>(&::System::Xml::XmlSigningNodeWriter::WriteCharEntity)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6120b10;
+  constexpr static std::size_t addrs = 0x612858c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW)>(&::System::Xml::XmlSigningNodeWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6120b54;
+  constexpr static std::size_t addrs = 0x61285d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::XmlSigningNodeWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6120b98;
+  constexpr static std::size_t addrs = 0x6128614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::XmlSigningNodeWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6120bf4;
+  constexpr static std::size_t addrs = 0x6128670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlSigningNodeWriter::WriteEscapedText)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6120c3c;
+  constexpr static std::size_t addrs = 0x61286b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW)>(&::System::Xml::XmlSigningNodeWriter::WriteText)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6120c98;
+  constexpr static std::size_t addrs = 0x6128714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::XmlSigningNodeWriter::WriteText)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6120cdc;
+  constexpr static std::size_t addrs = 0x6128758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlSigningNodeWriter::WriteText)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6120d38;
+  constexpr static std::size_t addrs = 0x61287b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::XmlSigningNodeWriter::WriteText)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6120d94;
+  constexpr static std::size_t addrs = 0x6128810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(int32_t)>(&::System::Xml::XmlSigningNodeWriter::WriteInt32Text)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6120ddc;
+  constexpr static std::size_t addrs = 0x6128858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(int64_t)>(&::System::Xml::XmlSigningNodeWriter::WriteInt64Text)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6120ebc;
+  constexpr static std::size_t addrs = 0x6128938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(bool)>(&::System::Xml::XmlSigningNodeWriter::WriteBoolText)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6120f9c;
+  constexpr static std::size_t addrs = 0x6128a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(uint64_t)>(&::System::Xml::XmlSigningNodeWriter::WriteUInt64Text)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x612107c;
+  constexpr static std::size_t addrs = 0x6128af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(float_t)>(&::System::Xml::XmlSigningNodeWriter::WriteFloatText)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x612115c;
+  constexpr static std::size_t addrs = 0x6128bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(double_t)>(&::System::Xml::XmlSigningNodeWriter::WriteDoubleText)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x612123c;
+  constexpr static std::size_t addrs = 0x6128cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::System::Decimal)>(&::System::Xml::XmlSigningNodeWriter::WriteDecimalText)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x612131c;
+  constexpr static std::size_t addrs = 0x6128d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::System::DateTime)>(&::System::Xml::XmlSigningNodeWriter::WriteDateTimeText)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6121408;
+  constexpr static std::size_t addrs = 0x6128e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::System::Xml::UniqueId*)>(&::System::Xml::XmlSigningNodeWriter::WriteUniqueIdText)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x61214e8;
+  constexpr static std::size_t addrs = 0x6128f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::System::TimeSpan)>(&::System::Xml::XmlSigningNodeWriter::WriteTimeSpanText)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x61215b4;
+  constexpr static std::size_t addrs = 0x6129030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::System::Guid)>(&::System::Xml::XmlSigningNodeWriter::WriteGuidText)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6121674;
+  constexpr static std::size_t addrs = 0x61290f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::ArrayW<uint8_t>, int32_t, ::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::XmlSigningNodeWriter::WriteBase64Text)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6121750;
+  constexpr static std::size_t addrs = 0x61291cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -474,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlSigningNodeWriter::WriteBase64Text)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x6121804;
+  constexpr static std::size_t addrs = 0x6129280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlSigningNodeWriter::*)(::StringW, ::System::Xml::XmlDictionaryString*)>(
     &::System::Xml::XmlSigningNodeWriter::WriteQualifiedName)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6121a4c;
+  constexpr static std::size_t addrs = 0x61294c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

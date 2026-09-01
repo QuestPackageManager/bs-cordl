@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Assets/OVR/Scripts/Record.hpp"
+// IWYU pragma private; include "Assets\OVR\Scripts\Record.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Assets/OVR/Scripts/zzzz__Record_def.hpp"
 //  Writing Method size for method: ::Assets::OVR::Scripts::Record._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Assets::OVR::Scripts::Record::*)(int32_t, ::StringW, ::StringW)>(&::Assets::OVR::Scripts::Record::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e45780;
+  constexpr static std::size_t addrs = 0x5e49c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Assets::OVR::Scripts::Record*>(),

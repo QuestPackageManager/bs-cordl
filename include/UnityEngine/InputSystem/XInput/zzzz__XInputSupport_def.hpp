@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/XInput/XInputSupport.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\XInput\XInputSupport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +19,7 @@ namespace UnityEngine::InputSystem::XInput {
 class CORDL_TYPE XInputSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x6584a80, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x658c4fc, size 0x78, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -37,7 +37,7 @@ public:
   XInputSupport(XInputSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8844 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Observable.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Utilities\Observable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Observable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* (*)(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*,
                                                                                       ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::Utilities::Observable::ForDevice)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x64ff680;
+  constexpr static std::size_t addrs = 0x65070fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

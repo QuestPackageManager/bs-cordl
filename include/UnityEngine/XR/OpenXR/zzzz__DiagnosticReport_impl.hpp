@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/XR/OpenXR/DiagnosticReport.hpp"
+// IWYU pragma private; include "UnityEngine\XR\OpenXR\DiagnosticReport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/OpenXR/zzzz__DiagnosticReport_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::DiagnosticReport::StartReport)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69e6fcc;
+  constexpr static std::size_t addrs = 0x69eea48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::DiagnosticReport*>(), { "StartReport", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::StringW)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::GetSection)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69e7030;
+  constexpr static std::size_t addrs = 0x69eeaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::StringW, ::StringW)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::AddSectionEntry)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x69e70c0;
+  constexpr static std::size_t addrs = 0x69eeb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::AddSectionBreak)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69e717c;
+  constexpr static std::size_t addrs = 0x69eebf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::AddEventEntry)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69e71f0;
+  constexpr static std::size_t addrs = 0x69eec6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::DiagnosticReport::Internal_DumpReport)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69e729c;
+  constexpr static std::size_t addrs = 0x69eed18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::DiagnosticReport*>(), { "Internal_DumpReport", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::Internal_DumpReport)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69e7300;
+  constexpr static std::size_t addrs = 0x69eed7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::XR::OpenXR::DiagnosticReport::Internal_GenerateReport)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69e7390;
+  constexpr static std::size_t addrs = 0x69eee0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::DiagnosticReport*>(), { "Internal_GenerateReport", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::Internal_ReleaseReport)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x69e73f4;
+  constexpr static std::size_t addrs = 0x69eee70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::XR::OpenXR::DiagnosticReport::GenerateReport)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69e7470;
+  constexpr static std::size_t addrs = 0x69eeeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::DiagnosticReport*>(), { "GenerateReport", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::XR::OpenXR::DiagnosticReport::DumpReport)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69e7500;
+  constexpr static std::size_t addrs = 0x69eef7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::DiagnosticReport::*)()>(&::UnityEngine::XR::OpenXR::DiagnosticReport::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69e7504;
+  constexpr static std::size_t addrs = 0x69eef80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::DiagnosticReport*>(), { ".ctor", {}, {} })));

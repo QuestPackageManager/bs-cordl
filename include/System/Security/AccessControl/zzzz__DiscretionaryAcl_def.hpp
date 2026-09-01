@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/AccessControl/DiscretionaryAcl.hpp"
+// IWYU pragma private; include "System\Security\AccessControl\DiscretionaryAcl.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,25 +38,25 @@ namespace System::Security::AccessControl {
 class CORDL_TYPE DiscretionaryAcl : public ::System::Security::AccessControl::CommonAcl {
 public:
   // Declarations
-  /// @brief Method AddAccess, addr 0x5b1ae7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddAccess, addr 0x5b1f338, size 0x6c, virtual false, abstract: false, final false
   inline void AddAccess(::System::Security::AccessControl::AccessControlType accessType, ::System::Security::Principal::SecurityIdentifier* sid, int32_t accessMask,
                         ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags);
 
-  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x5b1b048, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x5b1f504, size 0x48, virtual true, abstract: false, final false
   inline void ApplyCanonicalSortToExplicitAces();
 
-  /// @brief Method GetAceInsertPosition, addr 0x5b1b090, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetAceInsertPosition, addr 0x5b1f54c, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
 
-  /// @brief Method GetAceQualifier, addr 0x5b1aff0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetAceQualifier, addr 0x5b1f4ac, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::AceQualifier GetAceQualifier(::System::Security::AccessControl::AccessControlType accessType);
 
-  /// @brief Method IsAceMeaningless, addr 0x5b1b0a0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method IsAceMeaningless, addr 0x5b1f55c, size 0xfc, virtual true, abstract: false, final false
   inline bool IsAceMeaningless(::System::Security::AccessControl::GenericAce* ace);
 
   static inline ::System::Security::AccessControl::DiscretionaryAcl* New_ctor(bool isContainer, bool isDS, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x5b1ae78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b1f334, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, bool isDS, int32_t capacity);
 
 protected:

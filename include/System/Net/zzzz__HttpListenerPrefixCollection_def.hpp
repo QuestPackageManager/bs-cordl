@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/HttpListenerPrefixCollection.hpp"
+// IWYU pragma private; include "System\Net\HttpListenerPrefixCollection.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,27 +62,27 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x642dedc, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x6435958, size 0x144, virtual true, abstract: false, final true
   inline void Add(::StringW uriPrefix);
 
-  /// @brief Method Clear, addr 0x642e020, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x6435a9c, size 0xc4, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x642e0e4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x6435b60, size 0x70, virtual true, abstract: false, final true
   inline bool Contains(::StringW uriPrefix);
 
-  /// @brief Method CopyTo, addr 0x642e154, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x6435bd0, size 0x80, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::StringW> array, int32_t offset);
 
-  /// @brief Method GetEnumerator, addr 0x6428648, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x64300c4, size 0x88, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* GetEnumerator();
 
   static inline ::System::Net::HttpListenerPrefixCollection* New_ctor(::System::Net::HttpListener* listener);
 
-  /// @brief Method Remove, addr 0x642e25c, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x6435cd8, size 0x110, virtual true, abstract: false, final true
   inline bool Remove(::StringW uriPrefix);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x642e1d4, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6435c50, size 0x88, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Net::HttpListener* const& __cordl_internal_get_listener() const;
@@ -97,13 +97,13 @@ public:
 
   constexpr void __cordl_internal_set_prefixes(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x642c59c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6434018, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListener* listener);
 
-  /// @brief Method get_Count, addr 0x642da1c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x6435498, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x642ded4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x6435950, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::StringW>"
@@ -130,7 +130,7 @@ public:
   HttpListenerPrefixCollection(HttpListenerPrefixCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11598 };
 
   /// @brief Field prefixes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___prefixes;

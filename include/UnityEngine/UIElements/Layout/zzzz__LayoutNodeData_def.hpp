@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/Layout/LayoutNodeData.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\Layout\LayoutNodeData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,16 +111,16 @@ public:
 
   __declspec(property(get = get_IsDirty, put = set_IsDirty)) bool IsDirty;
 
-  /// @brief Method get_HasNewLayout, addr 0x6cf9e20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HasNewLayout, addr 0x6d019a4, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasNewLayout();
 
-  /// @brief Method get_IsDirty, addr 0x6cf9d24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDirty, addr 0x6d018a8, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsDirty();
 
-  /// @brief Method set_HasNewLayout, addr 0x6cf9eb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_HasNewLayout, addr 0x6d01a34, size 0x20, virtual false, abstract: false, final false
   inline void set_HasNewLayout(bool value);
 
-  /// @brief Method set_IsDirty, addr 0x6cf9da4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_IsDirty, addr 0x6d01928, size 0x10, virtual false, abstract: false, final false
   inline void set_IsDirty(bool value);
 
   // Ctor Parameters []

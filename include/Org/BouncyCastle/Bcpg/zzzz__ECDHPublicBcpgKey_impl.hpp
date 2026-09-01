@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Bcpg/ECDHPublicBcpgKey.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Bcpg\ECDHPublicBcpgKey.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ECPublicBcpgKey_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SymmetricKeyAlgorithmTag_impl.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3699f1c;
+  constexpr static std::size_t addrs = 0x369dcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag)>(
     &::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x369a114;
+  constexpr static std::size_t addrs = 0x369ded4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::*)()>(&::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::get_Reserved)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369a150;
+  constexpr static std::size_t addrs = 0x369df10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::HashAlgorithmTag (::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::get_HashAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369a158;
+  constexpr static std::size_t addrs = 0x369df18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag (::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::get_SymmetricKeyAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369a160;
+  constexpr static std::size_t addrs = 0x369df20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::Encode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x369a168;
+  constexpr static std::size_t addrs = 0x369df28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::*)()>(&::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::VerifyHashAlgorithm)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x369a054;
+  constexpr static std::size_t addrs = 0x369de14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey*>(), { "VerifyHashAlgorithm", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::*)()>(&::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::VerifySymmetricKeyAlgorithm)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x369a0b4;
+  constexpr static std::size_t addrs = 0x369de74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

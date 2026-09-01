@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ScreenDisplacementEffectCopyDepthPass.hpp"
+// IWYU pragma private; include "GlobalNamespace\ScreenDisplacementEffectCopyDepthPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +30,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ScreenDisplacementEffectCopyDepthPass* New_ctor(::UnityEngine::Shader* copyDepthShader);
 
-  /// @brief Method RecordRenderGraph, addr 0x5f4658c, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x5f4df00, size 0x11c, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x5f44b10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4c484, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* copyDepthShader);
 
 protected:
@@ -51,7 +51,7 @@ public:
   ScreenDisplacementEffectCopyDepthPass(ScreenDisplacementEffectCopyDepthPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ObstacleSpawnData.hpp"
+// IWYU pragma private; include "GlobalNamespace\ObstacleSpawnData.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSpawnData_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSpawnData::*)(::UnityEngine::Vector3, float_t, float_t)>(&::GlobalNamespace::ObstacleSpawnData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58cd730;
+  constexpr static std::size_t addrs = 0x58cd0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

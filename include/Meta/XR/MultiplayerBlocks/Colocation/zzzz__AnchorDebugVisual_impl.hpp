@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Meta/XR/MultiplayerBlocks/Colocation/AnchorDebugVisual.hpp"
+// IWYU pragma private; include "Meta\XR\MultiplayerBlocks\Colocation\AnchorDebugVisual.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/MultiplayerBlocks/Colocation/zzzz__AnchorDebugVisual_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::add__debugVisibilityChanged)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5a7d744;
+  constexpr static std::size_t addrs = 0x5a81c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::remove__debugVisibilityChanged)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5a7d834;
+  constexpr static std::size_t addrs = 0x5a81cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::get_DebugVisualsVisible)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a7d924;
+  constexpr static std::size_t addrs = 0x5a81de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::set_DebugVisualsVisible)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5a7d980;
+  constexpr static std::size_t addrs = 0x5a81e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::Awake)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a7da28;
+  constexpr static std::size_t addrs = 0x5a81ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual*>(), { "Awake", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::OnDebugVisibilityChanged)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5a7dad4;
+  constexpr static std::size_t addrs = 0x5a81f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a7db58;
+  constexpr static std::size_t addrs = 0x5a82014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AnchorDebugVisual*>(), { ".ctor", {}, {} })));

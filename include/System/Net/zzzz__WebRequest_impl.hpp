@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/WebRequest.hpp"
+// IWYU pragma private; include "System\Net\WebRequest.hpp"
 #include "System/Net/Security/zzzz__AuthenticationLevel_impl.hpp"
 #include "System/Security/Principal/zzzz__TokenImpersonationLevel_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebRequest* (::System::Net::WebRequest_DesignerWebRequestCreate::*)(::System::Uri*)>(
     &::System::Net::WebRequest_DesignerWebRequestCreate::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x640c72c;
+  constexpr static std::size_t addrs = 0x64141a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest_DesignerWebRequestCreate::*)()>(&::System::Net::WebRequest_DesignerWebRequestCreate::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x640c500;
+  constexpr static std::size_t addrs = 0x6413f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest_DesignerWebRequestCreate*>(), { ".ctor", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest___c__DisplayClass78_0::*)()>(&::System::Net::WebRequest___c__DisplayClass78_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x640bcc0;
+  constexpr static std::size_t addrs = 0x641373c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest___c__DisplayClass78_0*>(), { ".ctor", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (::System::Net::WebRequest___c__DisplayClass78_0::*)()>(
     &::System::Net::WebRequest___c__DisplayClass78_0::_GetRequestStreamAsync_b__1)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x640c784;
+  constexpr static std::size_t addrs = 0x6414200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest___c__DisplayClass79_0::*)()>(&::System::Net::WebRequest___c__DisplayClass79_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x640c014;
+  constexpr static std::size_t addrs = 0x6413a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest___c__DisplayClass79_0*>(), { ".ctor", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::WebResponse*>* (::System::Net::WebRequest___c__DisplayClass79_0::*)()>(
     &::System::Net::WebRequest___c__DisplayClass79_0::_GetResponseAsync_b__1)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x640ca8c;
+  constexpr static std::size_t addrs = 0x6414508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest___c__DisplayClass79_0*>(), { "<GetResponseAsync>b__1", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)()>(&::System::Net::WebRequest::get_InternalSyncObject)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x640ad74;
+  constexpr static std::size_t addrs = 0x64127f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "get_InternalSyncObject", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebRequest* (*)(::System::Uri*, bool)>(&::System::Net::WebRequest::Create)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x640ae44;
+  constexpr static std::size_t addrs = 0x64128c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebRequest* (*)(::StringW)>(&::System::Net::WebRequest::Create)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x640b240;
+  constexpr static std::size_t addrs = 0x6412cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "Create", {}, { ::i2c::type_of<::StringW>() } })));
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebRequest* (*)(::System::Uri*)>(&::System::Net::WebRequest::Create)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x640b31c;
+  constexpr static std::size_t addrs = 0x6412d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "Create", {}, { ::i2c::type_of<::System::Uri*>() } })));
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (*)()>(&::System::Net::WebRequest::get_PrefixList)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x640b0b4;
+  constexpr static std::size_t addrs = 0x6412b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "get_PrefixList", {}, {} })));
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (*)()>(&::System::Net::WebRequest::PopulatePrefixList)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x640b3ec;
+  constexpr static std::size_t addrs = 0x6412e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "PopulatePrefixList", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x63fd06c;
+  constexpr static std::size_t addrs = 0x6404ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ".ctor", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Net::WebRequest::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x640b5dc;
+  constexpr static std::size_t addrs = 0x6413058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Net::WebRequest::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x640b5e0;
+  constexpr static std::size_t addrs = 0x641305c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Net::WebRequest::GetObjectData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x640b5ec;
+  constexpr static std::size_t addrs = 0x6413068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 7 }));
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Cache::RequestCachePolicy* (*)()>(&::System::Net::WebRequest::get_DefaultCachePolicy)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x640b5f0;
+  constexpr static std::size_t addrs = 0x641306c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "get_DefaultCachePolicy", {}, {} })));
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(::System::Net::Cache::RequestCachePolicy*)>(&::System::Net::WebRequest::set_CachePolicy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x640b668;
+  constexpr static std::size_t addrs = 0x64130e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 8 }));
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(::System::Net::Cache::RequestCachePolicy*)>(&::System::Net::WebRequest::InternalSetCachePolicy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x640b66c;
+  constexpr static std::size_t addrs = 0x64130e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::get_Method)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b6f4;
+  constexpr static std::size_t addrs = 0x6413170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 9 }));
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(::StringW)>(&::System::Net::WebRequest::set_Method)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b718;
+  constexpr static std::size_t addrs = 0x6413194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 10 }));
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Uri* (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::get_RequestUri)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b73c;
+  constexpr static std::size_t addrs = 0x64131b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 11 }));
@@ -409,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(::StringW)>(&::System::Net::WebRequest::set_ConnectionGroupName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b760;
+  constexpr static std::size_t addrs = 0x64131dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 12 }));
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::get_Headers)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b784;
+  constexpr static std::size_t addrs = 0x6413200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 13 }));
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::get_ContentLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b7a8;
+  constexpr static std::size_t addrs = 0x6413224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 14 }));
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(int64_t)>(&::System::Net::WebRequest::set_ContentLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b7cc;
+  constexpr static std::size_t addrs = 0x6413248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 15 }));
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ICredentials* (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::get_Credentials)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b7f0;
+  constexpr static std::size_t addrs = 0x641326c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 16 }));
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(::System::Net::ICredentials*)>(&::System::Net::WebRequest::set_Credentials)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b814;
+  constexpr static std::size_t addrs = 0x6413290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 17 }));
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::get_UseDefaultCredentials)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b838;
+  constexpr static std::size_t addrs = 0x64132b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 18 }));
@@ -493,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IWebProxy* (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::get_Proxy)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b85c;
+  constexpr static std::size_t addrs = 0x64132d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 19 }));
@@ -505,7 +505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(::System::Net::IWebProxy*)>(&::System::Net::WebRequest::set_Proxy)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b880;
+  constexpr static std::size_t addrs = 0x64132fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 20 }));
@@ -517,7 +517,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(bool)>(&::System::Net::WebRequest::set_PreAuthenticate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b8a4;
+  constexpr static std::size_t addrs = 0x6413320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 21 }));
@@ -529,7 +529,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::get_Timeout)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b8c8;
+  constexpr static std::size_t addrs = 0x6413344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 22 }));
@@ -541,7 +541,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(int32_t)>(&::System::Net::WebRequest::set_Timeout)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b8ec;
+  constexpr static std::size_t addrs = 0x6413368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 23 }));
@@ -553,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebResponse* (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::GetResponse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b910;
+  constexpr static std::size_t addrs = 0x641338c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 24 }));
@@ -566,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::WebRequest::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::WebRequest::BeginGetResponse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b934;
+  constexpr static std::size_t addrs = 0x64133b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 25 }));
@@ -578,7 +578,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebResponse* (::System::Net::WebRequest::*)(::System::IAsyncResult*)>(&::System::Net::WebRequest::EndGetResponse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b958;
+  constexpr static std::size_t addrs = 0x64133d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 26 }));
@@ -591,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::WebRequest::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::WebRequest::BeginGetRequestStream)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b97c;
+  constexpr static std::size_t addrs = 0x64133f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 27 }));
@@ -603,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::System::Net::WebRequest::*)(::System::IAsyncResult*)>(&::System::Net::WebRequest::EndGetRequestStream)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640b9a0;
+  constexpr static std::size_t addrs = 0x641341c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 28 }));
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (::System::Net::WebRequest::*)()>(
     &::System::Net::WebRequest::GetRequestStreamAsync)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x640b9c4;
+  constexpr static std::size_t addrs = 0x6413440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 29 }));
@@ -629,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::WebResponse*>* (::System::Net::WebRequest::*)()>(
     &::System::Net::WebRequest::GetResponseAsync)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x640bd18;
+  constexpr static std::size_t addrs = 0x6413794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 30 }));
@@ -641,7 +641,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Principal::WindowsIdentity* (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::SafeCaptureIdenity)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x640bcc4;
+  constexpr static std::size_t addrs = 0x6413740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "SafeCaptureIdenity", {}, {} })));
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::Abort)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640c018;
+  constexpr static std::size_t addrs = 0x6413a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { ::i2c::class_of<::System::Net::WebRequest*>(), 31 }));
@@ -665,7 +665,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Cache::RequestCacheProtocol* (::System::Net::WebRequest::*)()>(&::System::Net::WebRequest::get_CacheProtocol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x640c03c;
+  constexpr static std::size_t addrs = 0x6413ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "get_CacheProtocol", {}, {} })));
@@ -677,7 +677,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebRequest::*)(::System::Net::Cache::RequestCacheProtocol*)>(&::System::Net::WebRequest::set_CacheProtocol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x640c044;
+  constexpr static std::size_t addrs = 0x6413ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -690,7 +690,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IWebProxy* (*)()>(&::System::Net::WebRequest::get_InternalDefaultWebProxy)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x640c04c;
+  constexpr static std::size_t addrs = 0x6413ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "get_InternalDefaultWebProxy", {}, {} })));
@@ -703,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (::System::Net::WebRequest::*)()>(
     &::System::Net::WebRequest::_GetRequestStreamAsync_b__78_0)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x640c504;
+  constexpr static std::size_t addrs = 0x6413f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "<GetRequestStreamAsync>b__78_0", {}, {} })));
@@ -716,7 +716,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::WebResponse*>* (::System::Net::WebRequest::*)()>(
     &::System::Net::WebRequest::_GetResponseAsync_b__79_0)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x640c618;
+  constexpr static std::size_t addrs = 0x6414094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebRequest*>(), { "<GetResponseAsync>b__79_0", {}, {} })));

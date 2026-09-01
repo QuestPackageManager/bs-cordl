@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidSupport.hpp"
+// IWYU pragma private; include "UnityEngine\InputSystem\Android\AndroidSupport.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,16 +26,16 @@ namespace UnityEngine::InputSystem::Android {
 class CORDL_TYPE AndroidSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x65a4234, size 0x974, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x65abcb0, size 0x974, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::UnityEngine::InputSystem::Android::AndroidSupport* New_ctor();
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x65a4ba8, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method OnFindLayoutForDevice, addr 0x65ac624, size 0x258, virtual false, abstract: false, final false
   static inline ::StringW OnFindLayoutForDevice(::by_ref<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method .ctor, addr 0x65a4ec4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ac940, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   AndroidSupport(AndroidSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8939 };
 
   /// @brief Field kAndroidInterface offset 0xffffffff size 0x8
   static constexpr ::ConstString kAndroidInterface{ u"Android" };

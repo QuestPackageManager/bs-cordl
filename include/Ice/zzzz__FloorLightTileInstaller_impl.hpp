@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Ice/FloorLightTileInstaller.hpp"
+// IWYU pragma private; include "Ice\FloorLightTileInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "Ice/zzzz__FloorLightTileInstaller_def.hpp"
 #include "Ice/zzzz__FloorLightTile_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::FloorLightTileInstaller::*)()>(&::Ice::FloorLightTileInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3286458;
+  constexpr static std::size_t addrs = 0x328a1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::FloorLightTileInstaller::*)()>(&::Ice::FloorLightTileInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32864e0;
+  constexpr static std::size_t addrs = 0x328a270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Ice::FloorLightTileInstaller*>(), { ".ctor", {}, {} })));

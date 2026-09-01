@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ConnectionFailedException.hpp"
+// IWYU pragma private; include "GlobalNamespace\ConnectionFailedException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_reason(::GlobalNamespace::ConnectionFailedReason value);
 
-  /// @brief Method .ctor, addr 0x332a404, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332e1c4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method .ctor, addr 0x332a470, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332e230, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
 
 protected:
@@ -58,7 +58,7 @@ public:
   ConnectionFailedException(ConnectionFailedException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18135 };
 
   /// @brief Field reason, offset: 0x8c, size: 0x4, def value: None
   ::GlobalNamespace::ConnectionFailedReason ___reason;

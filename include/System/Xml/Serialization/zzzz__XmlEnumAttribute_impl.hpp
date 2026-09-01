@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/Serialization/XmlEnumAttribute.hpp"
+// IWYU pragma private; include "System\Xml\Serialization\XmlEnumAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlEnumAttribute_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlEnumAttribute::*)(::StringW)>(&::System::Xml::Serialization::XmlEnumAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62ee95c;
+  constexpr static std::size_t addrs = 0x62f63d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlEnumAttribute::*)()>(&::System::Xml::Serialization::XmlEnumAttribute::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62ee964;
+  constexpr static std::size_t addrs = 0x62f63e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlEnumAttribute*>(), { "get_Name", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlEnumAttribute::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::Serialization::XmlEnumAttribute::AddKeyHash)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x62ee96c;
+  constexpr static std::size_t addrs = 0x62f63e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

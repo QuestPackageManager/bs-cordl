@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AsyncComputeOperation.hpp"
+// IWYU pragma private; include "GlobalNamespace\AsyncComputeOperation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__timeoutMs(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3328de4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332cba4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t timeoutMs);
 
-  /// @brief Method get_elapsedTime, addr 0x3328d2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_elapsedTime, addr 0x332caec, size 0x88, virtual false, abstract: false, final false
   inline double_t get_elapsedTime();
 
-  /// @brief Method get_hasTimedOut, addr 0x3328db4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_hasTimedOut, addr 0x332cb74, size 0x30, virtual false, abstract: false, final false
   inline bool get_hasTimedOut();
 
 protected:
@@ -75,7 +75,7 @@ public:
   AsyncComputeOperation(AsyncComputeOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18113 };
 
   /// @brief Field _timeoutMs, offset: 0x10, size: 0x4, def value: None
   int32_t ____timeoutMs;

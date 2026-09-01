@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/IO/PinnedBufferMemoryStream.hpp"
+// IWYU pragma private; include "System\IO\PinnedBufferMemoryStream.hpp"
 #include "System/IO/zzzz__UnmanagedMemoryStream_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/IO/zzzz__PinnedBufferMemoryStream_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(::ArrayW<uint8_t>)>(&::System::IO::PinnedBufferMemoryStream::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5bf627c;
+  constexpr static std::size_t addrs = 0x5bfa738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::PinnedBufferMemoryStream::*)(::System::Span_1<uint8_t>)>(&::System::IO::PinnedBufferMemoryStream::Read)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bf6580;
+  constexpr static std::size_t addrs = 0x5bfaa3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(&::System::IO::PinnedBufferMemoryStream::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bf6784;
+  constexpr static std::size_t addrs = 0x5bfac40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)()>(&::System::IO::PinnedBufferMemoryStream::Finalize)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5bf6a64;
+  constexpr static std::size_t addrs = 0x5bfaf20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(bool)>(&::System::IO::PinnedBufferMemoryStream::Dispose)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5bf6ab8;
+  constexpr static std::size_t addrs = 0x5bfaf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

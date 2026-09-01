@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/InspectorSortDirection.hpp"
+// IWYU pragma private; include "UnityEngine\InspectorSortDirection.hpp"
 #include "UnityEngine/zzzz__InspectorSortDirection_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InspectorSortDirection::InspectorSortDirection(int32_t value__) noexcept {

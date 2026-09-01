@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MouseLook.hpp"
+// IWYU pragma private; include "GlobalNamespace\MouseLook.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,36 +60,36 @@ public:
   /// @brief Field _ySensitivity, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__ySensitivity, put = __cordl_internal_set__ySensitivity)) float_t _ySensitivity;
 
-  /// @brief Method ClampRotationAroundXAxis, addr 0x58e345c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClampRotationAroundXAxis, addr 0x58e6a8c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
 
-  /// @brief Method GetCurrentXRotation, addr 0x58e37e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentXRotation, addr 0x58e6e18, size 0x34, virtual false, abstract: false, final false
   inline float_t GetCurrentXRotation();
 
-  /// @brief Method GetCurrentYRotation, addr 0x58e381c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentYRotation, addr 0x58e6e4c, size 0x3c, virtual false, abstract: false, final false
   inline float_t GetCurrentYRotation();
 
-  /// @brief Method Init, addr 0x58e30fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58e6734, size 0x70, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* character);
 
-  /// @brief Method InternalLockUpdate, addr 0x58e36c0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method InternalLockUpdate, addr 0x58e6cf0, size 0x128, virtual false, abstract: false, final false
   inline void InternalLockUpdate();
 
-  /// @brief Method LookRotation, addr 0x58e3180, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method LookRotation, addr 0x58e67b8, size 0x2d4, virtual false, abstract: false, final false
   inline void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
   static inline ::GlobalNamespace::MouseLook* New_ctor();
 
-  /// @brief Method SetCursorLock, addr 0x58e365c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetCursorLock, addr 0x58e6c8c, size 0x64, virtual false, abstract: false, final false
   inline void SetCursorLock(bool value);
 
-  /// @brief Method SetRotations, addr 0x58e316c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetRotations, addr 0x58e67a4, size 0x14, virtual false, abstract: false, final false
   inline void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
 
-  /// @brief Method UpdateCursorLock, addr 0x58e364c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateCursorLock, addr 0x58e6c7c, size 0x10, virtual false, abstract: false, final false
   inline void UpdateCursorLock();
 
-  /// @brief Method UpdateRotation, addr 0x58e34c0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRotation, addr 0x58e6af0, size 0x18c, virtual false, abstract: false, final false
   inline void UpdateRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__cameraTargetRot() const;
@@ -158,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set__ySensitivity(float_t value);
 
-  /// @brief Method .ctor, addr 0x58e3858, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e6e88, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,7 +176,7 @@ public:
   MouseLook(MouseLook const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6559 };
 
   /// @brief Field _xSensitivity, offset: 0x10, size: 0x4, def value: None
   float_t ____xSensitivity;

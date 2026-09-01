@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/AlwaysVisibleQuad.hpp"
+// IWYU pragma private; include "GlobalNamespace\AlwaysVisibleQuad.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AlwaysVisibleQuad_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlwaysVisibleQuad::*)()>(&::GlobalNamespace::AlwaysVisibleQuad::OnEnable)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x5f3c91c;
+  constexpr static std::size_t addrs = 0x5f40d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlwaysVisibleQuad*>(), { "OnEnable", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlwaysVisibleQuad::*)()>(&::GlobalNamespace::AlwaysVisibleQuad::OnDisable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f3cb40;
+  constexpr static std::size_t addrs = 0x5f40fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlwaysVisibleQuad*>(), { "OnDisable", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlwaysVisibleQuad::*)()>(&::GlobalNamespace::AlwaysVisibleQuad::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3cb4c;
+  constexpr static std::size_t addrs = 0x5f40fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlwaysVisibleQuad*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "HMUI/IGlobalLightTintIntensity.hpp"
+// IWYU pragma private; include "HMUI\IGlobalLightTintIntensity.hpp"
 #include "HMUI/zzzz__IGlobalLightTintIntensity_def.hpp"
 //  Writing Method size for method: ::HMUI::IGlobalLightTintIntensity.get_globalLightTintIntensity
 template <>

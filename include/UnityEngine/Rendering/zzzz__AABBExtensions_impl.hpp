@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/AABBExtensions.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\AABBExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__AABBExtensions_def.hpp"
 #include "UnityEngine/Rendering/zzzz__AABB_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::AABB (*)(::UnityEngine::Bounds)>(&::UnityEngine::Rendering::AABBExtensions::ToAABB)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6802824;
+  constexpr static std::size_t addrs = 0x680a2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (*)(::UnityEngine::Rendering::AABB)>(&::UnityEngine::Rendering::AABBExtensions::ToBounds)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6802838;
+  constexpr static std::size_t addrs = 0x680a2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

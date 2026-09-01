@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/ListViewReorderableDragAndDropController.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\ListViewReorderableDragAndDropController.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseReorderableDragAndDropController_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewReorderableDragAndDropController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseListView_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewReorderableDragAndDropController::*)(::UnityEngine::UIElements::BaseListView*)>(
     &::UnityEngine::UIElements::ListViewReorderableDragAndDropController::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d89f00;
+  constexpr static std::size_t addrs = 0x6d91a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::ListViewReorderableDragAndDropController::*)(
     ::UnityEngine::UIElements::IListDragAndDropArgs*)>(&::UnityEngine::UIElements::ListViewReorderableDragAndDropController::HandleDragAndDrop)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6d89f28;
+  constexpr static std::size_t addrs = 0x6d91aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewReorderableDragAndDropController::*)(::UnityEngine::UIElements::IListDragAndDropArgs*)>(
     &::UnityEngine::UIElements::ListViewReorderableDragAndDropController::OnDrop)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x6d8a064;
+  constexpr static std::size_t addrs = 0x6d91be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewReorderableDragAndDropController*>(),

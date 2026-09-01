@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Animations/AnimationMixerPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Animations\AnimationMixerPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,25 +45,25 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x6a407a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6a4821c, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method CreateHandle, addr 0x6a4083c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x6a482b8, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method CreateHandleInternal, addr 0x6a40a60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x6a484dc, size 0x90, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x6a40c08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x6a48684, size 0x44, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(::by_ref<::UnityEngine::Playables::PlayableGraph> graph, ::by_ref<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x6a40b64, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a485e0, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationMixerPlayable other);
 
-  /// @brief Method GetHandle, addr 0x6a40af0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6a4856c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x6a4094c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a483c8, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationMixerPlayable getStaticF_m_NullPlayable();
@@ -74,7 +74,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x6a40afc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6a48578, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationMixerPlayable playable);
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationMixerPlayable value);
@@ -87,7 +87,7 @@ public:
   constexpr AnimationMixerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20248 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

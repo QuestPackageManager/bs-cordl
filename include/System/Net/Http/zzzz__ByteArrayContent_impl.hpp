@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Net/Http/ByteArrayContent.hpp"
+// IWYU pragma private; include "System\Net\Http\ByteArrayContent.hpp"
 #include "System/Net/Http/zzzz__HttpContent_impl.hpp"
 #include "System/Net/Http/zzzz__ByteArrayContent_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::ByteArrayContent::*)(::ArrayW<uint8_t>)>(&::System::Net::Http::ByteArrayContent::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60d31f0;
+  constexpr static std::size_t addrs = 0x60dac6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (::System::Net::Http::ByteArrayContent::*)()>(
     &::System::Net::Http::ByteArrayContent::CreateContentReadStreamAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x60d3254;
+  constexpr static std::size_t addrs = 0x60dacd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Http::ByteArrayContent::*)(::System::IO::Stream*, ::System::Net::TransportContext*)>(
     &::System::Net::Http::ByteArrayContent::SerializeToStreamAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60d3314;
+  constexpr static std::size_t addrs = 0x60dad90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::ByteArrayContent::*)(::by_ref<int64_t>)>(&::System::Net::Http::ByteArrayContent::TryComputeLength)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60d3338;
+  constexpr static std::size_t addrs = 0x60dadb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

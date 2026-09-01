@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Profiling/Memory/MemoryProfiler.hpp"
+// IWYU pragma private; include "Unity\Profiling\Memory\MemoryProfiler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/Memory/zzzz__MemoryProfiler_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*)>(
     &::Unity::Profiling::Memory::MemoryProfiler::add_CreatingMetadata)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6a56cfc;
+  constexpr static std::size_t addrs = 0x6a5e778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>*)>(
     &::Unity::Profiling::Memory::MemoryProfiler::remove_CreatingMetadata)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6a56de0;
+  constexpr static std::size_t addrs = 0x6a5e85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::Unity::Profiling::Memory::MemoryProfiler::PrepareMetadata)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6a56ec4;
+  constexpr static std::size_t addrs = 0x6a5e940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::Memory::MemoryProfiler*>(), { "PrepareMetadata", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::Unity::Profiling::Memory::MemoryProfiler::WriteIntToByteArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6a570bc;
+  constexpr static std::size_t addrs = 0x6a5eb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, ::StringW)>(&::Unity::Profiling::Memory::MemoryProfiler::WriteStringToByteArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6a57144;
+  constexpr static std::size_t addrs = 0x6a5ebc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, bool)>(&::Unity::Profiling::Memory::MemoryProfiler::FinalizeSnapshot)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6a57210;
+  constexpr static std::size_t addrs = 0x6a5ec8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, bool, ::System::IntPtr, int32_t, ::UnityEngine::TextureFormat, int32_t, int32_t)>(
     &::Unity::Profiling::Memory::MemoryProfiler::SaveScreenshotToDisk)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6a57298;
+  constexpr static std::size_t addrs = 0x6a5ed14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

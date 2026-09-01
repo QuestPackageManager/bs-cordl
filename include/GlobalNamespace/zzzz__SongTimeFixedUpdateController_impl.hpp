@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SongTimeFixedUpdateController.hpp"
+// IWYU pragma private; include "GlobalNamespace\SongTimeFixedUpdateController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongTimeFixedUpdateController_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::SongTimeFixedUpdateController::add_songControllerFixedTimeDidUpdateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58bc0a0;
+  constexpr static std::size_t addrs = 0x58bba08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongTimeFixedUpdateController*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::SongTimeFixedUpdateController::remove_songControllerFixedTimeDidUpdateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58bc160;
+  constexpr static std::size_t addrs = 0x58bbac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)(::System::Action*)>(
     &::GlobalNamespace::SongTimeFixedUpdateController::add_songControllerTimeDidUpdateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58bc220;
+  constexpr static std::size_t addrs = 0x58bbb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongTimeFixedUpdateController*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)(::System::Action*)>(
     &::GlobalNamespace::SongTimeFixedUpdateController::remove_songControllerTimeDidUpdateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58bc2cc;
+  constexpr static std::size_t addrs = 0x58bbc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongTimeFixedUpdateController*>(),
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SongTimeFixedUpdateController::*)()>(&::GlobalNamespace::SongTimeFixedUpdateController::get_fixedDeltaTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58bc378;
+  constexpr static std::size_t addrs = 0x58bbce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongTimeFixedUpdateController*>(), { "get_fixedDeltaTime", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SongTimeFixedUpdateController::*)()>(&::GlobalNamespace::SongTimeFixedUpdateController::get_interpolationFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bc384;
+  constexpr static std::size_t addrs = 0x58bbcec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)()>(&::GlobalNamespace::SongTimeFixedUpdateController::Update)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x58bc38c;
+  constexpr static std::size_t addrs = 0x58bbcf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongTimeFixedUpdateController*>(), { "Update", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)()>(&::GlobalNamespace::SongTimeFixedUpdateController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bc4c0;
+  constexpr static std::size_t addrs = 0x58bbe28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongTimeFixedUpdateController*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "ModestTree/LinqExtensions.hpp"
+// IWYU pragma private; include "ModestTree\LinqExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -130,7 +130,7 @@ public:
   LinqExtensions___c__8_1(LinqExtensions___c__8_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13963 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -177,7 +177,7 @@ public:
   LinqExtensions___c__DisplayClass10_0_1(LinqExtensions___c__DisplayClass10_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13964 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   T ___value;
@@ -315,7 +315,7 @@ public:
   LinqExtensions__Yield_d__0_1(LinqExtensions__Yield_d__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13965 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -397,7 +397,7 @@ public:
   LinqExtensions(LinqExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13966 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

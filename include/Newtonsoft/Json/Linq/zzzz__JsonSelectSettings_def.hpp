@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonSelectSettings.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Linq\JsonSelectSettings.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,19 +52,19 @@ public:
 
   constexpr void __cordl_internal_set__RegexMatchTimeout_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method .ctor, addr 0x5d76b68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7b024, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ErrorWhenNoMatch, addr 0x5d76b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorWhenNoMatch, addr 0x5d7b014, size 0x8, virtual false, abstract: false, final false
   inline bool get_ErrorWhenNoMatch();
 
-  /// @brief Method get_RegexMatchTimeout, addr 0x5d76b44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_RegexMatchTimeout, addr 0x5d7b000, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_RegexMatchTimeout();
 
-  /// @brief Method set_ErrorWhenNoMatch, addr 0x5d76b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorWhenNoMatch, addr 0x5d7b01c, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorWhenNoMatch(bool value);
 
-  /// @brief Method set_RegexMatchTimeout, addr 0x5d76b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RegexMatchTimeout, addr 0x5d7b00c, size 0x8, virtual false, abstract: false, final false
   inline void set_RegexMatchTimeout(::System::Nullable_1<::System::TimeSpan> value);
 
 protected:
@@ -82,7 +82,7 @@ public:
   JsonSelectSettings(JsonSelectSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13605 };
 
   /// @brief Field <RegexMatchTimeout>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Nullable_1<::System::TimeSpan> ____RegexMatchTimeout_k__BackingField;

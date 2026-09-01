@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatSaber/RecPlay/PoseFrame.hpp"
+// IWYU pragma private; include "BeatSaber\RecPlay\PoseFrame.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseFrame_def.hpp"
 // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pose", ty: "::UnityEngine::Pose", modifiers: "", def_value: Some("{}") }]

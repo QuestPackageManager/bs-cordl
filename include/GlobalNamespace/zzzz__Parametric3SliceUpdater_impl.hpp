@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/Parametric3SliceUpdater.hpp"
+// IWYU pragma private; include "GlobalNamespace\Parametric3SliceUpdater.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Parametric3SliceUpdater_def.hpp"
 #include "GlobalNamespace/zzzz__Parametric3SliceSpriteController_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceUpdater::*)()>(&::GlobalNamespace::Parametric3SliceUpdater::Update)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5867a30;
+  constexpr static std::size_t addrs = 0x58669d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceUpdater*>(), { "Update", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Parametric3SliceUpdater::*)()>(&::GlobalNamespace::Parametric3SliceUpdater::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5867a44;
+  constexpr static std::size_t addrs = 0x58669e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Parametric3SliceUpdater*>(), { ".ctor", {}, {} })));

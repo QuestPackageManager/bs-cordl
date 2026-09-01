@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/LightmappingSongController.hpp"
+// IWYU pragma private; include "GlobalNamespace\LightmappingSongController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,16 +21,16 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightmappingSongController* New_ctor();
 
-  /// @brief Method PauseSong, addr 0x59ef04c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PauseSong, addr 0x59f7120, size 0x4, virtual true, abstract: false, final false
   inline void PauseSong();
 
-  /// @brief Method ResumeSong, addr 0x59ef050, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResumeSong, addr 0x59f7124, size 0x4, virtual true, abstract: false, final false
   inline void ResumeSong();
 
-  /// @brief Method StopSong, addr 0x59ef048, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method StopSong, addr 0x59f711c, size 0x4, virtual true, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method .ctor, addr 0x59ef054, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f7128, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   LightmappingSongController(LightmappingSongController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6276 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

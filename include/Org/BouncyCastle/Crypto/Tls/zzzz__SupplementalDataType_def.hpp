@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/SupplementalDataType.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Tls\SupplementalDataType.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::SupplementalDataType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x346e7c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3472580, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

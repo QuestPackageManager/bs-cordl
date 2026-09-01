@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerBuffer.hpp"
+// IWYU pragma private; include "UnityEngine\Networking\DownloadHandlerBuffer.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,16 +30,16 @@ public:
   /// @brief Field m_NativeData, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_m_NativeData, put = __cordl_internal_set_m_NativeData)) ::Unity::Collections::NativeArray_1<uint8_t> m_NativeData;
 
-  /// @brief Method Create, addr 0x6e21458, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6e28fdc, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerBuffer* obj);
 
-  /// @brief Method Dispose, addr 0x6e21524, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6e290a8, size 0x60, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetNativeData, addr 0x6e2151c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNativeData, addr 0x6e290a0, size 0x8, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method InternalCreateBuffer, addr 0x6e21494, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateBuffer, addr 0x6e29018, size 0x44, virtual false, abstract: false, final false
   inline void InternalCreateBuffer();
 
   static inline ::UnityEngine::Networking::DownloadHandlerBuffer* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x6e214d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e2905c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   DownloadHandlerBuffer(DownloadHandlerBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22297 };
 
   /// @brief Field m_NativeData, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ___m_NativeData;

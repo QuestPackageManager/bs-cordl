@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/Submesh.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\Submesh.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,21 +53,21 @@ public:
 
   __declspec(property(get = get_topology, put = set_topology)) ::UnityEngine::MeshTopology topology;
 
-  /// @brief Method GetSubmeshCount, addr 0x66efb74, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetSubmeshCount, addr 0x66f75f0, size 0x64, virtual false, abstract: false, final false
   static inline int32_t GetSubmeshCount(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method GetSubmeshes, addr 0x66efbd8, size 0x914, virtual false, abstract: false, final false
+  /// @brief Method GetSubmeshes, addr 0x66f7654, size 0x914, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Submesh*> GetSubmeshes(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, int32_t submeshCount,
                                                                            ::UnityEngine::MeshTopology preferredTopology);
 
-  /// @brief Method MapFaceMaterialsToSubmeshIndex, addr 0x66f04ec, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method MapFaceMaterialsToSubmeshIndex, addr 0x66f7f68, size 0x130, virtual false, abstract: false, final false
   static inline void MapFaceMaterialsToSubmeshIndex(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   static inline ::UnityEngine::ProBuilder::Submesh* New_ctor(::UnityEngine::Mesh* mesh, int32_t subMeshIndex);
 
   static inline ::UnityEngine::ProBuilder::Submesh* New_ctor(int32_t submeshIndex, ::UnityEngine::MeshTopology topology, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
-  /// @brief Method ToString, addr 0x66efa58, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x66f74d4, size 0x11c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<int32_t> const& __cordl_internal_get_m_Indexes() const;
@@ -88,28 +88,28 @@ public:
 
   constexpr void __cordl_internal_set_m_Topology(::UnityEngine::MeshTopology value);
 
-  /// @brief Method .ctor, addr 0x66ef968, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f73e4, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t subMeshIndex);
 
-  /// @brief Method .ctor, addr 0x66ef8a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f7324, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(int32_t submeshIndex, ::UnityEngine::MeshTopology topology, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
-  /// @brief Method get_indexes, addr 0x66ef7b0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_indexes, addr 0x66f722c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_indexes();
 
-  /// @brief Method get_submeshIndex, addr 0x66ef898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_submeshIndex, addr 0x66f7314, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_submeshIndex();
 
-  /// @brief Method get_topology, addr 0x66ef888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_topology, addr 0x66f7304, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::MeshTopology get_topology();
 
-  /// @brief Method set_indexes, addr 0x66ef828, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_indexes, addr 0x66f72a4, size 0x60, virtual false, abstract: false, final false
   inline void set_indexes(::System::Collections::Generic::IEnumerable_1<int32_t>* value);
 
-  /// @brief Method set_submeshIndex, addr 0x66ef8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_submeshIndex, addr 0x66f731c, size 0x8, virtual false, abstract: false, final false
   inline void set_submeshIndex(int32_t value);
 
-  /// @brief Method set_topology, addr 0x66ef890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_topology, addr 0x66f730c, size 0x8, virtual false, abstract: false, final false
   inline void set_topology(::UnityEngine::MeshTopology value);
 
 protected:
@@ -127,7 +127,7 @@ public:
   Submesh(Submesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16817 };
 
   /// @brief Field m_Indexes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ___m_Indexes;

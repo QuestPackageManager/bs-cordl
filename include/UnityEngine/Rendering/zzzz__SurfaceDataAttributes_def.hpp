@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SurfaceDataAttributes.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SurfaceDataAttributes.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,10 +85,10 @@ public:
 
   constexpr void __cordl_internal_set_sRGBDisplay(bool value);
 
-  /// @brief Method .ctor, addr 0x679b7f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a3274, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, bool isDirection, bool sRGBDisplay, ::UnityEngine::Rendering::FieldPrecision precision, bool checkIsNormalized, ::StringW preprocessor);
 
-  /// @brief Method .ctor, addr 0x679b8b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a3330, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> displayNames, bool isDirection, bool sRGBDisplay, ::UnityEngine::Rendering::FieldPrecision precision, bool checkIsNormalized, ::StringW preprocessor);
 
 protected:
@@ -106,7 +106,7 @@ public:
   SurfaceDataAttributes(SurfaceDataAttributes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12202 };
 
   /// @brief Field displayNames, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW> ___displayNames;

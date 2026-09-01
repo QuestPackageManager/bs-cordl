@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncStateMachineAttribute.hpp"
+// IWYU pragma private; include "System\Runtime\CompilerServices\AsyncStateMachineAttribute.hpp"
 #include "System/Runtime/CompilerServices/zzzz__StateMachineAttribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncStateMachineAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::AsyncStateMachineAttribute::*)(::System::Type*)>(
     &::System::Runtime::CompilerServices::AsyncStateMachineAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6b3f8;
+  constexpr static std::size_t addrs = 0x5b6f8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/PlayerConnectedPacket.hpp"
+// IWYU pragma private; include "GlobalNamespace\PlayerConnectedPacket.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerConnectedPacket_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::PlayerConnectedPacket*>* (*)()>(&::GlobalNamespace::PlayerConnectedPacket::get_pool)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3329a88;
+  constexpr static std::size_t addrs = 0x332d848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerConnectedPacket*>(), { "get_pool", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerConnectedPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::PlayerConnectedPacket::Serialize)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3329acc;
+  constexpr static std::size_t addrs = 0x332d88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerConnectedPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::PlayerConnectedPacket::Deserialize)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3329b3c;
+  constexpr static std::size_t addrs = 0x332d8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerConnectedPacket::*)()>(&::GlobalNamespace::PlayerConnectedPacket::Release)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3329bb4;
+  constexpr static std::size_t addrs = 0x332d974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerConnectedPacket*>(), { "Release", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerConnectedPacket* (::GlobalNamespace::PlayerConnectedPacket::*)(uint8_t, ::StringW, ::StringW, bool, ::StringW)>(
     &::GlobalNamespace::PlayerConnectedPacket::Init)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3329c0c;
+  constexpr static std::size_t addrs = 0x332d9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerConnectedPacket::*)()>(&::GlobalNamespace::PlayerConnectedPacket::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3329c20;
+  constexpr static std::size_t addrs = 0x332d9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerConnectedPacket*>(), { ".ctor", {}, {} })));

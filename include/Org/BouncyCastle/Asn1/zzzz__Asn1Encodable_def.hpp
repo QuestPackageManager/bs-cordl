@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Asn1Encodable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,19 +34,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method Equals, addr 0x33424a4, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3346264, size 0x118, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetDerEncoded, addr 0x33423a8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetDerEncoded, addr 0x3346168, size 0xc8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetDerEncoded();
 
-  /// @brief Method GetEncoded, addr 0x33421e8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x3345fa8, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0x33422a0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x3346060, size 0x108, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetEncoded(::StringW encoding);
 
-  /// @brief Method GetHashCode, addr 0x3342470, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x3346230, size 0x28, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* New_ctor();
@@ -54,7 +54,7 @@ public:
   /// @brief Method ToAsn1Object, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0x33425c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3346388, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"

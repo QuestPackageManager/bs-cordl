@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/EventSystems/BaseEventData.hpp"
+// IWYU pragma private; include "UnityEngine\EventSystems\BaseEventData.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set_m_EventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
-  /// @brief Method .ctor, addr 0x6e1028c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e17e10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_currentInputModule, addr 0x6e102b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_currentInputModule, addr 0x6e17e38, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInputModule> get_currentInputModule();
 
-  /// @brief Method get_selectedObject, addr 0x6e102cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectedObject, addr 0x6e17e50, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_selectedObject();
 
-  /// @brief Method set_selectedObject, addr 0x6e102e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_selectedObject, addr 0x6e17e68, size 0x18, virtual false, abstract: false, final false
   inline void set_selectedObject(::UnityEngine::GameObject* value);
 
 protected:
@@ -70,7 +70,7 @@ public:
   BaseEventData(BaseEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17534 };
 
   /// @brief Field m_EventSystem, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::EventSystem> ___m_EventSystem;

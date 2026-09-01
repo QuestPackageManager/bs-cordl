@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Timeline/ActivationMixerPlayable.hpp"
+// IWYU pragma private; include "UnityEngine\Timeline\ActivationMixerPlayable.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,15 +53,15 @@ public:
 
   __declspec(property(get = get_postPlaybackState, put = set_postPlaybackState)) ::UnityEngine::Timeline::ActivationTrack_PostPlaybackState postPlaybackState;
 
-  /// @brief Method Create, addr 0x69a46ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x69ac128, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationMixerPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
   static inline ::UnityEngine::Timeline::ActivationMixerPlayable* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x69a4748, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x69ac1c4, size 0xc4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x69a480c, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x69ac288, size 0x1f8, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_BoundGameObject() const;
@@ -82,13 +82,13 @@ public:
 
   constexpr void __cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::ActivationTrack_PostPlaybackState value);
 
-  /// @brief Method .ctor, addr 0x69a4a04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ac480, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_postPlaybackState, addr 0x69a4738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_postPlaybackState, addr 0x69ac1b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::ActivationTrack_PostPlaybackState get_postPlaybackState();
 
-  /// @brief Method set_postPlaybackState, addr 0x69a4740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_postPlaybackState, addr 0x69ac1bc, size 0x8, virtual false, abstract: false, final false
   inline void set_postPlaybackState(::UnityEngine::Timeline::ActivationTrack_PostPlaybackState value);
 
 protected:
@@ -106,7 +106,7 @@ public:
   ActivationMixerPlayable(ActivationMixerPlayable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19148 };
 
   /// @brief Field m_PostPlaybackState, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Timeline::ActivationTrack_PostPlaybackState ___m_PostPlaybackState;

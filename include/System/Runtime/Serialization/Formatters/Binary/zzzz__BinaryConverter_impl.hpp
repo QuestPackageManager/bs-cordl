@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryConverter.hpp"
+// IWYU pragma private; include "System\Runtime\Serialization\Formatters\Binary\BinaryConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryConverter_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryAssemblyInfo_def.hpp"
@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serial
     ::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, ::StringW, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter*,
     ::by_ref<::System::Object*>, ::by_ref<int32_t>)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryConverter::GetBinaryTypeInfo)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x5b52068;
+  constexpr static std::size_t addrs = 0x5b56524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum (*)(::System::Type*, ::by_ref<::System::Object*>)>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryConverter::GetParserBinaryTypeInfo)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5b52604;
+  constexpr static std::size_t addrs = 0x5b56ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::System::Object*, int32_t, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(
         &::System::Runtime::Serialization::Formatters::Binary::BinaryConverter::WriteTypeInfo)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5b52900;
+  constexpr static std::size_t addrs = 0x5b56dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (*)(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, ::by_ref<int32_t>)>(
         &::System::Runtime::Serialization::Formatters::Binary::BinaryConverter::ReadTypeInfo)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5b52b90;
+  constexpr static std::size_t addrs = 0x5b5704c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, ::by_ref<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>,
                          ::by_ref<::StringW>, ::by_ref<::System::Type*>, ::by_ref<bool>)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryConverter::TypeFromInfo)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x5b52d84;
+  constexpr static std::size_t addrs = 0x5b57240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

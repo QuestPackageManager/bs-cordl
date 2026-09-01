@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Runtime/Diagnostics/DiagnosticTraceSource.hpp"
+// IWYU pragma private; include "System\Runtime\Diagnostics\DiagnosticTraceSource.hpp"
 #include "System/Diagnostics/zzzz__TraceSource_impl.hpp"
 #include "System/Runtime/Diagnostics/zzzz__DiagnosticTraceSource_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Diagnostics::DiagnosticTraceSource._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceSource::*)(::StringW)>(&::System::Runtime::Diagnostics::DiagnosticTraceSource::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61852a0;
+  constexpr static std::size_t addrs = 0x618cd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

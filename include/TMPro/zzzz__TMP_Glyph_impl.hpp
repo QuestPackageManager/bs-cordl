@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_Glyph.hpp"
+// IWYU pragma private; include "TMPro\TMP_Glyph.hpp"
 #include "TMPro/zzzz__TMP_TextElement_Legacy_impl.hpp"
 #include "TMPro/zzzz__TMP_Glyph_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_Glyph.Clone
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_Glyph* (*)(::TMPro::TMP_Glyph*)>(&::TMPro::TMP_Glyph::Clone)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6954fb8;
+  constexpr static std::size_t addrs = 0x695ca34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Glyph*>(), { "Clone", {}, { ::i2c::type_of<::TMPro::TMP_Glyph*>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_Glyph::*)()>(&::TMPro::TMP_Glyph::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6955028;
+  constexpr static std::size_t addrs = 0x695caa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_Glyph*>(), { ".ctor", {}, {} })));

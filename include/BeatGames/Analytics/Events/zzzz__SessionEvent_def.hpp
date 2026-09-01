@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatGames/Analytics/Events/SessionEvent.hpp"
+// IWYU pragma private; include "BeatGames\Analytics\Events\SessionEvent.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,15 +26,15 @@ public:
   /// @brief Field event_type, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_event_type, put = __cordl_internal_set_event_type)) ::StringW event_type;
 
-  /// @brief Method GetIDType, addr 0x3255578, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIDType, addr 0x3258878, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IDType GetIDType();
 
   static inline ::BeatGames::Analytics::Events::SessionEvent* New_ctor();
 
-  /// @brief Method ReturnEventToPool, addr 0x3255580, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReturnEventToPool, addr 0x3258880, size 0x74, virtual true, abstract: false, final false
   inline void ReturnEventToPool();
 
-  /// @brief Method ReturnedToPool, addr 0x32555f4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ReturnedToPool, addr 0x32588f4, size 0x5c, virtual true, abstract: false, final false
   inline void ReturnedToPool();
 
   constexpr ::StringW const& __cordl_internal_get_event_type() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_event_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3255514, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3258814, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   SessionEvent(SessionEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23330 };
 
   /// @brief Field event_type, offset: 0x78, size: 0x8, def value: None
   ::StringW ___event_type;

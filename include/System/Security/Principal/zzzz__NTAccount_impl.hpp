@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Security/Principal/NTAccount.hpp"
+// IWYU pragma private; include "System\Security\Principal\NTAccount.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_impl.hpp"
 #include "System/Security/Principal/zzzz__NTAccount_def.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::NTAccount::*)(::StringW)>(&::System::Security::Principal::NTAccount::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5b0f388;
+  constexpr static std::size_t addrs = 0x5b13844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::NTAccount::*)()>(&::System::Security::Principal::NTAccount::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b0f450;
+  constexpr static std::size_t addrs = 0x5b1390c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Principal::NTAccount::*)(::System::Object*)>(&::System::Security::Principal::NTAccount::Equals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5b0f458;
+  constexpr static std::size_t addrs = 0x5b13914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Principal::NTAccount::*)()>(&::System::Security::Principal::NTAccount::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5b0f55c;
+  constexpr static std::size_t addrs = 0x5b13a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::NTAccount::*)()>(&::System::Security::Principal::NTAccount::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b0f584;
+  constexpr static std::size_t addrs = 0x5b13a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Principal::IdentityReference* (::System::Security::Principal::NTAccount::*)(::System::Type*)>(
     &::System::Security::Principal::NTAccount::Translate)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5b0f590;
+  constexpr static std::size_t addrs = 0x5b13a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Principal::NTAccount*, ::System::Security::Principal::NTAccount*)>(
     &::System::Security::Principal::NTAccount::op_Equality)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b0f4f8;
+  constexpr static std::size_t addrs = 0x5b139b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

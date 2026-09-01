@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/CollectionChangeEventArgs.hpp"
+// IWYU pragma private; include "System\ComponentModel\CollectionChangeEventArgs.hpp"
 #include "System/ComponentModel/zzzz__CollectionChangeAction_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/ComponentModel/zzzz__CollectionChangeEventArgs_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::CollectionChangeEventArgs::*)(::System::ComponentModel::CollectionChangeAction, ::System::Object*)>(
     &::System::ComponentModel::CollectionChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x63af90c;
+  constexpr static std::size_t addrs = 0x63b7388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::CollectionChangeAction (::System::ComponentModel::CollectionChangeEventArgs::*)()>(
     &::System::ComponentModel::CollectionChangeEventArgs::get_Action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63af978;
+  constexpr static std::size_t addrs = 0x63b73f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::CollectionChangeEventArgs*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::CollectionChangeEventArgs::*)()>(
     &::System::ComponentModel::CollectionChangeEventArgs::get_Element)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63af980;
+  constexpr static std::size_t addrs = 0x63b73fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::CollectionChangeEventArgs*>(),

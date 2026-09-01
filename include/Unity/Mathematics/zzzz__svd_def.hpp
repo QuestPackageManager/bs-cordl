@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Mathematics/svd.hpp"
+// IWYU pragma private; include "Unity\Mathematics\svd.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,40 +36,40 @@ namespace Unity::Mathematics {
 class CORDL_TYPE svd : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method approxGivensQuat, addr 0x667e644, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method approxGivensQuat, addr 0x66860c0, size 0x10c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion approxGivensQuat(::Unity::Mathematics::float3 pq, ::Unity::Mathematics::float4 mask);
 
-  /// @brief Method condNegSwap, addr 0x667e128, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method condNegSwap, addr 0x6685ba4, size 0x54, virtual false, abstract: false, final false
   static inline void condNegSwap(bool c, ::by_ref<::Unity::Mathematics::float3> x, ::by_ref<::Unity::Mathematics::float3> y);
 
-  /// @brief Method condNegSwapQuat, addr 0x667e17c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method condNegSwapQuat, addr 0x6685bf8, size 0x130, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion condNegSwapQuat(bool c, ::Unity::Mathematics::quaternion q, ::Unity::Mathematics::float4 mask);
 
-  /// @brief Method condSwap, addr 0x667e104, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method condSwap, addr 0x6685b80, size 0x24, virtual false, abstract: false, final false
   static inline void condSwap(bool c, ::by_ref<float_t> x, ::by_ref<float_t> y);
 
-  /// @brief Method givensQRFactorization, addr 0x667e888, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method givensQRFactorization, addr 0x6686304, size 0x4f8, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion givensQRFactorization(::Unity::Mathematics::float3x3 b, ::by_ref<::Unity::Mathematics::float3x3> r);
 
-  /// @brief Method jacobiIteration, addr 0x667ed80, size 0x91c, virtual false, abstract: false, final false
+  /// @brief Method jacobiIteration, addr 0x66867fc, size 0x91c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion jacobiIteration(::by_ref<::Unity::Mathematics::float3x3> s, int32_t iterations);
 
-  /// @brief Method qrGivensQuat, addr 0x667e750, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method qrGivensQuat, addr 0x66861cc, size 0x138, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion qrGivensQuat(::Unity::Mathematics::float2 pq, ::Unity::Mathematics::float4 mask);
 
-  /// @brief Method rcpsafe, addr 0x667f954, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method rcpsafe, addr 0x66873d0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 rcpsafe(::Unity::Mathematics::float3 x, float_t epsilon);
 
-  /// @brief Method singularValuesDecomposition, addr 0x667f69c, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method singularValuesDecomposition, addr 0x6687118, size 0x2b8, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 singularValuesDecomposition(::Unity::Mathematics::float3x3 a, ::by_ref<::Unity::Mathematics::quaternion> u, ::by_ref<::Unity::Mathematics::quaternion> v);
 
-  /// @brief Method sortSingularValues, addr 0x667e2ac, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method sortSingularValues, addr 0x6685d28, size 0x398, virtual false, abstract: false, final false
   static inline void sortSingularValues(::by_ref<::Unity::Mathematics::float3x3> b, ::by_ref<::Unity::Mathematics::quaternion> v);
 
-  /// @brief Method svdInverse, addr 0x667f9f8, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method svdInverse, addr 0x6687474, size 0x280, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3x3 svdInverse(::Unity::Mathematics::float3x3 a);
 
-  /// @brief Method svdRotation, addr 0x667fc78, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method svdRotation, addr 0x66876f4, size 0xc0, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion svdRotation(::Unity::Mathematics::float3x3 a);
 
 protected:
@@ -87,7 +87,7 @@ public:
   svd(svd const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13201 };
 
   /// @brief Field k_EpsilonDeterminant offset 0xffffffff size 0x4
   static constexpr float_t k_EpsilonDeterminant{ static_cast<float_t>(1e-6f) };

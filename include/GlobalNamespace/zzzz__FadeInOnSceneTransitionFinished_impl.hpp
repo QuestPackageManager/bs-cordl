@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/FadeInOnSceneTransitionFinished.hpp"
+// IWYU pragma private; include "GlobalNamespace\FadeInOnSceneTransitionFinished.hpp"
 #include "GlobalNamespace/zzzz__ZenjectSafeBehaviour_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeInOnSceneTransitionFinished_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)(int32_t)>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3ddb4;
+  constexpr static std::size_t addrs = 0x5f42220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3ddc4;
+  constexpr static std::size_t addrs = 0x5f42230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::MoveNext)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5f3ddc8;
+  constexpr static std::size_t addrs = 0x5f42234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3de8c;
+  constexpr static std::size_t addrs = 0x5f422f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f3de94;
+  constexpr static std::size_t addrs = 0x5f42300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished__FadeCoroutine_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3decc;
+  constexpr static std::size_t addrs = 0x5f42338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(&::GlobalNamespace::FadeInOnSceneTransitionFinished::OnEnablePostInjection)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f3dd38;
+  constexpr static std::size_t addrs = 0x5f421a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(&::GlobalNamespace::FadeInOnSceneTransitionFinished::OnDisable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3ddac;
+  constexpr static std::size_t addrs = 0x5f42218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOnSceneTransitionFinished*>(), { "OnDisable", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(
     &::GlobalNamespace::FadeInOnSceneTransitionFinished::FadeCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5f3dd58;
+  constexpr static std::size_t addrs = 0x5f421c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOnSceneTransitionFinished*>(), { "FadeCoroutine", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(&::GlobalNamespace::FadeInOnSceneTransitionFinished::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3ddbc;
+  constexpr static std::size_t addrs = 0x5f42228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FadeInOnSceneTransitionFinished*>(), { ".ctor", {}, {} })));

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/GPUResidentDrawerMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\GPUResidentDrawerMode.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUResidentDrawerMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::GPUResidentDrawerMode::GPUResidentDrawerMode(uint8_t value__) noexcept {

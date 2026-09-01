@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/XmlImplementation.hpp"
+// IWYU pragma private; include "System\Xml\XmlImplementation.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
   /// @brief Field nameTable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
-  /// @brief Method CreateDocument, addr 0x62baefc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateDocument, addr 0x62c2978, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlDocument* CreateDocument();
 
   static inline ::System::Xml::XmlImplementation* New_ctor();
@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  /// @brief Method .ctor, addr 0x62b3ccc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62bb748, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x62b4150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62bbbcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nt);
 
-  /// @brief Method get_NameTable, addr 0x62baf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x62c29d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
 protected:
@@ -67,7 +67,7 @@ public:
   XmlImplementation(XmlImplementation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9392 };
 
   /// @brief Field nameTable, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlNameTable* ___nameTable;

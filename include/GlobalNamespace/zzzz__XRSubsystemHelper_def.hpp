@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/XRSubsystemHelper.hpp"
+// IWYU pragma private; include "GlobalNamespace\XRSubsystemHelper.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,13 +38,13 @@ public:
   /// @brief Field s_inputSubsystems, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_inputSubsystems, put = setStaticF_s_inputSubsystems)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRInputSubsystem*>* s_inputSubsystems;
 
-  /// @brief Method GetCurrentDisplaySubsystem, addr 0x585e164, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystem, addr 0x585d26c, size 0x15c, virtual false, abstract: false, final false
   static inline Il2CppObject* GetCurrentDisplaySubsystem();
 
-  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x585e2c0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x585d3c8, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* GetCurrentDisplaySubsystemDescriptor();
 
-  /// @brief Method GetCurrentInputSubsystem, addr 0x585e410, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentInputSubsystem, addr 0x585d518, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRInputSubsystem* GetCurrentInputSubsystem();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* getStaticF_s_displaySubsystemDescriptors();
@@ -74,7 +74,7 @@ public:
   XRSubsystemHelper(XRSubsystemHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21457 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

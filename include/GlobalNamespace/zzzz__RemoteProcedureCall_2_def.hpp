@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/RemoteProcedureCall_2.hpp"
+// IWYU pragma private; include "GlobalNamespace\RemoteProcedureCall_2.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +94,7 @@ public:
   RemoteProcedureCall_2(RemoteProcedureCall_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18264 };
 
   /// @brief Field _value0, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T0>* ____value0;

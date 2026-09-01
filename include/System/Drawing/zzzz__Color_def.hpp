@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Drawing/Color.hpp"
+// IWYU pragma private; include "System\Drawing\Color.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,43 +44,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::Color>"
   constexpr operator ::System::IEquatable_1<::System::Drawing::Color>*();
 
-  /// @brief Method Equals, addr 0x60cd6ac, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x60d5128, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x60cd740, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x60d51bc, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::System::Drawing::Color other);
 
-  /// @brief Method GetHashCode, addr 0x60cd784, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x60d5200, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x60cd3fc, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60d4e78, size 0x26c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_A, addr 0x60cd340, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_A, addr 0x60d4dbc, size 0x14, virtual false, abstract: false, final false
   inline uint8_t get_A();
 
-  /// @brief Method get_B, addr 0x60cd330, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_B, addr 0x60d4dac, size 0x10, virtual false, abstract: false, final false
   inline uint8_t get_B();
 
-  /// @brief Method get_G, addr 0x60cd31c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x60d4d98, size 0x14, virtual false, abstract: false, final false
   inline uint8_t get_G();
 
-  /// @brief Method get_IsKnownColor, addr 0x60cd354, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsKnownColor, addr 0x60d4dd0, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsKnownColor();
 
-  /// @brief Method get_Name, addr 0x60cd360, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x60d4ddc, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_R, addr 0x60cd2d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_R, addr 0x60d4d50, size 0x14, virtual false, abstract: false, final false
   inline uint8_t get_R();
 
-  /// @brief Method get_Value, addr 0x60cd2e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x60d4d64, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_Value();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Drawing::Color>"
   constexpr ::System::IEquatable_1<::System::Drawing::Color>* i___System__IEquatable_1___System__Drawing__Color_();
 
-  /// @brief Method op_Equality, addr 0x60cd668, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x60d50e4, size 0x44, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Drawing::Color left, ::System::Drawing::Color right);
 
   // Ctor Parameters []
@@ -92,7 +92,7 @@ public:
   constexpr Color(::StringW name, int64_t value, int16_t knownColor, int16_t state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21618 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

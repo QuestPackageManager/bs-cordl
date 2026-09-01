@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Properties/IListPropertyVisitor.hpp"
+// IWYU pragma private; include "Unity\Properties\IListPropertyVisitor.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +30,7 @@ public:
   IListPropertyVisitor(IListPropertyVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

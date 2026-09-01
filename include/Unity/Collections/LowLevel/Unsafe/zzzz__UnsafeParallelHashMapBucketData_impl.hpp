@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeParallelHashMapBucketData.hpp"
+// IWYU pragma private; include "Unity\Collections\LowLevel\Unsafe\UnsafeParallelHashMapBucketData.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashMapBucketData_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData._ctor
 template <>
@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData::*)(uint8_t*, uint8_t*, uint8_t*, uint8_t*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64c71e4;
+  constexpr static std::size_t addrs = 0x64cec60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

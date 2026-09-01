@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "BeatmapLevelSaveDataVersion4/BpmData.hpp"
+// IWYU pragma private; include "BeatmapLevelSaveDataVersion4\BpmData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapLevelSaveDataVersion4/zzzz__BpmData_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IBeat_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapLevelSaveDataVersion4::BpmData::*)()>(&::BeatmapLevelSaveDataVersion4::BpmData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375a4e4;
+  constexpr static std::size_t addrs = 0x3760150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapLevelSaveDataVersion4::BpmData*>(), { "get_beat", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapLevelSaveDataVersion4::BpmData::*)()>(&::BeatmapLevelSaveDataVersion4::BpmData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x375a4ec;
+  constexpr static std::size_t addrs = 0x3760158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapLevelSaveDataVersion4::BpmData*>(), { ".ctor", {}, {} })));

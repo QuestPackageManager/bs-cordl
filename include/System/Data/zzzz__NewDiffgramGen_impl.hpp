@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Data/NewDiffgramGen.hpp"
+// IWYU pragma private; include "System\Data\NewDiffgramGen.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__NewDiffgramGen_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataSet*)>(&::System::Data::NewDiffgramGen::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6075794;
+  constexpr static std::size_t addrs = 0x607d210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*, bool)>(&::System::Data::NewDiffgramGen::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6075afc;
+  constexpr static std::size_t addrs = 0x607d578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(&::System::Data::NewDiffgramGen::CreateTableHierarchy)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x6075bdc;
+  constexpr static std::size_t addrs = 0x607d658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Collections::ArrayList*)>(&::System::Data::NewDiffgramGen::DoAssignments)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x60758a0;
+  constexpr static std::size_t addrs = 0x607d31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::NewDiffgramGen::*)()>(&::System::Data::NewDiffgramGen::EmptyData)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6075f34;
+  constexpr static std::size_t addrs = 0x607d9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::NewDiffgramGen*>(), { "EmptyData", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Xml::XmlWriter*)>(&::System::Data::NewDiffgramGen::Save)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x607602c;
+  constexpr static std::size_t addrs = 0x607daa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Xml::XmlWriter*, ::System::Data::DataTable*)>(&::System::Data::NewDiffgramGen::Save)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x6076034;
+  constexpr static std::size_t addrs = 0x607dab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(&::System::Data::NewDiffgramGen::GenerateTable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6076fa4;
+  constexpr static std::size_t addrs = 0x607ea20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(&::System::Data::NewDiffgramGen::GenerateTableErrors)> {
   constexpr static std::size_t size = 0x60c;
-  constexpr static std::size_t addrs = 0x6077020;
+  constexpr static std::size_t addrs = 0x607ea9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataRow*)>(&::System::Data::NewDiffgramGen::GenerateRow)> {
   constexpr static std::size_t size = 0x688;
-  constexpr static std::size_t addrs = 0x607762c;
+  constexpr static std::size_t addrs = 0x607f0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataRow*, ::System::Data::DataColumn*, ::System::Data::DataRowVersion)>(
     &::System::Data::NewDiffgramGen::GenerateColumn)> {
   constexpr static std::size_t size = 0x9ec;
-  constexpr static std::size_t addrs = 0x6077d6c;
+  constexpr static std::size_t addrs = 0x607f7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Data::NewDiffgramGen::QualifiedName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x607571c;
+  constexpr static std::size_t addrs = 0x607d198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

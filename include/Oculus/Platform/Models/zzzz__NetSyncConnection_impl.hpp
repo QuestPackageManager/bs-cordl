@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/NetSyncConnection.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\NetSyncConnection.hpp"
 #include "Oculus/Platform/zzzz__NetSyncConnectionStatus_impl.hpp"
 #include "Oculus/Platform/zzzz__NetSyncDisconnectReason_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::NetSyncConnection::*)(::System::IntPtr)>(&::Oculus::Platform::Models::NetSyncConnection::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5dec99c;
+  constexpr static std::size_t addrs = 0x5df0e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

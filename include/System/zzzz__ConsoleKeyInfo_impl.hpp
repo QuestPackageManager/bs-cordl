@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ConsoleKeyInfo.hpp"
+// IWYU pragma private; include "System\ConsoleKeyInfo.hpp"
 #include "System/zzzz__ConsoleKey_impl.hpp"
 #include "System/zzzz__ConsoleModifiers_impl.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ConsoleKeyInfo::*)(char16_t, ::System::ConsoleKey, bool, bool, bool)>(&::System::ConsoleKeyInfo::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5c64134;
+  constexpr static std::size_t addrs = 0x5c685f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::ConsoleKeyInfo::*)()>(&::System::ConsoleKeyInfo::get_KeyChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c641c8;
+  constexpr static std::size_t addrs = 0x5c68684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ConsoleKeyInfo>(), { "get_KeyChar", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ConsoleKey (::System::ConsoleKeyInfo::*)()>(&::System::ConsoleKeyInfo::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c641d0;
+  constexpr static std::size_t addrs = 0x5c6868c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ConsoleKeyInfo>(), { "get_Key", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ConsoleKeyInfo::*)(::System::Object*)>(&::System::ConsoleKeyInfo::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c641d8;
+  constexpr static std::size_t addrs = 0x5c68694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ConsoleKeyInfo>(), { ::i2c::class_of<::System::ConsoleKeyInfo>(), 0 }));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ConsoleKeyInfo::*)(::System::ConsoleKeyInfo)>(&::System::ConsoleKeyInfo::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5c64274;
+  constexpr static std::size_t addrs = 0x5c68730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ConsoleKeyInfo::*)()>(&::System::ConsoleKeyInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c642a8;
+  constexpr static std::size_t addrs = 0x5c68764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ConsoleKeyInfo>(), { ::i2c::class_of<::System::ConsoleKeyInfo>(), 2 }));

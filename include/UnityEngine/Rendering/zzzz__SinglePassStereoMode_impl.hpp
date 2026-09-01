@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/SinglePassStereoMode.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\SinglePassStereoMode.hpp"
 #include "UnityEngine/Rendering/zzzz__SinglePassStereoMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::SinglePassStereoMode::SinglePassStereoMode(int32_t value__) noexcept {

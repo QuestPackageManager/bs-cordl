@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/Rendering/Universal/DBufferCopyDepthPass.hpp"
+// IWYU pragma private; include "UnityEngine\Rendering\Universal\DBufferCopyDepthPass.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +34,10 @@ public:
   static inline ::UnityEngine::Rendering::Universal::DBufferCopyDepthPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader, bool shouldClear,
                                                                                     bool copyToDepth, bool copyResolvedDepth);
 
-  /// @brief Method RecordRenderGraph, addr 0x684bbd4, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6853650, size 0x244, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x684bbc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6853644, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Shader* copyDepthShader, bool shouldClear, bool copyToDepth, bool copyResolvedDepth);
 
 protected:
@@ -55,7 +55,7 @@ public:
   DBufferCopyDepthPass(DBufferCopyDepthPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12672 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

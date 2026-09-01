@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/BurstSliderSpawner.hpp"
+// IWYU pragma private; include "GlobalNamespace\BurstSliderSpawner.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,19 +59,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE BurstSliderSpawner_ProcessNoteDataDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x58cbb38, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x58cb4e8, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNote, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x58cbbec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x58cb59c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x58cbb24, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x58cb4d4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::NoteData* noteData, ::by_ref<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNote);
 
   static inline ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x58cb9dc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58cb38c, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -106,11 +106,11 @@ public:
   // Declarations
   using ProcessNoteDataDelegate = ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate;
 
-  /// @brief Method BezierCurve, addr 0x58cb4fc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method BezierCurve, addr 0x58caeac, size 0x8c, virtual false, abstract: false, final false
   static inline void BezierCurve(::UnityEngine::Vector2 p0, ::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t t, ::by_ref<::UnityEngine::Vector2> pos,
                                  ::by_ref<::UnityEngine::Vector2> tangent);
 
-  /// @brief Method ProcessSliderData, addr 0x58cb588, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x58caf38, size 0x418, virtual false, abstract: false, final false
   static inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::by_ref<::GlobalNamespace::SliderSpawnData> sliderSpawnData, bool forceIsFirstNote,
                                        ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider, ::GlobalNamespace::BurstSliderSpawner_ProcessNoteDataDelegate* processNoteData);
 

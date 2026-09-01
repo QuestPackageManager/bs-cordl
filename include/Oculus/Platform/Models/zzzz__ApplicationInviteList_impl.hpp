@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Oculus/Platform/Models/ApplicationInviteList.hpp"
+// IWYU pragma private; include "Oculus\Platform\Models\ApplicationInviteList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__ApplicationInviteList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__ApplicationInvite_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::ApplicationInviteList::*)(::System::IntPtr)>(&::Oculus::Platform::Models::ApplicationInviteList::_ctor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5dd5680;
+  constexpr static std::size_t addrs = 0x5dd9b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

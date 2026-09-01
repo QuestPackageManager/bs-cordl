@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Utilities/MemoableResetException.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Utilities\MemoableResetException.hpp"
 #include "System/zzzz__InvalidCastException_impl.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__MemoableResetException_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::MemoableResetException._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::MemoableResetException::*)(::StringW)>(&::Org::BouncyCastle::Utilities::MemoableResetException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x363a044;
+  constexpr static std::size_t addrs = 0x363de04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

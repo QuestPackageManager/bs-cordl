@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/SceneInstance.hpp"
+// IWYU pragma private; include "UnityEngine\ResourceManagement\ResourceProviders\SceneInstance.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,25 +34,25 @@ public:
 
   __declspec(property(get = get_Scene, put = set_Scene)) ::UnityEngine::SceneManagement::Scene Scene;
 
-  /// @brief Method ActivateAsync, addr 0x69185b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ActivateAsync, addr 0x6920034, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* ActivateAsync();
 
-  /// @brief Method Equals, addr 0x69185ec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6920068, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x69185e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6920060, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_ReleaseSceneOnSceneUnloaded, addr 0x69185a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReleaseSceneOnSceneUnloaded, addr 0x6920024, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReleaseSceneOnSceneUnloaded();
 
-  /// @brief Method get_Scene, addr 0x6918598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scene, addr 0x6920014, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SceneManagement::Scene get_Scene();
 
-  /// @brief Method set_ReleaseSceneOnSceneUnloaded, addr 0x69185b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReleaseSceneOnSceneUnloaded, addr 0x692002c, size 0x8, virtual false, abstract: false, final false
   inline void set_ReleaseSceneOnSceneUnloaded(bool value);
 
-  /// @brief Method set_Scene, addr 0x69185a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Scene, addr 0x692001c, size 0x8, virtual false, abstract: false, final false
   inline void set_Scene(::UnityEngine::SceneManagement::Scene value);
 
   // Ctor Parameters []
@@ -64,7 +64,7 @@ public:
   constexpr SceneInstance(::UnityEngine::SceneManagement::Scene m_Scene, bool m_ReleaseOnSceneUnloaded, ::UnityEngine::AsyncOperation* m_Operation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18783 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

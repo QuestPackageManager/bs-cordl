@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/INetworkConfig.hpp"
+// IWYU pragma private; include "GlobalNamespace\INetworkConfig.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::INetworkConfig.get_maxPartySize

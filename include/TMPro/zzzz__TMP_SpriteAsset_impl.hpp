@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "TMPro/TMP_SpriteAsset.hpp"
+// IWYU pragma private; include "TMPro\TMP_SpriteAsset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_Asset_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset___c::*)()>(&::TMPro::TMP_SpriteAsset___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x699a66c;
+  constexpr static std::size_t addrs = 0x69a20e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset___c*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::TMP_SpriteAsset___c::*)(::TMPro::TMP_SpriteGlyph*)>(&::TMPro::TMP_SpriteAsset___c::_SortGlyphTable_b__32_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x699a670;
+  constexpr static std::size_t addrs = 0x69a20ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::TMP_SpriteAsset___c::*)(::TMPro::TMP_SpriteCharacter*)>(&::TMPro::TMP_SpriteAsset___c::_SortCharacterTable_b__33_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x699a684;
+  constexpr static std::size_t addrs = 0x69a2100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_SpriteCharacter*>* (::TMPro::TMP_SpriteAsset::*)()>(
     &::TMPro::TMP_SpriteAsset::get_spriteCharacterTable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6998840;
+  constexpr static std::size_t addrs = 0x69a02bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { "get_spriteCharacterTable", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset::*)(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteCharacter*>*)>(
     &::TMPro::TMP_SpriteAsset::set_spriteCharacterTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6998f58;
+  constexpr static std::size_t addrs = 0x69a09d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_SpriteCharacter*>* (::TMPro::TMP_SpriteAsset::*)()>(
     &::TMPro::TMP_SpriteAsset::get_spriteCharacterLookupTable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6998f60;
+  constexpr static std::size_t addrs = 0x69a09dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { "get_spriteCharacterLookupTable", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset::*)(::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_SpriteCharacter*>*)>(
     &::TMPro::TMP_SpriteAsset::set_spriteCharacterLookupTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6998f84;
+  constexpr static std::size_t addrs = 0x69a0a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>* (::TMPro::TMP_SpriteAsset::*)()>(
     &::TMPro::TMP_SpriteAsset::get_spriteGlyphTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6998f8c;
+  constexpr static std::size_t addrs = 0x69a0a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { "get_spriteGlyphTable", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset::*)(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>*)>(
     &::TMPro::TMP_SpriteAsset::set_spriteGlyphTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6998f94;
+  constexpr static std::size_t addrs = 0x69a0a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::Awake)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6998f9c;
+  constexpr static std::size_t addrs = 0x69a0a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { "Awake", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::GetDefaultSpriteMaterial)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x699949c;
+  constexpr static std::size_t addrs = 0x69a0f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { "GetDefaultSpriteMaterial", {}, {} })));
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::UpdateLookupTables)> {
   constexpr static std::size_t size = 0x6ac;
-  constexpr static std::size_t addrs = 0x69988ac;
+  constexpr static std::size_t addrs = 0x69a0328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { "UpdateLookupTables", {}, {} })));
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_SpriteAsset::*)(int32_t)>(&::TMPro::TMP_SpriteAsset::GetSpriteIndexFromHashcode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x699957c;
+  constexpr static std::size_t addrs = 0x69a0ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_SpriteAsset::*)(uint32_t)>(&::TMPro::TMP_SpriteAsset::GetSpriteIndexFromUnicode)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6999608;
+  constexpr static std::size_t addrs = 0x69a1084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_SpriteAsset::*)(::StringW)>(&::TMPro::TMP_SpriteAsset::GetSpriteIndexFromName)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69996a0;
+  constexpr static std::size_t addrs = 0x69a111c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, uint32_t, bool, ::by_ref<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x699974c;
+  constexpr static std::size_t addrs = 0x69a11c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*, uint32_t, bool,
                                                                                               ::by_ref<int32_t>)>(&::TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x69999c8;
+  constexpr static std::size_t addrs = 0x69a1444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, uint32_t, bool, ::by_ref<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6999b88;
+  constexpr static std::size_t addrs = 0x69a1604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, int32_t, bool, ::by_ref<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x6999c4c;
+  constexpr static std::size_t addrs = 0x69a16c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*, int32_t, bool,
                                                                                               ::by_ref<int32_t>)>(&::TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6999ff4;
+  constexpr static std::size_t addrs = 0x69a1a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, int32_t, bool, ::by_ref<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x699a1bc;
+  constexpr static std::size_t addrs = 0x69a1c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::SortGlyphTable)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x699a280;
+  constexpr static std::size_t addrs = 0x69a1cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { "SortGlyphTable", {}, {} })));
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::SortCharacterTable)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x699a3cc;
+  constexpr static std::size_t addrs = 0x69a1e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { "SortCharacterTable", {}, {} })));
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::SortGlyphAndCharacterTables)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x699a51c;
+  constexpr static std::size_t addrs = 0x69a1f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { "SortGlyphAndCharacterTables", {}, {} })));
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::UpgradeSpriteAsset)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x6999028;
+  constexpr static std::size_t addrs = 0x69a0aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { "UpgradeSpriteAsset", {}, {} })));
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x699a554;
+  constexpr static std::size_t addrs = 0x69a1fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAsset*>(), { ".ctor", {}, {} })));

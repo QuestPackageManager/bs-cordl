@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/ChangeGlobalValue.hpp"
+// IWYU pragma private; include "GlobalNamespace\ChangeGlobalValue.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ChangeGlobalValue_def.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ChangeGlobalValue::*)()>(&::GlobalNamespace::ChangeGlobalValue::OnValidate)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x59131e0;
+  constexpr static std::size_t addrs = 0x5916b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ChangeGlobalValue*>(), { "OnValidate", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ChangeGlobalValue::*)()>(&::GlobalNamespace::ChangeGlobalValue::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x59132c0;
+  constexpr static std::size_t addrs = 0x5916c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ChangeGlobalValue*>(), { ".ctor", {}, {} })));

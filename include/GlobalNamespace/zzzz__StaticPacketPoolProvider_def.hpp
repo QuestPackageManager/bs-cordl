@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/StaticPacketPoolProvider.hpp"
+// IWYU pragma private; include "GlobalNamespace\StaticPacketPoolProvider.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +38,7 @@ public:
   /// @brief Method GetPacketPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::GlobalNamespace::PacketPool_1<T>* GetPacketPool();
 
-  /// @brief Method TryGetPacketPool, addr 0x3332388, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryGetPacketPool, addr 0x3336148, size 0x98, virtual false, abstract: false, final false
   static inline bool TryGetPacketPool(::System::Type* t, ::by_ref<::GlobalNamespace::IPacketPool*> pool);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* getStaticF__staticPools();
@@ -60,7 +60,7 @@ public:
   StaticPacketPoolProvider(StaticPacketPoolProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

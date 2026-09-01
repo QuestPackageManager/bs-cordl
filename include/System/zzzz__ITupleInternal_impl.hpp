@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ITupleInternal.hpp"
+// IWYU pragma private; include "System\ITupleInternal.hpp"
 #include "System/zzzz__ITupleInternal_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"

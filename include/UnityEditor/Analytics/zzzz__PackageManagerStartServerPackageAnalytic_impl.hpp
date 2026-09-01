@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor/Analytics/PackageManagerStartServerPackageAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor\Analytics\PackageManagerStartServerPackageAnalytic.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerBaseAnalytic_impl.hpp"
 #include "UnityEditor/Analytics/zzzz__PackageManagerStartServerPackageAnalytic_def.hpp"
 //  Writing Method size for method: ::UnityEditor::Analytics::PackageManagerStartServerPackageAnalytic._ctor
@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEditor::Analytics::PackageManagerStartServerPackageAnalytic::*)()>(
     &::UnityEditor::Analytics::PackageManagerStartServerPackageAnalytic::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e1deb4;
+  constexpr static std::size_t addrs = 0x6e25a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEditor::Analytics::PackageManagerStartServerPackageAnalytic* (*)()>(
     &::UnityEditor::Analytics::PackageManagerStartServerPackageAnalytic::CreatePackageManagerStartServerPackageAnalytic)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e1df48;
+  constexpr static std::size_t addrs = 0x6e25acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

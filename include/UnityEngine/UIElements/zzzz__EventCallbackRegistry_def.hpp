@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/UIElements/EventCallbackRegistry.hpp"
+// IWYU pragma private; include "UnityEngine\UIElements\EventCallbackRegistry.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,25 +66,25 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE EventCallbackRegistry_DynamicCallbackList {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6d91ce8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6d9986c, size 0x10, virtual false, abstract: false, final false
   inline void BeginInvoke();
 
-  /// @brief Method Create, addr 0x6d917a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6d99328, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList Create(::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
-  /// @brief Method EndInvoke, addr 0x6d91cf8, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6d9987c, size 0x21c, virtual false, abstract: false, final false
   inline void EndInvoke();
 
-  /// @brief Method GetCallbackListForReading, addr 0x6d91970, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackListForReading, addr 0x6d994f4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackListForReading();
 
-  /// @brief Method GetCallbackListForWriting, addr 0x6d91890, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackListForWriting, addr 0x6d99414, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackListForWriting();
 
-  /// @brief Method Invoke, addr 0x6d91ae0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6d99664, size 0x208, virtual false, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel, ::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method UnregisterCallback, addr 0x6d91988, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallback, addr 0x6d9950c, size 0x158, virtual false, abstract: false, final false
   inline bool UnregisterCallback(int64_t eventTypeId, ::System::Delegate* callback);
 
   // Ctor Parameters []
@@ -157,10 +157,10 @@ public:
   /// @brief Field s_ListPool, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ListPool, put = setStaticF_s_ListPool)) ::UnityEngine::UIElements::EventCallbackListPool* s_ListPool;
 
-  /// @brief Method GetCallbackList, addr 0x6d91660, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackList, addr 0x6d991e4, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackList(::UnityEngine::UIElements::EventCallbackList* initializer);
 
-  /// @brief Method GetDynamicCallbackList, addr 0x6d91738, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetDynamicCallbackList, addr 0x6d992bc, size 0x14, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList> GetDynamicCallbackList(::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
   static inline ::UnityEngine::UIElements::EventCallbackRegistry* New_ctor();
@@ -175,7 +175,7 @@ public:
   inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_2<TEventType, TCallbackArgs>* callback, TCallbackArgs userArgs, ::UnityEngine::UIElements::TrickleDown useTrickleDown,
                                ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method ReleaseCallbackList, addr 0x6d916cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCallbackList, addr 0x6d99250, size 0x6c, virtual false, abstract: false, final false
   static inline void ReleaseCallbackList(::UnityEngine::UIElements::EventCallbackList* toRelease);
 
   /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TrickleDownCallbacks(::UnityEngine::UIElements::EventCallbackRegistry_DynamicCallbackList value);
 
-  /// @brief Method .ctor, addr 0x6d9174c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d992d0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::EventCallbackListPool* getStaticF_s_ListPool();

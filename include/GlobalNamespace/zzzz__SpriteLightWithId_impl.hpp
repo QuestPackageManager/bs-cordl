@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SpriteLightWithId.hpp"
+// IWYU pragma private; include "GlobalNamespace\SpriteLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
 #include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::SpriteLightWithId::*)()>(&::GlobalNamespace::SpriteLightWithId::get_color)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58714e4;
+  constexpr static std::size_t addrs = 0x5870e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteLightWithId*>(), { "get_color", {}, {} })));
@@ -31,11 +31,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteLightWithId::*)(::UnityEngine::Color)>(&::GlobalNamespace::SpriteLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x58714fc;
+  constexpr static std::size_t addrs = 0x5870e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteLightWithId*>(), { ::i2c::class_of<::GlobalNamespace::SpriteLightWithId*>(), 9 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteLightWithId*>(), { ::i2c::class_of<::GlobalNamespace::SpriteLightWithId*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -43,8 +43,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteLightWithId::*)()>(&::GlobalNamespace::SpriteLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x587164c;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5870f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteLightWithId*>(), { ".ctor", {}, {} })));
@@ -176,7 +176,7 @@ inline ::UnityEngine::Color GlobalNamespace::SpriteLightWithId::get_color() {
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method);
 }
 inline void GlobalNamespace::SpriteLightWithId::ColorWasSet(::UnityEngine::Color color) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SpriteLightWithId*>(), 9 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::SpriteLightWithId*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, color);
 }
 inline void GlobalNamespace::SpriteLightWithId::_ctor() {

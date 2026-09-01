@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/SpatialTracking/PoseDataSource.hpp"
+// IWYU pragma private; include "UnityEngine\SpatialTracking\PoseDataSource.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +40,13 @@ public:
   /// @brief Field nodeStates, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_nodeStates, put = setStaticF_nodeStates)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates;
 
-  /// @brief Method GetDataFromSource, addr 0x6baf6b8, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method GetDataFromSource, addr 0x6bb723c, size 0x2c4, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetDataFromSource(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose poseSource, ::by_ref<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method GetNodePoseData, addr 0x6baf43c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetNodePoseData, addr 0x6bb6fc0, size 0x208, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetNodePoseData(::UnityEngine::XR::XRNode node, ::by_ref<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method TryGetDataFromSource, addr 0x6baf644, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TryGetDataFromSource, addr 0x6bb71c8, size 0x74, virtual false, abstract: false, final false
   static inline bool TryGetDataFromSource(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose poseSource, ::by_ref<::UnityEngine::Pose> resultPose);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeStates();
@@ -68,7 +68,7 @@ public:
   PoseDataSource(PoseDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

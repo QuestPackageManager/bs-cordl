@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Mono/Unity/UnityTlsConversions.hpp"
+// IWYU pragma private; include "Mono\Unity\UnityTlsConversions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,23 +40,23 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTlsConversions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertProtocolVersion, addr 0x5fcc50c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ConvertProtocolVersion, addr 0x5fd3f88, size 0x20, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::TlsProtocols ConvertProtocolVersion(::Mono::Unity::UnityTls_unitytls_protocol protocol);
 
-  /// @brief Method GetMaxProtocol, addr 0x5fcb8d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetMaxProtocol, addr 0x5fd3354, size 0x38, virtual false, abstract: false, final false
   static inline ::Mono::Unity::UnityTls_unitytls_protocol GetMaxProtocol(::System::Security::Authentication::SslProtocols protocols);
 
-  /// @brief Method GetMinProtocol, addr 0x5fcb8a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetMinProtocol, addr 0x5fd3324, size 0x30, virtual false, abstract: false, final false
   static inline ::Mono::Unity::UnityTls_unitytls_protocol GetMinProtocol(::System::Security::Authentication::SslProtocols protocols);
 
-  /// @brief Method VerifyResultToAlertDescription, addr 0x5fc96a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToAlertDescription, addr 0x5fd1120, size 0x54, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::AlertDescription VerifyResultToAlertDescription(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult,
                                                                                              ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method VerifyResultToChainStatus, addr 0x5fcd944, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToChainStatus, addr 0x5fd53c0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags VerifyResultToChainStatus(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult);
 
-  /// @brief Method VerifyResultToPolicyErrror, addr 0x5fcd914, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method VerifyResultToPolicyErrror, addr 0x5fd5390, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Net::Security::SslPolicyErrors VerifyResultToPolicyErrror(::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult);
 
 protected:
@@ -74,7 +74,7 @@ public:
   UnityTlsConversions(UnityTlsConversions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11002 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

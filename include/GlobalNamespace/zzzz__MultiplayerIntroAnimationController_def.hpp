@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerIntroAnimationController.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerIntroAnimationController.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -116,33 +116,33 @@ public:
   /// @brief Field _spawnDuration, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__spawnDuration, put = __cordl_internal_set__spawnDuration)) float_t _spawnDuration;
 
-  /// @brief Method BindRingsAndSetTiming, addr 0x59d113c, size 0x78c, virtual false, abstract: false, final false
+  /// @brief Method BindRingsAndSetTiming, addr 0x59d92e0, size 0x78c, virtual false, abstract: false, final false
   inline void BindRingsAndSetTiming(int32_t connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*> connectedRings, ::UnityEngine::GameObject* localRing);
 
-  /// @brief Method BindTimeline, addr 0x59d02f8, size 0x780, virtual false, abstract: false, final false
+  /// @brief Method BindTimeline, addr 0x59d849c, size 0x780, virtual false, abstract: false, final false
   inline void BindTimeline();
 
-  /// @brief Method CalculatePlayerIndexSequence, addr 0x59d0a78, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method CalculatePlayerIndexSequence, addr 0x59d8c1c, size 0x5b0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Queue_1<int32_t>* CalculatePlayerIndexSequence(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActivePlayer);
 
-  /// @brief Method Completed, addr 0x59d18c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Completed, addr 0x59d9a6c, size 0x38, virtual false, abstract: false, final false
   inline void Completed();
 
-  /// @brief Method GetFullIntroAnimationTime, addr 0x59cb394, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method GetFullIntroAnimationTime, addr 0x59d3540, size 0x3dc, virtual false, abstract: false, final false
   inline int64_t GetFullIntroAnimationTime();
 
   static inline ::GlobalNamespace::MultiplayerIntroAnimationController* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x59cfda8, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x59d7f4c, size 0x550, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method PlayIntroAnimation, addr 0x59cb770, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method PlayIntroAnimation, addr 0x59d391c, size 0x114, virtual false, abstract: false, final false
   inline void PlayIntroAnimation(float_t maxDesiredIntroAnimationDuration, ::System::Action* onCompleted);
 
-  /// @brief Method SetBeforeIntroValue, addr 0x59ce034, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValue, addr 0x59d61e0, size 0x474, virtual false, abstract: false, final false
   inline void SetBeforeIntroValue();
 
-  /// @brief Method TransitionToAfterIntroAnimationState, addr 0x59cb884, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method TransitionToAfterIntroAnimationState, addr 0x59d3a30, size 0xd8, virtual false, abstract: false, final false
   inline void TransitionToAfterIntroAnimationState();
 
   constexpr bool const& __cordl_internal_get__bindingFinished() const;
@@ -247,7 +247,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x59d1900, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d9aa4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Random* getStaticF__random();
@@ -269,7 +269,7 @@ public:
   MultiplayerIntroAnimationController(MultiplayerIntroAnimationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6143 };
 
   /// @brief Field _introPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____introPlayableDirector;

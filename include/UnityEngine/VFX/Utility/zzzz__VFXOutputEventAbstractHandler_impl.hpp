@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/Utility/VFXOutputEventAbstractHandler.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\Utility\VFXOutputEventAbstractHandler.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__VFXOutputEventAbstractHandler_def.hpp"
 #include "UnityEngine/VFX/Utility/zzzz__ExposedProperty_def.hpp"
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::set_m_VisualEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69da38c;
+  constexpr static std::size_t addrs = 0x69e1e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::VFX::VisualEffect> (::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::*)()>(
     &::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::get_m_VisualEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69da394;
+  constexpr static std::size_t addrs = 0x69e1e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::*)()>(&::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::OnEnable)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x69da39c;
+  constexpr static std::size_t addrs = 0x69e1e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::*)()>(
     &::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::OnDisable)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x69da520;
+  constexpr static std::size_t addrs = 0x69e1f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::*)(::UnityEngine::VFX::VFXOutputEventArgs)>(
     &::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::OnOutputEventRecieved)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x69da678;
+  constexpr static std::size_t addrs = 0x69e20f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler*>(),
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::*)()>(&::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69da74c;
+  constexpr static std::size_t addrs = 0x69e21c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXOutputEventAbstractHandler*>(), { ".ctor", {}, {} })));

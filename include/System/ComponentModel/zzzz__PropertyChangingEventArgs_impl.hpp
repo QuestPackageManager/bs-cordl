@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ComponentModel/PropertyChangingEventArgs.hpp"
+// IWYU pragma private; include "System\ComponentModel\PropertyChangingEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/ComponentModel/zzzz__PropertyChangingEventArgs_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::PropertyChangingEventArgs._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::PropertyChangingEventArgs::*)(::StringW)>(&::System::ComponentModel::PropertyChangingEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x63c2890;
+  constexpr static std::size_t addrs = 0x63ca30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

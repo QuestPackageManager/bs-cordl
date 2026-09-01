@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/BeforeRenderOrderAttribute.hpp"
+// IWYU pragma private; include "UnityEngine\BeforeRenderOrderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__BeforeRenderOrderAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::BeforeRenderOrderAttribute.get_order
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::BeforeRenderOrderAttribute::*)()>(&::UnityEngine::BeforeRenderOrderAttribute::get_order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7bdcc;
+  constexpr static std::size_t addrs = 0x6a83848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BeforeRenderOrderAttribute*>(), { "get_order", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BeforeRenderOrderAttribute::*)(int32_t)>(&::UnityEngine::BeforeRenderOrderAttribute::set_order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7bdd4;
+  constexpr static std::size_t addrs = 0x6a83850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BeforeRenderOrderAttribute::*)(int32_t)>(&::UnityEngine::BeforeRenderOrderAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7bddc;
+  constexpr static std::size_t addrs = 0x6a83858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

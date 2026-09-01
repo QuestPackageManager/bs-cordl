@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PkiConfirmContent.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Asn1\Cmp\PkiConfirmContent.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiConfirmContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::GetInstance)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3348944;
+  constexpr static std::size_t addrs = 0x334c704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::*)()>(&::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3348fb4;
+  constexpr static std::size_t addrs = 0x334cd74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3348fb8;
+  constexpr static std::size_t addrs = 0x334cd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

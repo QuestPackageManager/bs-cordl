@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ParametersWithIV.hpp"
+// IWYU pragma private; include "Org\BouncyCastle\Crypto\Parameters\ParametersWithIV.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ParametersWithIV_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::*)(::Org::BouncyCastle::Crypto::ICipherParameters*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3411258;
+  constexpr static std::size_t addrs = 0x3415018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::*)(
     ::Org::BouncyCastle::Crypto::ICipherParameters*, ::ArrayW<uint8_t>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3411270;
+  constexpr static std::size_t addrs = 0x3415030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::GetIV)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x341134c;
+  constexpr static std::size_t addrs = 0x341510c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV*>(), { "GetIV", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV::get_Parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34113c4;
+  constexpr static std::size_t addrs = 0x3415184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

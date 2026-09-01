@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/TextCore/RichTextTagParser.hpp"
+// IWYU pragma private; include "UnityEngine\TextCore\RichTextTagParser.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -267,7 +267,7 @@ public:
   static ::UnityEngine::TextCore::RichTextTagParser_TagType const Uppercase;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17192 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -330,7 +330,7 @@ public:
   static ::UnityEngine::TextCore::RichTextTagParser_TagValueType const StringValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17194 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -389,7 +389,7 @@ public:
   static ::UnityEngine::TextCore::RichTextTagParser_TagUnitType const Pixels;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17195 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -429,23 +429,23 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x6bbdfa4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6bc5b28, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6bbe038, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6bc5bbc, size 0x194, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo* other);
 
-  /// @brief Method GetHashCode, addr 0x6bbde18, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6bc599c, size 0x18c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo* New_ctor(::UnityEngine::TextCore::RichTextTagParser_TagType tagType, ::StringW name,
                                                                                  ::UnityEngine::TextCore::RichTextTagParser_TagValueType valueType,
                                                                                  ::UnityEngine::TextCore::RichTextTagParser_TagUnitType unitType);
 
-  /// @brief Method PrintMembers, addr 0x6bbdc44, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method PrintMembers, addr 0x6bc57c8, size 0x1d4, virtual true, abstract: false, final false
   inline bool PrintMembers(::System::Text::StringBuilder* builder);
 
-  /// @brief Method ToString, addr 0x6bbdb58, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6bc56dc, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::TextCore::RichTextTagParser_TagType const& __cordl_internal_get_TagType() const;
@@ -472,11 +472,11 @@ public:
 
   constexpr void __cordl_internal_set_valueType(::UnityEngine::TextCore::RichTextTagParser_TagValueType value);
 
-  /// @brief Method .ctor, addr 0x6bbdae8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc566c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::RichTextTagParser_TagType tagType, ::StringW name, ::UnityEngine::TextCore::RichTextTagParser_TagValueType valueType,
                     ::UnityEngine::TextCore::RichTextTagParser_TagUnitType unitType);
 
-  /// @brief Method get_EqualityContract, addr 0x6bbdaf8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_EqualityContract, addr 0x6bc567c, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_EqualityContract();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*>"
@@ -497,7 +497,7 @@ public:
   RichTextTagParser_TagTypeInfo(RichTextTagParser_TagTypeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17193 };
 
   /// @brief Field TagType, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::TextCore::RichTextTagParser_TagType ___TagType;
@@ -555,23 +555,23 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_TagValue*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_TagValue*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x6bbe4b0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6bc6034, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6bbe544, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6bc60c8, size 0x19c, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::TextCore::RichTextTagParser_TagValue* other);
 
-  /// @brief Method GetHashCode, addr 0x6bbe320, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6bc5ea4, size 0x190, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::RichTextTagParser_TagValue* New_ctor(::StringW value);
 
   static inline ::UnityEngine::TextCore::RichTextTagParser_TagValue* New_ctor(::UnityEngine::Color value);
 
-  /// @brief Method PrintMembers, addr 0x6bbe318, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method PrintMembers, addr 0x6bc5e9c, size 0x8, virtual true, abstract: false, final false
   inline bool PrintMembers(::System::Text::StringBuilder* builder);
 
-  /// @brief Method ToString, addr 0x6bbe22c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6bc5db0, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_m_colorValue() const;
@@ -598,22 +598,22 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::TextCore::RichTextTagParser_TagValueType value);
 
-  /// @brief Method .ctor, addr 0x6bbbb50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc36d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bbbb3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc36c0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color value);
 
-  /// @brief Method get_ColorValue, addr 0x6bbcc88, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_ColorValue, addr 0x6bc480c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_ColorValue();
 
-  /// @brief Method get_EqualityContract, addr 0x6bbe1cc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_EqualityContract, addr 0x6bc5d50, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_EqualityContract();
 
-  /// @brief Method get_NumericalValue, addr 0x6bbcd4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_NumericalValue, addr 0x6bc48d0, size 0x60, virtual false, abstract: false, final false
   inline float_t get_NumericalValue();
 
-  /// @brief Method get_StringValue, addr 0x6bbccec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_StringValue, addr 0x6bc4870, size 0x60, virtual false, abstract: false, final false
   inline ::StringW get_StringValue();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_TagValue*>"
@@ -634,7 +634,7 @@ public:
   RichTextTagParser_TagValue(RichTextTagParser_TagValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17196 };
 
   /// @brief Field type, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::TextCore::RichTextTagParser_TagValueType ___type;
@@ -680,7 +680,7 @@ public:
                                   ::UnityEngine::TextCore::RichTextTagParser_TagValue* value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17197 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -732,7 +732,7 @@ public:
   constexpr RichTextTagParser_Segment(::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* tags, int32_t start, int32_t end) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17198 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -776,21 +776,21 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x6bbe9fc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6bc6580, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6bbea90, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6bc6614, size 0x11c, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::TextCore::RichTextTagParser_ParseError* other);
 
-  /// @brief Method GetHashCode, addr 0x6bbe8f8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6bc647c, size 0x104, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::RichTextTagParser_ParseError* New_ctor(::StringW message, int32_t position);
 
-  /// @brief Method PrintMembers, addr 0x6bbe82c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method PrintMembers, addr 0x6bc63b0, size 0xcc, virtual true, abstract: false, final false
   inline bool PrintMembers(::System::Text::StringBuilder* builder);
 
-  /// @brief Method ToString, addr 0x6bbe740, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6bc62c4, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_message() const;
@@ -805,10 +805,10 @@ public:
 
   constexpr void __cordl_internal_set_position(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bbbb30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc36b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t position);
 
-  /// @brief Method get_EqualityContract, addr 0x6bbe6e0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_EqualityContract, addr 0x6bc6264, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_EqualityContract();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>"
@@ -829,7 +829,7 @@ public:
   RichTextTagParser_ParseError(RichTextTagParser_ParseError const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17199 };
 
   /// @brief Field position, offset: 0x10, size: 0x4, def value: None
   int32_t ___position;
@@ -873,38 +873,38 @@ public:
   /// @brief Field TagsInfo, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_TagsInfo, put = setStaticF_TagsInfo)) ::ArrayW<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*> TagsInfo;
 
-  /// @brief Method AddLink, addr 0x6bbc720, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method AddLink, addr 0x6bc42a4, size 0x1cc, virtual false, abstract: false, final false
   static inline int32_t AddLink(::UnityEngine::TextCore::RichTextTagParser_TagType type, ::StringW value,
                                 ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links);
 
-  /// @brief Method ApplyStateToSegment, addr 0x6bbc650, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ApplyStateToSegment, addr 0x6bc41d4, size 0xd0, virtual false, abstract: false, final false
   static inline void ApplyStateToSegment(::StringW input, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* tags,
                                          ::ArrayW<::UnityEngine::TextCore::RichTextTagParser_Segment> segments);
 
-  /// @brief Method CreateTextGenerationSettingsArray, addr 0x6bbcdac, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method CreateTextGenerationSettingsArray, addr 0x6bc4930, size 0x2b8, virtual false, abstract: false, final false
   static inline void CreateTextGenerationSettingsArray(::by_ref<::UnityEngine::TextCore::NativeTextGenerationSettings> tgs,
                                                        ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links,
                                                        ::UnityEngine::Color hyperlinkColor);
 
-  /// @brief Method CreateTextSpan, addr 0x6bbc8ec, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method CreateTextSpan, addr 0x6bc4470, size 0x39c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::TextSpan
   CreateTextSpan(::UnityEngine::TextCore::RichTextTagParser_Segment segment, ::by_ref<::UnityEngine::TextCore::NativeTextGenerationSettings> tgs,
                  ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* links, ::UnityEngine::Color hyperlinkColor);
 
-  /// @brief Method FindTags, addr 0x6bbaf80, size 0xbb0, virtual false, abstract: false, final false
+  /// @brief Method FindTags, addr 0x6bc2b04, size 0xbb0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*
   FindTags(::StringW inputStr, ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_ParseError*>* errors);
 
-  /// @brief Method GenerateSegments, addr 0x6bbc3a0, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GenerateSegments, addr 0x6bc3f24, size 0x2b0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::TextCore::RichTextTagParser_Segment> GenerateSegments(::StringW input,
                                                                                               ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* tags);
 
-  /// @brief Method PickResultingTags, addr 0x6bbbb60, size 0x840, virtual false, abstract: false, final false
+  /// @brief Method PickResultingTags, addr 0x6bc36e4, size 0x840, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>*
   PickResultingTags(::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* allTags, ::StringW input, int32_t atPosition,
                     ::System::Collections::Generic::List_1<::UnityEngine::TextCore::RichTextTagParser_Tag>* applicableTags);
 
-  /// @brief Method SpanToEnum, addr 0x6bbad00, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method SpanToEnum, addr 0x6bc2884, size 0x280, virtual false, abstract: false, final false
   static inline bool SpanToEnum(::System::ReadOnlySpan_1<char16_t> tagCandidate, ::by_ref<::UnityEngine::TextCore::RichTextTagParser_TagType> tagType, ::by_ref<::StringW> error,
                                 ::by_ref<::System::ReadOnlySpan_1<char16_t>> attribute);
 
@@ -912,7 +912,7 @@ public:
 
   static inline void setStaticF_TagsInfo(::ArrayW<::UnityEngine::TextCore::RichTextTagParser_TagTypeInfo*> value);
 
-  /// @brief Method tagMatch, addr 0x6bbab64, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method tagMatch, addr 0x6bc26e8, size 0x19c, virtual false, abstract: false, final false
   static inline bool tagMatch(::System::ReadOnlySpan_1<char16_t> tagCandidate, ::StringW tagName);
 
 protected:
@@ -930,7 +930,7 @@ public:
   RichTextTagParser(RichTextTagParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17200 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

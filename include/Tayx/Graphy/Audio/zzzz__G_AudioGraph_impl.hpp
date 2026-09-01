@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Tayx/Graphy/Audio/G_AudioGraph.hpp"
+// IWYU pragma private; include "Tayx\Graphy\Audio\G_AudioGraph.hpp"
 #include "Tayx/Graphy/Graph/zzzz__G_Graph_impl.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioGraph_def.hpp"
 #include "Tayx/Graphy/Audio/zzzz__G_AudioMonitor_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::OnEnable)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6439368;
+  constexpr static std::size_t addrs = 0x6440de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Audio::G_AudioGraph*>(), { "OnEnable", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::Update)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64393bc;
+  constexpr static std::size_t addrs = 0x6440e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Audio::G_AudioGraph*>(), { "Update", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::UpdateParameters)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6439458;
+  constexpr static std::size_t addrs = 0x6440ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Audio::G_AudioGraph*>(), { "UpdateParameters", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::Init)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x64395fc;
+  constexpr static std::size_t addrs = 0x6441078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Audio::G_AudioGraph*>(), { "Init", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::UpdateGraph)> {
   constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x643973c;
+  constexpr static std::size_t addrs = 0x64411b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::CreatePoints)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6439c78;
+  constexpr static std::size_t addrs = 0x64416f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6439ea4;
+  constexpr static std::size_t addrs = 0x6441920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Audio::G_AudioGraph*>(), { ".ctor", {}, {} })));

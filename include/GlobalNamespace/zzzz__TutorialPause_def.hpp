@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/TutorialPause.hpp"
+// IWYU pragma private; include "GlobalNamespace\TutorialPause.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,13 +64,13 @@ public:
 
   static inline ::GlobalNamespace::TutorialPause* New_ctor();
 
-  /// @brief Method Pause, addr 0x59f0eb4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x59f8f88, size 0xa4, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x59f0f74, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Resume, addr 0x59f9048, size 0xa0, virtual true, abstract: false, final true
   inline void Resume();
 
-  /// @brief Method WillResume, addr 0x59f0f58, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WillResume, addr 0x59f902c, size 0x1c, virtual true, abstract: false, final true
   inline void WillResume();
 
   constexpr ::UnityW<::GlobalNamespace::AudioListenerController> const& __cordl_internal_get__audioListenerController() const;
@@ -115,31 +115,31 @@ public:
 
   constexpr void __cordl_internal_set_willResumeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x59f1014, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f90e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPauseEvent, addr 0x59f0aac, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_didPauseEvent, addr 0x59f8b80, size 0xac, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent, addr 0x59f0d5c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_didResumeEvent, addr 0x59f8e30, size 0xac, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent, addr 0x59f0c04, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_willResumeEvent, addr 0x59f8cd8, size 0xac, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method get_isPaused, addr 0x59f0aa4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPaused, addr 0x59f8b78, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
 
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
-  /// @brief Method remove_didPauseEvent, addr 0x59f0b58, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_didPauseEvent, addr 0x59f8c2c, size 0xac, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent, addr 0x59f0e08, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_didResumeEvent, addr 0x59f8edc, size 0xac, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent, addr 0x59f0cb0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_willResumeEvent, addr 0x59f8d84, size 0xac, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
 protected:
@@ -157,7 +157,7 @@ public:
   TutorialPause(TutorialPause const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6285 };
 
   /// @brief Field _tutorialSongController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TutorialSongController> ____tutorialSongController;

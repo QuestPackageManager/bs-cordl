@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Xml/UTF16Decoder.hpp"
+// IWYU pragma private; include "System\Xml\UTF16Decoder.hpp"
 #include "System/Text/zzzz__Decoder_impl.hpp"
 #include "System/Xml/zzzz__UTF16Decoder_def.hpp"
 //  Writing Method size for method: ::System::Xml::UTF16Decoder._ctor
@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UTF16Decoder::*)(bool)>(&::System::Xml::UTF16Decoder::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62db4b4;
+  constexpr static std::size_t addrs = 0x62e2f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UTF16Decoder*>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UTF16Decoder::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::UTF16Decoder::GetCharCount)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62db4c4;
+  constexpr static std::size_t addrs = 0x62e2f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::UTF16Decoder*>(), { ::i2c::class_of<::System::Xml::UTF16Decoder*>(), 5 }));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UTF16Decoder::*)(::ArrayW<uint8_t>, int32_t, int32_t, bool)>(&::System::Xml::UTF16Decoder::GetCharCount)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x62db4d4;
+  constexpr static std::size_t addrs = 0x62e2f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::UTF16Decoder*>(), { ::i2c::class_of<::System::Xml::UTF16Decoder*>(), 6 }));
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UTF16Decoder::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<char16_t>, int32_t)>(
     &::System::Xml::UTF16Decoder::GetChars)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x62db5ac;
+  constexpr static std::size_t addrs = 0x62e3028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::UTF16Decoder*>(), { ::i2c::class_of<::System::Xml::UTF16Decoder*>(), 8 }));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UTF16Decoder::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<char16_t>, int32_t, int32_t, bool, ::by_ref<int32_t>,
                                                                                              ::by_ref<int32_t>, ::by_ref<bool>)>(&::System::Xml::UTF16Decoder::Convert)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x62db724;
+  constexpr static std::size_t addrs = 0x62e31a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::UTF16Decoder*>(), { ::i2c::class_of<::System::Xml::UTF16Decoder*>(), 12 }));

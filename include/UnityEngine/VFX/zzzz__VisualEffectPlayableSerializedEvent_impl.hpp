@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/VFX/VisualEffectPlayableSerializedEvent.hpp"
+// IWYU pragma private; include "UnityEngine\VFX\VisualEffectPlayableSerializedEvent.hpp"
 #include "UnityEngine/VFX/zzzz__EventAttributes_impl.hpp"
 #include "UnityEngine/VFX/zzzz__PlayableTimeSpace_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

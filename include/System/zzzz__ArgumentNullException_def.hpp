@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/ArgumentNullException.hpp"
+// IWYU pragma private; include "System\ArgumentNullException.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,16 +34,16 @@ public:
 
   static inline ::System::ArgumentNullException* New_ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x5baa520, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bae9dc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5baa5b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5baea74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5ba285c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ba6d18, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName);
 
-  /// @brief Method .ctor, addr 0x5baa580, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5baea3c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::StringW message);
 
 protected:

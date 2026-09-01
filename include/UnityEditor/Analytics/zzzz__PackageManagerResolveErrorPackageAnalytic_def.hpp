@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEditor/Analytics/PackageManagerResolveErrorPackageAnalytic.hpp"
+// IWYU pragma private; include "UnityEditor\Analytics\PackageManagerResolveErrorPackageAnalytic.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +26,7 @@ public:
   /// @brief Field reason, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason)) ::StringW reason;
 
-  /// @brief Method CreatePackageManagerResolveErrorPackageAnalytic, addr 0x6e1de60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreatePackageManagerResolveErrorPackageAnalytic, addr 0x6e259e4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic* CreatePackageManagerResolveErrorPackageAnalytic();
 
   static inline ::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic* New_ctor();
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_reason(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e1ddcc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e25950, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   PackageManagerResolveErrorPackageAnalytic(PackageManagerResolveErrorPackageAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23015 };
 
   /// @brief Field reason, offset: 0x60, size: 0x8, def value: None
   ::StringW ___reason;

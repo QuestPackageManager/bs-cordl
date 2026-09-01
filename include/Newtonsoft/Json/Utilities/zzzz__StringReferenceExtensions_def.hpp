@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringReferenceExtensions.hpp"
+// IWYU pragma private; include "Newtonsoft\Json\Utilities\StringReferenceExtensions.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,13 +24,13 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE StringReferenceExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndsWith, addr 0x5d2f508, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x5d339c4, size 0xa4, virtual false, abstract: false, final false
   static inline bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
-  /// @brief Method IndexOf, addr 0x5d2f3e0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x5d3389c, size 0x88, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length);
 
-  /// @brief Method StartsWith, addr 0x5d2f468, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x5d33924, size 0xa0, virtual false, abstract: false, final false
   static inline bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
 protected:
@@ -48,7 +48,7 @@ public:
   StringReferenceExtensions(StringReferenceExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyAnalytics.hpp"
+// IWYU pragma private; include "GlobalNamespace\MultiplayerLobbyAnalytics.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAnalytics_def.hpp"
 #include "GlobalNamespace/zzzz__GameServerLobbyFlowCoordinatorBase_def.hpp"
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(&::GlobalNamespace::MultiplayerLobbyAnalytics::Awake)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x58b33f0;
+  constexpr static std::size_t addrs = 0x58b2d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyAnalytics*>(), { "Awake", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(&::GlobalNamespace::MultiplayerLobbyAnalytics::OnDestroy)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x58b3618;
+  constexpr static std::size_t addrs = 0x58b2f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyAnalytics*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAnalytics::HandleGameServerLobbyFlowCoordinatorDidSetupEvent)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x58b38bc;
+  constexpr static std::size_t addrs = 0x58b3220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAnalytics::HandleGameServerLobbyFlowCoordinatorDidFinish)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x58b3b10;
+  constexpr static std::size_t addrs = 0x58b3474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAnalytics::HandleGameServerLobbyFlowCoordinatorStartGameOrReady)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x58b3d58;
+  constexpr static std::size_t addrs = 0x58b36bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(
     &::GlobalNamespace::MultiplayerLobbyAnalytics::HandleGameServerLobbyFlowCoordinatorDidOpenInvitePanel)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x58b3ec0;
+  constexpr static std::size_t addrs = 0x58b3824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MultiplayerLobbyAnalytics::LogClick)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x58b3c78;
+  constexpr static std::size_t addrs = 0x58b35dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerLobbyAnalytics::*)(::GlobalNamespace::GameServerLobbyFlowCoordinatorBase_LobbyType)>(
     &::GlobalNamespace::MultiplayerLobbyAnalytics::GetEventTypeFromLobbyType)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x58b3a70;
+  constexpr static std::size_t addrs = 0x58b33d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAnalytics::*)()>(&::GlobalNamespace::MultiplayerLobbyAnalytics::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b4028;
+  constexpr static std::size_t addrs = 0x58b398c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyAnalytics*>(), { ".ctor", {}, {} })));

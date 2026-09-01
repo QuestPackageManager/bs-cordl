@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "GlobalNamespace/SimpleMemoryPool_1.hpp"
+// IWYU pragma private; include "GlobalNamespace\SimpleMemoryPool_1.hpp"
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,7 +89,7 @@ public:
   SimpleMemoryPool_1(SimpleMemoryPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20464 };
 
   /// @brief Field _activeElements, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<T>* ____activeElements;

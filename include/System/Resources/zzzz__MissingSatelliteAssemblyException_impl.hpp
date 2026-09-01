@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "System/Resources/MissingSatelliteAssemblyException.hpp"
+// IWYU pragma private; include "System\Resources\MissingSatelliteAssemblyException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Resources/zzzz__MissingSatelliteAssemblyException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::MissingSatelliteAssemblyException::*)()>(&::System::Resources::MissingSatelliteAssemblyException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5b6eb98;
+  constexpr static std::size_t addrs = 0x5b73054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::MissingSatelliteAssemblyException*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::MissingSatelliteAssemblyException::*)(::StringW, ::StringW)>(
     &::System::Resources::MissingSatelliteAssemblyException::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5b6ebf8;
+  constexpr static std::size_t addrs = 0x5b730b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::MissingSatelliteAssemblyException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Resources::MissingSatelliteAssemblyException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6ec2c;
+  constexpr static std::size_t addrs = 0x5b730e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

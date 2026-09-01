@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/ProBuilder/MeshHandle.hpp"
+// IWYU pragma private; include "UnityEngine\ProBuilder\MeshHandle.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__MeshHandle_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::ProBuilder::MeshHandle::*)()>(&::UnityEngine::ProBuilder::MeshHandle::get_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c0afc;
+  constexpr static std::size_t addrs = 0x66c8578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshHandle*>(), { "get_mesh", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshHandle::*)(::UnityEngine::Transform*, ::UnityEngine::Mesh*)>(
     &::UnityEngine::ProBuilder::MeshHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66c0b04;
+  constexpr static std::size_t addrs = 0x66c8580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshHandle*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshHandle::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshHandle::DrawMeshNow)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x66c0b0c;
+  constexpr static std::size_t addrs = 0x66c8588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

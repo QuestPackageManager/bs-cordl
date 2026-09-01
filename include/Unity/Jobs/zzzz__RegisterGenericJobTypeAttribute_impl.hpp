@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "Unity/Jobs/RegisterGenericJobTypeAttribute.hpp"
+// IWYU pragma private; include "Unity\Jobs\RegisterGenericJobTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Jobs/zzzz__RegisterGenericJobTypeAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::RegisterGenericJobTypeAttribute::*)(::System::Type*)>(&::Unity::Jobs::RegisterGenericJobTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a00ac;
+  constexpr static std::size_t addrs = 0x64a7b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

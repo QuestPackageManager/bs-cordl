@@ -1,5 +1,5 @@
 #pragma once
-// IWYU pragma private; include "UnityEngine/AddressableAssets/AssetReferenceGameObject.hpp"
+// IWYU pragma private; include "UnityEngine\AddressableAssets\AssetReferenceGameObject.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceGameObject_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::AssetReferenceGameObject::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceGameObject::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x64586d4;
+  constexpr static std::size_t addrs = 0x6460150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
